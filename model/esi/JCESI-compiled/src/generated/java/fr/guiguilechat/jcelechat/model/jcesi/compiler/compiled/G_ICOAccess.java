@@ -1228,8 +1228,7 @@ public interface G_ICOAccess
      * <p>
      * Returns a list of blueprints the corporation owns<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/blueprints/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_BLUEPRINTS_ROLES here}
@@ -1316,8 +1315,7 @@ public interface G_ICOAccess
      * <p>
      * Returns logs recorded in the past seven days from all audit log secure containers (ALSC) owned by a given corporation<br />
      * This route is cached for up to 600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/containers/logs/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_CONTAINERS_LOGS_ROLES here}
@@ -1415,8 +1413,7 @@ public interface G_ICOAccess
      * <p>
      * Return corporation hangar and wallet division names, only show if a division is not using the default name<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/divisions/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_DIVISIONS_ROLES here}
@@ -1435,8 +1432,7 @@ public interface G_ICOAccess
      * <p>
      * Return a corporation's facilities<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Factory_Manager<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/facilities/)
+     * Requires one of the following EVE corporation role(s): Factory_Manager
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_FACILITIES_ROLES here}
@@ -1516,8 +1512,7 @@ public interface G_ICOAccess
      * Get corporation medals
      * <p>
      * Returns a corporation's medals<br />
-     * This route is cached for up to 3600 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/medals/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param corporation_id
@@ -1535,8 +1530,7 @@ public interface G_ICOAccess
      * <p>
      * Returns medals issued by a corporation<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/medals/issued/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_MEDALS_ISSUED_ROLES here}
@@ -1556,8 +1550,7 @@ public interface G_ICOAccess
      * Get corporation members
      * <p>
      * Return the current member list of a corporation, the token's character need to be a member of the corporation.<br />
-     * This route is cached for up to 3600 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/members/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param corporation_id
@@ -1573,8 +1566,7 @@ public interface G_ICOAccess
      * <p>
      * Return a corporation's member limit, not including CEO himself<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/members/limit/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_MEMBERS_LIMIT_ROLES here}
@@ -1593,8 +1585,7 @@ public interface G_ICOAccess
      * <p>
      * Returns a corporation's members' titles<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/members/titles/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_MEMBERS_TITLES_ROLES here}
@@ -1613,8 +1604,7 @@ public interface G_ICOAccess
      * <p>
      * Returns additional information about a corporation's members which helps tracking their activities<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/membertracking/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_MEMBERTRACKING_ROLES here}
@@ -1674,8 +1664,7 @@ public interface G_ICOAccess
      * Get corporation member roles
      * <p>
      * Return the roles of all members if the character has the personnel manager role or any grantable role.<br />
-     * This route is cached for up to 3600 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/roles/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param corporation_id
@@ -1691,8 +1680,7 @@ public interface G_ICOAccess
      * <p>
      * Return how roles have changed for a coporation's members, up to a month<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/roles/history/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ROLES_HISTORY_ROLES here}
@@ -1733,8 +1721,7 @@ public interface G_ICOAccess
      * Get corporation standings
      * <p>
      * Return corporation standings from agents, NPC corporations, and factions<br />
-     * This route is cached for up to 3600 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/standings/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param corporation_id
@@ -1752,8 +1739,7 @@ public interface G_ICOAccess
      * <p>
      * Returns list of corporation starbases (POSes)<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/starbases/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STARBASES_ROLES here}
@@ -1774,8 +1760,7 @@ public interface G_ICOAccess
      * <p>
      * Returns various settings and fuels of a starbase (POS)<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/starbases/{starbase_id}/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STARBASES_STARBASE_ID_ROLES here}
@@ -1801,8 +1786,7 @@ public interface G_ICOAccess
      * <p>
      * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Station_Manager<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/structures/)
+     * Requires one of the following EVE corporation role(s): Station_Manager
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES here}
@@ -1823,8 +1807,7 @@ public interface G_ICOAccess
      * <p>
      * Returns a corporation's titles<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/titles/)
+     * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_TITLES_ROLES here}

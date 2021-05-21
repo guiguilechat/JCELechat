@@ -4151,6 +4151,8 @@ corporations:
     - 16240
     - 16241
     - 16339
+    - 17098
+    - 17099
     name: CONCORD
   CONCORD Aerospace:
     faction: CONCORD Assembly
@@ -10339,11 +10341,6 @@ corporations:
   Federal Strategic Materiel:
     faction: Gallente Federation
     id: 1000285
-    lpoffers:
-    - 16330
-    - 16331
-    - 16332
-    - 16333
     name: Federal Strategic Materiel
   Federation Customs:
     concordRate: 0.8
@@ -14067,11 +14064,6 @@ corporations:
   Imperial War Reserves:
     faction: Amarr Empire
     id: 1000283
-    lpoffers:
-    - 16322
-    - 16323
-    - 16324
-    - 16325
     name: Imperial War Reserves
   Impetus:
     concordRate: 0.8
@@ -22768,11 +22760,6 @@ corporations:
   Republic Fleet Ordnance:
     faction: Minmatar Republic
     id: 1000286
-    lpoffers:
-    - 16334
-    - 16335
-    - 16336
-    - 16337
     name: Republic Fleet Ordnance
   Republic Justice Department:
     concordRate: 0.8
@@ -26874,11 +26861,6 @@ corporations:
   State Military Stockpile:
     faction: Caldari State
     id: 1000284
-    lpoffers:
-    - 16326
-    - 16327
-    - 16328
-    - 16329
     name: State Military Stockpile
   State Peacekeepers:
     faction: Caldari State
@@ -28397,6 +28379,9 @@ corporations:
     - 17093
     - 17094
     name: The Convocation of Triglav
+  The Equilibrium of Mankind:
+    id: 1000409
+    name: The Equilibrium of Mankind
   The Leisure Group:
     concordRate: 0.8
     faction: Minmatar Republic

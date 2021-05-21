@@ -253,8 +253,7 @@ public interface G_IDCAccess
      * Get corporation information
      * <p>
      * Public information about a corporation<br />
-     * This route is cached for up to 3600 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param corporation_id
@@ -269,8 +268,7 @@ public interface G_IDCAccess
      * Get alliance history
      * <p>
      * Get a list of all the alliances a corporation has been a member of<br />
-     * This route is cached for up to 3600 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/alliancehistory/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param corporation_id
@@ -285,8 +283,7 @@ public interface G_IDCAccess
      * Get corporation icon
      * <p>
      * Get the icon urls for a corporation<br />
-     * This route is cached for up to 3600 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/icons/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param corporation_id
@@ -301,8 +298,7 @@ public interface G_IDCAccess
      * Get npc corporations
      * <p>
      * Get a list of npc corporations<br />
-     * This route expires daily at 11:05<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/npccorps/)
+     * This route expires daily at 11:05
      * </p>
      */
     public default Requested<Integer[]> get_corporations_npccorps(Map<String, String> properties) {

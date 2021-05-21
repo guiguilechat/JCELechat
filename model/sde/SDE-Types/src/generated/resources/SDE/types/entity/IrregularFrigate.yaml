@@ -1165,6 +1165,85 @@ types:
     thermaldamageresonance: 0.46000000834465027
     volume: 28100.0
     warpspeedmultiplier: 3.0
+  EoM Holy Binder:
+    agility: 3.5999999046325684
+    aipreferredsignatureradius: -1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 800.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 70
+    behaviorarmorrepairerdischarge: 40
+    behaviorarmorrepairerduration: 3000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 10000
+    behaviorwebifierrange: 10000.0
+    capacitorcapacity: 400.0
+    capacity: 400.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 40000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 330.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 100000
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entitymissiletypeid: 213
+    entityreactionfactor: 1.0
+    entitysensordampenduration: 30000
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 394
+    hp: 400.0
+    id: 57829
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 4
+    maxtargetrange: 30000.0
+    maxtargetrangemultiplier: 1.0
+    maxvelocity: 2600.0
+    missiledamagemultiplier: 1.2999999523162842
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 5000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: EoM Holy Binder
+    npcbehaviormaximumcombatorbitrange: 5000.0
+    optimalsigradius: 1000
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 13.0
+    rechargerate: 153000.0
+    scanradarstrength: 10.0
+    scanresolution: 1150.0
+    shieldcapacity: 400.0
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1200000.0
+    shieldthermaldamageresonance: 0.699999988079071
+    shielduniformity: 1.0
+    signatureradius: 50.0
+    speedfactor: -60.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpspeedmultiplier: 10.0
   Eosian Defender:
     aipreferredsignatureradius: -1
     aishoulduseeffectmultiplier: 1

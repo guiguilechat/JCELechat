@@ -428,6 +428,86 @@ types:
     thermaldamageresonance: 0.46000000834465027
     volume: 252000.0
     warpspeedmultiplier: 3.0
+  EoM Devout Fanatic:
+    agility: 0.5
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.5
+    armorhp: 7000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 500
+    behaviorarmorrepairerdischarge: 300
+    behaviorarmorrepairerduration: 9000
+    capacitorcapacity: 4000.0
+    capacity: 4000.0
+    damagemultiplier: 4.599999904632568
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 0.6600000262260437
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 40000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 220.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 600000
+    entitymaxvelocitysignatureradiusmultiplier: 1
+    entitymissiletypeid: 202
+    entityreactionfactor: 1.0
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 0.6600000262260437
+    falloff: 8000.0
+    gfxboosterid: 395
+    gfxturretid: 568
+    hp: 5000.0
+    id: 57835
+    kineticdamage: 42.0
+    kineticdamageresonance: 0.6600000262260437
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 7
+    maxrange: 8000.0
+    maxtargetrange: 80000.0
+    maxvelocity: 554.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.7000000476837158
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 6000.0
+    modifytargetspeedduration: 5000.0
+    name: EoM Devout Fanatic
+    npcbehaviormaximumcombatorbitrange: 7000.0
+    optimalsigradius: 40000
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 199.0
+    rechargerate: 730000.0
+    scanradarstrength: 21.0
+    scanresolution: 262.0
+    shieldcapacity: 3000.0
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1200000.0
+    shieldthermaldamageresonance: 0.699999988079071
+    shielduniformity: 1.0
+    signatureradius: 300.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 32.0
+    thermaldamageresonance: 0.6600000262260437
+    trackingspeed: 48.0
+    warpspeedmultiplier: 10.0
   Guardian Angels Hanael:
     agility: 0.44999998807907104
     aitankingmodifierdrone: 0.699999988079071

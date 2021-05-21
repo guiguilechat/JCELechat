@@ -1,4 +1,10 @@
 types:
+  ' Capsuleer Day XVIII T-Shirt and Cap Crate':
+    cpumultiplier: 1.0
+    id: 58797
+    name: ' Capsuleer Day XVIII T-Shirt and Cap Crate'
+    portionSize: 1
+    published: true
   '''Bitwave Glacier'' Augmentation Crate':
     cpumultiplier: 1.0
     id: 49804
@@ -515,6 +521,12 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Capsule Cascade Firework Crate:
+    cpumultiplier: 1.0
+    id: 58795
+    name: Capsule Cascade Firework Crate
+    portionSize: 1
+    published: true
   Capsuleer Day XVI Apotheosis & SKIN Crate:
     cpumultiplier: 1.0
     id: 52296

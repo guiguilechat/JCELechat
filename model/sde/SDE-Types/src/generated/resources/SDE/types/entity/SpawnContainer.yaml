@@ -1,4 +1,60 @@
 types:
+  AEGIS Encrypted Key Storage:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 57560
+    lootrespawntime: 600000.0
+    name: AEGIS Encrypted Key Storage
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 100000.0
+  AEGIS Security Vault:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 57561
+    lootrespawntime: 600000.0
+    name: AEGIS Security Vault
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
   Abandoned Container:
     capacitorcapacity: 2700.0
     capacity: 2700.0
@@ -3572,6 +3628,34 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 1.0E8
+  Gate Control System:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 57562
+    lootrespawntime: 600000.0
+    name: Gate Control System
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
   Guristas Derelict:
     accessdifficulty: 9.999999974752427E-7
     capacitorcapacity: 2700.0
@@ -7643,6 +7727,34 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 1150.0
+  Super Special Vault:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 57563
+    lootrespawntime: 600000.0
+    name: Super Special Vault
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
   Survey Ship:
     capacitorcapacity: 2700.0
     capacity: 27500.0

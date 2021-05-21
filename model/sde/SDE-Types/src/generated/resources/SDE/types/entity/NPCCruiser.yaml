@@ -1,4 +1,66 @@
 types:
+  AEGIS Security Enforcer:
+    agility: 1.1799999475479126
+    armoremdamageresonance: 0.3190000057220459
+    armorexplosivedamageresonance: 0.3179999887943268
+    armorhp: 11339.0
+    armorkineticdamageresonance: 0.1550000011920929
+    armorthermaldamageresonance: 0.2590000033378601
+    behaviorwarpdisruptdischarge: 15.0
+    behaviorwarpdisruptduration: 5000
+    behaviorwarpdisruptrange: 56000
+    behaviorwarpdisruptstrength: 1
+    capacitorcapacity: 1642.0
+    capacity: 300.0
+    damagemultiplier: 10.0
+    emdamageresonance: 0.4020000100135803
+    energywarfareresistance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 500.0
+    explosivedamageresonance: 0.4020000100135803
+    falloff: 15000.0
+    gfxboosterid: 394
+    gfxturretid: 14272
+    hp: 1400.0
+    id: 57584
+    kineticdamage: 6.0
+    kineticdamageresonance: 0.4020000100135803
+    maxlockedtargets: 9
+    maxrange: 72000.0
+    maxtargetrange: 175000.0
+    maxvelocity: 1452.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: AEGIS Security Enforcer
+    optimalsigradius: 40000
+    packagedVolume: 116000.0
+    portionSize: 1
+    published: false
+    radius: 200.0
+    rechargerate: 242250.0
+    scanmagnetometricstrength: 36.0
+    scanresolution: 540.0
+    shieldcapacity: 1687.0
+    shieldemdamageresonance: 0.875
+    shieldexplosivedamageresonance: 0.43799999356269836
+    shieldkineticdamageresonance: 0.19699999690055847
+    shieldrechargerate: 3750000.0
+    shieldthermaldamageresonance: 0.43799999356269836
+    signatureradius: 900.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 4.0
+    thermaldamageresonance: 0.4020000100135803
+    trackingspeed: 250.0
+    volume: 116000.0
+    warpspeedmultiplier: 3.0
   ♦ Annihilator Drone:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0

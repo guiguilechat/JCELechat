@@ -54489,6 +54489,8 @@ blueprints:
       skills:
         ? id: 11442
         : 1
+        ? id: 11442
+        : 1
         ? id: 11443
         : 1
       time: 3744
@@ -54557,6 +54559,8 @@ blueprints:
       - id: 11457
         quantity: 1
       skills:
+        ? id: 11442
+        : 1
         ? id: 11442
         : 1
         ? id: 11443
@@ -173351,3 +173355,161 @@ blueprints:
     research_time:
       time: 12600
     seeded: true
+  58955:
+    copying:
+      time: 720
+    id: 58955
+    invention:
+      materials:
+      - id: 20414
+        quantity: 2
+      - id: 20418
+        quantity: 2
+      products:
+      - id: 58975
+        probability: 0.34
+        quantity: 10
+      skills:
+        ? id: 11453
+        : 1
+        ? id: 11455
+        : 1
+        ? id: 21791
+        : 1
+      time: 13800
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 566
+      - id: 35
+        quantity: 604
+      - id: 36
+        quantity: 286
+      products:
+      - id: 58919
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: true
+  58973:
+    copying:
+      time: 720
+    id: 58973
+    manufacturing:
+      materials:
+      - id: 58919
+        quantity: 1
+      products:
+      - id: 58966
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  58974:
+    copying:
+      time: 720
+    id: 58974
+    manufacturing:
+      materials:
+      - id: 58919
+        quantity: 1
+      products:
+      - id: 58971
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  58975:
+    copying:
+      materials:
+      - id: 3812
+        quantity: 15
+      - id: 11460
+        quantity: 1
+      skills:
+        ? id: 11453
+        : 1
+        ? id: 11455
+        : 1
+      time: 1872
+    id: 58975
+    manufacturing:
+      materials:
+      - id: 11399
+        quantity: 5
+      - id: 11483
+        quantity: 2
+      - id: 11538
+        quantity: 6
+      - id: 58919
+        quantity: 1
+      products:
+      - id: 58972
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 11453
+        : 1
+        ? id: 11455
+        : 1
+      time: 2340
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 2
+      - id: 9836
+        quantity: 1
+      - id: 11460
+        quantity: 1
+      skills:
+        ? id: 3409
+        : 5
+        ? id: 11453
+        : 1
+        ? id: 11455
+        : 1
+      time: 819
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 2
+      - id: 9836
+        quantity: 1
+      - id: 11460
+        quantity: 1
+      skills:
+        ? id: 3403
+        : 5
+        ? id: 11453
+        : 1
+        ? id: 11455
+        : 1
+      time: 819
+    seeded: false

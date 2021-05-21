@@ -35,6 +35,29 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Capsuleer Day Noise-18 'Needlejack' Filament:
+    filamentdescriptionmessageid: 561098
+    id: 58857
+    mjdshipjumpcap: 18
+    mjfgradius: 6000
+    name: Capsuleer Day Noise-18 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Capsuleer Day Signal-18 'Needlejack' Filament:
+    activesystemjump: 1
+    filamentdescriptionmessageid: 561098
+    id: 58858
+    mjdshipjumpcap: 18
+    mjfgradius: 6000
+    name: Capsuleer Day Signal-18 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
   DNCR-05H Highsec Ice Storm Filament:
     filamentdescriptionmessageid: 554513
     id: 53331

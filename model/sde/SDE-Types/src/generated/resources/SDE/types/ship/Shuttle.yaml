@@ -60,6 +60,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
   Apotheosis:
@@ -127,6 +128,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 17400.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
   Caldari Shuttle:
@@ -190,6 +192,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
   Council Diplomatic Shuttle:
@@ -257,6 +260,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
   Gallente Shuttle:
@@ -320,6 +324,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
   Goru's Shuttle:
@@ -448,6 +453,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
   InterBus Shuttle:
@@ -511,6 +517,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
   Leopard:
@@ -575,6 +582,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
   Minmatar Shuttle:
@@ -638,5 +646,6 @@ types:
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
+    warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0

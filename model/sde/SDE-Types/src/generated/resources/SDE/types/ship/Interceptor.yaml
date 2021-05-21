@@ -74,6 +74,8 @@ types:
     shipbonus2af: 5.0
     shipbonusgf: 10.0
     shipbonusgf2: 10.0
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     signatureradius: 35.0
     structureuniformity: 1.0
     techlevel: 2
@@ -84,7 +86,6 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 22500.0
-    warpbubbleimmune: 1
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 8.0
   Claw:
@@ -250,6 +251,8 @@ types:
     shipbonus2af: 5.0
     shipbonuscf: 10
     shipbonuscf2: -5.0
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     signatureradius: 35.0
     structureuniformity: 1.0
     techlevel: 2
@@ -259,7 +262,6 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 18000.0
-    warpbubbleimmune: 1
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 8.0
   Crusader:
@@ -425,6 +427,8 @@ types:
     shipbonus2af: 7.5
     shipbonusaf: 7.5
     shipbonuscf2: 20.0
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     shipbonusrole7: 250.0
     signatureradius: 35.0
     structureuniformity: 1.0
@@ -436,7 +440,6 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 28600.0
-    warpbubbleimmune: 1
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 8.0
   Malediction:
@@ -513,6 +516,8 @@ types:
     shielduniformity: 0.75
     shipbonus2af: -5.0
     shipbonusaf: -4.0
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     signatureradius: 33.0
     structureuniformity: 1.0
     techlevel: 2
@@ -523,7 +528,6 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 28100.0
-    warpbubbleimmune: 1
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 8.0
   Raptor:
@@ -689,6 +693,8 @@ types:
     shipbonus2af: 5.0
     shipbonusmf: 5.0
     shipbonusmf2: 7.5
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     signatureradius: 31.0
     structureuniformity: 1.0
     techlevel: 2
@@ -699,7 +705,6 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 17400.0
-    warpbubbleimmune: 1
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 8.0
   Taranis:
@@ -869,6 +874,8 @@ types:
     shipbonus2af: 5.0
     shipbonuscf: -4
     shipbonusgf: 10.0
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     shipbonusrole7: 375.0
     signatureradius: 35.0
     structureuniformity: 1.0
@@ -879,6 +886,5 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 18000.0
-    warpbubbleimmune: 1
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 8.0

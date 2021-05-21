@@ -15,12 +15,19 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanActivateInGateCloak;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup07;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidthPercentage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationHighisGood;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
@@ -34,11 +41,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpBubbleImmuneBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
-public class WarpCoreStabilizer
+public class InterdictionNullifier
     extends Module
 {
     /**
@@ -48,6 +55,55 @@ public class WarpCoreStabilizer
     @Stackable(false)
     @DefaultIntValue(0)
     public int canactivateingatecloak;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup01;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup02;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup03;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup04;
+    /**
+     * Can be fitted to
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup05;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup07;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshiptype1;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -76,10 +132,10 @@ public class WarpCoreStabilizer
     /**
      * Length of activation time.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double duration;
+    @DefaultIntValue(0)
+    public int durationhighisgood;
     /**
      * 
      */
@@ -161,14 +217,14 @@ public class WarpCoreStabilizer
     @DefaultIntValue(1)
     public int techlevel;
     /**
-     * Amount to modify ships warp scramble status by.
+     * modifies warp bubble immuntiy 
      */
     @HighIsGood(true)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, WarpScrambleStrength.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, CanActivateInGateCloak.INSTANCE, DroneBandwidthPercentage.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
-    public static final WarpCoreStabilizer.MetaGroup METAGROUP = new WarpCoreStabilizer.MetaGroup();
+    public int warpbubbleimmunebonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, CanFitShipGroup04 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipGroup07 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DurationHighisGood.INSTANCE, WarpBubbleImmuneBonus.INSTANCE, Cpu.INSTANCE, CanActivateInGateCloak.INSTANCE, DroneBandwidthPercentage.INSTANCE, ScanResolutionMultiplier.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final InterdictionNullifier.MetaGroup METAGROUP = new InterdictionNullifier.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -176,6 +232,34 @@ public class WarpCoreStabilizer
             case  3123 :
             {
                 return canactivateingatecloak;
+            }
+            case  1298 :
+            {
+                return canfitshipgroup01;
+            }
+            case  1299 :
+            {
+                return canfitshipgroup02;
+            }
+            case  1300 :
+            {
+                return canfitshipgroup03;
+            }
+            case  1301 :
+            {
+                return canfitshipgroup04;
+            }
+            case  1872 :
+            {
+                return canfitshipgroup05;
+            }
+            case  1880 :
+            {
+                return canfitshipgroup07;
+            }
+            case  1302 :
+            {
+                return canfitshiptype1;
             }
             case  6 :
             {
@@ -193,9 +277,9 @@ public class WarpCoreStabilizer
             {
                 return dronebandwidthpercentage;
             }
-            case  73 :
+            case  3115 :
             {
-                return duration;
+                return durationhighisgood;
             }
             case  1544 :
             {
@@ -237,9 +321,9 @@ public class WarpCoreStabilizer
             {
                 return techlevel;
             }
-            case  105 :
+            case  3120 :
             {
-                return warpscramblestrength;
+                return warpbubbleimmunebonus;
             }
             default:
             {
@@ -254,35 +338,35 @@ public class WarpCoreStabilizer
     }
 
     @Override
-    public IMetaGroup<WarpCoreStabilizer> getGroup() {
+    public IMetaGroup<InterdictionNullifier> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<WarpCoreStabilizer>
+        implements IMetaGroup<InterdictionNullifier>
     {
-        public static final String RESOURCE_PATH = "SDE/types/module/WarpCoreStabilizer.yaml";
-        private Map<String, WarpCoreStabilizer> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/module/InterdictionNullifier.yaml";
+        private Map<String, InterdictionNullifier> cache = (null);
 
         @Override
-        public IMetaCategory<? super WarpCoreStabilizer> category() {
+        public IMetaCategory<? super InterdictionNullifier> category() {
             return Module.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  315;
+            return  4117;
         }
 
         @Override
         public String getName() {
-            return "WarpCoreStabilizer";
+            return "InterdictionNullifier";
         }
 
         @Override
-        public synchronized Map<String, WarpCoreStabilizer> load() {
+        public synchronized Map<String, InterdictionNullifier> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(WarpCoreStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(InterdictionNullifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -292,7 +376,7 @@ public class WarpCoreStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpCoreStabilizer> types;
+            public LinkedHashMap<String, InterdictionNullifier> types;
         }
     }
 }

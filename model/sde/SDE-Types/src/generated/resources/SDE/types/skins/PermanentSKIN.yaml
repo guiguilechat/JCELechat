@@ -102,6 +102,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Abaddon Imperial Navy SKIN:
+    id: 58902
+    marketGroup: 1964
+    name: Abaddon Imperial Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Ironblood SKIN:
     id: 43515
     marketGroup: 1964
@@ -433,6 +441,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Aeon Ultraviolence Vortex SKIN:
+    id: 58798
+    marketGroup: 1974
+    name: Aeon Ultraviolence Vortex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Algos Abyssal Firestorm SKIN:
     id: 53140
     marketGroup: 1996
@@ -453,6 +469,14 @@ types:
     id: 45887
     marketGroup: 1996
     name: Algos Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Algos Federation Navy SKIN:
+    id: 58887
+    marketGroup: 1996
+    name: Algos Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1231,6 +1255,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Apotheosis Capsuleer Day XVIII SKIN:
+    id: 58600
+    name: Apotheosis Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Apotheosis Capsuleer Elite XV SKIN:
     id: 47647
     marketGroup: 2316
@@ -1441,6 +1472,14 @@ types:
     id: 44142
     marketGroup: 1990
     name: Arbitrator Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Arbitrator Imperial Navy SKIN:
+    id: 58899
+    marketGroup: 1990
+    name: Arbitrator Imperial Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3124,6 +3163,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Basilisk Capsuleer Day XVIII SKIN:
+    id: 58608
+    name: Basilisk Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Basilisk Eden's Hunters SKIN:
     id: 54908
     marketGroup: 2078
@@ -3302,6 +3348,14 @@ types:
   Bellicose Krusual Serenity Only SKIN:
     id: 38624
     name: Bellicose Krusual Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bellicose Republic Fleet SKIN:
+    id: 58869
+    marketGroup: 1993
+    name: Bellicose Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3532,6 +3586,14 @@ types:
     id: 36721
     marketGroup: 1991
     name: Blackbird Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Blackbird Caldari Navy SKIN:
+    id: 58879
+    marketGroup: 1991
+    name: Blackbird Caldari Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3818,6 +3880,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Breacher Republic Fleet SKIN:
+    id: 58865
+    marketGroup: 2005
+    name: Breacher Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Breacher Snowline Bladeracer SKIN:
     id: 52844
     marketGroup: 2005
@@ -3950,13 +4020,6 @@ types:
     id: 53244
     marketGroup: 1958
     name: Brutix Abyssal Firestorm SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Brutix Abyssal Glory SKIN:
-    id: 56777
-    name: Brutix Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4420,6 +4483,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Buzzard Caldari Navy SKIN:
+    id: 58876
+    marketGroup: 2052
+    name: Buzzard Caldari Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Buzzard Exoplanets Hunter SKIN:
     id: 45820
     marketGroup: 2052
@@ -4587,6 +4658,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Capsule - Genolution 'Auroral' 197-variant Capsuleer Day XVIII SKIN:
+    id: 58612
+    name: Capsule - Genolution 'Auroral' 197-variant Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Capsule Aurora Universalis SKIN:
     id: 57004
     name: Capsule Aurora Universalis SKIN
@@ -4597,6 +4675,13 @@ types:
   Capsule Capsuleer Day XVII SKIN:
     id: 54744
     name: Capsule Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Capsule Capsuleer Day XVIII SKIN:
+    id: 58611
+    name: Capsule Capsuleer Day XVIII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4644,13 +4729,6 @@ types:
     id: 53133
     marketGroup: 1991
     name: Caracal Abyssal Firestorm SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Caracal Abyssal Glory SKIN:
-    id: 55849
-    name: Caracal Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4946,13 +5024,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Catalyst Abyssal Glory SKIN:
-    id: 56778
-    name: Catalyst Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Catalyst Aliastra SKIN:
     id: 34708
     marketGroup: 1996
@@ -5159,6 +5230,14 @@ types:
     id: 45892
     marketGroup: 1992
     name: Celestis Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Celestis Federation Navy SKIN:
+    id: 58889
+    marketGroup: 1992
+    name: Celestis Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5887,13 +5966,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Coercer Abyssal Glory SKIN:
-    id: 56774
-    name: Coercer Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Coercer Ardishapur SKIN:
     id: 34700
     marketGroup: 1994
@@ -5975,6 +6047,14 @@ types:
     id: 48845
     marketGroup: 1994
     name: Coercer Imperial Jubilee SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Coercer Imperial Navy SKIN:
+    id: 58897
+    marketGroup: 1994
+    name: Coercer Imperial Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6376,13 +6456,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Cormorant Abyssal Glory SKIN:
-    id: 56776
-    name: Cormorant Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Cormorant Aurora Universalis SKIN:
     id: 53372
     marketGroup: 1995
@@ -6403,6 +6476,14 @@ types:
     id: 36719
     marketGroup: 1995
     name: Cormorant Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cormorant Caldari Navy SKIN:
+    id: 58877
+    marketGroup: 1995
+    name: Cormorant Caldari Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6905,6 +6986,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier Capsuleer Day XVIII SKIN:
+    id: 58604
+    name: Crucifier Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crucifier Cold Iron SKIN:
     id: 42746
     marketGroup: 2002
@@ -7150,6 +7238,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crusader Imperial Navy SKIN:
+    id: 58896
+    marketGroup: 2059
+    name: Crusader Imperial Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crusader Ironblood SKIN:
     id: 43493
     marketGroup: 2059
@@ -7282,13 +7378,6 @@ types:
     id: 52578
     marketGroup: 2081
     name: Curse Star Captain SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Cyclone Abyssal Glory SKIN:
-    id: 56779
-    name: Cyclone Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9949,6 +10038,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Falcon Caldari Navy SKIN:
+    id: 58880
+    marketGroup: 2082
+    name: Falcon Caldari Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Falcon Exoplanets Hunter SKIN:
     id: 45841
     marketGroup: 2082
@@ -10175,13 +10272,6 @@ types:
     id: 36796
     marketGroup: 1987
     name: Fenrir Valklear Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Ferox Abyssal Glory SKIN:
-    id: 56775
-    name: Ferox Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10690,6 +10780,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Gnosis Capsuleer Day XVIII SKIN:
+    id: 58602
+    name: Gnosis Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Gnosis Capsuleer Elite XV SKIN:
     id: 47649
     marketGroup: 2312
@@ -10973,6 +11070,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Griffin Capsuleer Day XVIII SKIN:
+    id: 58606
+    name: Griffin Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Griffin Exoplanets Hunter SKIN:
     id: 45814
     marketGroup: 2003
@@ -11041,6 +11145,14 @@ types:
     id: 45827
     marketGroup: 2000
     name: Griffin Navy Issue Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Griffin Navy Issue Forward 4-4 SKIN:
+    id: 58861
+    marketGroup: 2000
+    name: Griffin Navy Issue Forward 4-4 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11147,6 +11259,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Guardian Capsuleer Day XVIII SKIN:
+    id: 58605
+    name: Guardian Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Guardian Cold Iron SKIN:
     id: 42773
     marketGroup: 2077
@@ -11215,6 +11334,14 @@ types:
     id: 46530
     marketGroup: 2077
     name: Guardian Imperial Jubilee SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Guardian Imperial Navy SKIN:
+    id: 58900
+    marketGroup: 2077
+    name: Guardian Imperial Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11961,6 +12088,14 @@ types:
     id: 40507
     marketGroup: 1977
     name: Hel Tronhadar Ink SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hel Ultraviolence Vortex SKIN:
+    id: 58801
+    marketGroup: 1977
+    name: Hel Ultraviolence Vortex SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13009,6 +13144,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hyena Republic Fleet SKIN:
+    id: 58866
+    marketGroup: 2058
+    name: Hyena Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hyena Snowline Bladeracer SKIN:
     id: 52854
     marketGroup: 2058
@@ -13084,6 +13227,14 @@ types:
     id: 52438
     marketGroup: 1966
     name: Hyperion Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hyperion Federation Navy SKIN:
+    id: 58892
+    marketGroup: 1966
+    name: Hyperion Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13592,6 +13743,14 @@ types:
     id: 45873
     marketGroup: 2004
     name: Incursus Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Incursus Federation Navy SKIN:
+    id: 58884
+    marketGroup: 2004
+    name: Incursus Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14475,6 +14634,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kestrel Caldari Navy SKIN:
+    id: 58874
+    marketGroup: 2003
+    name: Kestrel Caldari Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kestrel Exoplanets Hunter SKIN:
     id: 45816
     marketGroup: 2003
@@ -14814,6 +14981,14 @@ types:
     id: 34817
     marketGroup: 2026
     name: Kronos Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kronos Federation Navy SKIN:
+    id: 58893
+    marketGroup: 2026
+    name: Kronos Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16253,6 +16428,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maller Imperial Navy SKIN:
+    id: 58898
+    marketGroup: 1990
+    name: Maller Imperial Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maller Ironblood SKIN:
     id: 43502
     marketGroup: 1990
@@ -16681,6 +16864,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maulus Capsuleer Day XVIII SKIN:
+    id: 58607
+    name: Maulus Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maulus Exoplanets Hunter SKIN:
     id: 45874
     marketGroup: 2004
@@ -17091,13 +17281,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Merlin Abyssal Glory SKIN:
-    id: 55850
-    name: Merlin Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Merlin Biosecurity Responders SKIN:
     id: 55530
     marketGroup: 2003
@@ -17110,6 +17293,14 @@ types:
     id: 36710
     marketGroup: 2003
     name: Merlin Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Merlin Caldari Navy SKIN:
+    id: 58875
+    marketGroup: 2003
+    name: Merlin Caldari Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17510,6 +17701,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Moa Caldari Navy SKIN:
+    id: 58878
+    marketGroup: 1991
+    name: Moa Caldari Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Moa Capsuleer Day XVII SKIN:
     id: 54764
     marketGroup: 1991
@@ -17858,6 +18057,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Muninn Republic Fleet SKIN:
+    id: 58870
+    marketGroup: 2072
+    name: Muninn Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Muninn Snowline Bladeracer SKIN:
     id: 52869
     marketGroup: 2072
@@ -18035,6 +18242,14 @@ types:
     id: 36733
     marketGroup: 1957
     name: Naga Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Naga Caldari Navy SKIN:
+    id: 58881
+    marketGroup: 1957
+    name: Naga Caldari Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19300,6 +19515,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nyx Ultraviolence Vortex SKIN:
+    id: 58800
+    marketGroup: 1976
+    name: Nyx Ultraviolence Vortex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nyx Umbral SKIN:
     id: 36522
     marketGroup: 1976
@@ -19534,13 +19757,6 @@ types:
     id: 37593
     marketGroup: 2090
     name: Occator Valimor Legacy SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Omen Abyssal Glory SKIN:
-    id: 55848
-    name: Omen Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19818,6 +20034,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Oneiros Capsuleer Day XVIII SKIN:
+    id: 58756
+    name: Oneiros Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Oneiros Emergency Response Squad SKIN:
     id: 48725
     marketGroup: 2079
@@ -19830,6 +20053,14 @@ types:
     id: 45899
     marketGroup: 2079
     name: Oneiros Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Oneiros Federation Navy SKIN:
+    id: 58890
+    marketGroup: 2079
+    name: Oneiros Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20217,6 +20448,14 @@ types:
   Orca Caldari Industrial Livery Serenity Only SKIN:
     id: 49273
     name: Orca Caldari Industrial Livery Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Orca Capsuleer Day XVIII SKIN:
+    id: 58823
+    marketGroup: 2338
+    name: Orca Capsuleer Day XVIII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21408,6 +21647,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Porpoise Capsuleer Day XVIII SKIN:
+    id: 58822
+    marketGroup: 2338
+    name: Porpoise Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Porpoise GalNet StreamCast Unit SKIN:
     id: 57740
     marketGroup: 2338
@@ -21493,6 +21740,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Praxis Capsuleer Day XVIII SKIN:
+    id: 58603
+    name: Praxis Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Praxis Capsuleer Elite XV SKIN:
     id: 47650
     marketGroup: 2421
@@ -21513,6 +21767,22 @@ types:
     id: 49796
     marketGroup: 2421
     name: Praxis Icecloud Investigators SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Praxis Versus Blueforce SKIN:
+    id: 58860
+    marketGroup: 2421
+    name: Praxis Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Praxis Versus Redforce SKIN:
+    id: 58859
+    marketGroup: 2421
+    name: Praxis Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21799,13 +22069,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Prophecy Abyssal Glory SKIN:
-    id: 56773
-    name: Prophecy Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Prophecy Biosecurity Responders SKIN:
     id: 55309
     marketGroup: 1956
@@ -21879,6 +22142,14 @@ types:
     id: 46531
     marketGroup: 1956
     name: Prophecy Imperial Jubilee SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prophecy Imperial Navy SKIN:
+    id: 58901
+    marketGroup: 1956
+    name: Prophecy Imperial Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22458,13 +22729,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Punisher Abyssal Glory SKIN:
-    id: 55847
-    name: Punisher Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Punisher Biosecurity Responders SKIN:
     id: 55306
     marketGroup: 2002
@@ -22524,6 +22788,14 @@ types:
     id: 53207
     marketGroup: 2002
     name: Punisher Harmonious Ascension SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Punisher Imperial Navy SKIN:
+    id: 58894
+    marketGroup: 2002
+    name: Punisher Imperial Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23101,6 +23373,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Raven Caldari Navy SKIN:
+    id: 58882
+    marketGroup: 1965
+    name: Raven Caldari Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raven Caldari Union Day SKIN:
     id: 48732
     marketGroup: 1965
@@ -23215,6 +23495,14 @@ types:
     id: 45857
     marketGroup: 2108
     name: Raven Navy Issue Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Navy Issue Forward 4-4 SKIN:
+    id: 58862
+    marketGroup: 2108
+    name: Raven Navy Issue Forward 4-4 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23459,6 +23747,14 @@ types:
     id: 48857
     marketGroup: 2110
     name: Redeemer Imperial Jubilee SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Redeemer Imperial Navy SKIN:
+    id: 58903
+    marketGroup: 2110
+    name: Redeemer Imperial Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24065,13 +24361,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Rifter Abyssal Glory SKIN:
-    id: 55854
-    name: Rifter Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Rifter Biosecurity Responders SKIN:
     id: 55643
     marketGroup: 2005
@@ -24162,6 +24451,14 @@ types:
   Rifter Nefantar Serenity Only SKIN:
     id: 36993
     name: Rifter Nefantar Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rifter Republic Fleet SKIN:
+    id: 58864
+    marketGroup: 2005
+    name: Rifter Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24514,6 +24811,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rorqual Capsuleer Day XVIII SKIN:
+    id: 58824
+    marketGroup: 1969
+    name: Rorqual Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rorqual Claim Foreman SKIN:
     id: 44071
     marketGroup: 1969
@@ -24776,6 +25081,14 @@ types:
     id: 54447
     marketGroup: 1993
     name: Rupture Permaband Roadies SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rupture Republic Fleet SKIN:
+    id: 58868
+    marketGroup: 1993
+    name: Rupture Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25123,6 +25436,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scimitar Capsuleer Day XVIII SKIN:
+    id: 58610
+    name: Scimitar Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scimitar Dawn of Liberation SKIN:
     id: 48508
     marketGroup: 2080
@@ -25302,6 +25622,14 @@ types:
     id: 45858
     marketGroup: 2108
     name: Scorpion Navy Issue Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scorpion Navy Issue Forward 4-4 SKIN:
+    id: 58863
+    marketGroup: 2108
+    name: Scorpion Navy Issue Forward 4-4 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26291,13 +26619,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Stabber Abyssal Glory SKIN:
-    id: 55853
-    name: Stabber Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Stabber Aurora Universalis SKIN:
     id: 57023
     marketGroup: 1993
@@ -26849,6 +27170,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sunesis Capsuleer Day XVIII SKIN:
+    id: 58601
+    name: Sunesis Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sunesis Capsuleer Elite XV SKIN:
     id: 47648
     marketGroup: 2314
@@ -27048,6 +27376,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Talos Federation Navy SKIN:
+    id: 58891
+    marketGroup: 1958
+    name: Talos Federation Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Talos Glacial Drift SKIN:
     id: 46953
     marketGroup: 1958
@@ -27213,6 +27549,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Talwar Republic Fleet SKIN:
+    id: 58867
+    marketGroup: 1997
+    name: Talwar Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Talwar Sebiestor SKIN:
     id: 34714
     marketGroup: 1997
@@ -27280,6 +27624,14 @@ types:
     id: 45883
     marketGroup: 2061
     name: Taranis Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Taranis Federation Navy SKIN:
+    id: 58886
+    marketGroup: 2061
+    name: Taranis Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28012,13 +28364,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Thorax Abyssal Glory SKIN:
-    id: 55851
-    name: Thorax Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Thorax Aliastra SKIN:
     id: 34692
     marketGroup: 1992
@@ -28062,6 +28407,14 @@ types:
     id: 52435
     marketGroup: 1992
     name: Thorax Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thorax Federation Navy SKIN:
+    id: 58888
+    marketGroup: 1992
+    name: Thorax Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28189,13 +28542,6 @@ types:
     id: 37565
     marketGroup: 1992
     name: Thorax Valimor Legacy SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Thrasher Abyssal Glory SKIN:
-    id: 56780
-    name: Thrasher Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28426,6 +28772,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tormentor Imperial Navy SKIN:
+    id: 58895
+    marketGroup: 2002
+    name: Tormentor Imperial Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tormentor Ironblood SKIN:
     id: 43487
     marketGroup: 2002
@@ -28598,6 +28952,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tornado Republic Fleet SKIN:
+    id: 58871
+    marketGroup: 1959
+    name: Tornado Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tornado Snowline Bladeracer SKIN:
     id: 52880
     marketGroup: 1959
@@ -28622,13 +28984,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Tristan Abyssal Glory SKIN:
-    id: 55852
-    name: Tristan Abyssal Glory SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Tristan Biosecurity Responders SKIN:
     id: 55586
     marketGroup: 2004
@@ -28649,6 +29004,14 @@ types:
     id: 45876
     marketGroup: 2004
     name: Tristan Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tristan Federation Navy SKIN:
+    id: 58885
+    marketGroup: 2004
+    name: Tristan Federation Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28999,6 +29362,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Republic Fleet SKIN:
+    id: 58872
+    marketGroup: 1967
+    name: Typhoon Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Typhoon Snowline Bladeracer SKIN:
     id: 52886
     marketGroup: 1967
@@ -29263,6 +29634,14 @@ types:
   Vargur Nefantar SKIN:
     id: 34821
     name: Vargur Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vargur Republic Fleet SKIN:
+    id: 58873
+    marketGroup: 2027
+    name: Vargur Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30103,6 +30482,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vigil Capsuleer Day XVIII SKIN:
+    id: 58609
+    name: Vigil Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vigil Dawn of Liberation SKIN:
     id: 48490
     marketGroup: 2005
@@ -30456,6 +30842,14 @@ types:
     id: 36739
     marketGroup: 2111
     name: Widow Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Widow Caldari Navy SKIN:
+    id: 58883
+    marketGroup: 2111
+    name: Widow Caldari Navy SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30845,6 +31239,14 @@ types:
     id: 46138
     marketGroup: 1975
     name: Wyvern Steel Cardinal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wyvern Ultraviolence Vortex SKIN:
+    id: 58799
+    marketGroup: 1975
+    name: Wyvern Ultraviolence Vortex SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

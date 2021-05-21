@@ -286,6 +286,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Capsuleer Day XVIII Cap:
+    gender: 2
+    id: 58767
+    marketGroup: 1943
+    name: Men's Capsuleer Day XVIII Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Capsuleer Elite XV Cap:
     gender: 2
     id: 47191
@@ -702,6 +711,15 @@ types:
     id: 54322
     marketGroup: 1943
     name: Women's Capsuleer Day XVII Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Capsuleer Day XVIII Cap:
+    gender: 2
+    id: 58769
+    marketGroup: 1943
+    name: Women's Capsuleer Day XVIII Cap
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

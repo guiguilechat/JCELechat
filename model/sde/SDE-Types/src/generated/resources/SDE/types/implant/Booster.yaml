@@ -600,6 +600,50 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 4
+  Basic Capsuleer Day Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18786.45703125
+    boosterness: 10
+    charismabonus: 4
+    followsjumpclones: 1
+    id: 58853
+    intelligencebonus: 4
+    marketGroup: 2487
+    memorybonus: 4
+    name: Basic Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 4
+  Basic Capsuleer Day Glamourex Booster:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18786.45703125
+    boosterness: 12
+    followsjumpclones: 1
+    id: 58856
+    marketGroup: 2530
+    name: Basic Capsuleer Day Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 20
+    socialmutator: 20
+    volume: 1.0
   Basic Capsuleer Defense Augmentation Chip:
     armorhpbonus2: 5.0
     boostermaxcharagehours: 720
@@ -1349,6 +1393,50 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 6
+  Extended Capsuleer Day Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18786.45703125
+    boosterness: 10
+    charismabonus: 6
+    followsjumpclones: 1
+    id: 58851
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 6
+  Extended Capsuleer Day Glamourex Booster:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18786.45703125
+    boosterness: 12
+    followsjumpclones: 1
+    id: 58855
+    marketGroup: 2530
+    name: Extended Capsuleer Day Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 25
+    socialmutator: 25
+    volume: 1.0
   Festival-only 'Longbow' CM3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
@@ -3325,6 +3413,23 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
+  Neo Serenity Special Cerebral Accelerator:
+    boosterduration: 8.64E9
+    boostermaxcharagehours: 2400
+    boosterness: 20
+    followsjumpclones: 1
+    id: 59197
+    name: Neo Serenity Special Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
   Nugoehuvi Synth Blue Pill Booster:
     boosterduration: 1980000.0
     boosterness: 1
@@ -3449,6 +3554,50 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 8
+  Potent Capsuleer Day Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18786.45703125
+    boosterness: 10
+    charismabonus: 8
+    followsjumpclones: 1
+    id: 58852
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Potent Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 8
+  Potent Capsuleer Day Glamourex Booster:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18786.45703125
+    boosterness: 12
+    followsjumpclones: 1
+    id: 58854
+    marketGroup: 2530
+    name: Potent Capsuleer Day Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 50
+    socialmutator: 50
+    volume: 1.0
   Poteque 'Prospector' Sharpeye 11-11:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18627.125
@@ -4165,6 +4314,29 @@ types:
     intelligencebonus: 5
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.5
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2021.6:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18809.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 59177
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2021.6
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0

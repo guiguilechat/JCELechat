@@ -27,6 +27,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrPropulsion;
@@ -38,7 +40,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteProp
 import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarPropulsion;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarPropulsion2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarpBubbleImmuneModifier;
 import fr.guiguilechat.jcelechat.model.sde.types.Subsystem;
 import org.yaml.snakeyaml.Yaml;
 
@@ -59,6 +60,20 @@ public class PropulsionSubsystem
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double maxtargetrange;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusrole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusrole2;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
@@ -122,14 +137,7 @@ public class PropulsionSubsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int subsystembonusminmatarpropulsion2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int warpbubbleimmunemodifier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AgilityBonusAdd.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, Mass.INSTANCE, Hp.INSTANCE, MaxTargetRange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrPropulsion.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, SubsystemBonusGallentePropulsion.INSTANCE, LowSlotModifier.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariPropulsion.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusAmarrPropulsion2 .INSTANCE, SubsystemBonusCaldariPropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion.INSTANCE, SubsystemBonusGallentePropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion2 .INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AgilityBonusAdd.INSTANCE, Mass.INSTANCE, Hp.INSTANCE, MaxTargetRange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrPropulsion.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, SubsystemBonusGallentePropulsion.INSTANCE, LowSlotModifier.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariPropulsion.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusAmarrPropulsion2 .INSTANCE, SubsystemBonusCaldariPropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion.INSTANCE, SubsystemBonusGallentePropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion2 .INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE })));
     public static final PropulsionSubsystem.MetaGroup METAGROUP = new PropulsionSubsystem.MetaGroup();
 
     @Override
@@ -142,6 +150,14 @@ public class PropulsionSubsystem
             case  76 :
             {
                 return maxtargetrange;
+            }
+            case  2298 :
+            {
+                return shipbonusrole1;
+            }
+            case  2299 :
+            {
+                return shipbonusrole2;
             }
             case  552 :
             {
@@ -178,10 +194,6 @@ public class PropulsionSubsystem
             case  1523 :
             {
                 return subsystembonusminmatarpropulsion2;
-            }
-            case  1539 :
-            {
-                return warpbubbleimmunemodifier;
             }
             default:
             {

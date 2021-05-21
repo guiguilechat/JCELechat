@@ -35,13 +35,14 @@ types:
     radius: 1.0
     requiredskill1: 30538
     requiredskill1level: 1
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     signatureradius: 20.0
     subsystembonusamarrpropulsion: -15
     subsystembonusamarrpropulsion2: 10
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-    warpbubbleimmunemodifier: 1
   Legion Propulsion - Wake Limiter:
     fitstoshiptype: 29986
     hp: 40.0
@@ -99,13 +100,14 @@ types:
     radius: 1.0
     requiredskill1: 30554
     requiredskill1level: 1
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     signatureradius: 20.0
     subsystembonusminmatarpropulsion: -15
     subsystembonusminmatarpropulsion2: 10
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-    warpbubbleimmunemodifier: 1
   Loki Propulsion - Wake Limiter:
     fitstoshiptype: 29990
     hp: 40.0
@@ -162,13 +164,14 @@ types:
     radius: 1.0
     requiredskill1: 30553
     requiredskill1level: 1
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     signatureradius: 20.0
     subsystembonusgallentepropulsion: -15.0
     subsystembonusgallentepropulsion2: 10.0
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-    warpbubbleimmunemodifier: 1
   Proteus Propulsion - Localized Injectors:
     fitstoshiptype: 29988
     hp: 40.0
@@ -247,10 +250,11 @@ types:
     radius: 1.0
     requiredskill1: 30552
     requiredskill1level: 1
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     signatureradius: 20.0
     subsystembonuscaldaripropulsion: -15.0
     subsystembonuscaldaripropulsion2: 10.0
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-    warpbubbleimmunemodifier: 1

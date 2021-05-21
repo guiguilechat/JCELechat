@@ -25418,150 +25418,6 @@ offers:
       - id: 28361
         quantity: 3000
       lp: 80000
-  16322:
-    id: 16322
-    name: Men's Amarr Empire Command Jacket
-    product:
-      id: 46662
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16323:
-    id: 16323
-    name: Men's Imperial War Reserves Jacket
-    product:
-      id: 46666
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16324:
-    id: 16324
-    name: Women's Amarr Empire Command Jacket
-    product:
-      id: 46663
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16325:
-    id: 16325
-    name: Women's Imperial War Reserves Jacket
-    product:
-      id: 46668
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16326:
-    id: 16326
-    name: Men's Caldari State Officer Jacket
-    product:
-      id: 46659
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16327:
-    id: 16327
-    name: Men's State Military Stockpile Jacket
-    product:
-      id: 46672
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16328:
-    id: 16328
-    name: Women's Caldari State Officer Jacket
-    product:
-      id: 46669
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16329:
-    id: 16329
-    name: Women's State Military Stockpile Jacket
-    product:
-      id: 46671
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16330:
-    id: 16330
-    name: Men's Federal Strategic Materiel Jacket
-    product:
-      id: 46667
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16331:
-    id: 16331
-    name: Men's Gallente Federation Command Jacket
-    product:
-      id: 46665
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16332:
-    id: 16332
-    name: Women's Federal Strategic Materiel Jacket
-    product:
-      id: 46658
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16333:
-    id: 16333
-    name: Women's Gallente Federation Command Jacket
-    product:
-      id: 46660
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16334:
-    id: 16334
-    name: Men's Minmatar Republic Officer Jacket
-    product:
-      id: 46664
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16335:
-    id: 16335
-    name: Men's Republic Fleet Ordnance Jacket
-    product:
-      id: 46674
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16336:
-    id: 16336
-    name: Women's Republic Fleet Ordnance Jacket
-    product:
-      id: 46661
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
-  16337:
-    id: 16337
-    name: Women's Minmatar Republic Officer Jacket
-    product:
-      id: 46673
-      quantity: 1
-    requirements:
-      isk: 100000000
-      lp: 500
   16338:
     bpid: 47232
     bpruns: 5
@@ -27816,9 +27672,9 @@ offers:
       isk: 1000000
       items:
       - id: 55830
-        quantity: 100
+        quantity: 25
       - id: 55831
-        quantity: 100
+        quantity: 150
       - id: 34
         quantity: 32000
       - id: 35
@@ -27858,9 +27714,9 @@ offers:
       isk: 4000000
       items:
       - id: 55830
-        quantity: 400
+        quantity: 100
       - id: 55831
-        quantity: 400
+        quantity: 600
       - id: 34
         quantity: 540000
       - id: 35
@@ -27900,9 +27756,9 @@ offers:
       isk: 10000000
       items:
       - id: 55830
-        quantity: 800
+        quantity: 300
       - id: 55831
-        quantity: 800
+        quantity: 1000
       - id: 34
         quantity: 8000000
       - id: 35
@@ -27943,9 +27799,9 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 20
+        quantity: 5
       - id: 55831
-        quantity: 20
+        quantity: 40
       - id: 54970
         quantity: 4
       - id: 54971
@@ -27973,9 +27829,9 @@ offers:
       isk: 1000000
       items:
       - id: 55830
-        quantity: 80
+        quantity: 15
       - id: 55831
-        quantity: 80
+        quantity: 200
       - id: 38
         quantity: 6
       - id: 54970
@@ -28007,9 +27863,9 @@ offers:
       isk: 5000000
       items:
       - id: 55830
-        quantity: 430
+        quantity: 100
       - id: 55831
-        quantity: 430
+        quantity: 1000
       - id: 54970
         quantity: 12
       - id: 54971
@@ -28042,9 +27898,9 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 20
+        quantity: 5
       - id: 55831
-        quantity: 20
+        quantity: 40
       - id: 54739
         quantity: 1
       - id: 54970
@@ -28061,9 +27917,9 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 20
+        quantity: 5
       - id: 55831
-        quantity: 20
+        quantity: 40
       - id: 54739
         quantity: 1
       - id: 54970
@@ -28083,11 +27939,11 @@ offers:
       - id: 48121
         quantity: 125
       - id: 55830
-        quantity: 250
+        quantity: 100
       - id: 55831
-        quantity: 250
+        quantity: 500
       - id: 55832
-        quantity: 5
+        quantity: 1
       - id: 54742
         quantity: 1
       - id: 54971
@@ -28105,9 +27961,9 @@ offers:
       isk: 1200000
       items:
       - id: 55830
-        quantity: 80
+        quantity: 15
       - id: 55831
-        quantity: 80
+        quantity: 200
       - id: 54745
         quantity: 1
       - id: 54970
@@ -28125,9 +27981,9 @@ offers:
       isk: 1200000
       items:
       - id: 55830
-        quantity: 80
+        quantity: 15
       - id: 55831
-        quantity: 80
+        quantity: 200
       - id: 54745
         quantity: 1
       - id: 54970
@@ -28147,11 +28003,11 @@ offers:
       - id: 48121
         quantity: 250
       - id: 55830
-        quantity: 500
+        quantity: 200
       - id: 55831
-        quantity: 500
+        quantity: 1000
       - id: 55832
-        quantity: 10
+        quantity: 2
       - id: 54748
         quantity: 1
       - id: 54971
@@ -28169,9 +28025,9 @@ offers:
       isk: 5500000
       items:
       - id: 55830
-        quantity: 430
+        quantity: 100
       - id: 55831
-        quantity: 430
+        quantity: 1000
       - id: 54750
         quantity: 1
       - id: 54970
@@ -28189,9 +28045,9 @@ offers:
       isk: 5500000
       items:
       - id: 55830
-        quantity: 430
+        quantity: 100
       - id: 55831
-        quantity: 430
+        quantity: 1000
       - id: 54750
         quantity: 1
       - id: 54970
@@ -28211,11 +28067,11 @@ offers:
       - id: 48121
         quantity: 500
       - id: 55830
-        quantity: 1000
+        quantity: 400
       - id: 55831
-        quantity: 1000
+        quantity: 2000
       - id: 55832
-        quantity: 15
+        quantity: 4
       - id: 54753
         quantity: 1
       - id: 54971
@@ -28233,9 +28089,9 @@ offers:
       isk: 500000
       items:
       - id: 55830
-        quantity: 35
+        quantity: 10
       - id: 55831
-        quantity: 35
+        quantity: 50
       - id: 54973
         quantity: 1
       - id: 54970
@@ -28253,9 +28109,9 @@ offers:
       isk: 500000
       items:
       - id: 55830
-        quantity: 35
+        quantity: 10
       - id: 55831
-        quantity: 35
+        quantity: 50
       - id: 37
         quantity: 2
       - id: 40
@@ -28279,9 +28135,9 @@ offers:
       isk: 100000
       items:
       - id: 55830
-        quantity: 40
+        quantity: 10
       - id: 55831
-        quantity: 40
+        quantity: 80
       - id: 54970
         quantity: 10
       - id: 48112
@@ -28304,9 +28160,9 @@ offers:
       isk: 100000
       items:
       - id: 55830
-        quantity: 40
+        quantity: 10
       - id: 55831
-        quantity: 40
+        quantity: 80
       - id: 54970
         quantity: 10
       - id: 48112
@@ -28329,9 +28185,9 @@ offers:
       isk: 100000
       items:
       - id: 55830
-        quantity: 40
+        quantity: 10
       - id: 55831
-        quantity: 40
+        quantity: 80
       - id: 54970
         quantity: 10
       - id: 48112
@@ -28354,9 +28210,9 @@ offers:
       isk: 100000
       items:
       - id: 55830
-        quantity: 40
+        quantity: 10
       - id: 55831
-        quantity: 40
+        quantity: 80
       - id: 54970
         quantity: 10
       - id: 48112
@@ -28379,9 +28235,9 @@ offers:
       isk: 200000
       items:
       - id: 55830
-        quantity: 80
+        quantity: 20
       - id: 55831
-        quantity: 80
+        quantity: 160
       - id: 54970
         quantity: 20
       - id: 48112
@@ -28404,9 +28260,9 @@ offers:
       isk: 200000
       items:
       - id: 55830
-        quantity: 80
+        quantity: 20
       - id: 55831
-        quantity: 80
+        quantity: 160
       - id: 54970
         quantity: 20
       - id: 48112
@@ -28429,9 +28285,9 @@ offers:
       isk: 200000
       items:
       - id: 55830
-        quantity: 80
+        quantity: 20
       - id: 55831
-        quantity: 80
+        quantity: 160
       - id: 54970
         quantity: 20
       - id: 48112
@@ -28454,9 +28310,9 @@ offers:
       isk: 200000
       items:
       - id: 55830
-        quantity: 80
+        quantity: 20
       - id: 55831
-        quantity: 80
+        quantity: 160
       - id: 54970
         quantity: 20
       - id: 48112
@@ -28479,9 +28335,9 @@ offers:
       isk: 400000
       items:
       - id: 55830
-        quantity: 160
+        quantity: 40
       - id: 55831
-        quantity: 160
+        quantity: 320
       - id: 54970
         quantity: 40
       - id: 48112
@@ -28504,9 +28360,9 @@ offers:
       isk: 400000
       items:
       - id: 55830
-        quantity: 160
+        quantity: 40
       - id: 55831
-        quantity: 160
+        quantity: 320
       - id: 54970
         quantity: 40
       - id: 48112
@@ -28529,9 +28385,9 @@ offers:
       isk: 400000
       items:
       - id: 55830
-        quantity: 160
+        quantity: 40
       - id: 55831
-        quantity: 160
+        quantity: 320
       - id: 54970
         quantity: 40
       - id: 48112
@@ -28554,9 +28410,9 @@ offers:
       isk: 400000
       items:
       - id: 55830
-        quantity: 160
+        quantity: 40
       - id: 55831
-        quantity: 160
+        quantity: 320
       - id: 54970
         quantity: 40
       - id: 48112
@@ -28576,7 +28432,7 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 500
+        quantity: 250
       - id: 55832
         quantity: 1
       lp: 2000
@@ -28589,7 +28445,7 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 500
+        quantity: 250
       - id: 55832
         quantity: 2
       lp: 3000
@@ -28604,7 +28460,7 @@ offers:
       - id: 55830
         quantity: 500
       - id: 55832
-        quantity: 4
+        quantity: 3
       lp: 4000
   16493:
     id: 16493
@@ -28628,7 +28484,7 @@ offers:
       - id: 55830
         quantity: 50
       - id: 55831
-        quantity: 50
+        quantity: 100
   16495:
     id: 16495
     name: 100* Hyperbolic Metatransistor Array
@@ -28640,7 +28496,7 @@ offers:
       - id: 55830
         quantity: 25
       - id: 55831
-        quantity: 25
+        quantity: 50
   16496:
     id: 16496
     name: 100* Ultraconducting Ablative Nanocable
@@ -28652,7 +28508,7 @@ offers:
       - id: 55830
         quantity: 15
       - id: 55831
-        quantity: 15
+        quantity: 30
   17006:
     bpid: 48097
     bpruns: 1
@@ -30572,3 +30428,31 @@ offers:
       - id: 32787
         quantity: 10
       lp: 5000
+  17098:
+    bpid: 58973
+    bpruns: 10
+    id: 17098
+    name: 10* Compact Interdiction Nullifier(BPC)
+    product:
+      id: 58966
+      quantity: 10
+    requirements:
+      isk: 1000000
+      items:
+      - id: 58919
+        quantity: 10
+      lp: 8000
+  17099:
+    bpid: 58974
+    bpruns: 10
+    id: 17099
+    name: 10* Restrained Interdiction Nullifier(BPC)
+    product:
+      id: 58971
+      quantity: 10
+    requirements:
+      isk: 1000000
+      items:
+      - id: 58919
+        quantity: 10
+      lp: 8000

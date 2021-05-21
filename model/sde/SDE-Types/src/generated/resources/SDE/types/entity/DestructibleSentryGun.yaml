@@ -1,4 +1,82 @@
 types:
+  AEGIS Security GunStar:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 50000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 10.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamage: 25.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityfactionloss: 0.12600000202655792
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entityreactionfactor: 1.0
+    explosivedamage: 25.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 497
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 30000.0
+    id: 57761
+    kineticdamage: 25.0
+    kineticdamageresonance: 1.0
+    maxattacktargets: 2
+    maxlockedtargets: 8
+    maxrange: 250000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: AEGIS Security GunStar
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 247.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    scanresolution: 105.0
+    shieldcapacity: 24000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 25.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 35.0
+    volume: 1000.0
+    warpscrambleduration: 8000
   Amarr Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -70,6 +148,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Amarr Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -146,6 +225,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Amarr Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -222,6 +302,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Amarr Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -298,6 +379,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Amarr Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -369,6 +451,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Amarr Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -440,6 +523,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Amarr Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -511,6 +595,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Amarr Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -585,6 +670,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Ammatar Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -656,6 +742,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Ammatar Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -727,6 +814,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Ammatar Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -798,6 +886,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Ammatar Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -869,6 +958,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Basic Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -940,6 +1030,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1011,6 +1102,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1087,6 +1179,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1163,6 +1256,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1239,6 +1333,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1310,6 +1405,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1381,6 +1477,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1452,6 +1549,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Sentry Gun:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1530,6 +1628,7 @@ types:
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11318
     volume: 1000.0
+    warpscrambleduration: 8000
   Angel Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1604,6 +1703,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Archive Sentry Tower:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.699999988079071
@@ -1674,6 +1774,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.029999999329447746
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Basic Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1748,6 +1849,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1822,6 +1924,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1898,6 +2001,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1974,6 +2078,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2050,6 +2155,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2124,6 +2230,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2198,6 +2305,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2272,6 +2380,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Raider Sentry Gun:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2350,6 +2459,7 @@ types:
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11320
     volume: 1000.0
+    warpscrambleduration: 8000
   Blood Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2424,6 +2534,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Caldari Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2498,6 +2609,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Caldari Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2574,6 +2686,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Caldari Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2650,6 +2763,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Caldari Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2726,6 +2840,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Caldari Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2800,6 +2915,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Caldari Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2874,6 +2990,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Caldari Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -2948,6 +3065,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Caldari Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3022,6 +3140,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Damaged Sentinel Angel:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3101,6 +3220,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Damaged Sentinel Bloodraider:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3180,6 +3300,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Damaged Sentinel Chimera Strain Mother:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3261,6 +3382,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Damaged Sentinel Sansha:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3340,6 +3462,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Damaged Sentinel Serpentis:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3420,6 +3543,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Deficient Tower Sentry Sansha II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3497,6 +3621,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3571,6 +3696,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3647,6 +3773,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3723,6 +3850,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3799,6 +3927,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3873,6 +4002,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Hive:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -3953,6 +4083,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 8.0
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4027,6 +4158,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4101,6 +4233,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4175,6 +4308,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Drone Wall Sentry Gun:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4252,6 +4386,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
+    warpscrambleduration: 8000
   EDENCOM GunStar:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4329,6 +4464,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 35.0
     volume: 1000.0
+    warpscrambleduration: 8000
   EDENCOM Heavy GunStar:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4406,6 +4542,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 15.0
     volume: 1000.0
+    warpscrambleduration: 8000
   Entropic Disintegrator Werpost:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4485,6 +4622,158 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 35.0
     volume: 1000.0
+    warpscrambleduration: 8000
+  EoM Stasis Webber Tower:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 800.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitydefenderchance: 0.10000000149011612
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 35000
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 372
+    hp: 800.0
+    id: 58806
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 250000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 20000.0
+    modifytargetspeedchance: 100.0
+    modifytargetspeedduration: 10000.0
+    modifytargetspeedrange: 250000
+    name: EoM Stasis Webber Tower
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 637.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    speed: 2.0E7
+    speedfactor: -75.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.03999999910593033
+    volume: 1000.0
+    warpscrambleduration: 8000
+  EoM Warp Disruptor Tower:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 800.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitydefenderchance: 0.10000000149011612
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 35000
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 372
+    hp: 800.0
+    id: 58808
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 250000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: EoM Warp Disruptor Tower
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 637.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    speed: 2.0E7
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.03999999910593033
+    volume: 1000.0
+    warpscrambleduration: 10000
+    warpscramblerange: 250000
+    warpscramblestrength: 1
   Gala Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4556,6 +4845,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4630,6 +4920,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4706,6 +4997,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4782,6 +5074,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4858,6 +5151,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -4932,6 +5226,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5006,6 +5301,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5080,6 +5376,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Sentry Gun - Training:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5157,6 +5454,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Gallente Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5231,6 +5529,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Annihilation Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5305,6 +5604,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Annihilation Missile Battery_Uber:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5379,6 +5679,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.15000000596046448
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Basic Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5453,6 +5754,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Cruise Missile Batteries:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5527,6 +5829,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5603,6 +5906,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5679,6 +5983,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5755,6 +6060,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5829,6 +6135,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5903,6 +6210,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -5977,6 +6285,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Sentry Gun:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6055,6 +6364,7 @@ types:
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11335
     volume: 1000.0
+    warpscrambleduration: 8000
   Guristas Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6129,6 +6439,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   H-2874 Defense Sentinel:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
@@ -6203,6 +6514,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Hive mother:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6280,6 +6592,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
+    warpscrambleduration: 8000
   Hive mother 2:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6357,6 +6670,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
+    warpscrambleduration: 8000
   Impaired Archive Sentry Tower:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.699999988079071
@@ -6427,6 +6741,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.004999999888241291
     volume: 1000.0
+    warpscrambleduration: 8000
   Inert Proximity-activated Autoturret:
     aichancetonottargetswitch: 0.5
     aishoulduseeffectmultiplier: 1
@@ -6502,6 +6817,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6576,6 +6892,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6652,6 +6969,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6728,6 +7046,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6804,6 +7123,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6878,6 +7198,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6952,6 +7273,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7026,6 +7348,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7100,6 +7423,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Minmatar Station Sentry:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7177,6 +7501,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   PLACEDHOLDER Triglavian Defense Platform XL:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7251,6 +7576,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Proximity-activated Autoturret:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7325,6 +7651,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Restless Sentry Tower:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.6000000238418579
@@ -7395,6 +7722,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
+    warpscrambleduration: 8000
   Rewired Sentry Gun:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 1.0
@@ -7451,6 +7779,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
   Sansha Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7525,6 +7854,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sansha Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7601,6 +7931,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Sansha Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7677,6 +8008,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Sansha Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7753,6 +8085,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Sansha Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7827,6 +8160,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sansha Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7901,6 +8235,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sansha Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -7975,6 +8310,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sansha Sentry Gun:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8053,6 +8389,7 @@ types:
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11349
     volume: 1000.0
+    warpscrambleduration: 8000
   Sansha Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8127,6 +8464,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Secret Angel Facility:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8205,6 +8543,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1.0E8
+    warpscrambleduration: 8000
   Sentinel Angel:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8284,6 +8623,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sentinel Bloodraider:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8363,6 +8703,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sentinel Chimera Strain Mother:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8444,6 +8785,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sentinel Gallente:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8523,6 +8865,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sentinel Jormungand Strain Mother:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8604,6 +8947,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sentinel Sansha:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8683,6 +9027,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sentinel Serpentis:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8763,6 +9108,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Sentry Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8838,6 +9184,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Crash Storage Platform:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8919,6 +9266,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -8993,6 +9341,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Energy Neutralizer Sentry I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9069,6 +9418,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Energy Neutralizer Sentry II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9145,6 +9495,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Energy Neutralizer Sentry III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9221,6 +9572,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Exile Storage Platform:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9302,6 +9654,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Heavy Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9376,6 +9729,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Light Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9450,6 +9804,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Mindflood Storage Platform:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9531,6 +9886,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Point Defense Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9605,6 +9961,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Sentry Gun:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9683,6 +10040,7 @@ types:
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11351
     volume: 1000.0
+    warpscrambleduration: 8000
   Serpentis Stasis Tower:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9757,6 +10115,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Siege Artillery Sentry:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9834,6 +10193,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Siege Autocannon Sentry:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9911,6 +10271,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Siege Beam Laser Sentry:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -9988,6 +10349,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Siege Blaster Sentry:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10065,6 +10427,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Siege Pulse Laser Sentry:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10142,6 +10505,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Siege Railgun Sentry:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10219,6 +10583,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Station Sentry 9F:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10296,6 +10661,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   TEST Cap Drain Sentry:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.7599999904632568
@@ -10369,6 +10735,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 60.0
+    warpscrambleduration: 8000
   TEST ICON Amarr Carrier:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.5299999713897705
@@ -10455,6 +10822,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.013920499943196774
     volume: 1.395E7
+    warpscrambleduration: 8000
   Tower Basic Sentry Angel:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10532,6 +10900,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Basic Sentry Bloodraider:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10609,6 +10978,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Basic Sentry Guristas:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10686,6 +11056,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Basic Sentry Serpentis:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10763,6 +11134,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Missile Battery Serpentis I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10837,6 +11209,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Amarr I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10913,6 +11286,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Amarr II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -10989,6 +11363,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Amarr III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11065,6 +11440,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Ammatar I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11141,6 +11517,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Ammatar II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11217,6 +11594,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Ammatar III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11293,6 +11671,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Angel I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11369,6 +11748,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Angel II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11445,6 +11825,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Angel III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11521,6 +11902,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Bloodraider I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11597,6 +11979,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Bloodraider II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11673,6 +12056,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Bloodraider III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11749,6 +12133,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Caldari I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11825,6 +12210,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Caldari II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11901,6 +12287,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Caldari III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11977,6 +12364,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Drone I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12053,6 +12441,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Drone II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12129,6 +12518,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Drone III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12205,6 +12595,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Gallente I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12281,6 +12672,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Gallente II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12357,6 +12749,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Gallente III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12433,6 +12826,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Guristas I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12509,6 +12903,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Guristas II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12585,6 +12980,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Guristas III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12661,6 +13057,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Guristas III_buffed:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12738,6 +13135,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Minmatar I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12814,6 +13212,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Minmatar II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12890,6 +13289,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Minmatar III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -12966,6 +13366,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Sansha I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -13042,6 +13443,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Sansha II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -13118,6 +13520,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Sansha III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -13194,6 +13597,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Serpentis I:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -13270,6 +13674,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Serpentis II:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -13346,6 +13751,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
+    warpscrambleduration: 8000
   Tower Sentry Serpentis III:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -13422,6 +13828,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+    warpscrambleduration: 8000
   True Creations Fortified Torpedo Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -13496,6 +13903,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
+    warpscrambleduration: 8000
   Vigilant Sentry Tower:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.6000000238418579
@@ -13566,6 +13974,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
+    warpscrambleduration: 8000
   Wakeful Sentry Tower:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.6000000238418579
@@ -13636,3 +14045,4 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
+    warpscrambleduration: 8000

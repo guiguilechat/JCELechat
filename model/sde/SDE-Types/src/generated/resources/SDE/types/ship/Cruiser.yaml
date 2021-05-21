@@ -3306,7 +3306,7 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.75
-    hislots: 1
+    hislots: 2
     hp: 4000.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -3353,6 +3353,8 @@ types:
     shielduniformity: 0.75
     shipbonuscc: 5
     shipbonusgc: 5.0
+    shipbonusrole1: -80.0
+    shipbonusrole2: 100
     shipbonusrole7: -100.0
     shipbonusuc1: 1.0
     shipbonusuc2: 1
@@ -3366,7 +3368,6 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 115000.0
-    warpbubbleimmune: 1
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
   Vigilant:

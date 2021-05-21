@@ -85,6 +85,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TurretSlotsLeft;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpBubbleImmune;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
@@ -144,7 +145,14 @@ public class Shuttle
     @Stackable(true)
     @DefaultIntValue(0)
     public int shiprolebonuswarpspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxPassengers.INSTANCE, BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, DroneCapacity.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, SignatureRadius.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, CpuOutput.INSTANCE, HeatCapacityLow.INSTANCE, CpuLoad.INSTANCE, JumpFatigueMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, Agility.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, TypeColorScheme.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE })));
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int warpbubbleimmune;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxPassengers.INSTANCE, BaseWarpSpeed.INSTANCE, WarpBubbleImmune.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, DroneCapacity.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, SignatureRadius.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, CpuOutput.INSTANCE, HeatCapacityLow.INSTANCE, CpuLoad.INSTANCE, JumpFatigueMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, Agility.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, TypeColorScheme.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE })));
     public static final Shuttle.MetaGroup METAGROUP = new Shuttle.MetaGroup();
 
     @Override
@@ -173,6 +181,10 @@ public class Shuttle
             case  2789 :
             {
                 return shiprolebonuswarpspeed;
+            }
+            case  1538 :
+            {
+                return warpbubbleimmune;
             }
             default:
             {
