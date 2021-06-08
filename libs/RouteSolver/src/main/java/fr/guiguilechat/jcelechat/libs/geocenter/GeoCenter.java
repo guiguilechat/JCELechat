@@ -49,11 +49,25 @@ public class GeoCenter {
 		public int distInf;
 	}
 
-	public static List<SysEval> evaluate(SolarSystem source, Predicate<SolarSystem> isFrontier) {
-		if (isFrontier == null) {
-			isFrontier = ss -> true;
+	/**
+	 * create a list of {@link SysEval} for all the systems reachable from a
+	 * source
+	 *
+	 * @param source
+	 *          the system to start the exploration
+	 * @param systemAccept
+	 *          the predicate to accept to pass by a solar system when exploring
+	 * @return a new list
+	 *
+	 *         basically, this first explores the whole systems reachable from the
+	 *         source, then create a graph representation, and evaluates the
+	 *         systems in that graph
+	 */
+	public static List<SysEval> evaluate(SolarSystem source, Predicate<SolarSystem> systemAccept) {
+		if (systemAccept == null) {
+			systemAccept = ss -> true;
 		}
-		Set<SolarSystem> targets = Reach.from(source, isFrontier);
+		Set<SolarSystem> targets = Reach.from(source, systemAccept);
 		SimpleGraph<SolarSystem> graph = new SimpleGraph<>(Comparator.comparing(s -> s.name));
 		for (SolarSystem ss : targets) {
 			for (String adjName : ss.adjacentSystems) {
@@ -119,6 +133,15 @@ public class GeoCenter {
 	// frontier = pirate regions and adjacent constels, in HS
 	//
 
+	/**
+	 * make a predicate, based on a source system, that returns true when a target
+	 * systel is in HS, in a constellation reachable from the source, and in same
+	 * pirat type system.
+	 *
+	 * @param source
+	 *          a system, not null.
+	 * @return a new predicate.
+	 */
 	public static Predicate<SolarSystem> frontierPiratesAdjHS(SolarSystem source) {
 		Set<String> constels = Region.EMPIRE_FACTIONS.of(source).regions().stream().map(Region::getRegion)
 				.flatMap(region -> Stream.concat(region.constellations.stream(), region.adjacentConstellations.stream()))
@@ -180,10 +203,11 @@ public class GeoCenter {
 		}
 		Locale local = Locale.ENGLISH;
 		l.sort(cmp);
-		System.out.println("rank\tsystem\tdist1\tdist2\tdistinf");
+		System.out.println("rank\tsystem\tconstel\tregion\tdist1\tdist2\tdistinf");
 		int index = 1;
 		for (SysEval e : l) {
-			System.out.println("" + index + "\t" + e.system + "\t" + String.format(local, "%.2f", e.dist1) + "\t"
+			System.out.println("" + index + "\t" + e.system + "\t" + e.system.constellation + "\t" + e.system.region + "\t"
+					+ String.format(local, "%.2f", e.dist1) + "\t"
 					+ String.format(local, "%.2f", e.dist2) + "\t" + e.distInf);
 			index++;
 		}
