@@ -18,7 +18,7 @@ types:
     marketGroup: 2783
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
-    modulereactivationdelay: 150000
+    modulereactivationdelay: 130000
     name: Compact Interdiction Nullifier
     packagedVolume: 5.0
     portionSize: 1
@@ -50,7 +50,7 @@ types:
     marketGroup: 2783
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
-    modulereactivationdelay: 150000
+    modulereactivationdelay: 100000
     name: Interdiction Nullifier I
     packagedVolume: 5.0
     portionSize: 1
@@ -114,7 +114,7 @@ types:
     marketGroup: 2783
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
-    modulereactivationdelay: 150000
+    modulereactivationdelay: 130000
     name: Restrained Interdiction Nullifier
     packagedVolume: 5.0
     portionSize: 1

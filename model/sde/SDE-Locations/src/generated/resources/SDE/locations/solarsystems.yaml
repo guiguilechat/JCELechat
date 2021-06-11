@@ -16694,9 +16694,14 @@ locations:
     region: Kador
     truesec: 0.5671234509026555
   Ahbazon:
+    adjacentConstellations:
+    - Ihilakken
+    adjacentRegions:
+    - The Forge
     adjacentSystems:
     - Shera
     - Lor
+    - Hykkota
     anchorStructures: true
     constellation: Nazdirer
     id: 30005196
@@ -16708,7 +16713,7 @@ locations:
     isWormhole: false
     name: Ahbazon
     region: Genesis
-    truesec: 0.4205203606304809
+    truesec: 0.42052036063
   Ahkour:
     adjacentSystems:
     - Nehkiah
@@ -31884,9 +31889,14 @@ locations:
     region: Sinq Laison
     truesec: 0.4492676854179368
   Eggheron:
+    adjacentConstellations:
+    - Ganoure
+    adjacentRegions:
+    - Placid
     adjacentSystems:
     - Pochelympe
     - Toustain
+    - Kenninck
     anchorStructures: true
     constellation: Mobrault
     id: 30003605
@@ -31898,7 +31908,7 @@ locations:
     isWormhole: false
     name: Eggheron
     region: Solitude
-    truesec: 0.5162439755161291
+    truesec: 0.516243975516
   Eglennaert:
     adjacentConstellations:
     - Nexus
@@ -34197,10 +34207,15 @@ locations:
     region: Etherium Reach
     truesec: -0.5245716
   F7-ICZ:
+    adjacentConstellations:
+    - Anidaza
+    adjacentRegions:
+    - Tash-Murkon
     adjacentSystems:
     - Z-6YQC
     - T-NNJZ
     - NRT4-U
+    - Saminer
     anchorStructures: true
     constellation: R-IZDC
     id: 30001957
@@ -34212,7 +34227,7 @@ locations:
     isWormhole: false
     name: F7-ICZ
     region: Stain
-    truesec: -0.2645782659758295
+    truesec: -0.264578265976
   F76-8Q:
     adjacentSystems:
     - RHE7-W
@@ -43155,10 +43170,15 @@ locations:
     region: Black Rise
     truesec: 0.2468593790859909
   Hykkota:
+    adjacentConstellations:
+    - Nazdirer
+    adjacentRegions:
+    - Genesis
     adjacentSystems:
     - Ansila
     - Outuni
     - Ohmahailen
+    - Ahbazon
     anchorStructures: true
     constellation: Ihilakken
     id: 30000134
@@ -43170,7 +43190,7 @@ locations:
     isWormhole: false
     name: Hykkota
     region: The Forge
-    truesec: 0.8236534652985156
+    truesec: 0.823653465299
   Hysera:
     adjacentConstellations:
     - Isoma
@@ -45484,9 +45504,14 @@ locations:
     region: Black Rise
     truesec: 0.3197668723516429
   Irgrus:
+    adjacentConstellations:
+    - Sanctum
+    adjacentRegions:
+    - Genesis
     adjacentSystems:
     - Hakeri
     - Oraekja
+    - Pakhshi
     anchorStructures: true
     constellation: Panorad
     id: 30003452
@@ -45498,7 +45523,7 @@ locations:
     isWormhole: false
     name: Irgrus
     region: Metropolis
-    truesec: 0.6729059837667897
+    truesec: 0.672905983767
   Irjunen:
     adjacentConstellations:
     - Uusasai
@@ -85216,8 +85241,13 @@ locations:
     region: Aridia
     truesec: 0.2294651782289705
   Kenninck:
+    adjacentConstellations:
+    - Mobrault
+    adjacentRegions:
+    - Solitude
     adjacentSystems:
     - Ausmaert
+    - Eggheron
     anchorStructures: true
     constellation: Ganoure
     id: 30003823
@@ -85229,7 +85259,7 @@ locations:
     isWormhole: false
     name: Kenninck
     region: Placid
-    truesec: 0.1149630522447602
+    truesec: 0.114963052245
   Kenobanala:
     adjacentConstellations:
     - Tartatven
@@ -88780,7 +88810,7 @@ locations:
     isWormhole: false
     name: Leremblompes
     region: Everyshore
-    truesec: 0.6471927653142996
+    truesec: 0.647192765314
   Lermireve:
     adjacentConstellations:
     - Marele
@@ -91798,7 +91828,7 @@ locations:
     isWormhole: false
     name: Mannar
     region: Everyshore
-    truesec: 0.2850227751842517
+    truesec: 0.285022775184
   Mantenault:
     adjacentConstellations:
     - S4GH-I
@@ -102131,13 +102161,16 @@ locations:
     adjacentConstellations:
     - Crux
     - Thoulde
+    - Panorad
     adjacentRegions:
     - Essence
+    - Metropolis
     adjacentSystems:
     - Tar
     - Renyn
     - Oursulaert
     - Synchelle
+    - Irgrus
     anchorStructures: true
     constellation: Sanctum
     id: 30005198
@@ -102149,7 +102182,7 @@ locations:
     isWormhole: false
     name: Pakhshi
     region: Genesis
-    truesec: 0.8454829968182656
+    truesec: 0.845482996818
   Pakkonen:
     adjacentSystems:
     - Isikano
@@ -110513,9 +110546,14 @@ locations:
     region: Black Rise
     truesec: 0.6527848435914495
   Saminer:
+    adjacentConstellations:
+    - R-IZDC
+    adjacentRegions:
+    - Stain
     adjacentSystems:
     - Sagain
     - Modun
+    - F7-ICZ
     anchorStructures: true
     constellation: Anidaza
     id: 30001721
@@ -110527,7 +110565,7 @@ locations:
     isWormhole: false
     name: Saminer
     region: Tash-Murkon
-    truesec: 0.2917390301082237
+    truesec: 0.291739030108
   Sankkasen:
     adjacentSystems:
     - Halaima

@@ -30456,3 +30456,615 @@ offers:
       - id: 58919
         quantity: 10
       lp: 8000
+  17100:
+    id: 17100
+    name: Punisher War Reserves Lieutenant SKIN
+    product:
+      id: 59213
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17101:
+    id: 17101
+    name: Coercer War Reserves Lieutenant SKIN
+    product:
+      id: 59210
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17102:
+    id: 17102
+    name: Omen War Reserves Lieutenant SKIN
+    product:
+      id: 59214
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17103:
+    id: 17103
+    name: Maller War Reserves Lieutenant SKIN
+    product:
+      id: 59211
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17104:
+    id: 17104
+    name: Harbinger War Reserves Lieutenant SKIN
+    product:
+      id: 59215
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 40000
+  17105:
+    id: 17105
+    name: Armageddon War Reserves Lieutenant SKIN
+    product:
+      id: 59212
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17106:
+    id: 17106
+    name: Apocalypse War Reserves Lieutenant SKIN
+    product:
+      id: 59216
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17107:
+    id: 17107
+    name: Men's Amarr Empire Command Jacket
+    product:
+      id: 46662
+      quantity: 1
+    requirements:
+      isk: 35000000
+      lp: 70000
+  17108:
+    id: 17108
+    name: Men's Imperial War Reserves Jacket
+    product:
+      id: 46666
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17109:
+    id: 17109
+    name: Women's Amarr Empire Command Jacket
+    product:
+      id: 46663
+      quantity: 1
+    requirements:
+      isk: 35000000
+      lp: 70000
+  17110:
+    id: 17110
+    name: Women's Imperial War Reserves Jacket
+    product:
+      id: 46668
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17111:
+    id: 17111
+    name: Women's Imperial Stargate Crew Top
+    product:
+      id: 58809
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17112:
+    id: 17112
+    name: Women's Imperial Stargate Crew Pants
+    product:
+      id: 58785
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17113:
+    id: 17113
+    name: Women's Imperial Stargate Crew Shoes
+    product:
+      id: 58817
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17114:
+    id: 17114
+    name: Men's Imperial Stargate Crew Top
+    product:
+      id: 58813
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17115:
+    id: 17115
+    name: Men's Imperial Stargate Crew Pants
+    product:
+      id: 58791
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17116:
+    id: 17116
+    name: Men's Imperial Stargate Crew Shoes
+    product:
+      id: 58825
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17117:
+    id: 17117
+    name: Caracal Military Stockpile Captain SKIN
+    product:
+      id: 59222
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17118:
+    id: 17118
+    name: Cormorant Military Stockpile Captain SKIN
+    product:
+      id: 59217
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17119:
+    id: 17119
+    name: Drake Military Stockpile Captain SKIN
+    product:
+      id: 59224
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 40000
+  17120:
+    id: 17120
+    name: Merlin Military Stockpile Captain SKIN
+    product:
+      id: 59220
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17121:
+    id: 17121
+    name: Moa Military Stockpile Captain SKIN
+    product:
+      id: 59218
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17122:
+    id: 17122
+    name: Raven Military Stockpile Captain SKIN
+    product:
+      id: 59225
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17123:
+    id: 17123
+    name: Scorpion Military Stockpile Captain SKIN
+    product:
+      id: 59219
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17124:
+    id: 17124
+    name: Men's State Stargate Crew Top
+    product:
+      id: 58814
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17125:
+    id: 17125
+    name: Men's State Stargate Crew Pants
+    product:
+      id: 58792
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17126:
+    id: 17126
+    name: Men's State Stargate Crew Shoes
+    product:
+      id: 58826
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17127:
+    id: 17127
+    name: Women's State Stargate Crew Top
+    product:
+      id: 58810
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17128:
+    id: 17128
+    name: Women's State Stargate Crew Pants
+    product:
+      id: 58786
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17129:
+    id: 17129
+    name: Women's State Stargate Crew Shoes
+    product:
+      id: 58818
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17130:
+    id: 17130
+    name: Men's State Military Stockpile Jacket
+    product:
+      id: 46672
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17131:
+    id: 17131
+    name: Women's State Military Stockpile Jacket
+    product:
+      id: 46671
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17132:
+    id: 17132
+    name: Women's Caldari State Officer Jacket
+    product:
+      id: 46669
+      quantity: 1
+    requirements:
+      isk: 35000000
+      lp: 70000
+  17133:
+    id: 17133
+    name: Men's Caldari State Officer Jacket
+    product:
+      id: 46659
+      quantity: 1
+    requirements:
+      isk: 35000000
+      lp: 70000
+  17134:
+    id: 17134
+    name: Brutix Strategic Materiel Defender SKIN
+    product:
+      id: 59239
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 40000
+  17135:
+    id: 17135
+    name: Catalyst Strategic Materiel Defender SKIN
+    product:
+      id: 59234
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17136:
+    id: 17136
+    name: Dominix Strategic Materiel Defender SKIN
+    product:
+      id: 59236
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17137:
+    id: 17137
+    name: Incursus Strategic Materiel Defender SKIN
+    product:
+      id: 59237
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17138:
+    id: 17138
+    name: Megathron Strategic Materiel Defender SKIN
+    product:
+      id: 59240
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17139:
+    id: 17139
+    name: Thorax Strategic Materiel Defender SKIN
+    product:
+      id: 59238
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17140:
+    id: 17140
+    name: Vexor Strategic Materiel Defender SKIN
+    product:
+      id: 59235
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17141:
+    id: 17141
+    name: Hurricane Fleet Ordnance Spike SKIN
+    product:
+      id: 59246
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 40000
+  17142:
+    id: 17142
+    name: Rifter Fleet Ordnance Spike SKIN
+    product:
+      id: 59244
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17143:
+    id: 17143
+    name: Rupture Fleet Ordnance Spike SKIN
+    product:
+      id: 59245
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17144:
+    id: 17144
+    name: Stabber Fleet Ordnance Spike SKIN
+    product:
+      id: 59242
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17145:
+    id: 17145
+    name: Tempest Fleet Ordnance Spike SKIN
+    product:
+      id: 59247
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17146:
+    id: 17146
+    name: Thrasher Fleet Ordnance Spike SKIN
+    product:
+      id: 59241
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17147:
+    id: 17147
+    name: Typhoon Fleet Ordnance Spike SKIN
+    product:
+      id: 59243
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17148:
+    id: 17148
+    name: Men's Federation Stargate Crew Top
+    product:
+      id: 58815
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17149:
+    id: 17149
+    name: Women's Federation Stargate Crew Top
+    product:
+      id: 58811
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17150:
+    id: 17150
+    name: Men's Republic Stargate Crew Top
+    product:
+      id: 58816
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17151:
+    id: 17151
+    name: Women's Republic Stargate Crew Top
+    product:
+      id: 58812
+      quantity: 1
+    requirements:
+      isk: 12500000
+      lp: 25000
+  17152:
+    id: 17152
+    name: Men's Federation Stargate Crew Pants
+    product:
+      id: 58793
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17153:
+    id: 17153
+    name: Women's Federation Stargate Crew Pants
+    product:
+      id: 58787
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17154:
+    id: 17154
+    name: Men's Republic Stargate Crew Pants
+    product:
+      id: 58794
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17155:
+    id: 17155
+    name: Women's Republic Stargate Crew Pants
+    product:
+      id: 58788
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17156:
+    id: 17156
+    name: Men's Federation Stargate Crew Shoes
+    product:
+      id: 58827
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17157:
+    id: 17157
+    name: Women's Federation Stargate Crew Shoes
+    product:
+      id: 58819
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17158:
+    id: 17158
+    name: Men's Republic Stargate Crew Shoes
+    product:
+      id: 58828
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17159:
+    id: 17159
+    name: Women's Republic Stargate Crew Shoes
+    product:
+      id: 58820
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17160:
+    id: 17160
+    name: Women's Federal Strategic Materiel Jacket
+    product:
+      id: 46658
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17161:
+    id: 17161
+    name: Men's Republic Fleet Ordnance Jacket
+    product:
+      id: 46674
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17162:
+    id: 17162
+    name: Men's Federal Strategic Materiel Jacket
+    product:
+      id: 46667
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17163:
+    id: 17163
+    name: Women's Republic Fleet Ordnance Jacket
+    product:
+      id: 46661
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 50000
+  17164:
+    id: 17164
+    name: Men's Gallente Federation Command Jacket
+    product:
+      id: 46665
+      quantity: 1
+    requirements:
+      isk: 35000000
+      lp: 70000
+  17165:
+    id: 17165
+    name: Women's Gallente Federation Command Jacket
+    product:
+      id: 46660
+      quantity: 1
+    requirements:
+      isk: 35000000
+      lp: 70000
+  17166:
+    id: 17166
+    name: Men's Minmatar Republic Officer Jacket
+    product:
+      id: 46664
+      quantity: 1
+    requirements:
+      isk: 35000000
+      lp: 70000
+  17167:
+    id: 17167
+    name: Women's Minmatar Republic Officer Jacket
+    product:
+      id: 46673
+      quantity: 1
+    requirements:
+      isk: 35000000
+      lp: 70000

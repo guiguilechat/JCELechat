@@ -1115,29 +1115,28 @@ types:
     agility: 0.41850000619888306
     armoremdamageresonance: 0.42500001192092896
     armorexplosivedamageresonance: 0.6800000071525574
-    armorhp: 2718.75
+    armorhp: 1800.0
     armorkineticdamageresonance: 0.637499988079071
     armorthermaldamageresonance: 0.5525000095367432
     capacitorcapacity: 2250.0
     capacity: 410.0
-    damagemultiplier: 22.27336883544922
+    damagemultiplier: 5.599999904632568
     emdamage: 33.0
     emdamageresonance: 0.4020000100135803
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
     entityflyrange: 500.0
-    entitykillbounty: 910000
+    entitysecuritystatuskillbonus: 0.009999999776482582
     explosivedamageresonance: 0.4020000100135803
-    falloff: 13564.416015625
+    falloff: 9000.0
     gfxboosterid: 395
     gfxturretid: 13827
-    hp: 2581.25
-    id: 43656
+    hp: 1720.0
+    id: 59175
     kineticdamageresonance: 0.4020000100135803
     maxlockedtargets: 7
-    maxrange: 36615.69921875
+    maxrange: 36600.0
     maxtargetrange: 73750.0
     maxvelocity: 1273.227783203125
     missiledamagemultiplier: 1.0
@@ -1155,11 +1154,11 @@ types:
     rechargerate: 315562.5
     scanradarstrength: 24.0
     scanresolution: 343.75
-    shieldcapacity: 13059.6875
+    shieldcapacity: 8700.0
     shieldemdamageresonance: 0.4527992010116577
     shieldexplosivedamageresonance: 0.22639960050582886
     shieldkineticdamageresonance: 0.27167952060699463
-    shieldrechargerate: 937500.0
+    shieldrechargerate: 1250000.0
     shieldthermaldamageresonance: 0.36223936080932617
     shielduniformity: 1.0
     signatureradius: 186.25689697265625

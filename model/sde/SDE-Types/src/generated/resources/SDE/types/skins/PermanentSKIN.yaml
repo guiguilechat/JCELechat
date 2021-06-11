@@ -583,6 +583,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Algos Strategic Materiel Defender SKIN:
+    id: 59425
+    marketGroup: 1996
+    name: Algos Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Algos Triglavian Twilight SKIN:
     id: 52398
     marketGroup: 1996
@@ -1116,6 +1124,14 @@ types:
     id: 52392
     marketGroup: 1964
     name: Apocalypse Triglavian Twilight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apocalypse War Reserves Lieutenant SKIN:
+    id: 59216
+    marketGroup: 1964
+    name: Apocalypse War Reserves Lieutenant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2159,6 +2175,14 @@ types:
   Armageddon Tash-Murkon Serenity Only SKIN:
     id: 37954
     name: Armageddon Tash-Murkon Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Armageddon War Reserves Lieutenant SKIN:
+    id: 59212
+    marketGroup: 1964
+    name: Armageddon War Reserves Lieutenant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4260,6 +4284,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Strategic Materiel Defender SKIN:
+    id: 59239
+    marketGroup: 1958
+    name: Brutix Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix Triglavian Twilight SKIN:
     id: 52397
     marketGroup: 1958
@@ -4836,6 +4868,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caracal Military Stockpile Captain SKIN:
+    id: 59222
+    marketGroup: 1991
+    name: Caracal Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caracal Navy Issue Biosecurity Responders SKIN:
     id: 55542
     marketGroup: 2063
@@ -5198,6 +5238,14 @@ types:
     id: 44906
     marketGroup: 1996
     name: Catalyst Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Catalyst Strategic Materiel Defender SKIN:
+    id: 59234
+    marketGroup: 1996
+    name: Catalyst Strategic Materiel Defender SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6130,6 +6178,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Coercer War Reserves Lieutenant SKIN:
+    id: 59210
+    marketGroup: 1994
+    name: Coercer War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Coercer Zakura Shumyu SKIN:
     id: 57057
     marketGroup: 1994
@@ -6417,6 +6473,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Corax Military Stockpile Captain SKIN:
+    id: 59428
+    marketGroup: 1995
+    name: Corax Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Corax Raata Sunset SKIN:
     id: 36646
     marketGroup: 1995
@@ -6568,6 +6632,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cormorant Military Stockpile Captain SKIN:
+    id: 59217
+    marketGroup: 1995
+    name: Cormorant Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cormorant Octopus Orange Flight SKIN:
     id: 47610
     marketGroup: 1995
@@ -6635,6 +6707,13 @@ types:
     id: 53166
     marketGroup: 1995
     name: Cormorant Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Council Diplomatic Shuttle CONCORD Aerospace 'Prototype' SKIN:
+    id: 59324
+    name: Council Diplomatic Shuttle CONCORD Aerospace 'Prototype' SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7166,6 +7245,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier War Reserves Lieutenant SKIN:
+    id: 59421
+    marketGroup: 2002
+    name: Crucifier War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cruor Glacial Drift SKIN:
     id: 46819
     marketGroup: 2031
@@ -7410,6 +7497,14 @@ types:
     id: 45967
     marketGroup: 1959
     name: Cyclone Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cyclone Fleet Ordnance Spike SKIN:
+    id: 59432
+    marketGroup: 1959
+    name: Cyclone Fleet Ordnance Spike SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7887,6 +7982,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Deimos Green Demons SKIN:
+    id: 59339
+    marketGroup: 2071
+    name: Deimos Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Deimos Inner Zone Vanguard SKIN:
     id: 52731
     marketGroup: 2071
@@ -8102,6 +8205,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dominix Green Demons SKIN:
+    id: 59335
+    marketGroup: 1966
+    name: Dominix Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dominix Headhunter SKIN:
     id: 46720
     marketGroup: 1966
@@ -8306,6 +8417,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dominix Strategic Materiel Defender SKIN:
+    id: 59236
+    marketGroup: 1966
+    name: Dominix Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dominix Valimor Legacy SKIN:
     id: 37578
     marketGroup: 1966
@@ -8447,6 +8566,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dragoon War Reserves Lieutenant SKIN:
+    id: 59422
+    marketGroup: 1994
+    name: Dragoon War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Drake Abyssal Firestorm SKIN:
     id: 53135
     marketGroup: 1957
@@ -8578,6 +8705,14 @@ types:
     id: 40607
     marketGroup: 1957
     name: Drake Matigu Seabeast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drake Military Stockpile Captain SKIN:
+    id: 59224
+    marketGroup: 1957
+    name: Drake Military Stockpile Captain SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10393,6 +10528,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ferox Military Stockpile Captain SKIN:
+    id: 59429
+    marketGroup: 1957
+    name: Ferox Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ferox Raata Sunset SKIN:
     id: 36660
     marketGroup: 1957
@@ -10524,6 +10667,13 @@ types:
     id: 53168
     marketGroup: 2039
     name: Flycatcher Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gallente Shuttle Aliastra SKIN:
+    id: 59310
+    name: Gallente Shuttle Aliastra SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11133,6 +11283,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Griffin Military Stockpile Captain SKIN:
+    id: 59427
+    marketGroup: 2003
+    name: Griffin Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Griffin Navy Issue Biosecurity Responders SKIN:
     id: 55548
     marketGroup: 2000
@@ -11661,6 +11819,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Harbinger War Reserves Lieutenant SKIN:
+    id: 59215
+    marketGroup: 1956
+    name: Harbinger War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Harpy Biosecurity Responders SKIN:
     id: 55569
     marketGroup: 2048
@@ -11857,6 +12023,14 @@ types:
     id: 50146
     marketGroup: 2356
     name: Hecate Caille Neon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hecate Dos Rouvenor's Bequest SKIN:
+    id: 59311
+    marketGroup: 2356
+    name: Hecate Dos Rouvenor's Bequest SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12955,6 +13129,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hurricane Fleet Ordnance Spike SKIN:
+    id: 59246
+    marketGroup: 1959
+    name: Hurricane Fleet Ordnance Spike SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hurricane Freedom's Revolution SKIN:
     id: 55713
     marketGroup: 1959
@@ -13842,6 +14024,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Incursus Strategic Materiel Defender SKIN:
+    id: 59237
+    marketGroup: 2004
+    name: Incursus Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Incursus Valimor Legacy SKIN:
     id: 37549
     marketGroup: 2004
@@ -14142,6 +14332,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ishtar Green Demons SKIN:
+    id: 59340
+    marketGroup: 2071
+    name: Ishtar Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ishtar Heartsurge SKIN:
     id: 53958
     marketGroup: 2071
@@ -14233,6 +14431,13 @@ types:
     id: 53428
     marketGroup: 2071
     name: Ishtar Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Iteron Mark V Aliastra SKIN:
+    id: 59309
+    name: Iteron Mark V Aliastra SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16514,6 +16719,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maller War Reserves Lieutenant SKIN:
+    id: 59211
+    marketGroup: 1990
+    name: Maller War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maller Zakura Shumyu SKIN:
     id: 57058
     marketGroup: 1990
@@ -16760,6 +16973,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Marshal Fireblade Guerilla SKIN:
+    id: 59329
+    marketGroup: 2406
+    name: Marshal Fireblade Guerilla SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Marshal Firewatch SKIN:
     id: 47160
     marketGroup: 2406
@@ -16772,6 +16993,14 @@ types:
     id: 47002
     marketGroup: 2406
     name: Marshal Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Marshal Iceblade Guerilla SKIN:
+    id: 59334
+    marketGroup: 2406
+    name: Marshal Iceblade Guerilla SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17013,6 +17242,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maulus Strategic Materiel Defender SKIN:
+    id: 59424
+    marketGroup: 2004
+    name: Maulus Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maulus Valimor Legacy SKIN:
     id: 37550
     marketGroup: 2004
@@ -17065,6 +17302,14 @@ types:
     id: 46959
     marketGroup: 1966
     name: Megathron Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Megathron Green Demons SKIN:
+    id: 59336
+    marketGroup: 1966
+    name: Megathron Green Demons SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17257,6 +17502,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Megathron Strategic Materiel Defender SKIN:
+    id: 59240
+    marketGroup: 1966
+    name: Megathron Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Megathron Triglavian Twilight SKIN:
     id: 52396
     marketGroup: 1966
@@ -17365,6 +17618,14 @@ types:
     id: 40584
     marketGroup: 2003
     name: Merlin Matigu Seabeast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Merlin Military Stockpile Captain SKIN:
+    id: 59220
+    marketGroup: 2003
+    name: Merlin Military Stockpile Captain SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17788,6 +18049,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Moa Military Stockpile Captain SKIN:
+    id: 59218
+    marketGroup: 1991
+    name: Moa Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Moa Permaband Roadies SKIN:
     id: 54445
     marketGroup: 1991
@@ -18025,6 +18294,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Muninn Freedom's Revolution SKIN:
+    id: 59314
+    marketGroup: 2072
+    name: Muninn Freedom's Revolution SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Muninn Glacial Drift SKIN:
     id: 46895
     marketGroup: 2072
@@ -18210,6 +18487,14 @@ types:
     id: 44924
     marketGroup: 1958
     name: Myrmidon Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Myrmidon Strategic Materiel Defender SKIN:
+    id: 59426
+    marketGroup: 1958
+    name: Myrmidon Strategic Materiel Defender SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18400,6 +18685,14 @@ types:
     id: 46016
     marketGroup: 1983
     name: Naglfar Firewall Breach SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Naglfar Freedom's Revolution SKIN:
+    id: 59315
+    marketGroup: 1983
+    name: Naglfar Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19413,6 +19706,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nyx Green Demons SKIN:
+    id: 59338
+    marketGroup: 1976
+    name: Nyx Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nyx Headhunter SKIN:
     id: 46721
     marketGroup: 1976
@@ -20022,6 +20323,14 @@ types:
   Omen Tash-Murkon Serenity Only SKIN:
     id: 37097
     name: Omen Tash-Murkon Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen War Reserves Lieutenant SKIN:
+    id: 59214
+    marketGroup: 1990
+    name: Omen War Reserves Lieutenant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21099,6 +21408,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Panther Fireblade Guerilla SKIN:
+    id: 59325
+    marketGroup: 2113
+    name: Panther Fireblade Guerilla SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Panther Glacial Drift SKIN:
     id: 46913
     marketGroup: 2113
@@ -21119,6 +21436,14 @@ types:
     id: 49429
     marketGroup: 2113
     name: Panther Headhunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Panther Iceblade Guerilla SKIN:
+    id: 59330
+    marketGroup: 2113
+    name: Panther Iceblade Guerilla SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22240,6 +22565,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prophecy War Reserves Lieutenant SKIN:
+    id: 59423
+    marketGroup: 1956
+    name: Prophecy War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prorator Biosecurity Responders SKIN:
     id: 55300
     marketGroup: 2088
@@ -22870,6 +23203,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Punisher War Reserves Lieutenant SKIN:
+    id: 59213
+    marketGroup: 2002
+    name: Punisher War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Punisher Zakura Shumyu SKIN:
     id: 57056
     marketGroup: 2002
@@ -23483,6 +23824,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Raven Military Stockpile Captain SKIN:
+    id: 59225
+    marketGroup: 1965
+    name: Raven Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raven Navy Issue Biosecurity Responders SKIN:
     id: 55543
     marketGroup: 2108
@@ -23727,6 +24076,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Redeemer Fireblade Guerilla SKIN:
+    id: 59327
+    marketGroup: 2110
+    name: Redeemer Fireblade Guerilla SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Redeemer Glacial Drift SKIN:
     id: 46805
     marketGroup: 2110
@@ -23739,6 +24096,14 @@ types:
     id: 49420
     marketGroup: 2110
     name: Redeemer Headhunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Redeemer Iceblade Guerilla SKIN:
+    id: 59332
+    marketGroup: 2110
+    name: Redeemer Iceblade Guerilla SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23827,6 +24192,14 @@ types:
     id: 45947
     marketGroup: 2000
     name: Republic Fleet Firetail Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Republic Fleet Firetail Freedom's Revolution SKIN:
+    id: 59316
+    marketGroup: 2000
+    name: Republic Fleet Firetail Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24389,6 +24762,14 @@ types:
     id: 45936
     marketGroup: 2005
     name: Rifter Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rifter Fleet Ordnance Spike SKIN:
+    id: 59244
+    marketGroup: 2005
+    name: Rifter Fleet Ordnance Spike SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25039,6 +25420,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Fleet Ordnance Spike SKIN:
+    id: 59245
+    marketGroup: 1993
+    name: Rupture Fleet Ordnance Spike SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Glacial Drift SKIN:
     id: 44172
     marketGroup: 1993
@@ -25610,6 +25999,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scorpion Military Stockpile Captain SKIN:
+    id: 59219
+    marketGroup: 1965
+    name: Scorpion Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scorpion Navy Issue Biosecurity Responders SKIN:
     id: 55544
     marketGroup: 2108
@@ -26084,6 +26481,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sin Fireblade Guerilla SKIN:
+    id: 59328
+    marketGroup: 2112
+    name: Sin Fireblade Guerilla SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sin Glacial Drift SKIN:
     id: 46960
     marketGroup: 2112
@@ -26096,6 +26501,14 @@ types:
     id: 47536
     marketGroup: 2112
     name: Sin Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sin Iceblade Guerilla SKIN:
+    id: 59333
+    marketGroup: 2112
+    name: Sin Iceblade Guerilla SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26722,6 +27135,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Fleet Ordnance Spike SKIN:
+    id: 59242
+    marketGroup: 1993
+    name: Stabber Fleet Ordnance Spike SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Glacial Drift SKIN:
     id: 46894
     marketGroup: 1993
@@ -27281,6 +27702,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Svipul Freedom's Revolution SKIN:
+    id: 59313
+    marketGroup: 2392
+    name: Svipul Freedom's Revolution SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Svipul Glacial Drift SKIN:
     id: 46892
     marketGroup: 2392
@@ -27522,6 +27951,14 @@ types:
     id: 45949
     marketGroup: 1997
     name: Talwar Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Talwar Fleet Ordnance Spike SKIN:
+    id: 59431
+    marketGroup: 1997
+    name: Talwar Fleet Ordnance Spike SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27922,6 +28359,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tempest Fleet Ordnance Spike SKIN:
+    id: 59247
+    marketGroup: 1967
+    name: Tempest Fleet Ordnance Spike SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tempest Glacial Drift SKIN:
     id: 46911
     marketGroup: 1967
@@ -28198,6 +28643,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thanatos Dos Rouvenor's Bequest SKIN:
+    id: 59312
+    marketGroup: 1976
+    name: Thanatos Dos Rouvenor's Bequest SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thanatos Eros Blossom SKIN:
     id: 47290
     marketGroup: 1976
@@ -28234,6 +28687,14 @@ types:
     id: 47538
     marketGroup: 1976
     name: Thanatos Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thanatos Green Demons SKIN:
+    id: 59337
+    marketGroup: 1976
+    name: Thanatos Green Demons SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28530,6 +28991,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thorax Strategic Materiel Defender SKIN:
+    id: 59238
+    marketGroup: 1992
+    name: Thorax Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thorax Triglavian Twilight SKIN:
     id: 52395
     marketGroup: 1992
@@ -28582,6 +29051,14 @@ types:
     id: 48527
     marketGroup: 1997
     name: Thrasher Firewall Breach SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thrasher Fleet Ordnance Spike SKIN:
+    id: 59241
+    marketGroup: 1997
+    name: Thrasher Fleet Ordnance Spike SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29280,6 +29757,14 @@ types:
     id: 52890
     marketGroup: 2108
     name: Typhoon Fleet Issue Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Typhoon Fleet Ordnance Spike SKIN:
+    id: 59243
+    marketGroup: 1967
+    name: Typhoon Fleet Ordnance Spike SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30362,6 +30847,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Strategic Materiel Defender SKIN:
+    id: 59235
+    marketGroup: 1992
+    name: Vexor Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Valimor Legacy SKIN:
     id: 37566
     marketGroup: 1992
@@ -30557,6 +31050,14 @@ types:
     id: 57393
     marketGroup: 2000
     name: Vigil Fleet Issue Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigil Fleet Ordnance Spike SKIN:
+    id: 59430
+    marketGroup: 2005
+    name: Vigil Fleet Ordnance Spike SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30862,6 +31363,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Widow Fireblade Guerilla SKIN:
+    id: 59326
+    marketGroup: 2111
+    name: Widow Fireblade Guerilla SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Widow Ghostbird SKIN:
     id: 48198
     marketGroup: 2111
@@ -30874,6 +31383,14 @@ types:
     id: 46859
     marketGroup: 2111
     name: Widow Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Widow Iceblade Guerilla SKIN:
+    id: 59331
+    marketGroup: 2111
+    name: Widow Iceblade Guerilla SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

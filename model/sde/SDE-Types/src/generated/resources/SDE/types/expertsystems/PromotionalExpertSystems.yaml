@@ -7,3 +7,19 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Gallente Federation Day Expert System:
+    id: 59404
+    mass: 1.0
+    name: Gallente Federation Day Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Mining Blitz Expedition Frigates Expert System:
+    id: 59195
+    mass: 1.0
+    name: Mining Blitz Expedition Frigates Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

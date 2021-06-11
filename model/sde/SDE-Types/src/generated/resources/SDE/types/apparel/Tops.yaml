@@ -636,6 +636,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Federation Stargate Crew Top:
+    gender: 2
+    id: 58815
+    marketGroup: 1398
+    name: Men's Federation Stargate Crew Top
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Frontier Safeguarder T-Shirt:
     gender: 2
     id: 54194
@@ -650,6 +659,15 @@ types:
     id: 47184
     marketGroup: 1398
     name: Men's Gallente 'Defender' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Imperial Stargate Crew Top:
+    gender: 2
+    id: 58813
+    marketGroup: 1398
+    name: Men's Imperial Stargate Crew Top
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -686,6 +704,24 @@ types:
     id: 54943
     marketGroup: 1398
     name: Men's Project Discovery Cytometry T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Stargate Crew Top:
+    gender: 2
+    id: 58816
+    marketGroup: 1398
+    name: Men's Republic Stargate Crew Top
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's State Stargate Crew Top:
+    gender: 2
+    id: 58814
+    marketGroup: 1398
+    name: Men's State Stargate Crew Top
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1517,6 +1553,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's Federation Stargate Crew Top:
+    gender: 2
+    id: 58811
+    marketGroup: 1406
+    name: Women's Federation Stargate Crew Top
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Frontier Safeguarder T-Shirt:
     gender: 2
     id: 54193
@@ -1531,6 +1576,15 @@ types:
     id: 47185
     marketGroup: 1406
     name: Women's Gallente 'Defender' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Imperial Stargate Crew Top:
+    gender: 2
+    id: 58809
+    marketGroup: 1406
+    name: Women's Imperial Stargate Crew Top
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1567,6 +1621,24 @@ types:
     id: 54944
     marketGroup: 1406
     name: Women's Project Discovery Cytometry T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Stargate Crew Top:
+    gender: 2
+    id: 58812
+    marketGroup: 1406
+    name: Women's Republic Stargate Crew Top
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's State Stargate Crew Top:
+    gender: 2
+    id: 58810
+    marketGroup: 1406
+    name: Women's State Stargate Crew Top
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

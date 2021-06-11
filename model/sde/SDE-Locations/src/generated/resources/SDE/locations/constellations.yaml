@@ -4831,8 +4831,12 @@ locations:
   Anidaza:
     adjacentConstellations:
     - Arvachah
+    - R-IZDC
+    adjacentRegions:
+    - Stain
     adjacentSystems:
     - Shesha
+    - F7-ICZ
     hasBorder: true
     hasCorridor: true
     hasFringe: false
@@ -14566,11 +14570,14 @@ locations:
     - Carrou
   Ganoure:
     adjacentConstellations:
+    - Mobrault
     - Alselbosier
     - YFN-UN
     adjacentRegions:
+    - Solitude
     - Syndicate
     adjacentSystems:
+    - Eggheron
     - Gare
     - TXW-EI
     hasBorder: true
@@ -15843,12 +15850,15 @@ locations:
     adjacentConstellations:
     - Kimotoro
     - Okela
+    - Nazdirer
     adjacentRegions:
     - Lonetrek
+    - Genesis
     adjacentSystems:
     - New Caldari
     - Tunttaras
     - Jita
+    - Ahbazon
     hasBorder: true
     hasCorridor: true
     hasFringe: true
@@ -18905,8 +18915,12 @@ locations:
     - Ziona
   Mobrault:
     adjacentConstellations:
+    - Ganoure
     - Braille
+    adjacentRegions:
+    - Placid
     adjacentSystems:
+    - Kenninck
     - Vevelonel
     hasBorder: true
     hasCorridor: true
@@ -19699,13 +19713,16 @@ locations:
     - Arkoz
   Nazdirer:
     adjacentConstellations:
+    - Ihilakken
     - Megeh
     - Parrosa
     - Sanctum
     - Ashela
     adjacentRegions:
+    - The Forge
     - Kador
     adjacentSystems:
+    - Hykkota
     - Gensela
     - Kamda
     - Tarta
@@ -21151,8 +21168,12 @@ locations:
   Panorad:
     adjacentConstellations:
     - Brazinget
+    - Sanctum
+    adjacentRegions:
+    - Genesis
     adjacentSystems:
     - Gedugaud
+    - Pakhshi
     hasBorder: true
     hasCorridor: true
     hasFringe: true
@@ -21997,8 +22018,12 @@ locations:
   R-IZDC:
     adjacentConstellations:
     - WF-OP4
+    - Anidaza
+    adjacentRegions:
+    - Tash-Murkon
     adjacentSystems:
     - A-DZA8
+    - Saminer
     hasBorder: true
     hasCorridor: true
     hasFringe: true
@@ -22921,6 +22946,7 @@ locations:
     - Coriault
     - Crux
     - Thoulde
+    - Panorad
     - Anwyns
     - Ekrin
     - Peccanouette
@@ -22932,6 +22958,7 @@ locations:
     - Everyshore
     - Verge Vendor
     - Sinq Laison
+    - Metropolis
     adjacentSystems:
     - Deninard
     - Arant
@@ -22942,6 +22969,7 @@ locations:
     - Renyn
     - Oursulaert
     - Synchelle
+    - Irgrus
     - Tourier
     - Merolles
     - Ashokon

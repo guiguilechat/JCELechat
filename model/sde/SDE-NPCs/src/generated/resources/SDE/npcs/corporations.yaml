@@ -10341,6 +10341,24 @@ corporations:
   Federal Strategic Materiel:
     faction: Gallente Federation
     id: 1000285
+    lpoffers:
+    - 17134
+    - 17135
+    - 17136
+    - 17137
+    - 17138
+    - 17139
+    - 17140
+    - 17148
+    - 17149
+    - 17152
+    - 17153
+    - 17156
+    - 17157
+    - 17160
+    - 17162
+    - 17164
+    - 17165
     name: Federal Strategic Materiel
   Federation Customs:
     concordRate: 0.8
@@ -14064,6 +14082,24 @@ corporations:
   Imperial War Reserves:
     faction: Amarr Empire
     id: 1000283
+    lpoffers:
+    - 17100
+    - 17101
+    - 17102
+    - 17103
+    - 17104
+    - 17105
+    - 17106
+    - 17107
+    - 17108
+    - 17109
+    - 17110
+    - 17111
+    - 17112
+    - 17113
+    - 17114
+    - 17115
+    - 17116
     name: Imperial War Reserves
   Impetus:
     concordRate: 0.8
@@ -22760,6 +22796,24 @@ corporations:
   Republic Fleet Ordnance:
     faction: Minmatar Republic
     id: 1000286
+    lpoffers:
+    - 17141
+    - 17142
+    - 17143
+    - 17144
+    - 17145
+    - 17146
+    - 17147
+    - 17150
+    - 17151
+    - 17154
+    - 17155
+    - 17158
+    - 17159
+    - 17161
+    - 17163
+    - 17166
+    - 17167
     name: Republic Fleet Ordnance
   Republic Justice Department:
     concordRate: 0.8
@@ -26861,6 +26915,24 @@ corporations:
   State Military Stockpile:
     faction: Caldari State
     id: 1000284
+    lpoffers:
+    - 17117
+    - 17118
+    - 17119
+    - 17120
+    - 17121
+    - 17122
+    - 17123
+    - 17124
+    - 17125
+    - 17126
+    - 17127
+    - 17128
+    - 17129
+    - 17130
+    - 17131
+    - 17132
+    - 17133
     name: State Military Stockpile
   State Peacekeepers:
     faction: Caldari State

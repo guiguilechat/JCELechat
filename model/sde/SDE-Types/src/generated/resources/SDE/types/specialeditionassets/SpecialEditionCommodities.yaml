@@ -1,4 +1,12 @@
 types:
+  ' Capsuleer Day XVIII Omega Booster Gift Box':
+    cpumultiplier: 1.0
+    id: 59322
+    name: ' Capsuleer Day XVIII Omega Booster Gift Box'
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   ' Capsuleer Day XVIII T-Shirt and Cap Crate':
     cpumultiplier: 1.0
     id: 58797
@@ -1379,6 +1387,22 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Gallente Federation Day Jacket Crate:
+    cpumultiplier: 1.0
+    id: 59319
+    name: Gallente Federation Day Jacket Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Gallente Federation Day Pants Crate:
+    cpumultiplier: 1.0
+    id: 59320
+    name: Gallente Federation Day Pants Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Gallente Inception Package:
     cpumultiplier: 1.0
     id: 43932

@@ -1476,8 +1476,10 @@ locations:
     - Coriault
     - Crux
     - Thoulde
+    - Panorad
     - Anwyns
     - Peccanouette
+    - Ihilakken
     - Megeh
     - Parrosa
     - Favo
@@ -1491,6 +1493,8 @@ locations:
     - Everyshore
     - Verge Vendor
     - Sinq Laison
+    - Metropolis
+    - The Forge
     - Kador
     - Kor-Azor
     adjacentSystems:
@@ -1504,9 +1508,11 @@ locations:
     - Renyn
     - Oursulaert
     - Synchelle
+    - Irgrus
     - Tourier
     - Merolles
     - Arnon
+    - Hykkota
     - Gensela
     - Kamda
     - Rayeret
@@ -2075,6 +2081,7 @@ locations:
     - F-ZNNG
     - Eoldulf
     - Akimamur
+    - Sanctum
     adjacentRegions:
     - Heimatar
     - The Forge
@@ -2083,6 +2090,7 @@ locations:
     - Great Wildlands
     - Geminate
     - Molden Heath
+    - Genesis
     adjacentSystems:
     - Meirakulf
     - Vullat
@@ -2102,6 +2110,7 @@ locations:
     - AD-5B8
     - Ennur
     - Wiskeber
+    - Pakhshi
     - Fuskunen
     constellations:
     - Meinigefur
@@ -2418,6 +2427,7 @@ locations:
     adjacentConstellations:
     - S4GH-I
     - Anwyns
+    - Mobrault
     - YFN-UN
     - Z-6NQ6
     - Woenckee
@@ -2428,6 +2438,7 @@ locations:
     adjacentRegions:
     - Pure Blind
     - Verge Vendor
+    - Solitude
     - Syndicate
     - Black Rise
     - Cloud Ring
@@ -2435,6 +2446,7 @@ locations:
     adjacentSystems:
     - RQH-MY
     - Aidart
+    - Eggheron
     - TXW-EI
     - MHC-R3
     - Loes
@@ -2730,13 +2742,16 @@ locations:
     - 59H-0G
     - Anama
     - TA-A7V
+    - Ganoure
     adjacentRegions:
     - Syndicate
     - Aridia
+    - Placid
     adjacentSystems:
     - D85-VD
     - Shirshocin
     - Y9G-KS
+    - Kenninck
     constellations:
     - Elerelle
     - Elose
@@ -2750,14 +2765,17 @@ locations:
     name: Solitude
   Stain:
     adjacentConstellations:
+    - Anidaza
     - KUSW-P
     - 9HXQ-G
     - XOV7-5
     adjacentRegions:
+    - Tash-Murkon
     - Esoteria
     - Catch
     - Period Basis
     adjacentSystems:
+    - Saminer
     - VYJ-DA
     - 3GD6-8
     - XZ-SKZ
@@ -2836,6 +2854,7 @@ locations:
   Tash-Murkon:
     adjacentConstellations:
     - Kashag
+    - R-IZDC
     - Mazake
     - Jakemhih
     - Trigentia
@@ -2848,11 +2867,13 @@ locations:
     - Parud
     adjacentRegions:
     - Domain
+    - Stain
     - Kador
     - Khanid
     - Providence
     adjacentSystems:
     - Andabiar
+    - F7-ICZ
     - Nomash
     - Biphi
     - Aldali
@@ -3068,6 +3089,7 @@ locations:
   The Forge:
     adjacentConstellations:
     - Okela
+    - Nazdirer
     - IPS-QB
     - Suon
     - Outartoh
@@ -3084,6 +3106,7 @@ locations:
     - Inkelm
     adjacentRegions:
     - Lonetrek
+    - Genesis
     - Geminate
     - The Citadel
     - Sinq Laison
@@ -3092,6 +3115,7 @@ locations:
     - Etherium Reach
     adjacentSystems:
     - Tunttaras
+    - Ahbazon
     - BWF-ZZ
     - Inaro
     - Muvolailen

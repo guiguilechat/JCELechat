@@ -88,6 +88,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's 'Federal Defender' Pants:
+    gender: 2
+    id: 59187
+    marketGroup: 1401
+    name: Men's 'Federal Defender' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Hephaestus' Pants (blue):
     gender: 1
     id: 36493
@@ -288,6 +297,24 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's Federation Stargate Crew Pants:
+    gender: 2
+    id: 58793
+    marketGroup: 1401
+    name: Men's Federation Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Imperial Stargate Crew Pants:
+    gender: 2
+    id: 58791
+    marketGroup: 1401
+    name: Men's Imperial Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Jita 4-4 Crew Pants:
     gender: 2
     id: 56849
@@ -302,6 +329,24 @@ types:
     id: 56850
     marketGroup: 1401
     name: Men's Jita 4-4 Executive Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Stargate Crew Pants:
+    gender: 2
+    id: 58794
+    marketGroup: 1401
+    name: Men's Republic Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's State Stargate Crew Pants:
+    gender: 2
+    id: 58792
+    marketGroup: 1401
+    name: Men's State Stargate Crew Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -506,6 +551,15 @@ types:
     id: 54306
     marketGroup: 1403
     name: Women's 'Fatal Elite' Combat Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Federal Defender' Pants:
+    gender: 2
+    id: 59198
+    marketGroup: 1403
+    name: Women's 'Federal Defender' Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1220,6 +1274,24 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's Federation Stargate Crew Pants:
+    gender: 2
+    id: 58787
+    marketGroup: 1403
+    name: Women's Federation Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Imperial Stargate Crew Pants:
+    gender: 2
+    id: 58785
+    marketGroup: 1403
+    name: Women's Imperial Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Jita 4-4 Crew Pants:
     gender: 2
     id: 56846
@@ -1234,6 +1306,24 @@ types:
     id: 56853
     marketGroup: 1403
     name: Women's Jita 4-4 Executive Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Stargate Crew Pants:
+    gender: 2
+    id: 58788
+    marketGroup: 1403
+    name: Women's Republic Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's State Stargate Crew Pants:
+    gender: 2
+    id: 58786
+    marketGroup: 1403
+    name: Women's State Stargate Crew Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

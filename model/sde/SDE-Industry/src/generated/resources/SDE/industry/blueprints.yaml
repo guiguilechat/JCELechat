@@ -173355,6 +173355,52 @@ blueprints:
     research_time:
       time: 12600
     seeded: true
+  58905:
+    copying:
+      time: 9600
+    id: 58905
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 246000
+      - id: 35
+        quantity: 5111
+      - id: 37
+        quantity: 3556
+      - id: 39
+        quantity: 1840
+      - id: 40
+        quantity: 120
+      - id: 2867
+        quantity: 10
+      - id: 2870
+        quantity: 2
+      - id: 2872
+        quantity: 4
+      - id: 2875
+        quantity: 4
+      - id: 2876
+        quantity: 4
+      - id: 9834
+        quantity: 8
+      products:
+      - id: 58904
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+        ? id: 11446
+        : 4
+        ? id: 11448
+        : 4
+      time: 12000
+    maxCopyRuns: 10
+    research_material:
+      time: 4200
+    research_time:
+      time: 4200
+    seeded: true
   58955:
     copying:
       time: 720

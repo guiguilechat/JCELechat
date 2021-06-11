@@ -4235,6 +4235,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Serenity Imp/Whiptail Crate:
+    exporttaxmultiplier: 1
+    id: 59318
+    importtaxmultiplier: 1
+    name: Serenity Imp/Whiptail Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Serenity Rookie DLI Day 1 Crate:
     exporttaxmultiplier: 1
     id: 57213
@@ -4267,6 +4276,15 @@ types:
     id: 57224
     importtaxmultiplier: 1
     name: Serenity Rookie DLI Day 4 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Ship Crate:
+    exporttaxmultiplier: 1
+    id: 59317
+    importtaxmultiplier: 1
+    name: Serenity Ship Crate
     packagedVolume: 1.0
     portionSize: 1
     published: true

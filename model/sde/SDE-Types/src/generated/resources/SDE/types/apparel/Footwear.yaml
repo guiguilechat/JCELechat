@@ -318,11 +318,47 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's Federation Stargate Crew Shoes:
+    gender: 2
+    id: 58827
+    marketGroup: 1400
+    name: Men's Federation Stargate Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Imperial Stargate Crew Shoes:
+    gender: 2
+    id: 58825
+    marketGroup: 1404
+    name: Men's Imperial Stargate Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Jita 4-4 Crew Shoes:
     gender: 2
     id: 56847
     marketGroup: 1400
     name: Men's Jita 4-4 Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Stargate Crew Shoes:
+    gender: 2
+    id: 58828
+    marketGroup: 1400
+    name: Men's Republic Stargate Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's State Stargate Crew Shoes:
+    gender: 2
+    id: 58826
+    marketGroup: 1400
+    name: Men's State Stargate Crew Shoes
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -816,11 +852,47 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's Federation Stargate Crew Shoes:
+    gender: 2
+    id: 58819
+    marketGroup: 1404
+    name: Women's Federation Stargate Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Imperial Stargate Crew Shoes:
+    gender: 2
+    id: 58817
+    marketGroup: 1404
+    name: Women's Imperial Stargate Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Jita 4-4 Crew Shoes:
     gender: 2
     id: 56844
     marketGroup: 1404
     name: Women's Jita 4-4 Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Stargate Crew Shoes:
+    gender: 2
+    id: 58820
+    marketGroup: 1404
+    name: Women's Republic Stargate Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's State Stargate Crew Shoes:
+    gender: 2
+    id: 58818
+    marketGroup: 1404
+    name: Women's State Stargate Crew Shoes
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

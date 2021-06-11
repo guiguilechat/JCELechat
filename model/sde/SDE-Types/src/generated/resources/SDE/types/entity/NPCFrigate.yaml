@@ -1752,37 +1752,33 @@ types:
     volume: 17400.0
   ♦ Succubus:
     agility: 2.362499952316284
+    aoecloudsizebonus: 15.0
+    aoevelocitybonus: -15.0
     armoremdamageresonance: 0.42500001192092896
     armorexplosivedamageresonance: 0.6800000071525574
-    armorhp: 687.5
+    armorhp: 400.0
     armorkineticdamageresonance: 0.637499988079071
     armorthermaldamageresonance: 0.5525000095367432
-    behaviorenergyneutralizerdischarge: 33.75
-    behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 3000.0
-    behaviorenergyneutralizerrange: 6000.0
-    behaviorwebifierdischarge: 3.75
-    behaviorwebifierduration: 5000.0
-    behaviorwebifierrange: 15000.0
     capacitorcapacity: 562.5
     capacity: 135.0
-    damagemultiplier: 20.21484375
-    emdamage: 15.399999618530273
+    damagemultiplier: 5.0
+    emdamage: 11.0
     emdamageresonance: 0.4020000100135803
-    energyneutralizeramount: 55.0
     energywarfareresistance: 1.0
-    entityfactionloss: 0.0010000000474974513
-    entitykillbounty: 120000
+    entitysecuritystatuskillbonus: 0.009999999776482582
+    explosiondelaybonus: -11.25
     explosivedamageresonance: 0.4020000100135803
-    falloff: 3125.0
+    falloff: 3000.0
+    falloffbonus: -21.487499237060547
     gfxboosterid: 394
     gfxturretid: 13829
-    hp: 675.0
-    id: 44108
+    hp: 400.0
+    id: 59174
     kineticdamageresonance: 0.4020000100135803
-    maxlockedtargets: 5
-    maxrange: 8593.75
-    maxtargetrange: 40000.0
+    maxlockedtargets: 9
+    maxrange: 9000.0
+    maxrangebonus: -21.487499237060547
+    maxtargetrange: 65558.2734375
     maxvelocity: 1893.643310546875
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -1790,29 +1786,39 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
+    missilevelocitybonus: -11.25
     name: ♦ Succubus
+    npcguidancedisruptordischarge: 13.5
+    npcguidancedisruptorduration: 10000.0
+    npcguidancedisruptorfalloff: 36000.0
+    npcguidancedisruptorrange: 72000.0
+    npctrackingdisruptordischarge: 13.5
+    npctrackingdisruptorduration: 10000.0
+    npctrackingdisruptorfalloff: 36000.0
+    npctrackingdisruptorrange: 72000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 59.0
-    rechargerate: 88593.75
-    scanradarstrength: 15.600000381469727
-    scanresolution: 812.5
-    shieldcapacity: 2224.27978515625
-    shieldemdamageresonance: 0.612500011920929
-    shieldexplosivedamageresonance: 0.3062500059604645
-    shieldkineticdamageresonance: 0.3675000071525574
-    shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.49000000953674316
+    rechargerate: 157500.0
+    scanradarstrength: 32.71979522705078
+    scanresolution: 1056.1876220703125
+    shieldcapacity: 1300.0
+    shieldemdamageresonance: 0.875
+    shieldexplosivedamageresonance: 0.4375
+    shieldkineticdamageresonance: 0.5249999761581421
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.699999988079071
     shielduniformity: 1.0
-    signatureradius: 39.441017150878906
+    signatureradius: 42.0
     speed: 3600.0
-    speedfactor: -55.0
+    speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 11.0
+    thermaldamage: 6.599999904632568
     thermaldamageresonance: 0.4020000100135803
     trackingspeed: 154.6875
+    trackingspeedbonus: -21.487499237060547
     volume: 28600.0
   ♦ Swordspine:
     agility: 2.632499933242798

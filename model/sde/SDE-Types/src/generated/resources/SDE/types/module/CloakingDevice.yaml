@@ -33,6 +33,7 @@ types:
     requiredskill1level: 4
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 2
     volume: 100.0
   CONCORD Modified Cloaking Device:
@@ -57,6 +58,7 @@ types:
     scanresolutionmultiplier: 0.7149999737739563
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Caldari Navy Cloaking Device:
@@ -81,6 +83,7 @@ types:
     scanresolutionmultiplier: 0.6499999761581421
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Covert Ops Cloaking Device II:
@@ -116,6 +119,7 @@ types:
     requiredskill1level: 4
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 2
     volume: 100.0
   Dread Guristas Cloaking Device:
@@ -140,6 +144,7 @@ types:
     scanresolutionmultiplier: 0.6499999761581421
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Estamel's Modified Cloaking Device:
@@ -164,6 +169,7 @@ types:
     scanresolutionmultiplier: 0.7799999713897705
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Improved 'Guise' Cloaking Device II:
@@ -189,6 +195,7 @@ types:
     scanresolutionmultiplier: 0.6499999761581421
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 2
     volume: 100.0
   Improved Cloaking Device II:
@@ -213,6 +220,7 @@ types:
     scanresolutionmultiplier: 0.6000000238418579
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 2
     volume: 100.0
   Kaikka's Modified Cloaking Device:
@@ -237,6 +245,7 @@ types:
     scanresolutionmultiplier: 0.6825000047683716
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Prototype 'Poncho' Cloaking Device I:
@@ -262,6 +271,7 @@ types:
     scanresolutionmultiplier: 0.550000011920929
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Prototype Cloaking Device I:
@@ -285,6 +295,7 @@ types:
     scanresolutionmultiplier: 0.5
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Syndicate Cloaking Device:
@@ -310,6 +321,7 @@ types:
     scanresolutionmultiplier: 0.699999988079071
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Thon's Modified Cloaking Device:
@@ -334,6 +346,7 @@ types:
     scanresolutionmultiplier: 0.7149999737739563
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0
   Vepas' Modified Cloaking Device:
@@ -358,5 +371,6 @@ types:
     scanresolutionmultiplier: 0.7475000023841858
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
+    stabilizecloakduration: 900
     techlevel: 1
     volume: 100.0

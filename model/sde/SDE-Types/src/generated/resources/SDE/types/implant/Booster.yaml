@@ -528,102 +528,6 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-  Basic 'Bonding' Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18695.45703125
-    boosterness: 10
-    charismabonus: 5
-    followsjumpclones: 1
-    id: 52801
-    intelligencebonus: 5
-    marketGroup: 2487
-    memorybonus: 5
-    name: Basic 'Bonding' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 5
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 5
-  Basic 'Guri Kikhivaa' Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18778.45703125
-    boosterness: 10
-    charismabonus: 4
-    followsjumpclones: 1
-    id: 57745
-    intelligencebonus: 4
-    marketGroup: 2487
-    memorybonus: 4
-    name: Basic 'Guri Kikhivaa' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 4
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 4
-  Basic 'Radiance' Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18611.45703125
-    boosterness: 10
-    charismabonus: 4
-    followsjumpclones: 1
-    id: 52807
-    intelligencebonus: 4
-    marketGroup: 2487
-    memorybonus: 4
-    name: Basic 'Radiance' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 4
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 4
-  Basic Capsuleer Day Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18786.45703125
-    boosterness: 10
-    charismabonus: 4
-    followsjumpclones: 1
-    id: 58853
-    intelligencebonus: 4
-    marketGroup: 2487
-    memorybonus: 4
-    name: Basic Capsuleer Day Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 4
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 4
   Basic Capsuleer Day Glamourex Booster:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18786.45703125
@@ -1063,54 +967,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 12
-  Expired Advanced Serenity Cerebral Accelerator:
-    boosterduration: 1.728E8
-    boosterlastinjectiondatetime: 18443.125
-    boosterness: 10
-    charismabonus: 10
-    followsjumpclones: 1
-    id: 54657
-    intelligencebonus: 10
-    marketGroup: 2487
-    memorybonus: 10
-    name: Expired Advanced Serenity Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 10
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 10
-  Expired Basic Serenity Cerebral Accelerator:
-    boosterduration: 4.32E7
-    boosterlastinjectiondatetime: 18443.125
-    boosterness: 10
-    charismabonus: 10
-    followsjumpclones: 1
-    id: 54655
-    intelligencebonus: 10
-    marketGroup: 2487
-    memorybonus: 10
-    name: Expired Basic Serenity Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 10
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 10
   Expired CDIA SPACE Cerebral Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17652.458984375
@@ -1144,30 +1000,6 @@ types:
     intelligencebonus: 10
     memorybonus: 10
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 10
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 10
-  Expired Extended Serenity Cerebral Accelerator:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18443.125
-    boosterness: 10
-    charismabonus: 10
-    followsjumpclones: 1
-    id: 54651
-    intelligencebonus: 10
-    marketGroup: 2487
-    memorybonus: 10
-    name: Expired Extended Serenity Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -1227,30 +1059,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Expired Serenity Monthly Cerebral Accelerator - 2020.5:
-    boosterduration: 4.32E7
-    boosterlastinjectiondatetime: 18412.458984375
-    boosterness: 10
-    charismabonus: 5
-    followsjumpclones: 1
-    id: 54660
-    intelligencebonus: 5
-    marketGroup: 2487
-    memorybonus: 5
-    name: Expired Serenity Monthly Cerebral Accelerator - 2020.5
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 5
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 5
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17610.458984375
@@ -1297,126 +1105,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Expired Standard Serenity Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18443.125
-    boosterness: 10
-    charismabonus: 10
-    followsjumpclones: 1
-    id: 54656
-    intelligencebonus: 10
-    marketGroup: 2487
-    memorybonus: 10
-    name: Expired Standard Serenity Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 10
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 10
-  Extended 'Bonding' Cerebral Accelerator:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18695.45703125
-    boosterness: 10
-    charismabonus: 8
-    followsjumpclones: 1
-    id: 52803
-    intelligencebonus: 8
-    marketGroup: 2487
-    memorybonus: 8
-    name: Extended 'Bonding' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 8
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 8
-  Extended 'Guri Kikhivaa' Cerebral Accelerator:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18778.45703125
-    boosterness: 10
-    charismabonus: 6
-    followsjumpclones: 1
-    id: 57747
-    intelligencebonus: 6
-    marketGroup: 2487
-    memorybonus: 6
-    name: Extended 'Guri Kikhivaa' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 6
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 6
-  Extended 'Radiance' Cerebral Accelerator:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18611.45703125
-    boosterness: 10
-    charismabonus: 6
-    followsjumpclones: 1
-    id: 52809
-    intelligencebonus: 6
-    marketGroup: 2487
-    memorybonus: 6
-    name: Extended 'Radiance' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 6
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 6
-  Extended Capsuleer Day Cerebral Accelerator:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18786.45703125
-    boosterness: 10
-    charismabonus: 6
-    followsjumpclones: 1
-    id: 58851
-    intelligencebonus: 6
-    marketGroup: 2487
-    memorybonus: 6
-    name: Extended Capsuleer Day Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 6
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 6
   Extended Capsuleer Day Glamourex Booster:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18786.45703125
@@ -2370,30 +2058,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 1
-  Improved 'Guri Kikhivaa' Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18778.45703125
-    boosterness: 10
-    charismabonus: 8
-    followsjumpclones: 1
-    id: 57746
-    intelligencebonus: 8
-    marketGroup: 2487
-    memorybonus: 8
-    name: Improved 'Guri Kikhivaa' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 8
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 8
   Improved Blue Pill Booster:
     boosteraoevelocitypenalty: -25
     boostercapacitorcapacitypenalty: -25
@@ -3330,6 +2994,90 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Mining Blitz Range Booster Dose I:
+    boosterduration: 1.44E7
+    boosterness: 2
+    id: 59189
+    maxrangebonus: 10.0
+    name: Mining Blitz Range Booster Dose I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+  Mining Blitz Range Booster Dose II:
+    boosterduration: 1.44E7
+    boosterness: 2
+    id: 59190
+    maxrangebonus: 20.0
+    name: Mining Blitz Range Booster Dose II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+  Mining Blitz Range Booster Dose III:
+    boosterduration: 1.44E7
+    boosterness: 2
+    id: 59191
+    maxrangebonus: 30.0
+    name: Mining Blitz Range Booster Dose III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+  Mining Blitz Yield Booster Dose I:
+    boosterduration: 1.44E7
+    boosterness: 3
+    id: 59192
+    miningamountbonus: 5
+    name: Mining Blitz Yield Booster Dose I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+  Mining Blitz Yield Booster Dose II:
+    boosterduration: 1.44E7
+    boosterness: 3
+    id: 59193
+    miningamountbonus: 10
+    name: Mining Blitz Yield Booster Dose II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+  Mining Blitz Yield Booster Dose III:
+    boosterduration: 1.44E7
+    boosterness: 3
+    id: 59194
+    miningamountbonus: 15
+    name: Mining Blitz Yield Booster Dose III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
   Mining Drones Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
@@ -3506,78 +3254,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Potent 'Bonding' Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18695.45703125
-    boosterness: 10
-    charismabonus: 12
-    followsjumpclones: 1
-    id: 52802
-    intelligencebonus: 12
-    marketGroup: 2487
-    memorybonus: 12
-    name: Potent 'Bonding' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 12
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 12
-  Potent 'Radiance' Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18611.45703125
-    boosterness: 10
-    charismabonus: 8
-    followsjumpclones: 1
-    id: 52808
-    intelligencebonus: 8
-    marketGroup: 2487
-    memorybonus: 8
-    name: Potent 'Radiance' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 8
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 8
-  Potent Capsuleer Day Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18786.45703125
-    boosterness: 10
-    charismabonus: 8
-    followsjumpclones: 1
-    id: 58852
-    intelligencebonus: 8
-    marketGroup: 2487
-    memorybonus: 8
-    name: Potent Capsuleer Day Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 8
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 8
   Potent Capsuleer Day Glamourex Booster:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18786.45703125
@@ -3956,6 +3632,48 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Basic Capsuleer Day Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18808.125
+    boosterness: 10
+    charismabonus: 4
+    followsjumpclones: 1
+    id: 59303
+    intelligencebonus: 4
+    memorybonus: 4
+    name: Serenity Basic Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 4
+  Serenity Basic Capsuleer Day Glamourex Booster:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18808.125
+    boosterness: 12
+    followsjumpclones: 1
+    id: 59306
+    name: Serenity Basic Capsuleer Day Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 20
+    socialmutator: 20
+    volume: 1.0
   Serenity December Season Advanced Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18637.125
@@ -4025,6 +3743,75 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity EoM Season Accelerator Bronze:
+    boosterduration: 10000.0
+    boosterlastinjectiondatetime: 18793.125
+    boosterness: 134
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 59297
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity EoM Season Accelerator Bronze
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity EoM Season Accelerator Gold:
+    boosterduration: 10000.0
+    boosterlastinjectiondatetime: 18793.125
+    boosterness: 134
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 59299
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity EoM Season Accelerator Gold
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity EoM Season Accelerator Silver:
+    boosterduration: 10000.0
+    boosterlastinjectiondatetime: 18793.125
+    boosterness: 134
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 59298
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity EoM Season Accelerator Silver
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Serenity Extended 'Bonding' Cerebral Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18718.666015625
@@ -4049,6 +3836,48 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 8
+  Serenity Extended Capsuleer Day Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18808.125
+    boosterness: 10
+    charismabonus: 6
+    followsjumpclones: 1
+    id: 59301
+    intelligencebonus: 6
+    memorybonus: 6
+    name: Serenity Extended Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 6
+  Serenity Extended Capsuleer Day Glamourex Booster:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18808.125
+    boosterness: 12
+    followsjumpclones: 1
+    id: 59305
+    name: Serenity Extended Capsuleer Day Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 25
+    socialmutator: 25
+    volume: 1.0
   Serenity Monthly Cerebral Accelerator - 2020.10:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18567.666015625
@@ -4512,6 +4341,48 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 12
+  Serenity Potent Capsuleer Day Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18808.125
+    boosterness: 10
+    charismabonus: 8
+    followsjumpclones: 1
+    id: 59302
+    intelligencebonus: 8
+    memorybonus: 8
+    name: Serenity Potent Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 8
+  Serenity Potent Capsuleer Day Glamourex Booster:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18808.125
+    boosterness: 12
+    followsjumpclones: 1
+    id: 59304
+    name: Serenity Potent Capsuleer Day Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 50
+    socialmutator: 50
+    volume: 1.0
   Serenity September Season Advanced Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18543.125
@@ -5271,6 +5142,75 @@ types:
     intelligencebonus: 5
     memorybonus: 5
     name: Serenity YC123.5 Season Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.6 Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18818.125
+    boosterness: 132
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 59295
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.6 Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.6 Season Pass:
+    boosterduration: 2.4192E9
+    boosterlastinjectiondatetime: 18806.125
+    boosterness: 133
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 59296
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity YC123.6 Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity YC123.6 Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18818.125
+    boosterness: 131
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 59294
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.6 Season Standard Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0

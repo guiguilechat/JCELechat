@@ -1,0 +1,12 @@
+types:
+  Mobile Observatory Blueprint:
+    id: 58905
+    industryblueprintrank: 40.0
+    marketGroup: 2772
+    name: Mobile Observatory Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.4E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

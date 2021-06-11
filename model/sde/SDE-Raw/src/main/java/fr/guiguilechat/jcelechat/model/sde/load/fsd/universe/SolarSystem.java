@@ -52,7 +52,8 @@ public class SolarSystem {
 	}
 
 	public static class Moon {
-		public int typeID, celestialIndex, radius;
+		public int typeID, celestialIndex;
+		public double radius;
 		public Object planetAttributes, position, statistics;
 
 		public int moonNameID;
