@@ -17,8 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
@@ -26,6 +24,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnableOpenJumpPortal;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnablePerformConduitJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonics;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalConsumptionMassFactor;
@@ -44,7 +43,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
-public class JumpPortalGenerator
+public class CovertJumpPortalGenerator
     extends Module
 {
     /**
@@ -61,20 +60,6 @@ public class JumpPortalGenerator
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorneed;
-    /**
-     * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int consumptionquantity;
-    /**
-     * The type of resource needed to be consumed for each activation cycle of this structure.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int consumptiontype;
     /**
      * CPU need of module
      */
@@ -124,6 +109,13 @@ public class JumpPortalGenerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int enableopenjumpportal;
+    /**
+     * Grants the ability to perform conduit jumps
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int enableperformconduitjump;
     /**
      * 
      */
@@ -210,8 +202,8 @@ public class JumpPortalGenerator
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, Power.INSTANCE, Radius.INSTANCE, JumpHarmonics.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
-    public static final JumpPortalGenerator.MetaGroup METAGROUP = new JumpPortalGenerator.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, Power.INSTANCE, Radius.INSTANCE, JumpHarmonics.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, EnablePerformConduitJump.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final CovertJumpPortalGenerator.MetaGroup METAGROUP = new CovertJumpPortalGenerator.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -223,14 +215,6 @@ public class JumpPortalGenerator
             case  6 :
             {
                 return capacitorneed;
-            }
-            case  714 :
-            {
-                return consumptionquantity;
-            }
-            case  713 :
-            {
-                return consumptiontype;
             }
             case  50 :
             {
@@ -259,6 +243,10 @@ public class JumpPortalGenerator
             case  3125 :
             {
                 return enableopenjumpportal;
+            }
+            case  3126 :
+            {
+                return enableperformconduitjump;
             }
             case  1253 :
             {
@@ -321,35 +309,35 @@ public class JumpPortalGenerator
     }
 
     @Override
-    public IMetaGroup<JumpPortalGenerator> getGroup() {
+    public IMetaGroup<CovertJumpPortalGenerator> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<JumpPortalGenerator>
+        implements IMetaGroup<CovertJumpPortalGenerator>
     {
-        public static final String RESOURCE_PATH = "SDE/types/module/JumpPortalGenerator.yaml";
-        private Map<String, JumpPortalGenerator> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/module/CovertJumpPortalGenerator.yaml";
+        private Map<String, CovertJumpPortalGenerator> cache = (null);
 
         @Override
-        public IMetaCategory<? super JumpPortalGenerator> category() {
+        public IMetaCategory<? super CovertJumpPortalGenerator> category() {
             return Module.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  590;
+            return  4127;
         }
 
         @Override
         public String getName() {
-            return "JumpPortalGenerator";
+            return "CovertJumpPortalGenerator";
         }
 
         @Override
-        public synchronized Map<String, JumpPortalGenerator> load() {
+        public synchronized Map<String, CovertJumpPortalGenerator> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(JumpPortalGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(CovertJumpPortalGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -359,7 +347,7 @@ public class JumpPortalGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpPortalGenerator> types;
+            public LinkedHashMap<String, CovertJumpPortalGenerator> types;
         }
     }
 }

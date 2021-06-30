@@ -268,8 +268,8 @@ public class Marauder
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonus2cb;
+    @DefaultRealValue(0.0)
+    public double shipbonus2cb;
     /**
      * 
      */

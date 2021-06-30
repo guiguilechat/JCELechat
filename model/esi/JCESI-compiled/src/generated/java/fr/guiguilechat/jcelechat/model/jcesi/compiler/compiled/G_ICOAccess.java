@@ -393,7 +393,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_agents_research[]> get_characters_agents_research(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/agents_research/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/agents_research/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_agents_research[].class));
     }
 
@@ -442,7 +442,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<R_get_characters_character_id_blueprints[]> get_characters_blueprints(int character_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v3/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints[].class));
     }
 
@@ -640,7 +640,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_fatigue> get_characters_fatigue(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/fatigue/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/fatigue/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_fatigue.class));
     }
 
@@ -850,7 +850,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_medals[]> get_characters_medals(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/medals/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/medals/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_medals[].class));
     }
 
@@ -897,7 +897,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_notifications_contacts[]> get_characters_notifications_contacts(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/notifications/contacts/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/notifications/contacts/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications_contacts[].class));
     }
 
@@ -1005,7 +1005,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_roles> get_characters_roles(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/roles/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v3/characters/{character_id}/roles/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles.class));
     }
 
@@ -1065,7 +1065,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<M_get_standings_3 []> get_characters_standings(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/standings/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/standings/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3[].class));
     }
 
@@ -1080,7 +1080,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_titles[]> get_characters_titles(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/titles/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/titles/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_titles[].class));
     }
 
@@ -1981,7 +1981,7 @@ public interface G_ICOAccess
      *     The target characters to calculate the charge for
      */
     public default Requested<Float> post__cspa(int character_id, int[] characters, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/characters/{character_id}/cspa/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v5/characters/{character_id}/cspa/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("characters", characters);
         return requestPost(url, properties, content, Float.class);

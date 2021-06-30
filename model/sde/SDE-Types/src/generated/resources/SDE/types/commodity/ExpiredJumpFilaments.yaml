@@ -22,3 +22,23 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Expired Serenity Capsuleer Day Noise-18 'Needlejack' Filament:
+    filamentdescriptionmessageid: 561098
+    id: 59307
+    mjdshipjumpcap: 1
+    name: Expired Serenity Capsuleer Day Noise-18 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Expired Serenity Capsuleer Day Signal-18 'Needlejack' Filament:
+    filamentdescriptionmessageid: 561098
+    id: 59308
+    mjdshipjumpcap: 1
+    name: Expired Serenity Capsuleer Day Signal-18 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612

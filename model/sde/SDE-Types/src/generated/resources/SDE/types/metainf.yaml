@@ -760,6 +760,7 @@ group2class:
   module/CloakingDevice: fr.guiguilechat.jcelechat.model.sde.types.module.CloakingDevice
   module/CloneVatBay: fr.guiguilechat.jcelechat.model.sde.types.module.CloneVatBay
   module/CommandBurst: fr.guiguilechat.jcelechat.model.sde.types.module.CommandBurst
+  module/CovertJumpPortalGenerator: fr.guiguilechat.jcelechat.model.sde.types.module.CovertJumpPortalGenerator
   module/CynosuralFieldGenerator: fr.guiguilechat.jcelechat.model.sde.types.module.CynosuralFieldGenerator
   module/DamageControl: fr.guiguilechat.jcelechat.model.sde.types.module.DamageControl
   module/DataMiners: fr.guiguilechat.jcelechat.model.sde.types.module.DataMiners
@@ -11545,7 +11546,7 @@ id2name:
   21830: Fortified Minmatar Wall
   21831: Fortified Minmatar Fence
   21832: Fortified Minmatar Junction
-  21833: Fortified Minmatar Lookout
+  21833: Fortified Minmatar Grandstand
   21834: Fortified Minmatar Barrier
   21835: Fortified Minmatar Bunker
   21836: Fortified Minmatar Barricade
@@ -38544,11 +38545,11 @@ id2name:
   58851: Expired Extended Capsuleer Day Cerebral Accelerator
   58852: Expired Potent Capsuleer Day Cerebral Accelerator
   58853: Expired Basic Capsuleer Day Cerebral Accelerator
-  58854: Potent Capsuleer Day Glamourex Booster
-  58855: Extended Capsuleer Day Glamourex Booster
-  58856: Basic Capsuleer Day Glamourex Booster
+  58854: Expired Potent Capsuleer Day Glamourex Booster
+  58855: Expired Extended Capsuleer Day Glamourex Booster
+  58856: Expired Basic Capsuleer Day Glamourex Booster
   58857: Expired Capsuleer Day Noise-18 'Needlejack' Filament
-  58858: Capsuleer Day Signal-18 'Needlejack' Filament
+  58858: Expired Capsuleer Day Signal-18 'Needlejack' Filament
   58859: Praxis Versus Redforce SKIN
   58860: Praxis Versus Blueforce SKIN
   58861: Griffin Navy Issue Forward 4-4 SKIN
@@ -38710,8 +38711,8 @@ id2name:
   59304: Serenity Potent Capsuleer Day Glamourex Booster
   59305: Serenity Extended Capsuleer Day Glamourex Booster
   59306: Serenity Basic Capsuleer Day Glamourex Booster
-  59307: Serenity Capsuleer Day Noise-18 'Needlejack' Filament
-  59308: Serenity Capsuleer Day Signal-18 'Needlejack' Filament
+  59307: Expired Serenity Capsuleer Day Noise-18 'Needlejack' Filament
+  59308: Expired Serenity Capsuleer Day Signal-18 'Needlejack' Filament
   59309: Iteron Mark V Aliastra SKIN
   59310: Gallente Shuttle Aliastra SKIN
   59311: Hecate Dos Rouvenor's Bequest SKIN
@@ -38772,6 +38773,37 @@ id2name:
   59459: Eggheron Stargate Construction Monument
   59460: Saminer Stargate Construction Monument
   59461: F7-ICZ Stargate Construction Monument
+  59462: Rifter Liberation Games SKIN
+  59463: Probe Liberation Games SKIN
+  59464: Republic Fleet Firetail Liberation Games SKIN
+  59465: Talwar Liberation Games SKIN
+  59466: Scythe Liberation Games SKIN
+  59467: Cyclone Liberation Games SKIN
+  59468: Tempest Liberation Games SKIN
+  59469: Claw Liberation Games SKIN
+  59470: Bifrost Liberation Games SKIN
+  59471: Vagabond Liberation Games SKIN
+  59472: Rapier Liberation Games SKIN
+  59473: Claymore Liberation Games SKIN
+  59474: Vargur Liberation Games SKIN
+  59475: Minmatar Shuttle Liberation Games SKIN
+  59503: Novice Data Vault
+  59504: Intermediate Data Vault
+  59505: Expert Data Vault
+  59507: Plinth Minmatar NIO [Do not translate]
+  59508: Fortified Minmatar Grandstand
+  59509: Fortified Minmatar Viewing Lounge
+  59510: Minmatar Wall NIO [Do not translate]
+  59519: Minmatar Liberation Day Expert System
+  59520: Liberation Games Firework Sentry
+  59587: Minmatar Liberation Day Apparel Crate
+  59595: Limited Mining Expedition Beacon
+  59596: Minor Mining Expedition Beacon
+  59597: Standard Mining Expedition Beacon
+  59598: Major Mining Expedition Beacon
+  59599: Critical Mining Expedition Beacon
+  59603: Serenity 618 Event Crate
+  59620: Serenity Monthly Cerebral Accelerator - 2021.7
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -44693,7 +44725,6 @@ name2group:
   Basic Blaster Damage Amplifier: infantry/InfantryModules
   Basic CPU Upgrade: infantry/InfantryModules
   Basic CPU Upgrade Unit: infantry/InfantryModules
-  Basic Capsuleer Day Glamourex Booster: implant/Booster
   Basic Capsuleer Defense Augmentation Chip: implant/Booster
   Basic Capsuleer Engineering Augmentation Chip: implant/Booster
   Basic Cardiac Regulator: infantry/InfantryModules
@@ -46710,7 +46741,6 @@ name2group:
   Capsule Zakura Hansei SKIN: skins/PermanentSKIN
   Capsuleer Dawn Firework (Large): charge/StructureFestivalCharges
   Capsuleer Day 18 Cruiser Extravaganza Proving Filament: commodity/AbyssalProvingFilaments
-  Capsuleer Day Signal-18 'Needlejack' Filament: commodity/JumpFilaments
   Capsuleer Day XVI Apotheosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Cap Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Gnosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
@@ -48230,7 +48260,7 @@ name2group:
   Courier: entity/Convoy
   Covert Cynosural Field Generator I: module/CynosuralFieldGenerator
   Covert Cynosural Field Generator I Blueprint: blueprint/GangCoordinatorBlueprint
-  Covert Jump Portal Generator I: module/JumpPortalGenerator
+  Covert Jump Portal Generator I: module/CovertJumpPortalGenerator
   Covert Jump Portal Generator I Blueprint: blueprint/SiegeModuleBlueprint
   Covert Ops: skill/SpaceshipCommand
   Covert Ops Cloaking Device II: module/CloakingDevice
@@ -51084,6 +51114,7 @@ name2group:
   Experimental XT-2800 Heavy Assault Missile Launcher I: module/MissileLauncherHeavyAssault
   Experimental ZW-4100 Torpedo Launcher: module/MissileLauncherTorpedo
   Expert Cerebral Accelerator: implant/Booster
+  Expert Data Vault: entity/SpawnContainer
   Expired 'Absolute' Injection Augmentor: implant/Booster
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator: implant/Booster
   Expired CDIA SPACE Cerebral Accelerator: implant/Booster
@@ -51093,6 +51124,8 @@ name2group:
   Expired Grand Prix Interceptors Expert System: expertsystems/PromotionalExpertSystems
   Expired Guardian Angels 'Advanced' Cerebral Accelerator: implant/Booster
   Expired Guardian Angels 'Standard' Cerebral Accelerator: implant/Booster
+  Expired Serenity Capsuleer Day Noise-18 'Needlejack' Filament: commodity/ExpiredJumpFilaments
+  Expired Serenity Capsuleer Day Signal-18 'Needlejack' Filament: commodity/ExpiredJumpFilaments
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator: implant/Booster
   Expired Standard 'Guri Hivaa' Cerebral Accelerator: implant/Booster
   Exploration Supplies: entity/SpawnContainer
@@ -51123,7 +51156,6 @@ name2group:
   Explosives: infantry/InfantrySkills
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   Exsanguinator: entity/DeadspaceOverseerCruiser
-  Extended Capsuleer Day Glamourex Booster: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extractive Super-Nexus: entity/LargeCollidableStructure
@@ -55018,6 +55050,7 @@ name2group:
   Interfering Phase-II Legionary: entity/RogueDroneEntities
   Interfering Phase-III Legionary: entity/RogueDroneEntities
   Interfering Phase-IV Legionary: entity/RogueDroneEntities
+  Intermediate Data Vault: entity/SpawnContainer
   Intermediate Medal: commodity/Miscellaneous
   Internal Bulkhead: commodity/MaterialsAndCompounds
   Internal Policies: specialeditionassets/SpecialEditionCommodities
@@ -56398,6 +56431,7 @@ name2group:
   Leviathan Yoiul Star SKIN: skins/PermanentSKIN
   Leviathan Zento Isideko Combine SKIN: skins/PermanentSKIN
   Liberation Elixir: commodity/Commodities
+  Liberation Games Firework Sentry: entity/DestructibleSentryGun
   Liberation Games Rifter FFA Proving Filament: commodity/AbyssalProvingFilaments
   Liberty Spear Gallente Battleship: entity/HiddenZenithGallenteBattleship
   Liberty Spear Gallente Cruiser: entity/HiddenZenithGallenteCruiser
@@ -59803,6 +59837,7 @@ name2group:
   November Module: module/StasisNullifiers
   November Module Crate: specialeditionassets/SpecialEditionCommodities
   November Nightmare: entity/IrregularBattleship
+  Novice Data Vault: entity/SpawnContainer
   Novice Medal: commodity/Miscellaneous
   Nuclear L: charge/ProjectileAmmo
   Nuclear L Blueprint: blueprint/ProjectileAmmoBlueprint
@@ -60879,7 +60914,6 @@ name2group:
   Portable Power Generator: commodity/Commodities
   Positron Cord: commodity/MaterialsAndCompounds
   Postcard From Poitot: specialeditionassets/SpecialEditionCommodities
-  Potent Capsuleer Day Glamourex Booster: implant/Booster
   Potent Viral Agent: commodity/Biohazard
   Poteque 'Prospector' Archaeology AC-905: implant/CyberScanning
   Poteque 'Prospector' Astrometric Acquisition AQ-702: implant/CyberScanning
@@ -63611,6 +63645,7 @@ name2group:
   Sentry Station Alpha/Beta: entity/DeadspaceOverseerSStructure
   Sentry Tower: entity/DestructibleSentryGun
   Sepentis Regional Baron Arain Percourt: entity/DeadspaceOverseerBattleship
+  Serenity 618 Event Crate: commodity/Miscellaneous
   Serenity Anniversary Cerebral Accelerator I: implant/Booster
   Serenity Anniversary Cerebral Accelerator II: implant/Booster
   Serenity Anniversary Cerebral Accelerator III: implant/Booster
@@ -63628,8 +63663,6 @@ name2group:
   Serenity Basic 'Bonding' Cerebral Accelerator: implant/Booster
   Serenity Basic Capsuleer Day Cerebral Accelerator: implant/Booster
   Serenity Basic Capsuleer Day Glamourex Booster: implant/Booster
-  Serenity Capsuleer Day Noise-18 'Needlejack' Filament: commodity/JumpFilaments
-  Serenity Capsuleer Day Signal-18 'Needlejack' Filament: commodity/JumpFilaments
   Serenity December Season Advanced Cerebral Accelerator: implant/Booster
   Serenity December Season Pass: implant/Booster
   Serenity December Season Standard Cerebral Accelerator: implant/Booster
@@ -63656,6 +63689,7 @@ name2group:
   Serenity Monthly Cerebral Accelerator - 2021.4: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.5: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.6: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2021.7: implant/Booster
   Serenity November Season Advanced Cerebral Accelerator: implant/Booster
   Serenity November Season Pass: implant/Booster
   Serenity November Season Standard Cerebral Accelerator: implant/Booster

@@ -38,7 +38,7 @@ types:
     typecolorscheme: 11324
     volume: 50.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Large Consortium Vorton Projector:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
@@ -79,7 +79,7 @@ types:
     typecolorscheme: 11324
     volume: 50.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Large Scoped Vorton Projector:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
@@ -119,7 +119,7 @@ types:
     typecolorscheme: 11324
     volume: 50.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Large Vorton Projector I:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
@@ -159,7 +159,7 @@ types:
     typecolorscheme: 11324
     volume: 50.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Large Vorton Projector II:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
@@ -202,7 +202,7 @@ types:
     typecolorscheme: 11324
     volume: 50.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Medium Compact Vorton Projector:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
@@ -242,7 +242,7 @@ types:
     typecolorscheme: 11324
     volume: 25.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Medium Consortium Vorton Projector:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
@@ -283,7 +283,7 @@ types:
     typecolorscheme: 11324
     volume: 25.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Medium Scoped Vorton Projector:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
@@ -323,7 +323,7 @@ types:
     typecolorscheme: 11324
     volume: 25.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Medium Vorton Projector I:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
@@ -363,7 +363,7 @@ types:
     typecolorscheme: 11324
     volume: 25.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Medium Vorton Projector II:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
@@ -406,7 +406,7 @@ types:
     typecolorscheme: 11324
     volume: 25.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Small Compact Vorton Projector:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
@@ -446,7 +446,7 @@ types:
     typecolorscheme: 11324
     volume: 5.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Small Consortium Vorton Projector:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
@@ -487,7 +487,7 @@ types:
     typecolorscheme: 11324
     volume: 5.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Small Scoped Vorton Projector:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
@@ -527,7 +527,7 @@ types:
     typecolorscheme: 11324
     volume: 5.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Small Vorton Projector I:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
@@ -567,7 +567,7 @@ types:
     typecolorscheme: 11324
     volume: 5.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10
   Small Vorton Projector II:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
@@ -610,4 +610,4 @@ types:
     typecolorscheme: 11324
     volume: 5.0
     vortonarcrange: 10000
-    vortonarctargets: 5
+    vortonarctargets: 10

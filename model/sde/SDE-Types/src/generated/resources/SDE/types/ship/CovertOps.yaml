@@ -36,7 +36,7 @@ types:
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 2
-    lowslots: 3
+    lowslots: 4
     maincolor: 16777215
     marketGroup: 421
     maxdirectionalvelocity: 3000
@@ -74,7 +74,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonus2af: -5.0
-    shipbonusaf: 5.0
+    shipbonusaf: -15.0
     signatureradius: 47.0
     structureuniformity: 1.0
     techlevel: 2
@@ -125,7 +125,7 @@ types:
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 2
-    lowslots: 2
+    lowslots: 3
     maincolor: 16777215
     marketGroup: 422
     maxdirectionalvelocity: 3000
@@ -163,8 +163,8 @@ types:
     shieldthermaldamageresonance: 0.699999988079071
     shielduniformity: 0.75
     shipbonus2af: 5.0
-    shipbonuscf: 5
-    shipbonuscf2: -5.0
+    shipbonuscf: -5
+    shipbonuscf2: -15.0
     signatureradius: 50.0
     structureuniformity: 1.0
     techlevel: 2
@@ -312,7 +312,7 @@ types:
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
-    lowslots: 3
+    lowslots: 4
     maincolor: 16777215
     marketGroup: 424
     maxdirectionalvelocity: 3000
@@ -351,7 +351,7 @@ types:
     shielduniformity: 0.75
     shipbonus2af: 5.0
     shipbonusmf: 5.0
-    shipbonusmf2: 10.0
+    shipbonusmf2: -15.0
     signatureradius: 46.0
     structureuniformity: 1.0
     techlevel: 2
@@ -493,7 +493,7 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 1.0
-    hislots: 2
+    hislots: 3
     hp: 809.0
     id: 11172
     jumpharmonics: 5
@@ -537,7 +537,7 @@ types:
     shielduniformity: 0.75
     shipbonus2af: 5.0
     shipbonusgf: 5.0
-    shipbonusgf2: 10.0
+    shipbonusgf2: -15.0
     signatureradius: 49.0
     structureuniformity: 1.0
     techlevel: 2

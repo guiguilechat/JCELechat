@@ -179,7 +179,7 @@ public interface G_IDCAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_corporationhistory[]> get_characters_corporationhistory(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/corporationhistory/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/corporationhistory/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_corporationhistory[].class));
     }
 
@@ -1195,15 +1195,14 @@ public interface G_IDCAccess
      * Character affiliation
      * <p>
      * Bulk lookup of character IDs to corporation, alliance and faction<br />
-     * This route is cached for up to 3600 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#POST-/characters/affiliation/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param characters
      *     The character IDs to fetch affiliations for. All characters must exist, or none will be returned
      */
     public default Requested<R_post_characters_affiliation[]> post_affiliation(int[] characters, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/affiliation/");
+        String url = ("https://esi.evetech.net/v2/characters/affiliation/");
         Map<String, Object> content = new HashMap<>();
         content.put("characters", characters);
         return requestPost(url, properties, content, R_post_characters_affiliation[].class);

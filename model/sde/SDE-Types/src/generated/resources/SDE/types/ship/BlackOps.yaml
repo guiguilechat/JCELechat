@@ -10,9 +10,11 @@ types:
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 5000.0
-    capacity: 700.0
+    capacity: 800.0
     concordrolebonussecgain: 10
     concordtankbonus: -10
+    conduitjumpdriveconsumptionamount: 1000
+    conduitjumppassengercount: 30
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 20000
     cpuneedbonus: -99
@@ -58,7 +60,7 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
-    maxtargetrange: 70000.0
+    maxtargetrange: 91000.0
     maxvelocity: 110.0
     medslots: 7
     metalevelold: 5
@@ -95,14 +97,15 @@ types:
     shieldrechargerate: 3125000.0
     shieldthermaldamageresonance: 0.6000000238418579
     shielduniformity: 0.75
-    shipbonus2cb: -5
+    shipbonus2cb: -7.5
     shipbonusab: 10.0
-    shipbonusab2: 5.0
+    shipbonusab2: 10.0
     shipbonuscb: 10
-    shipbonusgb: 5.0
+    shipbonusgb: 10.0
     shipbonusgb2: 7.5
     shipbonusmb: 10.0
-    shipbonusmb2: -5.0
+    shipbonusmb2: -10.0
+    shipbonusrole1: 6.5
     signatureradius: 330.0
     specialfuelbaycapacity: 2150
     structureuniformity: 1.0
@@ -127,7 +130,9 @@ types:
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 5000.0
-    capacity: 725.0
+    capacity: 825.0
+    conduitjumpdriveconsumptionamount: 1000
+    conduitjumppassengercount: 30
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 20000
     cpuneedbonus: -99
@@ -135,8 +140,8 @@ types:
     dronebandwidth: 125
     dronecapacity: 175
     durationbonus: -50
-    elitebonusblackops1: 5.0
-    elitebonusblackops2: 1.25
+    elitebonusblackops1: 7.5
+    elitebonusblackops2: 7.5
     emdamageresonance: 0.6700000166893005
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
@@ -171,8 +176,8 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
-    maxtargetrange: 48000.0
-    maxvelocity: 146.0
+    maxtargetrange: 66400.0
+    maxvelocity: 182.0
     medslots: 5
     metalevelold: 5
     mintargetveldmgmultiplier: 0.5
@@ -204,8 +209,9 @@ types:
     shielduniformity: 0.75
     shipbonusab: 5.0
     shipbonuscb: 5
-    shipbonusmb: 5.0
+    shipbonusmb: 10.0
     shipbonusmb2: -5.0
+    shipbonusrole1: 6.5
     signatureradius: 288.0
     specialfuelbaycapacity: 2150
     structureuniformity: 1.0
@@ -229,8 +235,10 @@ types:
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
-    capacitorcapacity: 5312.5
-    capacity: 700.0
+    capacitorcapacity: 5912.5
+    capacity: 800.0
+    conduitjumpdriveconsumptionamount: 1000
+    conduitjumppassengercount: 30
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 20000
     cpuneedbonus: -99
@@ -239,7 +247,7 @@ types:
     dronecapacity: 125
     durationbonus: -50
     elitebonusblackops1: 7.5
-    elitebonusblackops2: 1.25
+    elitebonusblackops2: 10.0
     emdamageresonance: 0.6700000166893005
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
@@ -274,7 +282,7 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
-    maxtargetrange: 52000.0
+    maxtargetrange: 70600.0
     maxvelocity: 117.0
     medslots: 4
     metalevelold: 5
@@ -306,9 +314,10 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: -10.0
-    shipbonusab2: -5.0
+    shipbonusab2: -10.0
     shipbonuscb: 5
     shipbonusmb: 5.0
+    shipbonusrole1: 6.5
     signatureradius: 333.0
     specialfuelbaycapacity: 2150
     structureuniformity: 1.0
@@ -323,7 +332,7 @@ types:
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.5
   Sin:
-    agility: 0.06840000301599503
+    agility: 0.05130000039935112
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 4968.0
@@ -333,7 +342,9 @@ types:
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 5000.0
-    capacity: 700.0
+    capacity: 800.0
+    conduitjumpdriveconsumptionamount: 1000
+    conduitjumppassengercount: 30
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 20000
     cpuneedbonus: -99
@@ -341,8 +352,8 @@ types:
     dronebandwidth: 125
     dronecapacity: 400
     durationbonus: -50
-    elitebonusblackops1: -5.0
-    elitebonusblackops2: 1.25
+    elitebonusblackops1: 10.0
+    elitebonusblackops2: 7.5
     emdamageresonance: 0.6700000166893005
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
@@ -377,7 +388,7 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
-    maxtargetrange: 56000.0
+    maxtargetrange: 72800.0
     maxvelocity: 117.0
     medslots: 6
     metalevelold: 5
@@ -410,9 +421,10 @@ types:
     shielduniformity: 0.75
     shipbonusab: 5.0
     shipbonuscb: 5
-    shipbonusgb: 5.0
+    shipbonusgb: 10.0
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
+    shipbonusrole1: 6.5
     signatureradius: 378.0
     specialfuelbaycapacity: 2150
     structureuniformity: 1.0
@@ -437,7 +449,9 @@ types:
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 5312.5
-    capacity: 650.0
+    capacity: 750.0
+    conduitjumpdriveconsumptionamount: 1000
+    conduitjumppassengercount: 30
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 20000
     cpuneedbonus: -99
@@ -445,8 +459,8 @@ types:
     dronebandwidth: 75
     dronecapacity: 75
     durationbonus: -50
-    elitebonusblackops1: 30.0
-    elitebonusblackops2: 1.25
+    elitebonusblackops1: 40.0
+    elitebonusblackops2: -4.0
     emdamageresonance: 0.6700000166893005
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
@@ -482,7 +496,7 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
-    maxtargetrange: 72000.0
+    maxtargetrange: 93600.0
     maxvelocity: 106.0
     medslots: 8
     metalevelold: 5
@@ -513,11 +527,12 @@ types:
     shieldrechargerate: 3125000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
-    shipbonus2cb: -5
+    shipbonus2cb: -7.5
     shipbonusab: 5.0
     shipbonuscb: 10
     shipbonuscb3: 10
     shipbonusmb: 5.0
+    shipbonusrole1: 6.5
     signatureradius: 405.0
     specialfuelbaycapacity: 2150
     structureuniformity: 1.0

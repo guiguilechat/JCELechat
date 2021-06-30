@@ -3335,6 +3335,34 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 1200.0
+  Expert Data Vault:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 59505
+    ishacking: 1
+    lootrespawntime: 600000.0
+    name: Expert Data Vault
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
   Exploration Supplies:
     capacitorcapacity: 2700.0
     capacity: 2700.0
@@ -4505,6 +4533,34 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 4
     volume: 27500.0
+  Intermediate Data Vault:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 59504
+    ishacking: 1
+    lootrespawntime: 600000.0
+    name: Intermediate Data Vault
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
   Kador Bunker:
     capacitorcapacity: 2700.0
     capacity: 10000.0
@@ -5243,6 +5299,34 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
+    volume: 27500.0
+  Novice Data Vault:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 59503
+    ishacking: 1
+    lootrespawntime: 600000.0
+    name: Novice Data Vault
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
     volume: 27500.0
   Nuomo's Scanner:
     capacitorcapacity: 100000.0

@@ -31068,3 +31068,30 @@ offers:
     requirements:
       isk: 35000000
       lp: 70000
+  17168:
+    id: 17168
+    name: Maulus Strategic Materiel Defender SKIN
+    product:
+      id: 59424
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17169:
+    id: 17169
+    name: Algos Strategic Materiel Defender SKIN
+    product:
+      id: 59425
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17170:
+    id: 17170
+    name: Myrmidon Strategic Materiel Defender SKIN
+    product:
+      id: 59426
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 40000

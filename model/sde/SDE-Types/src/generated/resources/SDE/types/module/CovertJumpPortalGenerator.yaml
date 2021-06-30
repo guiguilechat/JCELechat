@@ -1,0 +1,32 @@
+types:
+  Covert Jump Portal Generator I:
+    canfitshipgroup01: 898
+    capacitorneed: 100.0
+    cpu: 50.0
+    disallowassistance: 1
+    disallowearlydeactivation: 1
+    disallowoffensivemodifiers: 1
+    disallowrepeatingactivation: 1
+    duration: 20000.0
+    enableopenjumpportal: 1
+    enableperformconduitjump: 1
+    hp: 99999.0
+    id: 28652
+    jumpharmonics: 5
+    jumpportalconsumptionmassfactor: 2.0000000233721948E-7
+    jumpportalduration: 20000
+    marketGroup: 1640
+    maxgroupactive: 1
+    name: Covert Jump Portal Generator I
+    packagedVolume: 125.0
+    portionSize: 1
+    power: 1500
+    price: 5.1299712E7
+    published: true
+    radius: 1.0
+    requiredskill1: 24562
+    requiredskill1level: 1
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 125.0

@@ -528,26 +528,6 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-  Basic Capsuleer Day Glamourex Booster:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18786.45703125
-    boosterness: 12
-    followsjumpclones: 1
-    id: 58856
-    marketGroup: 2530
-    name: Basic Capsuleer Day Glamourex Booster
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 20
-    socialmutator: 20
-    volume: 1.0
   Basic Capsuleer Defense Augmentation Chip:
     armorhpbonus2: 5.0
     boostermaxcharagehours: 720
@@ -1105,26 +1085,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Extended Capsuleer Day Glamourex Booster:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18786.45703125
-    boosterness: 12
-    followsjumpclones: 1
-    id: 58855
-    marketGroup: 2530
-    name: Extended Capsuleer Day Glamourex Booster
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 25
-    socialmutator: 25
-    volume: 1.0
   Festival-only 'Longbow' CM3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
@@ -3254,26 +3214,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Potent Capsuleer Day Glamourex Booster:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18786.45703125
-    boosterness: 12
-    followsjumpclones: 1
-    id: 58854
-    marketGroup: 2530
-    name: Potent Capsuleer Day Glamourex Booster
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 50
-    socialmutator: 50
-    volume: 1.0
   Poteque 'Prospector' Sharpeye 11-11:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18627.125
@@ -4172,6 +4112,28 @@ types:
     perceptionbonus: 5
     portionSize: 1
     price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2021.7:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18840.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 59620
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2021.7
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
     published: true
     radius: 1.0
     requiredskill1: 3402

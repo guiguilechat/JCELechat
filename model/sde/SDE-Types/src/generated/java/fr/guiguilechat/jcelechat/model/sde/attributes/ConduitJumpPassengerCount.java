@@ -1,24 +1,24 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * 
+ * How many passengers can be carried in a Conduit Jump
  */
-public class ShipBonus2CB
-    extends RealAttribute
+public class ConduitJumpPassengerCount
+    extends IntAttribute
 {
-    public static final ShipBonus2CB INSTANCE = new ShipBonus2CB();
+    public static final ConduitJumpPassengerCount INSTANCE = new ConduitJumpPassengerCount();
 
     @Override
     public int getId() {
-        return  501;
+        return  3133;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override
@@ -28,16 +28,16 @@ public class ShipBonus2CB
 
     @Override
     public boolean getPublished() {
-        return false;
-    }
-
-    @Override
-    public boolean getStackable() {
         return true;
     }
 
     @Override
+    public boolean getStackable() {
+        return false;
+    }
+
+    @Override
     public String toString() {
-        return "ShipBonus2CB";
+        return "ConduitJumpPassengerCount";
     }
 }

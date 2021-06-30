@@ -1,19 +1,19 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * 
+ * Grants the ability to open Jump Portals
  */
-public class ShipBonus2CB
-    extends RealAttribute
+public class EnableOpenJumpPortal
+    extends IntAttribute
 {
-    public static final ShipBonus2CB INSTANCE = new ShipBonus2CB();
+    public static final EnableOpenJumpPortal INSTANCE = new EnableOpenJumpPortal();
 
     @Override
     public int getId() {
-        return  501;
+        return  3125;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class ShipBonus2CB
 
     @Override
     public String toString() {
-        return "ShipBonus2CB";
+        return "EnableOpenJumpPortal";
     }
 }

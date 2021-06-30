@@ -1739,7 +1739,7 @@ types:
     shieldrechargerate: 2673000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2cb: 30
+    shipbonus2cb: 30.0
     shipbonusab: 5.0
     shipbonusab2: 7.5
     shipbonuscb: 5
@@ -1920,7 +1920,7 @@ types:
     shieldrechargerate: 2500000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2cb: -4
+    shipbonus2cb: -4.0
     shipbonusab: 5.0
     shipbonuscb: 5
     shipbonusgb2: 10.0
@@ -2007,7 +2007,7 @@ types:
     shieldrechargerate: 2500000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2cb: -5
+    shipbonus2cb: -5.0
     shipbonusab: 5.0
     shipbonuscb: 10
     shipbonuscb3: 10
@@ -2096,7 +2096,7 @@ types:
     shieldrechargerate: 3390000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2cb: -5
+    shipbonus2cb: -5.0
     shipbonusab: 5.0
     shipbonuscb: -5
     shipbonuscb3: 10
@@ -2184,7 +2184,7 @@ types:
     shieldrechargerate: 3000000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2cb: -5
+    shipbonus2cb: -5.0
     shipbonusab: 5.0
     shipbonuscb: 10
     shipbonuscb3: 10
@@ -2271,7 +2271,7 @@ types:
     shieldrechargerate: 2500000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2cb: -4
+    shipbonus2cb: -4.0
     shipbonusab: 5.0
     shipbonuscb: 10
     shipbonusmb: 5.0
@@ -2445,7 +2445,7 @@ types:
     shieldrechargerate: 3390000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2cb: -4
+    shipbonus2cb: -4.0
     shipbonusab: 5.0
     shipbonuscb: -5
     shipbonusmb: 5.0

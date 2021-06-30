@@ -1,24 +1,24 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * 
+ * Number of units needed to conduit jump
  */
-public class ShipBonus2CB
-    extends RealAttribute
+public class ConduitJumpDriveConsumptionAmount
+    extends IntAttribute
 {
-    public static final ShipBonus2CB INSTANCE = new ShipBonus2CB();
+    public static final ConduitJumpDriveConsumptionAmount INSTANCE = new ConduitJumpDriveConsumptionAmount();
 
     @Override
     public int getId() {
-        return  501;
+        return  3131;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override
@@ -28,16 +28,16 @@ public class ShipBonus2CB
 
     @Override
     public boolean getPublished() {
-        return false;
-    }
-
-    @Override
-    public boolean getStackable() {
         return true;
     }
 
     @Override
+    public boolean getStackable() {
+        return false;
+    }
+
+    @Override
     public String toString() {
-        return "ShipBonus2CB";
+        return "ConduitJumpDriveConsumptionAmount";
     }
 }

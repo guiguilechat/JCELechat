@@ -1,16 +1,4 @@
 types:
-  Capsuleer Day Signal-18 'Needlejack' Filament:
-    activesystemjump: 1
-    filamentdescriptionmessageid: 561098
-    id: 58858
-    mjdshipjumpcap: 18
-    mjfgradius: 6000
-    name: Capsuleer Day Signal-18 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
   Noise-15 'Needlejack' Filament:
     filamentdescriptionmessageid: 561098
     id: 53985
@@ -42,29 +30,6 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Noise-5 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Serenity Capsuleer Day Noise-18 'Needlejack' Filament:
-    filamentdescriptionmessageid: 561098
-    id: 59307
-    mjdshipjumpcap: 18
-    mjfgradius: 6000
-    name: Serenity Capsuleer Day Noise-18 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Serenity Capsuleer Day Signal-18 'Needlejack' Filament:
-    activesystemjump: 1
-    filamentdescriptionmessageid: 561098
-    id: 59308
-    mjdshipjumpcap: 18
-    mjfgradius: 6000
-    name: Serenity Capsuleer Day Signal-18 'Needlejack' Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
