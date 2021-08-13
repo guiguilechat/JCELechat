@@ -157,7 +157,9 @@ public interface G_IDCAccess
      * Get character's public information
      * <p>
      * Public information about a character<br />
-     * This route is cached for up to 86400 seconds
+     * This route is cached for up to 86400 seconds<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/)
      * </p>
      * 
      * @param character_id

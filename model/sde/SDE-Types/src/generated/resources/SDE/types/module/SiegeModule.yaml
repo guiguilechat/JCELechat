@@ -43,7 +43,7 @@ types:
     disallowoffensivemodifiers: 1
     disallowtethering: 1
     duration: 30000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0
     falloffbonus: 25.0
     hp: 999999.0
     hullemdamageresonance: 0.699999988079071
@@ -70,11 +70,11 @@ types:
     requiredskill1level: 5
     requiredskill2: 3424
     requiredskill2level: 5
-    scangravimetricstrengthpercent: 1000
-    scanladarstrengthpercent: 1000
-    scanmagnetometricstrengthpercent: 1000
-    scanradarstrengthpercent: 1000
-    sensordampenerresistancebonus: -95
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    sensordampenerresistancebonus: -50
     shieldboostmultiplier: 100.0
     shieldemdamageresonance: 0.699999988079071
     shieldexplosivedamageresonance: 0.699999988079071
@@ -82,10 +82,10 @@ types:
     shieldthermaldamageresonance: 0.699999988079071
     siegemodewarpstatus: 100
     speedfactor: -100.0
-    targetpainterresistancebonus: -95
+    targetpainterresistancebonus: -50
     techlevel: 1
     volume: 200.0
-    weapondisruptionresistancebonus: -99.9999008178711
+    weapondisruptionresistancebonus: -50
   Industrial Core I:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -255,7 +255,7 @@ types:
     speedfactor: -100.0
     techlevel: 1
     volume: 4000.0
-    weapondisruptionresistancebonus: -60.0
+    weapondisruptionresistancebonus: -60
   Siege Module II:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -310,7 +310,7 @@ types:
     speedfactor: -100.0
     techlevel: 2
     volume: 4000.0
-    weapondisruptionresistancebonus: -70.0
+    weapondisruptionresistancebonus: -70
   Triage Module I:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0

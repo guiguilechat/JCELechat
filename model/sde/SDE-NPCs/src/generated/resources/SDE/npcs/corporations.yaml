@@ -11089,6 +11089,7 @@ corporations:
     - 16069
     - 16070
     - 16242
+    - 17174
     name: Food Relief
   Forty-Nine Fedayeen:
     faction: Minmatar Republic
@@ -14103,6 +14104,9 @@ corporations:
     - 17114
     - 17115
     - 17116
+    - 17176
+    - 17177
+    - 17178
     name: Imperial War Reserves
   Impetus:
     concordRate: 0.8
@@ -19659,6 +19663,10 @@ corporations:
     faction: Triglavian Collective
     id: 1000288
     name: Navka Overminds
+  Nefantar Council:
+    faction: Minmatar Republic
+    id: 1000411
+    name: Nefantar Council
   Nefantar Miner Association:
     concordRate: 0.8
     faction: Ammatar Mandate
@@ -22817,6 +22825,9 @@ corporations:
     - 17163
     - 17166
     - 17167
+    - 17171
+    - 17172
+    - 17173
     name: Republic Fleet Ordnance
   Republic Justice Department:
     concordRate: 0.8
@@ -26400,6 +26411,7 @@ corporations:
     - 16218
     - 16219
     - 16242
+    - 17174
     name: Sisters of EVE
   Six Kin Development:
     concordRate: 0.8
@@ -26915,6 +26927,10 @@ corporations:
     - 16174
     - 17096
     name: Spacelane Patrol
+  Starkmanir Council:
+    faction: Minmatar Republic
+    id: 1000412
+    name: Starkmanir Council
   State Military Stockpile:
     faction: Caldari State
     id: 1000284
@@ -28695,6 +28711,7 @@ corporations:
     - 16069
     - 16070
     - 16242
+    - 17174
     name: The Sanctuary
   The Scope:
     concordRate: 0.8
@@ -28979,6 +28996,10 @@ corporations:
     - 16076
     - 16172
     name: Theology Council
+  Thukker Council:
+    faction: Thukker Tribe
+    id: 1000410
+    name: Thukker Council
   Thukker Mix:
     concordRate: 0.4
     faction: Thukker Tribe

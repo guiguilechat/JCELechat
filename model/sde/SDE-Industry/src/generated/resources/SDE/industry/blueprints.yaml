@@ -123143,6 +123143,9 @@ blueprints:
       - id: 33513
         probability: 1.0
         quantity: 1
+      skills:
+        ? id: 3380
+        : 1
       time: 6000
     maxCopyRuns: 30
     research_material:
@@ -162575,13 +162578,13 @@ blueprints:
         quantity: 92
       - id: 11536
         quantity: 18
+      - id: 11542
+        quantity: 72
       - id: 11548
         quantity: 58
       - id: 11555
         quantity: 50
-      - id: 29050
-        quantity: 72
-      - id: 29106
+      - id: 11691
         quantity: 84
       - id: 47118
         quantity: 1
@@ -173558,4 +173561,78 @@ blueprints:
         ? id: 11455
         : 1
       time: 819
+    seeded: false
+  59632:
+    copying:
+      time: 9600
+    id: 59632
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 8200
+      - id: 35
+        quantity: 5111
+      - id: 37
+        quantity: 22040
+      - id: 39
+        quantity: 6320
+      - id: 40
+        quantity: 8230
+      - id: 2867
+        quantity: 6
+      - id: 2870
+        quantity: 2
+      - id: 2872
+        quantity: 3
+      - id: 2875
+        quantity: 4
+      - id: 2876
+        quantity: 4
+      - id: 9834
+        quantity: 12
+      products:
+      - id: 59630
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+        ? id: 11446
+        : 4
+        ? id: 11448
+        : 4
+      time: 12000
+    maxCopyRuns: 10
+    research_material:
+      time: 4200
+    research_time:
+      time: 4200
+    seeded: true
+  59678:
+    copying:
+      time: 960
+    id: 59678
+    manufacturing:
+      materials:
+      - id: 40
+        quantity: 8
+      - id: 25342
+        quantity: 12
+      - id: 25345
+        quantity: 15
+      - id: 30311
+        quantity: 6
+      products:
+      - id: 59633
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 26224
+        : 5
+      time: 1200
+    maxCopyRuns: 100
+    research_material:
+      time: 420
+    research_time:
+      time: 420
     seeded: false

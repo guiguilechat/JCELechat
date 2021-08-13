@@ -638,6 +638,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Amarr Shuttle Tash-Murkon SKIN:
+    id: 59975
+    name: Amarr Shuttle Tash-Murkon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Anathema Biosecurity Responders SKIN:
     id: 55342
     marketGroup: 2051
@@ -1426,6 +1433,13 @@ types:
     id: 53130
     marketGroup: 1990
     name: Arbitrator Abyssal Firestorm SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Arbitrator Abyssal Glory SKIN:
+    id: 60083
+    name: Arbitrator Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2290,6 +2304,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Astero ASES SKIN:
+    id: 59720
+    name: Astero ASES SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Astero Crystal Blast SKIN:
     id: 47249
     marketGroup: 2031
@@ -2302,6 +2323,14 @@ types:
     id: 49435
     marketGroup: 2031
     name: Astero Deathglow Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Astero Friendship League SKIN:
+    id: 60097
+    marketGroup: 2031
+    name: Astero Friendship League SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3306,6 +3335,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bellicose Abyssal Glory SKIN:
+    id: 60085
+    name: Bellicose Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bellicose Biosecurity Responders SKIN:
     id: 55637
     marketGroup: 1993
@@ -3582,6 +3618,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bifrost Liberation Games SKIN:
+    id: 59470
+    marketGroup: 2145
+    name: Bifrost Liberation Games SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bifrost Snowline Bladeracer SKIN:
     id: 52862
     marketGroup: 2145
@@ -3594,6 +3638,13 @@ types:
     id: 40326
     marketGroup: 2145
     name: Bifrost Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Blackbird Abyssal Glory SKIN:
+    id: 60081
+    name: Blackbird Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3857,6 +3908,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Breacher Brutor SKIN:
+    id: 59869
+    name: Breacher Brutor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Breacher Dawn of Liberation SKIN:
     id: 48485
     marketGroup: 2005
@@ -3904,6 +3962,20 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Breacher Krusual SKIN:
+    id: 59829
+    name: Breacher Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Breacher Nefantar SKIN:
+    id: 59821
+    name: Breacher Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Breacher Republic Fleet SKIN:
     id: 58865
     marketGroup: 2005
@@ -3912,10 +3984,31 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Breacher Sebiestor SKIN:
+    id: 59836
+    name: Breacher Sebiestor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Breacher Snowline Bladeracer SKIN:
     id: 52844
     marketGroup: 2005
     name: Breacher Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Breacher Starkmanir SKIN:
+    id: 59861
+    name: Breacher Starkmanir SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Breacher Thukker Tribe SKIN:
+    id: 59845
+    name: Breacher Thukker Tribe SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3932,6 +4025,13 @@ types:
     id: 36751
     marketGroup: 2005
     name: Breacher Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Breacher Vherokior SKIN:
+    id: 59853
+    name: Breacher Vherokior SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5266,6 +5366,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Celestis Abyssal Glory SKIN:
+    id: 60087
+    name: Celestis Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Celestis Biosecurity Responders SKIN:
     id: 55577
     marketGroup: 1992
@@ -5830,6 +5937,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Claw Abyssal Glory SKIN:
+    id: 60086
+    name: Claw Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Claw Aurora Universalis SKIN:
     id: 57009
     marketGroup: 2062
@@ -5978,6 +6092,14 @@ types:
     id: 36448
     marketGroup: 2107
     name: Claymore Justice SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Claymore Liberation Games SKIN:
+    id: 59473
+    marketGroup: 2107
+    name: Claymore Liberation Games SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7033,6 +7155,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crow State Police SKIN:
+    id: 60027
+    marketGroup: 2060
+    name: Crow State Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crow Steel Cardinal SKIN:
     id: 46100
     marketGroup: 2060
@@ -7273,6 +7403,13 @@ types:
     id: 57816
     marketGroup: 2031
     name: Cruor Vampire's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crusader Abyssal Glory SKIN:
+    id: 60084
+    name: Crusader Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7558,6 +7695,14 @@ types:
     id: 48233
     marketGroup: 1959
     name: Cyclone Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cyclone Republic Fleet SKIN:
+    id: 59814
+    marketGroup: 1959
+    name: Cyclone Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9122,6 +9267,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Eagle State Police SKIN:
+    id: 60030
+    marketGroup: 2070
+    name: Eagle State Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Eagle Steel Cardinal SKIN:
     id: 46115
     marketGroup: 2070
@@ -10544,6 +10697,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ferox State Police SKIN:
+    id: 60031
+    marketGroup: 1957
+    name: Ferox State Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ferox Steel Cardinal SKIN:
     id: 46124
     marketGroup: 1957
@@ -10761,6 +10922,13 @@ types:
     id: 37965
     marketGroup: 2031
     name: Garmur Waschi Uprising 'Parade' SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gila ASES SKIN:
+    id: 59965
+    name: Gila ASES SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11160,6 +11328,14 @@ types:
     id: 36668
     marketGroup: 2025
     name: Golem Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Golem State Police SKIN:
+    id: 60032
+    marketGroup: 2025
+    name: Golem State Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11983,6 +12159,14 @@ types:
     id: 36640
     marketGroup: 2048
     name: Hawk Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hawk State Police SKIN:
+    id: 60028
+    marketGroup: 2048
+    name: Hawk State Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13058,6 +13242,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hurricane Fleet Issue Brutor SKIN:
+    id: 59873
+    name: Hurricane Fleet Issue Brutor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hurricane Fleet Issue Exoplanets Hunter SKIN:
     id: 45972
     marketGroup: 2103
@@ -13106,9 +13297,30 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hurricane Fleet Issue Krusual SKIN:
+    id: 59833
+    name: Hurricane Fleet Issue Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hurricane Fleet Issue Luminaire Zenith SKIN:
     id: 57588
     name: Hurricane Fleet Issue Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Fleet Issue Nefantar SKIN:
+    id: 59825
+    name: Hurricane Fleet Issue Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Fleet Issue Sebiestor SKIN:
+    id: 59840
+    name: Hurricane Fleet Issue Sebiestor SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13125,6 +13337,27 @@ types:
     id: 57395
     marketGroup: 2103
     name: Hurricane Fleet Issue Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Fleet Issue Starkmanir SKIN:
+    id: 59865
+    name: Hurricane Fleet Issue Starkmanir SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Fleet Issue Thukker Tribe SKIN:
+    id: 59849
+    name: Hurricane Fleet Issue Thukker Tribe SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Fleet Issue Vherokior SKIN:
+    id: 59857
+    name: Hurricane Fleet Issue Vherokior SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14257,6 +14490,13 @@ types:
     id: 47103
     marketGroup: 2071
     name: Ishtar "Blaze" Squadron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ishtar ASES SKIN:
+    id: 59721
+    name: Ishtar ASES SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15486,6 +15726,78 @@ types:
     id: 46022
     marketGroup: 2371
     name: Legion Sunburst SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Brutor SKIN:
+    id: 59867
+    marketGroup: 2316
+    name: Leopard Brutor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Krusual SKIN:
+    id: 59827
+    marketGroup: 2316
+    name: Leopard Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Liberation Games SKIN:
+    id: 59875
+    marketGroup: 2316
+    name: Leopard Liberation Games SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Nefantar SKIN:
+    id: 59819
+    marketGroup: 2316
+    name: Leopard Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Republic Fleet SKIN:
+    id: 59818
+    marketGroup: 2316
+    name: Leopard Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Sebiestor SKIN:
+    id: 59835
+    marketGroup: 2316
+    name: Leopard Sebiestor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Starkmanir SKIN:
+    id: 59859
+    marketGroup: 2316
+    name: Leopard Starkmanir SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Thukker Tribe SKIN:
+    id: 59843
+    marketGroup: 2316
+    name: Leopard Thukker Tribe SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leopard Vherokior SKIN:
+    id: 59852
+    marketGroup: 2316
+    name: Leopard Vherokior SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16885,6 +17197,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Manticore State Police SKIN:
+    id: 60029
+    marketGroup: 2052
+    name: Manticore State Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Manticore Steel Cardinal SKIN:
     id: 46098
     marketGroup: 2052
@@ -17821,6 +18141,7 @@ types:
     volume: 0.009999999776482582
   Minmatar Shuttle Nefantar SKIN:
     id: 55816
+    marketGroup: 2390
     name: Minmatar Shuttle Nefantar SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -19081,6 +19402,14 @@ types:
     id: 54904
     marketGroup: 1963
     name: Nestor Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nestor Friendship League SKIN:
+    id: 60099
+    marketGroup: 1963
+    name: Nestor Friendship League SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21472,6 +21801,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Panther Republic Fleet SKIN:
+    id: 59817
+    marketGroup: 2113
+    name: Panther Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Panther Snowline Bladeracer SKIN:
     id: 52887
     marketGroup: 2113
@@ -23483,6 +23820,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rapier Liberation Games SKIN:
+    id: 59472
+    marketGroup: 2084
+    name: Rapier Liberation Games SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rapier Snowline Bladeracer SKIN:
     id: 52874
     marketGroup: 2084
@@ -23503,6 +23848,13 @@ types:
     id: 36776
     marketGroup: 2084
     name: Rapier Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raptor Abyssal Glory SKIN:
+    id: 60082
+    name: Raptor Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24012,6 +24364,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Reaper Brutor SKIN:
+    id: 59868
+    name: Reaper Brutor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Reaper Exoplanets Hunter SKIN:
     id: 45932
     marketGroup: 2355
@@ -24024,6 +24383,48 @@ types:
     id: 44160
     marketGroup: 2355
     name: Reaper Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Reaper Krusual SKIN:
+    id: 59828
+    name: Reaper Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Reaper Nefantar SKIN:
+    id: 59820
+    name: Reaper Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Reaper Sebiestor SKIN:
+    id: 59842
+    name: Reaper Sebiestor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Reaper Starkmanir SKIN:
+    id: 59860
+    name: Reaper Starkmanir SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Reaper Thukker Tribe SKIN:
+    id: 59844
+    name: Reaper Thukker Tribe SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Reaper Vherokior SKIN:
+    id: 59851
+    name: Reaper Vherokior SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24180,6 +24581,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Republic Fleet Firetail Brutor SKIN:
+    id: 59870
+    name: Republic Fleet Firetail Brutor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Republic Fleet Firetail Dawn of Liberation SKIN:
     id: 48499
     marketGroup: 2000
@@ -24220,10 +24628,61 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Republic Fleet Firetail Krusual SKIN:
+    id: 59830
+    name: Republic Fleet Firetail Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Republic Fleet Firetail Liberation Games SKIN:
+    id: 59464
+    marketGroup: 2000
+    name: Republic Fleet Firetail Liberation Games SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Republic Fleet Firetail Nefantar SKIN:
+    id: 59822
+    name: Republic Fleet Firetail Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Republic Fleet Firetail Sebiestor SKIN:
+    id: 59837
+    name: Republic Fleet Firetail Sebiestor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Republic Fleet Firetail Snowline Bladeracer SKIN:
     id: 52858
     marketGroup: 2000
     name: Republic Fleet Firetail Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Republic Fleet Firetail Starkmanir SKIN:
+    id: 59862
+    name: Republic Fleet Firetail Starkmanir SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Republic Fleet Firetail Thukker Tribe SKIN:
+    id: 59846
+    marketGroup: 2000
+    name: Republic Fleet Firetail Thukker Tribe SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Republic Fleet Firetail Vherokior SKIN:
+    id: 59854
+    name: Republic Fleet Firetail Vherokior SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25380,6 +25839,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Brutor SKIN:
+    id: 59871
+    name: Rupture Brutor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Capsuleer Day XVII SKIN:
     id: 54798
     marketGroup: 1993
@@ -25459,9 +25925,23 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Krusual SKIN:
+    id: 59831
+    name: Rupture Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Luminaire Zenith SKIN:
     id: 57415
     name: Rupture Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rupture Nefantar SKIN:
+    id: 59823
+    name: Rupture Nefantar SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25490,6 +25970,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Sebiestor SKIN:
+    id: 59838
+    name: Rupture Sebiestor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Serenity Cloud SKIN:
     id: 49441
     name: Rupture Serenity Cloud SKIN
@@ -25501,6 +25988,20 @@ types:
     id: 52866
     marketGroup: 1993
     name: Rupture Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rupture Starkmanir SKIN:
+    id: 59863
+    name: Rupture Starkmanir SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rupture Thukker Tribe SKIN:
+    id: 59847
+    name: Rupture Thukker Tribe SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25517,6 +26018,13 @@ types:
     id: 36768
     marketGroup: 1993
     name: Rupture Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rupture Vherokior SKIN:
+    id: 59855
+    name: Rupture Vherokior SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25884,6 +26392,14 @@ types:
     id: 36432
     marketGroup: 2080
     name: Scimitar Justice SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scimitar Republic Fleet SKIN:
+    id: 59813
+    marketGroup: 2080
+    name: Scimitar Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26465,6 +26981,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sigil Tash-Murkon SKIN:
+    id: 59976
+    name: Sigil Tash-Murkon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sin Biosecurity Responders SKIN:
     id: 55621
     marketGroup: 2112
@@ -26880,6 +27403,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Slasher Republic Fleet SKIN:
+    id: 59808
+    marketGroup: 2005
+    name: Slasher Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Slasher Snowline Bladeracer SKIN:
     id: 52848
     marketGroup: 2005
@@ -26984,6 +27515,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sleipnir Republic Fleet SKIN:
+    id: 59815
+    marketGroup: 2107
+    name: Sleipnir Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sleipnir Snowline Bladeracer SKIN:
     id: 52882
     marketGroup: 2107
@@ -27080,6 +27619,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Fleet Issue Brutor SKIN:
+    id: 59872
+    name: Stabber Fleet Issue Brutor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Fleet Issue Dawn of Liberation SKIN:
     id: 48513
     marketGroup: 2063
@@ -27112,9 +27658,30 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Fleet Issue Krusual SKIN:
+    id: 59832
+    name: Stabber Fleet Issue Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Fleet Issue Luminaire Zenith SKIN:
     id: 57589
     name: Stabber Fleet Issue Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Fleet Issue Nefantar SKIN:
+    id: 59824
+    name: Stabber Fleet Issue Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Fleet Issue Sebiestor SKIN:
+    id: 59839
+    name: Stabber Fleet Issue Sebiestor SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27131,6 +27698,27 @@ types:
     id: 57394
     marketGroup: 2063
     name: Stabber Fleet Issue Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Fleet Issue Starkmanir SKIN:
+    id: 59864
+    name: Stabber Fleet Issue Starkmanir SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Fleet Issue Thukker Tribe SKIN:
+    id: 59848
+    name: Stabber Fleet Issue Thukker Tribe SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Fleet Issue Vherokior SKIN:
+    id: 59856
+    name: Stabber Fleet Issue Vherokior SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27208,6 +27796,14 @@ types:
   Stabber Nefantar Serenity Only SKIN:
     id: 37104
     name: Stabber Nefantar Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Republic Fleet SKIN:
+    id: 59811
+    marketGroup: 1993
+    name: Stabber Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27450,10 +28046,25 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stratios ASES SKIN:
+    id: 59966
+    name: Stratios ASES SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stratios Crystal Blast SKIN:
     id: 47250
     marketGroup: 2030
     name: Stratios Crystal Blast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stratios Friendship League SKIN:
+    id: 60098
+    marketGroup: 2030
+    name: Stratios Friendship League SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28041,6 +28652,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Taranis Abyssal Glory SKIN:
+    id: 60088
+    name: Taranis Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Taranis Aurora Universalis SKIN:
     id: 57008
     marketGroup: 2061
@@ -28312,6 +28930,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tempest Fleet Issue Brutor SKIN:
+    id: 59874
+    name: Tempest Fleet Issue Brutor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tempest Fleet Issue Dawn of Liberation SKIN:
     id: 48519
     marketGroup: 2108
@@ -28343,6 +28968,27 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tempest Fleet Issue Krusual SKIN:
+    id: 59834
+    name: Tempest Fleet Issue Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Fleet Issue Nefantar SKIN:
+    id: 59826
+    name: Tempest Fleet Issue Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Fleet Issue Sebiestor SKIN:
+    id: 59841
+    name: Tempest Fleet Issue Sebiestor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tempest Fleet Issue Snowline Bladeracer SKIN:
     id: 52889
     marketGroup: 2108
@@ -28355,6 +29001,27 @@ types:
     id: 57396
     marketGroup: 2108
     name: Tempest Fleet Issue Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Fleet Issue Starkmanir SKIN:
+    id: 59866
+    name: Tempest Fleet Issue Starkmanir SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Fleet Issue Thukker Tribe SKIN:
+    id: 59850
+    name: Tempest Fleet Issue Thukker Tribe SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Fleet Issue Vherokior SKIN:
+    id: 59858
+    name: Tempest Fleet Issue Vherokior SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28416,6 +29083,14 @@ types:
   Tempest Nefantar Serenity Only SKIN:
     id: 37120
     name: Tempest Nefantar Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Republic Fleet SKIN:
+    id: 59816
+    marketGroup: 1967
+    name: Tempest Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29121,6 +29796,14 @@ types:
   Thrasher Nefantar Serenity Only SKIN:
     id: 37095
     name: Thrasher Nefantar Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thrasher Republic Fleet SKIN:
+    id: 59810
+    marketGroup: 1997
+    name: Thrasher Republic Fleet SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29990,6 +30673,22 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vagabond Liberation Games SKIN:
+    id: 59471
+    marketGroup: 2072
+    name: Vagabond Liberation Games SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vagabond Republic Fleet SKIN:
+    id: 59812
+    marketGroup: 2072
+    name: Vagabond Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vagabond Snowline Bladeracer SKIN:
     id: 52870
     marketGroup: 2072
@@ -30112,6 +30811,14 @@ types:
   Vargur Krusual SKIN:
     id: 34820
     name: Vargur Krusual SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vargur Liberation Games SKIN:
+    id: 59474
+    marketGroup: 2027
+    name: Vargur Liberation Games SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31499,6 +32206,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Wolf Republic Fleet SKIN:
+    id: 59809
+    marketGroup: 2050
+    name: Wolf Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Wolf Snowline Bladeracer SKIN:
     id: 52851
     marketGroup: 2050
@@ -31635,6 +32350,7 @@ types:
     volume: 0.009999999776482582
   Wreathe Nefantar SKIN:
     id: 55817
+    marketGroup: 2010
     name: Wreathe Nefantar SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1

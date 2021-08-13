@@ -3237,6 +3237,17 @@ types:
     portionSize: 1
     published: true
     volume: 0.5
+  Liberation Games Reward Token:
+    exporttaxmultiplier: 1
+    id: 59752
+    importtaxmultiplier: 1
+    marketGroup: 754
+    name: Liberation Games Reward Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.009999999776482582
   Liberty Tattoo of the Minmatar Nation:
     exporttaxmultiplier: 1
     id: 11511
@@ -4253,6 +4264,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Serenity July Season Reward Crate:
+    exporttaxmultiplier: 1
+    id: 59755
+    importtaxmultiplier: 1
+    name: Serenity July Season Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Serenity Rookie DLI Day 1 Crate:
     exporttaxmultiplier: 1
     id: 57213
@@ -4294,6 +4314,87 @@ types:
     id: 59317
     importtaxmultiplier: 1
     name: Serenity Ship Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Event Crate:
+    exporttaxmultiplier: 1
+    id: 59900
+    importtaxmultiplier: 1
+    name: Serenity YC123.7 Event Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Event Manufacturing Booster Crate:
+    exporttaxmultiplier: 1
+    id: 59902
+    importtaxmultiplier: 1
+    name: Serenity YC123.7 Event Manufacturing Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Event SKIN Crate:
+    exporttaxmultiplier: 1
+    id: 59901
+    importtaxmultiplier: 1
+    name: Serenity YC123.7 Event SKIN Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Event Skill Booster Crate:
+    exporttaxmultiplier: 1
+    id: 59903
+    importtaxmultiplier: 1
+    name: Serenity YC123.7 Event Skill Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 PotT SKIN Crate Large:
+    exporttaxmultiplier: 1
+    id: 60025
+    importtaxmultiplier: 1
+    name: Serenity YC123.7 PotT SKIN Crate Large
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 PotT SKIN Crate Small:
+    exporttaxmultiplier: 1
+    id: 60024
+    importtaxmultiplier: 1
+    name: Serenity YC123.7 PotT SKIN Crate Small
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Triglavian Recon Crate:
+    exporttaxmultiplier: 1
+    id: 59989
+    importtaxmultiplier: 1
+    name: Serenity YC123.7 Triglavian Recon Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.8 Season Reward Crate:
+    exporttaxmultiplier: 1
+    id: 60096
+    importtaxmultiplier: 1
+    name: Serenity YC123.8 Season Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.8 Season Ship Crate:
+    exporttaxmultiplier: 1
+    id: 60095
+    importtaxmultiplier: 1
+    name: Serenity YC123.8 Season Ship Crate
     packagedVolume: 1.0
     portionSize: 1
     published: true

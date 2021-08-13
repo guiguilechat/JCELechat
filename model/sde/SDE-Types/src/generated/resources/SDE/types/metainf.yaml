@@ -333,6 +333,7 @@ group2class:
   commodity/DecryptorsTalocan: fr.guiguilechat.jcelechat.model.sde.types.commodity.DecryptorsTalocan
   commodity/DecryptorsYanJung: fr.guiguilechat.jcelechat.model.sde.types.commodity.DecryptorsYanJung
   commodity/Drugs: fr.guiguilechat.jcelechat.model.sde.types.commodity.Drugs
+  commodity/ESSReserveBankKeys: fr.guiguilechat.jcelechat.model.sde.types.commodity.ESSReserveBankKeys
   commodity/EmpireInsigniaDrops: fr.guiguilechat.jcelechat.model.sde.types.commodity.EmpireInsigniaDrops
   commodity/ExpiredJumpFilaments: fr.guiguilechat.jcelechat.model.sde.types.commodity.ExpiredJumpFilaments
   commodity/Frozen: fr.guiguilechat.jcelechat.model.sde.types.commodity.Frozen
@@ -11546,7 +11547,7 @@ id2name:
   21830: Fortified Minmatar Wall
   21831: Fortified Minmatar Fence
   21832: Fortified Minmatar Junction
-  21833: Fortified Minmatar Grandstand
+  21833: Fortified Minmatar Lookout
   21834: Fortified Minmatar Barrier
   21835: Fortified Minmatar Bunker
   21836: Fortified Minmatar Barricade
@@ -38232,7 +38233,7 @@ id2name:
   57559: AEGIS Security Scanner
   57560: AEGIS Encrypted Key Storage
   57561: AEGIS Security Vault
-  57562: Gate Control System
+  57562: Twin-Linked Gate Control
   57563: Super Special Vault
   57568: AEGIS Coded Security Key CSSF-ENS
   57569: Gate Control Code A
@@ -38301,6 +38302,14 @@ id2name:
   57706: Skybreaker EDENCOM Victory SKIN
   57707: Stormbringer EDENCOM Victory SKIN
   57708: Thunderchild EDENCOM Victory SKIN
+  57714: ESS-NW-15 Reserve Security Key
+  57715: ESS-NW-45 Reserve Security Key
+  57716: ESS-NE-15 Reserve Security Key
+  57717: ESS-SE-15 Reserve Security Key
+  57718: ESS-SE-45 Reserve Security Key
+  57719: ESS-NE-45 Reserve Security Key
+  57720: ESS-SW-15 Reserve Security Key
+  57721: ESS-SW-45 Reserve Security Key
   57722: Gallente Drones Specialization Skill Accelerator
   57723: Amarr Drones Specialization Skill Accelerator
   57724: Caldari Drones Specialization Skill Accelerator
@@ -38472,7 +38481,6 @@ id2name:
   58772: Serenity The Hunt Accelerator Gold
   58773: Capsuleer Day 2021 WSNS
   58774: Capsuleer Day 2021 WSLS
-  58775: Dungeon Cloud 9062 (do not translate)
   58779: Sacrilege Abyssal Glory SKIN
   58780: Executioner Abyssal Glory SKIN
   58781: Cerberus Abyssal Glory SKIN
@@ -38538,10 +38546,10 @@ id2name:
   58844: 2v2 Destroyers Proving Filament
   58845: Liberation Games Rifter FFA Proving Filament
   58846: Proving Conduit Throwback Proving Filament
-  58847: Event 30 Proving Filament
-  58848: Event 31 Proving Filament
-  58849: Event 32 Proving Filament
-  58850: Event 33 Proving Filament
+  58847: Foundation Day Omen FFA Proving Filament
+  58848: 1v1 Destroyers Proving Filament
+  58849: Union Day 2v2 Caldari Battlecruisers Proving Filament
+  58850: Corvette FFA Proving Filament
   58851: Expired Extended Capsuleer Day Cerebral Accelerator
   58852: Expired Potent Capsuleer Day Cerebral Accelerator
   58853: Expired Basic Capsuleer Day Cerebral Accelerator
@@ -38751,8 +38759,16 @@ id2name:
   59363: Gallente Industrial Nereus [Do not translate]
   59364: Gallente Iteron Mark V Industrial Ship [Do Not Translate]
   59365: Reschard V Disaster Memorial
-  59369: Event 34 Proving Filament
+  59366: Men's 'Imperial Loyalist' Jacket
+  59367: Women's 'Imperial Loyalist' Jacket
+  59368: Men's 'Imperial Loyalist' Pants
+  59369: 2v2 Interceptors Proving Filament
+  59370: Women's 'Imperial Loyalist' Pants
   59404: Gallente Federation Day Expert System
+  59405: Men's 'State Protector' Jacket
+  59406: Men's 'State Protector' Pants
+  59407: Women's 'State Protector' Jacket
+  59408: Women's 'State Protector' Pants
   59421: Crucifier War Reserves Lieutenant SKIN
   59422: Dragoon War Reserves Lieutenant SKIN
   59423: Prophecy War Reserves Lieutenant SKIN
@@ -38796,14 +38812,318 @@ id2name:
   59510: Minmatar Wall NIO [Do not translate]
   59519: Minmatar Liberation Day Expert System
   59520: Liberation Games Firework Sentry
+  59584: SCC Security Battleship
+  59585: SCC Security Cruiser
+  59586: SCC Security Frigate
   59587: Minmatar Liberation Day Apparel Crate
   59595: Limited Mining Expedition Beacon
   59596: Minor Mining Expedition Beacon
   59597: Standard Mining Expedition Beacon
   59598: Major Mining Expedition Beacon
   59599: Critical Mining Expedition Beacon
+  59601: 'Karin Midular: Ray of Matar'
+  59602: Karishal Muritor Memorial Statue
   59603: Serenity 618 Event Crate
+  59612: Order of St. Tetrimon Fortress Monastery
+  59613: Sebiestor Tribal Embassy
+  59614: Krusual Tribal Embassy
+  59615: Brutor Tribal Embassy
+  59616: Vherokior Tribal Embassy
+  59617: Nefantar Tribal Embassy
+  59618: Thukker Tribal Embassy
+  59619: Starkmanir Tribal Embassy
   59620: Serenity Monthly Cerebral Accelerator - 2021.7
+  59621: Sebiestor Tribe Standard
+  59622: Krusual Tribe Standard
+  59623: Brutor Tribe Standard
+  59624: Vherokior Tribe Standard
+  59625: Nefantar Tribe Standard
+  59626: Thukker Tribe Standard
+  59627: Starkmanir Tribe Standard
+  59628: Tribal Council Orbital Caravanserai
+  59629: Proving Overload Bonus (Do not translate)
+  59630: Covert Mobile Cynosural Beacon
+  59631: Cynosural Field
+  59632: Covert Mobile Cynosural Beacon Blueprint
+  59633: Strong Veilguard Booster
+  59636: Impairor Reenactment Drone
+  59637: Inquisitor Reenactment Drone
+  59638: Inquisitor Reenactment Drone
+  59639: Augoror Reenactment Drone
+  59640: Minmatar Mining Corporation Testing Center
+  59641: Punisher Reenactment Drone
+  59642: Prophecy Reenactment Drone
+  59643: Elite Prophecy Reenactment Drone
+  59668: Lib S1 HS W Spawner (Do not translate)
+  59669: Lib S1 LS W Spawner (Do not translate)
+  59670: Lib S1 HS B Spawner (Do not translate)
+  59671: Lib S1 LS B Spawner (Do not translate)
+  59672: Lib S2 HS R1 W Spawner (Do not translate)
+  59673: Lib S2 HS R2 W Spawner (Do not translate)
+  59674: Lib S2 LS R1 W Spawner (Do not translate)
+  59675: Lib S2 LS R2 W Spawner (Do not translate)
+  59676: Lib S2 HS B Spawner (Do not translate)
+  59677: Lib S2 LS B Spawner (Do not translate)
+  59678: Strong Veilguard Booster Blueprint
+  59688: Sebiestor Firetail
+  59689: Krusual Firetail
+  59690: Brutor Firetail
+  59691: Vherokior Firetail
+  59692: Nefantar Firetail
+  59693: Thukker Firetail
+  59694: Starkmanir Firetail
+  59695: Sebiestor Stabber
+  59696: Krusual Stabber
+  59697: Brutor Stabber
+  59698: Vherokior Stabber
+  59699: Nefantar Stabber
+  59700: Thukker Stabber
+  59701: Starkmanir Stabber
+  59702: Sebiestor Hurricane
+  59703: Krusual Hurricane
+  59704: 'Brutor Hurricane '
+  59705: 'Vherokior Hurricane '
+  59706: 'Nefantar Hurricane '
+  59707: 'Thukker Hurricane '
+  59708: 'Starkmanir Hurricane '
+  59709: Sebiestor Tempest
+  59710: Krusual Tempest
+  59711: Brutor Tempest
+  59712: Vherokior Tempest
+  59713: Nefantar Tempest
+  59714: Thukker Tempest
+  59715: Starkmanir Tempest
+  59720: Astero ASES SKIN
+  59721: Ishtar ASES SKIN
+  59723: The Eternal Flame
+  59724: MMC Scythe Cruiser Mining Variant
+  59725: MMC Scythe Maintenance Pad
+  59726: MMC Storage and Preservation Facility
+  59727: Mined Out Asteroid Field
+  59728: MMC Testing Center Visitors Facility
+  59729: Minmatar Mining Corporation Testing HQ
+  59730: MMC Testing Center Observation Platform
+  59731: SCC Security Stasis Tower
+  59732: SCC Security Heavy GunStar
+  59733: AEGIS Proximity Mine
+  59734: AEGIS Proximity Mine
+  59738: Amarr Battlestation Ruins
+  59739: Ruins of Fort Kavad
+  59740: Preserved Amarr Defense Post
+  59741: Preserved Amarr Battleship Wreck
+  59742: Preserved Amarr Battleship Wreck
+  59743: Preserved Minmatar Battleship Wreck
+  59744: Preserved Minmatar Battleship Wreck
+  59745: Unidentified Wreckage
+  59746: Battle of Fort Kavad Monument
+  59748: Novice Data Vault
+  59749: Intermediate Data Vault
+  59750: Expert Data Vault
+  59752: Liberation Games Reward Token
+  59753: Mahti Jailbreak Reenactment
+  59754: Escape from Auner Reenactment
+  59755: Serenity July Season Reward Crate
+  59756: Serenity YC123.7 Season Advanced Cerebral Accelerator
+  59757: Serenity YC123.7 Season Pass
+  59758: Command Center Upgrades Skill Accelerator
+  59759: Planetology Skill Accelerator
+  59760: Interplanetary Consolidation Skill Accelerator
+  59761: Trade Skill Accelerator
+  59762: Advanced Planetology Skill Accelerator
+  59763: Daytrading Skill Accelerator
+  59764: Broker Relations Skill Accelerator
+  59765: Customs Code Expertise Skill Accelerator
+  59766: Advanced Broker Relations Skill Accelerator
+  59767: Astrogeology Skill Accelerator
+  59768: Mining Skill Accelerator
+  59792: Evacuation Transport Reenactment Drone
+  59793: Hijacked Transport Reenactment Drone
+  59795: Escape from Auner Hauler Spawner
+  59796: Mahti Prisonbreak Hauler Spawner
+  59797: Serenity Zainou 'Beancounter' Manufacturing RP-108
+  59798: Serenity Poteque 'Prospector' Harvesting MC-108
+  59799: Serenity Zainou 'Beancounter' Manufacturing RP-308
+  59800: Serenity Poteque 'Prospector' Harvesting MC-308
+  59801: Serenity Zainou 'Beancounter' Manufacturing RP-708
+  59802: Serenity Poteque 'Prospector' Harvesting MC-708
+  59803: Serenity YC123.7 Cerebral Accelerator I
+  59804: Serenity YC123.7 Cerebral Accelerator II
+  59805: Serenity YC123.7 Cerebral Accelerator III
+  59806: Serenity YC123.7 Cerebral Accelerator IV
+  59808: Slasher Republic Fleet SKIN
+  59809: Wolf Republic Fleet SKIN
+  59810: Thrasher Republic Fleet SKIN
+  59811: Stabber Republic Fleet SKIN
+  59812: Vagabond Republic Fleet SKIN
+  59813: Scimitar Republic Fleet SKIN
+  59814: Cyclone Republic Fleet SKIN
+  59815: Sleipnir Republic Fleet SKIN
+  59816: Tempest Republic Fleet SKIN
+  59817: Panther Republic Fleet SKIN
+  59818: Leopard Republic Fleet SKIN
+  59819: Leopard Nefantar SKIN
+  59820: Reaper Nefantar SKIN
+  59821: Breacher Nefantar SKIN
+  59822: Republic Fleet Firetail Nefantar SKIN
+  59823: Rupture Nefantar SKIN
+  59824: Stabber Fleet Issue Nefantar SKIN
+  59825: Hurricane Fleet Issue Nefantar SKIN
+  59826: Tempest Fleet Issue Nefantar SKIN
+  59827: Leopard Krusual SKIN
+  59828: Reaper Krusual SKIN
+  59829: Breacher Krusual SKIN
+  59830: Republic Fleet Firetail Krusual SKIN
+  59831: Rupture Krusual SKIN
+  59832: Stabber Fleet Issue Krusual SKIN
+  59833: Hurricane Fleet Issue Krusual SKIN
+  59834: Tempest Fleet Issue Krusual SKIN
+  59835: Leopard Sebiestor SKIN
+  59836: Breacher Sebiestor SKIN
+  59837: Republic Fleet Firetail Sebiestor SKIN
+  59838: Rupture Sebiestor SKIN
+  59839: Stabber Fleet Issue Sebiestor SKIN
+  59840: Hurricane Fleet Issue Sebiestor SKIN
+  59841: Tempest Fleet Issue Sebiestor SKIN
+  59842: Reaper Sebiestor SKIN
+  59843: Leopard Thukker Tribe SKIN
+  59844: Reaper Thukker Tribe SKIN
+  59845: Breacher Thukker Tribe SKIN
+  59846: Republic Fleet Firetail Thukker Tribe SKIN
+  59847: Rupture Thukker Tribe SKIN
+  59848: Stabber Fleet Issue Thukker Tribe SKIN
+  59849: Hurricane Fleet Issue Thukker Tribe SKIN
+  59850: Tempest Fleet Issue Thukker Tribe SKIN
+  59851: Reaper Vherokior SKIN
+  59852: Leopard Vherokior SKIN
+  59853: Breacher Vherokior SKIN
+  59854: Republic Fleet Firetail Vherokior SKIN
+  59855: Rupture Vherokior SKIN
+  59856: Stabber Fleet Issue Vherokior SKIN
+  59857: Hurricane Fleet Issue Vherokior SKIN
+  59858: Tempest Fleet Issue Vherokior SKIN
+  59859: Leopard Starkmanir SKIN
+  59860: Reaper Starkmanir SKIN
+  59861: Breacher Starkmanir SKIN
+  59862: Republic Fleet Firetail Starkmanir SKIN
+  59863: Rupture Starkmanir SKIN
+  59864: Stabber Fleet Issue Starkmanir SKIN
+  59865: Hurricane Fleet Issue Starkmanir SKIN
+  59866: Tempest Fleet Issue Starkmanir SKIN
+  59867: Leopard Brutor SKIN
+  59868: Reaper Brutor SKIN
+  59869: Breacher Brutor SKIN
+  59870: Republic Fleet Firetail Brutor SKIN
+  59871: Rupture Brutor SKIN
+  59872: Stabber Fleet Issue Brutor SKIN
+  59873: Hurricane Fleet Issue Brutor SKIN
+  59874: Tempest Fleet Issue Brutor SKIN
+  59875: Leopard Liberation Games SKIN
+  59876: Basic 'Rebel' Cerebral Accelerator
+  59878: Potent 'Rebel' Cerebral Accelerator
+  59879: Extended 'Rebel' Cerebral Accelerator
+  59880: Liberation Games Damage Booster I
+  59881: Liberation Games Damage Booster II
+  59882: Liberation Games Damage Booster III
+  59883: Liberation Games Accuracy Booster II
+  59884: Liberation Games Accuracy Booster III
+  59885: Liberation Games Range Booster I
+  59886: Liberation Games Range Booster II
+  59887: Liberation Games Range Booster III
+  59888: Liberation Games EWar Booster I
+  59889: Liberation Games EWar Booster II
+  59890: Liberation Games EWar Booster III
+  59891: Liberation Games Accuracy Booster I
+  59892: Republic Service Tattoo (Brutor Tribe) Package
+  59893: Republic Service Tattoo (Krusual Tribe) Package
+  59894: Republic Service Tattoo (Nefantar Tribe) Package
+  59895: Republic Service Tattoo (Sebiestor Tribe) Package
+  59896: Republic Service Tattoo (Starkmanir Tribe) Package
+  59897: Republic Service Tattoo (Thukker Tribe) Package
+  59898: Republic Service Tattoo (Vherokior Tribe) Package
+  59900: Serenity YC123.7 Event Crate
+  59901: Serenity YC123.7 Event SKIN Crate
+  59902: Serenity YC123.7 Event Manufacturing Booster Crate
+  59903: Serenity YC123.7 Event Skill Booster Crate
+  59942: Battle of Fort Kavad Monument
+  59960: Precursor Cruiser Skill Accelerator
+  59961: Medium Precursor Weapon Skill Accelerator
+  59962: Medium Disintegrator Specialization Skill Accelerator
+  59964: Tiamat Prremium Insurance
+  59965: Gila ASES SKIN
+  59966: Stratios ASES SKIN
+  59967: NW ESS Key Generator
+  59968: NE ESS Key Generator
+  59969: SW ESS Key Generator
+  59970: SE ESS Key Generator
+  59971: SCC Encounter Surveillance Audit Control
+  59972: SCC Encounter Surveillance Administration
+  59974: abs1_t1_tetrimon_enviroment_asset
+  59975: Amarr Shuttle Tash-Murkon SKIN
+  59976: Sigil Tash-Murkon SKIN
+  59977: Amarr Foundation Day Jacket Crate
+  59978: Amarr Foundation Day Pants Crate
+  59979: ESS Key Generator Interface
+  59980: Order of St. Tetrimon Fortress Monastery
+  59981: The Traumark Installation
+  59982: Old Traumark
+  59983: Ndoria Mining Hub
+  59984: Ndoria Mining Hub
+  59989: Serenity YC123.7 Triglavian Recon Crate
+  59990: Tetrimon Paladin
+  59991: Tetrimon Zealot
+  59992: Tetrimon Monastery NPC Spawner (Do not translate)
+  59996: Non-Interactable Amarr Control Tower
+  59997: Non-Interactable Hangar Array
+  59998: Non-Interactable Reprocessing Array
+  59999: Non-Interactable Silo
+  60000: Non-Interactable Reactor Array
+  60001: Non-Interactable Athanor
+  60002: The Traumark Installation
+  60003: The Ruins of Old Traumark
+  60004: as6_tashmurkon_enviroment_asset
+  60005: as7_tashmurkon_enviroment_asset
+  60006: uw_sentry02_tashmurkon_enviroment_asset
+  60007: Non-interactable Depleted Asteroid Field
+  60019: Amarr Foundation Day Expert System
+  60023: Serenity Monthly Cerebral Accelerator - 2021.8
+  60024: Serenity YC123.7 PotT SKIN Crate Small
+  60025: Serenity YC123.7 PotT SKIN Crate Large
+  60027: Crow State Police SKIN
+  60028: Hawk State Police SKIN
+  60029: Manticore State Police SKIN
+  60030: Eagle State Police SKIN
+  60031: Ferox State Police SKIN
+  60032: Golem State Police SKIN
+  60042: as3_tashmurkon_enviroment_asset
+  60043: abs2_t1_navy_enviroment_asset
+  60048: Minmatar Trade Station in Construction (DO NOT TRANSLATE)
+  60068: Serenity Rookie Exclusive Cerebral Accelerator
+  60076: Event 35 Proving Filament
+  60077: Event 36 Proving Filament
+  60078: Event 37 Proving Filament
+  60079: Event 38 Proving Filament
+  60080: Event 39 Proving Filament
+  60081: Blackbird Abyssal Glory SKIN
+  60082: Raptor Abyssal Glory SKIN
+  60083: Arbitrator Abyssal Glory SKIN
+  60084: Crusader Abyssal Glory SKIN
+  60085: Bellicose Abyssal Glory SKIN
+  60086: Claw Abyssal Glory SKIN
+  60087: Celestis Abyssal Glory SKIN
+  60088: Taranis Abyssal Glory SKIN
+  60089: Caldari Union Day Expert System
+  60091: Serenity YC123.8 Season Standard Cerebral Accelerator
+  60092: Serenity YC123.8 Season Advanced Cerebral Accelerator
+  60093: Serenity YC123.8 Season Pass
+  60095: Serenity YC123.8 Season Ship Crate
+  60096: Serenity YC123.8 Season Reward Crate
+  60097: Astero Friendship League SKIN
+  60098: Stratios Friendship League SKIN
+  60099: Nestor Friendship League SKIN
+  60105: Caldari Shuttle Wiyrkomi SKIN
+  60106: Badger Wiyrkomi SKIN
+  60107: Caldari Union Day Pants Crate
+  60109: Caldari Union Day Jacket Crate
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -42522,6 +42842,7 @@ name2group:
   1MN Monopropellant Enduring Afterburner: module/PropulsionModule
   1MN Y-S8 Compact Afterburner: module/PropulsionModule
   1st Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
+  1v1 Destroyers Proving Filament: commodity/AbyssalProvingFilaments
   200mm 'Scout' Accelerator Cannon: module/HybridWeapon
   200mm AutoCannon I: module/ProjectileWeapon
   200mm AutoCannon I Blueprint: blueprint/ProjectileWeaponBlueprint
@@ -42625,9 +42946,8 @@ name2group:
   280mm Howitzer Artillery II Blueprint: blueprint/ProjectileWeaponBlueprint
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  2v2 Destroyers Proving Filament: commodity/AbyssalProvingFilaments
+  2v2 Interceptors Proving Filament: commodity/AbyssalProvingFilaments
   2v2 Navy Frigates Proving Filament: commodity/AbyssalProvingFilaments
-  2v2v2 Gallente Cruiser and AF Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
   30km Amarr Capture Point: entity/CapturePoint
@@ -43009,6 +43329,7 @@ name2group:
   Adrestia: ship/HeavyAssaultCruiser
   Advanced 'Limos' Heavy Missile Bay I: module/MissileLauncherHeavy
   Advanced Broker Relations: skill/Trade
+  Advanced Broker Relations Skill Accelerator: implant/Booster
   Advanced Capsuleer Defense Augmentation Chip: implant/Booster
   Advanced Cerebral Accelerator: implant/Booster
   Advanced Cerebral Accelerator Blueprint: blueprint/BoosterBlueprints
@@ -43029,6 +43350,7 @@ name2group:
   Advanced Medium Ship Assembly Array Blueprint: blueprint/StarbaseBlueprint
   Advanced Medium Ship Construction: skill/Production
   Advanced Planetology: skill/PlanetManagement
+  Advanced Planetology Skill Accelerator: implant/Booster
   Advanced Precision Enhancer: infantry/InfantryModules
   Advanced Small Ship Assembly Array: starbase/AssemblyArray
   Advanced Small Ship Assembly Array Blueprint: blueprint/StarbaseBlueprint
@@ -43311,7 +43633,10 @@ name2group:
   Amarr Forensic Investigative Deployment: commodity/Livestock
   Amarr Forensic Investigative Team: commodity/Livestock
   Amarr Foundation Day Apparel Crate: specialeditionassets/SpecialEditionCommodities
+  Amarr Foundation Day Expert System: expertsystems/PromotionalExpertSystems
   Amarr Foundation Day Fireworks Crate: specialeditionassets/SpecialEditionCommodities
+  Amarr Foundation Day Jacket Crate: specialeditionassets/SpecialEditionCommodities
+  Amarr Foundation Day Pants Crate: specialeditionassets/SpecialEditionCommodities
   Amarr Freighter: skill/SpaceshipCommand
   Amarr Frigate: skill/SpaceshipCommand
   Amarr Frigate Container: entity/MissionContainer
@@ -43381,6 +43706,7 @@ name2group:
   Amarr Shuttle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Amarr Shuttle Glacial Drift SKIN: skins/PermanentSKIN
   Amarr Shuttle Khanid SKIN: skins/PermanentSKIN
+  Amarr Shuttle Tash-Murkon SKIN: skins/PermanentSKIN
   Amarr Slave Trader: entity/MissionAmarrEmpireCruiser
   Amarr Slave Transport Ship: entity/MissionAmarrEmpireCruiser
   Amarr Slaver Ship: entity/MissionAmarrEmpireCruiser
@@ -43995,6 +44321,7 @@ name2group:
   Arbiter: infantry/InfantryDropsuits
   Arbitrator: ship/Cruiser
   Arbitrator Abyssal Firestorm SKIN: skins/PermanentSKIN
+  Arbitrator Abyssal Glory SKIN: skins/PermanentSKIN
   Arbitrator Ardishapur SKIN: skins/PermanentSKIN
   Arbitrator Ardishapur SKIN (30 Days): skins/Max30DaySKIN
   Arbitrator Ardishapur SKIN (365 Days): skins/Max1YearSKIN
@@ -44352,9 +44679,11 @@ name2group:
   Astarte Spirit SKIN: skins/PermanentSKIN
   Astarte Valimor Legacy SKIN: skins/PermanentSKIN
   Astero: ship/Frigate
+  Astero ASES SKIN: skins/PermanentSKIN
   Astero Blueprint: blueprint/FrigateBlueprint
   Astero Crystal Blast SKIN: skins/PermanentSKIN
   Astero Deathglow Hunters SKIN: skins/PermanentSKIN
+  Astero Friendship League SKIN: skins/PermanentSKIN
   Astero Glacial Drift SKIN: skins/PermanentSKIN
   Astero One Eden SKIN: skins/PermanentSKIN
   Astero SOE Blue Cell: skins/PermanentSKIN
@@ -44402,6 +44731,7 @@ name2group:
   Astro-Inertial Compact Missile Guidance Computer: module/MissileGuidanceComputer
   AstroFarm: entity/LargeCollidableStructure
   Astrogeology: skill/ResourceProcessing
+  Astrogeology Skill Accelerator: implant/Booster
   Astrometric Acquisition: skill/Scanning
   Astrometric Pinpointing: skill/Scanning
   Astrometric Rangefinding: skill/Scanning
@@ -44494,6 +44824,7 @@ name2group:
   Augoror Oasis of Faith SKIN: skins/PermanentSKIN
   Augoror Purity of the Throne SKIN: skins/PermanentSKIN
   Augoror Raata Sunset SKIN: skins/PermanentSKIN
+  Augoror Reenactment Drone: entity/IrregularCruiser
   Augoror Spirit SKIN: skins/PermanentSKIN
   Augumene: asteroid/Pyroxeres
   August Demeanor Bonus: bonus/PhysicalBenefit
@@ -44714,6 +45045,7 @@ name2group:
   Baryon Exotic Plasma XL Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Base Metals: planetaryresources/PlanetSolidRawResource
   Basic 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
+  Basic 'Rebel' Cerebral Accelerator: implant/Booster
   Basic 120mm Armor Plates: infantry/InfantryModules
   Basic 60mm Armor Plates: infantry/InfantryModules
   Basic Afterburner: infantry/InfantryModules
@@ -44802,6 +45134,7 @@ name2group:
   Beelzebub Apis: entity/DeadspaceRogueDroneSwarm
   Beelzebub Drone: entity/AsteroidRogueDroneSwarm
   Bellicose: ship/Cruiser
+  Bellicose Abyssal Glory SKIN: skins/PermanentSKIN
   Bellicose Biosecurity Responders SKIN: skins/PermanentSKIN
   Bellicose Blue Tiger SKIN: skins/PermanentSKIN
   Bellicose Blueprint: blueprint/CruiserBlueprint
@@ -44869,6 +45202,7 @@ name2group:
   Bifrost Glacial Drift SKIN: skins/PermanentSKIN
   Bifrost Hazard Control SKIN: skins/PermanentSKIN
   Bifrost Kybernaut Clade SKIN: skins/PermanentSKIN
+  Bifrost Liberation Games SKIN: skins/PermanentSKIN
   Bifrost Snowline Bladeracer SKIN: skins/PermanentSKIN
   Bifrost Valklear Glory SKIN: skins/PermanentSKIN
   Billboard: entity/LargeCollidableStructure
@@ -44920,6 +45254,7 @@ name2group:
   Black Mask Bandit: entity/StorylineMissionBattleship
   Black Ops: skill/SpaceshipCommand
   Blackbird: ship/Cruiser
+  Blackbird Abyssal Glory SKIN: skins/PermanentSKIN
   Blackbird Biosecurity Responders SKIN: skins/PermanentSKIN
   Blackbird Blue Tiger SKIN: skins/PermanentSKIN
   Blackbird Blueprint: blueprint/CruiserBlueprint
@@ -45278,16 +45613,23 @@ name2group:
   Breacher Biosecurity Responders SKIN: skins/PermanentSKIN
   Breacher Blue Tiger SKIN: skins/PermanentSKIN
   Breacher Blueprint: blueprint/FrigateBlueprint
+  Breacher Brutor SKIN: skins/PermanentSKIN
   Breacher Dawn of Liberation SKIN: skins/PermanentSKIN
   Breacher Exoplanets Hunter SKIN: skins/PermanentSKIN
   Breacher Glacial Drift SKIN: skins/PermanentSKIN
   Breacher Hazard Control SKIN: skins/PermanentSKIN
   Breacher Hunter's Quiver SKIN: skins/PermanentSKIN
   Breacher Justice SKIN: skins/PermanentSKIN
+  Breacher Krusual SKIN: skins/PermanentSKIN
+  Breacher Nefantar SKIN: skins/PermanentSKIN
   Breacher Republic Fleet SKIN: skins/PermanentSKIN
+  Breacher Sebiestor SKIN: skins/PermanentSKIN
   Breacher Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Breacher Starkmanir SKIN: skins/PermanentSKIN
+  Breacher Thukker Tribe SKIN: skins/PermanentSKIN
   Breacher Tronhadar Ink SKIN: skins/PermanentSKIN
   Breacher Valklear Glory SKIN: skins/PermanentSKIN
+  Breacher Vherokior SKIN: skins/PermanentSKIN
   Breacher Zakura Hansei SKIN: skins/PermanentSKIN
   Breeder Slave: commodity/Livestock
   Bright Spodumain: asteroid/Spodumain
@@ -45357,6 +45699,7 @@ name2group:
   Broken Talocan Coupling Array: entity/LargeCollidableStructure
   Broken Wetware Mainframe: commodity/Miscellaneous
   Broker Relations: skill/Trade
+  Broker Relations Skill Accelerator: implant/Booster
   Bronze Order of the Mountain: commodity/Miscellaneous
   Bronze Sculpture: commodity/Miscellaneous
   Brothel: entity/DeadspaceOverseerSStructure
@@ -46089,7 +46432,10 @@ name2group:
   Caldari Traitor's DNA: commodity/Miscellaneous
   Caldari Transport Ship: entity/MissionCaldariStateCruiser
   Caldari Union Day Apparel Crate: specialeditionassets/SpecialEditionCommodities
+  Caldari Union Day Expert System: expertsystems/PromotionalExpertSystems
   Caldari Union Day Fireworks Crate: specialeditionassets/SpecialEditionCommodities
+  Caldari Union Day Jacket Crate: specialeditionassets/SpecialEditionCommodities
+  Caldari Union Day Pants Crate: specialeditionassets/SpecialEditionCommodities
   Caldari Wall: entity/LargeCollidableStructure
   Caldari spaceship skill accelerator: implant/Booster
   Calibration Subsystem: infantry/InfantryModules
@@ -46975,6 +47321,7 @@ name2group:
   Celadon Cytoserocin: celestial/HarvestableCloud
   Celadon Mykoserocin: celestial/HarvestableCloud
   Celestis: ship/Cruiser
+  Celestis Abyssal Glory SKIN: skins/PermanentSKIN
   Celestis Biosecurity Responders SKIN: skins/PermanentSKIN
   Celestis Blueprint: blueprint/CruiserBlueprint
   Celestis Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -47419,6 +47766,7 @@ name2group:
   Claudius: entity/MissionGenericFrigates
   Claustrophobia Bonus: bonus/PhobiaHandicap
   Claw: ship/Interceptor
+  Claw Abyssal Glory SKIN: skins/PermanentSKIN
   Claw Aurora Universalis SKIN: skins/PermanentSKIN
   Claw Biosecurity Responders SKIN: skins/PermanentSKIN
   Claw Blue Tiger SKIN: skins/PermanentSKIN
@@ -47442,6 +47790,7 @@ name2group:
   Claymore Glacial Drift SKIN: skins/PermanentSKIN
   Claymore Hazard Control SKIN: skins/PermanentSKIN
   Claymore Justice SKIN: skins/PermanentSKIN
+  Claymore Liberation Games SKIN: skins/PermanentSKIN
   Claymore Snowline Bladeracer SKIN: skins/PermanentSKIN
   Claymore Tronhadar Ink SKIN: skins/PermanentSKIN
   Claymore Valklear Glory SKIN: skins/PermanentSKIN
@@ -47545,6 +47894,7 @@ name2group:
   Coming Soon: infantry/InfantryDropsuits
   Command Burst Specialist: skill/FleetSupport
   Command Center Upgrades: skill/PlanetManagement
+  Command Center Upgrades Skill Accelerator: implant/Booster
   Command Destroyers: skill/SpaceshipCommand
   Command Node: infantry/InfantryInstallations
   Command Relay Key: commodity/AccelerationGateKeys
@@ -48246,6 +48596,7 @@ name2group:
   Corrupted Neurosynaptic Profile: commodity/Commodities
   Corrupted Trinary Relics: commodity/Miscellaneous
   Cortex: infantry/InfantryEquipment
+  Corvette FFA Proving Filament: commodity/AbyssalProvingFilaments
   Council Diplomatic Shuttle: ship/Shuttle
   Council Diplomatic Shuttle Blueprint: blueprint/ShuttleBlueprint
   Council Diplomatic Shuttle CONCORD Aerospace 'Prototype' SKIN: skins/PermanentSKIN
@@ -48262,6 +48613,8 @@ name2group:
   Covert Cynosural Field Generator I Blueprint: blueprint/GangCoordinatorBlueprint
   Covert Jump Portal Generator I: module/CovertJumpPortalGenerator
   Covert Jump Portal Generator I Blueprint: blueprint/SiegeModuleBlueprint
+  Covert Mobile Cynosural Beacon: deployable/MobileCynosuralBeacon
+  Covert Mobile Cynosural Beacon Blueprint: blueprint/MobileCynosuralBeaconBlueprint
   Covert Ops: skill/SpaceshipCommand
   Covert Ops Cloaking Device II: module/CloakingDevice
   Covert Ops Cloaking Device II Blueprint: blueprint/CloakingDeviceBlueprint
@@ -48464,6 +48817,7 @@ name2group:
   Crow Hunter's Quiver SKIN: skins/PermanentSKIN
   Crow Matigu Seabeast SKIN: skins/PermanentSKIN
   Crow Raata Sunset SKIN: skins/PermanentSKIN
+  Crow State Police SKIN: skins/PermanentSKIN
   Crow Steel Cardinal SKIN: skins/PermanentSKIN
   Crow Wiyrkomi SKIN: skins/PermanentSKIN
   Crow Zento Isideko Combine SKIN: skins/PermanentSKIN
@@ -48526,6 +48880,7 @@ name2group:
   Cruor Malagrin Marshlight SKIN: skins/PermanentSKIN
   Cruor Vampire's Hex SKIN: skins/PermanentSKIN
   Crusader: ship/Interceptor
+  Crusader Abyssal Glory SKIN: skins/PermanentSKIN
   Crusader Aurora Universalis SKIN: skins/PermanentSKIN
   Crusader Biosecurity Responders SKIN: skins/PermanentSKIN
   Crusader Blueprint: blueprint/FrigateBlueprint
@@ -48593,6 +48948,7 @@ name2group:
   Custom-built Guidance System: commodity/Commodities
   Custom-made Antenna: commodity/Commodities
   Customs Code Expertise: skill/Trade
+  Customs Code Expertise Skill Accelerator: implant/Booster
   Customs Office Gantry: orbitals/OrbitalConstructionPlatform
   Customs Office Gantry Blueprint: blueprint/StarbaseBlueprint
   Customs Patrol Schedule: commodity/Miscellaneous
@@ -48630,6 +48986,7 @@ name2group:
   Cyclone Krusual SKIN (90 Days): skins/Max90DaySKIN
   Cyclone Krusual Serenity Only SKIN: skins/PermanentSKIN
   Cyclone Luminaire Zenith SKIN: skins/PermanentSKIN
+  Cyclone Republic Fleet SKIN: skins/PermanentSKIN
   Cyclone Snowline Bladeracer SKIN: skins/PermanentSKIN
   Cyclone Thukker Tribe SKIN: skins/PermanentSKIN
   Cyclone Thukker Tribe SKIN (30 Days): skins/Max30DaySKIN
@@ -49061,6 +49418,7 @@ name2group:
   Dawn of Liberation Cruiser SKINs: specialeditionassets/SpecialEditionCommodities
   Dawn of Liberation Frigate SKINs: specialeditionassets/SpecialEditionCommodities
   Daytrading: skill/Trade
+  Daytrading Skill Accelerator: implant/Booster
   Dazh Koliada: entity/TriglavianEntities
   Dazh Porevitium Transmuter: entity/LargeCollidableStructure
   Dazh Potremba: entity/TriglavianEntities
@@ -50320,6 +50678,14 @@ name2group:
   EMP XL: charge/ProjectileAmmo
   EMP XL Blueprint: blueprint/ProjectileAmmoBlueprint
   EP-S Gaussian Scoped Mining Laser: module/MiningLaser
+  ESS-NE-15 Reserve Security Key: commodity/ESSReserveBankKeys
+  ESS-NE-45 Reserve Security Key: commodity/ESSReserveBankKeys
+  ESS-NW-15 Reserve Security Key: commodity/ESSReserveBankKeys
+  ESS-NW-45 Reserve Security Key: commodity/ESSReserveBankKeys
+  ESS-SE-15 Reserve Security Key: commodity/ESSReserveBankKeys
+  ESS-SE-45 Reserve Security Key: commodity/ESSReserveBankKeys
+  ESS-SW-15 Reserve Security Key: commodity/ESSReserveBankKeys
+  ESS-SW-45 Reserve Security Key: commodity/ESSReserveBankKeys
   EX-0 AV Grenade: infantry/InfantryWeapons
   EX-11 Packed AV Grenade: infantry/InfantryWeapons
   EX-3 Sleek AV Grenade: infantry/InfantryWeapons
@@ -50342,6 +50708,7 @@ name2group:
   Eagle Serenity YC117 SKIN (365 Days): skins/Max1YearSKIN
   Eagle Serenity YC117 SKIN (7 Days): skins/Max7DaySKIN
   Eagle Serenity YC117 SKIN (90 Days): skins/Max90DaySKIN
+  Eagle State Police SKIN: skins/PermanentSKIN
   Eagle Steel Cardinal SKIN: skins/PermanentSKIN
   Eagle Vitalshift EGO SKIN: skins/PermanentSKIN
   Eagle Wiyrkomi SKIN: skins/PermanentSKIN
@@ -50577,6 +50944,7 @@ name2group:
   Elite Laser Pistols: commodity/Commodities
   Elite Lucifer Cynabal: entity/AbyssalSpaceshipEntities
   Elite Lucifer Dramiel: entity/AbyssalSpaceshipEntities
+  Elite Prophecy Reenactment Drone: entity/IrregularBattlecruiser
   Elite Repair Drone: entity/DeadspaceRogueDroneCruiser
   Elite Republic Fleet Claw: entity/EDENCOMEntities
   Elite Republic Fleet Huginn: entity/EDENCOMEntities
@@ -50976,6 +51344,7 @@ name2group:
   Eule Vitrauze's DNA: commodity/Commodities
   Eutectic Compact Cap Recharger: module/CapacitorRecharger
   Euxenite: asteroid/CommonMoonAsteroids
+  Evacuation Transport Reenactment Drone: entity/IrregularIndustrial
   Evaporite Deposits: material/MoonMaterials
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
@@ -51156,6 +51525,7 @@ name2group:
   Explosives: infantry/InfantrySkills
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   Exsanguinator: entity/DeadspaceOverseerCruiser
+  Extended 'Rebel' Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extractive Super-Nexus: entity/LargeCollidableStructure
@@ -51649,6 +52019,7 @@ name2group:
   Ferox Matigu Seabeast SKIN: skins/PermanentSKIN
   Ferox Military Stockpile Captain SKIN: skins/PermanentSKIN
   Ferox Raata Sunset SKIN: skins/PermanentSKIN
+  Ferox State Police SKIN: skins/PermanentSKIN
   Ferox Steel Cardinal SKIN: skins/PermanentSKIN
   Ferox Vitalshift EGO SKIN: skins/PermanentSKIN
   Ferox Wiyrkomi SKIN: skins/PermanentSKIN
@@ -52219,7 +52590,6 @@ name2group:
   Gate Control Code A: commodity/AccelerationGateKeys
   Gate Control Code B: commodity/AccelerationGateKeys
   Gate Control Code C: commodity/AccelerationGateKeys
-  Gate Control System: entity/SpawnContainer
   Gate Key: commodity/AccelerationGateKeys
   Gate Security: entity/DeadspaceOverseerSStructure
   Gath Renton: entity/MissionCaldariStateBattlecruiser
@@ -52290,6 +52660,7 @@ name2group:
   Giant Secure Container: celestial/SecureCargoContainer
   Giant Secure Container Blueprint: blueprint/ContainerBlueprints
   Gila: ship/Cruiser
+  Gila ASES SKIN: skins/PermanentSKIN
   Gila Abyssal Afterglow SKIN: skins/PermanentSKIN
   Gila Abyssal Darkfield SKIN: skins/PermanentSKIN
   Gila Abyssal Exostorm SKIN: skins/PermanentSKIN
@@ -52592,6 +52963,7 @@ name2group:
   Golem Octopus Orange Flight SKIN: skins/PermanentSKIN
   Golem Octopus Red Flight SKIN: skins/PermanentSKIN
   Golem Raata Sunset SKIN: skins/PermanentSKIN
+  Golem State Police SKIN: skins/PermanentSKIN
   Golem Steel Cardinal SKIN: skins/PermanentSKIN
   Golem Vitalshift EGO SKIN: skins/PermanentSKIN
   Golem Wiyrkomi SKIN: skins/PermanentSKIN
@@ -53330,6 +53702,7 @@ name2group:
   Hawk Kimotoro Eskeitan SKIN: skins/PermanentSKIN
   Hawk Matigu Seabeast SKIN: skins/PermanentSKIN
   Hawk Raata Sunset SKIN: skins/PermanentSKIN
+  Hawk State Police SKIN: skins/PermanentSKIN
   Hawk Steel Cardinal SKIN: skins/PermanentSKIN
   Hawk Wiyrkomi SKIN: skins/PermanentSKIN
   Hawk Zento Isideko Combine SKIN: skins/PermanentSKIN
@@ -53779,6 +54152,7 @@ name2group:
   High-grade Talon Gamma: implant/Cyberimplant
   High-grade Talon Omega: implant/Cyberimplant
   Highstroke Scoped Guidance Disruptor: module/WeaponDisruptor
+  Hijacked Transport Reenactment Drone: entity/IrregularIndustrial
   Hired Gunman: entity/StorylineMissionFrigate
   Hive Logistic Captain: entity/DeadspaceOverseerCruiser
   Hive Mind CPU: commodity/Miscellaneous
@@ -53972,15 +54346,22 @@ name2group:
   Hurricane Fleet Issue Biosecurity Responders SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Bloody Hands SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Blueprint: blueprint/BattlecruiserBlueprint
+  Hurricane Fleet Issue Brutor SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Freedom's Revolution SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue IGC SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue In Rust We Trust SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Justice SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Krusual SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Luminaire Zenith SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Nefantar SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Sebiestor SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Spirit SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Starkmanir SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Thukker Tribe SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Vherokior SKIN: skins/PermanentSKIN
   Hurricane Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Hurricane Fleet Ordnance Spike SKIN (Volatile): skins/VolatileSKIN
   Hurricane Freedom's Revolution SKIN: skins/PermanentSKIN
@@ -54177,6 +54558,7 @@ name2group:
   Impairor Exoplanets Hunter SKIN: skins/PermanentSKIN
   Impairor Glacial Drift SKIN: skins/PermanentSKIN
   Impairor Purity of the Throne SKIN: skins/PermanentSKIN
+  Impairor Reenactment Drone: entity/IrregularFrigate
   Impel: ship/DeepSpaceTransport
   Impel Biosecurity Responders SKIN: skins/PermanentSKIN
   Impel Blueprint: blueprint/EliteIndustrialBlueprint
@@ -54991,6 +55373,7 @@ name2group:
   Inquisitor Oasis of Faith SKIN: skins/PermanentSKIN
   Inquisitor Purity of the Throne SKIN: skins/PermanentSKIN
   Inquisitor Raata Sunset SKIN: skins/PermanentSKIN
+  Inquisitor Reenactment Drone: entity/IrregularFrigate
   Inquisitor Tash-Murkon SKIN: skins/PermanentSKIN
   Inquisitor Tash-Murkon SKIN (30 Days): skins/Max30DaySKIN
   Inquisitor Tash-Murkon SKIN (365 Days): skins/Max1YearSKIN
@@ -55057,6 +55440,7 @@ name2group:
   Internal-15 'Pochven' Filament: commodity/TriglavianSpaceFilaments
   Internal-5 'Pochven' Filament: commodity/TriglavianSpaceFilaments
   Interplanetary Consolidation: skill/PlanetManagement
+  Interplanetary Consolidation Skill Accelerator: implant/Booster
   Interstellar Navigation Logs: commodity/Commodities
   Interview Transcripts: commodity/Commodities
   Intoxicated Commander: entity/DeadspaceOverseerCruiser
@@ -55119,6 +55503,7 @@ name2group:
   Ishkur Valimor Legacy SKIN: skins/PermanentSKIN
   Ishtar: ship/HeavyAssaultCruiser
   Ishtar "Blaze" Squadron SKIN: skins/PermanentSKIN
+  Ishtar ASES SKIN: skins/PermanentSKIN
   Ishtar Biosecurity Responders SKIN: skins/PermanentSKIN
   Ishtar Blueprint: blueprint/CruiserBlueprint
   Ishtar Caille Neon SKIN: skins/PermanentSKIN
@@ -56390,6 +56775,15 @@ name2group:
   Lemonn: entity/MissionGenericFrigates
   Leopard: ship/Shuttle
   Leopard Blueprint: blueprint/ShuttleBlueprint
+  Leopard Brutor SKIN: skins/PermanentSKIN
+  Leopard Krusual SKIN: skins/PermanentSKIN
+  Leopard Liberation Games SKIN: skins/PermanentSKIN
+  Leopard Nefantar SKIN: skins/PermanentSKIN
+  Leopard Republic Fleet SKIN: skins/PermanentSKIN
+  Leopard Sebiestor SKIN: skins/PermanentSKIN
+  Leopard Starkmanir SKIN: skins/PermanentSKIN
+  Leopard Thukker Tribe SKIN: skins/PermanentSKIN
+  Leopard Vherokior SKIN: skins/PermanentSKIN
   Lephny's Mining Boat: entity/MissionGenericCruisers
   Lephny's Mining Post: entity/DeadspaceOverseerSStructure
   Leshak: ship/Battleship
@@ -56431,8 +56825,20 @@ name2group:
   Leviathan Yoiul Star SKIN: skins/PermanentSKIN
   Leviathan Zento Isideko Combine SKIN: skins/PermanentSKIN
   Liberation Elixir: commodity/Commodities
+  Liberation Games Accuracy Booster I: implant/Booster
+  Liberation Games Accuracy Booster II: implant/Booster
+  Liberation Games Accuracy Booster III: implant/Booster
+  Liberation Games Damage Booster I: implant/Booster
+  Liberation Games Damage Booster II: implant/Booster
+  Liberation Games Damage Booster III: implant/Booster
+  Liberation Games EWar Booster I: implant/Booster
+  Liberation Games EWar Booster II: implant/Booster
+  Liberation Games EWar Booster III: implant/Booster
   Liberation Games Firework Sentry: entity/DestructibleSentryGun
-  Liberation Games Rifter FFA Proving Filament: commodity/AbyssalProvingFilaments
+  Liberation Games Range Booster I: implant/Booster
+  Liberation Games Range Booster II: implant/Booster
+  Liberation Games Range Booster III: implant/Booster
+  Liberation Games Reward Token: commodity/Miscellaneous
   Liberty Spear Gallente Battleship: entity/HiddenZenithGallenteBattleship
   Liberty Spear Gallente Cruiser: entity/HiddenZenithGallenteCruiser
   Liberty Spear Gallente Frigate: entity/HiddenZenithGallenteFrigate
@@ -57210,6 +57616,7 @@ name2group:
   Manticore Glacial Drift SKIN: skins/PermanentSKIN
   Manticore Matigu Seabeast SKIN: skins/PermanentSKIN
   Manticore Raata Sunset SKIN: skins/PermanentSKIN
+  Manticore State Police SKIN: skins/PermanentSKIN
   Manticore Steel Cardinal SKIN: skins/PermanentSKIN
   Manticore Vitalshift EGO SKIN: skins/PermanentSKIN
   Manticore Wiyrkomi SKIN: skins/PermanentSKIN
@@ -57495,6 +57902,7 @@ name2group:
   Medium Degenerative Concussion Bomb I: module/SmartBomb
   Medium Degenerative Concussion Bomb I Blueprint: blueprint/SmartBombBlueprint
   Medium Disintegrator Specialization: skill/Gunnery
+  Medium Disintegrator Specialization Skill Accelerator: implant/Booster
   Medium Drone Control Range Augmentor I: module/RigDrones
   Medium Drone Control Range Augmentor I Blueprint: blueprint/RigBlueprint
   Medium Drone Control Range Augmentor II: module/RigDrones
@@ -57717,6 +58125,7 @@ name2group:
   Medium Powergrid Subroutine Maximizer II: module/RigCore
   Medium Powergrid Subroutine Maximizer II Blueprint: blueprint/RigBlueprint
   Medium Precursor Weapon: skill/Gunnery
+  Medium Precursor Weapon Skill Accelerator: implant/Booster
   Medium Processor Overclocking Unit I: module/RigCore
   Medium Processor Overclocking Unit I Blueprint: blueprint/RigBlueprint
   Medium Processor Overclocking Unit II: module/RigCore
@@ -58087,6 +58496,8 @@ name2group:
   Men's 'Impact' Jacket (monochrome): apparel/Outer
   Men's 'Impact' Jacket (reflective blue): apparel/Outer
   Men's 'Imperial Loyalist' Beret: apparel/Headwear
+  Men's 'Imperial Loyalist' Jacket: apparel/Outer
+  Men's 'Imperial Loyalist' Pants: apparel/Bottoms
   Men's 'Kybernaut Clade' Beret: apparel/Headwear
   Men's 'Kybernaut Clade' T-Shirt: apparel/Tops
   Men's 'Liberator' Beret (Minmatar Republic): apparel/Headwear
@@ -58165,6 +58576,8 @@ name2group:
   Men's 'Setcouple' Facial Augmentation: apparel/Augmentations
   Men's 'Source' Coat (black): apparel/Outer
   Men's 'State Protector' Beret: apparel/Headwear
+  Men's 'State Protector' Jacket: apparel/Outer
+  Men's 'State Protector' Pants: apparel/Bottoms
   Men's 'Sterling' Dress Shirt (Ishukone Special Edition): apparel/Tops
   Men's 'Sterling' Dress Shirt (black): apparel/Tops
   Men's 'Sterling' Dress Shirt (dust): apparel/Tops
@@ -58243,6 +58656,8 @@ name2group:
   Men's Exoplanets Hunter T-shirt: apparel/Tops
   Men's Exoplanets Program Director Coat: apparel/Outer
   Men's Federal Strategic Materiel Jacket: apparel/Outer
+  Men's Federation Commander's Dress Jacket: apparel/Outer
+  Men's Federation Commander's Dress Pants: apparel/Bottoms
   Men's Federation Grand Prix 'Pit Stop' Cap: apparel/Headwear
   Men's Federation Stargate Crew Pants: apparel/Bottoms
   Men's Federation Stargate Crew Shoes: apparel/Footwear
@@ -58255,6 +58670,8 @@ name2group:
   Men's Genolution Combat Suit: apparel/Outer
   Men's Genolution Tactical Goggles: apparel/Eyewear
   Men's IGC Location Scout Suit: apparel/Outer
+  Men's Imperial Commander's Dress Jacket: apparel/Outer
+  Men's Imperial Commander's Dress Pants: apparel/Bottoms
   Men's Imperial Stargate Crew Pants: apparel/Bottoms
   Men's Imperial Stargate Crew Shoes: apparel/Footwear
   Men's Imperial Stargate Crew Top: apparel/Tops
@@ -58273,7 +58690,16 @@ name2group:
   Men's Polar Aurora Exploration Suit: apparel/Outer
   Men's Project Discovery Cytometry Cap: apparel/Headwear
   Men's Project Discovery Cytometry T-Shirt: apparel/Tops
+  Men's Republic Commander's Dress Jacket: apparel/Outer
+  Men's Republic Commander's Dress Pants: apparel/Bottoms
   Men's Republic Fleet Ordnance Jacket: apparel/Outer
+  Men's Republic Service Tattoo (Brutor): apparel/Tattoos
+  Men's Republic Service Tattoo (Krusual): apparel/Tattoos
+  Men's Republic Service Tattoo (Nefantar): apparel/Tattoos
+  Men's Republic Service Tattoo (Sebiestor): apparel/Tattoos
+  Men's Republic Service Tattoo (Starkmanir): apparel/Tattoos
+  Men's Republic Service Tattoo (Thukker): apparel/Tattoos
+  Men's Republic Service Tattoo (Vherokior): apparel/Tattoos
   Men's Republic Stargate Crew Pants: apparel/Bottoms
   Men's Republic Stargate Crew Shoes: apparel/Footwear
   Men's Republic Stargate Crew Top: apparel/Tops
@@ -58282,6 +58708,8 @@ name2group:
   Men's SOE Expeditionary Suit: apparel/Outer
   Men's Scope Network Special Correspondent Suit: apparel/Outer
   Men's Sisters of EVE Advanced Combat Suit: apparel/Outer
+  Men's State Commander's Dress Jacket: apparel/Outer
+  Men's State Commander's Dress Pants: apparel/Bottoms
   Men's State Military Stockpile Jacket: apparel/Outer
   Men's State Stargate Crew Pants: apparel/Bottoms
   Men's State Stargate Crew Shoes: apparel/Footwear
@@ -58803,6 +59231,7 @@ name2group:
   Mining Laser Upgrade II Blueprint: blueprint/MiningLaserUpgradeBlueprint
   Mining Outpost_event: entity/LargeCollidableStructure
   Mining Pollution Cloud: entity/TemporaryCloud
+  Mining Skill Accelerator: implant/Booster
   Mining Upgrades: skill/ResourceProcessing
   Minmatar Academy Office: entity/SpawnContainer
   Minmatar Advanced Outpost Factory: accessories/OutpostImprovements
@@ -59399,6 +59828,7 @@ name2group:
   N-JM Compact Omnidirectional Tracking Enhancer: module/DroneTrackingEnhancer
   N-Type Energized Plating: infantry/InfantryModules
   N7-A Magsec SMG: infantry/InfantryWeapons
+  NE ESS Key Generator: entity/SpawnContainer
   'NEO YC 114: 8 CAS': specialeditionassets/TournamentCardsNewEdenOpenYC114
   'NEO YC 114: Africa''s Finest': specialeditionassets/TournamentCardsNewEdenOpenYC114
   'NEO YC 114: Asine Hitama''s team': specialeditionassets/TournamentCardsNewEdenOpenYC114
@@ -59428,6 +59858,7 @@ name2group:
   'NEO YC 114: XXXMity': specialeditionassets/TournamentCardsNewEdenOpenYC114
   NOH Signal Operators: commodity/Commodities
   NT-511 Sniper Rifle: infantry/InfantryWeapons
+  NW ESS Key Generator: entity/SpawnContainer
   Naberius Marquis: entity/DeadspaceOverseerBattleship
   Naga: ship/AttackBattlecruiser
   Naga Aurora Universalis SKIN: skins/PermanentSKIN
@@ -59601,6 +60032,7 @@ name2group:
   Nestor Blueprint: blueprint/BattleshipBlueprint
   Nestor Crystal Blast SKIN: skins/PermanentSKIN
   Nestor Eden's Hunters SKIN: skins/PermanentSKIN
+  Nestor Friendship League SKIN: skins/PermanentSKIN
   Nestor Glacial Drift SKIN: skins/PermanentSKIN
   Nestor Kybernaut Clade SKIN: skins/PermanentSKIN
   Nestor One Eden SKIN: skins/PermanentSKIN
@@ -60484,6 +60916,7 @@ name2group:
   Panther Justice SKIN: skins/PermanentSKIN
   Panther Luminaire Rising SKIN: skins/PermanentSKIN
   Panther Malagrin Marshlight SKIN: skins/PermanentSKIN
+  Panther Republic Fleet SKIN: skins/PermanentSKIN
   Panther Snowline Bladeracer SKIN: skins/PermanentSKIN
   Panther Tronhadar Ink SKIN: skins/PermanentSKIN
   Panther Valklear Glory SKIN: skins/PermanentSKIN
@@ -60783,6 +61216,7 @@ name2group:
   Plan to Crack Impregnable Safe: commodity/Commodities
   Planetary Vehicles: planetarycommodities/SpecializedCommoditiesTier3
   Planetology: skill/PlanetManagement
+  Planetology Skill Accelerator: implant/Booster
   Planktic Colonies: planetaryresources/PlanetOrganicRawResource
   Plasma Advanced Industry Facility: planetaryindustry/Processors
   Plasma Base Metals Extractor: planetaryindustry/Extractors
@@ -60914,6 +61348,7 @@ name2group:
   Portable Power Generator: commodity/Commodities
   Positron Cord: commodity/MaterialsAndCompounds
   Postcard From Poitot: specialeditionassets/SpecialEditionCommodities
+  Potent 'Rebel' Cerebral Accelerator: implant/Booster
   Potent Viral Agent: commodity/Biohazard
   Poteque 'Prospector' Archaeology AC-905: implant/CyberScanning
   Poteque 'Prospector' Astrometric Acquisition AQ-702: implant/CyberScanning
@@ -60976,6 +61411,7 @@ name2group:
   Precursor Battlecruiser: skill/SpaceshipCommand
   Precursor Battleship: skill/SpaceshipCommand
   Precursor Cruiser: skill/SpaceshipCommand
+  Precursor Cruiser Skill Accelerator: implant/Booster
   Precursor Destroyer: skill/SpaceshipCommand
   Precursor Dreadnought: skill/SpaceshipCommand
   Precursor Frigate: skill/SpaceshipCommand
@@ -61152,6 +61588,7 @@ name2group:
   Prophecy Oasis of Faith SKIN: skins/PermanentSKIN
   Prophecy Purity of the Throne SKIN: skins/PermanentSKIN
   Prophecy Raata Sunset SKIN: skins/PermanentSKIN
+  Prophecy Reenactment Drone: entity/IrregularBattlecruiser
   Prophecy Tash-Murkon SKIN: skins/PermanentSKIN
   Prophecy Tash-Murkon SKIN (30 Days): skins/Max30DaySKIN
   Prophecy Tash-Murkon SKIN (365 Days): skins/Max1YearSKIN
@@ -61316,7 +61753,6 @@ name2group:
   Providence Raata Sunset SKIN: skins/PermanentSKIN
   Providence Star Captain SKIN: skins/PermanentSKIN
   Providence Yoiul Star SKIN: skins/PermanentSKIN
-  Proving Conduit Throwback Proving Filament: commodity/AbyssalProvingFilaments
   Prowler: ship/BlockadeRunner
   Prowler Biosecurity Responders SKIN: skins/PermanentSKIN
   Prowler Blue Tiger SKIN: skins/PermanentSKIN
@@ -61373,6 +61809,7 @@ name2group:
   Punisher Oasis of Faith SKIN: skins/PermanentSKIN
   Punisher Purity of the Throne SKIN: skins/PermanentSKIN
   Punisher Raata Sunset SKIN: skins/PermanentSKIN
+  Punisher Reenactment Drone: entity/IrregularFrigate
   Punisher Tash-Murkon SKIN: skins/PermanentSKIN
   Punisher Tash-Murkon SKIN (30 Days): skins/Max30DaySKIN
   Punisher Tash-Murkon SKIN (365 Days): skins/Max1YearSKIN
@@ -61687,10 +62124,12 @@ name2group:
   Rapier Glacial Drift SKIN: skins/PermanentSKIN
   Rapier Hazard Control SKIN: skins/PermanentSKIN
   Rapier Justice SKIN: skins/PermanentSKIN
+  Rapier Liberation Games SKIN: skins/PermanentSKIN
   Rapier Snowline Bladeracer SKIN: skins/PermanentSKIN
   Rapier Tronhadar Ink SKIN: skins/PermanentSKIN
   Rapier Valklear Glory SKIN: skins/PermanentSKIN
   Raptor: ship/Interceptor
+  Raptor Abyssal Glory SKIN: skins/PermanentSKIN
   Raptor Aurora Universalis SKIN: skins/PermanentSKIN
   Raptor Biosecurity Responders SKIN: skins/PermanentSKIN
   Raptor Blue Tiger SKIN: skins/PermanentSKIN
@@ -61887,8 +62326,15 @@ name2group:
   Reactor Control Unit II Blueprint: blueprint/PowerManagerBlueprint
   Reaper: ship/Corvette
   Reaper Biosecurity Responders SKIN: skins/PermanentSKIN
+  Reaper Brutor SKIN: skins/PermanentSKIN
   Reaper Exoplanets Hunter SKIN: skins/PermanentSKIN
   Reaper Glacial Drift SKIN: skins/PermanentSKIN
+  Reaper Krusual SKIN: skins/PermanentSKIN
+  Reaper Nefantar SKIN: skins/PermanentSKIN
+  Reaper Sebiestor SKIN: skins/PermanentSKIN
+  Reaper Starkmanir SKIN: skins/PermanentSKIN
+  Reaper Thukker Tribe SKIN: skins/PermanentSKIN
+  Reaper Vherokior SKIN: skins/PermanentSKIN
   Rebel Biomass: commodity/Commodities
   Rebel Leader: entity/MinorThreat
   Rebellion Cache: commodity/Miscellaneous
@@ -62192,12 +62638,20 @@ name2group:
   Republic Fleet Firetail: ship/Frigate
   Republic Fleet Firetail Biosecurity Responders SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Blueprint: blueprint/FrigateBlueprint
+  Republic Fleet Firetail Brutor SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Dawn of Liberation SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Exoplanets Hunter SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Freedom's Revolution SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Glacial Drift SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Justice SKIN: skins/PermanentSKIN
+  Republic Fleet Firetail Krusual SKIN: skins/PermanentSKIN
+  Republic Fleet Firetail Liberation Games SKIN: skins/PermanentSKIN
+  Republic Fleet Firetail Nefantar SKIN: skins/PermanentSKIN
+  Republic Fleet Firetail Sebiestor SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Republic Fleet Firetail Starkmanir SKIN: skins/PermanentSKIN
+  Republic Fleet Firetail Thukker Tribe SKIN: skins/PermanentSKIN
+  Republic Fleet Firetail Vherokior SKIN: skins/PermanentSKIN
   Republic Fleet Fusion L: charge/ProjectileAmmo
   Republic Fleet Fusion M: charge/ProjectileAmmo
   Republic Fleet Fusion S: charge/ProjectileAmmo
@@ -62365,6 +62819,13 @@ name2group:
   Republic Sentinel M-I: infantry/InfantryDropsuits
   Republic Sentinel M/1-Series: infantry/InfantryDropsuits
   Republic Sentinel mk.0: infantry/InfantryDropsuits
+  Republic Service Tattoo (Brutor Tribe) Package: specialeditionassets/SpecialEditionCommodities
+  Republic Service Tattoo (Krusual Tribe) Package: specialeditionassets/SpecialEditionCommodities
+  Republic Service Tattoo (Nefantar Tribe) Package: specialeditionassets/SpecialEditionCommodities
+  Republic Service Tattoo (Sebiestor Tribe) Package: specialeditionassets/SpecialEditionCommodities
+  Republic Service Tattoo (Starkmanir Tribe) Package: specialeditionassets/SpecialEditionCommodities
+  Republic Service Tattoo (Thukker Tribe) Package: specialeditionassets/SpecialEditionCommodities
+  Republic Service Tattoo (Vherokior Tribe) Package: specialeditionassets/SpecialEditionCommodities
   Republic Sigur: entity/MissionMinmatarRepublicBattleship
   Republic Six Kin Submachine Gun: infantry/InfantryWeapons
   Republic Skani: entity/MissionMinmatarRepublicFrigate
@@ -62766,6 +63227,7 @@ name2group:
   Rupture Bloody Hands SKIN: skins/PermanentSKIN
   Rupture Blue Tiger SKIN: skins/PermanentSKIN
   Rupture Blueprint: blueprint/CruiserBlueprint
+  Rupture Brutor SKIN: skins/PermanentSKIN
   Rupture Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Rupture Chromodynamic Candy SKIN: skins/PermanentSKIN
   Rupture Dawn of Liberation SKIN: skins/PermanentSKIN
@@ -62777,18 +63239,24 @@ name2group:
   Rupture Hazard Control SKIN: skins/PermanentSKIN
   Rupture Headhunter SKIN: skins/PermanentSKIN
   Rupture Justice SKIN: skins/PermanentSKIN
+  Rupture Krusual SKIN: skins/PermanentSKIN
   Rupture Luminaire Zenith SKIN: skins/PermanentSKIN
+  Rupture Nefantar SKIN: skins/PermanentSKIN
   Rupture Permaband Roadies SKIN: skins/PermanentSKIN
   Rupture Republic Fleet SKIN: skins/PermanentSKIN
   Rupture Scope Syndication YC122 SKIN: skins/PermanentSKIN
+  Rupture Sebiestor SKIN: skins/PermanentSKIN
   Rupture Serenity Cloud SKIN: skins/PermanentSKIN
   Rupture Serenity Cloud SKIN (30 Days): skins/Max30DaySKIN
   Rupture Serenity Cloud SKIN (365 Days): skins/Max1YearSKIN
   Rupture Serenity Cloud SKIN (7 Days): skins/Max7DaySKIN
   Rupture Serenity Cloud SKIN (90 Days): skins/Max90DaySKIN
   Rupture Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Rupture Starkmanir SKIN: skins/PermanentSKIN
+  Rupture Thukker Tribe SKIN: skins/PermanentSKIN
   Rupture Tronhadar Ink SKIN: skins/PermanentSKIN
   Rupture Valklear Glory SKIN: skins/PermanentSKIN
+  Rupture Vherokior SKIN: skins/PermanentSKIN
   Ryoke Laika: commodity/Livestock
   Ryoke Laika's Head: commodity/Commodities
   S-R Trigger Neurolink Conduit: commodity/ConstructionComponents
@@ -62798,6 +63266,12 @@ name2group:
   SARO Frigate: entity/MissionCONCORDFrigate
   SB-39 Rail Rifle: infantry/InfantryWeapons
   SCC Guidelines - Lotteries For Dummies: specialeditionassets/SpecialEditionCommodities
+  SCC Security Battleship: entity/NPCBattleship
+  SCC Security Cruiser: entity/NPCCruiser
+  SCC Security Frigate: entity/NPCFrigate
+  SCC Security Heavy GunStar: entity/DestructibleSentryGun
+  SCC Security Stasis Tower: entity/DestructibleSentryGun
+  SE ESS Key Generator: entity/SpawnContainer
   SK9M Breach Submachine Gun: infantry/InfantryWeapons
   SKIN: abstrct/Miscellaneous
   SL-4 Assault Rail Rifle: infantry/InfantryWeapons
@@ -62817,6 +63291,7 @@ name2group:
   ST-201 Cycled Missile Launcher: infantry/InfantryWeapons
   ST-201 Fragmented Missile Launcher: infantry/InfantryWeapons
   ST-201 Missile Launcher: infantry/InfantryWeapons
+  SW ESS Key Generator: entity/SpawnContainer
   S_Blue_Fixed_01: effects/LensFlares
   S_Blue_Fixed_Chack: effects/LensFlares
   S_Blue_Fixed_Large: effects/LensFlares
@@ -63214,6 +63689,7 @@ name2group:
   Scimitar Glacial Drift SKIN: skins/PermanentSKIN
   Scimitar Hazard Control SKIN: skins/PermanentSKIN
   Scimitar Justice SKIN: skins/PermanentSKIN
+  Scimitar Republic Fleet SKIN: skins/PermanentSKIN
   Scimitar Snowline Bladeracer SKIN: skins/PermanentSKIN
   Scimitar Tronhadar Ink SKIN: skins/PermanentSKIN
   Scimitar Valklear Glory SKIN: skins/PermanentSKIN
@@ -63676,6 +64152,7 @@ name2group:
   Serenity Festival Gold Crate: commodity/Miscellaneous
   Serenity Festival Silver Crate: commodity/Miscellaneous
   Serenity Imp/Whiptail Crate: commodity/Miscellaneous
+  Serenity July Season Reward Crate: commodity/Miscellaneous
   Serenity Monthly Cerebral Accelerator - 2020.10: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.11: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.12: implant/Booster
@@ -63690,6 +64167,7 @@ name2group:
   Serenity Monthly Cerebral Accelerator - 2021.5: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.6: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.7: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2021.8: implant/Booster
   Serenity November Season Advanced Cerebral Accelerator: implant/Booster
   Serenity November Season Pass: implant/Booster
   Serenity November Season Standard Cerebral Accelerator: implant/Booster
@@ -63703,10 +64181,14 @@ name2group:
   Serenity Potent 'Bonding' Cerebral Accelerator: implant/Booster
   Serenity Potent Capsuleer Day Cerebral Accelerator: implant/Booster
   Serenity Potent Capsuleer Day Glamourex Booster: implant/Booster
+  Serenity Poteque 'Prospector' Harvesting MC-108: implant/Booster
+  Serenity Poteque 'Prospector' Harvesting MC-308: implant/Booster
+  Serenity Poteque 'Prospector' Harvesting MC-708: implant/Booster
   Serenity Rookie DLI Day 1 Crate: commodity/Miscellaneous
   Serenity Rookie DLI Day 2 Crate: commodity/Miscellaneous
   Serenity Rookie DLI Day 3 Crate: commodity/Miscellaneous
   Serenity Rookie DLI Day 4 Crate: commodity/Miscellaneous
+  Serenity Rookie Exclusive Cerebral Accelerator: implant/Booster
   Serenity September Season Advanced Cerebral Accelerator: implant/Booster
   Serenity September Season Pass: implant/Booster
   Serenity September Season Standard Cerebral Accelerator: implant/Booster
@@ -63747,6 +64229,27 @@ name2group:
   Serenity YC123.6 Season Advanced Cerebral Accelerator: implant/Booster
   Serenity YC123.6 Season Pass: implant/Booster
   Serenity YC123.6 Season Standard Cerebral Accelerator: implant/Booster
+  Serenity YC123.7 Cerebral Accelerator I: implant/Booster
+  Serenity YC123.7 Cerebral Accelerator II: implant/Booster
+  Serenity YC123.7 Cerebral Accelerator III: implant/Booster
+  Serenity YC123.7 Cerebral Accelerator IV: implant/Booster
+  Serenity YC123.7 Event Crate: commodity/Miscellaneous
+  Serenity YC123.7 Event Manufacturing Booster Crate: commodity/Miscellaneous
+  Serenity YC123.7 Event SKIN Crate: commodity/Miscellaneous
+  Serenity YC123.7 Event Skill Booster Crate: commodity/Miscellaneous
+  Serenity YC123.7 PotT SKIN Crate Large: commodity/Miscellaneous
+  Serenity YC123.7 PotT SKIN Crate Small: commodity/Miscellaneous
+  Serenity YC123.7 Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity YC123.7 Season Pass: implant/Booster
+  Serenity YC123.7 Triglavian Recon Crate: commodity/Miscellaneous
+  Serenity YC123.8 Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity YC123.8 Season Pass: implant/Booster
+  Serenity YC123.8 Season Reward Crate: commodity/Miscellaneous
+  Serenity YC123.8 Season Ship Crate: commodity/Miscellaneous
+  Serenity YC123.8 Season Standard Cerebral Accelerator: implant/Booster
+  Serenity Zainou 'Beancounter' Manufacturing RP-108: implant/Booster
+  Serenity Zainou 'Beancounter' Manufacturing RP-308: implant/Booster
+  Serenity Zainou 'Beancounter' Manufacturing RP-708: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-A: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-B: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-C: implant/Booster
@@ -64398,6 +64901,7 @@ name2group:
   Sigil Oasis of Faith SKIN: skins/PermanentSKIN
   Sigil Purity of the Throne SKIN: skins/PermanentSKIN
   Sigil Raata Sunset SKIN: skins/PermanentSKIN
+  Sigil Tash-Murkon SKIN: skins/PermanentSKIN
   Signal Amplifier I: module/SignalAmplifier
   Signal Amplifier I Blueprint: blueprint/SignalAmplifierBlueprint
   Signal Amplifier II: module/SignalAmplifier
@@ -64569,6 +65073,7 @@ name2group:
   Slasher Krusual SKIN (90 Days): skins/Max90DaySKIN
   Slasher Krusual Serenity Only SKIN: skins/PermanentSKIN
   Slasher Luminaire Zenith SKIN: skins/PermanentSKIN
+  Slasher Republic Fleet SKIN: skins/PermanentSKIN
   Slasher Snowline Bladeracer SKIN: skins/PermanentSKIN
   Slasher Tronhadar Ink SKIN: skins/PermanentSKIN
   Slasher Valklear Glory SKIN: skins/PermanentSKIN
@@ -64640,6 +65145,7 @@ name2group:
   Sleipnir Hazard Control SKIN: skins/PermanentSKIN
   Sleipnir In Rust We Trust SKIN: skins/PermanentSKIN
   Sleipnir Justice SKIN: skins/PermanentSKIN
+  Sleipnir Republic Fleet SKIN: skins/PermanentSKIN
   Sleipnir Snowline Bladeracer SKIN: skins/PermanentSKIN
   Sleipnir Storm Bear SKIN: skins/PermanentSKIN
   Sleipnir Tronhadar Ink SKIN: skins/PermanentSKIN
@@ -65331,13 +65837,20 @@ name2group:
   Stabber Fleet Issue: ship/Cruiser
   Stabber Fleet Issue Biosecurity Responders SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Blueprint: blueprint/CruiserBlueprint
+  Stabber Fleet Issue Brutor SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Dawn of Liberation SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Justice SKIN: skins/PermanentSKIN
+  Stabber Fleet Issue Krusual SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Luminaire Zenith SKIN: skins/PermanentSKIN
+  Stabber Fleet Issue Nefantar SKIN: skins/PermanentSKIN
+  Stabber Fleet Issue Sebiestor SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Spirit SKIN: skins/PermanentSKIN
+  Stabber Fleet Issue Starkmanir SKIN: skins/PermanentSKIN
+  Stabber Fleet Issue Thukker Tribe SKIN: skins/PermanentSKIN
+  Stabber Fleet Issue Vherokior SKIN: skins/PermanentSKIN
   Stabber Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Stabber Glacial Drift SKIN: skins/PermanentSKIN
   Stabber Hazard Control SKIN: skins/PermanentSKIN
@@ -65357,6 +65870,7 @@ name2group:
   Stabber Nefantar SKIN (7 Days): skins/Max7DaySKIN
   Stabber Nefantar SKIN (90 Days): skins/Max90DaySKIN
   Stabber Nefantar Serenity Only SKIN: skins/PermanentSKIN
+  Stabber Republic Fleet SKIN: skins/PermanentSKIN
   Stabber Snowline Bladeracer SKIN: skins/PermanentSKIN
   Stabber Spirit SKIN: skins/PermanentSKIN
   Stabber Triglavian Twilight SKIN: skins/PermanentSKIN
@@ -66369,10 +66883,12 @@ name2group:
   Strange Drifting Cask_3: entity/SpawnContainer
   Strange Mechanical Device: commodity/Miscellaneous
   Stratios: ship/Cruiser
+  Stratios ASES SKIN: skins/PermanentSKIN
   Stratios Blueprint: blueprint/CruiserBlueprint
   Stratios Crystal Blast SKIN: skins/PermanentSKIN
   Stratios Emergency Responder: ship/Cruiser
   Stratios Emergency Responder Blueprint: blueprint/CruiserBlueprint
+  Stratios Friendship League SKIN: skins/PermanentSKIN
   Stratios Glacial Drift SKIN: skins/PermanentSKIN
   Stratios One Eden SKIN: skins/PermanentSKIN
   Stratios Redclaw Sable SKIN: skins/PermanentSKIN
@@ -66438,6 +66954,8 @@ name2group:
   Strong Sooth Sayer Booster: implant/Booster
   Strong Sooth Sayer Booster Blueprint: blueprint/BoosterBlueprints
   Strong Sooth Sayer Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
+  Strong Veilguard Booster: implant/Booster
+  Strong Veilguard Booster Blueprint: blueprint/BoosterBlueprints
   Strong X-Instinct Booster: implant/Booster
   Strong X-Instinct Booster Blueprint: blueprint/BoosterBlueprints
   Strong X-Instinct Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
@@ -66918,6 +67436,7 @@ name2group:
   Tara Buquet: entity/StorylineMissionCruiser
   Tara's Insignia: commodity/EmpireInsigniaDrops
   Taranis: ship/Interceptor
+  Taranis Abyssal Glory SKIN: skins/PermanentSKIN
   Taranis Aurora Universalis SKIN: skins/PermanentSKIN
   Taranis Biosecurity Responders SKIN: skins/PermanentSKIN
   Taranis Blueprint: blueprint/FrigateBlueprint
@@ -67009,12 +67528,19 @@ name2group:
   Tempest Fleet Issue Biosecurity Responders SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Bloody Hands SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Blueprint: blueprint/BattleshipBlueprint
+  Tempest Fleet Issue Brutor SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Dawn of Liberation SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Justice SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Krusual SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Nefantar SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Sebiestor SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Spirit SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Starkmanir SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Thukker Tribe SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Vherokior SKIN: skins/PermanentSKIN
   Tempest Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Tempest Fleet Ordnance Spike SKIN (Volatile): skins/VolatileSKIN
   Tempest Glacial Drift SKIN: skins/PermanentSKIN
@@ -67036,6 +67562,7 @@ name2group:
   Tempest Nefantar SKIN (7 Days): skins/Max7DaySKIN
   Tempest Nefantar SKIN (90 Days): skins/Max90DaySKIN
   Tempest Nefantar Serenity Only SKIN: skins/PermanentSKIN
+  Tempest Republic Fleet SKIN: skins/PermanentSKIN
   Tempest Scope Syndication YC122 SKIN: skins/PermanentSKIN
   Tempest Snowline Bladeracer SKIN: skins/PermanentSKIN
   Tempest Spirit SKIN: skins/PermanentSKIN
@@ -67129,6 +67656,8 @@ name2group:
   TestScanRadar: entity/DeadspaceSanshaSNationFrigate
   Test_NONE: entity/MissionGenericCruisers
   Testgaur: entity/MissionGenericCruisers
+  Tetrimon Paladin: entity/IrregularBattleship
+  Tetrimon Zealot: entity/IrregularCruiser
   Tetryon Exotic Plasma L: charge/ExoticPlasmaCharge
   Tetryon Exotic Plasma L Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Tetryon Exotic Plasma M: charge/ExoticPlasmaCharge
@@ -67343,6 +67872,7 @@ name2group:
   Thrasher Nefantar SKIN (7 Days): skins/Max7DaySKIN
   Thrasher Nefantar SKIN (90 Days): skins/Max90DaySKIN
   Thrasher Nefantar Serenity Only SKIN: skins/PermanentSKIN
+  Thrasher Republic Fleet SKIN: skins/PermanentSKIN
   Thrasher Snowline Bladeracer SKIN: skins/PermanentSKIN
   Thrasher Thukker Tribe SKIN: skins/PermanentSKIN
   Thrasher Thukker Tribe SKIN (30 Days): skins/Max30DaySKIN
@@ -67397,6 +67927,7 @@ name2group:
   Thyram Arachnan's Dossier: commodity/Commodities
   Tiamat: ship/ForceReconShip
   Tiamat Blueprint: blueprint/CruiserBlueprint
+  Tiamat Prremium Insurance: implant/Booster
   Tikui Makan: entity/MissionGenericBattleships
   Tikui's Message: commodity/Commodities
   Tikui's Stash: entity/SpawnContainer
@@ -67582,6 +68113,7 @@ name2group:
   Tracking Speed Script Blueprint: blueprint/ScriptBlueprint
   Trade: skill/Trade
   Trade Session: trading/TradeSession
+  Trade Skill Accelerator: implant/Booster
   Trader: entity/Convoy
   Tradesman: entity/Convoy
   Trading: trading/Trading
@@ -68006,6 +68538,7 @@ name2group:
   Tuvan's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Tuvan's Modified Tracking Computer: module/TrackingComputer
   Twilit Abyssal Overmind: entity/AbyssalSpaceshipEntities
+  Twin-Linked Gate Control: entity/SpawnContainer
   Twinkling Cobaltite: asteroid/CommonMoonAsteroids
   Twinkling Euxenite: asteroid/CommonMoonAsteroids
   Twinkling Scheelite: asteroid/CommonMoonAsteroids
@@ -68131,6 +68664,7 @@ name2group:
   Underground Circus Ringmaster: entity/DeadspaceSerpentisCruiser
   Uni-Dimensional Algorithm Code: commodity/AccelerationGateKeys
   Unidentified Spacecraft: entity/DeadspaceRogueDroneDestroyer
+  Union Day 2v2 Caldari Battlecruisers Proving Filament: commodity/AbyssalProvingFilaments
   Unit D-34343: entity/AsteroidRogueDroneOfficer
   Unit D-34343's Modified Burst Jammer: module/BurstJammer
   Unit D-34343's Modified Damage Control: module/DamageControl
@@ -68424,6 +68958,8 @@ name2group:
   Vagabond Hazard Control SKIN: skins/PermanentSKIN
   Vagabond Heartsurge SKIN: skins/PermanentSKIN
   Vagabond Justice SKIN: skins/PermanentSKIN
+  Vagabond Liberation Games SKIN: skins/PermanentSKIN
+  Vagabond Republic Fleet SKIN: skins/PermanentSKIN
   Vagabond Snowline Bladeracer SKIN: skins/PermanentSKIN
   Vagabond Tronhadar Ink SKIN: skins/PermanentSKIN
   Vagabond Valklear Glory SKIN: skins/PermanentSKIN
@@ -68473,6 +69009,7 @@ name2group:
   Vargur Krusual SKIN (365 Days): skins/Max1YearSKIN
   Vargur Krusual SKIN (7 Days): skins/Max7DaySKIN
   Vargur Krusual SKIN (90 Days): skins/Max90DaySKIN
+  Vargur Liberation Games SKIN: skins/PermanentSKIN
   Vargur Nefantar SKIN: skins/PermanentSKIN
   Vargur Nefantar SKIN (30 Days): skins/Max30DaySKIN
   Vargur Nefantar SKIN (365 Days): skins/Max1YearSKIN
@@ -69058,6 +69595,7 @@ name2group:
   Wolf Hazard Control SKIN: skins/PermanentSKIN
   Wolf In Rust We Trust SKIN: skins/PermanentSKIN
   Wolf Justice SKIN: skins/PermanentSKIN
+  Wolf Republic Fleet SKIN: skins/PermanentSKIN
   Wolf Skarkert: entity/StorylineMissionCruiser
   Wolf Snowline Bladeracer SKIN: skins/PermanentSKIN
   Wolf Tronhadar Ink SKIN: skins/PermanentSKIN
@@ -69232,6 +69770,8 @@ name2group:
   Women's 'Humanitarian' T-shirt YC 117: apparel/Tops
   Women's 'Imkuradori' Facial Augmentation: apparel/Augmentations
   Women's 'Imperial Loyalist' Beret: apparel/Headwear
+  Women's 'Imperial Loyalist' Jacket: apparel/Outer
+  Women's 'Imperial Loyalist' Pants: apparel/Bottoms
   Women's 'Impress' Skirt (black leather): apparel/Bottoms
   Women's 'Impress' Skirt (black wax): apparel/Bottoms
   Women's 'Impress' Skirt (brown leather): apparel/Bottoms
@@ -69347,6 +69887,8 @@ name2group:
   Women's 'Spiderweb' Headwear (golden): apparel/Headwear
   Women's 'Spiderweb' Headwear (metallic): apparel/Headwear
   Women's 'State Protector' Beret: apparel/Headwear
+  Women's 'State Protector' Jacket: apparel/Outer
+  Women's 'State Protector' Pants: apparel/Bottoms
   Women's 'Sterling' Dress Blouse (Blood Raider): apparel/Tops
   Women's 'Sterling' Dress Blouse (black leather): apparel/Tops
   Women's 'Sterling' Dress Blouse (black): apparel/Tops
@@ -69459,6 +70001,8 @@ name2group:
   Women's Exoplanets Hunter T-shirt: apparel/Tops
   Women's Exoplanets Program Director Coat: apparel/Outer
   Women's Federal Strategic Materiel Jacket: apparel/Outer
+  Women's Federation Commander's Dress Jacket: apparel/Outer
+  Women's Federation Commander's Dress Pants: apparel/Bottoms
   Women's Federation Grand Prix 'Pit Stop' Cap: apparel/Headwear
   Women's Federation Stargate Crew Pants: apparel/Bottoms
   Women's Federation Stargate Crew Shoes: apparel/Footwear
@@ -69471,6 +70015,8 @@ name2group:
   Women's Genolution Combat Suit: apparel/Outer
   Women's Genolution Tactical Goggles: apparel/Eyewear
   Women's IGC Location Scout Suit: apparel/Outer
+  Women's Imperial Commander's Dress Jacket: apparel/Outer
+  Women's Imperial Commander's Dress Pants: apparel/Bottoms
   Women's Imperial Stargate Crew Pants: apparel/Bottoms
   Women's Imperial Stargate Crew Shoes: apparel/Footwear
   Women's Imperial Stargate Crew Top: apparel/Tops
@@ -69489,7 +70035,16 @@ name2group:
   Women's Polar Aurora Exploration Suit: apparel/Outer
   Women's Project Discovery Cytometry Cap: apparel/Headwear
   Women's Project Discovery Cytometry T-Shirt: apparel/Tops
+  Women's Republic Commander's Dress Jacket: apparel/Outer
+  Women's Republic Commander's Dress Pants: apparel/Bottoms
   Women's Republic Fleet Ordnance Jacket: apparel/Outer
+  Women's Republic Service Tattoo (Brutor): apparel/Tattoos
+  Women's Republic Service Tattoo (Krusual): apparel/Tattoos
+  Women's Republic Service Tattoo (Nefantar): apparel/Tattoos
+  Women's Republic Service Tattoo (Sebiestor): apparel/Tattoos
+  Women's Republic Service Tattoo (Starkmanir): apparel/Tattoos
+  Women's Republic Service Tattoo (Thukker): apparel/Tattoos
+  Women's Republic Service Tattoo (Vherokior): apparel/Tattoos
   Women's Republic Stargate Crew Pants: apparel/Bottoms
   Women's Republic Stargate Crew Shoes: apparel/Footwear
   Women's Republic Stargate Crew Top: apparel/Tops
@@ -69498,6 +70053,8 @@ name2group:
   Women's SOE Expeditionary Suit: apparel/Outer
   Women's Scope Network Special Correspondent Suit: apparel/Outer
   Women's Sisters of EVE Advanced Combat Suit: apparel/Outer
+  Women's State Commander's Dress Jacket: apparel/Outer
+  Women's State Commander's Dress Pants: apparel/Bottoms
   Women's State Military Stockpile Jacket: apparel/Outer
   Women's State Stargate Crew Pants: apparel/Bottoms
   Women's State Stargate Crew Shoes: apparel/Footwear

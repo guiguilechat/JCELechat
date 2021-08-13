@@ -1,8 +1,16 @@
 types:
-  2v2 Destroyers Proving Filament:
-    id: 58844
+  1v1 Destroyers Proving Filament:
+    id: 58848
     marketGroup: 2747
-    name: 2v2 Destroyers Proving Filament
+    name: 1v1 Destroyers Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  2v2 Interceptors Proving Filament:
+    id: 59369
+    name: 2v2 Interceptors Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
@@ -17,15 +25,6 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  2v2v2 Gallente Cruiser and AF Proving Filament:
-    id: 58843
-    marketGroup: 2747
-    name: 2v2v2 Gallente Cruiser and AF Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
   Capsuleer Day 18 Cruiser Extravaganza Proving Filament:
     id: 57372
     marketGroup: 2747
@@ -35,19 +34,19 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Liberation Games Rifter FFA Proving Filament:
-    id: 58845
+  Corvette FFA Proving Filament:
+    id: 58850
     marketGroup: 2747
-    name: Liberation Games Rifter FFA Proving Filament
+    name: Corvette FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Proving Conduit Throwback Proving Filament:
-    id: 58846
+  Union Day 2v2 Caldari Battlecruisers Proving Filament:
+    id: 58849
     marketGroup: 2747
-    name: Proving Conduit Throwback Proving Filament
+    name: Union Day 2v2 Caldari Battlecruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

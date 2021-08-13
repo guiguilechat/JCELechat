@@ -157,6 +157,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Imperial Loyalist' Pants:
+    gender: 2
+    id: 59368
+    marketGroup: 1401
+    name: Men's 'Imperial Loyalist' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Mirelle' Pants (Upwell):
     gender: 1
     id: 40524
@@ -247,6 +256,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'State Protector' Pants:
+    gender: 2
+    id: 59406
+    marketGroup: 1401
+    name: Men's 'State Protector' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Strider' Pants (black):
     gender: 1
     id: 33785
@@ -297,11 +315,29 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's Federation Commander's Dress Pants:
+    gender: 2
+    id: 58953
+    marketGroup: 1401
+    name: Men's Federation Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Federation Stargate Crew Pants:
     gender: 2
     id: 58793
     marketGroup: 1401
     name: Men's Federation Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Imperial Commander's Dress Pants:
+    gender: 2
+    id: 58952
+    marketGroup: 1401
+    name: Men's Imperial Commander's Dress Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -333,11 +369,29 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Republic Commander's Dress Pants:
+    gender: 2
+    id: 58954
+    marketGroup: 1401
+    name: Men's Republic Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Republic Stargate Crew Pants:
     gender: 2
     id: 58794
     marketGroup: 1401
     name: Men's Republic Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's State Commander's Dress Pants:
+    gender: 2
+    id: 58951
+    marketGroup: 1401
+    name: Men's State Commander's Dress Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -744,6 +798,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Imperial Loyalist' Pants:
+    gender: 2
+    id: 59370
+    marketGroup: 1403
+    name: Women's 'Imperial Loyalist' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Impress' Skirt (black leather):
     gender: 3
     id: 4033
@@ -1014,6 +1077,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'State Protector' Pants:
+    gender: 2
+    id: 59408
+    marketGroup: 1403
+    name: Women's 'State Protector' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Structure' Skirt (black):
     gender: 3
     id: 4085
@@ -1274,11 +1346,29 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's Federation Commander's Dress Pants:
+    gender: 2
+    id: 58948
+    marketGroup: 1403
+    name: Women's Federation Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Federation Stargate Crew Pants:
     gender: 2
     id: 58787
     marketGroup: 1403
     name: Women's Federation Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Imperial Commander's Dress Pants:
+    gender: 2
+    id: 58947
+    marketGroup: 1403
+    name: Women's Imperial Commander's Dress Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1310,11 +1400,29 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's Republic Commander's Dress Pants:
+    gender: 2
+    id: 58949
+    marketGroup: 1403
+    name: Women's Republic Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Republic Stargate Crew Pants:
     gender: 2
     id: 58788
     marketGroup: 1403
     name: Women's Republic Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's State Commander's Dress Pants:
+    gender: 2
+    id: 58946
+    marketGroup: 1403
+    name: Women's State Commander's Dress Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

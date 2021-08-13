@@ -251,6 +251,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Imperial Loyalist' Jacket:
+    gender: 2
+    id: 59366
+    marketGroup: 1399
+    name: Men's 'Imperial Loyalist' Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Amarr):
     clothingremovescategory: 2
     gender: 1
@@ -487,6 +496,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'State Protector' Jacket:
+    gender: 2
+    id: 59405
+    marketGroup: 1399
+    name: Men's 'State Protector' Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Valkyrie' Flight Jacket:
     gender: 2
     id: 46274
@@ -681,6 +699,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Federation Commander's Dress Jacket:
+    gender: 2
+    id: 58935
+    marketGroup: 1399
+    name: Men's Federation Commander's Dress Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Frostline Exploration Suit:
     gender: 2
     id: 49978
@@ -740,6 +767,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Men's Imperial Commander's Dress Jacket:
+    gender: 2
+    id: 58934
+    marketGroup: 1399
+    name: Men's Imperial Commander's Dress Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Men's Imperial War Reserves Jacket:
     gender: 2
@@ -801,6 +837,15 @@ types:
     id: 53382
     marketGroup: 1399
     name: Men's Polar Aurora Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Commander's Dress Jacket:
+    gender: 2
+    id: 58936
+    marketGroup: 1399
+    name: Men's Republic Commander's Dress Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -869,6 +914,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Men's State Commander's Dress Jacket:
+    gender: 2
+    id: 58933
+    marketGroup: 1399
+    name: Men's State Commander's Dress Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Men's State Military Stockpile Jacket:
     gender: 2
@@ -1282,6 +1336,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Imperial Loyalist' Jacket:
+    gender: 2
+    id: 59367
+    marketGroup: 1405
+    name: Women's 'Imperial Loyalist' Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Mirelle' Upwell Executive Coat:
     gender: 3
     id: 40523
@@ -1579,6 +1642,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'State Protector' Jacket:
+    gender: 2
+    id: 59407
+    marketGroup: 1405
+    name: Women's 'State Protector' Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (black):
     clothingalsocoverscategory: 25
@@ -1907,6 +1979,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's Federation Commander's Dress Jacket:
+    gender: 2
+    id: 58943
+    marketGroup: 1405
+    name: Women's Federation Commander's Dress Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Frostline Exploration Suit:
     gender: 2
     id: 49980
@@ -1966,6 +2047,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's Imperial Commander's Dress Jacket:
+    gender: 2
+    id: 58942
+    marketGroup: 1405
+    name: Women's Imperial Commander's Dress Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's Imperial War Reserves Jacket:
     gender: 2
@@ -2027,6 +2117,15 @@ types:
     id: 53357
     marketGroup: 1405
     name: Women's Polar Aurora Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Commander's Dress Jacket:
+    gender: 2
+    id: 58944
+    marketGroup: 1405
+    name: Women's Republic Commander's Dress Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -2095,6 +2194,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's State Commander's Dress Jacket:
+    gender: 2
+    id: 58941
+    marketGroup: 1405
+    name: Women's State Commander's Dress Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's State Military Stockpile Jacket:
     gender: 2

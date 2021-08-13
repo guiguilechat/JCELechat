@@ -1,4 +1,20 @@
 types:
+  Amarr Foundation Day Expert System:
+    id: 60019
+    mass: 1.0
+    name: Amarr Foundation Day Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Caldari Union Day Expert System:
+    id: 60089
+    mass: 1.0
+    name: Caldari Union Day Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Expired Grand Prix Interceptors Expert System:
     id: 57578
     mass: 1.0

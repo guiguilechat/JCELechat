@@ -76,6 +76,7 @@ types:
     shipbonusgf2: 10.0
     shipbonusrole1: -80.0
     shipbonusrole2: 100
+    shipbonusrole3: 80
     signatureradius: 35.0
     structureuniformity: 1.0
     techlevel: 2
@@ -253,6 +254,7 @@ types:
     shipbonuscf2: -5.0
     shipbonusrole1: -80.0
     shipbonusrole2: 100
+    shipbonusrole3: 80
     signatureradius: 35.0
     structureuniformity: 1.0
     techlevel: 2
@@ -518,6 +520,7 @@ types:
     shipbonusaf: -4.0
     shipbonusrole1: -80.0
     shipbonusrole2: 100
+    shipbonusrole3: 80
     signatureradius: 33.0
     structureuniformity: 1.0
     techlevel: 2
@@ -695,6 +698,7 @@ types:
     shipbonusmf2: 7.5
     shipbonusrole1: -80.0
     shipbonusrole2: 100
+    shipbonusrole3: 80
     signatureradius: 31.0
     structureuniformity: 1.0
     techlevel: 2

@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
- * The number of milliseconds before the container replenishes the loot inside itself.
+ * The number of milliseconds before the container replenishes the loot inside itself. There is a constant that will be automatically override this value if set to anything lower than 60 seconds.
  */
 public class LootRespawnTime
     extends RealAttribute

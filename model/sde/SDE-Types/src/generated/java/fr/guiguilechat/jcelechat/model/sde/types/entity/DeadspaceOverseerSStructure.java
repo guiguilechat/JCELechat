@@ -258,7 +258,7 @@ public class DeadspaceOverseerSStructure
     @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
-     * The number of milliseconds before the container replenishes the loot inside itself.
+     * The number of milliseconds before the container replenishes the loot inside itself. There is a constant that will be automatically override this value if set to anything lower than 60 seconds.
      */
     @HighIsGood(true)
     @Stackable(true)

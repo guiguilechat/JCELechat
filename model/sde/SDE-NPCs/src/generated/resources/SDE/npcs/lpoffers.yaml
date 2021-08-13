@@ -31095,3 +31095,77 @@ offers:
     requirements:
       isk: 20000000
       lp: 40000
+  17171:
+    id: 17171
+    name: Vigil Fleet Ordnance Spike SKIN
+    product:
+      id: 59430
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17172:
+    id: 17172
+    name: Cyclone Fleet Ordnance Spike SKIN
+    product:
+      id: 59432
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 40000
+  17173:
+    id: 17173
+    name: Talwar Fleet Ordnance Spike SKIN
+    product:
+      id: 59431
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17174:
+    bpid: 59678
+    bpruns: 5
+    id: 17174
+    name: 5* Strong Veilguard Booster(BPC)
+    product:
+      id: 59633
+      quantity: 5
+    requirements:
+      isk: 10000000
+      items:
+      - id: 30311
+        quantity: 30
+      - id: 40
+        quantity: 40
+      - id: 25342
+        quantity: 60
+      - id: 25345
+        quantity: 75
+      lp: 10000
+  17176:
+    id: 17176
+    name: Crucifier War Reserves Lieutenant SKIN
+    product:
+      id: 59421
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17177:
+    id: 17177
+    name: Dragoon War Reserves Lieutenant SKIN
+    product:
+      id: 59422
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17178:
+    id: 17178
+    name: Prophecy War Reserves Lieutenant SKIN
+    product:
+      id: 59423
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 40000

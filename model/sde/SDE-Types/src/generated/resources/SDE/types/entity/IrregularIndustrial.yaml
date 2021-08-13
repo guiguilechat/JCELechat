@@ -56,6 +56,56 @@ types:
     thermaldamageresonance: 1.0
     volume: 260000.0
     warpspeedmultiplier: 3.0
+  Evacuation Transport Reenactment Drone:
+    armoremdamageresonance: 0.20000000298023224
+    armorexplosivedamageresonance: 0.20000000298023224
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.20000000298023224
+    armorthermaldamageresonance: 0.20000000298023224
+    capacitorcapacity: 350.0
+    capacity: 2900.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    gfxboosterid: 397
+    hp: 40000.0
+    id: 59792
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 2
+    maxtargetrange: 35000.0
+    maxvelocity: 140.0
+    missiledamagemultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Evacuation Transport Reenactment Drone
+    optimalsigradius: 1000
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 205.0
+    rechargerate: 207500.0
+    scanladarstrength: 7.0
+    scanresolution: 95.0
+    shieldcapacity: 20000.0
+    shieldemdamageresonance: 0.20000000298023224
+    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldkineticdamageresonance: 0.20000000298023224
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.20000000298023224
+    signatureradius: 155.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   Frostline Transporter:
     agility: 0.6206385493278503
     armoremdamageresonance: 0.4000000059604645
@@ -131,6 +181,56 @@ types:
     thermaldamageresonance: 0.43549999594688416
     volume: 275000.0
     warpspeedmultiplier: 4.5
+  Hijacked Transport Reenactment Drone:
+    armoremdamageresonance: 0.20000000298023224
+    armorexplosivedamageresonance: 0.20000000298023224
+    armorhp: 20000.0
+    armorkineticdamageresonance: 0.20000000298023224
+    armorthermaldamageresonance: 0.20000000298023224
+    capacitorcapacity: 350.0
+    capacity: 2100.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    gfxboosterid: 395
+    hp: 40000.0
+    id: 59793
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 2
+    maxtargetrange: 35000.0
+    maxvelocity: 125.0
+    missiledamagemultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Hijacked Transport Reenactment Drone
+    optimalsigradius: 1000
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 220.0
+    rechargerate: 207500.0
+    scanradarstrength: 7.0
+    scanresolution: 95.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 0.20000000298023224
+    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldkineticdamageresonance: 0.20000000298023224
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.20000000298023224
+    signatureradius: 155.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   Official Federation Grand Prix Transport Ship:
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.800000011920929

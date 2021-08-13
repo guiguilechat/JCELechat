@@ -61,6 +61,64 @@ types:
     trackingspeed: 250.0
     volume: 116000.0
     warpspeedmultiplier: 3.0
+  SCC Security Cruiser:
+    agility: 1.1799999475479126
+    armoremdamageresonance: 0.5699999928474426
+    armorexplosivedamageresonance: 0.5699999928474426
+    armorhp: 2250.0
+    armorkineticdamageresonance: 0.5699999928474426
+    armorthermaldamageresonance: 0.5699999928474426
+    capacitorcapacity: 1642.0
+    capacity: 300.0
+    damagemultiplier: 28.479999542236328
+    emdamageresonance: 0.4020000100135803
+    energywarfareresistance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 500.0
+    explosivedamage: 27.799999237060547
+    explosivedamageresonance: 0.4020000100135803
+    falloff: 1500.0
+    gfxboosterid: 394
+    gfxturretid: 14272
+    hp: 750.0
+    id: 59585
+    kineticdamage: 7.599999904632568
+    kineticdamageresonance: 0.4020000100135803
+    maxlockedtargets: 10
+    maxrange: 15238.0
+    maxtargetrange: 112000.0
+    maxvelocity: 520.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: SCC Security Cruiser
+    optimalsigradius: 40000
+    packagedVolume: 116000.0
+    portionSize: 1
+    published: false
+    radius: 200.0
+    rechargerate: 242250.0
+    scangravimetricstrength: 42.0
+    scanresolution: 400.0
+    shieldcapacity: 5500.0
+    shieldemdamageresonance: 0.4399999976158142
+    shieldexplosivedamageresonance: 0.4399999976158142
+    shieldkineticdamageresonance: 0.4399999976158142
+    shieldrechargerate: 3750000.0
+    shieldthermaldamageresonance: 0.4399999976158142
+    signatureradius: 145.0
+    speed: 2190.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.4020000100135803
+    trackingspeed: 31.700000762939453
+    volume: 116000.0
+    warpspeedmultiplier: 3.0
   ♦ Annihilator Drone:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0

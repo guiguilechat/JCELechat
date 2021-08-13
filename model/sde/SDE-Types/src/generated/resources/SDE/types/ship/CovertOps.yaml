@@ -657,7 +657,7 @@ types:
     concordtankbonus: -10
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 20000
-    cpuoutput: 200
+    cpuoutput: 240
     elitebonuscovertops1: 10
     elitebonuscovertops2: 10
     elitebonuscovertops3: -10.0
@@ -675,13 +675,13 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 1.0
-    hislots: 4
+    hislots: 5
     hp: 200.0
     id: 44993
     inversecappedsecstatus: -1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
-    launcherslotsleft: 3
+    launcherslotsleft: 4
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1838
@@ -689,14 +689,14 @@ types:
     maxlockedtargets: 7
     maxpassengers: 15
     maxtargetrange: 40000.0
-    maxvelocity: 300.0
+    maxvelocity: 340.0
     medslots: 4
     metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Pacifier
     packagedVolume: 2500.0
     portionSize: 1
-    poweroutput: 50
+    poweroutput: 60
     powertospeed: 1
     price: 1.58E7
     propulsiongraphicid: 395
@@ -738,7 +738,7 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
-    turretslotsleft: 3
+    turretslotsleft: 4
     typecolorscheme: 11337
     uniformity: 1.0
     upgradecapacity: 400

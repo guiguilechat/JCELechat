@@ -152,6 +152,60 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 60.0
+  SCC Security Frigate:
+    agility: 1.944000005722046
+    armoremdamageresonance: 0.5699999928474426
+    armorexplosivedamageresonance: 0.5699999928474426
+    armorhp: 625.0
+    armorkineticdamageresonance: 0.5699999928474426
+    armorthermaldamageresonance: 0.5699999928474426
+    capacitorcapacity: 438.0
+    capacity: 150.0
+    damagemultiplier: 19.649999618530273
+    emdamageresonance: 0.4020000100135803
+    energywarfareresistance: 1.0
+    entityfactionloss: 0.009999999776482582
+    explosivedamage: 13.899999618530273
+    explosivedamageresonance: 0.4020000100135803
+    falloff: 7256.0
+    gfxboosterid: 395
+    gfxturretid: 2889
+    hp: 250.0
+    id: 59586
+    kineticdamage: 3.799999952316284
+    kineticdamageresonance: 0.4020000100135803
+    maxlockedtargets: 7
+    maxrange: 750.0
+    maxtargetrange: 50000.0
+    maxvelocity: 875.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: SCC Security Frigate
+    optimalsigradius: 40000
+    packagedVolume: 20000.0
+    portionSize: 1
+    published: false
+    radius: 38.0
+    rechargerate: 240000.0
+    scangravimetricstrength: 30.0
+    scanresolution: 1000.0
+    shieldcapacity: 1925.0
+    shieldemdamageresonance: 0.5860000252723694
+    shieldexplosivedamageresonance: 0.5860000252723694
+    shieldkineticdamageresonance: 0.5860000252723694
+    shieldrechargerate: 468750.0
+    shieldthermaldamageresonance: 0.5860000252723694
+    signatureradius: 37.70000076293945
+    speed: 1650.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.4020000100135803
+    trackingspeed: 295.0
+    volume: 20000.0
   Splinter Drone:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0

@@ -1,8 +1,32 @@
 types:
+  Advanced Broker Relations Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 191
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59766
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced Broker Relations Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Advanced Capsuleer Defense Augmentation Chip:
     armorhpbonus2: 5.0
     boostermaxcharagehours: 2400
     boosterness: 504
+    damagemultiplier: 1.0
     followsjumpclones: 1
     hullhpbonus: 5.0
     id: 57285
@@ -16,11 +40,13 @@ types:
     radius: 1.0
     shieldcapacitybonus: 5.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Advanced Cerebral Accelerator:
     boostermaxcharagehours: 168
     boosterness: 4
     charismabonus: 17
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 33087
     intelligencebonus: 17
@@ -37,13 +63,38 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 17
+  Advanced Planetology Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 187
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59762
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced Planetology Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Advanced drone skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 4320
     boosterness: 43
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56185
     intelligencebonus: 1
@@ -59,6 +110,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Advanced energy turret skill accelerator:
@@ -66,6 +118,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 72
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56989
     intelligencebonus: 1
@@ -81,6 +134,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Advanced gunnery Skill accelerator:
@@ -88,6 +142,7 @@ types:
     boostermaxcharagehours: 4320
     boosterness: 39
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56181
     intelligencebonus: 1
@@ -103,6 +158,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Advanced hybrid turret skill accelerator:
@@ -110,6 +166,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 73
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56990
     intelligencebonus: 1
@@ -125,6 +182,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Advanced missile launcher skill accelerator:
@@ -132,6 +190,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 74
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56991
     intelligencebonus: 1
@@ -147,6 +206,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Advanced missile skill accelerator:
@@ -154,6 +214,7 @@ types:
     boostermaxcharagehours: 4320
     boosterness: 41
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56183
     intelligencebonus: 1
@@ -169,12 +230,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Advanced ore processing skill accelerator:
     boosterduration: 60000.0
     boosterness: 45
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56187
     intelligencebonus: 1
@@ -190,6 +253,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Advanced projectile turret skill accelerator:
@@ -197,6 +261,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 71
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56988
     intelligencebonus: 1
@@ -212,12 +277,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Agency 'Hardshell' TB3 Dose I:
     armordamageamountbonus: 3
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     id: 46001
     marketGroup: 2503
     name: Agency 'Hardshell' TB3 Dose I
@@ -229,11 +296,13 @@ types:
     radius: 1.0
     shieldboostmultiplier: 3.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Agency 'Hardshell' TB5 Dose II:
     armordamageamountbonus: 5
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     id: 46002
     marketGroup: 2503
     name: Agency 'Hardshell' TB5 Dose II
@@ -245,11 +314,13 @@ types:
     radius: 1.0
     shieldboostmultiplier: 5.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Agency 'Hardshell' TB7 Dose III:
     armordamageamountbonus: 7
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     id: 46003
     marketGroup: 2503
     name: Agency 'Hardshell' TB7 Dose III
@@ -261,11 +332,13 @@ types:
     radius: 1.0
     shieldboostmultiplier: 7.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Agency 'Hardshell' TB9 Dose IV:
     armordamageamountbonus: 9
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     id: 48113
     marketGroup: 2503
     name: Agency 'Hardshell' TB9 Dose IV
@@ -277,10 +350,12 @@ types:
     radius: 1.0
     shieldboostmultiplier: 9.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Agency 'Overclocker' SB3 Dose I:
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     id: 46004
     marketGroup: 2504
     name: Agency 'Overclocker' SB3 Dose I
@@ -291,11 +366,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     velocitybonus: 3.0
     volume: 1.0
   Agency 'Overclocker' SB5 Dose II:
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     id: 46005
     marketGroup: 2504
     name: Agency 'Overclocker' SB5 Dose II
@@ -306,11 +383,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     velocitybonus: 5.0
     volume: 1.0
   Agency 'Overclocker' SB7 Dose III:
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     id: 46006
     marketGroup: 2504
     name: Agency 'Overclocker' SB7 Dose III
@@ -321,11 +400,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     velocitybonus: 7.0
     volume: 1.0
   Agency 'Overclocker' SB9 Dose IV:
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     id: 48114
     marketGroup: 2504
     name: Agency 'Overclocker' SB9 Dose IV
@@ -336,11 +417,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     velocitybonus: 9.0
     volume: 1.0
   Agency 'Pyrolancea' DB3 Dose I:
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     damagemultiplierbonus: 3
     id: 45998
     marketGroup: 2505
@@ -352,10 +435,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Agency 'Pyrolancea' DB5 Dose II:
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     damagemultiplierbonus: 5
     id: 45999
     marketGroup: 2505
@@ -367,10 +452,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Agency 'Pyrolancea' DB7 Dose III:
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     damagemultiplierbonus: 7
     id: 46000
     marketGroup: 2505
@@ -382,10 +469,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Agency 'Pyrolancea' DB9 Dose IV:
     boosterduration: 1800000.0
     boosterness: 11
+    damagemultiplier: 1.0
     damagemultiplierbonus: 9
     id: 48115
     marketGroup: 2505
@@ -397,12 +486,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Amarr Drones Specialization Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
     boosterness: 116
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57723
     intelligencebonus: 1
@@ -418,6 +509,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Amarr spaceship skill accelerator:
@@ -425,6 +517,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 21
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55803
     intelligencebonus: 1
@@ -441,12 +534,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Antipharmakon Aeolis:
     boosterduration: 1800000.0
     boosterness: 1
     capacitorcapacitybonus: 8.0
+    damagemultiplier: 1.0
     id: 36912
     marketGroup: 2495
     name: Antipharmakon Aeolis
@@ -459,10 +554,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Antipharmakon Iokira:
     boosterduration: 1800000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 36910
     marketGroup: 2499
     name: Antipharmakon Iokira
@@ -475,12 +572,14 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 8.0
     volume: 1.0
   Antipharmakon Kosybo:
     armordamageamountbonus: 8
     boosterduration: 1800000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 36909
     marketGroup: 2495
     name: Antipharmakon Kosybo
@@ -493,10 +592,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Antipharmakon Thureo:
     boosterduration: 1800000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 36908
     marketGroup: 2495
     name: Antipharmakon Thureo
@@ -510,10 +611,12 @@ types:
     requiredskill1level: 1
     shieldboostmultiplier: 8.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Antipharmakon Toxot:
     boosterduration: 1800000.0
     boosterness: 3
+    damagemultiplier: 1.0
     id: 36911
     marketGroup: 2501
     maxflighttimebonus: 8
@@ -527,11 +630,62 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
+  Astrogeology Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 192
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59767
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Astrogeology Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Basic 'Rebel' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 10
+    charismabonus: 4
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59876
+    intelligencebonus: 4
+    marketGroup: 2487
+    memorybonus: 4
+    name: Basic 'Rebel' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 4
   Basic Capsuleer Defense Augmentation Chip:
     armorhpbonus2: 5.0
     boostermaxcharagehours: 720
     boosterness: 501
+    damagemultiplier: 1.0
     followsjumpclones: 1
     hullhpbonus: 5.0
     id: 57282
@@ -545,6 +699,7 @@ types:
     radius: 1.0
     shieldcapacitybonus: 5.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Basic Capsuleer Engineering Augmentation Chip:
     boostermaxcharagehours: 720
@@ -552,6 +707,7 @@ types:
     capacitorcapacitybonus: 3.0
     caprechargebonus: 3.0
     cpuoutputbonus2: 3.0
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57283
     name: Basic Capsuleer Engineering Augmentation Chip
@@ -564,12 +720,37 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
+  Broker Relations Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 189
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59764
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Broker Relations Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Caldari Drones Specialization Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
     boosterness: 117
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57724
     intelligencebonus: 1
@@ -585,6 +766,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Caldari spaceship skill accelerator:
@@ -592,6 +774,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 22
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55804
     intelligencebonus: 1
@@ -608,6 +791,30 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Command Center Upgrades Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 183
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59758
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Command Center Upgrades Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Concord Fiesta 11-11:
@@ -615,6 +822,7 @@ types:
     boosterlastinjectiondatetime: 18627.666015625
     boosterness: 34
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56893
     intelligencebonus: 1
@@ -628,6 +836,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Cruise Missile/Torpedo Skill Accelerator:
@@ -635,6 +844,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 95
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57290
     intelligencebonus: 1
@@ -650,6 +860,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Cruise Missile/Torpedo Specialization Skill Accelerator:
@@ -657,6 +868,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 99
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57294
     intelligencebonus: 1
@@ -672,12 +884,60 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Customs Code Expertise Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 190
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59765
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Customs Code Expertise Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Daytrading Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 188
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59763
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Daytrading Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Eifyr and Co. 'Rogue' Agility 11-11:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18627.125
     boosterness: 31
+    damagemultiplier: 1.0
     durationbonus: 10
     followsjumpclones: 1
     id: 56875
@@ -690,12 +950,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     speedfbonus: 5
     volume: 1.0
     warpsbonus: 10
   Eifyr and Co. 'Rogue' Agility ZhenNiu:
     boosterduration: 6.048E8
     boosterness: 109
+    damagemultiplier: 1.0
     durationbonus: 10
     followsjumpclones: 1
     id: 57327
@@ -708,6 +970,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     speedfbonus: 5
     volume: 1.0
     warpsbonus: 10
@@ -716,6 +979,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 26
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55943
     intelligencebonus: 1
@@ -731,6 +995,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Elite Engineering Skill Accelerator:
@@ -738,6 +1003,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 30
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55947
     intelligencebonus: 1
@@ -753,6 +1019,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Elite Shield Skill Accelerator:
@@ -760,6 +1027,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 28
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55945
     intelligencebonus: 1
@@ -775,6 +1043,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Elite energy turret skill accelerator:
@@ -782,6 +1051,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 76
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56993
     intelligencebonus: 1
@@ -797,6 +1067,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Elite hybrid turret skill accelerator:
@@ -804,6 +1075,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 77
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56994
     intelligencebonus: 1
@@ -819,6 +1091,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Elite missile launcher skill accelerator:
@@ -826,6 +1099,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 78
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56995
     intelligencebonus: 1
@@ -841,6 +1115,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Elite projectile turret skill accelerator:
@@ -848,6 +1123,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 75
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56992
     intelligencebonus: 1
@@ -863,6 +1139,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Energy Turret Specialization Skill Accelerator:
@@ -870,6 +1147,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 97
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57292
     intelligencebonus: 1
@@ -885,12 +1163,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Expert Cerebral Accelerator:
     boosterduration: 1.08E9
     boosterness: 10
     charismabonus: 8
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55826
     intelligencebonus: 8
@@ -907,12 +1187,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 8
   Expired 'Absolute' Injection Augmentor:
     boosterduration: 5.76E7
     boosterlastinjectiondatetime: 17903.458984375
     boosterness: 14
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 49979
     name: Expired 'Absolute' Injection Augmentor
@@ -923,12 +1205,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 17645.458984375
     boosterness: 10
     charismabonus: 12
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 47396
     intelligencebonus: 12
@@ -945,6 +1229,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 12
   Expired CDIA SPACE Cerebral Accelerator:
@@ -952,6 +1237,7 @@ types:
     boosterlastinjectiondatetime: 17652.458984375
     boosterness: 10
     charismabonus: 12
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 47481
     intelligencebonus: 12
@@ -968,6 +1254,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 12
   Expired Extended 'Guri Hivaa' Cerebral Accelerator:
@@ -975,6 +1262,7 @@ types:
     boosterlastinjectiondatetime: 17645.458984375
     boosterness: 10
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 47397
     intelligencebonus: 10
@@ -991,6 +1279,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Expired Guardian Angels 'Advanced' Cerebral Accelerator:
@@ -998,6 +1287,7 @@ types:
     boosterlastinjectiondatetime: 17610.458984375
     boosterness: 10
     charismabonus: 12
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 47266
     intelligencebonus: 12
@@ -1014,6 +1304,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 12
   Expired Guardian Angels 'Standard' Cerebral Accelerator:
@@ -1021,6 +1312,7 @@ types:
     boosterlastinjectiondatetime: 17610.458984375
     boosterness: 10
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 47265
     intelligencebonus: 10
@@ -1037,6 +1329,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
@@ -1044,6 +1337,7 @@ types:
     boosterlastinjectiondatetime: 17610.458984375
     boosterness: 10
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 47267
     intelligencebonus: 10
@@ -1060,6 +1354,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Expired Standard 'Guri Hivaa' Cerebral Accelerator:
@@ -1067,6 +1362,7 @@ types:
     boosterlastinjectiondatetime: 17645.458984375
     boosterness: 10
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 47395
     intelligencebonus: 10
@@ -1083,11 +1379,39 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
+  Extended 'Rebel' Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 10
+    charismabonus: 6
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59879
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended 'Rebel' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 6
   Festival-only 'Longbow' CM3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57265
@@ -1100,10 +1424,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' ED2 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57254
@@ -1116,10 +1442,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' ED3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57262
@@ -1132,10 +1460,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' ED4 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57270
@@ -1148,11 +1478,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' ED6 Dose:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18717.125
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 6
     followsjumpclones: 1
     id: 57232
@@ -1165,10 +1497,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' HAM4 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57274
@@ -1181,10 +1515,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' HD2 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57256
@@ -1197,10 +1533,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' HD3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57264
@@ -1213,10 +1551,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' HD4 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57272
@@ -1229,11 +1569,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' HD6 Dose:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18717.125
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 6
     followsjumpclones: 1
     id: 57230
@@ -1246,10 +1588,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' HM4 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57273
@@ -1262,10 +1606,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' MD2 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57258
@@ -1278,11 +1624,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' MD6 Dose:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18717.125
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 6
     followsjumpclones: 1
     id: 57229
@@ -1295,10 +1643,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' PD2 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57255
@@ -1311,10 +1661,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' PD3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57263
@@ -1327,10 +1679,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' PD4 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57271
@@ -1343,11 +1697,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' PD6 Dose:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18717.125
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 6
     followsjumpclones: 1
     id: 57231
@@ -1360,10 +1716,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' RD2 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57257
@@ -1376,10 +1734,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Longbow' TP3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
+    damagemultiplier: 1.0
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57266
@@ -1392,11 +1752,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' AH2 Dose:
     armorhpbonus2: 2.0
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57261
     name: Festival-only 'Rock' AH2 Dose
@@ -1408,11 +1770,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' AH3 Dose:
     armorhpbonus2: 3.0
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57269
     name: Festival-only 'Rock' AH3 Dose
@@ -1424,11 +1788,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' AH4 Dose:
     armorhpbonus2: 4.0
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57277
     name: Festival-only 'Rock' AH4 Dose
@@ -1440,12 +1806,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' AH6 Dose:
     armorhpbonus2: 6.0
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18717.125
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57227
     name: Festival-only 'Rock' AH6 Dose
@@ -1457,10 +1825,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' HH2 Dose:
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     hullhpbonus: 2.0
     id: 57259
@@ -1473,10 +1843,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' HH3 Dose:
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     hullhpbonus: 3.0
     id: 57267
@@ -1489,10 +1861,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' HH4 Dose:
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     hullhpbonus: 4.0
     id: 57275
@@ -1505,11 +1879,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' HH6 Dose:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18717.125
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     hullhpbonus: 6.0
     id: 57226
@@ -1522,10 +1898,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' SH2 Dose:
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57260
     name: Festival-only 'Rock' SH2 Dose
@@ -1538,10 +1916,12 @@ types:
     radius: 1.0
     shieldcapacitybonus: 2.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' SH3 Dose:
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57268
     name: Festival-only 'Rock' SH3 Dose
@@ -1554,10 +1934,12 @@ types:
     radius: 1.0
     shieldcapacitybonus: 3.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' SH4 Dose:
     boosterduration: 1.728E8
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57276
     name: Festival-only 'Rock' SH4 Dose
@@ -1570,11 +1952,13 @@ types:
     radius: 1.0
     shieldcapacitybonus: 4.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only 'Rock' SH6 Dose:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18717.125
     boosterness: 90
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57228
     name: Festival-only 'Rock' SH6 Dose
@@ -1587,11 +1971,13 @@ types:
     radius: 1.0
     shieldcapacitybonus: 6.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Festival-only Commander Cerebral Accelerator I:
     boosterduration: 8.64E7
     boosterness: 88
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57248
     intelligencebonus: 5
@@ -1606,12 +1992,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Festival-only Commander Cerebral Accelerator III:
     boosterduration: 2.592E8
     boosterness: 88
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57249
     intelligencebonus: 5
@@ -1626,12 +2014,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Festival-only Commander Cerebral Accelerator VII:
     boosterduration: 6.048E8
     boosterness: 88
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57250
     intelligencebonus: 5
@@ -1646,12 +2036,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Festival-only Marshal Cerebral Accelerator I:
     boosterduration: 8.64E7
     boosterness: 91
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57251
     intelligencebonus: 10
@@ -1666,12 +2058,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Festival-only Marshal Cerebral Accelerator III:
     boosterduration: 2.592E8
     boosterness: 91
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57252
     intelligencebonus: 10
@@ -1686,12 +2080,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Festival-only Marshal Cerebral Accelerator VII:
     boosterduration: 6.048E8
     boosterness: 91
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57253
     intelligencebonus: 10
@@ -1706,6 +2102,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Festival-only New Eden Commander Pack:
@@ -1713,6 +2110,7 @@ types:
     boosterlastinjectiondatetime: 18555.125
     boosterness: 61
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56661
     intelligencebonus: 10
@@ -1729,6 +2127,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Festival-only New Eden Marshal Pack:
@@ -1736,6 +2135,7 @@ types:
     boosterlastinjectiondatetime: 18555.125
     boosterness: 62
     charismabonus: 15
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56662
     intelligencebonus: 15
@@ -1752,6 +2152,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 15
   Festival-only New Eden Vanguard Pack:
@@ -1759,6 +2160,7 @@ types:
     boosterlastinjectiondatetime: 18555.125
     boosterness: 60
     charismabonus: 3
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56659
     intelligencebonus: 3
@@ -1775,12 +2177,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 3
   Festival-only Outpost Cerebral Accelerator I:
     boosterduration: 8.64E7
     boosterness: 86
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57242
     intelligencebonus: 1
@@ -1795,12 +2199,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Festival-only Outpost Cerebral Accelerator III:
     boosterduration: 2.592E8
     boosterness: 86
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57243
     intelligencebonus: 1
@@ -1815,12 +2221,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Festival-only Outpost Cerebral Accelerator VII:
     boosterduration: 6.048E8
     boosterness: 86
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57244
     intelligencebonus: 1
@@ -1835,12 +2243,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Festival-only Vanguard Cerebral Accelerator I:
     boosterduration: 8.64E7
     boosterness: 87
     charismabonus: 3
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57245
     intelligencebonus: 3
@@ -1855,12 +2265,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 3
   Festival-only Vanguard Cerebral Accelerator III:
     boosterduration: 2.592E8
     boosterness: 87
     charismabonus: 3
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57246
     intelligencebonus: 3
@@ -1875,12 +2287,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 3
   Festival-only Vanguard Cerebral Accelerator VII:
     boosterduration: 6.048E8
     boosterness: 87
     charismabonus: 3
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57247
     intelligencebonus: 3
@@ -1895,6 +2309,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 3
   Gallente Drones Specialization Skill Accelerator:
@@ -1902,6 +2317,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 115
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57722
     intelligencebonus: 1
@@ -1917,6 +2333,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Gallente spaceship skill accelerator:
@@ -1924,6 +2341,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 23
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55805
     intelligencebonus: 1
@@ -1940,12 +2358,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Grand Prix Velocity Booster:
     boosterduration: 1.44E7
     boosterlastinjectiondatetime: 18778.0
     boosterness: 10
+    damagemultiplier: 1.0
     id: 57423
     name: Grand Prix Velocity Booster
     nondiminishingskillinjectoruses: 1
@@ -1956,12 +2376,14 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     velocitybonus: 10.0
     volume: 1.0
   Grand Prix Warp Booster:
     boosterduration: 1.44E7
     boosterlastinjectiondatetime: 18778.0
     boosterness: 10
+    damagemultiplier: 1.0
     id: 57424
     name: Grand Prix Warp Booster
     nondiminishingskillinjectoruses: 1
@@ -1972,6 +2394,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     warpsbonus: 10
   Heavy Drones Skill Accelerator:
@@ -1979,6 +2402,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 121
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57728
     intelligencebonus: 1
@@ -1994,6 +2418,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Hybrid Turret Specialization Skill Accelerator:
@@ -2001,6 +2426,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 98
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57293
     intelligencebonus: 1
@@ -2016,6 +2442,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Improved Blue Pill Booster:
@@ -2030,6 +2457,7 @@ types:
     boosterness: 1
     boostershieldcapacitypenalty: -25
     boosterturretoptimalrangepenalty: -25
+    damagemultiplier: 1.0
     id: 10155
     marketGroup: 2491
     name: Improved Blue Pill Booster
@@ -2043,6 +2471,7 @@ types:
     requiredskill1level: 2
     shieldboostmultiplier: 25.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Improved Crash Booster:
     aoecloudsizebonus: -25.0
@@ -2057,6 +2486,7 @@ types:
     boostermissilevelocitypenalty: -25
     boosterness: 3
     boostershieldboostamountpenalty: -25
+    damagemultiplier: 1.0
     id: 10151
     marketGroup: 2500
     name: Improved Crash Booster
@@ -2069,6 +2499,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 2
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Improved Drop Booster:
     boosterarmorrepairamountpenalty: -25
@@ -2082,6 +2513,7 @@ types:
     boosterness: 2
     boostershieldcapacitypenalty: -25
     boosterturretfalloffpenalty: -25
+    damagemultiplier: 1.0
     id: 15477
     marketGroup: 2496
     name: Improved Drop Booster
@@ -2094,6 +2526,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 2
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 31.25
     volume: 1.0
   Improved Exile Booster:
@@ -2109,6 +2542,7 @@ types:
     boostermissileaoecloudpenalty: 25
     boosterness: 1
     boosterturrettrackingpenalty: -25
+    damagemultiplier: 1.0
     id: 15480
     marketGroup: 2492
     name: Improved Exile Booster
@@ -2121,6 +2555,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 2
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Improved Frentix Booster:
     boosterarmorhppenalty: -25
@@ -2134,6 +2569,7 @@ types:
     boosterness: 2
     boostershieldboostamountpenalty: -25
     boosterturrettrackingpenalty: -25
+    damagemultiplier: 1.0
     id: 15461
     marketGroup: 2497
     name: Improved Frentix Booster
@@ -2147,6 +2583,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 2
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Improved Mindflood Booster:
     boosterarmorrepairamountpenalty: -25
@@ -2161,6 +2598,7 @@ types:
     boostershieldboostamountpenalty: -25
     boosterturretoptimalrangepenalty: -25
     capacitorcapacitybonus: 15.0
+    damagemultiplier: 1.0
     id: 15464
     marketGroup: 2493
     name: Improved Mindflood Booster
@@ -2173,6 +2611,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 2
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Improved Sooth Sayer Booster:
     boosterarmorrepairamountpenalty: -25
@@ -2186,6 +2625,7 @@ types:
     boosterness: 2
     boostershieldcapacitypenalty: -25
     boosterturretoptimalrangepenalty: -25
+    damagemultiplier: 1.0
     falloffbonus: 15.0
     id: 10165
     marketGroup: 2498
@@ -2199,6 +2639,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 2
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Improved X-Instinct Booster:
     boosterarmorhppenalty: -25
@@ -2212,6 +2653,7 @@ types:
     boosterness: 1
     boostershieldcapacitypenalty: -25
     boosterturretfalloffpenalty: -25
+    damagemultiplier: 1.0
     id: 15458
     marketGroup: 2494
     name: Improved X-Instinct Booster
@@ -2225,12 +2667,37 @@ types:
     requiredskill1level: 2
     signatureradiusbonus: -11.25
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
+  Interplanetary Consolidation Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 185
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59760
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Interplanetary Consolidation Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Large Energy Turret Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
     boosterness: 94
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57289
     intelligencebonus: 1
@@ -2246,6 +2713,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Large Hybrid Turret Skill Accelerator:
@@ -2253,6 +2721,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 93
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57288
     intelligencebonus: 1
@@ -2268,6 +2737,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Large Projectile Turret Skill Accelerator:
@@ -2275,6 +2745,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 92
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57287
     intelligencebonus: 1
@@ -2290,11 +2761,253 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
+  Liberation Games Accuracy Booster I:
+    aoevelocitybonus: 4.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 59891
+    marketGroup: 2790
+    name: Liberation Games Accuracy Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 4.0
+    volume: 1.0
+  Liberation Games Accuracy Booster II:
+    aoevelocitybonus: 6.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 59883
+    marketGroup: 2790
+    name: Liberation Games Accuracy Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  Liberation Games Accuracy Booster III:
+    aoevelocitybonus: 10.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 59884
+    marketGroup: 2790
+    name: Liberation Games Accuracy Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 10.0
+    volume: 1.0
+  Liberation Games Damage Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 14
+    damagemultiplier: 1.0199999809265137
+    id: 59880
+    marketGroup: 2531
+    missiledamagemultiplierbonus: 1.0199999809265137
+    name: Liberation Games Damage Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Liberation Games Damage Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 14
+    damagemultiplier: 1.0299999713897705
+    id: 59881
+    marketGroup: 2531
+    missiledamagemultiplierbonus: 1.0299999713897705
+    name: Liberation Games Damage Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Liberation Games Damage Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 14
+    damagemultiplier: 1.0499999523162842
+    id: 59882
+    marketGroup: 2531
+    missiledamagemultiplierbonus: 1.0499999523162842
+    name: Liberation Games Damage Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Liberation Games EWar Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 59888
+    marketGroup: 2792
+    name: Liberation Games EWar Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 4
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanskilltargetpaintstrengthbonus: 4
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangebonus: 4
+    volume: 1.0
+  Liberation Games EWar Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 59889
+    marketGroup: 2792
+    name: Liberation Games EWar Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 6
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanskilltargetpaintstrengthbonus: 6
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangebonus: 6
+    volume: 1.0
+  Liberation Games EWar Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 59890
+    marketGroup: 2792
+    name: Liberation Games EWar Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 10
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanskilltargetpaintstrengthbonus: 10
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangebonus: 10
+    volume: 1.0
+  Liberation Games Range Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    falloffbonus: 4.0
+    id: 59885
+    marketGroup: 2791
+    maxrangebonus: 4.0
+    name: Liberation Games Range Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 4.0
+    volume: 1.0
+  Liberation Games Range Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    falloffbonus: 6.0
+    id: 59886
+    marketGroup: 2791
+    maxrangebonus: 6.0
+    name: Liberation Games Range Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 6.0
+    volume: 1.0
+  Liberation Games Range Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    falloffbonus: 10.0
+    id: 59887
+    marketGroup: 2791
+    maxrangebonus: 10.0
+    name: Liberation Games Range Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 10.0
+    volume: 1.0
   Limited Synth Blue Pill Booster Mk I:
     boosterduration: 600000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54587
     name: Limited Synth Blue Pill Booster Mk I
     nondiminishingskillinjectoruses: 1
@@ -2307,10 +3020,12 @@ types:
     requiredskill1level: 1
     shieldboostmultiplier: 2.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Blue Pill Booster Mk II:
     boosterduration: 1200000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54588
     name: Limited Synth Blue Pill Booster Mk II
     nondiminishingskillinjectoruses: 1
@@ -2323,10 +3038,12 @@ types:
     requiredskill1level: 1
     shieldboostmultiplier: 2.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Blue Pill Booster Mk III:
     boosterduration: 1800000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54589
     name: Limited Synth Blue Pill Booster Mk III
     nondiminishingskillinjectoruses: 1
@@ -2339,10 +3056,12 @@ types:
     requiredskill1level: 1
     shieldboostmultiplier: 2.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Blue Pill Booster Mk IV:
     boosterduration: 600000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54590
     name: Limited Synth Blue Pill Booster Mk IV
     nondiminishingskillinjectoruses: 1
@@ -2355,10 +3074,12 @@ types:
     requiredskill1level: 1
     shieldboostmultiplier: 3.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Blue Pill Booster Mk V:
     boosterduration: 1200000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54591
     name: Limited Synth Blue Pill Booster Mk V
     nondiminishingskillinjectoruses: 1
@@ -2371,11 +3092,13 @@ types:
     requiredskill1level: 1
     shieldboostmultiplier: 3.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Crash Booster Mk I:
     aoecloudsizebonus: -2.0
     boosterduration: 600000.0
     boosterness: 3
+    damagemultiplier: 1.0
     id: 54624
     name: Limited Synth Crash Booster Mk I
     nondiminishingskillinjectoruses: 1
@@ -2387,11 +3110,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Crash Booster Mk II:
     aoecloudsizebonus: -2.0
     boosterduration: 1200000.0
     boosterness: 3
+    damagemultiplier: 1.0
     id: 54625
     name: Limited Synth Crash Booster Mk II
     nondiminishingskillinjectoruses: 1
@@ -2403,11 +3128,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Crash Booster Mk III:
     aoecloudsizebonus: -2.0
     boosterduration: 1800000.0
     boosterness: 3
+    damagemultiplier: 1.0
     id: 54626
     name: Limited Synth Crash Booster Mk III
     nondiminishingskillinjectoruses: 1
@@ -2419,11 +3146,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Crash Booster Mk IV:
     aoecloudsizebonus: -3.0
     boosterduration: 600000.0
     boosterness: 3
+    damagemultiplier: 1.0
     id: 54627
     name: Limited Synth Crash Booster Mk IV
     nondiminishingskillinjectoruses: 1
@@ -2435,11 +3164,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Crash Booster Mk V:
     aoecloudsizebonus: -3.0
     boosterduration: 1200000.0
     boosterness: 3
+    damagemultiplier: 1.0
     id: 54628
     name: Limited Synth Crash Booster Mk V
     nondiminishingskillinjectoruses: 1
@@ -2451,10 +3182,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Drop Booster Mk I:
     boosterduration: 600000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54607
     name: Limited Synth Drop Booster Mk I
     nondiminishingskillinjectoruses: 1
@@ -2466,11 +3199,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk II:
     boosterduration: 1200000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54610
     name: Limited Synth Drop Booster Mk II
     nondiminishingskillinjectoruses: 1
@@ -2482,11 +3217,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk III:
     boosterduration: 1800000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54611
     name: Limited Synth Drop Booster Mk III
     nondiminishingskillinjectoruses: 1
@@ -2498,11 +3235,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk IV:
     boosterduration: 600000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54612
     name: Limited Synth Drop Booster Mk IV
     nondiminishingskillinjectoruses: 1
@@ -2514,11 +3253,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 3.0
     volume: 1.0
   Limited Synth Drop Booster Mk V:
     boosterduration: 1200000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54613
     name: Limited Synth Drop Booster Mk V
     nondiminishingskillinjectoruses: 1
@@ -2530,12 +3271,14 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 3.0
     volume: 1.0
   Limited Synth Exile Booster Mk I:
     armordamageamountbonus: 2
     boosterduration: 600000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54592
     name: Limited Synth Exile Booster Mk I
     nondiminishingskillinjectoruses: 1
@@ -2547,11 +3290,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Exile Booster Mk II:
     armordamageamountbonus: 2
     boosterduration: 1200000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54593
     name: Limited Synth Exile Booster Mk II
     nondiminishingskillinjectoruses: 1
@@ -2563,11 +3308,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Exile Booster Mk III:
     armordamageamountbonus: 2
     boosterduration: 1800000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54594
     name: Limited Synth Exile Booster Mk III
     nondiminishingskillinjectoruses: 1
@@ -2579,11 +3326,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Exile Booster Mk IV:
     armordamageamountbonus: 3
     boosterduration: 600000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54595
     name: Limited Synth Exile Booster Mk IV
     nondiminishingskillinjectoruses: 1
@@ -2595,11 +3344,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Exile Booster Mk V:
     armordamageamountbonus: 3
     boosterduration: 1200000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54596
     name: Limited Synth Exile Booster Mk V
     nondiminishingskillinjectoruses: 1
@@ -2611,10 +3362,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Frentix Booster Mk I:
     boosterduration: 600000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54614
     name: Limited Synth Frentix Booster Mk I
     nondiminishingskillinjectoruses: 1
@@ -2627,10 +3380,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Frentix Booster Mk II:
     boosterduration: 1200000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54615
     name: Limited Synth Frentix Booster Mk II
     nondiminishingskillinjectoruses: 1
@@ -2643,10 +3398,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Frentix Booster Mk III:
     boosterduration: 1800000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54616
     name: Limited Synth Frentix Booster Mk III
     nondiminishingskillinjectoruses: 1
@@ -2659,10 +3416,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Frentix Booster Mk IV:
     boosterduration: 600000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54617
     name: Limited Synth Frentix Booster Mk IV
     nondiminishingskillinjectoruses: 1
@@ -2675,10 +3434,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Frentix Booster Mk V:
     boosterduration: 1200000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 54618
     name: Limited Synth Frentix Booster Mk V
     nondiminishingskillinjectoruses: 1
@@ -2691,11 +3452,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Mindflood Booster Mk I:
     boosterduration: 600000.0
     boosterness: 1
     capacitorcapacitybonus: 2.0
+    damagemultiplier: 1.0
     id: 54597
     name: Limited Synth Mindflood Booster Mk I
     nondiminishingskillinjectoruses: 1
@@ -2707,11 +3470,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Mindflood Booster Mk II:
     boosterduration: 1200000.0
     boosterness: 1
     capacitorcapacitybonus: 2.0
+    damagemultiplier: 1.0
     id: 54598
     name: Limited Synth Mindflood Booster Mk II
     nondiminishingskillinjectoruses: 1
@@ -2723,11 +3488,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Mindflood Booster Mk III:
     boosterduration: 1800000.0
     boosterness: 1
     capacitorcapacitybonus: 2.0
+    damagemultiplier: 1.0
     id: 54599
     name: Limited Synth Mindflood Booster Mk III
     nondiminishingskillinjectoruses: 1
@@ -2739,11 +3506,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Mindflood Booster Mk IV:
     boosterduration: 600000.0
     boosterness: 1
     capacitorcapacitybonus: 3.0
+    damagemultiplier: 1.0
     id: 54600
     name: Limited Synth Mindflood Booster Mk IV
     nondiminishingskillinjectoruses: 1
@@ -2755,11 +3524,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Mindflood Booster Mk V:
     boosterduration: 1200000.0
     boosterness: 1
     capacitorcapacitybonus: 3.0
+    damagemultiplier: 1.0
     id: 54601
     name: Limited Synth Mindflood Booster Mk V
     nondiminishingskillinjectoruses: 1
@@ -2771,10 +3542,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk I:
     boosterduration: 600000.0
     boosterness: 2
+    damagemultiplier: 1.0
     falloffbonus: 2.0
     id: 54619
     name: Limited Synth Sooth Sayer Booster Mk I
@@ -2787,10 +3560,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk II:
     boosterduration: 1200000.0
     boosterness: 2
+    damagemultiplier: 1.0
     falloffbonus: 2.0
     id: 54620
     name: Limited Synth Sooth Sayer Booster Mk II
@@ -2803,10 +3578,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk III:
     boosterduration: 1800000.0
     boosterness: 2
+    damagemultiplier: 1.0
     falloffbonus: 2.0
     id: 54621
     name: Limited Synth Sooth Sayer Booster Mk III
@@ -2819,10 +3596,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk IV:
     boosterduration: 600000.0
     boosterness: 2
+    damagemultiplier: 1.0
     falloffbonus: 3.0
     id: 54622
     name: Limited Synth Sooth Sayer Booster Mk IV
@@ -2835,10 +3614,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk V:
     boosterduration: 1200000.0
     boosterness: 2
+    damagemultiplier: 1.0
     falloffbonus: 3.0
     id: 54623
     name: Limited Synth Sooth Sayer Booster Mk V
@@ -2851,10 +3632,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth X-Instinct Booster Mk I:
     boosterduration: 600000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54602
     name: Limited Synth X-Instinct Booster Mk I
     nondiminishingskillinjectoruses: 1
@@ -2867,10 +3650,12 @@ types:
     requiredskill1level: 1
     signatureradiusbonus: -1.5
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth X-Instinct Booster Mk II:
     boosterduration: 1200000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54603
     name: Limited Synth X-Instinct Booster Mk II
     nondiminishingskillinjectoruses: 1
@@ -2883,10 +3668,12 @@ types:
     requiredskill1level: 1
     signatureradiusbonus: -1.5
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth X-Instinct Booster Mk III:
     boosterduration: 1800000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54604
     name: Limited Synth X-Instinct Booster Mk III
     nondiminishingskillinjectoruses: 1
@@ -2899,10 +3686,12 @@ types:
     requiredskill1level: 1
     signatureradiusbonus: -1.5
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth X-Instinct Booster Mk IV:
     boosterduration: 600000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54605
     name: Limited Synth X-Instinct Booster Mk IV
     nondiminishingskillinjectoruses: 1
@@ -2915,10 +3704,12 @@ types:
     requiredskill1level: 1
     signatureradiusbonus: -2.25
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Limited Synth X-Instinct Booster Mk V:
     boosterduration: 1200000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 54606
     name: Limited Synth X-Instinct Booster Mk V
     nondiminishingskillinjectoruses: 1
@@ -2931,11 +3722,13 @@ types:
     requiredskill1level: 1
     signatureradiusbonus: -2.25
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Master-at-Arms Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterness: 10
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 48582
     intelligencebonus: 10
@@ -2952,11 +3745,59 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
+  Medium Disintegrator Specialization Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 199
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59962
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Medium Disintegrator Specialization Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Medium Precursor Weapon Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 198
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59961
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Medium Precursor Weapon Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Mining Blitz Range Booster Dose I:
     boosterduration: 1.44E7
     boosterness: 2
+    damagemultiplier: 1.0
     id: 59189
     maxrangebonus: 10.0
     name: Mining Blitz Range Booster Dose I
@@ -2967,10 +3808,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Mining Blitz Range Booster Dose II:
     boosterduration: 1.44E7
     boosterness: 2
+    damagemultiplier: 1.0
     id: 59190
     maxrangebonus: 20.0
     name: Mining Blitz Range Booster Dose II
@@ -2981,10 +3824,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Mining Blitz Range Booster Dose III:
     boosterduration: 1.44E7
     boosterness: 2
+    damagemultiplier: 1.0
     id: 59191
     maxrangebonus: 30.0
     name: Mining Blitz Range Booster Dose III
@@ -2995,10 +3840,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Mining Blitz Yield Booster Dose I:
     boosterduration: 1.44E7
     boosterness: 3
+    damagemultiplier: 1.0
     id: 59192
     miningamountbonus: 5
     name: Mining Blitz Yield Booster Dose I
@@ -3009,10 +3856,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Mining Blitz Yield Booster Dose II:
     boosterduration: 1.44E7
     boosterness: 3
+    damagemultiplier: 1.0
     id: 59193
     miningamountbonus: 10
     name: Mining Blitz Yield Booster Dose II
@@ -3023,10 +3872,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Mining Blitz Yield Booster Dose III:
     boosterduration: 1.44E7
     boosterness: 3
+    damagemultiplier: 1.0
     id: 59194
     miningamountbonus: 15
     name: Mining Blitz Yield Booster Dose III
@@ -3037,12 +3888,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Mining Drones Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
     boosterness: 119
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57726
     intelligencebonus: 1
@@ -3058,6 +3911,30 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Mining Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 193
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59768
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Mining Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Minmatar Drones Specialization Skill Accelerator:
@@ -3065,6 +3942,7 @@ types:
     boostermaxcharagehours: 8640
     boosterness: 118
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57725
     intelligencebonus: 1
@@ -3080,6 +3958,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Minmatar spaceship skill accelerator:
@@ -3087,6 +3966,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 24
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55806
     intelligencebonus: 1
@@ -3103,11 +3983,13 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Nanoheuristic Clone Mapper:
     boosterduration: 2.16E7
     boosterness: 65
+    damagemultiplier: 1.0
     id: 56733
     marketGroup: 2761
     name: Nanoheuristic Clone Mapper
@@ -3120,11 +4002,13 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Neo Serenity Special Cerebral Accelerator:
     boosterduration: 8.64E9
     boostermaxcharagehours: 2400
     boosterness: 20
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59197
     name: Neo Serenity Special Cerebral Accelerator
@@ -3137,10 +4021,12 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Nugoehuvi Synth Blue Pill Booster:
     boosterduration: 1980000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 32248
     marketGroup: 2491
     name: Nugoehuvi Synth Blue Pill Booster
@@ -3154,11 +4040,13 @@ types:
     requiredskill1level: 2
     shieldboostmultiplier: 5.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   ORE 'Harvester' Efficiency 11-11:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18627.125
     boosterness: 33
+    damagemultiplier: 1.0
     durationbonus: -5
     followsjumpclones: 1
     iceharvestcyclebonus: -5.0
@@ -3173,10 +4061,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   ORE 'Harvester' Efficiency ZhenNiu:
     boosterduration: 6.048E8
     boosterness: 111
+    damagemultiplier: 1.0
     durationbonus: -5
     followsjumpclones: 1
     iceharvestcyclebonus: -5.0
@@ -3191,12 +4081,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Onslaught Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17862.458984375
     boosterness: 10
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 49753
     intelligencebonus: 10
@@ -3212,12 +4104,63 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
+  Planetology Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 184
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59759
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Planetology Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Potent 'Rebel' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18884.45703125
+    boosterness: 10
+    charismabonus: 8
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59878
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Potent 'Rebel' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 8
   Poteque 'Prospector' Sharpeye 11-11:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18627.125
     boosterness: 32
+    damagemultiplier: 1.0
     durationbonus: -10
     followsjumpclones: 1
     id: 56876
@@ -3232,10 +4175,12 @@ types:
     radius: 1.0
     scanstrengthbonus: 10
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Poteque 'Prospector' Sharpeye ZhenNiu:
     boosterduration: 6.048E8
     boosterness: 110
+    damagemultiplier: 1.0
     durationbonus: -10
     followsjumpclones: 1
     id: 57328
@@ -3250,12 +4195,37 @@ types:
     radius: 1.0
     scanstrengthbonus: 10
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
+  Precursor Cruiser Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 197
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59960
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Precursor Cruiser Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Projectile Turret Specialization Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
     boosterness: 96
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57291
     intelligencebonus: 1
@@ -3271,12 +4241,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Prototype Cerebral Accelerator:
     boostermaxcharagehours: 336
     boosterness: 4
     charismabonus: 9
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 33111
     intelligencebonus: 9
@@ -3293,11 +4265,13 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 9
   Quafe Zero:
     boosterduration: 3600000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 3898
     marketGroup: 2506
     name: Quafe Zero
@@ -3309,12 +4283,14 @@ types:
     radius: 1.0
     scanresolutionbonus: 5.0
     socialbonus: 100
+    speedfactor: 1.0
     velocitybonus: 5.0
     volume: 1.0
   Serenity Anniversary Cerebral Accelerator I:
     boosterduration: 8.64E7
     boosterness: 122
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57765
     intelligencebonus: 10
@@ -3329,12 +4305,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Serenity Anniversary Cerebral Accelerator II:
     boosterduration: 2.592E8
     boosterness: 122
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57766
     intelligencebonus: 10
@@ -3349,12 +4327,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Serenity Anniversary Cerebral Accelerator III:
     boosterduration: 4.32E8
     boosterness: 122
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57767
     intelligencebonus: 10
@@ -3369,12 +4349,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Serenity Anniversary Cerebral Accelerator IV:
     boosterduration: 6.048E8
     boosterness: 122
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57768
     intelligencebonus: 10
@@ -3389,11 +4371,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Serenity Anniversary Limited 'Efficiency' Dose:
     boosterduration: 6.048E8
     boosterness: 123
+    damagemultiplier: 1.0
     durationbonus: -5
     followsjumpclones: 1
     iceharvestcyclebonus: -5.0
@@ -3408,11 +4392,13 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Serenity Anniversary Limited 'Hardshell' Dose:
     armorhpbonus2: 3.0
     boosterduration: 6.048E8
     boosterness: 123
+    damagemultiplier: 1.0
     followsjumpclones: 1
     hullhpbonus: 3.0
     id: 57770
@@ -3426,10 +4412,12 @@ types:
     radius: 1.0
     shieldcapacitybonus: 3.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Serenity Anniversary Limited 'Overclocker' Dose:
     boosterduration: 6.048E8
     boosterness: 123
+    damagemultiplier: 1.0
     durationbonus: 10
     followsjumpclones: 1
     id: 57769
@@ -3442,12 +4430,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     speedfbonus: 5
     volume: 1.0
     warpsbonus: 10
   Serenity Anniversary Limited 'Pyrolancea' Dose:
     boosterduration: 6.048E8
     boosterness: 123
+    damagemultiplier: 1.0
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57771
@@ -3460,10 +4450,12 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Serenity Anniversary Limited 'Sharpeye' Dose:
     boosterduration: 6.048E8
     boosterness: 123
+    damagemultiplier: 1.0
     durationbonus: -10
     followsjumpclones: 1
     id: 57773
@@ -3478,12 +4470,14 @@ types:
     radius: 1.0
     scanstrengthbonus: 10
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Serenity August Season Advanced Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18522.666015625
     boosterness: 52
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55929
     intelligencebonus: 5
@@ -3500,6 +4494,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity August Season Pass:
@@ -3507,6 +4502,7 @@ types:
     boosterlastinjectiondatetime: 18503.125
     boosterness: 53
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55977
     intelligencebonus: 1
@@ -3523,6 +4519,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity August Season Standard Cerebral Accelerator:
@@ -3530,6 +4527,7 @@ types:
     boosterlastinjectiondatetime: 18522.666015625
     boosterness: 51
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55928
     intelligencebonus: 5
@@ -3546,6 +4544,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Basic 'Bonding' Cerebral Accelerator:
@@ -3553,6 +4552,7 @@ types:
     boosterlastinjectiondatetime: 18718.666015625
     boosterness: 10
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57433
     intelligencebonus: 5
@@ -3570,6 +4570,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Basic Capsuleer Day Cerebral Accelerator:
@@ -3577,6 +4578,7 @@ types:
     boosterlastinjectiondatetime: 18808.125
     boosterness: 10
     charismabonus: 4
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59303
     intelligencebonus: 4
@@ -3593,12 +4595,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 4
   Serenity Basic Capsuleer Day Glamourex Booster:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18808.125
     boosterness: 12
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59306
     name: Serenity Basic Capsuleer Day Glamourex Booster
@@ -3613,12 +4617,14 @@ types:
     requiredskill1level: 1
     socialbonus: 20
     socialmutator: 20
+    speedfactor: 1.0
     volume: 1.0
   Serenity December Season Advanced Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18637.125
     boosterness: 80
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57036
     intelligencebonus: 5
@@ -3635,6 +4641,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity December Season Pass:
@@ -3642,6 +4649,7 @@ types:
     boosterlastinjectiondatetime: 18625.125
     boosterness: 81
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57037
     intelligencebonus: 1
@@ -3658,6 +4666,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity December Season Standard Cerebral Accelerator:
@@ -3665,6 +4674,7 @@ types:
     boosterlastinjectiondatetime: 18637.125
     boosterness: 79
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57035
     intelligencebonus: 5
@@ -3681,6 +4691,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity EoM Season Accelerator Bronze:
@@ -3688,6 +4699,7 @@ types:
     boosterlastinjectiondatetime: 18793.125
     boosterness: 134
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59297
     intelligencebonus: 1
@@ -3704,6 +4716,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity EoM Season Accelerator Gold:
@@ -3711,6 +4724,7 @@ types:
     boosterlastinjectiondatetime: 18793.125
     boosterness: 134
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59299
     intelligencebonus: 1
@@ -3727,6 +4741,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity EoM Season Accelerator Silver:
@@ -3734,6 +4749,7 @@ types:
     boosterlastinjectiondatetime: 18793.125
     boosterness: 134
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59298
     intelligencebonus: 1
@@ -3750,6 +4766,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity Extended 'Bonding' Cerebral Accelerator:
@@ -3757,6 +4774,7 @@ types:
     boosterlastinjectiondatetime: 18718.666015625
     boosterness: 10
     charismabonus: 8
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57435
     intelligencebonus: 8
@@ -3774,6 +4792,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 8
   Serenity Extended Capsuleer Day Cerebral Accelerator:
@@ -3781,6 +4800,7 @@ types:
     boosterlastinjectiondatetime: 18808.125
     boosterness: 10
     charismabonus: 6
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59301
     intelligencebonus: 6
@@ -3797,12 +4817,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 6
   Serenity Extended Capsuleer Day Glamourex Booster:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18808.125
     boosterness: 12
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59305
     name: Serenity Extended Capsuleer Day Glamourex Booster
@@ -3817,12 +4839,14 @@ types:
     requiredskill1level: 1
     socialbonus: 25
     socialmutator: 25
+    speedfactor: 1.0
     volume: 1.0
   Serenity Monthly Cerebral Accelerator - 2020.10:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18567.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56619
     intelligencebonus: 5
@@ -3839,6 +4863,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.11:
@@ -3846,6 +4871,7 @@ types:
     boosterlastinjectiondatetime: 18597.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56823
     intelligencebonus: 5
@@ -3862,6 +4888,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.12:
@@ -3869,6 +4896,7 @@ types:
     boosterlastinjectiondatetime: 18628.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56970
     intelligencebonus: 5
@@ -3885,6 +4913,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.6:
@@ -3892,6 +4921,7 @@ types:
     boosterlastinjectiondatetime: 18453.666015625
     boosterness: 10
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 54976
     intelligencebonus: 5
@@ -3909,6 +4939,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.7:
@@ -3916,6 +4947,7 @@ types:
     boosterlastinjectiondatetime: 18475.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55747
     intelligencebonus: 5
@@ -3933,6 +4965,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.8:
@@ -3940,6 +4973,7 @@ types:
     boosterlastinjectiondatetime: 18506.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55927
     intelligencebonus: 5
@@ -3956,6 +4990,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.9:
@@ -3963,6 +4998,7 @@ types:
     boosterlastinjectiondatetime: 18536.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56128
     intelligencebonus: 5
@@ -3979,6 +5015,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2021.1:
@@ -3986,6 +5023,7 @@ types:
     boosterlastinjectiondatetime: 18659.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57201
     intelligencebonus: 5
@@ -4002,6 +5040,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2021.2:
@@ -4009,6 +5048,7 @@ types:
     boosterlastinjectiondatetime: 18687.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57295
     intelligencebonus: 5
@@ -4025,6 +5065,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2021.3:
@@ -4032,6 +5073,7 @@ types:
     boosterlastinjectiondatetime: 18718.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57428
     intelligencebonus: 5
@@ -4048,6 +5090,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2021.4:
@@ -4055,6 +5098,7 @@ types:
     boosterlastinjectiondatetime: 18748.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57763
     intelligencebonus: 5
@@ -4071,6 +5115,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2021.5:
@@ -4078,6 +5123,7 @@ types:
     boosterlastinjectiondatetime: 18779.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 58727
     intelligencebonus: 5
@@ -4094,6 +5140,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2021.6:
@@ -4101,6 +5148,7 @@ types:
     boosterlastinjectiondatetime: 18809.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59177
     intelligencebonus: 5
@@ -4117,6 +5165,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2021.7:
@@ -4124,6 +5173,7 @@ types:
     boosterlastinjectiondatetime: 18840.666015625
     boosterness: 19
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59620
     intelligencebonus: 5
@@ -4134,11 +5184,37 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2021.8:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18871.666015625
+    boosterness: 19
+    charismabonus: 5
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60023
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2021.8
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity November Season Advanced Cerebral Accelerator:
@@ -4146,6 +5222,7 @@ types:
     boosterlastinjectiondatetime: 18606.125
     boosterness: 64
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56834
     intelligencebonus: 5
@@ -4162,6 +5239,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity November Season Pass:
@@ -4169,6 +5247,7 @@ types:
     boosterlastinjectiondatetime: 18594.125
     boosterness: 66
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56835
     intelligencebonus: 1
@@ -4185,6 +5264,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity November Season Standard Cerebral Accelerator:
@@ -4192,6 +5272,7 @@ types:
     boosterlastinjectiondatetime: 18606.125
     boosterness: 63
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56833
     intelligencebonus: 5
@@ -4208,6 +5289,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity October Season Advanced Cerebral Accelerator:
@@ -4215,6 +5297,7 @@ types:
     boosterlastinjectiondatetime: 18576.125
     boosterness: 58
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56621
     intelligencebonus: 5
@@ -4231,6 +5314,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity October Season Pass:
@@ -4238,6 +5322,7 @@ types:
     boosterlastinjectiondatetime: 18564.125
     boosterness: 59
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56640
     intelligencebonus: 1
@@ -4254,6 +5339,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity October Season Standard Cerebral Accelerator:
@@ -4261,6 +5347,7 @@ types:
     boosterlastinjectiondatetime: 18576.125
     boosterness: 57
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56620
     intelligencebonus: 5
@@ -4277,6 +5364,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Potent 'Bonding' Cerebral Accelerator:
@@ -4284,6 +5372,7 @@ types:
     boosterlastinjectiondatetime: 18718.666015625
     boosterness: 10
     charismabonus: 12
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57434
     intelligencebonus: 12
@@ -4301,6 +5390,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 12
   Serenity Potent Capsuleer Day Cerebral Accelerator:
@@ -4308,6 +5398,7 @@ types:
     boosterlastinjectiondatetime: 18808.125
     boosterness: 10
     charismabonus: 8
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59302
     intelligencebonus: 8
@@ -4324,12 +5415,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 8
   Serenity Potent Capsuleer Day Glamourex Booster:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18808.125
     boosterness: 12
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59304
     name: Serenity Potent Capsuleer Day Glamourex Booster
@@ -4344,12 +5437,96 @@ types:
     requiredskill1level: 1
     socialbonus: 50
     socialmutator: 50
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Poteque 'Prospector' Harvesting MC-108:
+    boosterduration: 8.64E7
+    boosterness: 111
+    damagemultiplier: 1.0
+    durationbonus: -8
+    followsjumpclones: 1
+    iceharvestcyclebonus: -8.0
+    id: 59798
+    miningamountbonus: 8
+    name: Serenity Poteque 'Prospector' Harvesting MC-108
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    refiningyieldmutator: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Poteque 'Prospector' Harvesting MC-308:
+    boosterduration: 2.592E8
+    boosterness: 111
+    damagemultiplier: 1.0
+    durationbonus: -8
+    followsjumpclones: 1
+    iceharvestcyclebonus: -8.0
+    id: 59800
+    miningamountbonus: 8
+    name: Serenity Poteque 'Prospector' Harvesting MC-308
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    refiningyieldmutator: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Poteque 'Prospector' Harvesting MC-708:
+    boosterduration: 6.048E8
+    boosterness: 111
+    damagemultiplier: 1.0
+    durationbonus: -8
+    followsjumpclones: 1
+    iceharvestcyclebonus: -8.0
+    id: 59802
+    miningamountbonus: 8
+    name: Serenity Poteque 'Prospector' Harvesting MC-708
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    refiningyieldmutator: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Rookie Exclusive Cerebral Accelerator:
+    boosterduration: 8.64E9
+    boostermaxcharagehours: 2400
+    boosterness: 201
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60068
+    name: Serenity Rookie Exclusive Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Serenity September Season Advanced Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18543.125
     boosterness: 55
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56130
     intelligencebonus: 5
@@ -4366,6 +5543,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity September Season Pass:
@@ -4373,6 +5551,7 @@ types:
     boosterlastinjectiondatetime: 18531.125
     boosterness: 56
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56179
     intelligencebonus: 1
@@ -4389,6 +5568,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity September Season Standard Cerebral Accelerator:
@@ -4396,6 +5576,7 @@ types:
     boosterlastinjectiondatetime: 18543.125
     boosterness: 54
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56129
     intelligencebonus: 5
@@ -4412,6 +5593,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity Special Cerebral Accelerator:
@@ -4419,6 +5601,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 20
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55700
     intelligencebonus: 10
@@ -4435,6 +5618,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Serenity Spring Festival Cerebral Accelerator I:
@@ -4442,6 +5626,7 @@ types:
     boosterlastinjectiondatetime: 18717.666015625
     boosterness: 100
     charismabonus: 2
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57296
     intelligencebonus: 2
@@ -4456,6 +5641,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 2
   Serenity Spring Festival Cerebral Accelerator II:
@@ -4463,6 +5649,7 @@ types:
     boosterlastinjectiondatetime: 18717.666015625
     boosterness: 101
     charismabonus: 4
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57297
     intelligencebonus: 4
@@ -4477,6 +5664,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 4
   Serenity Spring Festival Cerebral Accelerator III:
@@ -4484,6 +5672,7 @@ types:
     boosterlastinjectiondatetime: 18717.666015625
     boosterness: 102
     charismabonus: 6
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57298
     intelligencebonus: 6
@@ -4498,6 +5687,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 6
   Serenity Spring Festival Cerebral Accelerator IV:
@@ -4505,6 +5695,7 @@ types:
     boosterlastinjectiondatetime: 18717.666015625
     boosterness: 103
     charismabonus: 8
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57299
     intelligencebonus: 8
@@ -4519,6 +5710,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 8
   Serenity Spring Festival Cerebral Accelerator V:
@@ -4526,6 +5718,7 @@ types:
     boosterlastinjectiondatetime: 18717.666015625
     boosterness: 104
     charismabonus: 2021
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57300
     intelligencebonus: 2021
@@ -4540,6 +5733,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 2021
   Serenity Spring Festival Cerebral Accelerator VI:
@@ -4547,6 +5741,7 @@ types:
     boosterlastinjectiondatetime: 18717.666015625
     boosterness: 104
     charismabonus: 2021
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57301
     intelligencebonus: 2021
@@ -4561,6 +5756,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 2021
   Serenity The Hunt Accelerator Bronze:
@@ -4568,6 +5764,7 @@ types:
     boosterlastinjectiondatetime: 18753.125
     boosterness: 130
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 58770
     intelligencebonus: 1
@@ -4584,6 +5781,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity The Hunt Accelerator Gold:
@@ -4591,6 +5789,7 @@ types:
     boosterlastinjectiondatetime: 18753.125
     boosterness: 130
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 58772
     intelligencebonus: 1
@@ -4607,6 +5806,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity The Hunt Accelerator Silver:
@@ -4614,6 +5814,7 @@ types:
     boosterlastinjectiondatetime: 18753.125
     boosterness: 130
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 58771
     intelligencebonus: 1
@@ -4630,6 +5831,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity YC122.9 Season Booster - Agility:
@@ -4638,6 +5840,7 @@ types:
     boosterlastinjectiondatetime: 18543.125
     boosterness: 33
     charismabonus: 5
+    damagemultiplier: 1.0
     id: 56154
     intelligencebonus: 5
     memorybonus: 5
@@ -4650,6 +5853,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC122.9 Season Booster - EW Range:
@@ -4657,6 +5861,7 @@ types:
     boosterlastinjectiondatetime: 18543.125
     boosterness: 37
     charismabonus: 5
+    damagemultiplier: 1.0
     id: 56158
     intelligencebonus: 5
     memorybonus: 5
@@ -4670,6 +5875,7 @@ types:
     radius: 1.0
     rangeskillbonus: 5
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC122.9 Season Booster - Max Velocity:
@@ -4677,6 +5883,7 @@ types:
     boosterlastinjectiondatetime: 18543.125
     boosterness: 31
     charismabonus: 5
+    damagemultiplier: 1.0
     id: 56125
     intelligencebonus: 5
     memorybonus: 5
@@ -4689,6 +5896,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     velocitybonus: 5.0
     volume: 1.0
     willpowerbonus: 5
@@ -4697,6 +5905,7 @@ types:
     boosterlastinjectiondatetime: 18543.125
     boosterness: 36
     charismabonus: 5
+    damagemultiplier: 1.0
     id: 56157
     intelligencebonus: 5
     maxrangebonus: 5.0
@@ -4710,6 +5919,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC122.9 Season Booster - Probe Scanning Strength:
@@ -4717,6 +5927,7 @@ types:
     boosterlastinjectiondatetime: 18543.125
     boosterness: 35
     charismabonus: 5
+    damagemultiplier: 1.0
     id: 56156
     intelligencebonus: 5
     memorybonus: 5
@@ -4730,6 +5941,7 @@ types:
     radius: 1.0
     scanstrengthbonus: 5
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC122.9 Season Booster - Signature Radius:
@@ -4737,6 +5949,7 @@ types:
     boosterlastinjectiondatetime: 18543.125
     boosterness: 34
     charismabonus: 5
+    damagemultiplier: 1.0
     id: 56155
     intelligencebonus: 5
     memorybonus: 5
@@ -4750,6 +5963,7 @@ types:
     radius: 1.0
     signatureradiusbonus: -5.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC122.9 Season Booster - Warp Speed:
@@ -4757,6 +5971,7 @@ types:
     boosterlastinjectiondatetime: 18543.125
     boosterness: 32
     charismabonus: 5
+    damagemultiplier: 1.0
     id: 56153
     intelligencebonus: 5
     memorybonus: 5
@@ -4769,6 +5984,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     warpsbonus: 5
     willpowerbonus: 5
@@ -4777,6 +5993,7 @@ types:
     boosterlastinjectiondatetime: 18668.125
     boosterness: 83
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57210
     intelligencebonus: 5
@@ -4793,6 +6010,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.1 Season Pass:
@@ -4800,6 +6018,7 @@ types:
     boosterlastinjectiondatetime: 18656.125
     boosterness: 84
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57211
     intelligencebonus: 1
@@ -4816,6 +6035,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity YC123.1 Season Standard Cerebral Accelerator:
@@ -4823,6 +6043,7 @@ types:
     boosterlastinjectiondatetime: 18668.125
     boosterness: 82
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57209
     intelligencebonus: 5
@@ -4839,6 +6060,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.2 Season Advanced Cerebral Accelerator:
@@ -4846,6 +6068,7 @@ types:
     boosterlastinjectiondatetime: 18696.125
     boosterness: 106
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57312
     intelligencebonus: 5
@@ -4862,6 +6085,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.2 Season Pass:
@@ -4869,6 +6093,7 @@ types:
     boosterlastinjectiondatetime: 18684.125
     boosterness: 107
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57313
     intelligencebonus: 1
@@ -4885,6 +6110,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity YC123.2 Season Standard Cerebral Accelerator:
@@ -4892,6 +6118,7 @@ types:
     boosterlastinjectiondatetime: 18696.125
     boosterness: 105
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57311
     intelligencebonus: 5
@@ -4908,6 +6135,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.3 Season Advanced Cerebral Accelerator:
@@ -4915,6 +6143,7 @@ types:
     boosterlastinjectiondatetime: 18727.125
     boosterness: 113
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57431
     intelligencebonus: 5
@@ -4931,6 +6160,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.3 Season Pass:
@@ -4938,6 +6168,7 @@ types:
     boosterlastinjectiondatetime: 18715.125
     boosterness: 114
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57432
     intelligencebonus: 1
@@ -4954,6 +6185,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity YC123.3 Season Standard Cerebral Accelerator:
@@ -4961,6 +6193,7 @@ types:
     boosterlastinjectiondatetime: 18727.125
     boosterness: 112
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57430
     intelligencebonus: 5
@@ -4977,6 +6210,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.4 Season Advanced Cerebral Accelerator:
@@ -4984,6 +6218,7 @@ types:
     boosterlastinjectiondatetime: 18757.125
     boosterness: 125
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57822
     intelligencebonus: 5
@@ -5000,6 +6235,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.4 Season Pass:
@@ -5007,6 +6243,7 @@ types:
     boosterlastinjectiondatetime: 18744.125
     boosterness: 126
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57823
     intelligencebonus: 1
@@ -5023,6 +6260,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity YC123.4 Season Standard Cerebral Accelerator:
@@ -5030,6 +6268,7 @@ types:
     boosterlastinjectiondatetime: 18757.125
     boosterness: 124
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57821
     intelligencebonus: 5
@@ -5046,6 +6285,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.5 Season Advanced Cerebral Accelerator:
@@ -5053,6 +6293,7 @@ types:
     boosterlastinjectiondatetime: 18788.125
     boosterness: 128
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 58759
     intelligencebonus: 5
@@ -5069,6 +6310,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.5 Season Pass:
@@ -5076,6 +6318,7 @@ types:
     boosterlastinjectiondatetime: 18776.125
     boosterness: 129
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 58760
     intelligencebonus: 1
@@ -5092,6 +6335,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity YC123.5 Season Standard Cerebral Accelerator:
@@ -5099,6 +6343,7 @@ types:
     boosterlastinjectiondatetime: 18788.125
     boosterness: 127
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 58758
     intelligencebonus: 5
@@ -5115,6 +6360,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.6 Season Advanced Cerebral Accelerator:
@@ -5122,6 +6368,7 @@ types:
     boosterlastinjectiondatetime: 18818.125
     boosterness: 132
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59295
     intelligencebonus: 5
@@ -5138,6 +6385,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
   Serenity YC123.6 Season Pass:
@@ -5145,6 +6393,7 @@ types:
     boosterlastinjectiondatetime: 18806.125
     boosterness: 133
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59296
     intelligencebonus: 1
@@ -5161,6 +6410,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Serenity YC123.6 Season Standard Cerebral Accelerator:
@@ -5168,6 +6418,7 @@ types:
     boosterlastinjectiondatetime: 18818.125
     boosterness: 131
     charismabonus: 5
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59294
     intelligencebonus: 5
@@ -5184,12 +6435,284 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
+  Serenity YC123.7 Cerebral Accelerator I:
+    boosterduration: 2.592E8
+    boosterness: 196
+    charismabonus: 10
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59803
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity YC123.7 Cerebral Accelerator I
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity YC123.7 Cerebral Accelerator II:
+    boosterduration: 4.32E8
+    boosterness: 196
+    charismabonus: 10
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59804
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity YC123.7 Cerebral Accelerator II
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity YC123.7 Cerebral Accelerator III:
+    boosterduration: 6.048E8
+    boosterness: 196
+    charismabonus: 10
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59805
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity YC123.7 Cerebral Accelerator III
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity YC123.7 Cerebral Accelerator IV:
+    boosterduration: 1.2096E9
+    boosterness: 196
+    charismabonus: 10
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59806
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity YC123.7 Cerebral Accelerator IV
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity YC123.7 Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18849.125
+    boosterness: 181
+    charismabonus: 5
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59756
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.7 Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.7 Season Pass:
+    boosterduration: 1.728E9
+    boosterlastinjectiondatetime: 18836.125
+    boosterness: 182
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59757
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity YC123.7 Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity YC123.8 Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18880.125
+    boosterness: 203
+    charismabonus: 5
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60092
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.8 Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.8 Season Pass:
+    boosterduration: 1.6416E9
+    boosterlastinjectiondatetime: 18867.125
+    boosterness: 204
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60093
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity YC123.8 Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity YC123.8 Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18880.125
+    boosterness: 202
+    charismabonus: 5
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60091
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.8 Season Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Zainou 'Beancounter' Manufacturing RP-108:
+    boosterduration: 8.64E7
+    boosterness: 194
+    copyspeedbonus: -8
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59797
+    manufacturingtimebonus: -8
+    mineralneedresearchbonus: -8
+    name: Serenity Zainou 'Beancounter' Manufacturing RP-108
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Zainou 'Beancounter' Manufacturing RP-308:
+    boosterduration: 2.592E8
+    boosterness: 194
+    copyspeedbonus: -8
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59799
+    manufacturingtimebonus: -8
+    mineralneedresearchbonus: -8
+    name: Serenity Zainou 'Beancounter' Manufacturing RP-308
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Zainou 'Beancounter' Manufacturing RP-708:
+    boosterduration: 6.048E8
+    boosterness: 194
+    copyspeedbonus: -8
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59801
+    manufacturingtimebonus: -8
+    mineralneedresearchbonus: -8
+    name: Serenity Zainou 'Beancounter' Manufacturing RP-708
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
   Serenity ZhenNiu Cerebral Accelerator Type-A:
     boosterduration: 8.64E7
     boosterness: 108
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57323
     intelligencebonus: 10
@@ -5204,12 +6727,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Serenity ZhenNiu Cerebral Accelerator Type-B:
     boosterduration: 2.592E8
     boosterness: 108
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57324
     intelligencebonus: 10
@@ -5224,12 +6749,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Serenity ZhenNiu Cerebral Accelerator Type-C:
     boosterduration: 4.32E8
     boosterness: 108
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57325
     intelligencebonus: 10
@@ -5244,12 +6771,14 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Serenity ZhenNiu Cerebral Accelerator Type-X:
     boosterduration: 6.048E8
     boosterness: 108
     charismabonus: 10
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57326
     intelligencebonus: 10
@@ -5264,6 +6793,7 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
   Standard Armor Skill Accelerator:
@@ -5271,6 +6801,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 25
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55942
     intelligencebonus: 1
@@ -5286,6 +6817,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard Blue Pill Booster:
@@ -5300,6 +6832,7 @@ types:
     boosterness: 1
     boostershieldcapacitypenalty: -20
     boosterturretoptimalrangepenalty: -20
+    damagemultiplier: 1.0
     id: 9950
     marketGroup: 2491
     name: Standard Blue Pill Booster
@@ -5313,12 +6846,14 @@ types:
     requiredskill1level: 1
     shieldboostmultiplier: 20.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Standard Capsuleer Defense Augmentation Chip:
     armorhpbonus2: 5.0
     boostermaxcharagehours: 1440
     boosterness: 503
     charismabonus: 2
+    damagemultiplier: 1.0
     followsjumpclones: 1
     hullhpbonus: 5.0
     id: 57284
@@ -5335,12 +6870,14 @@ types:
     radius: 1.0
     shieldcapacitybonus: 5.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 2
   Standard Cerebral Accelerator:
     boostermaxcharagehours: 840
     boosterness: 4
     charismabonus: 3
+    damagemultiplier: 1.0
     damagemultiplierbonus: 20
     followsjumpclones: 1
     id: 2838
@@ -5360,6 +6897,7 @@ types:
     requiredskill1level: 1
     rofbonus: -20
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 3
   Standard Crash Booster:
@@ -5375,6 +6913,7 @@ types:
     boostermissilevelocitypenalty: -20
     boosterness: 3
     boostershieldboostamountpenalty: -20
+    damagemultiplier: 1.0
     id: 9947
     marketGroup: 2500
     name: Standard Crash Booster
@@ -5387,6 +6926,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Standard Drop Booster:
     boosterarmorrepairamountpenalty: -20
@@ -5400,6 +6940,7 @@ types:
     boosterness: 2
     boostershieldcapacitypenalty: -20
     boosterturretfalloffpenalty: -20
+    damagemultiplier: 1.0
     id: 15466
     marketGroup: 2496
     name: Standard Drop Booster
@@ -5412,6 +6953,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 25.0
     volume: 1.0
   Standard Engineering Skill Accelerator:
@@ -5419,6 +6961,7 @@ types:
     boostermaxcharagehours: 2400
     boosterness: 29
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55946
     intelligencebonus: 1
@@ -5434,6 +6977,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard Exile Booster:
@@ -5449,6 +6993,7 @@ types:
     boostermissileaoecloudpenalty: 20
     boosterness: 1
     boosterturrettrackingpenalty: -20
+    damagemultiplier: 1.0
     id: 15479
     marketGroup: 2492
     name: Standard Exile Booster
@@ -5461,6 +7006,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Standard Frentix Booster:
     boosterarmorhppenalty: -20
@@ -5474,6 +7020,7 @@ types:
     boosterness: 2
     boostershieldboostamountpenalty: -20
     boosterturrettrackingpenalty: -20
+    damagemultiplier: 1.0
     id: 15460
     marketGroup: 2497
     name: Standard Frentix Booster
@@ -5487,6 +7034,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Standard Mindflood Booster:
     boosterarmorrepairamountpenalty: -20
@@ -5501,6 +7049,7 @@ types:
     boostershieldboostamountpenalty: -20
     boosterturretoptimalrangepenalty: -20
     capacitorcapacitybonus: 10.0
+    damagemultiplier: 1.0
     id: 15463
     marketGroup: 2493
     name: Standard Mindflood Booster
@@ -5513,12 +7062,14 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Standard Shield Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
     boosterness: 27
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 55944
     intelligencebonus: 1
@@ -5534,6 +7085,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard Sooth Sayer Booster:
@@ -5548,6 +7100,7 @@ types:
     boosterness: 2
     boostershieldcapacitypenalty: -20
     boosterturretoptimalrangepenalty: -20
+    damagemultiplier: 1.0
     falloffbonus: 10.0
     id: 10164
     marketGroup: 2498
@@ -5561,6 +7114,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Standard X-Instinct Booster:
     boosterarmorhppenalty: -20
@@ -5574,6 +7128,7 @@ types:
     boosterness: 1
     boostershieldcapacitypenalty: -20
     boosterturretfalloffpenalty: -20
+    damagemultiplier: 1.0
     id: 15457
     marketGroup: 2494
     name: Standard X-Instinct Booster
@@ -5587,12 +7142,14 @@ types:
     requiredskill1level: 1
     signatureradiusbonus: -7.5
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Standard drone skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 4320
     boosterness: 42
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56184
     intelligencebonus: 1
@@ -5608,6 +7165,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard energy turret skill accelerator:
@@ -5615,6 +7173,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 68
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56985
     intelligencebonus: 1
@@ -5630,6 +7189,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard gunnery skill accelerator:
@@ -5637,6 +7197,7 @@ types:
     boostermaxcharagehours: 4320
     boosterness: 38
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56180
     intelligencebonus: 1
@@ -5652,6 +7213,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard hybrid turret skill accelerator:
@@ -5659,6 +7221,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 69
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56986
     intelligencebonus: 1
@@ -5674,6 +7237,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard missile launcher skill accelerator:
@@ -5681,6 +7245,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 70
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56987
     intelligencebonus: 1
@@ -5696,6 +7261,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard missile skill accelerator:
@@ -5703,6 +7269,7 @@ types:
     boostermaxcharagehours: 4320
     boosterness: 40
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56182
     intelligencebonus: 1
@@ -5718,12 +7285,14 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard ore processing skill accelerator:
     boosterduration: 60000.0
     boosterness: 44
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56186
     intelligencebonus: 1
@@ -5739,6 +7308,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Standard projectile turret skill accelerator:
@@ -5746,6 +7316,7 @@ types:
     boostermaxcharagehours: 6480
     boosterness: 67
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 56984
     intelligencebonus: 1
@@ -5761,6 +7332,7 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Strong Blue Pill Booster:
@@ -5775,6 +7347,7 @@ types:
     boosterness: 1
     boostershieldcapacitypenalty: -30
     boosterturretoptimalrangepenalty: -30
+    damagemultiplier: 1.0
     id: 10156
     marketGroup: 2491
     name: Strong Blue Pill Booster
@@ -5788,6 +7361,7 @@ types:
     requiredskill1level: 3
     shieldboostmultiplier: 30.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Strong Crash Booster:
     aoecloudsizebonus: -30.0
@@ -5802,6 +7376,7 @@ types:
     boostermissilevelocitypenalty: -30
     boosterness: 3
     boostershieldboostamountpenalty: -30
+    damagemultiplier: 1.0
     id: 10152
     marketGroup: 2500
     name: Strong Crash Booster
@@ -5814,6 +7389,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 3
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Strong Drop Booster:
     boosterarmorrepairamountpenalty: -30
@@ -5827,6 +7403,7 @@ types:
     boosterness: 2
     boostershieldcapacitypenalty: -30
     boosterturretfalloffpenalty: -30
+    damagemultiplier: 1.0
     id: 15478
     marketGroup: 2496
     name: Strong Drop Booster
@@ -5839,6 +7416,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 3
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 37.5
     volume: 1.0
   Strong Exile Booster:
@@ -5854,6 +7432,7 @@ types:
     boostermissileaoecloudpenalty: 30
     boosterness: 1
     boosterturrettrackingpenalty: -30
+    damagemultiplier: 1.0
     id: 25349
     marketGroup: 2492
     name: Strong Exile Booster
@@ -5866,6 +7445,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 3
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Strong Frentix Booster:
     boosterarmorhppenalty: -30
@@ -5879,6 +7459,7 @@ types:
     boosterness: 2
     boostershieldboostamountpenalty: -30
     boosterturrettrackingpenalty: -30
+    damagemultiplier: 1.0
     id: 15462
     marketGroup: 2497
     name: Strong Frentix Booster
@@ -5892,6 +7473,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 3
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Strong Mindflood Booster:
     boosterarmorrepairamountpenalty: -30
@@ -5906,6 +7488,7 @@ types:
     boostershieldboostamountpenalty: -30
     boosterturretoptimalrangepenalty: -30
     capacitorcapacitybonus: 20.0
+    damagemultiplier: 1.0
     id: 15465
     marketGroup: 2493
     name: Strong Mindflood Booster
@@ -5918,6 +7501,7 @@ types:
     requiredskill1: 3405
     requiredskill1level: 3
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Strong Sooth Sayer Booster:
     boosterarmorrepairamountpenalty: -30
@@ -5931,6 +7515,7 @@ types:
     boosterness: 2
     boostershieldcapacitypenalty: -30
     boosterturretoptimalrangepenalty: -30
+    damagemultiplier: 1.0
     falloffbonus: 20.0
     id: 10166
     marketGroup: 2498
@@ -5944,6 +7529,24 @@ types:
     requiredskill1: 3405
     requiredskill1level: 3
     socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Strong Veilguard Booster:
+    boosterduration: 1800000.0
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 59633
+    marketGroup: 2503
+    name: Strong Veilguard Booster
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 532768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    stabilizecloakdurationbonus: 200
     volume: 1.0
   Strong X-Instinct Booster:
     boosterarmorhppenalty: -30
@@ -5957,6 +7560,7 @@ types:
     boosterness: 1
     boostershieldcapacitypenalty: -30
     boosterturretfalloffpenalty: -30
+    damagemultiplier: 1.0
     id: 15459
     marketGroup: 2494
     name: Strong X-Instinct Booster
@@ -5970,12 +7574,14 @@ types:
     requiredskill1level: 3
     signatureradiusbonus: -15.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Support Drones Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
     boosterness: 120
     charismabonus: 1
+    damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57727
     intelligencebonus: 1
@@ -5991,11 +7597,13 @@ types:
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
   Synth Blue Pill Booster:
     boosterduration: 1800000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 28670
     marketGroup: 2491
     name: Synth Blue Pill Booster
@@ -6009,11 +7617,13 @@ types:
     requiredskill1level: 1
     shieldboostmultiplier: 6.0
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Synth Crash Booster:
     aoecloudsizebonus: -6.0
     boosterduration: 1800000.0
     boosterness: 3
+    damagemultiplier: 1.0
     id: 28672
     marketGroup: 2500
     name: Synth Crash Booster
@@ -6026,10 +7636,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Synth Drop Booster:
     boosterduration: 1800000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 28674
     marketGroup: 2496
     name: Synth Drop Booster
@@ -6042,12 +7654,14 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     trackingspeedbonus: 6.0
     volume: 1.0
   Synth Exile Booster:
     armordamageamountbonus: 6
     boosterduration: 1800000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 28676
     marketGroup: 2492
     name: Synth Exile Booster
@@ -6060,10 +7674,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Synth Frentix Booster:
     boosterduration: 1800000.0
     boosterness: 2
+    damagemultiplier: 1.0
     id: 28678
     marketGroup: 2497
     name: Synth Frentix Booster
@@ -6077,11 +7693,13 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Synth Mindflood Booster:
     boosterduration: 1800000.0
     boosterness: 1
     capacitorcapacitybonus: 6.0
+    damagemultiplier: 1.0
     id: 28680
     marketGroup: 2493
     name: Synth Mindflood Booster
@@ -6094,10 +7712,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Synth Sooth Sayer Booster:
     boosterduration: 1800000.0
     boosterness: 2
+    damagemultiplier: 1.0
     falloffbonus: 6.0
     id: 28684
     marketGroup: 2498
@@ -6111,10 +7731,12 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Synth X-Instinct Booster:
     boosterduration: 1800000.0
     boosterness: 1
+    damagemultiplier: 1.0
     id: 28682
     marketGroup: 2494
     name: Synth X-Instinct Booster
@@ -6128,4 +7750,47 @@ types:
     requiredskill1level: 1
     signatureradiusbonus: -4.5
     socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
+  Tiamat Prremium Insurance:
+    boosterduration: 3.888E9
+    boosterlastinjectiondatetime: 18870.125
+    boosterness: 200
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59964
+    name: Tiamat Prremium Insurance
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Trade Skill Accelerator:
+    boosterduration: 60000.0
+    boosterness: 186
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 59761
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Trade Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1

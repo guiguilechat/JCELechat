@@ -236,6 +236,22 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Amarr Foundation Day Jacket Crate:
+    cpumultiplier: 1.0
+    id: 59977
+    name: Amarr Foundation Day Jacket Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Amarr Foundation Day Pants Crate:
+    cpumultiplier: 1.0
+    id: 59978
+    name: Amarr Foundation Day Pants Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Amarr Inception Package:
     cpumultiplier: 1.0
     id: 43930
@@ -511,6 +527,22 @@ types:
     name: Caldari Union Day Fireworks Crate
     portionSize: 1
     published: true
+  Caldari Union Day Jacket Crate:
+    cpumultiplier: 1.0
+    id: 60109
+    name: Caldari Union Day Jacket Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Caldari Union Day Pants Crate:
+    cpumultiplier: 1.0
+    id: 60107
+    name: Caldari Union Day Pants Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Calm Abyssal Filaments Crate:
     cpumultiplier: 1.0
     id: 49708
@@ -2419,6 +2451,62 @@ types:
     portionSize: 1
     published: true
     volume: 10000.0
+  Republic Service Tattoo (Brutor Tribe) Package:
+    cpumultiplier: 1.0
+    id: 59892
+    name: Republic Service Tattoo (Brutor Tribe) Package
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Republic Service Tattoo (Krusual Tribe) Package:
+    cpumultiplier: 1.0
+    id: 59893
+    name: Republic Service Tattoo (Krusual Tribe) Package
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Republic Service Tattoo (Nefantar Tribe) Package:
+    cpumultiplier: 1.0
+    id: 59894
+    name: Republic Service Tattoo (Nefantar Tribe) Package
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Republic Service Tattoo (Sebiestor Tribe) Package:
+    cpumultiplier: 1.0
+    id: 59895
+    name: Republic Service Tattoo (Sebiestor Tribe) Package
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Republic Service Tattoo (Starkmanir Tribe) Package:
+    cpumultiplier: 1.0
+    id: 59896
+    name: Republic Service Tattoo (Starkmanir Tribe) Package
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Republic Service Tattoo (Thukker Tribe) Package:
+    cpumultiplier: 1.0
+    id: 59897
+    name: Republic Service Tattoo (Thukker Tribe) Package
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Republic Service Tattoo (Vherokior Tribe) Package:
+    cpumultiplier: 1.0
+    id: 59898
+    name: Republic Service Tattoo (Vherokior Tribe) Package
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Retired Server Hamster:
     cpumultiplier: 1.0
     id: 48750

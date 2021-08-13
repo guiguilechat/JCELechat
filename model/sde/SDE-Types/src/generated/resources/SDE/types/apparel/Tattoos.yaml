@@ -1,4 +1,67 @@
 types:
+  Men's Republic Service Tattoo (Brutor):
+    gender: 2
+    id: 59221
+    marketGroup: 1662
+    name: Men's Republic Service Tattoo (Brutor)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Service Tattoo (Krusual):
+    gender: 2
+    id: 59228
+    marketGroup: 1662
+    name: Men's Republic Service Tattoo (Krusual)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Service Tattoo (Nefantar):
+    gender: 2
+    id: 59232
+    marketGroup: 1662
+    name: Men's Republic Service Tattoo (Nefantar)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Service Tattoo (Sebiestor):
+    gender: 2
+    id: 59230
+    marketGroup: 1662
+    name: Men's Republic Service Tattoo (Sebiestor)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Service Tattoo (Starkmanir):
+    gender: 2
+    id: 59201
+    marketGroup: 1662
+    name: Men's Republic Service Tattoo (Starkmanir)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Service Tattoo (Thukker):
+    gender: 2
+    id: 59199
+    marketGroup: 1662
+    name: Men's Republic Service Tattoo (Thukker)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Service Tattoo (Vherokior):
+    gender: 2
+    id: 59226
+    marketGroup: 1662
+    name: Men's Republic Service Tattoo (Vherokior)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Sleeve - 'Drone' (left):
     gender: 2
     id: 33377
@@ -78,4 +141,67 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's Republic Service Tattoo (Brutor):
+    gender: 2
+    id: 59223
+    marketGroup: 1662
+    name: Women's Republic Service Tattoo (Brutor)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Service Tattoo (Krusual):
+    gender: 2
+    id: 59229
+    marketGroup: 1662
+    name: Women's Republic Service Tattoo (Krusual)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Service Tattoo (Nefantar):
+    gender: 2
+    id: 59233
+    marketGroup: 1662
+    name: Women's Republic Service Tattoo (Nefantar)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Service Tattoo (Sebiestor):
+    gender: 2
+    id: 59231
+    marketGroup: 1662
+    name: Women's Republic Service Tattoo (Sebiestor)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Service Tattoo (Starkmanir):
+    gender: 2
+    id: 59202
+    marketGroup: 1662
+    name: Women's Republic Service Tattoo (Starkmanir)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Service Tattoo (Thukker):
+    gender: 2
+    id: 59200
+    marketGroup: 1662
+    name: Women's Republic Service Tattoo (Thukker)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Service Tattoo (Vherokior):
+    gender: 2
+    id: 59227
+    marketGroup: 1662
+    name: Women's Republic Service Tattoo (Vherokior)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612

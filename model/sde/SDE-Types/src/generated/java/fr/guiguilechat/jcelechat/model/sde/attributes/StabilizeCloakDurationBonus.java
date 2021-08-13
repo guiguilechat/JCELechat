@@ -4,16 +4,16 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * 
+ * bonus to stabilize cloak duration
  */
-public class WeaponDisruptionResistanceBonus
+public class StabilizeCloakDurationBonus
     extends IntAttribute
 {
-    public static final WeaponDisruptionResistanceBonus INSTANCE = new WeaponDisruptionResistanceBonus();
+    public static final StabilizeCloakDurationBonus INSTANCE = new StabilizeCloakDurationBonus();
 
     @Override
     public int getId() {
-        return  2353;
+        return  3134;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class WeaponDisruptionResistanceBonus
 
     @Override
     public String toString() {
-        return "WeaponDisruptionResistanceBonus";
+        return "StabilizeCloakDurationBonus";
     }
 }

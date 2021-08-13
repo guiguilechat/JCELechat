@@ -233,6 +233,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Strong Veilguard Booster Blueprint:
+    id: 59678
+    industryblueprintrank: 4.0
+    name: Strong Veilguard Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
   Strong X-Instinct Booster Blueprint:
     id: 25513
     industryblueprintrank: 4.0

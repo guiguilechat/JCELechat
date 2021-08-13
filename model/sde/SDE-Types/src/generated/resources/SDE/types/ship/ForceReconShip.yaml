@@ -199,6 +199,8 @@ types:
     consumptionquantitybonuspercentage: -80
     covertopsandreconopscloakmoduledelay: 5000
     cpuoutput: 500
+    dronebandwidth: 25
+    dronecapacity: 25
     durationbonus: -50
     elitebonusreconship1: 10
     elitebonusreconship2: 5
@@ -217,13 +219,13 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.75
-    hislots: 6
+    hislots: 7
     hp: 600.0
     id: 44995
     inversecappedsecstatus: -1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
-    launcherslotsleft: 4
+    launcherslotsleft: 5
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1837
@@ -231,14 +233,14 @@ types:
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 90000.0
-    maxvelocity: 170.0
+    maxvelocity: 190.0
     medslots: 5
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Enforcer
     packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 1100
+    poweroutput: 1150
     powertospeed: 1
     price: 1.572E8
     propulsiongraphicid: 395
@@ -280,7 +282,7 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
-    turretslotsleft: 4
+    turretslotsleft: 5
     typecolorscheme: 11409
     uniformity: 1.0
     upgradecapacity: 400

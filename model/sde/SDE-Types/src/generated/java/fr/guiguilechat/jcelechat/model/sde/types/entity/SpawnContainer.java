@@ -205,7 +205,7 @@ public class SpawnContainer
     @DefaultIntValue(0)
     public int ishacking;
     /**
-     * The number of milliseconds before the container replenishes the loot inside itself.
+     * The number of milliseconds before the container replenishes the loot inside itself. There is a constant that will be automatically override this value if set to anything lower than 60 seconds.
      */
     @HighIsGood(true)
     @Stackable(true)
