@@ -152,11 +152,12 @@ public class Location {
 	public static Location resolve(ESIAccount account, long locationid) {
 		if (locationid < Integer.MAX_VALUE) {
 			R_get_universe_stations_station_id station;
-			switch ((int) locationid / 1000000) {
-			case 1:// region
+			int prefix = (int) locationid / 1000000;
+			switch (prefix) {
+			case 10:// region
 				R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache().universe.regions((int) locationid).get();
 				return new Location(region, locationid, region.name, LOCTYPE.REGION);
-			case 2:// constellation
+			case 20:// constellation
 				R_get_universe_constellations_constellation_id constel = ESIStatic.INSTANCE.cache().universe
 				.constellations((int) locationid).get();
 				return new Location(constel, locationid, constel.name, LOCTYPE.CONSTEL);
@@ -179,7 +180,7 @@ public class Location {
 				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000000).get();
 				return new Location(station, locationid, station.name, LOCTYPE.CONQSTATION);
 			default:
-				logger.warn("locationid not handled " + locationid);
+				logger.warn("locationid not handled " + locationid + " prefix " + prefix);
 				return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
 			}
 		} else {
