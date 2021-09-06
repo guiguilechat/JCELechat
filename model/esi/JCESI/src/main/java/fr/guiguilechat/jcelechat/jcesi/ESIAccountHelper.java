@@ -10,12 +10,16 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
+import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -26,6 +30,7 @@ import javax.net.ssl.HttpsURLConnection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -215,6 +220,57 @@ public class ESIAccountHelper {
 		return Base64.getEncoder().encodeToString((appID + ":" + appSecret).getBytes(StandardCharsets.UTF_8));
 	}
 
+	public static enum CONTENT_TYPE {
+		JSON {
+
+			@Override
+			public String getContentType() {
+				return "application/json";
+			}
+
+			@Override
+			public String encode(Map<String, String> params) {
+				try {
+					return new ObjectMapper().writeValueAsString(params);
+				} catch (JsonProcessingException e) {
+					throw new UnsupportedOperationException("catch this", e);
+				}
+			}
+		},
+
+		FORM {
+
+			@Override
+			public String getContentType() {
+				return "application/x-www-form-urlencoded";
+			}
+
+			@Override
+			public String encode(Map<String, String> params) {
+				StringBuilder sb = null;
+				for (Entry<String, String> entry : params.entrySet()) {
+					if (sb == null) {
+						sb = new StringBuilder();
+					} else {
+						sb.append("&");
+					}
+					try {
+						sb.append(URLEncoder.encode(entry.getKey(), "UTF-8"));
+						sb.append("=");
+						sb.append(URLEncoder.encode(entry.getValue(), "UTF-8"));
+					} catch (UnsupportedEncodingException e) {
+						throw new UnsupportedOperationException("catch this", e);
+					}
+				}
+				return sb == null ? "" : sb.toString();
+			}
+		};
+
+		public abstract String getContentType();
+
+		public abstract String encode(Map<String, String> params);
+	}
+
 	/**
 	 * connect to the auth server with given appAuth, transmit data and return the
 	 * resulting line.
@@ -226,20 +282,21 @@ public class ESIAccountHelper {
 	 * @return the line returned as the result of connection, or null if any issue
 	 *         appears.
 	 */
-	protected static String getAuthLine(String appAuth, String transmitData) {
+	protected static String getAuthLine(String appAuth, Map<String, String> transmitMap, CONTENT_TYPE type) {
 		try {
 			if (appAuth == null) {
 				throw new UnsupportedOperationException("can't auth with null appAuth");
 			}
-			if (transmitData == null) {
+			if (transmitMap == null) {
 				throw new UnsupportedOperationException("can't auth with null transmitData");
 			}
+			String transmitData = type.encode(transmitMap);
 			String url = "https://login.eveonline.com/oauth/token";
 			URL target = new URL(url);
 			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Authorization", "Basic " + appAuth);
-			con.setRequestProperty("Content-Type", "application/json");
+			con.setRequestProperty("Content-Type", type.getContentType());
 			con.setDoOutput(true);
 			DataOutputStream wr = new DataOutputStream(con.getOutputStream());
 			wr.write(transmitData.getBytes(StandardCharsets.UTF_8));
@@ -248,8 +305,9 @@ public class ESIAccountHelper {
 			int responseCode = con.getResponseCode();
 			if (responseCode != 200) {
 				logger.error("while fetching url=" + url + " appAuth=" + appAuth
-						+ " transmit=" + transmitData + " : response="
+						+ " transmit=" + transmitData + " : responseCode="
 						+ responseCode + " ");
+				System.err.println("transmit is " + transmitData);
 				System.err.println("response is " + responseCode);
 				if (con.getErrorStream() != null) {
 					System.err.println("returned error :");
@@ -266,6 +324,8 @@ public class ESIAccountHelper {
 		}
 	}
 
+	private static CONTENT_TYPE type = CONTENT_TYPE.FORM;
+
 	/**
 	 *
 	 * @param appAuth
@@ -275,9 +335,13 @@ public class ESIAccountHelper {
 	 * @return the new refresh token that allows to create esiconnection.
 	 */
 	public static String getRefreshToken(String appAuth, String authorizationCode) {
-		String transmit = "{\"grant_type\":\"authorization_code\",\"code\":\"" + authorizationCode + "\"}";
+		// String transmit = "{\"grant_type\":\"authorization_code\",\"code\":\"" +
+		// authorizationCode + "\"}";
 		try {
-			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, transmit),
+			Map<String, String> params = new HashMap<>();
+			params.put("grant_type", "authorization_code");
+			params.put("code", authorizationCode);
+			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, params, type),
 					new TypeReference<Map<String, String>>() {
 			});
 			String refreshtoken = map.get("refresh_token");
@@ -297,9 +361,11 @@ public class ESIAccountHelper {
 	}
 
 	public static AccessToken getAccessToken(String appAuth, String refreshtoken) {
-		String transmit = "{\"grant_type\":\"refresh_token\",\"refresh_token\":\"" + refreshtoken + "\"}";
 		try {
-			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, transmit),
+			Map<String, String> params = new HashMap<>();
+			params.put("grant_type", "refresh_token");
+			params.put("refresh_token", refreshtoken);
+			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, params, type),
 					new TypeReference<Map<String, String>>() {
 			});
 			String accessToken = map.get("access_token");
