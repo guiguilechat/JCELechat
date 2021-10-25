@@ -146,14 +146,6 @@ public class CloneVatBay
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -202,14 +194,6 @@ public class CloneVatBay
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double speedfactor;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, AllowsCloneJumpsWhenActive.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, ReclonerFuelQuantity.INSTANCE, DeadspaceUnsafe.INSTANCE, ReclonerFuelType.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CloneVatBay.MetaGroup METAGROUP = new CloneVatBay.MetaGroup();
 
@@ -272,10 +256,6 @@ public class CloneVatBay
             {
                 return maxgroupfitted;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -303,10 +283,6 @@ public class CloneVatBay
             case  20 :
             {
                 return speedfactor;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

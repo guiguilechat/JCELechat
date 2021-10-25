@@ -122,14 +122,6 @@ public class TrackingComputer
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -171,14 +163,6 @@ public class TrackingComputer
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     /**
      * Tracking Speed Bonus
      */
@@ -232,10 +216,6 @@ public class TrackingComputer
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1935 :
             {
                 return overloadtrackingmodulestrengthbonus;
@@ -259,10 +239,6 @@ public class TrackingComputer
             case  1212 :
             {
                 return requiredthermodynamicsskill;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  767 :
             {

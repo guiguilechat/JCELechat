@@ -17,6 +17,8 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 130.0
+    entityequipmentgroupmax: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamageresonance: 1.0
     falloff: 18000.0
     gfxboosterid: 397
@@ -27,6 +29,12 @@ types:
     maxrange: 20000.0
     maxtargetrange: 60000.0
     maxvelocity: 345.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Grazing Phase-0 Forager
     npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
@@ -51,6 +59,972 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 106.0
     volume: 60.0
+  Infesting Corrupted Drone:
+    agility: 20.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 800.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    damagemultiplier: 20.0
+    emdamageresonance: 1.0
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    explosivedamageresonance: 1.0
+    falloff: 4000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 200.0
+    id: 60505
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 10000.0
+    maxvelocity: 1500.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Corrupted Drone
+    npcbehaviormaximumcombatorbitrange: 4000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    scanradarstrength: 7.5
+    scanspeed: 2000
+    shieldcapacity: 400.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 1.0
+    signatureradius: 25.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 30.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 300.0
+    volume: 5.0
+  Infesting Corruptor Sigma:
+    agility: 0.07999999821186066
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 16000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 1200
+    behaviorarmorrepairerdischarge: 20
+    behaviorarmorrepairerduration: 6000
+    behaviorenergyneutralizerdischarge: 400.0
+    behaviorenergyneutralizerduration: 15000
+    behaviorenergyneutralizerfalloff: 12000.0
+    behaviorenergyneutralizerrange: 21000.0
+    behaviorwarpscrambledischarge: 1.0
+    behaviorwarpscrambleduration: 5000
+    behaviorwarpscramblestrength: 2
+    capacitorcapacity: 6000.0
+    capacity: 480.0
+    damagemultiplier: 1.0
+    emdamageresonance: 0.6000000238418579
+    energyneutralizeramount: 1000.0
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 20000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 125.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 4354166.5
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    explosivedamageresonance: 0.6000000238418579
+    falloff: 30000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 394
+    gfxturretid: 570
+    hp: 16000.0
+    id: 60506
+    kineticdamageresonance: 0.6000000238418579
+    maxattacktargets: 1
+    maxlockedtargets: 10
+    maxrange: 35000.0
+    maxtargetrange: 85000.0
+    maxvelocity: 320.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Corruptor Sigma
+    npcbehaviormaximumcombatorbitrange: 20000.0
+    npcdronebandwidth: 5
+    npcdronecapacity: 10
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 253120.0
+    scanmagnetometricstrength: 25.0
+    scanresolution: 200.0
+    scanspeed: 2000
+    shieldcapacity: 7500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 600.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.6000000238418579
+    trackingspeed: 400.0
+    volume: 5.0
+  Infesting Destructor Theta:
+    agility: 0.07999999821186066
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 9000.0
+    armorkineticdamageresonance: 0.800000011920929
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    behaviortargetpainterdischarge: 100.0
+    behaviortargetpainterduration: 12000.0
+    behaviortargetpainterfalloff: 20000.0
+    behaviortargetpainterrange: 50000.0
+    capacitorcapacity: 4000.0
+    capacity: 480.0
+    damagemultiplier: 1.0
+    emdamage: 85.0
+    emdamageresonance: 0.6000000238418579
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 15000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 130.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 4750000.0
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitymissiletypeid: 24533
+    entitysecuritymaxgain: 5.0
+    explosivedamage: 85.0
+    explosivedamageresonance: 0.6000000238418579
+    falloff: 18000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 395
+    gfxturretid: 572
+    hp: 8000.0
+    id: 60316
+    kineticdamage: 85.0
+    kineticdamageresonance: 0.6000000238418579
+    maxattacktargets: 1
+    maxlockedtargets: 10
+    maxrange: 60000.0
+    maxtargetrange: 85000.0
+    maxvelocity: 380.0
+    missiledamagemultiplier: 30.0
+    missileentityaoecloudsizemultiplier: 0.6000000238418579
+    missileentityaoevelocitymultiplier: 0.30000001192092896
+    missileentityflighttimemultiplier: 2.0
+    missileentityvelocitymultiplier: 2.0
+    missilelaunchduration: 9000.0
+    name: Infesting Destructor Theta
+    npcbehaviormaximumcombatorbitrange: 12000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 253120.0
+    scangravimetricstrength: 24.0
+    scanresolution: 200.0
+    scanspeed: 2000
+    shieldcapacity: 13000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 62500.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 600.0
+    signatureradiusbonus: 1.399999976158142
+    speed: 2000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 85.0
+    thermaldamageresonance: 0.6000000238418579
+    trackingspeed: 106.0
+    volume: 5.0
+  Infesting Destructor Zeta:
+    agility: 0.10000000149011612
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 9000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 400
+    behaviorarmorrepairerdischarge: 20
+    behaviorarmorrepairerduration: 10000
+    behaviortargetpainterdischarge: 100.0
+    behaviortargetpainterduration: 12000.0
+    behaviortargetpainterfalloff: 20000.0
+    behaviortargetpainterrange: 50000.0
+    capacitorcapacity: 5000.0
+    capacity: 480.0
+    damagemultiplier: 1.0
+    emdamage: 85.0
+    emdamageresonance: 0.6000000238418579
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 15000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 800.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 4750000.0
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitymissiletypeid: 24533
+    entitysecuritymaxgain: 5.0
+    explosivedamage: 85.0
+    explosivedamageresonance: 0.6000000238418579
+    falloff: 18000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 395
+    gfxturretid: 572
+    hp: 8000.0
+    id: 60580
+    kineticdamage: 85.0
+    kineticdamageresonance: 0.6000000238418579
+    maxattacktargets: 1
+    maxlockedtargets: 10
+    maxrange: 60000.0
+    maxtargetrange: 85000.0
+    maxvelocity: 1100.0
+    missiledamagemultiplier: 30.0
+    missileentityaoecloudsizemultiplier: 0.800000011920929
+    missileentityaoevelocitymultiplier: 0.5
+    missileentityflighttimemultiplier: 3.0
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 9000.0
+    name: Infesting Destructor Zeta
+    npcbehaviormaximumcombatorbitrange: 22000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 253120.0
+    scanladarstrength: 20.0
+    scanresolution: 200.0
+    scanspeed: 2000
+    shieldcapacity: 9000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 62500.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 450.0
+    signatureradiusbonus: 1.399999976158142
+    speed: 2000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 85.0
+    thermaldamageresonance: 0.6000000238418579
+    trackingspeed: 106.0
+    volume: 5.0
+  Infesting Disruptor Tau:
+    agility: 0.15000000596046448
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8100000023841858
+    armorhp: 1200.0
+    armorkineticdamageresonance: 0.4399999976158142
+    armorthermaldamageresonance: 0.3499999940395355
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 350
+    behaviorarmorrepairerdischarge: 20
+    behaviorarmorrepairerduration: 10000
+    behaviorwarpscrambledischarge: 1.0
+    behaviorwarpscrambleduration: 5000
+    behaviorwarpscramblestrength: 2
+    capacitorcapacity: 1875.0
+    capacity: 480.0
+    damagemultiplier: 40.0
+    emdamage: 85.0
+    emdamageresonance: 0.46000000834465027
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 50000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 268.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 3166666.75
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitysecuritymaxgain: 5.0
+    explosivedamageresonance: 0.46000000834465027
+    falloff: 40000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 397
+    gfxturretid: 570
+    hp: 1400.0
+    id: 60331
+    kineticdamage: 10.0
+    kineticdamageresonance: 0.46000000834465027
+    maxattacktargets: 1
+    maxlockedtargets: 10
+    maxrange: 80000.0
+    maxtargetrange: 120000.0
+    maxvelocity: 1340.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Disruptor Tau
+    npcbehaviormaximumcombatorbitrange: 60000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 356250.0
+    scangravimetricstrength: 20.0
+    scanresolution: 500.0
+    scanspeed: 2000
+    shieldcapacity: 8000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.3700000047683716
+    shieldkineticdamageresonance: 0.33000001311302185
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.1599999964237213
+    shielduniformity: 0.75
+    signatureradius: 180.0
+    speed: 7000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 8.0
+    thermaldamageresonance: 0.46000000834465027
+    trackingspeed: 400.0
+    volume: 5.0
+  Infesting Interruptor Omicron:
+    agility: 0.05000000074505806
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.550000011920929
+    armorhp: 19000.0
+    armorkineticdamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.44999998807907104
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 800
+    behaviorarmorrepairerdischarge: 20
+    behaviorarmorrepairerduration: 10000
+    behaviorwarpscrambledischarge: 1.0
+    behaviorwarpscrambleduration: 5000
+    behaviorwarpscramblestrength: 2
+    capacitorcapacity: 6000.0
+    capacity: 480.0
+    damagemultiplier: 60.0
+    emdamage: 85.0
+    emdamageresonance: 0.6000000238418579
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 6000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 120.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 4750000.0
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    explosivedamageresonance: 0.6000000238418579
+    falloff: 30000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 397
+    gfxturretid: 464
+    hp: 14000.0
+    id: 60255
+    kineticdamageresonance: 0.6000000238418579
+    maxattacktargets: 1
+    maxlockedtargets: 10
+    maxrange: 35000.0
+    maxtargetrange: 85000.0
+    maxvelocity: 320.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Interruptor Omicron
+    npcbehaviormaximumcombatorbitrange: 8000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 253120.0
+    scanradarstrength: 24.0
+    scanresolution: 200.0
+    scanspeed: 2000
+    shieldcapacity: 7500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 20.0
+    thermaldamageresonance: 0.6000000238418579
+    trackingspeed: 500.0
+    volume: 5.0
+  Infesting Mutagenitor Zero:
+    agility: 0.009999999776482582
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 45000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 350
+    behaviorarmorrepairerdischarge: 20
+    behaviorarmorrepairerduration: 10000
+    behaviorwarpscrambledischarge: 1.0
+    behaviorwarpscrambleduration: 5000
+    behaviorwarpscramblestrength: 2
+    capacitorcapacity: 20000.0
+    capacity: 480.0
+    damagemultiplier: 200.0
+    emdamage: 85.0
+    emdamageresonance: 1.0
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 9000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 25.0
+    entityequipmentgroupmax: 2
+    entityequipmentmax: 2
+    entitykillbounty: 5.2493008E7
+    entitylootcountmax: 1
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitysecuritymaxgain: 5.0
+    explosivedamage: 40.0
+    explosivedamageresonance: 1.0
+    falloff: 36000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 397
+    gfxturretid: 20454
+    hp: 50000.0
+    id: 60333
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 14
+    maxrange: 18000.0
+    maxtargetrange: 225000.0
+    maxvelocity: 50.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Mutagenitor Zero
+    npcbehaviormaximumcombatorbitrange: 10000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 5625000.0
+    scanladarstrength: 100.0
+    scanresolution: 500.0
+    scanspeed: 2000
+    shieldcapacity: 65000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4300000071525574
+    shieldkineticdamageresonance: 0.5199999809265137
+    shieldrechargerate: 1.25E7
+    shieldthermaldamageresonance: 0.699999988079071
+    shielduniformity: 0.75
+    signatureradius: 10000.0
+    speed: 5500.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 200.0
+    volume: 5.0
+  Infesting Obstructor Nu:
+    agility: 0.5
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.7200000286102295
+    armorhp: 1750.0
+    armorkineticdamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.5799999833106995
+    armoruniformity: 1.0
+    capacitorcapacity: 1200.0
+    capacity: 480.0
+    damagemultiplier: 50.0
+    emdamage: 85.0
+    emdamageresonance: 0.6000000238418579
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 30000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 1250.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 2770833.25
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitysecuritymaxgain: 5.0
+    explosivedamageresonance: 0.6000000238418579
+    falloff: 12000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 394
+    gfxturretid: 458
+    hp: 1000.0
+    id: 60317
+    kineticdamageresonance: 0.6000000238418579
+    maxattacktargets: 1
+    maxlockedtargets: 10
+    maxrange: 32000.0
+    maxtargetrange: 75000.0
+    maxvelocity: 2800.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Obstructor Nu
+    npcbehaviormaximumcombatorbitrange: 35000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 253120.0
+    scanradarstrength: 18.0
+    scanresolution: 350.0
+    scanspeed: 2000
+    shieldcapacity: 1500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.46000000834465027
+    shieldkineticdamageresonance: 0.550000011920929
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.7400000095367432
+    shielduniformity: 0.75
+    signatureradius: 250.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    thermaldamageresonance: 0.6000000238418579
+    trackingspeed: 300.0
+    volume: 5.0
+  Infesting Obstructor Pi:
+    agility: 0.10000000149011612
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.4300000071525574
+    armorhp: 8000.0
+    armorkineticdamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.3499999940395355
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 278
+    behaviorarmorrepairerdischarge: 40
+    behaviorarmorrepairerduration: 10000
+    behaviorenergyneutralizerdischarge: 50.0
+    behaviorenergyneutralizerduration: 6000
+    behaviorenergyneutralizerfalloff: 14000.0
+    behaviorenergyneutralizerrange: 14000.0
+    behaviorwebifierdischarge: 1.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 18000.0
+    capacitorcapacity: 5000.0
+    capacity: 480.0
+    damagemultiplier: 40.0
+    emdamage: 85.0
+    emdamageresonance: 0.4000000059604645
+    energyneutralizeramount: 100.0
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 9000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 205.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 2375000.0
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitymissiletypeid: 213
+    entitysecuritymaxgain: 5.0
+    explosivedamageresonance: 0.4000000059604645
+    falloff: 10000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 394
+    gfxturretid: 458
+    hp: 5000.0
+    id: 60318
+    kineticdamageresonance: 0.4000000059604645
+    maxattacktargets: 1
+    maxlockedtargets: 14
+    maxrange: 40000.0
+    maxtargetrange: 60000.0
+    maxvelocity: 1351.0
+    missiledamagemultiplier: 2.5
+    missileentityaoecloudsizemultiplier: 0.30000001192092896
+    missileentityaoevelocitymultiplier: 2.0
+    missileentityflighttimemultiplier: 3.0
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 8000.0
+    name: Infesting Obstructor Pi
+    npcbehaviormaximumcombatorbitrange: 7000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 562500.0
+    scanradarstrength: 16.0
+    scanresolution: 500.0
+    scanspeed: 2000
+    shieldcapacity: 3750.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4300000071525574
+    shieldkineticdamageresonance: 0.5199999809265137
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.699999988079071
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    speed: 6000.0
+    speedfactor: -50.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    thermaldamageresonance: 0.4000000059604645
+    trackingspeed: 200.0
+    volume: 5.0
+  Infesting Obstructor Xi:
+    agility: 0.20000000298023224
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.4300000071525574
+    armorhp: 5000.0
+    armorkineticdamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.3499999940395355
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 150
+    behaviorarmorrepairerdischarge: 40
+    behaviorarmorrepairerduration: 10000
+    behaviorwarpscrambledischarge: 1.0
+    behaviorwarpscrambleduration: 5000
+    behaviorwarpscramblerange: 10000.0
+    behaviorwarpscramblestrength: 2
+    capacitorcapacity: 5000.0
+    capacity: 480.0
+    damagemultiplier: 50.0
+    emdamage: 85.0
+    emdamageresonance: 0.4000000059604645
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 9000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 195.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 2770833.25
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitysecuritymaxgain: 5.0
+    explosivedamageresonance: 0.4000000059604645
+    falloff: 10000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 394
+    gfxturretid: 570
+    hp: 5000.0
+    id: 60382
+    kineticdamage: 16.0
+    kineticdamageresonance: 0.4000000059604645
+    maxattacktargets: 1
+    maxlockedtargets: 14
+    maxrange: 40000.0
+    maxtargetrange: 60000.0
+    maxvelocity: 1450.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Obstructor Xi
+    npcbehaviormaximumcombatorbitrange: 1200.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 562500.0
+    scanmagnetometricstrength: 18.0
+    scanresolution: 500.0
+    scanspeed: 2000
+    shieldcapacity: 2500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4300000071525574
+    shieldkineticdamageresonance: 0.5199999809265137
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.699999988079071
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    thermaldamageresonance: 0.4000000059604645
+    trackingspeed: 200.0
+    volume: 5.0
+  Infesting Subverted Fighter:
+    agility: 5.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 1600.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    damagemultiplier: 45.0
+    emdamageresonance: 1.0
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    explosivedamageresonance: 1.0
+    falloff: 4000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 2200.0
+    id: 60518
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 10000.0
+    maxvelocity: 2500.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Subverted Fighter
+    npcbehaviormaximumcombatorbitrange: 6000.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    scanradarstrength: 7.5
+    scanspeed: 2000
+    shieldcapacity: 800.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 1.0
+    signatureradius: 50.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 30.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 400.0
+    volume: 5.0
+  Infesting Subvertor Gamma:
+    agility: 0.009999999776482582
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 32000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 2400
+    behaviorarmorrepairerdischarge: 20
+    behaviorarmorrepairerduration: 6000
+    behaviorenergyneutralizerdischarge: 700.0
+    behaviorenergyneutralizerduration: 15000
+    behaviorenergyneutralizerfalloff: 12000.0
+    behaviorenergyneutralizerrange: 25000.0
+    behaviorwarpscrambledischarge: 1.0
+    behaviorwarpscrambleduration: 5000
+    behaviorwarpscramblestrength: 2
+    capacitorcapacity: 15000.0
+    capacity: 480.0
+    damagemultiplier: 1.0
+    emdamageresonance: 0.6000000238418579
+    energyneutralizeramount: 2000.0
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 20000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 60.0
+    entityequipmentgroupmax: 2
+    entityequipmentmax: 2
+    entitykillbounty: 2.4721028E7
+    entitylootcountmax: 2
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    explosivedamageresonance: 0.6000000238418579
+    falloff: 30000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 394
+    gfxturretid: 570
+    hp: 21000.0
+    id: 60517
+    kineticdamageresonance: 0.6000000238418579
+    maxattacktargets: 1
+    maxlockedtargets: 10
+    maxrange: 35000.0
+    maxtargetrange: 200000.0
+    maxvelocity: 100.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Infesting Subvertor Gamma
+    npcbehaviormaximumcombatorbitrange: 20000.0
+    npcdronebandwidth: 3
+    npcdronecapacity: 9
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 1253100.0
+    scanmagnetometricstrength: 50.0
+    scanresolution: 100.0
+    scanspeed: 2000
+    shieldcapacity: 18000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 6000.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.6000000238418579
+    trackingspeed: 400.0
+    volume: 5.0
+  Infesting Vector Mu:
+    agility: 1.0
+    armordamageamount: 400.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.5699999928474426
+    armorhp: 700.0
+    armorkineticdamageresonance: 0.5400000214576721
+    armorthermaldamageresonance: 0.46000000834465027
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 350
+    behaviorarmorrepairerdischarge: 20
+    behaviorarmorrepairerduration: 10000
+    behaviorwarpscrambledischarge: 1.0
+    behaviorwarpscrambleduration: 5000
+    behaviorwarpscramblerange: 10000.0
+    behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 1.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 15000.0
+    capacitorcapacity: 3750.0
+    capacity: 480.0
+    damagemultiplier: 50.0
+    emdamage: 85.0
+    emdamageresonance: 0.46000000834465027
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 187.0
+    entityequipmentgroupmax: 1
+    entitykillbounty: 1583333.375
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitymissiletypeid: 24473
+    entitysecuritymaxgain: 5.0
+    explosivedamageresonance: 0.46000000834465027
+    falloff: 30000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 394
+    gfxturretid: 8089
+    hp: 600.0
+    id: 60332
+    kineticdamageresonance: 0.46000000834465027
+    maxattacktargets: 1
+    maxlockedtargets: 12
+    maxrange: 35000.0
+    maxtargetrange: 40000.0
+    maxvelocity: 3200.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoevelocitymultiplier: 2.25
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 8000.0
+    name: Infesting Vector Mu
+    npcbehaviormaximumcombatorbitrange: 1500.0
+    optimalsigradius: 40000
+    packagedVolume: 5.0
+    portionSize: 1
+    published: false
+    radius: 15.0
+    rechargerate: 562500.0
+    scanladarstrength: 12.0
+    scanresolution: 800.0
+    scanspeed: 2000
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.46000000834465027
+    shieldkineticdamageresonance: 0.550000011920929
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.7400000095367432
+    shielduniformity: 0.75
+    signatureradius: 45.0
+    speed: 5000.0
+    speedfactor: -40.0
+    structureuniformity: 1.0
+    thermaldamage: 20.0
+    thermaldamageresonance: 0.46000000834465027
+    trackingspeed: 400.0
+    volume: 5.0
   Interfering Phase-I Swarmer:
     agility: 100.0
     aoecloudsizebonus: -1.3333333730697632
@@ -80,7 +1054,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.002286901930347085
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -1.3333333730697632
     explosivedamage: 2.222222328186035
     explosivedamageresonance: 1.0
@@ -98,6 +1074,12 @@ types:
     maxtargetrange: 10000.0
     maxtargetrangebonus: -1.3333333730697632
     maxvelocity: 2800.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     missilevelocitybonus: -1.3333333730697632
     name: Interfering Phase-I Swarmer
     npcbehaviormaximumcombatorbitrange: 1333.3333740234375
@@ -161,7 +1143,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.029729729518294334
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -4.0
     explosivedamage: 3.3333332538604736
     explosivedamageresonance: 1.0
@@ -179,6 +1163,12 @@ types:
     maxtargetrange: 30000.0
     maxtargetrangebonus: -4.0
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     missilevelocitybonus: -4.0
     name: Interfering Phase-II Legionary
     npcbehaviormaximumcombatorbitrange: 2000.0
@@ -243,7 +1233,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.04459459334611893
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -6.0
     explosivedamage: 5.0
     explosivedamageresonance: 1.0
@@ -261,6 +1253,12 @@ types:
     maxtargetrange: 30000.0
     maxtargetrangebonus: -6.0
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     missilevelocitybonus: -6.0
     name: Interfering Phase-III Legionary
     npcbehaviormaximumcombatorbitrange: 2000.0
@@ -329,7 +1327,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.05945945903658867
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 6.666666507720947
     explosivedamageresonance: 1.0
     falloff: 24000.0
@@ -346,6 +1346,12 @@ types:
     maxtargetrange: 30000.0
     maxtargetrangebonus: -6.300000190734863
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     missilevelocitybonus: -6.300000190734863
     name: Interfering Phase-IV Legionary
     npcbehaviormaximumcombatorbitrange: 2666.666748046875
@@ -410,7 +1416,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.002286901930347085
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -1.4666666984558105
     explosivedamage: 3.1111111640930176
     explosivedamageresonance: 1.0
@@ -428,6 +1436,12 @@ types:
     maxtargetrange: 10000.0
     maxtargetrangebonus: -1.4666666984558105
     maxvelocity: 2800.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     missilevelocitybonus: -1.4666666984558105
     name: Obstructing Phase-I Swarmer
     npcbehaviormaximumcombatorbitrange: 1333.3333740234375
@@ -491,7 +1505,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.03270270302891731
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -4.400000095367432
     explosivedamage: 4.666666507720947
     explosivedamageresonance: 1.0
@@ -509,6 +1525,12 @@ types:
     maxtargetrange: 30000.0
     maxtargetrangebonus: -4.400000095367432
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     missilevelocitybonus: -4.400000095367432
     name: Obstructing Phase-II Legionary
     npcbehaviormaximumcombatorbitrange: 2000.0
@@ -573,7 +1595,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.04905405268073082
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -6.599999904632568
     explosivedamage: 7.0
     explosivedamageresonance: 1.0
@@ -591,6 +1615,12 @@ types:
     maxtargetrange: 30000.0
     maxtargetrangebonus: -6.599999904632568
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     missilevelocitybonus: -6.599999904632568
     name: Obstructing Phase-III Legionary
     npcbehaviormaximumcombatorbitrange: 2000.0
@@ -655,7 +1685,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.06540540605783463
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 9.333333015441895
     explosivedamageresonance: 1.0
     falloff: 24000.0
@@ -672,6 +1704,12 @@ types:
     maxtargetrange: 30000.0
     maxtargetrangebonus: -6.929999828338623
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     missilevelocitybonus: -6.929999828338623
     name: Obstructing Phase-IV Legionary
     npcbehaviormaximumcombatorbitrange: 2666.666748046875
@@ -727,7 +1765,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 90.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.14300000667572021
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 130.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -740,6 +1780,12 @@ types:
     maxrange: 60000.0
     maxtargetrange: 60000.0
     maxvelocity: 240.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Overmind Broodlord Alpha
     npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
@@ -784,7 +1830,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 105.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.14300000667572021
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 85.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -798,6 +1846,12 @@ types:
     maxrange: 60000.0
     maxtargetrange: 60000.0
     maxvelocity: 240.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Overmind Broodlord Omega
     npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
@@ -842,7 +1896,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 130.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.09000000357627869
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 55.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -855,6 +1911,12 @@ types:
     maxrange: 40000.0
     maxtargetrange: 60000.0
     maxvelocity: 525.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Overmind Destructor Delta
     npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
@@ -899,7 +1961,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.09000000357627869
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 78.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -912,6 +1976,12 @@ types:
     maxrange: 40000.0
     maxtargetrange: 60000.0
     maxvelocity: 525.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Overmind Destructor Epsilon
     npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
@@ -957,7 +2027,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 110.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.09000000357627869
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 33.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -970,6 +2042,12 @@ types:
     maxrange: 40000.0
     maxtargetrange: 60000.0
     maxvelocity: 525.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Overmind Interruptor Iota
     npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
@@ -1015,7 +2093,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 110.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.09000000357627869
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 45.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1028,6 +2108,12 @@ types:
     maxrange: 40000.0
     maxtargetrange: 60000.0
     maxvelocity: 525.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Overmind Interruptor Lambda
     npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
@@ -1070,7 +2156,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 60.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.1899999976158142
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamageresonance: 1.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -1080,6 +2168,12 @@ types:
     maxlockedtargets: 8
     maxtargetrange: 60000.0
     maxvelocity: 525.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Overmind Progenitor Zero
     npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
@@ -1121,7 +2215,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.002286901930347085
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 3.1111111640930176
     explosivedamageresonance: 1.0
     falloff: 6000.0
@@ -1135,6 +2231,12 @@ types:
     maxrange: 888.888916015625
     maxtargetrange: 10000.0
     maxvelocity: 2800.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Punishing Phase-I Swarmer
     npcbehaviormaximumcombatorbitrange: 1333.3333740234375
     optimalsigradius: 40000
@@ -1181,7 +2283,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.03270270302891731
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 4.666666507720947
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1195,6 +2299,12 @@ types:
     maxrange: 1333.3333740234375
     maxtargetrange: 30000.0
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Punishing Phase-II Legionary
     npcbehaviormaximumcombatorbitrange: 2000.0
     optimalsigradius: 40000
@@ -1239,7 +2349,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.04905405268073082
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 7.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1253,6 +2365,12 @@ types:
     maxrange: 2000.0
     maxtargetrange: 30000.0
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Punishing Phase-III Legionary
     npcbehaviormaximumcombatorbitrange: 2000.0
     optimalsigradius: 40000
@@ -1297,7 +2415,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.06540540605783463
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 9.333333015441895
     explosivedamageresonance: 1.0
     falloff: 24000.0
@@ -1311,6 +2431,12 @@ types:
     maxrange: 2666.666748046875
     maxtargetrange: 30000.0
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Punishing Phase-IV Legionary
     npcbehaviormaximumcombatorbitrange: 2666.666748046875
     optimalsigradius: 40000
@@ -1336,6 +2462,127 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 326.3999938964844
     volume: 10.0
+  Punishing Phase-IVxZ Broodguard:
+    agility: 100.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 1.0
+    armorhp: 50.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 220.0
+    capacity: 40.0
+    damagemultiplier: 1.0
+    emdamage: 10.0
+    emdamageresonance: 1.0
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    explosivedamage: 10.0
+    explosivedamageresonance: 1.0
+    falloff: 7500.0
+    gfxboosterid: 397
+    hp: 50.0
+    id: 57751
+    kineticdamage: 10.0
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 2
+    maxrange: 15000.0
+    maxtargetrange: 1.0
+    maxvelocity: 1500.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Punishing Phase-IVxZ Broodguard
+    optimalsigradius: 45
+    packagedVolume: 60.0
+    portionSize: 1
+    published: false
+    radius: 45.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 17000.0
+    scanladarstrength: 6000.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 6000.0
+    scanresolution: 2000.0
+    shieldcapacity: 75.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 45.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 10.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 4000.0
+    volume: 60.0
+  Salvaging Phase-0xZ Forager:
+    agility: 100.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 1.0
+    armorhp: 50.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 220.0
+    capacity: 40.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    explosivedamage: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 4500.0
+    gfxboosterid: 397
+    hp: 50.0
+    id: 57750
+    kineticdamage: 1.0
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 2
+    maxrange: 8000.0
+    maxtargetrange: 20000.0
+    maxvelocity: 1750.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Salvaging Phase-0xZ Forager
+    optimalsigradius: 45
+    packagedVolume: 60.0
+    portionSize: 1
+    published: false
+    radius: 45.0
+    rechargerate: 500000.0
+    scanmagnetometricstrength: 100.0
+    scanresolution: 2000.0
+    shieldcapacity: 75.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 45.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 4000.0
+    volume: 60.0
   Vexing Phase-I Swarmer:
     agility: 100.0
     armoremdamageresonance: 0.4000000059604645
@@ -1355,7 +2602,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.002286901930347085
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 2.222222328186035
     explosivedamageresonance: 1.0
     falloff: 6000.0
@@ -1369,6 +2618,12 @@ types:
     maxrange: 888.888916015625
     maxtargetrange: 10000.0
     maxvelocity: 2800.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Vexing Phase-I Swarmer
     npcbehaviormaximumcombatorbitrange: 1333.3333740234375
     optimalsigradius: 40000
@@ -1416,7 +2671,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.029729729518294334
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 3.3333332538604736
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1430,6 +2687,12 @@ types:
     maxrange: 1333.3333740234375
     maxtargetrange: 30000.0
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Vexing Phase-II Legionary
     npcbehaviormaximumcombatorbitrange: 2000.0
     optimalsigradius: 40000
@@ -1478,7 +2741,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.04459459334611893
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 5.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1492,6 +2757,12 @@ types:
     maxrange: 2000.0
     maxtargetrange: 30000.0
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Vexing Phase-III Legionary
     npcbehaviormaximumcombatorbitrange: 2000.0
     optimalsigradius: 40000
@@ -1536,7 +2807,9 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityequipmentgroupmax: 1
     entityfactionloss: 0.05945945903658867
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 6.666666507720947
     explosivedamageresonance: 1.0
     falloff: 24000.0
@@ -1550,6 +2823,12 @@ types:
     maxrange: 2666.666748046875
     maxtargetrange: 30000.0
     maxvelocity: 2000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Vexing Phase-IV Legionary
     npcbehaviormaximumcombatorbitrange: 2666.666748046875
     optimalsigradius: 40000

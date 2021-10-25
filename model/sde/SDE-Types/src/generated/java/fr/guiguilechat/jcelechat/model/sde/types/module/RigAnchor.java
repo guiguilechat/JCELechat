@@ -63,28 +63,12 @@ public class RigAnchor
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int rigsize;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
      */
@@ -128,17 +112,9 @@ public class RigAnchor
             {
                 return maxgroupfitted;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1547 :
             {
                 return rigsize;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  1153 :
             {

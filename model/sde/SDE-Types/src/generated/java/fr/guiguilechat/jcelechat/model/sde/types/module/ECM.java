@@ -117,14 +117,6 @@ public class ECM
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -194,14 +186,6 @@ public class ECM
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double scanradarstrengthbonus;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, OverloadECMStrengthBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, RequiredSkill1Level.INSTANCE, RemoteResistanceID.INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, EwTargetJam.INSTANCE })));
     public static final ECM.MetaGroup METAGROUP = new ECM.MetaGroup();
 
@@ -244,10 +228,6 @@ public class ECM
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1225 :
             {
                 return overloadecmstrengthbonus;
@@ -287,10 +267,6 @@ public class ECM
             case  241 :
             {
                 return scanradarstrengthbonus;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

@@ -195,14 +195,6 @@ public class CloakingDevice
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -258,14 +250,6 @@ public class CloakingDevice
     @Stackable(true)
     @DefaultIntValue(0)
     public int stabilizecloakduration;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, Hp.INSTANCE, CovertCloakCPUAdd.INSTANCE, CanFitShipGroup05 .INSTANCE, ShieldCapacityMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, CapacitorCapacityMultiplier.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, StabilizeCloakDuration.INSTANCE, CloakingTargetingDelay.INSTANCE, MaxVelocityModifier.INSTANCE, Cpu.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType6 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final CloakingDevice.MetaGroup METAGROUP = new CloakingDevice.MetaGroup();
 
@@ -348,10 +332,6 @@ public class CloakingDevice
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  669 :
             {
                 return modulereactivationdelay;
@@ -383,10 +363,6 @@ public class CloakingDevice
             case  3118 :
             {
                 return stabilizecloakduration;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

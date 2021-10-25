@@ -100,14 +100,6 @@ public class RemoteCapacitorTransmitter
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -170,14 +162,6 @@ public class RemoteCapacitorTransmitter
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, PowerTransferAmount.INSTANCE, RemoteResistanceID.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final RemoteCapacitorTransmitter.MetaGroup METAGROUP = new RemoteCapacitorTransmitter.MetaGroup();
 
@@ -211,10 +195,6 @@ public class RemoteCapacitorTransmitter
             case  1692 :
             {
                 return metagroupid;
-            }
-            case  633 :
-            {
-                return metalevelold;
             }
             case  1206 :
             {
@@ -251,10 +231,6 @@ public class RemoteCapacitorTransmitter
             case  1212 :
             {
                 return requiredthermodynamicsskill;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

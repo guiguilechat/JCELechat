@@ -54,7 +54,6 @@ types:
     marketGroup: 801
     maxgroupactive: 1
     maxgroupfitted: 1
-    maxlockedtargets: 13
     maxrangebonus: 25.0
     missilevelocitybonus: 25.0
     name: Bastion Module I

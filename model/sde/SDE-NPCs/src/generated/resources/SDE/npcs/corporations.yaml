@@ -372,6 +372,10 @@ corporations:
     faction: EDENCOM
     id: 1000297
     name: AEGIS
+  AIR Laboratories:
+    faction: Association for Interdisciplinary Research
+    id: 1000413
+    name: AIR Laboratories
   Academy of Aggressive Behaviour:
     faction: Jove Empire
     id: 1000178
@@ -4153,6 +4157,7 @@ corporations:
     - 16339
     - 17098
     - 17099
+    - 17184
     name: CONCORD
   CONCORD Aerospace:
     faction: CONCORD Assembly
@@ -26952,6 +26957,9 @@ corporations:
     - 17131
     - 17132
     - 17133
+    - 17179
+    - 17180
+    - 17181
     name: State Military Stockpile
   State Peacekeepers:
     faction: Caldari State

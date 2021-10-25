@@ -31169,3 +31169,60 @@ offers:
     requirements:
       isk: 20000000
       lp: 40000
+  17179:
+    id: 17179
+    name: Griffin Military Stockpile Captain SKIN
+    product:
+      id: 59427
+      quantity: 1
+    requirements:
+      isk: 5000000
+      lp: 10000
+  17180:
+    id: 17180
+    name: Corax Military Stockpile Captain SKIN
+    product:
+      id: 59428
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 15000
+  17181:
+    id: 17181
+    name: Ferox Military Stockpile Captain SKIN
+    product:
+      id: 59429
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 40000
+  17184:
+    bpid: 60514
+    bpruns: 5
+    id: 17184
+    name: 5* CONCORD Rogue Analysis Beacon(BPC)
+    product:
+      id: 60244
+      quantity: 5
+    requirements:
+      isk: 20000000
+      items:
+      - id: 2875
+        quantity: 5
+      - id: 2867
+        quantity: 10
+      - id: 2872
+        quantity: 10
+      - id: 2876
+        quantity: 10
+      - id: 40
+        quantity: 2100
+      - id: 39
+        quantity: 14200
+      - id: 37
+        quantity: 1552000
+      - id: 35
+        quantity: 2510000
+      - id: 34
+        quantity: 12080000
+      lp: 20000

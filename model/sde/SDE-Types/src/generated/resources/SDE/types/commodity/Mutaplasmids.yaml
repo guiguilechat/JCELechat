@@ -469,6 +469,166 @@ types:
     price: 1000.0
     published: true
     volume: 1.0
+  Exigent Heavy Drone Durability Mutaplasmid:
+    id: 60465
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Heavy Drone Durability Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Heavy Drone Firepower Mutaplasmid:
+    id: 60464
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Heavy Drone Firepower Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Heavy Drone Navigation Mutaplasmid:
+    id: 60463
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Heavy Drone Navigation Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Heavy Drone Projection Mutaplasmid:
+    id: 60466
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Heavy Drone Projection Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Light Drone Durability Mutaplasmid:
+    id: 60462
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Light Drone Durability Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Light Drone Firepower Mutaplasmid:
+    id: 60461
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Light Drone Firepower Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Light Drone Navigation Mutaplasmid:
+    id: 60460
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Light Drone Navigation Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Light Drone Projection Mutaplasmid:
+    id: 60471
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Light Drone Projection Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Medium Drone Durability Mutaplasmid:
+    id: 60474
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Medium Drone Durability Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Medium Drone Firepower Mutaplasmid:
+    id: 60473
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Medium Drone Firepower Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Medium Drone Navigation Mutaplasmid:
+    id: 60472
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Medium Drone Navigation Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Medium Drone Projection Mutaplasmid:
+    id: 60475
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Medium Drone Projection Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Sentry Drone Durability Mutaplasmid:
+    id: 60469
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Sentry Drone Durability Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Sentry Drone Firepower Mutaplasmid:
+    id: 60468
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Sentry Drone Firepower Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Sentry Drone Navigation Mutaplasmid:
+    id: 60467
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Sentry Drone Navigation Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Exigent Sentry Drone Projection Mutaplasmid:
+    id: 60470
+    marketGroup: 2800
+    mass: 1.0
+    name: Exigent Sentry Drone Projection Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
   Gravid 10000MN Afterburner Mutaplasmid:
     id: 56277
     marketGroup: 2750
@@ -934,6 +1094,26 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Gravid X-Large Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Radical Drone Damage Amplifier Mutaplasmid:
+    id: 60476
+    marketGroup: 2800
+    mass: 1.0
+    name: Radical Drone Damage Amplifier Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Radical Fighter Support Unit Mutaplasmid:
+    id: 60477
+    marketGroup: 2800
+    mass: 1.0
+    name: Radical Fighter Support Unit Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
     price: 1000.0

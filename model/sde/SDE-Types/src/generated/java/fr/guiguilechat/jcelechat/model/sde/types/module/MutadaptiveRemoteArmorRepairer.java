@@ -122,14 +122,6 @@ public class MutadaptiveRemoteArmorRepairer
     @DefaultRealValue(0.0)
     public double maxrange;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -178,14 +170,6 @@ public class MutadaptiveRemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, RepairMultiplierBonusPerCycle.INSTANCE, RepairMultiplierBonusMax.INSTANCE, Cpu.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, CanFitShipType2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, Power.INSTANCE })));
     public static final MutadaptiveRemoteArmorRepairer.MetaGroup METAGROUP = new MutadaptiveRemoteArmorRepairer.MetaGroup();
 
@@ -236,10 +220,6 @@ public class MutadaptiveRemoteArmorRepairer
             {
                 return maxrange;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1206 :
             {
                 return overloadselfdurationbonus;
@@ -267,10 +247,6 @@ public class MutadaptiveRemoteArmorRepairer
             case  1212 :
             {
                 return requiredthermodynamicsskill;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

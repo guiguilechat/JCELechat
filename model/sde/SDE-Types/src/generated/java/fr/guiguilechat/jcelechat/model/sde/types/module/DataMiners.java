@@ -123,14 +123,6 @@ public class DataMiners
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -166,14 +158,6 @@ public class DataMiners
     @DefaultIntValue(0)
     public int requiredskill2level;
     /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    /**
      * The coherence of a virus.
      */
     @HighIsGood(true)
@@ -194,7 +178,7 @@ public class DataMiners
     @Stackable(true)
     @DefaultIntValue(0)
     public int virusstrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, AccessDifficultyBonus.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, VirusCoherence.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, MaxRange.INSTANCE, VirusStrength.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, VirusElementSlots.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, AccessDifficultyBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, VirusCoherence.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, MaxRange.INSTANCE, VirusStrength.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, VirusElementSlots.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final DataMiners.MetaGroup METAGROUP = new DataMiners.MetaGroup();
 
     @Override
@@ -240,10 +224,6 @@ public class DataMiners
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -263,10 +243,6 @@ public class DataMiners
             case  278 :
             {
                 return requiredskill2level;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  1909 :
             {

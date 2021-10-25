@@ -144,14 +144,6 @@ public class EnergyNeutralizer
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -186,14 +178,6 @@ public class EnergyNeutralizer
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EntityCapacitorLevelModifierSmall.INSTANCE, EntityCapacitorLevelModifierMedium.INSTANCE, Duration.INSTANCE, EntityCapacitorLevelModifierLarge.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, EnergyNeutralizerSignatureResolution.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, Power.INSTANCE })));
     public static final EnergyNeutralizer.MetaGroup METAGROUP = new EnergyNeutralizer.MetaGroup();
 
@@ -252,10 +236,6 @@ public class EnergyNeutralizer
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1206 :
             {
                 return overloadselfdurationbonus;
@@ -275,10 +255,6 @@ public class EnergyNeutralizer
             case  1212 :
             {
                 return requiredthermodynamicsskill;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

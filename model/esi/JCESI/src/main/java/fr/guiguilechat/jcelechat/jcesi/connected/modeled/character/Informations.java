@@ -38,20 +38,6 @@ public class Informations {
 		return allianceId;
 	}
 
-	private IntHolder ancestryId = null;
-
-	public IntHolder ancestryId() {
-		if (ancestryId == null) {
-			ObjHolder<R_get_characters_character_id> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (ancestryId == null) {
-					ancestryId = fetch.mapInt(info -> info.ancestry_id);
-				}
-			});
-		}
-		return ancestryId;
-	}
-
 	private ObjHolder<LocalDateTime> birthday = null;
 
 	public ObjHolder<LocalDateTime> birthday() {

@@ -101,6 +101,15 @@ types:
     published: false
     radius: 13887.0
     signatureradius: 100.0
+  Association for Interdisciplinary Research Outpost:
+    id: 59956
+    name: Association for Interdisciplinary Research Outpost
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 600000.0
+    published: false
+    signatureradius: 100.0
+    volume: 1.0
   Blood Raider Logistics Outpost:
     armoruniformity: 1.0
     id: 22296

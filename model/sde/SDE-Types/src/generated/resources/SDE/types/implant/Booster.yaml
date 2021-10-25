@@ -1,4 +1,175 @@
 types:
+  AIR Astro-Acquisition Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -5
+    id: 60422
+    marketGroup: 2531
+    name: AIR Astro-Acquisition Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  AIR Astro-Acquisition Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -10
+    id: 60423
+    marketGroup: 2531
+    name: AIR Astro-Acquisition Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  AIR Astro-Acquisition Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -15
+    id: 60424
+    marketGroup: 2531
+    name: AIR Astro-Acquisition Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  AIR Astro-Pinpointing Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 60425
+    marketGroup: 2790
+    maxscandeviationmodifier: -5
+    name: AIR Astro-Pinpointing Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  AIR Astro-Pinpointing Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 60426
+    marketGroup: 2790
+    maxscandeviationmodifier: -10
+    name: AIR Astro-Pinpointing Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  AIR Astro-Pinpointing Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 60427
+    marketGroup: 2790
+    maxscandeviationmodifier: -15
+    name: AIR Astro-Pinpointing Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  AIR Astro-Rangefinding Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60428
+    marketGroup: 2791
+    name: AIR Astro-Rangefinding Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 5
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  AIR Astro-Rangefinding Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60429
+    marketGroup: 2791
+    name: AIR Astro-Rangefinding Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 10
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  AIR Astro-Rangefinding Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18940.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60430
+    marketGroup: 2791
+    name: AIR Astro-Rangefinding Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 15
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
   Advanced Broker Relations Skill Accelerator:
     boosterduration: 60000.0
     boosterness: 191
@@ -76,6 +247,30 @@ types:
     intelligencebonus: 1
     memorybonus: 1
     name: Advanced Planetology Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Advanced Weapons Upgrade Skill Accelerator:
+    boosterduration: 60000.0
+    boosterlastinjectiondatetime: 18910.125
+    boosterness: 214
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60273
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced Weapons Upgrade Skill Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -488,6 +683,30 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
+  Amarr Battleship Operation Skill Accelerator:
+    boosterduration: 60000.0
+    boosterlastinjectiondatetime: 18910.125
+    boosterness: 210
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60269
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Amarr Battleship Operation Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Amarr Drones Specialization Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
@@ -655,24 +874,23 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  Basic 'Rebel' Cerebral Accelerator:
+  Basic 'Radiance' Cerebral Accelerator:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18884.45703125
+    boosterlastinjectiondatetime: 18968.45703125
     boosterness: 10
     charismabonus: 4
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 59876
+    id: 60714
     intelligencebonus: 4
     marketGroup: 2487
     memorybonus: 4
-    name: Basic 'Rebel' Cerebral Accelerator
+    name: Basic 'Radiance' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -732,6 +950,30 @@ types:
     intelligencebonus: 1
     memorybonus: 1
     name: Broker Relations Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
+  Caldari Battleship Operation Skill Accelerator:
+    boosterduration: 60000.0
+    boosterlastinjectiondatetime: 18910.125
+    boosterness: 211
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60270
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Caldari Battleship Operation Skill Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -1382,32 +1624,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
-  Extended 'Rebel' Cerebral Accelerator:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 10
-    charismabonus: 6
-    damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 59879
-    intelligencebonus: 6
-    marketGroup: 2487
-    memorybonus: 6
-    name: Extended 'Rebel' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 6
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    willpowerbonus: 6
   Festival-only 'Longbow' CM3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
@@ -2312,6 +2528,30 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 3
+  Gallente Battleship Operation Skill Accelerator:
+    boosterduration: 60000.0
+    boosterlastinjectiondatetime: 18910.125
+    boosterness: 212
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60271
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Gallente Battleship Operation Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Gallente Drones Specialization Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
@@ -2397,6 +2637,231 @@ types:
     speedfactor: 1.0
     volume: 1.0
     warpsbonus: 10
+  Harvest Anti-Disruptor Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 60700
+    marketGroup: 2531
+    name: Harvest Anti-Disruptor Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    weapondisruptionresistancebonus: -8
+  Harvest Anti-Disruptor Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 60701
+    marketGroup: 2531
+    name: Harvest Anti-Disruptor Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    weapondisruptionresistancebonus: -12
+  Harvest Anti-Disruptor Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 60702
+    marketGroup: 2531
+    name: Harvest Anti-Disruptor Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    weapondisruptionresistancebonus: -20
+  Harvest Damage Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 17
+    damagemultiplier: 1.0399999618530273
+    id: 60697
+    marketGroup: 2792
+    name: Harvest Damage Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Harvest Damage Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 17
+    damagemultiplier: 1.059999942779541
+    id: 60698
+    marketGroup: 2792
+    name: Harvest Damage Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Harvest Damage Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 17
+    damagemultiplier: 1.100000023841858
+    id: 60699
+    marketGroup: 2792
+    name: Harvest Damage Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Harvest Nosferatu Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    durationbonus: -4
+    id: 60683
+    marketGroup: 2790
+    name: Harvest Nosferatu Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Harvest Nosferatu Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    durationbonus: -6
+    id: 60684
+    marketGroup: 2790
+    name: Harvest Nosferatu Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Harvest Nosferatu Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    durationbonus: -10
+    id: 60685
+    marketGroup: 2790
+    name: Harvest Nosferatu Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Harvest Webifier Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60694
+    marketGroup: 2791
+    name: Harvest Webifier Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangeadd: 2000
+    volume: 1.0
+  Harvest Webifier Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60695
+    marketGroup: 2791
+    name: Harvest Webifier Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangeadd: 3000
+    volume: 1.0
+  Harvest Webifier Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60696
+    marketGroup: 2791
+    name: Harvest Webifier Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangeadd: 5000
+    volume: 1.0
   Heavy Drones Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
@@ -2764,246 +3229,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  Liberation Games Accuracy Booster I:
-    aoevelocitybonus: 4.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 59891
-    marketGroup: 2790
-    name: Liberation Games Accuracy Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    trackingspeedbonus: 4.0
-    volume: 1.0
-  Liberation Games Accuracy Booster II:
-    aoevelocitybonus: 6.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 59883
-    marketGroup: 2790
-    name: Liberation Games Accuracy Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    trackingspeedbonus: 6.0
-    volume: 1.0
-  Liberation Games Accuracy Booster III:
-    aoevelocitybonus: 10.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 59884
-    marketGroup: 2790
-    name: Liberation Games Accuracy Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    trackingspeedbonus: 10.0
-    volume: 1.0
-  Liberation Games Damage Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 14
-    damagemultiplier: 1.0199999809265137
-    id: 59880
-    marketGroup: 2531
-    missiledamagemultiplierbonus: 1.0199999809265137
-    name: Liberation Games Damage Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Liberation Games Damage Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 14
-    damagemultiplier: 1.0299999713897705
-    id: 59881
-    marketGroup: 2531
-    missiledamagemultiplierbonus: 1.0299999713897705
-    name: Liberation Games Damage Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Liberation Games Damage Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 14
-    damagemultiplier: 1.0499999523162842
-    id: 59882
-    marketGroup: 2531
-    missiledamagemultiplierbonus: 1.0499999523162842
-    name: Liberation Games Damage Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Liberation Games EWar Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 59888
-    marketGroup: 2792
-    name: Liberation Games EWar Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 4
-    requiredskill1: 3405
-    requiredskill1level: 1
-    scanskilltargetpaintstrengthbonus: 4
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebrangebonus: 4
-    volume: 1.0
-  Liberation Games EWar Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 59889
-    marketGroup: 2792
-    name: Liberation Games EWar Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 6
-    requiredskill1: 3405
-    requiredskill1level: 1
-    scanskilltargetpaintstrengthbonus: 6
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebrangebonus: 6
-    volume: 1.0
-  Liberation Games EWar Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 59890
-    marketGroup: 2792
-    name: Liberation Games EWar Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 10
-    requiredskill1: 3405
-    requiredskill1level: 1
-    scanskilltargetpaintstrengthbonus: 10
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebrangebonus: 10
-    volume: 1.0
-  Liberation Games Range Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    falloffbonus: 4.0
-    id: 59885
-    marketGroup: 2791
-    maxrangebonus: 4.0
-    name: Liberation Games Range Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 4.0
-    volume: 1.0
-  Liberation Games Range Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    falloffbonus: 6.0
-    id: 59886
-    marketGroup: 2791
-    maxrangebonus: 6.0
-    name: Liberation Games Range Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 6.0
-    volume: 1.0
-  Liberation Games Range Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18884.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    falloffbonus: 10.0
-    id: 59887
-    marketGroup: 2791
-    maxrangebonus: 10.0
-    name: Liberation Games Range Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 10.0
-    volume: 1.0
   Limited Synth Blue Pill Booster Mk I:
     boosterduration: 600000.0
     boosterness: 1
@@ -3937,6 +4162,30 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
+  Minmatar Battleship Operation Skill Accelerator:
+    boosterduration: 60000.0
+    boosterlastinjectiondatetime: 18910.125
+    boosterness: 213
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60272
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Minmatar Battleship Operation Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Minmatar Drones Specialization Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
@@ -4130,24 +4379,23 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  Potent 'Rebel' Cerebral Accelerator:
+  Potent 'Radiance' Cerebral Accelerator:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18884.45703125
+    boosterlastinjectiondatetime: 18968.45703125
     boosterness: 10
     charismabonus: 8
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 59878
+    id: 60715
     intelligencebonus: 8
     marketGroup: 2487
     memorybonus: 8
-    name: Potent 'Rebel' Cerebral Accelerator
+    name: Potent 'Radiance' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     perceptionbonus: 8
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4268,13 +4516,13 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 9
-  Quafe Zero:
+  Quafe Zero Classic:
     boosterduration: 3600000.0
     boosterness: 1
     damagemultiplier: 1.0
     id: 3898
     marketGroup: 2506
-    name: Quafe Zero
+    name: Quafe Zero Classic
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -4285,6 +4533,24 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     velocitybonus: 5.0
+    volume: 1.0
+  Quafe Zero Green Apple:
+    agilitybonus: -5.0
+    boosterduration: 3600000.0
+    boosterness: 1
+    caprechargebonus: -5.0
+    damagemultiplier: 1.0
+    id: 60575
+    marketGroup: 2506
+    name: Quafe Zero Green Apple
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 8192.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
     volume: 1.0
   Serenity Anniversary Cerebral Accelerator I:
     boosterduration: 8.64E7
@@ -4547,6 +4813,290 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
+  Serenity Autumn Limited 'Efficiency' Dose Type-A:
+    boosterduration: 2.592E8
+    boosterness: 111
+    damagemultiplier: 1.0
+    durationbonus: -5
+    followsjumpclones: 1
+    iceharvestcyclebonus: -5.0
+    id: 60180
+    miningamountbonus: 5
+    name: Serenity Autumn Limited 'Efficiency' Dose Type-A
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Autumn Limited 'Efficiency' Dose Type-B:
+    boosterduration: 6.048E8
+    boosterness: 111
+    damagemultiplier: 1.0
+    durationbonus: -5
+    followsjumpclones: 1
+    iceharvestcyclebonus: -5.0
+    id: 60185
+    miningamountbonus: 5
+    name: Serenity Autumn Limited 'Efficiency' Dose Type-B
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Autumn Limited 'Hardshell' Dose Type-A:
+    armorhpbonus2: 3.0
+    boosterduration: 2.592E8
+    boosterness: 205
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    hullhpbonus: 3.0
+    id: 60178
+    name: Serenity Autumn Limited 'Hardshell' Dose Type-A
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    shieldcapacitybonus: 3.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Autumn Limited 'Hardshell' Dose Type-B:
+    armorhpbonus2: 3.0
+    boosterduration: 6.048E8
+    boosterness: 205
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    hullhpbonus: 3.0
+    id: 60183
+    name: Serenity Autumn Limited 'Hardshell' Dose Type-B
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    shieldcapacitybonus: 3.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Autumn Limited 'Overclocker' Dose Type-A:
+    boosterduration: 2.592E8
+    boosterness: 109
+    damagemultiplier: 1.0
+    durationbonus: 10
+    followsjumpclones: 1
+    id: 60177
+    name: Serenity Autumn Limited 'Overclocker' Dose Type-A
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 5
+    volume: 1.0
+    warpsbonus: 10
+  Serenity Autumn Limited 'Overclocker' Dose Type-B:
+    boosterduration: 6.048E8
+    boosterness: 109
+    damagemultiplier: 1.0
+    durationbonus: 10
+    followsjumpclones: 1
+    id: 60182
+    name: Serenity Autumn Limited 'Overclocker' Dose Type-B
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 5
+    volume: 1.0
+    warpsbonus: 10
+  Serenity Autumn Limited 'Pyrolancea' Dose Type-A:
+    boosterduration: 2.592E8
+    boosterness: 206
+    damagemultiplier: 1.0
+    damagemultiplierbonus: 3
+    followsjumpclones: 1
+    id: 60179
+    name: Serenity Autumn Limited 'Pyrolancea' Dose Type-A
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Autumn Limited 'Pyrolancea' Dose Type-B:
+    boosterduration: 6.048E8
+    boosterness: 206
+    damagemultiplier: 1.0
+    damagemultiplierbonus: 3
+    followsjumpclones: 1
+    id: 60184
+    name: Serenity Autumn Limited 'Pyrolancea' Dose Type-B
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Autumn Limited 'Sharpeye' Dose Type-A:
+    boosterduration: 2.592E8
+    boosterness: 110
+    damagemultiplier: 1.0
+    durationbonus: -10
+    followsjumpclones: 1
+    id: 60181
+    maxscandeviationmodifier: -10
+    name: Serenity Autumn Limited 'Sharpeye' Dose Type-A
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    scanstrengthbonus: 10
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Autumn Limited 'Sharpeye' Dose Type-B:
+    boosterduration: 6.048E8
+    boosterness: 110
+    damagemultiplier: 1.0
+    durationbonus: -10
+    followsjumpclones: 1
+    id: 60186
+    maxscandeviationmodifier: -10
+    name: Serenity Autumn Limited 'Sharpeye' Dose Type-B
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    scanstrengthbonus: 10
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Autumn Limited Cerebral Accelerator I:
+    boosterduration: 8.64E7
+    boosterness: 207
+    charismabonus: 10
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60187
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity Autumn Limited Cerebral Accelerator I
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity Autumn Limited Cerebral Accelerator II:
+    boosterduration: 2.592E8
+    boosterness: 207
+    charismabonus: 10
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60188
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity Autumn Limited Cerebral Accelerator II
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity Autumn Limited Cerebral Accelerator III:
+    boosterduration: 4.32E8
+    boosterness: 207
+    charismabonus: 10
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60189
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity Autumn Limited Cerebral Accelerator III
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity Autumn Limited Cerebral Accelerator IV:
+    boosterduration: 6.048E8
+    boosterness: 207
+    charismabonus: 10
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60190
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity Autumn Limited Cerebral Accelerator IV
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 10
   Serenity Basic 'Bonding' Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18718.666015625
@@ -5043,6 +5593,31 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2021.10:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18932.666015625
+    boosterness: 19
+    charismabonus: 5
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60485
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2021.10
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2021.2:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18687.666015625
@@ -5209,6 +5784,32 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2021.9:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18901.666015625
+    boosterness: 19
+    charismabonus: 5
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60172
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2021.9
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -5621,6 +6222,44 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
+  Serenity Special Cruisers Insurance:
+    boosterduration: 3.024E9
+    boosterlastinjectiondatetime: 18932.125
+    boosterness: 215
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60487
+    name: Serenity Special Cruisers Insurance
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Serenity Special Frigates Insurance:
+    boosterduration: 3.024E9
+    boosterlastinjectiondatetime: 18932.125
+    boosterness: 216
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60488
+    name: Serenity Special Frigates Insurance
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
   Serenity Spring Festival Cerebral Accelerator I:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18717.666015625
@@ -6592,6 +7231,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -6616,6 +7256,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -6640,6 +7281,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -6648,6 +7290,56 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 5
+  Serenity YC123.9 Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18907.125
+    boosterness: 208
+    charismabonus: 5
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60250
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.9 Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.9 Season Pass:
+    boosterduration: 1.6416E9
+    boosterlastinjectiondatetime: 18891.125
+    boosterness: 209
+    charismabonus: 1
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60251
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity YC123.9 Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 1
   Serenity Zainou 'Beancounter' Manufacturing RP-108:
     boosterduration: 8.64E7
     boosterness: 194
@@ -7752,6 +8444,246 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
+  Tetrimon Anti-Drain Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    energywarfareresistancebonus: -8
+    id: 60691
+    marketGroup: 2531
+    name: Tetrimon Anti-Drain Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Tetrimon Anti-Drain Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    energywarfareresistancebonus: -12
+    id: 60692
+    marketGroup: 2531
+    name: Tetrimon Anti-Drain Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Tetrimon Anti-Drain Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    energywarfareresistancebonus: -20
+    id: 60693
+    marketGroup: 2531
+    name: Tetrimon Anti-Drain Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Tetrimon Capacitor Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 15
+    capacitorcapacitybonus: 4.0
+    damagemultiplier: 1.0
+    id: 60703
+    marketGroup: 2790
+    name: Tetrimon Capacitor Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Tetrimon Capacitor Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 15
+    capacitorcapacitybonus: 6.0
+    damagemultiplier: 1.0
+    id: 60686
+    marketGroup: 2790
+    name: Tetrimon Capacitor Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Tetrimon Capacitor Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 15
+    capacitorcapacitybonus: 10.0
+    damagemultiplier: 1.0
+    id: 60704
+    marketGroup: 2790
+    name: Tetrimon Capacitor Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Tetrimon Precision Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 60688
+    marketGroup: 2792
+    maxrangebonus: 4.0
+    name: Tetrimon Precision Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 4.0
+    volume: 1.0
+  Tetrimon Precision Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 60689
+    marketGroup: 2792
+    maxrangebonus: 6.0
+    name: Tetrimon Precision Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  Tetrimon Precision Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 60690
+    marketGroup: 2792
+    maxrangebonus: 10.0
+    name: Tetrimon Precision Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 10.0
+    volume: 1.0
+  Tetrimon Resistance Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60705
+    marketGroup: 2791
+    name: Tetrimon Resistance Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    passiveemdamageresistancebonus: -4
+    passiveexplosivedamageresistancebonus: -4
+    passivekineticdamageresistancebonus: -4
+    passivethermicdamageresistancebonus: -4
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Tetrimon Resistance Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60706
+    marketGroup: 2791
+    name: Tetrimon Resistance Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    passiveemdamageresistancebonus: -6
+    passiveexplosivedamageresistancebonus: -6
+    passivekineticdamageresistancebonus: -6
+    passivethermicdamageresistancebonus: -6
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Tetrimon Resistance Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 60687
+    marketGroup: 2791
+    name: Tetrimon Resistance Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    passiveemdamageresistancebonus: -10
+    passiveexplosivedamageresistancebonus: -10
+    passivekineticdamageresistancebonus: -10
+    passivethermicdamageresistancebonus: -10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
   Tiamat Prremium Insurance:
     boosterduration: 3.888E9
     boosterlastinjectiondatetime: 18870.125
@@ -7794,3 +8726,28 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
+  '[no messageID: 588945]':
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18968.45703125
+    boosterness: 10
+    charismabonus: 6
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 60716
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: '[no messageID: 588945]'
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 6

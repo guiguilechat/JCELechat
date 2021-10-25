@@ -127,14 +127,6 @@ public class EntosisLink
     @DefaultRealValue(0.0)
     public double maxrange;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -218,14 +210,6 @@ public class EntosisLink
     @Stackable(true)
     @DefaultIntValue(1000000)
     public int speedlimit;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntosisAssistanceImpedanceMultiplier.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, ConsumptionQuantity.INSTANCE, CanCloak.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Slots.INSTANCE, SpeedLimit.INSTANCE, Cpu.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, EntosisCPUAdd.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final EntosisLink.MetaGroup METAGROUP = new EntosisLink.MetaGroup();
 
@@ -276,10 +260,6 @@ public class EntosisLink
             {
                 return maxrange;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -327,10 +307,6 @@ public class EntosisLink
             case  2033 :
             {
                 return speedlimit;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

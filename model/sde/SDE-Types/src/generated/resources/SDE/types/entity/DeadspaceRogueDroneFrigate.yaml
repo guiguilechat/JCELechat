@@ -33,7 +33,7 @@ types:
     entityequipmentmax: 12
     entityequipmentmin: 4
     entityflyrange: 8438.0
-    entitykillbounty: 9000
+    entitykillbounty: 9000.0
     entitylootcountmax: 6
     entitylootcountmin: 2
     entitymissiletypeid: 213
@@ -388,7 +388,7 @@ types:
     entityequipmentmax: 6
     entityequipmentmin: 2
     entityflyrange: 1900.0
-    entitykillbounty: 4875
+    entitykillbounty: 4875.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
@@ -476,7 +476,7 @@ types:
     entityequipmentmax: 11
     entityequipmentmin: 4
     entityflyrange: 1500.0
-    entitykillbounty: 8250
+    entitykillbounty: 8250.0
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
@@ -566,7 +566,7 @@ types:
     entityequipmentmax: 6
     entityequipmentmin: 2
     entityflyrange: 1900.0
-    entitykillbounty: 4875
+    entitykillbounty: 4875.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
@@ -654,7 +654,7 @@ types:
     entityequipmentmax: 9
     entityequipmentmin: 4
     entityflyrange: 9688.0
-    entitykillbounty: 7500
+    entitykillbounty: 7500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entitymissiletypeid: 213
@@ -745,7 +745,7 @@ types:
     entityequipmentmax: 4
     entityequipmentmin: 2
     entityflyrange: 1800.0
-    entitykillbounty: 3000
+    entitykillbounty: 3000.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
@@ -834,7 +834,7 @@ types:
     entityequipmentmax: 8
     entityequipmentmin: 3
     entityflyrange: 7188.0
-    entitykillbounty: 6375
+    entitykillbounty: 6375.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
@@ -923,7 +923,7 @@ types:
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 1900.0
-    entitykillbounty: 4500
+    entitykillbounty: 4500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
@@ -1011,7 +1011,7 @@ types:
     entityequipmentmax: 10
     entityequipmentmin: 4
     entityflyrange: 1500.0
-    entitykillbounty: 7875
+    entitykillbounty: 7875.0
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
@@ -1270,7 +1270,7 @@ types:
     entityequipmentmax: 4
     entityequipmentmin: 2
     entityflyrange: 1800.0
-    entitykillbounty: 3750
+    entitykillbounty: 3750.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
@@ -1360,7 +1360,7 @@ types:
     entityequipmentmax: 28
     entityequipmentmin: 7
     entityflyrange: 9531.0
-    entitykillbounty: 28125
+    entitykillbounty: 28125.0
     entitylootcountmax: 6
     entitylootcountmin: 2
     entitymissiletypeid: 213
@@ -1451,7 +1451,7 @@ types:
     entityequipmentmax: 22
     entityequipmentmin: 5
     entityflyrange: 1900.0
-    entitykillbounty: 21375
+    entitykillbounty: 21375.0
     entitylootcountmax: 4
     entitylootcountmin: 2
     entitymissiletypeid: 213
@@ -1545,7 +1545,7 @@ types:
     entityequipmentmax: 27
     entityequipmentmin: 7
     entityflyrange: 2000.0
-    entitykillbounty: 27000
+    entitykillbounty: 27000.0
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
@@ -1635,7 +1635,7 @@ types:
     entityequipmentmax: 25
     entityequipmentmin: 7
     entityflyrange: 10781.0
-    entitykillbounty: 24750
+    entitykillbounty: 24750.0
     entitylootcountmax: 6
     entitylootcountmin: 2
     entitymissiletypeid: 213
@@ -1726,7 +1726,7 @@ types:
     entityequipmentmax: 20
     entityequipmentmin: 5
     entityflyrange: 1800.0
-    entitykillbounty: 18000
+    entitykillbounty: 18000.0
     entitylootcountmax: 4
     entitylootcountmin: 2
     entitymissiletypeid: 2516
@@ -1820,7 +1820,7 @@ types:
     entityequipmentmax: 24
     entityequipmentmin: 6
     entityflyrange: 7188.0
-    entitykillbounty: 23625
+    entitykillbounty: 23625.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entitymissiletypeid: 213
@@ -1911,7 +1911,7 @@ types:
     entityequipmentmax: 21
     entityequipmentmin: 5
     entityflyrange: 1900.0
-    entitykillbounty: 20250
+    entitykillbounty: 20250.0
     entitylootcountmax: 4
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
@@ -2004,7 +2004,7 @@ types:
     entityequipmentmax: 26
     entityequipmentmin: 7
     entityflyrange: 2000.0
-    entitykillbounty: 25875
+    entitykillbounty: 25875.0
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
@@ -2094,7 +2094,7 @@ types:
     entityequipmentmax: 20
     entityequipmentmin: 5
     entityflyrange: 1800.0
-    entitykillbounty: 19125
+    entitykillbounty: 19125.0
     entitylootcountmax: 4
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
@@ -2187,7 +2187,7 @@ types:
     entityequipmentmax: 23
     entityequipmentmin: 6
     entityflyrange: 1900.0
-    entitykillbounty: 22500
+    entitykillbounty: 22500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
@@ -2277,7 +2277,7 @@ types:
     entityequipmentmax: 7
     entityequipmentmin: 3
     entityflyrange: 1900.0
-    entitykillbounty: 6000
+    entitykillbounty: 6000.0
     entitylootcountmax: 2
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25

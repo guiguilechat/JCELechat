@@ -26,7 +26,6 @@ types:
     requiredskill2level: 2
     slots: 1
     specialtyminingamount: 120
-    targetgroup: 11
     techlevel: 2
     typecolorscheme: 11347
     volume: 5.0
@@ -59,7 +58,6 @@ types:
     requiredskill2level: 2
     slots: 1
     specialtyminingamount: 313
-    targetgroup: 11
     techlevel: 2
     typecolorscheme: 11347
     volume: 5.0
@@ -89,7 +87,6 @@ types:
     requiredskill1level: 5
     slots: 1
     specialtyminingamount: 450
-    targetgroup: 11
     techlevel: 2
     typecolorscheme: 11347
     volume: 5.0

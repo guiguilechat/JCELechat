@@ -1,8 +1,8 @@
 types:
-  1v1 Destroyers Proving Filament:
-    id: 58848
+  1v1 Battleships Redux Proving Filament:
+    id: 60077
     marketGroup: 2747
-    name: 1v1 Destroyers Proving Filament
+    name: 1v1 Battleships Redux Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
@@ -10,43 +10,35 @@ types:
     volume: 0.10000000149011612
   2v2 Interceptors Proving Filament:
     id: 59369
+    marketGroup: 2747
     name: 2v2 Interceptors Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  2v2 Navy Frigates Proving Filament:
-    id: 57370
+  AT XVII 2v2 Cruisers Proving Filament:
+    id: 60079
     marketGroup: 2747
-    name: 2v2 Navy Frigates Proving Filament
+    name: AT XVII 2v2 Cruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Capsuleer Day 18 Cruiser Extravaganza Proving Filament:
-    id: 57372
+  Crimson Harvest Destroyer FFA Proving Filament:
+    id: 60078
     marketGroup: 2747
-    name: Capsuleer Day 18 Cruiser Extravaganza Proving Filament
+    name: Crimson Harvest Destroyer FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Corvette FFA Proving Filament:
-    id: 58850
+  Totality Day 3v3 Kikimoras Proving Filament:
+    id: 60076
     marketGroup: 2747
-    name: Corvette FFA Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Union Day 2v2 Caldari Battlecruisers Proving Filament:
-    id: 58849
-    marketGroup: 2747
-    name: Union Day 2v2 Caldari Battlecruisers Proving Filament
+    name: Totality Day 3v3 Kikimoras Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

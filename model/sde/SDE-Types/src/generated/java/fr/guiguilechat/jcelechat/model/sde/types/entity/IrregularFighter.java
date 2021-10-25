@@ -171,8 +171,8 @@ public class IrregularFighter
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int entitykillbounty;
+    @DefaultRealValue(0.0)
+    public double entitykillbounty;
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
      * Value is a % movement of the character's current security towards the upper/lower limit.

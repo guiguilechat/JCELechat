@@ -55,14 +55,6 @@ public class ScanningUpgradeTime
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -90,14 +82,6 @@ public class ScanningUpgradeTime
     @Stackable(false)
     @DefaultIntValue(0)
     public int scandurationbonus;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, ScanDurationBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, Power.INSTANCE })));
     public static final ScanningUpgradeTime.MetaGroup METAGROUP = new ScanningUpgradeTime.MetaGroup();
 
@@ -116,10 +100,6 @@ public class ScanningUpgradeTime
             {
                 return maxgroupfitted;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -135,10 +115,6 @@ public class ScanningUpgradeTime
             case  1906 :
             {
                 return scandurationbonus;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

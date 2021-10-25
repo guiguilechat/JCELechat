@@ -73,14 +73,6 @@ public class ShieldPowerRelay
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -122,14 +114,6 @@ public class ShieldPowerRelay
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double shieldcapacitymultiplier;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, PowerOutputMultiplier.INSTANCE, Rechargeratebonus.INSTANCE, Cpu.INSTANCE, ShieldCapacityMultiplier.INSTANCE, CapacitorCapacityMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final ShieldPowerRelay.MetaGroup METAGROUP = new ShieldPowerRelay.MetaGroup();
 
@@ -151,10 +135,6 @@ public class ShieldPowerRelay
             case  1692 :
             {
                 return metagroupid;
-            }
-            case  633 :
-            {
-                return metalevelold;
             }
             case  30 :
             {
@@ -179,10 +159,6 @@ public class ShieldPowerRelay
             case  146 :
             {
                 return shieldcapacitymultiplier;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

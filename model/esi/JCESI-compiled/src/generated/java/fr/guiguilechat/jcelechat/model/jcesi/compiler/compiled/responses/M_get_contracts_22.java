@@ -10,7 +10,7 @@ public class M_get_contracts_22 {
      */
     public int acceptor_id;
     /**
-     * ID to whom the contract is assigned, can be corporation or character ID
+     * ID to whom the contract is assigned, can be alliance, corporation or character ID
      */
     public int assignee_id;
     /**

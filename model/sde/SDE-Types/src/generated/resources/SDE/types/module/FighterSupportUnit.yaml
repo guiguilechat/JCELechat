@@ -72,6 +72,29 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 4000.0
+  Mutated Fighter Support Unit:
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 75.0
+    fighterbonusrofpercent: 0.9399999976158142
+    fighterbonusshieldcapacitypercent: 1.059999942779541
+    fighterbonusshieldrechargepercent: 0.9399999976158142
+    fighterbonusvelocitypercent: 1.059999942779541
+    hp: 40.0
+    id: 60483
+    metalevelold: 5
+    name: Mutated Fighter Support Unit
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 90000
+    published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 4
+    techlevel: 2
+    volume: 4000.0
   Sentient Fighter Support Unit:
     canfitshipgroup01: 547
     canfitshipgroup02: 659

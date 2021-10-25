@@ -20,7 +20,6 @@ types:
     requiredskill1: 25544
     requiredskill1level: 1
     slots: 1
-    targetgroup: 711
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -45,7 +44,6 @@ types:
     requiredskill1: 25544
     requiredskill1level: 1
     slots: 1
-    targetgroup: 711
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -69,7 +67,6 @@ types:
     requiredskill1: 25544
     requiredskill1level: 1
     slots: 1
-    targetgroup: 711
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -94,7 +91,6 @@ types:
     requiredskill1: 25544
     requiredskill1level: 5
     slots: 1
-    targetgroup: 711
     techlevel: 2
     typecolorscheme: 11347
     volume: 5.0
@@ -120,7 +116,6 @@ types:
     requiredskill1: 25544
     requiredskill1level: 1
     slots: 1
-    targetgroup: 711
     techlevel: 1
     typecolorscheme: 11353
     volume: 5.0

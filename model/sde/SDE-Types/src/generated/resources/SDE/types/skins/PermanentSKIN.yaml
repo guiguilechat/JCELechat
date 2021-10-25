@@ -261,7 +261,6 @@ types:
     volume: 0.009999999776482582
   Absolution Ironblood SKIN:
     id: 43513
-    marketGroup: 2104
     name: Absolution Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -711,7 +710,6 @@ types:
     volume: 0.009999999776482582
   Anathema Ironblood SKIN:
     id: 43490
-    marketGroup: 2051
     name: Anathema Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -973,6 +971,13 @@ types:
     id: 49817
     marketGroup: 1964
     name: Apocalypse Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apocalypse Navy Issue Ardishapur SKIN:
+    id: 60676
+    name: Apocalypse Navy Issue Ardishapur SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1856,7 +1861,6 @@ types:
     volume: 0.009999999776482582
   Ark Ironblood SKIN:
     id: 43529
-    marketGroup: 2095
     name: Ark Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1938,6 +1942,13 @@ types:
     id: 52777
     marketGroup: 1964
     name: Armageddon Crown and Swords SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Armageddon Deathglow Remnant SKIN:
+    id: 60664
+    name: Armageddon Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2209,6 +2220,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ashimmu Ironblood SKIN:
+    id: 60666
+    name: Ashimmu Ironblood SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ashimmu Malagrin Marshlight SKIN:
     id: 53020
     marketGroup: 2030
@@ -2304,9 +2322,25 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Astero AIR Laboratories SKIN:
+    id: 60156
+    marketGroup: 2031
+    name: Astero AIR Laboratories SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Astero ASES SKIN:
     id: 59720
     name: Astero ASES SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Astero Aspirant Explorer SKIN:
+    id: 60227
+    marketGroup: 2031
+    name: Astero Aspirant Explorer SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2394,6 +2428,14 @@ types:
     id: 56880
     marketGroup: 2031
     name: Astero Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Astero Semiotique Superluminal SKIN:
+    id: 60225
+    marketGroup: 2031
+    name: Astero Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2643,6 +2685,13 @@ types:
   Augoror Khanid Serenity Only SKIN:
     id: 37943
     name: Augoror Khanid Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Augoror Navy Issue Ardishapur SKIN:
+    id: 60675
+    name: Augoror Navy Issue Ardishapur SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3066,8 +3115,17 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bantam Combat Medic Section SKIN:
+    id: 60198
+    marketGroup: 2003
+    name: Bantam Combat Medic Section SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bantam Deathglow Remnant SKIN:
     id: 56785
+    marketGroup: 2003
     name: Bantam Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -3420,6 +3478,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bellicose Semiotique Sports SKIN:
+    id: 60262
+    marketGroup: 1993
+    name: Bellicose Semiotique Sports SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bellicose Snowline Bladeracer SKIN:
     id: 52865
     marketGroup: 1993
@@ -3485,7 +3551,6 @@ types:
     volume: 0.009999999776482582
   Bestower Ironblood SKIN:
     id: 43524
-    marketGroup: 2007
     name: Bestower Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -3542,6 +3607,13 @@ types:
     id: 46821
     marketGroup: 1963
     name: Bhaalgorn Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bhaalgorn Ironblood SKIN:
+    id: 60667
+    name: Bhaalgorn Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4140,6 +4212,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix AIR Laboratories SKIN:
+    id: 60267
+    marketGroup: 1958
+    name: Brutix AIR Laboratories SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix Abyssal Firestorm SKIN:
     id: 53244
     marketGroup: 1958
@@ -4428,6 +4508,14 @@ types:
     id: 36799
     marketGroup: 2005
     name: Burst Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Burst Combat Medic Section SKIN:
+    id: 60200
+    marketGroup: 2005
+    name: Burst Combat Medic Section SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4797,6 +4885,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Capsule ASES SKIN:
+    id: 60128
+    name: Capsule ASES SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Capsule Aurora Universalis SKIN:
     id: 57004
     name: Capsule Aurora Universalis SKIN
@@ -4865,6 +4960,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caracal Aspirant Enforcer SKIN:
+    id: 60236
+    marketGroup: 1991
+    name: Caracal Aspirant Enforcer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caracal Aurora Universalis SKIN:
     id: 57017
     marketGroup: 1991
@@ -4885,6 +4988,13 @@ types:
     id: 36722
     marketGroup: 1991
     name: Caracal Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Deathglow Remnant SKIN:
+    id: 60661
+    name: Caracal Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5098,6 +5208,14 @@ types:
     id: 56881
     marketGroup: 1991
     name: Caracal Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Semiotique Superluminal SKIN:
+    id: 60218
+    marketGroup: 1991
+    name: Caracal Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5319,6 +5437,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Catalyst Semiotique Superluminal SKIN:
+    id: 60220
+    marketGroup: 1996
+    name: Catalyst Semiotique Superluminal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Catalyst Serpentis SKIN:
     id: 42162
     marketGroup: 1996
@@ -5447,6 +5573,14 @@ types:
     id: 46404
     marketGroup: 1992
     name: Celestis Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Celestis Semiotique Sports SKIN:
+    id: 60260
+    marketGroup: 1992
+    name: Celestis Semiotique Sports SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6231,7 +6365,6 @@ types:
     volume: 0.009999999776482582
   Coercer Ironblood SKIN:
     id: 43496
-    marketGroup: 1994
     name: Coercer Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -6288,6 +6421,14 @@ types:
   Coercer Sarum Serenity Only SKIN:
     id: 37950
     name: Coercer Sarum Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Coercer Semiotique Superluminal SKIN:
+    id: 60214
+    marketGroup: 1994
+    name: Coercer Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6611,6 +6752,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Corax Semiotique Sports SKIN:
+    id: 60208
+    marketGroup: 1995
+    name: Corax Semiotique Sports SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Corax Steel Cardinal SKIN:
     id: 46105
     marketGroup: 1995
@@ -6630,6 +6779,14 @@ types:
     id: 53165
     marketGroup: 1995
     name: Corax Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cormorant AIR Laboratories SKIN:
+    id: 60264
+    marketGroup: 1995
+    name: Cormorant AIR Laboratories SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6670,6 +6827,14 @@ types:
     id: 58877
     marketGroup: 1995
     name: Cormorant Caldari Navy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cormorant Deathglow Hunters SKIN:
+    id: 60572
+    marketGroup: 1995
+    name: Cormorant Deathglow Hunters SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6786,6 +6951,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cormorant Semiotique Superluminal SKIN:
+    id: 60217
+    marketGroup: 1995
+    name: Cormorant Semiotique Superluminal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cormorant Steel Cardinal SKIN:
     id: 46106
     marketGroup: 1995
@@ -6859,6 +7032,13 @@ types:
     id: 43807
     marketGroup: 2319
     name: Covetor Angel Industrial Livery SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Covetor Aspirant Industrialist SKIN:
+    id: 60235
+    name: Covetor Aspirant Industrialist SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7187,6 +7367,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier Ardishapur SKIN:
+    id: 60672
+    name: Crucifier Ardishapur SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crucifier Biosecurity Responders SKIN:
     id: 55318
     marketGroup: 2002
@@ -7235,7 +7422,6 @@ types:
     volume: 0.009999999776482582
   Crucifier Ironblood SKIN:
     id: 43482
-    marketGroup: 2002
     name: Crucifier Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -7367,6 +7553,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier Semiotique Sports SKIN:
+    id: 60263
+    name: Crucifier Semiotique Sports SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crucifier Spirit SKIN:
     id: 47304
     marketGroup: 2002
@@ -7387,6 +7580,13 @@ types:
     id: 46819
     marketGroup: 2031
     name: Cruor Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cruor Ironblood SKIN:
+    id: 60665
+    name: Cruor Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7472,7 +7672,6 @@ types:
     volume: 0.009999999776482582
   Crusader Ironblood SKIN:
     id: 43493
-    marketGroup: 2059
     name: Crusader Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -7568,7 +7767,6 @@ types:
     volume: 0.009999999776482582
   Curse Ironblood SKIN:
     id: 43508
-    marketGroup: 2081
     name: Curse Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -7742,6 +7940,14 @@ types:
     id: 49147
     marketGroup: 2030
     name: Cynabal Angel's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cynabal Aspirant Soldier SKIN:
+    id: 60243
+    marketGroup: 2030
+    name: Cynabal Aspirant Soldier SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7937,7 +8143,6 @@ types:
     volume: 0.009999999776482582
   Damnation Ironblood SKIN:
     id: 43514
-    marketGroup: 2104
     name: Damnation Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -8039,6 +8244,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Deacon Emergency Response Squad SKIN:
+    id: 60193
+    marketGroup: 2137
+    name: Deacon Emergency Response Squad SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Deacon Exoplanets Hunter SKIN:
     id: 45766
     marketGroup: 2137
@@ -8057,7 +8270,6 @@ types:
     volume: 0.009999999776482582
   Deacon Ironblood SKIN:
     id: 43495
-    marketGroup: 2137
     name: Deacon Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -8249,7 +8461,6 @@ types:
     volume: 0.009999999776482582
   Devoter Ironblood SKIN:
     id: 43506
-    marketGroup: 2073
     name: Devoter Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -8436,6 +8647,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dominix Navy Issue Cryptic Mimesis SKIN:
+    id: 60452
+    marketGroup: 2108
+    name: Dominix Navy Issue Cryptic Mimesis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dominix Navy Issue Exoplanets Hunter SKIN:
     id: 45916
     marketGroup: 2108
@@ -8504,6 +8723,13 @@ types:
     id: 44934
     marketGroup: 2108
     name: Dominix Navy Issue Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dominix Quafe Green Apple SKIN:
+    id: 60579
+    name: Dominix Quafe Green Apple SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8602,6 +8828,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dragoon Ardishapur SKIN:
+    id: 60674
+    name: Dragoon Ardishapur SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dragoon Biosecurity Responders SKIN:
     id: 55324
     marketGroup: 1994
@@ -8651,7 +8884,6 @@ types:
     volume: 0.009999999776482582
   Dragoon Ironblood SKIN:
     id: 43497
-    marketGroup: 1994
     name: Dragoon Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -10792,6 +11024,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Flycatcher Malagrin Marshlight SKIN:
+    id: 60565
+    marketGroup: 2039
+    name: Flycatcher Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Flycatcher Matigu Seabeast SKIN:
     id: 40596
     marketGroup: 2039
@@ -11682,7 +11922,6 @@ types:
     volume: 0.009999999776482582
   Guardian Ironblood SKIN:
     id: 43507
-    marketGroup: 2077
     name: Guardian Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -12620,7 +12859,6 @@ types:
     volume: 0.009999999776482582
   Heretic Ironblood SKIN:
     id: 43499
-    marketGroup: 2038
     name: Heretic Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -12646,6 +12884,14 @@ types:
     id: 37499
     marketGroup: 2038
     name: Heretic Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Heron Aspirant Explorer SKIN:
+    id: 60229
+    marketGroup: 2003
+    name: Heron Aspirant Explorer SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12710,6 +12956,13 @@ types:
     id: 36636
     marketGroup: 2003
     name: Heron Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Heron Semiotique Sports SKIN:
+    id: 60259
+    name: Heron Semiotique Sports SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13206,6 +13459,14 @@ types:
     id: 48839
     marketGroup: 1959
     name: Hurricane Cordite Blossom SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Deathglow Hunters SKIN:
+    id: 60574
+    marketGroup: 1959
+    name: Hurricane Deathglow Hunters SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13821,6 +14082,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Imicus Aspirant Explorer SKIN:
+    id: 60228
+    marketGroup: 2004
+    name: Imicus Aspirant Explorer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Imicus Biosecurity Responders SKIN:
     id: 55595
     marketGroup: 2004
@@ -14005,7 +14274,6 @@ types:
     volume: 0.009999999776482582
   Impel Ironblood SKIN:
     id: 43527
-    marketGroup: 2088
     name: Impel Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -14123,6 +14391,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Incursus AIR Laboratories SKIN:
+    id: 60159
+    marketGroup: 2004
+    name: Incursus AIR Laboratories SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Incursus Aliastra SKIN:
     id: 34740
     marketGroup: 2004
@@ -14150,6 +14426,13 @@ types:
     id: 47631
     marketGroup: 2004
     name: Incursus Capsuleer Day XV SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Incursus Deathglow Remnant SKIN:
+    id: 60657
+    name: Incursus Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14241,6 +14524,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Incursus Semiotique Superluminal SKIN:
+    id: 60219
+    marketGroup: 2004
+    name: Incursus Semiotique Superluminal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Incursus Serpentis SKIN:
     id: 42149
     marketGroup: 2004
@@ -14297,6 +14588,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Inquisitor Combat Medic Section SKIN:
+    id: 60197
+    marketGroup: 2002
+    name: Inquisitor Combat Medic Section SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Inquisitor EoM SKIN:
     id: 36275
     name: Inquisitor EoM SKIN
@@ -14330,7 +14629,6 @@ types:
     volume: 0.009999999776482582
   Inquisitor Ironblood SKIN:
     id: 43484
-    marketGroup: 2002
     name: Inquisitor Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -15254,6 +15552,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kirin Emergency Response Squad SKIN:
+    id: 60194
+    marketGroup: 2138
+    name: Kirin Emergency Response Squad SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kirin Exoplanets Hunter SKIN:
     id: 45825
     marketGroup: 2138
@@ -15481,6 +15787,14 @@ types:
     id: 46427
     marketGroup: 2026
     name: Kronos Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kronos Malagrin Marshlight SKIN:
+    id: 60568
+    marketGroup: 2026
+    name: Kronos Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16582,6 +16896,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Magnate Aspirant Explorer SKIN:
+    id: 60230
+    marketGroup: 2002
+    name: Magnate Aspirant Explorer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Magnate Biosecurity Responders SKIN:
     id: 55303
     marketGroup: 2002
@@ -16672,6 +16994,13 @@ types:
   Magnate Sarum Serenity Only SKIN:
     id: 36982
     name: Magnate Sarum Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Magnate Semiotique Sports SKIN:
+    id: 60209
+    name: Magnate Semiotique Sports SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16844,7 +17173,6 @@ types:
     volume: 0.009999999776482582
   Malediction Ironblood SKIN:
     id: 43494
-    marketGroup: 2059
     name: Malediction Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -16894,6 +17222,13 @@ types:
     id: 55328
     marketGroup: 1990
     name: Maller Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maller Blood Raiders SKIN:
+    id: 60670
+    name: Maller Blood Raiders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17004,6 +17339,13 @@ types:
     id: 37502
     marketGroup: 1990
     name: Maller Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maller Sarum SKIN:
+    id: 60679
+    name: Maller Sarum SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17546,6 +17888,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maulus Semiotique Sports SKIN:
+    id: 60261
+    name: Maulus Semiotique Sports SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maulus Serpentis SKIN:
     id: 42150
     marketGroup: 2004
@@ -17598,6 +17947,13 @@ types:
     id: 55578
     marketGroup: 1966
     name: Megathron Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Megathron Deathglow Remnant SKIN:
+    id: 60663
+    name: Megathron Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17977,6 +18333,14 @@ types:
     id: 36638
     marketGroup: 2003
     name: Merlin Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Merlin Semiotique Superluminal SKIN:
+    id: 60216
+    marketGroup: 2003
+    name: Merlin Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18655,6 +19019,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Muninn Malagrin Marshlight SKIN:
+    id: 60570
+    marketGroup: 2072
+    name: Muninn Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Muninn Republic Fleet SKIN:
     id: 58870
     marketGroup: 2072
@@ -19105,6 +19477,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Navitas Combat Medic Section SKIN:
+    id: 60199
+    marketGroup: 2004
+    name: Navitas Combat Medic Section SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Navitas Exoplanets Hunter SKIN:
     id: 45875
     marketGroup: 2004
@@ -19228,6 +19608,14 @@ types:
     id: 46392
     marketGroup: 2053
     name: Nemesis Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nemesis Malagrin Marshlight SKIN:
+    id: 60567
+    marketGroup: 2053
+    name: Nemesis Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19386,6 +19774,14 @@ types:
     id: 52351
     marketGroup: 2486
     name: Nergal Singularity Storm SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nestor AIR Laboratories SKIN:
+    id: 60158
+    marketGroup: 1963
+    name: Nestor AIR Laboratories SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20391,6 +20787,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Omen Aspirant Enforcer SKIN:
+    id: 60239
+    marketGroup: 1990
+    name: Omen Aspirant Enforcer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Omen Aurora Universalis SKIN:
     id: 57014
     marketGroup: 1990
@@ -20427,6 +20831,13 @@ types:
     id: 42769
     marketGroup: 1990
     name: Omen Cold Iron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Deathglow Remnant SKIN:
+    id: 60660
+    name: Omen Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20630,6 +21041,14 @@ types:
   Omen Sarum Serenity Only SKIN:
     id: 37949
     name: Omen Sarum Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Semiotique Superluminal SKIN:
+    id: 60215
+    marketGroup: 1990
+    name: Omen Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20907,6 +21326,14 @@ types:
     id: 56194
     marketGroup: 1956
     name: Oracle Crown and Swords SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Oracle Deathglow Hunters SKIN:
+    id: 60571
+    marketGroup: 1956
+    name: Oracle Deathglow Hunters SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21223,6 +21650,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Orthrus Aspirant Soldier SKIN:
+    id: 60241
+    marketGroup: 2030
+    name: Orthrus Aspirant Soldier SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Orthrus Convergence - Nova SKIN:
     id: 44254
     marketGroup: 2030
@@ -21267,6 +21702,14 @@ types:
     id: 37966
     marketGroup: 2030
     name: Orthrus Waschi Uprising 'Parade' SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Osprey AIR Laboratories SKIN:
+    id: 60266
+    marketGroup: 1991
+    name: Osprey AIR Laboratories SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21597,7 +22040,6 @@ types:
     volume: 0.009999999776482582
   Paladin Ironblood SKIN:
     id: 43519
-    marketGroup: 2024
     name: Paladin Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -21845,6 +22287,14 @@ types:
     id: 53434
     marketGroup: 2113
     name: Panther Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phantasm Aspirant Soldier SKIN:
+    id: 60240
+    marketGroup: 2030
+    name: Phantasm Aspirant Soldier SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22153,7 +22603,6 @@ types:
     volume: 0.009999999776482582
   Pilgrim Ironblood SKIN:
     id: 43509
-    marketGroup: 2081
     name: Pilgrim Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -22225,7 +22674,6 @@ types:
     volume: 0.009999999776482582
   Pontifex Ironblood SKIN:
     id: 43498
-    marketGroup: 2142
     name: Pontifex Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -22473,6 +22921,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Probe Aspirant Explorer SKIN:
+    id: 60231
+    marketGroup: 2005
+    name: Probe Aspirant Explorer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Probe Biosecurity Responders SKIN:
     id: 55644
     marketGroup: 2005
@@ -22586,6 +23042,13 @@ types:
     id: 43805
     marketGroup: 2319
     name: Procurer Angel Industrial Livery SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Procurer Aspirant Industrialist SKIN:
+    id: 60233
+    name: Procurer Aspirant Industrialist SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22960,7 +23423,6 @@ types:
     volume: 0.009999999776482582
   Prorator Ironblood SKIN:
     id: 43526
-    marketGroup: 2088
     name: Prorator Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -23258,7 +23720,6 @@ types:
     volume: 0.009999999776482582
   Providence Ironblood SKIN:
     id: 43528
-    marketGroup: 1984
     name: Providence Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -23407,6 +23868,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Punisher Blood Raiders SKIN:
+    id: 60668
+    name: Punisher Blood Raiders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Punisher Chromodynamic Candy SKIN:
     id: 49798
     marketGroup: 2002
@@ -23525,6 +23993,21 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Punisher Sarum SKIN:
+    id: 60677
+    name: Punisher Sarum SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Punisher Semiotique Superluminal SKIN:
+    id: 60213
+    marketGroup: 2002
+    name: Punisher Semiotique Superluminal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Punisher Tash-Murkon SKIN:
     id: 34729
     marketGroup: 2002
@@ -23614,8 +24097,15 @@ types:
     volume: 0.009999999776482582
   Purifier Ironblood SKIN:
     id: 43491
-    marketGroup: 2051
     name: Purifier Ironblood SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Purifier Malagrin Marshlight SKIN:
+    id: 60564
+    marketGroup: 2051
+    name: Purifier Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23640,6 +24130,13 @@ types:
     id: 37493
     marketGroup: 2051
     name: Purifier Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Purifier Sarum SKIN:
+    id: 60678
+    name: Purifier Sarum SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24092,6 +24589,7 @@ types:
     volume: 0.009999999776482582
   Raven Deathglow Remnant SKIN:
     id: 56782
+    marketGroup: 1965
     name: Raven Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -24168,6 +24666,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Raven Malagrin Marshlight SKIN:
+    id: 60566
+    marketGroup: 1965
+    name: Raven Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raven Matigu Seabeast SKIN:
     id: 40612
     marketGroup: 1965
@@ -24188,6 +24694,14 @@ types:
     id: 55543
     marketGroup: 2108
     name: Raven Navy Issue Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Navy Issue Cryptic Mimesis SKIN:
+    id: 60453
+    marketGroup: 2108
+    name: Raven Navy Issue Cryptic Mimesis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24527,7 +25041,6 @@ types:
     volume: 0.009999999776482582
   Redeemer Ironblood SKIN:
     id: 43518
-    marketGroup: 2110
     name: Redeemer Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -24569,6 +25082,14 @@ types:
     id: 52585
     marketGroup: 2110
     name: Redeemer Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Republic Fleet Firetail AIR Laboratories SKIN:
+    id: 60265
+    marketGroup: 2000
+    name: Republic Fleet Firetail AIR Laboratories SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24737,8 +25258,15 @@ types:
     volume: 0.009999999776482582
   Retribution Ironblood SKIN:
     id: 43488
-    marketGroup: 2047
     name: Retribution Ironblood SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Retribution Malagrin Marshlight SKIN:
+    id: 60563
+    marketGroup: 2047
+    name: Retribution Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24802,6 +25330,13 @@ types:
     id: 43806
     marketGroup: 2319
     name: Retriever Angel Industrial Livery SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Retriever Aspirant Industrialist SKIN:
+    id: 60234
+    name: Retriever Aspirant Industrialist SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25299,6 +25834,14 @@ types:
     id: 58864
     marketGroup: 2005
     name: Rifter Republic Fleet SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rifter Semiotique Superluminal SKIN:
+    id: 60222
+    marketGroup: 2005
+    name: Rifter Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25807,6 +26350,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Aspirant Enforcer SKIN:
+    id: 60238
+    marketGroup: 1993
+    name: Rupture Aspirant Enforcer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Aurora Universalis SKIN:
     id: 53363
     marketGroup: 1993
@@ -25973,6 +26524,14 @@ types:
   Rupture Sebiestor SKIN:
     id: 59838
     name: Rupture Sebiestor SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rupture Semiotique Superluminal SKIN:
+    id: 60224
+    marketGroup: 1993
+    name: Rupture Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26207,7 +26766,6 @@ types:
     volume: 0.009999999776482582
   Sacrilege Ironblood SKIN:
     id: 43504
-    marketGroup: 2069
     name: Sacrilege Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -26265,6 +26823,14 @@ types:
     id: 48498
     marketGroup: 2140
     name: Scalpel Dawn of Liberation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scalpel Emergency Response Squad SKIN:
+    id: 60196
+    marketGroup: 2140
+    name: Scalpel Emergency Response Squad SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26850,7 +27416,6 @@ types:
     volume: 0.009999999776482582
   Sentinel Ironblood SKIN:
     id: 43492
-    marketGroup: 2055
     name: Sentinel Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -26929,7 +27494,6 @@ types:
     volume: 0.009999999776482582
   Sigil Ironblood SKIN:
     id: 43525
-    marketGroup: 2007
     name: Sigil Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -27336,6 +27900,7 @@ types:
     volume: 0.009999999776482582
   Slasher Deathglow Remnant SKIN:
     id: 56784
+    marketGroup: 2005
     name: Slasher Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -27599,6 +28164,13 @@ types:
     id: 48504
     marketGroup: 1993
     name: Stabber Dawn of Liberation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Deathglow Remnant SKIN:
+    id: 60662
+    name: Stabber Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28046,9 +28618,25 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stratios AIR Laboratories SKIN:
+    id: 60157
+    marketGroup: 2030
+    name: Stratios AIR Laboratories SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stratios ASES SKIN:
     id: 59966
     name: Stratios ASES SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stratios Aspirant Soldier SKIN:
+    id: 60242
+    marketGroup: 2030
+    name: Stratios Aspirant Soldier SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28128,6 +28716,14 @@ types:
   Stratios Sanctuary Serenity Only SKIN:
     id: 38654
     name: Stratios Sanctuary Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stratios Semiotique Superluminal SKIN:
+    id: 60226
+    marketGroup: 2030
+    name: Stratios Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28349,6 +28945,14 @@ types:
     id: 52426
     marketGroup: 2392
     name: Svipul In Rust We Trust SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Svipul Malagrin Marshlight SKIN:
+    id: 60569
+    marketGroup: 2392
+    name: Svipul Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28616,6 +29220,14 @@ types:
   Talwar Sebiestor Serenity Only SKIN:
     id: 38629
     name: Talwar Sebiestor Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Talwar Semiotique Sports SKIN:
+    id: 60210
+    marketGroup: 1997
+    name: Talwar Semiotique Sports SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29246,6 +29858,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thalia Emergency Response Squad SKIN:
+    id: 60195
+    marketGroup: 2139
+    name: Thalia Emergency Response Squad SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thalia Exoplanets Hunter SKIN:
     id: 45884
     marketGroup: 2139
@@ -29515,6 +30135,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thorax Aspirant Enforcer SKIN:
+    id: 60237
+    marketGroup: 1992
+    name: Thorax Aspirant Enforcer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thorax Aurora Universalis SKIN:
     id: 57020
     marketGroup: 1992
@@ -29646,6 +30274,14 @@ types:
     id: 46562
     marketGroup: 1992
     name: Thorax Sapphire Sungrazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thorax Semiotique Superluminal SKIN:
+    id: 60221
+    marketGroup: 1992
+    name: Thorax Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29808,6 +30444,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thrasher Semiotique Superluminal SKIN:
+    id: 60223
+    marketGroup: 1997
+    name: Thrasher Semiotique Superluminal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thrasher Snowline Bladeracer SKIN:
     id: 52861
     marketGroup: 1997
@@ -29905,6 +30549,13 @@ types:
     id: 42751
     marketGroup: 2002
     name: Tormentor Cold Iron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tormentor Deathglow Remnant SKIN:
+    id: 60658
+    name: Tormentor Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30231,6 +30882,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tristan Quafe Green Apple SKIN:
+    id: 60577
+    name: Tristan Quafe Green Apple SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tristan Quafe SKIN:
     id: 34746
     marketGroup: 2004
@@ -30352,6 +31010,7 @@ types:
     volume: 0.009999999776482582
   Typhoon Deathglow Remnant SKIN:
     id: 56783
+    marketGroup: 1967
     name: Typhoon Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -30377,6 +31036,14 @@ types:
     id: 47172
     marketGroup: 2108
     name: Typhoon Fleet Issue Bloody Hands SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Typhoon Fleet Issue Cryptic Mimesis SKIN:
+    id: 60451
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Cryptic Mimesis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31070,7 +31737,6 @@ types:
     volume: 0.009999999776482582
   Vengeance Ironblood SKIN:
     id: 43489
-    marketGroup: 2047
     name: Vengeance Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -31127,6 +31793,13 @@ types:
     id: 43802
     marketGroup: 2321
     name: Venture Angel Industrial Livery SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Venture Aspirant Industrialist SKIN:
+    id: 60232
+    name: Venture Aspirant Industrialist SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31260,6 +31933,21 @@ types:
     id: 54787
     marketGroup: 1992
     name: Vexor Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Deathglow Hunters SKIN:
+    id: 60573
+    marketGroup: 1992
+    name: Vexor Deathglow Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Deathglow Remnant SKIN:
+    id: 60659
+    name: Vexor Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31488,6 +32176,13 @@ types:
     id: 49955
     marketGroup: 2063
     name: Vexor Navy Issue Yoiul Festival YC121 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Quafe Green Apple SKIN:
+    id: 60578
+    name: Vexor Quafe Green Apple SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -32613,7 +33308,6 @@ types:
     volume: 0.009999999776482582
   Zealot Ironblood SKIN:
     id: 43505
-    marketGroup: 2069
     name: Zealot Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -32643,6 +33337,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Zealot Sarum SKIN:
+    id: 60680
+    name: Zealot Sarum SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Zealot Star Captain SKIN:
     id: 52580
     marketGroup: 2069
@@ -32663,6 +33364,27 @@ types:
     id: 54222
     marketGroup: 2704
     name: Zirnitra Metamateria Exotica SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  '[no messageID: 588833]':
+    id: 60669
+    name: '[no messageID: 588833]'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  '[no messageID: 588839]':
+    id: 60671
+    name: '[no messageID: 588839]'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  '[no messageID: 588845]':
+    id: 60673
+    name: '[no messageID: 588845]'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

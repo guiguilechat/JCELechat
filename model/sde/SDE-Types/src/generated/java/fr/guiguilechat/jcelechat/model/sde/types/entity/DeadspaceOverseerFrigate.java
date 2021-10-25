@@ -416,8 +416,8 @@ public class DeadspaceOverseerFrigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int entitykillbounty;
+    @DefaultRealValue(0.0)
+    public double entitykillbounty;
     /**
      * The maximum number of pieces of loot dropped by this entity.
      */

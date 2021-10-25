@@ -11,10 +11,15 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
@@ -29,7 +34,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
@@ -46,6 +55,34 @@ public class MobileWarpDisruptor
     @Stackable(true)
     @DefaultIntValue(60000)
     public int anchoringdelay;
+    /**
+     * Multiplies EM damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armoremdamageresonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorexplosivedamageresonance;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorkineticdamageresonance;
+    /**
+     * Multiplies THERMAL damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorthermaldamageresonance;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
      */
@@ -105,13 +142,41 @@ public class MobileWarpDisruptor
     @DefaultIntValue(0)
     public int requiredskill2level;
     /**
+     * Multiplies EM damage taken by shield
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldemdamageresonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldexplosivedamageresonance;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldkineticdamageresonance;
+    /**
+     * Multiplies THERMAL damage taken by Shield. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldthermaldamageresonance;
+    /**
      * Maximum range objects can be warp scrambled from.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerange;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, WarpScrambleRange.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, AnchoringDelay.INSTANCE, ScanLadarStrength.INSTANCE, DisallowInEmpireSpace.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, MetaGroupID.INSTANCE, ShieldRechargeRate.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, WarpScrambleRange.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, DisallowInEmpireSpace.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final MobileWarpDisruptor.MetaGroup METAGROUP = new MobileWarpDisruptor.MetaGroup();
 
     @Override
@@ -120,6 +185,22 @@ public class MobileWarpDisruptor
             case  556 :
             {
                 return anchoringdelay;
+            }
+            case  267 :
+            {
+                return armoremdamageresonance;
+            }
+            case  268 :
+            {
+                return armorexplosivedamageresonance;
+            }
+            case  269 :
+            {
+                return armorkineticdamageresonance;
+            }
+            case  270 :
+            {
+                return armorthermaldamageresonance;
             }
             case  1074 :
             {
@@ -148,6 +229,22 @@ public class MobileWarpDisruptor
             case  278 :
             {
                 return requiredskill2level;
+            }
+            case  271 :
+            {
+                return shieldemdamageresonance;
+            }
+            case  272 :
+            {
+                return shieldexplosivedamageresonance;
+            }
+            case  273 :
+            {
+                return shieldkineticdamageresonance;
+            }
+            case  274 :
+            {
+                return shieldthermaldamageresonance;
             }
             case  103 :
             {

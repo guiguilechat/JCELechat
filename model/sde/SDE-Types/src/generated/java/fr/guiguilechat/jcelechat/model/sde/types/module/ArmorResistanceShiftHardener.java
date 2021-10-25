@@ -121,14 +121,6 @@ public class ArmorResistanceShiftHardener
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -170,14 +162,6 @@ public class ArmorResistanceShiftHardener
     @Stackable(true)
     @DefaultIntValue(0)
     public int resistanceshiftamount;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, ResistanceShiftAmount.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, Power.INSTANCE })));
     public static final ArmorResistanceShiftHardener.MetaGroup METAGROUP = new ArmorResistanceShiftHardener.MetaGroup();
 
@@ -228,10 +212,6 @@ public class ArmorResistanceShiftHardener
             {
                 return maxgroupfitted;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1206 :
             {
                 return overloadselfdurationbonus;
@@ -255,10 +235,6 @@ public class ArmorResistanceShiftHardener
             case  1849 :
             {
                 return resistanceshiftamount;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

@@ -8,10 +8,6 @@ public class R_get_characters_character_id {
      */
     public int alliance_id;
     /**
-     * ancestry_id integer
-     */
-    public int ancestry_id;
-    /**
      * Creation date of the character
      */
     public String birthday;
@@ -64,9 +60,6 @@ public class R_get_characters_character_id {
         if (alliance_id!= othersame.alliance_id) {
             return false;
         }
-        if (ancestry_id!= othersame.ancestry_id) {
-            return false;
-        }
         if ((birthday!= othersame.birthday)&&((birthday == null)||(!birthday.equals(othersame.birthday)))) {
             return false;
         }
@@ -101,6 +94,6 @@ public class R_get_characters_character_id {
     }
 
     public int hashCode() {
-        return (((((((((((alliance_id + ancestry_id)+((birthday == null)? 0 :birthday.hashCode()))+ bloodline_id)+ corporation_id)+((description == null)? 0 :description.hashCode()))+ faction_id)+((gender == null)? 0 :gender.hashCode()))+((name == null)? 0 :name.hashCode()))+ race_id)+ Double.hashCode(security_status))+((title == null)? 0 :title.hashCode()));
+        return ((((((((((alliance_id +((birthday == null)? 0 :birthday.hashCode()))+ bloodline_id)+ corporation_id)+((description == null)? 0 :description.hashCode()))+ faction_id)+((gender == null)? 0 :gender.hashCode()))+((name == null)? 0 :name.hashCode()))+ race_id)+ Double.hashCode(security_status))+((title == null)? 0 :title.hashCode()));
     }
 }

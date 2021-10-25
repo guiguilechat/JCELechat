@@ -106,14 +106,6 @@ public class TargetPainter
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -162,14 +154,6 @@ public class TargetPainter
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double signatureradiusbonus;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, SignatureRadiusBonus.INSTANCE, OverloadPainterStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill2Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, RemoteResistanceID.INSTANCE, HeatDamage.INSTANCE, FalloffEffectiveness.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final TargetPainter.MetaGroup METAGROUP = new TargetPainter.MetaGroup();
 
@@ -208,10 +192,6 @@ public class TargetPainter
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1937 :
             {
                 return overloadpainterstrengthbonus;
@@ -239,10 +219,6 @@ public class TargetPainter
             case  554 :
             {
                 return signatureradiusbonus;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

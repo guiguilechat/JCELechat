@@ -1562,7 +1562,7 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 4000.0
-  Decloaked Shining Flame Transmission Relay:
+  Decloaked Tetrimon Transmission Relay:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
@@ -1587,7 +1587,7 @@ types:
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
-    name: Decloaked Shining Flame Transmission Relay
+    name: Decloaked Tetrimon Transmission Relay
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
@@ -1819,7 +1819,7 @@ types:
     entityequipmentmax: 3
     entityequipmentmin: 2
     entityflyrange: 500.0
-    entitykillbounty: 10000
+    entitykillbounty: 10000.0
     entitylootcountmax: 3
     entitylootcountmin: 2
     explosivedamageresonance: 1.0

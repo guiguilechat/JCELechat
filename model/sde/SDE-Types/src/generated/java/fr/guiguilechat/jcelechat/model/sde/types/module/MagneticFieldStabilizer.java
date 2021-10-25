@@ -63,14 +63,6 @@ public class MagneticFieldStabilizer
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -98,14 +90,6 @@ public class MagneticFieldStabilizer
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double speedmultiplier;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, SpeedMultiplier.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final MagneticFieldStabilizer.MetaGroup METAGROUP = new MagneticFieldStabilizer.MetaGroup();
 
@@ -124,10 +108,6 @@ public class MagneticFieldStabilizer
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -143,10 +123,6 @@ public class MagneticFieldStabilizer
             case  204 :
             {
                 return speedmultiplier;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

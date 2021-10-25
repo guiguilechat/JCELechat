@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Reward for destroying this entity.
  */
 public class EntityKillBounty
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final EntityKillBounty INSTANCE = new EntityKillBounty();
 

@@ -62,14 +62,6 @@ public class NanofiberInternalStructure
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -90,15 +82,7 @@ public class NanofiberInternalStructure
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structurehpmultiplier;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ImplantBonusVelocity.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, StructureHPMultiplier.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, MetaLevelOld.INSTANCE, Hp.INSTANCE, MetaGroupID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ImplantBonusVelocity.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, StructureHPMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE })));
     public static final NanofiberInternalStructure.MetaGroup METAGROUP = new NanofiberInternalStructure.MetaGroup();
 
     @Override
@@ -116,10 +100,6 @@ public class NanofiberInternalStructure
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  182 :
             {
                 return requiredskill1;
@@ -131,10 +111,6 @@ public class NanofiberInternalStructure
             case  150 :
             {
                 return structurehpmultiplier;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

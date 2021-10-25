@@ -140,14 +140,6 @@ public class AncillaryRemoteArmorRepairer
     @DefaultIntValue(1)
     public int mediumremoterepfittingmultiplier;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -210,14 +202,6 @@ public class AncillaryRemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, MediumRemoteRepFittingMultiplier.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, RemoteResistanceID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, ChargedArmorDamageMultiplier.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RepairMultiplierBonusPerCycle.INSTANCE, RepairMultiplierBonusMax.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE })));
     public static final AncillaryRemoteArmorRepairer.MetaGroup METAGROUP = new AncillaryRemoteArmorRepairer.MetaGroup();
 
@@ -276,10 +260,6 @@ public class AncillaryRemoteArmorRepairer
             {
                 return mediumremoterepfittingmultiplier;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1206 :
             {
                 return overloadselfdurationbonus;
@@ -315,10 +295,6 @@ public class AncillaryRemoteArmorRepairer
             case  1212 :
             {
                 return requiredthermodynamicsskill;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

@@ -128,14 +128,6 @@ public class MicroJumpDrive
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -170,14 +162,6 @@ public class MicroJumpDrive
     @Stackable(false)
     @DefaultIntValue(0)
     public int signatureradiusbonuspercent;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
     public static final MicroJumpDrive.MetaGroup METAGROUP = new MicroJumpDrive.MetaGroup();
 
@@ -232,10 +216,6 @@ public class MicroJumpDrive
             {
                 return maxgroupfitted;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  669 :
             {
                 return modulereactivationdelay;
@@ -255,10 +235,6 @@ public class MicroJumpDrive
             case  973 :
             {
                 return signatureradiusbonuspercent;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

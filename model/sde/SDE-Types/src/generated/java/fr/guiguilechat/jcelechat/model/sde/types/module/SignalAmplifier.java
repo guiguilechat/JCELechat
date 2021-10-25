@@ -75,14 +75,6 @@ public class SignalAmplifier
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -138,15 +130,7 @@ public class SignalAmplifier
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double scanresolutionbonus;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, TechLevel.INSTANCE, ScanRadarStrengthPercent.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MaxLockedTargetsBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, ScanRadarStrengthPercent.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MaxLockedTargetsBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final SignalAmplifier.MetaGroup METAGROUP = new SignalAmplifier.MetaGroup();
 
     @Override
@@ -167,10 +151,6 @@ public class SignalAmplifier
             case  1692 :
             {
                 return metagroupid;
-            }
-            case  633 :
-            {
-                return metalevelold;
             }
             case  30 :
             {
@@ -203,10 +183,6 @@ public class SignalAmplifier
             case  566 :
             {
                 return scanresolutionbonus;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

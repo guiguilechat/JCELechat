@@ -128,7 +128,7 @@ types:
     published: true
     volume: 0.10000000149011612
   Crimson Gauntlet Shortcut Keypass:
-    id: 56691
+    id: 60682
     mass: 1.0
     name: Crimson Gauntlet Shortcut Keypass
     packagedVolume: 0.10000000149011612
@@ -299,30 +299,6 @@ types:
     id: 24353
     mass: 1.0
     name: Gargoyle Passkey
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Gate Control Code A:
-    id: 57569
-    mass: 1.0
-    name: Gate Control Code A
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Gate Control Code B:
-    id: 57572
-    mass: 1.0
-    name: Gate Control Code B
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Gate Control Code C:
-    id: 57573
-    mass: 1.0
-    name: Gate Control Code C
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -631,14 +607,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shining Flame Base Shortcut Keypass:
-    id: 56692
-    mass: 1.0
-    name: Shining Flame Base Shortcut Keypass
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
   Shiny Sentry Key:
     id: 23907
     mass: 1.0
@@ -691,6 +659,14 @@ types:
     id: 17911
     mass: 1.0
     name: Supply Ship Pass
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Tetrimon Base Shortcut Keypass:
+    id: 60681
+    mass: 1.0
+    name: Tetrimon Base Shortcut Keypass
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

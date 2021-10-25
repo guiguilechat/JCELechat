@@ -39,14 +39,6 @@ public class WarpAccelerator
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -68,21 +60,13 @@ public class WarpAccelerator
     @DefaultIntValue(0)
     public int requiredskill1level;
     /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double warpspeedadd;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, MetaLevelOld.INSTANCE, Hp.INSTANCE, WarpSpeedAdd.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, WarpSpeedAdd.INSTANCE, Power.INSTANCE })));
     public static final WarpAccelerator.MetaGroup METAGROUP = new WarpAccelerator.MetaGroup();
 
     @Override
@@ -91,10 +75,6 @@ public class WarpAccelerator
             case  1544 :
             {
                 return maxgroupfitted;
-            }
-            case  633 :
-            {
-                return metalevelold;
             }
             case  30 :
             {
@@ -107,10 +87,6 @@ public class WarpAccelerator
             case  277 :
             {
                 return requiredskill1level;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  1950 :
             {

@@ -115,14 +115,6 @@ public class MicroJumpFieldGenerators
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * distance jumped on mjd activation
      */
     @HighIsGood(true)
@@ -178,14 +170,6 @@ public class MicroJumpFieldGenerators
     @Stackable(false)
     @DefaultIntValue(0)
     public int signatureradiusbonuspercent;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, MjdShipJumpCap.INSTANCE, MjdJumpRange.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, MjfgRadius.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
     public static final MicroJumpFieldGenerators.MetaGroup METAGROUP = new MicroJumpFieldGenerators.MetaGroup();
 
@@ -232,10 +216,6 @@ public class MicroJumpFieldGenerators
             {
                 return maxgroupfitted;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  2066 :
             {
                 return mjdjumprange;
@@ -267,10 +247,6 @@ public class MicroJumpFieldGenerators
             case  973 :
             {
                 return signatureradiusbonuspercent;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

@@ -87,14 +87,6 @@ public class EnergizedArmorMembrane
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -115,14 +107,6 @@ public class EnergizedArmorMembrane
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     /**
      * 
      */
@@ -160,10 +144,6 @@ public class EnergizedArmorMembrane
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -175,10 +155,6 @@ public class EnergizedArmorMembrane
             case  277 :
             {
                 return requiredskill1level;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  987 :
             {

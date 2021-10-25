@@ -47,14 +47,6 @@ public class VortonProjectorUpgrade
     @DefaultRealValue(1.0)
     public double damagemultiplier;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -82,15 +74,7 @@ public class VortonProjectorUpgrade
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double speedmultiplier;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, Cpu.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, MetaLevelOld.INSTANCE, Hp.INSTANCE, SpeedMultiplier.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, Cpu.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, SpeedMultiplier.INSTANCE, Power.INSTANCE })));
     public static final VortonProjectorUpgrade.MetaGroup METAGROUP = new VortonProjectorUpgrade.MetaGroup();
 
     @Override
@@ -103,10 +87,6 @@ public class VortonProjectorUpgrade
             case  64 :
             {
                 return damagemultiplier;
-            }
-            case  633 :
-            {
-                return metalevelold;
             }
             case  30 :
             {
@@ -123,10 +103,6 @@ public class VortonProjectorUpgrade
             case  204 :
             {
                 return speedmultiplier;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

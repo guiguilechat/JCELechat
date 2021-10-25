@@ -104,14 +104,6 @@ public class RigNavigation
     @DefaultIntValue(0)
     public int massbonuspercentage;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -125,14 +117,6 @@ public class RigNavigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int speedfbonus;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
      */
@@ -154,7 +138,7 @@ public class RigNavigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpcapacitorneedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, CargoCapacityBonus.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MassBonusPercentage.INSTANCE, WarpSBonus.INSTANCE, Drawback.INSTANCE, ImplantBonusVelocity.INSTANCE, AgilityBonus.INSTANCE, CapacitorNeedMultiplier.INSTANCE, MetaLevelOld.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, CargoCapacityBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MassBonusPercentage.INSTANCE, WarpSBonus.INSTANCE, Drawback.INSTANCE, ImplantBonusVelocity.INSTANCE, AgilityBonus.INSTANCE, CapacitorNeedMultiplier.INSTANCE, MetaLevelOld.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
     public static final RigNavigation.MetaGroup METAGROUP = new RigNavigation.MetaGroup();
 
     @Override
@@ -196,10 +180,6 @@ public class RigNavigation
             {
                 return massbonuspercentage;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1547 :
             {
                 return rigsize;
@@ -207,10 +187,6 @@ public class RigNavigation
             case  318 :
             {
                 return speedfbonus;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  1153 :
             {

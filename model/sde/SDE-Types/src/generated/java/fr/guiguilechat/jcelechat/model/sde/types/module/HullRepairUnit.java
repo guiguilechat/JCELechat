@@ -93,14 +93,6 @@ public class HullRepairUnit
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -170,14 +162,6 @@ public class HullRepairUnit
     @Stackable(true)
     @DefaultIntValue(0)
     public int structuredamageamount;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, StructureDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE })));
     public static final HullRepairUnit.MetaGroup METAGROUP = new HullRepairUnit.MetaGroup();
 
@@ -207,10 +191,6 @@ public class HullRepairUnit
             case  1692 :
             {
                 return metagroupid;
-            }
-            case  633 :
-            {
-                return metalevelold;
             }
             case  1206 :
             {
@@ -251,10 +231,6 @@ public class HullRepairUnit
             case  83 :
             {
                 return structuredamageamount;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

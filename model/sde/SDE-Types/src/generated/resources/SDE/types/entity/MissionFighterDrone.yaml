@@ -32,7 +32,7 @@ types:
     entityequipmentmax: 1
     entityflyrange: 9000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 750000
+    entitykillbounty: 750000.0
     entitylootcountmax: 1
     entitymissiletypeid: 27317
     entityoverviewshipgroupid: 549
@@ -130,7 +130,7 @@ types:
     entityequipmentmax: 1
     entityflyrange: 18000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 750000
+    entitykillbounty: 750000.0
     entitylootcountmax: 1
     entitymissiletypeid: 27341
     entityoverviewshipgroupid: 25

@@ -118,14 +118,6 @@ public class SensorBooster
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -202,14 +194,6 @@ public class SensorBooster
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double scanresolutionbonus;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ReloadTime.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadSensorModuleStrengthBonus.INSTANCE, RequiredSkill1Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
     public static final SensorBooster.MetaGroup METAGROUP = new SensorBooster.MetaGroup();
 
@@ -251,10 +235,6 @@ public class SensorBooster
             case  1692 :
             {
                 return metagroupid;
-            }
-            case  633 :
-            {
-                return metalevelold;
             }
             case  1936 :
             {
@@ -299,10 +279,6 @@ public class SensorBooster
             case  566 :
             {
                 return scanresolutionbonus;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

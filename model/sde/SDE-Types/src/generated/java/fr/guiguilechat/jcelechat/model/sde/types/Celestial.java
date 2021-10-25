@@ -14,7 +14,6 @@ import fr.guiguilechat.jcelechat.model.sde.types.celestial.CargoContainer;
 import fr.guiguilechat.jcelechat.model.sde.types.celestial.EncounterSurveillanceSystem;
 import fr.guiguilechat.jcelechat.model.sde.types.celestial.FreightContainer;
 import fr.guiguilechat.jcelechat.model.sde.types.celestial.HarvestableCloud;
-import fr.guiguilechat.jcelechat.model.sde.types.celestial.OrbitalTarget;
 import fr.guiguilechat.jcelechat.model.sde.types.celestial.SecureCargoContainer;
 import fr.guiguilechat.jcelechat.model.sde.types.celestial.StationImprovementPlatform;
 
@@ -50,7 +49,7 @@ public abstract class Celestial
 
         @Override
         public Collection<IMetaGroup<? extends Celestial>> groups() {
-            return Arrays.asList(CargoContainer.METAGROUP, Biomass.METAGROUP, SecureCargoContainer.METAGROUP, AuditLogSecureContainer.METAGROUP, FreightContainer.METAGROUP, HarvestableCloud.METAGROUP, StationImprovementPlatform.METAGROUP, OrbitalTarget.METAGROUP, EncounterSurveillanceSystem.METAGROUP);
+            return Arrays.asList(CargoContainer.METAGROUP, Biomass.METAGROUP, SecureCargoContainer.METAGROUP, AuditLogSecureContainer.METAGROUP, FreightContainer.METAGROUP, HarvestableCloud.METAGROUP, StationImprovementPlatform.METAGROUP, EncounterSurveillanceSystem.METAGROUP);
         }
     }
 }

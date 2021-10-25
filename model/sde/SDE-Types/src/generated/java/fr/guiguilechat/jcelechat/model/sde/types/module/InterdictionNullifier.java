@@ -166,14 +166,6 @@ public class InterdictionNullifier
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -208,14 +200,6 @@ public class InterdictionNullifier
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double scanresolutionmultiplier;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     /**
      * modifies warp bubble immuntiy 
      */
@@ -293,10 +277,6 @@ public class InterdictionNullifier
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  669 :
             {
                 return modulereactivationdelay;
@@ -316,10 +296,6 @@ public class InterdictionNullifier
             case  565 :
             {
                 return scanresolutionmultiplier;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  3120 :
             {

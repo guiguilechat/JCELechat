@@ -62895,7 +62895,7 @@ blueprints:
       - id: 36
         quantity: 15000
       - id: 37
-        quantity: 6
+        quantity: 6000
       - id: 38
         quantity: 900
       - id: 39
@@ -173635,4 +173635,46 @@ blueprints:
       time: 420
     research_time:
       time: 420
+    seeded: false
+  60514:
+    copying:
+      time: 9600
+    id: 60514
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 2416000
+      - id: 35
+        quantity: 502000
+      - id: 37
+        quantity: 310400
+      - id: 39
+        quantity: 2840
+      - id: 40
+        quantity: 420
+      - id: 2867
+        quantity: 2
+      - id: 2872
+        quantity: 2
+      - id: 2875
+        quantity: 1
+      - id: 2876
+        quantity: 2
+      products:
+      - id: 60244
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+        ? id: 11446
+        : 4
+        ? id: 11448
+        : 4
+      time: 12000
+    maxCopyRuns: 10
+    research_material:
+      time: 4200
+    research_time:
+      time: 4200
     seeded: false

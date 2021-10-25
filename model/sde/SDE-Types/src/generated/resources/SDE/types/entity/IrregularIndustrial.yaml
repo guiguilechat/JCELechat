@@ -133,7 +133,7 @@ types:
     entityequipmentmax: 2
     entityequipmentmin: 1
     entityflyrange: 20000.0
-    entitykillbounty: 10000
+    entitykillbounty: 10000.0
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 211
@@ -300,7 +300,7 @@ types:
     entitycruisespeed: 275.0
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
-    entitykillbounty: 100000
+    entitykillbounty: 100000.0
     entitymaxvelocitysignatureradiusmultiplier: 1
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0

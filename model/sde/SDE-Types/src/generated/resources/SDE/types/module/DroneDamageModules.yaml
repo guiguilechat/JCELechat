@@ -115,6 +115,24 @@ types:
     requiredskill2level: 1
     techlevel: 1
     volume: 5.0
+  Mutated Drone Damage Amplifier:
+    cpu: 30.0
+    dronedamagebonus: 20.5
+    hp: 40.0
+    id: 60482
+    metalevelold: 5
+    name: Mutated Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    requiredskill2: 3436
+    requiredskill2level: 4
+    techlevel: 2
+    volume: 5.0
   Sentient Drone Damage Amplifier:
     cpu: 20.0
     dronedamagebonus: 23.799999237060547

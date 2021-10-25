@@ -54,14 +54,6 @@ public class PassiveTargetingSystem
     @DefaultRealValue(0.0)
     public double duration;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -82,15 +74,7 @@ public class PassiveTargetingSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Cpu.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, MetaLevelOld.INSTANCE, Hp.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Cpu.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE })));
     public static final PassiveTargetingSystem.MetaGroup METAGROUP = new PassiveTargetingSystem.MetaGroup();
 
     @Override
@@ -108,10 +92,6 @@ public class PassiveTargetingSystem
             {
                 return duration;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -123,10 +103,6 @@ public class PassiveTargetingSystem
             case  277 :
             {
                 return requiredskill1level;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

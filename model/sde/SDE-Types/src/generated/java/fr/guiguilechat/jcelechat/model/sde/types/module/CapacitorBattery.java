@@ -70,14 +70,6 @@ public class CapacitorBattery
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -98,14 +90,6 @@ public class CapacitorBattery
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, EnergyWarfareResistanceBonus.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final CapacitorBattery.MetaGroup METAGROUP = new CapacitorBattery.MetaGroup();
 
@@ -128,10 +112,6 @@ public class CapacitorBattery
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -143,10 +123,6 @@ public class CapacitorBattery
             case  277 :
             {
                 return requiredskill1level;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

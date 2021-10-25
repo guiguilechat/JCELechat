@@ -34,7 +34,7 @@ types:
     entityequipmentmin: 2
     entityflyrange: 70000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 60000000
+    entitykillbounty: 6.0E7
     entitylootcountmin: 1
     entityoverviewshipgroupid: 547
     entityreactionfactor: 0.8999999761581421
@@ -120,7 +120,7 @@ types:
     entityequipmentmin: 2
     entityflyrange: 70000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 120000000
+    entitykillbounty: 1.2E8
     entitylootcountmin: 1
     entityoverviewshipgroupid: 547
     entityreactionfactor: 0.8999999761581421

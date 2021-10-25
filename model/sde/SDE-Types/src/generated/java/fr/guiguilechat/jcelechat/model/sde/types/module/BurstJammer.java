@@ -109,14 +109,6 @@ public class BurstJammer
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -180,14 +172,6 @@ public class BurstJammer
     @DefaultRealValue(0.0)
     public double scanradarstrengthbonus;
     /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -232,10 +216,6 @@ public class BurstJammer
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1225 :
             {
                 return overloadecmstrengthbonus;
@@ -271,10 +251,6 @@ public class BurstJammer
             case  241 :
             {
                 return scanradarstrengthbonus;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  1539 :
             {

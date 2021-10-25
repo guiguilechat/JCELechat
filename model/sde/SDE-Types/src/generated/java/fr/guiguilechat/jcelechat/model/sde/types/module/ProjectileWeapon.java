@@ -167,14 +167,6 @@ public class ProjectileWeapon
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */
     @HighIsGood(true)
@@ -301,14 +293,6 @@ public class ProjectileWeapon
     @DefaultRealValue(0.0)
     public double speed;
     /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    /**
      * Weapon accuracy
      */
     @HighIsGood(true)
@@ -384,10 +368,6 @@ public class ProjectileWeapon
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  620 :
             {
                 return optimalsigradius;
@@ -459,10 +439,6 @@ public class ProjectileWeapon
             case  51 :
             {
                 return speed;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  160 :
             {

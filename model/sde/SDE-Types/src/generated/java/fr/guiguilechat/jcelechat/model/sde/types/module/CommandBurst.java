@@ -216,14 +216,6 @@ public class CommandBurst
     @DefaultRealValue(0.0)
     public double maxrange;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -279,14 +271,6 @@ public class CommandBurst
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill3level;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     /**
      * 
      */
@@ -416,10 +400,6 @@ public class CommandBurst
             {
                 return maxrange;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -451,10 +431,6 @@ public class CommandBurst
             case  279 :
             {
                 return requiredskill3level;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  2469 :
             {

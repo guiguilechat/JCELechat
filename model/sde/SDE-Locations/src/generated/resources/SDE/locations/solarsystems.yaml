@@ -17237,7 +17237,7 @@ locations:
     isWormhole: false
     name: Akiainavas
     region: Lonetrek
-    truesec: 0.7452549433180888
+    truesec: 0.745254943318
   Akidagi:
     adjacentSystems:
     - Aivonen
@@ -26905,7 +26905,7 @@ locations:
     isWormhole: false
     name: Clellinon
     region: Verge Vendor
-    truesec: 0.848465929327211
+    truesec: 0.848465929327
   Cleyd:
     adjacentSystems:
     - Lor
@@ -27004,7 +27004,7 @@ locations:
     isWormhole: false
     name: Conoban
     region: Kor-Azor
-    truesec: 0.9052488000278315
+    truesec: 0.905248800028
   Conomette:
     adjacentConstellations:
     - TA-A7V
@@ -27056,7 +27056,7 @@ locations:
     isWormhole: false
     name: Couster
     region: Essence
-    truesec: 0.9024608884519887
+    truesec: 0.902460888452
   Covryn:
     adjacentConstellations:
     - Alselbosier
@@ -29254,7 +29254,7 @@ locations:
     isWormhole: false
     name: Deepari
     region: Domain
-    truesec: 0.9141726348782315
+    truesec: 0.914172634878
   Defsunun:
     adjacentConstellations:
     - Fabai
@@ -32342,7 +32342,7 @@ locations:
     isWormhole: false
     name: Embod
     region: Metropolis
-    truesec: 0.9607494002658415
+    truesec: 0.960749400266
   Emolgranlan:
     adjacentConstellations:
     - Evannater
@@ -41095,7 +41095,7 @@ locations:
     isWormhole: false
     name: Hadaugago
     region: Heimatar
-    truesec: 0.9487719646441248
+    truesec: 0.948771964644
   Hadji:
     adjacentConstellations:
     - Fabas
@@ -82648,7 +82648,7 @@ locations:
     isWormhole: false
     name: Jouvulen
     region: Lonetrek
-    truesec: 0.8897628517610554
+    truesec: 0.889762851761
   Jovainnon:
     adjacentConstellations:
     - Peccanouette
@@ -91675,7 +91675,7 @@ locations:
     isWormhole: false
     name: Malukker
     region: Heimatar
-    truesec: 0.9880116745402241
+    truesec: 0.98801167454
   Mamenkhanar:
     adjacentConstellations:
     - Throne Worlds
@@ -102383,7 +102383,7 @@ locations:
     isWormhole: false
     name: Pasha
     region: Tash-Murkon
-    truesec: 0.9143491954941014
+    truesec: 0.914349195494
   Pashanai:
     adjacentSystems:
     - Manatirid
@@ -115545,7 +115545,7 @@ locations:
     isWormhole: false
     name: Trossere
     region: Sinq Laison
-    truesec: 0.9144102725918363
+    truesec: 0.914410272592
   Trytedald:
     adjacentConstellations:
     - Hevaka
@@ -118090,7 +118090,7 @@ locations:
     isWormhole: false
     name: Uitra
     region: The Forge
-    truesec: 0.9240960029643324
+    truesec: 0.924096002964
   Ukkalen:
     adjacentSystems:
     - Keikaken

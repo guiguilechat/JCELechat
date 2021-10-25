@@ -17,6 +17,7 @@ types:
     disallowassistance: 1
     duration: 10000.0
     emdamage: 2.0
+    emdamageresonance: 1.0
     entityattackdelaymax: 9700
     entityattackdelaymin: 2100
     entityattackrange: 6000
@@ -31,7 +32,7 @@ types:
     entityequipmentmax: 1
     entityequipmentmin: 1
     entityflyrange: 500.0
-    entitykillbounty: 6000
+    entitykillbounty: 6000.0
     entitylootcountmax: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
@@ -39,12 +40,14 @@ types:
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.010625000111758709
     entitystrength: 4
+    explosivedamageresonance: 1.0
     falloff: 2000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 394
     gfxturretid: 378
     hp: 23.0
     id: 48930
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -74,8 +77,65 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 2.0
+    thermaldamageresonance: 1.0
     trackingspeed: 1.7999999523162842
     volume: 20000.0
+  Infiltrator II:
+    agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 456.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    damagemultiplier: 1.6799999475479126
+    emdamage: 32.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 3000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 408.0
+    id: 60376
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 2760.0
+    missiledamagemultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Infiltrator II
+    npcbehaviormaximumcombatorbitrange: 2500.0
+    optimalsigradius: 125
+    packagedVolume: 10.0
+    portionSize: 1
+    published: false
+    radius: 20.0
+    scanradarstrength: 12.5
+    scanspeed: 2000
+    shieldcapacity: 96.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 200000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    speed: 4000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 4000.0
+    volume: 10.0
   Moth Apis:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -94,6 +154,7 @@ types:
     disallowassistance: 1
     duration: 10000.0
     emdamage: 3.0
+    emdamageresonance: 1.0
     entityattackdelaymax: 10000
     entityattackdelaymin: 2250
     entityattackrange: 3500
@@ -107,19 +168,21 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 1
     entityflyrange: 500.0
-    entitykillbounty: 8250
+    entitykillbounty: 8250.0
     entitylootcountmax: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.25
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.014999999664723873
     entitystrength: 4
+    explosivedamageresonance: 1.0
     falloff: 2000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 394
     gfxturretid: 350
     hp: 13.0
     id: 48929
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -149,6 +212,7 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 2.430000066757202
     volume: 20000.0
   Scorpionfly Apis:
@@ -169,6 +233,7 @@ types:
     disallowassistance: 1
     duration: 10000.0
     emdamage: 2.0
+    emdamageresonance: 1.0
     entityattackdelaymax: 9900
     entityattackdelaymin: 2200
     entityattackrange: 6000
@@ -183,19 +248,21 @@ types:
     entityequipmentmax: 1
     entityequipmentmin: 1
     entityflyrange: 500.0
-    entitykillbounty: 9000
+    entitykillbounty: 9000.0
     entitylootcountmax: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.2750000059604645
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.01633330062031746
     entitystrength: 4
+    explosivedamageresonance: 1.0
     falloff: 2000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 394
     gfxturretid: 393
     hp: 11.0
     id: 48932
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -225,6 +292,7 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 3.0
+    thermaldamageresonance: 1.0
     trackingspeed: 2.0999999046325684
     volume: 20000.0
   Termite Apis:
@@ -245,6 +313,7 @@ types:
     disallowassistance: 1
     duration: 10000.0
     emdamage: 3.0
+    emdamageresonance: 1.0
     entityattackdelaymax: 9800
     entityattackdelaymin: 2150
     entityattackrange: 6000
@@ -259,19 +328,21 @@ types:
     entityequipmentmax: 1
     entityequipmentmin: 1
     entityflyrange: 500.0
-    entitykillbounty: 9875
+    entitykillbounty: 9875.0
     entitylootcountmax: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.30000001192092896
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.01856819912791252
     entitystrength: 4
+    explosivedamageresonance: 1.0
     falloff: 2000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 394
     gfxturretid: 349
     hp: 11.0
     id: 48931
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -301,5 +372,6 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 2.0
+    thermaldamageresonance: 1.0
     trackingspeed: 1.9500000476837158
     volume: 20000.0

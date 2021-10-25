@@ -124,14 +124,6 @@ public class WarpScrambler
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * tbd
      */
     @HighIsGood(true)
@@ -188,14 +180,6 @@ public class WarpScrambler
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
     /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    /**
      * Amount to modify ships warp scramble status by.
      */
     @HighIsGood(true)
@@ -248,10 +232,6 @@ public class WarpScrambler
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  8 :
             {
                 return minrange;
@@ -283,10 +263,6 @@ public class WarpScrambler
             case  1212 :
             {
                 return requiredthermodynamicsskill;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  105 :
             {

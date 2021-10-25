@@ -97,14 +97,6 @@ public class TractorBeam
     @DefaultIntValue(0)
     public int maxtractorvelocity;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -139,14 +131,6 @@ public class TractorBeam
     @Stackable(true)
     @DefaultIntValue(0)
     public int targetmodule;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
@@ -192,10 +176,6 @@ public class TractorBeam
             {
                 return maxtractorvelocity;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -215,10 +195,6 @@ public class TractorBeam
             case  61 :
             {
                 return targetmodule;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  1768 :
             {

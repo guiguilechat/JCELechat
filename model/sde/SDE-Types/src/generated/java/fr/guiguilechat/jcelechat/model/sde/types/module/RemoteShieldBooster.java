@@ -114,14 +114,6 @@ public class RemoteShieldBooster
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -170,14 +162,6 @@ public class RemoteShieldBooster
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double shieldbonus;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MediumRemoteRepFittingMultiplier.INSTANCE, ShieldBonus.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, RemoteResistanceID.INSTANCE, HeatDamage.INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, Power.INSTANCE })));
     public static final RemoteShieldBooster.MetaGroup METAGROUP = new RemoteShieldBooster.MetaGroup();
 
@@ -220,10 +204,6 @@ public class RemoteShieldBooster
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1206 :
             {
                 return overloadselfdurationbonus;
@@ -251,10 +231,6 @@ public class RemoteShieldBooster
             case  68 :
             {
                 return shieldbonus;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

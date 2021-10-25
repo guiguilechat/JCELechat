@@ -157,16 +157,14 @@ public interface G_IDCAccess
      * Get character's public information
      * <p>
      * Public information about a character<br />
-     * This route is cached for up to 86400 seconds<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/)
+     * This route is cached for up to 86400 seconds
      * </p>
      * 
      * @param character_id
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id> get_characters(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/characters/{character_id}/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v5/characters/{character_id}/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id.class));
     }
 

@@ -74,14 +74,6 @@ public class BallisticControlSystem
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * Additional percentage to the characters missile damage multiplier.
      */
     @HighIsGood(true)
@@ -130,14 +122,6 @@ public class BallisticControlSystem
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double speedmultiplier;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DroneDamageBonus.INSTANCE, Hp.INSTANCE, SpeedMultiplier.INSTANCE, AoeVelocityBonus.INSTANCE, Cpu.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final BallisticControlSystem.MetaGroup METAGROUP = new BallisticControlSystem.MetaGroup();
 
@@ -159,10 +143,6 @@ public class BallisticControlSystem
             case  1692 :
             {
                 return metagroupid;
-            }
-            case  633 :
-            {
-                return metalevelold;
             }
             case  213 :
             {
@@ -191,10 +171,6 @@ public class BallisticControlSystem
             case  204 :
             {
                 return speedmultiplier;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

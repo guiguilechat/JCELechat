@@ -63,14 +63,6 @@ public class ShieldExtender
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -98,14 +90,6 @@ public class ShieldExtender
     @Stackable(true)
     @DefaultIntValue(0)
     public int signatureradiusadd;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacityBonus.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, SignatureRadiusAdd.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final ShieldExtender.MetaGroup METAGROUP = new ShieldExtender.MetaGroup();
 
@@ -124,10 +108,6 @@ public class ShieldExtender
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  30 :
             {
                 return power;
@@ -143,10 +123,6 @@ public class ShieldExtender
             case  983 :
             {
                 return signatureradiusadd;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

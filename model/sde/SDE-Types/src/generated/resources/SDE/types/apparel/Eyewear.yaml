@@ -69,6 +69,24 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Glass Semiotique' Monocle Interface (right):
+    gender: 2
+    id: 60165
+    marketGroup: 1408
+    name: Men's 'Glass Semiotique' Monocle Interface (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Orb Semiotique' Synthetic Eye (right):
+    gender: 2
+    id: 60160
+    marketGroup: 1408
+    name: Men's 'Orb Semiotique' Synthetic Eye (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's BioCrystal Protective Glasses:
     gender: 2
     id: 54966
@@ -165,6 +183,24 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Glass Semiotique' Monocle Interface (right):
+    gender: 2
+    id: 60171
+    marketGroup: 1408
+    name: Women's 'Glass Semiotique' Monocle Interface (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Orb Semiotique' Synthetic Eye (right):
+    gender: 2
+    id: 60166
+    marketGroup: 1408
+    name: Women's 'Orb Semiotique' Synthetic Eye (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's BioCrystal Protective Glasses:
     gender: 2

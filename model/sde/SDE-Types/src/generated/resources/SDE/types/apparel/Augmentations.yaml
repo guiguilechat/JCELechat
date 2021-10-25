@@ -26,6 +26,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's 'Barbatus Semiotique' Facial Augmentation:
+    gender: 2
+    id: 60163
+    marketGroup: 1836
+    name: Men's 'Barbatus Semiotique' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Bitwave Glacier' Augmentation:
     gender: 2
     id: 49987
@@ -196,6 +205,15 @@ types:
     id: 56855
     marketGroup: 1836
     name: Men's 'Saikadori' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Semiotique TorsoRig' Body Augmentation:
+    gender: 2
+    id: 60164
+    marketGroup: 1836
+    name: Men's 'Semiotique TorsoRig' Body Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -403,6 +421,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's 'Oculina Semiotique' Facial Augmentation:
+    gender: 2
+    id: 60169
+    marketGroup: 1836
+    name: Women's 'Oculina Semiotique' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Openyagi' Facial Augmentation:
     gender: 3
     id: 41053
@@ -436,6 +463,15 @@ types:
     id: 56854
     marketGroup: 1836
     name: Women's 'Saikadori' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Semiotique TorsoRig' Body Augmentation:
+    gender: 2
+    id: 60170
+    marketGroup: 1836
+    name: Women's 'Semiotique TorsoRig' Body Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

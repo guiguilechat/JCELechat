@@ -4,16 +4,16 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * Restrict activation to this one module group.
+ * Bonus added to stasis webifier range
  */
-public class TargetGroup
+public class StasisWebRangeAdd
     extends IntAttribute
 {
-    public static final TargetGroup INSTANCE = new TargetGroup();
+    public static final StasisWebRangeAdd INSTANCE = new StasisWebRangeAdd();
 
     @Override
     public int getId() {
-        return  189;
+        return  3206;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class TargetGroup
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class TargetGroup
 
     @Override
     public String toString() {
-        return "TargetGroup";
+        return "StasisWebRangeAdd";
     }
 }

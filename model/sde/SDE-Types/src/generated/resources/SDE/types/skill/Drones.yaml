@@ -388,6 +388,31 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
+  Mutated Drone Specialization:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
+    id: 60515
+    marketGroup: 366
+    name: Mutated Drone Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 12486
+    requiredskill2level: 1
+    requiredskill3: 12484
+    requiredskill3level: 1
+    requiredskill4: 12487
+    requiredskill4level: 1
+    requiredskill5: 12485
+    requiredskill5level: 1
+    secondaryattribute: 167
+    skilltimeconstant: 6.0
+    volume: 0.009999999776482582
   Repair Drone Operation:
     cannotbetrainedontrial: 1
     damagehp: 5

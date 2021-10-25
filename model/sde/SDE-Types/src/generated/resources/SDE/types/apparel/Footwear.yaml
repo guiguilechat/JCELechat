@@ -278,6 +278,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Semiotique Sports' Shoes:
+    gender: 2
+    id: 60162
+    marketGroup: 1400
+    name: Men's 'Semiotique Sports' Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Trench' Boots:
     gender: 1
     id: 4001
@@ -330,7 +339,7 @@ types:
   Men's Imperial Stargate Crew Shoes:
     gender: 2
     id: 58825
-    marketGroup: 1404
+    marketGroup: 1400
     name: Men's Imperial Stargate Crew Shoes
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -851,6 +860,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Semiotique Sports' Shoes:
+    gender: 2
+    id: 60168
+    marketGroup: 1404
+    name: Women's 'Semiotique Sports' Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's Federation Stargate Crew Shoes:
     gender: 2

@@ -388,8 +388,8 @@ public class AsteroidGuristasTitan
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int entitykillbounty;
+    @DefaultRealValue(0.0)
+    public double entitykillbounty;
     /**
      * Deprecated. The minimum number of pieces of loot dropped by this entity.
      */

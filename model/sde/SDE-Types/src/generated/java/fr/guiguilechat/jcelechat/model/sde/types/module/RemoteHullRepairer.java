@@ -91,14 +91,6 @@ public class RemoteHullRepairer
     @DefaultRealValue(0.0)
     public double maxrange;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -154,14 +146,6 @@ public class RemoteHullRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int structuredamageamount;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, StructureDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE })));
     public static final RemoteHullRepairer.MetaGroup METAGROUP = new RemoteHullRepairer.MetaGroup();
 
@@ -196,10 +180,6 @@ public class RemoteHullRepairer
             {
                 return maxrange;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1206 :
             {
                 return overloadselfdurationbonus;
@@ -231,10 +211,6 @@ public class RemoteHullRepairer
             case  83 :
             {
                 return structuredamageamount;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

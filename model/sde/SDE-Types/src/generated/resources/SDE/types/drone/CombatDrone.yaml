@@ -3185,6 +3185,49 @@ types:
     trackingspeed: 0.6959999799728394
     uniformity: 0.75
     volume: 10.0
+  Heavy Mutated Drone:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityflyrange: 500.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 60480
+    kineticdamageresonance: 1.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Heavy Mutated Drone
+    optimalsigradius: 1000
+    packagedVolume: 25.0
+    portionSize: 1
+    price: 271072.0
+    published: true
+    radius: 35.0
+    requiredskill1: 3441
+    requiredskill1level: 5
+    requiredskill2: 60515
+    requiredskill2level: 1
+    requiredskill3: 3436
+    requiredskill3level: 5
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    volume: 25.0
   Hobgoblin I:
     agility: 100.0
     armoremdamageresonance: 0.5
@@ -3851,6 +3894,92 @@ types:
     trackingspeed: 0.9599999785423279
     uniformity: 0.75
     volume: 10.0
+  Light Mutated Drone:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityflyrange: 500.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 60478
+    kineticdamageresonance: 1.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Light Mutated Drone
+    optimalsigradius: 1000
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 36184.0
+    published: true
+    radius: 15.0
+    requiredskill1: 24241
+    requiredskill1level: 5
+    requiredskill2: 60515
+    requiredskill2level: 1
+    requiredskill3: 3436
+    requiredskill3level: 5
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    volume: 5.0
+  Medium Mutated Drone:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityflyrange: 500.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 60479
+    kineticdamageresonance: 1.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Medium Mutated Drone
+    optimalsigradius: 1000
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 95536.0
+    published: true
+    radius: 20.0
+    requiredskill1: 33699
+    requiredskill1level: 5
+    requiredskill2: 60515
+    requiredskill2level: 1
+    requiredskill3: 3436
+    requiredskill3level: 5
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    volume: 10.0
   Ogre I:
     agility: 100.0
     armoremdamageresonance: 0.5
@@ -4384,6 +4513,49 @@ types:
     trackingspeed: 3.563999891281128
     uniformity: 0.75
     volume: 5.0
+  Sentry Mutated Drone:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityflyrange: 500.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 60481
+    kineticdamageresonance: 1.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Sentry Mutated Drone
+    optimalsigradius: 1000
+    packagedVolume: 25.0
+    portionSize: 1
+    price: 140000.0
+    published: true
+    radius: 35.0
+    requiredskill1: 23594
+    requiredskill1level: 5
+    requiredskill2: 60515
+    requiredskill2level: 1
+    requiredskill3: 3436
+    requiredskill3level: 5
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    volume: 25.0
   Valkyrie I:
     agility: 100.0
     armoremdamageresonance: 0.4000000059604645

@@ -10,7 +10,7 @@ types:
     capacity: 2750.0
     entityequipmentmax: 7
     entityequipmentmin: 5
-    entitykillbounty: 2500000
+    entitykillbounty: 2500000.0
     entitymissiletypeid: 32436
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.009999999776482582

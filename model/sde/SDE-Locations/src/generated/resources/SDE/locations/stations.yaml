@@ -8034,6 +8034,25 @@ locations:
     - Security Office
     - Stock Exchange
     solarSystem: Ami
+  Ammold V - AIR Laboratories:
+    id: 60015162
+    name: Ammold V - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Ammold
   Ammold V - Republic Military School:
     id: 60014749
     name: Ammold V - Republic Military School
@@ -8184,6 +8203,25 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Amoderia
+  Amsen VI - AIR Laboratories:
+    id: 60015159
+    name: Amsen VI - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Amsen
   Amsen VI - Moon 1 - Science and Trade Institute School:
     id: 60004450
     name: Amsen VI - Moon 1 - Science and Trade Institute School
@@ -17824,6 +17862,25 @@ locations:
     - Reprocessing Plant
     - Security Office
     solarSystem: Bosena
+  Bourynes VII - AIR Laboratories:
+    id: 60015153
+    name: Bourynes VII - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Bourynes
   Bourynes VII - Moon 2 - University of Caille:
     id: 60011566
     name: Bourynes VII - Moon 2 - University of Caille
@@ -19781,6 +19838,25 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Charra
+  Chaven VIII - AIR Laboratories:
+    id: 60015154
+    name: Chaven VIII - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Chaven
   Chaven VIII - Moon 1 - Imperial Academy:
     id: 60014629
     name: Chaven VIII - Moon 1 - Imperial Academy
@@ -20142,6 +20218,25 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Choonka
+  Cistuvaert V - AIR Laboratories:
+    id: 60015161
+    name: Cistuvaert V - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Cistuvaert
   Cistuvaert V - Moon 12 - Center for Advanced Studies School:
     id: 60014719
     name: Cistuvaert V - Moon 12 - Center for Advanced Studies School
@@ -23075,6 +23170,25 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Dunraelare
+  Duripant VII - AIR Laboratories:
+    id: 60015160
+    name: Duripant VII - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Duripant
   Duripant VII - Moon 6 - Federal Navy Academy:
     id: 60014689
     name: Duripant VII - Moon 6 - Federal Navy Academy
@@ -25426,6 +25540,25 @@ locations:
     - Security Office
     - Stock Exchange
     solarSystem: Emolgranlan
+  Emrayur III - AIR Laboratories:
+    id: 60015156
+    name: Emrayur III - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Emrayur
   Emrayur III - Moon 1 - Royal Amarr Institute School:
     id: 60007702
     name: Emrayur III - Moon 1 - Royal Amarr Institute School
@@ -39173,6 +39306,25 @@ locations:
     - Storage
     - Surgery
     solarSystem: Hrondedir
+  Hulm VIII - AIR Laboratories:
+    id: 60015164
+    name: Hulm VIII - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Hulm
   Hulm VIII - Moon 2 - Republic University:
     id: 60014779
     name: Hulm VIII - Moon 2 - Republic University
@@ -51019,6 +51171,25 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kiskoken
+  Kisogo VII - AIR Laboratories:
+    id: 60015157
+    name: Kisogo VII - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Kisogo
   Kisogo VII - State War Academy:
     id: 60014659
     name: Kisogo VII - State War Academy
@@ -71485,6 +71656,25 @@ locations:
     - Reprocessing Plant
     - Security Office
     solarSystem: Pator
+  Pator IV (Matar) - Thukker Council Halls of Liberation:
+    id: 60015152
+    name: Pator IV (Matar) - Thukker Council Halls of Liberation
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Pator
   Pator V (Vakir) - Moon 1 - Quafe Company Factory:
     id: 60010051
     name: Pator V (Vakir) - Moon 1 - Quafe Company Factory
@@ -76997,6 +77187,25 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Ruvas
+  Ryddinjorn VI - AIR Laboratories:
+    id: 60015163
+    name: Ryddinjorn VI - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Ryddinjorn
   Ryddinjorn VI - Moon 2 - Pator Tech School:
     id: 60014809
     name: Ryddinjorn VI - Moon 2 - Pator Tech School
@@ -79521,6 +79730,25 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Sehmosh
+  Sehmy VIII - AIR Laboratories:
+    id: 60015155
+    name: Sehmy VIII - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Sehmy
   Sehmy VIII - Moon 2 - Hedion University:
     id: 60014599
     name: Sehmy VIII - Moon 2 - Hedion University
@@ -87339,6 +87567,25 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Tividu
+  Todaki VI - AIR Laboratories:
+    id: 60015158
+    name: Todaki VI - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Todaki
   Todaki VI - Moon 1 - School of Applied Knowledge:
     id: 60004420
     name: Todaki VI - Moon 1 - School of Applied Knowledge

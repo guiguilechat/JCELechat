@@ -1,0 +1,26 @@
+types:
+  CONCORD Rogue Analysis Beacon:
+    armorhp: 50000.0
+    armoruniformity: 0.75
+    hp: 50000.0
+    id: 60244
+    marketGroup: 2798
+    metalevelold: 1
+    name: CONCORD Rogue Analysis Beacon
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 11584
+    requiredskill1level: 3
+    scangravimetricstrength: 20.0
+    scanladarstrength: 20.0
+    scanmagnetometricstrength: 20.0
+    scanradarstrength: 20.0
+    shieldcapacity: 50000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 100.0

@@ -24,6 +24,13 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorArmorRepairerAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorArmorRepairerDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorArmorRepairerDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerFalloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairFalloff;
@@ -40,6 +47,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterDisch
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpScrambleDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpScrambleDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpScrambleRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierFalloff;
@@ -50,14 +61,23 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelayChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDurationChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentGroupMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMaxVelocitySignatureRadiusMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMissileTypeID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityMaxGain;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelayBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
@@ -65,6 +85,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiFighterMissileResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
@@ -76,8 +97,16 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeCloudSizeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityFlightTimeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileLaunchDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcBehaviorMaximumCombatOrbitRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcDroneBandwidth;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcDroneCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcGuidanceDisruptorDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcGuidanceDisruptorDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcGuidanceDisruptorFalloff;
@@ -190,6 +219,55 @@ public class RogueDroneEntities
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double armoruniformity;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorarmorrepaireramount;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorarmorrepairerdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorarmorrepairerduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorenergyneutralizerdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorenergyneutralizerduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorenergyneutralizerfalloff;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorenergyneutralizerrange;
     /**
      * 
      */
@@ -308,6 +386,34 @@ public class RogueDroneEntities
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
+    public double behaviorwarpscrambledischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorwarpscrambleduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorwarpscramblerange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorwarpscramblestrength;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
     public double behaviorwebifierdischarge;
     /**
      * 
@@ -373,6 +479,13 @@ public class RogueDroneEntities
     @DefaultRealValue(1.0)
     public double emdamageresonance;
     /**
+     * An amount to modify the power of the target by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double energyneutralizeramount;
+    /**
      * The maximum amount of time stalled before entity chase speed kicks in.
      */
     @HighIsGood(true)
@@ -415,6 +528,27 @@ public class RogueDroneEntities
     @DefaultRealValue(0.0)
     public double entitycruisespeed;
     /**
+     * The maximum drops of same group (example: entity can only drop 1 of group: energy laser)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int entityequipmentgroupmax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entityequipmentmax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entityequipmentmin;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -426,8 +560,44 @@ public class RogueDroneEntities
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entitykillbounty;
+    /**
+     * The maximum number of pieces of loot dropped by this entity.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultIntValue(0)
-    public int entitykillbounty;
+    public int entitylootcountmax;
+    /**
+     * Used to increase signature radius of entity when it activates Max Velocity. Used to fake MWD sig radius increase.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(6)
+    public int entitymaxvelocitysignatureradiusmultiplier;
+    /**
+     * The type of missiles the entity launches.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitymissiletypeid;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entitysecuritymaxgain;
+    /**
+     * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
+     * Value is a % movement of the character's current security towards the upper/lower limit.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entitysecuritystatuskillbonus;
     /**
      * Autogenerated skill attribute, explosionDelayBonus
      */
@@ -477,6 +647,13 @@ public class RogueDroneEntities
     @Stackable(true)
     @DefaultIntValue(0)
     public int gfxboosterid;
+    /**
+     * Graphic ID of the turrets for drone type ships.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int gfxturretid;
     /**
      * The maximum hitpoints of an object.
      */
@@ -555,6 +732,48 @@ public class RogueDroneEntities
     @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
+     * The characters missile use efficiency, scales the damage missiles do.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double missiledamagemultiplier;
+    /**
+     * Affects the signature radius of the target in missile impact calculations.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityaoecloudsizemultiplier;
+    /**
+     * Affects the velocity of the target in missile impact calculations.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityaoevelocitymultiplier;
+    /**
+     * Multiplier for the missile's flight time.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityflighttimemultiplier;
+    /**
+     * Multiplier for the missile's speed.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityvelocitymultiplier;
+    /**
+     * Cycle time for a missile launch, in milliseconds.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(20000.0)
+    public double missilelaunchduration;
+    /**
      * Autogenerated skill attribute, missileVelocityBonus 
      */
     @HighIsGood(true)
@@ -568,6 +787,20 @@ public class RogueDroneEntities
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double npcbehaviormaximumcombatorbitrange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int npcdronebandwidth;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int npcdronecapacity;
     /**
      * 
      */
@@ -821,7 +1054,7 @@ public class RogueDroneEntities
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double trackingspeedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, MissileVelocityBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SignatureRadiusBonus.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, ShieldBonus.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, MaxTargetRange.INSTANCE, AoeVelocityBonus.INSTANCE, ScanSpeed.INSTANCE, AoeCloudSizeBonus.INSTANCE, ArmorDamageAmount.INSTANCE, ExplosionDelayBonus.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, BehaviorRemoteArmorRepairDuration.INSTANCE, BehaviorRemoteArmorRepairRange.INSTANCE, BehaviorRemoteArmorRepairFalloff.INSTANCE, BehaviorRemoteArmorRepairDischarge.INSTANCE, BehaviorRemoteShieldBoostDuration.INSTANCE, MaxLockedTargets.INSTANCE, BehaviorRemoteShieldBoostRange.INSTANCE, BehaviorRemoteShieldBoostFalloff.INSTANCE, MaxAttackTargets.INSTANCE, BehaviorRemoteShieldBoostDischarge.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, NpcGuidanceDisruptorDuration.INSTANCE, ScanRadarStrength.INSTANCE, NpcGuidanceDisruptorRange.INSTANCE, ScanLadarStrength.INSTANCE, NpcGuidanceDisruptorFalloff.INSTANCE, ScanMagnetometricStrength.INSTANCE, NpcGuidanceDisruptorDischarge.INSTANCE, ScanGravimetricStrength.INSTANCE, NpcTrackingDisruptorDuration.INSTANCE, NpcTrackingDisruptorRange.INSTANCE, NpcTrackingDisruptorFalloff.INSTANCE, NpcTrackingDisruptorDischarge.INSTANCE, BehaviorTargetPainterDuration.INSTANCE, BehaviorTargetPainterRange.INSTANCE, BehaviorTargetPainterFalloff.INSTANCE, BehaviorTargetPainterDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, ShieldUniformity.INSTANCE, GfxBoosterID.INSTANCE, EntityCruiseSpeed.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, ArmorHP.INSTANCE, Hp.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, MissileVelocityBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SignatureRadiusBonus.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, ShieldBonus.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ArmorDamageAmount.INSTANCE, ExplosionDelayBonus.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, EnergyNeutralizerAmount.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, BehaviorRemoteArmorRepairDuration.INSTANCE, BehaviorRemoteArmorRepairRange.INSTANCE, BehaviorRemoteArmorRepairFalloff.INSTANCE, BehaviorRemoteArmorRepairDischarge.INSTANCE, BehaviorRemoteShieldBoostDuration.INSTANCE, MaxLockedTargets.INSTANCE, BehaviorRemoteShieldBoostRange.INSTANCE, MaxAttackTargets.INSTANCE, BehaviorRemoteShieldBoostFalloff.INSTANCE, BehaviorRemoteShieldBoostDischarge.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorWarpScrambleDuration.INSTANCE, BehaviorWarpScrambleRange.INSTANCE, BehaviorWarpScrambleDischarge.INSTANCE, BehaviorWarpScrambleStrength.INSTANCE, NpcGuidanceDisruptorDuration.INSTANCE, ScanRadarStrength.INSTANCE, NpcGuidanceDisruptorRange.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, NpcGuidanceDisruptorFalloff.INSTANCE, ScanMagnetometricStrength.INSTANCE, NpcGuidanceDisruptorDischarge.INSTANCE, ScanGravimetricStrength.INSTANCE, NpcTrackingDisruptorDuration.INSTANCE, MissileDamageMultiplier.INSTANCE, NpcTrackingDisruptorRange.INSTANCE, NpcTrackingDisruptorFalloff.INSTANCE, NpcTrackingDisruptorDischarge.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, BehaviorTargetPainterDuration.INSTANCE, BehaviorTargetPainterRange.INSTANCE, BehaviorTargetPainterFalloff.INSTANCE, BehaviorTargetPainterDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, NpcDroneCapacity.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, NpcDroneBandwidth.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, CapacitorCapacity.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, ShieldUniformity.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final RogueDroneEntities.MetaGroup METAGROUP = new RogueDroneEntities.MetaGroup();
 
     @Override
@@ -866,6 +1099,34 @@ public class RogueDroneEntities
             case  524 :
             {
                 return armoruniformity;
+            }
+            case  2635 :
+            {
+                return behaviorarmorrepaireramount;
+            }
+            case  2634 :
+            {
+                return behaviorarmorrepairerdischarge;
+            }
+            case  2633 :
+            {
+                return behaviorarmorrepairerduration;
+            }
+            case  2522 :
+            {
+                return behaviorenergyneutralizerdischarge;
+            }
+            case  2519 :
+            {
+                return behaviorenergyneutralizerduration;
+            }
+            case  2521 :
+            {
+                return behaviorenergyneutralizerfalloff;
+            }
+            case  2520 :
+            {
+                return behaviorenergyneutralizerrange;
             }
             case  2494 :
             {
@@ -931,6 +1192,22 @@ public class RogueDroneEntities
             {
                 return behaviortargetpainterrange;
             }
+            case  2508 :
+            {
+                return behaviorwarpscrambledischarge;
+            }
+            case  2506 :
+            {
+                return behaviorwarpscrambleduration;
+            }
+            case  2507 :
+            {
+                return behaviorwarpscramblerange;
+            }
+            case  2509 :
+            {
+                return behaviorwarpscramblestrength;
+            }
             case  2502 :
             {
                 return behaviorwebifierdischarge;
@@ -971,6 +1248,10 @@ public class RogueDroneEntities
             {
                 return emdamageresonance;
             }
+            case  97 :
+            {
+                return energyneutralizeramount;
+            }
             case  580 :
             {
                 return entitychasemaxdelay;
@@ -995,6 +1276,18 @@ public class RogueDroneEntities
             {
                 return entitycruisespeed;
             }
+            case  465 :
+            {
+                return entityequipmentgroupmax;
+            }
+            case  457 :
+            {
+                return entityequipmentmax;
+            }
+            case  456 :
+            {
+                return entityequipmentmin;
+            }
             case  562 :
             {
                 return entityfactionloss;
@@ -1002,6 +1295,26 @@ public class RogueDroneEntities
             case  481 :
             {
                 return entitykillbounty;
+            }
+            case  251 :
+            {
+                return entitylootcountmax;
+            }
+            case  1133 :
+            {
+                return entitymaxvelocitysignatureradiusmultiplier;
+            }
+            case  507 :
+            {
+                return entitymissiletypeid;
+            }
+            case  563 :
+            {
+                return entitysecuritymaxgain;
+            }
+            case  252 :
+            {
+                return entitysecuritystatuskillbonus;
             }
             case  596 :
             {
@@ -1030,6 +1343,10 @@ public class RogueDroneEntities
             case  246 :
             {
                 return gfxboosterid;
+            }
+            case  245 :
+            {
+                return gfxturretid;
             }
             case  9 :
             {
@@ -1075,6 +1392,30 @@ public class RogueDroneEntities
             {
                 return maxvelocity;
             }
+            case  212 :
+            {
+                return missiledamagemultiplier;
+            }
+            case  858 :
+            {
+                return missileentityaoecloudsizemultiplier;
+            }
+            case  859 :
+            {
+                return missileentityaoevelocitymultiplier;
+            }
+            case  646 :
+            {
+                return missileentityflighttimemultiplier;
+            }
+            case  645 :
+            {
+                return missileentityvelocitymultiplier;
+            }
+            case  506 :
+            {
+                return missilelaunchduration;
+            }
             case  547 :
             {
                 return missilevelocitybonus;
@@ -1082,6 +1423,14 @@ public class RogueDroneEntities
             case  2786 :
             {
                 return npcbehaviormaximumcombatorbitrange;
+            }
+            case  2785 :
+            {
+                return npcdronebandwidth;
+            }
+            case  2784 :
+            {
+                return npcdronecapacity;
             }
             case  2514 :
             {

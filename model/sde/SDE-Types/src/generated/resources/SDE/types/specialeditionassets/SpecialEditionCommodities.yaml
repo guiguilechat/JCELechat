@@ -2297,6 +2297,14 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Quafe Zero Green Apple Party Pack:
+    cpumultiplier: 1.0
+    id: 60576
+    name: Quafe Zero Green Apple Party Pack
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   'Query: Spaghetti or Chicken Sandwich?':
     cpumultiplier: 1.0
     id: 48748

@@ -17,7 +17,6 @@ types:
     requiredskill1: 3426
     requiredskill1level: 1
     surveyscanrange: 20000
-    targetgroup: 11
     techlevel: 1
     volume: 5.0
   Survey Scanner I:
@@ -37,7 +36,6 @@ types:
     requiredskill1: 3426
     requiredskill1level: 1
     surveyscanrange: 15000
-    targetgroup: 11
     techlevel: 1
     volume: 5.0
   Survey Scanner II:
@@ -58,6 +56,5 @@ types:
     requiredskill1: 3426
     requiredskill1level: 2
     surveyscanrange: 22500
-    targetgroup: 11
     techlevel: 2
     volume: 5.0

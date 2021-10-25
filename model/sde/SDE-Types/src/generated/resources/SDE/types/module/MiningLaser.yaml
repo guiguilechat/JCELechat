@@ -17,7 +17,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     volume: 5.0
   '''Wild'' Miner I':
@@ -38,7 +37,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     volume: 5.0
   Civilian Miner:
@@ -59,7 +57,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -85,7 +82,6 @@ types:
     requiredskill2: 11395
     requiredskill2level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -108,7 +104,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -132,7 +127,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11330
     volume: 5.0
@@ -155,7 +149,6 @@ types:
     requiredskill1: 16281
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -179,7 +172,6 @@ types:
     requiredskill1: 16281
     requiredskill1level: 5
     slots: 1
-    targetgroup: 11
     techlevel: 2
     typecolorscheme: 11346
     volume: 5.0
@@ -201,7 +193,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -224,7 +215,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 4
     slots: 1
-    targetgroup: 11
     techlevel: 2
     typecolorscheme: 11347
     volume: 5.0
@@ -252,7 +242,6 @@ types:
     requiredskill2: 11395
     requiredskill2level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -277,7 +266,6 @@ types:
     requiredskill1: 16281
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -301,7 +289,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -324,7 +311,6 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
@@ -348,6 +334,5 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     slots: 1
-    targetgroup: 11
     techlevel: 1
     volume: 5.0

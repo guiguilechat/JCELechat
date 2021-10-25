@@ -113,14 +113,6 @@ public class SignatureSuppressor
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -162,14 +154,6 @@ public class SignatureSuppressor
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double signaturesuppressorsignatureradiusbonuspassive;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, SignatureSuppressorSignatureRadiusBonusPassive.INSTANCE, Hp.INSTANCE, SignatureSuppressorSignatureRadiusBonusActive.INSTANCE, DurationHighisGood.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
     public static final SignatureSuppressor.MetaGroup METAGROUP = new SignatureSuppressor.MetaGroup();
 
@@ -216,10 +200,6 @@ public class SignatureSuppressor
             {
                 return maxgroupfitted;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  669 :
             {
                 return modulereactivationdelay;
@@ -243,10 +223,6 @@ public class SignatureSuppressor
             case  3113 :
             {
                 return signaturesuppressorsignatureradiusbonuspassive;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             default:
             {

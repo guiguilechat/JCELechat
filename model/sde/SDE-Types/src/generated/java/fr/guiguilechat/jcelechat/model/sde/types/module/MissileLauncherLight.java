@@ -110,14 +110,6 @@ public class MissileLauncherLight
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -188,14 +180,6 @@ public class MissileLauncherLight
     @DefaultRealValue(0.0)
     public double speed;
     /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int techlevel;
-    /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
     @HighIsGood(false)
@@ -240,10 +224,6 @@ public class MissileLauncherLight
             {
                 return metagroupid;
             }
-            case  633 :
-            {
-                return metalevelold;
-            }
             case  1205 :
             {
                 return overloadrofbonus;
@@ -283,10 +263,6 @@ public class MissileLauncherLight
             case  51 :
             {
                 return speed;
-            }
-            case  422 :
-            {
-                return techlevel;
             }
             case  1768 :
             {

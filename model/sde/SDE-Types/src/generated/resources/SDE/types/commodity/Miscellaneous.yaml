@@ -2552,6 +2552,51 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment 0KQC:
+    exporttaxmultiplier: 1
+    id: 60454
+    importtaxmultiplier: 1
+    name: Intercepted Rogue Drone Communications Fragment 0KQC
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment 52B7:
+    exporttaxmultiplier: 1
+    id: 60457
+    importtaxmultiplier: 1
+    name: Intercepted Rogue Drone Communications Fragment 52B7
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment 55EG:
+    exporttaxmultiplier: 1
+    id: 60456
+    importtaxmultiplier: 1
+    name: Intercepted Rogue Drone Communications Fragment 55EG
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment GQ35:
+    exporttaxmultiplier: 1
+    id: 60455
+    importtaxmultiplier: 1
+    name: Intercepted Rogue Drone Communications Fragment GQ35
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment JQH0:
+    exporttaxmultiplier: 1
+    id: 60458
+    importtaxmultiplier: 1
+    name: Intercepted Rogue Drone Communications Fragment JQH0
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Intermediate Medal:
     exporttaxmultiplier: 1
     id: 16713
@@ -4228,6 +4273,42 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Serenity Autumn Event Crate:
+    exporttaxmultiplier: 1
+    id: 60192
+    importtaxmultiplier: 1
+    name: Serenity Autumn Event Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Autumn Zakura Shumyu SKIN Crate:
+    exporttaxmultiplier: 1
+    id: 60191
+    importtaxmultiplier: 1
+    name: Serenity Autumn Zakura Shumyu SKIN Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Cold Iron SKINs Crate L:
+    exporttaxmultiplier: 1
+    id: 60490
+    importtaxmultiplier: 1
+    name: Serenity Cold Iron SKINs Crate L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Cold Iron SKINs Crate S/M:
+    exporttaxmultiplier: 1
+    id: 60489
+    importtaxmultiplier: 1
+    name: Serenity Cold Iron SKINs Crate S/M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Serenity Festival Copper Crate:
     exporttaxmultiplier: 1
     id: 57279
@@ -4318,6 +4399,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Serenity YC123.10 DLI Firework Crate:
+    exporttaxmultiplier: 1
+    id: 60486
+    importtaxmultiplier: 1
+    name: Serenity YC123.10 DLI Firework Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Serenity YC123.7 Event Crate:
     exporttaxmultiplier: 1
     id: 59900
@@ -4395,6 +4485,24 @@ types:
     id: 60095
     importtaxmultiplier: 1
     name: Serenity YC123.8 Season Ship Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.9 Season Reward Crate:
+    exporttaxmultiplier: 1
+    id: 60253
+    importtaxmultiplier: 1
+    name: Serenity YC123.9 Season Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.9 Season Ship Crate:
+    exporttaxmultiplier: 1
+    id: 60252
+    importtaxmultiplier: 1
+    name: Serenity YC123.9 Season Ship Crate
     packagedVolume: 1.0
     portionSize: 1
     published: true
