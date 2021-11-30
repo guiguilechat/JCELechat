@@ -114,6 +114,10 @@ public class Region extends ALocation {
 		return ret;
 	}
 
+	public static Region getRegion(int id) {
+		return loadById().get(id);
+	}
+
 	// structure
 
 	public ArrayList<String> constellations = new ArrayList<>();

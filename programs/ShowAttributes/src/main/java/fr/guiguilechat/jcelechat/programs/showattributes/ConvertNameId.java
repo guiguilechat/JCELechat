@@ -1,6 +1,10 @@
 package fr.guiguilechat.jcelechat.programs.showattributes;
 
 import java.io.IOException;
+import java.util.Map;
+import java.util.Objects;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
@@ -8,7 +12,9 @@ import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 public class ConvertNameId {
 
 	public static void main(String[] args) throws IOException {
-		String in = "10MN Y-S8 Compact Afterburner\n" + "125mm Light Carbine Repeating Cannon I\n"
+		String in = "10MN Monopropellant Enduring Afterburner\n" + "10MN Y-S8 Compact Afterburner\n"
+				+ "1200mm Heavy Gallium Cannon\n" + "125mm Light Carbine Repeating Cannon I\n"
+				+ "125mm Light Gallium Machine Gun\n"
 				+ "125mm Light Prototype Automatic Cannon\n"
 				+ "125mm Prototype Gauss Gun\n" + "1400mm Gallium Cannon\n" + "150mm Carbide Railgun I\n"
 				+ "150mm Prototype Gauss Gun\n"
@@ -18,6 +24,7 @@ public class ConvertNameId {
 				+ "200mm Light Carbine Repeating Cannon I\n"
 				+ "220mm Medium Carbine Repeating Cannon I\n"
 				+ "220mm Medium Gallium Machine Gun\n"
+				+ "220mm Medium Prototype Automatic Cannon\n"
 				+ "250mm 'Scout' Accelerator Cannon\n"
 				+ "250mm Carbide Railgun I\n"
 				+ "250mm Light Carbine Howitzer I\n"
@@ -45,9 +52,11 @@ public class ConvertNameId {
 				+ "8th Tier Overseer's Personal Effects\n"
 				+ "Advanced 'Limos' Heavy Missile Bay I\n"
 				+ "AE-K Compact Drone Damage Amplifier\n"
+				+ "Amarr Starship Engineering\n"
 				+ "Analog Panel\n"
 				+ "Ancient Coordinates Database\n"
-				+ "Anode Light Ion Particle Cannon I\n" + "Anode Neutron Particle Cannon I\n"
+				+ "Anode Light Ion Particle Cannon I\n" + "Anode Mega Ion Particle Cannon I\n"
+				+ "Anode Neutron Particle Cannon I\n"
 				+ "Arbalest Compact Light Missile Launcher\n"
 				+ "Arquebus' Heavy Beam Laser I Blueprint\n"
 				+ "Auxiliary Parts\n"
@@ -64,6 +73,7 @@ public class ConvertNameId {
 				+ "Covert Research Tools\n"
 				+ "Crosslink Compact Ballistic Control System\n"
 				+ "Cynabal Blueprint\n"
+				+ "Data Processor\n"
 				+ "Domination EM Shield Hardener\n"
 				+ "Domination Kinetic Armor Hardener\n"
 				+ "Domination Medium Armor Repairer\n"
@@ -75,10 +85,11 @@ public class ConvertNameId {
 				+ "Dual 150mm Compressed Coil Gun I\n"
 				+ "Dual 150mm Prototype Gauss Gun\n"
 				+ "Dual 180mm Carbine Repeating Cannon I\n"
-				+ "Dual 250mm Carbide Railgun I\n" + "Dual 250mm Prototype Gauss Gun\n"
+				+ "Dual 180mm Gallium Machine Gun\n" + "Dual 250mm Carbide Railgun I\n" + "Dual 250mm Prototype Gauss Gun\n"
 				+ "Dual 425mm Carbine Repeating Cannon I\n" + "Dual Afocal Light Maser I\n"
 				+ "Dual Anode Pulse Particle Stream I\n" + "Dual Heavy Anode Pulse Particle Stream I\n"
 				+ "Dual Heavy Modal Pulse Laser I\n"
+				+ "Dual Modal Pulse Laser I\n"
 				+ "Electronic Engineering\n"
 				+ "Elemental Crux\n"
 				+ "Enduring Explosive Shield Hardener\n"
@@ -95,6 +106,7 @@ public class ConvertNameId {
 				+ "Gardan's Private Key\n"
 				+ "Gatling Afocal Maser I\n"
 				+ "Gila Blueprint\n"
+				+ "Gistii A-Type 1MN Afterburner\n" + "Gistii A-Type 5MN Microwarpdrive\n"
 				+ "Gistii A-Type Small Shield Booster\n"
 				+ "Gistum B-Type 10MN Afterburner\n" + "Gistum B-Type 50MN Microwarpdrive\n"
 				+ "Gistum B-Type EM Shield Amplifier\n"
@@ -115,6 +127,7 @@ public class ConvertNameId {
 				+ "Gistum C-Type Thermal Shield Amplifier\n"
 				+ "Graviton Physics\n"
 				+ "Heat Depressor\n"
+				+ "High Energy Physics\n"
 				+ "Hooligan' Heavy Ion Blaster I Blueprint\n"
 				+ "Initiated Compact Warp Disruptor\n"
 				+ "Internal Bulkhead\n" + "Isotropic Deposition Guide\n"
@@ -153,24 +166,25 @@ public class ConvertNameId {
 				+ "Polarized 800mm Repeating Cannon Blueprint\n"
 				+ "Polarized Heavy Assault Missile Launcher Blueprint\n"
 				+ "Polarized Heavy Neutron Blaster Blueprint\n"
+				+ "Polarized Light Neutron Blaster Blueprint\n"
 				+ "Polarized Mega Pulse Laser Blueprint\n"
 				+ "Polarized Neutron Blaster Cannon Blueprint\n" + "Polarized Rocket Launcher Blueprint\n"
 				+ "Polarized Small Focused Pulse Laser Blueprint\n" + "Polarized Torpedo Launcher Blueprint\n"
-				+ "Pro-Nav Compact Missile Guidance Enhancer\n" + "R.A.M.- Ammunition Tech\n"
+				+ "Power Couplings\n" + "Pro-Nav Compact Missile Guidance Enhancer\n" + "R.A.M.- Ammunition Tech\n"
 				+ "R.A.M.- Armor/Hull Tech\n"
 				+ "R.A.M.- Electronics\n"
 				+ "R.A.M.- Energy Tech\n"
-				+ "R.A.M.- Shield Tech\n" + "R.A.M.- Starship Tech\n" + "R.A.M.- Weapon Tech\n"
+				+ "R.A.M.- Robotics\n" + "R.A.M.- Shield Tech\n" + "R.A.M.- Starship Tech\n" + "R.A.M.- Weapon Tech\n"
 				+ "R.Db - Core Complexion\n"
-				+ "R.Db - Roden Shipyards\n" + "Regulated Light Ion Phase Cannon I\n" + "Rogue Drone 46-X Nexus Chip\n"
-				+ "Scratched and Dented Keycard\n" + "Second-hand Parts\n"
+				+ "R.Db - Roden Shipyards\n" + "Regulated Electron Phase Cannon I\n" + "Regulated Light Ion Phase Cannon I\n"
+				+ "Rogue Drone 46-X Nexus Chip\n" + "Scratched and Dented Keycard\n" + "Second-hand Parts\n"
 				+ "Shattered Villard Wheel\n"
 				+ "Sleeper Data Library\n"
 				+ "Sleeper Drone AI Nexus\n"
 				+ "Small 'Notos' Explosive Charge I\n"
 				+ "Small Clarity Ward Enduring Shield Booster\n"
 				+ "Stalwart Restrained Shield Boost Amplifier\n"
-				+ "Takmahl Magnetic Slab\n" + "Takmahl Solid Mox\n"
+				+ "Takmahl Cohere Cord\n" + "Takmahl Magnetic Slab\n" + "Takmahl Solid Mox\n" + "Takmahl Tri-polished Lens\n"
 				+ "Talocan Ignition Device\n"
 				+ "Talocan Mechanical Gears\n"
 				+ "Talocan Partition Plates\n"
@@ -182,15 +196,20 @@ public class ConvertNameId {
 				+ "Type-D Restrained Overdrive Injector\n"
 				+ "Vortex Compact Magnetic Field Stabilizer\n"
 				+ "Whiskey' Explosive Shield Amplifier Blueprint\n"
-				+ "Wild' Miner I Blueprint";
+				+ "Wild' Miner I Blueprint\n" + "X5 Enduring Stasis Webifier\n" + "Yan Jung Glass Scale";
+		Map<String, EveType> map = Stream.of(in.split("\n")).parallel().map(TypeIndex::getType).filter(Objects::nonNull)
+				.collect(Collectors.toMap(t -> t.name, t -> t));
+		StringBuilder sb = null;
 		for (String s : in.split("\n")) {
-			EveType t = TypeIndex.getType(s);
+			sb = sb == null ? new StringBuilder() : sb.append("\n");
+			EveType t = map.get(s);
 			if (t != null) {
-				System.out.println(t.name + "\t" + t.id);
+				sb.append(t.name).append("\t").append(t.id);
 			} else {
-				System.out.println(s + "\t0");
+				sb.append(s).append("\t").append(0);
 			}
 		}
+		System.out.println(sb);
 	}
 
 }
