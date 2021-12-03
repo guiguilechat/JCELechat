@@ -41,7 +41,7 @@ public class LocationsTranslater {
 	public static final Logger logger = LoggerFactory.getLogger(LocationsTranslater.class);
 
 	public static enum REGION_TYPE {
-		PENALTY, WORMHOLE, JOVIAN, ABYSSAL, KS
+		ABYSSAL, KS, JOVIAN, PENALTY, POCHVEN, WORMHOLE,
 	}
 
 	/**
@@ -179,6 +179,9 @@ public class LocationsTranslater {
 					// UUA-F4
 					|| region.regionID == 10000004) {
 				rtype = REGION_TYPE.JOVIAN;
+			}
+			if (region.regionID == 10000070) {
+				rtype=REGION_TYPE.POCHVEN;
 			}
 		}
 		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation> e : region.constellations
