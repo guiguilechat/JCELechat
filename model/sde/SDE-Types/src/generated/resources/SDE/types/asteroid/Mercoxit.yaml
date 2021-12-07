@@ -131,6 +131,7 @@ types:
     damagecloudchance: 0.05000000074505806
     damagecloudtype: 11546
     id: 28626
+    ignoreminingwaste: 1
     name: Zuthrine
     orebasictype: 11396
     packagedVolume: 40.0

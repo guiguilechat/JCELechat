@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * Capacity of ore-only hold
- */
-public class SpecialOreHoldCapacity
+public class ExpeditionFrigateBonusIceHarvestingDuration
     extends IntAttribute
 {
-    public static final SpecialOreHoldCapacity INSTANCE = new SpecialOreHoldCapacity();
+    public static final ExpeditionFrigateBonusIceHarvestingDuration INSTANCE = new ExpeditionFrigateBonusIceHarvestingDuration();
 
     @Override
     public int getId() {
-        return  1556;
+        return  3167;
     }
 
     @Override
@@ -28,7 +25,7 @@ public class SpecialOreHoldCapacity
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class SpecialOreHoldCapacity
 
     @Override
     public String toString() {
-        return "SpecialOreHoldCapacity";
+        return "ExpeditionFrigateBonusIceHarvestingDuration";
     }
 }

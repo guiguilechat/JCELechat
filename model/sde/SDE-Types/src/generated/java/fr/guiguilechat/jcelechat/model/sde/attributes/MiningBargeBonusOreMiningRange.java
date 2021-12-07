@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * When set True, skill can no longer be injected or trained. Characters will be reimbursed with free SP for any obsolete skills in the skill queue upon logon.
- */
-public class SkillIsObsolete
+public class MiningBargeBonusOreMiningRange
     extends IntAttribute
 {
-    public static final SkillIsObsolete INSTANCE = new SkillIsObsolete();
+    public static final MiningBargeBonusOreMiningRange INSTANCE = new MiningBargeBonusOreMiningRange();
 
     @Override
     public int getId() {
-        return  2450;
+        return  3184;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class SkillIsObsolete
 
     @Override
     public String toString() {
-        return "SkillIsObsolete";
+        return "MiningBargeBonusOreMiningRange";
     }
 }

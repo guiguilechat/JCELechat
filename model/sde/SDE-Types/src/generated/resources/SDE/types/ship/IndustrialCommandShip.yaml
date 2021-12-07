@@ -15,9 +15,11 @@ types:
     dronebandwidth: 50
     dronecapacity: 200
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fleethangarcapacity: 40000
     fwlpkill: 1000
+    generalminingholdcapacity: 150000
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
@@ -35,6 +37,14 @@ types:
     hp: 45000.0
     id: 28606
     industrialbonusdronedamage: 100
+    industrialcommandbonusdronedamage: 15
+    industrialcommandbonusdronehitpoints: 10
+    industrialcommandbonusdroneiceharvestingcycletime: -2
+    industrialcommandbonusdroneoreminingyield: 10
+    industrialcommandbonusfuelconsuptioncompactindustrialcore: -5
+    industrialcommandbonusgeneralminingholdcapacity: 5
+    industrialcommandbonusminingforemanburstrange: 5
+    industrialcommandbonusshipcargocapacity: 5
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 2
@@ -64,8 +74,6 @@ types:
     rigsize: 3
     rigslots: 3
     rolebonuscommandburstaoerange: 50
-    rolebonusdroneiceharvestingspeed: -25
-    rolebonusdroneminingyield: 100
     rolebonussurveyscannerrange: 500
     rolebonustractorbeamrange: 250
     rolebonustractorbeamvelocity: 100
@@ -79,14 +87,11 @@ types:
     shieldrechargerate: 6000000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonusics1: 5
     shipbonusics2: 3
     shipbonusics3: 1
-    shipbonusics4: 10
-    shipbonusics5: -10
     shipmaintenancebaycapacity: 400000
     signatureradius: 1000.0
-    specialoreholdcapacity: 150000
+    specialfuelbaycapacity: 5000
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -97,6 +102,7 @@ types:
     volume: 1.025E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 2.0
+    weapondisruptionresistance: 1.0
   Porpoise:
     affectedbyindustrialinvulnmodule: 1
     agility: 1.5
@@ -114,8 +120,10 @@ types:
     dronebandwidth: 50
     dronecapacity: 125
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fleethangarcapacity: 5000
+    generalminingholdcapacity: 50000
     gfxboosterid: 394
     hasfleethangars: 1
     heatattenuationhi: 0.6299999952316284
@@ -131,6 +139,12 @@ types:
     hislots: 4
     hp: 8000.0
     id: 42244
+    industrialcommandbonusdronedamage: 10
+    industrialcommandbonusdronehitpoints: 10
+    industrialcommandbonusdroneiceharvestingcycletime: -10
+    industrialcommandbonusdroneoreminingyield: 10
+    industrialcommandbonusgeneralminingholdcapacity: 5
+    industrialcommandbonusshipcargocapacity: 5
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 2
@@ -176,10 +190,8 @@ types:
     shielduniformity: 0.75
     shipbonusics1: 5
     shipbonusics2: 2
-    shipbonusics4: 10
     shipbonusics5: -10
     signatureradius: 300.0
-    specialoreholdcapacity: 50000
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -190,3 +202,4 @@ types:
     volume: 400000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 2.700000047683716
+    weapondisruptionresistance: 1.0

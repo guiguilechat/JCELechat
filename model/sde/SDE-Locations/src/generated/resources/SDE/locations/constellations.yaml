@@ -17250,7 +17250,7 @@ locations:
     hasFringe: true
     hasHub: true
     id: 20000787
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Krai Perun
     region: Pochven
@@ -17276,7 +17276,7 @@ locations:
     hasFringe: true
     hasHub: true
     id: 20000788
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Krai Svarog
     region: Pochven
@@ -17302,7 +17302,7 @@ locations:
     hasFringe: true
     hasHub: true
     id: 20000789
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Krai Veles
     region: Pochven

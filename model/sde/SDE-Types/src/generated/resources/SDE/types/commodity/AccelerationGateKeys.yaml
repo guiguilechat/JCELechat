@@ -23,6 +23,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  AEGIS Coded Security Key SCCF-FTS:
+    id: 60730
+    mass: 1.0
+    name: AEGIS Coded Security Key SCCF-FTS
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Administrative Key:
     id: 26455
     mass: 1.0

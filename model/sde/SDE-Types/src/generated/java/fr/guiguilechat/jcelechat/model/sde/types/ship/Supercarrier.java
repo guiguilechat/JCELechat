@@ -195,13 +195,6 @@ public class Supercarrier
     @DefaultIntValue(0)
     public int disallowinhighsec;
     /**
-     * Resistance against Energy Neutralizing and Nosferatu
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double energywarfareresistance;
-    /**
      * 
      */
     @HighIsGood(false)
@@ -713,13 +706,6 @@ public class Supercarrier
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestatus;
-    /**
-     * Resistance against Remote Weapon Disruptors.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double weapondisruptionresistance;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaximumRangeCap.INSTANCE, ReclonerFuelType.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, ShipBonusSupercarrierA1 .INSTANCE, ShipBonusSupercarrierA2 .INSTANCE, ShipBonusSupercarrierA3 .INSTANCE, ShipBonusSupercarrierA4 .INSTANCE, ShipBonusSupercarrierA5 .INSTANCE, ShipBonusSupercarrierC1 .INSTANCE, MaxTargetRange.INSTANCE, ShipBonusSupercarrierC2 .INSTANCE, ShipBonusSupercarrierC3 .INSTANCE, ScanSpeed.INSTANCE, ShipBonusSupercarrierC4 .INSTANCE, ShipBonusSupercarrierC5 .INSTANCE, ShipBonusSupercarrierG1 .INSTANCE, ShipBonusSupercarrierG2 .INSTANCE, ShipBonusSupercarrierG3 .INSTANCE, ShipBonusSupercarrierG4 .INSTANCE, AdvancedAgility.INSTANCE, ShipBonusSupercarrierG5 .INSTANCE, ShipBonusSupercarrierM1 .INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShipBonusSupercarrierM2 .INSTANCE, ShipBonusSupercarrierM3 .INSTANCE, WarpSpeedMultiplier.INSTANCE, ShipBonusSupercarrierM4 .INSTANCE, ShipBonusSupercarrierM5 .INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, WarpScrambleStatus.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterSupportSlots.INSTANCE, FighterHeavySlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Supercarrier.MetaGroup METAGROUP = new Supercarrier.MetaGroup();
 
@@ -741,10 +727,6 @@ public class Supercarrier
             case  1970 :
             {
                 return disallowinhighsec;
-            }
-            case  2045 :
-            {
-                return energywarfareresistance;
             }
             case  2754 :
             {
@@ -1033,10 +1015,6 @@ public class Supercarrier
             case  104 :
             {
                 return warpscramblestatus;
-            }
-            case  2113 :
-            {
-                return weapondisruptionresistance;
             }
             default:
             {

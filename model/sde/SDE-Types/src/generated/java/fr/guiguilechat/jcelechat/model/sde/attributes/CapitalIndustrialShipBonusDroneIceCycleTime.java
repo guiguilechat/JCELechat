@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class ShipBonusICS4
+public class CapitalIndustrialShipBonusDroneIceCycleTime
     extends IntAttribute
 {
-    public static final ShipBonusICS4 INSTANCE = new ShipBonusICS4();
+    public static final CapitalIndustrialShipBonusDroneIceCycleTime INSTANCE = new CapitalIndustrialShipBonusDroneIceCycleTime();
 
     @Override
     public int getId() {
-        return  2475;
+        return  3224;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class ShipBonusICS4
 
     @Override
     public String toString() {
-        return "ShipBonusICS4";
+        return "CapitalIndustrialShipBonusDroneIceCycleTime";
     }
 }

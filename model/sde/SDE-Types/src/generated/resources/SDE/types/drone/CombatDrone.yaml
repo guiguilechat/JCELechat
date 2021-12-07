@@ -1857,6 +1857,73 @@ types:
     trackingspeed: 2.98799991607666
     uniformity: 0.75
     volume: 5.0
+  Aralez:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 168.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.550000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.7999999523162842
+    dronebandwidthused: 10
+    emdamageresonance: 1.0
+    entityattackrange: 6400
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 6400
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 564.0
+    entityflyrange: 1600.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 3000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 360.0
+    id: 60766
+    kineticdamage: 32.0
+    kineticdamageresonance: 1.0
+    marketGroup: 838
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 2268.0
+    metalevelold: 5
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Aralez
+    optimalsigradius: 125
+    packagedVolume: 10.0
+    portionSize: 1
+    proximityrange: 2000
+    published: true
+    radius: 20.0
+    rechargerate: 2500000.0
+    requiredskill1: 33699
+    requiredskill1level: 5
+    requiredskill2: 12487
+    requiredskill2level: 1
+    requiredskill3: 3436
+    requiredskill3level: 5
+    scangravimetricstrength: 12.5
+    scanspeed: 2000
+    shieldcapacity: 432.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 200000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    speed: 4000.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.7799999713897705
+    uniformity: 0.75
+    volume: 10.0
   Berserker I:
     agility: 100.0
     armoremdamageresonance: 0.4000000059604645

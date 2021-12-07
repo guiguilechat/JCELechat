@@ -1,4 +1,48 @@
 types:
+  AEGIS Secure Transfer Barge:
+    agility: 5.0
+    armoremdamageresonance: 0.41999998688697815
+    armorexplosivedamageresonance: 0.7799999713897705
+    armorhp: 3000.0
+    armorkineticdamageresonance: 0.3199999928474426
+    armorthermaldamageresonance: 0.11999999731779099
+    armoruniformity: 0.75
+    capacitorcapacity: 3625.0
+    disallowassistance: 1
+    emdamageresonance: 0.41999998688697815
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityfactionloss: 0.009999999776482582
+    entityoverviewshipgroupid: 25
+    explosivedamageresonance: 0.41999998688697815
+    gfxboosterid: 395
+    hp: 7500.0
+    id: 60732
+    kineticdamageresonance: 0.41999998688697815
+    maxlockedtargets: 3
+    maxtargetrange: 68750.0
+    maxvelocity: 300.0
+    name: AEGIS Secure Transfer Barge
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 600.0
+    rechargerate: 543750.0
+    scangravimetricstrength: 24.0
+    scanresolution: 243.0
+    scanspeed: 9000
+    shieldcapacity: 12500.0
+    shieldemdamageresonance: 0.23000000417232513
+    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldkineticdamageresonance: 0.11999999731779099
+    shieldrechargerate: 937500.0
+    shieldthermaldamageresonance: 0.07999999821186066
+    shielduniformity: 0.75
+    signatureradius: 226.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.41999998688697815
+    warpscramblestatus: -2
+    warpspeedmultiplier: 3.5
   Justice Liberator:
     agility: 0.10897104442119598
     armoremdamageresonance: 0.42500001192092896

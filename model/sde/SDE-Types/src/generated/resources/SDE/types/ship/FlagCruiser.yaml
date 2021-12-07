@@ -91,3 +91,4 @@ types:
     volume: 100000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0

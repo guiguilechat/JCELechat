@@ -13,7 +13,7 @@ types:
     price: 7639790.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -32,7 +32,7 @@ types:
     price: 8400440.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -51,7 +51,7 @@ types:
     price: 384500.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -70,7 +70,7 @@ types:
     price: 8021400.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -91,7 +91,7 @@ types:
     price: 1527958.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -112,7 +112,7 @@ types:
     price: 1680088.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -122,6 +122,7 @@ types:
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
     id: 28624
+    ignoreminingwaste: 1
     name: Geodite
     orebasictype: 1225
     packagedVolume: 16.0
@@ -129,7 +130,7 @@ types:
     price: 2000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -150,7 +151,7 @@ types:
     price: 3500.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -171,7 +172,7 @@ types:
     price: 1604280.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12182
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0

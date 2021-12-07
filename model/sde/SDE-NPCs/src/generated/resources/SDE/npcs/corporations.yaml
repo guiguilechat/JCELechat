@@ -11289,6 +11289,7 @@ corporations:
     - 16429
     - 16430
     - 17097
+    - 17182
     name: Frostline Laboratories
   Further Foodstuffs:
     concordRate: 0.8
@@ -20313,6 +20314,7 @@ corporations:
     - 16429
     - 16430
     - 17097
+    - 17182
     name: ORE Technologies
   Onikanabo Brigade:
     faction: Caldari State
@@ -20349,6 +20351,7 @@ corporations:
     - 16429
     - 16430
     - 17097
+    - 17182
     name: Outer Ring Development
   Outer Ring Excavations:
     concordRate: 0.4
@@ -20403,6 +20406,7 @@ corporations:
     - 16429
     - 16430
     - 17097
+    - 17182
     name: Outer Ring Excavations
   Outer Ring Prospecting:
     faction: ORE
@@ -20427,6 +20431,7 @@ corporations:
     - 16429
     - 16430
     - 17097
+    - 17182
     name: Outer Ring Prospecting
   PKN Cryptographic:
     faction: Caldari State
@@ -21277,9 +21282,6 @@ corporations:
     - 17017
     - 17018
     - 17019
-    - 17020
-    - 17021
-    - 17022
     - 17023
     - 17024
     - 17025
@@ -21349,6 +21351,7 @@ corporations:
     - 17092
     - 17093
     - 17094
+    - 17183
     name: Perun Clade
   Poksu Mineral Group:
     concordRate: 0.8
@@ -28171,9 +28174,6 @@ corporations:
     - 17017
     - 17018
     - 17019
-    - 17020
-    - 17021
-    - 17022
     - 17023
     - 17024
     - 17025
@@ -28243,6 +28243,7 @@ corporations:
     - 17092
     - 17093
     - 17094
+    - 17183
     name: Svarog Clade
   Tal-Romon Legion:
     faction: Amarr Empire
@@ -28405,9 +28406,6 @@ corporations:
     - 17017
     - 17018
     - 17019
-    - 17020
-    - 17021
-    - 17022
     - 17023
     - 17024
     - 17025
@@ -28477,6 +28475,7 @@ corporations:
     - 17092
     - 17093
     - 17094
+    - 17183
     name: The Convocation of Triglav
   The Equilibrium of Mankind:
     id: 1000409
@@ -30718,9 +30717,6 @@ corporations:
     - 17017
     - 17018
     - 17019
-    - 17020
-    - 17021
-    - 17022
     - 17023
     - 17024
     - 17025
@@ -30790,6 +30786,7 @@ corporations:
     - 17092
     - 17093
     - 17094
+    - 17183
     name: Veles Clade
   Vherokior Combat Logistics:
     faction: Minmatar Republic

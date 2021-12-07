@@ -2477,7 +2477,7 @@ locations:
     - Krai Svarog
     - Krai Veles
     id: 10000070
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Pochven
   Providence:

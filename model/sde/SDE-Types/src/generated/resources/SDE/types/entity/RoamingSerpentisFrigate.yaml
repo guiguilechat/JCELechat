@@ -33,7 +33,7 @@ types:
     entityfactionloss: 0.0020000000949949026
     entityflyrange: 1750.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 10000.0
+    entitykillbounty: 10000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.28999999165534973

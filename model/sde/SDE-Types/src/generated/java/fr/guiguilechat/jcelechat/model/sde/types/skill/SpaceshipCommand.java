@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsSkillIObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxAttackTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
@@ -33,7 +34,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SecondaryAttribute;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipPowerBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SkillIsObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
@@ -57,6 +57,13 @@ public class SpaceshipCommand
     @Stackable(true)
     @DefaultIntValue(1)
     public int cannotbetrainedontrial;
+    /**
+     * When set True, skill can no longer be injected or trained. Characters will be reimbursed with free SP for any obsolete skills in the skill queue upon logon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int isskilliobsolete;
     /**
      * The maximum number of their targets that the character can attack at a given time.
      */
@@ -128,20 +135,13 @@ public class SpaceshipCommand
     @DefaultIntValue(0)
     public int shippowerbonus;
     /**
-     * When set True, skill can no longer be injected or trained. Characters will be reimbursed with free SP for any obsolete skills in the skill queue upon logon.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int skillisobsolete;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int subsystemslot;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, Capacity.INSTANCE, RequiredSkill5Level.INSTANCE, RequiredSkill5 .INSTANCE, ShipPowerBonus.INSTANCE, SkillIsObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, SubSystemSlot.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, Capacity.INSTANCE, RequiredSkill5Level.INSTANCE, RequiredSkill5 .INSTANCE, ShipPowerBonus.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, SubSystemSlot.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE })));
     public static final SpaceshipCommand.MetaGroup METAGROUP = new SpaceshipCommand.MetaGroup();
 
     @Override
@@ -154,6 +154,10 @@ public class SpaceshipCommand
             case  1047 :
             {
                 return cannotbetrainedontrial;
+            }
+            case  2450 :
+            {
+                return isskilliobsolete;
             }
             case  193 :
             {
@@ -194,10 +198,6 @@ public class SpaceshipCommand
             case  334 :
             {
                 return shippowerbonus;
-            }
-            case  2450 :
-            {
-                return skillisobsolete;
             }
             case  1366 :
             {

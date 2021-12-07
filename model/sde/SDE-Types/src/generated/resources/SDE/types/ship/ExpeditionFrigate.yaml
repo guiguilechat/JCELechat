@@ -17,11 +17,13 @@ types:
     cpuoutput: 280
     dronebandwidth: 15
     dronecapacity: 30
-    elitebonusexpedition1: -4
-    elitebonusexpedition2: -5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    expeditionfrigatebonusiceharvestingduration: -5
+    expeditionfrigatebonusshieldresistance: 4
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
+    generalminingholdcapacity: 18750
     gfxboosterid: 394
     heatattenuationhi: 0.5
     heatattenuationlow: 0.5
@@ -35,7 +37,6 @@ types:
     heatgenerationmultiplier: 1.0
     hislots: 3
     hp: 500.0
-    iceharvestcyclebonus: 0.5
     id: 37135
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
@@ -49,7 +50,9 @@ types:
     maxvelocity: 420.0
     medslots: 4
     metalevelold: 5
-    miningamountmultiplier: 4.0
+    miningamountmultiplier: 1.0
+    miningfrigatebonusiceharvestingduration: -5
+    miningfrigatesbonusoreminingyield: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Endurance
     packagedVolume: 2500.0
@@ -77,11 +80,10 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonusorefrig1: 5
-    shipbonusorefrig2: -5
     shipbonusrole7: -50.0
+    shiprolebonusiceharvestingduration: -50.0
+    shiprolebonusoreminingyield: 300
     signatureradius: 40.0
-    specialoreholdcapacity: 15000
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -90,10 +92,10 @@ types:
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 2
-    velocitypenaltyreduction: 1
     volume: 50000.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Prospect:
     affectedbyindustrialinvulnmodule: 1
     agility: 3.0
@@ -110,11 +112,13 @@ types:
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 20000
     cpuoutput: 290
-    elitebonusexpedition1: 5
-    elitebonusexpedition2: -5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    expeditionfrigatebonusoreminingyield: 5
+    expeditionfrigatebonussignatureradius: -5
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
+    generalminingholdcapacity: 12500
     gfxboosterid: 394
     heatattenuationhi: 0.5
     heatattenuationlow: 0.6299999952316284
@@ -142,6 +146,8 @@ types:
     medslots: 3
     metalevelold: 5
     miningamountmultiplier: 2.0
+    miningfrigatebonusgascloudharvestingduration: -5
+    miningfrigatesbonusoreminingyield: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Prospect
     packagedVolume: 2500.0
@@ -163,17 +169,16 @@ types:
     scanresolution: 750.0
     scanspeed: 2500
     shieldcapacity: 800.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.10000000149011612
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonusorefrig1: 5
-    shipbonusorefrig2: -5
     shipbonusrole7: -100.0
+    shiprolebonusgasharvestingyield: 100
+    shiprolebonusoreminingyield: 100
     signatureradius: 40.0
-    specialoreholdcapacity: 10000
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -182,6 +187,8 @@ types:
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 2
+    velocitypenaltyreduction: 1
     volume: 50000.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0

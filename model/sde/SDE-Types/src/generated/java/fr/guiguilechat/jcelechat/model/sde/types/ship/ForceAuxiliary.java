@@ -189,13 +189,6 @@ public class ForceAuxiliary
     @DefaultIntValue(0)
     public int disallowinhighsec;
     /**
-     * Resistance against Energy Neutralizing and Nosferatu
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double energywarfareresistance;
-    /**
      * 
      */
     @HighIsGood(false)
@@ -665,13 +658,6 @@ public class ForceAuxiliary
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    /**
-     * Resistance against Remote Weapon Disruptors.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double weapondisruptionresistance;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShipBonusForceAuxiliaryA1 .INSTANCE, Mass.INSTANCE, ShipBonusForceAuxiliaryA2 .INSTANCE, ShipBonusForceAuxiliaryA3 .INSTANCE, ShipBonusForceAuxiliaryC1 .INSTANCE, ShieldCapacity.INSTANCE, ShipBonusForceAuxiliaryC2 .INSTANCE, ShieldCharge.INSTANCE, ShipBonusForceAuxiliaryC3 .INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ShipBonusForceAuxiliaryG1 .INSTANCE, RigSize.INSTANCE, ShipBonusForceAuxiliaryG2 .INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, ShipBonusForceAuxiliaryG3 .INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, ShipBonusForceAuxiliaryM1 .INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ShipBonusForceAuxiliaryM2 .INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShipBonusForceAuxiliaryM3 .INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShipBonusForceAuxiliaryA4 .INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShipBonusForceAuxiliaryC4 .INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShipBonusForceAuxiliaryG4 .INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, ShipBonusForceAuxiliaryM4 .INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, SpecialCorpseHoldCapacity.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, MaxGangModules.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE, EnergyWarfareResistance.INSTANCE, ShipBonusRole5 .INSTANCE })));
     public static final ForceAuxiliary.MetaGroup METAGROUP = new ForceAuxiliary.MetaGroup();
 
@@ -693,10 +679,6 @@ public class ForceAuxiliary
             case  1970 :
             {
                 return disallowinhighsec;
-            }
-            case  2045 :
-            {
-                return energywarfareresistance;
             }
             case  2754 :
             {
@@ -961,10 +943,6 @@ public class ForceAuxiliary
             case  1154 :
             {
                 return upgradeslotsleft;
-            }
-            case  2113 :
-            {
-                return weapondisruptionresistance;
             }
             default:
             {

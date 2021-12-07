@@ -1,118 +1,351 @@
 types:
-  Arkonor Mining Crystal I:
-    capneedbonus: 50
+  Abyssal Asteroid Mining Crystal Type A I:
+    capneedbonus: 75
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18036
+    id: 60303
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Arkonor Mining Crystal I
-    packagedVolume: 6.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12180
-    requiredskill1level: 3
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 450
-    specialisationasteroidyieldmultiplier: 1.625
-    techlevel: 1
-    unfitcapcost: 75
-    volume: 6.0
-  Arkonor Mining Crystal II:
-    capneedbonus: 50
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18590
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2804
     metalevelold: 5
-    name: Arkonor Mining Crystal II
+    name: Abyssal Asteroid Mining Crystal Type A I
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12180
+    requiredskill1: 60381
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 450
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 257
+    specializationasteroidyieldmultiplier: 1.5
     techlevel: 2
     unfitcapcost: 75
     volume: 10.0
-  Bistot Mining Crystal I:
-    capneedbonus: 45
+  Abyssal Asteroid Mining Crystal Type A II:
+    capneedbonus: 75
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18038
+    id: 60306
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Bistot Mining Crystal I
-    packagedVolume: 6.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12181
-    requiredskill1level: 3
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 451
-    specialisationasteroidyieldmultiplier: 1.625
-    techlevel: 1
-    unfitcapcost: 70
-    volume: 6.0
-  Bistot Mining Crystal II:
-    capneedbonus: 45
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18592
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2804
     metalevelold: 5
-    name: Bistot Mining Crystal II
+    name: Abyssal Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12181
+    requiredskill1: 60381
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 451
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 257
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
     techlevel: 2
-    unfitcapcost: 70
+    unfitcapcost: 75
     volume: 10.0
-  Common Moon Ore Mining Crystal I:
-    capneedbonus: 35
+  Abyssal Asteroid Mining Crystal Type B I:
+    capneedbonus: 95
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60304
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Abyssal Asteroid Mining Crystal Type B I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60381
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 257
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
+    techlevel: 2
+    unfitcapcost: 75
+    volume: 10.0
+  Abyssal Asteroid Mining Crystal Type B II:
+    capneedbonus: 95
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60307
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Abyssal Asteroid Mining Crystal Type B II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60381
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 257
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
+    techlevel: 2
+    unfitcapcost: 75
+    volume: 10.0
+  Abyssal Asteroid Mining Crystal Type C I:
+    capneedbonus: 125
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60305
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Abyssal Asteroid Mining Crystal Type C I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60381
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 257
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
+    techlevel: 2
+    unfitcapcost: 75
+    volume: 10.0
+  Abyssal Asteroid Mining Crystal Type C II:
+    capneedbonus: 125
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60308
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Abyssal Asteroid Mining Crystal Type C II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60381
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 257
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
+    techlevel: 2
+    unfitcapcost: 75
+    volume: 10.0
+  Coherent Asteroid Mining Crystal Type A I:
+    capneedbonus: 10
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60285
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Coherent Asteroid Mining Crystal Type A I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60378
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 254
+    specializationasteroidyieldmultiplier: 1.5
+    techlevel: 1
+    unfitcapcost: 25
+    volume: 6.0
+  Coherent Asteroid Mining Crystal Type A II:
+    capneedbonus: 10
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60288
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Coherent Asteroid Mining Crystal Type A II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60378
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 254
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
+    techlevel: 2
+    unfitcapcost: 25
+    volume: 10.0
+  Coherent Asteroid Mining Crystal Type B I:
+    capneedbonus: 30
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60286
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Coherent Asteroid Mining Crystal Type B I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60378
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 254
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
+    techlevel: 1
+    unfitcapcost: 25
+    volume: 6.0
+  Coherent Asteroid Mining Crystal Type B II:
+    capneedbonus: 30
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60289
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Coherent Asteroid Mining Crystal Type B II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60378
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 254
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
+    techlevel: 2
+    unfitcapcost: 25
+    volume: 10.0
+  Coherent Asteroid Mining Crystal Type C I:
+    capneedbonus: 60
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60287
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Coherent Asteroid Mining Crystal Type C I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60378
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 254
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
+    techlevel: 1
+    unfitcapcost: 25
+    volume: 6.0
+  Coherent Asteroid Mining Crystal Type C II:
+    capneedbonus: 60
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60290
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Coherent Asteroid Mining Crystal Type C II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60378
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 254
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
+    techlevel: 2
+    unfitcapcost: 25
+    volume: 10.0
+  Common Moon Mining Crystal Type A I:
+    capneedbonus: 10
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46365
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Common Moon Ore Mining Crystal I
+    marketGroup: 2805
+    name: Common Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
     published: true
@@ -121,24 +354,25 @@ types:
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1920
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 260
+    specializationasteroidyieldmultiplier: 1.5
     techlevel: 1
     unfitcapcost: 60
     volume: 6.0
-  Common Moon Ore Mining Crystal II:
-    capneedbonus: 35
+  Common Moon Mining Crystal Type A II:
+    capneedbonus: 10
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46366
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Common Moon Ore Mining Crystal II
+    name: Common Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
     published: true
@@ -147,125 +381,303 @@ types:
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1920
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 260
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
     techlevel: 2
     unfitcapcost: 60
     volume: 10.0
-  Crokite Mining Crystal I:
-    capneedbonus: 35
+  Common Moon Mining Crystal Type B I:
+    capneedbonus: 30
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18040
+    id: 61201
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Crokite Mining Crystal I
+    marketGroup: 2805
+    name: Common Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12182
+    requiredskill1: 46153
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 452
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 260
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
     techlevel: 1
     unfitcapcost: 60
     volume: 6.0
-  Crokite Mining Crystal II:
-    capneedbonus: 35
+  Common Moon Mining Crystal Type B II:
+    capneedbonus: 30
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18594
+    id: 61203
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Crokite Mining Crystal II
+    name: Common Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12182
+    requiredskill1: 46153
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 452
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 260
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
     techlevel: 2
     unfitcapcost: 60
     volume: 10.0
-  Dark Ochre Mining Crystal I:
-    capneedbonus: 30
+  Common Moon Mining Crystal Type C I:
+    capneedbonus: 60
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18042
+    id: 61202
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Dark Ochre Mining Crystal I
+    marketGroup: 2805
+    name: Common Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12183
+    requiredskill1: 46153
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 453
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 260
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
     techlevel: 1
-    unfitcapcost: 55
+    unfitcapcost: 60
     volume: 6.0
-  Dark Ochre Mining Crystal II:
-    capneedbonus: 30
+  Common Moon Mining Crystal Type C II:
+    capneedbonus: 60
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18596
+    id: 61204
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Dark Ochre Mining Crystal II
+    name: Common Moon Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12183
+    requiredskill1: 46153
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 453
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 260
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
     techlevel: 2
-    unfitcapcost: 55
+    unfitcapcost: 60
     volume: 10.0
-  Exceptional Moon Ore Mining Crystal I:
+  Complex Asteroid Mining Crystal Type A I:
     capneedbonus: 50
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60297
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Complex Asteroid Mining Crystal Type A I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60380
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 256
+    specializationasteroidyieldmultiplier: 1.5
+    techlevel: 1
+    unfitcapcost: 75
+    volume: 6.0
+  Complex Asteroid Mining Crystal Type A II:
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60300
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Complex Asteroid Mining Crystal Type A II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60380
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 256
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
+    techlevel: 2
+    unfitcapcost: 75
+    volume: 10.0
+  Complex Asteroid Mining Crystal Type B I:
+    capneedbonus: 70
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60298
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Complex Asteroid Mining Crystal Type B I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60380
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 256
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
+    techlevel: 1
+    unfitcapcost: 75
+    volume: 6.0
+  Complex Asteroid Mining Crystal Type B II:
+    capneedbonus: 70
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60301
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Complex Asteroid Mining Crystal Type B II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60380
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 256
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
+    techlevel: 2
+    unfitcapcost: 75
+    volume: 10.0
+  Complex Asteroid Mining Crystal Type C I:
+    capneedbonus: 100
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60299
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Complex Asteroid Mining Crystal Type C I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60380
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 256
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
+    techlevel: 1
+    unfitcapcost: 75
+    volume: 6.0
+  Complex Asteroid Mining Crystal Type C II:
+    capneedbonus: 100
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60302
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Complex Asteroid Mining Crystal Type C II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60380
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 256
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
+    techlevel: 2
+    unfitcapcost: 75
+    volume: 10.0
+  Exceptional Moon Mining Crystal Type A I:
+    capneedbonus: 75
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46371
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Exceptional Moon Ore Mining Crystal I
+    marketGroup: 2805
+    name: Exceptional Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
     published: true
@@ -274,24 +686,25 @@ types:
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1923
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 263
+    specializationasteroidyieldmultiplier: 1.5
     techlevel: 1
     unfitcapcost: 75
     volume: 6.0
-  Exceptional Moon Ore Mining Crystal II:
-    capneedbonus: 50
+  Exceptional Moon Mining Crystal Type A II:
+    capneedbonus: 75
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46372
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Exceptional Moon Ore Mining Crystal II
+    name: Exceptional Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
     published: true
@@ -300,429 +713,137 @@ types:
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1923
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 263
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
     techlevel: 2
     unfitcapcost: 75
     volume: 10.0
-  Gneiss Mining Crystal I:
-    capneedbonus: 25
+  Exceptional Moon Mining Crystal Type B I:
+    capneedbonus: 95
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18044
+    id: 61213
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Gneiss Mining Crystal I
+    marketGroup: 2805
+    name: Exceptional Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12184
+    requiredskill1: 46156
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 467
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 263
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
     techlevel: 1
-    unfitcapcost: 50
+    unfitcapcost: 75
     volume: 6.0
-  Gneiss Mining Crystal II:
-    capneedbonus: 25
+  Exceptional Moon Mining Crystal Type B II:
+    capneedbonus: 95
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18598
+    id: 61215
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Gneiss Mining Crystal II
+    name: Exceptional Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12184
+    requiredskill1: 46156
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 467
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 263
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
     techlevel: 2
-    unfitcapcost: 50
+    unfitcapcost: 75
     volume: 10.0
-  Hedbergite Mining Crystal I:
-    capneedbonus: 20
+  Exceptional Moon Mining Crystal Type C I:
+    capneedbonus: 125
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18046
+    id: 61214
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Hedbergite Mining Crystal I
+    marketGroup: 2805
+    name: Exceptional Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12185
+    requiredskill1: 46156
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 454
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 263
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
     techlevel: 1
-    unfitcapcost: 45
+    unfitcapcost: 75
     volume: 6.0
-  Hedbergite Mining Crystal II:
-    capneedbonus: 20
+  Exceptional Moon Mining Crystal Type C II:
+    capneedbonus: 125
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18600
+    id: 61216
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Hedbergite Mining Crystal II
+    name: Exceptional Moon Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12185
+    requiredskill1: 46156
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 454
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 263
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
     techlevel: 2
-    unfitcapcost: 45
+    unfitcapcost: 75
     volume: 10.0
-  Hemorphite Mining Crystal I:
-    capneedbonus: 15
+  Rare Moon Mining Crystal Type A I:
+    capneedbonus: 50
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18048
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    name: Hemorphite Mining Crystal I
-    packagedVolume: 6.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12186
-    requiredskill1level: 3
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 455
-    specialisationasteroidyieldmultiplier: 1.625
-    techlevel: 1
-    unfitcapcost: 40
-    volume: 6.0
-  Hemorphite Mining Crystal II:
-    capneedbonus: 15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18602
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    metalevelold: 5
-    name: Hemorphite Mining Crystal II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12186
-    requiredskill1level: 4
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 455
-    specialisationasteroidyieldmultiplier: 1.75
-    techlevel: 2
-    unfitcapcost: 40
-    volume: 10.0
-  Jaspet Mining Crystal I:
-    capneedbonus: 10
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18050
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    name: Jaspet Mining Crystal I
-    packagedVolume: 6.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12187
-    requiredskill1level: 3
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 456
-    specialisationasteroidyieldmultiplier: 1.625
-    techlevel: 1
-    unfitcapcost: 35
-    volume: 6.0
-  Jaspet Mining Crystal II:
-    capneedbonus: 10
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18604
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    metalevelold: 5
-    name: Jaspet Mining Crystal II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12187
-    requiredskill1level: 4
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 456
-    specialisationasteroidyieldmultiplier: 1.75
-    techlevel: 2
-    unfitcapcost: 35
-    volume: 10.0
-  Kernite Mining Crystal I:
-    capneedbonus: 5
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18052
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    name: Kernite Mining Crystal I
-    packagedVolume: 6.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12188
-    requiredskill1level: 3
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 457
-    specialisationasteroidyieldmultiplier: 1.625
-    techlevel: 1
-    unfitcapcost: 30
-    volume: 6.0
-  Kernite Mining Crystal II:
-    capneedbonus: 5
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18606
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    metalevelold: 5
-    name: Kernite Mining Crystal II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12188
-    requiredskill1level: 4
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 457
-    specialisationasteroidyieldmultiplier: 1.75
-    techlevel: 2
-    unfitcapcost: 30
-    volume: 10.0
-  Omber Mining Crystal I:
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18056
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    name: Omber Mining Crystal I
-    packagedVolume: 6.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12190
-    requiredskill1level: 3
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 469
-    specialisationasteroidyieldmultiplier: 1.625
-    techlevel: 1
-    unfitcapcost: 25
-    volume: 6.0
-  Omber Mining Crystal II:
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18610
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    metalevelold: 5
-    name: Omber Mining Crystal II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12190
-    requiredskill1level: 4
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 469
-    specialisationasteroidyieldmultiplier: 1.75
-    techlevel: 2
-    unfitcapcost: 25
-    volume: 10.0
-  Plagioclase Mining Crystal I:
-    capneedbonus: -5
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18058
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    name: Plagioclase Mining Crystal I
-    packagedVolume: 6.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12191
-    requiredskill1level: 3
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 458
-    specialisationasteroidyieldmultiplier: 1.625
-    techlevel: 1
-    unfitcapcost: 20
-    volume: 6.0
-  Plagioclase Mining Crystal II:
-    capneedbonus: -5
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18612
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    metalevelold: 5
-    name: Plagioclase Mining Crystal II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12191
-    requiredskill1level: 4
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 458
-    specialisationasteroidyieldmultiplier: 1.75
-    techlevel: 2
-    unfitcapcost: 20
-    volume: 10.0
-  Pyroxeres Mining Crystal I:
-    capneedbonus: -10
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18060
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    name: Pyroxeres Mining Crystal I
-    packagedVolume: 6.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12192
-    requiredskill1level: 3
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 459
-    specialisationasteroidyieldmultiplier: 1.625
-    techlevel: 1
-    unfitcapcost: 15
-    volume: 6.0
-  Pyroxeres Mining Crystal II:
-    capneedbonus: -10
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
-    hp: 1.0
-    id: 18614
-    launchergroup: 483
-    maincolor: 5215864
-    marketGroup: 593
-    metalevelold: 5
-    name: Pyroxeres Mining Crystal II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 12192
-    requiredskill1level: 4
-    requiredskill2: 3386
-    requiredskill2level: 1
-    specialisationasteroidgroup: 459
-    specialisationasteroidyieldmultiplier: 1.75
-    techlevel: 2
-    unfitcapcost: 15
-    volume: 10.0
-  Rare Moon Ore Mining Crystal I:
-    capneedbonus: 45
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46369
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Rare Moon Ore Mining Crystal I
+    marketGroup: 2805
+    name: Rare Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
     published: true
@@ -731,24 +852,25 @@ types:
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1922
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 262
+    specializationasteroidyieldmultiplier: 1.5
     techlevel: 1
     unfitcapcost: 70
     volume: 6.0
-  Rare Moon Ore Mining Crystal II:
-    capneedbonus: 45
+  Rare Moon Mining Crystal Type A II:
+    capneedbonus: 50
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46370
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Rare Moon Ore Mining Crystal II
+    name: Rare Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
     published: true
@@ -757,125 +879,300 @@ types:
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1922
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 262
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
     techlevel: 2
     unfitcapcost: 70
     volume: 10.0
-  Scordite Mining Crystal I:
-    capneedbonus: -15
+  Rare Moon Mining Crystal Type B I:
+    capneedbonus: 70
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18062
+    id: 61209
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Scordite Mining Crystal I
+    marketGroup: 2805
+    name: Rare Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12193
+    requiredskill1: 46155
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 460
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 262
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
     techlevel: 1
-    unfitcapcost: 10
+    unfitcapcost: 70
     volume: 6.0
-  Scordite Mining Crystal II:
-    capneedbonus: -15
+  Rare Moon Mining Crystal Type B II:
+    capneedbonus: 70
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18616
+    id: 61211
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Scordite Mining Crystal II
+    name: Rare Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12193
+    requiredskill1: 46155
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 460
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 262
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
     techlevel: 2
-    unfitcapcost: 10
+    unfitcapcost: 70
     volume: 10.0
-  Spodumain Mining Crystal I:
-    capneedbonus: 40
+  Rare Moon Mining Crystal Type C I:
+    capneedbonus: 100
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18064
+    id: 61210
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Spodumain Mining Crystal I
+    marketGroup: 2805
+    name: Rare Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12194
+    requiredskill1: 46155
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 461
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 262
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
     techlevel: 1
-    unfitcapcost: 65
+    unfitcapcost: 70
     volume: 6.0
-  Spodumain Mining Crystal II:
-    capneedbonus: 40
+  Rare Moon Mining Crystal Type C II:
+    capneedbonus: 100
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18624
+    id: 61212
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Spodumain Mining Crystal II
+    name: Rare Moon Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12194
+    requiredskill1: 46155
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 461
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 262
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
     techlevel: 2
-    unfitcapcost: 65
+    unfitcapcost: 70
     volume: 10.0
-  Ubiquitous Moon Ore Mining Crystal I:
-    capneedbonus: 30
+  Simple Asteroid Mining Crystal Type A I:
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60276
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Simple Asteroid Mining Crystal Type A I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60377
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 253
+    specializationasteroidyieldmultiplier: 1.5
+    techlevel: 1
+    unfitcapcost: 5
+    volume: 6.0
+  Simple Asteroid Mining Crystal Type A II:
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60281
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Simple Asteroid Mining Crystal Type A II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60377
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 253
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
+    techlevel: 2
+    unfitcapcost: 5
+    volume: 10.0
+  Simple Asteroid Mining Crystal Type B I:
+    capneedbonus: 20
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60279
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Simple Asteroid Mining Crystal Type B I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60377
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 253
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
+    techlevel: 1
+    unfitcapcost: 5
+    volume: 6.0
+  Simple Asteroid Mining Crystal Type B II:
+    capneedbonus: 20
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60283
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Simple Asteroid Mining Crystal Type B II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60377
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 253
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
+    techlevel: 2
+    unfitcapcost: 5
+    volume: 10.0
+  Simple Asteroid Mining Crystal Type C I:
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60280
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Simple Asteroid Mining Crystal Type C I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60377
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 253
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
+    techlevel: 1
+    unfitcapcost: 5
+    volume: 6.0
+  Simple Asteroid Mining Crystal Type C II:
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60284
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Simple Asteroid Mining Crystal Type C II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60377
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 253
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
+    techlevel: 2
+    unfitcapcost: 5
+    volume: 10.0
+  Ubiquitous Moon Mining Crystal Type A I:
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46355
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Ubiquitous Moon Ore Mining Crystal I
+    marketGroup: 2805
+    name: Ubiquitous Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
     published: true
@@ -884,24 +1181,24 @@ types:
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1884
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 259
+    specializationasteroidyieldmultiplier: 1.5
     techlevel: 1
     unfitcapcost: 55
     volume: 6.0
-  Ubiquitous Moon Ore Mining Crystal II:
-    capneedbonus: 30
+  Ubiquitous Moon Mining Crystal Type A II:
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46356
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Ubiquitous Moon Ore Mining Crystal II
+    name: Ubiquitous Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
     published: true
@@ -910,23 +1207,137 @@ types:
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1884
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 259
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
     techlevel: 2
     unfitcapcost: 55
     volume: 10.0
-  Uncommon Moon Ore Mining Crystal I:
-    capneedbonus: 40
+  Ubiquitous Moon Mining Crystal Type B I:
+    capneedbonus: 20
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 61197
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2805
+    name: Ubiquitous Moon Mining Crystal Type B I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 46152
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 259
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
+    techlevel: 1
+    unfitcapcost: 55
+    volume: 6.0
+  Ubiquitous Moon Mining Crystal Type B II:
+    capneedbonus: 20
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 61199
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2805
+    metalevelold: 5
+    name: Ubiquitous Moon Mining Crystal Type B II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 46152
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 259
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
+    techlevel: 2
+    unfitcapcost: 55
+    volume: 10.0
+  Ubiquitous Moon Mining Crystal Type C I:
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 61198
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2805
+    name: Ubiquitous Moon Mining Crystal Type C I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 46152
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 259
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
+    techlevel: 1
+    unfitcapcost: 55
+    volume: 6.0
+  Ubiquitous Moon Mining Crystal Type C II:
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 61200
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2805
+    metalevelold: 5
+    name: Ubiquitous Moon Mining Crystal Type C II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 46152
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 259
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
+    techlevel: 2
+    unfitcapcost: 55
+    volume: 10.0
+  Uncommon Moon Mining Crystal Type A I:
+    capneedbonus: 30
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46367
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Uncommon Moon Ore Mining Crystal I
+    marketGroup: 2805
+    name: Uncommon Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
     published: true
@@ -935,24 +1346,25 @@ types:
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1921
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 261
+    specializationasteroidyieldmultiplier: 1.5
     techlevel: 1
     unfitcapcost: 65
     volume: 6.0
-  Uncommon Moon Ore Mining Crystal II:
-    capneedbonus: 40
+  Uncommon Moon Mining Crystal Type A II:
+    capneedbonus: 30
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
     id: 46368
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Uncommon Moon Ore Mining Crystal II
+    name: Uncommon Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
     published: true
@@ -961,59 +1373,288 @@ types:
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 1921
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 261
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
     techlevel: 2
     unfitcapcost: 65
     volume: 10.0
-  Veldspar Mining Crystal I:
-    capneedbonus: -20
+  Uncommon Moon Mining Crystal Type B I:
+    capneedbonus: 50
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18066
+    id: 61205
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
-    name: Veldspar Mining Crystal I
+    marketGroup: 2805
+    name: Uncommon Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12195
+    requiredskill1: 46154
     requiredskill1level: 3
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 462
-    specialisationasteroidyieldmultiplier: 1.625
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 261
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
     techlevel: 1
-    unfitcapcost: 5
+    unfitcapcost: 65
     volume: 6.0
-  Veldspar Mining Crystal II:
-    capneedbonus: -20
+  Uncommon Moon Mining Crystal Type B II:
+    capneedbonus: 50
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.20000000298023224
-    crystalvolatilitydamage: 0.02500000037252903
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
     hp: 1.0
-    id: 18618
+    id: 61207
     launchergroup: 483
     maincolor: 5215864
-    marketGroup: 593
+    marketGroup: 2805
     metalevelold: 5
-    name: Veldspar Mining Crystal II
+    name: Uncommon Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 12195
+    requiredskill1: 46154
     requiredskill1level: 4
     requiredskill2: 3386
     requiredskill2level: 1
-    specialisationasteroidgroup: 462
-    specialisationasteroidyieldmultiplier: 1.75
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 261
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
     techlevel: 2
-    unfitcapcost: 5
+    unfitcapcost: 65
+    volume: 10.0
+  Uncommon Moon Mining Crystal Type C I:
+    capneedbonus: 80
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 61206
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2805
+    name: Uncommon Moon Mining Crystal Type C I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 46154
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 261
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
+    techlevel: 1
+    unfitcapcost: 65
+    volume: 6.0
+  Uncommon Moon Mining Crystal Type C II:
+    capneedbonus: 80
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 61208
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2805
+    metalevelold: 5
+    name: Uncommon Moon Mining Crystal Type C II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 46154
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 261
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
+    techlevel: 2
+    unfitcapcost: 65
+    volume: 10.0
+  Variegated Asteroid Mining Crystal Type A I:
+    capneedbonus: 30
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60291
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Variegated Asteroid Mining Crystal Type A I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60379
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 255
+    specializationasteroidyieldmultiplier: 1.5
+    techlevel: 1
+    unfitcapcost: 60
+    volume: 6.0
+  Variegated Asteroid Mining Crystal Type A II:
+    capneedbonus: 30
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.11999999731779099
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60294
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Variegated Asteroid Mining Crystal Type A II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60379
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 255
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 3.5999999046325684
+    techlevel: 2
+    unfitcapcost: 60
+    volume: 10.0
+  Variegated Asteroid Mining Crystal Type B I:
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.15000000596046448
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60292
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Variegated Asteroid Mining Crystal Type B I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60379
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.8999999761581421
+    specializationasteroidtypelist: 255
+    specializationasteroidyieldmultiplier: 1.5
+    specializationcrystalminingwasteprobabilitybonus: 20.0
+    techlevel: 1
+    unfitcapcost: 60
+    volume: 6.0
+  Variegated Asteroid Mining Crystal Type B II:
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.19599999487400055
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60295
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Variegated Asteroid Mining Crystal Type B II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60379
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 0.800000011920929
+    specializationasteroidtypelist: 255
+    specializationasteroidyieldmultiplier: 1.7999999523162842
+    specializationcrystalminingwasteprobabilitybonus: 30.0
+    techlevel: 2
+    unfitcapcost: 60
+    volume: 10.0
+  Variegated Asteroid Mining Crystal Type C I:
+    capneedbonus: 80
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.23999999463558197
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60293
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    name: Variegated Asteroid Mining Crystal Type C I
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60379
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 255
+    specializationasteroidyieldmultiplier: 0.25
+    specializationcrystalminingwastedvolumemultiplierbonus: 18
+    specializationcrystalminingwasteprobabilitybonus: 40.0
+    techlevel: 1
+    unfitcapcost: 60
+    volume: 6.0
+  Variegated Asteroid Mining Crystal Type C II:
+    capneedbonus: 80
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.30000001192092896
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
+    id: 60296
+    launchergroup: 483
+    maincolor: 5215864
+    marketGroup: 2804
+    metalevelold: 5
+    name: Variegated Asteroid Mining Crystal Type C II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 60379
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specializationasteroiddurationmultiplier: 1.0
+    specializationasteroidtypelist: 255
+    specializationasteroidyieldmultiplier: 0.20000000298023224
+    specializationcrystalminingwastedvolumemultiplierbonus: 28
+    specializationcrystalminingwasteprobabilitybonus: 59.0
+    techlevel: 2
+    unfitcapcost: 60
     volume: 10.0

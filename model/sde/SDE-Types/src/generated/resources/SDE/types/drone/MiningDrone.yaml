@@ -23,6 +23,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     miningamount: 1000
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 40
     name: '''Augmented'' Ice Harvesting Drone'
     orbitrange: 200
     packagedVolume: 50.0
@@ -77,6 +79,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     miningamount: 37
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 40
     name: '''Augmented'' Mining Drone'
     orbitrange: 200
     packagedVolume: 5.0
@@ -131,6 +135,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     miningamount: 1000
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 60
     name: '''Excavator'' Ice Harvesting Drone'
     orbitrange: 200
     packagedVolume: 1100.0
@@ -185,6 +191,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     miningamount: 80
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 60
     name: '''Excavator'' Mining Drone'
     orbitrange: 200
     packagedVolume: 1100.0
@@ -237,6 +245,7 @@ types:
     maxrange: 5000.0
     maxvelocity: 300.0
     miningamount: 13
+    miningwastedvolumemultiplier: 1
     name: Civilian Mining Drone
     orbitrange: 200
     packagedVolume: 5.0
@@ -289,6 +298,8 @@ types:
     metagroupid: 4
     metalevelold: 7
     miningamount: 42
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
     name: Harvester Mining Drone
     orbitrange: 200
     packagedVolume: 10.0
@@ -327,7 +338,7 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.0
     dronebandwidthused: 50
-    duration: 330000.0
+    duration: 360000.0
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
     fighterabilityantifightermissileresistance: 1
@@ -339,6 +350,7 @@ types:
     maxrange: 5000.0
     maxvelocity: 200.0
     miningamount: 1000
+    miningwastedvolumemultiplier: 1
     name: Ice Harvesting Drone I
     orbitrange: 200
     packagedVolume: 50.0
@@ -390,6 +402,8 @@ types:
     maxvelocity: 250.0
     metalevelold: 5
     miningamount: 1000
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
     name: Ice Harvesting Drone II
     orbitrange: 200
     packagedVolume: 50.0
@@ -442,6 +456,7 @@ types:
     maxrange: 5000.0
     maxvelocity: 400.0
     miningamount: 25
+    miningwastedvolumemultiplier: 1
     name: Mining Drone I
     orbitrange: 200
     packagedVolume: 5.0
@@ -493,6 +508,8 @@ types:
     maxvelocity: 500.0
     metalevelold: 5
     miningamount: 33
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
     name: Mining Drone II
     orbitrange: 200
     packagedVolume: 5.0

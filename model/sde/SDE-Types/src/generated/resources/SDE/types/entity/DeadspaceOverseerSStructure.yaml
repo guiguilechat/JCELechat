@@ -1819,7 +1819,7 @@ types:
     entityequipmentmax: 3
     entityequipmentmin: 2
     entityflyrange: 500.0
-    entitykillbounty: 10000.0
+    entitykillbounty: 10000
     entitylootcountmax: 3
     entitylootcountmin: 2
     explosivedamageresonance: 1.0

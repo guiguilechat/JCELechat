@@ -211,6 +211,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Absolution Abyssal Glory SKIN:
+    id: 60787
+    name: Absolution Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Absolution Biosecurity Responders SKIN:
     id: 55349
     marketGroup: 2104
@@ -602,6 +609,14 @@ types:
     id: 37560
     marketGroup: 1996
     name: Algos Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Algos Yoiul Star SKIN:
+    id: 61126
+    marketGroup: 1996
+    name: Algos Yoiul Star SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2212,6 +2227,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ashimmu Aurora Universalis SKIN:
+    id: 60909
+    name: Ashimmu Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ashimmu Glacial Drift SKIN:
     id: 46820
     marketGroup: 2030
@@ -2608,6 +2630,13 @@ types:
   Augoror Ardishapur Serenity Only SKIN:
     id: 37900
     name: Augoror Ardishapur Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Augoror Aurora Universalis SKIN:
+    id: 60908
+    name: Augoror Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3230,6 +3259,14 @@ types:
     id: 47005
     marketGroup: 1963
     name: Barghest Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Barghest IGC SKIN:
+    id: 60756
+    marketGroup: 1963
+    name: Barghest IGC SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3936,6 +3973,14 @@ types:
     id: 42680
     marketGroup: 2318
     name: Bowhead Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bowhead Radioactives Reclamation SKIN:
+    id: 60958
+    marketGroup: 2318
+    name: Bowhead Radioactives Reclamation SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4679,6 +4724,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bustard Yoiul Star SKIN:
+    id: 61123
+    marketGroup: 2089
+    name: Bustard Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bustard Zento Isideko Combine SKIN:
     id: 53203
     marketGroup: 2089
@@ -4747,6 +4800,14 @@ types:
     id: 36641
     marketGroup: 2052
     name: Buzzard Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Buzzard Scope Syndication YC122 SKIN:
+    id: 61187
+    marketGroup: 2052
+    name: Buzzard Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4894,6 +4955,7 @@ types:
     volume: 0.009999999776482582
   Capsule Aurora Universalis SKIN:
     id: 57004
+    marketGroup: 2285
     name: Capsule Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -5437,6 +5499,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Catalyst Scope Syndication YC122 SKIN:
+    id: 61191
+    marketGroup: 1996
+    name: Catalyst Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Catalyst Semiotique Superluminal SKIN:
     id: 60220
     marketGroup: 1996
@@ -5765,6 +5835,14 @@ types:
     id: 36749
     marketGroup: 1985
     name: Charon Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Charon Copper Lightning SKIN:
+    id: 60761
+    marketGroup: 1985
+    name: Charon Copper Lightning SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6664,6 +6742,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Confessor Yoiul Star SKIN:
+    id: 61121
+    marketGroup: 2310
+    name: Confessor Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Corax Biosecurity Responders SKIN:
     id: 55540
     marketGroup: 1995
@@ -7144,6 +7230,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Covetor Radioactives Reclamation SKIN:
+    id: 60949
+    marketGroup: 2319
+    name: Covetor Radioactives Reclamation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Covetor Rockbreaker Pioneers SKIN:
     id: 56610
     marketGroup: 2319
@@ -7363,6 +7457,13 @@ types:
     id: 53160
     marketGroup: 2060
     name: Crow Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crucifier Abyssal Glory SKIN:
+    id: 60786
+    name: Crucifier Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7948,6 +8049,21 @@ types:
     id: 60243
     marketGroup: 2030
     name: Cynabal Aspirant Soldier SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cynabal Aurora Universalis SKIN:
+    id: 60922
+    name: Cynabal Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cynabal Copper Lightning SKIN:
+    id: 60760
+    marketGroup: 2030
+    name: Cynabal Copper Lightning SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9356,6 +9472,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Drekavac Copper Lightning SKIN:
+    id: 60759
+    marketGroup: 2519
+    name: Drekavac Copper Lightning SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Drekavac Deadspace Dreamtime SKIN:
     id: 52419
     marketGroup: 2519
@@ -9647,6 +9771,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Endurance Radioactives Reclamation SKIN:
+    id: 60945
+    marketGroup: 2320
+    name: Endurance Radioactives Reclamation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Endurance Rockbreaker Pioneers SKIN:
     id: 56607
     marketGroup: 2320
@@ -9819,6 +9951,13 @@ types:
     id: 37553
     marketGroup: 2049
     name: Enyo Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Eos Abyssal Glory SKIN:
+    id: 60791
+    name: Eos Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10365,6 +10504,13 @@ types:
     id: 57183
     marketGroup: 2002
     name: Executioner Zakura Hansei SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Exequror Aurora Universalis SKIN:
+    id: 60916
+    name: Exequror Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10929,6 +11075,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ferox Scope Syndication YC122 SKIN:
+    id: 61189
+    marketGroup: 1957
+    name: Ferox Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ferox State Police SKIN:
     id: 60031
     marketGroup: 1957
@@ -11142,6 +11296,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Garmur IGC SKIN:
+    id: 60754
+    marketGroup: 2031
+    name: Garmur IGC SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Garmur Redclaw Sable SKIN:
     id: 56952
     marketGroup: 2031
@@ -11225,6 +11387,13 @@ types:
     id: 52704
     marketGroup: 2030
     name: Gila Aetheric Raiders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gila Aurora Universalis SKIN:
+    id: 60913
+    name: Gila Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11616,6 +11785,13 @@ types:
     id: 53193
     marketGroup: 2025
     name: Golem Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Griffin Abyssal Glory SKIN:
+    id: 60788
+    name: Griffin Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12242,6 +12418,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Harbinger Yoiul Star SKIN:
+    id: 61122
+    marketGroup: 1956
+    name: Harbinger Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Harpy Biosecurity Responders SKIN:
     id: 55569
     marketGroup: 2048
@@ -12530,6 +12714,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hecate Scope Syndication YC122 SKIN:
+    id: 61190
+    marketGroup: 2356
+    name: Hecate Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hecate Serpentis SKIN:
     id: 42165
     marketGroup: 2356
@@ -12542,6 +12734,14 @@ types:
     id: 44909
     marketGroup: 2356
     name: Hecate Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hecate Yoiul Star SKIN:
+    id: 61125
+    marketGroup: 2356
+    name: Hecate Yoiul Star SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13076,6 +13276,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hound Aurora Universalis SKIN:
+    id: 60918
+    name: Hound Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hound Biosecurity Responders SKIN:
     id: 55684
     marketGroup: 2054
@@ -13379,6 +13586,14 @@ types:
     id: 42679
     marketGroup: 2012
     name: Hulk Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hulk Radioactives Reclamation SKIN:
+    id: 60952
+    marketGroup: 2012
+    name: Hulk Radioactives Reclamation SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14315,6 +14530,13 @@ types:
     id: 52587
     marketGroup: 2088
     name: Impel Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Imperial Navy Slicer Ardishapur SKIN:
+    id: 60673
+    name: Imperial Navy Slicer Ardishapur SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15361,6 +15583,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kestrel Aurora Universalis SKIN:
+    id: 60911
+    name: Kestrel Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kestrel Biosecurity Responders SKIN:
     id: 55529
     marketGroup: 2003
@@ -15441,6 +15670,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kestrel Scope Syndication YC122 SKIN:
+    id: 61192
+    marketGroup: 2003
+    name: Kestrel Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kestrel Steel Cardinal SKIN:
     id: 46093
     marketGroup: 2003
@@ -15484,6 +15721,14 @@ types:
     id: 49923
     marketGroup: 2521
     name: Kikimora Blackfire Steel SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kikimora Copper Lightning SKIN:
+    id: 60757
+    marketGroup: 2521
+    name: Kikimora Copper Lightning SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16179,6 +16424,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Leshak Scope Syndication YC122 SKIN:
+    id: 61182
+    marketGroup: 2482
+    name: Leshak Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Leshak Singularity Storm SKIN:
     id: 48651
     marketGroup: 2482
@@ -16720,6 +16973,14 @@ types:
     id: 42678
     marketGroup: 2012
     name: Mackinaw Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Mackinaw Radioactives Reclamation SKIN:
+    id: 60951
+    marketGroup: 2012
+    name: Mackinaw Radioactives Reclamation SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17483,6 +17744,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Manticore Aurora Universalis SKIN:
+    id: 60910
+    name: Manticore Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Manticore Biosecurity Responders SKIN:
     id: 55553
     marketGroup: 2052
@@ -17743,6 +18011,13 @@ types:
     id: 36795
     marketGroup: 2091
     name: Mastodon Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maulus Abyssal Glory SKIN:
+    id: 60790
+    name: Maulus Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19469,6 +19744,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Naglfar Yoiul Star SKIN:
+    id: 61128
+    marketGroup: 1983
+    name: Naglfar Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Navitas Biosecurity Responders SKIN:
     id: 55585
     marketGroup: 2004
@@ -19552,6 +19835,13 @@ types:
     id: 37551
     marketGroup: 2004
     name: Navitas Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nemesis Aurora Universalis SKIN:
+    id: 60914
+    name: Nemesis Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20063,6 +20353,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nighthawk Abyssal Glory SKIN:
+    id: 60789
+    name: Nighthawk Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nighthawk Biosecurity Responders SKIN:
     id: 55559
     marketGroup: 2105
@@ -20139,6 +20436,14 @@ types:
     id: 53186
     marketGroup: 2105
     name: Nighthawk Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nightmare Copper Lightning SKIN:
+    id: 60763
+    marketGroup: 1963
+    name: Nightmare Copper Lightning SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20275,6 +20580,14 @@ types:
     id: 46743
     marketGroup: 2328
     name: Noctis Lodestrike SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Noctis Radioactives Reclamation SKIN:
+    id: 60956
+    marketGroup: 2328
+    name: Noctis Radioactives Reclamation SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20671,6 +20984,14 @@ types:
     id: 46559
     marketGroup: 1986
     name: Obelisk Sapphire Sungrazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Obelisk Scope Syndication YC122 SKIN:
+    id: 61188
+    marketGroup: 1986
+    name: Obelisk Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21626,6 +21947,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Orca Radioactives Reclamation SKIN:
+    id: 60953
+    marketGroup: 2338
+    name: Orca Radioactives Reclamation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Orca Rockbreaker Pioneers SKIN:
     id: 56612
     marketGroup: 2338
@@ -21658,6 +21987,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Orthrus Aurora Universalis SKIN:
+    id: 60924
+    name: Orthrus Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Orthrus Convergence - Nova SKIN:
     id: 44254
     marketGroup: 2030
@@ -21678,6 +22014,14 @@ types:
     id: 47004
     marketGroup: 2030
     name: Orthrus Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Orthrus IGC SKIN:
+    id: 60755
+    marketGroup: 2030
+    name: Orthrus IGC SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21710,6 +22054,13 @@ types:
     id: 60266
     marketGroup: 1991
     name: Osprey AIR Laboratories SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Osprey Aurora Universalis SKIN:
+    id: 60912
+    name: Osprey Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22299,6 +22650,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Phantasm Aurora Universalis SKIN:
+    id: 60921
+    name: Phantasm Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Phantasm Ghost's Hex SKIN:
     id: 57808
     marketGroup: 2030
@@ -22319,6 +22677,14 @@ types:
     id: 56953
     marketGroup: 2030
     name: Phantasm Redclaw Sable SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phantasm Scope Syndication YC122 SKIN:
+    id: 61185
+    marketGroup: 2030
+    name: Phantasm Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22541,6 +22907,14 @@ types:
   Phoenix Wiyrkomi Serenity Only SKIN:
     id: 37125
     name: Phoenix Wiyrkomi Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phoenix Yoiul Star SKIN:
+    id: 61124
+    marketGroup: 1981
+    name: Phoenix Yoiul Star SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22819,6 +23193,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Porpoise Radioactives Reclamation SKIN:
+    id: 60957
+    marketGroup: 2338
+    name: Porpoise Radioactives Reclamation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Porpoise Rockbreaker Pioneers SKIN:
     id: 56606
     marketGroup: 2338
@@ -22901,6 +23283,14 @@ types:
     id: 46993
     marketGroup: 2331
     name: Primae Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Primae Radioactives Reclamation SKIN:
+    id: 60955
+    marketGroup: 2331
+    name: Primae Radioactives Reclamation SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23150,6 +23540,14 @@ types:
     id: 42674
     marketGroup: 2319
     name: Procurer Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Procurer Radioactives Reclamation SKIN:
+    id: 60947
+    marketGroup: 2319
+    name: Procurer Radioactives Reclamation SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23576,6 +23974,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prospect Radioactives Reclamation SKIN:
+    id: 60946
+    marketGroup: 2320
+    name: Prospect Radioactives Reclamation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prospect Rockbreaker Pioneers SKIN:
     id: 56605
     marketGroup: 2320
@@ -23628,6 +24034,14 @@ types:
     id: 46414
     marketGroup: 2372
     name: Proteus Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Proteus Serpentis SKIN:
+    id: 42176
+    marketGroup: 2372
+    name: Proteus Serpentis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23844,6 +24258,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prowler Scope Syndication YC122 SKIN:
+    id: 61193
+    marketGroup: 2091
+    name: Prowler Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prowler Snowline Bladeracer SKIN:
     id: 52898
     marketGroup: 2091
@@ -23856,6 +24278,13 @@ types:
     id: 36794
     marketGroup: 2091
     name: Prowler Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Punisher Aurora Universalis SKIN:
+    id: 60907
+    name: Punisher Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24039,10 +24468,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Purifier Aurora Universalis SKIN:
+    id: 60906
+    name: Purifier Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Purifier Biosecurity Responders SKIN:
     id: 55299
     marketGroup: 2051
     name: Purifier Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Purifier Blood Raiders SKIN:
+    id: 60669
+    name: Purifier Blood Raiders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24137,6 +24580,14 @@ types:
   Purifier Sarum SKIN:
     id: 60678
     name: Purifier Sarum SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Purifier Scope Syndication YC122 SKIN:
+    id: 61194
+    marketGroup: 2051
+    name: Purifier Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25442,6 +25893,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Retriever Radioactives Reclamation SKIN:
+    id: 60948
+    marketGroup: 2319
+    name: Retriever Radioactives Reclamation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Retriever Rockbreaker Pioneers SKIN:
     id: 56609
     marketGroup: 2319
@@ -25724,6 +26183,13 @@ types:
     id: 49156
     marketGroup: 2005
     name: Rifter Absent Heroes SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rifter Aurora Universalis SKIN:
+    id: 60919
+    name: Rifter Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26210,6 +26676,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rorqual Copper Lightning SKIN:
+    id: 60762
+    marketGroup: 1969
+    name: Rorqual Copper Lightning SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rorqual Digmaster Blazon SKIN:
     id: 42652
     marketGroup: 1969
@@ -26307,6 +26781,14 @@ types:
     id: 42682
     marketGroup: 1969
     name: Rorqual Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rorqual Radioactives Reclamation SKIN:
+    id: 60954
+    marketGroup: 1969
+    name: Rorqual Radioactives Reclamation SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27216,6 +27698,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scythe Aurora Universalis SKIN:
+    id: 60920
+    name: Scythe Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scythe Biosecurity Responders SKIN:
     id: 55650
     marketGroup: 1993
@@ -27811,6 +28300,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Skiff Radioactives Reclamation SKIN:
+    id: 60950
+    marketGroup: 2012
+    name: Skiff Radioactives Reclamation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Skiff Rockbreaker Pioneers SKIN:
     id: 56615
     marketGroup: 2012
@@ -28004,6 +28501,13 @@ types:
     id: 57108
     marketGroup: 2005
     name: Slasher Zakura Hansei SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sleipnir Abyssal Glory SKIN:
+    id: 60793
+    name: Sleipnir Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28595,6 +29099,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stormbringer Aurora Universalis SKIN:
+    id: 60926
+    name: Stormbringer Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stormbringer Bluestar Defenders SKIN:
     id: 55985
     marketGroup: 2063
@@ -28637,6 +29148,13 @@ types:
     id: 60242
     marketGroup: 2030
     name: Stratios Aspirant Soldier SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stratios Aurora Universalis SKIN:
+    id: 60923
+    name: Stratios Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28716,6 +29234,14 @@ types:
   Stratios Sanctuary Serenity Only SKIN:
     id: 38654
     name: Stratios Sanctuary Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stratios Scope Syndication YC122 SKIN:
+    id: 61186
+    marketGroup: 2030
+    name: Stratios Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30795,6 +31321,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tristan Aurora Universalis SKIN:
+    id: 60915
+    name: Tristan Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tristan Biosecurity Responders SKIN:
     id: 55586
     marketGroup: 2004
@@ -31505,6 +32038,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vargur Scope Syndication YC122 SKIN:
+    id: 61183
+    marketGroup: 2027
+    name: Vargur Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vargur Snowline Bladeracer SKIN:
     id: 52888
     marketGroup: 2027
@@ -31544,6 +32085,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vargur Yoiul Star SKIN:
+    id: 61127
+    marketGroup: 2027
+    name: Vargur Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vargur Zakura Shumyu SKIN:
     id: 57072
     marketGroup: 2027
@@ -31552,10 +32101,25 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vedmak Aurora Universalis SKIN:
+    id: 60925
+    name: Vedmak Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vedmak Blackfire Steel SKIN:
     id: 49924
     marketGroup: 2485
     name: Vedmak Blackfire Steel SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vedmak Copper Lightning SKIN:
+    id: 60758
+    marketGroup: 2485
+    name: Vedmak Copper Lightning SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31897,6 +32461,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Venture Radioactives Reclamation SKIN:
+    id: 60944
+    marketGroup: 2321
+    name: Venture Radioactives Reclamation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Venture Rockbreaker Pioneers SKIN:
     id: 56604
     marketGroup: 2321
@@ -31909,6 +32481,14 @@ types:
     id: 43841
     marketGroup: 2321
     name: Venture Sansha Industrial Livery SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Venture Scope Syndication YC122 SKIN:
+    id: 61184
+    marketGroup: 2321
+    name: Venture Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -32361,6 +32941,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vigil Abyssal Glory SKIN:
+    id: 60792
+    name: Vigil Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vigil Biosecurity Responders SKIN:
     id: 55645
     marketGroup: 2005
@@ -32538,6 +33125,13 @@ types:
     id: 49149
     marketGroup: 2030
     name: Vigilant Angel's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigilant Aurora Universalis SKIN:
+    id: 60917
+    name: Vigilant Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -33234,6 +33828,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Zealot Blood Raiders SKIN:
+    id: 60671
+    name: Zealot Blood Raiders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Zealot Capsuleer Day XV SKIN:
     id: 47622
     marketGroup: 2069
@@ -33364,27 +33965,6 @@ types:
     id: 54222
     marketGroup: 2704
     name: Zirnitra Metamateria Exotica SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  '[no messageID: 588833]':
-    id: 60669
-    name: '[no messageID: 588833]'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  '[no messageID: 588839]':
-    id: 60671
-    name: '[no messageID: 588839]'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  '[no messageID: 588845]':
-    id: 60673
-    name: '[no messageID: 588845]'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

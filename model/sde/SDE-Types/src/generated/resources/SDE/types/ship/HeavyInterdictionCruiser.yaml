@@ -15,6 +15,7 @@ types:
     elitebonusheavyinterdictors1: 10
     elitebonusheavyinterdictors2: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -87,6 +88,7 @@ types:
     volume: 96000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Devoter:
     agility: 0.5099999904632568
     armoremdamageresonance: 0.5
@@ -105,6 +107,7 @@ types:
     elitebonusheavyinterdictors1: 10
     elitebonusheavyinterdictors2: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -176,6 +179,7 @@ types:
     volume: 118000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Fiend:
     agility: 0.6000000238418579
     armoremdamageresonance: 0.5
@@ -190,6 +194,7 @@ types:
     cpuoutput: 450
     elitebonusheavyinterdictors2: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 150
     gfxboosterid: 395
@@ -266,6 +271,95 @@ types:
     volume: 101000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
+  Laelaps:
+    agility: 0.47999998927116394
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 2280.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.550000011920929
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 1550.0
+    capacity: 380.0
+    cpuoutput: 460
+    dronebandwidth: 25
+    dronecapacity: 25
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 150
+    gfxboosterid: 395
+    heatattenuationhi: 0.7599999904632568
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 0.7099999785423279
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.75
+    hislots: 6
+    hp: 2100.0
+    id: 60764
+    kineticdamageresonance: 0.6700000166893005
+    launcherslotsleft: 5
+    lowslots: 4
+    maincolor: 16777215
+    marketGroup: 1371
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 7
+    maxpassengers: 500
+    maxtargetrange: 50000.0
+    maxvelocity: 230.0
+    medslots: 5
+    metagroupid: 4
+    metalevelold: 8
+    mintargetveldmgmultiplier: 0.25
+    name: Laelaps
+    packagedVolume: 10000.0
+    portionSize: 1
+    poweroutput: 800
+    powertospeed: 1
+    propulsiongraphicid: 395
+    published: true
+    radius: 240.0
+    rechargerate: 490000.0
+    requiredskill1: 3334
+    requiredskill1level: 2
+    requiredskill2: 3332
+    requiredskill2level: 2
+    rigsize: 2
+    rigslots: 3
+    scangravimetricstrength: 21.0
+    scanresolution: 300.0
+    scanspeed: 6000
+    shieldcapacity: 2950.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonuscc: 15
+    shipbonusgc: 5.0
+    shipbonusgc2: 10.0
+    shipbonusrole7: 200.0
+    shipbonusrole8: -50.0
+    signatureradius: 135.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    typecolorscheme: 11318
+    uniformity: 1.0
+    upgradecapacity: 350
+    upgradeslotsleft: 3
+    volume: 101000.0
+    warpcapacitorneed: 8.12999985555507E-7
+    warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
   Onyx:
     agility: 0.550000011920929
     armoremdamageresonance: 0.5
@@ -282,6 +376,7 @@ types:
     elitebonusheavyinterdictors1: 10
     elitebonusheavyinterdictors2: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -352,6 +447,7 @@ types:
     volume: 92000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Phobos:
     agility: 0.5799999833106995
     armoremdamageresonance: 0.5
@@ -368,6 +464,7 @@ types:
     elitebonusheavyinterdictors1: 10
     elitebonusheavyinterdictors2: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -438,3 +535,4 @@ types:
     volume: 112000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0

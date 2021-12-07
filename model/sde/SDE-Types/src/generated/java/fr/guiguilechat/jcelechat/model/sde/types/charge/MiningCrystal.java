@@ -31,8 +31,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialisationAsteroidGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialisationAsteroidYieldMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecializationAsteroidDurationMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecializationAsteroidTypeList;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecializationAsteroidYieldMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecializationCrystalMiningWasteProbabilityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecializationCrystalMiningWastedVolumeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.UnfitCapCost;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
@@ -141,19 +144,40 @@ public class MiningCrystal
     @DefaultIntValue(0)
     public int requiredskill2level;
     /**
-     * The group at which the mining crystal is tuned to mine.
+     * The amount the mining duration is modified when mining the asteroid group this crystal is tuned for.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double specializationasteroiddurationmultiplier;
+    /**
+     * The ID of a typelist of asteroid typeIDs that a mining crystal can affect
+     */
+    @HighIsGood(false)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int specialisationasteroidgroup;
+    public int specializationasteroidtypelist;
     /**
      * The amount the yield is modified when mining the asteroid group this crystal is tuned for.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
-    public double specialisationasteroidyieldmultiplier;
+    public double specializationasteroidyieldmultiplier;
+    /**
+     * Attribute added to the waste probability (mainly used in mining crystals)
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double specializationcrystalminingwasteprobabilitybonus;
+    /**
+     * Attribute added to the waste multiplier (mainly used in mining crystals)
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int specializationcrystalminingwastedvolumemultiplierbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -169,7 +193,7 @@ public class MiningCrystal
     @Stackable(true)
     @DefaultIntValue(0)
     public int unfitcapcost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpecialisationAsteroidGroup.INSTANCE, SpecialisationAsteroidYieldMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, UnfitCapCost.INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpecializationAsteroidTypeList.INSTANCE, SpecializationAsteroidYieldMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, UnfitCapCost.INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SpecializationCrystalMiningWastedVolumeMultiplierBonus.INSTANCE, SpecializationCrystalMiningWasteProbabilityBonus.INSTANCE, MetaLevelOld.INSTANCE, SpecializationAsteroidDurationMultiplier.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final MiningCrystal.MetaGroup METAGROUP = new MiningCrystal.MetaGroup();
 
     @Override
@@ -231,13 +255,25 @@ public class MiningCrystal
             {
                 return requiredskill2level;
             }
-            case  781 :
+            case  3161 :
             {
-                return specialisationasteroidgroup;
+                return specializationasteroiddurationmultiplier;
+            }
+            case  3148 :
+            {
+                return specializationasteroidtypelist;
             }
             case  782 :
             {
-                return specialisationasteroidyieldmultiplier;
+                return specializationasteroidyieldmultiplier;
+            }
+            case  3160 :
+            {
+                return specializationcrystalminingwasteprobabilitybonus;
+            }
+            case  3159 :
+            {
+                return specializationcrystalminingwastedvolumemultiplierbonus;
             }
             case  422 :
             {

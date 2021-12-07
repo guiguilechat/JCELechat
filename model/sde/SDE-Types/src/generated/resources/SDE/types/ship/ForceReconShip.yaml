@@ -19,6 +19,7 @@ types:
     elitebonusreconship1: -20
     elitebonusreconship2: 20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -90,6 +91,7 @@ types:
     volume: 116000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Chameleon:
     agility: 0.6000000238418579
     armoremdamageresonance: 0.5
@@ -110,6 +112,7 @@ types:
     elitebonusreconship1: -20
     elitebonusreconship2: 30
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -183,6 +186,7 @@ types:
     volume: 96000.0
     warpcapacitorneed: 1.249999968422344E-6
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Enforcer:
     agility: 0.550000011920929
     armoremdamageresonance: 0.6700000166893005
@@ -206,6 +210,7 @@ types:
     elitebonusreconship2: 5
     elitebonusreconship3: 10.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -290,6 +295,7 @@ types:
     volume: 100000.0
     warpcapacitorneed: 1.249999968422344E-6
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Falcon:
     agility: 0.6399999856948853
     armoremdamageresonance: 0.5
@@ -310,6 +316,7 @@ types:
     elitebonusreconship1: -20
     elitebonusreconship2: 30
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -381,6 +388,7 @@ types:
     volume: 96000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Moracha:
     agility: 0.4699999988079071
     armoremdamageresonance: 0.20000000298023224
@@ -399,6 +407,7 @@ types:
     elitebonusreconship1: -20
     elitebonusreconship2: 30
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 150
     gfxboosterid: 395
@@ -474,6 +483,7 @@ types:
     volume: 100000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Pilgrim:
     agility: 0.6100000143051147
     armoremdamageresonance: 0.5
@@ -495,6 +505,7 @@ types:
     elitebonusreconship2: 10
     elitebonusreconship3: 20.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -566,6 +577,7 @@ types:
     volume: 120000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Rapier:
     agility: 0.5899999737739563
     armoremdamageresonance: 0.15000000596046448
@@ -586,6 +598,7 @@ types:
     elitebonusreconship1: -20
     elitebonusreconship2: 60
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -658,6 +671,7 @@ types:
     volume: 85000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Tiamat:
     agility: 0.47999998927116394
     armoremdamageresonance: 0.550000011920929
@@ -679,6 +693,7 @@ types:
     elitebonusreconship2: 10
     elitebonusreconship3: 0.004999999888241291
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
@@ -751,6 +766,7 @@ types:
     volume: 118000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Victor:
     agility: 0.5899999737739563
     armoremdamageresonance: 0.5
@@ -772,6 +788,7 @@ types:
     elitebonusreconship2: 20
     elitebonusreconship3: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -850,3 +867,4 @@ types:
     volume: 116000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0

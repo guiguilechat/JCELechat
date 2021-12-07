@@ -778,15 +778,6 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  DNCR-05H and PRNCR-10H Highsec Ice Storm Filaments Crate:
-    cpumultiplier: 1.0
-    id: 57169
-    marketGroup: 1661
-    name: DNCR-05H and PRNCR-10H Highsec Ice Storm Filaments Crate
-    packagedVolume: 4.0
-    portionSize: 1
-    published: true
-    volume: 4.0
   Damaged Ancient PEG:
     cpumultiplier: 1.0
     id: 47053
@@ -1660,6 +1651,12 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Ice Storm Filaments Crate:
+    cpumultiplier: 1.0
+    id: 61129
+    name: Ice Storm Filaments Crate
+    portionSize: 1
+    published: true
   Impetus Trading Cards:
     cpumultiplier: 1.0
     id: 48138
@@ -3175,7 +3172,6 @@ types:
   Yoiul Festival Snowballs Crate:
     cpumultiplier: 1.0
     id: 57167
-    marketGroup: 1661
     name: Yoiul Festival Snowballs Crate
     packagedVolume: 4.0
     portionSize: 1

@@ -14,6 +14,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -85,6 +86,7 @@ types:
     volume: 495000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Apocalypse:
     agility: 0.11900000274181366
     armoremdamageresonance: 0.5
@@ -100,6 +102,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -170,6 +173,7 @@ types:
     volume: 495000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Apocalypse Imperial Issue:
     agility: 0.13600000739097595
     armoremdamageresonance: 0.5
@@ -185,6 +189,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 125
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 20000
@@ -256,6 +261,7 @@ types:
     volume: 495000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Apocalypse Navy Issue:
     agility: 0.11500000208616257
     armoremdamageresonance: 0.5
@@ -271,6 +277,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -343,6 +350,7 @@ types:
     volume: 495000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Armageddon:
     agility: 0.12999999523162842
     armoremdamageresonance: 0.5
@@ -358,6 +366,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 375
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -429,6 +438,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Armageddon Imperial Issue:
     agility: 0.13600000739097595
     armoremdamageresonance: 0.5
@@ -444,6 +454,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 20000
@@ -515,6 +526,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Armageddon Navy Issue:
     agility: 0.12999999523162842
     armoremdamageresonance: 0.5
@@ -530,6 +542,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 200
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -602,6 +615,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Barghest:
     agility: 0.09799999743700027
     armoremdamageresonance: 0.5
@@ -617,6 +631,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -693,6 +708,7 @@ types:
     volume: 595000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Bhaalgorn:
     agility: 0.125
     armoremdamageresonance: 0.5
@@ -708,6 +724,7 @@ types:
     dronebandwidth: 100
     dronecapacity: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -783,6 +800,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Dominix:
     agility: 0.12540000677108765
     armoremdamageresonance: 0.5
@@ -798,6 +816,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 375
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -869,6 +888,7 @@ types:
     volume: 454500.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Dominix Navy Issue:
     agility: 0.11999999731779099
     armoremdamageresonance: 0.5
@@ -884,6 +904,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 400
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -957,6 +978,7 @@ types:
     volume: 454500.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Hyperion:
     agility: 0.11779999732971191
     armoremdamageresonance: 0.5
@@ -972,6 +994,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 175
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -1044,6 +1067,7 @@ types:
     volume: 495000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Leshak:
     agility: 0.16300000250339508
     armoremdamageresonance: 0.5
@@ -1059,6 +1083,7 @@ types:
     dronebandwidth: 100
     dronecapacity: 250
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -1132,6 +1157,7 @@ types:
     volume: 495000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Machariel:
     agility: 0.09600000083446503
     armoremdamageresonance: 0.4000000059604645
@@ -1147,6 +1173,7 @@ types:
     dronebandwidth: 100
     dronecapacity: 125
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -1223,6 +1250,7 @@ types:
     volume: 595000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Maelstrom:
     agility: 0.13600000739097595
     armoremdamageresonance: 0.4000000059604645
@@ -1238,6 +1266,7 @@ types:
     dronebandwidth: 100
     dronecapacity: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -1308,6 +1337,7 @@ types:
     volume: 472500.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Megathron:
     agility: 0.11400000005960464
     armoremdamageresonance: 0.5
@@ -1323,6 +1353,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -1394,6 +1425,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Megathron Federate Issue:
     agility: 0.12160000205039978
     armoremdamageresonance: 0.5
@@ -1409,6 +1441,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 175
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 20000
@@ -1483,6 +1516,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Megathron Navy Issue:
     agility: 0.10499999672174454
     armoremdamageresonance: 0.5
@@ -1498,6 +1532,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 175
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -1572,6 +1607,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Nestor:
     agility: 0.3499999940395355
     armoremdamageresonance: 0.5
@@ -1587,6 +1623,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 500
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -1668,6 +1705,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Nightmare:
     agility: 0.12200000137090683
     armoremdamageresonance: 0.5
@@ -1683,6 +1721,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -1759,6 +1798,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Praxis:
     agility: 0.10000000149011612
     armoremdamageresonance: 0.675000011920929
@@ -1774,6 +1814,7 @@ types:
     dronebandwidth: 100
     dronecapacity: 225
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -1848,6 +1889,7 @@ types:
     volume: 500000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Rattlesnake:
     agility: 0.12800000607967377
     armoremdamageresonance: 0.5
@@ -1863,6 +1905,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 175
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -1939,6 +1982,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Raven:
     agility: 0.11999999731779099
     armoremdamageresonance: 0.5
@@ -1954,6 +1998,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -2026,6 +2071,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Raven Navy Issue:
     agility: 0.11999999731779099
     armoremdamageresonance: 0.5
@@ -2041,6 +2087,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -2114,6 +2161,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Raven State Issue:
     agility: 0.12800000607967377
     armoremdamageresonance: 0.5
@@ -2129,6 +2177,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 20000
@@ -2203,6 +2252,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Rokh:
     agility: 0.13600000739097595
     armoremdamageresonance: 0.5
@@ -2218,6 +2268,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 50
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -2289,6 +2340,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Scorpion:
     agility: 0.11599999666213989
     armoremdamageresonance: 0.5
@@ -2304,6 +2356,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -2375,6 +2428,7 @@ types:
     volume: 468000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Scorpion Navy Issue:
     agility: 0.125
     armoremdamageresonance: 0.5
@@ -2390,6 +2444,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -2463,6 +2518,7 @@ types:
     volume: 468000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Tempest:
     agility: 0.11599999666213989
     armoremdamageresonance: 0.4000000059604645
@@ -2478,6 +2534,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -2549,6 +2606,7 @@ types:
     volume: 450000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Tempest Fleet Issue:
     agility: 0.11500000208616257
     armoremdamageresonance: 0.4000000059604645
@@ -2564,6 +2622,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -2637,6 +2696,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Tempest Tribal Issue:
     agility: 0.11999999731779099
     armoremdamageresonance: 0.4000000059604645
@@ -2652,6 +2712,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 125
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 20000
@@ -2725,6 +2786,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Thunderchild:
     agility: 0.13600000739097595
     armoremdamageresonance: 0.5
@@ -2740,6 +2802,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 25
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -2809,6 +2872,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Typhoon:
     agility: 0.10999999940395355
     armoremdamageresonance: 0.4000000059604645
@@ -2824,6 +2888,7 @@ types:
     dronebandwidth: 100
     dronecapacity: 125
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -2895,6 +2960,7 @@ types:
     volume: 414000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Typhoon Fleet Issue:
     agility: 0.10999999940395355
     armoremdamageresonance: 0.4000000059604645
@@ -2910,6 +2976,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 200
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 500
@@ -2983,6 +3050,7 @@ types:
     volume: 414000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Vindicator:
     agility: 0.08299999684095383
     armoremdamageresonance: 0.5
@@ -2998,6 +3066,7 @@ types:
     dronebandwidth: 125
     dronecapacity: 125
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 750
@@ -3073,3 +3142,4 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0

@@ -1,19 +1,19 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
- * 
+ * The amount the yield is modified when mining the asteroid group this crystal is tuned for.
  */
-public class EliteBonusExpedition2
-    extends IntAttribute
+public class SpecializationAsteroidYieldMultiplier
+    extends RealAttribute
 {
-    public static final EliteBonusExpedition2 INSTANCE = new EliteBonusExpedition2();
+    public static final SpecializationAsteroidYieldMultiplier INSTANCE = new SpecializationAsteroidYieldMultiplier();
 
     @Override
     public int getId() {
-        return  1943;
+        return  782;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class EliteBonusExpedition2
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class EliteBonusExpedition2
 
     @Override
     public String toString() {
-        return "EliteBonusExpedition2";
+        return "SpecializationAsteroidYieldMultiplier";
     }
 }

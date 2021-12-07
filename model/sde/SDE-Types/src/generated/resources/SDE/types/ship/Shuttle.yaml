@@ -12,6 +12,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -63,6 +64,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Apotheosis:
     agility: 1.0
     armoremdamageresonance: 0.5
@@ -76,6 +78,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -131,6 +134,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Caldari Shuttle:
     agility: 1.0
     armoremdamageresonance: 0.5
@@ -144,6 +148,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -195,6 +200,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Council Diplomatic Shuttle:
     agility: 1.0
     armoremdamageresonance: 0.6700000166893005
@@ -208,6 +214,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatcapacityhi: 100
@@ -263,6 +270,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Gallente Shuttle:
     agility: 1.0
     armoremdamageresonance: 0.5
@@ -276,6 +284,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -327,6 +336,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Goru's Shuttle:
     agility: 1.0
     armoremdamageresonance: 0.5
@@ -340,6 +350,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -392,6 +403,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Guristas Shuttle:
     agility: 1.0
     armoremdamageresonance: 0.5
@@ -405,6 +417,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -457,6 +470,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   InterBus Shuttle:
     agility: 1.0
     armoremdamageresonance: 0.5
@@ -470,6 +484,7 @@ types:
     capacity: 20.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -521,6 +536,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Leopard:
     agility: 1.0
     armoremdamageresonance: 0.4000000059604645
@@ -534,6 +550,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -586,6 +603,7 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Minmatar Shuttle:
     agility: 1.0
     armoremdamageresonance: 0.4000000059604645
@@ -599,6 +617,7 @@ types:
     capacity: 10.0
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatcapacityhi: 100
@@ -650,3 +669,4 @@ types:
     warpbubbleimmune: 1
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0

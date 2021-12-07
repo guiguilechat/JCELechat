@@ -369,8 +369,8 @@ public class RoamingAngelCartelBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double entitykillbounty;
+    @DefaultIntValue(0)
+    public int entitykillbounty;
     /**
      * The type of missiles the entity launches.
      */

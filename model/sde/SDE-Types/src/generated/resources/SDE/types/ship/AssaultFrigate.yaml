@@ -14,6 +14,7 @@ types:
     elitebonusescorts: 10
     elitebonusgunship1: -5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 395
@@ -88,6 +89,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 1.369999949929479E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Enyo:
     agility: 3.921600103378296
     armoremdamageresonance: 0.5
@@ -107,6 +109,7 @@ types:
     elitebonusgunship1: 10
     elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -177,6 +180,7 @@ types:
     volume: 29500.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Freki:
     agility: 3.055999994277954
     armoremdamageresonance: 0.10000000149011612
@@ -191,6 +195,7 @@ types:
     cpuoutput: 187
     elitebonusescorts: 10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
@@ -264,6 +269,7 @@ types:
     volume: 27289.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Harpy:
     agility: 3.6328001022338867
     armoremdamageresonance: 0.5
@@ -281,6 +287,7 @@ types:
     elitebonusgunship1: 10
     elitebonusgunship2: 5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -352,6 +359,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Hawk:
     agility: 3.7679998874664307
     armoremdamageresonance: 0.5
@@ -369,6 +377,7 @@ types:
     elitebonusgunship1: 10
     elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -440,6 +449,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Ishkur:
     agility: 3.8684000968933105
     armoremdamageresonance: 0.5
@@ -459,6 +469,7 @@ types:
     elitebonusgunship1: 10
     elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -529,6 +540,7 @@ types:
     volume: 29500.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Jaguar:
     agility: 3.1760001182556152
     armoremdamageresonance: 0.10000000149011612
@@ -548,6 +560,7 @@ types:
     elitebonusgunship1: 5
     elitebonusgunship2: 5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -619,6 +632,7 @@ types:
     volume: 27289.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Malice:
     agility: 2.430000066757202
     armoremdamageresonance: 0.5
@@ -633,6 +647,7 @@ types:
     cpuoutput: 178
     elitebonusescorts: 10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -704,6 +719,7 @@ types:
     volume: 28600.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Nergal:
     agility: 2.9000000953674316
     armoremdamageresonance: 0.5
@@ -722,6 +738,7 @@ types:
     elitebonusgunship1: 20
     elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -793,6 +810,7 @@ types:
     volume: 28600.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Retribution:
     agility: 4.127999782562256
     armoremdamageresonance: 0.5
@@ -810,6 +828,7 @@ types:
     elitebonusgunship1: 10
     elitebonusgunship2: 5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -879,6 +898,7 @@ types:
     volume: 28600.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Utu:
     agility: 3.4674999713897705
     armoremdamageresonance: 0.5
@@ -895,6 +915,7 @@ types:
     dronecapacity: 75
     elitebonusescorts: 10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -965,6 +986,7 @@ types:
     volume: 29500.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Vengeance:
     agility: 4.263999938964844
     armoremdamageresonance: 0.5
@@ -982,6 +1004,7 @@ types:
     elitebonusgunship1: -4
     elitebonusgunship2: -5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -1052,6 +1075,7 @@ types:
     volume: 28600.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Wolf:
     agility: 3.4560000896453857
     armoremdamageresonance: 0.10000000149011612
@@ -1069,6 +1093,7 @@ types:
     elitebonusgunship1: 5
     elitebonusgunship2: 10.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
@@ -1140,3 +1165,4 @@ types:
     volume: 27289.0
     warpcapacitorneed: 1.3477100537784281E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0

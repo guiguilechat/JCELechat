@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * ORE Mining frigate bonus 2
- */
-public class ShipBonusOREfrig2
+public class MiningBargeBonusIceHarvestingRange
     extends IntAttribute
 {
-    public static final ShipBonusOREfrig2 INSTANCE = new ShipBonusOREfrig2();
+    public static final MiningBargeBonusIceHarvestingRange INSTANCE = new MiningBargeBonusIceHarvestingRange();
 
     @Override
     public int getId() {
-        return  1843;
+        return  3185;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class ShipBonusOREfrig2
 
     @Override
     public String toString() {
-        return "ShipBonusOREfrig2";
+        return "MiningBargeBonusIceHarvestingRange";
     }
 }

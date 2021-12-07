@@ -20,6 +20,7 @@ types:
     elitebonuslogistics1: -15
     elitebonuslogistics2: -15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -90,6 +91,7 @@ types:
     volume: 107000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Etana:
     agility: 0.6100000143051147
     armoremdamageresonance: 0.5
@@ -111,6 +113,7 @@ types:
     elitebonuslogistics1: -17
     elitebonuslogistics2: -17
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -183,6 +186,7 @@ types:
     volume: 107000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Guardian:
     agility: 0.6100000143051147
     armoremdamageresonance: 0.5
@@ -204,6 +208,7 @@ types:
     elitebonuslogistics1: -15
     elitebonuslogistics2: -15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -274,6 +279,7 @@ types:
     volume: 115000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Oneiros:
     agility: 0.6150000095367432
     armoremdamageresonance: 0.5
@@ -295,6 +301,7 @@ types:
     elitebonuslogistics1: -15
     elitebonuslogistics2: 10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -363,6 +370,7 @@ types:
     volume: 113000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Rabisu:
     agility: 0.5199999809265137
     armoremdamageresonance: 0.5
@@ -385,6 +393,7 @@ types:
     elitebonuslogistics2: -15
     elitebonuslogistics3: -2
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -464,6 +473,7 @@ types:
     volume: 115000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Scimitar:
     agility: 0.550000011920929
     armoremdamageresonance: 0.10000000149011612
@@ -485,6 +495,7 @@ types:
     elitebonuslogistics1: 10
     elitebonuslogistics2: -15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -555,6 +566,7 @@ types:
     volume: 89000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Zarmazd:
     agility: 0.7200000286102295
     armoremdamageresonance: 0.5
@@ -576,6 +588,7 @@ types:
     elitebonuslogistics1: -15
     elitebonuslogistics2: 20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -646,3 +659,4 @@ types:
     volume: 118000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0

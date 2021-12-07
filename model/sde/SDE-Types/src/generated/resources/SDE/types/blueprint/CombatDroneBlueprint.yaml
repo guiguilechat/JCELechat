@@ -296,6 +296,17 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Aralez Blueprint:
+    id: 60769
+    industryblueprintrank: 2.0
+    marketGroup: 1532
+    name: Aralez Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
   Berserker I Blueprint:
     id: 2477
     industryblueprintrank: 3.0

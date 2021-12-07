@@ -13,7 +13,7 @@ types:
     price: 3705600.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12185
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -32,7 +32,7 @@ types:
     price: 3374080.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12185
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -51,7 +51,7 @@ types:
     price: 56000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12185
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -70,7 +70,7 @@ types:
     price: 3552000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12185
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -91,7 +91,7 @@ types:
     price: 370560.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12185
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -112,7 +112,7 @@ types:
     price: 337408.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12185
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -133,7 +133,7 @@ types:
     price: 510.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12185
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -154,7 +154,7 @@ types:
     price: 355200.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12185
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0

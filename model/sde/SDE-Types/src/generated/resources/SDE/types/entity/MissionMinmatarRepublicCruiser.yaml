@@ -2425,7 +2425,7 @@ types:
     entityequipmentmin: 1
     entityflyrange: 1250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 50000.0
+    entitykillbounty: 50000
     entitylootcountmin: 1
     entitymissiletypeid: 207
     entityoverviewshipgroupid: 26

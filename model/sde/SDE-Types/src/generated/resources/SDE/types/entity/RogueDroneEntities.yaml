@@ -147,7 +147,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 125.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 4354166.5
+    entitykillbounty: 5225000
     entitymaxvelocitysignatureradiusmultiplier: 4
     explosivedamageresonance: 0.6000000238418579
     falloff: 30000.0
@@ -220,7 +220,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 130.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 4750000.0
+    entitykillbounty: 5700000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 24533
     entitysecuritymaxgain: 5.0
@@ -300,7 +300,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 800.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 4750000.0
+    entitykillbounty: 5700000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 24533
     entitysecuritymaxgain: 5.0
@@ -379,14 +379,13 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 268.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 3166666.75
+    entitykillbounty: 3800000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitysecuritymaxgain: 5.0
     explosivedamageresonance: 0.46000000834465027
     falloff: 40000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 397
-    gfxturretid: 570
     hp: 1400.0
     id: 60331
     kineticdamage: 10.0
@@ -455,7 +454,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 120.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 4750000.0
+    entitykillbounty: 5700000
     entitymaxvelocitysignatureradiusmultiplier: 4
     explosivedamageresonance: 0.6000000238418579
     falloff: 30000.0
@@ -530,7 +529,7 @@ types:
     entitycruisespeed: 25.0
     entityequipmentgroupmax: 2
     entityequipmentmax: 2
-    entitykillbounty: 5.2493008E7
+    entitykillbounty: 52493008
     entitylootcountmax: 1
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitysecuritymaxgain: 5.0
@@ -601,14 +600,13 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1250.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 2770833.25
+    entitykillbounty: 3325000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitysecuritymaxgain: 5.0
     explosivedamageresonance: 0.6000000238418579
     falloff: 12000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 394
-    gfxturretid: 458
     hp: 1000.0
     id: 60317
     kineticdamageresonance: 0.6000000238418579
@@ -681,7 +679,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 205.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 2375000.0
+    entitykillbounty: 2850000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 213
     entitysecuritymaxgain: 5.0
@@ -689,7 +687,6 @@ types:
     falloff: 10000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 394
-    gfxturretid: 458
     hp: 5000.0
     id: 60318
     kineticdamageresonance: 0.4000000059604645
@@ -758,14 +755,13 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 195.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 2770833.25
+    entitykillbounty: 3325000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitysecuritymaxgain: 5.0
     explosivedamageresonance: 0.4000000059604645
     falloff: 10000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 394
-    gfxturretid: 570
     hp: 5000.0
     id: 60382
     kineticdamage: 16.0
@@ -896,7 +892,7 @@ types:
     entitycruisespeed: 60.0
     entityequipmentgroupmax: 2
     entityequipmentmax: 2
-    entitykillbounty: 2.4721028E7
+    entitykillbounty: 24721028
     entitylootcountmax: 2
     entitymaxvelocitysignatureradiusmultiplier: 4
     explosivedamageresonance: 0.6000000238418579
@@ -976,7 +972,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 187.0
     entityequipmentgroupmax: 1
-    entitykillbounty: 1583333.375
+    entitykillbounty: 1900000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 24473
     entitysecuritymaxgain: 5.0
@@ -984,7 +980,6 @@ types:
     falloff: 30000.0
     fighterabilityantifightermissileresistance: 1
     gfxboosterid: 394
-    gfxturretid: 8089
     hp: 600.0
     id: 60332
     kineticdamageresonance: 0.46000000834465027

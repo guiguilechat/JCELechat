@@ -609,11 +609,11 @@ types:
     price: 1000.0
     published: true
     volume: 1.0
-  Exigent Sentry Drone Navigation Mutaplasmid:
+  Exigent Sentry Drone Precision Mutaplasmid:
     id: 60467
     marketGroup: 2800
     mass: 1.0
-    name: Exigent Sentry Drone Navigation Mutaplasmid
+    name: Exigent Sentry Drone Precision Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
     price: 1000.0

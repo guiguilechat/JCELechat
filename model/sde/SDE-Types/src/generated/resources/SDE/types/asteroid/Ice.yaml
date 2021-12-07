@@ -3,6 +3,7 @@ types:
     asteroidradiusgrowthfactor: 160.0
     asteroidradiusunitsize: 1000
     id: 28627
+    ignoreminingwaste: 1
     name: Azure Ice
     orebasictype: 16264
     packagedVolume: 1000.0
@@ -275,6 +276,7 @@ types:
     asteroidradiusgrowthfactor: 160.0
     asteroidradiusunitsize: 1000
     id: 28628
+    ignoreminingwaste: 1
     name: Crystalline Icicle
     orebasictype: 16262
     packagedVolume: 1000.0

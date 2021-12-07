@@ -5629,7 +5629,7 @@ types:
     entityfactionloss: 0.004749999847263098
     entityflyrange: 8500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 30000.0
+    entitykillbounty: 30000
     entitylootcountmin: 2
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 25

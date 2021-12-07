@@ -127,6 +127,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     cspa("cspa"),
     @JsonProperty("cspaofflinerefund")
     cspaofflinerefund("cspaofflinerefund"),
+    @JsonProperty("daily_challenge_reward")
+    daily_challenge_reward("daily_challenge_reward"),
     @JsonProperty("datacore_fee")
     datacore_fee("datacore_fee"),
     @JsonProperty("dna_modification_fee")
@@ -141,8 +143,22 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     duel_wager_refund("duel_wager_refund"),
     @JsonProperty("ess_escrow_transfer")
     ess_escrow_transfer("ess_escrow_transfer"),
+    @JsonProperty("external_trade_delivery")
+    external_trade_delivery("external_trade_delivery"),
+    @JsonProperty("external_trade_freeze")
+    external_trade_freeze("external_trade_freeze"),
+    @JsonProperty("external_trade_thaw")
+    external_trade_thaw("external_trade_thaw"),
     @JsonProperty("factory_slot_rental_fee")
     factory_slot_rental_fee("factory_slot_rental_fee"),
+    @JsonProperty("flux_payout")
+    flux_payout("flux_payout"),
+    @JsonProperty("flux_tax")
+    flux_tax("flux_tax"),
+    @JsonProperty("flux_ticket_repayment")
+    flux_ticket_repayment("flux_ticket_repayment"),
+    @JsonProperty("flux_ticket_sale")
+    flux_ticket_sale("flux_ticket_sale"),
     @JsonProperty("gm_cash_transfer")
     gm_cash_transfer("gm_cash_transfer"),
     @JsonProperty("industry_job_tax")
@@ -169,12 +185,16 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     market_escrow("market_escrow"),
     @JsonProperty("market_fine_paid")
     market_fine_paid("market_fine_paid"),
+    @JsonProperty("market_provider_tax")
+    market_provider_tax("market_provider_tax"),
     @JsonProperty("market_transaction")
     market_transaction("market_transaction"),
     @JsonProperty("medal_creation")
     medal_creation("medal_creation"),
     @JsonProperty("medal_issued")
     medal_issued("medal_issued"),
+    @JsonProperty("milestone_reward_payment")
+    milestone_reward_payment("milestone_reward_payment"),
     @JsonProperty("mission_completion")
     mission_completion("mission_completion"),
     @JsonProperty("mission_cost")
@@ -205,6 +225,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     project_discovery_tax("project_discovery_tax"),
     @JsonProperty("reaction")
     reaction("reaction"),
+    @JsonProperty("redeemed_isk_token")
+    redeemed_isk_token("redeemed_isk_token"),
     @JsonProperty("release_of_impounded_property")
     release_of_impounded_property("release_of_impounded_property"),
     @JsonProperty("repair_bill")
@@ -221,6 +243,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     resource_wars_reward("resource_wars_reward"),
     @JsonProperty("reverse_engineering")
     reverse_engineering("reverse_engineering"),
+    @JsonProperty("season_challenge_reward")
+    season_challenge_reward("season_challenge_reward"),
     @JsonProperty("security_processing_fee")
     security_processing_fee("security_processing_fee"),
     @JsonProperty("shares")

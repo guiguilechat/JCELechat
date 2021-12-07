@@ -12,6 +12,7 @@ types:
     capacity: 120.0
     cpuoutput: 105
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.25
@@ -75,6 +76,7 @@ types:
     volume: 17660.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Hematos:
     agility: 4.449999809265137
     armoremdamageresonance: 0.5
@@ -88,6 +90,7 @@ types:
     capacity: 115.0
     cpuoutput: 105
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.25
@@ -152,6 +155,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Ibis:
     agility: 4.5
     armoremdamageresonance: 0.5
@@ -167,6 +171,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.25
@@ -229,6 +234,7 @@ types:
     volume: 15000.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Immolator:
     agility: 4.449999809265137
     armoremdamageresonance: 0.5
@@ -242,6 +248,7 @@ types:
     capacity: 115.0
     cpuoutput: 125
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.25
@@ -304,6 +311,7 @@ types:
     volume: 17400.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Impairor:
     agility: 4.449999809265137
     armoremdamageresonance: 0.5
@@ -319,6 +327,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.25
@@ -381,6 +390,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Reaper:
     agility: 4.349999904632568
     armoremdamageresonance: 0.4000000059604645
@@ -396,6 +406,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 397
     heatattenuationhi: 0.25
@@ -458,6 +469,7 @@ types:
     volume: 15800.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Taipan:
     agility: 4.5
     armoremdamageresonance: 0.5
@@ -473,6 +485,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.25
@@ -537,6 +550,7 @@ types:
     volume: 15000.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Velator:
     agility: 4.349999904632568
     armoremdamageresonance: 0.5
@@ -552,6 +566,7 @@ types:
     dronebandwidth: 10
     dronecapacity: 10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.25
@@ -614,6 +629,7 @@ types:
     volume: 24500.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Violator:
     agility: 4.349999904632568
     armoremdamageresonance: 0.5
@@ -627,6 +643,7 @@ types:
     capacity: 135.0
     cpuoutput: 110
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.25
@@ -690,3 +707,4 @@ types:
     volume: 24500.0
     warpcapacitorneed: 8.659999934934604E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0

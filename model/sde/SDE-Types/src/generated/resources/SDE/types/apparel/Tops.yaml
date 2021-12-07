@@ -326,6 +326,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Sanguine Harvest' T-Shirt:
+    gender: 2
+    id: 60435
+    marketGroup: 1398
+    name: Men's 'Sanguine Harvest' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Serpentis' T-shirt (olive/black):
     gender: 1
     id: 37866
@@ -735,6 +744,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Men's Yoiul Stormchasers T-Shirt:
+    gender: 2
+    id: 57073
+    marketGroup: 1398
+    name: Men's Yoiul Stormchasers T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (black and dark red):
     gender: 3
@@ -1273,6 +1291,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Sanguine Harvest' T-Shirt:
+    gender: 2
+    id: 60436
+    marketGroup: 1406
+    name: Women's 'Sanguine Harvest' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Serpentis' T-shirt (olive/black):
     gender: 3
     id: 37865
@@ -1652,4 +1679,13 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's Yoiul Stormchasers T-Shirt:
+    gender: 2
+    id: 57077
+    marketGroup: 1406
+    name: Women's Yoiul Stormchasers T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612

@@ -769,6 +769,17 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Raiju Blueprint:
+    id: 60768
+    industryblueprintrank: 20.0
+    industryjobcostmultiplier: 1
+    name: Raiju Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
   Raptor Blueprint:
     id: 11179
     industryblueprintrank: 400.0

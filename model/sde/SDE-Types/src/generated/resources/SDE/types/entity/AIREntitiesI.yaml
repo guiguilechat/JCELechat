@@ -65,6 +65,7 @@ types:
     signatureradius: 135.0
     speed: 4500.0
     structureuniformity: 1.0
+    targetlocksilently: 1
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 300.0
     untargetable: 1

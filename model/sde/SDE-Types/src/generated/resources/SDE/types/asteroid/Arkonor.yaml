@@ -15,7 +15,7 @@ types:
     price: 3068504.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -34,7 +34,7 @@ types:
     price: 1.568047E7
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -53,7 +53,7 @@ types:
     price: 1.612091E7
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -72,7 +72,7 @@ types:
     price: 564000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -91,7 +91,7 @@ types:
     price: 1.686858E7
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -112,7 +112,7 @@ types:
     price: 3224182.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -133,7 +133,7 @@ types:
     price: 5100.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -143,6 +143,7 @@ types:
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
     id: 28625
+    ignoreminingwaste: 1
     name: Polygypsum
     orebasictype: 22
     packagedVolume: 16.0
@@ -150,7 +151,7 @@ types:
     price: 2000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -171,7 +172,7 @@ types:
     price: 3373716.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12180
+    reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0

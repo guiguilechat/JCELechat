@@ -407,8 +407,8 @@ public class LargeCollidableStructure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double entitykillbounty;
+    @DefaultIntValue(0)
+    public int entitykillbounty;
     /**
      * The maximum number of pieces of loot dropped by this entity.
      */

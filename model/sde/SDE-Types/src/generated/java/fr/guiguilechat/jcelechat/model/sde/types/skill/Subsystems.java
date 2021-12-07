@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsSkillIObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -23,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SecondaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SkillIsObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
@@ -40,6 +40,13 @@ public class Subsystems
     @DefaultIntValue(1)
     public int cannotbetrainedontrial;
     /**
+     * When set True, skill can no longer be injected or trained. Characters will be reimbursed with free SP for any obsolete skills in the skill queue upon logon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int isskilliobsolete;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -53,14 +60,7 @@ public class Subsystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill2level;
-    /**
-     * When set True, skill can no longer be injected or trained. Characters will be reimbursed with free SP for any obsolete skills in the skill queue upon logon.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int skillisobsolete;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, SkillIsObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE })));
     public static final Subsystems.MetaGroup METAGROUP = new Subsystems.MetaGroup();
 
     @Override
@@ -70,6 +70,10 @@ public class Subsystems
             {
                 return cannotbetrainedontrial;
             }
+            case  2450 :
+            {
+                return isskilliobsolete;
+            }
             case  183 :
             {
                 return requiredskill2;
@@ -77,10 +81,6 @@ public class Subsystems
             case  278 :
             {
                 return requiredskill2level;
-            }
-            case  2450 :
-            {
-                return skillisobsolete;
             }
             default:
             {

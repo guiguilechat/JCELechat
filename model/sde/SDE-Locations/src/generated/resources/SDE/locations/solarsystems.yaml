@@ -16808,7 +16808,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Ahtila
     region: Pochven
@@ -17386,7 +17386,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Ala
     region: Pochven
@@ -18545,7 +18545,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Angymonne
     region: Pochven
@@ -19243,7 +19243,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Archee
     region: Pochven
@@ -19757,7 +19757,7 @@ locations:
     isCorridor: false
     isFringe: true
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Arvasaras
     region: Pochven
@@ -41765,7 +41765,7 @@ locations:
     isCorridor: false
     isFringe: true
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Harva
     region: Pochven
@@ -44692,7 +44692,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Ichoriya
     region: Pochven
@@ -44816,7 +44816,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Ignebaener
     region: Pochven
@@ -85021,7 +85021,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Kaunokka
     region: Pochven
@@ -85625,7 +85625,7 @@ locations:
     isCorridor: false
     isFringe: true
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Kino
     region: Pochven
@@ -85827,7 +85827,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Komo
     region: Pochven
@@ -85843,7 +85843,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Konola
     region: Pochven
@@ -86064,7 +86064,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Krirald
     region: Pochven
@@ -86136,7 +86136,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Kuharah
     region: Pochven
@@ -95595,7 +95595,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Nalvula
     region: Pochven
@@ -95646,7 +95646,7 @@ locations:
     isCorridor: false
     isFringe: true
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Nani
     region: Pochven
@@ -96116,7 +96116,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Niarja
     region: Pochven
@@ -100115,7 +100115,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Otanuomi
     region: Pochven
@@ -100132,7 +100132,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Otela
     region: Pochven
@@ -107790,7 +107790,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Raravoss
     region: Pochven
@@ -110396,7 +110396,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Sakenta
     region: Pochven
@@ -111134,7 +111134,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Senda
     region: Pochven
@@ -112260,7 +112260,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Skarkon
     region: Pochven
@@ -115679,7 +115679,7 @@ locations:
     isCorridor: true
     isFringe: false
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Tunudan
     region: Pochven
@@ -118418,7 +118418,7 @@ locations:
     isCorridor: false
     isFringe: false
     isHub: true
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Urhinichi
     region: Pochven
@@ -120383,7 +120383,7 @@ locations:
     isCorridor: false
     isFringe: true
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Vale
     region: Pochven
@@ -122697,7 +122697,7 @@ locations:
     isCorridor: false
     isFringe: true
     isHub: false
-    isKS: true
+    isKS: false
     isWormhole: false
     name: Wirashoda
     region: Pochven

@@ -34,7 +34,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 7200.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1.3875E7
+    entitykillbounty: 13875000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entityoverviewshipgroupid: 27
@@ -121,7 +121,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 6500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 7125000.0
+    entitykillbounty: 7125000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entityoverviewshipgroupid: 27
@@ -209,7 +209,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 36250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 3750000.0
+    entitykillbounty: 3750000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymissiletypeid: 205
@@ -298,7 +298,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 31250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 8250000.0
+    entitykillbounty: 8250000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymissiletypeid: 2508
@@ -386,7 +386,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 7600.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1.05E7
+    entitykillbounty: 10500000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymissiletypeid: 2508
@@ -474,7 +474,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 38750.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 4875000.0
+    entitykillbounty: 4875000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymissiletypeid: 205
@@ -562,7 +562,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 6250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 6000000.0
+    entitykillbounty: 6000000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entityoverviewshipgroupid: 27
@@ -649,7 +649,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 7600.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1.1625E7
+    entitykillbounty: 11625000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entityoverviewshipgroupid: 27
@@ -736,7 +736,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 33750.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 9375000.0
+    entitykillbounty: 9375000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymissiletypeid: 2508
@@ -824,7 +824,7 @@ types:
     entityequipmentmin: 3
     entityflyrange: 7200.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1.275E7
+    entitykillbounty: 12750000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymissiletypeid: 2508

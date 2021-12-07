@@ -3,22 +3,19 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class MiningDurationRoleBonus
+public class ExhumersBonusOreMiningYield
     extends IntAttribute
 {
-    public static final MiningDurationRoleBonus INSTANCE = new MiningDurationRoleBonus();
+    public static final ExhumersBonusOreMiningYield INSTANCE = new ExhumersBonusOreMiningYield();
 
     @Override
     public int getId() {
-        return  2458;
+        return  3197;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return false;
+        return true;
     }
 
     @Override
@@ -28,7 +25,7 @@ public class MiningDurationRoleBonus
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class MiningDurationRoleBonus
 
     @Override
     public String toString() {
-        return "MiningDurationRoleBonus";
+        return "ExhumersBonusOreMiningYield";
     }
 }

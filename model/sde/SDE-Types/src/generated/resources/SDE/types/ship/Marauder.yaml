@@ -19,6 +19,7 @@ types:
     elitebonusviolatorsrole2: 100
     elitebonusviolatorsrole3: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 1000
@@ -92,6 +93,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Kronos:
     agility: 0.11699999868869781
     armoremdamageresonance: 0.5
@@ -112,6 +114,7 @@ types:
     elitebonusviolatorsrole2: 100
     elitebonusviolatorsrole3: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 1000
@@ -185,6 +188,7 @@ types:
     volume: 486000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Paladin:
     agility: 0.11900000274181366
     armoremdamageresonance: 0.5
@@ -205,6 +209,7 @@ types:
     elitebonusviolatorsrole2: 100
     elitebonusviolatorsrole3: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 1000
@@ -277,6 +282,7 @@ types:
     volume: 495000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Vargur:
     agility: 0.10999999940395355
     armoremdamageresonance: 0.30000001192092896
@@ -297,6 +303,7 @@ types:
     elitebonusviolatorsrole2: 100
     elitebonusviolatorsrole3: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 1000
@@ -369,3 +376,4 @@ types:
     volume: 450000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0

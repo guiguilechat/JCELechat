@@ -13,6 +13,8 @@ types:
     maxrange: 10000.0
     metalevelold: 5
     miningamount: 120
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
     name: Modulated Deep Core Miner II
     packagedVolume: 5.0
     portionSize: 1
@@ -44,7 +46,9 @@ types:
     marketGroup: 1040
     maxrange: 15000.0
     metalevelold: 5
-    miningamount: 313
+    miningamount: 320
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
     name: Modulated Deep Core Strip Miner II
     packagedVolume: 5.0
     portionSize: 1
@@ -75,7 +79,9 @@ types:
     marketGroup: 1040
     maxrange: 15000.0
     metalevelold: 5
-    miningamount: 450
+    miningamount: 480
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
     name: Modulated Strip Miner II
     packagedVolume: 5.0
     portionSize: 1

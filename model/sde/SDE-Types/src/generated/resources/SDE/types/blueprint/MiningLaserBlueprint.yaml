@@ -21,11 +21,11 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Gas Cloud Harvester I Blueprint:
+  Gas Cloud Scoop I Blueprint:
     id: 25267
     industryblueprintrank: 3.0
     marketGroup: 338
-    name: Gas Cloud Harvester I Blueprint
+    name: Gas Cloud Scoop I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.65E7
@@ -33,10 +33,10 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Gas Cloud Harvester II Blueprint:
+  Gas Cloud Scoop II Blueprint:
     id: 25813
     industryblueprintrank: 7.800000190734863
-    name: Gas Cloud Harvester II Blueprint
+    name: Gas Cloud Scoop II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 92720.0

@@ -14,6 +14,7 @@ types:
     capacity: 3900.0
     cpuoutput: 380
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -82,6 +83,7 @@ types:
     volume: 250000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Bestower:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.949999988079071
@@ -97,6 +99,7 @@ types:
     capacity: 4800.0
     cpuoutput: 230
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -163,6 +166,7 @@ types:
     volume: 260000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Epithal:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.8999999761581421
@@ -178,6 +182,7 @@ types:
     capacity: 550.0
     cpuoutput: 270
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -246,6 +251,7 @@ types:
     volume: 250000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Hoarder:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.8500000238418579
@@ -261,6 +267,7 @@ types:
     capacity: 500.0
     cpuoutput: 300
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
@@ -287,6 +294,7 @@ types:
     maxtargetrange: 41250.0
     maxvelocity: 130.0
     medslots: 4
+    minmatarindustrialbonusgasholdcapacity: 10
     name: Hoarder
     packagedVolume: 20000.0
     portionSize: 1
@@ -318,6 +326,7 @@ types:
     shipbonusmi2: 10.0
     signatureradius: 185.0
     specialammoholdcapacity: 41000
+    specialgasholdcapacity: 30000
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -329,6 +338,7 @@ types:
     volume: 400000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Iteron Mark V:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.8700000047683716
@@ -344,6 +354,7 @@ types:
     capacity: 5800.0
     cpuoutput: 270
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -410,6 +421,7 @@ types:
     volume: 275000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Kryos:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.9200000166893005
@@ -425,8 +437,10 @@ types:
     capacity: 550.0
     cpuoutput: 250
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
+    gallenteindustrialbonusiceholdcapacity: 10
     gfxboosterid: 395
     heatattenuationhi: 1.0
     heatattenuationlow: 0.25
@@ -481,7 +495,8 @@ types:
     shipbonusgi2: 10.0
     shipbonusmi: 5
     signatureradius: 210.0
-    specialmineralholdcapacity: 43000
+    specialiceholdcapacity: 30000
+    specialmineralholdcapacity: 50000
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -493,6 +508,7 @@ types:
     volume: 245000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Mammoth:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.9100000262260437
@@ -508,6 +524,7 @@ types:
     capacity: 5500.0
     cpuoutput: 250
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
@@ -574,6 +591,7 @@ types:
     volume: 255000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Miasmos:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.9399999976158142
@@ -589,8 +607,10 @@ types:
     capacity: 550.0
     cpuoutput: 260
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
+    generalminingholdcapacity: 42000
     gfxboosterid: 395
     heatattenuationhi: 1.0
     heatattenuationlow: 0.5
@@ -642,10 +662,9 @@ types:
     shipbonusai: 5
     shipbonusci: 5
     shipbonusgi: 5
-    shipbonusgi2: 10.0
     shipbonusmi: 5
+    shiprolebonusgeneralminingholdcapacity: 10
     signatureradius: 205.0
-    specialoreholdcapacity: 42000
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -657,6 +676,7 @@ types:
     volume: 265000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Miasmos Amastris Edition:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.8999999761581421
@@ -672,6 +692,7 @@ types:
     capacity: 5250.0
     cpuoutput: 750
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -739,6 +760,7 @@ types:
     volume: 265000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Miasmos Quafe Ultra Edition:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.8999999761581421
@@ -754,6 +776,7 @@ types:
     capacity: 5250.0
     cpuoutput: 750
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -821,6 +844,7 @@ types:
     volume: 265000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Miasmos Quafe Ultramarine Edition:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.8999999761581421
@@ -836,6 +860,7 @@ types:
     capacity: 5250.0
     cpuoutput: 750
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -903,6 +928,7 @@ types:
     volume: 265000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Nereus:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.7799999713897705
@@ -920,6 +946,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 30
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -987,6 +1014,7 @@ types:
     volume: 240000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Noctis:
     affectedbyindustrialinvulnmodule: 1
     agility: 1.0
@@ -1004,6 +1032,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 25
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatattenuationhi: 0.25
@@ -1074,6 +1103,7 @@ types:
     volume: 270000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Primae:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.699999988079071
@@ -1089,6 +1119,7 @@ types:
     capacity: 100.0
     cpuoutput: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
     heatattenuationhi: 0.25
@@ -1137,7 +1168,9 @@ types:
     shipbonusmi: 5
     signatureradius: 150.0
     specialcommandcenterholdcapacity: 2000
-    specialplanetarycommoditiesholdcapacity: 1000
+    specialgasholdcapacity: 10000
+    specialiceholdcapacity: 10000
+    specialplanetarycommoditiesholdcapacity: 2500
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -1146,6 +1179,7 @@ types:
     volume: 270000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Sigil:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.8600000143051147
@@ -1161,6 +1195,7 @@ types:
     capacity: 2100.0
     cpuoutput: 300
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -1228,6 +1263,7 @@ types:
     volume: 230000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Tayra:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.9700000286102295
@@ -1243,6 +1279,7 @@ types:
     capacity: 7300.0
     cpuoutput: 320
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -1310,6 +1347,7 @@ types:
     volume: 270000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
   Wreathe:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.8100000023841858
@@ -1325,6 +1363,7 @@ types:
     capacity: 2900.0
     cpuoutput: 320
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
@@ -1392,3 +1431,4 @@ types:
     volume: 225000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0

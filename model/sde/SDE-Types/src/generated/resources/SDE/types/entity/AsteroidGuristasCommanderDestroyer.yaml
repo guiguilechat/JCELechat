@@ -32,7 +32,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 12500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 123750.0
+    entitykillbounty: 123750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.36000001430511475
@@ -113,7 +113,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 12500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 112500.0
+    entitykillbounty: 112500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3499999940395355
@@ -192,7 +192,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 12500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 123750.0
+    entitykillbounty: 123750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.36000001430511475
@@ -272,7 +272,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 16500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 146250.0
+    entitykillbounty: 146250
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3799999952316284
@@ -352,7 +352,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 12500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 112500.0
+    entitykillbounty: 112500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3499999940395355
@@ -432,7 +432,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 12500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 135000.0
+    entitykillbounty: 135000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3700000047683716
@@ -512,7 +512,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 16500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 168750.0
+    entitykillbounty: 168750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.4000000059604645
@@ -592,7 +592,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 16500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 157500.0
+    entitykillbounty: 157500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.38999998569488525

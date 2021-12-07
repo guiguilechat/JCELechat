@@ -219,7 +219,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 125000.0
+    entitykillbounty: 125000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
     entityshieldboostdelaychance: 1.0
@@ -299,7 +299,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 125000.0
+    entitykillbounty: 125000
     entitymaxvelocitysignatureradiusmultiplier: 2
     entitymissiletypeid: 213
     entityreactionfactor: 1.0
@@ -386,7 +386,7 @@ types:
     entityequipmentmax: 2
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 20000.0
+    entitykillbounty: 20000
     entitylootcountmax: 2
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 4
@@ -482,7 +482,7 @@ types:
     entityequipmentmax: 2
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 20000.0
+    entitykillbounty: 20000
     entitylootcountmax: 2
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 4
@@ -577,7 +577,7 @@ types:
     entityfactionloss: 0.009999999776482582
     entityflyrange: 15000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 150000.0
+    entitykillbounty: 150000
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 0.3700000047683716
     entitysecuritymaxgain: 5.0
@@ -661,7 +661,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100000.0
+    entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
@@ -744,7 +744,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 200000.0
+    entitykillbounty: 200000
     entitymaxvelocitysignatureradiusmultiplier: 1
     entitymissiletypeid: 212
     entityreactionfactor: 1.0
@@ -825,7 +825,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 200000.0
+    entitykillbounty: 200000
     entitymaxvelocitysignatureradiusmultiplier: 1
     entityreactionfactor: 1.0
     entityshieldboostdelaychance: 1.0
@@ -1101,7 +1101,7 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 112500.0
+    entitykillbounty: 112500
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
@@ -1158,50 +1158,53 @@ types:
   Harvest Cleric:
     agility: 1.2000000476837158
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 1200.0
-    armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.800000011920929
+    armoremdamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.6499999761581421
+    armorhp: 1400.0
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.7699999809265137
     armoruniformity: 1.0
-    behaviorenergyneutralizerdischarge: 5.0
-    behaviorenergyneutralizerduration: 3000
-    behaviorenergyneutralizerfalloff: 2000.0
-    behaviorenergyneutralizerrange: 4000.0
+    behaviorarmorrepaireramount: 20
+    behaviorarmorrepairerdischarge: 5
+    behaviorarmorrepairerduration: 2000
+    behaviorwarpdisruptdischarge: 2.0
+    behaviorwarpdisruptduration: 5000
+    behaviorwarpdisruptrange: 24000
+    behaviorwarpdisruptstrength: 1
     capacitorcapacity: 400.0
     capacity: 375.0
-    damagemultiplier: 10.0
+    damagemultiplier: 11.0
     damagemultiplierbonusmax: 0.5
     emdamage: 6.0
-    emdamageresonance: 1.0
-    energyneutralizeramount: 16.0
+    emdamageresonance: 0.4699999988079071
     entityattackrange: 15000
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 40000
+    entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 250.0
+    entitycruisespeed: 150.0
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100000.0
+    entitykillbounty: 150000
     entitymaxvelocitysignatureradiusmultiplier: 1
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.007499999832361937
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    explosivedamageresonance: 1.0
+    explosivedamageresonance: 0.4699999988079071
     falloff: 4000.0
     gfxboosterid: 395
-    hp: 580.0
+    gfxturretid: 13811
+    hp: 800.0
     id: 60708
-    kineticdamageresonance: 1.0
+    kineticdamageresonance: 0.4699999988079071
     maxlockedtargets: 4
-    maxrange: 8000.0
-    maxtargetrange: 30000.0
-    maxvelocity: 840.0
+    maxrange: 16000.0
+    maxtargetrange: 80000.0
+    maxvelocity: 700.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -1211,7 +1214,7 @@ types:
     missilelaunchduration: 20000.0
     name: Harvest Cleric
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 4000.0
+    npcbehaviormaximumcombatorbitrange: 9000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -1223,21 +1226,21 @@ types:
     rechargerate: 205000.0
     scanradarstrength: 12.0
     scanresolution: 760.0
-    shieldcapacity: 600.0
+    shieldcapacity: 700.0
     shieldemdamageresistancebonus: 1
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.5
-    shieldrechargerate: 1200000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 1.0
-    signatureradius: 35.0
-    speed: 4000.0
+    shieldemdamageresonance: 0.9200000166893005
+    shieldexplosivedamageresonance: 0.46000000834465027
+    shieldkineticdamageresonance: 0.550000011920929
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.7400000095367432
+    shielduniformity: 0.75
+    signatureradius: 120.0
+    speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 4.0
-    thermaldamageresonance: 1.0
-    trackingspeed: 500.0
+    thermaldamage: 6.0
+    thermaldamageresonance: 0.4699999988079071
+    trackingspeed: 1000.0
     volume: 28600.0
     warpspeedmultiplier: 25.0
   Hunt Corax:
@@ -1271,7 +1274,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100000.0
+    entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 210
     entityreactionfactor: 1.0
@@ -1355,7 +1358,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100000.0
+    entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
@@ -1617,7 +1620,7 @@ types:
     entityequipmentmin: -6
     entityflyrange: 8000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 11813.0
+    entitykillbounty: 11813
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
@@ -1712,7 +1715,7 @@ types:
     entityequipmentmin: 4
     entityflyrange: 2500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 11813.0
+    entitykillbounty: 11813
     entitylootcountmax: 6
     entitylootcountmin: 2
     entitymaxvelocitysignatureradiusmultiplier: 6
@@ -1811,7 +1814,7 @@ types:
     entityequipmentmin: 4
     entityflyrange: 2500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 11250.0
+    entitykillbounty: 11250
     entitylootcountmax: 6
     entitylootcountmin: 2
     entitymaxvelocitysignatureradiusmultiplier: 6
@@ -1902,7 +1905,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100000.0
+    entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
@@ -2150,82 +2153,67 @@ types:
     agility: 0.4000000059604645
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4300000071525574
-    armorexplosivedamageresonance: 0.6800000071525574
-    armorhp: 6066.0
-    armorkineticdamageresonance: 0.6399999856948853
-    armorthermaldamageresonance: 0.5699999928474426
-    behaviorarmorrepaireramount: 135
-    behaviorarmorrepairerdischarge: 40
-    behaviorarmorrepairerduration: 9000
-    behaviorenergyneutralizerdischarge: 50.0
-    behaviorenergyneutralizerduration: 10000
-    behaviorenergyneutralizerfalloff: 16000.0
-    behaviorenergyneutralizerrange: 12000.0
-    behaviorsensordampenerdischarge: 34.20000076293945
-    behaviorsensordampenerduration: 10000.0
-    behaviorsensordampenerfalloff: 60000.0
-    behaviorsensordampenerrange: 30000.0
-    behaviorwarpscrambledischarge: 1.0
-    behaviorwarpscrambleduration: 5000
-    behaviorwarpscramblerange: 11000.0
-    behaviorwarpscramblestrength: 3
-    behaviorwebifierdischarge: 1.0
-    behaviorwebifierduration: 5000.0
-    behaviorwebifierrange: 14000.0
+    armorexplosivedamageresonance: 0.3700000047683716
+    armorhp: 2000.0
+    armorkineticdamageresonance: 0.46000000834465027
+    armorthermaldamageresonance: 0.5199999809265137
+    behaviorarmorrepaireramount: 15
+    behaviorarmorrepairerdischarge: 5
+    behaviorarmorrepairerduration: 2000
+    behaviortargetpainterdischarge: 1.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 20000.0
+    behaviortargetpainterrange: 30000.0
+    behaviorwarpdisruptdischarge: 1.0
+    behaviorwarpdisruptduration: 5000
+    behaviorwarpdisruptrange: 24000
+    behaviorwarpdisruptstrength: 1
     capacitorcapacity: 1470.0
     capacity: 380.0
-    damagemultiplier: 33.0
+    damagemultiplier: 10.0
     damagemultiplierbonusmax: 0.5
     emdamage: 5.0
-    emdamageresonance: 0.3330000042915344
-    energyneutralizeramount: 80.0
+    emdamageresonance: 0.6669999957084656
     entityattackrange: 15000
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 20000
+    entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 300.0
+    entitycruisespeed: 40.0
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitymaxvelocitysignatureradiusmultiplier: 4
-    entitymissiletypeid: 21867
+    entitymissiletypeid: 266
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    explosivedamageresonance: 0.3330000042915344
+    explosivedamageresonance: 0.6669999957084656
     falloff: 5000.0
-    falloffbonus: -20.0
     gfxboosterid: 394
     gfxturretid: 459
-    hp: 1051.0
+    hp: 800.0
     id: 60707
-    kineticdamageresonance: 0.3330000042915344
+    kineticdamageresonance: 0.6669999957084656
     maxlockedtargets: 8
     maxrange: 30000.0
-    maxrangebonus: -20.0
     maxtargetrange: 150000.0
-    maxtargetrangebonus: -15.300000190734863
-    maxvelocity: 900.0
+    maxvelocity: 1000.0
     mintargetveldmgmultiplier: 1.0
-    missiledamagemultiplier: 3.200000047683716
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
-    missileentityflighttimemultiplier: 3.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 6000.0
+    missiledamagemultiplier: 10.0
+    missileentityaoecloudsizemultiplier: 0.5
+    missileentityaoevelocitymultiplier: 2.0
+    missileentityflighttimemultiplier: 4.0
+    missileentityvelocitymultiplier: 2.0
+    missilelaunchduration: 5000.0
     name: Tetrimon Heretic
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 12000.0
+    npcbehaviormaximumcombatorbitrange: 9000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
-    npctrackingdisruptordischarge: 15.0
-    npctrackingdisruptorduration: 8000.0
-    npctrackingdisruptorfalloff: 40000.0
-    npctrackingdisruptorrange: 80000.0
     optimalsigradius: 40000
     packagedVolume: 101000.0
     portionSize: 1
@@ -2233,23 +2221,22 @@ types:
     radius: 144.0
     rechargerate: 274500.0
     scanradarstrength: 30.0
-    scanresolution: 400.0
-    scanresolutionbonus: -15.300000190734863
-    shieldcapacity: 994.0
+    scanresolution: 700.0
+    shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.18000000715255737
-    shieldkineticdamageresonance: 0.3700000047683716
+    shieldexplosivedamageresonance: 0.25
+    shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 300.0
-    speed: 6000.0
-    speedfactor: -90.0
+    signatureradius: 130.0
+    signatureradiusbonus: 30.0
+    speed: 10000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 3.0
-    thermaldamageresonance: 0.3330000042915344
-    trackingspeed: 120.0
-    trackingspeedbonus: -20.0
+    thermaldamage: 5.0
+    thermaldamageresonance: 0.6669999957084656
+    trackingspeed: 300.0
     volume: 101000.0
     warpspeedmultiplier: 15.0
   Type-A Anomalous Alvior:
@@ -2296,7 +2283,7 @@ types:
     entityequipmentmax: 2
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 200000.0
+    entitykillbounty: 200000
     entitylootcountmax: 2
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 4
@@ -2308,7 +2295,6 @@ types:
     explosivedamageresonance: 0.6700000166893005
     falloff: 11250.0
     gfxboosterid: 394
-    gfxturretid: 390
     hp: 1500.0
     id: 55018
     kineticdamageresonance: 0.6700000166893005
@@ -2397,7 +2383,7 @@ types:
     entityequipmentmax: 2
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 200000.0
+    entitykillbounty: 200000
     entitylootcountmax: 2
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 4
@@ -2410,7 +2396,6 @@ types:
     explosivedamageresonance: 0.8999999761581421
     falloff: 11250.0
     gfxboosterid: 394
-    gfxturretid: 390
     hp: 1500.0
     id: 55019
     kineticdamageresonance: 0.6700000166893005

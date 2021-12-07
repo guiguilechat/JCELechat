@@ -14,12 +14,16 @@ types:
     canreceiveclonejumps: 1
     capacitorcapacity: 67500.0
     capacity: 40000.0
+    capitalindustrialshipbonusdronehitpoints: 10
+    capitalindustrialshipbonusdroneicecycletime: -6
+    capitalindustrialshipbonusdroneoreminingyield: 10
     cargoscannerrangebonus: 200
     cpuoutput: 1200
     disallowinhighsec: 1
     dronebandwidth: 125
     dronecapacity: 8800
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     entosisassistanceimpedancemultiplier: 9.999999747378752E-6
     entosisdurationmultiplier: 5
     explosivedamageresonance: 0.6700000166893005
@@ -28,6 +32,7 @@ types:
     fleethangarcapacity: 40000
     fwlpkill: 2000
     gatescramblestatus: -1000
+    generalminingholdcapacity: 300000
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
@@ -44,6 +49,8 @@ types:
     hislots: 8
     hp: 300000.0
     id: 28352
+    industrialcommandbonusdronedamage: 15
+    industrialcommandbonusminingforemanburstrange: 5
     iscapitalsize: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 4000
@@ -98,12 +105,9 @@ types:
     shipbonusorecapital1: -5
     shipbonusorecapital2: 5
     shipbonusorecapital3: 3
-    shipbonusorecapital4: 10
-    shipbonusorecapital5: -10
     shipmaintenancebaycapacity: 1000000
     signatureradius: 11500.0
     specialfuelbaycapacity: 10000
-    specialoreholdcapacity: 300000
     structureuniformity: 1.0
     surveyscannerrangebonus: 900
     techlevel: 1
@@ -115,3 +119,4 @@ types:
     volume: 1.45E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.5
+    weapondisruptionresistance: 1.0

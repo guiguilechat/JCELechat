@@ -15,6 +15,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 395
@@ -96,6 +97,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Atron:
     agility: 2.799999952316284
     armoremdamageresonance: 0.5
@@ -111,6 +113,7 @@ types:
     cpuoutput: 147
     elitebonusinterceptorrole: -80
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -184,6 +187,7 @@ types:
     volume: 22500.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Bantam:
     agility: 4.099999904632568
     armoremdamageresonance: 0.5
@@ -201,6 +205,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     falloffbonus: 300.0
     fwlpkill: 25
@@ -275,6 +280,7 @@ types:
     volume: 20000.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Breacher:
     agility: 3.0999999046325684
     armoremdamageresonance: 0.4000000059604645
@@ -291,6 +297,7 @@ types:
     dronebandwidth: 10
     dronecapacity: 10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 397
@@ -363,6 +370,7 @@ types:
     volume: 20000.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Burst:
     agility: 3.9000000953674316
     armoremdamageresonance: 0.4000000059604645
@@ -380,6 +388,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     falloffbonus: 300.0
     fwlpkill: 25
@@ -454,6 +463,7 @@ types:
     volume: 17100.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Caldari Navy Hookbill:
     agility: 3.299999952316284
     armoremdamageresonance: 0.5
@@ -468,6 +478,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 165
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 395
@@ -544,6 +555,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Condor:
     agility: 2.9000000953674316
     armoremdamageresonance: 0.5
@@ -559,6 +571,7 @@ types:
     cpuoutput: 185
     elitebonusinterceptorrole: -80
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 395
@@ -631,6 +644,7 @@ types:
     volume: 18000.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Crucifier:
     agility: 3.3499999046325684
     armoremdamageresonance: 0.5
@@ -647,6 +661,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 45
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -718,6 +733,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Crucifier Navy Issue:
     agility: 3.3499999046325684
     armoremdamageresonance: 0.5
@@ -734,6 +750,7 @@ types:
     dronebandwidth: 10
     dronecapacity: 20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 394
@@ -808,6 +825,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Cruor:
     agility: 3.5999999046325684
     armoremdamageresonance: 0.5
@@ -824,6 +842,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 394
@@ -903,6 +922,7 @@ types:
     volume: 28600.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Damavik:
     agility: 3.0
     armoremdamageresonance: 0.5
@@ -919,6 +939,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 25
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -994,6 +1015,7 @@ types:
     volume: 28600.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Daredevil:
     agility: 3.200000047683716
     armoremdamageresonance: 0.5
@@ -1008,6 +1030,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 145
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 394
@@ -1086,6 +1109,7 @@ types:
     volume: 26500.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Dramiel:
     agility: 3.0999999046325684
     armoremdamageresonance: 0.4000000059604645
@@ -1102,6 +1126,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 397
@@ -1182,6 +1207,7 @@ types:
     volume: 27289.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Echelon:
     agility: 2.450000047683716
     armoremdamageresonance: 0.5
@@ -1195,6 +1221,7 @@ types:
     capacity: 135.0
     covertopsandreconopscloakmoduledelay: 30000
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -1258,6 +1285,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Executioner:
     agility: 2.8499999046325684
     armoremdamageresonance: 0.5
@@ -1273,6 +1301,7 @@ types:
     cpuoutput: 140
     elitebonusinterceptorrole: -80
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -1345,6 +1374,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Federation Navy Comet:
     agility: 3.134999990463257
     armoremdamageresonance: 0.5
@@ -1361,6 +1391,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 30
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 394
@@ -1436,6 +1467,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Garmur:
     agility: 3.200000047683716
     armoremdamageresonance: 0.5
@@ -1450,6 +1482,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 178
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 397
@@ -1529,6 +1562,7 @@ types:
     volume: 27289.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Gold Magnate:
     agility: 2.200000047683716
     armoremdamageresonance: 0.5
@@ -1543,6 +1577,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 225
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 20000
     gfxboosterid: 394
@@ -1618,6 +1653,7 @@ types:
     volume: 22100.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Griffin:
     agility: 3.5
     armoremdamageresonance: 0.5
@@ -1634,6 +1670,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 395
@@ -1707,6 +1744,7 @@ types:
     volume: 19400.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Griffin Navy Issue:
     agility: 3.450000047683716
     armoremdamageresonance: 0.5
@@ -1723,6 +1761,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 35
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 395
@@ -1801,6 +1840,7 @@ types:
     volume: 19400.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Heron:
     agility: 3.569999933242798
     armoremdamageresonance: 0.5
@@ -1818,6 +1858,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 35
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 395
@@ -1894,6 +1935,7 @@ types:
     volume: 18900.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Imicus:
     agility: 4.150000095367432
     armoremdamageresonance: 0.5
@@ -1911,6 +1953,7 @@ types:
     dronebandwidth: 20
     dronecapacity: 40
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -1986,6 +2029,7 @@ types:
     volume: 21500.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Imperial Navy Slicer:
     agility: 3.299999952316284
     armoremdamageresonance: 0.5
@@ -2000,6 +2044,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 125
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 395
@@ -2074,6 +2119,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Incursus:
     agility: 3.1500000953674316
     armoremdamageresonance: 0.5
@@ -2090,6 +2136,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -2163,6 +2210,7 @@ types:
     volume: 29500.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Inquisitor:
     agility: 3.549999952316284
     armoremdamageresonance: 0.5
@@ -2179,6 +2227,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     falloffbonus: 600.0
     fwlpkill: 25
@@ -2253,6 +2302,7 @@ types:
     volume: 28700.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Kestrel:
     agility: 3.2699999809265137
     armoremdamageresonance: 0.5
@@ -2267,6 +2317,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 180
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 395
@@ -2340,6 +2391,7 @@ types:
     volume: 19700.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Magnate:
     agility: 3.799999952316284
     armoremdamageresonance: 0.5
@@ -2357,6 +2409,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 40
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -2432,6 +2485,7 @@ types:
     volume: 22100.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Maulus:
     agility: 3.25
     armoremdamageresonance: 0.5
@@ -2448,6 +2502,7 @@ types:
     dronebandwidth: 20
     dronecapacity: 30
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -2521,6 +2576,7 @@ types:
     volume: 23000.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Maulus Navy Issue:
     agility: 3.3499999046325684
     armoremdamageresonance: 0.5
@@ -2537,6 +2593,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 50
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 394
@@ -2613,6 +2670,7 @@ types:
     volume: 23000.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Merlin:
     agility: 3.5999999046325684
     armoremdamageresonance: 0.5
@@ -2627,6 +2685,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 180
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 395
@@ -2700,6 +2759,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Navitas:
     agility: 3.75
     armoremdamageresonance: 0.5
@@ -2717,6 +2777,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     falloffbonus: 600.0
     fwlpkill: 25
@@ -2792,6 +2853,7 @@ types:
     volume: 10000.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Probe:
     agility: 3.5799999237060547
     armoremdamageresonance: 0.4000000059604645
@@ -2809,6 +2871,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 35
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 397
@@ -2885,6 +2948,7 @@ types:
     volume: 19500.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Punisher:
     agility: 2.9000000953674316
     armoremdamageresonance: 0.5
@@ -2899,6 +2963,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 140
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -2971,6 +3036,7 @@ types:
     volume: 28600.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Republic Fleet Firetail:
     agility: 3.200000047683716
     armoremdamageresonance: 0.4000000059604645
@@ -2985,6 +3051,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 150
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 395
@@ -3061,6 +3128,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Rifter:
     agility: 3.200000047683716
     armoremdamageresonance: 0.4000000059604645
@@ -3075,6 +3143,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 130
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 397
@@ -3149,6 +3218,7 @@ types:
     volume: 27289.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Silver Magnate:
     agility: 2.200000047683716
     armoremdamageresonance: 0.5
@@ -3163,6 +3233,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 200
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 20000
     gfxboosterid: 394
@@ -3238,6 +3309,7 @@ types:
     volume: 22100.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Skybreaker:
     agility: 3.5999999046325684
     armoremdamageresonance: 0.5
@@ -3252,6 +3324,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 235
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 395
@@ -3323,6 +3396,7 @@ types:
     volume: 16500.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Slasher:
     agility: 2.8299999237060547
     armoremdamageresonance: 0.4000000059604645
@@ -3338,6 +3412,7 @@ types:
     cpuoutput: 140
     elitebonusinterceptorrole: -80
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 397
@@ -3411,6 +3486,7 @@ types:
     volume: 17400.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Succubus:
     agility: 3.5
     armoremdamageresonance: 0.5
@@ -3425,6 +3501,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 170
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 394
@@ -3503,6 +3580,7 @@ types:
     volume: 28600.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Tormentor:
     agility: 3.0999999046325684
     armoremdamageresonance: 0.5
@@ -3520,6 +3598,7 @@ types:
     dronebandwidth: 10
     dronecapacity: 20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -3592,6 +3671,7 @@ types:
     volume: 24398.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Tristan:
     agility: 3.440000057220459
     armoremdamageresonance: 0.5
@@ -3608,6 +3688,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 40
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -3681,6 +3762,7 @@ types:
     volume: 26500.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Venture:
     affectedbyindustrialinvulnmodule: 1
     agility: 3.5999999046325684
@@ -3700,8 +3782,10 @@ types:
     dronebandwidth: 10
     dronecapacity: 10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
+    generalminingholdcapacity: 5000
     gfxboosterid: 394
     heatattenuationhi: 0.5
     heatattenuationlow: 0.25
@@ -3731,6 +3815,8 @@ types:
     maxvelocity: 335.0
     medslots: 3
     miningamountmultiplier: 2.0
+    miningfrigatebonusgascloudharvestingduration: -5
+    miningfrigatesbonusoreminingyield: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Venture
     packagedVolume: 2500.0
@@ -3759,12 +3845,10 @@ types:
     shipbonus2af: 5.0
     shipbonusgf: 5.0
     shipbonusgf2: 10.0
-    shipbonusorefrig1: 5
-    shipbonusorefrig2: -5
     shipbonusuf1: 1
     shipbonusuf2: 1
+    shiprolebonusgasharvestingyield: 100
     signatureradius: 40.0
-    specialoreholdcapacity: 5000
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -3777,6 +3861,7 @@ types:
     warpcapacitorneed: 1.3500000477506546E-6
     warpscramblestatus: -2
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Vigil:
     agility: 3.2200000286102295
     armoremdamageresonance: 0.4000000059604645
@@ -3793,6 +3878,7 @@ types:
     dronebandwidth: 5
     dronecapacity: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 397
@@ -3866,6 +3952,7 @@ types:
     volume: 17400.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Vigil Fleet Issue:
     agility: 3.200000047683716
     armoremdamageresonance: 0.4000000059604645
@@ -3882,6 +3969,7 @@ types:
     dronebandwidth: 15
     dronecapacity: 15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 397
@@ -3960,6 +4048,7 @@ types:
     volume: 17400.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Worm:
     agility: 3.799999952316284
     armoremdamageresonance: 0.5
@@ -3976,6 +4065,7 @@ types:
     dronebandwidth: 10
     dronecapacity: 25
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 38
     gfxboosterid: 395
@@ -4054,3 +4144,4 @@ types:
     volume: 16500.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0

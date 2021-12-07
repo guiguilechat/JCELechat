@@ -3,22 +3,19 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class ShipBonusORECapital5
+public class MiningFrigateBonusGasCloudHarvestingDuration
     extends IntAttribute
 {
-    public static final ShipBonusORECapital5 INSTANCE = new ShipBonusORECapital5();
+    public static final MiningFrigateBonusGasCloudHarvestingDuration INSTANCE = new MiningFrigateBonusGasCloudHarvestingDuration();
 
     @Override
     public int getId() {
-        return  2582;
+        return  3237;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class ShipBonusORECapital5
 
     @Override
     public String toString() {
-        return "ShipBonusORECapital5";
+        return "MiningFrigateBonusGasCloudHarvestingDuration";
     }
 }

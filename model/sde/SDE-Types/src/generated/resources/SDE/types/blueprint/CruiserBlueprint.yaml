@@ -385,6 +385,17 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Laelaps Blueprint:
+    id: 60767
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    name: Laelaps Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
   Maller Blueprint:
     id: 969
     industryblueprintrank: 40.0

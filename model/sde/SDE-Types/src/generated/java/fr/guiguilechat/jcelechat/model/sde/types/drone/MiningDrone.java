@@ -38,6 +38,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWasteProbability;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWastedVolumeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OrbitRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ProximityRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -153,6 +155,20 @@ public class MiningDrone
     @DefaultIntValue(0)
     public int miningamount;
     /**
+     * The probability of volume getting wasted every cycle
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int miningwasteprobability;
+    /**
+     * This multiplier is applied to the Mining Volume of the actor (module, drone etc.) to calculate the potential wasted volume per cycle
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int miningwastedvolumemultiplier;
+    /**
      * The range at which this thing does it thing.
      */
     @HighIsGood(true)
@@ -201,7 +217,7 @@ public class MiningDrone
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ProximityRange.INSTANCE, MetaGroupID.INSTANCE, OrbitRange.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RechargeRate.INSTANCE, RequiredSkill3 .INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, Duration.INSTANCE, MiningAmount.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, DroneBandwidthUsed.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ProximityRange.INSTANCE, MetaGroupID.INSTANCE, OrbitRange.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RechargeRate.INSTANCE, RequiredSkill3 .INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, Duration.INSTANCE, MiningAmount.INSTANCE, ScanRadarStrength.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, ScanLadarStrength.INSTANCE, MiningWasteProbability.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, DroneBandwidthUsed.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final MiningDrone.MetaGroup METAGROUP = new MiningDrone.MetaGroup();
 
     @Override
@@ -246,6 +262,14 @@ public class MiningDrone
             case  77 :
             {
                 return miningamount;
+            }
+            case  3154 :
+            {
+                return miningwasteprobability;
+            }
+            case  3153 :
+            {
+                return miningwastedvolumemultiplier;
             }
             case  157 :
             {

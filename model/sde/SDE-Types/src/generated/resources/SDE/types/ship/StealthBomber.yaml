@@ -17,6 +17,7 @@ types:
     elitebonuscovertops1: 5
     elitebonuscovertops2: 15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
@@ -90,6 +91,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Manticore:
     agility: 4.5
     armoremdamageresonance: 0.5
@@ -108,6 +110,7 @@ types:
     elitebonuscovertops1: 5
     elitebonuscovertops2: 15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -181,6 +184,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Nemesis:
     agility: 4.599999904632568
     armoremdamageresonance: 0.5
@@ -199,6 +203,7 @@ types:
     elitebonuscovertops1: 5
     elitebonuscovertops2: 15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -272,6 +277,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Purifier:
     agility: 4.400000095367432
     armoremdamageresonance: 0.5
@@ -290,6 +296,7 @@ types:
     elitebonuscovertops1: 5
     elitebonuscovertops2: 15
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -362,6 +369,7 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Virtuoso:
     agility: 4.0
     armoremdamageresonance: 0.5
@@ -381,6 +389,7 @@ types:
     elitebonuscovertops3: 10.0
     elitebonuscovertops4: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -465,3 +474,4 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0

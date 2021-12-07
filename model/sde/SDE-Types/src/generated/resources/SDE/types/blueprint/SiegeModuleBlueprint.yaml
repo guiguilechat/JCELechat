@@ -11,6 +11,27 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  Capital Industrial Core I Blueprint:
+    id: 28584
+    industryblueprintrank: 180.0
+    marketGroup: 343
+    name: Capital Industrial Core I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.22349696E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Industrial Core II Blueprint:
+    id: 42891
+    name: Capital Industrial Core II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.22349696E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
   Covert Jump Portal Generator I Blueprint:
     id: 28653
     industryblueprintrank: 12.0
@@ -23,27 +44,6 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Industrial Core I Blueprint:
-    id: 28584
-    industryblueprintrank: 180.0
-    marketGroup: 343
-    name: Industrial Core I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.22349696E8
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Industrial Core II Blueprint:
-    id: 42891
-    name: Industrial Core II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.22349696E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
   Jump Portal Generator I Blueprint:
     id: 23954
     industryblueprintrank: 180.0
@@ -54,6 +54,25 @@ types:
     price: 4.81455744E8
     published: true
     radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Industrial Core I Blueprint:
+    id: 59171
+    industryblueprintrank: 180.0
+    marketGroup: 343
+    name: Large Industrial Core I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Industrial Core II Blueprint:
+    id: 59172
+    name: Large Industrial Core II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
     techlevel: 1
     volume: 0.009999999776482582
   Siege Module I Blueprint:

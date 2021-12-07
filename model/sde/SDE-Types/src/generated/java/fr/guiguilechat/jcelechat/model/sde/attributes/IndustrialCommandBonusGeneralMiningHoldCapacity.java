@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * The group at which the mining crystal is tuned to mine.
- */
-public class SpecialisationAsteroidGroup
+public class IndustrialCommandBonusGeneralMiningHoldCapacity
     extends IntAttribute
 {
-    public static final SpecialisationAsteroidGroup INSTANCE = new SpecialisationAsteroidGroup();
+    public static final IndustrialCommandBonusGeneralMiningHoldCapacity INSTANCE = new IndustrialCommandBonusGeneralMiningHoldCapacity();
 
     @Override
     public int getId() {
-        return  781;
+        return  3212;
     }
 
     @Override
@@ -28,7 +25,7 @@ public class SpecialisationAsteroidGroup
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class SpecialisationAsteroidGroup
 
     @Override
     public String toString() {
-        return "SpecialisationAsteroidGroup";
+        return "IndustrialCommandBonusGeneralMiningHoldCapacity";
     }
 }

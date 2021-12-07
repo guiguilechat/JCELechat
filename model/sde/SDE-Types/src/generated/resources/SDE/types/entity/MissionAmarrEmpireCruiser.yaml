@@ -185,7 +185,7 @@ types:
     entityequipmentmin: 1
     entityfactionloss: 0.007000000216066837
     entityflyrange: 15000.0
-    entitykillbounty: 50000.0
+    entitykillbounty: 50000
     entitylootcountmax: 1
     entitylootcountmin: 1
     entitymissiletypeid: 207
@@ -819,7 +819,7 @@ types:
     entityequipmentmin: 1
     entityfactionloss: 0.006000000052154064
     entityflyrange: 15000.0
-    entitykillbounty: 50000.0
+    entitykillbounty: 50000
     entitylootcountmin: 1
     entitymissiletypeid: 207
     entityoverviewshipgroupid: 26

@@ -278,6 +278,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Sanguine Harvest' Shoes:
+    gender: 2
+    id: 58829
+    marketGroup: 1400
+    name: Men's 'Sanguine Harvest' Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Semiotique Sports' Shoes:
     gender: 2
     id: 60162
@@ -860,6 +869,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Sanguine Harvest' Shoes:
+    gender: 2
+    id: 58821
+    marketGroup: 1404
+    name: Women's 'Sanguine Harvest' Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Semiotique Sports' Shoes:
     gender: 2

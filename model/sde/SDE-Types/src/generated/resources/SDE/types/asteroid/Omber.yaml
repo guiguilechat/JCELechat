@@ -13,7 +13,7 @@ types:
     price: 675300.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -32,7 +32,7 @@ types:
     price: 613410.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -51,7 +51,7 @@ types:
     price: 11000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -70,7 +70,7 @@ types:
     price: 643380.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -91,7 +91,7 @@ types:
     price: 45020.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -101,6 +101,7 @@ types:
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
     id: 28619
+    ignoreminingwaste: 1
     name: Mercium
     orebasictype: 1227
     packagedVolume: 0.6000000238418579
@@ -108,7 +109,7 @@ types:
     price: 40894.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -129,7 +130,7 @@ types:
     price: 40894.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -150,7 +151,7 @@ types:
     price: 100.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -171,7 +172,7 @@ types:
     price: 42892.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12190
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0

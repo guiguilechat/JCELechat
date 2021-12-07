@@ -387,8 +387,8 @@ public class AsteroidSanshaSNationFrigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double entitykillbounty;
+    @DefaultIntValue(0)
+    public int entitykillbounty;
     /**
      * Deprecated. The minimum number of pieces of loot dropped by this entity.
      */

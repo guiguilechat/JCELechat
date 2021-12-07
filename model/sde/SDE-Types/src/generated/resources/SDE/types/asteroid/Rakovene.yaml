@@ -11,7 +11,7 @@ types:
     price: 401168.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 56633
+    reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 16.0
@@ -27,7 +27,7 @@ types:
     price: 401168.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 56633
+    reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 16.0
@@ -43,7 +43,7 @@ types:
     price: 401168.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 56633
+    reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 16.0

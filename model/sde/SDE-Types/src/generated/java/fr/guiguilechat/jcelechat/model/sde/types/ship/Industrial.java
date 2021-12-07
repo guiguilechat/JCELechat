@@ -33,8 +33,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FwLpKill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GallenteIndustrialBonusIceHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GeneralMiningHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationHi;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationLow;
@@ -61,6 +64,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MinmatarIndustrialBonusGasHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
@@ -99,11 +103,13 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMI;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMI2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusOreIndustrial1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusOreIndustrial2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusGeneralMiningHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialAmmoHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialCommandCenterHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialGasHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialIceHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialMineralHoldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialOreHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialPlanetaryCommoditiesHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialQuafeHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
@@ -117,6 +123,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeSlotsLeft;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 import org.yaml.snakeyaml.Yaml;
 
@@ -144,6 +151,17 @@ public class Industrial
     @Stackable(true)
     @DefaultIntValue(0)
     public int fwlpkill;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int gallenteindustrialbonusiceholdcapacity;
+    /**
+     * Capacity of general mining hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int generalminingholdcapacity;
     /**
      * 
      */
@@ -193,6 +211,10 @@ public class Industrial
     @Stackable(true)
     @DefaultIntValue(0)
     public int maxpassengers;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int minmatarindustrialbonusgasholdcapacity;
     /**
      * The type ID of the skill that is required.
      */
@@ -319,6 +341,10 @@ public class Industrial
     @Stackable(true)
     @DefaultIntValue(0)
     public int shipbonusoreindustrial2;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shiprolebonusgeneralminingholdcapacity;
     /**
      * special ammo hold capacity
      */
@@ -334,19 +360,26 @@ public class Industrial
     @DefaultIntValue(0)
     public int specialcommandcenterholdcapacity;
     /**
+     * Capacity of gas-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int specialgasholdcapacity;
+    /**
+     * Capacity of ice-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int specialiceholdcapacity;
+    /**
      * Capacity of mineral-only hold
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int specialmineralholdcapacity;
-    /**
-     * Capacity of ore-only hold
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int specialoreholdcapacity;
     /**
      * Capacity of Planetary Commodities hold
      */
@@ -368,7 +401,7 @@ public class Industrial
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, SpecialQuafeHoldCapacity.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, IndustrialBonusDroneDamage.INSTANCE, SpecialOreHoldCapacity.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, SpecialMineralHoldCapacity.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, SpecialAmmoHoldCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, ShipBonusAI2 .INSTANCE, ShipBonusCI2 .INSTANCE, ShipBonusGI2 .INSTANCE, ShipBonusMI2 .INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, SpecialCommandCenterHoldCapacity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, SpecialPlanetaryCommoditiesHoldCapacity.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, ShipBonusOreIndustrial1 .INSTANCE, ShipBonusOreIndustrial2 .INSTANCE, Uniformity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, JumpFatigueMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, ShipBonusMI.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusAI.INSTANCE, ShipBonusCI.INSTANCE, ShipBonusGI.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, SpecialQuafeHoldCapacity.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, IndustrialBonusDroneDamage.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, SpecialGasHoldCapacity.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, SpecialMineralHoldCapacity.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, SpecialAmmoHoldCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, ShipBonusAI2 .INSTANCE, ShipBonusCI2 .INSTANCE, ShipBonusGI2 .INSTANCE, ShipBonusMI2 .INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SpecialIceHoldCapacity.INSTANCE, WeaponDisruptionResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, GallenteIndustrialBonusIceHoldCapacity.INSTANCE, WarpSpeedMultiplier.INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, SpecialCommandCenterHoldCapacity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, SpecialPlanetaryCommoditiesHoldCapacity.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, ShipBonusOreIndustrial1 .INSTANCE, ShipBonusOreIndustrial2 .INSTANCE, Uniformity.INSTANCE, MinmatarIndustrialBonusGasHoldCapacity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, ShipRoleBonusGeneralMiningHoldCapacity.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, JumpFatigueMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, ShipBonusMI.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusAI.INSTANCE, ShipBonusCI.INSTANCE, ShipBonusGI.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Industrial.MetaGroup METAGROUP = new Industrial.MetaGroup();
 
     @Override
@@ -385,6 +418,14 @@ public class Industrial
             case  1555 :
             {
                 return fwlpkill;
+            }
+            case  3157 :
+            {
+                return gallenteindustrialbonusiceholdcapacity;
+            }
+            case  1556 :
+            {
+                return generalminingholdcapacity;
             }
             case  1259 :
             {
@@ -413,6 +454,10 @@ public class Industrial
             case  129 :
             {
                 return maxpassengers;
+            }
+            case  3210 :
+            {
+                return minmatarindustrialbonusgasholdcapacity;
             }
             case  183 :
             {
@@ -486,6 +531,10 @@ public class Industrial
             {
                 return shipbonusoreindustrial2;
             }
+            case  3231 :
+            {
+                return shiprolebonusgeneralminingholdcapacity;
+            }
             case  1573 :
             {
                 return specialammoholdcapacity;
@@ -494,13 +543,17 @@ public class Industrial
             {
                 return specialcommandcenterholdcapacity;
             }
+            case  1557 :
+            {
+                return specialgasholdcapacity;
+            }
+            case  3136 :
+            {
+                return specialiceholdcapacity;
+            }
             case  1558 :
             {
                 return specialmineralholdcapacity;
-            }
-            case  1556 :
-            {
-                return specialoreholdcapacity;
             }
             case  1653 :
             {

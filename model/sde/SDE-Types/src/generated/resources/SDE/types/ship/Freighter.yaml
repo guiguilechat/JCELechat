@@ -14,6 +14,7 @@ types:
     capacity: 4000.0
     cpuoutput: 215
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fighterabilityanticapitalmissileresistance: 1
     freighterbonuso1: 5
@@ -81,6 +82,7 @@ types:
     volume: 1.755E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.3700000047683716
+    weapondisruptionresistance: 1.0
   Charon:
     advancedagility: 1
     agility: 0.0625
@@ -97,6 +99,7 @@ types:
     cpuneedbonus: -100
     cpuoutput: 1
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fighterabilityanticapitalmissileresistance: 1
     freighterbonusc1: 5
@@ -156,6 +159,7 @@ types:
     volume: 1.625E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.3700000047683716
+    weapondisruptionresistance: 1.0
   Fenrir:
     advancedagility: 1
     agility: 0.0625
@@ -172,6 +176,7 @@ types:
     cpuneedbonus: -100
     cpuoutput: 1
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fighterabilityanticapitalmissileresistance: 1
     freighterbonusm1: 5
@@ -231,6 +236,7 @@ types:
     volume: 1.55E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.3700000047683716
+    weapondisruptionresistance: 1.0
   Obelisk:
     advancedagility: 1
     agility: 0.0625
@@ -247,6 +253,7 @@ types:
     cpuneedbonus: -100
     cpuoutput: 1
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fighterabilityanticapitalmissileresistance: 1
     freighterbonusg1: 5
@@ -306,6 +313,7 @@ types:
     volume: 1.755E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.3700000047683716
+    weapondisruptionresistance: 1.0
   Providence:
     advancedagility: 1
     agility: 0.0625
@@ -322,6 +330,7 @@ types:
     cpuneedbonus: -100
     cpuoutput: 1
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fighterabilityanticapitalmissileresistance: 1
     freighterbonusa1: 5
@@ -381,3 +390,4 @@ types:
     volume: 1.85E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.3700000047683716
+    weapondisruptionresistance: 1.0

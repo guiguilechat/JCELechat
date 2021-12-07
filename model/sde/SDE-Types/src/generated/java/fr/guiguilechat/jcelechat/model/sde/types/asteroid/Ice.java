@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionTypeID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -47,6 +48,10 @@ public class Ice
     @Stackable(true)
     @DefaultIntValue(0)
     public int compressiontypeid;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ignoreminingwaste;
     /**
      * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
      */
@@ -61,7 +66,7 @@ public class Ice
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, CompressionTypeID.INSTANCE, CompressionQuantityNeeded.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ReprocessingSkillType.INSTANCE, OreBasicType.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, CompressionTypeID.INSTANCE, CompressionQuantityNeeded.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ReprocessingSkillType.INSTANCE, OreBasicType.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Ice.MetaGroup METAGROUP = new Ice.MetaGroup();
 
     @Override
@@ -74,6 +79,10 @@ public class Ice
             case  1940 :
             {
                 return compressiontypeid;
+            }
+            case  3236 :
+            {
+                return ignoreminingwaste;
             }
             case  2711 :
             {

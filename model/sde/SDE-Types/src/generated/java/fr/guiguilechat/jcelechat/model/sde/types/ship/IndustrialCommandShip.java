@@ -33,9 +33,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FleetHangarCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FwLpKill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GeneralMiningHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HasFleetHangars;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HasShipMaintenanceBay;
@@ -52,6 +54,14 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialBonusDroneDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusDroneDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusDroneHitPoints;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusDroneIceHarvestingCycleTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusDroneOreMiningYield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusFuelConsuptionCompactIndustrialCore;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusGeneralMiningHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusMiningForemanBurstRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusShipCargoCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpFatigueMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
@@ -80,7 +90,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RoleBonusCD;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RoleBonusCommandBurstAoERange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RoleBonusDroneIceHarvestingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RoleBonusDroneMiningYield;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RoleBonusSurveyScannerRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RoleBonusTractorBeamRange;
@@ -102,11 +111,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusICS1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusICS2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusICS3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusICS4;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusICS5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipMaintenanceBayCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialOreHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialFuelBayCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
@@ -118,6 +126,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeSlotsLeft;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 import org.yaml.snakeyaml.Yaml;
 
@@ -152,6 +161,13 @@ public class IndustrialCommandShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int fwlpkill;
+    /**
+     * Capacity of general mining hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int generalminingholdcapacity;
     /**
      * Whether this ship has fleet hangars.
      */
@@ -194,6 +210,38 @@ public class IndustrialCommandShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int industrialbonusdronedamage;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int industrialcommandbonusdronedamage;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int industrialcommandbonusdronehitpoints;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int industrialcommandbonusdroneiceharvestingcycletime;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int industrialcommandbonusdroneoreminingyield;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int industrialcommandbonusfuelconsuptioncompactindustrialcore;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int industrialcommandbonusgeneralminingholdcapacity;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int industrialcommandbonusminingforemanburstrange;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int industrialcommandbonusshipcargocapacity;
     /**
      * Multiplier for jump fatigue distance
      */
@@ -277,13 +325,6 @@ public class IndustrialCommandShip
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int rolebonusdroneiceharvestingspeed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int rolebonusdroneminingyield;
     /**
      * 
@@ -347,13 +388,6 @@ public class IndustrialCommandShip
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int shipbonusics4;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int shipbonusics5;
     /**
      * The capacity of the hangar in a ship.
@@ -363,12 +397,12 @@ public class IndustrialCommandShip
     @DefaultIntValue(0)
     public int shipmaintenancebaycapacity;
     /**
-     * Capacity of ore-only hold
+     * special fuel bay capacity
      */
     @HighIsGood(true)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int specialoreholdcapacity;
+    public int specialfuelbaycapacity;
     /**
      * How many rigs can by fitted to this ship.
      */
@@ -376,7 +410,7 @@ public class IndustrialCommandShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, RoleBonusCD.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShipBonusICS5 .INSTANCE, ShieldKineticDamageResonance.INSTANCE, RoleBonusDroneMiningYield.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, RoleBonusDroneIceHarvestingSpeed.INSTANCE, PowerToSpeed.INSTANCE, SpecialOreHoldCapacity.INSTANCE, IndustrialBonusDroneDamage.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, Agility.INSTANCE, RoleBonusTractorBeamRange.INSTANCE, ShipBonusICS1 .INSTANCE, MaxTargetRange.INSTANCE, RoleBonusTractorBeamVelocity.INSTANCE, ShipBonusICS2 .INSTANCE, RoleBonusSurveyScannerRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, MaxRangeBonus.INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, ShipBonusICS3 .INSTANCE, ShipBonusICS4 .INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, JumpFatigueMultiplier.INSTANCE, MaxGangModules.INSTANCE, RequiredSkill1 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, RoleBonusCD.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShipBonusICS5 .INSTANCE, ShieldKineticDamageResonance.INSTANCE, RoleBonusDroneMiningYield.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, IndustrialBonusDroneDamage.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, Agility.INSTANCE, RoleBonusTractorBeamRange.INSTANCE, ShipBonusICS1 .INSTANCE, MaxTargetRange.INSTANCE, RoleBonusTractorBeamVelocity.INSTANCE, ShipBonusICS2 .INSTANCE, RoleBonusSurveyScannerRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, MaxRangeBonus.INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, IndustrialCommandBonusDroneDamage.INSTANCE, IndustrialCommandBonusFuelConsuptionCompactIndustrialCore.INSTANCE, IndustrialCommandBonusMiningForemanBurstRange.INSTANCE, Uniformity.INSTANCE, IndustrialCommandBonusShipCargoCapacity.INSTANCE, HasShipMaintenanceBay.INSTANCE, IndustrialCommandBonusGeneralMiningHoldCapacity.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, IndustrialCommandBonusDroneOreMiningYield.INSTANCE, IndustrialCommandBonusDroneIceHarvestingCycleTime.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, Radius.INSTANCE, IndustrialCommandBonusDroneHitPoints.INSTANCE, TechLevel.INSTANCE, ShipBonusICS3 .INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, JumpFatigueMultiplier.INSTANCE, MaxGangModules.INSTANCE, RequiredSkill1 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final IndustrialCommandShip.MetaGroup METAGROUP = new IndustrialCommandShip.MetaGroup();
 
     @Override
@@ -397,6 +431,10 @@ public class IndustrialCommandShip
             case  1555 :
             {
                 return fwlpkill;
+            }
+            case  1556 :
+            {
+                return generalminingholdcapacity;
             }
             case  911 :
             {
@@ -421,6 +459,38 @@ public class IndustrialCommandShip
             case  2580 :
             {
                 return industrialbonusdronedamage;
+            }
+            case  3203 :
+            {
+                return industrialcommandbonusdronedamage;
+            }
+            case  3235 :
+            {
+                return industrialcommandbonusdronehitpoints;
+            }
+            case  3222 :
+            {
+                return industrialcommandbonusdroneiceharvestingcycletime;
+            }
+            case  3221 :
+            {
+                return industrialcommandbonusdroneoreminingyield;
+            }
+            case  3204 :
+            {
+                return industrialcommandbonusfuelconsuptioncompactindustrialcore;
+            }
+            case  3212 :
+            {
+                return industrialcommandbonusgeneralminingholdcapacity;
+            }
+            case  3205 :
+            {
+                return industrialcommandbonusminingforemanburstrange;
+            }
+            case  3211 :
+            {
+                return industrialcommandbonusshipcargocapacity;
             }
             case  1971 :
             {
@@ -466,10 +536,6 @@ public class IndustrialCommandShip
             {
                 return rolebonuscommandburstaoerange;
             }
-            case  2579 :
-            {
-                return rolebonusdroneiceharvestingspeed;
-            }
             case  2578 :
             {
                 return rolebonusdroneminingyield;
@@ -506,10 +572,6 @@ public class IndustrialCommandShip
             {
                 return shipbonusics3;
             }
-            case  2475 :
-            {
-                return shipbonusics4;
-            }
             case  2577 :
             {
                 return shipbonusics5;
@@ -518,9 +580,9 @@ public class IndustrialCommandShip
             {
                 return shipmaintenancebaycapacity;
             }
-            case  1556 :
+            case  1549 :
             {
-                return specialoreholdcapacity;
+                return specialfuelbaycapacity;
             }
             case  1154 :
             {

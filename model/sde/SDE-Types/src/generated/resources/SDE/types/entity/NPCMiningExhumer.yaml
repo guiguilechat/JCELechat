@@ -13,7 +13,7 @@ types:
     capacity: 15000.0
     disallowassistance: 1
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 300000.0
+    entitykillbounty: 300000
     entityoverviewshipgroupid: 25
     gfxboosterid: 397
     gfxturretid: 17482
@@ -54,7 +54,7 @@ types:
     capacity: 15000.0
     disallowassistance: 1
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 300000.0
+    entitykillbounty: 300000
     entityoverviewshipgroupid: 25
     gfxboosterid: 397
     gfxturretid: 17482

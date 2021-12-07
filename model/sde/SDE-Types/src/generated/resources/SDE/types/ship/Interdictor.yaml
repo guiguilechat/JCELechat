@@ -15,6 +15,7 @@ types:
     elitebonusinterdictors1: -20
     elitebonusinterdictors2: -10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 80
     gfxboosterid: 394
@@ -88,6 +89,7 @@ types:
     volume: 55000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Flycatcher:
     agility: 3.5999999046325684
     armoremdamageresonance: 0.5
@@ -104,6 +106,7 @@ types:
     elitebonusinterdictors1: 15
     elitebonusinterdictors2: -10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 80
     gfxboosterid: 395
@@ -177,6 +180,7 @@ types:
     volume: 52000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Heretic:
     agility: 3.5999999046325684
     armoremdamageresonance: 0.5
@@ -193,6 +197,7 @@ types:
     elitebonusinterdictors1: -4
     elitebonusinterdictors2: -10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 80
     gfxboosterid: 394
@@ -266,6 +271,7 @@ types:
     volume: 47000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Sabre:
     agility: 3.700000047683716
     armoremdamageresonance: 0.20000000298023224
@@ -282,6 +288,7 @@ types:
     elitebonusinterdictors1: 10
     elitebonusinterdictors2: -10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 80
     gfxboosterid: 397
@@ -355,3 +362,4 @@ types:
     volume: 43000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0

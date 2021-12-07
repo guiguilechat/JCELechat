@@ -1,175 +1,4 @@
 types:
-  AIR Astro-Acquisition Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    durationbonus: -5
-    id: 60422
-    marketGroup: 2531
-    name: AIR Astro-Acquisition Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  AIR Astro-Acquisition Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    durationbonus: -10
-    id: 60423
-    marketGroup: 2531
-    name: AIR Astro-Acquisition Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  AIR Astro-Acquisition Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    durationbonus: -15
-    id: 60424
-    marketGroup: 2531
-    name: AIR Astro-Acquisition Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  AIR Astro-Pinpointing Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 60425
-    marketGroup: 2790
-    maxscandeviationmodifier: -5
-    name: AIR Astro-Pinpointing Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  AIR Astro-Pinpointing Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 60426
-    marketGroup: 2790
-    maxscandeviationmodifier: -10
-    name: AIR Astro-Pinpointing Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  AIR Astro-Pinpointing Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 60427
-    marketGroup: 2790
-    maxscandeviationmodifier: -15
-    name: AIR Astro-Pinpointing Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  AIR Astro-Rangefinding Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60428
-    marketGroup: 2791
-    name: AIR Astro-Rangefinding Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    scanstrengthbonus: 5
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  AIR Astro-Rangefinding Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60429
-    marketGroup: 2791
-    name: AIR Astro-Rangefinding Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    scanstrengthbonus: 10
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  AIR Astro-Rangefinding Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18940.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60430
-    marketGroup: 2791
-    name: AIR Astro-Rangefinding Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    scanstrengthbonus: 15
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
   Advanced Broker Relations Skill Accelerator:
     boosterduration: 60000.0
     boosterness: 191
@@ -874,18 +703,18 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  Basic 'Radiance' Cerebral Accelerator:
+  Basic 'Brainfreeze' Cerebral Accelerator:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18968.45703125
+    boosterlastinjectiondatetime: 19031.45703125
     boosterness: 10
     charismabonus: 4
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 60714
+    id: 61083
     intelligencebonus: 4
     marketGroup: 2487
     memorybonus: 4
-    name: Basic 'Radiance' Cerebral Accelerator
+    name: Basic 'Brainfreeze' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -1624,6 +1453,31 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
+  Extended 'Brainfreeze' Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 10
+    charismabonus: 6
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 61084
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended 'Brainfreeze' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 6
   Festival-only 'Longbow' CM3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
@@ -2637,231 +2491,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     warpsbonus: 10
-  Harvest Anti-Disruptor Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 60700
-    marketGroup: 2531
-    name: Harvest Anti-Disruptor Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    weapondisruptionresistancebonus: -8
-  Harvest Anti-Disruptor Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 60701
-    marketGroup: 2531
-    name: Harvest Anti-Disruptor Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    weapondisruptionresistancebonus: -12
-  Harvest Anti-Disruptor Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 60702
-    marketGroup: 2531
-    name: Harvest Anti-Disruptor Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    weapondisruptionresistancebonus: -20
-  Harvest Damage Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 17
-    damagemultiplier: 1.0399999618530273
-    id: 60697
-    marketGroup: 2792
-    name: Harvest Damage Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Harvest Damage Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 17
-    damagemultiplier: 1.059999942779541
-    id: 60698
-    marketGroup: 2792
-    name: Harvest Damage Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Harvest Damage Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 17
-    damagemultiplier: 1.100000023841858
-    id: 60699
-    marketGroup: 2792
-    name: Harvest Damage Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Harvest Nosferatu Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    durationbonus: -4
-    id: 60683
-    marketGroup: 2790
-    name: Harvest Nosferatu Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Harvest Nosferatu Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    durationbonus: -6
-    id: 60684
-    marketGroup: 2790
-    name: Harvest Nosferatu Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Harvest Nosferatu Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    durationbonus: -10
-    id: 60685
-    marketGroup: 2790
-    name: Harvest Nosferatu Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Harvest Webifier Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60694
-    marketGroup: 2791
-    name: Harvest Webifier Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebrangeadd: 2000
-    volume: 1.0
-  Harvest Webifier Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60695
-    marketGroup: 2791
-    name: Harvest Webifier Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebrangeadd: 3000
-    volume: 1.0
-  Harvest Webifier Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60696
-    marketGroup: 2791
-    name: Harvest Webifier Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebrangeadd: 5000
-    volume: 1.0
   Heavy Drones Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
@@ -4379,18 +4008,18 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  Potent 'Radiance' Cerebral Accelerator:
+  Potent 'Brainfreeze' Cerebral Accelerator:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18968.45703125
+    boosterlastinjectiondatetime: 19031.45703125
     boosterness: 10
     charismabonus: 8
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 60715
+    id: 61085
     intelligencebonus: 8
     marketGroup: 2487
     memorybonus: 8
-    name: Potent 'Radiance' Cerebral Accelerator
+    name: Potent 'Brainfreeze' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -8444,246 +8073,6 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  Tetrimon Anti-Drain Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    energywarfareresistancebonus: -8
-    id: 60691
-    marketGroup: 2531
-    name: Tetrimon Anti-Drain Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Tetrimon Anti-Drain Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    energywarfareresistancebonus: -12
-    id: 60692
-    marketGroup: 2531
-    name: Tetrimon Anti-Drain Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Tetrimon Anti-Drain Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    energywarfareresistancebonus: -20
-    id: 60693
-    marketGroup: 2531
-    name: Tetrimon Anti-Drain Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Tetrimon Capacitor Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 15
-    capacitorcapacitybonus: 4.0
-    damagemultiplier: 1.0
-    id: 60703
-    marketGroup: 2790
-    name: Tetrimon Capacitor Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Tetrimon Capacitor Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 15
-    capacitorcapacitybonus: 6.0
-    damagemultiplier: 1.0
-    id: 60686
-    marketGroup: 2790
-    name: Tetrimon Capacitor Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Tetrimon Capacitor Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 15
-    capacitorcapacitybonus: 10.0
-    damagemultiplier: 1.0
-    id: 60704
-    marketGroup: 2790
-    name: Tetrimon Capacitor Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Tetrimon Precision Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 60688
-    marketGroup: 2792
-    maxrangebonus: 4.0
-    name: Tetrimon Precision Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    trackingspeedbonus: 4.0
-    volume: 1.0
-  Tetrimon Precision Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 60689
-    marketGroup: 2792
-    maxrangebonus: 6.0
-    name: Tetrimon Precision Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    trackingspeedbonus: 6.0
-    volume: 1.0
-  Tetrimon Precision Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 60690
-    marketGroup: 2792
-    maxrangebonus: 10.0
-    name: Tetrimon Precision Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    trackingspeedbonus: 10.0
-    volume: 1.0
-  Tetrimon Resistance Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60705
-    marketGroup: 2791
-    name: Tetrimon Resistance Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    passiveemdamageresistancebonus: -4
-    passiveexplosivedamageresistancebonus: -4
-    passivekineticdamageresistancebonus: -4
-    passivethermicdamageresistancebonus: -4
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Tetrimon Resistance Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60706
-    marketGroup: 2791
-    name: Tetrimon Resistance Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    passiveemdamageresistancebonus: -6
-    passiveexplosivedamageresistancebonus: -6
-    passivekineticdamageresistancebonus: -6
-    passivethermicdamageresistancebonus: -6
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Tetrimon Resistance Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 60687
-    marketGroup: 2791
-    name: Tetrimon Resistance Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    passiveemdamageresistancebonus: -10
-    passiveexplosivedamageresistancebonus: -10
-    passivekineticdamageresistancebonus: -10
-    passivethermicdamageresistancebonus: -10
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
   Tiamat Prremium Insurance:
     boosterduration: 3.888E9
     boosterlastinjectiondatetime: 18870.125
@@ -8726,28 +8115,342 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  '[no messageID: 588945]':
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18968.45703125
-    boosterness: 10
-    charismabonus: 6
+  Wightstorm  Manasikara Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 17
     damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 60716
-    intelligencebonus: 6
-    marketGroup: 2487
-    memorybonus: 6
-    name: '[no messageID: 588945]'
-    nondestructible: 1
+    id: 61116
+    marketGroup: 2792
+    name: Wightstorm  Manasikara Booster I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
-    perceptionbonus: 6
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 3402
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 8.0
+    volume: 1.0
+  Wightstorm  Manasikara Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 61118
+    marketGroup: 2792
+    name: Wightstorm  Manasikara Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 12.0
+    volume: 1.0
+  Wightstorm  Manasikara Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 61119
+    marketGroup: 2792
+    name: Wightstorm  Manasikara Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 20.0
+    volume: 1.0
+  Wightstorm  Vitarka Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 17
+    damagemultiplier: 1.0399999618530273
+    id: 61110
+    marketGroup: 2792
+    name: Wightstorm  Vitarka Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-    willpowerbonus: 6
+  Wightstorm  Vitarka Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 17
+    damagemultiplier: 1.059999942779541
+    id: 61112
+    marketGroup: 2792
+    name: Wightstorm  Vitarka Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Wightstorm  Vitarka Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 17
+    damagemultiplier: 1.100000023841858
+    id: 61114
+    marketGroup: 2792
+    name: Wightstorm  Vitarka Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Wightstorm Cetana Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 61103
+    marketGroup: 2791
+    name: Wightstorm Cetana Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 8
+    volume: 1.0
+  Wightstorm Cetana Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 61105
+    marketGroup: 2791
+    name: Wightstorm Cetana Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 12
+    volume: 1.0
+  Wightstorm Cetana Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 61107
+    marketGroup: 2791
+    name: Wightstorm Cetana Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 20
+    volume: 1.0
+  Wightstorm Nirvana Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 61091
+    marketGroup: 2790
+    name: Wightstorm Nirvana Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 4.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Wightstorm Nirvana Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 61093
+    marketGroup: 2790
+    name: Wightstorm Nirvana Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 6.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Wightstorm Nirvana Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 61096
+    marketGroup: 2790
+    name: Wightstorm Nirvana Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 10.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Wightstorm Rapture Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 15
+    caprechargebonus: -4.0
+    damagemultiplier: 1.0
+    id: 61097
+    marketGroup: 2790
+    name: Wightstorm Rapture Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Wightstorm Rapture Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 15
+    caprechargebonus: -6.0
+    damagemultiplier: 1.0
+    id: 61099
+    marketGroup: 2790
+    name: Wightstorm Rapture Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Wightstorm Rapture Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 15
+    caprechargebonus: -10.0
+    damagemultiplier: 1.0
+    id: 61101
+    marketGroup: 2790
+    name: Wightstorm Rapture Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Wightstorm Sunyata Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 61086
+    marketGroup: 2531
+    name: Wightstorm Sunyata Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    thermodynamicsheatdamage: -8
+    volume: 1.0
+  Wightstorm Sunyata Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 61087
+    marketGroup: 2531
+    name: Wightstorm Sunyata Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    thermodynamicsheatdamage: -12
+    volume: 1.0
+  Wightstorm Sunyata Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19031.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 61090
+    marketGroup: 2531
+    name: Wightstorm Sunyata Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    thermodynamicsheatdamage: -20
+    volume: 1.0

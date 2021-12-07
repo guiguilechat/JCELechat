@@ -1,31 +1,4 @@
 types:
-  1v1 Battleships Redux Proving Filament:
-    id: 60077
-    marketGroup: 2747
-    name: 1v1 Battleships Redux Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  2v2 Interceptors Proving Filament:
-    id: 59369
-    marketGroup: 2747
-    name: 2v2 Interceptors Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  AT XVII 2v2 Cruisers Proving Filament:
-    id: 60079
-    marketGroup: 2747
-    name: AT XVII 2v2 Cruisers Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
   Crimson Harvest Destroyer FFA Proving Filament:
     id: 60078
     marketGroup: 2747
@@ -35,10 +8,46 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Totality Day 3v3 Kikimoras Proving Filament:
-    id: 60076
+  Prophecy FFA Proving Filament:
+    id: 60600
     marketGroup: 2747
-    name: Totality Day 3v3 Kikimoras Proving Filament
+    name: Prophecy FFA Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Yoiul 1v1 Battleships Proving Filament:
+    id: 60604
+    marketGroup: 2747
+    name: Yoiul 1v1 Battleships Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Yoiul 1v1 Navy Frigates Proving Filament:
+    id: 60602
+    marketGroup: 2747
+    name: Yoiul 1v1 Navy Frigates Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Yoiul 2v2 Assault Frigates Proving Filament:
+    id: 60601
+    marketGroup: 2747
+    name: Yoiul 2v2 Assault Frigates Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Yoiul T1 Cruiser FFA Proving Filament:
+    id: 60603
+    marketGroup: 2747
+    name: Yoiul T1 Cruiser FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

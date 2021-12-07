@@ -841,6 +841,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Radioactives Reclamation Suit:
+    gender: 2
+    id: 60647
+    marketGroup: 1399
+    name: Men's Radioactives Reclamation Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Republic Commander's Dress Jacket:
     gender: 2
     id: 58936
@@ -1006,6 +1015,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Men's Yoiul Stormchasers Suit:
+    gender: 2
+    id: 57076
+    marketGroup: 1399
+    name: Men's Yoiul Stormchasers Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Men's Zakura Zakitsu Exploration Suit:
     gender: 2
@@ -2121,6 +2139,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's Radioactives Reclamation Suit:
+    gender: 2
+    id: 60655
+    marketGroup: 1405
+    name: Women's Radioactives Reclamation Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Republic Commander's Dress Jacket:
     gender: 2
     id: 58944
@@ -2287,6 +2314,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's Yoiul Stormchasers Suit:
+    gender: 2
+    id: 57080
+    marketGroup: 1405
+    name: Women's Yoiul Stormchasers Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's Zakura Zakitsu Exploration Suit:
     gender: 2

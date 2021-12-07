@@ -105,6 +105,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Radioactives Reclamation Goggles:
+    gender: 2
+    id: 60639
+    marketGroup: 1408
+    name: Men's Radioactives Reclamation Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Odin Synthetic Eye (left/dark):
     gender: 2
     id: 4043
@@ -216,6 +225,15 @@ types:
     id: 42905
     marketGroup: 1408
     name: Women's Genolution Tactical Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Radioactives Reclamation Goggles:
+    gender: 2
+    id: 60645
+    marketGroup: 1408
+    name: Women's Radioactives Reclamation Goggles
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

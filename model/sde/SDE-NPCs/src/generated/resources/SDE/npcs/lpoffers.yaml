@@ -17034,7 +17034,7 @@ offers:
       lp: 27000
   4693:
     id: 4693
-    name: Syndicate Gas Cloud Harvester
+    name: 'Syndicate Gas Cloud Scoop '
     product:
       id: 28788
       quantity: 1
@@ -28783,39 +28783,6 @@ offers:
       items:
       - id: 56708
         quantity: 2200
-  17020:
-    id: 17020
-    name: Bezdnacine Processing
-    product:
-      id: 56631
-      quantity: 1
-    requirements:
-      isk: 350000
-      items:
-      - id: 56708
-        quantity: 465
-  17021:
-    id: 17021
-    name: Rakovene Processing
-    product:
-      id: 56633
-      quantity: 1
-    requirements:
-      isk: 350000
-      items:
-      - id: 56708
-        quantity: 715
-  17022:
-    id: 17022
-    name: Talassonite Processing
-    product:
-      id: 56632
-      quantity: 1
-    requirements:
-      isk: 350000
-      items:
-      - id: 56708
-        quantity: 965
   17023:
     id: 17023
     name: Precursor Frigate
@@ -31196,6 +31163,29 @@ offers:
     requirements:
       isk: 20000000
       lp: 40000
+  17182:
+    id: 17182
+    name: 'Ore Gas Cloud Harvester '
+    product:
+      id: 60315
+      quantity: 1
+    requirements:
+      isk: 24000000
+      items:
+      - id: 60314
+        quantity: 1
+      lp: 36000
+  17183:
+    id: 17183
+    name: Abyssal Ore Processing
+    product:
+      id: 60381
+      quantity: 1
+    requirements:
+      isk: 20000000
+      items:
+      - id: 56708
+        quantity: 1000
   17184:
     bpid: 60514
     bpruns: 5
@@ -31207,22 +31197,22 @@ offers:
     requirements:
       isk: 20000000
       items:
+      - id: 2872
+        quantity: 5
       - id: 2875
         quantity: 5
-      - id: 2867
-        quantity: 10
-      - id: 2872
-        quantity: 10
       - id: 2876
+        quantity: 5
+      - id: 2867
         quantity: 10
       - id: 40
         quantity: 2100
       - id: 39
-        quantity: 14200
+        quantity: 12200
       - id: 37
-        quantity: 1552000
+        quantity: 915500
       - id: 35
-        quantity: 2510000
+        quantity: 2010000
       - id: 34
-        quantity: 12080000
+        quantity: 6580000
       lp: 20000

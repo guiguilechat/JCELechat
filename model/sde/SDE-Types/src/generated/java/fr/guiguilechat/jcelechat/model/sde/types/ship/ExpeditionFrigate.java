@@ -34,11 +34,15 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusExpedition1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusExpedition2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExpeditionFrigateBonusIceHarvestingDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExpeditionFrigateBonusOreMiningYield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExpeditionFrigateBonusShieldResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExpeditionFrigateBonusSignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FwLpKill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GeneralMiningHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationHi;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationLow;
@@ -52,8 +56,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.IceHarvestCycleBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialBonusDroneDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonics;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
@@ -69,6 +71,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MinTargetVelDmgMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningFrigateBonusGasCloudHarvestingDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningFrigateBonusIceHarvestingDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningFrigatesBonusOreMiningYield;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
@@ -95,12 +100,13 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonan
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusOREfrig1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusOREfrig2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusGasHarvestingYield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusIceHarvestingDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusOreMiningYield;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipScanResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialOreHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
@@ -113,6 +119,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.VelocityPenaltyReduction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 import org.yaml.snakeyaml.Yaml;
 
@@ -147,20 +154,22 @@ public class ExpeditionFrigate
     @Stackable(true)
     @DefaultIntValue(20000)
     public int covertopsstealthbombertargettingdelay;
-    /**
-     * 
-     */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int elitebonusexpedition1;
-    /**
-     * 
-     */
+    public int expeditionfrigatebonusiceharvestingduration;
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int elitebonusexpedition2;
+    public int expeditionfrigatebonusoreminingyield;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int expeditionfrigatebonusshieldresistance;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int expeditionfrigatebonussignatureradius;
     /**
      * 
      */
@@ -168,6 +177,13 @@ public class ExpeditionFrigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int fwlpkill;
+    /**
+     * Capacity of general mining hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int generalminingholdcapacity;
     /**
      * 
      */
@@ -189,20 +205,6 @@ public class ExpeditionFrigate
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double heatattenuationmed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double iceharvestcyclebonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int industrialbonusdronedamage;
     /**
      * 
      */
@@ -245,6 +247,21 @@ public class ExpeditionFrigate
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double miningamountmultiplier;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningfrigatebonusgascloudharvestingduration;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningfrigatebonusiceharvestingduration;
+    /**
+     * ORE Mining frigate bonus 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningfrigatesbonusoreminingyield;
     /**
      * The type ID of the skill that is required.
      */
@@ -288,26 +305,24 @@ public class ExpeditionFrigate
     @DefaultIntValue(0)
     public int scanspeed;
     /**
-     * ORE Mining frigate bonus 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusorefrig1;
-    /**
-     * ORE Mining frigate bonus 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusorefrig2;
-    /**
      * Fixed Role Bonus on a ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shipbonusrole7;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shiprolebonusgasharvestingyield;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shiprolebonusiceharvestingduration;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shiprolebonusoreminingyield;
     /**
      * Chance of being able to resist a ship scan.
      */
@@ -316,12 +331,12 @@ public class ExpeditionFrigate
     @DefaultIntValue(0)
     public int shipscanresistance;
     /**
-     * Capacity of ore-only hold
+     * Level of skill
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int specialoreholdcapacity;
+    public int skilllevel;
     /**
      * How many rigs can by fitted to this ship.
      */
@@ -336,7 +351,7 @@ public class ExpeditionFrigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int velocitypenaltyreduction;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, CovertOpsStealthBomberTargettingDelay.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, IceHarvestCycleBonus.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, SpecialOreHoldCapacity.INSTANCE, IndustrialBonusDroneDamage.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ShipBonusOREfrig1 .INSTANCE, ShipBonusOREfrig2 .INSTANCE, ScanResolution.INSTANCE, VelocityPenaltyReduction.INSTANCE, RechargeRate.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, EliteBonusExpedition1 .INSTANCE, EliteBonusExpedition2 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, MiningAmountMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, ShipScanResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, CovertOpsStealthBomberTargettingDelay.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, SkillLevel.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, MiningFrigatesBonusOreMiningYield.INSTANCE, ScanResolution.INSTANCE, VelocityPenaltyReduction.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, ExpeditionFrigateBonusIceHarvestingDuration.INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, ShipRoleBonusOreMiningYield.INSTANCE, ShipRoleBonusIceHarvestingDuration.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ExpeditionFrigateBonusSignatureRadius.INSTANCE, ExpeditionFrigateBonusOreMiningYield.INSTANCE, ExpeditionFrigateBonusShieldResistance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, Radius.INSTANCE, MiningFrigateBonusGasCloudHarvestingDuration.INSTANCE, TechLevel.INSTANCE, ShipRoleBonusGasHarvestingYield.INSTANCE, MiningFrigateBonusIceHarvestingDuration.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, MiningAmountMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE, ShipScanResistance.INSTANCE })));
     public static final ExpeditionFrigate.MetaGroup METAGROUP = new ExpeditionFrigate.MetaGroup();
 
     @Override
@@ -358,17 +373,29 @@ public class ExpeditionFrigate
             {
                 return covertopsstealthbombertargettingdelay;
             }
-            case  1942 :
+            case  3167 :
             {
-                return elitebonusexpedition1;
+                return expeditionfrigatebonusiceharvestingduration;
             }
-            case  1943 :
+            case  3191 :
             {
-                return elitebonusexpedition2;
+                return expeditionfrigatebonusoreminingyield;
+            }
+            case  3192 :
+            {
+                return expeditionfrigatebonusshieldresistance;
+            }
+            case  3190 :
+            {
+                return expeditionfrigatebonussignatureradius;
             }
             case  1555 :
             {
                 return fwlpkill;
+            }
+            case  1556 :
+            {
+                return generalminingholdcapacity;
             }
             case  1259 :
             {
@@ -381,14 +408,6 @@ public class ExpeditionFrigate
             case  1261 :
             {
                 return heatattenuationmed;
-            }
-            case  780 :
-            {
-                return iceharvestcyclebonus;
-            }
-            case  2580 :
-            {
-                return industrialbonusdronedamage;
             }
             case  1253 :
             {
@@ -414,6 +433,18 @@ public class ExpeditionFrigate
             {
                 return miningamountmultiplier;
             }
+            case  3237 :
+            {
+                return miningfrigatebonusgascloudharvestingduration;
+            }
+            case  3240 :
+            {
+                return miningfrigatebonusiceharvestingduration;
+            }
+            case  1842 :
+            {
+                return miningfrigatesbonusoreminingyield;
+            }
             case  183 :
             {
                 return requiredskill2;
@@ -438,25 +469,29 @@ public class ExpeditionFrigate
             {
                 return scanspeed;
             }
-            case  1842 :
-            {
-                return shipbonusorefrig1;
-            }
-            case  1843 :
-            {
-                return shipbonusorefrig2;
-            }
             case  793 :
             {
                 return shipbonusrole7;
+            }
+            case  3239 :
+            {
+                return shiprolebonusgasharvestingyield;
+            }
+            case  3178 :
+            {
+                return shiprolebonusiceharvestingduration;
+            }
+            case  3177 :
+            {
+                return shiprolebonusoreminingyield;
             }
             case  511 :
             {
                 return shipscanresistance;
             }
-            case  1556 :
+            case  280 :
             {
-                return specialoreholdcapacity;
+                return skilllevel;
             }
             case  1154 :
             {

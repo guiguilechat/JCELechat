@@ -8,6 +8,46 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  AEGIS Covert Operations Reports:
+    exporttaxmultiplier: 1
+    id: 60753
+    importtaxmultiplier: 1
+    marketGroup: 2801
+    name: AEGIS Covert Operations Reports
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  AEGIS Fortification Schematics:
+    exporttaxmultiplier: 1
+    id: 60752
+    importtaxmultiplier: 1
+    marketGroup: 2801
+    name: AEGIS Fortification Schematics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  AEGIS Personnel File Backups:
+    exporttaxmultiplier: 1
+    id: 60751
+    importtaxmultiplier: 1
+    marketGroup: 2801
+    name: AEGIS Personnel File Backups
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  AEGIS Security Patrol Reports:
+    exporttaxmultiplier: 1
+    id: 60750
+    importtaxmultiplier: 1
+    marketGroup: 2801
+    name: AEGIS Security Patrol Reports
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   AIMEDs:
     exporttaxmultiplier: 1
     id: 28870

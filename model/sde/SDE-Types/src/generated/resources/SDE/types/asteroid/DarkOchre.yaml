@@ -13,7 +13,7 @@ types:
     price: 3842500.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -32,7 +32,7 @@ types:
     price: 147000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -51,7 +51,7 @@ types:
     price: 4226750.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -70,7 +70,7 @@ types:
     price: 4039750.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -91,7 +91,7 @@ types:
     price: 768500.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -112,7 +112,7 @@ types:
     price: 1350.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -133,7 +133,7 @@ types:
     price: 845350.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -143,6 +143,7 @@ types:
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
     id: 28623
+    ignoreminingwaste: 1
     name: Oeryl
     orebasictype: 1232
     packagedVolume: 8.0
@@ -150,7 +151,7 @@ types:
     price: 2000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -171,7 +172,7 @@ types:
     price: 807950.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12183
+    reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0

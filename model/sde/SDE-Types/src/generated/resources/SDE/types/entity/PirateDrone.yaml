@@ -32,7 +32,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 2000.0
+    entitykillbounty: 2000
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.30000001192092896
@@ -125,7 +125,7 @@ types:
     entityfactionloss: 0.009999999776482582
     entityflyrange: 2500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 950000.0
+    entitykillbounty: 950000
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 27
@@ -215,7 +215,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100.0
+    entitykillbounty: 100
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
@@ -305,7 +305,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100.0
+    entitykillbounty: 100
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
@@ -394,7 +394,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100.0
+    entitykillbounty: 100
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
@@ -484,7 +484,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100.0
+    entitykillbounty: 100
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
@@ -575,7 +575,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100.0
+    entitykillbounty: 100
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
@@ -667,7 +667,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100.0
+    entitykillbounty: 100
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
@@ -757,7 +757,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 2000.0
+    entitykillbounty: 2000
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.30000001192092896
@@ -843,7 +843,7 @@ types:
     entityequipmentmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1500.0
+    entitykillbounty: 1500
     entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 2516
     entityoverviewshipgroupid: 25
@@ -935,7 +935,7 @@ types:
     entityfactionloss: 0.0012499999720603228
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 2000.0
+    entitykillbounty: 2000
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.30000001192092896
@@ -1022,7 +1022,7 @@ types:
     entityequipmentmax: 2
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 500000.0
+    entitykillbounty: 500000
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     entityoverviewshipgroupid: 25
@@ -1109,7 +1109,7 @@ types:
     entityequipmentmax: 2
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 2000000.0
+    entitykillbounty: 2000000
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     entityoverviewshipgroupid: 25
@@ -1196,7 +1196,7 @@ types:
     entityequipmentmax: 2
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 5000000.0
+    entitykillbounty: 5000000
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     entityoverviewshipgroupid: 26
@@ -1284,7 +1284,7 @@ types:
     entityequipmentmin: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 3.0E7
+    entitykillbounty: 30000000
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     entityoverviewshipgroupid: 27
@@ -1371,7 +1371,7 @@ types:
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 2000.0
+    entitykillbounty: 2000
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25

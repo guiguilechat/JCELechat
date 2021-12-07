@@ -4,6 +4,7 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    canfitshipgroup01: 485
     deactivateifoffensive: 1
     ecmresistance: 1.0
     hullemdamageresonance: 1.0
@@ -85,7 +86,7 @@ types:
     techlevel: 1
     volume: 200.0
     weapondisruptionresistancebonus: -50
-  Industrial Core I:
+  Capital Industrial Core I:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -93,7 +94,7 @@ types:
     canfitshipgroup01: 883
     consumptionquantity: 1000
     consumptiontype: 16272
-    cpu: 50.0
+    cpu: 100.0
     deactivateifoffensive: 1
     disallowactivateonwarp: 1
     disallowdocking: 1
@@ -107,11 +108,11 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 28583
-    industrialcorebonuscommandburstrange: 150
+    industrialcorebonuscommandburstrange: 200
     industrialcorebonusdronedamagehp: 80
     industrialcorebonusdroneiceharvesting: -75
-    industrialcorebonusdronemining: 400
-    industrialcorebonusdronevelocity: 25
+    industrialcorebonusdronemining: 170
+    industrialcorebonusdronevelocity: 30.0
     industrialcorebonusminingburststrength: 30
     industrialcorelocallogisticsamountbonus: 60
     industrialcorelocallogisticsdurationbonus: -60
@@ -120,10 +121,10 @@ types:
     marketGroup: 801
     maxgroupactive: 1
     maxgroupfitted: 1
-    name: Industrial Core I
+    name: Capital Industrial Core I
     packagedVolume: 1000.0
     portionSize: 1
-    power: 50000
+    power: 100000
     price: 3.7609576E7
     published: true
     radius: 1.0
@@ -142,7 +143,7 @@ types:
     speedfactor: -100.0
     techlevel: 1
     volume: 4000.0
-  Industrial Core II:
+  Capital Industrial Core II:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -151,7 +152,7 @@ types:
     commandbonuseffectiveadd: 1
     consumptionquantity: 1500
     consumptiontype: 16272
-    cpu: 55.0
+    cpu: 150.0
     deactivateifoffensive: 1
     disallowactivateonwarp: 1
     disallowdocking: 1
@@ -165,12 +166,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 42890
-    industrialcorebonuscommandburstrange: 200
+    industrialcorebonuscommandburstrange: 250
     industrialcorebonusdronedamagehp: 100
-    industrialcorebonusdroneiceharvesting: -80
-    industrialcorebonusdronemining: 500
-    industrialcorebonusdronevelocity: 30
-    industrialcorebonusminingburststrength: 36
+    industrialcorebonusdroneiceharvesting: -85
+    industrialcorebonusdronemining: 300
+    industrialcorebonusdronevelocity: 35.0
+    industrialcorebonusminingburststrength: 40
     industrialcorelocallogisticsamountbonus: 75
     industrialcorelocallogisticsdurationbonus: -60
     industrialcoreremotelogisticsdurationbonus: -75
@@ -179,14 +180,14 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 5
-    name: Industrial Core II
+    name: Capital Industrial Core II
     packagedVolume: 1000.0
     portionSize: 1
-    power: 55000
+    power: 150000
     price: 3.7609576E7
     published: true
     radius: 1.0
-    remoteassistanceimpedancebonus: -80
+    remoteassistanceimpedancebonus: -100
     remoterepairimpedancebonus: -99.9999008178711
     requiredskill1: 28585
     requiredskill1level: 5
@@ -201,6 +202,112 @@ types:
     speedfactor: -100.0
     techlevel: 2
     volume: 4000.0
+  Large Industrial Core I:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    canfitshiptype1: 28606
+    consumptionquantity: 250
+    consumptiontype: 16272
+    cpu: 50.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 150000.0
+    ecmresistance: 9.999999747378752E-6
+    hp: 99999.0
+    hullemdamageresonance: 1.0
+    hullexplosivedamageresonance: 1.0
+    hullkineticdamageresonance: 1.0
+    hullthermaldamageresonance: 1.0
+    id: 58945
+    industrialcorebonuscommandburstrange: 75
+    industrialcorebonusdronedamagehp: 40
+    industrialcorebonusdroneiceharvesting: -25
+    industrialcorebonusdronemining: 25
+    industrialcorebonusdronevelocity: 10.0
+    industrialcorebonusminingburststrength: 10
+    industrialcorelocallogisticsamountbonus: 20
+    industrialcorelocallogisticsdurationbonus: -30
+    marketGroup: 801
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: Large Industrial Core I
+    packagedVolume: 3500.0
+    portionSize: 1
+    power: 100
+    published: true
+    radius: 1.0
+    remoteassistanceimpedancebonus: -80
+    remoterepairimpedancebonus: -99.9999008178711
+    requiredskill1: 58956
+    requiredskill1level: 1
+    sensordampenerresistancebonus: -75
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    siegemassmultiplier: 10
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 3500.0
+  Large Industrial Core II:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    canfitshiptype1: 28606
+    consumptionquantity: 500
+    consumptiontype: 16272
+    cpu: 75.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 150000.0
+    ecmresistance: 9.999999747378752E-6
+    hp: 99999.0
+    hullemdamageresonance: 1.0
+    hullexplosivedamageresonance: 1.0
+    hullkineticdamageresonance: 1.0
+    hullthermaldamageresonance: 1.0
+    id: 58950
+    industrialcorebonuscommandburstrange: 100
+    industrialcorebonusdronedamagehp: 50
+    industrialcorebonusdroneiceharvesting: -50
+    industrialcorebonusdronemining: 75
+    industrialcorebonusdronevelocity: 12.5
+    industrialcorebonusminingburststrength: 15
+    industrialcorelocallogisticsamountbonus: 30
+    industrialcorelocallogisticsdurationbonus: -30
+    marketGroup: 801
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: Large Industrial Core II
+    packagedVolume: 3500.0
+    portionSize: 1
+    power: 150
+    published: true
+    radius: 1.0
+    remoteassistanceimpedancebonus: -80
+    remoterepairimpedancebonus: -99.9999008178711
+    requiredskill1: 58956
+    requiredskill1level: 5
+    sensordampenerresistancebonus: -80
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    siegemassmultiplier: 10
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 3500.0
   Siege Module I:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -378,6 +485,7 @@ types:
     disallowactivateonwarp: 1
     disallowdocking: 1
     disallowearlydeactivation: 1
+    disallowtethering: 1
     dronedamagebonus: -100.0
     duration: 300000.0
     ecmresistance: 9.999999747378752E-6

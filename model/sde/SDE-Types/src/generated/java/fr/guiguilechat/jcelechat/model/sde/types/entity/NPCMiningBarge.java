@@ -174,8 +174,8 @@ public class NPCMiningBarge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double entitykillbounty;
+    @DefaultIntValue(0)
+    public int entitykillbounty;
     /**
      * This attribute is used on entities to link them to a player ship group. This is then used to determine which overview icon they should get, among other things
      */

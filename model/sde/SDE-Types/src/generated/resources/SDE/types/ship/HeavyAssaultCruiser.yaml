@@ -14,6 +14,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 100
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 20000
     gfxboosterid: 394
@@ -85,6 +86,7 @@ types:
     volume: 112000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Cerberus:
     agility: 0.46299999952316284
     armoremdamageresonance: 0.5
@@ -102,6 +104,7 @@ types:
     elitebonusheavygunship1: 10
     elitebonusheavygunship2: -5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -171,6 +174,7 @@ types:
     volume: 92000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Deimos:
     agility: 0.4749999940395355
     armoremdamageresonance: 0.5
@@ -188,6 +192,7 @@ types:
     elitebonusheavygunship1: 10
     elitebonusheavygunship2: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 396
@@ -257,6 +262,7 @@ types:
     volume: 112000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Eagle:
     agility: 0.5759999752044678
     armoremdamageresonance: 0.5
@@ -274,6 +280,7 @@ types:
     elitebonusheavygunship1: 10
     elitebonusheavygunship2: 5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -344,6 +351,7 @@ types:
     volume: 101000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Ikitursa:
     agility: 0.6399999856948853
     armoremdamageresonance: 0.5
@@ -361,6 +369,7 @@ types:
     elitebonusheavygunship1: 20
     elitebonusheavygunship2: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
@@ -432,6 +441,7 @@ types:
     volume: 118000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Ishtar:
     agility: 0.5649999976158142
     armoremdamageresonance: 0.5
@@ -449,6 +459,7 @@ types:
     elitebonusheavygunship1: 5000
     elitebonusheavygunship2: 5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -519,6 +530,7 @@ types:
     volume: 115000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Mimir:
     agility: 0.5099999904632568
     armoremdamageresonance: 0.10000000149011612
@@ -534,6 +546,7 @@ types:
     dronebandwidth: 30
     dronecapacity: 30
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 20000
     gfxboosterid: 397
@@ -608,6 +621,7 @@ types:
     volume: 96000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Muninn:
     agility: 0.5709999799728394
     armoremdamageresonance: 0.10000000149011612
@@ -625,6 +639,7 @@ types:
     elitebonusheavygunship1: 5
     elitebonusheavygunship2: 7.5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -696,6 +711,7 @@ types:
     volume: 96000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Sacrilege:
     agility: 0.5669999718666077
     armoremdamageresonance: 0.5
@@ -713,6 +729,7 @@ types:
     elitebonusheavygunship1: 10
     elitebonusheavygunship2: -5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -784,6 +801,7 @@ types:
     volume: 118000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Vagabond:
     agility: 0.5040000081062317
     armoremdamageresonance: 0.10000000149011612
@@ -801,6 +819,7 @@ types:
     elitebonusheavygunship1: 10
     elitebonusheavygunship2: 5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -872,6 +891,7 @@ types:
     volume: 80000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Vangel:
     agility: 0.5099999904632568
     armoremdamageresonance: 0.5
@@ -887,6 +907,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 20000
     gfxboosterid: 394
@@ -961,6 +982,7 @@ types:
     volume: 118000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Zealot:
     agility: 0.5529999732971191
     armoremdamageresonance: 0.5
@@ -978,6 +1000,7 @@ types:
     elitebonusheavygunship1: 10
     elitebonusheavygunship2: 5.0
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -1048,3 +1071,4 @@ types:
     volume: 118000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0

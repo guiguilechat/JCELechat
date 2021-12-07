@@ -14,6 +14,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -81,6 +82,7 @@ types:
     volume: 270000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Brutix Navy Issue:
     agility: 0.6299999952316284
     armoremdamageresonance: 0.5
@@ -96,6 +98,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -165,6 +168,7 @@ types:
     volume: 270000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Cyclone:
     agility: 0.6800000071525574
     armoremdamageresonance: 0.4000000059604645
@@ -180,6 +184,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 50
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -248,6 +253,7 @@ types:
     volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Drake:
     agility: 0.6499999761581421
     armoremdamageresonance: 0.5
@@ -263,6 +269,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 25
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -330,6 +337,7 @@ types:
     volume: 252000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Drake Navy Issue:
     agility: 0.5299999713897705
     armoremdamageresonance: 0.5
@@ -345,6 +353,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -414,6 +423,7 @@ types:
     volume: 252000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Drekavac:
     agility: 0.7400000095367432
     armoremdamageresonance: 0.5
@@ -429,6 +439,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
@@ -498,6 +509,7 @@ types:
     volume: 233000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Ferox:
     agility: 0.6600000262260437
     armoremdamageresonance: 0.5
@@ -513,6 +525,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 25
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
@@ -580,6 +593,7 @@ types:
     volume: 252000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Gnosis:
     agility: 0.44999998807907104
     armoremdamageresonance: 0.675000011920929
@@ -595,6 +609,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
     heatattenuationhi: 0.7599999904632568
@@ -661,6 +676,7 @@ types:
     volume: 101000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Harbinger:
     agility: 0.5699999928474426
     armoremdamageresonance: 0.5
@@ -676,6 +692,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -743,6 +760,7 @@ types:
     volume: 234000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Harbinger Navy Issue:
     agility: 0.5199999809265137
     armoremdamageresonance: 0.5
@@ -758,6 +776,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -827,6 +846,7 @@ types:
     volume: 234000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Hurricane:
     agility: 0.6700000166893005
     armoremdamageresonance: 0.4000000059604645
@@ -842,6 +862,7 @@ types:
     dronebandwidth: 40
     dronecapacity: 40
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -910,6 +931,7 @@ types:
     volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Hurricane Fleet Issue:
     agility: 0.6100000143051147
     armoremdamageresonance: 0.4000000059604645
@@ -925,6 +947,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 50
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
@@ -995,6 +1018,7 @@ types:
     volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Myrmidon:
     agility: 0.699999988079071
     armoremdamageresonance: 0.5
@@ -1010,6 +1034,7 @@ types:
     dronebandwidth: 100
     dronecapacity: 200
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -1077,6 +1102,7 @@ types:
     volume: 270000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
   Prophecy:
     agility: 0.5699999928474426
     armoremdamageresonance: 0.5
@@ -1092,6 +1118,7 @@ types:
     dronebandwidth: 75
     dronecapacity: 225
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
@@ -1160,3 +1187,4 @@ types:
     volume: 234000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0

@@ -683,8 +683,8 @@ public class TriglavianEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double entitykillbounty;
+    @DefaultIntValue(0)
+    public int entitykillbounty;
     /**
      * Used to increase signature radius of entity when it activates Max Velocity. Used to fake MWD sig radius increase.
      */

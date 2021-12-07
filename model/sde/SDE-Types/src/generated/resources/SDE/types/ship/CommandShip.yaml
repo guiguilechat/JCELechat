@@ -17,6 +17,7 @@ types:
     elitebonuscommandships2: -5.0
     elitebonuscommandships3: 4
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 400
     gfxboosterid: 394
@@ -86,6 +87,7 @@ types:
     volume: 234000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
   Astarte:
     agility: 0.699999988079071
     armoremdamageresonance: 0.5
@@ -104,6 +106,7 @@ types:
     elitebonuscommandships2: 10.0
     elitebonuscommandships3: 4
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 400
     gfxboosterid: 394
@@ -174,6 +177,7 @@ types:
     volume: 270000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
   Claymore:
     agility: 0.699999988079071
     armoremdamageresonance: 0.10000000149011612
@@ -192,6 +196,7 @@ types:
     elitebonuscommandships2: 10.0
     elitebonuscommandships3: 3
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 400
     gfxboosterid: 397
@@ -263,6 +268,7 @@ types:
     volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
     wingcommandbonus: 5
   Damnation:
     agility: 0.699999988079071
@@ -282,6 +288,7 @@ types:
     elitebonuscommandships2: 10.0
     elitebonuscommandships3: 3
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 400
     gfxboosterid: 394
@@ -353,6 +360,7 @@ types:
     volume: 234000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
     wingcommandbonus: 5
   Eos:
     agility: 0.7039999961853027
@@ -372,6 +380,7 @@ types:
     elitebonuscommandships2: 7.5
     elitebonuscommandships3: 3
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 400
     gfxboosterid: 394
@@ -442,6 +451,7 @@ types:
     volume: 270000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
     wingcommandbonus: 5
   Nighthawk:
     agility: 0.6499999761581421
@@ -461,6 +471,7 @@ types:
     elitebonuscommandships2: -5.0
     elitebonuscommandships3: 4
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 400
     gfxboosterid: 395
@@ -531,6 +542,7 @@ types:
     volume: 252000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
   Sleipnir:
     agility: 0.7039999961853027
     armoremdamageresonance: 0.10000000149011612
@@ -549,6 +561,7 @@ types:
     elitebonuscommandships2: 10.0
     elitebonuscommandships3: 4
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 400
     gfxboosterid: 397
@@ -619,6 +632,7 @@ types:
     volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
   Vulture:
     agility: 0.6700000166893005
     armoremdamageresonance: 0.5
@@ -637,6 +651,7 @@ types:
     elitebonuscommandships2: 10.0
     elitebonuscommandships3: 3
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 400
     gfxboosterid: 395
@@ -708,4 +723,5 @@ types:
     volume: 252000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
     wingcommandbonus: 5

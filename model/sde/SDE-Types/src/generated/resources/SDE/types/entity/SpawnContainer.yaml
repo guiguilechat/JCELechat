@@ -25,8 +25,174 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 3
+    tierdifficulty: 4
     volume: 100000.0
+  AEGIS Gate Control Hub:
+    allowrefills: 1
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 60410
+    lootrespawntime: 3600000.0
+    name: AEGIS Gate Control Hub
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
+  AEGIS Logistics Center Shield Projector:
+    capacitorcapacity: 2700.0
+    capacity: 6000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 60438
+    lootrespawntime: 600000.0
+    name: AEGIS Logistics Center Shield Projector
+    portionSize: 1
+    published: false
+    radius: 9400.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+  AEGIS No. 1 Capital Construction Forge:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 60389
+    lootrespawntime: 600000.0
+    name: AEGIS No. 1 Capital Construction Forge
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 6000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 5
+    volume: 27500.0
+  AEGIS No. 2 Capital Construction Forge:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 60390
+    lootrespawntime: 600000.0
+    name: AEGIS No. 2 Capital Construction Forge
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 6000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 5
+    volume: 27500.0
+  AEGIS No. 3 Capital Construction Forge:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 60391
+    lootrespawntime: 600000.0
+    name: AEGIS No. 3 Capital Construction Forge
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 6000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 5
+    volume: 27500.0
+  AEGIS No. 4 Capital Construction Forge:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 60392
+    lootrespawntime: 600000.0
+    name: AEGIS No. 4 Capital Construction Forge
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 6000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 5
+    volume: 27500.0
   AEGIS Security Vault:
     capacitorcapacity: 2700.0
     capacity: 2700.0
@@ -53,7 +219,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 1
+    tierdifficulty: 5
     volume: 27500.0
   AIR Rogue Drone Analysis Node:
     capacitorcapacity: 2700.0
@@ -2850,7 +3016,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 4
+    tierdifficulty: 5
     volume: 27500.0
   Crimson Harvest Network Node:
     capacitorcapacity: 2700.0
@@ -3343,48 +3509,6 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 1
     volume: 27500.0
-  EDENCOM Secure Shield Facility:
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    id: 60438
-    lootrespawntime: 600000.0
-    name: EDENCOM Secure Shield Facility
-    portionSize: 1
-    published: false
-    signatureradius: 100.0
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-  EDENCOM construction dock:
-    capacitorcapacity: 2700.0
-    capacity: 2700.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityequipmentmax: 1
-    entityequipmentmin: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    hackable: 1
-    hp: 1000000.0
-    id: 60392
-    lootrespawntime: 600000.0
-    name: EDENCOM construction dock
-    packagedVolume: 27500.0
-    portionSize: 1
-    published: false
-    radius: 6000.0
-    requiredskill1: 21718
-    requiredskill1level: 1
-    signatureradius: 500.0
-    spawnwithoutguardstoo: 1
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    tierdifficulty: 1
-    volume: 27500.0
   Electronic_Container:
     capacitorcapacity: 2700.0
     capacity: 2700.0
@@ -3780,35 +3904,6 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 1.0E8
-  Gate Control System:
-    allowrefills: 1
-    capacitorcapacity: 2700.0
-    capacity: 2700.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityequipmentmax: 1
-    entityequipmentmin: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    hackable: 1
-    hp: 1000000.0
-    id: 60410
-    lootrespawntime: 3600000.0
-    name: Gate Control System
-    packagedVolume: 27500.0
-    portionSize: 1
-    published: false
-    radius: 14.0
-    requiredskill1: 21718
-    requiredskill1level: 1
-    signatureradius: 500.0
-    spawnwithoutguardstoo: 1
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    tierdifficulty: 1
-    volume: 27500.0
   Guristas Derelict:
     accessdifficulty: 9.999999974752427E-7
     capacitorcapacity: 2700.0
@@ -8136,6 +8231,33 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 2750.0
+  Tetrimon Network Hub:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 60713
+    lootrespawntime: 600000.0
+    name: Tetrimon Network Hub
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 5
+    volume: 27500.0
   Tetrimon Network Node:
     capacitorcapacity: 2700.0
     capacity: 2700.0
@@ -8431,7 +8553,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 1
+    tierdifficulty: 4
     volume: 27500.0
   Urigamu_Warehouse_MISSION:
     capacitorcapacity: 100000.0
@@ -9133,33 +9255,6 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    volume: 27500.0
-  '[no messageID: 588931]':
-    capacitorcapacity: 2700.0
-    capacity: 2700.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityequipmentmax: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    hackable: 1
-    hp: 1000000.0
-    id: 60713
-    lootrespawntime: 600000.0
-    name: '[no messageID: 588931]'
-    packagedVolume: 27500.0
-    portionSize: 1
-    published: false
-    radius: 300.0
-    requiredskill1: 21718
-    requiredskill1level: 1
-    signatureradius: 500.0
-    spawnwithoutguardstoo: 1
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    tierdifficulty: 4
     volume: 27500.0
   colins test Hulk:
     accessdifficulty: -10.0

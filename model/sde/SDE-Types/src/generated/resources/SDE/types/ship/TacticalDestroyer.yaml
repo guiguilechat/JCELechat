@@ -12,6 +12,7 @@ types:
     capacity: 400.0
     cpuoutput: 180
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 40
     gfxboosterid: 394
@@ -82,6 +83,7 @@ types:
     volume: 47000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Hecate:
     agility: 6.0
     armoremdamageresonance: 0.5
@@ -95,6 +97,7 @@ types:
     capacity: 450.0
     cpuoutput: 230
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 40
     gfxboosterid: 394
@@ -166,6 +169,7 @@ types:
     volume: 47000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Jackdaw:
     agility: 6.0
     armoremdamageresonance: 0.5
@@ -179,6 +183,7 @@ types:
     capacity: 450.0
     cpuoutput: 270
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 40
     gfxboosterid: 395
@@ -250,6 +255,7 @@ types:
     volume: 47000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
   Svipul:
     agility: 3.799999952316284
     armoremdamageresonance: 0.20000000298023224
@@ -263,6 +269,7 @@ types:
     capacity: 430.0
     cpuoutput: 205
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 40
     gfxboosterid: 394
@@ -334,3 +341,4 @@ types:
     volume: 47000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0

@@ -15,6 +15,7 @@ types:
     elitebonuscommanddestroyer1: 2
     elitebonuscommanddestroyer2: -5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 80
     gfxboosterid: 397
@@ -90,6 +91,7 @@ types:
     volume: 43000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Draugur:
     agility: 2.880000114440918
     armoremdamageresonance: 0.5
@@ -107,6 +109,7 @@ types:
     elitebonuscommanddestroyer1: 2
     elitebonuscommanddestroyer2: -5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
@@ -182,6 +185,7 @@ types:
     volume: 43000.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Magus:
     agility: 3.200000047683716
     armoremdamageresonance: 0.5
@@ -200,6 +204,7 @@ types:
     elitebonuscommanddestroyer1: 2
     elitebonuscommanddestroyer2: -5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 80
     gfxboosterid: 394
@@ -276,6 +281,7 @@ types:
     volume: 55000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Pontifex:
     agility: 3.4000000953674316
     armoremdamageresonance: 0.5
@@ -294,6 +300,7 @@ types:
     elitebonuscommanddestroyer1: 2
     elitebonuscommanddestroyer2: -5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 80
     gfxboosterid: 394
@@ -370,6 +377,7 @@ types:
     volume: 47000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Stork:
     agility: 3.5999999046325684
     armoremdamageresonance: 0.5
@@ -386,6 +394,7 @@ types:
     elitebonuscommanddestroyer1: 2
     elitebonuscommanddestroyer2: -5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 80
     gfxboosterid: 395
@@ -461,3 +470,4 @@ types:
     volume: 52000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0

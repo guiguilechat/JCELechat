@@ -93,7 +93,7 @@ types:
     entityequipmentmax: 2
     entityequipmentmin: 1
     entityflyrange: 8000.0
-    entitykillbounty: 10000.0
+    entitykillbounty: 10000
     entitylootcountmin: 1
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 25
@@ -155,7 +155,7 @@ types:
     entityequipmentmax: 2
     entityequipmentmin: 1
     entityflyrange: 8000.0
-    entitykillbounty: 10000.0
+    entitykillbounty: 10000
     entitylootcountmin: 1
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 25
@@ -217,7 +217,7 @@ types:
     entityequipmentmax: 2
     entityequipmentmin: 1
     entityflyrange: 500.0
-    entitykillbounty: 2000.0
+    entitykillbounty: 2000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.4000000059604645

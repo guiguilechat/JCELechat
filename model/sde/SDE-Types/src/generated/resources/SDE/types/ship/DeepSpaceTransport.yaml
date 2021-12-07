@@ -16,6 +16,7 @@ types:
     elitebonusindustrial1: 5
     elitebonusindustrial2: -4
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fleethangarcapacity: 50000
     fwlpkill: 100
@@ -90,6 +91,7 @@ types:
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
     warpspeedmultiplier: 3.299999952316284
+    weapondisruptionresistance: 1.0
   Impel:
     affectedbyindustrialinvulnmodule: 1
     agility: 1.0
@@ -107,6 +109,7 @@ types:
     elitebonusindustrial1: 5
     elitebonusindustrial2: -4
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fleethangarcapacity: 50000
     fwlpkill: 100
@@ -181,6 +184,7 @@ types:
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
     warpspeedmultiplier: 3.299999952316284
+    weapondisruptionresistance: 1.0
   Mastodon:
     affectedbyindustrialinvulnmodule: 1
     agility: 1.0
@@ -198,6 +202,7 @@ types:
     elitebonusindustrial1: 5
     elitebonusindustrial2: -4
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fleethangarcapacity: 50000
     fwlpkill: 100
@@ -272,6 +277,7 @@ types:
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
     warpspeedmultiplier: 3.299999952316284
+    weapondisruptionresistance: 1.0
   Occator:
     affectedbyindustrialinvulnmodule: 1
     agility: 1.0
@@ -289,6 +295,7 @@ types:
     elitebonusindustrial1: 5
     elitebonusindustrial2: -4
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fleethangarcapacity: 50000
     fwlpkill: 100
@@ -363,3 +370,4 @@ types:
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
     warpspeedmultiplier: 3.299999952316284
+    weapondisruptionresistance: 1.0

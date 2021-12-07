@@ -10,6 +10,7 @@ types:
     marketGroup: 1038
     maxrange: 10000.0
     miningamount: 1000
+    miningwastedvolumemultiplier: 1
     name: Ice Harvester I
     packagedVolume: 25.0
     portionSize: 1
@@ -34,6 +35,8 @@ types:
     maxrange: 10000.0
     metalevelold: 5
     miningamount: 1000
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
     name: Ice Harvester II
     packagedVolume: 5.0
     portionSize: 1
@@ -58,6 +61,7 @@ types:
     metagroupid: 4
     metalevelold: 6
     miningamount: 1000
+    miningwastedvolumemultiplier: 1
     name: ORE Ice Harvester
     packagedVolume: 5.0
     portionSize: 1
@@ -82,7 +86,8 @@ types:
     maxrange: 18750.0
     metagroupid: 4
     metalevelold: 6
-    miningamount: 700
+    miningamount: 800
+    miningwastedvolumemultiplier: 1
     name: ORE Strip Miner
     packagedVolume: 5.0
     portionSize: 1
@@ -104,7 +109,8 @@ types:
     id: 17482
     marketGroup: 1040
     maxrange: 15000.0
-    miningamount: 675
+    miningamount: 600
+    miningwastedvolumemultiplier: 1
     name: Strip Miner I
     packagedVolume: 25.0
     portionSize: 1

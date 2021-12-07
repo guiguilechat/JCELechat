@@ -18,6 +18,7 @@ types:
     elitebonusindustrial1: 5
     eliteindustrialcovertcloakbonus: -20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 395
@@ -88,6 +89,7 @@ types:
     volume: 195000.0
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0
+    weapondisruptionresistance: 1.0
   Prorator:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.5199999809265137
@@ -108,6 +110,7 @@ types:
     elitebonusindustrial2: -5
     eliteindustrialcovertcloakbonus: -20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
@@ -178,6 +181,7 @@ types:
     volume: 200000.0
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0
+    weapondisruptionresistance: 1.0
   Prowler:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.48500001430511475
@@ -198,6 +202,7 @@ types:
     elitebonusindustrial2: -5
     eliteindustrialcovertcloakbonus: -20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 397
@@ -269,6 +274,7 @@ types:
     volume: 180000.0
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0
+    weapondisruptionresistance: 1.0
   Viator:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.5400000214576721
@@ -289,6 +295,7 @@ types:
     elitebonusindustrial2: -5
     eliteindustrialcovertcloakbonus: -20
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
@@ -359,3 +366,4 @@ types:
     volume: 190000.0
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0
+    weapondisruptionresistance: 1.0

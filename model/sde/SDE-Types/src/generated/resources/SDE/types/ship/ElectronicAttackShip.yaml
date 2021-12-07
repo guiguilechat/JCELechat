@@ -14,6 +14,7 @@ types:
     elitebonuselectronicattackship1: 40
     elitebonuselectronicattackship2: -3
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
@@ -84,6 +85,7 @@ types:
     volume: 17400.0
     warpcapacitorneed: 2.2399999579647556E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Keres:
     agility: 4.099999904632568
     armoremdamageresonance: 0.5
@@ -101,6 +103,7 @@ types:
     elitebonuselectronicattackship1: 15
     elitebonuselectronicattackship2: -10
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -170,6 +173,7 @@ types:
     volume: 23000.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
   Kitsune:
     agility: 3.859999895095825
     armoremdamageresonance: 0.5
@@ -185,6 +189,7 @@ types:
     elitebonuselectronicattackship1: 15
     elitebonuselectronicattackship2: 5
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
@@ -255,6 +260,93 @@ types:
     volume: 19400.0
     warpcapacitorneed: 2.680000079635647E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
+  Raiju:
+    agility: 3.200000047683716
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 590.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.550000011920929
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 400.0
+    capacity: 130.0
+    cpuoutput: 178
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 38
+    gfxboosterid: 397
+    heatattenuationhi: 0.5
+    heatattenuationlow: 0.5
+    heatattenuationmed: 0.6299999952316284
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 1.0
+    hislots: 3
+    hp: 560.0
+    id: 60765
+    kineticdamageresonance: 0.6700000166893005
+    launcherslotsleft: 3
+    lowslots: 3
+    maincolor: 16777215
+    marketGroup: 1365
+    maxdirectionalvelocity: 3000
+    maxlockedtargets: 5
+    maxpassengers: 2
+    maxtargetrange: 28000.0
+    maxvelocity: 415.0
+    medslots: 4
+    metagroupid: 4
+    metalevelold: 8
+    mintargetveldmgmultiplier: 0.05000000074505806
+    name: Raiju
+    packagedVolume: 2500.0
+    portionSize: 1
+    poweroutput: 38
+    powertospeed: 1
+    propulsiongraphicid: 397
+    published: true
+    radius: 50.0
+    rechargerate: 195000.0
+    requiredskill1: 3330
+    requiredskill1level: 3
+    requiredskill2: 3328
+    requiredskill2level: 3
+    rigsize: 1
+    rigslots: 3
+    scangravimetricstrength: 13.0
+    scanresolution: 650.0
+    scanspeed: 1500
+    shieldcapacity: 680.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonus2af: 5.0
+    shipbonuscf2: 25.0
+    shipbonusgf2: 10.0
+    shipbonusrole7: 200.0
+    shipbonusrole8: -50.0
+    signatureradius: 32.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    typecolorscheme: 11318
+    uniformity: 1.0
+    upgradecapacity: 350
+    upgradeslotsleft: 3
+    volume: 27289.0
+    warpcapacitorneed: 2.680000079635647E-6
+    warpspeedmultiplier: 5.0
+    weapondisruptionresistance: 1.0
   Sentinel:
     agility: 4.25
     armoremdamageresonance: 0.5
@@ -273,6 +365,7 @@ types:
     elitebonuselectronicattackship2: -5
     elitebonuselectronicattackship3: 40
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
@@ -341,3 +434,4 @@ types:
     volume: 28100.0
     warpcapacitorneed: 1.6699999605407356E-6
     warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0

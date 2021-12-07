@@ -4,6 +4,7 @@ types:
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
     id: 28617
+    ignoreminingwaste: 1
     name: Banidine
     orebasictype: 1230
     packagedVolume: 0.10000000149011612
@@ -11,7 +12,7 @@ types:
     price: 2000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -30,7 +31,7 @@ types:
     price: 52500.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -49,7 +50,7 @@ types:
     price: 55000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -68,7 +69,7 @@ types:
     price: 1860.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -87,7 +88,7 @@ types:
     price: 50000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -108,7 +109,7 @@ types:
     price: 2100.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -129,7 +130,7 @@ types:
     price: 2200.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -150,7 +151,7 @@ types:
     price: 17.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -171,7 +172,7 @@ types:
     price: 2000.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12195
+    reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0

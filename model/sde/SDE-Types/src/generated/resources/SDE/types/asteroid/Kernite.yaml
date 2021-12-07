@@ -13,7 +13,7 @@ types:
     price: 1236750.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -32,7 +32,7 @@ types:
     price: 1123740.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -51,7 +51,7 @@ types:
     price: 1179510.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -70,7 +70,7 @@ types:
     price: 34200.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -91,7 +91,7 @@ types:
     price: 82450.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -112,7 +112,7 @@ types:
     price: 74916.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -133,7 +133,7 @@ types:
     price: 78634.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -143,6 +143,7 @@ types:
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
     id: 28620
+    ignoreminingwaste: 1
     name: Lyavite
     orebasictype: 20
     packagedVolume: 1.2000000476837158
@@ -150,7 +151,7 @@ types:
     price: 74916.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
@@ -171,7 +172,7 @@ types:
     price: 310.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 12188
+    reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0

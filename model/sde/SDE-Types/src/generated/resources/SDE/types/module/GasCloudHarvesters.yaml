@@ -1,0 +1,78 @@
+types:
+  Gas Cloud Harvester I:
+    canfitshipgroup01: 543
+    canfitshipgroup02: 463
+    capacitorneed: 15.0
+    cpu: 60.0
+    disallowearlydeactivation: 1
+    duration: 200000.0
+    hp: 40.0
+    id: 60313
+    marketGroup: 2795
+    maxrange: 1500.0
+    miningamount: 100
+    miningwastedvolumemultiplier: 1
+    name: Gas Cloud Harvester I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 1
+    slots: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0
+  Gas Cloud Harvester II:
+    canfitshipgroup01: 543
+    canfitshipgroup02: 463
+    capacitorneed: 20.0
+    cpu: 66.0
+    disallowearlydeactivation: 1
+    duration: 160000.0
+    hp: 40.0
+    id: 60314
+    marketGroup: 2795
+    maxrange: 1500.0
+    miningamount: 200
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
+    name: Gas Cloud Harvester II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 5
+    slots: 1
+    techlevel: 2
+    typecolorscheme: 11346
+    volume: 5.0
+  'Ore Gas Cloud Harvester ':
+    canfitshipgroup01: 543
+    canfitshipgroup02: 463
+    capacitorneed: 15.0
+    cpu: 50.0
+    disallowearlydeactivation: 1
+    duration: 160000.0
+    hp: 40.0
+    id: 60315
+    marketGroup: 2795
+    maxrange: 1500.0
+    metalevelold: 6
+    miningamount: 200
+    miningwastedvolumemultiplier: 1
+    name: 'Ore Gas Cloud Harvester '
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 5
+    slots: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0

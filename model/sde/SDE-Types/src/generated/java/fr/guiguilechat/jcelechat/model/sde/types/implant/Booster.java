@@ -92,6 +92,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StabilizeCloakDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebRangeAdd;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermodynamicsHeatDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.VelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSBonus;
@@ -623,6 +624,13 @@ public class Booster
     @DefaultIntValue(0)
     public int stasiswebrangebonus;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int thermodynamicsheatdamage;
+    /**
      * Tracking Speed Bonus
      */
     @HighIsGood(true)
@@ -650,7 +658,7 @@ public class Booster
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxScanDeviationModifier.INSTANCE, Mass.INSTANCE, StasisWebRangeAdd.INSTANCE, IceHarvestCycleBonus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, AgilityBonus.INSTANCE, Radius.INSTANCE, ShieldBoostMultiplier.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, SignatureRadiusBonus.INSTANCE, MaxFlightTimeBonus.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, PerceptionBonus.INSTANCE, MiningAmountBonus.INSTANCE, WillpowerBonus.INSTANCE, SocialMutator.INSTANCE, ScanResolutionBonus.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, ManufacturingTimeBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, VelocityBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, StasisWebRangeBonus.INSTANCE, StabilizeCloakDurationBonus.INSTANCE, SpeedFBonus.INSTANCE, Boosterness.INSTANCE, DamageMultiplier.INSTANCE, ScanSkillTargetPaintStrengthBonus.INSTANCE, BoosterEffectChance1 .INSTANCE, DurationBonus.INSTANCE, BoosterEffectChance2 .INSTANCE, BoosterEffectChance3 .INSTANCE, BoosterEffectChance4 .INSTANCE, CopySpeedBonus.INSTANCE, BoosterEffectChance5 .INSTANCE, HullHpBonus.INSTANCE, BoosterDuration.INSTANCE, ScanStrengthBonus.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, MineralNeedResearchBonus.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, EnergyWarfareResistanceBonus.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, Nondestructible.INSTANCE, PassiveEmDamageResistanceBonus.INSTANCE, PassiveExplosiveDamageResistanceBonus.INSTANCE, PassiveKineticDamageResistanceBonus.INSTANCE, PassiveThermicDamageResistanceBonus.INSTANCE, BoosterShieldBoostAmountPenalty.INSTANCE, SocialBonus.INSTANCE, BoosterMaxCharAgeHours.INSTANCE, WarpSBonus.INSTANCE, BoosterArmorHPPenalty.INSTANCE, BoosterLastInjectionDatetime.INSTANCE, BoosterArmorRepairAmountPenalty.INSTANCE, NonDiminishingSkillInjectorUses.INSTANCE, BoosterShieldCapacityPenalty.INSTANCE, BoosterTurretOptimalRangePenalty.INSTANCE, BoosterTurretTrackingPenalty.INSTANCE, MetaLevelOld.INSTANCE, BoosterTurretFalloffPenalty.INSTANCE, RefiningYieldMutator.INSTANCE, BoosterAOEVelocityPenalty.INSTANCE, FollowsJumpClones.INSTANCE, BoosterMissileVelocityPenalty.INSTANCE, BoosterMissileAOECloudPenalty.INSTANCE, BoosterCapacitorCapacityPenalty.INSTANCE, TrackingSpeedBonus.INSTANCE, ArmorDamageAmountBonus.INSTANCE, BoosterMaxVelocityPenalty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxScanDeviationModifier.INSTANCE, Mass.INSTANCE, StasisWebRangeAdd.INSTANCE, IceHarvestCycleBonus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, AgilityBonus.INSTANCE, Radius.INSTANCE, ShieldBoostMultiplier.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, SignatureRadiusBonus.INSTANCE, MaxFlightTimeBonus.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, PerceptionBonus.INSTANCE, MiningAmountBonus.INSTANCE, WillpowerBonus.INSTANCE, SocialMutator.INSTANCE, ScanResolutionBonus.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, ManufacturingTimeBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, VelocityBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, StasisWebRangeBonus.INSTANCE, StabilizeCloakDurationBonus.INSTANCE, SpeedFBonus.INSTANCE, Boosterness.INSTANCE, DamageMultiplier.INSTANCE, ScanSkillTargetPaintStrengthBonus.INSTANCE, BoosterEffectChance1 .INSTANCE, DurationBonus.INSTANCE, BoosterEffectChance2 .INSTANCE, BoosterEffectChance3 .INSTANCE, BoosterEffectChance4 .INSTANCE, CopySpeedBonus.INSTANCE, BoosterEffectChance5 .INSTANCE, HullHpBonus.INSTANCE, BoosterDuration.INSTANCE, ThermodynamicsHeatDamage.INSTANCE, ScanStrengthBonus.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, MineralNeedResearchBonus.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, EnergyWarfareResistanceBonus.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, Nondestructible.INSTANCE, PassiveEmDamageResistanceBonus.INSTANCE, PassiveExplosiveDamageResistanceBonus.INSTANCE, PassiveKineticDamageResistanceBonus.INSTANCE, PassiveThermicDamageResistanceBonus.INSTANCE, BoosterShieldBoostAmountPenalty.INSTANCE, SocialBonus.INSTANCE, BoosterMaxCharAgeHours.INSTANCE, WarpSBonus.INSTANCE, BoosterArmorHPPenalty.INSTANCE, BoosterLastInjectionDatetime.INSTANCE, BoosterArmorRepairAmountPenalty.INSTANCE, NonDiminishingSkillInjectorUses.INSTANCE, BoosterShieldCapacityPenalty.INSTANCE, BoosterTurretOptimalRangePenalty.INSTANCE, BoosterTurretTrackingPenalty.INSTANCE, MetaLevelOld.INSTANCE, BoosterTurretFalloffPenalty.INSTANCE, RefiningYieldMutator.INSTANCE, BoosterAOEVelocityPenalty.INSTANCE, FollowsJumpClones.INSTANCE, BoosterMissileVelocityPenalty.INSTANCE, BoosterMissileAOECloudPenalty.INSTANCE, BoosterCapacitorCapacityPenalty.INSTANCE, TrackingSpeedBonus.INSTANCE, ArmorDamageAmountBonus.INSTANCE, BoosterMaxVelocityPenalty.INSTANCE })));
     public static final Booster.MetaGroup METAGROUP = new Booster.MetaGroup();
 
     @Override
@@ -951,6 +959,10 @@ public class Booster
             case  2747 :
             {
                 return stasiswebrangebonus;
+            }
+            case  1229 :
+            {
+                return thermodynamicsheatdamage;
             }
             case  767 :
             {

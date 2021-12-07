@@ -256,6 +256,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Sanguine Harvest' Pants:
+    gender: 2
+    id: 60432
+    marketGroup: 1401
+    name: Men's 'Sanguine Harvest' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Semiotique Sports' Pants:
     gender: 2
     id: 60161
@@ -423,6 +432,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Men's Yoiul Stormchasers Pants:
+    gender: 2
+    id: 57075
+    marketGroup: 1401
+    name: Men's Yoiul Stormchasers Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Eternity' Suit (Black/Gold):
     clothingalsocoverscategory: 26
@@ -1086,6 +1104,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Sanguine Harvest' Pants:
+    gender: 2
+    id: 60434
+    marketGroup: 1403
+    name: Women's 'Sanguine Harvest' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Semiotique Sports' Pants:
     gender: 2
     id: 60167
@@ -1463,4 +1490,13 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's Yoiul Stormchasers Pants:
+    gender: 2
+    id: 57078
+    marketGroup: 1403
+    name: Women's Yoiul Stormchasers Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612

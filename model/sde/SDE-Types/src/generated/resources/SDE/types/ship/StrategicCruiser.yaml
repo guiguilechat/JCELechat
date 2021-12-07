@@ -12,6 +12,7 @@ types:
     capacity: 400.0
     cpuoutput: 220
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 300
     gfxboosterid: 394
@@ -88,6 +89,7 @@ types:
     volume: 118000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
   Loki:
     agility: 0.5400000214576721
     armoremdamageresonance: 0.20000000298023224
@@ -101,6 +103,7 @@ types:
     capacity: 420.0
     cpuoutput: 300
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 300
     gfxboosterid: 397
@@ -177,6 +180,7 @@ types:
     volume: 80000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
   Proteus:
     agility: 0.5600000023841858
     armoremdamageresonance: 0.5
@@ -190,6 +194,7 @@ types:
     capacity: 440.0
     cpuoutput: 230
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 300
     gfxboosterid: 394
@@ -266,6 +271,7 @@ types:
     volume: 115000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0
   Tengu:
     agility: 0.5199999809265137
     armoremdamageresonance: 0.5
@@ -279,6 +285,7 @@ types:
     capacity: 460.0
     cpuoutput: 310
     emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 300
     gfxboosterid: 395
@@ -355,3 +362,4 @@ types:
     volume: 92000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.0
+    weapondisruptionresistance: 1.0

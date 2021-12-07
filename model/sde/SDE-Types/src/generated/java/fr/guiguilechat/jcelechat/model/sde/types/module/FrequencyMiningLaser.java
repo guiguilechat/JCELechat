@@ -28,6 +28,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWasteProbability;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWastedVolumeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
@@ -116,6 +118,20 @@ public class FrequencyMiningLaser
     @DefaultIntValue(0)
     public int miningamount;
     /**
+     * The probability of volume getting wasted every cycle
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int miningwasteprobability;
+    /**
+     * This multiplier is applied to the Mining Volume of the actor (module, drone etc.) to calculate the potential wasted volume per cycle
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int miningwastedvolumemultiplier;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -178,7 +194,7 @@ public class FrequencyMiningLaser
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, MiningAmount.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, SpecialtyMiningAmount.INSTANCE, RequiredSkill2Level.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, MiningAmount.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, SpecialtyMiningAmount.INSTANCE, RequiredSkill2Level.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final FrequencyMiningLaser.MetaGroup METAGROUP = new FrequencyMiningLaser.MetaGroup();
 
     @Override
@@ -223,6 +239,14 @@ public class FrequencyMiningLaser
             case  77 :
             {
                 return miningamount;
+            }
+            case  3154 :
+            {
+                return miningwasteprobability;
+            }
+            case  3153 :
+            {
+                return miningwastedvolumemultiplier;
             }
             case  30 :
             {

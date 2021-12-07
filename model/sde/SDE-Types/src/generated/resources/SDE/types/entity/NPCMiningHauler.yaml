@@ -12,7 +12,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 0.6700000166893005
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 200000.0
+    entitykillbounty: 200000
     entityoverviewshipgroupid: 25
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 395
@@ -99,7 +99,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 0.43549999594688416
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 500000.0
+    entitykillbounty: 500000
     entityoverviewshipgroupid: 25
     explosivedamageresonance: 0.43549999594688416
     gfxboosterid: 395
@@ -187,7 +187,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 0.43549999594688416
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 500000.0
+    entitykillbounty: 500000
     entityoverviewshipgroupid: 25
     explosivedamageresonance: 0.43549999594688416
     gfxboosterid: 395
@@ -233,7 +233,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 0.43549999594688416
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 200000.0
+    entitykillbounty: 200000
     entityoverviewshipgroupid: 25
     explosivedamageresonance: 0.43549999594688416
     gfxboosterid: 395
@@ -320,7 +320,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 0.43549999594688416
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 200000.0
+    entitykillbounty: 200000
     entityoverviewshipgroupid: 25
     explosivedamageresonance: 0.43549999594688416
     gfxboosterid: 395
@@ -365,7 +365,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 0.43549999594688416
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 500000.0
+    entitykillbounty: 500000
     entityoverviewshipgroupid: 25
     explosivedamageresonance: 0.43549999594688416
     gfxboosterid: 395
@@ -453,7 +453,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 0.43549999594688416
     entityfactionloss: 0.009999999776482582
-    entitykillbounty: 500000.0
+    entitykillbounty: 500000
     entityoverviewshipgroupid: 25
     explosivedamageresonance: 0.43549999594688416
     gfxboosterid: 395

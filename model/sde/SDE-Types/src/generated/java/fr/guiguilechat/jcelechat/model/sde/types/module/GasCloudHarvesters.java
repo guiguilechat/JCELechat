@@ -14,6 +14,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -23,9 +25,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWasteProbability;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWastedVolumeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -36,9 +39,23 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
-public class GasCloudHarvester
+public class GasCloudHarvesters
     extends Module
 {
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup01;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup02;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -82,27 +99,26 @@ public class GasCloudHarvester
     @DefaultRealValue(0.0)
     public double maxrange;
     /**
-     * Authoring has been moved to FSD.
-     * meta group of type
-     * 
-     *  3: Story-line (Cosmos)
-     *  4: Faction
-     *  5: Officer (rare asteroid NPCs)
-     *  6: Deadspace
-     * 
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int metagroupid;
-    /**
      * How much ore gets mined
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int miningamount;
+    /**
+     * The probability of volume getting wasted every cycle
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int miningwasteprobability;
+    /**
+     * This multiplier is applied to the Mining Volume of the actor (module, drone etc.) to calculate the potential wasted volume per cycle
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int miningwastedvolumemultiplier;
     /**
      * current power need
      */
@@ -138,12 +154,20 @@ public class GasCloudHarvester
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, MiningAmount.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
-    public static final GasCloudHarvester.MetaGroup METAGROUP = new GasCloudHarvester.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, MiningAmount.INSTANCE, Slots.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, Power.INSTANCE })));
+    public static final GasCloudHarvesters.MetaGroup METAGROUP = new GasCloudHarvesters.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  1298 :
+            {
+                return canfitshipgroup01;
+            }
+            case  1299 :
+            {
+                return canfitshipgroup02;
+            }
             case  6 :
             {
                 return capacitorneed;
@@ -168,13 +192,17 @@ public class GasCloudHarvester
             {
                 return maxrange;
             }
-            case  1692 :
-            {
-                return metagroupid;
-            }
             case  77 :
             {
                 return miningamount;
+            }
+            case  3154 :
+            {
+                return miningwasteprobability;
+            }
+            case  3153 :
+            {
+                return miningwastedvolumemultiplier;
             }
             case  30 :
             {
@@ -209,35 +237,35 @@ public class GasCloudHarvester
     }
 
     @Override
-    public IMetaGroup<GasCloudHarvester> getGroup() {
+    public IMetaGroup<GasCloudHarvesters> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<GasCloudHarvester>
+        implements IMetaGroup<GasCloudHarvesters>
     {
-        public static final String RESOURCE_PATH = "SDE/types/module/GasCloudHarvester.yaml";
-        private Map<String, GasCloudHarvester> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/module/GasCloudHarvesters.yaml";
+        private Map<String, GasCloudHarvesters> cache = (null);
 
         @Override
-        public IMetaCategory<? super GasCloudHarvester> category() {
+        public IMetaCategory<? super GasCloudHarvesters> category() {
             return Module.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  737;
+            return  4138;
         }
 
         @Override
         public String getName() {
-            return "GasCloudHarvester";
+            return "GasCloudHarvesters";
         }
 
         @Override
-        public synchronized Map<String, GasCloudHarvester> load() {
+        public synchronized Map<String, GasCloudHarvesters> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(GasCloudHarvester.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(GasCloudHarvesters.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -247,7 +275,7 @@ public class GasCloudHarvester
         }
 
         private static class Container {
-            public LinkedHashMap<String, GasCloudHarvester> types;
+            public LinkedHashMap<String, GasCloudHarvesters> types;
         }
     }
 }

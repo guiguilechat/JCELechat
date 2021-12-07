@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class EliteBonusExpedition1
+public class ExpeditionFrigateBonusShieldResistance
     extends IntAttribute
 {
-    public static final EliteBonusExpedition1 INSTANCE = new EliteBonusExpedition1();
+    public static final ExpeditionFrigateBonusShieldResistance INSTANCE = new ExpeditionFrigateBonusShieldResistance();
 
     @Override
     public int getId() {
-        return  1942;
+        return  3192;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class EliteBonusExpedition1
 
     @Override
     public String toString() {
-        return "EliteBonusExpedition1";
+        return "ExpeditionFrigateBonusShieldResistance";
     }
 }
