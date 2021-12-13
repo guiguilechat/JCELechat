@@ -95,7 +95,7 @@ types:
     weapondisruptionresistance: 1.0
   Procurer:
     affectedbyindustrialinvulnmodule: 1
-    agility: 1.0
+    agility: 0.800000011920929
     allowedincapindustrialmaintenancebay: 1
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
@@ -170,8 +170,8 @@ types:
     shieldrechargerate: 2500000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shiprolebonuslightdronedamage: 50
-    shiprolebonusmediumdronedamage: 50
+    shiprolebonusdronedamage: 50
+    shiprolebonusdronehitpoints: 50
     signatureradius: 200.0
     structureuniformity: 1.0
     techlevel: 1
@@ -190,7 +190,7 @@ types:
     allowedincapindustrialmaintenancebay: 1
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 2500.0
+    armorhp: 3000.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
@@ -217,7 +217,7 @@ types:
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.75
     hislots: 2
-    hp: 2500.0
+    hp: 4000.0
     id: 17478
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -251,7 +251,7 @@ types:
     scanmagnetometricstrength: 9.0
     scanresolution: 550.0
     scanspeed: 1500
-    shieldcapacity: 2500.0
+    shieldcapacity: 4000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6000000238418579

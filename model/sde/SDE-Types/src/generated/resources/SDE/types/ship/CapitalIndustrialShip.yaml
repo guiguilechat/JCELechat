@@ -49,7 +49,7 @@ types:
     hislots: 8
     hp: 300000.0
     id: 28352
-    industrialcommandbonusdronedamage: 15
+    industrialcommandbonusdronedamage: 10
     industrialcommandbonusminingforemanburstrange: 5
     iscapitalsize: 1
     jumpdrivecapacitorneed: 0.949999988079071

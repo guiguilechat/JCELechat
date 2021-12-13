@@ -1897,6 +1897,7 @@ types:
     optimalsigradius: 125
     packagedVolume: 10.0
     portionSize: 1
+    price: 81536.0
     proximityrange: 2000
     published: true
     radius: 20.0

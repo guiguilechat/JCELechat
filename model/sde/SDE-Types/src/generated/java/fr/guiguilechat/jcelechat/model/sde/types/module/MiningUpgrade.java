@@ -23,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MiningDurationMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -81,13 +80,6 @@ public class MiningUpgrade
     @DefaultIntValue(0)
     public int miningamountbonus;
     /**
-     * Factor to scale mining laser durations by.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double miningdurationmultiplier;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -122,7 +114,7 @@ public class MiningUpgrade
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill2level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MiningDurationMultiplier.INSTANCE, IceHarvestCycleBonus.INSTANCE, MiningAmountBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, CpuPenaltyPercent.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, IceHarvestCycleBonus.INSTANCE, MiningAmountBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, CpuPenaltyPercent.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final MiningUpgrade.MetaGroup METAGROUP = new MiningUpgrade.MetaGroup();
 
     @Override
@@ -147,10 +139,6 @@ public class MiningUpgrade
             case  434 :
             {
                 return miningamountbonus;
-            }
-            case  203 :
-            {
-                return miningdurationmultiplier;
             }
             case  30 :
             {

@@ -13,6 +13,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 1400000.0
     published: true
     radius: 1.0
     requiredskill1: 12189
@@ -40,6 +41,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 3360000.0
     published: true
     radius: 1.0
     requiredskill1: 12189
@@ -67,6 +69,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 1750000.0
     published: true
     radius: 1.0
     requiredskill1: 12189
@@ -95,6 +98,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 4200000.0
     published: true
     radius: 1.0
     requiredskill1: 12189
@@ -122,6 +126,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 2100000.0
     published: true
     radius: 1.0
     requiredskill1: 12189
@@ -151,6 +156,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 5040000.0
     published: true
     radius: 1.0
     requiredskill1: 12189

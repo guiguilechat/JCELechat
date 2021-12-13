@@ -20,10 +20,10 @@ types:
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     expeditionfrigatebonusiceharvestingduration: -5
-    expeditionfrigatebonusshieldresistance: 4
+    expeditionfrigatebonusshieldresistance: -4
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
-    generalminingholdcapacity: 18750
+    generalminingholdcapacity: 19000
     gfxboosterid: 394
     heatattenuationhi: 0.5
     heatattenuationlow: 0.5
@@ -38,6 +38,7 @@ types:
     hislots: 3
     hp: 500.0
     id: 37135
+    ignorecloakvelocitypenalty: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -133,6 +134,7 @@ types:
     hislots: 3
     hp: 600.0
     id: 33697
+    ignorecloakvelocitypenalty: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
@@ -169,7 +171,7 @@ types:
     scanresolution: 750.0
     scanspeed: 2500
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.10000000149011612
+    shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
@@ -187,7 +189,6 @@ types:
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 2
-    velocitypenaltyreduction: 1
     volume: 50000.0
     warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 5.5

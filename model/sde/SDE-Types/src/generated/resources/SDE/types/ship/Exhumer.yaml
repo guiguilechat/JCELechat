@@ -199,7 +199,7 @@ types:
     weapondisruptionresistance: 1.0
   Skiff:
     affectedbyindustrialinvulnmodule: 1
-    agility: 1.0
+    agility: 0.800000011920929
     allowedincapindustrialmaintenancebay: 1
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
@@ -278,8 +278,8 @@ types:
     shieldrechargerate: 2500000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shiprolebonuslightdronedamage: 50
-    shiprolebonusmediumdronedamage: 50
+    shiprolebonusdronedamage: 50
+    shiprolebonusdronehitpoints: 50
     signatureradius: 200.0
     structureuniformity: 1.0
     techlevel: 2

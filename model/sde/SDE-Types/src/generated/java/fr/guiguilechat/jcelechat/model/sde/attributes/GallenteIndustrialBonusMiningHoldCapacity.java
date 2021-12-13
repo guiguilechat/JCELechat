@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class VelocityPenaltyReduction
+public class GallenteIndustrialBonusMiningHoldCapacity
     extends IntAttribute
 {
-    public static final VelocityPenaltyReduction INSTANCE = new VelocityPenaltyReduction();
+    public static final GallenteIndustrialBonusMiningHoldCapacity INSTANCE = new GallenteIndustrialBonusMiningHoldCapacity();
 
     @Override
     public int getId() {
-        return  2102;
+        return  3241;
     }
 
     @Override
@@ -28,7 +25,7 @@ public class VelocityPenaltyReduction
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class VelocityPenaltyReduction
 
     @Override
     public String toString() {
-        return "VelocityPenaltyReduction";
+        return "GallenteIndustrialBonusMiningHoldCapacity";
     }
 }

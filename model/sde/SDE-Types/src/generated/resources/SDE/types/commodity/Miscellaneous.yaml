@@ -16,6 +16,7 @@ types:
     name: AEGIS Covert Operations Reports
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.10000000149011612
   AEGIS Fortification Schematics:
@@ -26,6 +27,7 @@ types:
     name: AEGIS Fortification Schematics
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.10000000149011612
   AEGIS Personnel File Backups:
@@ -36,6 +38,7 @@ types:
     name: AEGIS Personnel File Backups
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   AEGIS Security Patrol Reports:
@@ -46,6 +49,7 @@ types:
     name: AEGIS Security Patrol Reports
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   AIMEDs:

@@ -6,6 +6,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -16,6 +17,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -27,6 +29,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -37,6 +40,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -48,6 +52,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.08E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -58,6 +63,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -69,6 +75,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -79,6 +86,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -90,6 +98,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -100,6 +109,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -111,6 +121,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5400000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -121,6 +132,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -131,7 +143,7 @@ types:
     name: Common Moon Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 6811200.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -140,6 +152,7 @@ types:
     name: Common Moon Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -150,6 +163,7 @@ types:
     name: Common Moon Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8514000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -158,6 +172,7 @@ types:
     name: Common Moon Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -168,6 +183,7 @@ types:
     name: Common Moon Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.02168E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -176,6 +192,7 @@ types:
     name: Common Moon Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -187,6 +204,7 @@ types:
     name: Complex Asteroid Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -197,6 +215,7 @@ types:
     name: Complex Asteroid Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -208,6 +227,7 @@ types:
     name: Complex Asteroid Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -218,6 +238,7 @@ types:
     name: Complex Asteroid Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -229,6 +250,7 @@ types:
     name: Complex Asteroid Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.08E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -239,6 +261,7 @@ types:
     name: Complex Asteroid Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -249,7 +272,7 @@ types:
     name: Exceptional Moon Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 8020800.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -258,6 +281,7 @@ types:
     name: Exceptional Moon Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -268,6 +292,7 @@ types:
     name: Exceptional Moon Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0026E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -276,6 +301,7 @@ types:
     name: Exceptional Moon Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -286,6 +312,7 @@ types:
     name: Exceptional Moon Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.20312E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -294,6 +321,7 @@ types:
     name: Exceptional Moon Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -305,7 +333,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
+    price: 1.4E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -328,6 +356,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.75E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -338,6 +367,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -349,6 +379,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.1E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -359,6 +390,7 @@ types:
     name: Mercoxit Asteroid Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -369,7 +401,7 @@ types:
     name: Rare Moon Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 7617600.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -378,6 +410,7 @@ types:
     name: Rare Moon Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -388,6 +421,7 @@ types:
     name: Rare Moon Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9522000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -396,6 +430,7 @@ types:
     name: Rare Moon Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -406,6 +441,7 @@ types:
     name: Rare Moon Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.14264E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -414,6 +450,7 @@ types:
     name: Rare Moon Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -425,6 +462,7 @@ types:
     name: Simple Asteroid Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -435,6 +473,7 @@ types:
     name: Simple Asteroid Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -446,6 +485,7 @@ types:
     name: Simple Asteroid Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -456,6 +496,7 @@ types:
     name: Simple Asteroid Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -467,6 +508,7 @@ types:
     name: Simple Asteroid Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -477,6 +519,7 @@ types:
     name: Simple Asteroid Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -487,7 +530,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 6408000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -496,6 +539,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -506,6 +550,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8010000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -514,6 +559,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -524,6 +570,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9612000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -532,6 +579,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -542,7 +590,7 @@ types:
     name: Uncommon Moon Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 7214400.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -551,6 +599,7 @@ types:
     name: Uncommon Moon Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -561,6 +610,7 @@ types:
     name: Uncommon Moon Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9018000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -569,6 +619,7 @@ types:
     name: Uncommon Moon Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -579,6 +630,7 @@ types:
     name: Uncommon Moon Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.08216E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -587,6 +639,7 @@ types:
     name: Uncommon Moon Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -598,6 +651,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type A I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5700000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -608,6 +662,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type A II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -619,6 +674,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type B I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -629,6 +685,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type B II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2499999744E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -640,6 +697,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type C I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8550000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -650,6 +708,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type C II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5000000512E10
     published: true
     radius: 1.0
     techlevel: 2

@@ -720,6 +720,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1470,6 +1471,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 6
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4025,6 +4027,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 8
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402

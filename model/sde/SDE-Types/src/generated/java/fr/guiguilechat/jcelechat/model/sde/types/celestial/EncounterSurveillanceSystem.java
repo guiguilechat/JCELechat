@@ -11,7 +11,6 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
@@ -25,27 +24,6 @@ import org.yaml.snakeyaml.Yaml;
 public class EncounterSurveillanceSystem
     extends Celestial
 {
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * Attribute to disallow targetting.
      */
@@ -66,18 +44,6 @@ public class EncounterSurveillanceSystem
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
-            case  4 :
-            {
-                return mass;
-            }
-            case  162 :
-            {
-                return radius;
-            }
             case  1158 :
             {
                 return untargetable;

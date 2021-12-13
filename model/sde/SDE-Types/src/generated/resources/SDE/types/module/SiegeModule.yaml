@@ -125,7 +125,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.7609576E7
+    price: 8.0E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -184,7 +184,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 150000
-    price: 3.7609576E7
+    price: 2.08E8
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -100
@@ -239,6 +239,7 @@ types:
     packagedVolume: 3500.0
     portionSize: 1
     power: 100
+    price: 6.0E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -292,6 +293,7 @@ types:
     packagedVolume: 3500.0
     portionSize: 1
     power: 150
+    price: 1.56E8
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80

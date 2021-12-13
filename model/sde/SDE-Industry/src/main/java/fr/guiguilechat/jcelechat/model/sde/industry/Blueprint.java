@@ -191,21 +191,34 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 
 	public boolean seeded;
 
-	public double makeEIV(Function<Integer, Double> getAdjusted) {
+	public double makeEIV(Function<Integer, Double> adjustedPrices) {
 		if (manufacturing == null || manufacturing.materials == null) {
+			logger.warn("no manufacturing for BP " + name());
 			return 0.0;
 		}
-		double ret = manufacturing.materials.parallelStream()
-				.mapToDouble(mat -> mat == null ? 0 : mat.quantity * getAdjusted.apply(mat.id)).sum();
+		double ret = 0;
+		StringBuilder sb = new StringBuilder();
+		for (MaterialReq<?> mat : manufacturing.materials) {
+			if (mat == null) {
+				sb.append("null:0");
+			} else {
+				double adjustedPrice = adjustedPrices.apply(mat.id);
+				double eivPart = adjustedPrice * mat.quantity;
+				ret += eivPart;
+				sb.append(mat.name()).append(":").append((long) adjustedPrice).append("[×").append(mat.quantity).append("=")
+						.append((long) eivPart).append("]");
+			}
+		}
 		if (ret == Double.POSITIVE_INFINITY) {
 			System.err.println("infinitie eiv for " + name());
 			for (MaterialReq<?> mat : manufacturing.materials) {
-				double adj = getAdjusted.apply(mat.id);
+				double adj = adjustedPrices.apply(mat.id);
 				if (adj == Double.POSITIVE_INFINITY) {
 					System.out.println("adjusted for id " + mat.id + " = " + adj);
 				}
 			}
 		}
+		logger.debug("EIV of BP " + name() + "=" + (long) ret + " " + sb.toString());
 		return ret;
 	}
 

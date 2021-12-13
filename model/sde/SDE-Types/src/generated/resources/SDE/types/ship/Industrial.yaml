@@ -610,6 +610,7 @@ types:
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
+    gallenteindustrialbonusminingholdcapacity: 10
     generalminingholdcapacity: 42000
     gfxboosterid: 395
     heatattenuationhi: 1.0
@@ -663,7 +664,6 @@ types:
     shipbonusci: 5
     shipbonusgi: 5
     shipbonusmi: 5
-    shiprolebonusgeneralminingholdcapacity: 10
     signatureradius: 205.0
     structureuniformity: 1.0
     techlevel: 1

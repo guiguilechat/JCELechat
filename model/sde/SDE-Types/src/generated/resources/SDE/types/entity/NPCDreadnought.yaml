@@ -1,11 +1,14 @@
 types:
   Darkwight Rakshasa:
-    agility: 5.0
+    agility: 0.019999999552965164
     armoremdamageresonance: 0.17100000381469727
     armorexplosivedamageresonance: 0.22200000286102295
     armorhp: 235000.0
     armorkineticdamageresonance: 0.25699999928474426
     armorthermaldamageresonance: 0.27399998903274536
+    behaviorarmorrepaireramount: 5280
+    behaviorarmorrepairerdischarge: 1920
+    behaviorarmorrepairerduration: 30000
     behaviorenergynosferatudischarge: -375.0
     behaviorenergynosferatuduration: 24000
     behaviorenergynosferatufalloff: 8000
@@ -26,10 +29,8 @@ types:
     damagemultiplier: 54.0
     emdamage: 28.0
     emdamageresonance: 0.41999998688697815
-    entityfactionloss: 0.009999999776482582
     entitykillbounty: 60000000
     entitysecuritymaxgain: 5.0
-    explosivedamage: 28.0
     explosivedamageresonance: 0.41999998688697815
     falloff: 75000.0
     fighterabilityanticapitalmissileresistance: 1
@@ -38,14 +39,13 @@ types:
     hp: 141250.0
     id: 61292
     iscapitalsize: 1
-    kineticdamage: 28.0
     kineticdamageresonance: 0.41999998688697815
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
     maxrange: 175000.0
     maxtargetrange: 300000.0
-    maxvelocity: 160.0
+    maxvelocity: 75.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -78,15 +78,15 @@ types:
     volume: 1.85E7
     warpspeedmultiplier: 25.0
   Moonwight Rakshasa:
-    agility: 5.0
+    agility: 0.019999999552965164
     armoremdamageresonance: 0.25
     armorexplosivedamageresonance: 0.25
     armorhp: 141000.0
     armorkineticdamageresonance: 0.25
     armorthermaldamageresonance: 0.25
-    behaviorarmorrepaireramount: 21100
+    behaviorarmorrepaireramount: 5280
     behaviorarmorrepairerdischarge: 1920
-    behaviorarmorrepairerduration: 11200
+    behaviorarmorrepairerduration: 30000
     behaviorenergynosferatudischarge: -375.0
     behaviorenergynosferatuduration: 24000
     behaviorenergynosferatufalloff: 8000
@@ -107,10 +107,8 @@ types:
     damagemultiplier: 54.0
     emdamage: 28.0
     emdamageresonance: 1.0
-    entityfactionloss: 0.009999999776482582
     entitykillbounty: 30000000
     entitysecuritymaxgain: 5.0
-    explosivedamage: 28.0
     explosivedamageresonance: 1.0
     falloff: 75000.0
     fighterabilityanticapitalmissileresistance: 1
@@ -119,14 +117,13 @@ types:
     hp: 141000.0
     id: 60943
     iscapitalsize: 1
-    kineticdamage: 28.0
     kineticdamageresonance: 1.0
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
     maxrange: 175000.0
     maxtargetrange: 300000.0
-    maxvelocity: 160.0
+    maxvelocity: 75.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -159,15 +156,15 @@ types:
     volume: 1.85E7
     warpspeedmultiplier: 25.0
   Starwight Rakshasa:
-    agility: 5.0
+    agility: 0.019999999552965164
     armoremdamageresonance: 0.25
     armorexplosivedamageresonance: 0.25
     armorhp: 141000.0
     armorkineticdamageresonance: 0.25
     armorthermaldamageresonance: 0.25
-    behaviorarmorrepaireramount: 21100
+    behaviorarmorrepaireramount: 5280
     behaviorarmorrepairerdischarge: 1920
-    behaviorarmorrepairerduration: 11200
+    behaviorarmorrepairerduration: 30000
     behaviorenergynosferatudischarge: -375.0
     behaviorenergynosferatuduration: 24000
     behaviorenergynosferatufalloff: 8000
@@ -188,10 +185,8 @@ types:
     damagemultiplier: 9.0
     emdamage: 28.0
     emdamageresonance: 1.0
-    entityfactionloss: 0.009999999776482582
     entitykillbounty: 20000000
     entitysecuritymaxgain: 5.0
-    explosivedamage: 28.0
     explosivedamageresonance: 1.0
     falloff: 45000.0
     fighterabilityanticapitalmissileresistance: 1
@@ -200,14 +195,13 @@ types:
     hp: 141000.0
     id: 60942
     iscapitalsize: 1
-    kineticdamage: 28.0
     kineticdamageresonance: 1.0
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
     maxrange: 55000.0
     maxtargetrange: 300000.0
-    maxvelocity: 160.0
+    maxvelocity: 75.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0

@@ -64,6 +64,7 @@ public class EdogmaAttributes {
 	public float defaultValue;
 	public String description;
 	public Object displayNameID;
+	public boolean displayWhenZero;
 	public boolean highIsGood;
 	public int iconID;
 	public int maxAttributeID;

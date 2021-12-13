@@ -3,10 +3,10 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-public class ShipRoleBonusMediumDroneDamage
+public class ShipRoleBonusDroneHitPoints
     extends IntAttribute
 {
-    public static final ShipRoleBonusMediumDroneDamage INSTANCE = new ShipRoleBonusMediumDroneDamage();
+    public static final ShipRoleBonusDroneHitPoints INSTANCE = new ShipRoleBonusDroneHitPoints();
 
     @Override
     public int getId() {
@@ -35,6 +35,6 @@ public class ShipRoleBonusMediumDroneDamage
 
     @Override
     public String toString() {
-        return "ShipRoleBonusMediumDroneDamage";
+        return "ShipRoleBonusDroneHitPoints";
     }
 }

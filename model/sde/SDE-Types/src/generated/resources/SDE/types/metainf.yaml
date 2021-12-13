@@ -39349,7 +39349,7 @@ id2name:
   60312: Mercoxit Asteroid Mining Crystal Type C II
   60313: Gas Cloud Harvester I
   60314: Gas Cloud Harvester II
-  60315: 'Ore Gas Cloud Harvester '
+  60315: ORE Gas Cloud Harvester
   60316: Infesting Destructor Theta
   60317: Infesting Obstructor Nu
   60318: Infesting Obstructor Pi
@@ -59490,6 +59490,8 @@ name2group:
   Men's 'Valkyrie' Flight Jacket: apparel/Outer
   Men's 'Vermillion Dragon' Facial Augmentation: apparel/Augmentations
   Men's 'Wirepoise' Facial Augmentation: apparel/Augmentations
+  Men's Albedo Affluence Jacket: apparel/Outer
+  Men's Albedo Affluence Pants: apparel/Outer
   Men's Amarr 'Loyalist' T-Shirt: apparel/Tops
   Men's Amarr Empire Command Jacket: apparel/Outer
   Men's Amarr Empire Exploration Suit: apparel/Outer
@@ -59580,6 +59582,8 @@ name2group:
   Men's Republic Stargate Crew Pants: apparel/Bottoms
   Men's Republic Stargate Crew Shoes: apparel/Footwear
   Men's Republic Stargate Crew Top: apparel/Tops
+  Men's Rubedo Richesse Jacket: apparel/Outer
+  Men's Rubedo Richesse Pants: apparel/Outer
   Men's SARO 'Black Troop' Combat Suit: apparel/Outer
   Men's SOE Enhanced Biosecurity Mask: apparel/Masks
   Men's SOE Expeditionary Suit: apparel/Outer
@@ -61265,6 +61269,7 @@ name2group:
   ORE Freighter: skill/SpaceshipCommand
   ORE Fresh Volatile Ice Processor: entity/DeadspaceOverseerSStructure
   ORE Friable Volatile Ice Processor: entity/DeadspaceOverseerSStructure
+  ORE Gas Cloud Harvester: module/GasCloudHarvesters
   ORE Green Salvage Package: specialeditionassets/SpecialEditionCommodities
   ORE Ice Harvester: module/StripMiner
   ORE Ice Mining Laser: module/MiningLaser
@@ -61611,7 +61616,6 @@ name2group:
   Orca Rosada Dawn SKIN: skins/PermanentSKIN
   Orca Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Ordered Mind Bonus: bonus/PhysicalBenefit
-  'Ore Gas Cloud Harvester ': module/GasCloudHarvesters
   Ore Passkey: commodity/Miscellaneous
   Ore Prospecting Array 1: infrastructureupgrades/IndustrialUpgrades
   Ore Prospecting Array 1 Blueprint: blueprint/InfrastructureUpgradeBlueprint
@@ -71040,6 +71044,8 @@ name2group:
   Women's 'Vise' Cybernetic Arm (white and gray ringed left): apparel/Prosthetics
   Women's 'Vise' Cybernetic Arm (white and gray ringed right): apparel/Prosthetics
   Women's 'Waveform' Facial Augmentation: apparel/Augmentations
+  Women's Albedo Affluence Jacket: apparel/Outer
+  Women's Albedo Affluence Pants: apparel/Outer
   Women's Amarr 'Loyalist' T-Shirt: apparel/Tops
   Women's Amarr Empire Command Jacket: apparel/Outer
   Women's Amarr Empire Exploration Suit: apparel/Outer
@@ -71130,6 +71136,8 @@ name2group:
   Women's Republic Stargate Crew Pants: apparel/Bottoms
   Women's Republic Stargate Crew Shoes: apparel/Footwear
   Women's Republic Stargate Crew Top: apparel/Tops
+  Women's Rubedo Richesse Jacket: apparel/Outer
+  Women's Rubedo Richesse Pants: apparel/Outer
   Women's SARO 'Black Troop' Combat Suit: apparel/Outer
   Women's SOE Enhanced Biosecurity Mask: apparel/Masks
   Women's SOE Expeditionary Suit: apparel/Outer

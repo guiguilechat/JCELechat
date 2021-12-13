@@ -6,6 +6,7 @@ types:
     name: Abyssal Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -77,6 +78,7 @@ types:
     name: Coherent Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -114,6 +116,7 @@ types:
     name: Complex Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -223,6 +226,7 @@ types:
     name: Industrial Reconfiguration
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -251,7 +255,6 @@ types:
   Mercoxit Ore Processing:
     cannotbetrainedontrial: 1
     id: 12189
-    isskilliobsolete: 1
     marketGroup: 1323
     name: Mercoxit Ore Processing
     packagedVolume: 0.009999999776482582
@@ -429,6 +432,7 @@ types:
     name: Simple Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 300000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -485,6 +489,7 @@ types:
     name: Variegated Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     primaryattribute: 166
     published: true
     radius: 1.0

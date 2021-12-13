@@ -49,11 +49,13 @@ types:
     volume: 10.0
   Chartreuse Cytoserocin:
     id: 28630
+    ignoreminingwaste: 1
     name: Chartreuse Cytoserocin
     packagedVolume: 10.0
     portionSize: 1
     price: 2000.0
     published: true
+    radius: 100.0
     volume: 10.0
   Fullerite-C28:
     id: 30375
@@ -129,11 +131,13 @@ types:
     volume: 2.0
   Gamboge Cytoserocin:
     id: 28629
+    ignoreminingwaste: 1
     name: Gamboge Cytoserocin
     packagedVolume: 10.0
     portionSize: 1
     price: 2000.0
     published: true
+    radius: 100.0
     volume: 10.0
   Golden Cytoserocin:
     id: 25273

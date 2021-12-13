@@ -514,6 +514,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Albedo Affluence Jacket:
+    gender: 2
+    id: 54382
+    marketGroup: 1399
+    name: Men's Albedo Affluence Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Albedo Affluence Pants:
+    gender: 2
+    id: 54376
+    marketGroup: 1401
+    name: Men's Albedo Affluence Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Amarr Empire Command Jacket:
     gender: 2
     id: 46662
@@ -864,6 +882,24 @@ types:
     id: 46674
     marketGroup: 1399
     name: Men's Republic Fleet Ordnance Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Rubedo Richesse Jacket:
+    gender: 2
+    id: 54381
+    marketGroup: 1399
+    name: Men's Rubedo Richesse Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Rubedo Richesse Pants:
+    gender: 2
+    id: 54375
+    marketGroup: 1401
+    name: Men's Rubedo Richesse Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1811,6 +1847,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's Albedo Affluence Jacket:
+    gender: 2
+    id: 54364
+    marketGroup: 1405
+    name: Women's Albedo Affluence Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Albedo Affluence Pants:
+    gender: 2
+    id: 54370
+    marketGroup: 1403
+    name: Women's Albedo Affluence Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Amarr Empire Command Jacket:
     gender: 2
     id: 46663
@@ -2162,6 +2216,24 @@ types:
     id: 46661
     marketGroup: 1405
     name: Women's Republic Fleet Ordnance Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Rubedo Richesse Jacket:
+    gender: 2
+    id: 54363
+    marketGroup: 1405
+    name: Women's Rubedo Richesse Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Rubedo Richesse Pants:
+    gender: 2
+    id: 54369
+    marketGroup: 1403
+    name: Women's Rubedo Richesse Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

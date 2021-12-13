@@ -25,33 +25,12 @@ public class FreightContainer
     extends Celestial
 {
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
-    /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * DO NOT MESS WITH
      */
@@ -65,21 +44,9 @@ public class FreightContainer
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  9 :
             {
                 return hp;
-            }
-            case  4 :
-            {
-                return mass;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  525 :
             {

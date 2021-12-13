@@ -14,6 +14,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type A I
     packagedVolume: 10.0
     portionSize: 1
+    price: 720000.0
     published: true
     radius: 1.0
     requiredskill1: 60381
@@ -41,6 +42,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1728000.0
     published: true
     radius: 1.0
     requiredskill1: 60381
@@ -69,6 +71,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type B I
     packagedVolume: 10.0
     portionSize: 1
+    price: 900000.0
     published: true
     radius: 1.0
     requiredskill1: 60381
@@ -97,6 +100,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2160000.0
     published: true
     radius: 1.0
     requiredskill1: 60381
@@ -125,6 +129,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type C I
     packagedVolume: 10.0
     portionSize: 1
+    price: 1080000.0
     published: true
     radius: 1.0
     requiredskill1: 60381
@@ -154,6 +159,7 @@ types:
     name: Abyssal Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2592000.0
     published: true
     radius: 1.0
     requiredskill1: 60381
@@ -182,6 +188,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 360000.0
     published: true
     radius: 1.0
     requiredskill1: 60378
@@ -209,6 +216,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 864000.0
     published: true
     radius: 1.0
     requiredskill1: 60378
@@ -236,6 +244,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 450000.0
     published: true
     radius: 1.0
     requiredskill1: 60378
@@ -264,6 +273,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1080000.0
     published: true
     radius: 1.0
     requiredskill1: 60378
@@ -291,6 +301,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 540000.0
     published: true
     radius: 1.0
     requiredskill1: 60378
@@ -320,6 +331,7 @@ types:
     name: Coherent Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1296000.0
     published: true
     radius: 1.0
     requiredskill1: 60378
@@ -348,6 +360,7 @@ types:
     name: Common Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 681120.0
     published: true
     radius: 1.0
     requiredskill1: 46153
@@ -375,6 +388,7 @@ types:
     name: Common Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1634688.0
     published: true
     radius: 1.0
     requiredskill1: 46153
@@ -402,6 +416,7 @@ types:
     name: Common Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 851400.0
     published: true
     radius: 1.0
     requiredskill1: 46153
@@ -430,6 +445,7 @@ types:
     name: Common Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2043360.0
     published: true
     radius: 1.0
     requiredskill1: 46153
@@ -457,6 +473,7 @@ types:
     name: Common Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 1021680.0
     published: true
     radius: 1.0
     requiredskill1: 46153
@@ -486,6 +503,7 @@ types:
     name: Common Moon Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2452032.0
     published: true
     radius: 1.0
     requiredskill1: 46153
@@ -514,6 +532,7 @@ types:
     name: Complex Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 720000.0
     published: true
     radius: 1.0
     requiredskill1: 60380
@@ -541,6 +560,7 @@ types:
     name: Complex Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1728000.0
     published: true
     radius: 1.0
     requiredskill1: 60380
@@ -568,6 +588,7 @@ types:
     name: Complex Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 900000.0
     published: true
     radius: 1.0
     requiredskill1: 60380
@@ -596,6 +617,7 @@ types:
     name: Complex Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2160000.0
     published: true
     radius: 1.0
     requiredskill1: 60380
@@ -623,6 +645,7 @@ types:
     name: Complex Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 1080000.0
     published: true
     radius: 1.0
     requiredskill1: 60380
@@ -652,6 +675,7 @@ types:
     name: Complex Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2592000.0
     published: true
     radius: 1.0
     requiredskill1: 60380
@@ -680,6 +704,7 @@ types:
     name: Exceptional Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 802080.0
     published: true
     radius: 1.0
     requiredskill1: 46156
@@ -707,6 +732,7 @@ types:
     name: Exceptional Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1924992.0
     published: true
     radius: 1.0
     requiredskill1: 46156
@@ -734,6 +760,7 @@ types:
     name: Exceptional Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 1002600.0
     published: true
     radius: 1.0
     requiredskill1: 46156
@@ -762,6 +789,7 @@ types:
     name: Exceptional Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2406240.0
     published: true
     radius: 1.0
     requiredskill1: 46156
@@ -789,6 +817,7 @@ types:
     name: Exceptional Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 1203120.0
     published: true
     radius: 1.0
     requiredskill1: 46156
@@ -818,6 +847,7 @@ types:
     name: Exceptional Moon Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2887488.0
     published: true
     radius: 1.0
     requiredskill1: 46156
@@ -846,6 +876,7 @@ types:
     name: Rare Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 761760.0
     published: true
     radius: 1.0
     requiredskill1: 46155
@@ -873,6 +904,7 @@ types:
     name: Rare Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1828224.0
     published: true
     radius: 1.0
     requiredskill1: 46155
@@ -900,6 +932,7 @@ types:
     name: Rare Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 952200.0
     published: true
     radius: 1.0
     requiredskill1: 46155
@@ -928,6 +961,7 @@ types:
     name: Rare Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2285280.0
     published: true
     radius: 1.0
     requiredskill1: 46155
@@ -955,6 +989,7 @@ types:
     name: Rare Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 1142640.0
     published: true
     radius: 1.0
     requiredskill1: 46155
@@ -984,6 +1019,7 @@ types:
     name: Rare Moon Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2742336.0
     published: true
     radius: 1.0
     requiredskill1: 46155
@@ -1011,6 +1047,7 @@ types:
     name: Simple Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 60377
@@ -1037,6 +1074,7 @@ types:
     name: Simple Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 480000.0
     published: true
     radius: 1.0
     requiredskill1: 60377
@@ -1064,6 +1102,7 @@ types:
     name: Simple Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     requiredskill1: 60377
@@ -1092,6 +1131,7 @@ types:
     name: Simple Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 600000.0
     published: true
     radius: 1.0
     requiredskill1: 60377
@@ -1119,6 +1159,7 @@ types:
     name: Simple Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 300000.0
     published: true
     radius: 1.0
     requiredskill1: 60377
@@ -1148,6 +1189,7 @@ types:
     name: Simple Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 720000.0
     published: true
     radius: 1.0
     requiredskill1: 60377
@@ -1175,6 +1217,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 640800.0
     published: true
     radius: 1.0
     requiredskill1: 46152
@@ -1201,6 +1244,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1537920.0
     published: true
     radius: 1.0
     requiredskill1: 46152
@@ -1228,6 +1272,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 801000.0
     published: true
     radius: 1.0
     requiredskill1: 46152
@@ -1256,6 +1301,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1922400.0
     published: true
     radius: 1.0
     requiredskill1: 46152
@@ -1283,6 +1329,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 961200.0
     published: true
     radius: 1.0
     requiredskill1: 46152
@@ -1312,6 +1359,7 @@ types:
     name: Ubiquitous Moon Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2306880.0
     published: true
     radius: 1.0
     requiredskill1: 46152
@@ -1340,6 +1388,7 @@ types:
     name: Uncommon Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 721440.0
     published: true
     radius: 1.0
     requiredskill1: 46154
@@ -1367,6 +1416,7 @@ types:
     name: Uncommon Moon Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1731456.0
     published: true
     radius: 1.0
     requiredskill1: 46154
@@ -1394,6 +1444,7 @@ types:
     name: Uncommon Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 901800.0
     published: true
     radius: 1.0
     requiredskill1: 46154
@@ -1422,6 +1473,7 @@ types:
     name: Uncommon Moon Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2164320.0
     published: true
     radius: 1.0
     requiredskill1: 46154
@@ -1449,6 +1501,7 @@ types:
     name: Uncommon Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 1082160.0
     published: true
     radius: 1.0
     requiredskill1: 46154
@@ -1478,6 +1531,7 @@ types:
     name: Uncommon Moon Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2597184.0
     published: true
     radius: 1.0
     requiredskill1: 46154
@@ -1506,6 +1560,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
+    price: 570000.0
     published: true
     radius: 1.0
     requiredskill1: 60379
@@ -1533,6 +1588,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1368000.0
     published: true
     radius: 1.0
     requiredskill1: 60379
@@ -1560,6 +1616,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
+    price: 712500.0
     published: true
     radius: 1.0
     requiredskill1: 60379
@@ -1588,6 +1645,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
     portionSize: 1
+    price: 1710000.0
     published: true
     radius: 1.0
     requiredskill1: 60379
@@ -1615,6 +1673,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
+    price: 855000.0
     published: true
     radius: 1.0
     requiredskill1: 60379
@@ -1644,6 +1703,7 @@ types:
     name: Variegated Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
     portionSize: 1
+    price: 2052000.0
     published: true
     radius: 1.0
     requiredskill1: 60379

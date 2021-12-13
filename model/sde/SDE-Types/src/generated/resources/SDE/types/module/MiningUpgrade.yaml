@@ -125,7 +125,6 @@ types:
     id: 49792
     marketGroup: 935
     miningamountbonus: 7
-    miningdurationmultiplier: 0.9599999785423279
     name: Frostline 'Omnivore' Harvester Upgrade
     packagedVolume: 5.0
     portionSize: 1

@@ -323,6 +323,7 @@ types:
     portionSize: 1
     poweroutput: 800
     powertospeed: 1
+    price: 3.6E7
     propulsiongraphicid: 395
     published: true
     radius: 240.0

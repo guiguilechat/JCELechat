@@ -53,33 +53,12 @@ public class SecureCargoContainer
     @DefaultRealValue(0.0)
     public double armorhp;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
-    /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -165,7 +144,7 @@ public class SecureCargoContainer
     @Stackable(true)
     @DefaultIntValue(60000)
     public int unanchoringdelay;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, UnanchoringDelay.INSTANCE, Capacity.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, AnchoringDelay.INSTANCE, StructureUniformity.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, UnanchoringDelay.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, AnchoringDelay.INSTANCE, StructureUniformity.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final SecureCargoContainer.MetaGroup METAGROUP = new SecureCargoContainer.MetaGroup();
 
     @Override
@@ -179,21 +158,9 @@ public class SecureCargoContainer
             {
                 return armorhp;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  9 :
             {
                 return hp;
-            }
-            case  4 :
-            {
-                return mass;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  182 :
             {

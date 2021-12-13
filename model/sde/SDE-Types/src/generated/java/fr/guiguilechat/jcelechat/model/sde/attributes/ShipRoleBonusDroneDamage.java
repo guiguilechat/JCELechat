@@ -3,14 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-public class ShipRoleBonusGeneralMiningHoldCapacity
+public class ShipRoleBonusDroneDamage
     extends IntAttribute
 {
-    public static final ShipRoleBonusGeneralMiningHoldCapacity INSTANCE = new ShipRoleBonusGeneralMiningHoldCapacity();
+    public static final ShipRoleBonusDroneDamage INSTANCE = new ShipRoleBonusDroneDamage();
 
     @Override
     public int getId() {
-        return  3231;
+        return  3179;
     }
 
     @Override
@@ -35,6 +35,6 @@ public class ShipRoleBonusGeneralMiningHoldCapacity
 
     @Override
     public String toString() {
-        return "ShipRoleBonusGeneralMiningHoldCapacity";
+        return "ShipRoleBonusDroneDamage";
     }
 }

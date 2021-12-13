@@ -3,14 +3,17 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-public class ShipRoleBonusLightDroneDamage
+/**
+ * 
+ */
+public class IgnoreCloakVelocityPenalty
     extends IntAttribute
 {
-    public static final ShipRoleBonusLightDroneDamage INSTANCE = new ShipRoleBonusLightDroneDamage();
+    public static final IgnoreCloakVelocityPenalty INSTANCE = new IgnoreCloakVelocityPenalty();
 
     @Override
     public int getId() {
-        return  3179;
+        return  2102;
     }
 
     @Override
@@ -25,7 +28,7 @@ public class ShipRoleBonusLightDroneDamage
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -35,6 +38,6 @@ public class ShipRoleBonusLightDroneDamage
 
     @Override
     public String toString() {
-        return "ShipRoleBonusLightDroneDamage";
+        return "IgnoreCloakVelocityPenalty";
     }
 }

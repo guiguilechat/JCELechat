@@ -39,8 +39,8 @@ types:
     industrialbonusdronedamage: 100
     industrialcommandbonusdronedamage: 15
     industrialcommandbonusdronehitpoints: 10
-    industrialcommandbonusdroneiceharvestingcycletime: -2
-    industrialcommandbonusdroneoreminingyield: 10
+    industrialcommandbonusdroneiceharvestingcycletime: -5
+    industrialcommandbonusdroneoreminingyield: 15
     industrialcommandbonusfuelconsuptioncompactindustrialcore: -5
     industrialcommandbonusgeneralminingholdcapacity: 5
     industrialcommandbonusminingforemanburstrange: 5
