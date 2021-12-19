@@ -39,6 +39,7 @@ types:
     gfxturretid: 451
     hp: 55.0
     id: 29234
+    mass: 2820000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxrange: 3500.0
@@ -118,6 +119,7 @@ types:
     hp: 20.0
     id: 29239
     kineticdamage: 2.0
+    mass: 1500100.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxrange: 4000.0
@@ -199,6 +201,7 @@ types:
     hp: 20.0
     id: 29242
     kineticdamage: 2.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxrange: 1000.0
@@ -277,6 +280,7 @@ types:
     gfxturretid: 484
     hp: 15.0
     id: 29245
+    mass: 2112000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxrange: 800.0
@@ -356,6 +360,7 @@ types:
     gfxturretid: 484
     hp: 15.0
     id: 32786
+    mass: 2112000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxrange: 800.0

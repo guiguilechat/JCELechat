@@ -21,6 +21,7 @@ types:
     hp: 80000.0
     id: 47180
     iscapitalsize: 1
+    mass: 1.65E9
     maxlockedtargets: 8
     maxvelocity: 80.0
     name: Khaitetha's Nidhoggur
@@ -66,6 +67,7 @@ types:
     hp: 80000.0
     id: 47181
     iscapitalsize: 1
+    mass: 1.65E9
     maxlockedtargets: 8
     maxvelocity: 80.0
     name: Otuwiri's Thanatos

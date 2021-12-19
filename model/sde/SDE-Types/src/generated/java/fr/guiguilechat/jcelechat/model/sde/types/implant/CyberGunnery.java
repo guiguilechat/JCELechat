@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -98,7 +97,7 @@ public class CyberGunnery
     @Stackable(true)
     @DefaultIntValue(0)
     public int turretspeebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, Implantness.INSTANCE, RequiredSkill1Level.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill1 .INSTANCE, TurretSpeeBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, TechLevel.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, Implantness.INSTANCE, RequiredSkill1Level.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill1 .INSTANCE, TurretSpeeBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final CyberGunnery.MetaGroup METAGROUP = new CyberGunnery.MetaGroup();
 
     @Override

@@ -14,6 +14,7 @@ types:
     disallowinhighsec: 1
     id: 35881
     marketGroup: 2332
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Capital Shipyard I
     onlinemaxsecurityclass: 1
@@ -36,6 +37,7 @@ types:
     cpu: 600.0
     id: 45550
     marketGroup: 2332
+    mass: 500.0
     maxtypefitted: 1
     metagroupid: 4
     name: Standup Hyasyoda Research Lab
@@ -59,6 +61,7 @@ types:
     cpu: 700.0
     id: 35886
     marketGroup: 2332
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Invention Lab I
     onlinemaxsecurityclass: 2
@@ -81,6 +84,7 @@ types:
     cpu: 300.0
     id: 35878
     marketGroup: 2332
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Manufacturing Plant I
     onlinemaxsecurityclass: 2
@@ -103,6 +107,7 @@ types:
     cpu: 600.0
     id: 35891
     marketGroup: 2332
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Research Lab I
     onlinemaxsecurityclass: 2
@@ -124,6 +129,7 @@ types:
     disallowinempirespace: 1
     id: 35877
     marketGroup: 2332
+    mass: 4000.0
     maxtypefitted: 1
     name: Standup Supercapital Shipyard I
     onlinemaxsecurityclass: 1

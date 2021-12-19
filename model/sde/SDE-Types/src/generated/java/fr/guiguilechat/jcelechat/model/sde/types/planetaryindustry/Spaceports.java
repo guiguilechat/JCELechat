@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExportTax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ImportTax;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetRestriction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -63,7 +62,7 @@ public class Spaceports
     @Stackable(true)
     @DefaultIntValue(0)
     public int powerload;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PlanetRestriction.INSTANCE, CpuLoad.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, ImportTax.INSTANCE, Capacity.INSTANCE, ExportTax.INSTANCE, PowerLoad.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PlanetRestriction.INSTANCE, CpuLoad.INSTANCE, Radius.INSTANCE, ImportTax.INSTANCE, Capacity.INSTANCE, ExportTax.INSTANCE, PowerLoad.INSTANCE })));
     public static final Spaceports.MetaGroup METAGROUP = new Spaceports.MetaGroup();
 
     @Override

@@ -41,6 +41,7 @@ types:
     gfxturretid: 460
     hp: 10000.0
     id: 35812
+    mass: 9.71E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -129,6 +130,7 @@ types:
     gfxturretid: 464
     hp: 10000.0
     id: 35816
+    mass: 2.05E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 1

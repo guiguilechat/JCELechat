@@ -4,6 +4,7 @@ types:
     hp: 40.0
     id: 46323
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     moonrigspewvolumebonus: 2.0
     name: Standup M-Set Moon Drilling Efficiency I
@@ -23,6 +24,7 @@ types:
     hp: 40.0
     id: 46324
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     moonrigspewvolumebonus: 2.4000000953674316
     name: Standup M-Set Moon Drilling Efficiency II

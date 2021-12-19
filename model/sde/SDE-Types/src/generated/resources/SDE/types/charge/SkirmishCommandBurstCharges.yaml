@@ -3,6 +3,7 @@ types:
     id: 42838
     launchergroup: 1770
     marketGroup: 2302
+    mass: 0.009999999776482582
     name: Evasive Maneuvers Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
@@ -22,6 +23,7 @@ types:
     id: 42839
     launchergroup: 1770
     marketGroup: 2302
+    mass: 0.009999999776482582
     name: Interdiction Maneuvers Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
@@ -39,6 +41,7 @@ types:
     id: 42840
     launchergroup: 1770
     marketGroup: 2302
+    mass: 0.009999999776482582
     name: Rapid Deployment Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500

@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOERange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayWarningDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -136,7 +135,7 @@ public class InterdictionBurstProbes
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DoomsdayAOERange.INSTANCE, SignatureRadius.INSTANCE, DoomsdayAOEDuration.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, DisallowInEmpireSpace.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DoomsdayWarningDuration.INSTANCE, RequiredSkill1 .INSTANCE, RemoteResistanceID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DoomsdayAOERange.INSTANCE, SignatureRadius.INSTANCE, DoomsdayAOEDuration.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, DisallowInEmpireSpace.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DoomsdayWarningDuration.INSTANCE, RequiredSkill1 .INSTANCE, RemoteResistanceID.INSTANCE })));
     public static final InterdictionBurstProbes.MetaGroup METAGROUP = new InterdictionBurstProbes.MetaGroup();
 
     @Override

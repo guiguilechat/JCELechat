@@ -50,6 +50,7 @@ types:
     hp: 1300.0
     id: 24851
     kineticdamage: 14.0
+    mass: 1.09E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -138,6 +139,7 @@ types:
     hp: 1300.0
     id: 24843
     kineticdamage: 4.0
+    mass: 1.09E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -225,6 +227,7 @@ types:
     hp: 1300.0
     id: 28179
     kineticdamage: 4.0
+    mass: 1.25E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 4
@@ -311,6 +314,7 @@ types:
     hp: 1300.0
     id: 24857
     kineticdamage: 4.0
+    mass: 1.09E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -400,6 +404,7 @@ types:
     hp: 1300.0
     id: 24848
     kineticdamage: 4.0
+    mass: 1.09E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -488,6 +493,7 @@ types:
     hp: 1300.0
     id: 24855
     kineticdamage: 14.0
+    mass: 1.09E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -581,6 +587,7 @@ types:
     hp: 1300.0
     id: 28180
     kineticdamage: 4.0
+    mass: 1.25E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 4
@@ -669,6 +676,7 @@ types:
     hp: 1300.0
     id: 24847
     kineticdamage: 4.0
+    mass: 1.09E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4

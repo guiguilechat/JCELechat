@@ -42,6 +42,7 @@ types:
     gfxturretid: 377
     hp: 46.0
     id: 25633
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -116,6 +117,7 @@ types:
     gfxturretid: 353
     hp: 53.0
     id: 25634
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -190,6 +192,7 @@ types:
     gfxturretid: 391
     hp: 45.0
     id: 25637
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -264,6 +267,7 @@ types:
     gfxturretid: 376
     hp: 93.0
     id: 25638
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -338,6 +342,7 @@ types:
     gfxturretid: 378
     hp: 23.0
     id: 25649
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -412,6 +417,7 @@ types:
     gfxturretid: 392
     hp: 23.0
     id: 25657
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -486,6 +492,7 @@ types:
     gfxturretid: 349
     hp: 21.0
     id: 25659
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -560,6 +567,7 @@ types:
     gfxturretid: 375
     hp: 43.0
     id: 25660
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -632,6 +640,7 @@ types:
     gfxturretid: 350
     hp: 13.0
     id: 25663
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -705,6 +714,7 @@ types:
     gfxturretid: 393
     hp: 11.0
     id: 25670
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -779,6 +789,7 @@ types:
     gfxturretid: 351
     hp: 26.0
     id: 25701
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0
@@ -852,6 +863,7 @@ types:
     gfxturretid: 349
     hp: 11.0
     id: 25702
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1000.0

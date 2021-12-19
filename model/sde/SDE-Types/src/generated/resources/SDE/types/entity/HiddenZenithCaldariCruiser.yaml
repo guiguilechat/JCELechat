@@ -49,6 +49,7 @@ types:
     hp: 725.0
     id: 42821
     kineticdamage: 6.0
+    mass: 9600000.0
     maxdirectionalvelocity: 2000
     maxrange: 10000.0
     maxvelocity: 360.0

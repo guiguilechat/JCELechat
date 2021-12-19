@@ -19,6 +19,7 @@ types:
     gfxturretid: 5245
     hp: 250.0
     id: 42533
+    mass: 1200000.0
     maxlockedtargets: 5
     maxtargetrange: 18750.0
     maxvelocity: 420.0

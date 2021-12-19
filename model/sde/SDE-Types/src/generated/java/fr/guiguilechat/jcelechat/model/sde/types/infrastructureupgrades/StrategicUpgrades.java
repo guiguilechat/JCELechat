@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DevIndexSovereignty;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SovBillSystemCost;
 import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
@@ -38,7 +37,7 @@ public class StrategicUpgrades
     @Stackable(true)
     @DefaultIntValue(0)
     public int sovbillsystemcost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, SovBillSystemCost.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, DevIndexSovereignty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, SovBillSystemCost.INSTANCE, Capacity.INSTANCE, DevIndexSovereignty.INSTANCE })));
     public static final StrategicUpgrades.MetaGroup METAGROUP = new StrategicUpgrades.MetaGroup();
 
     @Override

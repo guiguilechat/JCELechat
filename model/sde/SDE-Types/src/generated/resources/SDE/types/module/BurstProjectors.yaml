@@ -18,6 +18,7 @@ types:
     id: 27678
     ispointtargeted: 1
     marketGroup: 2249
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 500000.0
@@ -60,6 +61,7 @@ types:
     id: 40636
     ispointtargeted: 1
     marketGroup: 2249
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 200000.0
@@ -96,6 +98,7 @@ types:
     id: 40697
     ispointtargeted: 1
     marketGroup: 2249
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 500000.0
@@ -134,6 +137,7 @@ types:
     id: 40635
     ispointtargeted: 1
     marketGroup: 2249
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 200000.0
@@ -170,6 +174,7 @@ types:
     id: 40698
     ispointtargeted: 1
     marketGroup: 2249
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 500000.0
@@ -208,6 +213,7 @@ types:
     id: 40696
     ispointtargeted: 1
     marketGroup: 2249
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 500000.0
@@ -247,6 +253,7 @@ types:
     id: 40699
     ispointtargeted: 1
     marketGroup: 2249
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 500000.0

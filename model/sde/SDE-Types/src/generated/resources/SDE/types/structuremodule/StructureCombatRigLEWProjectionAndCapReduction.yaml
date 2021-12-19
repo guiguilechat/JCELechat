@@ -8,6 +8,7 @@ types:
     id: 37254
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2345
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set EW Command System I
     nullsecmodifier: 1.2000000476837158
@@ -35,6 +36,7 @@ types:
     id: 37255
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2345
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set EW Command System II
     nullsecmodifier: 1.2000000476837158

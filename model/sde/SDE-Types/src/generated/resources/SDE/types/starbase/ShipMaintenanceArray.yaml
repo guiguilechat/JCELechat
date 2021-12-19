@@ -10,6 +10,7 @@ types:
     hp: 10000.0
     id: 12237
     marketGroup: 484
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 10
     name: Ship Maintenance Array
@@ -45,6 +46,7 @@ types:
     hp: 10000.0
     id: 24646
     marketGroup: 484
+    mass: 2.0E9
     maxoperationaldistance: 3000
     maxoperationalusers: 10
     name: X-Large Ship Maintenance Array

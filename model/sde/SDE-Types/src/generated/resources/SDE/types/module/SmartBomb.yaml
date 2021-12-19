@@ -10,6 +10,7 @@ types:
     hp: 40.0
     id: 23866
     marketGroup: 383
+    mass: 100.0
     metagroupid: 3
     metalevelold: 6
     name: '''Lance'' Medium EMP Smartbomb I'
@@ -35,6 +36,7 @@ types:
     hp: 40.0
     id: 23864
     marketGroup: 382
+    mass: 10.0
     metagroupid: 3
     metalevelold: 6
     name: '''Pike'' Small EMP Smartbomb I'
@@ -60,6 +62,7 @@ types:
     hp: 40.0
     id: 23868
     marketGroup: 381
+    mass: 100.0
     metagroupid: 3
     metalevelold: 6
     name: '''Warhammer'' Large EMP Smartbomb I'
@@ -85,6 +88,7 @@ types:
     hp: 40.0
     id: 14794
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 13
     name: Ahremen's Modified Large EMP Smartbomb
@@ -110,6 +114,7 @@ types:
     hp: 40.0
     id: 15947
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Ammatar Navy Large EMP Smartbomb
@@ -135,6 +140,7 @@ types:
     hp: 40.0
     id: 15945
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Ammatar Navy Medium EMP Smartbomb
@@ -160,6 +166,7 @@ types:
     hp: 40.0
     id: 15943
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Ammatar Navy Micro EMP Smartbomb
@@ -185,6 +192,7 @@ types:
     hp: 40.0
     id: 15941
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Ammatar Navy Small EMP Smartbomb
@@ -210,6 +218,7 @@ types:
     hp: 40.0
     id: 14784
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Large EMP Smartbomb
@@ -234,6 +243,7 @@ types:
     hp: 40.0
     id: 15152
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Large Plasma Smartbomb
@@ -260,6 +270,7 @@ types:
     id: 15931
     kineticdamage: 313.0
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Caldari Navy Large Graviton Smartbomb
@@ -285,6 +296,7 @@ types:
     id: 15929
     kineticdamage: 125.0
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Caldari Navy Medium Graviton Smartbomb
@@ -310,6 +322,7 @@ types:
     id: 15927
     kineticdamage: 31.0
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Caldari Navy Micro Graviton Smartbomb
@@ -335,6 +348,7 @@ types:
     id: 15925
     kineticdamage: 63.0
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Caldari Navy Small Graviton Smartbomb
@@ -360,6 +374,7 @@ types:
     hp: 40.0
     id: 14796
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 14
     name: Chelm's Modified Large EMP Smartbomb
@@ -384,6 +399,7 @@ types:
     hp: 40.0
     id: 15158
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 14
     name: Cormack's Modified Large Plasma Smartbomb
@@ -410,6 +426,7 @@ types:
     hp: 40.0
     id: 14188
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Dark Blood Large EMP Smartbomb
@@ -435,6 +452,7 @@ types:
     hp: 40.0
     id: 14192
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Dark Blood Medium EMP Smartbomb
@@ -460,6 +478,7 @@ types:
     hp: 40.0
     id: 14196
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Dark Blood Micro EMP Smartbomb
@@ -485,6 +504,7 @@ types:
     hp: 40.0
     id: 14200
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Dark Blood Small EMP Smartbomb
@@ -510,6 +530,7 @@ types:
     hp: 40.0
     id: 14208
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Domination Large Proton Smartbomb
@@ -535,6 +556,7 @@ types:
     hp: 40.0
     id: 14222
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Domination Medium Proton Smartbomb
@@ -560,6 +582,7 @@ types:
     hp: 40.0
     id: 14224
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Domination Micro Proton Smartbomb
@@ -585,6 +608,7 @@ types:
     hp: 40.0
     id: 14226
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Domination Small Proton Smartbomb
@@ -610,6 +634,7 @@ types:
     hp: 40.0
     id: 14798
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 14
     name: Draclira's Modified Large EMP Smartbomb
@@ -635,6 +660,7 @@ types:
     id: 14204
     kineticdamage: 313.0
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Dread Guristas Large Graviton Smartbomb
@@ -660,6 +686,7 @@ types:
     id: 14210
     kineticdamage: 125.0
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Dread Guristas Medium Graviton Smartbomb
@@ -685,6 +712,7 @@ types:
     id: 14212
     kineticdamage: 31.0
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Dread Guristas Micro Graviton Smartbomb
@@ -710,6 +738,7 @@ types:
     id: 14214
     kineticdamage: 63.0
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Dread Guristas Small Graviton Smartbomb
@@ -735,6 +764,7 @@ types:
     id: 14698
     kineticdamage: 438.0
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 14
     name: Estamel's Modified Large Graviton Smartbomb
@@ -759,6 +789,7 @@ types:
     hp: 40.0
     id: 15955
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Federation Navy Large Plasma Smartbomb
@@ -784,6 +815,7 @@ types:
     hp: 40.0
     id: 15953
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Federation Navy Medium Plasma Smartbomb
@@ -809,6 +841,7 @@ types:
     hp: 40.0
     id: 15951
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Federation Navy Micro Plasma Smartbomb
@@ -834,6 +867,7 @@ types:
     hp: 40.0
     id: 15949
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Federation Navy Small Plasma Smartbomb
@@ -860,6 +894,7 @@ types:
     hp: 40.0
     id: 14548
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 13
     name: Gotan's Modified Large Proton Smartbomb
@@ -885,6 +920,7 @@ types:
     hp: 40.0
     id: 14546
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 12
     name: Hakim's Modified Large Proton Smartbomb
@@ -910,6 +946,7 @@ types:
     hp: 40.0
     id: 15963
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Imperial Navy Large EMP Smartbomb
@@ -935,6 +972,7 @@ types:
     hp: 40.0
     id: 15961
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Imperial Navy Medium EMP Smartbomb
@@ -960,6 +998,7 @@ types:
     hp: 40.0
     id: 15959
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Imperial Navy Micro EMP Smartbomb
@@ -985,6 +1024,7 @@ types:
     hp: 40.0
     id: 15957
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Imperial Navy Small EMP Smartbomb
@@ -1010,6 +1050,7 @@ types:
     id: 14692
     kineticdamage: 344.0
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Large Graviton Smartbomb
@@ -1035,6 +1076,7 @@ types:
     hp: 40.0
     id: 28545
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Khanid Navy Large EMP Smartbomb
@@ -1060,6 +1102,7 @@ types:
     hp: 40.0
     id: 28550
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Khanid Navy Medium EMP Smartbomb
@@ -1085,6 +1128,7 @@ types:
     hp: 40.0
     id: 28557
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Khanid Navy Small EMP Smartbomb
@@ -1110,6 +1154,7 @@ types:
     hp: 40.0
     id: 9772
     marketGroup: 381
+    mass: 100.0
     metalevelold: 1
     name: Large 'Notos' Explosive Charge I
     overloadselfdurationbonus: -15.0
@@ -1134,6 +1179,7 @@ types:
     hp: 40.0
     id: 9678
     marketGroup: 381
+    mass: 100.0
     metalevelold: 1
     name: Large 'Vehemence' Shockwave Charge
     overloadselfdurationbonus: -15.0
@@ -1158,6 +1204,7 @@ types:
     hp: 40.0
     id: 21538
     marketGroup: 381
+    mass: 100.0
     metagroupid: 3
     metalevelold: 6
     name: Large Degenerative Concussion Bomb I
@@ -1183,6 +1230,7 @@ types:
     hp: 40.0
     id: 3993
     marketGroup: 381
+    mass: 100.0
     name: Large EMP Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
@@ -1206,6 +1254,7 @@ types:
     hp: 40.0
     id: 3995
     marketGroup: 381
+    mass: 100.0
     metalevelold: 5
     name: Large EMP Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1230,6 +1279,7 @@ types:
     id: 3981
     kineticdamage: 250.0
     marketGroup: 381
+    mass: 100.0
     name: Large Graviton Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
@@ -1253,6 +1303,7 @@ types:
     id: 3983
     kineticdamage: 300.0
     marketGroup: 381
+    mass: 100.0
     metalevelold: 5
     name: Large Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1276,6 +1327,7 @@ types:
     hp: 40.0
     id: 3987
     marketGroup: 381
+    mass: 100.0
     name: Large Plasma Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
@@ -1299,6 +1351,7 @@ types:
     hp: 40.0
     id: 3989
     marketGroup: 381
+    mass: 100.0
     metalevelold: 5
     name: Large Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1324,6 +1377,7 @@ types:
     hp: 40.0
     id: 3977
     marketGroup: 381
+    mass: 100.0
     name: Large Proton Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
@@ -1347,6 +1401,7 @@ types:
     hp: 40.0
     id: 3979
     marketGroup: 381
+    mass: 100.0
     metalevelold: 5
     name: Large Proton Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1371,6 +1426,7 @@ types:
     id: 9668
     kineticdamage: 300.0
     marketGroup: 381
+    mass: 100.0
     metalevelold: 1
     name: Large Rudimentary Concussion Bomb I
     overloadselfdurationbonus: -15.0
@@ -1394,6 +1450,7 @@ types:
     hp: 40.0
     id: 9808
     marketGroup: 381
+    mass: 100.0
     metalevelold: 1
     name: Large YF-12a Smartbomb
     overloadselfdurationbonus: -15.0
@@ -1419,6 +1476,7 @@ types:
     hp: 40.0
     id: 9762
     marketGroup: 383
+    mass: 100.0
     metalevelold: 1
     name: Medium 'Notos' Explosive Charge I
     overloadselfdurationbonus: -15.0
@@ -1443,6 +1501,7 @@ types:
     hp: 40.0
     id: 9734
     marketGroup: 383
+    mass: 100.0
     metalevelold: 1
     name: Medium 'Vehemence' Shockwave Charge
     overloadselfdurationbonus: -15.0
@@ -1467,6 +1526,7 @@ types:
     hp: 40.0
     id: 21536
     marketGroup: 383
+    mass: 100.0
     metagroupid: 3
     metalevelold: 6
     name: Medium Degenerative Concussion Bomb I
@@ -1492,6 +1552,7 @@ types:
     hp: 40.0
     id: 3953
     marketGroup: 383
+    mass: 100.0
     name: Medium EMP Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -1515,6 +1576,7 @@ types:
     hp: 40.0
     id: 3955
     marketGroup: 383
+    mass: 100.0
     metalevelold: 5
     name: Medium EMP Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1539,6 +1601,7 @@ types:
     id: 3941
     kineticdamage: 100.0
     marketGroup: 383
+    mass: 100.0
     name: Medium Graviton Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -1562,6 +1625,7 @@ types:
     id: 3943
     kineticdamage: 140.0
     marketGroup: 383
+    mass: 100.0
     metalevelold: 5
     name: Medium Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1585,6 +1649,7 @@ types:
     hp: 40.0
     id: 3947
     marketGroup: 383
+    mass: 100.0
     name: Medium Plasma Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -1608,6 +1673,7 @@ types:
     hp: 40.0
     id: 3949
     marketGroup: 383
+    mass: 100.0
     metalevelold: 5
     name: Medium Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1633,6 +1699,7 @@ types:
     hp: 40.0
     id: 3937
     marketGroup: 383
+    mass: 100.0
     name: Medium Proton Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -1656,6 +1723,7 @@ types:
     hp: 40.0
     id: 3939
     marketGroup: 383
+    mass: 100.0
     metalevelold: 5
     name: Medium Proton Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1680,6 +1748,7 @@ types:
     id: 9728
     kineticdamage: 120.0
     marketGroup: 383
+    mass: 100.0
     metalevelold: 1
     name: Medium Rudimentary Concussion Bomb I
     overloadselfdurationbonus: -15.0
@@ -1703,6 +1772,7 @@ types:
     hp: 40.0
     id: 9800
     marketGroup: 383
+    mass: 100.0
     metalevelold: 1
     name: Medium YF-12a Smartbomb
     overloadselfdurationbonus: -15.0
@@ -1728,6 +1798,7 @@ types:
     hp: 40.0
     id: 9750
     marketGroup: 380
+    mass: 100.0
     metalevelold: 1
     name: Micro 'Notos' Explosive Charge I
     overloadselfdurationbonus: -15.0
@@ -1752,6 +1823,7 @@ types:
     hp: 40.0
     id: 9706
     marketGroup: 380
+    mass: 100.0
     metalevelold: 1
     name: Micro 'Vehemence' Shockwave Charge
     overloadselfdurationbonus: -15.0
@@ -1776,6 +1848,7 @@ types:
     hp: 40.0
     id: 21532
     marketGroup: 380
+    mass: 10.0
     metagroupid: 3
     metalevelold: 6
     name: Micro Degenerative Concussion Bomb I
@@ -1801,6 +1874,7 @@ types:
     hp: 40.0
     id: 3913
     marketGroup: 380
+    mass: 100.0
     name: Micro EMP Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 2.5
@@ -1824,6 +1898,7 @@ types:
     hp: 40.0
     id: 3915
     marketGroup: 380
+    mass: 100.0
     metalevelold: 5
     name: Micro EMP Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1848,6 +1923,7 @@ types:
     id: 3901
     kineticdamage: 25.0
     marketGroup: 380
+    mass: 100.0
     name: Micro Graviton Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 2.5
@@ -1871,6 +1947,7 @@ types:
     id: 3903
     kineticdamage: 35.0
     marketGroup: 380
+    mass: 100.0
     metalevelold: 5
     name: Micro Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1894,6 +1971,7 @@ types:
     hp: 40.0
     id: 3907
     marketGroup: 380
+    mass: 100.0
     name: Micro Plasma Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 2.5
@@ -1917,6 +1995,7 @@ types:
     hp: 40.0
     id: 3909
     marketGroup: 380
+    mass: 100.0
     metalevelold: 5
     name: Micro Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1942,6 +2021,7 @@ types:
     hp: 40.0
     id: 3897
     marketGroup: 380
+    mass: 100.0
     name: Micro Proton Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 2.5
@@ -1965,6 +2045,7 @@ types:
     hp: 40.0
     id: 3899
     marketGroup: 380
+    mass: 100.0
     metalevelold: 5
     name: Micro Proton Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -1989,6 +2070,7 @@ types:
     id: 9702
     kineticdamage: 30.0
     marketGroup: 380
+    mass: 100.0
     metalevelold: 1
     name: Micro Rudimentary Concussion Bomb I
     overloadselfdurationbonus: -15.0
@@ -2012,6 +2094,7 @@ types:
     hp: 40.0
     id: 9790
     marketGroup: 380
+    mass: 100.0
     metalevelold: 1
     name: Micro YF-12a Smartbomb
     overloadselfdurationbonus: -15.0
@@ -2037,6 +2120,7 @@ types:
     hp: 40.0
     id: 14544
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 11
     name: Mizuro's Modified Large Proton Smartbomb
@@ -2062,6 +2146,7 @@ types:
     hp: 40.0
     id: 14790
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 12
     name: Raysere's Modified Large EMP Smartbomb
@@ -2087,6 +2172,7 @@ types:
     hp: 40.0
     id: 15939
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Republic Fleet Large Proton Smartbomb
@@ -2112,6 +2198,7 @@ types:
     hp: 40.0
     id: 15937
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Republic Fleet Medium Proton Smartbomb
@@ -2137,6 +2224,7 @@ types:
     hp: 40.0
     id: 15933
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Republic Fleet Micro Proton Smartbomb
@@ -2162,6 +2250,7 @@ types:
     hp: 40.0
     id: 15935
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Republic Fleet Small Proton Smartbomb
@@ -2187,6 +2276,7 @@ types:
     hp: 40.0
     id: 14788
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 12
     name: Selynne's Modified Large EMP Smartbomb
@@ -2211,6 +2301,7 @@ types:
     hp: 40.0
     id: 15156
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 13
     name: Setele's Modified Large Plasma Smartbomb
@@ -2236,6 +2327,7 @@ types:
     hp: 40.0
     id: 14206
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Shadow Serpentis Large Plasma Smartbomb
@@ -2261,6 +2353,7 @@ types:
     hp: 40.0
     id: 14220
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Shadow Serpentis Medium Plasma Smartbomb
@@ -2286,6 +2379,7 @@ types:
     hp: 40.0
     id: 14218
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: Shadow Serpentis Micro Plasma Smartbomb
@@ -2311,6 +2405,7 @@ types:
     hp: 40.0
     id: 14228
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: Shadow Serpentis Small Plasma Smartbomb
@@ -2337,6 +2432,7 @@ types:
     hp: 40.0
     id: 9744
     marketGroup: 382
+    mass: 10.0
     metalevelold: 1
     name: Small 'Notos' Explosive Charge I
     overloadselfdurationbonus: -15.0
@@ -2361,6 +2457,7 @@ types:
     hp: 40.0
     id: 9680
     marketGroup: 382
+    mass: 10.0
     metalevelold: 1
     name: Small 'Vehemence' Shockwave Charge
     overloadselfdurationbonus: -15.0
@@ -2385,6 +2482,7 @@ types:
     hp: 40.0
     id: 21534
     marketGroup: 382
+    mass: 100.0
     metagroupid: 3
     metalevelold: 6
     name: Small Degenerative Concussion Bomb I
@@ -2410,6 +2508,7 @@ types:
     hp: 40.0
     id: 1563
     marketGroup: 382
+    mass: 10.0
     name: Small EMP Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 12.5
@@ -2433,6 +2532,7 @@ types:
     hp: 40.0
     id: 1565
     marketGroup: 382
+    mass: 40.0
     metalevelold: 5
     name: Small EMP Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -2457,6 +2557,7 @@ types:
     id: 1551
     kineticdamage: 50.0
     marketGroup: 382
+    mass: 10.0
     name: Small Graviton Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 12.5
@@ -2480,6 +2581,7 @@ types:
     id: 1553
     kineticdamage: 70.0
     marketGroup: 382
+    mass: 40.0
     metalevelold: 5
     name: Small Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -2503,6 +2605,7 @@ types:
     hp: 40.0
     id: 1557
     marketGroup: 382
+    mass: 10.0
     name: Small Plasma Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 12.5
@@ -2526,6 +2629,7 @@ types:
     hp: 40.0
     id: 1559
     marketGroup: 382
+    mass: 40.0
     metalevelold: 5
     name: Small Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -2551,6 +2655,7 @@ types:
     hp: 40.0
     id: 1547
     marketGroup: 382
+    mass: 10.0
     name: Small Proton Smartbomb I
     overloadselfdurationbonus: -15.0
     packagedVolume: 12.5
@@ -2574,6 +2679,7 @@ types:
     hp: 40.0
     id: 1549
     marketGroup: 382
+    mass: 40.0
     metalevelold: 5
     name: Small Proton Smartbomb II
     overloadselfdurationbonus: -15.0
@@ -2598,6 +2704,7 @@ types:
     id: 9670
     kineticdamage: 60.0
     marketGroup: 382
+    mass: 10.0
     metalevelold: 1
     name: Small Rudimentary Concussion Bomb I
     overloadselfdurationbonus: -15.0
@@ -2621,6 +2728,7 @@ types:
     hp: 40.0
     id: 9784
     marketGroup: 382
+    mass: 10.0
     metalevelold: 1
     name: Small YF-12a Smartbomb
     overloadselfdurationbonus: -15.0
@@ -2646,6 +2754,7 @@ types:
     hp: 40.0
     id: 14786
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Large EMP Smartbomb
@@ -2671,6 +2780,7 @@ types:
     id: 14694
     kineticdamage: 375.0
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 12
     name: Thon's Modified Large Graviton Smartbomb
@@ -2696,6 +2806,7 @@ types:
     hp: 40.0
     id: 14550
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 14
     name: Tobias' Modified Large Proton Smartbomb
@@ -2721,6 +2832,7 @@ types:
     hp: 40.0
     id: 14190
     marketGroup: 381
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: True Sansha Large EMP Smartbomb
@@ -2746,6 +2858,7 @@ types:
     hp: 40.0
     id: 14194
     marketGroup: 383
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: True Sansha Medium EMP Smartbomb
@@ -2771,6 +2884,7 @@ types:
     hp: 40.0
     id: 14198
     marketGroup: 380
+    mass: 100.0
     metagroupid: 4
     metalevelold: 9
     name: True Sansha Micro EMP Smartbomb
@@ -2796,6 +2910,7 @@ types:
     hp: 40.0
     id: 14202
     marketGroup: 382
+    mass: 10.0
     metagroupid: 4
     metalevelold: 9
     name: True Sansha Small EMP Smartbomb
@@ -2820,6 +2935,7 @@ types:
     hp: 40.0
     id: 15154
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 12
     name: Tuvan's Modified Large Plasma Smartbomb
@@ -2846,6 +2962,7 @@ types:
     id: 14696
     kineticdamage: 407.0
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 13
     name: Vepas' Modified Large Graviton Smartbomb
@@ -2871,6 +2988,7 @@ types:
     hp: 40.0
     id: 14792
     marketGroup: 381
+    mass: 100.0
     metagroupid: 5
     metalevelold: 13
     name: Vizan's Modified Large EMP Smartbomb

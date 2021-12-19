@@ -31,6 +31,7 @@ types:
     launcherslotsleft: 3
     lowslots: 5
     marketGroup: 2200
+    mass: 1.0E10
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 380000.0
@@ -115,6 +116,7 @@ types:
     launcherslotsleft: 3
     lowslots: 4
     marketGroup: 2200
+    mass: 1.0E10
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 380000.0
@@ -199,6 +201,7 @@ types:
     launcherslotsleft: 3
     lowslots: 5
     marketGroup: 2200
+    mass: 1.0E10
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 380000.0
@@ -283,6 +286,7 @@ types:
     launcherslotsleft: 4
     lowslots: 5
     marketGroup: 2200
+    mass: 1.0E10
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 380000.0
@@ -368,6 +372,7 @@ types:
     launcherslotsleft: 3
     lowslots: 4
     marketGroup: 2200
+    mass: 1.0E10
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 380000.0
@@ -452,6 +457,7 @@ types:
     launcherslotsleft: 2
     lowslots: 3
     marketGroup: 2201
+    mass: 3.0E9
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 350000.0
@@ -533,6 +539,7 @@ types:
     launcherslotsleft: 3
     lowslots: 4
     marketGroup: 2201
+    mass: 1.0E10
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 380000.0
@@ -615,6 +622,7 @@ types:
     launcherslotsleft: 4
     lowslots: 5
     marketGroup: 2201
+    mass: 4.9999998976E10
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 400000.0
@@ -697,6 +705,7 @@ types:
     launcherslotsleft: 5
     lowslots: 6
     marketGroup: 2200
+    mass: 4.9999998976E10
     maximumrangecap: 490000
     maxlockedtargets: 7
     maxtargetrange: 420000.0

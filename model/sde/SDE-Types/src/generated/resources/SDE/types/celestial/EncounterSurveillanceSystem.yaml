@@ -1,6 +1,7 @@
 types:
   Encounter Surveillance System:
     id: 55914
+    mass: 100000.0
     name: Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1

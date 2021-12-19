@@ -7,6 +7,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 863
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Javelin L
@@ -32,6 +33,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 864
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Javelin M
@@ -57,6 +59,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 865
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Javelin S
@@ -82,6 +85,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2255
+    mass: 0.5
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Javelin XL
@@ -107,6 +111,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 863
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Spike L
@@ -132,6 +137,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 864
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Spike M
@@ -157,6 +163,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 865
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Spike S
@@ -182,6 +189,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2255
+    mass: 0.5
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Spike XL

@@ -8,6 +8,7 @@ types:
     id: 37248
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2345
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Missile Flight Processor I
     nullsecmodifier: 1.2000000476837158
@@ -34,6 +35,7 @@ types:
     id: 37249
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2345
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Missile Flight Processor II
     nullsecmodifier: 1.2000000476837158

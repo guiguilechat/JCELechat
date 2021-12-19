@@ -7,6 +7,7 @@ types:
     iscovert: 1
     jumpharmonics: 5
     marketGroup: 2763
+    mass: 10000.0
     metalevelold: 1
     name: Covert Mobile Cynosural Beacon
     packagedVolume: 210.0
@@ -35,6 +36,7 @@ types:
     id: 57319
     jumpharmonics: -5
     marketGroup: 2763
+    mass: 10000.0
     metalevelold: 1
     name: Mobile Cynosural Beacon
     packagedVolume: 400.0

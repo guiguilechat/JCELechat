@@ -56,6 +56,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 818
+    mass: 1.78E9
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -175,6 +176,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 821
+    mass: 1.65E9
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -295,6 +297,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 820
+    mass: 1.6E9
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -414,6 +417,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1392
+    mass: 1.6E9
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -539,6 +543,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1392
+    mass: 1.6E9
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -663,6 +668,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 819
+    mass: 1.7E9
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000

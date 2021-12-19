@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -41,13 +40,6 @@ public class MissileBlueprint
     @DefaultRealValue(0.0)
     public double industryblueprintrank;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -69,7 +61,7 @@ public class MissileBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final MissileBlueprint.MetaGroup METAGROUP = new MissileBlueprint.MetaGroup();
 
     @Override
@@ -82,10 +74,6 @@ public class MissileBlueprint
             case  1955 :
             {
                 return industryblueprintrank;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

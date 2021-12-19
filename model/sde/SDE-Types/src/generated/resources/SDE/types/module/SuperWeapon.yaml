@@ -20,6 +20,7 @@ types:
     hp: 99999.0
     id: 24554
     marketGroup: 2269
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Aurora Ominae'' Thermal Doomsday'
@@ -71,6 +72,7 @@ types:
     ispointtargeted: 2
     kineticdamage: 100000.0
     marketGroup: 2268
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 150000.0
@@ -122,6 +124,7 @@ types:
     id: 40632
     ispointtargeted: 2
     marketGroup: 2267
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 150000.0
@@ -174,6 +177,7 @@ types:
     id: 41441
     ispointtargeted: 1
     marketGroup: 2270
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 200000.0
@@ -215,6 +219,7 @@ types:
     hp: 99999.0
     id: 23674
     marketGroup: 2270
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Gjallarhorn'' Explosive Doomsday'
@@ -265,6 +270,7 @@ types:
     id: 41443
     ispointtargeted: 2
     marketGroup: 2269
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 150000.0
@@ -317,6 +323,7 @@ types:
     id: 40631
     ispointtargeted: 1
     marketGroup: 2267
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 200000.0
@@ -368,6 +375,7 @@ types:
     ispointtargeted: 1
     kineticdamage: 50000.0
     marketGroup: 2268
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 200000.0
@@ -420,6 +428,7 @@ types:
     id: 41444
     ispointtargeted: 2
     marketGroup: 2270
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 150000.0
@@ -460,6 +469,7 @@ types:
     hp: 99999.0
     id: 24550
     marketGroup: 2267
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Judgment'' Electromagnetic Doomsday'
@@ -499,6 +509,7 @@ types:
     id: 24552
     kineticdamage: 1000000.0
     marketGroup: 2268
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Oblivion'' Kinetic Doomsday'
@@ -549,6 +560,7 @@ types:
     id: 41440
     ispointtargeted: 1
     marketGroup: 2269
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 200000.0
@@ -601,6 +613,7 @@ types:
     ispointtargeted: 1
     kineticdamage: 10000.0
     marketGroup: 2276
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 30000.0
@@ -647,6 +660,7 @@ types:
     id: 40634
     ispointtargeted: 1
     marketGroup: 2276
+    mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 100000.0

@@ -5,6 +5,7 @@ types:
     hp: 40.0
     id: 32262
     marketGroup: 938
+    mass: 200.0
     metagroupid: 3
     metalevelold: 7
     name: Black Eagle Drone Link Augmentor
@@ -24,6 +25,7 @@ types:
     hp: 40.0
     id: 23527
     marketGroup: 938
+    mass: 200.0
     name: Drone Link Augmentor I
     packagedVolume: 25.0
     portionSize: 1
@@ -41,6 +43,7 @@ types:
     hp: 40.0
     id: 24427
     marketGroup: 938
+    mass: 200.0
     metalevelold: 5
     name: Drone Link Augmentor II
     packagedVolume: 25.0
@@ -58,6 +61,7 @@ types:
     hp: 40.0
     id: 32927
     marketGroup: 938
+    mass: 200.0
     metagroupid: 5
     metalevelold: 11
     name: Unit D-34343's Modified Drone Link Augmentor
@@ -77,6 +81,7 @@ types:
     hp: 40.0
     id: 32929
     marketGroup: 938
+    mass: 200.0
     metagroupid: 5
     metalevelold: 12
     name: Unit F-435454's Modified Drone Link Augmentor
@@ -96,6 +101,7 @@ types:
     hp: 40.0
     id: 32931
     marketGroup: 938
+    mass: 200.0
     metagroupid: 5
     metalevelold: 13
     name: Unit P-343554's Modified Drone Link Augmentor
@@ -115,6 +121,7 @@ types:
     hp: 40.0
     id: 32933
     marketGroup: 938
+    mass: 200.0
     metagroupid: 5
     metalevelold: 14
     name: Unit W-634's Modified Drone Link Augmentor

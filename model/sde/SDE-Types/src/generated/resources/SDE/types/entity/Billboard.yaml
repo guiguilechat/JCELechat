@@ -9,6 +9,7 @@ types:
     disallowassistance: 1
     hp: 480000.0
     id: 11136
+    mass: 100.0
     name: CONCORD Billboard
     packagedVolume: 1.0
     portionSize: 1
@@ -32,6 +33,7 @@ types:
     disallowassistance: 1
     hp: 480000.0
     id: 41341
+    mass: 100.0
     name: Large CONCORD Billboard
     packagedVolume: 1.0
     portionSize: 1
@@ -55,6 +57,7 @@ types:
     disallowassistance: 1
     hp: 480000.0
     id: 41340
+    mass: 100.0
     name: Medium CONCORD Billboard
     packagedVolume: 1.0
     portionSize: 1
@@ -78,6 +81,7 @@ types:
     disallowassistance: 1
     hp: 480000.0
     id: 41339
+    mass: 100.0
     name: Small CONCORD Billboard
     packagedVolume: 1.0
     portionSize: 1

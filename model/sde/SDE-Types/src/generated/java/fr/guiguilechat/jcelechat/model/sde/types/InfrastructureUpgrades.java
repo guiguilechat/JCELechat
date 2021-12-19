@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.IndustrialUpgrades;
 import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.MilitaryUpgrades;
@@ -30,20 +29,13 @@ public abstract class InfrastructureUpgrades
     @DefaultRealValue(0.0)
     public double capacity;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE })));
     public static final InfrastructureUpgrades.MetaCat METACAT = new InfrastructureUpgrades.MetaCat();
 
     @Override
@@ -52,10 +44,6 @@ public abstract class InfrastructureUpgrades
             case  38 :
             {
                 return capacity;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

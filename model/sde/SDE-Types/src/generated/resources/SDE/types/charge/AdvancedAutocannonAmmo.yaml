@@ -11,6 +11,7 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 857
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Barrage L
@@ -39,6 +40,7 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 858
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Barrage M
@@ -67,6 +69,7 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 859
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Barrage S
@@ -95,6 +98,7 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 2253
+    mass: 1.0
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Barrage XL
@@ -123,6 +127,7 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 857
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Hail L
@@ -151,6 +156,7 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 858
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Hail M
@@ -179,6 +185,7 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 859
+    mass: 0.009999999776482582
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Hail S
@@ -207,6 +214,7 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 2253
+    mass: 1.0
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Hail XL

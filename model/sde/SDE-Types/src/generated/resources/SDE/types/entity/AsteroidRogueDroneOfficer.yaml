@@ -52,6 +52,7 @@ types:
     hp: 10325.0
     id: 32959
     kineticdamage: 39.0
+    mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 3899.0
@@ -135,6 +136,7 @@ types:
     hp: 25813.0
     id: 32960
     kineticdamage: 667.0
+    mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 111840.0
@@ -221,6 +223,7 @@ types:
     hp: 10325.0
     id: 32961
     kineticdamage: 43.0
+    mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 3899.0
@@ -303,6 +306,7 @@ types:
     hp: 25813.0
     id: 32962
     kineticdamage: 748.0
+    mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 113280.0

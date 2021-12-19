@@ -6,6 +6,7 @@ types:
     hp: 7500.0
     id: 33520
     marketGroup: 1831
+    mass: 10000.0
     metalevelold: 2
     name: '''Wetu'' Mobile Depot'
     packagedVolume: 100.0
@@ -30,6 +31,7 @@ types:
     hp: 7500.0
     id: 33522
     marketGroup: 1831
+    mass: 10000.0
     metalevelold: 3
     name: '''Yurt'' Mobile Depot'
     packagedVolume: 50.0
@@ -54,6 +56,7 @@ types:
     hp: 7500.0
     id: 33474
     marketGroup: 1831
+    mass: 10000.0
     metalevelold: 1
     name: Mobile Depot
     packagedVolume: 50.0

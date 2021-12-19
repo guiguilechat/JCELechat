@@ -37,6 +37,7 @@ types:
     hp: 100000.0
     id: 27721
     iscapitalsize: 1
+    mass: 9.22499968E8
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 150000.0

@@ -205,6 +205,7 @@ types:
     volume: 20.0
   Large Abyssal Shield Extender:
     id: 47808
+    mass: 1.0
     name: Large Abyssal Shield Extender
     packagedVolume: 20.0
     portionSize: 1
@@ -306,6 +307,7 @@ types:
     volume: 10.0
   Medium Abyssal Shield Extender:
     id: 47804
+    mass: 1.0
     name: Medium Abyssal Shield Extender
     packagedVolume: 10.0
     portionSize: 1
@@ -482,6 +484,7 @@ types:
     volume: 5.0
   Small Abyssal Shield Extender:
     id: 47800
+    mass: 1.0
     name: Small Abyssal Shield Extender
     packagedVolume: 5.0
     portionSize: 1

@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ClothingRemovesCategory;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ClothingRemovesCategory2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ClothingRuleException;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Gender;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Apparel;
 import org.yaml.snakeyaml.Yaml;
@@ -83,20 +82,13 @@ public class Outer
     @DefaultIntValue(2)
     public int gender;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, ClothingRemovesCategory.INSTANCE, ClothingAlsoCoversCategory.INSTANCE, ClothingRuleException.INSTANCE, Capacity.INSTANCE, ClothingAlsoCoversCategory2 .INSTANCE, Gender.INSTANCE, ClothingRemovesCategory2 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ClothingRemovesCategory.INSTANCE, ClothingAlsoCoversCategory.INSTANCE, ClothingRuleException.INSTANCE, Capacity.INSTANCE, ClothingAlsoCoversCategory2 .INSTANCE, Gender.INSTANCE, ClothingRemovesCategory2 .INSTANCE })));
     public static final Outer.MetaGroup METAGROUP = new Outer.MetaGroup();
 
     @Override
@@ -129,10 +121,6 @@ public class Outer
             case  1773 :
             {
                 return gender;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

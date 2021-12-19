@@ -5,6 +5,7 @@ types:
     disallowinhighsec: 1
     id: 45539
     marketGroup: 2233
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Biochemical Reactor I
     onlinemaxsecurityclass: 1
@@ -30,6 +31,7 @@ types:
     disallowinhighsec: 1
     id: 45537
     marketGroup: 2233
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Composite Reactor I
     onlinemaxsecurityclass: 1
@@ -55,6 +57,7 @@ types:
     disallowinhighsec: 1
     id: 45538
     marketGroup: 2233
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Hybrid Reactor I
     onlinemaxsecurityclass: 1
@@ -81,6 +84,7 @@ types:
     cpu: 200.0
     id: 35899
     marketGroup: 2233
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Reprocessing Facility I
     onlinemaxsecurityclass: 2

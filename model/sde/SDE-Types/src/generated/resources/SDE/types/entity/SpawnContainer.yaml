@@ -14,6 +14,7 @@ types:
     hp: 1000000.0
     id: 57560
     lootrespawntime: 8.64E7
+    mass: 10000.0
     name: AEGIS Encrypted Key Storage
     packagedVolume: 100000.0
     portionSize: 1
@@ -43,6 +44,7 @@ types:
     hp: 1000000.0
     id: 60410
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: AEGIS Gate Control Hub
     packagedVolume: 27500.0
     portionSize: 1
@@ -70,6 +72,7 @@ types:
     hackable: 1
     id: 60438
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: AEGIS Logistics Center Shield Projector
     portionSize: 1
     published: false
@@ -96,6 +99,7 @@ types:
     hp: 1000000.0
     id: 60389
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: AEGIS No. 1 Capital Construction Forge
     packagedVolume: 27500.0
     portionSize: 1
@@ -124,6 +128,7 @@ types:
     hp: 1000000.0
     id: 60390
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: AEGIS No. 2 Capital Construction Forge
     packagedVolume: 27500.0
     portionSize: 1
@@ -152,6 +157,7 @@ types:
     hp: 1000000.0
     id: 60391
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: AEGIS No. 3 Capital Construction Forge
     packagedVolume: 27500.0
     portionSize: 1
@@ -180,6 +186,7 @@ types:
     hp: 1000000.0
     id: 60392
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: AEGIS No. 4 Capital Construction Forge
     packagedVolume: 27500.0
     portionSize: 1
@@ -208,6 +215,7 @@ types:
     hp: 1000000.0
     id: 57561
     lootrespawntime: 8.64E7
+    mass: 10000.0
     name: AEGIS Security Vault
     packagedVolume: 27500.0
     portionSize: 1
@@ -236,6 +244,7 @@ types:
     id: 60116
     ishacking: 1
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: AIR Rogue Drone Analysis Node
     packagedVolume: 27500.0
     portionSize: 1
@@ -263,6 +272,7 @@ types:
     hp: 1000000.0
     id: 10167
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Abandoned Container
     packagedVolume: 27500.0
     portionSize: 1
@@ -289,6 +299,7 @@ types:
     id: 27308
     ishacking: 1
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Abandoned Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -313,6 +324,7 @@ types:
     hp: 1000000.0
     id: 3629
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Amarr Academy Office
     packagedVolume: 27500.0
     portionSize: 1
@@ -337,6 +349,7 @@ types:
     hp: 1000000.0
     id: 42862
     lootrespawntime: 10.0
+    mass: 100000.0
     name: Amarr Avatar Titan
     packagedVolume: 1.0E8
     portionSize: 1
@@ -361,6 +374,7 @@ types:
     hp: 1000000.0
     id: 2891
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Amarr Battleship Wreckage
     packagedVolume: 27500.0
     portionSize: 1
@@ -385,6 +399,7 @@ types:
     hp: 1000000.0
     id: 3845
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Amarr Cargo Rig
     packagedVolume: 27500.0
     portionSize: 1
@@ -410,6 +425,7 @@ types:
     hp: 40000.0
     id: 2127
     lootrespawntime: 3600000.0
+    mass: 100000.0
     name: Amarr Diplomat Quarters
     packagedVolume: 1.0E8
     portionSize: 1
@@ -436,6 +452,7 @@ types:
     hp: 1000000.0
     id: 22068
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Amarr Workers' Quarters
     packagedVolume: 1.0E8
     portionSize: 1
@@ -460,6 +477,7 @@ types:
     hp: 1000000.0
     id: 2892
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Amarrian Battleship Wreckage
     packagedVolume: 27500.0
     portionSize: 1
@@ -484,6 +502,7 @@ types:
     hp: 1000000.0
     id: 16720
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Ammo_Container
     packagedVolume: 27500.0
     portionSize: 1
@@ -507,6 +526,7 @@ types:
     hp: 1000000.0
     id: 28852
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Ancient Starbase Ruins
     packagedVolume: 27500.0
     portionSize: 1
@@ -534,6 +554,7 @@ types:
     id: 30779
     isarcheology: 1
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Ancient Tomb Dig Site
     packagedVolume: 27500.0
     portionSize: 1
@@ -559,6 +580,7 @@ types:
     hp: 1000000.0
     id: 26659
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -585,6 +607,7 @@ types:
     hp: 1000000.0
     id: 22318
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Angel Hardware Storage
     packagedVolume: 27500.0
     portionSize: 1
@@ -610,6 +633,7 @@ types:
     hp: 1000000.0
     id: 26660
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -637,6 +661,7 @@ types:
     hp: 1000000.0
     id: 21699
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Angel Network Hub
     packagedVolume: 27500.0
     portionSize: 1
@@ -664,6 +689,7 @@ types:
     hp: 1000000.0
     id: 21701
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Angel Network Nexus
     packagedVolume: 27500.0
     portionSize: 1
@@ -691,6 +717,7 @@ types:
     hp: 1000000.0
     id: 21698
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Angel Network Node
     packagedVolume: 27500.0
     portionSize: 1
@@ -718,6 +745,7 @@ types:
     hp: 1000000.0
     id: 21700
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Angel Network Nucleus
     packagedVolume: 27500.0
     portionSize: 1
@@ -744,6 +772,7 @@ types:
     hp: 1000000.0
     id: 2841
     lootrespawntime: 8.46E7
+    mass: 100000.0
     name: Angel Officer's Quarters
     packagedVolume: 1.0E8
     portionSize: 1
@@ -769,6 +798,7 @@ types:
     hp: 1000000.0
     id: 29740
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Ship Debris
     packagedVolume: 27500.0
     portionSize: 1
@@ -796,6 +826,7 @@ types:
     hp: 1000000.0
     id: 29726
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Ship Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -823,6 +854,7 @@ types:
     hp: 1000000.0
     id: 29899
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Ship Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -850,6 +882,7 @@ types:
     hp: 1000000.0
     id: 29731
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Ship Remains
     packagedVolume: 27500.0
     portionSize: 1
@@ -877,6 +910,7 @@ types:
     hp: 1000000.0
     id: 29716
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Ship Rubble
     packagedVolume: 27500.0
     portionSize: 1
@@ -904,6 +938,7 @@ types:
     hp: 1000000.0
     id: 29894
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Ship Ruins
     packagedVolume: 27500.0
     portionSize: 1
@@ -931,6 +966,7 @@ types:
     hp: 1000000.0
     id: 29741
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Ship Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -958,6 +994,7 @@ types:
     hp: 1000000.0
     id: 29721
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Ship Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -986,6 +1023,7 @@ types:
     hp: 1000000.0
     id: 24750
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Angel Stash_Extrava
     packagedVolume: 1.0E8
     portionSize: 1
@@ -1011,6 +1049,7 @@ types:
     hp: 1000000.0
     id: 26657
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -1038,6 +1077,7 @@ types:
     hp: 1000000.0
     id: 26658
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Angel Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -1064,6 +1104,7 @@ types:
     hp: 1000000.0
     id: 32211
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Archives
     packagedVolume: 27500.0
     portionSize: 1
@@ -1088,6 +1129,7 @@ types:
     hp: 1000000.0
     id: 16721
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Armor_Container
     packagedVolume: 27500.0
     portionSize: 1
@@ -1111,6 +1153,7 @@ types:
     hp: 1000000.0
     id: 22755
     lootrespawntime: 2400000.0
+    mass: 100000.0
     name: Army Quarters
     packagedVolume: 1.0E8
     portionSize: 1
@@ -1135,6 +1178,7 @@ types:
     hp: 1000000.0
     id: 32370
     lootrespawntime: 1.2E9
+    mass: 100000.0
     name: Assembly Station DC105-A
     packagedVolume: 1.0E8
     portionSize: 1
@@ -1159,6 +1203,7 @@ types:
     hp: 1000000.0
     id: 2895
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Asteroid Pirate Station
     packagedVolume: 27500.0
     portionSize: 1
@@ -1183,6 +1228,7 @@ types:
     hp: 1000000.0
     id: 30760
     lootrespawntime: 6.0E7
+    mass: 1450000.0
     name: Azil's Transport
     packagedVolume: 16120.0
     portionSize: 1
@@ -1210,6 +1256,7 @@ types:
     hp: 1000000.0
     id: 34525
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Barbican Alignment Unit 0
     packagedVolume: 27500.0
     portionSize: 1
@@ -1240,6 +1287,7 @@ types:
     hp: 1000000.0
     id: 34526
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Barbican Alignment Unit 1
     packagedVolume: 27500.0
     portionSize: 1
@@ -1270,6 +1318,7 @@ types:
     hp: 1000000.0
     id: 34509
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Barbican Alpha Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -1300,6 +1349,7 @@ types:
     hp: 1000000.0
     id: 34507
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Barbican Beta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -1330,6 +1380,7 @@ types:
     hp: 1000000.0
     id: 34508
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Barbican Delta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -1360,6 +1411,7 @@ types:
     hp: 1000000.0
     id: 34510
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Barbican Gamma Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -1390,6 +1442,7 @@ types:
     hp: 1000000.0
     id: 44279
     lootrespawntime: 120000.0
+    mass: 100000.0
     name: Blasted Neon Sign
     packagedVolume: 1.0E8
     portionSize: 1
@@ -1418,6 +1471,7 @@ types:
     hp: 1000000.0
     id: 26664
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -1444,6 +1498,7 @@ types:
     hp: 1000000.0
     id: 24237
     lootrespawntime: 1800000.0
+    mass: 100000.0
     name: Blood Factory
     packagedVolume: 1.0E8
     portionSize: 1
@@ -1469,6 +1524,7 @@ types:
     hp: 1000000.0
     id: 26665
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -1496,6 +1552,7 @@ types:
     hp: 1000000.0
     id: 23213
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Blood Raider Network Hub
     packagedVolume: 27500.0
     portionSize: 1
@@ -1523,6 +1580,7 @@ types:
     hp: 1000000.0
     id: 23215
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Blood Raider Network Nexus
     packagedVolume: 27500.0
     portionSize: 1
@@ -1550,6 +1608,7 @@ types:
     hp: 1000000.0
     id: 23212
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Blood Raider Network Node
     packagedVolume: 27500.0
     portionSize: 1
@@ -1577,6 +1636,7 @@ types:
     hp: 1000000.0
     id: 23214
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Blood Raider Network Nucleus
     packagedVolume: 27500.0
     portionSize: 1
@@ -1604,6 +1664,7 @@ types:
     hp: 1000000.0
     id: 29739
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Ship Debris
     packagedVolume: 27500.0
     portionSize: 1
@@ -1631,6 +1692,7 @@ types:
     hp: 1000000.0
     id: 29727
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Ship Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -1658,6 +1720,7 @@ types:
     hp: 1000000.0
     id: 29900
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Ship Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -1685,6 +1748,7 @@ types:
     hp: 1000000.0
     id: 29732
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Ship Remains
     packagedVolume: 27500.0
     portionSize: 1
@@ -1712,6 +1776,7 @@ types:
     hp: 1000000.0
     id: 29717
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Ship Rubble
     packagedVolume: 27500.0
     portionSize: 1
@@ -1739,6 +1804,7 @@ types:
     hp: 1000000.0
     id: 29895
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Ship Ruins
     packagedVolume: 27500.0
     portionSize: 1
@@ -1766,6 +1832,7 @@ types:
     hp: 1000000.0
     id: 29742
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Ship Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -1793,6 +1860,7 @@ types:
     hp: 1000000.0
     id: 29722
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Ship Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -1820,6 +1888,7 @@ types:
     hp: 1000000.0
     id: 26662
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -1847,6 +1916,7 @@ types:
     hp: 1000000.0
     id: 26663
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Blood Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -1873,6 +1943,7 @@ types:
     hp: 1000000.0
     id: 3498
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: CONCORD MTAC Factory
     packagedVolume: 27500.0
     portionSize: 1
@@ -1898,6 +1969,7 @@ types:
     hp: 1.0E8
     id: 30969
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: CPF Habitation Module
     packagedVolume: 27500.0
     portionSize: 1
@@ -1925,6 +1997,7 @@ types:
     hp: 1000000.0
     id: 10263
     lootrespawntime: 2400000.0
+    mass: 10000.0
     name: Cache Container
     packagedVolume: 2750.0
     portionSize: 1
@@ -1948,6 +2021,7 @@ types:
     hp: 1000000.0
     id: 3792
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Caldari Academy Office
     packagedVolume: 27500.0
     portionSize: 1
@@ -1972,6 +2046,7 @@ types:
     hp: 1000000.0
     id: 3846
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Caldari Cargo Rig
     packagedVolume: 27500.0
     portionSize: 1
@@ -1996,6 +2071,7 @@ types:
     hp: 1000000.0
     id: 42863
     lootrespawntime: 10.0
+    mass: 100000.0
     name: Caldari Leviathan Titan
     packagedVolume: 1.0E8
     portionSize: 1
@@ -2020,6 +2096,7 @@ types:
     hp: 1000000.0
     id: 32406
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Caldari Storage Warehouse
     packagedVolume: 1150.0
     portionSize: 1
@@ -2044,6 +2121,7 @@ types:
     hp: 1000000.0
     id: 28859
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Ancient Amarrian Relic
     packagedVolume: 27500.0
     portionSize: 1
@@ -2068,6 +2146,7 @@ types:
     hp: 1000000.0
     id: 29324
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Broken Mining Equipment
     packagedVolume: 27500.0
     portionSize: 1
@@ -2092,6 +2171,7 @@ types:
     hp: 1000000.0
     id: 28862
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Brutor Tribe Roster
     packagedVolume: 27500.0
     portionSize: 1
@@ -2116,6 +2196,7 @@ types:
     hp: 1000000.0
     id: 29230
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Dolls
     packagedVolume: 27500.0
     portionSize: 1
@@ -2140,6 +2221,7 @@ types:
     hp: 1000000.0
     id: 28841
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Encoded Data Chip
     packagedVolume: 27500.0
     portionSize: 1
@@ -2164,6 +2246,7 @@ types:
     hp: 1000000.0
     id: 28861
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Federation Court Logs
     packagedVolume: 27500.0
     portionSize: 1
@@ -2188,6 +2271,7 @@ types:
     hp: 1000000.0
     id: 28860
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Ishukone Corporate Records
     packagedVolume: 27500.0
     portionSize: 1
@@ -2212,6 +2296,7 @@ types:
     hp: 1000000.0
     id: 31961
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Mina Darabi
     packagedVolume: 27500.0
     portionSize: 1
@@ -2236,6 +2321,7 @@ types:
     hp: 1000000.0
     id: 29445
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Physical Samples
     packagedVolume: 27500.0
     portionSize: 1
@@ -2260,6 +2346,7 @@ types:
     hp: 1000000.0
     id: 29181
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Tactical Information I
     packagedVolume: 27500.0
     portionSize: 1
@@ -2284,6 +2371,7 @@ types:
     hp: 1000000.0
     id: 29182
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Tactical Information II
     packagedVolume: 27500.0
     portionSize: 1
@@ -2308,6 +2396,7 @@ types:
     hp: 1000000.0
     id: 29183
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Tactical Information III
     packagedVolume: 27500.0
     portionSize: 1
@@ -2332,6 +2421,7 @@ types:
     hp: 1000000.0
     id: 29184
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cargo Container - Tactical Information IV
     packagedVolume: 27500.0
     portionSize: 1
@@ -2356,6 +2446,7 @@ types:
     hp: 1000000.0
     id: 26977
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Cargo Warehouse - Crates of Silicate Glass
     packagedVolume: 1150.0
     portionSize: 1
@@ -2380,6 +2471,7 @@ types:
     hp: 1000000.0
     id: 26975
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Cargo Warehouse - Crates of Synthetic Oil
     packagedVolume: 1150.0
     portionSize: 1
@@ -2404,6 +2496,7 @@ types:
     hp: 1000000.0
     id: 26978
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Cargo Warehouse - Quafe Ultra
     packagedVolume: 1150.0
     portionSize: 1
@@ -2428,6 +2521,7 @@ types:
     hp: 1000000.0
     id: 26976
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Cargo Warehouse - Spiced Wine
     packagedVolume: 1150.0
     portionSize: 1
@@ -2452,6 +2546,7 @@ types:
     hp: 1000000.0
     id: 29532
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Cartographer's Quarters
     packagedVolume: 1.0E8
     portionSize: 1
@@ -2476,6 +2571,7 @@ types:
     hp: 1000000.0
     id: 2918
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Cell Block D
     packagedVolume: 1150.0
     portionSize: 1
@@ -2500,6 +2596,7 @@ types:
     hp: 1000000.0
     id: 32205
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Central Burial Tomb
     packagedVolume: 27500.0
     portionSize: 1
@@ -2524,6 +2621,7 @@ types:
     hp: 1000000.0
     id: 3506
     lootrespawntime: 360000.0
+    mass: 10000.0
     name: Central Control Nexus
     packagedVolume: 27500.0
     portionSize: 1
@@ -2548,6 +2646,7 @@ types:
     hp: 1000000.0
     id: 30758
     lootrespawntime: 6.0E7
+    mass: 1450000.0
     name: Centrien's Shuttle
     packagedVolume: 16120.0
     portionSize: 1
@@ -2574,6 +2673,7 @@ types:
     hp: 1000000.0
     id: 34447
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Cerebrum Maintenance Chamber
     packagedVolume: 27500.0
     portionSize: 1
@@ -2603,6 +2703,7 @@ types:
     hp: 1000000.0
     id: 32279
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Chapel of the Obsidian
     packagedVolume: 27500.0
     portionSize: 1
@@ -2630,6 +2731,7 @@ types:
     hp: 1000000.0
     id: 12555
     lootrespawntime: 400000.0
+    mass: 10000.0
     name: Charge Ammunition Storage
     packagedVolume: 1200.0
     portionSize: 1
@@ -2653,6 +2755,7 @@ types:
     hp: 1000000.0
     id: 28138
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Citizen Quarters
     packagedVolume: 1200.0
     portionSize: 1
@@ -2679,6 +2782,7 @@ types:
     id: 27275
     isarcheology: 1
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Civilian Transport Ship Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -2703,6 +2807,7 @@ types:
     hp: 1000000.0
     id: 2854
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Cloaked Cache
     packagedVolume: 27500.0
     portionSize: 1
@@ -2725,6 +2830,7 @@ types:
     falloff: 1.0
     id: 46335
     lootrespawntime: 8.64E7
+    mass: 10000.0
     name: Compromised Stasis Vault
     packagedVolume: 27500.0
     portionSize: 1
@@ -2752,6 +2858,7 @@ types:
     hp: 1000000.0
     id: 34529
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Conflux Alignment Unit 0
     packagedVolume: 27500.0
     portionSize: 1
@@ -2782,6 +2889,7 @@ types:
     hp: 1000000.0
     id: 34530
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Conflux Alignment Unit 1
     packagedVolume: 27500.0
     portionSize: 1
@@ -2812,6 +2920,7 @@ types:
     hp: 1000000.0
     id: 34517
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Conflux Alpha Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -2842,6 +2951,7 @@ types:
     hp: 1000000.0
     id: 34515
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Conflux Beta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -2872,6 +2982,7 @@ types:
     hp: 1000000.0
     id: 34516
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Conflux Delta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -2902,6 +3013,7 @@ types:
     hp: 1000000.0
     id: 34518
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Conflux Gamma Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -2930,6 +3042,7 @@ types:
     hp: 1000000.0
     id: 34375
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Coordinate Plotting Device
     packagedVolume: 27500.0
     portionSize: 1
@@ -2957,6 +3070,7 @@ types:
     hp: 1000000.0
     id: 24447
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Corpse Stash
     packagedVolume: 1200.0
     portionSize: 1
@@ -2981,6 +3095,7 @@ types:
     hp: 1000000.0
     id: 30781
     lootrespawntime: 6.0E7
+    mass: 1450000.0
     name: Corrupted Drone
     packagedVolume: 16120.0
     portionSize: 1
@@ -3005,6 +3120,7 @@ types:
     hp: 1000000.0
     id: 60711
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Crimson Harvest Network Hub
     packagedVolume: 27500.0
     portionSize: 1
@@ -3032,6 +3148,7 @@ types:
     hp: 1000000.0
     id: 60710
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Crimson Harvest Network Node
     packagedVolume: 27500.0
     portionSize: 1
@@ -3059,6 +3176,7 @@ types:
     hp: 1000000.0
     id: 19794
     lootrespawntime: 3000000.0
+    mass: 10000.0
     name: Cruise Missile Storage
     packagedVolume: 1200.0
     portionSize: 1
@@ -3082,6 +3200,7 @@ types:
     hp: 1000000.0
     id: 32382
     lootrespawntime: 6.0E7
+    mass: 1450000.0
     name: Damaged Caldari Shuttle
     packagedVolume: 16120.0
     portionSize: 1
@@ -3106,6 +3225,7 @@ types:
     hp: 1000000.0
     id: 28823
     lootrespawntime: 6.0E7
+    mass: 10000.0
     name: Damaged Escape Pod
     packagedVolume: 1200.0
     portionSize: 1
@@ -3130,6 +3250,7 @@ types:
     hp: 1000000.0
     id: 24765
     lootrespawntime: 6.0E7
+    mass: 1450000.0
     name: Damaged Heron
     packagedVolume: 16120.0
     portionSize: 1
@@ -3154,6 +3275,7 @@ types:
     hp: 1000000.0
     id: 25255
     lootrespawntime: 6.0E7
+    mass: 1450000.0
     name: Damaged Heron_2
     packagedVolume: 16120.0
     portionSize: 1
@@ -3178,6 +3300,7 @@ types:
     hp: 1000000.0
     id: 25537
     lootrespawntime: 6.0E7
+    mass: 1450000.0
     name: Damaged Prorator
     packagedVolume: 16120.0
     portionSize: 1
@@ -3202,6 +3325,7 @@ types:
     hp: 1000000.0
     id: 32217
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Damaged Radio Telescope
     packagedVolume: 27500.0
     portionSize: 1
@@ -3227,6 +3351,7 @@ types:
     hp: 1000000.0
     id: 32240
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Data Bank
     packagedVolume: 27500.0
     portionSize: 1
@@ -3253,6 +3378,7 @@ types:
     hp: 1000000.0
     id: 11072
     lootrespawntime: 1440000.0
+    mass: 10000.0
     name: Data Storage
     packagedVolume: 1200.0
     portionSize: 1
@@ -3278,6 +3404,7 @@ types:
     hp: 1000000.0
     id: 34300
     lootrespawntime: 1.2E7
+    mass: 10000.0
     name: Dented Storage Depot
     packagedVolume: 27500.0
     portionSize: 1
@@ -3305,6 +3432,7 @@ types:
     hp: 1000000.0
     id: 30785
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Destroyed Ship
     packagedVolume: 27500.0
     portionSize: 1
@@ -3329,6 +3457,7 @@ types:
     hp: 1000000.0
     id: 29438
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Disabled Badger
     packagedVolume: 27500.0
     portionSize: 1
@@ -3352,6 +3481,7 @@ types:
     hp: 1.0E7
     id: 48743
     lootrespawntime: 600000.0
+    mass: 1.05E8
     name: Disabled Swarm Overmind
     packagedVolume: 1010000.0
     portionSize: 1
@@ -3379,6 +3509,7 @@ types:
     hp: 1000000.0
     id: 23220
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Disposal Unit
     packagedVolume: 1200.0
     portionSize: 1
@@ -3403,6 +3534,7 @@ types:
     hp: 1000000.0
     id: 10261
     lootrespawntime: 800000.0
+    mass: 10000.0
     name: Drifting Cask
     packagedVolume: 1200.0
     portionSize: 1
@@ -3426,6 +3558,7 @@ types:
     hp: 1000000.0
     id: 22849
     lootrespawntime: 900000.0
+    mass: 10000.0
     name: Drifting Cask - Minmatar Training Facility
     packagedVolume: 1200.0
     portionSize: 1
@@ -3450,6 +3583,7 @@ types:
     hp: 1000000.0
     id: 26605
     lootrespawntime: 800000.0
+    mass: 10000.0
     name: Drone Hold
     packagedVolume: 1200.0
     portionSize: 1
@@ -3473,6 +3607,7 @@ types:
     hp: 1000000.0
     id: 11590
     lootrespawntime: 1800000.0
+    mass: 10000.0
     name: Drone Sensor Storage
     packagedVolume: 2750.0
     portionSize: 1
@@ -3498,6 +3633,7 @@ types:
     id: 48779
     ishacking: 1
     lootrespawntime: 15000.0
+    mass: 10000.0
     name: Drop-off Container
     packagedVolume: 27500.0
     portionSize: 1
@@ -3523,6 +3659,7 @@ types:
     hp: 1000000.0
     id: 16722
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Electronic_Container
     packagedVolume: 27500.0
     portionSize: 1
@@ -3547,6 +3684,7 @@ types:
     hp: 1000000.0
     id: 30982
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Encrypted Communications Array
     packagedVolume: 27500.0
     portionSize: 1
@@ -3574,6 +3712,7 @@ types:
     hp: 1000000.0
     id: 25471
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Erakki's Storage Bin
     packagedVolume: 1200.0
     portionSize: 1
@@ -3598,6 +3737,7 @@ types:
     id: 59750
     ishacking: 1
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Expert Data Vault
     packagedVolume: 27500.0
     portionSize: 1
@@ -3625,6 +3765,7 @@ types:
     hp: 1000000.0
     id: 32347
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Exploration Supplies
     packagedVolume: 27500.0
     portionSize: 1
@@ -3650,6 +3791,7 @@ types:
     hp: 1000000.0
     id: 30981
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Federation Detention Facility FNSBR-106V.1
     packagedVolume: 27500.0
     portionSize: 1
@@ -3679,6 +3821,7 @@ types:
     hp: 1000000.0
     id: 30976
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Federation Navy Shipyard
     packagedVolume: 1.0E8
     portionSize: 1
@@ -3705,6 +3848,7 @@ types:
     hp: 1000000.0
     id: 10231
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Flotsam
     packagedVolume: 1200.0
     portionSize: 1
@@ -3724,6 +3868,7 @@ types:
     hp: 1000000.0
     id: 11680
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Forcefield Array
     packagedVolume: 100.0
     portionSize: 1
@@ -3749,6 +3894,7 @@ types:
     hp: 1000000.0
     id: 32100
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Forgotten Debris
     packagedVolume: 27500.0
     portionSize: 1
@@ -3776,6 +3922,7 @@ types:
     hp: 1000000.0
     id: 10262
     lootrespawntime: 4800000.0
+    mass: 10000.0
     name: Forsaken Stockpile
     packagedVolume: 10500.0
     portionSize: 1
@@ -3799,6 +3946,7 @@ types:
     hp: 1000000.0
     id: 12556
     lootrespawntime: 400000.0
+    mass: 10000.0
     name: Frequency Crystal Storage
     packagedVolume: 1200.0
     portionSize: 1
@@ -3822,6 +3970,7 @@ types:
     hp: 1000000.0
     id: 3835
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Gallente Academy Office
     packagedVolume: 27500.0
     portionSize: 1
@@ -3846,6 +3995,7 @@ types:
     hp: 1000000.0
     id: 3847
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Gallente Cargo Rig
     packagedVolume: 27500.0
     portionSize: 1
@@ -3870,6 +4020,7 @@ types:
     hp: 1000000.0
     id: 42864
     lootrespawntime: 10.0
+    mass: 100000.0
     name: Gallente Erebus Titan
     packagedVolume: 1.0E8
     portionSize: 1
@@ -3894,6 +4045,7 @@ types:
     hp: 1000000.0
     id: 2911
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Gallente Passenger Liner Damaged
     packagedVolume: 1.0E8
     portionSize: 1
@@ -3919,6 +4071,7 @@ types:
     hp: 1000000.0
     id: 26668
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -3946,6 +4099,7 @@ types:
     hp: 1000000.0
     id: 26669
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -3973,6 +4127,7 @@ types:
     hp: 1000000.0
     id: 21704
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Guristas Network Hub
     packagedVolume: 27500.0
     portionSize: 1
@@ -4000,6 +4155,7 @@ types:
     hp: 1000000.0
     id: 21706
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Guristas Network Nexus
     packagedVolume: 27500.0
     portionSize: 1
@@ -4027,6 +4183,7 @@ types:
     hp: 1000000.0
     id: 21703
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Guristas Network Node
     packagedVolume: 27500.0
     portionSize: 1
@@ -4054,6 +4211,7 @@ types:
     hp: 1000000.0
     id: 21705
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Guristas Network Nucleus
     packagedVolume: 27500.0
     portionSize: 1
@@ -4080,6 +4238,7 @@ types:
     hp: 1000000.0
     id: 22223
     lootrespawntime: 8.46E7
+    mass: 100000.0
     name: Guristas Officer's Quarters Mission Spy Stash
     packagedVolume: 1.0E8
     portionSize: 1
@@ -4104,6 +4263,7 @@ types:
     hp: 1000000.0
     id: 33889
     lootrespawntime: 8.46E7
+    mass: 100000.0
     name: Guristas Research and Trade Hub
     packagedVolume: 1.0E8
     portionSize: 1
@@ -4129,6 +4289,7 @@ types:
     hp: 1000000.0
     id: 29738
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Ship Debris
     packagedVolume: 27500.0
     portionSize: 1
@@ -4156,6 +4317,7 @@ types:
     hp: 1000000.0
     id: 29728
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Ship Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -4183,6 +4345,7 @@ types:
     hp: 1000000.0
     id: 29901
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Ship Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -4210,6 +4373,7 @@ types:
     hp: 1000000.0
     id: 29733
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Ship Remains
     packagedVolume: 27500.0
     portionSize: 1
@@ -4237,6 +4401,7 @@ types:
     hp: 1000000.0
     id: 29718
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Ship Rubble
     packagedVolume: 27500.0
     portionSize: 1
@@ -4264,6 +4429,7 @@ types:
     hp: 1000000.0
     id: 29896
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Ship Ruins
     packagedVolume: 27500.0
     portionSize: 1
@@ -4291,6 +4457,7 @@ types:
     hp: 1000000.0
     id: 29743
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Ship Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -4318,6 +4485,7 @@ types:
     hp: 1000000.0
     id: 29723
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Ship Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -4344,6 +4512,7 @@ types:
     hp: 1000000.0
     id: 24713
     lootrespawntime: 150000.0
+    mass: 100000.0
     name: Guristas Stash
     packagedVolume: 1.0E8
     portionSize: 1
@@ -4369,6 +4538,7 @@ types:
     hp: 1000000.0
     id: 33987
     lootrespawntime: 8.46E7
+    mass: 100000.0
     name: Guristas Transponder Tower
     packagedVolume: 1.0E8
     portionSize: 1
@@ -4395,6 +4565,7 @@ types:
     hp: 1000000.0
     id: 26666
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -4422,6 +4593,7 @@ types:
     hp: 1000000.0
     id: 26667
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Guristas Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -4448,6 +4620,7 @@ types:
     hp: 1000000.0
     id: 30815
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Habitation Module - Personnel Quarters
     packagedVolume: 27500.0
     portionSize: 1
@@ -4472,6 +4645,7 @@ types:
     hp: 1000000.0
     id: 29213
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Habitation Module - Scientist Quarters
     packagedVolume: 100000.0
     portionSize: 1
@@ -4496,6 +4670,7 @@ types:
     hp: 1000000.0
     id: 24459
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Habitation Module With Encoded Data Chip
     packagedVolume: 1.0E8
     portionSize: 1
@@ -4520,6 +4695,7 @@ types:
     hp: 1000000.0
     id: 27288
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Habitation_Module_Container
     packagedVolume: 1200.0
     portionSize: 1
@@ -4544,6 +4720,7 @@ types:
     hp: 1000000.0
     id: 25526
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Hidden Treasure Chest
     packagedVolume: 1200.0
     portionSize: 1
@@ -4563,6 +4740,7 @@ types:
     falloff: 1.0
     id: 3624
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Holding Cell
     packagedVolume: 27500.0
     portionSize: 1
@@ -4611,6 +4789,7 @@ types:
     hp: 1000000.0
     id: 30956
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Hyasyoda Security Compound
     packagedVolume: 27500.0
     portionSize: 1
@@ -4636,6 +4815,7 @@ types:
     hp: 1000000.0
     id: 34315
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Hyperfluct Generator
     packagedVolume: 27500.0
     portionSize: 1
@@ -4663,6 +4843,7 @@ types:
     hp: 1000000.0
     id: 24577
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Imperial Armory
     packagedVolume: 1.0E8
     portionSize: 1
@@ -4687,6 +4868,7 @@ types:
     hp: 1000000.0
     id: 47449
     lootrespawntime: 1800000.0
+    mass: 10000.0
     name: Inert Capsule
     packagedVolume: 27500.0
     portionSize: 1
@@ -4714,6 +4896,7 @@ types:
     id: 42638
     ishacking: 1
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Info Shard
     packagedVolume: 27500.0
     portionSize: 1
@@ -4740,6 +4923,7 @@ types:
     hp: 1000000.0
     id: 34378
     lootrespawntime: 1.2E7
+    mass: 10000.0
     name: Intact Storage Depot
     packagedVolume: 27500.0
     portionSize: 1
@@ -4768,6 +4952,7 @@ types:
     id: 59749
     ishacking: 1
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Intermediate Data Vault
     packagedVolume: 27500.0
     portionSize: 1
@@ -4795,6 +4980,7 @@ types:
     hp: 1000000.0
     id: 23743
     lootrespawntime: 600000.0
+    mass: 100000.0
     name: Kador Bunker
     packagedVolume: 1.0E8
     portionSize: 1
@@ -4819,6 +5005,7 @@ types:
     hp: 1000000.0
     id: 21099
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Kazka Loot Container
     packagedVolume: 1200.0
     portionSize: 1
@@ -4843,6 +5030,7 @@ types:
     hp: 1000000.0
     id: 21891
     lootrespawntime: 1.2E7
+    mass: 10000.0
     name: Kutill's Storage Bin
     packagedVolume: 27500.0
     portionSize: 1
@@ -4867,6 +5055,7 @@ types:
     hp: 1000000.0
     id: 24124
     lootrespawntime: 400000.0
+    mass: 10000.0
     name: Laser-Pistol Stash
     packagedVolume: 1200.0
     portionSize: 1
@@ -4890,6 +5079,7 @@ types:
     hp: 1000000.0
     id: 2232
     lootrespawntime: 6.0E7
+    mass: 10000.0
     name: Life pod
     packagedVolume: 1200.0
     portionSize: 1
@@ -4915,6 +5105,7 @@ types:
     hp: 1000000.0
     id: 2218
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Locced's Bribe
     packagedVolume: 27500.0
     portionSize: 1
@@ -4940,6 +5131,7 @@ types:
     hp: 1000000.0
     id: 3261
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Logistics Control Array
     packagedVolume: 27500.0
     portionSize: 1
@@ -4967,6 +5159,7 @@ types:
     hp: 1000000.0
     id: 24269
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Lord Arachnan's Outpost
     packagedVolume: 1.0E8
     portionSize: 1
@@ -4991,6 +5184,7 @@ types:
     hp: 1000000.0
     id: 24267
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Lord Methros' Outpost
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5015,6 +5209,7 @@ types:
     hp: 1000000.0
     id: 26719
     lootrespawntime: 8.0E10
+    mass: 100000.0
     name: Madcat's Stash
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5041,6 +5236,7 @@ types:
     hp: 1000000.0
     id: 34299
     lootrespawntime: 1.2E7
+    mass: 10000.0
     name: Mangled Storage Depot
     packagedVolume: 27500.0
     portionSize: 1
@@ -5069,6 +5265,7 @@ types:
     hp: 1000000.0
     id: 28954
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Metadrones - LM-G-2 - B
     packagedVolume: 25000.0
     portionSize: 1
@@ -5096,6 +5293,7 @@ types:
     hp: 1000000.0
     id: 28980
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Metadrones - LM-G-2 - F
     packagedVolume: 25000.0
     portionSize: 1
@@ -5123,6 +5321,7 @@ types:
     hp: 1000000.0
     id: 28963
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Metadrones - LM-M-2 - B
     packagedVolume: 25000.0
     portionSize: 1
@@ -5150,6 +5349,7 @@ types:
     hp: 1000000.0
     id: 28981
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Metadrones - LM-M-2 - F
     packagedVolume: 25000.0
     portionSize: 1
@@ -5176,6 +5376,7 @@ types:
     hp: 1000000.0
     id: 16723
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Mineral Container
     packagedVolume: 27500.0
     portionSize: 1
@@ -5199,6 +5400,7 @@ types:
     hp: 1000000.0
     id: 3811
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Minmatar Academy Office
     packagedVolume: 27500.0
     portionSize: 1
@@ -5223,6 +5425,7 @@ types:
     hp: 1000000.0
     id: 22728
     lootrespawntime: 600000.0
+    mass: 100000.0
     name: Minmatar Bunker_Alliance Barracks
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5247,6 +5450,7 @@ types:
     hp: 1000000.0
     id: 3848
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Minmatar Cargo Rig
     packagedVolume: 27500.0
     portionSize: 1
@@ -5272,6 +5476,7 @@ types:
     hp: 700.0
     id: 2181
     lootrespawntime: 3600000.0
+    mass: 100000.0
     name: Minmatar Diplomat Quarters
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5300,6 +5505,7 @@ types:
     hp: 1000000.0
     id: 22138
     lootrespawntime: 900000.0
+    mass: 100000.0
     name: Minmatar Prison_Mission
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5324,6 +5530,7 @@ types:
     hp: 1000000.0
     id: 42865
     lootrespawntime: 10.0
+    mass: 100000.0
     name: Minmatar Ragnarok Titan
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5348,6 +5555,7 @@ types:
     hp: 1000000.0
     id: 12602
     lootrespawntime: 400000.0
+    mass: 10000.0
     name: Missile Storage
     packagedVolume: 1200.0
     portionSize: 1
@@ -5373,6 +5581,7 @@ types:
     hp: 1000000.0
     id: 27802
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Mission Hacking Can
     packagedVolume: 27500.0
     portionSize: 1
@@ -5402,6 +5611,7 @@ types:
     hp: 1000000.0
     id: 27804
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Mission Hacking Can 1
     packagedVolume: 27500.0
     portionSize: 1
@@ -5431,6 +5641,7 @@ types:
     hp: 1000000.0
     id: 28224
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Mission Hacking Can 2
     packagedVolume: 27500.0
     portionSize: 1
@@ -5458,6 +5669,7 @@ types:
     hp: 1000000.0
     id: 12554
     lootrespawntime: 400000.0
+    mass: 10000.0
     name: Munition Storage
     packagedVolume: 1200.0
     portionSize: 1
@@ -5481,6 +5693,7 @@ types:
     hp: 1000000.0
     id: 59968
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: NE ESS Key Generator
     packagedVolume: 27500.0
     portionSize: 1
@@ -5505,6 +5718,7 @@ types:
     hp: 1000000.0
     id: 59967
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: NW ESS Key Generator
     packagedVolume: 27500.0
     portionSize: 1
@@ -5531,6 +5745,7 @@ types:
     hp: 1000000.0
     id: 22343
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Nefantar Debris I
     packagedVolume: 27500.0
     portionSize: 1
@@ -5558,6 +5773,7 @@ types:
     hp: 1000000.0
     id: 22247
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Nefantar Debris II
     packagedVolume: 27500.0
     portionSize: 1
@@ -5583,6 +5799,7 @@ types:
     id: 59748
     ishacking: 1
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Novice Data Vault
     packagedVolume: 27500.0
     portionSize: 1
@@ -5612,6 +5829,7 @@ types:
     hp: 1000000.0
     id: 25523
     lootrespawntime: 8.64E7
+    mass: 1000000.0
     name: Nuomo's Scanner
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5636,6 +5854,7 @@ types:
     hp: 1000000.0
     id: 32276
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Office Facility
     packagedVolume: 27500.0
     portionSize: 1
@@ -5660,6 +5879,7 @@ types:
     hp: 1000000.0
     id: 21052
     lootrespawntime: 1.2E7
+    mass: 10000.0
     name: Old Storage Container
     packagedVolume: 27500.0
     portionSize: 1
@@ -5683,6 +5903,7 @@ types:
     hp: 1000000.0
     id: 30720
     lootrespawntime: 6.0E7
+    mass: 10000.0
     name: Parthus' Malfunctioning Capsule
     packagedVolume: 1200.0
     portionSize: 1
@@ -5707,6 +5928,7 @@ types:
     hp: 1000000.0
     id: 22032
     lootrespawntime: 800000.0
+    mass: 10000.0
     name: Podded Pilot
     packagedVolume: 1200.0
     portionSize: 1
@@ -5731,6 +5953,7 @@ types:
     hp: 1000000.0
     id: 2223
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Preacher's Quarters
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5757,6 +5980,7 @@ types:
     hp: 1000000.0
     id: 2011
     lootrespawntime: 9.0E8
+    mass: 100000.0
     name: Prison Facility
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5783,6 +6007,7 @@ types:
     hp: 1000000.0
     id: 25845
     lootrespawntime: 9.0E8
+    mass: 100000.0
     name: Prison_Mission
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5809,6 +6034,7 @@ types:
     hp: 1000000.0
     id: 34385
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Pristine Storage Depot
     packagedVolume: 27500.0
     portionSize: 1
@@ -5836,6 +6062,7 @@ types:
     hp: 1000000.0
     id: 29214
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Quarantine Station Ruins
     packagedVolume: 27500.0
     portionSize: 1
@@ -5860,6 +6087,7 @@ types:
     hp: 1000000.0
     id: 32256
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: RSS Radio Telescope
     packagedVolume: 27500.0
     portionSize: 1
@@ -5887,6 +6115,7 @@ types:
     id: 29608
     ishacking: 1
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Radio Telescope - Hacking - Encoded Data Chip
     packagedVolume: 27500.0
     portionSize: 1
@@ -5911,6 +6140,7 @@ types:
     hp: 1000000.0
     id: 21662
     lootrespawntime: 8.64E7
+    mass: 1000000.0
     name: Radio_Telescope_MISSION
     packagedVolume: 1.0E8
     portionSize: 1
@@ -5936,6 +6166,7 @@ types:
     hp: 1000000.0
     id: 29549
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Reconnaissance Ship Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -5965,6 +6196,7 @@ types:
     hp: 1000000.0
     id: 34531
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Redoubt Alignment Unit 0
     packagedVolume: 27500.0
     portionSize: 1
@@ -5995,6 +6227,7 @@ types:
     hp: 1000000.0
     id: 34532
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Redoubt Alignment Unit 1
     packagedVolume: 27500.0
     portionSize: 1
@@ -6025,6 +6258,7 @@ types:
     hp: 1000000.0
     id: 34521
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Redoubt Alpha Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -6055,6 +6289,7 @@ types:
     hp: 1000000.0
     id: 34519
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Redoubt Beta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -6085,6 +6320,7 @@ types:
     hp: 1000000.0
     id: 34520
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Redoubt Delta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -6115,6 +6351,7 @@ types:
     hp: 1000000.0
     id: 34522
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Redoubt Gamma Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -6143,6 +6380,7 @@ types:
     hp: 1000000.0
     id: 34305
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Remote Defense Grid Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -6171,6 +6409,7 @@ types:
     hp: 1000000.0
     id: 34301
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Remote Pressure Control Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -6199,6 +6438,7 @@ types:
     hp: 1000000.0
     id: 34406
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Remote Reroute Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -6226,6 +6466,7 @@ types:
     hp: 1000000.0
     id: 22168
     lootrespawntime: 2400000.0
+    mass: 10000.0
     name: Republic Navy Container
     packagedVolume: 2750.0
     portionSize: 1
@@ -6250,6 +6491,7 @@ types:
     hp: 1000000.0
     id: 42117
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Research Cache
     packagedVolume: 27500.0
     portionSize: 1
@@ -6274,6 +6516,7 @@ types:
     hp: 1000000.0
     id: 42119
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Research Vault
     packagedVolume: 27500.0
     portionSize: 1
@@ -6298,6 +6541,7 @@ types:
     hp: 1000000.0
     id: 42118
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Research Warehouse
     packagedVolume: 27500.0
     portionSize: 1
@@ -6322,6 +6566,7 @@ types:
     hp: 1000000.0
     id: 34330
     lootrespawntime: 2400000.0
+    mass: 10000.0
     name: Resource Container
     packagedVolume: 2750.0
     portionSize: 1
@@ -6345,6 +6590,7 @@ types:
     hp: 1000000.0
     id: 42814
     lootrespawntime: 10.0
+    mass: 100000.0
     name: Resource Crate
     packagedVolume: 1.0E8
     portionSize: 1
@@ -6369,6 +6615,7 @@ types:
     hp: 1000000.0
     id: 16724
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Rogue Drone Container
     packagedVolume: 27500.0
     portionSize: 1
@@ -6392,6 +6639,7 @@ types:
     hp: 1000000.0
     id: 24429
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Rolette Residence
     packagedVolume: 1.0E8
     portionSize: 1
@@ -6416,6 +6664,7 @@ types:
     hp: 1000000.0
     id: 59970
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: SE ESS Key Generator
     packagedVolume: 27500.0
     portionSize: 1
@@ -6440,6 +6689,7 @@ types:
     hp: 1000000.0
     id: 59969
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: SW ESS Key Generator
     packagedVolume: 27500.0
     portionSize: 1
@@ -6464,6 +6714,7 @@ types:
     hp: 1000000.0
     id: 3491
     lootrespawntime: 1.2E8
+    mass: 100000.0
     name: Sansha Communications Array
     packagedVolume: 27500.0
     portionSize: 1
@@ -6491,6 +6742,7 @@ types:
     hp: 1000000.0
     id: 26672
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -6518,6 +6770,7 @@ types:
     hp: 1000000.0
     id: 26673
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -6545,6 +6798,7 @@ types:
     hp: 1000000.0
     id: 29737
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Ship Debris
     packagedVolume: 27500.0
     portionSize: 1
@@ -6572,6 +6826,7 @@ types:
     hp: 1000000.0
     id: 29729
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Ship Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -6599,6 +6854,7 @@ types:
     hp: 1000000.0
     id: 29902
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Ship Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -6626,6 +6882,7 @@ types:
     hp: 1000000.0
     id: 29734
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Ship Remains
     packagedVolume: 27500.0
     portionSize: 1
@@ -6653,6 +6910,7 @@ types:
     hp: 1000000.0
     id: 29719
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Ship Rubble
     packagedVolume: 27500.0
     portionSize: 1
@@ -6680,6 +6938,7 @@ types:
     hp: 1000000.0
     id: 29897
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Ship Ruins
     packagedVolume: 27500.0
     portionSize: 1
@@ -6707,6 +6966,7 @@ types:
     hp: 1000000.0
     id: 29744
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Ship Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -6734,6 +6994,7 @@ types:
     hp: 1000000.0
     id: 29724
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Ship Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -6761,6 +7022,7 @@ types:
     hp: 1000000.0
     id: 26670
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -6788,6 +7050,7 @@ types:
     hp: 1000000.0
     id: 26671
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Sansha Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -6814,6 +7077,7 @@ types:
     hp: 1000000.0
     id: 2901
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Science Vessel Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -6838,6 +7102,7 @@ types:
     hp: 1000000.0
     id: 23595
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Scorched Container
     packagedVolume: 1200.0
     portionSize: 1
@@ -6863,6 +7128,7 @@ types:
     hp: 1000000.0
     id: 32281
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Secure Communications Tower
     packagedVolume: 27500.0
     portionSize: 1
@@ -6891,6 +7157,7 @@ types:
     hp: 1000000.0
     id: 57441
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Secure Databank
     packagedVolume: 27500.0
     portionSize: 1
@@ -6919,6 +7186,7 @@ types:
     hp: 1000000.0
     id: 57440
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Secure Depot
     packagedVolume: 27500.0
     portionSize: 1
@@ -6947,6 +7215,7 @@ types:
     hp: 1000000.0
     id: 33531
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Secure Lab
     packagedVolume: 27500.0
     portionSize: 1
@@ -6975,6 +7244,7 @@ types:
     hp: 1000000.0
     id: 33533
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Secure Mainframe
     packagedVolume: 27500.0
     portionSize: 1
@@ -7003,6 +7273,7 @@ types:
     hp: 1000000.0
     id: 33534
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Secure Vault
     packagedVolume: 27500.0
     portionSize: 1
@@ -7033,6 +7304,7 @@ types:
     hp: 1000000.0
     id: 34523
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Sentinel Alignment Unit 0
     packagedVolume: 27500.0
     portionSize: 1
@@ -7063,6 +7335,7 @@ types:
     hp: 1000000.0
     id: 34524
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Sentinel Alignment Unit 1
     packagedVolume: 27500.0
     portionSize: 1
@@ -7093,6 +7366,7 @@ types:
     hp: 1000000.0
     id: 34505
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Sentinel Alpha Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -7123,6 +7397,7 @@ types:
     hp: 1000000.0
     id: 34503
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Sentinel Beta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -7153,6 +7428,7 @@ types:
     hp: 1000000.0
     id: 34504
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Sentinel Delta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -7183,6 +7459,7 @@ types:
     hp: 1000000.0
     id: 34506
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Sentinel Gamma Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -7212,6 +7489,7 @@ types:
     hp: 1000000.0
     id: 34438
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Sentry Repair Station
     packagedVolume: 27500.0
     portionSize: 1
@@ -7240,6 +7518,7 @@ types:
     hp: 1000000.0
     id: 26676
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -7267,6 +7546,7 @@ types:
     hp: 1000000.0
     id: 26677
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -7294,6 +7574,7 @@ types:
     hp: 1000000.0
     id: 23217
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Serpentis Network Hub
     packagedVolume: 27500.0
     portionSize: 1
@@ -7321,6 +7602,7 @@ types:
     hp: 1000000.0
     id: 23219
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Serpentis Network Nexus
     packagedVolume: 27500.0
     portionSize: 1
@@ -7348,6 +7630,7 @@ types:
     hp: 1000000.0
     id: 23216
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Serpentis Network Node
     packagedVolume: 27500.0
     portionSize: 1
@@ -7375,6 +7658,7 @@ types:
     hp: 1000000.0
     id: 23218
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Serpentis Network Nucleus
     packagedVolume: 27500.0
     portionSize: 1
@@ -7403,6 +7687,7 @@ types:
     hp: 1000000.0
     id: 23359
     lootrespawntime: 1800000.0
+    mass: 100000.0
     name: Serpentis Prison_Mission
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7428,6 +7713,7 @@ types:
     hp: 1000000.0
     id: 29736
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Ship Debris
     packagedVolume: 27500.0
     portionSize: 1
@@ -7455,6 +7741,7 @@ types:
     hp: 1000000.0
     id: 29730
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Ship Derelict
     packagedVolume: 27500.0
     portionSize: 1
@@ -7482,6 +7769,7 @@ types:
     hp: 1000000.0
     id: 29903
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Ship Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -7509,6 +7797,7 @@ types:
     hp: 1000000.0
     id: 29735
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Ship Remains
     packagedVolume: 27500.0
     portionSize: 1
@@ -7536,6 +7825,7 @@ types:
     hp: 1000000.0
     id: 29720
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Ship Rubble
     packagedVolume: 27500.0
     portionSize: 1
@@ -7563,6 +7853,7 @@ types:
     hp: 1000000.0
     id: 29898
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Ship Ruins
     packagedVolume: 27500.0
     portionSize: 1
@@ -7590,6 +7881,7 @@ types:
     hp: 1000000.0
     id: 29745
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Ship Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -7617,6 +7909,7 @@ types:
     hp: 1000000.0
     id: 29725
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Ship Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -7643,6 +7936,7 @@ types:
     hp: 1000000.0
     id: 24724
     lootrespawntime: 300000.0
+    mass: 10000.0
     name: Serpentis Stash
     packagedVolume: 27500.0
     portionSize: 1
@@ -7668,6 +7962,7 @@ types:
     hp: 1000000.0
     id: 26674
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Waste
     packagedVolume: 27500.0
     portionSize: 1
@@ -7695,6 +7990,7 @@ types:
     hp: 1000000.0
     id: 26675
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Serpentis Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -7721,6 +8017,7 @@ types:
     hp: 1000000.0
     id: 22084
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Ship Carcass
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7745,6 +8042,7 @@ types:
     hp: 1000000.0
     id: 25468
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Ship Carcass_2
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7769,6 +8067,7 @@ types:
     hp: 1000000.0
     id: 22061
     lootrespawntime: 8.64E7
+    mass: 1000000.0
     name: Ship Wreckage
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7793,6 +8092,7 @@ types:
     hp: 1000000.0
     id: 22072
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Ship Wreckage2
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7817,6 +8117,7 @@ types:
     hp: 1000000.0
     id: 22150
     lootrespawntime: 8.46E7
+    mass: 1000000.0
     name: Ship Wreckage3
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7841,6 +8142,7 @@ types:
     hp: 1000000.0
     id: 22791
     lootrespawntime: 8.64E8
+    mass: 1000000.0
     name: Ship Wreckage4
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7865,6 +8167,7 @@ types:
     hp: 1000000.0
     id: 22799
     lootrespawntime: 8.64E8
+    mass: 1000000.0
     name: Ship Wreckage5
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7889,6 +8192,7 @@ types:
     hp: 1000000.0
     id: 25735
     lootrespawntime: 8.64E8
+    mass: 1000000.0
     name: Ship Wreckage6
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7914,6 +8218,7 @@ types:
     hp: 1000000.0
     id: 30996
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Shuttle Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -7942,6 +8247,7 @@ types:
     hp: 1000000.0
     id: 25841
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Slave Pens
     packagedVolume: 1.0E8
     portionSize: 1
@@ -7971,6 +8277,7 @@ types:
     hp: 1000000.0
     id: 34403
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Solray Observational Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -7998,6 +8305,7 @@ types:
     hp: 1000000.0
     id: 12028
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Storage Bin
     packagedVolume: 1200.0
     portionSize: 1
@@ -8021,6 +8329,7 @@ types:
     hp: 1000000.0
     id: 23701
     lootrespawntime: 600000.0
+    mass: 1.35E7
     name: Stranded Personnel Transport
     packagedVolume: 260000.0
     portionSize: 1
@@ -8045,6 +8354,7 @@ types:
     hp: 1000000.0
     id: 24279
     lootrespawntime: 800000.0
+    mass: 10000.0
     name: Strange Drifting Cask
     packagedVolume: 1200.0
     portionSize: 1
@@ -8069,6 +8379,7 @@ types:
     hp: 1000000.0
     id: 24280
     lootrespawntime: 800000.0
+    mass: 10000.0
     name: Strange Drifting Cask_2
     packagedVolume: 1200.0
     portionSize: 1
@@ -8093,6 +8404,7 @@ types:
     hp: 1000000.0
     id: 24281
     lootrespawntime: 800000.0
+    mass: 10000.0
     name: Strange Drifting Cask_3
     packagedVolume: 1200.0
     portionSize: 1
@@ -8117,6 +8429,7 @@ types:
     hp: 1000000.0
     id: 29212
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Suntendi Research Outpost
     packagedVolume: 1150.0
     portionSize: 1
@@ -8142,6 +8455,7 @@ types:
     hp: 1000000.0
     id: 57563
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Super Special Vault
     packagedVolume: 27500.0
     portionSize: 1
@@ -8168,6 +8482,7 @@ types:
     hp: 1.0E7
     id: 53081
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Survey Ship
     packagedVolume: 27500.0
     portionSize: 1
@@ -8196,6 +8511,7 @@ types:
     hp: 1000000.0
     id: 2850
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Suspicious Ship Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -8222,6 +8538,7 @@ types:
     hp: 1000000.0
     id: 11589
     lootrespawntime: 1800000.0
+    mass: 10000.0
     name: Temple Stone Storage
     packagedVolume: 2750.0
     portionSize: 1
@@ -8245,6 +8562,7 @@ types:
     hp: 1000000.0
     id: 60713
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Tetrimon Network Hub
     packagedVolume: 27500.0
     portionSize: 1
@@ -8272,6 +8590,7 @@ types:
     hp: 1000000.0
     id: 60712
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Tetrimon Network Node
     packagedVolume: 27500.0
     portionSize: 1
@@ -8299,6 +8618,7 @@ types:
     hp: 1000000.0
     id: 30775
     lootrespawntime: 6.0E7
+    mass: 1450000.0
     name: The Heartbreak
     packagedVolume: 16120.0
     portionSize: 1
@@ -8323,6 +8643,7 @@ types:
     hp: 1000000.0
     id: 23904
     lootrespawntime: 400000.0
+    mass: 10000.0
     name: The Scope Storage Container
     packagedVolume: 1200.0
     portionSize: 1
@@ -8346,6 +8667,7 @@ types:
     hp: 1000000.0
     id: 2860
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: The Seven Holding Cells
     packagedVolume: 1200.0
     portionSize: 1
@@ -8370,6 +8692,7 @@ types:
     hp: 1000000.0
     id: 25397
     lootrespawntime: 8460000.0
+    mass: 10000.0
     name: Tikui's Stash
     packagedVolume: 27500.0
     portionSize: 1
@@ -8394,6 +8717,7 @@ types:
     hp: 1000000.0
     id: 32233
     lootrespawntime: 2400000.0
+    mass: 100000.0
     name: Tili's Brothel
     packagedVolume: 1.0E8
     portionSize: 1
@@ -8418,6 +8742,7 @@ types:
     hp: 1000000.0
     id: 2886
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Tomb of the Unknown Soldiers
     packagedVolume: 27500.0
     portionSize: 1
@@ -8442,6 +8767,7 @@ types:
     hp: 1000000.0
     id: 32353
     lootrespawntime: 10.0
+    mass: 10000.0
     name: Training Container - Anomalies
     packagedVolume: 27500.0
     portionSize: 1
@@ -8466,6 +8792,7 @@ types:
     hp: 1000000.0
     id: 32379
     lootrespawntime: 10.0
+    mass: 10000.0
     name: Training Container - Gas
     packagedVolume: 27500.0
     portionSize: 1
@@ -8490,6 +8817,7 @@ types:
     hp: 1000000.0
     id: 32378
     lootrespawntime: 10.0
+    mass: 10000.0
     name: Training Container - Ore
     packagedVolume: 27500.0
     portionSize: 1
@@ -8516,6 +8844,7 @@ types:
     id: 32368
     isarcheology: 1
     lootrespawntime: 1.0
+    mass: 10000.0
     name: Training Container - Salvaging
     packagedVolume: 27500.0
     portionSize: 1
@@ -8542,6 +8871,7 @@ types:
     hp: 1000000.0
     id: 57562
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Twin-Linked Gate Control
     packagedVolume: 27500.0
     portionSize: 1
@@ -8569,6 +8899,7 @@ types:
     hp: 1000000.0
     id: 21633
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Urigamu_Warehouse_MISSION
     packagedVolume: 1150.0
     portionSize: 1
@@ -8595,6 +8926,7 @@ types:
     hp: 1000000.0
     id: 32377
     lootrespawntime: 1200000.0
+    mass: 100000.0
     name: Venal Regional Comms Tower
     packagedVolume: 27500.0
     portionSize: 1
@@ -8623,6 +8955,7 @@ types:
     hp: 1000000.0
     id: 34453
     lootrespawntime: 600000.0
+    mass: 10000.0
     name: Vessel Rejuvenation Battery
     packagedVolume: 27500.0
     portionSize: 1
@@ -8653,6 +8986,7 @@ types:
     hp: 1000000.0
     id: 34527
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Vidette Alignment Unit 0
     packagedVolume: 27500.0
     portionSize: 1
@@ -8683,6 +9017,7 @@ types:
     hp: 1000000.0
     id: 34528
     lootrespawntime: 3600000.0
+    mass: 10000.0
     name: Vidette Alignment Unit 1
     packagedVolume: 27500.0
     portionSize: 1
@@ -8713,6 +9048,7 @@ types:
     hp: 1000000.0
     id: 34513
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Vidette Alpha Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -8743,6 +9079,7 @@ types:
     hp: 1000000.0
     id: 34511
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Vidette Beta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -8773,6 +9110,7 @@ types:
     hp: 1000000.0
     id: 34512
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Vidette Delta Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -8803,6 +9141,7 @@ types:
     hp: 1000000.0
     id: 34514
     lootrespawntime: 120000.0
+    mass: 10000.0
     name: Vidette Gamma Access Unit
     packagedVolume: 27500.0
     portionSize: 1
@@ -8830,6 +9169,7 @@ types:
     hp: 1000000.0
     id: 26715
     lootrespawntime: 150000.0
+    mass: 100000.0
     name: Viral Stash
     packagedVolume: 1.0E8
     portionSize: 1
@@ -8854,6 +9194,7 @@ types:
     hp: 1000000.0
     id: 19765
     lootrespawntime: 8.64E7
+    mass: 1000000.0
     name: Warehouse_MISSION
     packagedVolume: 1150.0
     portionSize: 1
@@ -8878,6 +9219,7 @@ types:
     hp: 1000000.0
     id: 24721
     lootrespawntime: 8.64E7
+    mass: 1000000.0
     name: Warehouse_MISSION2
     packagedVolume: 1150.0
     portionSize: 1
@@ -8902,6 +9244,7 @@ types:
     hp: 1000000.0
     id: 23572
     lootrespawntime: 3600000.0
+    mass: 1000000.0
     name: Wiyrkomi Warehouse
     packagedVolume: 1150.0
     portionSize: 1
@@ -8926,6 +9269,7 @@ types:
     hp: 1000000.0
     id: 29190
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Wreck W/ 23 Survivors
     packagedVolume: 27500.0
     portionSize: 1
@@ -8952,6 +9296,7 @@ types:
     hp: 1000000.0
     id: 23607
     lootrespawntime: 1800000.0
+    mass: 1000000.0
     name: Wreckage of Isone's Ship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -8976,6 +9321,7 @@ types:
     hp: 1000000.0
     id: 42663
     lootrespawntime: 10.0
+    mass: 100000.0
     name: Wrecked Amarr Apocalypse Battleship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9000,6 +9346,7 @@ types:
     hp: 1000000.0
     id: 42664
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Wrecked Amarr Armageddon Battleship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9024,6 +9371,7 @@ types:
     hp: 1000000.0
     id: 42665
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Wrecked Caldari Raven Battleship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9048,6 +9396,7 @@ types:
     hp: 1000000.0
     id: 42666
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Wrecked Caldari Scorpion Battleship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9072,6 +9421,7 @@ types:
     hp: 1000000.0
     id: 42667
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Wrecked Gallente Dominix Battleship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9096,6 +9446,7 @@ types:
     hp: 1000000.0
     id: 42668
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Wrecked Gallente Megathron Battleship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9120,6 +9471,7 @@ types:
     hp: 1000000.0
     id: 42670
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Wrecked Minmatar Tempest Battleship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9144,6 +9496,7 @@ types:
     hp: 1000000.0
     id: 42669
     lootrespawntime: 8.64E7
+    mass: 100000.0
     name: Wrecked Minmatar Typhoon Battleship
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9171,6 +9524,7 @@ types:
     id: 28885
     isarcheology: 1
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: Wrecked Science Vessel
     packagedVolume: 27500.0
     portionSize: 1
@@ -9195,6 +9549,7 @@ types:
     hp: 1000000.0
     id: 30813
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Wrecked Ship
     packagedVolume: 27500.0
     portionSize: 1
@@ -9219,6 +9574,7 @@ types:
     hp: 1000000.0
     id: 24301
     lootrespawntime: 900000.0
+    mass: 100000.0
     name: Yamia Mida's Residence
     packagedVolume: 1.0E8
     portionSize: 1
@@ -9244,6 +9600,7 @@ types:
     hp: 1000000.0
     id: 29289
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: Zainou Biotech Convoy Wreck
     packagedVolume: 27500.0
     portionSize: 1
@@ -9271,6 +9628,7 @@ types:
     hp: 1000000.0
     id: 28259
     lootrespawntime: 1.2E9
+    mass: 10000.0
     name: colins test Hulk
     packagedVolume: 27500.0
     portionSize: 1
@@ -9297,6 +9655,7 @@ types:
     hp: 1000000.0
     id: 16725
     lootrespawntime: 1200000.0
+    mass: 10000.0
     name: weapon_container
     packagedVolume: 27500.0
     portionSize: 1

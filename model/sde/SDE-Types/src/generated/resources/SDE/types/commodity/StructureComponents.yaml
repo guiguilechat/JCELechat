@@ -2,6 +2,7 @@ types:
   Structure Acceleration Coils:
     id: 36957
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 1
     name: Structure Acceleration Coils
     packagedVolume: 3000.0
@@ -12,6 +13,7 @@ types:
   Structure Advertisement Nexus:
     id: 36958
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 1
     name: Structure Advertisement Nexus
     packagedVolume: 3000.0
@@ -22,6 +24,7 @@ types:
   Structure Construction Parts:
     id: 21947
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Construction Parts
     packagedVolume: 3000.0
@@ -33,6 +36,7 @@ types:
   Structure Docking Bay:
     id: 21961
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Docking Bay
     packagedVolume: 3000.0
@@ -44,6 +48,7 @@ types:
   Structure EXERT Conduit Coupler:
     id: 49720
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 1
     name: Structure EXERT Conduit Coupler
     packagedVolume: 3000.0
@@ -54,6 +59,7 @@ types:
   Structure Electromagnetic Sensor:
     id: 36956
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 1
     name: Structure Electromagnetic Sensor
     packagedVolume: 3000.0
@@ -64,6 +70,7 @@ types:
   Structure Factory:
     id: 21955
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Factory
     packagedVolume: 3000.0
@@ -75,6 +82,7 @@ types:
   Structure Hangar Array:
     id: 21949
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Hangar Array
     packagedVolume: 3000.0
@@ -86,6 +94,7 @@ types:
   Structure Laboratory:
     id: 21953
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Laboratory
     packagedVolume: 3000.0
@@ -97,6 +106,7 @@ types:
   Structure Market Network:
     id: 21963
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Market Network
     packagedVolume: 3000.0
@@ -108,6 +118,7 @@ types:
   Structure Medical Center:
     id: 21965
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Medical Center
     packagedVolume: 3000.0
@@ -119,6 +130,7 @@ types:
   Structure Mission Network:
     id: 21969
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Mission Network
     packagedVolume: 3000.0
@@ -130,6 +142,7 @@ types:
   Structure Office Center:
     id: 21967
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Office Center
     packagedVolume: 3000.0
@@ -141,6 +154,7 @@ types:
   Structure Repair Facility:
     id: 21957
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Repair Facility
     packagedVolume: 3000.0
@@ -152,6 +166,7 @@ types:
   Structure Reprocessing Plant:
     id: 21959
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Reprocessing Plant
     packagedVolume: 3000.0
@@ -163,6 +178,7 @@ types:
   Structure Storage Bay:
     id: 21951
     marketGroup: 1865
+    mass: 10000.0
     moonminingamount: 100
     name: Structure Storage Bay
     packagedVolume: 3000.0

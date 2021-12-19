@@ -14,6 +14,7 @@ types:
     hp: 40.0
     id: 46575
     marketGroup: 2223
+    mass: 1000.0
     maxrange: 150000.0
     metagroupid: 4
     metalevelold: 8
@@ -41,6 +42,7 @@ types:
     hp: 40.0
     id: 35925
     marketGroup: 2223
+    mass: 1000.0
     maxrange: 100000.0
     name: Standup Heavy Energy Neutralizer I
     packagedVolume: 8000.0
@@ -66,6 +68,7 @@ types:
     hp: 40.0
     id: 47332
     marketGroup: 2223
+    mass: 1000.0
     maxrange: 120000.0
     metalevelold: 5
     name: Standup Heavy Energy Neutralizer II
@@ -93,6 +96,7 @@ types:
     hp: 40.0
     id: 35924
     marketGroup: 2223
+    mass: 1000.0
     maxrange: 150000.0
     name: Standup XL Energy Neutralizer I
     packagedVolume: 8000.0
@@ -119,6 +123,7 @@ types:
     hp: 40.0
     id: 47330
     marketGroup: 2223
+    mass: 1000.0
     maxrange: 180000.0
     metalevelold: 2
     name: Standup XL Energy Neutralizer II

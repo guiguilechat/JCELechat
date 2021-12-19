@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -33,13 +32,6 @@ public abstract class SovereigntyStructures
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacity;
-    /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
     /**
      * Radius of an object in meters
      */
@@ -82,7 +74,7 @@ public abstract class SovereigntyStructures
     @Stackable(false)
     @DefaultRealValue(100.0)
     public double signatureradius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, Radius.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, Radius.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE })));
     public static final SovereigntyStructures.MetaCat METACAT = new SovereigntyStructures.MetaCat();
 
     @Override
@@ -91,10 +83,6 @@ public abstract class SovereigntyStructures
             case  38 :
             {
                 return capacity;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

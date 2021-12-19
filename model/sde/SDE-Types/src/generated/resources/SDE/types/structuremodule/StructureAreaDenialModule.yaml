@@ -23,6 +23,7 @@ types:
     id: 35926
     kineticdamage: 500.0
     marketGroup: 2221
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxgrouponline: 1
@@ -61,6 +62,7 @@ types:
     id: 47327
     kineticdamage: 625.0
     marketGroup: 2221
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxgrouponline: 1

@@ -7,6 +7,7 @@ types:
     id: 37274
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2346
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set Extinction Level Weapons Suite I
     nullsecmodifier: 1.2000000476837158
@@ -37,6 +38,7 @@ types:
     id: 37275
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2346
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set Extinction Level Weapons Suite II
     nullsecmodifier: 1.2000000476837158

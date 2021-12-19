@@ -10,6 +10,7 @@ types:
     entitybracketcolour: 2
     hp: 925.0
     id: 48128
+    mass: 1.3075E7
     maxvelocity: 120.0
     name: Official Federation Grand Prix Passenger Yacht
     packagedVolume: 115000.0

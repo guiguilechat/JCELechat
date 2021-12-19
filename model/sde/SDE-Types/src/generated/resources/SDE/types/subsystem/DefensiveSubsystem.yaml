@@ -9,6 +9,7 @@ types:
     id: 45587
     lowslotmodifier: 3
     marketGroup: 1126
+    mass: 1400000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Legion Defensive - Augmented Plating
@@ -36,6 +37,7 @@ types:
     jumpharmonicsmodifier: 5
     lowslotmodifier: 2
     marketGroup: 1126
+    mass: 1400000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Legion Defensive - Covert Reconfiguration
@@ -66,6 +68,7 @@ types:
     id: 45588
     lowslotmodifier: 2
     marketGroup: 1126
+    mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Legion Defensive - Nanobot Injector
@@ -93,6 +96,7 @@ types:
     id: 45597
     lowslotmodifier: 2
     marketGroup: 1128
+    mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Defensive - Adaptive Defense Node
@@ -121,6 +125,7 @@ types:
     id: 45596
     lowslotmodifier: 2
     marketGroup: 1128
+    mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Defensive - Augmented Durability
@@ -149,6 +154,7 @@ types:
     jumpharmonicsmodifier: 5
     lowslotmodifier: 1
     marketGroup: 1128
+    mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Defensive - Covert Reconfiguration
@@ -177,6 +183,7 @@ types:
     id: 45593
     lowslotmodifier: 3
     marketGroup: 1129
+    mass: 1400000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Proteus Defensive - Augmented Plating
@@ -204,6 +211,7 @@ types:
     jumpharmonicsmodifier: 5
     lowslotmodifier: 2
     marketGroup: 1129
+    mass: 1400000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Proteus Defensive - Covert Reconfiguration
@@ -234,6 +242,7 @@ types:
     id: 45594
     lowslotmodifier: 2
     marketGroup: 1129
+    mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Proteus Defensive - Nanobot Injector
@@ -261,6 +270,7 @@ types:
     id: 45591
     lowslotmodifier: 1
     marketGroup: 1127
+    mass: 1400000.0
     medslotmodifier: 3
     metalevelold: 1
     name: Tengu Defensive - Amplification Node
@@ -289,6 +299,7 @@ types:
     id: 45589
     jumpharmonicsmodifier: 5
     marketGroup: 1127
+    mass: 1400000.0
     medslotmodifier: 3
     metalevelold: 1
     name: Tengu Defensive - Covert Reconfiguration
@@ -316,6 +327,7 @@ types:
     id: 45590
     lowslotmodifier: 2
     marketGroup: 1127
+    mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Tengu Defensive - Supplemental Screening

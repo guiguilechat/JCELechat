@@ -9,6 +9,7 @@ types:
     hp: 300000.0
     id: 3962
     marketGroup: 1410
+    mass: 1000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Customs Office Gantry

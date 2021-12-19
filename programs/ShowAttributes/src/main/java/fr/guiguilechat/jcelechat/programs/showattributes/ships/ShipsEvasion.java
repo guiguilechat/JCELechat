@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.showattributes;
+package fr.guiguilechat.jcelechat.programs.showattributes.ships;
 
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 

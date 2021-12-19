@@ -5,6 +5,7 @@ types:
     hp: 40.0
     id: 34308
     marketGroup: 1740
+    mass: 200.0
     massbonuspercentage: 100
     maxgroupfitted: 1
     name: Capital Higgs Anchor I
@@ -23,6 +24,7 @@ types:
     hp: 40.0
     id: 34306
     marketGroup: 1212
+    mass: 200.0
     massbonuspercentage: 100
     maxgroupfitted: 1
     name: Large Higgs Anchor I
@@ -41,6 +43,7 @@ types:
     hp: 40.0
     id: 34268
     marketGroup: 1211
+    mass: 200.0
     massbonuspercentage: 100
     maxgroupfitted: 1
     name: Medium Higgs Anchor I
@@ -59,6 +62,7 @@ types:
     hp: 40.0
     id: 34266
     marketGroup: 1210
+    mass: 200.0
     massbonuspercentage: 100
     maxgroupfitted: 1
     name: Small Higgs Anchor I

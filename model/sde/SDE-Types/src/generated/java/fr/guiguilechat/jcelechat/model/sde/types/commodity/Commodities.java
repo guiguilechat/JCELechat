@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
@@ -72,13 +71,6 @@ public class Commodities
     @DefaultRealValue(0.0)
     public double hp;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -92,7 +84,7 @@ public class Commodities
     @Stackable(true)
     @DefaultIntValue(0)
     public int reprocessingskilltype;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageCloudType.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, ReprocessingSkillType.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, DamageCloudChance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageCloudType.INSTANCE, Capacity.INSTANCE, ReprocessingSkillType.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, DamageCloudChance.INSTANCE })));
     public static final Commodities.MetaGroup METAGROUP = new Commodities.MetaGroup();
 
     @Override
@@ -121,10 +113,6 @@ public class Commodities
             case  9 :
             {
                 return hp;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

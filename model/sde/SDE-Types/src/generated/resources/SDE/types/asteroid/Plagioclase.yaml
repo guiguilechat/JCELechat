@@ -8,6 +8,7 @@ types:
     compressiontypeid: 28421
     id: 17455
     marketGroup: 516
+    mass: 1.0000000409184788E35
     name: Azure Plagioclase
     orebasictype: 18
     packagedVolume: 0.3499999940395355
@@ -27,6 +28,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28421
     marketGroup: 516
+    mass: 1.0000000409184788E35
     name: Compressed Azure Plagioclase
     orebasictype: 18
     packagedVolume: 0.15000000596046448
@@ -46,6 +48,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28422
     marketGroup: 516
+    mass: 1.0000000409184788E35
     name: Compressed Plagioclase
     orebasictype: 18
     packagedVolume: 0.15000000596046448
@@ -65,6 +68,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28423
     marketGroup: 516
+    mass: 1.0000000409184788E35
     name: Compressed Rich Plagioclase
     orebasictype: 18
     packagedVolume: 0.15000000596046448
@@ -84,6 +88,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46701
     marketGroup: 516
+    mass: 1.0
     name: Compressed Sparkling Plagioclase
     orebasictype: 46685
     packagedVolume: 0.15000000596046448
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 28422
     id: 18
     marketGroup: 516
+    mass: 1.0000000409184788E35
     name: Plagioclase
     orebasictype: 18
     packagedVolume: 0.3499999940395355
@@ -126,6 +132,7 @@ types:
     compressiontypeid: 28423
     id: 17456
     marketGroup: 516
+    mass: 1.0000000409184788E35
     name: Rich Plagioclase
     orebasictype: 18
     packagedVolume: 0.3499999940395355
@@ -147,6 +154,7 @@ types:
     compressiontypeid: 46701
     id: 46685
     marketGroup: 516
+    mass: 1.0000000409184788E35
     name: Sparkling Plagioclase
     orebasictype: 46685
     packagedVolume: 0.3499999940395355

@@ -9,6 +9,7 @@ types:
     id: 50138
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Ace of Podhunters Firework
@@ -30,6 +31,7 @@ types:
     id: 44261
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Angels Arisen Firework
@@ -51,6 +53,7 @@ types:
     id: 33572
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Barium Firework
@@ -72,6 +75,7 @@ types:
     id: 32994
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Barium Firework CXIV
@@ -93,6 +97,7 @@ types:
     id: 44262
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Blood Dagger Firework
@@ -114,6 +119,7 @@ types:
     id: 54564
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Capsule Cascade Firework
@@ -135,6 +141,7 @@ types:
     id: 49992
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 2000.0
     missileneverdoesdamage: 1
     name: Cherubic Heartburst Firework
@@ -156,6 +163,7 @@ types:
     id: 33573
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Copper Firework
@@ -177,6 +185,7 @@ types:
     id: 32995
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Copper Firework CXIV
@@ -198,6 +207,7 @@ types:
     id: 44267
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Crimson Scythes Firework
@@ -219,6 +229,7 @@ types:
     id: 44260
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Crown Imperial Firework
@@ -240,6 +251,7 @@ types:
     id: 47264
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Eros Blossom Firework
@@ -261,6 +273,7 @@ types:
     id: 44272
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Fangs of the Serpent Firework
@@ -282,6 +295,7 @@ types:
     id: 44270
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Flames of the Rebellion Firework
@@ -303,6 +317,7 @@ types:
     id: 56745
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Forever 4-4 Firework
@@ -324,6 +339,7 @@ types:
     id: 44268
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Four Freedoms Firework
@@ -345,6 +361,7 @@ types:
     id: 52219
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Halloween Horrors Firework
@@ -366,6 +383,7 @@ types:
     id: 44271
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Nation Uplifts Firework
@@ -387,6 +405,7 @@ types:
     id: 44269
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Naughty People Firework
@@ -408,6 +427,7 @@ types:
     id: 44264
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Pulsar Flare Firework
@@ -429,6 +449,7 @@ types:
     id: 57150
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Rimefrost Starburst Firework
@@ -450,6 +471,7 @@ types:
     id: 57149
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Snowstar Crystalburst Firework
@@ -471,6 +493,7 @@ types:
     id: 33571
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Sodium Firework
@@ -492,6 +515,7 @@ types:
     id: 32993
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Sodium Firework CXIV
@@ -513,6 +537,7 @@ types:
     id: 44266
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Spacetime Singularity Firework
@@ -534,6 +559,7 @@ types:
     id: 49991
     launchergroup: 1974
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 2000.0
     missileneverdoesdamage: 1
     name: Stargazer Lantern Firework
@@ -555,6 +581,7 @@ types:
     id: 44263
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Wheel of Prosperity Firework
@@ -576,6 +603,7 @@ types:
     id: 44265
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Wings of Victory Firework
@@ -597,6 +625,7 @@ types:
     id: 47302
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 2000.0
     missileneverdoesdamage: 1
     name: Yoiul Blizzard Firework
@@ -618,6 +647,7 @@ types:
     id: 44110
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Yoiul Festival Firework
@@ -639,6 +669,7 @@ types:
     id: 53343
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Yoiul Festival Snowball
@@ -661,6 +692,7 @@ types:
     id: 53461
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Yoiul Festival Starburst Firework
@@ -682,6 +714,7 @@ types:
     id: 60905
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Yoiul Spiral Firework
@@ -703,6 +736,7 @@ types:
     id: 56944
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Zakura Bazei Firework

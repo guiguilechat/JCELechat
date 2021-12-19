@@ -5,6 +5,7 @@ types:
     id: 45611
     lowslotmodifier: 2
     marketGroup: 1134
+    mass: 1400000.0
     metalevelold: 1
     name: Legion Propulsion - Intercalated Nanofibers
     packagedVolume: 40.0
@@ -26,6 +27,7 @@ types:
     id: 45610
     lowslotmodifier: 1
     marketGroup: 1134
+    mass: 1400000.0
     maxtargetrange: -20000.0
     metalevelold: 1
     name: Legion Propulsion - Interdiction Nullifier
@@ -49,6 +51,7 @@ types:
     id: 45612
     lowslotmodifier: 1
     marketGroup: 1134
+    mass: 1400000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Legion Propulsion - Wake Limiter
@@ -70,6 +73,7 @@ types:
     id: 45620
     lowslotmodifier: 2
     marketGroup: 1137
+    mass: 1400000.0
     metalevelold: 1
     name: Loki Propulsion - Intercalated Nanofibers
     packagedVolume: 40.0
@@ -91,6 +95,7 @@ types:
     id: 45619
     lowslotmodifier: 1
     marketGroup: 1137
+    mass: 1400000.0
     maxtargetrange: -20000.0
     metalevelold: 1
     name: Loki Propulsion - Interdiction Nullifier
@@ -113,6 +118,7 @@ types:
     hp: 40.0
     id: 45621
     marketGroup: 1137
+    mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Propulsion - Wake Limiter
@@ -134,6 +140,7 @@ types:
     id: 45617
     lowslotmodifier: 2
     marketGroup: 1136
+    mass: 1400000.0
     metalevelold: 1
     name: Proteus Propulsion - Hyperspatial Optimization
     packagedVolume: 40.0
@@ -155,6 +162,7 @@ types:
     id: 45616
     lowslotmodifier: 1
     marketGroup: 1136
+    mass: 1400000.0
     maxtargetrange: -20000.0
     metalevelold: 1
     name: Proteus Propulsion - Interdiction Nullifier
@@ -178,6 +186,7 @@ types:
     id: 45618
     lowslotmodifier: 1
     marketGroup: 1136
+    mass: 1400000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Proteus Propulsion - Localized Injectors
@@ -199,6 +208,7 @@ types:
     id: 45614
     lowslotmodifier: 1
     marketGroup: 1135
+    mass: 1400000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Tengu Propulsion - Chassis Optimization
@@ -219,6 +229,7 @@ types:
     hp: 40.0
     id: 45615
     marketGroup: 1135
+    mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Tengu Propulsion - Fuel Catalyst
@@ -241,6 +252,7 @@ types:
     id: 45613
     lowslotmodifier: 1
     marketGroup: 1135
+    mass: 1400000.0
     maxtargetrange: -20000.0
     metalevelold: 1
     name: Tengu Propulsion - Interdiction Nullifier

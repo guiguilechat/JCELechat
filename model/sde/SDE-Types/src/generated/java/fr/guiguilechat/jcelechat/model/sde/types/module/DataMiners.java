@@ -24,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsArcheology;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsHacking;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
@@ -178,7 +177,7 @@ public class DataMiners
     @Stackable(true)
     @DefaultIntValue(0)
     public int virusstrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, AccessDifficultyBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, VirusCoherence.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, MaxRange.INSTANCE, VirusStrength.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, VirusElementSlots.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, AccessDifficultyBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, VirusCoherence.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, MaxRange.INSTANCE, VirusStrength.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, VirusElementSlots.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final DataMiners.MetaGroup METAGROUP = new DataMiners.MetaGroup();
 
     @Override

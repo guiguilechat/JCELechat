@@ -9,6 +9,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -53,6 +54,8 @@ public class TypesTranslater {
 	private static final Logger logger = LoggerFactory.getLogger(TypesTranslater.class);
 
 	public void translate(TypeHierarchy hierarchy, CompilationData classes, File destFolder, String resFolder) {
+		// System.err.println("abaddon mass in translate is " +
+		// hierarchy.typeID2Details.get(24692).mass);
 		JCodeModel cm = classes.model;
 		makeLoadMethod(null, classes.typeIndexClass, cm, "SDE/types/metainf.yaml", false);
 		DynamicClassLoader cl = new DynamicClassLoader(TypesTranslater.class.getClassLoader()).withCode(cm);
@@ -111,6 +114,10 @@ public class TypesTranslater {
 				Field volumeField = item.getClass().getField("volume");
 				volumeField.setAccessible(true);
 				volumeField.set(item, td.volume);
+				// if (td.id == 24692) {
+				// System.err.println("type " + td.name + " mass is " +
+				// massField.getDouble(item) + " pre dynamic");
+				// }
 				for (Entry<Integer, Float> c : td.definition.entrySet()) {
 					if (c.getValue() == 0) {
 						continue;
@@ -138,6 +145,10 @@ public class TypesTranslater {
 								nsfe);
 					}
 				}
+				// if (td.id == 24692) {
+				// System.err.println("type " + td.name + " mass is " +
+				// massField.getDouble(item) + " post dynamic");
+				// }
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}
@@ -152,6 +163,10 @@ public class TypesTranslater {
 			}
 			m.put(td.name, item);
 			builtItems.put(e.getKey(), item);
+			// if (td.id == 24692) {
+			// System.err.println("type " + td.name + " mass is " + td.mass + " post
+			// write");
+			// }
 
 			// add metainf
 
@@ -166,15 +181,22 @@ public class TypesTranslater {
 		// write the items
 
 		destFolder.mkdirs();
-		for (Entry<String, LinkedHashMap<String, Object>> e : exportItems.entrySet()) {
-			LinkedHashMap<String, Object> map = e.getValue();
+		for (Entry<String, LinkedHashMap<String, Object>> groupItems : exportItems.entrySet()) {
+			if (groupItems.getKey().endsWith("/Battleship.yaml")) {
+				// var abaddon = groupItems.getValue().get("Abaddon");
+				// if (abaddon != null) {
+				// System.err.println("abaddon is " +
+				// groupItems.getValue().get("Abaddon"));
+				// }
+			}
+			LinkedHashMap<String, Object> map = groupItems.getValue();
 			ArrayList<Entry<String, Object>> sortingList = new ArrayList<>(map.entrySet());
-			Collections.sort(sortingList, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+			Collections.sort(sortingList, Comparator.comparing(Entry::getKey));
 			map.clear();
 			for (Entry<String, Object> e2 : sortingList) {
 				map.put(e2.getKey(), e2.getValue());
 			}
-			File out = new File(destFolder, e.getKey());
+			File out = new File(destFolder, groupItems.getKey());
 			out.mkdirs();
 			out.delete();
 			try {

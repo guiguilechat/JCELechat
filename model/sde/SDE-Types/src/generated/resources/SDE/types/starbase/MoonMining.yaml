@@ -12,6 +12,7 @@ types:
     hp: 10000.0
     id: 16221
     marketGroup: 488
+    mass: 2.0E8
     name: Moon Harvesting Array
     onliningdelay: 3000
     packagedVolume: 4000.0

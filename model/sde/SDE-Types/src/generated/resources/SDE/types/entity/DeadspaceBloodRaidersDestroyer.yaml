@@ -46,6 +46,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 23983
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 15000.0
@@ -123,6 +124,7 @@ types:
     gfxturretid: 453
     hp: 250.0
     id: 23979
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 7500.0
@@ -200,6 +202,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 23981
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 15000.0
@@ -277,6 +280,7 @@ types:
     gfxturretid: 453
     hp: 250.0
     id: 23982
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 7500.0
@@ -354,6 +358,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 23980
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 15000.0
@@ -431,6 +436,7 @@ types:
     gfxturretid: 453
     hp: 250.0
     id: 23970
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 7500.0
@@ -508,6 +514,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 24228
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 18750.0
@@ -585,6 +592,7 @@ types:
     gfxturretid: 452
     hp: 250.0
     id: 24224
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 9375.0
@@ -662,6 +670,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 24226
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 18750.0
@@ -739,6 +748,7 @@ types:
     gfxturretid: 452
     hp: 250.0
     id: 24227
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 9375.0
@@ -816,6 +826,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 24225
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 18750.0
@@ -893,6 +904,7 @@ types:
     gfxturretid: 452
     hp: 250.0
     id: 24223
+    mass: 2860000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 9375.0

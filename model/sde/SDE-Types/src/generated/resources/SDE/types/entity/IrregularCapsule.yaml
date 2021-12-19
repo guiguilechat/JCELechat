@@ -11,6 +11,7 @@ types:
     hp: 150.0
     id: 54244
     kineticdamageresonance: 0.6700000166893005
+    mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Green Capsule
     packagedVolume: 1000.0
@@ -44,6 +45,7 @@ types:
     hp: 150.0
     id: 54233
     kineticdamageresonance: 0.6700000166893005
+    mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Orange Capsule
     packagedVolume: 1000.0
@@ -77,6 +79,7 @@ types:
     hp: 150.0
     id: 54243
     kineticdamageresonance: 0.6700000166893005
+    mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Pink Capsule
     packagedVolume: 1000.0
@@ -110,6 +113,7 @@ types:
     hp: 150.0
     id: 54240
     kineticdamageresonance: 0.6700000166893005
+    mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Red Capsule
     packagedVolume: 1000.0
@@ -143,6 +147,7 @@ types:
     hp: 150.0
     id: 54241
     kineticdamageresonance: 0.6700000166893005
+    mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Teal Capsule
     packagedVolume: 1000.0
@@ -176,6 +181,7 @@ types:
     hp: 150.0
     id: 54242
     kineticdamageresonance: 0.6700000166893005
+    mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious White Capsule
     packagedVolume: 1000.0

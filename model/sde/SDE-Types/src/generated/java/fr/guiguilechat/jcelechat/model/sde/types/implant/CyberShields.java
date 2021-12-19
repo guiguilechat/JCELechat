@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IntelligenceBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MemoryBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedBonus;
@@ -114,7 +113,7 @@ public class CyberShields
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, PowerNeedBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, PerceptionBonus.INSTANCE, Rechargeratebonus.INSTANCE, WillpowerBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, PowerNeedBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, PerceptionBonus.INSTANCE, Rechargeratebonus.INSTANCE, WillpowerBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CapNeedBonus.INSTANCE })));
     public static final CyberShields.MetaGroup METAGROUP = new CyberShields.MetaGroup();
 
     @Override

@@ -16,6 +16,7 @@ types:
     jumpportalconsumptionmassfactor: 2.0000000233721948E-7
     jumpportalduration: 20000
     marketGroup: 1640
+    mass: 1.0
     maxgroupactive: 1
     name: Covert Jump Portal Generator I
     packagedVolume: 125.0

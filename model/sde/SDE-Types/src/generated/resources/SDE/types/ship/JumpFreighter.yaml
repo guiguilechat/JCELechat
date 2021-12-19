@@ -49,6 +49,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1092
+    mass: 9.4E8
     maxpassengers: 150
     maxvelocity: 78.0
     metalevelold: 5
@@ -139,6 +140,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1090
+    mass: 9.0E8
     maxpassengers: 150
     maxvelocity: 84.0
     metalevelold: 5
@@ -229,6 +231,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1093
+    mass: 8.2E8
     maxpassengers: 150
     maxvelocity: 96.0
     metalevelold: 5
@@ -319,6 +322,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1091
+    mass: 9.6E8
     maxpassengers: 150
     maxvelocity: 72.0
     metalevelold: 5

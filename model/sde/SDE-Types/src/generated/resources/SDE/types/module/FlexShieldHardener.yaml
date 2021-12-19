@@ -14,6 +14,7 @@ types:
     id: 41516
     kineticdamageresistancebonus: -16.0
     marketGroup: 2246
+    mass: 10000.0
     maxgroupfitted: 1
     name: Capital Flex Shield Hardener I
     overloadhardeningbonus: 20
@@ -47,6 +48,7 @@ types:
     id: 41528
     kineticdamageresistancebonus: -19.0
     marketGroup: 2246
+    mass: 10000.0
     maxgroupfitted: 1
     metalevelold: 5
     name: Capital Flex Shield Hardener II
@@ -81,6 +83,7 @@ types:
     id: 41531
     kineticdamageresistancebonus: -20.0
     marketGroup: 2246
+    mass: 10000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8
@@ -116,6 +119,7 @@ types:
     id: 41530
     kineticdamageresistancebonus: -20.0
     marketGroup: 2246
+    mass: 10000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8
@@ -151,6 +155,7 @@ types:
     id: 41529
     kineticdamageresistancebonus: -20.0
     marketGroup: 2246
+    mass: 10000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8

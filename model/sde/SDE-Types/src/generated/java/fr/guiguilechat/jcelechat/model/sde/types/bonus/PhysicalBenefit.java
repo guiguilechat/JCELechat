@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BlueprintManufactureTimeMu
 import fr.guiguilechat.jcelechat.model.sde.attributes.BlueprintResearchTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -72,13 +71,6 @@ public class PhysicalBenefit
     @DefaultRealValue(1.0)
     public double cpumultiplier;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * The factor by which the amount mined by a mining laser is scaled.
      */
     @HighIsGood(true)
@@ -99,7 +91,7 @@ public class PhysicalBenefit
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, CpuMultiplier.INSTANCE, BlueprintResearchTimeMultiplierBonus.INSTANCE, AccuracyMultiplier.INSTANCE, BlueprintManufactureTimeMultiplierBonus.INSTANCE, MiningAmountMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, CpuMultiplier.INSTANCE, BlueprintResearchTimeMultiplierBonus.INSTANCE, AccuracyMultiplier.INSTANCE, BlueprintManufactureTimeMultiplierBonus.INSTANCE, MiningAmountMultiplier.INSTANCE })));
     public static final PhysicalBenefit.MetaGroup METAGROUP = new PhysicalBenefit.MetaGroup();
 
     @Override
@@ -128,10 +120,6 @@ public class PhysicalBenefit
             case  202 :
             {
                 return cpumultiplier;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  207 :
             {

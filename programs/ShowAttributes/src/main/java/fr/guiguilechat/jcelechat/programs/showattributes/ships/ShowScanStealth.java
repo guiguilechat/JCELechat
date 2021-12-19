@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.showattributes;
+package fr.guiguilechat.jcelechat.programs.showattributes.ships;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -8,6 +8,7 @@ types:
     id: 46633
     lowsecmodifier: 1.059999942779541
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Asteroid Ore Grading Processor I
     nullsecmodifier: 1.1200000047683716
@@ -33,6 +34,7 @@ types:
     id: 46634
     lowsecmodifier: 1.059999942779541
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Asteroid Ore Grading Processor II
     nullsecmodifier: 1.1200000047683716

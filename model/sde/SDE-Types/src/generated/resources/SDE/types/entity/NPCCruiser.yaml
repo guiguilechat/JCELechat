@@ -22,6 +22,7 @@ types:
     id: 60725
     kineticdamage: 15.0
     kineticdamageresonance: 1.0
+    mass: 1.25E7
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -79,6 +80,7 @@ types:
     id: 60323
     kineticdamage: 15.0
     kineticdamageresonance: 0.5
+    mass: 1.25E7
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -141,6 +143,7 @@ types:
     id: 57584
     kineticdamage: 6.0
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.25E7
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -202,6 +205,7 @@ types:
     id: 60325
     kineticdamage: 15.0
     kineticdamageresonance: 0.5
+    mass: 1.25E7
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -264,6 +268,7 @@ types:
     id: 60324
     kineticdamage: 15.0
     kineticdamageresonance: 0.5
+    mass: 1.25E7
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -327,6 +332,7 @@ types:
     id: 60153
     kineticdamage: 10.0
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.25E7
     maxlockedtargets: 10
     maxrange: 65000.0
     maxtargetrange: 120000.0
@@ -392,6 +398,7 @@ types:
     id: 60143
     kineticdamage: 10.0
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.25E7
     maxlockedtargets: 10
     maxrange: 65000.0
     maxtargetrange: 120000.0
@@ -452,6 +459,7 @@ types:
     id: 59585
     kineticdamage: 10.0
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.25E7
     maxlockedtargets: 10
     maxrange: 65000.0
     maxtargetrange: 120000.0
@@ -502,6 +510,7 @@ types:
     falloff: 1.0
     id: 43649
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -554,6 +563,7 @@ types:
     hp: 2000.0
     id: 43603
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.12E7
     maxlockedtargets: 7
     maxrange: 20000.0
     maxrangebonus: -29.545312881469727
@@ -629,6 +639,7 @@ types:
     hp: 2325.0
     id: 46054
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.101E7
     maxlockedtargets: 7
     maxrange: 32921.875
     maxtargetrange: 55000.0
@@ -693,6 +704,7 @@ types:
     hp: 1937.5
     id: 43602
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.287E7
     maxlockedtargets: 8
     maxtargetrange: 111386.71875
     maxvelocity: 717.560791015625
@@ -752,6 +764,7 @@ types:
     hp: 1875.0
     id: 43592
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.155E7
     maxlockedtargets: 9
     maxtargetrange: 83301.0
     maxvelocity: 724.0
@@ -813,6 +826,7 @@ types:
     hp: 1750.0
     id: 43625
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.319E7
     maxlockedtargets: 8
     maxtargetrange: 106250.0
     maxvelocity: 567.9957885742188
@@ -870,6 +884,7 @@ types:
     hp: 1750.0
     id: 46581
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.191E7
     maxlockedtargets: 6
     maxtargetrange: 71875.0
     maxvelocity: 717.857421875
@@ -932,6 +947,7 @@ types:
     id: 43581
     kineticdamage: 18.0
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.207E7
     maxlockedtargets: 8
     maxrange: 37800.0
     maxtargetrange: 119531.0
@@ -1001,6 +1017,7 @@ types:
     id: 46062
     kineticdamage: 14.399999618530273
     kineticdamageresonance: 0.4020000100135803
+    mass: 9047000.0
     maxlockedtargets: 7
     maxrange: 23296.822265625
     maxtargetrange: 47000.0
@@ -1063,6 +1080,7 @@ types:
     id: 48583
     kineticdamage: 75.0
     kineticdamageresonance: 1.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 8000.0
@@ -1129,6 +1147,7 @@ types:
     hp: 418.75
     id: 43580
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.102E7
     maxlockedtargets: 8
     maxtargetrange: 68750.0
     maxvelocity: 630.0
@@ -1189,6 +1208,7 @@ types:
     hp: 2490.0
     id: 46056
     kineticdamageresonance: 0.43549999594688416
+    mass: 9600000.0
     maxlockedtargets: 7
     maxtargetrange: 58000.0
     maxvelocity: 445.4280700683594
@@ -1250,6 +1270,7 @@ types:
     hp: 1625.0
     id: 43642
     kineticdamageresonance: 0.4020000100135803
+    mass: 9900000.0
     maxlockedtargets: 8
     maxtargetrange: 65625.0
     maxvelocity: 950.0
@@ -1314,6 +1335,7 @@ types:
     hp: 1913.0
     id: 43560
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.315E7
     maxlockedtargets: 6
     maxrange: 14175.0
     maxtargetrange: 59375.0
@@ -1375,6 +1397,7 @@ types:
     id: 46760
     kineticdamage: 16.799999237060547
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.2E7
     maxlockedtargets: 7
     maxrange: 16874.30859375
     maxtargetrange: 68750.0
@@ -1438,6 +1461,7 @@ types:
     hp: 1500.0
     id: 46067
     kineticdamageresonance: 0.4690000116825104
+    mass: 1.3E7
     maxlockedtargets: 6
     maxrange: 17500.0
     maxrangebonus: -15.300000190734863
@@ -1505,6 +1529,7 @@ types:
     hp: 1812.5
     id: 43623
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.11E7
     maxlockedtargets: 8
     maxtargetrange: 78125.0
     maxvelocity: 675.2037963867188
@@ -1561,6 +1586,7 @@ types:
     hp: 1720.0
     id: 59175
     kineticdamageresonance: 0.4020000100135803
+    mass: 9600000.0
     maxlockedtargets: 7
     maxrange: 36600.0
     maxtargetrange: 73750.0
@@ -1624,6 +1650,7 @@ types:
     id: 46079
     kineticdamage: 4.0
     kineticdamageresonance: 0.4690000116825104
+    mass: 1.22E7
     maxlockedtargets: 6
     maxrange: 8633.625
     maxtargetrange: 50000.0
@@ -1685,6 +1712,7 @@ types:
     hp: 1625.0
     id: 43591
     kineticdamageresonance: 0.6700000166893005
+    mass: 1.111E7
     maxlockedtargets: 8
     maxtargetrange: 65625.0
     maxvelocity: 767.0
@@ -1751,6 +1779,7 @@ types:
     id: 43593
     kineticdamage: 16.0
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.14E7
     maxlockedtargets: 5
     maxrange: 1350.0
     maxtargetrange: 59375.0
@@ -1813,6 +1842,7 @@ types:
     id: 46075
     kineticdamage: 10.0
     kineticdamageresonance: 0.4690000116825104
+    mass: 1.128E7
     maxlockedtargets: 6
     maxrange: 18000.0
     maxtargetrange: 52500.0
@@ -1881,6 +1911,7 @@ types:
     id: 43582
     kineticdamage: 24.0
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.11E7
     maxlockedtargets: 6
     maxrange: 37800.0
     maxrangebonus: -20.299999237060547
@@ -1959,6 +1990,7 @@ types:
     id: 46059
     kineticdamage: 8.0
     kineticdamageresonance: 0.4020000100135803
+    mass: 9830000.0
     maxlockedtargets: 7
     maxrange: 27864.0
     maxtargetrange: 49000.0

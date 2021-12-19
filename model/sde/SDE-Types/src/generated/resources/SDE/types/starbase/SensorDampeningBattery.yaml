@@ -20,6 +20,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 481
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0
@@ -74,6 +75,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 481
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0
@@ -129,6 +131,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 481
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0

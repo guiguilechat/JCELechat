@@ -4,6 +4,7 @@ types:
     asteroidradiusunitsize: 1000
     id: 28627
     ignoreminingwaste: 1
+    mass: 1000.0
     name: Azure Ice
     orebasictype: 16264
     packagedVolume: 1000.0
@@ -24,6 +25,7 @@ types:
     compressiontypeid: 28433
     id: 16264
     marketGroup: 1855
+    mass: 1000.0
     name: Blue Ice
     orebasictype: 16264
     packagedVolume: 1000.0
@@ -44,6 +46,7 @@ types:
     compressiontypeid: 28434
     id: 16262
     marketGroup: 1855
+    mass: 1000.0
     name: Clear Icicle
     orebasictype: 16262
     packagedVolume: 1000.0
@@ -62,6 +65,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28433
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Blue Ice
     orebasictype: 16264
     packagedVolume: 100.0
@@ -80,6 +84,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28434
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Clear Icicle
     orebasictype: 16262
     packagedVolume: 100.0
@@ -98,6 +103,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28435
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Dark Glitter
     orebasictype: 16267
     packagedVolume: 100.0
@@ -116,6 +122,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28436
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Enriched Clear Icicle
     orebasictype: 16262
     packagedVolume: 100.0
@@ -134,6 +141,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28437
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Gelidus
     orebasictype: 16268
     packagedVolume: 100.0
@@ -152,6 +160,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28438
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Glacial Mass
     orebasictype: 16263
     packagedVolume: 100.0
@@ -170,6 +179,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28439
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Glare Crust
     orebasictype: 16266
     packagedVolume: 100.0
@@ -188,6 +198,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28440
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Krystallos
     orebasictype: 16269
     packagedVolume: 100.0
@@ -206,6 +217,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28441
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Pristine White Glaze
     orebasictype: 16265
     packagedVolume: 100.0
@@ -224,6 +236,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28442
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Smooth Glacial Mass
     orebasictype: 16263
     packagedVolume: 100.0
@@ -242,6 +255,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28443
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Thick Blue Ice
     orebasictype: 16264
     packagedVolume: 100.0
@@ -260,6 +274,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28444
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed White Glaze
     orebasictype: 16265
     packagedVolume: 100.0
@@ -277,6 +292,7 @@ types:
     asteroidradiusunitsize: 1000
     id: 28628
     ignoreminingwaste: 1
+    mass: 1000.0
     name: Crystalline Icicle
     orebasictype: 16262
     packagedVolume: 1000.0
@@ -296,6 +312,7 @@ types:
     compressiontypeid: 28435
     id: 16267
     marketGroup: 1855
+    mass: 1000.0
     name: Dark Glitter
     orebasictype: 16267
     packagedVolume: 1000.0
@@ -316,6 +333,7 @@ types:
     compressiontypeid: 28436
     id: 17978
     marketGroup: 1855
+    mass: 1000.0
     name: Enriched Clear Icicle
     orebasictype: 16262
     packagedVolume: 1000.0
@@ -336,6 +354,7 @@ types:
     compressiontypeid: 28437
     id: 16268
     marketGroup: 1855
+    mass: 1000.0
     name: Gelidus
     orebasictype: 16268
     packagedVolume: 1000.0
@@ -356,6 +375,7 @@ types:
     compressiontypeid: 28438
     id: 16263
     marketGroup: 1855
+    mass: 1000.0
     name: Glacial Mass
     orebasictype: 16263
     packagedVolume: 1000.0
@@ -376,6 +396,7 @@ types:
     compressiontypeid: 28439
     id: 16266
     marketGroup: 1855
+    mass: 1000.0
     name: Glare Crust
     orebasictype: 16266
     packagedVolume: 1000.0
@@ -396,6 +417,7 @@ types:
     compressiontypeid: 28440
     id: 16269
     marketGroup: 1855
+    mass: 1000.0
     name: Krystallos
     orebasictype: 16269
     packagedVolume: 1000.0
@@ -416,6 +438,7 @@ types:
     compressiontypeid: 28441
     id: 17976
     marketGroup: 1855
+    mass: 1000.0
     name: Pristine White Glaze
     orebasictype: 16265
     packagedVolume: 1000.0
@@ -436,6 +459,7 @@ types:
     compressiontypeid: 28442
     id: 17977
     marketGroup: 1855
+    mass: 1000.0
     name: Smooth Glacial Mass
     orebasictype: 16263
     packagedVolume: 1000.0
@@ -456,6 +480,7 @@ types:
     compressiontypeid: 28443
     id: 17975
     marketGroup: 1855
+    mass: 1000.0
     name: Thick Blue Ice
     orebasictype: 16264
     packagedVolume: 1000.0
@@ -476,6 +501,7 @@ types:
     compressiontypeid: 28444
     id: 16265
     marketGroup: 1855
+    mass: 1000.0
     name: White Glaze
     orebasictype: 16265
     packagedVolume: 1000.0

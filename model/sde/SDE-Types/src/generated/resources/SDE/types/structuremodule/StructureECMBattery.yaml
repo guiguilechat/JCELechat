@@ -13,6 +13,7 @@ types:
     hp: 40.0
     id: 46577
     marketGroup: 2211
+    mass: 500.0
     maxrange: 97500.0
     metagroupid: 4
     metalevelold: 8
@@ -45,6 +46,7 @@ types:
     hp: 40.0
     id: 35940
     marketGroup: 2211
+    mass: 500.0
     maxrange: 75000.0
     name: Standup Variable Spectrum ECM I
     packagedVolume: 4000.0
@@ -75,6 +77,7 @@ types:
     hp: 40.0
     id: 47338
     marketGroup: 2211
+    mass: 500.0
     maxrange: 90000.0
     metalevelold: 5
     name: Standup Variable Spectrum ECM II

@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.InventionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsSkillIObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LaboratorySlotsBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ManufactureTimePerLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxAttackTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MineralNeedResearchBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
@@ -140,7 +139,7 @@ public class Science
     @Stackable(true)
     @DefaultIntValue(0)
     public int researchgangsizebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, CopySpeedBonus.INSTANCE, Mass.INSTANCE, BlueprintmanufactureTimeBonus.INSTANCE, Capacity.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, MineralNeedResearchBonus.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, LaboratorySlotsBonus.INSTANCE, RequiredSkill3Level.INSTANCE, ResearchGangSizeBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, InventionBonus.INSTANCE, ManufactureTimePerLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, CopySpeedBonus.INSTANCE, BlueprintmanufactureTimeBonus.INSTANCE, Capacity.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, MineralNeedResearchBonus.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, LaboratorySlotsBonus.INSTANCE, RequiredSkill3Level.INSTANCE, ResearchGangSizeBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, InventionBonus.INSTANCE, ManufactureTimePerLevel.INSTANCE })));
     public static final Science.MetaGroup METAGROUP = new Science.MetaGroup();
 
     @Override

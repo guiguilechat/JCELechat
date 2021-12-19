@@ -11,6 +11,7 @@ types:
     id: 37164
     lowsecmodifier: 1.899999976158142
     marketGroup: 2348
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Ammunition Manufacturing Efficiency I
     nullsecmodifier: 2.0999999046325684
@@ -40,6 +41,7 @@ types:
     id: 37165
     lowsecmodifier: 1.899999976158142
     marketGroup: 2348
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Ammunition Manufacturing Efficiency II
     nullsecmodifier: 2.0999999046325684

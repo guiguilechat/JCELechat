@@ -25,6 +25,7 @@ types:
     hp: 49250.0
     id: 56504
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 8
     maxrange: 20000.0
     maxtargetrange: 60000.0
@@ -82,6 +83,7 @@ types:
     hp: 200.0
     id: 60505
     kineticdamageresonance: 1.0
+    mass: 5000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 10000.0
@@ -157,6 +159,7 @@ types:
     hp: 16000.0
     id: 60506
     kineticdamageresonance: 0.6000000238418579
+    mass: 1.71125E7
     maxattacktargets: 1
     maxlockedtargets: 10
     maxrange: 35000.0
@@ -234,6 +237,7 @@ types:
     id: 60316
     kineticdamage: 85.0
     kineticdamageresonance: 0.6000000238418579
+    mass: 1.81125E7
     maxattacktargets: 1
     maxlockedtargets: 10
     maxrange: 60000.0
@@ -314,6 +318,7 @@ types:
     id: 60580
     kineticdamage: 85.0
     kineticdamageresonance: 0.6000000238418579
+    mass: 1.51125E7
     maxattacktargets: 1
     maxlockedtargets: 10
     maxrange: 60000.0
@@ -390,6 +395,7 @@ types:
     id: 60331
     kineticdamage: 10.0
     kineticdamageresonance: 0.46000000834465027
+    mass: 1.172E7
     maxattacktargets: 1
     maxlockedtargets: 10
     maxrange: 80000.0
@@ -464,6 +470,7 @@ types:
     hp: 14000.0
     id: 60255
     kineticdamageresonance: 0.6000000238418579
+    mass: 1.81125E7
     maxattacktargets: 1
     maxlockedtargets: 10
     maxrange: 35000.0
@@ -542,6 +549,7 @@ types:
     hp: 50000.0
     id: 60333
     kineticdamageresonance: 1.0
+    mass: 1.26E9
     maxattacktargets: 1
     maxlockedtargets: 14
     maxrange: 18000.0
@@ -610,6 +618,7 @@ types:
     hp: 1000.0
     id: 60317
     kineticdamageresonance: 0.6000000238418579
+    mass: 1.16625E7
     maxattacktargets: 1
     maxlockedtargets: 10
     maxrange: 32000.0
@@ -690,6 +699,7 @@ types:
     hp: 5000.0
     id: 60318
     kineticdamageresonance: 0.4000000059604645
+    mass: 1.81125E7
     maxattacktargets: 1
     maxlockedtargets: 14
     maxrange: 40000.0
@@ -766,6 +776,7 @@ types:
     id: 60382
     kineticdamage: 16.0
     kineticdamageresonance: 0.4000000059604645
+    mass: 1.51125E7
     maxattacktargets: 1
     maxlockedtargets: 14
     maxrange: 40000.0
@@ -826,6 +837,7 @@ types:
     hp: 2200.0
     id: 60518
     kineticdamageresonance: 1.0
+    mass: 5000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 10000.0
@@ -903,6 +915,7 @@ types:
     hp: 21000.0
     id: 60517
     kineticdamageresonance: 0.6000000238418579
+    mass: 2.6E8
     maxattacktargets: 1
     maxlockedtargets: 10
     maxrange: 35000.0
@@ -983,6 +996,7 @@ types:
     hp: 600.0
     id: 60332
     kineticdamageresonance: 0.46000000834465027
+    mass: 1229400.0
     maxattacktargets: 1
     maxlockedtargets: 12
     maxrange: 35000.0
@@ -1063,6 +1077,7 @@ types:
     id: 56489
     kineticdamage: 2.222222328186035
     kineticdamageresonance: 1.0
+    mass: 5000.0
     maxlockedtargets: 8
     maxrange: 888.888916015625
     maxrangebonus: -1.3333333730697632
@@ -1152,6 +1167,7 @@ types:
     id: 56493
     kineticdamage: 3.3333332538604736
     kineticdamageresonance: 1.0
+    mass: 6666.66650390625
     maxlockedtargets: 8
     maxrange: 1333.3333740234375
     maxrangebonus: -4.0
@@ -1242,6 +1258,7 @@ types:
     id: 56497
     kineticdamage: 5.0
     kineticdamageresonance: 1.0
+    mass: 8888.888671875
     maxlockedtargets: 8
     maxrange: 2000.0
     maxrangebonus: -6.0
@@ -1335,6 +1352,7 @@ types:
     id: 56501
     kineticdamage: 6.666666507720947
     kineticdamageresonance: 1.0
+    mass: 11851.8515625
     maxlockedtargets: 8
     maxrange: 2666.666748046875
     maxrangebonus: -6.300000190734863
@@ -1425,6 +1443,7 @@ types:
     id: 56490
     kineticdamage: 3.1111111640930176
     kineticdamageresonance: 1.0
+    mass: 5000.0
     maxlockedtargets: 8
     maxrange: 888.888916015625
     maxrangebonus: -1.4666666984558105
@@ -1514,6 +1533,7 @@ types:
     id: 56494
     kineticdamage: 4.666666507720947
     kineticdamageresonance: 1.0
+    mass: 6666.66650390625
     maxlockedtargets: 8
     maxrange: 1333.3333740234375
     maxrangebonus: -4.400000095367432
@@ -1604,6 +1624,7 @@ types:
     id: 56498
     kineticdamage: 7.0
     kineticdamageresonance: 1.0
+    mass: 8888.888671875
     maxlockedtargets: 8
     maxrange: 2000.0
     maxrangebonus: -6.599999904632568
@@ -1693,6 +1714,7 @@ types:
     id: 56502
     kineticdamage: 9.333333015441895
     kineticdamageresonance: 1.0
+    mass: 11851.8515625
     maxlockedtargets: 8
     maxrange: 2666.666748046875
     maxrangebonus: -6.929999828338623
@@ -1771,6 +1793,7 @@ types:
     id: 56503
     kineticdamage: 130.0
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 8
     maxrange: 60000.0
     maxtargetrange: 60000.0
@@ -1836,6 +1859,7 @@ types:
     id: 56505
     kineticdamage: 85.0
     kineticdamageresonance: 1.0
+    mass: 5000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 60000.0
@@ -1902,6 +1926,7 @@ types:
     id: 56506
     kineticdamage: 55.0
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 8
     maxrange: 40000.0
     maxtargetrange: 60000.0
@@ -1967,6 +1992,7 @@ types:
     id: 56507
     kineticdamage: 78.0
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 8
     maxrange: 40000.0
     maxtargetrange: 60000.0
@@ -2033,6 +2059,7 @@ types:
     id: 56509
     kineticdamage: 33.0
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 8
     maxrange: 40000.0
     maxtargetrange: 60000.0
@@ -2099,6 +2126,7 @@ types:
     id: 56508
     kineticdamage: 45.0
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 8
     maxrange: 40000.0
     maxtargetrange: 60000.0
@@ -2160,6 +2188,7 @@ types:
     hp: 864000.0
     id: 56510
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 8
     maxtargetrange: 60000.0
     maxvelocity: 525.0
@@ -2222,6 +2251,7 @@ types:
     id: 56488
     kineticdamage: 3.1111111640930176
     kineticdamageresonance: 1.0
+    mass: 5000.0
     maxlockedtargets: 8
     maxrange: 888.888916015625
     maxtargetrange: 10000.0
@@ -2290,6 +2320,7 @@ types:
     id: 56492
     kineticdamage: 4.666666507720947
     kineticdamageresonance: 1.0
+    mass: 6666.66650390625
     maxlockedtargets: 8
     maxrange: 1333.3333740234375
     maxtargetrange: 30000.0
@@ -2356,6 +2387,7 @@ types:
     id: 56496
     kineticdamage: 7.0
     kineticdamageresonance: 1.0
+    mass: 8888.888671875
     maxlockedtargets: 8
     maxrange: 2000.0
     maxtargetrange: 30000.0
@@ -2422,6 +2454,7 @@ types:
     id: 56500
     kineticdamage: 9.333333015441895
     kineticdamageresonance: 1.0
+    mass: 11851.8515625
     maxlockedtargets: 8
     maxrange: 2666.666748046875
     maxtargetrange: 30000.0
@@ -2484,6 +2517,7 @@ types:
     id: 57751
     kineticdamage: 10.0
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 2
     maxrange: 15000.0
     maxtargetrange: 1.0
@@ -2546,6 +2580,7 @@ types:
     id: 57750
     kineticdamage: 1.0
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxlockedtargets: 2
     maxrange: 8000.0
     maxtargetrange: 20000.0
@@ -2609,6 +2644,7 @@ types:
     id: 56487
     kineticdamage: 2.222222328186035
     kineticdamageresonance: 1.0
+    mass: 5000.0
     maxlockedtargets: 8
     maxrange: 888.888916015625
     maxtargetrange: 10000.0
@@ -2678,6 +2714,7 @@ types:
     id: 56491
     kineticdamage: 3.3333332538604736
     kineticdamageresonance: 1.0
+    mass: 6666.66650390625
     maxlockedtargets: 8
     maxrange: 1333.3333740234375
     maxtargetrange: 30000.0
@@ -2748,6 +2785,7 @@ types:
     id: 56495
     kineticdamage: 5.0
     kineticdamageresonance: 1.0
+    mass: 8888.888671875
     maxlockedtargets: 8
     maxrange: 2000.0
     maxtargetrange: 30000.0
@@ -2814,6 +2852,7 @@ types:
     id: 56499
     kineticdamage: 6.666666507720947
     kineticdamageresonance: 1.0
+    mass: 11851.8515625
     maxlockedtargets: 8
     maxrange: 2666.666748046875
     maxtargetrange: 30000.0

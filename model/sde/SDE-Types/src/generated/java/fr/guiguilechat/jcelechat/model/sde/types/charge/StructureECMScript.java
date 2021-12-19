@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthBonusBonus;
@@ -78,7 +77,7 @@ public class StructureECMScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int structureitemvisualflag;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, ScanGravimetricStrengthBonusBonus.INSTANCE, LauncherGroup.INSTANCE, ScanLadarStrengthBonusBonus.INSTANCE, ScanMagnetometricStrengthBonusBonus.INSTANCE, ScanRadarStrengthBonusBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, ScanGravimetricStrengthBonusBonus.INSTANCE, LauncherGroup.INSTANCE, ScanLadarStrengthBonusBonus.INSTANCE, ScanMagnetometricStrengthBonusBonus.INSTANCE, ScanRadarStrengthBonusBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureECMScript.MetaGroup METAGROUP = new StructureECMScript.MetaGroup();
 
     @Override

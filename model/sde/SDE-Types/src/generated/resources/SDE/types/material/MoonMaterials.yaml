@@ -13,6 +13,7 @@ types:
   Cadmium:
     id: 16643
     marketGroup: 501
+    mass: 3476.0
     moonminingamount: 100
     name: Cadmium
     packagedVolume: 0.05000000074505806
@@ -24,6 +25,7 @@ types:
   Caesium:
     id: 16647
     marketGroup: 501
+    mass: 1544.0
     moonminingamount: 100
     name: Caesium
     packagedVolume: 0.05000000074505806
@@ -35,6 +37,7 @@ types:
   Chromium:
     id: 16641
     marketGroup: 501
+    mass: 4290.0
     moonminingamount: 100
     name: Chromium
     packagedVolume: 0.05000000074505806
@@ -46,6 +49,7 @@ types:
   Cobalt:
     id: 16640
     marketGroup: 501
+    mass: 3544.0
     moonminingamount: 100
     name: Cobalt
     packagedVolume: 0.05000000074505806
@@ -57,6 +61,7 @@ types:
   Dysprosium:
     id: 16650
     marketGroup: 501
+    mass: 8550.0
     moonminingamount: 100
     name: Dysprosium
     packagedVolume: 0.05000000074505806
@@ -79,6 +84,7 @@ types:
   Hafnium:
     id: 16648
     marketGroup: 501
+    mass: 10640.0
     moonminingamount: 100
     name: Hafnium
     packagedVolume: 0.05000000074505806
@@ -101,6 +107,7 @@ types:
   Mercury:
     id: 16646
     marketGroup: 501
+    mass: 10826.0
     moonminingamount: 100
     name: Mercury
     packagedVolume: 0.05000000074505806
@@ -112,6 +119,7 @@ types:
   Neodymium:
     id: 16651
     marketGroup: 501
+    mass: 7010.0
     moonminingamount: 100
     name: Neodymium
     packagedVolume: 0.05000000074505806
@@ -123,6 +131,7 @@ types:
   Platinum:
     id: 16644
     marketGroup: 501
+    mass: 21460.0
     moonminingamount: 100
     name: Platinum
     packagedVolume: 0.05000000074505806
@@ -134,6 +143,7 @@ types:
   Promethium:
     id: 16652
     marketGroup: 501
+    mass: 7260.0
     moonminingamount: 100
     name: Promethium
     packagedVolume: 0.05000000074505806
@@ -145,6 +155,7 @@ types:
   Scandium:
     id: 16639
     marketGroup: 501
+    mass: 1196.0
     moonminingamount: 100
     name: Scandium
     packagedVolume: 0.05000000074505806
@@ -167,6 +178,7 @@ types:
   Technetium:
     id: 16649
     marketGroup: 501
+    mass: 8800.0
     moonminingamount: 100
     name: Technetium
     packagedVolume: 0.05000000074505806
@@ -178,6 +190,7 @@ types:
   Thulium:
     id: 16653
     marketGroup: 501
+    mass: 9320.0
     moonminingamount: 100
     name: Thulium
     packagedVolume: 0.05000000074505806
@@ -189,6 +202,7 @@ types:
   Titanium:
     id: 16638
     marketGroup: 501
+    mass: 1800.0
     moonminingamount: 100
     name: Titanium
     packagedVolume: 0.05000000074505806
@@ -200,6 +214,7 @@ types:
   Tungsten:
     id: 16637
     marketGroup: 501
+    mass: 7720.0
     moonminingamount: 100
     name: Tungsten
     packagedVolume: 0.05000000074505806
@@ -211,6 +226,7 @@ types:
   Vanadium:
     id: 16642
     marketGroup: 501
+    mass: 6000.0
     moonminingamount: 100
     name: Vanadium
     packagedVolume: 0.05000000074505806

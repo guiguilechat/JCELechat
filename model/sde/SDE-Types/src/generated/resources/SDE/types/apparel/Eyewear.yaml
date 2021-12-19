@@ -13,6 +13,7 @@ types:
     gender: 2
     id: 4050
     marketGroup: 1408
+    mass: 0.5
     name: Looking Glass Monocle Interface (left/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -23,6 +24,7 @@ types:
     gender: 2
     id: 4052
     marketGroup: 1408
+    mass: 0.5
     name: Looking Glass Monocle Interface (left/gray)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -33,6 +35,7 @@ types:
     gender: 2
     id: 4009
     marketGroup: 1408
+    mass: 0.5
     name: Looking Glass Monocle Interface (right/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -43,6 +46,7 @@ types:
     gender: 2
     id: 4042
     marketGroup: 1408
+    mass: 0.5
     name: Looking Glass Monocle Interface (right/silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -53,6 +57,7 @@ types:
     gender: 1
     id: 41576
     marketGroup: 1408
+    mass: 0.5
     name: Men's "Mirelle" Upwell Executive Spectacles
     packagedVolume: 0.5
     portionSize: 1
@@ -63,6 +68,7 @@ types:
     gender: 1
     id: 45745
     marketGroup: 1408
+    mass: 0.5
     name: Men's 'Farsight' Augmented Spectacles
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -73,6 +79,7 @@ types:
     gender: 2
     id: 60165
     marketGroup: 1408
+    mass: 0.5
     name: Men's 'Glass Semiotique' Monocle Interface (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -82,6 +89,7 @@ types:
     gender: 2
     id: 60160
     marketGroup: 1408
+    mass: 0.5
     name: Men's 'Orb Semiotique' Synthetic Eye (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -91,6 +99,7 @@ types:
     gender: 2
     id: 54966
     marketGroup: 1408
+    mass: 0.5
     name: Men's BioCrystal Protective Glasses
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -100,6 +109,7 @@ types:
     gender: 2
     id: 42906
     marketGroup: 1408
+    mass: 0.10000000149011612
     name: Men's Genolution Tactical Goggles
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -109,6 +119,7 @@ types:
     gender: 2
     id: 60639
     marketGroup: 1408
+    mass: 0.5
     name: Men's Radioactives Reclamation Goggles
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -118,6 +129,7 @@ types:
     gender: 2
     id: 4043
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (left/dark)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -128,6 +140,7 @@ types:
     gender: 2
     id: 4046
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (left/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -138,6 +151,7 @@ types:
     gender: 2
     id: 4048
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (left/gray)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -148,6 +162,7 @@ types:
     gender: 2
     id: 4037
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (right/dark)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -158,6 +173,7 @@ types:
     gender: 2
     id: 4039
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (right/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -168,6 +184,7 @@ types:
     gender: 2
     id: 4038
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (right/gray)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -187,6 +204,7 @@ types:
     gender: 3
     id: 41575
     marketGroup: 1408
+    mass: 0.5
     name: Women's "Mirelle" Upwell Executive Spectacles
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -197,6 +215,7 @@ types:
     gender: 2
     id: 60171
     marketGroup: 1408
+    mass: 0.5
     name: Women's 'Glass Semiotique' Monocle Interface (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -206,6 +225,7 @@ types:
     gender: 2
     id: 60166
     marketGroup: 1408
+    mass: 0.5
     name: Women's 'Orb Semiotique' Synthetic Eye (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -215,6 +235,7 @@ types:
     gender: 2
     id: 54965
     marketGroup: 1408
+    mass: 0.5
     name: Women's BioCrystal Protective Glasses
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -224,6 +245,7 @@ types:
     gender: 2
     id: 42905
     marketGroup: 1408
+    mass: 0.10000000149011612
     name: Women's Genolution Tactical Goggles
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -233,6 +255,7 @@ types:
     gender: 2
     id: 60645
     marketGroup: 1408
+    mass: 0.5
     name: Women's Radioactives Reclamation Goggles
     packagedVolume: 0.10000000149011612
     portionSize: 1

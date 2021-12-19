@@ -20,6 +20,7 @@ types:
     lightningweapontargetamount: 5
     lightningweapontargetrange: 20000
     marketGroup: 2228
+    mass: 8000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Standup Arcing Vorton Projector I

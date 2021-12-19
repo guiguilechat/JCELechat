@@ -2,6 +2,7 @@ types:
   Abyssal Entropic Radiation Sink:
     damagemultiplier: 1.0
     id: 49734
+    mass: 1.0
     name: Abyssal Entropic Radiation Sink
     packagedVolume: 1.0
     portionSize: 1
@@ -19,6 +20,7 @@ types:
     hp: 40.0
     id: 47909
     marketGroup: 2471
+    mass: 1.0
     name: Compact Entropic Radiation Sink
     packagedVolume: 5.0
     portionSize: 1
@@ -36,6 +38,7 @@ types:
     hp: 40.0
     id: 47908
     marketGroup: 2471
+    mass: 1.0
     name: Entropic Radiation Sink I
     packagedVolume: 5.0
     portionSize: 1
@@ -53,6 +56,7 @@ types:
     hp: 40.0
     id: 47911
     marketGroup: 2471
+    mass: 1.0
     metalevelold: 5
     name: Entropic Radiation Sink II
     packagedVolume: 5.0
@@ -71,6 +75,7 @@ types:
     hp: 40.0
     id: 52244
     marketGroup: 2471
+    mass: 1.0
     name: Veles Entropic Radiation Sink
     packagedVolume: 5.0
     portionSize: 1
@@ -88,6 +93,7 @@ types:
     hp: 40.0
     id: 52242
     marketGroup: 2471
+    mass: 1.0
     name: Zorya's Entropic Radiation Sink
     packagedVolume: 5.0
     portionSize: 1

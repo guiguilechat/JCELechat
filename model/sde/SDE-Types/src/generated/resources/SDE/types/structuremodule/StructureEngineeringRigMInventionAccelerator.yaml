@@ -10,6 +10,7 @@ types:
     id: 43880
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Invention Accelerator I
     nullsecmodifier: 2.0999999046325684
@@ -36,6 +37,7 @@ types:
     id: 43881
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Invention Accelerator II
     nullsecmodifier: 2.0999999046325684

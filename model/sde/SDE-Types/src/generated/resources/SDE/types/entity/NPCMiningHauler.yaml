@@ -19,6 +19,7 @@ types:
     hp: 1344.0
     id: 43612
     kineticdamageresonance: 0.6700000166893005
+    mass: 1.065E7
     maxlockedtargets: 2
     maxtargetrange: 53125.0
     maxvelocity: 109.0
@@ -62,6 +63,7 @@ types:
     hp: 6962.0
     id: 53570
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.35E7
     maxlockedtargets: 3
     maxtargetrange: 68750.0
     maxvelocity: 242.0
@@ -106,6 +108,7 @@ types:
     hp: 6962.0
     id: 43613
     kineticdamageresonance: 0.43549999594688416
+    mass: 2.0E7
     maxlockedtargets: 3
     maxtargetrange: 68750.0
     maxvelocity: 242.0
@@ -150,6 +153,7 @@ types:
     hp: 6962.0
     id: 53561
     kineticdamageresonance: 0.43549999594688416
+    mass: 9.6E8
     maxlockedtargets: 3
     maxtargetrange: 68750.0
     maxvelocity: 242.0
@@ -194,6 +198,7 @@ types:
     hp: 5625.0
     id: 42655
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.95E7
     maxlockedtargets: 3
     maxtargetrange: 56250.0
     maxvelocity: 252.0
@@ -240,6 +245,7 @@ types:
     hp: 1220.0
     id: 42658
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.35E7
     maxlockedtargets: 2
     maxtargetrange: 65625.0
     maxvelocity: 110.0
@@ -283,6 +289,7 @@ types:
     hp: 6962.0
     id: 53560
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.35E7
     maxlockedtargets: 3
     maxtargetrange: 68750.0
     maxvelocity: 242.0
@@ -327,6 +334,7 @@ types:
     hp: 996.0
     id: 42660
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.15E7
     maxlockedtargets: 2
     maxtargetrange: 56250.0
     maxvelocity: 110.0
@@ -372,6 +380,7 @@ types:
     hp: 3875.0
     id: 42661
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.92E7
     maxlockedtargets: 3
     maxtargetrange: 50000.0
     maxvelocity: 361.0
@@ -416,6 +425,7 @@ types:
     hp: 6962.0
     id: 53569
     kineticdamageresonance: 0.43549999594688416
+    mass: 9.4E8
     maxlockedtargets: 3
     maxtargetrange: 68750.0
     maxvelocity: 242.0
@@ -460,6 +470,7 @@ types:
     hp: 6250.0
     id: 42659
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.9E7
     maxlockedtargets: 3
     maxtargetrange: 62500.0
     maxvelocity: 327.0

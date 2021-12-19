@@ -2,6 +2,7 @@ types:
   Capital Absorption Thruster Array:
     id: 53037
     marketGroup: 2693
+    mass: 10000.0
     moonminingamount: 1
     name: Capital Absorption Thruster Array
     packagedVolume: 10000.0
@@ -11,6 +12,7 @@ types:
   Capital Armor Plates:
     id: 21017
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Armor Plates
     packagedVolume: 10000.0
@@ -21,6 +23,7 @@ types:
   Capital Capacitor Battery:
     id: 21019
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Capacitor Battery
     packagedVolume: 10000.0
@@ -31,6 +34,7 @@ types:
   Capital Cargo Bay:
     id: 21027
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Cargo Bay
     packagedVolume: 10000.0
@@ -41,6 +45,7 @@ types:
   Capital Clone Vat Bay:
     id: 24547
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Clone Vat Bay
     packagedVolume: 10000.0
@@ -51,6 +56,7 @@ types:
   Capital Computer System:
     id: 21035
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Computer System
     packagedVolume: 10000.0
@@ -61,6 +67,7 @@ types:
   Capital Construction Parts:
     id: 21037
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Construction Parts
     packagedVolume: 10000.0
@@ -71,6 +78,7 @@ types:
   Capital Core Temperature Regulator:
     id: 57487
     marketGroup: 781
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Capital Core Temperature Regulator
     packagedVolume: 28000.0
@@ -81,6 +89,7 @@ types:
   Capital Corporate Hangar Bay:
     id: 24560
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Corporate Hangar Bay
     packagedVolume: 10000.0
@@ -91,6 +100,7 @@ types:
   Capital Doomsday Weapon Mount:
     id: 24556
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Doomsday Weapon Mount
     packagedVolume: 10000.0
@@ -101,6 +111,7 @@ types:
   Capital Drone Bay:
     id: 21029
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Drone Bay
     packagedVolume: 10000.0
@@ -111,6 +122,7 @@ types:
   Capital Jump Bridge Array:
     id: 24545
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Jump Bridge Array
     packagedVolume: 10000.0
@@ -121,6 +133,7 @@ types:
   Capital Jump Drive:
     id: 21025
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Jump Drive
     packagedVolume: 10000.0
@@ -131,6 +144,7 @@ types:
   Capital Launcher Hardpoint:
     id: 21041
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Launcher Hardpoint
     packagedVolume: 10000.0
@@ -141,6 +155,7 @@ types:
   Capital Power Generator:
     id: 21021
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Power Generator
     packagedVolume: 10000.0
@@ -151,6 +166,7 @@ types:
   Capital Propulsion Engine:
     id: 21009
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Propulsion Engine
     packagedVolume: 10000.0
@@ -161,6 +177,7 @@ types:
   Capital Radiation Conversion Unit:
     id: 53036
     marketGroup: 2693
+    mass: 10000.0
     moonminingamount: 1
     name: Capital Radiation Conversion Unit
     packagedVolume: 10000.0
@@ -170,6 +187,7 @@ types:
   Capital Sensor Cluster:
     id: 21013
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Sensor Cluster
     packagedVolume: 10000.0
@@ -180,6 +198,7 @@ types:
   Capital Shield Emitter:
     id: 21023
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Shield Emitter
     packagedVolume: 10000.0
@@ -190,6 +209,7 @@ types:
   Capital Ship Maintenance Bay:
     id: 24558
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Ship Maintenance Bay
     packagedVolume: 10000.0
@@ -200,6 +220,7 @@ types:
   Capital Siege Array:
     id: 21039
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Siege Array
     packagedVolume: 10000.0
@@ -210,6 +231,7 @@ types:
   Capital Turret Hardpoint:
     id: 21011
     marketGroup: 781
+    mass: 10000.0
     moonminingamount: 100
     name: Capital Turret Hardpoint
     packagedVolume: 10000.0
@@ -220,6 +242,7 @@ types:
   Capital Ultratidal Entropic Mounting:
     id: 53035
     marketGroup: 2693
+    mass: 10000.0
     moonminingamount: 1
     name: Capital Ultratidal Entropic Mounting
     packagedVolume: 10000.0
@@ -229,6 +252,7 @@ types:
   Enhanced Neurolink Protection Cell:
     id: 57489
     marketGroup: 781
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Enhanced Neurolink Protection Cell
     packagedVolume: 55000.0
@@ -239,6 +263,7 @@ types:
   Neurolink Protection Cell:
     id: 57488
     marketGroup: 781
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Neurolink Protection Cell
     packagedVolume: 5500.0

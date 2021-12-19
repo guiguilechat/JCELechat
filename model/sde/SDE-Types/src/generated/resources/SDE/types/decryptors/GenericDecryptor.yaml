@@ -6,6 +6,7 @@ types:
     inventionpropabilitymultiplier: 1.2000000476837158
     inventiontemodifier: 10.0
     marketGroup: 1873
+    mass: 1.0
     name: Accelerant Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -19,6 +20,7 @@ types:
     inventionpropabilitymultiplier: 1.7999999523162842
     inventiontemodifier: 4.0
     marketGroup: 1873
+    mass: 1.0
     name: Attainment Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -32,6 +34,7 @@ types:
     inventionpropabilitymultiplier: 0.6000000238418579
     inventiontemodifier: 2.0
     marketGroup: 1873
+    mass: 1.0
     name: Augmentation Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -45,6 +48,7 @@ types:
     inventionpropabilitymultiplier: 1.899999976158142
     inventiontemodifier: -2.0
     marketGroup: 1873
+    mass: 1.0
     name: Optimized Attainment Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -57,6 +61,7 @@ types:
     inventionmemodifier: 2.0
     inventionpropabilitymultiplier: 0.8999999761581421
     marketGroup: 1873
+    mass: 1.0
     name: Optimized Augmentation Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -70,6 +75,7 @@ types:
     inventionpropabilitymultiplier: 1.5
     inventiontemodifier: -2.0
     marketGroup: 1873
+    mass: 1.0
     name: Parity Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -82,6 +88,7 @@ types:
     inventionpropabilitymultiplier: 1.100000023841858
     inventiontemodifier: 6.0
     marketGroup: 1873
+    mass: 1.0
     name: Process Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -95,6 +102,7 @@ types:
     inventionpropabilitymultiplier: 1.0
     inventiontemodifier: 8.0
     marketGroup: 1873
+    mass: 1.0
     name: Symmetry Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1

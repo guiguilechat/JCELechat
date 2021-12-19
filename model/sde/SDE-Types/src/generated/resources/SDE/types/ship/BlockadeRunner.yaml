@@ -42,6 +42,7 @@ types:
     lowslots: 2
     maincolor: 16777215
     marketGroup: 631
+    mass: 1.1E7
     maxlockedtargets: 2
     maxpassengers: 100
     maxtargetrange: 45000.0
@@ -133,6 +134,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 630
+    mass: 1.075E7
     maxlockedtargets: 2
     maxpassengers: 300
     maxtargetrange: 35000.0
@@ -226,6 +228,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 633
+    mass: 1.12E7
     maxlockedtargets: 2
     maxpassengers: 100
     maxtargetrange: 30000.0
@@ -318,6 +321,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 632
+    mass: 1.0E7
     maxlockedtargets: 2
     maxpassengers: 120
     maxtargetrange: 40000.0

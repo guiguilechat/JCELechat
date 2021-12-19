@@ -5,6 +5,7 @@ types:
     inventionmemodifier: 2.0
     inventionpropabilitymultiplier: 1.2000000476837158
     inventiontemodifier: 10.0
+    mass: 1.0
     name: Incognito Accelerant
     packagedVolume: 1.0
     portionSize: 1
@@ -17,6 +18,7 @@ types:
     inventionmemodifier: -1.0
     inventionpropabilitymultiplier: 1.7999999523162842
     inventiontemodifier: 4.0
+    mass: 1.0
     name: Incognito Attainment
     packagedVolume: 1.0
     portionSize: 1
@@ -29,6 +31,7 @@ types:
     inventionmemodifier: -2.0
     inventionpropabilitymultiplier: 0.6000000238418579
     inventiontemodifier: 2.0
+    mass: 1.0
     name: Incognito Augmentation
     packagedVolume: 1.0
     portionSize: 1
@@ -41,6 +44,7 @@ types:
     inventionmemodifier: 1.0
     inventionpropabilitymultiplier: 1.5
     inventiontemodifier: -2.0
+    mass: 1.0
     name: Incognito Parity
     packagedVolume: 1.0
     portionSize: 1
@@ -52,6 +56,7 @@ types:
     inventionmemodifier: 3.0
     inventionpropabilitymultiplier: 1.100000023841858
     inventiontemodifier: 6.0
+    mass: 1.0
     name: Incognito Process
     packagedVolume: 1.0
     portionSize: 1
@@ -64,6 +69,7 @@ types:
     inventionmemodifier: 1.0
     inventionpropabilitymultiplier: 1.0
     inventiontemodifier: 8.0
+    mass: 1.0
     name: Incognito Symmetry
     packagedVolume: 1.0
     portionSize: 1
@@ -76,6 +82,7 @@ types:
     inventionmemodifier: 1.0
     inventionpropabilitymultiplier: 1.899999976158142
     inventiontemodifier: -2.0
+    mass: 1.0
     name: Optimized Incognito Attainment
     packagedVolume: 1.0
     portionSize: 1
@@ -87,6 +94,7 @@ types:
     inventionmaxrunmodifier: 7.0
     inventionmemodifier: 2.0
     inventionpropabilitymultiplier: 0.8999999761581421
+    mass: 1.0
     name: Optimized Incognito Augmentation
     packagedVolume: 1.0
     portionSize: 1

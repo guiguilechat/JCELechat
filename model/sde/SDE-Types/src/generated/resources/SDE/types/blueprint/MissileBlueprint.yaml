@@ -3,6 +3,7 @@ types:
     id: 1833
     industryblueprintrank: 3.0
     marketGroup: 315
+    mass: 1.0
     name: Inferno Auto-Targeting Cruise Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -15,6 +16,7 @@ types:
     id: 1825
     industryblueprintrank: 2.0
     marketGroup: 315
+    mass: 1.0
     name: Inferno Auto-Targeting Heavy Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -27,6 +29,7 @@ types:
     id: 1817
     industryblueprintrank: 1.0
     marketGroup: 315
+    mass: 1.0
     name: Inferno Auto-Targeting Light Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39,6 +42,7 @@ types:
     id: 805
     industryblueprintrank: 3.0
     marketGroup: 1526
+    mass: 1.0
     name: Inferno Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -50,6 +54,7 @@ types:
   Inferno Fury Cruise Missile Blueprint:
     id: 2622
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Inferno Fury Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -61,6 +66,7 @@ types:
   Inferno Fury Heavy Missile Blueprint:
     id: 24512
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Inferno Fury Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -72,6 +78,7 @@ types:
   Inferno Fury Light Missile Blueprint:
     id: 24500
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Inferno Fury Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -82,6 +89,7 @@ types:
     volume: 0.009999999776482582
   Inferno Fury XL Cruise Missile Blueprint:
     id: 41289
+    mass: 1.0
     name: Inferno Fury XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -94,6 +102,7 @@ types:
     id: 26761
     industryblueprintrank: 2.0
     marketGroup: 975
+    mass: 1.0
     name: Inferno Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -106,6 +115,7 @@ types:
     id: 809
     industryblueprintrank: 2.0
     marketGroup: 1527
+    mass: 1.0
     name: Inferno Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -117,6 +127,7 @@ types:
   Inferno Javelin Heavy Assault Missile Blueprint:
     id: 24615
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Inferno Javelin Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -128,6 +139,7 @@ types:
   Inferno Javelin Rocket Blueprint:
     id: 24543
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Inferno Javelin Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -139,6 +151,7 @@ types:
   Inferno Javelin Torpedo Blueprint:
     id: 24526
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Inferno Javelin Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -149,6 +162,7 @@ types:
     volume: 0.009999999776482582
   Inferno Javelin XL Torpedo Blueprint:
     id: 41284
+    mass: 1.0
     name: Inferno Javelin XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -161,6 +175,7 @@ types:
     id: 812
     industryblueprintrank: 1.0
     marketGroup: 1528
+    mass: 1.0
     name: Inferno Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -172,6 +187,7 @@ types:
   Inferno Precision Cruise Missile Blueprint:
     id: 2638
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Inferno Precision Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -183,6 +199,7 @@ types:
   Inferno Precision Heavy Missile Blueprint:
     id: 24516
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Inferno Precision Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -194,6 +211,7 @@ types:
   Inferno Precision Light Missile Blueprint:
     id: 2648
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Inferno Precision Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -204,6 +222,7 @@ types:
     volume: 0.009999999776482582
   Inferno Precision XL Cruise Missile Blueprint:
     id: 41288
+    mass: 1.0
     name: Inferno Precision XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -215,6 +234,7 @@ types:
   Inferno Rage Heavy Assault Missile Blueprint:
     id: 24487
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Inferno Rage Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -226,6 +246,7 @@ types:
   Inferno Rage Rocket Blueprint:
     id: 24476
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Inferno Rage Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -237,6 +258,7 @@ types:
   Inferno Rage Torpedo Blueprint:
     id: 2812
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Inferno Rage Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -247,6 +269,7 @@ types:
     volume: 0.009999999776482582
   Inferno Rage XL Torpedo Blueprint:
     id: 41285
+    mass: 1.0
     name: Inferno Rage XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -259,6 +282,7 @@ types:
     id: 2515
     industryblueprintrank: 1.0
     marketGroup: 318
+    mass: 1.0
     name: Inferno Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -271,6 +295,7 @@ types:
     id: 2511
     industryblueprintrank: 3.0
     marketGroup: 390
+    mass: 1.0
     name: Inferno Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -283,6 +308,7 @@ types:
     id: 32441
     industryblueprintrank: 3.0
     marketGroup: 1286
+    mass: 1.0
     name: Inferno XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -295,6 +321,7 @@ types:
     id: 17862
     industryblueprintrank: 4.0
     marketGroup: 617
+    mass: 1.0
     name: Inferno XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -307,6 +334,7 @@ types:
     id: 1829
     industryblueprintrank: 3.0
     marketGroup: 315
+    mass: 1.0
     name: Mjolnir Auto-Targeting Cruise Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -319,6 +347,7 @@ types:
     id: 1821
     industryblueprintrank: 2.0
     marketGroup: 315
+    mass: 1.0
     name: Mjolnir Auto-Targeting Heavy Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -331,6 +360,7 @@ types:
     id: 1216
     industryblueprintrank: 1.0
     marketGroup: 315
+    mass: 1.0
     name: Mjolnir Auto-Targeting Light Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -343,6 +373,7 @@ types:
     id: 803
     industryblueprintrank: 3.0
     marketGroup: 1526
+    mass: 1.0
     name: Mjolnir Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -354,6 +385,7 @@ types:
   Mjolnir Fury Cruise Missile Blueprint:
     id: 24536
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Mjolnir Fury Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -365,6 +397,7 @@ types:
   Mjolnir Fury Heavy Missile Blueprint:
     id: 24510
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Mjolnir Fury Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -376,6 +409,7 @@ types:
   Mjolnir Fury Light Missile Blueprint:
     id: 2614
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Mjolnir Fury Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -386,6 +420,7 @@ types:
     volume: 0.009999999776482582
   Mjolnir Fury XL Cruise Missile Blueprint:
     id: 41301
+    mass: 1.0
     name: Mjolnir Fury XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -398,6 +433,7 @@ types:
     id: 26760
     industryblueprintrank: 2.0
     marketGroup: 975
+    mass: 1.0
     name: Mjolnir Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -410,6 +446,7 @@ types:
     id: 808
     industryblueprintrank: 2.0
     marketGroup: 1527
+    mass: 1.0
     name: Mjolnir Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -421,6 +458,7 @@ types:
   Mjolnir Javelin Heavy Assault Missile Blueprint:
     id: 24617
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Mjolnir Javelin Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -432,6 +470,7 @@ types:
   Mjolnir Javelin Rocket Blueprint:
     id: 24544
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Mjolnir Javelin Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -443,6 +482,7 @@ types:
   Mjolnir Javelin Torpedo Blueprint:
     id: 24528
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Mjolnir Javelin Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -453,6 +493,7 @@ types:
     volume: 0.009999999776482582
   Mjolnir Javelin XL Torpedo Blueprint:
     id: 41282
+    mass: 1.0
     name: Mjolnir Javelin XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -465,6 +506,7 @@ types:
     id: 813
     industryblueprintrank: 1.0
     marketGroup: 1528
+    mass: 1.0
     name: Mjolnir Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -476,6 +518,7 @@ types:
   Mjolnir Precision Cruise Missile Blueprint:
     id: 24540
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Mjolnir Precision Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -487,6 +530,7 @@ types:
   Mjolnir Precision Heavy Missile Blueprint:
     id: 24518
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Mjolnir Precision Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -498,6 +542,7 @@ types:
   Mjolnir Precision Light Missile Blueprint:
     id: 24506
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Mjolnir Precision Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -508,6 +553,7 @@ types:
     volume: 0.009999999776482582
   Mjolnir Precision XL Cruise Missile Blueprint:
     id: 41300
+    mass: 1.0
     name: Mjolnir Precision XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -519,6 +565,7 @@ types:
   Mjolnir Rage Heavy Assault Missile Blueprint:
     id: 24491
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Mjolnir Rage Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -530,6 +577,7 @@ types:
   Mjolnir Rage Rocket Blueprint:
     id: 2818
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Mjolnir Rage Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -541,6 +589,7 @@ types:
   Mjolnir Rage Torpedo Blueprint:
     id: 24524
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Mjolnir Rage Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -551,6 +600,7 @@ types:
     volume: 0.009999999776482582
   Mjolnir Rage XL Torpedo Blueprint:
     id: 41283
+    mass: 1.0
     name: Mjolnir Rage XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -563,6 +613,7 @@ types:
     id: 2513
     industryblueprintrank: 1.0
     marketGroup: 318
+    mass: 1.0
     name: Mjolnir Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -575,6 +626,7 @@ types:
     id: 2507
     industryblueprintrank: 3.0
     marketGroup: 390
+    mass: 1.0
     name: Mjolnir Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -587,6 +639,7 @@ types:
     id: 32443
     industryblueprintrank: 3.0
     marketGroup: 1286
+    mass: 1.0
     name: Mjolnir XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -599,6 +652,7 @@ types:
     id: 17858
     industryblueprintrank: 4.0
     marketGroup: 617
+    mass: 1.0
     name: Mjolnir XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -611,6 +665,7 @@ types:
     id: 1831
     industryblueprintrank: 3.0
     marketGroup: 315
+    mass: 1.0
     name: Nova Auto-Targeting Cruise Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -623,6 +678,7 @@ types:
     id: 1823
     industryblueprintrank: 2.0
     marketGroup: 315
+    mass: 1.0
     name: Nova Auto-Targeting Heavy Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -635,6 +691,7 @@ types:
     id: 1815
     industryblueprintrank: 1.0
     marketGroup: 315
+    mass: 1.0
     name: Nova Auto-Targeting Light Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -647,6 +704,7 @@ types:
     id: 806
     industryblueprintrank: 3.0
     marketGroup: 1526
+    mass: 1.0
     name: Nova Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -658,6 +716,7 @@ types:
   Nova Fury Cruise Missile Blueprint:
     id: 24532
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Nova Fury Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -669,6 +728,7 @@ types:
   Nova Fury Heavy Missile Blueprint:
     id: 24508
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Nova Fury Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -680,6 +740,7 @@ types:
   Nova Fury Light Missile Blueprint:
     id: 24498
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Nova Fury Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -690,6 +751,7 @@ types:
     volume: 0.009999999776482582
   Nova Fury XL Cruise Missile Blueprint:
     id: 41296
+    mass: 1.0
     name: Nova Fury XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -702,6 +764,7 @@ types:
     id: 21868
     industryblueprintrank: 2.0
     marketGroup: 975
+    mass: 1.0
     name: Nova Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -714,6 +777,7 @@ types:
     id: 807
     industryblueprintrank: 2.0
     marketGroup: 1527
+    mass: 1.0
     name: Nova Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -725,6 +789,7 @@ types:
   Nova Javelin Heavy Assault Missile Blueprint:
     id: 24616
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Nova Javelin Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -736,6 +801,7 @@ types:
   Nova Javelin Rocket Blueprint:
     id: 24604
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Nova Javelin Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -747,6 +813,7 @@ types:
   Nova Javelin Torpedo Blueprint:
     id: 2802
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Nova Javelin Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -757,6 +824,7 @@ types:
     volume: 0.009999999776482582
   Nova Javelin XL Torpedo Blueprint:
     id: 41280
+    mass: 1.0
     name: Nova Javelin XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -769,6 +837,7 @@ types:
     id: 814
     industryblueprintrank: 1.0
     marketGroup: 1528
+    mass: 1.0
     name: Nova Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -780,6 +849,7 @@ types:
   Nova Precision Cruise Missile Blueprint:
     id: 24538
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Nova Precision Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -791,6 +861,7 @@ types:
   Nova Precision Heavy Missile Blueprint:
     id: 2656
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Nova Precision Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -802,6 +873,7 @@ types:
   Nova Precision Light Missile Blueprint:
     id: 24504
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Nova Precision Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -812,6 +884,7 @@ types:
     volume: 0.009999999776482582
   Nova Precision XL Cruise Missile Blueprint:
     id: 41297
+    mass: 1.0
     name: Nova Precision XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -823,6 +896,7 @@ types:
   Nova Rage Heavy Assault Missile Blueprint:
     id: 24489
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Nova Rage Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -834,6 +908,7 @@ types:
   Nova Rage Rocket Blueprint:
     id: 24474
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Nova Rage Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -845,6 +920,7 @@ types:
   Nova Rage Torpedo Blueprint:
     id: 24520
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Nova Rage Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -855,6 +931,7 @@ types:
     volume: 0.009999999776482582
   Nova Rage XL Torpedo Blueprint:
     id: 41281
+    mass: 1.0
     name: Nova Rage XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -867,6 +944,7 @@ types:
     id: 2517
     industryblueprintrank: 1.0
     marketGroup: 318
+    mass: 1.0
     name: Nova Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -879,6 +957,7 @@ types:
     id: 2509
     industryblueprintrank: 3.0
     marketGroup: 390
+    mass: 1.0
     name: Nova Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -891,6 +970,7 @@ types:
     id: 32439
     industryblueprintrank: 3.0
     marketGroup: 1286
+    mass: 1.0
     name: Nova XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -903,6 +983,7 @@ types:
     id: 17864
     industryblueprintrank: 4.0
     marketGroup: 617
+    mass: 1.0
     name: Nova XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -914,6 +995,7 @@ types:
   Sansha Juggernaut Torpedo Blueprint:
     id: 2211
     industryblueprintrank: 3.0
+    mass: 1.0
     name: Sansha Juggernaut Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -925,6 +1007,7 @@ types:
   Sansha Wrath Cruise Missile Blueprint:
     id: 2179
     industryblueprintrank: 3.0
+    mass: 1.0
     name: Sansha Wrath Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -937,6 +1020,7 @@ types:
     id: 1827
     industryblueprintrank: 3.0
     marketGroup: 315
+    mass: 1.0
     name: Scourge Auto-Targeting Cruise Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -949,6 +1033,7 @@ types:
     id: 1819
     industryblueprintrank: 2.0
     marketGroup: 315
+    mass: 1.0
     name: Scourge Auto-Targeting Heavy Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -961,6 +1046,7 @@ types:
     id: 1811
     industryblueprintrank: 1.0
     marketGroup: 315
+    mass: 1.0
     name: Scourge Auto-Targeting Light Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -973,6 +1059,7 @@ types:
     id: 804
     industryblueprintrank: 3.0
     marketGroup: 1526
+    mass: 1.0
     name: Scourge Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -984,6 +1071,7 @@ types:
   Scourge Fury Cruise Missile Blueprint:
     id: 24534
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Scourge Fury Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -995,6 +1083,7 @@ types:
   Scourge Fury Heavy Missile Blueprint:
     id: 2630
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Scourge Fury Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1006,6 +1095,7 @@ types:
   Scourge Fury Light Missile Blueprint:
     id: 24496
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Scourge Fury Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1016,6 +1106,7 @@ types:
     volume: 0.009999999776482582
   Scourge Fury XL Cruise Missile Blueprint:
     id: 41293
+    mass: 1.0
     name: Scourge Fury XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1028,6 +1119,7 @@ types:
     id: 26762
     industryblueprintrank: 2.0
     marketGroup: 975
+    mass: 1.0
     name: Scourge Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1040,6 +1132,7 @@ types:
     id: 810
     industryblueprintrank: 2.0
     marketGroup: 1527
+    mass: 1.0
     name: Scourge Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1051,6 +1144,7 @@ types:
   Scourge Javelin Heavy Assault Missile Blueprint:
     id: 24614
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Scourge Javelin Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1062,6 +1156,7 @@ types:
   Scourge Javelin Rocket Blueprint:
     id: 24605
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Scourge Javelin Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1073,6 +1168,7 @@ types:
   Scourge Javelin Torpedo Blueprint:
     id: 24530
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Scourge Javelin Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1083,6 +1179,7 @@ types:
     volume: 0.009999999776482582
   Scourge Javelin XL Torpedo Blueprint:
     id: 41278
+    mass: 1.0
     name: Scourge Javelin XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1095,6 +1192,7 @@ types:
     id: 811
     industryblueprintrank: 1.0
     marketGroup: 1528
+    mass: 1.0
     name: Scourge Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1106,6 +1204,7 @@ types:
   Scourge Precision Cruise Missile Blueprint:
     id: 24542
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Scourge Precision Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1117,6 +1216,7 @@ types:
   Scourge Precision Heavy Missile Blueprint:
     id: 24514
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Scourge Precision Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1128,6 +1228,7 @@ types:
   Scourge Precision Light Missile Blueprint:
     id: 24502
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Scourge Precision Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1138,6 +1239,7 @@ types:
     volume: 0.009999999776482582
   Scourge Precision XL Cruise Missile Blueprint:
     id: 41292
+    mass: 1.0
     name: Scourge Precision XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1149,6 +1251,7 @@ types:
   Scourge Rage Heavy Assault Missile Blueprint:
     id: 2680
     industryblueprintrank: 3.200000047683716
+    mass: 1.0
     name: Scourge Rage Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1160,6 +1263,7 @@ types:
   Scourge Rage Rocket Blueprint:
     id: 24472
     industryblueprintrank: 1.600000023841858
+    mass: 1.0
     name: Scourge Rage Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1171,6 +1275,7 @@ types:
   Scourge Rage Torpedo Blueprint:
     id: 24522
     industryblueprintrank: 4.800000190734863
+    mass: 1.0
     name: Scourge Rage Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1181,6 +1286,7 @@ types:
     volume: 0.009999999776482582
   Scourge Rage XL Torpedo Blueprint:
     id: 41279
+    mass: 1.0
     name: Scourge Rage XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1193,6 +1299,7 @@ types:
     id: 1220
     industryblueprintrank: 1.0
     marketGroup: 318
+    mass: 1.0
     name: Scourge Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1205,6 +1312,7 @@ types:
     id: 1221
     industryblueprintrank: 3.0
     marketGroup: 390
+    mass: 1.0
     name: Scourge Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1217,6 +1325,7 @@ types:
     id: 32437
     industryblueprintrank: 3.0
     marketGroup: 1286
+    mass: 1.0
     name: Scourge XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1229,6 +1338,7 @@ types:
     id: 17860
     industryblueprintrank: 4.0
     marketGroup: 617
+    mass: 1.0
     name: Scourge XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1240,6 +1350,7 @@ types:
   Standup Cruise Missile Blueprint:
     id: 37855
     marketGroup: 2192
+    mass: 1.0
     name: Standup Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1252,6 +1363,7 @@ types:
   Standup Heavy Guided Bomb Blueprint:
     id: 37858
     marketGroup: 2193
+    mass: 1.0
     name: Standup Heavy Guided Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1264,6 +1376,7 @@ types:
   Standup Heavy Missile Blueprint:
     id: 37856
     marketGroup: 2192
+    mass: 1.0
     name: Standup Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1276,6 +1389,7 @@ types:
   Standup Light Guided Bomb Blueprint:
     id: 37859
     marketGroup: 2193
+    mass: 1.0
     name: Standup Light Guided Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1288,6 +1402,7 @@ types:
   Standup Light Missile Blueprint:
     id: 37857
     marketGroup: 2192
+    mass: 1.0
     name: Standup Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1300,6 +1415,7 @@ types:
   Standup Super-heavy Torpedo Blueprint:
     id: 37852
     marketGroup: 2191
+    mass: 1.0
     name: Standup Super-heavy Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1312,6 +1428,7 @@ types:
   Standup XL Cruise Missile Blueprint:
     id: 37853
     marketGroup: 2191
+    mass: 1.0
     name: Standup XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1

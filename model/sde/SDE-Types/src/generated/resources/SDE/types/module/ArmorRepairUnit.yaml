@@ -9,6 +9,7 @@ types:
     hp: 40.0
     id: 23795
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 3
     metalevelold: 6
     name: '''Gorget'' Small Armor Repairer I'
@@ -36,6 +37,7 @@ types:
     hp: 40.0
     id: 23797
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 3
     metalevelold: 6
     name: '''Greaves'' Medium Armor Repairer I'
@@ -63,6 +65,7 @@ types:
     hp: 40.0
     id: 22887
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 3
     metalevelold: 6
     name: '''Harmony'' Small Armor Repairer I'
@@ -90,6 +93,7 @@ types:
     hp: 40.0
     id: 23799
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 3
     metalevelold: 6
     name: '''Hauberk'' Large Armor Repairer I'
@@ -117,6 +121,7 @@ types:
     hp: 40.0
     id: 22889
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 3
     metalevelold: 6
     name: '''Meditation'' Medium Armor Repairer I'
@@ -144,6 +149,7 @@ types:
     hp: 40.0
     id: 22891
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 3
     metalevelold: 6
     name: '''Protest'' Large Armor Repairer I'
@@ -171,6 +177,7 @@ types:
     hp: 40.0
     id: 14853
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Large Armor Repairer
@@ -198,6 +205,7 @@ types:
     hp: 40.0
     id: 15743
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Large Armor Repairer
@@ -225,6 +233,7 @@ types:
     hp: 40.0
     id: 15742
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Medium Armor Repairer
@@ -252,6 +261,7 @@ types:
     hp: 40.0
     id: 15741
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Small Armor Repairer
@@ -279,6 +289,7 @@ types:
     hp: 40.0
     id: 14848
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Large Armor Repairer
@@ -306,6 +317,7 @@ types:
     hp: 40.0
     id: 15160
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Large Armor Repairer
@@ -333,6 +345,7 @@ types:
     hp: 40.0
     id: 3534
     marketGroup: 1052
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: CONCORD Capital Armor Repairer
@@ -358,6 +371,7 @@ types:
     hp: 40.0
     id: 41499
     marketGroup: 1052
+    mass: 500.0
     metalevelold: 1
     name: Capital ACM Compact Armor Repairer
     overloadarmordamageamount: 10
@@ -374,6 +388,7 @@ types:
     volume: 4000.0
   Capital Abyssal Armor Repairer:
     id: 56307
+    mass: 500.0
     name: Capital Abyssal Armor Repairer
     packagedVolume: 4000.0
     portionSize: 1
@@ -393,6 +408,7 @@ types:
     hp: 40.0
     id: 20701
     marketGroup: 1052
+    mass: 500.0
     name: Capital Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -416,6 +432,7 @@ types:
     hp: 40.0
     id: 41500
     marketGroup: 1052
+    mass: 500.0
     metalevelold: 5
     name: Capital Armor Repairer II
     overloadarmordamageamount: 10
@@ -440,6 +457,7 @@ types:
     hp: 40.0
     id: 41498
     marketGroup: 1052
+    mass: 500.0
     metalevelold: 1
     name: Capital I-a Enduring Armor Repairer
     overloadarmordamageamount: 10
@@ -464,6 +482,7 @@ types:
     hp: 40.0
     id: 19009
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Centii A-Type Small Armor Repairer
@@ -491,6 +510,7 @@ types:
     hp: 40.0
     id: 19007
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Centii B-Type Small Armor Repairer
@@ -518,6 +538,7 @@ types:
     hp: 40.0
     id: 19005
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Centii C-Type Small Armor Repairer
@@ -545,6 +566,7 @@ types:
     hp: 40.0
     id: 19027
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Medium Armor Repairer
@@ -572,6 +594,7 @@ types:
     hp: 40.0
     id: 19025
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Medium Armor Repairer
@@ -599,6 +622,7 @@ types:
     hp: 40.0
     id: 19023
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Medium Armor Repairer
@@ -626,6 +650,7 @@ types:
     hp: 40.0
     id: 19044
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Centus A-Type Large Armor Repairer
@@ -653,6 +678,7 @@ types:
     hp: 40.0
     id: 19042
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Centus B-Type Large Armor Repairer
@@ -680,6 +706,7 @@ types:
     hp: 40.0
     id: 19040
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Centus C-Type Large Armor Repairer
@@ -707,6 +734,7 @@ types:
     hp: 40.0
     id: 19046
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 16
     name: Centus X-Type Large Armor Repairer
@@ -734,6 +762,7 @@ types:
     hp: 40.0
     id: 14854
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Large Armor Repairer
@@ -761,6 +790,7 @@ types:
     hp: 40.0
     id: 21853
     marketGroup: 1049
+    mass: 500.0
     name: Civilian Armor Repairer
     overloadarmordamageamount: 3
     overloadselfdurationbonus: -15.0
@@ -784,6 +814,7 @@ types:
     hp: 40.0
     id: 19037
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Core A-Type Large Armor Repairer
@@ -811,6 +842,7 @@ types:
     hp: 40.0
     id: 19036
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Core B-Type Large Armor Repairer
@@ -838,6 +870,7 @@ types:
     hp: 40.0
     id: 19035
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Core C-Type Large Armor Repairer
@@ -865,6 +898,7 @@ types:
     hp: 40.0
     id: 19038
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 16
     name: Core X-Type Large Armor Repairer
@@ -892,6 +926,7 @@ types:
     hp: 40.0
     id: 19015
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Coreli A-Type Small Armor Repairer
@@ -919,6 +954,7 @@ types:
     hp: 40.0
     id: 19013
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Coreli B-Type Small Armor Repairer
@@ -946,6 +982,7 @@ types:
     hp: 40.0
     id: 19011
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Coreli C-Type Small Armor Repairer
@@ -973,6 +1010,7 @@ types:
     hp: 40.0
     id: 19033
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Medium Armor Repairer
@@ -1000,6 +1038,7 @@ types:
     hp: 40.0
     id: 19031
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Medium Armor Repairer
@@ -1027,6 +1066,7 @@ types:
     hp: 40.0
     id: 19029
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Medium Armor Repairer
@@ -1054,6 +1094,7 @@ types:
     hp: 40.0
     id: 15163
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Large Armor Repairer
@@ -1081,6 +1122,7 @@ types:
     hp: 40.0
     id: 19003
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Corpii A-Type Small Armor Repairer
@@ -1108,6 +1150,7 @@ types:
     hp: 40.0
     id: 19001
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Corpii B-Type Small Armor Repairer
@@ -1135,6 +1178,7 @@ types:
     hp: 40.0
     id: 18999
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Corpii C-Type Small Armor Repairer
@@ -1162,6 +1206,7 @@ types:
     hp: 40.0
     id: 19021
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Medium Armor Repairer
@@ -1189,6 +1234,7 @@ types:
     hp: 40.0
     id: 19019
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Medium Armor Repairer
@@ -1216,6 +1262,7 @@ types:
     hp: 40.0
     id: 19017
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Medium Armor Repairer
@@ -1243,6 +1290,7 @@ types:
     hp: 40.0
     id: 19043
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 14
     name: Corpus A-Type Large Armor Repairer
@@ -1270,6 +1318,7 @@ types:
     hp: 40.0
     id: 19041
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 12
     name: Corpus B-Type Large Armor Repairer
@@ -1297,6 +1346,7 @@ types:
     hp: 40.0
     id: 19039
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 10
     name: Corpus C-Type Large Armor Repairer
@@ -1324,6 +1374,7 @@ types:
     hp: 40.0
     id: 19045
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 6
     metalevelold: 16
     name: Corpus X-Type Large Armor Repairer
@@ -1351,6 +1402,7 @@ types:
     hp: 40.0
     id: 41501
     marketGroup: 1052
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Capital Armor Repairer
@@ -1376,6 +1428,7 @@ types:
     hp: 40.0
     id: 13957
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Large Armor Repairer
@@ -1403,6 +1456,7 @@ types:
     hp: 40.0
     id: 13960
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Medium Armor Repairer
@@ -1430,6 +1484,7 @@ types:
     hp: 40.0
     id: 13964
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Small Armor Repairer
@@ -1457,6 +1512,7 @@ types:
     hp: 40.0
     id: 13955
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Large Armor Repairer
@@ -1484,6 +1540,7 @@ types:
     hp: 40.0
     id: 13958
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Medium Armor Repairer
@@ -1511,6 +1568,7 @@ types:
     hp: 40.0
     id: 13962
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Small Armor Repairer
@@ -1538,6 +1596,7 @@ types:
     hp: 40.0
     id: 14855
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Large Armor Repairer
@@ -1565,6 +1624,7 @@ types:
     hp: 40.0
     id: 15746
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Large Armor Repairer
@@ -1592,6 +1652,7 @@ types:
     hp: 40.0
     id: 15745
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Medium Armor Repairer
@@ -1619,6 +1680,7 @@ types:
     hp: 40.0
     id: 15744
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Small Armor Repairer
@@ -1646,6 +1708,7 @@ types:
     hp: 40.0
     id: 14554
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 11
     name: Gotan's Modified Large Armor Repairer
@@ -1673,6 +1736,7 @@ types:
     hp: 40.0
     id: 17546
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Large Armor Repairer
@@ -1700,6 +1764,7 @@ types:
     hp: 40.0
     id: 17547
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Medium Armor Repairer
@@ -1727,6 +1792,7 @@ types:
     hp: 40.0
     id: 17548
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Small Armor Repairer
@@ -1754,6 +1820,7 @@ types:
     hp: 40.0
     id: 28544
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Large Armor Repairer
@@ -1781,6 +1848,7 @@ types:
     hp: 40.0
     id: 28549
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Medium Armor Repairer
@@ -1808,6 +1876,7 @@ types:
     hp: 40.0
     id: 28556
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Small Armor Repairer
@@ -1835,6 +1904,7 @@ types:
     hp: 40.0
     id: 4613
     marketGroup: 1051
+    mass: 500.0
     metalevelold: 1
     name: Large ACM Compact Armor Repairer
     overloadarmordamageamount: 10
@@ -1853,6 +1923,7 @@ types:
     volume: 50.0
   Large Abyssal Armor Repairer:
     id: 47777
+    mass: 1.0
     name: Large Abyssal Armor Repairer
     packagedVolume: 50.0
     portionSize: 1
@@ -1874,6 +1945,7 @@ types:
     hp: 40.0
     id: 3538
     marketGroup: 1051
+    mass: 500.0
     name: Large Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1899,6 +1971,7 @@ types:
     hp: 40.0
     id: 3540
     marketGroup: 1051
+    mass: 500.0
     metalevelold: 5
     name: Large Armor Repairer II
     overloadarmordamageamount: 10
@@ -1925,6 +1998,7 @@ types:
     hp: 40.0
     id: 4609
     marketGroup: 1051
+    mass: 500.0
     metalevelold: 1
     name: Large I-a Enduring Armor Repairer
     overloadarmordamageamount: 10
@@ -1951,6 +2025,7 @@ types:
     hp: 40.0
     id: 4573
     marketGroup: 1050
+    mass: 500.0
     metalevelold: 1
     name: Medium ACM Compact Armor Repairer
     overloadarmordamageamount: 10
@@ -1969,6 +2044,7 @@ types:
     volume: 10.0
   Medium Abyssal Armor Repairer:
     id: 47773
+    mass: 1.0
     name: Medium Abyssal Armor Repairer
     packagedVolume: 10.0
     portionSize: 1
@@ -1990,6 +2066,7 @@ types:
     hp: 40.0
     id: 3528
     marketGroup: 1050
+    mass: 500.0
     name: Medium Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -2015,6 +2092,7 @@ types:
     hp: 40.0
     id: 3530
     marketGroup: 1050
+    mass: 500.0
     metalevelold: 5
     name: Medium Armor Repairer II
     overloadarmordamageamount: 10
@@ -2041,6 +2119,7 @@ types:
     hp: 40.0
     id: 4569
     marketGroup: 1050
+    mass: 500.0
     metalevelold: 1
     name: Medium I-a Enduring Armor Repairer
     overloadarmordamageamount: 10
@@ -2067,6 +2146,7 @@ types:
     hp: 40.0
     id: 14552
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 11
     name: Mizuro's Modified Large Armor Repairer
@@ -2094,6 +2174,7 @@ types:
     hp: 40.0
     id: 14851
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Large Armor Repairer
@@ -2121,6 +2202,7 @@ types:
     hp: 40.0
     id: 17492
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Large Armor Repairer
@@ -2148,6 +2230,7 @@ types:
     hp: 40.0
     id: 17493
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Medium Armor Repairer
@@ -2175,6 +2258,7 @@ types:
     hp: 40.0
     id: 17494
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Small Armor Repairer
@@ -2202,6 +2286,7 @@ types:
     hp: 40.0
     id: 14850
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Large Armor Repairer
@@ -2229,6 +2314,7 @@ types:
     hp: 40.0
     id: 15162
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Large Armor Repairer
@@ -2256,6 +2342,7 @@ types:
     hp: 40.0
     id: 41502
     marketGroup: 1052
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Capital Armor Repairer
@@ -2281,6 +2368,7 @@ types:
     hp: 40.0
     id: 14067
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Large Armor Repairer
@@ -2308,6 +2396,7 @@ types:
     hp: 40.0
     id: 14068
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Medium Armor Repairer
@@ -2335,6 +2424,7 @@ types:
     hp: 40.0
     id: 14069
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Small Armor Repairer
@@ -2362,6 +2452,7 @@ types:
     hp: 40.0
     id: 4533
     marketGroup: 1049
+    mass: 500.0
     metalevelold: 1
     name: Small ACM Compact Armor Repairer
     overloadarmordamageamount: 10
@@ -2380,6 +2471,7 @@ types:
     volume: 5.0
   Small Abyssal Armor Repairer:
     id: 47769
+    mass: 1.0
     name: Small Abyssal Armor Repairer
     packagedVolume: 5.0
     portionSize: 1
@@ -2401,6 +2493,7 @@ types:
     hp: 40.0
     id: 523
     marketGroup: 1049
+    mass: 500.0
     name: Small Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -2426,6 +2519,7 @@ types:
     hp: 40.0
     id: 1183
     marketGroup: 1049
+    mass: 500.0
     metalevelold: 5
     name: Small Armor Repairer II
     overloadarmordamageamount: 10
@@ -2452,6 +2546,7 @@ types:
     hp: 40.0
     id: 4529
     marketGroup: 1049
+    mass: 500.0
     metalevelold: 1
     name: Small I-a Enduring Armor Repairer
     overloadarmordamageamount: 10
@@ -2478,6 +2573,7 @@ types:
     hp: 40.0
     id: 14849
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Large Armor Repairer
@@ -2505,6 +2601,7 @@ types:
     hp: 40.0
     id: 13956
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Large Armor Repairer
@@ -2532,6 +2629,7 @@ types:
     hp: 40.0
     id: 13959
     marketGroup: 1050
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Medium Armor Repairer
@@ -2559,6 +2657,7 @@ types:
     hp: 40.0
     id: 13963
     marketGroup: 1049
+    mass: 500.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Small Armor Repairer
@@ -2586,6 +2685,7 @@ types:
     hp: 40.0
     id: 15161
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Large Armor Repairer
@@ -2613,6 +2713,7 @@ types:
     hp: 40.0
     id: 14852
     marketGroup: 1051
+    mass: 500.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Large Armor Repairer

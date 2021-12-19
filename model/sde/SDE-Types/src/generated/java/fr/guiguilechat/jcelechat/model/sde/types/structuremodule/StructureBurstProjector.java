@@ -54,7 +54,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelayBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsPointTargeted;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
@@ -365,13 +364,6 @@ public class StructureBurstProjector
     @DefaultIntValue(0)
     public int ispointtargeted;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
@@ -517,7 +509,7 @@ public class StructureBurstProjector
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double trackingspeedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SpeedFactor.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, CanFitShipType8 .INSTANCE, ScanResolutionBonus.INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, DurationTargetWarpableBeacon.INSTANCE, CanFitShipType11 .INSTANCE, Duration.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ExplosionDelayBonus.INSTANCE, DoomsdayWarningDuration.INSTANCE, RemoteResistanceID.INSTANCE, IsPointTargeted.INSTANCE, DurationWeaponDisruptionBurstProjector.INSTANCE, FalloffBonus.INSTANCE, DurationECMJammerBurstProjector.INSTANCE, MaxRangeBonus.INSTANCE, DurationSensorDampeningBurstProjector.INSTANCE, DurationTargetIlluminationBurstProjector.INSTANCE, EnergyNeutralizerAmount.INSTANCE, DoomsdayAOERange.INSTANCE, DoomsdayAOEDuration.INSTANCE, DoomsdayAOESignatureRadius.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, MaxTypeFitted.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SpeedFactor.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, CanFitShipType8 .INSTANCE, ScanResolutionBonus.INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, DurationTargetWarpableBeacon.INSTANCE, CanFitShipType11 .INSTANCE, Duration.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ExplosionDelayBonus.INSTANCE, DoomsdayWarningDuration.INSTANCE, RemoteResistanceID.INSTANCE, IsPointTargeted.INSTANCE, DurationWeaponDisruptionBurstProjector.INSTANCE, FalloffBonus.INSTANCE, DurationECMJammerBurstProjector.INSTANCE, MaxRangeBonus.INSTANCE, DurationSensorDampeningBurstProjector.INSTANCE, DurationTargetIlluminationBurstProjector.INSTANCE, EnergyNeutralizerAmount.INSTANCE, DoomsdayAOERange.INSTANCE, DoomsdayAOEDuration.INSTANCE, DoomsdayAOESignatureRadius.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, MaxTypeFitted.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final StructureBurstProjector.MetaGroup METAGROUP = new StructureBurstProjector.MetaGroup();
 
     @Override
@@ -682,10 +674,6 @@ public class StructureBurstProjector
             case  2269 :
             {
                 return ispointtargeted;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  54 :
             {

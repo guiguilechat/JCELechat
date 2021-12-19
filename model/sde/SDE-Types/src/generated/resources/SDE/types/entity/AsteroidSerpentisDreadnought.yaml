@@ -52,6 +52,7 @@ types:
     id: 37468
     iscapitalsize: 1
     kineticdamage: 65.0
+    mass: 1.292499968E9
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 100000.0
@@ -139,6 +140,7 @@ types:
     id: 41400
     iscapitalsize: 1
     kineticdamage: 65.0
+    mass: 1.292499968E9
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 100000.0

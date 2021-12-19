@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HardeningBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MassPenaltyReduction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -117,7 +116,7 @@ public class Armor
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill3level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MassPenaltyReduction.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, ArmorHpBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, DurationSkillBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, CapNeedBonus.INSTANCE, HardeningBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MassPenaltyReduction.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, ArmorHpBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, DurationSkillBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, CapNeedBonus.INSTANCE, HardeningBonus.INSTANCE })));
     public static final Armor.MetaGroup METAGROUP = new Armor.MetaGroup();
 
     @Override

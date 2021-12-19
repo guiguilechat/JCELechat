@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
@@ -122,7 +121,7 @@ public class RigHybridWeapon
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, SpeedMultiplier.INSTANCE, Drawback.INSTANCE, MaxRangeMultiplier.INSTANCE, TrackingSpeedMultiplier.INSTANCE, CpuNeedBonus.INSTANCE, MetaLevelOld.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, UpgradeCost.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, SpeedMultiplier.INSTANCE, Drawback.INSTANCE, MaxRangeMultiplier.INSTANCE, TrackingSpeedMultiplier.INSTANCE, CpuNeedBonus.INSTANCE, MetaLevelOld.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final RigHybridWeapon.MetaGroup METAGROUP = new RigHybridWeapon.MetaGroup();
 
     @Override

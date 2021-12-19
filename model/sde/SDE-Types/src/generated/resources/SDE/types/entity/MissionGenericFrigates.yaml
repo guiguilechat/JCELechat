@@ -54,6 +54,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16583
     kineticdamage: 7.0
+    mass: 2040000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -161,6 +162,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 15412
     kineticdamage: 5.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -265,6 +267,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 3960
     kineticdamage: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -370,6 +373,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 11672
     kineticdamage: 2.0
+    mass: 1910000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -472,6 +476,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 34182
+    mass: 1480000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 100
@@ -567,6 +572,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 34154
+    mass: 1420000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 100
@@ -670,6 +676,7 @@ types:
     hullkineticdamageresonance: 0.4000000059604645
     hullthermaldamageresonance: 0.4000000059604645
     id: 34144
+    mass: 1203000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -778,6 +785,7 @@ types:
     hullthermaldamageresonance: 0.4000000059604645
     id: 34143
     kineticdamage: 8.399999618530273
+    mass: 823000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -887,6 +895,7 @@ types:
     hullthermaldamageresonance: 0.4000000059604645
     id: 34141
     kineticdamage: 2.4000000953674316
+    mass: 750000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -991,6 +1000,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 34187
     kineticdamage: 7.699999809265137
+    mass: 1171000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -1100,6 +1110,7 @@ types:
     hullthermaldamageresonance: 0.4000000059604645
     id: 35689
     kineticdamage: 2.4000000953674316
+    mass: 750000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -1204,6 +1215,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 34183
+    mass: 1217000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -1303,6 +1315,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 34184
+    mass: 1630000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 100
@@ -1404,6 +1417,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 34155
     kineticdamage: 3.299999952316284
+    mass: 1366000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -1506,6 +1520,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 34186
+    mass: 1450000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 100
@@ -1613,6 +1628,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 35646
     kineticdamage: 5.0
+    mass: 2860000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -1721,6 +1737,7 @@ types:
     hullkineticdamageresonance: 0.4000000059604645
     hullthermaldamageresonance: 0.4000000059604645
     id: 34145
+    mass: 965000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -1826,6 +1843,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 34185
+    mass: 1163000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -1927,6 +1945,7 @@ types:
     hullkineticdamageresonance: 0.4000000059604645
     hullthermaldamageresonance: 0.4000000059604645
     id: 34142
+    mass: 1480000.0
     maxattacktargets: 6
     maxdirectionalvelocity: 1
     maxlockedtargets: 6
@@ -2024,6 +2043,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 20324
+    mass: 1300000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -2121,6 +2141,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16870
     kineticdamage: 3.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -2226,6 +2247,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16192
     kineticdamage: 3.0
+    mass: 1000000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -2328,6 +2350,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 3959
     kineticdamage: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -2430,6 +2453,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 15354
     kineticdamage: 1.0
+    mass: 2600500.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -2531,6 +2555,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 24759
     kineticdamage: 3.0
+    mass: 1400000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -2634,6 +2659,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 13914
+    mass: 2810000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -2741,6 +2767,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 13895
+    mass: 2860000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -2832,6 +2859,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 13772
+    mass: 32000.0
     maxdirectionalvelocity: 1
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
@@ -2923,6 +2951,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11685
+    mass: 1970000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -3024,6 +3053,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16091
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -3127,6 +3157,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16088
     kineticdamage: 3.0
+    mass: 2025000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -3231,6 +3262,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16087
     kineticdamage: 2.0
+    mass: 1612000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -3337,6 +3369,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16089
     kineticdamage: 4.0
+    mass: 2040000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -3443,6 +3476,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16092
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -3553,6 +3587,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16090
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -3654,6 +3689,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16208
     kineticdamage: 5.0
+    mass: 2250000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -3757,6 +3793,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16619
     kineticdamage: 5.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -3865,6 +3902,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16557
     kineticdamage: 2.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -3966,6 +4004,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 24718
     kineticdamage: 2.0
+    mass: 1300000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -4070,6 +4109,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16607
     kineticdamage: 2.0
+    mass: 1740000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -4180,6 +4220,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 17625
     kineticdamage: 5.0
+    mass: 1970000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -4289,6 +4330,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16586
     kineticdamage: 5.0
+    mass: 1970000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -4399,6 +4441,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16195
     kineticdamage: 5.0
+    mass: 1600000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -4507,6 +4550,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 16701
+    mass: 2860000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -4614,6 +4658,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 16570
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -4726,6 +4771,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 17622
     kineticdamage: 8.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -4838,6 +4884,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16558
     kineticdamage: 2.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -4945,6 +4992,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16191
     kineticdamage: 3.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -5050,6 +5098,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 13917
     kineticdamage: 4.0
+    mass: 2040000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -5156,6 +5205,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 13904
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -5247,6 +5297,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 14294
+    mass: 32000.0
     maxdirectionalvelocity: 1
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
@@ -5339,6 +5390,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 11598
     kineticdamage: 4.0
+    mass: 1766000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -5442,6 +5494,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 11652
     kineticdamage: 6.0
+    mass: 2810000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -5541,6 +5594,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11656
+    mass: 1970000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -5643,6 +5697,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16582
     kineticdamage: 7.0
+    mass: 2650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -5756,6 +5811,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 17846
     kineticdamage: 7.0
+    mass: 2650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -5864,6 +5920,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16193
     kineticdamage: 3.0
+    mass: 1000000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -5970,6 +6027,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 29927
+    mass: 2860000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -6075,6 +6133,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 29921
     kineticdamage: 4.0
+    mass: 2650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -6178,6 +6237,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 29915
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -6283,6 +6343,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 29924
+    mass: 2112000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -6391,6 +6452,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 29904
     kineticdamage: 2.0
+    mass: 1645000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -6495,6 +6557,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 29920
     kineticdamage: 4.0
+    mass: 2650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -6598,6 +6661,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 29914
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -6706,6 +6770,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 29909
     kineticdamage: 2.0
+    mass: 1645000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -6811,6 +6876,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16608
     kineticdamage: 2.0
+    mass: 1645000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -6919,6 +6985,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 13915
     kineticdamage: 6.0
+    mass: 1750000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -7025,6 +7092,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 13898
+    mass: 2112000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -7128,6 +7196,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 13163
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -7223,6 +7292,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11673
+    mass: 1970000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -7322,6 +7392,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 11679
     kineticdamage: 3.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -7431,6 +7502,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16010
     kineticdamage: 2.0
+    mass: 1645000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -7541,6 +7613,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16628
     kineticdamage: 2.0
+    mass: 1645000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -7651,6 +7724,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16627
     kineticdamage: 2.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -7761,6 +7835,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 16700
+    mass: 2810000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -7868,6 +7943,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 13916
     kineticdamage: 6.0
+    mass: 2950000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -7975,6 +8051,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 13901
     kineticdamage: 7.0
+    mass: 2650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -8076,6 +8153,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 16576
+    mass: 2870000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -8161,6 +8239,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 27287
+    mass: 32000.0
     maxdirectionalvelocity: 1
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
@@ -8247,6 +8326,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11600
+    mass: 100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 3
@@ -8348,6 +8428,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 3921
     kineticdamage: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -8445,6 +8526,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 16571
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -8544,6 +8626,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16190
     kineticdamage: 3.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -8650,6 +8733,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 17917
     kineticdamage: 2.0
+    mass: 1740000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -8753,6 +8837,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 3961
     kineticdamage: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -8852,6 +8937,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11684
+    mass: 1970000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -8953,6 +9039,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 24757
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -9057,6 +9144,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 29019
+    mass: 2025000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 1
@@ -9160,6 +9248,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16197
     kineticdamage: 2.0
+    mass: 1450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -9265,6 +9354,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11596
+    mass: 2810000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -9371,6 +9461,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 18575
     kineticdamage: 2.0
+    mass: 1910000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -9479,6 +9570,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 18576
     kineticdamage: 10.0
+    mass: 1910000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -9587,6 +9679,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 18574
     kineticdamage: 2.0
+    mass: 1740000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -9694,6 +9787,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 11705
     kineticdamage: 2.0
+    mass: 1645000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -9796,6 +9890,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11651
+    mass: 2870000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -9893,6 +9988,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11681
+    mass: 1970000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -9993,6 +10089,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 11683
     kineticdamage: 2.0
+    mass: 1645000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -10098,6 +10195,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16288
     kineticdamage: 2.0
+    mass: 1000000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -10188,6 +10286,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 16287
+    mass: 32000.0
     maxdirectionalvelocity: 1
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
@@ -10287,6 +10386,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 16702
+    mass: 2860000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -10394,6 +10494,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 11594
     kineticdamage: 3.0
+    mass: 2250000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -10497,6 +10598,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 11593
     kineticdamage: 2.0
+    mass: 1645000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -10601,6 +10703,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 16577
+    mass: 2870000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -10697,6 +10800,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 40574
+    mass: 1600000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -10797,6 +10901,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16587
     kineticdamage: 5.0
+    mass: 1680000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -10906,6 +11011,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16579
     kineticdamage: 2.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11014,6 +11120,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16699
     kineticdamage: 2.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11124,6 +11231,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17742
+    mass: 2860000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -11233,6 +11341,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16554
     kineticdamage: 7.0
+    mass: 1265000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11338,6 +11447,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16618
     kineticdamage: 3.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11443,6 +11553,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16698
     kineticdamage: 3.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11548,6 +11659,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16553
     kineticdamage: 7.0
+    mass: 1265000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11656,6 +11768,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16610
     kineticdamage: 3.0
+    mass: 1766000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11763,6 +11876,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16196
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11870,6 +11984,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 15392
     kineticdamage: 5.0
+    mass: 1680000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2
@@ -11978,6 +12093,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 16578
     kineticdamage: 2.0
+    mass: 1200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 2

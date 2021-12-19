@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentDescriptionMessageID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LightYearDistanceMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LocationListID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjdShipJumpCap;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjfgRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -48,13 +47,6 @@ public class TriglavianSpaceFilaments
     @DefaultIntValue(0)
     public int locationlistid;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * The maximum number of ships that can be jumped per activation
      */
     @HighIsGood(true)
@@ -75,7 +67,7 @@ public class TriglavianSpaceFilaments
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MjdShipJumpCap.INSTANCE, Radius.INSTANCE, FilamentDescriptionMessageID.INSTANCE, MjfgRadius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, LocationListID.INSTANCE, LightYearDistanceMax.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MjdShipJumpCap.INSTANCE, Radius.INSTANCE, FilamentDescriptionMessageID.INSTANCE, MjfgRadius.INSTANCE, Capacity.INSTANCE, LocationListID.INSTANCE, LightYearDistanceMax.INSTANCE })));
     public static final TriglavianSpaceFilaments.MetaGroup METAGROUP = new TriglavianSpaceFilaments.MetaGroup();
 
     @Override
@@ -96,10 +88,6 @@ public class TriglavianSpaceFilaments
             case  3096 :
             {
                 return locationlistid;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  2832 :
             {

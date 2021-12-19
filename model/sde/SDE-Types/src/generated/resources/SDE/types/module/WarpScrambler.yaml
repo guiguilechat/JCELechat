@@ -58,6 +58,7 @@ types:
   Abyssal Warp Disruptor:
     falloff: 1.0
     id: 47736
+    mass: 1.0
     name: Abyssal Warp Disruptor
     packagedVolume: 5.0
     portionSize: 1
@@ -70,6 +71,7 @@ types:
   Abyssal Warp Scrambler:
     falloff: 1.0
     id: 47732
+    mass: 1.0
     name: Abyssal Warp Scrambler
     packagedVolume: 5.0
     portionSize: 1
@@ -604,6 +606,7 @@ types:
   Heavy Abyssal Warp Disruptor:
     falloff: 1.0
     id: 56304
+    mass: 1.0
     name: Heavy Abyssal Warp Disruptor
     packagedVolume: 100.0
     portionSize: 1
@@ -616,6 +619,7 @@ types:
   Heavy Abyssal Warp Scrambler:
     falloff: 1.0
     id: 56303
+    mass: 1.0
     name: Heavy Abyssal Warp Scrambler
     packagedVolume: 100.0
     portionSize: 1

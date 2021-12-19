@@ -16,6 +16,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 1012
+    mass: 1.0E8
     name: Cynosural System Jammer
     onliningdelay: 1800000
     packagedVolume: 4000.0

@@ -6,6 +6,7 @@ types:
     id: 45623
     lowslotmodifier: 3
     marketGroup: 1122
+    mass: 1200000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Legion Core - Augmented Antimatter Reactor
@@ -27,6 +28,7 @@ types:
     id: 45622
     lowslotmodifier: 2
     marketGroup: 1122
+    mass: 1200000.0
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
     metalevelold: 1
@@ -50,6 +52,7 @@ types:
     id: 45624
     lowslotmodifier: 2
     marketGroup: 1122
+    mass: 1200000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Legion Core - Energy Parasitic Complex
@@ -73,6 +76,7 @@ types:
     id: 45632
     lowslotmodifier: 3
     marketGroup: 1125
+    mass: 1200000.0
     medslotmodifier: 1
     metalevelold: 1
     name: Loki Core - Augmented Nuclear Reactor
@@ -94,6 +98,7 @@ types:
     id: 45631
     lowslotmodifier: 2
     marketGroup: 1125
+    mass: 1200000.0
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
     metalevelold: 1
@@ -116,6 +121,7 @@ types:
     id: 45633
     lowslotmodifier: 1
     marketGroup: 1125
+    mass: 1200000.0
     medslotmodifier: 3
     metalevelold: 1
     name: Loki Core - Immobility Drivers
@@ -138,6 +144,7 @@ types:
     id: 45629
     lowslotmodifier: 2
     marketGroup: 1124
+    mass: 1200000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Proteus Core - Augmented Fusion Reactor
@@ -160,6 +167,7 @@ types:
     id: 45628
     lowslotmodifier: 2
     marketGroup: 1124
+    mass: 1200000.0
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
     metalevelold: 1
@@ -181,6 +189,7 @@ types:
     id: 45630
     lowslotmodifier: 2
     marketGroup: 1124
+    mass: 1200000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Proteus Core - Friction Extension Processor
@@ -203,6 +212,7 @@ types:
     id: 45626
     lowslotmodifier: 2
     marketGroup: 1123
+    mass: 1200000.0
     medslotmodifier: 2
     metalevelold: 1
     name: Tengu Core - Augmented Graviton Reactor
@@ -225,6 +235,7 @@ types:
     id: 45625
     lowslotmodifier: 1
     marketGroup: 1123
+    mass: 1200000.0
     maxlockedtargetsbonus: 1
     medslotmodifier: 3
     metalevelold: 1
@@ -246,6 +257,7 @@ types:
     id: 45627
     lowslotmodifier: 1
     marketGroup: 1123
+    mass: 1200000.0
     medslotmodifier: 3
     metalevelold: 1
     name: Tengu Core - Obfuscation Manifold

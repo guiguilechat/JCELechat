@@ -15,6 +15,7 @@ types:
     kineticdamage: 18000.0
     launchergroup: 1327
     marketGroup: 2197
+    mass: 1000.0
     maxvelocity: 4000.0
     name: Standup Super-heavy Torpedo
     packagedVolume: 0.5
@@ -42,6 +43,7 @@ types:
     kineticdamage: 12000.0
     launchergroup: 1327
     marketGroup: 2197
+    mass: 1000.0
     maxvelocity: 6000.0
     name: Standup XL Cruise Missile
     packagedVolume: 0.5

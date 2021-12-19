@@ -6,6 +6,7 @@ types:
     id: 46496
     lowsecmodifier: 1.0
     marketGroup: 2342
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Reactor Efficiency I
     nullsecmodifier: 1.100000023841858
@@ -30,6 +31,7 @@ types:
     id: 46497
     lowsecmodifier: 1.0
     marketGroup: 2342
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Reactor Efficiency II
     nullsecmodifier: 1.100000023841858

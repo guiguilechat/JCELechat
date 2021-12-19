@@ -40,6 +40,7 @@ types:
     id: 61292
     iscapitalsize: 1
     kineticdamageresonance: 0.41999998688697815
+    mass: 1.237500032E9
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
@@ -118,6 +119,7 @@ types:
     id: 60943
     iscapitalsize: 1
     kineticdamageresonance: 1.0
+    mass: 1.237500032E9
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
@@ -196,6 +198,7 @@ types:
     id: 60942
     iscapitalsize: 1
     kineticdamageresonance: 1.0
+    mass: 1.237500032E9
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
@@ -272,6 +275,7 @@ types:
     hp: 187500.0
     id: 46654
     kineticdamageresonance: 0.4020000100135803
+    mass: 1.27E9
     maximumrangecap: 300000
     maxlockedtargets: 7
     maxtargetrange: 300000.0
@@ -346,6 +350,7 @@ types:
     id: 45474
     iscapitalsize: 1
     kineticdamageresonance: 0.6700000166893005
+    mass: 1.29E9
     maximumrangecap: 500000
     maxlockedtargets: 7
     maxrange: 311850.0

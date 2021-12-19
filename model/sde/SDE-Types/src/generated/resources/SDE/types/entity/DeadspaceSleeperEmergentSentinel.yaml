@@ -45,6 +45,7 @@ types:
     gfxturretid: 4044
     hp: 880.0
     id: 30216
+    mass: 1910000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0
@@ -101,6 +102,7 @@ types:
     entityreactionfactor: 1.0
     falloff: 1.0
     id: 41338
+    mass: 1910000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -168,6 +170,7 @@ types:
     gfxturretid: 4044
     hp: 1100.0
     id: 30215
+    mass: 1910000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0
@@ -256,6 +259,7 @@ types:
     gfxturretid: 4044
     hp: 660.0
     id: 30217
+    mass: 1910000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0

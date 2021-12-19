@@ -3,6 +3,7 @@ types:
     devindexsovereignty: 3
     id: 32422
     marketGroup: 1282
+    mass: 1000.0
     name: Advanced Logistics Network
     packagedVolume: 200000.0
     portionSize: 1
@@ -15,6 +16,7 @@ types:
     devindexsovereignty: 2
     id: 2008
     marketGroup: 1282
+    mass: 1000.0
     name: Cynosural Navigation
     packagedVolume: 200000.0
     portionSize: 1
@@ -27,6 +29,7 @@ types:
     devindexsovereignty: 3
     id: 2001
     marketGroup: 1282
+    mass: 1000.0
     name: Cynosural Suppression
     packagedVolume: 200000.0
     portionSize: 1
@@ -39,6 +42,7 @@ types:
     devindexsovereignty: 1
     id: 2009
     marketGroup: 1282
+    mass: 1000.0
     name: Supercapital Construction Facilities
     packagedVolume: 200000.0
     portionSize: 1

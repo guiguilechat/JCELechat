@@ -5,6 +5,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28618
     ignoreminingwaste: 1
+    mass: 1.0000000409184788E35
     name: Augumene
     orebasictype: 1224
     packagedVolume: 0.30000001192092896
@@ -24,6 +25,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46702
     marketGroup: 515
+    mass: 1.0
     name: Compressed Opulent Pyroxeres
     orebasictype: 46686
     packagedVolume: 0.1599999964237213
@@ -43,6 +45,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28424
     marketGroup: 515
+    mass: 1.0000000409184788E35
     name: Compressed Pyroxeres
     orebasictype: 1224
     packagedVolume: 0.1599999964237213
@@ -62,6 +65,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28425
     marketGroup: 515
+    mass: 1.0000000409184788E35
     name: Compressed Solid Pyroxeres
     orebasictype: 1224
     packagedVolume: 0.1599999964237213
@@ -81,6 +85,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28426
     marketGroup: 515
+    mass: 1.0000000409184788E35
     name: Compressed Viscous Pyroxeres
     orebasictype: 1224
     packagedVolume: 0.1599999964237213
@@ -102,6 +107,7 @@ types:
     compressiontypeid: 46702
     id: 46686
     marketGroup: 515
+    mass: 1.0000000409184788E35
     name: Opulent Pyroxeres
     orebasictype: 46686
     packagedVolume: 0.30000001192092896
@@ -123,6 +129,7 @@ types:
     compressiontypeid: 28424
     id: 1224
     marketGroup: 515
+    mass: 1.0000000409184788E35
     name: Pyroxeres
     orebasictype: 1224
     packagedVolume: 0.30000001192092896
@@ -144,6 +151,7 @@ types:
     compressiontypeid: 28425
     id: 17459
     marketGroup: 515
+    mass: 1.0000000409184788E35
     name: Solid Pyroxeres
     orebasictype: 1224
     packagedVolume: 0.30000001192092896
@@ -165,6 +173,7 @@ types:
     compressiontypeid: 28426
     id: 17460
     marketGroup: 515
+    mass: 1.0000000409184788E35
     name: Viscous Pyroxeres
     orebasictype: 1224
     packagedVolume: 0.30000001192092896

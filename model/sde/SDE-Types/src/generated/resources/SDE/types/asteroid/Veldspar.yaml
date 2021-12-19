@@ -5,6 +5,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28617
     ignoreminingwaste: 1
+    mass: 4000.0
     name: Banidine
     orebasictype: 1230
     packagedVolume: 0.10000000149011612
@@ -24,6 +25,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28430
     marketGroup: 518
+    mass: 4000.0
     name: Compressed Concentrated Veldspar
     orebasictype: 1230
     packagedVolume: 0.15000000596046448
@@ -43,6 +45,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28431
     marketGroup: 518
+    mass: 4000.0
     name: Compressed Dense Veldspar
     orebasictype: 1230
     packagedVolume: 0.15000000596046448
@@ -62,6 +65,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46705
     marketGroup: 518
+    mass: 4000.0
     name: Compressed Stable Veldspar
     orebasictype: 46689
     packagedVolume: 0.15000000596046448
@@ -81,6 +85,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28432
     marketGroup: 518
+    mass: 4000.0
     name: Compressed Veldspar
     orebasictype: 1230
     packagedVolume: 0.15000000596046448
@@ -102,6 +107,7 @@ types:
     compressiontypeid: 28430
     id: 17470
     marketGroup: 518
+    mass: 4000.0
     name: Concentrated Veldspar
     orebasictype: 1230
     packagedVolume: 0.10000000149011612
@@ -123,6 +129,7 @@ types:
     compressiontypeid: 28431
     id: 17471
     marketGroup: 518
+    mass: 4000.0
     name: Dense Veldspar
     orebasictype: 1230
     packagedVolume: 0.10000000149011612
@@ -144,6 +151,7 @@ types:
     compressiontypeid: 46705
     id: 46689
     marketGroup: 518
+    mass: 4000.0
     name: Stable Veldspar
     orebasictype: 46689
     packagedVolume: 0.10000000149011612
@@ -165,6 +173,7 @@ types:
     compressiontypeid: 28432
     id: 1230
     marketGroup: 518
+    mass: 4000.0
     name: Veldspar
     orebasictype: 1230
     packagedVolume: 0.10000000149011612

@@ -20,6 +20,7 @@ types:
     id: 35840
     kineticdamageresonance: 0.800000011920929
     marketGroup: 2511
+    mass: 3.0E9
     maximumrangecap: 300000
     name: Pharolux Cyno Beacon
     packagedVolume: 4000.0

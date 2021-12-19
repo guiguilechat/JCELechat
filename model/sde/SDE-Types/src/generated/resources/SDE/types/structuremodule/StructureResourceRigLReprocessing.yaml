@@ -8,6 +8,7 @@ types:
     id: 46639
     lowsecmodifier: 1.059999942779541
     marketGroup: 2342
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Reprocessing Monitor I
     nullsecmodifier: 1.1200000047683716
@@ -33,6 +34,7 @@ types:
     id: 46640
     lowsecmodifier: 1.059999942779541
     marketGroup: 2342
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Reprocessing Monitor II
     nullsecmodifier: 1.1200000047683716

@@ -14,6 +14,7 @@ types:
     hp: 99999.0
     id: 43658
     marketGroup: 2267
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 2.0E7
@@ -51,6 +52,7 @@ types:
     hp: 99999.0
     id: 43660
     marketGroup: 2268
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 2.0E7
@@ -89,6 +91,7 @@ types:
     hp: 99999.0
     id: 43662
     marketGroup: 2269
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 2.0E7
@@ -127,6 +130,7 @@ types:
     hp: 99999.0
     id: 43664
     marketGroup: 2270
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 2.0E7

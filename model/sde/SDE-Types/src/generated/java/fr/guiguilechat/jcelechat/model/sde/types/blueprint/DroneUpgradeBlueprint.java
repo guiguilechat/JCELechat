@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -40,13 +39,6 @@ public class DroneUpgradeBlueprint
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double industryblueprintrank;
-    /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -77,7 +69,7 @@ public class DroneUpgradeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MetaGroupID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MetaGroupID.INSTANCE })));
     public static final DroneUpgradeBlueprint.MetaGroup METAGROUP = new DroneUpgradeBlueprint.MetaGroup();
 
     @Override
@@ -90,10 +82,6 @@ public class DroneUpgradeBlueprint
             case  1955 :
             {
                 return industryblueprintrank;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  1692 :
             {

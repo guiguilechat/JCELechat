@@ -6,6 +6,7 @@ types:
     iceharvestcyclebonus: -9.0
     id: 22621
     marketGroup: 935
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Anguis'' Ice Harvester Upgrade'
@@ -25,6 +26,7 @@ types:
     hp: 40.0
     id: 22615
     marketGroup: 935
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     miningamountbonus: 10
@@ -45,6 +47,7 @@ types:
     hp: 40.0
     id: 22613
     marketGroup: 935
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     miningamountbonus: 9
@@ -66,6 +69,7 @@ types:
     iceharvestcyclebonus: -10.0
     id: 22623
     marketGroup: 935
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Ingenii'' Ice Harvester Upgrade'
@@ -85,6 +89,7 @@ types:
     hp: 40.0
     id: 22611
     marketGroup: 935
+    mass: 1.0
     metalevelold: 1
     miningamountbonus: 8
     name: Elara Restrained Mining Laser Upgrade
@@ -105,6 +110,7 @@ types:
     iceharvestcyclebonus: -8.0
     id: 22619
     marketGroup: 935
+    mass: 1.0
     metalevelold: 1
     name: Frigoris Restrained Ice Harvester Upgrade
     packagedVolume: 5.0
@@ -124,6 +130,7 @@ types:
     iceharvestcyclebonus: -8.0
     id: 49792
     marketGroup: 935
+    mass: 1.0
     miningamountbonus: 7
     name: Frostline 'Omnivore' Harvester Upgrade
     packagedVolume: 5.0
@@ -144,6 +151,7 @@ types:
     iceharvestcyclebonus: -5.0
     id: 22576
     marketGroup: 935
+    mass: 1.0
     name: Ice Harvester Upgrade I
     packagedVolume: 5.0
     portionSize: 1
@@ -162,6 +170,7 @@ types:
     iceharvestcyclebonus: -9.0
     id: 28578
     marketGroup: 935
+    mass: 1.0
     metalevelold: 5
     name: Ice Harvester Upgrade II
     packagedVolume: 5.0
@@ -180,6 +189,7 @@ types:
     hp: 40.0
     id: 22542
     marketGroup: 935
+    mass: 1.0
     miningamountbonus: 5
     name: Mining Laser Upgrade I
     packagedVolume: 5.0
@@ -198,6 +208,7 @@ types:
     hp: 40.0
     id: 28576
     marketGroup: 935
+    mass: 1.0
     metalevelold: 5
     miningamountbonus: 9
     name: Mining Laser Upgrade II

@@ -24,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SovUpgradeRequiredUpgradeID;
 import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
@@ -110,7 +109,7 @@ public class IndustrialUpgrades
     @Stackable(true)
     @DefaultIntValue(0)
     public int sovupgraderequiredupgradeid;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, DistributionIDSansha01 .INSTANCE, DistributionIDBlood01 .INSTANCE, DevIndexIndustrial.INSTANCE, DistributionIDSerpentis01 .INSTANCE, DistributionIDGurista01 .INSTANCE, DistributionID01 .INSTANCE, DistributionID02 .INSTANCE, DistributionIDRogueDrone01 .INSTANCE, DistributionID03 .INSTANCE, DistributionIDAngel01 .INSTANCE, SovUpgradeRequiredUpgradeID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, DistributionIDSansha01 .INSTANCE, DistributionIDBlood01 .INSTANCE, DevIndexIndustrial.INSTANCE, DistributionIDSerpentis01 .INSTANCE, DistributionIDGurista01 .INSTANCE, DistributionID01 .INSTANCE, DistributionID02 .INSTANCE, DistributionIDRogueDrone01 .INSTANCE, DistributionID03 .INSTANCE, DistributionIDAngel01 .INSTANCE, SovUpgradeRequiredUpgradeID.INSTANCE })));
     public static final IndustrialUpgrades.MetaGroup METAGROUP = new IndustrialUpgrades.MetaGroup();
 
     @Override

@@ -47,6 +47,7 @@ types:
     hp: 4250.0
     id: 42139
     kineticdamage: 12.0
+    mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4000.0

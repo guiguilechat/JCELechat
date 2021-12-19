@@ -2,6 +2,7 @@ types:
   10000MN Abyssal Afterburner:
     capacitorcapacitymultiplier: 1.0
     id: 56305
+    mass: 1000.0
     name: 10000MN Abyssal Afterburner
     packagedVolume: 4000.0
     portionSize: 1
@@ -28,6 +29,7 @@ types:
     hp: 40.0
     id: 41236
     marketGroup: 542
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     name: 10000MN Afterburner I
@@ -61,6 +63,7 @@ types:
     hp: 40.0
     id: 41239
     marketGroup: 542
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metalevelold: 5
@@ -95,6 +98,7 @@ types:
     hp: 40.0
     id: 41238
     marketGroup: 542
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metalevelold: 1
@@ -129,6 +133,7 @@ types:
     hp: 40.0
     id: 41237
     marketGroup: 542
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metalevelold: 1
@@ -150,6 +155,7 @@ types:
   100MN Abyssal Afterburner:
     capacitorcapacitymultiplier: 1.0
     id: 47757
+    mass: 1.0
     name: 100MN Abyssal Afterburner
     packagedVolume: 5.0
     portionSize: 1
@@ -303,6 +309,7 @@ types:
   10MN Abyssal Afterburner:
     capacitorcapacitymultiplier: 1.0
     id: 47753
+    mass: 1.0
     name: 10MN Abyssal Afterburner
     packagedVolume: 5.0
     portionSize: 1
@@ -456,6 +463,7 @@ types:
   1MN Abyssal Afterburner:
     capacitorcapacitymultiplier: 1.0
     id: 47749
+    mass: 1.0
     name: 1MN Abyssal Afterburner
     packagedVolume: 5.0
     portionSize: 1
@@ -633,6 +641,7 @@ types:
   50000MN Abyssal Microwarpdrive:
     capacitorcapacitymultiplier: 1.0
     id: 56306
+    mass: 1000.0
     name: 50000MN Abyssal Microwarpdrive
     packagedVolume: 4000.0
     portionSize: 1
@@ -660,6 +669,7 @@ types:
     hp: 40.0
     id: 41252
     marketGroup: 131
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metalevelold: 1
@@ -696,6 +706,7 @@ types:
     hp: 40.0
     id: 41249
     marketGroup: 131
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     name: 50000MN Microwarpdrive I
@@ -731,6 +742,7 @@ types:
     hp: 40.0
     id: 41253
     marketGroup: 131
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metalevelold: 5
@@ -766,6 +778,7 @@ types:
     hp: 40.0
     id: 41251
     marketGroup: 131
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metalevelold: 1
@@ -802,6 +815,7 @@ types:
     hp: 40.0
     id: 41250
     marketGroup: 131
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metalevelold: 1
@@ -824,6 +838,7 @@ types:
   500MN Abyssal Microwarpdrive:
     capacitorcapacitymultiplier: 1.0
     id: 47745
+    mass: 1.0
     name: 500MN Abyssal Microwarpdrive
     packagedVolume: 10.0
     portionSize: 1
@@ -1017,6 +1032,7 @@ types:
   50MN Abyssal Microwarpdrive:
     capacitorcapacitymultiplier: 1.0
     id: 47408
+    mass: 1.0
     name: 50MN Abyssal Microwarpdrive
     packagedVolume: 10.0
     portionSize: 1
@@ -1210,6 +1226,7 @@ types:
   5MN Abyssal Microwarpdrive:
     capacitorcapacitymultiplier: 1.0
     id: 47740
+    mass: 1.0
     name: 5MN Abyssal Microwarpdrive
     packagedVolume: 10.0
     portionSize: 1
@@ -2136,6 +2153,7 @@ types:
     hp: 40.0
     id: 41240
     marketGroup: 542
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metagroupid: 4
@@ -2259,6 +2277,7 @@ types:
     hp: 40.0
     id: 41254
     marketGroup: 131
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metagroupid: 4
@@ -3588,6 +3607,7 @@ types:
     hp: 40.0
     id: 41241
     marketGroup: 542
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metagroupid: 4
@@ -3711,6 +3731,7 @@ types:
     hp: 40.0
     id: 41255
     marketGroup: 131
+    mass: 1000.0
     massaddition: 500000000
     maxgroupactive: 1
     metagroupid: 4

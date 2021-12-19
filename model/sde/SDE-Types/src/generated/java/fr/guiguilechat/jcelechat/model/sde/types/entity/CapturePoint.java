@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
@@ -81,13 +80,6 @@ public class CapturePoint
     @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -108,7 +100,7 @@ public class CapturePoint
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EmDamageResonance.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, DisallowAssistance.INSTANCE, Hp.INSTANCE, CaptureProximityRange.INSTANCE, StructureUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EmDamageResonance.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, DisallowAssistance.INSTANCE, Hp.INSTANCE, CaptureProximityRange.INSTANCE, StructureUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE })));
     public static final CapturePoint.MetaGroup METAGROUP = new CapturePoint.MetaGroup();
 
     @Override
@@ -141,10 +133,6 @@ public class CapturePoint
             case  109 :
             {
                 return kineticdamageresonance;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

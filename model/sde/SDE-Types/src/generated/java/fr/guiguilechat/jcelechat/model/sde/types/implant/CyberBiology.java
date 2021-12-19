@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterChanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -65,7 +64,7 @@ public class CyberBiology
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, BoosterChanceBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, BoosterAttributeModifier.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, BoosterChanceBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, BoosterAttributeModifier.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE })));
     public static final CyberBiology.MetaGroup METAGROUP = new CyberBiology.MetaGroup();
 
     @Override

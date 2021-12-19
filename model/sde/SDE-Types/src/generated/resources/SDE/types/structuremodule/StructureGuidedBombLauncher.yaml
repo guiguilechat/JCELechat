@@ -12,6 +12,7 @@ types:
     hp: 40.0
     id: 35923
     marketGroup: 2229
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Standup Guided Bomb Launcher I
@@ -40,6 +41,7 @@ types:
     hp: 40.0
     id: 47325
     marketGroup: 2229
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 5

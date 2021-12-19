@@ -15,6 +15,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 509
     marketGroup: 927
+    mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Inferno Fury Light Missile
@@ -50,6 +51,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 509
     marketGroup: 917
+    mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Inferno Precision Light Missile
@@ -86,6 +88,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 509
     marketGroup: 927
+    mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Mjolnir Fury Light Missile
@@ -121,6 +124,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 509
     marketGroup: 917
+    mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Mjolnir Precision Light Missile
@@ -156,6 +160,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 509
     marketGroup: 927
+    mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Nova Fury Light Missile
@@ -191,6 +196,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 509
     marketGroup: 917
+    mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Nova Precision Light Missile
@@ -226,6 +232,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 509
     marketGroup: 927
+    mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Scourge Fury Light Missile
@@ -261,6 +268,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 509
     marketGroup: 917
+    mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Scourge Precision Light Missile

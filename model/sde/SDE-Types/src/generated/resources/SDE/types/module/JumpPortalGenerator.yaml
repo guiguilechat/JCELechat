@@ -16,6 +16,7 @@ types:
     jumpportalconsumptionmassfactor: 1.500000013088254E-9
     jumpportalduration: 60000
     marketGroup: 1640
+    mass: 1.0
     maxgroupactive: 1
     name: Jump Portal Generator I
     packagedVolume: 10000.0

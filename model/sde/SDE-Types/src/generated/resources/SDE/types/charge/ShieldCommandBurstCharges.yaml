@@ -3,6 +3,7 @@ types:
     id: 42694
     launchergroup: 316
     marketGroup: 2301
+    mass: 0.009999999776482582
     name: Active Shielding Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
@@ -20,6 +21,7 @@ types:
     id: 42696
     launchergroup: 1770
     marketGroup: 2301
+    mass: 0.009999999776482582
     name: Shield Extension Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
@@ -37,6 +39,7 @@ types:
     id: 42695
     launchergroup: 316
     marketGroup: 2301
+    mass: 0.009999999776482582
     name: Shield Harmonizing Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500

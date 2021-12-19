@@ -7,6 +7,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 10.0
     name: Cap Booster 100
     packagedVolume: 4.0
     portionSize: 10
@@ -22,6 +23,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 1.0
     name: Cap Booster 150
     packagedVolume: 6.0
     portionSize: 10
@@ -37,6 +39,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 1.0
     name: Cap Booster 200
     packagedVolume: 8.0
     portionSize: 10
@@ -51,6 +54,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 2.5
     name: Cap Booster 25
     packagedVolume: 1.0
     portionSize: 10
@@ -66,6 +70,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 80.0
     name: Cap Booster 3200
     packagedVolume: 128.0
     portionSize: 10
@@ -82,6 +87,7 @@ types:
     launchergroup2: 1156
     launchergroup3: 2013
     marketGroup: 139
+    mass: 40.0
     name: Cap Booster 400
     packagedVolume: 16.0
     portionSize: 10
@@ -97,6 +103,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 5.0
     name: Cap Booster 50
     packagedVolume: 2.0
     portionSize: 10
@@ -112,6 +119,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 7.5
     name: Cap Booster 75
     packagedVolume: 3.0
     portionSize: 10
@@ -127,6 +135,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 80.0
     name: Cap Booster 800
     packagedVolume: 32.0
     portionSize: 10
@@ -142,6 +151,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 10.0
     metagroupid: 4
     name: Navy Cap Booster 100
     packagedVolume: 3.0
@@ -158,6 +168,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 1.0
     metagroupid: 4
     name: Navy Cap Booster 150
     packagedVolume: 4.5
@@ -174,6 +185,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 1.0
     metagroupid: 4
     name: Navy Cap Booster 200
     packagedVolume: 6.0
@@ -189,6 +201,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 2.5
     metagroupid: 4
     name: Navy Cap Booster 25
     packagedVolume: 0.75
@@ -205,6 +218,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 80.0
     metagroupid: 4
     name: Navy Cap Booster 3200
     packagedVolume: 96.0
@@ -222,6 +236,7 @@ types:
     launchergroup2: 1156
     launchergroup3: 2013
     marketGroup: 139
+    mass: 40.0
     metagroupid: 4
     name: Navy Cap Booster 400
     packagedVolume: 12.0
@@ -238,6 +253,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 5.0
     metagroupid: 4
     name: Navy Cap Booster 50
     packagedVolume: 1.5
@@ -254,6 +270,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 7.5
     metagroupid: 4
     name: Navy Cap Booster 75
     packagedVolume: 2.25
@@ -270,6 +287,7 @@ types:
     launchergroup: 76
     launchergroup2: 1156
     marketGroup: 139
+    mass: 80.0
     metagroupid: 4
     name: Navy Cap Booster 800
     packagedVolume: 24.0

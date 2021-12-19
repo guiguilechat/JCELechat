@@ -10,6 +10,7 @@ types:
     id: 43887
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set TE Research Cost Optimization I
     nullsecmodifier: 2.0999999046325684
@@ -36,6 +37,7 @@ types:
     id: 43886
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set TE Research Cost Optimization II
     nullsecmodifier: 2.0999999046325684

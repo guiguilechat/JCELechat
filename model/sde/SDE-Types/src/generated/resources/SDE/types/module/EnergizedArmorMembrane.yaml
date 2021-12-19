@@ -6,6 +6,7 @@ types:
     hp: 40.0
     id: 11215
     marketGroup: 1684
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' EM Energized Membrane'
     packagedVolume: 5.0
@@ -24,6 +25,7 @@ types:
     hp: 40.0
     id: 11225
     marketGroup: 1682
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Explosive Energized Membrane'
     packagedVolume: 5.0
@@ -42,6 +44,7 @@ types:
     id: 11245
     kineticdamageresistancebonus: -26.0
     marketGroup: 1685
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Kinetic Energized Membrane'
     packagedVolume: 5.0
@@ -59,6 +62,7 @@ types:
     hp: 40.0
     id: 11235
     marketGroup: 1687
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Layered Energized Membrane'
     packagedVolume: 5.0
@@ -79,6 +83,7 @@ types:
     id: 11265
     kineticdamageresistancebonus: -11.199999809265137
     marketGroup: 1686
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Multispectrum Energized Membrane'
     packagedVolume: 5.0
@@ -97,6 +102,7 @@ types:
     hp: 40.0
     id: 11255
     marketGroup: 1683
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Thermal Energized Membrane'
     packagedVolume: 5.0
@@ -116,6 +122,7 @@ types:
     hp: 40.0
     id: 55862
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Bribe'' Explosive Energized Membrane'
@@ -135,6 +142,7 @@ types:
     id: 22883
     kineticdamageresistancebonus: -31.059999465942383
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Mafia'' Kinetic Energized Membrane'
@@ -153,6 +161,7 @@ types:
     hp: 40.0
     id: 22881
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Moonshine'' Thermal Energized Membrane'
@@ -173,6 +182,7 @@ types:
     hp: 40.0
     id: 55860
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Pickpocket'' EM Energized Membrane'
@@ -194,6 +204,7 @@ types:
     id: 22879
     kineticdamageresistancebonus: -16.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Pilfer'' Multispectrum Energized Membrane'
@@ -214,6 +225,7 @@ types:
     hp: 40.0
     id: 14978
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified EM Energized Membrane
@@ -233,6 +245,7 @@ types:
     hp: 40.0
     id: 14994
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Explosive Energized Membrane
@@ -252,6 +265,7 @@ types:
     id: 15010
     kineticdamageresistancebonus: -38.099998474121094
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Kinetic Energized Membrane
@@ -273,6 +287,7 @@ types:
     id: 14946
     kineticdamageresistancebonus: -24.600000381469727
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Multispectrum Energized Membrane
@@ -292,6 +307,7 @@ types:
     hp: 40.0
     id: 14962
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Thermal Energized Membrane
@@ -312,6 +328,7 @@ types:
     hp: 40.0
     id: 17542
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy EM Energized Membrane
@@ -331,6 +348,7 @@ types:
     hp: 40.0
     id: 17540
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Explosive Energized Membrane
@@ -350,6 +368,7 @@ types:
     id: 17538
     kineticdamageresistancebonus: -32.70000076293945
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Kinetic Energized Membrane
@@ -371,6 +390,7 @@ types:
     id: 17536
     kineticdamageresistancebonus: -18.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Multispectrum Energized Membrane
@@ -390,6 +410,7 @@ types:
     hp: 40.0
     id: 17544
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Thermal Energized Membrane
@@ -410,6 +431,7 @@ types:
     hp: 40.0
     id: 14968
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified EM Energized Membrane
@@ -429,6 +451,7 @@ types:
     hp: 40.0
     id: 14984
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Explosive Energized Membrane
@@ -448,6 +471,7 @@ types:
     id: 15000
     kineticdamageresistancebonus: -34.5
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Kinetic Energized Membrane
@@ -469,6 +493,7 @@ types:
     id: 14936
     kineticdamageresistancebonus: -20.200000762939453
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Multispectrum Energized Membrane
@@ -488,6 +513,7 @@ types:
     hp: 40.0
     id: 14952
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Thermal Energized Membrane
@@ -508,6 +534,7 @@ types:
     hp: 40.0
     id: 15220
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified EM Energized Membrane
@@ -527,6 +554,7 @@ types:
     hp: 40.0
     id: 15228
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Explosive Energized Membrane
@@ -546,6 +574,7 @@ types:
     id: 15236
     kineticdamageresistancebonus: -33.41999816894531
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Kinetic Energized Membrane
@@ -567,6 +596,7 @@ types:
     id: 15204
     kineticdamageresistancebonus: -18.8799991607666
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Multispectrum Energized Membrane
@@ -586,6 +616,7 @@ types:
     hp: 40.0
     id: 15212
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Thermal Energized Membrane
@@ -606,6 +637,7 @@ types:
     hp: 40.0
     id: 18871
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type EM Energized Membrane
@@ -625,6 +657,7 @@ types:
     hp: 40.0
     id: 18875
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Explosive Energized Membrane
@@ -644,6 +677,7 @@ types:
     id: 18879
     kineticdamageresistancebonus: -37.02000045776367
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Kinetic Energized Membrane
@@ -665,6 +699,7 @@ types:
     id: 18883
     kineticdamageresistancebonus: -23.280000686645508
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Multispectrum Energized Membrane
@@ -684,6 +719,7 @@ types:
     hp: 40.0
     id: 18867
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Thermal Energized Membrane
@@ -704,6 +740,7 @@ types:
     hp: 40.0
     id: 19363
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type EM Energized Membrane
@@ -723,6 +760,7 @@ types:
     hp: 40.0
     id: 18859
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Explosive Energized Membrane
@@ -742,6 +780,7 @@ types:
     id: 18855
     kineticdamageresistancebonus: -35.220001220703125
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Kinetic Energized Membrane
@@ -763,6 +802,7 @@ types:
     id: 18851
     kineticdamageresistancebonus: -21.079999923706055
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Multispectrum Energized Membrane
@@ -782,6 +822,7 @@ types:
     hp: 40.0
     id: 18863
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Thermal Energized Membrane
@@ -802,6 +843,7 @@ types:
     hp: 40.0
     id: 18843
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type EM Energized Membrane
@@ -821,6 +863,7 @@ types:
     hp: 40.0
     id: 18839
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Explosive Energized Membrane
@@ -840,6 +883,7 @@ types:
     id: 18835
     kineticdamageresistancebonus: -33.41999816894531
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Kinetic Energized Membrane
@@ -861,6 +905,7 @@ types:
     id: 18831
     kineticdamageresistancebonus: -18.8799991607666
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Multispectrum Energized Membrane
@@ -880,6 +925,7 @@ types:
     hp: 40.0
     id: 18847
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Thermal Energized Membrane
@@ -900,6 +946,7 @@ types:
     hp: 40.0
     id: 14980
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified EM Energized Membrane
@@ -919,6 +966,7 @@ types:
     hp: 40.0
     id: 14996
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Explosive Energized Membrane
@@ -938,6 +986,7 @@ types:
     id: 15012
     kineticdamageresistancebonus: -39.900001525878906
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Kinetic Energized Membrane
@@ -959,6 +1008,7 @@ types:
     id: 14948
     kineticdamageresistancebonus: -26.799999237060547
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Multispectrum Energized Membrane
@@ -978,6 +1028,7 @@ types:
     hp: 40.0
     id: 14964
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Thermal Energized Membrane
@@ -998,6 +1049,7 @@ types:
     hp: 40.0
     id: 16415
     marketGroup: 1684
+    mass: 1.0
     metalevelold: 1
     name: Compact EM Energized Membrane
     packagedVolume: 5.0
@@ -1016,6 +1068,7 @@ types:
     hp: 40.0
     id: 16407
     marketGroup: 1682
+    mass: 1.0
     metalevelold: 1
     name: Compact Explosive Energized Membrane
     packagedVolume: 5.0
@@ -1034,6 +1087,7 @@ types:
     id: 16399
     kineticdamageresistancebonus: -29.0
     marketGroup: 1685
+    mass: 1.0
     metalevelold: 1
     name: Compact Kinetic Energized Membrane
     packagedVolume: 5.0
@@ -1051,6 +1105,7 @@ types:
     hp: 40.0
     id: 16423
     marketGroup: 1687
+    mass: 1.0
     metalevelold: 1
     name: Compact Layered Energized Membrane
     packagedVolume: 5.0
@@ -1071,6 +1126,7 @@ types:
     id: 16391
     kineticdamageresistancebonus: -13.5
     marketGroup: 1686
+    mass: 1.0
     metalevelold: 1
     name: Compact Multispectrum Energized Membrane
     packagedVolume: 5.0
@@ -1089,6 +1145,7 @@ types:
     hp: 40.0
     id: 16431
     marketGroup: 1683
+    mass: 1.0
     metalevelold: 1
     name: Compact Thermal Energized Membrane
     packagedVolume: 5.0
@@ -1108,6 +1165,7 @@ types:
     hp: 40.0
     id: 18825
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type EM Energized Membrane
@@ -1127,6 +1185,7 @@ types:
     hp: 40.0
     id: 18823
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Explosive Energized Membrane
@@ -1146,6 +1205,7 @@ types:
     id: 18821
     kineticdamageresistancebonus: -35.939998626708984
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Kinetic Energized Membrane
@@ -1167,6 +1227,7 @@ types:
     id: 18819
     kineticdamageresistancebonus: -21.959999084472656
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Multispectrum Energized Membrane
@@ -1186,6 +1247,7 @@ types:
     hp: 40.0
     id: 18827
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Thermal Energized Membrane
@@ -1206,6 +1268,7 @@ types:
     hp: 40.0
     id: 18815
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type EM Energized Membrane
@@ -1225,6 +1288,7 @@ types:
     hp: 40.0
     id: 18813
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Explosive Energized Membrane
@@ -1244,6 +1308,7 @@ types:
     id: 18811
     kineticdamageresistancebonus: -34.13999938964844
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Kinetic Energized Membrane
@@ -1265,6 +1330,7 @@ types:
     id: 18809
     kineticdamageresistancebonus: -19.760000228881836
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Multispectrum Energized Membrane
@@ -1284,6 +1350,7 @@ types:
     hp: 40.0
     id: 18817
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Thermal Energized Membrane
@@ -1304,6 +1371,7 @@ types:
     hp: 40.0
     id: 18805
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type EM Energized Membrane
@@ -1323,6 +1391,7 @@ types:
     hp: 40.0
     id: 18803
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Explosive Energized Membrane
@@ -1342,6 +1411,7 @@ types:
     id: 18801
     kineticdamageresistancebonus: -32.70000076293945
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Kinetic Energized Membrane
@@ -1363,6 +1433,7 @@ types:
     id: 18799
     kineticdamageresistancebonus: -18.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Multispectrum Energized Membrane
@@ -1382,6 +1453,7 @@ types:
     hp: 40.0
     id: 18807
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Thermal Energized Membrane
@@ -1402,6 +1474,7 @@ types:
     hp: 40.0
     id: 15226
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified EM Energized Membrane
@@ -1421,6 +1494,7 @@ types:
     hp: 40.0
     id: 15234
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Explosive Energized Membrane
@@ -1440,6 +1514,7 @@ types:
     id: 15242
     kineticdamageresistancebonus: -38.81999969482422
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Kinetic Energized Membrane
@@ -1461,6 +1536,7 @@ types:
     id: 15210
     kineticdamageresistancebonus: -25.479999542236328
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Multispectrum Energized Membrane
@@ -1480,6 +1556,7 @@ types:
     hp: 40.0
     id: 15218
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Thermal Energized Membrane
@@ -1500,6 +1577,7 @@ types:
     hp: 40.0
     id: 18869
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type EM Energized Membrane
@@ -1519,6 +1597,7 @@ types:
     hp: 40.0
     id: 18873
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Explosive Energized Membrane
@@ -1538,6 +1617,7 @@ types:
     id: 18877
     kineticdamageresistancebonus: -37.02000045776367
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Kinetic Energized Membrane
@@ -1559,6 +1639,7 @@ types:
     id: 18881
     kineticdamageresistancebonus: -23.280000686645508
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Multispectrum Energized Membrane
@@ -1578,6 +1659,7 @@ types:
     hp: 40.0
     id: 18865
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Thermal Energized Membrane
@@ -1598,6 +1680,7 @@ types:
     hp: 40.0
     id: 19361
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type EM Energized Membrane
@@ -1617,6 +1700,7 @@ types:
     hp: 40.0
     id: 18857
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Explosive Energized Membrane
@@ -1636,6 +1720,7 @@ types:
     id: 18853
     kineticdamageresistancebonus: -35.220001220703125
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Kinetic Energized Membrane
@@ -1657,6 +1742,7 @@ types:
     id: 18849
     kineticdamageresistancebonus: -21.079999923706055
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Multispectrum Energized Membrane
@@ -1676,6 +1762,7 @@ types:
     hp: 40.0
     id: 18861
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Thermal Energized Membrane
@@ -1696,6 +1783,7 @@ types:
     hp: 40.0
     id: 18841
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type EM Energized Membrane
@@ -1715,6 +1803,7 @@ types:
     hp: 40.0
     id: 18837
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Explosive Energized Membrane
@@ -1734,6 +1823,7 @@ types:
     id: 18833
     kineticdamageresistancebonus: -33.41999816894531
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Kinetic Energized Membrane
@@ -1755,6 +1845,7 @@ types:
     id: 18829
     kineticdamageresistancebonus: -18.8799991607666
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Multispectrum Energized Membrane
@@ -1774,6 +1865,7 @@ types:
     hp: 40.0
     id: 18845
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Thermal Energized Membrane
@@ -1794,6 +1886,7 @@ types:
     hp: 40.0
     id: 14088
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood EM Energized Membrane
@@ -1813,6 +1906,7 @@ types:
     hp: 40.0
     id: 14082
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Explosive Energized Membrane
@@ -1832,6 +1926,7 @@ types:
     id: 14076
     kineticdamageresistancebonus: -32.70000076293945
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Kinetic Energized Membrane
@@ -1853,6 +1948,7 @@ types:
     id: 14070
     kineticdamageresistancebonus: -18.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Multispectrum Energized Membrane
@@ -1872,6 +1968,7 @@ types:
     hp: 40.0
     id: 14094
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Thermal Energized Membrane
@@ -1892,6 +1989,7 @@ types:
     hp: 40.0
     id: 14982
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified EM Energized Membrane
@@ -1911,6 +2009,7 @@ types:
     hp: 40.0
     id: 14998
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Explosive Energized Membrane
@@ -1930,6 +2029,7 @@ types:
     id: 15014
     kineticdamageresistancebonus: -39.900001525878906
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Kinetic Energized Membrane
@@ -1951,6 +2051,7 @@ types:
     id: 14950
     kineticdamageresistancebonus: -26.799999237060547
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Multispectrum Energized Membrane
@@ -1970,6 +2071,7 @@ types:
     hp: 40.0
     id: 14966
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Thermal Energized Membrane
@@ -1990,6 +2092,7 @@ types:
     hp: 40.0
     id: 11217
     marketGroup: 1684
+    mass: 1.0
     name: EM Energized Membrane I
     packagedVolume: 5.0
     portionSize: 1
@@ -2007,6 +2110,7 @@ types:
     hp: 40.0
     id: 11219
     marketGroup: 1684
+    mass: 1.0
     metalevelold: 5
     name: EM Energized Membrane II
     packagedVolume: 5.0
@@ -2025,6 +2129,7 @@ types:
     hp: 40.0
     id: 11227
     marketGroup: 1682
+    mass: 1.0
     name: Explosive Energized Membrane I
     packagedVolume: 5.0
     portionSize: 1
@@ -2042,6 +2147,7 @@ types:
     hp: 40.0
     id: 11229
     marketGroup: 1682
+    mass: 1.0
     metalevelold: 5
     name: Explosive Energized Membrane II
     packagedVolume: 5.0
@@ -2060,6 +2166,7 @@ types:
     hp: 40.0
     id: 15733
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy EM Energized Membrane
@@ -2079,6 +2186,7 @@ types:
     hp: 40.0
     id: 15735
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Explosive Energized Membrane
@@ -2098,6 +2206,7 @@ types:
     id: 15737
     kineticdamageresistancebonus: -31.059999465942383
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Kinetic Energized Membrane
@@ -2119,6 +2228,7 @@ types:
     id: 15739
     kineticdamageresistancebonus: -16.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Multispectrum Energized Membrane
@@ -2138,6 +2248,7 @@ types:
     hp: 40.0
     id: 15731
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Thermal Energized Membrane
@@ -2158,6 +2269,7 @@ types:
     hp: 40.0
     id: 15723
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy EM Energized Membrane
@@ -2177,6 +2289,7 @@ types:
     hp: 40.0
     id: 15725
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Explosive Energized Membrane
@@ -2196,6 +2309,7 @@ types:
     id: 15727
     kineticdamageresistancebonus: -32.70000076293945
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Kinetic Energized Membrane
@@ -2217,6 +2331,7 @@ types:
     id: 15729
     kineticdamageresistancebonus: -18.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Multispectrum Energized Membrane
@@ -2236,6 +2351,7 @@ types:
     hp: 40.0
     id: 15721
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Thermal Energized Membrane
@@ -2256,6 +2372,7 @@ types:
     hp: 40.0
     id: 28540
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy EM Energized Membrane
@@ -2275,6 +2392,7 @@ types:
     hp: 40.0
     id: 28538
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Explosive Energized Membrane
@@ -2294,6 +2412,7 @@ types:
     id: 28536
     kineticdamageresistancebonus: -32.70000076293945
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Kinetic Energized Membrane
@@ -2315,6 +2434,7 @@ types:
     id: 28534
     kineticdamageresistancebonus: -18.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Multispectrum Energized Membrane
@@ -2334,6 +2454,7 @@ types:
     hp: 40.0
     id: 28542
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Thermal Energized Membrane
@@ -2354,6 +2475,7 @@ types:
     id: 11247
     kineticdamageresistancebonus: -27.770000457763672
     marketGroup: 1685
+    mass: 1.0
     name: Kinetic Energized Membrane I
     packagedVolume: 5.0
     portionSize: 1
@@ -2371,6 +2493,7 @@ types:
     id: 11249
     kineticdamageresistancebonus: -31.059999465942383
     marketGroup: 1685
+    mass: 1.0
     metalevelold: 5
     name: Kinetic Energized Membrane II
     packagedVolume: 5.0
@@ -2388,6 +2511,7 @@ types:
     hp: 40.0
     id: 11237
     marketGroup: 1687
+    mass: 1.0
     name: Layered Energized Membrane I
     packagedVolume: 5.0
     portionSize: 1
@@ -2404,6 +2528,7 @@ types:
     hp: 40.0
     id: 11239
     marketGroup: 1687
+    mass: 1.0
     metalevelold: 5
     name: Layered Energized Membrane II
     packagedVolume: 5.0
@@ -2424,6 +2549,7 @@ types:
     id: 11267
     kineticdamageresistancebonus: -12.0
     marketGroup: 1686
+    mass: 1.0
     name: Multispectrum Energized Membrane I
     packagedVolume: 5.0
     portionSize: 1
@@ -2444,6 +2570,7 @@ types:
     id: 11269
     kineticdamageresistancebonus: -16.0
     marketGroup: 1686
+    mass: 1.0
     metalevelold: 5
     name: Multispectrum Energized Membrane II
     packagedVolume: 5.0
@@ -2463,6 +2590,7 @@ types:
     hp: 40.0
     id: 14974
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified EM Energized Membrane
@@ -2482,6 +2610,7 @@ types:
     hp: 40.0
     id: 14990
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Explosive Energized Membrane
@@ -2501,6 +2630,7 @@ types:
     id: 15006
     kineticdamageresistancebonus: -36.29999923706055
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Kinetic Energized Membrane
@@ -2522,6 +2652,7 @@ types:
     id: 14942
     kineticdamageresistancebonus: -22.399999618530273
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Multispectrum Energized Membrane
@@ -2541,6 +2672,7 @@ types:
     hp: 40.0
     id: 14958
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Thermal Energized Membrane
@@ -2561,6 +2693,7 @@ types:
     hp: 40.0
     id: 14972
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified EM Energized Membrane
@@ -2580,6 +2713,7 @@ types:
     hp: 40.0
     id: 14988
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Explosive Energized Membrane
@@ -2599,6 +2733,7 @@ types:
     id: 15004
     kineticdamageresistancebonus: -36.29999923706055
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Kinetic Energized Membrane
@@ -2620,6 +2755,7 @@ types:
     id: 14940
     kineticdamageresistancebonus: -22.399999618530273
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Multispectrum Energized Membrane
@@ -2639,6 +2775,7 @@ types:
     hp: 40.0
     id: 14956
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Thermal Energized Membrane
@@ -2659,6 +2796,7 @@ types:
     hp: 40.0
     id: 15224
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified EM Energized Membrane
@@ -2678,6 +2816,7 @@ types:
     hp: 40.0
     id: 15232
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Explosive Energized Membrane
@@ -2697,6 +2836,7 @@ types:
     id: 15240
     kineticdamageresistancebonus: -37.02000045776367
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Kinetic Energized Membrane
@@ -2718,6 +2858,7 @@ types:
     id: 15208
     kineticdamageresistancebonus: -23.280000686645508
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Multispectrum Energized Membrane
@@ -2737,6 +2878,7 @@ types:
     hp: 40.0
     id: 15216
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Thermal Energized Membrane
@@ -2757,6 +2899,7 @@ types:
     hp: 40.0
     id: 14092
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis EM Energized Membrane
@@ -2776,6 +2919,7 @@ types:
     hp: 40.0
     id: 14086
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Explosive Energized Membrane
@@ -2795,6 +2939,7 @@ types:
     id: 14080
     kineticdamageresistancebonus: -31.059999465942383
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Kinetic Energized Membrane
@@ -2816,6 +2961,7 @@ types:
     id: 14074
     kineticdamageresistancebonus: -16.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Multispectrum Energized Membrane
@@ -2835,6 +2981,7 @@ types:
     hp: 40.0
     id: 14098
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Thermal Energized Membrane
@@ -2855,6 +3002,7 @@ types:
     hp: 40.0
     id: 14970
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified EM Energized Membrane
@@ -2874,6 +3022,7 @@ types:
     hp: 40.0
     id: 14986
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Explosive Energized Membrane
@@ -2893,6 +3042,7 @@ types:
     id: 15002
     kineticdamageresistancebonus: -34.5
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Kinetic Energized Membrane
@@ -2914,6 +3064,7 @@ types:
     id: 14938
     kineticdamageresistancebonus: -20.200000762939453
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Multispectrum Energized Membrane
@@ -2933,6 +3084,7 @@ types:
     hp: 40.0
     id: 14954
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Thermal Energized Membrane
@@ -2952,6 +3104,7 @@ types:
     hp: 40.0
     id: 11257
     marketGroup: 1683
+    mass: 1.0
     name: Thermal Energized Membrane I
     packagedVolume: 5.0
     portionSize: 1
@@ -2969,6 +3122,7 @@ types:
     hp: 40.0
     id: 11259
     marketGroup: 1683
+    mass: 1.0
     metalevelold: 5
     name: Thermal Energized Membrane II
     packagedVolume: 5.0
@@ -2988,6 +3142,7 @@ types:
     hp: 40.0
     id: 14090
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha EM Energized Membrane
@@ -3007,6 +3162,7 @@ types:
     hp: 40.0
     id: 14084
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Explosive Energized Membrane
@@ -3026,6 +3182,7 @@ types:
     id: 14078
     kineticdamageresistancebonus: -32.70000076293945
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Kinetic Energized Membrane
@@ -3047,6 +3204,7 @@ types:
     id: 14072
     kineticdamageresistancebonus: -18.0
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Multispectrum Energized Membrane
@@ -3066,6 +3224,7 @@ types:
     hp: 40.0
     id: 14096
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Thermal Energized Membrane
@@ -3086,6 +3245,7 @@ types:
     hp: 40.0
     id: 15222
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified EM Energized Membrane
@@ -3105,6 +3265,7 @@ types:
     hp: 40.0
     id: 15230
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Explosive Energized Membrane
@@ -3124,6 +3285,7 @@ types:
     id: 15238
     kineticdamageresistancebonus: -35.220001220703125
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Kinetic Energized Membrane
@@ -3145,6 +3307,7 @@ types:
     id: 15206
     kineticdamageresistancebonus: -21.079999923706055
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Multispectrum Energized Membrane
@@ -3164,6 +3327,7 @@ types:
     hp: 40.0
     id: 15214
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Thermal Energized Membrane
@@ -3184,6 +3348,7 @@ types:
     hp: 40.0
     id: 14976
     marketGroup: 1684
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified EM Energized Membrane
@@ -3203,6 +3368,7 @@ types:
     hp: 40.0
     id: 14992
     marketGroup: 1682
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Explosive Energized Membrane
@@ -3222,6 +3388,7 @@ types:
     id: 15008
     kineticdamageresistancebonus: -38.099998474121094
     marketGroup: 1685
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Kinetic Energized Membrane
@@ -3243,6 +3410,7 @@ types:
     id: 14944
     kineticdamageresistancebonus: -24.600000381469727
     marketGroup: 1686
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Multispectrum Energized Membrane
@@ -3262,6 +3430,7 @@ types:
     hp: 40.0
     id: 14960
     marketGroup: 1683
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Thermal Energized Membrane

@@ -5,6 +5,7 @@ types:
     hp: 20000.0
     id: 58904
     marketGroup: 2771
+    mass: 10000.0
     metalevelold: 1
     name: Mobile Observatory
     packagedVolume: 100.0

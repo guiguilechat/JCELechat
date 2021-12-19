@@ -6,6 +6,7 @@ types:
     id: 18635
     launchergroup: 1226
     marketGroup: 1200
+    mass: 1.0
     maxscanrange: 100000000
     maxvelocity: 30000.0
     name: Discovery Survey Probe I
@@ -30,6 +31,7 @@ types:
     id: 18637
     launchergroup: 1226
     marketGroup: 1200
+    mass: 1.0
     maxscanrange: 100000000
     maxvelocity: 30000.0
     name: Gaze Survey Probe I
@@ -54,6 +56,7 @@ types:
     id: 18626
     launchergroup: 1226
     marketGroup: 1200
+    mass: 1.0
     maxscanrange: 100000000
     maxvelocity: 30000.0
     name: Quest Survey Probe I

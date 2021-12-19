@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46698
     marketGroup: 529
+    mass: 1.0
     name: Compressed Immaculate Jaspet
     orebasictype: 46682
     packagedVolume: 0.15000000596046448
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28406
     marketGroup: 529
+    mass: 1.0000000409184788E35
     name: Compressed Jaspet
     orebasictype: 1226
     packagedVolume: 0.15000000596046448
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28407
     marketGroup: 529
+    mass: 1.0000000409184788E35
     name: Compressed Pristine Jaspet
     orebasictype: 1226
     packagedVolume: 0.15000000596046448
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28408
     marketGroup: 529
+    mass: 1.0000000409184788E35
     name: Compressed Pure Jaspet
     orebasictype: 1226
     packagedVolume: 0.15000000596046448
@@ -84,6 +88,7 @@ types:
     compressiontypeid: 46698
     id: 46682
     marketGroup: 529
+    mass: 1.0000000409184788E35
     name: Immaculate Jaspet
     orebasictype: 46682
     packagedVolume: 2.0
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 28406
     id: 1226
     marketGroup: 529
+    mass: 1.0000000409184788E35
     name: Jaspet
     orebasictype: 1226
     packagedVolume: 2.0
@@ -123,6 +129,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28621
     ignoreminingwaste: 1
+    mass: 1.0000000409184788E35
     name: Pithix
     orebasictype: 1226
     packagedVolume: 2.0
@@ -144,6 +151,7 @@ types:
     compressiontypeid: 28407
     id: 17449
     marketGroup: 529
+    mass: 1.0000000409184788E35
     name: Pristine Jaspet
     orebasictype: 1226
     packagedVolume: 2.0
@@ -165,6 +173,7 @@ types:
     compressiontypeid: 28408
     id: 17448
     marketGroup: 529
+    mass: 1.0000000409184788E35
     name: Pure Jaspet
     orebasictype: 1226
     packagedVolume: 2.0

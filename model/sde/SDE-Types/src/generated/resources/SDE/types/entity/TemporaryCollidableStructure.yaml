@@ -25,6 +25,7 @@ types:
     gfxturretid: 372
     hp: 10000.0
     id: 50179
+    mass: 1000.0
     maxtargetrange: 30000.0
     maxtargetrangebonus: -50.0
     name: Dampening Field Effect Subpylon
@@ -73,6 +74,7 @@ types:
     gfxturretid: 372
     hp: 10000.0
     id: 50177
+    mass: 1000.0
     maxtargetrange: 10000.0
     name: ECM Field Effect Subpylon
     packagedVolume: 1000.0
@@ -124,6 +126,7 @@ types:
     gfxturretid: 372
     hp: 10000.0
     id: 50178
+    mass: 1000.0
     maxtargetrange: 30000.0
     name: Energy Pulse Field Effect Subpylon
     packagedVolume: 1000.0
@@ -169,6 +172,7 @@ types:
     gfxturretid: 372
     hp: 2500.0
     id: 54198
+    mass: 1000.0
     maxlockedtargets: 20
     maxtargetrange: 15000.0
     name: Jariloz Semiotic Suppressor
@@ -221,6 +225,7 @@ types:
     gfxturretid: 372
     hp: 2500.0
     id: 54197
+    mass: 1000.0
     maxlockedtargets: 20
     maxtargetrange: 15000.0
     name: Moroz Enthalpic Inhibitor
@@ -265,6 +270,7 @@ types:
     gfxturretid: 372
     hp: 2500.0
     id: 53838
+    mass: 1000.0
     maxtargetrange: 15000.0
     name: Nemiz Pulse Destructor
     packagedVolume: 1000.0
@@ -310,6 +316,7 @@ types:
     gfxturretid: 372
     hp: 2500.0
     id: 53836
+    mass: 1000.0
     maxlockedtargets: 20
     maxtargetrange: 15000.0
     name: Pohviz Spatial Displacer
@@ -355,6 +362,7 @@ types:
     gfxturretid: 372
     hp: 10000.0
     id: 50176
+    mass: 1000.0
     maxtargetrange: 15000.0
     name: Stasis Field Effect Subpylon
     packagedVolume: 1000.0
@@ -400,6 +408,7 @@ types:
     gfxturretid: 372
     hp: 10000.0
     id: 50180
+    mass: 1000.0
     maxlockedtargets: 20
     maxtargetrange: 30000.0
     name: Transport Field Effect Subpylon

@@ -5,6 +5,7 @@ types:
     hp: 40.0
     id: 421
     marketGroup: 665
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Capacitor Recharger'
@@ -23,6 +24,7 @@ types:
     hp: 40.0
     id: 23813
     marketGroup: 665
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Palisade'' Cap Recharger I'
@@ -41,6 +43,7 @@ types:
     hp: 40.0
     id: 21818
     marketGroup: 665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Ahremen's Modified Cap Recharger
@@ -59,6 +62,7 @@ types:
     hp: 40.0
     id: 15788
     marketGroup: 665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Cap Recharger
@@ -77,6 +81,7 @@ types:
     hp: 40.0
     id: 16599
     marketGroup: 665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Cap Recharger
@@ -95,6 +100,7 @@ types:
     hp: 40.0
     id: 1195
     marketGroup: 665
+    mass: 1.0
     name: Cap Recharger I
     packagedVolume: 5.0
     portionSize: 1
@@ -111,6 +117,7 @@ types:
     hp: 40.0
     id: 2032
     marketGroup: 665
+    mass: 1.0
     metalevelold: 5
     name: Cap Recharger II
     packagedVolume: 5.0
@@ -128,6 +135,7 @@ types:
     hp: 40.0
     id: 16605
     marketGroup: 665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 14
     name: Chelm's Modified Cap Recharger
@@ -146,6 +154,7 @@ types:
     hp: 40.0
     id: 14142
     marketGroup: 665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Cap Recharger
@@ -164,6 +173,7 @@ types:
     hp: 40.0
     id: 21819
     marketGroup: 665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 14
     name: Draclira's Modified Cap Recharger
@@ -182,6 +192,7 @@ types:
     hp: 40.0
     id: 4435
     marketGroup: 665
+    mass: 1.0
     metalevelold: 1
     name: Eutectic Compact Cap Recharger
     packagedVolume: 5.0
@@ -199,6 +210,7 @@ types:
     hp: 40.0
     id: 17526
     marketGroup: 665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Cap Recharger
@@ -217,6 +229,7 @@ types:
     hp: 40.0
     id: 28530
     marketGroup: 665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Cap Recharger
@@ -235,6 +248,7 @@ types:
     hp: 40.0
     id: 21817
     marketGroup: 665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 12
     name: Raysere's Modified Cap Recharger
@@ -253,6 +267,7 @@ types:
     hp: 40.0
     id: 16601
     marketGroup: 665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 12
     name: Selynne's Modified Cap Recharger
@@ -271,6 +286,7 @@ types:
     hp: 40.0
     id: 21816
     marketGroup: 665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Cap Recharger
@@ -289,6 +305,7 @@ types:
     hp: 40.0
     id: 14140
     marketGroup: 665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Cap Recharger
@@ -307,6 +324,7 @@ types:
     hp: 40.0
     id: 16603
     marketGroup: 665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Vizan's Modified Cap Recharger

@@ -4,6 +4,7 @@ types:
     hp: 40.0
     id: 46325
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     moonrigasteroiddecaybonus: 50
     moonrigfracturedelaybonus: 20
@@ -25,6 +26,7 @@ types:
     hp: 40.0
     id: 46326
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     moonrigasteroiddecaybonus: 100
     moonrigfracturedelaybonus: 24

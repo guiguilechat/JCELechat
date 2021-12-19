@@ -18,6 +18,7 @@ types:
     hp: 40.0
     id: 47916
     marketGroup: 2434
+    mass: 1000.0
     maxrange: 15500.0
     metagroupid: 1
     name: Heavy Compact Entropic Disintegrator
@@ -59,6 +60,7 @@ types:
     hp: 40.0
     id: 47273
     marketGroup: 2434
+    mass: 1000.0
     maxrange: 15500.0
     name: Heavy Entropic Disintegrator I
     optimalsigradius: 40000
@@ -100,6 +102,7 @@ types:
     hp: 40.0
     id: 47918
     marketGroup: 2434
+    mass: 1000.0
     maxrange: 17400.0
     metagroupid: 2
     metalevelold: 5
@@ -144,6 +147,7 @@ types:
     hp: 40.0
     id: 47917
     marketGroup: 2434
+    mass: 1000.0
     maxrange: 16600.0
     metagroupid: 1
     name: Heavy Scoped Entropic Disintegrator
@@ -186,6 +190,7 @@ types:
     hp: 40.0
     id: 47912
     marketGroup: 2433
+    mass: 500.0
     maxrange: 6000.0
     metagroupid: 1
     name: Light Compact Entropic Disintegrator
@@ -228,6 +233,7 @@ types:
     hp: 40.0
     id: 47272
     marketGroup: 2433
+    mass: 500.0
     maxrange: 6000.0
     name: Light Entropic Disintegrator I
     optimalsigradius: 40000
@@ -270,6 +276,7 @@ types:
     hp: 40.0
     id: 47914
     marketGroup: 2433
+    mass: 500.0
     maxrange: 6750.0
     metagroupid: 2
     metalevelold: 5
@@ -315,6 +322,7 @@ types:
     hp: 40.0
     id: 47913
     marketGroup: 2433
+    mass: 500.0
     maxrange: 6500.0
     metagroupid: 1
     name: Light Scoped Entropic Disintegrator
@@ -353,6 +361,7 @@ types:
     hp: 40.0
     id: 47920
     marketGroup: 2435
+    mass: 2000.0
     maxrange: 26000.0
     metagroupid: 1
     name: Supratidal Compact Entropic Disintegrator
@@ -391,6 +400,7 @@ types:
     hp: 40.0
     id: 47274
     marketGroup: 2435
+    mass: 2000.0
     maxrange: 26000.0
     name: Supratidal Entropic Disintegrator I
     optimalsigradius: 40000
@@ -429,6 +439,7 @@ types:
     hp: 40.0
     id: 47922
     marketGroup: 2435
+    mass: 2000.0
     maxrange: 28200.0
     metagroupid: 2
     metalevelold: 5
@@ -470,6 +481,7 @@ types:
     hp: 40.0
     id: 47921
     marketGroup: 2435
+    mass: 2000.0
     maxrange: 27100.0
     metagroupid: 1
     name: Supratidal Scoped Entropic Disintegrator
@@ -508,6 +520,7 @@ types:
     hp: 40.0
     id: 52915
     marketGroup: 2691
+    mass: 40000.0
     maxrange: 52000.0
     name: Ultratidal Entropic Disintegrator I
     optimalsigradius: 40000
@@ -549,6 +562,7 @@ types:
     hp: 40.0
     id: 47919
     marketGroup: 2434
+    mass: 1000.0
     maxrange: 18000.0
     metagroupid: 4
     metalevelold: 8
@@ -593,6 +607,7 @@ types:
     hp: 40.0
     id: 47915
     marketGroup: 2433
+    mass: 500.0
     maxrange: 7150.0
     metagroupid: 4
     metalevelold: 8
@@ -633,6 +648,7 @@ types:
     hp: 40.0
     id: 47923
     marketGroup: 2435
+    mass: 2000.0
     maxrange: 29100.0
     metagroupid: 4
     metalevelold: 8
@@ -676,6 +692,7 @@ types:
     hp: 40.0
     id: 52238
     marketGroup: 2434
+    mass: 1000.0
     maxrange: 17000.0
     metagroupid: 4
     metalevelold: 8
@@ -720,6 +737,7 @@ types:
     hp: 40.0
     id: 52236
     marketGroup: 2433
+    mass: 500.0
     maxrange: 7000.0
     metagroupid: 4
     metalevelold: 8
@@ -760,6 +778,7 @@ types:
     hp: 40.0
     id: 52240
     marketGroup: 2435
+    mass: 2000.0
     maxrange: 28000.0
     metagroupid: 4
     metalevelold: 8

@@ -53,6 +53,7 @@ types:
     hp: 685720.0
     id: 2192
     iscapitalsize: 1
+    mass: 1.546875008E9
     maxattacktargets: 1
     maxlockedtargets: 4
     maxvelocity: 75.0
@@ -139,6 +140,7 @@ types:
     hp: 685720.0
     id: 3071
     iscapitalsize: 1
+    mass: 1.546875008E9
     maxattacktargets: 1
     maxlockedtargets: 4
     maxvelocity: 75.0

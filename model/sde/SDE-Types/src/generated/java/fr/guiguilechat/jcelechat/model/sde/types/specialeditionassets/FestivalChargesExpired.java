@@ -24,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileNeverDoesDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -109,13 +108,6 @@ public class FestivalChargesExpired
     @DefaultIntValue(0)
     public int launchergroup;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
@@ -165,7 +157,7 @@ public class FestivalChargesExpired
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, BaseShieldDamage.INSTANCE, AimedLaunch.INSTANCE, Mass.INSTANCE, MaxVelocity.INSTANCE, BaseArmorDamage.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, DetonationRange.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, MissileNeverDoesDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, ArmorPiercingChance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, BaseShieldDamage.INSTANCE, AimedLaunch.INSTANCE, MaxVelocity.INSTANCE, BaseArmorDamage.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, DetonationRange.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, MissileNeverDoesDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, ArmorPiercingChance.INSTANCE })));
     public static final FestivalChargesExpired.MetaGroup METAGROUP = new FestivalChargesExpired.MetaGroup();
 
     @Override
@@ -210,10 +202,6 @@ public class FestivalChargesExpired
             case  137 :
             {
                 return launchergroup;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  37 :
             {

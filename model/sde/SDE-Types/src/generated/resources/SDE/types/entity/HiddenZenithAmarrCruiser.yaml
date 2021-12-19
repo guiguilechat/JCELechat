@@ -47,6 +47,7 @@ types:
     gfxturretid: 456
     hp: 1500.0
     id: 42818
+    mass: 1.18E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6500.0
@@ -96,6 +97,7 @@ types:
     entityreactionfactor: 1.0
     falloff: 1.0
     id: 50117
+    mass: 1.18E7
     name: Imperial Escort Maller
     optimalsigradius: 1000
     packagedVolume: 118000.0
@@ -126,6 +128,7 @@ types:
     entityreactionfactor: 1.0
     falloff: 1.0
     id: 50105
+    mass: 1.18E7
     name: Imperial Escort Omen
     optimalsigradius: 1000
     packagedVolume: 118000.0

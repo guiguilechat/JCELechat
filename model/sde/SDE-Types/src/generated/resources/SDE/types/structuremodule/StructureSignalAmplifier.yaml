@@ -7,6 +7,7 @@ types:
     hp: 40.0
     id: 37532
     marketGroup: 2219
+    mass: 500.0
     maxlockedtargetsbonus: 1
     maxtargetrangebonus: 12.0
     name: Standup Signal Amplifier I
@@ -27,6 +28,7 @@ types:
     hp: 40.0
     id: 47348
     marketGroup: 2219
+    mass: 500.0
     maxlockedtargetsbonus: 2
     maxtargetrangebonus: 15.0
     metalevelold: 5

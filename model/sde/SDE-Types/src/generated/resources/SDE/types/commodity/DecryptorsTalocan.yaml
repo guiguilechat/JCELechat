@@ -6,6 +6,7 @@ types:
     inventionpropabilitymultiplier: 4.5
     inventiontemodifier: 0.5
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Automation Accounts
     packagedVolume: 1.0
     portionSize: 1
@@ -19,6 +20,7 @@ types:
     inventionpropabilitymultiplier: 2.5
     inventiontemodifier: 1.0
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Info Shards
     packagedVolume: 1.0
     portionSize: 1
@@ -32,6 +34,7 @@ types:
     inventionpropabilitymultiplier: 1.5
     inventiontemodifier: 1.2000000476837158
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Intricate Formulas
     packagedVolume: 1.0
     portionSize: 1
@@ -45,6 +48,7 @@ types:
     inventionpropabilitymultiplier: 4.0
     inventiontemodifier: 0.5
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Mathematical Schematics
     packagedVolume: 1.0
     portionSize: 1
@@ -58,6 +62,7 @@ types:
     inventionpropabilitymultiplier: 3.5
     inventiontemodifier: 0.6000000238418579
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Sketch Books
     packagedVolume: 1.0
     portionSize: 1

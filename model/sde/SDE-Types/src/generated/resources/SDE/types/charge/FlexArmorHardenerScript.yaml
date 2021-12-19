@@ -7,6 +7,7 @@ types:
     kineticdamageresistancebonusbonus: -100
     launchergroup: 1699
     marketGroup: 1094
+    mass: 1.0
     name: Armor EM Resistance Script
     packagedVolume: 1.0
     portionSize: 1
@@ -24,6 +25,7 @@ types:
     kineticdamageresistancebonusbonus: -100
     launchergroup: 1699
     marketGroup: 1094
+    mass: 1.0
     name: Armor Explosive Resistance Script
     packagedVolume: 1.0
     portionSize: 1
@@ -41,6 +43,7 @@ types:
     kineticdamageresistancebonusbonus: 200
     launchergroup: 1699
     marketGroup: 1094
+    mass: 1.0
     name: Armor Kinetic Resistance Script
     packagedVolume: 1.0
     portionSize: 1
@@ -58,6 +61,7 @@ types:
     kineticdamageresistancebonusbonus: -100
     launchergroup: 1699
     marketGroup: 1094
+    mass: 1.0
     name: Armor Thermal Resistance Script
     packagedVolume: 1.0
     portionSize: 1

@@ -45,6 +45,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 17059
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 10000.0
@@ -129,6 +130,7 @@ types:
     gfxturretid: 453
     hp: 250.0
     id: 17063
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5000.0
@@ -207,6 +209,7 @@ types:
     gfxturretid: 450
     hp: 55.0
     id: 17064
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 500.0
@@ -292,6 +295,7 @@ types:
     gfxturretid: 454
     hp: 675.0
     id: 24056
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 15000.0
@@ -381,6 +385,7 @@ types:
     gfxturretid: 453
     hp: 675.0
     id: 24053
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 7500.0
@@ -470,6 +475,7 @@ types:
     gfxturretid: 453
     hp: 675.0
     id: 24055
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 7500.0
@@ -558,6 +564,7 @@ types:
     gfxturretid: 451
     hp: 425.0
     id: 17060
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 3500.0
@@ -646,6 +653,7 @@ types:
     gfxturretid: 454
     hp: 675.0
     id: 24054
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 15000.0
@@ -735,6 +743,7 @@ types:
     gfxturretid: 451
     hp: 675.0
     id: 17061
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4000.0
@@ -824,6 +833,7 @@ types:
     gfxturretid: 452
     hp: 675.0
     id: 24051
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 8750.0
@@ -917,6 +927,7 @@ types:
     gfxturretid: 451
     hp: 625.0
     id: 17079
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4000.0
@@ -1005,6 +1016,7 @@ types:
     gfxturretid: 451
     hp: 400.0
     id: 17069
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 3500.0
@@ -1094,6 +1106,7 @@ types:
     gfxturretid: 452
     hp: 675.0
     id: 24052
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 8750.0
@@ -1185,6 +1198,7 @@ types:
     gfxturretid: 453
     hp: 200.0
     id: 17067
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5000.0
@@ -1267,6 +1281,7 @@ types:
     gfxturretid: 451
     hp: 55.0
     id: 17068
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 3500.0
@@ -1350,6 +1365,7 @@ types:
     gfxturretid: 454
     hp: 200.0
     id: 17072
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 10000.0
@@ -1433,6 +1449,7 @@ types:
     gfxturretid: 451
     hp: 125.0
     id: 17074
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4000.0
@@ -1517,6 +1534,7 @@ types:
     gfxturretid: 452
     hp: 125.0
     id: 17076
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 8750.0
@@ -1604,6 +1622,7 @@ types:
     gfxturretid: 451
     hp: 100.0
     id: 17077
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4000.0
@@ -1686,6 +1705,7 @@ types:
     gfxturretid: 451
     hp: 15.0
     id: 17078
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 3500.0
@@ -1770,6 +1790,7 @@ types:
     gfxturretid: 452
     hp: 200.0
     id: 17081
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 8750.0
@@ -1859,6 +1880,7 @@ types:
     gfxturretid: 453
     hp: 580.0
     id: 16568
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5000.0
@@ -1947,6 +1969,7 @@ types:
     gfxturretid: 453
     hp: 475.0
     id: 16567
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5000.0
@@ -2032,6 +2055,7 @@ types:
     gfxturretid: 450
     hp: 12.0
     id: 24607
+    mass: 2450000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 125.0
@@ -2115,6 +2139,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 17086
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 12500.0
@@ -2199,6 +2224,7 @@ types:
     gfxturretid: 453
     hp: 250.0
     id: 17088
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6250.0
@@ -2283,6 +2309,7 @@ types:
     gfxturretid: 453
     hp: 200.0
     id: 17091
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6250.0
@@ -2365,6 +2392,7 @@ types:
     gfxturretid: 451
     hp: 55.0
     id: 17092
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4375.0
@@ -2448,6 +2476,7 @@ types:
     gfxturretid: 454
     hp: 200.0
     id: 17097
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 12500.0
@@ -2531,6 +2560,7 @@ types:
     gfxturretid: 453
     hp: 125.0
     id: 17099
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5000.0
@@ -2615,6 +2645,7 @@ types:
     gfxturretid: 454
     hp: 125.0
     id: 17101
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 10938.0
@@ -2702,6 +2733,7 @@ types:
     gfxturretid: 453
     hp: 100.0
     id: 17102
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5000.0
@@ -2784,6 +2816,7 @@ types:
     gfxturretid: 451
     hp: 55.0
     id: 17103
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4375.0
@@ -2868,6 +2901,7 @@ types:
     gfxturretid: 454
     hp: 200.0
     id: 17106
+    mass: 2112000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 10938.0

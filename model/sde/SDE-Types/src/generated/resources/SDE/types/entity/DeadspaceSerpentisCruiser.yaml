@@ -46,6 +46,7 @@ types:
     hp: 1650.0
     id: 17044
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
@@ -127,6 +128,7 @@ types:
     hp: 1400.0
     id: 17039
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0
@@ -206,6 +208,7 @@ types:
     hp: 1800.0
     id: 24063
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
@@ -287,6 +290,7 @@ types:
     hp: 1300.0
     id: 17111
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 15000.0
@@ -366,6 +370,7 @@ types:
     hp: 1800.0
     id: 17033
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5250.0
@@ -447,6 +452,7 @@ types:
     hp: 1500.0
     id: 17042
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0
@@ -526,6 +532,7 @@ types:
     hp: 700.0
     id: 17112
     kineticdamage: 6.0
+    mass: 1.13E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 2000.0
@@ -604,6 +611,7 @@ types:
     hp: 1800.0
     id: 24064
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5250.0
@@ -682,6 +690,7 @@ types:
     hp: 900.0
     id: 17114
     kineticdamage: 6.0
+    mass: 1.16E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 2000.0
@@ -763,6 +772,7 @@ types:
     hp: 1000.0
     id: 17110
     kineticdamage: 6.0
+    mass: 1.15E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 15000.0
@@ -842,6 +852,7 @@ types:
     hp: 1800.0
     id: 24071
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -923,6 +934,7 @@ types:
     hp: 1800.0
     id: 24069
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0
@@ -1002,6 +1014,7 @@ types:
     hp: 1800.0
     id: 24073
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -1083,6 +1096,7 @@ types:
     hp: 1800.0
     id: 24068
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 15000.0
@@ -1162,6 +1176,7 @@ types:
     hp: 1800.0
     id: 24072
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5250.0
@@ -1243,6 +1258,7 @@ types:
     hp: 1800.0
     id: 24070
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0
@@ -1322,6 +1338,7 @@ types:
     hp: 1800.0
     id: 24065
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 2000.0
@@ -1400,6 +1417,7 @@ types:
     hp: 1800.0
     id: 24074
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5250.0
@@ -1478,6 +1496,7 @@ types:
     hp: 1800.0
     id: 24066
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 2000.0
@@ -1559,6 +1578,7 @@ types:
     hp: 1800.0
     id: 24067
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 15000.0
@@ -1637,6 +1657,7 @@ types:
     hp: 1400.0
     id: 14347
     kineticdamage: 12.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1550.0
@@ -1708,6 +1729,7 @@ types:
     hp: 600.0
     id: 16168
     kineticdamage: 12.0
+    mass: 1.105E8
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 2100.0
@@ -1773,6 +1795,7 @@ types:
     hp: 600.0
     id: 11720
     kineticdamage: 12.0
+    mass: 1.105E8
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 2100.0
@@ -1850,6 +1873,7 @@ types:
     hp: 1650.0
     id: 17056
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -1931,6 +1955,7 @@ types:
     hp: 1400.0
     id: 17045
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5625.0
@@ -2010,6 +2035,7 @@ types:
     hp: 1650.0
     id: 17048
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -2091,6 +2117,7 @@ types:
     hp: 1300.0
     id: 17124
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 18750.0
@@ -2170,6 +2197,7 @@ types:
     hp: 1800.0
     id: 17047
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6563.0
@@ -2251,6 +2279,7 @@ types:
     hp: 1500.0
     id: 17055
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5625.0
@@ -2330,6 +2359,7 @@ types:
     hp: 700.0
     id: 17125
     kineticdamage: 6.0
+    mass: 1.13E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 2500.0
@@ -2408,6 +2438,7 @@ types:
     hp: 1800.0
     id: 17046
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6563.0
@@ -2486,6 +2517,7 @@ types:
     hp: 900.0
     id: 17127
     kineticdamage: 6.0
+    mass: 1.16E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 2500.0
@@ -2567,6 +2599,7 @@ types:
     hp: 1000.0
     id: 17123
     kineticdamage: 6.0
+    mass: 1.15E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 18750.0
@@ -2649,6 +2682,7 @@ types:
     hp: 1800.0
     id: 32192
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0

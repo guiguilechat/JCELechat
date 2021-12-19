@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28409
     marketGroup: 523
+    mass: 1.0000000409184788E35
     name: Compressed Fiery Kernite
     orebasictype: 20
     packagedVolume: 0.1899999976158142
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28410
     marketGroup: 523
+    mass: 1.0000000409184788E35
     name: Compressed Kernite
     orebasictype: 20
     packagedVolume: 0.1899999976158142
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28411
     marketGroup: 523
+    mass: 1.0000000409184788E35
     name: Compressed Luminous Kernite
     orebasictype: 20
     packagedVolume: 0.1899999976158142
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46699
     marketGroup: 523
+    mass: 1.0
     name: Compressed Resplendant Kernite
     orebasictype: 46683
     packagedVolume: 0.1899999976158142
@@ -84,6 +88,7 @@ types:
     compressiontypeid: 28409
     id: 17453
     marketGroup: 523
+    mass: 1.0000000409184788E35
     name: Fiery Kernite
     orebasictype: 20
     packagedVolume: 1.2000000476837158
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 28410
     id: 20
     marketGroup: 523
+    mass: 1.0000000409184788E35
     name: Kernite
     orebasictype: 20
     packagedVolume: 1.2000000476837158
@@ -126,6 +132,7 @@ types:
     compressiontypeid: 28411
     id: 17452
     marketGroup: 523
+    mass: 1.0000000409184788E35
     name: Luminous Kernite
     orebasictype: 20
     packagedVolume: 1.2000000476837158
@@ -144,6 +151,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28620
     ignoreminingwaste: 1
+    mass: 1.0000000409184788E35
     name: Lyavite
     orebasictype: 20
     packagedVolume: 1.2000000476837158
@@ -165,6 +173,7 @@ types:
     compressiontypeid: 46699
     id: 46683
     marketGroup: 523
+    mass: 1.0000000409184788E35
     name: Resplendant Kernite
     orebasictype: 46683
     packagedVolume: 1.2000000476837158

@@ -49,6 +49,7 @@ types:
     gfxturretid: 456
     hp: 1000.0
     id: 17057
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -142,6 +143,7 @@ types:
     gfxturretid: 457
     hp: 1350.0
     id: 17083
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -233,6 +235,7 @@ types:
     gfxturretid: 456
     hp: 1500.0
     id: 24075
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -319,6 +322,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24076
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -406,6 +410,7 @@ types:
     gfxturretid: 457
     hp: 1100.0
     id: 17065
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -498,6 +503,7 @@ types:
     gfxturretid: 456
     hp: 1500.0
     id: 24079
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -589,6 +595,7 @@ types:
     gfxturretid: 457
     hp: 1500.0
     id: 24082
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -680,6 +687,7 @@ types:
     gfxturretid: 458
     hp: 1500.0
     id: 24085
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -766,6 +774,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24086
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -853,6 +862,7 @@ types:
     gfxturretid: 457
     hp: 1500.0
     id: 24080
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -944,6 +954,7 @@ types:
     gfxturretid: 458
     hp: 1500.0
     id: 24083
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1030,6 +1041,7 @@ types:
     gfxturretid: 455
     hp: 1500.0
     id: 24078
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1116,6 +1128,7 @@ types:
     gfxturretid: 455
     hp: 1500.0
     id: 24077
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1204,6 +1217,7 @@ types:
     gfxturretid: 456
     hp: 1500.0
     id: 24081
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1294,6 +1308,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24084
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1381,6 +1396,7 @@ types:
     gfxturretid: 456
     hp: 1425.0
     id: 17080
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1470,6 +1486,7 @@ types:
     gfxturretid: 455
     hp: 875.0
     id: 17073
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1559,6 +1576,7 @@ types:
     gfxturretid: 455
     hp: 850.0
     id: 17075
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1649,6 +1667,7 @@ types:
     gfxturretid: 456
     hp: 1250.0
     id: 17062
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1741,6 +1760,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 17070
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1824,6 +1844,7 @@ types:
     gfxturretid: 456
     hp: 1250.0
     id: 14348
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -1900,6 +1921,7 @@ types:
     gfxturretid: 456
     hp: 600.0
     id: 26750
+    mass: 1.12E8
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 8
@@ -1973,6 +1995,7 @@ types:
     gfxturretid: 456
     hp: 600.0
     id: 16167
+    mass: 1.12E8
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 8
@@ -2044,6 +2067,7 @@ types:
     gfxturretid: 456
     hp: 600.0
     id: 11717
+    mass: 1.12E8
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 8
@@ -2130,6 +2154,7 @@ types:
     gfxturretid: 456
     hp: 1000.0
     id: 17084
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2223,6 +2248,7 @@ types:
     gfxturretid: 459
     hp: 1350.0
     id: 17109
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2314,6 +2340,7 @@ types:
     gfxturretid: 458
     hp: 1425.0
     id: 17105
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2402,6 +2429,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 17094
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2489,6 +2517,7 @@ types:
     gfxturretid: 459
     hp: 1100.0
     id: 17089
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2580,6 +2609,7 @@ types:
     gfxturretid: 458
     hp: 1425.0
     id: 17104
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2669,6 +2699,7 @@ types:
     gfxturretid: 456
     hp: 875.0
     id: 17098
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2758,6 +2789,7 @@ types:
     gfxturretid: 456
     hp: 850.0
     id: 17100
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2848,6 +2880,7 @@ types:
     gfxturretid: 456
     hp: 1250.0
     id: 17087
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2940,6 +2973,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 17093
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1

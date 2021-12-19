@@ -5,6 +5,7 @@ types:
     fighterabilitykamikazeresistance: 1
     id: 45472
     iscapitalsize: 1
+    mass: 2.4E9
     name: ♦ Molok
     packagedVolume: 1.55E8
     portionSize: 1

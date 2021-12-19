@@ -2,6 +2,7 @@ types:
   Abyssal Stasis Webifier:
     falloff: 1.0
     id: 47702
+    mass: 1.0
     name: Abyssal Stasis Webifier
     packagedVolume: 5.0
     portionSize: 1

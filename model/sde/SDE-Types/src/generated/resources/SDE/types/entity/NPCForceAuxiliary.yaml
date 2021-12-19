@@ -5,6 +5,7 @@ types:
     fighterabilitykamikazeresistance: 1
     id: 45473
     iscapitalsize: 1
+    mass: 1.31E9
     name: ♦ Dagon
     packagedVolume: 1.8135E7
     portionSize: 1

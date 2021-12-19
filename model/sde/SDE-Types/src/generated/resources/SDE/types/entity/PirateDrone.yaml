@@ -47,6 +47,7 @@ types:
     hp: 55.0
     id: 12245
     kineticdamageresonance: 1.0
+    mass: 2112000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -140,6 +141,7 @@ types:
     hp: 5250.0
     id: 25215
     kineticdamageresonance: 1.0
+    mass: 1.95E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -230,6 +232,7 @@ types:
     hp: 12.0
     id: 22053
     kineticdamageresonance: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -320,6 +323,7 @@ types:
     hp: 12.0
     id: 21849
     kineticdamageresonance: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -410,6 +414,7 @@ types:
     id: 21845
     kineticdamage: 1.0
     kineticdamageresonance: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -499,6 +504,7 @@ types:
     hp: 12.0
     id: 21847
     kineticdamageresonance: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -591,6 +597,7 @@ types:
     hp: 12.0
     id: 21846
     kineticdamageresonance: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 1
@@ -684,6 +691,7 @@ types:
     id: 21848
     kineticdamage: 1.0
     kineticdamageresonance: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 1
@@ -772,6 +780,7 @@ types:
     hp: 55.0
     id: 12246
     kineticdamageresonance: 1.0
+    mass: 2810000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -862,6 +871,7 @@ types:
     hp: 5.0
     id: 27801
     kineticdamageresonance: 1.0
+    mass: 2112000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -950,6 +960,7 @@ types:
     hp: 55.0
     id: 12248
     kineticdamageresonance: 1.0
+    mass: 2000000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -1038,6 +1049,7 @@ types:
     id: 57332
     kineticdamage: 1.0
     kineticdamageresonance: 0.6700000166893005
+    mass: 950000.0
     maxdirectionalvelocity: 1
     maxlockedtargets: 5
     maxrange: 6000.0
@@ -1125,6 +1137,7 @@ types:
     id: 57397
     kineticdamage: 1.0
     kineticdamageresonance: 0.6700000166893005
+    mass: 1350000.0
     maxdirectionalvelocity: 1
     maxlockedtargets: 5
     maxrange: 6000.0
@@ -1212,6 +1225,7 @@ types:
     id: 57398
     kineticdamage: 1.0
     kineticdamageresonance: 0.6700000166893005
+    mass: 9530000.0
     maxdirectionalvelocity: 1
     maxlockedtargets: 7
     maxrange: 30000.0
@@ -1300,6 +1314,7 @@ types:
     id: 57399
     kineticdamage: 1.0
     kineticdamageresonance: 0.6700000166893005
+    mass: 6.3E7
     maxdirectionalvelocity: 1
     maxlockedtargets: 7
     maxrange: 50000.0
@@ -1388,6 +1403,7 @@ types:
     id: 12249
     kineticdamage: 2.0
     kineticdamageresonance: 1.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1

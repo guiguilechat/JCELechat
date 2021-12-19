@@ -21,6 +21,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     missiledamagemultiplier: 1.0
@@ -78,6 +79,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -136,6 +138,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -194,6 +197,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -252,6 +256,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -310,6 +315,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -368,6 +374,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -426,6 +433,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     missiledamagemultiplier: 2.5
@@ -483,6 +491,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 479
+    mass: 5.0E7
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     missiledamagemultiplier: 2.5

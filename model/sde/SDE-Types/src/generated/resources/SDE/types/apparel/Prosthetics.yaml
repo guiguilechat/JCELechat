@@ -3,6 +3,7 @@ types:
     gender: 1
     id: 34024
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Men's 'Crusher' Cybernetic Arm (black and orange left)
     packagedVolume: 0.5
     portionSize: 1
@@ -13,6 +14,7 @@ types:
     gender: 1
     id: 34038
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and orange right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -23,6 +25,7 @@ types:
     gender: 1
     id: 34025
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and red left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -33,6 +36,7 @@ types:
     gender: 1
     id: 34039
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and red right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -43,6 +47,7 @@ types:
     gender: 1
     id: 34026
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and yellow left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -53,6 +58,7 @@ types:
     gender: 1
     id: 34040
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and yellow right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -63,6 +69,7 @@ types:
     gender: 1
     id: 34027
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (blue and white left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -73,6 +80,7 @@ types:
     gender: 1
     id: 34041
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (blue and white right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -83,6 +91,7 @@ types:
     gender: 1
     id: 34029
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green and yellow left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -93,6 +102,7 @@ types:
     gender: 1
     id: 34043
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green and yellow right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -103,6 +113,7 @@ types:
     gender: 1
     id: 34028
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green camo left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -113,6 +124,7 @@ types:
     gender: 1
     id: 34042
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green camo right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -123,6 +135,7 @@ types:
     gender: 1
     id: 34030
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (gunmetal left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -133,6 +146,7 @@ types:
     gender: 1
     id: 34044
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (gunmetal right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -183,6 +197,7 @@ types:
     gender: 3
     id: 34018
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and orange ringed left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -193,6 +208,7 @@ types:
     gender: 3
     id: 34032
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and orange ringed right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -203,6 +219,7 @@ types:
     gender: 3
     id: 34020
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and yellow left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -213,6 +230,7 @@ types:
     gender: 3
     id: 34034
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and yellow right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -223,6 +241,7 @@ types:
     gender: 3
     id: 34019
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black ringed left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -233,6 +252,7 @@ types:
     gender: 3
     id: 34033
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black ringed right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -243,6 +263,7 @@ types:
     gender: 3
     id: 34021
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and black ringed left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -253,6 +274,7 @@ types:
     gender: 3
     id: 34035
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and black ringed right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -263,6 +285,7 @@ types:
     gender: 3
     id: 34022
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and white left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -273,6 +296,7 @@ types:
     gender: 3
     id: 34036
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and white right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -283,6 +307,7 @@ types:
     gender: 3
     id: 34017
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (matte black left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -293,6 +318,7 @@ types:
     gender: 3
     id: 34031
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (matte black right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -303,6 +329,7 @@ types:
     gender: 3
     id: 34023
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (white and gray ringed left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -313,6 +340,7 @@ types:
     gender: 3
     id: 34037
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (white and gray ringed right)
     packagedVolume: 0.10000000149011612
     portionSize: 1

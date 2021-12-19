@@ -42,6 +42,7 @@ types:
     hp: 700.0
     id: 42824
     kineticdamage: 6.0
+    mass: 1.13E7
     maxrange: 2000.0
     maxvelocity: 360.0
     name: Liberty Spear Gallente Cruiser

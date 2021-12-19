@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResistanceBonusBon
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResistanceBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResistanceBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResistanceBonusBonus;
@@ -79,7 +78,7 @@ public class FlexShieldHardenerScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int thermaldamageresistancebonusbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, EmDamageResistanceBonusBonus.INSTANCE, Radius.INSTANCE, ExplosiveDamageResistanceBonusBonus.INSTANCE, KineticDamageResistanceBonusBonus.INSTANCE, Mass.INSTANCE, ThermalDamageResistanceBonusBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, EmDamageResistanceBonusBonus.INSTANCE, Radius.INSTANCE, ExplosiveDamageResistanceBonusBonus.INSTANCE, KineticDamageResistanceBonusBonus.INSTANCE, ThermalDamageResistanceBonusBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE })));
     public static final FlexShieldHardenerScript.MetaGroup METAGROUP = new FlexShieldHardenerScript.MetaGroup();
 
     @Override

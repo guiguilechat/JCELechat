@@ -13,6 +13,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 869
+    mass: 1.0
     metalevelold: 5
     name: Conflagration L
     packagedVolume: 1.0
@@ -42,6 +43,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 870
+    mass: 1.0
     metalevelold: 5
     name: Conflagration M
     packagedVolume: 1.0
@@ -71,6 +73,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 871
+    mass: 1.0
     metalevelold: 5
     name: Conflagration S
     packagedVolume: 1.0
@@ -100,6 +103,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 2256
+    mass: 1.0
     metalevelold: 5
     name: Conflagration XL
     packagedVolume: 1.0
@@ -127,6 +131,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 869
+    mass: 1.0
     metalevelold: 5
     name: Scorch L
     packagedVolume: 1.0
@@ -155,6 +160,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 870
+    mass: 1.0
     metalevelold: 5
     name: Scorch M
     packagedVolume: 1.0
@@ -183,6 +189,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 871
+    mass: 1.0
     metalevelold: 5
     name: Scorch S
     packagedVolume: 1.0
@@ -211,6 +218,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 2256
+    mass: 1.0
     metalevelold: 5
     name: Scorch XL
     packagedVolume: 1.0

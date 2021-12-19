@@ -22,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -111,7 +110,7 @@ public class TrackingScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int trackingspeedbonusbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, MaxRangeBonusBonus.INSTANCE, TrackingSpeedBonusBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AoeCloudSizeBonusBonus.INSTANCE, AoeVelocityBonusBonus.INSTANCE, LauncherGroup.INSTANCE, FalloffBonusBonus.INSTANCE, LauncherGroup2 .INSTANCE, LauncherGroup3 .INSTANCE, MainColor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, MaxRangeBonusBonus.INSTANCE, TrackingSpeedBonusBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AoeCloudSizeBonusBonus.INSTANCE, AoeVelocityBonusBonus.INSTANCE, LauncherGroup.INSTANCE, FalloffBonusBonus.INSTANCE, LauncherGroup2 .INSTANCE, LauncherGroup3 .INSTANCE, MainColor.INSTANCE })));
     public static final TrackingScript.MetaGroup METAGROUP = new TrackingScript.MetaGroup();
 
     @Override

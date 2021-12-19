@@ -11,6 +11,7 @@ types:
     id: 43718
     lowsecmodifier: 1.899999976158142
     marketGroup: 2348
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Basic Capital Component Manufacturing Efficiency I
     nullsecmodifier: 2.0999999046325684
@@ -38,6 +39,7 @@ types:
     id: 43719
     lowsecmodifier: 1.899999976158142
     marketGroup: 2348
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Basic Capital Component Manufacturing Efficiency II
     nullsecmodifier: 2.0999999046325684
@@ -65,6 +67,7 @@ types:
     id: 45546
     lowsecmodifier: 1.899999976158142
     marketGroup: 2348
+    mass: 200.0
     maxgroupfitted: 1
     metagroupid: 4
     name: Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency

@@ -6,6 +6,7 @@ types:
     hp: 40.0
     id: 508
     marketGroup: 687
+    mass: 20.0
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Shield Flux Coil'
@@ -27,6 +28,7 @@ types:
     hp: 40.0
     id: 37825
     marketGroup: 687
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Shield Flux Coil
@@ -48,6 +50,7 @@ types:
     hp: 40.0
     id: 8297
     marketGroup: 687
+    mass: 20.0
     metalevelold: 1
     name: Mark I Compact Shield Flux Coil
     packagedVolume: 5.0
@@ -68,6 +71,7 @@ types:
     hp: 40.0
     id: 1254
     marketGroup: 687
+    mass: 20.0
     name: Shield Flux Coil I
     packagedVolume: 5.0
     portionSize: 1
@@ -87,6 +91,7 @@ types:
     hp: 40.0
     id: 1256
     marketGroup: 687
+    mass: 20.0
     metalevelold: 5
     name: Shield Flux Coil II
     packagedVolume: 5.0
@@ -107,6 +112,7 @@ types:
     hp: 40.0
     id: 8295
     marketGroup: 687
+    mass: 20.0
     metalevelold: 1
     name: Type-D Restrained Shield Flux Coil
     packagedVolume: 5.0

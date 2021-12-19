@@ -20,6 +20,7 @@ types:
     id: 37534
     kineticdamageresonance: 0.800000011920929
     marketGroup: 2511
+    mass: 3.0E9
     maximumrangecap: 300000
     name: Tenebrex Cyno Jammer
     packagedVolume: 5000.0

@@ -6,6 +6,7 @@ types:
     launchergroup: 291
     maincolor: 11646664
     marketGroup: 1094
+    mass: 1.0
     maxrangebonusbonus: 100
     name: Optimal Range Disruption Script
     packagedVolume: 1.0
@@ -23,6 +24,7 @@ types:
     launchergroup: 291
     maincolor: 11646664
     marketGroup: 1094
+    mass: 1.0
     maxrangebonusbonus: -100
     name: Tracking Speed Disruption Script
     packagedVolume: 1.0

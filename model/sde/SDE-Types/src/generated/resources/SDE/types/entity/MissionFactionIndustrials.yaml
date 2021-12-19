@@ -28,6 +28,7 @@ types:
     hp: 3000.0
     id: 32348
     kineticdamageresonance: 1.0
+    mass: 1.175E7
     maxvelocity: 115.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -83,6 +84,7 @@ types:
     hp: 2500.0
     id: 32388
     kineticdamageresonance: 1.0
+    mass: 1.25E7
     maxvelocity: 115.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -138,6 +140,7 @@ types:
     hp: 3500.0
     id: 32447
     kineticdamageresonance: 1.0
+    mass: 4.0E7
     maxvelocity: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -193,6 +196,7 @@ types:
     hp: 1500.0
     id: 29292
     kineticdamageresonance: 1.0
+    mass: 1.175E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 115.0
@@ -250,6 +254,7 @@ types:
     hp: 3000.0
     id: 29144
     kineticdamageresonance: 1.0
+    mass: 1.175E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 115.0
@@ -307,6 +312,7 @@ types:
     hp: 3000.0
     id: 2878
     kineticdamageresonance: 1.0
+    mass: 1.175E7
     maxvelocity: 115.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -360,6 +366,7 @@ types:
     id: 16160
     kineticdamage: 4.0
     kineticdamageresonance: 1.0
+    mass: 1.09E8
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 2100.0
@@ -419,6 +426,7 @@ types:
     id: 11714
     kineticdamage: 12.0
     kineticdamageresonance: 1.0
+    mass: 1.105E8
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 2100.0
@@ -478,6 +486,7 @@ types:
     hp: 3500.0
     id: 32446
     kineticdamageresonance: 1.0
+    mass: 4.0E7
     maxattacktargets: 1
     maxlockedtargets: 6
     maxvelocity: 100.0
@@ -535,6 +544,7 @@ types:
     hp: 1500.0
     id: 29290
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 115.0
@@ -592,6 +602,7 @@ types:
     hp: 3000.0
     id: 29145
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 115.0
@@ -649,6 +660,7 @@ types:
     hp: 3000.0
     id: 2885
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxvelocity: 115.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -703,6 +715,7 @@ types:
     hp: 3000.0
     id: 32455
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxvelocity: 115.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -758,6 +771,7 @@ types:
     hp: 1250.0
     id: 29293
     kineticdamageresonance: 1.0
+    mass: 1.25E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 115.0
@@ -815,6 +829,7 @@ types:
     hp: 2500.0
     id: 29146
     kineticdamageresonance: 1.0
+    mass: 1.25E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 115.0
@@ -872,6 +887,7 @@ types:
     hp: 2500.0
     id: 2884
     kineticdamageresonance: 1.0
+    mass: 1.25E7
     maxvelocity: 115.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -927,6 +943,7 @@ types:
     hp: 1500.0
     id: 29291
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 115.0
@@ -984,6 +1001,7 @@ types:
     hp: 3000.0
     id: 29147
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 115.0
@@ -1041,6 +1059,7 @@ types:
     hp: 3000.0
     id: 2883
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxvelocity: 115.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1096,6 +1115,7 @@ types:
     hp: 3000.0
     id: 30948
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxvelocity: 115.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1153,6 +1173,7 @@ types:
     id: 29466
     kineticdamage: 7.0
     kineticdamageresonance: 1.0
+    mass: 4.0E7
     maxattacktargets: 1
     maxlockedtargets: 6
     maxvelocity: 150.0

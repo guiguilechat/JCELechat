@@ -11,6 +11,7 @@ types:
     id: 28351
     isramcompatible: 1
     marketGroup: 933
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Design Laboratory
@@ -45,6 +46,7 @@ types:
     id: 24567
     isramcompatible: 1
     marketGroup: 933
+    mass: 1.0E8
     maxoperationaldistance: 3000
     name: Experimental Laboratory
     onliningdelay: 3000
@@ -79,6 +81,7 @@ types:
     id: 32245
     isramcompatible: 1
     marketGroup: 933
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Hyasyoda Research Laboratory
@@ -114,6 +117,7 @@ types:
     id: 16216
     isramcompatible: 1
     marketGroup: 933
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Research Laboratory

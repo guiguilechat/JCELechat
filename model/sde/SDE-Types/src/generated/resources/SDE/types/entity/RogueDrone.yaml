@@ -36,6 +36,7 @@ types:
     gfxboosterid: 397
     hp: 100.0
     id: 16693
+    mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 1120.0
@@ -104,6 +105,7 @@ types:
     hp: 50.0
     id: 13323
     kineticdamage: 2.0
+    mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 1120.0
@@ -171,6 +173,7 @@ types:
     gfxboosterid: 397
     hp: 10.0
     id: 10649
+    mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 18200.0

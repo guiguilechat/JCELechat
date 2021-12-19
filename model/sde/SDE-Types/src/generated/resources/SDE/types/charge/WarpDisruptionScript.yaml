@@ -5,6 +5,7 @@ types:
     id: 29003
     launchergroup: 899
     marketGroup: 1094
+    mass: 1.0
     massbonuspercentagebonus: -100
     maxrangehidden: 24000
     name: Focused Warp Disruption Script
@@ -24,6 +25,7 @@ types:
     id: 45010
     launchergroup: 899
     marketGroup: 1094
+    mass: 1.0
     massbonuspercentagebonus: -100
     maxrangehidden: 24000
     name: Focused Warp Scrambling Script

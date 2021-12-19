@@ -111,6 +111,7 @@ types:
     duration: 10000.0
     hp: 40.0
     id: 2083
+    mass: 5.0
     maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 4

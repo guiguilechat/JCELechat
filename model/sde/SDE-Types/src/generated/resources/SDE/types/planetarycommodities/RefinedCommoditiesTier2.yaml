@@ -88,6 +88,7 @@ types:
     id: 3725
     importtaxmultiplier: 7200
     marketGroup: 1335
+    mass: 900.0
     name: Livestock
     packagedVolume: 1.5
     portionSize: 1
@@ -172,6 +173,7 @@ types:
     id: 3695
     importtaxmultiplier: 7200
     marketGroup: 1335
+    mass: 200.0
     name: Polytextiles
     packagedVolume: 1.5
     portionSize: 1

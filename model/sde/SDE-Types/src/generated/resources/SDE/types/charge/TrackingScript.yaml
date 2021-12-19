@@ -10,6 +10,7 @@ types:
     launchergroup3: 646
     maincolor: 11646664
     marketGroup: 1094
+    mass: 1.0
     maxrangebonusbonus: 100
     name: Optimal Range Script
     packagedVolume: 1.0
@@ -31,6 +32,7 @@ types:
     launchergroup3: 646
     maincolor: 11646664
     marketGroup: 1094
+    mass: 1.0
     maxrangebonusbonus: -100
     name: Tracking Speed Script
     packagedVolume: 1.0

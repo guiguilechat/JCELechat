@@ -8,6 +8,7 @@ types:
     hp: 40.0
     id: 20635
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 3
     metalevelold: 6
     name: '''Desert Heat'' Thermal Shield Hardener'
@@ -35,6 +36,7 @@ types:
     id: 20633
     kineticdamageresistancebonus: -44.0
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 3
     metalevelold: 6
     name: '''Nugget'' Kinetic Shield Hardener'
@@ -61,6 +63,7 @@ types:
     hp: 40.0
     id: 20639
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 3
     metalevelold: 6
     name: '''Poacher'' EM Shield Hardener'
@@ -89,6 +92,7 @@ types:
     id: 20637
     kineticdamageresistancebonus: -26.0
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 3
     metalevelold: 6
     name: '''Posse'' Multispectrum Shield Hardener'
@@ -116,6 +120,7 @@ types:
     hp: 40.0
     id: 20641
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 3
     metalevelold: 6
     name: '''Snake Eyes'' Explosive Shield Hardener'
@@ -142,6 +147,7 @@ types:
     hp: 40.0
     id: 17499
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy EM Shield Hardener
@@ -168,6 +174,7 @@ types:
     hp: 40.0
     id: 17496
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Explosive Shield Hardener
@@ -194,6 +201,7 @@ types:
     id: 17495
     kineticdamageresistancebonus: -45.0
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Kinetic Shield Hardener
@@ -222,6 +230,7 @@ types:
     id: 17498
     kineticdamageresistancebonus: -30.0
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Multispectrum Shield Hardener
@@ -248,6 +257,7 @@ types:
     hp: 40.0
     id: 17497
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Thermal Shield Hardener
@@ -275,6 +285,7 @@ types:
     hp: 40.0
     id: 30420
     marketGroup: 1695
+    mass: 10000.0
     name: Civilian EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -299,6 +310,7 @@ types:
     hp: 40.0
     id: 30422
     marketGroup: 1694
+    mass: 10000.0
     name: Civilian Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -323,6 +335,7 @@ types:
     id: 30424
     kineticdamageresistancebonus: -28.0
     marketGroup: 1693
+    mass: 10000.0
     name: Civilian Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -346,6 +359,7 @@ types:
     hp: 40.0
     id: 30342
     marketGroup: 1692
+    mass: 10000.0
     name: Civilian Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -371,6 +385,7 @@ types:
     hp: 40.0
     id: 9622
     marketGroup: 1695
+    mass: 10000.0
     metalevelold: 1
     name: Compact EM Shield Hardener
     overloadhardeningbonus: 20
@@ -396,6 +411,7 @@ types:
     hp: 40.0
     id: 9646
     marketGroup: 1694
+    mass: 10000.0
     metalevelold: 1
     name: Compact Explosive Shield Hardener
     overloadhardeningbonus: 20
@@ -421,6 +437,7 @@ types:
     id: 9608
     kineticdamageresistancebonus: -42.0
     marketGroup: 1693
+    mass: 10000.0
     metalevelold: 1
     name: Compact Kinetic Shield Hardener
     overloadhardeningbonus: 20
@@ -448,6 +465,7 @@ types:
     id: 9632
     kineticdamageresistancebonus: -23.200000762939453
     marketGroup: 1696
+    mass: 10000.0
     metalevelold: 1
     name: Compact Multispectrum Shield Hardener
     overloadhardeningbonus: 20
@@ -473,6 +491,7 @@ types:
     hp: 40.0
     id: 9660
     marketGroup: 1692
+    mass: 10000.0
     metalevelold: 1
     name: Compact Thermal Shield Hardener
     overloadhardeningbonus: 20
@@ -499,6 +518,7 @@ types:
     hp: 40.0
     id: 13994
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Domination EM Shield Hardener
@@ -525,6 +545,7 @@ types:
     hp: 40.0
     id: 13996
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Explosive Shield Hardener
@@ -551,6 +572,7 @@ types:
     id: 13997
     kineticdamageresistancebonus: -44.0
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Kinetic Shield Hardener
@@ -579,6 +601,7 @@ types:
     id: 13998
     kineticdamageresistancebonus: -26.0
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Multispectrum Shield Hardener
@@ -605,6 +628,7 @@ types:
     hp: 40.0
     id: 13995
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Thermal Shield Hardener
@@ -632,6 +656,7 @@ types:
     hp: 40.0
     id: 13965
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas EM Shield Hardener
@@ -658,6 +683,7 @@ types:
     hp: 40.0
     id: 13967
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Explosive Shield Hardener
@@ -684,6 +710,7 @@ types:
     id: 13968
     kineticdamageresistancebonus: -45.0
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Kinetic Shield Hardener
@@ -712,6 +739,7 @@ types:
     id: 13969
     kineticdamageresistancebonus: -30.0
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Multispectrum Shield Hardener
@@ -738,6 +766,7 @@ types:
     hp: 40.0
     id: 13966
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Thermal Shield Hardener
@@ -765,6 +794,7 @@ types:
     hp: 40.0
     id: 2293
     marketGroup: 1695
+    mass: 10000.0
     name: EM Shield Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -789,6 +819,7 @@ types:
     hp: 40.0
     id: 2301
     marketGroup: 1695
+    mass: 10000.0
     metalevelold: 5
     name: EM Shield Hardener II
     overloadhardeningbonus: 20
@@ -814,6 +845,7 @@ types:
     hp: 40.0
     id: 54292
     marketGroup: 1695
+    mass: 10000.0
     metalevelold: 1
     name: Enduring EM Shield Hardener
     overloadhardeningbonus: 20
@@ -839,6 +871,7 @@ types:
     hp: 40.0
     id: 54293
     marketGroup: 1694
+    mass: 10000.0
     metalevelold: 1
     name: Enduring Explosive Shield Hardener
     overloadhardeningbonus: 20
@@ -864,6 +897,7 @@ types:
     id: 54294
     kineticdamageresistancebonus: -42.0
     marketGroup: 1693
+    mass: 10000.0
     metalevelold: 1
     name: Enduring Kinetic Shield Hardener
     overloadhardeningbonus: 20
@@ -891,6 +925,7 @@ types:
     id: 54291
     kineticdamageresistancebonus: -23.200000762939453
     marketGroup: 1696
+    mass: 10000.0
     metalevelold: 1
     name: Enduring Multispectrum Shield Hardener
     overloadhardeningbonus: 20
@@ -916,6 +951,7 @@ types:
     hp: 40.0
     id: 54295
     marketGroup: 1692
+    mass: 10000.0
     metalevelold: 1
     name: Enduring Thermal Shield Hardener
     overloadhardeningbonus: 20
@@ -942,6 +978,7 @@ types:
     hp: 40.0
     id: 14755
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified EM Shield Hardener
@@ -968,6 +1005,7 @@ types:
     hp: 40.0
     id: 14759
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified Explosive Shield Hardener
@@ -994,6 +1032,7 @@ types:
     id: 14751
     kineticdamageresistancebonus: -51.20000076293945
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified Kinetic Shield Hardener
@@ -1022,6 +1061,7 @@ types:
     id: 14767
     kineticdamageresistancebonus: -40.0
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified Multispectrum Shield Hardener
@@ -1048,6 +1088,7 @@ types:
     hp: 40.0
     id: 14763
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified Thermal Shield Hardener
@@ -1075,6 +1116,7 @@ types:
     hp: 40.0
     id: 2289
     marketGroup: 1694
+    mass: 10000.0
     name: Explosive Shield Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1099,6 +1141,7 @@ types:
     hp: 40.0
     id: 2297
     marketGroup: 1694
+    mass: 10000.0
     metalevelold: 5
     name: Explosive Shield Hardener II
     overloadhardeningbonus: 20
@@ -1124,6 +1167,7 @@ types:
     hp: 40.0
     id: 19279
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Gist A-Type EM Shield Hardener
@@ -1150,6 +1194,7 @@ types:
     hp: 40.0
     id: 19275
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Gist A-Type Explosive Shield Hardener
@@ -1176,6 +1221,7 @@ types:
     id: 19273
     kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Gist A-Type Kinetic Shield Hardener
@@ -1201,6 +1247,7 @@ types:
     hp: 40.0
     id: 19277
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Gist A-Type Thermal Shield Hardener
@@ -1228,6 +1275,7 @@ types:
     hp: 40.0
     id: 19265
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Gist B-Type EM Shield Hardener
@@ -1254,6 +1302,7 @@ types:
     hp: 40.0
     id: 19269
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Gist B-Type Explosive Shield Hardener
@@ -1280,6 +1329,7 @@ types:
     id: 19271
     kineticdamageresistancebonus: -46.599998474121094
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Gist B-Type Kinetic Shield Hardener
@@ -1305,6 +1355,7 @@ types:
     hp: 40.0
     id: 19267
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Gist B-Type Thermal Shield Hardener
@@ -1332,6 +1383,7 @@ types:
     hp: 40.0
     id: 19263
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Gist C-Type EM Shield Hardener
@@ -1358,6 +1410,7 @@ types:
     hp: 40.0
     id: 19259
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Gist C-Type Explosive Shield Hardener
@@ -1384,6 +1437,7 @@ types:
     id: 19257
     kineticdamageresistancebonus: -45.0
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Gist C-Type Kinetic Shield Hardener
@@ -1409,6 +1463,7 @@ types:
     hp: 40.0
     id: 19261
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Gist C-Type Thermal Shield Hardener
@@ -1436,6 +1491,7 @@ types:
     hp: 40.0
     id: 19281
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 16
     name: Gist X-Type EM Shield Hardener
@@ -1462,6 +1518,7 @@ types:
     hp: 40.0
     id: 19285
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 16
     name: Gist X-Type Explosive Shield Hardener
@@ -1488,6 +1545,7 @@ types:
     id: 19287
     kineticdamageresistancebonus: -49.79999923706055
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 16
     name: Gist X-Type Kinetic Shield Hardener
@@ -1513,6 +1571,7 @@ types:
     hp: 40.0
     id: 19283
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 16
     name: Gist X-Type Thermal Shield Hardener
@@ -1542,6 +1601,7 @@ types:
     id: 4346
     kineticdamageresistancebonus: -36.29999923706055
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Gistum A-Type Multispectrum Shield Hardener
@@ -1571,6 +1631,7 @@ types:
     id: 4345
     kineticdamageresistancebonus: -33.70000076293945
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Gistum B-Type Multispectrum Shield Hardener
@@ -1600,6 +1661,7 @@ types:
     id: 2050
     kineticdamageresistancebonus: -30.0
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Gistum C-Type Multispectrum Shield Hardener
@@ -1627,6 +1689,7 @@ types:
     hp: 40.0
     id: 14752
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified EM Shield Hardener
@@ -1653,6 +1716,7 @@ types:
     hp: 40.0
     id: 14756
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Explosive Shield Hardener
@@ -1679,6 +1743,7 @@ types:
     id: 14748
     kineticdamageresistancebonus: -46.599998474121094
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Kinetic Shield Hardener
@@ -1707,6 +1772,7 @@ types:
     id: 14764
     kineticdamageresistancebonus: -33.70000076293945
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Multispectrum Shield Hardener
@@ -1733,6 +1799,7 @@ types:
     hp: 40.0
     id: 14760
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Thermal Shield Hardener
@@ -1760,6 +1827,7 @@ types:
     id: 2291
     kineticdamageresistancebonus: -40.0
     marketGroup: 1693
+    mass: 10000.0
     name: Kinetic Shield Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1784,6 +1852,7 @@ types:
     id: 2299
     kineticdamageresistancebonus: -44.0
     marketGroup: 1693
+    mass: 10000.0
     metalevelold: 5
     name: Kinetic Shield Hardener II
     overloadhardeningbonus: 20
@@ -1811,6 +1880,7 @@ types:
     id: 578
     kineticdamageresistancebonus: -20.0
     marketGroup: 1696
+    mass: 10000.0
     name: Multispectrum Shield Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1838,6 +1908,7 @@ types:
     id: 2281
     kineticdamageresistancebonus: -26.0
     marketGroup: 1696
+    mass: 10000.0
     metalevelold: 5
     name: Multispectrum Shield Hardener II
     overloadhardeningbonus: 20
@@ -1864,6 +1935,7 @@ types:
     hp: 40.0
     id: 19280
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Pith A-Type EM Shield Hardener
@@ -1890,6 +1962,7 @@ types:
     hp: 40.0
     id: 19276
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Pith A-Type Explosive Shield Hardener
@@ -1916,6 +1989,7 @@ types:
     id: 19274
     kineticdamageresistancebonus: -49.0
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Pith A-Type Kinetic Shield Hardener
@@ -1941,6 +2015,7 @@ types:
     hp: 40.0
     id: 19278
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Pith A-Type Thermal Shield Hardener
@@ -1968,6 +2043,7 @@ types:
     hp: 40.0
     id: 19266
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Pith B-Type EM Shield Hardener
@@ -1994,6 +2070,7 @@ types:
     hp: 40.0
     id: 19270
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Pith B-Type Explosive Shield Hardener
@@ -2020,6 +2097,7 @@ types:
     id: 19272
     kineticdamageresistancebonus: -47.400001525878906
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Pith B-Type Kinetic Shield Hardener
@@ -2045,6 +2123,7 @@ types:
     hp: 40.0
     id: 19268
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Pith B-Type Thermal Shield Hardener
@@ -2072,6 +2151,7 @@ types:
     hp: 40.0
     id: 19264
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Pith C-Type EM Shield Hardener
@@ -2098,6 +2178,7 @@ types:
     hp: 40.0
     id: 19260
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Pith C-Type Explosive Shield Hardener
@@ -2124,6 +2205,7 @@ types:
     id: 19258
     kineticdamageresistancebonus: -45.79999923706055
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Pith C-Type Kinetic Shield Hardener
@@ -2149,6 +2231,7 @@ types:
     hp: 40.0
     id: 19262
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Pith C-Type Thermal Shield Hardener
@@ -2176,6 +2259,7 @@ types:
     hp: 40.0
     id: 19282
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 16
     name: Pith X-Type EM Shield Hardener
@@ -2202,6 +2286,7 @@ types:
     hp: 40.0
     id: 19286
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 16
     name: Pith X-Type Explosive Shield Hardener
@@ -2228,6 +2313,7 @@ types:
     id: 19288
     kineticdamageresistancebonus: -50.79999923706055
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 16
     name: Pith X-Type Kinetic Shield Hardener
@@ -2253,6 +2339,7 @@ types:
     hp: 40.0
     id: 19284
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 16
     name: Pith X-Type Thermal Shield Hardener
@@ -2282,6 +2369,7 @@ types:
     id: 4347
     kineticdamageresistancebonus: -37.5
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 14
     name: Pithum A-Type Multispectrum Shield Hardener
@@ -2311,6 +2399,7 @@ types:
     id: 4348
     kineticdamageresistancebonus: -35.0
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 12
     name: Pithum B-Type Multispectrum Shield Hardener
@@ -2340,6 +2429,7 @@ types:
     id: 4349
     kineticdamageresistancebonus: -32.5
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 6
     metalevelold: 10
     name: Pithum C-Type Multispectrum Shield Hardener
@@ -2366,6 +2456,7 @@ types:
     hp: 40.0
     id: 2295
     marketGroup: 1692
+    mass: 10000.0
     name: Thermal Shield Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2390,6 +2481,7 @@ types:
     hp: 40.0
     id: 2303
     marketGroup: 1692
+    mass: 10000.0
     metalevelold: 5
     name: Thermal Shield Hardener II
     overloadhardeningbonus: 20
@@ -2416,6 +2508,7 @@ types:
     hp: 40.0
     id: 14753
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified EM Shield Hardener
@@ -2442,6 +2535,7 @@ types:
     hp: 40.0
     id: 14757
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified Explosive Shield Hardener
@@ -2468,6 +2562,7 @@ types:
     id: 14749
     kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified Kinetic Shield Hardener
@@ -2496,6 +2591,7 @@ types:
     id: 14765
     kineticdamageresistancebonus: -36.29999923706055
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified Multispectrum Shield Hardener
@@ -2522,6 +2618,7 @@ types:
     hp: 40.0
     id: 14761
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified Thermal Shield Hardener
@@ -2549,6 +2646,7 @@ types:
     hp: 40.0
     id: 14754
     marketGroup: 1695
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 15
     name: Vepas's Modified EM Shield Hardener
@@ -2575,6 +2673,7 @@ types:
     hp: 40.0
     id: 14758
     marketGroup: 1694
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 15
     name: Vepas's Modified Explosive Shield Hardener
@@ -2601,6 +2700,7 @@ types:
     id: 14750
     kineticdamageresistancebonus: -49.79999923706055
     marketGroup: 1693
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 15
     name: Vepas's Modified Kinetic Shield Hardener
@@ -2629,6 +2729,7 @@ types:
     id: 14766
     kineticdamageresistancebonus: -38.79999923706055
     marketGroup: 1696
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 15
     name: Vepas's Modified Multispectrum Shield Hardener
@@ -2655,6 +2756,7 @@ types:
     hp: 40.0
     id: 14762
     marketGroup: 1692
+    mass: 10000.0
     metagroupid: 5
     metalevelold: 15
     name: Vepas's Modified Thermal Shield Hardener

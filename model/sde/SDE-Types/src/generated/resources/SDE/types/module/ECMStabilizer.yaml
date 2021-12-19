@@ -6,6 +6,7 @@ types:
     hp: 40.0
     id: 25565
     marketGroup: 967
+    mass: 1.0
     metalevelold: 1
     name: Hypnos Compact Signal Distortion Amplifier I
     packagedVolume: 5.0
@@ -24,6 +25,7 @@ types:
     hp: 40.0
     id: 25561
     marketGroup: 967
+    mass: 1.0
     name: Signal Distortion Amplifier I
     packagedVolume: 5.0
     portionSize: 1
@@ -41,6 +43,7 @@ types:
     hp: 40.0
     id: 25563
     marketGroup: 967
+    mass: 1.0
     metalevelold: 5
     name: Signal Distortion Amplifier II
     packagedVolume: 5.0

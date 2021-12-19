@@ -9,6 +9,7 @@ types:
     id: 47300
     launchergroup: 1974
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 2000.0
     missileneverdoesdamage: 1
     name: Capsuleer Dawn Firework (Large)
@@ -30,6 +31,7 @@ types:
     id: 47301
     launchergroup: 1974
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 2000.0
     missileneverdoesdamage: 1
     name: Crimson Helix Firework (Large)

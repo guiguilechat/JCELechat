@@ -49,6 +49,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 24190
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -133,6 +134,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 24189
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -219,6 +221,7 @@ types:
     hp: 1200.0
     id: 24191
     kineticdamage: 12.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -309,6 +312,7 @@ types:
     hp: 1200.0
     id: 24188
     kineticdamage: 11.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -399,6 +403,7 @@ types:
     hp: 1200.0
     id: 24187
     kineticdamage: 11.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -489,6 +494,7 @@ types:
     hp: 1200.0
     id: 24192
     kineticdamage: 12.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -577,6 +583,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 24016
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -661,6 +668,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 24015
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -747,6 +755,7 @@ types:
     hp: 1200.0
     id: 24017
     kineticdamage: 12.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -837,6 +846,7 @@ types:
     hp: 1200.0
     id: 24014
     kineticdamage: 11.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -927,6 +937,7 @@ types:
     hp: 1200.0
     id: 24001
     kineticdamage: 11.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -1017,6 +1028,7 @@ types:
     hp: 1200.0
     id: 24018
     kineticdamage: 12.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3

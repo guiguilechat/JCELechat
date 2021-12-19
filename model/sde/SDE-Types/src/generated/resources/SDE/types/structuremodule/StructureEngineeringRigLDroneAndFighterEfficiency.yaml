@@ -11,6 +11,7 @@ types:
     id: 43712
     lowsecmodifier: 1.899999976158142
     marketGroup: 2348
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Drone and Fighter Manufacturing Efficiency I
     nullsecmodifier: 2.0999999046325684
@@ -38,6 +39,7 @@ types:
     id: 43713
     lowsecmodifier: 1.899999976158142
     marketGroup: 2348
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Drone and Fighter Manufacturing Efficiency II
     nullsecmodifier: 2.0999999046325684

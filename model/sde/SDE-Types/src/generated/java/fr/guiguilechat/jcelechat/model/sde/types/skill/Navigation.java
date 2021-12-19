@@ -23,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPe
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveCapacitorNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveRangeBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -149,7 +148,7 @@ public class Navigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpcapacitorneedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, JumpDriveCapacitorNeedBonus.INSTANCE, Mass.INSTANCE, JumpDriveRangeBonus.INSTANCE, Capacity.INSTANCE, ConsumptionQuantityBonusPercent.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, JumpDriveCapacitorNeedBonus.INSTANCE, JumpDriveRangeBonus.INSTANCE, Capacity.INSTANCE, ConsumptionQuantityBonusPercent.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
     public static final Navigation.MetaGroup METAGROUP = new Navigation.MetaGroup();
 
     @Override

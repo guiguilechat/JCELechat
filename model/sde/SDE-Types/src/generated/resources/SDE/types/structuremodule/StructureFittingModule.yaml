@@ -7,6 +7,7 @@ types:
     hp: 40.0
     id: 35963
     marketGroup: 2218
+    mass: 500.0
     name: Standup Co-Processor Array I
     packagedVolume: 4000.0
     portionSize: 1
@@ -25,6 +26,7 @@ types:
     hp: 40.0
     id: 47344
     marketGroup: 2218
+    mass: 500.0
     metalevelold: 5
     name: Standup Co-Processor Array II
     packagedVolume: 4000.0
@@ -45,6 +47,7 @@ types:
     hp: 40.0
     id: 35965
     marketGroup: 2222
+    mass: 500.0
     name: Standup Reactor Control Unit I
     packagedVolume: 4000.0
     portionSize: 1
@@ -63,6 +66,7 @@ types:
     hp: 40.0
     id: 47347
     marketGroup: 2222
+    mass: 500.0
     metalevelold: 5
     name: Standup Reactor Control Unit II
     packagedVolume: 4000.0

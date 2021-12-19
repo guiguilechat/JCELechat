@@ -17,6 +17,7 @@ types:
     id: 54751
     maincolor: 8627698
     marketGroup: 2744
+    mass: 2000.0
     maxrange: 57600.0
     name: Large Compact Vorton Projector
     overloadrofbonus: -15
@@ -58,6 +59,7 @@ types:
     id: 54754
     maincolor: 8627698
     marketGroup: 2744
+    mass: 2000.0
     maxrange: 70400.0
     name: Large Consortium Vorton Projector
     overloadrofbonus: -15
@@ -98,6 +100,7 @@ types:
     id: 54752
     maincolor: 8627698
     marketGroup: 2744
+    mass: 2000.0
     maxrange: 70400.0
     name: Large Scoped Vorton Projector
     overloadrofbonus: -15
@@ -138,6 +141,7 @@ types:
     id: 54750
     maincolor: 8627698
     marketGroup: 2744
+    mass: 2000.0
     maxrange: 57600.0
     name: Large Vorton Projector I
     overloadrofbonus: -15
@@ -179,6 +183,7 @@ types:
     id: 54753
     maincolor: 8627698
     marketGroup: 2744
+    mass: 2000.0
     maxrange: 64000.0
     name: Large Vorton Projector II
     overloadrofbonus: -15
@@ -221,6 +226,7 @@ types:
     id: 54746
     maincolor: 8627698
     marketGroup: 2743
+    mass: 1000.0
     maxrange: 34560.0
     name: Medium Compact Vorton Projector
     overloadrofbonus: -15
@@ -262,6 +268,7 @@ types:
     id: 54749
     maincolor: 8627698
     marketGroup: 2743
+    mass: 1000.0
     maxrange: 42240.0
     name: Medium Consortium Vorton Projector
     overloadrofbonus: -15
@@ -302,6 +309,7 @@ types:
     id: 54747
     maincolor: 8627698
     marketGroup: 2743
+    mass: 1000.0
     maxrange: 42240.0
     name: Medium Scoped Vorton Projector
     overloadrofbonus: -15
@@ -342,6 +350,7 @@ types:
     id: 54745
     maincolor: 8627698
     marketGroup: 2743
+    mass: 1000.0
     maxrange: 34560.0
     name: Medium Vorton Projector I
     overloadrofbonus: -15
@@ -383,6 +392,7 @@ types:
     id: 54748
     maincolor: 8627698
     marketGroup: 2743
+    mass: 1000.0
     maxrange: 38400.0
     name: Medium Vorton Projector II
     overloadrofbonus: -15
@@ -425,6 +435,7 @@ types:
     id: 54740
     maincolor: 8627698
     marketGroup: 2742
+    mass: 500.0
     maxrange: 22464.0
     name: Small Compact Vorton Projector
     overloadrofbonus: -15
@@ -466,6 +477,7 @@ types:
     id: 54743
     maincolor: 8627698
     marketGroup: 2742
+    mass: 500.0
     maxrange: 27456.0
     name: Small Consortium Vorton Projector
     overloadrofbonus: -15
@@ -506,6 +518,7 @@ types:
     id: 54741
     maincolor: 8627698
     marketGroup: 2742
+    mass: 500.0
     maxrange: 27456.0
     name: Small Scoped Vorton Projector
     overloadrofbonus: -15
@@ -546,6 +559,7 @@ types:
     id: 54739
     maincolor: 8627698
     marketGroup: 2742
+    mass: 500.0
     maxrange: 22464.0
     name: Small Vorton Projector I
     overloadrofbonus: -15
@@ -587,6 +601,7 @@ types:
     id: 54742
     maincolor: 8627698
     marketGroup: 2742
+    mass: 500.0
     maxrange: 24960.0
     name: Small Vorton Projector II
     overloadrofbonus: -15

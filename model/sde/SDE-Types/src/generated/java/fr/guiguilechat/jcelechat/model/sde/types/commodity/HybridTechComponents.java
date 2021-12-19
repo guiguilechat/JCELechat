@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MoonMiningAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
@@ -32,13 +31,6 @@ public class HybridTechComponents
     @DefaultRealValue(0.0)
     public double capacity;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -52,7 +44,7 @@ public class HybridTechComponents
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, MoonMiningAmount.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, MoonMiningAmount.INSTANCE })));
     public static final HybridTechComponents.MetaGroup METAGROUP = new HybridTechComponents.MetaGroup();
 
     @Override
@@ -61,10 +53,6 @@ public class HybridTechComponents
             case  38 :
             {
                 return capacity;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  726 :
             {

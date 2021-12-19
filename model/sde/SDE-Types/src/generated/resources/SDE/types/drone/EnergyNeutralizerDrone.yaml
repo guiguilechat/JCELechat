@@ -28,6 +28,7 @@ types:
     id: 23659
     kineticdamageresonance: 1.0
     marketGroup: 843
+    mass: 3000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 3200.0
@@ -90,6 +91,7 @@ types:
     id: 23702
     kineticdamageresonance: 1.0
     marketGroup: 843
+    mass: 3000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 2750.0
@@ -152,6 +154,7 @@ types:
     id: 22572
     kineticdamageresonance: 1.0
     marketGroup: 843
+    mass: 3000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 2000.0

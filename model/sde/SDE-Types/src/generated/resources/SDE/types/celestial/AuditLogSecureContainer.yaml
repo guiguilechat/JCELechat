@@ -5,6 +5,7 @@ types:
     hp: 1.0E7
     id: 17365
     marketGroup: 1652
+    mass: 1000000.0
     name: Large Audit Log Secure Container
     packagedVolume: 65.0
     portionSize: 1
@@ -21,6 +22,7 @@ types:
     hp: 1000000.0
     id: 17364
     marketGroup: 1652
+    mass: 100000.0
     name: Medium Audit Log Secure Container
     packagedVolume: 33.0
     portionSize: 1
@@ -37,6 +39,7 @@ types:
     hp: 100000.0
     id: 17363
     marketGroup: 1652
+    mass: 10000.0
     name: Small Audit Log Secure Container
     packagedVolume: 10.0
     portionSize: 1
@@ -53,6 +56,7 @@ types:
     hp: 1.0E7
     id: 17366
     marketGroup: 1658
+    mass: 3000000.0
     name: Station Container
     packagedVolume: 10000.0
     portionSize: 1
@@ -67,6 +71,7 @@ types:
     hp: 1.0E7
     id: 17367
     marketGroup: 1658
+    mass: 6000000.0
     name: Station Vault Container
     packagedVolume: 50000.0
     portionSize: 1
@@ -81,6 +86,7 @@ types:
     hp: 1.0E8
     id: 17368
     marketGroup: 1658
+    mass: 1.8E7
     name: Station Warehouse Container
     packagedVolume: 100000.0
     portionSize: 1

@@ -6,6 +6,7 @@ types:
     hp: 40.0
     id: 37232
     marketGroup: 2344
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Structure Target Multiplexing I
     packagedVolume: 10.0
@@ -27,6 +28,7 @@ types:
     hp: 40.0
     id: 37233
     marketGroup: 2344
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Structure Target Multiplexing II
     packagedVolume: 10.0

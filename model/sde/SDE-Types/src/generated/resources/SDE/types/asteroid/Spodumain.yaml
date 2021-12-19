@@ -8,6 +8,7 @@ types:
     compressiontypeid: 28418
     id: 17466
     marketGroup: 517
+    mass: 1.0000000409184788E35
     name: Bright Spodumain
     orebasictype: 19
     packagedVolume: 16.0
@@ -27,6 +28,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28418
     marketGroup: 517
+    mass: 1.0000000409184788E35
     name: Compressed Bright Spodumain
     orebasictype: 19
     packagedVolume: 28.0
@@ -46,6 +48,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46704
     marketGroup: 517
+    mass: 1.0
     name: Compressed Dazzling Spodumain
     orebasictype: 46688
     packagedVolume: 28.0
@@ -65,6 +68,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28419
     marketGroup: 517
+    mass: 1.0000000409184788E35
     name: Compressed Gleaming Spodumain
     orebasictype: 19
     packagedVolume: 28.0
@@ -84,6 +88,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28420
     marketGroup: 517
+    mass: 1.0000000409184788E35
     name: Compressed Spodumain
     orebasictype: 19
     packagedVolume: 28.0
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 46704
     id: 46688
     marketGroup: 517
+    mass: 1.0000000409184788E35
     name: Dazzling Spodumain
     orebasictype: 46688
     packagedVolume: 16.0
@@ -126,6 +132,7 @@ types:
     compressiontypeid: 28419
     id: 17467
     marketGroup: 517
+    mass: 1.0000000409184788E35
     name: Gleaming Spodumain
     orebasictype: 19
     packagedVolume: 16.0
@@ -147,6 +154,7 @@ types:
     compressiontypeid: 28420
     id: 19
     marketGroup: 517
+    mass: 1.0000000409184788E35
     name: Spodumain
     orebasictype: 19
     packagedVolume: 16.0

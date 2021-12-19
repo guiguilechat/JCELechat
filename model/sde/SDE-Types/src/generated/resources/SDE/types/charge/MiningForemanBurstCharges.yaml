@@ -3,6 +3,7 @@ types:
     id: 42831
     launchergroup: 1770
     marketGroup: 2300
+    mass: 0.009999999776482582
     name: Mining Equipment Preservation Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
@@ -20,6 +21,7 @@ types:
     id: 42829
     launchergroup: 1770
     marketGroup: 2300
+    mass: 0.009999999776482582
     name: Mining Laser Field Enhancement Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
@@ -37,6 +39,7 @@ types:
     id: 42830
     launchergroup: 1770
     marketGroup: 2300
+    mass: 0.009999999776482582
     name: Mining Laser Optimization Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500

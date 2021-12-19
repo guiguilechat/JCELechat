@@ -12,6 +12,7 @@ types:
     id: 41276
     launchergroup: 524
     marketGroup: 2259
+    mass: 1500.0
     maxvelocity: 5220.0
     metalevelold: 5
     name: Inferno Javelin XL Torpedo
@@ -43,6 +44,7 @@ types:
     id: 41277
     launchergroup: 524
     marketGroup: 2258
+    mass: 1500.0
     maxvelocity: 2900.0
     metalevelold: 5
     name: Inferno Rage XL Torpedo
@@ -75,6 +77,7 @@ types:
     id: 41274
     launchergroup: 524
     marketGroup: 2259
+    mass: 1500.0
     maxvelocity: 5220.0
     metalevelold: 5
     name: Mjolnir Javelin XL Torpedo
@@ -106,6 +109,7 @@ types:
     id: 41275
     launchergroup: 524
     marketGroup: 2258
+    mass: 1500.0
     maxvelocity: 2900.0
     metalevelold: 5
     name: Mjolnir Rage XL Torpedo
@@ -137,6 +141,7 @@ types:
     id: 41272
     launchergroup: 524
     marketGroup: 2259
+    mass: 1500.0
     maxvelocity: 5220.0
     metalevelold: 5
     name: Nova Javelin XL Torpedo
@@ -168,6 +173,7 @@ types:
     id: 41273
     launchergroup: 524
     marketGroup: 2258
+    mass: 1500.0
     maxvelocity: 2900.0
     metalevelold: 5
     name: Nova Rage XL Torpedo
@@ -199,6 +205,7 @@ types:
     kineticdamage: 5297.0
     launchergroup: 524
     marketGroup: 2259
+    mass: 1500.0
     maxvelocity: 5220.0
     metalevelold: 5
     name: Scourge Javelin XL Torpedo
@@ -230,6 +237,7 @@ types:
     kineticdamage: 8121.0
     launchergroup: 524
     marketGroup: 2258
+    mass: 1500.0
     maxvelocity: 2900.0
     metalevelold: 5
     name: Scourge Rage XL Torpedo

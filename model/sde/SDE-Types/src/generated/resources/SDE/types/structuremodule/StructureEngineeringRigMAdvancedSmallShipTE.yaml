@@ -10,6 +10,7 @@ types:
     id: 43856
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Advanced Small Ship Manufacturing Time Efficiency I
     nullsecmodifier: 2.0999999046325684
@@ -36,6 +37,7 @@ types:
     id: 43857
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Advanced Small Ship Manufacturing Time Efficiency II
     nullsecmodifier: 2.0999999046325684

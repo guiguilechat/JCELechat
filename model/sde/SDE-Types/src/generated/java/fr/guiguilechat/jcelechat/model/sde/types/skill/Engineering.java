@@ -22,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleRepairRateBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerEngineeringOutputBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedBonus;
@@ -157,7 +156,7 @@ public class Engineering
     @Stackable(true)
     @DefaultIntValue(0)
     public int thermodynamicsheatdamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, PowerNeedBonus.INSTANCE, Mass.INSTANCE, ThermodynamicsHeatDamage.INSTANCE, ShipBrokenRepairCostMultiplierBonus.INSTANCE, ModuleRepairRateBonus.INSTANCE, SkillTimeConstant.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, SkillLevel.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CapacitorCapacityBonus.INSTANCE, RequiredSkill3 .INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, PowerNeedBonus.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, ThermodynamicsHeatDamage.INSTANCE, ShipBrokenRepairCostMultiplierBonus.INSTANCE, ModuleRepairRateBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, CapacitorCapacityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final Engineering.MetaGroup METAGROUP = new Engineering.MetaGroup();
 
     @Override

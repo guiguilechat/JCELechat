@@ -36,6 +36,7 @@ types:
     gfxboosterid: 395
     hp: 3000.0
     id: 30974
+    mass: 1.35E7
     maxdirectionalvelocity: 1
     maxvelocity: 115.0
     mintargetveldmgmultiplier: 1.0
@@ -115,6 +116,7 @@ types:
     gfxturretid: 464
     hp: 500000.0
     id: 25557
+    mass: 1.95E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 1

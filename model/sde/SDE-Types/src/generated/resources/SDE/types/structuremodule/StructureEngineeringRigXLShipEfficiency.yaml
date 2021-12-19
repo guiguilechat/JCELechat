@@ -10,6 +10,7 @@ types:
     id: 37180
     lowsecmodifier: 1.899999976158142
     marketGroup: 2349
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set Ship Manufacturing Efficiency I
     nullsecmodifier: 2.0999999046325684
@@ -38,6 +39,7 @@ types:
     id: 37181
     lowsecmodifier: 1.899999976158142
     marketGroup: 2349
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set Ship Manufacturing Efficiency II
     nullsecmodifier: 2.0999999046325684

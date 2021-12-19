@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ImplantBonusVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Nondestructible;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -114,7 +113,7 @@ public class CyberNavigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpspeedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Nondestructible.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Implantness.INSTANCE, WarpSBonus.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, AgilityBonus.INSTANCE, WarpSpeedBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Nondestructible.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Implantness.INSTANCE, WarpSBonus.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, AgilityBonus.INSTANCE, WarpSpeedBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
     public static final CyberNavigation.MetaGroup METAGROUP = new CyberNavigation.MetaGroup();
 
     @Override

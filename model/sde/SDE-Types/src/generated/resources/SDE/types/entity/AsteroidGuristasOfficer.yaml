@@ -44,6 +44,7 @@ types:
     gfxboosterid: 395
     hp: 9125.0
     id: 13603
+    mass: 1080000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 30375.0
@@ -126,6 +127,7 @@ types:
     gfxboosterid: 395
     hp: 12452.0
     id: 13589
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1142.0
@@ -207,6 +209,7 @@ types:
     gfxboosterid: 395
     hp: 9125.0
     id: 13584
+    mass: 2.2E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 37500.0
@@ -289,6 +292,7 @@ types:
     gfxboosterid: 395
     hp: 12452.0
     id: 13580
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1142.0

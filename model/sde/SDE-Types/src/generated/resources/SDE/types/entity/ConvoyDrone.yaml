@@ -33,6 +33,7 @@ types:
     id: 10999
     kineticdamage: 3.0
     kineticdamageresonance: 1.0
+    mass: 1800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 570.0
@@ -98,6 +99,7 @@ types:
     id: 11001
     kineticdamage: 5.0
     kineticdamageresonance: 1.0
+    mass: 1970000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 8400.0
@@ -164,6 +166,7 @@ types:
     hp: 160.0
     id: 11000
     kineticdamageresonance: 1.0
+    mass: 1940000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4000.0
@@ -229,6 +232,7 @@ types:
     id: 11002
     kineticdamage: 6.0
     kineticdamageresonance: 1.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 350.0
@@ -283,6 +287,7 @@ types:
     hp: 40.0
     id: 9869
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 350.0

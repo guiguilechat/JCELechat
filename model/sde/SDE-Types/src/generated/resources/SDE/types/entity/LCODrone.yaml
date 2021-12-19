@@ -12,6 +12,7 @@ types:
     hp: 80.0
     id: 3457
     kineticdamageresonance: 1.0
+    mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 350.0

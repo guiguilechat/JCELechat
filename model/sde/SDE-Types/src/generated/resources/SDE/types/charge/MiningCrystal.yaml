@@ -10,6 +10,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Abyssal Asteroid Mining Crystal Type A I
     packagedVolume: 10.0
@@ -38,6 +39,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Abyssal Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
@@ -67,6 +69,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Abyssal Asteroid Mining Crystal Type B I
     packagedVolume: 10.0
@@ -96,6 +99,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Abyssal Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
@@ -125,6 +129,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Abyssal Asteroid Mining Crystal Type C I
     packagedVolume: 10.0
@@ -155,6 +160,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Abyssal Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
@@ -185,6 +191,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Coherent Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -212,6 +219,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Coherent Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
@@ -241,6 +249,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Coherent Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -269,6 +278,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Coherent Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
@@ -298,6 +308,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Coherent Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -327,6 +338,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Coherent Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
@@ -357,6 +369,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Common Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -384,6 +397,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Common Moon Mining Crystal Type A II
     packagedVolume: 10.0
@@ -413,6 +427,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Common Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -441,6 +456,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Common Moon Mining Crystal Type B II
     packagedVolume: 10.0
@@ -470,6 +486,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Common Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -499,6 +516,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Common Moon Mining Crystal Type C II
     packagedVolume: 10.0
@@ -529,6 +547,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Complex Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -556,6 +575,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Complex Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
@@ -585,6 +605,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Complex Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -613,6 +634,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Complex Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
@@ -642,6 +664,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Complex Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -671,6 +694,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Complex Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
@@ -701,6 +725,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Exceptional Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -728,6 +753,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Exceptional Moon Mining Crystal Type A II
     packagedVolume: 10.0
@@ -757,6 +783,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Exceptional Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -785,6 +812,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Exceptional Moon Mining Crystal Type B II
     packagedVolume: 10.0
@@ -814,6 +842,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Exceptional Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -843,6 +872,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Exceptional Moon Mining Crystal Type C II
     packagedVolume: 10.0
@@ -873,6 +903,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Rare Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -900,6 +931,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Rare Moon Mining Crystal Type A II
     packagedVolume: 10.0
@@ -929,6 +961,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Rare Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -957,6 +990,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Rare Moon Mining Crystal Type B II
     packagedVolume: 10.0
@@ -986,6 +1020,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Rare Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -1015,6 +1050,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Rare Moon Mining Crystal Type C II
     packagedVolume: 10.0
@@ -1044,6 +1080,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Simple Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -1070,6 +1107,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Simple Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
@@ -1099,6 +1137,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Simple Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -1127,6 +1166,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Simple Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
@@ -1156,6 +1196,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Simple Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -1185,6 +1226,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Simple Asteroid Mining Crystal Type C II
     packagedVolume: 10.0
@@ -1214,6 +1256,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Ubiquitous Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -1240,6 +1283,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Ubiquitous Moon Mining Crystal Type A II
     packagedVolume: 10.0
@@ -1269,6 +1313,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Ubiquitous Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -1297,6 +1342,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Ubiquitous Moon Mining Crystal Type B II
     packagedVolume: 10.0
@@ -1326,6 +1372,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Ubiquitous Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -1355,6 +1402,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Ubiquitous Moon Mining Crystal Type C II
     packagedVolume: 10.0
@@ -1385,6 +1433,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Uncommon Moon Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -1412,6 +1461,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Uncommon Moon Mining Crystal Type A II
     packagedVolume: 10.0
@@ -1441,6 +1491,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Uncommon Moon Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -1469,6 +1520,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Uncommon Moon Mining Crystal Type B II
     packagedVolume: 10.0
@@ -1498,6 +1550,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     name: Uncommon Moon Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -1527,6 +1580,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2805
+    mass: 1.0
     metalevelold: 5
     name: Uncommon Moon Mining Crystal Type C II
     packagedVolume: 10.0
@@ -1557,6 +1611,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Variegated Asteroid Mining Crystal Type A I
     packagedVolume: 6.0
     portionSize: 1
@@ -1584,6 +1639,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Variegated Asteroid Mining Crystal Type A II
     packagedVolume: 10.0
@@ -1613,6 +1669,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Variegated Asteroid Mining Crystal Type B I
     packagedVolume: 6.0
     portionSize: 1
@@ -1641,6 +1698,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Variegated Asteroid Mining Crystal Type B II
     packagedVolume: 10.0
@@ -1670,6 +1728,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     name: Variegated Asteroid Mining Crystal Type C I
     packagedVolume: 6.0
     portionSize: 1
@@ -1699,6 +1758,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 2804
+    mass: 1.0
     metalevelold: 5
     name: Variegated Asteroid Mining Crystal Type C II
     packagedVolume: 10.0

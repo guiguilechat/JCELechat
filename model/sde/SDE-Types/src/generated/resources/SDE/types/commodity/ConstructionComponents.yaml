@@ -2,6 +2,7 @@ types:
   Antimatter Reactor Unit:
     id: 11549
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: Antimatter Reactor Unit
     packagedVolume: 1.0
@@ -12,6 +13,7 @@ types:
   Auto-Integrity Preservation Seal:
     id: 57478
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Auto-Integrity Preservation Seal
     packagedVolume: 45.0
@@ -22,6 +24,7 @@ types:
   Capital Singularity Radiation Convertor:
     id: 53288
     marketGroup: 2658
+    mass: 1.0
     moonminingamount: 1
     name: Capital Singularity Radiation Convertor
     packagedVolume: 1.0
@@ -31,6 +34,7 @@ types:
   Capital Trinary State Processor:
     id: 53290
     marketGroup: 2658
+    mass: 1.0
     moonminingamount: 1
     name: Capital Trinary State Processor
     packagedVolume: 1.0
@@ -40,6 +44,7 @@ types:
   Capital Zero-Point Field Manipulator:
     id: 53289
     marketGroup: 2658
+    mass: 1.0
     moonminingamount: 1
     name: Capital Zero-Point Field Manipulator
     packagedVolume: 1.0
@@ -49,6 +54,7 @@ types:
   Core Temperature Regulator:
     id: 57479
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Core Temperature Regulator
     packagedVolume: 1000.0
@@ -59,6 +65,7 @@ types:
   Crystalline Carbonide Armor Plate:
     id: 11545
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Crystalline Carbonide Armor Plate
     packagedVolume: 1.0
@@ -69,6 +76,7 @@ types:
   Deflection Shield Emitter:
     id: 11555
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Deflection Shield Emitter
     packagedVolume: 1.0
@@ -79,6 +87,7 @@ types:
   EM Pulse Generator:
     id: 11694
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: EM Pulse Generator
     packagedVolume: 1.0
@@ -89,6 +98,7 @@ types:
   Electrolytic Capacitor Unit:
     id: 11551
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Electrolytic Capacitor Unit
     packagedVolume: 1.0
@@ -99,6 +109,7 @@ types:
   Fernite Carbide Composite Armor Plate:
     id: 11542
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Fernite Carbide Composite Armor Plate
     packagedVolume: 1.0
@@ -109,6 +120,7 @@ types:
   Fusion Reactor Unit:
     id: 11547
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Fusion Reactor Unit
     packagedVolume: 1.0
@@ -119,6 +131,7 @@ types:
   Fusion Thruster:
     id: 11532
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: Fusion Thruster
     packagedVolume: 1.0
@@ -129,6 +142,7 @@ types:
   G-O Trigger Neurolink Conduit:
     id: 57473
     marketGroup: 1889
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: G-O Trigger Neurolink Conduit
     packagedVolume: 16.0
@@ -139,6 +153,7 @@ types:
   Genetic Lock Preserver:
     id: 57481
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Genetic Lock Preserver
     packagedVolume: 1.0
@@ -149,6 +164,7 @@ types:
   Genetic Mutation Inhibiter:
     id: 57485
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Genetic Mutation Inhibiter
     packagedVolume: 1.0
@@ -159,6 +175,7 @@ types:
   Genetic Safeguard Filter:
     id: 57482
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Genetic Safeguard Filter
     packagedVolume: 1.0
@@ -169,6 +186,7 @@ types:
   Genetic Structure Repairer:
     id: 57484
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Genetic Structure Repairer
     packagedVolume: 1.0
@@ -179,6 +197,7 @@ types:
   Gravimetric Sensor Cluster:
     id: 11534
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Gravimetric Sensor Cluster
     packagedVolume: 1.0
@@ -189,6 +208,7 @@ types:
   Graviton Pulse Generator:
     id: 11693
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Graviton Pulse Generator
     packagedVolume: 1.0
@@ -199,6 +219,7 @@ types:
   Graviton Reactor Unit:
     id: 11550
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Graviton Reactor Unit
     packagedVolume: 1.0
@@ -209,6 +230,7 @@ types:
   Ion Thruster:
     id: 11531
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Ion Thruster
     packagedVolume: 1.0
@@ -219,6 +241,7 @@ types:
   Ladar Sensor Cluster:
     id: 11536
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Ladar Sensor Cluster
     packagedVolume: 1.0
@@ -229,6 +252,7 @@ types:
   Laser Focusing Crystals:
     id: 11689
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: Laser Focusing Crystals
     packagedVolume: 1.0
@@ -239,6 +263,7 @@ types:
   Lattice Locked Dekaisogen:
     id: 52314
     marketGroup: 2658
+    mass: 1.0
     moonminingamount: 1
     name: Lattice Locked Dekaisogen
     packagedVolume: 1.0
@@ -248,6 +273,7 @@ types:
   Life Support Backup Unit:
     id: 57486
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Life Support Backup Unit
     packagedVolume: 100.0
@@ -258,6 +284,7 @@ types:
   Linear Shield Emitter:
     id: 11557
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: Linear Shield Emitter
     packagedVolume: 1.0
@@ -268,6 +295,7 @@ types:
   Magnetometric Sensor Cluster:
     id: 11535
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Magnetometric Sensor Cluster
     packagedVolume: 1.0
@@ -278,6 +306,7 @@ types:
   Magpulse Thruster:
     id: 11533
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Magpulse Thruster
     packagedVolume: 1.0
@@ -288,6 +317,7 @@ types:
   Nanoelectrical Microprocessor:
     id: 11539
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: Nanoelectrical Microprocessor
     packagedVolume: 1.0
@@ -298,6 +328,7 @@ types:
   Nanomechanical Microprocessor:
     id: 11538
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Nanomechanical Microprocessor
     packagedVolume: 1.0
@@ -308,6 +339,7 @@ types:
   Neurolink Enhancer Reservoir:
     id: 57483
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Neurolink Enhancer Reservoir
     packagedVolume: 400.0
@@ -318,6 +350,7 @@ types:
   Nuclear Pulse Generator:
     id: 11692
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Nuclear Pulse Generator
     packagedVolume: 1.0
@@ -328,6 +361,7 @@ types:
   Nuclear Reactor Unit:
     id: 11548
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Nuclear Reactor Unit
     packagedVolume: 1.0
@@ -338,6 +372,7 @@ types:
   Oscillator Capacitor Unit:
     id: 11553
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Oscillator Capacitor Unit
     packagedVolume: 1.0
@@ -348,6 +383,7 @@ types:
   Particle Accelerator Unit:
     id: 11688
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Particle Accelerator Unit
     packagedVolume: 1.0
@@ -358,6 +394,7 @@ types:
   Photon Microprocessor:
     id: 11541
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Photon Microprocessor
     packagedVolume: 1.0
@@ -368,6 +405,7 @@ types:
   Plasma Pulse Generator:
     id: 11695
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Plasma Pulse Generator
     packagedVolume: 1.0
@@ -378,6 +416,7 @@ types:
   Plasma Thruster:
     id: 11530
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Plasma Thruster
     packagedVolume: 1.0
@@ -388,6 +427,7 @@ types:
   Programmable Purification Membrane:
     id: 57480
     marketGroup: 2768
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: Programmable Purification Membrane
     packagedVolume: 8000.0
@@ -398,6 +438,7 @@ types:
   Pulse Shield Emitter:
     id: 11556
     marketGroup: 1888
+    mass: 1.0
     moonminingamount: 100
     name: Pulse Shield Emitter
     packagedVolume: 1.0
@@ -408,6 +449,7 @@ types:
   Quantum Microprocessor:
     id: 11540
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Quantum Microprocessor
     packagedVolume: 1.0
@@ -418,6 +460,7 @@ types:
   R-O Trigger Neurolink Conduit:
     id: 57471
     marketGroup: 803
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: R-O Trigger Neurolink Conduit
     packagedVolume: 16.0
@@ -428,6 +471,7 @@ types:
   Radar Sensor Cluster:
     id: 11537
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: Radar Sensor Cluster
     packagedVolume: 1.0
@@ -438,6 +482,7 @@ types:
   Radiation Absorption Thruster:
     id: 52310
     marketGroup: 2658
+    mass: 1.0
     moonminingamount: 1
     name: Radiation Absorption Thruster
     packagedVolume: 1.0
@@ -447,6 +492,7 @@ types:
   S-R Trigger Neurolink Conduit:
     id: 57472
     marketGroup: 1888
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: S-R Trigger Neurolink Conduit
     packagedVolume: 16.0
@@ -457,6 +503,7 @@ types:
   Scalar Capacitor Unit:
     id: 11552
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Scalar Capacitor Unit
     packagedVolume: 1.0
@@ -467,6 +514,7 @@ types:
   Singularity Radiation Convertor:
     id: 52311
     marketGroup: 2658
+    mass: 1.0
     moonminingamount: 1
     name: Singularity Radiation Convertor
     packagedVolume: 1.0
@@ -476,6 +524,7 @@ types:
   Spatial Attunement Unit:
     id: 33195
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 1
     name: Spatial Attunement Unit
     packagedVolume: 1.0
@@ -485,6 +534,7 @@ types:
   Superconductor Rails:
     id: 11690
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Superconductor Rails
     packagedVolume: 1.0
@@ -495,6 +545,7 @@ types:
   Sustained Shield Emitter:
     id: 11558
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Sustained Shield Emitter
     packagedVolume: 1.0
@@ -505,6 +556,7 @@ types:
   Tesseract Capacitor Unit:
     id: 11554
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: Tesseract Capacitor Unit
     packagedVolume: 1.0
@@ -515,6 +567,7 @@ types:
   Thermonuclear Trigger Unit:
     id: 11691
     marketGroup: 1889
+    mass: 1.0
     moonminingamount: 100
     name: Thermonuclear Trigger Unit
     packagedVolume: 1.0
@@ -525,6 +578,7 @@ types:
   Titanium Diborite Armor Plate:
     id: 11544
     marketGroup: 803
+    mass: 1.0
     moonminingamount: 100
     name: Titanium Diborite Armor Plate
     packagedVolume: 1.0
@@ -535,6 +589,7 @@ types:
   Trinary State Processor:
     id: 52313
     marketGroup: 2658
+    mass: 1.0
     moonminingamount: 1
     name: Trinary State Processor
     packagedVolume: 1.0
@@ -544,6 +599,7 @@ types:
   Tungsten Carbide Armor Plate:
     id: 11543
     marketGroup: 802
+    mass: 1.0
     moonminingamount: 100
     name: Tungsten Carbide Armor Plate
     packagedVolume: 1.0
@@ -554,6 +610,7 @@ types:
   U-C Trigger Neurolink Conduit:
     id: 57470
     marketGroup: 802
+    mass: 0.10000000149011612
     moonminingamount: 1
     name: U-C Trigger Neurolink Conduit
     packagedVolume: 16.0
@@ -564,6 +621,7 @@ types:
   Zero-Point Field Manipulator:
     id: 52312
     marketGroup: 2658
+    mass: 1.0
     moonminingamount: 1
     name: Zero-Point Field Manipulator
     packagedVolume: 1.0

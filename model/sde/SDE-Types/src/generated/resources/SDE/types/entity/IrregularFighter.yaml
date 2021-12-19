@@ -21,6 +21,7 @@ types:
     hp: 500.0
     id: 47276
     kineticdamage: 4.0
+    mass: 12000.0
     maxlockedtargets: 6
     maxrange: 5000.0
     maxvelocity: 2000.0
@@ -66,6 +67,7 @@ types:
     hp: 500.0
     id: 47277
     kineticdamage: 4.0
+    mass: 12000.0
     maxlockedtargets: 6
     maxrange: 5000.0
     maxvelocity: 2000.0

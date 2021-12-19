@@ -8,6 +8,7 @@ types:
     hp: 60000.0
     id: 33581
     marketGroup: 1835
+    mass: 10000.0
     name: Small Mobile 'Hybrid' Siphon Unit
     packagedVolume: 35.0
     portionSize: 1
@@ -38,6 +39,7 @@ types:
     hp: 60000.0
     id: 33583
     marketGroup: 1835
+    mass: 10000.0
     name: Small Mobile 'Rote' Siphon Unit
     packagedVolume: 35.0
     portionSize: 1
@@ -69,6 +71,7 @@ types:
     hp: 60000.0
     id: 33477
     marketGroup: 1835
+    mass: 10000.0
     name: Small Mobile Siphon Unit
     packagedVolume: 35.0
     portionSize: 1

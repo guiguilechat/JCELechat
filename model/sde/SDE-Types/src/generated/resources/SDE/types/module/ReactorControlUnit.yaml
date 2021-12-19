@@ -6,6 +6,7 @@ types:
     hp: 40.0
     id: 23898
     marketGroup: 659
+    mass: 20.0
     metagroupid: 3
     metalevelold: 6
     name: '''Portcullis'' Reactor Control Unit I'
@@ -27,6 +28,7 @@ types:
     hp: 40.0
     id: 15122
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 13
     name: Ahremen's Modified Reactor Control Unit
@@ -48,6 +50,7 @@ types:
     hp: 40.0
     id: 17522
     marketGroup: 659
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Reactor Control Unit
@@ -69,6 +72,7 @@ types:
     hp: 40.0
     id: 1351
     marketGroup: 659
+    mass: 20.0
     metagroupid: 3
     metalevelold: 6
     name: Basic Reactor Control Unit
@@ -90,6 +94,7 @@ types:
     hp: 40.0
     id: 15112
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Reactor Control Unit
@@ -111,6 +116,7 @@ types:
     hp: 40.0
     id: 15300
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Reactor Control Unit
@@ -132,6 +138,7 @@ types:
     hp: 40.0
     id: 15124
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 14
     name: Chelm's Modified Reactor Control Unit
@@ -153,6 +160,7 @@ types:
     hp: 40.0
     id: 15306
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 14
     name: Cormack's Modified Reactor Control Unit
@@ -174,6 +182,7 @@ types:
     hp: 40.0
     id: 14128
     marketGroup: 659
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Reactor Control Unit
@@ -195,6 +204,7 @@ types:
     hp: 40.0
     id: 15126
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 14
     name: Draclira's Modified Reactor Control Unit
@@ -216,6 +226,7 @@ types:
     hp: 40.0
     id: 8263
     marketGroup: 659
+    mass: 20.0
     metalevelold: 1
     name: Mark I Compact Reactor Control Unit
     packagedVolume: 5.0
@@ -236,6 +247,7 @@ types:
     hp: 40.0
     id: 15118
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 12
     name: Raysere's Modified Reactor Control Unit
@@ -257,6 +269,7 @@ types:
     hp: 40.0
     id: 1353
     marketGroup: 659
+    mass: 20.0
     name: Reactor Control Unit I
     packagedVolume: 5.0
     portionSize: 1
@@ -276,6 +289,7 @@ types:
     hp: 40.0
     id: 1355
     marketGroup: 659
+    mass: 20.0
     metalevelold: 5
     name: Reactor Control Unit II
     packagedVolume: 5.0
@@ -296,6 +310,7 @@ types:
     hp: 40.0
     id: 15116
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 12
     name: Selynne's Modified Reactor Control Unit
@@ -317,6 +332,7 @@ types:
     hp: 40.0
     id: 15304
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 13
     name: Setele's Modified Reactor Control Unit
@@ -338,6 +354,7 @@ types:
     hp: 40.0
     id: 14132
     marketGroup: 659
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Reactor Control Unit
@@ -359,6 +376,7 @@ types:
     hp: 40.0
     id: 28776
     marketGroup: 659
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Syndicate Reactor Control Unit
@@ -380,6 +398,7 @@ types:
     hp: 40.0
     id: 15114
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Reactor Control Unit
@@ -401,6 +420,7 @@ types:
     hp: 40.0
     id: 14130
     marketGroup: 659
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Reactor Control Unit
@@ -422,6 +442,7 @@ types:
     hp: 40.0
     id: 15302
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 12
     name: Tuvan's Modified Reactor Control Unit
@@ -443,6 +464,7 @@ types:
     hp: 40.0
     id: 15120
     marketGroup: 659
+    mass: 20.0
     metagroupid: 5
     metalevelold: 13
     name: Vizan's Modified Reactor Control Unit

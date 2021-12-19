@@ -6,6 +6,7 @@ types:
     id: 46486
     lowsecmodifier: 1.0
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Composite Reactor Material Efficiency I
     nullsecmodifier: 1.100000023841858
@@ -29,6 +30,7 @@ types:
     id: 46487
     lowsecmodifier: 1.0
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Composite Reactor Material Efficiency II
     nullsecmodifier: 1.100000023841858

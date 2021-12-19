@@ -12,6 +12,7 @@ types:
     id: 29618
     launchergroup: 524
     marketGroup: 1194
+    mass: 1500.0
     maxvelocity: 3480.0
     metagroupid: 4
     metalevelold: 8
@@ -43,6 +44,7 @@ types:
     id: 29622
     launchergroup: 524
     marketGroup: 1194
+    mass: 1500.0
     maxvelocity: 3480.0
     metagroupid: 4
     metalevelold: 8
@@ -73,6 +75,7 @@ types:
     id: 29616
     launchergroup: 524
     marketGroup: 1194
+    mass: 1500.0
     maxvelocity: 3480.0
     metagroupid: 4
     metalevelold: 8
@@ -103,6 +106,7 @@ types:
     kineticdamage: 6470.0
     launchergroup: 524
     marketGroup: 1194
+    mass: 1500.0
     maxvelocity: 3480.0
     metagroupid: 4
     metalevelold: 8
@@ -132,6 +136,7 @@ types:
     id: 17861
     launchergroup: 524
     marketGroup: 1193
+    mass: 1500.0
     maxvelocity: 3480.0
     name: Inferno XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -161,6 +166,7 @@ types:
     id: 17857
     launchergroup: 524
     marketGroup: 1193
+    mass: 1500.0
     maxvelocity: 3480.0
     name: Mjolnir XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -189,6 +195,7 @@ types:
     id: 17863
     launchergroup: 524
     marketGroup: 1193
+    mass: 1500.0
     maxvelocity: 3480.0
     name: Nova XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -217,6 +224,7 @@ types:
     kineticdamage: 5885.0
     launchergroup: 524
     marketGroup: 1193
+    mass: 1500.0
     maxvelocity: 3480.0
     name: Scourge XL Torpedo
     packagedVolume: 0.30000001192092896

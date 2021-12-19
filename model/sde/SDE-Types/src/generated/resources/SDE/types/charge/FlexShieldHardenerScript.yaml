@@ -7,6 +7,7 @@ types:
     kineticdamageresistancebonusbonus: -100
     launchergroup: 1700
     marketGroup: 1094
+    mass: 1.0
     name: Shield EM Resistance Script
     packagedVolume: 1.0
     portionSize: 1
@@ -24,6 +25,7 @@ types:
     kineticdamageresistancebonusbonus: -100
     launchergroup: 1700
     marketGroup: 1094
+    mass: 1.0
     name: Shield Explosive Resistance Script
     packagedVolume: 1.0
     portionSize: 1
@@ -41,6 +43,7 @@ types:
     kineticdamageresistancebonusbonus: 200
     launchergroup: 1700
     marketGroup: 1094
+    mass: 1.0
     name: Shield Kinetic Resistance Script
     packagedVolume: 1.0
     portionSize: 1
@@ -58,6 +61,7 @@ types:
     kineticdamageresistancebonusbonus: -100
     launchergroup: 1700
     marketGroup: 1094
+    mass: 1.0
     name: Shield Thermal Resistance Script
     packagedVolume: 1.0
     portionSize: 1

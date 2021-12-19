@@ -30,6 +30,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 5.0
     id: 57285
+    mass: 1.0
     name: Advanced Capsuleer Defense Augmentation Chip
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -50,6 +51,7 @@ types:
     followsjumpclones: 1
     id: 33087
     intelligencebonus: 17
+    mass: 1.0
     memorybonus: 17
     name: Advanced Cerebral Accelerator
     nondestructible: 1
@@ -311,6 +313,7 @@ types:
     damagemultiplier: 1.0
     id: 46001
     marketGroup: 2503
+    mass: 1.0
     name: Agency 'Hardshell' TB3 Dose I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -329,6 +332,7 @@ types:
     damagemultiplier: 1.0
     id: 46002
     marketGroup: 2503
+    mass: 1.0
     name: Agency 'Hardshell' TB5 Dose II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -347,6 +351,7 @@ types:
     damagemultiplier: 1.0
     id: 46003
     marketGroup: 2503
+    mass: 1.0
     name: Agency 'Hardshell' TB7 Dose III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -365,6 +370,7 @@ types:
     damagemultiplier: 1.0
     id: 48113
     marketGroup: 2503
+    mass: 1.0
     name: Agency 'Hardshell' TB9 Dose IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -382,6 +388,7 @@ types:
     damagemultiplier: 1.0
     id: 46004
     marketGroup: 2504
+    mass: 1.0
     name: Agency 'Overclocker' SB3 Dose I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -399,6 +406,7 @@ types:
     damagemultiplier: 1.0
     id: 46005
     marketGroup: 2504
+    mass: 1.0
     name: Agency 'Overclocker' SB5 Dose II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -416,6 +424,7 @@ types:
     damagemultiplier: 1.0
     id: 46006
     marketGroup: 2504
+    mass: 1.0
     name: Agency 'Overclocker' SB7 Dose III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -433,6 +442,7 @@ types:
     damagemultiplier: 1.0
     id: 48114
     marketGroup: 2504
+    mass: 1.0
     name: Agency 'Overclocker' SB9 Dose IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -451,6 +461,7 @@ types:
     damagemultiplierbonus: 3
     id: 45998
     marketGroup: 2505
+    mass: 1.0
     name: Agency 'Pyrolancea' DB3 Dose I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -468,6 +479,7 @@ types:
     damagemultiplierbonus: 5
     id: 45999
     marketGroup: 2505
+    mass: 1.0
     name: Agency 'Pyrolancea' DB5 Dose II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -485,6 +497,7 @@ types:
     damagemultiplierbonus: 7
     id: 46000
     marketGroup: 2505
+    mass: 1.0
     name: Agency 'Pyrolancea' DB7 Dose III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -502,6 +515,7 @@ types:
     damagemultiplierbonus: 9
     id: 48115
     marketGroup: 2505
+    mass: 1.0
     name: Agency 'Pyrolancea' DB9 Dose IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -592,6 +606,7 @@ types:
     damagemultiplier: 1.0
     id: 36912
     marketGroup: 2495
+    mass: 1.0
     name: Antipharmakon Aeolis
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -610,6 +625,7 @@ types:
     damagemultiplier: 1.0
     id: 36910
     marketGroup: 2499
+    mass: 1.0
     name: Antipharmakon Iokira
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -630,6 +646,7 @@ types:
     damagemultiplier: 1.0
     id: 36909
     marketGroup: 2495
+    mass: 1.0
     name: Antipharmakon Kosybo
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -648,6 +665,7 @@ types:
     damagemultiplier: 1.0
     id: 36908
     marketGroup: 2495
+    mass: 1.0
     name: Antipharmakon Thureo
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -667,6 +685,7 @@ types:
     damagemultiplier: 1.0
     id: 36911
     marketGroup: 2501
+    mass: 1.0
     maxflighttimebonus: 8
     name: Antipharmakon Toxot
     nondiminishingskillinjectoruses: 1
@@ -737,6 +756,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 5.0
     id: 57282
+    mass: 1.0
     name: Basic Capsuleer Defense Augmentation Chip
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -758,6 +778,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57283
+    mass: 1.0
     name: Basic Capsuleer Engineering Augmentation Chip
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1013,6 +1034,7 @@ types:
     durationbonus: 10
     followsjumpclones: 1
     id: 56875
+    mass: 1.0
     name: Eifyr and Co. 'Rogue' Agility 11-11
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1033,6 +1055,7 @@ types:
     durationbonus: 10
     followsjumpclones: 1
     id: 57327
+    mass: 1.0
     name: Eifyr and Co. 'Rogue' Agility ZhenNiu
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1288,6 +1311,7 @@ types:
     followsjumpclones: 1
     id: 47396
     intelligencebonus: 12
+    mass: 1.0
     memorybonus: 12
     name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
     nondestructible: 1
@@ -1313,6 +1337,7 @@ types:
     followsjumpclones: 1
     id: 47481
     intelligencebonus: 12
+    mass: 1.0
     memorybonus: 12
     name: Expired CDIA SPACE Cerebral Accelerator
     nondestructible: 1
@@ -1338,6 +1363,7 @@ types:
     followsjumpclones: 1
     id: 47397
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
     nondestructible: 1
@@ -1363,6 +1389,7 @@ types:
     followsjumpclones: 1
     id: 47266
     intelligencebonus: 12
+    mass: 1.0
     memorybonus: 12
     name: Expired Guardian Angels 'Advanced' Cerebral Accelerator
     nondestructible: 1
@@ -1388,6 +1415,7 @@ types:
     followsjumpclones: 1
     id: 47265
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Expired Guardian Angels 'Standard' Cerebral Accelerator
     nondestructible: 1
@@ -1413,6 +1441,7 @@ types:
     followsjumpclones: 1
     id: 47267
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator
     nondestructible: 1
@@ -1438,6 +1467,7 @@ types:
     followsjumpclones: 1
     id: 47395
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
     nondestructible: 1
@@ -1487,6 +1517,7 @@ types:
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57265
+    mass: 1.0
     name: Festival-only 'Longbow' CM3 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1505,6 +1536,7 @@ types:
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57254
+    mass: 1.0
     name: Festival-only 'Longbow' ED2 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1523,6 +1555,7 @@ types:
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57262
+    mass: 1.0
     name: Festival-only 'Longbow' ED3 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1541,6 +1574,7 @@ types:
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57270
+    mass: 1.0
     name: Festival-only 'Longbow' ED4 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1560,6 +1594,7 @@ types:
     damagemultiplierbonus: 6
     followsjumpclones: 1
     id: 57232
+    mass: 1.0
     name: Festival-only 'Longbow' ED6 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1578,6 +1613,7 @@ types:
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57274
+    mass: 1.0
     name: Festival-only 'Longbow' HAM4 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1596,6 +1632,7 @@ types:
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57256
+    mass: 1.0
     name: Festival-only 'Longbow' HD2 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1614,6 +1651,7 @@ types:
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57264
+    mass: 1.0
     name: Festival-only 'Longbow' HD3 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1632,6 +1670,7 @@ types:
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57272
+    mass: 1.0
     name: Festival-only 'Longbow' HD4 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1651,6 +1690,7 @@ types:
     damagemultiplierbonus: 6
     followsjumpclones: 1
     id: 57230
+    mass: 1.0
     name: Festival-only 'Longbow' HD6 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1669,6 +1709,7 @@ types:
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57273
+    mass: 1.0
     name: Festival-only 'Longbow' HM4 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1687,6 +1728,7 @@ types:
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57258
+    mass: 1.0
     name: Festival-only 'Longbow' MD2 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1706,6 +1748,7 @@ types:
     damagemultiplierbonus: 6
     followsjumpclones: 1
     id: 57229
+    mass: 1.0
     name: Festival-only 'Longbow' MD6 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1724,6 +1767,7 @@ types:
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57255
+    mass: 1.0
     name: Festival-only 'Longbow' PD2 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1742,6 +1786,7 @@ types:
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57263
+    mass: 1.0
     name: Festival-only 'Longbow' PD3 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1760,6 +1805,7 @@ types:
     damagemultiplierbonus: 4
     followsjumpclones: 1
     id: 57271
+    mass: 1.0
     name: Festival-only 'Longbow' PD4 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1779,6 +1825,7 @@ types:
     damagemultiplierbonus: 6
     followsjumpclones: 1
     id: 57231
+    mass: 1.0
     name: Festival-only 'Longbow' PD6 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1797,6 +1844,7 @@ types:
     damagemultiplierbonus: 2
     followsjumpclones: 1
     id: 57257
+    mass: 1.0
     name: Festival-only 'Longbow' RD2 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1815,6 +1863,7 @@ types:
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57266
+    mass: 1.0
     name: Festival-only 'Longbow' TP3 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1833,6 +1882,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57261
+    mass: 1.0
     name: Festival-only 'Rock' AH2 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1851,6 +1901,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57269
+    mass: 1.0
     name: Festival-only 'Rock' AH3 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1869,6 +1920,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57277
+    mass: 1.0
     name: Festival-only 'Rock' AH4 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1888,6 +1940,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57227
+    mass: 1.0
     name: Festival-only 'Rock' AH6 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1906,6 +1959,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 2.0
     id: 57259
+    mass: 1.0
     name: Festival-only 'Rock' HH2 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1924,6 +1978,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 3.0
     id: 57267
+    mass: 1.0
     name: Festival-only 'Rock' HH3 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1942,6 +1997,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 4.0
     id: 57275
+    mass: 1.0
     name: Festival-only 'Rock' HH4 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1961,6 +2017,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 6.0
     id: 57226
+    mass: 1.0
     name: Festival-only 'Rock' HH6 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1978,6 +2035,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57260
+    mass: 1.0
     name: Festival-only 'Rock' SH2 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -1996,6 +2054,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57268
+    mass: 1.0
     name: Festival-only 'Rock' SH3 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -2014,6 +2073,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57276
+    mass: 1.0
     name: Festival-only 'Rock' SH4 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -2033,6 +2093,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 57228
+    mass: 1.0
     name: Festival-only 'Rock' SH6 Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -2053,6 +2114,7 @@ types:
     followsjumpclones: 1
     id: 57248
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Festival-only Commander Cerebral Accelerator I
     nondestructible: 1
@@ -2075,6 +2137,7 @@ types:
     followsjumpclones: 1
     id: 57249
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Festival-only Commander Cerebral Accelerator III
     nondestructible: 1
@@ -2097,6 +2160,7 @@ types:
     followsjumpclones: 1
     id: 57250
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Festival-only Commander Cerebral Accelerator VII
     nondestructible: 1
@@ -2119,6 +2183,7 @@ types:
     followsjumpclones: 1
     id: 57251
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Festival-only Marshal Cerebral Accelerator I
     nondestructible: 1
@@ -2141,6 +2206,7 @@ types:
     followsjumpclones: 1
     id: 57252
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Festival-only Marshal Cerebral Accelerator III
     nondestructible: 1
@@ -2163,6 +2229,7 @@ types:
     followsjumpclones: 1
     id: 57253
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Festival-only Marshal Cerebral Accelerator VII
     nondestructible: 1
@@ -2186,6 +2253,7 @@ types:
     followsjumpclones: 1
     id: 56661
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Festival-only New Eden Commander Pack
     nondestructible: 1
@@ -2211,6 +2279,7 @@ types:
     followsjumpclones: 1
     id: 56662
     intelligencebonus: 15
+    mass: 1.0
     memorybonus: 15
     name: Festival-only New Eden Marshal Pack
     nondestructible: 1
@@ -2236,6 +2305,7 @@ types:
     followsjumpclones: 1
     id: 56659
     intelligencebonus: 3
+    mass: 1.0
     memorybonus: 3
     name: Festival-only New Eden Vanguard Pack
     nondestructible: 1
@@ -2260,6 +2330,7 @@ types:
     followsjumpclones: 1
     id: 57242
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Festival-only Outpost Cerebral Accelerator I
     nondestructible: 1
@@ -2282,6 +2353,7 @@ types:
     followsjumpclones: 1
     id: 57243
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Festival-only Outpost Cerebral Accelerator III
     nondestructible: 1
@@ -2304,6 +2376,7 @@ types:
     followsjumpclones: 1
     id: 57244
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Festival-only Outpost Cerebral Accelerator VII
     nondestructible: 1
@@ -2326,6 +2399,7 @@ types:
     followsjumpclones: 1
     id: 57245
     intelligencebonus: 3
+    mass: 1.0
     memorybonus: 3
     name: Festival-only Vanguard Cerebral Accelerator I
     nondestructible: 1
@@ -2348,6 +2422,7 @@ types:
     followsjumpclones: 1
     id: 57246
     intelligencebonus: 3
+    mass: 1.0
     memorybonus: 3
     name: Festival-only Vanguard Cerebral Accelerator III
     nondestructible: 1
@@ -2370,6 +2445,7 @@ types:
     followsjumpclones: 1
     id: 57247
     intelligencebonus: 3
+    mass: 1.0
     memorybonus: 3
     name: Festival-only Vanguard Cerebral Accelerator VII
     nondestructible: 1
@@ -2556,6 +2632,7 @@ types:
     damagemultiplier: 1.0
     id: 10155
     marketGroup: 2491
+    mass: 1.0
     name: Improved Blue Pill Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2585,6 +2662,7 @@ types:
     damagemultiplier: 1.0
     id: 10151
     marketGroup: 2500
+    mass: 1.0
     name: Improved Crash Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2612,6 +2690,7 @@ types:
     damagemultiplier: 1.0
     id: 15477
     marketGroup: 2496
+    mass: 1.0
     name: Improved Drop Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2641,6 +2720,7 @@ types:
     damagemultiplier: 1.0
     id: 15480
     marketGroup: 2492
+    mass: 1.0
     name: Improved Exile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2668,6 +2748,7 @@ types:
     damagemultiplier: 1.0
     id: 15461
     marketGroup: 2497
+    mass: 1.0
     name: Improved Frentix Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2697,6 +2778,7 @@ types:
     damagemultiplier: 1.0
     id: 15464
     marketGroup: 2493
+    mass: 1.0
     name: Improved Mindflood Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2725,6 +2807,7 @@ types:
     falloffbonus: 15.0
     id: 10165
     marketGroup: 2498
+    mass: 1.0
     name: Improved Sooth Sayer Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2752,6 +2835,7 @@ types:
     damagemultiplier: 1.0
     id: 15458
     marketGroup: 2494
+    mass: 1.0
     name: Improved X-Instinct Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2865,6 +2949,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54587
+    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2883,6 +2968,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54588
+    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2901,6 +2987,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54589
+    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2919,6 +3006,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54590
+    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2937,6 +3025,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54591
+    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk V
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2956,6 +3045,7 @@ types:
     boosterness: 3
     damagemultiplier: 1.0
     id: 54624
+    mass: 1.0
     name: Limited Synth Crash Booster Mk I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2974,6 +3064,7 @@ types:
     boosterness: 3
     damagemultiplier: 1.0
     id: 54625
+    mass: 1.0
     name: Limited Synth Crash Booster Mk II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2992,6 +3083,7 @@ types:
     boosterness: 3
     damagemultiplier: 1.0
     id: 54626
+    mass: 1.0
     name: Limited Synth Crash Booster Mk III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3010,6 +3102,7 @@ types:
     boosterness: 3
     damagemultiplier: 1.0
     id: 54627
+    mass: 1.0
     name: Limited Synth Crash Booster Mk IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3028,6 +3121,7 @@ types:
     boosterness: 3
     damagemultiplier: 1.0
     id: 54628
+    mass: 1.0
     name: Limited Synth Crash Booster Mk V
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3045,6 +3139,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54607
+    mass: 1.0
     name: Limited Synth Drop Booster Mk I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3063,6 +3158,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54610
+    mass: 1.0
     name: Limited Synth Drop Booster Mk II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3081,6 +3177,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54611
+    mass: 1.0
     name: Limited Synth Drop Booster Mk III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3099,6 +3196,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54612
+    mass: 1.0
     name: Limited Synth Drop Booster Mk IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3117,6 +3215,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54613
+    mass: 1.0
     name: Limited Synth Drop Booster Mk V
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3136,6 +3235,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54592
+    mass: 1.0
     name: Limited Synth Exile Booster Mk I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3154,6 +3254,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54593
+    mass: 1.0
     name: Limited Synth Exile Booster Mk II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3172,6 +3273,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54594
+    mass: 1.0
     name: Limited Synth Exile Booster Mk III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3190,6 +3292,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54595
+    mass: 1.0
     name: Limited Synth Exile Booster Mk IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3208,6 +3311,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54596
+    mass: 1.0
     name: Limited Synth Exile Booster Mk V
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3225,6 +3329,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54614
+    mass: 1.0
     name: Limited Synth Frentix Booster Mk I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3243,6 +3348,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54615
+    mass: 1.0
     name: Limited Synth Frentix Booster Mk II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3261,6 +3367,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54616
+    mass: 1.0
     name: Limited Synth Frentix Booster Mk III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3279,6 +3386,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54617
+    mass: 1.0
     name: Limited Synth Frentix Booster Mk IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3297,6 +3405,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 54618
+    mass: 1.0
     name: Limited Synth Frentix Booster Mk V
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3316,6 +3425,7 @@ types:
     capacitorcapacitybonus: 2.0
     damagemultiplier: 1.0
     id: 54597
+    mass: 1.0
     name: Limited Synth Mindflood Booster Mk I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3334,6 +3444,7 @@ types:
     capacitorcapacitybonus: 2.0
     damagemultiplier: 1.0
     id: 54598
+    mass: 1.0
     name: Limited Synth Mindflood Booster Mk II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3352,6 +3463,7 @@ types:
     capacitorcapacitybonus: 2.0
     damagemultiplier: 1.0
     id: 54599
+    mass: 1.0
     name: Limited Synth Mindflood Booster Mk III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3370,6 +3482,7 @@ types:
     capacitorcapacitybonus: 3.0
     damagemultiplier: 1.0
     id: 54600
+    mass: 1.0
     name: Limited Synth Mindflood Booster Mk IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3388,6 +3501,7 @@ types:
     capacitorcapacitybonus: 3.0
     damagemultiplier: 1.0
     id: 54601
+    mass: 1.0
     name: Limited Synth Mindflood Booster Mk V
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3406,6 +3520,7 @@ types:
     damagemultiplier: 1.0
     falloffbonus: 2.0
     id: 54619
+    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3424,6 +3539,7 @@ types:
     damagemultiplier: 1.0
     falloffbonus: 2.0
     id: 54620
+    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3442,6 +3558,7 @@ types:
     damagemultiplier: 1.0
     falloffbonus: 2.0
     id: 54621
+    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3460,6 +3577,7 @@ types:
     damagemultiplier: 1.0
     falloffbonus: 3.0
     id: 54622
+    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3478,6 +3596,7 @@ types:
     damagemultiplier: 1.0
     falloffbonus: 3.0
     id: 54623
+    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk V
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3495,6 +3614,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54602
+    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk I
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3513,6 +3633,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54603
+    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk II
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3531,6 +3652,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54604
+    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk III
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3549,6 +3671,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54605
+    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk IV
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3567,6 +3690,7 @@ types:
     boosterness: 1
     damagemultiplier: 1.0
     id: 54606
+    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk V
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3655,6 +3779,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 59189
+    mass: 1.0
     maxrangebonus: 10.0
     name: Mining Blitz Range Booster Dose I
     nondiminishingskillinjectoruses: 1
@@ -3671,6 +3796,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 59190
+    mass: 1.0
     maxrangebonus: 20.0
     name: Mining Blitz Range Booster Dose II
     nondiminishingskillinjectoruses: 1
@@ -3687,6 +3813,7 @@ types:
     boosterness: 2
     damagemultiplier: 1.0
     id: 59191
+    mass: 1.0
     maxrangebonus: 30.0
     name: Mining Blitz Range Booster Dose III
     nondiminishingskillinjectoruses: 1
@@ -3703,6 +3830,7 @@ types:
     boosterness: 3
     damagemultiplier: 1.0
     id: 59192
+    mass: 1.0
     miningamountbonus: 5
     name: Mining Blitz Yield Booster Dose I
     nondiminishingskillinjectoruses: 1
@@ -3719,6 +3847,7 @@ types:
     boosterness: 3
     damagemultiplier: 1.0
     id: 59193
+    mass: 1.0
     miningamountbonus: 10
     name: Mining Blitz Yield Booster Dose II
     nondiminishingskillinjectoruses: 1
@@ -3735,6 +3864,7 @@ types:
     boosterness: 3
     damagemultiplier: 1.0
     id: 59194
+    mass: 1.0
     miningamountbonus: 15
     name: Mining Blitz Yield Booster Dose III
     nondiminishingskillinjectoruses: 1
@@ -3909,6 +4039,7 @@ types:
     damagemultiplier: 1.0
     id: 32248
     marketGroup: 2491
+    mass: 1.0
     name: Nugoehuvi Synth Blue Pill Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3931,6 +4062,7 @@ types:
     followsjumpclones: 1
     iceharvestcyclebonus: -5.0
     id: 56877
+    mass: 1.0
     miningamountbonus: 5
     name: ORE 'Harvester' Efficiency 11-11
     nondestructible: 1
@@ -3951,6 +4083,7 @@ types:
     followsjumpclones: 1
     iceharvestcyclebonus: -5.0
     id: 57329
+    mass: 1.0
     miningamountbonus: 5
     name: ORE 'Harvester' Efficiency ZhenNiu
     nondestructible: 1
@@ -4044,6 +4177,7 @@ types:
     durationbonus: -10
     followsjumpclones: 1
     id: 56876
+    mass: 1.0
     maxscandeviationmodifier: -10
     name: Poteque 'Prospector' Sharpeye 11-11
     nondestructible: 1
@@ -4064,6 +4198,7 @@ types:
     durationbonus: -10
     followsjumpclones: 1
     id: 57328
+    mass: 1.0
     maxscandeviationmodifier: -10
     name: Poteque 'Prospector' Sharpeye ZhenNiu
     nondestructible: 1
@@ -4132,6 +4267,7 @@ types:
     followsjumpclones: 1
     id: 33111
     intelligencebonus: 9
+    mass: 1.0
     memorybonus: 9
     name: Prototype Cerebral Accelerator
     nondestructible: 1
@@ -4154,6 +4290,7 @@ types:
     damagemultiplier: 1.0
     id: 3898
     marketGroup: 2506
+    mass: 1.0
     name: Quafe Zero Classic
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -4174,6 +4311,7 @@ types:
     damagemultiplier: 1.0
     id: 60575
     marketGroup: 2506
+    mass: 1.0
     name: Quafe Zero Green Apple
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -4192,6 +4330,7 @@ types:
     followsjumpclones: 1
     id: 57765
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity Anniversary Cerebral Accelerator I
     nondestructible: 1
@@ -4214,6 +4353,7 @@ types:
     followsjumpclones: 1
     id: 57766
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity Anniversary Cerebral Accelerator II
     nondestructible: 1
@@ -4236,6 +4376,7 @@ types:
     followsjumpclones: 1
     id: 57767
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity Anniversary Cerebral Accelerator III
     nondestructible: 1
@@ -4258,6 +4399,7 @@ types:
     followsjumpclones: 1
     id: 57768
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity Anniversary Cerebral Accelerator IV
     nondestructible: 1
@@ -4280,6 +4422,7 @@ types:
     followsjumpclones: 1
     iceharvestcyclebonus: -5.0
     id: 57772
+    mass: 1.0
     miningamountbonus: 5
     name: Serenity Anniversary Limited 'Efficiency' Dose
     nondestructible: 1
@@ -4300,6 +4443,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 3.0
     id: 57770
+    mass: 1.0
     name: Serenity Anniversary Limited 'Hardshell' Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4319,6 +4463,7 @@ types:
     durationbonus: 10
     followsjumpclones: 1
     id: 57769
+    mass: 1.0
     name: Serenity Anniversary Limited 'Overclocker' Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4339,6 +4484,7 @@ types:
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 57771
+    mass: 1.0
     name: Serenity Anniversary Limited 'Pyrolancea' Dose
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4357,6 +4503,7 @@ types:
     durationbonus: -10
     followsjumpclones: 1
     id: 57773
+    mass: 1.0
     maxscandeviationmodifier: -10
     name: Serenity Anniversary Limited 'Sharpeye' Dose
     nondestructible: 1
@@ -4379,6 +4526,7 @@ types:
     followsjumpclones: 1
     id: 55929
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity August Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -4404,6 +4552,7 @@ types:
     followsjumpclones: 1
     id: 55977
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity August Season Pass
     nondestructible: 1
@@ -4429,6 +4578,7 @@ types:
     followsjumpclones: 1
     id: 55928
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity August Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -4453,6 +4603,7 @@ types:
     followsjumpclones: 1
     iceharvestcyclebonus: -5.0
     id: 60180
+    mass: 1.0
     miningamountbonus: 5
     name: Serenity Autumn Limited 'Efficiency' Dose Type-A
     nondestructible: 1
@@ -4473,6 +4624,7 @@ types:
     followsjumpclones: 1
     iceharvestcyclebonus: -5.0
     id: 60185
+    mass: 1.0
     miningamountbonus: 5
     name: Serenity Autumn Limited 'Efficiency' Dose Type-B
     nondestructible: 1
@@ -4493,6 +4645,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 3.0
     id: 60178
+    mass: 1.0
     name: Serenity Autumn Limited 'Hardshell' Dose Type-A
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4513,6 +4666,7 @@ types:
     followsjumpclones: 1
     hullhpbonus: 3.0
     id: 60183
+    mass: 1.0
     name: Serenity Autumn Limited 'Hardshell' Dose Type-B
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4532,6 +4686,7 @@ types:
     durationbonus: 10
     followsjumpclones: 1
     id: 60177
+    mass: 1.0
     name: Serenity Autumn Limited 'Overclocker' Dose Type-A
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4552,6 +4707,7 @@ types:
     durationbonus: 10
     followsjumpclones: 1
     id: 60182
+    mass: 1.0
     name: Serenity Autumn Limited 'Overclocker' Dose Type-B
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4572,6 +4728,7 @@ types:
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 60179
+    mass: 1.0
     name: Serenity Autumn Limited 'Pyrolancea' Dose Type-A
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4590,6 +4747,7 @@ types:
     damagemultiplierbonus: 3
     followsjumpclones: 1
     id: 60184
+    mass: 1.0
     name: Serenity Autumn Limited 'Pyrolancea' Dose Type-B
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4608,6 +4766,7 @@ types:
     durationbonus: -10
     followsjumpclones: 1
     id: 60181
+    mass: 1.0
     maxscandeviationmodifier: -10
     name: Serenity Autumn Limited 'Sharpeye' Dose Type-A
     nondestructible: 1
@@ -4628,6 +4787,7 @@ types:
     durationbonus: -10
     followsjumpclones: 1
     id: 60186
+    mass: 1.0
     maxscandeviationmodifier: -10
     name: Serenity Autumn Limited 'Sharpeye' Dose Type-B
     nondestructible: 1
@@ -4649,6 +4809,7 @@ types:
     followsjumpclones: 1
     id: 60187
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity Autumn Limited Cerebral Accelerator I
     nondestructible: 1
@@ -4671,6 +4832,7 @@ types:
     followsjumpclones: 1
     id: 60188
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity Autumn Limited Cerebral Accelerator II
     nondestructible: 1
@@ -4693,6 +4855,7 @@ types:
     followsjumpclones: 1
     id: 60189
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity Autumn Limited Cerebral Accelerator III
     nondestructible: 1
@@ -4715,6 +4878,7 @@ types:
     followsjumpclones: 1
     id: 60190
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity Autumn Limited Cerebral Accelerator IV
     nondestructible: 1
@@ -4787,6 +4951,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59306
+    mass: 1.0
     name: Serenity Basic Capsuleer Day Glamourex Booster
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -4810,6 +4975,7 @@ types:
     followsjumpclones: 1
     id: 57036
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity December Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -4835,6 +5001,7 @@ types:
     followsjumpclones: 1
     id: 57037
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity December Season Pass
     nondestructible: 1
@@ -4860,6 +5027,7 @@ types:
     followsjumpclones: 1
     id: 57035
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity December Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -4885,6 +5053,7 @@ types:
     followsjumpclones: 1
     id: 59297
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity EoM Season Accelerator Bronze
     nondestructible: 1
@@ -4910,6 +5079,7 @@ types:
     followsjumpclones: 1
     id: 59299
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity EoM Season Accelerator Gold
     nondestructible: 1
@@ -4935,6 +5105,7 @@ types:
     followsjumpclones: 1
     id: 59298
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity EoM Season Accelerator Silver
     nondestructible: 1
@@ -5009,6 +5180,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59305
+    mass: 1.0
     name: Serenity Extended Capsuleer Day Glamourex Booster
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -5032,6 +5204,7 @@ types:
     followsjumpclones: 1
     id: 56619
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.10
     nondestructible: 1
@@ -5057,6 +5230,7 @@ types:
     followsjumpclones: 1
     id: 56823
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.11
     nondestructible: 1
@@ -5082,6 +5256,7 @@ types:
     followsjumpclones: 1
     id: 56970
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.12
     nondestructible: 1
@@ -5108,6 +5283,7 @@ types:
     id: 54976
     intelligencebonus: 5
     marketGroup: 2487
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.6
     nondestructible: 1
@@ -5134,6 +5310,7 @@ types:
     id: 55747
     intelligencebonus: 5
     marketGroup: 2487
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.7
     nondestructible: 1
@@ -5159,6 +5336,7 @@ types:
     followsjumpclones: 1
     id: 55927
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.8
     nondestructible: 1
@@ -5184,6 +5362,7 @@ types:
     followsjumpclones: 1
     id: 56128
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.9
     nondestructible: 1
@@ -5209,6 +5388,7 @@ types:
     followsjumpclones: 1
     id: 57201
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.1
     nondestructible: 1
@@ -5234,6 +5414,7 @@ types:
     followsjumpclones: 1
     id: 60485
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.10
     nondestructible: 1
@@ -5259,6 +5440,7 @@ types:
     followsjumpclones: 1
     id: 57295
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.2
     nondestructible: 1
@@ -5284,6 +5466,7 @@ types:
     followsjumpclones: 1
     id: 57428
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.3
     nondestructible: 1
@@ -5309,6 +5492,7 @@ types:
     followsjumpclones: 1
     id: 57763
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.4
     nondestructible: 1
@@ -5334,6 +5518,7 @@ types:
     followsjumpclones: 1
     id: 58727
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.5
     nondestructible: 1
@@ -5359,6 +5544,7 @@ types:
     followsjumpclones: 1
     id: 59177
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.6
     nondestructible: 1
@@ -5384,6 +5570,7 @@ types:
     followsjumpclones: 1
     id: 59620
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.7
     nondestructible: 1
@@ -5409,6 +5596,7 @@ types:
     followsjumpclones: 1
     id: 60023
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.8
     nondestructible: 1
@@ -5434,6 +5622,7 @@ types:
     followsjumpclones: 1
     id: 60172
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2021.9
     nondestructible: 1
@@ -5459,6 +5648,7 @@ types:
     followsjumpclones: 1
     id: 56834
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity November Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -5484,6 +5674,7 @@ types:
     followsjumpclones: 1
     id: 56835
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity November Season Pass
     nondestructible: 1
@@ -5509,6 +5700,7 @@ types:
     followsjumpclones: 1
     id: 56833
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity November Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -5534,6 +5726,7 @@ types:
     followsjumpclones: 1
     id: 56621
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity October Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -5559,6 +5752,7 @@ types:
     followsjumpclones: 1
     id: 56640
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity October Season Pass
     nondestructible: 1
@@ -5584,6 +5778,7 @@ types:
     followsjumpclones: 1
     id: 56620
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity October Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -5658,6 +5853,7 @@ types:
     damagemultiplier: 1.0
     followsjumpclones: 1
     id: 59304
+    mass: 1.0
     name: Serenity Potent Capsuleer Day Glamourex Booster
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -5680,6 +5876,7 @@ types:
     followsjumpclones: 1
     iceharvestcyclebonus: -8.0
     id: 59798
+    mass: 1.0
     miningamountbonus: 8
     name: Serenity Poteque 'Prospector' Harvesting MC-108
     nondestructible: 1
@@ -5701,6 +5898,7 @@ types:
     followsjumpclones: 1
     iceharvestcyclebonus: -8.0
     id: 59800
+    mass: 1.0
     miningamountbonus: 8
     name: Serenity Poteque 'Prospector' Harvesting MC-308
     nondestructible: 1
@@ -5722,6 +5920,7 @@ types:
     followsjumpclones: 1
     iceharvestcyclebonus: -8.0
     id: 59802
+    mass: 1.0
     miningamountbonus: 8
     name: Serenity Poteque 'Prospector' Harvesting MC-708
     nondestructible: 1
@@ -5763,6 +5962,7 @@ types:
     followsjumpclones: 1
     id: 56130
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity September Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -5788,6 +5988,7 @@ types:
     followsjumpclones: 1
     id: 56179
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity September Season Pass
     nondestructible: 1
@@ -5813,6 +6014,7 @@ types:
     followsjumpclones: 1
     id: 56129
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity September Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -5901,6 +6103,7 @@ types:
     followsjumpclones: 1
     id: 57296
     intelligencebonus: 2
+    mass: 1.0
     memorybonus: 2
     name: Serenity Spring Festival Cerebral Accelerator I
     nondestructible: 1
@@ -5924,6 +6127,7 @@ types:
     followsjumpclones: 1
     id: 57297
     intelligencebonus: 4
+    mass: 1.0
     memorybonus: 4
     name: Serenity Spring Festival Cerebral Accelerator II
     nondestructible: 1
@@ -5947,6 +6151,7 @@ types:
     followsjumpclones: 1
     id: 57298
     intelligencebonus: 6
+    mass: 1.0
     memorybonus: 6
     name: Serenity Spring Festival Cerebral Accelerator III
     nondestructible: 1
@@ -5970,6 +6175,7 @@ types:
     followsjumpclones: 1
     id: 57299
     intelligencebonus: 8
+    mass: 1.0
     memorybonus: 8
     name: Serenity Spring Festival Cerebral Accelerator IV
     nondestructible: 1
@@ -5993,6 +6199,7 @@ types:
     followsjumpclones: 1
     id: 57300
     intelligencebonus: 2021
+    mass: 1.0
     memorybonus: 2021
     name: Serenity Spring Festival Cerebral Accelerator V
     nondestructible: 1
@@ -6016,6 +6223,7 @@ types:
     followsjumpclones: 1
     id: 57301
     intelligencebonus: 2021
+    mass: 1.0
     memorybonus: 2021
     name: Serenity Spring Festival Cerebral Accelerator VI
     nondestructible: 1
@@ -6039,6 +6247,7 @@ types:
     followsjumpclones: 1
     id: 58770
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity The Hunt Accelerator Bronze
     nondestructible: 1
@@ -6064,6 +6273,7 @@ types:
     followsjumpclones: 1
     id: 58772
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity The Hunt Accelerator Gold
     nondestructible: 1
@@ -6089,6 +6299,7 @@ types:
     followsjumpclones: 1
     id: 58771
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity The Hunt Accelerator Silver
     nondestructible: 1
@@ -6114,6 +6325,7 @@ types:
     damagemultiplier: 1.0
     id: 56154
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC122.9 Season Booster - Agility
     nondiminishingskillinjectoruses: 1
@@ -6135,6 +6347,7 @@ types:
     damagemultiplier: 1.0
     id: 56158
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC122.9 Season Booster - EW Range
     nondiminishingskillinjectoruses: 1
@@ -6157,6 +6370,7 @@ types:
     damagemultiplier: 1.0
     id: 56125
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC122.9 Season Booster - Max Velocity
     nondiminishingskillinjectoruses: 1
@@ -6179,6 +6393,7 @@ types:
     damagemultiplier: 1.0
     id: 56157
     intelligencebonus: 5
+    mass: 1.0
     maxrangebonus: 5.0
     memorybonus: 5
     name: Serenity YC122.9 Season Booster - Mining Range
@@ -6201,6 +6416,7 @@ types:
     damagemultiplier: 1.0
     id: 56156
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC122.9 Season Booster - Probe Scanning Strength
     nondiminishingskillinjectoruses: 1
@@ -6223,6 +6439,7 @@ types:
     damagemultiplier: 1.0
     id: 56155
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC122.9 Season Booster - Signature Radius
     nondiminishingskillinjectoruses: 1
@@ -6245,6 +6462,7 @@ types:
     damagemultiplier: 1.0
     id: 56153
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC122.9 Season Booster - Warp Speed
     nondiminishingskillinjectoruses: 1
@@ -6268,6 +6486,7 @@ types:
     followsjumpclones: 1
     id: 57210
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.1 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6293,6 +6512,7 @@ types:
     followsjumpclones: 1
     id: 57211
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.1 Season Pass
     nondestructible: 1
@@ -6318,6 +6538,7 @@ types:
     followsjumpclones: 1
     id: 57209
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.1 Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -6343,6 +6564,7 @@ types:
     followsjumpclones: 1
     id: 57312
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.2 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6368,6 +6590,7 @@ types:
     followsjumpclones: 1
     id: 57313
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.2 Season Pass
     nondestructible: 1
@@ -6393,6 +6616,7 @@ types:
     followsjumpclones: 1
     id: 57311
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.2 Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -6418,6 +6642,7 @@ types:
     followsjumpclones: 1
     id: 57431
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.3 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6443,6 +6668,7 @@ types:
     followsjumpclones: 1
     id: 57432
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.3 Season Pass
     nondestructible: 1
@@ -6468,6 +6694,7 @@ types:
     followsjumpclones: 1
     id: 57430
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.3 Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -6493,6 +6720,7 @@ types:
     followsjumpclones: 1
     id: 57822
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.4 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6518,6 +6746,7 @@ types:
     followsjumpclones: 1
     id: 57823
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.4 Season Pass
     nondestructible: 1
@@ -6543,6 +6772,7 @@ types:
     followsjumpclones: 1
     id: 57821
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.4 Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -6568,6 +6798,7 @@ types:
     followsjumpclones: 1
     id: 58759
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.5 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6593,6 +6824,7 @@ types:
     followsjumpclones: 1
     id: 58760
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.5 Season Pass
     nondestructible: 1
@@ -6618,6 +6850,7 @@ types:
     followsjumpclones: 1
     id: 58758
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.5 Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -6643,6 +6876,7 @@ types:
     followsjumpclones: 1
     id: 59295
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.6 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6668,6 +6902,7 @@ types:
     followsjumpclones: 1
     id: 59296
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.6 Season Pass
     nondestructible: 1
@@ -6693,6 +6928,7 @@ types:
     followsjumpclones: 1
     id: 59294
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.6 Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -6717,6 +6953,7 @@ types:
     followsjumpclones: 1
     id: 59803
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity YC123.7 Cerebral Accelerator I
     nondestructible: 1
@@ -6739,6 +6976,7 @@ types:
     followsjumpclones: 1
     id: 59804
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity YC123.7 Cerebral Accelerator II
     nondestructible: 1
@@ -6761,6 +6999,7 @@ types:
     followsjumpclones: 1
     id: 59805
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity YC123.7 Cerebral Accelerator III
     nondestructible: 1
@@ -6783,6 +7022,7 @@ types:
     followsjumpclones: 1
     id: 59806
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity YC123.7 Cerebral Accelerator IV
     nondestructible: 1
@@ -6806,6 +7046,7 @@ types:
     followsjumpclones: 1
     id: 59756
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.7 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6831,6 +7072,7 @@ types:
     followsjumpclones: 1
     id: 59757
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.7 Season Pass
     nondestructible: 1
@@ -6856,6 +7098,7 @@ types:
     followsjumpclones: 1
     id: 60092
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.8 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6881,6 +7124,7 @@ types:
     followsjumpclones: 1
     id: 60093
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.8 Season Pass
     nondestructible: 1
@@ -6906,6 +7150,7 @@ types:
     followsjumpclones: 1
     id: 60091
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.8 Season Standard Cerebral Accelerator
     nondestructible: 1
@@ -6931,6 +7176,7 @@ types:
     followsjumpclones: 1
     id: 60250
     intelligencebonus: 5
+    mass: 1.0
     memorybonus: 5
     name: Serenity YC123.9 Season Advanced Cerebral Accelerator
     nondestructible: 1
@@ -6956,6 +7202,7 @@ types:
     followsjumpclones: 1
     id: 60251
     intelligencebonus: 1
+    mass: 1.0
     memorybonus: 1
     name: Serenity YC123.9 Season Pass
     nondestructible: 1
@@ -6980,6 +7227,7 @@ types:
     followsjumpclones: 1
     id: 59797
     manufacturingtimebonus: -8
+    mass: 1.0
     mineralneedresearchbonus: -8
     name: Serenity Zainou 'Beancounter' Manufacturing RP-108
     nondestructible: 1
@@ -7000,6 +7248,7 @@ types:
     followsjumpclones: 1
     id: 59799
     manufacturingtimebonus: -8
+    mass: 1.0
     mineralneedresearchbonus: -8
     name: Serenity Zainou 'Beancounter' Manufacturing RP-308
     nondestructible: 1
@@ -7020,6 +7269,7 @@ types:
     followsjumpclones: 1
     id: 59801
     manufacturingtimebonus: -8
+    mass: 1.0
     mineralneedresearchbonus: -8
     name: Serenity Zainou 'Beancounter' Manufacturing RP-708
     nondestructible: 1
@@ -7040,6 +7290,7 @@ types:
     followsjumpclones: 1
     id: 57323
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity ZhenNiu Cerebral Accelerator Type-A
     nondestructible: 1
@@ -7062,6 +7313,7 @@ types:
     followsjumpclones: 1
     id: 57324
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity ZhenNiu Cerebral Accelerator Type-B
     nondestructible: 1
@@ -7084,6 +7336,7 @@ types:
     followsjumpclones: 1
     id: 57325
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity ZhenNiu Cerebral Accelerator Type-C
     nondestructible: 1
@@ -7106,6 +7359,7 @@ types:
     followsjumpclones: 1
     id: 57326
     intelligencebonus: 10
+    mass: 1.0
     memorybonus: 10
     name: Serenity ZhenNiu Cerebral Accelerator Type-X
     nondestructible: 1
@@ -7159,6 +7413,7 @@ types:
     damagemultiplier: 1.0
     id: 9950
     marketGroup: 2491
+    mass: 1.0
     name: Standard Blue Pill Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7182,6 +7437,7 @@ types:
     hullhpbonus: 5.0
     id: 57284
     intelligencebonus: 2
+    mass: 1.0
     memorybonus: 2
     name: Standard Capsuleer Defense Augmentation Chip
     nondestructible: 1
@@ -7206,6 +7462,7 @@ types:
     followsjumpclones: 1
     id: 2838
     intelligencebonus: 3
+    mass: 1.0
     memorybonus: 3
     metalevelold: 8
     name: Standard Cerebral Accelerator
@@ -7240,6 +7497,7 @@ types:
     damagemultiplier: 1.0
     id: 9947
     marketGroup: 2500
+    mass: 1.0
     name: Standard Crash Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7267,6 +7525,7 @@ types:
     damagemultiplier: 1.0
     id: 15466
     marketGroup: 2496
+    mass: 1.0
     name: Standard Drop Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7320,6 +7579,7 @@ types:
     damagemultiplier: 1.0
     id: 15479
     marketGroup: 2492
+    mass: 1.0
     name: Standard Exile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7347,6 +7607,7 @@ types:
     damagemultiplier: 1.0
     id: 15460
     marketGroup: 2497
+    mass: 1.0
     name: Standard Frentix Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7376,6 +7637,7 @@ types:
     damagemultiplier: 1.0
     id: 15463
     marketGroup: 2493
+    mass: 1.0
     name: Standard Mindflood Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7428,6 +7690,7 @@ types:
     falloffbonus: 10.0
     id: 10164
     marketGroup: 2498
+    mass: 1.0
     name: Standard Sooth Sayer Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7455,6 +7718,7 @@ types:
     damagemultiplier: 1.0
     id: 15457
     marketGroup: 2494
+    mass: 1.0
     name: Standard X-Instinct Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7674,6 +7938,7 @@ types:
     damagemultiplier: 1.0
     id: 10156
     marketGroup: 2491
+    mass: 1.0
     name: Strong Blue Pill Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7703,6 +7968,7 @@ types:
     damagemultiplier: 1.0
     id: 10152
     marketGroup: 2500
+    mass: 1.0
     name: Strong Crash Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7730,6 +7996,7 @@ types:
     damagemultiplier: 1.0
     id: 15478
     marketGroup: 2496
+    mass: 1.0
     name: Strong Drop Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7759,6 +8026,7 @@ types:
     damagemultiplier: 1.0
     id: 25349
     marketGroup: 2492
+    mass: 1.0
     name: Strong Exile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7786,6 +8054,7 @@ types:
     damagemultiplier: 1.0
     id: 15462
     marketGroup: 2497
+    mass: 1.0
     name: Strong Frentix Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7815,6 +8084,7 @@ types:
     damagemultiplier: 1.0
     id: 15465
     marketGroup: 2493
+    mass: 1.0
     name: Strong Mindflood Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7843,6 +8113,7 @@ types:
     falloffbonus: 20.0
     id: 10166
     marketGroup: 2498
+    mass: 1.0
     name: Strong Sooth Sayer Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7861,6 +8132,7 @@ types:
     damagemultiplier: 1.0
     id: 59633
     marketGroup: 2503
+    mass: 1.0
     name: Strong Veilguard Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7887,6 +8159,7 @@ types:
     damagemultiplier: 1.0
     id: 15459
     marketGroup: 2494
+    mass: 1.0
     name: Strong X-Instinct Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7930,6 +8203,7 @@ types:
     damagemultiplier: 1.0
     id: 28670
     marketGroup: 2491
+    mass: 1.0
     name: Synth Blue Pill Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7950,6 +8224,7 @@ types:
     damagemultiplier: 1.0
     id: 28672
     marketGroup: 2500
+    mass: 1.0
     name: Synth Crash Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7968,6 +8243,7 @@ types:
     damagemultiplier: 1.0
     id: 28674
     marketGroup: 2496
+    mass: 1.0
     name: Synth Drop Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -7988,6 +8264,7 @@ types:
     damagemultiplier: 1.0
     id: 28676
     marketGroup: 2492
+    mass: 1.0
     name: Synth Exile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -8006,6 +8283,7 @@ types:
     damagemultiplier: 1.0
     id: 28678
     marketGroup: 2497
+    mass: 1.0
     name: Synth Frentix Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -8026,6 +8304,7 @@ types:
     damagemultiplier: 1.0
     id: 28680
     marketGroup: 2493
+    mass: 1.0
     name: Synth Mindflood Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -8045,6 +8324,7 @@ types:
     falloffbonus: 6.0
     id: 28684
     marketGroup: 2498
+    mass: 1.0
     name: Synth Sooth Sayer Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -8063,6 +8343,7 @@ types:
     damagemultiplier: 1.0
     id: 28682
     marketGroup: 2494
+    mass: 1.0
     name: Synth X-Instinct Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0

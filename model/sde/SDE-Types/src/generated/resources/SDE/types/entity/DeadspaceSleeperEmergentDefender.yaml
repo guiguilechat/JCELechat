@@ -42,6 +42,7 @@ types:
     gfxturretid: 4044
     hp: 700.0
     id: 30212
+    mass: 1910000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0
@@ -127,6 +128,7 @@ types:
     gfxturretid: 4044
     hp: 420.0
     id: 30214
+    mass: 1910000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0
@@ -213,6 +215,7 @@ types:
     gfxturretid: 4044
     hp: 560.0
     id: 30213
+    mass: 1910000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0

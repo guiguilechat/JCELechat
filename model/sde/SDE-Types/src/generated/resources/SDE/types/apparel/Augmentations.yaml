@@ -3,6 +3,7 @@ types:
     gender: 2
     id: 50051
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Amaranthine Divide' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -12,6 +13,7 @@ types:
     gender: 2
     id: 49683
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Barbatus Glimmer' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -21,6 +23,7 @@ types:
     gender: 2
     id: 55636
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Barbatus Medicus' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -30,6 +33,7 @@ types:
     gender: 2
     id: 60163
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Barbatus Semiotique' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -39,6 +43,7 @@ types:
     gender: 2
     id: 49987
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Bitwave Glacier' Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -48,6 +53,7 @@ types:
     gender: 1
     id: 41036
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Men's 'Boneweld' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -58,6 +64,7 @@ types:
     gender: 1
     id: 41047
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Men's 'Bridgestat' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -68,6 +75,7 @@ types:
     gender: 1
     id: 41044
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Men's 'Circuitrun' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -78,6 +86,7 @@ types:
     gender: 2
     id: 49682
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Domino Turquoise' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -87,6 +96,7 @@ types:
     gender: 2
     id: 53393
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Eico Auroralite' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -96,6 +106,7 @@ types:
     gender: 2
     id: 49678
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Eico Azurbrak' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -105,6 +116,7 @@ types:
     gender: 2
     id: 54926
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Eico BioSec' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -114,6 +126,7 @@ types:
     gender: 2
     id: 49681
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Eico Flamjaw' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -123,6 +136,7 @@ types:
     gender: 2
     id: 49680
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Eico Hexarc' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -132,6 +146,7 @@ types:
     gender: 2
     id: 52189
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Eico Redarc XVI' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -141,6 +156,7 @@ types:
     gender: 2
     id: 49684
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Eico Zygomandiba' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -150,6 +166,7 @@ types:
     gender: 2
     id: 49685
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Glamstreak' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -159,6 +176,7 @@ types:
     gender: 2
     id: 49677
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Grimglam' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -168,6 +186,7 @@ types:
     gender: 2
     id: 49986
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Mistborne Rime' Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -177,6 +196,7 @@ types:
     gender: 2
     id: 53394
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Oculina Carmina' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -186,6 +206,7 @@ types:
     gender: 2
     id: 49679
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Rikkadori' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -195,6 +216,7 @@ types:
     gender: 2
     id: 53041
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'RubySet TorsoRig' Body Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -204,6 +226,7 @@ types:
     gender: 2
     id: 56855
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Saikadori' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -213,6 +236,7 @@ types:
     gender: 2
     id: 60164
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Semiotique TorsoRig' Body Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -222,6 +246,7 @@ types:
     gender: 1
     id: 41046
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Men's 'Setcouple' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -232,6 +257,7 @@ types:
     gender: 1
     id: 41045
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Men's 'Twinswitch' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -242,6 +268,7 @@ types:
     gender: 2
     id: 50050
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Vermillion Dragon' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -251,6 +278,7 @@ types:
     gender: 1
     id: 41043
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Men's 'Wirepoise' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -261,6 +289,7 @@ types:
     gender: 2
     id: 50052
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Amaranthine Divide' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -270,6 +299,7 @@ types:
     gender: 2
     id: 49984
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Bitwave Glacier' Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -279,6 +309,7 @@ types:
     gender: 2
     id: 50043
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Crimson Phoenix' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -288,6 +319,7 @@ types:
     gender: 3
     id: 41049
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Women's 'Crossgrid' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -298,6 +330,7 @@ types:
     gender: 2
     id: 49671
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Domino Auric' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -307,6 +340,7 @@ types:
     gender: 2
     id: 49676
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Domino Bronza' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -316,6 +350,7 @@ types:
     gender: 2
     id: 49673
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Domino Turquoise' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -325,6 +360,7 @@ types:
     gender: 2
     id: 53386
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Eico Auroralite' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -334,6 +370,7 @@ types:
     gender: 2
     id: 49669
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Eico Azurchev' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -343,6 +380,7 @@ types:
     gender: 2
     id: 54927
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Eico BioSec' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -352,6 +390,7 @@ types:
     gender: 2
     id: 49672
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Eico Flamjaw' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -361,6 +400,7 @@ types:
     gender: 2
     id: 52188
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Eico Redwire XVI' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -370,6 +410,7 @@ types:
     gender: 2
     id: 49675
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Eico Sunstrip' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -379,6 +420,7 @@ types:
     gender: 3
     id: 41050
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Women's 'Guidemask' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -389,6 +431,7 @@ types:
     gender: 2
     id: 49670
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Imkuradori' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -398,6 +441,7 @@ types:
     gender: 2
     id: 49674
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Khalikos Vector' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -407,6 +451,7 @@ types:
     gender: 2
     id: 49985
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Mistborne Rime' Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -416,6 +461,7 @@ types:
     gender: 2
     id: 53385
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Oculina Carmina' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -425,6 +471,7 @@ types:
     gender: 2
     id: 60169
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Oculina Semiotique' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -434,6 +481,7 @@ types:
     gender: 3
     id: 41053
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Women's 'Openyagi' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -444,6 +492,7 @@ types:
     gender: 2
     id: 55627
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Purity Vector' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -453,6 +502,7 @@ types:
     gender: 2
     id: 53229
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'RubySet TorsoRig' Body Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -462,6 +512,7 @@ types:
     gender: 2
     id: 56854
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Saikadori' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -471,6 +522,7 @@ types:
     gender: 2
     id: 60170
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Semiotique TorsoRig' Body Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -480,6 +532,7 @@ types:
     gender: 2
     id: 49668
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Shadowglam' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -489,6 +542,7 @@ types:
     gender: 3
     id: 41052
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Women's 'Sparkgap' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -499,6 +553,7 @@ types:
     gender: 3
     id: 41048
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Women's 'Tripoint' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -509,6 +564,7 @@ types:
     gender: 3
     id: 41051
     marketGroup: 1836
+    mass: 0.10000000149011612
     name: Women's 'Waveform' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1

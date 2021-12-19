@@ -11,6 +11,7 @@ types:
     id: 27675
     incapacitationratio: 0.75
     marketGroup: 1010
+    mass: 1.0E8
     maxscandeviation: 1000000.0
     minscandeviation: 15000
     name: System Scanning Array

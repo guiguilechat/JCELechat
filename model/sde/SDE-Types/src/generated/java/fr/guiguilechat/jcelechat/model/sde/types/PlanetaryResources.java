@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExportTaxMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ImportTaxMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.planetaryresources.PlanetLiquidGasRawResource;
 import fr.guiguilechat.jcelechat.model.sde.types.planetaryresources.PlanetOrganicRawResource;
@@ -47,20 +46,13 @@ public abstract class PlanetaryResources
     @DefaultIntValue(1)
     public int importtaxmultiplier;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, ImportTaxMultiplier.INSTANCE, ExportTaxMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, ImportTaxMultiplier.INSTANCE, ExportTaxMultiplier.INSTANCE })));
     public static final PlanetaryResources.MetaCat METACAT = new PlanetaryResources.MetaCat();
 
     @Override
@@ -77,10 +69,6 @@ public abstract class PlanetaryResources
             case  1640 :
             {
                 return importtaxmultiplier;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

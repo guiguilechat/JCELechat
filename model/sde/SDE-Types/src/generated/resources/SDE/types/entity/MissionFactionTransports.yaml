@@ -22,6 +22,7 @@ types:
     gfxboosterid: 394
     hp: 57500.0
     id: 32449
+    mass: 2.5E8
     maxvelocity: 75.0
     name: Civilian Orca
     packagedVolume: 1.025E7
@@ -67,6 +68,7 @@ types:
     hp: 120000.0
     id: 28160
     iscapitalsize: 1
+    mass: 1.175000064E9
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 75.0
@@ -114,6 +116,7 @@ types:
     hp: 120000.0
     id: 2877
     iscapitalsize: 1
+    mass: 1.175000064E9
     maxattacktargets: 1
     maxvelocity: 75.0
     name: Federation Freighter Vessel
@@ -159,6 +162,7 @@ types:
     gfxboosterid: 394
     hp: 57500.0
     id: 32448
+    mass: 2.5E8
     maxattacktargets: 1
     maxlockedtargets: 5
     maxvelocity: 75.0
@@ -206,6 +210,7 @@ types:
     hp: 112500.0
     id: 28163
     iscapitalsize: 1
+    mass: 1.124999936E9
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 75.0
@@ -253,6 +258,7 @@ types:
     hp: 112500.0
     id: 2879
     iscapitalsize: 1
+    mass: 1.124999936E9
     maxattacktargets: 1
     maxvelocity: 75.0
     name: Imperial Freighter Vessel
@@ -298,6 +304,7 @@ types:
     gfxboosterid: 394
     hp: 46000.0
     id: 3070
+    mass: 2.5E8
     maxvelocity: 75.0
     name: Orca Civilian
     packagedVolume: 1.025E7
@@ -343,6 +350,7 @@ types:
     hp: 100000.0
     id: 28162
     iscapitalsize: 1
+    mass: 1.025E9
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 75.0
@@ -390,6 +398,7 @@ types:
     hp: 100000.0
     id: 32230
     iscapitalsize: 1
+    mass: 1.025E9
     maxattacktargets: 1
     maxvelocity: 75.0
     name: Republic Freighter Vessels
@@ -436,6 +445,7 @@ types:
     hp: 106250.0
     id: 28161
     iscapitalsize: 1
+    mass: 1.2E9
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 75.0
@@ -483,6 +493,7 @@ types:
     hp: 106250.0
     id: 2882
     iscapitalsize: 1
+    mass: 1.2E9
     maxattacktargets: 1
     maxvelocity: 75.0
     name: State Freighter Vessel
@@ -529,6 +540,7 @@ types:
     hp: 106250.0
     id: 30970
     iscapitalsize: 1
+    mass: 1.2E9
     maxattacktargets: 1
     maxvelocity: 75.0
     name: State Transport Freighter

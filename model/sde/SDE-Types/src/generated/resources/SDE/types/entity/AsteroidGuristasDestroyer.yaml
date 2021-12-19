@@ -45,6 +45,7 @@ types:
     hp: 225.0
     id: 23313
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 11250.0
@@ -124,6 +125,7 @@ types:
     hp: 225.0
     id: 23315
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 15000.0
@@ -203,6 +205,7 @@ types:
     hp: 225.0
     id: 23312
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 11250.0
@@ -282,6 +285,7 @@ types:
     hp: 225.0
     id: 23314
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 11250.0
@@ -361,6 +365,7 @@ types:
     hp: 225.0
     id: 23329
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 15000.0
@@ -440,6 +445,7 @@ types:
     hp: 225.0
     id: 23328
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 15000.0
@@ -520,6 +526,7 @@ types:
     hp: 225.0
     id: 23941
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 11250.0
@@ -600,6 +607,7 @@ types:
     hp: 225.0
     id: 23940
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 11250.0

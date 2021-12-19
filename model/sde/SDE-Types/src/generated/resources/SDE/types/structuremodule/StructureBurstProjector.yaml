@@ -16,6 +16,7 @@ types:
     id: 47069
     ispointtargeted: 1
     marketGroup: 2408
+    mass: 500.0
     maxrange: 300000.0
     maxtypefitted: 1
     name: Standup ECM Jammer Burst Projector
@@ -52,6 +53,7 @@ types:
     id: 35944
     ispointtargeted: 1
     marketGroup: 2408
+    mass: 500.0
     maxrange: 300000.0
     maxtypefitted: 1
     name: Standup Energy Neutralization Burst Projector
@@ -83,6 +85,7 @@ types:
     id: 47070
     ispointtargeted: 1
     marketGroup: 2408
+    mass: 500.0
     maxrange: 300000.0
     maxtargetrangebonus: -36.0
     maxtypefitted: 1
@@ -116,6 +119,7 @@ types:
     id: 47071
     ispointtargeted: 1
     marketGroup: 2408
+    mass: 500.0
     maxrange: 300000.0
     maxtypefitted: 1
     name: Standup Stasis Webification Burst Projector
@@ -147,6 +151,7 @@ types:
     id: 47072
     ispointtargeted: 1
     marketGroup: 2408
+    mass: 500.0
     maxrange: 300000.0
     maxtypefitted: 1
     name: Standup Target Illumination Burst Projector
@@ -180,6 +185,7 @@ types:
     id: 47073
     ispointtargeted: 1
     marketGroup: 2408
+    mass: 500.0
     maxrange: 300000.0
     maxtypefitted: 1
     name: Standup Warp Disruption Burst Projector
@@ -214,6 +220,7 @@ types:
     id: 47074
     ispointtargeted: 1
     marketGroup: 2408
+    mass: 500.0
     maxrange: 300000.0
     maxrangebonus: -40.0
     maxtypefitted: 1

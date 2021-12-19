@@ -12,6 +12,7 @@ types:
     id: 2182
     launchergroup: 1674
     marketGroup: 1317
+    mass: 1500.0
     maxvelocity: 7000.0
     metagroupid: 4
     metalevelold: 8
@@ -43,6 +44,7 @@ types:
     id: 2188
     launchergroup: 1674
     marketGroup: 1317
+    mass: 1500.0
     maxvelocity: 7000.0
     metagroupid: 4
     metalevelold: 8
@@ -73,6 +75,7 @@ types:
     id: 2178
     launchergroup: 1674
     marketGroup: 1317
+    mass: 1500.0
     maxvelocity: 7000.0
     metagroupid: 4
     metalevelold: 8
@@ -103,6 +106,7 @@ types:
     kineticdamage: 5225.0
     launchergroup: 1674
     marketGroup: 1317
+    mass: 1500.0
     maxvelocity: 7000.0
     metagroupid: 4
     metalevelold: 8
@@ -132,6 +136,7 @@ types:
     id: 32440
     launchergroup: 1674
     marketGroup: 1287
+    mass: 1500.0
     maxvelocity: 7000.0
     name: Inferno XL Cruise Missile
     packagedVolume: 0.30000001192092896
@@ -161,6 +166,7 @@ types:
     id: 32442
     launchergroup: 1674
     marketGroup: 1287
+    mass: 1500.0
     maxvelocity: 7000.0
     name: Mjolnir XL Cruise Missile
     packagedVolume: 0.30000001192092896
@@ -189,6 +195,7 @@ types:
     id: 32438
     launchergroup: 1674
     marketGroup: 1287
+    mass: 1500.0
     maxvelocity: 7000.0
     name: Nova XL Cruise Missile
     packagedVolume: 0.30000001192092896
@@ -217,6 +224,7 @@ types:
     kineticdamage: 4750.0
     launchergroup: 1674
     marketGroup: 1287
+    mass: 1500.0
     maxvelocity: 7000.0
     name: Scourge XL Cruise Missile
     packagedVolume: 0.30000001192092896

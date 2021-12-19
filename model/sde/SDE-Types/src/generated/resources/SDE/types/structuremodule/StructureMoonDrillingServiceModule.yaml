@@ -5,6 +5,7 @@ types:
     cpu: 200.0
     id: 45009
     marketGroup: 2233
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Moon Drill I
     packagedVolume: 8000.0

@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DifficultyTier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WeatherID;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
@@ -40,13 +39,6 @@ public class AbyssalFilaments
     @DefaultIntValue(1)
     public int difficultytier;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -60,7 +52,7 @@ public class AbyssalFilaments
     @Stackable(true)
     @DefaultIntValue(0)
     public int weatherid;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, WeatherID.INSTANCE, DifficultyTier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, WeatherID.INSTANCE, DifficultyTier.INSTANCE })));
     public static final AbyssalFilaments.MetaGroup METAGROUP = new AbyssalFilaments.MetaGroup();
 
     @Override
@@ -73,10 +65,6 @@ public class AbyssalFilaments
             case  2761 :
             {
                 return difficultytier;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

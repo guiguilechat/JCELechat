@@ -35,6 +35,7 @@ types:
     hp: 2004.0
     id: 57788
     kineticdamageresonance: 0.6700000166893005
+    mass: 1.313E7
     maxlockedtargets: 7
     maxtargetrange: 64000.0
     maxvelocity: 1200.0

@@ -25,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LootRespawnTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpawnWithoutGuardsToo;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
@@ -116,13 +115,6 @@ public class DeadspaceOverseerSBelongings
     @DefaultRealValue(600000.0)
     public double lootrespawntime;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -143,7 +135,7 @@ public class DeadspaceOverseerSBelongings
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorCapacity.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, EntityEquipmentMin.INSTANCE, DisallowOffensiveModifiers.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityBracketColour.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorCapacity.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, EntityEquipmentMin.INSTANCE, DisallowOffensiveModifiers.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityBracketColour.INSTANCE })));
     public static final DeadspaceOverseerSBelongings.MetaGroup METAGROUP = new DeadspaceOverseerSBelongings.MetaGroup();
 
     @Override
@@ -192,10 +184,6 @@ public class DeadspaceOverseerSBelongings
             case  470 :
             {
                 return lootrespawntime;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

@@ -8,6 +8,7 @@ types:
     id: 46637
     lowsecmodifier: 1.059999942779541
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Moon Ore Grading Processor I
     nullsecmodifier: 1.1200000047683716
@@ -33,6 +34,7 @@ types:
     id: 46638
     lowsecmodifier: 1.059999942779541
     marketGroup: 2341
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Moon Ore Grading Processor II
     nullsecmodifier: 1.1200000047683716

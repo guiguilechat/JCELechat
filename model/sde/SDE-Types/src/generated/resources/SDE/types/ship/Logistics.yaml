@@ -42,6 +42,7 @@ types:
     lowslots: 2
     maincolor: 16777215
     marketGroup: 439
+    mass: 1.313E7
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 80000.0
@@ -135,6 +136,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1624
+    mass: 1.313E7
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 80000.0
@@ -229,6 +231,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 438
+    mass: 1.198E7
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 65000.0
@@ -322,6 +325,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 440
+    mass: 1.316E7
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 70000.0
@@ -415,6 +419,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1624
+    mass: 1.3E7
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 65000.0
@@ -517,6 +522,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 441
+    mass: 1.209E7
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 60000.0
@@ -609,6 +615,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 2526
+    mass: 1.024E7
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 70000.0

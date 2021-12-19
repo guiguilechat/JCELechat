@@ -22,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResistanceBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -130,7 +129,7 @@ public class RigShield
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, PowerNeedBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, ShieldCapacityBonus.INSTANCE, Drawback.INSTANCE, Rechargeratebonus.INSTANCE, ShieldBoostCapacitorBonus.INSTANCE, EmDamageResistanceBonus.INSTANCE, DurationSkillBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, PowerNeedBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, ShieldCapacityBonus.INSTANCE, Drawback.INSTANCE, Rechargeratebonus.INSTANCE, ShieldBoostCapacitorBonus.INSTANCE, EmDamageResistanceBonus.INSTANCE, DurationSkillBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final RigShield.MetaGroup METAGROUP = new RigShield.MetaGroup();
 
     @Override

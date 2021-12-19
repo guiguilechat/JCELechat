@@ -25,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSecModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NullSecModifier;
@@ -122,13 +121,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
-    /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
     /**
      * 
      */
@@ -229,7 +221,7 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Mass.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, MetaGroupID.INSTANCE, AttributeThukkerEngRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE, AttributeEngRigTimeBonus.INSTANCE, AttributeEngRigMatBonus.INSTANCE, Radius.INSTANCE, AttributeEngRigCostBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, StructureRigBonus1 .INSTANCE, StructureRigBonus2 .INSTANCE, HiSecModifier.INSTANCE, LowSecModifier.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, MetaGroupID.INSTANCE, AttributeThukkerEngRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE, AttributeEngRigTimeBonus.INSTANCE, AttributeEngRigMatBonus.INSTANCE, Radius.INSTANCE, AttributeEngRigCostBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, StructureRigBonus1 .INSTANCE, StructureRigBonus2 .INSTANCE, HiSecModifier.INSTANCE, LowSecModifier.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE })));
     public static final StructureEngineeringRigLAdvancedComponentEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLAdvancedComponentEfficiency.MetaGroup();
 
     @Override
@@ -278,10 +270,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
             case  2356 :
             {
                 return lowsecmodifier;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  1544 :
             {

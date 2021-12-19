@@ -5,6 +5,7 @@ types:
     hp: 40.0
     id: 1193
     marketGroup: 1668
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' EM Coating'
     packagedVolume: 5.0
@@ -22,6 +23,7 @@ types:
     hp: 40.0
     id: 1262
     marketGroup: 1667
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Explosive Coating'
     packagedVolume: 5.0
@@ -39,6 +41,7 @@ types:
     id: 1282
     kineticdamageresistancebonus: -17.280000686645508
     marketGroup: 1666
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Kinetic Coating'
     packagedVolume: 5.0
@@ -55,6 +58,7 @@ types:
     hp: 40.0
     id: 1272
     marketGroup: 1669
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Layered Coating'
     packagedVolume: 5.0
@@ -74,6 +78,7 @@ types:
     id: 1302
     kineticdamageresistancebonus: -7.872000217437744
     marketGroup: 1670
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Multispectrum Coating'
     packagedVolume: 5.0
@@ -91,6 +96,7 @@ types:
     hp: 40.0
     id: 1292
     marketGroup: 1665
+    mass: 1.0
     metalevelold: 6
     name: '''Basic'' Thermal Coating'
     packagedVolume: 5.0
@@ -109,6 +115,7 @@ types:
     hp: 40.0
     id: 14914
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified EM Coating
@@ -127,6 +134,7 @@ types:
     hp: 40.0
     id: 14898
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Explosive Coating
@@ -145,6 +153,7 @@ types:
     id: 14882
     kineticdamageresistancebonus: -30.049999237060547
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Kinetic Coating
@@ -165,6 +174,7 @@ types:
     id: 14866
     kineticdamageresistancebonus: -21.360000610351562
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Multispectrum Coating
@@ -183,6 +193,7 @@ types:
     hp: 40.0
     id: 14930
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Thermal Coating
@@ -202,6 +213,7 @@ types:
     hp: 40.0
     id: 17518
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy EM Coating
@@ -220,6 +232,7 @@ types:
     hp: 40.0
     id: 17516
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Explosive Coating
@@ -238,6 +251,7 @@ types:
     id: 17512
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Kinetic Coating
@@ -258,6 +272,7 @@ types:
     id: 17514
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Multispectrum Coating
@@ -276,6 +291,7 @@ types:
     hp: 40.0
     id: 32809
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Thermal Coating
@@ -295,6 +311,7 @@ types:
     hp: 40.0
     id: 14904
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified EM Coating
@@ -313,6 +330,7 @@ types:
     hp: 40.0
     id: 14888
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Explosive Coating
@@ -331,6 +349,7 @@ types:
     id: 14872
     kineticdamageresistancebonus: -26.020000457763672
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Kinetic Coating
@@ -351,6 +370,7 @@ types:
     id: 14856
     kineticdamageresistancebonus: -16.81999969482422
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Multispectrum Coating
@@ -369,6 +389,7 @@ types:
     hp: 40.0
     id: 14920
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Thermal Coating
@@ -388,6 +409,7 @@ types:
     hp: 40.0
     id: 15180
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified EM Coating
@@ -406,6 +428,7 @@ types:
     hp: 40.0
     id: 15188
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Explosive Coating
@@ -424,6 +447,7 @@ types:
     id: 15196
     kineticdamageresistancebonus: -26.020000457763672
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Kinetic Coating
@@ -444,6 +468,7 @@ types:
     id: 15164
     kineticdamageresistancebonus: -16.81999969482422
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Multispectrum Coating
@@ -462,6 +487,7 @@ types:
     hp: 40.0
     id: 15172
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Thermal Coating
@@ -481,6 +507,7 @@ types:
     hp: 40.0
     id: 18762
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centii A-Type EM Coating
@@ -499,6 +526,7 @@ types:
     hp: 40.0
     id: 18758
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centii A-Type Explosive Coating
@@ -517,6 +545,7 @@ types:
     id: 18754
     kineticdamageresistancebonus: -28.84000015258789
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centii A-Type Kinetic Coating
@@ -537,6 +566,7 @@ types:
     id: 18710
     kineticdamageresistancebonus: -20.0
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centii A-Type Multispectrum Coating
@@ -555,6 +585,7 @@ types:
     hp: 40.0
     id: 18766
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centii A-Type Thermal Coating
@@ -574,6 +605,7 @@ types:
     hp: 40.0
     id: 18750
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centii B-Type EM Coating
@@ -592,6 +624,7 @@ types:
     hp: 40.0
     id: 18746
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centii B-Type Explosive Coating
@@ -610,6 +643,7 @@ types:
     id: 18742
     kineticdamageresistancebonus: -26.81999969482422
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centii B-Type Kinetic Coating
@@ -630,6 +664,7 @@ types:
     id: 18706
     kineticdamageresistancebonus: -17.729999542236328
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centii B-Type Multispectrum Coating
@@ -648,6 +683,7 @@ types:
     hp: 40.0
     id: 18730
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centii B-Type Thermal Coating
@@ -667,6 +703,7 @@ types:
     hp: 40.0
     id: 18722
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centii C-Type EM Coating
@@ -685,6 +722,7 @@ types:
     hp: 40.0
     id: 18718
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centii C-Type Explosive Coating
@@ -703,6 +741,7 @@ types:
     id: 18714
     kineticdamageresistancebonus: -24.809999465942383
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centii C-Type Kinetic Coating
@@ -723,6 +762,7 @@ types:
     id: 18702
     kineticdamageresistancebonus: -15.460000038146973
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centii C-Type Multispectrum Coating
@@ -741,6 +781,7 @@ types:
     hp: 40.0
     id: 18726
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centii C-Type Thermal Coating
@@ -760,6 +801,7 @@ types:
     hp: 40.0
     id: 14916
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified EM Coating
@@ -778,6 +820,7 @@ types:
     hp: 40.0
     id: 14900
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Explosive Coating
@@ -796,6 +839,7 @@ types:
     id: 14884
     kineticdamageresistancebonus: -32.060001373291016
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Kinetic Coating
@@ -816,6 +860,7 @@ types:
     id: 14868
     kineticdamageresistancebonus: -23.6299991607666
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Multispectrum Coating
@@ -834,6 +879,7 @@ types:
     hp: 40.0
     id: 14932
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Thermal Coating
@@ -853,6 +899,7 @@ types:
     hp: 40.0
     id: 18795
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Coreli A-Type EM Coating
@@ -871,6 +918,7 @@ types:
     hp: 40.0
     id: 18793
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Coreli A-Type Explosive Coating
@@ -889,6 +937,7 @@ types:
     id: 18791
     kineticdamageresistancebonus: -28.84000015258789
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Coreli A-Type Kinetic Coating
@@ -909,6 +958,7 @@ types:
     id: 18789
     kineticdamageresistancebonus: -20.0
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Coreli A-Type Multispectrum Coating
@@ -927,6 +977,7 @@ types:
     hp: 40.0
     id: 18797
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Coreli A-Type Thermal Coating
@@ -946,6 +997,7 @@ types:
     hp: 40.0
     id: 18785
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Coreli B-Type EM Coating
@@ -964,6 +1016,7 @@ types:
     hp: 40.0
     id: 18783
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Coreli B-Type Explosive Coating
@@ -982,6 +1035,7 @@ types:
     id: 18781
     kineticdamageresistancebonus: -26.81999969482422
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Coreli B-Type Kinetic Coating
@@ -1002,6 +1056,7 @@ types:
     id: 18779
     kineticdamageresistancebonus: -17.729999542236328
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Coreli B-Type Multispectrum Coating
@@ -1020,6 +1075,7 @@ types:
     hp: 40.0
     id: 18787
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Coreli B-Type Thermal Coating
@@ -1039,6 +1095,7 @@ types:
     hp: 40.0
     id: 18775
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Coreli C-Type EM Coating
@@ -1057,6 +1114,7 @@ types:
     hp: 40.0
     id: 18772
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Coreli C-Type Explosive Coating
@@ -1075,6 +1133,7 @@ types:
     id: 18770
     kineticdamageresistancebonus: -24.809999465942383
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Coreli C-Type Kinetic Coating
@@ -1095,6 +1154,7 @@ types:
     id: 18768
     kineticdamageresistancebonus: -15.460000038146973
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Coreli C-Type Multispectrum Coating
@@ -1113,6 +1173,7 @@ types:
     hp: 40.0
     id: 18777
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Coreli C-Type Thermal Coating
@@ -1132,6 +1193,7 @@ types:
     hp: 40.0
     id: 15186
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified EM Coating
@@ -1150,6 +1212,7 @@ types:
     hp: 40.0
     id: 15194
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Explosive Coating
@@ -1168,6 +1231,7 @@ types:
     id: 15202
     kineticdamageresistancebonus: -32.060001373291016
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Kinetic Coating
@@ -1188,6 +1252,7 @@ types:
     id: 15170
     kineticdamageresistancebonus: -23.6299991607666
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Multispectrum Coating
@@ -1206,6 +1271,7 @@ types:
     hp: 40.0
     id: 15178
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Thermal Coating
@@ -1225,6 +1291,7 @@ types:
     hp: 40.0
     id: 18760
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpii A-Type EM Coating
@@ -1243,6 +1310,7 @@ types:
     hp: 40.0
     id: 18756
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpii A-Type Explosive Coating
@@ -1261,6 +1329,7 @@ types:
     id: 18752
     kineticdamageresistancebonus: -28.84000015258789
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpii A-Type Kinetic Coating
@@ -1281,6 +1350,7 @@ types:
     id: 18708
     kineticdamageresistancebonus: -20.0
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpii A-Type Multispectrum Coating
@@ -1299,6 +1369,7 @@ types:
     hp: 40.0
     id: 18764
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpii A-Type Thermal Coating
@@ -1318,6 +1389,7 @@ types:
     hp: 40.0
     id: 18748
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpii B-Type EM Coating
@@ -1336,6 +1408,7 @@ types:
     hp: 40.0
     id: 18744
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpii B-Type Explosive Coating
@@ -1354,6 +1427,7 @@ types:
     id: 18740
     kineticdamageresistancebonus: -26.81999969482422
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpii B-Type Kinetic Coating
@@ -1374,6 +1448,7 @@ types:
     id: 18704
     kineticdamageresistancebonus: -17.729999542236328
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpii B-Type Multispectrum Coating
@@ -1392,6 +1467,7 @@ types:
     hp: 40.0
     id: 18728
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpii B-Type Thermal Coating
@@ -1411,6 +1487,7 @@ types:
     hp: 40.0
     id: 18720
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpii C-Type EM Coating
@@ -1429,6 +1506,7 @@ types:
     hp: 40.0
     id: 18716
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpii C-Type Explosive Coating
@@ -1447,6 +1525,7 @@ types:
     id: 18712
     kineticdamageresistancebonus: -24.809999465942383
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpii C-Type Kinetic Coating
@@ -1467,6 +1546,7 @@ types:
     id: 18700
     kineticdamageresistancebonus: -15.460000038146973
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpii C-Type Multispectrum Coating
@@ -1485,6 +1565,7 @@ types:
     hp: 40.0
     id: 18724
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpii C-Type Thermal Coating
@@ -1504,6 +1585,7 @@ types:
     hp: 40.0
     id: 14021
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood EM Coating
@@ -1522,6 +1604,7 @@ types:
     hp: 40.0
     id: 14015
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Explosive Coating
@@ -1540,6 +1623,7 @@ types:
     id: 14009
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Kinetic Coating
@@ -1560,6 +1644,7 @@ types:
     id: 14003
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Multispectrum Coating
@@ -1578,6 +1663,7 @@ types:
     hp: 40.0
     id: 14027
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Thermal Coating
@@ -1597,6 +1683,7 @@ types:
     hp: 40.0
     id: 14017
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Domination EM Coating
@@ -1615,6 +1702,7 @@ types:
     hp: 40.0
     id: 14011
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Explosive Coating
@@ -1633,6 +1721,7 @@ types:
     id: 14005
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Kinetic Coating
@@ -1653,6 +1742,7 @@ types:
     id: 13999
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Multispectrum Coating
@@ -1671,6 +1761,7 @@ types:
     hp: 40.0
     id: 14023
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Thermal Coating
@@ -1690,6 +1781,7 @@ types:
     hp: 40.0
     id: 14918
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified EM Coating
@@ -1708,6 +1800,7 @@ types:
     hp: 40.0
     id: 14902
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Explosive Coating
@@ -1726,6 +1819,7 @@ types:
     id: 14886
     kineticdamageresistancebonus: -32.060001373291016
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Kinetic Coating
@@ -1746,6 +1840,7 @@ types:
     id: 14870
     kineticdamageresistancebonus: -23.6299991607666
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Multispectrum Coating
@@ -1764,6 +1859,7 @@ types:
     hp: 40.0
     id: 14934
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Thermal Coating
@@ -1783,6 +1879,7 @@ types:
     hp: 40.0
     id: 1197
     marketGroup: 1668
+    mass: 1.0
     name: EM Coating I
     packagedVolume: 5.0
     portionSize: 1
@@ -1799,6 +1896,7 @@ types:
     hp: 40.0
     id: 1198
     marketGroup: 1668
+    mass: 1.0
     metalevelold: 5
     name: EM Coating II
     packagedVolume: 5.0
@@ -1816,6 +1914,7 @@ types:
     hp: 40.0
     id: 1264
     marketGroup: 1667
+    mass: 1.0
     name: Explosive Coating I
     packagedVolume: 5.0
     portionSize: 1
@@ -1832,6 +1931,7 @@ types:
     hp: 40.0
     id: 1266
     marketGroup: 1667
+    mass: 1.0
     metalevelold: 5
     name: Explosive Coating II
     packagedVolume: 5.0
@@ -1849,6 +1949,7 @@ types:
     hp: 40.0
     id: 17555
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy EM Coating
@@ -1867,6 +1968,7 @@ types:
     hp: 40.0
     id: 17553
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Explosive Coating
@@ -1885,6 +1987,7 @@ types:
     id: 17551
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Kinetic Coating
@@ -1905,6 +2008,7 @@ types:
     id: 17549
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Multispectrum Coating
@@ -1923,6 +2027,7 @@ types:
     hp: 40.0
     id: 17557
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Thermal Coating
@@ -1942,6 +2047,7 @@ types:
     hp: 40.0
     id: 14584
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Gotan's Modified EM Coating
@@ -1960,6 +2066,7 @@ types:
     hp: 40.0
     id: 14576
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Gotan's Modified Explosive Coating
@@ -1978,6 +2085,7 @@ types:
     id: 14568
     kineticdamageresistancebonus: -30.049999237060547
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Gotan's Modified Kinetic Coating
@@ -1998,6 +2106,7 @@ types:
     id: 14560
     kineticdamageresistancebonus: -21.360000610351562
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Gotan's Modified Multispectrum Coating
@@ -2016,6 +2125,7 @@ types:
     hp: 40.0
     id: 14592
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Gotan's Modified Thermal Coating
@@ -2035,6 +2145,7 @@ types:
     hp: 40.0
     id: 15687
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy EM Coating
@@ -2053,6 +2164,7 @@ types:
     hp: 40.0
     id: 15689
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Explosive Coating
@@ -2071,6 +2183,7 @@ types:
     id: 15691
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Kinetic Coating
@@ -2091,6 +2204,7 @@ types:
     id: 15693
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Multispectrum Coating
@@ -2109,6 +2223,7 @@ types:
     hp: 40.0
     id: 15685
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Thermal Coating
@@ -2128,6 +2243,7 @@ types:
     hp: 40.0
     id: 28554
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy EM Coating
@@ -2146,6 +2262,7 @@ types:
     hp: 40.0
     id: 28552
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Explosive Coating
@@ -2164,6 +2281,7 @@ types:
     id: 28547
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Kinetic Coating
@@ -2184,6 +2302,7 @@ types:
     id: 28520
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Multispectrum Coating
@@ -2202,6 +2321,7 @@ types:
     hp: 40.0
     id: 28559
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Thermal Coating
@@ -2221,6 +2341,7 @@ types:
     id: 1284
     kineticdamageresistancebonus: -19.459999084472656
     marketGroup: 1666
+    mass: 1.0
     name: Kinetic Coating I
     packagedVolume: 5.0
     portionSize: 1
@@ -2237,6 +2358,7 @@ types:
     id: 1286
     kineticdamageresistancebonus: -22.09000015258789
     marketGroup: 1666
+    mass: 1.0
     metalevelold: 5
     name: Kinetic Coating II
     packagedVolume: 5.0
@@ -2253,6 +2375,7 @@ types:
     hp: 40.0
     id: 1274
     marketGroup: 1669
+    mass: 1.0
     name: Layered Coating I
     packagedVolume: 5.0
     portionSize: 1
@@ -2268,6 +2391,7 @@ types:
     hp: 40.0
     id: 1276
     marketGroup: 1669
+    mass: 1.0
     metalevelold: 5
     name: Layered Coating II
     packagedVolume: 5.0
@@ -2285,6 +2409,7 @@ types:
     hp: 40.0
     id: 14580
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Mizuro's Modified EM Coating
@@ -2303,6 +2428,7 @@ types:
     hp: 40.0
     id: 14572
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Mizuro's Modified Explosive Coating
@@ -2321,6 +2447,7 @@ types:
     id: 14564
     kineticdamageresistancebonus: -26.020000457763672
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Mizuro's Modified Kinetic Coating
@@ -2341,6 +2468,7 @@ types:
     id: 14556
     kineticdamageresistancebonus: -16.81999969482422
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Mizuro's Modified Multispectrum Coating
@@ -2359,6 +2487,7 @@ types:
     hp: 40.0
     id: 14588
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Mizuro's Modified Thermal Coating
@@ -2380,6 +2509,7 @@ types:
     id: 1304
     kineticdamageresistancebonus: -9.343999862670898
     marketGroup: 1670
+    mass: 1.0
     name: Multispectrum Coating I
     packagedVolume: 5.0
     portionSize: 1
@@ -2399,6 +2529,7 @@ types:
     id: 1306
     kineticdamageresistancebonus: -12.288000106811523
     marketGroup: 1670
+    mass: 1.0
     metalevelold: 5
     name: Multispectrum Coating II
     packagedVolume: 5.0
@@ -2417,6 +2548,7 @@ types:
     hp: 40.0
     id: 14910
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified EM Coating
@@ -2435,6 +2567,7 @@ types:
     hp: 40.0
     id: 14894
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Explosive Coating
@@ -2453,6 +2586,7 @@ types:
     id: 14878
     kineticdamageresistancebonus: -28.030000686645508
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Kinetic Coating
@@ -2473,6 +2607,7 @@ types:
     id: 14862
     kineticdamageresistancebonus: -19.09000015258789
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Multispectrum Coating
@@ -2491,6 +2626,7 @@ types:
     hp: 40.0
     id: 14926
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Thermal Coating
@@ -2510,6 +2646,7 @@ types:
     hp: 40.0
     id: 15697
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet EM Coating
@@ -2528,6 +2665,7 @@ types:
     hp: 40.0
     id: 15699
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Explosive Coating
@@ -2546,6 +2684,7 @@ types:
     id: 15701
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Kinetic Coating
@@ -2566,6 +2705,7 @@ types:
     id: 15703
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Multispectrum Coating
@@ -2584,6 +2724,7 @@ types:
     hp: 40.0
     id: 15695
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Thermal Coating
@@ -2603,6 +2744,7 @@ types:
     hp: 40.0
     id: 14908
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified EM Coating
@@ -2621,6 +2763,7 @@ types:
     hp: 40.0
     id: 14892
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Explosive Coating
@@ -2639,6 +2782,7 @@ types:
     id: 14876
     kineticdamageresistancebonus: -28.030000686645508
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Kinetic Coating
@@ -2659,6 +2803,7 @@ types:
     id: 14860
     kineticdamageresistancebonus: -19.09000015258789
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Multispectrum Coating
@@ -2677,6 +2822,7 @@ types:
     hp: 40.0
     id: 14924
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Thermal Coating
@@ -2696,6 +2842,7 @@ types:
     hp: 40.0
     id: 15184
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified EM Coating
@@ -2714,6 +2861,7 @@ types:
     hp: 40.0
     id: 15192
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Explosive Coating
@@ -2732,6 +2880,7 @@ types:
     id: 15200
     kineticdamageresistancebonus: -30.049999237060547
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Kinetic Coating
@@ -2752,6 +2901,7 @@ types:
     id: 15168
     kineticdamageresistancebonus: -21.360000610351562
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Multispectrum Coating
@@ -2770,6 +2920,7 @@ types:
     hp: 40.0
     id: 15176
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Thermal Coating
@@ -2789,6 +2940,7 @@ types:
     hp: 40.0
     id: 14055
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis EM Coating
@@ -2807,6 +2959,7 @@ types:
     hp: 40.0
     id: 14053
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Explosive Coating
@@ -2825,6 +2978,7 @@ types:
     id: 14051
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Kinetic Coating
@@ -2845,6 +2999,7 @@ types:
     id: 14049
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Multispectrum Coating
@@ -2863,6 +3018,7 @@ types:
     hp: 40.0
     id: 14057
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Thermal Coating
@@ -2882,6 +3038,7 @@ types:
     hp: 40.0
     id: 14906
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified EM Coating
@@ -2900,6 +3057,7 @@ types:
     hp: 40.0
     id: 14890
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Explosive Coating
@@ -2918,6 +3076,7 @@ types:
     id: 14874
     kineticdamageresistancebonus: -26.020000457763672
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Kinetic Coating
@@ -2938,6 +3097,7 @@ types:
     id: 14858
     kineticdamageresistancebonus: -16.81999969482422
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Multispectrum Coating
@@ -2956,6 +3116,7 @@ types:
     hp: 40.0
     id: 14922
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Thermal Coating
@@ -2974,6 +3135,7 @@ types:
     hp: 40.0
     id: 1294
     marketGroup: 1665
+    mass: 1.0
     name: Thermal Coating I
     packagedVolume: 5.0
     portionSize: 1
@@ -2990,6 +3152,7 @@ types:
     hp: 40.0
     id: 1296
     marketGroup: 1665
+    mass: 1.0
     metalevelold: 5
     name: Thermal Coating II
     packagedVolume: 5.0
@@ -3008,6 +3171,7 @@ types:
     hp: 40.0
     id: 14019
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha EM Coating
@@ -3026,6 +3190,7 @@ types:
     hp: 40.0
     id: 14013
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Explosive Coating
@@ -3044,6 +3209,7 @@ types:
     id: 14007
     kineticdamageresistancebonus: -24.0
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Kinetic Coating
@@ -3064,6 +3230,7 @@ types:
     id: 14001
     kineticdamageresistancebonus: -14.550000190734863
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Multispectrum Coating
@@ -3082,6 +3249,7 @@ types:
     hp: 40.0
     id: 14025
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Thermal Coating
@@ -3101,6 +3269,7 @@ types:
     hp: 40.0
     id: 15182
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified EM Coating
@@ -3119,6 +3288,7 @@ types:
     hp: 40.0
     id: 15190
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Explosive Coating
@@ -3137,6 +3307,7 @@ types:
     id: 15198
     kineticdamageresistancebonus: -28.030000686645508
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Kinetic Coating
@@ -3157,6 +3328,7 @@ types:
     id: 15166
     kineticdamageresistancebonus: -19.09000015258789
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Multispectrum Coating
@@ -3175,6 +3347,7 @@ types:
     hp: 40.0
     id: 15174
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Thermal Coating
@@ -3194,6 +3367,7 @@ types:
     hp: 40.0
     id: 16329
     marketGroup: 1668
+    mass: 1.0
     metalevelold: 1
     name: Upgraded EM Coating I
     packagedVolume: 5.0
@@ -3211,6 +3385,7 @@ types:
     hp: 40.0
     id: 16321
     marketGroup: 1667
+    mass: 1.0
     metalevelold: 1
     name: Upgraded Explosive Coating I
     packagedVolume: 5.0
@@ -3228,6 +3403,7 @@ types:
     id: 16313
     kineticdamageresistancebonus: -20.770000457763672
     marketGroup: 1666
+    mass: 1.0
     metalevelold: 1
     name: Upgraded Kinetic Coating I
     packagedVolume: 5.0
@@ -3244,6 +3420,7 @@ types:
     hp: 40.0
     id: 16345
     marketGroup: 1669
+    mass: 1.0
     metalevelold: 1
     name: Upgraded Layered Coating I
     packagedVolume: 5.0
@@ -3263,6 +3440,7 @@ types:
     id: 16305
     kineticdamageresistancebonus: -10.815999984741211
     marketGroup: 1670
+    mass: 1.0
     metalevelold: 1
     name: Upgraded Multispectrum Coating I
     packagedVolume: 5.0
@@ -3280,6 +3458,7 @@ types:
     hp: 40.0
     id: 16337
     marketGroup: 1665
+    mass: 1.0
     metalevelold: 1
     name: Upgraded Thermal Coating I
     packagedVolume: 5.0
@@ -3298,6 +3477,7 @@ types:
     hp: 40.0
     id: 14912
     marketGroup: 1668
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified EM Coating
@@ -3316,6 +3496,7 @@ types:
     hp: 40.0
     id: 14896
     marketGroup: 1667
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Explosive Coating
@@ -3334,6 +3515,7 @@ types:
     id: 14880
     kineticdamageresistancebonus: -30.049999237060547
     marketGroup: 1666
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Kinetic Coating
@@ -3354,6 +3536,7 @@ types:
     id: 14864
     kineticdamageresistancebonus: -21.360000610351562
     marketGroup: 1670
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Multispectrum Coating
@@ -3372,6 +3555,7 @@ types:
     hp: 40.0
     id: 14928
     marketGroup: 1665
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Thermal Coating

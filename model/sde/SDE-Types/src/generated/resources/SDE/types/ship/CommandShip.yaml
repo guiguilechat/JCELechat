@@ -38,6 +38,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 825
+    mass: 1.23E7
     maxdirectionalvelocity: 2000
     maxgangmodules: 1
     maxlockedtargets: 7
@@ -128,6 +129,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 831
+    mass: 1.23E7
     maxdirectionalvelocity: 2000
     maxgangmodules: 1
     maxlockedtargets: 8
@@ -218,6 +220,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 834
+    mass: 1.25E7
     maxdirectionalvelocity: 2000
     maxgangmodules: 1
     maxlockedtargets: 7
@@ -310,6 +313,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 825
+    mass: 1.35E7
     maxdirectionalvelocity: 2000
     maxgangmodules: 1
     maxlockedtargets: 7
@@ -401,6 +405,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 831
+    mass: 1.25E7
     maxdirectionalvelocity: 2000
     maxgangmodules: 1
     maxlockedtargets: 8
@@ -493,6 +498,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 828
+    mass: 1.32E7
     maxdirectionalvelocity: 2000
     maxgangmodules: 1
     maxlockedtargets: 9
@@ -583,6 +589,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 834
+    mass: 1.28E7
     maxdirectionalvelocity: 2000
     maxgangmodules: 1
     maxlockedtargets: 7
@@ -673,6 +680,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 828
+    mass: 1.4E7
     maxdirectionalvelocity: 2000
     maxgangmodules: 1
     maxlockedtargets: 9

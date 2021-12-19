@@ -32,6 +32,7 @@ types:
     gfxboosterid: 394
     hp: 1500.0
     id: 13730
+    mass: 1.001E7
     maxvelocity: 750.0
     name: Sansha's Bulker
     packagedVolume: 100100.0
@@ -83,6 +84,7 @@ types:
     gfxboosterid: 394
     hp: 5250.0
     id: 13726
+    mass: 1.001E7
     maxvelocity: 1000.0
     name: Sansha's Carrier
     packagedVolume: 100100.0
@@ -134,6 +136,7 @@ types:
     gfxboosterid: 394
     hp: 4750.0
     id: 13727
+    mass: 1.001E7
     maxvelocity: 1500.0
     name: Sansha's Convoy
     packagedVolume: 100100.0
@@ -185,6 +188,7 @@ types:
     gfxboosterid: 394
     hp: 1250.0
     id: 13733
+    mass: 1.001E7
     maxvelocity: 1000.0
     name: Sansha's Courier
     packagedVolume: 100100.0
@@ -236,6 +240,7 @@ types:
     gfxboosterid: 394
     hp: 200.0
     id: 13735
+    mass: 2112000.0
     maxvelocity: 650.0
     name: Sansha's Ferrier
     packagedVolume: 21120.0
@@ -287,6 +292,7 @@ types:
     gfxboosterid: 394
     hp: 200.0
     id: 13736
+    mass: 2112000.0
     maxvelocity: 250.0
     name: Sansha's Gatherer
     packagedVolume: 21120.0
@@ -338,6 +344,7 @@ types:
     gfxboosterid: 394
     hp: 250.0
     id: 13737
+    mass: 2112000.0
     maxvelocity: 250.0
     name: Sansha's Harvester
     packagedVolume: 21120.0
@@ -389,6 +396,7 @@ types:
     gfxboosterid: 394
     hp: 3975.0
     id: 13729
+    mass: 1.001E7
     maxvelocity: 1500.0
     name: Sansha's Hauler
     packagedVolume: 100100.0
@@ -440,6 +448,7 @@ types:
     gfxboosterid: 394
     hp: 250.0
     id: 13734
+    mass: 2112000.0
     maxvelocity: 650.0
     name: Sansha's Loader
     packagedVolume: 21120.0
@@ -491,6 +500,7 @@ types:
     gfxboosterid: 394
     hp: 4250.0
     id: 13728
+    mass: 1.001E7
     maxvelocity: 1000.0
     name: Sansha's Trailer
     packagedVolume: 100100.0
@@ -542,6 +552,7 @@ types:
     gfxboosterid: 394
     hp: 1425.0
     id: 13731
+    mass: 1.001E7
     maxvelocity: 1000.0
     name: Sansha's Transporter
     packagedVolume: 100100.0
@@ -593,6 +604,7 @@ types:
     gfxboosterid: 394
     hp: 1350.0
     id: 13732
+    mass: 1.001E7
     maxvelocity: 750.0
     name: Sansha's Trucker
     packagedVolume: 100100.0

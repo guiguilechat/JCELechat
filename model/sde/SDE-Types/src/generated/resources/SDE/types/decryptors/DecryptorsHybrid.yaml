@@ -2,6 +2,7 @@ types:
   Amarr Subsystems Data Interface:
     id: 30382
     inventionpropabilitymultiplier: 1.0
+    mass: 1.0
     name: Amarr Subsystems Data Interface
     packagedVolume: 1.0
     portionSize: 1
@@ -11,6 +12,7 @@ types:
   Caldari Subsystems Data Interface:
     id: 30383
     inventionpropabilitymultiplier: 1.0
+    mass: 1.0
     name: Caldari Subsystems Data Interface
     packagedVolume: 1.0
     portionSize: 1
@@ -20,6 +22,7 @@ types:
   Gallente Subsystems Data Interface:
     id: 30385
     inventionpropabilitymultiplier: 1.0
+    mass: 1.0
     name: Gallente Subsystems Data Interface
     packagedVolume: 1.0
     portionSize: 1
@@ -29,6 +32,7 @@ types:
   Minmatar Subsystems Data Interface:
     id: 30384
     inventionpropabilitymultiplier: 1.0
+    mass: 1.0
     name: Minmatar Subsystems Data Interface
     packagedVolume: 1.0
     portionSize: 1

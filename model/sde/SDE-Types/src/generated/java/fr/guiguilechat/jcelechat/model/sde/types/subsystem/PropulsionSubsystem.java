@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
@@ -137,7 +136,7 @@ public class PropulsionSubsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int subsystembonusminmatarpropulsion2;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AgilityBonusAdd.INSTANCE, Mass.INSTANCE, Hp.INSTANCE, MaxTargetRange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrPropulsion.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, SubsystemBonusGallentePropulsion.INSTANCE, LowSlotModifier.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariPropulsion.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusAmarrPropulsion2 .INSTANCE, SubsystemBonusCaldariPropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion.INSTANCE, SubsystemBonusGallentePropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion2 .INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AgilityBonusAdd.INSTANCE, Hp.INSTANCE, MaxTargetRange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrPropulsion.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, SubsystemBonusGallentePropulsion.INSTANCE, LowSlotModifier.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariPropulsion.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusAmarrPropulsion2 .INSTANCE, SubsystemBonusCaldariPropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion.INSTANCE, SubsystemBonusGallentePropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion2 .INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE })));
     public static final PropulsionSubsystem.MetaGroup METAGROUP = new PropulsionSubsystem.MetaGroup();
 
     @Override

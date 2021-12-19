@@ -33,6 +33,7 @@ types:
     gfxturretid: 483
     hp: 250.0
     id: 24379
+    mass: 2650000.0
     maxvelocity: 650.0
     name: Mule Ferrier
     packagedVolume: 26500.0
@@ -85,6 +86,7 @@ types:
     gfxturretid: 483
     hp: 250.0
     id: 24378
+    mass: 2300000.0
     maxvelocity: 250.0
     name: Mule Gatherer
     packagedVolume: 23000.0
@@ -137,6 +139,7 @@ types:
     gfxturretid: 483
     hp: 250.0
     id: 24377
+    mass: 2300000.0
     maxvelocity: 250.0
     name: Mule Harvester
     packagedVolume: 23000.0
@@ -189,6 +192,7 @@ types:
     gfxturretid: 483
     hp: 275.0
     id: 24380
+    mass: 2650000.0
     maxvelocity: 650.0
     name: Mule Loader
     packagedVolume: 26500.0
@@ -241,6 +245,7 @@ types:
     gfxturretid: 483
     hp: 1800.0
     id: 13706
+    mass: 1.12E7
     maxvelocity: 1250.0
     name: Serpentis Bulker
     packagedVolume: 112000.0
@@ -293,6 +298,7 @@ types:
     gfxturretid: 483
     hp: 6750.0
     id: 13702
+    mass: 1.75E7
     maxvelocity: 2000.0
     name: Serpentis Carrier
     packagedVolume: 1140000.0
@@ -345,6 +351,7 @@ types:
     gfxturretid: 483
     hp: 5500.0
     id: 13703
+    mass: 1.9E7
     maxvelocity: 1000.0
     name: Serpentis Convoy
     packagedVolume: 1010000.0
@@ -397,6 +404,7 @@ types:
     gfxturretid: 483
     hp: 1400.0
     id: 13709
+    mass: 1.12E7
     maxvelocity: 1250.0
     name: Serpentis Courier
     packagedVolume: 112000.0
@@ -449,6 +457,7 @@ types:
     gfxturretid: 483
     hp: 250.0
     id: 13711
+    mass: 2650000.0
     maxvelocity: 650.0
     name: Serpentis Ferrier
     packagedVolume: 26500.0
@@ -501,6 +510,7 @@ types:
     gfxturretid: 483
     hp: 250.0
     id: 13712
+    mass: 2300000.0
     maxvelocity: 250.0
     name: Serpentis Gatherer
     packagedVolume: 23000.0
@@ -553,6 +563,7 @@ types:
     gfxturretid: 483
     hp: 250.0
     id: 13713
+    mass: 2300000.0
     maxvelocity: 250.0
     name: Serpentis Harvester
     packagedVolume: 23000.0
@@ -605,6 +616,7 @@ types:
     gfxturretid: 483
     hp: 4250.0
     id: 13705
+    mass: 1.9E7
     maxvelocity: 1000.0
     name: Serpentis Hauler
     packagedVolume: 1010000.0
@@ -657,6 +669,7 @@ types:
     gfxturretid: 483
     hp: 275.0
     id: 13710
+    mass: 2650000.0
     maxvelocity: 650.0
     name: Serpentis Loader
     packagedVolume: 26500.0
@@ -709,6 +722,7 @@ types:
     gfxturretid: 483
     hp: 4800.0
     id: 13704
+    mass: 1.75E7
     maxvelocity: 1750.0
     name: Serpentis Trailer
     packagedVolume: 1140000.0
@@ -761,6 +775,7 @@ types:
     gfxturretid: 483
     hp: 1650.0
     id: 13707
+    mass: 1.12E7
     maxvelocity: 1250.0
     name: Serpentis Transporter
     packagedVolume: 112000.0
@@ -813,6 +828,7 @@ types:
     gfxturretid: 483
     hp: 1500.0
     id: 13708
+    mass: 1.12E7
     maxvelocity: 750.0
     name: Serpentis Trucker
     packagedVolume: 112000.0

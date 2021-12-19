@@ -25,6 +25,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 21000.0
     maxtargetrange: 500000.0
@@ -85,6 +86,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 300000.0
     maxtargetrange: 500000.0
@@ -145,6 +147,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 16000.0
     maxtargetrange: 500000.0
@@ -205,6 +208,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 225000.0
     maxtargetrange: 500000.0
@@ -265,6 +269,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 21000.0
     maxtargetrange: 500000.0
@@ -326,6 +331,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 300000.0
     maxtargetrange: 500000.0
@@ -387,6 +393,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 16000.0
     maxtargetrange: 500000.0
@@ -448,6 +455,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 225000.0
     maxtargetrange: 500000.0
@@ -509,6 +517,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 10000.0
     maxtargetrange: 500000.0
@@ -570,6 +579,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0
@@ -631,6 +641,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 21000.0
     maxtargetrange: 500000.0
@@ -692,6 +703,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 300000.0
     maxtargetrange: 500000.0
@@ -753,6 +765,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 16000.0
     maxtargetrange: 500000.0
@@ -814,6 +827,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 225000.0
     maxtargetrange: 500000.0
@@ -875,6 +889,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 10000.0
     maxtargetrange: 500000.0
@@ -936,6 +951,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0
@@ -997,6 +1013,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 10000.0
     maxtargetrange: 500000.0
@@ -1057,6 +1074,7 @@ types:
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 595
+    mass: 1.0E8
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0

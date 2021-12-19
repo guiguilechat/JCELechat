@@ -41,6 +41,7 @@ types:
     gfxturretid: 450
     hp: 5000.0
     id: 35820
+    mass: 1064000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 1000.0

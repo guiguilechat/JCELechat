@@ -10,6 +10,7 @@ types:
     hp: 40.0
     id: 22947
     marketGroup: 1059
+    mass: 20.0
     maxrange: 8400.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
@@ -38,6 +39,7 @@ types:
     hp: 40.0
     id: 22949
     marketGroup: 1058
+    mass: 20.0
     maxrange: 10500.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
@@ -66,6 +68,7 @@ types:
     hp: 40.0
     id: 23416
     marketGroup: 1057
+    mass: 20.0
     maxrange: 14400.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
@@ -93,6 +96,7 @@ types:
     hp: 40.0
     id: 3536
     marketGroup: 1056
+    mass: 20.0
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
@@ -121,6 +125,7 @@ types:
     hp: 40.0
     id: 41464
     marketGroup: 1056
+    mass: 20.0
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -148,6 +153,7 @@ types:
     hp: 40.0
     id: 41463
     marketGroup: 1056
+    mass: 20.0
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -175,6 +181,7 @@ types:
     hp: 40.0
     id: 24569
     marketGroup: 1056
+    mass: 20.0
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
     name: Capital Remote Armor Repairer I
@@ -201,6 +208,7 @@ types:
     hp: 40.0
     id: 41466
     marketGroup: 1056
+    mass: 20.0
     maxrange: 18000.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 5
@@ -228,6 +236,7 @@ types:
     hp: 40.0
     id: 41465
     marketGroup: 1056
+    mass: 20.0
     maxrange: 16500.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -255,6 +264,7 @@ types:
     hp: 40.0
     id: 19051
     marketGroup: 1059
+    mass: 20.0
     maxrange: 10150.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -283,6 +293,7 @@ types:
     hp: 40.0
     id: 19049
     marketGroup: 1059
+    mass: 20.0
     maxrange: 9800.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -311,6 +322,7 @@ types:
     hp: 40.0
     id: 19047
     marketGroup: 1059
+    mass: 20.0
     maxrange: 9450.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -339,6 +351,7 @@ types:
     hp: 40.0
     id: 19057
     marketGroup: 1058
+    mass: 20.0
     maxrange: 12688.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -367,6 +380,7 @@ types:
     hp: 40.0
     id: 19055
     marketGroup: 1058
+    mass: 20.0
     maxrange: 12250.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -395,6 +409,7 @@ types:
     hp: 40.0
     id: 19053
     marketGroup: 1058
+    mass: 20.0
     maxrange: 11813.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -422,6 +437,7 @@ types:
     heatdamage: 1.0
     hp: 40.0
     id: 32469
+    mass: 20.0
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
     name: Civilian Small Remote Armor Repairer
@@ -446,6 +462,7 @@ types:
     hp: 40.0
     id: 18985
     marketGroup: 1059
+    mass: 20.0
     maxrange: 10150.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -474,6 +491,7 @@ types:
     hp: 40.0
     id: 18983
     marketGroup: 1059
+    mass: 20.0
     maxrange: 9800.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -502,6 +520,7 @@ types:
     hp: 40.0
     id: 18981
     marketGroup: 1059
+    mass: 20.0
     maxrange: 9450.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -530,6 +549,7 @@ types:
     hp: 40.0
     id: 18991
     marketGroup: 1058
+    mass: 20.0
     maxrange: 12688.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -558,6 +578,7 @@ types:
     hp: 40.0
     id: 18989
     marketGroup: 1058
+    mass: 20.0
     maxrange: 12250.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -586,6 +607,7 @@ types:
     hp: 40.0
     id: 18987
     marketGroup: 1058
+    mass: 20.0
     maxrange: 11813.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
@@ -614,6 +636,7 @@ types:
     hp: 40.0
     id: 41467
     marketGroup: 1056
+    mass: 20.0
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
@@ -642,6 +665,7 @@ types:
     hp: 40.0
     id: 16451
     marketGroup: 1057
+    mass: 20.0
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -669,6 +693,7 @@ types:
     hp: 40.0
     id: 16449
     marketGroup: 1057
+    mass: 20.0
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -696,6 +721,7 @@ types:
     hp: 40.0
     id: 11359
     marketGroup: 1057
+    mass: 20.0
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
     name: Large Remote Armor Repairer I
@@ -722,6 +748,7 @@ types:
     hp: 40.0
     id: 26914
     marketGroup: 1057
+    mass: 20.0
     maxrange: 14400.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 5
@@ -749,6 +776,7 @@ types:
     hp: 40.0
     id: 16455
     marketGroup: 1057
+    mass: 20.0
     maxrange: 13200.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -776,6 +804,7 @@ types:
     hp: 40.0
     id: 16443
     marketGroup: 1058
+    mass: 20.0
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -803,6 +832,7 @@ types:
     hp: 40.0
     id: 16441
     marketGroup: 1058
+    mass: 20.0
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -830,6 +860,7 @@ types:
     hp: 40.0
     id: 11357
     marketGroup: 1058
+    mass: 20.0
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
     name: Medium Remote Armor Repairer I
@@ -856,6 +887,7 @@ types:
     hp: 40.0
     id: 26913
     marketGroup: 1058
+    mass: 20.0
     maxrange: 10500.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 5
@@ -883,6 +915,7 @@ types:
     hp: 40.0
     id: 16447
     marketGroup: 1058
+    mass: 20.0
     maxrange: 9625.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -910,6 +943,7 @@ types:
     hp: 40.0
     id: 41468
     marketGroup: 1056
+    mass: 20.0
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
@@ -938,6 +972,7 @@ types:
     hp: 40.0
     id: 16435
     marketGroup: 1059
+    mass: 20.0
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -965,6 +1000,7 @@ types:
     hp: 40.0
     id: 16433
     marketGroup: 1059
+    mass: 20.0
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
@@ -992,6 +1028,7 @@ types:
     hp: 40.0
     id: 11355
     marketGroup: 1059
+    mass: 20.0
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
     name: Small Remote Armor Repairer I
@@ -1018,6 +1055,7 @@ types:
     hp: 40.0
     id: 26912
     marketGroup: 1059
+    mass: 20.0
     maxrange: 8400.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 5
@@ -1045,6 +1083,7 @@ types:
     hp: 40.0
     id: 16439
     marketGroup: 1059
+    mass: 20.0
     maxrange: 7700.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1

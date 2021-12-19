@@ -9,6 +9,7 @@ types:
     id: 45599
     launcherhardpointmodifier: 5
     marketGroup: 1130
+    mass: 800000.0
     metalevelold: 1
     name: Legion Offensive - Assault Optimization
     packagedVolume: 40.0
@@ -34,6 +35,7 @@ types:
     hp: 40.0
     id: 45598
     marketGroup: 1130
+    mass: 800000.0
     metalevelold: 1
     name: Legion Offensive - Liquid Crystal Magnifiers
     packagedVolume: 40.0
@@ -61,6 +63,7 @@ types:
     hp: 40.0
     id: 45600
     marketGroup: 1130
+    mass: 800000.0
     maxlockedtargetsbonus: 1
     metalevelold: 1
     name: Legion Offensive - Support Processor
@@ -92,6 +95,7 @@ types:
     id: 45608
     launcherhardpointmodifier: 5
     marketGroup: 1133
+    mass: 800000.0
     metalevelold: 1
     name: Loki Offensive - Launcher Efficiency Configuration
     packagedVolume: 40.0
@@ -120,6 +124,7 @@ types:
     id: 45607
     launcherhardpointmodifier: 2
     marketGroup: 1133
+    mass: 800000.0
     metalevelold: 1
     name: Loki Offensive - Projectile Scoping Array
     packagedVolume: 40.0
@@ -147,6 +152,7 @@ types:
     hp: 40.0
     id: 45609
     marketGroup: 1133
+    mass: 800000.0
     maxlockedtargetsbonus: 1
     metalevelold: 1
     name: Loki Offensive - Support Processor
@@ -179,6 +185,7 @@ types:
     hp: 40.0
     id: 45605
     marketGroup: 1132
+    mass: 800000.0
     metalevelold: 1
     name: Proteus Offensive - Drone Synthesis Projector
     packagedVolume: 40.0
@@ -207,6 +214,7 @@ types:
     hp: 40.0
     id: 45604
     marketGroup: 1132
+    mass: 800000.0
     metalevelold: 1
     name: Proteus Offensive - Hybrid Encoding Platform
     packagedVolume: 40.0
@@ -234,6 +242,7 @@ types:
     hp: 40.0
     id: 45606
     marketGroup: 1132
+    mass: 800000.0
     maxlockedtargetsbonus: 1
     metalevelold: 1
     name: Proteus Offensive - Support Processor
@@ -263,6 +272,7 @@ types:
     id: 45601
     launcherhardpointmodifier: 6
     marketGroup: 1131
+    mass: 800000.0
     metalevelold: 1
     name: Tengu Offensive - Accelerated Ejection Bay
     packagedVolume: 40.0
@@ -288,6 +298,7 @@ types:
     hp: 40.0
     id: 45602
     marketGroup: 1131
+    mass: 800000.0
     metalevelold: 1
     name: Tengu Offensive - Magnetic Infusion Basin
     packagedVolume: 40.0
@@ -315,6 +326,7 @@ types:
     id: 45603
     launcherhardpointmodifier: 4
     marketGroup: 1131
+    mass: 800000.0
     maxlockedtargetsbonus: 1
     metalevelold: 1
     name: Tengu Offensive - Support Processor

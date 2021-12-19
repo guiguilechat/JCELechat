@@ -13,6 +13,7 @@ types:
     id: 24657
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Advanced Large Ship Assembly Array
@@ -51,6 +52,7 @@ types:
     id: 24655
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Advanced Medium Ship Assembly Array
@@ -89,6 +91,7 @@ types:
     id: 24653
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Advanced Small Ship Assembly Array
@@ -127,6 +130,7 @@ types:
     id: 24658
     isramcompatible: 1
     marketGroup: 932
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Ammunition Assembly Array
@@ -165,6 +169,7 @@ types:
     id: 24656
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Capital Ship Assembly Array
@@ -203,6 +208,7 @@ types:
     id: 24660
     isramcompatible: 1
     marketGroup: 932
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Component Assembly Array
@@ -241,6 +247,7 @@ types:
     id: 24659
     isramcompatible: 1
     marketGroup: 932
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Drone Assembly Array
@@ -279,6 +286,7 @@ types:
     id: 25305
     isramcompatible: 1
     marketGroup: 933
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Drug Lab
@@ -317,6 +325,7 @@ types:
     id: 13780
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Equipment Assembly Array
@@ -355,6 +364,7 @@ types:
     id: 29613
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Large Ship Assembly Array
@@ -393,6 +403,7 @@ types:
     id: 24654
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Medium Ship Assembly Array
@@ -431,6 +442,7 @@ types:
     id: 16220
     isramcompatible: 1
     marketGroup: 932
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Rapid Equipment Assembly Array
@@ -469,6 +481,7 @@ types:
     id: 24574
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Small Ship Assembly Array
@@ -507,6 +520,7 @@ types:
     id: 30389
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Subsystem Assembly Array
@@ -545,6 +559,7 @@ types:
     id: 24575
     isramcompatible: 1
     marketGroup: 932
+    mass: 2.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Supercapital Ship Assembly Array
@@ -584,6 +599,7 @@ types:
     id: 33867
     isramcompatible: 1
     marketGroup: 932
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     metagroupid: 4

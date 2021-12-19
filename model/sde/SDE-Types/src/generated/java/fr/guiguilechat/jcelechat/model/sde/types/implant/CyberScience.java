@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BlueprintmanufactureTimeBo
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CopySpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MineralNeedResearchBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -65,7 +64,7 @@ public class CyberScience
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MineralNeedResearchBonus.INSTANCE, CopySpeedBonus.INSTANCE, Mass.INSTANCE, BlueprintmanufactureTimeBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MineralNeedResearchBonus.INSTANCE, CopySpeedBonus.INSTANCE, BlueprintmanufactureTimeBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE })));
     public static final CyberScience.MetaGroup METAGROUP = new CyberScience.MetaGroup();
 
     @Override

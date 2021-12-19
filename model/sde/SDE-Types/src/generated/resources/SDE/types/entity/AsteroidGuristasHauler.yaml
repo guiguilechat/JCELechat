@@ -32,6 +32,7 @@ types:
     gfxboosterid: 395
     hp: 1050.0
     id: 22004
+    mass: 1.01E7
     maxvelocity: 750.0
     name: Bandit Courier
     packagedVolume: 101000.0
@@ -83,6 +84,7 @@ types:
     gfxboosterid: 395
     hp: 200.0
     id: 22002
+    mass: 1970000.0
     maxvelocity: 650.0
     name: Bandit Ferrier
     packagedVolume: 19700.0
@@ -134,6 +136,7 @@ types:
     gfxboosterid: 395
     hp: 200.0
     id: 22001
+    mass: 1650000.0
     maxvelocity: 650.0
     name: Bandit Gatherer
     packagedVolume: 16500.0
@@ -185,6 +188,7 @@ types:
     gfxboosterid: 395
     hp: 150.0
     id: 22029
+    mass: 1970000.0
     maxvelocity: 250.0
     name: Bandit Harvester
     packagedVolume: 19700.0
@@ -236,6 +240,7 @@ types:
     gfxboosterid: 395
     hp: 225.0
     id: 22003
+    mass: 1650000.0
     maxvelocity: 650.0
     name: Bandit Loader
     packagedVolume: 16500.0
@@ -287,6 +292,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 13718
+    mass: 1.01E7
     maxvelocity: 750.0
     name: Guristas Bulker
     packagedVolume: 101000.0
@@ -338,6 +344,7 @@ types:
     gfxboosterid: 395
     hp: 4750.0
     id: 13714
+    mass: 1080000.0
     maxvelocity: 1000.0
     name: Guristas Carrier
     packagedVolume: 2.2E7
@@ -389,6 +396,7 @@ types:
     gfxboosterid: 395
     hp: 4250.0
     id: 13715
+    mass: 2.1E7
     maxvelocity: 1000.0
     name: Guristas Convoy
     packagedVolume: 1040000.0
@@ -440,6 +448,7 @@ types:
     gfxboosterid: 395
     hp: 1050.0
     id: 13721
+    mass: 1.01E7
     maxvelocity: 750.0
     name: Guristas Courier
     packagedVolume: 101000.0
@@ -491,6 +500,7 @@ types:
     gfxboosterid: 395
     hp: 200.0
     id: 13723
+    mass: 1970000.0
     maxvelocity: 650.0
     name: Guristas Ferrier
     packagedVolume: 19700.0
@@ -542,6 +552,7 @@ types:
     gfxboosterid: 395
     hp: 200.0
     id: 13724
+    mass: 1650000.0
     maxvelocity: 650.0
     name: Guristas Gatherer
     packagedVolume: 16500.0
@@ -593,6 +604,7 @@ types:
     gfxboosterid: 395
     hp: 150.0
     id: 13725
+    mass: 1970000.0
     maxvelocity: 250.0
     name: Guristas Harvester
     packagedVolume: 19700.0
@@ -644,6 +656,7 @@ types:
     gfxboosterid: 395
     hp: 3500.0
     id: 13717
+    mass: 2.1E7
     maxvelocity: 1000.0
     name: Guristas Hauler
     packagedVolume: 1040000.0
@@ -695,6 +708,7 @@ types:
     gfxboosterid: 395
     hp: 225.0
     id: 13722
+    mass: 1650000.0
     maxvelocity: 650.0
     name: Guristas Loader
     packagedVolume: 16500.0
@@ -746,6 +760,7 @@ types:
     gfxboosterid: 395
     hp: 3975.0
     id: 13716
+    mass: 2.2E7
     maxvelocity: 1000.0
     name: Guristas Trailer
     packagedVolume: 1080000.0
@@ -797,6 +812,7 @@ types:
     gfxboosterid: 395
     hp: 1150.0
     id: 13719
+    mass: 1.01E7
     maxvelocity: 750.0
     name: Guristas Transporter
     packagedVolume: 101000.0
@@ -848,6 +864,7 @@ types:
     gfxboosterid: 395
     hp: 1100.0
     id: 13720
+    mass: 1.01E7
     maxvelocity: 1250.0
     name: Guristas Trucker
     packagedVolume: 101000.0

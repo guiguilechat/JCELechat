@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneMaxVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
@@ -106,7 +105,7 @@ public class CyberDrones
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, DamageHP.INSTANCE, Implantness.INSTANCE, MaxVelocityBonus.INSTANCE, ArmorHpBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, TechLevel.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, DamageHP.INSTANCE, Implantness.INSTANCE, MaxVelocityBonus.INSTANCE, ArmorHpBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE })));
     public static final CyberDrones.MetaGroup METAGROUP = new CyberDrones.MetaGroup();
 
     @Override

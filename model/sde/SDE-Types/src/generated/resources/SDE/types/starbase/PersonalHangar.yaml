@@ -10,6 +10,7 @@ types:
     hp: 10000.0
     id: 33149
     marketGroup: 1702
+    mass: 1.0E8
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Personal Hangar Array

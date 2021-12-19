@@ -8,6 +8,7 @@ types:
     id: 37222
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2344
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Energy Neutralizer Economy I
     nullsecmodifier: 1.2000000476837158
@@ -33,6 +34,7 @@ types:
     id: 37223
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2344
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Energy Neutralizer Economy II
     nullsecmodifier: 1.2000000476837158

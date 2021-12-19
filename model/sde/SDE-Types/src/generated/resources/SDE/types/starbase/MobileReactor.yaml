@@ -11,6 +11,7 @@ types:
     hp: 10000.0
     id: 24684
     marketGroup: 490
+    mass: 1.0E8
     name: Biochemical Reactor Array
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -46,6 +47,7 @@ types:
     hp: 10000.0
     id: 16869
     marketGroup: 490
+    mass: 1.0E8
     name: Complex Reactor Array
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -82,6 +84,7 @@ types:
     hp: 10000.0
     id: 22634
     marketGroup: 490
+    mass: 1.0E8
     name: Medium Biochemical Reactor Array
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -117,6 +120,7 @@ types:
     hp: 10000.0
     id: 30656
     marketGroup: 490
+    mass: 1.0E8
     name: Polymer Reactor Array
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -152,6 +156,7 @@ types:
     hp: 10000.0
     id: 20175
     marketGroup: 490
+    mass: 1.0E8
     name: Simple Reactor Array
     onliningdelay: 3000
     packagedVolume: 4000.0

@@ -47,6 +47,7 @@ types:
     gfxturretid: 464
     hp: 5250.0
     id: 42817
+    mass: 2.05E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 1
@@ -102,6 +103,7 @@ types:
     entityshieldboostduration: 10000
     falloff: 1.0
     id: 50107
+    mass: 9.71E7
     maxdirectionalvelocity: 1
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
@@ -141,6 +143,7 @@ types:
     entityshieldboostduration: 10000
     falloff: 1.0
     id: 50108
+    mass: 2.05E7
     maxdirectionalvelocity: 1
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0

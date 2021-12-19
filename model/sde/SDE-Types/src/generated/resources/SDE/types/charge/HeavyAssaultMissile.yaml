@@ -15,6 +15,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 2
@@ -50,6 +51,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 2
@@ -84,6 +86,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 2
@@ -118,6 +121,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 2
@@ -151,6 +155,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 3
@@ -186,6 +191,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 3
@@ -220,6 +226,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 3
@@ -254,6 +261,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 3
@@ -287,6 +295,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 1
@@ -322,6 +331,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 1
@@ -356,6 +366,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 1
@@ -390,6 +401,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 771
     marketGroup: 1003
+    mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
     metalevelold: 1
@@ -423,6 +435,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 971
+    mass: 1000.0
     maxvelocity: 2250.0
     name: Inferno Heavy Assault Missile
     packagedVolume: 0.014999999664723873
@@ -456,6 +469,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 971
+    mass: 1000.0
     maxvelocity: 2250.0
     name: Mjolnir Heavy Assault Missile
     packagedVolume: 0.014999999664723873
@@ -488,6 +502,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 771
     marketGroup: 971
+    mass: 1000.0
     maxvelocity: 2250.0
     name: Nova Heavy Assault Missile
     packagedVolume: 0.014999999664723873
@@ -520,6 +535,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 771
     marketGroup: 971
+    mass: 1000.0
     maxvelocity: 2250.0
     name: Scourge Heavy Assault Missile
     packagedVolume: 0.014999999664723873

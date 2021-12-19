@@ -22,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGangModules;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
@@ -162,7 +161,7 @@ public class RigCore
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, PowerNeedBonus.INSTANCE, Mass.INSTANCE, RangeSkillBonus.INSTANCE, RepairBonus.INSTANCE, ShieldRechargeRateMultiplier.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MiningAmountBonus.INSTANCE, Rechargeratebonus.INSTANCE, MaxGangModules.INSTANCE, CpuNeedBonus.INSTANCE, CapacitorCapacityBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, MetaLevelOld.INSTANCE, CapRechargeBonus.INSTANCE, CapNeedBonus.INSTANCE, PropulsionSkillPropulsionStrengthBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, PowerNeedBonus.INSTANCE, RangeSkillBonus.INSTANCE, RepairBonus.INSTANCE, ShieldRechargeRateMultiplier.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MiningAmountBonus.INSTANCE, Rechargeratebonus.INSTANCE, MaxGangModules.INSTANCE, CpuNeedBonus.INSTANCE, CapacitorCapacityBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, MetaLevelOld.INSTANCE, CapRechargeBonus.INSTANCE, CapNeedBonus.INSTANCE, PropulsionSkillPropulsionStrengthBonus.INSTANCE })));
     public static final RigCore.MetaGroup METAGROUP = new RigCore.MetaGroup();
 
     @Override

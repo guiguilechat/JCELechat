@@ -33,6 +33,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1952
+    mass: 1800000.0
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 450
@@ -118,6 +119,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 2034
+    mass: 1050000.0
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 450
@@ -205,6 +207,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 2021
+    mass: 1100000.0
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 450
@@ -291,6 +294,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1953
+    mass: 1400000.0
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 450

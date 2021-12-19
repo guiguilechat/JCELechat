@@ -9,6 +9,7 @@ types:
     id: 33569
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Melted Snowball
@@ -31,6 +32,7 @@ types:
     id: 19658
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Melted Snowball CVII
@@ -53,6 +55,7 @@ types:
     id: 30222
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Melted Snowball CX
@@ -75,6 +78,7 @@ types:
     id: 30221
     launchergroup: 56
     marketGroup: 1663
+    mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Melted Snowball CXIV

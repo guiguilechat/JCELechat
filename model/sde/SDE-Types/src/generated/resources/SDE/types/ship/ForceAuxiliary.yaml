@@ -54,6 +54,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 2272
+    mass: 1.31E9
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -171,6 +172,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 2357
+    mass: 1.31E9
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -295,6 +297,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 2275
+    mass: 1.26E9
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -412,6 +415,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 2357
+    mass: 1.3E9
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -531,6 +535,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 2273
+    mass: 1.3E9
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -648,6 +653,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 2274
+    mass: 1.25E9
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000

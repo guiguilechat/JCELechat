@@ -46,6 +46,7 @@ types:
     gfxturretid: 454
     hp: 625.0
     id: 2966
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0
@@ -130,6 +131,7 @@ types:
     gfxturretid: 454
     hp: 225.0
     id: 3524
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0
@@ -217,6 +219,7 @@ types:
     gfxboosterid: 394
     hp: 325.0
     id: 2909
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 2760.0
@@ -303,6 +306,7 @@ types:
     gfxboosterid: 394
     hp: 270.0
     id: 3526
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 2760.0
@@ -388,6 +392,7 @@ types:
     gfxturretid: 454
     hp: 250.0
     id: 3259
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0
@@ -473,6 +478,7 @@ types:
     gfxturretid: 454
     hp: 484.0
     id: 2190
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0
@@ -558,6 +564,7 @@ types:
     gfxboosterid: 394
     hp: 770.0
     id: 3492
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 2100.0
@@ -641,6 +648,7 @@ types:
     gfxturretid: 454
     hp: 825.0
     id: 2907
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 12000.0
@@ -728,6 +736,7 @@ types:
     gfxboosterid: 394
     hp: 770.0
     id: 2939
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 2100.0
@@ -810,6 +819,7 @@ types:
     gfxturretid: 454
     hp: 175.0
     id: 3525
+    mass: 2000000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 10000.0

@@ -35,6 +35,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1139
+    mass: 1.45E7
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 800
@@ -126,6 +127,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1142
+    mass: 1.38E7
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 450
@@ -217,6 +219,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1141
+    mass: 1.33E7
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 670
@@ -308,6 +311,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1140
+    mass: 1.44E7
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 510

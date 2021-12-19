@@ -7,6 +7,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 106
+    mass: 0.10000000149011612
     name: Antimatter Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
@@ -25,6 +26,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 108
+    mass: 0.05000000074505806
     name: Antimatter Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
@@ -43,6 +45,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 107
+    mass: 0.009999999776482582
     name: Antimatter Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
@@ -61,6 +64,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 504
+    mass: 0.5
     name: Antimatter Charge XL
     packagedVolume: 0.125
     portionSize: 100
@@ -79,6 +83,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Caldari Navy Antimatter Charge L
     packagedVolume: 0.02500000037252903
@@ -98,6 +103,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Caldari Navy Antimatter Charge M
     packagedVolume: 0.012500000186264515
@@ -117,6 +123,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Caldari Navy Antimatter Charge S
     packagedVolume: 0.0024999999441206455
@@ -137,6 +144,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Caldari Navy Iridium Charge L
     packagedVolume: 0.02500000037252903
@@ -157,6 +165,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Caldari Navy Iridium Charge M
     packagedVolume: 0.012500000186264515
@@ -177,6 +186,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Caldari Navy Iridium Charge S
     packagedVolume: 0.0024999999441206455
@@ -197,6 +207,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Caldari Navy Iron Charge L
     packagedVolume: 0.02500000037252903
@@ -217,6 +228,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Caldari Navy Iron Charge M
     packagedVolume: 0.012500000186264515
@@ -237,6 +249,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Caldari Navy Iron Charge S
     packagedVolume: 0.0024999999441206455
@@ -257,6 +270,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Caldari Navy Lead Charge L
     packagedVolume: 0.02500000037252903
@@ -277,6 +291,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Caldari Navy Lead Charge M
     packagedVolume: 0.012500000186264515
@@ -297,6 +312,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Caldari Navy Lead Charge S
     packagedVolume: 0.0024999999441206455
@@ -317,6 +333,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Caldari Navy Plutonium Charge L
     packagedVolume: 0.02500000037252903
@@ -337,6 +354,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Caldari Navy Plutonium Charge M
     packagedVolume: 0.012500000186264515
@@ -357,6 +375,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Caldari Navy Plutonium Charge S
     packagedVolume: 0.0024999999441206455
@@ -377,6 +396,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Caldari Navy Thorium Charge L
     packagedVolume: 0.02500000037252903
@@ -397,6 +417,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Caldari Navy Thorium Charge M
     packagedVolume: 0.012500000186264515
@@ -417,6 +438,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Caldari Navy Thorium Charge S
     packagedVolume: 0.0024999999441206455
@@ -437,6 +459,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Caldari Navy Tungsten Charge L
     packagedVolume: 0.02500000037252903
@@ -457,6 +480,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Caldari Navy Tungsten Charge M
     packagedVolume: 0.012500000186264515
@@ -477,6 +501,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Caldari Navy Tungsten Charge S
     packagedVolume: 0.0024999999441206455
@@ -497,6 +522,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Caldari Navy Uranium Charge L
     packagedVolume: 0.02500000037252903
@@ -517,6 +543,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Caldari Navy Uranium Charge M
     packagedVolume: 0.012500000186264515
@@ -537,6 +564,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Caldari Navy Uranium Charge S
     packagedVolume: 0.0024999999441206455
@@ -556,6 +584,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Dread Guristas Antimatter Charge L
     packagedVolume: 0.02500000037252903
@@ -575,6 +604,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Dread Guristas Antimatter Charge M
     packagedVolume: 0.012500000186264515
@@ -594,6 +624,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Dread Guristas Antimatter Charge S
     packagedVolume: 0.0024999999441206455
@@ -613,6 +644,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Dread Guristas Antimatter Charge XL
     packagedVolume: 0.125
@@ -633,6 +665,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Dread Guristas Iridium Charge L
     packagedVolume: 0.02500000037252903
@@ -653,6 +686,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Dread Guristas Iridium Charge M
     packagedVolume: 0.012500000186264515
@@ -673,6 +707,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Dread Guristas Iridium Charge S
     packagedVolume: 0.0024999999441206455
@@ -693,6 +728,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Dread Guristas Iridium Charge XL
     packagedVolume: 0.125
@@ -713,6 +749,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Dread Guristas Iron Charge L
     packagedVolume: 0.02500000037252903
@@ -733,6 +770,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Dread Guristas Iron Charge M
     packagedVolume: 0.012500000186264515
@@ -753,6 +791,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Dread Guristas Iron Charge S
     packagedVolume: 0.0024999999441206455
@@ -773,6 +812,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Dread Guristas Iron Charge XL
     packagedVolume: 0.125
@@ -793,6 +833,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Dread Guristas Lead Charge L
     packagedVolume: 0.02500000037252903
@@ -813,6 +854,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Dread Guristas Lead Charge M
     packagedVolume: 0.012500000186264515
@@ -833,6 +875,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Dread Guristas Lead Charge S
     packagedVolume: 0.0024999999441206455
@@ -853,6 +896,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Dread Guristas Lead Charge XL
     packagedVolume: 0.125
@@ -873,6 +917,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Dread Guristas Plutonium Charge L
     packagedVolume: 0.02500000037252903
@@ -893,6 +938,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Dread Guristas Plutonium Charge M
     packagedVolume: 0.012500000186264515
@@ -913,6 +959,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Dread Guristas Plutonium Charge S
     packagedVolume: 0.0024999999441206455
@@ -933,6 +980,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Dread Guristas Plutonium Charge XL
     packagedVolume: 0.125
@@ -953,6 +1001,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Dread Guristas Thorium Charge L
     packagedVolume: 0.02500000037252903
@@ -973,6 +1022,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Dread Guristas Thorium Charge M
     packagedVolume: 0.012500000186264515
@@ -993,6 +1043,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Dread Guristas Thorium Charge S
     packagedVolume: 0.0024999999441206455
@@ -1013,6 +1064,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Dread Guristas Thorium Charge XL
     packagedVolume: 0.125
@@ -1033,6 +1085,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Dread Guristas Tungsten Charge L
     packagedVolume: 0.02500000037252903
@@ -1053,6 +1106,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Dread Guristas Tungsten Charge M
     packagedVolume: 0.012500000186264515
@@ -1073,6 +1127,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Dread Guristas Tungsten Charge S
     packagedVolume: 0.0024999999441206455
@@ -1093,6 +1148,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Dread Guristas Tungsten Charge XL
     packagedVolume: 0.125
@@ -1113,6 +1169,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Dread Guristas Uranium Charge L
     packagedVolume: 0.02500000037252903
@@ -1133,6 +1190,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Dread Guristas Uranium Charge M
     packagedVolume: 0.012500000186264515
@@ -1153,6 +1211,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Dread Guristas Uranium Charge S
     packagedVolume: 0.0024999999441206455
@@ -1173,6 +1232,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Dread Guristas Uranium Charge XL
     packagedVolume: 0.125
@@ -1192,6 +1252,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Federation Navy Antimatter Charge L
     packagedVolume: 0.02500000037252903
@@ -1211,6 +1272,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Federation Navy Antimatter Charge M
     packagedVolume: 0.012500000186264515
@@ -1230,6 +1292,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Federation Navy Antimatter Charge S
     packagedVolume: 0.0024999999441206455
@@ -1250,6 +1313,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Federation Navy Iridium Charge L
     packagedVolume: 0.02500000037252903
@@ -1270,6 +1334,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Federation Navy Iridium Charge M
     packagedVolume: 0.012500000186264515
@@ -1290,6 +1355,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Federation Navy Iridium Charge S
     packagedVolume: 0.0024999999441206455
@@ -1310,6 +1376,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Federation Navy Iron Charge L
     packagedVolume: 0.02500000037252903
@@ -1330,6 +1397,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Federation Navy Iron Charge M
     packagedVolume: 0.012500000186264515
@@ -1350,6 +1418,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Federation Navy Iron Charge S
     packagedVolume: 0.0024999999441206455
@@ -1370,6 +1439,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Federation Navy Lead Charge L
     packagedVolume: 0.02500000037252903
@@ -1390,6 +1460,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Federation Navy Lead Charge M
     packagedVolume: 0.012500000186264515
@@ -1410,6 +1481,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Federation Navy Lead Charge S
     packagedVolume: 0.0024999999441206455
@@ -1430,6 +1502,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Federation Navy Plutonium Charge L
     packagedVolume: 0.02500000037252903
@@ -1450,6 +1523,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Federation Navy Plutonium Charge M
     packagedVolume: 0.012500000186264515
@@ -1470,6 +1544,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Federation Navy Plutonium Charge S
     packagedVolume: 0.0024999999441206455
@@ -1490,6 +1565,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Federation Navy Thorium Charge L
     packagedVolume: 0.02500000037252903
@@ -1510,6 +1586,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Federation Navy Thorium Charge M
     packagedVolume: 0.012500000186264515
@@ -1530,6 +1607,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Federation Navy Thorium Charge S
     packagedVolume: 0.0024999999441206455
@@ -1550,6 +1628,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Federation Navy Tungsten Charge L
     packagedVolume: 0.02500000037252903
@@ -1570,6 +1649,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Federation Navy Tungsten Charge M
     packagedVolume: 0.012500000186264515
@@ -1590,6 +1670,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Federation Navy Tungsten Charge S
     packagedVolume: 0.0024999999441206455
@@ -1610,6 +1691,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Federation Navy Uranium Charge L
     packagedVolume: 0.02500000037252903
@@ -1630,6 +1712,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Federation Navy Uranium Charge M
     packagedVolume: 0.012500000186264515
@@ -1650,6 +1733,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Federation Navy Uranium Charge S
     packagedVolume: 0.0024999999441206455
@@ -1669,6 +1753,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guardian Antimatter Charge L
     packagedVolume: 0.02500000037252903
@@ -1688,6 +1773,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guardian Antimatter Charge M
     packagedVolume: 0.012500000186264515
@@ -1707,6 +1793,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guardian Antimatter Charge S
     packagedVolume: 0.0024999999441206455
@@ -1726,6 +1813,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guardian Antimatter Charge XL
     packagedVolume: 0.125
@@ -1746,6 +1834,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guardian Iridium Charge L
     packagedVolume: 0.02500000037252903
@@ -1766,6 +1855,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guardian Iridium Charge M
     packagedVolume: 0.012500000186264515
@@ -1786,6 +1876,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guardian Iridium Charge S
     packagedVolume: 0.0024999999441206455
@@ -1806,6 +1897,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guardian Iridium Charge XL
     packagedVolume: 0.125
@@ -1826,6 +1918,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guardian Iron Charge L
     packagedVolume: 0.02500000037252903
@@ -1846,6 +1939,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guardian Iron Charge M
     packagedVolume: 0.012500000186264515
@@ -1866,6 +1960,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guardian Iron Charge S
     packagedVolume: 0.0024999999441206455
@@ -1886,6 +1981,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guardian Iron Charge XL
     packagedVolume: 0.125
@@ -1906,6 +2002,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guardian Lead Charge L
     packagedVolume: 0.02500000037252903
@@ -1926,6 +2023,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guardian Lead Charge M
     packagedVolume: 0.012500000186264515
@@ -1946,6 +2044,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guardian Lead Charge S
     packagedVolume: 0.0024999999441206455
@@ -1966,6 +2065,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guardian Lead Charge XL
     packagedVolume: 0.125
@@ -1986,6 +2086,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guardian Plutonium Charge L
     packagedVolume: 0.02500000037252903
@@ -2006,6 +2107,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guardian Plutonium Charge M
     packagedVolume: 0.012500000186264515
@@ -2026,6 +2128,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guardian Plutonium Charge S
     packagedVolume: 0.0024999999441206455
@@ -2046,6 +2149,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guardian Plutonium Charge XL
     packagedVolume: 0.125
@@ -2066,6 +2170,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guardian Thorium Charge L
     packagedVolume: 0.02500000037252903
@@ -2086,6 +2191,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guardian Thorium Charge M
     packagedVolume: 0.012500000186264515
@@ -2106,6 +2212,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guardian Thorium Charge S
     packagedVolume: 0.0024999999441206455
@@ -2126,6 +2233,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guardian Thorium Charge XL
     packagedVolume: 0.125
@@ -2146,6 +2254,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guardian Tungsten Charge L
     packagedVolume: 0.02500000037252903
@@ -2166,6 +2275,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guardian Tungsten Charge M
     packagedVolume: 0.012500000186264515
@@ -2186,6 +2296,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guardian Tungsten Charge S
     packagedVolume: 0.0024999999441206455
@@ -2206,6 +2317,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guardian Tungsten Charge XL
     packagedVolume: 0.125
@@ -2226,6 +2338,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 991
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guardian Uranium Charge L
     packagedVolume: 0.02500000037252903
@@ -2246,6 +2359,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 992
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guardian Uranium Charge M
     packagedVolume: 0.012500000186264515
@@ -2266,6 +2380,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guardian Uranium Charge S
     packagedVolume: 0.0024999999441206455
@@ -2286,6 +2401,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guardian Uranium Charge XL
     packagedVolume: 0.125
@@ -2305,6 +2421,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guristas Antimatter Charge L
     packagedVolume: 0.02500000037252903
@@ -2324,6 +2441,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.5
     metagroupid: 4
     name: Guristas Antimatter Charge M
     packagedVolume: 0.012500000186264515
@@ -2343,6 +2461,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guristas Antimatter Charge S
     packagedVolume: 0.0024999999441206455
@@ -2362,6 +2481,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 1004
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guristas Antimatter Charge XL
     packagedVolume: 0.125
@@ -2382,6 +2502,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 991
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guristas Iridium Charge L
     packagedVolume: 0.02500000037252903
@@ -2402,6 +2523,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 992
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guristas Iridium Charge M
     packagedVolume: 0.012500000186264515
@@ -2422,6 +2544,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guristas Iridium Charge S
     packagedVolume: 0.0024999999441206455
@@ -2442,6 +2565,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 1004
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guristas Iridium Charge XL
     packagedVolume: 0.125
@@ -2462,6 +2586,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 991
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guristas Iron Charge L
     packagedVolume: 0.02500000037252903
@@ -2482,6 +2607,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 992
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guristas Iron Charge M
     packagedVolume: 0.012500000186264515
@@ -2502,6 +2628,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guristas Iron Charge S
     packagedVolume: 0.0024999999441206455
@@ -2522,6 +2649,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 1004
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guristas Iron Charge XL
     packagedVolume: 0.125
@@ -2542,6 +2670,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 991
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guristas Lead Charge L
     packagedVolume: 0.02500000037252903
@@ -2562,6 +2691,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 992
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guristas Lead Charge M
     packagedVolume: 0.012500000186264515
@@ -2582,6 +2712,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guristas Lead Charge S
     packagedVolume: 0.0024999999441206455
@@ -2602,6 +2733,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 1004
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guristas Lead Charge XL
     packagedVolume: 0.125
@@ -2622,6 +2754,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 991
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guristas Plutonium Charge L
     packagedVolume: 0.02500000037252903
@@ -2642,6 +2775,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 992
+    mass: 0.5
     metagroupid: 4
     name: Guristas Plutonium Charge M
     packagedVolume: 0.012500000186264515
@@ -2662,6 +2796,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 993
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guristas Plutonium Charge S
     packagedVolume: 0.0024999999441206455
@@ -2682,6 +2817,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guristas Plutonium Charge XL
     packagedVolume: 0.125
@@ -2702,6 +2838,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 991
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guristas Thorium Charge L
     packagedVolume: 0.02500000037252903
@@ -2722,6 +2859,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 992
+    mass: 0.5
     metagroupid: 4
     name: Guristas Thorium Charge M
     packagedVolume: 0.012500000186264515
@@ -2742,6 +2880,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 993
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guristas Thorium Charge S
     packagedVolume: 0.0024999999441206455
@@ -2762,6 +2901,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guristas Thorium Charge XL
     packagedVolume: 0.125
@@ -2782,6 +2922,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 991
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guristas Tungsten Charge L
     packagedVolume: 0.02500000037252903
@@ -2802,6 +2943,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 992
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Guristas Tungsten Charge M
     packagedVolume: 0.012500000186264515
@@ -2822,6 +2964,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Guristas Tungsten Charge S
     packagedVolume: 0.0024999999441206455
@@ -2842,6 +2985,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guristas Tungsten Charge XL
     packagedVolume: 0.125
@@ -2862,6 +3006,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 991
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guristas Uranium Charge L
     packagedVolume: 0.02500000037252903
@@ -2882,6 +3027,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 992
+    mass: 0.5
     metagroupid: 4
     name: Guristas Uranium Charge M
     packagedVolume: 0.012500000186264515
@@ -2902,6 +3048,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 993
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Guristas Uranium Charge S
     packagedVolume: 0.0024999999441206455
@@ -2922,6 +3069,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Guristas Uranium Charge XL
     packagedVolume: 0.125
@@ -2942,6 +3090,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 106
+    mass: 0.10000000149011612
     name: Iridium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
@@ -2961,6 +3110,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 108
+    mass: 0.05000000074505806
     name: Iridium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
@@ -2980,6 +3130,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 107
+    mass: 0.009999999776482582
     name: Iridium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
@@ -2999,6 +3150,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 504
+    mass: 0.5
     name: Iridium Charge XL
     packagedVolume: 0.125
     portionSize: 100
@@ -3018,6 +3170,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 106
+    mass: 0.10000000149011612
     name: Iron Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
@@ -3037,6 +3190,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 108
+    mass: 0.05000000074505806
     name: Iron Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
@@ -3056,6 +3210,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 107
+    mass: 0.009999999776482582
     name: Iron Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
@@ -3075,6 +3230,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 504
+    mass: 0.5
     name: Iron Charge XL
     packagedVolume: 0.125
     portionSize: 100
@@ -3094,6 +3250,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 106
+    mass: 0.10000000149011612
     name: Lead Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
@@ -3113,6 +3270,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 108
+    mass: 0.05000000074505806
     name: Lead Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
@@ -3132,6 +3290,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 107
+    mass: 0.009999999776482582
     name: Lead Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
@@ -3151,6 +3310,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 504
+    mass: 0.5
     name: Lead Charge XL
     packagedVolume: 0.125
     portionSize: 100
@@ -3170,6 +3330,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 106
+    mass: 0.10000000149011612
     name: Plutonium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
@@ -3189,6 +3350,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 108
+    mass: 0.05000000074505806
     name: Plutonium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
@@ -3208,6 +3370,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 107
+    mass: 0.009999999776482582
     name: Plutonium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
@@ -3227,6 +3390,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 504
+    mass: 0.5
     name: Plutonium Charge XL
     packagedVolume: 0.125
     portionSize: 100
@@ -3245,6 +3409,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 991
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Shadow Antimatter Charge L
     packagedVolume: 0.02500000037252903
@@ -3264,6 +3429,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 992
+    mass: 0.5
     metagroupid: 4
     name: Shadow Antimatter Charge M
     packagedVolume: 0.012500000186264515
@@ -3283,6 +3449,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 993
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Shadow Antimatter Charge S
     packagedVolume: 0.0024999999441206455
@@ -3302,6 +3469,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 1004
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Shadow Antimatter Charge XL
     packagedVolume: 0.125
@@ -3322,6 +3490,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 991
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Shadow Iridium Charge L
     packagedVolume: 0.02500000037252903
@@ -3342,6 +3511,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 992
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Shadow Iridium Charge M
     packagedVolume: 0.012500000186264515
@@ -3362,6 +3532,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Shadow Iridium Charge S
     packagedVolume: 0.0024999999441206455
@@ -3382,6 +3553,7 @@ types:
     launchergroup: 74
     maincolor: 6201492
     marketGroup: 1004
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Shadow Iridium Charge XL
     packagedVolume: 0.125
@@ -3402,6 +3574,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 991
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Shadow Iron Charge L
     packagedVolume: 0.02500000037252903
@@ -3422,6 +3595,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 992
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Shadow Iron Charge M
     packagedVolume: 0.012500000186264515
@@ -3442,6 +3616,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Shadow Iron Charge S
     packagedVolume: 0.0024999999441206455
@@ -3462,6 +3637,7 @@ types:
     launchergroup: 74
     maincolor: 5202838
     marketGroup: 1004
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Shadow Iron Charge XL
     packagedVolume: 0.125
@@ -3482,6 +3658,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 991
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Shadow Lead Charge L
     packagedVolume: 0.02500000037252903
@@ -3502,6 +3679,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 992
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Shadow Lead Charge M
     packagedVolume: 0.012500000186264515
@@ -3522,6 +3700,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Shadow Lead Charge S
     packagedVolume: 0.0024999999441206455
@@ -3542,6 +3721,7 @@ types:
     launchergroup: 74
     maincolor: 8301159
     marketGroup: 1004
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Shadow Lead Charge XL
     packagedVolume: 0.125
@@ -3562,6 +3742,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 991
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Shadow Plutonium Charge L
     packagedVolume: 0.02500000037252903
@@ -3582,6 +3763,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 992
+    mass: 0.5
     metagroupid: 4
     name: Shadow Plutonium Charge M
     packagedVolume: 0.012500000186264515
@@ -3602,6 +3784,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 993
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Shadow Plutonium Charge S
     packagedVolume: 0.0024999999441206455
@@ -3622,6 +3805,7 @@ types:
     launchergroup: 74
     maincolor: 12487062
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Shadow Plutonium Charge XL
     packagedVolume: 0.125
@@ -3642,6 +3826,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 991
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Shadow Thorium Charge L
     packagedVolume: 0.02500000037252903
@@ -3662,6 +3847,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 992
+    mass: 0.5
     metagroupid: 4
     name: Shadow Thorium Charge M
     packagedVolume: 0.012500000186264515
@@ -3682,6 +3868,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 993
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Shadow Thorium Charge S
     packagedVolume: 0.0024999999441206455
@@ -3702,6 +3889,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Shadow Thorium Charge XL
     packagedVolume: 0.125
@@ -3722,6 +3910,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 991
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Shadow Tungsten Charge L
     packagedVolume: 0.02500000037252903
@@ -3742,6 +3931,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 992
+    mass: 0.10000000149011612
     metagroupid: 4
     name: Shadow Tungsten Charge M
     packagedVolume: 0.012500000186264515
@@ -3762,6 +3952,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 993
+    mass: 0.009999999776482582
     metagroupid: 4
     name: Shadow Tungsten Charge S
     packagedVolume: 0.0024999999441206455
@@ -3782,6 +3973,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Shadow Tungsten Charge XL
     packagedVolume: 0.125
@@ -3802,6 +3994,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 991
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Shadow Uranium Charge L
     packagedVolume: 0.02500000037252903
@@ -3822,6 +4015,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 992
+    mass: 0.5
     metagroupid: 4
     name: Shadow Uranium Charge M
     packagedVolume: 0.012500000186264515
@@ -3842,6 +4036,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 993
+    mass: 0.05000000074505806
     metagroupid: 4
     name: Shadow Uranium Charge S
     packagedVolume: 0.0024999999441206455
@@ -3862,6 +4057,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 1004
+    mass: 0.5
     metagroupid: 4
     name: Shadow Uranium Charge XL
     packagedVolume: 0.125
@@ -3882,6 +4078,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 106
+    mass: 0.10000000149011612
     name: Thorium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
@@ -3901,6 +4098,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 108
+    mass: 0.05000000074505806
     name: Thorium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
@@ -3920,6 +4118,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 107
+    mass: 0.009999999776482582
     name: Thorium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
@@ -3939,6 +4138,7 @@ types:
     launchergroup: 74
     maincolor: 10727277
     marketGroup: 504
+    mass: 0.5
     name: Thorium Charge XL
     packagedVolume: 0.125
     portionSize: 100
@@ -3958,6 +4158,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 106
+    mass: 0.10000000149011612
     name: Tungsten Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
@@ -3977,6 +4178,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 108
+    mass: 0.05000000074505806
     name: Tungsten Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
@@ -3996,6 +4198,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 107
+    mass: 0.009999999776482582
     name: Tungsten Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
@@ -4015,6 +4218,7 @@ types:
     launchergroup: 74
     maincolor: 5801883
     marketGroup: 504
+    mass: 0.5
     name: Tungsten Charge XL
     packagedVolume: 0.125
     portionSize: 100
@@ -4034,6 +4238,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 106
+    mass: 0.10000000149011612
     name: Uranium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
@@ -4053,6 +4258,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 108
+    mass: 0.05000000074505806
     name: Uranium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
@@ -4072,6 +4278,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 107
+    mass: 0.009999999776482582
     name: Uranium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
@@ -4091,6 +4298,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 504
+    mass: 0.5
     name: Uranium Charge XL
     packagedVolume: 0.125
     portionSize: 100

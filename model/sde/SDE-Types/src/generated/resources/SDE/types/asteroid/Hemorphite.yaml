@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28403
     marketGroup: 528
+    mass: 1.0000000409184788E35
     name: Compressed Hemorphite
     orebasictype: 1231
     packagedVolume: 0.8600000143051147
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28404
     marketGroup: 528
+    mass: 1.0000000409184788E35
     name: Compressed Radiant Hemorphite
     orebasictype: 1231
     packagedVolume: 0.8600000143051147
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46697
     marketGroup: 528
+    mass: 1.0
     name: Compressed Scintillating Hemorphite
     orebasictype: 46681
     packagedVolume: 0.8600000143051147
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28405
     marketGroup: 528
+    mass: 1.0000000409184788E35
     name: Compressed Vivid Hemorphite
     orebasictype: 1231
     packagedVolume: 0.8600000143051147
@@ -84,6 +88,7 @@ types:
     compressiontypeid: 28403
     id: 1231
     marketGroup: 528
+    mass: 1.0000000409184788E35
     name: Hemorphite
     orebasictype: 1231
     packagedVolume: 3.0
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 28404
     id: 17445
     marketGroup: 528
+    mass: 1.0000000409184788E35
     name: Radiant Hemorphite
     orebasictype: 1231
     packagedVolume: 3.0
@@ -126,6 +132,7 @@ types:
     compressiontypeid: 46697
     id: 46681
     marketGroup: 528
+    mass: 1.0000000409184788E35
     name: Scintillating Hemorphite
     orebasictype: 46681
     packagedVolume: 3.0
@@ -147,6 +154,7 @@ types:
     compressiontypeid: 28405
     id: 17444
     marketGroup: 528
+    mass: 1.0000000409184788E35
     name: Vivid Hemorphite
     orebasictype: 1231
     packagedVolume: 3.0

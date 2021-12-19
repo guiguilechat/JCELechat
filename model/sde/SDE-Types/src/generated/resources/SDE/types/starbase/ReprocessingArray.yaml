@@ -11,6 +11,7 @@ types:
     hp: 10000.0
     id: 19470
     marketGroup: 482
+    mass: 5.0E7
     maxoperationaldistance: 3000
     name: Intensive Reprocessing Array
     onliningdelay: 3000
@@ -48,6 +49,7 @@ types:
     hp: 10000.0
     id: 12238
     marketGroup: 482
+    mass: 5.0E7
     maxoperationaldistance: 3000
     name: Reprocessing Array
     onliningdelay: 3000

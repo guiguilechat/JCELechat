@@ -88,6 +88,8 @@ public class ESILoader {
 				for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes attribute : e.getValue().dogma_attributes) {
 					if (attribute.attribute_id == 161) {
 						det.volume = attribute.value;
+					} else if (attribute.attribute_id == 4) {
+						det.mass = attribute.value;
 					} else {
 						int attId = attribute.attribute_id;
 						float floatValue = attribute.value;

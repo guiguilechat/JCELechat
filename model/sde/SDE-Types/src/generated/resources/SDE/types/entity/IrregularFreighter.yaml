@@ -20,6 +20,7 @@ types:
     gfxboosterid: 395
     hp: 11500.0
     id: 49695
+    mass: 2.1E7
     maxvelocity: 115.0
     name: Guristas Research Convoy
     packagedVolume: 1040000.0
@@ -48,6 +49,7 @@ types:
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
     id: 50109
+    mass: 2.1E7
     name: Imperial Escort Providence
     packagedVolume: 1040000.0
     portionSize: 1

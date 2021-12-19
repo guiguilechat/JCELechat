@@ -11,6 +11,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 866
+    mass: 1.0
     metalevelold: 5
     name: Aurora L
     packagedVolume: 1.0
@@ -39,6 +40,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 867
+    mass: 1.0
     metalevelold: 5
     name: Aurora M
     packagedVolume: 1.0
@@ -67,6 +69,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 868
+    mass: 1.0
     metalevelold: 5
     name: Aurora S
     packagedVolume: 1.0
@@ -95,6 +98,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 2257
+    mass: 1.0
     metalevelold: 5
     name: Aurora XL
     packagedVolume: 1.0
@@ -122,6 +126,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 866
+    mass: 1.0
     metalevelold: 5
     name: Gleam L
     packagedVolume: 1.0
@@ -150,6 +155,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 867
+    mass: 1.0
     metalevelold: 5
     name: Gleam M
     packagedVolume: 1.0
@@ -178,6 +184,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 868
+    mass: 1.0
     metalevelold: 5
     name: Gleam S
     packagedVolume: 1.0
@@ -206,6 +213,7 @@ types:
     launchergroup: 53
     maincolor: 2833864
     marketGroup: 2257
+    mass: 1.0
     metalevelold: 5
     name: Gleam XL
     packagedVolume: 1.0

@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
@@ -80,13 +79,6 @@ public class TemporaryCloud
     @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -100,7 +92,7 @@ public class TemporaryCloud
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CloudEffectDelay.INSTANCE, CloudDuration.INSTANCE, Radius.INSTANCE, EmDamage.INSTANCE, Mass.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, Capacity.INSTANCE, DisallowAssistance.INSTANCE, ThermalDamage.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CloudEffectDelay.INSTANCE, CloudDuration.INSTANCE, Radius.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, Capacity.INSTANCE, DisallowAssistance.INSTANCE, ThermalDamage.INSTANCE })));
     public static final TemporaryCloud.MetaGroup METAGROUP = new TemporaryCloud.MetaGroup();
 
     @Override
@@ -133,10 +125,6 @@ public class TemporaryCloud
             case  117 :
             {
                 return kineticdamage;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

@@ -13,6 +13,7 @@ types:
     falloff: 1.0
     hp: 600.0
     id: 25829
+    mass: 1200000.0
     name: Angel Chaos Frigate
     portionSize: 1
     published: false

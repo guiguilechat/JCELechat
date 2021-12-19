@@ -17,6 +17,7 @@ types:
     kineticdamage: 7.0
     launchergroup: 862
     marketGroup: 1015
+    mass: 1000.0
     maxvelocity: 2000.0
     name: Focused Void Bomb
     packagedVolume: 75.0
@@ -50,6 +51,7 @@ types:
     kineticdamage: 7.0
     launchergroup: 862
     marketGroup: 1015
+    mass: 1000.0
     maxvelocity: 4000.0
     name: Void Bomb
     packagedVolume: 75.0

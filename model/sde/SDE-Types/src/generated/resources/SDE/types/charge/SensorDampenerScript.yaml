@@ -5,6 +5,7 @@ types:
     launchergroup: 208
     maincolor: 11646664
     marketGroup: 1094
+    mass: 1.0
     maxtargetrangebonusbonus: -100
     name: Scan Resolution Dampening Script
     packagedVolume: 1.0
@@ -21,6 +22,7 @@ types:
     launchergroup: 208
     maincolor: 11646664
     marketGroup: 1094
+    mass: 1.0
     maxtargetrangebonusbonus: 100
     name: Targeting Range Dampening Script
     packagedVolume: 1.0

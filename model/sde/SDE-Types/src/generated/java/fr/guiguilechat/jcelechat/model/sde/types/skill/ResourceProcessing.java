@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudChanceReduction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IceHarvestCycleBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsSkillIObsolete;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningUpgradeCPUReductionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
@@ -150,7 +149,7 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill3level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReactionTimeBonus.INSTANCE, Mass.INSTANCE, ReactionSlotBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, IceHarvestCycleBonus.INSTANCE, MiningAmountBonus.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, RefiningYieldMutator.INSTANCE, DamageCloudChanceReduction.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReactionTimeBonus.INSTANCE, ReactionSlotBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, IceHarvestCycleBonus.INSTANCE, MiningAmountBonus.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, RefiningYieldMutator.INSTANCE, DamageCloudChanceReduction.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
     public static final ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
 
     @Override

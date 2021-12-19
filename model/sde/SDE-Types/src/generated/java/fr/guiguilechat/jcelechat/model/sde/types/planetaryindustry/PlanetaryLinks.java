@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoadLevelModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoadPerKm;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LogisticalCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoadLevelModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoadPerKm;
@@ -79,7 +78,7 @@ public class PlanetaryLinks
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double powerloadperkm;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PowerLoadPerKm.INSTANCE, CpuLoad.INSTANCE, CpuLoadPerKm.INSTANCE, Radius.INSTANCE, CpuLoadLevelModifier.INSTANCE, PowerLoadLevelModifier.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, PowerLoad.INSTANCE, LogisticalCapacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PowerLoadPerKm.INSTANCE, CpuLoad.INSTANCE, CpuLoadPerKm.INSTANCE, Radius.INSTANCE, CpuLoadLevelModifier.INSTANCE, PowerLoadLevelModifier.INSTANCE, Capacity.INSTANCE, PowerLoad.INSTANCE, LogisticalCapacity.INSTANCE })));
     public static final PlanetaryLinks.MetaGroup METAGROUP = new PlanetaryLinks.MetaGroup();
 
     @Override

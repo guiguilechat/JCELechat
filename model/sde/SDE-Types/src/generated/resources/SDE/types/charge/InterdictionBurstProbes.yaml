@@ -8,6 +8,7 @@ types:
     id: 56748
     launchergroup: 589
     marketGroup: 1201
+    mass: 1.0
     name: Stasis Webification Probe
     packagedVolume: 3.0
     portionSize: 2

@@ -26,7 +26,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ImplantBonusVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ImplantSetChristmas;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IntelligenceBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MemoryBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Nondestructible;
@@ -179,7 +178,7 @@ public class SpecialEditionImplant
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Nondestructible.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ImplantSetChristmas.INSTANCE, CpuOutputBonus2 .INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, FollowsJumpClones.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Nondestructible.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ImplantSetChristmas.INSTANCE, CpuOutputBonus2 .INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, FollowsJumpClones.INSTANCE })));
     public static final SpecialEditionImplant.MetaGroup METAGROUP = new SpecialEditionImplant.MetaGroup();
 
     @Override

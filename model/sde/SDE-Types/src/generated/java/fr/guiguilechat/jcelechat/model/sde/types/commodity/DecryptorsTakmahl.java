@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.InventionMEModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.InventionMaxRunModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.InventionPropabilityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.InventionTEModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
@@ -62,20 +61,13 @@ public class DecryptorsTakmahl
     @DefaultRealValue(0.0)
     public double inventiontemodifier;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, InventionMaxRunModifier.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, InventionPropabilityMultiplier.INSTANCE, InventionMEModifier.INSTANCE, InventionTEModifier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, InventionMaxRunModifier.INSTANCE, Capacity.INSTANCE, InventionPropabilityMultiplier.INSTANCE, InventionMEModifier.INSTANCE, InventionTEModifier.INSTANCE })));
     public static final DecryptorsTakmahl.MetaGroup METAGROUP = new DecryptorsTakmahl.MetaGroup();
 
     @Override
@@ -100,10 +92,6 @@ public class DecryptorsTakmahl
             case  1114 :
             {
                 return inventiontemodifier;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

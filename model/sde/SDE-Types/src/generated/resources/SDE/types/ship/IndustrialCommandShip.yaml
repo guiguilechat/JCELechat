@@ -50,6 +50,7 @@ types:
     lowslots: 2
     maincolor: 16777215
     marketGroup: 2336
+    mass: 1.5E8
     maxgangmodules: 2
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -150,6 +151,7 @@ types:
     lowslots: 2
     maincolor: 16777215
     marketGroup: 2336
+    mass: 4500000.0
     maxgangmodules: 1
     maxlockedtargets: 5
     maxoperationaldistance: 5000

@@ -7,6 +7,7 @@ types:
     hp: 30000.0
     id: 33702
     marketGroup: 1833
+    mass: 10000.0
     maxlockedtargets: 1
     maxrange: 175000.0
     maxtargetrange: 175000.0
@@ -36,6 +37,7 @@ types:
     hp: 40000.0
     id: 33700
     marketGroup: 1833
+    mass: 10000.0
     maxlockedtargets: 1
     maxrange: 125000.0
     maxtargetrange: 125000.0
@@ -65,6 +67,7 @@ types:
     hp: 60000.0
     id: 56701
     marketGroup: 2760
+    mass: 10000.0
     maxlockedtargets: 1
     maxrange: 125000.0
     maxtargetrange: 125000.0
@@ -95,6 +98,7 @@ types:
     hp: 30000.0
     id: 33475
     marketGroup: 1833
+    mass: 10000.0
     maxlockedtargets: 1
     maxrange: 125000.0
     maxtargetrange: 125000.0

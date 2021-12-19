@@ -46,6 +46,7 @@ types:
     hp: 1800.0
     id: 24026
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
@@ -120,6 +121,7 @@ types:
     hp: 1800.0
     id: 24027
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5250.0
@@ -194,6 +196,7 @@ types:
     hp: 1800.0
     id: 24028
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5250.0
@@ -268,6 +271,7 @@ types:
     hp: 1800.0
     id: 24025
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
@@ -342,6 +346,7 @@ types:
     hp: 1800.0
     id: 24024
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0
@@ -416,6 +421,7 @@ types:
     hp: 1800.0
     id: 24003
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0
@@ -490,6 +496,7 @@ types:
     hp: 1800.0
     id: 24202
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -564,6 +571,7 @@ types:
     hp: 1800.0
     id: 24203
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6563.0
@@ -638,6 +646,7 @@ types:
     hp: 1800.0
     id: 24204
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6563.0
@@ -712,6 +721,7 @@ types:
     hp: 1800.0
     id: 24201
     kineticdamage: 8.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -786,6 +796,7 @@ types:
     hp: 1800.0
     id: 24200
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5625.0
@@ -860,6 +871,7 @@ types:
     hp: 1800.0
     id: 24199
     kineticdamage: 6.0
+    mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5625.0

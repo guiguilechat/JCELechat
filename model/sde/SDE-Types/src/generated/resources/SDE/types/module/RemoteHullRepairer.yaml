@@ -9,6 +9,7 @@ types:
     hp: 40.0
     id: 27934
     marketGroup: 1063
+    mass: 20.0
     maxrange: 15000.0
     name: Capital Remote Hull Repairer I
     overloadselfdurationbonus: -15.0
@@ -36,6 +37,7 @@ types:
     hp: 40.0
     id: 41475
     marketGroup: 1063
+    mass: 20.0
     maxrange: 18000.0
     metalevelold: 5
     name: Capital Remote Hull Repairer II
@@ -64,6 +66,7 @@ types:
     hp: 40.0
     id: 27904
     marketGroup: 1062
+    mass: 20.0
     maxrange: 12000.0
     name: Large Remote Hull Repairer I
     overloadselfdurationbonus: -15.0
@@ -89,6 +92,7 @@ types:
     hp: 40.0
     id: 3986
     marketGroup: 1062
+    mass: 20.0
     maxrange: 14400.0
     metalevelold: 5
     name: Large Remote Hull Repairer II
@@ -115,6 +119,7 @@ types:
     hp: 40.0
     id: 27930
     marketGroup: 1061
+    mass: 20.0
     maxrange: 8750.0
     name: Medium Remote Hull Repairer I
     overloadselfdurationbonus: -15.0
@@ -140,6 +145,7 @@ types:
     hp: 40.0
     id: 4296
     marketGroup: 1061
+    mass: 20.0
     maxrange: 10500.0
     metalevelold: 5
     name: Medium Remote Hull Repairer II
@@ -166,6 +172,7 @@ types:
     hp: 40.0
     id: 27932
     marketGroup: 1060
+    mass: 20.0
     maxrange: 7000.0
     name: Small Remote Hull Repairer I
     overloadselfdurationbonus: -15.0
@@ -191,6 +198,7 @@ types:
     hp: 40.0
     id: 4299
     marketGroup: 1060
+    mass: 20.0
     maxrange: 8400.0
     metalevelold: 5
     name: Small Remote Hull Repairer II

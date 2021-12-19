@@ -28,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityOverviewShipGroupId;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
@@ -143,13 +142,6 @@ public class LargeCollidableShip
     @DefaultRealValue(0.0)
     public double hp;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
@@ -206,7 +198,7 @@ public class LargeCollidableShip
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, SignatureRadius.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, MaxRange.INSTANCE, DisallowAssistance.INSTANCE, EntityAttackRange.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, SignatureRadius.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, MaxRange.INSTANCE, DisallowAssistance.INSTANCE, EntityAttackRange.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final LargeCollidableShip.MetaGroup METAGROUP = new LargeCollidableShip.MetaGroup();
 
     @Override
@@ -267,10 +259,6 @@ public class LargeCollidableShip
             case  9 :
             {
                 return hp;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  54 :
             {

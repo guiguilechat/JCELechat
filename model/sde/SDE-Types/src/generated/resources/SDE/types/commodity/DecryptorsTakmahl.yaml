@@ -6,6 +6,7 @@ types:
     inventionpropabilitymultiplier: 5.0
     inventiontemodifier: 0.5
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Astral Treatment
     packagedVolume: 1.0
     portionSize: 1
@@ -19,6 +20,7 @@ types:
     inventionpropabilitymultiplier: 3.0
     inventiontemodifier: 0.699999988079071
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Binary Texts
     packagedVolume: 1.0
     portionSize: 1
@@ -32,6 +34,7 @@ types:
     inventionpropabilitymultiplier: 2.0
     inventiontemodifier: 1.7999999523162842
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Centrifugal Primer
     packagedVolume: 1.0
     portionSize: 1
@@ -45,6 +48,7 @@ types:
     inventionpropabilitymultiplier: 3.5
     inventiontemodifier: 0.5
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Fractal Sheet
     packagedVolume: 1.0
     portionSize: 1
@@ -58,6 +62,7 @@ types:
     inventionpropabilitymultiplier: 1.5
     inventiontemodifier: 1.0
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Geometric Design
     packagedVolume: 1.0
     portionSize: 1

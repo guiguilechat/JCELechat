@@ -37,6 +37,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 79
+    mass: 1.032E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -124,6 +125,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 79
+    mass: 9.71E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 999
@@ -211,6 +213,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 1620
+    mass: 9.93E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 999
@@ -299,6 +302,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 1379
+    mass: 9.71E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -389,6 +393,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 79
+    mass: 1.052E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -476,6 +481,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 1620
+    mass: 9.71E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -564,6 +570,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 1379
+    mass: 1.052E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -654,6 +661,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1380
+    mass: 9.8467E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -746,6 +754,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1380
+    mass: 9.71E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 8
     maxpassengers: 999
@@ -838,6 +847,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 81
+    mass: 1.0025E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -926,6 +936,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1379
+    mass: 9.71E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1017,6 +1028,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 81
+    mass: 1.002E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1105,6 +1117,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 2430
+    mass: 7.8E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 999
@@ -1195,6 +1208,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1380
+    mass: 9.468E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1288,6 +1302,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 78
+    mass: 1.036E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1375,6 +1390,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 81
+    mass: 9.84E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1464,6 +1480,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 1620
+    mass: 1.052E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1555,6 +1572,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 1379
+    mass: 9.84E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1646,6 +1664,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1380
+    mass: 2.0E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -1743,6 +1762,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1380
+    mass: 9.93E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1837,6 +1857,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1620
+    mass: 8.7E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1928,6 +1949,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1380
+    mass: 9.93E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2021,6 +2043,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 80
+    mass: 9.93E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2110,6 +2133,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1379
+    mass: 9.73E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2200,6 +2224,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1620
+    mass: 9.93E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2291,6 +2316,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 80
+    mass: 1.053E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2379,6 +2405,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 80
+    mass: 1.036E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2467,6 +2494,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1379
+    mass: 1.036E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2557,6 +2585,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 78
+    mass: 9.95E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2645,6 +2674,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1379
+    mass: 1.033E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2735,6 +2765,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1620
+    mass: 1.033E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2824,6 +2855,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1379
+    mass: 1.02141E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2911,6 +2943,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 78
+    mass: 1.006E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2999,6 +3032,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1379
+    mass: 1.026E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -3088,6 +3122,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1380
+    mass: 1.052E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000

@@ -12,6 +12,7 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 56313
+    mass: 1.0
     name: Abyssal Siege Module
     packagedVolume: 4000.0
     portionSize: 1
@@ -53,6 +54,7 @@ types:
     hullthermaldamageresonance: 0.699999988079071
     id: 33400
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrangebonus: 25.0
@@ -119,6 +121,7 @@ types:
     industrialcoreremotelogisticsdurationbonus: -75
     industrialcoreremotelogisticsrangebonus: 100
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Capital Industrial Core I
@@ -177,6 +180,7 @@ types:
     industrialcoreremotelogisticsdurationbonus: -75
     industrialcoreremotelogisticsrangebonus: 120
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 5
@@ -233,6 +237,7 @@ types:
     industrialcorelocallogisticsamountbonus: 20
     industrialcorelocallogisticsdurationbonus: -30
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Large Industrial Core I
@@ -287,6 +292,7 @@ types:
     industrialcorelocallogisticsamountbonus: 30
     industrialcorelocallogisticsdurationbonus: -30
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Large Industrial Core II
@@ -333,6 +339,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 20280
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Siege Module I
@@ -387,6 +394,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 4292
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 5
@@ -444,6 +452,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 27951
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxlockedtargetsbonus: 4
@@ -499,6 +508,7 @@ types:
     hullthermaldamageresonance: 1.0
     id: 4294
     marketGroup: 801
+    mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     maxlockedtargetsbonus: 5

@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingTargetingDelayBonu
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
@@ -154,7 +153,7 @@ public class RigElectronicSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, RangeSkillBonus.INSTANCE, ScanRadarStrengthPercent.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, Drawback.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, RangeSkillBonus.INSTANCE, ScanRadarStrengthPercent.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, Drawback.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final RigElectronicSystems.MetaGroup METAGROUP = new RigElectronicSystems.MetaGroup();
 
     @Override

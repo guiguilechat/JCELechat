@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSecModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NullSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -90,13 +89,6 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
-    /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
     /**
      * 
      */
@@ -189,7 +181,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, StructureRigEwarOptimalBonus.INSTANCE, Hp.INSTANCE, StructureRigEwarFalloffBonus.INSTANCE, StructureRigEwarCapUseBonus.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, StructureRigEwarOptimalBonus.INSTANCE, Hp.INSTANCE, StructureRigEwarFalloffBonus.INSTANCE, StructureRigEwarCapUseBonus.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureCombatRigLEWProjectionAndCapReduction.MetaGroup METAGROUP = new StructureCombatRigLEWProjectionAndCapReduction.MetaGroup();
 
     @Override
@@ -222,10 +214,6 @@ public class StructureCombatRigLEWProjectionAndCapReduction
             case  2356 :
             {
                 return lowsecmodifier;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  1544 :
             {

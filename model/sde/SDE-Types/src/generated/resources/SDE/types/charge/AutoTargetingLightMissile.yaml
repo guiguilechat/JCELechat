@@ -13,6 +13,7 @@ types:
     kineticdamage: 70.0
     launchergroup: 509
     marketGroup: 1192
+    mass: 700.0
     maxfoftargetrange: 100000
     maxvelocity: 3750.0
     metagroupid: 4
@@ -44,6 +45,7 @@ types:
     id: 27519
     launchergroup: 509
     marketGroup: 1192
+    mass: 700.0
     maxfoftargetrange: 100000
     maxvelocity: 3750.0
     metagroupid: 4
@@ -77,6 +79,7 @@ types:
     id: 27507
     launchergroup: 509
     marketGroup: 1192
+    mass: 700.0
     maxfoftargetrange: 100000
     maxvelocity: 3750.0
     metagroupid: 4
@@ -108,6 +111,7 @@ types:
     id: 1816
     launchergroup: 509
     marketGroup: 914
+    mass: 700.0
     maxfoftargetrange: 100000
     maxvelocity: 3750.0
     name: Inferno Auto-Targeting Light Missile I
@@ -140,6 +144,7 @@ types:
     id: 269
     launchergroup: 509
     marketGroup: 914
+    mass: 700.0
     maxfoftargetrange: 100000
     maxvelocity: 3750.0
     name: Mjolnir Auto-Targeting Light Missile I
@@ -171,6 +176,7 @@ types:
     id: 1814
     launchergroup: 509
     marketGroup: 914
+    mass: 700.0
     maxfoftargetrange: 100000
     maxvelocity: 3750.0
     name: Nova Auto-Targeting Light Missile I
@@ -202,6 +208,7 @@ types:
     id: 27525
     launchergroup: 509
     marketGroup: 1192
+    mass: 700.0
     maxfoftargetrange: 100000
     maxvelocity: 3750.0
     metagroupid: 4
@@ -234,6 +241,7 @@ types:
     kineticdamage: 62.0
     launchergroup: 509
     marketGroup: 914
+    mass: 700.0
     maxfoftargetrange: 100000
     maxvelocity: 3750.0
     name: Scourge Auto-Targeting Light Missile I

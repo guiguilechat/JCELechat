@@ -7,6 +7,7 @@ types:
     id: 37272
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2346
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set EW and Emissions Co-ordinator I
     nullsecmodifier: 1.2000000476837158
@@ -33,6 +34,7 @@ types:
     id: 37273
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2346
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set EW and Emissions Co-ordinator II
     nullsecmodifier: 1.2000000476837158

@@ -49,6 +49,7 @@ types:
     hp: 225.0
     id: 24218
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -135,6 +136,7 @@ types:
     hp: 225.0
     id: 24220
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -221,6 +223,7 @@ types:
     hp: 225.0
     id: 24217
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -307,6 +310,7 @@ types:
     hp: 225.0
     id: 24219
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -393,6 +397,7 @@ types:
     hp: 225.0
     id: 24222
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -479,6 +484,7 @@ types:
     hp: 225.0
     id: 24221
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -565,6 +571,7 @@ types:
     hp: 225.0
     id: 23984
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -651,6 +658,7 @@ types:
     hp: 225.0
     id: 23986
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -737,6 +745,7 @@ types:
     hp: 225.0
     id: 23971
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -823,6 +832,7 @@ types:
     hp: 225.0
     id: 23985
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -909,6 +919,7 @@ types:
     hp: 225.0
     id: 23988
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2
@@ -995,6 +1006,7 @@ types:
     hp: 225.0
     id: 23987
     kineticdamage: 6.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2

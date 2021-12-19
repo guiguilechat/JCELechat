@@ -111,6 +111,7 @@ types:
     hp: 40.0
     id: 3581
     marketGroup: 1718
+    mass: 1800.0
     maxrange: 10000.0
     metalevelold: 6
     name: Purloined Sansha Data Analyzer

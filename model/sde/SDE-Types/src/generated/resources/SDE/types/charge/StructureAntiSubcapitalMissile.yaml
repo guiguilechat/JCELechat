@@ -15,6 +15,7 @@ types:
     kineticdamage: 600.0
     launchergroup: 1562
     marketGroup: 2196
+    mass: 1000.0
     maxvelocity: 6000.0
     name: Standup Cruise Missile
     packagedVolume: 0.5
@@ -42,6 +43,7 @@ types:
     kineticdamage: 300.0
     launchergroup: 1562
     marketGroup: 2196
+    mass: 1000.0
     maxvelocity: 7000.0
     name: Standup Heavy Missile
     packagedVolume: 0.5
@@ -69,6 +71,7 @@ types:
     kineticdamage: 100.0
     launchergroup: 1562
     marketGroup: 2196
+    mass: 1000.0
     maxvelocity: 10000.0
     name: Standup Light Missile
     packagedVolume: 0.5

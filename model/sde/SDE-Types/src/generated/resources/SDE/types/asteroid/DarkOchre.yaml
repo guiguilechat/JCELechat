@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28394
     marketGroup: 522
+    mass: 1.0000000409184788E35
     name: Compressed Dark Ochre
     orebasictype: 1232
     packagedVolume: 4.199999809265137
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46694
     marketGroup: 522
+    mass: 1.0
     name: Compressed Jet Ochre
     orebasictype: 46675
     packagedVolume: 4.199999809265137
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28395
     marketGroup: 522
+    mass: 1.0000000409184788E35
     name: Compressed Obsidian Ochre
     orebasictype: 1232
     packagedVolume: 4.199999809265137
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28396
     marketGroup: 522
+    mass: 1.0000000409184788E35
     name: Compressed Onyx Ochre
     orebasictype: 1232
     packagedVolume: 4.199999809265137
@@ -84,6 +88,7 @@ types:
     compressiontypeid: 28394
     id: 1232
     marketGroup: 522
+    mass: 1.0000000409184788E35
     name: Dark Ochre
     orebasictype: 1232
     packagedVolume: 8.0
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 46694
     id: 46675
     marketGroup: 522
+    mass: 1.0000000409184788E35
     name: Jet Ochre
     orebasictype: 46675
     packagedVolume: 8.0
@@ -126,6 +132,7 @@ types:
     compressiontypeid: 28395
     id: 17437
     marketGroup: 522
+    mass: 1.0000000409184788E35
     name: Obsidian Ochre
     orebasictype: 1232
     packagedVolume: 8.0
@@ -144,6 +151,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28623
     ignoreminingwaste: 1
+    mass: 1.0000000409184788E35
     name: Oeryl
     orebasictype: 1232
     packagedVolume: 8.0
@@ -165,6 +173,7 @@ types:
     compressiontypeid: 28396
     id: 17436
     marketGroup: 522
+    mass: 1.0000000409184788E35
     name: Onyx Ochre
     orebasictype: 1232
     packagedVolume: 8.0

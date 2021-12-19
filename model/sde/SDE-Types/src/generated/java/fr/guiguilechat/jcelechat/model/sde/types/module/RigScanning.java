@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingTargetingDelayBonu
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -138,7 +137,7 @@ public class RigScanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int viruscoherencebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusModifier.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, ScanStrengthBonus.INSTANCE, Drawback.INSTANCE, ScanspeedBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, VirusCoherenceBonus.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusModifier.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, ScanStrengthBonus.INSTANCE, Drawback.INSTANCE, ScanspeedBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, VirusCoherenceBonus.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final RigScanning.MetaGroup METAGROUP = new RigScanning.MetaGroup();
 
     @Override

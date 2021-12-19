@@ -6,6 +6,7 @@ types:
     hp: 40.0
     id: 31660
     marketGroup: 1731
+    mass: 200.0
     name: Capital Projectile Ambit Extension I
     packagedVolume: 40.0
     portionSize: 1
@@ -24,6 +25,7 @@ types:
     hp: 40.0
     id: 31666
     marketGroup: 1731
+    mass: 200.0
     metalevelold: 5
     name: Capital Projectile Ambit Extension II
     packagedVolume: 40.0
@@ -42,6 +44,7 @@ types:
     hp: 40.0
     id: 31672
     marketGroup: 1731
+    mass: 200.0
     name: Capital Projectile Burst Aerator I
     packagedVolume: 40.0
     portionSize: 1
@@ -59,6 +62,7 @@ types:
     hp: 40.0
     id: 31678
     marketGroup: 1731
+    mass: 200.0
     metalevelold: 5
     name: Capital Projectile Burst Aerator II
     packagedVolume: 40.0
@@ -77,6 +81,7 @@ types:
     hp: 40.0
     id: 31684
     marketGroup: 1731
+    mass: 200.0
     name: Capital Projectile Collision Accelerator I
     packagedVolume: 40.0
     portionSize: 1
@@ -94,6 +99,7 @@ types:
     hp: 40.0
     id: 31690
     marketGroup: 1731
+    mass: 200.0
     metalevelold: 5
     name: Capital Projectile Collision Accelerator II
     packagedVolume: 40.0
@@ -112,6 +118,7 @@ types:
     hp: 40.0
     id: 31696
     marketGroup: 1731
+    mass: 200.0
     maxrangebonus: 15.0
     name: Capital Projectile Locus Coordinator I
     packagedVolume: 40.0
@@ -130,6 +137,7 @@ types:
     hp: 40.0
     id: 31702
     marketGroup: 1731
+    mass: 200.0
     maxrangebonus: 20.0
     metalevelold: 5
     name: Capital Projectile Locus Coordinator II
@@ -149,6 +157,7 @@ types:
     hp: 40.0
     id: 31708
     marketGroup: 1731
+    mass: 200.0
     name: Capital Projectile Metastasis Adjuster I
     packagedVolume: 40.0
     portionSize: 1
@@ -167,6 +176,7 @@ types:
     hp: 40.0
     id: 31714
     marketGroup: 1731
+    mass: 200.0
     metalevelold: 5
     name: Capital Projectile Metastasis Adjuster II
     packagedVolume: 40.0
@@ -187,6 +197,7 @@ types:
     hp: 40.0
     id: 26038
     marketGroup: 1239
+    mass: 200.0
     name: Large Projectile Ambit Extension I
     packagedVolume: 20.0
     portionSize: 1
@@ -205,6 +216,7 @@ types:
     hp: 40.0
     id: 26428
     marketGroup: 1239
+    mass: 200.0
     metalevelold: 5
     name: Large Projectile Ambit Extension II
     packagedVolume: 20.0
@@ -223,6 +235,7 @@ types:
     hp: 40.0
     id: 26046
     marketGroup: 1239
+    mass: 200.0
     name: Large Projectile Burst Aerator I
     packagedVolume: 20.0
     portionSize: 1
@@ -240,6 +253,7 @@ types:
     hp: 40.0
     id: 26430
     marketGroup: 1239
+    mass: 200.0
     metalevelold: 5
     name: Large Projectile Burst Aerator II
     packagedVolume: 20.0
@@ -258,6 +272,7 @@ types:
     hp: 40.0
     id: 26048
     marketGroup: 1239
+    mass: 200.0
     name: Large Projectile Collision Accelerator I
     packagedVolume: 20.0
     portionSize: 1
@@ -275,6 +290,7 @@ types:
     hp: 40.0
     id: 26424
     marketGroup: 1239
+    mass: 200.0
     metalevelold: 5
     name: Large Projectile Collision Accelerator II
     packagedVolume: 20.0
@@ -293,6 +309,7 @@ types:
     hp: 40.0
     id: 26040
     marketGroup: 1239
+    mass: 200.0
     maxrangebonus: 15.0
     name: Large Projectile Locus Coordinator I
     packagedVolume: 20.0
@@ -311,6 +328,7 @@ types:
     hp: 40.0
     id: 26432
     marketGroup: 1239
+    mass: 200.0
     maxrangebonus: 20.0
     metalevelold: 5
     name: Large Projectile Locus Coordinator II
@@ -330,6 +348,7 @@ types:
     hp: 40.0
     id: 26042
     marketGroup: 1239
+    mass: 200.0
     name: Large Projectile Metastasis Adjuster I
     packagedVolume: 20.0
     portionSize: 1
@@ -348,6 +367,7 @@ types:
     hp: 40.0
     id: 26434
     marketGroup: 1239
+    mass: 200.0
     metalevelold: 5
     name: Large Projectile Metastasis Adjuster II
     packagedVolume: 20.0
@@ -368,6 +388,7 @@ types:
     hp: 40.0
     id: 31658
     marketGroup: 1238
+    mass: 200.0
     name: Medium Projectile Ambit Extension I
     packagedVolume: 10.0
     portionSize: 1
@@ -386,6 +407,7 @@ types:
     hp: 40.0
     id: 31664
     marketGroup: 1238
+    mass: 200.0
     metalevelold: 5
     name: Medium Projectile Ambit Extension II
     packagedVolume: 10.0
@@ -404,6 +426,7 @@ types:
     hp: 40.0
     id: 31670
     marketGroup: 1238
+    mass: 200.0
     name: Medium Projectile Burst Aerator I
     packagedVolume: 10.0
     portionSize: 1
@@ -421,6 +444,7 @@ types:
     hp: 40.0
     id: 31676
     marketGroup: 1238
+    mass: 200.0
     metalevelold: 5
     name: Medium Projectile Burst Aerator II
     packagedVolume: 10.0
@@ -439,6 +463,7 @@ types:
     hp: 40.0
     id: 31682
     marketGroup: 1238
+    mass: 200.0
     name: Medium Projectile Collision Accelerator I
     packagedVolume: 10.0
     portionSize: 1
@@ -456,6 +481,7 @@ types:
     hp: 40.0
     id: 31688
     marketGroup: 1238
+    mass: 200.0
     metalevelold: 5
     name: Medium Projectile Collision Accelerator II
     packagedVolume: 10.0
@@ -474,6 +500,7 @@ types:
     hp: 40.0
     id: 31694
     marketGroup: 1238
+    mass: 200.0
     maxrangebonus: 15.0
     name: Medium Projectile Locus Coordinator I
     packagedVolume: 10.0
@@ -492,6 +519,7 @@ types:
     hp: 40.0
     id: 31700
     marketGroup: 1238
+    mass: 200.0
     maxrangebonus: 20.0
     metalevelold: 5
     name: Medium Projectile Locus Coordinator II
@@ -511,6 +539,7 @@ types:
     hp: 40.0
     id: 31706
     marketGroup: 1238
+    mass: 200.0
     name: Medium Projectile Metastasis Adjuster I
     packagedVolume: 10.0
     portionSize: 1
@@ -529,6 +558,7 @@ types:
     hp: 40.0
     id: 31712
     marketGroup: 1238
+    mass: 200.0
     metalevelold: 5
     name: Medium Projectile Metastasis Adjuster II
     packagedVolume: 10.0
@@ -549,6 +579,7 @@ types:
     hp: 40.0
     id: 31656
     marketGroup: 1237
+    mass: 200.0
     name: Small Projectile Ambit Extension I
     packagedVolume: 5.0
     portionSize: 1
@@ -567,6 +598,7 @@ types:
     hp: 40.0
     id: 31662
     marketGroup: 1237
+    mass: 200.0
     metalevelold: 5
     name: Small Projectile Ambit Extension II
     packagedVolume: 5.0
@@ -585,6 +617,7 @@ types:
     hp: 40.0
     id: 31668
     marketGroup: 1237
+    mass: 200.0
     name: Small Projectile Burst Aerator I
     packagedVolume: 5.0
     portionSize: 1
@@ -602,6 +635,7 @@ types:
     hp: 40.0
     id: 31674
     marketGroup: 1237
+    mass: 200.0
     metalevelold: 5
     name: Small Projectile Burst Aerator II
     packagedVolume: 5.0
@@ -620,6 +654,7 @@ types:
     hp: 40.0
     id: 31680
     marketGroup: 1237
+    mass: 200.0
     name: Small Projectile Collision Accelerator I
     packagedVolume: 5.0
     portionSize: 1
@@ -637,6 +672,7 @@ types:
     hp: 40.0
     id: 31686
     marketGroup: 1237
+    mass: 200.0
     metalevelold: 5
     name: Small Projectile Collision Accelerator II
     packagedVolume: 5.0
@@ -655,6 +691,7 @@ types:
     hp: 40.0
     id: 31692
     marketGroup: 1237
+    mass: 200.0
     maxrangebonus: 15.0
     name: Small Projectile Locus Coordinator I
     packagedVolume: 5.0
@@ -673,6 +710,7 @@ types:
     hp: 40.0
     id: 31698
     marketGroup: 1237
+    mass: 200.0
     maxrangebonus: 20.0
     metalevelold: 5
     name: Small Projectile Locus Coordinator II
@@ -692,6 +730,7 @@ types:
     hp: 40.0
     id: 31704
     marketGroup: 1237
+    mass: 200.0
     name: Small Projectile Metastasis Adjuster I
     packagedVolume: 5.0
     portionSize: 1
@@ -710,6 +749,7 @@ types:
     hp: 40.0
     id: 31710
     marketGroup: 1237
+    mass: 200.0
     metalevelold: 5
     name: Small Projectile Metastasis Adjuster II
     packagedVolume: 5.0

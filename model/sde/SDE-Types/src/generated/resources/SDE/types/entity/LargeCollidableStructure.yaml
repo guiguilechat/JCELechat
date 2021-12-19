@@ -28,6 +28,7 @@ types:
     hp: 50000.0
     id: 29031
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: 7th Fleet Mobile Command Post
@@ -74,6 +75,7 @@ types:
     hp: 15000.0
     id: 60731
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: AEGIS Capital Forging Tools Storage
@@ -116,6 +118,7 @@ types:
     hp: 700.0
     id: 60508
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: AEGIS Logistics Center Power Generator
@@ -162,6 +165,7 @@ types:
     hp: 50000.0
     id: 30273
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Abandoned Sleeper Enclave
@@ -210,6 +214,7 @@ types:
     hp: 40000.0
     id: 23859
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Administration Complex
@@ -258,6 +263,7 @@ types:
     hp: 300.0
     id: 16753
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Barricade
@@ -306,6 +312,7 @@ types:
     hp: 300.0
     id: 16755
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Barrier
@@ -354,6 +361,7 @@ types:
     hp: 300.0
     id: 16756
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Battery
@@ -537,6 +545,7 @@ types:
     hp: 700.0
     id: 23858
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Bunker
@@ -585,6 +594,7 @@ types:
     hp: 40000.0
     id: 16726
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Cathedral
@@ -633,6 +643,7 @@ types:
     hp: 5000.0
     id: 16730
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Chapel
@@ -726,6 +737,7 @@ types:
     hp: 4000.0
     id: 16836
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Deadspace Refiner
@@ -774,6 +786,7 @@ types:
     hp: 4000.0
     id: 16837
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Deadspace Repair Unit
@@ -822,6 +835,7 @@ types:
     hp: 4000.0
     id: 16838
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Deadspace Tactical Unit
@@ -870,6 +884,7 @@ types:
     hp: 750.0
     id: 4357
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Drone Mine
@@ -918,6 +933,7 @@ types:
     hp: 500.0
     id: 16749
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Elevator
@@ -966,6 +982,7 @@ types:
     hp: 300.0
     id: 16754
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Fence
@@ -1014,6 +1031,7 @@ types:
     hp: 300.0
     id: 16750
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Junction
@@ -1062,6 +1080,7 @@ types:
     hp: 500.0
     id: 16751
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Lookout
@@ -1110,6 +1129,7 @@ types:
     hp: 2000.0
     id: 17777
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Starbase Control Tower
@@ -1158,6 +1178,7 @@ types:
     hp: 50000.0
     id: 29469
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Starbase Control Tower Tough
@@ -1206,6 +1227,7 @@ types:
     hp: 35000.0
     id: 26732
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Starbase Control Tower_Tough_Good Loot
@@ -1254,6 +1276,7 @@ types:
     hp: 150000.0
     id: 24587
     kineticdamageresonance: 1.0
+    mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Stargate
@@ -1347,6 +1370,7 @@ types:
     hp: 20000.0
     id: 29167
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Tactical Command Post
@@ -1395,6 +1419,7 @@ types:
     hp: 2500.0
     id: 29165
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Tactical Relay
@@ -1443,6 +1468,7 @@ types:
     hp: 5000.0
     id: 29166
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Tactical Supply Station
@@ -1491,6 +1517,7 @@ types:
     hp: 10000.0
     id: 29168
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Tactical Support Center
@@ -1539,6 +1566,7 @@ types:
     hp: 40000.0
     id: 25819
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Trade Post
@@ -1587,6 +1615,7 @@ types:
     hp: 300.0
     id: 16752
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Wall
@@ -1635,6 +1664,7 @@ types:
     hp: 1000.0
     id: 26895
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarrian Breeding Facility
@@ -1683,6 +1713,7 @@ types:
     hp: 300.0
     id: 19671
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Ammatar Barricade
@@ -1776,6 +1807,7 @@ types:
     hp: 40000.0
     id: 19672
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Ammatar Cathedral
@@ -1824,6 +1856,7 @@ types:
     hp: 4000.0
     id: 19673
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Ammatar Deadspace Tactical Unit
@@ -1872,6 +1905,7 @@ types:
     hp: 300.0
     id: 16763
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Barricade
@@ -1920,6 +1954,7 @@ types:
     hp: 300.0
     id: 16765
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Barrier
@@ -1968,6 +2003,7 @@ types:
     hp: 300.0
     id: 16761
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Battery
@@ -2016,6 +2052,7 @@ types:
     hp: 200000.0
     id: 11077
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Battlestation
@@ -2064,6 +2101,7 @@ types:
     hp: 1.0E7
     id: 28247
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Battlestation_event
@@ -2112,6 +2150,7 @@ types:
     hp: 700.0
     id: 16757
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Bunker
@@ -2160,6 +2199,7 @@ types:
     hp: 20000.0
     id: 3591
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Control Tower
@@ -2208,6 +2248,7 @@ types:
     hp: 500.0
     id: 16758
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Elevator
@@ -2256,6 +2297,7 @@ types:
     hp: 300.0
     id: 16764
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Fence
@@ -2304,6 +2346,7 @@ types:
     hp: 300.0
     id: 16759
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Junction
@@ -2352,6 +2395,7 @@ types:
     hp: 500.0
     id: 16760
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Lookout
@@ -2400,6 +2444,7 @@ types:
     hp: 300.0
     id: 16762
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Wall
@@ -2452,6 +2497,7 @@ types:
     hp: 2000.0
     id: 25815
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: AoE SmartBomb Test
@@ -2500,6 +2546,7 @@ types:
     hp: 6000.0
     id: 16840
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Colony
@@ -2548,6 +2595,7 @@ types:
     hp: 20.0
     id: 22743
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Colony Minor
@@ -2596,6 +2644,7 @@ types:
     hp: 50000.0
     id: 16846
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Colony Tower
@@ -2644,6 +2693,7 @@ types:
     hp: 50000.0
     id: 16841
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Construct
@@ -2692,6 +2742,7 @@ types:
     hp: 10.0
     id: 22742
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Construct Minor
@@ -2834,6 +2885,7 @@ types:
     hp: 50000.0
     id: 16839
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Factory
@@ -2882,6 +2934,7 @@ types:
     hp: 5000.0
     id: 16728
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Installation
@@ -2930,6 +2983,7 @@ types:
     hp: 50000.0
     id: 16847
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Micro-Colony
@@ -2978,6 +3032,7 @@ types:
     hp: 20.0
     id: 22744
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Micro-Colony Minor
@@ -3026,6 +3081,7 @@ types:
     hp: 50000.0
     id: 16842
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Prime Colony
@@ -3074,6 +3130,7 @@ types:
     hp: 5000.0
     id: 20165
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Prime Colony_MISSION lvl 3
@@ -3122,6 +3179,7 @@ types:
     hp: 50000.0
     id: 16844
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Secondary Colony
@@ -3217,6 +3275,7 @@ types:
     hp: 10000.0
     id: 23663
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Station - 1
@@ -3265,6 +3324,7 @@ types:
     hp: 150000.0
     id: 28608
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Station - 1 - Strong HP
@@ -3313,6 +3373,7 @@ types:
     hp: 50000.0
     id: 16843
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Structure
@@ -3361,6 +3422,7 @@ types:
     hp: 50000.0
     id: 19711
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: AstroFarm
@@ -3409,6 +3471,7 @@ types:
     hp: 20000.0
     id: 17138
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Augmented Angel Battlestation
@@ -3457,6 +3520,7 @@ types:
     hp: 200.0
     id: 2915
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Auxiliary Academic Campus
@@ -3505,6 +3569,7 @@ types:
     hp: 2000.0
     id: 29209
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Billboard
@@ -3553,6 +3618,7 @@ types:
     hp: 50000.0
     id: 32238
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Biodome
@@ -3601,6 +3667,7 @@ types:
     hp: 15000.0
     id: 16862
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blasted Neon Sign
@@ -3649,6 +3716,7 @@ types:
     hp: 300.0
     id: 16772
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Barricade
@@ -3697,6 +3765,7 @@ types:
     hp: 300.0
     id: 16774
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Barrier
@@ -3745,6 +3814,7 @@ types:
     hp: 300.0
     id: 16770
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Battery
@@ -3793,6 +3863,7 @@ types:
     hp: 100000.0
     id: 11081
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Battlestation
@@ -3841,6 +3912,7 @@ types:
     hp: 200000.0
     id: 28248
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Battlestation_event
@@ -3889,6 +3961,7 @@ types:
     hp: 300.0
     id: 25552
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Bhaalgorn
@@ -3937,6 +4010,7 @@ types:
     hp: 700.0
     id: 16766
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Bunker
@@ -3985,6 +4059,7 @@ types:
     hp: 40000.0
     id: 16727
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Cathedral
@@ -4033,6 +4108,7 @@ types:
     hp: 2500.0
     id: 28839
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Cathedral (weak)
@@ -4081,6 +4157,7 @@ types:
     hp: 5000.0
     id: 16731
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Chapel
@@ -4129,6 +4206,7 @@ types:
     hp: 2000.0
     id: 17380
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Deadspace Tactical Unit
@@ -4177,6 +4255,7 @@ types:
     hp: 500.0
     id: 16767
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Elevator
@@ -4225,6 +4304,7 @@ types:
     hp: 300.0
     id: 16773
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Fence
@@ -4273,6 +4353,7 @@ types:
     hp: 300.0
     id: 16768
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Junction
@@ -4321,6 +4402,7 @@ types:
     hp: 500.0
     id: 16769
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Lookout
@@ -4369,6 +4451,7 @@ types:
     hp: 300.0
     id: 16771
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Wall
@@ -4417,6 +4500,7 @@ types:
     hp: 15000.0
     id: 17393
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Bloodsport Arena
@@ -4465,6 +4549,7 @@ types:
     hp: 500.0
     id: 32412
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Boundless Creations Data Center
@@ -4513,6 +4598,7 @@ types:
     hp: 10000.0
     id: 26900
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Broadcast Tower
@@ -4561,6 +4647,7 @@ types:
     hp: 50000.0
     id: 30510
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Broken Talocan Coupling Array
@@ -4609,6 +4696,7 @@ types:
     hp: 600.0
     id: 26740
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Bursar
@@ -4648,6 +4736,7 @@ types:
     falloff: 1.0
     id: 53046
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: CONCORD Observatory Overcharge Unit
@@ -4687,6 +4776,7 @@ types:
     hp: 450000.0
     id: 53047
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: CONCORD Stellar Observatory
@@ -4735,6 +4825,7 @@ types:
     hp: 300.0
     id: 16780
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Barricade
@@ -4783,6 +4874,7 @@ types:
     hp: 300.0
     id: 16782
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Barrier
@@ -4831,6 +4923,7 @@ types:
     hp: 300.0
     id: 16778
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Battery
@@ -4879,6 +4972,7 @@ types:
     hp: 700.0
     id: 29301
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Bunker
@@ -4927,6 +5021,7 @@ types:
     hp: 4000.0
     id: 16850
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Deadspace Refining Outpost
@@ -4975,6 +5070,7 @@ types:
     hp: 3000.0
     id: 16851
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Deadspace Repair Outpost
@@ -5023,6 +5119,7 @@ types:
     hp: 4000.0
     id: 16852
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Deadspace Tactical Outpost
@@ -5071,6 +5168,7 @@ types:
     hp: 500.0
     id: 16775
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Elevator
@@ -5119,6 +5217,7 @@ types:
     hp: 300.0
     id: 16781
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Fence
@@ -5167,6 +5266,7 @@ types:
     hp: 300.0
     id: 16776
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Junction
@@ -5215,6 +5315,7 @@ types:
     hp: 500.0
     id: 16777
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Lookout
@@ -5263,6 +5364,7 @@ types:
     hp: 2000.0
     id: 17778
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Starbase Control Tower
@@ -5311,6 +5413,7 @@ types:
     hp: 35000.0
     id: 26734
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Starbase Control Tower_Tough_Good Loot
@@ -5449,6 +5552,7 @@ types:
     hp: 20000.0
     id: 29169
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Tactical Command Post
@@ -5497,6 +5601,7 @@ types:
     hp: 2500.0
     id: 29172
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Tactical Relay
@@ -5545,6 +5650,7 @@ types:
     hp: 5000.0
     id: 29178
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Tactical Supply Station
@@ -5593,6 +5699,7 @@ types:
     hp: 10000.0
     id: 29175
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Tactical Support Center
@@ -5641,6 +5748,7 @@ types:
     hp: 300.0
     id: 16779
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Wall
@@ -5689,6 +5797,7 @@ types:
     hp: 5000.0
     id: 16729
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Cargo Rig
@@ -5737,6 +5846,7 @@ types:
     hp: 15000.0
     id: 16853
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Circle Construct
@@ -5785,6 +5895,7 @@ types:
     hp: 50000.0
     id: 30279
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Collapsed Talocan Observation Dome
@@ -5833,6 +5944,7 @@ types:
     hp: 750.0
     id: 28854
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Communications Tower
@@ -6009,6 +6121,7 @@ types:
     hp: 500.0
     id: 48962
     kineticdamageresonance: 1.0
+    mass: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Cookhouse Shielding Projector
@@ -6055,6 +6168,7 @@ types:
     hp: 50000.0
     id: 30276
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Crippled Sleeper Preservation Conduit
@@ -6103,6 +6217,7 @@ types:
     hp: 5000.0
     id: 18568
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Dark Shipyard
@@ -6148,6 +6263,7 @@ types:
     hp: 450000.0
     id: 54316
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Dazh Porevitium Transmuter
@@ -6197,6 +6313,7 @@ types:
     hp: 50000.0
     id: 2902
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Deactivated Acceleration Gate
@@ -6245,6 +6362,7 @@ types:
     hp: 50000.0
     id: 16849
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Deadspace Particle Accelerator
@@ -6291,6 +6409,7 @@ types:
     hp: 500.0
     id: 48961
     kineticdamageresonance: 1.0
+    mass: 1.0E8
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Deathglow Harvest Silo
@@ -6340,6 +6459,7 @@ types:
     hp: 50000.0
     id: 30278
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decrepit Talocan Outpost Core
@@ -6388,6 +6508,7 @@ types:
     hp: 5000.0
     id: 18569
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Dirty Shipyard
@@ -6436,6 +6557,7 @@ types:
     hp: 50000.0
     id: 30807
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Disjointed Talocan Outpost Conduit
@@ -6484,6 +6606,7 @@ types:
     hp: 50000.0
     id: 30806
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Disjointed Talocan Outpost Hub
@@ -6532,6 +6655,7 @@ types:
     hp: 50000.0
     id: 30509
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Disrupted Talocan Polestar
@@ -6580,6 +6704,7 @@ types:
     hp: 600.0
     id: 23860
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Docked Bestower
@@ -6628,6 +6753,7 @@ types:
     hp: 550.0
     id: 42538
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drifter Hive
@@ -6676,6 +6802,7 @@ types:
     hp: 300.0
     id: 18018
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Barricade
@@ -6724,6 +6851,7 @@ types:
     hp: 300.0
     id: 18020
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Barrier
@@ -6772,6 +6900,7 @@ types:
     hp: 300.0
     id: 18016
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Battery
@@ -6820,6 +6949,7 @@ types:
     hp: 300.0
     id: 18012
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Bunker
@@ -6868,6 +6998,7 @@ types:
     hp: 300.0
     id: 18013
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Elevator
@@ -6916,6 +7047,7 @@ types:
     hp: 300.0
     id: 18019
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Fence
@@ -6964,6 +7096,7 @@ types:
     hp: 300.0
     id: 18014
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Junction
@@ -7012,6 +7145,7 @@ types:
     hp: 300.0
     id: 18015
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Lookout
@@ -7060,6 +7194,7 @@ types:
     hp: 15000.0
     id: 16733
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Structure I
@@ -7108,6 +7243,7 @@ types:
     hp: 15000.0
     id: 16732
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Structure II
@@ -7156,6 +7292,7 @@ types:
     hp: 300.0
     id: 18017
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drone Wall
@@ -7203,6 +7340,7 @@ types:
     hp: 50000.0
     id: 28340
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drug Lab
@@ -7248,6 +7386,7 @@ types:
     hp: 50000.0
     id: 26853
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drug Lab Crash
@@ -7293,6 +7432,7 @@ types:
     hp: 50000.0
     id: 26854
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drug Lab Exile
@@ -7338,6 +7478,7 @@ types:
     hp: 50000.0
     id: 26855
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drug Lab Mindflood
@@ -7381,6 +7522,7 @@ types:
     hp: 450000.0
     id: 54574
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: EDENCOM Stockpile Tenshu
@@ -7429,6 +7571,7 @@ types:
     hp: 10000.0
     id: 16848
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Empty Station Battery
@@ -7477,6 +7620,7 @@ types:
     hp: 50000.0
     id: 30274
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Eroded Sleeper Thermoelectric Converter
@@ -7525,6 +7669,7 @@ types:
     hp: 50000.0
     id: 30275
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Exposed Sleeper Interlink Hub
@@ -7577,6 +7722,7 @@ types:
     hp: 450000.0
     id: 54576
     kineticdamageresonance: 0.5
+    mass: 1000000.0
     maxlockedtargets: 10
     maxtargetrange: 300000.0
     missileentityflighttimemultiplier: 1.0
@@ -7633,6 +7779,7 @@ types:
     hp: 100.0
     id: 19743
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Extremely Powerful EM Forcefield
@@ -7682,6 +7829,7 @@ types:
     hp: 1.0
     id: 22711
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Extremely Powerful EM Forcefield_2
@@ -7729,6 +7877,7 @@ types:
     hp: 50000.0
     id: 25828
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fortified Drug Lab
@@ -7771,6 +7920,7 @@ types:
     hp: 100000.0
     id: 11167
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fragmented Cathedral I
@@ -7814,6 +7964,7 @@ types:
     hp: 100000.0
     id: 11168
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fragmented Cathedral II
@@ -7857,6 +8008,7 @@ types:
     hp: 100000.0
     id: 11169
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fragmented Cathedral III
@@ -7900,6 +8052,7 @@ types:
     hp: 100000.0
     id: 11170
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fragmented Cathedral IV
@@ -7943,6 +8096,7 @@ types:
     hp: 100000.0
     id: 26751
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fragmented Cathedral I_Under Construction
@@ -7986,6 +8140,7 @@ types:
     hp: 100000.0
     id: 11171
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fragmented Cathedral V
@@ -8033,6 +8188,7 @@ types:
     hp: 1000.0
     id: 16860
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Freight Pad
@@ -8081,6 +8237,7 @@ types:
     hp: 500.0
     id: 29262
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fuel Depot
@@ -8129,6 +8286,7 @@ types:
     hp: 1000000.0
     id: 28234
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Fuel Fump_event
@@ -8177,6 +8335,7 @@ types:
     hp: 300.0
     id: 16790
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Barricade
@@ -8225,6 +8384,7 @@ types:
     hp: 300.0
     id: 16792
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Barrier
@@ -8273,6 +8433,7 @@ types:
     hp: 300.0
     id: 16788
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Battery
@@ -8321,6 +8482,7 @@ types:
     hp: 700.0
     id: 16784
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Bunker
@@ -8369,6 +8531,7 @@ types:
     hp: 700.0
     id: 19729
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Bunker UDI
@@ -8417,6 +8580,7 @@ types:
     hp: 500.0
     id: 16785
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Elevator
@@ -8510,6 +8674,7 @@ types:
     hp: 300.0
     id: 16791
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Fence
@@ -8558,6 +8723,7 @@ types:
     hp: 300.0
     id: 16786
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Junction
@@ -8606,6 +8772,7 @@ types:
     hp: 500.0
     id: 16787
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Lookout
@@ -8654,6 +8821,7 @@ types:
     hp: 2000.0
     id: 17779
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Starbase Control Tower
@@ -8702,6 +8870,7 @@ types:
     hp: 20000.0
     id: 32194
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Starbase Control Tower Tough
@@ -8975,6 +9144,7 @@ types:
     hp: 20000.0
     id: 29170
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Tactical Command Post
@@ -9023,6 +9193,7 @@ types:
     hp: 2500.0
     id: 29173
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Tactical Relay
@@ -9071,6 +9242,7 @@ types:
     hp: 5000.0
     id: 29179
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Tactical Supply Station
@@ -9119,6 +9291,7 @@ types:
     hp: 10000.0
     id: 29176
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Tactical Support Center
@@ -9167,6 +9340,7 @@ types:
     hp: 300.0
     id: 16789
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Wall
@@ -9215,6 +9389,7 @@ types:
     hp: 5000.0
     id: 32239
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallentean Deadspace Mansion
@@ -9263,6 +9438,7 @@ types:
     hp: 400.0
     id: 16855
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallentean Deadspace Outpost
@@ -9311,6 +9487,7 @@ types:
     hp: 400.0
     id: 28616
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallentean Laboratory w/scientists
@@ -9358,6 +9535,7 @@ types:
     hp: 10000.0
     id: 19533
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION
@@ -9406,6 +9584,7 @@ types:
     hp: 300.0
     id: 16801
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Barricade
@@ -9454,6 +9633,7 @@ types:
     hp: 300.0
     id: 16803
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Barrier
@@ -9502,6 +9682,7 @@ types:
     hp: 300.0
     id: 16794
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Battery
@@ -9550,6 +9731,7 @@ types:
     hp: 700.0
     id: 16796
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Bunker
@@ -9598,6 +9780,7 @@ types:
     hp: 3000.0
     id: 17382
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Deadspace Tactical Outpost
@@ -9646,6 +9829,7 @@ types:
     hp: 300.0
     id: 16797
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Elevator
@@ -9694,6 +9878,7 @@ types:
     hp: 300.0
     id: 16802
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Fence
@@ -9742,6 +9927,7 @@ types:
     hp: 300.0
     id: 16793
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Great Wall
@@ -9790,6 +9976,7 @@ types:
     hp: 300.0
     id: 16798
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Junction
@@ -9838,6 +10025,7 @@ types:
     hp: 500.0
     id: 16799
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Lookout
@@ -9886,6 +10074,7 @@ types:
     hp: 2000.0
     id: 19505
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Starbase Control Tower
@@ -9934,6 +10123,7 @@ types:
     hp: 10000.0
     id: 25991
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Starbase Control Tower_Tough
@@ -9982,6 +10172,7 @@ types:
     hp: 1500000.0
     id: 28254
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Station_event
@@ -10030,6 +10221,7 @@ types:
     hp: 300.0
     id: 16800
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Wall
@@ -10078,6 +10270,7 @@ types:
     hp: 200000.0
     id: 11079
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas War Installation
@@ -10126,6 +10319,7 @@ types:
     hp: 1000.0
     id: 26894
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Breeding Facility
@@ -10174,6 +10368,7 @@ types:
     hp: 1000.0
     id: 17394
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Brothel
@@ -10222,6 +10417,7 @@ types:
     hp: 1000.0
     id: 17397
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Casino
@@ -10270,6 +10466,7 @@ types:
     hp: 1000.0
     id: 17396
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Narcotics supermarket
@@ -10318,6 +10515,7 @@ types:
     hp: 1000.0
     id: 17398
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Pleasure hub
@@ -10366,6 +10564,7 @@ types:
     hp: 1000.0
     id: 17399
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Police base
@@ -10414,6 +10613,7 @@ types:
     hp: 1000.0
     id: 17400
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Prison
@@ -10462,6 +10662,7 @@ types:
     hp: 500.0
     id: 17395
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Residential
@@ -10510,6 +10711,7 @@ types:
     hp: 1000.0
     id: 17401
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module - Roadhouse
@@ -10558,6 +10760,7 @@ types:
     hp: 50000.0
     id: 30511
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Hollow Talocan Extraction Silo
@@ -10606,6 +10809,7 @@ types:
     hp: 50000.0
     id: 19712
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: HumanFarm
@@ -10654,6 +10858,7 @@ types:
     hp: 700.0
     id: 28582
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Hydrochloric Acid Manufacturing Plant
@@ -10702,6 +10907,7 @@ types:
     hp: 5.0
     id: 19593
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Imai Kenon's Corpse
@@ -10750,6 +10956,7 @@ types:
     hp: 300.0
     id: 18021
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Inactive Drone Sentry
@@ -10798,6 +11005,7 @@ types:
     hp: 200000.0
     id: 16736
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Infested Station Ruins
@@ -10846,6 +11054,7 @@ types:
     hp: 50000.0
     id: 30508
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Inverted Talocan Exchange Depot
@@ -10894,6 +11103,7 @@ types:
     hp: 2000.0
     id: 16735
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Landing Pad
@@ -10942,6 +11152,7 @@ types:
     hp: 500.0
     id: 29446
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Large Container of Explosives
@@ -10989,6 +11200,7 @@ types:
     hp: 1.0
     id: 13200
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Large EM Forcefield
@@ -11037,6 +11249,7 @@ types:
     hp: 1000000.0
     id: 28228
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Listening Post_event
@@ -11085,6 +11298,7 @@ types:
     hp: 1000.0
     id: 16864
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Low-Tech Deadspace Energy Harvester
@@ -11133,6 +11347,7 @@ types:
     hp: 1000.0
     id: 16866
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Magnetic Retainment Field
@@ -11181,6 +11396,7 @@ types:
     hp: 50000.0
     id: 30277
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Malfunctioning Sleeper Multiplex Forwarder
@@ -11229,6 +11445,7 @@ types:
     hp: 5.0
     id: 16845
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Meat Popsicle
@@ -11281,6 +11498,7 @@ types:
     id: 22718
     kineticdamage: 3.0
     kineticdamageresonance: 1.0
+    mass: 1.124999936E9
     maxattacktargets: 1
     maxrange: 250000.0
     missileentityflighttimemultiplier: 1.5
@@ -11388,6 +11606,7 @@ types:
     hp: 300.0
     id: 16811
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Barricade
@@ -11436,6 +11655,7 @@ types:
     hp: 300.0
     id: 16804
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Barrier
@@ -11484,6 +11704,7 @@ types:
     hp: 300.0
     id: 16809
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Battery
@@ -11532,6 +11753,7 @@ types:
     hp: 700.0
     id: 16805
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Bunker
@@ -11580,6 +11802,7 @@ types:
     hp: 2000.0
     id: 16857
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Deadspace Refining Outpost
@@ -11628,6 +11851,7 @@ types:
     hp: 2000.0
     id: 16858
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Deadspace Repair Outpost
@@ -11676,6 +11900,7 @@ types:
     hp: 2000.0
     id: 16859
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Deadspace Tactical Outpost
@@ -11724,6 +11949,7 @@ types:
     hp: 500.0
     id: 16806
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Elevator
@@ -11772,6 +11998,7 @@ types:
     hp: 300.0
     id: 16812
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Fence
@@ -11820,6 +12047,7 @@ types:
     hp: 300.0
     id: 16807
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Junction
@@ -11868,6 +12096,7 @@ types:
     hp: 500.0
     id: 16808
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Lookout
@@ -11961,6 +12190,7 @@ types:
     hp: 2000.0
     id: 17780
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Starbase Control Tower
@@ -12009,6 +12239,7 @@ types:
     hp: 35000.0
     id: 26729
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Starbase Control Tower_Tough_Good Loot
@@ -12057,6 +12288,7 @@ types:
     hp: 35000.0
     id: 27290
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Starbase Control Tower_Tough_Good Loot_testing
@@ -12195,6 +12427,7 @@ types:
     hp: 20000.0
     id: 29171
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Tactical Command Post
@@ -12243,6 +12476,7 @@ types:
     hp: 2500.0
     id: 29174
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Tactical Relay
@@ -12291,6 +12525,7 @@ types:
     hp: 5000.0
     id: 29180
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Tactical Supply Station
@@ -12339,6 +12574,7 @@ types:
     hp: 10000.0
     id: 29177
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Tactical Support Center
@@ -12387,6 +12623,7 @@ types:
     hp: 300.0
     id: 16810
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Wall
@@ -12435,6 +12672,7 @@ types:
     hp: 500.0
     id: 33480
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Mobile Shipping Unit
@@ -12483,6 +12721,7 @@ types:
     hp: 700.0
     id: 16748
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Occupied Amarr Bunker
@@ -12531,6 +12770,7 @@ types:
     hp: 50000.0
     id: 30280
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Offline Talocan Reactor Spire
@@ -12570,6 +12810,7 @@ types:
     falloff: 1.0
     id: 53305
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Overcharge Node
@@ -12608,6 +12849,7 @@ types:
     hp: 500.0
     id: 57749
     kineticdamageresonance: 1.0
+    mass: 10000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Overmind Nursery Nest
@@ -12654,6 +12896,7 @@ types:
     hp: 2500.0
     id: 16734
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Partially constructed Megathron
@@ -12702,6 +12945,7 @@ types:
     hp: 50000.0
     id: 2896
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Patient Zero
@@ -12789,6 +13033,7 @@ types:
     hp: 1.968300032E10
     id: 56700
     kineticdamageresonance: 1.0
+    mass: 1.968300032E10
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Perun Vyraj Anchorage
@@ -12838,6 +13083,7 @@ types:
     hp: 500.0
     id: 34303
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Plasma Chamber
@@ -12886,6 +13132,7 @@ types:
     hp: 200.0
     id: 13034
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Power Generator
@@ -12934,6 +13181,7 @@ types:
     hp: 125000.0
     id: 29467
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Power Generator 250k
@@ -12982,6 +13230,7 @@ types:
     hp: 1.0
     id: 17763
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Powerful EM Forcefield
@@ -13031,6 +13280,7 @@ types:
     hp: 10000.0
     id: 16856
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pressure Silo
@@ -13079,6 +13329,7 @@ types:
     hp: 100000.0
     id: 28246
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Prison_event
@@ -13127,6 +13378,7 @@ types:
     hp: 500.0
     id: 32349
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Proximity Charge
@@ -13175,6 +13427,7 @@ types:
     hp: 500.0
     id: 16854
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pulsating Sensor
@@ -13223,6 +13476,7 @@ types:
     hp: 10000.0
     id: 16831
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Radio Telescope
@@ -13271,6 +13525,7 @@ types:
     hp: 700.0
     id: 26706
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Radioactive Cargo Rig
@@ -13319,6 +13574,7 @@ types:
     hp: 1000.0
     id: 16865
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Rapid Pulse Sentry
@@ -13367,6 +13623,7 @@ types:
     hp: 65000.0
     id: 4011
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Reinforced Drone Bunker
@@ -13415,6 +13672,7 @@ types:
     hp: 4000000.0
     id: 3500
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Reinforced Nation Outpost
@@ -13462,6 +13720,7 @@ types:
     hp: 10000.0
     id: 28065
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Remote Cloaking Array
@@ -13510,6 +13769,7 @@ types:
     hp: 50000.0
     id: 12989
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Rent-A-Dream Pleasure Gardens
@@ -13558,6 +13818,7 @@ types:
     hp: 1000.0
     id: 27063
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Repair Station
@@ -13606,6 +13867,7 @@ types:
     hp: 700.0
     id: 22712
     kineticdamageresonance: 1.0
+    mass: 1.025E9
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Republic Fleet Naglfar - Under Construction
@@ -13654,6 +13916,7 @@ types:
     hp: 7.2E9
     id: 28258
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Research Station
@@ -13702,6 +13965,7 @@ types:
     hp: 300.0
     id: 22758
     kineticdamageresonance: 1.0
+    mass: 1.124999936E9
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Revelation - Under Construction
@@ -13750,6 +14014,7 @@ types:
     hp: 150000.0
     id: 16737
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Ruined Stargate
@@ -13798,6 +14063,7 @@ types:
     hp: 300.0
     id: 16820
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Barricade
@@ -13846,6 +14112,7 @@ types:
     hp: 300.0
     id: 16821
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Barrier
@@ -13894,6 +14161,7 @@ types:
     hp: 300.0
     id: 16818
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Battery
@@ -13942,6 +14210,7 @@ types:
     hp: 1500000.0
     id: 28252
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Battlestation_event
@@ -13990,6 +14259,7 @@ types:
     hp: 700.0
     id: 16814
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Bunker
@@ -14038,6 +14308,7 @@ types:
     hp: 5000.0
     id: 17381
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Deadspace Outpost I
@@ -14086,6 +14357,7 @@ types:
     hp: 500.0
     id: 16815
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Elevator
@@ -14134,6 +14406,7 @@ types:
     hp: 300.0
     id: 16813
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Fence
@@ -14182,6 +14455,7 @@ types:
     hp: 300.0
     id: 16816
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Junction
@@ -14230,6 +14504,7 @@ types:
     hp: 500.0
     id: 16817
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Lookout
@@ -14278,6 +14553,7 @@ types:
     hp: 2000.0
     id: 3499
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Starbase Control Tower
@@ -14326,6 +14602,7 @@ types:
     hp: 300.0
     id: 16819
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Wall
@@ -14374,6 +14651,7 @@ types:
     hp: 80000.0
     id: 11080
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha's Battletower
@@ -14422,6 +14700,7 @@ types:
     hp: 200.0
     id: 13106
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Scanner Post
@@ -14514,6 +14793,7 @@ types:
     hp: 1000.0
     id: 20182
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Secured Drone Bunker
@@ -14562,6 +14842,7 @@ types:
     hp: 1500.0
     id: 17140
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Security Outpost
@@ -14610,6 +14891,7 @@ types:
     hp: 25.0
     id: 47401
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Seeker Bunker
@@ -14657,6 +14939,7 @@ types:
     hp: 300.0
     id: 23222
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Barricade
@@ -14705,6 +14988,7 @@ types:
     hp: 300.0
     id: 16830
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Barrier
@@ -14753,6 +15037,7 @@ types:
     hp: 300.0
     id: 16826
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Battery
@@ -14801,6 +15086,7 @@ types:
     hp: 700.0
     id: 16822
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Bunker
@@ -14849,6 +15135,7 @@ types:
     hp: 500.0
     id: 16823
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Elevator
@@ -14897,6 +15184,7 @@ types:
     hp: 300.0
     id: 16829
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Fence
@@ -14945,6 +15233,7 @@ types:
     hp: 300.0
     id: 16824
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Junction
@@ -14993,6 +15282,7 @@ types:
     hp: 500.0
     id: 16825
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Lookout
@@ -15086,6 +15376,7 @@ types:
     hp: 200000.0
     id: 11076
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Stronghold
@@ -15134,6 +15425,7 @@ types:
     hp: 300.0
     id: 16827
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Wall
@@ -15182,6 +15474,7 @@ types:
     hp: 5000.0
     id: 18567
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Shipyard
@@ -15230,6 +15523,7 @@ types:
     hp: 20000.0
     id: 29468
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Shipyard Tough
@@ -15278,6 +15572,7 @@ types:
     hp: 5000.0
     id: 26897
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sisters of EVE Aid Station
@@ -15326,6 +15621,7 @@ types:
     hp: 50000.0
     id: 30927
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sleeper Archive Terminal
@@ -15374,6 +15670,7 @@ types:
     hp: 200.0
     id: 16215
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Small Armory
@@ -15422,6 +15719,7 @@ types:
     hp: 5000.0
     id: 24245
     kineticdamageresonance: 1.0
+    mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Smuggler Stargate
@@ -15470,6 +15768,7 @@ types:
     hp: 250000.0
     id: 24453
     kineticdamageresonance: 1.0
+    mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Smuggler Stargate Strong
@@ -15518,6 +15817,7 @@ types:
     hp: 5000.0
     id: 16738
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Solar Harvester
@@ -15566,6 +15866,7 @@ types:
     hp: 500.0
     id: 25725
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stabber LCS
@@ -15613,6 +15914,7 @@ types:
     hp: 700.0
     id: 17784
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Auxiliary Power Array
@@ -15660,6 +15962,7 @@ types:
     hp: 1000.0
     id: 29437
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Auxiliary Power Array I
@@ -15707,6 +16010,7 @@ types:
     hp: 1400.0
     id: 29325
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Auxiliary Power Array II
@@ -15754,6 +16058,7 @@ types:
     hp: 50000.0
     id: 29346
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Auxiliary Power Array III
@@ -15802,6 +16107,7 @@ types:
     hp: 70000.0
     id: 26723
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Capital Ship Maintenance Array
@@ -15850,6 +16156,7 @@ types:
     hp: 700.0
     id: 26724
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Capital Shipyard
@@ -15897,6 +16204,7 @@ types:
     hp: 10000.0
     id: 26727
     kineticdamageresonance: 1.0
+    mass: 4000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Explosion Dampening Array
@@ -15944,6 +16252,7 @@ types:
     hp: 700.0
     id: 17783
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Force Field Array
@@ -15992,6 +16301,7 @@ types:
     hp: 700.0
     id: 17781
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Hangar
@@ -16040,6 +16350,7 @@ types:
     hp: 40000.0
     id: 29461
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Hangar Tough
@@ -16087,6 +16398,7 @@ types:
     hp: 700.0
     id: 17782
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Ion Field Projection Battery
@@ -16135,6 +16447,7 @@ types:
     hp: 700.0
     id: 17775
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Major Assembly Array
@@ -16183,6 +16496,7 @@ types:
     hp: 700.0
     id: 17789
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Medium Refinery
@@ -16231,6 +16545,7 @@ types:
     hp: 700.0
     id: 17776
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Minor Assembly Array
@@ -16279,6 +16594,7 @@ types:
     hp: 700.0
     id: 17790
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Minor Refinery
@@ -16327,6 +16643,7 @@ types:
     hp: 700.0
     id: 26726
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Mobile Factory
@@ -16375,6 +16692,7 @@ types:
     hp: 700.0
     id: 17788
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Moon Harvester
@@ -16423,6 +16741,7 @@ types:
     hp: 700.0
     id: 26728
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Moon Mining Silo
@@ -16471,6 +16790,7 @@ types:
     hp: 700.0
     id: 17785
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Reactor Array
@@ -16518,6 +16838,7 @@ types:
     hp: 700.0
     id: 17786
     kineticdamageresonance: 1.0
+    mass: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Shield Generator
@@ -16566,6 +16887,7 @@ types:
     hp: 700.0
     id: 26722
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Ship-Maintenance Array
@@ -16614,6 +16936,7 @@ types:
     hp: 700.0
     id: 26720
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Silo
@@ -16661,6 +16984,7 @@ types:
     hp: 700.0
     id: 26725
     kineticdamageresonance: 1.0
+    mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Stealth Emitter Array
@@ -16709,6 +17033,7 @@ types:
     hp: 700.0
     id: 17787
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Storage Facility
@@ -16757,6 +17082,7 @@ types:
     hp: 700.0
     id: 26721
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Ultra-Fast Silo
@@ -16805,6 +17131,7 @@ types:
     hp: 8000.0
     id: 24565
     kineticdamageresonance: 1.0
+    mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stargate - Caldari 1
@@ -16853,6 +17180,7 @@ types:
     hp: 5000.0
     id: 23963
     kineticdamageresonance: 1.0
+    mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stargate Gallente 1
@@ -16901,6 +17229,7 @@ types:
     hp: 5000.0
     id: 24685
     kineticdamageresonance: 1.0
+    mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stargate Minmatar 1
@@ -16949,6 +17278,7 @@ types:
     hp: 3000.0
     id: 25363
     kineticdamageresonance: 1.0
+    mass: 1.01E7
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Static Caracal Navy Issue
@@ -17312,6 +17642,7 @@ types:
     hp: 600.0
     id: 17626
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stationary Bestower
@@ -17360,6 +17691,7 @@ types:
     hp: 600.0
     id: 17628
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stationary Iteron V
@@ -17408,6 +17740,7 @@ types:
     hp: 600.0
     id: 17627
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stationary Mammoth
@@ -17456,6 +17789,7 @@ types:
     hp: 3000.0
     id: 29149
     kineticdamageresonance: 1.0
+    mass: 1.3075E7
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stationary Pleasure Yacht
@@ -17549,6 +17883,7 @@ types:
     hp: 600.0
     id: 17629
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stationary Tayra
@@ -17597,6 +17932,7 @@ types:
     hp: 700.0
     id: 26704
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Storage Facility - radioactive stuff and small arms
@@ -17645,6 +17981,7 @@ types:
     hp: 20000.0
     id: 29189
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Subspace Beacon
@@ -17693,6 +18030,7 @@ types:
     hp: 1000.0
     id: 16861
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Subspace Frequency Generator
@@ -17741,6 +18079,7 @@ types:
     hp: 1000000.0
     id: 28235
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Supply Depot_event
@@ -17782,6 +18121,7 @@ types:
     hp: 1.0E7
     id: 53080
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Survey Array
@@ -17822,6 +18162,7 @@ types:
     hp: 1.968300032E10
     id: 56699
     kineticdamageresonance: 1.0
+    mass: 1.968300032E10
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Svarog Vyraj Anchorage
@@ -17911,6 +18252,7 @@ types:
     hp: 35000.0
     id: 26737
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Tough Gallente Starbase Control Tower
@@ -18110,6 +18452,7 @@ types:
     hp: 1200000.0
     id: 53292
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Triglavian Stellar Accelerator
@@ -18153,6 +18496,7 @@ types:
     hp: 10000.0
     id: 52842
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Triglavian Stellar Observatory
@@ -18201,6 +18545,7 @@ types:
     hp: 50.0
     id: 3858
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Tutorial Fuel Depot
@@ -18243,6 +18588,7 @@ types:
     hp: 1200000.0
     id: 60144
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Unidentified Signal
@@ -18290,6 +18636,7 @@ types:
     hp: 15000.0
     id: 26899
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Unlicensed Mindclash Arena
@@ -18337,6 +18684,7 @@ types:
     hp: 50000.0
     id: 35764
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Unstable Signal Disruptor
@@ -18385,6 +18733,7 @@ types:
     hp: 25.0
     id: 48652
     kineticdamageresonance: 1.0
+    mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Unstable Wreckage
@@ -18426,6 +18775,7 @@ types:
     hp: 1.968300032E10
     id: 54575
     kineticdamageresonance: 1.0
+    mass: 1.968300032E10
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Veles Vyraj Anchorage
@@ -18475,6 +18825,7 @@ types:
     hp: 1.0E9
     id: 29391
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Visera Yanala
@@ -18523,6 +18874,7 @@ types:
     hp: 200.0
     id: 32264
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Warp Core Hotel
@@ -18569,6 +18921,7 @@ types:
     hp: 25.0
     id: 42690
     kineticdamageresonance: 1.0
+    mass: 1000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     missileentityflighttimemultiplier: 1.0
@@ -18627,6 +18980,7 @@ types:
     hp: 50000.0
     id: 30512
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Weakened Sleeper Drone Hangar
@@ -18675,6 +19029,7 @@ types:
     hp: 10000.0
     id: 52700
     kineticdamageresonance: 1.0
+    mass: 1000.0
     maxtargetrange: 30000.0
     maxtargetrangebonus: -50.0
     missileentityflighttimemultiplier: 1.0
@@ -18729,6 +19084,7 @@ types:
     hp: 700.0
     id: 26240
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Weapon's Storage Facility
@@ -18777,6 +19133,7 @@ types:
     hp: 700.0
     id: 23571
     kineticdamageresonance: 1.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Wiyrkomi Storage
@@ -18865,6 +19222,7 @@ types:
     hp: 50000.0
     id: 30507
     kineticdamageresonance: 1.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Worn Talocan Static Gate

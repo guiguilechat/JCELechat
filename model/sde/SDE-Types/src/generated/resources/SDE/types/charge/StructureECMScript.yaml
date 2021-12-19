@@ -4,6 +4,7 @@ types:
     id: 37821
     launchergroup: 1332
     marketGroup: 1094
+    mass: 1.0
     name: Standup Gravimetric ECM Script
     packagedVolume: 1.0
     portionSize: 1
@@ -21,6 +22,7 @@ types:
     id: 37822
     launchergroup: 1332
     marketGroup: 1094
+    mass: 1.0
     name: Standup Ladar ECM Script
     packagedVolume: 1.0
     portionSize: 1
@@ -38,6 +40,7 @@ types:
     id: 37823
     launchergroup: 1332
     marketGroup: 1094
+    mass: 1.0
     name: Standup Magnetometric ECM Script
     packagedVolume: 1.0
     portionSize: 1
@@ -55,6 +58,7 @@ types:
     id: 37824
     launchergroup: 1332
     marketGroup: 1094
+    mass: 1.0
     name: Standup Radar ECM Script
     packagedVolume: 1.0
     portionSize: 1

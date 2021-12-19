@@ -11,6 +11,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2739
+    mass: 0.009999999776482582
     metalevelold: 5
     name: ElectroPunch Ultra L
     packagedVolume: 0.02500000037252903
@@ -35,6 +36,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2738
+    mass: 0.009999999776482582
     metalevelold: 5
     name: ElectroPunch Ultra M
     packagedVolume: 0.012500000186264515
@@ -59,6 +61,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2737
+    mass: 0.009999999776482582
     metalevelold: 5
     name: ElectroPunch Ultra S
     packagedVolume: 0.0024999999441206455
@@ -83,6 +86,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2739
+    mass: 0.009999999776482582
     metalevelold: 5
     name: StrikeSnipe Ultra L
     packagedVolume: 0.02500000037252903
@@ -107,6 +111,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2738
+    mass: 0.009999999776482582
     metalevelold: 5
     name: StrikeSnipe Ultra M
     packagedVolume: 0.012500000186264515
@@ -131,6 +136,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2737
+    mass: 0.009999999776482582
     metalevelold: 5
     name: StrikeSnipe Ultra S
     packagedVolume: 0.0024999999441206455

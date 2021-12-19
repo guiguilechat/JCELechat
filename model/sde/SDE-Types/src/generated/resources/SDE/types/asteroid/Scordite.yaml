@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28427
     marketGroup: 519
+    mass: 1.0000000409184788E35
     name: Compressed Condensed Scordite
     orebasictype: 1228
     packagedVolume: 0.1899999976158142
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46703
     marketGroup: 519
+    mass: 1.0
     name: Compressed Glossy Scordite
     orebasictype: 46687
     packagedVolume: 0.1899999976158142
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28428
     marketGroup: 519
+    mass: 1.0000000409184788E35
     name: Compressed Massive Scordite
     orebasictype: 1228
     packagedVolume: 0.1899999976158142
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28429
     marketGroup: 519
+    mass: 1.0000000409184788E35
     name: Compressed Scordite
     orebasictype: 1228
     packagedVolume: 0.1899999976158142
@@ -84,6 +88,7 @@ types:
     compressiontypeid: 28427
     id: 17463
     marketGroup: 519
+    mass: 1.0000000409184788E35
     name: Condensed Scordite
     orebasictype: 1228
     packagedVolume: 0.15000000596046448
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 46703
     id: 46687
     marketGroup: 519
+    mass: 1.0000000409184788E35
     name: Glossy Scordite
     orebasictype: 46687
     packagedVolume: 0.15000000596046448
@@ -126,6 +132,7 @@ types:
     compressiontypeid: 28428
     id: 17464
     marketGroup: 519
+    mass: 1.0000000409184788E35
     name: Massive Scordite
     orebasictype: 1228
     packagedVolume: 0.15000000596046448
@@ -147,6 +154,7 @@ types:
     compressiontypeid: 28429
     id: 1228
     marketGroup: 519
+    mass: 1.0000000409184788E35
     name: Scordite
     orebasictype: 1228
     packagedVolume: 0.15000000596046448

@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EcuExtractorHeadCPU;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EcuExtractorHeadPower;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExtractorDepletionRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExtractorDepletionRate;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PinCycleTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PinExtractionQuantity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetRestriction;
@@ -94,7 +93,7 @@ public class ExtractorControlUnits
     @Stackable(true)
     @DefaultIntValue(0)
     public int powerload;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PlanetRestriction.INSTANCE, CpuLoad.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, PinExtractionQuantity.INSTANCE, EcuExtractorHeadCPU.INSTANCE, PinCycleTime.INSTANCE, EcuExtractorHeadPower.INSTANCE, ExtractorDepletionRange.INSTANCE, ExtractorDepletionRate.INSTANCE, PowerLoad.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PlanetRestriction.INSTANCE, CpuLoad.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, PinExtractionQuantity.INSTANCE, EcuExtractorHeadCPU.INSTANCE, PinCycleTime.INSTANCE, EcuExtractorHeadPower.INSTANCE, ExtractorDepletionRange.INSTANCE, ExtractorDepletionRate.INSTANCE, PowerLoad.INSTANCE })));
     public static final ExtractorControlUnits.MetaGroup METAGROUP = new ExtractorControlUnits.MetaGroup();
 
     @Override

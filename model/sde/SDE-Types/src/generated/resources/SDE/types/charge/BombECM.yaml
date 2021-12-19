@@ -16,6 +16,7 @@ types:
     kineticdamage: 7.0
     launchergroup: 862
     marketGroup: 1015
+    mass: 1000.0
     maxvelocity: 4000.0
     name: Lockbreaker Bomb
     packagedVolume: 75.0

@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSecModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NullSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -87,13 +86,6 @@ public class StructureReactorRigLEfficiency
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
-    /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
     /**
      * 
      */
@@ -165,7 +157,7 @@ public class StructureReactorRigLEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, RefRigTimeBonus.INSTANCE, RefRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, RefRigTimeBonus.INSTANCE, RefRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureReactorRigLEfficiency.MetaGroup METAGROUP = new StructureReactorRigLEfficiency.MetaGroup();
 
     @Override
@@ -198,10 +190,6 @@ public class StructureReactorRigLEfficiency
             case  2356 :
             {
                 return lowsecmodifier;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  1544 :
             {

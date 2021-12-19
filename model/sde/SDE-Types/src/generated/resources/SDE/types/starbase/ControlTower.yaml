@@ -19,6 +19,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 12235
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -71,6 +72,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 20059
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -123,6 +125,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 20060
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -175,6 +178,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27539
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -228,6 +232,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27607
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -281,6 +286,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27610
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -334,6 +340,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27530
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -387,6 +394,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27589
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -440,6 +448,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27592
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -493,6 +502,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 16213
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -545,6 +555,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 20061
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -597,6 +608,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 20062
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -649,6 +661,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27532
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -702,6 +715,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27591
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -755,6 +769,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27594
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -808,6 +823,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27540
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -861,6 +877,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27609
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -914,6 +931,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27612
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -967,6 +985,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27535
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1020,6 +1039,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27597
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1073,6 +1093,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27600
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1125,6 +1146,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 12236
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -1176,6 +1198,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 20063
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -1227,6 +1250,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 20064
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -1279,6 +1303,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27533
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1332,6 +1357,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27595
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1385,6 +1411,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27598
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1438,6 +1465,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 16214
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -1490,6 +1518,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 20065
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -1542,6 +1571,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 20066
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
@@ -1594,6 +1624,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27780
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1647,6 +1678,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27782
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1700,6 +1732,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27784
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1752,6 +1785,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27536
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1804,6 +1838,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27601
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1856,6 +1891,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27604
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1908,6 +1944,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27538
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -1960,6 +1997,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27603
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -2012,6 +2050,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27606
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -2065,6 +2104,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27786
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -2118,6 +2158,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27788
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -2171,6 +2212,7 @@ types:
     hullthermaldamageresonance: 0.009999999776482582
     id: 27790
     marketGroup: 478
+    mass: 2.0E8
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4

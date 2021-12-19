@@ -15,6 +15,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 507
     marketGroup: 928
+    mass: 100.0
     maxvelocity: 3375.0
     metalevelold: 5
     name: Inferno Javelin Rocket
@@ -51,6 +52,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 507
     marketGroup: 930
+    mass: 100.0
     maxvelocity: 1875.0
     metalevelold: 5
     name: Inferno Rage Rocket
@@ -87,6 +89,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 507
     marketGroup: 928
+    mass: 100.0
     maxvelocity: 3375.0
     metalevelold: 5
     name: Mjolnir Javelin Rocket
@@ -123,6 +126,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 507
     marketGroup: 930
+    mass: 100.0
     maxvelocity: 1875.0
     metalevelold: 5
     name: Mjolnir Rage Rocket
@@ -158,6 +162,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 507
     marketGroup: 928
+    mass: 100.0
     maxvelocity: 3375.0
     metalevelold: 5
     name: Nova Javelin Rocket
@@ -194,6 +199,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 507
     marketGroup: 930
+    mass: 100.0
     maxvelocity: 1875.0
     metalevelold: 5
     name: Nova Rage Rocket
@@ -229,6 +235,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 507
     marketGroup: 928
+    mass: 100.0
     maxvelocity: 3375.0
     metalevelold: 5
     name: Scourge Javelin Rocket
@@ -265,6 +272,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 507
     marketGroup: 930
+    mass: 100.0
     maxvelocity: 1875.0
     metalevelold: 5
     name: Scourge Rage Rocket

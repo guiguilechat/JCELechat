@@ -30,6 +30,7 @@ types:
     hp: 300.0
     id: 42849
     iscapitalsize: 1
+    mass: 9.22499968E8
     maxattacktargets: 1
     maxlockedtargets: 1
     maxvelocity: 1.0

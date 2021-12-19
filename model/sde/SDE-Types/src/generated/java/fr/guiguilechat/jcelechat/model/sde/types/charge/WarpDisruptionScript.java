@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MassBonusPercentageBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeHidden;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -119,7 +118,7 @@ public class WarpDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerangebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, MassBonusPercentageBonus.INSTANCE, SpeedBoostFactorBonusBonus.INSTANCE, SpeedFactorBonusBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, MassBonusPercentageBonus.INSTANCE, SpeedBoostFactorBonusBonus.INSTANCE, SpeedFactorBonusBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final WarpDisruptionScript.MetaGroup METAGROUP = new WarpDisruptionScript.MetaGroup();
 
     @Override

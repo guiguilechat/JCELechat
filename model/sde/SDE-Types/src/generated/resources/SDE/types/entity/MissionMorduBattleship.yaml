@@ -46,6 +46,7 @@ types:
     hp: 4750.0
     id: 16039
     kineticdamage: 20.0
+    mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 50000.0
@@ -128,6 +129,7 @@ types:
     hp: 4250.0
     id: 16036
     kineticdamage: 20.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 45000.0
@@ -210,6 +212,7 @@ types:
     hp: 4750.0
     id: 16037
     kineticdamage: 20.0
+    mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 50000.0
@@ -292,6 +295,7 @@ types:
     hp: 3500.0
     id: 16034
     kineticdamage: 16.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 30000.0
@@ -374,6 +378,7 @@ types:
     gfxboosterid: 395
     hp: 3975.0
     id: 16035
+    mass: 2.2E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 290.0

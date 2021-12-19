@@ -25,6 +25,7 @@ types:
     jumpportalconsumptionmassfactor: 1.500000013088254E-9
     kineticdamageresonance: 0.800000011920929
     marketGroup: 2511
+    mass: 3.0E9
     maximumrangecap: 300000
     name: Ansiblex Jump Gate
     packagedVolume: 6000.0

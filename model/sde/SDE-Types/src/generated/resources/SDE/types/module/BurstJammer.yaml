@@ -9,6 +9,7 @@ types:
     hp: 40.0
     id: 20581
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metagroupid: 3
     metalevelold: 6
@@ -38,6 +39,7 @@ types:
     hp: 40.0
     id: 580
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     name: Burst Jammer I
     overloadecmstrengthbonus: 20
@@ -65,6 +67,7 @@ types:
     hp: 40.0
     id: 2117
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metalevelold: 5
     name: Burst Jammer II
@@ -93,6 +96,7 @@ types:
     hp: 40.0
     id: 5365
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metalevelold: 1
     name: Cetus Scoped Burst Jammer
@@ -121,6 +125,7 @@ types:
     hp: 40.0
     id: 5361
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metalevelold: 1
     name: Deluge Enduring Burst Jammer
@@ -149,6 +154,7 @@ types:
     hp: 40.0
     id: 5363
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metalevelold: 1
     name: Rash Compact Burst Jammer
@@ -177,6 +183,7 @@ types:
     hp: 40.0
     id: 40690
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metagroupid: 4
     metalevelold: 8
@@ -206,6 +213,7 @@ types:
     hp: 40.0
     id: 40691
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metagroupid: 5
     metalevelold: 11
@@ -235,6 +243,7 @@ types:
     hp: 40.0
     id: 40692
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metagroupid: 5
     metalevelold: 13
@@ -264,6 +273,7 @@ types:
     hp: 40.0
     id: 40693
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metagroupid: 5
     metalevelold: 15
@@ -293,6 +303,7 @@ types:
     hp: 40.0
     id: 40694
     marketGroup: 678
+    mass: 5000.0
     maxgroupactive: 1
     metagroupid: 5
     metalevelold: 17

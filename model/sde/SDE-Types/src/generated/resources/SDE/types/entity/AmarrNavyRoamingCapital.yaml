@@ -27,6 +27,7 @@ types:
     hp: 172000.0
     id: 35819
     iscapitalsize: 1
+    mass: 1.012499968E9
     maxlockedtargets: 1
     maxvelocity: 88.0
     name: Amarr Navy Archon
@@ -64,6 +65,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entityflyrange: 500.0
     id: 50100
+    mass: 1.012499968E9
     name: Imperial Escort Aeon
     npcassistancerange: 5000
     npcremotearmorrepairchance: 1.0

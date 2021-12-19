@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccuracyMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
 import org.yaml.snakeyaml.Yaml;
@@ -46,20 +45,13 @@ public class PhysicalHandicap
     @DefaultRealValue(0.0)
     public double capacity;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, CapacitorNeedMultiplier.INSTANCE, AccuracyMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, CapacitorNeedMultiplier.INSTANCE, AccuracyMultiplier.INSTANCE })));
     public static final PhysicalHandicap.MetaGroup METAGROUP = new PhysicalHandicap.MetaGroup();
 
     @Override
@@ -76,10 +68,6 @@ public class PhysicalHandicap
             case  38 :
             {
                 return capacity;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

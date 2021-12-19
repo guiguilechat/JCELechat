@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaSkillTrainingTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IntelligenceSkillTrainingTimeMultiplierBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MemorySkillTrainingTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionSkillTrainingTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -49,13 +48,6 @@ public class CareerBonus
     @DefaultRealValue(0.0)
     public double intelligenceskilltrainingtimemultiplierbonus;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Bonus or penalty to the percentage time it takes to train skills with Memory as the primary attribute.
      */
     @HighIsGood(true)
@@ -83,7 +75,7 @@ public class CareerBonus
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double willpowerskilltrainingtimemultiplierbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CharismaSkillTrainingTimeMultiplierBonus.INSTANCE, IntelligenceSkillTrainingTimeMultiplierBonus.INSTANCE, Capacity.INSTANCE, MemorySkillTrainingTimeMultiplierBonus.INSTANCE, PerceptionSkillTrainingTimeMultiplierBonus.INSTANCE, WillpowerSkillTrainingTimeMultiplierBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CharismaSkillTrainingTimeMultiplierBonus.INSTANCE, IntelligenceSkillTrainingTimeMultiplierBonus.INSTANCE, Capacity.INSTANCE, MemorySkillTrainingTimeMultiplierBonus.INSTANCE, PerceptionSkillTrainingTimeMultiplierBonus.INSTANCE, WillpowerSkillTrainingTimeMultiplierBonus.INSTANCE })));
     public static final CareerBonus.MetaGroup METAGROUP = new CareerBonus.MetaGroup();
 
     @Override
@@ -100,10 +92,6 @@ public class CareerBonus
             case  229 :
             {
                 return intelligenceskilltrainingtimemultiplierbonus;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  230 :
             {

@@ -5,6 +5,7 @@ types:
     hp: 190000.0
     id: 33585
     marketGroup: 1847
+    mass: 100000.0
     maxlockedtargets: 8
     maxtargetrange: 250000.0
     name: Defunct Amarr Encounter Surveillance System
@@ -34,6 +35,7 @@ types:
     hp: 190000.0
     id: 33595
     marketGroup: 1847
+    mass: 100000.0
     maxlockedtargets: 8
     maxtargetrange: 250000.0
     name: Defunct Caldari Encounter Surveillance System
@@ -63,6 +65,7 @@ types:
     hp: 190000.0
     id: 33608
     marketGroup: 1847
+    mass: 100000.0
     maxlockedtargets: 8
     maxtargetrange: 250000.0
     name: Defunct Gallente Encounter Surveillance System
@@ -92,6 +95,7 @@ types:
     hp: 190000.0
     id: 33610
     marketGroup: 1847
+    mass: 100000.0
     maxlockedtargets: 8
     maxtargetrange: 250000.0
     name: Defunct Minmatar Encounter Surveillance System

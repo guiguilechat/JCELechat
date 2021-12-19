@@ -52,6 +52,7 @@ types:
     id: 17392
     importtaxmultiplier: 60000
     marketGroup: 1336
+    mass: 1.0
     name: Data Chips
     packagedVolume: 6.0
     portionSize: 1

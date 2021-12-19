@@ -34,6 +34,7 @@ types:
     hp: 100.0
     id: 23057
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 753.0
@@ -98,6 +99,7 @@ types:
     hp: 100.0
     id: 40557
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 785.0
@@ -162,6 +164,7 @@ types:
     hp: 100.0
     id: 23061
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 873.0
@@ -226,6 +229,7 @@ types:
     hp: 100.0
     id: 40559
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 908.0
@@ -286,6 +290,7 @@ types:
     hp: 100.0
     id: 40358
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
     maxvelocity: 1000.0
@@ -345,6 +350,7 @@ types:
     hp: 100.0
     id: 40552
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1040.0
@@ -409,6 +415,7 @@ types:
     hp: 100.0
     id: 23059
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 714.0
@@ -473,6 +480,7 @@ types:
     hp: 100.0
     id: 40558
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 743.0
@@ -533,6 +541,7 @@ types:
     hp: 100.0
     id: 40361
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
     maxvelocity: 1048.0
@@ -592,6 +601,7 @@ types:
     hp: 100.0
     id: 40553
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1090.0
@@ -652,6 +662,7 @@ types:
     hp: 100.0
     id: 40359
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
     maxvelocity: 905.0
@@ -711,6 +722,7 @@ types:
     hp: 100.0
     id: 40554
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 941.0
@@ -771,6 +783,7 @@ types:
     hp: 100.0
     id: 40360
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
     maxvelocity: 857.0
@@ -830,6 +843,7 @@ types:
     hp: 100.0
     id: 40555
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 892.0
@@ -894,6 +908,7 @@ types:
     hp: 100.0
     id: 47138
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1507.0
@@ -955,6 +970,7 @@ types:
     hp: 100.0
     id: 47142
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1570.0
@@ -1017,6 +1033,7 @@ types:
     hp: 100.0
     id: 47140
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1746.0
@@ -1078,6 +1095,7 @@ types:
     hp: 100.0
     id: 47144
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1816.0
@@ -1136,6 +1154,7 @@ types:
     hp: 100.0
     id: 47145
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
     maxvelocity: 2500.0
@@ -1192,6 +1211,7 @@ types:
     hp: 100.0
     id: 47148
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2601.0
@@ -1253,6 +1273,7 @@ types:
     hp: 100.0
     id: 47139
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1427.0
@@ -1314,6 +1335,7 @@ types:
     hp: 100.0
     id: 47143
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1487.0
@@ -1372,6 +1394,7 @@ types:
     hp: 100.0
     id: 47036
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
     maxvelocity: 2619.0
@@ -1428,6 +1451,7 @@ types:
     hp: 100.0
     id: 47151
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2725.0
@@ -1485,6 +1509,7 @@ types:
     hp: 100.0
     id: 47146
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
     maxvelocity: 2262.0
@@ -1541,6 +1566,7 @@ types:
     hp: 100.0
     id: 47149
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2354.0
@@ -1598,6 +1624,7 @@ types:
     hp: 100.0
     id: 47147
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
     maxvelocity: 2142.0
@@ -1654,6 +1681,7 @@ types:
     hp: 100.0
     id: 47150
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2230.0
@@ -1715,6 +1743,7 @@ types:
     hp: 100.0
     id: 47035
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1667.0
@@ -1776,6 +1805,7 @@ types:
     hp: 100.0
     id: 47141
     marketGroup: 2411
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1733.0
@@ -1838,6 +1868,7 @@ types:
     hp: 100.0
     id: 23055
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 833.0
@@ -1902,6 +1933,7 @@ types:
     hp: 100.0
     id: 40556
     marketGroup: 840
+    mass: 1000.0
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 867.0

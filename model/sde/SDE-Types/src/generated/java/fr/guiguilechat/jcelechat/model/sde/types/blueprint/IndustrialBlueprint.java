@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryJobCostMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
@@ -47,20 +46,13 @@ public class IndustrialBlueprint
     @DefaultIntValue(1)
     public int industryjobcostmultiplier;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryJobCostMultiplier.INSTANCE, IndustryBlueprintRank.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryJobCostMultiplier.INSTANCE, IndustryBlueprintRank.INSTANCE, Capacity.INSTANCE })));
     public static final IndustrialBlueprint.MetaGroup METAGROUP = new IndustrialBlueprint.MetaGroup();
 
     @Override
@@ -77,10 +69,6 @@ public class IndustrialBlueprint
             case  1954 :
             {
                 return industryjobcostmultiplier;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

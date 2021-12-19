@@ -3,6 +3,7 @@ types:
     id: 42832
     launchergroup: 1770
     marketGroup: 2298
+    mass: 0.009999999776482582
     name: Armor Energizing Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
@@ -20,6 +21,7 @@ types:
     id: 42834
     launchergroup: 1770
     marketGroup: 2298
+    mass: 0.009999999776482582
     name: Armor Reinforcement Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
@@ -37,6 +39,7 @@ types:
     id: 42833
     launchergroup: 1770
     marketGroup: 2298
+    mass: 0.009999999776482582
     name: Rapid Repair Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500

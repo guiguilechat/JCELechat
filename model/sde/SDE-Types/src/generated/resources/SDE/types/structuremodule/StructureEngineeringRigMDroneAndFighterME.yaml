@@ -11,6 +11,7 @@ types:
     id: 37156
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Drone and Fighter Manufacturing Material Efficiency I
     nullsecmodifier: 2.0999999046325684
@@ -40,6 +41,7 @@ types:
     id: 37157
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Drone and Fighter Manufacturing Material Efficiency II
     nullsecmodifier: 2.0999999046325684

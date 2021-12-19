@@ -6,6 +6,7 @@ types:
     cpu: 600.0
     id: 35894
     marketGroup: 2232
+    mass: 500.0
     maxtypefitted: 1
     name: Standup Cloning Center I
     packagedVolume: 4000.0
@@ -35,6 +36,7 @@ types:
     cpu: 1200.0
     id: 35892
     marketGroup: 2232
+    mass: 4000.0
     maxtypefitted: 1
     name: Standup Market Hub I
     packagedVolume: 32000.0

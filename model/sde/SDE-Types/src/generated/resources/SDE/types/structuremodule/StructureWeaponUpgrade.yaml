@@ -7,6 +7,7 @@ types:
     hp: 40.0
     id: 35959
     marketGroup: 2234
+    mass: 500.0
     missiledamagemultiplierbonus: 1.0700000524520874
     name: Standup Ballistic Control System I
     packagedVolume: 4000.0
@@ -26,6 +27,7 @@ types:
     hp: 40.0
     id: 47342
     marketGroup: 2234
+    mass: 500.0
     metalevelold: 5
     missiledamagemultiplierbonus: 1.100000023841858
     name: Standup Ballistic Control System II
@@ -49,6 +51,7 @@ types:
     hp: 40.0
     id: 35962
     marketGroup: 2235
+    mass: 500.0
     missilevelocitybonus: 4.5
     name: Standup Missile Guidance Enhancer I
     packagedVolume: 4000.0
@@ -71,6 +74,7 @@ types:
     hp: 40.0
     id: 47340
     marketGroup: 2235
+    mass: 500.0
     metalevelold: 5
     missilevelocitybonus: 6.0
     name: Standup Missile Guidance Enhancer II

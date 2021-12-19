@@ -11,6 +11,7 @@ types:
     hp: 40.0
     id: 49772
     marketGroup: 2529
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 10750.0
     metalevelold: 1
@@ -41,6 +42,7 @@ types:
     hp: 40.0
     id: 49770
     marketGroup: 2529
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 10500.0
     name: Heavy Mutadaptive Remote Armor Repairer I
@@ -70,6 +72,7 @@ types:
     hp: 40.0
     id: 49773
     marketGroup: 2529
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 12000.0
     metalevelold: 5
@@ -100,6 +103,7 @@ types:
     hp: 40.0
     id: 49771
     marketGroup: 2529
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 11625.0
     metalevelold: 1
@@ -130,6 +134,7 @@ types:
     hp: 40.0
     id: 49774
     marketGroup: 2529
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 12500.0
     metalevelold: 3

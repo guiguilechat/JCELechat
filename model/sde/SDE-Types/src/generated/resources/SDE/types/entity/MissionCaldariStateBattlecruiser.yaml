@@ -50,6 +50,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 32390
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -135,6 +136,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 25066
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -222,6 +224,7 @@ types:
     hp: 1200.0
     id: 25063
     kineticdamage: 9.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -311,6 +314,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 25065
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -398,6 +402,7 @@ types:
     hp: 1200.0
     id: 25064
     kineticdamage: 9.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -489,6 +494,7 @@ types:
     hp: 1200.0
     id: 25067
     kineticdamage: 10.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -585,6 +591,7 @@ types:
     hp: 1200.0
     id: 28173
     kineticdamage: 10.0
+    mass: 1.4E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -680,6 +687,7 @@ types:
     hp: 1200.0
     id: 25069
     kineticdamage: 10.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -771,6 +779,7 @@ types:
     hp: 1200.0
     id: 28172
     kineticdamage: 10.0
+    mass: 1.4E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3

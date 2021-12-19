@@ -8,6 +8,7 @@ types:
     launchergroup: 1396
     maincolor: 11646664
     marketGroup: 1094
+    mass: 1.0
     missilevelocitybonusbonus: -100
     name: Missile Precision Disruption Script
     packagedVolume: 1.0
@@ -26,6 +27,7 @@ types:
     launchergroup: 1396
     maincolor: 11646664
     marketGroup: 1094
+    mass: 1.0
     missilevelocitybonusbonus: 100
     name: Missile Range Disruption Script
     packagedVolume: 1.0

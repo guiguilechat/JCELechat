@@ -8,6 +8,7 @@ types:
     id: 37220
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2344
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Missile Projection I
     nullsecmodifier: 1.2000000476837158
@@ -33,6 +34,7 @@ types:
     id: 37221
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2344
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Missile Projection II
     nullsecmodifier: 1.2000000476837158

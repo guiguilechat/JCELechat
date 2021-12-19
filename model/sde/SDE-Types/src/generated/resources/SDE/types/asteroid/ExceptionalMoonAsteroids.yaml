@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46316
     marketGroup: 2401
+    mass: 4000.0
     name: Bountiful Loparite
     orebasictype: 45512
     packagedVolume: 10.0
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46314
     marketGroup: 2401
+    mass: 4000.0
     name: Bountiful Monazite
     orebasictype: 45511
     packagedVolume: 10.0
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46312
     marketGroup: 2401
+    mass: 4000.0
     name: Bountiful Xenotime
     orebasictype: 45510
     packagedVolume: 10.0
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46318
     marketGroup: 2401
+    mass: 4000.0
     name: Bountiful Ytterbite
     orebasictype: 45513
     packagedVolume: 10.0
@@ -82,6 +86,7 @@ types:
     asteroidradiusunitsize: 600
     id: 45512
     marketGroup: 2401
+    mass: 4000.0
     name: Loparite
     orebasictype: 45512
     packagedVolume: 10.0
@@ -101,6 +106,7 @@ types:
     asteroidradiusunitsize: 600
     id: 45511
     marketGroup: 2401
+    mass: 4000.0
     name: Monazite
     orebasictype: 45511
     packagedVolume: 10.0
@@ -120,6 +126,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46317
     marketGroup: 2401
+    mass: 4000.0
     name: Shining Loparite
     orebasictype: 45512
     packagedVolume: 10.0
@@ -139,6 +146,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46315
     marketGroup: 2401
+    mass: 4000.0
     name: Shining Monazite
     orebasictype: 45511
     packagedVolume: 10.0
@@ -158,6 +166,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46313
     marketGroup: 2401
+    mass: 4000.0
     name: Shining Xenotime
     orebasictype: 45510
     packagedVolume: 10.0
@@ -177,6 +186,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46319
     marketGroup: 2401
+    mass: 4000.0
     name: Shining Ytterbite
     orebasictype: 45513
     packagedVolume: 10.0
@@ -196,6 +206,7 @@ types:
     asteroidradiusunitsize: 600
     id: 45510
     marketGroup: 2401
+    mass: 4000.0
     name: Xenotime
     orebasictype: 45510
     packagedVolume: 10.0
@@ -215,6 +226,7 @@ types:
     asteroidradiusunitsize: 600
     id: 45513
     marketGroup: 2401
+    mass: 4000.0
     name: Ytterbite
     orebasictype: 45513
     packagedVolume: 10.0

@@ -4,6 +4,7 @@ types:
     hp: 40.0
     id: 21484
     marketGroup: 645
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     missiledamagemultiplierbonus: 1.100000023841858
@@ -20,6 +21,7 @@ types:
     volume: 5.0
   Abyssal Ballistic Control System:
     id: 49738
+    mass: 1.0
     name: Abyssal Ballistic Control System
     packagedVolume: 1.0
     portionSize: 1
@@ -36,6 +38,7 @@ types:
     hp: 40.0
     id: 12274
     marketGroup: 645
+    mass: 1.0
     missiledamagemultiplierbonus: 1.0700000524520874
     name: Ballistic Control System I
     packagedVolume: 5.0
@@ -53,6 +56,7 @@ types:
     hp: 40.0
     id: 22291
     marketGroup: 645
+    mass: 1.0
     metalevelold: 5
     missiledamagemultiplierbonus: 1.100000023841858
     name: Ballistic Control System II
@@ -72,6 +76,7 @@ types:
     hp: 40.0
     id: 47447
     marketGroup: 645
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     missiledamagemultiplierbonus: 1.0700000524520874
@@ -94,6 +99,7 @@ types:
     hp: 40.0
     id: 47448
     marketGroup: 645
+    mass: 1.0
     metagroupid: 4
     metalevelold: 12
     missiledamagemultiplierbonus: 1.100000023841858
@@ -115,6 +121,7 @@ types:
     hp: 40.0
     id: 15681
     marketGroup: 645
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
@@ -134,6 +141,7 @@ types:
     hp: 40.0
     id: 16457
     marketGroup: 645
+    mass: 1.0
     metalevelold: 1
     missiledamagemultiplierbonus: 1.0800000429153442
     name: Crosslink Compact Ballistic Control System
@@ -152,6 +160,7 @@ types:
     hp: 40.0
     id: 13935
     marketGroup: 645
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
@@ -171,6 +180,7 @@ types:
     hp: 40.0
     id: 13937
     marketGroup: 645
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
@@ -190,6 +200,7 @@ types:
     hp: 40.0
     id: 14690
     marketGroup: 645
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     missiledamagemultiplierbonus: 1.1449999809265137
@@ -209,6 +220,7 @@ types:
     hp: 40.0
     id: 14532
     marketGroup: 645
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     missiledamagemultiplierbonus: 1.1399999856948853
@@ -228,6 +240,7 @@ types:
     hp: 40.0
     id: 14528
     marketGroup: 645
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     missiledamagemultiplierbonus: 1.1349999904632568
@@ -247,6 +260,7 @@ types:
     hp: 40.0
     id: 46270
     marketGroup: 645
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     missiledamagemultiplierbonus: 1.100000023841858
@@ -266,6 +280,7 @@ types:
     hp: 40.0
     id: 14684
     marketGroup: 645
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     missiledamagemultiplierbonus: 1.1299999952316284
@@ -285,6 +300,7 @@ types:
     hp: 40.0
     id: 28563
     marketGroup: 645
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
@@ -305,6 +321,7 @@ types:
     hp: 40.0
     id: 49790
     marketGroup: 645
+    mass: 1.0
     metalevelold: 1
     missiledamagemultiplierbonus: 1.0800000429153442
     name: ML-EKP 'Polybolos' Ballistic Control System
@@ -323,6 +340,7 @@ types:
     hp: 40.0
     id: 14530
     marketGroup: 645
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     missiledamagemultiplierbonus: 1.1299999952316284
@@ -342,6 +360,7 @@ types:
     hp: 40.0
     id: 15683
     marketGroup: 645
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
@@ -361,6 +380,7 @@ types:
     hp: 40.0
     id: 14686
     marketGroup: 645
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     missiledamagemultiplierbonus: 1.1349999904632568
@@ -380,6 +400,7 @@ types:
     hp: 40.0
     id: 14534
     marketGroup: 645
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     missiledamagemultiplierbonus: 1.1449999809265137
@@ -399,6 +420,7 @@ types:
     hp: 40.0
     id: 14688
     marketGroup: 645
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     missiledamagemultiplierbonus: 1.1399999856948853

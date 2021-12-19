@@ -12,6 +12,7 @@ types:
     hullthermaldamageresonance: 0.75
     id: 521
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 3
     metalevelold: 6
@@ -42,6 +43,7 @@ types:
     hullthermaldamageresonance: 0.6000000238418579
     id: 23418
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 3
     metalevelold: 6
@@ -127,6 +129,7 @@ types:
     hullthermaldamageresonance: 0.75
     id: 47254
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     modulereactivationdelay: 150000
     name: Assault Damage Control I
@@ -162,6 +165,7 @@ types:
     hullthermaldamageresonance: 0.699999988079071
     id: 47257
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metalevelold: 5
     modulereactivationdelay: 150000
@@ -193,6 +197,7 @@ types:
     hullthermaldamageresonance: 0.550000011920929
     id: 41203
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 5
     metalevelold: 11
@@ -232,6 +237,7 @@ types:
     hullthermaldamageresonance: 0.05000000074505806
     id: 40714
     marketGroup: 615
+    mass: 5000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Capital Emergency Hull Energizer I
@@ -270,6 +276,7 @@ types:
     hullthermaldamageresonance: 0.05000000074505806
     id: 40717
     marketGroup: 615
+    mass: 5000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 5
@@ -309,6 +316,7 @@ types:
     hullthermaldamageresonance: 0.05000000074505806
     id: 40715
     marketGroup: 615
+    mass: 5000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 1
@@ -348,6 +356,7 @@ types:
     hullthermaldamageresonance: 0.05000000074505806
     id: 40716
     marketGroup: 615
+    mass: 5000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 1
@@ -378,6 +387,7 @@ types:
     hullthermaldamageresonance: 0.800000011920929
     id: 30839
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     name: Civilian Damage Control
     packagedVolume: 5.0
@@ -406,6 +416,7 @@ types:
     hullthermaldamageresonance: 0.4749999940395355
     id: 41210
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 5
     metalevelold: 17
@@ -436,6 +447,7 @@ types:
     hullthermaldamageresonance: 0.699999988079071
     id: 2046
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     name: Damage Control I
     packagedVolume: 5.0
@@ -464,6 +476,7 @@ types:
     hullthermaldamageresonance: 0.6000000238418579
     id: 2048
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metalevelold: 5
     name: Damage Control II
@@ -498,6 +511,7 @@ types:
     hullthermaldamageresonance: 0.75
     id: 47255
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     modulereactivationdelay: 150000
     name: EFFA Compact Assault Damage Control
@@ -533,6 +547,7 @@ types:
     hullthermaldamageresonance: 0.75
     id: 47256
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     modulereactivationdelay: 150000
     name: FFR Enduring Assault Damage Control
@@ -563,6 +578,7 @@ types:
     hullthermaldamageresonance: 0.6499999761581421
     id: 5839
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metalevelold: 1
     name: IFFA Compact Damage Control
@@ -592,6 +608,7 @@ types:
     hullthermaldamageresonance: 0.574999988079071
     id: 41202
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8
@@ -622,6 +639,7 @@ types:
     hullthermaldamageresonance: 0.5
     id: 41207
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 5
     metalevelold: 15
@@ -657,6 +675,7 @@ types:
     hullthermaldamageresonance: 0.699999988079071
     id: 47258
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8
@@ -689,6 +708,7 @@ types:
     hullthermaldamageresonance: 0.574999988079071
     id: 41200
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8
@@ -728,6 +748,7 @@ types:
     hullthermaldamageresonance: 0.05000000074505806
     id: 40718
     marketGroup: 615
+    mass: 5000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 4
@@ -759,6 +780,7 @@ types:
     hullthermaldamageresonance: 0.574999988079071
     id: 41201
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8
@@ -789,6 +811,7 @@ types:
     hullthermaldamageresonance: 0.5249999761581421
     id: 41205
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 5
     metalevelold: 13
@@ -819,6 +842,7 @@ types:
     hullthermaldamageresonance: 0.550000011920929
     id: 41204
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 5
     metalevelold: 11
@@ -849,6 +873,7 @@ types:
     hullthermaldamageresonance: 0.5249999761581421
     id: 41206
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 5
     metalevelold: 13
@@ -879,6 +904,7 @@ types:
     hullthermaldamageresonance: 0.5
     id: 41208
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 5
     metalevelold: 15
@@ -909,6 +935,7 @@ types:
     hullthermaldamageresonance: 0.4749999940395355
     id: 41211
     marketGroup: 615
+    mass: 5000.0
     maxgroupfitted: 1
     metagroupid: 5
     metalevelold: 17

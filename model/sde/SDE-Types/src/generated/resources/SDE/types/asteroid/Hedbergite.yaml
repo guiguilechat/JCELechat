@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28400
     marketGroup: 527
+    mass: 1.0000000409184788E35
     name: Compressed Glazed Hedbergite
     orebasictype: 21
     packagedVolume: 0.4699999988079071
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28401
     marketGroup: 527
+    mass: 1.0000000409184788E35
     name: Compressed Hedbergite
     orebasictype: 21
     packagedVolume: 0.4699999988079071
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46696
     marketGroup: 527
+    mass: 1.0
     name: Compressed Lustrous Hedbergite
     orebasictype: 46680
     packagedVolume: 0.4699999988079071
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28402
     marketGroup: 527
+    mass: 1.0000000409184788E35
     name: Compressed Vitric Hedbergite
     orebasictype: 21
     packagedVolume: 0.4699999988079071
@@ -84,6 +88,7 @@ types:
     compressiontypeid: 28400
     id: 17441
     marketGroup: 527
+    mass: 1.0000000409184788E35
     name: Glazed Hedbergite
     orebasictype: 21
     packagedVolume: 3.0
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 28401
     id: 21
     marketGroup: 527
+    mass: 1.0000000409184788E35
     name: Hedbergite
     orebasictype: 21
     packagedVolume: 3.0
@@ -126,6 +132,7 @@ types:
     compressiontypeid: 46696
     id: 46680
     marketGroup: 527
+    mass: 1.0000000409184788E35
     name: Lustrous Hedbergite
     orebasictype: 46680
     packagedVolume: 3.0
@@ -147,6 +154,7 @@ types:
     compressiontypeid: 28402
     id: 17440
     marketGroup: 527
+    mass: 1.0000000409184788E35
     name: Vitric Hedbergite
     orebasictype: 21
     packagedVolume: 3.0

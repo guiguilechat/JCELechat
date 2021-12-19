@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -126,7 +125,7 @@ public class MiningForemanBurstCharges
     @Stackable(true)
     @DefaultIntValue(0)
     public int warfarebuff4multiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, WarfareBuff1ID.INSTANCE, WarfareBuff1Multiplier.INSTANCE, Mass.INSTANCE, WarfareBuff2Multiplier.INSTANCE, WarfareBuff2ID.INSTANCE, WarfareBuff3Multiplier.INSTANCE, Capacity.INSTANCE, WarfareBuff4Multiplier.INSTANCE, WarfareBuff3ID.INSTANCE, WarfareBuff4ID.INSTANCE, LauncherGroup.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, WarfareBuff1ID.INSTANCE, WarfareBuff1Multiplier.INSTANCE, WarfareBuff2Multiplier.INSTANCE, WarfareBuff2ID.INSTANCE, WarfareBuff3Multiplier.INSTANCE, Capacity.INSTANCE, WarfareBuff4Multiplier.INSTANCE, WarfareBuff3ID.INSTANCE, WarfareBuff4ID.INSTANCE, LauncherGroup.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE })));
     public static final MiningForemanBurstCharges.MetaGroup METAGROUP = new MiningForemanBurstCharges.MetaGroup();
 
     @Override

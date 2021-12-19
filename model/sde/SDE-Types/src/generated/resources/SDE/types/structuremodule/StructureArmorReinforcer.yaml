@@ -5,6 +5,7 @@ types:
     hp: 40.0
     id: 47360
     marketGroup: 2414
+    mass: 500.0
     name: Standup Layered Armor Plating I
     packagedVolume: 4000.0
     portionSize: 1
@@ -20,6 +21,7 @@ types:
     hp: 40.0
     id: 47362
     marketGroup: 2414
+    mass: 500.0
     metalevelold: 5
     name: Standup Layered Armor Plating II
     packagedVolume: 4000.0

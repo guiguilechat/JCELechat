@@ -24,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResistanceB
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResistanceBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RepairBonus;
@@ -122,7 +121,7 @@ public class RigArmor
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RepairBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, ArmorHpBonus.INSTANCE, Drawback.INSTANCE, EmDamageResistanceBonus.INSTANCE, DurationSkillBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, RepairBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, ArmorHpBonus.INSTANCE, Drawback.INSTANCE, EmDamageResistanceBonus.INSTANCE, DurationSkillBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final RigArmor.MetaGroup METAGROUP = new RigArmor.MetaGroup();
 
     @Override

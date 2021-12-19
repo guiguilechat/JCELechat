@@ -36,6 +36,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 2417
+    mass: 1.6E7
     maxlockedtargets: 12
     maxtargetrange: 250000.0
     maxvelocity: 220.0

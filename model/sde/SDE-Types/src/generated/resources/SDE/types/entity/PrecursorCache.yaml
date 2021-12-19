@@ -18,6 +18,7 @@ types:
     falloff: 1.0
     hp: 100.0
     id: 47951
+    mass: 100000.0
     name: Triglavian Bioadaptive Cache
     packagedVolume: 1.0E8
     portionSize: 1
@@ -47,6 +48,7 @@ types:
     falloff: 1.0
     hp: 100.0
     id: 49689
+    mass: 100000.0
     name: Triglavian Biocombinative Cache
     packagedVolume: 1.0E8
     portionSize: 1
@@ -72,6 +74,7 @@ types:
     falloff: 1.0
     hp: 100000.0
     id: 53294
+    mass: 100000.0
     name: Triglavian Biocombinative Schematic Cache
     packagedVolume: 1.0E8
     portionSize: 1
@@ -101,6 +104,7 @@ types:
     falloff: 1.0
     hp: 100.0
     id: 49690
+    mass: 100000.0
     name: Triglavian Cladistic Cache
     packagedVolume: 1.0E8
     portionSize: 1
@@ -131,6 +135,7 @@ types:
     falloff: 1.0
     hp: 100.0
     id: 49663
+    mass: 100000.0
     name: Triglavian Extraction Nexus
     packagedVolume: 1.0E8
     portionSize: 1
@@ -160,6 +165,7 @@ types:
     falloff: 1.0
     hp: 100.0
     id: 49662
+    mass: 100000.0
     name: Triglavian Extraction Node
     packagedVolume: 1.0E8
     portionSize: 1
@@ -189,6 +195,7 @@ types:
     falloff: 1.0
     hp: 100.0
     id: 49661
+    mass: 100000.0
     name: Triglavian Extraction SubNode
     packagedVolume: 1.0E8
     portionSize: 1
@@ -216,6 +223,7 @@ types:
     falloff: 1.0
     hp: 100.0
     id: 55799
+    mass: 100000.0
     name: Xordazh Invasion Cache
     packagedVolume: 1.0E8
     portionSize: 1

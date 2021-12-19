@@ -37,6 +37,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 84
+    mass: 1.065E7
     maxlockedtargets: 2
     maxpassengers: 100
     maxtargetrange: 42500.0
@@ -121,6 +122,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 85
+    mass: 1.35E7
     maxlockedtargets: 2
     maxpassengers: 300
     maxtargetrange: 45000.0
@@ -204,6 +206,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 83
+    mass: 1.28E7
     maxlockedtargets: 2
     maxpassengers: 150
     maxtargetrange: 45000.0
@@ -289,6 +292,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 82
+    mass: 1.0625E7
     maxlockedtargets: 2
     maxpassengers: 100
     maxtargetrange: 41250.0
@@ -376,6 +380,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 83
+    mass: 1.35E7
     maxlockedtargets: 2
     maxpassengers: 200
     maxtargetrange: 52500.0
@@ -460,6 +465,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 83
+    mass: 1.2625E7
     maxlockedtargets: 2
     maxpassengers: 100
     maxtargetrange: 41250.0
@@ -546,6 +552,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 82
+    mass: 1.15E7
     maxlockedtargets: 2
     maxpassengers: 150
     maxtargetrange: 45000.0
@@ -631,6 +638,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 83
+    mass: 1.2975E7
     maxlockedtargets: 2
     maxpassengers: 120
     maxtargetrange: 48750.0
@@ -714,6 +722,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1614
+    mass: 1.125E7
     maxlockedtargets: 2
     maxpassengers: 120
     maxtargetrange: 47500.0
@@ -798,6 +807,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1614
+    mass: 1.125E7
     maxlockedtargets: 2
     maxpassengers: 120
     maxtargetrange: 47500.0
@@ -882,6 +892,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1614
+    mass: 1.125E7
     maxlockedtargets: 2
     maxpassengers: 120
     maxtargetrange: 47500.0
@@ -968,6 +979,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 83
+    mass: 1.125E7
     maxlockedtargets: 2
     maxpassengers: 80
     maxtargetrange: 37500.0
@@ -1053,6 +1065,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1390
+    mass: 1.464E7
     maxlockedtargets: 10
     maxpassengers: 100
     maxtargetrange: 75000.0
@@ -1139,6 +1152,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1614
+    mass: 1.5E7
     maxpassengers: 100
     maxtargetrange: 60000.0
     maxvelocity: 200.0
@@ -1217,6 +1231,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 85
+    mass: 1.1E7
     maxlockedtargets: 2
     maxpassengers: 300
     maxtargetrange: 45000.0
@@ -1302,6 +1317,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 84
+    mass: 1.3E7
     maxlockedtargets: 2
     maxpassengers: 130
     maxtargetrange: 45000.0
@@ -1385,6 +1401,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 82
+    mass: 1.0E7
     maxlockedtargets: 2
     maxpassengers: 80
     maxtargetrange: 35000.0

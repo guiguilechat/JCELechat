@@ -769,6 +769,7 @@ types:
     volume: 50.0
   Large Abyssal Armor Plates:
     id: 47820
+    mass: 1.0
     name: Large Abyssal Armor Plates
     packagedVolume: 20.0
     portionSize: 1

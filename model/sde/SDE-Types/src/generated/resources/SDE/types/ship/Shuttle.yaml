@@ -28,6 +28,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 393
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -94,6 +95,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1618
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -164,6 +166,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 396
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -230,6 +233,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1618
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -300,6 +304,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 395
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -366,6 +371,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1631
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -433,6 +439,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1631
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -500,6 +507,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1618
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -566,6 +574,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 1618
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -633,6 +642,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maincolor: 16777215
     marketGroup: 394
+    mass: 1600000.0
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0

@@ -16,6 +16,7 @@ types:
     kineticdamage: 2400.0
     launchergroup: 1328
     marketGroup: 2198
+    mass: 1500.0
     maxvelocity: 2500.0
     name: Standup Heavy Guided Bomb
     packagedVolume: 100.0
@@ -44,6 +45,7 @@ types:
     kineticdamage: 700.0
     launchergroup: 1328
     marketGroup: 2198
+    mass: 1500.0
     maxvelocity: 3000.0
     name: Standup Light Guided Bomb
     packagedVolume: 100.0

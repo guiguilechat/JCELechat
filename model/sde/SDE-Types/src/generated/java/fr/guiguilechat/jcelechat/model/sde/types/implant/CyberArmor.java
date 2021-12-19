@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RepairBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -82,7 +81,7 @@ public class CyberArmor
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RepairBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, HullHpBonus.INSTANCE, DurationSkillBonus.INSTANCE, Implantness.INSTANCE, ArmorHpBonus2 .INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RepairBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, HullHpBonus.INSTANCE, DurationSkillBonus.INSTANCE, Implantness.INSTANCE, ArmorHpBonus2 .INSTANCE, CapNeedBonus.INSTANCE })));
     public static final CyberArmor.MetaGroup METAGROUP = new CyberArmor.MetaGroup();
 
     @Override

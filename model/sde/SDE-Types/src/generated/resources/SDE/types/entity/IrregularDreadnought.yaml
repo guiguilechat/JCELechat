@@ -19,6 +19,7 @@ types:
     hp: 100000.0
     id: 40729
     iscapitalsize: 1
+    mass: 1.27E9
     maxlockedtargets: 7
     maxtargetrange: 115000.0
     maxvelocity: 75.0

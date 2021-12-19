@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28391
     marketGroup: 521
+    mass: 1.0000000409184788E35
     name: Compressed Crokite
     orebasictype: 1225
     packagedVolume: 7.809999942779541
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28392
     marketGroup: 521
+    mass: 1.0000000409184788E35
     name: Compressed Crystalline Crokite
     orebasictype: 1225
     packagedVolume: 7.809999942779541
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 90
     id: 46693
     marketGroup: 521
+    mass: 1.0
     name: Compressed Pellucid Crokite
     orebasictype: 46677
     packagedVolume: 7.809999942779541
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28393
     marketGroup: 521
+    mass: 1.0000000409184788E35
     name: Compressed Sharp Crokite
     orebasictype: 1225
     packagedVolume: 7.809999942779541
@@ -84,6 +88,7 @@ types:
     compressiontypeid: 28391
     id: 1225
     marketGroup: 521
+    mass: 1.0000000409184788E35
     name: Crokite
     orebasictype: 1225
     packagedVolume: 16.0
@@ -105,6 +110,7 @@ types:
     compressiontypeid: 28392
     id: 17433
     marketGroup: 521
+    mass: 1.0000000409184788E35
     name: Crystalline Crokite
     orebasictype: 1225
     packagedVolume: 16.0
@@ -123,6 +129,7 @@ types:
     asteroidradiusunitsize: 90
     id: 28624
     ignoreminingwaste: 1
+    mass: 1.0000000409184788E35
     name: Geodite
     orebasictype: 1225
     packagedVolume: 16.0
@@ -144,6 +151,7 @@ types:
     compressiontypeid: 46693
     id: 46677
     marketGroup: 521
+    mass: 1.0000000409184788E35
     name: Pellucid Crokite
     orebasictype: 46677
     packagedVolume: 16.0
@@ -165,6 +173,7 @@ types:
     compressiontypeid: 28393
     id: 17432
     marketGroup: 521
+    mass: 1.0000000409184788E35
     name: Sharp Crokite
     orebasictype: 1225
     packagedVolume: 16.0

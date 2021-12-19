@@ -56,6 +56,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 2288
+    mass: 1.27E9
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -171,6 +172,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 2288
+    mass: 1.29E9
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -289,6 +291,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 764
+    mass: 1.25E9
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -401,6 +404,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 765
+    mass: 1.26E9
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -514,6 +518,7 @@ types:
     lowslots: 5
     maincolor: 16777215
     marketGroup: 763
+    mass: 1.27E9
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -625,6 +630,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 762
+    mass: 1.29E9
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -737,6 +743,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 2288
+    mass: 1.25E9
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -853,6 +860,7 @@ types:
     lowslots: 8
     maincolor: 16777215
     marketGroup: 2690
+    mass: 1.1E9
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000

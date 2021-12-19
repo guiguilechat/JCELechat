@@ -48,6 +48,7 @@ types:
     hp: 725.0
     id: 21999
     kineticdamage: 6.0
+    mass: 9600000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 12500.0
@@ -130,6 +131,7 @@ types:
     gfxboosterid: 395
     hp: 850.0
     id: 22000
+    mass: 9200000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1440.0
@@ -212,6 +214,7 @@ types:
     gfxboosterid: 395
     hp: 1000.0
     id: 23939
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1440.0
@@ -294,6 +297,7 @@ types:
     hp: 700.0
     id: 21998
     kineticdamage: 6.0
+    mass: 1.07E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 12500.0
@@ -376,6 +380,7 @@ types:
     hp: 1200.0
     id: 26871
     kineticdamage: 12.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 125000.0
@@ -459,6 +464,7 @@ types:
     hp: 1200.0
     id: 13587
     kineticdamage: 12.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 25000.0
@@ -544,6 +550,7 @@ types:
     hp: 1050.0
     id: 13599
     kineticdamage: 10.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 18750.0
@@ -630,6 +637,7 @@ types:
     hp: 725.0
     id: 13577
     kineticdamage: 8.0
+    mass: 9600000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 12500.0
@@ -713,6 +721,7 @@ types:
     hp: 1150.0
     id: 13592
     kineticdamage: 12.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 25000.0
@@ -794,6 +803,7 @@ types:
     gfxboosterid: 395
     hp: 1200.0
     id: 13586
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1440.0
@@ -873,6 +883,7 @@ types:
     gfxboosterid: 395
     hp: 850.0
     id: 13575
+    mass: 9200000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1440.0
@@ -954,6 +965,7 @@ types:
     gfxboosterid: 395
     hp: 1150.0
     id: 13591
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1440.0
@@ -1033,6 +1045,7 @@ types:
     gfxboosterid: 395
     hp: 1000.0
     id: 13596
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1440.0
@@ -1118,6 +1131,7 @@ types:
     hp: 1100.0
     id: 13595
     kineticdamage: 10.0
+    mass: 1.01E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 18750.0
@@ -1204,6 +1218,7 @@ types:
     hp: 700.0
     id: 13600
     kineticdamage: 8.0
+    mass: 1.07E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 12500.0

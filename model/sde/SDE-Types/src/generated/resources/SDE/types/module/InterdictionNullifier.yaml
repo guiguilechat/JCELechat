@@ -16,6 +16,7 @@ types:
     hp: 40.0
     id: 58966
     marketGroup: 2783
+    mass: 5000.0
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 130000
@@ -48,6 +49,7 @@ types:
     hp: 40.0
     id: 58919
     marketGroup: 2783
+    mass: 5000.0
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 100000
@@ -80,6 +82,7 @@ types:
     hp: 40.0
     id: 58972
     marketGroup: 2783
+    mass: 5000.0
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 150000
@@ -112,6 +115,7 @@ types:
     hp: 40.0
     id: 58971
     marketGroup: 2783
+    mass: 5000.0
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 130000

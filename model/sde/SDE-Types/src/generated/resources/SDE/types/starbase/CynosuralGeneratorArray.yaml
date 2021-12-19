@@ -17,6 +17,7 @@ types:
     jumpharmonics: -5
     kineticdamageresonance: 1.0
     marketGroup: 1013
+    mass: 1.0E8
     name: Cynosural Generator Array
     onliningdelay: 300000
     packagedVolume: 4000.0

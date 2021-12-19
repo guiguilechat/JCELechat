@@ -8,6 +8,7 @@ types:
     launchergroup: 1986
     maincolor: 11646664
     marketGroup: 2470
+    mass: 1.0
     metagroupid: 2
     name: Mystic L
     packagedVolume: 0.009999999776482582
@@ -30,6 +31,7 @@ types:
     launchergroup: 1986
     maincolor: 11646664
     marketGroup: 2469
+    mass: 1.0
     metagroupid: 2
     name: Mystic M
     packagedVolume: 0.009999999776482582
@@ -52,6 +54,7 @@ types:
     launchergroup: 1986
     maincolor: 11646664
     marketGroup: 2468
+    mass: 1.0
     metagroupid: 2
     name: Mystic S
     packagedVolume: 0.009999999776482582
@@ -74,6 +77,7 @@ types:
     launchergroup: 1986
     maincolor: 11646664
     marketGroup: 2470
+    mass: 1.0
     metagroupid: 2
     name: Occult L
     packagedVolume: 0.009999999776482582
@@ -96,6 +100,7 @@ types:
     launchergroup: 1986
     maincolor: 11646664
     marketGroup: 2469
+    mass: 1.0
     metagroupid: 2
     name: Occult M
     packagedVolume: 0.009999999776482582
@@ -118,6 +123,7 @@ types:
     launchergroup: 1986
     maincolor: 11646664
     marketGroup: 2468
+    mass: 1.0
     metagroupid: 2
     name: Occult S
     packagedVolume: 0.009999999776482582

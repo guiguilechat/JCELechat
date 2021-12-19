@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IceHarvestCycleBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -74,7 +73,7 @@ public class RigResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Drawback.INSTANCE, MiningAmountBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, AccessDifficultyBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, RigSize.INSTANCE, IceHarvestCycleBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Drawback.INSTANCE, MiningAmountBonus.INSTANCE, Radius.INSTANCE, AccessDifficultyBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, RigSize.INSTANCE, IceHarvestCycleBonus.INSTANCE })));
     public static final RigResourceProcessing.MetaGroup METAGROUP = new RigResourceProcessing.MetaGroup();
 
     @Override

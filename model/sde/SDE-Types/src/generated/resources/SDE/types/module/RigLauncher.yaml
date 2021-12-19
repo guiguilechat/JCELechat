@@ -4,6 +4,7 @@ types:
     hp: 40.0
     id: 31590
     marketGroup: 1733
+    mass: 200.0
     name: Capital Bay Loading Accelerator I
     packagedVolume: 40.0
     portionSize: 1
@@ -20,6 +21,7 @@ types:
     hp: 40.0
     id: 31596
     marketGroup: 1733
+    mass: 200.0
     metalevelold: 5
     name: Capital Bay Loading Accelerator II
     packagedVolume: 40.0
@@ -37,6 +39,7 @@ types:
     hp: 40.0
     id: 31602
     marketGroup: 1733
+    mass: 200.0
     name: Capital Hydraulic Bay Thrusters I
     packagedVolume: 40.0
     portionSize: 1
@@ -53,6 +56,7 @@ types:
     hp: 40.0
     id: 33301
     marketGroup: 1733
+    mass: 200.0
     metalevelold: 5
     name: Capital Hydraulic Bay Thrusters II
     packagedVolume: 40.0
@@ -70,6 +74,7 @@ types:
     hp: 40.0
     id: 31612
     marketGroup: 1733
+    mass: 200.0
     maxflighttimebonus: 15
     name: Capital Rocket Fuel Cache Partition I
     packagedVolume: 40.0
@@ -87,6 +92,7 @@ types:
     hp: 40.0
     id: 31618
     marketGroup: 1733
+    mass: 200.0
     maxflighttimebonus: 20
     metalevelold: 5
     name: Capital Rocket Fuel Cache Partition II
@@ -105,6 +111,7 @@ types:
     hp: 40.0
     id: 31624
     marketGroup: 1733
+    mass: 200.0
     missiledamagemultiplierbonus: 1.100000023841858
     name: Capital Warhead Calefaction Catalyst I
     packagedVolume: 40.0
@@ -122,6 +129,7 @@ types:
     hp: 40.0
     id: 31630
     marketGroup: 1733
+    mass: 200.0
     metalevelold: 5
     missiledamagemultiplierbonus: 1.149999976158142
     name: Capital Warhead Calefaction Catalyst II
@@ -141,6 +149,7 @@ types:
     hp: 40.0
     id: 31636
     marketGroup: 1733
+    mass: 200.0
     name: Capital Warhead Flare Catalyst I
     packagedVolume: 40.0
     portionSize: 1
@@ -158,6 +167,7 @@ types:
     hp: 40.0
     id: 31642
     marketGroup: 1733
+    mass: 200.0
     metalevelold: 5
     name: Capital Warhead Flare Catalyst II
     packagedVolume: 40.0
@@ -176,6 +186,7 @@ types:
     hp: 40.0
     id: 31648
     marketGroup: 1733
+    mass: 200.0
     name: Capital Warhead Rigor Catalyst I
     packagedVolume: 40.0
     portionSize: 1
@@ -193,6 +204,7 @@ types:
     hp: 40.0
     id: 31654
     marketGroup: 1733
+    mass: 200.0
     metalevelold: 5
     name: Capital Warhead Rigor Catalyst II
     packagedVolume: 40.0
@@ -210,6 +222,7 @@ types:
     hp: 40.0
     id: 26026
     marketGroup: 1233
+    mass: 200.0
     name: Large Bay Loading Accelerator I
     packagedVolume: 20.0
     portionSize: 1
@@ -226,6 +239,7 @@ types:
     hp: 40.0
     id: 26406
     marketGroup: 1233
+    mass: 200.0
     metalevelold: 5
     name: Large Bay Loading Accelerator II
     packagedVolume: 20.0
@@ -243,6 +257,7 @@ types:
     hp: 40.0
     id: 26016
     marketGroup: 1233
+    mass: 200.0
     name: Large Hydraulic Bay Thrusters I
     packagedVolume: 20.0
     portionSize: 1
@@ -259,6 +274,7 @@ types:
     hp: 40.0
     id: 26416
     marketGroup: 1233
+    mass: 200.0
     metalevelold: 5
     name: Large Hydraulic Bay Thrusters II
     packagedVolume: 20.0
@@ -276,6 +292,7 @@ types:
     hp: 40.0
     id: 26022
     marketGroup: 1233
+    mass: 200.0
     maxflighttimebonus: 15
     name: Large Rocket Fuel Cache Partition I
     packagedVolume: 20.0
@@ -293,6 +310,7 @@ types:
     hp: 40.0
     id: 26418
     marketGroup: 1233
+    mass: 200.0
     maxflighttimebonus: 20
     metalevelold: 5
     name: Large Rocket Fuel Cache Partition II
@@ -311,6 +329,7 @@ types:
     hp: 40.0
     id: 26030
     marketGroup: 1233
+    mass: 200.0
     missiledamagemultiplierbonus: 1.100000023841858
     name: Large Warhead Calefaction Catalyst I
     packagedVolume: 20.0
@@ -328,6 +347,7 @@ types:
     hp: 40.0
     id: 26420
     marketGroup: 1233
+    mass: 200.0
     metalevelold: 5
     missiledamagemultiplierbonus: 1.149999976158142
     name: Large Warhead Calefaction Catalyst II
@@ -347,6 +367,7 @@ types:
     hp: 40.0
     id: 26028
     marketGroup: 1233
+    mass: 200.0
     name: Large Warhead Flare Catalyst I
     packagedVolume: 20.0
     portionSize: 1
@@ -364,6 +385,7 @@ types:
     hp: 40.0
     id: 26412
     marketGroup: 1233
+    mass: 200.0
     metalevelold: 5
     name: Large Warhead Flare Catalyst II
     packagedVolume: 20.0
@@ -382,6 +404,7 @@ types:
     hp: 40.0
     id: 26020
     marketGroup: 1233
+    mass: 200.0
     name: Large Warhead Rigor Catalyst I
     packagedVolume: 20.0
     portionSize: 1
@@ -399,6 +422,7 @@ types:
     hp: 40.0
     id: 26414
     marketGroup: 1233
+    mass: 200.0
     metalevelold: 5
     name: Large Warhead Rigor Catalyst II
     packagedVolume: 20.0
@@ -416,6 +440,7 @@ types:
     hp: 40.0
     id: 31588
     marketGroup: 1232
+    mass: 200.0
     name: Medium Bay Loading Accelerator I
     packagedVolume: 10.0
     portionSize: 1
@@ -432,6 +457,7 @@ types:
     hp: 40.0
     id: 31594
     marketGroup: 1232
+    mass: 200.0
     metalevelold: 5
     name: Medium Bay Loading Accelerator II
     packagedVolume: 10.0
@@ -449,6 +475,7 @@ types:
     hp: 40.0
     id: 31600
     marketGroup: 1232
+    mass: 200.0
     name: Medium Hydraulic Bay Thrusters I
     packagedVolume: 10.0
     portionSize: 1
@@ -465,6 +492,7 @@ types:
     hp: 40.0
     id: 31606
     marketGroup: 1232
+    mass: 200.0
     metalevelold: 5
     name: Medium Hydraulic Bay Thrusters II
     packagedVolume: 10.0
@@ -482,6 +510,7 @@ types:
     hp: 40.0
     id: 31610
     marketGroup: 1232
+    mass: 200.0
     maxflighttimebonus: 15
     name: Medium Rocket Fuel Cache Partition I
     packagedVolume: 10.0
@@ -499,6 +528,7 @@ types:
     hp: 40.0
     id: 31616
     marketGroup: 1232
+    mass: 200.0
     maxflighttimebonus: 20
     metalevelold: 5
     name: Medium Rocket Fuel Cache Partition II
@@ -517,6 +547,7 @@ types:
     hp: 40.0
     id: 31622
     marketGroup: 1232
+    mass: 200.0
     missiledamagemultiplierbonus: 1.100000023841858
     name: Medium Warhead Calefaction Catalyst I
     packagedVolume: 10.0
@@ -534,6 +565,7 @@ types:
     hp: 40.0
     id: 31628
     marketGroup: 1232
+    mass: 200.0
     metalevelold: 5
     missiledamagemultiplierbonus: 1.149999976158142
     name: Medium Warhead Calefaction Catalyst II
@@ -553,6 +585,7 @@ types:
     hp: 40.0
     id: 31634
     marketGroup: 1232
+    mass: 200.0
     name: Medium Warhead Flare Catalyst I
     packagedVolume: 10.0
     portionSize: 1
@@ -570,6 +603,7 @@ types:
     hp: 40.0
     id: 31640
     marketGroup: 1232
+    mass: 200.0
     metalevelold: 5
     name: Medium Warhead Flare Catalyst II
     packagedVolume: 10.0
@@ -588,6 +622,7 @@ types:
     hp: 40.0
     id: 31646
     marketGroup: 1232
+    mass: 200.0
     name: Medium Warhead Rigor Catalyst I
     packagedVolume: 10.0
     portionSize: 1
@@ -605,6 +640,7 @@ types:
     hp: 40.0
     id: 31652
     marketGroup: 1232
+    mass: 200.0
     metalevelold: 5
     name: Medium Warhead Rigor Catalyst II
     packagedVolume: 10.0
@@ -622,6 +658,7 @@ types:
     hp: 40.0
     id: 31586
     marketGroup: 1231
+    mass: 200.0
     name: Small Bay Loading Accelerator I
     packagedVolume: 5.0
     portionSize: 1
@@ -638,6 +675,7 @@ types:
     hp: 40.0
     id: 31592
     marketGroup: 1231
+    mass: 200.0
     metalevelold: 5
     name: Small Bay Loading Accelerator II
     packagedVolume: 5.0
@@ -655,6 +693,7 @@ types:
     hp: 40.0
     id: 31598
     marketGroup: 1231
+    mass: 200.0
     name: Small Hydraulic Bay Thrusters I
     packagedVolume: 5.0
     portionSize: 1
@@ -671,6 +710,7 @@ types:
     hp: 40.0
     id: 31604
     marketGroup: 1231
+    mass: 200.0
     metalevelold: 5
     name: Small Hydraulic Bay Thrusters II
     packagedVolume: 5.0
@@ -688,6 +728,7 @@ types:
     hp: 40.0
     id: 31608
     marketGroup: 1231
+    mass: 200.0
     maxflighttimebonus: 15
     name: Small Rocket Fuel Cache Partition I
     packagedVolume: 5.0
@@ -705,6 +746,7 @@ types:
     hp: 40.0
     id: 31614
     marketGroup: 1231
+    mass: 200.0
     maxflighttimebonus: 20
     metalevelold: 5
     name: Small Rocket Fuel Cache Partition II
@@ -723,6 +765,7 @@ types:
     hp: 40.0
     id: 31620
     marketGroup: 1231
+    mass: 200.0
     missiledamagemultiplierbonus: 1.100000023841858
     name: Small Warhead Calefaction Catalyst I
     packagedVolume: 5.0
@@ -740,6 +783,7 @@ types:
     hp: 40.0
     id: 31626
     marketGroup: 1231
+    mass: 200.0
     metalevelold: 5
     missiledamagemultiplierbonus: 1.149999976158142
     name: Small Warhead Calefaction Catalyst II
@@ -759,6 +803,7 @@ types:
     hp: 40.0
     id: 31632
     marketGroup: 1231
+    mass: 200.0
     name: Small Warhead Flare Catalyst I
     packagedVolume: 5.0
     portionSize: 1
@@ -776,6 +821,7 @@ types:
     hp: 40.0
     id: 31638
     marketGroup: 1231
+    mass: 200.0
     metalevelold: 5
     name: Small Warhead Flare Catalyst II
     packagedVolume: 5.0
@@ -794,6 +840,7 @@ types:
     hp: 40.0
     id: 31644
     marketGroup: 1231
+    mass: 200.0
     name: Small Warhead Rigor Catalyst I
     packagedVolume: 5.0
     portionSize: 1
@@ -811,6 +858,7 @@ types:
     hp: 40.0
     id: 31650
     marketGroup: 1231
+    mass: 200.0
     metalevelold: 5
     name: Small Warhead Rigor Catalyst II
     packagedVolume: 5.0

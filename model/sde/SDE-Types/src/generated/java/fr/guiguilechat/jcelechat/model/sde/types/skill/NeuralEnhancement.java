@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterChanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxJumpClones;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxJumpClonesBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
@@ -92,7 +91,7 @@ public class NeuralEnhancement
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill2level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, BoosterChanceBonus.INSTANCE, BoosterAttributeModifier.INSTANCE, Capacity.INSTANCE, MaxJumpClonesBonus.INSTANCE, MaxJumpClones.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, BoosterChanceBonus.INSTANCE, BoosterAttributeModifier.INSTANCE, Capacity.INSTANCE, MaxJumpClonesBonus.INSTANCE, MaxJumpClones.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE })));
     public static final NeuralEnhancement.MetaGroup METAGROUP = new NeuralEnhancement.MetaGroup();
 
     @Override

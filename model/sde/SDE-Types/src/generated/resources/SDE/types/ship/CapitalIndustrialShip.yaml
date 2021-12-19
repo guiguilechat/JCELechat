@@ -63,6 +63,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1048
+    mass: 8.0E8
     maxgangmodules: 2
     maxjumpclones: 6
     maxlockedtargets: 7

@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SecurityProcessingFee;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
@@ -32,13 +31,6 @@ public class SecurityTags
     @DefaultRealValue(0.0)
     public double capacity;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -52,7 +44,7 @@ public class SecurityTags
     @Stackable(true)
     @DefaultIntValue(0)
     public int securityprocessingfee;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SecurityProcessingFee.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SecurityProcessingFee.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE })));
     public static final SecurityTags.MetaGroup METAGROUP = new SecurityTags.MetaGroup();
 
     @Override
@@ -61,10 +53,6 @@ public class SecurityTags
             case  38 :
             {
                 return capacity;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  162 :
             {

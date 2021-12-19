@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ContainedSkillPoints;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxCharacterSkillPointLimit;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Accessories;
@@ -40,13 +39,6 @@ public class SkillInjectors
     @DefaultIntValue(0)
     public int containedskillpoints;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * The maximum amount of skill points that the character can have before the item is unusable
      */
     @HighIsGood(true)
@@ -60,7 +52,7 @@ public class SkillInjectors
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, MaxCharacterSkillPointLimit.INSTANCE, ContainedSkillPoints.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, MaxCharacterSkillPointLimit.INSTANCE, ContainedSkillPoints.INSTANCE })));
     public static final SkillInjectors.MetaGroup METAGROUP = new SkillInjectors.MetaGroup();
 
     @Override
@@ -73,10 +65,6 @@ public class SkillInjectors
             case  2461 :
             {
                 return containedskillpoints;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  2459 :
             {

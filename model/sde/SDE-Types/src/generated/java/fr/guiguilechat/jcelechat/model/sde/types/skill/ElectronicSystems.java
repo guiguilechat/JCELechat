@@ -23,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ProjECMDurationBonus;
@@ -149,7 +148,7 @@ public class ElectronicSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int scanskilltargetpaintstrengthbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanSkillTargetPaintStrengthBonus.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, ProjECMDurationBonus.INSTANCE, CloakVelocityBonus.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, MaxTargetBonus.INSTANCE, SkillLevel.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanSkillTargetPaintStrengthBonus.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, ProjECMDurationBonus.INSTANCE, CloakVelocityBonus.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, MaxTargetBonus.INSTANCE, SkillLevel.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE })));
     public static final ElectronicSystems.MetaGroup METAGROUP = new ElectronicSystems.MetaGroup();
 
     @Override

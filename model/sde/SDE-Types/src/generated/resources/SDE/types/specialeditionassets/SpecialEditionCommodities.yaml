@@ -75,6 +75,7 @@ types:
     cpumultiplier: 1.0
     id: 47056
     marketGroup: 1661
+    mass: 10.0
     name: 300 Billion ISK Contract Copy
     packagedVolume: 3.0
     portionSize: 1
@@ -102,6 +103,7 @@ types:
     cpumultiplier: 1.0
     id: 33016
     marketGroup: 1661
+    mass: 50.0
     name: A Handful of Tiny Stars
     packagedVolume: 10.0
     portionSize: 1
@@ -111,6 +113,7 @@ types:
     cpumultiplier: 1.0
     id: 44206
     marketGroup: 1661
+    mass: 10.0
     name: A Letter Of Complaint
     packagedVolume: 3.0
     portionSize: 1
@@ -120,6 +123,7 @@ types:
     cpumultiplier: 1.0
     id: 48749
     marketGroup: 1661
+    mass: 1.0
     name: A Pile of Logs
     packagedVolume: 1.0
     portionSize: 1
@@ -129,6 +133,7 @@ types:
     cpumultiplier: 1.0
     id: 47045
     marketGroup: 1661
+    mass: 10.0
     name: A Stolen Voting Pebble
     packagedVolume: 3.0
     portionSize: 1
@@ -188,6 +193,7 @@ types:
     cpumultiplier: 1.0
     id: 56977
     marketGroup: 1661
+    mass: 10.0
     name: Airlock-Slammer Display
     packagedVolume: 3.0
     portionSize: 1
@@ -197,6 +203,7 @@ types:
     cpumultiplier: 1.0
     id: 34434
     marketGroup: 1661
+    mass: 10.0
     name: Alice Saki's Good Posting Guide
     packagedVolume: 3.0
     portionSize: 1
@@ -206,6 +213,7 @@ types:
     cpumultiplier: 1.0
     id: 47057
     marketGroup: 1661
+    mass: 10.0
     name: Alliance Tournament XV Meta
     packagedVolume: 3.0
     portionSize: 1
@@ -265,6 +273,7 @@ types:
     cpumultiplier: 1.0
     id: 49641
     marketGroup: 1661
+    mass: 1.0
     name: Amarr Religious Mask
     packagedVolume: 1.0
     portionSize: 1
@@ -283,6 +292,7 @@ types:
     cpumultiplier: 1.0
     id: 44216
     marketGroup: 1661
+    mass: 10.0
     name: Armor Plating From TES Seraph
     packagedVolume: 3.0
     portionSize: 1
@@ -301,6 +311,7 @@ types:
     cpumultiplier: 1.0
     id: 47054
     marketGroup: 1661
+    mass: 10.0
     name: Badly Corrupted Holoreel
     packagedVolume: 3.0
     portionSize: 1
@@ -328,6 +339,7 @@ types:
     cpumultiplier: 1.0
     id: 49644
     marketGroup: 1661
+    mass: 1.0
     name: Black Dagger
     packagedVolume: 1.0
     portionSize: 1
@@ -337,6 +349,7 @@ types:
     cpumultiplier: 1.0
     id: 49646
     marketGroup: 1661
+    mass: 1.0
     name: Blood Coated Statuette
     packagedVolume: 1.0
     portionSize: 1
@@ -346,6 +359,7 @@ types:
     cpumultiplier: 1.0
     id: 54162
     marketGroup: 1661
+    mass: 1.0
     name: Bouquet of Flowers
     packagedVolume: 1.0
     portionSize: 1
@@ -355,6 +369,7 @@ types:
     cpumultiplier: 1.0
     id: 54161
     marketGroup: 1661
+    mass: 1.0
     name: Box of Chocolates
     packagedVolume: 1.0
     portionSize: 1
@@ -364,6 +379,7 @@ types:
     cpumultiplier: 1.0
     id: 54968
     marketGroup: 1661
+    mass: 1.0
     name: Broken Skill Canister
     packagedVolume: 1.0
     portionSize: 1
@@ -382,6 +398,7 @@ types:
     cpumultiplier: 1.0
     id: 47055
     marketGroup: 1661
+    mass: 10.0
     name: CONCORD GalNet Monitoring Archive
     packagedVolume: 3.0
     portionSize: 1
@@ -391,6 +408,7 @@ types:
     cpumultiplier: 1.0
     id: 44214
     marketGroup: 1661
+    mass: 10.0
     name: CONCORD Speeding Ticket
     packagedVolume: 3.0
     portionSize: 1
@@ -400,6 +418,7 @@ types:
     cpumultiplier: 1.0
     id: 48754
     marketGroup: 1661
+    mass: 1.0
     name: CONCORD Universal Translator
     packagedVolume: 1.0
     portionSize: 1
@@ -547,6 +566,7 @@ types:
     cpumultiplier: 1.0
     id: 49708
     marketGroup: 1661
+    mass: 0.10000000149011612
     name: Calm Abyssal Filaments Crate
     packagedVolume: 1.0
     portionSize: 1
@@ -675,6 +695,7 @@ types:
     cpumultiplier: 1.0
     id: 34421
     marketGroup: 1661
+    mass: 10.0
     name: Chribba's Modified Strip Miner
     packagedVolume: 3.0
     portionSize: 1
@@ -693,6 +714,7 @@ types:
     cpumultiplier: 1.0
     id: 49653
     marketGroup: 1661
+    mass: 1.0
     name: Colonize! Board Game
     packagedVolume: 1.0
     portionSize: 1
@@ -720,6 +742,7 @@ types:
     cpumultiplier: 1.0
     id: 34420
     marketGroup: 1661
+    mass: 10.0
     name: Cooking With Veldspar
     packagedVolume: 3.0
     portionSize: 1
@@ -738,6 +761,7 @@ types:
     cpumultiplier: 1.0
     id: 48135
     marketGroup: 1661
+    mass: 1.0
     name: Copy of the Gallente Federation Constitution
     packagedVolume: 1.0
     portionSize: 1
@@ -773,6 +797,7 @@ types:
     cpumultiplier: 1.0
     id: 48755
     marketGroup: 1661
+    mass: 1.0
     name: Crunch Fuel
     packagedVolume: 1.0
     portionSize: 1
@@ -782,6 +807,7 @@ types:
     cpumultiplier: 1.0
     id: 47053
     marketGroup: 1661
+    mass: 10.0
     name: Damaged Ancient PEG
     packagedVolume: 3.0
     portionSize: 1
@@ -791,6 +817,7 @@ types:
     cpumultiplier: 1.0
     id: 56981
     marketGroup: 1661
+    mass: 10.0
     name: Data-Sniffer Display
     packagedVolume: 3.0
     portionSize: 1
@@ -827,6 +854,7 @@ types:
     cpumultiplier: 1.0
     id: 33017
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Deactivated Station Key Pass
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -836,6 +864,7 @@ types:
     cpumultiplier: 1.0
     id: 49619
     marketGroup: 1661
+    mass: 5.0
     name: Deathglow Residue
     packagedVolume: 0.20000000298023224
     portionSize: 1
@@ -845,6 +874,7 @@ types:
     cpumultiplier: 1.0
     id: 49620
     marketGroup: 1661
+    mass: 1.0
     name: Decayed Deathglow
     packagedVolume: 1.0
     portionSize: 1
@@ -854,6 +884,7 @@ types:
     cpumultiplier: 1.0
     id: 48758
     marketGroup: 1661
+    mass: 1.0
     name: Decommissioned ERIC Prototype
     packagedVolume: 1.0
     portionSize: 1
@@ -863,6 +894,7 @@ types:
     cpumultiplier: 1.0
     id: 48760
     marketGroup: 1661
+    mass: 1.0
     name: Defunct Name Change Token
     packagedVolume: 1.0
     portionSize: 1
@@ -872,6 +904,7 @@ types:
     cpumultiplier: 1.0
     id: 47043
     marketGroup: 1661
+    mass: 10.0
     name: Delve Yoiul Calendar
     packagedVolume: 3.0
     portionSize: 1
@@ -881,6 +914,7 @@ types:
     cpumultiplier: 1.0
     id: 54160
     marketGroup: 1661
+    mass: 1.0
     name: Diamond Ring
     packagedVolume: 1.0
     portionSize: 1
@@ -890,6 +924,7 @@ types:
     cpumultiplier: 1.0
     id: 48587
     marketGroup: 1661
+    mass: 1.0
     name: Dice of Jade
     packagedVolume: 1.0
     portionSize: 1
@@ -926,6 +961,7 @@ types:
     cpumultiplier: 1.0
     id: 48756
     marketGroup: 1661
+    mass: 1.0
     name: Dried Moss
     packagedVolume: 1.0
     portionSize: 1
@@ -935,6 +971,7 @@ types:
     cpumultiplier: 1.0
     id: 52274
     marketGroup: 1661
+    mass: 1.0
     name: Drone Regions YC109
     packagedVolume: 1.0
     portionSize: 1
@@ -944,6 +981,7 @@ types:
     cpumultiplier: 1.0
     id: 48757
     marketGroup: 1661
+    mass: 1.0
     name: Dropsuit Fragment
     packagedVolume: 1.0
     portionSize: 1
@@ -953,6 +991,7 @@ types:
     cpumultiplier: 1.0
     id: 56978
     marketGroup: 1661
+    mass: 10.0
     name: Ectoplasm-Skimmer Display
     packagedVolume: 3.0
     portionSize: 1
@@ -1007,6 +1046,7 @@ types:
     cpumultiplier: 1.0
     id: 52277
     marketGroup: 1661
+    mass: 1.0
     name: Fall of Fort Knocks YC120
     packagedVolume: 1.0
     portionSize: 1
@@ -1270,6 +1310,7 @@ types:
     cpumultiplier: 1.0
     id: 49709
     marketGroup: 1661
+    mass: 0.10000000149011612
     name: Fierce Abyssal Filaments Crate
     packagedVolume: 1.0
     portionSize: 1
@@ -1302,6 +1343,7 @@ types:
     cpumultiplier: 1.0
     id: 44208
     marketGroup: 1661
+    mass: 10.0
     name: Forged Frigate Blueprints
     packagedVolume: 3.0
     portionSize: 1
@@ -1327,6 +1369,7 @@ types:
     cpumultiplier: 1.0
     id: 56982
     marketGroup: 1661
+    mass: 10.0
     name: Freezer-Thief Display
     packagedVolume: 3.0
     portionSize: 1
@@ -1378,6 +1421,7 @@ types:
     cpumultiplier: 1.0
     id: 47048
     marketGroup: 1661
+    mass: 10.0
     name: Frozen Droplet of Blood
     packagedVolume: 3.0
     portionSize: 1
@@ -1387,6 +1431,7 @@ types:
     cpumultiplier: 1.0
     id: 56972
     marketGroup: 1661
+    mass: 10.0
     name: Fuel-Stealer Display
     packagedVolume: 3.0
     portionSize: 1
@@ -1439,6 +1484,7 @@ types:
     cpumultiplier: 1.0
     id: 54163
     marketGroup: 1661
+    mass: 1.0
     name: Gamealfur Ale
     packagedVolume: 1.0
     portionSize: 1
@@ -1466,6 +1512,7 @@ types:
     cpumultiplier: 1.0
     id: 49802
     marketGroup: 1661
+    mass: 0.10000000149011612
     name: Gnosis & Punisher SKIN Crate
     packagedVolume: 4.0
     portionSize: 1
@@ -1484,6 +1531,7 @@ types:
     cpumultiplier: 1.0
     id: 49647
     marketGroup: 1661
+    mass: 1.0
     name: Golden Sabik Vial
     packagedVolume: 1.0
     portionSize: 1
@@ -1538,6 +1586,7 @@ types:
     cpumultiplier: 1.0
     id: 34431
     marketGroup: 1661
+    mass: 10.0
     name: Guillome Renard's Sleeper Loot Stash
     packagedVolume: 3.0
     portionSize: 1
@@ -1547,6 +1596,7 @@ types:
     cpumultiplier: 1.0
     id: 49707
     marketGroup: 1661
+    mass: 1.0
     name: Hair Accessory Shipment (Damaged)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1628,6 +1678,7 @@ types:
     cpumultiplier: 1.0
     id: 47058
     marketGroup: 1661
+    mass: 10.0
     name: How to Retire Your Starbase
     packagedVolume: 3.0
     portionSize: 1
@@ -1637,6 +1688,7 @@ types:
     cpumultiplier: 1.0
     id: 33575
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Hull Tanking, Elite
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1661,6 +1713,7 @@ types:
     cpumultiplier: 1.0
     id: 48138
     marketGroup: 1661
+    mass: 1.0
     name: Impetus Trading Cards
     packagedVolume: 1.0
     portionSize: 1
@@ -1670,6 +1723,7 @@ types:
     cpumultiplier: 1.0
     id: 48140
     marketGroup: 1661
+    mass: 1.0
     name: Intaki Cycle of Ida Bracelet
     packagedVolume: 1.0
     portionSize: 1
@@ -1679,6 +1733,7 @@ types:
     cpumultiplier: 1.0
     id: 48143
     marketGroup: 1661
+    mass: 1.0
     name: Intaki Spiced Tea
     packagedVolume: 1.0
     portionSize: 1
@@ -1688,6 +1743,7 @@ types:
     cpumultiplier: 1.0
     id: 48752
     marketGroup: 1661
+    mass: 1.0
     name: Internal Policies
     packagedVolume: 1.0
     portionSize: 1
@@ -1697,6 +1753,7 @@ types:
     cpumultiplier: 1.0
     id: 44205
     marketGroup: 1661
+    mass: 10.0
     name: Jezaja's Giant Secure Container
     packagedVolume: 3.0
     portionSize: 1
@@ -1706,6 +1763,7 @@ types:
     cpumultiplier: 1.0
     id: 48142
     marketGroup: 1661
+    mass: 1.0
     name: Jin-Mei Silk Cord
     packagedVolume: 1.0
     portionSize: 1
@@ -1715,6 +1773,7 @@ types:
     cpumultiplier: 1.0
     id: 52275
     marketGroup: 1661
+    mass: 1.0
     name: Jita Protest YC113
     packagedVolume: 1.0
     portionSize: 1
@@ -1724,6 +1783,7 @@ types:
     cpumultiplier: 1.0
     id: 34419
     marketGroup: 1661
+    mass: 10.0
     name: Jump Fatigue Recovery Agent
     packagedVolume: 3.0
     portionSize: 1
@@ -1733,6 +1793,7 @@ types:
     cpumultiplier: 1.0
     id: 34428
     marketGroup: 1661
+    mass: 10.0
     name: Jump Portal Generation Instruction Holoreel
     packagedVolume: 3.0
     portionSize: 1
@@ -1742,6 +1803,7 @@ types:
     cpumultiplier: 1.0
     id: 44215
     marketGroup: 1661
+    mass: 10.0
     name: Kaalakiota Peaks Vodka
     packagedVolume: 3.0
     portionSize: 1
@@ -1751,6 +1813,7 @@ types:
     cpumultiplier: 1.0
     id: 48590
     marketGroup: 1661
+    mass: 1.0
     name: Kapli Bread
     packagedVolume: 1.0
     portionSize: 1
@@ -1760,6 +1823,7 @@ types:
     cpumultiplier: 1.0
     id: 44207
     marketGroup: 1661
+    mass: 10.0
     name: Kor-Azor Family Decree
     packagedVolume: 3.0
     portionSize: 1
@@ -1769,6 +1833,7 @@ types:
     cpumultiplier: 1.0
     id: 48591
     marketGroup: 1661
+    mass: 1.0
     name: Kri'tak Knife
     packagedVolume: 1.0
     portionSize: 1
@@ -1778,6 +1843,7 @@ types:
     cpumultiplier: 1.0
     id: 48588
     marketGroup: 1661
+    mass: 1.0
     name: Krusual Etched Sticks
     packagedVolume: 1.0
     portionSize: 1
@@ -1787,6 +1853,7 @@ types:
     cpumultiplier: 1.0
     id: 49748
     marketGroup: 1661
+    mass: 0.10000000149011612
     name: Large Faction Ammunition Crate
     packagedVolume: 4.0
     portionSize: 1
@@ -1796,6 +1863,7 @@ types:
     cpumultiplier: 1.0
     id: 49649
     marketGroup: 1661
+    mass: 1.0
     name: Lifeblood (Collector's Edition)
     packagedVolume: 1.0
     portionSize: 1
@@ -1823,6 +1891,7 @@ types:
     cpumultiplier: 1.0
     id: 56971
     marketGroup: 1661
+    mass: 10.0
     name: Livestock-Liberator Display
     packagedVolume: 3.0
     portionSize: 1
@@ -1832,6 +1901,7 @@ types:
     cpumultiplier: 1.0
     id: 48950
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Log Fragment 1 (Gala YC121)
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1841,6 +1911,7 @@ types:
     cpumultiplier: 1.0
     id: 48951
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Log Fragment 2 (Gala YC121)
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1850,6 +1921,7 @@ types:
     cpumultiplier: 1.0
     id: 48952
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Log Fragment 3 (Gala YC121)
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1859,6 +1931,7 @@ types:
     cpumultiplier: 1.0
     id: 48953
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Log Fragment 4 (Gala YC121)
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1868,6 +1941,7 @@ types:
     cpumultiplier: 1.0
     id: 48954
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Log Fragment 5 (Gala YC121)
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1877,6 +1951,7 @@ types:
     cpumultiplier: 1.0
     id: 50040
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Log Fragment 6 (Gala YC121)
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1886,6 +1961,7 @@ types:
     cpumultiplier: 1.0
     id: 50041
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Log Fragment 7 (Gala YC121)
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1895,6 +1971,7 @@ types:
     cpumultiplier: 1.0
     id: 50042
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Log Fragment 8 (Gala YC121)
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1913,6 +1990,7 @@ types:
     cpumultiplier: 1.0
     id: 47047
     marketGroup: 1661
+    mass: 10.0
     name: Lump of Carbon
     packagedVolume: 3.0
     portionSize: 1
@@ -1931,6 +2009,7 @@ types:
     cpumultiplier: 1.0
     id: 28840
     marketGroup: 1661
+    mass: 1.0
     name: Magic Crystal Ball
     packagedVolume: 1.0
     portionSize: 1
@@ -1940,6 +2019,7 @@ types:
     cpumultiplier: 1.0
     id: 48139
     marketGroup: 1661
+    mass: 1.0
     name: Mannar Hair Gel
     packagedVolume: 1.0
     portionSize: 1
@@ -1949,6 +2029,7 @@ types:
     cpumultiplier: 1.0
     id: 34417
     marketGroup: 1661
+    mass: 10.0
     name: Manufacturing Union's Placard
     packagedVolume: 3.0
     portionSize: 1
@@ -1958,6 +2039,7 @@ types:
     cpumultiplier: 1.0
     id: 48589
     marketGroup: 1661
+    mass: 1.0
     name: Matari Word Calendar
     packagedVolume: 1.0
     portionSize: 1
@@ -2002,6 +2084,7 @@ types:
     cpumultiplier: 1.0
     id: 49803
     marketGroup: 1661
+    mass: 0.10000000149011612
     name: Men's & Women's Frostline Exploration Suit
     packagedVolume: 4.0
     portionSize: 1
@@ -2054,6 +2137,7 @@ types:
     cpumultiplier: 1.0
     id: 34430
     marketGroup: 1661
+    mass: 10.0
     name: My God, It's Full Of Holes!
     packagedVolume: 3.0
     portionSize: 1
@@ -2146,6 +2230,7 @@ types:
     cpumultiplier: 1.0
     id: 48759
     marketGroup: 1661
+    mass: 1.0
     name: Offensive Content Reports, Jan. YC120, vol. I
     packagedVolume: 1.0
     portionSize: 1
@@ -2155,6 +2240,7 @@ types:
     cpumultiplier: 1.0
     id: 54166
     marketGroup: 1661
+    mass: 1.0
     name: POS Fuel
     packagedVolume: 1.0
     portionSize: 1
@@ -2164,6 +2250,7 @@ types:
     cpumultiplier: 1.0
     id: 52783
     marketGroup: 1661
+    mass: 1.0
     name: Pax e Kilizhi Do
     packagedVolume: 1.0
     portionSize: 1
@@ -2199,6 +2286,7 @@ types:
     cpumultiplier: 1.0
     id: 34427
     marketGroup: 1661
+    mass: 10.0
     name: Polaris Eviction Notice
     packagedVolume: 3.0
     portionSize: 1
@@ -2217,6 +2305,7 @@ types:
     cpumultiplier: 1.0
     id: 56983
     marketGroup: 1661
+    mass: 10.0
     name: Power-Drainer Display
     packagedVolume: 3.0
     portionSize: 1
@@ -2226,6 +2315,7 @@ types:
     cpumultiplier: 1.0
     id: 34423
     marketGroup: 1661
+    mass: 10.0
     name: Pre-Completed CSM 10 Ballot Paper
     packagedVolume: 3.0
     portionSize: 1
@@ -2289,6 +2379,7 @@ types:
     cpumultiplier: 1.0
     id: 49651
     marketGroup: 1661
+    mass: 1.0
     name: Purgative Coffin
     packagedVolume: 1.0
     portionSize: 1
@@ -2306,6 +2397,7 @@ types:
     cpumultiplier: 1.0
     id: 48748
     marketGroup: 1661
+    mass: 1.0
     name: 'Query: Spaghetti or Chicken Sandwich?'
     packagedVolume: 1.0
     portionSize: 1
@@ -2315,6 +2407,7 @@ types:
     cpumultiplier: 1.0
     id: 48141
     marketGroup: 1661
+    mass: 1.0
     name: Raata Wind Chimes
     packagedVolume: 1.0
     portionSize: 1
@@ -2324,6 +2417,7 @@ types:
     cpumultiplier: 1.0
     id: 56973
     marketGroup: 1661
+    mass: 10.0
     name: Radiation-Rogue Display
     packagedVolume: 3.0
     portionSize: 1
@@ -2341,6 +2435,7 @@ types:
     cpumultiplier: 1.0
     id: 56979
     marketGroup: 1661
+    mass: 10.0
     name: Ration-Grabber Display
     packagedVolume: 3.0
     portionSize: 1
@@ -2350,6 +2445,7 @@ types:
     cpumultiplier: 1.0
     id: 56975
     marketGroup: 1661
+    mass: 10.0
     name: Recycler-Raider Display
     packagedVolume: 3.0
     portionSize: 1
@@ -2359,6 +2455,7 @@ types:
     cpumultiplier: 1.0
     id: 44211
     marketGroup: 1661
+    mass: 10.0
     name: Rejected Ship Replacement Program Request
     packagedVolume: 3.0
     portionSize: 1
@@ -2368,6 +2465,7 @@ types:
     cpumultiplier: 1.0
     id: 47044
     marketGroup: 1661
+    mass: 10.0
     name: Remember Myrskaa Flyers
     packagedVolume: 3.0
     portionSize: 1
@@ -2395,6 +2493,7 @@ types:
     cpumultiplier: 1.0
     id: 48137
     marketGroup: 1661
+    mass: 1.0
     name: Replica Miss Federation Trophy
     packagedVolume: 1.0
     portionSize: 1
@@ -2404,6 +2503,7 @@ types:
     cpumultiplier: 1.0
     id: 48136
     marketGroup: 1661
+    mass: 1.0
     name: Replica Mister Federation Trophy
     packagedVolume: 1.0
     portionSize: 1
@@ -2413,6 +2513,7 @@ types:
     cpumultiplier: 1.0
     id: 48144
     marketGroup: 1661
+    mass: 1.0
     name: Replica of the ISCSS Venture
     packagedVolume: 1.0
     portionSize: 1
@@ -2516,6 +2617,7 @@ types:
     cpumultiplier: 1.0
     id: 48750
     marketGroup: 1661
+    mass: 1.0
     name: Retired Server Hamster
     packagedVolume: 1.0
     portionSize: 1
@@ -2525,6 +2627,7 @@ types:
     cpumultiplier: 1.0
     id: 34422
     marketGroup: 1661
+    mass: 10.0
     name: Rooks & Kings - The Clarion Call Compilation
     packagedVolume: 3.0
     portionSize: 1
@@ -2534,6 +2637,7 @@ types:
     cpumultiplier: 1.0
     id: 47042
     marketGroup: 1661
+    mass: 10.0
     name: Rorqual Design Change Log
     packagedVolume: 3.0
     portionSize: 1
@@ -2552,6 +2656,7 @@ types:
     cpumultiplier: 1.0
     id: 34425
     marketGroup: 1661
+    mass: 10.0
     name: SCC Guidelines - Lotteries For Dummies
     packagedVolume: 3.0
     portionSize: 1
@@ -2561,6 +2666,7 @@ types:
     cpumultiplier: 1.0
     id: 49650
     marketGroup: 1661
+    mass: 1.0
     name: Sani Sabik Murder Security Tapes
     packagedVolume: 1.0
     portionSize: 1
@@ -2570,6 +2676,7 @@ types:
     cpumultiplier: 1.0
     id: 49648
     marketGroup: 1661
+    mass: 1.0
     name: Sani Sabik Sermon
     packagedVolume: 1.0
     portionSize: 1
@@ -2588,6 +2695,7 @@ types:
     cpumultiplier: 1.0
     id: 54164
     marketGroup: 1661
+    mass: 1.0
     name: Sarpati Reserve Brandy
     packagedVolume: 1.0
     portionSize: 1
@@ -2597,6 +2705,7 @@ types:
     cpumultiplier: 1.0
     id: 44210
     marketGroup: 1661
+    mass: 10.0
     name: Scale Model Of [RFS] Mah'tu Rea
     packagedVolume: 3.0
     portionSize: 1
@@ -2606,6 +2715,7 @@ types:
     cpumultiplier: 1.0
     id: 56980
     marketGroup: 1661
+    mass: 10.0
     name: Scanner-Jacker Display
     packagedVolume: 3.0
     portionSize: 1
@@ -2615,6 +2725,7 @@ types:
     cpumultiplier: 1.0
     id: 33019
     marketGroup: 1661
+    mass: 90.0
     name: Scotty the Docking Manager's Clone
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -2633,6 +2744,7 @@ types:
     cpumultiplier: 1.0
     id: 33018
     marketGroup: 1661
+    mass: 0.009999999776482582
     name: Ship Fitting Guide
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -2669,6 +2781,7 @@ types:
     cpumultiplier: 1.0
     id: 34432
     marketGroup: 1661
+    mass: 10.0
     name: Sisters Of EVE Charity Statue
     packagedVolume: 3.0
     portionSize: 1
@@ -2678,6 +2791,7 @@ types:
     cpumultiplier: 1.0
     id: 48593
     marketGroup: 1661
+    mass: 1.0
     name: Slaver Tooth Necklace
     packagedVolume: 1.0
     portionSize: 1
@@ -2687,6 +2801,7 @@ types:
     cpumultiplier: 1.0
     id: 49746
     marketGroup: 1661
+    mass: 1.0
     name: Small Navy Ammunition Crate
     packagedVolume: 2.0
     portionSize: 1
@@ -2705,6 +2820,7 @@ types:
     cpumultiplier: 1.0
     id: 34426
     marketGroup: 1661
+    mass: 10.0
     name: Sort Dragon's Guide To Diplomacy
     packagedVolume: 3.0
     portionSize: 1
@@ -2714,6 +2830,7 @@ types:
     cpumultiplier: 1.0
     id: 34435
     marketGroup: 1661
+    mass: 10.0
     name: Soxfour's Spaceboots
     packagedVolume: 3.0
     portionSize: 1
@@ -2723,6 +2840,7 @@ types:
     cpumultiplier: 1.0
     id: 54165
     marketGroup: 1661
+    mass: 1.0
     name: Spiked Quafe
     packagedVolume: 1.0
     portionSize: 1
@@ -2732,6 +2850,7 @@ types:
     cpumultiplier: 1.0
     id: 49634
     marketGroup: 1661
+    mass: 1.0
     name: St. Tetrimon's Finger
     packagedVolume: 1.0
     portionSize: 1
@@ -2794,6 +2913,7 @@ types:
     cpumultiplier: 1.0
     id: 48584
     marketGroup: 1661
+    mass: 1.0
     name: TLF Recruitment Poster
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -2803,6 +2923,7 @@ types:
     cpumultiplier: 1.0
     id: 49645
     marketGroup: 1661
+    mass: 1.0
     name: Tarot of St. Jamyl
     packagedVolume: 1.0
     portionSize: 1
@@ -2812,6 +2933,7 @@ types:
     cpumultiplier: 1.0
     id: 53846
     marketGroup: 1661
+    mass: 1.0
     name: Templis Dragonaurs Log 1220107-VC47
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -2821,6 +2943,7 @@ types:
     cpumultiplier: 1.0
     id: 48592
     marketGroup: 1661
+    mass: 1.0
     name: Ten Most Wanted Slavers
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -2830,6 +2953,7 @@ types:
     cpumultiplier: 1.0
     id: 44213
     marketGroup: 1661
+    mass: 10.0
     name: The Champion Ship
     packagedVolume: 3.0
     portionSize: 1
@@ -2839,6 +2963,7 @@ types:
     cpumultiplier: 1.0
     id: 34433
     marketGroup: 1661
+    mass: 10.0
     name: The Damsel's Drunk Bodyguard
     packagedVolume: 3.0
     portionSize: 1
@@ -2848,6 +2973,7 @@ types:
     cpumultiplier: 1.0
     id: 34436
     marketGroup: 1661
+    mass: 10.0
     name: The Friend Ship
     packagedVolume: 3.0
     portionSize: 1
@@ -2857,6 +2983,7 @@ types:
     cpumultiplier: 1.0
     id: 34418
     marketGroup: 1661
+    mass: 10.0
     name: The Galactic Party Planning Guide
     packagedVolume: 3.0
     portionSize: 1
@@ -2866,6 +2993,7 @@ types:
     cpumultiplier: 1.0
     id: 33015
     marketGroup: 1661
+    mass: 50000.0
     name: The Mini Monolith
     packagedVolume: 500.0
     portionSize: 1
@@ -2875,6 +3003,7 @@ types:
     cpumultiplier: 1.0
     id: 48753
     marketGroup: 1661
+    mass: 1.0
     name: The Policy Enforcer
     packagedVolume: 1.0
     portionSize: 1
@@ -2884,6 +3013,7 @@ types:
     cpumultiplier: 1.0
     id: 52273
     marketGroup: 1661
+    mass: 1.0
     name: The Yulai Siege YC106
     packagedVolume: 1.0
     portionSize: 1
@@ -2902,6 +3032,7 @@ types:
     cpumultiplier: 1.0
     id: 34424
     marketGroup: 1661
+    mass: 10.0
     name: Titanium Plated Cranial Shielding
     packagedVolume: 3.0
     portionSize: 1
@@ -2911,6 +3042,7 @@ types:
     cpumultiplier: 1.0
     id: 52276
     marketGroup: 1661
+    mass: 1.0
     name: Titanomachy YC116
     packagedVolume: 1.0
     portionSize: 1
@@ -2920,6 +3052,7 @@ types:
     cpumultiplier: 1.0
     id: 47059
     marketGroup: 1661
+    mass: 10.0
     name: To Kill the Risen Dead
     packagedVolume: 3.0
     portionSize: 1
@@ -2929,6 +3062,7 @@ types:
     cpumultiplier: 1.0
     id: 56974
     marketGroup: 1661
+    mass: 10.0
     name: Tool-Swiper Display
     packagedVolume: 3.0
     portionSize: 1
@@ -2938,6 +3072,7 @@ types:
     cpumultiplier: 1.0
     id: 49621
     marketGroup: 1661
+    mass: 1.0
     name: Top Grade Deathglow
     packagedVolume: 1.0
     portionSize: 1
@@ -2947,6 +3082,7 @@ types:
     cpumultiplier: 1.0
     id: 56365
     marketGroup: 1661
+    mass: 0.10000000149011612
     name: Tranquil Abyssal Filaments Crate
     packagedVolume: 1.0
     portionSize: 1
@@ -2974,6 +3110,7 @@ types:
     cpumultiplier: 1.0
     id: 44212
     marketGroup: 1661
+    mass: 10.0
     name: Upwell Consortium Propaganda Reel
     packagedVolume: 3.0
     portionSize: 1
@@ -2983,6 +3120,7 @@ types:
     cpumultiplier: 1.0
     id: 48585
     marketGroup: 1661
+    mass: 1.0
     name: Vherokior Medicinal Herbs
     packagedVolume: 1.0
     portionSize: 1
@@ -2992,6 +3130,7 @@ types:
     cpumultiplier: 1.0
     id: 47046
     marketGroup: 1661
+    mass: 10.0
     name: Vial of Kyonoke Plague Cure
     packagedVolume: 3.0
     portionSize: 1
@@ -3001,6 +3140,7 @@ types:
     cpumultiplier: 1.0
     id: 48586
     marketGroup: 1661
+    mass: 1.0
     name: Vial of Mikramurka
     packagedVolume: 1.0
     portionSize: 1
@@ -3010,6 +3150,7 @@ types:
     cpumultiplier: 1.0
     id: 53851
     marketGroup: 1661
+    mass: 1.0
     name: Vimoksha Chorus Log 1220108-TD53
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -3019,6 +3160,7 @@ types:
     cpumultiplier: 1.0
     id: 34429
     marketGroup: 1661
+    mass: 10.0
     name: Vincent Pryce's Warp Disruption Field Generator
     packagedVolume: 3.0
     portionSize: 1
@@ -3037,6 +3179,7 @@ types:
     cpumultiplier: 1.0
     id: 49652
     marketGroup: 1661
+    mass: 1.0
     name: Vintage Wine?
     packagedVolume: 1.0
     portionSize: 1
@@ -3055,6 +3198,7 @@ types:
     cpumultiplier: 1.0
     id: 56976
     marketGroup: 1661
+    mass: 10.0
     name: Water-Sucker Display
     packagedVolume: 3.0
     portionSize: 1
@@ -3064,6 +3208,7 @@ types:
     cpumultiplier: 1.0
     id: 48751
     marketGroup: 1661
+    mass: 1.0
     name: Well-Worn Fedora
     packagedVolume: 1.0
     portionSize: 1
@@ -3181,6 +3326,7 @@ types:
     cpumultiplier: 1.0
     id: 47060
     marketGroup: 1661
+    mass: 10.0
     name: Yoiul Festival YC120 Coin (Amarr)
     packagedVolume: 3.0
     portionSize: 1
@@ -3190,6 +3336,7 @@ types:
     cpumultiplier: 1.0
     id: 47063
     marketGroup: 1661
+    mass: 10.0
     name: Yoiul Festival YC120 Coin (Caldari)
     packagedVolume: 3.0
     portionSize: 1
@@ -3199,6 +3346,7 @@ types:
     cpumultiplier: 1.0
     id: 47064
     marketGroup: 1661
+    mass: 10.0
     name: Yoiul Festival YC120 Coin (Gallente)
     packagedVolume: 3.0
     portionSize: 1
@@ -3208,6 +3356,7 @@ types:
     cpumultiplier: 1.0
     id: 47062
     marketGroup: 1661
+    mass: 10.0
     name: Yoiul Festival YC120 Coin (Minmatar)
     packagedVolume: 3.0
     portionSize: 1
@@ -3241,6 +3390,7 @@ types:
     cpumultiplier: 1.0
     id: 44209
     marketGroup: 1661
+    mass: 10.0
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     packagedVolume: 3.0
     portionSize: 1

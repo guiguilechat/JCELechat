@@ -11,6 +11,7 @@ types:
     hp: 10000.0
     id: 25270
     marketGroup: 483
+    mass: 1.0E8
     name: Biochemical Silo
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -43,6 +44,7 @@ types:
     hp: 10000.0
     id: 25271
     marketGroup: 483
+    mass: 1.0E8
     name: Catalyst Silo
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -74,6 +76,7 @@ types:
     hp: 10000.0
     id: 17982
     marketGroup: 483
+    mass: 1.0E8
     name: Coupling Array
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -107,6 +110,7 @@ types:
     hp: 10000.0
     id: 25821
     marketGroup: 483
+    mass: 1.0E8
     name: General Storage
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -139,6 +143,7 @@ types:
     hp: 10000.0
     id: 25280
     marketGroup: 483
+    mass: 1.0E8
     name: Hazardous Chemical Silo
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -171,6 +176,7 @@ types:
     hp: 10000.0
     id: 30655
     marketGroup: 483
+    mass: 1.0E8
     name: Hybrid Polymer Silo
     onliningdelay: 3000
     packagedVolume: 4000.0
@@ -202,6 +208,7 @@ types:
     hp: 10000.0
     id: 14343
     marketGroup: 483
+    mass: 1.0E8
     name: Silo
     onliningdelay: 3000
     packagedVolume: 4000.0

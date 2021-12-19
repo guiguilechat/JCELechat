@@ -6,6 +6,7 @@ types:
     asteroidradiusunitsize: 600
     id: 45501
     marketGroup: 2398
+    mass: 4000.0
     name: Chromite
     orebasictype: 45501
     packagedVolume: 10.0
@@ -25,6 +26,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46302
     marketGroup: 2398
+    mass: 4000.0
     name: Lavish Chromite
     orebasictype: 45501
     packagedVolume: 10.0
@@ -44,6 +46,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46296
     marketGroup: 2398
+    mass: 4000.0
     name: Lavish Otavite
     orebasictype: 45498
     packagedVolume: 10.0
@@ -63,6 +66,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46298
     marketGroup: 2398
+    mass: 4000.0
     name: Lavish Sperrylite
     orebasictype: 45499
     packagedVolume: 10.0
@@ -82,6 +86,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46300
     marketGroup: 2398
+    mass: 4000.0
     name: Lavish Vanadinite
     orebasictype: 45500
     packagedVolume: 10.0
@@ -101,6 +106,7 @@ types:
     asteroidradiusunitsize: 600
     id: 45498
     marketGroup: 2398
+    mass: 4000.0
     name: Otavite
     orebasictype: 45498
     packagedVolume: 10.0
@@ -120,6 +126,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46303
     marketGroup: 2398
+    mass: 4000.0
     name: Shimmering Chromite
     orebasictype: 45501
     packagedVolume: 10.0
@@ -139,6 +146,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46297
     marketGroup: 2398
+    mass: 4000.0
     name: Shimmering Otavite
     orebasictype: 45498
     packagedVolume: 10.0
@@ -158,6 +166,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46299
     marketGroup: 2398
+    mass: 4000.0
     name: Shimmering Sperrylite
     orebasictype: 45499
     packagedVolume: 10.0
@@ -177,6 +186,7 @@ types:
     asteroidradiusunitsize: 600
     id: 46301
     marketGroup: 2398
+    mass: 4000.0
     name: Shimmering Vanadinite
     orebasictype: 45500
     packagedVolume: 10.0
@@ -196,6 +206,7 @@ types:
     asteroidradiusunitsize: 600
     id: 45499
     marketGroup: 2398
+    mass: 4000.0
     name: Sperrylite
     orebasictype: 45499
     packagedVolume: 10.0
@@ -215,6 +226,7 @@ types:
     asteroidradiusunitsize: 600
     id: 45500
     marketGroup: 2398
+    mass: 4000.0
     name: Vanadinite
     orebasictype: 45500
     packagedVolume: 10.0

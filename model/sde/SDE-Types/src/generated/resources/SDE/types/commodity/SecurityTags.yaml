@@ -2,6 +2,7 @@ types:
   Clone Soldier Negotiator Tag:
     id: 33141
     marketGroup: 1700
+    mass: 0.10000000149011612
     name: Clone Soldier Negotiator Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -13,6 +14,7 @@ types:
   Clone Soldier Recruiter Tag:
     id: 33139
     marketGroup: 1700
+    mass: 0.10000000149011612
     name: Clone Soldier Recruiter Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -24,6 +26,7 @@ types:
   Clone Soldier Trainer Tag:
     id: 33138
     marketGroup: 1700
+    mass: 0.10000000149011612
     name: Clone Soldier Trainer Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -35,6 +38,7 @@ types:
   Clone Soldier Transporter Tag:
     id: 33140
     marketGroup: 1700
+    mass: 0.10000000149011612
     name: Clone Soldier Transporter Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1

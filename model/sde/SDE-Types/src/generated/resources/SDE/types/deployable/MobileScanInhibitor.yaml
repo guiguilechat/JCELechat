@@ -5,6 +5,7 @@ types:
     hp: 30000.0
     id: 33589
     marketGroup: 1845
+    mass: 10000.0
     metalevelold: 1
     name: Mobile Scan Inhibitor
     packagedVolume: 100.0

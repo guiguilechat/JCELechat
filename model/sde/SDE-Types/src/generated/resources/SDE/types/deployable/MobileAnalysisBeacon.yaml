@@ -5,6 +5,7 @@ types:
     hp: 50000.0
     id: 60244
     marketGroup: 2798
+    mass: 10000.0
     metalevelold: 1
     name: CONCORD Rogue Analysis Beacon
     packagedVolume: 100.0

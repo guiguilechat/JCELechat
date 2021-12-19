@@ -14,6 +14,7 @@ types:
     hp: 99999.0
     id: 41411
     marketGroup: 671
+    mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Networked Sensor Array

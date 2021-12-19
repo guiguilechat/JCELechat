@@ -3,6 +3,7 @@ types:
     hp: 40.0
     id: 33983
     marketGroup: 1931
+    mass: 50.0
     maxgroupfitted: 3
     name: Experimental Hyperspatial Accelerator
     packagedVolume: 5.0
@@ -19,6 +20,7 @@ types:
     hp: 40.0
     id: 33981
     marketGroup: 1931
+    mass: 50.0
     maxgroupfitted: 3
     name: Limited Hyperspatial Accelerator
     packagedVolume: 5.0
@@ -35,6 +37,7 @@ types:
     hp: 40.0
     id: 33985
     marketGroup: 1931
+    mass: 50.0
     maxgroupfitted: 3
     name: Prototype Hyperspatial Accelerator
     packagedVolume: 5.0

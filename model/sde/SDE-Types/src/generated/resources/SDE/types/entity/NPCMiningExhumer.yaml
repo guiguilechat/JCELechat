@@ -19,6 +19,7 @@ types:
     gfxturretid: 17482
     hp: 7500.0
     id: 49964
+    mass: 1.0E7
     maxlockedtargets: 7
     maxtargetrange: 43750.0
     maxvelocity: 175.0
@@ -60,6 +61,7 @@ types:
     gfxturretid: 17482
     hp: 7500.0
     id: 42535
+    mass: 1.0E7
     maxlockedtargets: 7
     maxtargetrange: 43750.0
     maxvelocity: 175.0

@@ -6,6 +6,7 @@ types:
     hp: 40.0
     id: 509
     marketGroup: 666
+    mass: 20.0
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Capacitor Flux Coil'
@@ -27,6 +28,7 @@ types:
     hp: 40.0
     id: 23894
     marketGroup: 666
+    mass: 20.0
     metagroupid: 3
     metalevelold: 6
     name: '''Page'' Capacitor Flux Coil I'
@@ -48,6 +50,7 @@ types:
     hp: 40.0
     id: 1246
     marketGroup: 666
+    mass: 20.0
     name: Capacitor Flux Coil I
     packagedVolume: 5.0
     portionSize: 1
@@ -67,6 +70,7 @@ types:
     hp: 40.0
     id: 1248
     marketGroup: 666
+    mass: 20.0
     metalevelold: 5
     name: Capacitor Flux Coil II
     packagedVolume: 5.0
@@ -87,6 +91,7 @@ types:
     hp: 40.0
     id: 8133
     marketGroup: 666
+    mass: 20.0
     metalevelold: 1
     name: Mark I Compact Capacitor Flux Coil
     packagedVolume: 5.0
@@ -107,6 +112,7 @@ types:
     hp: 40.0
     id: 8135
     marketGroup: 666
+    mass: 20.0
     metalevelold: 1
     name: Type-D Restrained Capacitor Flux Coil
     packagedVolume: 5.0

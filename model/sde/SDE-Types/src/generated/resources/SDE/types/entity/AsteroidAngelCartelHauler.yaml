@@ -34,6 +34,7 @@ types:
     gfxboosterid: 397
     hp: 1300.0
     id: 13682
+    mass: 1.09E7
     maxvelocity: 750.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -91,6 +92,7 @@ types:
     gfxboosterid: 397
     hp: 5250.0
     id: 13678
+    mass: 1.9E7
     maxvelocity: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -147,6 +149,7 @@ types:
     gfxboosterid: 397
     hp: 4750.0
     id: 13679
+    mass: 1.9E7
     maxvelocity: 2000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -204,6 +207,7 @@ types:
     gfxboosterid: 397
     hp: 1150.0
     id: 13685
+    mass: 1.09E7
     maxvelocity: 750.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -261,6 +265,7 @@ types:
     gfxboosterid: 397
     hp: 215.0
     id: 13687
+    mass: 1910000.0
     maxvelocity: 650.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -318,6 +323,7 @@ types:
     gfxboosterid: 397
     hp: 215.0
     id: 13688
+    mass: 1645000.0
     maxvelocity: 300.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -375,6 +381,7 @@ types:
     gfxboosterid: 397
     hp: 160.0
     id: 13689
+    mass: 1910000.0
     maxvelocity: 250.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -431,6 +438,7 @@ types:
     gfxboosterid: 397
     hp: 3975.0
     id: 13681
+    mass: 1.9E7
     maxvelocity: 1750.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -488,6 +496,7 @@ types:
     gfxboosterid: 397
     hp: 250.0
     id: 13686
+    mass: 1645000.0
     maxvelocity: 650.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -545,6 +554,7 @@ types:
     gfxboosterid: 397
     hp: 4250.0
     id: 13680
+    mass: 1.9E7
     maxvelocity: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -602,6 +612,7 @@ types:
     gfxboosterid: 397
     hp: 1250.0
     id: 13683
+    mass: 1.09E7
     maxvelocity: 750.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -658,6 +669,7 @@ types:
     gfxboosterid: 397
     hp: 1200.0
     id: 13684
+    mass: 1.09E7
     maxvelocity: 1250.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -713,6 +725,7 @@ types:
     hp: 4000.0
     id: 35679
     kineticdamage: 4.0
+    mass: 8.9E7
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 1200.0
@@ -776,6 +789,7 @@ types:
     gfxboosterid: 397
     hp: 215.0
     id: 22027
+    mass: 1910000.0
     maxvelocity: 650.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -833,6 +847,7 @@ types:
     gfxboosterid: 397
     hp: 215.0
     id: 22026
+    mass: 1645000.0
     maxvelocity: 300.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -890,6 +905,7 @@ types:
     gfxboosterid: 397
     hp: 160.0
     id: 22025
+    mass: 1910000.0
     maxvelocity: 250.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -947,6 +963,7 @@ types:
     gfxboosterid: 397
     hp: 250.0
     id: 22028
+    mass: 1645000.0
     maxvelocity: 650.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0

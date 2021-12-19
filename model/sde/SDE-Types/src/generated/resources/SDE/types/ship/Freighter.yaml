@@ -40,6 +40,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1950
+    mass: 4.0E8
     maxlockedtargets: 3
     maxoperationaldistance: 5000
     maxpassengers: 150
@@ -124,6 +125,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 768
+    mass: 9.6E8
     maxpassengers: 150
     maxvelocity: 60.0
     name: Charon
@@ -201,6 +203,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 770
+    mass: 8.2E8
     maxpassengers: 150
     maxvelocity: 80.0
     name: Fenrir
@@ -278,6 +281,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 769
+    mass: 9.4E8
     maxpassengers: 150
     maxvelocity: 65.0
     name: Obelisk
@@ -355,6 +359,7 @@ types:
     lowslots: 3
     maincolor: 16777215
     marketGroup: 767
+    mass: 9.0E8
     maxpassengers: 150
     maxvelocity: 70.0
     name: Providence

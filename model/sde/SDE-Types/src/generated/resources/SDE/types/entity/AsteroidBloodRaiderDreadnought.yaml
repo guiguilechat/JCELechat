@@ -51,6 +51,7 @@ types:
     hp: 140000.0
     id: 37463
     iscapitalsize: 1
+    mass: 1.237500032E9
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 300000.0
@@ -137,6 +138,7 @@ types:
     hp: 170000.0
     id: 41397
     iscapitalsize: 1
+    mass: 1.237500032E9
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 300000.0

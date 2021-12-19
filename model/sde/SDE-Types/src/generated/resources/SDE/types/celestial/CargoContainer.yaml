@@ -4,6 +4,7 @@ types:
     hp: 10.0
     id: 3296
     marketGroup: 1657
+    mass: 1000000.0
     name: Large Standard Container
     packagedVolume: 65.0
     portionSize: 1
@@ -18,6 +19,7 @@ types:
     hp: 10.0
     id: 3293
     marketGroup: 1657
+    mass: 100000.0
     name: Medium Standard Container
     packagedVolume: 33.0
     portionSize: 1
@@ -32,6 +34,7 @@ types:
     hp: 10.0
     id: 3297
     marketGroup: 1657
+    mass: 10000.0
     name: Small Standard Container
     packagedVolume: 10.0
     portionSize: 1

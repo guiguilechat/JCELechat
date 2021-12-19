@@ -22,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DamageHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxActiveDroneBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
@@ -221,7 +220,7 @@ public class Drones
     @Stackable(true)
     @DefaultIntValue(0)
     public int specaccessdifficultybonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, AccessDifficultyBonus.INSTANCE, HullHpBonus.INSTANCE, RequiredSkill5Level.INSTANCE, RequiredSkill5 .INSTANCE, DroneRangeBonus.INSTANCE, ArmorHpBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, SkillTimeConstant.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, MaxActiveDroneBonus.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, SkillBonusFighterHangarSize.INSTANCE, RofBonus.INSTANCE, SpecAccessDifficultyBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, DamageHP.INSTANCE, MaxVelocityBonus.INSTANCE, MiningAmountBonus.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, PropulsionSkillPropulsionStrengthBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, AccessDifficultyBonus.INSTANCE, HullHpBonus.INSTANCE, RequiredSkill5Level.INSTANCE, RequiredSkill5 .INSTANCE, DroneRangeBonus.INSTANCE, ArmorHpBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, SkillTimeConstant.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, MaxActiveDroneBonus.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, SkillBonusFighterHangarSize.INSTANCE, RofBonus.INSTANCE, SpecAccessDifficultyBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, DamageHP.INSTANCE, MaxVelocityBonus.INSTANCE, MiningAmountBonus.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, PropulsionSkillPropulsionStrengthBonus.INSTANCE })));
     public static final Drones.MetaGroup METAGROUP = new Drones.MetaGroup();
 
     @Override

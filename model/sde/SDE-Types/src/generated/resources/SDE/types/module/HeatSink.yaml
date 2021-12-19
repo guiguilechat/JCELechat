@@ -5,6 +5,7 @@ types:
     hp: 40.0
     id: 1893
     marketGroup: 647
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Heat Sink'
@@ -24,6 +25,7 @@ types:
     hp: 40.0
     id: 23902
     marketGroup: 647
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Trebuchet'' Heat Sink I'
@@ -40,6 +42,7 @@ types:
   Abyssal Heat Sink:
     damagemultiplier: 1.0
     id: 49726
+    mass: 1.0
     name: Abyssal Heat Sink
     packagedVolume: 1.0
     portionSize: 1
@@ -57,6 +60,7 @@ types:
     hp: 40.0
     id: 14810
     marketGroup: 647
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Heat Sink
@@ -76,6 +80,7 @@ types:
     hp: 40.0
     id: 15808
     marketGroup: 647
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Heat Sink
@@ -95,6 +100,7 @@ types:
     hp: 40.0
     id: 14800
     marketGroup: 647
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Heat Sink
@@ -114,6 +120,7 @@ types:
     hp: 40.0
     id: 14812
     marketGroup: 647
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Heat Sink
@@ -133,6 +140,7 @@ types:
     hp: 40.0
     id: 13941
     marketGroup: 647
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Heat Sink
@@ -152,6 +160,7 @@ types:
     hp: 40.0
     id: 14814
     marketGroup: 647
+    mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Heat Sink
@@ -171,6 +180,7 @@ types:
     hp: 40.0
     id: 5849
     marketGroup: 647
+    mass: 1.0
     metalevelold: 1
     name: Extruded Compact Heat Sink
     packagedVolume: 5.0
@@ -189,6 +199,7 @@ types:
     hp: 40.0
     id: 2363
     marketGroup: 647
+    mass: 1.0
     name: Heat Sink I
     packagedVolume: 5.0
     portionSize: 1
@@ -206,6 +217,7 @@ types:
     hp: 40.0
     id: 2364
     marketGroup: 647
+    mass: 1.0
     metalevelold: 5
     name: Heat Sink II
     packagedVolume: 5.0
@@ -224,6 +236,7 @@ types:
     hp: 40.0
     id: 15810
     marketGroup: 647
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Heat Sink
@@ -243,6 +256,7 @@ types:
     hp: 40.0
     id: 14806
     marketGroup: 647
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Heat Sink
@@ -262,6 +276,7 @@ types:
     hp: 40.0
     id: 14804
     marketGroup: 647
+    mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Heat Sink
@@ -281,6 +296,7 @@ types:
     hp: 40.0
     id: 44111
     marketGroup: 647
+    mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: Tahron's Custom Heat Sink
@@ -300,6 +316,7 @@ types:
     hp: 40.0
     id: 14802
     marketGroup: 647
+    mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Heat Sink
@@ -319,6 +336,7 @@ types:
     hp: 40.0
     id: 13943
     marketGroup: 647
+    mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Heat Sink
@@ -338,6 +356,7 @@ types:
     hp: 40.0
     id: 14808
     marketGroup: 647
+    mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Heat Sink

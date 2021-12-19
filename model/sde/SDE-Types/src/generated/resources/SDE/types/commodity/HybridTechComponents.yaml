@@ -2,6 +2,7 @@ types:
   Electromechanical Interface Nexus:
     id: 30466
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Electromechanical Interface Nexus
     packagedVolume: 10.0
@@ -13,6 +14,7 @@ types:
   Emergent Neurovisual Interface:
     id: 29996
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Emergent Neurovisual Interface
     packagedVolume: 20.0
@@ -24,6 +26,7 @@ types:
   Fullerene Intercalated Sheets:
     id: 30002
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Fullerene Intercalated Sheets
     packagedVolume: 5.0
@@ -35,6 +38,7 @@ types:
   Fulleroferrocene Power Conduits:
     id: 30476
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Fulleroferrocene Power Conduits
     packagedVolume: 5.0
@@ -46,6 +50,7 @@ types:
   Metallofullerene Plating:
     id: 30464
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Metallofullerene Plating
     packagedVolume: 5.0
@@ -57,6 +62,7 @@ types:
   Nanowire Composites:
     id: 30474
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Nanowire Composites
     packagedVolume: 5.0
@@ -68,6 +74,7 @@ types:
   Neurovisual Output Analyzer:
     id: 30470
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Neurovisual Output Analyzer
     packagedVolume: 5.0
@@ -79,6 +86,7 @@ types:
   Optimized Nano-Engines:
     id: 29992
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Optimized Nano-Engines
     packagedVolume: 10.0
@@ -90,6 +98,7 @@ types:
   Reconfigured Subspace Calibrator:
     id: 30478
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Reconfigured Subspace Calibrator
     packagedVolume: 10.0
@@ -101,6 +110,7 @@ types:
   Reinforced Metallofullerene Alloys:
     id: 30008
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Reinforced Metallofullerene Alloys
     packagedVolume: 10.0
@@ -112,6 +122,7 @@ types:
   Self-Assembling Nanolattice:
     id: 34396
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Self-Assembling Nanolattice
     packagedVolume: 5.0
@@ -123,6 +134,7 @@ types:
   Superconducting Gravimetric Amplifier:
     id: 45653
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 1
     name: Superconducting Gravimetric Amplifier
     packagedVolume: 5.0
@@ -133,6 +145,7 @@ types:
   Superconducting Ladar Amplifier:
     id: 45655
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 1
     name: Superconducting Ladar Amplifier
     packagedVolume: 5.0
@@ -143,6 +156,7 @@ types:
   Superconducting Magnetometric Amplifier:
     id: 45652
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 1
     name: Superconducting Magnetometric Amplifier
     packagedVolume: 5.0
@@ -153,6 +167,7 @@ types:
   Superconducting Radar Amplifier:
     id: 45654
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 1
     name: Superconducting Radar Amplifier
     packagedVolume: 5.0
@@ -163,6 +178,7 @@ types:
   Warfare Computation Core:
     id: 29994
     marketGroup: 1147
+    mass: 1.0
     moonminingamount: 100
     name: Warfare Computation Core
     packagedVolume: 10.0

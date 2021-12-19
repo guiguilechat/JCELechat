@@ -11,6 +11,7 @@ types:
     id: 43870
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       I
@@ -39,6 +40,7 @@ types:
     id: 43871
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       II
@@ -67,6 +69,7 @@ types:
     id: 45544
     lowsecmodifier: 1.899999976158142
     marketGroup: 2347
+    mass: 200.0
     maxgroupfitted: 1
     metagroupid: 4
     name: Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency

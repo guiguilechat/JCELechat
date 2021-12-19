@@ -12,6 +12,7 @@ types:
     id: 41287
     launchergroup: 1674
     marketGroup: 2261
+    mass: 1500.0
     maxvelocity: 7000.0
     metalevelold: 5
     name: Inferno Fury XL Cruise Missile
@@ -43,6 +44,7 @@ types:
     id: 41286
     launchergroup: 1674
     marketGroup: 2260
+    mass: 1500.0
     maxvelocity: 7000.0
     metalevelold: 5
     name: Inferno Precision XL Cruise Missile
@@ -75,6 +77,7 @@ types:
     id: 41299
     launchergroup: 1674
     marketGroup: 2261
+    mass: 1500.0
     maxvelocity: 7000.0
     metalevelold: 5
     name: Mjolnir Fury XL Cruise Missile
@@ -106,6 +109,7 @@ types:
     id: 41298
     launchergroup: 1674
     marketGroup: 2260
+    mass: 1500.0
     maxvelocity: 7000.0
     metalevelold: 5
     name: Mjolnir Precision XL Cruise Missile
@@ -137,6 +141,7 @@ types:
     id: 41294
     launchergroup: 1674
     marketGroup: 2261
+    mass: 1500.0
     maxvelocity: 7000.0
     metalevelold: 5
     name: Nova Fury XL Cruise Missile
@@ -168,6 +173,7 @@ types:
     id: 41295
     launchergroup: 1674
     marketGroup: 2260
+    mass: 1500.0
     maxvelocity: 7000.0
     metalevelold: 5
     name: Nova Precision XL Cruise Missile
@@ -199,6 +205,7 @@ types:
     kineticdamage: 5700.0
     launchergroup: 1674
     marketGroup: 2261
+    mass: 1500.0
     maxvelocity: 7000.0
     metalevelold: 5
     name: Scourge Fury XL Cruise Missile
@@ -230,6 +237,7 @@ types:
     kineticdamage: 4750.0
     launchergroup: 1674
     marketGroup: 2260
+    mass: 1500.0
     maxvelocity: 7000.0
     metalevelold: 5
     name: Scourge Precision XL Cruise Missile

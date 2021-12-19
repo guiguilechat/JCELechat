@@ -14,6 +14,7 @@ types:
     hp: 40.0
     id: 23844
     marketGroup: 568
+    mass: 1000.0
     maxrange: 22000.0
     metagroupid: 3
     metalevelold: 6
@@ -52,6 +53,7 @@ types:
     hp: 40.0
     id: 23850
     marketGroup: 569
+    mass: 1000.0
     maxrange: 44000.0
     metagroupid: 3
     metalevelold: 6
@@ -90,6 +92,7 @@ types:
     hp: 40.0
     id: 23848
     marketGroup: 569
+    mass: 2000.0
     maxrange: 40000.0
     metagroupid: 3
     metalevelold: 6
@@ -128,6 +131,7 @@ types:
     hp: 40.0
     id: 23840
     marketGroup: 568
+    mass: 1000.0
     maxrange: 19250.0
     metagroupid: 3
     metalevelold: 6
@@ -166,6 +170,7 @@ types:
     hp: 40.0
     id: 23838
     marketGroup: 567
+    mass: 500.0
     maxrange: 11000.0
     metagroupid: 3
     metalevelold: 6
@@ -204,6 +209,7 @@ types:
     hp: 40.0
     id: 23846
     marketGroup: 573
+    mass: 2000.0
     maxrange: 21000.0
     metagroupid: 3
     name: '''Halberd'' Mega Pulse Laser I'
@@ -241,6 +247,7 @@ types:
     hp: 40.0
     id: 23842
     marketGroup: 572
+    mass: 1000.0
     maxrange: 10500.0
     metagroupid: 3
     metalevelold: 6
@@ -279,6 +286,7 @@ types:
     hp: 40.0
     id: 23836
     marketGroup: 570
+    mass: 500.0
     maxrange: 5250.0
     metagroupid: 3
     metalevelold: 6
@@ -317,6 +325,7 @@ types:
     hp: 40.0
     id: 23834
     marketGroup: 567
+    mass: 500.0
     maxrange: 9625.0
     metagroupid: 3
     metalevelold: 6
@@ -354,6 +363,7 @@ types:
     hp: 40.0
     id: 41117
     marketGroup: 773
+    mass: 40000.0
     maxrange: 100000.0
     metalevelold: 1
     name: Afocal Precise Dual Giga Beam Laser
@@ -390,6 +400,7 @@ types:
     hp: 40.0
     id: 41102
     marketGroup: 774
+    mass: 40000.0
     maxrange: 42000.0
     metalevelold: 1
     name: Afocal Precise Dual Giga Pulse Laser
@@ -427,6 +438,7 @@ types:
     hp: 40.0
     id: 41065
     marketGroup: 774
+    mass: 40000.0
     maxrange: 33000.0
     metalevelold: 1
     name: Afocal Precise Quad Mega Pulse Laser
@@ -466,6 +478,7 @@ types:
     hp: 40.0
     id: 14427
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metagroupid: 5
     metalevelold: 14
@@ -504,6 +517,7 @@ types:
     hp: 40.0
     id: 14443
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metagroupid: 5
     metalevelold: 14
@@ -542,6 +556,7 @@ types:
     hp: 40.0
     id: 15859
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metagroupid: 4
     metalevelold: 8
@@ -580,6 +595,7 @@ types:
     hp: 40.0
     id: 15858
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metagroupid: 4
     metalevelold: 8
@@ -618,6 +634,7 @@ types:
     hp: 40.0
     id: 15857
     marketGroup: 567
+    mass: 500.0
     maxrange: 12032.0
     metagroupid: 4
     metalevelold: 8
@@ -656,6 +673,7 @@ types:
     hp: 40.0
     id: 15856
     marketGroup: 570
+    mass: 500.0
     maxrange: 5906.0
     metagroupid: 4
     metalevelold: 8
@@ -694,6 +712,7 @@ types:
     hp: 40.0
     id: 15855
     marketGroup: 568
+    mass: 1000.0
     maxrange: 24063.0
     metagroupid: 4
     metalevelold: 8
@@ -732,6 +751,7 @@ types:
     hp: 40.0
     id: 15854
     marketGroup: 572
+    mass: 1000.0
     maxrange: 11813.0
     metagroupid: 4
     metalevelold: 8
@@ -770,6 +790,7 @@ types:
     hp: 40.0
     id: 15853
     marketGroup: 570
+    mass: 500.0
     maxrange: 5250.0
     metagroupid: 4
     metalevelold: 8
@@ -808,6 +829,7 @@ types:
     hp: 40.0
     id: 15852
     marketGroup: 568
+    mass: 1000.0
     maxrange: 27500.0
     metagroupid: 4
     metalevelold: 8
@@ -846,6 +868,7 @@ types:
     hp: 40.0
     id: 15851
     marketGroup: 572
+    mass: 1000.0
     maxrange: 13125.0
     metagroupid: 4
     metalevelold: 8
@@ -884,6 +907,7 @@ types:
     hp: 40.0
     id: 15848
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metagroupid: 4
     metalevelold: 8
@@ -922,6 +946,7 @@ types:
     hp: 40.0
     id: 15847
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metagroupid: 4
     metalevelold: 8
@@ -960,6 +985,7 @@ types:
     hp: 40.0
     id: 15846
     marketGroup: 568
+    mass: 1000.0
     maxrange: 11000.0
     metagroupid: 4
     metalevelold: 8
@@ -998,6 +1024,7 @@ types:
     hp: 40.0
     id: 15850
     marketGroup: 567
+    mass: 500.0
     maxrange: 13750.0
     metagroupid: 4
     metalevelold: 8
@@ -1036,6 +1063,7 @@ types:
     hp: 40.0
     id: 15849
     marketGroup: 570
+    mass: 500.0
     maxrange: 6563.0
     metagroupid: 4
     metalevelold: 8
@@ -1074,6 +1102,7 @@ types:
     hp: 40.0
     id: 15845
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metagroupid: 4
     metalevelold: 8
@@ -1111,6 +1140,7 @@ types:
     hp: 40.0
     id: 41116
     marketGroup: 773
+    mass: 40000.0
     maxrange: 105000.0
     metalevelold: 1
     name: Anode Scoped Dual Giga Beam Laser
@@ -1147,6 +1177,7 @@ types:
     hp: 40.0
     id: 41101
     marketGroup: 774
+    mass: 40000.0
     maxrange: 44100.0
     metalevelold: 1
     name: Anode Scoped Dual Giga Pulse Laser
@@ -1184,6 +1215,7 @@ types:
     hp: 40.0
     id: 41064
     marketGroup: 774
+    mass: 40000.0
     maxrange: 34650.0
     metalevelold: 1
     name: Anode Scoped Quad Mega Pulse Laser
@@ -1223,6 +1255,7 @@ types:
     hp: 40.0
     id: 14429
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metagroupid: 5
     metalevelold: 12
@@ -1261,6 +1294,7 @@ types:
     hp: 40.0
     id: 14445
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metagroupid: 5
     metalevelold: 12
@@ -1300,6 +1334,7 @@ types:
     hp: 40.0
     id: 3561
     marketGroup: 773
+    mass: 40000.0
     maxrange: 110000.0
     metagroupid: 4
     metalevelold: 8
@@ -1338,6 +1373,7 @@ types:
     hp: 40.0
     id: 3559
     marketGroup: 774
+    mass: 40000.0
     maxrange: 46200.0
     metagroupid: 4
     metalevelold: 8
@@ -1376,6 +1412,7 @@ types:
     hp: 40.0
     id: 14419
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metagroupid: 5
     metalevelold: 14
@@ -1414,6 +1451,7 @@ types:
     hp: 40.0
     id: 14435
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metagroupid: 5
     metalevelold: 14
@@ -1452,6 +1490,7 @@ types:
     hp: 40.0
     id: 14451
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metagroupid: 5
     metalevelold: 13
@@ -1490,6 +1529,7 @@ types:
     hp: 40.0
     id: 41118
     marketGroup: 773
+    mass: 40000.0
     maxrange: 110000.0
     metagroupid: 4
     metalevelold: 8
@@ -1528,6 +1568,7 @@ types:
     hp: 40.0
     id: 41103
     marketGroup: 774
+    mass: 40000.0
     maxrange: 46200.0
     metagroupid: 4
     metalevelold: 8
@@ -1566,6 +1607,7 @@ types:
     hp: 40.0
     id: 13793
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metagroupid: 4
     metalevelold: 8
@@ -1604,6 +1646,7 @@ types:
     hp: 40.0
     id: 13791
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metagroupid: 4
     metalevelold: 8
@@ -1642,6 +1685,7 @@ types:
     hp: 40.0
     id: 13795
     marketGroup: 567
+    mass: 500.0
     maxrange: 12032.0
     metagroupid: 4
     metalevelold: 8
@@ -1680,6 +1724,7 @@ types:
     hp: 40.0
     id: 13797
     marketGroup: 570
+    mass: 500.0
     maxrange: 5906.0
     metagroupid: 4
     metalevelold: 8
@@ -1718,6 +1763,7 @@ types:
     hp: 40.0
     id: 13799
     marketGroup: 568
+    mass: 1000.0
     maxrange: 24063.0
     metagroupid: 4
     metalevelold: 8
@@ -1756,6 +1802,7 @@ types:
     hp: 40.0
     id: 13801
     marketGroup: 572
+    mass: 1000.0
     maxrange: 11813.0
     metagroupid: 4
     metalevelold: 8
@@ -1794,6 +1841,7 @@ types:
     hp: 40.0
     id: 13803
     marketGroup: 570
+    mass: 500.0
     maxrange: 5250.0
     metagroupid: 4
     metalevelold: 8
@@ -1832,6 +1880,7 @@ types:
     hp: 40.0
     id: 13805
     marketGroup: 568
+    mass: 1000.0
     maxrange: 27500.0
     metagroupid: 4
     metalevelold: 8
@@ -1870,6 +1919,7 @@ types:
     hp: 40.0
     id: 13807
     marketGroup: 572
+    mass: 1000.0
     maxrange: 13125.0
     metagroupid: 4
     metalevelold: 8
@@ -1908,6 +1958,7 @@ types:
     hp: 40.0
     id: 13813
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metagroupid: 4
     metalevelold: 8
@@ -1946,6 +1997,7 @@ types:
     hp: 40.0
     id: 13815
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metagroupid: 4
     metalevelold: 8
@@ -1984,6 +2036,7 @@ types:
     hp: 40.0
     id: 13819
     marketGroup: 568
+    mass: 1000.0
     maxrange: 11000.0
     metagroupid: 4
     metalevelold: 8
@@ -2023,6 +2076,7 @@ types:
     hp: 40.0
     id: 41066
     marketGroup: 774
+    mass: 40000.0
     maxrange: 36300.0
     metagroupid: 4
     metalevelold: 8
@@ -2063,6 +2117,7 @@ types:
     hp: 40.0
     id: 13809
     marketGroup: 567
+    mass: 500.0
     maxrange: 13750.0
     metagroupid: 4
     metalevelold: 8
@@ -2101,6 +2156,7 @@ types:
     hp: 40.0
     id: 13811
     marketGroup: 570
+    mass: 500.0
     maxrange: 6563.0
     metagroupid: 4
     metalevelold: 8
@@ -2139,6 +2195,7 @@ types:
     hp: 40.0
     id: 13817
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metagroupid: 4
     metalevelold: 8
@@ -2177,6 +2234,7 @@ types:
     hp: 40.0
     id: 14423
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metagroupid: 5
     metalevelold: 14
@@ -2215,6 +2273,7 @@ types:
     hp: 40.0
     id: 14439
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metagroupid: 5
     metalevelold: 14
@@ -2253,6 +2312,7 @@ types:
     hp: 40.0
     id: 14455
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metagroupid: 5
     metalevelold: 13
@@ -2290,6 +2350,7 @@ types:
     hp: 40.0
     id: 7045
     marketGroup: 569
+    mass: 2000.0
     maxrange: 36750.0
     metalevelold: 1
     name: Dual Afocal Heavy Maser I
@@ -2326,6 +2387,7 @@ types:
     hp: 40.0
     id: 6633
     marketGroup: 567
+    mass: 500.0
     maxrange: 10107.0
     metalevelold: 1
     name: Dual Afocal Light Maser I
@@ -2362,6 +2424,7 @@ types:
     hp: 40.0
     id: 5217
     marketGroup: 570
+    mass: 500.0
     maxrange: 4961.0
     metalevelold: 1
     name: Dual Afocal Pulse Maser I
@@ -2398,6 +2461,7 @@ types:
     hp: 40.0
     id: 7049
     marketGroup: 569
+    mass: 2000.0
     maxrange: 40250.0
     metalevelold: 3
     name: Dual Anode Heavy Particle Stream I
@@ -2434,6 +2498,7 @@ types:
     hp: 40.0
     id: 6637
     marketGroup: 567
+    mass: 500.0
     maxrange: 11069.0
     metalevelold: 3
     name: Dual Anode Light Particle Stream I
@@ -2470,6 +2535,7 @@ types:
     hp: 40.0
     id: 5221
     marketGroup: 570
+    mass: 500.0
     maxrange: 5434.0
     metalevelold: 3
     name: Dual Anode Pulse Particle Stream I
@@ -2506,6 +2572,7 @@ types:
     hp: 40.0
     id: 20446
     marketGroup: 773
+    mass: 40000.0
     maxrange: 100000.0
     name: Dual Giga Beam Laser I
     optimalsigradius: 40000
@@ -2542,6 +2609,7 @@ types:
     hp: 40.0
     id: 37299
     marketGroup: 773
+    mass: 40000.0
     maxrange: 110000.0
     metalevelold: 5
     name: Dual Giga Beam Laser II
@@ -2580,6 +2648,7 @@ types:
     hp: 40.0
     id: 20444
     marketGroup: 774
+    mass: 40000.0
     maxrange: 42000.0
     name: Dual Giga Pulse Laser I
     optimalsigradius: 40000
@@ -2616,6 +2685,7 @@ types:
     hp: 40.0
     id: 37298
     marketGroup: 774
+    mass: 40000.0
     maxrange: 46200.0
     metalevelold: 5
     name: Dual Giga Pulse Laser II
@@ -2654,6 +2724,7 @@ types:
     hp: 40.0
     id: 7001
     marketGroup: 573
+    mass: 2000.0
     maxrange: 19845.0
     metalevelold: 1
     name: Dual Heavy Afocal Pulse Maser I
@@ -2690,6 +2761,7 @@ types:
     hp: 40.0
     id: 7005
     marketGroup: 573
+    mass: 2000.0
     maxrange: 21735.0
     metalevelold: 3
     name: Dual Heavy Anode Pulse Particle Stream I
@@ -2726,6 +2798,7 @@ types:
     hp: 40.0
     id: 461
     marketGroup: 569
+    mass: 2000.0
     maxrange: 35000.0
     name: Dual Heavy Beam Laser I
     optimalsigradius: 40000
@@ -2762,6 +2835,7 @@ types:
     hp: 40.0
     id: 2985
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metalevelold: 5
     name: Dual Heavy Beam Laser II
@@ -2800,6 +2874,7 @@ types:
     hp: 40.0
     id: 6999
     marketGroup: 573
+    mass: 2000.0
     maxrange: 20790.0
     metalevelold: 2
     name: Dual Heavy Modal Pulse Laser I
@@ -2836,6 +2911,7 @@ types:
     hp: 40.0
     id: 7003
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metalevelold: 4
     name: Dual Heavy Modulated Pulse Energy Beam I
@@ -2872,6 +2948,7 @@ types:
     hp: 40.0
     id: 460
     marketGroup: 573
+    mass: 2000.0
     maxrange: 18900.0
     name: Dual Heavy Pulse Laser I
     optimalsigradius: 40000
@@ -2908,6 +2985,7 @@ types:
     hp: 40.0
     id: 4147
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metalevelold: 5
     name: Dual Heavy Pulse Laser II
@@ -2946,6 +3024,7 @@ types:
     hp: 40.0
     id: 452
     marketGroup: 567
+    mass: 500.0
     maxrange: 9625.0
     name: Dual Light Beam Laser I
     optimalsigradius: 40000
@@ -2982,6 +3061,7 @@ types:
     hp: 40.0
     id: 2993
     marketGroup: 567
+    mass: 500.0
     maxrange: 11550.0
     metalevelold: 5
     name: Dual Light Beam Laser II
@@ -3020,6 +3100,7 @@ types:
     hp: 40.0
     id: 451
     marketGroup: 570
+    mass: 500.0
     maxrange: 4725.0
     name: Dual Light Pulse Laser I
     optimalsigradius: 40000
@@ -3056,6 +3137,7 @@ types:
     hp: 40.0
     id: 3001
     marketGroup: 570
+    mass: 500.0
     maxrange: 5670.0
     metalevelold: 5
     name: Dual Light Pulse Laser II
@@ -3094,6 +3176,7 @@ types:
     hp: 40.0
     id: 7043
     marketGroup: 569
+    mass: 2000.0
     maxrange: 38500.0
     metalevelold: 2
     name: Dual Modal Heavy Laser I
@@ -3130,6 +3213,7 @@ types:
     hp: 40.0
     id: 6631
     marketGroup: 567
+    mass: 500.0
     maxrange: 10588.0
     metalevelold: 2
     name: Dual Modal Light Laser I
@@ -3166,6 +3250,7 @@ types:
     hp: 40.0
     id: 5215
     marketGroup: 570
+    mass: 500.0
     maxrange: 5198.0
     metalevelold: 2
     name: Dual Modal Pulse Laser I
@@ -3202,6 +3287,7 @@ types:
     hp: 40.0
     id: 7047
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metalevelold: 4
     name: Dual Modulated Heavy Energy Beam I
@@ -3238,6 +3324,7 @@ types:
     hp: 40.0
     id: 6635
     marketGroup: 567
+    mass: 500.0
     maxrange: 11550.0
     metalevelold: 4
     name: Dual Modulated Light Energy Beam I
@@ -3274,6 +3361,7 @@ types:
     hp: 40.0
     id: 5219
     marketGroup: 570
+    mass: 500.0
     maxrange: 5670.0
     metalevelold: 4
     name: Dual Modulated Pulse Energy Beam I
@@ -3310,6 +3398,7 @@ types:
     hp: 40.0
     id: 6861
     marketGroup: 568
+    mass: 1000.0
     maxrange: 20213.0
     metalevelold: 1
     name: Focused Afocal Medium Maser I
@@ -3346,6 +3435,7 @@ types:
     hp: 40.0
     id: 6807
     marketGroup: 572
+    mass: 1000.0
     maxrange: 9923.0
     metalevelold: 1
     name: Focused Afocal Pulse Maser I
@@ -3382,6 +3472,7 @@ types:
     hp: 40.0
     id: 6865
     marketGroup: 568
+    mass: 1000.0
     maxrange: 22138.0
     metalevelold: 3
     name: Focused Anode Medium Particle Stream I
@@ -3418,6 +3509,7 @@ types:
     hp: 40.0
     id: 6811
     marketGroup: 572
+    mass: 1000.0
     maxrange: 10868.0
     metalevelold: 3
     name: Focused Anode Pulse Particle Stream I
@@ -3454,6 +3546,7 @@ types:
     hp: 40.0
     id: 457
     marketGroup: 568
+    mass: 1000.0
     maxrange: 19250.0
     name: Focused Medium Beam Laser I
     optimalsigradius: 40000
@@ -3490,6 +3583,7 @@ types:
     hp: 40.0
     id: 3009
     marketGroup: 568
+    mass: 1000.0
     maxrange: 23100.0
     metalevelold: 5
     name: Focused Medium Beam Laser II
@@ -3528,6 +3622,7 @@ types:
     hp: 40.0
     id: 456
     marketGroup: 572
+    mass: 1000.0
     maxrange: 9450.0
     name: Focused Medium Pulse Laser I
     optimalsigradius: 40000
@@ -3564,6 +3659,7 @@ types:
     hp: 40.0
     id: 3512
     marketGroup: 572
+    mass: 1000.0
     maxrange: 11340.0
     metalevelold: 5
     name: Focused Medium Pulse Laser II
@@ -3602,6 +3698,7 @@ types:
     hp: 40.0
     id: 6859
     marketGroup: 568
+    mass: 1000.0
     maxrange: 21175.0
     metalevelold: 2
     name: Focused Modal Medium Laser I
@@ -3638,6 +3735,7 @@ types:
     hp: 40.0
     id: 6805
     marketGroup: 572
+    mass: 1000.0
     maxrange: 10395.0
     metalevelold: 2
     name: Focused Modal Pulse Laser I
@@ -3674,6 +3772,7 @@ types:
     hp: 40.0
     id: 6863
     marketGroup: 568
+    mass: 1000.0
     maxrange: 23100.0
     metalevelold: 4
     name: Focused Modulated Medium Energy Beam I
@@ -3710,6 +3809,7 @@ types:
     hp: 40.0
     id: 6809
     marketGroup: 572
+    mass: 1000.0
     maxrange: 11340.0
     metalevelold: 4
     name: Focused Modulated Pulse Energy Beam I
@@ -3746,6 +3846,7 @@ types:
     hp: 40.0
     id: 5177
     marketGroup: 570
+    mass: 500.0
     maxrange: 4410.0
     metalevelold: 1
     name: Gatling Afocal Maser I
@@ -3782,6 +3883,7 @@ types:
     hp: 40.0
     id: 5181
     marketGroup: 570
+    mass: 500.0
     maxrange: 4830.0
     metalevelold: 3
     name: Gatling Anode Particle Stream I
@@ -3818,6 +3920,7 @@ types:
     hp: 40.0
     id: 5175
     marketGroup: 570
+    mass: 500.0
     maxrange: 4620.0
     metalevelold: 2
     name: Gatling Modal Laser I
@@ -3854,6 +3957,7 @@ types:
     hp: 40.0
     id: 5179
     marketGroup: 570
+    mass: 500.0
     maxrange: 5040.0
     metalevelold: 4
     name: Gatling Modulated Energy Beam I
@@ -3890,6 +3994,7 @@ types:
     hp: 40.0
     id: 450
     marketGroup: 570
+    mass: 500.0
     maxrange: 4200.0
     name: Gatling Pulse Laser I
     optimalsigradius: 40000
@@ -3926,6 +4031,7 @@ types:
     hp: 40.0
     id: 3017
     marketGroup: 570
+    mass: 500.0
     maxrange: 5040.0
     metalevelold: 5
     name: Gatling Pulse Laser II
@@ -3964,6 +4070,7 @@ types:
     hp: 40.0
     id: 6961
     marketGroup: 568
+    mass: 1000.0
     maxrange: 23100.0
     metalevelold: 1
     name: Heavy Afocal Maser I
@@ -4000,6 +4107,7 @@ types:
     hp: 40.0
     id: 6921
     marketGroup: 572
+    mass: 1000.0
     maxrange: 11025.0
     metalevelold: 1
     name: Heavy Afocal Pulse Maser I
@@ -4036,6 +4144,7 @@ types:
     hp: 40.0
     id: 6965
     marketGroup: 568
+    mass: 1000.0
     maxrange: 25300.0
     metalevelold: 3
     name: Heavy Anode Particle Stream I
@@ -4072,6 +4181,7 @@ types:
     hp: 40.0
     id: 6925
     marketGroup: 572
+    mass: 1000.0
     maxrange: 12075.0
     metalevelold: 3
     name: Heavy Anode Pulse Particle Stream I
@@ -4108,6 +4218,7 @@ types:
     hp: 40.0
     id: 459
     marketGroup: 568
+    mass: 1000.0
     maxrange: 22000.0
     name: Heavy Beam Laser I
     optimalsigradius: 40000
@@ -4144,6 +4255,7 @@ types:
     hp: 40.0
     id: 3025
     marketGroup: 568
+    mass: 1000.0
     maxrange: 26400.0
     metalevelold: 5
     name: Heavy Beam Laser II
@@ -4182,6 +4294,7 @@ types:
     hp: 40.0
     id: 6959
     marketGroup: 568
+    mass: 1000.0
     maxrange: 24200.0
     metalevelold: 2
     name: Heavy Modal Laser I
@@ -4218,6 +4331,7 @@ types:
     hp: 40.0
     id: 6919
     marketGroup: 572
+    mass: 1000.0
     maxrange: 11550.0
     metalevelold: 2
     name: Heavy Modal Pulse Laser I
@@ -4254,6 +4368,7 @@ types:
     hp: 40.0
     id: 6963
     marketGroup: 568
+    mass: 1000.0
     maxrange: 26400.0
     metalevelold: 4
     name: Heavy Modulated Energy Beam I
@@ -4290,6 +4405,7 @@ types:
     hp: 40.0
     id: 6923
     marketGroup: 572
+    mass: 1000.0
     maxrange: 12600.0
     metalevelold: 4
     name: Heavy Modulated Pulse Energy Beam I
@@ -4326,6 +4442,7 @@ types:
     hp: 40.0
     id: 458
     marketGroup: 572
+    mass: 1000.0
     maxrange: 10500.0
     name: Heavy Pulse Laser I
     optimalsigradius: 40000
@@ -4362,6 +4479,7 @@ types:
     hp: 40.0
     id: 3520
     marketGroup: 572
+    mass: 1000.0
     maxrange: 12600.0
     metalevelold: 5
     name: Heavy Pulse Laser II
@@ -4401,6 +4519,7 @@ types:
     hp: 40.0
     id: 15874
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metagroupid: 4
     metalevelold: 8
@@ -4439,6 +4558,7 @@ types:
     hp: 40.0
     id: 15873
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metagroupid: 4
     metalevelold: 8
@@ -4477,6 +4597,7 @@ types:
     hp: 40.0
     id: 15872
     marketGroup: 567
+    mass: 500.0
     maxrange: 12032.0
     metagroupid: 4
     metalevelold: 8
@@ -4515,6 +4636,7 @@ types:
     hp: 40.0
     id: 15871
     marketGroup: 570
+    mass: 500.0
     maxrange: 5906.0
     metagroupid: 4
     metalevelold: 8
@@ -4553,6 +4675,7 @@ types:
     hp: 40.0
     id: 15870
     marketGroup: 568
+    mass: 1000.0
     maxrange: 24063.0
     metagroupid: 4
     metalevelold: 8
@@ -4591,6 +4714,7 @@ types:
     hp: 40.0
     id: 15869
     marketGroup: 572
+    mass: 1000.0
     maxrange: 11813.0
     metagroupid: 4
     metalevelold: 8
@@ -4629,6 +4753,7 @@ types:
     hp: 40.0
     id: 15868
     marketGroup: 570
+    mass: 500.0
     maxrange: 5250.0
     metagroupid: 4
     metalevelold: 8
@@ -4667,6 +4792,7 @@ types:
     hp: 40.0
     id: 15867
     marketGroup: 568
+    mass: 1000.0
     maxrange: 27500.0
     metagroupid: 4
     metalevelold: 8
@@ -4705,6 +4831,7 @@ types:
     hp: 40.0
     id: 15866
     marketGroup: 572
+    mass: 1000.0
     maxrange: 13125.0
     metagroupid: 4
     metalevelold: 8
@@ -4743,6 +4870,7 @@ types:
     hp: 40.0
     id: 15863
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metagroupid: 4
     metalevelold: 8
@@ -4781,6 +4909,7 @@ types:
     hp: 40.0
     id: 15862
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metagroupid: 4
     metalevelold: 8
@@ -4819,6 +4948,7 @@ types:
     hp: 40.0
     id: 15861
     marketGroup: 568
+    mass: 1000.0
     maxrange: 11000.0
     metagroupid: 4
     metalevelold: 8
@@ -4857,6 +4987,7 @@ types:
     hp: 40.0
     id: 15865
     marketGroup: 567
+    mass: 500.0
     maxrange: 13750.0
     metagroupid: 4
     metalevelold: 8
@@ -4895,6 +5026,7 @@ types:
     hp: 40.0
     id: 15864
     marketGroup: 570
+    mass: 500.0
     maxrange: 6563.0
     metagroupid: 4
     metalevelold: 8
@@ -4933,6 +5065,7 @@ types:
     hp: 40.0
     id: 15860
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metagroupid: 4
     metalevelold: 8
@@ -4996,6 +5129,7 @@ types:
     hp: 40.0
     id: 7125
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metalevelold: 1
     name: Mega Afocal Maser I
@@ -5032,6 +5166,7 @@ types:
     hp: 40.0
     id: 7085
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22050.0
     metalevelold: 1
     name: Mega Afocal Pulse Maser I
@@ -5068,6 +5203,7 @@ types:
     hp: 40.0
     id: 7131
     marketGroup: 569
+    mass: 2000.0
     maxrange: 46000.0
     metalevelold: 3
     name: Mega Anode Particle Stream I
@@ -5104,6 +5240,7 @@ types:
     hp: 40.0
     id: 7089
     marketGroup: 573
+    mass: 2000.0
     maxrange: 24150.0
     metalevelold: 3
     name: Mega Anode Pulse Particle Stream I
@@ -5140,6 +5277,7 @@ types:
     hp: 40.0
     id: 463
     marketGroup: 569
+    mass: 2000.0
     maxrange: 40000.0
     name: Mega Beam Laser I
     optimalsigradius: 40000
@@ -5176,6 +5314,7 @@ types:
     hp: 40.0
     id: 3049
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metalevelold: 5
     name: Mega Beam Laser II
@@ -5214,6 +5353,7 @@ types:
     hp: 40.0
     id: 7123
     marketGroup: 569
+    mass: 2000.0
     maxrange: 44000.0
     metalevelold: 2
     name: Mega Modal Laser I
@@ -5250,6 +5390,7 @@ types:
     hp: 40.0
     id: 7083
     marketGroup: 573
+    mass: 2000.0
     maxrange: 23100.0
     metalevelold: 2
     name: Mega Modal Pulse Laser I
@@ -5286,6 +5427,7 @@ types:
     hp: 40.0
     id: 7127
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metalevelold: 4
     name: Mega Modulated Energy Beam I
@@ -5322,6 +5464,7 @@ types:
     hp: 40.0
     id: 7087
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metalevelold: 4
     name: Mega Modulated Pulse Energy Beam I
@@ -5358,6 +5501,7 @@ types:
     hp: 40.0
     id: 462
     marketGroup: 573
+    mass: 2000.0
     maxrange: 21000.0
     name: Mega Pulse Laser I
     optimalsigradius: 40000
@@ -5394,6 +5538,7 @@ types:
     hp: 40.0
     id: 3057
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metalevelold: 5
     name: Mega Pulse Laser II
@@ -5432,6 +5577,7 @@ types:
     hp: 40.0
     id: 41115
     marketGroup: 773
+    mass: 40000.0
     maxrange: 100000.0
     metalevelold: 1
     name: Modal Enduring Dual Giga Beam Laser
@@ -5468,6 +5614,7 @@ types:
     hp: 40.0
     id: 41100
     marketGroup: 774
+    mass: 40000.0
     maxrange: 42000.0
     metalevelold: 1
     name: Modal Enduring Dual Giga Pulse Laser
@@ -5505,6 +5652,7 @@ types:
     hp: 40.0
     id: 41063
     marketGroup: 774
+    mass: 40000.0
     maxrange: 33000.0
     metalevelold: 1
     name: Modal Enduring Quad Mega Pulse Laser
@@ -5543,6 +5691,7 @@ types:
     hp: 40.0
     id: 41114
     marketGroup: 773
+    mass: 40000.0
     maxrange: 100000.0
     metalevelold: 1
     name: Modulated Compact Dual Giga Beam Laser
@@ -5579,6 +5728,7 @@ types:
     hp: 40.0
     id: 41099
     marketGroup: 774
+    mass: 40000.0
     maxrange: 42000.0
     metalevelold: 1
     name: Modulated Compact Dual Giga Pulse Laser
@@ -5616,6 +5766,7 @@ types:
     hp: 40.0
     id: 37297
     marketGroup: 774
+    mass: 40000.0
     maxrange: 33000.0
     metalevelold: 1
     name: Modulated Compact Quad Mega Pulse Laser
@@ -5655,6 +5806,7 @@ types:
     hp: 40.0
     id: 34274
     marketGroup: 572
+    mass: 1000.0
     maxrange: 10080.0
     metalevelold: 9
     name: Polarized Heavy Pulse Laser
@@ -5696,6 +5848,7 @@ types:
     hp: 40.0
     id: 34276
     marketGroup: 573
+    mass: 2000.0
     maxrange: 20160.0
     metalevelold: 9
     name: Polarized Mega Pulse Laser
@@ -5737,6 +5890,7 @@ types:
     hp: 40.0
     id: 34272
     marketGroup: 570
+    mass: 500.0
     maxrange: 5040.0
     metalevelold: 9
     name: Polarized Small Focused Pulse Laser
@@ -5777,6 +5931,7 @@ types:
     hp: 40.0
     id: 6759
     marketGroup: 568
+    mass: 1000.0
     maxrange: 9240.0
     metalevelold: 1
     name: Quad Afocal Light Maser I
@@ -5813,6 +5968,7 @@ types:
     hp: 40.0
     id: 6763
     marketGroup: 568
+    mass: 1000.0
     maxrange: 10120.0
     metalevelold: 3
     name: Quad Anode Light Particle Stream I
@@ -5849,6 +6005,7 @@ types:
     hp: 40.0
     id: 455
     marketGroup: 568
+    mass: 1000.0
     maxrange: 8800.0
     name: Quad Light Beam Laser I
     optimalsigradius: 40000
@@ -5885,6 +6042,7 @@ types:
     hp: 40.0
     id: 3285
     marketGroup: 568
+    mass: 1000.0
     maxrange: 10560.0
     metalevelold: 5
     name: Quad Light Beam Laser II
@@ -5924,6 +6082,7 @@ types:
     hp: 40.0
     id: 37290
     marketGroup: 774
+    mass: 40000.0
     maxrange: 33000.0
     name: Quad Mega Pulse Laser I
     optimalsigradius: 40000
@@ -5963,6 +6122,7 @@ types:
     hp: 40.0
     id: 37296
     marketGroup: 774
+    mass: 40000.0
     maxrange: 36300.0
     metalevelold: 5
     name: Quad Mega Pulse Laser II
@@ -6003,6 +6163,7 @@ types:
     hp: 40.0
     id: 6757
     marketGroup: 568
+    mass: 1000.0
     maxrange: 9680.0
     metalevelold: 2
     name: Quad Modal Light Laser I
@@ -6039,6 +6200,7 @@ types:
     hp: 40.0
     id: 6761
     marketGroup: 568
+    mass: 1000.0
     maxrange: 10560.0
     metalevelold: 4
     name: Quad Modulated Light Energy Beam I
@@ -6076,6 +6238,7 @@ types:
     hp: 40.0
     id: 14421
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metagroupid: 5
     metalevelold: 12
@@ -6114,6 +6277,7 @@ types:
     hp: 40.0
     id: 14437
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metagroupid: 5
     metalevelold: 12
@@ -6152,6 +6316,7 @@ types:
     hp: 40.0
     id: 14453
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metagroupid: 5
     metalevelold: 12
@@ -6189,6 +6354,7 @@ types:
     hp: 40.0
     id: 14417
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metagroupid: 5
     metalevelold: 12
@@ -6227,6 +6393,7 @@ types:
     hp: 40.0
     id: 14433
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metagroupid: 5
     metalevelold: 12
@@ -6265,6 +6432,7 @@ types:
     hp: 40.0
     id: 14449
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metagroupid: 5
     metalevelold: 12
@@ -6302,6 +6470,7 @@ types:
     hp: 40.0
     id: 6717
     marketGroup: 567
+    mass: 500.0
     maxrange: 11550.0
     metalevelold: 1
     name: Small Focused Afocal Maser I
@@ -6338,6 +6507,7 @@ types:
     hp: 40.0
     id: 6673
     marketGroup: 570
+    mass: 500.0
     maxrange: 5513.0
     metalevelold: 1
     name: Small Focused Afocal Pulse Maser I
@@ -6374,6 +6544,7 @@ types:
     hp: 40.0
     id: 6721
     marketGroup: 567
+    mass: 500.0
     maxrange: 12650.0
     metalevelold: 3
     name: Small Focused Anode Particle Stream I
@@ -6410,6 +6581,7 @@ types:
     hp: 40.0
     id: 6677
     marketGroup: 570
+    mass: 500.0
     maxrange: 6038.0
     metalevelold: 3
     name: Small Focused Anode Pulse Particle Stream I
@@ -6446,6 +6618,7 @@ types:
     hp: 40.0
     id: 454
     marketGroup: 567
+    mass: 500.0
     maxrange: 11000.0
     name: Small Focused Beam Laser I
     optimalsigradius: 40000
@@ -6482,6 +6655,7 @@ types:
     hp: 40.0
     id: 3033
     marketGroup: 567
+    mass: 500.0
     maxrange: 13200.0
     metalevelold: 5
     name: Small Focused Beam Laser II
@@ -6520,6 +6694,7 @@ types:
     hp: 40.0
     id: 6715
     marketGroup: 567
+    mass: 500.0
     maxrange: 12100.0
     metalevelold: 2
     name: Small Focused Modal Laser I
@@ -6556,6 +6731,7 @@ types:
     hp: 40.0
     id: 6671
     marketGroup: 570
+    mass: 500.0
     maxrange: 5775.0
     metalevelold: 2
     name: Small Focused Modal Pulse Laser I
@@ -6592,6 +6768,7 @@ types:
     hp: 40.0
     id: 6719
     marketGroup: 567
+    mass: 500.0
     maxrange: 13200.0
     metalevelold: 4
     name: Small Focused Modulated Energy Beam I
@@ -6628,6 +6805,7 @@ types:
     hp: 40.0
     id: 6675
     marketGroup: 570
+    mass: 500.0
     maxrange: 6300.0
     metalevelold: 4
     name: Small Focused Modulated Pulse Energy Beam I
@@ -6664,6 +6842,7 @@ types:
     hp: 40.0
     id: 453
     marketGroup: 570
+    mass: 500.0
     maxrange: 5250.0
     name: Small Focused Pulse Laser I
     optimalsigradius: 40000
@@ -6700,6 +6879,7 @@ types:
     hp: 40.0
     id: 3041
     marketGroup: 570
+    mass: 500.0
     maxrange: 6300.0
     metalevelold: 5
     name: Small Focused Pulse Laser II
@@ -6738,6 +6918,7 @@ types:
     hp: 40.0
     id: 7169
     marketGroup: 569
+    mass: 2000.0
     maxrange: 46200.0
     metalevelold: 1
     name: Tachyon Afocal Maser I
@@ -6774,6 +6955,7 @@ types:
     hp: 40.0
     id: 7173
     marketGroup: 569
+    mass: 2000.0
     maxrange: 50600.0
     metalevelold: 3
     name: Tachyon Anode Particle Stream I
@@ -6810,6 +6992,7 @@ types:
     hp: 40.0
     id: 464
     marketGroup: 569
+    mass: 2000.0
     maxrange: 44000.0
     name: Tachyon Beam Laser I
     optimalsigradius: 40000
@@ -6846,6 +7029,7 @@ types:
     hp: 40.0
     id: 3065
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metalevelold: 5
     name: Tachyon Beam Laser II
@@ -6884,6 +7068,7 @@ types:
     hp: 40.0
     id: 7167
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48400.0
     metalevelold: 2
     name: Tachyon Modal Laser I
@@ -6920,6 +7105,7 @@ types:
     hp: 40.0
     id: 7171
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metalevelold: 4
     name: Tachyon Modulated Energy Beam I
@@ -6957,6 +7143,7 @@ types:
     hp: 40.0
     id: 14425
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metagroupid: 5
     metalevelold: 12
@@ -6995,6 +7182,7 @@ types:
     hp: 40.0
     id: 14441
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metagroupid: 5
     metalevelold: 12
@@ -7033,6 +7221,7 @@ types:
     hp: 40.0
     id: 41119
     marketGroup: 773
+    mass: 40000.0
     maxrange: 110000.0
     metagroupid: 4
     metalevelold: 8
@@ -7071,6 +7260,7 @@ types:
     hp: 40.0
     id: 41104
     marketGroup: 774
+    mass: 40000.0
     maxrange: 46200.0
     metagroupid: 4
     metalevelold: 8
@@ -7109,6 +7299,7 @@ types:
     hp: 40.0
     id: 13820
     marketGroup: 569
+    mass: 2000.0
     maxrange: 42000.0
     metagroupid: 4
     metalevelold: 8
@@ -7147,6 +7338,7 @@ types:
     hp: 40.0
     id: 13821
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metagroupid: 4
     metalevelold: 8
@@ -7185,6 +7377,7 @@ types:
     hp: 40.0
     id: 13822
     marketGroup: 567
+    mass: 500.0
     maxrange: 12032.0
     metagroupid: 4
     metalevelold: 8
@@ -7223,6 +7416,7 @@ types:
     hp: 40.0
     id: 13823
     marketGroup: 570
+    mass: 500.0
     maxrange: 5906.0
     metagroupid: 4
     metalevelold: 8
@@ -7261,6 +7455,7 @@ types:
     hp: 40.0
     id: 13824
     marketGroup: 568
+    mass: 1000.0
     maxrange: 24063.0
     metagroupid: 4
     metalevelold: 8
@@ -7299,6 +7494,7 @@ types:
     hp: 40.0
     id: 13825
     marketGroup: 572
+    mass: 1000.0
     maxrange: 11813.0
     metagroupid: 4
     metalevelold: 8
@@ -7337,6 +7533,7 @@ types:
     hp: 40.0
     id: 13826
     marketGroup: 570
+    mass: 500.0
     maxrange: 5250.0
     metagroupid: 4
     metalevelold: 8
@@ -7375,6 +7572,7 @@ types:
     hp: 40.0
     id: 13827
     marketGroup: 568
+    mass: 1000.0
     maxrange: 27500.0
     metagroupid: 4
     metalevelold: 8
@@ -7413,6 +7611,7 @@ types:
     hp: 40.0
     id: 13828
     marketGroup: 572
+    mass: 1000.0
     maxrange: 13125.0
     metagroupid: 4
     metalevelold: 8
@@ -7451,6 +7650,7 @@ types:
     hp: 40.0
     id: 13831
     marketGroup: 569
+    mass: 2000.0
     maxrange: 48000.0
     metagroupid: 4
     metalevelold: 8
@@ -7489,6 +7689,7 @@ types:
     hp: 40.0
     id: 13832
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metagroupid: 4
     metalevelold: 8
@@ -7527,6 +7728,7 @@ types:
     hp: 40.0
     id: 13833
     marketGroup: 568
+    mass: 1000.0
     maxrange: 11000.0
     metagroupid: 4
     metalevelold: 8
@@ -7566,6 +7768,7 @@ types:
     hp: 40.0
     id: 41067
     marketGroup: 774
+    mass: 40000.0
     maxrange: 36300.0
     metagroupid: 4
     metalevelold: 8
@@ -7606,6 +7809,7 @@ types:
     hp: 40.0
     id: 13829
     marketGroup: 567
+    mass: 500.0
     maxrange: 13750.0
     metagroupid: 4
     metalevelold: 8
@@ -7644,6 +7848,7 @@ types:
     hp: 40.0
     id: 13830
     marketGroup: 570
+    mass: 500.0
     maxrange: 6563.0
     metagroupid: 4
     metalevelold: 8
@@ -7682,6 +7887,7 @@ types:
     hp: 40.0
     id: 13834
     marketGroup: 569
+    mass: 2000.0
     maxrange: 52800.0
     metagroupid: 4
     metalevelold: 8
@@ -7720,6 +7926,7 @@ types:
     hp: 40.0
     id: 14431
     marketGroup: 573
+    mass: 2000.0
     maxrange: 22680.0
     metagroupid: 5
     metalevelold: 14
@@ -7758,6 +7965,7 @@ types:
     hp: 40.0
     id: 14447
     marketGroup: 573
+    mass: 2000.0
     maxrange: 25200.0
     metagroupid: 5
     metalevelold: 14

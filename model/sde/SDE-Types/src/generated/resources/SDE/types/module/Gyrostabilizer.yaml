@@ -40,6 +40,7 @@ types:
   Abyssal Gyrostabilizer:
     damagemultiplier: 1.0
     id: 49730
+    mass: 1.0
     name: Abyssal Gyrostabilizer
     packagedVolume: 1.0
     portionSize: 1

@@ -47,7 +47,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ManufactureCostMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ManufactureSlotLimit;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ManufactureTimeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ManufacturingTimeResearchSpeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGangModules;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLaborotorySlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
@@ -317,13 +316,6 @@ public class Character
     @DefaultIntValue(1)
     public int manufacturingtimeresearchspeed;
     /**
-     * Integer that describes the types mass
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double mass;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -541,7 +533,7 @@ public class Character
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpower;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingTimeResearchSpeed.INSTANCE, CopySpeedPercent.INSTANCE, FrigateConstructionCost.INSTANCE, Mass.INSTANCE, CruiserConstructionCost.INSTANCE, IndustrialConstructionCost.INSTANCE, BattleshipConstructionCost.INSTANCE, TitanConstructionTime.INSTANCE, DamageCloudChance.INSTANCE, StationConstructionTime.INSTANCE, RepairCostPercent.INSTANCE, ReverseEngineeringChance.INSTANCE, MineralNeedResearchSpeed.INSTANCE, DuplicatingChance.INSTANCE, MissileStandardVelocityPecent.INSTANCE, CruiseMissileVelocityPercent.INSTANCE, HeavyMissileSpeedPercent.INSTANCE, TorpedoVelocityPercent.INSTANCE, MissileFOFVelocityPercent.INSTANCE, MaxNonRaceCorporationMembers.INSTANCE, Radius.INSTANCE, Charisma.INSTANCE, Intelligence.INSTANCE, Memory.INSTANCE, Capacity.INSTANCE, Perception.INSTANCE, InventionReverseEngineeringResearchSpeed.INSTANCE, RocketVelocityPercent.INSTANCE, Willpower.INSTANCE, CustomCharismaBonus.INSTANCE, HeavyDroneDamagePercent.INSTANCE, CustomWillpowerBonus.INSTANCE, CustomPerceptionBonus.INSTANCE, MiningDroneAmountPercent.INSTANCE, CustomMemoryBonus.INSTANCE, CustomIntelligenceBonus.INSTANCE, MaxGangModules.INSTANCE, BarterDiscount.INSTANCE, RepairCostMultiplier.INSTANCE, TradePremium.INSTANCE, ContrabandFencingChance.INSTANCE, SmugglingChance.INSTANCE, MaxLockedTargets.INSTANCE, ManufactureSlotLimit.INSTANCE, DroneControlDistance.INSTANCE, MaxLaborotorySlots.INSTANCE, ContrabandDetectionChance.INSTANCE, MissileDamageMultiplier.INSTANCE, ManufactureTimeMultiplier.INSTANCE, NegotiationPercentage.INSTANCE, DiplomacyBonus.INSTANCE, FastTalkPercentage.INSTANCE, ReactionSlotLimit.INSTANCE, ConnectionsBonus.INSTANCE, CriminalConnectionsBonus.INSTANCE, SocialBonus.INSTANCE, RefiningTimePercentage.INSTANCE, BountyBonus.INSTANCE, ManufactureCostMultiplier.INSTANCE, BountyMultiplier.INSTANCE, ModuleRepairRate.INSTANCE, RefiningYieldPercentage.INSTANCE, ShipBrokenModuleRepairCostMultiplier.INSTANCE, WarpAccuracyMaxRange.INSTANCE, WarpAccuracyFactor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingTimeResearchSpeed.INSTANCE, CopySpeedPercent.INSTANCE, FrigateConstructionCost.INSTANCE, CruiserConstructionCost.INSTANCE, IndustrialConstructionCost.INSTANCE, BattleshipConstructionCost.INSTANCE, TitanConstructionTime.INSTANCE, DamageCloudChance.INSTANCE, StationConstructionTime.INSTANCE, RepairCostPercent.INSTANCE, ReverseEngineeringChance.INSTANCE, MineralNeedResearchSpeed.INSTANCE, DuplicatingChance.INSTANCE, MissileStandardVelocityPecent.INSTANCE, CruiseMissileVelocityPercent.INSTANCE, HeavyMissileSpeedPercent.INSTANCE, TorpedoVelocityPercent.INSTANCE, MissileFOFVelocityPercent.INSTANCE, MaxNonRaceCorporationMembers.INSTANCE, Radius.INSTANCE, Charisma.INSTANCE, Intelligence.INSTANCE, Memory.INSTANCE, Capacity.INSTANCE, Perception.INSTANCE, InventionReverseEngineeringResearchSpeed.INSTANCE, RocketVelocityPercent.INSTANCE, Willpower.INSTANCE, CustomCharismaBonus.INSTANCE, HeavyDroneDamagePercent.INSTANCE, CustomWillpowerBonus.INSTANCE, CustomPerceptionBonus.INSTANCE, MiningDroneAmountPercent.INSTANCE, CustomMemoryBonus.INSTANCE, CustomIntelligenceBonus.INSTANCE, MaxGangModules.INSTANCE, BarterDiscount.INSTANCE, RepairCostMultiplier.INSTANCE, TradePremium.INSTANCE, ContrabandFencingChance.INSTANCE, SmugglingChance.INSTANCE, MaxLockedTargets.INSTANCE, ManufactureSlotLimit.INSTANCE, DroneControlDistance.INSTANCE, MaxLaborotorySlots.INSTANCE, ContrabandDetectionChance.INSTANCE, MissileDamageMultiplier.INSTANCE, ManufactureTimeMultiplier.INSTANCE, NegotiationPercentage.INSTANCE, DiplomacyBonus.INSTANCE, FastTalkPercentage.INSTANCE, ReactionSlotLimit.INSTANCE, ConnectionsBonus.INSTANCE, CriminalConnectionsBonus.INSTANCE, SocialBonus.INSTANCE, RefiningTimePercentage.INSTANCE, BountyBonus.INSTANCE, ManufactureCostMultiplier.INSTANCE, BountyMultiplier.INSTANCE, ModuleRepairRate.INSTANCE, RefiningYieldPercentage.INSTANCE, ShipBrokenModuleRepairCostMultiplier.INSTANCE, WarpAccuracyMaxRange.INSTANCE, WarpAccuracyFactor.INSTANCE })));
     public static final Character.MetaGroup METAGROUP = new Character.MetaGroup();
 
     @Override
@@ -678,10 +670,6 @@ public class Character
             case  385 :
             {
                 return manufacturingtimeresearchspeed;
-            }
-            case  4 :
-            {
-                return mass;
             }
             case  435 :
             {

@@ -30,6 +30,7 @@ types:
     hp: 3000.0
     id: 48132
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxvelocity: 115.0
     missiledamagemultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
@@ -80,6 +81,7 @@ types:
     hp: 40000.0
     id: 59792
     kineticdamageresonance: 1.0
+    mass: 1.0E7
     maxlockedtargets: 2
     maxtargetrange: 35000.0
     maxvelocity: 140.0
@@ -147,6 +149,7 @@ types:
     hp: 20.0
     id: 49793
     kineticdamageresonance: 0.43549999594688416
+    mass: 1.35E7
     maxattacktargets: 1
     maxlockedtargets: 2
     maxtargetrange: 65625.0
@@ -205,6 +208,7 @@ types:
     hp: 40000.0
     id: 59793
     kineticdamageresonance: 1.0
+    mass: 1.1E7
     maxlockedtargets: 2
     maxtargetrange: 35000.0
     maxvelocity: 125.0
@@ -256,6 +260,7 @@ types:
     hp: 1100.0
     id: 48119
     kineticdamageresonance: 1.0
+    mass: 1.105E8
     maxvelocity: 200.0
     missiledamagemultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
@@ -310,6 +315,7 @@ types:
     hp: 940.0
     id: 56943
     kineticdamageresonance: 1.0
+    mass: 1.35E7
     maxlockedtargets: 4
     maxrange: 8000.0
     maxtargetrange: 30000.0

@@ -22,6 +22,7 @@ types:
     gfxboosterid: 395
     hp: 100.0
     id: 29233
+    mass: 1600000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 180.0
@@ -67,6 +68,7 @@ types:
     gfxboosterid: 395
     hp: 100.0
     id: 2378
+    mass: 1600000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 180.0

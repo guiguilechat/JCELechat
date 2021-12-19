@@ -1030,6 +1030,7 @@ types:
     volume: 25.0
   Large Abyssal Shield Booster:
     id: 47789
+    mass: 1.0
     name: Large Abyssal Shield Booster
     packagedVolume: 25.0
     portionSize: 1
@@ -1161,6 +1162,7 @@ types:
     volume: 10.0
   Medium Abyssal Shield Booster:
     id: 47785
+    mass: 1.0
     name: Medium Abyssal Shield Booster
     packagedVolume: 10.0
     portionSize: 1
@@ -1742,6 +1744,7 @@ types:
     volume: 5.0
   Small Abyssal Shield Booster:
     id: 47781
+    mass: 1.0
     name: Small Abyssal Shield Booster
     packagedVolume: 5.0
     portionSize: 1
@@ -2048,6 +2051,7 @@ types:
     volume: 50.0
   X-Large Abyssal Shield Booster:
     id: 47793
+    mass: 1.0
     name: X-Large Abyssal Shield Booster
     packagedVolume: 50.0
     portionSize: 1

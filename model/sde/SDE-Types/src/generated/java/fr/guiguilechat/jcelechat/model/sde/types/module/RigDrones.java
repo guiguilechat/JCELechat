@@ -23,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DroneMaxVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -138,7 +137,7 @@ public class RigDrones
     @Stackable(true)
     @DefaultIntValue(0)
     public int webspeedfactorbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, Mass.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, DamageHP.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, DroneRangeBonus.INSTANCE, SpeedFactorBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, DefenderVelocityBonus.INSTANCE, Drawback.INSTANCE, MiningAmountBonus.INSTANCE, WebSpeedFactorBonus.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, DamageHP.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, DroneRangeBonus.INSTANCE, SpeedFactorBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, DefenderVelocityBonus.INSTANCE, Drawback.INSTANCE, MiningAmountBonus.INSTANCE, WebSpeedFactorBonus.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final RigDrones.MetaGroup METAGROUP = new RigDrones.MetaGroup();
 
     @Override

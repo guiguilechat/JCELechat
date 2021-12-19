@@ -12,6 +12,7 @@ types:
     hp: 40.0
     id: 497
     marketGroup: 579
+    mass: 2000.0
     maxrange: 32200.0
     name: 1200mm Artillery Cannon I
     optimalsigradius: 40000
@@ -48,6 +49,7 @@ types:
     hp: 40.0
     id: 2865
     marketGroup: 579
+    mass: 2000.0
     maxrange: 38640.0
     metalevelold: 5
     name: 1200mm Artillery Cannon II
@@ -87,6 +89,7 @@ types:
     hp: 40.0
     id: 21559
     marketGroup: 579
+    mass: 2000.0
     maxrange: 32200.0
     metagroupid: 3
     name: 1200mm Heavy 'Jolt' Artillery I
@@ -123,6 +126,7 @@ types:
     hp: 40.0
     id: 9367
     marketGroup: 579
+    mass: 2000.0
     maxrange: 38640.0
     metalevelold: 4
     name: 1200mm Heavy 'Scout' Artillery I
@@ -159,6 +163,7 @@ types:
     hp: 40.0
     id: 9369
     marketGroup: 579
+    mass: 2000.0
     maxrange: 33810.0
     metalevelold: 1
     name: 1200mm Heavy Carbine Howitzer I
@@ -195,6 +200,7 @@ types:
     hp: 40.0
     id: 9371
     marketGroup: 579
+    mass: 2000.0
     maxrange: 35420.0
     metalevelold: 2
     name: 1200mm Heavy Gallium Cannon
@@ -231,6 +237,7 @@ types:
     hp: 40.0
     id: 9377
     marketGroup: 579
+    mass: 2000.0
     maxrange: 37030.0
     metalevelold: 3
     name: 1200mm Heavy Prototype Siege Cannon
@@ -267,6 +274,7 @@ types:
     hp: 40.0
     id: 484
     marketGroup: 574
+    mass: 500.0
     maxrange: 800.0
     name: 125mm Gatling AutoCannon I
     optimalsigradius: 40000
@@ -303,6 +311,7 @@ types:
     hp: 40.0
     id: 2873
     marketGroup: 574
+    mass: 500.0
     maxrange: 960.0
     metalevelold: 5
     name: 125mm Gatling AutoCannon II
@@ -341,6 +350,7 @@ types:
     hp: 40.0
     id: 8759
     marketGroup: 574
+    mass: 500.0
     maxrange: 960.0
     metalevelold: 4
     name: 125mm Light 'Scout' Autocannon I
@@ -377,6 +387,7 @@ types:
     hp: 40.0
     id: 8785
     marketGroup: 574
+    mass: 500.0
     maxrange: 840.0
     metalevelold: 1
     name: 125mm Light Carbine Repeating Cannon I
@@ -413,6 +424,7 @@ types:
     hp: 40.0
     id: 8787
     marketGroup: 574
+    mass: 500.0
     maxrange: 880.0
     metalevelold: 2
     name: 125mm Light Gallium Machine Gun
@@ -449,6 +461,7 @@ types:
     hp: 40.0
     id: 8789
     marketGroup: 574
+    mass: 500.0
     maxrange: 920.0
     metalevelold: 3
     name: 125mm Light Prototype Automatic Cannon
@@ -486,6 +499,7 @@ types:
     hp: 40.0
     id: 21561
     marketGroup: 579
+    mass: 2000.0
     maxrange: 40000.0
     metagroupid: 3
     metalevelold: 6
@@ -523,6 +537,7 @@ types:
     hp: 40.0
     id: 9491
     marketGroup: 579
+    mass: 2000.0
     maxrange: 48000.0
     metalevelold: 4
     name: 1400mm 'Scout' Artillery I
@@ -559,6 +574,7 @@ types:
     hp: 40.0
     id: 9493
     marketGroup: 579
+    mass: 2000.0
     maxrange: 42000.0
     metalevelold: 1
     name: 1400mm Carbine Howitzer I
@@ -595,6 +611,7 @@ types:
     hp: 40.0
     id: 9495
     marketGroup: 579
+    mass: 2000.0
     maxrange: 44000.0
     metalevelold: 2
     name: 1400mm Gallium Cannon
@@ -631,6 +648,7 @@ types:
     hp: 40.0
     id: 498
     marketGroup: 579
+    mass: 2000.0
     maxrange: 40000.0
     name: 1400mm Howitzer Artillery I
     optimalsigradius: 40000
@@ -667,6 +685,7 @@ types:
     hp: 40.0
     id: 2961
     marketGroup: 579
+    mass: 2000.0
     maxrange: 48000.0
     metalevelold: 5
     name: 1400mm Howitzer Artillery II
@@ -705,6 +724,7 @@ types:
     hp: 40.0
     id: 9497
     marketGroup: 579
+    mass: 2000.0
     maxrange: 46000.0
     metalevelold: 3
     name: 1400mm Prototype Siege Cannon
@@ -741,6 +761,7 @@ types:
     hp: 40.0
     id: 8815
     marketGroup: 574
+    mass: 500.0
     maxrange: 1080.0
     metalevelold: 4
     name: 150mm Light 'Scout' Autocannon I
@@ -777,6 +798,7 @@ types:
     hp: 40.0
     id: 485
     marketGroup: 574
+    mass: 500.0
     maxrange: 900.0
     name: 150mm Light AutoCannon I
     optimalsigradius: 40000
@@ -813,6 +835,7 @@ types:
     hp: 40.0
     id: 2881
     marketGroup: 574
+    mass: 500.0
     maxrange: 1080.0
     metalevelold: 5
     name: 150mm Light AutoCannon II
@@ -851,6 +874,7 @@ types:
     hp: 40.0
     id: 8817
     marketGroup: 574
+    mass: 500.0
     maxrange: 945.0
     metalevelold: 1
     name: 150mm Light Carbine Repeating Cannon I
@@ -887,6 +911,7 @@ types:
     hp: 40.0
     id: 8819
     marketGroup: 574
+    mass: 500.0
     maxrange: 990.0
     metalevelold: 2
     name: 150mm Light Gallium Machine Gun
@@ -923,6 +948,7 @@ types:
     hp: 40.0
     id: 8821
     marketGroup: 574
+    mass: 500.0
     maxrange: 1035.0
     metalevelold: 3
     name: 150mm Light Prototype Automatic Cannon
@@ -959,6 +985,7 @@ types:
     hp: 40.0
     id: 486
     marketGroup: 574
+    mass: 500.0
     maxrange: 1000.0
     name: 200mm AutoCannon I
     optimalsigradius: 40000
@@ -995,6 +1022,7 @@ types:
     hp: 40.0
     id: 2889
     marketGroup: 574
+    mass: 500.0
     maxrange: 1200.0
     metalevelold: 5
     name: 200mm AutoCannon II
@@ -1034,6 +1062,7 @@ types:
     hp: 40.0
     id: 21545
     marketGroup: 574
+    mass: 500.0
     maxrange: 1000.0
     metagroupid: 3
     metalevelold: 6
@@ -1071,6 +1100,7 @@ types:
     hp: 40.0
     id: 8863
     marketGroup: 574
+    mass: 500.0
     maxrange: 1200.0
     metalevelold: 4
     name: 200mm Light 'Scout' Autocannon I
@@ -1107,6 +1137,7 @@ types:
     hp: 40.0
     id: 8865
     marketGroup: 574
+    mass: 500.0
     maxrange: 1050.0
     metalevelold: 1
     name: 200mm Light Carbine Repeating Cannon I
@@ -1143,6 +1174,7 @@ types:
     hp: 40.0
     id: 8867
     marketGroup: 574
+    mass: 500.0
     maxrange: 1100.0
     metalevelold: 2
     name: 200mm Light Gallium Machine Gun
@@ -1179,6 +1211,7 @@ types:
     hp: 40.0
     id: 8869
     marketGroup: 574
+    mass: 500.0
     maxrange: 1150.0
     metalevelold: 3
     name: 200mm Light Prototype Automatic Cannon
@@ -1215,6 +1248,7 @@ types:
     hp: 40.0
     id: 9127
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2160.0
     metalevelold: 4
     name: 220mm Medium 'Scout' Autocannon I
@@ -1251,6 +1285,7 @@ types:
     hp: 40.0
     id: 9129
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1890.0
     metalevelold: 1
     name: 220mm Medium Carbine Repeating Cannon I
@@ -1287,6 +1322,7 @@ types:
     hp: 40.0
     id: 9131
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1980.0
     metalevelold: 2
     name: 220mm Medium Gallium Machine Gun
@@ -1323,6 +1359,7 @@ types:
     hp: 40.0
     id: 9133
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2070.0
     metalevelold: 3
     name: 220mm Medium Prototype Automatic Cannon
@@ -1359,6 +1396,7 @@ types:
     hp: 40.0
     id: 490
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1800.0
     name: 220mm Vulcan AutoCannon I
     optimalsigradius: 40000
@@ -1395,6 +1433,7 @@ types:
     hp: 40.0
     id: 2897
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2160.0
     metalevelold: 5
     name: 220mm Vulcan AutoCannon II
@@ -1434,6 +1473,7 @@ types:
     hp: 40.0
     id: 21547
     marketGroup: 577
+    mass: 500.0
     maxrange: 8050.0
     metagroupid: 3
     metalevelold: 6
@@ -1471,6 +1511,7 @@ types:
     hp: 40.0
     id: 8903
     marketGroup: 577
+    mass: 500.0
     maxrange: 9660.0
     metalevelold: 4
     name: 250mm Light 'Scout' Artillery I
@@ -1507,6 +1548,7 @@ types:
     hp: 40.0
     id: 487
     marketGroup: 577
+    mass: 500.0
     maxrange: 8050.0
     name: 250mm Light Artillery Cannon I
     optimalsigradius: 40000
@@ -1543,6 +1585,7 @@ types:
     hp: 40.0
     id: 2905
     marketGroup: 577
+    mass: 500.0
     maxrange: 9660.0
     metalevelold: 5
     name: 250mm Light Artillery Cannon II
@@ -1581,6 +1624,7 @@ types:
     hp: 40.0
     id: 8905
     marketGroup: 577
+    mass: 500.0
     maxrange: 8453.0
     metalevelold: 1
     name: 250mm Light Carbine Howitzer I
@@ -1617,6 +1661,7 @@ types:
     hp: 40.0
     id: 8907
     marketGroup: 577
+    mass: 500.0
     maxrange: 8855.0
     metalevelold: 2
     name: 250mm Light Gallium Cannon
@@ -1653,6 +1698,7 @@ types:
     hp: 40.0
     id: 8909
     marketGroup: 577
+    mass: 500.0
     maxrange: 9258.0
     metalevelold: 3
     name: 250mm Light Prototype Siege Cannon
@@ -1690,6 +1736,7 @@ types:
     hp: 40.0
     id: 21549
     marketGroup: 577
+    mass: 500.0
     maxrange: 10000.0
     metagroupid: 3
     metalevelold: 6
@@ -1727,6 +1774,7 @@ types:
     hp: 40.0
     id: 9411
     marketGroup: 577
+    mass: 500.0
     maxrange: 12000.0
     metalevelold: 4
     name: 280mm 'Scout' Artillery I
@@ -1763,6 +1811,7 @@ types:
     hp: 40.0
     id: 9413
     marketGroup: 577
+    mass: 500.0
     maxrange: 10500.0
     metalevelold: 1
     name: 280mm Carbine Howitzer I
@@ -1799,6 +1848,7 @@ types:
     hp: 40.0
     id: 9415
     marketGroup: 577
+    mass: 500.0
     maxrange: 11000.0
     metalevelold: 2
     name: 280mm Gallium Cannon
@@ -1835,6 +1885,7 @@ types:
     hp: 40.0
     id: 488
     marketGroup: 577
+    mass: 500.0
     maxrange: 10000.0
     name: 280mm Howitzer Artillery I
     optimalsigradius: 40000
@@ -1871,6 +1922,7 @@ types:
     hp: 40.0
     id: 2977
     marketGroup: 577
+    mass: 500.0
     maxrange: 12000.0
     metalevelold: 5
     name: 280mm Howitzer Artillery II
@@ -1909,6 +1961,7 @@ types:
     hp: 40.0
     id: 9417
     marketGroup: 577
+    mass: 500.0
     maxrange: 11500.0
     metalevelold: 3
     name: 280mm Prototype Siege Cannon
@@ -1945,6 +1998,7 @@ types:
     hp: 40.0
     id: 491
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2000.0
     name: 425mm AutoCannon I
     optimalsigradius: 40000
@@ -1981,6 +2035,7 @@ types:
     hp: 40.0
     id: 2913
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2400.0
     metalevelold: 5
     name: 425mm AutoCannon II
@@ -2020,6 +2075,7 @@ types:
     hp: 40.0
     id: 21551
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2000.0
     metagroupid: 3
     metalevelold: 6
@@ -2057,6 +2113,7 @@ types:
     hp: 40.0
     id: 9135
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2400.0
     metalevelold: 4
     name: 425mm Medium 'Scout' Autocannon I
@@ -2093,6 +2150,7 @@ types:
     hp: 40.0
     id: 9137
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2100.0
     metalevelold: 1
     name: 425mm Medium Carbine Repeating Cannon I
@@ -2129,6 +2187,7 @@ types:
     hp: 40.0
     id: 9139
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2200.0
     metalevelold: 2
     name: 425mm Medium Gallium Machine Gun
@@ -2165,6 +2224,7 @@ types:
     hp: 40.0
     id: 9141
     marketGroup: 575
+    mass: 1000.0
     maxrange: 2300.0
     metalevelold: 3
     name: 425mm Medium Prototype Automatic Cannon
@@ -2201,6 +2261,7 @@ types:
     hp: 40.0
     id: 492
     marketGroup: 578
+    mass: 125.0
     maxrange: 16100.0
     name: 650mm Artillery Cannon I
     optimalsigradius: 40000
@@ -2237,6 +2298,7 @@ types:
     hp: 40.0
     id: 2921
     marketGroup: 578
+    mass: 125.0
     maxrange: 19320.0
     metalevelold: 5
     name: 650mm Artillery Cannon II
@@ -2276,6 +2338,7 @@ types:
     hp: 40.0
     id: 21553
     marketGroup: 578
+    mass: 125.0
     maxrange: 16100.0
     metagroupid: 3
     metalevelold: 6
@@ -2313,6 +2376,7 @@ types:
     hp: 40.0
     id: 9207
     marketGroup: 578
+    mass: 125.0
     maxrange: 19320.0
     metalevelold: 4
     name: 650mm Medium 'Scout' Artillery I
@@ -2349,6 +2413,7 @@ types:
     hp: 40.0
     id: 9209
     marketGroup: 578
+    mass: 125.0
     maxrange: 16905.0
     metalevelold: 1
     name: 650mm Medium Carbine Howitzer I
@@ -2385,6 +2450,7 @@ types:
     hp: 40.0
     id: 9211
     marketGroup: 578
+    mass: 125.0
     maxrange: 17710.0
     metalevelold: 2
     name: 650mm Medium Gallium Cannon
@@ -2421,6 +2487,7 @@ types:
     hp: 40.0
     id: 9213
     marketGroup: 578
+    mass: 125.0
     maxrange: 18515.0
     metalevelold: 3
     name: 650mm Medium Prototype Siege Cannon
@@ -2458,6 +2525,7 @@ types:
     hp: 40.0
     id: 21555
     marketGroup: 578
+    mass: 50.0
     maxrange: 20000.0
     metagroupid: 3
     metalevelold: 6
@@ -2495,6 +2563,7 @@ types:
     hp: 40.0
     id: 9451
     marketGroup: 578
+    mass: 50.0
     maxrange: 24000.0
     metalevelold: 4
     name: 720mm 'Scout' Artillery I
@@ -2531,6 +2600,7 @@ types:
     hp: 40.0
     id: 9453
     marketGroup: 578
+    mass: 50.0
     maxrange: 21000.0
     metalevelold: 1
     name: 720mm Carbine Howitzer I
@@ -2567,6 +2637,7 @@ types:
     hp: 40.0
     id: 9455
     marketGroup: 578
+    mass: 50.0
     maxrange: 22000.0
     metalevelold: 2
     name: 720mm Gallium Cannon
@@ -2603,6 +2674,7 @@ types:
     hp: 40.0
     id: 493
     marketGroup: 578
+    mass: 50.0
     maxrange: 20000.0
     name: 720mm Howitzer Artillery I
     optimalsigradius: 40000
@@ -2639,6 +2711,7 @@ types:
     hp: 40.0
     id: 2969
     marketGroup: 578
+    mass: 50.0
     maxrange: 24000.0
     metalevelold: 5
     name: 720mm Howitzer Artillery II
@@ -2677,6 +2750,7 @@ types:
     hp: 40.0
     id: 9457
     marketGroup: 578
+    mass: 50.0
     maxrange: 23000.0
     metalevelold: 3
     name: 720mm Prototype Siege Cannon
@@ -2714,6 +2788,7 @@ types:
     hp: 40.0
     id: 21557
     marketGroup: 576
+    mass: 75.0
     maxrange: 4000.0
     metagroupid: 3
     metalevelold: 6
@@ -2751,6 +2826,7 @@ types:
     hp: 40.0
     id: 9327
     marketGroup: 576
+    mass: 75.0
     maxrange: 4800.0
     metalevelold: 4
     name: 800mm Heavy 'Scout' Repeating Cannon I
@@ -2787,6 +2863,7 @@ types:
     hp: 40.0
     id: 9329
     marketGroup: 576
+    mass: 75.0
     maxrange: 4200.0
     metalevelold: 1
     name: 800mm Heavy Carbine Repeating Cannon I
@@ -2823,6 +2900,7 @@ types:
     hp: 40.0
     id: 9331
     marketGroup: 576
+    mass: 75.0
     maxrange: 4400.0
     metalevelold: 2
     name: 800mm Heavy Gallium Repeating Cannon
@@ -2859,6 +2937,7 @@ types:
     hp: 40.0
     id: 9333
     marketGroup: 576
+    mass: 75.0
     maxrange: 4600.0
     metalevelold: 3
     name: 800mm Heavy Prototype Automatic Cannon
@@ -2895,6 +2974,7 @@ types:
     hp: 40.0
     id: 496
     marketGroup: 576
+    mass: 75.0
     maxrange: 4000.0
     name: 800mm Repeating Cannon I
     optimalsigradius: 40000
@@ -2931,6 +3011,7 @@ types:
     hp: 40.0
     id: 2929
     marketGroup: 576
+    mass: 75.0
     maxrange: 4800.0
     metalevelold: 5
     name: 800mm Repeating Cannon II
@@ -2970,6 +3051,7 @@ types:
     hp: 40.0
     id: 41080
     marketGroup: 776
+    mass: 75.0
     maxrange: 20000.0
     metalevelold: 1
     name: Ample Gallium Quad 800mm Repeating Cannon
@@ -3009,6 +3091,7 @@ types:
     hp: 40.0
     id: 3573
     marketGroup: 776
+    mass: 75.0
     maxrange: 27500.0
     metagroupid: 4
     metalevelold: 8
@@ -3047,6 +3130,7 @@ types:
     hp: 40.0
     id: 3571
     marketGroup: 775
+    mass: 750.0
     maxrange: 103400.0
     metagroupid: 4
     metalevelold: 8
@@ -3084,6 +3168,7 @@ types:
     hp: 40.0
     id: 41156
     marketGroup: 775
+    mass: 750.0
     maxrange: 94000.0
     metalevelold: 1
     name: Carbide Compact Quad 3500mm Siege Artillery
@@ -3120,6 +3205,7 @@ types:
     hp: 40.0
     id: 41150
     marketGroup: 776
+    mass: 75.0
     maxrange: 25000.0
     metalevelold: 1
     name: Carbine Compact Hexa 2500mm Repeating Cannon
@@ -3157,6 +3243,7 @@ types:
     hp: 40.0
     id: 37305
     marketGroup: 776
+    mass: 75.0
     maxrange: 20000.0
     metalevelold: 1
     name: Compact Carbine Quad 800mm Repeating Cannon
@@ -3196,6 +3283,7 @@ types:
     hp: 40.0
     id: 13774
     marketGroup: 579
+    mass: 750.0
     maxrange: 38640.0
     metagroupid: 4
     metalevelold: 6
@@ -3234,6 +3322,7 @@ types:
     hp: 40.0
     id: 13773
     marketGroup: 574
+    mass: 750.0
     maxrange: 960.0
     metagroupid: 4
     metalevelold: 7
@@ -3272,6 +3361,7 @@ types:
     hp: 40.0
     id: 13775
     marketGroup: 579
+    mass: 1500.0
     maxrange: 48000.0
     metagroupid: 4
     metalevelold: 7
@@ -3310,6 +3400,7 @@ types:
     hp: 40.0
     id: 13776
     marketGroup: 574
+    mass: 20.0
     maxrange: 1080.0
     metagroupid: 4
     metalevelold: 7
@@ -3348,6 +3439,7 @@ types:
     hp: 40.0
     id: 13777
     marketGroup: 574
+    mass: 15.0
     maxrange: 1200.0
     metagroupid: 4
     metalevelold: 7
@@ -3386,6 +3478,7 @@ types:
     hp: 40.0
     id: 13778
     marketGroup: 575
+    mass: 12.0
     maxrange: 2160.0
     metagroupid: 4
     metalevelold: 7
@@ -3424,6 +3517,7 @@ types:
     hp: 40.0
     id: 13779
     marketGroup: 577
+    mass: 150.0
     maxrange: 9660.0
     metagroupid: 4
     metalevelold: 7
@@ -3462,6 +3556,7 @@ types:
     hp: 40.0
     id: 13781
     marketGroup: 577
+    mass: 5.0
     maxrange: 12000.0
     metagroupid: 4
     metalevelold: 7
@@ -3500,6 +3595,7 @@ types:
     hp: 40.0
     id: 13782
     marketGroup: 575
+    mass: 8.0
     maxrange: 2400.0
     metagroupid: 4
     metalevelold: 7
@@ -3538,6 +3634,7 @@ types:
     hp: 40.0
     id: 13783
     marketGroup: 578
+    mass: 125.0
     maxrange: 19320.0
     metagroupid: 4
     metalevelold: 7
@@ -3576,6 +3673,7 @@ types:
     hp: 40.0
     id: 13784
     marketGroup: 578
+    mass: 50.0
     maxrange: 24000.0
     metagroupid: 4
     metalevelold: 7
@@ -3614,6 +3712,7 @@ types:
     hp: 40.0
     id: 13785
     marketGroup: 576
+    mass: 75.0
     maxrange: 4800.0
     metagroupid: 4
     metalevelold: 7
@@ -3652,6 +3751,7 @@ types:
     hp: 40.0
     id: 13786
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1920.0
     metagroupid: 4
     metalevelold: 7
@@ -3690,6 +3790,7 @@ types:
     hp: 40.0
     id: 13787
     marketGroup: 576
+    mass: 200.0
     maxrange: 3840.0
     metagroupid: 4
     metalevelold: 7
@@ -3728,6 +3829,7 @@ types:
     hp: 40.0
     id: 13788
     marketGroup: 576
+    mass: 2000.0
     maxrange: 4320.0
     metagroupid: 4
     metalevelold: 7
@@ -3766,6 +3868,7 @@ types:
     hp: 40.0
     id: 41154
     marketGroup: 776
+    mass: 75.0
     maxrange: 27500.0
     metagroupid: 4
     metalevelold: 8
@@ -3804,6 +3907,7 @@ types:
     hp: 40.0
     id: 41160
     marketGroup: 775
+    mass: 750.0
     maxrange: 103400.0
     metagroupid: 4
     metalevelold: 8
@@ -3843,6 +3947,7 @@ types:
     hp: 40.0
     id: 41083
     marketGroup: 776
+    mass: 75.0
     maxrange: 22000.0
     metagroupid: 4
     metalevelold: 8
@@ -3882,6 +3987,7 @@ types:
     hp: 40.0
     id: 9071
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1920.0
     metalevelold: 4
     name: Dual 180mm 'Scout' Autocannon I
@@ -3918,6 +4024,7 @@ types:
     hp: 40.0
     id: 489
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1600.0
     name: Dual 180mm AutoCannon I
     optimalsigradius: 40000
@@ -3954,6 +4061,7 @@ types:
     hp: 40.0
     id: 2937
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1920.0
     metalevelold: 5
     name: Dual 180mm AutoCannon II
@@ -3992,6 +4100,7 @@ types:
     hp: 40.0
     id: 9073
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1680.0
     metalevelold: 1
     name: Dual 180mm Carbine Repeating Cannon I
@@ -4028,6 +4137,7 @@ types:
     hp: 40.0
     id: 9091
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1760.0
     metalevelold: 2
     name: Dual 180mm Gallium Machine Gun
@@ -4064,6 +4174,7 @@ types:
     hp: 40.0
     id: 9093
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1840.0
     metalevelold: 3
     name: Dual 180mm Prototype Automatic Cannon
@@ -4100,6 +4211,7 @@ types:
     hp: 40.0
     id: 9247
     marketGroup: 576
+    mass: 200.0
     maxrange: 3840.0
     metalevelold: 4
     name: Dual 425mm 'Scout' Autocannon I
@@ -4136,6 +4248,7 @@ types:
     hp: 40.0
     id: 494
     marketGroup: 576
+    mass: 200.0
     maxrange: 3200.0
     name: Dual 425mm AutoCannon I
     optimalsigradius: 40000
@@ -4172,6 +4285,7 @@ types:
     hp: 40.0
     id: 2945
     marketGroup: 576
+    mass: 200.0
     maxrange: 3840.0
     metalevelold: 5
     name: Dual 425mm AutoCannon II
@@ -4210,6 +4324,7 @@ types:
     hp: 40.0
     id: 9249
     marketGroup: 576
+    mass: 200.0
     maxrange: 3360.0
     metalevelold: 1
     name: Dual 425mm Carbine Repeating Cannon I
@@ -4246,6 +4361,7 @@ types:
     hp: 40.0
     id: 9251
     marketGroup: 576
+    mass: 200.0
     maxrange: 3520.0
     metalevelold: 2
     name: Dual 425mm Gallium Machine Gun
@@ -4282,6 +4398,7 @@ types:
     hp: 40.0
     id: 9253
     marketGroup: 576
+    mass: 200.0
     maxrange: 3680.0
     metalevelold: 3
     name: Dual 425mm Prototype Automatic Cannon
@@ -4318,6 +4435,7 @@ types:
     hp: 40.0
     id: 9287
     marketGroup: 576
+    mass: 2000.0
     maxrange: 4320.0
     metalevelold: 4
     name: Dual 650mm 'Scout' Repeating Cannon I
@@ -4354,6 +4472,7 @@ types:
     hp: 40.0
     id: 9289
     marketGroup: 576
+    mass: 2000.0
     maxrange: 3780.0
     metalevelold: 1
     name: Dual 650mm Carbine Repeating Cannon I
@@ -4390,6 +4509,7 @@ types:
     hp: 40.0
     id: 9291
     marketGroup: 576
+    mass: 2000.0
     maxrange: 3960.0
     metalevelold: 2
     name: Dual 650mm Gallium Repeating Cannon
@@ -4426,6 +4546,7 @@ types:
     hp: 40.0
     id: 9293
     marketGroup: 576
+    mass: 2000.0
     maxrange: 4140.0
     metalevelold: 3
     name: Dual 650mm Prototype Automatic Cannon
@@ -4462,6 +4583,7 @@ types:
     hp: 40.0
     id: 495
     marketGroup: 576
+    mass: 2000.0
     maxrange: 3600.0
     name: Dual 650mm Repeating Cannon I
     optimalsigradius: 40000
@@ -4498,6 +4620,7 @@ types:
     hp: 40.0
     id: 2953
     marketGroup: 576
+    mass: 2000.0
     maxrange: 4320.0
     metalevelold: 5
     name: Dual 650mm Repeating Cannon II
@@ -4536,6 +4659,7 @@ types:
     hp: 40.0
     id: 41151
     marketGroup: 776
+    mass: 75.0
     maxrange: 25000.0
     metalevelold: 1
     name: Gallium Ample Hexa 2500mm Repeating Cannon
@@ -4572,6 +4696,7 @@ types:
     hp: 40.0
     id: 41157
     marketGroup: 775
+    mass: 750.0
     maxrange: 94000.0
     metalevelold: 1
     name: Gallium Ample Quad 3500mm Siege Artillery
@@ -4609,6 +4734,7 @@ types:
     hp: 40.0
     id: 14459
     marketGroup: 576
+    mass: 75.0
     maxrange: 4800.0
     metagroupid: 5
     metalevelold: 13
@@ -4647,6 +4773,7 @@ types:
     hp: 40.0
     id: 14471
     marketGroup: 576
+    mass: 200.0
     maxrange: 3840.0
     metagroupid: 5
     metalevelold: 13
@@ -4685,6 +4812,7 @@ types:
     hp: 40.0
     id: 14475
     marketGroup: 576
+    mass: 2000.0
     maxrange: 4320.0
     metagroupid: 5
     metalevelold: 13
@@ -4723,6 +4851,7 @@ types:
     hp: 40.0
     id: 14461
     marketGroup: 579
+    mass: 750.0
     maxrange: 38640.0
     metagroupid: 5
     metalevelold: 7
@@ -4761,6 +4890,7 @@ types:
     hp: 40.0
     id: 14465
     marketGroup: 579
+    mass: 1500.0
     maxrange: 48000.0
     metagroupid: 5
     metalevelold: 12
@@ -4798,6 +4928,7 @@ types:
     hp: 40.0
     id: 20452
     marketGroup: 776
+    mass: 75.0
     maxrange: 25000.0
     name: Hexa 2500mm Repeating Cannon I
     optimalsigradius: 40000
@@ -4834,6 +4965,7 @@ types:
     hp: 40.0
     id: 37306
     marketGroup: 776
+    mass: 75.0
     maxrange: 27500.0
     metalevelold: 5
     name: Hexa 2500mm Repeating Cannon II
@@ -4873,6 +5005,7 @@ types:
     hp: 40.0
     id: 14457
     marketGroup: 576
+    mass: 75.0
     maxrange: 4800.0
     metagroupid: 5
     metalevelold: 11
@@ -4911,6 +5044,7 @@ types:
     hp: 40.0
     id: 14469
     marketGroup: 576
+    mass: 200.0
     maxrange: 3840.0
     metagroupid: 5
     metalevelold: 11
@@ -4949,6 +5083,7 @@ types:
     hp: 40.0
     id: 14473
     marketGroup: 576
+    mass: 2000.0
     maxrange: 4320.0
     metagroupid: 5
     metalevelold: 11
@@ -4987,6 +5122,7 @@ types:
     hp: 40.0
     id: 34284
     marketGroup: 574
+    mass: 500.0
     maxrange: 960.0
     metalevelold: 9
     name: Polarized 200mm AutoCannon
@@ -5028,6 +5164,7 @@ types:
     hp: 40.0
     id: 34286
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1920.0
     metalevelold: 9
     name: Polarized 425mm AutoCannon
@@ -5069,6 +5206,7 @@ types:
     hp: 40.0
     id: 34288
     marketGroup: 576
+    mass: 75.0
     maxrange: 3840.0
     metalevelold: 9
     name: Polarized 800mm Repeating Cannon
@@ -5109,6 +5247,7 @@ types:
     hp: 40.0
     id: 41153
     marketGroup: 776
+    mass: 75.0
     maxrange: 25000.0
     metalevelold: 1
     name: Prototype Precise Hexa 2500mm Repeating Cannon
@@ -5145,6 +5284,7 @@ types:
     hp: 40.0
     id: 41159
     marketGroup: 775
+    mass: 750.0
     maxrange: 94000.0
     metalevelold: 1
     name: Prototype Precise Quad 3500mm Siege Artillery
@@ -5182,6 +5322,7 @@ types:
     hp: 40.0
     id: 41082
     marketGroup: 776
+    mass: 75.0
     maxrange: 20000.0
     metalevelold: 1
     name: Prototype Precise Quad 800mm Repeating Cannon
@@ -5220,6 +5361,7 @@ types:
     hp: 40.0
     id: 20454
     marketGroup: 775
+    mass: 750.0
     maxrange: 94000.0
     name: Quad 3500mm Siege Artillery I
     optimalsigradius: 40000
@@ -5256,6 +5398,7 @@ types:
     hp: 40.0
     id: 37307
     marketGroup: 775
+    mass: 75.0
     maxrange: 103400.0
     metalevelold: 5
     name: Quad 3500mm Siege Artillery II
@@ -5295,6 +5438,7 @@ types:
     hp: 40.0
     id: 37289
     marketGroup: 776
+    mass: 75.0
     maxrange: 20000.0
     name: Quad 800mm Repeating Cannon I
     optimalsigradius: 40000
@@ -5334,6 +5478,7 @@ types:
     hp: 40.0
     id: 37304
     marketGroup: 776
+    mass: 75.0
     maxrange: 22000.0
     metalevelold: 5
     name: Quad 800mm Repeating Cannon II
@@ -5375,6 +5520,7 @@ types:
     hp: 40.0
     id: 16047
     marketGroup: 579
+    mass: 750.0
     maxrange: 38640.0
     metagroupid: 4
     metalevelold: 6
@@ -5413,6 +5559,7 @@ types:
     hp: 40.0
     id: 16046
     marketGroup: 574
+    mass: 750.0
     maxrange: 960.0
     metagroupid: 4
     metalevelold: 7
@@ -5451,6 +5598,7 @@ types:
     hp: 40.0
     id: 16048
     marketGroup: 579
+    mass: 1500.0
     maxrange: 48000.0
     metagroupid: 4
     metalevelold: 7
@@ -5489,6 +5637,7 @@ types:
     hp: 40.0
     id: 16049
     marketGroup: 574
+    mass: 20.0
     maxrange: 1080.0
     metagroupid: 4
     metalevelold: 7
@@ -5527,6 +5676,7 @@ types:
     hp: 40.0
     id: 16050
     marketGroup: 574
+    mass: 15.0
     maxrange: 1200.0
     metagroupid: 4
     metalevelold: 7
@@ -5565,6 +5715,7 @@ types:
     hp: 40.0
     id: 16051
     marketGroup: 575
+    mass: 12.0
     maxrange: 2160.0
     metagroupid: 4
     metalevelold: 7
@@ -5603,6 +5754,7 @@ types:
     hp: 40.0
     id: 16052
     marketGroup: 577
+    mass: 150.0
     maxrange: 9660.0
     metagroupid: 4
     metalevelold: 7
@@ -5641,6 +5793,7 @@ types:
     hp: 40.0
     id: 16053
     marketGroup: 577
+    mass: 5.0
     maxrange: 12000.0
     metagroupid: 4
     metalevelold: 7
@@ -5679,6 +5832,7 @@ types:
     hp: 40.0
     id: 16054
     marketGroup: 575
+    mass: 8.0
     maxrange: 2400.0
     metagroupid: 4
     metalevelold: 7
@@ -5717,6 +5871,7 @@ types:
     hp: 40.0
     id: 16055
     marketGroup: 578
+    mass: 125.0
     maxrange: 19320.0
     metagroupid: 4
     metalevelold: 7
@@ -5755,6 +5910,7 @@ types:
     hp: 40.0
     id: 16056
     marketGroup: 578
+    mass: 50.0
     maxrange: 24000.0
     metagroupid: 4
     metalevelold: 7
@@ -5793,6 +5949,7 @@ types:
     hp: 40.0
     id: 16057
     marketGroup: 576
+    mass: 75.0
     maxrange: 4800.0
     metagroupid: 4
     metalevelold: 7
@@ -5831,6 +5988,7 @@ types:
     hp: 40.0
     id: 16058
     marketGroup: 575
+    mass: 1000.0
     maxrange: 1920.0
     metagroupid: 4
     metalevelold: 7
@@ -5869,6 +6027,7 @@ types:
     hp: 40.0
     id: 16059
     marketGroup: 576
+    mass: 200.0
     maxrange: 3840.0
     metagroupid: 4
     metalevelold: 7
@@ -5907,6 +6066,7 @@ types:
     hp: 40.0
     id: 16060
     marketGroup: 576
+    mass: 2000.0
     maxrange: 4320.0
     metagroupid: 4
     metalevelold: 7
@@ -5944,6 +6104,7 @@ types:
     hp: 40.0
     id: 41152
     marketGroup: 776
+    mass: 75.0
     maxrange: 26250.0
     metalevelold: 1
     name: Scout Scoped Hexa 2500mm Repeating Cannon
@@ -5980,6 +6141,7 @@ types:
     hp: 40.0
     id: 41158
     marketGroup: 775
+    mass: 750.0
     maxrange: 98700.0
     metalevelold: 1
     name: Scout Scoped Quad 3500mm Siege Artillery
@@ -6017,6 +6179,7 @@ types:
     hp: 40.0
     id: 41081
     marketGroup: 776
+    mass: 75.0
     maxrange: 21000.0
     metalevelold: 1
     name: Scout Scoped Quad 800mm Repeating Cannon
@@ -6056,6 +6219,7 @@ types:
     hp: 40.0
     id: 14463
     marketGroup: 579
+    mass: 750.0
     maxrange: 33600.0
     metagroupid: 5
     metalevelold: 7
@@ -6094,6 +6258,7 @@ types:
     hp: 40.0
     id: 14467
     marketGroup: 579
+    mass: 1500.0
     maxrange: 48000.0
     metagroupid: 5
     metalevelold: 14

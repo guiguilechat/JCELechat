@@ -36,6 +36,7 @@ types:
     hp: 1400.0
     id: 57803
     kineticdamageresonance: 0.6700000166893005
+    mass: 9.468E7
     maxlockedtargets: 5
     maxrange: 28750.0
     maxtargetrange: 75000.0
@@ -95,6 +96,7 @@ types:
     hp: 65.0
     id: 57802
     kineticdamageresonance: 0.6700000166893005
+    mass: 1.319E7
     maxlockedtargets: 5
     maxrange: 7000.0
     maxtargetrange: 75000.0
@@ -154,6 +156,7 @@ types:
     hp: 20.0
     id: 57801
     kineticdamageresonance: 0.6700000166893005
+    mass: 950000.0
     maxlockedtargets: 5
     maxrange: 28750.0
     maxtargetrange: 75000.0

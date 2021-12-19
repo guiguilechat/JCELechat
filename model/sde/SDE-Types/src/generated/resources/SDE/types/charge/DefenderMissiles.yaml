@@ -12,6 +12,7 @@ types:
     kineticdamage: 200.0
     launchergroup: 512
     marketGroup: 116
+    mass: 700.0
     maxvelocity: 10000.0
     name: Defender Missile I
     packagedVolume: 0.014999999664723873

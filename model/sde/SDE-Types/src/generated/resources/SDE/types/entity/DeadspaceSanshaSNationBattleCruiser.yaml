@@ -46,6 +46,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24023
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -131,6 +132,7 @@ types:
     gfxturretid: 456
     hp: 1500.0
     id: 24022
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -215,6 +217,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24021
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -300,6 +303,7 @@ types:
     gfxturretid: 456
     hp: 1500.0
     id: 24002
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -384,6 +388,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24019
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -469,6 +474,7 @@ types:
     gfxturretid: 456
     hp: 1500.0
     id: 24020
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -553,6 +559,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24198
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -638,6 +645,7 @@ types:
     gfxturretid: 458
     hp: 1500.0
     id: 24197
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -722,6 +730,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24196
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -807,6 +816,7 @@ types:
     gfxturretid: 458
     hp: 1500.0
     id: 24193
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -891,6 +901,7 @@ types:
     gfxturretid: 459
     hp: 1500.0
     id: 24194
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -976,6 +987,7 @@ types:
     gfxturretid: 458
     hp: 1500.0
     id: 24195
+    mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1

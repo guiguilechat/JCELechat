@@ -20,6 +20,7 @@ types:
     kineticdamage: 5200.0
     launchergroup: 862
     marketGroup: 1015
+    mass: 1000.0
     maxvelocity: 2500.0
     name: Concussion Bomb
     packagedVolume: 75.0
@@ -54,6 +55,7 @@ types:
     id: 27920
     launchergroup: 862
     marketGroup: 1015
+    mass: 1000.0
     maxvelocity: 2500.0
     name: Electron Bomb
     packagedVolume: 75.0
@@ -87,6 +89,7 @@ types:
     id: 27916
     launchergroup: 862
     marketGroup: 1015
+    mass: 1000.0
     maxvelocity: 2500.0
     name: Scorch Bomb
     packagedVolume: 75.0
@@ -122,6 +125,7 @@ types:
     id: 27918
     launchergroup: 862
     marketGroup: 1015
+    mass: 1000.0
     maxvelocity: 2500.0
     name: Shrapnel Bomb
     packagedVolume: 75.0

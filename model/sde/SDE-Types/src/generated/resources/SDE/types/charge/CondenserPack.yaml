@@ -8,6 +8,7 @@ types:
     launchergroup: 4060
     maincolor: 16764120
     marketGroup: 2736
+    mass: 0.009999999776482582
     name: BlastShot Condenser Pack L
     packagedVolume: 0.02500000037252903
     portionSize: 500
@@ -26,6 +27,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
+    mass: 0.009999999776482582
     name: BlastShot Condenser Pack M
     packagedVolume: 0.012500000186264515
     portionSize: 500
@@ -44,6 +46,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
+    mass: 0.009999999776482582
     name: BlastShot Condenser Pack S
     packagedVolume: 0.0024999999441206455
     portionSize: 500
@@ -62,6 +65,7 @@ types:
     launchergroup: 4060
     maincolor: 16764120
     marketGroup: 2736
+    mass: 0.009999999776482582
     name: GalvaSurge Condenser Pack L
     packagedVolume: 0.02500000037252903
     portionSize: 500
@@ -80,6 +84,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
+    mass: 0.009999999776482582
     name: GalvaSurge Condenser Pack M
     packagedVolume: 0.012500000186264515
     portionSize: 500
@@ -98,6 +103,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
+    mass: 0.009999999776482582
     name: GalvaSurge Condenser Pack S
     packagedVolume: 0.0024999999441206455
     portionSize: 500
@@ -116,6 +122,7 @@ types:
     launchergroup: 4060
     maincolor: 16764120
     marketGroup: 2736
+    mass: 0.009999999776482582
     name: MesmerFlux Condenser Pack L
     packagedVolume: 0.02500000037252903
     portionSize: 500
@@ -134,6 +141,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
+    mass: 0.009999999776482582
     name: MesmerFlux Condenser Pack M
     packagedVolume: 0.012500000186264515
     portionSize: 500
@@ -152,6 +160,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
+    mass: 0.009999999776482582
     name: MesmerFlux Condenser Pack S
     packagedVolume: 0.0024999999441206455
     portionSize: 500
@@ -170,6 +179,7 @@ types:
     launchergroup: 4060
     maincolor: 16764120
     marketGroup: 2736
+    mass: 0.009999999776482582
     name: SlamBolt Condenser Pack L
     packagedVolume: 0.02500000037252903
     portionSize: 500
@@ -188,6 +198,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
+    mass: 0.009999999776482582
     name: SlamBolt Condenser Pack M
     packagedVolume: 0.012500000186264515
     portionSize: 500
@@ -206,6 +217,7 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
+    mass: 0.009999999776482582
     name: SlamBolt Condenser Pack S
     packagedVolume: 0.0024999999441206455
     portionSize: 500

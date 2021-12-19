@@ -5,6 +5,7 @@ types:
     hp: 40.0
     id: 33277
     marketGroup: 1739
+    mass: 200.0
     name: Capital Drone Control Range Augmentor I
     packagedVolume: 40.0
     portionSize: 1
@@ -20,6 +21,7 @@ types:
     hp: 40.0
     id: 33279
     marketGroup: 1739
+    mass: 200.0
     metalevelold: 5
     name: Capital Drone Control Range Augmentor II
     packagedVolume: 40.0
@@ -36,6 +38,7 @@ types:
     hullhpbonus: 20.0
     id: 33281
     marketGroup: 1739
+    mass: 200.0
     name: Capital Drone Durability Enhancer I
     packagedVolume: 40.0
     portionSize: 1
@@ -51,6 +54,7 @@ types:
     hullhpbonus: 25.0
     id: 33283
     marketGroup: 1739
+    mass: 200.0
     metalevelold: 5
     name: Capital Drone Durability Enhancer II
     packagedVolume: 40.0
@@ -66,6 +70,7 @@ types:
     hp: 40.0
     id: 33285
     marketGroup: 1739
+    mass: 200.0
     miningamountbonus: 10
     name: Capital Drone Mining Augmentor I
     packagedVolume: 40.0
@@ -82,6 +87,7 @@ types:
     hp: 40.0
     id: 33287
     marketGroup: 1739
+    mass: 200.0
     metalevelold: 5
     miningamountbonus: 15
     name: Capital Drone Mining Augmentor II
@@ -100,6 +106,7 @@ types:
     hp: 40.0
     id: 33289
     marketGroup: 1739
+    mass: 200.0
     name: Capital Drone Repair Augmentor I
     packagedVolume: 40.0
     portionSize: 1
@@ -115,6 +122,7 @@ types:
     hp: 40.0
     id: 33291
     marketGroup: 1739
+    mass: 200.0
     metalevelold: 5
     name: Capital Drone Repair Augmentor II
     packagedVolume: 40.0
@@ -130,6 +138,7 @@ types:
     hp: 40.0
     id: 33293
     marketGroup: 1739
+    mass: 200.0
     name: Capital Drone Scope Chip I
     packagedVolume: 40.0
     portionSize: 1
@@ -145,6 +154,7 @@ types:
     hp: 40.0
     id: 33295
     marketGroup: 1739
+    mass: 200.0
     metalevelold: 5
     name: Capital Drone Scope Chip II
     packagedVolume: 40.0
@@ -162,6 +172,7 @@ types:
     hp: 40.0
     id: 33297
     marketGroup: 1739
+    mass: 200.0
     name: Capital Drone Speed Augmentor I
     packagedVolume: 40.0
     portionSize: 1
@@ -177,6 +188,7 @@ types:
     hp: 40.0
     id: 33298
     marketGroup: 1739
+    mass: 200.0
     metalevelold: 5
     name: Capital Drone Speed Augmentor II
     packagedVolume: 40.0
@@ -193,6 +205,7 @@ types:
     hp: 40.0
     id: 33307
     marketGroup: 1739
+    mass: 200.0
     name: Capital Sentry Damage Augmentor I
     packagedVolume: 40.0
     portionSize: 1
@@ -208,6 +221,7 @@ types:
     hp: 40.0
     id: 33309
     marketGroup: 1739
+    mass: 200.0
     metalevelold: 5
     name: Capital Sentry Damage Augmentor II
     packagedVolume: 40.0
@@ -223,6 +237,7 @@ types:
     hp: 40.0
     id: 33311
     marketGroup: 1739
+    mass: 200.0
     name: Capital Stasis Drone Augmentor I
     packagedVolume: 40.0
     portionSize: 1
@@ -238,6 +253,7 @@ types:
     hp: 40.0
     id: 33313
     marketGroup: 1739
+    mass: 200.0
     metalevelold: 5
     name: Capital Stasis Drone Augmentor II
     packagedVolume: 40.0
@@ -255,6 +271,7 @@ types:
     hp: 40.0
     id: 25908
     marketGroup: 1215
+    mass: 200.0
     name: Large Drone Control Range Augmentor I
     packagedVolume: 20.0
     portionSize: 1
@@ -270,6 +287,7 @@ types:
     hp: 40.0
     id: 26324
     marketGroup: 1215
+    mass: 200.0
     metalevelold: 5
     name: Large Drone Control Range Augmentor II
     packagedVolume: 20.0
@@ -286,6 +304,7 @@ types:
     hullhpbonus: 20.0
     id: 25916
     marketGroup: 1215
+    mass: 200.0
     name: Large Drone Durability Enhancer I
     packagedVolume: 20.0
     portionSize: 1
@@ -301,6 +320,7 @@ types:
     hullhpbonus: 25.0
     id: 26326
     marketGroup: 1215
+    mass: 200.0
     metalevelold: 5
     name: Large Drone Durability Enhancer II
     packagedVolume: 20.0
@@ -316,6 +336,7 @@ types:
     hp: 40.0
     id: 25918
     marketGroup: 1215
+    mass: 200.0
     miningamountbonus: 10
     name: Large Drone Mining Augmentor I
     packagedVolume: 20.0
@@ -332,6 +353,7 @@ types:
     hp: 40.0
     id: 26328
     marketGroup: 1215
+    mass: 200.0
     metalevelold: 5
     miningamountbonus: 15
     name: Large Drone Mining Augmentor II
@@ -350,6 +372,7 @@ types:
     hp: 40.0
     id: 25910
     marketGroup: 1215
+    mass: 200.0
     name: Large Drone Repair Augmentor I
     packagedVolume: 20.0
     portionSize: 1
@@ -365,6 +388,7 @@ types:
     hp: 40.0
     id: 26330
     marketGroup: 1215
+    mass: 200.0
     metalevelold: 5
     name: Large Drone Repair Augmentor II
     packagedVolume: 20.0
@@ -380,6 +404,7 @@ types:
     hp: 40.0
     id: 25912
     marketGroup: 1215
+    mass: 200.0
     name: Large Drone Scope Chip I
     packagedVolume: 20.0
     portionSize: 1
@@ -395,6 +420,7 @@ types:
     hp: 40.0
     id: 26332
     marketGroup: 1215
+    mass: 200.0
     metalevelold: 5
     name: Large Drone Scope Chip II
     packagedVolume: 20.0
@@ -412,6 +438,7 @@ types:
     hp: 40.0
     id: 25914
     marketGroup: 1215
+    mass: 200.0
     name: Large Drone Speed Augmentor I
     packagedVolume: 20.0
     portionSize: 1
@@ -427,6 +454,7 @@ types:
     hp: 40.0
     id: 26334
     marketGroup: 1215
+    mass: 200.0
     metalevelold: 5
     name: Large Drone Speed Augmentor II
     packagedVolume: 20.0
@@ -444,6 +472,7 @@ types:
     hp: 40.0
     id: 25920
     marketGroup: 1215
+    mass: 200.0
     name: Large Sentry Damage Augmentor I
     packagedVolume: 20.0
     portionSize: 1
@@ -459,6 +488,7 @@ types:
     hp: 40.0
     id: 26338
     marketGroup: 1215
+    mass: 200.0
     metalevelold: 5
     name: Large Sentry Damage Augmentor II
     packagedVolume: 20.0
@@ -474,6 +504,7 @@ types:
     hp: 40.0
     id: 25924
     marketGroup: 1215
+    mass: 200.0
     name: Large Stasis Drone Augmentor I
     packagedVolume: 20.0
     portionSize: 1
@@ -489,6 +520,7 @@ types:
     hp: 40.0
     id: 26340
     marketGroup: 1215
+    mass: 200.0
     metalevelold: 5
     name: Large Stasis Drone Augmentor II
     packagedVolume: 20.0
@@ -506,6 +538,7 @@ types:
     hp: 40.0
     id: 32027
     marketGroup: 1214
+    mass: 200.0
     name: Medium Drone Control Range Augmentor I
     packagedVolume: 10.0
     portionSize: 1
@@ -521,6 +554,7 @@ types:
     hp: 40.0
     id: 32031
     marketGroup: 1214
+    mass: 200.0
     metalevelold: 5
     name: Medium Drone Control Range Augmentor II
     packagedVolume: 10.0
@@ -537,6 +571,7 @@ types:
     hullhpbonus: 20.0
     id: 32035
     marketGroup: 1214
+    mass: 200.0
     name: Medium Drone Durability Enhancer I
     packagedVolume: 10.0
     portionSize: 1
@@ -552,6 +587,7 @@ types:
     hullhpbonus: 25.0
     id: 32039
     marketGroup: 1214
+    mass: 200.0
     metalevelold: 5
     name: Medium Drone Durability Enhancer II
     packagedVolume: 10.0
@@ -567,6 +603,7 @@ types:
     hp: 40.0
     id: 32043
     marketGroup: 1214
+    mass: 200.0
     miningamountbonus: 10
     name: Medium Drone Mining Augmentor I
     packagedVolume: 10.0
@@ -583,6 +620,7 @@ types:
     hp: 40.0
     id: 32047
     marketGroup: 1214
+    mass: 200.0
     metalevelold: 5
     miningamountbonus: 15
     name: Medium Drone Mining Augmentor II
@@ -601,6 +639,7 @@ types:
     hp: 40.0
     id: 32051
     marketGroup: 1214
+    mass: 200.0
     name: Medium Drone Repair Augmentor I
     packagedVolume: 10.0
     portionSize: 1
@@ -616,6 +655,7 @@ types:
     hp: 40.0
     id: 32055
     marketGroup: 1214
+    mass: 200.0
     metalevelold: 5
     name: Medium Drone Repair Augmentor II
     packagedVolume: 10.0
@@ -631,6 +671,7 @@ types:
     hp: 40.0
     id: 32071
     marketGroup: 1214
+    mass: 200.0
     name: Medium Drone Scope Chip I
     packagedVolume: 10.0
     portionSize: 1
@@ -646,6 +687,7 @@ types:
     hp: 40.0
     id: 32075
     marketGroup: 1214
+    mass: 200.0
     metalevelold: 5
     name: Medium Drone Scope Chip II
     packagedVolume: 10.0
@@ -663,6 +705,7 @@ types:
     hp: 40.0
     id: 32059
     marketGroup: 1214
+    mass: 200.0
     name: Medium Drone Speed Augmentor I
     packagedVolume: 10.0
     portionSize: 1
@@ -678,6 +721,7 @@ types:
     hp: 40.0
     id: 32063
     marketGroup: 1214
+    mass: 200.0
     metalevelold: 5
     name: Medium Drone Speed Augmentor II
     packagedVolume: 10.0
@@ -695,6 +739,7 @@ types:
     hp: 40.0
     id: 32083
     marketGroup: 1214
+    mass: 200.0
     name: Medium Sentry Damage Augmentor I
     packagedVolume: 10.0
     portionSize: 1
@@ -710,6 +755,7 @@ types:
     hp: 40.0
     id: 32087
     marketGroup: 1214
+    mass: 200.0
     metalevelold: 5
     name: Medium Sentry Damage Augmentor II
     packagedVolume: 10.0
@@ -725,6 +771,7 @@ types:
     hp: 40.0
     id: 32091
     marketGroup: 1214
+    mass: 200.0
     name: Medium Stasis Drone Augmentor I
     packagedVolume: 10.0
     portionSize: 1
@@ -740,6 +787,7 @@ types:
     hp: 40.0
     id: 32095
     marketGroup: 1214
+    mass: 200.0
     metalevelold: 5
     name: Medium Stasis Drone Augmentor II
     packagedVolume: 10.0
@@ -757,6 +805,7 @@ types:
     hp: 40.0
     id: 32025
     marketGroup: 1213
+    mass: 200.0
     name: Small Drone Control Range Augmentor I
     packagedVolume: 5.0
     portionSize: 1
@@ -772,6 +821,7 @@ types:
     hp: 40.0
     id: 32029
     marketGroup: 1213
+    mass: 200.0
     metalevelold: 5
     name: Small Drone Control Range Augmentor II
     packagedVolume: 5.0
@@ -788,6 +838,7 @@ types:
     hullhpbonus: 20.0
     id: 32033
     marketGroup: 1213
+    mass: 200.0
     name: Small Drone Durability Enhancer I
     packagedVolume: 5.0
     portionSize: 1
@@ -803,6 +854,7 @@ types:
     hullhpbonus: 25.0
     id: 32037
     marketGroup: 1213
+    mass: 200.0
     metalevelold: 5
     name: Small Drone Durability Enhancer II
     packagedVolume: 5.0
@@ -818,6 +870,7 @@ types:
     hp: 40.0
     id: 32041
     marketGroup: 1213
+    mass: 200.0
     miningamountbonus: 10
     name: Small Drone Mining Augmentor I
     packagedVolume: 5.0
@@ -834,6 +887,7 @@ types:
     hp: 40.0
     id: 32045
     marketGroup: 1213
+    mass: 200.0
     metalevelold: 5
     miningamountbonus: 15
     name: Small Drone Mining Augmentor II
@@ -852,6 +906,7 @@ types:
     hp: 40.0
     id: 32049
     marketGroup: 1213
+    mass: 200.0
     name: Small Drone Repair Augmentor I
     packagedVolume: 5.0
     portionSize: 1
@@ -867,6 +922,7 @@ types:
     hp: 40.0
     id: 32053
     marketGroup: 1213
+    mass: 200.0
     metalevelold: 5
     name: Small Drone Repair Augmentor II
     packagedVolume: 5.0
@@ -882,6 +938,7 @@ types:
     hp: 40.0
     id: 32069
     marketGroup: 1213
+    mass: 200.0
     name: Small Drone Scope Chip I
     packagedVolume: 5.0
     portionSize: 1
@@ -897,6 +954,7 @@ types:
     hp: 40.0
     id: 32073
     marketGroup: 1213
+    mass: 200.0
     metalevelold: 5
     name: Small Drone Scope Chip II
     packagedVolume: 5.0
@@ -914,6 +972,7 @@ types:
     hp: 40.0
     id: 32057
     marketGroup: 1213
+    mass: 200.0
     name: Small Drone Speed Augmentor I
     packagedVolume: 5.0
     portionSize: 1
@@ -929,6 +988,7 @@ types:
     hp: 40.0
     id: 32061
     marketGroup: 1213
+    mass: 200.0
     metalevelold: 5
     name: Small Drone Speed Augmentor II
     packagedVolume: 5.0
@@ -946,6 +1006,7 @@ types:
     hp: 40.0
     id: 32081
     marketGroup: 1213
+    mass: 200.0
     name: Small Sentry Damage Augmentor I
     packagedVolume: 5.0
     portionSize: 1
@@ -961,6 +1022,7 @@ types:
     hp: 40.0
     id: 32085
     marketGroup: 1213
+    mass: 200.0
     metalevelold: 5
     name: Small Sentry Damage Augmentor II
     packagedVolume: 5.0
@@ -976,6 +1038,7 @@ types:
     hp: 40.0
     id: 32089
     marketGroup: 1213
+    mass: 200.0
     name: Small Stasis Drone Augmentor I
     packagedVolume: 5.0
     portionSize: 1
@@ -991,6 +1054,7 @@ types:
     hp: 40.0
     id: 32093
     marketGroup: 1213
+    mass: 200.0
     metalevelold: 5
     name: Small Stasis Drone Augmentor II
     packagedVolume: 5.0

@@ -51,6 +51,7 @@ types:
     hp: 8000.0
     id: 10299
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 3200.0
@@ -139,6 +140,7 @@ types:
     hp: 8000.0
     id: 23502
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 2500.0
@@ -229,6 +231,7 @@ types:
     hp: 8000.0
     id: 23505
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 27500.0
@@ -318,6 +321,7 @@ types:
     hp: 8000.0
     id: 23501
     kineticdamage: 32.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 22500.0
@@ -406,6 +410,7 @@ types:
     hp: 13500.0
     id: 25379
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 105000.0
@@ -464,6 +469,7 @@ types:
     entityshieldboostduration: 10000
     falloff: 1.0
     id: 53326
+    mass: 2.1E7
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -537,6 +543,7 @@ types:
     hp: 8000.0
     id: 23499
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 3600.0
@@ -620,6 +627,7 @@ types:
     hp: 6500.0
     id: 28136
     kineticdamage: 20.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 40000.0
@@ -706,6 +714,7 @@ types:
     hp: 6500.0
     id: 21814
     kineticdamage: 20.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 40000.0
@@ -794,6 +803,7 @@ types:
     hp: 8000.0
     id: 23504
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 30000.0
@@ -883,6 +893,7 @@ types:
     hp: 8000.0
     id: 23503
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 2250.0
@@ -971,6 +982,7 @@ types:
     hp: 8000.0
     id: 23498
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 3600.0
@@ -1059,6 +1071,7 @@ types:
     hp: 8000.0
     id: 23500
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 25000.0
@@ -1116,6 +1129,7 @@ types:
     entityshieldboostduration: 10000
     falloff: 1.0
     id: 52833
+    mass: 2.1E7
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1156,6 +1170,7 @@ types:
     entityshieldboostduration: 10000
     falloff: 1.0
     id: 52834
+    mass: 2.1E7
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1196,6 +1211,7 @@ types:
     entityshieldboostduration: 10000
     falloff: 1.0
     id: 52835
+    mass: 2.1E7
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1236,6 +1252,7 @@ types:
     entityshieldboostduration: 10000
     falloff: 1.0
     id: 52836
+    mass: 2.1E7
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1306,6 +1323,7 @@ types:
     hp: 5000.0
     id: 45638
     kineticdamage: 8.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 3200.0
@@ -1395,6 +1413,7 @@ types:
     hp: 8000.0
     id: 23497
     kineticdamage: 28.0
+    mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 3200.0

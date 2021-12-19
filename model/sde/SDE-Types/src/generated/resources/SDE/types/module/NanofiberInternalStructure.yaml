@@ -5,6 +5,7 @@ types:
     id: 1242
     implantbonusvelocity: 5.25
     marketGroup: 1196
+    mass: 100.0
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Nanofiber Internal Structure'
@@ -23,6 +24,7 @@ types:
     id: 14127
     implantbonusvelocity: 9.5
     marketGroup: 1196
+    mass: 100.0
     metagroupid: 4
     metalevelold: 8
     name: Domination Nanofiber Structure
@@ -41,6 +43,7 @@ types:
     id: 2603
     implantbonusvelocity: 7.75
     marketGroup: 1196
+    mass: 100.0
     name: Nanofiber Internal Structure I
     packagedVolume: 5.0
     portionSize: 1
@@ -57,6 +60,7 @@ types:
     id: 2605
     implantbonusvelocity: 9.5
     marketGroup: 1196
+    mass: 100.0
     metalevelold: 5
     name: Nanofiber Internal Structure II
     packagedVolume: 5.0
@@ -74,6 +78,7 @@ types:
     id: 15813
     implantbonusvelocity: 9.5
     marketGroup: 1196
+    mass: 100.0
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Nanofiber Structure
@@ -92,6 +97,7 @@ types:
     id: 21500
     implantbonusvelocity: 8.75
     marketGroup: 1196
+    mass: 100.0
     metagroupid: 3
     metalevelold: 6
     name: Synthetic Hull Conversion Nanofiber Structure
@@ -110,6 +116,7 @@ types:
     id: 5599
     implantbonusvelocity: 8.5
     marketGroup: 1196
+    mass: 100.0
     metalevelold: 1
     name: Type-D Restrained Nanofiber Structure
     packagedVolume: 5.0

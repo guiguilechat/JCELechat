@@ -22,6 +22,7 @@ types:
     id: 25377
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Akkeshu's Storage Facility
@@ -62,6 +63,7 @@ types:
     id: 24243
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Altar of the Blessed
@@ -139,6 +141,7 @@ types:
     id: 19487
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Angel Battlestation
@@ -179,6 +182,7 @@ types:
     id: 26251
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Control Center
@@ -217,6 +221,7 @@ types:
     id: 22232
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Angel Information Center
@@ -257,6 +262,7 @@ types:
     id: 19558
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Angel Radiating Telescope
@@ -299,6 +305,7 @@ types:
     id: 17422
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Angels Retirement Home
@@ -339,6 +346,7 @@ types:
     id: 17994
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Assembly Management HQ
@@ -379,6 +387,7 @@ types:
     id: 20162
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Asteroid Colony
@@ -458,6 +467,7 @@ types:
     id: 24262
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Station
@@ -499,6 +509,7 @@ types:
     id: 22182
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Barou Lardoss's Iteron
@@ -539,6 +550,7 @@ types:
     id: 21617
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Barricaded Warehouse
@@ -579,6 +591,7 @@ types:
     id: 22098
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Bastion Museum
@@ -620,6 +633,7 @@ types:
     id: 17273
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Biodome Gardens
@@ -660,6 +674,7 @@ types:
     id: 24761
     kineticdamageresonance: 1.0
     lootrespawntime: 120000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blasted Neon Sign_mission
@@ -700,6 +715,7 @@ types:
     id: 23964
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Kernel
@@ -740,6 +756,7 @@ types:
     id: 20196
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Blood Raider Chapel
@@ -780,6 +797,7 @@ types:
     id: 26247
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Control Center
@@ -820,6 +838,7 @@ types:
     id: 26733
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Research Outpost
@@ -860,6 +879,7 @@ types:
     id: 22320
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Brothel
@@ -900,6 +920,7 @@ types:
     id: 21459
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: COSMOS Storage Silo
@@ -940,6 +961,7 @@ types:
     id: 22739
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Broadcasting Unit
@@ -1017,6 +1039,7 @@ types:
     id: 18645
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Captive Fighting Arena
@@ -1057,6 +1080,7 @@ types:
     id: 26731
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Cartel Research Outpost
@@ -1098,6 +1122,7 @@ types:
     id: 19957
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Centus Reprocessing Station
@@ -1138,6 +1163,7 @@ types:
     id: 22031
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: ComLink Scanner
@@ -1179,6 +1205,7 @@ types:
     id: 24579
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Core Serpentis Operational Headquarters
@@ -1219,6 +1246,7 @@ types:
     id: 23908
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Core Serpentis Sentry
@@ -1259,6 +1287,7 @@ types:
     id: 23688
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Cracked Hive Mind Cage
@@ -1300,6 +1329,7 @@ types:
     id: 17632
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: CreoCorp Main Factory
@@ -1340,6 +1370,7 @@ types:
     id: 22158
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Damaged Portal
@@ -1421,6 +1452,7 @@ types:
     id: 17631
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Deadspace Synchronization HQ
@@ -1463,6 +1495,7 @@ types:
     id: 54998
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Backup Storage Vault
@@ -1503,6 +1536,7 @@ types:
     id: 56746
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Dark Blood Transmission Relay
@@ -1545,6 +1579,7 @@ types:
     id: 54999
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Infested Fluid Router Relay
@@ -1585,6 +1620,7 @@ types:
     id: 56747
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Tetrimon Transmission Relay
@@ -1625,6 +1661,7 @@ types:
     id: 41589
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Transmission Relay
@@ -1665,6 +1702,7 @@ types:
     id: 22241
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Deserted Nefantar Bunker
@@ -1706,6 +1744,7 @@ types:
     id: 19560
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Deserted Starbase Storage Facility
@@ -1747,6 +1786,7 @@ types:
     id: 19590
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Dewak's First Officer's HQ
@@ -1787,6 +1827,7 @@ types:
     id: 17747
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Docked & Loaded Mammoth
@@ -1828,6 +1869,7 @@ types:
     id: 23240
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drug Storage Facility
@@ -1868,6 +1910,7 @@ types:
     id: 21519
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Dry River Warehouse
@@ -1908,6 +1951,7 @@ types:
     id: 23689
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Dysfunctional Raid Drone
@@ -1948,6 +1992,7 @@ types:
     id: 23514
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Elere Febre's Habitation module
@@ -1988,6 +2033,7 @@ types:
     id: 25402
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Expeditionary Storage Facility
@@ -2028,6 +2074,7 @@ types:
     id: 23617
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: FON Operation Station
@@ -2069,6 +2116,7 @@ types:
     id: 27279
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Flimsy Pirate Base
@@ -2109,6 +2157,7 @@ types:
     id: 24351
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Force Repeller Relic
@@ -2150,6 +2199,7 @@ types:
     id: 22184
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1200000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gallente Miner
@@ -2191,6 +2241,7 @@ types:
     id: 17390
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gardan's Fantasy Complex
@@ -2231,6 +2282,7 @@ types:
     id: 21627
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gas/Storage Silo
@@ -2272,6 +2324,7 @@ types:
     id: 17891
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gate Security
@@ -2313,6 +2366,7 @@ types:
     id: 21861
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: General Lafema
@@ -2354,6 +2408,7 @@ types:
     id: 22704
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1.124999936E9
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: General Minas Iksan
@@ -2394,6 +2449,7 @@ types:
     id: 24256
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Generator Building
@@ -2434,6 +2490,7 @@ types:
     id: 22161
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gisti Repair Station
@@ -2474,6 +2531,7 @@ types:
     id: 19565
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Guristas Bunker_MISSION
@@ -2514,6 +2572,7 @@ types:
     id: 26248
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Control Center
@@ -2554,6 +2613,7 @@ types:
     id: 26735
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Research Outpost
@@ -2594,6 +2654,7 @@ types:
     id: 20326
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Guristas Starbase Control Tower
@@ -2634,6 +2695,7 @@ types:
     id: 25717
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas War Installation
@@ -2674,6 +2736,7 @@ types:
     id: 25388
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas_Small Armory
@@ -2714,6 +2777,7 @@ types:
     id: 22794
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module
@@ -2754,6 +2818,7 @@ types:
     id: 20523
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module - Tsuna's Science Labs
@@ -2794,6 +2859,7 @@ types:
     id: 22039
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Hiding Hole
@@ -2835,6 +2901,7 @@ types:
     id: 19427
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Hive Under Construction
@@ -2876,6 +2943,7 @@ types:
     id: 19653
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Industrial Derelict
@@ -2916,6 +2984,7 @@ types:
     id: 19742
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Infested station ruins
@@ -2957,6 +3026,7 @@ types:
     id: 17613
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Inner Sanctum
@@ -2997,6 +3067,7 @@ types:
     id: 22750
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Kameira Quarters
@@ -3037,6 +3108,7 @@ types:
     id: 21622
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Kazka Brothel
@@ -3116,6 +3188,7 @@ types:
     id: 19557
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Low-Tech Deadspace Energy Harvester
@@ -3157,6 +3230,7 @@ types:
     id: 17748
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Megathron under frantic repair
@@ -3197,6 +3271,7 @@ types:
     id: 19708
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Metal Scraps In Storage
@@ -3237,6 +3312,7 @@ types:
     id: 22710
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Command Post
@@ -3277,6 +3353,7 @@ types:
     id: 22709
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Starbase Control Tower
@@ -3318,6 +3395,7 @@ types:
     id: 17799
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Non-Secured Asteroid Colony
@@ -3352,6 +3430,7 @@ types:
     id: 57042
     kineticdamageresonance: 0.0010000000474974513
     lootrespawntime: 600000.0
+    mass: 1.5E8
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: ORE Faded Volatile Ice Processor
@@ -3386,6 +3465,7 @@ types:
     id: 57047
     kineticdamageresonance: 0.0010000000474974513
     lootrespawntime: 600000.0
+    mass: 1.5E8
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: ORE Fresh Volatile Ice Processor
@@ -3420,6 +3500,7 @@ types:
     id: 57048
     kineticdamageresonance: 0.0010000000474974513
     lootrespawntime: 600000.0
+    mass: 1.5E8
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: ORE Friable Volatile Ice Processor
@@ -3460,6 +3541,7 @@ types:
     id: 21600
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Officers Quarters
@@ -3500,6 +3582,7 @@ types:
     id: 22725
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Oggiin Kalda's Residence
@@ -3539,6 +3622,7 @@ types:
     id: 26168
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Okelle's Pleasure Hub
@@ -3579,6 +3663,7 @@ types:
     id: 21884
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Old Nefantar Bunker
@@ -3620,6 +3705,7 @@ types:
     id: 17275
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Oofus's Repair Shop
@@ -3660,6 +3746,7 @@ types:
     id: 24771
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Overseer's Stash
@@ -3737,6 +3824,7 @@ types:
     id: 23413
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pend Insurance Storage Bin
@@ -3777,6 +3865,7 @@ types:
     id: 19504
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Pirate Headquarters
@@ -3818,6 +3907,7 @@ types:
     id: 18632
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Radiating Telescope
@@ -3858,6 +3948,7 @@ types:
     id: 20329
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Radio Telescope
@@ -3898,6 +3989,7 @@ types:
     id: 22145
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Refitted Bestower
@@ -3937,6 +4029,7 @@ types:
     id: 21635
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Rent-A-Dream Pleasure Gardens
@@ -3977,6 +4070,7 @@ types:
     id: 23600
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Runner's Relay Station
@@ -4017,6 +4111,7 @@ types:
     id: 26249
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Control Center
@@ -4057,6 +4152,7 @@ types:
     id: 26606
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Deadspace Outpost
@@ -4098,6 +4194,7 @@ types:
     id: 18633
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Sansha Outpost Administration Building
@@ -4138,6 +4235,7 @@ types:
     id: 26736
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Research Outpost
@@ -4178,6 +4276,7 @@ types:
     id: 22757
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Scanner Post
@@ -4218,6 +4317,7 @@ types:
     id: 22289
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Scanner Tower
@@ -4258,6 +4358,7 @@ types:
     id: 17979
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Scramble Wave Generator
@@ -4298,6 +4399,7 @@ types:
     id: 23960
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sentry Station Alpha/Beta
@@ -4338,6 +4440,7 @@ types:
     id: 20325
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Serpentis Bunker
@@ -4378,6 +4481,7 @@ types:
     id: 23696
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Command Outpost
@@ -4418,6 +4522,7 @@ types:
     id: 26250
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Control Center
@@ -4458,6 +4563,7 @@ types:
     id: 23567
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Serpentis Narcotics Storage
@@ -4498,6 +4604,7 @@ types:
     id: 23695
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Repackaging Factory
@@ -4538,6 +4645,7 @@ types:
     id: 26738
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Research Outpost
@@ -4578,6 +4686,7 @@ types:
     id: 23520
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Stronghold
@@ -4619,6 +4728,7 @@ types:
     id: 17818
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Serpentis Supply Stronghold
@@ -4659,6 +4769,7 @@ types:
     id: 23691
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Shattered Hive Mind Cage
@@ -4697,6 +4808,7 @@ types:
     id: 25384
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Shielded Prison Facility
@@ -4737,6 +4849,7 @@ types:
     id: 22156
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Sispur Estate Control Tower
@@ -4777,6 +4890,7 @@ types:
     id: 17821
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Slaver Rig Control Tower
@@ -4817,6 +4931,7 @@ types:
     id: 22059
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Small Rebel Base
@@ -4857,6 +4972,7 @@ types:
     id: 22047
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Special Forces Command Post
@@ -4898,6 +5014,7 @@ types:
     id: 17822
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Staff Quarters
@@ -4938,6 +5055,7 @@ types:
     id: 24671
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Major Assembly Array
@@ -4978,6 +5096,7 @@ types:
     id: 19622
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Starbase Storage Facility
@@ -5019,6 +5138,7 @@ types:
     id: 17135
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Stargate under construction and repair
@@ -5059,6 +5179,7 @@ types:
     id: 24751
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Storage Silo
@@ -5100,6 +5221,7 @@ types:
     id: 19426
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Strain Operation Bunker
@@ -5140,6 +5262,7 @@ types:
     id: 19738
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Subspace Data Miner
@@ -5181,6 +5304,7 @@ types:
     id: 17820
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Supply Traffic Management
@@ -5221,6 +5345,7 @@ types:
     id: 24257
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Temple of the Revelation
@@ -5261,6 +5386,7 @@ types:
     id: 19502
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: The Damsels Wimpy Brothel
@@ -5301,6 +5427,7 @@ types:
     id: 19501
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: The Damsels Wimpy Prison
@@ -5342,6 +5469,7 @@ types:
     id: 17614
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Thorak's Biodome Garden
@@ -5383,6 +5511,7 @@ types:
     id: 33910
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Thukker Component Assembly Facility
@@ -5424,6 +5553,7 @@ types:
     id: 17563
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: UNUSED_CargoRig_LCS_DL1_DCP1
@@ -5465,6 +5595,7 @@ types:
     id: 17179
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1
@@ -5506,6 +5637,7 @@ types:
     id: 17388
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1
@@ -5547,6 +5679,7 @@ types:
     id: 17633
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: UNUSED_HabMod_Residential_LCS
@@ -5587,6 +5720,7 @@ types:
     id: 27292
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Unstable Particle Acceleration Superstructure
@@ -5627,6 +5761,7 @@ types:
     id: 58804
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Vulnerable EoM Rogue Capital Shipyard
@@ -5667,6 +5802,7 @@ types:
     id: 23593
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Wiyrkomi Surveillance Outpost
@@ -5707,6 +5843,7 @@ types:
     id: 24356
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
+    mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Yan Jung Gargoyle

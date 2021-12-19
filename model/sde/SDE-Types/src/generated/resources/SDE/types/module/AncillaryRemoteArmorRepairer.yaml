@@ -14,6 +14,7 @@ types:
     hp: 40.0
     id: 41479
     marketGroup: 1056
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
@@ -47,6 +48,7 @@ types:
     hp: 40.0
     id: 41478
     marketGroup: 1057
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
@@ -80,6 +82,7 @@ types:
     hp: 40.0
     id: 41477
     marketGroup: 1058
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
@@ -113,6 +116,7 @@ types:
     hp: 40.0
     id: 41476
     marketGroup: 1059
+    mass: 20.0
     maxgroupfitted: 1
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1

@@ -46,6 +46,7 @@ types:
     hp: 225.0
     id: 42822
     kineticdamage: 5.0
+    mass: 1650000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 3000
     maxlockedtargets: 2

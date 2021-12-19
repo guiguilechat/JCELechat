@@ -6,6 +6,7 @@ types:
     hp: 40.0
     id: 1537
     marketGroup: 658
+    mass: 20.0
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Power Diagnostic System'
@@ -27,6 +28,7 @@ types:
     hp: 40.0
     id: 22953
     marketGroup: 658
+    mass: 20.0
     metagroupid: 3
     metalevelold: 6
     name: '''Cartel'' Power Diagnostic System I'
@@ -48,6 +50,7 @@ types:
     hp: 40.0
     id: 15106
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 13
     name: Ahremen's Modified Power Diagnostic System
@@ -69,6 +72,7 @@ types:
     hp: 40.0
     id: 17524
     marketGroup: 658
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Power Diagnostic System
@@ -90,6 +94,7 @@ types:
     hp: 40.0
     id: 15096
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Power Diagnostic System
@@ -111,6 +116,7 @@ types:
     hp: 40.0
     id: 15292
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Power Diagnostic System
@@ -132,6 +138,7 @@ types:
     hp: 40.0
     id: 31952
     marketGroup: 658
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Power Diagnostic System
@@ -153,6 +160,7 @@ types:
     hp: 40.0
     id: 15108
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 14
     name: Chelm's Modified Power Diagnostic System
@@ -174,6 +182,7 @@ types:
     hp: 40.0
     id: 15298
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 14
     name: Cormack's Modified Power Diagnostic System
@@ -195,6 +204,7 @@ types:
     hp: 40.0
     id: 14134
     marketGroup: 658
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Power Diagnostic System
@@ -216,6 +226,7 @@ types:
     hp: 40.0
     id: 15110
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 14
     name: Draclira's Modified Power Diagnostic System
@@ -237,6 +248,7 @@ types:
     hp: 40.0
     id: 8225
     marketGroup: 658
+    mass: 20.0
     metalevelold: 1
     name: Mark I Compact Power Diagnostic System
     packagedVolume: 5.0
@@ -257,6 +269,7 @@ types:
     hp: 40.0
     id: 1539
     marketGroup: 658
+    mass: 20.0
     name: Power Diagnostic System I
     packagedVolume: 5.0
     portionSize: 1
@@ -276,6 +289,7 @@ types:
     hp: 40.0
     id: 1541
     marketGroup: 658
+    mass: 20.0
     metalevelold: 5
     name: Power Diagnostic System II
     packagedVolume: 5.0
@@ -296,6 +310,7 @@ types:
     hp: 40.0
     id: 15102
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 12
     name: Raysere's Modified Power Diagnostic System
@@ -317,6 +332,7 @@ types:
     hp: 40.0
     id: 15100
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 12
     name: Selynne's Modified Power Diagnostic System
@@ -338,6 +354,7 @@ types:
     hp: 40.0
     id: 15296
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 13
     name: Setele's Modified Power Diagnostic System
@@ -359,6 +376,7 @@ types:
     hp: 40.0
     id: 14138
     marketGroup: 658
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Power Diagnostic System
@@ -380,6 +398,7 @@ types:
     hp: 40.0
     id: 15098
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Power Diagnostic System
@@ -401,6 +420,7 @@ types:
     hp: 40.0
     id: 28739
     marketGroup: 658
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: Thukker Power Diagnostic System
@@ -422,6 +442,7 @@ types:
     hp: 40.0
     id: 14136
     marketGroup: 658
+    mass: 20.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Power Diagnostic System
@@ -443,6 +464,7 @@ types:
     hp: 40.0
     id: 15294
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 12
     name: Tuvan's Modified Power Diagnostic System
@@ -464,6 +486,7 @@ types:
     hp: 40.0
     id: 15104
     marketGroup: 658
+    mass: 20.0
     metagroupid: 5
     metalevelold: 13
     name: Vizan's Modified Power Diagnostic System
