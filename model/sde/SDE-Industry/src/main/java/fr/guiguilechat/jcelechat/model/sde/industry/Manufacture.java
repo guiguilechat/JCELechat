@@ -25,7 +25,7 @@ public class Manufacture {
 	}
 
 	public static long requirement(long baseQtty, int runs, int bpME, double locMult) {
-		return baseQtty == 1 ? runs : (long) Math.ceil(baseQtty * runs * locMult * (100 - bpME) / 100);
+		return baseQtty == 1 ? runs : (long) Math.ceil(0.01 * (long) Math.floor(baseQtty * runs * locMult * (100 - bpME)));
 	}
 
 }
