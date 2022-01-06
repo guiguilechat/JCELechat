@@ -11,6 +11,7 @@ import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 
 public class InsuranceEval {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		CacheStatic cache = ESIStatic.INSTANCE.cache();
 		ListHolder<R_get_insurance_prices> prices = cache.insurance.prices().filter(ins -> ins.levels[0].cost > 0);
