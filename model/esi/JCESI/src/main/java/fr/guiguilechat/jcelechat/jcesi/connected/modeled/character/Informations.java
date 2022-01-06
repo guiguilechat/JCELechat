@@ -74,7 +74,7 @@ public class Informations {
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (corporationId == null) {
 					corporationId = fetch.mapInt(info -> {
-						return info.corporation_id;
+						return info != null ? info.corporation_id : -1;
 					});
 				}
 			});

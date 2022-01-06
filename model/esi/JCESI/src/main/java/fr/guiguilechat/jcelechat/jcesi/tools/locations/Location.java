@@ -172,13 +172,16 @@ public class Location {
 			case 63:
 			case 64:// station
 				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid).get();
-				return new Location(station, locationid, station.name, LOCTYPE.STATION);
+				return new Location(station, locationid, station == null ? "missing" + locationid : station.name,
+						LOCTYPE.STATION);
 			case 66:// office id
 				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000001).get();
-				return new Location(station, locationid, station.name, LOCTYPE.OFFICE);
+				return new Location(station, locationid, station == null ? "missing" + locationid : station.name,
+						LOCTYPE.OFFICE);
 			case 67:// conquerable office
 				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000000).get();
-				return new Location(station, locationid, station.name, LOCTYPE.CONQSTATION);
+				return new Location(station, locationid, station == null ? "missing" + locationid : station.name,
+						LOCTYPE.CONQSTATION);
 			default:
 				logger.warn("locationid not handled " + locationid + " prefix " + prefix);
 				return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);

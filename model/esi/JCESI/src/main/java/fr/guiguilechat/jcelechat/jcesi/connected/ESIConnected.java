@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.connected;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Map;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
@@ -119,6 +120,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 
 	protected SetHolder<String> makeRoles() {
 		ObjHolder<R_get_characters_character_id_roles> rawroles = cache.characters.roles(verify().CharacterID);
-		return rawroles.toSet(rr -> Arrays.asList(rr.roles)).mapItems(r -> r.toString).distinct();
+		return rawroles.toSet(rr -> rr == null ? Collections.emptyList() : Arrays.asList(rr.roles))
+				.mapItems(r -> r.toString).distinct();
 	}
 }
