@@ -1,9 +1,74 @@
 types:
+  Convergent Accelerant Nexus:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 1000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 50000.0
+    id: 61841
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    name: Convergent Accelerant Nexus
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+  Convergent Decelerant Nexus:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 1000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 50000.0
+    id: 61842
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    name: Convergent Decelerant Nexus
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
   November Hulk:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
     id: 48969
+    kineticdamageresonance: 1.0
     mass: 2.5E8
     name: November Hulk
     packagedVolume: 100000.0
     portionSize: 1
     published: false
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    thermaldamageresonance: 1.0
     volume: 100000.0

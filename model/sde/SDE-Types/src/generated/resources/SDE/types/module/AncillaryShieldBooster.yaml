@@ -29,6 +29,7 @@ types:
     id: 41504
     marketGroup: 778
     maxgroupfitted: 1
+    metalevelold: 1
     name: Capital Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10

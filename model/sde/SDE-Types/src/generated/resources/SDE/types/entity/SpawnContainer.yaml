@@ -4750,6 +4750,32 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 27500.0
+  Huge Peculiar Ruin:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 61658
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Huge Peculiar Ruin
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
   Human Containment Facility:
     capacitorcapacity: 2700.0
     disallowassistance: 1
@@ -5041,6 +5067,58 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 27500.0
+  Large Peculiar Debris Fragment:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 60852
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Large Peculiar Debris Fragment
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  Large Peculiar Ruin:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 60855
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Large Peculiar Ruin
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
   Laser-Pistol Stash:
     capacitorcapacity: 1000.0
     capacity: 1000.0
@@ -5249,6 +5327,84 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     tierdifficulty: 3
+    volume: 27500.0
+  Massive Peculiar Ruin:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 61659
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Massive Peculiar Ruin
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 5
+    volume: 27500.0
+  Medium Peculiar Debris Fragment:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 60851
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Medium Peculiar Debris Fragment
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  Medium Peculiar Ruin:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 60854
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Medium Peculiar Ruin
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
     volume: 27500.0
   Metadrones - LM-G-2 - B:
     accessdifficulty: 10.0
@@ -8261,6 +8417,58 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 2
     volume: 1.0E8
+  Small Peculiar Debris Fragment:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 60850
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Small Peculiar Debris Fragment
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
+  Small Peculiar Ruin:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 60853
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Small Peculiar Ruin
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
   Solray Observational Unit:
     accessdifficulty: -10.0
     capacitorcapacity: 2700.0

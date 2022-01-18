@@ -748,6 +748,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Interstellar Convergence T-Shirt:
+    gender: 2
+    id: 61533
+    marketGroup: 1398
+    mass: 0.5
+    name: Men's Interstellar Convergence T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Jita 4-4 Crew Top:
     gender: 2
     id: 56848
@@ -1771,6 +1781,16 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Imperial Stargate Crew Top
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Interstellar Convergence T-Shirt:
+    gender: 2
+    id: 61532
+    marketGroup: 1406
+    mass: 0.5
+    name: Women's Interstellar Convergence T-Shirt
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

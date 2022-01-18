@@ -110,6 +110,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Abaddon Interstellar Convergence SKIN:
+    id: 62221
+    marketGroup: 1964
+    name: Abaddon Interstellar Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Ironblood SKIN:
     id: 43515
     marketGroup: 1964
@@ -365,6 +373,14 @@ types:
     id: 49422
     marketGroup: 1974
     name: Aeon Headhunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Aeon Interstellar Convergence SKIN:
+    id: 62223
+    marketGroup: 1974
+    name: Aeon Interstellar Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -762,6 +778,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Anathema Versus Redforce SKIN:
+    id: 62012
+    name: Anathema Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Anshar Biosecurity Responders SKIN:
     id: 55625
     marketGroup: 2097
@@ -986,6 +1009,13 @@ types:
     id: 49817
     marketGroup: 1964
     name: Apocalypse Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apocalypse Navy Issue Abyssal Glory SKIN:
+    id: 62288
+    name: Apocalypse Navy Issue Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2940,6 +2970,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Avatar Interstellar Convergence SKIN:
+    id: 62222
+    marketGroup: 1978
+    name: Avatar Interstellar Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Avatar Ironblood SKIN:
     id: 43523
     marketGroup: 1978
@@ -4478,6 +4516,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Navy Issue Warp Convergence SKIN:
+    id: 61874
+    marketGroup: 2103
+    name: Brutix Navy Issue Warp Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix Roden SKIN:
     id: 34611
     marketGroup: 1958
@@ -4529,6 +4575,14 @@ types:
     id: 37573
     marketGroup: 1958
     name: Brutix Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Brutix Warp Convergence SKIN:
+    id: 61873
+    marketGroup: 1958
+    name: Brutix Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4816,6 +4870,13 @@ types:
     id: 46097
     marketGroup: 2052
     name: Buzzard Steel Cardinal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Buzzard Versus Redforce SKIN:
+    id: 62015
+    name: Buzzard Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6010,6 +6071,13 @@ types:
     id: 36759
     marketGroup: 2054
     name: Cheetah Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cheetah Versus Redforce SKIN:
+    id: 62021
+    name: Cheetah Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7543,6 +7611,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier Navy Issue Abyssal Glory SKIN:
+    id: 62287
+    name: Crucifier Navy Issue Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crucifier Navy Issue Biosecurity Responders SKIN:
     id: 55338
     marketGroup: 2000
@@ -8033,6 +8108,14 @@ types:
     id: 36777
     marketGroup: 1959
     name: Cyclone Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cyclone Warp Convergence SKIN:
+    id: 61878
+    marketGroup: 1959
+    name: Cyclone Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8739,6 +8822,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dominix Interstellar Convergence SKIN:
+    id: 62230
+    marketGroup: 1966
+    name: Dominix Interstellar Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dominix Kopis Edge SKIN:
     id: 46423
     marketGroup: 1966
@@ -9274,6 +9365,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Drake Navy Issue Warp Convergence SKIN:
+    id: 61869
+    marketGroup: 2103
+    name: Drake Navy Issue Warp Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Drake Navy Issue Wiyrkomi SKIN:
     id: 36366
     marketGroup: 2103
@@ -9349,6 +9448,14 @@ types:
     id: 52401
     marketGroup: 1957
     name: Drake Triglavian Twilight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drake Warp Convergence SKIN:
+    id: 61868
+    marketGroup: 1957
+    name: Drake Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10235,6 +10342,14 @@ types:
   Erebus InterBus Serenity Only SKIN:
     id: 38395
     name: Erebus InterBus Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Erebus Interstellar Convergence SKIN:
+    id: 62231
+    marketGroup: 1979
+    name: Erebus Interstellar Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11492,6 +11607,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Gila Warp Convergence SKIN:
+    id: 61867
+    marketGroup: 2030
+    name: Gila Warp Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Gnosis Capsuleer Day XVI SKIN:
     id: 52280
     marketGroup: 2312
@@ -11879,6 +12002,13 @@ types:
     id: 59427
     marketGroup: 2003
     name: Griffin Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Griffin Navy Issue Abyssal Glory SKIN:
+    id: 62289
+    name: Griffin Navy Issue Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12842,6 +12972,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hel Interstellar Convergence SKIN:
+    id: 62229
+    marketGroup: 1977
+    name: Hel Interstellar Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hel Justice SKIN:
     id: 36449
     marketGroup: 1977
@@ -12997,6 +13135,13 @@ types:
     id: 37555
     marketGroup: 2053
     name: Helios Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Helios Versus Redforce SKIN:
+    id: 62018
+    name: Helios Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13186,6 +13331,21 @@ types:
   Heron Sukuuvestaa SKIN Serenity Only:
     id: 36951
     name: Heron Sukuuvestaa SKIN Serenity Only
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Heron Versus Blueforce SKIN:
+    id: 62013
+    name: Heron Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Heron Warp Convergence SKIN:
+    id: 61865
+    marketGroup: 2003
+    name: Heron Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14395,6 +14555,21 @@ types:
     id: 37548
     marketGroup: 2004
     name: Imicus Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Imicus Versus Blueforce SKIN:
+    id: 62016
+    name: Imicus Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Imicus Warp Convergence SKIN:
+    id: 61870
+    marketGroup: 2004
+    name: Imicus Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16512,6 +16687,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Leviathan Interstellar Convergence SKIN:
+    id: 62225
+    marketGroup: 2092
+    name: Leviathan Interstellar Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Leviathan Kimotoro Eskeitan SKIN:
     id: 52643
     marketGroup: 2092
@@ -17289,6 +17472,21 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Magnate Versus Blueforce SKIN:
+    id: 62010
+    name: Magnate Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Magnate Warp Convergence SKIN:
+    id: 61861
+    marketGroup: 2002
+    name: Magnate Warp Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Magus Biosecurity Responders SKIN:
     id: 55620
     marketGroup: 2144
@@ -17630,6 +17828,13 @@ types:
   Maller Tash-Murkon Serenity Only SKIN:
     id: 37956
     name: Maller Tash-Murkon Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maller Versus Blueforce SKIN:
+    id: 62011
+    name: Maller Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18099,6 +18304,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maulus Navy Issue Abyssal Glory SKIN:
+    id: 62291
+    name: Maulus Navy Issue Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maulus Navy Issue Biosecurity Responders SKIN:
     id: 55605
     marketGroup: 2000
@@ -18315,6 +18527,13 @@ types:
     id: 53014
     marketGroup: 1966
     name: Megathron Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Megathron Navy Issue Abyssal Glory SKIN:
+    id: 62292
+    name: Megathron Navy Issue Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19045,6 +19264,21 @@ types:
     id: 41421
     marketGroup: 1991
     name: Moa Valkyrie SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Moa Versus Blueforce SKIN:
+    id: 62014
+    name: Moa Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Moa Warp Convergence SKIN:
+    id: 61866
+    marketGroup: 1991
+    name: Moa Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20791,6 +21025,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nyx Interstellar Convergence SKIN:
+    id: 62232
+    marketGroup: 1976
+    name: Nyx Interstellar Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nyx Kopis Edge SKIN:
     id: 46432
     marketGroup: 1976
@@ -21319,6 +21561,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Omen Navy Issue Warp Convergence SKIN:
+    id: 61863
+    marketGroup: 2063
+    name: Omen Navy Issue Warp Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Omen Oasis of Faith SKIN:
     id: 53619
     marketGroup: 1990
@@ -21400,6 +21650,14 @@ types:
     id: 59214
     marketGroup: 1990
     name: Omen War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Warp Convergence SKIN:
+    id: 61862
+    marketGroup: 1990
+    name: Omen Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23398,6 +23656,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Probe Versus Blueforce SKIN:
+    id: 62019
+    name: Probe Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Probe Vherokior SKIN:
     id: 34747
     marketGroup: 2005
@@ -23409,6 +23674,14 @@ types:
   Probe Vherokior Serenity Only SKIN:
     id: 36994
     name: Probe Vherokior Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Probe Warp Convergence SKIN:
+    id: 61875
+    marketGroup: 2005
+    name: Probe Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23767,6 +24040,14 @@ types:
     id: 59423
     marketGroup: 1956
     name: Prophecy War Reserves Lieutenant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prophecy Warp Convergence SKIN:
+    id: 61864
+    marketGroup: 1956
+    name: Prophecy Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24672,6 +24953,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ragnarok Interstellar Convergence SKIN:
+    id: 62228
+    marketGroup: 2093
+    name: Ragnarok Interstellar Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ragnarok Justice SKIN:
     id: 36450
     marketGroup: 2093
@@ -25110,6 +25399,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Raven Interstellar Convergence SKIN:
+    id: 62224
+    marketGroup: 1965
+    name: Raven Interstellar Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raven Kaalakiota SKIN:
     id: 34798
     name: Raven Kaalakiota SKIN
@@ -25137,6 +25434,13 @@ types:
     id: 59225
     marketGroup: 1965
     name: Raven Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Navy Issue Abyssal Glory SKIN:
+    id: 62290
+    name: Raven Navy Issue Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27063,6 +27367,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Versus Blueforce SKIN:
+    id: 62020
+    name: Rupture Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Vherokior SKIN:
     id: 59855
     name: Rupture Vherokior SKIN
@@ -28799,6 +29110,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Fleet Issue Warp Convergence SKIN:
+    id: 61877
+    marketGroup: 2063
+    name: Stabber Fleet Issue Warp Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Fleet Ordnance Spike SKIN:
     id: 59242
     marketGroup: 1993
@@ -28920,6 +29239,14 @@ types:
     id: 36770
     marketGroup: 1993
     name: Stabber Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Warp Convergence SKIN:
+    id: 61876
+    marketGroup: 1993
+    name: Stabber Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31557,6 +31884,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Fleet Issue Abyssal Glory SKIN:
+    id: 62294
+    name: Typhoon Fleet Issue Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Typhoon Fleet Issue Biosecurity Responders SKIN:
     id: 55675
     marketGroup: 2108
@@ -31696,6 +32030,14 @@ types:
     id: 40695
     marketGroup: 1967
     name: Typhoon IGC Victory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Typhoon Interstellar Convergence SKIN:
+    id: 62227
+    marketGroup: 1967
+    name: Typhoon Interstellar Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -32752,6 +33094,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Navy Issue Warp Convergence SKIN:
+    id: 61872
+    marketGroup: 2063
+    name: Vexor Navy Issue Warp Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Navy Issue Yoiul Festival YC121 SKIN:
     id: 49955
     marketGroup: 2063
@@ -32841,6 +33191,21 @@ types:
     id: 37566
     marketGroup: 1992
     name: Vexor Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Versus Blueforce SKIN:
+    id: 62017
+    name: Vexor Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Warp Convergence SKIN:
+    id: 61871
+    marketGroup: 1992
+    name: Vexor Warp Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -32983,6 +33348,13 @@ types:
     id: 45938
     marketGroup: 2005
     name: Vigil Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigil Fleet Issue Abyssal Glory SKIN:
+    id: 62293
+    name: Vigil Fleet Issue Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -33729,6 +34101,14 @@ types:
     id: 49424
     marketGroup: 1975
     name: Wyvern Headhunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wyvern Interstellar Convergence SKIN:
+    id: 62226
+    marketGroup: 1975
+    name: Wyvern Interstellar Convergence SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

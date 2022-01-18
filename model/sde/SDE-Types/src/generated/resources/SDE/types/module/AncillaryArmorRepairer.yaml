@@ -34,6 +34,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
+    metalevelold: 1
     name: Capital Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -85,6 +86,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
+    metalevelold: 1
     name: Large Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -136,6 +138,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
+    metalevelold: 1
     name: Medium Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -187,6 +190,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
+    metalevelold: 1
     name: Small Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0

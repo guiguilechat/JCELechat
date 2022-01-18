@@ -39,7 +39,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
-public class StructureGuidedBomb
+public class GuidedBomb
     extends Charge
 {
     /**
@@ -183,7 +183,7 @@ public class StructureGuidedBomb
     @DefaultRealValue(0.0)
     public double thermaldamage;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, AimedLaunch.INSTANCE, MaxVelocity.INSTANCE, Agility.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, AoeDamageReductionFactor.INSTANCE, ExplosionRange.INSTANCE, DetonationRange.INSTANCE, StructureUniformity.INSTANCE, AoeVelocity.INSTANCE, AoeCloudSize.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, RemoteResistanceID.INSTANCE, StructureItemVisualFlag.INSTANCE })));
-    public static final StructureGuidedBomb.MetaGroup METAGROUP = new StructureGuidedBomb.MetaGroup();
+    public static final GuidedBomb.MetaGroup METAGROUP = new GuidedBomb.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -281,18 +281,18 @@ public class StructureGuidedBomb
     }
 
     @Override
-    public IMetaGroup<StructureGuidedBomb> getGroup() {
+    public IMetaGroup<GuidedBomb> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<StructureGuidedBomb>
+        implements IMetaGroup<GuidedBomb>
     {
-        public static final String RESOURCE_PATH = "SDE/types/charge/StructureGuidedBomb.yaml";
-        private Map<String, StructureGuidedBomb> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/charge/GuidedBomb.yaml";
+        private Map<String, GuidedBomb> cache = (null);
 
         @Override
-        public IMetaCategory<? super StructureGuidedBomb> category() {
+        public IMetaCategory<? super GuidedBomb> category() {
             return Charge.METACAT;
         }
 
@@ -303,13 +303,13 @@ public class StructureGuidedBomb
 
         @Override
         public String getName() {
-            return "StructureGuidedBomb";
+            return "GuidedBomb";
         }
 
         @Override
-        public synchronized Map<String, StructureGuidedBomb> load() {
+        public synchronized Map<String, GuidedBomb> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(StructureGuidedBomb.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(GuidedBomb.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -319,7 +319,7 @@ public class StructureGuidedBomb
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureGuidedBomb> types;
+            public LinkedHashMap<String, GuidedBomb> types;
         }
     }
 }

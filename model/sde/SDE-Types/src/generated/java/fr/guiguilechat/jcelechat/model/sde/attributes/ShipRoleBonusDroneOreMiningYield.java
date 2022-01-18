@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class RoleBonusDroneMiningYield
+public class ShipRoleBonusDroneOreMiningYield
     extends IntAttribute
 {
-    public static final RoleBonusDroneMiningYield INSTANCE = new RoleBonusDroneMiningYield();
+    public static final ShipRoleBonusDroneOreMiningYield INSTANCE = new ShipRoleBonusDroneOreMiningYield();
 
     @Override
     public int getId() {
-        return  2578;
+        return  3242;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class RoleBonusDroneMiningYield
 
     @Override
     public String toString() {
-        return "RoleBonusDroneMiningYield";
+        return "ShipRoleBonusDroneOreMiningYield";
     }
 }

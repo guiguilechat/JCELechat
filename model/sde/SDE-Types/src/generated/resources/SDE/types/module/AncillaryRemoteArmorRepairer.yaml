@@ -18,6 +18,7 @@ types:
     maxgroupfitted: 1
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
+    metalevelold: 1
     name: Capital Ancillary Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -52,6 +53,7 @@ types:
     maxgroupfitted: 1
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
+    metalevelold: 1
     name: Large Ancillary Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -86,6 +88,7 @@ types:
     maxgroupfitted: 1
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
+    metalevelold: 1
     name: Medium Ancillary Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -120,6 +123,7 @@ types:
     maxgroupfitted: 1
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
+    metalevelold: 1
     name: Small Ancillary Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0

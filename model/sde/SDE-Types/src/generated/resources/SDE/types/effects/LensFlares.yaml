@@ -9,9 +9,19 @@ types:
     name: A_31
     portionSize: 1
     published: false
+  A_31b:
+    id: 61555
+    name: A_31b
+    portionSize: 1
+    published: false
   A_32:
     id: 47432
     name: A_32
+    portionSize: 1
+    published: false
+  A_32b:
+    id: 61554
+    name: A_32b
     portionSize: 1
     published: false
   A_33:

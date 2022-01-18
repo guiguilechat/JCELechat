@@ -1,4 +1,13 @@
 types:
+  2v2 T1 Cruiser Proving Filament:
+    id: 60606
+    marketGroup: 2747
+    name: 2v2 T1 Cruiser Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
   Crimson Harvest Destroyer FFA Proving Filament:
     id: 60078
     marketGroup: 2747
@@ -8,46 +17,19 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Prophecy FFA Proving Filament:
-    id: 60600
+  Event 49 Proving Filament:
+    id: 60607
     marketGroup: 2747
-    name: Prophecy FFA Proving Filament
+    name: Event 49 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Yoiul 1v1 Battleships Proving Filament:
-    id: 60604
+  Exploration Frigate FFA Proving Filament:
+    id: 60605
     marketGroup: 2747
-    name: Yoiul 1v1 Battleships Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Yoiul 1v1 Navy Frigates Proving Filament:
-    id: 60602
-    marketGroup: 2747
-    name: Yoiul 1v1 Navy Frigates Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Yoiul 2v2 Assault Frigates Proving Filament:
-    id: 60601
-    marketGroup: 2747
-    name: Yoiul 2v2 Assault Frigates Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Yoiul T1 Cruiser FFA Proving Filament:
-    id: 60603
-    marketGroup: 2747
-    name: Yoiul T1 Cruiser FFA Proving Filament
+    name: Exploration Frigate FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

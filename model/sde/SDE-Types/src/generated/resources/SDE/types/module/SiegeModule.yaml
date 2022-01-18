@@ -314,7 +314,7 @@ types:
     siegemassmultiplier: 10
     siegemodewarpstatus: 100
     speedfactor: -100.0
-    techlevel: 1
+    techlevel: 2
     volume: 3500.0
   Siege Module I:
     armoremdamageresonance: 1.0

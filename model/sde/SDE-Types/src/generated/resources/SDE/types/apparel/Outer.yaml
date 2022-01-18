@@ -929,12 +929,32 @@ types:
     published: true
     radius: 1.0
     volume: 0.5
+  Men's Paradoxical Scarf:
+    gender: 2
+    id: 61536
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Paradoxical Scarf
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Polar Aurora Exploration Suit:
     gender: 2
     id: 53382
     marketGroup: 1399
     mass: 0.5
     name: Men's Polar Aurora Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Proper Dapper Outfit:
+    gender: 2
+    id: 61949
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Proper Dapper Outfit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -2386,12 +2406,32 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's Paradoxical Scarf:
+    gender: 2
+    id: 61535
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Paradoxical Scarf
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Polar Aurora Exploration Suit:
     gender: 2
     id: 53357
     marketGroup: 1405
     mass: 0.5
     name: Women's Polar Aurora Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Proper Dapper Outfit:
+    gender: 2
+    id: 61848
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Proper Dapper Outfit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

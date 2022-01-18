@@ -1,0 +1,71 @@
+types:
+  Curious Warp Matrix Filament:
+    filamentdescriptionmessageid: 561098
+    id: 60633
+    marketGroup: 2457
+    name: Curious Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Dangerous Warp Matrix Filament:
+    filamentdescriptionmessageid: 561098
+    id: 62056
+    marketGroup: 2457
+    name: Dangerous Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Enigmatic Warp Matrix Filament:
+    filamentdescriptionmessageid: 561098
+    id: 61656
+    marketGroup: 2457
+    name: Enigmatic Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Hazardous Warp Matrix Filament:
+    filamentdescriptionmessageid: 561098
+    id: 61655
+    marketGroup: 2457
+    name: Hazardous Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Mysterious Warp Matrix Filament:
+    filamentdescriptionmessageid: 561098
+    id: 62055
+    marketGroup: 2457
+    name: Mysterious Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Perilous Warp Matrix Filament:
+    filamentdescriptionmessageid: 561098
+    id: 62057
+    marketGroup: 2457
+    name: Perilous Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Precarious Warp Matrix Filament:
+    filamentdescriptionmessageid: 561098
+    id: 61654
+    marketGroup: 2457
+    name: Precarious Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612

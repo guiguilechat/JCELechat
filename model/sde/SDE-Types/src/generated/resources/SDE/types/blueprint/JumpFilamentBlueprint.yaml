@@ -1,4 +1,39 @@
 types:
+  Curious Warp Matrix Filament Blueprint:
+    id: 62058
+    name: Curious Warp Matrix Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dangerous Warp Matrix Filament Blueprint:
+    id: 62063
+    name: Dangerous Warp Matrix Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Enigmatic Warp Matrix Filament Blueprint:
+    id: 62059
+    name: Enigmatic Warp Matrix Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hazardous Warp Matrix Filament Blueprint:
+    id: 62062
+    name: Hazardous Warp Matrix Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Mysterious Warp Matrix Filament Blueprint:
+    id: 62060
+    name: Mysterious Warp Matrix Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Noise-15 'Needlejack' Filament Blueprint:
     id: 53988
     name: Noise-15 'Needlejack' Filament Blueprint
@@ -9,6 +44,20 @@ types:
   Noise-25 'Needlejack' Filament Blueprint:
     id: 53990
     name: Noise-25 'Needlejack' Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Perilous Warp Matrix Filament Blueprint:
+    id: 62064
+    name: Perilous Warp Matrix Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Precarious Warp Matrix Filament Blueprint:
+    id: 62061
+    name: Precarious Warp Matrix Filament Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

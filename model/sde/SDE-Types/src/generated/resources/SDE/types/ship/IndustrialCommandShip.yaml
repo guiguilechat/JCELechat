@@ -176,7 +176,6 @@ types:
     rigsize: 2
     rigslots: 3
     rolebonuscd: -90
-    rolebonusdroneminingyield: 50
     rolebonussurveyscannerrange: 300
     rolebonustractorbeamrange: 100
     rolebonustractorbeamvelocity: 50
@@ -193,6 +192,7 @@ types:
     shipbonusics1: 5
     shipbonusics2: 2
     shipbonusics5: -10
+    shiprolebonusdroneoreminingyield: 50
     signatureradius: 300.0
     structureuniformity: 1.0
     techlevel: 1
