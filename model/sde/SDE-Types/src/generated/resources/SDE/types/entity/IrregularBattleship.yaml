@@ -181,7 +181,7 @@ types:
     warpscrambleduration: 8000
     warpspeedmultiplier: 3.0
   Carousing Machariel:
-    agility: 0.029999999329447746
+    agility: 0.02500000037252903
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.33000001311302185
     armorexplosivedamageresonance: 0.7300000190734863
@@ -270,9 +270,9 @@ types:
     trackingspeed: 80.0
     volume: 595000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 5.0
   Carousing Vindicator:
-    agility: 0.019999999552965164
+    agility: 0.017999999225139618
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4399999976158142
@@ -359,7 +359,7 @@ types:
     trackingspeed: 90.0
     volume: 486000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 5.0
   Deathglow Scumlord:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
@@ -2107,6 +2107,81 @@ types:
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Mordu's Centurion
+    optimalsigradius: 1000
+    packagedVolume: 2.2E7
+    portionSize: 1
+    published: false
+    radius: 500.0
+    rechargerate: 862500.0
+    scangravimetricstrength: 39.071998596191406
+    scanresolution: 122.1875
+    shieldcapacity: 14000.0
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 1875000.0
+    shieldthermaldamageresonance: 0.4000000059604645
+    shielduniformity: 1.0
+    signatureradius: 518.3676147460938
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 2.2E7
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
+  Mordu's Warmark:
+    agility: 0.08100000023841858
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.5
+    armorhp: 3000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 0.4000000059604645
+    capacitorcapacity: 6875.0
+    capacity: 235.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entitymissiletypeid: 204
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 395
+    gfxturretid: 13929
+    hp: 3000.0
+    id: 62728
+    kineticdamageresonance: 1.0
+    mass: 1.9E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 9
+    maxtargetrange: 121875.0
+    maxvelocity: 340.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 7.5
+    missileentityaoecloudsizemultiplier: 0.638700008392334
+    missileentityaoevelocitymultiplier: 1.7389999628067017
+    missileentityflighttimemultiplier: 2.0
+    missileentityvelocitymultiplier: 3.0
+    missilelaunchduration: 7000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Mordu's Warmark
     optimalsigradius: 1000
     packagedVolume: 2.2E7
     portionSize: 1

@@ -929,6 +929,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.5
+  Men's Obsidian Opulence Jacket:
+    gender: 2
+    id: 54377
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Obsidian Opulence Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Paradoxical Scarf:
     gender: 2
     id: 61536
@@ -2405,6 +2415,16 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's Obsidian Opulence Jacket:
+    gender: 2
+    id: 54359
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Obsidian Opulence Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's Paradoxical Scarf:
     gender: 2

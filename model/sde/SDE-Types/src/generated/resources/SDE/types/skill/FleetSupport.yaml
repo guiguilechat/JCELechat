@@ -69,6 +69,22 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 12.0
     volume: 0.009999999776482582
+  Fleet Compression Logistics:
+    cannotbetrainedontrial: 1
+    id: 62453
+    marketGroup: 1323
+    name: Fleet Compression Logistics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill2: 22552
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
   Fleet Coordination:
     cannotbetrainedontrial: 1
     id: 57318

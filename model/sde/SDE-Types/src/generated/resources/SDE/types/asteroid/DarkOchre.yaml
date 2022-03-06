@@ -82,7 +82,7 @@ types:
   Dark Ochre:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28394
@@ -104,7 +104,7 @@ types:
   Jet Ochre:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.100000023841858
+    asteroidradiusgrowthfactor: 0.550000011920929
     asteroidradiusunitsize: 700
     compressionquantityneeded: 100
     compressiontypeid: 46694
@@ -126,7 +126,7 @@ types:
   Obsidian Ochre:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28395
@@ -147,7 +147,7 @@ types:
     volume: 8.0
   Oeryl:
     asteroidmaxradius: 16255
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28623
     ignoreminingwaste: 1
@@ -167,7 +167,7 @@ types:
   Onyx Ochre:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28396

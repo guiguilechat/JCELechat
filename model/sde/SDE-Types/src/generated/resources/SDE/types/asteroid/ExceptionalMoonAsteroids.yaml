@@ -2,7 +2,7 @@ types:
   Bountiful Loparite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46316
     marketGroup: 2401
@@ -22,7 +22,7 @@ types:
   Bountiful Monazite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46314
     marketGroup: 2401
@@ -42,7 +42,7 @@ types:
   Bountiful Xenotime:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46312
     marketGroup: 2401
@@ -62,7 +62,7 @@ types:
   Bountiful Ytterbite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46318
     marketGroup: 2401
@@ -82,7 +82,7 @@ types:
   Loparite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45512
     marketGroup: 2401
@@ -102,7 +102,7 @@ types:
   Monazite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45511
     marketGroup: 2401
@@ -122,7 +122,7 @@ types:
   Shining Loparite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46317
     marketGroup: 2401
@@ -142,7 +142,7 @@ types:
   Shining Monazite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46315
     marketGroup: 2401
@@ -162,7 +162,7 @@ types:
   Shining Xenotime:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46313
     marketGroup: 2401
@@ -182,7 +182,7 @@ types:
   Shining Ytterbite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46319
     marketGroup: 2401
@@ -202,7 +202,7 @@ types:
   Xenotime:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45510
     marketGroup: 2401
@@ -222,7 +222,7 @@ types:
   Ytterbite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45513
     marketGroup: 2401

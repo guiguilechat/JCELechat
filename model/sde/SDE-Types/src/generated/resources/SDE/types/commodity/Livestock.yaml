@@ -860,6 +860,16 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Kidnapped ORE Researcher:
+    id: 62710
+    marketGroup: 23
+    mass: 65.0
+    name: Kidnapped ORE Researcher
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    volume: 1.0
   Kritsan Parthus:
     id: 30719
     mass: 90.0

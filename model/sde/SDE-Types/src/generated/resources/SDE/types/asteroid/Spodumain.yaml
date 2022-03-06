@@ -2,7 +2,7 @@ types:
   Bright Spodumain:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28418
@@ -104,7 +104,7 @@ types:
   Dazzling Spodumain:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 2.0
+    asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 800
     compressionquantityneeded: 100
     compressiontypeid: 46704
@@ -126,7 +126,7 @@ types:
   Gleaming Spodumain:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28419
@@ -148,7 +148,7 @@ types:
   Spodumain:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28420

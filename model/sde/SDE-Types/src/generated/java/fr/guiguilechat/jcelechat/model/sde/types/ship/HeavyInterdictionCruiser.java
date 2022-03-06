@@ -33,6 +33,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusHeavyInterdictors1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusHeavyInterdictors2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusHeavyInterdictors3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
@@ -144,6 +145,13 @@ public class HeavyInterdictionCruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int elitebonusheavyinterdictors2;
+    /**
+     * eliteBonusHeavyInterdictors3
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int elitebonusheavyinterdictors3;
     /**
      * 
      */
@@ -369,7 +377,7 @@ public class HeavyInterdictionCruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, RookieArmorResistanceBonus.INSTANCE, RookieShieldResistBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, CpuNeedBonus.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, ShipBonusCC2 .INSTANCE, ShipBonusGC2 .INSTANCE, ShipBonusMC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, EliteBonusHeavyInterdictors1 .INSTANCE, ShipBonusAC.INSTANCE, EliteBonusHeavyInterdictors2 .INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusAT.INSTANCE, ShieldUniformity.INSTANCE, ShipBonusGC.INSTANCE, ShipBonusCC.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMC.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, RookieArmorResistanceBonus.INSTANCE, RookieShieldResistBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, CpuNeedBonus.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, ShipBonusCC2 .INSTANCE, ShipBonusGC2 .INSTANCE, ShipBonusMC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, EliteBonusHeavyInterdictors3 .INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, EliteBonusHeavyInterdictors1 .INSTANCE, ShipBonusAC.INSTANCE, EliteBonusHeavyInterdictors2 .INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusAT.INSTANCE, ShieldUniformity.INSTANCE, ShipBonusGC.INSTANCE, ShipBonusCC.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMC.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final HeavyInterdictionCruiser.MetaGroup METAGROUP = new HeavyInterdictionCruiser.MetaGroup();
 
     @Override
@@ -386,6 +394,10 @@ public class HeavyInterdictionCruiser
             case  1247 :
             {
                 return elitebonusheavyinterdictors2;
+            }
+            case  3250 :
+            {
+                return elitebonusheavyinterdictors3;
             }
             case  1555 :
             {

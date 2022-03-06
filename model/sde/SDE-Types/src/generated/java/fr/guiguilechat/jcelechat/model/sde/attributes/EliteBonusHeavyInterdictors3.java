@@ -4,16 +4,16 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * The ID of a typelist of asteroid typeIDs that a mining crystal can affect
+ * eliteBonusHeavyInterdictors3
  */
-public class SpecializationAsteroidTypeList
+public class EliteBonusHeavyInterdictors3
     extends IntAttribute
 {
-    public static final SpecializationAsteroidTypeList INSTANCE = new SpecializationAsteroidTypeList();
+    public static final EliteBonusHeavyInterdictors3 INSTANCE = new EliteBonusHeavyInterdictors3();
 
     @Override
     public int getId() {
-        return  3148;
+        return  3250;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class SpecializationAsteroidTypeList
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class SpecializationAsteroidTypeList
 
     @Override
     public String toString() {
-        return "SpecializationAsteroidTypeList";
+        return "EliteBonusHeavyInterdictors3";
     }
 }

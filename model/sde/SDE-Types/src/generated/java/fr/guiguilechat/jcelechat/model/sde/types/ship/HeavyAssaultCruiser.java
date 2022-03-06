@@ -127,7 +127,7 @@ public class HeavyAssaultCruiser
     /**
      * reduction in MicroWarp Drive signature
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int mwdsignatureradiusbonus;

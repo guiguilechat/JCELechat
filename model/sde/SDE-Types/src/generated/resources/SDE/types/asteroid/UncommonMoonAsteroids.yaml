@@ -2,7 +2,7 @@ types:
   Chromite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45501
     marketGroup: 2398
@@ -22,7 +22,7 @@ types:
   Lavish Chromite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46302
     marketGroup: 2398
@@ -42,7 +42,7 @@ types:
   Lavish Otavite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46296
     marketGroup: 2398
@@ -62,7 +62,7 @@ types:
   Lavish Sperrylite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46298
     marketGroup: 2398
@@ -82,7 +82,7 @@ types:
   Lavish Vanadinite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46300
     marketGroup: 2398
@@ -102,7 +102,7 @@ types:
   Otavite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45498
     marketGroup: 2398
@@ -122,7 +122,7 @@ types:
   Shimmering Chromite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46303
     marketGroup: 2398
@@ -142,7 +142,7 @@ types:
   Shimmering Otavite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46297
     marketGroup: 2398
@@ -162,7 +162,7 @@ types:
   Shimmering Sperrylite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46299
     marketGroup: 2398
@@ -182,7 +182,7 @@ types:
   Shimmering Vanadinite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46301
     marketGroup: 2398
@@ -202,7 +202,7 @@ types:
   Sperrylite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45499
     marketGroup: 2398
@@ -222,7 +222,7 @@ types:
   Vanadinite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45500
     marketGroup: 2398

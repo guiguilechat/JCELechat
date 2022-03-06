@@ -82,7 +82,7 @@ types:
   Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28391
@@ -104,7 +104,7 @@ types:
   Crystalline Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28392
@@ -125,7 +125,7 @@ types:
     volume: 16.0
   Geodite:
     asteroidmaxradius: 16255
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28624
     ignoreminingwaste: 1
@@ -145,7 +145,7 @@ types:
   Pellucid Crokite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 2.0
+    asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 800
     compressionquantityneeded: 100
     compressiontypeid: 46693
@@ -167,7 +167,7 @@ types:
   Sharp Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28393

@@ -4062,6 +4062,17 @@ types:
     portionSize: 1
     published: true
     volume: 0.20000000298023224
+  ORE Research Data Fragment:
+    exporttaxmultiplier: 1
+    id: 62709
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    name: ORE Research Data Fragment
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.009999999776482582
   Obsidian Datacore:
     exporttaxmultiplier: 1
     id: 32290

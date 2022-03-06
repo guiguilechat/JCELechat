@@ -71,6 +71,24 @@ types:
     secondaryattribute: 165
     skilltimeconstant: 8.0
     volume: 0.009999999776482582
+  Capital Shipboard Compression Technology:
+    cannotbetrainedontrial: 1
+    id: 62451
+    marketGroup: 1323
+    name: Capital Shipboard Compression Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E8
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill1: 28585
+    requiredskill1level: 1
+    requiredskill2: 62450
+    requiredskill2level: 4
+    secondaryattribute: 165
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
   Coherent Ore Processing:
     cannotbetrainedontrial: 1
     id: 60378
@@ -181,6 +199,22 @@ types:
     requiredskill1level: 4
     secondaryattribute: 165
     skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  Gas Decompression Efficiency:
+    cannotbetrainedontrial: 1
+    id: 62452
+    marketGroup: 1323
+    name: Gas Decompression Efficiency
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E7
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill2: 62450
+    requiredskill2level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Ice Harvesting:
     cannotbetrainedontrial: 1
@@ -424,6 +458,22 @@ types:
     requiredskill2level: 5
     secondaryattribute: 165
     skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  Shipboard Compression Technology:
+    cannotbetrainedontrial: 1
+    id: 62450
+    marketGroup: 1323
+    name: Shipboard Compression Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E8
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill1: 58956
+    requiredskill1level: 1
+    secondaryattribute: 165
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Simple Ore Processing:
     cannotbetrainedontrial: 1

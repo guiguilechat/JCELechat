@@ -1,71 +1,78 @@
 types:
-  Curious Warp Matrix Filament:
+  Expired Curious Warp Matrix Filament:
     filamentdescriptionmessageid: 561098
     id: 60633
     marketGroup: 2457
-    name: Curious Warp Matrix Filament
+    name: Expired Curious Warp Matrix Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Dangerous Warp Matrix Filament:
+  Expired Dangerous Warp Matrix Filament:
     filamentdescriptionmessageid: 561098
     id: 62056
     marketGroup: 2457
-    name: Dangerous Warp Matrix Filament
+    name: Expired Dangerous Warp Matrix Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Enigmatic Warp Matrix Filament:
+  Expired Enigmatic Warp Matrix Filament:
     filamentdescriptionmessageid: 561098
     id: 61656
     marketGroup: 2457
-    name: Enigmatic Warp Matrix Filament
+    name: Expired Enigmatic Warp Matrix Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 80000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Hazardous Warp Matrix Filament:
+  Expired Hazardous Warp Matrix Filament:
     filamentdescriptionmessageid: 561098
     id: 61655
     marketGroup: 2457
-    name: Hazardous Warp Matrix Filament
+    name: Expired Hazardous Warp Matrix Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Mysterious Warp Matrix Filament:
+  Expired Mysterious Warp Matrix Filament:
     filamentdescriptionmessageid: 561098
     id: 62055
     marketGroup: 2457
-    name: Mysterious Warp Matrix Filament
+    name: Expired Mysterious Warp Matrix Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Perilous Warp Matrix Filament:
+  Expired Perilous Warp Matrix Filament:
     filamentdescriptionmessageid: 561098
     id: 62057
     marketGroup: 2457
-    name: Perilous Warp Matrix Filament
+    name: Expired Perilous Warp Matrix Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2500000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Precarious Warp Matrix Filament:
+  Expired Precarious Warp Matrix Filament:
     filamentdescriptionmessageid: 561098
     id: 61654
     marketGroup: 2457
-    name: Precarious Warp Matrix Filament
+    name: Expired Precarious Warp Matrix Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 80000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

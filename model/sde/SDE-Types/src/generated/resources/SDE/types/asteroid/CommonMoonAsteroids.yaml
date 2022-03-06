@@ -2,7 +2,7 @@ types:
   Cobaltite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45494
     marketGroup: 2397
@@ -22,7 +22,7 @@ types:
   Copious Cobaltite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46288
     marketGroup: 2397
@@ -42,7 +42,7 @@ types:
   Copious Euxenite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46290
     marketGroup: 2397
@@ -62,7 +62,7 @@ types:
   Copious Scheelite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46294
     marketGroup: 2397
@@ -82,7 +82,7 @@ types:
   Copious Titanite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46292
     marketGroup: 2397
@@ -102,7 +102,7 @@ types:
   Euxenite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45495
     marketGroup: 2397
@@ -122,7 +122,7 @@ types:
   Scheelite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45497
     marketGroup: 2397
@@ -142,7 +142,7 @@ types:
   Titanite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45496
     marketGroup: 2397
@@ -162,7 +162,7 @@ types:
   Twinkling Cobaltite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46289
     marketGroup: 2397
@@ -182,7 +182,7 @@ types:
   Twinkling Euxenite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46291
     marketGroup: 2397
@@ -202,7 +202,7 @@ types:
   Twinkling Scheelite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46295
     marketGroup: 2397
@@ -222,7 +222,7 @@ types:
   Twinkling Titanite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46293
     marketGroup: 2397

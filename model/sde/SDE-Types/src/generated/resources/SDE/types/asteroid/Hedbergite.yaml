@@ -82,7 +82,7 @@ types:
   Glazed Hedbergite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28400
@@ -104,7 +104,7 @@ types:
   Hedbergite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28401
@@ -126,7 +126,7 @@ types:
   Lustrous Hedbergite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.44999998807907104
+    asteroidradiusgrowthfactor: 0.22499999403953552
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 46696
@@ -148,7 +148,7 @@ types:
   Vitric Hedbergite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28402

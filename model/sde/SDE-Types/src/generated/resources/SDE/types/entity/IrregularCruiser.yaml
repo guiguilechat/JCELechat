@@ -561,7 +561,7 @@ types:
     warpscramblestrength: 1
     warpspeedmultiplier: 3.0
   Carousing Celestis:
-    agility: 1.1699999570846558
+    agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4399999976158142
@@ -647,7 +647,7 @@ types:
     trackingspeed: 120.0
     volume: 116000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Carousing Cynabal:
     agility: 0.15000000596046448
     aitankingmodifierdrone: 0.699999988079071
@@ -738,7 +738,7 @@ types:
     trackingspeed: 100.0
     volume: 101000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Carousing Exequror:
     agility: 0.20999999344348907
     aitankingmodifierdrone: 0.699999988079071
@@ -819,9 +819,9 @@ types:
     thermaldamageresonance: 0.4690000116825104
     volume: 113000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Carousing Huginn:
-    agility: 1.190000057220459
+    agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.13500000536441803
     armorexplosivedamageresonance: 0.5699999928474426
@@ -913,9 +913,9 @@ types:
     trackingspeed: 100.0
     volume: 85000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Carousing Lachesis:
-    agility: 1.1799999475479126
+    agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.3199999928474426
     armorexplosivedamageresonance: 0.3199999928474426
@@ -1006,7 +1006,7 @@ types:
     trackingspeed: 250.0
     volume: 116000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Carousing Oneiros:
     agility: 0.20999999344348907
     aitankingmodifierdrone: 0.699999988079071
@@ -1087,9 +1087,9 @@ types:
     thermaldamageresonance: 0.4690000116825104
     volume: 113000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Carousing Vigilant:
-    agility: 1.159999966621399
+    agility: 0.8999999761581421
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.5099999904632568
@@ -1182,7 +1182,7 @@ types:
     trackingspeed: 120.0
     volume: 101000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Colony Nest Overseer:
     agility: 0.20000000298023224
     aitankingmodifierdrone: 0.699999988079071
@@ -3296,6 +3296,78 @@ types:
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Mordu's Decurion
+    optimalsigradius: 1000
+    packagedVolume: 101000.0
+    portionSize: 1
+    published: false
+    radius: 199.86000061035156
+    rechargerate: 333750.0
+    scangravimetricstrength: 19.200000762939453
+    scanresolution: 337.5
+    shieldcapacity: 5000.0
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 937500.0
+    shieldthermaldamageresonance: 0.4000000059604645
+    signatureradius: 197.205078125
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 101000.0
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
+  Mordu's Markguard:
+    agility: 0.31725001335144043
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.5
+    armorhp: 1000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 0.4000000059604645
+    capacitorcapacity: 1562.5
+    capacity: 235.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entitymissiletypeid: 209
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 395
+    hp: 1000.0
+    id: 62726
+    kineticdamageresonance: 1.0
+    mass: 1.01E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 6
+    maxtargetrange: 71875.0
+    maxvelocity: 400.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 5.5
+    missileentityaoecloudsizemultiplier: 0.6520000100135803
+    missileentityaoevelocitymultiplier: 1.7079999446868896
+    missileentityflighttimemultiplier: 2.0
+    missileentityvelocitymultiplier: 3.0
+    missilelaunchduration: 4000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Mordu's Markguard
     optimalsigradius: 1000
     packagedVolume: 101000.0
     portionSize: 1

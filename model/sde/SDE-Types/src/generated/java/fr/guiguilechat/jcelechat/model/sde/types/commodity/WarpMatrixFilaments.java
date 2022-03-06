@@ -41,7 +41,7 @@ public class WarpMatrixFilaments
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FilamentDescriptionMessageID.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, FilamentDescriptionMessageID.INSTANCE, Capacity.INSTANCE })));
     public static final WarpMatrixFilaments.MetaGroup METAGROUP = new WarpMatrixFilaments.MetaGroup();
 
     @Override

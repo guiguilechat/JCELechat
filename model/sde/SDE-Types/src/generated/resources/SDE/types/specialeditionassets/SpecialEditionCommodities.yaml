@@ -222,7 +222,6 @@ types:
   Amaranthine Divide Facial Augmentation Package:
     cpumultiplier: 1.0
     id: 50036
-    marketGroup: 1661
     name: Amaranthine Divide Facial Augmentation Package
     packagedVolume: 4.0
     portionSize: 1
@@ -1487,6 +1486,14 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  Gala Party Supplies Crate:
+    cpumultiplier: 1.0
+    id: 62650
+    name: Gala Party Supplies Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Galaxy Pack - Crystal:
     cpumultiplier: 1.0
     id: 47253
@@ -1596,6 +1603,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Guardian's Gala Booster Crate:
+    cpumultiplier: 1.0
+    id: 62651
+    name: Guardian's Gala Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Guardian's Gala Surprise Gift:
     cpumultiplier: 1.0
     id: 50045
@@ -1757,8 +1772,10 @@ types:
     cpumultiplier: 1.0
     id: 61129
     name: Ice Storm Filaments Crate
+    packagedVolume: 1.0
     portionSize: 1
     published: true
+    volume: 1.0
   Impetus Trading Cards:
     cpumultiplier: 1.0
     id: 48138
@@ -1813,8 +1830,10 @@ types:
     cpumultiplier: 1.0
     id: 62028
     name: Interstellar Convergence Booster Crate
+    packagedVolume: 1.0
     portionSize: 1
     published: true
+    volume: 1.0
   Jezaja's Giant Secure Container:
     cpumultiplier: 1.0
     id: 44205
@@ -2326,8 +2345,10 @@ types:
     cpumultiplier: 1.0
     id: 62029
     name: Paradoxical Nebula Firework Crate
+    packagedVolume: 1.0
     portionSize: 1
     published: true
+    volume: 1.0
   Pax e Kilizhi Do:
     cpumultiplier: 1.0
     id: 52783

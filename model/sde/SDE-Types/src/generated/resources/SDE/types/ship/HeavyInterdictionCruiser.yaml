@@ -279,16 +279,18 @@ types:
     agility: 0.47999998927116394
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 2280.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorhp: 2730.0
+    armorkineticdamageresonance: 0.375
+    armorthermaldamageresonance: 0.13750000298023224
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1550.0
-    capacity: 380.0
-    cpuoutput: 460
+    capacity: 420.0
+    cpuoutput: 560
     dronebandwidth: 25
     dronecapacity: 25
+    elitebonusheavyinterdictors2: 20
+    elitebonusheavyinterdictors3: -100
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -304,19 +306,19 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.75
-    hislots: 6
-    hp: 2100.0
+    hislots: 7
+    hp: 2300.0
     id: 60764
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 5
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1371
-    mass: 9362000.0
+    mass: 1.0298E7
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
-    maxtargetrange: 50000.0
+    maxtargetrange: 80000.0
     maxvelocity: 230.0
     medslots: 5
     metagroupid: 4
@@ -325,32 +327,36 @@ types:
     name: Laelaps
     packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 800
+    poweroutput: 900
     powertospeed: 1
     price: 3.6E7
     propulsiongraphicid: 395
     published: true
     radius: 240.0
-    rechargerate: 490000.0
+    rechargerate: 315000.0
     requiredskill1: 3334
-    requiredskill1level: 2
+    requiredskill1level: 5
     requiredskill2: 3332
-    requiredskill2level: 2
+    requiredskill2level: 5
+    requiredskill3: 28609
+    requiredskill3level: 1
     rigsize: 2
     rigslots: 3
+    rookieshieldresistbonus: -20
     scangravimetricstrength: 21.0
     scanresolution: 300.0
     scanspeed: 6000
-    shieldcapacity: 2950.0
+    shieldcapacity: 3540.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.30000001192092896
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.20000000298023224
     shielduniformity: 0.75
-    shipbonuscc: 15
+    shipbonuscc: 20
+    shipbonuscc2: -5.0
     shipbonusgc: 5.0
-    shipbonusgc2: 10.0
+    shipbonusgc2: -10.0
     shipbonusrole7: 200.0
     shipbonusrole8: -50.0
     signatureradius: 135.0
@@ -359,11 +365,11 @@ types:
     thermaldamageresonance: 0.6700000166893005
     typecolorscheme: 11318
     uniformity: 1.0
-    upgradecapacity: 350
+    upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 101000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0
   Onyx:
     agility: 0.550000011920929

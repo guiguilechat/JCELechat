@@ -3317,6 +3317,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Barghest Triumphant Elite SKIN:
+    id: 62375
+    marketGroup: 1963
+    name: Barghest Triumphant Elite SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Barghest Waschi Uprising 'Combat' SKIN:
     id: 37869
     marketGroup: 1963
@@ -8205,10 +8213,32 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cynabal Serpentis SKIN:
+    id: 57333
+    marketGroup: 2030
+    name: Cynabal Serpentis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cynabal Spirit SKIN:
     id: 44950
     marketGroup: 2030
     name: Cynabal Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cynabal Versus Blueforce SKIN:
+    id: 62646
+    name: Cynabal Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cynabal Versus Redforce SKIN:
+    id: 62640
+    name: Cynabal Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8423,6 +8453,28 @@ types:
     id: 46584
     marketGroup: 2120
     name: Daredevil Serpentis Victory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Daredevil Spirit SKIN:
+    id: 57310
+    marketGroup: 2031
+    name: Daredevil Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Daredevil Versus Blueforce SKIN:
+    id: 62645
+    name: Daredevil Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Daredevil Versus Redforce SKIN:
+    id: 62639
+    name: Daredevil Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9519,6 +9571,20 @@ types:
     id: 44951
     marketGroup: 2031
     name: Dramiel Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dramiel Versus Blueforce SKIN:
+    id: 62644
+    name: Dramiel Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dramiel Versus Redforce SKIN:
+    id: 62638
+    name: Dramiel Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11423,6 +11489,14 @@ types:
     id: 56952
     marketGroup: 2031
     name: Garmur Redclaw Sable SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Garmur Triumphant Elite SKIN:
+    id: 62372
+    marketGroup: 2031
+    name: Garmur Triumphant Elite SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17005,10 +17079,32 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Machariel Serpentis SKIN:
+    id: 57334
+    marketGroup: 1963
+    name: Machariel Serpentis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Machariel Spirit SKIN:
     id: 44949
     marketGroup: 1963
     name: Machariel Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Machariel Versus Blueforce SKIN:
+    id: 62647
+    name: Machariel Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Machariel Versus Redforce SKIN:
+    id: 62641
+    name: Machariel Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17305,6 +17401,14 @@ types:
     id: 52884
     marketGroup: 1967
     name: Maelstrom Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maelstrom Spirit SKIN:
+    id: 57343
+    marketGroup: 1967
+    name: Maelstrom Spirit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22292,6 +22396,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Orthrus Triumphant Elite SKIN:
+    id: 62373
+    marketGroup: 2030
+    name: Orthrus Triumphant Elite SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Orthrus Waschi Uprising 'Combat' SKIN:
     id: 37868
     marketGroup: 2030
@@ -26491,6 +26603,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rifter Amaranthine Mantle SKIN:
+    id: 57342
+    marketGroup: 2005
+    name: Rifter Amaranthine Mantle SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rifter Aurora Universalis SKIN:
     id: 60919
     name: Rifter Aurora Universalis SKIN
@@ -30323,6 +30443,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tempest Amaranthine Mantle SKIN:
+    id: 57341
+    marketGroup: 1967
+    name: Tempest Amaranthine Mantle SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tempest Aurora Universalis SKIN:
     id: 53360
     marketGroup: 1967
@@ -32088,6 +32216,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Spirit SKIN:
+    id: 57344
+    marketGroup: 1967
+    name: Typhoon Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Typhoon Triglavian Twilight SKIN:
     id: 52404
     marketGroup: 1967
@@ -33539,6 +33675,28 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vigilant Spirit SKIN:
+    id: 57307
+    marketGroup: 2030
+    name: Vigilant Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigilant Versus Blueforce SKIN:
+    id: 62648
+    name: Vigilant Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigilant Versus Redforce SKIN:
+    id: 62642
+    name: Vigilant Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vindicator Amaranthine Mantle SKIN:
     id: 50034
     marketGroup: 1963
@@ -33607,6 +33765,28 @@ types:
     id: 48147
     marketGroup: 1963
     name: Vindicator Sarpati's Revenge - Virge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vindicator Spirit SKIN:
+    id: 57308
+    marketGroup: 1963
+    name: Vindicator Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vindicator Versus Blueforce SKIN:
+    id: 62649
+    name: Vindicator Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vindicator Versus Redforce SKIN:
+    id: 62643
+    name: Vindicator Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

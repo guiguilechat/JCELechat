@@ -178,9 +178,9 @@ types:
     thermaldamageresonance: 0.4690000116825104
     trackingspeed: 90.0
     volume: 270000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 10.0
   Carousing Tornado:
-    agility: 1.159999966621399
+    agility: 0.8999999761581421
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.33000001311302185
     armorexplosivedamageresonance: 0.7300000190734863
@@ -257,7 +257,7 @@ types:
     thermaldamageresonance: 0.4690000116825104
     trackingspeed: 70.0
     volume: 216000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 10.0
   Critically Damaged Biomechanoid Saucer:
     agility: 4.0
     aitankingmodifierdrone: 0.699999988079071

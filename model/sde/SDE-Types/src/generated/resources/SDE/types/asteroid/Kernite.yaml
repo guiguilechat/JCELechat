@@ -82,7 +82,7 @@ types:
   Fiery Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28409
@@ -104,7 +104,7 @@ types:
   Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28410
@@ -126,7 +126,7 @@ types:
   Luminous Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28411
@@ -147,7 +147,7 @@ types:
     volume: 1.2000000476837158
   Lyavite:
     asteroidmaxradius: 16255
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28620
     ignoreminingwaste: 1
@@ -167,7 +167,7 @@ types:
   Resplendant Kernite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.18000000715255737
+    asteroidradiusgrowthfactor: 0.09000000357627869
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 46699

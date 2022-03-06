@@ -2,7 +2,7 @@ types:
   Azure Plagioclase:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28421
@@ -104,7 +104,7 @@ types:
   Plagioclase:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28422
@@ -126,7 +126,7 @@ types:
   Rich Plagioclase:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28423
@@ -148,7 +148,7 @@ types:
   Sparkling Plagioclase:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.052000001072883606
+    asteroidradiusgrowthfactor: 0.026000000536441803
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 46701

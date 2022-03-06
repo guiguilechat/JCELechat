@@ -524,19 +524,82 @@ types:
     thermaldamageresonance: 0.43549999594688416
     trackingspeed: 1.531000018119812
     volume: 454500.0
-  ♦ Infested Dominix:
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    damagemultiplier: 1.0
-    emdamageresonance: 1.0
+  ♦ Infested Abaddon:
+    agility: 0.14000000059604645
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.6399999856948853
+    armorhp: 11687.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.5199999809265137
+    capacitorcapacity: 7968.7998046875
+    capacity: 950.0
+    damagemultiplier: 86.4000015258789
+    emdamage: 20.0
+    emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
-    explosivedamageresonance: 1.0
-    falloff: 1.0
-    id: 43650
-    kineticdamageresonance: 1.0
-    mass: 1.05E8
+    entityfactionloss: 0.009999999776482582
+    explosivedamageresonance: 0.6700000166893005
+    falloff: 28750.0
+    gfxboosterid: 397
+    hp: 11000.0
+    id: 62250
+    kineticdamageresonance: 0.6700000166893005
+    mass: 2.1E7
+    maxlockedtargets: 7
+    maxrange: 55000.0
+    maxvelocity: 111.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: ♦ Infested Abaddon
+    optimalsigradius: 40000
+    packagedVolume: 1010000.0
+    portionSize: 1
+    published: false
+    radius: 250.0
+    rechargerate: 375000.0
+    scanradarstrength: 22.0
+    scanresolution: 111.0
+    shieldcapacity: 9625.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1875000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 470.0
+    speed: 7100.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.6700000166893005
+    trackingspeed: 2.890000104904175
+    volume: 1010000.0
+  ♦ Infested Dominix:
+    agility: 0.125
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 11000.0
+    armorkineticdamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 6875.0
+    capacity: 950.0
+    damagemultiplier: 31.739999771118164
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    entityfactionloss: 0.009999999776482582
+    explosivedamageresonance: 0.6700000166893005
+    falloff: 42335.0
+    gfxboosterid: 397
+    hp: 11687.0
+    id: 62251
+    kineticdamage: 20.0
+    kineticdamageresonance: 0.6700000166893005
+    mass: 2.1E7
+    maxlockedtargets: 7
+    maxrange: 52500.0
+    maxvelocity: 136.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -544,18 +607,125 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: ♦ Infested Dominix
+    optimalsigradius: 40000
+    packagedVolume: 1010000.0
+    portionSize: 1
+    published: false
+    radius: 250.0
+    rechargerate: 345000.0
+    scanmagnetometricstrength: 22.0
+    scanresolution: 117.0
+    shieldcapacity: 9900.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1875000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 465.0
+    speed: 5440.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    thermaldamageresonance: 0.6700000166893005
+    trackingspeed: 2.140000104904175
+    volume: 1010000.0
+  ♦ Infested Raven:
+    agility: 0.11999999731779099
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 1.0
+    armorhp: 6380.0
+    armorkineticdamageresonance: 0.800000011920929
+    armorthermaldamageresonance: 0.5
+    capacitorcapacity: 6875.0
+    capacity: 600.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    energywarfareresistance: 1.0
+    entityfactionloss: 0.009999999776482582
+    entitymissiletypeid: 203
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 397
+    hp: 7040.0
+    id: 62252
+    kineticdamageresonance: 1.0
+    mass: 2.1E7
+    maxlockedtargets: 7
+    maxvelocity: 141.0
+    missiledamagemultiplier: 1.600000023841858
+    missileentityaoecloudsizemultiplier: 0.5400000214576721
+    missileentityaoevelocitymultiplier: 2.200000047683716
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 2.25
+    missilelaunchduration: 9390.0
+    name: ♦ Infested Raven
     optimalsigradius: 1000
     packagedVolume: 1010000.0
     portionSize: 1
     published: false
+    radius: 250.0
+    rechargerate: 345000.0
+    scangravimetricstrength: 22.0
+    scanresolution: 139.0
+    shieldcapacity: 7700.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldthermaldamageresonance: 1.0
-    signatureradius: 100.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1875000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 410.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+    volume: 1010000.0
+  ♦ Infested Typhoon:
+    agility: 0.10999999940395355
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 8250.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 6750.0
+    capacity: 950.0
+    damagemultiplier: 1.0
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    entityfactionloss: 0.009999999776482582
+    entitymissiletypeid: 205
+    explosivedamageresonance: 0.6700000166893005
+    falloff: 1.0
+    gfxboosterid: 397
+    hp: 8250.0
+    id: 62253
+    kineticdamageresonance: 0.6700000166893005
+    mass: 2.1E7
+    maxlockedtargets: 7
+    maxvelocity: 162.0
+    missiledamagemultiplier: 1.600000023841858
+    missileentityaoecloudsizemultiplier: 0.5400000214576721
+    missileentityaoevelocitymultiplier: 3.049999952316284
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 9370.0
+    name: ♦ Infested Typhoon
+    optimalsigradius: 1000
+    packagedVolume: 1010000.0
+    portionSize: 1
+    published: false
+    radius: 250.0
+    rechargerate: 329000.0
+    scanladarstrength: 22.0
+    scanresolution: 188.0
+    shieldcapacity: 8937.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1875000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 330.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.6700000166893005
     volume: 1010000.0
   ♦ Machariel:
     agility: 0.09600000083446503

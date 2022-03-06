@@ -2,7 +2,7 @@ types:
   Bitumens:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45492
     marketGroup: 2396
@@ -22,7 +22,7 @@ types:
   Brimful Bitumens:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46284
     marketGroup: 2396
@@ -42,7 +42,7 @@ types:
   Brimful Coesite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46286
     marketGroup: 2396
@@ -62,7 +62,7 @@ types:
   Brimful Sylvite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46282
     marketGroup: 2396
@@ -82,7 +82,7 @@ types:
   Brimful Zeolites:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46280
     marketGroup: 2396
@@ -102,7 +102,7 @@ types:
   Coesite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45493
     marketGroup: 2396
@@ -122,7 +122,7 @@ types:
   Glistening Bitumens:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46285
     marketGroup: 2396
@@ -142,7 +142,7 @@ types:
   Glistening Coesite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46287
     marketGroup: 2396
@@ -162,7 +162,7 @@ types:
   Glistening Sylvite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46283
     marketGroup: 2396
@@ -182,7 +182,7 @@ types:
   Glistening Zeolites:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 46281
     marketGroup: 2396
@@ -202,7 +202,7 @@ types:
   Sylvite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45491
     marketGroup: 2396
@@ -222,7 +222,7 @@ types:
   Zeolites:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 600
     id: 45490
     marketGroup: 2396

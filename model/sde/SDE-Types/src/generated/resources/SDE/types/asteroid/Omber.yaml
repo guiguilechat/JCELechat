@@ -82,7 +82,7 @@ types:
   Golden Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28415
@@ -103,7 +103,7 @@ types:
     volume: 0.6000000238418579
   Mercium:
     asteroidmaxradius: 16255
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28619
     ignoreminingwaste: 1
@@ -123,7 +123,7 @@ types:
   Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28416
@@ -145,7 +145,7 @@ types:
   Platinoid Omber:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.09000000357627869
+    asteroidradiusgrowthfactor: 0.04500000178813934
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 46700
@@ -167,7 +167,7 @@ types:
   Silvery Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28417

@@ -427,6 +427,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Obsidian Opulence Pants:
+    gender: 2
+    id: 54371
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Obsidian Opulence Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Republic Commander's Dress Pants:
     gender: 2
     id: 58954
@@ -1587,6 +1597,16 @@ types:
     marketGroup: 1403
     mass: 0.5
     name: Women's Jita 4-4 Executive Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Obsidian Opulence Pants:
+    gender: 2
+    id: 54365
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Obsidian Opulence Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

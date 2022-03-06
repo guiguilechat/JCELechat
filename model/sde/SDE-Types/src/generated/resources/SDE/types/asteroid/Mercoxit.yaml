@@ -64,7 +64,7 @@ types:
     volume: 0.10000000149011612
   Magma Mercoxit:
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28412
@@ -87,7 +87,7 @@ types:
     volume: 40.0
   Mercoxit:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28413
@@ -110,7 +110,7 @@ types:
     volume: 40.0
   Vitreous Mercoxit:
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 28414
@@ -132,7 +132,7 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   Zuthrine:
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     damagecloudchance: 0.05000000074505806
     damagecloudtype: 11546

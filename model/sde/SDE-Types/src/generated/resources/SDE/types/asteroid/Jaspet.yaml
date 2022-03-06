@@ -82,7 +82,7 @@ types:
   Immaculate Jaspet:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.30000001192092896
+    asteroidradiusgrowthfactor: 0.15000000596046448
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 46698
@@ -104,7 +104,7 @@ types:
   Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28406
@@ -125,7 +125,7 @@ types:
     volume: 2.0
   Pithix:
     asteroidmaxradius: 16255
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28621
     ignoreminingwaste: 1
@@ -145,7 +145,7 @@ types:
   Pristine Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28407
@@ -167,7 +167,7 @@ types:
   Pure Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28408

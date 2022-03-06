@@ -1,7 +1,7 @@
 types:
   Banidine:
     asteroidmaxradius: 16255
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28617
     ignoreminingwaste: 1
@@ -21,7 +21,7 @@ types:
   Compressed Concentrated Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28430
     marketGroup: 518
@@ -41,7 +41,7 @@ types:
   Compressed Dense Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28431
     marketGroup: 518
@@ -61,7 +61,7 @@ types:
   Compressed Stable Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 46705
     marketGroup: 518
@@ -81,7 +81,7 @@ types:
   Compressed Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 28432
     marketGroup: 518
@@ -101,7 +101,7 @@ types:
   Concentrated Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28430
@@ -123,7 +123,7 @@ types:
   Dense Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28431
@@ -145,7 +145,7 @@ types:
   Stable Veldspar:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.014999999664723873
+    asteroidradiusgrowthfactor: 0.007499999832361937
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 46705
@@ -167,7 +167,7 @@ types:
   Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28432

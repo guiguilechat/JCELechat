@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * The ID of a typelist of asteroid typeIDs that a mining crystal can affect
- */
-public class SpecializationAsteroidTypeList
+public class HullDamageResistanceBonus
     extends IntAttribute
 {
-    public static final SpecializationAsteroidTypeList INSTANCE = new SpecializationAsteroidTypeList();
+    public static final HullDamageResistanceBonus INSTANCE = new HullDamageResistanceBonus();
 
     @Override
     public int getId() {
-        return  3148;
+        return  3258;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class SpecializationAsteroidTypeList
 
     @Override
     public String toString() {
-        return "SpecializationAsteroidTypeList";
+        return "HullDamageResistanceBonus";
     }
 }

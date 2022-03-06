@@ -194,7 +194,7 @@ types:
     warpscramblestrength: 1
     warpspeedmultiplier: 3.0
   Carousing Daredevil:
-    agility: 1.0499999523162842
+    agility: 0.8399999737739563
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
@@ -280,9 +280,9 @@ types:
     thermaldamageresonance: 0.4690000116825104
     trackingspeed: 600.0
     volume: 26500.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 50.0
   Carousing Dramiel:
-    agility: 1.0
+    agility: 0.800000011920929
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.36000001430511475
@@ -373,9 +373,9 @@ types:
     thermaldamageresonance: 0.4690000116825104
     trackingspeed: 400.0
     volume: 27289.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 50.0
   Carousing Hound:
-    agility: 1.5
+    agility: 1.2000000476837158
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.27000001072883606
@@ -461,9 +461,9 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 0.4690000116825104
     volume: 28100.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 50.0
   Carousing Hyena:
-    agility: 1.350000023841858
+    agility: 1.0800000429153442
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.18000000715255737
@@ -550,9 +550,9 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 0.4690000116825104
     volume: 17400.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 50.0
   Carousing Keres:
-    agility: 1.399999976158142
+    agility: 1.1200000047683716
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.30000001192092896
@@ -641,9 +641,9 @@ types:
     thermaldamageresonance: 0.4690000116825104
     trackingspeed: 500.0
     volume: 23000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 50.0
   Carousing Maulus:
-    agility: 1.100000023841858
+    agility: 0.8799999952316284
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
@@ -729,9 +729,9 @@ types:
     thermaldamageresonance: 0.4690000116825104
     trackingspeed: 500.0
     volume: 23000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 50.0
   Carousing Nemesis:
-    agility: 1.5
+    agility: 1.2000000476837158
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.44999998807907104
@@ -817,9 +817,9 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 0.4690000116825104
     volume: 28100.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 50.0
   Carousing Vigil:
-    agility: 1.100000023841858
+    agility: 0.8799999952316284
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.36000001430511475
@@ -903,7 +903,7 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 0.4690000116825104
     volume: 17400.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 50.0
   Colony Nest Forager:
     agility: 0.10000000149011612
     aipreferredsignatureradius: -1

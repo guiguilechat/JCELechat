@@ -6,6 +6,7 @@ types:
     name: Peculiar Data Collection
     packagedVolume: 0.0010000000474974513
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.0010000000474974513
   Strange Matter Component X-13:
@@ -15,6 +16,7 @@ types:
     name: Strange Matter Component X-13
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component X-17:
@@ -24,6 +26,7 @@ types:
     name: Strange Matter Component X-17
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 75.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component X-31:
@@ -33,6 +36,7 @@ types:
     name: Strange Matter Component X-31
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component X-37:
@@ -42,6 +46,7 @@ types:
     name: Strange Matter Component X-37
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component X-71:
@@ -51,6 +56,7 @@ types:
     name: Strange Matter Component X-71
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component Y-107:
@@ -60,6 +66,7 @@ types:
     name: Strange Matter Component Y-107
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7000.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component Y-73:
@@ -69,6 +76,7 @@ types:
     name: Strange Matter Component Y-73
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component Y-79:
@@ -78,6 +86,7 @@ types:
     name: Strange Matter Component Y-79
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component Y-97:
@@ -87,6 +96,7 @@ types:
     name: Strange Matter Component Y-97
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6000.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component Z-113:
@@ -96,6 +106,7 @@ types:
     name: Strange Matter Component Z-113
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 25000.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component Z-149:
@@ -105,6 +116,7 @@ types:
     name: Strange Matter Component Z-149
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component Z-157:
@@ -114,6 +126,7 @@ types:
     name: Strange Matter Component Z-157
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 40000.0
     published: true
     volume: 0.009999999776482582
   Strange Matter Component Z-167:
@@ -123,6 +136,7 @@ types:
     name: Strange Matter Component Z-167
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.009999999776482582
   Time Crystal Oscillator:
@@ -132,5 +146,6 @@ types:
     name: Time Crystal Oscillator
     packagedVolume: 0.004999999888241291
     portionSize: 1
+    price: 150.0
     published: true
     volume: 0.004999999888241291

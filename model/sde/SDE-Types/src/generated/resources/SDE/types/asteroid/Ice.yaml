@@ -1,6 +1,6 @@
 types:
   Azure Ice:
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     id: 28627
     ignoreminingwaste: 1
@@ -19,7 +19,7 @@ types:
     volume: 1000.0
   Blue Ice:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28433
@@ -40,7 +40,7 @@ types:
     volume: 1000.0
   Clear Icicle:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28434
@@ -288,7 +288,7 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   Crystalline Icicle:
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     id: 28628
     ignoreminingwaste: 1
@@ -306,7 +306,7 @@ types:
     volume: 1000.0
   Dark Glitter:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28435
@@ -327,7 +327,7 @@ types:
     volume: 1000.0
   Enriched Clear Icicle:
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28436
@@ -348,7 +348,7 @@ types:
     volume: 1000.0
   Gelidus:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28437
@@ -369,7 +369,7 @@ types:
     volume: 1000.0
   Glacial Mass:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28438
@@ -390,7 +390,7 @@ types:
     volume: 1000.0
   Glare Crust:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28439
@@ -411,7 +411,7 @@ types:
     volume: 1000.0
   Krystallos:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28440
@@ -432,7 +432,7 @@ types:
     volume: 1000.0
   Pristine White Glaze:
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28441
@@ -453,7 +453,7 @@ types:
     volume: 1000.0
   Smooth Glacial Mass:
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28442
@@ -474,7 +474,7 @@ types:
     volume: 1000.0
   Thick Blue Ice:
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28443
@@ -495,7 +495,7 @@ types:
     volume: 1000.0
   White Glaze:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 160.0
+    asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     compressionquantityneeded: 1
     compressiontypeid: 28444

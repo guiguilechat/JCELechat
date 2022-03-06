@@ -31216,3 +31216,43 @@ offers:
       - id: 34
         quantity: 6580000
       lp: 20000
+  17186:
+    id: 17186
+    name: Shipboard Compression Technology
+    product:
+      id: 62450
+      quantity: 1
+    requirements:
+      items:
+      - id: 62709
+        quantity: 200
+  17187:
+    id: 17187
+    name: Capital Shipboard Compression Technology
+    product:
+      id: 62451
+      quantity: 1
+    requirements:
+      items:
+      - id: 62709
+        quantity: 200
+  17188:
+    id: 17188
+    name: Gas Decompression Efficiency
+    product:
+      id: 62452
+      quantity: 1
+    requirements:
+      items:
+      - id: 62709
+        quantity: 100
+  17189:
+    id: 17189
+    name: Fleet Compression Logistics
+    product:
+      id: 62453
+      quantity: 1
+    requirements:
+      items:
+      - id: 62709
+        quantity: 400

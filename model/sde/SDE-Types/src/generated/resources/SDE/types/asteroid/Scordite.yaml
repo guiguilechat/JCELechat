@@ -82,7 +82,7 @@ types:
   Condensed Scordite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28427
@@ -104,7 +104,7 @@ types:
   Glossy Scordite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.02199999988079071
+    asteroidradiusgrowthfactor: 0.010999999940395355
     asteroidradiusunitsize: 600
     compressionquantityneeded: 100
     compressiontypeid: 46703
@@ -126,7 +126,7 @@ types:
   Massive Scordite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28428
@@ -148,7 +148,7 @@ types:
   Scordite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     compressionquantityneeded: 100
     compressiontypeid: 28429

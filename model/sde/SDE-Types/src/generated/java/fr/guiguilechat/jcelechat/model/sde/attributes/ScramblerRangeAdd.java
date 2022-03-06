@@ -4,21 +4,21 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * The ID of a typelist of asteroid typeIDs that a mining crystal can affect
+ * Bonus added to warp scrambler range
  */
-public class SpecializationAsteroidTypeList
+public class ScramblerRangeAdd
     extends IntAttribute
 {
-    public static final SpecializationAsteroidTypeList INSTANCE = new SpecializationAsteroidTypeList();
+    public static final ScramblerRangeAdd INSTANCE = new ScramblerRangeAdd();
 
     @Override
     public int getId() {
-        return  3148;
+        return  3257;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return false;
+        return true;
     }
 
     @Override
@@ -33,11 +33,11 @@ public class SpecializationAsteroidTypeList
 
     @Override
     public boolean getStackable() {
-        return false;
+        return true;
     }
 
     @Override
     public String toString() {
-        return "SpecializationAsteroidTypeList";
+        return "ScramblerRangeAdd";
     }
 }
