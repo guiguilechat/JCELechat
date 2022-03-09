@@ -71,6 +71,7 @@ types:
     volume: 0.009999999776482582
   Fleet Compression Logistics:
     cannotbetrainedontrial: 1
+    fleetcompressionlogisticsrangebonus: 10
     id: 62453
     marketGroup: 1323
     name: Fleet Compression Logistics

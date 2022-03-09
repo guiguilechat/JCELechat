@@ -6,7 +6,7 @@ types:
     name: Abyssal Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1250000.0
+    price: 2.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -202,6 +202,7 @@ types:
     volume: 0.009999999776482582
   Gas Decompression Efficiency:
     cannotbetrainedontrial: 1
+    gasdecompressionefficiencybonus: 1
     id: 62452
     marketGroup: 1323
     name: Gas Decompression Efficiency

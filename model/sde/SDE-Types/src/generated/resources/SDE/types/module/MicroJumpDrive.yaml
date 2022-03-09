@@ -4,7 +4,7 @@ types:
     canfitshipgroup02: 898
     canfitshipgroup03: 900
     capacitorneed: 786.0
-    cpu: 77.0
+    cpu: 54.0
     disallowearlydeactivation: 1
     disallowrepeatingactivation: 1
     duration: 12000.0
@@ -18,7 +18,7 @@ types:
     name: Large Micro Jump Drive
     packagedVolume: 10.0
     portionSize: 1
-    power: 1375
+    power: 800
     price: 1340852.0
     published: true
     radius: 1.0

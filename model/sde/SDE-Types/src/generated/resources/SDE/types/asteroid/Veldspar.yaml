@@ -18,7 +18,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  Compressed Concentrated Veldspar:
+  Batch Compressed Concentrated Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
@@ -26,7 +26,7 @@ types:
     id: 28430
     marketGroup: 518
     mass: 4000.0
-    name: Compressed Concentrated Veldspar
+    name: Batch Compressed Concentrated Veldspar
     orebasictype: 1230
     packagedVolume: 0.15000000596046448
     portionSize: 1
@@ -38,7 +38,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
-  Compressed Dense Veldspar:
+  Batch Compressed Dense Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
@@ -46,7 +46,7 @@ types:
     id: 28431
     marketGroup: 518
     mass: 4000.0
-    name: Compressed Dense Veldspar
+    name: Batch Compressed Dense Veldspar
     orebasictype: 1230
     packagedVolume: 0.15000000596046448
     portionSize: 1
@@ -58,7 +58,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
-  Compressed Stable Veldspar:
+  Batch Compressed Stable Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.5
@@ -66,7 +66,7 @@ types:
     id: 46705
     marketGroup: 518
     mass: 4000.0
-    name: Compressed Stable Veldspar
+    name: Batch Compressed Stable Veldspar
     orebasictype: 46689
     packagedVolume: 0.15000000596046448
     portionSize: 1
@@ -78,7 +78,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
-  Compressed Veldspar:
+  Batch Compressed Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -86,7 +86,7 @@ types:
     id: 28432
     marketGroup: 518
     mass: 4000.0
-    name: Compressed Veldspar
+    name: Batch Compressed Veldspar
     orebasictype: 1230
     packagedVolume: 0.15000000596046448
     portionSize: 1
@@ -98,6 +98,86 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
+  'Compressed Concentrated Veldspar ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 62517
+    marketGroup: 518
+    mass: 4000.0
+    name: 'Compressed Concentrated Veldspar '
+    orebasictype: 1230
+    packagedVolume: 0.0010000000474974513
+    portionSize: 100
+    price: 52500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513
+  'Compressed Dense Veldspar ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 62518
+    marketGroup: 518
+    mass: 4000.0
+    name: 'Compressed Dense Veldspar '
+    orebasictype: 1230
+    packagedVolume: 0.0010000000474974513
+    portionSize: 100
+    price: 55000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513
+  'Compressed Stable Veldspar ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 62519
+    marketGroup: 518
+    mass: 4000.0
+    name: 'Compressed Stable Veldspar '
+    orebasictype: 46689
+    packagedVolume: 0.0010000000474974513
+    portionSize: 100
+    price: 1860.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513
+  Compressed Veldspar:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 62516
+    marketGroup: 518
+    mass: 4000.0
+    name: Compressed Veldspar
+    orebasictype: 1230
+    packagedVolume: 0.0010000000474974513
+    portionSize: 100
+    price: 50000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513
   Concentrated Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2

@@ -19,6 +19,246 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 10.0
+  Compressed Chromite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62480
+    marketGroup: 2398
+    mass: 4000.0
+    name: Compressed Chromite
+    orebasictype: 45501
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Lavish Chromite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62481
+    marketGroup: 2398
+    mass: 4000.0
+    name: Compressed Lavish Chromite
+    orebasictype: 45501
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Lavish Otavite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62484
+    marketGroup: 2398
+    mass: 4000.0
+    name: 'Compressed Lavish Otavite '
+    orebasictype: 45498
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Lavish Sperrylite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62487
+    marketGroup: 2398
+    mass: 4000.0
+    name: 'Compressed Lavish Sperrylite '
+    orebasictype: 45499
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Lavish Vanadinite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62490
+    marketGroup: 2398
+    mass: 4000.0
+    name: Compressed Lavish Vanadinite
+    orebasictype: 45500
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Otavite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62483
+    marketGroup: 2398
+    mass: 4000.0
+    name: 'Compressed Otavite '
+    orebasictype: 45498
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Shimmering Chromite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62482
+    marketGroup: 2398
+    mass: 4000.0
+    name: 'Compressed Shimmering Chromite '
+    orebasictype: 45501
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 7000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Shimmering Otavite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62485
+    marketGroup: 2398
+    mass: 4000.0
+    name: Compressed Shimmering Otavite
+    orebasictype: 45498
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 7000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Shimmering Sperrylite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62488
+    marketGroup: 2398
+    mass: 4000.0
+    name: 'Compressed Shimmering Sperrylite '
+    orebasictype: 45499
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 7000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Shimmering Vanadinite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62491
+    marketGroup: 2398
+    mass: 4000.0
+    name: 'Compressed Shimmering Vanadinite '
+    orebasictype: 45500
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 7000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Sperrylite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62486
+    marketGroup: 2398
+    mass: 4000.0
+    name: 'Compressed Sperrylite '
+    orebasictype: 45499
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Vanadinite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62489
+    marketGroup: 2398
+    mass: 4000.0
+    name: Compressed Vanadinite
+    orebasictype: 45500
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46154
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
   Lavish Chromite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3

@@ -86,6 +86,7 @@ group2class:
   blueprint/CommandBurstChargeBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CommandBurstChargeBlueprint
   blueprint/CommandDestroyerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CommandDestroyerBlueprint
   blueprint/CompositeReactionFormulas: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CompositeReactionFormulas
+  blueprint/CompressorsBlueprints: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CompressorsBlueprints
   blueprint/CondenserPackBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CondenserPackBlueprint
   blueprint/ConstructionComponentBlueprints: fr.guiguilechat.jcelechat.model.sde.types.blueprint.ConstructionComponentBlueprints
   blueprint/ContainerBlueprints: fr.guiguilechat.jcelechat.model.sde.types.blueprint.ContainerBlueprints
@@ -245,6 +246,7 @@ group2class:
   celestial/AuditLogSecureContainer: fr.guiguilechat.jcelechat.model.sde.types.celestial.AuditLogSecureContainer
   celestial/Biomass: fr.guiguilechat.jcelechat.model.sde.types.celestial.Biomass
   celestial/CargoContainer: fr.guiguilechat.jcelechat.model.sde.types.celestial.CargoContainer
+  celestial/CompressedGas: fr.guiguilechat.jcelechat.model.sde.types.celestial.CompressedGas
   celestial/EncounterSurveillanceSystem: fr.guiguilechat.jcelechat.model.sde.types.celestial.EncounterSurveillanceSystem
   celestial/FreightContainer: fr.guiguilechat.jcelechat.model.sde.types.celestial.FreightContainer
   celestial/HarvestableCloud: fr.guiguilechat.jcelechat.model.sde.types.celestial.HarvestableCloud
@@ -771,6 +773,7 @@ group2class:
   module/CloakingDevice: fr.guiguilechat.jcelechat.model.sde.types.module.CloakingDevice
   module/CloneVatBay: fr.guiguilechat.jcelechat.model.sde.types.module.CloneVatBay
   module/CommandBurst: fr.guiguilechat.jcelechat.model.sde.types.module.CommandBurst
+  module/Compressors: fr.guiguilechat.jcelechat.model.sde.types.module.Compressors
   module/CovertJumpPortalGenerator: fr.guiguilechat.jcelechat.model.sde.types.module.CovertJumpPortalGenerator
   module/CynosuralFieldGenerator: fr.guiguilechat.jcelechat.model.sde.types.module.CynosuralFieldGenerator
   module/DamageControl: fr.guiguilechat.jcelechat.model.sde.types.module.DamageControl
@@ -16546,7 +16549,7 @@ id2name:
   28364: Drone Tactical Limb
   28365: Drone Epidermal Shielding Chunk
   28366: Drone Coronary Unit
-  28367: Compressed Arkonor
+  28367: Batch Compressed Arkonor
   28368: Compressed Arkonor Blueprint
   28369: Miner II (China)
   28373: Ore Compression
@@ -16561,54 +16564,54 @@ id2name:
   28382: Dread Guristas Heavy Assault Missile Launcher Blueprint
   28383: True Sansha Heavy Assault Missile Launcher
   28384: True Sansha Heavy Assault Missile Launcher Blueprint
-  28385: Compressed Crimson Arkonor
+  28385: Batch Compressed Crimson Arkonor
   28386: Compressed Crimson Arkonor Blueprint
-  28387: Compressed Prime Arkonor
-  28388: Compressed Bistot
-  28389: Compressed Monoclinic Bistot
-  28390: Compressed Triclinic Bistot
-  28391: Compressed Crokite
-  28392: Compressed Crystalline Crokite
-  28393: Compressed Sharp Crokite
-  28394: Compressed Dark Ochre
-  28395: Compressed Obsidian Ochre
-  28396: Compressed Onyx Ochre
-  28397: Compressed Gneiss
-  28398: Compressed Iridescent Gneiss
-  28399: Compressed Prismatic Gneiss
-  28400: Compressed Glazed Hedbergite
-  28401: Compressed Hedbergite
-  28402: Compressed Vitric Hedbergite
-  28403: Compressed Hemorphite
-  28404: Compressed Radiant Hemorphite
-  28405: Compressed Vivid Hemorphite
-  28406: Compressed Jaspet
-  28407: Compressed Pristine Jaspet
-  28408: Compressed Pure Jaspet
-  28409: Compressed Fiery Kernite
-  28410: Compressed Kernite
-  28411: Compressed Luminous Kernite
-  28412: Compressed Magma Mercoxit
-  28413: Compressed Mercoxit
-  28414: Compressed Vitreous Mercoxit
-  28415: Compressed Golden Omber
-  28416: Compressed Omber
-  28417: Compressed Silvery Omber
-  28418: Compressed Bright Spodumain
-  28419: Compressed Gleaming Spodumain
-  28420: Compressed Spodumain
-  28421: Compressed Azure Plagioclase
-  28422: Compressed Plagioclase
-  28423: Compressed Rich Plagioclase
-  28424: Compressed Pyroxeres
-  28425: Compressed Solid Pyroxeres
-  28426: Compressed Viscous Pyroxeres
-  28427: Compressed Condensed Scordite
-  28428: Compressed Massive Scordite
-  28429: Compressed Scordite
-  28430: Compressed Concentrated Veldspar
-  28431: Compressed Dense Veldspar
-  28432: Compressed Veldspar
+  28387: Batch Compressed Prime Arkonor
+  28388: Batch Compressed Bistot
+  28389: Batch Compressed Monoclinic Bistot
+  28390: Batch Compressed Triclinic Bistot
+  28391: Batch Compressed Crokite
+  28392: Batch Compressed Crystalline Crokite
+  28393: Batch Compressed Sharp Crokite
+  28394: Batch Compressed Dark Ochre
+  28395: Batch Compressed Obsidian Ochre
+  28396: Batch Compressed Onyx Ochre
+  28397: Batch Compressed Gneiss
+  28398: Batch Compressed Iridescent Gneiss
+  28399: Batch Compressed Prismatic Gneiss
+  28400: Batch Compressed Glazed Hedbergite
+  28401: Batch Compressed Hedbergite
+  28402: Batch Compressed Vitric Hedbergite
+  28403: Batch Compressed Hemorphite
+  28404: Batch Compressed Radiant Hemorphite
+  28405: Batch Compressed Vivid Hemorphite
+  28406: Batch Compressed Jaspet
+  28407: Batch Compressed Pristine Jaspet
+  28408: Batch Compressed Pure Jaspet
+  28409: Batch Compressed Fiery Kernite
+  28410: Batch Compressed Kernite
+  28411: Batch Compressed Luminous Kernite
+  28412: Batch Compressed Magma Mercoxit
+  28413: Batch Compressed Mercoxit
+  28414: Batch Compressed Vitreous Mercoxit
+  28415: Batch Compressed Golden Omber
+  28416: Batch Compressed Omber
+  28417: Batch Compressed Silvery Omber
+  28418: Batch Compressed Bright Spodumain
+  28419: Batch Compressed Gleaming Spodumain
+  28420: Batch Compressed Spodumain
+  28421: Batch Compressed Azure Plagioclase
+  28422: Batch Compressed Plagioclase
+  28423: Batch Compressed Rich Plagioclase
+  28424: Batch Compressed Pyroxeres
+  28425: Batch Compressed Solid Pyroxeres
+  28426: Batch Compressed Viscous Pyroxeres
+  28427: Batch Compressed Condensed Scordite
+  28428: Batch Compressed Massive Scordite
+  28429: Batch Compressed Scordite
+  28430: Batch Compressed Concentrated Veldspar
+  28431: Batch Compressed Dense Veldspar
+  28432: Batch Compressed Veldspar
   28433: Compressed Blue Ice
   28434: Compressed Clear Icicle
   28435: Compressed Dark Glitter
@@ -31723,21 +31726,21 @@ id2name:
   46688: Dazzling Spodumain
   46689: Stable Veldspar
   46690: QA Scanning Module
-  46691: Compressed Flawless Arkonor
-  46692: Compressed Cubic Bistot
-  46693: Compressed Pellucid Crokite
-  46694: Compressed Jet Ochre
-  46695: Compressed Brilliant Gneiss
-  46696: Compressed Lustrous Hedbergite
-  46697: Compressed Scintillating Hemorphite
-  46698: Compressed Immaculate Jaspet
-  46699: Compressed Resplendant Kernite
-  46700: Compressed Platinoid Omber
-  46701: Compressed Sparkling Plagioclase
-  46702: Compressed Opulent Pyroxeres
-  46703: Compressed Glossy Scordite
-  46704: Compressed Dazzling Spodumain
-  46705: Compressed Stable Veldspar
+  46691: Batch Compressed Flawless Arkonor
+  46692: Batch Compressed Cubic Bistot
+  46693: Batch Compressed Pellucid Crokite
+  46694: Batch Compressed Jet Ochre
+  46695: Batch Compressed Brilliant Gneiss
+  46696: Batch Compressed Lustrous Hedbergite
+  46697: Batch Compressed Scintillating Hemorphite
+  46698: Batch Compressed Immaculate Jaspet
+  46699: Batch Compressed Resplendant Kernite
+  46700: Batch Compressed Platinoid Omber
+  46701: Batch Compressed Sparkling Plagioclase
+  46702: Batch Compressed Opulent Pyroxeres
+  46703: Batch Compressed Glossy Scordite
+  46704: Batch Compressed Dazzling Spodumain
+  46705: Batch Compressed Stable Veldspar
   46707: Magnate Headhunter SKIN
   46708: Omen Headhunter SKIN
   46709: Oracle Headhunter SKIN
@@ -37726,7 +37729,7 @@ id2name:
   56944: Zakura Bazei Firework
   56945: Sansha Overseer Frostwight
   56946: Loki Hazard Control SKIN
-  56947: '[no messageID: 572584]'
+  56947: Invisible Locator Beacon
   56948: YF SN E (Do not Translate)
   56949: YF SN B1 (Do not Translate)
   56950: Faded Volatile Ice
@@ -37966,7 +37969,7 @@ id2name:
   57222: Serenity Rookie DLI Day 3 Crate
   57223: Serenity Rookie DLI Day 2 Crate
   57224: Serenity Rookie DLI Day 4 Crate
-  57225: '[no messageID: 573607]'
+  57225: Proving Grounds Winter Dungeon Environment
   57226: Festival-only 'Rock' HH6 Dose
   57227: Festival-only 'Rock' AH6 Dose
   57228: Festival-only 'Rock' SH6 Dose
@@ -39689,6 +39692,10 @@ id2name:
   60768: Raiju Blueprint
   60769: Aralez Blueprint
   60770: Warp Matrix Conduit Trace
+  60771: Nephrite
+  60772: Wrecked Dramiel
+  60783: Elias Peltonnen
+  60784: Dramiel Black Box
   60786: Crucifier Abyssal Glory SKIN
   60787: Absolution Abyssal Glory SKIN
   60788: Griffin Abyssal Glory SKIN
@@ -39697,7 +39704,15 @@ id2name:
   60791: Eos Abyssal Glory SKIN
   60792: Vigil Abyssal Glory SKIN
   60793: Sleipnir Abyssal Glory SKIN
+  60796: '[AIR] Venture'
+  60797: '[AIR] Covetor'
+  60798: '[AIR] Procurer'
+  60799: '[AIR] Retriever'
+  60800: '[AIR] Hauler'
+  60801: '[AIR] Hauler II'
   60802: Proving Turret Damage Bonus (Do not translate)
+  60803: '[AIR] Non-Interactable Athanor'
+  60804: Large Shattered Unobtanium Asteroid
   60805: Proving Overload and Turret and Missile Bonus (Do not translate)
   60850: Small Peculiar Debris Fragment
   60851: Medium Peculiar Debris Fragment
@@ -39910,33 +39925,33 @@ id2name:
   61968: Saucer Spawner 2
   61969: Saucer Spawner 3
   61970: Saucer Spawner 4
-  61980: AIR Astro-Acquisition Booster I
-  61981: AIR Astro-Acquisition Booster II
-  61982: AIR Astro-Acquisition Booster III
-  61983: AIR Astro-Pinpointing Booster I
-  61984: AIR Astro-Pinpointing Booster II
-  61985: AIR Astro-Pinpointing Booster III
-  61986: AIR Astro-Rangefinding Booster I
-  61987: AIR Astro-Rangefinding Booster II
-  61988: AIR Astro-Rangefinding Booster III
-  61989: AIR Relic Range Booster I
-  61990: AIR Relic Range Booster II
-  61991: AIR Relic Range Booster III
-  61992: AIR Relic Coherence Booster I
-  61993: AIR Relic Coherence Booster II
-  61994: AIR Relic Coherence Booster III
-  61995: AIR Relic Strength Booster I
-  61996: AIR Relic Strength Booster II
-  61997: AIR Relic Strength Booster III
-  61998: AIR Signature Booster I
-  61999: AIR Signature Booster II
-  62000: AIR Signature Booster III
-  62001: AIR Agility Booster I
-  62002: AIR Agility Booster II
-  62003: AIR Agility Booster III
-  62004: AIR Repairer Booster I
-  62005: AIR Repairer Booster II
-  62006: AIR Repairer Booster III
+  61980: Expired AIR Astro-Acquisition Booster I
+  61981: Expired AIR Astro-Acquisition Booster II
+  61982: Expired AIR Astro-Acquisition Booster III
+  61983: Expired AIR Astro-Pinpointing Booster I
+  61984: Expired AIR Astro-Pinpointing Booster II
+  61985: Expired AIR Astro-Pinpointing Booster III
+  61986: Expired AIR Astro-Rangefinding Booster I
+  61987: Expired AIR Astro-Rangefinding Booster II
+  61988: Expired AIR Astro-Rangefinding Booster III
+  61989: Expired AIR Relic Range Booster I
+  61990: Expired AIR Relic Range Booster II
+  61991: Expired AIR Relic Range Booster III
+  61992: Expired AIR Relic Coherence Booster I
+  61993: Expired AIR Relic Coherence Booster II
+  61994: Expired AIR Relic Coherence Booster III
+  61995: Expired AIR Relic Strength Booster I
+  61996: Expired AIR Relic Strength Booster II
+  61997: Expired AIR Relic Strength Booster III
+  61998: Expired AIR Signature Booster I
+  61999: Expired AIR Signature Booster II
+  62000: Expired AIR Signature Booster III
+  62001: Expired AIR Agility Booster I
+  62002: Expired AIR Agility Booster II
+  62003: Expired AIR Agility Booster III
+  62004: Expired AIR Repairer Booster I
+  62005: Expired AIR Repairer Booster II
+  62006: Expired AIR Repairer Booster III
   62010: Magnate Versus Blueforce SKIN
   62011: Maller Versus Blueforce SKIN
   62012: Anathema Versus Redforce SKIN
@@ -39998,9 +40013,9 @@ id2name:
   62230: Dominix Interstellar Convergence SKIN
   62231: Erebus Interstellar Convergence SKIN
   62232: Nyx Interstellar Convergence SKIN
-  62235: Basic 'Convergent' Cerebral Accelerator
-  62236: Extended 'Convergent' Cerebral Accelerator
-  62237: Potent 'Convergent' Cerebral Accelerator
+  62235: Expired Basic 'Convergent' Cerebral Accelerator
+  62236: Expired Extended 'Convergent' Cerebral Accelerator
+  62237: Expired Potent 'Convergent' Cerebral Accelerator
   62250: ♦ Infested Abaddon
   62251: ♦ Infested Dominix
   62252: ♦ Infested Raven
@@ -40025,7 +40040,34 @@ id2name:
   62372: Garmur Triumphant Elite SKIN
   62373: Orthrus Triumphant Elite SKIN
   62375: Barghest Triumphant Elite SKIN
+  62377: Compressed Amber Mykoserocin
+  62379: Compressed Azure Mykoserocin
+  62380: Compressed Celadon Mykoserocin
+  62381: Compressed Golden Mykoserocin
+  62382: Compressed Lime Mykoserocin
+  62383: Compressed Malachite Mykoserocin
+  62384: Compressed Vermillion Mykoserocin
+  62385: Compressed Viridian Mykoserocin
+  62386: Compressed Azure Cytoserocin
+  62387: Compressed Celadon Cytoserocin
+  62388: Compressed Chartreuse Cytoserocin
+  62389: 'Compressed Gamboge Cytoserocin '
+  62390: Compressed Golden Cytoserocin
+  62391: Compressed Lime Cytoserocin
+  62392: Compressed Malachite Cytoserocin
+  62393: Compressed Vermillion Cytoserocin
+  62394: 'Compressed Viridian Cytoserocin '
   62395: Proving Gala 2022 Bonus (Do not translate)
+  62396: Compressed Amber Cytoserocin
+  62397: 'Compressed Fullerite-C60 '
+  62398: 'Compressed Fullerite-C70 '
+  62399: 'Compressed Fullerite-C50 '
+  62400: Compressed Fullerite-C84
+  62402: Compressed Fullerite-C28
+  62403: Compressed Fullerite-C72
+  62404: 'Compressed Fullerite-C32 '
+  62405: 'Compressed Fullerite-C540 '
+  62406: Compressed Fullerite-C320
   62439: ud3_enviroment_asset
   62440: ud2_enviroment_asset
   62441: ud1_enviroment_asset
@@ -40034,11 +40076,149 @@ id2name:
   62444: corpse_m1_enviroment_asset
   62445: ust_t1_enviroment_asset
   62446: Abandoned Serpentis Booster Laboratory
+  62447: '[AIR] Mining Debuff'
   62448: QA Void Filament
   62450: Shipboard Compression Technology
   62451: Capital Shipboard Compression Technology
   62452: Gas Decompression Efficiency
   62453: Fleet Compression Logistics
+  62454: Compressed Bitumens
+  62455: Compressed Brimful Bitumens
+  62456: 'Compressed Glistening Bitumens '
+  62457: 'Compressed Coesite '
+  62458: 'Compressed Brimful Coesite '
+  62459: 'Compressed Glistening Coesite '
+  62460: 'Compressed Sylvite '
+  62461: 'Compressed Brimful Sylvite '
+  62463: 'Compressed Zeolites '
+  62464: 'Compressed Brimful Zeolites '
+  62466: Compressed Glistening Sylvite
+  62467: 'Compressed Glistening Zeolites '
+  62468: 'Compressed Scheelite '
+  62469: 'Compressed Copious Scheelite '
+  62470: 'Compressed Twinkling Scheelite '
+  62471: 'Compressed Euxenite '
+  62472: Compressed Copious Euxenite
+  62473: 'Compressed Twinkling Euxenite '
+  62474: 'Compressed Cobaltite '
+  62475: 'Compressed Copious Cobaltite '
+  62476: Compressed Twinkling Cobaltite
+  62477: 'Compressed Titanite '
+  62478: Compressed Copious Titanite
+  62479: 'Compressed Twinkling Titanite '
+  62480: Compressed Chromite
+  62481: Compressed Lavish Chromite
+  62482: 'Compressed Shimmering Chromite '
+  62483: 'Compressed Otavite '
+  62484: 'Compressed Lavish Otavite '
+  62485: Compressed Shimmering Otavite
+  62486: 'Compressed Sperrylite '
+  62487: 'Compressed Lavish Sperrylite '
+  62488: 'Compressed Shimmering Sperrylite '
+  62489: Compressed Vanadinite
+  62490: Compressed Lavish Vanadinite
+  62491: 'Compressed Shimmering Vanadinite '
+  62492: 'Compressed Carnotite '
+  62493: 'Compressed Replete Carnotite '
+  62494: Compressed Glowing Carnotite
+  62495: 'Compressed Cinnabar '
+  62496: 'Compressed Replete Cinnabar '
+  62497: 'Compressed Glowing Cinnabar '
+  62498: 'Compressed Pollucite '
+  62499: 'Compressed Replete Pollucite '
+  62500: 'Compressed Glowing Pollucite '
+  62501: 'Compressed Zircon '
+  62502: 'Compressed Replete Zircon '
+  62503: 'Compressed Glowing Zircon '
+  62504: 'Compressed Loparite '
+  62505: 'Compressed Bountiful Loparite '
+  62506: 'Compressed Shining Loparite '
+  62507: 'Compressed Monazite '
+  62508: 'Compressed Bountiful Monazite '
+  62509: 'Compressed Shining Monazite '
+  62510: 'Compressed Xenotime '
+  62511: Compressed Bountiful Xenotime
+  62512: 'Compressed Shining Xenotime '
+  62513: 'Compressed Ytterbite '
+  62514: 'Compressed Bountiful Ytterbite '
+  62515: Compressed Shining Ytterbite
+  62516: Compressed Veldspar
+  62517: 'Compressed Concentrated Veldspar '
+  62518: 'Compressed Dense Veldspar '
+  62519: 'Compressed Stable Veldspar '
+  62520: Compressed Scordite
+  62521: 'Compressed Condensed Scordite '
+  62522: Compressed Massive Scordite
+  62523: 'Compressed Glossy Scordite '
+  62524: 'Compressed Pyroxeres '
+  62525: Compressed Solid Pyroxeres
+  62526: 'Compressed Viscous Pyroxeres '
+  62527: 'Compressed Opulent Pyroxeres '
+  62528: 'Compressed Plagioclase '
+  62529: 'Compressed Azure Plagioclase '
+  62530: 'Compressed Rich Plagioclase '
+  62531: 'Compressed Sparkling Plagioclase '
+  62532: 'Compressed Omber '
+  62533: 'Compressed Silvery Omber '
+  62534: 'Compressed Golden Omber '
+  62535: 'Compressed Platinoid Omber '
+  62536: 'Compressed Kernite '
+  62537: 'Compressed Luminous Kernite '
+  62538: 'Compressed Fiery Kernite '
+  62539: 'Compressed Resplendant Kernite '
+  62540: Compressed Jaspet
+  62541: Compressed Pure Jaspet
+  62542: 'Compressed Pristine Jaspet '
+  62543: 'Compressed Immaculate Jaspet '
+  62544: Compressed Hemorphite
+  62545: 'Compressed Vivid Hemorphite '
+  62546: 'Compressed Radiant Hemorphite '
+  62547: 'Compressed Scintillating Hemorphite '
+  62548: 'Compressed Hedbergite '
+  62549: 'Compressed Vitric Hedbergite '
+  62550: Compressed Glazed Hedbergite
+  62551: 'Compressed Lustrous Hedbergite '
+  62552: Compressed Gneiss
+  62553: 'Compressed Iridescent Gneiss '
+  62554: Compressed Prismatic Gneiss
+  62555: 'Compressed Brilliant Gneiss '
+  62556: 'Compressed Dark Ochre '
+  62557: 'Compressed Onyx Ochre '
+  62558: 'Compressed Obsidian Ochre '
+  62559: Compressed Jet Ochre
+  62560: Compressed Crokite
+  62561: Compressed Sharp Crokite
+  62562: 'Compressed Crystalline Crokite '
+  62563: 'Compressed Pellucid Crokite '
+  62564: 'Compressed Bistot '
+  62565: 'Compressed Triclinic Bistot '
+  62566: 'Compressed Monoclinic Bistot '
+  62567: 'Compressed Cubic Bistot '
+  62568: 'Compressed Arkonor '
+  62569: 'Compressed Crimson Arkonor '
+  62570: Compressed Prime Arkonor
+  62571: Compressed Flawless Arkonor
+  62572: Compressed Spodumain
+  62573: 'Compressed Bright Spodumain '
+  62574: 'Compressed Gleaming Spodumain '
+  62575: 'Compressed Dazzling Spodumain '
+  62576: 'Compressed Bezdnacine '
+  62577: 'Compressed Abyssal Bezdnacine '
+  62578: Compressed Hadal Bezdnacine
+  62579: 'Compressed Rakovene '
+  62580: 'Compressed Abyssal Rakovene '
+  62581: 'Compressed Hadal Rakovene '
+  62582: 'Compressed Talassonite '
+  62583: Compressed Abyssal Talassonite
+  62584: 'Compressed Hadal Talassonite '
+  62586: 'Compressed Mercoxit '
+  62587: 'Compressed Magma Mercoxit '
+  62588: 'Compressed Vitreous Mercoxit '
+  62589: 'QA Compressor '
+  62590: Medium Industrial Core I
+  62591: 'Medium Industrial Core II '
+  62592: Medium Industrial Core I Blueprint
+  62593: Medium Industrial Core II Blueprint
   62595: Basic 'Bonding' Cerebral Accelerator
   62596: Potent 'Bonding' Cerebral Accelerator
   62597: Extended 'Bonding' Cerebral Accelerator
@@ -40066,6 +40246,18 @@ id2name:
   62619: Guardian 'Hod' Booster I
   62620: Guardian 'Hod' Booster II
   62621: Guardian 'Hod' Booster III
+  62622: Medium Asteroid Ore Compressor I
+  62624: Medium Gas Compressor I
+  62625: Large Asteroid Ore Compressor I
+  62626: Large Gas Compressor I
+  62628: Large Ice Compressor I
+  62630: Large Mercoxit Compressor I
+  62631: Large Moon Ore Compressor I
+  62632: Capital Asteroid Ore Compressor I
+  62633: Capital Ice Compressor I
+  62634: Capital Gas Compressor I
+  62635: Capital Mercoxit Compressor I
+  62636: Capital Moon Ore Compressor I
   62638: Dramiel Versus Redforce SKIN
   62639: Daredevil Versus Redforce SKIN
   62640: Cynabal Versus Redforce SKIN
@@ -40080,6 +40272,18 @@ id2name:
   62649: Vindicator Versus Blueforce SKIN
   62650: Gala Party Supplies Crate
   62651: Guardian's Gala Booster Crate
+  62652: Medium Asteroid Ore Compressor I Blueprint
+  62669: Large Asteroid Ore Compressor I Blueprint
+  62670: Capital Asteroid Ore Compressor I Blueprint
+  62671: Large Ice Compressor I Blueprint
+  62672: Capital Ice Compressor I Blueprint
+  62673: Medium Gas Compressor I Blueprint
+  62674: Large Gas Compressor I Blueprint
+  62675: Capital Gas Compressor I Blueprint
+  62676: Large Mercoxit Compressor I Blueprint
+  62677: Capital Mercoxit Compressor I Blueprint
+  62678: Large Moon Ore Compressor I Blueprint
+  62679: Capital Moon Ore Compressor I Blueprint
   62709: ORE Research Data Fragment
   62710: Kidnapped ORE Researcher
   62711: ORE Technologies Applied Research Center
@@ -40087,6 +40291,8 @@ id2name:
   62726: Mordu's Markguard
   62728: Mordu's Warmark
   62729: Mordu ORE Guard Spawner
+  62732: '[AIR] Hauler III'
+  62738: '[AIR] Hauler IV'
   62740: Non-Interactable Angel Control Tower
   62741: Non-Interactable Serpentis Control Tower
   62742: Non-Interactable Gala Bunker
@@ -40097,6 +40303,7 @@ id2name:
   62747: Non-interactable Bowhead
   62748: gs7_environment_asset
   62749: Non-interactable Gala Elevator
+  62750: Men's AIR Claim Surveyor Suit
   62751: Non-interactable Landing Pad
   62752: Non-interactable Procurer
   62753: Non-interactable Retriever
@@ -40112,6 +40319,21 @@ id2name:
   62763: Non-interactable Hulk 2
   62764: Non-interactable Orca
   62765: Non-interactable Porpoise
+  62855: Providence War Reserves Lieutenant SKIN
+  62856: Charon Military Stockpile Captain SKIN
+  62857: Obelisk Strategic Materiel Defender SKIN
+  62858: Fenrir Fleet Ordnance Spike SKIN
+  63028: Magnate Semiotique Superluminal SKIN
+  63029: Heron Semiotique Superluminal SKIN
+  63030: Imicus Semiotique Superluminal SKIN
+  63031: Probe Semiotique Superluminal SKIN
+  63051: Men's 'Semiotique Superluminal' Jacket
+  63052: Women's 'Semiotique Superluminal' Jacket
+  63054: Men's 'Semiotique Superluminal' Pants
+  63055: Women's 'Semiotique Superluminal' Pants
+  63056: Women's AIR Claim Surveyor Suit
+  63058: 'Men''s ''Semiotique Superluminal'' Shades '
+  63061: 'Women''s ''Semiotique Superluminal'' Shades '
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -44166,37 +44388,10 @@ name2group:
   AEGIS Security Vault: entity/SpawnContainer
   AG-Composite Molecular Condenser: commodity/Commodities
   AIMEDs: commodity/Miscellaneous
-  AIR Agility Booster I: implant/Booster
-  AIR Agility Booster II: implant/Booster
-  AIR Agility Booster III: implant/Booster
-  AIR Astro-Acquisition Booster I: implant/Booster
-  AIR Astro-Acquisition Booster II: implant/Booster
-  AIR Astro-Acquisition Booster III: implant/Booster
-  AIR Astro-Pinpointing Booster I: implant/Booster
-  AIR Astro-Pinpointing Booster II: implant/Booster
-  AIR Astro-Pinpointing Booster III: implant/Booster
-  AIR Astro-Rangefinding Booster I: implant/Booster
-  AIR Astro-Rangefinding Booster II: implant/Booster
-  AIR Astro-Rangefinding Booster III: implant/Booster
   AIR Battleship: entity/AIREntitiesII
   AIR Cruiser: entity/AIREntitiesII
   AIR Frigate: entity/AIREntitiesII
-  AIR Relic Coherence Booster I: implant/Booster
-  AIR Relic Coherence Booster II: implant/Booster
-  AIR Relic Coherence Booster III: implant/Booster
-  AIR Relic Range Booster I: implant/Booster
-  AIR Relic Range Booster II: implant/Booster
-  AIR Relic Range Booster III: implant/Booster
-  AIR Relic Strength Booster I: implant/Booster
-  AIR Relic Strength Booster II: implant/Booster
-  AIR Relic Strength Booster III: implant/Booster
-  AIR Repairer Booster I: implant/Booster
-  AIR Repairer Booster II: implant/Booster
-  AIR Repairer Booster III: implant/Booster
   AIR Rogue Drone Analysis Node: entity/SpawnContainer
-  AIR Signature Booster I: implant/Booster
-  AIR Signature Booster II: implant/Booster
-  AIR Signature Booster III: implant/Booster
   AML Compact Omnidirectional Tracking Link: module/DroneTrackingModules
   APEX 'Atlas' Sentinel: infantry/VisualCustomization
   APEX 'Atlas' Sentinel vX.1: infantry/VisualCustomization
@@ -46011,6 +46206,7 @@ name2group:
   Bai Tarziiki: entity/StorylineMissionCruiser
   Bai's Corpse: commodity/Commodities
   Baker Nunn Enduring Tracking Disruptor I: module/WeaponDisruptor
+  Baker_PLACEHOLDER: fighter/LightFighter
   Balac's GAR-21 Assault Rifle: infantry/InfantryWeapons
   Balac's MRN-30 Submachine Gun: infantry/InfantryWeapons
   Balac's Modified Assault ck.0: infantry/InfantryDropsuits
@@ -46125,7 +46321,6 @@ name2group:
   Base Metals: planetaryresources/PlanetSolidRawResource
   Basic 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
   Basic 'Bonding' Cerebral Accelerator: implant/Booster
-  Basic 'Convergent' Cerebral Accelerator: implant/Booster
   Basic 120mm Armor Plates: infantry/InfantryModules
   Basic 60mm Armor Plates: infantry/InfantryModules
   Basic Afterburner: infantry/InfantryModules
@@ -46205,6 +46400,69 @@ name2group:
   Bastion Module I: module/SiegeModule
   Bastion Module I Blueprint: blueprint/SiegeModuleBlueprint
   Bastion Museum: entity/DeadspaceOverseerSStructure
+  Batch Compressed Arkonor: asteroid/Arkonor
+  Batch Compressed Azure Plagioclase: asteroid/Plagioclase
+  Batch Compressed Bistot: asteroid/Bistot
+  Batch Compressed Bright Spodumain: asteroid/Spodumain
+  Batch Compressed Brilliant Gneiss: asteroid/Gneiss
+  Batch Compressed Concentrated Veldspar: asteroid/Veldspar
+  Batch Compressed Condensed Scordite: asteroid/Scordite
+  Batch Compressed Crimson Arkonor: asteroid/Arkonor
+  Batch Compressed Crokite: asteroid/Crokite
+  Batch Compressed Crystalline Crokite: asteroid/Crokite
+  Batch Compressed Cubic Bistot: asteroid/Bistot
+  Batch Compressed Dark Ochre: asteroid/DarkOchre
+  Batch Compressed Dazzling Spodumain: asteroid/Spodumain
+  Batch Compressed Dense Veldspar: asteroid/Veldspar
+  Batch Compressed Fiery Kernite: asteroid/Kernite
+  Batch Compressed Flawless Arkonor: asteroid/Arkonor
+  Batch Compressed Glazed Hedbergite: asteroid/Hedbergite
+  Batch Compressed Gleaming Spodumain: asteroid/Spodumain
+  Batch Compressed Glossy Scordite: asteroid/Scordite
+  Batch Compressed Gneiss: asteroid/Gneiss
+  Batch Compressed Golden Omber: asteroid/Omber
+  Batch Compressed Hedbergite: asteroid/Hedbergite
+  Batch Compressed Hemorphite: asteroid/Hemorphite
+  Batch Compressed Immaculate Jaspet: asteroid/Jaspet
+  Batch Compressed Iridescent Gneiss: asteroid/Gneiss
+  Batch Compressed Jaspet: asteroid/Jaspet
+  Batch Compressed Jet Ochre: asteroid/DarkOchre
+  Batch Compressed Kernite: asteroid/Kernite
+  Batch Compressed Luminous Kernite: asteroid/Kernite
+  Batch Compressed Lustrous Hedbergite: asteroid/Hedbergite
+  Batch Compressed Magma Mercoxit: asteroid/Mercoxit
+  Batch Compressed Massive Scordite: asteroid/Scordite
+  Batch Compressed Mercoxit: asteroid/Mercoxit
+  Batch Compressed Monoclinic Bistot: asteroid/Bistot
+  Batch Compressed Obsidian Ochre: asteroid/DarkOchre
+  Batch Compressed Omber: asteroid/Omber
+  Batch Compressed Onyx Ochre: asteroid/DarkOchre
+  Batch Compressed Opulent Pyroxeres: asteroid/Pyroxeres
+  Batch Compressed Pellucid Crokite: asteroid/Crokite
+  Batch Compressed Plagioclase: asteroid/Plagioclase
+  Batch Compressed Platinoid Omber: asteroid/Omber
+  Batch Compressed Prime Arkonor: asteroid/Arkonor
+  Batch Compressed Prismatic Gneiss: asteroid/Gneiss
+  Batch Compressed Pristine Jaspet: asteroid/Jaspet
+  Batch Compressed Pure Jaspet: asteroid/Jaspet
+  Batch Compressed Pyroxeres: asteroid/Pyroxeres
+  Batch Compressed Radiant Hemorphite: asteroid/Hemorphite
+  Batch Compressed Resplendant Kernite: asteroid/Kernite
+  Batch Compressed Rich Plagioclase: asteroid/Plagioclase
+  Batch Compressed Scintillating Hemorphite: asteroid/Hemorphite
+  Batch Compressed Scordite: asteroid/Scordite
+  Batch Compressed Sharp Crokite: asteroid/Crokite
+  Batch Compressed Silvery Omber: asteroid/Omber
+  Batch Compressed Solid Pyroxeres: asteroid/Pyroxeres
+  Batch Compressed Sparkling Plagioclase: asteroid/Plagioclase
+  Batch Compressed Spodumain: asteroid/Spodumain
+  Batch Compressed Stable Veldspar: asteroid/Veldspar
+  Batch Compressed Triclinic Bistot: asteroid/Bistot
+  Batch Compressed Veldspar: asteroid/Veldspar
+  Batch Compressed Viscous Pyroxeres: asteroid/Pyroxeres
+  Batch Compressed Vitreous Mercoxit: asteroid/Mercoxit
+  Batch Compressed Vitric Hedbergite: asteroid/Hedbergite
+  Batch Compressed Vivid Hemorphite: asteroid/Hemorphite
   Bathyic Abyssal Overmind: entity/AbyssalSpaceshipEntities
   Battery Cartridge: commodity/Miscellaneous
   Battlement Accesscard: commodity/AccelerationGateKeys
@@ -47613,6 +47871,8 @@ name2group:
   Capital Armor Repairer II: module/ArmorRepairUnit
   Capital Armor Repairer II Blueprint: blueprint/ArmorRepairUnitBlueprint
   Capital Artillery Specialization: skill/Gunnery
+  Capital Asteroid Ore Compressor I: module/Compressors
+  Capital Asteroid Ore Compressor I Blueprint: blueprint/CompressorsBlueprints
   Capital Asymmetric Enduring Remote Shield Booster: module/RemoteShieldBooster
   Capital Asymmetric Enduring Remote Shield Booster Blueprint: blueprint/RemoteShieldBoosterBlueprint
   Capital Autocannon Specialization: skill/Gunnery
@@ -47816,6 +48076,8 @@ name2group:
   Capital Fusion Reactor Unit Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
   Capital Fusion Thruster: commodity/AdvancedCapitalConstructionComponents
   Capital Fusion Thruster Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
+  Capital Gas Compressor I: module/Compressors
+  Capital Gas Compressor I Blueprint: blueprint/CompressorsBlueprints
   Capital Ghoul Compact Energy Nosferatu: module/EnergyNosferatu
   Capital Ghoul Compact Energy Nosferatu Blueprint: blueprint/EnergyNosferatuBlueprint
   Capital Gravimetric Sensor Cluster: commodity/AdvancedCapitalConstructionComponents
@@ -47877,6 +48139,8 @@ name2group:
   Capital I-b Enduring Hull Repairer Blueprint: blueprint/HullRepairUnitBlueprint
   Capital IEF Compact Hull Repairer: module/HullRepairUnit
   Capital IEF Compact Hull Repairer Blueprint: blueprint/HullRepairUnitBlueprint
+  Capital Ice Compressor I: module/Compressors
+  Capital Ice Compressor I Blueprint: blueprint/CompressorsBlueprints
   Capital Implacable Compact Emergency Hull Energizer: module/DamageControl
   Capital Implacable Compact Emergency Hull Energizer Blueprint: blueprint/DamageControlBlueprint
   Capital Indefatigable Enduring Emergency Hull Energizer: module/DamageControl
@@ -47939,6 +48203,10 @@ name2group:
   Capital Memetic Algorithm Bank I Blueprint: blueprint/RigBlueprint
   Capital Memetic Algorithm Bank II: module/RigScanning
   Capital Memetic Algorithm Bank II Blueprint: blueprint/RigBlueprint
+  Capital Mercoxit Compressor I: module/Compressors
+  Capital Mercoxit Compressor I Blueprint: blueprint/CompressorsBlueprints
+  Capital Moon Ore Compressor I: module/Compressors
+  Capital Moon Ore Compressor I Blueprint: blueprint/CompressorsBlueprints
   Capital Murky Compact Remote Shield Booster: module/RemoteShieldBooster
   Capital Murky Compact Remote Shield Booster Blueprint: blueprint/RemoteShieldBoosterBlueprint
   Capital Nanobot Accelerator I: module/RigArmor
@@ -48653,6 +48921,7 @@ name2group:
   CharacterType: owner/Character
   Charge Ammunition Storage: entity/SpawnContainer
   Charge Sniper Rifle: infantry/InfantryWeapons
+  Charlie_PLACEHOLDER: fighter/LightFighter
   Charon: ship/Freighter
   Charon Biosecurity Responders SKIN: skins/PermanentSKIN
   Charon Blue Tiger SKIN: skins/PermanentSKIN
@@ -48663,6 +48932,7 @@ name2group:
   Charon Glacial Drift SKIN: skins/PermanentSKIN
   Charon Malagrin Marshlight SKIN: skins/PermanentSKIN
   Charon Matigu Seabeast SKIN: skins/PermanentSKIN
+  Charon Military Stockpile Captain SKIN: skins/PermanentSKIN
   Charon Raata Sunset SKIN: skins/PermanentSKIN
   Charon Steel Cardinal SKIN: skins/PermanentSKIN
   Charon Vitalshift EGO SKIN: skins/PermanentSKIN
@@ -49149,84 +49419,180 @@ name2group:
   Complex Supervisor: entity/StorylineMissionBattleship
   Component Assembly Array: starbase/AssemblyArray
   Component Assembly Array Blueprint: blueprint/StarbaseBlueprint
-  Compressed Arkonor: asteroid/Arkonor
-  Compressed Azure Plagioclase: asteroid/Plagioclase
-  Compressed Bistot: asteroid/Bistot
+  'Compressed Abyssal Bezdnacine ': asteroid/Bezdnacine
+  'Compressed Abyssal Rakovene ': asteroid/Rakovene
+  Compressed Abyssal Talassonite: asteroid/Talassonite
+  Compressed Amber Cytoserocin: celestial/CompressedGas
+  Compressed Amber Mykoserocin: celestial/CompressedGas
+  'Compressed Arkonor ': asteroid/Arkonor
+  Compressed Azure Cytoserocin: celestial/CompressedGas
+  Compressed Azure Mykoserocin: celestial/CompressedGas
+  'Compressed Azure Plagioclase ': asteroid/Plagioclase
+  'Compressed Bezdnacine ': asteroid/Bezdnacine
+  'Compressed Bistot ': asteroid/Bistot
+  Compressed Bitumens: asteroid/UbiquitousMoonAsteroids
   Compressed Blue Ice: asteroid/Ice
-  Compressed Bright Spodumain: asteroid/Spodumain
-  Compressed Brilliant Gneiss: asteroid/Gneiss
+  'Compressed Bountiful Loparite ': asteroid/ExceptionalMoonAsteroids
+  'Compressed Bountiful Monazite ': asteroid/ExceptionalMoonAsteroids
+  Compressed Bountiful Xenotime: asteroid/ExceptionalMoonAsteroids
+  'Compressed Bountiful Ytterbite ': asteroid/ExceptionalMoonAsteroids
+  'Compressed Bright Spodumain ': asteroid/Spodumain
+  'Compressed Brilliant Gneiss ': asteroid/Gneiss
+  Compressed Brimful Bitumens: asteroid/UbiquitousMoonAsteroids
+  'Compressed Brimful Coesite ': asteroid/UbiquitousMoonAsteroids
+  'Compressed Brimful Sylvite ': asteroid/UbiquitousMoonAsteroids
+  'Compressed Brimful Zeolites ': asteroid/UbiquitousMoonAsteroids
   Compressed Capsule Shell: commodity/Commodities
+  'Compressed Carnotite ': asteroid/RareMoonAsteroids
+  Compressed Celadon Cytoserocin: celestial/CompressedGas
+  Compressed Celadon Mykoserocin: celestial/CompressedGas
+  Compressed Chartreuse Cytoserocin: celestial/CompressedGas
+  Compressed Chromite: asteroid/UncommonMoonAsteroids
+  'Compressed Cinnabar ': asteroid/RareMoonAsteroids
   Compressed Clear Icicle: asteroid/Ice
-  Compressed Concentrated Veldspar: asteroid/Veldspar
-  Compressed Condensed Scordite: asteroid/Scordite
-  Compressed Crimson Arkonor: asteroid/Arkonor
+  'Compressed Cobaltite ': asteroid/CommonMoonAsteroids
+  'Compressed Coesite ': asteroid/UbiquitousMoonAsteroids
+  'Compressed Concentrated Veldspar ': asteroid/Veldspar
+  'Compressed Condensed Scordite ': asteroid/Scordite
+  'Compressed Copious Cobaltite ': asteroid/CommonMoonAsteroids
+  Compressed Copious Euxenite: asteroid/CommonMoonAsteroids
+  'Compressed Copious Scheelite ': asteroid/CommonMoonAsteroids
+  Compressed Copious Titanite: asteroid/CommonMoonAsteroids
+  'Compressed Crimson Arkonor ': asteroid/Arkonor
   Compressed Crokite: asteroid/Crokite
-  Compressed Crystalline Crokite: asteroid/Crokite
-  Compressed Cubic Bistot: asteroid/Bistot
+  'Compressed Crystalline Crokite ': asteroid/Crokite
+  'Compressed Cubic Bistot ': asteroid/Bistot
   Compressed Dark Glitter: asteroid/Ice
-  Compressed Dark Ochre: asteroid/DarkOchre
-  Compressed Dazzling Spodumain: asteroid/Spodumain
-  Compressed Dense Veldspar: asteroid/Veldspar
+  'Compressed Dark Ochre ': asteroid/DarkOchre
+  'Compressed Dazzling Spodumain ': asteroid/Spodumain
+  'Compressed Dense Veldspar ': asteroid/Veldspar
   Compressed Enduring Dual 1000mm Railgun: module/HybridWeapon
   Compressed Enduring Dual 1000mm Railgun Blueprint: blueprint/HybridWeaponBlueprint
   Compressed Enriched Clear Icicle: asteroid/Ice
-  Compressed Fiery Kernite: asteroid/Kernite
+  'Compressed Euxenite ': asteroid/CommonMoonAsteroids
+  'Compressed Fiery Kernite ': asteroid/Kernite
   Compressed Flawless Arkonor: asteroid/Arkonor
+  Compressed Fullerite-C28: celestial/CompressedGas
+  'Compressed Fullerite-C32 ': celestial/CompressedGas
+  Compressed Fullerite-C320: celestial/CompressedGas
+  'Compressed Fullerite-C50 ': celestial/CompressedGas
+  'Compressed Fullerite-C540 ': celestial/CompressedGas
+  'Compressed Fullerite-C60 ': celestial/CompressedGas
+  'Compressed Fullerite-C70 ': celestial/CompressedGas
+  Compressed Fullerite-C72: celestial/CompressedGas
+  Compressed Fullerite-C84: celestial/CompressedGas
+  'Compressed Gamboge Cytoserocin ': celestial/CompressedGas
   Compressed Gelidus: asteroid/Ice
   Compressed Glacial Mass: asteroid/Ice
   Compressed Glare Crust: asteroid/Ice
   Compressed Glazed Hedbergite: asteroid/Hedbergite
-  Compressed Gleaming Spodumain: asteroid/Spodumain
-  Compressed Glossy Scordite: asteroid/Scordite
+  'Compressed Gleaming Spodumain ': asteroid/Spodumain
+  'Compressed Glistening Bitumens ': asteroid/UbiquitousMoonAsteroids
+  'Compressed Glistening Coesite ': asteroid/UbiquitousMoonAsteroids
+  Compressed Glistening Sylvite: asteroid/UbiquitousMoonAsteroids
+  'Compressed Glistening Zeolites ': asteroid/UbiquitousMoonAsteroids
+  'Compressed Glossy Scordite ': asteroid/Scordite
+  Compressed Glowing Carnotite: asteroid/RareMoonAsteroids
+  'Compressed Glowing Cinnabar ': asteroid/RareMoonAsteroids
+  'Compressed Glowing Pollucite ': asteroid/RareMoonAsteroids
+  'Compressed Glowing Zircon ': asteroid/RareMoonAsteroids
   Compressed Gneiss: asteroid/Gneiss
-  Compressed Golden Omber: asteroid/Omber
-  Compressed Hedbergite: asteroid/Hedbergite
+  Compressed Golden Cytoserocin: celestial/CompressedGas
+  Compressed Golden Mykoserocin: celestial/CompressedGas
+  'Compressed Golden Omber ': asteroid/Omber
+  Compressed Hadal Bezdnacine: asteroid/Bezdnacine
+  'Compressed Hadal Rakovene ': asteroid/Rakovene
+  'Compressed Hadal Talassonite ': asteroid/Talassonite
+  'Compressed Hedbergite ': asteroid/Hedbergite
   Compressed Hemorphite: asteroid/Hemorphite
-  Compressed Immaculate Jaspet: asteroid/Jaspet
-  Compressed Iridescent Gneiss: asteroid/Gneiss
+  'Compressed Immaculate Jaspet ': asteroid/Jaspet
+  'Compressed Iridescent Gneiss ': asteroid/Gneiss
   Compressed Jaspet: asteroid/Jaspet
   Compressed Jet Ochre: asteroid/DarkOchre
-  Compressed Kernite: asteroid/Kernite
+  'Compressed Kernite ': asteroid/Kernite
   Compressed Krystallos: asteroid/Ice
-  Compressed Luminous Kernite: asteroid/Kernite
-  Compressed Lustrous Hedbergite: asteroid/Hedbergite
-  Compressed Magma Mercoxit: asteroid/Mercoxit
+  Compressed Lavish Chromite: asteroid/UncommonMoonAsteroids
+  'Compressed Lavish Otavite ': asteroid/UncommonMoonAsteroids
+  'Compressed Lavish Sperrylite ': asteroid/UncommonMoonAsteroids
+  Compressed Lavish Vanadinite: asteroid/UncommonMoonAsteroids
+  Compressed Lime Cytoserocin: celestial/CompressedGas
+  Compressed Lime Mykoserocin: celestial/CompressedGas
+  'Compressed Loparite ': asteroid/ExceptionalMoonAsteroids
+  'Compressed Luminous Kernite ': asteroid/Kernite
+  'Compressed Lustrous Hedbergite ': asteroid/Hedbergite
+  'Compressed Magma Mercoxit ': asteroid/Mercoxit
+  Compressed Malachite Cytoserocin: celestial/CompressedGas
+  Compressed Malachite Mykoserocin: celestial/CompressedGas
   Compressed Massive Scordite: asteroid/Scordite
-  Compressed Mercoxit: asteroid/Mercoxit
-  Compressed Monoclinic Bistot: asteroid/Bistot
-  Compressed Obsidian Ochre: asteroid/DarkOchre
-  Compressed Omber: asteroid/Omber
-  Compressed Onyx Ochre: asteroid/DarkOchre
-  Compressed Opulent Pyroxeres: asteroid/Pyroxeres
-  Compressed Pellucid Crokite: asteroid/Crokite
-  Compressed Plagioclase: asteroid/Plagioclase
-  Compressed Platinoid Omber: asteroid/Omber
+  'Compressed Mercoxit ': asteroid/Mercoxit
+  'Compressed Monazite ': asteroid/ExceptionalMoonAsteroids
+  'Compressed Monoclinic Bistot ': asteroid/Bistot
+  'Compressed Obsidian Ochre ': asteroid/DarkOchre
+  'Compressed Omber ': asteroid/Omber
+  'Compressed Onyx Ochre ': asteroid/DarkOchre
+  'Compressed Opulent Pyroxeres ': asteroid/Pyroxeres
+  'Compressed Otavite ': asteroid/UncommonMoonAsteroids
+  'Compressed Pellucid Crokite ': asteroid/Crokite
+  'Compressed Plagioclase ': asteroid/Plagioclase
+  'Compressed Platinoid Omber ': asteroid/Omber
+  'Compressed Pollucite ': asteroid/RareMoonAsteroids
   Compressed Prime Arkonor: asteroid/Arkonor
   Compressed Prismatic Gneiss: asteroid/Gneiss
-  Compressed Pristine Jaspet: asteroid/Jaspet
+  'Compressed Pristine Jaspet ': asteroid/Jaspet
   Compressed Pristine White Glaze: asteroid/Ice
   Compressed Pure Jaspet: asteroid/Jaspet
-  Compressed Pyroxeres: asteroid/Pyroxeres
-  Compressed Radiant Hemorphite: asteroid/Hemorphite
-  Compressed Resplendant Kernite: asteroid/Kernite
-  Compressed Rich Plagioclase: asteroid/Plagioclase
-  Compressed Scintillating Hemorphite: asteroid/Hemorphite
+  'Compressed Pyroxeres ': asteroid/Pyroxeres
+  'Compressed Radiant Hemorphite ': asteroid/Hemorphite
+  'Compressed Rakovene ': asteroid/Rakovene
+  'Compressed Replete Carnotite ': asteroid/RareMoonAsteroids
+  'Compressed Replete Cinnabar ': asteroid/RareMoonAsteroids
+  'Compressed Replete Pollucite ': asteroid/RareMoonAsteroids
+  'Compressed Replete Zircon ': asteroid/RareMoonAsteroids
+  'Compressed Resplendant Kernite ': asteroid/Kernite
+  'Compressed Rich Plagioclase ': asteroid/Plagioclase
+  'Compressed Scheelite ': asteroid/CommonMoonAsteroids
+  'Compressed Scintillating Hemorphite ': asteroid/Hemorphite
   Compressed Scordite: asteroid/Scordite
   Compressed Sharp Crokite: asteroid/Crokite
-  Compressed Silvery Omber: asteroid/Omber
+  'Compressed Shimmering Chromite ': asteroid/UncommonMoonAsteroids
+  Compressed Shimmering Otavite: asteroid/UncommonMoonAsteroids
+  'Compressed Shimmering Sperrylite ': asteroid/UncommonMoonAsteroids
+  'Compressed Shimmering Vanadinite ': asteroid/UncommonMoonAsteroids
+  'Compressed Shining Loparite ': asteroid/ExceptionalMoonAsteroids
+  'Compressed Shining Monazite ': asteroid/ExceptionalMoonAsteroids
+  'Compressed Shining Xenotime ': asteroid/ExceptionalMoonAsteroids
+  Compressed Shining Ytterbite: asteroid/ExceptionalMoonAsteroids
+  'Compressed Silvery Omber ': asteroid/Omber
   Compressed Smooth Glacial Mass: asteroid/Ice
   Compressed Solid Pyroxeres: asteroid/Pyroxeres
-  Compressed Sparkling Plagioclase: asteroid/Plagioclase
+  'Compressed Sparkling Plagioclase ': asteroid/Plagioclase
+  'Compressed Sperrylite ': asteroid/UncommonMoonAsteroids
   Compressed Spodumain: asteroid/Spodumain
-  Compressed Stable Veldspar: asteroid/Veldspar
+  'Compressed Stable Veldspar ': asteroid/Veldspar
+  'Compressed Sylvite ': asteroid/UbiquitousMoonAsteroids
+  'Compressed Talassonite ': asteroid/Talassonite
   Compressed Thick Blue Ice: asteroid/Ice
-  Compressed Triclinic Bistot: asteroid/Bistot
+  'Compressed Titanite ': asteroid/CommonMoonAsteroids
+  'Compressed Triclinic Bistot ': asteroid/Bistot
+  Compressed Twinkling Cobaltite: asteroid/CommonMoonAsteroids
+  'Compressed Twinkling Euxenite ': asteroid/CommonMoonAsteroids
+  'Compressed Twinkling Scheelite ': asteroid/CommonMoonAsteroids
+  'Compressed Twinkling Titanite ': asteroid/CommonMoonAsteroids
+  Compressed Vanadinite: asteroid/UncommonMoonAsteroids
   Compressed Veldspar: asteroid/Veldspar
-  Compressed Viscous Pyroxeres: asteroid/Pyroxeres
-  Compressed Vitreous Mercoxit: asteroid/Mercoxit
-  Compressed Vitric Hedbergite: asteroid/Hedbergite
-  Compressed Vivid Hemorphite: asteroid/Hemorphite
+  Compressed Vermillion Cytoserocin: celestial/CompressedGas
+  Compressed Vermillion Mykoserocin: celestial/CompressedGas
+  'Compressed Viridian Cytoserocin ': celestial/CompressedGas
+  Compressed Viridian Mykoserocin: celestial/CompressedGas
+  'Compressed Viscous Pyroxeres ': asteroid/Pyroxeres
+  'Compressed Vitreous Mercoxit ': asteroid/Mercoxit
+  'Compressed Vitric Hedbergite ': asteroid/Hedbergite
+  'Compressed Vivid Hemorphite ': asteroid/Hemorphite
   Compressed White Glaze: asteroid/Ice
+  'Compressed Xenotime ': asteroid/ExceptionalMoonAsteroids
+  'Compressed Ytterbite ': asteroid/ExceptionalMoonAsteroids
+  'Compressed Zeolites ': asteroid/UbiquitousMoonAsteroids
+  'Compressed Zircon ': asteroid/RareMoonAsteroids
   Compression Array: starbase/CompressionArray
   Compression Array Blueprint: blueprint/StarbaseBlueprint
   Compromised Stasis Vault: entity/SpawnContainer
@@ -50884,6 +51250,7 @@ name2group:
   Doctor Luija Elban: commodity/Livestock
   Doctored Arrivals & Departures Logs: commodity/Commodities
   Doctrine Ingrained Bonus: bonus/PhysicalBenefit
+  Dog_PLACEHOLDER: fighter/HeavyFighter
   Dolls: commodity/Commodities
   Domination 10000MN Afterburner: module/PropulsionModule
   Domination 10000MN Afterburner Blueprint: blueprint/PropulsionModuleBlueprint
@@ -51892,6 +52259,7 @@ name2group:
   Eagle Vitalshift EGO SKIN: skins/PermanentSKIN
   Eagle Wiyrkomi SKIN: skins/PermanentSKIN
   Eagle Zento Isideko Combine SKIN: skins/PermanentSKIN
+  Easy_PLACEHOLDER: fighter/HeavyFighter
   Echelon: ship/Frigate
   Echo: ship/Corvette
   Ectoplasm: commodity/Biohazard
@@ -52080,6 +52448,7 @@ name2group:
   Elere Febre's Data Log: commodity/Commodities
   Elere Febre's Habitation module: entity/DeadspaceOverseerSStructure
   Elgur Erinn: entity/DeadspaceOverseerFrigate
+  Elias Peltonnen: entity/AIREntitiesI
   Elite Armor Skill Accelerator: implant/Booster
   Elite Drone AI: material/RogueDroneComponents
   Elite Drone Parasite: entity/DeadspaceRogueDroneBattleship
@@ -52749,7 +53118,6 @@ name2group:
   Exsanguinator: entity/DeadspaceOverseerCruiser
   Extendable plunger tool: specialeditionassets/SpecialEditionCommodities
   Extended 'Bonding' Cerebral Accelerator: implant/Booster
-  Extended 'Convergent' Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extractive Super-Nexus: entity/LargeCollidableStructure
@@ -53196,6 +53564,7 @@ name2group:
   Fenrir Blue Tiger SKIN: skins/PermanentSKIN
   Fenrir Blueprint: blueprint/FreighterBlueprint
   Fenrir Exoplanets Hunter SKIN: skins/PermanentSKIN
+  Fenrir Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Fenrir Glacial Drift SKIN: skins/PermanentSKIN
   Fenrir Hazard Control SKIN: skins/PermanentSKIN
   Fenrir Justice SKIN: skins/PermanentSKIN
@@ -55248,6 +55617,7 @@ name2group:
   Heron Matigu Seabeast SKIN: skins/PermanentSKIN
   Heron Raata Sunset SKIN: skins/PermanentSKIN
   Heron Semiotique Sports SKIN: skins/PermanentSKIN
+  Heron Semiotique Superluminal SKIN: skins/PermanentSKIN
   Heron Steel Cardinal SKIN: skins/PermanentSKIN
   Heron Sukuuvestaa SKIN: skins/PermanentSKIN
   Heron Sukuuvestaa SKIN (30 Days): skins/Max30DaySKIN
@@ -55816,6 +56186,7 @@ name2group:
   Imicus Intaki Syndicate SKIN (90 Days): skins/Max90DaySKIN
   Imicus Intaki Syndicate Serenity Only SKIN: skins/PermanentSKIN
   Imicus Kopis Edge SKIN: skins/PermanentSKIN
+  Imicus Semiotique Superluminal SKIN: skins/PermanentSKIN
   Imicus Serpentis SKIN: skins/PermanentSKIN
   Imicus Spirit SKIN: skins/PermanentSKIN
   Imicus Valimor Legacy SKIN: skins/PermanentSKIN
@@ -57450,6 +57821,8 @@ name2group:
   Large Artillery Battery: starbase/MobileProjectileSentry
   Large Artillery Battery Blueprint: blueprint/StarbaseProjectileBatteryBlueprints
   Large Artillery Specialization: skill/Gunnery
+  Large Asteroid Ore Compressor I: module/Compressors
+  Large Asteroid Ore Compressor I Blueprint: blueprint/CompressorsBlueprints
   Large Asymmetric Enduring Remote Shield Booster: module/RemoteShieldBooster
   Large Audit Log Secure Container: celestial/AuditLogSecureContainer
   Large Audit Log Secure Container Blueprint: blueprint/ContainerBlueprints
@@ -57675,6 +58048,8 @@ name2group:
   Large Freight Container: celestial/FreightContainer
   Large Freight Container Blueprint: blueprint/ContainerBlueprints
   Large GA Railgun Installation: infantry/InfantryInstallations
+  Large Gas Compressor I: module/Compressors
+  Large Gas Compressor I Blueprint: blueprint/CompressorsBlueprints
   Large Graviton Smartbomb I: module/SmartBomb
   Large Graviton Smartbomb I Blueprint: blueprint/SmartBombBlueprint
   Large Graviton Smartbomb II: module/SmartBomb
@@ -57745,6 +58120,8 @@ name2group:
   Large I-a Enduring Armor Repairer: module/ArmorRepairUnit
   Large I-ax Enduring Remote Armor Repairer: module/RemoteArmorRepairer
   Large I-b Polarized Structural Regenerator: module/HullRepairUnit
+  Large Ice Compressor I: module/Compressors
+  Large Ice Compressor I Blueprint: blueprint/CompressorsBlueprints
   Large Inductive Compact Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
   Large Industrial Core I: module/SiegeModule
   Large Industrial Core I Blueprint: blueprint/SiegeModuleBlueprint
@@ -57779,6 +58156,8 @@ name2group:
   Large Memetic Algorithm Bank I Blueprint: blueprint/RigBlueprint
   Large Memetic Algorithm Bank II: module/RigScanning
   Large Memetic Algorithm Bank II Blueprint: blueprint/RigBlueprint
+  Large Mercoxit Compressor I: module/Compressors
+  Large Mercoxit Compressor I Blueprint: blueprint/CompressorsBlueprints
   Large Micro Jump Drive: module/MicroJumpDrive
   Large Micro Jump Drive Blueprint: blueprint/MicroJumpDriveBlueprint
   Large Missile Installation: infantry/InfantryInstallations
@@ -57787,6 +58166,8 @@ name2group:
   Large Missile Launcher Operation: infantry/InfantrySkills
   Large Missile Launcher Proficiency: infantry/InfantrySkills
   Large Missile Launcher Reload Systems: infantry/InfantrySkills
+  Large Moon Ore Compressor I: module/Compressors
+  Large Moon Ore Compressor I Blueprint: blueprint/CompressorsBlueprints
   Large Murky Compact Remote Shield Booster: module/RemoteShieldBooster
   Large Nanobot Accelerator I: module/RigArmor
   Large Nanobot Accelerator I Blueprint: blueprint/RigBlueprint
@@ -58758,6 +59139,7 @@ name2group:
   Magnate Sarum SKIN (90 Days): skins/Max90DaySKIN
   Magnate Sarum Serenity Only SKIN: skins/PermanentSKIN
   Magnate Semiotique Sports SKIN: skins/PermanentSKIN
+  Magnate Semiotique Superluminal SKIN: skins/PermanentSKIN
   Magnate Serene Hao SKIN: skins/PermanentSKIN
   Magnate Tash-Murkon SKIN: skins/PermanentSKIN
   Magnate Tash-Murkon SKIN (30 Days): skins/Max30DaySKIN
@@ -59131,6 +59513,8 @@ name2group:
   Medium Artillery Battery: starbase/MobileProjectileSentry
   Medium Artillery Battery Blueprint: blueprint/StarbaseProjectileBatteryBlueprints
   Medium Artillery Specialization: skill/Gunnery
+  Medium Asteroid Ore Compressor I: module/Compressors
+  Medium Asteroid Ore Compressor I Blueprint: blueprint/CompressorsBlueprints
   Medium Asymmetric Enduring Remote Shield Booster: module/RemoteShieldBooster
   Medium Audit Log Secure Container: celestial/AuditLogSecureContainer
   Medium Audit Log Secure Container Blueprint: blueprint/ContainerBlueprints
@@ -59310,6 +59694,8 @@ name2group:
   Medium Faction Ammunition Crate: specialeditionassets/SpecialEditionCommodities
   Medium Freight Container: celestial/FreightContainer
   Medium Freight Container Blueprint: blueprint/ContainerBlueprints
+  Medium Gas Compressor I: module/Compressors
+  Medium Gas Compressor I Blueprint: blueprint/CompressorsBlueprints
   Medium Ghoul Compact Energy Nosferatu: module/EnergyNosferatu
   Medium Graviton Smartbomb I: module/SmartBomb
   Medium Graviton Smartbomb I Blueprint: blueprint/SmartBombBlueprint
@@ -59369,6 +59755,10 @@ name2group:
   Medium Ice Harvester Accelerator I: module/RigResourceProcessing
   Medium Ice Harvester Accelerator I Blueprint: blueprint/RigBlueprint
   Medium Inductive Compact Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
+  Medium Industrial Core I: module/SiegeModule
+  Medium Industrial Core I Blueprint: blueprint/SiegeModuleBlueprint
+  'Medium Industrial Core II ': module/SiegeModule
+  Medium Industrial Core II Blueprint: blueprint/SiegeModuleBlueprint
   Medium Inefficient Hull Repair Unit: module/HullRepairUnit
   Medium Infectious Scoped Energy Neutralizer: module/EnergyNeutralizer
   Medium Inverted Signal Field Projector I: module/RigElectronicSystems
@@ -59879,6 +60269,8 @@ name2group:
   Men's 'Quafethron' T-shirt: apparel/Tops
   Men's 'Red Star' T-shirt: apparel/Tops
   Men's 'Republic Valklear' Beret: apparel/Headwear
+  Men's 'Republic Valklear' Jacket: apparel/Outer
+  Men's 'Republic Valklear' Pants: apparel/Bottoms
   Men's 'Rider' Pants (black silver): apparel/Bottoms
   Men's 'Rider' Pants (red gold): apparel/Bottoms
   Men's 'Rider' Pants (reflective blue): apparel/Bottoms
@@ -59893,6 +60285,9 @@ name2group:
   Men's 'Sanguine Harvest' T-Shirt: apparel/Tops
   Men's 'Semiotique Sports' Pants: apparel/Bottoms
   Men's 'Semiotique Sports' Shoes: apparel/Footwear
+  Men's 'Semiotique Superluminal' Jacket: apparel/Outer
+  Men's 'Semiotique Superluminal' Pants: apparel/Bottoms
+  'Men''s ''Semiotique Superluminal'' Shades ': apparel/Eyewear
   Men's 'Semiotique TorsoRig' Body Augmentation: apparel/Augmentations
   Men's 'Serpentis' T-shirt (olive/black): apparel/Tops
   Men's 'Setcouple' Facial Augmentation: apparel/Augmentations
@@ -59937,6 +60332,7 @@ name2group:
   Men's 'Valkyrie' Flight Jacket: apparel/Outer
   Men's 'Vermillion Dragon' Facial Augmentation: apparel/Augmentations
   Men's 'Wirepoise' Facial Augmentation: apparel/Augmentations
+  Men's AIR Claim Surveyor Suit: apparel/Outer
   Men's Albedo Affluence Jacket: apparel/Outer
   Men's Albedo Affluence Pants: apparel/Outer
   Men's Amarr 'Loyalist' T-Shirt: apparel/Tops
@@ -61766,6 +62162,7 @@ name2group:
   Obelisk Scope Syndication YC122 SKIN: skins/PermanentSKIN
   Obelisk Serpentis SKIN: skins/PermanentSKIN
   Obelisk Spirit SKIN: skins/PermanentSKIN
+  Obelisk Strategic Materiel Defender SKIN: skins/PermanentSKIN
   Obelisk Valimor Legacy SKIN: skins/PermanentSKIN
   Obsidian Datacore: commodity/Miscellaneous
   Obsidian Ochre: asteroid/DarkOchre
@@ -62729,7 +63126,6 @@ name2group:
   Positron Cord: commodity/MaterialsAndCompounds
   Postcard From Poitot: specialeditionassets/SpecialEditionCommodities
   Potent 'Bonding' Cerebral Accelerator: implant/Booster
-  Potent 'Convergent' Cerebral Accelerator: implant/Booster
   Potent Viral Agent: commodity/Biohazard
   Poteque 'Prospector' Archaeology AC-905: implant/CyberScanning
   Poteque 'Prospector' Astrometric Acquisition AQ-702: implant/CyberScanning
@@ -62851,6 +63247,7 @@ name2group:
   Probe Glacial Drift SKIN: skins/PermanentSKIN
   Probe Hazard Control SKIN: skins/PermanentSKIN
   Probe Justice SKIN: skins/PermanentSKIN
+  Probe Semiotique Superluminal SKIN: skins/PermanentSKIN
   Probe Snowline Bladeracer SKIN: skins/PermanentSKIN
   Probe Tronhadar Ink SKIN: skins/PermanentSKIN
   Probe Valklear Glory SKIN: skins/PermanentSKIN
@@ -63142,6 +63539,7 @@ name2group:
   Providence Purity of the Throne SKIN: skins/PermanentSKIN
   Providence Raata Sunset SKIN: skins/PermanentSKIN
   Providence Star Captain SKIN: skins/PermanentSKIN
+  Providence War Reserves Lieutenant SKIN: skins/PermanentSKIN
   Providence Yoiul Star SKIN: skins/PermanentSKIN
   Prowler: ship/BlockadeRunner
   Prowler Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -71424,6 +71822,8 @@ name2group:
   Women's 'Quafethron' T-shirt: apparel/Tops
   Women's 'Red Star' T-shirt: apparel/Tops
   Women's 'Republic Valklear' Beret: apparel/Headwear
+  Women's 'Republic Valklear' Jacket: apparel/Outer
+  Women's 'Republic Valklear' Pants: apparel/Bottoms
   Women's 'Rocket' Dress (black): apparel/Outer
   Women's 'Rocket' Dress (blue): apparel/Outer
   Women's 'Rocket' Dress (copper): apparel/Outer
@@ -71452,6 +71852,9 @@ name2group:
   Women's 'Sanguine Harvest' T-Shirt: apparel/Tops
   Women's 'Semiotique Sports' Pants: apparel/Bottoms
   Women's 'Semiotique Sports' Shoes: apparel/Footwear
+  Women's 'Semiotique Superluminal' Jacket: apparel/Outer
+  Women's 'Semiotique Superluminal' Pants: apparel/Bottoms
+  'Women''s ''Semiotique Superluminal'' Shades ': apparel/Eyewear
   Women's 'Semiotique TorsoRig' Body Augmentation: apparel/Augmentations
   Women's 'Serpentis' T-shirt (olive/black): apparel/Tops
   Women's 'Shadowglam' Facial Augmentation: apparel/Augmentations
@@ -71535,6 +71938,7 @@ name2group:
   Women's 'Vise' Cybernetic Arm (white and gray ringed left): apparel/Prosthetics
   Women's 'Vise' Cybernetic Arm (white and gray ringed right): apparel/Prosthetics
   Women's 'Waveform' Facial Augmentation: apparel/Augmentations
+  Women's AIR Claim Surveyor Suit: apparel/Outer
   Women's Albedo Affluence Jacket: apparel/Outer
   Women's Albedo Affluence Pants: apparel/Outer
   Women's Amarr 'Loyalist' T-Shirt: apparel/Tops
@@ -71693,6 +72097,7 @@ name2group:
   Wrecked Armor Nanobot: ancientrelics/SleeperDefensiveRelics
   Wrecked Caldari Raven Battleship: entity/SpawnContainer
   Wrecked Caldari Scorpion Battleship: entity/SpawnContainer
+  Wrecked Dramiel: entity/SpawnContainer
   Wrecked Gallente Dominix Battleship: entity/SpawnContainer
   Wrecked Gallente Megathron Battleship: entity/SpawnContainer
   Wrecked Hull Section: ancientrelics/SleeperHullRelics
@@ -72163,14 +72568,22 @@ name2group:
   '[AIR] Brutix': entity/AIREntitiesII
   '[AIR] Brutix II': entity/AIREntitiesII
   '[AIR] Cormorant': entity/AIREntitiesII
+  '[AIR] Covetor': entity/AIREntitiesII
   '[AIR] Firetail': entity/AIREntitiesII
+  '[AIR] Hauler': entity/AIREntitiesII
+  '[AIR] Hauler II': entity/AIREntitiesII
+  '[AIR] Hauler III': entity/AIREntitiesII
+  '[AIR] Hauler IV': entity/AIREntitiesII
   '[AIR] Incursus': entity/AIREntitiesII
   '[AIR] Nestor': entity/AIREntitiesII
   '[AIR] Nestor II': entity/AIREntitiesII
   '[AIR] Orca': entity/AIREntitiesII
   '[AIR] Osprey': entity/AIREntitiesII
+  '[AIR] Procurer': entity/AIREntitiesII
+  '[AIR] Retriever': entity/AIREntitiesII
   '[AIR] Stratios': entity/AIREntitiesII
   '[AIR] Stratios II': entity/AIREntitiesII
+  '[AIR] Venture': entity/AIREntitiesII
   '[CNS] Kiirasha Final Broadcast Fragment': specialeditionassets/SpecialEditionCommodities
   '[DEMO] Drone Hive': infantry/InfantryInstallations
   '[DEV] Amarr Crusader Dropsuit': infantry/InfantryDropsuits

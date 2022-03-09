@@ -647,7 +647,7 @@ types:
     trackingspeed: 120.0
     volume: 116000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 20.0
+    warpspeedmultiplier: 15.0
   Carousing Cynabal:
     agility: 0.15000000596046448
     aitankingmodifierdrone: 0.699999988079071
@@ -738,7 +738,7 @@ types:
     trackingspeed: 100.0
     volume: 101000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 20.0
+    warpspeedmultiplier: 25.0
   Carousing Exequror:
     agility: 0.20999999344348907
     aitankingmodifierdrone: 0.699999988079071
@@ -819,7 +819,7 @@ types:
     thermaldamageresonance: 0.4690000116825104
     volume: 113000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 20.0
+    warpspeedmultiplier: 15.0
   Carousing Huginn:
     agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
@@ -1182,7 +1182,7 @@ types:
     trackingspeed: 120.0
     volume: 101000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 20.0
+    warpspeedmultiplier: 15.0
   Colony Nest Overseer:
     agility: 0.20000000298023224
     aitankingmodifierdrone: 0.699999988079071

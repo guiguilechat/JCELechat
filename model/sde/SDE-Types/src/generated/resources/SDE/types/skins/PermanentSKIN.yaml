@@ -5956,6 +5956,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Charon Military Stockpile Captain SKIN:
+    id: 62856
+    marketGroup: 1985
+    name: Charon Military Stockpile Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Charon Raata Sunset SKIN:
     id: 36677
     marketGroup: 1985
@@ -11060,6 +11068,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Fenrir Fleet Ordnance Spike SKIN:
+    id: 62858
+    marketGroup: 1987
+    name: Fenrir Fleet Ordnance Spike SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Fenrir Glacial Drift SKIN:
     id: 46926
     marketGroup: 1987
@@ -13386,6 +13402,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Heron Semiotique Superluminal SKIN:
+    id: 63029
+    marketGroup: 2003
+    name: Heron Semiotique Superluminal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Heron Steel Cardinal SKIN:
     id: 46092
     marketGroup: 2003
@@ -14605,6 +14629,14 @@ types:
     id: 46384
     marketGroup: 2004
     name: Imicus Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Imicus Semiotique Superluminal SKIN:
+    id: 63030
+    marketGroup: 2004
+    name: Imicus Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17549,6 +17581,14 @@ types:
   Magnate Semiotique Sports SKIN:
     id: 60209
     name: Magnate Semiotique Sports SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Magnate Semiotique Superluminal SKIN:
+    id: 63028
+    marketGroup: 2002
+    name: Magnate Semiotique Superluminal SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21358,6 +21398,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Obelisk Strategic Materiel Defender SKIN:
+    id: 62857
+    marketGroup: 1986
+    name: Obelisk Strategic Materiel Defender SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Obelisk Valimor Legacy SKIN:
     id: 37594
     marketGroup: 1986
@@ -23744,6 +23792,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Probe Semiotique Superluminal SKIN:
+    id: 63031
+    marketGroup: 2005
+    name: Probe Semiotique Superluminal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Probe Snowline Bladeracer SKIN:
     id: 52846
     marketGroup: 2005
@@ -24575,6 +24631,14 @@ types:
     id: 48369
     marketGroup: 1984
     name: Providence Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Providence War Reserves Lieutenant SKIN:
+    id: 62855
+    marketGroup: 1984
+    name: Providence War Reserves Lieutenant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

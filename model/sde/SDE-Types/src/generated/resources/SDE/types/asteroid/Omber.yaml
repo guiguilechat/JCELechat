@@ -1,5 +1,5 @@
 types:
-  Compressed Golden Omber:
+  Batch Compressed Golden Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -7,7 +7,7 @@ types:
     id: 28415
     marketGroup: 526
     mass: 1.0000000409184788E35
-    name: Compressed Golden Omber
+    name: Batch Compressed Golden Omber
     orebasictype: 1227
     packagedVolume: 0.30000001192092896
     portionSize: 1
@@ -19,7 +19,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.30000001192092896
-  Compressed Omber:
+  Batch Compressed Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -27,7 +27,7 @@ types:
     id: 28416
     marketGroup: 526
     mass: 1.0000000409184788E35
-    name: Compressed Omber
+    name: Batch Compressed Omber
     orebasictype: 1227
     packagedVolume: 0.30000001192092896
     portionSize: 1
@@ -39,7 +39,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.30000001192092896
-  Compressed Platinoid Omber:
+  Batch Compressed Platinoid Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -47,7 +47,7 @@ types:
     id: 46700
     marketGroup: 526
     mass: 1.0
-    name: Compressed Platinoid Omber
+    name: Batch Compressed Platinoid Omber
     orebasictype: 46684
     packagedVolume: 0.30000001192092896
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.30000001192092896
-  Compressed Silvery Omber:
+  Batch Compressed Silvery Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -67,7 +67,7 @@ types:
     id: 28417
     marketGroup: 526
     mass: 1.0000000409184788E35
-    name: Compressed Silvery Omber
+    name: Batch Compressed Silvery Omber
     orebasictype: 1227
     packagedVolume: 0.30000001192092896
     portionSize: 1
@@ -79,6 +79,86 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.30000001192092896
+  'Compressed Golden Omber ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62534
+    marketGroup: 526
+    mass: 1.0000000409184788E35
+    name: 'Compressed Golden Omber '
+    orebasictype: 1227
+    packagedVolume: 0.006000000052154064
+    portionSize: 100
+    price: 675300.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.006000000052154064
+  'Compressed Omber ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62532
+    marketGroup: 526
+    mass: 1.0000000409184788E35
+    name: 'Compressed Omber '
+    orebasictype: 1227
+    packagedVolume: 0.006000000052154064
+    portionSize: 100
+    price: 613410.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.006000000052154064
+  'Compressed Platinoid Omber ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62535
+    marketGroup: 526
+    mass: 1.0
+    name: 'Compressed Platinoid Omber '
+    orebasictype: 46684
+    packagedVolume: 0.006000000052154064
+    portionSize: 100
+    price: 11000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.006000000052154064
+  'Compressed Silvery Omber ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62533
+    marketGroup: 526
+    mass: 1.0000000409184788E35
+    name: 'Compressed Silvery Omber '
+    orebasictype: 1227
+    packagedVolume: 0.006000000052154064
+    portionSize: 100
+    price: 643380.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.006000000052154064
   Golden Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3

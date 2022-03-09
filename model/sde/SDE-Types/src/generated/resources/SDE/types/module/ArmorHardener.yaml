@@ -3,7 +3,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.70000076293945
+    emdamageresistancebonus: -55.90999984741211
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -28,7 +28,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.70000076293945
+    explosivedamageresistancebonus: -55.90999984741211
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -57,7 +57,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15058
-    kineticdamageresistancebonus: -49.70000076293945
+    kineticdamageresistancebonus: -55.90999984741211
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -97,13 +97,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.70000076293945
+    thermaldamageresistancebonus: -55.90999984741211
     volume: 5.0
   Ammatar Navy EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -128,7 +128,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -157,7 +157,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 17506
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -197,13 +197,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Brokara's Modified EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -46.70000076293945
+    emdamageresistancebonus: -52.540000915527344
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -228,7 +228,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -46.70000076293945
+    explosivedamageresistancebonus: -52.540000915527344
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -257,7 +257,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15048
-    kineticdamageresistancebonus: -46.70000076293945
+    kineticdamageresistancebonus: -52.540000915527344
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -297,13 +297,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -46.70000076293945
+    thermaldamageresistancebonus: -52.540000915527344
     volume: 5.0
   Brynn's Modified EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -46.70000076293945
+    emdamageresistancebonus: -52.540000915527344
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -328,7 +328,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -46.70000076293945
+    explosivedamageresistancebonus: -52.540000915527344
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -357,7 +357,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15260
-    kineticdamageresistancebonus: -46.70000076293945
+    kineticdamageresistancebonus: -52.540000915527344
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -397,13 +397,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -46.70000076293945
+    thermaldamageresistancebonus: -52.540000915527344
     volume: 5.0
   Centus A-Type EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -48.79999923706055
+    emdamageresistancebonus: -54.900001525878906
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -428,7 +428,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -48.79999923706055
+    explosivedamageresistancebonus: -54.900001525878906
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -457,7 +457,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18923
-    kineticdamageresistancebonus: -48.79999923706055
+    kineticdamageresistancebonus: -54.900001525878906
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -497,13 +497,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -48.79999923706055
+    thermaldamageresistancebonus: -54.900001525878906
     volume: 5.0
   Centus B-Type EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -47.29999923706055
+    emdamageresistancebonus: -53.209999084472656
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -528,7 +528,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.29999923706055
+    explosivedamageresistancebonus: -53.209999084472656
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -557,7 +557,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18911
-    kineticdamageresistancebonus: -47.29999923706055
+    kineticdamageresistancebonus: -53.209999084472656
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -597,13 +597,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.29999923706055
+    thermaldamageresistancebonus: -53.209999084472656
     volume: 5.0
   Centus C-Type EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -45.79999923706055
+    emdamageresistancebonus: -51.52000045776367
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -628,7 +628,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -45.79999923706055
+    explosivedamageresistancebonus: -51.52000045776367
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -657,7 +657,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18895
-    kineticdamageresistancebonus: -45.79999923706055
+    kineticdamageresistancebonus: -51.52000045776367
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -697,13 +697,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.79999923706055
+    thermaldamageresistancebonus: -51.52000045776367
     volume: 5.0
   Centus X-Type EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -50.29999923706055
+    emdamageresistancebonus: -56.59000015258789
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -728,7 +728,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -50.29999923706055
+    explosivedamageresistancebonus: -56.59000015258789
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -757,7 +757,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18943
-    kineticdamageresistancebonus: -50.29999923706055
+    kineticdamageresistancebonus: -56.59000015258789
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -797,13 +797,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -50.29999923706055
+    thermaldamageresistancebonus: -56.59000015258789
     volume: 5.0
   Chelm's Modified EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -51.20000076293945
+    emdamageresistancebonus: -57.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -828,7 +828,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.20000076293945
+    explosivedamageresistancebonus: -57.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -857,7 +857,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15060
-    kineticdamageresistancebonus: -51.20000076293945
+    kineticdamageresistancebonus: -57.599998474121094
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -897,13 +897,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.20000076293945
+    thermaldamageresistancebonus: -57.599998474121094
     volume: 5.0
   Core A-Type EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -48.79999923706055
+    emdamageresistancebonus: -54.900001525878906
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -928,7 +928,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -48.79999923706055
+    explosivedamageresistancebonus: -54.900001525878906
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -957,7 +957,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18969
-    kineticdamageresistancebonus: -48.79999923706055
+    kineticdamageresistancebonus: -54.900001525878906
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -997,13 +997,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -48.79999923706055
+    thermaldamageresistancebonus: -54.900001525878906
     volume: 5.0
   Core B-Type EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -47.29999923706055
+    emdamageresistancebonus: -53.209999084472656
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1028,7 +1028,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.29999923706055
+    explosivedamageresistancebonus: -53.209999084472656
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1057,7 +1057,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18961
-    kineticdamageresistancebonus: -47.29999923706055
+    kineticdamageresistancebonus: -53.209999084472656
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -1097,13 +1097,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.29999923706055
+    thermaldamageresistancebonus: -53.209999084472656
     volume: 5.0
   Core C-Type EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -45.79999923706055
+    emdamageresistancebonus: -51.52000045776367
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1128,7 +1128,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -45.79999923706055
+    explosivedamageresistancebonus: -51.52000045776367
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1157,7 +1157,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18953
-    kineticdamageresistancebonus: -45.79999923706055
+    kineticdamageresistancebonus: -51.52000045776367
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -1197,13 +1197,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.79999923706055
+    thermaldamageresistancebonus: -51.52000045776367
     volume: 5.0
   Core X-Type EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -50.29999923706055
+    emdamageresistancebonus: -56.59000015258789
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1228,7 +1228,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -50.29999923706055
+    explosivedamageresistancebonus: -56.59000015258789
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1257,7 +1257,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18977
-    kineticdamageresistancebonus: -50.29999923706055
+    kineticdamageresistancebonus: -56.59000015258789
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -1297,13 +1297,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -50.29999923706055
+    thermaldamageresistancebonus: -56.59000015258789
     volume: 5.0
   Cormack's Modified EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -51.20000076293945
+    emdamageresistancebonus: -57.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1328,7 +1328,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.20000076293945
+    explosivedamageresistancebonus: -57.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1357,7 +1357,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15266
-    kineticdamageresistancebonus: -51.20000076293945
+    kineticdamageresistancebonus: -57.599998474121094
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1397,13 +1397,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.20000076293945
+    thermaldamageresistancebonus: -57.599998474121094
     volume: 5.0
   Corpus A-Type EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -48.79999923706055
+    emdamageresistancebonus: -54.900001525878906
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1428,7 +1428,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -48.79999923706055
+    explosivedamageresistancebonus: -54.900001525878906
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1457,7 +1457,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18921
-    kineticdamageresistancebonus: -48.79999923706055
+    kineticdamageresistancebonus: -54.900001525878906
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -1497,13 +1497,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -48.79999923706055
+    thermaldamageresistancebonus: -54.900001525878906
     volume: 5.0
   Corpus B-Type EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -47.29999923706055
+    emdamageresistancebonus: -53.209999084472656
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1528,7 +1528,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.29999923706055
+    explosivedamageresistancebonus: -53.209999084472656
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1557,7 +1557,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18909
-    kineticdamageresistancebonus: -47.29999923706055
+    kineticdamageresistancebonus: -53.209999084472656
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -1597,13 +1597,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.29999923706055
+    thermaldamageresistancebonus: -53.209999084472656
     volume: 5.0
   Corpus C-Type EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -45.79999923706055
+    emdamageresistancebonus: -51.52000045776367
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1628,7 +1628,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -45.79999923706055
+    explosivedamageresistancebonus: -51.52000045776367
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1657,7 +1657,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18893
-    kineticdamageresistancebonus: -45.79999923706055
+    kineticdamageresistancebonus: -51.52000045776367
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -1697,13 +1697,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.79999923706055
+    thermaldamageresistancebonus: -51.52000045776367
     volume: 5.0
   Corpus X-Type EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -50.29999923706055
+    emdamageresistancebonus: -56.59000015258789
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1728,7 +1728,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -50.29999923706055
+    explosivedamageresistancebonus: -56.59000015258789
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1757,7 +1757,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18941
-    kineticdamageresistancebonus: -50.29999923706055
+    kineticdamageresistancebonus: -56.59000015258789
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -1797,13 +1797,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -50.29999923706055
+    thermaldamageresistancebonus: -56.59000015258789
     volume: 5.0
   Dark Blood EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1828,7 +1828,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1857,7 +1857,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 13980
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -1897,13 +1897,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Domination EM Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1928,7 +1928,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1957,7 +1957,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 13990
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -1997,13 +1997,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Draclira's Modified EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -51.20000076293945
+    emdamageresistancebonus: -57.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2028,7 +2028,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.20000076293945
+    explosivedamageresistancebonus: -57.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2057,7 +2057,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15062
-    kineticdamageresistancebonus: -51.20000076293945
+    kineticdamageresistancebonus: -57.599998474121094
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -2097,13 +2097,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.20000076293945
+    thermaldamageresistancebonus: -57.599998474121094
     volume: 5.0
   EM Armor Hardener I:
     capacitorneed: 30.0
     cpu: 33.0
     duration: 20000.0
-    emdamageresistancebonus: -40.0
+    emdamageresistancebonus: -45.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2126,7 +2126,7 @@ types:
     capacitorneed: 30.0
     cpu: 36.0
     duration: 20000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2150,7 +2150,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    emdamageresistancebonus: -42.0
+    emdamageresistancebonus: -47.25
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 7.909999847412109
     hp: 40.0
@@ -2174,7 +2174,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    explosivedamageresistancebonus: -42.0
+    explosivedamageresistancebonus: -47.25
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 7.909999847412109
     hp: 40.0
@@ -2202,7 +2202,7 @@ types:
     heatdamage: 7.909999847412109
     hp: 40.0
     id: 16373
-    kineticdamageresistancebonus: -42.0
+    kineticdamageresistancebonus: -47.25
     marketGroup: 1679
     mass: 1.0
     metalevelold: 1
@@ -2240,13 +2240,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -42.0
+    thermaldamageresistancebonus: -47.25
     volume: 5.0
   Explosive Armor Hardener I:
     capacitorneed: 30.0
     cpu: 33.0
     duration: 20000.0
-    explosivedamageresistancebonus: -40.0
+    explosivedamageresistancebonus: -45.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2269,7 +2269,7 @@ types:
     capacitorneed: 30.0
     cpu: 36.0
     duration: 20000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2293,7 +2293,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2318,7 +2318,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2347,7 +2347,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 17836
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -2387,13 +2387,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Imperial Navy EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2418,7 +2418,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2447,7 +2447,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15707
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -2487,13 +2487,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Khanid Navy EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2518,7 +2518,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2547,7 +2547,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 28526
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -2587,7 +2587,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Kinetic Armor Hardener I:
     capacitorneed: 30.0
@@ -2597,7 +2597,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 11305
-    kineticdamageresistancebonus: -40.0
+    kineticdamageresistancebonus: -45.0
     marketGroup: 1679
     mass: 1.0
     name: Kinetic Armor Hardener I
@@ -2620,7 +2620,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 11644
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metalevelold: 5
@@ -2640,7 +2640,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -42.0
+    emdamageresistancebonus: -47.25
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2664,7 +2664,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -42.0
+    explosivedamageresistancebonus: -47.25
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2692,7 +2692,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 16375
-    kineticdamageresistancebonus: -42.0
+    kineticdamageresistancebonus: -47.25
     marketGroup: 1679
     mass: 1.0
     metalevelold: 1
@@ -2730,13 +2730,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -42.0
+    thermaldamageresistancebonus: -47.25
     volume: 5.0
   Raysere's Modified EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -48.20000076293945
+    emdamageresistancebonus: -54.22999954223633
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2761,7 +2761,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -48.20000076293945
+    explosivedamageresistancebonus: -54.22999954223633
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2790,7 +2790,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15054
-    kineticdamageresistancebonus: -48.20000076293945
+    kineticdamageresistancebonus: -54.22999954223633
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -2830,13 +2830,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -48.20000076293945
+    thermaldamageresistancebonus: -54.22999954223633
     volume: 5.0
   Republic Fleet EM Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2861,7 +2861,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2890,7 +2890,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15715
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -2930,13 +2930,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Selynne's Modified EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -48.20000076293945
+    emdamageresistancebonus: -54.22999954223633
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2961,7 +2961,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -48.20000076293945
+    explosivedamageresistancebonus: -54.22999954223633
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2990,7 +2990,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15052
-    kineticdamageresistancebonus: -48.20000076293945
+    kineticdamageresistancebonus: -54.22999954223633
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -3030,13 +3030,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -48.20000076293945
+    thermaldamageresistancebonus: -54.22999954223633
     volume: 5.0
   Setele's Modified EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.70000076293945
+    emdamageresistancebonus: -55.90999984741211
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3061,7 +3061,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.70000076293945
+    explosivedamageresistancebonus: -55.90999984741211
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3090,7 +3090,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15264
-    kineticdamageresistancebonus: -49.70000076293945
+    kineticdamageresistancebonus: -55.90999984741211
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -3130,13 +3130,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.70000076293945
+    thermaldamageresistancebonus: -55.90999984741211
     volume: 5.0
   Shadow Serpentis EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3161,7 +3161,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3190,7 +3190,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 14063
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -3230,13 +3230,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Tairei's Modified EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -46.70000076293945
+    emdamageresistancebonus: -52.540000915527344
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3261,7 +3261,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -46.70000076293945
+    explosivedamageresistancebonus: -52.540000915527344
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3290,7 +3290,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15050
-    kineticdamageresistancebonus: -46.70000076293945
+    kineticdamageresistancebonus: -52.540000915527344
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -3330,7 +3330,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -46.70000076293945
+    thermaldamageresistancebonus: -52.540000915527344
     volume: 5.0
   Thermal Armor Hardener I:
     capacitorneed: 30.0
@@ -3353,7 +3353,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -40.0
+    thermaldamageresistancebonus: -45.0
     volume: 5.0
   Thermal Armor Hardener II:
     capacitorneed: 30.0
@@ -3377,13 +3377,13 @@ types:
     requiredskill1level: 5
     requiredthermodynamicsskill: 1
     techlevel: 2
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   True Sansha EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -44.0
+    emdamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3408,7 +3408,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -44.0
+    explosivedamageresistancebonus: -49.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3437,7 +3437,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 13978
-    kineticdamageresistancebonus: -44.0
+    kineticdamageresistancebonus: -49.5
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -3477,13 +3477,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.0
+    thermaldamageresistancebonus: -49.5
     volume: 5.0
   Tuvan's Modified EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -48.20000076293945
+    emdamageresistancebonus: -54.22999954223633
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3508,7 +3508,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -48.20000076293945
+    explosivedamageresistancebonus: -54.22999954223633
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3537,7 +3537,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15262
-    kineticdamageresistancebonus: -48.20000076293945
+    kineticdamageresistancebonus: -54.22999954223633
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -3577,13 +3577,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -48.20000076293945
+    thermaldamageresistancebonus: -54.22999954223633
     volume: 5.0
   Vizan's Modified EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.70000076293945
+    emdamageresistancebonus: -55.90999984741211
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3608,7 +3608,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.70000076293945
+    explosivedamageresistancebonus: -55.90999984741211
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3637,7 +3637,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15056
-    kineticdamageresistancebonus: -49.70000076293945
+    kineticdamageresistancebonus: -55.90999984741211
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -3677,5 +3677,5 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.70000076293945
+    thermaldamageresistancebonus: -55.90999984741211
     volume: 5.0

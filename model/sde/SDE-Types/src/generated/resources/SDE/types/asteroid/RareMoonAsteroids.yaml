@@ -39,6 +39,246 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 10.0
+  'Compressed Carnotite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62492
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Carnotite '
+    orebasictype: 45502
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Cinnabar ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62495
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Cinnabar '
+    orebasictype: 45506
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Glowing Carnotite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62494
+    marketGroup: 2400
+    mass: 4000.0
+    name: Compressed Glowing Carnotite
+    orebasictype: 45502
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Glowing Cinnabar ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62497
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Glowing Cinnabar '
+    orebasictype: 45506
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 12000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Glowing Pollucite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62500
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Glowing Pollucite '
+    orebasictype: 45504
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 12000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Glowing Zircon ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62503
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Glowing Zircon '
+    orebasictype: 45503
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 12000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Pollucite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62498
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Pollucite '
+    orebasictype: 45504
+    packagedVolume: 10.0
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 10.0
+  'Compressed Replete Carnotite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62493
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Replete Carnotite '
+    orebasictype: 45502
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Replete Cinnabar ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62496
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Replete Cinnabar '
+    orebasictype: 45506
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Replete Pollucite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62499
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Replete Pollucite '
+    orebasictype: 45504
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Replete Zircon ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62502
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Replete Zircon '
+    orebasictype: 45503
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Zircon ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62501
+    marketGroup: 2400
+    mass: 4000.0
+    name: 'Compressed Zircon '
+    orebasictype: 45503
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46155
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
   Glowing Carnotite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5

@@ -227,6 +227,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Republic Valklear' Pants:
+    gender: 2
+    id: 59179
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Republic Valklear' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Rider' Pants (black silver):
     gender: 1
     id: 33790
@@ -298,6 +308,16 @@ types:
     marketGroup: 1401
     mass: 0.5
     name: Men's 'Semiotique Sports' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Semiotique Superluminal' Pants:
+    gender: 2
+    id: 63054
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Semiotique Superluminal' Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1225,6 +1245,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Republic Valklear' Pants:
+    gender: 2
+    id: 59181
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Republic Valklear' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Sanguine Harvest' Pants:
     gender: 2
     id: 60434
@@ -1241,6 +1271,16 @@ types:
     marketGroup: 1403
     mass: 0.5
     name: Women's 'Semiotique Sports' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Semiotique Superluminal' Pants:
+    gender: 2
+    id: 63055
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Semiotique Superluminal' Pants
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

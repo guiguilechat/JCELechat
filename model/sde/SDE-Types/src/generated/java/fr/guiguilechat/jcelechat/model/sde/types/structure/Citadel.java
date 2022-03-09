@@ -213,8 +213,8 @@ public class Citadel
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int strrefiningyieldbonus;
+    @DefaultRealValue(0.0)
+    public double strrefiningyieldbonus;
     /**
      * 
      */

@@ -115,7 +115,7 @@ types:
     industrialcorebonusdroneiceharvesting: -75
     industrialcorebonusdronemining: 170
     industrialcorebonusdronevelocity: 30.0
-    industrialcorebonusminingburststrength: 30
+    industrialcorebonusminingburststrength: 30.0
     industrialcorelocallogisticsamountbonus: 60
     industrialcorelocallogisticsdurationbonus: -60
     industrialcoreremotelogisticsdurationbonus: -75
@@ -174,7 +174,7 @@ types:
     industrialcorebonusdroneiceharvesting: -85
     industrialcorebonusdronemining: 300
     industrialcorebonusdronevelocity: 35.0
-    industrialcorebonusminingburststrength: 40
+    industrialcorebonusminingburststrength: 40.0
     industrialcorelocallogisticsamountbonus: 75
     industrialcorelocallogisticsdurationbonus: -60
     industrialcoreremotelogisticsdurationbonus: -75
@@ -233,7 +233,7 @@ types:
     industrialcorebonusdroneiceharvesting: -25
     industrialcorebonusdronemining: 25
     industrialcorebonusdronevelocity: 10.0
-    industrialcorebonusminingburststrength: 10
+    industrialcorebonusminingburststrength: 10.0
     industrialcorelocallogisticsamountbonus: 20
     industrialcorelocallogisticsdurationbonus: -30
     marketGroup: 801
@@ -288,7 +288,7 @@ types:
     industrialcorebonusdroneiceharvesting: -50
     industrialcorebonusdronemining: 75
     industrialcorebonusdronevelocity: 12.5
-    industrialcorebonusminingburststrength: 15
+    industrialcorebonusminingburststrength: 15.0
     industrialcorelocallogisticsamountbonus: 30
     industrialcorelocallogisticsdurationbonus: -30
     marketGroup: 801
@@ -306,6 +306,116 @@ types:
     remoterepairimpedancebonus: -99.9999008178711
     requiredskill1: 58956
     requiredskill1level: 5
+    sensordampenerresistancebonus: -80
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    siegemassmultiplier: 10
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    techlevel: 2
+    volume: 3500.0
+  Medium Industrial Core I:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    canfitshiptype1: 42244
+    consumptionquantity: 125
+    consumptiontype: 16272
+    cpu: 33.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 75000.0
+    ecmresistance: 9.999999747378752E-6
+    hp: 99999.0
+    hullemdamageresonance: 1.0
+    hullexplosivedamageresonance: 1.0
+    hullkineticdamageresonance: 1.0
+    hullthermaldamageresonance: 1.0
+    id: 62590
+    industrialcorebonuscommandburstrange: 45
+    industrialcorebonusdronedamagehp: 24
+    industrialcorebonusdroneiceharvesting: -18
+    industrialcorebonusdronemining: 20
+    industrialcorebonusdronevelocity: 5.0
+    industrialcorebonusminingburststrength: 5.0
+    industrialcorelocallogisticsamountbonus: 10
+    industrialcorelocallogisticsdurationbonus: -15
+    marketGroup: 801
+    mass: 1.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: Medium Industrial Core I
+    packagedVolume: 3500.0
+    portionSize: 1
+    power: 53
+    price: 2.0E7
+    published: true
+    radius: 1.0
+    remoteassistanceimpedancebonus: -80
+    remoterepairimpedancebonus: -99.9999008178711
+    requiredskill1: 58956
+    requiredskill1level: 1
+    sensordampenerresistancebonus: -75
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    siegemassmultiplier: 10
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 3500.0
+  'Medium Industrial Core II ':
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    canfitshiptype1: 42244
+    consumptionquantity: 250
+    consumptiontype: 16272
+    cpu: 50.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 75000.0
+    ecmresistance: 9.999999747378752E-6
+    hp: 99999.0
+    hullemdamageresonance: 1.0
+    hullexplosivedamageresonance: 1.0
+    hullkineticdamageresonance: 1.0
+    hullthermaldamageresonance: 1.0
+    id: 62591
+    industrialcorebonuscommandburstrange: 60
+    industrialcorebonusdronedamagehp: 30
+    industrialcorebonusdroneiceharvesting: -35
+    industrialcorebonusdronemining: 50
+    industrialcorebonusdronevelocity: 10.0
+    industrialcorebonusminingburststrength: 7.5
+    industrialcorelocallogisticsamountbonus: 15
+    industrialcorelocallogisticsdurationbonus: -15
+    marketGroup: 801
+    mass: 1.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: 'Medium Industrial Core II '
+    packagedVolume: 3500.0
+    portionSize: 1
+    power: 80
+    price: 5.0E7
+    published: true
+    radius: 1.0
+    remoteassistanceimpedancebonus: -80
+    remoterepairimpedancebonus: -99.9999008178711
+    requiredskill1: 58956
+    requiredskill1level: 4
     sensordampenerresistancebonus: -80
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0

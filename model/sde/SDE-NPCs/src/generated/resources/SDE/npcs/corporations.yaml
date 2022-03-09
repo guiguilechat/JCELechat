@@ -10367,6 +10367,7 @@ corporations:
     - 17168
     - 17169
     - 17170
+    - 17192
     name: Federal Strategic Materiel
   Federation Customs:
     concordRate: 0.8
@@ -11290,10 +11291,6 @@ corporations:
     - 16430
     - 17097
     - 17182
-    - 17186
-    - 17187
-    - 17188
-    - 17189
     name: Frostline Laboratories
   Further Foodstuffs:
     concordRate: 0.8
@@ -14117,6 +14114,7 @@ corporations:
     - 17176
     - 17177
     - 17178
+    - 17190
     name: Imperial War Reserves
   Impetus:
     concordRate: 0.8
@@ -20319,10 +20317,6 @@ corporations:
     - 16430
     - 17097
     - 17182
-    - 17186
-    - 17187
-    - 17188
-    - 17189
     name: ORE Technologies
   Onikanabo Brigade:
     faction: Caldari State
@@ -20360,10 +20354,6 @@ corporations:
     - 16430
     - 17097
     - 17182
-    - 17186
-    - 17187
-    - 17188
-    - 17189
     name: Outer Ring Development
   Outer Ring Excavations:
     concordRate: 0.4
@@ -20419,10 +20409,6 @@ corporations:
     - 16430
     - 17097
     - 17182
-    - 17186
-    - 17187
-    - 17188
-    - 17189
     name: Outer Ring Excavations
   Outer Ring Prospecting:
     faction: ORE
@@ -20448,10 +20434,6 @@ corporations:
     - 16430
     - 17097
     - 17182
-    - 17186
-    - 17187
-    - 17188
-    - 17189
     name: Outer Ring Prospecting
   PKN Cryptographic:
     faction: Caldari State
@@ -22856,6 +22838,7 @@ corporations:
     - 17171
     - 17172
     - 17173
+    - 17193
     name: Republic Fleet Ordnance
   Republic Justice Department:
     concordRate: 0.8
@@ -26983,6 +26966,7 @@ corporations:
     - 17179
     - 17180
     - 17181
+    - 17191
     name: State Military Stockpile
   State Peacekeepers:
     faction: Caldari State

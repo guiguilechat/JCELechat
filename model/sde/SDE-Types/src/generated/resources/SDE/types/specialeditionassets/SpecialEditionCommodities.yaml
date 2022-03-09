@@ -1304,7 +1304,6 @@ types:
   Festival Skill Points and Snowballs Crate:
     cpumultiplier: 1.0
     id: 53517
-    marketGroup: 1661
     name: Festival Skill Points and Snowballs Crate
     packagedVolume: 4.0
     portionSize: 1

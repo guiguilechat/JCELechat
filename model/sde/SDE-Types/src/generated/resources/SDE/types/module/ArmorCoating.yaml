@@ -1,7 +1,7 @@
 types:
   '''Basic'' EM Coating':
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.280000686645508
+    emdamageresistancebonus: -19.440000534057617
     hp: 40.0
     id: 1193
     marketGroup: 1668
@@ -19,7 +19,7 @@ types:
     volume: 5.0
   '''Basic'' Explosive Coating':
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -17.280000686645508
+    explosivedamageresistancebonus: -19.440000534057617
     hp: 40.0
     id: 1262
     marketGroup: 1667
@@ -39,7 +39,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 1282
-    kineticdamageresistancebonus: -17.280000686645508
+    kineticdamageresistancebonus: -19.440000534057617
     marketGroup: 1666
     mass: 1.0
     metalevelold: 6
@@ -72,11 +72,11 @@ types:
     volume: 5.0
   '''Basic'' Multispectrum Coating':
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -7.872000217437744
-    explosivedamageresistancebonus: -7.872000217437744
+    emdamageresistancebonus: -8.859999656677246
+    explosivedamageresistancebonus: -8.859999656677246
     hp: 40.0
     id: 1302
-    kineticdamageresistancebonus: -7.872000217437744
+    kineticdamageresistancebonus: -8.859999656677246
     marketGroup: 1670
     mass: 1.0
     metalevelold: 6
@@ -89,7 +89,7 @@ types:
     requiredskill1: 3392
     requiredskill1level: 2
     techlevel: 1
-    thermaldamageresistancebonus: -7.872000217437744
+    thermaldamageresistancebonus: -8.859999656677246
     volume: 5.0
   '''Basic'' Thermal Coating':
     armorhpmultiplier: 1.0
@@ -107,11 +107,11 @@ types:
     requiredskill1: 3392
     requiredskill1level: 2
     techlevel: 1
-    thermaldamageresistancebonus: -17.280000686645508
+    thermaldamageresistancebonus: -19.440000534057617
     volume: 5.0
   Ahremen's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.049999237060547
+    emdamageresistancebonus: -33.810001373291016
     hp: 40.0
     id: 14914
     marketGroup: 1668
@@ -130,7 +130,7 @@ types:
     volume: 5.0
   Ahremen's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.049999237060547
+    explosivedamageresistancebonus: -33.810001373291016
     hp: 40.0
     id: 14898
     marketGroup: 1667
@@ -151,7 +151,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14882
-    kineticdamageresistancebonus: -30.049999237060547
+    kineticdamageresistancebonus: -33.810001373291016
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -168,11 +168,11 @@ types:
     volume: 5.0
   Ahremen's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.360000610351562
-    explosivedamageresistancebonus: -21.360000610351562
+    emdamageresistancebonus: -24.030000686645508
+    explosivedamageresistancebonus: -24.030000686645508
     hp: 40.0
     id: 14866
-    kineticdamageresistancebonus: -21.360000610351562
+    kineticdamageresistancebonus: -24.030000686645508
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -186,7 +186,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -21.360000610351562
+    thermaldamageresistancebonus: -24.030000686645508
     volume: 5.0
   Ahremen's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -205,11 +205,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -30.049999237060547
+    thermaldamageresistancebonus: -33.810001373291016
     volume: 5.0
   Ammatar Navy EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 17518
     marketGroup: 1668
@@ -228,7 +228,7 @@ types:
     volume: 5.0
   Ammatar Navy Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 17516
     marketGroup: 1667
@@ -249,7 +249,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 17512
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -266,11 +266,11 @@ types:
     volume: 5.0
   Ammatar Navy Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 17514
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -284,7 +284,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   Ammatar Navy Thermal Coating:
     armorhpmultiplier: 1.0
@@ -303,11 +303,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Brokara's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.020000457763672
+    emdamageresistancebonus: -29.270000457763672
     hp: 40.0
     id: 14904
     marketGroup: 1668
@@ -326,7 +326,7 @@ types:
     volume: 5.0
   Brokara's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -26.020000457763672
+    explosivedamageresistancebonus: -29.270000457763672
     hp: 40.0
     id: 14888
     marketGroup: 1667
@@ -347,7 +347,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14872
-    kineticdamageresistancebonus: -26.020000457763672
+    kineticdamageresistancebonus: -29.270000457763672
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -364,11 +364,11 @@ types:
     volume: 5.0
   Brokara's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.81999969482422
-    explosivedamageresistancebonus: -16.81999969482422
+    emdamageresistancebonus: -18.920000076293945
+    explosivedamageresistancebonus: -18.920000076293945
     hp: 40.0
     id: 14856
-    kineticdamageresistancebonus: -16.81999969482422
+    kineticdamageresistancebonus: -18.920000076293945
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -382,7 +382,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.81999969482422
+    thermaldamageresistancebonus: -18.920000076293945
     volume: 5.0
   Brokara's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -401,11 +401,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.020000457763672
+    thermaldamageresistancebonus: -29.270000457763672
     volume: 5.0
   Brynn's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.020000457763672
+    emdamageresistancebonus: -29.270000457763672
     hp: 40.0
     id: 15180
     marketGroup: 1668
@@ -424,7 +424,7 @@ types:
     volume: 5.0
   Brynn's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -26.020000457763672
+    explosivedamageresistancebonus: -29.270000457763672
     hp: 40.0
     id: 15188
     marketGroup: 1667
@@ -445,7 +445,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15196
-    kineticdamageresistancebonus: -26.020000457763672
+    kineticdamageresistancebonus: -29.270000457763672
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -462,11 +462,11 @@ types:
     volume: 5.0
   Brynn's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.81999969482422
-    explosivedamageresistancebonus: -16.81999969482422
+    emdamageresistancebonus: -18.920000076293945
+    explosivedamageresistancebonus: -18.920000076293945
     hp: 40.0
     id: 15164
-    kineticdamageresistancebonus: -16.81999969482422
+    kineticdamageresistancebonus: -18.920000076293945
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -480,7 +480,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.81999969482422
+    thermaldamageresistancebonus: -18.920000076293945
     volume: 5.0
   Brynn's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -499,11 +499,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.020000457763672
+    thermaldamageresistancebonus: -29.270000457763672
     volume: 5.0
   Centii A-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -28.84000015258789
+    emdamageresistancebonus: -32.45000076293945
     hp: 40.0
     id: 18762
     marketGroup: 1668
@@ -522,7 +522,7 @@ types:
     volume: 5.0
   Centii A-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -28.84000015258789
+    explosivedamageresistancebonus: -32.45000076293945
     hp: 40.0
     id: 18758
     marketGroup: 1667
@@ -543,7 +543,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18754
-    kineticdamageresistancebonus: -28.84000015258789
+    kineticdamageresistancebonus: -32.45000076293945
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -560,11 +560,11 @@ types:
     volume: 5.0
   Centii A-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -20.0
-    explosivedamageresistancebonus: -20.0
+    emdamageresistancebonus: -22.5
+    explosivedamageresistancebonus: -22.5
     hp: 40.0
     id: 18710
-    kineticdamageresistancebonus: -20.0
+    kineticdamageresistancebonus: -22.5
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -578,7 +578,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -20.0
+    thermaldamageresistancebonus: -22.5
     volume: 5.0
   Centii A-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -597,11 +597,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -28.84000015258789
+    thermaldamageresistancebonus: -32.45000076293945
     volume: 5.0
   Centii B-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.81999969482422
+    emdamageresistancebonus: -30.170000076293945
     hp: 40.0
     id: 18750
     marketGroup: 1668
@@ -620,7 +620,7 @@ types:
     volume: 5.0
   Centii B-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -26.81999969482422
+    explosivedamageresistancebonus: -30.170000076293945
     hp: 40.0
     id: 18746
     marketGroup: 1667
@@ -641,7 +641,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18742
-    kineticdamageresistancebonus: -26.81999969482422
+    kineticdamageresistancebonus: -30.170000076293945
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -658,11 +658,11 @@ types:
     volume: 5.0
   Centii B-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.729999542236328
-    explosivedamageresistancebonus: -17.729999542236328
+    emdamageresistancebonus: -19.950000762939453
+    explosivedamageresistancebonus: -19.950000762939453
     hp: 40.0
     id: 18706
-    kineticdamageresistancebonus: -17.729999542236328
+    kineticdamageresistancebonus: -19.950000762939453
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -676,7 +676,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -17.729999542236328
+    thermaldamageresistancebonus: -19.950000762939453
     volume: 5.0
   Centii B-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -695,11 +695,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.81999969482422
+    thermaldamageresistancebonus: -30.170000076293945
     volume: 5.0
   Centii C-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.809999465942383
+    emdamageresistancebonus: -27.90999984741211
     hp: 40.0
     id: 18722
     marketGroup: 1668
@@ -718,7 +718,7 @@ types:
     volume: 5.0
   Centii C-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.809999465942383
+    explosivedamageresistancebonus: -27.90999984741211
     hp: 40.0
     id: 18718
     marketGroup: 1667
@@ -739,7 +739,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18714
-    kineticdamageresistancebonus: -24.809999465942383
+    kineticdamageresistancebonus: -27.90999984741211
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -756,11 +756,11 @@ types:
     volume: 5.0
   Centii C-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -15.460000038146973
-    explosivedamageresistancebonus: -15.460000038146973
+    emdamageresistancebonus: -17.389999389648438
+    explosivedamageresistancebonus: -17.389999389648438
     hp: 40.0
     id: 18702
-    kineticdamageresistancebonus: -15.460000038146973
+    kineticdamageresistancebonus: -17.389999389648438
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -774,7 +774,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -15.460000038146973
+    thermaldamageresistancebonus: -17.389999389648438
     volume: 5.0
   Centii C-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -793,11 +793,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.809999465942383
+    thermaldamageresistancebonus: -27.90999984741211
     volume: 5.0
   Chelm's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.060001373291016
+    emdamageresistancebonus: -36.06999969482422
     hp: 40.0
     id: 14916
     marketGroup: 1668
@@ -816,7 +816,7 @@ types:
     volume: 5.0
   Chelm's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.060001373291016
+    explosivedamageresistancebonus: -36.06999969482422
     hp: 40.0
     id: 14900
     marketGroup: 1667
@@ -837,7 +837,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14884
-    kineticdamageresistancebonus: -32.060001373291016
+    kineticdamageresistancebonus: -36.06999969482422
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -854,11 +854,11 @@ types:
     volume: 5.0
   Chelm's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -23.6299991607666
-    explosivedamageresistancebonus: -23.6299991607666
+    emdamageresistancebonus: -26.579999923706055
+    explosivedamageresistancebonus: -26.579999923706055
     hp: 40.0
     id: 14868
-    kineticdamageresistancebonus: -23.6299991607666
+    kineticdamageresistancebonus: -26.579999923706055
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -872,7 +872,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -23.6299991607666
+    thermaldamageresistancebonus: -26.579999923706055
     volume: 5.0
   Chelm's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -891,11 +891,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -32.060001373291016
+    thermaldamageresistancebonus: -36.06999969482422
     volume: 5.0
   Coreli A-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -28.84000015258789
+    emdamageresistancebonus: -32.45000076293945
     hp: 40.0
     id: 18795
     marketGroup: 1668
@@ -914,7 +914,7 @@ types:
     volume: 5.0
   Coreli A-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -28.84000015258789
+    explosivedamageresistancebonus: -32.45000076293945
     hp: 40.0
     id: 18793
     marketGroup: 1667
@@ -935,7 +935,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18791
-    kineticdamageresistancebonus: -28.84000015258789
+    kineticdamageresistancebonus: -32.45000076293945
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -952,11 +952,11 @@ types:
     volume: 5.0
   Coreli A-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -20.0
-    explosivedamageresistancebonus: -20.0
+    emdamageresistancebonus: -22.5
+    explosivedamageresistancebonus: -22.5
     hp: 40.0
     id: 18789
-    kineticdamageresistancebonus: -20.0
+    kineticdamageresistancebonus: -22.5
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -970,7 +970,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -20.0
+    thermaldamageresistancebonus: -22.5
     volume: 5.0
   Coreli A-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -989,11 +989,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -28.84000015258789
+    thermaldamageresistancebonus: -32.45000076293945
     volume: 5.0
   Coreli B-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.81999969482422
+    emdamageresistancebonus: -30.170000076293945
     hp: 40.0
     id: 18785
     marketGroup: 1668
@@ -1012,7 +1012,7 @@ types:
     volume: 5.0
   Coreli B-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -26.81999969482422
+    explosivedamageresistancebonus: -30.170000076293945
     hp: 40.0
     id: 18783
     marketGroup: 1667
@@ -1033,7 +1033,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18781
-    kineticdamageresistancebonus: -26.81999969482422
+    kineticdamageresistancebonus: -30.170000076293945
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -1050,11 +1050,11 @@ types:
     volume: 5.0
   Coreli B-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.729999542236328
-    explosivedamageresistancebonus: -17.729999542236328
+    emdamageresistancebonus: -19.950000762939453
+    explosivedamageresistancebonus: -19.950000762939453
     hp: 40.0
     id: 18779
-    kineticdamageresistancebonus: -17.729999542236328
+    kineticdamageresistancebonus: -19.950000762939453
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -1068,7 +1068,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -17.729999542236328
+    thermaldamageresistancebonus: -19.950000762939453
     volume: 5.0
   Coreli B-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1087,11 +1087,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.81999969482422
+    thermaldamageresistancebonus: -30.170000076293945
     volume: 5.0
   Coreli C-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.809999465942383
+    emdamageresistancebonus: -27.90999984741211
     hp: 40.0
     id: 18775
     marketGroup: 1668
@@ -1110,7 +1110,7 @@ types:
     volume: 5.0
   Coreli C-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.809999465942383
+    explosivedamageresistancebonus: -27.90999984741211
     hp: 40.0
     id: 18772
     marketGroup: 1667
@@ -1131,7 +1131,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18770
-    kineticdamageresistancebonus: -24.809999465942383
+    kineticdamageresistancebonus: -27.90999984741211
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -1148,11 +1148,11 @@ types:
     volume: 5.0
   Coreli C-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -15.460000038146973
-    explosivedamageresistancebonus: -15.460000038146973
+    emdamageresistancebonus: -17.389999389648438
+    explosivedamageresistancebonus: -17.389999389648438
     hp: 40.0
     id: 18768
-    kineticdamageresistancebonus: -15.460000038146973
+    kineticdamageresistancebonus: -17.389999389648438
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -1166,7 +1166,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -15.460000038146973
+    thermaldamageresistancebonus: -17.389999389648438
     volume: 5.0
   Coreli C-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1185,11 +1185,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.809999465942383
+    thermaldamageresistancebonus: -27.90999984741211
     volume: 5.0
   Cormack's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.060001373291016
+    emdamageresistancebonus: -36.06999969482422
     hp: 40.0
     id: 15186
     marketGroup: 1668
@@ -1208,7 +1208,7 @@ types:
     volume: 5.0
   Cormack's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.060001373291016
+    explosivedamageresistancebonus: -36.06999969482422
     hp: 40.0
     id: 15194
     marketGroup: 1667
@@ -1229,7 +1229,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15202
-    kineticdamageresistancebonus: -32.060001373291016
+    kineticdamageresistancebonus: -36.06999969482422
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1246,11 +1246,11 @@ types:
     volume: 5.0
   Cormack's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -23.6299991607666
-    explosivedamageresistancebonus: -23.6299991607666
+    emdamageresistancebonus: -26.579999923706055
+    explosivedamageresistancebonus: -26.579999923706055
     hp: 40.0
     id: 15170
-    kineticdamageresistancebonus: -23.6299991607666
+    kineticdamageresistancebonus: -26.579999923706055
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1264,7 +1264,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -23.6299991607666
+    thermaldamageresistancebonus: -26.579999923706055
     volume: 5.0
   Cormack's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1283,11 +1283,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -32.060001373291016
+    thermaldamageresistancebonus: -36.06999969482422
     volume: 5.0
   Corpii A-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -28.84000015258789
+    emdamageresistancebonus: -32.45000076293945
     hp: 40.0
     id: 18760
     marketGroup: 1668
@@ -1306,7 +1306,7 @@ types:
     volume: 5.0
   Corpii A-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -28.84000015258789
+    explosivedamageresistancebonus: -32.45000076293945
     hp: 40.0
     id: 18756
     marketGroup: 1667
@@ -1327,7 +1327,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18752
-    kineticdamageresistancebonus: -28.84000015258789
+    kineticdamageresistancebonus: -32.45000076293945
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -1344,11 +1344,11 @@ types:
     volume: 5.0
   Corpii A-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -20.0
-    explosivedamageresistancebonus: -20.0
+    emdamageresistancebonus: -22.5
+    explosivedamageresistancebonus: -22.5
     hp: 40.0
     id: 18708
-    kineticdamageresistancebonus: -20.0
+    kineticdamageresistancebonus: -22.5
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -1362,7 +1362,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -20.0
+    thermaldamageresistancebonus: -22.5
     volume: 5.0
   Corpii A-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1381,11 +1381,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -28.84000015258789
+    thermaldamageresistancebonus: -32.45000076293945
     volume: 5.0
   Corpii B-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.81999969482422
+    emdamageresistancebonus: -30.170000076293945
     hp: 40.0
     id: 18748
     marketGroup: 1668
@@ -1404,7 +1404,7 @@ types:
     volume: 5.0
   Corpii B-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -26.81999969482422
+    explosivedamageresistancebonus: -30.170000076293945
     hp: 40.0
     id: 18744
     marketGroup: 1667
@@ -1425,7 +1425,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18740
-    kineticdamageresistancebonus: -26.81999969482422
+    kineticdamageresistancebonus: -30.170000076293945
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -1442,11 +1442,11 @@ types:
     volume: 5.0
   Corpii B-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.729999542236328
-    explosivedamageresistancebonus: -17.729999542236328
+    emdamageresistancebonus: -19.950000762939453
+    explosivedamageresistancebonus: -19.950000762939453
     hp: 40.0
     id: 18704
-    kineticdamageresistancebonus: -17.729999542236328
+    kineticdamageresistancebonus: -19.950000762939453
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -1460,7 +1460,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -17.729999542236328
+    thermaldamageresistancebonus: -19.950000762939453
     volume: 5.0
   Corpii B-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1479,11 +1479,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.81999969482422
+    thermaldamageresistancebonus: -30.170000076293945
     volume: 5.0
   Corpii C-Type EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.809999465942383
+    emdamageresistancebonus: -27.90999984741211
     hp: 40.0
     id: 18720
     marketGroup: 1668
@@ -1502,7 +1502,7 @@ types:
     volume: 5.0
   Corpii C-Type Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.809999465942383
+    explosivedamageresistancebonus: -27.90999984741211
     hp: 40.0
     id: 18716
     marketGroup: 1667
@@ -1523,7 +1523,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18712
-    kineticdamageresistancebonus: -24.809999465942383
+    kineticdamageresistancebonus: -27.90999984741211
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -1540,11 +1540,11 @@ types:
     volume: 5.0
   Corpii C-Type Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -15.460000038146973
-    explosivedamageresistancebonus: -15.460000038146973
+    emdamageresistancebonus: -17.389999389648438
+    explosivedamageresistancebonus: -17.389999389648438
     hp: 40.0
     id: 18700
-    kineticdamageresistancebonus: -15.460000038146973
+    kineticdamageresistancebonus: -17.389999389648438
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -1558,7 +1558,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -15.460000038146973
+    thermaldamageresistancebonus: -17.389999389648438
     volume: 5.0
   Corpii C-Type Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1577,11 +1577,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.809999465942383
+    thermaldamageresistancebonus: -27.90999984741211
     volume: 5.0
   Dark Blood EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 14021
     marketGroup: 1668
@@ -1600,7 +1600,7 @@ types:
     volume: 5.0
   Dark Blood Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 14015
     marketGroup: 1667
@@ -1621,7 +1621,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14009
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -1638,11 +1638,11 @@ types:
     volume: 5.0
   Dark Blood Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 14003
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -1656,7 +1656,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   Dark Blood Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1675,11 +1675,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Domination EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 14017
     marketGroup: 1668
@@ -1698,7 +1698,7 @@ types:
     volume: 5.0
   Domination Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 14011
     marketGroup: 1667
@@ -1719,7 +1719,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14005
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -1736,11 +1736,11 @@ types:
     volume: 5.0
   Domination Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 13999
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -1754,7 +1754,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   Domination Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1773,11 +1773,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Draclira's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.060001373291016
+    emdamageresistancebonus: -36.06999969482422
     hp: 40.0
     id: 14918
     marketGroup: 1668
@@ -1796,7 +1796,7 @@ types:
     volume: 5.0
   Draclira's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.060001373291016
+    explosivedamageresistancebonus: -36.06999969482422
     hp: 40.0
     id: 14902
     marketGroup: 1667
@@ -1817,7 +1817,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14886
-    kineticdamageresistancebonus: -32.060001373291016
+    kineticdamageresistancebonus: -36.06999969482422
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1834,11 +1834,11 @@ types:
     volume: 5.0
   Draclira's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -23.6299991607666
-    explosivedamageresistancebonus: -23.6299991607666
+    emdamageresistancebonus: -26.579999923706055
+    explosivedamageresistancebonus: -26.579999923706055
     hp: 40.0
     id: 14870
-    kineticdamageresistancebonus: -23.6299991607666
+    kineticdamageresistancebonus: -26.579999923706055
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1852,7 +1852,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -23.6299991607666
+    thermaldamageresistancebonus: -26.579999923706055
     volume: 5.0
   Draclira's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -1871,11 +1871,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -32.060001373291016
+    thermaldamageresistancebonus: -36.06999969482422
     volume: 5.0
   EM Coating I:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.459999084472656
+    emdamageresistancebonus: -21.889999389648438
     hp: 40.0
     id: 1197
     marketGroup: 1668
@@ -1892,7 +1892,7 @@ types:
     volume: 5.0
   EM Coating II:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -22.09000015258789
+    emdamageresistancebonus: -24.850000381469727
     hp: 40.0
     id: 1198
     marketGroup: 1668
@@ -1910,7 +1910,7 @@ types:
     volume: 5.0
   Explosive Coating I:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -19.459999084472656
+    explosivedamageresistancebonus: -21.889999389648438
     hp: 40.0
     id: 1264
     marketGroup: 1667
@@ -1927,7 +1927,7 @@ types:
     volume: 5.0
   Explosive Coating II:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -22.09000015258789
+    explosivedamageresistancebonus: -24.850000381469727
     hp: 40.0
     id: 1266
     marketGroup: 1667
@@ -1945,7 +1945,7 @@ types:
     volume: 5.0
   Federation Navy EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 17555
     marketGroup: 1668
@@ -1964,7 +1964,7 @@ types:
     volume: 5.0
   Federation Navy Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 17553
     marketGroup: 1667
@@ -1985,7 +1985,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 17551
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2002,11 +2002,11 @@ types:
     volume: 5.0
   Federation Navy Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 17549
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -2020,7 +2020,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   Federation Navy Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2039,11 +2039,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Gotan's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.049999237060547
+    emdamageresistancebonus: -33.810001373291016
     hp: 40.0
     id: 14584
     marketGroup: 1668
@@ -2062,7 +2062,7 @@ types:
     volume: 5.0
   Gotan's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.049999237060547
+    explosivedamageresistancebonus: -33.810001373291016
     hp: 40.0
     id: 14576
     marketGroup: 1667
@@ -2083,7 +2083,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14568
-    kineticdamageresistancebonus: -30.049999237060547
+    kineticdamageresistancebonus: -33.810001373291016
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2100,11 +2100,11 @@ types:
     volume: 5.0
   Gotan's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.360000610351562
-    explosivedamageresistancebonus: -21.360000610351562
+    emdamageresistancebonus: -24.030000686645508
+    explosivedamageresistancebonus: -24.030000686645508
     hp: 40.0
     id: 14560
-    kineticdamageresistancebonus: -21.360000610351562
+    kineticdamageresistancebonus: -24.030000686645508
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -2118,7 +2118,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -21.360000610351562
+    thermaldamageresistancebonus: -24.030000686645508
     volume: 5.0
   Gotan's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2137,11 +2137,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -30.049999237060547
+    thermaldamageresistancebonus: -33.810001373291016
     volume: 5.0
   Imperial Navy EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 15687
     marketGroup: 1668
@@ -2160,7 +2160,7 @@ types:
     volume: 5.0
   Imperial Navy Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 15689
     marketGroup: 1667
@@ -2181,7 +2181,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15691
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2198,11 +2198,11 @@ types:
     volume: 5.0
   Imperial Navy Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 15693
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -2216,7 +2216,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   Imperial Navy Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2235,11 +2235,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Khanid Navy EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 28554
     marketGroup: 1668
@@ -2258,7 +2258,7 @@ types:
     volume: 5.0
   Khanid Navy Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 28552
     marketGroup: 1667
@@ -2279,7 +2279,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 28547
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2296,11 +2296,11 @@ types:
     volume: 5.0
   Khanid Navy Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 28520
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -2314,7 +2314,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   Khanid Navy Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2333,13 +2333,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Kinetic Coating I:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 1284
-    kineticdamageresistancebonus: -19.459999084472656
+    kineticdamageresistancebonus: -21.889999389648438
     marketGroup: 1666
     mass: 1.0
     name: Kinetic Coating I
@@ -2356,7 +2356,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 1286
-    kineticdamageresistancebonus: -22.09000015258789
+    kineticdamageresistancebonus: -24.850000381469727
     marketGroup: 1666
     mass: 1.0
     metalevelold: 5
@@ -2405,7 +2405,7 @@ types:
     volume: 5.0
   Mizuro's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.020000457763672
+    emdamageresistancebonus: -29.270000457763672
     hp: 40.0
     id: 14580
     marketGroup: 1668
@@ -2424,7 +2424,7 @@ types:
     volume: 5.0
   Mizuro's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -26.020000457763672
+    explosivedamageresistancebonus: -29.270000457763672
     hp: 40.0
     id: 14572
     marketGroup: 1667
@@ -2445,7 +2445,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14564
-    kineticdamageresistancebonus: -26.020000457763672
+    kineticdamageresistancebonus: -29.270000457763672
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2462,11 +2462,11 @@ types:
     volume: 5.0
   Mizuro's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.81999969482422
-    explosivedamageresistancebonus: -16.81999969482422
+    emdamageresistancebonus: -18.920000076293945
+    explosivedamageresistancebonus: -18.920000076293945
     hp: 40.0
     id: 14556
-    kineticdamageresistancebonus: -16.81999969482422
+    kineticdamageresistancebonus: -18.920000076293945
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -2480,7 +2480,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.81999969482422
+    thermaldamageresistancebonus: -18.920000076293945
     volume: 5.0
   Mizuro's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2499,15 +2499,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.020000457763672
+    thermaldamageresistancebonus: -29.270000457763672
     volume: 5.0
   Multispectrum Coating I:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -9.343999862670898
-    explosivedamageresistancebonus: -9.343999862670898
+    emdamageresistancebonus: -10.510000228881836
+    explosivedamageresistancebonus: -10.510000228881836
     hp: 40.0
     id: 1304
-    kineticdamageresistancebonus: -9.343999862670898
+    kineticdamageresistancebonus: -10.510000228881836
     marketGroup: 1670
     mass: 1.0
     name: Multispectrum Coating I
@@ -2519,15 +2519,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -9.343999862670898
+    thermaldamageresistancebonus: -10.510000228881836
     volume: 5.0
   Multispectrum Coating II:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -12.288000106811523
-    explosivedamageresistancebonus: -12.288000106811523
+    emdamageresistancebonus: -13.819999694824219
+    explosivedamageresistancebonus: -13.819999694824219
     hp: 40.0
     id: 1306
-    kineticdamageresistancebonus: -12.288000106811523
+    kineticdamageresistancebonus: -13.819999694824219
     marketGroup: 1670
     mass: 1.0
     metalevelold: 5
@@ -2540,11 +2540,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 2
-    thermaldamageresistancebonus: -12.288000106811523
+    thermaldamageresistancebonus: -13.819999694824219
     volume: 5.0
   Raysere's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -28.030000686645508
+    emdamageresistancebonus: -31.530000686645508
     hp: 40.0
     id: 14910
     marketGroup: 1668
@@ -2563,7 +2563,7 @@ types:
     volume: 5.0
   Raysere's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -28.030000686645508
+    explosivedamageresistancebonus: -31.530000686645508
     hp: 40.0
     id: 14894
     marketGroup: 1667
@@ -2584,7 +2584,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14878
-    kineticdamageresistancebonus: -28.030000686645508
+    kineticdamageresistancebonus: -31.530000686645508
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2601,11 +2601,11 @@ types:
     volume: 5.0
   Raysere's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.09000015258789
-    explosivedamageresistancebonus: -19.09000015258789
+    emdamageresistancebonus: -21.479999542236328
+    explosivedamageresistancebonus: -21.479999542236328
     hp: 40.0
     id: 14862
-    kineticdamageresistancebonus: -19.09000015258789
+    kineticdamageresistancebonus: -21.479999542236328
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -2619,7 +2619,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -19.09000015258789
+    thermaldamageresistancebonus: -21.479999542236328
     volume: 5.0
   Raysere's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2638,11 +2638,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -28.030000686645508
+    thermaldamageresistancebonus: -31.530000686645508
     volume: 5.0
   Republic Fleet EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 15697
     marketGroup: 1668
@@ -2661,7 +2661,7 @@ types:
     volume: 5.0
   Republic Fleet Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 15699
     marketGroup: 1667
@@ -2682,7 +2682,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15701
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2699,11 +2699,11 @@ types:
     volume: 5.0
   Republic Fleet Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 15703
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -2717,7 +2717,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   Republic Fleet Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2736,11 +2736,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Selynne's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -28.030000686645508
+    emdamageresistancebonus: -31.530000686645508
     hp: 40.0
     id: 14908
     marketGroup: 1668
@@ -2759,7 +2759,7 @@ types:
     volume: 5.0
   Selynne's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -28.030000686645508
+    explosivedamageresistancebonus: -31.530000686645508
     hp: 40.0
     id: 14892
     marketGroup: 1667
@@ -2780,7 +2780,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14876
-    kineticdamageresistancebonus: -28.030000686645508
+    kineticdamageresistancebonus: -31.530000686645508
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2797,11 +2797,11 @@ types:
     volume: 5.0
   Selynne's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.09000015258789
-    explosivedamageresistancebonus: -19.09000015258789
+    emdamageresistancebonus: -21.479999542236328
+    explosivedamageresistancebonus: -21.479999542236328
     hp: 40.0
     id: 14860
-    kineticdamageresistancebonus: -19.09000015258789
+    kineticdamageresistancebonus: -21.479999542236328
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -2815,7 +2815,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -19.09000015258789
+    thermaldamageresistancebonus: -21.479999542236328
     volume: 5.0
   Selynne's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2834,11 +2834,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -28.030000686645508
+    thermaldamageresistancebonus: -31.530000686645508
     volume: 5.0
   Setele's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.049999237060547
+    emdamageresistancebonus: -33.810001373291016
     hp: 40.0
     id: 15184
     marketGroup: 1668
@@ -2857,7 +2857,7 @@ types:
     volume: 5.0
   Setele's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.049999237060547
+    explosivedamageresistancebonus: -33.810001373291016
     hp: 40.0
     id: 15192
     marketGroup: 1667
@@ -2878,7 +2878,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15200
-    kineticdamageresistancebonus: -30.049999237060547
+    kineticdamageresistancebonus: -33.810001373291016
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2895,11 +2895,11 @@ types:
     volume: 5.0
   Setele's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.360000610351562
-    explosivedamageresistancebonus: -21.360000610351562
+    emdamageresistancebonus: -24.030000686645508
+    explosivedamageresistancebonus: -24.030000686645508
     hp: 40.0
     id: 15168
-    kineticdamageresistancebonus: -21.360000610351562
+    kineticdamageresistancebonus: -24.030000686645508
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -2913,7 +2913,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -21.360000610351562
+    thermaldamageresistancebonus: -24.030000686645508
     volume: 5.0
   Setele's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -2932,11 +2932,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -30.049999237060547
+    thermaldamageresistancebonus: -33.810001373291016
     volume: 5.0
   Shadow Serpentis EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 14055
     marketGroup: 1668
@@ -2955,7 +2955,7 @@ types:
     volume: 5.0
   Shadow Serpentis Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 14053
     marketGroup: 1667
@@ -2976,7 +2976,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14051
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2993,11 +2993,11 @@ types:
     volume: 5.0
   Shadow Serpentis Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 14049
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -3011,7 +3011,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   Shadow Serpentis Thermal Coating:
     armorhpmultiplier: 1.0
@@ -3030,11 +3030,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Tairei's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.020000457763672
+    emdamageresistancebonus: -29.270000457763672
     hp: 40.0
     id: 14906
     marketGroup: 1668
@@ -3053,7 +3053,7 @@ types:
     volume: 5.0
   Tairei's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -26.020000457763672
+    explosivedamageresistancebonus: -29.270000457763672
     hp: 40.0
     id: 14890
     marketGroup: 1667
@@ -3074,7 +3074,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14874
-    kineticdamageresistancebonus: -26.020000457763672
+    kineticdamageresistancebonus: -29.270000457763672
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -3091,11 +3091,11 @@ types:
     volume: 5.0
   Tairei's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.81999969482422
-    explosivedamageresistancebonus: -16.81999969482422
+    emdamageresistancebonus: -18.920000076293945
+    explosivedamageresistancebonus: -18.920000076293945
     hp: 40.0
     id: 14858
-    kineticdamageresistancebonus: -16.81999969482422
+    kineticdamageresistancebonus: -18.920000076293945
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -3109,7 +3109,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.81999969482422
+    thermaldamageresistancebonus: -18.920000076293945
     volume: 5.0
   Tairei's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -3128,7 +3128,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.020000457763672
+    thermaldamageresistancebonus: -29.270000457763672
     volume: 5.0
   Thermal Coating I:
     armorhpmultiplier: 1.0
@@ -3145,7 +3145,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -19.459999084472656
+    thermaldamageresistancebonus: -21.889999389648438
     volume: 5.0
   Thermal Coating II:
     armorhpmultiplier: 1.0
@@ -3163,11 +3163,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 2
-    thermaldamageresistancebonus: -22.09000015258789
+    thermaldamageresistancebonus: -24.850000381469727
     volume: 5.0
   True Sansha EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.0
+    emdamageresistancebonus: -27.0
     hp: 40.0
     id: 14019
     marketGroup: 1668
@@ -3186,7 +3186,7 @@ types:
     volume: 5.0
   True Sansha Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.0
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
     id: 14013
     marketGroup: 1667
@@ -3207,7 +3207,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14007
-    kineticdamageresistancebonus: -24.0
+    kineticdamageresistancebonus: -27.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -3224,11 +3224,11 @@ types:
     volume: 5.0
   True Sansha Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -14.550000190734863
-    explosivedamageresistancebonus: -14.550000190734863
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
     hp: 40.0
     id: 14001
-    kineticdamageresistancebonus: -14.550000190734863
+    kineticdamageresistancebonus: -16.3700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -3242,7 +3242,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -14.550000190734863
+    thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
   True Sansha Thermal Coating:
     armorhpmultiplier: 1.0
@@ -3261,11 +3261,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.0
+    thermaldamageresistancebonus: -27.0
     volume: 5.0
   Tuvan's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -28.030000686645508
+    emdamageresistancebonus: -31.530000686645508
     hp: 40.0
     id: 15182
     marketGroup: 1668
@@ -3284,7 +3284,7 @@ types:
     volume: 5.0
   Tuvan's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -28.030000686645508
+    explosivedamageresistancebonus: -31.530000686645508
     hp: 40.0
     id: 15190
     marketGroup: 1667
@@ -3305,7 +3305,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15198
-    kineticdamageresistancebonus: -28.030000686645508
+    kineticdamageresistancebonus: -31.530000686645508
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -3322,11 +3322,11 @@ types:
     volume: 5.0
   Tuvan's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.09000015258789
-    explosivedamageresistancebonus: -19.09000015258789
+    emdamageresistancebonus: -21.479999542236328
+    explosivedamageresistancebonus: -21.479999542236328
     hp: 40.0
     id: 15166
-    kineticdamageresistancebonus: -19.09000015258789
+    kineticdamageresistancebonus: -21.479999542236328
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -3340,7 +3340,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -19.09000015258789
+    thermaldamageresistancebonus: -21.479999542236328
     volume: 5.0
   Tuvan's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -3359,11 +3359,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -28.030000686645508
+    thermaldamageresistancebonus: -31.530000686645508
     volume: 5.0
   Upgraded EM Coating I:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -20.770000457763672
+    emdamageresistancebonus: -23.3700008392334
     hp: 40.0
     id: 16329
     marketGroup: 1668
@@ -3381,7 +3381,7 @@ types:
     volume: 5.0
   Upgraded Explosive Coating I:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -20.770000457763672
+    explosivedamageresistancebonus: -23.3700008392334
     hp: 40.0
     id: 16321
     marketGroup: 1667
@@ -3401,7 +3401,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 16313
-    kineticdamageresistancebonus: -20.770000457763672
+    kineticdamageresistancebonus: -23.3700008392334
     marketGroup: 1666
     mass: 1.0
     metalevelold: 1
@@ -3434,11 +3434,11 @@ types:
     volume: 5.0
   Upgraded Multispectrum Coating I:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -10.815999984741211
-    explosivedamageresistancebonus: -10.815999984741211
+    emdamageresistancebonus: -12.170000076293945
+    explosivedamageresistancebonus: -12.170000076293945
     hp: 40.0
     id: 16305
-    kineticdamageresistancebonus: -10.815999984741211
+    kineticdamageresistancebonus: -12.170000076293945
     marketGroup: 1670
     mass: 1.0
     metalevelold: 1
@@ -3451,7 +3451,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -10.815999984741211
+    thermaldamageresistancebonus: -12.170000076293945
     volume: 5.0
   Upgraded Thermal Coating I:
     armorhpmultiplier: 1.0
@@ -3469,11 +3469,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -20.770000457763672
+    thermaldamageresistancebonus: -23.3700008392334
     volume: 5.0
   Vizan's Modified EM Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.049999237060547
+    emdamageresistancebonus: -33.810001373291016
     hp: 40.0
     id: 14912
     marketGroup: 1668
@@ -3492,7 +3492,7 @@ types:
     volume: 5.0
   Vizan's Modified Explosive Coating:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.049999237060547
+    explosivedamageresistancebonus: -33.810001373291016
     hp: 40.0
     id: 14896
     marketGroup: 1667
@@ -3513,7 +3513,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14880
-    kineticdamageresistancebonus: -30.049999237060547
+    kineticdamageresistancebonus: -33.810001373291016
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -3530,11 +3530,11 @@ types:
     volume: 5.0
   Vizan's Modified Multispectrum Coating:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.360000610351562
-    explosivedamageresistancebonus: -21.360000610351562
+    emdamageresistancebonus: -24.030000686645508
+    explosivedamageresistancebonus: -24.030000686645508
     hp: 40.0
     id: 14864
-    kineticdamageresistancebonus: -21.360000610351562
+    kineticdamageresistancebonus: -24.030000686645508
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -3548,7 +3548,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -21.360000610351562
+    thermaldamageresistancebonus: -24.030000686645508
     volume: 5.0
   Vizan's Modified Thermal Coating:
     armorhpmultiplier: 1.0
@@ -3567,5 +3567,5 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -30.049999237060547
+    thermaldamageresistancebonus: -33.810001373291016
     volume: 5.0

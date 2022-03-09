@@ -1,5 +1,5 @@
 types:
-  Compressed Magma Mercoxit:
+  Batch Compressed Magma Mercoxit:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
@@ -8,7 +8,7 @@ types:
     id: 28412
     marketGroup: 530
     mass: 1.0000000409184788E35
-    name: Compressed Magma Mercoxit
+    name: Batch Compressed Magma Mercoxit
     orebasictype: 11396
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -20,7 +20,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  Compressed Mercoxit:
+  Batch Compressed Mercoxit:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
@@ -29,7 +29,7 @@ types:
     id: 28413
     marketGroup: 530
     mass: 1.0000000409184788E35
-    name: Compressed Mercoxit
+    name: Batch Compressed Mercoxit
     orebasictype: 11396
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -41,7 +41,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  Compressed Vitreous Mercoxit:
+  Batch Compressed Vitreous Mercoxit:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
@@ -50,7 +50,7 @@ types:
     id: 28414
     marketGroup: 530
     mass: 1.0000000409184788E35
-    name: Compressed Vitreous Mercoxit
+    name: Batch Compressed Vitreous Mercoxit
     orebasictype: 11396
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -62,6 +62,69 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
+  'Compressed Magma Mercoxit ':
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
+    id: 62587
+    marketGroup: 530
+    mass: 1.0000000409184788E35
+    name: 'Compressed Magma Mercoxit '
+    orebasictype: 11396
+    packagedVolume: 0.4000000059604645
+    portionSize: 100
+    price: 3.6503552E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.4000000059604645
+  'Compressed Mercoxit ':
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
+    id: 62586
+    marketGroup: 530
+    mass: 1.0000000409184788E35
+    name: 'Compressed Mercoxit '
+    orebasictype: 11396
+    packagedVolume: 0.4000000059604645
+    portionSize: 100
+    price: 3.473408E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.4000000059604645
+  'Compressed Vitreous Mercoxit ':
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
+    id: 62588
+    marketGroup: 530
+    mass: 1.0000000409184788E35
+    name: 'Compressed Vitreous Mercoxit '
+    orebasictype: 11396
+    packagedVolume: 0.4000000059604645
+    portionSize: 100
+    price: 3.8207488E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.4000000059604645
   Magma Mercoxit:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896

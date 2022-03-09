@@ -19,6 +19,246 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 10.0
+  'Compressed Cobaltite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62474
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Cobaltite '
+    orebasictype: 45494
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Copious Cobaltite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62475
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Copious Cobaltite '
+    orebasictype: 45494
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Copious Euxenite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62472
+    marketGroup: 2397
+    mass: 4000.0
+    name: Compressed Copious Euxenite
+    orebasictype: 45495
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Copious Scheelite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62469
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Copious Scheelite '
+    orebasictype: 45497
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Copious Titanite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62478
+    marketGroup: 2397
+    mass: 4000.0
+    name: Compressed Copious Titanite
+    orebasictype: 45496
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Euxenite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62471
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Euxenite '
+    orebasictype: 45495
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Scheelite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62468
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Scheelite '
+    orebasictype: 45497
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Titanite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62477
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Titanite '
+    orebasictype: 45496
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Twinkling Cobaltite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62476
+    marketGroup: 2397
+    mass: 4000.0
+    name: Compressed Twinkling Cobaltite
+    orebasictype: 45494
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 4000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Twinkling Euxenite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62473
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Twinkling Euxenite '
+    orebasictype: 45495
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 4000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Twinkling Scheelite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62470
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Twinkling Scheelite '
+    orebasictype: 45497
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 4000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Twinkling Titanite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62479
+    marketGroup: 2397
+    mass: 4000.0
+    name: 'Compressed Twinkling Titanite '
+    orebasictype: 45496
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 4000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
   Copious Cobaltite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3

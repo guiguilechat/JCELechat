@@ -242,6 +242,7 @@ types:
     shipbonusgi2: 10.0
     shipbonusmi: 5
     signatureradius: 195.0
+    specialcommandcenterholdcapacity: 6000
     specialplanetarycommoditiesholdcapacity: 45000
     structureuniformity: 1.0
     techlevel: 1

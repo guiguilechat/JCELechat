@@ -6,7 +6,7 @@ types:
     aoefalloff: 1500
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 75.0
+    armorhp: 88.0
     armorkineticdamageresonance: 0.0020000000949949026
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
@@ -17,7 +17,7 @@ types:
     explosionrange: 15000
     hp: 20.0
     id: 27912
-    kineticdamage: 5200.0
+    kineticdamage: 5800.0
     launchergroup: 862
     marketGroup: 1015
     mass: 1000.0
@@ -41,13 +41,13 @@ types:
     aoefalloff: 1500
     armoremdamageresonance: 0.0020000000949949026
     armorexplosivedamageresonance: 1.0
-    armorhp: 75.0
+    armorhp: 88.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
-    emdamage: 5200.0
+    emdamage: 5800.0
     empfieldrange: 15000
     explosiondelay: 12000
     explosionrange: 15000
@@ -76,7 +76,7 @@ types:
     aoefalloff: 1500
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 75.0
+    armorhp: 88.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 0.0020000000949949026
     armoruniformity: 1.0
@@ -102,7 +102,7 @@ types:
     signatureradius: 400.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 5200.0
+    thermaldamage: 5800.0
     volume: 75.0
   Shrapnel Bomb:
     agility: 0.02753569185733795
@@ -111,7 +111,7 @@ types:
     aoefalloff: 1500
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 0.0020000000949949026
-    armorhp: 75.0
+    armorhp: 88.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
@@ -120,7 +120,7 @@ types:
     empfieldrange: 15000
     explosiondelay: 12000
     explosionrange: 15000
-    explosivedamage: 5200.0
+    explosivedamage: 5800.0
     hp: 20.0
     id: 27918
     launchergroup: 862

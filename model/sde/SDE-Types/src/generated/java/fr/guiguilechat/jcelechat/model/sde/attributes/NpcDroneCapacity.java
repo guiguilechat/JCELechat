@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * 
+ * This is the total number of Drones that the Entity has in it's cargo hold ready to be deployed. Once it has deployed this many drones, then it no longer has any more.
  */
 public class NpcDroneCapacity
     extends IntAttribute

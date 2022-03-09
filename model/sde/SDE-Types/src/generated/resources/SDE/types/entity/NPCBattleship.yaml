@@ -607,6 +607,8 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: ♦ Infested Dominix
+    npcdronebandwidth: 5
+    npcdronecapacity: 15
     optimalsigradius: 40000
     packagedVolume: 1010000.0
     portionSize: 1

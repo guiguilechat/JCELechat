@@ -1,5 +1,5 @@
 types:
-  Compressed Fiery Kernite:
+  Batch Compressed Fiery Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -7,7 +7,7 @@ types:
     id: 28409
     marketGroup: 523
     mass: 1.0000000409184788E35
-    name: Compressed Fiery Kernite
+    name: Batch Compressed Fiery Kernite
     orebasictype: 20
     packagedVolume: 0.1899999976158142
     portionSize: 1
@@ -19,7 +19,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
-  Compressed Kernite:
+  Batch Compressed Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -27,7 +27,7 @@ types:
     id: 28410
     marketGroup: 523
     mass: 1.0000000409184788E35
-    name: Compressed Kernite
+    name: Batch Compressed Kernite
     orebasictype: 20
     packagedVolume: 0.1899999976158142
     portionSize: 1
@@ -39,7 +39,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
-  Compressed Luminous Kernite:
+  Batch Compressed Luminous Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -47,7 +47,7 @@ types:
     id: 28411
     marketGroup: 523
     mass: 1.0000000409184788E35
-    name: Compressed Luminous Kernite
+    name: Batch Compressed Luminous Kernite
     orebasictype: 20
     packagedVolume: 0.1899999976158142
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
-  Compressed Resplendant Kernite:
+  Batch Compressed Resplendant Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -67,7 +67,7 @@ types:
     id: 46699
     marketGroup: 523
     mass: 1.0
-    name: Compressed Resplendant Kernite
+    name: Batch Compressed Resplendant Kernite
     orebasictype: 46683
     packagedVolume: 0.1899999976158142
     portionSize: 1
@@ -79,6 +79,86 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
+  'Compressed Fiery Kernite ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62538
+    marketGroup: 523
+    mass: 1.0000000409184788E35
+    name: 'Compressed Fiery Kernite '
+    orebasictype: 20
+    packagedVolume: 0.012000000104308128
+    portionSize: 100
+    price: 1236750.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.012000000104308128
+  'Compressed Kernite ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62536
+    marketGroup: 523
+    mass: 1.0000000409184788E35
+    name: 'Compressed Kernite '
+    orebasictype: 20
+    packagedVolume: 0.012000000104308128
+    portionSize: 100
+    price: 1123740.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.012000000104308128
+  'Compressed Luminous Kernite ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62537
+    marketGroup: 523
+    mass: 1.0000000409184788E35
+    name: 'Compressed Luminous Kernite '
+    orebasictype: 20
+    packagedVolume: 0.012000000104308128
+    portionSize: 100
+    price: 1179510.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.012000000104308128
+  'Compressed Resplendant Kernite ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62539
+    marketGroup: 523
+    mass: 1.0
+    name: 'Compressed Resplendant Kernite '
+    orebasictype: 46683
+    packagedVolume: 0.012000000104308128
+    portionSize: 100
+    price: 34200.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.012000000104308128
   Fiery Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3

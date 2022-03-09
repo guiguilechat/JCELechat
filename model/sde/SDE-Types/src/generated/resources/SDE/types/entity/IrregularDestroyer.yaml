@@ -275,7 +275,7 @@ types:
     thermaldamageresonance: 0.4690000116825104
     trackingspeed: 1000.0
     volume: 52000.0
-    warpspeedmultiplier: 30.0
+    warpspeedmultiplier: 25.0
   Carousing Talwar:
     agility: 0.800000011920929
     aitankingmodifierdrone: 0.699999988079071
@@ -353,7 +353,7 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 0.4690000116825104
     volume: 28100.0
-    warpspeedmultiplier: 30.0
+    warpspeedmultiplier: 25.0
   Colony Nest Guardian:
     agility: 0.10000000149011612
     aishoulduseeffectmultiplier: 1

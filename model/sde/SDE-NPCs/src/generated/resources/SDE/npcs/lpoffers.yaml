@@ -31215,44 +31215,40 @@ offers:
         quantity: 2010000
       - id: 34
         quantity: 6580000
-      lp: 20000
-  17186:
-    id: 17186
-    name: Shipboard Compression Technology
+      lp: 9000
+  17190:
+    id: 17190
+    name: Providence War Reserves Lieutenant SKIN
     product:
-      id: 62450
+      id: 62855
       quantity: 1
     requirements:
-      items:
-      - id: 62709
-        quantity: 200
-  17187:
-    id: 17187
-    name: Capital Shipboard Compression Technology
+      isk: 62500000
+      lp: 125000
+  17191:
+    id: 17191
+    name: Charon Military Stockpile Captain SKIN
     product:
-      id: 62451
+      id: 62856
       quantity: 1
     requirements:
-      items:
-      - id: 62709
-        quantity: 200
-  17188:
-    id: 17188
-    name: Gas Decompression Efficiency
+      isk: 62500000
+      lp: 125000
+  17192:
+    id: 17192
+    name: Obelisk Strategic Materiel Defender SKIN
     product:
-      id: 62452
+      id: 62857
       quantity: 1
     requirements:
-      items:
-      - id: 62709
-        quantity: 100
-  17189:
-    id: 17189
-    name: Fleet Compression Logistics
+      isk: 62500000
+      lp: 125000
+  17193:
+    id: 17193
+    name: Fenrir Fleet Ordnance Spike SKIN
     product:
-      id: 62453
+      id: 62858
       quantity: 1
     requirements:
-      items:
-      - id: 62709
-        quantity: 400
+      isk: 62500000
+      lp: 125000

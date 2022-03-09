@@ -62,9 +62,10 @@ types:
     signatureradius: 50000.0
     stasiswebifierresistance: 9.999999747378752E-6
     strreactiontimemultiplier: 1.0
-    strrefiningyieldbonus: 2
+    strrefiningyieldbonus: 2.0
     structuredamagelimit: 5000
     structurefullpowerstatehitpointmultiplier: 1
+    structuregasdecompressionefficiencybonus: 0.03999999910593033
     structurerequiresdeedtype: 56202
     structureservicerolebonus: -20
     tetheringrange: 10000
@@ -142,10 +143,11 @@ types:
     signatureradius: 100000.0
     stasiswebifierresistance: 9.999999747378752E-6
     strreactiontimemultiplier: 0.75
-    strrefiningyieldbonus: 4
+    strrefiningyieldbonus: 5.5
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structuregasdecompressionefficiencybonus: 0.10000000149011612
     structurerequiresdeedtype: 56205
     structureservicerolebonus: -25
     tetheringrange: 10000

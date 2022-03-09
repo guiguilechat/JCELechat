@@ -3,6 +3,7 @@ types:
     canfitshipgroup01: 1406
     cpu: 200.0
     disallowinhighsec: 1
+    gasdecompressionbaseefficiency: 0.800000011920929
     id: 45539
     marketGroup: 2233
     mass: 500.0
@@ -29,6 +30,7 @@ types:
     canfitshipgroup01: 1406
     cpu: 200.0
     disallowinhighsec: 1
+    gasdecompressionbaseefficiency: 0.800000011920929
     id: 45537
     marketGroup: 2233
     mass: 500.0
@@ -55,6 +57,7 @@ types:
     canfitshipgroup01: 1406
     cpu: 200.0
     disallowinhighsec: 1
+    gasdecompressionbaseefficiency: 0.800000011920929
     id: 45538
     marketGroup: 2233
     mass: 500.0
@@ -82,6 +85,7 @@ types:
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
     cpu: 200.0
+    gasdecompressionbaseefficiency: 0.800000011920929
     id: 35899
     marketGroup: 2233
     mass: 500.0

@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * 
+ * This is the total number of Drones controlled by this Entity that can be active in space at any given time.
  */
 public class NpcDroneBandwidth
     extends IntAttribute

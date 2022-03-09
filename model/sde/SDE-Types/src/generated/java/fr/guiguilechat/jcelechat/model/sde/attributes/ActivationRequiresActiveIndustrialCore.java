@@ -3,19 +3,22 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-public class ShipRoleBonusDroneOreMiningYield
+/**
+ * An effect can check this to indicate that module activation requires ship to have an active Industrial Core module.
+ */
+public class ActivationRequiresActiveIndustrialCore
     extends IntAttribute
 {
-    public static final ShipRoleBonusDroneOreMiningYield INSTANCE = new ShipRoleBonusDroneOreMiningYield();
+    public static final ActivationRequiresActiveIndustrialCore INSTANCE = new ActivationRequiresActiveIndustrialCore();
 
     @Override
     public int getId() {
-        return  3242;
+        return  3265;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override
@@ -30,11 +33,11 @@ public class ShipRoleBonusDroneOreMiningYield
 
     @Override
     public boolean getStackable() {
-        return true;
+        return false;
     }
 
     @Override
     public String toString() {
-        return "ShipRoleBonusDroneOreMiningYield";
+        return "ActivationRequiresActiveIndustrialCore";
     }
 }

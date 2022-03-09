@@ -324,7 +324,7 @@ types:
     stasiswebifierresistance: 9.999999747378752E-6
     strengcostbonus: 0.9800000190734863
     strengtimebonus: 0.8999999761581421
-    strrefiningyieldbonus: 1
+    strrefiningyieldbonus: 1.0
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
@@ -410,7 +410,7 @@ types:
     stasiswebifierresistance: 9.999999747378752E-6
     strengcostbonus: 1.0
     strengtimebonus: 1.0
-    strrefiningyieldbonus: 2
+    strrefiningyieldbonus: 2.0
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1

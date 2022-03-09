@@ -8,6 +8,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6375.0
     capacity: 740.0
     cpuoutput: 560
@@ -97,6 +100,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 7000.0
     capacity: 845.0
     cpuoutput: 540
@@ -185,6 +191,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6600.0
     capacity: 675.0
     cpuoutput: 550
@@ -274,6 +283,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 7000.0
     capacity: 790.0
     cpuoutput: 580
@@ -364,6 +376,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6200.0
     capacity: 750.0
     cpuoutput: 550
@@ -453,6 +468,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6640.0
     capacity: 600.0
     cpuoutput: 550
@@ -542,6 +560,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6000.0
     capacity: 875.0
     cpuoutput: 560
@@ -632,6 +653,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6100.0
     capacity: 830.0
     cpuoutput: 730
@@ -726,6 +750,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 7500.0
     capacity: 845.0
     cpuoutput: 588
@@ -819,6 +846,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6000.0
     capacity: 750.0
     cpuoutput: 600
@@ -908,6 +938,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5500.0
     capacity: 845.0
     cpuoutput: 660
@@ -999,6 +1032,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 7200.0
     capacity: 845.0
     cpuoutput: 600
@@ -1089,6 +1125,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6600.0
     capacity: 933.0
     cpuoutput: 625
@@ -1180,6 +1219,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5800.0
     capacity: 860.0
     cpuoutput: 600
@@ -1274,6 +1316,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6000.0
     capacity: 790.0
     cpuoutput: 640
@@ -1362,6 +1407,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6000.0
     capacity: 845.0
     cpuoutput: 600
@@ -1451,6 +1499,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6187.0
     capacity: 675.0
     cpuoutput: 600
@@ -1543,6 +1594,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6000.0
     capacity: 840.0
     cpuoutput: 630
@@ -1635,6 +1689,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 7000.0
     capacity: 875.0
     cpuoutput: 680
@@ -1734,6 +1791,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6950.0
     capacity: 830.0
     cpuoutput: 710
@@ -1920,6 +1980,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5350.0
     capacity: 815.0
     cpuoutput: 710
@@ -2014,6 +2077,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5500.0
     capacity: 830.0
     cpuoutput: 750
@@ -2104,6 +2170,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5900.0
     capacity: 800.0
     cpuoutput: 780
@@ -2195,6 +2264,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5250.0
     capacity: 665.0
     cpuoutput: 770
@@ -2287,6 +2359,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6000.0
     capacity: 820.0
     cpuoutput: 780
@@ -2376,6 +2451,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5500.0
     capacity: 690.0
     cpuoutput: 750
@@ -2465,6 +2543,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5500.0
     capacity: 815.0
     cpuoutput: 780
@@ -2556,6 +2637,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5400.0
     capacity: 780.0
     cpuoutput: 550
@@ -2645,6 +2729,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5500.0
     capacity: 815.0
     cpuoutput: 580
@@ -2736,6 +2823,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5843.0
     capacity: 600.0
     cpuoutput: 600
@@ -2827,6 +2917,9 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 7200.0
     capacity: 861.0
     cpuoutput: 880
@@ -2914,6 +3007,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5400.0
     capacity: 780.0
     cpuoutput: 640
@@ -3003,6 +3099,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 5800.0
     capacity: 750.0
     cpuoutput: 660
@@ -3094,6 +3193,9 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
     capacitorcapacity: 6330.0
     capacity: 850.0
     cpuoutput: 630

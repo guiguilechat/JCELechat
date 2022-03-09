@@ -77,6 +77,27 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  Medium Industrial Core I Blueprint:
+    id: 62592
+    industryblueprintrank: 180.0
+    marketGroup: 343
+    name: Medium Industrial Core I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium Industrial Core II Blueprint:
+    id: 62593
+    name: Medium Industrial Core II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.6E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
   Siege Module I Blueprint:
     id: 20281
     industryblueprintrank: 180.0

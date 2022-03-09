@@ -531,6 +531,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's 'Republic Valklear' Jacket:
+    gender: 2
+    id: 59178
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's 'Republic Valklear' Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Semiotique Superluminal' Jacket:
+    gender: 2
+    id: 63051
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's 'Semiotique Superluminal' Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Source' Coat (black):
     gender: 1
     id: 33803
@@ -558,6 +578,16 @@ types:
     marketGroup: 1399
     mass: 0.10000000149011612
     name: Men's 'Valkyrie' Flight Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's AIR Claim Surveyor Suit:
+    gender: 2
+    id: 62750
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's AIR Claim Surveyor Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1638,6 +1668,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's 'Republic Valklear' Jacket:
+    gender: 2
+    id: 59180
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's 'Republic Valklear' Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Rocket' Dress (black):
     gender: 3
     id: 33734
@@ -1874,6 +1914,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Semiotique Superluminal' Jacket:
+    gender: 2
+    id: 63052
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's 'Semiotique Superluminal' Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Source' Coat (silver):
     gender: 3
     id: 33804
@@ -2044,6 +2094,16 @@ types:
     marketGroup: 1405
     mass: 0.10000000149011612
     name: Women's 'Valkyrie' Flight Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's AIR Claim Surveyor Suit:
+    gender: 2
+    id: 63056
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's AIR Claim Surveyor Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

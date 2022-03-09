@@ -354,8 +354,8 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int industrialcorebonusminingburststrength;
+    @DefaultRealValue(0.0)
+    public double industrialcorebonusminingburststrength;
     /**
      * 
      */

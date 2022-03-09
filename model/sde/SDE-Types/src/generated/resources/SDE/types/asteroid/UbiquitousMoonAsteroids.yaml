@@ -119,6 +119,246 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 10.0
+  Compressed Bitumens:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62454
+    marketGroup: 2396
+    mass: 4000.0
+    name: Compressed Bitumens
+    orebasictype: 45492
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Brimful Bitumens:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62455
+    marketGroup: 2396
+    mass: 4000.0
+    name: Compressed Brimful Bitumens
+    orebasictype: 45492
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Brimful Coesite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62458
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Brimful Coesite '
+    orebasictype: 45493
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Brimful Sylvite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62461
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Brimful Sylvite '
+    orebasictype: 45491
+    packagedVolume: 10.0
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 10.0
+  'Compressed Brimful Zeolites ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62464
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Brimful Zeolites '
+    orebasictype: 45490
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Coesite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62457
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Coesite '
+    orebasictype: 45493
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Glistening Bitumens ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62456
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Glistening Bitumens '
+    orebasictype: 45492
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Glistening Coesite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62459
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Glistening Coesite '
+    orebasictype: 45493
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  Compressed Glistening Sylvite:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62466
+    marketGroup: 2396
+    mass: 4000.0
+    name: Compressed Glistening Sylvite
+    orebasictype: 45491
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Glistening Zeolites ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62467
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Glistening Zeolites '
+    orebasictype: 45490
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 3000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Sylvite ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62460
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Sylvite '
+    orebasictype: 45491
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  'Compressed Zeolites ':
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 600
+    id: 62463
+    marketGroup: 2396
+    mass: 4000.0
+    name: 'Compressed Zeolites '
+    orebasictype: 45490
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    price: 1500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
   Glistening Bitumens:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5

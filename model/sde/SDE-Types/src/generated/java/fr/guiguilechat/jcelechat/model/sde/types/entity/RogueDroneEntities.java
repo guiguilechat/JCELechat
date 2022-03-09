@@ -780,14 +780,14 @@ public class RogueDroneEntities
     @DefaultRealValue(0.0)
     public double npcbehaviormaximumcombatorbitrange;
     /**
-     * 
+     * This is the total number of Drones controlled by this Entity that can be active in space at any given time.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int npcdronebandwidth;
     /**
-     * 
+     * This is the total number of Drones that the Entity has in it's cargo hold ready to be deployed. Once it has deployed this many drones, then it no longer has any more.
      */
     @HighIsGood(true)
     @Stackable(true)

@@ -1,5 +1,5 @@
 types:
-  Compressed Crokite:
+  Batch Compressed Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -7,7 +7,7 @@ types:
     id: 28391
     marketGroup: 521
     mass: 1.0000000409184788E35
-    name: Compressed Crokite
+    name: Batch Compressed Crokite
     orebasictype: 1225
     packagedVolume: 7.809999942779541
     portionSize: 1
@@ -19,7 +19,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 7.809999942779541
-  Compressed Crystalline Crokite:
+  Batch Compressed Crystalline Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -27,7 +27,7 @@ types:
     id: 28392
     marketGroup: 521
     mass: 1.0000000409184788E35
-    name: Compressed Crystalline Crokite
+    name: Batch Compressed Crystalline Crokite
     orebasictype: 1225
     packagedVolume: 7.809999942779541
     portionSize: 1
@@ -39,7 +39,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 7.809999942779541
-  Compressed Pellucid Crokite:
+  Batch Compressed Pellucid Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -47,7 +47,7 @@ types:
     id: 46693
     marketGroup: 521
     mass: 1.0
-    name: Compressed Pellucid Crokite
+    name: Batch Compressed Pellucid Crokite
     orebasictype: 46677
     packagedVolume: 7.809999942779541
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 7.809999942779541
-  Compressed Sharp Crokite:
+  Batch Compressed Sharp Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -67,7 +67,7 @@ types:
     id: 28393
     marketGroup: 521
     mass: 1.0000000409184788E35
-    name: Compressed Sharp Crokite
+    name: Batch Compressed Sharp Crokite
     orebasictype: 1225
     packagedVolume: 7.809999942779541
     portionSize: 1
@@ -79,6 +79,86 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 7.809999942779541
+  Compressed Crokite:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62560
+    marketGroup: 521
+    mass: 1.0000000409184788E35
+    name: Compressed Crokite
+    orebasictype: 1225
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 7639790.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  'Compressed Crystalline Crokite ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62562
+    marketGroup: 521
+    mass: 1.0000000409184788E35
+    name: 'Compressed Crystalline Crokite '
+    orebasictype: 1225
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 8400440.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  'Compressed Pellucid Crokite ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62563
+    marketGroup: 521
+    mass: 1.0
+    name: 'Compressed Pellucid Crokite '
+    orebasictype: 46677
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 384500.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  Compressed Sharp Crokite:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62561
+    marketGroup: 521
+    mass: 1.0000000409184788E35
+    name: Compressed Sharp Crokite
+    orebasictype: 1225
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 8021400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
   Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1

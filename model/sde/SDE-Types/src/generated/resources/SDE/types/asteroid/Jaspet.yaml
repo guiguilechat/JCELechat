@@ -1,5 +1,5 @@
 types:
-  Compressed Immaculate Jaspet:
+  Batch Compressed Immaculate Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -7,7 +7,7 @@ types:
     id: 46698
     marketGroup: 529
     mass: 1.0
-    name: Compressed Immaculate Jaspet
+    name: Batch Compressed Immaculate Jaspet
     orebasictype: 46682
     packagedVolume: 0.15000000596046448
     portionSize: 1
@@ -19,7 +19,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
-  Compressed Jaspet:
+  Batch Compressed Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -27,7 +27,7 @@ types:
     id: 28406
     marketGroup: 529
     mass: 1.0000000409184788E35
-    name: Compressed Jaspet
+    name: Batch Compressed Jaspet
     orebasictype: 1226
     packagedVolume: 0.15000000596046448
     portionSize: 1
@@ -39,7 +39,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
-  Compressed Pristine Jaspet:
+  Batch Compressed Pristine Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -47,7 +47,7 @@ types:
     id: 28407
     marketGroup: 529
     mass: 1.0000000409184788E35
-    name: Compressed Pristine Jaspet
+    name: Batch Compressed Pristine Jaspet
     orebasictype: 1226
     packagedVolume: 0.15000000596046448
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
-  Compressed Pure Jaspet:
+  Batch Compressed Pure Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -67,7 +67,7 @@ types:
     id: 28408
     marketGroup: 529
     mass: 1.0000000409184788E35
-    name: Compressed Pure Jaspet
+    name: Batch Compressed Pure Jaspet
     orebasictype: 1226
     packagedVolume: 0.15000000596046448
     portionSize: 1
@@ -79,6 +79,86 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
+  'Compressed Immaculate Jaspet ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62543
+    marketGroup: 529
+    mass: 1.0
+    name: 'Compressed Immaculate Jaspet '
+    orebasictype: 46682
+    packagedVolume: 0.019999999552965164
+    portionSize: 100
+    price: 48300.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.019999999552965164
+  Compressed Jaspet:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62540
+    marketGroup: 529
+    mass: 1.0000000409184788E35
+    name: Compressed Jaspet
+    orebasictype: 1226
+    packagedVolume: 0.019999999552965164
+    portionSize: 100
+    price: 2522370.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.019999999552965164
+  'Compressed Pristine Jaspet ':
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62542
+    marketGroup: 529
+    mass: 1.0000000409184788E35
+    name: 'Compressed Pristine Jaspet '
+    orebasictype: 1226
+    packagedVolume: 0.019999999552965164
+    portionSize: 100
+    price: 2781630.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.019999999552965164
+  Compressed Pure Jaspet:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62541
+    marketGroup: 529
+    mass: 1.0000000409184788E35
+    name: Compressed Pure Jaspet
+    orebasictype: 1226
+    packagedVolume: 0.019999999552965164
+    portionSize: 100
+    price: 2636640.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.019999999552965164
   Immaculate Jaspet:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4

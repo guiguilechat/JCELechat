@@ -92,7 +92,7 @@ types:
     shipbonusics3: 1
     shipmaintenancebaycapacity: 400000
     signatureradius: 1000.0
-    specialfuelbaycapacity: 5000
+    specialfuelbaycapacity: 6400
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -142,9 +142,10 @@ types:
     id: 42244
     industrialcommandbonusdronedamage: 10
     industrialcommandbonusdronehitpoints: 10
-    industrialcommandbonusdroneiceharvestingcycletime: -10
+    industrialcommandbonusdroneiceharvestingcycletime: -5
     industrialcommandbonusdroneoreminingyield: 10
     industrialcommandbonusgeneralminingholdcapacity: 5
+    industrialcommandbonusminingforemanburstrange: 5
     industrialcommandbonusshipcargocapacity: 5
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
@@ -192,8 +193,8 @@ types:
     shipbonusics1: 5
     shipbonusics2: 2
     shipbonusics5: -10
-    shiprolebonusdroneoreminingyield: 50
     signatureradius: 300.0
+    specialfuelbaycapacity: 4800
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005

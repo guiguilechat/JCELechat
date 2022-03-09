@@ -19,6 +19,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudChanceReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GasDecompressionEfficiencyBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IceHarvestCycleBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsSkillIObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
@@ -43,6 +44,10 @@ import org.yaml.snakeyaml.Yaml;
 public class ResourceProcessing
     extends Skill
 {
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int gasdecompressionefficiencybonus;
     /**
      * Bonus to chance of opening a container (for skills).
      */
@@ -149,12 +154,16 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill3level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReactionTimeBonus.INSTANCE, ReactionSlotBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, IceHarvestCycleBonus.INSTANCE, IsSkillIObsolete.INSTANCE, MiningAmountBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, RefiningYieldMutator.INSTANCE, DamageCloudChanceReduction.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReactionTimeBonus.INSTANCE, ReactionSlotBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, IceHarvestCycleBonus.INSTANCE, IsSkillIObsolete.INSTANCE, MiningAmountBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, RefiningYieldMutator.INSTANCE, GasDecompressionEfficiencyBonus.INSTANCE, DamageCloudChanceReduction.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
     public static final ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  3260 :
+            {
+                return gasdecompressionefficiencybonus;
+            }
             case  1772 :
             {
                 return accessdifficultybonusabsolutepercent;
