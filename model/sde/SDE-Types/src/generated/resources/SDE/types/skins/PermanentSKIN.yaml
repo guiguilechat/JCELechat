@@ -2641,6 +2641,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Atron Versus Blueforce SKIN:
+    id: 63144
+    name: Atron Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Atron Zakura Hansei SKIN:
     id: 57181
     marketGroup: 2004
@@ -6699,6 +6706,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Condor Versus Redforce SKIN:
+    id: 63141
+    name: Condor Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Condor Wiyrkomi SKIN:
     id: 36327
     name: Condor Wiyrkomi SKIN
@@ -10685,6 +10699,13 @@ types:
     id: 37485
     marketGroup: 2002
     name: Executioner Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Executioner Versus Blueforce SKIN:
+    id: 63143
+    name: Executioner Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28988,6 +29009,13 @@ types:
     id: 36755
     marketGroup: 2005
     name: Slasher Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Slasher Versus Redforce SKIN:
+    id: 63142
+    name: Slasher Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

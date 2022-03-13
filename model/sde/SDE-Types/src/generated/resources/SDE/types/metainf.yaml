@@ -40023,8 +40023,8 @@ id2name:
   62255: Biomechanoid Saucer Wreck
   62273: 1v1 Battleships Proving Filament
   62274: Venture FFA Proving Filament
-  62275: 2v2 T1 Frigates Proving Flament
-  62276: Event 53 Proving Filament
+  62275: 2v2 T1 Frigates Proving Filament
+  62276: Cruiser Mystery FFA Proving Filament
   62277: Event 54 Proving Filament
   62278: Event 55 Proving Filament
   62279: Event 56 Proving Filament
@@ -40334,6 +40334,13 @@ id2name:
   63056: Women's AIR Claim Surveyor Suit
   63058: 'Men''s ''Semiotique Superluminal'' Shades '
   63061: 'Women''s ''Semiotique Superluminal'' Shades '
+  63097: Retriever Bundle
+  63125: Proving Venture Bonus (Do not translate)
+  63141: Condor Versus Redforce SKIN
+  63142: Slasher Versus Redforce SKIN
+  63143: Executioner Versus Blueforce SKIN
+  63144: Atron Versus Blueforce SKIN
+  63145: Frigate Frenzy Expert System
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -44155,7 +44162,7 @@ name2group:
   280mm Howitzer Artillery II Blueprint: blueprint/ProjectileWeaponBlueprint
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  2v2 T1 Frigates Proving Flament: commodity/AbyssalProvingFilaments
+  2v2 T1 Frigates Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
   30km Amarr Capture Point: entity/CapturePoint
@@ -46038,6 +46045,7 @@ name2group:
   Atron Serpentis SKIN: skins/PermanentSKIN
   Atron Spirit SKIN: skins/PermanentSKIN
   Atron Valimor Legacy SKIN: skins/PermanentSKIN
+  Atron Versus Blueforce SKIN: skins/PermanentSKIN
   Atron Zakura Hansei SKIN: skins/PermanentSKIN
   Attacker Marshal Disparu Troop: entity/AbyssalSpaceshipEntities
   Attacker Pacifier Disparu Troop: entity/AbyssalSpaceshipEntities
@@ -49622,6 +49630,7 @@ name2group:
   Condor Matigu Seabeast SKIN: skins/PermanentSKIN
   Condor Raata Sunset SKIN: skins/PermanentSKIN
   Condor Steel Cardinal SKIN: skins/PermanentSKIN
+  Condor Versus Redforce SKIN: skins/PermanentSKIN
   Condor Wiyrkomi SKIN: skins/PermanentSKIN
   Condor Zakura Hansei SKIN: skins/PermanentSKIN
   Condor Zento Isideko Combine SKIN: skins/PermanentSKIN
@@ -50396,6 +50405,7 @@ name2group:
   Cruise Missiles: skill/Missiles
   Cruiser: entity/DeadspaceRogueDroneCruiser
   Cruiser Elite: entity/DeadspaceRogueDroneCruiser
+  Cruiser Mystery FFA Proving Filament: commodity/AbyssalProvingFilaments
   Crunch Fuel: specialeditionassets/SpecialEditionCommodities
   Cruor: ship/Frigate
   Cruor Blueprint: blueprint/FrigateBlueprint
@@ -52900,7 +52910,6 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 53 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -52954,6 +52963,7 @@ name2group:
   Executioner Oasis of Faith SKIN: skins/PermanentSKIN
   Executioner Purity of the Throne SKIN: skins/PermanentSKIN
   Executioner Raata Sunset SKIN: skins/PermanentSKIN
+  Executioner Versus Blueforce SKIN: skins/PermanentSKIN
   Executioner Zakura Hansei SKIN: skins/PermanentSKIN
   Executive State Navy Basilisk: entity/EDENCOMEntities
   Executive State Navy Cerberus: entity/EDENCOMEntities
@@ -53850,6 +53860,7 @@ name2group:
   Frequency Modulation: skill/ElectronicSystems
   Fried Interface Circuit: material/SalvagedMaterials
   Frigate: entity/DeadspaceRogueDroneFrigate
+  Frigate Frenzy Expert System: expertsystems/PromotionalExpertSystems
   Frigoris Restrained Ice Harvester Upgrade: module/MiningUpgrade
   Frontier Safeguarder Encore Crate: specialeditionassets/SpecialEditionCommodities
   Frontier Safeguarder Force Auxiliary SKIN Crate: specialeditionassets/SpecialEditionCommodities
@@ -64747,6 +64758,7 @@ name2group:
   Retriever Aspirant Industrialist SKIN: skins/PermanentSKIN
   Retriever Blood Raider Industrial Livery SKIN: skins/PermanentSKIN
   Retriever Blueprint: blueprint/MiningBargeBlueprint
+  Retriever Bundle: specialeditionassets/SpecialEditionCommodities
   Retriever Caldari Industrial Livery SKIN: skins/PermanentSKIN
   Retriever Caldari Industrial Livery Serenity Only SKIN: skins/PermanentSKIN
   Retriever Caldari Industrial Livery Serenity Only SKIN (30 Days): skins/Max30DaySKIN
@@ -66935,6 +66947,7 @@ name2group:
   Slasher Snowline Bladeracer SKIN: skins/PermanentSKIN
   Slasher Tronhadar Ink SKIN: skins/PermanentSKIN
   Slasher Valklear Glory SKIN: skins/PermanentSKIN
+  Slasher Versus Redforce SKIN: skins/PermanentSKIN
   Slasher Zakura Hansei SKIN: skins/PermanentSKIN
   Slave 32152: entity/IncursionSanshaSNationBattleship
   Slave Ation09: entity/DeadspaceOverseerCruiser

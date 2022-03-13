@@ -1,8 +1,8 @@
 types:
-  2v2 T1 Frigates Proving Flament:
+  2v2 T1 Frigates Proving Filament:
     id: 62275
     marketGroup: 2747
-    name: 2v2 T1 Frigates Proving Flament
+    name: 2v2 T1 Frigates Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
@@ -17,10 +17,10 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Event 53 Proving Filament:
+  Cruiser Mystery FFA Proving Filament:
     id: 62276
     marketGroup: 2747
-    name: Event 53 Proving Filament
+    name: Cruiser Mystery FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

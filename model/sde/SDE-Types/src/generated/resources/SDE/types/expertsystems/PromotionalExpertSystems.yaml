@@ -23,6 +23,14 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Frigate Frenzy Expert System:
+    id: 63145
+    mass: 1.0
+    name: Frigate Frenzy Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Gallente Federation Day Expert System:
     id: 59404
     mass: 1.0

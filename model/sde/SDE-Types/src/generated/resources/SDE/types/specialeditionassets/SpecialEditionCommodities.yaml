@@ -2725,6 +2725,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Retriever Bundle:
+    cpumultiplier: 1.0
+    id: 63097
+    marketGroup: 1661
+    name: Retriever Bundle
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
   Rooks & Kings - The Clarion Call Compilation:
     cpumultiplier: 1.0
     id: 34422
