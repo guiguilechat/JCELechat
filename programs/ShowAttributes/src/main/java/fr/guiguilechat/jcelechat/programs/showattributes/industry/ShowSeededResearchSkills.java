@@ -11,17 +11,35 @@ import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 
-public class ShowManufactureSkills {
+/**
+ * Make a skill requirement list for researching seeded BPOs (material r
+ *
+ * @author
+ *
+ */
+public class ShowSeededResearchSkills {
 
 	public static void main(String[] args) {
 		Map<String, Integer> skillReq = new HashMap<>();
+		// hardcoded 3 skills that reduce the time
+		// skillReq.put("Metallurgy", 5);
+		// skillReq.put("Research", 5);
+		// skillReq.put("Advanced Industry", 5);
 		for (Blueprint bp : Blueprint.load().values()) {
-			if (bp.manufacturing == null || bp.manufacturing.skills.isEmpty()) {
+			if (!bp.seeded) {
 				continue;
 			}
-			for (Entry<TypeRef<Skill>, Integer> e : bp.manufacturing.skills.entrySet()) {
-				String name = e.getKey().name();
-				skillReq.put(name, Math.max(skillReq.getOrDefault(name, 0), e.getValue()));
+			if (bp.research_material != null) {
+				for (Entry<TypeRef<Skill>, Integer> e : bp.research_material.skills.entrySet()) {
+					String name = e.getKey().name();
+					skillReq.put(name, Math.max(skillReq.getOrDefault(name, 0), e.getValue()));
+				}
+			}
+			if (bp.research_time != null) {
+				for (Entry<TypeRef<Skill>, Integer> e : bp.research_time.skills.entrySet()) {
+					String name = e.getKey().name();
+					skillReq.put(name, Math.max(skillReq.getOrDefault(name, 0), e.getValue()));
+				}
 			}
 		}
 
@@ -30,6 +48,7 @@ public class ShowManufactureSkills {
 		for (Entry<String, Integer> e : sorting) {
 			System.out.println(e.getKey() + " " + e.getValue());
 		}
+
 	}
 
 }
