@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Skill;
  * @author
  *
  */
-public class ShowInventionSkills {
+public class ShowInventionSkillsAll {
 
 	public static void main(String[] args) {
 		Map<String, Double> skillScore = new HashMap<>();

@@ -8,8 +8,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.EveType;
-import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -38,6 +36,12 @@ public class SkillUtils {
 		return (long) Math.ceil(250.0 * sk.skilltimeconstant * Math.pow(Math.sqrt(32), level - 1));
 	}
 
+	/**
+	 *
+	 * @param sk
+	 * @param level
+	 * @return the amount of SP required specifically to train that level.
+	 */
 	public static long levelSP(Skill sk, int level) {
 		return totalSP(sk, level) - totalSP(sk, level - 1);
 	}
@@ -84,13 +88,8 @@ public class SkillUtils {
 		for (Entry<Attribute, Attribute> e : requiredToLevel().entrySet()) {
 			Number skillId = sk.valueSet(e.getKey());
 			if (skillId != null && skillId.intValue()!=0) {
-				System.err.println(
-						"get skill for id " + skillId + " required for skill " + sk + " as defined by attribute " + e.getKey());
-				EveType type = TypeIndex.getType(skillId.intValue());
-				if (!(type instanceof Skill)) {
-					System.err.println("received type " + type + " for skill id " + skillId);
-				}
-				Skill required = (Skill) TypeIndex.getType(skillId.intValue());
+				Skill required = Skill.METACAT.load().values().stream().filter(mb -> mb.id == skillId.intValue()).findFirst()
+						.get();
 				int level = sk.valueSet(e.getValue()).intValue();
 				Integer old = requirements.put(required, Math.max(level, requirements.getOrDefault(required, 0)));
 				if (old == null || old != level) {

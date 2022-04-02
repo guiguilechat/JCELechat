@@ -11,18 +11,24 @@ import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
+import fr.guiguilechat.jcelechat.utils.SkillUtils;
 
-public class ShowSeededManufactureSkills {
+/**
+ * 
+ * @author 
+ *
+ */
+public class ShowManufSkillsSeeded {
 
 	public static void main(String[] args) {
-		Map<String, Integer> skillReq = new HashMap<>();
+		Map<Skill, Integer> skillReq = new HashMap<>();
 		for (Blueprint bp : Blueprint.load().values()) {
 			if (!bp.seeded || bp.manufacturing == null || bp.manufacturing.skills.isEmpty()) {
 				continue;
 			}
 			for (Entry<TypeRef<Skill>, Integer> e : bp.manufacturing.skills.entrySet()) {
-				String name = e.getKey().name();
-				skillReq.put(name, Math.max(skillReq.getOrDefault(name, 0), e.getValue()));
+				Skill skill = e.getKey().type();
+				skillReq.put(skill, Math.max(skillReq.getOrDefault(skill, 0), e.getValue()));
 			}
 			if (bp.invention != null) {
 				for (MaterialProd<?> product : bp.invention.products) {
@@ -31,18 +37,19 @@ public class ShowSeededManufactureSkills {
 						continue;
 					}
 					for (Entry<TypeRef<Skill>, Integer> e : invented.manufacturing.skills.entrySet()) {
-						String name = e.getKey().name();
-						skillReq.put(name, Math.max(skillReq.getOrDefault(name, 0), e.getValue()));
+						Skill skill = e.getKey().type();
+						skillReq.put(skill, Math.max(skillReq.getOrDefault(skill, 0), e.getValue()));
 					}
 
 				}
 			}
 		}
 
-		ArrayList<Entry<String, Integer>> sorting = new ArrayList<>(skillReq.entrySet());
-		Collections.sort(sorting, Comparator.comparing(Entry::getValue));
-		for (Entry<String, Integer> e : sorting) {
-			System.out.println(e.getKey() + " " + e.getValue());
+		ArrayList<Entry<Skill, Integer>> sorting = new ArrayList<>(skillReq.entrySet());
+		Collections.sort(sorting,
+				Comparator.comparing(e -> SkillUtils.totalSP(e.getKey(), e.getValue()) + SkillUtils.totalSPInject(e.getKey())));
+		for (Entry<Skill, Integer> e : sorting) {
+			System.out.println(e.getKey().name + " " + e.getValue());
 		}
 	}
 
