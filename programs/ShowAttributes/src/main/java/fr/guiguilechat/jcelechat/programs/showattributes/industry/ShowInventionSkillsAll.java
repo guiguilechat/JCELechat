@@ -34,10 +34,6 @@ public class ShowInventionSkillsAll {
 		ArrayList<Entry<String, Double>> sorting = new ArrayList<>(skillScore.entrySet());
 		Collections.sort(sorting, Comparator.comparing(Entry::getValue));
 		Collections.reverse(sorting);
-		for (Entry<String, Double> e : sorting) {
-			// System.out.println(e.getKey() + " : " + e.getValue());
-		}
-		System.out.println();
 		StringBuilder sb = new StringBuilder();
 		for (Entry<String, Double> e : sorting) {
 			sb.append(e.getKey()).append(" 5").append("\n");
