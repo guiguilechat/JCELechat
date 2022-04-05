@@ -166,11 +166,11 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Amarr Industrial:
+  Amarr Hauler:
     cannotbetrainedontrial: 1
     id: 3343
     marketGroup: 377
-    name: Amarr Industrial
+    name: Amarr Hauler
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
@@ -424,11 +424,11 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Caldari Industrial:
+  Caldari Hauler:
     cannotbetrainedontrial: 1
     id: 3342
     marketGroup: 377
-    name: Caldari Industrial
+    name: Caldari Hauler
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
@@ -867,11 +867,11 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Gallente Industrial:
+  Gallente Hauler:
     cannotbetrainedontrial: 1
     id: 3340
     marketGroup: 377
-    name: Gallente Industrial
+    name: Gallente Hauler
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
@@ -1299,11 +1299,11 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Minmatar Industrial:
+  Minmatar Hauler:
     cannotbetrainedontrial: 1
     id: 3341
     marketGroup: 377
-    name: Minmatar Industrial
+    name: Minmatar Hauler
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
@@ -1387,11 +1387,11 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 9.0
     volume: 0.009999999776482582
-  ORE Industrial:
+  ORE Hauler:
     cannotbetrainedontrial: 1
     id: 3184
     marketGroup: 377
-    name: ORE Industrial
+    name: ORE Hauler
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0

@@ -370,6 +370,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's Ace of Podhunters Boots:
+    gender: 2
+    id: 63113
+    marketGroup: 1400
+    mass: 0.5
+    name: Men's Ace of Podhunters Boots
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Federation Stargate Crew Shoes:
     gender: 2
     id: 58827
@@ -974,6 +984,16 @@ types:
     marketGroup: 1404
     mass: 0.5
     name: Women's 'Semiotique Sports' Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Ace of Podhunters Boots:
+    gender: 2
+    id: 63123
+    marketGroup: 1404
+    mass: 0.5
+    name: Women's Ace of Podhunters Boots
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

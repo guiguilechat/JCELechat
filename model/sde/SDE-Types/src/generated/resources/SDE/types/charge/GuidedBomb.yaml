@@ -7,9 +7,9 @@ types:
     aoevelocity: 100
     detonationrange: 35
     emdamage: 2400.0
-    empfieldrange: 30000
+    empfieldrange: 20000
     explosiondelay: 400000
-    explosionrange: 30000
+    explosionrange: 20000
     explosivedamage: 2400.0
     hp: 4000000.0
     id: 37849
@@ -36,9 +36,9 @@ types:
     aoevelocity: 100
     detonationrange: 35
     emdamage: 700.0
-    empfieldrange: 30000
+    empfieldrange: 20000
     explosiondelay: 400000
-    explosionrange: 30000
+    explosionrange: 20000
     explosivedamage: 700.0
     hp: 4000000.0
     id: 37850

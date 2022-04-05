@@ -1,9 +1,12 @@
 types:
   Standup Guided Bomb Launcher I:
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    capacity: 1000.0
+    canfitshiptype1: 35833
+    canfitshiptype2: 35834
+    canfitshiptype3: 40340
+    canfitshiptype4: 35836
+    canfitshiptype5: 35826
+    canfitshiptype6: 35827
+    capacity: 300.0
     chargegroup1: 1548
     chargerate: 1
     cpu: 3000.0
@@ -22,17 +25,20 @@ types:
     power: 275000
     published: true
     radius: 1.0
-    reloadtime: 10000.0
+    reloadtime: 60000.0
     slots: 1
     speed: 60000.0
     structureitemvisualflag: 1
     techlevel: 1
     volume: 8000.0
   Standup Guided Bomb Launcher II:
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    capacity: 1300.0
+    canfitshiptype1: 35833
+    canfitshiptype2: 35834
+    canfitshiptype3: 40340
+    canfitshiptype4: 35836
+    canfitshiptype5: 35826
+    canfitshiptype6: 35827
+    capacity: 400.0
     chargegroup1: 1548
     chargerate: 1
     cpu: 3600.0
@@ -52,7 +58,7 @@ types:
     power: 330000
     published: true
     radius: 1.0
-    reloadtime: 10000.0
+    reloadtime: 60000.0
     slots: 1
     speed: 48000.0
     structureitemvisualflag: 1

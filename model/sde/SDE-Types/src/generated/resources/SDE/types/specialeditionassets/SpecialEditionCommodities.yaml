@@ -1758,6 +1758,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hunt Booster Crate:
+    cpumultiplier: 1.0
+    id: 63677
+    name: Hunt Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   IGC Garment Keeper:
     cpumultiplier: 1.0
     id: 46151

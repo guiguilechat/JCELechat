@@ -31,6 +31,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Abaddon Capsuleer Elite XIX SKIN:
+    id: 63684
+    marketGroup: 1964
+    name: Abaddon Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Cold Iron SKIN:
     id: 42784
     marketGroup: 1964
@@ -74,6 +82,13 @@ types:
     id: 46802
     marketGroup: 1964
     name: Abaddon Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Abaddon Halcyon Dawn SKIN:
+    id: 63359
+    name: Abaddon Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -266,6 +281,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Absolution Halcyon Dawn SKIN:
+    id: 63397
+    name: Absolution Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Absolution Imperial Jubilee SKIN:
     id: 48852
     marketGroup: 2104
@@ -365,6 +387,13 @@ types:
     id: 46811
     marketGroup: 1974
     name: Aeon Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Aeon Halcyon Dawn SKIN:
+    id: 63364
+    name: Aeon Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -519,6 +548,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Algos Halcyon Dawn SKIN:
+    id: 63476
+    name: Algos Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Algos Inner Zone Vanguard SKIN:
     id: 52722
     marketGroup: 1996
@@ -661,9 +697,23 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Amarr Shuttle Halcyon Dawn SKIN:
+    id: 63380
+    name: Amarr Shuttle Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Amarr Shuttle Khanid SKIN:
     id: 55948
     name: Amarr Shuttle Khanid SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Amarr Shuttle Purity of the Throne SKIN:
+    id: 42542
+    name: Amarr Shuttle Purity of the Throne SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -727,6 +777,13 @@ types:
     id: 46776
     marketGroup: 2051
     name: Anathema Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Anathema Halcyon Dawn SKIN:
+    id: 63390
+    name: Anathema Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -805,6 +862,13 @@ types:
     id: 46975
     marketGroup: 2097
     name: Anshar Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Anshar Halcyon Dawn SKIN:
+    id: 63518
+    name: Anshar Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -951,6 +1015,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Apocalypse Halcyon Dawn SKIN:
+    id: 63360
+    name: Apocalypse Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Apocalypse IGC Victory SKIN:
     id: 44280
     marketGroup: 1964
@@ -1071,6 +1142,13 @@ types:
     id: 46807
     marketGroup: 2108
     name: Apocalypse Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apocalypse Navy Issue Halcyon Dawn SKIN:
+    id: 63408
+    name: Apocalypse Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1257,6 +1335,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Apostle Halcyon Dawn SKIN:
+    id: 63369
+    name: Apostle Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Apostle Headhunter SKIN:
     id: 49421
     marketGroup: 2278
@@ -1431,6 +1516,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Arazu Halcyon Dawn SKIN:
+    id: 63512
+    name: Arazu Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Arazu Inner Zone Vanguard SKIN:
     id: 52735
     marketGroup: 2083
@@ -1556,6 +1648,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Arbitrator Halcyon Dawn SKIN:
+    id: 63375
+    name: Arbitrator Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Arbitrator Imperial Navy SKIN:
     id: 58899
     marketGroup: 1990
@@ -1671,6 +1770,13 @@ types:
     id: 46810
     marketGroup: 1974
     name: Archon Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Archon Halcyon Dawn SKIN:
+    id: 63365
+    name: Archon Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1793,8 +1899,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ares Halcyon Dawn SKIN:
+    id: 63523
+    name: Ares Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ares Hunter's Quiver SKIN:
     id: 57536
+    marketGroup: 1954
     name: Ares Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1892,6 +2006,13 @@ types:
     id: 46818
     marketGroup: 2095
     name: Ark Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ark Halcyon Dawn SKIN:
+    id: 63400
+    name: Ark Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2021,6 +2142,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Armageddon Halcyon Dawn SKIN:
+    id: 63366
+    name: Armageddon Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Armageddon Hunter's Quiver SKIN:
     id: 47493
     marketGroup: 1964
@@ -2124,8 +2252,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Armageddon Navy Issue Halcyon Dawn SKIN:
+    id: 63407
+    name: Armageddon Navy Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Armageddon Navy Issue Hunter's Quiver SKIN:
     id: 57776
+    marketGroup: 1954
     name: Armageddon Navy Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -2322,6 +2458,13 @@ types:
     id: 46954
     marketGroup: 2106
     name: Astarte Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Astarte Halcyon Dawn SKIN:
+    id: 63505
+    name: Astarte Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2539,6 +2682,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Atron Carmine Horizon SKIN:
+    id: 63346
+    name: Atron Carmine Horizon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Atron Exoplanets Hunter SKIN:
     id: 45871
     marketGroup: 2004
@@ -2551,6 +2701,13 @@ types:
     id: 44174
     marketGroup: 2004
     name: Atron Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Atron Halcyon Dawn SKIN:
+    id: 63496
+    name: Atron Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2732,6 +2889,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Augoror Halcyon Dawn SKIN:
+    id: 63378
+    name: Augoror Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Augoror Ironblood SKIN:
     id: 43501
     marketGroup: 1990
@@ -2798,6 +2962,13 @@ types:
     id: 46794
     marketGroup: 2063
     name: Augoror Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Augoror Navy Issue Halcyon Dawn SKIN:
+    id: 63405
+    name: Augoror Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2957,6 +3128,13 @@ types:
     id: 46812
     marketGroup: 1978
     name: Avatar Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Avatar Halcyon Dawn SKIN:
+    id: 63362
+    name: Avatar Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3127,6 +3305,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Badger Halcyon Dawn SKIN:
+    id: 63415
+    name: Badger Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Badger Matigu Seabeast SKIN:
     id: 40621
     marketGroup: 2008
@@ -3169,6 +3354,13 @@ types:
     id: 53200
     marketGroup: 2008
     name: Badger Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bantam Abyssal Glory SKIN:
+    id: 63182
+    name: Bantam Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3233,6 +3425,13 @@ types:
     id: 40770
     marketGroup: 2003
     name: Bantam Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bantam Halcyon Dawn SKIN:
+    id: 63432
+    name: Bantam Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3427,6 +3626,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Basilisk Halcyon Dawn SKIN:
+    id: 63449
+    name: Basilisk Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Basilisk Kybernaut Clade SKIN:
     id: 54917
     marketGroup: 2078
@@ -3526,6 +3732,13 @@ types:
     id: 44170
     marketGroup: 1993
     name: Bellicose Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bellicose Halcyon Dawn SKIN:
+    id: 63535
+    name: Bellicose Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3635,6 +3848,13 @@ types:
     id: 46813
     marketGroup: 2007
     name: Bestower Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bestower Halcyon Dawn SKIN:
+    id: 63361
+    name: Bestower Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3764,10 +3984,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bifrost Halcyon Dawn SKIN:
+    id: 63583
+    name: Bifrost Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bifrost Hazard Control SKIN:
     id: 56900
     marketGroup: 2145
     name: Bifrost Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bifrost Hunter's Quiver SKIN:
+    id: 63176
+    name: Bifrost Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3863,6 +4097,13 @@ types:
     id: 54559
     marketGroup: 1991
     name: Blackbird Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Blackbird Halcyon Dawn SKIN:
+    id: 63414
+    name: Blackbird Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4109,6 +4350,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Breacher Halcyon Dawn SKIN:
+    id: 63537
+    name: Breacher Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Breacher Hazard Control SKIN:
     id: 56917
     marketGroup: 2005
@@ -4270,6 +4518,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Broadsword Halcyon Dawn SKIN:
+    id: 63580
+    name: Broadsword Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Broadsword Hazard Control SKIN:
     id: 56896
     marketGroup: 2076
@@ -4382,6 +4637,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Halcyon Dawn SKIN:
+    id: 63481
+    name: Brutix Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix IGC SKIN:
     id: 48558
     marketGroup: 1958
@@ -4472,6 +4734,13 @@ types:
     id: 46956
     marketGroup: 2103
     name: Brutix Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Brutix Navy Issue Halcyon Dawn SKIN:
+    id: 63530
+    name: Brutix Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4610,6 +4879,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Burst Abyssal Glory SKIN:
+    id: 63186
+    name: Burst Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Burst Biosecurity Responders SKIN:
     id: 55640
     marketGroup: 2005
@@ -4622,6 +4898,13 @@ types:
     id: 36799
     marketGroup: 2005
     name: Burst Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Burst Carmine Horizon SKIN:
+    id: 63348
+    name: Burst Carmine Horizon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4654,6 +4937,13 @@ types:
     id: 44161
     marketGroup: 2005
     name: Burst Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Burst Halcyon Dawn SKIN:
+    id: 63538
+    name: Burst Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4733,6 +5023,13 @@ types:
     id: 46870
     marketGroup: 2089
     name: Bustard Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bustard Halcyon Dawn SKIN:
+    id: 63444
+    name: Bustard Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4857,6 +5154,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Buzzard Halcyon Dawn SKIN:
+    id: 63463
+    name: Buzzard Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Buzzard Matigu Seabeast SKIN:
     id: 40587
     marketGroup: 2052
@@ -4960,6 +5264,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caldari Navy Hookbill Halcyon Dawn SKIN:
+    id: 63470
+    name: Caldari Navy Hookbill Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caldari Navy Hookbill Steel Cardinal SKIN:
     id: 46103
     marketGroup: 2000
@@ -5004,6 +5315,13 @@ types:
     id: 46827
     marketGroup: 2388
     name: Caldari Shuttle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caldari Shuttle Halcyon Dawn SKIN:
+    id: 63434
+    name: Caldari Shuttle Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5169,6 +5487,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caracal Halcyon Dawn SKIN:
+    id: 63412
+    name: Caracal Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caracal Headhunter SKIN:
     id: 46713
     marketGroup: 1991
@@ -5256,8 +5581,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caracal Navy Issue Halcyon Dawn SKIN:
+    id: 63465
+    name: Caracal Navy Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caracal Navy Issue Hunter's Quiver SKIN:
     id: 57779
+    marketGroup: 1954
     name: Caracal Navy Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -5389,6 +5722,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caracal Versus Blueforce SKIN:
+    id: 63244
+    name: Caracal Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caracal Wiyrkomi SKIN:
     id: 34686
     marketGroup: 1991
@@ -5416,6 +5756,14 @@ types:
     id: 53171
     marketGroup: 1991
     name: Caracal Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Catalyst Ace of Podhunters SKIN:
+    id: 63207
+    marketGroup: 1996
+    name: Catalyst Ace of Podhunters SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5463,6 +5811,13 @@ types:
     id: 44180
     marketGroup: 1996
     name: Catalyst Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Catalyst Halcyon Dawn SKIN:
+    id: 63475
+    name: Catalyst Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5677,6 +6032,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Celestis Halcyon Dawn SKIN:
+    id: 63477
+    name: Celestis Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Celestis Inner Zone Vanguard SKIN:
     id: 52727
     marketGroup: 1992
@@ -5819,6 +6181,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cerberus Halcyon Dawn SKIN:
+    id: 63442
+    name: Cerberus Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cerberus Matigu Seabeast SKIN:
     id: 40601
     marketGroup: 2070
@@ -5947,6 +6316,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Charon Halcyon Dawn SKIN:
+    id: 63427
+    name: Charon Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Charon Malagrin Marshlight SKIN:
     id: 56594
     marketGroup: 1985
@@ -6058,6 +6434,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cheetah Halcyon Dawn SKIN:
+    id: 63567
+    name: Cheetah Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cheetah Hazard Control SKIN:
     id: 56901
     marketGroup: 2054
@@ -6149,6 +6532,13 @@ types:
     id: 46864
     marketGroup: 1975
     name: Chimera Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Chimera Halcyon Dawn SKIN:
+    id: 63418
+    name: Chimera Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6303,6 +6693,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Claw Halcyon Dawn SKIN:
+    id: 63575
+    name: Claw Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Claw Hazard Control SKIN:
     id: 56908
     marketGroup: 2062
@@ -6383,6 +6780,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Claymore Halcyon Dawn SKIN:
+    id: 63588
+    name: Claymore Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Claymore Hazard Control SKIN:
     id: 56899
     marketGroup: 2107
@@ -6435,6 +6839,14 @@ types:
     id: 53132
     marketGroup: 1994
     name: Coercer Abyssal Firestorm SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Coercer Ace of Podhunters SKIN:
+    id: 63201
+    marketGroup: 1994
+    name: Coercer Ace of Podhunters SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6504,6 +6916,13 @@ types:
     id: 44140
     marketGroup: 1994
     name: Coercer Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Coercer Halcyon Dawn SKIN:
+    id: 63372
+    name: Coercer Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6682,6 +7101,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Condor Halcyon Dawn SKIN:
+    id: 63436
+    name: Condor Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Condor Matigu Seabeast SKIN:
     id: 40580
     marketGroup: 2003
@@ -6736,6 +7162,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Confessor Abyssal Glory SKIN:
+    id: 63179
+    name: Confessor Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Confessor Biosecurity Responders SKIN:
     id: 55325
     marketGroup: 2310
@@ -6780,6 +7213,13 @@ types:
     id: 46786
     marketGroup: 2310
     name: Confessor Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Confessor Halcyon Dawn SKIN:
+    id: 63374
+    name: Confessor Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6904,6 +7344,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Corax Halcyon Dawn SKIN:
+    id: 63440
+    name: Corax Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Corax Luminaire Zenith SKIN:
     id: 48223
     marketGroup: 1995
@@ -6979,6 +7426,14 @@ types:
     id: 53136
     marketGroup: 1995
     name: Cormorant Abyssal Firestorm SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cormorant Ace of Podhunters SKIN:
+    id: 63203
+    marketGroup: 1995
+    name: Cormorant Ace of Podhunters SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7059,6 +7514,13 @@ types:
     id: 40774
     marketGroup: 1995
     name: Cormorant Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cormorant Halcyon Dawn SKIN:
+    id: 63441
+    name: Cormorant Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7400,6 +7862,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crane Halcyon Dawn SKIN:
+    id: 63454
+    name: Crane Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crane Kimotoro Eskeitan SKIN:
     id: 52639
     marketGroup: 2089
@@ -7504,8 +7973,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crow Halcyon Dawn SKIN:
+    id: 63455
+    name: Crow Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crow Hunter's Quiver SKIN:
     id: 57535
+    marketGroup: 1954
     name: Crow Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -7588,6 +8065,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier Carmine Horizon SKIN:
+    id: 63342
+    name: Crucifier Carmine Horizon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crucifier Cold Iron SKIN:
     id: 42746
     marketGroup: 2002
@@ -7615,6 +8099,13 @@ types:
     id: 44134
     marketGroup: 2002
     name: Crucifier Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crucifier Halcyon Dawn SKIN:
+    id: 63367
+    name: Crucifier Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7684,6 +8175,13 @@ types:
     id: 46783
     marketGroup: 2000
     name: Crucifier Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crucifier Navy Issue Halcyon Dawn SKIN:
+    id: 63410
+    name: Crucifier Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7868,6 +8366,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crusader Halcyon Dawn SKIN:
+    id: 63399
+    name: Crusader Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crusader Imperial Navy SKIN:
     id: 58896
     marketGroup: 2059
@@ -7959,6 +8464,13 @@ types:
     id: 46791
     marketGroup: 2081
     name: Curse Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Curse Halcyon Dawn SKIN:
+    id: 63395
+    name: Curse Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8058,6 +8570,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cyclone Halcyon Dawn SKIN:
+    id: 63558
+    name: Cyclone Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cyclone Hazard Control SKIN:
     id: 56924
     marketGroup: 1959
@@ -8068,6 +8587,7 @@ types:
     volume: 0.009999999776482582
   Cyclone Hunter's Quiver SKIN:
     id: 57529
+    marketGroup: 1954
     name: Cyclone Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -8384,6 +8904,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Damnation Halcyon Dawn SKIN:
+    id: 63389
+    name: Damnation Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Damnation Imperial Jubilee SKIN:
     id: 48853
     marketGroup: 2104
@@ -8541,6 +9068,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Deacon Halcyon Dawn SKIN:
+    id: 63401
+    name: Deacon Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Deacon Ironblood SKIN:
     id: 43495
     name: Deacon Ironblood SKIN
@@ -8616,6 +9150,13 @@ types:
     id: 59339
     marketGroup: 2071
     name: Deimos Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Deimos Halcyon Dawn SKIN:
+    id: 63511
+    name: Deimos Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8720,6 +9261,13 @@ types:
     id: 46789
     marketGroup: 2073
     name: Devoter Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Devoter Halcyon Dawn SKIN:
+    id: 63386
+    name: Devoter Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8838,6 +9386,13 @@ types:
     id: 59335
     marketGroup: 1966
     name: Dominix Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dominix Halcyon Dawn SKIN:
+    id: 63479
+    name: Dominix Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8964,6 +9519,13 @@ types:
     id: 47535
     marketGroup: 2108
     name: Dominix Navy Issue Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dominix Navy Issue Halcyon Dawn SKIN:
+    id: 63532
+    name: Dominix Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9155,6 +9717,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dragoon Halcyon Dawn SKIN:
+    id: 63373
+    name: Dragoon Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dragoon Imperial Jubilee SKIN:
     id: 46526
     marketGroup: 1994
@@ -9328,6 +9897,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Drake Halcyon Dawn SKIN:
+    id: 63426
+    name: Drake Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Drake Headhunter SKIN:
     id: 46714
     marketGroup: 1957
@@ -9403,6 +9979,13 @@ types:
     id: 46855
     marketGroup: 2103
     name: Drake Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drake Navy Issue Halcyon Dawn SKIN:
+    id: 63468
+    name: Drake Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9723,6 +10306,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Eagle Ace of Podhunters SKIN:
+    id: 63204
+    marketGroup: 2070
+    name: Eagle Ace of Podhunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Eagle Biosecurity Responders SKIN:
     id: 55566
     marketGroup: 2070
@@ -9775,6 +10366,13 @@ types:
     id: 46842
     marketGroup: 2070
     name: Eagle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Eagle Halcyon Dawn SKIN:
+    id: 63459
+    name: Eagle Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10062,6 +10660,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Enforcer Halcyon Dawn SKIN:
+    id: 63351
+    name: Enforcer Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Enforcer SARO 'Black Troop' SKIN:
     id: 47681
     marketGroup: 2362
@@ -10098,6 +10703,13 @@ types:
     id: 47524
     marketGroup: 2049
     name: Enyo Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Enyo Halcyon Dawn SKIN:
+    id: 63522
+    name: Enyo Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10181,6 +10793,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Eos Halcyon Dawn SKIN:
+    id: 63515
+    name: Eos Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Eos Inner Zone Vanguard SKIN:
     id: 52744
     marketGroup: 2106
@@ -10249,6 +10868,13 @@ types:
     id: 46968
     marketGroup: 2009
     name: Epithal Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Epithal Halcyon Dawn SKIN:
+    id: 63489
+    name: Epithal Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10395,6 +11021,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Erebus Halcyon Dawn SKIN:
+    id: 63472
+    name: Erebus Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Erebus Headhunter SKIN:
     id: 49428
     marketGroup: 1979
@@ -10530,6 +11163,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Eris Halcyon Dawn SKIN:
+    id: 63520
+    name: Eris Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Eris Inner Zone Vanguard SKIN:
     id: 52725
     marketGroup: 2040
@@ -10656,6 +11296,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Executioner Halcyon Dawn SKIN:
+    id: 63368
+    name: Executioner Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Executioner Ironblood SKIN:
     id: 43483
     marketGroup: 2002
@@ -10764,6 +11411,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Exequror Halcyon Dawn SKIN:
+    id: 63474
+    name: Exequror Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Exequror Hunter's Quiver SKIN:
     id: 47502
     marketGroup: 1992
@@ -10827,8 +11481,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Exequror Navy Issue Halcyon Dawn SKIN:
+    id: 63533
+    name: Exequror Navy Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Exequror Navy Issue Hunter's Quiver SKIN:
     id: 57778
+    marketGroup: 1954
     name: Exequror Navy Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -10946,6 +11608,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Falcon Halcyon Dawn SKIN:
+    id: 63464
+    name: Falcon Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Falcon Matigu Seabeast SKIN:
     id: 40605
     marketGroup: 2082
@@ -11006,6 +11675,13 @@ types:
     id: 46937
     marketGroup: 2000
     name: Federation Navy Comet Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Federation Navy Comet Halcyon Dawn SKIN:
+    id: 63529
+    name: Federation Navy Comet Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11101,6 +11777,13 @@ types:
     id: 46926
     marketGroup: 1987
     name: Fenrir Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Fenrir Halcyon Dawn SKIN:
+    id: 63554
+    name: Fenrir Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11223,8 +11906,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ferox Halcyon Dawn SKIN:
+    id: 63425
+    name: Ferox Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ferox Hunter's Quiver SKIN:
     id: 57531
+    marketGroup: 1954
     name: Ferox Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -11388,6 +12079,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Flycatcher Halcyon Dawn SKIN:
+    id: 63453
+    name: Flycatcher Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Flycatcher Kimotoro Eskeitan SKIN:
     id: 52632
     marketGroup: 2039
@@ -11471,6 +12169,13 @@ types:
     id: 46928
     marketGroup: 2389
     name: Gallente Shuttle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gallente Shuttle Halcyon Dawn SKIN:
+    id: 63494
+    name: Gallente Shuttle Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11672,6 +12377,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Gila Hunter's Quiver SKIN:
+    id: 63641
+    name: Gila Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Gila IGC SKIN:
     id: 48553
     marketGroup: 2030
@@ -11710,10 +12422,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Gila Valkyrie SKIN:
+    id: 63617
+    name: Gila Valkyrie SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Gila Vampire's Hex SKIN:
     id: 57814
     marketGroup: 2030
     name: Gila Vampire's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gila Versus Blueforce SKIN:
+    id: 63642
+    name: Gila Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11901,6 +12627,13 @@ types:
   Golem Guristas SKIN:
     id: 34813
     name: Golem Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Golem Halcyon Dawn SKIN:
+    id: 63443
+    name: Golem Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12093,6 +12826,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Griffin Halcyon Dawn SKIN:
+    id: 63435
+    name: Griffin Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Griffin Luminaire Zenith SKIN:
     id: 48222
     marketGroup: 2003
@@ -12160,6 +12900,13 @@ types:
     id: 46837
     marketGroup: 2000
     name: Griffin Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Griffin Navy Issue Halcyon Dawn SKIN:
+    id: 63471
+    name: Griffin Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12309,6 +13056,13 @@ types:
     id: 46790
     marketGroup: 2077
     name: Guardian Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Guardian Halcyon Dawn SKIN:
+    id: 63403
+    name: Guardian Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12463,6 +13217,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Harbinger Halcyon Dawn SKIN:
+    id: 63356
+    name: Harbinger Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Harbinger IGC SKIN:
     id: 48547
     marketGroup: 1956
@@ -12560,6 +13321,13 @@ types:
     id: 46801
     marketGroup: 2103
     name: Harbinger Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Harbinger Navy Issue Halcyon Dawn SKIN:
+    id: 63406
+    name: Harbinger Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12715,6 +13483,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Harpy Halcyon Dawn SKIN:
+    id: 63462
+    name: Harpy Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Harpy Kimotoro Eskeitan SKIN:
     id: 52629
     marketGroup: 2048
@@ -12803,6 +13578,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hawk Halcyon Dawn SKIN:
+    id: 63445
+    name: Hawk Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hawk Kimotoro Eskeitan SKIN:
     id: 52630
     marketGroup: 2048
@@ -12859,6 +13641,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hecate Abyssal Glory SKIN:
+    id: 63183
+    name: Hecate Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hecate Biosecurity Responders SKIN:
     id: 55584
     marketGroup: 2356
@@ -12903,6 +13692,13 @@ types:
     id: 47528
     marketGroup: 2356
     name: Hecate Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hecate Halcyon Dawn SKIN:
+    id: 63484
+    name: Hecate Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13011,6 +13807,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hel Capsuleer Elite XIX SKIN:
+    id: 63694
+    marketGroup: 1977
+    name: Hel Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hel Chainbreaker Khumaak SKIN:
     id: 48525
     marketGroup: 1977
@@ -13047,6 +13851,13 @@ types:
     id: 46919
     marketGroup: 1977
     name: Hel Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hel Halcyon Dawn SKIN:
+    id: 63563
+    name: Hel Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13186,6 +13997,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Helios Halcyon Dawn SKIN:
+    id: 63517
+    name: Helios Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Helios Inner Zone Vanguard SKIN:
     id: 52714
     marketGroup: 2053
@@ -13305,6 +14123,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Heretic Halcyon Dawn SKIN:
+    id: 63393
+    name: Heretic Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Heretic Imperial Jubilee SKIN:
     id: 48846
     marketGroup: 2038
@@ -13368,6 +14193,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Heron Carmine Horizon SKIN:
+    id: 63344
+    name: Heron Carmine Horizon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Heron Exoplanets Hunter SKIN:
     id: 45815
     marketGroup: 2003
@@ -13396,6 +14228,13 @@ types:
     id: 44149
     marketGroup: 2003
     name: Heron Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Heron Halcyon Dawn SKIN:
+    id: 63428
+    name: Heron Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13516,6 +14355,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hoarder Halcyon Dawn SKIN:
+    id: 63560
+    name: Hoarder Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hoarder Hazard Control SKIN:
     id: 56929
     marketGroup: 2010
@@ -13602,6 +14448,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hound Halcyon Dawn SKIN:
+    id: 63574
+    name: Hound Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hound Hazard Control SKIN:
     id: 56910
     marketGroup: 2054
@@ -13678,6 +14531,13 @@ types:
     id: 46899
     marketGroup: 2084
     name: Huginn Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Huginn Halcyon Dawn SKIN:
+    id: 63577
+    name: Huginn Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14028,6 +14888,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hurricane Fleet Issue Halcyon Dawn SKIN:
+    id: 63593
+    name: Hurricane Fleet Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hurricane Fleet Issue IGC SKIN:
     id: 48561
     marketGroup: 2103
@@ -14137,6 +15004,13 @@ types:
     id: 46905
     marketGroup: 1959
     name: Hurricane Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Halcyon Dawn SKIN:
+    id: 63559
+    name: Hurricane Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14298,6 +15172,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hyena Halcyon Dawn SKIN:
+    id: 63581
+    name: Hyena Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hyena Hazard Control SKIN:
     id: 56895
     marketGroup: 2058
@@ -14385,6 +15266,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hyperion Capsuleer Elite XIX SKIN:
+    id: 63690
+    marketGroup: 1966
+    name: Hyperion Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hyperion Exoplanets Hunter SKIN:
     id: 45912
     marketGroup: 1966
@@ -14413,6 +15302,13 @@ types:
     id: 46958
     marketGroup: 1966
     name: Hyperion Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hyperion Halcyon Dawn SKIN:
+    id: 63480
+    name: Hyperion Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14528,6 +15424,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ibis Halcyon Dawn SKIN:
+    id: 63433
+    name: Ibis Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ikitursa All-Stars Casino Clash SKIN:
     id: 53023
     marketGroup: 2485
@@ -14604,6 +15507,13 @@ types:
     id: 44175
     marketGroup: 2004
     name: Imicus Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Imicus Halcyon Dawn SKIN:
+    id: 63495
+    name: Imicus Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14733,6 +15643,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Impairor Halcyon Dawn SKIN:
+    id: 63381
+    name: Impairor Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Impairor Purity of the Throne SKIN:
     id: 42543
     marketGroup: 2308
@@ -14777,6 +15694,13 @@ types:
     id: 46816
     marketGroup: 2088
     name: Impel Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Impel Halcyon Dawn SKIN:
+    id: 63391
+    name: Impel Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14891,6 +15815,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Imperial Navy Slicer Halcyon Dawn SKIN:
+    id: 63409
+    name: Imperial Navy Slicer Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Imperial Navy Slicer Oasis of Faith SKIN:
     id: 53609
     marketGroup: 2000
@@ -14989,6 +15920,13 @@ types:
     id: 47522
     marketGroup: 2004
     name: Incursus Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Incursus Halcyon Dawn SKIN:
+    id: 63498
+    name: Incursus Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15096,6 +16034,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Inquisitor Abyssal Glory SKIN:
+    id: 63180
+    name: Inquisitor Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Inquisitor Biosecurity Responders SKIN:
     id: 55304
     marketGroup: 2002
@@ -15139,6 +16084,13 @@ types:
     id: 44136
     marketGroup: 2002
     name: Inquisitor Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Inquisitor Halcyon Dawn SKIN:
+    id: 63353
+    name: Inquisitor Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15260,6 +16212,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ishkur Halcyon Dawn SKIN:
+    id: 63516
+    name: Ishkur Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ishkur Inner Zone Vanguard SKIN:
     id: 52713
     marketGroup: 2049
@@ -15319,6 +16278,14 @@ types:
   Ishtar ASES SKIN:
     id: 59721
     name: Ishtar ASES SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ishtar Ace of Podhunters SKIN:
+    id: 63208
+    marketGroup: 2071
+    name: Ishtar Ace of Podhunters SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15398,6 +16365,13 @@ types:
     id: 59340
     marketGroup: 2071
     name: Ishtar Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ishtar Halcyon Dawn SKIN:
+    id: 63519
+    name: Ishtar Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15528,6 +16502,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Iteron Mark V Halcyon Dawn SKIN:
+    id: 63488
+    name: Iteron Mark V Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Iteron Mark V Inner Zone Shipping SKIN:
     id: 34755
     marketGroup: 2009
@@ -15621,6 +16602,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Jackdaw Abyssal Glory SKIN:
+    id: 63181
+    name: Jackdaw Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Jackdaw Biosecurity Responders SKIN:
     id: 55531
     marketGroup: 2391
@@ -15649,6 +16637,13 @@ types:
     id: 46840
     marketGroup: 2391
     name: Jackdaw Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Jackdaw Halcyon Dawn SKIN:
+    id: 63431
+    name: Jackdaw Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15765,6 +16760,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Jaguar Halcyon Dawn SKIN:
+    id: 63566
+    name: Jaguar Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Jaguar Hazard Control SKIN:
     id: 56902
     marketGroup: 2050
@@ -15833,6 +16835,13 @@ types:
     id: 46933
     marketGroup: 2057
     name: Keres Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Keres Halcyon Dawn SKIN:
+    id: 63507
+    name: Keres Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15952,6 +16961,13 @@ types:
     id: 54554
     marketGroup: 2003
     name: Kestrel Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kestrel Halcyon Dawn SKIN:
+    id: 63429
+    name: Kestrel Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16131,6 +17147,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kirin Halcyon Dawn SKIN:
+    id: 63450
+    name: Kirin Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kirin Matigu Seabeast SKIN:
     id: 40592
     marketGroup: 2138
@@ -16199,6 +17222,13 @@ types:
     id: 54555
     marketGroup: 2056
     name: Kitsune Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kitsune Halcyon Dawn SKIN:
+    id: 63447
+    name: Kitsune Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16295,6 +17325,13 @@ types:
     id: 46961
     marketGroup: 2026
     name: Kronos Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kronos Halcyon Dawn SKIN:
+    id: 63510
+    name: Kronos Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16432,6 +17469,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kryos Halcyon Dawn SKIN:
+    id: 63487
+    name: Kryos Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kryos Inner Zone Vanguard SKIN:
     id: 52759
     marketGroup: 2009
@@ -16499,6 +17543,13 @@ types:
     id: 46947
     marketGroup: 2083
     name: Lachesis Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Lachesis Halcyon Dawn SKIN:
+    id: 63527
+    name: Lachesis Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16575,10 +17626,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Legion Halcyon Dawn SKIN:
+    id: 63379
+    name: Legion Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Legion Oasis of Faith SKIN:
     id: 53626
     marketGroup: 2371
     name: Legion Oasis of Faith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Legion Purity of the Throne SKIN:
+    id: 42575
+    name: Legion Purity of the Throne SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16806,6 +17871,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Leviathan Halcyon Dawn SKIN:
+    id: 63420
+    name: Leviathan Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Leviathan Headhunter SKIN:
     id: 49425
     marketGroup: 2092
@@ -16958,6 +18030,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Lif Halcyon Dawn SKIN:
+    id: 63551
+    name: Lif Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Lif Hazard Control SKIN:
     id: 56935
     marketGroup: 2281
@@ -17034,6 +18113,13 @@ types:
     id: 46901
     marketGroup: 2373
     name: Loki Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Loki Halcyon Dawn SKIN:
+    id: 63550
+    name: Loki Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17373,6 +18459,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maelstrom Capsuleer Elite XIX SKIN:
+    id: 63693
+    marketGroup: 1967
+    name: Maelstrom Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maelstrom Dawn of Liberation SKIN:
     id: 48514
     marketGroup: 1967
@@ -17401,6 +18495,13 @@ types:
     id: 46910
     marketGroup: 1967
     name: Maelstrom Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maelstrom Halcyon Dawn SKIN:
+    id: 63552
+    name: Maelstrom Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17540,6 +18641,13 @@ types:
     id: 44137
     marketGroup: 2002
     name: Magnate Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Magnate Halcyon Dawn SKIN:
+    id: 63352
+    name: Magnate Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17684,6 +18792,20 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Magus Halcyon Dawn SKIN:
+    id: 63513
+    name: Magus Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Magus Hunter's Quiver SKIN:
+    id: 63174
+    name: Magus Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Magus Inner Zone Vanguard SKIN:
     id: 52724
     marketGroup: 2144
@@ -17780,8 +18902,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Malediction Halcyon Dawn SKIN:
+    id: 63392
+    name: Malediction Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Malediction Hunter's Quiver SKIN:
     id: 57534
+    marketGroup: 1954
     name: Malediction Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -17892,6 +19022,13 @@ types:
     id: 44144
     marketGroup: 1990
     name: Maller Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maller Halcyon Dawn SKIN:
+    id: 63377
+    name: Maller Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18052,6 +19189,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Mammoth Halcyon Dawn SKIN:
+    id: 63555
+    name: Mammoth Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Mammoth Hazard Control SKIN:
     id: 56930
     marketGroup: 2010
@@ -18157,6 +19301,13 @@ types:
     id: 46831
     marketGroup: 2052
     name: Manticore Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Manticore Halcyon Dawn SKIN:
+    id: 63446
+    name: Manticore Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18297,6 +19448,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Marshal Halcyon Dawn SKIN:
+    id: 63349
+    name: Marshal Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Marshal Iceblade Guerilla SKIN:
     id: 59334
     marketGroup: 2406
@@ -18341,6 +19499,13 @@ types:
     id: 46925
     marketGroup: 2091
     name: Mastodon Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Mastodon Halcyon Dawn SKIN:
+    id: 63571
+    name: Mastodon Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18423,6 +19588,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maulus Halcyon Dawn SKIN:
+    id: 63497
+    name: Maulus Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maulus Inner Zone Shipping SKIN:
     id: 34742
     marketGroup: 2004
@@ -18496,6 +19668,13 @@ types:
     id: 46938
     marketGroup: 2000
     name: Maulus Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maulus Navy Issue Halcyon Dawn SKIN:
+    id: 63528
+    name: Maulus Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18642,6 +19821,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Megathron Halcyon Dawn SKIN:
+    id: 63478
+    name: Megathron Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Megathron Inner Zone Shipping SKIN:
     id: 34638
     marketGroup: 1966
@@ -18723,6 +19909,13 @@ types:
     id: 46963
     marketGroup: 2108
     name: Megathron Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Megathron Navy Issue Halcyon Dawn SKIN:
+    id: 63531
+    name: Megathron Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18893,6 +20086,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Merlin Carmine Horizon SKIN:
+    id: 63343
+    name: Merlin Carmine Horizon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Merlin Exoplanets Hunter SKIN:
     id: 45817
     marketGroup: 2003
@@ -18921,6 +20121,13 @@ types:
     id: 40771
     marketGroup: 2003
     name: Merlin Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Merlin Halcyon Dawn SKIN:
+    id: 63430
+    name: Merlin Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19083,6 +20290,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Miasmos Halcyon Dawn SKIN:
+    id: 63499
+    name: Miasmos Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Miasmos Inner Zone Vanguard SKIN:
     id: 52760
     marketGroup: 2009
@@ -19162,6 +20376,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Minmatar Shuttle Halcyon Dawn SKIN:
+    id: 63539
+    name: Minmatar Shuttle Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Minmatar Shuttle Nefantar SKIN:
     id: 55816
     marketGroup: 2390
@@ -19222,6 +20443,13 @@ types:
     id: 47050
     marketGroup: 2279
     name: Minokawa Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Minokawa Halcyon Dawn SKIN:
+    id: 63437
+    name: Minokawa Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19358,6 +20586,20 @@ types:
     id: 40772
     marketGroup: 1991
     name: Moa Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Moa Halcyon Dawn SKIN:
+    id: 63438
+    name: Moa Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Moa Hunter's Quiver SKIN:
+    id: 63173
+    name: Moa Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19511,6 +20753,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Moros Halcyon Dawn SKIN:
+    id: 63492
+    name: Moros Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Moros Inner Zone Vanguard SKIN:
     id: 52753
     marketGroup: 1982
@@ -19605,6 +20854,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Muninn Ace of Podhunters SKIN:
+    id: 63210
+    marketGroup: 2072
+    name: Muninn Ace of Podhunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Muninn Biosecurity Responders SKIN:
     id: 55686
     marketGroup: 2072
@@ -19665,6 +20922,13 @@ types:
     id: 46895
     marketGroup: 2072
     name: Muninn Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Muninn Halcyon Dawn SKIN:
+    id: 63576
+    name: Muninn Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19789,8 +21053,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Myrmidon Halcyon Dawn SKIN:
+    id: 63482
+    name: Myrmidon Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Myrmidon Hunter's Quiver SKIN:
     id: 57532
+    marketGroup: 1954
     name: Myrmidon Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -19914,6 +21186,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Naga Capsuleer Elite XIX SKIN:
+    id: 63686
+    marketGroup: 1957
+    name: Naga Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Naga Exoplanets Hunter SKIN:
     id: 45848
     marketGroup: 1957
@@ -19934,6 +21214,13 @@ types:
     id: 46852
     marketGroup: 1957
     name: Naga Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Naga Halcyon Dawn SKIN:
+    id: 63424
+    name: Naga Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20072,6 +21359,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Naglfar Halcyon Dawn SKIN:
+    id: 63562
+    name: Naglfar Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Naglfar Hazard Control SKIN:
     id: 45558
     marketGroup: 1983
@@ -20151,6 +21445,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Navitas Abyssal Glory SKIN:
+    id: 63184
+    name: Navitas Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Navitas Biosecurity Responders SKIN:
     id: 55585
     marketGroup: 2004
@@ -20179,6 +21480,13 @@ types:
     id: 44178
     marketGroup: 2004
     name: Navitas Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Navitas Halcyon Dawn SKIN:
+    id: 63485
+    name: Navitas Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20277,6 +21585,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nemesis Halcyon Dawn SKIN:
+    id: 63508
+    name: Nemesis Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nemesis Inner Zone Vanguard SKIN:
     id: 52715
     marketGroup: 2053
@@ -20353,6 +21668,13 @@ types:
     id: 46972
     marketGroup: 2009
     name: Nereus Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nereus Halcyon Dawn SKIN:
+    id: 63500
+    name: Nereus Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20665,6 +21987,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nidhoggur Halcyon Dawn SKIN:
+    id: 63564
+    name: Nidhoggur Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nidhoggur Hazard Control SKIN:
     id: 45555
     marketGroup: 1977
@@ -20799,6 +22128,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nighthawk Halcyon Dawn SKIN:
+    id: 63452
+    name: Nighthawk Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nighthawk Matigu Seabeast SKIN:
     id: 40610
     marketGroup: 2105
@@ -20927,6 +22263,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ninazu Halcyon Dawn SKIN:
+    id: 63502
+    name: Ninazu Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ninazu Inner Zone Vanguard SKIN:
     id: 52766
     marketGroup: 2280
@@ -21039,6 +22382,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nomad Halcyon Dawn SKIN:
+    id: 63570
+    name: Nomad Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nomad Hazard Control SKIN:
     id: 56937
     marketGroup: 2098
@@ -21095,6 +22445,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nyx Capsuleer Elite XIX SKIN:
+    id: 63691
+    marketGroup: 1976
+    name: Nyx Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nyx Dos Rouvenor's Bequest SKIN:
     id: 48213
     marketGroup: 1976
@@ -21147,6 +22505,13 @@ types:
     id: 59338
     marketGroup: 1976
     name: Nyx Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nyx Halcyon Dawn SKIN:
+    id: 63490
+    name: Nyx Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21317,6 +22682,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Obelisk Halcyon Dawn SKIN:
+    id: 63501
+    name: Obelisk Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Obelisk Inner Zone Shipping SKIN:
     id: 34669
     marketGroup: 1986
@@ -21455,6 +22827,13 @@ types:
     id: 46973
     marketGroup: 2090
     name: Occator Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Occator Halcyon Dawn SKIN:
+    id: 63524
+    name: Occator Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21601,10 +22980,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Omen Halcyon Dawn SKIN:
+    id: 63376
+    name: Omen Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Omen Headhunter SKIN:
     id: 46708
     marketGroup: 1990
     name: Omen Headhunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Hunter's Quiver SKIN:
+    id: 63171
+    name: Omen Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21683,6 +23076,20 @@ types:
     id: 46795
     marketGroup: 2063
     name: Omen Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Navy Issue Halcyon Dawn SKIN:
+    id: 63411
+    name: Omen Navy Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Navy Issue Hunter's Quiver SKIN:
+    id: 63637
+    name: Omen Navy Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21819,6 +23226,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Omen Versus Redforce SKIN:
+    id: 63241
+    name: Omen Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Omen War Reserves Lieutenant SKIN:
     id: 59214
     marketGroup: 1990
@@ -21886,6 +23300,13 @@ types:
     id: 46945
     marketGroup: 2079
     name: Oneiros Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Oneiros Halcyon Dawn SKIN:
+    id: 63526
+    name: Oneiros Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21978,6 +23399,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Onyx Halcyon Dawn SKIN:
+    id: 63457
+    name: Onyx Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Onyx Kimotoro Eskeitan SKIN:
     id: 52635
     marketGroup: 2074
@@ -22066,6 +23494,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Oracle Capsuleer Elite XIX SKIN:
+    id: 63683
+    marketGroup: 1956
+    name: Oracle Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Oracle Cold Iron SKIN:
     id: 42779
     marketGroup: 1956
@@ -22109,6 +23545,13 @@ types:
     id: 46797
     marketGroup: 1956
     name: Oracle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Oracle Halcyon Dawn SKIN:
+    id: 63357
+    name: Oracle Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22273,6 +23716,14 @@ types:
     id: 58823
     marketGroup: 2338
     name: Orca Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Orca Capsuleer Elite XIX SKIN:
+    id: 63695
+    marketGroup: 2338
+    name: Orca Capsuleer Elite XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22559,6 +24010,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Osprey Halcyon Dawn SKIN:
+    id: 63439
+    name: Osprey Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Osprey Kimotoro Eskeitan SKIN:
     id: 52637
     marketGroup: 1991
@@ -22603,6 +24061,13 @@ types:
     id: 46849
     marketGroup: 2063
     name: Osprey Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Osprey Navy Issue Halcyon Dawn SKIN:
+    id: 63469
+    name: Osprey Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22750,6 +24215,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Pacifier Halcyon Dawn SKIN:
+    id: 63350
+    name: Pacifier Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Pacifier SARO 'Black Troop' SKIN:
     id: 47680
     marketGroup: 2361
@@ -22809,6 +24281,13 @@ types:
     id: 46806
     marketGroup: 2024
     name: Paladin Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Paladin Halcyon Dawn SKIN:
+    id: 63398
+    name: Paladin Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22981,6 +24460,13 @@ types:
     id: 46913
     marketGroup: 2113
     name: Panther Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Panther Halcyon Dawn SKIN:
+    id: 63572
+    name: Panther Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23160,6 +24646,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Phobos Halcyon Dawn SKIN:
+    id: 63525
+    name: Phobos Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Phobos Inner Zone Vanguard SKIN:
     id: 52733
     marketGroup: 2075
@@ -23232,6 +24725,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Phoenix Capsuleer Elite XIX SKIN:
+    id: 63688
+    marketGroup: 1981
+    name: Phoenix Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Phoenix Exoplanets Hunter SKIN:
     id: 45859
     marketGroup: 1981
@@ -23252,6 +24753,13 @@ types:
     id: 46863
     marketGroup: 1981
     name: Phoenix Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phoenix Halcyon Dawn SKIN:
+    id: 63417
+    name: Phoenix Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23406,6 +24914,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Pilgrim Halcyon Dawn SKIN:
+    id: 63404
+    name: Pilgrim Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Pilgrim Imperial Jubilee SKIN:
     id: 48849
     marketGroup: 2081
@@ -23481,6 +24996,20 @@ types:
     id: 46784
     marketGroup: 2142
     name: Pontifex Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Pontifex Halcyon Dawn SKIN:
+    id: 63402
+    name: Pontifex Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Pontifex Hunter's Quiver SKIN:
+    id: 63170
+    name: Pontifex Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23574,6 +25103,14 @@ types:
     id: 58822
     marketGroup: 2338
     name: Porpoise Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Porpoise Capsuleer Elite XIX SKIN:
+    id: 63697
+    marketGroup: 2338
+    name: Porpoise Capsuleer Elite XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23794,6 +25331,13 @@ types:
     id: 44162
     marketGroup: 2005
     name: Probe Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Probe Halcyon Dawn SKIN:
+    id: 63542
+    name: Probe Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24116,8 +25660,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prophecy Halcyon Dawn SKIN:
+    id: 63358
+    name: Prophecy Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prophecy Hunter's Quiver SKIN:
     id: 57530
+    marketGroup: 1954
     name: Prophecy Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -24277,6 +25829,13 @@ types:
     id: 46815
     marketGroup: 2088
     name: Prorator Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prorator Halcyon Dawn SKIN:
+    id: 63385
+    name: Prorator Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24492,6 +26051,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Proteus Halcyon Dawn SKIN:
+    id: 63504
+    name: Proteus Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Proteus Inner Zone Vanguard SKIN:
     id: 52737
     marketGroup: 2372
@@ -24583,6 +26149,13 @@ types:
     id: 46817
     marketGroup: 1984
     name: Providence Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Providence Halcyon Dawn SKIN:
+    id: 63370
+    name: Providence Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24712,6 +26285,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prowler Halcyon Dawn SKIN:
+    id: 63587
+    name: Prowler Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prowler Hazard Control SKIN:
     id: 56934
     marketGroup: 2091
@@ -24782,6 +26362,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Punisher Carmine Horizon SKIN:
+    id: 63341
+    name: Punisher Carmine Horizon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Punisher Chromodynamic Candy SKIN:
     id: 49798
     marketGroup: 2002
@@ -24825,6 +26412,13 @@ types:
     id: 44138
     marketGroup: 2002
     name: Punisher Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Punisher Halcyon Dawn SKIN:
+    id: 63355
+    name: Punisher Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25008,6 +26602,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Purifier Halcyon Dawn SKIN:
+    id: 63384
+    name: Purifier Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Purifier Imperial Jubilee SKIN:
     id: 46525
     marketGroup: 2051
@@ -25134,6 +26735,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ragnarok Halcyon Dawn SKIN:
+    id: 63536
+    name: Ragnarok Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ragnarok Hazard Control SKIN:
     id: 56938
     marketGroup: 2093
@@ -25234,6 +26842,13 @@ types:
     id: 46900
     marketGroup: 2084
     name: Rapier Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rapier Halcyon Dawn SKIN:
+    id: 63586
+    name: Rapier Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25345,6 +26960,13 @@ types:
     id: 46834
     marketGroup: 2060
     name: Raptor Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raptor Halcyon Dawn SKIN:
+    id: 63448
+    name: Raptor Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25468,10 +27090,32 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rattlesnake Valkyrie SKIN:
+    id: 63618
+    name: Rattlesnake Valkyrie SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rattlesnake Vampire's Hex SKIN:
     id: 57815
     marketGroup: 1963
     name: Rattlesnake Vampire's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rattlesnake Versus Redforce SKIN:
+    id: 63644
+    name: Rattlesnake Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Ace of Podhunters SKIN:
+    id: 63206
+    marketGroup: 1965
+    name: Raven Ace of Podhunters SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25568,6 +27212,13 @@ types:
     id: 34797
     marketGroup: 1965
     name: Raven Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Halcyon Dawn SKIN:
+    id: 63423
+    name: Raven Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25690,8 +27341,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Raven Navy Issue Halcyon Dawn SKIN:
+    id: 63466
+    name: Raven Navy Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raven Navy Issue Hunter's Quiver SKIN:
     id: 57780
+    marketGroup: 1954
     name: Raven Navy Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -25853,6 +27512,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Reaper Halcyon Dawn SKIN:
+    id: 63540
+    name: Reaper Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Reaper Krusual SKIN:
     id: 59828
     name: Reaper Krusual SKIN
@@ -25955,6 +27621,13 @@ types:
     id: 46805
     marketGroup: 2110
     name: Redeemer Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Redeemer Halcyon Dawn SKIN:
+    id: 63383
+    name: Redeemer Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26093,6 +27766,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Republic Fleet Firetail Halcyon Dawn SKIN:
+    id: 63591
+    name: Republic Fleet Firetail Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Republic Fleet Firetail Justice SKIN:
     id: 36443
     marketGroup: 2000
@@ -26204,6 +27884,13 @@ types:
     id: 46774
     marketGroup: 2047
     name: Retribution Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Retribution Halcyon Dawn SKIN:
+    id: 63396
+    name: Retribution Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26434,6 +28121,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Revelation Capsuleer Elite XIX SKIN:
+    id: 63685
+    marketGroup: 1980
+    name: Revelation Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Revelation Cold Iron SKIN:
     id: 42791
     marketGroup: 1980
@@ -26470,6 +28165,13 @@ types:
     id: 46809
     marketGroup: 1980
     name: Revelation Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Revelation Halcyon Dawn SKIN:
+    id: 63363
+    name: Revelation Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26640,6 +28342,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rhea Halcyon Dawn SKIN:
+    id: 63461
+    name: Rhea Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rhea Matigu Seabeast SKIN:
     id: 40626
     marketGroup: 2096
@@ -26719,6 +28428,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rifter Carmine Horizon SKIN:
+    id: 63347
+    name: Rifter Carmine Horizon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rifter Dawn of Liberation SKIN:
     id: 48488
     marketGroup: 2005
@@ -26747,6 +28463,13 @@ types:
     id: 44166
     marketGroup: 2005
     name: Rifter Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rifter Halcyon Dawn SKIN:
+    id: 63541
+    name: Rifter Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26893,6 +28616,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rokh Ace of Podhunters SKIN:
+    id: 63205
+    marketGroup: 1965
+    name: Rokh Ace of Podhunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rokh Aurora Universalis SKIN:
     id: 57019
     marketGroup: 1965
@@ -26933,6 +28664,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rokh Capsuleer Elite XIX SKIN:
+    id: 63687
+    marketGroup: 1965
+    name: Rokh Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rokh Exoplanets Hunter SKIN:
     id: 45853
     marketGroup: 1965
@@ -26953,6 +28692,13 @@ types:
     id: 46857
     marketGroup: 1965
     name: Rokh Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rokh Halcyon Dawn SKIN:
+    id: 63422
+    name: Rokh Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27075,6 +28821,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rook Halcyon Dawn SKIN:
+    id: 63456
+    name: Rook Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rook IGC SKIN:
     id: 48549
     marketGroup: 2082
@@ -27173,6 +28926,14 @@ types:
     id: 58824
     marketGroup: 1969
     name: Rorqual Capsuleer Day XVIII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rorqual Capsuleer Elite XIX SKIN:
+    id: 63696
+    marketGroup: 1969
+    name: Rorqual Capsuleer Elite XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27444,6 +29205,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Halcyon Dawn SKIN:
+    id: 63549
+    name: Rupture Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Hazard Control SKIN:
     id: 56921
     marketGroup: 1993
@@ -27650,6 +29418,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sabre Halcyon Dawn SKIN:
+    id: 63584
+    name: Sabre Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sabre Hazard Control SKIN:
     id: 45557
     marketGroup: 2041
@@ -27754,6 +29529,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sacrilege Halcyon Dawn SKIN:
+    id: 63394
+    name: Sacrilege Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sacrilege Imperial Jubilee SKIN:
     id: 46528
     marketGroup: 2069
@@ -27849,6 +29631,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scalpel Halcyon Dawn SKIN:
+    id: 63568
+    name: Scalpel Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scalpel Hazard Control SKIN:
     id: 56903
     marketGroup: 2140
@@ -27940,6 +29729,13 @@ types:
     id: 46898
     marketGroup: 2080
     name: Scimitar Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scimitar Halcyon Dawn SKIN:
+    id: 63585
+    name: Scimitar Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28056,6 +29852,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scorpion Halcyon Dawn SKIN:
+    id: 63421
+    name: Scorpion Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scorpion Ishukone Watch SKIN:
     id: 34632
     marketGroup: 1965
@@ -28123,6 +29926,13 @@ types:
     id: 46862
     marketGroup: 2108
     name: Scorpion Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scorpion Navy Issue Halcyon Dawn SKIN:
+    id: 63467
+    name: Scorpion Navy Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28309,6 +30119,20 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scythe Fleet Issue Halcyon Dawn SKIN:
+    id: 63589
+    name: Scythe Fleet Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scythe Fleet Issue Hunter's Quiver SKIN:
+    id: 63640
+    name: Scythe Fleet Issue Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scythe Fleet Issue Justice SKIN:
     id: 36455
     marketGroup: 2063
@@ -28340,10 +30164,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scythe Halcyon Dawn SKIN:
+    id: 63548
+    name: Scythe Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scythe Hazard Control SKIN:
     id: 56923
     marketGroup: 1993
     name: Scythe Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scythe Hunter's Quiver SKIN:
+    id: 63177
+    name: Scythe Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28415,6 +30253,13 @@ types:
     id: 46778
     marketGroup: 2055
     name: Sentinel Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sentinel Halcyon Dawn SKIN:
+    id: 63382
+    name: Sentinel Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28493,6 +30338,13 @@ types:
     id: 46814
     marketGroup: 2007
     name: Sigil Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sigil Halcyon Dawn SKIN:
+    id: 63371
+    name: Sigil Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28593,6 +30445,13 @@ types:
     id: 47536
     marketGroup: 2112
     name: Sin Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sin Halcyon Dawn SKIN:
+    id: 63514
+    name: Sin Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28935,6 +30794,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Slasher Halcyon Dawn SKIN:
+    id: 63544
+    name: Slasher Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Slasher Hazard Control SKIN:
     id: 56915
     marketGroup: 2005
@@ -29079,6 +30945,13 @@ types:
     id: 46908
     marketGroup: 2107
     name: Sleipnir Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sleipnir Halcyon Dawn SKIN:
+    id: 63578
+    name: Sleipnir Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29249,6 +31122,20 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Fleet Issue Halcyon Dawn SKIN:
+    id: 63590
+    name: Stabber Fleet Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Fleet Issue Hunter's Quiver SKIN:
+    id: 63639
+    name: Stabber Fleet Issue Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Fleet Issue Justice SKIN:
     id: 36441
     marketGroup: 2063
@@ -29342,6 +31229,13 @@ types:
     id: 46894
     marketGroup: 1993
     name: Stabber Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Halcyon Dawn SKIN:
+    id: 63547
+    name: Stabber Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29455,6 +31349,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Versus Blueforce SKIN:
+    id: 63245
+    name: Stabber Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Warp Convergence SKIN:
     id: 61876
     marketGroup: 1993
@@ -29511,6 +31412,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stiletto Halcyon Dawn SKIN:
+    id: 63582
+    name: Stiletto Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stiletto Hazard Control SKIN:
     id: 56894
     marketGroup: 2062
@@ -29521,6 +31429,7 @@ types:
     volume: 0.009999999776482582
   Stiletto Hunter's Quiver SKIN:
     id: 57533
+    marketGroup: 1954
     name: Stiletto Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -29610,6 +31519,20 @@ types:
     id: 54557
     marketGroup: 2143
     name: Stork Guristas SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stork Halcyon Dawn SKIN:
+    id: 63458
+    name: Stork Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stork Hunter's Quiver SKIN:
+    id: 63172
+    name: Stork Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29950,6 +31873,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Svipul Abyssal Glory SKIN:
+    id: 63185
+    name: Svipul Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Svipul Biosecurity Responders SKIN:
     id: 55647
     marketGroup: 2392
@@ -29986,6 +31916,13 @@ types:
     id: 46892
     marketGroup: 2392
     name: Svipul Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Svipul Halcyon Dawn SKIN:
+    id: 63545
+    name: Svipul Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30062,6 +31999,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Talos Capsuleer Elite XIX SKIN:
+    id: 63689
+    marketGroup: 1958
+    name: Talos Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Talos Duvolle SKIN:
     id: 34616
     marketGroup: 1958
@@ -30105,6 +32050,13 @@ types:
     id: 47533
     marketGroup: 1958
     name: Talos Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Talos Halcyon Dawn SKIN:
+    id: 63483
+    name: Talos Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30251,6 +32203,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Talwar Halcyon Dawn SKIN:
+    id: 63565
+    name: Talwar Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Talwar Hazard Control SKIN:
     id: 56927
     marketGroup: 1997
@@ -30376,6 +32335,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Taranis Halcyon Dawn SKIN:
+    id: 63506
+    name: Taranis Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Taranis Inner Zone Vanguard SKIN:
     id: 52718
     marketGroup: 2061
@@ -30468,6 +32434,13 @@ types:
     id: 46868
     marketGroup: 2008
     name: Tayra Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tayra Halcyon Dawn SKIN:
+    id: 63416
+    name: Tayra Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30599,6 +32572,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tempest Fleet Issue Ace of Podhunters SKIN:
+    id: 63211
+    marketGroup: 2108
+    name: Tempest Fleet Issue Ace of Podhunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tempest Fleet Issue Biosecurity Responders SKIN:
     id: 55674
     marketGroup: 2108
@@ -30642,6 +32623,13 @@ types:
     id: 46915
     marketGroup: 2108
     name: Tempest Fleet Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Fleet Issue Halcyon Dawn SKIN:
+    id: 63594
+    name: Tempest Fleet Issue Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30723,6 +32711,13 @@ types:
     id: 46911
     marketGroup: 1967
     name: Tempest Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Halcyon Dawn SKIN:
+    id: 63553
+    name: Tempest Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30875,6 +32870,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tengu Halcyon Dawn SKIN:
+    id: 63413
+    name: Tengu Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tengu Nightfire SKIN:
     id: 46024
     marketGroup: 2370
@@ -30951,6 +32953,13 @@ types:
     id: 46936
     marketGroup: 2139
     name: Thalia Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thalia Halcyon Dawn SKIN:
+    id: 63521
+    name: Thalia Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31063,6 +33072,13 @@ types:
     id: 59337
     marketGroup: 1976
     name: Thanatos Green Demons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thanatos Halcyon Dawn SKIN:
+    id: 63491
+    name: Thanatos Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31272,6 +33288,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thorax Halcyon Dawn SKIN:
+    id: 63473
+    name: Thorax Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thorax Inner Zone Shipping SKIN:
     id: 34693
     marketGroup: 1992
@@ -31399,6 +33422,21 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thorax Versus Redforce SKIN:
+    id: 63243
+    name: Thorax Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thrasher Ace of Podhunters SKIN:
+    id: 63209
+    marketGroup: 1997
+    name: Thrasher Ace of Podhunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thrasher Aurora Universalis SKIN:
     id: 53362
     marketGroup: 1997
@@ -31451,6 +33489,13 @@ types:
     id: 44167
     marketGroup: 1997
     name: Thrasher Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thrasher Halcyon Dawn SKIN:
+    id: 63546
+    name: Thrasher Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31656,6 +33701,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tormentor Halcyon Dawn SKIN:
+    id: 63354
+    name: Tormentor Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tormentor Imperial Navy SKIN:
     id: 58895
     marketGroup: 2002
@@ -31775,6 +33827,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tornado Capsuleer Elite XIX SKIN:
+    id: 63692
+    marketGroup: 1959
+    name: Tornado Capsuleer Elite XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tornado Exoplanets Hunter SKIN:
     id: 45969
     marketGroup: 1959
@@ -31794,6 +33854,13 @@ types:
   Tornado Golden SKIN:
     id: 36520
     name: Tornado Golden SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tornado Halcyon Dawn SKIN:
+    id: 63557
+    name: Tornado Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31883,6 +33950,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tristan Carmine Horizon SKIN:
+    id: 63345
+    name: Tristan Carmine Horizon SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tristan Chromodynamic Candy SKIN:
     id: 49799
     marketGroup: 2004
@@ -31911,6 +33985,13 @@ types:
     id: 44179
     marketGroup: 2004
     name: Tristan Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tristan Halcyon Dawn SKIN:
+    id: 63486
+    name: Tristan Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -32111,6 +34192,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Fleet Issue Ace of Podhunters SKIN:
+    id: 63212
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Ace of Podhunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Typhoon Fleet Issue Biosecurity Responders SKIN:
     id: 55675
     marketGroup: 2108
@@ -32167,8 +34256,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Fleet Issue Halcyon Dawn SKIN:
+    id: 63595
+    name: Typhoon Fleet Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Typhoon Fleet Issue Hunter's Quiver SKIN:
     id: 57777
+    marketGroup: 1954
     name: Typhoon Fleet Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -32218,6 +34315,13 @@ types:
     id: 46912
     marketGroup: 1967
     name: Typhoon Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Typhoon Halcyon Dawn SKIN:
+    id: 63561
+    name: Typhoon Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -32419,6 +34523,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vagabond Halcyon Dawn SKIN:
+    id: 63569
+    name: Vagabond Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vagabond Hazard Control SKIN:
     id: 56904
     marketGroup: 2072
@@ -32551,6 +34662,13 @@ types:
     id: 46914
     marketGroup: 2027
     name: Vargur Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vargur Halcyon Dawn SKIN:
+    id: 63579
+    name: Vargur Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -32797,6 +34915,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Velator Halcyon Dawn SKIN:
+    id: 63493
+    name: Velator Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Velator Spirit SKIN:
     id: 44888
     marketGroup: 2354
@@ -32865,6 +34990,13 @@ types:
     id: 46775
     marketGroup: 2047
     name: Vengeance Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vengeance Halcyon Dawn SKIN:
+    id: 63388
+    name: Vengeance Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -33134,10 +35266,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Halcyon Dawn SKIN:
+    id: 63503
+    name: Vexor Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Headhunter SKIN:
     id: 46718
     marketGroup: 1992
     name: Vexor Headhunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Hunter's Quiver SKIN:
+    id: 63175
+    name: Vexor Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -33247,6 +35393,20 @@ types:
     id: 47531
     marketGroup: 2063
     name: Vexor Navy Issue Glittering Dream SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Navy Issue Halcyon Dawn SKIN:
+    id: 63534
+    name: Vexor Navy Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Navy Issue Hunter's Quiver SKIN:
+    id: 63638
+    name: Vexor Navy Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -33470,6 +35630,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Viator Halcyon Dawn SKIN:
+    id: 63509
+    name: Viator Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Viator Inner Zone Vanguard SKIN:
     id: 52762
     marketGroup: 2090
@@ -33619,6 +35786,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vigil Fleet Issue Halcyon Dawn SKIN:
+    id: 63592
+    name: Vigil Fleet Issue Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vigil Fleet Issue Justice SKIN:
     id: 40333
     marketGroup: 2000
@@ -33655,6 +35829,13 @@ types:
     id: 44165
     marketGroup: 2005
     name: Vigil Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigil Halcyon Dawn SKIN:
+    id: 63543
+    name: Vigil Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -33931,6 +36112,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vulture Halcyon Dawn SKIN:
+    id: 63460
+    name: Vulture Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vulture Matigu Seabeast SKIN:
     id: 40611
     marketGroup: 2105
@@ -34027,6 +36215,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Widow Halcyon Dawn SKIN:
+    id: 63451
+    name: Widow Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Widow Iceblade Guerilla SKIN:
     id: 59331
     marketGroup: 2111
@@ -34111,6 +36306,13 @@ types:
     id: 46881
     marketGroup: 2050
     name: Wolf Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wolf Halcyon Dawn SKIN:
+    id: 63573
+    name: Wolf Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -34213,6 +36415,7 @@ types:
     volume: 0.009999999776482582
   Worm Hunter's Quiver SKIN:
     id: 57781
+    marketGroup: 1954
     name: Worm Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -34226,10 +36429,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Worm Valkyrie SKIN:
+    id: 63616
+    name: Worm Valkyrie SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Worm Vampire's Hex SKIN:
     id: 57813
     marketGroup: 2031
     name: Worm Vampire's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Worm Versus Redforce SKIN:
+    id: 63643
+    name: Worm Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -34262,6 +36479,13 @@ types:
     id: 46923
     marketGroup: 2010
     name: Wreathe Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wreathe Halcyon Dawn SKIN:
+    id: 63556
+    name: Wreathe Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -34369,6 +36593,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Wyvern Halcyon Dawn SKIN:
+    id: 63419
+    name: Wyvern Halcyon Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Wyvern Headhunter SKIN:
     id: 49424
     marketGroup: 1975
@@ -34472,6 +36703,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Zealot Ace of Podhunters SKIN:
+    id: 63202
+    marketGroup: 2069
+    name: Zealot Ace of Podhunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Zealot Biosecurity Responders SKIN:
     id: 55302
     marketGroup: 2069
@@ -34539,6 +36778,13 @@ types:
     id: 46788
     marketGroup: 2069
     name: Zealot Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Zealot Halcyon Dawn SKIN:
+    id: 63387
+    name: Zealot Halcyon Dawn SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

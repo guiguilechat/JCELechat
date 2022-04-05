@@ -39,6 +39,10 @@ types:
     hp: 500.0
     id: 37135
     ignorecloakvelocitypenalty: 1
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
+    isindustrialjumpconduitpassenger: 1
+    isindustrialjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -136,6 +140,10 @@ types:
     hp: 600.0
     id: 33697
     ignorecloakvelocitypenalty: 1
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
+    isindustrialjumpconduitpassenger: 1
+    isindustrialjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4

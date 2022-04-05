@@ -85,7 +85,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class MissionFactionIndustrials
+public class MissionFactionHaulers
     extends Entity
 {
     /**
@@ -569,7 +569,7 @@ public class MissionFactionIndustrials
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, Agility.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, GfxTurretID.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityLootValueMin.INSTANCE, EntityLootCountMin.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntityShieldBoostAmount.INSTANCE })));
-    public static final MissionFactionIndustrials.MetaGroup METAGROUP = new MissionFactionIndustrials.MetaGroup();
+    public static final MissionFactionHaulers.MetaGroup METAGROUP = new MissionFactionHaulers.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -859,18 +859,18 @@ public class MissionFactionIndustrials
     }
 
     @Override
-    public IMetaGroup<MissionFactionIndustrials> getGroup() {
+    public IMetaGroup<MissionFactionHaulers> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<MissionFactionIndustrials>
+        implements IMetaGroup<MissionFactionHaulers>
     {
-        public static final String RESOURCE_PATH = "SDE/types/entity/MissionFactionIndustrials.yaml";
-        private Map<String, MissionFactionIndustrials> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/entity/MissionFactionHaulers.yaml";
+        private Map<String, MissionFactionHaulers> cache = (null);
 
         @Override
-        public IMetaCategory<? super MissionFactionIndustrials> category() {
+        public IMetaCategory<? super MissionFactionHaulers> category() {
             return Entity.METACAT;
         }
 
@@ -881,13 +881,13 @@ public class MissionFactionIndustrials
 
         @Override
         public String getName() {
-            return "MissionFactionIndustrials";
+            return "MissionFactionHaulers";
         }
 
         @Override
-        public synchronized Map<String, MissionFactionIndustrials> load() {
+        public synchronized Map<String, MissionFactionHaulers> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(MissionFactionIndustrials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(MissionFactionHaulers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -897,7 +897,7 @@ public class MissionFactionIndustrials
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionFactionIndustrials> types;
+            public LinkedHashMap<String, MissionFactionHaulers> types;
         }
     }
 }

@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
 
-public class IndustrialBlueprint
+public class HaulerBlueprint
     extends Blueprint
 {
     /**
@@ -53,7 +53,7 @@ public class IndustrialBlueprint
     @DefaultRealValue(0.0)
     public double radius;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryJobCostMultiplier.INSTANCE, IndustryBlueprintRank.INSTANCE, Capacity.INSTANCE })));
-    public static final IndustrialBlueprint.MetaGroup METAGROUP = new IndustrialBlueprint.MetaGroup();
+    public static final HaulerBlueprint.MetaGroup METAGROUP = new HaulerBlueprint.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -87,18 +87,18 @@ public class IndustrialBlueprint
     }
 
     @Override
-    public IMetaGroup<IndustrialBlueprint> getGroup() {
+    public IMetaGroup<HaulerBlueprint> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<IndustrialBlueprint>
+        implements IMetaGroup<HaulerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/types/blueprint/IndustrialBlueprint.yaml";
-        private Map<String, IndustrialBlueprint> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/HaulerBlueprint.yaml";
+        private Map<String, HaulerBlueprint> cache = (null);
 
         @Override
-        public IMetaCategory<? super IndustrialBlueprint> category() {
+        public IMetaCategory<? super HaulerBlueprint> category() {
             return Blueprint.METACAT;
         }
 
@@ -109,13 +109,13 @@ public class IndustrialBlueprint
 
         @Override
         public String getName() {
-            return "IndustrialBlueprint";
+            return "HaulerBlueprint";
         }
 
         @Override
-        public synchronized Map<String, IndustrialBlueprint> load() {
+        public synchronized Map<String, HaulerBlueprint> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(IndustrialBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(HaulerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -125,7 +125,7 @@ public class IndustrialBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, IndustrialBlueprint> types;
+            public LinkedHashMap<String, HaulerBlueprint> types;
         }
     }
 }

@@ -15,6 +15,7 @@ types:
     id: 23953
     jumpportalconsumptionmassfactor: 1.500000013088254E-9
     jumpportalduration: 60000
+    jumpportalpassengerrequiredattributeid: 3319
     marketGroup: 1640
     mass: 1.0
     maxgroupactive: 1

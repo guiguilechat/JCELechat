@@ -335,10 +335,10 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Hunt YC123 Acceleration Gate Key:
-    id: 57782
+  Hunt YC124 Acceleration Gate Key:
+    id: 63632
     mass: 1.0
-    name: Hunt YC123 Acceleration Gate Key
+    name: Hunt YC124 Acceleration Gate Key
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

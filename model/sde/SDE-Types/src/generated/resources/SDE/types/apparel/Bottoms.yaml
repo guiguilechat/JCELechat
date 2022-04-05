@@ -387,6 +387,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's Ace of Podhunters Pants:
+    gender: 2
+    id: 63114
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Ace of Podhunters Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Federation Commander's Dress Pants:
     gender: 2
     id: 58953
@@ -1580,6 +1590,16 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's Ace of Podhunters Pants:
+    gender: 2
+    id: 63124
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Ace of Podhunters Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's Federation Commander's Dress Pants:
     gender: 2

@@ -189,7 +189,7 @@ types:
     mass: 4000.0
     name: 'Compressed Brimful Sylvite '
     orebasictype: 45491
-    packagedVolume: 10.0
+    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
@@ -198,7 +198,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 10.0
+    volume: 0.10000000149011612
   'Compressed Brimful Zeolites ':
     asteroidmaxradius: 5000
     asteroidmetalevel: 3

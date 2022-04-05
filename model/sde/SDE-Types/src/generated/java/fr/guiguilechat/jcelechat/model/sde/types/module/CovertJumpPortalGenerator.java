@@ -26,9 +26,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnableOpenJumpPortal;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnablePerformConduitJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpConduitPassengerRequiredAttributeID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonics;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalConsumptionMassFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalPassengerRequiredAttributeID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
@@ -116,6 +118,13 @@ public class CovertJumpPortalGenerator
     @DefaultIntValue(0)
     public int enableperformconduitjump;
     /**
+     * This attribute enables a ship to activate a Jump Conduit. Its value specifies a dogma attribute ID that a passenger ship must possess in order to be carried though that Jump Conduit.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int jumpconduitpassengerrequiredattributeid;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -136,6 +145,13 @@ public class CovertJumpPortalGenerator
     @Stackable(true)
     @DefaultIntValue(300000)
     public int jumpportalduration;
+    /**
+     * This attribute enables a ship to open a Jump Portal. Its value specifies a dogma attribute ID that a passenger ship must possess in order to travel through that Jump Portal.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int jumpportalpassengerrequiredattributeid;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -185,7 +201,7 @@ public class CovertJumpPortalGenerator
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double speedfactor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, Power.INSTANCE, Radius.INSTANCE, JumpHarmonics.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, EnablePerformConduitJump.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, Power.INSTANCE, Radius.INSTANCE, JumpHarmonics.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, JumpPortalPassengerRequiredAttributeID.INSTANCE, EnablePerformConduitJump.INSTANCE, DisallowRepeatingActivation.INSTANCE, JumpConduitPassengerRequiredAttributeID.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CovertJumpPortalGenerator.MetaGroup METAGROUP = new CovertJumpPortalGenerator.MetaGroup();
 
     @Override
@@ -231,6 +247,10 @@ public class CovertJumpPortalGenerator
             {
                 return enableperformconduitjump;
             }
+            case  3321 :
+            {
+                return jumpconduitpassengerrequiredattributeid;
+            }
             case  1253 :
             {
                 return jumpharmonics;
@@ -242,6 +262,10 @@ public class CovertJumpPortalGenerator
             case  1002 :
             {
                 return jumpportalduration;
+            }
+            case  3318 :
+            {
+                return jumpportalpassengerrequiredattributeid;
             }
             case  763 :
             {

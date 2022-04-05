@@ -119086,6 +119086,16 @@ blueprints:
     research_time:
       time: 315
     seeded: false
+  33082:
+    copying:
+      time: 4800
+    id: 33082
+    maxCopyRuns: 30
+    research_material:
+      time: 2100
+    research_time:
+      time: 2100
+    seeded: false
   33088:
     copying:
       time: 480
@@ -175207,7 +175217,7 @@ blueprints:
         ? id: 11455
         : 1
       time: 27641
-    seeded: false
+    seeded: true
   62652:
     copying:
       time: 17280

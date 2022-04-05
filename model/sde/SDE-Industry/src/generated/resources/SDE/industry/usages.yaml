@@ -129515,9 +129515,6 @@ usages:
       59301: null
       59302: null
       59303: null
-      62595: null
-      62596: null
-      62597: null
   49099:
     productOfManuf: !!set
       49100: null
@@ -134513,15 +134510,6 @@ usages:
   62593:
     productOfInvention: !!set
       62592: null
-  62595:
-    reprocessInto:
-      48927: 1.0
-  62596:
-    reprocessInto:
-      48927: 1.0
-  62597:
-    reprocessInto:
-      48927: 1.0
   62622:
     productOfManuf: !!set
       62652: null

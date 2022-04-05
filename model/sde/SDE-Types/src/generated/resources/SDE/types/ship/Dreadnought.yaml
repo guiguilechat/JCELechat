@@ -50,6 +50,7 @@ types:
     jumpdriveconsumptiontype: 17888
     jumpdriveduration: 300000
     jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
@@ -167,6 +168,7 @@ types:
     jumpdriveconsumptiontype: 16274
     jumpdriveduration: 300000
     jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 8
@@ -286,6 +288,7 @@ types:
     jumpdriveconsumptiontype: 17887
     jumpdriveduration: 300000
     jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 8
@@ -399,6 +402,7 @@ types:
     jumpdriveconsumptiontype: 17889
     jumpdriveduration: 300000
     jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 6
@@ -512,6 +516,7 @@ types:
     jumpdriveconsumptiontype: 17888
     jumpdriveduration: 300000
     jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
@@ -625,6 +630,7 @@ types:
     jumpdriveconsumptiontype: 16274
     jumpdriveduration: 300000
     jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 8
@@ -738,6 +744,7 @@ types:
     jumpdriveconsumptiontype: 17887
     jumpdriveduration: 300000
     jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 7
@@ -855,6 +862,7 @@ types:
     jumpdriveconsumptiontype: 16274
     jumpdriveduration: 300000
     jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 8

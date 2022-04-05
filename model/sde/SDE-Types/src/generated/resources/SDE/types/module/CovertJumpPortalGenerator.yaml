@@ -12,9 +12,11 @@ types:
     enableperformconduitjump: 1
     hp: 99999.0
     id: 28652
+    jumpconduitpassengerrequiredattributeid: 3322
     jumpharmonics: 5
     jumpportalconsumptionmassfactor: 2.0000000233721948E-7
     jumpportalduration: 20000
+    jumpportalpassengerrequiredattributeid: 3320
     marketGroup: 1640
     mass: 1.0
     maxgroupactive: 1

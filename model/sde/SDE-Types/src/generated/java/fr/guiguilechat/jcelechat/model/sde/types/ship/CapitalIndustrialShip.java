@@ -28,12 +28,15 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanReceiveCloneJumps;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapitalIndustrialCommandBonusDroneDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapitalIndustrialShipBonusDroneHitPoints;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapitalIndustrialShipBonusDroneIceCycleTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapitalIndustrialShipBonusDroneOreMiningYield;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScannerRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CommandBonusEffective;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitJumpDriveConsumptionAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitJumpPassengerCount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
@@ -66,8 +69,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialBonusDroneDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusDroneDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCommandBonusMiningForemanBurstRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsCapitalSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpClonesLeft;
@@ -76,6 +77,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveConsumptionAmount
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveConsumptionType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveTargetBeaconTypelistID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpFatigueMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonics;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
@@ -179,6 +181,10 @@ public class CapitalIndustrialShip
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int capitalindustrialcommandbonusdronedamage;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int capitalindustrialshipbonusdronehitpoints;
     @HighIsGood(true)
     @Stackable(true)
@@ -202,6 +208,20 @@ public class CapitalIndustrialShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int commandbonuseffective;
+    /**
+     * Number of units needed to conduit jump
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int conduitjumpdriveconsumptionamount;
+    /**
+     * How many passengers can be carried in a Conduit Jump
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int conduitjumppassengercount;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
@@ -300,17 +320,6 @@ public class CapitalIndustrialShip
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double heatattenuationmed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int industrialbonusdronedamage;
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int industrialcommandbonusdronedamage;
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
@@ -364,6 +373,13 @@ public class CapitalIndustrialShip
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double jumpdriverange;
+    /**
+     * Pointer to type-list that describes which beacons a ship's jump drive can connect to
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int jumpdrivetargetbeacontypelistid;
     /**
      * Multiplier for jump fatigue distance
      */
@@ -546,7 +562,7 @@ public class CapitalIndustrialShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, IndustrialBonusDroneDamage.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, JumpClonesLeft.INSTANCE, WeaponDisruptionResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, MaxRangeBonus.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, IndustrialCommandBonusDroneDamage.INSTANCE, IndustrialCommandBonusMiningForemanBurstRange.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, CapitalIndustrialShipBonusDroneOreMiningYield.INSTANCE, CapitalIndustrialShipBonusDroneIceCycleTime.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, CapitalIndustrialShipBonusDroneHitPoints.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, JumpFatigueMultiplier.INSTANCE, MaxGangModules.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, SurveyScannerRangeBonus.INSTANCE, ScanMagnetometricStrength.INSTANCE, CargoScannerRangeBonus.INSTANCE, MaxJumpClones.INSTANCE, ScanGravimetricStrength.INSTANCE, CommandBonusEffective.INSTANCE, CanReceiveCloneJumps.INSTANCE, ShipBonusORECapital1 .INSTANCE, ShipBonusORECapital2 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusORECapital3 .INSTANCE, ShipBonusORECapital4 .INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, JumpClonesLeft.INSTANCE, ConduitJumpDriveConsumptionAmount.INSTANCE, ConduitJumpPassengerCount.INSTANCE, WeaponDisruptionResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, MaxRangeBonus.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, IndustrialCommandBonusMiningForemanBurstRange.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, CapitalIndustrialShipBonusDroneOreMiningYield.INSTANCE, CapitalIndustrialShipBonusDroneIceCycleTime.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, CapitalIndustrialShipBonusDroneHitPoints.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, JumpFatigueMultiplier.INSTANCE, MaxGangModules.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, SurveyScannerRangeBonus.INSTANCE, ScanMagnetometricStrength.INSTANCE, CargoScannerRangeBonus.INSTANCE, MaxJumpClones.INSTANCE, ScanGravimetricStrength.INSTANCE, CommandBonusEffective.INSTANCE, CanReceiveCloneJumps.INSTANCE, ShipBonusORECapital1 .INSTANCE, ShipBonusORECapital2 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusORECapital3 .INSTANCE, ShipBonusORECapital4 .INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, EnergyWarfareResistance.INSTANCE, CapitalIndustrialCommandBonusDroneDamage.INSTANCE })));
     public static final CapitalIndustrialShip.MetaGroup METAGROUP = new CapitalIndustrialShip.MetaGroup();
 
     @Override
@@ -568,6 +584,10 @@ public class CapitalIndustrialShip
             {
                 return canreceiveclonejumps;
             }
+            case  3326 :
+            {
+                return capitalindustrialcommandbonusdronedamage;
+            }
             case  3233 :
             {
                 return capitalindustrialshipbonusdronehitpoints;
@@ -587,6 +607,14 @@ public class CapitalIndustrialShip
             case  1236 :
             {
                 return commandbonuseffective;
+            }
+            case  3131 :
+            {
+                return conduitjumpdriveconsumptionamount;
+            }
+            case  3133 :
+            {
+                return conduitjumppassengercount;
             }
             case  1970 :
             {
@@ -644,14 +672,6 @@ public class CapitalIndustrialShip
             {
                 return heatattenuationmed;
             }
-            case  2580 :
-            {
-                return industrialbonusdronedamage;
-            }
-            case  3203 :
-            {
-                return industrialcommandbonusdronedamage;
-            }
             case  3205 :
             {
                 return industrialcommandbonusminingforemanburstrange;
@@ -683,6 +703,10 @@ public class CapitalIndustrialShip
             case  867 :
             {
                 return jumpdriverange;
+            }
+            case  3317 :
+            {
+                return jumpdrivetargetbeacontypelistid;
             }
             case  1971 :
             {

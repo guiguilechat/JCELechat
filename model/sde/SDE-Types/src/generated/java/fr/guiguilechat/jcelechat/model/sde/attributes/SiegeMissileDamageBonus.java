@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * Missile Damage Bonus Percentage
+ * Siege Missile Damage Bonus Percentage
  */
 public class SiegeMissileDamageBonus
     extends IntAttribute

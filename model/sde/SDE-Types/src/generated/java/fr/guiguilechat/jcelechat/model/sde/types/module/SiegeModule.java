@@ -581,7 +581,7 @@ public class SiegeModule
     @DefaultIntValue(0)
     public int siegemassmultiplier;
     /**
-     * Missile Damage Bonus Percentage
+     * Siege Missile Damage Bonus Percentage
      */
     @HighIsGood(true)
     @Stackable(true)

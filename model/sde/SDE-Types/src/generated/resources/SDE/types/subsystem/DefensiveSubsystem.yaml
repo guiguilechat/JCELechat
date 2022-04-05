@@ -34,6 +34,8 @@ types:
     hislotmodifier: 1
     hp: 40.0
     id: 45586
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonicsmodifier: 5
     lowslotmodifier: 2
     marketGroup: 1126
@@ -151,6 +153,8 @@ types:
     hislotmodifier: 1
     hp: 40.0
     id: 45595
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonicsmodifier: 5
     lowslotmodifier: 1
     marketGroup: 1128
@@ -196,6 +200,7 @@ types:
     signatureradius: 10.0
     subsystembonusgallentedefensive: 5.0
     subsystembonusgallentedefensive2: 5
+    subsystembonusmassaddition: -25
     subsystemslot: 126
     techlevel: 3
     volume: 40.0
@@ -208,6 +213,8 @@ types:
     hislotmodifier: 1
     hp: 40.0
     id: 45592
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonicsmodifier: 5
     lowslotmodifier: 2
     marketGroup: 1129
@@ -297,6 +304,8 @@ types:
     hislotmodifier: 1
     hp: 40.0
     id: 45589
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonicsmodifier: 5
     marketGroup: 1127
     mass: 1400000.0

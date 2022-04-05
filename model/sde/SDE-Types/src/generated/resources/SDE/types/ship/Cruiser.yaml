@@ -2856,6 +2856,8 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 33470
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
@@ -2956,6 +2958,8 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 33553
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
@@ -3422,6 +3426,8 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 34590
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4

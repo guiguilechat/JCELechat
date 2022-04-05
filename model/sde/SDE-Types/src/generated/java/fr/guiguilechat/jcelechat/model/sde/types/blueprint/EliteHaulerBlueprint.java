@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
 
-public class EliteIndustrialBlueprint
+public class EliteHaulerBlueprint
     extends Blueprint
 {
     /**
@@ -54,7 +54,7 @@ public class EliteIndustrialBlueprint
     @DefaultIntValue(1)
     public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE })));
-    public static final EliteIndustrialBlueprint.MetaGroup METAGROUP = new EliteIndustrialBlueprint.MetaGroup();
+    public static final EliteHaulerBlueprint.MetaGroup METAGROUP = new EliteHaulerBlueprint.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -88,18 +88,18 @@ public class EliteIndustrialBlueprint
     }
 
     @Override
-    public IMetaGroup<EliteIndustrialBlueprint> getGroup() {
+    public IMetaGroup<EliteHaulerBlueprint> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<EliteIndustrialBlueprint>
+        implements IMetaGroup<EliteHaulerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/types/blueprint/EliteIndustrialBlueprint.yaml";
-        private Map<String, EliteIndustrialBlueprint> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/EliteHaulerBlueprint.yaml";
+        private Map<String, EliteHaulerBlueprint> cache = (null);
 
         @Override
-        public IMetaCategory<? super EliteIndustrialBlueprint> category() {
+        public IMetaCategory<? super EliteHaulerBlueprint> category() {
             return Blueprint.METACAT;
         }
 
@@ -110,13 +110,13 @@ public class EliteIndustrialBlueprint
 
         @Override
         public String getName() {
-            return "EliteIndustrialBlueprint";
+            return "EliteHaulerBlueprint";
         }
 
         @Override
-        public synchronized Map<String, EliteIndustrialBlueprint> load() {
+        public synchronized Map<String, EliteHaulerBlueprint> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(EliteIndustrialBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(EliteHaulerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -126,7 +126,7 @@ public class EliteIndustrialBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EliteIndustrialBlueprint> types;
+            public LinkedHashMap<String, EliteHaulerBlueprint> types;
         }
     }
 }

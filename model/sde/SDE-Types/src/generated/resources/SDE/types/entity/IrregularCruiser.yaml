@@ -2882,7 +2882,7 @@ types:
     warpscrambleduration: 8000
     warpspeedmultiplier: 15.0
   Hunt Blackbird:
-    agility: 0.1599999964237213
+    agility: 0.12999999523162842
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8100000023841858
@@ -2975,9 +2975,9 @@ types:
     thermaldamageresonance: 0.6700000166893005
     volume: 92000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 15.0
   Hunt Caracal:
-    agility: 0.1599999964237213
+    agility: 0.12999999523162842
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8100000023841858
@@ -3061,9 +3061,9 @@ types:
     thermaldamageresonance: 0.6700000166893005
     volume: 92000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 15.0
   Hunt Gila:
-    agility: 0.2199999988079071
+    agility: 0.17000000178813934
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8100000023841858
@@ -3152,7 +3152,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     volume: 92000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 15.0
   Liminal Jarognik Vedmak:
     agility: 0.30000001192092896
     aitankingmodifierdrone: 0.699999988079071

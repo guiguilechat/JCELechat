@@ -47,11 +47,14 @@ types:
     hp: 4000.0
     id: 44996
     inversecappedsecstatus: -1
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 700
     jumpdriveconsumptiontype: 16274
     jumpdriveduration: 300000
     jumpdriverange: 4.0
+    jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
     jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
@@ -170,11 +173,14 @@ types:
     hislots: 8
     hp: 4968.0
     id: 22440
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 700
     jumpdriveconsumptiontype: 17889
     jumpdriveduration: 300000
     jumpdriverange: 4.0
+    jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
     jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
@@ -282,11 +288,14 @@ types:
     hislots: 8
     hp: 4968.0
     id: 22428
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 700
     jumpdriveconsumptiontype: 16274
     jumpdriveduration: 300000
     jumpdriverange: 4.0
+    jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
     jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
@@ -394,11 +403,14 @@ types:
     hislots: 7
     hp: 5312.0
     id: 22430
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 700
     jumpdriveconsumptiontype: 17887
     jumpdriveduration: 300000
     jumpdriverange: 4.0
+    jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
     jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
@@ -507,11 +519,14 @@ types:
     hislots: 7
     hp: 4375.0
     id: 22436
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 700
     jumpdriveconsumptiontype: 17888
     jumpdriveduration: 300000
     jumpdriverange: 4.0
+    jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
     jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7

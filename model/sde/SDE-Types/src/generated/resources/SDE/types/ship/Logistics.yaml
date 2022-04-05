@@ -131,6 +131,8 @@ types:
     hislots: 6
     hp: 2012.0
     id: 32790
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -414,6 +416,8 @@ types:
     hislots: 6
     hp: 3000.0
     id: 42245
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 6

@@ -221,6 +221,17 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Farsight' Augmented Spectacles:
+    gender: 3
+    id: 45736
+    marketGroup: 1408
+    mass: 0.5
+    name: Women's 'Farsight' Augmented Spectacles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
   Women's 'Glass Semiotique' Monocle Interface (right):
     gender: 2
     id: 60171

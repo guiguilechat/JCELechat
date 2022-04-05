@@ -776,6 +776,116 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-001:
+    exporttaxmultiplier: 1
+    id: 63704
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-001
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-002:
+    exporttaxmultiplier: 1
+    id: 63712
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-002
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-003:
+    exporttaxmultiplier: 1
+    id: 63713
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-003
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-004:
+    exporttaxmultiplier: 1
+    id: 63705
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-004
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-005:
+    exporttaxmultiplier: 1
+    id: 63706
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-005
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-006:
+    exporttaxmultiplier: 1
+    id: 63707
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-006
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-007:
+    exporttaxmultiplier: 1
+    id: 63708
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-007
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-008:
+    exporttaxmultiplier: 1
+    id: 63709
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-008
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-009:
+    exporttaxmultiplier: 1
+    id: 63710
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-009
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-010:
+    exporttaxmultiplier: 1
+    id: 63711
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-010
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Cargo Manifest:
     exporttaxmultiplier: 1
     id: 28975
@@ -849,6 +959,16 @@ types:
     portionSize: 1
     published: true
     volume: 12.0
+  Classified Caldari Databank:
+    exporttaxmultiplier: 1
+    id: 63699
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    name: Classified Caldari Databank
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Classified Report - Station Defenses:
     exporttaxmultiplier: 1
     id: 22222

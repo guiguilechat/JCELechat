@@ -34,6 +34,8 @@ types:
     hislots: 2
     hp: 3000.0
     id: 17476
+    isindustrialjumpconduitpassenger: 1
+    isindustrialjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
     maincolor: 16777215
@@ -129,6 +131,8 @@ types:
     hislots: 2
     hp: 6000.0
     id: 17480
+    isindustrialjumpconduitpassenger: 1
+    isindustrialjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
     maincolor: 16777215
@@ -221,6 +225,8 @@ types:
     hislots: 2
     hp: 4000.0
     id: 17478
+    isindustrialjumpconduitpassenger: 1
+    isindustrialjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
     maincolor: 16777215

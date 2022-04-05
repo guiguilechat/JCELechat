@@ -14,10 +14,13 @@ types:
     canreceiveclonejumps: 1
     capacitorcapacity: 67500.0
     capacity: 40000.0
+    capitalindustrialcommandbonusdronedamage: 10
     capitalindustrialshipbonusdronehitpoints: 10
     capitalindustrialshipbonusdroneicecycletime: -6
     capitalindustrialshipbonusdroneoreminingyield: 10
     cargoscannerrangebonus: 200
+    conduitjumpdriveconsumptionamount: 5000
+    conduitjumppassengercount: 30
     cpuoutput: 1200
     disallowinhighsec: 1
     dronebandwidth: 125
@@ -49,7 +52,6 @@ types:
     hislots: 8
     hp: 300000.0
     id: 28352
-    industrialcommandbonusdronedamage: 10
     industrialcommandbonusminingforemanburstrange: 5
     iscapitalsize: 1
     jumpdrivecapacitorneed: 0.949999988079071
@@ -57,6 +59,7 @@ types:
     jumpdriveconsumptiontype: 17887
     jumpdriveduration: 300000
     jumpdriverange: 5.0
+    jumpdrivetargetbeacontypelistid: 348
     jumpfatiguemultiplier: 0.10000000149011612
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005

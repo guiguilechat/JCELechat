@@ -16,7 +16,7 @@ types:
     launchergroup: 1562
     marketGroup: 2196
     mass: 1000.0
-    maxvelocity: 6000.0
+    maxvelocity: 9000.0
     name: Standup Cruise Missile
     packagedVolume: 0.5
     portionSize: 100
@@ -44,7 +44,7 @@ types:
     launchergroup: 1562
     marketGroup: 2196
     mass: 1000.0
-    maxvelocity: 7000.0
+    maxvelocity: 10500.0
     name: Standup Heavy Missile
     packagedVolume: 0.5
     portionSize: 100
@@ -72,7 +72,7 @@ types:
     launchergroup: 1562
     marketGroup: 2196
     mass: 1000.0
-    maxvelocity: 10000.0
+    maxvelocity: 15000.0
     name: Standup Light Missile
     packagedVolume: 0.5
     portionSize: 100

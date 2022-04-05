@@ -44,6 +44,17 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  Industrial Jump Portal Generator I Blueprint:
+    id: 63164
+    industryblueprintrank: 12.0
+    marketGroup: 799
+    name: Industrial Jump Portal Generator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
   Jump Portal Generator I Blueprint:
     id: 23954
     industryblueprintrank: 180.0

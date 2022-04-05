@@ -34,6 +34,8 @@ types:
     hislots: 3
     hp: 422.0
     id: 11188
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 2
@@ -126,6 +128,8 @@ types:
     hislots: 3
     hp: 316.0
     id: 11192
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 2
@@ -220,6 +224,8 @@ types:
     hislots: 4
     hp: 550.0
     id: 42246
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
@@ -319,6 +325,8 @@ types:
     hislots: 3
     hp: 528.0
     id: 11182
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
@@ -413,6 +421,8 @@ types:
     hislots: 3
     hp: 450.0
     id: 33397
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
@@ -512,6 +522,8 @@ types:
     hislots: 3
     hp: 809.0
     id: 11172
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -606,6 +618,8 @@ types:
     hislots: 4
     hp: 550.0
     id: 48636
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
@@ -701,6 +715,8 @@ types:
     hp: 200.0
     id: 44993
     inversecappedsecstatus: -1
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 4

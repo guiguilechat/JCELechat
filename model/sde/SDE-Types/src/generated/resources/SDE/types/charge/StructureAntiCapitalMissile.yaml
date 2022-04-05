@@ -7,16 +7,16 @@ types:
     aoefalloff: 1500
     aoevelocity: 50
     detonationrange: 35
-    emdamage: 18000.0
+    emdamage: 12600.0
     explosiondelay: 140000
-    explosivedamage: 18000.0
+    explosivedamage: 12600.0
     hp: 4000000.0
     id: 37843
-    kineticdamage: 18000.0
+    kineticdamage: 12600.0
     launchergroup: 1327
     marketGroup: 2197
     mass: 1000.0
-    maxvelocity: 4000.0
+    maxvelocity: 6000.0
     name: Standup Super-heavy Torpedo
     packagedVolume: 0.5
     portionSize: 100
@@ -25,7 +25,7 @@ types:
     radius: 300.0
     structureitemvisualflag: 1
     structureuniformity: 0.75
-    thermaldamage: 18000.0
+    thermaldamage: 12600.0
     volume: 0.5
   Standup XL Cruise Missile:
     agility: 1000.0
@@ -35,16 +35,16 @@ types:
     aoefalloff: 1500
     aoevelocity: 70
     detonationrange: 35
-    emdamage: 12000.0
+    emdamage: 6000.0
     explosiondelay: 100000
-    explosivedamage: 12000.0
+    explosivedamage: 6000.0
     hp: 4000000.0
     id: 37844
-    kineticdamage: 12000.0
+    kineticdamage: 6000.0
     launchergroup: 1327
     marketGroup: 2197
     mass: 1000.0
-    maxvelocity: 6000.0
+    maxvelocity: 9000.0
     name: Standup XL Cruise Missile
     packagedVolume: 0.5
     portionSize: 100
@@ -53,5 +53,5 @@ types:
     radius: 300.0
     structureitemvisualflag: 1
     structureuniformity: 0.75
-    thermaldamage: 12000.0
+    thermaldamage: 6000.0
     volume: 0.5

@@ -36,6 +36,8 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 33468
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
@@ -3845,6 +3847,8 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 32880
+    isindustrialjumpconduitpassenger: 1
+    isindustrialjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
     lowslots: 1
     maincolor: 16777215

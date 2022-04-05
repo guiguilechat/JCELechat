@@ -899,6 +899,18 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  Taipan Blueprint:
+    id: 33082
+    industryblueprintrank: 20.0
+    industryjobcostmultiplier: 1
+    name: Taipan Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9999999.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
   Taranis Blueprint:
     id: 11201
     industryblueprintrank: 400.0

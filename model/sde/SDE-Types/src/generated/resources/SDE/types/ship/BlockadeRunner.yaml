@@ -35,6 +35,8 @@ types:
     hislots: 2
     hp: 1900.0
     id: 12729
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
@@ -128,6 +130,8 @@ types:
     hislots: 2
     hp: 2100.0
     id: 12733
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
@@ -221,6 +225,8 @@ types:
     hislots: 2
     hp: 1700.0
     id: 12735
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
@@ -315,6 +321,8 @@ types:
     hislots: 2
     hp: 2700.0
     id: 12743
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005

@@ -592,6 +592,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Ace of Podhunters Jacket:
+    gender: 2
+    id: 63112
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Ace of Podhunters Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Albedo Affluence Jacket:
     gender: 2
     id: 54382
@@ -694,6 +704,26 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Caldari State Officer Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Capsuleer Day XIX Hoodie:
+    gender: 2
+    id: 63246
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Capsuleer Day XIX Hoodie
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Capsuleer Elite XIX Hoodie:
+    gender: 2
+    id: 63253
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Capsuleer Elite XIX Hoodie
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -2108,6 +2138,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's Ace of Podhunters Jacket:
+    gender: 2
+    id: 63115
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Ace of Podhunters Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Albedo Affluence Jacket:
     gender: 2
     id: 54364
@@ -2211,6 +2251,26 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Caldari State Officer Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Capsuleer Day XIX Hoodie:
+    gender: 2
+    id: 63257
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Capsuleer Day XIX Hoodie
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Capsuleer Elite XIX Hoodie:
+    gender: 2
+    id: 63260
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Capsuleer Elite XIX Hoodie
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

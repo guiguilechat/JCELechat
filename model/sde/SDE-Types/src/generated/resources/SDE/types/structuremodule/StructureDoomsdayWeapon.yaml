@@ -31,5 +31,6 @@ types:
     published: true
     radius: 1.0
     structureitemvisualflag: 1
+    targetfiltertypelistid: 77
     thermaldamage: 1000000.0
     volume: 64000.0

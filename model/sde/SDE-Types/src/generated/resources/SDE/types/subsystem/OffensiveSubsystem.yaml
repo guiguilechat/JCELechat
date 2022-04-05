@@ -177,9 +177,9 @@ types:
     turrethardpointmodifier: 4
     volume: 40.0
   Proteus Offensive - Drone Synthesis Projector:
-    cpuoutput: 40
-    dronebandwidth: 100
-    dronecapacity: 250
+    cpuoutput: 60
+    dronebandwidth: 125
+    dronecapacity: 300
     fitstoshiptype: 29988
     hislotmodifier: 6
     hp: 40.0
@@ -219,7 +219,7 @@ types:
     name: Proteus Offensive - Hybrid Encoding Platform
     packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 330
+    poweroutput: 430
     published: true
     radius: 500.0
     requiredskill1: 30550
