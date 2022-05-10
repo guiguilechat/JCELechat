@@ -73,6 +73,7 @@ types:
     shipbonusgi: 5
     shipbonusmi: 5
     signatureradius: 190.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -157,6 +158,7 @@ types:
     shipbonusgi: 5
     shipbonusmi: 5
     signatureradius: 215.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -244,6 +246,7 @@ types:
     signatureradius: 195.0
     specialcommandcenterholdcapacity: 6000
     specialplanetarycommoditiesholdcapacity: 45000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -332,6 +335,7 @@ types:
     signatureradius: 185.0
     specialammoholdcapacity: 41000
     specialgasholdcapacity: 30000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -416,6 +420,7 @@ types:
     shipbonusgi: 5
     shipbonusmi: 5
     signatureradius: 220.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -504,6 +509,7 @@ types:
     signatureradius: 210.0
     specialiceholdcapacity: 30000
     specialmineralholdcapacity: 50000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -588,6 +594,7 @@ types:
     shipbonusgi: 5
     shipbonusmi: 5
     signatureradius: 180.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -674,6 +681,7 @@ types:
     shipbonusgi: 5
     shipbonusmi: 5
     signatureradius: 205.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -759,6 +767,7 @@ types:
     shipbonusmi: 5
     signatureradius: 220.0
     specialquafeholdcapacity: 10000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -844,6 +853,7 @@ types:
     shipbonusmi: 5
     signatureradius: 220.0
     specialquafeholdcapacity: 10000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -929,6 +939,7 @@ types:
     shipbonusmi: 5
     signatureradius: 220.0
     specialquafeholdcapacity: 10000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -1016,6 +1027,7 @@ types:
     shipbonusgi2: -5.0
     shipbonusmi: 5
     signatureradius: 185.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -1107,6 +1119,7 @@ types:
     shipbonusoreindustrial1: -5
     shipbonusoreindustrial2: 60
     signatureradius: 250.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -1186,6 +1199,7 @@ types:
     specialgasholdcapacity: 10000
     specialiceholdcapacity: 10000
     specialplanetarycommoditiesholdcapacity: 2500
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -1268,6 +1282,7 @@ types:
     shipbonusgi: 5
     shipbonusmi: 5
     signatureradius: 175.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -1353,6 +1368,7 @@ types:
     shipbonusgi: 5
     shipbonusmi: 5
     signatureradius: 230.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -1438,6 +1454,7 @@ types:
     shipbonusmi: 5
     shipbonusmi2: -5.0
     signatureradius: 155.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005

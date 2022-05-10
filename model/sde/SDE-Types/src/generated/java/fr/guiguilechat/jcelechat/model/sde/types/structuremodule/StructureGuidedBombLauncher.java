@@ -15,11 +15,16 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType10;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType11;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType4;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType6;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType8;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType9;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
@@ -57,6 +62,20 @@ public class StructureGuidedBombLauncher
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int canfitshiptype10;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshiptype11;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int canfitshiptype2;
     /**
      * 
@@ -86,6 +105,27 @@ public class StructureGuidedBombLauncher
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshiptype6;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshiptype7;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshiptype8;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshiptype9;
     /**
      * The cargo space allowed
      */
@@ -218,7 +258,7 @@ public class StructureGuidedBombLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, ChargeGroup1 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Slots.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, CanFitShipType6 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, CanFitShipType11 .INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, ChargeGroup1 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Slots.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType6 .INSTANCE, ChargeRate.INSTANCE, CanFitShipType10 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final StructureGuidedBombLauncher.MetaGroup METAGROUP = new StructureGuidedBombLauncher.MetaGroup();
 
     @Override
@@ -227,6 +267,14 @@ public class StructureGuidedBombLauncher
             case  1302 :
             {
                 return canfitshiptype1;
+            }
+            case  2488 :
+            {
+                return canfitshiptype10;
+            }
+            case  2758 :
+            {
+                return canfitshiptype11;
             }
             case  1303 :
             {
@@ -247,6 +295,18 @@ public class StructureGuidedBombLauncher
             case  2103 :
             {
                 return canfitshiptype6;
+            }
+            case  2463 :
+            {
+                return canfitshiptype7;
+            }
+            case  2486 :
+            {
+                return canfitshiptype8;
+            }
+            case  2487 :
+            {
+                return canfitshiptype9;
             }
             case  38 :
             {

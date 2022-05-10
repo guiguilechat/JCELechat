@@ -419,7 +419,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 0.4020000100135803
     entityfactionloss: 0.10000000149011612
-    entitykillbounty: 450000000
+    entitykillbounty: 150000000
     entitymissiletypeid: 27355
     explosivedamageresonance: 0.4020000100135803
     falloff: 1.0

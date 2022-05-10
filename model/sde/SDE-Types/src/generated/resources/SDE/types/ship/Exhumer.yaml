@@ -92,6 +92,7 @@ types:
     shiprolebonusoreminingduration: -15
     shiprolebonusstripmineractivationcost: -25
     signatureradius: 200.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -192,6 +193,7 @@ types:
     shiprolebonusiceharvestingduration: -12.5
     shiprolebonusoreminingduration: -10
     signatureradius: 200.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -290,6 +292,7 @@ types:
     shiprolebonusdronedamage: 50
     shiprolebonusdronehitpoints: 50
     signatureradius: 200.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005

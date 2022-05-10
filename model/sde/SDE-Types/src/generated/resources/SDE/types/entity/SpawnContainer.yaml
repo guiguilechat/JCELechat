@@ -1929,6 +1929,34 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 27500.0
+  CONCORD Contraband Storage:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 63911
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: CONCORD Contraband Storage
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
   CONCORD MTAC Factory:
     capacitorcapacity: 2700.0
     capacity: 7500.0
@@ -1953,6 +1981,34 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 120000
     structureuniformity: 1.0
+    volume: 27500.0
+  CONCORD Prohibited Item Storage:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 63910
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: CONCORD Prohibited Item Storage
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
     volume: 27500.0
   CPF Habitation Module:
     accessdifficulty: 20.0
@@ -4909,7 +4965,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 3
     volume: 27500.0
   'Huntmaster Communications Tower ':
     capacitorcapacity: 2700.0
@@ -4937,7 +4993,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 4
     volume: 27500.0
   Huntmaster Mainframe:
     capacitorcapacity: 2700.0
@@ -4965,7 +5021,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 5
     volume: 27500.0
   Hyasyoda Security Compound:
     capacitorcapacity: 2700.0
@@ -8634,6 +8690,62 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     tierdifficulty: 1
+    volume: 27500.0
+  Smuggler Dead Drop:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 63871
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Smuggler Dead Drop
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  Smuggler Stash:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 63872
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Smuggler Stash
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
     volume: 27500.0
   Solray Observational Unit:
     accessdifficulty: -10.0

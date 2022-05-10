@@ -83,6 +83,7 @@ types:
     shipbonusgc: 5.0
     shipbonusgc2: 7.5
     signatureradius: 155.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -182,6 +183,7 @@ types:
     shipbonusgc2: 20.0
     shipbonusrole7: 600.0
     signatureradius: 160.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -293,6 +295,7 @@ types:
     shipbonusmc2: 10.0
     shipbonusrole7: -100.0
     signatureradius: 120.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -389,6 +392,7 @@ types:
     shipbonuscc2: 5.0
     shipbonusgc: 5.0
     signatureradius: 165.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -487,6 +491,7 @@ types:
     shipbonusmc2: 30.0
     shipbonusrole7: -25.0
     signatureradius: 90.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -584,6 +589,7 @@ types:
     shipbonuscc: 5
     shipbonusgc: 5.0
     signatureradius: 150.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -681,6 +687,7 @@ types:
     shipbonusmc: 10.0
     shipbonusmc2: 10.0
     signatureradius: 125.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -779,6 +786,7 @@ types:
     shipbonusrole1: 100.0
     shipbonusrole2: -50
     signatureradius: 115.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -883,6 +891,7 @@ types:
     shipbonusrole7: -100.0
     signatureradius: 155.0
     specialboosterholdcapacity: 100
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005

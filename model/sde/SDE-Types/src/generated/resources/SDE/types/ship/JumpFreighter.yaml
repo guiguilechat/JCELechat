@@ -82,6 +82,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 9880.0
     specialfuelbaycapacity: 12000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -174,6 +175,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 9800.0
     specialfuelbaycapacity: 12000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -266,6 +268,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 9700.0
     specialfuelbaycapacity: 12000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -358,6 +361,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 9930.0
     specialfuelbaycapacity: 12000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005

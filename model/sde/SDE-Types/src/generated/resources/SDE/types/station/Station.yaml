@@ -607,6 +607,14 @@ types:
     radius: 37560.0
     signatureradius: 100.0
     volume: 1.0
+  Smuggler Service Outpost (DO NOT TRANSLATE):
+    hp: 1.0E8
+    id: 63985
+    name: Smuggler Service Outpost (DO NOT TRANSLATE)
+    portionSize: 1
+    published: false
+    radius: 918.0
+    signatureradius: 100.0
   Station (Conquerable 1):
     armoruniformity: 1.0
     id: 12242

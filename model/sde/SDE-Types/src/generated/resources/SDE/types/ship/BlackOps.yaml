@@ -116,6 +116,7 @@ types:
     shipbonusrole1: 6.5
     signatureradius: 330.0
     specialfuelbaycapacity: 2150
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -231,6 +232,7 @@ types:
     shipbonusrole1: 6.5
     signatureradius: 288.0
     specialfuelbaycapacity: 2150
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -346,6 +348,7 @@ types:
     shipbonusrole1: 6.5
     signatureradius: 333.0
     specialfuelbaycapacity: 2150
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -462,6 +465,7 @@ types:
     shipbonusrole1: 6.5
     signatureradius: 378.0
     specialfuelbaycapacity: 2150
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -579,6 +583,7 @@ types:
     shipbonusrole1: 6.5
     signatureradius: 405.0
     specialfuelbaycapacity: 2150
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005

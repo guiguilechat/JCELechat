@@ -90,6 +90,7 @@ types:
     shiprolebonusiceharvestingduration: -50.0
     shiprolebonusoreminingyield: 300
     signatureradius: 40.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -191,6 +192,7 @@ types:
     shiprolebonusgasharvestingyield: 100
     shiprolebonusoreminingyield: 100
     signatureradius: 40.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005

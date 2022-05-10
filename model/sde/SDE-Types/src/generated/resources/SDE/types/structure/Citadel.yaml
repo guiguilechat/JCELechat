@@ -40,6 +40,9 @@ types:
     metalevelold: 8
     name: '''Draccous'' Fortizar'
     packagedVolume: 80000.0
+    pausearmorrepairdpsthreshold: 1500
+    pausehullrepairdpsthreshold: 1500
+    pauseshieldrepairdpsthreshold: 1500
     portionSize: 1
     poweroutput: 3250000
     published: true
@@ -57,8 +60,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 7
-    shieldcapacity: 5400000.0
-    shielddamagelimit: 15000
+    shieldcapacity: 6750000.0
+    shielddamagelimit: 27000000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -125,6 +128,9 @@ types:
     metalevelold: 8
     name: '''Horizon'' Fortizar'
     packagedVolume: 80000.0
+    pausearmorrepairdpsthreshold: 1500
+    pausehullrepairdpsthreshold: 1500
+    pauseshieldrepairdpsthreshold: 1500
     portionSize: 1
     poweroutput: 3100000
     published: true
@@ -142,8 +148,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 7
-    shieldcapacity: 8100000.0
-    shielddamagelimit: 15000
+    shieldcapacity: 1.0125E7
+    shielddamagelimit: 40500000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -210,6 +216,9 @@ types:
     metalevelold: 8
     name: '''Marginis'' Fortizar'
     packagedVolume: 80000.0
+    pausearmorrepairdpsthreshold: 1500
+    pausehullrepairdpsthreshold: 1500
+    pauseshieldrepairdpsthreshold: 1500
     portionSize: 1
     poweroutput: 3200000
     published: true
@@ -227,8 +236,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 8
-    shieldcapacity: 5400000.0
-    shielddamagelimit: 15000
+    shieldcapacity: 6750000.0
+    shielddamagelimit: 27000000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -295,6 +304,9 @@ types:
     metalevelold: 8
     name: '''Moreau'' Fortizar'
     packagedVolume: 80000.0
+    pausearmorrepairdpsthreshold: 1500
+    pausehullrepairdpsthreshold: 1500
+    pauseshieldrepairdpsthreshold: 1500
     portionSize: 1
     poweroutput: 3400000
     published: true
@@ -312,8 +324,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 8
-    shieldcapacity: 8100000.0
-    shielddamagelimit: 15000
+    shieldcapacity: 1.0125E7
+    shielddamagelimit: 40500000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -381,6 +393,9 @@ types:
     metalevelold: 8
     name: '''Prometheus'' Fortizar'
     packagedVolume: 80000.0
+    pausearmorrepairdpsthreshold: 1500
+    pausehullrepairdpsthreshold: 1500
+    pauseshieldrepairdpsthreshold: 1500
     portionSize: 1
     poweroutput: 3150000
     published: true
@@ -398,8 +413,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 7
-    shieldcapacity: 6750000.0
-    shielddamagelimit: 15000
+    shieldcapacity: 8437500.0
+    shielddamagelimit: 33750000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -451,7 +466,7 @@ types:
     hiddenarmorhpmultiplier: 1
     hiddenmissiledamagemultiplier: 1
     hislots: 4
-    hp: 7200000.0
+    hp: 1800000.0
     id: 35832
     kineticdamageresonance: 0.800000011920929
     launcherslotsleft: 2
@@ -464,6 +479,9 @@ types:
     medslots: 4
     name: Astrahus
     packagedVolume: 8000.0
+    pausearmorrepairdpsthreshold: 500
+    pausehullrepairdpsthreshold: 500
+    pauseshieldrepairdpsthreshold: 500
     portionSize: 1
     poweroutput: 1500000
     published: true
@@ -481,8 +499,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 3
-    shieldcapacity: 1800000.0
-    shielddamagelimit: 5000
+    shieldcapacity: 3600000.0
+    shielddamagelimit: 14400000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -546,6 +564,9 @@ types:
     medslots: 5
     name: Fortizar
     packagedVolume: 80000.0
+    pausearmorrepairdpsthreshold: 1500
+    pausehullrepairdpsthreshold: 1500
+    pauseshieldrepairdpsthreshold: 1500
     portionSize: 1
     poweroutput: 2700000
     published: true
@@ -563,8 +584,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 5
-    shieldcapacity: 5400000.0
-    shielddamagelimit: 15000
+    shieldcapacity: 6750000.0
+    shielddamagelimit: 27000000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -629,6 +650,9 @@ types:
     medslots: 6
     name: Keepstar
     packagedVolume: 800000.0
+    pausearmorrepairdpsthreshold: 7500
+    pausehullrepairdpsthreshold: 7500
+    pauseshieldrepairdpsthreshold: 7500
     portionSize: 1
     poweroutput: 4800000
     published: true
@@ -646,8 +670,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 7
-    shieldcapacity: 2.7E7
-    shielddamagelimit: 75000
+    shieldcapacity: 3.375E7
+    shielddamagelimit: 135000000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -714,6 +738,9 @@ types:
     metalevelold: 8
     name: Upwell Palatine Keepstar
     packagedVolume: 800000.0
+    pausearmorrepairdpsthreshold: 7500
+    pausehullrepairdpsthreshold: 7500
+    pauseshieldrepairdpsthreshold: 7500
     portionSize: 1
     poweroutput: 6000000
     published: true
@@ -731,8 +758,8 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 8
-    shieldcapacity: 5.4E7
-    shielddamagelimit: 75000
+    shieldcapacity: 6.75E7
+    shielddamagelimit: 67500000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929

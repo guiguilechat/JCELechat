@@ -112,6 +112,7 @@ types:
     shipmaintenancebaycapacity: 1000000
     signatureradius: 11500.0
     specialfuelbaycapacity: 10000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     surveyscannerrangebonus: 900
     techlevel: 1

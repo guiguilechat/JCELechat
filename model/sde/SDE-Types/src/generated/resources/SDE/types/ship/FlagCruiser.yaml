@@ -81,6 +81,7 @@ types:
     signatureradius: 40.0
     specialammoholdcapacity: 25
     specialboosterholdcapacity: 25
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     targetpainterrangemodifierflagcruisers: 300
     targetpainterresistance: 0.30000001192092896

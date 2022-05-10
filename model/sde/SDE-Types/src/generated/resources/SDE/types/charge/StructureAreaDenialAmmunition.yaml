@@ -11,6 +11,7 @@ types:
     name: Standup Flak Round I
     packagedVolume: 1.0
     portionSize: 200
+    price: 5000.0
     published: true
     radius: 10.0
     thermaldamage: 250.0

@@ -28,7 +28,7 @@ public class CargoScanResistance
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override

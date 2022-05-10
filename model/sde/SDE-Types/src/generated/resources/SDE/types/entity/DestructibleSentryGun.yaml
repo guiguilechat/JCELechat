@@ -6920,7 +6920,7 @@ types:
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 300.0
+    armorhp: 100.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     capacitorcapacity: 1000.0
@@ -6946,7 +6946,7 @@ types:
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 50000.0
-    hp: 500.0
+    hp: 300.0
     id: 63679
     kineticdamageresonance: 1.0
     mass: 1000.0
@@ -6955,7 +6955,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
+    missileentityaoevelocitymultiplier: 0.699999988079071
     missileentityflighttimemultiplier: 4.0
     missileentityvelocitymultiplier: 0.75
     missilelaunchduration: 20000.0
@@ -6973,7 +6973,7 @@ types:
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
-    shieldcapacity: 1000.0
+    shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579
@@ -6995,7 +6995,7 @@ types:
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 200.0
+    armorhp: 100.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
@@ -7005,7 +7005,7 @@ types:
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
-    energyneutralizeramount: 20.0
+    energyneutralizeramount: 15.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
     energyneutralizerrangeoptimal: 250000
@@ -7023,7 +7023,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
-    hp: 400.0
+    hp: 300.0
     id: 63678
     kineticdamageresonance: 1.0
     mass: 1000.0
@@ -7051,7 +7051,7 @@ types:
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
     scanresolution: 220.0
-    shieldcapacity: 600.0
+    shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579
@@ -7073,7 +7073,7 @@ types:
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 300.0
+    armorhp: 100.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     capacitorcapacity: 1000.0
@@ -7099,7 +7099,7 @@ types:
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 50000.0
-    hp: 500.0
+    hp: 300.0
     id: 63682
     kineticdamageresonance: 1.0
     mass: 1000.0
@@ -7108,7 +7108,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
+    missileentityaoevelocitymultiplier: 0.699999988079071
     missileentityflighttimemultiplier: 2.5
     missileentityvelocitymultiplier: 1.25
     missilelaunchduration: 20000.0
@@ -7126,7 +7126,7 @@ types:
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
-    shieldcapacity: 1000.0
+    shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579
@@ -7148,7 +7148,7 @@ types:
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 300.0
+    armorhp: 100.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     capacitorcapacity: 1000.0
@@ -7174,7 +7174,7 @@ types:
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 50000.0
-    hp: 500.0
+    hp: 300.0
     id: 63681
     kineticdamageresonance: 1.0
     mass: 1000.0
@@ -7183,7 +7183,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
+    missileentityaoevelocitymultiplier: 0.699999988079071
     missileentityflighttimemultiplier: 2.0
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 20000.0
@@ -7201,7 +7201,7 @@ types:
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
-    shieldcapacity: 1000.0
+    shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579
@@ -7223,7 +7223,7 @@ types:
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 200.0
+    armorhp: 100.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     capacitorcapacity: 1000.0
@@ -7249,7 +7249,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
-    hp: 400.0
+    hp: 300.0
     id: 63631
     kineticdamageresonance: 1.0
     mass: 1000.0
@@ -7277,7 +7277,7 @@ types:
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
-    shieldcapacity: 600.0
+    shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579
@@ -7299,7 +7299,7 @@ types:
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 300.0
+    armorhp: 100.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     capacitorcapacity: 1000.0
@@ -7325,7 +7325,7 @@ types:
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 50000.0
-    hp: 500.0
+    hp: 300.0
     id: 63680
     kineticdamageresonance: 1.0
     mass: 1000.0
@@ -7334,7 +7334,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
+    missileentityaoevelocitymultiplier: 0.699999988079071
     missileentityflighttimemultiplier: 3.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
@@ -7352,7 +7352,7 @@ types:
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
-    shieldcapacity: 1000.0
+    shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579

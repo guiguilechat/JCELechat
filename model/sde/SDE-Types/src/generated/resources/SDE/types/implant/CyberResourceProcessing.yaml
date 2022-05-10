@@ -87,7 +87,7 @@ types:
     id: 27151
     implantness: 10
     marketGroup: 1767
-    miningupgradecpureductionbonus: -3
+    miningupgradecpureductionbonus: -1
     name: Inherent Implants 'Highwall' Mining Upgrades MU-1001
     packagedVolume: 1.0
     portionSize: 1

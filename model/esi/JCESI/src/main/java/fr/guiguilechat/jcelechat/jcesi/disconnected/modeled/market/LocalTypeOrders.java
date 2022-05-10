@@ -14,6 +14,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class LocalTypeOrders {
 
+	@Getter
 	private final ListHolder<R_get_markets_region_id_orders> orders;
 
 	/**

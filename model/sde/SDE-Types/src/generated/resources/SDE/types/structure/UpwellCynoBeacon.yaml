@@ -24,6 +24,9 @@ types:
     maximumrangecap: 300000
     name: Pharolux Cyno Beacon
     packagedVolume: 4000.0
+    pausearmorrepairdpsthreshold: 500
+    pausehullrepairdpsthreshold: 500
+    pauseshieldrepairdpsthreshold: 500
     portionSize: 1
     poweroutput: 20000
     prefitserviceslot0: 35912

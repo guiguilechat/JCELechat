@@ -13,6 +13,7 @@ types:
     canfitshiptype9: 47514
     capacitorneed: 1500.0
     capacity: 600.0
+    chargegroup1: 4186
     chargerate: 200
     chargesize: 3
     cpu: 1000.0
@@ -20,12 +21,9 @@ types:
     deadspaceunsafe: 2
     disallowinhighsec: 1
     duration: 12000.0
-    emdamage: 250.0
     empfieldrange: 2500
-    explosivedamage: 250.0
     hp: 40.0
     id: 35926
-    kineticdamage: 250.0
     marketGroup: 2221
     mass: 1000.0
     maxgroupactive: 1
@@ -41,7 +39,6 @@ types:
     reloadtime: 180000.0
     structureitemvisualflag: 1
     techlevel: 1
-    thermaldamage: 250.0
     volume: 8000.0
   Standup Point Defense Battery II:
     canfitshiptype1: 35833
@@ -57,6 +54,7 @@ types:
     canfitshiptype9: 47514
     capacitorneed: 1800.0
     capacity: 1000.0
+    chargegroup1: 4186
     chargerate: 200
     chargesize: 3
     cpu: 1200.0
@@ -64,12 +62,9 @@ types:
     deadspaceunsafe: 2
     disallowinhighsec: 1
     duration: 12000.0
-    emdamage: 250.0
     empfieldrange: 3000
-    explosivedamage: 250.0
     hp: 40.0
     id: 47327
-    kineticdamage: 250.0
     marketGroup: 2221
     mass: 1000.0
     maxgroupactive: 1
@@ -86,5 +81,4 @@ types:
     reloadtime: 180000.0
     structureitemvisualflag: 1
     techlevel: 2
-    thermaldamage: 250.0
     volume: 8000.0

@@ -79,6 +79,7 @@ types:
     shipbonusgd1: -7.5
     shipbonusgd2: 10
     signatureradius: 78.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -171,6 +172,7 @@ types:
     shipbonuscd1: 10
     shipbonuscd2: 10
     signatureradius: 80.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -263,6 +265,7 @@ types:
     shipbonusad1: -5
     shipbonusad2: 15
     signatureradius: 75.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -355,6 +358,7 @@ types:
     shipbonusmd1: 5
     shipbonusmd2: 10
     signatureradius: 70.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005

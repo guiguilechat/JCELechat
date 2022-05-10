@@ -949,6 +949,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Kimotoro Eskeitan Commander's Jacket:
+    gender: 2
+    id: 63747
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Kimotoro Eskeitan Commander's Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Minmatar Republic Exploration Suit:
     clothingalsocoverscategory: 25
     clothingalsocoverscategory2: 22
@@ -2492,6 +2502,16 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Jita 4-4 Executive Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Kimotoro Eskeitan Commander's Jacket:
+    gender: 2
+    id: 63749
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Kimotoro Eskeitan Commander's Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

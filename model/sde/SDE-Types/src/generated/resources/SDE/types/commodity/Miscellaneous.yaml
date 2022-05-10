@@ -967,6 +967,7 @@ types:
     name: Classified Caldari Databank
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.009999999776482582
   Classified Report - Station Defenses:
@@ -5230,6 +5231,17 @@ types:
     price: 100.0
     published: true
     volume: 5.0
+  Smuggler Lockbox:
+    exporttaxmultiplier: 1
+    id: 64033
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Smuggler Lockbox
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Smuggler's Warning About Sister Alitura:
     exporttaxmultiplier: 1
     id: 30907

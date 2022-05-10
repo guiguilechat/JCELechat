@@ -93,6 +93,7 @@ types:
     shipmaintenancebaycapacity: 400000
     signatureradius: 1000.0
     specialfuelbaycapacity: 6400
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -197,6 +198,7 @@ types:
     shipbonusics5: -10
     signatureradius: 300.0
     specialfuelbaycapacity: 4800
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005

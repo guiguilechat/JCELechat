@@ -38587,7 +38587,7 @@ id2name:
   58850: Corvette FFA Proving Filament
   58851: Expired Extended Capsuleer Day Cerebral Accelerator
   58852: Expired Potent Capsuleer Day Cerebral Accelerator
-  58853: Expired Basic Capsuleer Day Cerebral Accelerator
+  58853: Basic Capsuleer Day Cerebral Accelerator
   58854: Expired Potent Capsuleer Day Glamourex Booster
   58855: Expired Extended Capsuleer Day Glamourex Booster
   58856: Expired Basic Capsuleer Day Glamourex Booster
@@ -40028,9 +40028,9 @@ id2name:
   62274: Venture FFA Proving Filament
   62275: 2v2 T1 Frigates Proving Filament
   62276: Cruiser Chaos FFA Proving Filament
-  62277: Event 54 Proving Filament
-  62278: Event 55 Proving Filament
-  62279: Event 56 Proving Filament
+  62277: Hunt 1v1 Assault Frigates Proving Filament
+  62278: 1v1 Strategic Cruisers Proving Filament
+  62279: Capsuleer Day 2v2 Navy Frigates Proving Filament
   62287: Crucifier Navy Issue Abyssal Glory SKIN
   62288: Apocalypse Navy Issue Abyssal Glory SKIN
   62289: Griffin Navy Issue Abyssal Glory SKIN
@@ -40378,7 +40378,7 @@ id2name:
   63162: Hijacked Green Capsule
   63163: Hijacked Golden Capsule
   63164: Industrial Jump Portal Generator I Blueprint
-  63165: CapsuleerDay22Firework (Do not translate)
+  63165: Capsuleer Starburst Firework
   63166: Hunt Communications Tower
   63167: Hunt Mainframe
   63168: 'Huntmaster Communications Tower '
@@ -40859,7 +40859,7 @@ id2name:
   63711: Capsule Subsystem Holostorage EH-CN-J44-010
   63712: Capsule Subsystem Holostorage EH-CN-J44-002
   63713: Capsule Subsystem Holostorage EH-CN-J44-003
-  63714: Event 57 Proving Filament
+  63714: Capsuleer Day Sunesis FFA Proving Filament
   63715: Event 58 Proving Filament
   63716: Event 59 Proving Filament
   63717: Event 60 Proving Filament
@@ -40874,6 +40874,150 @@ id2name:
   63726: Event 69 Proving Filament
   63727: Event 70 Proving Filament
   63728: Event 71 Proving Filament
+  63747: Men's Kimotoro Eskeitan Commander's Jacket
+  63748: Men's Kimotoro Eskeitan Commander's Pants
+  63749: Women's Kimotoro Eskeitan Commander's Jacket
+  63750: Women's Kimotoro Eskeitan Commander's Pants
+  63788: Proving Bonus Nexus
+  63789: 63789_Male_outer_JacketMFBR01_Types_JacketMFBR01_Race.png
+  63790: 63790_Female_Outer_JacketFBR01_Types_JacketFBR01_race.png
+  63841: Apotheosis Capsuleer Day XIX SKIN
+  63842: Gnosis Capsuleer Day XIX SKIN
+  63843: Praxis Capsuleer Day XIX SKIN
+  63844: Sunesis Capsuleer Day XIX SKIN
+  63845: Skybreaker Capsuleer Day XIX SKIN
+  63846: Stormbringer Capsuleer Day XIX SKIN
+  63847: Thunderchild Capsuleer Day XIX SKIN
+  63848: Capsule Capsuleer Day XIX SKIN
+  63849: Basic Capsuleer Day Glamourex Booster
+  63850: Extended Capsuleer Day Glamourex Booster
+  63851: Potent Capsuleer Day Glamourex Booster
+  63852: Basic Capsuleer Day Cerebral Accelerator
+  63853: Extended Capsuleer Day Cerebral Accelerator
+  63854: Potent Capsuleer Day Cerebral Accelerator
+  63855: Sentinel Versus Redforce SKIN
+  63856: Impel Versus Redforce SKIN
+  63857: Devoter Versus Blueforce SKIN
+  63858: Redeemer Versus Blueforce SKIN
+  63859: Keres Versus Redforce SKIN
+  63860: Occator Versus Redforce SKIN
+  63861: Phobos Versus Blueforce SKIN
+  63862: Sin Versus Blueforce SKIN
+  63863: Buzzard Versus Blueforce SKIN
+  63864: Crane Versus Blueforce SKIN
+  63865: Falcon Versus Redforce SKIN
+  63866: Widow Versus Redforce SKIN
+  63867: Cheetah Versus Blueforce SKIN
+  63868: Prowler Versus Blueforce SKIN
+  63869: Rapier Versus Redforce SKIN
+  63870: Panther Versus Redforce SKIN
+  63871: Smuggler Dead Drop
+  63872: Smuggler Stash
+  63873: ddd01_t1_environmentasset
+  63875: Non-Interactable Prowler
+  63876: CONCORD Prohibited Item Storage
+  63877: CONCORD Contraband Containment Container
+  63878: Smuggler Low Observability Booster I
+  63879: Smuggler Low Observability Booster II
+  63880: Smuggler Low Observability Booster III
+  63881: Smuggler Low Observability Booster IV
+  63882: DED Scan Booster I
+  63883: DED Scan Booster II
+  63884: DED Scan Booster III
+  63885: DED Scan Booster IV
+  63886: Smuggler Shield Booster I
+  63887: Smuggler Shield Booster II
+  63888: Smuggler Shield Booster III
+  63889: Smuggler Shield Booster IV
+  63890: DED Armor Booster I
+  63891: DED Armor Booster II
+  63892: DED Armor Booster III
+  63893: DED Armor Booster IV
+  63894: Smuggler Blockade Running Booster I
+  63895: Smuggler Blockade Running Booster II
+  63896: Smuggler Blockade Running Booster III
+  63897: Smuggler Blockade Running Booster IV
+  63898: DED Apprehension Booster I
+  63899: DED Apprehension Booster II
+  63900: DED Apprehension Booster III
+  63901: DED Apprehension Booster IV
+  63902: Smuggler Bay Loading Booster I
+  63903: Smuggler Bay Loading Booster II
+  63904: Smuggler Bay Loading Booster III
+  63905: Smuggler Bay Loading Booster IV
+  63906: DED Turret Booster I
+  63907: DED Turret Booster II
+  63908: DED Turret Booster III
+  63909: DED Turret Booster IV
+  63910: CONCORD Prohibited Item Storage
+  63911: CONCORD Contraband Storage
+  63938: Capsuleer Day Buff Nexus
+  63939: Capsuleer Day Debuff Nexus
+  63944: CD 19 SM H Boss Spawner (DO NOT TRANSLATE)
+  63945: CD 19 SM H Wave Spawner (DO NOT TRANSLATE)
+  63966: Fortified Starbase Hangar (DO NO TRANSLATE)
+  63967: Pirate Stargate Station (DO NOT TRANSLATE)
+  63977: Cyno Beacon Wreck (DO NOT TRANSLATE)
+  63978: CD 19 Concord H Boss Spawner (DO NOT TRANSLATE)
+  63979: CD 19  Concord H Wave Spawner (DO NOT TRANSLATE)
+  63980: Ship Maintenance Array Wreck ( DO NOT TRANSLATE)
+  63981: cs5_wreck_environment_asset ( DO NOT TRANSLATE)
+  63982: CD 19 Smuggler Easy Boss Spawner (DO NOT TRANSLATE)
+  63983: CD 19 Smuggler Easy Wave Spawner (DO NOT TRANSLATE)
+  63984: Smugglers Research Outpost (DO NOT TRANSLATE)
+  63985: Smuggler Service Outpost (DO NOT TRANSLATE)
+  63986: Smuggler Service Outpost Wreck (DO NOT TRANSLATE)
+  63987: Smuggler Research Outpost Wreck (DO NOT TRANSLATE)
+  63988: Smugglehaus (DO NOT TRANSLATE)
+  63989: Smugglehaus Wreck (DO NOT TRANSLATE)
+  64002: SARO Pacifier
+  64003: SARO Skybreaker
+  64004: SARO Nemesis
+  64005: SARO Confessor
+  64006: SARO Enforcer
+  64007: SARO Stormbringer
+  64008: SARO Curse
+  64009: SARO Phobos
+  64010: SARO Talos
+  64011: Smuggler Raptor
+  64012: Smuggler Hyena
+  64013: Smuggler Manticore
+  64014: Smuggler Draugur
+  64015: Smuggler Basilisk
+  64016: Smuggler Cerberus
+  64017: Smuggler Rapier
+  64018: Smuggler Ikitursa
+  64019: Smuggler Tornado
+  64020: SARO Captain
+  64021: SARO Captain
+  64022: SARO Commander
+  64023: SARO Commander
+  64024: Smuggler Underboss
+  64025: Smuggler Underboss
+  64026: Smuggler Ringleader
+  64027: Smuggler Ringleader
+  64028: Capsuleer Day XIX Fireworks Gift Box
+  64029: Smuggler Hideout
+  64030: Smuggler Stargate
+  64031: Confiscated Smuggler Hideout
+  64032: Confiscated Smuggler Stargate
+  64033: Smuggler Lockbox
+  64034: Boobook
+  64035: Boobook Blueprint
+  64036: Capsuleer Day DED Booster Crate
+  64037: Capsuleer Day Smuggler Booster Crate
+  64038: Dormitory (DO NOT TRANSLATE)
+  64078: uaf01_t1_environment_asset
+  64091: CD 19 Concord Easy Wave Spawner (DO NOT TRANSLATE)
+  64092: CD 19 Concord Easy Boss Spawner (DO NOT TRANSLATE)
+  64096: Stork Kimotoro Eskeitan Commander SKIN
+  64097: Osprey Navy Issue Kimotoro Eskeitan Commander SKIN
+  64098: Golem Kimotoro Eskeitan Commander SKIN
+  64101: CD 19 Smuggler Supplemental Spawner (DO NOT TRANSLATE)
+  64102: CD 19 Concord Supplemental Spawner (DO NOT TRANSLATE)
+  64189: Boobook Versus Redforce SKIN
+  64190: Boobook Versus Blueforce SKIN
+  64191: Proving Capsuleer Day 2022 Bonus (Do not translate)
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -40967,7 +41111,7 @@ id2name:
   352072: Enhanced Powergrid Upgrade
   352073: Complex Powergrid Upgrade
   352074: Type-G Powergrid Expansion System
-  352076: Power Diagnostic System I
+  352076: Vehicle PDS I
   352077: Beta Power Diagnostic System
   352078: Local Power Diagnostic System
   352079: Type-G Power Diagnostic System
@@ -46094,6 +46238,7 @@ name2group:
   Apostle Star Captain SKIN: skins/PermanentSKIN
   Apotheosis: ship/Shuttle
   Apotheosis Blueprint: blueprint/ShuttleBlueprint
+  Apotheosis Capsuleer Day XIX SKIN: skins/PermanentSKIN
   Apotheosis Capsuleer Day XVI SKIN: skins/PermanentSKIN
   Apotheosis Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Apotheosis Capsuleer Day XVIII SKIN: skins/PermanentSKIN
@@ -46900,6 +47045,8 @@ name2group:
   Basic Blaster Damage Amplifier: infantry/InfantryModules
   Basic CPU Upgrade: infantry/InfantryModules
   Basic CPU Upgrade Unit: infantry/InfantryModules
+  Basic Capsuleer Day Cerebral Accelerator: implant/Booster
+  Basic Capsuleer Day Glamourex Booster: implant/Booster
   Basic Capsuleer Defense Augmentation Chip: implant/Booster
   Basic Capsuleer Engineering Augmentation Chip: implant/Booster
   Basic Cardiac Regulator: infantry/InfantryModules
@@ -47442,6 +47589,10 @@ name2group:
   Bone Splinter: commodity/Miscellaneous
   Bono Zakan Corpse: commodity/Commodities
   Bons' SIN-7 Shotgun: infantry/InfantryWeapons
+  Boobook: ship/Shuttle
+  Boobook Blueprint: blueprint/ShuttleBlueprint
+  Boobook Versus Blueforce SKIN: skins/PermanentSKIN
+  Boobook Versus Redforce SKIN: skins/PermanentSKIN
   Book of St. Arzad: commodity/Miscellaneous
   Booster Immunity Bonus: bonus/PhysicalBenefit
   Booster Pack: commodity/Commodities
@@ -47788,6 +47939,7 @@ name2group:
   Buzzard Raata Sunset SKIN: skins/PermanentSKIN
   Buzzard Scope Syndication YC122 SKIN: skins/PermanentSKIN
   Buzzard Steel Cardinal SKIN: skins/PermanentSKIN
+  Buzzard Versus Blueforce SKIN: skins/PermanentSKIN
   Buzzard Versus Redforce SKIN: skins/PermanentSKIN
   Buzzard Wiyrkomi SKIN: skins/PermanentSKIN
   Buzzard Yoiul Star SKIN: skins/PermanentSKIN
@@ -47827,6 +47979,7 @@ name2group:
   CONCORD Captain Emblem: commodity/EmpireInsigniaDrops
   CONCORD Collection Vessel: entity/MissionContainer
   CONCORD Colonel Emblem: commodity/EmpireInsigniaDrops
+  CONCORD Contraband Storage: entity/SpawnContainer
   CONCORD Customs Commander: entity/CustomsOfficial
   CONCORD Customs Official: entity/CustomsOfficial
   CONCORD Dual 1000mm Railgun: module/HybridWeapon
@@ -47851,6 +48004,7 @@ name2group:
   CONCORD Police Captain: entity/ConcordDrone
   CONCORD Police Commander: entity/ConcordDrone
   CONCORD Police Officer: entity/ConcordDrone
+  CONCORD Prohibited Item Storage: entity/SpawnContainer
   CONCORD Quad 3500mm Siege Artillery: module/ProjectileWeapon
   CONCORD Quad 3500mm Siege Artillery Blueprint: blueprint/ProjectileWeaponBlueprint
   CONCORD Raptor Emblem: commodity/EmpireInsigniaDrops
@@ -49027,6 +49181,7 @@ name2group:
   Capsule - Genolution 'Auroral' 197-variant Capsuleer Day XVIII SKIN: skins/PermanentSKIN
   Capsule ASES SKIN: skins/PermanentSKIN
   Capsule Aurora Universalis SKIN: skins/PermanentSKIN
+  Capsule Capsuleer Day XIX SKIN: skins/PermanentSKIN
   Capsule Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Capsule Capsuleer Day XVIII SKIN: skins/PermanentSKIN
   Capsule Capsuleer Elite XV SKIN: skins/PermanentSKIN
@@ -49047,6 +49202,13 @@ name2group:
   Capsule YC119 Capsuleer Day SKIN: skins/PermanentSKIN
   Capsule Zakura Hansei SKIN: skins/PermanentSKIN
   Capsuleer Dawn Firework (Large): charge/StructureFestivalCharges
+  Capsuleer Day 2v2 Navy Frigates Proving Filament: commodity/AbyssalProvingFilaments
+  Capsuleer Day Buff Nexus: entity/IrregularUnidentified
+  Capsuleer Day DED Booster Crate: specialeditionassets/SpecialEditionCommodities
+  Capsuleer Day Debuff Nexus: entity/IrregularUnidentified
+  Capsuleer Day Smuggler Booster Crate: specialeditionassets/SpecialEditionCommodities
+  Capsuleer Day Sunesis FFA Proving Filament: commodity/AbyssalProvingFilaments
+  Capsuleer Day XIX Fireworks Gift Box: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Apotheosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Cap Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Gnosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
@@ -49057,6 +49219,7 @@ name2group:
   Capsuleer Day XVII Cap and T-Shirt Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVII Fireworks Package: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVII Omega Booster Gift Box: specialeditionassets/SpecialEditionCommodities
+  Capsuleer Starburst Firework: charge/FestivalCharges
   Captain Amiette Barcier: entity/MissionGenericBattleships
   Captain Aneika Sareko: entity/MissionGenericBattleships
   Captain Appakir Tarvia: entity/MissionGenericBattleships
@@ -49564,6 +49727,7 @@ name2group:
   Cheetah Snowline Bladeracer SKIN: skins/PermanentSKIN
   Cheetah Tronhadar Ink SKIN: skins/PermanentSKIN
   Cheetah Valklear Glory SKIN: skins/PermanentSKIN
+  Cheetah Versus Blueforce SKIN: skins/PermanentSKIN
   Cheetah Versus Redforce SKIN: skins/PermanentSKIN
   Chef Aubrei Azil: commodity/Livestock
   Chelm Soran: entity/AsteroidSanshaSNationOfficer
@@ -50811,6 +50975,7 @@ name2group:
   Crane Raata Sunset SKIN: skins/PermanentSKIN
   Crane Starline Majestic SKIN: skins/PermanentSKIN
   Crane Steel Cardinal SKIN: skins/PermanentSKIN
+  Crane Versus Blueforce SKIN: skins/PermanentSKIN
   Crane Wiyrkomi SKIN: skins/PermanentSKIN
   Crane Zento Isideko Combine SKIN: skins/PermanentSKIN
   Crash: commodity/Drugs
@@ -51189,6 +51354,14 @@ name2group:
   DAU-2/A Assault Forge Gun: infantry/InfantryWeapons
   DCMA-5 Breach Forge Gun: infantry/InfantryWeapons
   DDO Scoped Tracking Disruptor I: module/WeaponDisruptor
+  DED Apprehension Booster I: implant/Booster
+  DED Apprehension Booster II: implant/Booster
+  DED Apprehension Booster III: implant/Booster
+  DED Apprehension Booster IV: implant/Booster
+  DED Armor Booster I: implant/Booster
+  DED Armor Booster II: implant/Booster
+  DED Armor Booster III: implant/Booster
+  DED Armor Booster IV: implant/Booster
   DED Army Captain: entity/FactionDrone
   DED Army Colonel: entity/MissionCONCORDBattleship
   DED Army Commander: entity/FactionDrone
@@ -51200,6 +51373,10 @@ name2group:
   DED Officer 1st Class Vessel: entity/MissionCONCORDCruiser
   DED Officer 2nd Class: entity/MissionCONCORDCruiser
   DED Officer 3rd Class: entity/MissionCONCORDCruiser
+  DED Scan Booster I: implant/Booster
+  DED Scan Booster II: implant/Booster
+  DED Scan Booster III: implant/Booster
+  DED Scan Booster IV: implant/Booster
   DED Scout Drone: entity/MissionGenericFrigates
   DED Soldier 1st Class: entity/MissionCONCORDFrigate
   DED Soldier 2nd Class: entity/MissionCONCORDFrigate
@@ -51210,6 +51387,10 @@ name2group:
   DED Special Ops Panther: entity/MissionCONCORDFrigate
   DED Special Ops Piranha: entity/MissionCONCORDFrigate
   DED Special Ops Raptor: entity/MissionCONCORDCruiser
+  DED Turret Booster I: implant/Booster
+  DED Turret Booster II: implant/Booster
+  DED Turret Booster III: implant/Booster
+  DED Turret Booster IV: implant/Booster
   DNA Sample: commodity/Miscellaneous
   DNA Samples of Republic Commandos: commodity/Commodities
   DNCR-05H Highsec Ice Storm Filament: commodity/JumpFilaments
@@ -51786,6 +51967,7 @@ name2group:
   Devoter Oasis of Faith SKIN: skins/PermanentSKIN
   Devoter Purity of the Throne SKIN: skins/PermanentSKIN
   Devoter Raata Sunset SKIN: skins/PermanentSKIN
+  Devoter Versus Blueforce SKIN: skins/PermanentSKIN
   Dewak's Dot: entity/DeadspaceOverseerSBelongings
   Dewak's First Officer's HQ: entity/DeadspaceOverseerSStructure
   Dewak's Level 1 Decoder: commodity/AccelerationGateKeys
@@ -53542,9 +53724,7 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 54 Proving Filament: commodity/AbyssalProvingFilaments
-  Event 55 Proving Filament: commodity/AbyssalProvingFilaments
-  Event 56 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 58 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -53766,6 +53946,8 @@ name2group:
   Exsanguinator: entity/DeadspaceOverseerCruiser
   Extendable plunger tool: specialeditionassets/SpecialEditionCommodities
   Extended 'Guri Kikhivaa' Cerebral Accelerator: implant/Booster
+  Extended Capsuleer Day Cerebral Accelerator: implant/Booster
+  Extended Capsuleer Day Glamourex Booster: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extractive Super-Nexus: entity/LargeCollidableStructure
@@ -53856,6 +54038,7 @@ name2group:
   Falcon Matigu Seabeast SKIN: skins/PermanentSKIN
   Falcon Raata Sunset SKIN: skins/PermanentSKIN
   Falcon Steel Cardinal SKIN: skins/PermanentSKIN
+  Falcon Versus Redforce SKIN: skins/PermanentSKIN
   Falcon Wiyrkomi SKIN: skins/PermanentSKIN
   Falcon Zento Isideko Combine SKIN: skins/PermanentSKIN
   Fall of Fort Knocks YC120: specialeditionassets/SpecialEditionCommodities
@@ -55156,6 +55339,7 @@ name2group:
   Gnosis: ship/CombatBattlecruiser
   Gnosis & Punisher SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Gnosis Blueprint: blueprint/BattlecruiserBlueprint
+  Gnosis Capsuleer Day XIX SKIN: skins/PermanentSKIN
   Gnosis Capsuleer Day XVI SKIN: skins/PermanentSKIN
   Gnosis Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Gnosis Capsuleer Day XVIII SKIN: skins/PermanentSKIN
@@ -55213,6 +55397,7 @@ name2group:
   Golem Kaalakiota SKIN (7 Days): skins/Max7DaySKIN
   Golem Kaalakiota SKIN (90 Days): skins/Max90DaySKIN
   Golem Kaalakiota Serenity Only SKIN: skins/PermanentSKIN
+  Golem Kimotoro Eskeitan Commander SKIN: skins/PermanentSKIN
   Golem Malagrin Marshlight SKIN: skins/PermanentSKIN
   Golem Matigu Seabeast SKIN: skins/PermanentSKIN
   Golem Nugoeihuvi SKIN: skins/PermanentSKIN
@@ -56953,6 +57138,7 @@ name2group:
   Impel Purity of the Throne SKIN: skins/PermanentSKIN
   Impel Raata Sunset SKIN: skins/PermanentSKIN
   Impel Star Captain SKIN: skins/PermanentSKIN
+  Impel Versus Redforce SKIN: skins/PermanentSKIN
   Imperial 'Dominus' Sentinel: infantry/VisualCustomization
   Imperial 'Dragon' Scout: infantry/VisualCustomization
   Imperial 'Marine Issue' AM-H SKIN: infantry/InfantryColorSkin
@@ -58194,6 +58380,7 @@ name2group:
   Keres Serpentis SKIN: skins/PermanentSKIN
   Keres Spirit SKIN: skins/PermanentSKIN
   Keres Valimor Legacy SKIN: skins/PermanentSKIN
+  Keres Versus Redforce SKIN: skins/PermanentSKIN
   Kernite: asteroid/Kernite
   Keron's Head: commodity/Miscellaneous
   Kestrel: ship/Frigate
@@ -61180,6 +61367,8 @@ name2group:
   Men's Jita 4-4 Crew Top: apparel/Tops
   Men's Jita 4-4 Executive Jacket: apparel/Outer
   Men's Jita 4-4 Executive Pants: apparel/Bottoms
+  Men's Kimotoro Eskeitan Commander's Jacket: apparel/Outer
+  Men's Kimotoro Eskeitan Commander's Pants: apparel/Bottoms
   Men's Minmatar 'Liberator' T-Shirt: apparel/Tops
   Men's Minmatar Republic Exploration Suit: apparel/Outer
   Men's Minmatar Republic Officer Jacket: apparel/Outer
@@ -62989,6 +63178,7 @@ name2group:
   Occator Serpentis SKIN: skins/PermanentSKIN
   Occator Spirit SKIN: skins/PermanentSKIN
   Occator Valimor Legacy SKIN: skins/PermanentSKIN
+  Occator Versus Redforce SKIN: skins/PermanentSKIN
   Occult Accelerant: decryptors/DecryptorsAmarr
   Occult Attainment: decryptors/DecryptorsAmarr
   Occult Augmentation: decryptors/DecryptorsAmarr
@@ -63343,6 +63533,7 @@ name2group:
   Osprey Navy Issue Ghostbird SKIN: skins/PermanentSKIN
   Osprey Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
   Osprey Navy Issue Halcyon Dawn SKIN: skins/PermanentSKIN
+  Osprey Navy Issue Kimotoro Eskeitan Commander SKIN: skins/PermanentSKIN
   Osprey Navy Issue Steel Cardinal SKIN: skins/PermanentSKIN
   Osprey Navy Issue Vitalshift EGO SKIN: skins/PermanentSKIN
   Osprey Navy Issue Wiyrkomi SKIN: skins/PermanentSKIN
@@ -63515,6 +63706,7 @@ name2group:
   Panther Snowline Bladeracer SKIN: skins/PermanentSKIN
   Panther Tronhadar Ink SKIN: skins/PermanentSKIN
   Panther Valklear Glory SKIN: skins/PermanentSKIN
+  Panther Versus Redforce SKIN: skins/PermanentSKIN
   Panther Yoiul Festival YC121 SKIN: skins/PermanentSKIN
   Panther Yoiul Star SKIN: skins/PermanentSKIN
   Paon Tay: entity/MissionGenericBattleships
@@ -63624,6 +63816,7 @@ name2group:
   Phobos Serpentis SKIN: skins/PermanentSKIN
   Phobos Spirit SKIN: skins/PermanentSKIN
   Phobos Valimor Legacy SKIN: skins/PermanentSKIN
+  Phobos Versus Blueforce SKIN: skins/PermanentSKIN
   Phoenix: ship/Dreadnought
   Phoenix Biosecurity Responders SKIN: skins/PermanentSKIN
   Phoenix Blue Tiger SKIN: skins/PermanentSKIN
@@ -63954,6 +64147,8 @@ name2group:
   Positron Cord: commodity/MaterialsAndCompounds
   Postcard From Poitot: specialeditionassets/SpecialEditionCommodities
   Potent 'Guri Kikhivaa' Cerebral Accelerator: implant/Booster
+  Potent Capsuleer Day Cerebral Accelerator: implant/Booster
+  Potent Capsuleer Day Glamourex Booster: implant/Booster
   Potent Viral Agent: commodity/Biohazard
   Poteque 'Prospector' Archaeology AC-905: implant/CyberScanning
   Poteque 'Prospector' Astrometric Acquisition AQ-702: implant/CyberScanning
@@ -63976,7 +64171,7 @@ name2group:
   Power Circuit: material/SalvagedMaterials
   Power Conduit: material/SalvagedMaterials
   Power Couplings: commodity/MaterialsAndCompounds
-  Power Diagnostic System I: infantry/InfantryModules
+  Power Diagnostic System I: module/PowerDiagnosticSystem
   Power Diagnostic System I Blueprint: blueprint/PowerManagerBlueprint
   Power Diagnostic System II: module/PowerDiagnosticSystem
   Power Diagnostic System II Blueprint: blueprint/PowerManagerBlueprint
@@ -63995,6 +64190,7 @@ name2group:
   Praetor TD-900 Blueprint: blueprint/ElectronicWarfareDroneBlueprint
   Praxis: ship/Battleship
   Praxis Blueprint: blueprint/BattleshipBlueprint
+  Praxis Capsuleer Day XIX SKIN: skins/PermanentSKIN
   Praxis Capsuleer Day XVI SKIN: skins/PermanentSKIN
   Praxis Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Praxis Capsuleer Day XVIII SKIN: skins/PermanentSKIN
@@ -64374,6 +64570,7 @@ name2group:
   Providence Star Captain SKIN: skins/PermanentSKIN
   Providence War Reserves Lieutenant SKIN: skins/PermanentSKIN
   Providence Yoiul Star SKIN: skins/PermanentSKIN
+  Proving Bonus Nexus: entity/IrregularUnidentified
   Prowler: ship/BlockadeRunner
   Prowler Biosecurity Responders SKIN: skins/PermanentSKIN
   Prowler Blue Tiger SKIN: skins/PermanentSKIN
@@ -64388,6 +64585,7 @@ name2group:
   Prowler Scope Syndication YC122 SKIN: skins/PermanentSKIN
   Prowler Snowline Bladeracer SKIN: skins/PermanentSKIN
   Prowler Valklear Glory SKIN: skins/PermanentSKIN
+  Prowler Versus Blueforce SKIN: skins/PermanentSKIN
   Proximity Charge: entity/LargeCollidableStructure
   Proximity Explosive: infantry/InfantryEquipment
   Proximity-15 'Extraction' Filament: commodity/TriglavianSpaceFilaments
@@ -64767,6 +64965,7 @@ name2group:
   Rapier Snowline Bladeracer SKIN: skins/PermanentSKIN
   Rapier Tronhadar Ink SKIN: skins/PermanentSKIN
   Rapier Valklear Glory SKIN: skins/PermanentSKIN
+  Rapier Versus Redforce SKIN: skins/PermanentSKIN
   Raptor: ship/Interceptor
   Raptor Abyssal Glory SKIN: skins/PermanentSKIN
   Raptor Aurora Universalis SKIN: skins/PermanentSKIN
@@ -65039,6 +65238,7 @@ name2group:
   Redeemer Purity of the Throne SKIN: skins/PermanentSKIN
   Redeemer Raata Sunset SKIN: skins/PermanentSKIN
   Redeemer Star Captain SKIN: skins/PermanentSKIN
+  Redeemer Versus Blueforce SKIN: skins/PermanentSKIN
   Redoubt Alignment Unit 0: entity/SpawnContainer
   Redoubt Alignment Unit 1: entity/SpawnContainer
   Redoubt Alpha Access Unit: entity/SpawnContainer
@@ -65947,8 +66147,19 @@ name2group:
   S-R Trigger Neurolink Conduit: commodity/ConstructionComponents
   S-R Trigger Neurolink Conduit Blueprint: blueprint/ConstructionComponentBlueprints
   S.I Formula Sheet: commodity/Miscellaneous
+  SARO Captain: entity/IrregularBattleship
+  SARO Commander: entity/IrregularBattleship
+  SARO Confessor: entity/IrregularDestroyer
+  SARO Curse: entity/IrregularCruiser
   SARO Emblem: commodity/Miscellaneous
+  SARO Enforcer: entity/IrregularCruiser
   SARO Frigate: entity/MissionCONCORDFrigate
+  SARO Nemesis: entity/IrregularFrigate
+  SARO Pacifier: entity/IrregularFrigate
+  SARO Phobos: entity/IrregularCruiser
+  SARO Skybreaker: entity/IrregularFrigate
+  SARO Stormbringer: entity/IrregularCruiser
+  SARO Talos: entity/IrregularBattlecruiser
   SB-39 Rail Rifle: infantry/InfantryWeapons
   SCC Guidelines - Lotteries For Dummies: specialeditionassets/SpecialEditionCommodities
   SCC Security Commander: entity/NPCBattleship
@@ -66809,6 +67020,7 @@ name2group:
   Sentinel Sequence 1: commodity/UnknownComponents
   Sentinel Serpentis: entity/DestructibleSentryGun
   Sentinel Vault: entity/MissionContainer
+  Sentinel Versus Redforce SKIN: skins/PermanentSKIN
   Sentinel ak.0: infantry/InfantryDropsuits
   Sentinel ck.0: infantry/InfantryDropsuits
   Sentinel gk.0: infantry/InfantryDropsuits
@@ -67690,6 +67902,7 @@ name2group:
   Sin Serpentis SKIN: skins/PermanentSKIN
   Sin Spirit SKIN: skins/PermanentSKIN
   Sin Valimor Legacy SKIN: skins/PermanentSKIN
+  Sin Versus Blueforce SKIN: skins/PermanentSKIN
   Singed Datapad: commodity/Miscellaneous
   Singing Staff: commodity/Miscellaneous
   Single Diode Basic Mining Laser: module/MiningLaser
@@ -67775,6 +67988,7 @@ name2group:
   Skybreaker: ship/Frigate
   Skybreaker Blueprint: blueprint/FrigateBlueprint
   Skybreaker Bluestar Defenders SKIN: skins/PermanentSKIN
+  Skybreaker Capsuleer Day XIX SKIN: skins/PermanentSKIN
   Skybreaker Disparu Troop: entity/AbyssalSpaceshipEntities
   Skybreaker EDENCOM Victory SKIN: skins/PermanentSKIN
   Skybreaker Strikeflight Red SKIN: skins/PermanentSKIN
@@ -68439,13 +68653,44 @@ name2group:
   Smashed Trigger Unit: material/SalvagedMaterials
   Smoke_Atlas: effects/ParticleSystems
   Smooth Glacial Mass: asteroid/Ice
+  Smuggler Basilisk: entity/IrregularCruiser
+  Smuggler Bay Loading Booster I: implant/Booster
+  Smuggler Bay Loading Booster II: implant/Booster
+  Smuggler Bay Loading Booster III: implant/Booster
+  Smuggler Bay Loading Booster IV: implant/Booster
+  Smuggler Blockade Running Booster I: implant/Booster
+  Smuggler Blockade Running Booster II: implant/Booster
+  Smuggler Blockade Running Booster III: implant/Booster
+  Smuggler Blockade Running Booster IV: implant/Booster
+  Smuggler Cerberus: entity/IrregularCruiser
   Smuggler DNA: commodity/Commodities
+  Smuggler Dead Drop: entity/SpawnContainer
+  Smuggler Draugur: entity/IrregularDestroyer
   Smuggler Freight: entity/MissionGenericCruisers
+  Smuggler Hyena: entity/IrregularFrigate
+  Smuggler Ikitursa: entity/IrregularCruiser
   Smuggler Knot Lock: commodity/AccelerationGateKeys
+  Smuggler Lockbox: commodity/Miscellaneous
+  Smuggler Low Observability Booster I: implant/Booster
+  Smuggler Low Observability Booster II: implant/Booster
+  Smuggler Low Observability Booster III: implant/Booster
+  Smuggler Low Observability Booster IV: implant/Booster
+  Smuggler Manticore: entity/IrregularFrigate
+  Smuggler Rapier: entity/IrregularCruiser
+  Smuggler Raptor: entity/IrregularFrigate
+  Smuggler Ringleader: entity/IrregularBattleship
+  Smuggler Service Outpost (DO NOT TRANSLATE): station/Station
+  Smuggler Shield Booster I: implant/Booster
+  Smuggler Shield Booster II: implant/Booster
+  Smuggler Shield Booster III: implant/Booster
+  Smuggler Shield Booster IV: implant/Booster
   Smuggler Signet: commodity/Commodities
   Smuggler Stargate: entity/LargeCollidableStructure
   Smuggler Stargate Strong: entity/LargeCollidableStructure
+  Smuggler Stash: entity/SpawnContainer
   Smuggler Tag: commodity/Commodities
+  Smuggler Tornado: entity/IrregularBattlecruiser
+  Smuggler Underboss: entity/IrregularBattleship
   Smuggler's Warning About Sister Alitura: commodity/Miscellaneous
   Smugglers: commodity/Livestock
   Smurgleblaster: commodity/Miscellaneous
@@ -69553,6 +69798,7 @@ name2group:
   Stork Guristas SKIN: skins/PermanentSKIN
   Stork Halcyon Dawn SKIN: skins/PermanentSKIN
   Stork Hunter's Quiver SKIN: skins/PermanentSKIN
+  Stork Kimotoro Eskeitan Commander SKIN: skins/PermanentSKIN
   Stork Matigu Seabeast SKIN: skins/PermanentSKIN
   Stork Steel Cardinal SKIN: skins/PermanentSKIN
   Stork Zento Isideko Combine SKIN: skins/PermanentSKIN
@@ -69573,6 +69819,7 @@ name2group:
   Stormbringer Aurora Universalis SKIN: skins/PermanentSKIN
   Stormbringer Blueprint: blueprint/CruiserBlueprint
   Stormbringer Bluestar Defenders SKIN: skins/PermanentSKIN
+  Stormbringer Capsuleer Day XIX SKIN: skins/PermanentSKIN
   Stormbringer Disparu Troop: entity/AbyssalSpaceshipEntities
   Stormbringer EDENCOM Victory SKIN: skins/PermanentSKIN
   Stormbringer Strikeflight Red SKIN: skins/PermanentSKIN
@@ -69797,6 +70044,7 @@ name2group:
   Sunder Drone: entity/NPCFrigate
   Sunesis: ship/Destroyer
   Sunesis Blueprint: blueprint/DestroyerBlueprint
+  Sunesis Capsuleer Day XIX SKIN: skins/PermanentSKIN
   Sunesis Capsuleer Day XVI SKIN: skins/PermanentSKIN
   Sunesis Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Sunesis Capsuleer Day XVIII SKIN: skins/PermanentSKIN
@@ -70723,6 +70971,7 @@ name2group:
   Thunderchild: ship/Battleship
   Thunderchild Blueprint: blueprint/BattleshipBlueprint
   Thunderchild Bluestar Defenders SKIN: skins/PermanentSKIN
+  Thunderchild Capsuleer Day XIX SKIN: skins/PermanentSKIN
   Thunderchild Disparu Troop: entity/AbyssalSpaceshipEntities
   Thunderchild EDENCOM Victory SKIN: skins/PermanentSKIN
   Thunderchild Strikeflight Red SKIN: skins/PermanentSKIN
@@ -71918,6 +72167,7 @@ name2group:
   Vehicle Core Upgrades: infantry/InfantrySkills
   Vehicle Electronics: infantry/InfantrySkills
   Vehicle Engineering: infantry/InfantrySkills
+  Vehicle PDS I: infantry/InfantryModules
   Vehicle Shield Recharger: infantry/InfantryModules
   Vehicle Shield Regeneration: infantry/InfantrySkills
   Vehicle Shield Upgrades: infantry/InfantrySkills
@@ -72447,6 +72697,7 @@ name2group:
   Widow Matigu Seabeast SKIN: skins/PermanentSKIN
   Widow Raata Sunset SKIN: skins/PermanentSKIN
   Widow Steel Cardinal SKIN: skins/PermanentSKIN
+  Widow Versus Redforce SKIN: skins/PermanentSKIN
   Widow Wiyrkomi SKIN: skins/PermanentSKIN
   Widow Zento Isideko Combine SKIN: skins/PermanentSKIN
   Wildfire Khumaak: commodity/Miscellaneous
@@ -72937,6 +73188,8 @@ name2group:
   Women's Jita 4-4 Crew Top: apparel/Tops
   Women's Jita 4-4 Executive Jacket: apparel/Outer
   Women's Jita 4-4 Executive Pants: apparel/Bottoms
+  Women's Kimotoro Eskeitan Commander's Jacket: apparel/Outer
+  Women's Kimotoro Eskeitan Commander's Pants: apparel/Bottoms
   Women's Minmatar 'Liberator' T-Shirt: apparel/Tops
   Women's Minmatar Republic Exploration Suit: apparel/Outer
   Women's Minmatar Republic Officer Jacket: apparel/Outer

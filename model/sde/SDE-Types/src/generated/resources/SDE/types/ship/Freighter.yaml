@@ -73,6 +73,7 @@ types:
     shielduniformity: 0.75
     shipmaintenancebaycapacity: 1600000
     signatureradius: 10200.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -153,6 +154,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     signatureradius: 10660.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -231,6 +233,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     signatureradius: 10385.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -309,6 +312,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     signatureradius: 10605.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
@@ -387,6 +391,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     signatureradius: 10515.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005

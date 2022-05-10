@@ -23,7 +23,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseSignatureRadius
 import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseTargetSwitching;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AITankingModifierDrone;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AoeDamageReductionFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorDamageAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
@@ -47,6 +50,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairD
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteShieldBoostDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteShieldBoostDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteShieldBoostFalloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteShieldBoostRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerFalloff;
@@ -126,6 +133,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretCount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
@@ -163,6 +171,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -174,6 +183,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResistanceBonus;
@@ -192,6 +202,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.VortonArcRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.VortonArcTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
@@ -281,6 +294,20 @@ public class IrregularCruiser
     @DefaultIntValue(0)
     public int behaviorshieldboosterduration;
     /**
+     * The maximum distance from the original target from which additional targets can receive arc damage
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int vortonarcrange;
+    /**
+     * Maximum number of arc targets hit.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int vortonarctargets;
+    /**
      * The agility of the object.
      */
     @HighIsGood(false)
@@ -288,12 +315,33 @@ public class IrregularCruiser
     @DefaultRealValue(0.0)
     public double agility;
     /**
+     * Size of the damage cloud caused by impact.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int aoecloudsize;
+    /**
      * Booster attribute to explosion radius of missiles vs. signature radius.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double aoecloudsizebonus;
+    /**
+     * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double aoedamagereductionfactor;
+    /**
+     * Velocity of the damage cloud created on impact.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int aoevelocity;
     /**
      * Increases velocity of missile explosion
      */
@@ -455,6 +503,34 @@ public class IrregularCruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int behaviorremotearmorrepairrange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorremoteshieldboostdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorremoteshieldboostduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorremoteshieldboostfalloff;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorremoteshieldboostrange;
     /**
      * 
      */
@@ -991,6 +1067,13 @@ public class IrregularCruiser
     @DefaultIntValue(0)
     public int gfxboosterid;
     /**
+     * Number of Turrets to fit for entity type ships
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int gfxturretcount;
+    /**
      * Graphic ID of the turrets for drone type ships.
      */
     @HighIsGood(true)
@@ -1250,6 +1333,13 @@ public class IrregularCruiser
     @DefaultRealValue(0.0)
     public double rechargerate;
     /**
+     * Impedance against Remote Repair (shield, armor, hull and energy).
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double remoterepairimpedance;
+    /**
      * Gravimetric strength.
      */
     @HighIsGood(true)
@@ -1326,6 +1416,13 @@ public class IrregularCruiser
     @Stackable(false)
     @DefaultIntValue(0)
     public int scanspeed;
+    /**
+     * Bonus to shield.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double shieldbonus;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -1454,6 +1551,13 @@ public class IrregularCruiser
     @DefaultRealValue(0.0)
     public double trackingspeedbonus;
     /**
+     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double uniformity;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -1481,7 +1585,7 @@ public class IrregularCruiser
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityBracketColour.INSTANCE, EntityStrength.INSTANCE, MissileVelocityBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SignatureRadiusBonus.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, RechargeRate.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ArmorDamageAmount.INSTANCE, ExplosionDelayBonus.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EmDamageResonance.INSTANCE, AIShouldUseSecondaryTarget.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, EmDamage.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, EntityArmorRepairDuration.INSTANCE, ThermalDamage.INSTANCE, EntityArmorRepairAmount.INSTANCE, AITankingModifierDrone.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntityShieldBoostAmount.INSTANCE, EntityArmorRepairDelayChance.INSTANCE, EntityShieldBoostDelayChance.INSTANCE, EntityGroupRespawnChance.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, AIShouldUseEvasiveManeuver.INSTANCE, EnergyNeutralizerRangeFalloff.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, BehaviorShieldBoosterAmount.INSTANCE, BehaviorShieldBoosterDischarge.INSTANCE, BehaviorShieldBoosterDuration.INSTANCE, NpcTrackingDisruptorActivationChance.INSTANCE, DamageMultiplierBonusPerCycle.INSTANCE, DamageMultiplierBonusMax.INSTANCE, EnergyNeutralizerDuration.INSTANCE, BehaviorRemoteArmorRepairDuration.INSTANCE, BehaviorRemoteArmorRepairRange.INSTANCE, BehaviorRemoteArmorRepairFalloff.INSTANCE, BehaviorRemoteArmorRepairDischarge.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, BehaviorWarpDisruptDuration.INSTANCE, EntityEquipmentMin.INSTANCE, BehaviorWarpDisruptRange.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorWarpDisruptDischarge.INSTANCE, BehaviorWarpScrambleDuration.INSTANCE, BehaviorWarpScrambleRange.INSTANCE, BehaviorWarpScrambleDischarge.INSTANCE, BehaviorWarpScrambleStrength.INSTANCE, BehaviorWarpDisruptStrength.INSTANCE, NpcGuidanceDisruptorDuration.INSTANCE, ScanRadarStrength.INSTANCE, NpcGuidanceDisruptorRange.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ShieldEmDamageResistanceBonus.INSTANCE, NpcGuidanceDisruptorFalloff.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, NpcGuidanceDisruptorDischarge.INSTANCE, ScanGravimetricStrength.INSTANCE, NpcTrackingDisruptorDuration.INSTANCE, MissileDamageMultiplier.INSTANCE, NpcTrackingDisruptorRange.INSTANCE, NpcTrackingDisruptorFalloff.INSTANCE, NpcTrackingDisruptorDischarge.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, PropulsionGraphicID.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, EntityAttackDelayMin.INSTANCE, BehaviorTargetPainterDuration.INSTANCE, EntityAttackDelayMax.INSTANCE, BehaviorTargetPainterRange.INSTANCE, BehaviorTargetPainterFalloff.INSTANCE, BehaviorTargetPainterDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, CapacitorCapacity.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, BehaviorECMDuration.INSTANCE, BehaviorECMRange.INSTANCE, ShieldUniformity.INSTANCE, BehaviorECMFalloff.INSTANCE, BehaviorECMDischarge.INSTANCE, EntityOverviewShipGroupId.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, EntityShieldBoostDelayChanceMedium.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, EntityDefenderChance.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EntityArmorRepairDelayChanceMedium.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, MissileLaunchDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityMissileTypeID.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, Hp.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityStrength.INSTANCE, MissileVelocityBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SignatureRadiusBonus.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, RemoteRepairImpedance.INSTANCE, ShieldBonus.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ArmorDamageAmount.INSTANCE, ExplosionDelayBonus.INSTANCE, WarpSpeedMultiplier.INSTANCE, GfxTurretCount.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EmDamageResonance.INSTANCE, AIShouldUseSecondaryTarget.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, EmDamage.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, EntityArmorRepairDuration.INSTANCE, ThermalDamage.INSTANCE, EntityArmorRepairAmount.INSTANCE, AITankingModifierDrone.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntityShieldBoostAmount.INSTANCE, EntityArmorRepairDelayChance.INSTANCE, EntityShieldBoostDelayChance.INSTANCE, EntityGroupRespawnChance.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, Uniformity.INSTANCE, AoeVelocity.INSTANCE, AoeCloudSize.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, BehaviorShieldBoosterAmount.INSTANCE, BehaviorShieldBoosterDischarge.INSTANCE, BehaviorShieldBoosterDuration.INSTANCE, DamageMultiplierBonusPerCycle.INSTANCE, DamageMultiplierBonusMax.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, EntityOverviewShipGroupId.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, TrackingSpeedBonus.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, EntityBracketColour.INSTANCE, MaxTargetRangeBonus.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE, AoeDamageReductionFactor.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, DisallowAssistance.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, AIShouldUseEvasiveManeuver.INSTANCE, EnergyNeutralizerRangeFalloff.INSTANCE, EntityFlyRange.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, NpcTrackingDisruptorActivationChance.INSTANCE, EnergyNeutralizerDuration.INSTANCE, BehaviorRemoteArmorRepairDuration.INSTANCE, BehaviorRemoteArmorRepairRange.INSTANCE, BehaviorRemoteArmorRepairFalloff.INSTANCE, BehaviorRemoteArmorRepairDischarge.INSTANCE, BehaviorRemoteShieldBoostDuration.INSTANCE, BehaviorRemoteShieldBoostRange.INSTANCE, BehaviorRemoteShieldBoostFalloff.INSTANCE, BehaviorRemoteShieldBoostDischarge.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, BehaviorWarpDisruptDuration.INSTANCE, EntityEquipmentMin.INSTANCE, BehaviorWarpDisruptRange.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorWarpDisruptDischarge.INSTANCE, BehaviorWarpScrambleDuration.INSTANCE, BehaviorWarpScrambleRange.INSTANCE, BehaviorWarpScrambleDischarge.INSTANCE, BehaviorWarpScrambleStrength.INSTANCE, BehaviorWarpDisruptStrength.INSTANCE, NpcGuidanceDisruptorDuration.INSTANCE, NpcGuidanceDisruptorRange.INSTANCE, EntityEquipmentGroupMax.INSTANCE, NpcGuidanceDisruptorFalloff.INSTANCE, ShieldEmDamageResistanceBonus.INSTANCE, EntityReactionFactor.INSTANCE, NpcGuidanceDisruptorDischarge.INSTANCE, NpcTrackingDisruptorDuration.INSTANCE, NpcTrackingDisruptorRange.INSTANCE, NpcTrackingDisruptorFalloff.INSTANCE, NpcTrackingDisruptorDischarge.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, EntityAttackDelayMin.INSTANCE, BehaviorTargetPainterDuration.INSTANCE, EntityAttackDelayMax.INSTANCE, VortonArcRange.INSTANCE, BehaviorTargetPainterRange.INSTANCE, VortonArcTargets.INSTANCE, BehaviorTargetPainterFalloff.INSTANCE, BehaviorTargetPainterDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, BehaviorECMDuration.INSTANCE, BehaviorECMRange.INSTANCE, ShieldUniformity.INSTANCE, BehaviorECMFalloff.INSTANCE, BehaviorECMDischarge.INSTANCE, EntityShieldBoostDelayChanceMedium.INSTANCE, EntityDefenderChance.INSTANCE, EntityArmorRepairDelayChanceMedium.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final IrregularCruiser.MetaGroup METAGROUP = new IrregularCruiser.MetaGroup();
 
     @Override
@@ -1531,13 +1635,33 @@ public class IrregularCruiser
             {
                 return behaviorshieldboosterduration;
             }
+            case  3036 :
+            {
+                return vortonarcrange;
+            }
+            case  3037 :
+            {
+                return vortonarctargets;
+            }
             case  70 :
             {
                 return agility;
             }
+            case  654 :
+            {
+                return aoecloudsize;
+            }
             case  848 :
             {
                 return aoecloudsizebonus;
+            }
+            case  1353 :
+            {
+                return aoedamagereductionfactor;
+            }
+            case  653 :
+            {
+                return aoevelocity;
             }
             case  847 :
             {
@@ -1630,6 +1754,22 @@ public class IrregularCruiser
             case  2492 :
             {
                 return behaviorremotearmorrepairrange;
+            }
+            case  2498 :
+            {
+                return behaviorremoteshieldboostdischarge;
+            }
+            case  2495 :
+            {
+                return behaviorremoteshieldboostduration;
+            }
+            case  2497 :
+            {
+                return behaviorremoteshieldboostfalloff;
+            }
+            case  2496 :
+            {
+                return behaviorremoteshieldboostrange;
             }
             case  2530 :
             {
@@ -1935,6 +2075,10 @@ public class IrregularCruiser
             {
                 return gfxboosterid;
             }
+            case  2654 :
+            {
+                return gfxturretcount;
+            }
             case  245 :
             {
                 return gfxturretid;
@@ -2083,6 +2227,10 @@ public class IrregularCruiser
             {
                 return rechargerate;
             }
+            case  2116 :
+            {
+                return remoterepairimpedance;
+            }
             case  211 :
             {
                 return scangravimetricstrength;
@@ -2126,6 +2274,10 @@ public class IrregularCruiser
             case  79 :
             {
                 return scanspeed;
+            }
+            case  68 :
+            {
+                return shieldbonus;
             }
             case  263 :
             {
@@ -2198,6 +2350,10 @@ public class IrregularCruiser
             case  767 :
             {
                 return trackingspeedbonus;
+            }
+            case  136 :
+            {
+                return uniformity;
             }
             case  505 :
             {

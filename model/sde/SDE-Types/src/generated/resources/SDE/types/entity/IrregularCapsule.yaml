@@ -1,6 +1,6 @@
 types:
   Hijacked Golden Capsule:
-    agility: 2.0
+    agility: 10.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1560.0
@@ -13,7 +13,7 @@ types:
     id: 63163
     kineticdamageresonance: 0.6700000166893005
     mass: 32000.0
-    maxvelocity: 1500.0
+    maxvelocity: 2100.0
     name: Hijacked Golden Capsule
     packagedVolume: 1000.0
     portionSize: 1
@@ -30,12 +30,12 @@ types:
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
-    signatureradius: 5.0
+    signatureradius: 3.0
     thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
-    warpspeedmultiplier: 0.5
+    warpspeedmultiplier: 4.0
   Hijacked Green Capsule:
-    agility: 2.0
+    agility: 10.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1560.0
@@ -48,7 +48,7 @@ types:
     id: 63162
     kineticdamageresonance: 0.6700000166893005
     mass: 32000.0
-    maxvelocity: 1500.0
+    maxvelocity: 2000.0
     name: Hijacked Green Capsule
     packagedVolume: 1000.0
     portionSize: 1
@@ -65,12 +65,12 @@ types:
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
-    signatureradius: 5.0
+    signatureradius: 3.0
     thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
-    warpspeedmultiplier: 0.5
+    warpspeedmultiplier: 4.0
   Hijacked Orange Capsule:
-    agility: 2.0
+    agility: 10.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1560.0
@@ -83,7 +83,7 @@ types:
     id: 63161
     kineticdamageresonance: 0.6700000166893005
     mass: 32000.0
-    maxvelocity: 1500.0
+    maxvelocity: 1900.0
     name: Hijacked Orange Capsule
     packagedVolume: 1000.0
     portionSize: 1
@@ -100,12 +100,12 @@ types:
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
-    signatureradius: 5.0
+    signatureradius: 3.0
     thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
-    warpspeedmultiplier: 0.5
+    warpspeedmultiplier: 4.0
   Hijacked Pink Capsule:
-    agility: 2.0
+    agility: 10.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1560.0
@@ -118,7 +118,7 @@ types:
     id: 63158
     kineticdamageresonance: 0.6700000166893005
     mass: 32000.0
-    maxvelocity: 1500.0
+    maxvelocity: 1600.0
     name: Hijacked Pink Capsule
     packagedVolume: 1000.0
     portionSize: 1
@@ -135,12 +135,12 @@ types:
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
-    signatureradius: 5.0
+    signatureradius: 3.0
     thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
-    warpspeedmultiplier: 0.5
+    warpspeedmultiplier: 4.0
   Hijacked Red Capsule:
-    agility: 2.0
+    agility: 10.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1560.0
@@ -170,12 +170,12 @@ types:
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
-    signatureradius: 5.0
+    signatureradius: 3.0
     thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
-    warpspeedmultiplier: 0.5
+    warpspeedmultiplier: 4.0
   Hijacked Teal Capsule:
-    agility: 2.0
+    agility: 10.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1560.0
@@ -188,7 +188,7 @@ types:
     id: 63160
     kineticdamageresonance: 0.6700000166893005
     mass: 32000.0
-    maxvelocity: 1500.0
+    maxvelocity: 1800.0
     name: Hijacked Teal Capsule
     packagedVolume: 1000.0
     portionSize: 1
@@ -205,12 +205,12 @@ types:
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
-    signatureradius: 5.0
+    signatureradius: 3.0
     thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
-    warpspeedmultiplier: 0.5
+    warpspeedmultiplier: 4.0
   Hijacked White Capsule:
-    agility: 2.0
+    agility: 10.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1560.0
@@ -223,7 +223,7 @@ types:
     id: 63159
     kineticdamageresonance: 0.6700000166893005
     mass: 32000.0
-    maxvelocity: 1500.0
+    maxvelocity: 1700.0
     name: Hijacked White Capsule
     packagedVolume: 1000.0
     portionSize: 1
@@ -240,10 +240,10 @@ types:
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
-    signatureradius: 5.0
+    signatureradius: 3.0
     thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
-    warpspeedmultiplier: 0.5
+    warpspeedmultiplier: 4.0
   Mysterious Golden Capsule:
     agility: 5.0
     armoremdamageresonance: 0.4000000059604645

@@ -29,6 +29,8 @@ usages:
       36: 12.0
       40: 1.2
   34:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       683: null
       684: null
@@ -1345,6 +1347,7 @@ usages:
       62677: null
       62678: null
       62679: null
+      63164: null
     materialInReaction: !!set
       46158: null
       57500: null
@@ -4975,6 +4978,7 @@ usages:
       33011: null
       33017: null
       33076: null
+      33081: null
       33101: null
       33103: null
       33149: null
@@ -5846,7 +5850,10 @@ usages:
       62634: null
       62635: null
       62636: null
+      63140: null
   35:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       683: null
       684: null
@@ -7103,6 +7110,8 @@ usages:
       62677: null
       62678: null
       62679: null
+      63164: null
+      63196: null
     materialInReaction: !!set
       46159: null
     reprocessedFrom: !!set
@@ -10671,6 +10680,7 @@ usages:
       33011: null
       33017: null
       33076: null
+      33081: null
       33101: null
       33103: null
       33151: null
@@ -11513,7 +11523,11 @@ usages:
       62634: null
       62635: null
       62636: null
+      63140: null
+      63195: null
   36:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       683: null
       684: null
@@ -12565,6 +12579,7 @@ usages:
       62677: null
       62678: null
       62679: null
+      63164: null
     materialInReaction: !!set
       46160: null
     reprocessedFrom: !!set
@@ -15555,6 +15570,7 @@ usages:
       32955: null
       32957: null
       33017: null
+      33081: null
       33101: null
       33103: null
       33151: null
@@ -16330,7 +16346,10 @@ usages:
       62634: null
       62635: null
       62636: null
+      63140: null
   37:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       683: null
       684: null
@@ -17313,6 +17332,7 @@ usages:
       62677: null
       62678: null
       62679: null
+      63164: null
     materialInReaction: !!set
       46157: null
     reprocessedFrom: !!set
@@ -19791,6 +19811,7 @@ usages:
       32955: null
       32957: null
       33017: null
+      33081: null
       33101: null
       33103: null
       33176: null
@@ -20514,7 +20535,10 @@ usages:
       62634: null
       62635: null
       62636: null
+      63140: null
   38:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       686: null
       687: null
@@ -21385,6 +21409,7 @@ usages:
       62677: null
       62678: null
       62679: null
+      63164: null
     materialInReaction: !!set
       46161: null
       46163: null
@@ -24147,6 +24172,7 @@ usages:
       32955: null
       32957: null
       33017: null
+      33081: null
       33101: null
       33103: null
       33149: null
@@ -24919,7 +24945,10 @@ usages:
       62634: null
       62635: null
       62636: null
+      63140: null
   39:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       686: null
       687: null
@@ -25645,6 +25674,7 @@ usages:
       62677: null
       62678: null
       62679: null
+      63164: null
     materialInReaction: !!set
       46162: null
       46164: null
@@ -27661,6 +27691,7 @@ usages:
       32955: null
       32957: null
       33017: null
+      33081: null
       33329: null
       33393: null
       33394: null
@@ -28362,7 +28393,10 @@ usages:
       62634: null
       62635: null
       62636: null
+      63140: null
   40:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       686: null
       687: null
@@ -29177,6 +29211,8 @@ usages:
       62677: null
       62678: null
       62679: null
+      63164: null
+      63196: null
     materialInReaction: !!set
       46165: null
     reprocessedFrom: !!set
@@ -31437,6 +31473,7 @@ usages:
       32957: null
       33017: null
       33076: null
+      33081: null
       33087: null
       33111: null
       33149: null
@@ -32224,6 +32261,8 @@ usages:
       62634: null
       62635: null
       62636: null
+      63140: null
+      63195: null
   41:
     materialInReaction: !!set
       46219: null
@@ -70322,6 +70361,7 @@ usages:
       30029: null
       33067: null
       56749: null
+      63196: null
     reprocessedFrom: !!set
       4051: null
       4246: null
@@ -70357,6 +70397,7 @@ usages:
       33017: null
       34260: null
       56748: null
+      63195: null
   16278:
     materialInManuf: !!set
       22230: null
@@ -113398,6 +113439,15 @@ usages:
       34: 858.0
       35: 288.0
       40: 4.0
+  33081:
+    reprocessInto:
+      34: 19200.0
+      35: 3600.0
+      36: 1500.0
+      37: 300.0
+      38: 18.0
+      39: 12.0
+      40: 6.0
   33087:
     productOfManuf: !!set
       33088: null
@@ -129512,9 +129562,13 @@ usages:
       57433: null
       57434: null
       57435: null
+      58853: null
       59301: null
       59302: null
       59303: null
+      63633: null
+      63634: null
+      63635: null
   49099:
     productOfManuf: !!set
       49100: null
@@ -132610,6 +132664,8 @@ usages:
       33361: 750.0
       57457: 100.0
   57478:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       688: null
       693: null
@@ -132838,6 +132894,8 @@ usages:
     reprocessedFrom: !!set
       57482: null
   57486:
+    materialInCopy: !!set
+      33082: null
     materialInManuf: !!set
       688: null
       693: null
@@ -133063,6 +133121,9 @@ usages:
       57482: 100.0
       57483: 10.0
   57761: {}
+  58853:
+    reprocessInto:
+      48927: 1.0
   58904:
     productOfManuf: !!set
       58905: null
@@ -134642,3 +134703,30 @@ usages:
       38: 10000.0
       39: 10000.0
       40: 10000.0
+  63140:
+    productOfManuf: !!set
+      63164: null
+    reprocessInto:
+      34: 1000000.0
+      35: 5500000.0
+      36: 100000.0
+      37: 550000.0
+      38: 20000.0
+      39: 40000.0
+      40: 150000.0
+  63195:
+    productOfManuf: !!set
+      63196: null
+    reprocessInto:
+      35: 1.0
+      40: 0.005
+      16275: 0.005
+  63633:
+    reprocessInto:
+      48927: 1.0
+  63634:
+    reprocessInto:
+      48927: 1.0
+  63635:
+    reprocessInto:
+      48927: 1.0

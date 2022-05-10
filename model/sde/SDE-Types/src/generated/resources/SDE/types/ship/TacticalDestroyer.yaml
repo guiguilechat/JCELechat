@@ -73,6 +73,7 @@ types:
     shipbonustacticaldestroyeramarr3: -5
     signatureradius: 65.0
     stanceswitchtime: 10000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 3
     thermaldamageresonance: 0.6700000166893005
@@ -160,6 +161,7 @@ types:
     shipbonustacticaldestroyergallente3: -5
     signatureradius: 70.0
     stanceswitchtime: 10000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 3
     thermaldamageresonance: 0.6700000166893005
@@ -248,6 +250,7 @@ types:
     shipbonustacticaldestroyercaldari3: -5
     signatureradius: 70.0
     stanceswitchtime: 10000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 3
     thermaldamageresonance: 0.6700000166893005
@@ -334,6 +337,7 @@ types:
     shipbonustacticaldestroyerminmatar3: -5
     signatureradius: 60.0
     stanceswitchtime: 10000
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 3
     thermaldamageresonance: 0.6700000166893005

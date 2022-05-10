@@ -54,6 +54,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.5
     signatureradius: 25.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005

@@ -23,6 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
@@ -71,6 +72,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebifierResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
@@ -199,6 +201,13 @@ public abstract class Ship
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacity;
+    /**
+     * Chance of being able to resist a cargo scan.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double cargoscanresistance;
     /**
      * charge of module
      */
@@ -538,6 +547,13 @@ public abstract class Ship
     @DefaultRealValue(100.0)
     public double signatureradius;
     /**
+     * Resistance against Stasis Webifiers
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double stasiswebifierresistance;
+    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -615,7 +631,7 @@ public abstract class Ship
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double weapondisruptionresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, Uniformity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, Uniformity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Ship.MetaCat METACAT = new Ship.MetaCat();
 
     @Override
@@ -660,6 +676,10 @@ public abstract class Ship
             case  38 :
             {
                 return capacity;
+            }
+            case  188 :
+            {
+                return cargoscanresistance;
             }
             case  18 :
             {
@@ -852,6 +872,10 @@ public abstract class Ship
             case  552 :
             {
                 return signatureradius;
+            }
+            case  2115 :
+            {
+                return stasiswebifierresistance;
             }
             case  525 :
             {

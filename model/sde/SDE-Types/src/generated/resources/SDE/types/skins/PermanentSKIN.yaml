@@ -837,6 +837,7 @@ types:
     volume: 0.009999999776482582
   Anathema Versus Redforce SKIN:
     id: 62012
+    marketGroup: 2051
     name: Anathema Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -1394,6 +1395,13 @@ types:
     id: 52588
     marketGroup: 2278
     name: Apostle Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apotheosis Capsuleer Day XIX SKIN:
+    id: 63841
+    name: Apotheosis Capsuleer Day XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2800,6 +2808,7 @@ types:
     volume: 0.009999999776482582
   Atron Versus Blueforce SKIN:
     id: 63144
+    marketGroup: 2004
     name: Atron Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -4163,6 +4172,22 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Boobook Versus Blueforce SKIN:
+    id: 64190
+    marketGroup: 2316
+    name: Boobook Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Boobook Versus Redforce SKIN:
+    id: 64189
+    marketGroup: 2316
+    name: Boobook Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bowhead Amarr Industrial Livery SKIN:
     id: 43758
     marketGroup: 2318
@@ -5193,8 +5218,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Buzzard Versus Blueforce SKIN:
+    id: 63863
+    name: Buzzard Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Buzzard Versus Redforce SKIN:
     id: 62015
+    marketGroup: 2052
     name: Buzzard Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -5351,6 +5384,13 @@ types:
     id: 57004
     marketGroup: 2285
     name: Capsule Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Capsule Capsuleer Day XIX SKIN:
+    id: 63848
+    name: Capsule Capsuleer Day XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5724,6 +5764,7 @@ types:
     volume: 0.009999999776482582
   Caracal Versus Blueforce SKIN:
     id: 63244
+    marketGroup: 1991
     name: Caracal Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -6481,8 +6522,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cheetah Versus Blueforce SKIN:
+    id: 63867
+    name: Cheetah Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cheetah Versus Redforce SKIN:
     id: 62021
+    marketGroup: 2054
     name: Cheetah Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -7134,6 +7183,7 @@ types:
     volume: 0.009999999776482582
   Condor Versus Redforce SKIN:
     id: 63141
+    marketGroup: 2003
     name: Condor Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -7913,6 +7963,13 @@ types:
     id: 46142
     marketGroup: 2089
     name: Crane Steel Cardinal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crane Versus Blueforce SKIN:
+    id: 63864
+    name: Crane Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8773,6 +8830,7 @@ types:
     volume: 0.009999999776482582
   Cynabal Versus Blueforce SKIN:
     id: 62646
+    marketGroup: 2030
     name: Cynabal Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -8780,6 +8838,7 @@ types:
     volume: 0.009999999776482582
   Cynabal Versus Redforce SKIN:
     id: 62640
+    marketGroup: 2030
     name: Cynabal Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9016,6 +9075,7 @@ types:
     volume: 0.009999999776482582
   Daredevil Versus Blueforce SKIN:
     id: 62645
+    marketGroup: 2031
     name: Daredevil Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9023,6 +9083,7 @@ types:
     volume: 0.009999999776482582
   Daredevil Versus Redforce SKIN:
     id: 62639
+    marketGroup: 2031
     name: Daredevil Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9307,6 +9368,13 @@ types:
     id: 37506
     marketGroup: 2073
     name: Devoter Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Devoter Versus Blueforce SKIN:
+    id: 63857
+    name: Devoter Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10182,6 +10250,7 @@ types:
     volume: 0.009999999776482582
   Dramiel Versus Blueforce SKIN:
     id: 62644
+    marketGroup: 2031
     name: Dramiel Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -10189,6 +10258,7 @@ types:
     volume: 0.009999999776482582
   Dramiel Versus Redforce SKIN:
     id: 62638
+    marketGroup: 2031
     name: Dramiel Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -11352,6 +11422,7 @@ types:
     volume: 0.009999999776482582
   Executioner Versus Blueforce SKIN:
     id: 63143
+    marketGroup: 2002
     name: Executioner Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -11635,6 +11706,13 @@ types:
     id: 46118
     marketGroup: 2082
     name: Falcon Steel Cardinal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Falcon Versus Redforce SKIN:
+    id: 63865
+    name: Falcon Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12439,6 +12517,7 @@ types:
     volume: 0.009999999776482582
   Gila Versus Blueforce SKIN:
     id: 63642
+    marketGroup: 2030
     name: Gila Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -12448,6 +12527,13 @@ types:
     id: 61867
     marketGroup: 2030
     name: Gila Warp Convergence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gnosis Capsuleer Day XIX SKIN:
+    id: 63842
+    name: Gnosis Capsuleer Day XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12657,6 +12743,14 @@ types:
   Golem Kaalakiota Serenity Only SKIN:
     id: 37122
     name: Golem Kaalakiota Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Golem Kimotoro Eskeitan Commander SKIN:
+    id: 64098
+    marketGroup: 2025
+    name: Golem Kimotoro Eskeitan Commander SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14070,6 +14164,7 @@ types:
     volume: 0.009999999776482582
   Helios Versus Redforce SKIN:
     id: 62018
+    marketGroup: 2053
     name: Helios Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -14295,6 +14390,7 @@ types:
     volume: 0.009999999776482582
   Heron Versus Blueforce SKIN:
     id: 62013
+    marketGroup: 2003
     name: Heron Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -15598,6 +15694,7 @@ types:
     volume: 0.009999999776482582
   Imicus Versus Blueforce SKIN:
     id: 62016
+    marketGroup: 2004
     name: Imicus Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -15756,6 +15853,13 @@ types:
     id: 52587
     marketGroup: 2088
     name: Impel Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Impel Versus Redforce SKIN:
+    id: 63856
+    name: Impel Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16890,6 +16994,13 @@ types:
     id: 37557
     marketGroup: 2057
     name: Keres Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Keres Versus Redforce SKIN:
+    id: 63859
+    name: Keres Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18236,6 +18347,7 @@ types:
     volume: 0.009999999776482582
   Machariel Versus Blueforce SKIN:
     id: 62647
+    marketGroup: 1963
     name: Machariel Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -18243,6 +18355,7 @@ types:
     volume: 0.009999999776482582
   Machariel Versus Redforce SKIN:
     id: 62641
+    marketGroup: 1963
     name: Machariel Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -18747,6 +18860,7 @@ types:
     volume: 0.009999999776482582
   Magnate Versus Blueforce SKIN:
     id: 62010
+    marketGroup: 2002
     name: Magnate Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -19136,6 +19250,7 @@ types:
     volume: 0.009999999776482582
   Maller Versus Blueforce SKIN:
     id: 62011
+    marketGroup: 1990
     name: Maller Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -20677,6 +20792,7 @@ types:
     volume: 0.009999999776482582
   Moa Versus Blueforce SKIN:
     id: 62014
+    marketGroup: 1991
     name: Moa Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -22902,6 +23018,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Occator Versus Redforce SKIN:
+    id: 63860
+    name: Occator Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Omen Aspirant Enforcer SKIN:
     id: 60239
     marketGroup: 1990
@@ -23228,6 +23351,7 @@ types:
     volume: 0.009999999776482582
   Omen Versus Redforce SKIN:
     id: 63241
+    marketGroup: 1990
     name: Omen Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -24072,6 +24196,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Osprey Navy Issue Kimotoro Eskeitan Commander SKIN:
+    id: 64097
+    marketGroup: 2063
+    name: Osprey Navy Issue Kimotoro Eskeitan Commander SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Osprey Navy Issue Steel Cardinal SKIN:
     id: 46122
     marketGroup: 2063
@@ -24551,6 +24683,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Panther Versus Redforce SKIN:
+    id: 63870
+    name: Panther Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Panther Yoiul Festival YC121 SKIN:
     id: 49960
     marketGroup: 2113
@@ -24697,6 +24836,13 @@ types:
     id: 37569
     marketGroup: 2075
     name: Phobos Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phobos Versus Blueforce SKIN:
+    id: 63861
+    name: Phobos Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25193,6 +25339,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Praxis Capsuleer Day XIX SKIN:
+    id: 63843
+    name: Praxis Capsuleer Day XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Praxis Capsuleer Day XVI SKIN:
     id: 52278
     marketGroup: 2421
@@ -25391,6 +25544,7 @@ types:
     volume: 0.009999999776482582
   Probe Versus Blueforce SKIN:
     id: 62019
+    marketGroup: 2005
     name: Probe Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -26340,6 +26494,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prowler Versus Blueforce SKIN:
+    id: 63868
+    name: Prowler Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Punisher Aurora Universalis SKIN:
     id: 60907
     name: Punisher Aurora Universalis SKIN
@@ -26901,6 +27062,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rapier Versus Redforce SKIN:
+    id: 63869
+    name: Rapier Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raptor Abyssal Glory SKIN:
     id: 60082
     name: Raptor Abyssal Glory SKIN
@@ -27107,6 +27275,7 @@ types:
     volume: 0.009999999776482582
   Rattlesnake Versus Redforce SKIN:
     id: 63644
+    marketGroup: 1963
     name: Rattlesnake Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -27707,6 +27876,13 @@ types:
     id: 52585
     marketGroup: 2110
     name: Redeemer Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Redeemer Versus Blueforce SKIN:
+    id: 63858
+    name: Redeemer Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29342,6 +29518,7 @@ types:
     volume: 0.009999999776482582
   Rupture Versus Blueforce SKIN:
     id: 62020
+    marketGroup: 1993
     name: Rupture Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -30295,6 +30472,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sentinel Versus Redforce SKIN:
+    id: 63855
+    name: Sentinel Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Serpentis Victory SKIN:
     id: 46582
     marketGroup: 2120
@@ -30528,6 +30712,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sin Versus Blueforce SKIN:
+    id: 63862
+    name: Sin Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Skiff Amarr Industrial Livery SKIN:
     id: 43755
     marketGroup: 2012
@@ -30715,6 +30906,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Skybreaker Capsuleer Day XIX SKIN:
+    id: 63845
+    name: Skybreaker Capsuleer Day XIX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Skybreaker EDENCOM Victory SKIN:
     id: 57706
     marketGroup: 2000
@@ -30881,6 +31079,7 @@ types:
     volume: 0.009999999776482582
   Slasher Versus Redforce SKIN:
     id: 63142
+    marketGroup: 2005
     name: Slasher Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -31351,6 +31550,7 @@ types:
     volume: 0.009999999776482582
   Stabber Versus Blueforce SKIN:
     id: 63245
+    marketGroup: 1993
     name: Stabber Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -31537,6 +31737,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stork Kimotoro Eskeitan Commander SKIN:
+    id: 64096
+    marketGroup: 2143
+    name: Stork Kimotoro Eskeitan Commander SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stork Matigu Seabeast SKIN:
     id: 40595
     marketGroup: 2143
@@ -31572,6 +31780,13 @@ types:
     id: 55985
     marketGroup: 2063
     name: Stormbringer Bluestar Defenders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stormbringer Capsuleer Day XIX SKIN:
+    id: 63846
+    name: Stormbringer Capsuleer Day XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -31767,6 +31982,13 @@ types:
     id: 52595
     marketGroup: 2031
     name: Succubus True Deliverance SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sunesis Capsuleer Day XIX SKIN:
+    id: 63844
+    name: Sunesis Capsuleer Day XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -33424,6 +33646,7 @@ types:
     volume: 0.009999999776482582
   Thorax Versus Redforce SKIN:
     id: 63243
+    marketGroup: 1992
     name: Thorax Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -33613,6 +33836,13 @@ types:
     id: 55986
     marketGroup: 2108
     name: Thunderchild Bluestar Defenders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thunderchild Capsuleer Day XIX SKIN:
+    id: 63847
+    name: Thunderchild Capsuleer Day XIX SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -35585,6 +35815,7 @@ types:
     volume: 0.009999999776482582
   Vexor Versus Blueforce SKIN:
     id: 62017
+    marketGroup: 1992
     name: Vexor Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -35958,6 +36189,7 @@ types:
     volume: 0.009999999776482582
   Vigilant Versus Blueforce SKIN:
     id: 62648
+    marketGroup: 2030
     name: Vigilant Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -35965,6 +36197,7 @@ types:
     volume: 0.009999999776482582
   Vigilant Versus Redforce SKIN:
     id: 62642
+    marketGroup: 2030
     name: Vigilant Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -36052,6 +36285,7 @@ types:
     volume: 0.009999999776482582
   Vindicator Versus Blueforce SKIN:
     id: 62649
+    marketGroup: 1963
     name: Vindicator Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -36059,6 +36293,7 @@ types:
     volume: 0.009999999776482582
   Vindicator Versus Redforce SKIN:
     id: 62643
+    marketGroup: 1963
     name: Vindicator Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -36250,6 +36485,13 @@ types:
     id: 46132
     marketGroup: 2111
     name: Widow Steel Cardinal SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Widow Versus Redforce SKIN:
+    id: 63866
+    name: Widow Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -36446,6 +36688,7 @@ types:
     volume: 0.009999999776482582
   Worm Versus Redforce SKIN:
     id: 63643
+    marketGroup: 2031
     name: Worm Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1

@@ -119088,6 +119088,32 @@ blueprints:
     seeded: false
   33082:
     copying:
+      materials:
+      - id: 34
+        quantity: 19200
+      - id: 35
+        quantity: 3600
+      - id: 36
+        quantity: 1500
+      - id: 37
+        quantity: 300
+      - id: 38
+        quantity: 18
+      - id: 39
+        quantity: 12
+      - id: 40
+        quantity: 6
+      - id: 57478
+        quantity: 6
+      - id: 57486
+        quantity: 3
+      products:
+      - id: 33081
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
       time: 4800
     id: 33082
     maxCopyRuns: 30
@@ -175217,7 +175243,7 @@ blueprints:
         ? id: 11455
         : 1
       time: 27641
-    seeded: false
+    seeded: true
   62652:
     copying:
       time: 17280
@@ -175625,4 +175651,66 @@ blueprints:
       time: 7560
     research_time:
       time: 7560
+    seeded: true
+  63164:
+    copying:
+      time: 43200
+    id: 63164
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 1000000
+      - id: 35
+        quantity: 5500000
+      - id: 36
+        quantity: 100000
+      - id: 37
+        quantity: 550000
+      - id: 38
+        quantity: 20000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 150000
+      products:
+      - id: 63140
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+        ? id: 22242
+        : 1
+      time: 18900
+    maxCopyRuns: 3
+    research_material:
+      time: 18900
+    research_time:
+      time: 18900
+    seeded: true
+  63196:
+    copying:
+      time: 1200
+    id: 63196
+    manufacturing:
+      materials:
+      - id: 35
+        quantity: 40000
+      - id: 40
+        quantity: 200
+      - id: 16275
+        quantity: 200
+      products:
+      - id: 63195
+        probability: 1.0
+        quantity: 200
+      skills:
+        ? id: 3380
+        : 1
+      time: 1500
+    maxCopyRuns: 100
+    research_material:
+      time: 525
+    research_time:
+      time: 525
     seeded: true

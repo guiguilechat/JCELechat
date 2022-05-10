@@ -36,6 +36,9 @@ types:
     medslots: 3
     name: Azbel
     packagedVolume: 80000.0
+    pausearmorrepairdpsthreshold: 1500
+    pausehullrepairdpsthreshold: 1500
+    pauseshieldrepairdpsthreshold: 1500
     portionSize: 1
     poweroutput: 1800000
     published: true
@@ -52,8 +55,8 @@ types:
     scanresolution: 55.0
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 5
-    shieldcapacity: 3600000.0
-    shielddamagelimit: 15000
+    shieldcapacity: 4500000.0
+    shielddamagelimit: 18000000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -98,7 +101,7 @@ types:
     hiddenarmorhpmultiplier: 1
     hiddenmissiledamagemultiplier: 1
     hislots: 3
-    hp: 4800000.0
+    hp: 1200000.0
     id: 35825
     kineticdamageresonance: 0.800000011920929
     launcherslotsleft: 1
@@ -111,6 +114,9 @@ types:
     medslots: 2
     name: Raitaru
     packagedVolume: 8000.0
+    pausearmorrepairdpsthreshold: 500
+    pausehullrepairdpsthreshold: 500
+    pauseshieldrepairdpsthreshold: 500
     portionSize: 1
     poweroutput: 800000
     published: true
@@ -127,8 +133,8 @@ types:
     scanresolution: 65.0
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 3
-    shieldcapacity: 1200000.0
-    shielddamagelimit: 5000
+    shieldcapacity: 2400000.0
+    shielddamagelimit: 9600000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929
@@ -190,6 +196,9 @@ types:
     medslots: 4
     name: Sotiyo
     packagedVolume: 800000.0
+    pausearmorrepairdpsthreshold: 7500
+    pausehullrepairdpsthreshold: 7500
+    pauseshieldrepairdpsthreshold: 7500
     portionSize: 1
     poweroutput: 3000000
     published: true
@@ -206,8 +215,8 @@ types:
     scanresolution: 45.0
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 6
-    shieldcapacity: 1.8E7
-    shielddamagelimit: 75000
+    shieldcapacity: 2.25E7
+    shielddamagelimit: 90000000
     shieldemdamageresonance: 0.800000011920929
     shieldexplosivedamageresonance: 0.800000011920929
     shieldkineticdamageresonance: 0.800000011920929

@@ -80,6 +80,7 @@ types:
     shipbonusstrategiccruiseramarr2: 10
     signatureradius: 170.0
     specialsubsystemholdcapacity: 120
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 3
     thermaldamageresonance: 0.6700000166893005
@@ -172,6 +173,7 @@ types:
     shipbonusstrategiccruiserminmatar2: 10
     signatureradius: 160.0
     specialsubsystemholdcapacity: 120
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 3
     thermaldamageresonance: 0.6700000166893005
@@ -264,6 +266,7 @@ types:
     shipbonusstrategiccruisergallente2: 10
     signatureradius: 190.0
     specialsubsystemholdcapacity: 120
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 3
     thermaldamageresonance: 0.6700000166893005
@@ -356,6 +359,7 @@ types:
     shipbonusstrategiccruisercaldari2: 10
     signatureradius: 180.0
     specialsubsystemholdcapacity: 120
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 3
     thermaldamageresonance: 0.6700000166893005

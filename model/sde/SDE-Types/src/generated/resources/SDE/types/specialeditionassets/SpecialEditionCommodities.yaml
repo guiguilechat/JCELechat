@@ -606,6 +606,30 @@ types:
     name: Capsule Cascade Firework Crate
     portionSize: 1
     published: true
+  Capsuleer Day DED Booster Crate:
+    cpumultiplier: 1.0
+    id: 64036
+    name: Capsuleer Day DED Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Capsuleer Day Smuggler Booster Crate:
+    cpumultiplier: 1.0
+    id: 64037
+    name: Capsuleer Day Smuggler Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Capsuleer Day XIX Fireworks Gift Box:
+    cpumultiplier: 1.0
+    id: 64028
+    name: Capsuleer Day XIX Fireworks Gift Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Capsuleer Day XVI Apotheosis & SKIN Crate:
     cpumultiplier: 1.0
     id: 52296

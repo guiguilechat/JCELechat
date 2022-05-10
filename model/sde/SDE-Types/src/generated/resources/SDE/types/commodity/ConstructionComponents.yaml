@@ -16,11 +16,11 @@ types:
     mass: 0.10000000149011612
     moonminingamount: 1
     name: Auto-Integrity Preservation Seal
-    packagedVolume: 45.0
+    packagedVolume: 16.0
     portionSize: 1
     price: 10000.0
     published: true
-    volume: 45.0
+    volume: 16.0
   Capital Singularity Radiation Convertor:
     id: 53288
     marketGroup: 2658
@@ -57,11 +57,11 @@ types:
     mass: 0.10000000149011612
     moonminingamount: 1
     name: Core Temperature Regulator
-    packagedVolume: 1000.0
+    packagedVolume: 180.0
     portionSize: 1
     price: 500000.0
     published: true
-    volume: 1000.0
+    volume: 180.0
   Crystalline Carbonide Armor Plate:
     id: 11545
     marketGroup: 1888
@@ -276,11 +276,11 @@ types:
     mass: 0.10000000149011612
     moonminingamount: 1
     name: Life Support Backup Unit
-    packagedVolume: 100.0
+    packagedVolume: 45.0
     portionSize: 1
     price: 10000.0
     published: true
-    volume: 100.0
+    volume: 45.0
   Linear Shield Emitter:
     id: 11557
     marketGroup: 802

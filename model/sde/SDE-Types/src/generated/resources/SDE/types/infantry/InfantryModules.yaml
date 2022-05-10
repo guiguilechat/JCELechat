@@ -3190,14 +3190,6 @@ types:
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Power Diagnostic System I:
-    id: 352076
-    name: Power Diagnostic System I
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 6000.0
-    published: false
-    volume: 0.009999999776482582
   Propulsion Test Plates:
     id: 355613
     name: Propulsion Test Plates
@@ -3723,6 +3715,14 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18200.0
+    published: false
+    volume: 0.009999999776482582
+  Vehicle PDS I:
+    id: 352076
+    name: Vehicle PDS I
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6000.0
     published: false
     volume: 0.009999999776482582
   Vehicle Shield Recharger:

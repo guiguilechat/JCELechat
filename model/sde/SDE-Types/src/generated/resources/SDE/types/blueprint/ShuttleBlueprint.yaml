@@ -20,6 +20,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Boobook Blueprint:
+    id: 64035
+    industryblueprintrank: 20.0
+    name: Boobook Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
   Caldari Shuttle Blueprint:
     id: 967
     industryblueprintrank: 20.0

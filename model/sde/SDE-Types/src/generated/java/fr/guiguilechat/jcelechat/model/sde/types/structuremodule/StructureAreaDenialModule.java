@@ -35,11 +35,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DeadspaceUnsafe;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmpFieldRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupOnline;
@@ -50,7 +47,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
 import org.yaml.snakeyaml.Yaml;
 
@@ -205,13 +201,6 @@ public class StructureAreaDenialModule
     @DefaultRealValue(0.0)
     public double duration;
     /**
-     * EM damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double emdamage;
-    /**
      * Range of broadcasted EMP field.
      */
     @HighIsGood(true)
@@ -219,26 +208,12 @@ public class StructureAreaDenialModule
     @DefaultIntValue(0)
     public int empfieldrange;
     /**
-     * Explosive damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double explosivedamage;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
-    /**
-     * Kinetic damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double kineticdamage;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -315,14 +290,7 @@ public class StructureAreaDenialModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    /**
-     * Thermal damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, DamageMultiplier.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, CanFitShipType11 .INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, MaxGroupOnline.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType4 .INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, CanFitShipType7 .INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, CanFitShipType8 .INSTANCE, ThermalDamage.INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, ChargeRate.INSTANCE, CanFitShipType10 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, DamageMultiplier.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, CanFitShipType11 .INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, MaxGroupOnline.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, CanFitShipType7 .INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, ChargeRate.INSTANCE, CanFitShipType10 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final StructureAreaDenialModule.MetaGroup METAGROUP = new StructureAreaDenialModule.MetaGroup();
 
     @Override
@@ -412,25 +380,13 @@ public class StructureAreaDenialModule
             {
                 return duration;
             }
-            case  114 :
-            {
-                return emdamage;
-            }
             case  99 :
             {
                 return empfieldrange;
             }
-            case  116 :
-            {
-                return explosivedamage;
-            }
             case  9 :
             {
                 return hp;
-            }
-            case  117 :
-            {
-                return kineticdamage;
             }
             case  763 :
             {
@@ -471,10 +427,6 @@ public class StructureAreaDenialModule
             case  422 :
             {
                 return techlevel;
-            }
-            case  118 :
-            {
-                return thermaldamage;
             }
             default:
             {
