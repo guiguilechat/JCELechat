@@ -118,7 +118,7 @@ public class IndustryTranslater {
 								"skipping bp " + bp2.name() + "(" + bp2.id + ")" + " for unresolved activities : " + missingActivities);
 						continue;
 					}
-					bp2.seeded = seededItems.contains(bp2.id);
+					bp2.seeded = seededItems.contains(bp2.id) && !bp2.name().endsWith("II Blueprint");
 					blueprints.put(e.getValue().blueprintTypeID, bp2);
 					addUsages(bp2, usages);
 				} else {
