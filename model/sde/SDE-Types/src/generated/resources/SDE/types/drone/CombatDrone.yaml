@@ -13,7 +13,7 @@ types:
     emdamage: 13.0
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -83,7 +83,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -154,7 +154,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -225,7 +225,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -296,7 +296,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -368,7 +368,7 @@ types:
     emdamage: 19.0
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -438,7 +438,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -510,7 +510,7 @@ types:
     emdamage: 35.0
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -580,7 +580,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -651,7 +651,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -722,7 +722,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -793,7 +793,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -865,7 +865,7 @@ types:
     emdamage: 13.0
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -933,7 +933,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -1002,7 +1002,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -1071,7 +1071,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -1140,7 +1140,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -1210,7 +1210,7 @@ types:
     emdamage: 19.0
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -1278,7 +1278,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -1348,7 +1348,7 @@ types:
     emdamage: 35.0
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -1416,7 +1416,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -1485,7 +1485,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -1554,7 +1554,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -1623,7 +1623,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -1693,7 +1693,7 @@ types:
     emdamage: 32.0
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -1763,7 +1763,7 @@ types:
     emdamage: 20.0
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -1829,7 +1829,7 @@ types:
     emdamage: 20.0
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -1897,7 +1897,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -1966,7 +1966,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -2032,7 +2032,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -2101,7 +2101,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2166,7 +2166,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2234,7 +2234,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -2302,7 +2302,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -2370,7 +2370,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2437,7 +2437,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -2505,7 +2505,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 3000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -2569,7 +2569,7 @@ types:
     emdamage: 64.0
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2634,7 +2634,7 @@ types:
     emdamage: 64.0
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2701,7 +2701,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2769,7 +2769,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -2837,7 +2837,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -2905,7 +2905,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -2973,7 +2973,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3039,7 +3039,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3109,7 +3109,7 @@ types:
     emdamage: 32.0
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -3179,7 +3179,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -3245,7 +3245,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -3309,7 +3309,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3358,7 +3358,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -3424,7 +3424,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -3493,7 +3493,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -3559,7 +3559,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -3629,7 +3629,7 @@ types:
     emdamage: 20.0
     emdamageresonance: 1.0
     entityattackrange: 3200
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3200
     entitychasemaxduration: 2500
@@ -3697,7 +3697,7 @@ types:
     emdamage: 64.0
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3764,7 +3764,7 @@ types:
     emdamage: 32.0
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -3832,7 +3832,7 @@ types:
     emdamage: 64.0
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -3900,7 +3900,7 @@ types:
     emdamage: 32.0
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -3966,7 +3966,7 @@ types:
     emdamage: 32.0
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -4029,7 +4029,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4073,7 +4073,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4122,7 +4122,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -4188,7 +4188,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -4258,7 +4258,7 @@ types:
     emdamage: 64.0
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -4324,7 +4324,7 @@ types:
     emdamage: 64.0
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -4392,7 +4392,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 7000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 7000
     entitychasemaxduration: 2500
@@ -4460,7 +4460,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4527,7 +4527,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -4595,7 +4595,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -4658,7 +4658,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4707,7 +4707,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -4773,7 +4773,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 5600
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5600
     entitychasemaxduration: 2500
@@ -4842,7 +4842,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -4908,7 +4908,7 @@ types:
     dronebandwidthused: 10
     emdamageresonance: 1.0
     entityattackrange: 6400
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 6400
     entitychasemaxduration: 2500
@@ -4977,7 +4977,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5042,7 +5042,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5110,7 +5110,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -5176,7 +5176,7 @@ types:
     dronebandwidthused: 5
     emdamageresonance: 1.0
     entityattackrange: 2800
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2800
     entitychasemaxduration: 2500
@@ -5245,7 +5245,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500
@@ -5311,7 +5311,7 @@ types:
     dronebandwidthused: 25
     emdamageresonance: 1.0
     entityattackrange: 8000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 2500

@@ -79,7 +79,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.30000001192092896
-  'Compressed Golden Omber ':
+  Compressed Golden Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -87,7 +87,7 @@ types:
     id: 62534
     marketGroup: 526
     mass: 1.0000000409184788E35
-    name: 'Compressed Golden Omber '
+    name: Compressed Golden Omber
     orebasictype: 1227
     packagedVolume: 0.006000000052154064
     portionSize: 100
@@ -99,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.006000000052154064
-  'Compressed Omber ':
+  Compressed Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -107,7 +107,7 @@ types:
     id: 62532
     marketGroup: 526
     mass: 1.0000000409184788E35
-    name: 'Compressed Omber '
+    name: Compressed Omber
     orebasictype: 1227
     packagedVolume: 0.006000000052154064
     portionSize: 100
@@ -119,7 +119,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.006000000052154064
-  'Compressed Platinoid Omber ':
+  Compressed Platinoid Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -127,7 +127,7 @@ types:
     id: 62535
     marketGroup: 526
     mass: 1.0
-    name: 'Compressed Platinoid Omber '
+    name: Compressed Platinoid Omber
     orebasictype: 46684
     packagedVolume: 0.006000000052154064
     portionSize: 100
@@ -139,7 +139,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.006000000052154064
-  'Compressed Silvery Omber ':
+  Compressed Silvery Omber:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -147,7 +147,7 @@ types:
     id: 62533
     marketGroup: 526
     mass: 1.0000000409184788E35
-    name: 'Compressed Silvery Omber '
+    name: Compressed Silvery Omber
     orebasictype: 1227
     packagedVolume: 0.006000000052154064
     portionSize: 100
@@ -164,8 +164,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28415
     id: 17868
     marketGroup: 526
     mass: 1.0000000409184788E35
@@ -205,8 +203,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28416
     id: 1227
     marketGroup: 526
     mass: 1.0000000409184788E35
@@ -227,8 +223,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.04500000178813934
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 46700
     id: 46684
     marketGroup: 526
     mass: 1.0000000409184788E35
@@ -249,8 +243,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28417
     id: 17867
     marketGroup: 526
     mass: 1.0000000409184788E35

@@ -79,7 +79,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
-  'Compressed Condensed Scordite ':
+  Compressed Condensed Scordite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -87,7 +87,7 @@ types:
     id: 62521
     marketGroup: 519
     mass: 1.0000000409184788E35
-    name: 'Compressed Condensed Scordite '
+    name: Compressed Condensed Scordite
     orebasictype: 1228
     packagedVolume: 0.001500000013038516
     portionSize: 100
@@ -99,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.001500000013038516
-  'Compressed Glossy Scordite ':
+  Compressed Glossy Scordite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -107,7 +107,7 @@ types:
     id: 62523
     marketGroup: 519
     mass: 1.0
-    name: 'Compressed Glossy Scordite '
+    name: Compressed Glossy Scordite
     orebasictype: 46687
     packagedVolume: 0.001500000013038516
     portionSize: 100
@@ -164,8 +164,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28427
     id: 17463
     marketGroup: 519
     mass: 1.0000000409184788E35
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.010999999940395355
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 46703
     id: 46687
     marketGroup: 519
     mass: 1.0000000409184788E35
@@ -208,8 +204,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28428
     id: 17464
     marketGroup: 519
     mass: 1.0000000409184788E35
@@ -230,8 +224,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28429
     id: 1228
     marketGroup: 519
     mass: 1.0000000409184788E35

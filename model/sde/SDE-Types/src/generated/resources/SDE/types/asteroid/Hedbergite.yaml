@@ -99,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.029999999329447746
-  'Compressed Hedbergite ':
+  Compressed Hedbergite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -107,7 +107,7 @@ types:
     id: 62548
     marketGroup: 527
     mass: 1.0000000409184788E35
-    name: 'Compressed Hedbergite '
+    name: Compressed Hedbergite
     orebasictype: 21
     packagedVolume: 0.029999999329447746
     portionSize: 100
@@ -119,7 +119,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.029999999329447746
-  'Compressed Lustrous Hedbergite ':
+  Compressed Lustrous Hedbergite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -127,7 +127,7 @@ types:
     id: 62551
     marketGroup: 527
     mass: 1.0
-    name: 'Compressed Lustrous Hedbergite '
+    name: Compressed Lustrous Hedbergite
     orebasictype: 46680
     packagedVolume: 0.029999999329447746
     portionSize: 100
@@ -139,7 +139,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.029999999329447746
-  'Compressed Vitric Hedbergite ':
+  Compressed Vitric Hedbergite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -147,7 +147,7 @@ types:
     id: 62549
     marketGroup: 527
     mass: 1.0000000409184788E35
-    name: 'Compressed Vitric Hedbergite '
+    name: Compressed Vitric Hedbergite
     orebasictype: 21
     packagedVolume: 0.029999999329447746
     portionSize: 100
@@ -164,8 +164,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28400
     id: 17441
     marketGroup: 527
     mass: 1.0000000409184788E35
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28401
     id: 21
     marketGroup: 527
     mass: 1.0000000409184788E35
@@ -208,8 +204,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.22499999403953552
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 46696
     id: 46680
     marketGroup: 527
     mass: 1.0000000409184788E35
@@ -230,8 +224,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28402
     id: 17440
     marketGroup: 527
     mass: 1.0000000409184788E35

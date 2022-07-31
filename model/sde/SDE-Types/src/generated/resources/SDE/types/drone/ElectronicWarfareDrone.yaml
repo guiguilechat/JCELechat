@@ -13,7 +13,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 25000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -79,7 +79,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 30000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5000
     entitychasemaxduration: 2500
@@ -143,7 +143,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 27500
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -208,7 +208,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 25000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -276,7 +276,7 @@ types:
     ecmrangeoptimal: 7500
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -339,7 +339,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 27500
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -405,7 +405,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 30000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5000
     entitychasemaxduration: 2500
@@ -470,7 +470,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 30000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5000
     entitychasemaxduration: 2500
@@ -536,7 +536,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 27500
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -603,7 +603,7 @@ types:
     ecmrangeoptimal: 11250
     emdamageresonance: 1.0
     entityattackrange: 22500
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -668,7 +668,7 @@ types:
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 25000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -735,7 +735,7 @@ types:
     ecmrangeoptimal: 15000
     emdamageresonance: 1.0
     entityattackrange: 30000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5000
     entitychasemaxduration: 2500

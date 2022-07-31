@@ -16,10 +16,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.Yaml;
-
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.IJExpression;
 import com.helger.jcodemodel.JBlock;
@@ -33,6 +29,10 @@ import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JTryResource;
 import com.helger.jcodemodel.JVar;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.compile.CompilationData;
 import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler;
@@ -72,13 +72,14 @@ public class TypesTranslater {
 			GroupDetails gd = hierarchy.groupID2Details.get(td.groupID);
 			CatDetails cd = hierarchy.catID2Details.get(gd.catID);
 			if (SDECompiler.ignoreType(cd.published, gd.published, td.published)) {
-				logger.debug("skipped type " + td.name + "(" + e.getKey() + "), published loss (type=" + td.published
-						+ ", group=" + gd.published + ", cat=" + cd.published + ")");
+				// logger.debug("skipped type " + td.name + "(" + e.getKey() + "),
+				// published loss (type=" + td.published
+				// + ", group=" + gd.published + ", cat=" + cd.published + ")");
 				continue;
 			}
 			String className = classes.groupID2ClassName.get(td.groupID);
 			if (className == null) {
-				logger.debug("type " + td.name + " has no class");
+				// logger.debug("type " + td.name + " has no class");
 				continue;
 
 			}
@@ -139,8 +140,12 @@ public class TypesTranslater {
 						}
 					} catch (Exception nsfe) {
 						throw new UnsupportedOperationException("can't find field " + fieldName + "(" + c.getKey() + ") in class "
-								+ item.getClass().getName() + " to value " + c.getValue() + ", fields are "
+								+ item.getClass().getName() + " (gid=" + td.groupID + ") to value " + c.getValue() + " for type "
+								+ td.name
+								+ "(" + td.id
+								+ "), fields are "
 								+ Arrays.asList(item.getClass().getFields()).stream().map(f -> f.getName())
+								.sorted()
 								.collect(Collectors.toList()),
 								nsfe);
 					}

@@ -79,7 +79,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 4.199999809265137
-  'Compressed Dark Ochre ':
+  Compressed Dark Ochre:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -87,7 +87,7 @@ types:
     id: 62556
     marketGroup: 522
     mass: 1.0000000409184788E35
-    name: 'Compressed Dark Ochre '
+    name: Compressed Dark Ochre
     orebasictype: 1232
     packagedVolume: 0.07999999821186066
     portionSize: 100
@@ -119,7 +119,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.07999999821186066
-  'Compressed Obsidian Ochre ':
+  Compressed Obsidian Ochre:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -127,7 +127,7 @@ types:
     id: 62558
     marketGroup: 522
     mass: 1.0000000409184788E35
-    name: 'Compressed Obsidian Ochre '
+    name: Compressed Obsidian Ochre
     orebasictype: 1232
     packagedVolume: 0.07999999821186066
     portionSize: 100
@@ -139,7 +139,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.07999999821186066
-  'Compressed Onyx Ochre ':
+  Compressed Onyx Ochre:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -147,7 +147,7 @@ types:
     id: 62557
     marketGroup: 522
     mass: 1.0000000409184788E35
-    name: 'Compressed Onyx Ochre '
+    name: Compressed Onyx Ochre
     orebasictype: 1232
     packagedVolume: 0.07999999821186066
     portionSize: 100
@@ -164,8 +164,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28394
     id: 1232
     marketGroup: 522
     mass: 1.0000000409184788E35
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.550000011920929
     asteroidradiusunitsize: 700
-    compressionquantityneeded: 100
-    compressiontypeid: 46694
     id: 46675
     marketGroup: 522
     mass: 1.0000000409184788E35
@@ -208,8 +204,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28395
     id: 17437
     marketGroup: 522
     mass: 1.0000000409184788E35
@@ -249,8 +243,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28396
     id: 17436
     marketGroup: 522
     mass: 1.0000000409184788E35

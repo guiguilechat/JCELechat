@@ -512,6 +512,35 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 27500.0
+  Ancient Ship Structure:
+    accessdifficulty: 20.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 27278
+    isarcheology: 1
+    lootrespawntime: 1200000.0
+    mass: 10000.0
+    name: Ancient Ship Structure
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 314.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 60000
+    spewcontainerlifeextension: 30
+    structureuniformity: 1.0
+    volume: 27500.0
   Ancient Starbase Ruins:
     capacitorcapacity: 2700.0
     capacity: 2700.0
@@ -563,6 +592,35 @@ types:
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0
+  Angel Data Storage Device:
+    accessdifficulty: 10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 64876
+    ishacking: 1
+    lootrespawntime: 1200000.0
+    mass: 10000.0
+    name: Angel Data Storage Device
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 60.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 60000
+    spewcontainerlifeextension: 30
     structureuniformity: 1.0
     volume: 27500.0
   Angel Derelict:
@@ -1535,6 +1593,35 @@ types:
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0
+  Blood Raider Data Storage Device:
+    accessdifficulty: 10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 64877
+    ishacking: 1
+    lootrespawntime: 1200000.0
+    mass: 10000.0
+    name: Blood Raider Data Storage Device
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 60.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 60000
+    spewcontainerlifeextension: 30
     structureuniformity: 1.0
     volume: 27500.0
   Blood Raider Network Hub:
@@ -3444,6 +3531,35 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 1200.0
+  Data Storage Device:
+    accessdifficulty: 10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 64880
+    ishacking: 1
+    lootrespawntime: 1200000.0
+    mass: 10000.0
+    name: Data Storage Device
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 60.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 60000
+    spewcontainerlifeextension: 30
+    structureuniformity: 1.0
+    volume: 27500.0
   Dented Storage Depot:
     accessdifficulty: -10.0
     capacitorcapacity: 2700.0
@@ -4166,6 +4282,35 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 1.0E8
+  Guristas Data Storage Device:
+    accessdifficulty: 10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 64878
+    ishacking: 1
+    lootrespawntime: 1200000.0
+    mass: 10000.0
+    name: Guristas Data Storage Device
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 60.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 60000
+    spewcontainerlifeextension: 30
+    structureuniformity: 1.0
+    volume: 27500.0
   Guristas Derelict:
     accessdifficulty: 9.999999974752427E-7
     capacitorcapacity: 2700.0
@@ -4967,7 +5112,7 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 3
     volume: 27500.0
-  'Huntmaster Communications Tower ':
+  Huntmaster Communications Tower:
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
@@ -4982,7 +5127,7 @@ types:
     id: 63168
     lootrespawntime: 8.64E7
     mass: 10000.0
-    name: 'Huntmaster Communications Tower '
+    name: Huntmaster Communications Tower
     packagedVolume: 27500.0
     portionSize: 1
     published: false
@@ -7881,6 +8026,35 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 4
     volume: 27500.0
+  Serpentis Data Storage Device:
+    accessdifficulty: 10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 64879
+    ishacking: 1
+    lootrespawntime: 1200000.0
+    mass: 10000.0
+    name: Serpentis Data Storage Device
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 60.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 60000
+    spewcontainerlifeextension: 30
+    structureuniformity: 1.0
+    volume: 27500.0
   Serpentis Derelict:
     accessdifficulty: 9.999999974752427E-7
     capacitorcapacity: 2700.0
@@ -9264,6 +9438,35 @@ types:
     specialtutoriallootrespawntime: 10000
     structureuniformity: 1.0
     volume: 27500.0
+  Training Container - Data:
+    accessdifficulty: 75.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 32369
+    ishacking: 1
+    lootrespawntime: 1.0
+    mass: 10000.0
+    name: Training Container - Data
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 60.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 60000
+    spewcontainerlifeextension: 30
+    structureuniformity: 1.0
+    volume: 27500.0
   Training Container - Gas:
     capacitorcapacity: 2700.0
     capacity: 2700.0
@@ -9312,6 +9515,35 @@ types:
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 10000
+    structureuniformity: 1.0
+    volume: 27500.0
+  Training Container - Relic:
+    accessdifficulty: 75.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 32367
+    isarcheology: 1
+    lootrespawntime: 1.0
+    mass: 10000.0
+    name: Training Container - Relic
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 314.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 60000
+    spewcontainerlifeextension: 30
     structureuniformity: 1.0
     volume: 27500.0
   Training Container - Salvaging:

@@ -14367,9 +14367,9 @@ id2name:
   25537: Damaged Prorator
   25538: Neurotoxin Control
   25539: Strong Exile Booster Blueprint
-  25540: '''Crop'' Gas Cloud Scoop '
+  25540: '''Crop'' Gas Cloud Scoop'
   25541: '''Crop'' Gas Cloud Scoop Blueprint'
-  25542: '''Plow'' Gas Cloud Scoop '
+  25542: '''Plow'' Gas Cloud Scoop'
   25543: '''Plow'' Gas Cloud Scoop Blueprint'
   25544: Gas Cloud Harvesting
   25545: Eifyr and Co. 'Alchemist' Neurotoxin Control NC-903
@@ -16895,7 +16895,7 @@ id2name:
   28785: Syndicate 400mm Steel Plates Blueprint
   28786: Syndicate 800mm Steel Plates
   28787: Syndicate 800mm Steel Plates Blueprint
-  28788: 'Syndicate Gas Cloud Scoop '
+  28788: Syndicate Gas Cloud Scoop
   28789: Syndicate Gas Cloud Scoop Blueprint
   28790: Mid-grade Centurion Alpha
   28791: Mid-grade Centurion Beta
@@ -18097,7 +18097,7 @@ id2name:
   30434: Arena_MM_CenterPiece01
   30435: Arena_GA_CenterPiece01
   30436: Infested Lookout Ruins
-  30439: mobilestorage
+  30439: Warehouse
   30440: RedCloud
   30444: Comet - Fire Comet Copy
   30446: Comet - Dark Comet Copy
@@ -23544,7 +23544,7 @@ id2name:
   37472: Upgraded Avenger
   37473: Drifter Response Battleship
   37474: Catmageddon
-  37475: ' Medium Tech I Large Ship Research II'
+  37475: Medium Tech I Large Ship Research II
   37479: Micro Jump Field Generator
   37480: Bifrost
   37481: Pontifex
@@ -35634,11 +35634,11 @@ id2name:
   53991: Signal-25 'Needlejack' Filament Blueprint
   53992: Guardians Gala Venue
   53993: Guardians Gala VIP Venue
-  54000: 'Scout Imperial Navy Sentinel '
+  54000: Scout Imperial Navy Sentinel
   54001: Scout Imperial Navy Deacon
   54002: Scout Imperial Navy Crusader
   54003: Scout Imperial Navy Guardian
-  54004: 'Scout Imperial Navy Zealot '
+  54004: Scout Imperial Navy Zealot
   54005: Scout  Imperial Navy Pilgrim
   54006: Scout Imperial Navy Harbinger
   54007: Scout Imperial Navy Armageddon
@@ -35666,7 +35666,7 @@ id2name:
   54029: Scout State Navy Raptor
   54030: Scout State Navy Basilisk
   54031: Scout  State Navy Cerberus
-  54032: 'Scout  State Navy Rook '
+  54032: Scout  State Navy Rook
   54033: Scout  State Navy Drake
   54034: Scout  State Navy Scorpion
   54035: Scout  State Navy Raven
@@ -35697,7 +35697,7 @@ id2name:
   54060: Scout Federal Navy Brutix
   54061: Scout Federal Navy Dominix
   54062: Scout Federal Navy Megathron
-  54063: 'Elite Federal Navy Keres '
+  54063: Elite Federal Navy Keres
   54064: Elite Federal Navy Thalia
   54065: Elite Federal Navy Taranis
   54066: Elite Federal Navy Oneiros
@@ -35928,7 +35928,7 @@ id2name:
   54345: Observatory Empire Wave Spawner  3
   54346: Observatory Empire Deployment Spawner
   54356: Skeleton EGDLI Loot Crate Tier 1
-  54357: 'Skeleton EGDLI Loot Crate Tier 2 '
+  54357: Skeleton EGDLI Loot Crate Tier 2
   54358: Skeleton EGDLI Loot Crate Tier 3
   54359: Women's Obsidian Opulence Jacket
   54360: Women's Azure Abundance Jacket
@@ -36958,11 +36958,11 @@ id2name:
   55904: EGDLI (2) Boosters Tier 3 (Alpha)
   55905: EGDLI (2) BPC Tier 1 (Alpha)
   55906: EGDLI (2) BPC Tier 2 (Alpha)
-  55907: 'EGDLI (2) BPC Tier 3 (Alpha) '
+  55907: EGDLI (2) BPC Tier 3 (Alpha)
   55908: EGDLI (2) Skin Tier 1 (Alpha)
   55909: EGDLI (2) Skin Tier 2 (Alpha)
   55910: EGDLI (2) Skin Tier 3 (Alpha)
-  55911: 'EGDLI (2) Abyssal Tier 4 (Alpha) '
+  55911: EGDLI (2) Abyssal Tier 4 (Alpha)
   55912: Fort Knocks Wreck
   55913: Fort Knocks Wreck Beacon
   55914: Encounter Surveillance System
@@ -37079,7 +37079,7 @@ id2name:
   56084: Sun O1 (Divine Immanence)
   56085: Sun A0 (Glory Immanence)
   56086: Sun G5 (Gold Immanence)
-  56089: 'Caldari Shuttle Sukuuvestaa SKIN '
+  56089: Caldari Shuttle Sukuuvestaa SKIN
   56090: Badger Sukuuvestaa SKIN
   56091: Caldari Union Day Apparel Crate
   56092: FFA Cruisers Proving Filament
@@ -37208,25 +37208,25 @@ id2name:
   56225: Women's Triglavian Survival Suit (Liminality)
   56226: Men's Triglavian Survival Suit (Liminality)
   56232: Disrupted Gate (Amarr Border)
-  56233: 'Disrupted Gate (Amarr Border)  '
+  56233: Disrupted Gate (Amarr Border)
   56234: Disrupted Gate (Amarr Region)
   56235: Disrupted Gate (Amarr Region)
   56236: Disrupted Gate (Amarr Constellation)
   56237: Disrupted Gate (Amarr Constellation)
-  56238: 'Disrupted Gate (Amarr System) '
-  56239: 'Disrupted Gate (Amarr System) '
-  56240: 'Disrupted Gate (Caldari Border) '
-  56241: 'Disrupted Gate (Caldari Border) '
-  56242: 'Disrupted Gate (Caldari Region) '
-  56243: 'Disrupted Gate (Caldari Region) '
+  56238: Disrupted Gate (Amarr System)
+  56239: Disrupted Gate (Amarr System)
+  56240: Disrupted Gate (Caldari Border)
+  56241: Disrupted Gate (Caldari Border)
+  56242: Disrupted Gate (Caldari Region)
+  56243: Disrupted Gate (Caldari Region)
   56244: Disrupted Gate (Caldari System)
   56245: Disrupted Gate (Caldari System)
-  56246: 'Disrupted Gate (Caldari Constellation) '
-  56247: 'Disrupted Gate (Caldari Constellation) '
-  56248: 'Disrupted Gate (Gallente Border)  '
-  56249: 'Disrupted Gate (Gallente Border)  '
-  56250: 'Disrupted Gate (Gallente Region) '
-  56251: 'Disrupted Gate (Gallente Region) '
+  56246: Disrupted Gate (Caldari Constellation)
+  56247: Disrupted Gate (Caldari Constellation)
+  56248: Disrupted Gate (Gallente Border)
+  56249: Disrupted Gate (Gallente Border)
+  56250: Disrupted Gate (Gallente Region)
+  56251: Disrupted Gate (Gallente Region)
   56252: Disrupted Gate (Gallente Constellation)
   56253: Disrupted Gate (Gallente Constellation)
   56254: Disrupted Gate (Gallente System)
@@ -37931,7 +37931,7 @@ id2name:
   57172: Sansha Winter Station Ruins
   57173: Sansha Winter Outpost
   57174: Sansha Supercarrier Wreck Winter
-  57175: 'Sansha Control Tower Winter '
+  57175: Sansha Control Tower Winter
   57176: Small asteroid environment winter 01
   57177: Small asteroid environment winter 02
   57178: Small asteroid environment winter 03
@@ -38298,12 +38298,12 @@ id2name:
   57629: Project Discovery Phase Two Elite 1.2K
   57630: Project Discovery Phase Two Elite 1K
   57631: Champions of the Federation Grand Prix YC123
-  57632: Federation Grand Prix Imya Waypoint
-  57633: Federation Grand Prix Noranim Waypoint
-  57636: Federation Grand Prix Aurcel Waypoint
-  57637: Federation Grand Prix Otosela Waypoint
-  57640: Federation Grand Prix Harroule Waypoint
-  57643: Federation Grand Prix Asakai Waypoint
+  57632: Federation Grand Prix Quafe HQ Waypoint
+  57633: Federation Grand Prix Niyabainen Waypoint
+  57636: Federation Grand Prix Hurtoken Waypoint
+  57637: Federation Grand Prix Odatrik Waypoint
+  57640: Federation Grand Prix Nafomeh Waypoint
+  57643: Federation Grand Prix Turba Waypoint
   57684: Guristas Com Tower
   57685: ENV_Wrecksite_01a
   57686: AEGIS Security Scan
@@ -38532,7 +38532,7 @@ id2name:
   58793: Men's Federation Stargate Crew Pants
   58794: Men's Republic Stargate Crew Pants
   58795: Capsule Cascade Firework Crate
-  58797: ' Capsuleer Day XVIII T-Shirt and Cap Crate'
+  58797: Capsuleer Day XVIII T-Shirt and Cap Crate
   58798: Aeon Ultraviolence Vortex SKIN
   58799: Wyvern Ultraviolence Vortex SKIN
   58800: Nyx Ultraviolence Vortex SKIN
@@ -38773,7 +38773,7 @@ id2name:
   59318: Serenity Imp/Whiptail Crate
   59319: Gallente Federation Day Jacket Crate
   59320: Gallente Federation Day Pants Crate
-  59322: ' Capsuleer Day XVIII Omega Booster Gift Box'
+  59322: Capsuleer Day XVIII Omega Booster Gift Box
   59324: Council Diplomatic Shuttle CONCORD Aerospace 'Prototype' SKIN
   59325: Panther Fireblade Guerilla SKIN
   59326: Widow Fireblade Guerilla SKIN
@@ -38941,11 +38941,11 @@ id2name:
   59701: Starkmanir Stabber
   59702: Sebiestor Hurricane
   59703: Krusual Hurricane
-  59704: 'Brutor Hurricane '
-  59705: 'Vherokior Hurricane '
-  59706: 'Nefantar Hurricane '
-  59707: 'Thukker Hurricane '
-  59708: 'Starkmanir Hurricane '
+  59704: Brutor Hurricane
+  59705: Vherokior Hurricane
+  59706: Nefantar Hurricane
+  59707: Thukker Hurricane
+  59708: Starkmanir Hurricane
   59709: Sebiestor Tempest
   59710: Krusual Tempest
   59711: Brutor Tempest
@@ -39362,7 +39362,7 @@ id2name:
   60316: Infesting Destructor Theta
   60317: Infesting Obstructor Nu
   60318: Infesting Obstructor Pi
-  60319: 'Inaugural Liberation Games: Thukker Tribe'
+  60319: 'Liberation Games Champions: Thukker Tribe'
   60321: AEGIS Security Cataphract
   60322: AEGIS Security Carabinier
   60323: AEGIS Security Demilancer
@@ -39416,7 +39416,7 @@ id2name:
   60372: Abyssal Asteroid Mining Crystal Type C I Blueprint
   60373: Mercoxit Asteroid Mining Crystal Type B I Blueprint
   60374: Mercoxit Asteroid Mining Crystal Type C I Blueprint
-  60375: 'ABS (Do not translate) '
+  60375: ABS (Do not translate)
   60376: Infiltrator II
   60377: Simple Ore Processing
   60378: Coherent Ore Processing
@@ -39862,7 +39862,7 @@ id2name:
   61235: Exceptional Moon Mining Crystal Type B II Blueprint
   61236: Exceptional Moon Mining Crystal Type C II Blueprint
   61292: Darkwight Rakshasa
-  61305: 'Unknown Space Boundary '
+  61305: Unknown Space Boundary
   61396: Sansha Remote Logistics Station
   61532: Women's Interstellar Convergence T-Shirt
   61533: Men's Interstellar Convergence T-Shirt
@@ -40054,22 +40054,22 @@ id2name:
   62386: Compressed Azure Cytoserocin
   62387: Compressed Celadon Cytoserocin
   62388: Compressed Chartreuse Cytoserocin
-  62389: 'Compressed Gamboge Cytoserocin '
+  62389: Compressed Gamboge Cytoserocin
   62390: Compressed Golden Cytoserocin
   62391: Compressed Lime Cytoserocin
   62392: Compressed Malachite Cytoserocin
   62393: Compressed Vermillion Cytoserocin
-  62394: 'Compressed Viridian Cytoserocin '
+  62394: Compressed Viridian Cytoserocin
   62395: Proving Gala 2022 Bonus (Do not translate)
   62396: Compressed Amber Cytoserocin
-  62397: 'Compressed Fullerite-C60 '
-  62398: 'Compressed Fullerite-C70 '
-  62399: 'Compressed Fullerite-C50 '
+  62397: Compressed Fullerite-C60
+  62398: Compressed Fullerite-C70
+  62399: Compressed Fullerite-C50
   62400: Compressed Fullerite-C84
   62402: Compressed Fullerite-C28
   62403: Compressed Fullerite-C72
-  62404: 'Compressed Fullerite-C32 '
-  62405: 'Compressed Fullerite-C540 '
+  62404: Compressed Fullerite-C32
+  62405: Compressed Fullerite-C540
   62406: Compressed Fullerite-C320
   62439: ud3_enviroment_asset
   62440: ud2_enviroment_asset
@@ -40087,139 +40087,139 @@ id2name:
   62453: Fleet Compression Logistics
   62454: Compressed Bitumens
   62455: Compressed Brimful Bitumens
-  62456: 'Compressed Glistening Bitumens '
-  62457: 'Compressed Coesite '
-  62458: 'Compressed Brimful Coesite '
-  62459: 'Compressed Glistening Coesite '
-  62460: 'Compressed Sylvite '
-  62461: 'Compressed Brimful Sylvite '
-  62463: 'Compressed Zeolites '
-  62464: 'Compressed Brimful Zeolites '
+  62456: Compressed Glistening Bitumens
+  62457: Compressed Coesite
+  62458: Compressed Brimful Coesite
+  62459: Compressed Glistening Coesite
+  62460: Compressed Sylvite
+  62461: Compressed Brimful Sylvite
+  62463: Compressed Zeolites
+  62464: Compressed Brimful Zeolites
   62466: Compressed Glistening Sylvite
-  62467: 'Compressed Glistening Zeolites '
-  62468: 'Compressed Scheelite '
-  62469: 'Compressed Copious Scheelite '
-  62470: 'Compressed Twinkling Scheelite '
-  62471: 'Compressed Euxenite '
+  62467: Compressed Glistening Zeolites
+  62468: Compressed Scheelite
+  62469: Compressed Copious Scheelite
+  62470: Compressed Twinkling Scheelite
+  62471: Compressed Euxenite
   62472: Compressed Copious Euxenite
-  62473: 'Compressed Twinkling Euxenite '
-  62474: 'Compressed Cobaltite '
-  62475: 'Compressed Copious Cobaltite '
+  62473: Compressed Twinkling Euxenite
+  62474: Compressed Cobaltite
+  62475: Compressed Copious Cobaltite
   62476: Compressed Twinkling Cobaltite
-  62477: 'Compressed Titanite '
+  62477: Compressed Titanite
   62478: Compressed Copious Titanite
-  62479: 'Compressed Twinkling Titanite '
+  62479: Compressed Twinkling Titanite
   62480: Compressed Chromite
   62481: Compressed Lavish Chromite
-  62482: 'Compressed Shimmering Chromite '
-  62483: 'Compressed Otavite '
-  62484: 'Compressed Lavish Otavite '
+  62482: Compressed Shimmering Chromite
+  62483: Compressed Otavite
+  62484: Compressed Lavish Otavite
   62485: Compressed Shimmering Otavite
-  62486: 'Compressed Sperrylite '
-  62487: 'Compressed Lavish Sperrylite '
-  62488: 'Compressed Shimmering Sperrylite '
+  62486: Compressed Sperrylite
+  62487: Compressed Lavish Sperrylite
+  62488: Compressed Shimmering Sperrylite
   62489: Compressed Vanadinite
   62490: Compressed Lavish Vanadinite
-  62491: 'Compressed Shimmering Vanadinite '
-  62492: 'Compressed Carnotite '
-  62493: 'Compressed Replete Carnotite '
+  62491: Compressed Shimmering Vanadinite
+  62492: Compressed Carnotite
+  62493: Compressed Replete Carnotite
   62494: Compressed Glowing Carnotite
-  62495: 'Compressed Cinnabar '
-  62496: 'Compressed Replete Cinnabar '
-  62497: 'Compressed Glowing Cinnabar '
-  62498: 'Compressed Pollucite '
-  62499: 'Compressed Replete Pollucite '
-  62500: 'Compressed Glowing Pollucite '
-  62501: 'Compressed Zircon '
-  62502: 'Compressed Replete Zircon '
-  62503: 'Compressed Glowing Zircon '
-  62504: 'Compressed Loparite '
-  62505: 'Compressed Bountiful Loparite '
-  62506: 'Compressed Shining Loparite '
-  62507: 'Compressed Monazite '
-  62508: 'Compressed Bountiful Monazite '
-  62509: 'Compressed Shining Monazite '
-  62510: 'Compressed Xenotime '
+  62495: Compressed Cinnabar
+  62496: Compressed Replete Cinnabar
+  62497: Compressed Glowing Cinnabar
+  62498: Compressed Pollucite
+  62499: Compressed Replete Pollucite
+  62500: Compressed Glowing Pollucite
+  62501: Compressed Zircon
+  62502: Compressed Replete Zircon
+  62503: Compressed Glowing Zircon
+  62504: Compressed Loparite
+  62505: Compressed Bountiful Loparite
+  62506: Compressed Shining Loparite
+  62507: Compressed Monazite
+  62508: Compressed Bountiful Monazite
+  62509: Compressed Shining Monazite
+  62510: Compressed Xenotime
   62511: Compressed Bountiful Xenotime
-  62512: 'Compressed Shining Xenotime '
-  62513: 'Compressed Ytterbite '
-  62514: 'Compressed Bountiful Ytterbite '
+  62512: Compressed Shining Xenotime
+  62513: Compressed Ytterbite
+  62514: Compressed Bountiful Ytterbite
   62515: Compressed Shining Ytterbite
   62516: Compressed Veldspar
-  62517: 'Compressed Concentrated Veldspar '
-  62518: 'Compressed Dense Veldspar '
-  62519: 'Compressed Stable Veldspar '
+  62517: Compressed Concentrated Veldspar
+  62518: Compressed Dense Veldspar
+  62519: Compressed Stable Veldspar
   62520: Compressed Scordite
-  62521: 'Compressed Condensed Scordite '
+  62521: Compressed Condensed Scordite
   62522: Compressed Massive Scordite
-  62523: 'Compressed Glossy Scordite '
-  62524: 'Compressed Pyroxeres '
+  62523: Compressed Glossy Scordite
+  62524: Compressed Pyroxeres
   62525: Compressed Solid Pyroxeres
-  62526: 'Compressed Viscous Pyroxeres '
-  62527: 'Compressed Opulent Pyroxeres '
-  62528: 'Compressed Plagioclase '
-  62529: 'Compressed Azure Plagioclase '
-  62530: 'Compressed Rich Plagioclase '
-  62531: 'Compressed Sparkling Plagioclase '
-  62532: 'Compressed Omber '
-  62533: 'Compressed Silvery Omber '
-  62534: 'Compressed Golden Omber '
-  62535: 'Compressed Platinoid Omber '
-  62536: 'Compressed Kernite '
-  62537: 'Compressed Luminous Kernite '
-  62538: 'Compressed Fiery Kernite '
-  62539: 'Compressed Resplendant Kernite '
+  62526: Compressed Viscous Pyroxeres
+  62527: Compressed Opulent Pyroxeres
+  62528: Compressed Plagioclase
+  62529: Compressed Azure Plagioclase
+  62530: Compressed Rich Plagioclase
+  62531: Compressed Sparkling Plagioclase
+  62532: Compressed Omber
+  62533: Compressed Silvery Omber
+  62534: Compressed Golden Omber
+  62535: Compressed Platinoid Omber
+  62536: Compressed Kernite
+  62537: Compressed Luminous Kernite
+  62538: Compressed Fiery Kernite
+  62539: Compressed Resplendant Kernite
   62540: Compressed Jaspet
   62541: Compressed Pure Jaspet
-  62542: 'Compressed Pristine Jaspet '
-  62543: 'Compressed Immaculate Jaspet '
+  62542: Compressed Pristine Jaspet
+  62543: Compressed Immaculate Jaspet
   62544: Compressed Hemorphite
-  62545: 'Compressed Vivid Hemorphite '
-  62546: 'Compressed Radiant Hemorphite '
-  62547: 'Compressed Scintillating Hemorphite '
-  62548: 'Compressed Hedbergite '
-  62549: 'Compressed Vitric Hedbergite '
+  62545: Compressed Vivid Hemorphite
+  62546: Compressed Radiant Hemorphite
+  62547: Compressed Scintillating Hemorphite
+  62548: Compressed Hedbergite
+  62549: Compressed Vitric Hedbergite
   62550: Compressed Glazed Hedbergite
-  62551: 'Compressed Lustrous Hedbergite '
+  62551: Compressed Lustrous Hedbergite
   62552: Compressed Gneiss
-  62553: 'Compressed Iridescent Gneiss '
+  62553: Compressed Iridescent Gneiss
   62554: Compressed Prismatic Gneiss
-  62555: 'Compressed Brilliant Gneiss '
-  62556: 'Compressed Dark Ochre '
-  62557: 'Compressed Onyx Ochre '
-  62558: 'Compressed Obsidian Ochre '
+  62555: Compressed Brilliant Gneiss
+  62556: Compressed Dark Ochre
+  62557: Compressed Onyx Ochre
+  62558: Compressed Obsidian Ochre
   62559: Compressed Jet Ochre
   62560: Compressed Crokite
   62561: Compressed Sharp Crokite
-  62562: 'Compressed Crystalline Crokite '
-  62563: 'Compressed Pellucid Crokite '
-  62564: 'Compressed Bistot '
-  62565: 'Compressed Triclinic Bistot '
-  62566: 'Compressed Monoclinic Bistot '
-  62567: 'Compressed Cubic Bistot '
-  62568: 'Compressed Arkonor '
-  62569: 'Compressed Crimson Arkonor '
+  62562: Compressed Crystalline Crokite
+  62563: Compressed Pellucid Crokite
+  62564: Compressed Bistot
+  62565: Compressed Triclinic Bistot
+  62566: Compressed Monoclinic Bistot
+  62567: Compressed Cubic Bistot
+  62568: Compressed Arkonor
+  62569: Compressed Crimson Arkonor
   62570: Compressed Prime Arkonor
   62571: Compressed Flawless Arkonor
   62572: Compressed Spodumain
-  62573: 'Compressed Bright Spodumain '
-  62574: 'Compressed Gleaming Spodumain '
-  62575: 'Compressed Dazzling Spodumain '
-  62576: 'Compressed Bezdnacine '
-  62577: 'Compressed Abyssal Bezdnacine '
+  62573: Compressed Bright Spodumain
+  62574: Compressed Gleaming Spodumain
+  62575: Compressed Dazzling Spodumain
+  62576: Compressed Bezdnacine
+  62577: Compressed Abyssal Bezdnacine
   62578: Compressed Hadal Bezdnacine
-  62579: 'Compressed Rakovene '
-  62580: 'Compressed Abyssal Rakovene '
-  62581: 'Compressed Hadal Rakovene '
-  62582: 'Compressed Talassonite '
+  62579: Compressed Rakovene
+  62580: Compressed Abyssal Rakovene
+  62581: Compressed Hadal Rakovene
+  62582: Compressed Talassonite
   62583: Compressed Abyssal Talassonite
-  62584: 'Compressed Hadal Talassonite '
-  62586: 'Compressed Mercoxit '
-  62587: 'Compressed Magma Mercoxit '
-  62588: 'Compressed Vitreous Mercoxit '
-  62589: 'QA Compressor '
+  62584: Compressed Hadal Talassonite
+  62586: Compressed Mercoxit
+  62587: Compressed Magma Mercoxit
+  62588: Compressed Vitreous Mercoxit
+  62589: QA Compressor
   62590: Medium Industrial Core I
-  62591: 'Medium Industrial Core II '
+  62591: Medium Industrial Core II
   62592: Medium Industrial Core I Blueprint
   62593: Medium Industrial Core II Blueprint
   62595: Expired Basic 'Bonding' Cerebral Accelerator
@@ -40335,8 +40335,8 @@ id2name:
   63054: Men's 'Semiotique Superluminal' Pants
   63055: Women's 'Semiotique Superluminal' Pants
   63056: Women's AIR Claim Surveyor Suit
-  63058: 'Men''s ''Semiotique Superluminal'' Shades '
-  63061: 'Women''s ''Semiotique Superluminal'' Shades '
+  63058: Men's 'Semiotique Superluminal' Shades
+  63061: Women's 'Semiotique Superluminal' Shades
   63088: Guristas Outpost
   63089: Captured Caldari Workshop
   63097: Retriever Bundle
@@ -40381,7 +40381,7 @@ id2name:
   63165: Capsuleer Starburst Firework
   63166: Hunt Communications Tower
   63167: Hunt Mainframe
-  63168: 'Huntmaster Communications Tower '
+  63168: Huntmaster Communications Tower
   63169: Huntmaster Mainframe
   63170: Pontifex Hunter's Quiver SKIN
   63171: Omen Hunter's Quiver SKIN
@@ -40782,9 +40782,9 @@ id2name:
   63630: Huntmaster Jackdaw
   63631: Hunt Stasis Webifier Tower
   63632: Hunt YC124 Acceleration Gate Key
-  63633: Basic 'Guri Kikhivaa' Cerebral Accelerator
-  63634: Potent 'Guri Kikhivaa' Cerebral Accelerator
-  63635: Extended 'Guri Kikhivaa' Cerebral Accelerator
+  63633: Expired Basic 'Guri Kikhivaa' Cerebral Accelerator
+  63634: Expired Potent 'Guri Kikhivaa' Cerebral Accelerator
+  63635: Expired Extended 'Guri Kikhivaa' Cerebral Accelerator
   63636: Testing EGDLI3 Skins Limited Selection
   63637: Omen Navy Issue Hunter's Quiver SKIN
   63638: Vexor Navy Issue Hunter's Quiver SKIN
@@ -40794,38 +40794,38 @@ id2name:
   63642: Gila Versus Blueforce SKIN
   63643: Worm Versus Redforce SKIN
   63644: Rattlesnake Versus Redforce SKIN
-  63645: Hunt Probing Booster I
-  63646: Hunt Probing Booster II
-  63647: Hunt Probing Booster III
-  63648: Hunt Probing Booster IV
-  63649: Hunt Pursuit Booster I
-  63650: Hunt Pursuit Booster II
-  63651: Hunt Pursuit Booster III
-  63652: Hunt Pursuit Booster IV
-  63653: Hunt Rapid Repair Booster I
-  63654: Hunt Rapid Repair Booster II
-  63655: Hunt Rapid Repair Booster III
-  63656: Hunt Rapid Repair Booster IV
-  63657: Hunt Resistance Booster I
-  63658: Hunt Resistance Booster II
-  63659: Hunt Resistance Booster III
-  63660: Hunt Resistance Booster IV
-  63661: Hunt Drone Precision Booster I
-  63662: Hunt Drone Precision Booster II
-  63663: Hunt Drone Precision Booster III
-  63664: Hunt Drone Precision Booster IV
-  63665: Hunt Missile Velocity Booster I
-  63666: Hunt Missile Velocity Booster II
-  63667: Hunt Missile Velocity Booster III
-  63668: Hunt Missile Velocity Booster IV
-  63669: Hunt Drone Damage Booster I
-  63670: Hunt Drone Damage Booster II
-  63671: Hunt Drone Damage Booster III
-  63672: Hunt Drone Damage Booster IV
-  63673: Hunt Missile Damage Booster I
-  63674: Hunt Missile Damage Booster II
-  63675: Hunt Missile Damage Booster III
-  63676: Hunt Missile Damage Booster IV
+  63645: Expired Hunt Probing Booster I
+  63646: Expired Hunt Probing Booster II
+  63647: Expired Hunt Probing Booster III
+  63648: Expired Hunt Probing Booster IV
+  63649: Expired Hunt Pursuit Booster I
+  63650: Expired Hunt Pursuit Booster II
+  63651: Expired Hunt Pursuit Booster III
+  63652: Expired Hunt Pursuit Booster IV
+  63653: Expired Hunt Rapid Repair Booster I
+  63654: Expired Hunt Rapid Repair Booster II
+  63655: Expired Hunt Rapid Repair Booster III
+  63656: Expired Hunt Rapid Repair Booster IV
+  63657: Expired Hunt Resistance Booster I
+  63658: Expired Hunt Resistance Booster II
+  63659: Expired Hunt Resistance Booster III
+  63660: Expired Hunt Resistance Booster IV
+  63661: Expired Hunt Drone Precision Booster I
+  63662: Expired Hunt Drone Precision Booster II
+  63663: Expired Hunt Drone Precision Booster III
+  63664: Expired Hunt Drone Precision Booster IV
+  63665: Expired Hunt Missile Velocity Booster I
+  63666: Expired Hunt Missile Velocity Booster II
+  63667: Expired Hunt Missile Velocity Booster III
+  63668: Expired Hunt Missile Velocity Booster IV
+  63669: Expired Hunt Drone Damage Booster I
+  63670: Expired Hunt Drone Damage Booster II
+  63671: Expired Hunt Drone Damage Booster III
+  63672: Expired Hunt Drone Damage Booster IV
+  63673: Expired Hunt Missile Damage Booster I
+  63674: Expired Hunt Missile Damage Booster II
+  63675: Expired Hunt Missile Damage Booster III
+  63676: Expired Hunt Missile Damage Booster IV
   63677: Hunt Booster Crate
   63678: Hunt Energy Neutralizer Tower
   63679: Hunt EM Missile Battery
@@ -40860,14 +40860,14 @@ id2name:
   63712: Capsule Subsystem Holostorage EH-CN-J44-002
   63713: Capsule Subsystem Holostorage EH-CN-J44-003
   63714: Capsuleer Day Sunesis FFA Proving Filament
-  63715: Event 58 Proving Filament
-  63716: Event 59 Proving Filament
-  63717: Event 60 Proving Filament
-  63718: Event 61 Proving Filament
-  63719: Event 62 Proving Filament
-  63720: Event 63 Proving Filament
-  63721: Event 64 Proving Filament
-  63722: Event 65 Proving Filament
+  63715: Anger Games 1v1 Cruiser Proving Filament
+  63716: Anger Games 2v2 Cruiser and AF Proving Filament
+  63717: Anger Games 2v2 Corvette Proving Filament
+  63718: Anger Games 1v1 Battleship Proving Filament
+  63719: Federation Day Thorax FFA Proving Filament
+  63720: Liberation Games 1v1 Minmatar Cruiser Proving Filament
+  63721: 1v1 Battlecruisers Proving Filament
+  63722: Foundation Day Amarr Frigate FFA Proving Filament
   63723: Event 66 Proving Filament
   63724: Event 67 Proving Filament
   63725: Event 68 Proving Filament
@@ -40878,9 +40878,49 @@ id2name:
   63748: Men's Kimotoro Eskeitan Commander's Pants
   63749: Women's Kimotoro Eskeitan Commander's Jacket
   63750: Women's Kimotoro Eskeitan Commander's Pants
+  63770: Explorer - Frigate Skill Crate
+  63771: Explorer - Frigate Crate
+  63772: Industrialist - Frigate Blueprint Crate
+  63773: Industrialist - Destroyer Blueprint Crate
+  63774: Industrialist - Cruiser Blueprint Crate
+  63775: Industrialist - Hauler Blueprint Crate
+  63776: Industrialist -  Hauler Skill Crate
+  63777: Industrialist - Light Combat Drones Crate
+  63778: Enforcer - Destroyer Skill Crate
+  63779: Enforcer - Frigate Skill Crate
+  63780: Enforcer - Frigate Crate
+  63781: Enforcer - Defense System Skill Crate
+  63782: Enforcer - Frigate Crate
+  63783: Soldier of Fortune - Frigate Skill Crate
+  63784: Soldier of Fortune - Combat Frigate Crate
+  63785: Soldier of Fortune - Support Frigate Crate
+  63786: Enforcer - Tranquil Abyssal Filaments Crate
+  63787: Enforcer - Calm Abyssal Filaments Crate
   63788: Proving Bonus Nexus
-  63789: 63789_Male_outer_JacketMFBR01_Types_JacketMFBR01_Race.png
-  63790: 63790_Female_Outer_JacketFBR01_Types_JacketFBR01_race.png
+  63789: Men's Grand Prix Racing Jacket
+  63790: Women's Grand Prix Racing Jacket
+  63807: AIR Astro-Acquisition II Booster
+  63808: AIR Astro-Rangefinding II Booster
+  63809: AIR Astro-Pinpointing II Booster
+  63810: AIR Agility Booster II
+  63811: AIR Mining Range Booster I
+  63812: AIR Mining Yield Booster III
+  63813: AIR Mining Yield Booster I
+  63814: AIR Mining Yield Booster II
+  63815: AIR Mining Range Booster II
+  63816: AIR Rapture Booster II
+  63817: AIR Nirvana Booster II
+  63818: AIR Overclocker Booster II
+  63819: AIR Hardshell Booster II
+  63820: AIR Pyrolancea Booster II
+  63821: AIR Overclocker Booster III
+  63822: AIR Repairer Booster III
+  63824: 75,000 Skill Points
+  63825: 125,000 Skill Points
+  63826: Free AIR Explorer Expert System
+  63827: Free AIR Industrialist Expert System
+  63828: Free AIR Enforcer Expert System
+  63829: Free AIR Soldier of Fortune Expert System
   63841: Apotheosis Capsuleer Day XIX SKIN
   63842: Gnosis Capsuleer Day XIX SKIN
   63843: Praxis Capsuleer Day XIX SKIN
@@ -40889,12 +40929,12 @@ id2name:
   63846: Stormbringer Capsuleer Day XIX SKIN
   63847: Thunderchild Capsuleer Day XIX SKIN
   63848: Capsule Capsuleer Day XIX SKIN
-  63849: Basic Capsuleer Day Glamourex Booster
-  63850: Extended Capsuleer Day Glamourex Booster
-  63851: Potent Capsuleer Day Glamourex Booster
-  63852: Basic Capsuleer Day Cerebral Accelerator
-  63853: Extended Capsuleer Day Cerebral Accelerator
-  63854: Potent Capsuleer Day Cerebral Accelerator
+  63849: Expired Basic Capsuleer Day Glamourex Booster
+  63850: Expired Extended Capsuleer Day Glamourex Booster
+  63851: Expired Potent Capsuleer Day Glamourex Booster
+  63852: Expired Basic Capsuleer Day Cerebral Accelerator
+  63853: Expired Extended Capsuleer Day Cerebral Accelerator
+  63854: Expired Potent Capsuleer Day Cerebral Accelerator
   63855: Sentinel Versus Redforce SKIN
   63856: Impel Versus Redforce SKIN
   63857: Devoter Versus Blueforce SKIN
@@ -40917,38 +40957,38 @@ id2name:
   63875: Non-Interactable Prowler
   63876: CONCORD Prohibited Item Storage
   63877: CONCORD Contraband Containment Container
-  63878: Smuggler Low Observability Booster I
-  63879: Smuggler Low Observability Booster II
-  63880: Smuggler Low Observability Booster III
-  63881: Smuggler Low Observability Booster IV
-  63882: DED Scan Booster I
-  63883: DED Scan Booster II
-  63884: DED Scan Booster III
-  63885: DED Scan Booster IV
-  63886: Smuggler Shield Booster I
-  63887: Smuggler Shield Booster II
-  63888: Smuggler Shield Booster III
-  63889: Smuggler Shield Booster IV
-  63890: DED Armor Booster I
-  63891: DED Armor Booster II
-  63892: DED Armor Booster III
-  63893: DED Armor Booster IV
-  63894: Smuggler Blockade Running Booster I
-  63895: Smuggler Blockade Running Booster II
-  63896: Smuggler Blockade Running Booster III
-  63897: Smuggler Blockade Running Booster IV
-  63898: DED Apprehension Booster I
-  63899: DED Apprehension Booster II
-  63900: DED Apprehension Booster III
-  63901: DED Apprehension Booster IV
-  63902: Smuggler Bay Loading Booster I
-  63903: Smuggler Bay Loading Booster II
-  63904: Smuggler Bay Loading Booster III
-  63905: Smuggler Bay Loading Booster IV
-  63906: DED Turret Booster I
-  63907: DED Turret Booster II
-  63908: DED Turret Booster III
-  63909: DED Turret Booster IV
+  63878: Expired Smuggler Low Observability Booster I
+  63879: Expired Smuggler Low Observability Booster II
+  63880: Expired Smuggler Low Observability Booster III
+  63881: Expired Smuggler Low Observability Booster IV
+  63882: Expired DED Scan Booster I
+  63883: Expired DED Scan Booster II
+  63884: Expired DED Scan Booster III
+  63885: Expired DED Scan Booster IV
+  63886: Expired Smuggler Shield Booster I
+  63887: Expired Smuggler Shield Booster II
+  63888: Expired Smuggler Shield Booster III
+  63889: Expired Smuggler Shield Booster IV
+  63890: Expired DED Armor Booster I
+  63891: Expired DED Armor Booster II
+  63892: Expired DED Armor Booster III
+  63893: Expired DED Armor Booster IV
+  63894: Expired Smuggler Blockade Running Booster I
+  63895: Expired Smuggler Blockade Running Booster II
+  63896: Expired Smuggler Blockade Running Booster III
+  63897: Expired Smuggler Blockade Running Booster IV
+  63898: Expired DED Apprehension Booster I
+  63899: Expired DED Apprehension Booster II
+  63900: Expired DED Apprehension Booster III
+  63901: Expired DED Apprehension Booster IV
+  63902: Expired Smuggler Bay Loading Booster I
+  63903: Expired Smuggler Bay Loading Booster II
+  63904: Expired Smuggler Bay Loading Booster III
+  63905: Expired Smuggler Bay Loading Booster IV
+  63906: Expired DED Turret Booster I
+  63907: Expired DED Turret Booster II
+  63908: Expired DED Turret Booster III
+  63909: Expired DED Turret Booster IV
   63910: CONCORD Prohibited Item Storage
   63911: CONCORD Contraband Storage
   63938: Capsuleer Day Buff Nexus
@@ -40968,8 +41008,8 @@ id2name:
   63985: Smuggler Service Outpost (DO NOT TRANSLATE)
   63986: Smuggler Service Outpost Wreck (DO NOT TRANSLATE)
   63987: Smuggler Research Outpost Wreck (DO NOT TRANSLATE)
-  63988: Smugglehaus (DO NOT TRANSLATE)
-  63989: Smugglehaus Wreck (DO NOT TRANSLATE)
+  63988: cm1_t1_environment_asset
+  63989: cm1_t1_wreck_environment_asset
   64002: SARO Pacifier
   64003: SARO Skybreaker
   64004: SARO Nemesis
@@ -41007,7 +41047,58 @@ id2name:
   64036: Capsuleer Day DED Booster Crate
   64037: Capsuleer Day Smuggler Booster Crate
   64038: Dormitory (DO NOT TRANSLATE)
+  64039: Asteroid Set 2 Xlarge 1
+  64040: Asteroid Set 2 Xlarge 2
+  64041: Asteroid Set 2 Xlarge 3
+  64042: Asteroid Set 2 Xlarge 4
+  64043: Asteroid Set 2 Xlarge 5
+  64044: Asteroid Set 2 Large 1
+  64045: Asteroid Set 2 Large 2
+  64046: Asteroid Set 2 Large 3
+  64047: Asteroid Set 2 Large 4
+  64048: Asteroid Set 2 Large 5
+  64049: Asteroid Set 2 Medium 1
+  64050: Asteroid Set 2 Medium 2
+  64051: Asteroid Set 2 Medium 3
+  64052: Asteroid Set 2 Medium 4
+  64053: Asteroid Set 2 Medium 5
+  64054: Asteroid Set 2 Medium 6
+  64055: Asteroid Set 2 Medium 7
+  64056: Asteroid Set 2 Medium 8
+  64057: Asteroid Set 2 Small 1
+  64058: Asteroid Set 2 Small 2
+  64059: Asteroid Set 2 Small 3
+  64060: Asteroid Set 2 Small 4
+  64061: Asteroid Set 2 Small 5
+  64062: Asteroid Set 2 Small 6
+  64063: Asteroid Set 2 Xsmall 1
+  64064: Asteroid Set 2 Xsmall 2
+  64065: Asteroid Set 2 Xsmall 3
+  64066: Asteroid Set 2 Xsmall 4
+  64067: Asteroid Set 2 Xsmall 5
+  64068: Asteroid Set 2 Xsmall 6
+  64069: Asteroid Set 2 Xsmall 7
+  64070: Asteroid Set 2 Xsmall 8
+  64071: Asteroid Set 2 Xsmall 9
+  64072: Asteroid Set 2 Xsmall 10
+  64073: Asteroid Set 2 Xsmall 11
+  64074: Asteroid Set 2 Xsmall 12
+  64075: Asteroid Set 2 Xsmall 13
+  64076: Asteroid Set 2 Xsmall 14
+  64077: Asteroid Set 2 Xsmall 15
   64078: uaf01_t1_environment_asset
+  64079: Bloodraider Outpost non interactable
+  64080: Bloodraider Outpost Wreckage
+  64081: Bloodraider Outpost Wreckage Infested
+  64082: Serpentis Outpost non interactable
+  64083: Serpentis Outpost Wreckage
+  64084: Serpentis Outpost Wreckage Infested
+  64085: Angel Outpost non interactable
+  64086: Angel Outpost Wreckage
+  64087: Angel Outpost Wreckage Infested
+  64088: Guristas Outpost non interactable
+  64089: Guristas Outpost Wreckage
+  64090: Guristas Outpost Wreckage Infested
   64091: CD 19 Concord Easy Wave Spawner (DO NOT TRANSLATE)
   64092: CD 19 Concord Easy Boss Spawner (DO NOT TRANSLATE)
   64096: Stork Kimotoro Eskeitan Commander SKIN
@@ -41015,9 +41106,694 @@ id2name:
   64098: Golem Kimotoro Eskeitan Commander SKIN
   64101: CD 19 Smuggler Supplemental Spawner (DO NOT TRANSLATE)
   64102: CD 19 Concord Supplemental Spawner (DO NOT TRANSLATE)
+  64104: Bloodraider Structure Ruins
+  64105: Bloodraider Hideout
+  64106: Bloodraider Hideout non interactable
+  64107: Bloodraider Hideout Wreckage
+  64108: Serpentis Structure Ruins
+  64109: Serpentis Hideout
+  64110: Serpentis Hideout non interactable
+  64111: Serpentis Hideout Wreckage
+  64112: Angel Structure Ruins
+  64113: Angel Hideout
+  64114: Angel Hideout Wreckage
+  64115: Angel Hideout non interactable
+  64116: Guristas Structure Ruins
+  64117: Guristas Hideout
+  64118: Guristas Hideout Wreckage
+  64119: Guristas Hideout non interactable
+  64120: Bloodraider Warehouse Wreck
+  64121: Bloodraider Warehouse
+  64122: Bloodraider Warehouse non interactable
+  64123: Bloodraider Warehouse Wreckage
+  64124: Serpentis Warehouse Wreck
+  64125: Serpentis Warehouse
+  64126: Serpentis Warehouse Wreckage
+  64127: Serpentis Warehouse non interactable
+  64128: Angel Warehouse Wreck
+  64129: Angel Warehouse
+  64130: Angel Warehouse Wreckage
+  64131: Angel Warehouse non interactable
+  64132: Guristas Warehouse Wreck
+  64133: Guristas Warehouse
+  64134: Guristas Warehouse Wreckage
+  64135: Guristas Warehouse non interactable
+  64136: Bloodraider Den non interactable
+  64137: Serpentis Den non interactable
+  64138: Angel Den non interactable
+  64139: Guristas Den non interactable
+  64140: Bloodraider Tower Wreck
+  64141: Bloodraider Tower
+  64142: Bloodraider Tower Wreckage
+  64143: Bloodraider Tower non interactable
+  64144: Serpentis Tower Wreck
+  64145: Serpentis Tower
+  64146: Serpentis Tower Wreckage
+  64147: Serpentis Tower non interactable
+  64148: Angel Tower Wreck
+  64149: Angel Tower
+  64150: Angel Tower Wreckage
+  64151: Angel Tower non interactable
+  64152: Guristas Tower Wreck
+  64153: Guristas Tower
+  64154: Guristas Tower Wreckage
+  64155: Guristas Tower non interactable
+  64156: La Fleur Inn tower
+  64157: Amarr Navy Force Auxiliary Wreckage
+  64158: Apocalypse Navy Issue Wreckage
+  64159: Armageddon Navy Issue Wreckage
+  64160: Gallente Navy Force Auxiliary Wreckage
+  64161: Dominix Navy Issue Wreckage
+  64162: Megathron Navy Issue Wreckage
+  64163: Minmatar Fleet Force Auxiliary Wreckage
+  64164: Typhoon Fleet Issue Wreckage
+  64165: Tempest Fleet Issue Wreckage
+  64166: Caldari Navy Force Auxiliary Wreckage
+  64167: Raven Navy Issue Wreckage
+  64168: Scorpion Navy Issue Wreckage
+  64169: Gallente Freighter Wreckage
+  64170: Caldari Freighter Wreckage
+  64171: Rorqual Wreckage
+  64172: Rorqual Wreckage Infested
+  64173: Bowhead Wreckage
+  64174: Bowhead Wreckage Infested
+  64175: Orca Wreckage
+  64176: Orca Wreckage Infested
+  64177: Asteroid Mining Post
+  64178: Concord Prison Barracks
+  64179: Concord Prison Perimeter
+  64180: Grand Hotel Suites
+  64181: Grand Hotel Casino
+  64182: Gas Refinery Station
+  64183: Hotel Wreck
+  64184: Hotel
+  64185: Smuggler Jumpgate
+  64186: Blood Raider Cathedral
+  64187: Blood Raider Fortress
+  64188: Secondary Spawner
   64189: Boobook Versus Redforce SKIN
   64190: Boobook Versus Blueforce SKIN
   64191: Proving Capsuleer Day 2022 Bonus (Do not translate)
+  64192: La Fleur Inn Radiation Cloud
+  64195: Women's 'Hyper' Racing Jacket
+  64196: Men's 'Hyper' Racing Jacket
+  64201: Men's Minmatar 'Rebellion' Cap
+  64202: Women's Minmatar 'Rebellion' Cap
+  64203: Men's Minmatar 'Rebellion' T-Shirt
+  64204: Women's Minmatar 'Rebellion' T-Shirt
+  64268: Men's Minmatar 'Freedom Fighter' T-Shirt
+  64269: Women's Minmatar 'Freedom Fighter' T-Shirt
+  64270: Men's Minmatar 'Freedom Fighter' Cap
+  64271: Women's Minmatar 'Freedom Fighter' Cap
+  64345: Council Diplomatic Shuttle Semiotique Sports SKIN
+  64346: ♦ Officer Chemosh
+  64353: Secure Generic Data Storage
+  64354: Secure Generic Data Storage Wreckage
+  64355: Secure Generic Data Vault
+  64356: Secure Generic Data Vault Wreckage
+  64357: Particle Cloud 01b
+  64358: Particle Cloud 01c
+  64359: Particle Cloud 01d
+  64360: Particle Cloud 01e
+  64361: Particle Cloud 01f
+  64362: Static Cloud 01a
+  64363: Static Cloud 01b
+  64364: Static Cloud 01c
+  64365: Static Cloud 01d
+  64366: Static Cloud 01e
+  64367: Particle Cloud 100k Flat 01a
+  64368: Particle Cloud 100k Flat 01b
+  64369: Particle Cloud 100k Sphere 01a
+  64370: Particle Cloud 100k Sphere 01b
+  64371: Particle Cloud Donut 01a
+  64372: Particle Cloud Donut 01b
+  64373: Grand Prix Booster I
+  64374: Grand Prix Booster II
+  64375: Grand Prix Booster III
+  64376: Grand Prix Booster IV
+  64377: Women's Amarr Devotional Robe
+  64378: Women's Amarr Courtly Robe
+  64379: Men's Amarr Devotional Robe
+  64380: Men's Amarr Courtly Robe
+  64390: Nereus Strategic Materiel Defender SKIN
+  64391: Kryos Strategic Materiel Defender SKIN
+  64392: Epithal Strategic Materiel Defender SKIN
+  64393: Miasmos Strategic Materiel Defender SKIN
+  64394: Iteron Mark V Strategic Materiel Defender SKIN
+  64395: Malediction Luminaire Zenith SKIN
+  64396: Crow Luminaire Zenith SKIN
+  64397: Ares Luminaire Zenith SKIN
+  64398: Tristan Luminaire Zenith SKIN
+  64399: Federation Navy Comet Luminaire Zenith SKIN
+  64400: Exequror Luminaire Zenith SKIN
+  64401: Megathron Luminaire Zenith SKIN
+  64402: Stiletto Luminaire Zenith SKIN
+  64404: CONCORD Fleet Commander
+  64405: Malediction Luminaire Rising SKIN
+  64406: Anathema Luminaire Rising SKIN
+  64407: Crow Luminaire Rising SKIN
+  64408: Buzzard Luminaire Rising SKIN
+  64409: Pacifier Luminaire Rising SKIN
+  64410: Claw Luminaire Rising SKIN
+  64411: Cheetah Luminaire Rising SKIN
+  64412: Ares Luminaire Rising SKIN
+  64413: Helios Luminaire Rising SKIN
+  64416: Colony Battleship Wreckage
+  64417: Angel Barrier ZX
+  64427: Particle Cloud Thunder Large 01c
+  64428: Swirling Cloud 01a
+  64429: Swirling Cloud 01b
+  64430: Shattered Arkonor Asteroid
+  64431: Shattered Gneiss Asteroid
+  64432: Shattered Kernite Asteroid
+  64433: Cloven Arkonor Asteroid
+  64434: Cloven Kernite Asteroid
+  64435: Barren Asteroid
+  64436: Non-interactable Vexor (do not translate)
+  64437: Non-interactable Atron (do not translate)
+  64438: Non-interactable Incursus (do not translate)
+  64439: Non-interactable Maulus (do not translate)
+  64440: Non-interactable Navitas (do not translate)
+  64441: Non-interactable Tristan (do not translate)
+  64442: Non-interactable Catalyst (do not translate)
+  64443: Non-interactable Celestis (do not translate)
+  64444: Non-interactable Exequror (do not translate)
+  64445: Non-interactable Thorax (do not translate)
+  64446: Non-interactable Brutix (do not translate)
+  64447: Non-interactable Myrmidon (do not translate)
+  64448: Non-interactable Dominix (do not translate)
+  64449: Non-interactable Hyperion (do not translate)
+  64450: Non-interactable Megathron (do not translate)
+  64451: Non-interactable Nyx (do not translate)
+  64452: Non-interactable Thanatos (do not translate)
+  64453: Non-interactable Moros (do not translate)
+  64455: '{[numeric]jumps} {[numeric]jumps -> "jump", "jumps"}'
+  64456: Angel Junction
+  64457: Angel Barrier X
+  64458: Angel Elevator
+  64459: Angel Missile Battery
+  64460: Guristas Lookout
+  64461: Guristas Junction
+  64462: Guristas Barrier X
+  64463: Guristas Elevator
+  64464: Guristas Missile Battery
+  64465: Bloodraider Lookout
+  64466: Bloodraider Junction
+  64467: Bloodraider Barrier X
+  64468: Bloodraider Elevator
+  64469: Bloodraider Missile Battery
+  64470: Serpentis Lookout
+  64471: Serpentis Junction
+  64472: Serpentis Barrier X
+  64473: Serpentis Elevator
+  64474: Serpentis Missile Battery
+  64475: Blue Holo Corner 01a
+  64476: Blue Holo Corner 02a
+  64477: Blue Holo Corner Curved 01a
+  64478: Blue Holo Detailed 01a
+  64479: Teal Holo Detailed 01a
+  64480: Yellow Holo Corner Curved 01a
+  64481: Yellow Holo Detailed 01a
+  64482: Yellow Holo Detailed 02a
+  64483: Yellow Holo Straight 01a
+  64484: Yellow Holo Straight 02a
+  64485: Yellow Holo Straight Long 02b
+  64486: Blue Holo Straight 02a
+  64487: Blue Holo Straight Long 02b
+  64488: Orange Holo Corner 01a
+  64489: Orange Holo Corner 02a
+  64490: Orange Holo Corner Curved 01a
+  64491: Orange Holo Detailed 01a
+  64492: Orange Holo Detailed 02a
+  64493: Orange Holo Straight 01a
+  64494: Orange Holo Straight 02a
+  64495: Orange Holo Straight Long 02b
+  64496: Red Holo Corner 02a
+  64497: Red Holo Corner Curved 01a
+  64498: Red Holo Detailed 01a
+  64499: Red Holo Detailed 02a
+  64500: Red Holo Straight 01a
+  64501: Red Holo Straight 02a
+  64502: Red Holo Straight Long 02b
+  64503: Teal Holo Corner 01a
+  64504: Teal Holo Corner 02a
+  64505: Teal Holo Corner Curved 01a
+  64506: Teal Holo Detailed 02a
+  64507: Teal Holo Straight 01a
+  64508: Teal Holo Straight 02a
+  64509: Teal Holo Straight Long 02b
+  64510: Yellow Holo Corner 01a
+  64511: Yellow Holo Corner 02a
+  64512: Blue Holo Detailed 02a
+  64513: Blue Holo Straight 01a
+  64514: Red Holo Corner 01a
+  64515: Bloodraider Repair Hub
+  64516: Serpentis Repair Hub
+  64517: Angel Repair Hub
+  64518: Guristas Repair Hub
+  64519: Dungeon 2024 traffic FX
+  64520: Smuggler Construction Dock 01
+  64521: Construction Dock 01 Gas Leak
+  64522: Concord Prison Facility
+  64526: Non-interactable Billboard (do not translate)
+  64534: Non-interactable Ninazu (do not translate)
+  64535: Non-interactable Talos (do not translate)
+  64536: CSM Election Voter Information Station
+  64543: Non-interactable Large Billboard (do not translate)
+  64545: Battle of Ratillose Monument
+  64546: Gallente Commercial Station Ruins
+  64547: Non-Interactable Megathron Wreck (Do Not Translate)
+  64548: Non-Interactable Moros Wreck (Do Not Translate)
+  64549: Gallente Carrier Wreckage
+  64550: Spaceshuttle Shuttle Wreckage
+  64551: Wrecked Amarr Apocalypse Battleship
+  64558: Developer Subcapital Unlock ES
+  64567: Battle of Ratillose Monument
+  64568: Vexor Luminaire Rising SKIN
+  64569: Ishtar Luminaire Rising SKIN
+  64570: Brutix Luminaire Rising SKIN
+  64571: Dominix Luminaire Rising SKIN
+  64572: Thanatos Luminaire Rising SKIN
+  64573: Nyx Luminaire Rising SKIN
+  64574: Erebus Luminaire Rising SKIN
+  64587: Rifter Chainbreaker Khumaak SKIN
+  64588: Sabre Chainbreaker Khumaak SKIN
+  64589: Rupture Chainbreaker Khumaak SKIN
+  64590: Vagabond Chainbreaker Khumaak SKIN
+  64591: Hurricane Chainbreaker Khumaak SKIN
+  64592: Hurricane Fleet Issue Chainbreaker Khumaak SKIN
+  64593: Tornado Chainbreaker Khumaak SKIN
+  64594: Typhoon Chainbreaker Khumaak SKIN
+  64595: Typhoon Fleet Issue Chainbreaker Khumaak SKIN
+  64596: Tempest Chainbreaker Khumaak SKIN
+  64597: Tempest Fleet Issue Chainbreaker Khumaak SKIN
+  64598: Maelstrom Chainbreaker Khumaak SKIN
+  64601: Blue Holo Prefab 01a
+  64602: ENV_Bloodraider_S1
+  64603: ENV_Bloodraider_S2
+  64604: ENV_Bloodraider_S3
+  64605: ENV_Serpentis_S1
+  64606: ENV_Serpentis_S2
+  64607: ENV_Serpentis_S3
+  64608: ENV_Guristas_S1
+  64609: ENV_Guristas_S2
+  64610: ENV_Guristas_S3
+  64611: ENV_Angel_S1
+  64612: ENV_Angel_S2
+  64613: ENV_Angel_S3
+  64614: ENV_Smuggler_S1_01a
+  64615: ENV_Smuggler_S2_01a
+  64616: ENV_Casino_01a
+  64617: ENV_GenericCombat_01a
+  64618: ENV_Amarr_01a
+  64619: ENV_Caldari_01a
+  64620: ENV_Gallente_01a
+  64621: ENV_Minmatar_01a
+  64622: ENV_DarkExploration_01a
+  64623: Placeholder DO NOT USE
+  64624: Placeholder DO NOT USE
+  64625: Placeholder DO NOT USE
+  64626: Placeholder DO NOT USE
+  64627: Placeholder DO NOT USE
+  64628: Placeholder DO NOT USE
+  64629: Placeholder DO NOT USE
+  64630: Placeholder DO NOT USE
+  64631: Placeholder DO NOT USE
+  64632: Placeholder DO NOT USE
+  64633: Placeholder DO NOT USE
+  64634: Placeholder DO NOT USE
+  64635: Placeholder DO NOT USE
+  64636: Placeholder DO NOT USE
+  64637: Placeholder DO NOT USE
+  64638: Placeholder DO NOT USE
+  64639: Placeholder DO NOT USE
+  64640: Placeholder DO NOT USE
+  64641: Placeholder DO NOT USE
+  64642: Placeholder DO NOT USE
+  64643: Placeholder DO NOT USE
+  64644: Placeholder DO NOT USE
+  64645: Placeholder DO NOT USE
+  64646: Placeholder DO NOT USE
+  64647: Placeholder DO NOT USE
+  64648: Placeholder DO NOT USE
+  64649: Placeholder DO NOT USE
+  64650: Placeholder DO NOT USE
+  64651: Blue Holo Prefab 02a
+  64652: Blue Holo Prefab 03a
+  64653: Orange Holo Prefab 04a
+  64654: Red Holo Prefab 1x4 01a
+  64655: Teal Holo Prefab 1x4 01b
+  64656: Yellow Holo Prefab 1x4 01b
+  64657: Yellow Holo Prefab 1x8 01a
+  64658: Yellow Holo Prefab 1x8 01b
+  64659: Yellow Holo Prefab 2x8 01a
+  64660: Yellow Holo Prefab 2x8 01b
+  64661: Blue Holo Prefab 04a
+  64662: Blue Holo Prefab 1x4 01a
+  64663: Blue Holo Prefab 1x4 01b
+  64664: Blue Holo Prefab 1x8 01a
+  64665: Blue Holo Prefab 1x8 01b
+  64666: Blue Holo Prefab 2x8 01a
+  64667: Blue Holo Prefab 2x8 01b
+  64668: Orange Holo Prefab 01a
+  64669: Orange Holo Prefab 02a
+  64670: Orange Holo Prefab 03a
+  64671: Orange Holo Prefab 1x4 01a
+  64672: Orange Holo Prefab 1x4 01b
+  64673: Orange Holo Prefab 1x8 01a
+  64674: Orange Holo Prefab 1x8 01b
+  64675: Orange Holo Prefab 2x8 01a
+  64676: Orange Holo Prefab 2x8 01b
+  64677: Red Holo Prefab 01a
+  64678: Red Holo Prefab 02a
+  64679: Red Holo Prefab 03a
+  64680: Red Holo Prefab 04a
+  64681: Red Holo Prefab 1x4 01b
+  64682: Red Holo Prefab 1x8 01a
+  64683: Red Holo Prefab 1x8 01b
+  64684: Red Holo Prefab 2x8 01a
+  64685: Red Holo Prefab 2x8 01b
+  64686: Teal Holo Prefab 01a
+  64687: Teal Holo Prefab 02a
+  64688: Teal Holo Prefab 03a
+  64689: Teal Holo Prefab 04a
+  64690: Teal Holo Prefab 1x4 01a
+  64691: Teal Holo Prefab 1x8 01a
+  64692: Teal Holo Prefab 1x8 01b
+  64693: Teal Holo Prefab 2x8 01a
+  64694: Teal Holo Prefab 2x8 01b
+  64695: Yellow Holo Prefab 01a
+  64696: Yellow Holo Prefab 02a
+  64697: Yellow Holo Prefab 03a
+  64698: Yellow Holo Prefab 04a
+  64699: Yellow Holo Prefab 1x4 01a
+  64700: Debris Explode and Go 01 Dungeon 5000m
+  64701: Debris Explode and Go 02 Dungeon 8000m
+  64702: Debris Explode and Go 02 Dungeon 10000m
+  64703: Debris Explode and Go 02 Dungeon 12000m
+  64704: Debris Explode and Go 01 Dungeon 8000m
+  64705: Debris Explode and Go 01 Dungeon 10000m
+  64706: Debris Explode and Go 04 Dungeon 5000m
+  64707: Debris Explode and Go 04 Dungeon 8000m
+  64708: Debris Explode and Go 04 Dungeon 10000m
+  64709: Debris Explode and Go 04 Dungeon 12000m
+  64710: Debris Explode and Go 05 Dungeon 1000m
+  64711: Debris Explode and Go 05 Dungeon 3000m
+  64712: Debris Explode and Go 05 Dungeon 5000m
+  64713: Debris Explode and Go 05 Dungeon 7000m
+  64714: Debris Explode and Go 01 Dungeon 12000m
+  64715: Debris Explode and Go 02 Dungeon 5000m
+  64716: ParticleCloud 30km 01a
+  64717: ParticleCloud 30km 03a
+  64718: ParticleCloud 30km 04a
+  64719: ParticleCloud 30km 04b
+  64720: ParticleCloud 30km 01b
+  64721: ParticleCloud 30km 02a
+  64724: Basic Glamourex Booster
+  64725: Federation Grand Prix Duvolle HQ Waypoint
+  64726: Thrasher Liberation Games SKIN
+  64727: Sabre Liberation Games SKIN
+  64728: Slasher Liberation Games SKIN
+  64729: Hurricane Fleet Issue Liberation Games SKIN
+  64730: Hurricane Liberation Games SKIN
+  64731: Sleipnir Liberation Games SKIN
+  64732: Rupture Liberation Games SKIN
+  64733: Muninn Liberation Games SKIN
+  64734: 'Federation Grand Prix History Route: Intaki Prime'
+  64735: 'Federation Grand Prix History Route: Verge Vendor Colonies'
+  64736: 'Federation Grand Prix History Route: Chandeille'
+  64737: 'Federation Grand Prix History Route: Republic University'
+  64738: 'Federation Grand Prix History Route: Aidonis Elabon and CONCORD'
+  64739: 'Federation Grand Prix History Route: Treaty of Tierijev'
+  64740: 'Federation Grand Prix History Route: Federation Senate'
+  64741: 'Federation Grand Prix History Route: Federation Supreme Court'
+  64742: 'Federation Grand Prix History Route: Federation President'
+  64743: Walkway Debris
+  64744: Unidentified Wreckage
+  64745: Abandoned Drill
+  64746: Federation Grand Prix Jacket Crate
+  64747: Champions of the Federation Grand Prix YC124
+  64748: refs1_t1b_environment_asset
+  64802: Amarr Navy Research Station
+  64820: Celestial Asteroid Coral 2
+  64821: Rock Formation 1
+  64822: Rock Formation 3
+  64823: Rock Formation 5
+  64824: XL Structure Billboard
+  64825: District Satellite
+  64849: Derelict Ship
+  64850: Ruined Neon Sign
+  64867: Small Lightning 01a
+  64868: Fortified Minmatar Lookout ( DO NOT TRANSLATE )
+  64869: Indestructible Minmatar Starbase (DO NOT TRANSLATE )
+  64870: Fortified Minmatar Barricade ( DO NOT TRANSLATE)
+  64876: Angel Data Storage Device
+  64877: Blood Raider Data Storage Device
+  64878: Guristas Data Storage Device
+  64879: Serpentis Data Storage Device
+  64880: Data Storage Device
+  64881: Liberation Games Firework Sentry ( DO NOT TRANSLATE)
+  64882: Fortified Minmatar Barrier ( DO NOT TRANSLATE)
+  64883: Defunct Minmatar Encounter Surveillance System (DO NOT TRANSLATE)
+  64884: Minmatar Tactical Supply Station (DO NOT TRANSLATE)
+  64885: Starbase Major Assembly Array (DO NOT TRANSLATE)
+  64886: Fortified Minmatar Battery (DO NOT TRANSLATE)
+  64887: Minmatar Border Security Outpost
+  64888: Fortified Minmatar Grandstand (DO NOT TRANSLATE)
+  64889: Minmatar Sentry Gun (DO NOT TRANSLATE)
+  64892: Minmatar Border Security Outpost
+  64895: Proving Overload Bonus with Turret Falloff Bonus and Optimal Penalty (Do
+    not translate)
+  64896: Large Proving Tachyon Cloud
+  64897: gs6_wreck_environment_asset
+  64898: gs5_wreck_environment_asset
+  64901: Basic Cerebral Accelerator
+  64903: Non-Interactable Raven Wreck (Do Not Translate)
+  64904: Non-Interactable Scorpion Wreck (Do Not Translate)
+  64905: Non-Interactable Phoenix Wreck (Do Not Translate)
+  64906: Non-Interactable Chimera Wreck (Do Not Translate)
+  64907: Hoarder Fleet Ordnance Spike SKIN
+  64908: Mammoth Fleet Ordnance Spike SKIN
+  64909: Wreathe Fleet Ordnance Spike SKIN
+  64910: Scythe Fleet Issue Liberation Games SKIN
+  64911: Tempest Fleet Issue Liberation Games SKIN
+  64912: Vigil Fleet Issue Sebiestor SKIN
+  64913: Thrasher Sebiestor SKIN
+  64914: Cyclone Sebiestor SKIN
+  64915: Typhoon Fleet Issue Sebiestor SKIN
+  64916: Vigil Fleet Issue Krusual SKIN
+  64917: Talwar Krusual SKIN
+  64918: Typhoon Fleet Issue Krusual SKIN
+  64919: Hurricane Krusual SKIN
+  64920: Vigil Fleet Issue Brutor SKIN
+  64921: Thrasher Brutor SKIN
+  64922: Cyclone Brutor SKIN
+  64923: Typhoon Fleet Issue Brutor SKIN
+  64924: Vigil Fleet Issue Vherokior SKIN
+  64925: Thrasher Vherokior SKIN
+  64926: Hurricane Vherokior SKIN
+  64927: Typhoon Fleet Issue Vherokior SKIN
+  64928: Vigil Fleet Issue Nefantar SKIN
+  64929: Talwar Nefantar SKIN
+  64930: Cyclone Nefantar SKIN
+  64931: Typhoon Fleet Issue Nefantar SKIN
+  64932: Vigil Fleet Issue Thukker Tribe SKIN
+  64933: Talwar Thukker Tribe SKIN
+  64934: Hurricane Thukker Tribe SKIN
+  64935: Typhoon Fleet Issue Thukker Tribe SKIN
+  64936: Vigil Fleet Issue Starkmanir SKIN
+  64937: Thrasher Starkmanir SKIN
+  64938: Hurricane Starkmanir SKIN
+  64939: Typhoon Fleet Issue Starkmanir SKIN
+  64949: Liberation Games Accuracy Booster II
+  64950: Liberation Games Accuracy Booster III
+  64951: Liberation Games Accuracy Booster IV
+  64952: Liberation Games Accuracy Booster I
+  64953: Liberation Games Damage Booster I
+  64954: Liberation Games Damage Booster II
+  64955: Liberation Games Damage Booster III
+  64956: Liberation Games Damage Booster IV
+  64957: Liberation Games EWar Booster II
+  64958: Liberation Games EWar Booster III
+  64959: Liberation Games EWar Booster IV
+  64960: Liberation Games EWar Booster I
+  64961: Liberation Games Range Booster I
+  64962: Liberation Games Range Booster II
+  64963: Liberation Games Range Booster III
+  64964: Liberation Games Range Booster IV
+  64965: Minmatar Vigil  Frigate
+  64966: Minmatar Slasher Frigate
+  64967: Minmatar Probe Frigate
+  64968: Minmatar Rifter Frigate
+  64969: Minmatar Breacher Frigate
+  64970: Minmatar Burst Frigate
+  64971: Minmatar Thrasher Destroyer
+  64972: Minmatar Stabber Cruiser ( copy )
+  64973: Minmatar Stabber Cruiser
+  64974: Minmatar Rupture Cruiser
+  64975: Minmatar Bellicose Cruiser
+  64976: Minmatar Scythe Cruiser
+  64977: Minmatar Cyclone Battlecruiser
+  64978: Minmatar Hurricane Battlecruiser
+  64979: Minmatar Typhoon Battleship
+  64980: Minmatar Tempest Battleship
+  64981: Minmatar Naglfar Dreadnought
+  64982: Minmatar Lif Force Auxiliary
+  64983: Minmatar Hel Carrier
+  64984: Minmatar Battlecruiser Tornado
+  64985: Minmatar Strategic Cruiser Loki
+  64986: Minmatar Nidhoggur Carrier
+  64987: Minmatar Maelstrom Battleship
+  64988: Minmatar Destroyer Talwar
+  65020: Corrupted Trinary Fragment
+  65021: Corrupted Trinary Fragment
+  65022: Corrupted Trinary Fragment
+  65023: Corrupted Trinary Fragment
+  65024: Corrupted Trinary Fragment
+  65025: Corrupted Trinary Fragment
+  65026: Corrupted Trinary Fragment
+  65027: Corrupted Trinary Fragment
+  65028: Corrupted Trinary Fragment
+  65029: Corrupted Trinary Fragment
+  65030: Corrupted Trinary Fragment
+  65031: Corrupted Trinary Fragment
+  65032: Corrupted Trinary Fragment
+  65033: Corrupted Trinary Fragment
+  65034: Corrupted Trinary Fragment
+  65035: Corrupted Trinary Fragment
+  65036: Corrupted Trinary Fragment
+  65037: Corrupted Trinary Fragment
+  65038: Corrupted Trinary Fragment
+  65039: Corrupted Trinary Fragment
+  65040: Corrupted Trinary Fragment
+  65041: Corrupted Trinary Fragment
+  65042: Corrupted Trinary Fragment
+  65043: Corrupted Trinary Fragment
+  65044: Corrupted Trinary Fragment
+  65045: Corrupted Trinary Fragment
+  65046: Corrupted Trinary Fragment
+  65047: Corrupted Trinary Fragment
+  65048: Corrupted Trinary Fragment
+  65049: Corrupted Trinary Fragment
+  65050: Corrupted Trinary Fragment
+  65051: Corrupted Trinary Fragment
+  65052: Corrupted Trinary Fragment
+  65053: Corrupted Trinary Fragment
+  65054: Corrupted Trinary Fragment
+  65055: Corrupted Trinary Fragment
+  65056: Corrupted Trinary Fragment
+  65057: Corrupted Trinary Fragment
+  65058: Corrupted Trinary Fragment
+  65059: Corrupted Trinary Fragment
+  65061: Minmatar-Gallente Border Traffic Monitoring
+  65062: Basic 'Rebel' Cerebral Accelerator
+  65063: Extended 'Rebel' Cerebral Accelerator
+  65064: Potent 'Rebel' Cerebral Accelerator
+  65079: Proving Bonus Nexus
+  65080: Purifier Abyssal Glory SKIN
+  65081: Harbinger Abyssal Glory SKIN
+  65082: Imperial Navy Slicer Abyssal Glory SKIN
+  65083: Augoror Abyssal Glory SKIN
+  65084: Manticore Abyssal Glory SKIN
+  65085: Drake Abyssal Glory SKIN
+  65086: Caldari Navy Hookbill Abyssal Glory SKIN
+  65087: Osprey Abyssal Glory SKIN
+  65088: Nemesis Abyssal Glory SKIN
+  65089: Myrmidon Abyssal Glory SKIN
+  65090: Federation Navy Comet Abyssal Glory SKIN
+  65091: Exequror Abyssal Glory SKIN
+  65092: Hound Abyssal Glory SKIN
+  65093: Hurricane Abyssal Glory SKIN
+  65094: Republic Fleet Firetail Abyssal Glory SKIN
+  65095: Scythe Abyssal Glory SKIN
+  65142: Imperial Navy Security Cordon Outpost
+  65143: Amarr Starbase Control Tower
+  65144: 'Amarr Cathedral '
+  65145: Fortified Amarr Chapel
+  65146: ao1_t1_enviroment_asset
+  65147: Amarr Statue Dome
+  65148: Remote Cloaking Array
+  65149: Amarr Apartments
+  65150: Preserved Amarr Outpost Platform
+  65151: BH Sentry Gun
+  65152: Fortified Amarr Elevator
+  65153: Fortified Amarr Lookout
+  70749: Amarr Coercer Destroyer
+  70750: Amarr Arbitrator Cruiser
+  70751: Amarr Augoror Cruiser
+  70752: Amarr Omen Cruiser
+  70753: Amarr Harbinger Battlecruiser
+  70754: Amarr Prophecy Battlecruiser
+  70755: Amarr Abaddon Battleship
+  70756: Amarr Apocalypse Battleship
+  70757: Amarr Maller Cruiser
+  70758: Amarr Archon Carrier
+  70759: Amarr Armageddon Battleship
+  70760: Amarr Revelation Dreadnaught
+  70761: Amarr Apostle Force Auxiliary
+  70762: Amarr Aeon Carrier
+  70774: Ammatar Fleet Security Cordon Outpost
+  70794: Sigil Sarum SKIN
+  70795: Amarr Shuttle Sarum SKIN
+  70797: Amarr Foundation Day Robe Crate
+  70798: Sigil War Reserves Lieutenant SKIN
+  70799: Bestower War Reserves Lieutenant SKIN
+  70895: EDENCOM Secure Relay Alpha
+  70896: EDENCOM Secure Relay Beta
+  70897: EDENCOM Secure Relay Gamma
+  70900: Corrupted Trinary Fragment
+  70901: Corrupted Trinary Fragment
+  70902: Corrupted Trinary Fragment
+  70903: Corrupted Trinary Fragment
+  70904: Corrupted Trinary Fragment
+  70905: Corrupted Trinary Fragment
+  70906: Corrupted Trinary Fragment
+  70907: Corrupted Trinary Fragment
+  70908: Corrupted Trinary Fragment
+  70909: Corrupted Trinary Fragment
+  70910: Corrupted Trinary Fragment
+  70911: Corrupted Trinary Fragment
+  70912: Corrupted Trinary Fragment
+  70913: Corrupted Trinary Fragment
+  70914: Corrupted Trinary Fragment
+  70915: Corrupted Trinary Fragment
+  70916: Corrupted Trinary Fragment
+  70917: Corrupted Trinary Fragment
+  70918: Corrupted Trinary Fragment
+  70919: Corrupted Trinary Fragment
+  70920: Corrupted Trinary Fragment
+  70921: Corrupted Trinary Fragment
+  70922: Corrupted Trinary Fragment
+  70923: Corrupted Trinary Fragment
+  70924: Corrupted Trinary Fragment
+  70925: EDENCOM Secure Buffer Data
+  70926: EDENCOM Secure Buffer Data
+  70927: EDENCOM Secure Buffer Data
+  70928: EDENCOM Secure Buffer Data
+  70929: EDENCOM Secure Buffer Data
+  70930: EDENCOM Secure Buffer Data
+  70931: EDENCOM Secure Buffer Data
+  70932: EDENCOM Secure Buffer Data
+  70933: EDENCOM Secure Buffer Data
+  70934: EDENCOM Secure Buffer Data
+  70935: EDENCOM Secure Buffer Data
+  70936: EDENCOM Secure Buffer Data
+  70937: EDENCOM Secure Buffer Data
+  70938: EDENCOM Secure Buffer Data
+  70939: EDENCOM Secure Buffer Data
+  70940: EDENCOM Secure Buffer Data
+  70941: EDENCOM Secure Buffer Data
+  70942: EDENCOM Secure Buffer Data
+  70943: EDENCOM Secure Buffer Data
+  70944: EDENCOM Secure Buffer Data
+  70945: EDENCOM Secure Buffer Data
+  70946: EDENCOM Secure Buffer Data
+  70947: EDENCOM Secure Buffer Data
+  70948: EDENCOM Secure Buffer Data
+  70949: EDENCOM Secure Buffer Data
+  71240: Construction Storage Unit
+  71481: Imperial Navy Security Cordon Outpost
+  71482: Ammatar Fleet Security Cordon Outpost
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -43546,8 +44322,6 @@ id2name:
   370658: Council's Modified Repair Tool
   371027: X-MS16 Snowball Launcher
 name2group:
-  ' Capsuleer Day XVIII Omega Booster Gift Box': specialeditionassets/SpecialEditionCommodities
-  ' Capsuleer Day XVIII T-Shirt and Cap Crate': specialeditionassets/SpecialEditionCommodities
   '#System': system/System
   '''AG-01'' Grimsnes': infantry/InfantryVehicles
   '''AI-102'' Madrugar': infantry/InfantryVehicles
@@ -43772,7 +44546,7 @@ name2group:
   '''Covenant'' Assault C-I': infantry/InfantryDropsuits
   '''Covenant'' Sniper Rifle': infantry/InfantryWeapons
   '''Crawtide'' Ishukone Assault Rail Rifle': infantry/InfantryWeapons
-  '''Crop'' Gas Cloud Scoop ': module/GasCloudScoops
+  '''Crop'' Gas Cloud Scoop': module/GasCloudScoops
   '''Crossbow'' Focused Medium Beam Laser I': module/EnergyWeapon
   '''Crossbow'' Focused Medium Beam Laser I Blueprint': blueprint/EnergyWeaponBlueprint
   '''Crucible'' Small Cap Battery': module/CapacitorBattery
@@ -44238,7 +45012,7 @@ name2group:
   '''Piru'' Basic-L C-I': infantry/InfantryDropsuits
   '''Plough'' Heavy Capacitor Booster I': module/CapacitorBooster
   '''Plough'' Heavy Capacitor Booster I Blueprint': blueprint/CapacitorBoosterBlueprint
-  '''Plow'' Gas Cloud Scoop ': module/GasCloudScoops
+  '''Plow'' Gas Cloud Scoop': module/GasCloudScoops
   '''Plunderer'' Gravimetric ECM': module/ECM
   '''Plunderer'' Gravimetric ECM Blueprint': blueprint/ECMBlueprint
   '''Poacher'' EM Shield Hardener': module/ShieldHardener
@@ -44736,6 +45510,7 @@ name2group:
   1MN Monopropellant Enduring Afterburner: module/PropulsionModule
   1MN Y-S8 Compact Afterburner: module/PropulsionModule
   1st Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
+  1v1 Battlecruisers Proving Filament: commodity/AbyssalProvingFilaments
   200mm 'Scout' Accelerator Cannon: module/HybridWeapon
   200mm AutoCannon I: module/ProjectileWeapon
   200mm AutoCannon I Blueprint: blueprint/ProjectileWeaponBlueprint
@@ -45583,6 +46358,7 @@ name2group:
   Amarr Foundation Day Fireworks Crate: specialeditionassets/SpecialEditionCommodities
   Amarr Foundation Day Jacket Crate: specialeditionassets/SpecialEditionCommodities
   Amarr Foundation Day Pants Crate: specialeditionassets/SpecialEditionCommodities
+  Amarr Foundation Day Robe Crate: specialeditionassets/SpecialEditionCommodities
   Amarr Freighter: skill/SpaceshipCommand
   Amarr Frigate: skill/SpaceshipCommand
   Amarr Frigate Container: entity/MissionContainer
@@ -45654,6 +46430,7 @@ name2group:
   Amarr Shuttle Halcyon Dawn SKIN: skins/PermanentSKIN
   Amarr Shuttle Khanid SKIN: skins/PermanentSKIN
   Amarr Shuttle Purity of the Throne SKIN: skins/PermanentSKIN
+  Amarr Shuttle Sarum SKIN: skins/PermanentSKIN
   Amarr Shuttle Tash-Murkon SKIN: skins/PermanentSKIN
   Amarr Slave Trader: entity/MissionAmarrEmpireCruiser
   Amarr Slave Transport Ship: entity/MissionAmarrEmpireCruiser
@@ -45872,6 +46649,7 @@ name2group:
   Anathema Halcyon Dawn SKIN: skins/PermanentSKIN
   Anathema Imperial Jubilee SKIN: skins/PermanentSKIN
   Anathema Ironblood SKIN: skins/PermanentSKIN
+  Anathema Luminaire Rising SKIN: skins/PermanentSKIN
   Anathema Oasis of Faith SKIN: skins/PermanentSKIN
   Anathema Purity of the Throne SKIN: skins/PermanentSKIN
   Anathema Raata Sunset SKIN: skins/PermanentSKIN
@@ -45893,6 +46671,7 @@ name2group:
   Ancient Nefantar Sculpture: commodity/Commodities
   Ancient Painblade: commodity/Miscellaneous
   Ancient Radar Decorrelator: material/AncientSalvage
+  Ancient Ship Structure: entity/SpawnContainer
   Ancient Starbase Ruins: entity/SpawnContainer
   Ancient Tomb Dig Site: entity/SpawnContainer
   Ancient Treasure Map: commodity/Commodities
@@ -45951,6 +46730,7 @@ name2group:
   Angel Cruiser Vessel: entity/DeadspaceAngelCartelCruiser
   Angel Crusher: entity/AsteroidAngelCartelCruiser
   Angel Crystal Tag: commodity/CriminalTags
+  Angel Data Storage Device: entity/SpawnContainer
   Angel Defacer: entity/AsteroidAngelCartelDestroyer
   Angel Defeater: entity/AsteroidAngelCartelCruiser
   Angel Defiler: entity/AsteroidAngelCartelDestroyer
@@ -45979,6 +46759,7 @@ name2group:
   Angel Hauler: entity/AsteroidAngelCartelHauler
   Angel Haunter: entity/AsteroidAngelCartelDestroyer
   Angel Heavy Missile Battery: entity/DestructibleSentryGun
+  Angel Hideout: entity/LargeCollidableStructure
   Angel Hijacker: entity/AsteroidAngelCartelFrigate
   Angel Hulk: entity/SpawnContainer
   Angel Hunter: entity/AsteroidAngelCartelFrigate
@@ -46020,6 +46801,7 @@ name2group:
   Angel Radiating Telescope: entity/DeadspaceOverseerSStructure
   Angel Raider: entity/AsteroidAngelCartelFrigate
   Angel Recovery Team: entity/MissionFactionHaulers
+  Angel Repair Hub: entity/LargeCollidableStructure
   Angel Resilient Destroyer: entity/MissionGenericDestroyers
   Angel Retention Facility: entity/DeadspaceOverseerSSentry
   Angel Rogue: entity/AsteroidAngelCartelFrigate
@@ -46055,6 +46837,7 @@ name2group:
   Angel Thief: entity/StorylineMissionCruiser
   Angel Throne: entity/AsteroidAngelCartelBattleship
   Angel Thug: entity/AsteroidAngelCartelFrigate
+  Angel Tower: entity/LargeCollidableStructure
   Angel Trailer: entity/AsteroidAngelCartelHauler
   Angel Transport: entity/DeadspaceAngelCartelCruiser
   Angel Transporter: entity/AsteroidAngelCartelHauler
@@ -46065,6 +46848,7 @@ name2group:
   Angel Viper: entity/AsteroidAngelCartelFrigate
   Angel Wall: entity/LargeCollidableStructure
   Angel War General: entity/AsteroidAngelCartelBattleship
+  Angel Warehouse: entity/LargeCollidableStructure
   Angel Warlord: entity/AsteroidAngelCartelBattleship
   Angel Waste: entity/SpawnContainer
   Angel Webifier: entity/AsteroidAngelCartelFrigate
@@ -46437,6 +47221,8 @@ name2group:
   Ares Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Ares Intaki Syndicate SKIN: skins/PermanentSKIN
   Ares Kopis Edge SKIN: skins/PermanentSKIN
+  Ares Luminaire Rising SKIN: skins/PermanentSKIN
+  Ares Luminaire Zenith SKIN: skins/PermanentSKIN
   Ares Serpentis SKIN: skins/PermanentSKIN
   Ares Spirit SKIN: skins/PermanentSKIN
   Ares Valimor Legacy SKIN: skins/PermanentSKIN
@@ -46754,6 +47540,7 @@ name2group:
   Augmentation Decryptor: decryptors/GenericDecryptor
   Augmented Angel Battlestation: entity/LargeCollidableStructure
   Augoror: ship/Cruiser
+  Augoror Abyssal Glory SKIN: skins/PermanentSKIN
   Augoror Ardishapur SKIN: skins/PermanentSKIN
   Augoror Ardishapur SKIN (30 Days): skins/Max30DaySKIN
   Augoror Ardishapur SKIN (365 Days): skins/Max1YearSKIN
@@ -46917,7 +47704,6 @@ name2group:
   Bai Tarziiki: entity/StorylineMissionCruiser
   Bai's Corpse: commodity/Commodities
   Baker Nunn Enduring Tracking Disruptor I: module/WeaponDisruptor
-  Baker_PLACEHOLDER: fighter/LightFighter
   Balac's GAR-21 Assault Rifle: infantry/InfantryWeapons
   Balac's MRN-30 Submachine Gun: infantry/InfantryWeapons
   Balac's Modified Assault ck.0: infantry/InfantryDropsuits
@@ -47033,7 +47819,7 @@ name2group:
   Baryon Exotic Plasma XL Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Base Metals: planetaryresources/PlanetSolidRawResource
   Basic 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
-  Basic 'Guri Kikhivaa' Cerebral Accelerator: implant/Booster
+  Basic 'Rebel' Cerebral Accelerator: implant/Booster
   Basic 120mm Armor Plates: infantry/InfantryModules
   Basic 60mm Armor Plates: infantry/InfantryModules
   Basic Afterburner: infantry/InfantryModules
@@ -47045,8 +47831,6 @@ name2group:
   Basic Blaster Damage Amplifier: infantry/InfantryModules
   Basic CPU Upgrade: infantry/InfantryModules
   Basic CPU Upgrade Unit: infantry/InfantryModules
-  Basic Capsuleer Day Cerebral Accelerator: implant/Booster
-  Basic Capsuleer Day Glamourex Booster: implant/Booster
   Basic Capsuleer Defense Augmentation Chip: implant/Booster
   Basic Capsuleer Engineering Augmentation Chip: implant/Booster
   Basic Cardiac Regulator: infantry/InfantryModules
@@ -47058,6 +47842,7 @@ name2group:
   Basic Dispersion Stabilizer: infantry/InfantryModules
   Basic Ferroscale Plates: infantry/InfantryModules
   Basic Fuel Injector: infantry/InfantryModules
+  Basic Glamourex Booster: implant/Booster
   Basic Heat Sink: infantry/InfantryModules
   Basic Heavy Armor Repairer: infantry/InfantryModules
   Basic Heavy Damage Modifier: infantry/InfantryModules
@@ -47241,6 +48026,7 @@ name2group:
   Bestower Tash-Murkon SKIN (7 Days): skins/Max7DaySKIN
   Bestower Tash-Murkon SKIN (90 Days): skins/Max90DaySKIN
   Bestower Tash-Murkon Serenity Only SKIN: skins/PermanentSKIN
+  Bestower War Reserves Lieutenant SKIN: skins/PermanentSKIN
   Beta Keycard: commodity/AccelerationGateKeys
   Beta Power Diagnostic System: infantry/InfantryModules
   Bezdnacine: asteroid/Bezdnacine
@@ -47481,6 +48267,7 @@ name2group:
   Blood Raider Control Center: entity/DeadspaceOverseerSStructure
   Blood Raider Cruiser: entity/IrregularCruiser
   Blood Raider Dagon Blueprint Armored Cache: commodity/StrongBoxes
+  Blood Raider Data Storage Device: entity/SpawnContainer
   Blood Raider Deadspace Tactical Unit: entity/LargeCollidableStructure
   Blood Raider Elevator: entity/LargeCollidableStructure
   Blood Raider Extreme Ballistic Control: commodity/ArtifactsAndPrototypes
@@ -47565,6 +48352,10 @@ name2group:
   Blood Xray M: charge/FrequencyCrystal
   Blood Xray S: charge/FrequencyCrystal
   Blood Xray XL: charge/FrequencyCrystal
+  Bloodraider Hideout: entity/LargeCollidableStructure
+  Bloodraider Repair Hub: entity/LargeCollidableStructure
+  Bloodraider Tower: entity/LargeCollidableStructure
+  Bloodraider Warehouse: entity/LargeCollidableStructure
   Bloodsport Arena: entity/LargeCollidableStructure
   Blue Box: commodity/Commodities
   Blue Ice: asteroid/Ice
@@ -47793,6 +48584,7 @@ name2group:
   Brutix Intaki Syndicate SKIN (90 Days): skins/Max90DaySKIN
   Brutix Intaki Syndicate Serenity Only SKIN: skins/PermanentSKIN
   Brutix Kopis Edge SKIN: skins/PermanentSKIN
+  Brutix Luminaire Rising SKIN: skins/PermanentSKIN
   Brutix Luminaire Zenith SKIN: skins/PermanentSKIN
   Brutix Malagrin Marshlight SKIN: skins/PermanentSKIN
   Brutix Navy Issue: ship/CombatBattlecruiser
@@ -47935,6 +48727,7 @@ name2group:
   Buzzard Ghostbird SKIN: skins/PermanentSKIN
   Buzzard Glacial Drift SKIN: skins/PermanentSKIN
   Buzzard Halcyon Dawn SKIN: skins/PermanentSKIN
+  Buzzard Luminaire Rising SKIN: skins/PermanentSKIN
   Buzzard Matigu Seabeast SKIN: skins/PermanentSKIN
   Buzzard Raata Sunset SKIN: skins/PermanentSKIN
   Buzzard Scope Syndication YC122 SKIN: skins/PermanentSKIN
@@ -47988,6 +48781,7 @@ name2group:
   CONCORD Dual Giga Beam Laser Blueprint: blueprint/EnergyWeaponBlueprint
   CONCORD Dual Giga Pulse Laser: module/EnergyWeapon
   CONCORD Dual Giga Pulse Laser Blueprint: blueprint/EnergyWeaponBlueprint
+  CONCORD Fleet Commander: entity/MissionCONCORDBattleship
   CONCORD GalNet Monitoring Archive: specialeditionassets/SpecialEditionCommodities
   CONCORD General Emblem: commodity/EmpireInsigniaDrops
   CONCORD Hexa 2500mm Repeating Cannon: module/ProjectileWeapon
@@ -48341,6 +49135,7 @@ name2group:
   Caldari Navy Heavy Assault Missile Launcher Blueprint: blueprint/MissileLauncherBlueprint
   Caldari Navy Heavy Missile Launcher: module/MissileLauncherHeavy
   Caldari Navy Hookbill: ship/Frigate
+  Caldari Navy Hookbill Abyssal Glory SKIN: skins/PermanentSKIN
   Caldari Navy Hookbill Biosecurity Responders SKIN: skins/PermanentSKIN
   Caldari Navy Hookbill Blueprint: blueprint/FrigateBlueprint
   Caldari Navy Hookbill Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -48493,7 +49288,7 @@ name2group:
   Caldari Shuttle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Caldari Shuttle Glacial Drift SKIN: skins/PermanentSKIN
   Caldari Shuttle Halcyon Dawn SKIN: skins/PermanentSKIN
-  'Caldari Shuttle Sukuuvestaa SKIN ': skins/PermanentSKIN
+  Caldari Shuttle Sukuuvestaa SKIN: skins/PermanentSKIN
   Caldari Starbase Control Tower: entity/LargeCollidableStructure
   Caldari Starbase Control Tower_Tough_Good Loot: entity/LargeCollidableStructure
   Caldari Starship Engineering: skill/Science
@@ -49202,12 +49997,10 @@ name2group:
   Capsule YC119 Capsuleer Day SKIN: skins/PermanentSKIN
   Capsule Zakura Hansei SKIN: skins/PermanentSKIN
   Capsuleer Dawn Firework (Large): charge/StructureFestivalCharges
-  Capsuleer Day 2v2 Navy Frigates Proving Filament: commodity/AbyssalProvingFilaments
   Capsuleer Day Buff Nexus: entity/IrregularUnidentified
   Capsuleer Day DED Booster Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day Debuff Nexus: entity/IrregularUnidentified
   Capsuleer Day Smuggler Booster Crate: specialeditionassets/SpecialEditionCommodities
-  Capsuleer Day Sunesis FFA Proving Filament: commodity/AbyssalProvingFilaments
   Capsuleer Day XIX Fireworks Gift Box: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Apotheosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Cap Crate: specialeditionassets/SpecialEditionCommodities
@@ -49219,6 +50012,8 @@ name2group:
   Capsuleer Day XVII Cap and T-Shirt Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVII Fireworks Package: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVII Omega Booster Gift Box: specialeditionassets/SpecialEditionCommodities
+  Capsuleer Day XVIII Omega Booster Gift Box: specialeditionassets/SpecialEditionCommodities
+  Capsuleer Day XVIII T-Shirt and Cap Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Starburst Firework: charge/FestivalCharges
   Captain Amiette Barcier: entity/MissionGenericBattleships
   Captain Aneika Sareko: entity/MissionGenericBattleships
@@ -49686,7 +50481,6 @@ name2group:
   CharacterType: owner/Character
   Charge Ammunition Storage: entity/SpawnContainer
   Charge Sniper Rifle: infantry/InfantryWeapons
-  Charlie_PLACEHOLDER: fighter/LightFighter
   Charon: ship/Freighter
   Charon Biosecurity Responders SKIN: skins/PermanentSKIN
   Charon Blue Tiger SKIN: skins/PermanentSKIN
@@ -49724,6 +50518,7 @@ name2group:
   Cheetah Halcyon Dawn SKIN: skins/PermanentSKIN
   Cheetah Hazard Control SKIN: skins/PermanentSKIN
   Cheetah Justice SKIN: skins/PermanentSKIN
+  Cheetah Luminaire Rising SKIN: skins/PermanentSKIN
   Cheetah Snowline Bladeracer SKIN: skins/PermanentSKIN
   Cheetah Tronhadar Ink SKIN: skins/PermanentSKIN
   Cheetah Valklear Glory SKIN: skins/PermanentSKIN
@@ -49924,6 +50719,8 @@ name2group:
   Claw Halcyon Dawn SKIN: skins/PermanentSKIN
   Claw Hazard Control SKIN: skins/PermanentSKIN
   Claw Justice SKIN: skins/PermanentSKIN
+  Claw Liberation Games SKIN: skins/PermanentSKIN
+  Claw Luminaire Rising SKIN: skins/PermanentSKIN
   Claw Snowline Bladeracer SKIN: skins/PermanentSKIN
   Claw Tronhadar Ink SKIN: skins/PermanentSKIN
   Claw Valklear Glory SKIN: skins/PermanentSKIN
@@ -50193,180 +50990,180 @@ name2group:
   Complex Supervisor: entity/StorylineMissionBattleship
   Component Assembly Array: starbase/AssemblyArray
   Component Assembly Array Blueprint: blueprint/StarbaseBlueprint
-  'Compressed Abyssal Bezdnacine ': asteroid/Bezdnacine
-  'Compressed Abyssal Rakovene ': asteroid/Rakovene
+  Compressed Abyssal Bezdnacine: asteroid/Bezdnacine
+  Compressed Abyssal Rakovene: asteroid/Rakovene
   Compressed Abyssal Talassonite: asteroid/Talassonite
   Compressed Amber Cytoserocin: celestial/CompressedGas
   Compressed Amber Mykoserocin: celestial/CompressedGas
-  'Compressed Arkonor ': asteroid/Arkonor
+  Compressed Arkonor: asteroid/Arkonor
   Compressed Azure Cytoserocin: celestial/CompressedGas
   Compressed Azure Mykoserocin: celestial/CompressedGas
-  'Compressed Azure Plagioclase ': asteroid/Plagioclase
-  'Compressed Bezdnacine ': asteroid/Bezdnacine
-  'Compressed Bistot ': asteroid/Bistot
+  Compressed Azure Plagioclase: asteroid/Plagioclase
+  Compressed Bezdnacine: asteroid/Bezdnacine
+  Compressed Bistot: asteroid/Bistot
   Compressed Bitumens: asteroid/UbiquitousMoonAsteroids
   Compressed Blue Ice: asteroid/Ice
-  'Compressed Bountiful Loparite ': asteroid/ExceptionalMoonAsteroids
-  'Compressed Bountiful Monazite ': asteroid/ExceptionalMoonAsteroids
+  Compressed Bountiful Loparite: asteroid/ExceptionalMoonAsteroids
+  Compressed Bountiful Monazite: asteroid/ExceptionalMoonAsteroids
   Compressed Bountiful Xenotime: asteroid/ExceptionalMoonAsteroids
-  'Compressed Bountiful Ytterbite ': asteroid/ExceptionalMoonAsteroids
-  'Compressed Bright Spodumain ': asteroid/Spodumain
-  'Compressed Brilliant Gneiss ': asteroid/Gneiss
+  Compressed Bountiful Ytterbite: asteroid/ExceptionalMoonAsteroids
+  Compressed Bright Spodumain: asteroid/Spodumain
+  Compressed Brilliant Gneiss: asteroid/Gneiss
   Compressed Brimful Bitumens: asteroid/UbiquitousMoonAsteroids
-  'Compressed Brimful Coesite ': asteroid/UbiquitousMoonAsteroids
-  'Compressed Brimful Sylvite ': asteroid/UbiquitousMoonAsteroids
-  'Compressed Brimful Zeolites ': asteroid/UbiquitousMoonAsteroids
+  Compressed Brimful Coesite: asteroid/UbiquitousMoonAsteroids
+  Compressed Brimful Sylvite: asteroid/UbiquitousMoonAsteroids
+  Compressed Brimful Zeolites: asteroid/UbiquitousMoonAsteroids
   Compressed Capsule Shell: commodity/Commodities
-  'Compressed Carnotite ': asteroid/RareMoonAsteroids
+  Compressed Carnotite: asteroid/RareMoonAsteroids
   Compressed Celadon Cytoserocin: celestial/CompressedGas
   Compressed Celadon Mykoserocin: celestial/CompressedGas
   Compressed Chartreuse Cytoserocin: celestial/CompressedGas
   Compressed Chromite: asteroid/UncommonMoonAsteroids
-  'Compressed Cinnabar ': asteroid/RareMoonAsteroids
+  Compressed Cinnabar: asteroid/RareMoonAsteroids
   Compressed Clear Icicle: asteroid/Ice
-  'Compressed Cobaltite ': asteroid/CommonMoonAsteroids
-  'Compressed Coesite ': asteroid/UbiquitousMoonAsteroids
-  'Compressed Concentrated Veldspar ': asteroid/Veldspar
-  'Compressed Condensed Scordite ': asteroid/Scordite
-  'Compressed Copious Cobaltite ': asteroid/CommonMoonAsteroids
+  Compressed Cobaltite: asteroid/CommonMoonAsteroids
+  Compressed Coesite: asteroid/UbiquitousMoonAsteroids
+  Compressed Concentrated Veldspar: asteroid/Veldspar
+  Compressed Condensed Scordite: asteroid/Scordite
+  Compressed Copious Cobaltite: asteroid/CommonMoonAsteroids
   Compressed Copious Euxenite: asteroid/CommonMoonAsteroids
-  'Compressed Copious Scheelite ': asteroid/CommonMoonAsteroids
+  Compressed Copious Scheelite: asteroid/CommonMoonAsteroids
   Compressed Copious Titanite: asteroid/CommonMoonAsteroids
-  'Compressed Crimson Arkonor ': asteroid/Arkonor
+  Compressed Crimson Arkonor: asteroid/Arkonor
   Compressed Crokite: asteroid/Crokite
-  'Compressed Crystalline Crokite ': asteroid/Crokite
-  'Compressed Cubic Bistot ': asteroid/Bistot
+  Compressed Crystalline Crokite: asteroid/Crokite
+  Compressed Cubic Bistot: asteroid/Bistot
   Compressed Dark Glitter: asteroid/Ice
-  'Compressed Dark Ochre ': asteroid/DarkOchre
-  'Compressed Dazzling Spodumain ': asteroid/Spodumain
-  'Compressed Dense Veldspar ': asteroid/Veldspar
+  Compressed Dark Ochre: asteroid/DarkOchre
+  Compressed Dazzling Spodumain: asteroid/Spodumain
+  Compressed Dense Veldspar: asteroid/Veldspar
   Compressed Enduring Dual 1000mm Railgun: module/HybridWeapon
   Compressed Enduring Dual 1000mm Railgun Blueprint: blueprint/HybridWeaponBlueprint
   Compressed Enriched Clear Icicle: asteroid/Ice
-  'Compressed Euxenite ': asteroid/CommonMoonAsteroids
-  'Compressed Fiery Kernite ': asteroid/Kernite
+  Compressed Euxenite: asteroid/CommonMoonAsteroids
+  Compressed Fiery Kernite: asteroid/Kernite
   Compressed Flawless Arkonor: asteroid/Arkonor
   Compressed Fullerite-C28: celestial/CompressedGas
-  'Compressed Fullerite-C32 ': celestial/CompressedGas
+  Compressed Fullerite-C32: celestial/CompressedGas
   Compressed Fullerite-C320: celestial/CompressedGas
-  'Compressed Fullerite-C50 ': celestial/CompressedGas
-  'Compressed Fullerite-C540 ': celestial/CompressedGas
-  'Compressed Fullerite-C60 ': celestial/CompressedGas
-  'Compressed Fullerite-C70 ': celestial/CompressedGas
+  Compressed Fullerite-C50: celestial/CompressedGas
+  Compressed Fullerite-C540: celestial/CompressedGas
+  Compressed Fullerite-C60: celestial/CompressedGas
+  Compressed Fullerite-C70: celestial/CompressedGas
   Compressed Fullerite-C72: celestial/CompressedGas
   Compressed Fullerite-C84: celestial/CompressedGas
-  'Compressed Gamboge Cytoserocin ': celestial/CompressedGas
+  Compressed Gamboge Cytoserocin: celestial/CompressedGas
   Compressed Gelidus: asteroid/Ice
   Compressed Glacial Mass: asteroid/Ice
   Compressed Glare Crust: asteroid/Ice
   Compressed Glazed Hedbergite: asteroid/Hedbergite
-  'Compressed Gleaming Spodumain ': asteroid/Spodumain
-  'Compressed Glistening Bitumens ': asteroid/UbiquitousMoonAsteroids
-  'Compressed Glistening Coesite ': asteroid/UbiquitousMoonAsteroids
+  Compressed Gleaming Spodumain: asteroid/Spodumain
+  Compressed Glistening Bitumens: asteroid/UbiquitousMoonAsteroids
+  Compressed Glistening Coesite: asteroid/UbiquitousMoonAsteroids
   Compressed Glistening Sylvite: asteroid/UbiquitousMoonAsteroids
-  'Compressed Glistening Zeolites ': asteroid/UbiquitousMoonAsteroids
-  'Compressed Glossy Scordite ': asteroid/Scordite
+  Compressed Glistening Zeolites: asteroid/UbiquitousMoonAsteroids
+  Compressed Glossy Scordite: asteroid/Scordite
   Compressed Glowing Carnotite: asteroid/RareMoonAsteroids
-  'Compressed Glowing Cinnabar ': asteroid/RareMoonAsteroids
-  'Compressed Glowing Pollucite ': asteroid/RareMoonAsteroids
-  'Compressed Glowing Zircon ': asteroid/RareMoonAsteroids
+  Compressed Glowing Cinnabar: asteroid/RareMoonAsteroids
+  Compressed Glowing Pollucite: asteroid/RareMoonAsteroids
+  Compressed Glowing Zircon: asteroid/RareMoonAsteroids
   Compressed Gneiss: asteroid/Gneiss
   Compressed Golden Cytoserocin: celestial/CompressedGas
   Compressed Golden Mykoserocin: celestial/CompressedGas
-  'Compressed Golden Omber ': asteroid/Omber
+  Compressed Golden Omber: asteroid/Omber
   Compressed Hadal Bezdnacine: asteroid/Bezdnacine
-  'Compressed Hadal Rakovene ': asteroid/Rakovene
-  'Compressed Hadal Talassonite ': asteroid/Talassonite
-  'Compressed Hedbergite ': asteroid/Hedbergite
+  Compressed Hadal Rakovene: asteroid/Rakovene
+  Compressed Hadal Talassonite: asteroid/Talassonite
+  Compressed Hedbergite: asteroid/Hedbergite
   Compressed Hemorphite: asteroid/Hemorphite
-  'Compressed Immaculate Jaspet ': asteroid/Jaspet
-  'Compressed Iridescent Gneiss ': asteroid/Gneiss
+  Compressed Immaculate Jaspet: asteroid/Jaspet
+  Compressed Iridescent Gneiss: asteroid/Gneiss
   Compressed Jaspet: asteroid/Jaspet
   Compressed Jet Ochre: asteroid/DarkOchre
-  'Compressed Kernite ': asteroid/Kernite
+  Compressed Kernite: asteroid/Kernite
   Compressed Krystallos: asteroid/Ice
   Compressed Lavish Chromite: asteroid/UncommonMoonAsteroids
-  'Compressed Lavish Otavite ': asteroid/UncommonMoonAsteroids
-  'Compressed Lavish Sperrylite ': asteroid/UncommonMoonAsteroids
+  Compressed Lavish Otavite: asteroid/UncommonMoonAsteroids
+  Compressed Lavish Sperrylite: asteroid/UncommonMoonAsteroids
   Compressed Lavish Vanadinite: asteroid/UncommonMoonAsteroids
   Compressed Lime Cytoserocin: celestial/CompressedGas
   Compressed Lime Mykoserocin: celestial/CompressedGas
-  'Compressed Loparite ': asteroid/ExceptionalMoonAsteroids
-  'Compressed Luminous Kernite ': asteroid/Kernite
-  'Compressed Lustrous Hedbergite ': asteroid/Hedbergite
-  'Compressed Magma Mercoxit ': asteroid/Mercoxit
+  Compressed Loparite: asteroid/ExceptionalMoonAsteroids
+  Compressed Luminous Kernite: asteroid/Kernite
+  Compressed Lustrous Hedbergite: asteroid/Hedbergite
+  Compressed Magma Mercoxit: asteroid/Mercoxit
   Compressed Malachite Cytoserocin: celestial/CompressedGas
   Compressed Malachite Mykoserocin: celestial/CompressedGas
   Compressed Massive Scordite: asteroid/Scordite
-  'Compressed Mercoxit ': asteroid/Mercoxit
-  'Compressed Monazite ': asteroid/ExceptionalMoonAsteroids
-  'Compressed Monoclinic Bistot ': asteroid/Bistot
-  'Compressed Obsidian Ochre ': asteroid/DarkOchre
-  'Compressed Omber ': asteroid/Omber
-  'Compressed Onyx Ochre ': asteroid/DarkOchre
-  'Compressed Opulent Pyroxeres ': asteroid/Pyroxeres
-  'Compressed Otavite ': asteroid/UncommonMoonAsteroids
-  'Compressed Pellucid Crokite ': asteroid/Crokite
-  'Compressed Plagioclase ': asteroid/Plagioclase
-  'Compressed Platinoid Omber ': asteroid/Omber
-  'Compressed Pollucite ': asteroid/RareMoonAsteroids
+  Compressed Mercoxit: asteroid/Mercoxit
+  Compressed Monazite: asteroid/ExceptionalMoonAsteroids
+  Compressed Monoclinic Bistot: asteroid/Bistot
+  Compressed Obsidian Ochre: asteroid/DarkOchre
+  Compressed Omber: asteroid/Omber
+  Compressed Onyx Ochre: asteroid/DarkOchre
+  Compressed Opulent Pyroxeres: asteroid/Pyroxeres
+  Compressed Otavite: asteroid/UncommonMoonAsteroids
+  Compressed Pellucid Crokite: asteroid/Crokite
+  Compressed Plagioclase: asteroid/Plagioclase
+  Compressed Platinoid Omber: asteroid/Omber
+  Compressed Pollucite: asteroid/RareMoonAsteroids
   Compressed Prime Arkonor: asteroid/Arkonor
   Compressed Prismatic Gneiss: asteroid/Gneiss
-  'Compressed Pristine Jaspet ': asteroid/Jaspet
+  Compressed Pristine Jaspet: asteroid/Jaspet
   Compressed Pristine White Glaze: asteroid/Ice
   Compressed Pure Jaspet: asteroid/Jaspet
-  'Compressed Pyroxeres ': asteroid/Pyroxeres
-  'Compressed Radiant Hemorphite ': asteroid/Hemorphite
-  'Compressed Rakovene ': asteroid/Rakovene
-  'Compressed Replete Carnotite ': asteroid/RareMoonAsteroids
-  'Compressed Replete Cinnabar ': asteroid/RareMoonAsteroids
-  'Compressed Replete Pollucite ': asteroid/RareMoonAsteroids
-  'Compressed Replete Zircon ': asteroid/RareMoonAsteroids
-  'Compressed Resplendant Kernite ': asteroid/Kernite
-  'Compressed Rich Plagioclase ': asteroid/Plagioclase
-  'Compressed Scheelite ': asteroid/CommonMoonAsteroids
-  'Compressed Scintillating Hemorphite ': asteroid/Hemorphite
+  Compressed Pyroxeres: asteroid/Pyroxeres
+  Compressed Radiant Hemorphite: asteroid/Hemorphite
+  Compressed Rakovene: asteroid/Rakovene
+  Compressed Replete Carnotite: asteroid/RareMoonAsteroids
+  Compressed Replete Cinnabar: asteroid/RareMoonAsteroids
+  Compressed Replete Pollucite: asteroid/RareMoonAsteroids
+  Compressed Replete Zircon: asteroid/RareMoonAsteroids
+  Compressed Resplendant Kernite: asteroid/Kernite
+  Compressed Rich Plagioclase: asteroid/Plagioclase
+  Compressed Scheelite: asteroid/CommonMoonAsteroids
+  Compressed Scintillating Hemorphite: asteroid/Hemorphite
   Compressed Scordite: asteroid/Scordite
   Compressed Sharp Crokite: asteroid/Crokite
-  'Compressed Shimmering Chromite ': asteroid/UncommonMoonAsteroids
+  Compressed Shimmering Chromite: asteroid/UncommonMoonAsteroids
   Compressed Shimmering Otavite: asteroid/UncommonMoonAsteroids
-  'Compressed Shimmering Sperrylite ': asteroid/UncommonMoonAsteroids
-  'Compressed Shimmering Vanadinite ': asteroid/UncommonMoonAsteroids
-  'Compressed Shining Loparite ': asteroid/ExceptionalMoonAsteroids
-  'Compressed Shining Monazite ': asteroid/ExceptionalMoonAsteroids
-  'Compressed Shining Xenotime ': asteroid/ExceptionalMoonAsteroids
+  Compressed Shimmering Sperrylite: asteroid/UncommonMoonAsteroids
+  Compressed Shimmering Vanadinite: asteroid/UncommonMoonAsteroids
+  Compressed Shining Loparite: asteroid/ExceptionalMoonAsteroids
+  Compressed Shining Monazite: asteroid/ExceptionalMoonAsteroids
+  Compressed Shining Xenotime: asteroid/ExceptionalMoonAsteroids
   Compressed Shining Ytterbite: asteroid/ExceptionalMoonAsteroids
-  'Compressed Silvery Omber ': asteroid/Omber
+  Compressed Silvery Omber: asteroid/Omber
   Compressed Smooth Glacial Mass: asteroid/Ice
   Compressed Solid Pyroxeres: asteroid/Pyroxeres
-  'Compressed Sparkling Plagioclase ': asteroid/Plagioclase
-  'Compressed Sperrylite ': asteroid/UncommonMoonAsteroids
+  Compressed Sparkling Plagioclase: asteroid/Plagioclase
+  Compressed Sperrylite: asteroid/UncommonMoonAsteroids
   Compressed Spodumain: asteroid/Spodumain
-  'Compressed Stable Veldspar ': asteroid/Veldspar
-  'Compressed Sylvite ': asteroid/UbiquitousMoonAsteroids
-  'Compressed Talassonite ': asteroid/Talassonite
+  Compressed Stable Veldspar: asteroid/Veldspar
+  Compressed Sylvite: asteroid/UbiquitousMoonAsteroids
+  Compressed Talassonite: asteroid/Talassonite
   Compressed Thick Blue Ice: asteroid/Ice
-  'Compressed Titanite ': asteroid/CommonMoonAsteroids
-  'Compressed Triclinic Bistot ': asteroid/Bistot
+  Compressed Titanite: asteroid/CommonMoonAsteroids
+  Compressed Triclinic Bistot: asteroid/Bistot
   Compressed Twinkling Cobaltite: asteroid/CommonMoonAsteroids
-  'Compressed Twinkling Euxenite ': asteroid/CommonMoonAsteroids
-  'Compressed Twinkling Scheelite ': asteroid/CommonMoonAsteroids
-  'Compressed Twinkling Titanite ': asteroid/CommonMoonAsteroids
+  Compressed Twinkling Euxenite: asteroid/CommonMoonAsteroids
+  Compressed Twinkling Scheelite: asteroid/CommonMoonAsteroids
+  Compressed Twinkling Titanite: asteroid/CommonMoonAsteroids
   Compressed Vanadinite: asteroid/UncommonMoonAsteroids
   Compressed Veldspar: asteroid/Veldspar
   Compressed Vermillion Cytoserocin: celestial/CompressedGas
   Compressed Vermillion Mykoserocin: celestial/CompressedGas
-  'Compressed Viridian Cytoserocin ': celestial/CompressedGas
+  Compressed Viridian Cytoserocin: celestial/CompressedGas
   Compressed Viridian Mykoserocin: celestial/CompressedGas
-  'Compressed Viscous Pyroxeres ': asteroid/Pyroxeres
-  'Compressed Vitreous Mercoxit ': asteroid/Mercoxit
-  'Compressed Vitric Hedbergite ': asteroid/Hedbergite
-  'Compressed Vivid Hemorphite ': asteroid/Hemorphite
+  Compressed Viscous Pyroxeres: asteroid/Pyroxeres
+  Compressed Vitreous Mercoxit: asteroid/Mercoxit
+  Compressed Vitric Hedbergite: asteroid/Hedbergite
+  Compressed Vivid Hemorphite: asteroid/Hemorphite
   Compressed White Glaze: asteroid/Ice
-  'Compressed Xenotime ': asteroid/ExceptionalMoonAsteroids
-  'Compressed Ytterbite ': asteroid/ExceptionalMoonAsteroids
-  'Compressed Zeolites ': asteroid/UbiquitousMoonAsteroids
-  'Compressed Zircon ': asteroid/RareMoonAsteroids
+  Compressed Xenotime: asteroid/ExceptionalMoonAsteroids
+  Compressed Ytterbite: asteroid/ExceptionalMoonAsteroids
+  Compressed Zeolites: asteroid/UbiquitousMoonAsteroids
+  Compressed Zircon: asteroid/RareMoonAsteroids
   Compression Array: starbase/CompressionArray
   Compression Array Blueprint: blueprint/StarbaseBlueprint
   Compromised Stasis Vault: entity/SpawnContainer
@@ -50376,6 +51173,7 @@ name2group:
   Concentrated Veldspar: asteroid/Veldspar
   Concord Battleship: entity/MissionCONCORDBattleship
   Concord Fiesta 11-11: implant/Booster
+  Concord Prison Facility: entity/LargeCollidableStructure
   Concord Starbase: station/Station
   Concordokken: specialeditionassets/SpecialEditionCommodities
   Concussion Bomb: charge/Bomb
@@ -50899,6 +51697,7 @@ name2group:
   Council Diplomatic Shuttle: ship/Shuttle
   Council Diplomatic Shuttle Blueprint: blueprint/ShuttleBlueprint
   Council Diplomatic Shuttle CONCORD Aerospace 'Prototype' SKIN: skins/PermanentSKIN
+  Council Diplomatic Shuttle Semiotique Sports SKIN: skins/PermanentSKIN
   Council's Modified Repair Tool: infantry/InfantryEquipment
   Counter-Subversion Sensor Array: commodity/Commodities
   Counterbalanced Compact Gyrostabilizer: module/Gyrostabilizer
@@ -51084,7 +51883,6 @@ name2group:
   Crimson Hand Level 2 Passcard: commodity/AccelerationGateKeys
   Crimson Hand Level 3 Passcard: commodity/AccelerationGateKeys
   Crimson Hand Level 4 Passcard: commodity/AccelerationGateKeys
-  Crimson Harvest Destroyer FFA Proving Filament: commodity/AbyssalProvingFilaments
   Crimson Harvest Network Hub: entity/SpawnContainer
   Crimson Harvest Network Node: entity/SpawnContainer
   Crimson Harvest T-Shirt Gift Box: specialeditionassets/SpecialEditionCommodities
@@ -51118,6 +51916,8 @@ name2group:
   Crow Glacial Drift SKIN: skins/PermanentSKIN
   Crow Halcyon Dawn SKIN: skins/PermanentSKIN
   Crow Hunter's Quiver SKIN: skins/PermanentSKIN
+  Crow Luminaire Rising SKIN: skins/PermanentSKIN
+  Crow Luminaire Zenith SKIN: skins/PermanentSKIN
   Crow Matigu Seabeast SKIN: skins/PermanentSKIN
   Crow Raata Sunset SKIN: skins/PermanentSKIN
   Crow State Police SKIN: skins/PermanentSKIN
@@ -51285,6 +52085,7 @@ name2group:
   Cyclone Biosecurity Responders SKIN: skins/PermanentSKIN
   Cyclone Blue Tiger SKIN: skins/PermanentSKIN
   Cyclone Blueprint: blueprint/BattlecruiserBlueprint
+  Cyclone Brutor SKIN: skins/PermanentSKIN
   Cyclone Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Cyclone Exoplanets Hunter SKIN: skins/PermanentSKIN
   Cyclone Fleet Ordnance Spike SKIN: skins/PermanentSKIN
@@ -51299,8 +52100,11 @@ name2group:
   Cyclone Krusual SKIN (7 Days): skins/Max7DaySKIN
   Cyclone Krusual SKIN (90 Days): skins/Max90DaySKIN
   Cyclone Krusual Serenity Only SKIN: skins/PermanentSKIN
+  Cyclone Liberation Games SKIN: skins/PermanentSKIN
   Cyclone Luminaire Zenith SKIN: skins/PermanentSKIN
+  Cyclone Nefantar SKIN: skins/PermanentSKIN
   Cyclone Republic Fleet SKIN: skins/PermanentSKIN
+  Cyclone Sebiestor SKIN: skins/PermanentSKIN
   Cyclone Snowline Bladeracer SKIN: skins/PermanentSKIN
   Cyclone Thukker Tribe SKIN: skins/PermanentSKIN
   Cyclone Thukker Tribe SKIN (30 Days): skins/Max30DaySKIN
@@ -51354,14 +52158,6 @@ name2group:
   DAU-2/A Assault Forge Gun: infantry/InfantryWeapons
   DCMA-5 Breach Forge Gun: infantry/InfantryWeapons
   DDO Scoped Tracking Disruptor I: module/WeaponDisruptor
-  DED Apprehension Booster I: implant/Booster
-  DED Apprehension Booster II: implant/Booster
-  DED Apprehension Booster III: implant/Booster
-  DED Apprehension Booster IV: implant/Booster
-  DED Armor Booster I: implant/Booster
-  DED Armor Booster II: implant/Booster
-  DED Armor Booster III: implant/Booster
-  DED Armor Booster IV: implant/Booster
   DED Army Captain: entity/FactionDrone
   DED Army Colonel: entity/MissionCONCORDBattleship
   DED Army Commander: entity/FactionDrone
@@ -51373,10 +52169,6 @@ name2group:
   DED Officer 1st Class Vessel: entity/MissionCONCORDCruiser
   DED Officer 2nd Class: entity/MissionCONCORDCruiser
   DED Officer 3rd Class: entity/MissionCONCORDCruiser
-  DED Scan Booster I: implant/Booster
-  DED Scan Booster II: implant/Booster
-  DED Scan Booster III: implant/Booster
-  DED Scan Booster IV: implant/Booster
   DED Scout Drone: entity/MissionGenericFrigates
   DED Soldier 1st Class: entity/MissionCONCORDFrigate
   DED Soldier 2nd Class: entity/MissionCONCORDFrigate
@@ -51387,10 +52179,6 @@ name2group:
   DED Special Ops Panther: entity/MissionCONCORDFrigate
   DED Special Ops Piranha: entity/MissionCONCORDFrigate
   DED Special Ops Raptor: entity/MissionCONCORDCruiser
-  DED Turret Booster I: implant/Booster
-  DED Turret Booster II: implant/Booster
-  DED Turret Booster III: implant/Booster
-  DED Turret Booster IV: implant/Booster
   DNA Sample: commodity/Miscellaneous
   DNA Samples of Republic Commandos: commodity/Commodities
   DNCR-05H Highsec Ice Storm Filament: commodity/JumpFilaments
@@ -51730,6 +52518,7 @@ name2group:
   Data Processor: commodity/MaterialsAndCompounds
   Data Sheets: commodity/General
   Data Storage: entity/SpawnContainer
+  Data Storage Device: entity/SpawnContainer
   Data-Sniffer Display: specialeditionassets/SpecialEditionCommodities
   Datacore - Amarrian Starship Engineering: commodity/Datacores
   Datacore - Caldari Starship Engineering: commodity/Datacores
@@ -52061,7 +52850,6 @@ name2group:
   Doctor Luija Elban: commodity/Livestock
   Doctored Arrivals & Departures Logs: commodity/Commodities
   Doctrine Ingrained Bonus: bonus/PhysicalBenefit
-  Dog_PLACEHOLDER: fighter/HeavyFighter
   Dolls: commodity/Commodities
   Domination 10000MN Afterburner: module/PropulsionModule
   Domination 10000MN Afterburner Blueprint: blueprint/PropulsionModuleBlueprint
@@ -52301,6 +53089,7 @@ name2group:
   Dominix Intaki Syndicate Serenity Only SKIN: skins/PermanentSKIN
   Dominix Interstellar Convergence SKIN: skins/PermanentSKIN
   Dominix Kopis Edge SKIN: skins/PermanentSKIN
+  Dominix Luminaire Rising SKIN: skins/PermanentSKIN
   Dominix Malagrin Marshlight SKIN: skins/PermanentSKIN
   Dominix Navy Issue: ship/Battleship
   Dominix Navy Issue Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -52423,6 +53212,7 @@ name2group:
   Drake & Oracle Argyros SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Drake & Rupture SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Drake Abyssal Firestorm SKIN: skins/PermanentSKIN
+  Drake Abyssal Glory SKIN: skins/PermanentSKIN
   Drake Argyros Elite XVI SKIN: skins/PermanentSKIN
   Drake Aurora Universalis SKIN: skins/PermanentSKIN
   Drake Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -53077,7 +53867,6 @@ name2group:
   Eagle Vitalshift EGO SKIN: skins/PermanentSKIN
   Eagle Wiyrkomi SKIN: skins/PermanentSKIN
   Eagle Zento Isideko Combine SKIN: skins/PermanentSKIN
-  Easy_PLACEHOLDER: fighter/HeavyFighter
   Echelon: ship/Frigate
   Echo: ship/Corvette
   Ectoplasm: commodity/Biohazard
@@ -53274,7 +54063,7 @@ name2group:
   Elite Federal Navy Brutix: entity/EDENCOMEntities
   Elite Federal Navy Deimos: entity/EDENCOMEntities
   Elite Federal Navy Dominix: entity/EDENCOMEntities
-  'Elite Federal Navy Keres ': entity/EDENCOMEntities
+  Elite Federal Navy Keres: entity/EDENCOMEntities
   Elite Federal Navy Lachesis: entity/EDENCOMEntities
   Elite Federal Navy Megathron: entity/EDENCOMEntities
   Elite Federal Navy Oneiros: entity/EDENCOMEntities
@@ -53434,6 +54223,12 @@ name2group:
   Energy Weapon Rigging: skill/Rigging
   Enfeebling Scoped Ladar ECM: module/ECM
   Enforcer: ship/ForceReconShip
+  Enforcer - Calm Abyssal Filaments Crate: commodity/Miscellaneous
+  Enforcer - Defense System Skill Crate: commodity/Miscellaneous
+  Enforcer - Destroyer Skill Crate: commodity/Miscellaneous
+  Enforcer - Frigate Crate: commodity/Miscellaneous
+  Enforcer - Frigate Skill Crate: commodity/Miscellaneous
+  Enforcer - Tranquil Abyssal Filaments Crate: commodity/Miscellaneous
   Enforcer Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Enforcer Biosecurity Responders SKIN: skins/PermanentSKIN
   Enforcer BlackIce Derailers SKIN: skins/PermanentSKIN
@@ -53615,6 +54410,7 @@ name2group:
   Epithal Ruby Sungrazer SKIN: skins/PermanentSKIN
   Epithal Serpentis SKIN: skins/PermanentSKIN
   Epithal Spirit SKIN: skins/PermanentSKIN
+  Epithal Strategic Materiel Defender SKIN: skins/PermanentSKIN
   Epithal Valimor Legacy SKIN: skins/PermanentSKIN
   Equipment Assembly Array: starbase/AssemblyArray
   Equipment Assembly Array Blueprint: blueprint/StarbaseBlueprint
@@ -53652,6 +54448,7 @@ name2group:
   Erebus InterBus Serenity Only SKIN: skins/PermanentSKIN
   Erebus Interstellar Convergence SKIN: skins/PermanentSKIN
   Erebus Kopis Edge SKIN: skins/PermanentSKIN
+  Erebus Luminaire Rising SKIN: skins/PermanentSKIN
   Erebus Ruby Sungrazer SKIN: skins/PermanentSKIN
   Erebus Sapphire Sungrazer SKIN: skins/PermanentSKIN
   Erebus Serpentis SKIN: skins/PermanentSKIN
@@ -53724,7 +54521,7 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 58 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 66 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -53791,6 +54588,7 @@ name2group:
   Executive State Navy Rook: entity/EDENCOMEntities
   Executive State Navy Scorpion: entity/EDENCOMEntities
   Exequror: ship/Cruiser
+  Exequror Abyssal Glory SKIN: skins/PermanentSKIN
   Exequror Aurora Universalis SKIN: skins/PermanentSKIN
   Exequror Biosecurity Responders SKIN: skins/PermanentSKIN
   Exequror Blueprint: blueprint/CruiserBlueprint
@@ -53808,6 +54606,7 @@ name2group:
   Exequror Intaki Syndicate SKIN (90 Days): skins/Max90DaySKIN
   Exequror Intaki Syndicate Serenity Only SKIN: skins/PermanentSKIN
   Exequror Kopis Edge SKIN: skins/PermanentSKIN
+  Exequror Luminaire Zenith SKIN: skins/PermanentSKIN
   Exequror Navy Issue: ship/Cruiser
   Exequror Navy Issue Biosecurity Responders SKIN: skins/PermanentSKIN
   Exequror Navy Issue Blueprint: blueprint/CruiserBlueprint
@@ -53917,6 +54716,8 @@ name2group:
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator: implant/Booster
   Expired Standard 'Guri Hivaa' Cerebral Accelerator: implant/Booster
   Exploration Supplies: entity/SpawnContainer
+  Explorer - Frigate Crate: commodity/Miscellaneous
+  Explorer - Frigate Skill Crate: commodity/Miscellaneous
   Explosion Dampening Array: starbase/ShieldHardeningArray
   Explosion Dampening Array Blueprint: blueprint/StarbaseBlueprint
   Explosive Armor Compensation: skill/Armor
@@ -53945,9 +54746,7 @@ name2group:
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   Exsanguinator: entity/DeadspaceOverseerCruiser
   Extendable plunger tool: specialeditionassets/SpecialEditionCommodities
-  Extended 'Guri Kikhivaa' Cerebral Accelerator: implant/Booster
-  Extended Capsuleer Day Cerebral Accelerator: implant/Booster
-  Extended Capsuleer Day Glamourex Booster: implant/Booster
+  Extended 'Rebel' Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extractive Super-Nexus: entity/LargeCollidableStructure
@@ -54140,6 +54939,7 @@ name2group:
   Federation Grand Prix CreoDron Package: specialeditionassets/SpecialEditionCommodities
   Federation Grand Prix Gold Package: specialeditionassets/SpecialEditionCommodities
   Federation Grand Prix Impetus Package: specialeditionassets/SpecialEditionCommodities
+  Federation Grand Prix Jacket Crate: specialeditionassets/SpecialEditionCommodities
   Federation Grand Prix Quafe Package: specialeditionassets/SpecialEditionCommodities
   Federation Grand Prix Silver Package: specialeditionassets/SpecialEditionCommodities
   Federation Grimsnes: infantry/InfantryVehicles
@@ -54199,6 +54999,7 @@ name2group:
   Federation Navy Co-Processor: module/CPUEnhancer
   Federation Navy Co-Processor Blueprint: blueprint/CoProcessorBlueprint
   Federation Navy Comet: ship/Frigate
+  Federation Navy Comet Abyssal Glory SKIN: skins/PermanentSKIN
   Federation Navy Comet Biosecurity Responders SKIN: skins/PermanentSKIN
   Federation Navy Comet Blueprint: blueprint/FrigateBlueprint
   Federation Navy Comet Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -54207,6 +55008,7 @@ name2group:
   Federation Navy Comet Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Federation Navy Comet Intaki Syndicate SKIN: skins/PermanentSKIN
   Federation Navy Comet Kopis Edge SKIN: skins/PermanentSKIN
+  Federation Navy Comet Luminaire Zenith SKIN: skins/PermanentSKIN
   Federation Navy Comet Police Pursuit SKIN (30 Days): skins/Max30DaySKIN
   Federation Navy Comet Police Pursuit SKIN (365 Days): skins/Max1YearSKIN
   Federation Navy Comet Police Pursuit SKIN (7 Days): skins/Max7DaySKIN
@@ -54648,6 +55450,7 @@ name2group:
   Fortizar Blueprint: blueprint/StructureBlueprints
   Fortizar Upwell Quantum Core: structuremodule/QuantumCores
   Forward 4-4 Celebration Crate: specialeditionassets/SpecialEditionCommodities
+  Foundation Day Amarr Frigate FFA Proving Filament: commodity/AbyssalProvingFilaments
   Foundation Stone: commodity/Miscellaneous
   Four Freedoms Firework: charge/FestivalCharges
   Four Freedoms Fireworks Crate: specialeditionassets/SpecialEditionCommodities
@@ -54662,6 +55465,10 @@ name2group:
   Frame's Modified Assault ck.0: infantry/InfantryDropsuits
   Frame's Modified Assault ck.0 (Master): infantry/InfantryDropsuits
   Fraudulent Pax Amarria: commodity/Miscellaneous
+  Free AIR Enforcer Expert System: expertsystems/PromotionalExpertSystems
+  Free AIR Explorer Expert System: expertsystems/PromotionalExpertSystems
+  Free AIR Industrialist Expert System: expertsystems/PromotionalExpertSystems
+  Free AIR Soldier of Fortune Expert System: expertsystems/PromotionalExpertSystems
   Free Sample: commodity/Commodities
   Freebooter's Key Alpha: commodity/AccelerationGateKeys
   Freebooter's Key Beta: commodity/AccelerationGateKeys
@@ -55447,6 +56254,10 @@ name2group:
   Gram I Blueprint: blueprint/LightFighterBlueprint
   Gram II: fighter/LightFighter
   Gram II Blueprint: blueprint/LightFighterBlueprint
+  Grand Prix Booster I: implant/Booster
+  Grand Prix Booster II: implant/Booster
+  Grand Prix Booster III: implant/Booster
+  Grand Prix Booster IV: implant/Booster
   Grand Prix Velocity Booster: implant/Booster
   Grand Prix Warp Booster: implant/Booster
   Grand Teigjon Casino Chip: specialeditionassets/SpecialEditionCommodities
@@ -55754,6 +56565,7 @@ name2group:
   Guristas Cruiser 4-4: entity/IrregularCruiser
   Guristas Crystal Tag: commodity/CriminalTags
   Guristas Data Sequence: commodity/Commodities
+  Guristas Data Storage Device: entity/SpawnContainer
   Guristas Deadspace Tactical Outpost: entity/LargeCollidableStructure
   Guristas Death Dealer: entity/AsteroidGuristasBattleCruiser
   Guristas Defender: entity/StorylineMissionFrigate
@@ -55795,6 +56607,7 @@ name2group:
   Guristas Hauler: entity/AsteroidGuristasHauler
   Guristas Heavy Missile Battery: entity/DestructibleSentryGun
   Guristas Heavy Weapon Console: commodity/ArtifactsAndPrototypes
+  Guristas Hideout: entity/LargeCollidableStructure
   Guristas Hulk: entity/SpawnContainer
   Guristas Imputor: entity/AsteroidGuristasFrigate
   Guristas Inferno: entity/AsteroidGuristasCruiser
@@ -55879,6 +56692,7 @@ name2group:
   Guristas Production Strong Box: commodity/StrongBoxes
   Guristas Propagandist: entity/StorylineMissionFrigate
   Guristas Renegade: entity/AsteroidGuristasDestroyer
+  Guristas Repair Hub: entity/LargeCollidableStructure
   Guristas Research Convoy: entity/IrregularFreighter
   Guristas Research Data: commodity/Miscellaneous
   Guristas Research Outpost: entity/DeadspaceOverseerSStructure
@@ -55927,6 +56741,7 @@ name2group:
   Guristas Thorium Charge XL: charge/HybridCharge
   Guristas Torpedo Battery: starbase/MobileMissileSentry
   Guristas Torpedo Battery Blueprint: blueprint/StarbaseMissileBatteryBlueprints
+  Guristas Tower: entity/LargeCollidableStructure
   Guristas Trailer: entity/AsteroidGuristasHauler
   Guristas Transponder Tower: entity/SpawnContainer
   Guristas Transport Ship: entity/DeadspaceGuristasCruiser
@@ -55945,6 +56760,7 @@ name2group:
   Guristas Wall: entity/LargeCollidableStructure
   Guristas War Installation: entity/DeadspaceOverseerSStructure
   Guristas War Plans: commodity/Miscellaneous
+  Guristas Warehouse: entity/LargeCollidableStructure
   Guristas Waste: entity/SpawnContainer
   Guristas Webifier: entity/DeadspaceGuristasFrigate
   Guristas White Noise Generation Battery: starbase/ElectronicWarfareBattery
@@ -56070,6 +56886,7 @@ name2group:
   Handheld Weapon Upgrades: infantry/InfantrySkills
   Handheld weapon needs a name: infantry/InfantryWeapons
   Harbinger: ship/CombatBattlecruiser
+  Harbinger Abyssal Glory SKIN: skins/PermanentSKIN
   Harbinger Aurora Universalis SKIN: skins/PermanentSKIN
   Harbinger Biosecurity Responders SKIN: skins/PermanentSKIN
   Harbinger Blood Raiders SKIN: skins/PermanentSKIN
@@ -56429,6 +57246,7 @@ name2group:
   Helios Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Helios Intaki Syndicate SKIN: skins/PermanentSKIN
   Helios Kopis Edge SKIN: skins/PermanentSKIN
+  Helios Luminaire Rising SKIN: skins/PermanentSKIN
   Helios Ruby Sungrazer SKIN: skins/PermanentSKIN
   Helios Sapphire Sungrazer SKIN: skins/PermanentSKIN
   Helios Serpentis SKIN: skins/PermanentSKIN
@@ -56661,6 +57479,7 @@ name2group:
   Hoarder Blue Tiger SKIN: skins/PermanentSKIN
   Hoarder Blueprint: blueprint/HaulerBlueprint
   Hoarder Exoplanets Hunter SKIN: skins/PermanentSKIN
+  Hoarder Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Hoarder Glacial Drift SKIN: skins/PermanentSKIN
   Hoarder Halcyon Dawn SKIN: skins/PermanentSKIN
   Hoarder Hazard Control SKIN: skins/PermanentSKIN
@@ -56734,7 +57553,9 @@ name2group:
   Hostile Hulk: entity/MissionFactionHaulers
   Hostile Orca: entity/MissionFactionTransports
   Hostile Target Acquisition I: module/AutomatedTargetingSystem
+  Hotel: entity/LargeCollidableStructure
   Hound: ship/StealthBomber
+  Hound Abyssal Glory SKIN: skins/PermanentSKIN
   Hound Aurora Universalis SKIN: skins/PermanentSKIN
   Hound Biosecurity Responders SKIN: skins/PermanentSKIN
   Hound Blue Tiger SKIN: skins/PermanentSKIN
@@ -56828,14 +57649,6 @@ name2group:
   Hunt Condor: entity/IrregularFrigate
   Hunt Corax: entity/IrregularDestroyer
   Hunt Cormorant: entity/IrregularDestroyer
-  Hunt Drone Damage Booster I: implant/Booster
-  Hunt Drone Damage Booster II: implant/Booster
-  Hunt Drone Damage Booster III: implant/Booster
-  Hunt Drone Damage Booster IV: implant/Booster
-  Hunt Drone Precision Booster I: implant/Booster
-  Hunt Drone Precision Booster II: implant/Booster
-  Hunt Drone Precision Booster III: implant/Booster
-  Hunt Drone Precision Booster IV: implant/Booster
   Hunt EM Missile Battery: entity/DestructibleSentryGun
   Hunt Energy Neutralizer Tower: entity/DestructibleSentryGun
   Hunt Explosive Missile Battery: entity/DestructibleSentryGun
@@ -56845,30 +57658,6 @@ name2group:
   Hunt Kestrel: entity/IrregularFrigate
   Hunt Kinetic Missile Battery: entity/DestructibleSentryGun
   Hunt Mainframe: entity/SpawnContainer
-  Hunt Missile Damage Booster I: implant/Booster
-  Hunt Missile Damage Booster II: implant/Booster
-  Hunt Missile Damage Booster III: implant/Booster
-  Hunt Missile Damage Booster IV: implant/Booster
-  Hunt Missile Velocity Booster I: implant/Booster
-  Hunt Missile Velocity Booster II: implant/Booster
-  Hunt Missile Velocity Booster III: implant/Booster
-  Hunt Missile Velocity Booster IV: implant/Booster
-  Hunt Probing Booster I: implant/Booster
-  Hunt Probing Booster II: implant/Booster
-  Hunt Probing Booster III: implant/Booster
-  Hunt Probing Booster IV: implant/Booster
-  Hunt Pursuit Booster I: implant/Booster
-  Hunt Pursuit Booster II: implant/Booster
-  Hunt Pursuit Booster III: implant/Booster
-  Hunt Pursuit Booster IV: implant/Booster
-  Hunt Rapid Repair Booster I: implant/Booster
-  Hunt Rapid Repair Booster II: implant/Booster
-  Hunt Rapid Repair Booster III: implant/Booster
-  Hunt Rapid Repair Booster IV: implant/Booster
-  Hunt Resistance Booster I: implant/Booster
-  Hunt Resistance Booster II: implant/Booster
-  Hunt Resistance Booster III: implant/Booster
-  Hunt Resistance Booster IV: implant/Booster
   Hunt Stasis Webifier Tower: entity/DestructibleSentryGun
   Hunt Thermal Missile Battery: entity/DestructibleSentryGun
   Hunt Worm: entity/IrregularFrigate
@@ -56876,18 +57665,20 @@ name2group:
   Hunter Alvi: entity/DeadspaceRogueDroneFrigate
   Hunter Drone: entity/AsteroidRogueDroneFrigate
   Hunter Malbreth: entity/MissionGenericCruisers
-  'Huntmaster Communications Tower ': entity/SpawnContainer
+  Huntmaster Communications Tower: entity/SpawnContainer
   Huntmaster Jackdaw: entity/IrregularDestroyer
   Huntmaster Mainframe: entity/SpawnContainer
   Huriki Vunau: entity/StorylineMissionCruiser
   Hurricane: ship/CombatBattlecruiser
   Hurricane "Blaze" Squadron SKIN: skins/PermanentSKIN
   Hurricane Abyssal Firestorm SKIN: skins/PermanentSKIN
+  Hurricane Abyssal Glory SKIN: skins/PermanentSKIN
   Hurricane Aurora Universalis SKIN: skins/PermanentSKIN
   Hurricane Biosecurity Responders SKIN: skins/PermanentSKIN
   Hurricane Bloody Hands SKIN: skins/PermanentSKIN
   Hurricane Blue Tiger SKIN: skins/PermanentSKIN
   Hurricane Blueprint: blueprint/BattlecruiserBlueprint
+  Hurricane Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Hurricane Cordite Blossom SKIN: skins/PermanentSKIN
   Hurricane Deathglow Hunters SKIN: skins/PermanentSKIN
   Hurricane Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -56897,6 +57688,7 @@ name2group:
   Hurricane Fleet Issue Bloody Hands SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Blueprint: blueprint/BattlecruiserBlueprint
   Hurricane Fleet Issue Brutor SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Freedom's Revolution SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
@@ -56905,6 +57697,7 @@ name2group:
   Hurricane Fleet Issue In Rust We Trust SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Justice SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Krusual SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Liberation Games SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Luminaire Zenith SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Nefantar SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Sebiestor SKIN: skins/PermanentSKIN
@@ -56923,6 +57716,8 @@ name2group:
   Hurricane IGC SKIN: skins/PermanentSKIN
   Hurricane In Rust We Trust SKIN: skins/PermanentSKIN
   Hurricane Justice SKIN: skins/PermanentSKIN
+  Hurricane Krusual SKIN: skins/PermanentSKIN
+  Hurricane Liberation Games SKIN: skins/PermanentSKIN
   Hurricane Luminaire Zenith SKIN: skins/PermanentSKIN
   Hurricane Operation Permafrost SKIN: skins/PermanentSKIN
   Hurricane Sebiestor SKIN: skins/PermanentSKIN
@@ -56933,9 +57728,12 @@ name2group:
   Hurricane Sebiestor Serenity Only SKIN: skins/PermanentSKIN
   Hurricane Snowline Bladeracer SKIN: skins/PermanentSKIN
   Hurricane Spirit SKIN: skins/PermanentSKIN
+  Hurricane Starkmanir SKIN: skins/PermanentSKIN
+  Hurricane Thukker Tribe SKIN: skins/PermanentSKIN
   Hurricane Triglavian Twilight SKIN: skins/PermanentSKIN
   Hurricane Tronhadar Ink SKIN: skins/PermanentSKIN
   Hurricane Valklear Glory SKIN: skins/PermanentSKIN
+  Hurricane Vherokior SKIN: skins/PermanentSKIN
   Hurricane Yoiul Star SKIN: skins/PermanentSKIN
   Hyan Vezzon: entity/MissionGenericBattleships
   Hyasyoda Captain: commodity/Miscellaneous
@@ -57369,6 +58167,7 @@ name2group:
   Imperial Navy Sergeant Major: entity/FactionDrone
   Imperial Navy Sergeant Major Insignia I: commodity/EmpireInsigniaDrops
   Imperial Navy Slicer: ship/Frigate
+  Imperial Navy Slicer Abyssal Glory SKIN: skins/PermanentSKIN
   Imperial Navy Slicer Ardishapur SKIN: skins/PermanentSKIN
   Imperial Navy Slicer Biosecurity Responders SKIN: skins/PermanentSKIN
   Imperial Navy Slicer Blueprint: blueprint/FrigateBlueprint
@@ -57700,6 +58499,12 @@ name2group:
   Industrial Jump Portal Generator I: module/IndustrialJumpPortalGenerator
   Industrial Jump Portal Generator I Blueprint: blueprint/SiegeModuleBlueprint
   Industrial Reconfiguration: skill/ResourceProcessing
+  Industrialist -  Hauler Skill Crate: commodity/Miscellaneous
+  Industrialist - Cruiser Blueprint Crate: commodity/Miscellaneous
+  Industrialist - Destroyer Blueprint Crate: commodity/Miscellaneous
+  Industrialist - Frigate Blueprint Crate: commodity/Miscellaneous
+  Industrialist - Hauler Blueprint Crate: commodity/Miscellaneous
+  Industrialist - Light Combat Drones Crate: commodity/Miscellaneous
   Industrialist Bonus: bonus/CareerBonus
   Industry: skill/Production
   Inert Capsule: entity/SpawnContainer
@@ -58115,6 +58920,7 @@ name2group:
   Ishtar Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Ishtar Intaki Syndicate SKIN: skins/PermanentSKIN
   Ishtar Kopis Edge SKIN: skins/PermanentSKIN
+  Ishtar Luminaire Rising SKIN: skins/PermanentSKIN
   Ishtar Ruby Sungrazer SKIN: skins/PermanentSKIN
   Ishtar Sapphire Sungrazer SKIN: skins/PermanentSKIN
   Ishtar Serenity YC117 SKIN: skins/PermanentSKIN
@@ -58181,6 +58987,7 @@ name2group:
   Iteron Mark V Ruby Sungrazer SKIN: skins/PermanentSKIN
   Iteron Mark V Serpentis SKIN: skins/PermanentSKIN
   Iteron Mark V Spirit SKIN: skins/PermanentSKIN
+  Iteron Mark V Strategic Materiel Defender SKIN: skins/PermanentSKIN
   Iteron Mark V Valimor Legacy SKIN: skins/PermanentSKIN
   Ivan Minelli: entity/MissionGenericFrigates
   Ixon Kruz's Insignia: commodity/EmpireInsigniaDrops
@@ -58653,6 +59460,7 @@ name2group:
   Kryos Kopis Edge SKIN: skins/PermanentSKIN
   Kryos Serpentis SKIN: skins/PermanentSKIN
   Kryos Spirit SKIN: skins/PermanentSKIN
+  Kryos Strategic Materiel Defender SKIN: skins/PermanentSKIN
   Kryos Valimor Legacy SKIN: skins/PermanentSKIN
   Krystallos: asteroid/Ice
   Kuari Strain Mother: entity/DeadspaceOverseerSSentry
@@ -59451,7 +60259,23 @@ name2group:
   Leviathan Yoiul Star SKIN: skins/PermanentSKIN
   Leviathan Zento Isideko Combine SKIN: skins/PermanentSKIN
   Liberation Elixir: commodity/Commodities
+  Liberation Games Accuracy Booster I: implant/Booster
+  Liberation Games Accuracy Booster II: implant/Booster
+  Liberation Games Accuracy Booster III: implant/Booster
+  Liberation Games Accuracy Booster IV: implant/Booster
+  Liberation Games Damage Booster I: implant/Booster
+  Liberation Games Damage Booster II: implant/Booster
+  Liberation Games Damage Booster III: implant/Booster
+  Liberation Games Damage Booster IV: implant/Booster
+  Liberation Games EWar Booster I: implant/Booster
+  Liberation Games EWar Booster II: implant/Booster
+  Liberation Games EWar Booster III: implant/Booster
+  Liberation Games EWar Booster IV: implant/Booster
   Liberation Games Firework Sentry: entity/DestructibleSentryGun
+  Liberation Games Range Booster I: implant/Booster
+  Liberation Games Range Booster II: implant/Booster
+  Liberation Games Range Booster III: implant/Booster
+  Liberation Games Range Booster IV: implant/Booster
   Liberation Games Reward Token: commodity/Miscellaneous
   Liberty Spear Gallente Battleship: entity/HiddenZenithGallenteBattleship
   Liberty Spear Gallente Cruiser: entity/HiddenZenithGallenteCruiser
@@ -60035,6 +60859,7 @@ name2group:
   Maelstrom Blueprint: blueprint/BattleshipBlueprint
   Maelstrom Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Maelstrom Capsuleer Elite XIX SKIN: skins/PermanentSKIN
+  Maelstrom Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Maelstrom Dawn of Liberation SKIN: skins/PermanentSKIN
   Maelstrom Exoplanets Hunter SKIN: skins/PermanentSKIN
   Maelstrom Firewall Breach SKIN: skins/PermanentSKIN
@@ -60156,6 +60981,8 @@ name2group:
   Malediction Hunter's Quiver SKIN: skins/PermanentSKIN
   Malediction Imperial Jubilee SKIN: skins/PermanentSKIN
   Malediction Ironblood SKIN: skins/PermanentSKIN
+  Malediction Luminaire Rising SKIN: skins/PermanentSKIN
+  Malediction Luminaire Zenith SKIN: skins/PermanentSKIN
   Malediction Oasis of Faith SKIN: skins/PermanentSKIN
   Malediction Purity of the Throne SKIN: skins/PermanentSKIN
   Malediction Raata Sunset SKIN: skins/PermanentSKIN
@@ -60218,6 +61045,7 @@ name2group:
   Mammoth Blue Tiger SKIN: skins/PermanentSKIN
   Mammoth Blueprint: blueprint/HaulerBlueprint
   Mammoth Exoplanets Hunter SKIN: skins/PermanentSKIN
+  Mammoth Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Mammoth Glacial Drift SKIN: skins/PermanentSKIN
   Mammoth Halcyon Dawn SKIN: skins/PermanentSKIN
   Mammoth Hazard Control SKIN: skins/PermanentSKIN
@@ -60246,6 +61074,7 @@ name2group:
   Mannar Hair Gel: specialeditionassets/SpecialEditionCommodities
   Manportable Electromagnetic Pulse Weapons: commodity/Miscellaneous
   Manticore: ship/StealthBomber
+  Manticore Abyssal Glory SKIN: skins/PermanentSKIN
   Manticore Aurora Universalis SKIN: skins/PermanentSKIN
   Manticore Biosecurity Responders SKIN: skins/PermanentSKIN
   Manticore Blue Tiger SKIN: skins/PermanentSKIN
@@ -60715,7 +61544,7 @@ name2group:
   Medium Inductive Compact Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
   Medium Industrial Core I: module/SiegeModule
   Medium Industrial Core I Blueprint: blueprint/SiegeModuleBlueprint
-  'Medium Industrial Core II ': module/SiegeModule
+  Medium Industrial Core II: module/SiegeModule
   Medium Industrial Core II Blueprint: blueprint/SiegeModuleBlueprint
   Medium Inefficient Hull Repair Unit: module/HullRepairUnit
   Medium Infectious Scoped Energy Neutralizer: module/EnergyNeutralizer
@@ -60992,6 +61821,7 @@ name2group:
   Megathron Intaki Syndicate SKIN (90 Days): skins/Max90DaySKIN
   Megathron Intaki Syndicate Serenity Only SKIN: skins/PermanentSKIN
   Megathron Kopis Edge SKIN: skins/PermanentSKIN
+  Megathron Luminaire Zenith SKIN: skins/PermanentSKIN
   Megathron Malagrin Marshlight SKIN: skins/PermanentSKIN
   Megathron Navy Issue: ship/Battleship
   Megathron Navy Issue Abyssal Glory SKIN: skins/PermanentSKIN
@@ -61155,6 +61985,7 @@ name2group:
   Men's 'Hephaestus' Shoes (white/red): apparel/Footwear
   Men's 'Humanitarian' T-shirt YC 115: apparel/Tops
   Men's 'Humanitarian' T-shirt YC 117: apparel/Tops
+  Men's 'Hyper' Racing Jacket: apparel/Outer
   Men's 'Impact' Jacket (dark red): apparel/Outer
   Men's 'Impact' Jacket (graphite): apparel/Outer
   Men's 'Impact' Jacket (green camo): apparel/Outer
@@ -61247,7 +62078,7 @@ name2group:
   Men's 'Semiotique Sports' Shoes: apparel/Footwear
   Men's 'Semiotique Superluminal' Jacket: apparel/Outer
   Men's 'Semiotique Superluminal' Pants: apparel/Bottoms
-  'Men''s ''Semiotique Superluminal'' Shades ': apparel/Eyewear
+  Men's 'Semiotique Superluminal' Shades: apparel/Eyewear
   Men's 'Semiotique TorsoRig' Body Augmentation: apparel/Augmentations
   Men's 'Serpentis' T-shirt (olive/black): apparel/Tops
   Men's 'Setcouple' Facial Augmentation: apparel/Augmentations
@@ -61299,6 +62130,8 @@ name2group:
   Men's Albedo Affluence Jacket: apparel/Outer
   Men's Albedo Affluence Pants: apparel/Outer
   Men's Amarr 'Loyalist' T-Shirt: apparel/Tops
+  Men's Amarr Courtly Robe: apparel/Outer
+  Men's Amarr Devotional Robe: apparel/Outer
   Men's Amarr Empire Command Jacket: apparel/Outer
   Men's Amarr Empire Exploration Suit: apparel/Outer
   Men's Aurora Universalis Cap: apparel/Headwear
@@ -61354,6 +62187,7 @@ name2group:
   Men's Gallente Federation Exploration Suit: apparel/Outer
   Men's Genolution Combat Suit: apparel/Outer
   Men's Genolution Tactical Goggles: apparel/Eyewear
+  Men's Grand Prix Racing Jacket: apparel/Outer
   Men's IGC Location Scout Suit: apparel/Outer
   Men's Imperial Commander's Dress Jacket: apparel/Outer
   Men's Imperial Commander's Dress Pants: apparel/Bottoms
@@ -61369,7 +62203,11 @@ name2group:
   Men's Jita 4-4 Executive Pants: apparel/Bottoms
   Men's Kimotoro Eskeitan Commander's Jacket: apparel/Outer
   Men's Kimotoro Eskeitan Commander's Pants: apparel/Bottoms
+  Men's Minmatar 'Freedom Fighter' Cap: apparel/Headwear
+  Men's Minmatar 'Freedom Fighter' T-Shirt: apparel/Tops
   Men's Minmatar 'Liberator' T-Shirt: apparel/Tops
+  Men's Minmatar 'Rebellion' Cap: apparel/Headwear
+  Men's Minmatar 'Rebellion' T-Shirt: apparel/Tops
   Men's Minmatar Republic Exploration Suit: apparel/Outer
   Men's Minmatar Republic Officer Jacket: apparel/Outer
   Men's ORE Claim Surveyor Suit: apparel/Outer
@@ -61541,6 +62379,7 @@ name2group:
   Miasmos Ruby Sungrazer SKIN: skins/PermanentSKIN
   Miasmos Serpentis SKIN: skins/PermanentSKIN
   Miasmos Spirit SKIN: skins/PermanentSKIN
+  Miasmos Strategic Materiel Defender SKIN: skins/PermanentSKIN
   Miasmos Valimor Legacy SKIN: skins/PermanentSKIN
   Michi's Excavation Augmentor: implant/CyberResourceProcessing
   Micro 'Notos' Explosive Charge I: module/SmartBomb
@@ -62104,6 +62943,7 @@ name2group:
   Minmatar Shuttle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Minmatar Shuttle Glacial Drift SKIN: skins/PermanentSKIN
   Minmatar Shuttle Halcyon Dawn SKIN: skins/PermanentSKIN
+  Minmatar Shuttle Liberation Games SKIN: skins/PermanentSKIN
   Minmatar Shuttle Nefantar SKIN: skins/PermanentSKIN
   Minmatar Starbase Control Tower: entity/DeadspaceOverseerSStructure
   Minmatar Starbase Control Tower_Tough_Good Loot: entity/LargeCollidableStructure
@@ -62491,6 +63331,7 @@ name2group:
   Muninn Hazard Control SKIN: skins/PermanentSKIN
   Muninn In Rust We Trust SKIN: skins/PermanentSKIN
   Muninn Justice SKIN: skins/PermanentSKIN
+  Muninn Liberation Games SKIN: skins/PermanentSKIN
   Muninn Malagrin Marshlight SKIN: skins/PermanentSKIN
   Muninn Republic Fleet SKIN: skins/PermanentSKIN
   Muninn Snowline Bladeracer SKIN: skins/PermanentSKIN
@@ -62507,6 +63348,7 @@ name2group:
   Myrkai's Data Chip: commodity/Commodities
   Myrmidon: ship/CombatBattlecruiser
   Myrmidon & Tornado Argyros SKIN Crate: specialeditionassets/SpecialEditionCommodities
+  Myrmidon Abyssal Glory SKIN: skins/PermanentSKIN
   Myrmidon Argyros Elite XVI SKIN: skins/PermanentSKIN
   Myrmidon Aurora Universalis SKIN: skins/PermanentSKIN
   Myrmidon Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -62726,6 +63568,7 @@ name2group:
   Nefantar Pilgrim: entity/StorylineMissionCruiser
   Negotiation: skill/Social
   Nemesis: ship/StealthBomber
+  Nemesis Abyssal Glory SKIN: skins/PermanentSKIN
   Nemesis Aurora Universalis SKIN: skins/PermanentSKIN
   Nemesis Biosecurity Responders SKIN: skins/PermanentSKIN
   Nemesis Blueprint: blueprint/FrigateBlueprint
@@ -62761,6 +63604,7 @@ name2group:
   Nereus Ruby Sungrazer SKIN: skins/PermanentSKIN
   Nereus Serpentis SKIN: skins/PermanentSKIN
   Nereus Spirit SKIN: skins/PermanentSKIN
+  Nereus Strategic Materiel Defender SKIN: skins/PermanentSKIN
   Nereus Valimor Legacy SKIN: skins/PermanentSKIN
   Nergal: ship/AssaultFrigate
   Nergal All-Stars Casino Clash SKIN: skins/PermanentSKIN
@@ -63090,6 +63934,7 @@ name2group:
   Nyx InterBus Serenity Only SKIN: skins/PermanentSKIN
   Nyx Interstellar Convergence SKIN: skins/PermanentSKIN
   Nyx Kopis Edge SKIN: skins/PermanentSKIN
+  Nyx Luminaire Rising SKIN: skins/PermanentSKIN
   Nyx Malagrin Marshlight SKIN: skins/PermanentSKIN
   Nyx Quafe SKIN: skins/PermanentSKIN
   Nyx Quafe SKIN (30 Days): skins/Max30DaySKIN
@@ -63514,6 +64359,7 @@ name2group:
   Oscillator Capacitor Unit Blueprint: blueprint/ConstructionComponentBlueprints
   Osprey: ship/Cruiser
   Osprey AIR Laboratories SKIN: skins/PermanentSKIN
+  Osprey Abyssal Glory SKIN: skins/PermanentSKIN
   Osprey Aurora Universalis SKIN: skins/PermanentSKIN
   Osprey Biosecurity Responders SKIN: skins/PermanentSKIN
   Osprey Blue Tiger SKIN: skins/PermanentSKIN
@@ -63633,6 +64479,7 @@ name2group:
   Pacifier Firewatch SKIN: skins/PermanentSKIN
   Pacifier Glacial Drift SKIN: skins/PermanentSKIN
   Pacifier Halcyon Dawn SKIN: skins/PermanentSKIN
+  Pacifier Luminaire Rising SKIN: skins/PermanentSKIN
   Pacifier SARO 'Black Troop' SKIN: skins/PermanentSKIN
   Packaging Center Passkey: commodity/AccelerationGateKeys
   Packed AV Grenade: infantry/InfantryWeapons
@@ -64146,9 +64993,7 @@ name2group:
   Portable Power Generator: commodity/Commodities
   Positron Cord: commodity/MaterialsAndCompounds
   Postcard From Poitot: specialeditionassets/SpecialEditionCommodities
-  Potent 'Guri Kikhivaa' Cerebral Accelerator: implant/Booster
-  Potent Capsuleer Day Cerebral Accelerator: implant/Booster
-  Potent Capsuleer Day Glamourex Booster: implant/Booster
+  Potent 'Rebel' Cerebral Accelerator: implant/Booster
   Potent Viral Agent: commodity/Biohazard
   Poteque 'Prospector' Archaeology AC-905: implant/CyberScanning
   Poteque 'Prospector' Astrometric Acquisition AQ-702: implant/CyberScanning
@@ -64272,6 +65117,7 @@ name2group:
   Probe Halcyon Dawn SKIN: skins/PermanentSKIN
   Probe Hazard Control SKIN: skins/PermanentSKIN
   Probe Justice SKIN: skins/PermanentSKIN
+  Probe Liberation Games SKIN: skins/PermanentSKIN
   Probe Semiotique Superluminal SKIN: skins/PermanentSKIN
   Probe Snowline Bladeracer SKIN: skins/PermanentSKIN
   Probe Tronhadar Ink SKIN: skins/PermanentSKIN
@@ -64687,6 +65533,7 @@ name2group:
   Pure Synth X-Instinct Booster: material/BiochemicalMaterial
   Purgative Coffin: specialeditionassets/SpecialEditionCommodities
   Purifier: ship/StealthBomber
+  Purifier Abyssal Glory SKIN: skins/PermanentSKIN
   Purifier Aurora Universalis SKIN: skins/PermanentSKIN
   Purifier Biosecurity Responders SKIN: skins/PermanentSKIN
   Purifier Blood Raiders SKIN: skins/PermanentSKIN
@@ -65496,6 +66343,7 @@ name2group:
   Republic Fleet Explosive Shield Amplifier Blueprint: blueprint/ShieldResistanceAmplifierBlueprint
   Republic Fleet Firetail: ship/Frigate
   Republic Fleet Firetail AIR Laboratories SKIN: skins/PermanentSKIN
+  Republic Fleet Firetail Abyssal Glory SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Biosecurity Responders SKIN: skins/PermanentSKIN
   Republic Fleet Firetail Blueprint: blueprint/FrigateBlueprint
   Republic Fleet Firetail Brutor SKIN: skins/PermanentSKIN
@@ -65886,6 +66734,7 @@ name2group:
   Rifter Blue Tiger SKIN: skins/PermanentSKIN
   Rifter Blueprint: blueprint/FrigateBlueprint
   Rifter Carmine Horizon SKIN: skins/PermanentSKIN
+  Rifter Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Rifter Dawn of Liberation SKIN: skins/PermanentSKIN
   Rifter Exoplanets Hunter SKIN: skins/PermanentSKIN
   Rifter Fleet Ordnance Spike SKIN: skins/PermanentSKIN
@@ -65901,6 +66750,7 @@ name2group:
   Rifter Krusual SKIN (7 Days): skins/Max7DaySKIN
   Rifter Krusual SKIN (90 Days): skins/Max90DaySKIN
   Rifter Krusual Serenity Only SKIN: skins/PermanentSKIN
+  Rifter Liberation Games SKIN: skins/PermanentSKIN
   Rifter Nefantar SKIN: skins/PermanentSKIN
   Rifter Nefantar SKIN (30 Days): skins/Max30DaySKIN
   Rifter Nefantar SKIN (365 Days): skins/Max1YearSKIN
@@ -66111,6 +66961,7 @@ name2group:
   Rupture Blueprint: blueprint/CruiserBlueprint
   Rupture Brutor SKIN: skins/PermanentSKIN
   Rupture Capsuleer Day XVII SKIN: skins/PermanentSKIN
+  Rupture Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Rupture Chromodynamic Candy SKIN: skins/PermanentSKIN
   Rupture Dawn of Liberation SKIN: skins/PermanentSKIN
   Rupture Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -66123,6 +66974,7 @@ name2group:
   Rupture Headhunter SKIN: skins/PermanentSKIN
   Rupture Justice SKIN: skins/PermanentSKIN
   Rupture Krusual SKIN: skins/PermanentSKIN
+  Rupture Liberation Games SKIN: skins/PermanentSKIN
   Rupture Luminaire Zenith SKIN: skins/PermanentSKIN
   Rupture Nefantar SKIN: skins/PermanentSKIN
   Rupture Permaband Roadies SKIN: skins/PermanentSKIN
@@ -66224,6 +67076,7 @@ name2group:
   Sabre Biosecurity Responders SKIN: skins/PermanentSKIN
   Sabre Blue Tiger SKIN: skins/PermanentSKIN
   Sabre Blueprint: blueprint/DestroyerBlueprint
+  Sabre Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Sabre Cordite Blossom SKIN: skins/PermanentSKIN
   Sabre Eros Blossom SKIN: skins/PermanentSKIN
   Sabre Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -66233,6 +67086,7 @@ name2group:
   Sabre Hazard Control SKIN: skins/PermanentSKIN
   Sabre In Rust We Trust SKIN: skins/PermanentSKIN
   Sabre Justice SKIN: skins/PermanentSKIN
+  Sabre Liberation Games SKIN: skins/PermanentSKIN
   Sabre Permaband - Warp to the Dance Floor SKIN: skins/PermanentSKIN
   Sabre Snowline Bladeracer SKIN: skins/PermanentSKIN
   Sabre Tronhadar Ink SKIN: skins/PermanentSKIN
@@ -66722,7 +67576,7 @@ name2group:
   Scout  State Navy Cerberus: entity/EDENCOMEntities
   Scout  State Navy Drake: entity/EDENCOMEntities
   Scout  State Navy Raven: entity/EDENCOMEntities
-  'Scout  State Navy Rook ': entity/EDENCOMEntities
+  Scout  State Navy Rook: entity/EDENCOMEntities
   Scout  State Navy Scorpion: entity/EDENCOMEntities
   Scout A-I: infantry/InfantryDropsuits
   Scout A/1-Series: infantry/InfantryDropsuits
@@ -66746,8 +67600,8 @@ name2group:
   Scout Imperial Navy Deacon: entity/EDENCOMEntities
   Scout Imperial Navy Guardian: entity/EDENCOMEntities
   Scout Imperial Navy Harbinger: entity/EDENCOMEntities
-  'Scout Imperial Navy Sentinel ': entity/EDENCOMEntities
-  'Scout Imperial Navy Zealot ': entity/EDENCOMEntities
+  Scout Imperial Navy Sentinel: entity/EDENCOMEntities
+  Scout Imperial Navy Zealot: entity/EDENCOMEntities
   Scout M-I: infantry/InfantryDropsuits
   Scout M/1-Series: infantry/InfantryDropsuits
   Scout Republic Fleet Claw: entity/EDENCOMEntities
@@ -66796,6 +67650,7 @@ name2group:
   Scratched Cask: entity/DeadspaceOverseerSBelongings
   Scratched and Dented Keycard: commodity/AccelerationGateKeys
   Scythe: ship/Cruiser
+  Scythe Abyssal Glory SKIN: skins/PermanentSKIN
   Scythe Aurora Universalis SKIN: skins/PermanentSKIN
   Scythe Biosecurity Responders SKIN: skins/PermanentSKIN
   Scythe Bloody Hands SKIN: skins/PermanentSKIN
@@ -66814,6 +67669,7 @@ name2group:
   Scythe Fleet Issue Halcyon Dawn SKIN: skins/PermanentSKIN
   Scythe Fleet Issue Hunter's Quiver SKIN: skins/PermanentSKIN
   Scythe Fleet Issue Justice SKIN: skins/PermanentSKIN
+  Scythe Fleet Issue Liberation Games SKIN: skins/PermanentSKIN
   Scythe Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
   Scythe Frontier Safeguarder SKIN: skins/PermanentSKIN
   Scythe Glacial Drift SKIN: skins/PermanentSKIN
@@ -66821,6 +67677,7 @@ name2group:
   Scythe Hazard Control SKIN: skins/PermanentSKIN
   Scythe Hunter's Quiver SKIN: skins/PermanentSKIN
   Scythe Justice SKIN: skins/PermanentSKIN
+  Scythe Liberation Games SKIN: skins/PermanentSKIN
   Scythe Snowline Bladeracer SKIN: skins/PermanentSKIN
   Scythe Tronhadar Ink SKIN: skins/PermanentSKIN
   Scythe Valklear Glory SKIN: skins/PermanentSKIN
@@ -67244,6 +68101,7 @@ name2group:
   Serpentis Cruiser: entity/IrregularCruiser
   Serpentis Crystal Tag: commodity/CriminalTags
   Serpentis Data Chip Decoder: commodity/Commodities
+  Serpentis Data Storage Device: entity/SpawnContainer
   Serpentis Deadspace Sergeant: entity/DeadspaceOverseerBattleship
   Serpentis Defender: entity/AsteroidSerpentisFrigate
   Serpentis Derelict: entity/SpawnContainer
@@ -67273,6 +68131,7 @@ name2group:
   Serpentis Harvester: entity/AsteroidSerpentisHauler
   Serpentis Hauler: entity/AsteroidSerpentisHauler
   Serpentis Heavy Missile Battery: entity/DestructibleSentryGun
+  Serpentis Hideout: entity/LargeCollidableStructure
   Serpentis High Admiral: entity/AsteroidSerpentisBattleship
   Serpentis High Captain: entity/AsteroidSerpentisBattleCruiser
   Serpentis Holder: entity/DeadspaceOverseerBattleship
@@ -67321,6 +68180,7 @@ name2group:
   Serpentis Refinery Headmaster: entity/DeadspaceOverseerCruiser
   Serpentis Regional Baron - Arain Percourt: entity/DeadspaceOverseerBattleship
   Serpentis Repackaging Factory: entity/DeadspaceOverseerSStructure
+  Serpentis Repair Hub: entity/LargeCollidableStructure
   Serpentis Research Outpost: entity/DeadspaceOverseerSStructure
   Serpentis Resilient Destroyer: entity/MissionGenericDestroyers
   Serpentis Rookie: entity/MinorThreat
@@ -67358,6 +68218,7 @@ name2group:
   Serpentis Surveyor: entity/StorylineMissionCruiser
   Serpentis Thief: entity/DeadspaceOverseerBattleship
   Serpentis Tournament Host: entity/DeadspaceOverseerBattleship
+  Serpentis Tower: entity/LargeCollidableStructure
   Serpentis Trailer: entity/AsteroidSerpentisHauler
   Serpentis Transaction Log: commodity/Commodities
   Serpentis Transport Hub: entity/MissionContainer
@@ -67368,6 +68229,7 @@ name2group:
   Serpentis Vice Admiral: entity/AsteroidSerpentisBattleship
   Serpentis Victory SKIN: skins/PermanentSKIN
   Serpentis Wall: entity/LargeCollidableStructure
+  Serpentis Warehouse: entity/LargeCollidableStructure
   Serpentis Warp Disruption Battery: starbase/WarpScramblingBattery
   Serpentis Warp Disruption Battery Blueprint: blueprint/StarbaseWarpScramblingBatteryBlueprints
   Serpentis Warp Scrambling Battery: starbase/WarpScramblingBattery
@@ -67829,7 +68691,9 @@ name2group:
   Sigil Oasis of Faith SKIN: skins/PermanentSKIN
   Sigil Purity of the Throne SKIN: skins/PermanentSKIN
   Sigil Raata Sunset SKIN: skins/PermanentSKIN
+  Sigil Sarum SKIN: skins/PermanentSKIN
   Sigil Tash-Murkon SKIN: skins/PermanentSKIN
+  Sigil War Reserves Lieutenant SKIN: skins/PermanentSKIN
   Signal Amplifier I: module/SignalAmplifier
   Signal Amplifier I Blueprint: blueprint/SignalAmplifierBlueprint
   Signal Amplifier II: module/SignalAmplifier
@@ -68018,6 +68882,7 @@ name2group:
   Slasher Krusual SKIN (7 Days): skins/Max7DaySKIN
   Slasher Krusual SKIN (90 Days): skins/Max90DaySKIN
   Slasher Krusual Serenity Only SKIN: skins/PermanentSKIN
+  Slasher Liberation Games SKIN: skins/PermanentSKIN
   Slasher Luminaire Zenith SKIN: skins/PermanentSKIN
   Slasher Republic Fleet SKIN: skins/PermanentSKIN
   Slasher Snowline Bladeracer SKIN: skins/PermanentSKIN
@@ -68094,6 +68959,7 @@ name2group:
   Sleipnir Hazard Control SKIN: skins/PermanentSKIN
   Sleipnir In Rust We Trust SKIN: skins/PermanentSKIN
   Sleipnir Justice SKIN: skins/PermanentSKIN
+  Sleipnir Liberation Games SKIN: skins/PermanentSKIN
   Sleipnir Republic Fleet SKIN: skins/PermanentSKIN
   Sleipnir Snowline Bladeracer SKIN: skins/PermanentSKIN
   Sleipnir Storm Bear SKIN: skins/PermanentSKIN
@@ -68654,14 +69520,6 @@ name2group:
   Smoke_Atlas: effects/ParticleSystems
   Smooth Glacial Mass: asteroid/Ice
   Smuggler Basilisk: entity/IrregularCruiser
-  Smuggler Bay Loading Booster I: implant/Booster
-  Smuggler Bay Loading Booster II: implant/Booster
-  Smuggler Bay Loading Booster III: implant/Booster
-  Smuggler Bay Loading Booster IV: implant/Booster
-  Smuggler Blockade Running Booster I: implant/Booster
-  Smuggler Blockade Running Booster II: implant/Booster
-  Smuggler Blockade Running Booster III: implant/Booster
-  Smuggler Blockade Running Booster IV: implant/Booster
   Smuggler Cerberus: entity/IrregularCruiser
   Smuggler DNA: commodity/Commodities
   Smuggler Dead Drop: entity/SpawnContainer
@@ -68671,19 +69529,11 @@ name2group:
   Smuggler Ikitursa: entity/IrregularCruiser
   Smuggler Knot Lock: commodity/AccelerationGateKeys
   Smuggler Lockbox: commodity/Miscellaneous
-  Smuggler Low Observability Booster I: implant/Booster
-  Smuggler Low Observability Booster II: implant/Booster
-  Smuggler Low Observability Booster III: implant/Booster
-  Smuggler Low Observability Booster IV: implant/Booster
   Smuggler Manticore: entity/IrregularFrigate
   Smuggler Rapier: entity/IrregularCruiser
   Smuggler Raptor: entity/IrregularFrigate
   Smuggler Ringleader: entity/IrregularBattleship
   Smuggler Service Outpost (DO NOT TRANSLATE): station/Station
-  Smuggler Shield Booster I: implant/Booster
-  Smuggler Shield Booster II: implant/Booster
-  Smuggler Shield Booster III: implant/Booster
-  Smuggler Shield Booster IV: implant/Booster
   Smuggler Signet: commodity/Commodities
   Smuggler Stargate: entity/LargeCollidableStructure
   Smuggler Stargate Strong: entity/LargeCollidableStructure
@@ -68722,6 +69572,9 @@ name2group:
   Soil: commodity/General
   Solar Harvester: entity/LargeCollidableStructure
   Solar's PAR-8 Flaylock Pistol: infantry/InfantryWeapons
+  Soldier of Fortune - Combat Frigate Crate: commodity/Miscellaneous
+  Soldier of Fortune - Frigate Skill Crate: commodity/Miscellaneous
+  Soldier of Fortune - Support Frigate Crate: commodity/Miscellaneous
   Solerium: material/IntermediateMaterials
   Solerium Reaction Formula: blueprint/CompositeReactionFormulas
   Solid Pyroxeres: asteroid/Pyroxeres
@@ -69774,6 +70627,7 @@ name2group:
   Stiletto Hazard Control SKIN: skins/PermanentSKIN
   Stiletto Hunter's Quiver SKIN: skins/PermanentSKIN
   Stiletto Justice SKIN: skins/PermanentSKIN
+  Stiletto Luminaire Zenith SKIN: skins/PermanentSKIN
   Stiletto Snowline Bladeracer SKIN: skins/PermanentSKIN
   Stiletto Tronhadar Ink SKIN: skins/PermanentSKIN
   Stiletto Valklear Glory SKIN: skins/PermanentSKIN
@@ -70197,7 +71051,7 @@ name2group:
   Syndicate 800mm Steel Plates: module/ArmorPlate
   Syndicate Cloaking Device: module/CloakingDevice
   Syndicate Damage Control: module/DamageControl
-  'Syndicate Gas Cloud Scoop ': module/GasCloudScoops
+  Syndicate Gas Cloud Scoop: module/GasCloudScoops
   Syndicate Mobile Large Warp Disruptor: deployable/MobileWarpDisruptor
   Syndicate Mobile Medium Warp Disruptor: deployable/MobileWarpDisruptor
   Syndicate Mobile Small Warp Disruptor: deployable/MobileWarpDisruptor
@@ -70424,6 +71278,9 @@ name2group:
   Talwar Halcyon Dawn SKIN: skins/PermanentSKIN
   Talwar Hazard Control SKIN: skins/PermanentSKIN
   Talwar Justice SKIN: skins/PermanentSKIN
+  Talwar Krusual SKIN: skins/PermanentSKIN
+  Talwar Liberation Games SKIN: skins/PermanentSKIN
+  Talwar Nefantar SKIN: skins/PermanentSKIN
   Talwar Republic Fleet SKIN: skins/PermanentSKIN
   Talwar Sebiestor SKIN: skins/PermanentSKIN
   Talwar Sebiestor SKIN (30 Days): skins/Max30DaySKIN
@@ -70433,6 +71290,7 @@ name2group:
   Talwar Sebiestor Serenity Only SKIN: skins/PermanentSKIN
   Talwar Semiotique Sports SKIN: skins/PermanentSKIN
   Talwar Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Talwar Thukker Tribe SKIN: skins/PermanentSKIN
   Talwar Triglavian Twilight SKIN: skins/PermanentSKIN
   Talwar Tronhadar Ink SKIN: skins/PermanentSKIN
   Talwar Valklear Glory SKIN: skins/PermanentSKIN
@@ -70544,6 +71402,7 @@ name2group:
   Tempest Blue Tiger SKIN: skins/PermanentSKIN
   Tempest Blueprint: blueprint/BattleshipBlueprint
   Tempest Capsuleer Day XV SKIN: skins/PermanentSKIN
+  Tempest Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Tempest Dawn of Liberation SKIN: skins/PermanentSKIN
   Tempest Exoplanets Hunter SKIN: skins/PermanentSKIN
   Tempest Fleet Issue: ship/Battleship
@@ -70552,12 +71411,14 @@ name2group:
   Tempest Fleet Issue Bloody Hands SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Blueprint: blueprint/BattleshipBlueprint
   Tempest Fleet Issue Brutor SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Dawn of Liberation SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Halcyon Dawn SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Justice SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Krusual SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Liberation Games SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Nefantar SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Sebiestor SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
@@ -70581,6 +71442,7 @@ name2group:
   Tempest Krusual SKIN (7 Days): skins/Max7DaySKIN
   Tempest Krusual SKIN (90 Days): skins/Max90DaySKIN
   Tempest Krusual Serenity Only SKIN: skins/PermanentSKIN
+  Tempest Liberation Games SKIN: skins/PermanentSKIN
   Tempest Nefantar SKIN: skins/PermanentSKIN
   Tempest Nefantar SKIN (30 Days): skins/Max30DaySKIN
   Tempest Nefantar SKIN (365 Days): skins/Max1YearSKIN
@@ -70736,6 +71598,7 @@ name2group:
   Thanatos Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Thanatos Intaki Syndicate SKIN: skins/PermanentSKIN
   Thanatos Kopis Edge SKIN: skins/PermanentSKIN
+  Thanatos Luminaire Rising SKIN: skins/PermanentSKIN
   Thanatos Malagrin Marshlight SKIN: skins/PermanentSKIN
   Thanatos Quafe SKIN: skins/PermanentSKIN
   Thanatos Quafe SKIN (30 Days): skins/Max30DaySKIN
@@ -70904,6 +71767,7 @@ name2group:
   Thrasher Biosecurity Responders SKIN: skins/PermanentSKIN
   Thrasher Blue Tiger SKIN: skins/PermanentSKIN
   Thrasher Blueprint: blueprint/DestroyerBlueprint
+  Thrasher Brutor SKIN: skins/PermanentSKIN
   Thrasher Combat Crate: specialeditionassets/SpecialEditionCommodities
   Thrasher Exoplanets Hunter SKIN: skins/PermanentSKIN
   Thrasher Firewall Breach SKIN: skins/PermanentSKIN
@@ -70913,6 +71777,7 @@ name2group:
   Thrasher Harmonious Ascension SKIN: skins/PermanentSKIN
   Thrasher Hazard Control SKIN: skins/PermanentSKIN
   Thrasher Justice SKIN: skins/PermanentSKIN
+  Thrasher Liberation Games SKIN: skins/PermanentSKIN
   Thrasher Luminaire Zenith SKIN: skins/PermanentSKIN
   Thrasher Metalbee Minmatar SKIN (Permanent): skins/PermanentSKIN
   Thrasher Nefantar SKIN: skins/PermanentSKIN
@@ -70922,8 +71787,10 @@ name2group:
   Thrasher Nefantar SKIN (90 Days): skins/Max90DaySKIN
   Thrasher Nefantar Serenity Only SKIN: skins/PermanentSKIN
   Thrasher Republic Fleet SKIN: skins/PermanentSKIN
+  Thrasher Sebiestor SKIN: skins/PermanentSKIN
   Thrasher Semiotique Superluminal SKIN: skins/PermanentSKIN
   Thrasher Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Thrasher Starkmanir SKIN: skins/PermanentSKIN
   Thrasher Thukker Tribe SKIN: skins/PermanentSKIN
   Thrasher Thukker Tribe SKIN (30 Days): skins/Max30DaySKIN
   Thrasher Thukker Tribe SKIN (365 Days): skins/Max1YearSKIN
@@ -70931,6 +71798,7 @@ name2group:
   Thrasher Thukker Tribe SKIN (90 Days): skins/Max90DaySKIN
   Thrasher Tronhadar Ink SKIN: skins/PermanentSKIN
   Thrasher Valklear Glory SKIN: skins/PermanentSKIN
+  Thrasher Vherokior SKIN: skins/PermanentSKIN
   Thrasher Zakura Shumyu SKIN: skins/PermanentSKIN
   Threaded Waypoint Map: commodity/Commodities
   Three Dimensional Thinking Bonus: bonus/PhysicalBenefit
@@ -71079,6 +71947,7 @@ name2group:
   Tornado Blueprint: blueprint/BattlecruiserBlueprint
   Tornado Capsuleer Day XV SKIN: skins/PermanentSKIN
   Tornado Capsuleer Elite XIX SKIN: skins/PermanentSKIN
+  Tornado Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Tornado Exoplanets Hunter SKIN: skins/PermanentSKIN
   Tornado Glacial Drift SKIN: skins/PermanentSKIN
   Tornado Golden SKIN: skins/PermanentSKIN
@@ -71180,8 +72049,10 @@ name2group:
   Training Certificate: commodity/Miscellaneous
   Training Complex Passkey: commodity/AccelerationGateKeys
   Training Container - Anomalies: entity/SpawnContainer
+  Training Container - Data: entity/SpawnContainer
   Training Container - Gas: entity/SpawnContainer
   Training Container - Ore: entity/SpawnContainer
+  Training Container - Relic: entity/SpawnContainer
   Training Container - Salvaging: entity/SpawnContainer
   Training Drone: entity/RogueDrone
   Trajectory Analysis: skill/Gunnery
@@ -71289,6 +72160,7 @@ name2group:
   Tristan Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Tristan Intaki Syndicate SKIN: skins/PermanentSKIN
   Tristan Kopis Edge SKIN: skins/PermanentSKIN
+  Tristan Luminaire Zenith SKIN: skins/PermanentSKIN
   Tristan Quafe Green Apple SKIN: skins/PermanentSKIN
   Tristan Quafe SKIN: skins/PermanentSKIN
   Tristan Quafe SKIN (30 Days): skins/Max30DaySKIN
@@ -71633,6 +72505,7 @@ name2group:
   Typhoon Bloody Hands SKIN: skins/PermanentSKIN
   Typhoon Blue Tiger SKIN: skins/PermanentSKIN
   Typhoon Blueprint: blueprint/BattleshipBlueprint
+  Typhoon Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Typhoon Cryptic Mimesis SKIN: skins/PermanentSKIN
   Typhoon Dawn of Liberation SKIN: skins/PermanentSKIN
   Typhoon Deathglow Remnant SKIN: skins/PermanentSKIN
@@ -71643,6 +72516,8 @@ name2group:
   Typhoon Fleet Issue Biosecurity Responders SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Bloody Hands SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Blueprint: blueprint/BattleshipBlueprint
+  Typhoon Fleet Issue Brutor SKIN: skins/PermanentSKIN
+  Typhoon Fleet Issue Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Cryptic Mimesis SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Dawn of Liberation SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -71652,7 +72527,13 @@ name2group:
   Typhoon Fleet Issue Hunter's Quiver SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue IGC SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Justice SKIN: skins/PermanentSKIN
+  Typhoon Fleet Issue Krusual SKIN: skins/PermanentSKIN
+  Typhoon Fleet Issue Nefantar SKIN: skins/PermanentSKIN
+  Typhoon Fleet Issue Sebiestor SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Typhoon Fleet Issue Starkmanir SKIN: skins/PermanentSKIN
+  Typhoon Fleet Issue Thukker Tribe SKIN: skins/PermanentSKIN
+  Typhoon Fleet Issue Vherokior SKIN: skins/PermanentSKIN
   Typhoon Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Typhoon Freedom's Revolution SKIN: skins/PermanentSKIN
   Typhoon Glacial Drift SKIN: skins/PermanentSKIN
@@ -72043,6 +72924,7 @@ name2group:
   Vagabond Blue Tiger SKIN: skins/PermanentSKIN
   Vagabond Blueprint: blueprint/CruiserBlueprint
   Vagabond Capsuleer Day XV SKIN: skins/PermanentSKIN
+  Vagabond Chainbreaker Khumaak SKIN: skins/PermanentSKIN
   Vagabond Dawn of Liberation SKIN: skins/PermanentSKIN
   Vagabond Exoplanets Hunter SKIN: skins/PermanentSKIN
   Vagabond Glacial Drift SKIN: skins/PermanentSKIN
@@ -72323,6 +73205,7 @@ name2group:
   Vexor InterBus SKIN (90 Days): skins/Max90DaySKIN
   Vexor InterBus Serenity Only SKIN: skins/PermanentSKIN
   Vexor Kopis Edge SKIN: skins/PermanentSKIN
+  Vexor Luminaire Rising SKIN: skins/PermanentSKIN
   Vexor Luminaire Zenith SKIN: skins/PermanentSKIN
   Vexor Navy Issue: ship/Cruiser
   Vexor Navy Issue Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -72414,13 +73297,20 @@ name2group:
   Vigil Fleet Issue Abyssal Glory SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Biosecurity Responders SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Blueprint: blueprint/FrigateBlueprint
+  Vigil Fleet Issue Brutor SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Dawn of Liberation SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Halcyon Dawn SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Justice SKIN: skins/PermanentSKIN
+  Vigil Fleet Issue Krusual SKIN: skins/PermanentSKIN
+  Vigil Fleet Issue Nefantar SKIN: skins/PermanentSKIN
+  Vigil Fleet Issue Sebiestor SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Spirit SKIN: skins/PermanentSKIN
+  Vigil Fleet Issue Starkmanir SKIN: skins/PermanentSKIN
+  Vigil Fleet Issue Thukker Tribe SKIN: skins/PermanentSKIN
+  Vigil Fleet Issue Vherokior SKIN: skins/PermanentSKIN
   Vigil Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Vigil Glacial Drift SKIN: skins/PermanentSKIN
   Vigil Halcyon Dawn SKIN: skins/PermanentSKIN
@@ -72908,6 +73798,7 @@ name2group:
   Women's 'Hover' Tights (yellow): apparel/Bottoms
   Women's 'Humanitarian' T-shirt YC 115: apparel/Tops
   Women's 'Humanitarian' T-shirt YC 117: apparel/Tops
+  Women's 'Hyper' Racing Jacket: apparel/Outer
   Women's 'Imkuradori' Facial Augmentation: apparel/Augmentations
   Women's 'Imperial Loyalist' Beret: apparel/Headwear
   Women's 'Imperial Loyalist' Jacket: apparel/Outer
@@ -73029,7 +73920,7 @@ name2group:
   Women's 'Semiotique Sports' Shoes: apparel/Footwear
   Women's 'Semiotique Superluminal' Jacket: apparel/Outer
   Women's 'Semiotique Superluminal' Pants: apparel/Bottoms
-  'Women''s ''Semiotique Superluminal'' Shades ': apparel/Eyewear
+  Women's 'Semiotique Superluminal' Shades: apparel/Eyewear
   Women's 'Semiotique TorsoRig' Body Augmentation: apparel/Augmentations
   Women's 'Serpentis' T-shirt (olive/black): apparel/Tops
   Women's 'Shadowglam' Facial Augmentation: apparel/Augmentations
@@ -73120,6 +74011,8 @@ name2group:
   Women's Albedo Affluence Jacket: apparel/Outer
   Women's Albedo Affluence Pants: apparel/Outer
   Women's Amarr 'Loyalist' T-Shirt: apparel/Tops
+  Women's Amarr Courtly Robe: apparel/Outer
+  Women's Amarr Devotional Robe: apparel/Outer
   Women's Amarr Empire Command Jacket: apparel/Outer
   Women's Amarr Empire Exploration Suit: apparel/Outer
   Women's Aurora Universalis Cap: apparel/Headwear
@@ -73175,6 +74068,7 @@ name2group:
   Women's Gallente Federation Exploration Suit: apparel/Outer
   Women's Genolution Combat Suit: apparel/Outer
   Women's Genolution Tactical Goggles: apparel/Eyewear
+  Women's Grand Prix Racing Jacket: apparel/Outer
   Women's IGC Location Scout Suit: apparel/Outer
   Women's Imperial Commander's Dress Jacket: apparel/Outer
   Women's Imperial Commander's Dress Pants: apparel/Bottoms
@@ -73190,7 +74084,11 @@ name2group:
   Women's Jita 4-4 Executive Pants: apparel/Bottoms
   Women's Kimotoro Eskeitan Commander's Jacket: apparel/Outer
   Women's Kimotoro Eskeitan Commander's Pants: apparel/Bottoms
+  Women's Minmatar 'Freedom Fighter' Cap: apparel/Headwear
+  Women's Minmatar 'Freedom Fighter' T-Shirt: apparel/Tops
   Women's Minmatar 'Liberator' T-Shirt: apparel/Tops
+  Women's Minmatar 'Rebellion' Cap: apparel/Headwear
+  Women's Minmatar 'Rebellion' T-Shirt: apparel/Tops
   Women's Minmatar Republic Exploration Suit: apparel/Outer
   Women's Minmatar Republic Officer Jacket: apparel/Outer
   Women's ORE Claim Surveyor Suit: apparel/Outer
@@ -73266,6 +74164,7 @@ name2group:
   Wreathe Blue Tiger SKIN: skins/PermanentSKIN
   Wreathe Blueprint: blueprint/HaulerBlueprint
   Wreathe Exoplanets Hunter SKIN: skins/PermanentSKIN
+  Wreathe Fleet Ordnance Spike SKIN: skins/PermanentSKIN
   Wreathe Glacial Drift SKIN: skins/PermanentSKIN
   Wreathe Halcyon Dawn SKIN: skins/PermanentSKIN
   Wreathe Hazard Control SKIN: skins/PermanentSKIN
@@ -73874,6 +74773,7 @@ name2group:
   ♦ Nightmare: entity/NPCBattleship
   ♦ Obelisk: entity/NPCMiningHauler
   ♦ Occator: entity/NPCMiningHauler
+  ♦ Officer Chemosh: entity/NPCDreadnought
   ♦ Omen: entity/NPCCruiser
   ♦ Orca: entity/NPCIndustrialCommand
   ♦ Osprey: entity/NPCCruiser

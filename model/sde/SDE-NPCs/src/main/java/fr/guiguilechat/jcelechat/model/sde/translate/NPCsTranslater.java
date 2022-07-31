@@ -15,7 +15,6 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
@@ -34,7 +33,6 @@ import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_TYPE;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Corporation;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer.ItemRef;
-import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 
 public class NPCsTranslater {
@@ -99,9 +97,9 @@ public class NPCsTranslater {
 
 		// prefetch
 		MapHolder<Integer, R_get_corporations_corporation_id>
-		corporationsHolder = ((ListHolder<Integer>) cache.corporations.npccorps().follow(l -> {
+		corporationsHolder = cache.corporations.npccorps().follow(l -> {
 			l.parallelStream().forEach(cache.corporations::get);
-		})).toMap(i -> i, i -> cache.corporations.get(i).get());
+		}).toMap(i -> i, i -> cache.corporations.get(i).get());
 		MapHolder<Integer, R_get_universe_factions> factionsHolder = cache.universe.factions().toMap(f -> f.faction_id);
 		eagents.values().parallelStream().map(ag -> ag.locationID).distinct()
 		.forEach(lid -> Location.resolve(null, lid).system());
@@ -171,14 +169,23 @@ public class NPCsTranslater {
 			}
 			corporations.put(add.name, add);
 		}
-		Map<Integer, LPOffer> covertedOffers = corporations.values().stream().parallel().flatMap(c -> {
-			Requested<R_get_loyalty_stores_corporation_id_offers[]> req = esi.connection.get_loyalty_stores_offers(c.id,
-					null);
-			return req.isOk() ? Stream.of(req.getOK()) : Stream.empty();
-		}).map(offer -> makeOffer(offer)).filter(o -> o != null)
+
+		logger.info("translated corporations");
+
+		Map<Integer, R_get_loyalty_stores_corporation_id_offers[]> corpId2offers = corporations.values().stream().parallel()
+				.collect(Collectors.toMap(c -> c.id, c -> esi.connection
+						.get_loyalty_stores_offers(c.id, null).getOKOr(new R_get_loyalty_stores_corporation_id_offers[] {})));
+
+		logger.info("cached offers");
+
+		Map<Integer, LPOffer> covertedOffers = corpId2offers.values().stream().flatMap(Stream::of)
+				.map(offer -> makeOffer(offer)).filter(o -> o != null)
 				.collect(Collectors.toMap(off -> off.id, off -> off, (o1, o2) -> o1));
 		offers.putAll(covertedOffers);
-		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, esi.connection, offers));
+		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, corpId2offers.get(c.id), offers));
+
+		logger.info("added offers to corporations");
+
 	}
 
 	protected static LPOffer makeOffer(R_get_loyalty_stores_corporation_id_offers o) {
@@ -229,10 +236,10 @@ public class NPCsTranslater {
 		return lpo;
 	}
 
-	protected static void loadCorpOffers(Corporation c, ESIStatic raw, LinkedHashMap<Integer, LPOffer> alloffers) {
-		Requested<R_get_loyalty_stores_corporation_id_offers[]> offers = raw.get_loyalty_stores_offers(c.id, null);
-		if (offers != null && offers.isOk()) {
-			for (R_get_loyalty_stores_corporation_id_offers o : offers.getOK()) {
+	protected static void loadCorpOffers(Corporation c, R_get_loyalty_stores_corporation_id_offers[] offers,
+			LinkedHashMap<Integer, LPOffer> alloffers) {
+		if (offers != null) {
+			for (R_get_loyalty_stores_corporation_id_offers o : offers) {
 				if (alloffers.containsKey(o.offer_id)) {
 					c.lpoffers.add(o.offer_id);
 				}

@@ -84,8 +84,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28418
     id: 17466
     marketGroup: 517
     mass: 1.0000000409184788E35
@@ -101,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 16.0
-  'Compressed Bright Spodumain ':
+  Compressed Bright Spodumain:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -109,7 +107,7 @@ types:
     id: 62573
     marketGroup: 517
     mass: 1.0000000409184788E35
-    name: 'Compressed Bright Spodumain '
+    name: Compressed Bright Spodumain
     orebasictype: 19
     packagedVolume: 0.1599999964237213
     portionSize: 100
@@ -121,7 +119,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1599999964237213
-  'Compressed Dazzling Spodumain ':
+  Compressed Dazzling Spodumain:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -129,7 +127,7 @@ types:
     id: 62575
     marketGroup: 517
     mass: 1.0
-    name: 'Compressed Dazzling Spodumain '
+    name: Compressed Dazzling Spodumain
     orebasictype: 46688
     packagedVolume: 0.1599999964237213
     portionSize: 100
@@ -141,7 +139,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1599999964237213
-  'Compressed Gleaming Spodumain ':
+  Compressed Gleaming Spodumain:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -149,7 +147,7 @@ types:
     id: 62574
     marketGroup: 517
     mass: 1.0000000409184788E35
-    name: 'Compressed Gleaming Spodumain '
+    name: Compressed Gleaming Spodumain
     orebasictype: 19
     packagedVolume: 0.1599999964237213
     portionSize: 100
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 800
-    compressionquantityneeded: 100
-    compressiontypeid: 46704
     id: 46688
     marketGroup: 517
     mass: 1.0000000409184788E35
@@ -208,8 +204,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28419
     id: 17467
     marketGroup: 517
     mass: 1.0000000409184788E35
@@ -230,8 +224,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28420
     id: 19
     marketGroup: 517
     mass: 1.0000000409184788E35

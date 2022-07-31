@@ -79,7 +79,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
-  'Compressed Immaculate Jaspet ':
+  Compressed Immaculate Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -87,7 +87,7 @@ types:
     id: 62543
     marketGroup: 529
     mass: 1.0
-    name: 'Compressed Immaculate Jaspet '
+    name: Compressed Immaculate Jaspet
     orebasictype: 46682
     packagedVolume: 0.019999999552965164
     portionSize: 100
@@ -119,7 +119,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.019999999552965164
-  'Compressed Pristine Jaspet ':
+  Compressed Pristine Jaspet:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -127,7 +127,7 @@ types:
     id: 62542
     marketGroup: 529
     mass: 1.0000000409184788E35
-    name: 'Compressed Pristine Jaspet '
+    name: Compressed Pristine Jaspet
     orebasictype: 1226
     packagedVolume: 0.019999999552965164
     portionSize: 100
@@ -164,8 +164,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.15000000596046448
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 46698
     id: 46682
     marketGroup: 529
     mass: 1.0000000409184788E35
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28406
     id: 1226
     marketGroup: 529
     mass: 1.0000000409184788E35
@@ -227,8 +223,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28407
     id: 17449
     marketGroup: 529
     mass: 1.0000000409184788E35
@@ -249,8 +243,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28408
     id: 17448
     marketGroup: 529
     mass: 1.0000000409184788E35

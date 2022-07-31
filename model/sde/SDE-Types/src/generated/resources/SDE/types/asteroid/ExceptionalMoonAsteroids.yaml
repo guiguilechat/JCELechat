@@ -79,7 +79,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 10.0
-  'Compressed Bountiful Loparite ':
+  Compressed Bountiful Loparite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.75
@@ -87,7 +87,7 @@ types:
     id: 62505
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Bountiful Loparite '
+    name: Compressed Bountiful Loparite
     orebasictype: 45512
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -99,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Bountiful Monazite ':
+  Compressed Bountiful Monazite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.75
@@ -107,7 +107,7 @@ types:
     id: 62508
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Bountiful Monazite '
+    name: Compressed Bountiful Monazite
     orebasictype: 45511
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -139,7 +139,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Bountiful Ytterbite ':
+  Compressed Bountiful Ytterbite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.75
@@ -147,7 +147,7 @@ types:
     id: 62514
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Bountiful Ytterbite '
+    name: Compressed Bountiful Ytterbite
     orebasictype: 45513
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -159,7 +159,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Loparite ':
+  Compressed Loparite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.75
@@ -167,7 +167,7 @@ types:
     id: 62504
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Loparite '
+    name: Compressed Loparite
     orebasictype: 45512
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -179,7 +179,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Monazite ':
+  Compressed Monazite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.75
@@ -187,7 +187,7 @@ types:
     id: 62507
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Monazite '
+    name: Compressed Monazite
     orebasictype: 45511
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -199,7 +199,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Shining Loparite ':
+  Compressed Shining Loparite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
     asteroidradiusgrowthfactor: 0.75
@@ -207,7 +207,7 @@ types:
     id: 62506
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Shining Loparite '
+    name: Compressed Shining Loparite
     orebasictype: 45512
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -219,7 +219,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Shining Monazite ':
+  Compressed Shining Monazite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
     asteroidradiusgrowthfactor: 0.75
@@ -227,7 +227,7 @@ types:
     id: 62509
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Shining Monazite '
+    name: Compressed Shining Monazite
     orebasictype: 45511
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -239,7 +239,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Shining Xenotime ':
+  Compressed Shining Xenotime:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
     asteroidradiusgrowthfactor: 0.75
@@ -247,7 +247,7 @@ types:
     id: 62512
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Shining Xenotime '
+    name: Compressed Shining Xenotime
     orebasictype: 45510
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -279,7 +279,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Xenotime ':
+  Compressed Xenotime:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.75
@@ -287,7 +287,7 @@ types:
     id: 62510
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Xenotime '
+    name: Compressed Xenotime
     orebasictype: 45510
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -299,7 +299,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Ytterbite ':
+  Compressed Ytterbite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.75
@@ -307,7 +307,7 @@ types:
     id: 62513
     marketGroup: 2401
     mass: 4000.0
-    name: 'Compressed Ytterbite '
+    name: Compressed Ytterbite
     orebasictype: 45513
     packagedVolume: 0.10000000149011612
     portionSize: 100

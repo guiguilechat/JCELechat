@@ -95,12 +95,12 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  'Men''s ''Semiotique Superluminal'' Shades ':
+  Men's 'Semiotique Superluminal' Shades:
     gender: 2
     id: 63058
     marketGroup: 1408
     mass: 0.5
-    name: 'Men''s ''Semiotique Superluminal'' Shades '
+    name: Men's 'Semiotique Superluminal' Shades
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -252,12 +252,12 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  'Women''s ''Semiotique Superluminal'' Shades ':
+  Women's 'Semiotique Superluminal' Shades:
     gender: 2
     id: 63061
     marketGroup: 1408
     mass: 0.5
-    name: 'Women''s ''Semiotique Superluminal'' Shades '
+    name: Women's 'Semiotique Superluminal' Shades
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

@@ -19,7 +19,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 30000
     entitybracketcolour: 1
-    entitychasemaxdelay: 20000
+    entitychasemaxdelay: 20000.0
     entitychasemaxdelaychance: 0.3499999940395355
     entitychasemaxdistance: 15000
     entitychasemaxduration: 10000
@@ -105,7 +105,7 @@ types:
     entityattackdelaymin: 2500
     entityattackrange: 10000
     entitybracketcolour: 1
-    entitychasemaxdelay: 20000
+    entitychasemaxdelay: 20000.0
     entitychasemaxdelaychance: 0.6499999761581421
     entitychasemaxdistance: 5000
     entitychasemaxduration: 10000
@@ -189,7 +189,7 @@ types:
     entityattackdelaymax: 7500
     entityattackdelaymin: 1500
     entityattackrange: 30000
-    entitychasemaxdelay: 20000
+    entitychasemaxdelay: 20000.0
     entitychasemaxdelaychance: 0.3499999940395355
     entitychasemaxdistance: 15000
     entitychasemaxduration: 10000
@@ -271,7 +271,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 40000
     entitybracketcolour: 1
-    entitychasemaxdelay: 15000
+    entitychasemaxdelay: 15000.0
     entitychasemaxdelaychance: 0.3499999940395355
     entitychasemaxdistance: 15000
     entitychasemaxduration: 10000
@@ -350,7 +350,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 30000
     entitybracketcolour: 1
-    entitychasemaxdelay: 15000
+    entitychasemaxdelay: 15000.0
     entitychasemaxdelaychance: 0.3499999940395355
     entitychasemaxdistance: 17500
     entitychasemaxduration: 10000
@@ -433,7 +433,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 35000
     entitybracketcolour: 1
-    entitychasemaxdelay: 15000
+    entitychasemaxdelay: 15000.0
     entitychasemaxdelaychance: 0.3499999940395355
     entitychasemaxdistance: 20000
     entitychasemaxduration: 10000
@@ -516,7 +516,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 30000
     entitybracketcolour: 1
-    entitychasemaxdelay: 15000
+    entitychasemaxdelay: 15000.0
     entitychasemaxdelaychance: 0.3499999940395355
     entitychasemaxdistance: 17500
     entitychasemaxduration: 10000

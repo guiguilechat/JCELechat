@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde.compile;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
@@ -10,12 +11,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.JArray;
@@ -42,6 +41,9 @@ import com.helger.jcodemodel.JSwitch;
 import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JTypeVar;
 import com.helger.jcodemodel.JVar;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.AttributeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
@@ -115,6 +117,7 @@ public class SDECompiler {
 
 		HashMap<Integer, JInvocation> catIDToGroupListInvoke = new HashMap<>();
 		HashMap<Integer, JFieldRef> catIDToMetaInstance = new HashMap<>();
+		List<JFieldRef> metaCats = new ArrayList<>();
 
 		for (Entry<Integer, CatDetails> cate : hierarchy.catID2Details.entrySet()) {
 			CatDetails details = cate.getValue();
@@ -136,6 +139,7 @@ public class SDECompiler {
 				// create the returned instance
 				JVar metaInstance = catClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, metaCat, "METACAT")
 						.init(JExpr._new(metaCat));
+				metaCats.add(catClass.staticRef(metaInstance));
 				JMethod catGetMeta = catClass.method(JMod.PUBLIC, ret.metaCatClass.narrow(catClass), "getCategory");
 				catGetMeta.body()._return(metaInstance);
 				catGetMeta.annotate(Override.class);
@@ -167,6 +171,15 @@ public class SDECompiler {
 			}
 		}
 
+		// add all metacats to the IMetaCat
+		JFieldVar metaclassesField = ret.metaCatClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL,
+				ret.metaCatClass.array(), "INSTANCES");
+		JArray arr = JExpr.newArray(ret.metaCatClass);
+		for (JFieldRef jvar : metaCats) {
+			arr.add(jvar);
+		}
+		metaclassesField.init(arr);
+
 		// then create all typeid groups
 
 		for (Entry<Integer, GroupDetails> groupEntry : hierarchy.groupID2Details.entrySet()) {
@@ -174,12 +187,14 @@ public class SDECompiler {
 			int groupid = groupEntry.getKey();
 			CatDetails cd = hierarchy.catID2Details.get(gd.catID);
 			if (cd.published && !gd.published) {
-				logger.debug("skipped group " + gd.name + "(" + groupEntry.getKey() + "), is not published while cat " + cd.name
-						+ " is");
+				// logger.debug("skipped group " + gd.name + "(" + groupEntry.getKey() +
+				// "), is not published while cat " + cd.name
+				// + " is");
 				continue;
 			}
 			if (gd.name == null) {
-				logger.debug("skipped group " + groupEntry.getKey() + " has no name");
+				// logger.debug("skipped group " + groupEntry.getKey() + " has no
+				// name");
 				continue;
 			}
 
@@ -187,13 +202,15 @@ public class SDECompiler {
 			if (hierarchy.groupID2TypeIDs.get(groupid).stream().map(i -> hierarchy.typeID2Details.get(i))
 					.filter(td -> !ignoreType(cd.published, gd.published, td.published)).findAny().isEmpty()) {
 				groupID2AttIDs.put(groupid, new HashSet<>());
-				logger.debug("skipped group " + gd.name + "(" + groupEntry.getKey() + "), has no Type");
+				// logger.debug("skipped group " + gd.name + "(" + groupEntry.getKey() +
+				// "), has no Type");
 				continue;
 			}
 
 			JDefinedClass catClass = ret.catID2Class.get(gd.catID);
 			if (catClass == null) {
-				logger.warn("skipped group " + gd.name + "(" + groupEntry.getKey() + "), can't resolve category " + gd.id);
+				// logger.warn("skipped group " + gd.name + "(" + groupEntry.getKey() +
+				// "), can't resolve category " + gd.id);
 				continue;
 			}
 			String name = formatName(gd.name);
@@ -546,7 +563,8 @@ public class SDECompiler {
 				if (hierarchy.groupID2TypeIDs.get(groupid).stream().map(i -> hierarchy.typeID2Details.get(i))
 						.filter(td -> !ignoreType(cd.published, gd.published, td.published)).findAny().isEmpty()) {
 					groupID2AttIDs.put(groupid, new HashSet<>());
-					logger.debug("skip group id=" + groupid + " name=" + gd.name + " as it has no published type");
+					// logger.debug("skip group id=" + groupid + " name=" + gd.name + " as
+					// it has no published type");
 					continue;
 				}
 				HashSet<Integer> groupAttributes = new HashSet<>();
@@ -560,6 +578,8 @@ public class SDECompiler {
 				} else {
 					catAttributes.retainAll(groupAttributes);
 				}
+				// logger.debug("group " + groupid + " has attributes " +
+				// groupAttributes);
 			}
 			if (catAttributes == null) {
 				catAttributes = new HashSet<>();

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The maximum amount of time stalled before entity chase speed kicks in.
  */
 public class EntityChaseMaxDelay
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final EntityChaseMaxDelay INSTANCE = new EntityChaseMaxDelay();
 

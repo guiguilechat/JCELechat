@@ -62,7 +62,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Magma Mercoxit ':
+  Compressed Magma Mercoxit:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
@@ -71,7 +71,7 @@ types:
     id: 62587
     marketGroup: 530
     mass: 1.0000000409184788E35
-    name: 'Compressed Magma Mercoxit '
+    name: Compressed Magma Mercoxit
     orebasictype: 11396
     packagedVolume: 0.4000000059604645
     portionSize: 100
@@ -83,7 +83,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.4000000059604645
-  'Compressed Mercoxit ':
+  Compressed Mercoxit:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
@@ -92,7 +92,7 @@ types:
     id: 62586
     marketGroup: 530
     mass: 1.0000000409184788E35
-    name: 'Compressed Mercoxit '
+    name: Compressed Mercoxit
     orebasictype: 11396
     packagedVolume: 0.4000000059604645
     portionSize: 100
@@ -104,7 +104,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.4000000059604645
-  'Compressed Vitreous Mercoxit ':
+  Compressed Vitreous Mercoxit:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 90
@@ -113,7 +113,7 @@ types:
     id: 62588
     marketGroup: 530
     mass: 1.0000000409184788E35
-    name: 'Compressed Vitreous Mercoxit '
+    name: Compressed Vitreous Mercoxit
     orebasictype: 11396
     packagedVolume: 0.4000000059604645
     portionSize: 100
@@ -129,8 +129,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28412
     damagecloudchance: 0.05000000074505806
     damagecloudtype: 11546
     id: 17869
@@ -152,8 +150,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28413
     damagecloudchance: 0.05000000074505806
     damagecloudtype: 11546
     id: 11396
@@ -175,8 +171,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28414
     damagecloudchance: 0.05000000074505806
     damagecloudtype: 11546
     id: 17870

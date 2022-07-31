@@ -34,7 +34,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 14400
     entitychasemaxduration: 3000
@@ -135,7 +135,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 35000
     entitybracketcolour: 1
-    entitychasemaxdelay: 15000
+    entitychasemaxdelay: 15000.0
     entitychasemaxdelaychance: 0.3499999940395355
     entitychasemaxdistance: 2500
     entitychasemaxduration: 10000
@@ -237,7 +237,7 @@ types:
     emdamageresonance: 0.6700000166893005
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -331,7 +331,7 @@ types:
     energyneutralizeramount: 50.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 10000
     entitychasemaxduration: 3000
@@ -416,7 +416,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -509,7 +509,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 20000
     entitybracketcolour: 1
-    entitychasemaxdelay: 15000
+    entitychasemaxdelay: 15000.0
     entitychasemaxdelaychance: 0.6499999761581421
     entitychasemaxdistance: 2500
     entitychasemaxduration: 10000
@@ -607,7 +607,7 @@ types:
     emdamageresonance: 0.4690000116825104
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 30000
     entitychasemaxduration: 3000
@@ -705,7 +705,7 @@ types:
     energyneutralizeramount: 80.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 20000
     entitychasemaxduration: 3000
@@ -795,7 +795,7 @@ types:
     emdamageresonance: 0.4690000116825104
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 40000
     entitychasemaxduration: 3000
@@ -887,7 +887,7 @@ types:
     emdamageresonance: 0.4690000116825104
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 25000
     entitychasemaxduration: 3000
@@ -981,7 +981,7 @@ types:
     emdamageresonance: 0.4690000116825104
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 40000
     entitychasemaxduration: 3000
@@ -1075,7 +1075,7 @@ types:
     emdamageresonance: 0.4690000116825104
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 40000
     entitychasemaxduration: 3000
@@ -1166,7 +1166,7 @@ types:
     emdamageresonance: 0.4690000116825104
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 9000
     entitychasemaxduration: 3000
@@ -1270,7 +1270,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 14400
     entitychasemaxduration: 3000
@@ -1371,7 +1371,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 40000
     entitybracketcolour: 1
-    entitychasemaxdelay: 15000
+    entitychasemaxdelay: 15000.0
     entitychasemaxdelaychance: 0.6499999761581421
     entitychasemaxdistance: 2500
     entitychasemaxduration: 10000
@@ -1469,7 +1469,7 @@ types:
     entityattackdelaymin: 5475
     entityattackrange: 11400
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.25
     entitychasemaxdistance: 7600
     entitychasemaxduration: 10000
@@ -1567,7 +1567,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1652,7 +1652,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1751,7 +1751,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1833,7 +1833,7 @@ types:
     emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1927,7 +1927,7 @@ types:
     emdamageresonance: 0.6600000262260437
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 40000
     entitychasemaxduration: 3000
@@ -2024,7 +2024,7 @@ types:
     emdamageresonance: 0.6600000262260437
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 40000
     entitychasemaxduration: 3000
@@ -2106,7 +2106,7 @@ types:
     emdamageresonance: 0.6600000262260437
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 40000
     entitychasemaxduration: 3000
@@ -2197,7 +2197,7 @@ types:
     entityattackdelaymin: 5000
     entityattackrange: 60000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 16500
     entitychasemaxduration: 10000
@@ -2295,7 +2295,7 @@ types:
     entityattackdelaymin: 5000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 0.019999999552965164
     entitychasemaxdistance: 5500
     entitychasemaxduration: 10000
@@ -2394,7 +2394,7 @@ types:
     entityattackdelaymin: 5000
     entityattackrange: 60000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 16500
     entitychasemaxduration: 10000
@@ -2486,7 +2486,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2571,7 +2571,7 @@ types:
     emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2656,7 +2656,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2748,7 +2748,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2843,7 +2843,7 @@ types:
     emdamageresonance: 0.4699999988079071
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 20000
     entitychasemaxduration: 3000
@@ -2940,7 +2940,7 @@ types:
     energyneutralizeramount: 53.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 19000
     entitychasemaxduration: 3000
@@ -3039,7 +3039,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -3133,7 +3133,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -3228,7 +3228,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -3319,7 +3319,7 @@ types:
     emdamageresonance: 0.6700000166893005
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -3406,7 +3406,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3482,7 +3482,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3558,7 +3558,7 @@ types:
     emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3646,7 +3646,7 @@ types:
     energyneutralizeramount: 60.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3741,7 +3741,7 @@ types:
     entityattackdelaymin: 5175
     entityattackrange: 47500
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.10000000149011612
     entitychasemaxdistance: 28500
     entitychasemaxduration: 10000
@@ -3849,7 +3849,7 @@ types:
     entityattackdelaymin: 5025
     entityattackrange: 55000
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.10000000149011612
     entitychasemaxdistance: 33000
     entitychasemaxduration: 10000
@@ -3953,7 +3953,7 @@ types:
     entityattackdelaymin: 5400
     entityattackrange: 42500
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
@@ -4063,7 +4063,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 35000
     entitybracketcolour: 1
-    entitychasemaxdelay: 15000
+    entitychasemaxdelay: 15000.0
     entitychasemaxdelaychance: 0.3499999940395355
     entitychasemaxdistance: 2500
     entitychasemaxduration: 10000
@@ -4161,7 +4161,7 @@ types:
     emdamageresonance: 0.6700000166893005
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 14000
     entitychasemaxduration: 3000
@@ -4261,7 +4261,7 @@ types:
     energyneutralizeramount: 150.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 20000
     entitychasemaxduration: 3000
@@ -4370,7 +4370,7 @@ types:
     energyneutralizeramount: 40.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -4461,7 +4461,7 @@ types:
     emdamageresonance: 0.4000000059604645
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 10000
     entitychasemaxduration: 3000
@@ -4557,7 +4557,7 @@ types:
     emdamageresonance: 0.4000000059604645
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 17000
     entitychasemaxduration: 3000
@@ -4648,7 +4648,7 @@ types:
     emdamageresonance: 0.6600000262260437
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 18000
     entitychasemaxduration: 3000
@@ -4743,7 +4743,7 @@ types:
     energyneutralizeramount: 53.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 18000
     entitychasemaxduration: 3000
@@ -4841,7 +4841,7 @@ types:
     entityattackdelaymin: 5025
     entityattackrange: 18000
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 12000
     entitychasemaxduration: 10000
@@ -4943,7 +4943,7 @@ types:
     emdamageresonance: 0.4690000116825104
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 40000
     entitychasemaxduration: 3000
@@ -5034,7 +5034,7 @@ types:
     emdamageresonance: 0.4000000059604645
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 27000
     entitychasemaxduration: 3000
@@ -5078,6 +5078,7 @@ types:
     optimalsigradius: 40000
     packagedVolume: 107000.0
     portionSize: 1
+    price: 1.3340104E7
     published: false
     radius: 174.0
     rechargerate: 300000.0
@@ -5129,7 +5130,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 25000
     entitychasemaxduration: 3000
@@ -5217,7 +5218,7 @@ types:
     energyneutralizeramount: 40.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -5299,6 +5300,10 @@ types:
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviortargetpainterdischarge: 2.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 75000.0
+    behaviortargetpainterrange: 80000.0
     behaviorwebifierdischarge: 2.0
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 40000.0
@@ -5311,7 +5316,7 @@ types:
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 16000
     entitychasemaxduration: 3000
@@ -5368,6 +5373,7 @@ types:
     shieldthermaldamageresonance: 0.30000001192092896
     shielduniformity: 0.75
     signatureradius: 180.0
+    signatureradiusbonus: 60.0
     speedfactor: -50.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.4000000059604645
@@ -5407,7 +5413,7 @@ types:
     energyneutralizeramount: 180.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -5506,7 +5512,7 @@ types:
     emdamageresonance: 0.6700000166893005
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -5600,7 +5606,7 @@ types:
     emdamageresonance: 0.6669999957084656
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -5694,7 +5700,7 @@ types:
     energyneutralizeramount: 110.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 20000
     entitychasemaxduration: 3000
@@ -5793,7 +5799,7 @@ types:
     emdamageresonance: 0.6669999957084656
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 16000
     entitychasemaxduration: 3000
@@ -5881,7 +5887,7 @@ types:
     emdamageresonance: 0.4000000059604645
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 50000
     entitychasemaxduration: 3000
@@ -5980,7 +5986,7 @@ types:
     emdamageresonance: 0.6700000166893005
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 11000
     entitychasemaxduration: 3000
@@ -6098,7 +6104,7 @@ types:
     emdamageresonance: 0.6700000166893005
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 11000
     entitychasemaxduration: 3000
@@ -6210,7 +6216,7 @@ types:
     emdamageresonance: 0.6700000166893005
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 14000
     entitychasemaxduration: 3000
@@ -6315,7 +6321,7 @@ types:
     energyneutralizeramount: 180.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -6413,7 +6419,7 @@ types:
     entityattackdelaymin: 5550
     entityattackrange: 10800
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.25
     entitychasemaxdistance: 7200
     entitychasemaxduration: 10000

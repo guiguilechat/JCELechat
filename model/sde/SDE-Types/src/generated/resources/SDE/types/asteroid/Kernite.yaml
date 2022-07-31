@@ -79,7 +79,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
-  'Compressed Fiery Kernite ':
+  Compressed Fiery Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -87,7 +87,7 @@ types:
     id: 62538
     marketGroup: 523
     mass: 1.0000000409184788E35
-    name: 'Compressed Fiery Kernite '
+    name: Compressed Fiery Kernite
     orebasictype: 20
     packagedVolume: 0.012000000104308128
     portionSize: 100
@@ -99,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.012000000104308128
-  'Compressed Kernite ':
+  Compressed Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -107,7 +107,7 @@ types:
     id: 62536
     marketGroup: 523
     mass: 1.0000000409184788E35
-    name: 'Compressed Kernite '
+    name: Compressed Kernite
     orebasictype: 20
     packagedVolume: 0.012000000104308128
     portionSize: 100
@@ -119,7 +119,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.012000000104308128
-  'Compressed Luminous Kernite ':
+  Compressed Luminous Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -127,7 +127,7 @@ types:
     id: 62537
     marketGroup: 523
     mass: 1.0000000409184788E35
-    name: 'Compressed Luminous Kernite '
+    name: Compressed Luminous Kernite
     orebasictype: 20
     packagedVolume: 0.012000000104308128
     portionSize: 100
@@ -139,7 +139,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.012000000104308128
-  'Compressed Resplendant Kernite ':
+  Compressed Resplendant Kernite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -147,7 +147,7 @@ types:
     id: 62539
     marketGroup: 523
     mass: 1.0
-    name: 'Compressed Resplendant Kernite '
+    name: Compressed Resplendant Kernite
     orebasictype: 46683
     packagedVolume: 0.012000000104308128
     portionSize: 100
@@ -164,8 +164,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28409
     id: 17453
     marketGroup: 523
     mass: 1.0000000409184788E35
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28410
     id: 20
     marketGroup: 523
     mass: 1.0000000409184788E35
@@ -208,8 +204,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28411
     id: 17452
     marketGroup: 523
     mass: 1.0000000409184788E35
@@ -249,8 +243,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.09000000357627869
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 46699
     id: 46683
     marketGroup: 523
     mass: 1.0000000409184788E35

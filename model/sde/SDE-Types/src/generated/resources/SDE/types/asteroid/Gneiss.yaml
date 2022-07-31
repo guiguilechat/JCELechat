@@ -84,8 +84,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.3499999940395355
     asteroidradiusunitsize: 650
-    compressionquantityneeded: 100
-    compressiontypeid: 46695
     id: 46679
     marketGroup: 525
     mass: 1.0000000409184788E35
@@ -101,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 5.0
-  'Compressed Brilliant Gneiss ':
+  Compressed Brilliant Gneiss:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -109,7 +107,7 @@ types:
     id: 62555
     marketGroup: 525
     mass: 1.0
-    name: 'Compressed Brilliant Gneiss '
+    name: Compressed Brilliant Gneiss
     orebasictype: 46679
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -141,7 +139,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.05000000074505806
-  'Compressed Iridescent Gneiss ':
+  Compressed Iridescent Gneiss:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -149,7 +147,7 @@ types:
     id: 62553
     marketGroup: 525
     mass: 1.0000000409184788E35
-    name: 'Compressed Iridescent Gneiss '
+    name: Compressed Iridescent Gneiss
     orebasictype: 1229
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 400
-    compressionquantityneeded: 100
-    compressiontypeid: 28397
     id: 1229
     marketGroup: 525
     mass: 1.0000000409184788E35
@@ -227,8 +223,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 400
-    compressionquantityneeded: 100
-    compressiontypeid: 28398
     id: 17865
     marketGroup: 525
     mass: 1.0000000409184788E35
@@ -249,8 +243,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 400
-    compressionquantityneeded: 100
-    compressiontypeid: 28399
     id: 17866
     marketGroup: 525
     mass: 1.0000000409184788E35

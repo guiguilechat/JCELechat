@@ -11,7 +11,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -60,7 +60,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -104,7 +104,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -148,7 +148,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -197,7 +197,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -246,7 +246,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -295,7 +295,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -344,7 +344,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -392,7 +392,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -437,7 +437,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -482,7 +482,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -528,7 +528,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -577,7 +577,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -626,7 +626,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -674,7 +674,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -720,7 +720,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -769,7 +769,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -818,7 +818,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -867,7 +867,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -916,7 +916,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -965,7 +965,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1014,7 +1014,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1063,7 +1063,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1112,7 +1112,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1161,7 +1161,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1210,7 +1210,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1259,7 +1259,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1307,7 +1307,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1353,7 +1353,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1402,7 +1402,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1451,7 +1451,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1500,7 +1500,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1549,7 +1549,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1598,7 +1598,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1647,7 +1647,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1696,7 +1696,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1744,7 +1744,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1790,7 +1790,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1839,7 +1839,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1888,7 +1888,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1937,7 +1937,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -1986,7 +1986,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2035,7 +2035,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2084,7 +2084,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2133,7 +2133,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2182,7 +2182,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2231,7 +2231,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2280,7 +2280,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2317,6 +2317,55 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Angel Hideout:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 750.0
+    id: 64113
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Angel Hideout
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 7000.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
   Angel Junction:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -2329,7 +2378,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2378,7 +2427,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2415,6 +2464,103 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Angel Repair Hub:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 1000.0
+    id: 64517
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Angel Repair Hub
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldcapacity: 100.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
+  Angel Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 700.0
+    id: 64149
+    kineticdamageresonance: 1.0
+    mass: 50000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Angel Tower
+    optimalsigradius: 1000
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 4000.0
+    shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000.0
+    warpscrambleduration: 8000
   Angel Wall:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -2427,7 +2573,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2464,6 +2610,53 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Angel Warehouse:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 500.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 700.0
+    id: 64129
+    kineticdamageresonance: 1.0
+    mass: 10000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Angel Warehouse
+    optimalsigradius: 1000
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 1200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000.0
+    warpscrambleduration: 8000
   AoE SmartBomb Test:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -2480,7 +2673,7 @@ types:
     emdamageresonance: 1.0
     empfieldrange: 10000
     entityattackrange: 10000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2529,7 +2722,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2578,7 +2771,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2627,7 +2820,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2676,7 +2869,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2725,7 +2918,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2773,7 +2966,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2820,7 +3013,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2868,7 +3061,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2917,7 +3110,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -2966,7 +3159,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3015,7 +3208,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3064,7 +3257,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3113,7 +3306,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3162,7 +3355,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3210,7 +3403,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3258,7 +3451,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3307,7 +3500,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3356,7 +3549,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3405,7 +3598,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3454,7 +3647,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3503,7 +3696,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3552,7 +3745,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3601,7 +3794,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3650,7 +3843,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3699,7 +3892,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3748,7 +3941,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3797,7 +3990,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3846,7 +4039,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3895,7 +4088,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3944,7 +4137,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -3993,7 +4186,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4042,7 +4235,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4091,7 +4284,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4140,7 +4333,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4189,7 +4382,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4238,7 +4431,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4287,7 +4480,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4336,7 +4529,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4385,7 +4578,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4434,7 +4627,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4471,6 +4664,199 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Bloodraider Hideout:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 750.0
+    id: 64105
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Bloodraider Hideout
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 7500.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
+  Bloodraider Repair Hub:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 1000.0
+    id: 64515
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Bloodraider Repair Hub
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 1200.0
+    shieldcapacity: 100.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
+  Bloodraider Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 500.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 700.0
+    id: 64141
+    kineticdamageresonance: 1.0
+    mass: 50000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Bloodraider Tower
+    optimalsigradius: 1000
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 4000.0
+    shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000.0
+    warpscrambleduration: 8000
+  Bloodraider Warehouse:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 500.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 700.0
+    id: 64121
+    kineticdamageresonance: 1.0
+    mass: 10000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Bloodraider Warehouse
+    optimalsigradius: 1000
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000.0
+    warpscrambleduration: 8000
   Bloodsport Arena:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -4483,7 +4869,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4532,7 +4918,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4581,7 +4967,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4630,7 +5016,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4679,7 +5065,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4724,7 +5110,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4763,7 +5149,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4808,7 +5194,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4857,7 +5243,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4906,7 +5292,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -4955,7 +5341,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5004,7 +5390,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5053,7 +5439,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5102,7 +5488,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5151,7 +5537,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5200,7 +5586,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5249,7 +5635,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5298,7 +5684,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5347,7 +5733,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5396,7 +5782,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5444,7 +5830,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5489,7 +5875,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5535,7 +5921,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5584,7 +5970,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5633,7 +6019,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5682,7 +6068,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5731,7 +6117,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5780,7 +6166,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5829,7 +6215,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5878,7 +6264,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5927,7 +6313,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -5964,6 +6350,55 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Concord Prison Facility:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 50000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 100000.0
+    id: 64522
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Concord Prison Facility
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 10000.0
+    shieldcapacity: 25000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
   Conquerable Station 1:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -5975,7 +6410,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6020,7 +6455,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6065,7 +6500,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6108,7 +6543,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6151,7 +6586,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6200,7 +6635,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6247,7 +6682,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6296,7 +6731,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6345,7 +6780,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6394,7 +6829,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6442,7 +6877,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6491,7 +6926,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6540,7 +6975,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6589,7 +7024,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6638,7 +7073,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6687,7 +7122,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6736,7 +7171,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6785,7 +7220,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6834,7 +7269,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6883,7 +7318,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6932,7 +7367,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -6981,7 +7416,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7030,7 +7465,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7079,7 +7514,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7128,7 +7563,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7177,7 +7612,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7226,7 +7661,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7275,7 +7710,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7323,7 +7758,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7369,7 +7804,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7415,7 +7850,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7461,7 +7896,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7506,7 +7941,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7554,7 +7989,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7603,7 +8038,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7652,7 +8087,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7704,7 +8139,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 0.5
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7762,7 +8197,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7812,7 +8247,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7860,7 +8295,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7907,7 +8342,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7951,7 +8386,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -7995,7 +8430,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8039,7 +8474,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8083,7 +8518,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8127,7 +8562,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8171,7 +8606,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8220,7 +8655,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8269,7 +8704,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8318,7 +8753,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8367,7 +8802,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8416,7 +8851,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8465,7 +8900,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8514,7 +8949,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8563,7 +8998,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8611,7 +9046,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8657,7 +9092,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8706,7 +9141,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8755,7 +9190,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8804,7 +9239,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8853,7 +9288,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8901,7 +9336,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8946,7 +9381,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -8991,7 +9426,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9036,7 +9471,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9081,7 +9516,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9127,7 +9562,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9176,7 +9611,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9225,7 +9660,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9274,7 +9709,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9323,7 +9758,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9372,7 +9807,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9421,7 +9856,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9470,7 +9905,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9518,7 +9953,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9567,7 +10002,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9616,7 +10051,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9665,7 +10100,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9714,7 +10149,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9763,7 +10198,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9812,7 +10247,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9861,7 +10296,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9910,7 +10345,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -9947,6 +10382,55 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Guristas Hideout:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 750.0
+    id: 64117
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Guristas Hideout
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 12000.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
   Guristas Junction:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -9959,7 +10443,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10008,7 +10492,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10045,6 +10529,55 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Guristas Repair Hub:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 1000.0
+    id: 64518
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Guristas Repair Hub
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldcapacity: 100.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
   Guristas Starbase Control Tower:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -10057,7 +10590,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10106,7 +10639,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10155,7 +10688,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10192,6 +10725,54 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Guristas Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 700.0
+    id: 64153
+    kineticdamageresonance: 1.0
+    mass: 50000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Guristas Tower
+    optimalsigradius: 1000
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 4000.0
+    shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000.0
+    warpscrambleduration: 8000
   Guristas Wall:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -10204,7 +10785,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10253,7 +10834,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10290,6 +10871,53 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Guristas Warehouse:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 500.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 700.0
+    id: 64133
+    kineticdamageresonance: 1.0
+    mass: 10000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Guristas Warehouse
+    optimalsigradius: 1000
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000.0
+    warpscrambleduration: 8000
   Habitation Module - Breeding Facility:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -10302,7 +10930,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10351,7 +10979,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10400,7 +11028,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10449,7 +11077,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10498,7 +11126,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10547,7 +11175,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10596,7 +11224,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10645,7 +11273,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10694,7 +11322,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10743,7 +11371,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10780,6 +11408,47 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Hotel:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 1000.0
+    id: 64184
+    kineticdamageresonance: 1.0
+    mass: 10000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Hotel
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 14000.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
   HumanFarm:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -10792,7 +11461,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10841,7 +11510,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10890,7 +11559,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10939,7 +11608,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -10988,7 +11657,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11037,7 +11706,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11086,7 +11755,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11135,7 +11804,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11183,7 +11852,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11232,7 +11901,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11281,7 +11950,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11330,7 +11999,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11379,7 +12048,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11428,7 +12097,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11480,7 +12149,7 @@ types:
     emdamage: 9.0
     emdamageresonance: 1.0
     entityattackrange: 250000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11541,7 +12210,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11589,7 +12258,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11638,7 +12307,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11687,7 +12356,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11736,7 +12405,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11785,7 +12454,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11834,7 +12503,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11883,7 +12552,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11932,7 +12601,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -11981,7 +12650,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12030,7 +12699,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12079,7 +12748,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12127,7 +12796,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12173,7 +12842,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12222,7 +12891,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12271,7 +12940,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12319,7 +12988,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12364,7 +13033,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12410,7 +13079,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12459,7 +13128,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12508,7 +13177,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12557,7 +13226,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12606,7 +13275,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12655,7 +13324,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12704,7 +13373,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12753,7 +13422,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12798,7 +13467,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12836,7 +13505,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12879,7 +13548,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12928,7 +13597,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -12976,7 +13645,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13020,7 +13689,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13066,7 +13735,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13115,7 +13784,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13164,7 +13833,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13213,7 +13882,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13263,7 +13932,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13312,7 +13981,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13361,7 +14030,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13410,7 +14079,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13459,7 +14128,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13508,7 +14177,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13557,7 +14226,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13606,7 +14275,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13655,7 +14324,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13703,7 +14372,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13752,7 +14421,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13801,7 +14470,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13850,7 +14519,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13899,7 +14568,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13948,7 +14617,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -13997,7 +14666,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14046,7 +14715,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14095,7 +14764,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14144,7 +14813,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14193,7 +14862,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14242,7 +14911,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14291,7 +14960,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14340,7 +15009,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14389,7 +15058,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14438,7 +15107,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14487,7 +15156,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14536,7 +15205,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14585,7 +15254,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14634,7 +15303,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14683,7 +15352,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14731,7 +15400,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14776,7 +15445,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14825,7 +15494,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14874,7 +15543,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14922,7 +15591,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -14971,7 +15640,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15020,7 +15689,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15069,7 +15738,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15118,7 +15787,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15167,7 +15836,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15204,6 +15873,55 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Serpentis Hideout:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 750.0
+    id: 64109
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Serpentis Hideout
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 12000.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
   Serpentis Junction:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -15216,7 +15934,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15265,7 +15983,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15302,6 +16020,55 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Serpentis Repair Hub:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 1000.0
+    id: 64516
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Serpentis Repair Hub
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 1200.0
+    shieldcapacity: 100.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
   Serpentis Secure Hold:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -15313,7 +16080,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15359,7 +16126,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15396,6 +16163,54 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Serpentis Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 700.0
+    id: 64145
+    kineticdamageresonance: 1.0
+    mass: 50000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Serpentis Tower
+    optimalsigradius: 1000
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 4000.0
+    shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000.0
+    warpscrambleduration: 8000
   Serpentis Wall:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -15408,7 +16223,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15445,6 +16260,53 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Serpentis Warehouse:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 500.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 700.0
+    id: 64125
+    kineticdamageresonance: 1.0
+    mass: 10000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Serpentis Warehouse
+    optimalsigradius: 1000
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000.0
+    warpscrambleduration: 8000
   Shipyard:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -15457,7 +16319,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15506,7 +16368,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15555,7 +16417,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15604,7 +16466,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15653,7 +16515,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15702,7 +16564,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15751,7 +16613,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15800,7 +16662,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15849,7 +16711,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15897,7 +16759,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15945,7 +16807,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -15993,7 +16855,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16041,7 +16903,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16090,7 +16952,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16139,7 +17001,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16187,7 +17049,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16235,7 +17097,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16284,7 +17146,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16333,7 +17195,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16381,7 +17243,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16430,7 +17292,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16479,7 +17341,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16528,7 +17390,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16577,7 +17439,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16626,7 +17488,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16675,7 +17537,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16724,7 +17586,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16773,7 +17635,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16821,7 +17683,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16870,7 +17732,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16919,7 +17781,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -16967,7 +17829,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17016,7 +17878,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17065,7 +17927,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17114,7 +17976,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17163,7 +18025,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17212,7 +18074,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17261,7 +18123,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17309,7 +18171,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17354,7 +18216,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17399,7 +18261,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17444,7 +18306,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17489,7 +18351,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17534,7 +18396,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17579,7 +18441,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17625,7 +18487,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17674,7 +18536,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17723,7 +18585,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17772,7 +18634,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17820,7 +18682,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17866,7 +18728,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17915,7 +18777,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -17964,7 +18826,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18013,7 +18875,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18062,7 +18924,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18108,7 +18970,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18149,7 +19011,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18193,7 +19055,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18235,7 +19097,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18281,7 +19143,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18321,7 +19183,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18361,7 +19223,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18400,7 +19262,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18436,7 +19298,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18482,7 +19344,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18528,7 +19390,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18575,7 +19437,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18619,7 +19481,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18667,7 +19529,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18716,7 +19578,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18762,7 +19624,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18808,7 +19670,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18857,7 +19719,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18907,7 +19769,7 @@ types:
     entityattackdelaymax: 30000
     entityattackdelaymin: 7500
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -18963,7 +19825,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -19014,7 +19876,7 @@ types:
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 1000000
     entitychasemaxduration: 5000
@@ -19067,7 +19929,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -19116,7 +19978,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -19163,7 +20025,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -19205,7 +20067,7 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000

@@ -46,6 +46,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpawnWithoutGuardsToo;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialTutorialLootRespawnTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpewContainerLifeExtension;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TierDifficulty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
@@ -282,6 +283,13 @@ public class SpawnContainer
     @DefaultIntValue(30000)
     public int specialtutoriallootrespawntime;
     /**
+     * If present, will add the given value to the automatic computed lifetime of MiniContainers with regards to the time required to take them and the amount of containers scattered out into space.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int spewcontainerlifeextension;
+    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -302,7 +310,7 @@ public class SpawnContainer
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AccessDifficulty.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMax.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, RequiredSkill1Level.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, AllowRefills.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SpecialTutorialLootRespawnTime.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AccessDifficulty.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMax.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, RequiredSkill1Level.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, AllowRefills.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SpecialTutorialLootRespawnTime.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, SpewContainerLifeExtension.INSTANCE, TierDifficulty.INSTANCE })));
     public static final SpawnContainer.MetaGroup METAGROUP = new SpawnContainer.MetaGroup();
 
     @Override
@@ -435,6 +443,10 @@ public class SpawnContainer
             case  1582 :
             {
                 return specialtutoriallootrespawntime;
+            }
+            case  1917 :
+            {
+                return spewcontainerlifeextension;
             }
             case  525 :
             {

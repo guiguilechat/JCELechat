@@ -2281,6 +2281,72 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Enforcer - Calm Abyssal Filaments Crate:
+    exporttaxmultiplier: 1
+    id: 63787
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Enforcer - Calm Abyssal Filaments Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Enforcer - Defense System Skill Crate:
+    exporttaxmultiplier: 1
+    id: 63781
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Enforcer - Defense System Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Enforcer - Destroyer Skill Crate:
+    exporttaxmultiplier: 1
+    id: 63778
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Enforcer - Destroyer Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Enforcer - Frigate Crate:
+    exporttaxmultiplier: 1
+    id: 63782
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Enforcer - Frigate Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Enforcer - Frigate Skill Crate:
+    exporttaxmultiplier: 1
+    id: 63779
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Enforcer - Frigate Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Enforcer - Tranquil Abyssal Filaments Crate:
+    exporttaxmultiplier: 1
+    id: 63786
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Enforcer - Tranquil Abyssal Filaments Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Engraved Blood Obsidian tablet:
     exporttaxmultiplier: 1
     id: 32283
@@ -2331,6 +2397,28 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Explorer - Frigate Crate:
+    exporttaxmultiplier: 1
+    id: 63771
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Explorer - Frigate Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Explorer - Frigate Skill Crate:
+    exporttaxmultiplier: 1
+    id: 63770
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Explorer - Frigate Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Farming Supplies:
     exporttaxmultiplier: 1
     id: 30794
@@ -2918,6 +3006,72 @@ types:
     importtaxmultiplier: 1
     mass: 5.0
     name: Incriminating Evidence
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Industrialist -  Hauler Skill Crate:
+    exporttaxmultiplier: 1
+    id: 63776
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Industrialist -  Hauler Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Industrialist - Cruiser Blueprint Crate:
+    exporttaxmultiplier: 1
+    id: 63774
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Industrialist - Cruiser Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Industrialist - Destroyer Blueprint Crate:
+    exporttaxmultiplier: 1
+    id: 63773
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Industrialist - Destroyer Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Industrialist - Frigate Blueprint Crate:
+    exporttaxmultiplier: 1
+    id: 63772
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Industrialist - Frigate Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Industrialist - Hauler Blueprint Crate:
+    exporttaxmultiplier: 1
+    id: 63775
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Industrialist - Hauler Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Industrialist - Light Combat Drones Crate:
+    exporttaxmultiplier: 1
+    id: 63777
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Industrialist - Light Combat Drones Crate
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -5240,6 +5394,7 @@ types:
     name: Smuggler Lockbox
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.10000000149011612
   Smuggler's Warning About Sister Alitura:
@@ -5262,6 +5417,39 @@ types:
     portionSize: 1
     published: true
     volume: 0.20000000298023224
+  Soldier of Fortune - Combat Frigate Crate:
+    exporttaxmultiplier: 1
+    id: 63784
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Soldier of Fortune - Combat Frigate Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Soldier of Fortune - Frigate Skill Crate:
+    exporttaxmultiplier: 1
+    id: 63783
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Soldier of Fortune - Frigate Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Soldier of Fortune - Support Frigate Crate:
+    exporttaxmultiplier: 1
+    id: 63785
+    importtaxmultiplier: 1
+    marketGroup: 1659
+    mass: 1.0
+    name: Soldier of Fortune - Support Frigate Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Spear of Matar:
     exporttaxmultiplier: 1
     id: 33126

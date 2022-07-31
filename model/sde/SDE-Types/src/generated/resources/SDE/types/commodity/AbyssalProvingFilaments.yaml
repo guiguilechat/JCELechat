@@ -1,35 +1,26 @@
 types:
-  Capsuleer Day 2v2 Navy Frigates Proving Filament:
-    id: 62279
+  1v1 Battlecruisers Proving Filament:
+    id: 63721
     marketGroup: 2747
-    name: Capsuleer Day 2v2 Navy Frigates Proving Filament
+    name: 1v1 Battlecruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Capsuleer Day Sunesis FFA Proving Filament:
-    id: 63714
+  Event 66 Proving Filament:
+    id: 63723
     marketGroup: 2747
-    name: Capsuleer Day Sunesis FFA Proving Filament
+    name: Event 66 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Crimson Harvest Destroyer FFA Proving Filament:
-    id: 60078
+  Foundation Day Amarr Frigate FFA Proving Filament:
+    id: 63722
     marketGroup: 2747
-    name: Crimson Harvest Destroyer FFA Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Event 58 Proving Filament:
-    id: 63715
-    marketGroup: 2747
-    name: Event 58 Proving Filament
+    name: Foundation Day Amarr Frigate FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

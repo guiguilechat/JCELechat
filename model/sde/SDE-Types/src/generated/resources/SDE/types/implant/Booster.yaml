@@ -736,44 +736,18 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  Basic 'Guri Kikhivaa' Cerebral Accelerator:
+  Basic 'Rebel' Cerebral Accelerator:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 19157.45703125
+    boosterlastinjectiondatetime: 19248.45703125
     boosterness: 10
     charismabonus: 4
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 63633
+    id: 65062
     intelligencebonus: 4
     marketGroup: 2487
     memorybonus: 4
-    name: Basic 'Guri Kikhivaa' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 4
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    willpowerbonus: 4
-  Basic Capsuleer Day Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 10
-    charismabonus: 4
-    damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 63852
-    intelligencebonus: 4
-    marketGroup: 2487
-    memorybonus: 4
-    name: Basic Capsuleer Day Cerebral Accelerator
+    name: Basic 'Rebel' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -787,28 +761,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 4
-  Basic Capsuleer Day Glamourex Booster:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 12
-    damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 63849
-    marketGroup: 2530
-    mass: 1.0
-    name: Basic Capsuleer Day Glamourex Booster
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 20
-    socialmutator: 20
-    speedfactor: 1.0
-    volume: 1.0
   Basic Capsuleer Defense Augmentation Chip:
     armorhpbonus2: 5.0
     boostermaxcharagehours: 720
@@ -850,6 +802,25 @@ types:
     published: true
     radius: 1.0
     socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Basic Glamourex Booster:
+    boosterduration: 8.64E7
+    boosterness: 12
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 64724
+    mass: 1.0
+    name: Basic Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 15
+    socialmutator: 15
     speedfactor: 1.0
     volume: 1.0
   Broker Relations Skill Accelerator:
@@ -1064,302 +1035,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  DED Apprehension Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 63898
-    marketGroup: 2791
-    name: DED Apprehension Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    warpscramblerangebonus: 4
-    warpscramblestrengthbonus: 1
-  DED Apprehension Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 63899
-    marketGroup: 2791
-    metalevelold: 3
-    name: DED Apprehension Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    warpscramblerangebonus: 8
-    warpscramblestrengthbonus: 2
-  DED Apprehension Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 63900
-    marketGroup: 2791
-    metalevelold: 5
-    name: DED Apprehension Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    warpscramblerangebonus: 12
-    warpscramblestrengthbonus: 3
-  DED Apprehension Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 63901
-    marketGroup: 2791
-    metalevelold: 6
-    name: DED Apprehension Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    warpscramblerangebonus: 16
-    warpscramblestrengthbonus: 4
-  DED Armor Booster I:
-    armordamageresistancebonus: -2
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63890
-    marketGroup: 2790
-    name: DED Armor Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Armor Booster II:
-    armordamageresistancebonus: -4
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63891
-    marketGroup: 2790
-    metalevelold: 3
-    name: DED Armor Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Armor Booster III:
-    armordamageresistancebonus: -6
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63892
-    marketGroup: 2790
-    metalevelold: 5
-    name: DED Armor Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Armor Booster IV:
-    armordamageresistancebonus: -8
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63893
-    marketGroup: 2790
-    metalevelold: 6
-    name: DED Armor Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Scan Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63882
-    marketGroup: 2531
-    name: DED Scan Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scanresolutionbonus: 4.0
-    scanstrengthbonus: 4
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Scan Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63883
-    marketGroup: 2531
-    metalevelold: 3
-    name: DED Scan Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scanresolutionbonus: 8.0
-    scanstrengthbonus: 8
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Scan Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63884
-    marketGroup: 2531
-    metalevelold: 5
-    name: DED Scan Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scanresolutionbonus: 12.0
-    scanstrengthbonus: 12
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Scan Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63885
-    marketGroup: 2531
-    metalevelold: 6
-    name: DED Scan Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scanresolutionbonus: 16.0
-    scanstrengthbonus: 16
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Turret Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 2
-    id: 63906
-    marketGroup: 2792
-    name: DED Turret Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 2
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Turret Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 4
-    id: 63907
-    marketGroup: 2792
-    metalevelold: 3
-    name: DED Turret Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 4
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Turret Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 6
-    id: 63908
-    marketGroup: 2792
-    metalevelold: 5
-    name: DED Turret Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 6
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  DED Turret Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 8
-    id: 63909
-    marketGroup: 2792
-    metalevelold: 6
-    name: DED Turret Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 8
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
   Daytrading Skill Accelerator:
     boosterduration: 60000.0
     boosterness: 188
@@ -1841,44 +1516,18 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
-  Extended 'Guri Kikhivaa' Cerebral Accelerator:
+  Extended 'Rebel' Cerebral Accelerator:
     boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 19157.45703125
+    boosterlastinjectiondatetime: 19248.45703125
     boosterness: 10
     charismabonus: 6
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 63635
+    id: 65063
     intelligencebonus: 6
     marketGroup: 2487
     memorybonus: 6
-    name: Extended 'Guri Kikhivaa' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 6
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    willpowerbonus: 6
-  Extended Capsuleer Day Cerebral Accelerator:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 10
-    charismabonus: 6
-    damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 63853
-    intelligencebonus: 6
-    marketGroup: 2487
-    memorybonus: 6
-    name: Extended Capsuleer Day Cerebral Accelerator
+    name: Extended 'Rebel' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -1892,28 +1541,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 6
-  Extended Capsuleer Day Glamourex Booster:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 12
-    damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 63850
-    marketGroup: 2530
-    mass: 1.0
-    name: Extended Capsuleer Day Glamourex Booster
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 25
-    socialmutator: 25
-    speedfactor: 1.0
-    volume: 1.0
   Festival-only 'Longbow' CM3 Dose:
     boosterduration: 1.728E8
     boosterness: 89
@@ -2937,6 +2564,89 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
+  Grand Prix Booster I:
+    agilitybonus: -2.0
+    boosterduration: 1.44E7
+    boosterlastinjectiondatetime: 19213.458984375
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 64373
+    name: Grand Prix Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 2.0
+    volume: 1.0
+    warpsbonus: 2
+  Grand Prix Booster II:
+    agilitybonus: -4.0
+    boosterduration: 1.44E7
+    boosterlastinjectiondatetime: 19213.458984375
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 64374
+    metalevelold: 3
+    name: Grand Prix Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 4.0
+    volume: 1.0
+    warpsbonus: 4
+  Grand Prix Booster III:
+    agilitybonus: -6.0
+    boosterduration: 1.44E7
+    boosterlastinjectiondatetime: 19213.458984375
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 64375
+    metalevelold: 5
+    name: Grand Prix Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 6.0
+    volume: 1.0
+    warpsbonus: 6
+  Grand Prix Booster IV:
+    agilitybonus: -8.0
+    boosterduration: 1.44E7
+    boosterlastinjectiondatetime: 19213.458984375
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 64376
+    metalevelold: 6
+    name: Grand Prix Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 8.0
+    volume: 1.0
+    warpsbonus: 8
   Grand Prix Velocity Booster:
     boosterduration: 1.44E7
     boosterlastinjectiondatetime: 18778.0
@@ -3631,606 +3341,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  Hunt Drone Damage Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 2
-    id: 63669
-    marketGroup: 2792
-    name: Hunt Drone Damage Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Drone Damage Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 4
-    id: 63670
-    marketGroup: 2792
-    metalevelold: 3
-    name: Hunt Drone Damage Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Drone Damage Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 6
-    id: 63671
-    marketGroup: 2792
-    metalevelold: 5
-    name: Hunt Drone Damage Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Drone Damage Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 8
-    id: 63672
-    marketGroup: 2792
-    metalevelold: 6
-    name: Hunt Drone Damage Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Drone Precision Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    dronetrackingbonus: 3
-    falloffbonus: 3.0
-    id: 63661
-    marketGroup: 2791
-    name: Hunt Drone Precision Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 3
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Drone Precision Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    dronetrackingbonus: 6
-    falloffbonus: 6.0
-    id: 63662
-    marketGroup: 2791
-    metalevelold: 3
-    name: Hunt Drone Precision Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 6
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Drone Precision Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    dronetrackingbonus: 9
-    falloffbonus: 9.0
-    id: 63663
-    marketGroup: 2791
-    metalevelold: 5
-    name: Hunt Drone Precision Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 9
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Drone Precision Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    dronetrackingbonus: 12
-    falloffbonus: 12.0
-    id: 63664
-    marketGroup: 2791
-    metalevelold: 6
-    name: Hunt Drone Precision Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 12
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Missile Damage Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 3
-    id: 63673
-    marketGroup: 2792
-    name: Hunt Missile Damage Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Missile Damage Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 6
-    id: 63674
-    marketGroup: 2792
-    metalevelold: 3
-    name: Hunt Missile Damage Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Missile Damage Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 9
-    id: 63675
-    marketGroup: 2792
-    metalevelold: 5
-    name: Hunt Missile Damage Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Missile Damage Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    damagemultiplierbonus: 12
-    id: 63676
-    marketGroup: 2792
-    metalevelold: 6
-    name: Hunt Missile Damage Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Missile Velocity Booster I:
-    aoevelocitybonus: 3.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 63665
-    marketGroup: 2791
-    name: Hunt Missile Velocity Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 3.0
-    volume: 1.0
-  Hunt Missile Velocity Booster II:
-    aoevelocitybonus: 6.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 63666
-    marketGroup: 2791
-    metalevelold: 3
-    name: Hunt Missile Velocity Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 6.0
-    volume: 1.0
-  Hunt Missile Velocity Booster III:
-    aoevelocitybonus: 9.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 63667
-    marketGroup: 2791
-    metalevelold: 5
-    name: Hunt Missile Velocity Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 9.0
-    volume: 1.0
-  Hunt Missile Velocity Booster IV:
-    aoevelocitybonus: 12.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 16
-    damagemultiplier: 1.0
-    id: 63668
-    marketGroup: 2791
-    metalevelold: 6
-    name: Hunt Missile Velocity Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 12.0
-    volume: 1.0
-  Hunt Probing Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    durationbonus: -3
-    id: 63645
-    marketGroup: 2531
-    maxscandeviationmodifier: -3
-    name: Hunt Probing Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scanstrengthbonus: 3
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Probing Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    durationbonus: -6
-    id: 63646
-    marketGroup: 2531
-    maxscandeviationmodifier: -6
-    metalevelold: 3
-    name: Hunt Probing Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scanstrengthbonus: 6
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Probing Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    durationbonus: -9
-    id: 63647
-    marketGroup: 2531
-    maxscandeviationmodifier: -9
-    metalevelold: 5
-    name: Hunt Probing Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scanstrengthbonus: 9
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Probing Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    durationbonus: -12
-    id: 63648
-    marketGroup: 2531
-    maxscandeviationmodifier: -12
-    metalevelold: 6
-    name: Hunt Probing Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scanstrengthbonus: 12
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Pursuit Booster I:
-    agilitybonus: -3.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63649
-    marketGroup: 2531
-    name: Hunt Pursuit Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    warpsbonus: 3
-  Hunt Pursuit Booster II:
-    agilitybonus: -6.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63650
-    marketGroup: 2531
-    metalevelold: 3
-    name: Hunt Pursuit Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    warpsbonus: 6
-  Hunt Pursuit Booster III:
-    agilitybonus: -9.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63651
-    marketGroup: 2531
-    metalevelold: 5
-    name: Hunt Pursuit Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    warpsbonus: 9
-  Hunt Pursuit Booster IV:
-    agilitybonus: -12.0
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63652
-    marketGroup: 2531
-    metalevelold: 6
-    name: Hunt Pursuit Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    warpsbonus: 12
-  Hunt Rapid Repair Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    durationskillbonus: -3
-    id: 63653
-    marketGroup: 2790
-    name: Hunt Rapid Repair Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Rapid Repair Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    durationskillbonus: -6
-    id: 63654
-    marketGroup: 2790
-    metalevelold: 3
-    name: Hunt Rapid Repair Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Rapid Repair Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    durationskillbonus: -9
-    id: 63655
-    marketGroup: 2790
-    metalevelold: 5
-    name: Hunt Rapid Repair Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Rapid Repair Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    durationskillbonus: -12
-    id: 63656
-    marketGroup: 2790
-    metalevelold: 6
-    name: Hunt Rapid Repair Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Resistance Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63657
-    marketGroup: 2790
-    name: Hunt Resistance Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    passiveemdamageresistancebonus: -2
-    passiveexplosivedamageresistancebonus: -2
-    passivekineticdamageresistancebonus: -2
-    passivethermicdamageresistancebonus: -2
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Resistance Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63658
-    marketGroup: 2790
-    metalevelold: 3
-    name: Hunt Resistance Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    passiveemdamageresistancebonus: -4
-    passiveexplosivedamageresistancebonus: -4
-    passivekineticdamageresistancebonus: -4
-    passivethermicdamageresistancebonus: -4
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Resistance Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63659
-    marketGroup: 2790
-    metalevelold: 5
-    name: Hunt Resistance Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    passiveemdamageresistancebonus: -6
-    passiveexplosivedamageresistancebonus: -6
-    passivekineticdamageresistancebonus: -6
-    passivethermicdamageresistancebonus: -6
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Hunt Resistance Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19157.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63660
-    marketGroup: 2790
-    metalevelold: 6
-    name: Hunt Resistance Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    passiveemdamageresistancebonus: -8
-    passiveexplosivedamageresistancebonus: -8
-    passivekineticdamageresistancebonus: -8
-    passivethermicdamageresistancebonus: -8
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
   Hybrid Turret Specialization Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 8640
@@ -4590,6 +3700,338 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
+  Liberation Games Accuracy Booster I:
+    aoevelocitybonus: 3.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 64952
+    marketGroup: 2790
+    name: Liberation Games Accuracy Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 3.0
+    volume: 1.0
+  Liberation Games Accuracy Booster II:
+    aoevelocitybonus: 6.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 64949
+    marketGroup: 2790
+    metalevelold: 3
+    name: Liberation Games Accuracy Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  Liberation Games Accuracy Booster III:
+    aoevelocitybonus: 9.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 64950
+    marketGroup: 2790
+    metalevelold: 5
+    name: Liberation Games Accuracy Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 9.0
+    volume: 1.0
+  Liberation Games Accuracy Booster IV:
+    aoevelocitybonus: 12.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 64951
+    marketGroup: 2790
+    metalevelold: 6
+    name: Liberation Games Accuracy Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 12.0
+    volume: 1.0
+  Liberation Games Damage Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 17
+    damagemultiplier: 1.0199999809265137
+    id: 64953
+    marketGroup: 2792
+    missiledamagemultiplierbonus: 1.0199999809265137
+    name: Liberation Games Damage Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Liberation Games Damage Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 17
+    damagemultiplier: 1.0399999618530273
+    id: 64954
+    marketGroup: 2792
+    metalevelold: 3
+    missiledamagemultiplierbonus: 1.0399999618530273
+    name: Liberation Games Damage Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Liberation Games Damage Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 17
+    damagemultiplier: 1.059999942779541
+    id: 64955
+    marketGroup: 2792
+    metalevelold: 5
+    missiledamagemultiplierbonus: 1.059999942779541
+    name: Liberation Games Damage Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Liberation Games Damage Booster IV:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 17
+    damagemultiplier: 1.0800000429153442
+    id: 64956
+    marketGroup: 2792
+    metalevelold: 6
+    missiledamagemultiplierbonus: 1.0800000429153442
+    name: Liberation Games Damage Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  Liberation Games EWar Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 64960
+    marketGroup: 2531
+    name: Liberation Games EWar Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 2
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanskilltargetpaintstrengthbonus: 2
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangebonus: 2
+    volume: 1.0
+  Liberation Games EWar Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 64957
+    marketGroup: 2531
+    metalevelold: 3
+    name: Liberation Games EWar Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 4
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanskilltargetpaintstrengthbonus: 4
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangebonus: 4
+    volume: 1.0
+  Liberation Games EWar Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 64958
+    marketGroup: 2531
+    metalevelold: 5
+    name: Liberation Games EWar Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 6
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanskilltargetpaintstrengthbonus: 6
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangebonus: 6
+    volume: 1.0
+  Liberation Games EWar Booster IV:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 64959
+    marketGroup: 2531
+    metalevelold: 6
+    name: Liberation Games EWar Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 8
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanskilltargetpaintstrengthbonus: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangebonus: 8
+    volume: 1.0
+  Liberation Games Range Booster I:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    falloffbonus: 3.0
+    id: 64961
+    marketGroup: 2791
+    maxrangebonus: 3.0
+    name: Liberation Games Range Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 3.0
+    volume: 1.0
+  Liberation Games Range Booster II:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    falloffbonus: 6.0
+    id: 64962
+    marketGroup: 2791
+    maxrangebonus: 6.0
+    metalevelold: 3
+    name: Liberation Games Range Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 6.0
+    volume: 1.0
+  Liberation Games Range Booster III:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    falloffbonus: 9.0
+    id: 64963
+    marketGroup: 2791
+    maxrangebonus: 9.0
+    metalevelold: 5
+    name: Liberation Games Range Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 9.0
+    volume: 1.0
+  Liberation Games Range Booster IV:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19248.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    falloffbonus: 12.0
+    id: 64964
+    marketGroup: 2791
+    maxrangebonus: 12.0
+    metalevelold: 6
+    name: Liberation Games Range Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 12.0
+    volume: 1.0
   Limited Synth Blue Pill Booster:
     boosterduration: 3600000.0
     boosterness: 1
@@ -5777,44 +5219,18 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 1
-  Potent 'Guri Kikhivaa' Cerebral Accelerator:
+  Potent 'Rebel' Cerebral Accelerator:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 19157.45703125
+    boosterlastinjectiondatetime: 19248.45703125
     boosterness: 10
     charismabonus: 8
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 63634
+    id: 65064
     intelligencebonus: 8
     marketGroup: 2487
     memorybonus: 8
-    name: Potent 'Guri Kikhivaa' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 8
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    willpowerbonus: 8
-  Potent Capsuleer Day Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 10
-    charismabonus: 8
-    damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 63854
-    intelligencebonus: 8
-    marketGroup: 2487
-    memorybonus: 8
-    name: Potent Capsuleer Day Cerebral Accelerator
+    name: Potent 'Rebel' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -5828,28 +5244,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 8
-  Potent Capsuleer Day Glamourex Booster:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 12
-    damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 63851
-    marketGroup: 2530
-    mass: 1.0
-    name: Potent Capsuleer Day Glamourex Booster
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 50
-    socialmutator: 50
-    speedfactor: 1.0
-    volume: 1.0
   Poteque 'Prospector' Sharpeye 11-11:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18627.125
@@ -9057,314 +8451,6 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 10
-  Smuggler Bay Loading Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 63902
-    marketGroup: 2792
-    name: Smuggler Bay Loading Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    reloadtimebonus: -10
-    rofbonus: -2
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Bay Loading Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 63903
-    marketGroup: 2792
-    metalevelold: 3
-    name: Smuggler Bay Loading Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    reloadtimebonus: -20
-    rofbonus: -4
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Bay Loading Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 63904
-    marketGroup: 2792
-    metalevelold: 5
-    name: Smuggler Bay Loading Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    reloadtimebonus: -30
-    rofbonus: -6
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Bay Loading Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 17
-    damagemultiplier: 1.0
-    id: 63905
-    marketGroup: 2792
-    metalevelold: 6
-    name: Smuggler Bay Loading Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    reloadtimebonus: -40
-    rofbonus: -8
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Blockade Running Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 16
-    cargoscanresistance: 1.0
-    damagemultiplier: 1.0
-    id: 63894
-    marketGroup: 2791
-    name: Smuggler Blockade Running Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebifierresistancebonus: -4
-    volume: 1.0
-  Smuggler Blockade Running Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 16
-    cargoscanresistance: 1.0
-    damagemultiplier: 1.0
-    id: 63895
-    marketGroup: 2791
-    metalevelold: 3
-    name: Smuggler Blockade Running Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebifierresistancebonus: -8
-    volume: 1.0
-  Smuggler Blockade Running Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 16
-    cargoscanresistance: 1.0
-    damagemultiplier: 1.0
-    id: 63896
-    marketGroup: 2791
-    metalevelold: 5
-    name: Smuggler Blockade Running Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebifierresistancebonus: -12
-    volume: 1.0
-  Smuggler Blockade Running Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 16
-    cargoscanresistance: 1.0
-    damagemultiplier: 1.0
-    id: 63897
-    marketGroup: 2791
-    metalevelold: 6
-    name: Smuggler Blockade Running Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    socialbonus: 100
-    speedfactor: 1.0
-    stasiswebifierresistancebonus: -16
-    volume: 1.0
-  Smuggler Low Observability Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63878
-    marketGroup: 2531
-    name: Smuggler Low Observability Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scangravimetricstrengthpercent: 4
-    scanladarstrengthpercent: 4
-    scanmagnetometricstrengthpercent: 4
-    scanradarstrengthpercent: 4
-    signatureradiusbonus: -4.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Low Observability Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63879
-    marketGroup: 2531
-    metalevelold: 3
-    name: Smuggler Low Observability Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scangravimetricstrengthpercent: 8
-    scanladarstrengthpercent: 8
-    scanmagnetometricstrengthpercent: 8
-    scanradarstrengthpercent: 8
-    signatureradiusbonus: -8.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Low Observability Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63880
-    marketGroup: 2531
-    metalevelold: 5
-    name: Smuggler Low Observability Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scangravimetricstrengthpercent: 12
-    scanladarstrengthpercent: 12
-    scanmagnetometricstrengthpercent: 12
-    scanradarstrengthpercent: 12
-    signatureradiusbonus: -12.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Low Observability Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 14
-    damagemultiplier: 1.0
-    id: 63881
-    marketGroup: 2531
-    metalevelold: 6
-    name: Smuggler Low Observability Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    scangravimetricstrengthpercent: 16
-    scanladarstrengthpercent: 16
-    scanmagnetometricstrengthpercent: 16
-    scanradarstrengthpercent: 16
-    signatureradiusbonus: -16.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Shield Booster I:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63886
-    marketGroup: 2790
-    name: Smuggler Shield Booster I
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    shieldboostmultiplier: 3.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Shield Booster II:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63887
-    marketGroup: 2790
-    metalevelold: 3
-    name: Smuggler Shield Booster II
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    shieldboostmultiplier: 6.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Shield Booster III:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63888
-    marketGroup: 2790
-    metalevelold: 5
-    name: Smuggler Shield Booster III
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    shieldboostmultiplier: 9.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-  Smuggler Shield Booster IV:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19185.45703125
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 63889
-    marketGroup: 2790
-    metalevelold: 6
-    name: Smuggler Shield Booster IV
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    shieldboostmultiplier: 12.0
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
   Standard Armor Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -10137,7 +9223,7 @@ types:
     boosterness: 14
     damagemultiplier: 1.0
     id: 59633
-    marketGroup: 2503
+    marketGroup: 2531
     mass: 1.0
     name: Strong Veilguard Booster
     nondiminishingskillinjectoruses: 1

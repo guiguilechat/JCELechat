@@ -23,6 +23,38 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Free AIR Enforcer Expert System:
+    id: 63828
+    mass: 1.0
+    name: Free AIR Enforcer Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Free AIR Explorer Expert System:
+    id: 63826
+    mass: 1.0
+    name: Free AIR Explorer Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Free AIR Industrialist Expert System:
+    id: 63827
+    mass: 1.0
+    name: Free AIR Industrialist Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Free AIR Soldier of Fortune Expert System:
+    id: 63829
+    mass: 1.0
+    name: Free AIR Soldier of Fortune Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Frigate Frenzy Expert System:
     id: 63145
     mass: 1.0

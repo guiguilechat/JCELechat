@@ -15,13 +15,13 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 16.0
-  'Compressed Abyssal Rakovene ':
+  Compressed Abyssal Rakovene:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
     asteroidradiusunitsize: 1000
     id: 62580
     marketGroup: 2539
-    name: 'Compressed Abyssal Rakovene '
+    name: Compressed Abyssal Rakovene
     packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 401168.0
@@ -31,13 +31,13 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 0.1599999964237213
-  'Compressed Hadal Rakovene ':
+  Compressed Hadal Rakovene:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
     asteroidradiusunitsize: 1000
     id: 62581
     marketGroup: 2539
-    name: 'Compressed Hadal Rakovene '
+    name: Compressed Hadal Rakovene
     packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 401168.0
@@ -47,13 +47,13 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 0.1599999964237213
-  'Compressed Rakovene ':
+  Compressed Rakovene:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
     asteroidradiusunitsize: 1000
     id: 62579
     marketGroup: 2539
-    name: 'Compressed Rakovene '
+    name: Compressed Rakovene
     packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 401168.0

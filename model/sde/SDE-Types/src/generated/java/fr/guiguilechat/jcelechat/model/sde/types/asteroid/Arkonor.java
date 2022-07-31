@@ -19,8 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionTypeID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -41,20 +39,6 @@ public class Arkonor
     @Stackable(true)
     @DefaultIntValue(16255)
     public int asteroidmaxradius;
-    /**
-     * Number of items needed to be able to compress it
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int compressionquantityneeded;
-    /**
-     * What type this type can be compressed into
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int compressiontypeid;
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
@@ -73,7 +57,7 @@ public class Arkonor
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, Capacity.INSTANCE, AsteroidMaxRadius.INSTANCE, AsteroidMetaLevel.INSTANCE, CompressionTypeID.INSTANCE, CompressionQuantityNeeded.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ReprocessingSkillType.INSTANCE, OreBasicType.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, ReprocessingSkillType.INSTANCE, OreBasicType.INSTANCE, AsteroidMaxRadius.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Arkonor.MetaGroup METAGROUP = new Arkonor.MetaGroup();
 
     @Override
@@ -82,14 +66,6 @@ public class Arkonor
             case  2727 :
             {
                 return asteroidmaxradius;
-            }
-            case  1941 :
-            {
-                return compressionquantityneeded;
-            }
-            case  1940 :
-            {
-                return compressiontypeid;
             }
             case  3236 :
             {

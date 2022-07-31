@@ -4,8 +4,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28367
     id: 22
     marketGroup: 512
     mass: 1.0000000409184788E35
@@ -101,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 8.800000190734863
-  'Compressed Arkonor ':
+  Compressed Arkonor:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 1.0
@@ -109,7 +107,7 @@ types:
     id: 62568
     marketGroup: 512
     mass: 1.0000000409184788E35
-    name: 'Compressed Arkonor '
+    name: Compressed Arkonor
     orebasictype: 22
     packagedVolume: 0.1599999964237213
     portionSize: 100
@@ -121,7 +119,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1599999964237213
-  'Compressed Crimson Arkonor ':
+  Compressed Crimson Arkonor:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 1.0
@@ -129,7 +127,7 @@ types:
     id: 62569
     marketGroup: 512
     mass: 1.0000000409184788E35
-    name: 'Compressed Crimson Arkonor '
+    name: Compressed Crimson Arkonor
     orebasictype: 22
     packagedVolume: 0.1599999964237213
     portionSize: 100
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28385
     id: 17425
     marketGroup: 512
     mass: 1.0000000409184788E35
@@ -208,8 +204,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 800
-    compressionquantityneeded: 100
-    compressiontypeid: 46691
     id: 46678
     marketGroup: 512
     mass: 1.0000000409184788E35
@@ -249,8 +243,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28387
     id: 17426
     marketGroup: 512
     mass: 1.0000000409184788E35

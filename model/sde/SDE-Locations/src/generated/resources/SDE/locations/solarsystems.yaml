@@ -23687,7 +23687,7 @@ locations:
     isWormhole: false
     name: Bereye
     region: Everyshore
-    truesec: 0.6918864952116959
+    truesec: 0.691886495212
   Bersyrim:
     adjacentSystems:
     - Mod
@@ -102302,7 +102302,7 @@ locations:
     isWormhole: false
     name: Parchanier
     region: Sinq Laison
-    truesec: 0.6352463815004841
+    truesec: 0.6352463815
   Parouz:
     adjacentSystems:
     - Fihrneh

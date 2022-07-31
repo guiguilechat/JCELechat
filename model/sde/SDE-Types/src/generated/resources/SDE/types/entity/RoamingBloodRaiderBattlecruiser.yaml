@@ -24,7 +24,7 @@ types:
     entityattackdelaymin: 4725
     entityattackrange: 55000
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.125
     entitychasemaxdistance: 33000
     entitychasemaxduration: 10000

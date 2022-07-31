@@ -3,11 +3,11 @@ package fr.guiguilechat.jcelechat.model.sde.compile;
 import java.io.File;
 import java.io.IOException;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.helger.jcodemodel.writer.JCMWriter;
 import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;

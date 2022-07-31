@@ -212,6 +212,7 @@ types:
     mass: 2000.0
     maxrange: 21000.0
     metagroupid: 3
+    metalevelold: 6
     name: '''Halberd'' Mega Pulse Laser I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15

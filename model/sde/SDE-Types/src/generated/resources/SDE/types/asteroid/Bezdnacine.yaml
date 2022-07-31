@@ -31,13 +31,13 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 16.0
-  'Compressed Abyssal Bezdnacine ':
+  Compressed Abyssal Bezdnacine:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
     asteroidradiusunitsize: 1000
     id: 62577
     marketGroup: 2538
-    name: 'Compressed Abyssal Bezdnacine '
+    name: Compressed Abyssal Bezdnacine
     packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 449945.0
@@ -47,13 +47,13 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 0.1599999964237213
-  'Compressed Bezdnacine ':
+  Compressed Bezdnacine:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
     asteroidradiusunitsize: 1000
     id: 62576
     marketGroup: 2538
-    name: 'Compressed Bezdnacine '
+    name: Compressed Bezdnacine
     packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 449945.0

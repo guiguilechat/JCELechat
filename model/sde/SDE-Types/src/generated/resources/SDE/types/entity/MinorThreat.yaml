@@ -18,7 +18,7 @@ types:
     entityattackdelaymin: 7500
     entityattackrange: 5400
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.125
     entitychasemaxdistance: 3600
     entitychasemaxduration: 10000
@@ -103,7 +103,7 @@ types:
     entityattackdelaymin: 4500
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -189,7 +189,7 @@ types:
     entityattackdelaymin: 7500
     entityattackrange: 10875
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.10000000149011612
     entitychasemaxdistance: 7250
     entitychasemaxduration: 10000
@@ -270,7 +270,7 @@ types:
     entityattackdelaymin: 4500
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -351,7 +351,7 @@ types:
     entityattackdelaymin: 4500
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -418,6 +418,7 @@ types:
     thermaldamageresonance: 1.0
     volume: 19700.0
   Damaged Vessel:
+    armordamage: 600
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 950.0
@@ -429,7 +430,7 @@ types:
     emdamage: 3.0
     emdamageresonance: 1.0
     entityattackrange: 1000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -509,7 +510,7 @@ types:
     entityattackdelaymin: 7500
     entityattackrange: 3125
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.05000000074505806
     entitychasemaxdistance: 1875
     entitychasemaxduration: 10000
@@ -594,7 +595,7 @@ types:
     emdamage: 2.0
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -676,7 +677,7 @@ types:
     entityattackdelaymin: 4500
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -757,7 +758,7 @@ types:
     entityattackdelaymin: 4500
     entityattackrange: 15000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -842,7 +843,7 @@ types:
     entityattackdelaymin: 7500
     entityattackrange: 17000
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.125
     entitychasemaxdistance: 30000
     entitychasemaxduration: 100000
@@ -926,7 +927,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 21000
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.75
     entitychasemaxdistance: 10000
     entitychasemaxduration: 15000
@@ -1010,7 +1011,7 @@ types:
     entityattackdelaymin: 7500
     entityattackrange: 4125
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.10000000149011612
     entitychasemaxdistance: 2750
     entitychasemaxduration: 10000
@@ -1095,7 +1096,7 @@ types:
     entityattackdelaymin: 1500
     entityattackrange: 21000
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.75
     entitychasemaxdistance: 10000
     entitychasemaxduration: 15000

@@ -18,7 +18,7 @@ types:
     entityattackdelaymin: 5550
     entityattackrange: 17250
     entitybracketcolour: 2
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 11500
     entitychasemaxduration: 10000
@@ -96,7 +96,7 @@ types:
     entityattackdelaymin: 5550
     entityattackrange: 28750
     entitybracketcolour: 2
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.10000000149011612
     entitychasemaxdistance: 17250
     entitychasemaxduration: 10000
@@ -185,7 +185,7 @@ types:
     entityattackdelaymin: 5550
     entityattackrange: 8250
     entitybracketcolour: 2
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 5500
     entitychasemaxduration: 10000
@@ -264,7 +264,7 @@ types:
     entityattackdelaymin: 5325
     entityattackrange: 92500
     entitybracketcolour: 2
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.10000000149011612
     entitychasemaxdistance: 37500
     entitychasemaxduration: 10000
@@ -342,7 +342,7 @@ types:
     entityattackdelaymin: 5550
     entityattackrange: 10800
     entitybracketcolour: 2
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.25
     entitychasemaxdistance: 7200
     entitychasemaxduration: 10000
@@ -427,7 +427,7 @@ types:
     entityattackdelaymin: 5550
     entityattackrange: 10800
     entitybracketcolour: 2
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.25
     entitychasemaxdistance: 7200
     entitychasemaxduration: 10000
@@ -514,7 +514,7 @@ types:
     entityattackdelaymin: 5550
     entityattackrange: 17250
     entitybracketcolour: 2
-    entitychasemaxdelay: 10000
+    entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 11500
     entitychasemaxduration: 10000

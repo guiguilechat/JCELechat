@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Loya
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Markets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Opportunities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Route;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Search;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Sovereignty;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Status;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe;
@@ -43,7 +42,6 @@ public abstract class SwaggerDCCache<T extends G_IDCAccess>
     public final Wars wars = new Wars(this);
     public final Characters characters = new Characters(this);
     public final Corporations corporations = new Corporations(this);
-    public final Search search = new Search(this);
 
     public SwaggerDCCache(T swag) {
         swagger = swag;

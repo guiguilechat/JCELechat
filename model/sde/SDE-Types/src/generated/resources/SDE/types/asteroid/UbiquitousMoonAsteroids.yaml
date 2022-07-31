@@ -159,7 +159,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Brimful Coesite ':
+  Compressed Brimful Coesite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.75
@@ -167,7 +167,7 @@ types:
     id: 62458
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Brimful Coesite '
+    name: Compressed Brimful Coesite
     orebasictype: 45493
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -179,7 +179,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Brimful Sylvite ':
+  Compressed Brimful Sylvite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.75
@@ -187,7 +187,7 @@ types:
     id: 62461
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Brimful Sylvite '
+    name: Compressed Brimful Sylvite
     orebasictype: 45491
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -199,7 +199,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Brimful Zeolites ':
+  Compressed Brimful Zeolites:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.75
@@ -207,7 +207,7 @@ types:
     id: 62464
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Brimful Zeolites '
+    name: Compressed Brimful Zeolites
     orebasictype: 45490
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -219,7 +219,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Coesite ':
+  Compressed Coesite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.75
@@ -227,7 +227,7 @@ types:
     id: 62457
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Coesite '
+    name: Compressed Coesite
     orebasictype: 45493
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -239,7 +239,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Glistening Bitumens ':
+  Compressed Glistening Bitumens:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
     asteroidradiusgrowthfactor: 0.75
@@ -247,7 +247,7 @@ types:
     id: 62456
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Glistening Bitumens '
+    name: Compressed Glistening Bitumens
     orebasictype: 45492
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -259,7 +259,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Glistening Coesite ':
+  Compressed Glistening Coesite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
     asteroidradiusgrowthfactor: 0.75
@@ -267,7 +267,7 @@ types:
     id: 62459
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Glistening Coesite '
+    name: Compressed Glistening Coesite
     orebasictype: 45493
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -299,7 +299,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Glistening Zeolites ':
+  Compressed Glistening Zeolites:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
     asteroidradiusgrowthfactor: 0.75
@@ -307,7 +307,7 @@ types:
     id: 62467
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Glistening Zeolites '
+    name: Compressed Glistening Zeolites
     orebasictype: 45490
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -319,7 +319,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Sylvite ':
+  Compressed Sylvite:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.75
@@ -327,7 +327,7 @@ types:
     id: 62460
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Sylvite '
+    name: Compressed Sylvite
     orebasictype: 45491
     packagedVolume: 0.10000000149011612
     portionSize: 100
@@ -339,7 +339,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
-  'Compressed Zeolites ':
+  Compressed Zeolites:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.75
@@ -347,7 +347,7 @@ types:
     id: 62463
     marketGroup: 2396
     mass: 4000.0
-    name: 'Compressed Zeolites '
+    name: Compressed Zeolites
     orebasictype: 45490
     packagedVolume: 0.10000000149011612
     portionSize: 100

@@ -371,7 +371,7 @@ types:
     speedfactor: -100.0
     techlevel: 1
     volume: 3500.0
-  'Medium Industrial Core II ':
+  Medium Industrial Core II:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -405,7 +405,7 @@ types:
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    name: 'Medium Industrial Core II '
+    name: Medium Industrial Core II
     packagedVolume: 3500.0
     portionSize: 1
     power: 80

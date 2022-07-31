@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarke
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Arkonor;
@@ -192,10 +191,8 @@ public class OreAPI {
 		if (usage.compressTo != 0) {
 			Asteroid compressed = (Asteroid) TypeIndex.getType(usage.compressTo);
 			if (compressed != null) {
-				double chunkSize = ore.valueSet(CompressionQuantityNeeded.INSTANCE).doubleValue();
-				long chunks = (long) Math.ceil(baseQtty / chunkSize);
-				float modifVolume = (float) (chunks * chunkSize * ore.volume);
-				ret.compressed = new Prices(market, compressed.id, chunks, modifVolume);
+				float modifVolume = (float) compressed.volume;
+				ret.compressed = new Prices(market, compressed.id, baseQtty, modifVolume);
 				if (ret.compressed.bo < Float.POSITIVE_INFINITY) {
 					ret.highest.bo = Math.max(ret.highest.bo, ret.compressed.bo);
 				}

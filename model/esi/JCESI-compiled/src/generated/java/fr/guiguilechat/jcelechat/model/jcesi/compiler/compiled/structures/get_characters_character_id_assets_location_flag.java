@@ -115,12 +115,16 @@ public enum get_characters_character_id_assets_location_flag {
     Skill("Skill"),
     @JsonProperty("SpecializedAmmoHold")
     SpecializedAmmoHold("SpecializedAmmoHold"),
+    @JsonProperty("SpecializedAsteroidHold")
+    SpecializedAsteroidHold("SpecializedAsteroidHold"),
     @JsonProperty("SpecializedCommandCenterHold")
     SpecializedCommandCenterHold("SpecializedCommandCenterHold"),
     @JsonProperty("SpecializedFuelBay")
     SpecializedFuelBay("SpecializedFuelBay"),
     @JsonProperty("SpecializedGasHold")
     SpecializedGasHold("SpecializedGasHold"),
+    @JsonProperty("SpecializedIceHold")
+    SpecializedIceHold("SpecializedIceHold"),
     @JsonProperty("SpecializedIndustrialShipHold")
     SpecializedIndustrialShipHold("SpecializedIndustrialShipHold"),
     @JsonProperty("SpecializedLargeShipHold")
@@ -141,6 +145,8 @@ public enum get_characters_character_id_assets_location_flag {
     SpecializedShipHold("SpecializedShipHold"),
     @JsonProperty("SpecializedSmallShipHold")
     SpecializedSmallShipHold("SpecializedSmallShipHold"),
+    @JsonProperty("StructureDeedBay")
+    StructureDeedBay("StructureDeedBay"),
     @JsonProperty("SubSystemBay")
     SubSystemBay("SubSystemBay"),
     @JsonProperty("SubSystemSlot0")

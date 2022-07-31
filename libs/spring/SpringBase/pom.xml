@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.jcelechat.libs</groupId>
     <artifactId>spring</artifactId>
-    <version>6.3.7</version>
+    <version>6.3.8</version>
   </parent>
   <groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
   <artifactId>SpringBase</artifactId>

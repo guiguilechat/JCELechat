@@ -15,7 +15,7 @@ types:
     energyneutralizerentitychance: 1.0
     energyneutralizerrangeoptimal: 5000
     entityattackrange: 5000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -78,7 +78,7 @@ types:
     energyneutralizerentitychance: 1.0
     energyneutralizerrangeoptimal: 7500
     entityattackrange: 5000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
@@ -141,7 +141,7 @@ types:
     energyneutralizerentitychance: 1.0
     energyneutralizerrangeoptimal: 10000
     entityattackrange: 5000
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 5000
     entitychasemaxduration: 2500

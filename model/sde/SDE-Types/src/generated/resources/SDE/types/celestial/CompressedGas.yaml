@@ -65,10 +65,10 @@ types:
     portionSize: 1
     published: true
     volume: 0.20000000298023224
-  'Compressed Fullerite-C32 ':
+  Compressed Fullerite-C32:
     id: 62404
     marketGroup: 2814
-    name: 'Compressed Fullerite-C32 '
+    name: Compressed Fullerite-C32
     packagedVolume: 0.5
     portionSize: 1
     published: true
@@ -81,34 +81,34 @@ types:
     portionSize: 1
     published: true
     volume: 0.5
-  'Compressed Fullerite-C50 ':
+  Compressed Fullerite-C50:
     id: 62399
     marketGroup: 2814
-    name: 'Compressed Fullerite-C50 '
+    name: Compressed Fullerite-C50
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  'Compressed Fullerite-C540 ':
+  Compressed Fullerite-C540:
     id: 62405
     marketGroup: 2814
-    name: 'Compressed Fullerite-C540 '
+    name: Compressed Fullerite-C540
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
-  'Compressed Fullerite-C60 ':
+  Compressed Fullerite-C60:
     id: 62397
     marketGroup: 2814
-    name: 'Compressed Fullerite-C60 '
+    name: Compressed Fullerite-C60
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  'Compressed Fullerite-C70 ':
+  Compressed Fullerite-C70:
     id: 62398
     marketGroup: 2814
-    name: 'Compressed Fullerite-C70 '
+    name: Compressed Fullerite-C70
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -129,10 +129,10 @@ types:
     portionSize: 1
     published: true
     volume: 0.20000000298023224
-  'Compressed Gamboge Cytoserocin ':
+  Compressed Gamboge Cytoserocin:
     id: 62389
     ignoreminingwaste: 1
-    name: 'Compressed Gamboge Cytoserocin '
+    name: Compressed Gamboge Cytoserocin
     packagedVolume: 1.0
     portionSize: 1
     price: 2000.0
@@ -203,10 +203,10 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  'Compressed Viridian Cytoserocin ':
+  Compressed Viridian Cytoserocin:
     id: 62394
     marketGroup: 2814
-    name: 'Compressed Viridian Cytoserocin '
+    name: Compressed Viridian Cytoserocin
     packagedVolume: 1.0
     portionSize: 1
     published: true

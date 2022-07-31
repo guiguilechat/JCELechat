@@ -11,7 +11,7 @@ types:
     capacitorcapacity: 575.0
     capacity: 135.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 3000
@@ -69,7 +69,7 @@ types:
     capacitorcapacity: 575.0
     capacity: 135.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 3000
@@ -127,7 +127,7 @@ types:
     capacitorcapacity: 575.0
     capacity: 135.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 3000
@@ -185,7 +185,7 @@ types:
     capacitorcapacity: 575.0
     capacity: 135.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 3000
@@ -243,7 +243,7 @@ types:
     capacitorcapacity: 575.0
     capacity: 135.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 3000
@@ -301,7 +301,7 @@ types:
     capacitorcapacity: 575.0
     capacity: 135.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 3000
@@ -359,7 +359,7 @@ types:
     capacitorcapacity: 575.0
     capacity: 135.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 3000
@@ -417,7 +417,7 @@ types:
     capacitorcapacity: 575.0
     capacity: 135.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 8000
     entitychasemaxduration: 3000

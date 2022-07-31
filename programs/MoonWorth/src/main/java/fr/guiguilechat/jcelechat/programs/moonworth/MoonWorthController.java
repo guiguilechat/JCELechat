@@ -11,8 +11,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionTypeID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
@@ -277,9 +276,8 @@ public class MoonWorthController {
 		Asteroid.METACAT.load().values().stream().filter(ast -> ast.marketGroup != 0).forEach(ast -> {
 			double volumicPrice = eval.value(ast.id, this) / ast.volume;
 			try {
-				Asteroid compressed = (Asteroid) TypeIndex.getType(ast.valueSet(CompressionTypeID.INSTANCE).intValue());
-				double compressionRequired = ast.valueSet(CompressionQuantityNeeded.INSTANCE).doubleValue();
-				double volumicprice2 = eval.value(compressed.id, this) / ast.volume / compressionRequired;
+				Asteroid compressed = (Asteroid) TypeIndex.getType(ast.valueSet(OreBasicType.INSTANCE).intValue());
+				double volumicprice2 = eval.value(compressed.id, this) / ast.volume;
 				if (volumicprice2 > volumicPrice) {
 					volumicPrice = volumicprice2;
 				}

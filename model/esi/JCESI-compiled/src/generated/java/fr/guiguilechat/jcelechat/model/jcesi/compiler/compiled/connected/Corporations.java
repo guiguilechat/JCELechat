@@ -5,7 +5,7 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_10_int_int_Long;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_16_int_long_int;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_20_int_int;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_19_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_8_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_9_int_Boolean;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9;
@@ -82,7 +82,7 @@ public class Corporations {
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
-    private final Map<K_20_int_int, ListHolderImpl<M_get_journal_13>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
+    private final Map<K_19_int_int, ListHolderImpl<M_get_journal_13>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_assets>> get_corporations_corporation_id_assets_holder = new HashMap<>();
 
     public Corporations(SwaggerCOCache<?> parent) {
@@ -1236,7 +1236,7 @@ public class Corporations {
      *     Wallet key of the division to fetch journals from
      */
     public ListHolder<M_get_journal_13> wallets_journal(int corporation_id, int division) {
-        K_20_int_int param = new K_20_int_int(division, corporation_id);
+        K_19_int_int param = new K_19_int_int(division, corporation_id);
         ListHolderImpl<M_get_journal_13> ret = get_corporations_corporation_id_wallets_division_journal_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_wallets_division_journal_holder);

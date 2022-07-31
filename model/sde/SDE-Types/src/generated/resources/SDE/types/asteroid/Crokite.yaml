@@ -99,7 +99,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1599999964237213
-  'Compressed Crystalline Crokite ':
+  Compressed Crystalline Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 1.0
@@ -107,7 +107,7 @@ types:
     id: 62562
     marketGroup: 521
     mass: 1.0000000409184788E35
-    name: 'Compressed Crystalline Crokite '
+    name: Compressed Crystalline Crokite
     orebasictype: 1225
     packagedVolume: 0.1599999964237213
     portionSize: 100
@@ -119,7 +119,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.1599999964237213
-  'Compressed Pellucid Crokite ':
+  Compressed Pellucid Crokite:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
@@ -127,7 +127,7 @@ types:
     id: 62563
     marketGroup: 521
     mass: 1.0
-    name: 'Compressed Pellucid Crokite '
+    name: Compressed Pellucid Crokite
     orebasictype: 46677
     packagedVolume: 0.1599999964237213
     portionSize: 100
@@ -164,8 +164,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28391
     id: 1225
     marketGroup: 521
     mass: 1.0000000409184788E35
@@ -186,8 +184,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28392
     id: 17433
     marketGroup: 521
     mass: 1.0000000409184788E35
@@ -227,8 +223,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 800
-    compressionquantityneeded: 100
-    compressiontypeid: 46693
     id: 46677
     marketGroup: 521
     mass: 1.0000000409184788E35
@@ -249,8 +243,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 28393
     id: 17432
     marketGroup: 521
     mass: 1.0000000409184788E35

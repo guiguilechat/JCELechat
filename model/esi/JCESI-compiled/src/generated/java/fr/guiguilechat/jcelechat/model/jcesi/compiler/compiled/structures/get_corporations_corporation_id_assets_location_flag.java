@@ -179,12 +179,16 @@ public enum get_corporations_corporation_id_assets_location_flag {
     SkillInTraining("SkillInTraining"),
     @JsonProperty("SpecializedAmmoHold")
     SpecializedAmmoHold("SpecializedAmmoHold"),
+    @JsonProperty("SpecializedAsteroidHold")
+    SpecializedAsteroidHold("SpecializedAsteroidHold"),
     @JsonProperty("SpecializedCommandCenterHold")
     SpecializedCommandCenterHold("SpecializedCommandCenterHold"),
     @JsonProperty("SpecializedFuelBay")
     SpecializedFuelBay("SpecializedFuelBay"),
     @JsonProperty("SpecializedGasHold")
     SpecializedGasHold("SpecializedGasHold"),
+    @JsonProperty("SpecializedIceHold")
+    SpecializedIceHold("SpecializedIceHold"),
     @JsonProperty("SpecializedIndustrialShipHold")
     SpecializedIndustrialShipHold("SpecializedIndustrialShipHold"),
     @JsonProperty("SpecializedLargeShipHold")

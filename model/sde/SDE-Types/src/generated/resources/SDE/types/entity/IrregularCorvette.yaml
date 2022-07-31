@@ -21,7 +21,7 @@ types:
     emdamage: 1.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 6.0
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 10000
     entitychasemaxduration: 1000

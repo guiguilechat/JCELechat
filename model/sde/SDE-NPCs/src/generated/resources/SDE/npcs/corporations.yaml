@@ -10368,6 +10368,11 @@ corporations:
     - 17169
     - 17170
     - 17192
+    - 17194
+    - 17195
+    - 17196
+    - 17197
+    - 17198
     name: Federal Strategic Materiel
   Federation Customs:
     concordRate: 0.8
@@ -14115,6 +14120,8 @@ corporations:
     - 17177
     - 17178
     - 17190
+    - 17202
+    - 17203
     name: Imperial War Reserves
   Impetus:
     concordRate: 0.8
@@ -22839,6 +22846,9 @@ corporations:
     - 17172
     - 17173
     - 17193
+    - 17199
+    - 17200
+    - 17201
     name: Republic Fleet Ordnance
   Republic Justice Department:
     concordRate: 0.8

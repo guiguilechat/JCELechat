@@ -98,7 +98,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
-  'Compressed Concentrated Veldspar ':
+  Compressed Concentrated Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
@@ -106,7 +106,7 @@ types:
     id: 62517
     marketGroup: 518
     mass: 4000.0
-    name: 'Compressed Concentrated Veldspar '
+    name: Compressed Concentrated Veldspar
     orebasictype: 1230
     packagedVolume: 0.0010000000474974513
     portionSize: 100
@@ -118,7 +118,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
-  'Compressed Dense Veldspar ':
+  Compressed Dense Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
@@ -126,7 +126,7 @@ types:
     id: 62518
     marketGroup: 518
     mass: 4000.0
-    name: 'Compressed Dense Veldspar '
+    name: Compressed Dense Veldspar
     orebasictype: 1230
     packagedVolume: 0.0010000000474974513
     portionSize: 100
@@ -138,7 +138,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
-  'Compressed Stable Veldspar ':
+  Compressed Stable Veldspar:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.5
@@ -146,7 +146,7 @@ types:
     id: 62519
     marketGroup: 518
     mass: 4000.0
-    name: 'Compressed Stable Veldspar '
+    name: Compressed Stable Veldspar
     orebasictype: 46689
     packagedVolume: 0.0010000000474974513
     portionSize: 100
@@ -183,8 +183,6 @@ types:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28430
     id: 17470
     marketGroup: 518
     mass: 4000.0
@@ -205,8 +203,6 @@ types:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28431
     id: 17471
     marketGroup: 518
     mass: 4000.0
@@ -227,8 +223,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.007499999832361937
     asteroidradiusunitsize: 600
-    compressionquantityneeded: 100
-    compressiontypeid: 46705
     id: 46689
     marketGroup: 518
     mass: 4000.0
@@ -249,8 +243,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
-    compressionquantityneeded: 100
-    compressiontypeid: 28432
     id: 1230
     marketGroup: 518
     mass: 4000.0

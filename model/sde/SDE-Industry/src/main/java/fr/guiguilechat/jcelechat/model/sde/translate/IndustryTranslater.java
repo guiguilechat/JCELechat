@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionTypeID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
@@ -279,9 +279,9 @@ public class IndustryTranslater {
 
 	private static void translateCompression(LinkedHashMap<Integer, IndustryUsage> usages) {
 		for (Asteroid compressed : Asteroid.METACAT.load().values()) {
-			if (compressed.getAttributes().contains(CompressionTypeID.INSTANCE)) {
-				Integer compressIntoId = compressed.valueSet(CompressionTypeID.INSTANCE).intValue();
-				if (compressIntoId != 0) {
+			if (compressed.getAttributes().contains(OreBasicType.INSTANCE) && !compressed.name.startsWith("Batch ")) {
+				Integer compressIntoId = compressed.valueSet(OreBasicType.INSTANCE).intValue();
+				if (compressIntoId != 0 && compressIntoId != compressed.id) {
 					EveType compressInto = TypeIndex.getType(compressIntoId);
 					if (compressInto == null) {
 						logger.debug("can't find asteroid from id " + compressIntoId);

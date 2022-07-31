@@ -768,12 +768,32 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Minmatar 'Freedom Fighter' T-Shirt:
+    gender: 2
+    id: 64268
+    marketGroup: 1398
+    mass: 0.5
+    name: Men's Minmatar 'Freedom Fighter' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Minmatar 'Liberator' T-Shirt:
     gender: 2
     id: 47183
     marketGroup: 1398
     mass: 0.5
     name: Men's Minmatar 'Liberator' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Minmatar 'Rebellion' T-Shirt:
+    gender: 2
+    id: 64203
+    marketGroup: 1398
+    mass: 0.5
+    name: Men's Minmatar 'Rebellion' T-Shirt
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1688,7 +1708,7 @@ types:
   Women's Capsuleer Day XVII T-Shirt:
     gender: 2
     id: 54320
-    marketGroup: 1398
+    marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Day XVII T-Shirt
     packagedVolume: 0.10000000149011612
@@ -1805,12 +1825,32 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's Minmatar 'Freedom Fighter' T-Shirt:
+    gender: 2
+    id: 64269
+    marketGroup: 1406
+    mass: 0.5
+    name: Women's Minmatar 'Freedom Fighter' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Minmatar 'Liberator' T-Shirt:
     gender: 2
     id: 47187
     marketGroup: 1406
     mass: 0.5
     name: Women's Minmatar 'Liberator' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Minmatar 'Rebellion' T-Shirt:
+    gender: 2
+    id: 64204
+    marketGroup: 1406
+    mass: 0.5
+    name: Women's Minmatar 'Rebellion' T-Shirt
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

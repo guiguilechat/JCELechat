@@ -17116,6 +17116,25 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Bereye
+  Bereye III - Supreme Court Tribunal:
+    id: 60015166
+    name: Bereye III - Supreme Court Tribunal
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Stock Exchange
+    solarSystem: Bereye
   Bereye VI - Federal Intelligence Office Assembly Plant:
     id: 60011995
     name: Bereye VI - Federal Intelligence Office Assembly Plant
@@ -71161,6 +71180,27 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
+    solarSystem: Parchanier
+  Parchanier IV - President Bureau:
+    id: 60015165
+    name: Parchanier IV - President Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
     solarSystem: Parchanier
   Parchanier V - Egonics Inc. Development Studio:
     id: 60010609

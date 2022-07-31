@@ -4,7 +4,6 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.javafx.LocationHelper;
@@ -82,7 +81,7 @@ public class OreWorthController {
 			if (ore.getAttributes().contains(OreBasicType.INSTANCE)) {
 				int basicId = ore.valueSet(OreBasicType.INSTANCE).intValue();
 				Asteroid basic = (Asteroid) TypeIndex.getType(basicId);
-				return basic.volume * basic.valueSet(CompressionQuantityNeeded.INSTANCE).doubleValue();
+				return basic.volume;
 			}
 		}
 		return ore.volume;

@@ -18,8 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionTypeID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
@@ -35,20 +33,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Mercoxit
     extends Asteroid
 {
-    /**
-     * Number of items needed to be able to compress it
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int compressionquantityneeded;
-    /**
-     * What type this type can be compressed into
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int compressiontypeid;
     /**
      * %chance of new asteroid releasing damage cloud each mining turn.
      */
@@ -81,20 +65,12 @@ public class Mercoxit
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageCloudType.INSTANCE, Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, Capacity.INSTANCE, DamageCloudChance.INSTANCE, AsteroidMetaLevel.INSTANCE, CompressionTypeID.INSTANCE, CompressionQuantityNeeded.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ReprocessingSkillType.INSTANCE, OreBasicType.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageCloudType.INSTANCE, Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, Capacity.INSTANCE, DamageCloudChance.INSTANCE, AsteroidMetaLevel.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ReprocessingSkillType.INSTANCE, OreBasicType.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Mercoxit.MetaGroup METAGROUP = new Mercoxit.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  1941 :
-            {
-                return compressionquantityneeded;
-            }
-            case  1940 :
-            {
-                return compressiontypeid;
-            }
             case  522 :
             {
                 return damagecloudchance;

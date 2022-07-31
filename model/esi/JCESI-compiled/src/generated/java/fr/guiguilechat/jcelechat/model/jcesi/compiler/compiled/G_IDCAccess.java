@@ -35,7 +35,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_tasks_task_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_search;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures;
@@ -72,28 +71,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_
 public interface G_IDCAccess
     extends ITransfer
 {
-
-    /**
-     * Search on a string
-     * <p>
-     * Search for entities that match a given sub-string.<br />
-     * This route is cached for up to 3600 seconds
-     * </p>
-     * 
-     * @param categories
-     *     Type of entities to search for
-     * @param search
-     *     The string to search on
-     * @param strict
-     *     Whether the search should be a strict match
-     */
-    public default Requested<R_get_search> get(String[] categories,
-        String search,
-        Boolean strict,
-        Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/search/"+"?"+(categories==null?"":"&categories="+flatten(categories))+(search==null?"":"&search="+flatten(search))+(strict==null?"":"&strict="+flatten(strict)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_search.class));
-    }
 
     /**
      * List all alliances

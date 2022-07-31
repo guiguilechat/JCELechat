@@ -216,6 +216,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Hyper' Racing Jacket:
+    gender: 2
+    id: 64196
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's 'Hyper' Racing Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Impact' Jacket (dark red):
     clothingremovescategory: 2
     gender: 1
@@ -622,6 +632,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Amarr Courtly Robe:
+    gender: 2
+    id: 64380
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Amarr Courtly Robe
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Amarr Devotional Robe:
+    gender: 2
+    id: 64379
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Amarr Devotional Robe
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Amarr Empire Command Jacket:
     gender: 2
     id: 46662
@@ -903,6 +933,16 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Men's Grand Prix Racing Jacket:
+    gender: 2
+    id: 63789
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Grand Prix Racing Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Men's IGC Location Scout Suit:
     clothingalsocoverscategory: 25
@@ -1620,6 +1660,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Hyper' Racing Jacket:
+    gender: 2
+    id: 64195
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's 'Hyper' Racing Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Imperial Loyalist' Jacket:
     gender: 2
     id: 59367
@@ -2178,6 +2228,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's Amarr Courtly Robe:
+    gender: 2
+    id: 64378
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Amarr Courtly Robe
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Amarr Devotional Robe:
+    gender: 2
+    id: 64377
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Amarr Devotional Robe
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Amarr Empire Command Jacket:
     gender: 2
     id: 46663
@@ -2461,6 +2531,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's Grand Prix Racing Jacket:
+    gender: 2
+    id: 63790
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Grand Prix Racing Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's IGC Location Scout Suit:
     clothingalsocoverscategory: 25
     clothingalsocoverscategory2: 22
@@ -2698,7 +2778,7 @@ types:
     clothingremovescategory2: 22
     gender: 3
     id: 37603
-    marketGroup: 1399
+    marketGroup: 1405
     mass: 0.5
     name: Women's Sisters of EVE Advanced Combat Suit
     packagedVolume: 0.10000000149011612

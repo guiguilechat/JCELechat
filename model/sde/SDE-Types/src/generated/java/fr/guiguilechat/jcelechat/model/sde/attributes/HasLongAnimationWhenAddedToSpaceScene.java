@@ -28,7 +28,7 @@ public class HasLongAnimationWhenAddedToSpaceScene
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override

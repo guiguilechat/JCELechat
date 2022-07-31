@@ -21,8 +21,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28433
     id: 16264
     marketGroup: 1855
     mass: 1000.0
@@ -42,8 +40,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28434
     id: 16262
     marketGroup: 1855
     mass: 1000.0
@@ -308,8 +304,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28435
     id: 16267
     marketGroup: 1855
     mass: 1000.0
@@ -329,8 +323,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28436
     id: 17978
     marketGroup: 1855
     mass: 1000.0
@@ -350,8 +342,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28437
     id: 16268
     marketGroup: 1855
     mass: 1000.0
@@ -371,8 +361,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28438
     id: 16263
     marketGroup: 1855
     mass: 1000.0
@@ -392,8 +380,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28439
     id: 16266
     marketGroup: 1855
     mass: 1000.0
@@ -413,8 +399,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28440
     id: 16269
     marketGroup: 1855
     mass: 1000.0
@@ -434,8 +418,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28441
     id: 17976
     marketGroup: 1855
     mass: 1000.0
@@ -455,8 +437,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28442
     id: 17977
     marketGroup: 1855
     mass: 1000.0
@@ -476,8 +456,6 @@ types:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28443
     id: 17975
     marketGroup: 1855
     mass: 1000.0
@@ -497,8 +475,6 @@ types:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    compressionquantityneeded: 1
-    compressiontypeid: 28444
     id: 16265
     marketGroup: 1855
     mass: 1000.0

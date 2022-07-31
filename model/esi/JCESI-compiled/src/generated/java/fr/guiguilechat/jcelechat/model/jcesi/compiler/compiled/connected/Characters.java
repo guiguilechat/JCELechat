@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_0_int_Integer;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_18_int_int;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_19_String_LString_int_Boolean;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_17_int_int;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_18_String_LString_int_Boolean;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_1_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_2_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_3_Boolean_int;
@@ -107,9 +107,9 @@ public class Characters {
     private final Map<K_1_int_int, ObjHolderSimple<R_get_characters_character_id_calendar_event_id>> get_characters_character_id_calendar_event_id_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
-    private final Map<K_18_int_int, ObjHolderSimple<R_get_characters_character_id_planets_planet_id>> get_characters_character_id_planets_planet_id_holder = new HashMap<>();
+    private final Map<K_17_int_int, ObjHolderSimple<R_get_characters_character_id_planets_planet_id>> get_characters_character_id_planets_planet_id_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_roles>> get_characters_character_id_roles_holder = new HashMap<>();
-    private final Map<K_19_String_LString_int_Boolean, ObjHolderSimple<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
+    private final Map<K_18_String_LString_int_Boolean, ObjHolderSimple<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_assets>> get_characters_character_id_assets_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
@@ -798,7 +798,7 @@ public class Characters {
         int character_id,
         String search,
         Boolean strict) {
-        K_19_String_LString_int_Boolean param = new K_19_String_LString_int_Boolean(search, categories, character_id, strict);
+        K_18_String_LString_int_Boolean param = new K_18_String_LString_int_Boolean(search, categories, character_id, strict);
         ObjHolderSimple<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_search_holder);
@@ -1458,7 +1458,7 @@ public class Characters {
      *     Planet id of the target planet
      */
     public ObjHolder<R_get_characters_character_id_planets_planet_id> planets(int character_id, int planet_id) {
-        K_18_int_int param = new K_18_int_int(planet_id, character_id);
+        K_17_int_int param = new K_17_int_int(planet_id, character_id);
         ObjHolderSimple<R_get_characters_character_id_planets_planet_id> ret = get_characters_character_id_planets_planet_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_planets_planet_id_holder);

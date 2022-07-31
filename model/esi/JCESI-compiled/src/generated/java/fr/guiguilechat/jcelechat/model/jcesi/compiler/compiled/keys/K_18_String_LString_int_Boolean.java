@@ -5,13 +5,13 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys;
  * @see https://esi.evetech.net/v3/characters/{character_id}/search/
  * 
  */
-public class K_19_String_LString_int_Boolean {
+public class K_18_String_LString_int_Boolean {
     public final String search;
     public final String[] categories;
     public final int character_id;
     public final Boolean strict;
 
-    public K_19_String_LString_int_Boolean(String search,
+    public K_18_String_LString_int_Boolean(String search,
         String[] categories,
         int character_id,
         Boolean strict) {
@@ -29,7 +29,7 @@ public class K_19_String_LString_int_Boolean {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_19_String_LString_int_Boolean othersame = ((K_19_String_LString_int_Boolean) other);
+        K_18_String_LString_int_Boolean othersame = ((K_18_String_LString_int_Boolean) other);
         if ((search!= othersame.search)&&((search == null)||(!search.equals(othersame.search)))) {
             return false;
         }

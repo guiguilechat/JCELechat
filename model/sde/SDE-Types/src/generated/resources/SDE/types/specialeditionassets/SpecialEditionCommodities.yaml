@@ -1,18 +1,4 @@
 types:
-  ' Capsuleer Day XVIII Omega Booster Gift Box':
-    cpumultiplier: 1.0
-    id: 59322
-    name: ' Capsuleer Day XVIII Omega Booster Gift Box'
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  ' Capsuleer Day XVIII T-Shirt and Cap Crate':
-    cpumultiplier: 1.0
-    id: 58797
-    name: ' Capsuleer Day XVIII T-Shirt and Cap Crate'
-    portionSize: 1
-    published: true
   '''Bitwave Glacier'' Augmentation Crate':
     cpumultiplier: 1.0
     id: 49804
@@ -255,6 +241,14 @@ types:
     cpumultiplier: 1.0
     id: 59978
     name: Amarr Foundation Day Pants Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Amarr Foundation Day Robe Crate:
+    cpumultiplier: 1.0
+    id: 70797
+    name: Amarr Foundation Day Robe Crate
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -716,6 +710,20 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Capsuleer Day XVIII Omega Booster Gift Box:
+    cpumultiplier: 1.0
+    id: 59322
+    name: Capsuleer Day XVIII Omega Booster Gift Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Capsuleer Day XVIII T-Shirt and Cap Crate:
+    cpumultiplier: 1.0
+    id: 58797
+    name: Capsuleer Day XVIII T-Shirt and Cap Crate
+    portionSize: 1
+    published: true
   Catalyst Combat Crate:
     cpumultiplier: 1.0
     id: 53532
@@ -1177,6 +1185,14 @@ types:
     portionSize: 1
     published: true
     volume: 10000.0
+  Federation Grand Prix Jacket Crate:
+    cpumultiplier: 1.0
+    id: 64746
+    name: Federation Grand Prix Jacket Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Federation Grand Prix Quafe Package:
     cpumultiplier: 1.0
     id: 48378

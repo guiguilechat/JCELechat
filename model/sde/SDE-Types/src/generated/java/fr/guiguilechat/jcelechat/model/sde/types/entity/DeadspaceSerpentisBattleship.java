@@ -271,8 +271,8 @@ public class DeadspaceSerpentisBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5000)
-    public int entitychasemaxdelay;
+    @DefaultRealValue(5000.0)
+    public double entitychasemaxdelay;
     /**
      * Chance that the max delay is waited before chase is engaged.
      */

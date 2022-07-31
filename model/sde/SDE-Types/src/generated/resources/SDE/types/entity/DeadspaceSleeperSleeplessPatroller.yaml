@@ -22,7 +22,7 @@ types:
     entityattackdelaymin: 5000
     entityattackrange: 75000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 60500
     entitychasemaxduration: 10000
@@ -96,7 +96,7 @@ types:
     entityattackdelaymin: 5000
     entityattackrange: 135000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 16500
     entitychasemaxduration: 10000
@@ -167,7 +167,7 @@ types:
     entityattackdelaymin: 5000
     entityattackrange: 45000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 20900
     entitychasemaxduration: 10000
@@ -239,7 +239,7 @@ types:
     entityattackdelaymin: 5000
     entityattackrange: 105000
     entitybracketcolour: 1
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 0.20000000298023224
     entitychasemaxdistance: 71500
     entitychasemaxduration: 10000

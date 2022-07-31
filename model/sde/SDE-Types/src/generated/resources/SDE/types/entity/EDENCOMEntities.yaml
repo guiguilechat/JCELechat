@@ -15,7 +15,7 @@ types:
     capacity: 94.0
     damagemultiplier: 4.304999828338623
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -90,7 +90,7 @@ types:
     capacity: 315.0
     damagemultiplier: 3.762500047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -159,7 +159,7 @@ types:
     capacity: 425.0
     damagemultiplier: 4.304999828338623
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -234,7 +234,7 @@ types:
     capacity: 150.0
     damagemultiplier: 3.867500066757202
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -307,7 +307,7 @@ types:
     capacity: 515.0
     damagemultiplier: 3.9725000858306885
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -379,7 +379,7 @@ types:
     capacity: 260.0
     damagemultiplier: 3.3424999713897705
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -452,7 +452,7 @@ types:
     capacity: 440.0
     damagemultiplier: 3.3424999713897705
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -521,7 +521,7 @@ types:
     capacity: 815.0
     damagemultiplier: 4.304999828338623
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -592,7 +592,7 @@ types:
     capacity: 750.0
     damagemultiplier: 3.762500047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -661,7 +661,7 @@ types:
     damagemultiplier: 1.0
     emdamageresonance: 0.4020000100135803
     entitybracketcolour: 2
-    entitychasemaxdelay: 5000
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
@@ -717,7 +717,7 @@ types:
     capacity: 475.0
     damagemultiplier: 5.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -783,7 +783,7 @@ types:
     capacity: 415.0
     damagemultiplier: 4.625
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -854,7 +854,7 @@ types:
     capacity: 845.0
     damagemultiplier: 4.375
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -909,7 +909,7 @@ types:
     trackingspeed: 13.640000343322754
     uniformity: 1.0
     volume: 454500.0
-  'Elite Federal Navy Keres ':
+  Elite Federal Navy Keres:
     agility: 4.25
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
@@ -925,7 +925,7 @@ types:
     capacity: 175.0
     damagemultiplier: 4.5
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -954,7 +954,7 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
-    name: 'Elite Federal Navy Keres '
+    name: Elite Federal Navy Keres
     npcbehaviormaximumcombatorbitrange: 15000.0
     optimalsigradius: 40000
     packagedVolume: 23000.0
@@ -1002,7 +1002,7 @@ types:
     capacity: 320.0
     damagemultiplier: 4.375
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -1069,7 +1069,7 @@ types:
     capacity: 840.0
     damagemultiplier: 5.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -1140,7 +1140,7 @@ types:
     capacity: 600.0
     damagemultiplier: 3.875
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -1215,7 +1215,7 @@ types:
     capacity: 92.0
     damagemultiplier: 5.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -1286,7 +1286,7 @@ types:
     capacity: 280.0
     damagemultiplier: 3.875
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -1354,7 +1354,7 @@ types:
     damagemultiplier: 6.5
     emdamage: 264.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -1429,7 +1429,7 @@ types:
     emdamage: 216.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 137.3333282470703
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -1518,7 +1518,7 @@ types:
     damagemultiplier: 6.25
     emdamage: 26.399999618530273
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -1590,7 +1590,7 @@ types:
     damagemultiplier: 4.849999904632568
     emdamage: 6.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -1663,7 +1663,7 @@ types:
     damagemultiplier: 4.849999904632568
     emdamage: 12.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -1731,7 +1731,7 @@ types:
     damagemultiplier: 6.25
     emdamage: 84.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -1806,7 +1806,7 @@ types:
     emdamage: 42.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 112.66666412353516
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -1894,7 +1894,7 @@ types:
     emdamage: 21.600000381469727
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 70.0
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -1975,7 +1975,7 @@ types:
     damagemultiplier: 5.787499904632568
     emdamage: 54.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -2046,7 +2046,7 @@ types:
     capacity: 94.0
     damagemultiplier: 3.075000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -2121,7 +2121,7 @@ types:
     capacity: 315.0
     damagemultiplier: 2.6875
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -2190,7 +2190,7 @@ types:
     capacity: 425.0
     damagemultiplier: 3.075000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -2265,7 +2265,7 @@ types:
     capacity: 150.0
     damagemultiplier: 2.762500047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -2338,7 +2338,7 @@ types:
     capacity: 515.0
     damagemultiplier: 2.8375000953674316
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -2410,7 +2410,7 @@ types:
     capacity: 260.0
     damagemultiplier: 2.387500047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -2483,7 +2483,7 @@ types:
     capacity: 440.0
     damagemultiplier: 2.387500047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -2552,7 +2552,7 @@ types:
     capacity: 815.0
     damagemultiplier: 3.075000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -2623,7 +2623,7 @@ types:
     capacity: 750.0
     damagemultiplier: 2.6875
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -2696,7 +2696,7 @@ types:
     capacity: 485.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -2760,7 +2760,7 @@ types:
     capacity: 650.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -2822,7 +2822,7 @@ types:
     capacity: 450.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -2888,7 +2888,7 @@ types:
     capacity: 270.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -2960,7 +2960,7 @@ types:
     capacity: 160.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -3031,7 +3031,7 @@ types:
     capacity: 92.0
     damagemultiplier: 3.75
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -3097,7 +3097,7 @@ types:
     capacity: 800.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -3163,7 +3163,7 @@ types:
     capacity: 305.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -3234,7 +3234,7 @@ types:
     capacity: 815.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -3302,7 +3302,7 @@ types:
     damagemultiplier: 9.100000381469727
     emdamage: 264.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -3377,7 +3377,7 @@ types:
     emdamage: 216.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 165.3333282470703
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -3466,7 +3466,7 @@ types:
     damagemultiplier: 8.75
     emdamage: 26.399999618530273
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -3538,7 +3538,7 @@ types:
     damagemultiplier: 6.789999961853027
     emdamage: 6.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -3611,7 +3611,7 @@ types:
     damagemultiplier: 6.789999961853027
     emdamage: 12.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -3679,7 +3679,7 @@ types:
     damagemultiplier: 8.75
     emdamage: 84.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -3754,7 +3754,7 @@ types:
     emdamage: 42.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 135.3333282470703
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -3842,7 +3842,7 @@ types:
     emdamage: 21.600000381469727
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 84.0
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -3923,7 +3923,7 @@ types:
     damagemultiplier: 8.102499961853027
     emdamage: 54.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -3994,7 +3994,7 @@ types:
     capacity: 485.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -4058,7 +4058,7 @@ types:
     capacity: 650.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -4120,7 +4120,7 @@ types:
     capacity: 450.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -4186,7 +4186,7 @@ types:
     capacity: 270.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -4258,7 +4258,7 @@ types:
     capacity: 160.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -4329,7 +4329,7 @@ types:
     capacity: 92.0
     damagemultiplier: 5.25
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -4395,7 +4395,7 @@ types:
     capacity: 800.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -4461,7 +4461,7 @@ types:
     capacity: 305.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -4532,7 +4532,7 @@ types:
     capacity: 815.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -4599,7 +4599,7 @@ types:
     capacity: 475.0
     damagemultiplier: 4.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -4665,7 +4665,7 @@ types:
     capacity: 415.0
     damagemultiplier: 3.700000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -4736,7 +4736,7 @@ types:
     capacity: 845.0
     damagemultiplier: 3.5
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -4807,7 +4807,7 @@ types:
     capacity: 175.0
     damagemultiplier: 3.5999999046325684
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -4884,7 +4884,7 @@ types:
     capacity: 320.0
     damagemultiplier: 3.5
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -4951,7 +4951,7 @@ types:
     capacity: 840.0
     damagemultiplier: 4.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -5033,7 +5033,7 @@ types:
     capacity: 2550.0
     damagemultiplier: 4.800000190734863
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 70000
     entitychasemaxduration: 3000
@@ -5105,7 +5105,7 @@ types:
     capacity: 600.0
     damagemultiplier: 3.0999999046325684
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -5180,7 +5180,7 @@ types:
     capacity: 92.0
     damagemultiplier: 4.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -5251,7 +5251,7 @@ types:
     capacity: 280.0
     damagemultiplier: 3.0999999046325684
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -5319,7 +5319,7 @@ types:
     damagemultiplier: 5.199999809265137
     emdamage: 264.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -5394,7 +5394,7 @@ types:
     emdamage: 216.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 110.0
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -5483,7 +5483,7 @@ types:
     damagemultiplier: 5.0
     emdamage: 26.399999618530273
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -5555,7 +5555,7 @@ types:
     damagemultiplier: 3.880000114440918
     emdamage: 6.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -5628,7 +5628,7 @@ types:
     damagemultiplier: 3.880000114440918
     emdamage: 12.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -5696,7 +5696,7 @@ types:
     damagemultiplier: 5.0
     emdamage: 84.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -5771,7 +5771,7 @@ types:
     emdamage: 42.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 90.0
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -5868,7 +5868,7 @@ types:
     damagemultiplier: 4.800000190734863
     emdamage: 892.3200073242188
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 70000
     entitychasemaxduration: 3000
@@ -5943,7 +5943,7 @@ types:
     emdamage: 21.600000381469727
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 56.0
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -6024,7 +6024,7 @@ types:
     damagemultiplier: 4.630000114440918
     emdamage: 54.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -6091,7 +6091,7 @@ types:
     capacity: 475.0
     damagemultiplier: 7.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -6157,7 +6157,7 @@ types:
     capacity: 415.0
     damagemultiplier: 6.474999904632568
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -6228,7 +6228,7 @@ types:
     capacity: 845.0
     damagemultiplier: 6.125
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -6299,7 +6299,7 @@ types:
     capacity: 175.0
     damagemultiplier: 6.300000190734863
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -6376,7 +6376,7 @@ types:
     capacity: 320.0
     damagemultiplier: 6.125
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -6443,7 +6443,7 @@ types:
     capacity: 840.0
     damagemultiplier: 7.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -6514,7 +6514,7 @@ types:
     capacity: 600.0
     damagemultiplier: 5.425000190734863
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -6589,7 +6589,7 @@ types:
     capacity: 92.0
     damagemultiplier: 7.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -6660,7 +6660,7 @@ types:
     capacity: 280.0
     damagemultiplier: 5.425000190734863
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -6731,7 +6731,7 @@ types:
     capacity: 94.0
     damagemultiplier: 2.4600000381469727
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -6806,7 +6806,7 @@ types:
     capacity: 315.0
     damagemultiplier: 2.1500000953674316
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -6875,7 +6875,7 @@ types:
     capacity: 425.0
     damagemultiplier: 2.4600000381469727
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -6950,7 +6950,7 @@ types:
     capacity: 150.0
     damagemultiplier: 2.2100000381469727
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -7023,7 +7023,7 @@ types:
     capacity: 515.0
     damagemultiplier: 2.2699999809265137
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -7107,7 +7107,7 @@ types:
     capacity: 2900.0
     damagemultiplier: 4.800000190734863
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 70000
     entitychasemaxduration: 3000
@@ -7178,7 +7178,7 @@ types:
     capacity: 260.0
     damagemultiplier: 1.909999966621399
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -7251,7 +7251,7 @@ types:
     capacity: 440.0
     damagemultiplier: 1.909999966621399
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -7320,7 +7320,7 @@ types:
     capacity: 815.0
     damagemultiplier: 2.4600000381469727
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -7391,7 +7391,7 @@ types:
     capacity: 750.0
     damagemultiplier: 2.1500000953674316
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -7468,7 +7468,7 @@ types:
     emdamage: 42.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 67.33333587646484
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -7548,7 +7548,7 @@ types:
     capacity: 650.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -7610,7 +7610,7 @@ types:
     capacity: 450.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -7672,7 +7672,7 @@ types:
     capacity: 800.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -7722,7 +7722,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     uniformity: 1.0
     volume: 486000.0
-  'Scout  State Navy Rook ':
+  Scout  State Navy Rook:
     agility: 0.6100000143051147
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
@@ -7738,7 +7738,7 @@ types:
     capacity: 305.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -7765,7 +7765,7 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 4500.0
-    name: 'Scout  State Navy Rook '
+    name: Scout  State Navy Rook
     npcbehaviormaximumcombatorbitrange: 22000.0
     optimalsigradius: 1000
     packagedVolume: 96000.0
@@ -7809,7 +7809,7 @@ types:
     capacity: 815.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -7876,7 +7876,7 @@ types:
     capacity: 475.0
     damagemultiplier: 3.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -7942,7 +7942,7 @@ types:
     capacity: 415.0
     damagemultiplier: 2.7750000953674316
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -8013,7 +8013,7 @@ types:
     capacity: 845.0
     damagemultiplier: 2.625
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -8084,7 +8084,7 @@ types:
     capacity: 175.0
     damagemultiplier: 2.700000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -8161,7 +8161,7 @@ types:
     capacity: 320.0
     damagemultiplier: 2.625
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -8228,7 +8228,7 @@ types:
     capacity: 840.0
     damagemultiplier: 3.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -8299,7 +8299,7 @@ types:
     capacity: 600.0
     damagemultiplier: 2.325000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -8374,7 +8374,7 @@ types:
     capacity: 92.0
     damagemultiplier: 3.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -8445,7 +8445,7 @@ types:
     capacity: 280.0
     damagemultiplier: 2.325000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -8513,7 +8513,7 @@ types:
     damagemultiplier: 3.9000000953674316
     emdamage: 264.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -8588,7 +8588,7 @@ types:
     emdamage: 216.0
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 82.66666412353516
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -8677,7 +8677,7 @@ types:
     damagemultiplier: 3.75
     emdamage: 26.399999618530273
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -8749,7 +8749,7 @@ types:
     damagemultiplier: 2.9100000858306885
     emdamage: 6.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -8822,7 +8822,7 @@ types:
     damagemultiplier: 2.9100000858306885
     emdamage: 12.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -8890,7 +8890,7 @@ types:
     damagemultiplier: 3.75
     emdamage: 84.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -8945,7 +8945,7 @@ types:
     trackingspeed: 72.0
     uniformity: 1.0
     volume: 234000.0
-  'Scout Imperial Navy Sentinel ':
+  Scout Imperial Navy Sentinel:
     agility: 4.25
     aoecloudsizebonus: 10.0
     aoevelocitybonus: -10.0
@@ -8965,7 +8965,7 @@ types:
     emdamage: 21.600000381469727
     emdamageresonance: 0.6700000166893005
     energyneutralizeramount: 42.0
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -8997,7 +8997,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     missilevelocitybonus: -8.0
-    name: 'Scout Imperial Navy Sentinel '
+    name: Scout Imperial Navy Sentinel
     npcbehaviormaximumcombatorbitrange: 15000.0
     npcguidancedisruptordischarge: 5.0
     npcguidancedisruptorduration: 3000.0
@@ -9033,7 +9033,7 @@ types:
     trackingspeedbonus: -7.875
     uniformity: 1.0
     volume: 28100.0
-  'Scout Imperial Navy Zealot ':
+  Scout Imperial Navy Zealot:
     agility: 0.550000011920929
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.4000000059604645
@@ -9046,7 +9046,7 @@ types:
     damagemultiplier: 3.4725000858306885
     emdamage: 54.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -9074,7 +9074,7 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
-    name: 'Scout Imperial Navy Zealot '
+    name: Scout Imperial Navy Zealot
     npcbehaviormaximumcombatorbitrange: 18500.0
     optimalsigradius: 40000
     packagedVolume: 118000.0
@@ -9117,7 +9117,7 @@ types:
     capacity: 94.0
     damagemultiplier: 1.8450000286102295
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -9192,7 +9192,7 @@ types:
     capacity: 315.0
     damagemultiplier: 1.6124999523162842
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -9261,7 +9261,7 @@ types:
     capacity: 425.0
     damagemultiplier: 1.8450000286102295
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -9336,7 +9336,7 @@ types:
     capacity: 150.0
     damagemultiplier: 1.6575000286102295
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -9409,7 +9409,7 @@ types:
     capacity: 515.0
     damagemultiplier: 1.7024999856948853
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -9481,7 +9481,7 @@ types:
     capacity: 260.0
     damagemultiplier: 1.4325000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -9554,7 +9554,7 @@ types:
     capacity: 440.0
     damagemultiplier: 1.4325000047683716
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -9623,7 +9623,7 @@ types:
     capacity: 815.0
     damagemultiplier: 1.8450000286102295
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -9694,7 +9694,7 @@ types:
     capacity: 750.0
     damagemultiplier: 1.6124999523162842
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -9767,7 +9767,7 @@ types:
     capacity: 485.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -9835,7 +9835,7 @@ types:
     capacity: 270.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -9907,7 +9907,7 @@ types:
     capacity: 160.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -9978,7 +9978,7 @@ types:
     capacity: 92.0
     damagemultiplier: 2.25
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -10048,7 +10048,7 @@ types:
     capacity: 485.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -10112,7 +10112,7 @@ types:
     capacity: 650.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -10174,7 +10174,7 @@ types:
     capacity: 450.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
@@ -10240,7 +10240,7 @@ types:
     capacity: 270.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -10312,7 +10312,7 @@ types:
     capacity: 160.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -10395,7 +10395,7 @@ types:
     capacity: 2750.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 70000
     entitychasemaxduration: 3000
@@ -10462,7 +10462,7 @@ types:
     capacity: 92.0
     damagemultiplier: 3.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
@@ -10528,7 +10528,7 @@ types:
     capacity: 800.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
@@ -10594,7 +10594,7 @@ types:
     capacity: 305.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
@@ -10665,7 +10665,7 @@ types:
     capacity: 815.0
     damagemultiplier: 1.0
     emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
+    entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000

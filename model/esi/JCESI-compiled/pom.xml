@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.model</groupId>
 		<artifactId>esi</artifactId>
-		<version>6.3.7</version>
+		<version>6.3.8</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 	<artifactId>JCESI-compiled</artifactId>
@@ -18,6 +18,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<executions>
 					<execution>
+						<id>generate-classes</id>
 						<phase>generate-sources</phase>
 						<goals>
 							<goal>java</goal>
@@ -35,7 +36,6 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
-				<version>1.7</version>
 				<executions>
 					<execution>
 						<id>add-source</id>
