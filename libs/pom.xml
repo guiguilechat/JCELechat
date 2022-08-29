@@ -16,6 +16,7 @@
 		<module>RouteSolver</module>
 		<module>LogParser</module>
 		<module>spring</module>
+		<module>DBMaker</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
