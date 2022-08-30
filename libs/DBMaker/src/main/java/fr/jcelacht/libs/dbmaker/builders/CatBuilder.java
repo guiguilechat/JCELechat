@@ -20,9 +20,9 @@ public class CatBuilder implements TableBuilder {
 	public static final CatBuilder INSTANCE = new CatBuilder();
 
 	public static final String TABLENAME = "BASE_CATEGORIES";
-	public static final Set<String> IGNORED = null;
 	public static final List<String> PRIMARY_KEY = List.of("category_id");
 	public static final Map<List<String>, FKRef> FOREIGN_KEYS = null;
+	public static final Set<String> IGNORED = null;
 
 	@Override
 	public boolean execute(File outDir) {
@@ -30,15 +30,16 @@ public class CatBuilder implements TableBuilder {
 		Universe uni = ESIStatic.INSTANCE.cache().universe;
 
 		StringBuilder request = new StringBuilder();
+		initScript(request);
 		List<Field> columns = new ArrayList<>();
 		createTable(request, R_get_universe_categories_category_id.class, TABLENAME, columns, PRIMARY_KEY, FOREIGN_KEYS,
 				IGNORED);
 
-		List<Integer> cats = uni.categories().get();
-		for (int catid : cats) {
-			uni.categories(catid);
+		List<Integer> ids = uni.categories().get();
+		for (int id : ids) {
+			uni.categories(id);
 		}
-		List<R_get_universe_categories_category_id> items = cats.stream().map(typeid -> uni.categories(typeid).get())
+		List<R_get_universe_categories_category_id> items = ids.stream().sorted().map(id -> uni.categories(id).get())
 				.collect(Collectors.toList());
 		insertAllValues(request, TABLENAME, items, columns);
 

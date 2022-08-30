@@ -20,10 +20,10 @@ public class TypeBuilder implements TableBuilder {
 	public static final TypeBuilder INSTANCE = new TypeBuilder();
 
 	public static final String TABLENAME = "BASE_TYPES";
-	public static final Set<String> IGNORED = Set.of("description");
 	public static final List<String> PRIMARY_KEY = List.of("type_id");
 	public static final Map<List<String>, FKRef> FOREIGN_KEYS = Map.of(List.of("group_id"),
 			FKRef.of(GroupBuilder.TABLENAME));
+	public static final Set<String> IGNORED = Set.of("description");
 
 	@Override
 	public boolean execute(File outDir) {
@@ -31,14 +31,15 @@ public class TypeBuilder implements TableBuilder {
 		Universe uni = ESIStatic.INSTANCE.cache().universe;
 
 		StringBuilder request = new StringBuilder();
+		initScript(request);
 		List<Field> columns = new ArrayList<>();
 		createTable(request, R_get_universe_types_type_id.class, TABLENAME, columns, PRIMARY_KEY, FOREIGN_KEYS, IGNORED);
 
-		List<Integer> types = uni.types().get();
-		for (int typeid : types) {
+		List<Integer> ids = uni.types().get();
+		for (int typeid : ids) {
 			uni.types(typeid);
 		}
-		List<R_get_universe_types_type_id> items = types.stream().map(typeid -> uni.types(typeid).get())
+		List<R_get_universe_types_type_id> items = ids.stream().sorted().map(typeid -> uni.types(typeid).get())
 				.collect(Collectors.toList());
 		insertEachValues(request, TABLENAME, items, columns);
 

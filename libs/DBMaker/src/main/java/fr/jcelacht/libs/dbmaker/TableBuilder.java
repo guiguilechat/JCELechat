@@ -74,7 +74,20 @@ public interface TableBuilder {
 		public static FKRef of(String table, String... override) {
 			return new FKRef(table, override);
 		}
+
+		@Override
+		public String toString() {
+			return table + (field_override.isEmpty() ? "" : "." + field_override);
+		}
 	}
+
+	public default boolean initScript(StringBuilder request) {
+		return true;
+	}
+
+	// public default String user() {
+	// return "lechat";
+	// }
 
 	public default boolean createTable(StringBuilder request, Class<?> clazz, String tableName, List<Field> columns,
 			List<String> primary_key, Map<List<String>, FKRef> foreign_keys, Set<String> ignoredFields) {
@@ -87,8 +100,9 @@ public interface TableBuilder {
 		if (foreign_keys == null) {
 			foreign_keys = Map.of();
 		}
+		// tableName = user() + "." + tableName;
 		request.append("create table " + tableName + "(");
-		Field[] fields = clazz.getDeclaredFields();
+		Field[] fields = clazz.getFields();
 		Arrays.sort(fields, Comparator.comparing(Field::getName));
 		boolean first = true;
 		for (Field f : fields) {
@@ -119,14 +133,15 @@ public interface TableBuilder {
 		if (!primary_key.isEmpty()) {
 			request.append(", PRIMARY KEY (").append(primary_key.stream().collect(Collectors.joining(", "))).append(")");
 		}
-		if (!foreign_keys.isEmpty()) {
-			for (Map.Entry<List<String>, FKRef> entry : foreign_keys.entrySet()) {
-				FKRef ref = entry.getValue();
-				request.append(", FOREIGN KEY (").append(entry.getKey().stream().collect(Collectors.joining(", "))).append(")");
-				List<String> refFields = ref.field_override.isEmpty() ? entry.getKey() : ref.field_override;
-				request.append(" REFERENCES ").append(ref.table).append(" (")
-				.append(refFields.stream().collect(Collectors.joining(", "))).append(")");
+		for (Map.Entry<List<String>, FKRef> entry : foreign_keys.entrySet()) {
+			FKRef ref = entry.getValue();
+			if(!ref.field_override.isEmpty()&&entry.getKey().size()!=ref.field_override.size()) {
+				throw new UnsupportedOperationException("different sizes of list for foreign key "+entry);
 			}
+			request.append(", FOREIGN KEY (").append(entry.getKey().stream().collect(Collectors.joining(", "))).append(")");
+			List<String> refFields = ref.field_override.isEmpty() ? entry.getKey() : ref.field_override;
+			request.append(" REFERENCES ").append(ref.table).append(" (")
+			.append(refFields.stream().collect(Collectors.joining(", "))).append(")");
 		}
 		request.append(");\n");
 		return true;
@@ -134,7 +149,7 @@ public interface TableBuilder {
 
 	public default boolean insertAllValues(StringBuilder request, String tableName, List<? extends Object> items,
 			List<Field> columns) {
-
+		// tableName = user() + "." + tableName;
 		request.append("\nINSERT ALL\n");
 
 		StringBuilder into = new StringBuilder(" into " + tableName + " (");
@@ -171,7 +186,7 @@ public interface TableBuilder {
 
 	public default boolean insertEachValues(StringBuilder request, String tableName, List<? extends Object> items,
 			List<Field> columns) {
-
+		// tableName = user() + "." + tableName;
 		StringBuilder into = new StringBuilder("INSERT INTO " + tableName + " (");
 		boolean first = true;
 		for (Field f : columns) {

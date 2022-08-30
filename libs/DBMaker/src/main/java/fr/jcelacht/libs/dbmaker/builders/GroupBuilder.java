@@ -20,10 +20,10 @@ public class GroupBuilder implements TableBuilder {
 	public static final GroupBuilder INSTANCE = new GroupBuilder();
 
 	public static final String TABLENAME = "BASE_GROUPS";
-	public static final Set<String> IGNORED = null;
 	public static final List<String> PRIMARY_KEY = List.of("group_id");
 	public static final Map<List<String>, FKRef> FOREIGN_KEYS = Map.of(List.of("category_id"),
 			FKRef.of(CatBuilder.TABLENAME));
+	public static final Set<String> IGNORED = null;
 
 	@Override
 	public boolean execute(File outDir) {
@@ -31,14 +31,15 @@ public class GroupBuilder implements TableBuilder {
 		Universe uni = ESIStatic.INSTANCE.cache().universe;
 
 		StringBuilder request = new StringBuilder();
+		initScript(request);
 		List<Field> columns = new ArrayList<>();
 		createTable(request, R_get_universe_groups_group_id.class, TABLENAME, columns, PRIMARY_KEY, FOREIGN_KEYS, IGNORED);
 
-		List<Integer> groups = uni.groups().get();
-		for (int groupId : groups) {
+		List<Integer> ids = uni.groups().get();
+		for (int groupId : ids) {
 			uni.groups(groupId);
 		}
-		List<R_get_universe_groups_group_id> items = groups.stream().map(typeid -> uni.groups(typeid).get())
+		List<R_get_universe_groups_group_id> items = ids.stream().sorted().map(typeid -> uni.groups(typeid).get())
 				.collect(Collectors.toList());
 		insertAllValues(request, TABLENAME, items, columns);
 

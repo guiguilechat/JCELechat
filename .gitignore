@@ -18,7 +18,9 @@ hs_err_pid*
 
 target/
 test-output/
+*.log
 
 dependency-reduced-pom.xml
 
 **/.factorypath
+
