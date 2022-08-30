@@ -41,7 +41,7 @@ public class TypeBuilder implements TableBuilder {
 		}
 		List<R_get_universe_types_type_id> items = ids.stream().sorted().map(typeid -> uni.types(typeid).get())
 				.collect(Collectors.toList());
-		insertEachValues(request, TABLENAME, items, columns);
+		insertValues(request, TABLENAME, items, columns);
 
 		try (FileWriter writer = new FileWriter(outFile)) {
 			writer.write(request.toString());

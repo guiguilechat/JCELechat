@@ -41,7 +41,7 @@ public class AttributeBuilder implements TableBuilder {
 		}
 		List<R_get_dogma_attributes_attribute_id> items = ids.stream().sorted().map(id -> dogma.attributes(id).get())
 				.collect(Collectors.toList());
-		insertEachValues(request, TABLENAME, items, columns);
+		insertValues(request, TABLENAME, items, columns);
 
 		try (FileWriter writer = new FileWriter(outFile)) {
 			writer.write(request.toString());

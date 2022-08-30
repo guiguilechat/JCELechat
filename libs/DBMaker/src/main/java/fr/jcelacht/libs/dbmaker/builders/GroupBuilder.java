@@ -41,7 +41,7 @@ public class GroupBuilder implements TableBuilder {
 		}
 		List<R_get_universe_groups_group_id> items = ids.stream().sorted().map(typeid -> uni.groups(typeid).get())
 				.collect(Collectors.toList());
-		insertAllValues(request, TABLENAME, items, columns);
+		insertValues(request, TABLENAME, items, columns);
 
 		try (FileWriter writer = new FileWriter(outFile)) {
 			writer.write(request.toString());

@@ -48,7 +48,7 @@ public class TypeAttributesBuilder implements TableBuilder {
 				.sorted()
 				.collect(Collectors.toList());
 
-		insertEachValues(request, TABLENAME, items, columns);
+		insertValues(request, TABLENAME, items, columns);
 
 		try (FileWriter writer = new FileWriter(outFile)) {
 			writer.write(request.toString());

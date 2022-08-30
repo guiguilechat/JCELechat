@@ -1,49 +1,51 @@
+whenever sqlerror exit failure
+
 create table BASE_CATEGORIES(category_id NUMBER NOT NULL, name VARCHAR2(4000), PRIMARY KEY (category_id));
 
-INSERT ALL
- into BASE_CATEGORIES (category_id, name) VALUES (0, '#System')
- into BASE_CATEGORIES (category_id, name) VALUES (1, 'Owner')
- into BASE_CATEGORIES (category_id, name) VALUES (2, 'Celestial')
- into BASE_CATEGORIES (category_id, name) VALUES (3, 'Station')
- into BASE_CATEGORIES (category_id, name) VALUES (4, 'Material')
- into BASE_CATEGORIES (category_id, name) VALUES (5, 'Accessories')
- into BASE_CATEGORIES (category_id, name) VALUES (6, 'Ship')
- into BASE_CATEGORIES (category_id, name) VALUES (7, 'Module')
- into BASE_CATEGORIES (category_id, name) VALUES (8, 'Charge')
- into BASE_CATEGORIES (category_id, name) VALUES (9, 'Blueprint')
- into BASE_CATEGORIES (category_id, name) VALUES (10, 'Trading')
- into BASE_CATEGORIES (category_id, name) VALUES (11, 'Entity')
- into BASE_CATEGORIES (category_id, name) VALUES (14, 'Bonus')
- into BASE_CATEGORIES (category_id, name) VALUES (16, 'Skill')
- into BASE_CATEGORIES (category_id, name) VALUES (17, 'Commodity')
- into BASE_CATEGORIES (category_id, name) VALUES (18, 'Drone')
- into BASE_CATEGORIES (category_id, name) VALUES (20, 'Implant')
- into BASE_CATEGORIES (category_id, name) VALUES (22, 'Deployable')
- into BASE_CATEGORIES (category_id, name) VALUES (23, 'Starbase')
- into BASE_CATEGORIES (category_id, name) VALUES (24, 'Reaction')
- into BASE_CATEGORIES (category_id, name) VALUES (25, 'Asteroid')
- into BASE_CATEGORIES (category_id, name) VALUES (26, 'WorldSpace')
- into BASE_CATEGORIES (category_id, name) VALUES (29, 'Abstract')
- into BASE_CATEGORIES (category_id, name) VALUES (30, 'Apparel')
- into BASE_CATEGORIES (category_id, name) VALUES (32, 'Subsystem')
- into BASE_CATEGORIES (category_id, name) VALUES (34, 'Ancient Relics')
- into BASE_CATEGORIES (category_id, name) VALUES (35, 'Decryptors')
- into BASE_CATEGORIES (category_id, name) VALUES (39, 'Infrastructure Upgrades')
- into BASE_CATEGORIES (category_id, name) VALUES (40, 'Sovereignty Structures')
- into BASE_CATEGORIES (category_id, name) VALUES (41, 'Planetary Industry')
- into BASE_CATEGORIES (category_id, name) VALUES (42, 'Planetary Resources')
- into BASE_CATEGORIES (category_id, name) VALUES (43, 'Planetary Commodities')
- into BASE_CATEGORIES (category_id, name) VALUES (46, 'Orbitals')
- into BASE_CATEGORIES (category_id, name) VALUES (49, 'Placeables')
- into BASE_CATEGORIES (category_id, name) VALUES (53, 'Effects')
- into BASE_CATEGORIES (category_id, name) VALUES (54, 'Lights')
- into BASE_CATEGORIES (category_id, name) VALUES (59, 'Cells')
- into BASE_CATEGORIES (category_id, name) VALUES (63, 'Special Edition Assets')
- into BASE_CATEGORIES (category_id, name) VALUES (65, 'Structure')
- into BASE_CATEGORIES (category_id, name) VALUES (66, 'Structure Module')
- into BASE_CATEGORIES (category_id, name) VALUES (87, 'Fighter')
- into BASE_CATEGORIES (category_id, name) VALUES (91, 'SKINs')
- into BASE_CATEGORIES (category_id, name) VALUES (2100, 'Expert Systems')
- into BASE_CATEGORIES (category_id, name) VALUES (2107, 'Mining')
- into BASE_CATEGORIES (category_id, name) VALUES (350001, 'Infantry')
-select 1 from DUAL;
+INSERT INTO BASE_CATEGORIES (category_id, name)
+          SELECT 0, '#System' FROM DUAL
+UNION ALL SELECT 1, 'Owner' FROM DUAL
+UNION ALL SELECT 2, 'Celestial' FROM DUAL
+UNION ALL SELECT 3, 'Station' FROM DUAL
+UNION ALL SELECT 4, 'Material' FROM DUAL
+UNION ALL SELECT 5, 'Accessories' FROM DUAL
+UNION ALL SELECT 6, 'Ship' FROM DUAL
+UNION ALL SELECT 7, 'Module' FROM DUAL
+UNION ALL SELECT 8, 'Charge' FROM DUAL
+UNION ALL SELECT 9, 'Blueprint' FROM DUAL
+UNION ALL SELECT 10, 'Trading' FROM DUAL
+UNION ALL SELECT 11, 'Entity' FROM DUAL
+UNION ALL SELECT 14, 'Bonus' FROM DUAL
+UNION ALL SELECT 16, 'Skill' FROM DUAL
+UNION ALL SELECT 17, 'Commodity' FROM DUAL
+UNION ALL SELECT 18, 'Drone' FROM DUAL
+UNION ALL SELECT 20, 'Implant' FROM DUAL
+UNION ALL SELECT 22, 'Deployable' FROM DUAL
+UNION ALL SELECT 23, 'Starbase' FROM DUAL
+UNION ALL SELECT 24, 'Reaction' FROM DUAL
+UNION ALL SELECT 25, 'Asteroid' FROM DUAL
+UNION ALL SELECT 26, 'WorldSpace' FROM DUAL
+UNION ALL SELECT 29, 'Abstract' FROM DUAL
+UNION ALL SELECT 30, 'Apparel' FROM DUAL
+UNION ALL SELECT 32, 'Subsystem' FROM DUAL
+UNION ALL SELECT 34, 'Ancient Relics' FROM DUAL
+UNION ALL SELECT 35, 'Decryptors' FROM DUAL
+UNION ALL SELECT 39, 'Infrastructure Upgrades' FROM DUAL
+UNION ALL SELECT 40, 'Sovereignty Structures' FROM DUAL
+UNION ALL SELECT 41, 'Planetary Industry' FROM DUAL
+UNION ALL SELECT 42, 'Planetary Resources' FROM DUAL
+UNION ALL SELECT 43, 'Planetary Commodities' FROM DUAL
+UNION ALL SELECT 46, 'Orbitals' FROM DUAL
+UNION ALL SELECT 49, 'Placeables' FROM DUAL
+UNION ALL SELECT 53, 'Effects' FROM DUAL
+UNION ALL SELECT 54, 'Lights' FROM DUAL
+UNION ALL SELECT 59, 'Cells' FROM DUAL
+UNION ALL SELECT 63, 'Special Edition Assets' FROM DUAL
+UNION ALL SELECT 65, 'Structure' FROM DUAL
+UNION ALL SELECT 66, 'Structure Module' FROM DUAL
+UNION ALL SELECT 87, 'Fighter' FROM DUAL
+UNION ALL SELECT 91, 'SKINs' FROM DUAL
+UNION ALL SELECT 2100, 'Expert Systems' FROM DUAL
+UNION ALL SELECT 2107, 'Mining' FROM DUAL
+UNION ALL SELECT 350001, 'Infantry' FROM DUAL
+;

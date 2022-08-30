@@ -41,7 +41,7 @@ public class CatBuilder implements TableBuilder {
 		}
 		List<R_get_universe_categories_category_id> items = ids.stream().sorted().map(id -> uni.categories(id).get())
 				.collect(Collectors.toList());
-		insertAllValues(request, TABLENAME, items, columns);
+		insertValues(request, TABLENAME, items, columns);
 
 		try (FileWriter writer = new FileWriter(outFile)) {
 			writer.write(request.toString());

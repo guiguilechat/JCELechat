@@ -82,6 +82,7 @@ public interface TableBuilder {
 	}
 
 	public default boolean initScript(StringBuilder request) {
+		request.append("whenever sqlerror exit failure\n\n");
 		return true;
 	}
 
@@ -147,10 +148,25 @@ public interface TableBuilder {
 		return true;
 	}
 
+	public default int insertBatchSize() {
+		return 1000;
+	}
+
+	default boolean insertUnion() {
+		return true;
+	}
+
+	public default boolean insertValues(StringBuilder request, String tableName, List<? extends Object> items,
+			List<Field> columns) {
+		if (insertUnion()) {
+			return insertUnionValues(request, tableName, items, columns);
+		} else {
+			return insertAllValues(request, tableName, items, columns);
+		}
+	}
+
 	public default boolean insertAllValues(StringBuilder request, String tableName, List<? extends Object> items,
 			List<Field> columns) {
-		// tableName = user() + "." + tableName;
-		request.append("\nINSERT ALL\n");
 
 		StringBuilder into = new StringBuilder(" into " + tableName + " (");
 		boolean first = true;
@@ -163,6 +179,13 @@ public interface TableBuilder {
 		}
 		into.append(") VALUES (");
 
+		request.append("\n");
+		String startBatch = "INSERT ALL\n";
+		String endBatch = "select 1 from DUAL;\n";
+		int batchSize = insertBatchSize();
+
+		request.append(startBatch);
+		int done = 0;
 		for (Object entry : items) {
 			request.append(into);
 			first = true;
@@ -179,33 +202,38 @@ public interface TableBuilder {
 				}
 			}
 			request.append(")\n");
+			done++;
+			if (done % batchSize == 0 && done != columns.size() - 1) {
+				request.append(endBatch);
+				request.append(startBatch);
+			}
 		}
-		request.append("select 1 from DUAL;");
+		request.append(endBatch);
 		return true;
 	}
 
-	public default boolean insertEachValues(StringBuilder request, String tableName, List<? extends Object> items,
+	public default boolean insertUnionValues(StringBuilder request, String tableName, List<? extends Object> items,
 			List<Field> columns) {
-		// tableName = user() + "." + tableName;
-		StringBuilder into = new StringBuilder("INSERT INTO " + tableName + " (");
-		boolean first = true;
-		for (Field f : columns) {
-			if (!first) {
-				into.append(", ");
-			}
-			first = false;
-			into.append(f.getName());
-		}
-		into.append(") VALUES (");
 
+		request.append("\n");
+		String startBatch = "INSERT INTO " + tableName + " ("
+				+ columns.stream().map(Field::getName).collect(Collectors.joining(", ")) + ")\n";
+		String endBatch = ";\n";
+		int batchSize = insertBatchSize();
+
+		request.append(startBatch);
+		boolean firstEntry = true;
+		int done = 0;
 		for (Object entry : items) {
-			request.append(into);
-			first = true;
+			request.append(firstEntry ? "          " : "UNION ALL ");
+			firstEntry = false;
+			request.append("SELECT ");
+			boolean firstField = true;
 			for (Field f : columns) {
-				if (!first) {
+				if (!firstField) {
 					request.append(", ");
 				}
-				first = false;
+				firstField = false;
 				try {
 					String dbValue = convertOracleInsert(f.get(entry));
 					request.append(dbValue);
@@ -213,8 +241,15 @@ public interface TableBuilder {
 					throw new UnsupportedOperationException(e);
 				}
 			}
-			request.append(");\n");
+			request.append(" FROM DUAL\n");
+			done++;
+			if (done % batchSize == 0 && done != columns.size() - 1) {
+				request.append(endBatch);
+				request.append(startBatch);
+				firstEntry = true;
+			}
 		}
+		request.append(endBatch);
 		return true;
 	}
 
