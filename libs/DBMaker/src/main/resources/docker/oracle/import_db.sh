@@ -1,4 +1,4 @@
-set -e
+
 sql_dir=/container-entrypoint-initdb.d/sql/
 for script in $(ls $sql_dir)
 do
