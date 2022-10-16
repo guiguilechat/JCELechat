@@ -1,0 +1,170 @@
+types:
+  Ore Prospecting Array 1:
+    devindexindustrial: 1
+    distributionid01: 364
+    id: 2040
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 1
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  Ore Prospecting Array 2:
+    devindexindustrial: 2
+    distributionid01: 365
+    id: 2041
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 2
+    packagedVolume: 10000.0
+    portionSize: 1
+    price: 7.5E7
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2040
+    volume: 10000.0
+  Ore Prospecting Array 3:
+    devindexindustrial: 3
+    distributionid01: 366
+    distributionid02: 676
+    distributionid03: 680
+    id: 2042
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 3
+    packagedVolume: 20000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2041
+    volume: 20000.0
+  Ore Prospecting Array 4:
+    devindexindustrial: 4
+    distributionid01: 367
+    distributionid02: 678
+    distributionid03: 681
+    id: 2043
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 4
+    packagedVolume: 40000.0
+    portionSize: 1
+    price: 1.25E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2042
+    volume: 40000.0
+  Ore Prospecting Array 5:
+    devindexindustrial: 5
+    distributionid01: 368
+    distributionid02: 679
+    distributionid03: 682
+    id: 2044
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 5
+    packagedVolume: 60000.0
+    portionSize: 1
+    price: 2.5E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2043
+    volume: 60000.0
+  Survey Networks 1:
+    devindexindustrial: 1
+    distributionidangel01: 369
+    distributionidblood01: 374
+    distributionidgurista01: 379
+    distributionidroguedrone01: 394
+    distributionidsansha01: 384
+    distributionidserpentis01: 389
+    id: 2053
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 1
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  Survey Networks 2:
+    devindexindustrial: 2
+    distributionidangel01: 370
+    distributionidblood01: 375
+    distributionidgurista01: 380
+    distributionidroguedrone01: 395
+    distributionidsansha01: 385
+    distributionidserpentis01: 390
+    id: 2054
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 2
+    packagedVolume: 10000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2053
+    volume: 10000.0
+  Survey Networks 3:
+    devindexindustrial: 3
+    distributionidangel01: 371
+    distributionidblood01: 376
+    distributionidgurista01: 381
+    distributionidroguedrone01: 396
+    distributionidsansha01: 386
+    distributionidserpentis01: 391
+    id: 2055
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 3
+    packagedVolume: 20000.0
+    portionSize: 1
+    price: 1.5E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2054
+    volume: 20000.0
+  Survey Networks 4:
+    devindexindustrial: 4
+    distributionidangel01: 372
+    distributionidblood01: 377
+    distributionidgurista01: 382
+    distributionidroguedrone01: 397
+    distributionidsansha01: 387
+    distributionidserpentis01: 392
+    id: 2056
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 4
+    packagedVolume: 40000.0
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2055
+    volume: 40000.0
+  Survey Networks 5:
+    devindexindustrial: 5
+    distributionidangel01: 373
+    distributionidblood01: 378
+    distributionidgurista01: 383
+    distributionidroguedrone01: 398
+    distributionidsansha01: 388
+    distributionidserpentis01: 393
+    id: 2057
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 5
+    packagedVolume: 60000.0
+    portionSize: 1
+    price: 2.5E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2056
+    volume: 60000.0

@@ -1,0 +1,124 @@
+types:
+  Cybernetic 'Source' Subprocessor:
+    id: 33807
+    implantness: 4
+    implantsetchristmas: 1.0
+    intelligencebonus: 4
+    marketGroup: 621
+    name: Cybernetic 'Source' Subprocessor
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  Genolution 'Auroral' AU-79:
+    followsjumpclones: 1
+    id: 33329
+    implantness: 79
+    implantsetchristmas: 1.0
+    marketGroup: 1814
+    name: Genolution 'Auroral' AU-79
+    nondestructible: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+  Genolution Core Augmentation CA-1:
+    capacitorcapacitybonus: 1.5
+    id: 2082
+    implantness: 1
+    implantsetchristmas: 1.5
+    marketGroup: 618
+    metalevelold: 7
+    name: Genolution Core Augmentation CA-1
+    packagedVolume: 1.0
+    perceptionbonus: 3
+    portionSize: 1
+    powerengineeringoutputbonus: 1.5
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  Genolution Core Augmentation CA-2:
+    caprechargebonus: -1.5
+    cpuoutputbonus2: 1.5
+    id: 2589
+    implantness: 4
+    implantsetchristmas: 1.399999976158142
+    intelligencebonus: 3
+    marketGroup: 621
+    metalevelold: 7
+    name: Genolution Core Augmentation CA-2
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  Genolution Core Augmentation CA-3:
+    id: 33393
+    implantbonusvelocity: 1.5
+    implantness: 3
+    implantsetchristmas: 1.2999999523162842
+    marketGroup: 620
+    metalevelold: 7
+    name: Genolution Core Augmentation CA-3
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    shieldcapacitybonus: 1.5
+    techlevel: 1
+    volume: 1.0
+    willpowerbonus: 3
+  Genolution Core Augmentation CA-4:
+    agilitybonus: -1.5
+    armorhpbonus2: 1.5
+    id: 33394
+    implantness: 2
+    implantsetchristmas: 1.2000000476837158
+    marketGroup: 619
+    memorybonus: 3
+    metalevelold: 7
+    name: Genolution Core Augmentation CA-4
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  Neural 'Source' Boost:
+    id: 33808
+    implantness: 3
+    implantsetchristmas: 1.0
+    marketGroup: 620
+    name: Neural 'Source' Boost
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+    willpowerbonus: 4

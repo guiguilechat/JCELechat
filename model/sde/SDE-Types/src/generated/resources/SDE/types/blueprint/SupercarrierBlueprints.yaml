@@ -1,0 +1,62 @@
+types:
+  Aeon Blueprint:
+    id: 23920
+    industryblueprintrank: 400.0
+    marketGroup: 888
+    name: Aeon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.8499999744E10
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Hel Blueprint:
+    id: 22853
+    industryblueprintrank: 400.0
+    marketGroup: 891
+    name: Hel Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.9000000512E10
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Nyx Blueprint:
+    id: 23914
+    industryblueprintrank: 400.0
+    marketGroup: 890
+    name: Nyx Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E10
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Revenant Blueprint:
+    id: 3515
+    industryblueprintrank: 400.0
+    name: Revenant Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.8499999744E10
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Vendetta Blueprint:
+    id: 42137
+    name: Vendetta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wyvern Blueprint:
+    id: 23918
+    industryblueprintrank: 400.0
+    marketGroup: 889
+    name: Wyvern Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.7999998976E10
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

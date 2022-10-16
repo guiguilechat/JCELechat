@@ -1,0 +1,66 @@
+types:
+  Ship Scanner I:
+    capacitorneed: 5.0
+    cpu: 15.0
+    disallowrepeatingactivation: 1
+    duration: 2000.0
+    hp: 40.0
+    id: 443
+    marketGroup: 713
+    name: Ship Scanner I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    shipscanfalloff: 30000
+    shipscanrange: 50000
+    slots: 1
+    techlevel: 1
+    volume: 5.0
+  Ship Scanner II:
+    capacitorneed: 5.0
+    cpu: 17.0
+    disallowrepeatingactivation: 1
+    duration: 1500.0
+    hp: 40.0
+    id: 1855
+    marketGroup: 713
+    metalevelold: 5
+    name: Ship Scanner II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 2
+    shipscanfalloff: 36000
+    shipscanrange: 60000
+    slots: 1
+    techlevel: 2
+    volume: 5.0
+  Ta3 Compact Ship Scanner:
+    capacitorneed: 5.0
+    cpu: 11.0
+    disallowrepeatingactivation: 1
+    duration: 1800.0
+    hp: 40.0
+    id: 6527
+    marketGroup: 713
+    metalevelold: 1
+    name: Ta3 Compact Ship Scanner
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    shipscanfalloff: 33000
+    shipscanrange: 55000
+    slots: 1
+    techlevel: 1
+    volume: 5.0

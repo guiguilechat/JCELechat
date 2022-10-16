@@ -1,0 +1,73 @@
+types:
+  Amarr Infrastructure Hub:
+    armorhp: 7500000.0
+    armoruniformity: 1.0
+    disallowassistance: 1
+    factionid: 500003
+    hp: 1.0E7
+    id: 29286
+    mass: 1000000.0
+    name: Amarr Infrastructure Hub
+    portionSize: 1
+    price: 600000.0
+    published: false
+    radius: 10290.0
+    shieldcapacity: 7500000.0
+    shieldrechargerate: 1.08E7
+    shielduniformity: 1.0
+    signatureradius: 4000.0
+    uniformity: 1.0
+  Caldari Infrastructure Hub:
+    armorhp: 7500000.0
+    armoruniformity: 1.0
+    disallowassistance: 1
+    factionid: 500001
+    hp: 1.0E7
+    id: 29302
+    mass: 1000000.0
+    name: Caldari Infrastructure Hub
+    portionSize: 1
+    price: 600000.0
+    published: false
+    radius: 10290.0
+    shieldcapacity: 7500000.0
+    shieldrechargerate: 1.08E7
+    shielduniformity: 1.0
+    signatureradius: 4000.0
+    uniformity: 1.0
+  Gallente Infrastructure Hub:
+    armorhp: 7500000.0
+    armoruniformity: 1.0
+    disallowassistance: 1
+    factionid: 500004
+    hp: 1.0E7
+    id: 29303
+    mass: 1000000.0
+    name: Gallente Infrastructure Hub
+    portionSize: 1
+    price: 600000.0
+    published: false
+    radius: 10290.0
+    shieldcapacity: 7500000.0
+    shieldrechargerate: 1.08E7
+    shielduniformity: 1.0
+    signatureradius: 4000.0
+    uniformity: 1.0
+  Minmatar Infrastructure Hub:
+    armorhp: 7500000.0
+    armoruniformity: 1.0
+    disallowassistance: 1
+    factionid: 500002
+    hp: 1.0E7
+    id: 29304
+    mass: 1000000.0
+    name: Minmatar Infrastructure Hub
+    portionSize: 1
+    price: 600000.0
+    published: false
+    radius: 10290.0
+    shieldcapacity: 7500000.0
+    shieldrechargerate: 1.08E7
+    shielduniformity: 1.0
+    signatureradius: 4000.0
+    uniformity: 1.0

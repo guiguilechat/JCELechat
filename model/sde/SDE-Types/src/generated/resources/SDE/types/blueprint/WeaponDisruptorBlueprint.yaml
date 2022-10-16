@@ -1,0 +1,63 @@
+types:
+  '''Distributor'' Guidance Disruptor Blueprint':
+    id: 22932
+    industryblueprintrank: 6.0
+    name: '''Distributor'' Guidance Disruptor Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Investor'' Tracking Disruptor I Blueprint':
+    id: 22934
+    industryblueprintrank: 6.0
+    name: '''Investor'' Tracking Disruptor I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Guidance Disruptor I Blueprint:
+    id: 40338
+    marketGroup: 1574
+    name: Guidance Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 298240.0
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Guidance Disruptor II Blueprint:
+    id: 40339
+    name: Guidance Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Tracking Disruptor I Blueprint:
+    id: 11614
+    industryblueprintrank: 6.0
+    marketGroup: 1574
+    name: Tracking Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 298240.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Tracking Disruptor II Blueprint:
+    id: 11844
+    industryblueprintrank: 15.600000381469727
+    name: Tracking Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

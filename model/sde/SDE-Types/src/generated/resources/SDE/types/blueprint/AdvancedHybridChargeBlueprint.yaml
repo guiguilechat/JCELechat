@@ -1,0 +1,173 @@
+types:
+  Javelin L Blueprint:
+    id: 12804
+    industryblueprintrank: 4.800000190734863
+    name: Javelin L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Javelin M Blueprint:
+    id: 12802
+    industryblueprintrank: 3.200000047683716
+    name: Javelin M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Javelin S Blueprint:
+    id: 12621
+    industryblueprintrank: 1.600000023841858
+    name: Javelin S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Javelin XL Blueprint:
+    id: 41327
+    name: Javelin XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4000000.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Null L Blueprint:
+    id: 12788
+    industryblueprintrank: 4.800000190734863
+    name: Null L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Null M Blueprint:
+    id: 12786
+    industryblueprintrank: 3.200000047683716
+    name: Null M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Null S Blueprint:
+    id: 12615
+    industryblueprintrank: 1.600000023841858
+    name: Null S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Null XL Blueprint:
+    id: 41325
+    name: Null XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6000000.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Spike L Blueprint:
+    id: 12808
+    industryblueprintrank: 4.800000190734863
+    name: Spike L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Spike M Blueprint:
+    id: 12806
+    industryblueprintrank: 3.200000047683716
+    name: Spike M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Spike S Blueprint:
+    id: 12619
+    industryblueprintrank: 1.600000023841858
+    name: Spike S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Spike XL Blueprint:
+    id: 41329
+    name: Spike XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 8000000.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Void L Blueprint:
+    id: 12792
+    industryblueprintrank: 4.800000190734863
+    name: Void L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Void M Blueprint:
+    id: 12790
+    industryblueprintrank: 3.200000047683716
+    name: Void M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Void S Blueprint:
+    id: 12613
+    industryblueprintrank: 1.600000023841858
+    name: Void S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Void XL Blueprint:
+    id: 41323
+    name: Void XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

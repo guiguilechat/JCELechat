@@ -1,0 +1,23 @@
+types:
+  Drone Damage Amplifier I Blueprint:
+    id: 4394
+    industryblueprintrank: 3.0
+    marketGroup: 939
+    name: Drone Damage Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 499200.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Drone Damage Amplifier II Blueprint:
+    id: 4406
+    industryblueprintrank: 7.800000190734863
+    name: Drone Damage Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

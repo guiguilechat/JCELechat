@@ -1,0 +1,34 @@
+types:
+  Standup Cap Battery I:
+    capacitorbonus: 50000
+    cpu: 4000.0
+    hp: 40.0
+    id: 47352
+    marketGroup: 2224
+    mass: 500.0
+    name: Standup Cap Battery I
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 300000
+    published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
+    volume: 4000.0
+  Standup Cap Battery II:
+    capacitorbonus: 62500
+    cpu: 4800.0
+    hp: 40.0
+    id: 47353
+    marketGroup: 2224
+    mass: 500.0
+    metalevelold: 5
+    name: Standup Cap Battery II
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 360000
+    published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    techlevel: 2
+    volume: 4000.0

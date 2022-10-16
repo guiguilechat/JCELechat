@@ -1,0 +1,227 @@
+types:
+  Dread Guristas Omnidirectional Tracking Enhancer:
+    aoecloudsizebonus: -6.300000190734863
+    aoevelocitybonus: 6.300000190734863
+    cpu: 8.0
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 33830
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 10.0
+    metagroupid: 4
+    metalevelold: 6
+    name: Dread Guristas Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 10.0
+    volume: 5.0
+  Imperial Navy Omnidirectional Tracking Enhancer:
+    aoecloudsizebonus: -6.300000190734863
+    aoevelocitybonus: 6.300000190734863
+    cpu: 8.0
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 33832
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 10.0
+    metagroupid: 4
+    metalevelold: 6
+    name: Imperial Navy Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 10.0
+    volume: 5.0
+  N-JM Compact Omnidirectional Tracking Enhancer:
+    aoecloudsizebonus: -5.5
+    aoevelocitybonus: 5.5
+    cpu: 8.0
+    falloffbonus: 16.5
+    hp: 40.0
+    id: 41033
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 8.25
+    metalevelold: 1
+    name: N-JM Compact Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 8.0
+    volume: 5.0
+  Omnidirectional Tracking Enhancer I:
+    aoecloudsizebonus: -4.400000095367432
+    aoevelocitybonus: 4.400000095367432
+    cpu: 10.0
+    falloffbonus: 13.399999618530273
+    hp: 40.0
+    id: 33822
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 6.699999809265137
+    name: Omnidirectional Tracking Enhancer I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 7.0
+    volume: 5.0
+  Omnidirectional Tracking Enhancer II:
+    aoecloudsizebonus: -6.0
+    aoevelocitybonus: 6.0
+    cpu: 15.0
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 33824
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 10.0
+    metalevelold: 5
+    name: Omnidirectional Tracking Enhancer II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 4
+    techlevel: 2
+    trackingspeedbonus: 9.5
+    volume: 5.0
+  Sentient Omnidirectional Tracking Enhancer:
+    aoecloudsizebonus: -6.300000190734863
+    aoevelocitybonus: 6.300000190734863
+    cpu: 8.0
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 33828
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 10.0
+    metagroupid: 4
+    metalevelold: 6
+    name: Sentient Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 10.0
+    volume: 5.0
+  Unit D-34343's Modified Omnidirectional Tracking Enhancer:
+    aoecloudsizebonus: -7.875
+    aoevelocitybonus: 7.875
+    cpu: 12.0
+    falloffbonus: 21.0
+    hp: 40.0
+    id: 33834
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 10.5
+    metagroupid: 5
+    metalevelold: 11
+    name: Unit D-34343's Modified Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 12.5
+    volume: 5.0
+  Unit F-435454's Modified Omnidirectional Tracking Enhancer:
+    aoecloudsizebonus: -9.449999809265137
+    aoevelocitybonus: 9.449999809265137
+    cpu: 14.0
+    falloffbonus: 22.0
+    hp: 40.0
+    id: 33836
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 11.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Unit F-435454's Modified Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    volume: 5.0
+  Unit P-343554's Modified Omnidirectional Tracking Enhancer:
+    aoecloudsizebonus: -11.024999618530273
+    aoevelocitybonus: 11.024999618530273
+    cpu: 16.0
+    falloffbonus: 23.0
+    hp: 40.0
+    id: 33838
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 11.5
+    metagroupid: 5
+    metalevelold: 15
+    name: Unit P-343554's Modified Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 17.5
+    volume: 5.0
+  Unit W-634's Modified Omnidirectional Tracking Enhancer:
+    aoecloudsizebonus: -12.600000381469727
+    aoevelocitybonus: 12.600000381469727
+    cpu: 18.0
+    falloffbonus: 24.0
+    hp: 40.0
+    id: 33840
+    marketGroup: 938
+    mass: 20.0
+    maxrangebonus: 12.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Unit W-634's Modified Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23606
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 20.0
+    volume: 5.0

@@ -1,0 +1,58 @@
+types:
+  Standup Stasis Webifier I:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 3000.0
+    cpu: 2500.0
+    disallowrepeatingactivation: 1
+    duration: 30000.0
+    hp: 40.0
+    id: 35943
+    marketGroup: 2213
+    mass: 500.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    maxrange: 200000.0
+    modulereactivationdelay: 60000
+    name: Standup Stasis Webifier I
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 50000
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2115
+    speedfactor: -70.0
+    structureitemvisualflag: 1
+    techlevel: 1
+    volume: 4000.0
+  Standup Stasis Webifier II:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 3600.0
+    cpu: 3000.0
+    disallowrepeatingactivation: 1
+    duration: 30000.0
+    hp: 40.0
+    id: 47351
+    marketGroup: 2213
+    mass: 500.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    maxrange: 300000.0
+    metalevelold: 5
+    modulereactivationdelay: 60000
+    name: Standup Stasis Webifier II
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 60000
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2115
+    speedfactor: -75.0
+    structureitemvisualflag: 1
+    techlevel: 2
+    volume: 4000.0

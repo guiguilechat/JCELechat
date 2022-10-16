@@ -1,0 +1,24 @@
+types:
+  Salvager I Blueprint:
+    id: 25862
+    industryblueprintrank: 9.0
+    marketGroup: 1712
+    name: Salvager I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 332640.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Salvager II Blueprint:
+    id: 30837
+    industryblueprintrank: 23.399999618530273
+    name: Salvager II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 332640.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

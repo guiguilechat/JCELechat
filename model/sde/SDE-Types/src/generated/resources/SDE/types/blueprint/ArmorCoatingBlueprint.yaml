@@ -1,0 +1,843 @@
+types:
+  '''Basic'' EM Energized Membrane Blueprint':
+    id: 11216
+    industryblueprintrank: 3.0
+    name: '''Basic'' EM Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 300000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Basic'' Explosive Energized Membrane Blueprint':
+    id: 11226
+    industryblueprintrank: 3.0
+    name: '''Basic'' Explosive Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 300000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Basic'' Kinetic Energized Membrane Blueprint':
+    id: 11246
+    industryblueprintrank: 3.0
+    name: '''Basic'' Kinetic Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 300000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Basic'' Layered Energized Membrane Blueprint':
+    id: 11236
+    industryblueprintrank: 3.0
+    name: '''Basic'' Layered Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 300000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Basic'' Multispectrum Energized Membrane Blueprint':
+    id: 11266
+    industryblueprintrank: 3.0
+    name: '''Basic'' Multispectrum Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Basic'' Thermal Energized Membrane Blueprint':
+    id: 11256
+    industryblueprintrank: 3.0
+    name: '''Basic'' Thermal Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 300000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Bribe'' Explosive Energized Membrane Blueprint':
+    id: 55863
+    industryblueprintrank: 3.0
+    name: '''Bribe'' Explosive Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Mafia'' Kinetic Energized Membrane Blueprint':
+    id: 22884
+    industryblueprintrank: 3.0
+    name: '''Mafia'' Kinetic Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Moonshine'' Thermal Energized Membrane Blueprint':
+    id: 22882
+    industryblueprintrank: 3.0
+    name: '''Moonshine'' Thermal Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Pickpocket'' EM Energized Membrane Blueprint':
+    id: 55861
+    industryblueprintrank: 3.0
+    name: '''Pickpocket'' EM Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Pilfer'' Multispectrum Energized Membrane Blueprint':
+    id: 22880
+    industryblueprintrank: 3.0
+    name: '''Pilfer'' Multispectrum Energized Membrane Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy EM Coating Blueprint:
+    id: 17519
+    industryblueprintrank: 3.0
+    name: Ammatar Navy EM Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy EM Energized Membrane Blueprint:
+    id: 17543
+    industryblueprintrank: 3.0
+    name: Ammatar Navy EM Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy Explosive Coating Blueprint:
+    id: 17517
+    industryblueprintrank: 3.0
+    name: Ammatar Navy Explosive Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy Explosive Energized Membrane Blueprint:
+    id: 17541
+    industryblueprintrank: 3.0
+    name: Ammatar Navy Explosive Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy Kinetic Coating Blueprint:
+    id: 17513
+    industryblueprintrank: 3.0
+    name: Ammatar Navy Kinetic Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy Kinetic Energized Membrane Blueprint:
+    id: 17539
+    industryblueprintrank: 3.0
+    name: Ammatar Navy Kinetic Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy Multispectrum Coating Blueprint:
+    id: 17515
+    industryblueprintrank: 3.0
+    name: Ammatar Navy Multispectrum Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy Multispectrum Energized Membrane Blueprint:
+    id: 17537
+    industryblueprintrank: 3.0
+    name: Ammatar Navy Multispectrum Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy Thermal Coating Blueprint:
+    id: 32810
+    industryblueprintrank: 3.0
+    name: Ammatar Navy Thermal Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Ammatar Navy Thermal Energized Membrane Blueprint:
+    id: 17545
+    industryblueprintrank: 3.0
+    name: Ammatar Navy Thermal Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  EM Coating I Blueprint:
+    id: 1204
+    industryblueprintrank: 3.0
+    marketGroup: 1544
+    name: EM Coating I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 49740.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  EM Coating II Blueprint:
+    id: 1205
+    industryblueprintrank: 7.800000190734863
+    name: EM Coating II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  EM Energized Membrane I Blueprint:
+    id: 11218
+    industryblueprintrank: 3.0
+    marketGroup: 1543
+    name: EM Energized Membrane I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 750000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  EM Energized Membrane II Blueprint:
+    id: 11220
+    industryblueprintrank: 7.800000190734863
+    name: EM Energized Membrane II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Explosive Coating I Blueprint:
+    id: 1265
+    industryblueprintrank: 3.0
+    marketGroup: 1544
+    name: Explosive Coating I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 49740.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Explosive Coating II Blueprint:
+    id: 1267
+    industryblueprintrank: 7.800000190734863
+    name: Explosive Coating II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Explosive Energized Membrane I Blueprint:
+    id: 11228
+    industryblueprintrank: 3.0
+    marketGroup: 1543
+    name: Explosive Energized Membrane I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 750000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Explosive Energized Membrane II Blueprint:
+    id: 11230
+    industryblueprintrank: 7.800000190734863
+    name: Explosive Energized Membrane II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Federation Navy EM Coating Blueprint:
+    id: 17556
+    industryblueprintrank: 3.0
+    name: Federation Navy EM Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy EM Energized Membrane Blueprint:
+    id: 15734
+    industryblueprintrank: 3.0
+    name: Federation Navy EM Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy Explosive Coating Blueprint:
+    id: 17554
+    industryblueprintrank: 3.0
+    name: Federation Navy Explosive Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy Explosive Energized Membrane Blueprint:
+    id: 15736
+    industryblueprintrank: 3.0
+    name: Federation Navy Explosive Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy Kinetic Coating Blueprint:
+    id: 17552
+    industryblueprintrank: 3.0
+    name: Federation Navy Kinetic Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy Kinetic Energized Membrane Blueprint:
+    id: 15738
+    industryblueprintrank: 3.0
+    name: Federation Navy Kinetic Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy Multispectrum Coating Blueprint:
+    id: 17550
+    industryblueprintrank: 3.0
+    name: Federation Navy Multispectrum Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy Multispectrum Energized Membrane Blueprint:
+    id: 15740
+    industryblueprintrank: 3.0
+    name: Federation Navy Multispectrum Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy Thermal Coating Blueprint:
+    id: 17558
+    industryblueprintrank: 3.0
+    name: Federation Navy Thermal Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Federation Navy Thermal Energized Membrane Blueprint:
+    id: 15732
+    industryblueprintrank: 3.0
+    name: Federation Navy Thermal Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy EM Coating Blueprint:
+    id: 15688
+    industryblueprintrank: 3.0
+    name: Imperial Navy EM Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy EM Energized Membrane Blueprint:
+    id: 15724
+    industryblueprintrank: 3.0
+    name: Imperial Navy EM Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy Explosive Coating Blueprint:
+    id: 15690
+    industryblueprintrank: 3.0
+    name: Imperial Navy Explosive Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy Explosive Energized Membrane Blueprint:
+    id: 15726
+    industryblueprintrank: 3.0
+    name: Imperial Navy Explosive Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy Kinetic Coating Blueprint:
+    id: 15692
+    industryblueprintrank: 3.0
+    name: Imperial Navy Kinetic Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy Kinetic Energized Membrane Blueprint:
+    id: 15728
+    industryblueprintrank: 3.0
+    name: Imperial Navy Kinetic Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy Multispectrum Coating Blueprint:
+    id: 15694
+    industryblueprintrank: 3.0
+    name: Imperial Navy Multispectrum Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy Multispectrum Energized Membrane Blueprint:
+    id: 15730
+    industryblueprintrank: 3.0
+    name: Imperial Navy Multispectrum Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy Thermal Coating Blueprint:
+    id: 15686
+    industryblueprintrank: 3.0
+    name: Imperial Navy Thermal Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Imperial Navy Thermal Energized Membrane Blueprint:
+    id: 15722
+    industryblueprintrank: 3.0
+    name: Imperial Navy Thermal Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy EM Coating Blueprint:
+    id: 28555
+    industryblueprintrank: 3.0
+    name: Khanid Navy EM Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy EM Energized Membrane Blueprint:
+    id: 28541
+    industryblueprintrank: 3.0
+    name: Khanid Navy EM Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy Explosive Coating Blueprint:
+    id: 28553
+    industryblueprintrank: 3.0
+    name: Khanid Navy Explosive Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy Explosive Energized Membrane Blueprint:
+    id: 28539
+    industryblueprintrank: 3.0
+    name: Khanid Navy Explosive Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy Kinetic Coating Blueprint:
+    id: 28548
+    industryblueprintrank: 3.0
+    name: Khanid Navy Kinetic Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy Kinetic Energized Membrane Blueprint:
+    id: 28537
+    industryblueprintrank: 3.0
+    name: Khanid Navy Kinetic Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy Multispectrum Coating Blueprint:
+    id: 28521
+    industryblueprintrank: 3.0
+    name: Khanid Navy Multispectrum Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy Multispectrum Energized Membrane Blueprint:
+    id: 28535
+    industryblueprintrank: 3.0
+    name: Khanid Navy Multispectrum Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy Thermal Coating Blueprint:
+    id: 28560
+    industryblueprintrank: 3.0
+    name: Khanid Navy Thermal Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Khanid Navy Thermal Energized Membrane Blueprint:
+    id: 28543
+    industryblueprintrank: 3.0
+    name: Khanid Navy Thermal Energized Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Kinetic Coating I Blueprint:
+    id: 1285
+    industryblueprintrank: 3.0
+    marketGroup: 1544
+    name: Kinetic Coating I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 49740.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Kinetic Coating II Blueprint:
+    id: 1287
+    industryblueprintrank: 7.800000190734863
+    name: Kinetic Coating II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Kinetic Energized Membrane I Blueprint:
+    id: 11248
+    industryblueprintrank: 3.0
+    marketGroup: 1543
+    name: Kinetic Energized Membrane I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 750000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Kinetic Energized Membrane II Blueprint:
+    id: 11250
+    industryblueprintrank: 7.800000190734863
+    name: Kinetic Energized Membrane II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Layered Coating I Blueprint:
+    id: 1275
+    industryblueprintrank: 3.0
+    marketGroup: 1544
+    name: Layered Coating I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 49740.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Layered Coating II Blueprint:
+    id: 1277
+    industryblueprintrank: 7.800000190734863
+    name: Layered Coating II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Layered Energized Membrane I Blueprint:
+    id: 11238
+    industryblueprintrank: 3.0
+    marketGroup: 1543
+    name: Layered Energized Membrane I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 750000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Layered Energized Membrane II Blueprint:
+    id: 11240
+    industryblueprintrank: 7.800000190734863
+    name: Layered Energized Membrane II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Multispectrum Coating I Blueprint:
+    id: 1305
+    industryblueprintrank: 3.0
+    marketGroup: 1544
+    name: Multispectrum Coating I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 74680.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Multispectrum Coating II Blueprint:
+    id: 1307
+    industryblueprintrank: 7.800000190734863
+    name: Multispectrum Coating II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Multispectrum Energized Membrane I Blueprint:
+    id: 11268
+    industryblueprintrank: 3.0
+    marketGroup: 1543
+    name: Multispectrum Energized Membrane I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Multispectrum Energized Membrane II Blueprint:
+    id: 11270
+    industryblueprintrank: 7.800000190734863
+    name: Multispectrum Energized Membrane II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Republic Fleet EM Coating Blueprint:
+    id: 15698
+    industryblueprintrank: 3.0
+    name: Republic Fleet EM Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Republic Fleet Explosive Coating Blueprint:
+    id: 15700
+    industryblueprintrank: 3.0
+    name: Republic Fleet Explosive Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Republic Fleet Kinetic Coating Blueprint:
+    id: 15702
+    industryblueprintrank: 3.0
+    name: Republic Fleet Kinetic Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Republic Fleet Multispectrum Coating Blueprint:
+    id: 15704
+    industryblueprintrank: 3.0
+    name: Republic Fleet Multispectrum Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Republic Fleet Thermal Coating Blueprint:
+    id: 15696
+    industryblueprintrank: 3.0
+    name: Republic Fleet Thermal Coating Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Thermal Coating I Blueprint:
+    id: 1295
+    industryblueprintrank: 3.0
+    marketGroup: 1544
+    name: Thermal Coating I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 49740.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Thermal Coating II Blueprint:
+    id: 1297
+    industryblueprintrank: 7.800000190734863
+    name: Thermal Coating II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Thermal Energized Membrane I Blueprint:
+    id: 11258
+    industryblueprintrank: 3.0
+    marketGroup: 1543
+    name: Thermal Energized Membrane I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 750000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Thermal Energized Membrane II Blueprint:
+    id: 11260
+    industryblueprintrank: 7.800000190734863
+    name: Thermal Energized Membrane II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

@@ -1,0 +1,31 @@
+types:
+  Design Laboratory Blueprint:
+    id: 28605
+    industryblueprintrank: 60.0
+    name: Design Laboratory Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Experimental Laboratory Blueprint:
+    id: 2820
+    industryblueprintrank: 60.0
+    name: Experimental Laboratory Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Research Laboratory Blueprint:
+    id: 2821
+    industryblueprintrank: 60.0
+    name: Research Laboratory Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

@@ -1,0 +1,28 @@
+types:
+  Crimson Harvest Frigate FFA Proving Filament:
+    id: 63728
+    marketGroup: 2747
+    name: Crimson Harvest Frigate FFA Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  'Event 72 Proving Filament ':
+    id: 72976
+    marketGroup: 2747
+    name: 'Event 72 Proving Filament '
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Totality Day 1v1 Kikimoras Proving Filament:
+    id: 63727
+    marketGroup: 2747
+    name: Totality Day 1v1 Kikimoras Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612

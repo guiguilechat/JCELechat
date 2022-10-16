@@ -1,0 +1,46 @@
+types:
+  Large Standard Container:
+    capacity: 780.0
+    hp: 10.0
+    id: 3296
+    marketGroup: 1657
+    mass: 1000000.0
+    name: Large Standard Container
+    packagedVolume: 65.0
+    portionSize: 1
+    price: 27000.0
+    published: true
+    radius: 50.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    volume: 650.0
+  Medium Standard Container:
+    capacity: 390.0
+    hp: 10.0
+    id: 3293
+    marketGroup: 1657
+    mass: 100000.0
+    name: Medium Standard Container
+    packagedVolume: 33.0
+    portionSize: 1
+    price: 12000.0
+    published: true
+    radius: 20.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    volume: 325.0
+  Small Standard Container:
+    capacity: 120.0
+    hp: 10.0
+    id: 3297
+    marketGroup: 1657
+    mass: 10000.0
+    name: Small Standard Container
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 4400.0
+    published: true
+    radius: 10.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    volume: 100.0

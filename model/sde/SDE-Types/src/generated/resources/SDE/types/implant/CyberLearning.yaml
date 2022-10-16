@@ -1,0 +1,371 @@
+types:
+  Cybernetic Subprocessor - Basic:
+    id: 9943
+    implantness: 4
+    intelligencebonus: 3
+    marketGroup: 621
+    name: Cybernetic Subprocessor - Basic
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Cybernetic Subprocessor - Improved:
+    id: 10222
+    implantness: 4
+    intelligencebonus: 5
+    marketGroup: 621
+    name: Cybernetic Subprocessor - Improved
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  Cybernetic Subprocessor - Standard:
+    id: 10221
+    implantness: 4
+    intelligencebonus: 4
+    marketGroup: 621
+    name: Cybernetic Subprocessor - Standard
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  Limited Cybernetic Subprocessor:
+    id: 13287
+    implantness: 4
+    intelligencebonus: 1
+    marketGroup: 621
+    name: Limited Cybernetic Subprocessor
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Limited Cybernetic Subprocessor - Beta:
+    id: 14298
+    implantness: 4
+    intelligencebonus: 2
+    marketGroup: 621
+    name: Limited Cybernetic Subprocessor - Beta
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Limited Memory Augmentation:
+    id: 13284
+    implantness: 2
+    marketGroup: 619
+    memorybonus: 1
+    name: Limited Memory Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Limited Memory Augmentation - Beta:
+    id: 14297
+    implantness: 2
+    marketGroup: 619
+    memorybonus: 2
+    name: Limited Memory Augmentation - Beta
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Limited Neural Boost:
+    id: 13285
+    implantness: 3
+    marketGroup: 620
+    name: Limited Neural Boost
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+    willpowerbonus: 1
+  Limited Neural Boost - Beta:
+    id: 14296
+    implantness: 3
+    marketGroup: 620
+    name: Limited Neural Boost - Beta
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+    willpowerbonus: 2
+  Limited Ocular Filter:
+    id: 13283
+    implantness: 1
+    marketGroup: 618
+    name: Limited Ocular Filter
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 10000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Limited Ocular Filter - Beta:
+    id: 14295
+    implantness: 1
+    marketGroup: 618
+    name: Limited Ocular Filter - Beta
+    packagedVolume: 1.0
+    perceptionbonus: 2
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Limited Social Adaptation Chip:
+    charismabonus: 1
+    id: 13286
+    implantness: 5
+    marketGroup: 622
+    name: Limited Social Adaptation Chip
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Limited Social Adaptation Chip - Beta:
+    charismabonus: 2
+    id: 14299
+    implantness: 5
+    marketGroup: 622
+    name: Limited Social Adaptation Chip - Beta
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Memory Augmentation - Basic:
+    id: 9941
+    implantness: 2
+    marketGroup: 619
+    memorybonus: 3
+    name: Memory Augmentation - Basic
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Memory Augmentation - Improved:
+    id: 10209
+    implantness: 2
+    marketGroup: 619
+    memorybonus: 5
+    name: Memory Augmentation - Improved
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  Memory Augmentation - Standard:
+    id: 10208
+    implantness: 2
+    marketGroup: 619
+    memorybonus: 4
+    name: Memory Augmentation - Standard
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  Neural Boost - Basic:
+    id: 9942
+    implantness: 3
+    marketGroup: 620
+    name: Neural Boost - Basic
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+    willpowerbonus: 3
+  Neural Boost - Improved:
+    id: 10213
+    implantness: 3
+    marketGroup: 620
+    name: Neural Boost - Improved
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+    willpowerbonus: 5
+  Neural Boost - Standard:
+    id: 10212
+    implantness: 3
+    marketGroup: 620
+    name: Neural Boost - Standard
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+    willpowerbonus: 4
+  Ocular Filter - Basic:
+    id: 9899
+    implantness: 1
+    marketGroup: 618
+    name: Ocular Filter - Basic
+    packagedVolume: 1.0
+    perceptionbonus: 3
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Ocular Filter - Improved:
+    id: 10217
+    implantness: 1
+    marketGroup: 618
+    name: Ocular Filter - Improved
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  Ocular Filter - Standard:
+    id: 10216
+    implantness: 1
+    marketGroup: 618
+    name: Ocular Filter - Standard
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  Social Adaptation Chip - Basic:
+    charismabonus: 3
+    id: 9956
+    implantness: 5
+    marketGroup: 622
+    name: Social Adaptation Chip - Basic
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  Social Adaptation Chip - Improved:
+    charismabonus: 5
+    id: 10226
+    implantness: 5
+    marketGroup: 622
+    name: Social Adaptation Chip - Improved
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  Social Adaptation Chip - Standard:
+    charismabonus: 4
+    id: 10225
+    implantness: 5
+    marketGroup: 622
+    name: Social Adaptation Chip - Standard
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0

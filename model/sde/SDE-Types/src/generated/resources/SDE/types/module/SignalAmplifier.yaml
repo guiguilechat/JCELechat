@@ -1,0 +1,165 @@
+types:
+  '''Basic'' Signal Amplifier':
+    cpu: 8.0
+    hp: 40.0
+    id: 1949
+    marketGroup: 669
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 23.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Basic'' Signal Amplifier'
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 36
+    scanladarstrengthpercent: 36
+    scanmagnetometricstrengthpercent: 36
+    scanradarstrengthpercent: 36
+    scanresolutionbonus: 6.0
+    techlevel: 1
+    volume: 5.0
+  '''Firewall'' Signal Amplifier':
+    cpu: 12.0
+    hp: 40.0
+    id: 21527
+    marketGroup: 669
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 30.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Firewall'' Signal Amplifier'
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 48
+    scanladarstrengthpercent: 48
+    scanmagnetometricstrengthpercent: 48
+    scanradarstrengthpercent: 48
+    scanresolutionbonus: 15.0
+    techlevel: 1
+    volume: 20.0
+  F-89 Compact Signal Amplifier:
+    cpu: 16.0
+    hp: 40.0
+    id: 6296
+    marketGroup: 669
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 27.0
+    metalevelold: 1
+    name: F-89 Compact Signal Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3432
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 44
+    scanladarstrengthpercent: 44
+    scanmagnetometricstrengthpercent: 44
+    scanradarstrengthpercent: 44
+    scanresolutionbonus: 13.0
+    techlevel: 1
+    volume: 5.0
+  Sentient Signal Amplifier:
+    cpu: 16.0
+    hp: 40.0
+    id: 41196
+    marketGroup: 669
+    maxlockedtargetsbonus: 2
+    maxtargetrangebonus: 34.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Sentient Signal Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 52
+    scanladarstrengthpercent: 52
+    scanmagnetometricstrengthpercent: 52
+    scanradarstrengthpercent: 52
+    scanresolutionbonus: 16.0
+    techlevel: 1
+    volume: 5.0
+  Signal Amplifier I:
+    cpu: 20.0
+    hp: 40.0
+    id: 1986
+    marketGroup: 669
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 25.0
+    name: Signal Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3432
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 40
+    scanladarstrengthpercent: 40
+    scanmagnetometricstrengthpercent: 40
+    scanradarstrengthpercent: 40
+    scanresolutionbonus: 12.0
+    techlevel: 1
+    volume: 5.0
+  Signal Amplifier II:
+    cpu: 24.0
+    hp: 40.0
+    id: 1987
+    marketGroup: 669
+    maxlockedtargetsbonus: 2
+    maxtargetrangebonus: 30.0
+    metalevelold: 5
+    name: Signal Amplifier II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3432
+    requiredskill1level: 5
+    scangravimetricstrengthpercent: 48
+    scanladarstrengthpercent: 48
+    scanmagnetometricstrengthpercent: 48
+    scanradarstrengthpercent: 48
+    scanresolutionbonus: 15.0
+    techlevel: 2
+    volume: 5.0
+  Syndicate Signal Amplifier:
+    cpu: 16.0
+    hp: 40.0
+    id: 41197
+    marketGroup: 669
+    maxlockedtargetsbonus: 2
+    maxtargetrangebonus: 34.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Syndicate Signal Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 52
+    scanladarstrengthpercent: 52
+    scanmagnetometricstrengthpercent: 52
+    scanradarstrengthpercent: 52
+    scanresolutionbonus: 16.0
+    techlevel: 1
+    volume: 5.0

@@ -1,0 +1,433 @@
+types:
+  '''Glycerine'' Shield Boost Amplifier':
+    cpu: 40.0
+    heatdamagebonus: 90
+    hp: 40.0
+    id: 20613
+    marketGroup: 613
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Glycerine'' Shield Boost Amplifier'
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 32.5
+    techlevel: 1
+    volume: 5.0
+  Caldari Navy Shield Boost Amplifier:
+    cpu: 55.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 15905
+    marketGroup: 613
+    metagroupid: 4
+    metalevelold: 8
+    name: Caldari Navy Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 37.5
+    techlevel: 1
+    volume: 5.0
+  Copasetic Compact Shield Boost Amplifier:
+    cpu: 40.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 16535
+    marketGroup: 613
+    metalevelold: 1
+    name: Copasetic Compact Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 32.5
+    techlevel: 1
+    volume: 5.0
+  Domination Shield Boost Amplifier:
+    cpu: 40.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 14045
+    marketGroup: 613
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 36.0
+    techlevel: 1
+    volume: 5.0
+  Dread Guristas Shield Boost Amplifier:
+    cpu: 55.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 14047
+    marketGroup: 613
+    metagroupid: 4
+    metalevelold: 8
+    name: Dread Guristas Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 37.5
+    techlevel: 1
+    volume: 5.0
+  Estamel's Modified Shield Boost Amplifier:
+    cpu: 77.0
+    heatdamagebonus: 90
+    hp: 40.0
+    id: 14714
+    marketGroup: 613
+    metagroupid: 5
+    metalevelold: 17
+    name: Estamel's Modified Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 45.75
+    techlevel: 1
+    volume: 5.0
+  Gist A-Type Shield Boost Amplifier:
+    cpu: 54.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 19293
+    marketGroup: 613
+    metagroupid: 6
+    metalevelold: 14
+    name: Gist A-Type Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 41.25
+    techlevel: 1
+    volume: 5.0
+  Gist B-Type Shield Boost Amplifier:
+    cpu: 50.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 19299
+    marketGroup: 613
+    metagroupid: 6
+    metalevelold: 12
+    name: Gist B-Type Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 39.5
+    techlevel: 1
+    volume: 5.0
+  Gist C-Type Shield Boost Amplifier:
+    cpu: 45.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 19297
+    marketGroup: 613
+    metagroupid: 6
+    metalevelold: 10
+    name: Gist C-Type Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 37.5
+    techlevel: 1
+    volume: 5.0
+  Gist X-Type Shield Boost Amplifier:
+    cpu: 58.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 19301
+    marketGroup: 613
+    metagroupid: 6
+    metalevelold: 16
+    name: Gist X-Type Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 43.0
+    techlevel: 1
+    volume: 5.0
+  Hakim's Modified Shield Boost Amplifier:
+    cpu: 54.0
+    heatdamagebonus: 90
+    hp: 40.0
+    id: 14636
+    marketGroup: 613
+    metagroupid: 5
+    metalevelold: 13
+    name: Hakim's Modified Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 40.5
+    techlevel: 1
+    volume: 5.0
+  Kaikka's Modified Shield Boost Amplifier:
+    cpu: 61.0
+    heatdamagebonus: 90
+    hp: 40.0
+    id: 14708
+    marketGroup: 613
+    metagroupid: 5
+    metalevelold: 11
+    name: Kaikka's Modified Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 40.5
+    techlevel: 1
+    volume: 5.0
+  Pith A-Type Shield Boost Amplifier:
+    cpu: 72.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 19311
+    marketGroup: 613
+    metagroupid: 6
+    metalevelold: 14
+    name: Pith A-Type Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 43.0
+    techlevel: 1
+    volume: 5.0
+  Pith B-Type Shield Boost Amplifier:
+    cpu: 66.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 19303
+    marketGroup: 613
+    metagroupid: 6
+    metalevelold: 12
+    name: Pith B-Type Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 41.25
+    techlevel: 1
+    volume: 5.0
+  Pith C-Type Shield Boost Amplifier:
+    cpu: 61.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 19289
+    marketGroup: 613
+    metagroupid: 6
+    metalevelold: 10
+    name: Pith C-Type Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 39.5
+    techlevel: 1
+    volume: 5.0
+  Pith X-Type Shield Boost Amplifier:
+    cpu: 77.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 19295
+    marketGroup: 613
+    metagroupid: 6
+    metalevelold: 16
+    name: Pith X-Type Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 44.75
+    techlevel: 1
+    volume: 5.0
+  Republic Fleet Shield Boost Amplifier:
+    cpu: 40.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 15907
+    marketGroup: 613
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 36.0
+    techlevel: 1
+    volume: 5.0
+  Shield Boost Amplifier I:
+    cpu: 50.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 11561
+    marketGroup: 613
+    name: Shield Boost Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 30.0
+    techlevel: 1
+    volume: 5.0
+  Shield Boost Amplifier II:
+    cpu: 55.0
+    heatdamagebonus: 100
+    hp: 40.0
+    id: 24443
+    marketGroup: 613
+    metalevelold: 5
+    name: Shield Boost Amplifier II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 5
+    shieldboostmultiplier: 36.0
+    techlevel: 2
+    volume: 5.0
+  Stalwart Restrained Shield Boost Amplifier:
+    cpu: 50.0
+    heatdamagebonus: 90
+    hp: 40.0
+    id: 16533
+    marketGroup: 613
+    metalevelold: 1
+    name: Stalwart Restrained Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 32.5
+    techlevel: 1
+    volume: 5.0
+  Thon's Modified Shield Boost Amplifier:
+    cpu: 66.0
+    heatdamagebonus: 90
+    hp: 40.0
+    id: 14710
+    marketGroup: 613
+    metagroupid: 5
+    metalevelold: 13
+    name: Thon's Modified Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 42.25
+    techlevel: 1
+    volume: 5.0
+  Tobias' Modified Shield Boost Amplifier:
+    cpu: 58.0
+    heatdamagebonus: 90
+    hp: 40.0
+    id: 14638
+    marketGroup: 613
+    metagroupid: 5
+    metalevelold: 17
+    name: Tobias' Modified Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 44.0
+    techlevel: 1
+    volume: 5.0
+  Vepas' Modified Shield Boost Amplifier:
+    cpu: 72.0
+    heatdamagebonus: 90
+    hp: 40.0
+    id: 14712
+    marketGroup: 613
+    metagroupid: 5
+    metalevelold: 15
+    name: Vepas' Modified Shield Boost Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3419
+    requiredskill1level: 1
+    shieldboostmultiplier: 44.0
+    techlevel: 1
+    volume: 5.0

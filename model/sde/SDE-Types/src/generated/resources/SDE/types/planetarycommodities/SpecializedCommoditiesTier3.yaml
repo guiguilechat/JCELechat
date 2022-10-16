@@ -1,0 +1,254 @@
+types:
+  Biotech Research Reports:
+    exporttaxmultiplier: 60000
+    id: 2358
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Biotech Research Reports
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Camera Drones:
+    exporttaxmultiplier: 60000
+    id: 2345
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Camera Drones
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Condensates:
+    exporttaxmultiplier: 60000
+    id: 2344
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Condensates
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Cryoprotectant Solution:
+    exporttaxmultiplier: 60000
+    id: 2367
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Cryoprotectant Solution
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Data Chips:
+    exporttaxmultiplier: 60000
+    id: 17392
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    mass: 1.0
+    name: Data Chips
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Gel-Matrix Biopaste:
+    exporttaxmultiplier: 60000
+    id: 2348
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Gel-Matrix Biopaste
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Guidance Systems:
+    exporttaxmultiplier: 60000
+    id: 9834
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Guidance Systems
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 380.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Hazmat Detection Systems:
+    exporttaxmultiplier: 60000
+    id: 2366
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Hazmat Detection Systems
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Hermetic Membranes:
+    exporttaxmultiplier: 60000
+    id: 2361
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Hermetic Membranes
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  High-Tech Transmitters:
+    exporttaxmultiplier: 60000
+    id: 17898
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: High-Tech Transmitters
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Industrial Explosives:
+    exporttaxmultiplier: 60000
+    id: 2360
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Industrial Explosives
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Neocoms:
+    exporttaxmultiplier: 60000
+    id: 2354
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Neocoms
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Nuclear Reactors:
+    exporttaxmultiplier: 60000
+    id: 2352
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Nuclear Reactors
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Planetary Vehicles:
+    exporttaxmultiplier: 60000
+    id: 9846
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Planetary Vehicles
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 3730.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Robotics:
+    exporttaxmultiplier: 60000
+    id: 9848
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Robotics
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 6500.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Smartfab Units:
+    exporttaxmultiplier: 60000
+    id: 2351
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Smartfab Units
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Supercomputers:
+    exporttaxmultiplier: 60000
+    id: 2349
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Supercomputers
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Synthetic Synapses:
+    exporttaxmultiplier: 60000
+    id: 2346
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Synthetic Synapses
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Transcranial Microcontrollers:
+    exporttaxmultiplier: 60000
+    id: 12836
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Transcranial Microcontrollers
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 5800.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Ukomi Superconductors:
+    exporttaxmultiplier: 60000
+    id: 17136
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Ukomi Superconductors
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 5000.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Vaccines:
+    exporttaxmultiplier: 60000
+    id: 28974
+    importtaxmultiplier: 60000
+    marketGroup: 1336
+    name: Vaccines
+    packagedVolume: 6.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 6.0

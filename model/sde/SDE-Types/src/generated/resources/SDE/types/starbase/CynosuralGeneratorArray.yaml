@@ -1,0 +1,43 @@
+types:
+  Cynosural Generator Array:
+    anchoringdelay: 10000
+    anchoringsecuritylevelmax: 1.0
+    armorhp: 1.5E7
+    armoruniformity: 0.75
+    controltowerminimumdistance: 25000
+    cpu: 150.0
+    disallowoffensivemodifiers: 1
+    duration: 10000.0
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
+    id: 27673
+    incapacitationratio: 0.0010000000474974513
+    jumpharmonics: -5
+    kineticdamageresonance: 1.0
+    marketGroup: 1013
+    mass: 1.0E8
+    name: Cynosural Generator Array
+    onliningdelay: 300000
+    packagedVolume: 4000.0
+    portionSize: 1
+    posanchoredpersolarsystemamount: 1
+    power: 375000
+    price: 2.0E7
+    published: true
+    radius: 629.0
+    requiressovupgrade1: 2008
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 1000000.0
+    shieldrechargerate: 1.0E8
+    shielduniformity: 0.75
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 10000
+    uniformity: 1.0
+    volume: 4000.0

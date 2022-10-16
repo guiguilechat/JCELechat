@@ -1,0 +1,70 @@
+types:
+  Amarr Bonus:
+    accuracymultiplier: 1.0
+    id: 1601
+    name: Amarr Bonus
+    portionSize: 1
+    published: false
+    repaircostmultiplier: 1.0
+    speedmultiplier: 1.0
+  Brutor Bonus:
+    accuracymultiplier: 1.0
+    id: 1608
+    name: Brutor Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+    repaircostmultiplier: 1.0
+    speedmultiplier: 0.8999999761581421
+  Civire Bonus:
+    accuracymultiplier: 1.0299999713897705
+    id: 1603
+    name: Civire Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+    repaircostmultiplier: 1.0
+    speedmultiplier: 1.0
+  Deteis Bonus:
+    accuracymultiplier: 1.0
+    id: 1604
+    name: Deteis Bonus
+    portionSize: 1
+    published: false
+    repaircostmultiplier: 1.0
+    speedmultiplier: 1.0
+  Gallente Bonus:
+    accuracymultiplier: 1.0
+    id: 1605
+    miningdurationmultiplier: 0.8999999761581421
+    name: Gallente Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+    repaircostmultiplier: 1.0
+    speedmultiplier: 1.0
+  Intaki Bonus:
+    accuracymultiplier: 1.0
+    id: 1606
+    name: Intaki Bonus
+    portionSize: 1
+    published: false
+    repaircostmultiplier: 1.0
+    speedmultiplier: 1.0
+  Ni-Kunni Bonus:
+    accuracymultiplier: 1.0
+    id: 1602
+    name: Ni-Kunni Bonus
+    portionSize: 1
+    published: false
+    repaircostmultiplier: 1.0
+    speedmultiplier: 1.0
+  Sebiestor Bonus:
+    accuracymultiplier: 1.0
+    id: 1607
+    name: Sebiestor Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+    repaircostmultiplier: 0.800000011920929
+    speedmultiplier: 1.0

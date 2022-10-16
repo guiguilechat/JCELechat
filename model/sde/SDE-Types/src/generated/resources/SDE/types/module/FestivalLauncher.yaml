@@ -1,0 +1,41 @@
+types:
+  Display Launcher:
+    capacity: 5.0
+    chargegroup1: 500
+    chargerate: 1
+    cpu: 1.0
+    hp: 40.0
+    id: 44109
+    marketGroup: 1663
+    name: Display Launcher
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    reloadtime: 200.0
+    slots: 1
+    speed: 20000.0
+    techlevel: 1
+    typecolorscheme: 11324
+    volume: 20.0
+  Festival Launcher:
+    capacity: 5.0
+    chargegroup1: 500
+    chargerate: 1
+    cpu: 1.0
+    hp: 40.0
+    id: 19660
+    marketGroup: 1663
+    name: Festival Launcher
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    reloadtime: 200.0
+    slots: 1
+    speed: 4000.0
+    techlevel: 1
+    typecolorscheme: 11324
+    volume: 20.0

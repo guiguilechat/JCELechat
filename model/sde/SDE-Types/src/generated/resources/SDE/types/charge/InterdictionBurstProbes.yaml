@@ -1,0 +1,25 @@
+types:
+  Stasis Webification Probe:
+    disallowinempirespace: 1
+    doomsdayaoeduration: 30000
+    doomsdayaoerange: 15000
+    doomsdaywarningduration: 2000
+    hp: 1000.0
+    id: 56748
+    launchergroup: 589
+    marketGroup: 1201
+    mass: 1.0
+    name: Stasis Webification Probe
+    packagedVolume: 3.0
+    portionSize: 2
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2115
+    requiredskill1: 3412
+    requiredskill1level: 3
+    signatureradius: 90.0
+    speedfactor: -40.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 3.0

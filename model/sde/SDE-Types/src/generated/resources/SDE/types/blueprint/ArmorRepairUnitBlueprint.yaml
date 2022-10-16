@@ -1,0 +1,208 @@
+types:
+  '''Gorget'' Small Armor Repairer I Blueprint':
+    id: 23796
+    industryblueprintrank: 3.0
+    name: '''Gorget'' Small Armor Repairer I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Greaves'' Medium Armor Repairer I Blueprint':
+    id: 23798
+    industryblueprintrank: 6.0
+    name: '''Greaves'' Medium Armor Repairer I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Harmony'' Small Armor Repairer I Blueprint':
+    id: 22888
+    industryblueprintrank: 3.0
+    name: '''Harmony'' Small Armor Repairer I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Hauberk'' Large Armor Repairer I Blueprint':
+    id: 23800
+    industryblueprintrank: 9.0
+    name: '''Hauberk'' Large Armor Repairer I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Meditation'' Medium Armor Repairer I Blueprint':
+    id: 22890
+    industryblueprintrank: 6.0
+    name: '''Meditation'' Medium Armor Repairer I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  '''Protest'' Large Armor Repairer I Blueprint':
+    id: 22892
+    industryblueprintrank: 9.0
+    name: '''Protest'' Large Armor Repairer I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  CONCORD Capital Armor Repairer Blueprint:
+    id: 3535
+    industryblueprintrank: 120.0
+    name: CONCORD Capital Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.7022756E7
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital ACM Compact Armor Repairer Blueprint:
+    id: 41615
+    marketGroup: 1536
+    name: Capital ACM Compact Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9.4E7
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Armor Repairer I Blueprint:
+    id: 20702
+    industryblueprintrank: 120.0
+    marketGroup: 1536
+    name: Capital Armor Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.7022756E7
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Armor Repairer II Blueprint:
+    id: 41616
+    name: Capital Armor Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital I-a Enduring Armor Repairer Blueprint:
+    id: 41614
+    marketGroup: 1536
+    name: Capital I-a Enduring Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9.4E7
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Civilian Armor Repairer Blueprint:
+    id: 21854
+    industryblueprintrank: 3.0
+    marketGroup: 1536
+    name: Civilian Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Dark Blood Capital Armor Repairer Blueprint:
+    id: 41618
+    name: Dark Blood Capital Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Armor Repairer I Blueprint:
+    id: 3539
+    industryblueprintrank: 9.0
+    marketGroup: 1536
+    name: Large Armor Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Armor Repairer II Blueprint:
+    id: 3541
+    industryblueprintrank: 23.399999618530273
+    name: Large Armor Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Medium Armor Repairer I Blueprint:
+    id: 3529
+    industryblueprintrank: 6.0
+    marketGroup: 1536
+    name: Medium Armor Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium Armor Repairer II Blueprint:
+    id: 3531
+    industryblueprintrank: 15.600000381469727
+    name: Medium Armor Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Shadow Serpentis Capital Armor Repairer Blueprint:
+    id: 41619
+    name: Shadow Serpentis Capital Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small Armor Repairer I Blueprint:
+    id: 1099
+    industryblueprintrank: 3.0
+    marketGroup: 1536
+    name: Small Armor Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small Armor Repairer II Blueprint:
+    id: 1184
+    industryblueprintrank: 7.800000190734863
+    name: Small Armor Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

@@ -1,0 +1,57 @@
+types:
+  Clone Vat Bay I:
+    allowsclonejumpswhenactive: 1
+    cancloak: 1
+    canfitshipgroup01: 883
+    canfitshipgroup02: 30
+    consumptionquantity: 1
+    consumptiontype: 16273
+    cpu: 100.0
+    deadspaceunsafe: 2
+    disallowearlydeactivation: 1
+    duration: 300000.0
+    hp: 99999.0
+    id: 23735
+    marketGroup: 1642
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: Clone Vat Bay I
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 50000
+    price: 5.983288E7
+    published: true
+    radius: 1.0
+    requiredskill1: 24606
+    requiredskill1level: 1
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 4000.0
+  Tactical Capsuleer Recloner:
+    cancloak: 1
+    canfitshipgroup01: 659
+    cpu: 100.0
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    duration: 60000.0
+    hp: 99999.0
+    id: 56735
+    marketGroup: 1642
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: Tactical Capsuleer Recloner
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 105000
+    price: 5.983288E7
+    published: true
+    radius: 1.0
+    reclonerfuelquantity: 10
+    requiredskill1: 24606
+    requiredskill1level: 3
+    siegemodewarpstatus: 100
+    speedfactor: 1.0
+    techlevel: 1
+    volume: 4000.0

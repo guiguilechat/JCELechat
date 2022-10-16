@@ -1,0 +1,44 @@
+types:
+  Standup Signal Amplifier I:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    cpu: 1000.0
+    hp: 40.0
+    id: 37532
+    marketGroup: 2219
+    mass: 500.0
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 12.0
+    name: Standup Signal Amplifier I
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 50000
+    published: true
+    radius: 1.0
+    scanresolutionbonus: 20.0
+    structureitemvisualflag: 1
+    techlevel: 1
+    volume: 4000.0
+  Standup Signal Amplifier II:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    cpu: 1200.0
+    hp: 40.0
+    id: 47348
+    marketGroup: 2219
+    mass: 500.0
+    maxlockedtargetsbonus: 2
+    maxtargetrangebonus: 15.0
+    metalevelold: 5
+    name: Standup Signal Amplifier II
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 60000
+    published: true
+    radius: 1.0
+    scanresolutionbonus: 25.0
+    structureitemvisualflag: 1
+    techlevel: 2
+    volume: 4000.0

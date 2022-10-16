@@ -1,0 +1,36 @@
+types:
+  '''Dunk'' Salvage Drone Blueprint':
+    id: 55763
+    industryblueprintrank: 1.0
+    marketGroup: 1643
+    name: '''Dunk'' Salvage Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.9986E7
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Salvage Drone I Blueprint:
+    id: 32982
+    industryblueprintrank: 1.0
+    marketGroup: 1643
+    name: Salvage Drone I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.9986E7
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Salvage Drone II Blueprint:
+    id: 55762
+    industryblueprintrank: 5.0
+    name: Salvage Drone II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

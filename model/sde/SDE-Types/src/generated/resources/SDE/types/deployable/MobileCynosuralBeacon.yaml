@@ -1,0 +1,58 @@
+types:
+  Covert Mobile Cynosural Beacon:
+    armorhp: 5000.0
+    armoruniformity: 0.75
+    hp: 10000.0
+    id: 59630
+    iscovert: 1
+    jumpharmonics: 5
+    marketGroup: 2763
+    mass: 10000.0
+    metalevelold: 1
+    name: Covert Mobile Cynosural Beacon
+    packagedVolume: 210.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 11584
+    requiredskill1level: 5
+    requiredskill2: 21603
+    requiredskill2level: 5
+    scangravimetricstrength: 20.0
+    scanladarstrength: 20.0
+    scanmagnetometricstrength: 20.0
+    scanradarstrength: 20.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 210.0
+  Mobile Cynosural Beacon:
+    armorhp: 5000.0
+    armoruniformity: 0.75
+    hp: 20000.0
+    id: 57319
+    jumpharmonics: -5
+    marketGroup: 2763
+    mass: 10000.0
+    metalevelold: 1
+    name: Mobile Cynosural Beacon
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 11584
+    requiredskill1level: 3
+    scangravimetricstrength: 20.0
+    scanladarstrength: 20.0
+    scanmagnetometricstrength: 20.0
+    scanradarstrength: 20.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 400.0

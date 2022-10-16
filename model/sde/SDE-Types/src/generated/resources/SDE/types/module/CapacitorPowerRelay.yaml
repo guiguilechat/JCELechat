@@ -1,0 +1,376 @@
+types:
+  '''Basic'' Capacitor Power Relay':
+    capacitorrechargeratemultiplier: 0.8999999761581421
+    cpu: 1.0
+    hp: 40.0
+    id: 506
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Basic'' Capacitor Power Relay'
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 1
+    shieldboostmultiplier: -5.0
+    techlevel: 1
+    volume: 5.0
+  '''Motte'' Capacitor Power Relay I':
+    capacitorrechargeratemultiplier: 0.75
+    cpu: 2.0
+    hp: 40.0
+    id: 23896
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Motte'' Capacitor Power Relay I'
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -7.0
+    techlevel: 1
+    volume: 5.0
+  Ahremen's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.6937500238418579
+    cpu: 16.0
+    hp: 40.0
+    id: 15090
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Ahremen's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -11.5
+    techlevel: 1
+    volume: 5.0
+  Ammatar Navy Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.75
+    cpu: 4.0
+    hp: 40.0
+    id: 17510
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -8.0
+    techlevel: 1
+    volume: 5.0
+  Brokara's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.731249988079071
+    cpu: 8.0
+    hp: 40.0
+    id: 15080
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brokara's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -10.5
+    techlevel: 1
+    volume: 5.0
+  Capacitor Power Relay I:
+    capacitorrechargeratemultiplier: 0.800000011920929
+    cpu: 4.0
+    hp: 40.0
+    id: 1445
+    marketGroup: 667
+    mass: 20.0
+    name: Capacitor Power Relay I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -10.0
+    techlevel: 1
+    volume: 5.0
+  Capacitor Power Relay II:
+    capacitorrechargeratemultiplier: 0.7599999904632568
+    cpu: 8.0
+    hp: 40.0
+    id: 1447
+    marketGroup: 667
+    mass: 20.0
+    metalevelold: 5
+    name: Capacitor Power Relay II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 4
+    shieldboostmultiplier: -11.0
+    techlevel: 2
+    volume: 5.0
+  Chelm's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.675000011920929
+    cpu: 20.0
+    hp: 40.0
+    id: 15092
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 14
+    name: Chelm's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -12.0
+    techlevel: 1
+    volume: 5.0
+  Dark Blood Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.75
+    cpu: 4.0
+    hp: 40.0
+    id: 14144
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -8.0
+    techlevel: 1
+    volume: 5.0
+  Draclira's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.675000011920929
+    cpu: 20.0
+    hp: 40.0
+    id: 15094
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 14
+    name: Draclira's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -12.0
+    techlevel: 1
+    volume: 5.0
+  Imperial Navy Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.75
+    cpu: 4.0
+    hp: 40.0
+    id: 17528
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -8.0
+    techlevel: 1
+    volume: 5.0
+  Khanid Navy Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.75
+    cpu: 4.0
+    hp: 40.0
+    id: 28532
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Khanid Navy Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -8.0
+    techlevel: 1
+    volume: 5.0
+  Makur's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.6937500238418579
+    cpu: 16.0
+    hp: 40.0
+    id: 15437
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Makur's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -10.5
+    techlevel: 1
+    volume: 5.0
+  Mark I Compact Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.7799999713897705
+    cpu: 2.0
+    hp: 40.0
+    id: 8177
+    marketGroup: 667
+    mass: 20.0
+    metalevelold: 1
+    name: Mark I Compact Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -10.0
+    techlevel: 1
+    volume: 5.0
+  Raysere's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.7124999761581421
+    cpu: 12.0
+    hp: 40.0
+    id: 15086
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 12
+    name: Raysere's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -11.0
+    techlevel: 1
+    volume: 5.0
+  Selynne's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.7124999761581421
+    cpu: 12.0
+    hp: 40.0
+    id: 15084
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 12
+    name: Selynne's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -11.0
+    techlevel: 1
+    volume: 5.0
+  Tairei's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.731249988079071
+    cpu: 8.0
+    hp: 40.0
+    id: 15082
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Tairei's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -10.5
+    techlevel: 1
+    volume: 5.0
+  True Sansha Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.75
+    cpu: 4.0
+    hp: 40.0
+    id: 14146
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 4
+    metalevelold: 8
+    name: True Sansha Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -8.0
+    techlevel: 1
+    volume: 5.0
+  Type-D Restrained Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.7799999713897705
+    cpu: 4.0
+    hp: 40.0
+    id: 8175
+    marketGroup: 667
+    mass: 20.0
+    metalevelold: 1
+    name: Type-D Restrained Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -8.0
+    techlevel: 1
+    volume: 5.0
+  Vizan's Modified Capacitor Power Relay:
+    capacitorrechargeratemultiplier: 0.6937500238418579
+    cpu: 16.0
+    hp: 40.0
+    id: 15088
+    marketGroup: 667
+    mass: 20.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Vizan's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldboostmultiplier: -11.5
+    techlevel: 1
+    volume: 5.0

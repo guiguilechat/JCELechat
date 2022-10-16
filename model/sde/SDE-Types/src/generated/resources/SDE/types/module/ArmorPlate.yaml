@@ -1,0 +1,917 @@
+types:
+  '''Abatis'' 100mm Steel Plates':
+    armorhpbonusadd: 275
+    cpu: 8.0
+    hp: 40.0
+    id: 23783
+    marketGroup: 1672
+    massaddition: 35000
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Abatis'' 100mm Steel Plates'
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 3
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  '''Bailey'' 1600mm Steel Plates':
+    armorhpbonusadd: 4500
+    cpu: 27.0
+    hp: 40.0
+    id: 23785
+    marketGroup: 1676
+    massaddition: 3500000
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Bailey'' 1600mm Steel Plates'
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 470
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  '''Barbican'' 800mm Steel Plates':
+    armorhpbonusadd: 2250
+    cpu: 22.0
+    hp: 40.0
+    id: 23793
+    marketGroup: 1675
+    massaddition: 1350000
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Barbican'' 800mm Steel Plates'
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 185
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  '''Bastion'' 400mm Steel Plates':
+    armorhpbonusadd: 1150
+    cpu: 17.0
+    hp: 40.0
+    id: 23789
+    marketGroup: 1674
+    massaddition: 350000
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Bastion'' 400mm Steel Plates'
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 27
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  '''Chainmail'' 200mm Steel Plates':
+    armorhpbonusadd: 575
+    cpu: 11.0
+    hp: 40.0
+    id: 23787
+    marketGroup: 1673
+    massaddition: 140000
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Chainmail'' 200mm Steel Plates'
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 8
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  '''Citadella'' 100mm Steel Plates':
+    armorhpbonusadd: 175
+    cpu: 4.0
+    hp: 40.0
+    id: 23791
+    marketGroup: 1672
+    massaddition: 25000
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Citadella'' 100mm Steel Plates'
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  100mm Crystalline Carbonide Restrained Plates:
+    armorhpbonusadd: 250
+    cpu: 10.0
+    hp: 40.0
+    id: 11343
+    marketGroup: 1672
+    massaddition: 32500
+    metalevelold: 1
+    name: 100mm Crystalline Carbonide Restrained Plates
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 5
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  100mm Rolled Tungsten Compact Plates:
+    armorhpbonusadd: 250
+    cpu: 8.0
+    hp: 40.0
+    id: 11341
+    marketGroup: 1672
+    massaddition: 35000
+    metalevelold: 1
+    name: 100mm Rolled Tungsten Compact Plates
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 4
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  100mm Steel Plates I:
+    armorhpbonusadd: 200
+    cpu: 10.0
+    hp: 40.0
+    id: 11293
+    marketGroup: 1672
+    massaddition: 35000
+    name: 100mm Steel Plates I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 5
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  100mm Steel Plates II:
+    armorhpbonusadd: 300
+    cpu: 12.0
+    hp: 40.0
+    id: 20345
+    marketGroup: 1672
+    massaddition: 37500
+    metalevelold: 5
+    name: 100mm Steel Plates II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 6
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 2
+    volume: 5.0
+  1600mm Crystalline Carbonide Restrained Plates:
+    armorhpbonusadd: 4000
+    cpu: 30.0
+    hp: 40.0
+    id: 11327
+    marketGroup: 1676
+    massaddition: 3000000
+    metalevelold: 1
+    name: 1600mm Crystalline Carbonide Restrained Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 500
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  1600mm Rolled Tungsten Compact Plates:
+    armorhpbonusadd: 4000
+    cpu: 27.0
+    hp: 40.0
+    id: 11325
+    marketGroup: 1676
+    massaddition: 3500000
+    metalevelold: 1
+    name: 1600mm Rolled Tungsten Compact Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 480
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  1600mm Steel Plates I:
+    armorhpbonusadd: 3500
+    cpu: 30.0
+    hp: 40.0
+    id: 11279
+    marketGroup: 1676
+    massaddition: 3500000
+    name: 1600mm Steel Plates I
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 500
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  1600mm Steel Plates II:
+    armorhpbonusadd: 4800
+    cpu: 35.0
+    hp: 40.0
+    id: 20353
+    marketGroup: 1676
+    massaddition: 3750000
+    metalevelold: 5
+    name: 1600mm Steel Plates II
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 550
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    techlevel: 2
+    volume: 20.0
+  200mm Crystalline Carbonide Restrained Plates:
+    armorhpbonusadd: 500
+    cpu: 15.0
+    hp: 40.0
+    id: 11351
+    marketGroup: 1673
+    massaddition: 120000
+    metalevelold: 1
+    name: 200mm Crystalline Carbonide Restrained Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  200mm Rolled Tungsten Compact Plates:
+    armorhpbonusadd: 500
+    cpu: 11.0
+    hp: 40.0
+    id: 11349
+    marketGroup: 1673
+    massaddition: 140000
+    metalevelold: 1
+    name: 200mm Rolled Tungsten Compact Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 9
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  200mm Steel Plates I:
+    armorhpbonusadd: 450
+    cpu: 15.0
+    hp: 40.0
+    id: 11295
+    marketGroup: 1673
+    massaddition: 140000
+    name: 200mm Steel Plates I
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  200mm Steel Plates II:
+    armorhpbonusadd: 600
+    cpu: 16.0
+    hp: 40.0
+    id: 20347
+    marketGroup: 1673
+    massaddition: 150000
+    metalevelold: 5
+    name: 200mm Steel Plates II
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 12
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 2
+    volume: 10.0
+  25000mm Crystalline Carbonide Restrained Plates:
+    armorhpbonusadd: 67500
+    cpu: 50.0
+    hp: 40.0
+    id: 40349
+    marketGroup: 2240
+    massaddition: 68000000
+    metalevelold: 1
+    name: 25000mm Crystalline Carbonide Restrained Plates
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 100000
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
+  25000mm Rolled Tungsten Compact Plates:
+    armorhpbonusadd: 67500
+    cpu: 40.0
+    hp: 40.0
+    id: 40350
+    marketGroup: 2240
+    massaddition: 80000000
+    metalevelold: 1
+    name: 25000mm Rolled Tungsten Compact Plates
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 85000
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
+  25000mm Steel Plates I:
+    armorhpbonusadd: 60000
+    cpu: 50.0
+    hp: 40.0
+    id: 40348
+    marketGroup: 2240
+    massaddition: 80000000
+    name: 25000mm Steel Plates I
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 100000
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
+  25000mm Steel Plates II:
+    armorhpbonusadd: 75000
+    cpu: 55.0
+    hp: 40.0
+    id: 40351
+    marketGroup: 2240
+    massaddition: 88000000
+    metalevelold: 5
+    name: 25000mm Steel Plates II
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 110000
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    techlevel: 2
+    volume: 4000.0
+  400mm Crystalline Carbonide Restrained Plates:
+    armorhpbonusadd: 1100
+    cpu: 20.0
+    hp: 40.0
+    id: 11311
+    marketGroup: 1674
+    massaddition: 300000
+    metalevelold: 1
+    name: 400mm Crystalline Carbonide Restrained Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 30
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 10.0
+  400mm Rolled Tungsten Compact Plates:
+    armorhpbonusadd: 1100
+    cpu: 17.0
+    hp: 40.0
+    id: 11309
+    marketGroup: 1674
+    massaddition: 350000
+    metalevelold: 1
+    name: 400mm Rolled Tungsten Compact Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 28
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 10.0
+  400mm Steel Plates I:
+    armorhpbonusadd: 900
+    cpu: 20.0
+    hp: 40.0
+    id: 11297
+    marketGroup: 1674
+    massaddition: 350000
+    name: 400mm Steel Plates I
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 30
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 25.0
+  400mm Steel Plates II:
+    armorhpbonusadd: 1200
+    cpu: 23.0
+    hp: 40.0
+    id: 20349
+    marketGroup: 1674
+    massaddition: 375000
+    metalevelold: 5
+    name: 400mm Steel Plates II
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 35
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    techlevel: 2
+    volume: 10.0
+  800mm Crystalline Carbonide Restrained Plates:
+    armorhpbonusadd: 2000
+    cpu: 25.0
+    hp: 40.0
+    id: 11319
+    marketGroup: 1675
+    massaddition: 1200000
+    metalevelold: 1
+    name: 800mm Crystalline Carbonide Restrained Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 200
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  800mm Rolled Tungsten Compact Plates:
+    armorhpbonusadd: 2000
+    cpu: 22.0
+    hp: 40.0
+    id: 11317
+    marketGroup: 1675
+    massaddition: 1350000
+    metalevelold: 1
+    name: 800mm Rolled Tungsten Compact Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 190
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  800mm Steel Plates I:
+    armorhpbonusadd: 1750
+    cpu: 25.0
+    hp: 40.0
+    id: 11299
+    marketGroup: 1675
+    massaddition: 1350000
+    name: 800mm Steel Plates I
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 200
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 50.0
+  800mm Steel Plates II:
+    armorhpbonusadd: 2400
+    cpu: 28.0
+    hp: 40.0
+    id: 20351
+    marketGroup: 1675
+    massaddition: 1450000
+    metalevelold: 5
+    name: 800mm Steel Plates II
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 230
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    techlevel: 2
+    volume: 20.0
+  CONCORD 25000mm Steel Plates:
+    armorhpbonusadd: 82500
+    cpu: 40.0
+    hp: 40.0
+    id: 41456
+    marketGroup: 2240
+    massaddition: 68000000
+    metagroupid: 4
+    metalevelold: 8
+    name: CONCORD 25000mm Steel Plates
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 85000
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
+  Dark Blood 25000mm Steel Plates:
+    armorhpbonusadd: 82500
+    cpu: 40.0
+    hp: 40.0
+    id: 41457
+    marketGroup: 2240
+    massaddition: 68000000
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood 25000mm Steel Plates
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 85000
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
+  Federation Navy 100mm Steel Plates:
+    armorhpbonusadd: 350
+    cpu: 9.0
+    hp: 40.0
+    id: 31898
+    marketGroup: 1672
+    massaddition: 20000
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy 100mm Steel Plates
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 6
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Federation Navy 1600mm Steel Plates:
+    armorhpbonusadd: 5000
+    cpu: 30.0
+    hp: 40.0
+    id: 31902
+    marketGroup: 1676
+    massaddition: 2250000
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy 1600mm Steel Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 550
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  Federation Navy 200mm Steel Plates:
+    armorhpbonusadd: 650
+    cpu: 13.0
+    hp: 40.0
+    id: 31906
+    marketGroup: 1673
+    massaddition: 90000
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy 200mm Steel Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 11
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  Federation Navy 400mm Steel Plates:
+    armorhpbonusadd: 1300
+    cpu: 20.0
+    hp: 40.0
+    id: 31910
+    marketGroup: 1674
+    massaddition: 225000
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy 400mm Steel Plates
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 35
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 25.0
+  Federation Navy 800mm Steel Plates:
+    armorhpbonusadd: 2500
+    cpu: 25.0
+    hp: 40.0
+    id: 31918
+    marketGroup: 1675
+    massaddition: 900000
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy 800mm Steel Plates
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 230
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 50.0
+  Imperial Navy 100mm Steel Plates:
+    armorhpbonusadd: 375
+    cpu: 8.0
+    hp: 40.0
+    id: 31896
+    marketGroup: 1672
+    massaddition: 32500
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy 100mm Steel Plates
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 7
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Imperial Navy 1600mm Steel Plates:
+    armorhpbonusadd: 5250
+    cpu: 27.0
+    hp: 40.0
+    id: 31900
+    marketGroup: 1676
+    massaddition: 3000000
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy 1600mm Steel Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 575
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  Imperial Navy 200mm Steel Plates:
+    armorhpbonusadd: 700
+    cpu: 12.0
+    hp: 40.0
+    id: 31904
+    marketGroup: 1673
+    massaddition: 120000
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy 200mm Steel Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 13
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  Imperial Navy 400mm Steel Plates:
+    armorhpbonusadd: 1375
+    cpu: 18.0
+    hp: 40.0
+    id: 31908
+    marketGroup: 1674
+    massaddition: 300000
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy 400mm Steel Plates
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 40
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 25.0
+  Imperial Navy 800mm Steel Plates:
+    armorhpbonusadd: 2625
+    cpu: 23.0
+    hp: 40.0
+    id: 31916
+    marketGroup: 1675
+    massaddition: 1200000
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy 800mm Steel Plates
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 245
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 50.0
+  Large Abyssal Armor Plates:
+    id: 47820
+    mass: 1.0
+    name: Large Abyssal Armor Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 20.0
+  Medium Abyssal Armor Plates:
+    id: 47817
+    name: Medium Abyssal Armor Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 10.0
+  Shadow Serpentis 25000mm Steel Plates:
+    armorhpbonusadd: 82500
+    cpu: 40.0
+    hp: 40.0
+    id: 41458
+    marketGroup: 2240
+    massaddition: 68000000
+    metagroupid: 4
+    metalevelold: 8
+    name: Shadow Serpentis 25000mm Steel Plates
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 85000
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
+  Small Abyssal Armor Plates:
+    id: 47812
+    name: Small Abyssal Armor Plates
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 5.0
+  Syndicate 100mm Steel Plates:
+    armorhpbonusadd: 350
+    cpu: 10.0
+    hp: 40.0
+    id: 28778
+    marketGroup: 1672
+    massaddition: 25000
+    metagroupid: 4
+    metalevelold: 8
+    name: Syndicate 100mm Steel Plates
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 4
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Syndicate 1600mm Steel Plates:
+    armorhpbonusadd: 5000
+    cpu: 35.0
+    hp: 40.0
+    id: 28780
+    marketGroup: 1676
+    massaddition: 2500000
+    metagroupid: 4
+    metalevelold: 8
+    name: Syndicate 1600mm Steel Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 495
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0
+  Syndicate 200mm Steel Plates:
+    armorhpbonusadd: 650
+    cpu: 14.0
+    hp: 40.0
+    id: 28782
+    marketGroup: 1673
+    massaddition: 100000
+    metagroupid: 4
+    metalevelold: 8
+    name: Syndicate 200mm Steel Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 9
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  Syndicate 400mm Steel Plates:
+    armorhpbonusadd: 1300
+    cpu: 22.0
+    hp: 40.0
+    id: 28784
+    marketGroup: 1674
+    massaddition: 250000
+    metagroupid: 4
+    metalevelold: 8
+    name: Syndicate 400mm Steel Plates
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 29
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 10.0
+  Syndicate 800mm Steel Plates:
+    armorhpbonusadd: 2500
+    cpu: 28.0
+    hp: 40.0
+    id: 28786
+    marketGroup: 1675
+    massaddition: 1000000
+    metagroupid: 4
+    metalevelold: 8
+    name: Syndicate 800mm Steel Plates
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 195
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 20.0

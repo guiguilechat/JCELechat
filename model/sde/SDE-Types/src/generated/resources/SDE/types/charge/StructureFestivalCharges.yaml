@@ -1,0 +1,45 @@
+types:
+  Capsuleer Dawn Firework (Large):
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
+    id: 47300
+    launchergroup: 1974
+    marketGroup: 1663
+    mass: 100.0
+    maxvelocity: 2000.0
+    missileneverdoesdamage: 1
+    name: Capsuleer Dawn Firework (Large)
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.10000000149011612
+  Crimson Helix Firework (Large):
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
+    id: 47301
+    launchergroup: 1974
+    marketGroup: 1663
+    mass: 100.0
+    maxvelocity: 2000.0
+    missileneverdoesdamage: 1
+    name: Crimson Helix Firework (Large)
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.10000000149011612

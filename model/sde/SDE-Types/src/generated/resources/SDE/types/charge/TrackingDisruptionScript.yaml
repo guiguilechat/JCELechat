@@ -1,0 +1,37 @@
+types:
+  Optimal Range Disruption Script:
+    chargesize: 1
+    falloffbonusbonus: 100
+    id: 29005
+    launchergroup: 291
+    maincolor: 11646664
+    marketGroup: 1094
+    mass: 1.0
+    maxrangebonusbonus: 100
+    name: Optimal Range Disruption Script
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    trackingspeedbonusbonus: -100
+    volume: 1.0
+  Tracking Speed Disruption Script:
+    chargesize: 1
+    falloffbonusbonus: -100
+    id: 29007
+    launchergroup: 291
+    maincolor: 11646664
+    marketGroup: 1094
+    mass: 1.0
+    maxrangebonusbonus: -100
+    name: Tracking Speed Disruption Script
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    trackingspeedbonusbonus: 100
+    volume: 1.0

@@ -1,0 +1,23 @@
+types:
+  Missile Guidance Computer I Blueprint:
+    id: 35791
+    industryblueprintrank: 6.0
+    marketGroup: 343
+    name: Missile Guidance Computer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 99000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Missile Guidance Computer II Blueprint:
+    id: 35792
+    industryblueprintrank: 15.600000381469727
+    name: Missile Guidance Computer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

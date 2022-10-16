@@ -1,0 +1,353 @@
+types:
+  Carbonized Lead L Blueprint:
+    id: 895
+    industryblueprintrank: 3.0
+    marketGroup: 309
+    name: Carbonized Lead L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Carbonized Lead M Blueprint:
+    id: 887
+    industryblueprintrank: 2.0
+    marketGroup: 312
+    name: Carbonized Lead M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 80000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Carbonized Lead S Blueprint:
+    id: 879
+    industryblueprintrank: 1.0
+    marketGroup: 313
+    name: Carbonized Lead S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 20000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Carbonized Lead XL Blueprint:
+    id: 17665
+    industryblueprintrank: 4.0
+    marketGroup: 597
+    name: Carbonized Lead XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Depleted Uranium L Blueprint:
+    id: 898
+    industryblueprintrank: 3.0
+    marketGroup: 309
+    name: Depleted Uranium L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Depleted Uranium M Blueprint:
+    id: 890
+    industryblueprintrank: 2.0
+    marketGroup: 312
+    name: Depleted Uranium M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 205000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Depleted Uranium S Blueprint:
+    id: 882
+    industryblueprintrank: 1.0
+    marketGroup: 313
+    name: Depleted Uranium S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 50000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Depleted Uranium XL Blueprint:
+    id: 17667
+    industryblueprintrank: 4.0
+    marketGroup: 597
+    name: Depleted Uranium XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  EMP L Blueprint:
+    id: 902
+    industryblueprintrank: 3.0
+    marketGroup: 309
+    name: EMP L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  EMP M Blueprint:
+    id: 894
+    industryblueprintrank: 2.0
+    marketGroup: 312
+    name: EMP M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  EMP S Blueprint:
+    id: 886
+    industryblueprintrank: 1.0
+    marketGroup: 313
+    name: EMP S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  EMP XL Blueprint:
+    id: 17669
+    industryblueprintrank: 4.0
+    marketGroup: 597
+    name: EMP XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Fusion L Blueprint:
+    id: 900
+    industryblueprintrank: 3.0
+    marketGroup: 309
+    name: Fusion L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 700000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Fusion M Blueprint:
+    id: 892
+    industryblueprintrank: 2.0
+    marketGroup: 312
+    name: Fusion M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 275000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Fusion S Blueprint:
+    id: 884
+    industryblueprintrank: 1.0
+    marketGroup: 313
+    name: Fusion S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 70000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Fusion XL Blueprint:
+    id: 17671
+    industryblueprintrank: 4.0
+    marketGroup: 597
+    name: Fusion XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Nuclear L Blueprint:
+    id: 896
+    industryblueprintrank: 3.0
+    marketGroup: 309
+    name: Nuclear L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 300000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Nuclear M Blueprint:
+    id: 888
+    industryblueprintrank: 2.0
+    marketGroup: 312
+    name: Nuclear M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 120000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Nuclear S Blueprint:
+    id: 880
+    industryblueprintrank: 1.0
+    marketGroup: 313
+    name: Nuclear S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 30000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Nuclear XL Blueprint:
+    id: 17673
+    industryblueprintrank: 4.0
+    marketGroup: 597
+    name: Nuclear XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Phased Plasma L Blueprint:
+    id: 901
+    industryblueprintrank: 3.0
+    marketGroup: 309
+    name: Phased Plasma L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Phased Plasma M Blueprint:
+    id: 893
+    industryblueprintrank: 2.0
+    marketGroup: 312
+    name: Phased Plasma M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 325000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Phased Plasma S Blueprint:
+    id: 885
+    industryblueprintrank: 1.0
+    marketGroup: 313
+    name: Phased Plasma S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 80000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Phased Plasma XL Blueprint:
+    id: 17675
+    industryblueprintrank: 4.0
+    marketGroup: 597
+    name: Phased Plasma XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 8000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Proton L Blueprint:
+    id: 897
+    industryblueprintrank: 3.0
+    marketGroup: 309
+    name: Proton L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Proton M Blueprint:
+    id: 889
+    industryblueprintrank: 2.0
+    marketGroup: 312
+    name: Proton M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 165000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Proton S Blueprint:
+    id: 881
+    industryblueprintrank: 1.0
+    marketGroup: 313
+    name: Proton S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Proton XL Blueprint:
+    id: 17677
+    industryblueprintrank: 4.0
+    marketGroup: 597
+    name: Proton XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Titanium Sabot L Blueprint:
+    id: 899
+    industryblueprintrank: 3.0
+    marketGroup: 309
+    name: Titanium Sabot L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Titanium Sabot M Blueprint:
+    id: 891
+    industryblueprintrank: 2.0
+    marketGroup: 312
+    name: Titanium Sabot M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 235000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Titanium Sabot S Blueprint:
+    id: 883
+    industryblueprintrank: 1.0
+    marketGroup: 313
+    name: Titanium Sabot S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 60000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Titanium Sabot XL Blueprint:
+    id: 17679
+    industryblueprintrank: 4.0
+    marketGroup: 597
+    name: Titanium Sabot XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

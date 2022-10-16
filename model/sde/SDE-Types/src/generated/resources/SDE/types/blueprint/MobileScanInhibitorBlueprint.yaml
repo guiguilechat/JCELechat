@@ -1,0 +1,12 @@
+types:
+  Mobile Scan Inhibitor Blueprint:
+    id: 33590
+    industryblueprintrank: 60.0
+    marketGroup: 1843
+    name: Mobile Scan Inhibitor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

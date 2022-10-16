@@ -1,0 +1,11 @@
+types:
+  Signature Radius Suppressor I Blueprint:
+    id: 4410
+    industryblueprintrank: 6.0
+    name: Signature Radius Suppressor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 296960.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

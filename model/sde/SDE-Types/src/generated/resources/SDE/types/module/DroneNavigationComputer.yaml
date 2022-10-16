@@ -1,0 +1,157 @@
+types:
+  Drone Navigation Computer I:
+    cpu: 30.0
+    hp: 40.0
+    id: 24395
+    marketGroup: 938
+    mass: 200.0
+    name: Drone Navigation Computer I
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 1
+    price: 139232.0
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 25.0
+    techlevel: 1
+    volume: 25.0
+  Drone Navigation Computer II:
+    cpu: 35.0
+    hp: 40.0
+    id: 24417
+    marketGroup: 938
+    mass: 200.0
+    metalevelold: 5
+    name: Drone Navigation Computer II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 5
+    speedfactor: 30.0
+    techlevel: 2
+    volume: 5.0
+  Federation Navy Drone Navigation Computer:
+    cpu: 20.0
+    hp: 40.0
+    id: 33850
+    marketGroup: 938
+    mass: 200.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 1
+    price: 139232.0
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 32.0
+    techlevel: 1
+    volume: 25.0
+  Sentient Drone Navigation Computer:
+    cpu: 20.0
+    hp: 40.0
+    id: 33852
+    marketGroup: 938
+    mass: 200.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Sentient Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 1
+    price: 139232.0
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 32.0
+    techlevel: 1
+    volume: 25.0
+  Unit D-34343's Modified Drone Navigation Computer:
+    cpu: 24.0
+    hp: 40.0
+    id: 32943
+    marketGroup: 938
+    mass: 200.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Unit D-34343's Modified Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 1
+    price: 139232.0
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 35.0
+    techlevel: 1
+    volume: 25.0
+  Unit F-435454's Modified Drone Navigation Computer:
+    cpu: 27.0
+    hp: 40.0
+    id: 32945
+    marketGroup: 938
+    mass: 200.0
+    metagroupid: 5
+    metalevelold: 12
+    name: Unit F-435454's Modified Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 1
+    price: 139232.0
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 36.0
+    techlevel: 1
+    volume: 25.0
+  Unit P-343554's Modified Drone Navigation Computer:
+    cpu: 30.0
+    hp: 40.0
+    id: 32947
+    marketGroup: 938
+    mass: 200.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Unit P-343554's Modified Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 1
+    price: 139232.0
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 37.0
+    techlevel: 1
+    volume: 25.0
+  Unit W-634's Modified Drone Navigation Computer:
+    cpu: 33.0
+    hp: 40.0
+    id: 32949
+    marketGroup: 938
+    mass: 200.0
+    metagroupid: 5
+    metalevelold: 14
+    name: Unit W-634's Modified Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 1
+    price: 139232.0
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 38.0
+    techlevel: 1
+    volume: 25.0

@@ -1,0 +1,14 @@
+types:
+  ♦ Dagon:
+    capacity: 2400.0
+    fighterabilityanticapitalmissileresistance: 1
+    fighterabilitykamikazeresistance: 1
+    id: 45473
+    iscapitalsize: 1
+    mass: 1.31E9
+    name: ♦ Dagon
+    packagedVolume: 1.8135E7
+    portionSize: 1
+    published: false
+    radius: 3000.0
+    volume: 1.8135E7

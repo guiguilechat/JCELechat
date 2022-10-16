@@ -1,0 +1,31 @@
+types:
+  Intact Armor Nanobot:
+    id: 30614
+    industryblueprintrank: 2.0
+    marketGroup: 1909
+    name: Intact Armor Nanobot
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Malfunctioning Armor Nanobot:
+    id: 30615
+    industryblueprintrank: 2.0
+    marketGroup: 1909
+    name: Malfunctioning Armor Nanobot
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Wrecked Armor Nanobot:
+    id: 30618
+    industryblueprintrank: 2.0
+    marketGroup: 1909
+    name: Wrecked Armor Nanobot
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 10.0

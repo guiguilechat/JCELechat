@@ -1,0 +1,45 @@
+types:
+  Archon Blueprint:
+    id: 23758
+    industryblueprintrank: 200.0
+    marketGroup: 888
+    name: Archon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.1E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Chimera Blueprint:
+    id: 23916
+    industryblueprintrank: 200.0
+    marketGroup: 889
+    name: Chimera Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.05E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Nidhoggur Blueprint:
+    id: 24484
+    industryblueprintrank: 200.0
+    marketGroup: 891
+    name: Nidhoggur Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.15E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Thanatos Blueprint:
+    id: 23912
+    industryblueprintrank: 200.0
+    marketGroup: 890
+    name: Thanatos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.25E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

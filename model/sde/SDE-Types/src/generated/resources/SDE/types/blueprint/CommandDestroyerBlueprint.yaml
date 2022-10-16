@@ -1,0 +1,46 @@
+types:
+  Bifrost Blueprint:
+    id: 37620
+    industryblueprintrank: 400.0
+    name: Bifrost Blueprint
+    portionSize: 1
+    price: 4000000.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+  Draugur Blueprint:
+    id: 52255
+    name: Draugur Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Magus Blueprint:
+    id: 37619
+    industryblueprintrank: 400.0
+    name: Magus Blueprint
+    portionSize: 1
+    price: 4000000.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+  Pontifex Blueprint:
+    id: 37618
+    industryblueprintrank: 400.0
+    name: Pontifex Blueprint
+    portionSize: 1
+    price: 4000000.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+  Stork Blueprint:
+    id: 37617
+    industryblueprintrank: 400.0
+    name: Stork Blueprint
+    portionSize: 1
+    price: 4000000.0
+    published: true
+    radius: 1.0
+    techlevel: 2

@@ -1,0 +1,6 @@
+types:
+  Default Physical Portal:
+    id: 32731
+    name: Default Physical Portal
+    portionSize: 1
+    published: false

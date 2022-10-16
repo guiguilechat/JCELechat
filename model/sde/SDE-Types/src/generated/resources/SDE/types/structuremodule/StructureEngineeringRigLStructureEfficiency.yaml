@@ -1,0 +1,57 @@
+types:
+  Standup L-Set Structure Manufacturing Efficiency I:
+    attributeengrigcostbonus: 1
+    attributeengrigmatbonus: -2.0
+    attributeengrigtimebonus: -20
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
+    id: 43720
+    lowsecmodifier: 1.899999976158142
+    marketGroup: 2348
+    mass: 200.0
+    maxgroupfitted: 1
+    name: Standup L-Set Structure Manufacturing Efficiency I
+    nullsecmodifier: 2.0999999046325684
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 3
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
+    volume: 20.0
+  Standup L-Set Structure Manufacturing Efficiency II:
+    attributeengrigcostbonus: 1
+    attributeengrigmatbonus: -2.4000000953674316
+    attributeengrigtimebonus: -24
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
+    id: 43721
+    lowsecmodifier: 1.899999976158142
+    marketGroup: 2348
+    mass: 200.0
+    maxgroupfitted: 1
+    name: Standup L-Set Structure Manufacturing Efficiency II
+    nullsecmodifier: 2.0999999046325684
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 3
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0

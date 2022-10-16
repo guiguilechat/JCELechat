@@ -1,0 +1,82 @@
+types:
+  Caiman Blueprint:
+    id: 45646
+    industryjobcostmultiplier: 1
+    name: Caiman Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Chemosh Blueprint:
+    id: 45044
+    industryjobcostmultiplier: 1
+    name: Chemosh Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Moros Blueprint:
+    id: 19725
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    marketGroup: 785
+    name: Moros Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.9E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Naglfar Blueprint:
+    id: 19723
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    marketGroup: 786
+    name: Naglfar Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.85E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Phoenix Blueprint:
+    id: 19727
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    marketGroup: 784
+    name: Phoenix Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.95E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Revelation Blueprint:
+    id: 19721
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    marketGroup: 783
+    name: Revelation Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Vehement Blueprint:
+    id: 42136
+    industryjobcostmultiplier: 1
+    name: Vehement Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Zirnitra Blueprint:
+    id: 53029
+    industryjobcostmultiplier: 1
+    name: Zirnitra Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E9
+    published: true
+    volume: 0.009999999776482582

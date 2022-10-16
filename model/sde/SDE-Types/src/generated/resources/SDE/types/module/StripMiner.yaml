@@ -1,0 +1,124 @@
+types:
+  Ice Harvester I:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    capacitorneed: 8.0
+    cpu: 60.0
+    duration: 240000.0
+    hp: 40.0
+    id: 16278
+    marketGroup: 1038
+    maxrange: 10000.0
+    miningamount: 1000
+    miningwastedvolumemultiplier: 1
+    name: Ice Harvester I
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 10
+    price: 1500368.0
+    published: true
+    radius: 25.0
+    requiredskill1: 16281
+    requiredskill1level: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 25.0
+  Ice Harvester II:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    capacitorneed: 12.0
+    cpu: 66.0
+    duration: 200000.0
+    hp: 40.0
+    id: 22229
+    marketGroup: 1038
+    maxrange: 10000.0
+    metalevelold: 5
+    miningamount: 1000
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 34
+    name: Ice Harvester II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 25.0
+    requiredskill1: 16281
+    requiredskill1level: 5
+    techlevel: 2
+    typecolorscheme: 11347
+    volume: 5.0
+  ORE Ice Harvester:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    capacitorneed: 12.0
+    cpu: 50.0
+    duration: 200000.0
+    hp: 40.0
+    id: 28752
+    marketGroup: 1038
+    maxrange: 12500.0
+    metagroupid: 4
+    metalevelold: 6
+    miningamount: 1000
+    miningwastedvolumemultiplier: 1
+    name: ORE Ice Harvester
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    price: 1500368.0
+    published: true
+    radius: 25.0
+    requiredskill1: 16281
+    requiredskill1level: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0
+  ORE Strip Miner:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    capacitorneed: 90.0
+    cpu: 50.0
+    duration: 180000.0
+    hp: 40.0
+    id: 28754
+    marketGroup: 1040
+    maxrange: 18750.0
+    metagroupid: 4
+    metalevelold: 6
+    miningamount: 800
+    miningwastedvolumemultiplier: 1
+    name: ORE Strip Miner
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 4
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0
+  Strip Miner I:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    capacitorneed: 90.0
+    cpu: 60.0
+    duration: 180000.0
+    hp: 40.0
+    id: 17482
+    marketGroup: 1040
+    maxrange: 15000.0
+    miningamount: 600
+    miningwastedvolumemultiplier: 1
+    name: Strip Miner I
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 4
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 25.0

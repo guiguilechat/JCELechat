@@ -1,0 +1,97 @@
+types:
+  Bustard Blueprint:
+    id: 12732
+    industryblueprintrank: 800.0
+    marketGroup: 636
+    name: Bustard Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Crane Blueprint:
+    id: 12730
+    industryblueprintrank: 800.0
+    marketGroup: 636
+    name: Crane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Impel Blueprint:
+    id: 12754
+    industryblueprintrank: 800.0
+    marketGroup: 635
+    name: Impel Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Mastodon Blueprint:
+    id: 12748
+    industryblueprintrank: 800.0
+    marketGroup: 638
+    name: Mastodon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Occator Blueprint:
+    id: 12746
+    industryblueprintrank: 800.0
+    marketGroup: 637
+    name: Occator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Prorator Blueprint:
+    id: 12734
+    industryblueprintrank: 800.0
+    marketGroup: 635
+    name: Prorator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Prowler Blueprint:
+    id: 12736
+    industryblueprintrank: 800.0
+    marketGroup: 638
+    name: Prowler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Viator Blueprint:
+    id: 12744
+    industryblueprintrank: 800.0
+    marketGroup: 637
+    name: Viator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

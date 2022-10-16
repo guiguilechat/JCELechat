@@ -1,0 +1,41 @@
+types:
+  System Scanning Array:
+    anchoringdelay: 300000
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    cpu: 25.0
+    disallowoffensivemodifiers: 1
+    duration: 90000.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
+    id: 27675
+    incapacitationratio: 0.75
+    marketGroup: 1010
+    mass: 1.0E8
+    maxscandeviation: 1000000.0
+    minscandeviation: 15000
+    name: System Scanning Array
+    onliningdelay: 300000
+    onliningrequiressovereigntylevel: 2
+    packagedVolume: 4000.0
+    portionSize: 1
+    posanchoredpersolarsystemamount: 1
+    power: 25000
+    price: 2500000.0
+    published: true
+    radius: 629.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 25.0
+    scanladarstrength: 25.0
+    scanmagnetometricstrength: 25.0
+    scanradarstrength: 25.0
+    scanrange: 999
+    shieldcapacity: 10000.0
+    shieldrechargerate: 200000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 600000
+    uniformity: 1.0
+    volume: 4000.0

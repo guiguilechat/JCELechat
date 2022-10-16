@@ -1,0 +1,76 @@
+types:
+  Discovery Survey Probe I:
+    agility: 1000.0
+    explosiondelay: 300000
+    hp: 240.0
+    id: 18635
+    launchergroup: 1226
+    marketGroup: 1200
+    mass: 1.0
+    maxscanrange: 100000000
+    maxvelocity: 30000.0
+    name: Discovery Survey Probe I
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 76080.0
+    probesingroup: 3
+    published: true
+    radius: 30.0
+    requiredskill1: 3412
+    requiredskill1level: 3
+    requiredskill2: 3551
+    requiredskill2level: 3
+    scanrange: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 10.0
+  Gaze Survey Probe I:
+    agility: 1000.0
+    explosiondelay: 150000
+    hp: 240.0
+    id: 18637
+    launchergroup: 1226
+    marketGroup: 1200
+    mass: 1.0
+    maxscanrange: 100000000
+    maxvelocity: 30000.0
+    name: Gaze Survey Probe I
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 107784.0
+    probesingroup: 3
+    published: true
+    radius: 30.0
+    requiredskill1: 3412
+    requiredskill1level: 5
+    requiredskill2: 3551
+    requiredskill2level: 5
+    scanrange: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 5.0
+  Quest Survey Probe I:
+    agility: 1000.0
+    explosiondelay: 1200000
+    hp: 240.0
+    id: 18626
+    launchergroup: 1226
+    marketGroup: 1200
+    mass: 1.0
+    maxscanrange: 100000000
+    maxvelocity: 30000.0
+    name: Quest Survey Probe I
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 49688.0
+    probesingroup: 3
+    published: true
+    radius: 30.0
+    requiredskill1: 3412
+    requiredskill1level: 3
+    requiredskill2: 3551
+    requiredskill2level: 3
+    scanrange: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 5.0

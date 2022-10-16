@@ -1,0 +1,71 @@
+types:
+  Yan Jung Info Matrix:
+    id: 23168
+    inventionmaxrunmodifier: 1.0
+    inventionmemodifier: 0.800000011920929
+    inventionpropabilitymultiplier: 3.0
+    inventiontemodifier: 0.800000011920929
+    marketGroup: 1904
+    mass: 1.0
+    name: Yan Jung Info Matrix
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  Yan Jung Semiotic Theory:
+    id: 23171
+    inventionmaxrunmodifier: 1.0
+    inventionmemodifier: 0.5
+    inventionpropabilitymultiplier: 5.0
+    inventiontemodifier: 0.4000000059604645
+    marketGroup: 1904
+    mass: 1.0
+    name: Yan Jung Semiotic Theory
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  Yan Jung Singularity Fact Sheet:
+    id: 23172
+    inventionmaxrunmodifier: 4.0
+    inventionmemodifier: 1.7999999523162842
+    inventionpropabilitymultiplier: 1.5
+    inventiontemodifier: 2.0
+    marketGroup: 1904
+    mass: 1.0
+    name: Yan Jung Singularity Fact Sheet
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  Yan Jung Trigonometric Laws:
+    id: 23170
+    inventionmaxrunmodifier: 3.0
+    inventionmemodifier: 1.2000000476837158
+    inventionpropabilitymultiplier: 2.0
+    inventiontemodifier: 1.5
+    marketGroup: 1904
+    mass: 1.0
+    name: Yan Jung Trigonometric Laws
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  Yan Jung Vellum Etch:
+    id: 23169
+    inventionmaxrunmodifier: 1.0
+    inventionmemodifier: 1.100000023841858
+    inventionpropabilitymultiplier: 2.5
+    inventiontemodifier: 0.8999999761581421
+    marketGroup: 1904
+    mass: 1.0
+    name: Yan Jung Vellum Etch
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0

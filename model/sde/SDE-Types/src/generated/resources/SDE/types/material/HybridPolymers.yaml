@@ -1,0 +1,73 @@
+types:
+  C3-FTM Acid:
+    id: 30311
+    marketGroup: 1860
+    name: C3-FTM Acid
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  Carbon-86 Epoxy Resin:
+    id: 30310
+    marketGroup: 1860
+    name: Carbon-86 Epoxy Resin
+    packagedVolume: 0.4000000059604645
+    portionSize: 1
+    published: true
+    volume: 0.4000000059604645
+  Fullerene Intercalated Graphite:
+    id: 30305
+    marketGroup: 1860
+    name: Fullerene Intercalated Graphite
+    packagedVolume: 0.800000011920929
+    portionSize: 1
+    published: true
+    volume: 0.800000011920929
+  Fulleroferrocene:
+    id: 30303
+    marketGroup: 1860
+    name: Fulleroferrocene
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Graphene Nanoribbons:
+    id: 30309
+    marketGroup: 1860
+    name: Graphene Nanoribbons
+    packagedVolume: 1.5
+    portionSize: 1
+    published: true
+    volume: 1.5
+  Lanthanum Metallofullerene:
+    id: 30307
+    marketGroup: 1860
+    name: Lanthanum Metallofullerene
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Methanofullerene:
+    id: 30306
+    marketGroup: 1860
+    name: Methanofullerene
+    packagedVolume: 0.75
+    portionSize: 1
+    published: true
+    volume: 0.75
+  PPD Fullerene Fibers:
+    id: 30304
+    marketGroup: 1860
+    name: PPD Fullerene Fibers
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Scandium Metallofullerene:
+    id: 30308
+    marketGroup: 1860
+    name: Scandium Metallofullerene
+    packagedVolume: 0.6499999761581421
+    portionSize: 1
+    published: true
+    volume: 0.6499999761581421

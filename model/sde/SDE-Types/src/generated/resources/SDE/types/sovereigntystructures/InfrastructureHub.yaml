@@ -1,0 +1,19 @@
+types:
+  Infrastructure Hub:
+    capacity: 10000.0
+    id: 32458
+    marketGroup: 1275
+    mass: 1000000.0
+    name: Infrastructure Hub
+    packagedVolume: 60000.0
+    planetanchordistance: 100000
+    portionSize: 1
+    price: 5.0E8
+    published: true
+    radius: 10290.0
+    scangravimetricstrength: 25.0
+    scanladarstrength: 25.0
+    scanmagnetometricstrength: 25.0
+    scanradarstrength: 25.0
+    signatureradius: 4000.0
+    volume: 60000.0

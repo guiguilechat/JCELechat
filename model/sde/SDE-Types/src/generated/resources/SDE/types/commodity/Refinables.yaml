@@ -1,0 +1,98 @@
+types:
+  Condensed Alloy:
+    id: 11739
+    marketGroup: 1856
+    name: Condensed Alloy
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Crystal Compound:
+    id: 11741
+    marketGroup: 1856
+    name: Crystal Compound
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Dark Compound:
+    id: 11735
+    marketGroup: 1856
+    name: Dark Compound
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Gleaming Alloy:
+    id: 11740
+    marketGroup: 1856
+    name: Gleaming Alloy
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Glossy Compound:
+    id: 11724
+    marketGroup: 1856
+    name: Glossy Compound
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Lucent Compound:
+    id: 11738
+    marketGroup: 1856
+    name: Lucent Compound
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Lustering Alloy:
+    id: 11736
+    marketGroup: 1856
+    name: Lustering Alloy
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Motley Compound:
+    id: 11733
+    marketGroup: 1856
+    name: Motley Compound
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Opulent Compound:
+    id: 11734
+    marketGroup: 1856
+    name: Opulent Compound
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Plush Compound:
+    id: 11725
+    marketGroup: 1856
+    name: Plush Compound
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 40384.0
+    published: true
+    volume: 1.0
+  Precious Alloy:
+    id: 11737
+    marketGroup: 1856
+    name: Precious Alloy
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Sheen Compound:
+    id: 11732
+    marketGroup: 1856
+    name: Sheen Compound
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

@@ -1,0 +1,128 @@
+types:
+  '''Basic'' Shield Power Relay':
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.2000000476837158
+    cpu: 10.0
+    hp: 40.0
+    id: 1419
+    marketGroup: 688
+    mass: 20.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Basic'' Shield Power Relay'
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    rechargeratebonus: -15
+    requiredskill1: 3424
+    requiredskill1level: 1
+    shieldcapacitymultiplier: 1.0
+    techlevel: 1
+    volume: 5.0
+  Caldari Navy Shield Power Relay:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.2999999523162842
+    cpu: 25.0
+    hp: 40.0
+    id: 37820
+    marketGroup: 688
+    mass: 20.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Caldari Navy Shield Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    rechargeratebonus: -26
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    techlevel: 1
+    volume: 5.0
+  Mark I Compact Shield Power Relay:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.2999999523162842
+    cpu: 15.0
+    hp: 40.0
+    id: 8337
+    marketGroup: 688
+    mass: 20.0
+    metalevelold: 1
+    name: Mark I Compact Shield Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    rechargeratebonus: -22
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    techlevel: 1
+    volume: 5.0
+  Shield Power Relay I:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.2999999523162842
+    cpu: 20.0
+    hp: 40.0
+    id: 2331
+    marketGroup: 688
+    mass: 20.0
+    name: Shield Power Relay I
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    rechargeratebonus: -20
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    techlevel: 1
+    volume: 5.0
+  Shield Power Relay II:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.350000023841858
+    cpu: 25.0
+    hp: 40.0
+    id: 1422
+    marketGroup: 688
+    mass: 20.0
+    metalevelold: 5
+    name: Shield Power Relay II
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    rechargeratebonus: -25
+    requiredskill1: 3424
+    requiredskill1level: 4
+    shieldcapacitymultiplier: 1.0
+    techlevel: 2
+    volume: 5.0
+  Type-D Restrained Shield Power Relay:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.2000000476837158
+    cpu: 20.0
+    hp: 40.0
+    id: 8335
+    marketGroup: 688
+    mass: 20.0
+    metalevelold: 1
+    name: Type-D Restrained Shield Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    rechargeratebonus: -22
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    techlevel: 1
+    volume: 5.0

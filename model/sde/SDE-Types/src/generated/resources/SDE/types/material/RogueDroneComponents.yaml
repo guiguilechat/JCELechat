@@ -1,0 +1,64 @@
+types:
+  Drone Capillary Fluid:
+    id: 28362
+    marketGroup: 1906
+    mass: 1.0
+    name: Drone Capillary Fluid
+    packagedVolume: 0.019999999552965164
+    portionSize: 1
+    published: true
+    volume: 0.019999999552965164
+  Drone Cerebral Fragment:
+    id: 28363
+    marketGroup: 1906
+    mass: 1.0
+    name: Drone Cerebral Fragment
+    packagedVolume: 0.029999999329447746
+    portionSize: 1
+    published: true
+    volume: 0.029999999329447746
+  Drone Coronary Unit:
+    id: 28366
+    marketGroup: 1906
+    mass: 2.0
+    name: Drone Coronary Unit
+    packagedVolume: 0.07999999821186066
+    portionSize: 1
+    published: true
+    volume: 0.07999999821186066
+  Drone Epidermal Shielding Chunk:
+    id: 28365
+    marketGroup: 1906
+    mass: 5.0
+    name: Drone Epidermal Shielding Chunk
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Drone Synaptic Relay Wiring:
+    id: 28361
+    marketGroup: 1906
+    mass: 0.5
+    name: Drone Synaptic Relay Wiring
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drone Tactical Limb:
+    id: 28364
+    marketGroup: 1906
+    mass: 2.0
+    name: Drone Tactical Limb
+    packagedVolume: 0.07000000029802322
+    portionSize: 1
+    published: true
+    volume: 0.07000000029802322
+  Elite Drone AI:
+    id: 21815
+    marketGroup: 1906
+    mass: 0.009999999776482582
+    name: Elite Drone AI
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

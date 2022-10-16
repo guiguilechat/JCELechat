@@ -1,0 +1,1620 @@
+types:
+  A Really REALLY Clueless Tourist:
+    id: 25847
+    mass: 200.0
+    name: A Really REALLY Clueless Tourist
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Activists:
+    id: 17754
+    marketGroup: 754
+    mass: 400.0
+    name: Activists
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Admiral Meledier:
+    id: 29439
+    mass: 85.0
+    name: Admiral Meledier
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Amarr Diplomat:
+    id: 29229
+    mass: 90.0
+    name: Amarr Diplomat
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Amarr Forensic Investigative Deployment:
+    id: 3036
+    mass: 400.0
+    name: Amarr Forensic Investigative Deployment
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Amarr Forensic Investigative Team:
+    id: 3032
+    mass: 65.0
+    name: Amarr Forensic Investigative Team
+    packagedVolume: 65.0
+    portionSize: 1
+    published: true
+    volume: 65.0
+  Amarr Light Marines:
+    id: 22801
+    mass: 1000.0
+    name: Amarr Light Marines
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Amarr Marine Counter-Boarding Company:
+    id: 3004
+    mass: 900.0
+    name: Amarr Marine Counter-Boarding Company
+    packagedVolume: 300.0
+    portionSize: 1
+    price: 50000.0
+    published: true
+    volume: 300.0
+  Amarr Marine Counter-Boarding Team:
+    id: 2999
+    mass: 90.0
+    name: Amarr Marine Counter-Boarding Team
+    packagedVolume: 30.0
+    portionSize: 1
+    price: 50000.0
+    published: true
+    volume: 30.0
+  Amarr Reporter:
+    id: 22788
+    mass: 80.0
+    name: Amarr Reporter
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Amarr Sympathizer:
+    id: 28842
+    mass: 85.0
+    name: Amarr Sympathizer
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Amarrian Agent:
+    id: 22792
+    mass: 1000.0
+    name: Amarrian Agent
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Amarrian Double-Agent:
+    id: 28869
+    mass: 80.0
+    name: Amarrian Double-Agent
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Amarrian Spy:
+    id: 22708
+    mass: 80.0
+    name: Amarrian Spy
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Ambassador Hugo Farin:
+    id: 22067
+    mass: 130.0
+    name: Ambassador Hugo Farin
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Angel Cartel Pilot:
+    id: 24752
+    mass: 80.0
+    name: Angel Cartel Pilot
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Angel Cartel Prisoners:
+    id: 16593
+    mass: 400.0
+    name: Angel Cartel Prisoners
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Arctic Warfare Marine Squads:
+    id: 2976
+    mass: 320.0
+    name: Arctic Warfare Marine Squads
+    packagedVolume: 320.0
+    portionSize: 1
+    price: 50000.0
+    published: true
+    volume: 320.0
+  Arctic Warfare Marines:
+    id: 2975
+    mass: 32.0
+    name: Arctic Warfare Marines
+    packagedVolume: 32.0
+    portionSize: 1
+    price: 50000.0
+    published: true
+    volume: 32.0
+  Artificial Miyan:
+    id: 32270
+    mass: 90.0
+    name: Artificial Miyan
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Black Jack's Underling:
+    id: 25352
+    mass: 80.0
+    name: Black Jack's Underling
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Blood Raider Scientist:
+    id: 24238
+    mass: 250.0
+    name: Blood Raider Scientist
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Breeder Slave:
+    id: 26901
+    mass: 80.0
+    name: Breeder Slave
+    packagedVolume: 1.5
+    portionSize: 1
+    published: true
+    volume: 1.5
+  Brutor Workers:
+    id: 29614
+    mass: 100.0
+    name: Brutor Workers
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  CPF Security Personnel:
+    id: 30968
+    mass: 85.0
+    name: CPF Security Personnel
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Caldari Light Marines:
+    id: 22804
+    mass: 1000.0
+    name: Caldari Light Marines
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Caldari Operative:
+    id: 2919
+    mass: 60.0
+    name: Caldari Operative
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Caldari Prisoners of War:
+    id: 30980
+    mass: 100.0
+    name: Caldari Prisoners of War
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Caldari Surveyor:
+    id: 23274
+    mass: 250.0
+    name: Caldari Surveyor
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Captives:
+    id: 13837
+    mass: 80.0
+    name: Captives
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Captured CEO:
+    id: 2942
+    mass: 130.0
+    name: Captured CEO
+    packagedVolume: 3.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 3.0
+  Captured Civilians:
+    id: 3483
+    mass: 1000.0
+    name: Captured Civilians
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Cattle:
+    id: 21734
+    mass: 900.0
+    name: Cattle
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Chef Aubrei Azil:
+    id: 30759
+    mass: 100.0
+    name: Chef Aubrei Azil
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Citizens:
+    id: 28137
+    mass: 400.0
+    name: Citizens
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    volume: 1000.0
+  Civilian SIGINT Contractors:
+    id: 2958
+    mass: 30.0
+    name: Civilian SIGINT Contractors
+    packagedVolume: 30.0
+    portionSize: 1
+    published: true
+    volume: 30.0
+  Civilians:
+    id: 24441
+    mass: 1000.0
+    name: Civilians
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Cloned SOE officer:
+    id: 22210
+    mass: 80.0
+    name: Cloned SOE officer
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Comatose Alena Karyn:
+    id: 11709
+    mass: 80.0
+    name: Comatose Alena Karyn
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Conditioned House Slaves:
+    id: 3006
+    mass: 300.0
+    name: Conditioned House Slaves
+    packagedVolume: 30.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    volume: 30.0
+  Construction Workers:
+    id: 21631
+    mass: 100.0
+    name: Construction Workers
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Corin Risia:
+    id: 30812
+    mass: 70.0
+    name: Corin Risia
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Corporate Assassin:
+    id: 2983
+    mass: 200.0
+    name: Corporate Assassin
+    packagedVolume: 30.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 30.0
+  Dagan:
+    id: 30827
+    mass: 100.0
+    name: Dagan
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Dalitat Dakpor's Clone:
+    id: 25850
+    mass: 80.0
+    name: Dalitat Dakpor's Clone
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Dari Akell:
+    id: 24760
+    mass: 80.0
+    name: Dari Akell
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Deep Cover Corporate Assassin:
+    id: 2984
+    mass: 200.0
+    name: Deep Cover Corporate Assassin
+    packagedVolume: 300.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 300.0
+  Doctor Luija Elban:
+    id: 30761
+    mass: 70.0
+    name: Doctor Luija Elban
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Dread Guristas Strike Force:
+    id: 32389
+    mass: 80.0
+    name: Dread Guristas Strike Force
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Elite Slaves:
+    id: 17796
+    marketGroup: 23
+    mass: 300.0
+    name: Elite Slaves
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    volume: 1.0
+  Engineer Tahaki Karin:
+    id: 30774
+    mass: 70.0
+    name: Engineer Tahaki Karin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Exotic Dancers, Female:
+    id: 17765
+    marketGroup: 23
+    mass: 50.0
+    name: Exotic Dancers, Female
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Exotic Dancers, Male:
+    id: 4358
+    marketGroup: 23
+    mass: 50.0
+    name: Exotic Dancers, Male
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  FR Personnel:
+    id: 30814
+    mass: 70.0
+    name: FR Personnel
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Fajah Ateshi:
+    id: 2244
+    mass: 85.0
+    name: Fajah Ateshi
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Federal Intelligence Officer:
+    id: 23558
+    mass: 90.0
+    name: Federal Intelligence Officer
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Former Slaves:
+    id: 17409
+    mass: 400.0
+    name: Former Slaves
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Freed Pet Slaves:
+    id: 22143
+    mass: 400.0
+    name: Freed Pet Slaves
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Freedom Fighters:
+    id: 17791
+    marketGroup: 23
+    mass: 400.0
+    name: Freedom Fighters
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Fugitive Slaves:
+    id: 29489
+    mass: 80.0
+    name: Fugitive Slaves
+    packagedVolume: 1.5
+    portionSize: 1
+    published: true
+    volume: 1.5
+  Gallente Light Marines:
+    id: 22802
+    mass: 1000.0
+    name: Gallente Light Marines
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Gallente Politician:
+    id: 29447
+    mass: 90.0
+    name: Gallente Politician
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Gallente Reporter:
+    id: 22796
+    mass: 1000.0
+    name: Gallente Reporter
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Gang of Miners:
+    id: 26788
+    mass: 200000.0
+    name: Gang of Miners
+    packagedVolume: 6000.0
+    portionSize: 1
+    published: true
+    volume: 6000.0
+  Geeral Tash-Murkon:
+    id: 29263
+    mass: 90.0
+    name: Geeral Tash-Murkon
+    packagedVolume: 1.5
+    portionSize: 1
+    published: true
+    volume: 1.5
+  Govarde Alourtine:
+    id: 24729
+    mass: 80.0
+    name: Govarde Alourtine
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Grace Tarsis:
+    id: 22321
+    mass: 50.0
+    name: Grace Tarsis
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Group of Army Recruits:
+    id: 2662
+    mass: 60000.0
+    name: Group of Army Recruits
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Group of Cattle:
+    id: 2663
+    mass: 100000.0
+    name: Group of Cattle
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Group of Civilian SIGINT Contractors:
+    id: 2959
+    mass: 300.0
+    name: Group of Civilian SIGINT Contractors
+    packagedVolume: 300.0
+    portionSize: 1
+    published: true
+    volume: 300.0
+  Group of Elite Slaves:
+    id: 2665
+    mass: 60000.0
+    name: Group of Elite Slaves
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Group of Exotic Dancers:
+    id: 2666
+    mass: 40000.0
+    name: Group of Exotic Dancers
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Group of Genetically Enhanced Livestock:
+    id: 2668
+    mass: 100000.0
+    name: Group of Genetically Enhanced Livestock
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Group of Homeless:
+    id: 26783
+    mass: 6000.0
+    name: Group of Homeless
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Group of Janitors:
+    id: 26775
+    mass: 10000.0
+    name: Group of Janitors
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Group of Kameiras:
+    id: 2669
+    mass: 70000.0
+    name: Group of Kameiras
+    packagedVolume: 70.0
+    portionSize: 1
+    published: true
+    volume: 70.0
+  Group of Marines:
+    id: 2670
+    mass: 60000.0
+    name: Group of Marines
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Group of Militants:
+    id: 2671
+    mass: 60000.0
+    name: Group of Militants
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Group of Miners:
+    id: 2672
+    mass: 50000.0
+    name: Group of Miners
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Group of Refugees:
+    id: 2674
+    mass: 40000.0
+    name: Group of Refugees
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Group of Science Graduates:
+    id: 2675
+    mass: 50000.0
+    name: Group of Science Graduates
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Group of Security Personnel:
+    id: 2676
+    mass: 60000.0
+    name: Group of Security Personnel
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Group of Slaves:
+    id: 2677
+    mass: 50000.0
+    name: Group of Slaves
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Group of Tourists:
+    id: 2678
+    mass: 50000.0
+    name: Group of Tourists
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Group of VIPs:
+    id: 2681
+    mass: 50000.0
+    name: Group of VIPs
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Harlots:
+    id: 25869
+    mass: 50.0
+    name: Harlots
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Harroken Ikero:
+    id: 2240
+    mass: 85.0
+    name: Harroken Ikero
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Heiress:
+    id: 29216
+    mass: 54.0
+    name: Heiress
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Hejilmar the Slave:
+    id: 26998
+    mass: 150.0
+    name: Hejilmar the Slave
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Herd of Conditioned House Slaves:
+    id: 3008
+    mass: 3000.0
+    name: Herd of Conditioned House Slaves
+    packagedVolume: 300.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    volume: 300.0
+  Homeless:
+    id: 12110
+    marketGroup: 23
+    mass: 600.0
+    name: Homeless
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Hostages:
+    id: 2013
+    mass: 80.0
+    name: Hostages
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Infected Refugees:
+    id: 21850
+    mass: 400.0
+    name: Infected Refugees
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Informant:
+    id: 26115
+    mass: 80.0
+    name: Informant
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Injured Slaves:
+    id: 22085
+    mass: 200.0
+    name: Injured Slaves
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Inspector Layna Whizon:
+    id: 22069
+    mass: 70.0
+    name: Inspector Layna Whizon
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Jamiella Ortar:
+    id: 26225
+    mass: 60.0
+    name: Jamiella Ortar
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Janitor:
+    id: 13267
+    marketGroup: 23
+    mass: 100.0
+    name: Janitor
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Jark Makon:
+    id: 23610
+    mass: 80.0
+    name: Jark Makon
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Jorek Lephny:
+    id: 20715
+    mass: 80.0
+    name: Jorek Lephny
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Kameiras:
+    id: 17767
+    marketGroup: 23
+    mass: 90.0
+    name: Kameiras
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 50000.0
+    published: true
+    volume: 1.0
+  Kardimo Palettan:
+    id: 22139
+    mass: 80.0
+    name: Kardimo Palettan
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Khanid Commander:
+    id: 22752
+    mass: 90.0
+    name: Khanid Commander
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Khanid Marine:
+    id: 24731
+    mass: 1000.0
+    name: Khanid Marine
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Kidnapped Citizens:
+    id: 2093
+    mass: 5.0
+    name: Kidnapped Citizens
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Kidnapped ORE Researcher:
+    id: 62710
+    marketGroup: 23
+    mass: 65.0
+    name: Kidnapped ORE Researcher
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    volume: 1.0
+  Kritsan Parthus:
+    id: 30719
+    mass: 90.0
+    name: Kritsan Parthus
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Large Group of Cattle:
+    id: 2725
+    mass: 1000000.0
+    name: Large Group of Cattle
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    volume: 1000.0
+  Large Group of Civilians:
+    id: 2699
+    mass: 500000.0
+    name: Large Group of Civilians
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Large Group of Exotic Dancers:
+    id: 2700
+    mass: 400000.0
+    name: Large Group of Exotic Dancers
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Group of Genetically Enhanced Livestock:
+    id: 2701
+    mass: 1000000.0
+    name: Large Group of Genetically Enhanced Livestock
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    volume: 1000.0
+  Large Group of Homeless:
+    id: 2702
+    mass: 60000.0
+    name: Large Group of Homeless
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Group of Janitors:
+    id: 2726
+    mass: 100000.0
+    name: Large Group of Janitors
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Large Group of Kameiras:
+    id: 2703
+    mass: 700000.0
+    name: Large Group of Kameiras
+    packagedVolume: 700.0
+    portionSize: 1
+    published: true
+    volume: 700.0
+  Large Group of Marines:
+    id: 2704
+    mass: 600000.0
+    name: Large Group of Marines
+    packagedVolume: 600.0
+    portionSize: 1
+    published: true
+    volume: 600.0
+  Large Group of Militants:
+    id: 2705
+    mass: 600000.0
+    name: Large Group of Militants
+    packagedVolume: 600.0
+    portionSize: 1
+    published: true
+    volume: 600.0
+  Large Group of Miners:
+    id: 2727
+    mass: 500000.0
+    name: Large Group of Miners
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Large Group of Refugees:
+    id: 2728
+    mass: 400000.0
+    name: Large Group of Refugees
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Group of Science Graduates:
+    id: 2706
+    mass: 500000.0
+    name: Large Group of Science Graduates
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Large Group of Slaves:
+    id: 2707
+    mass: 500000.0
+    name: Large Group of Slaves
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Large Group of Tourists:
+    id: 2708
+    mass: 500000.0
+    name: Large Group of Tourists
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Large Group of VIPs:
+    id: 2709
+    mass: 500000.0
+    name: Large Group of VIPs
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Lazron Kamon:
+    id: 26266
+    mass: 80.0
+    name: Lazron Kamon
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Lieutenant Kipo "Foxfire" Tekira:
+    id: 32398
+    mass: 80.0
+    name: Lieutenant Kipo "Foxfire" Tekira
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Lieutenant Kirus:
+    id: 30804
+    mass: 100.0
+    name: Lieutenant Kirus
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Logut Akell:
+    id: 24755
+    mass: 80.0
+    name: Logut Akell
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Lord Arachnan:
+    id: 24342
+    mass: 100.0
+    name: Lord Arachnan
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Lucia Deep:
+    id: 22089
+    mass: 60.0
+    name: Lucia Deep
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Major's Son:
+    id: 29269
+    mass: 80.0
+    name: Major's Son
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Manel's Servant:
+    id: 23699
+    mass: 75.0
+    name: Manel's Servant
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Marines:
+    id: 3810
+    marketGroup: 23
+    mass: 1000.0
+    name: Marines
+    packagedVolume: 2.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 2.0
+  Mercenary Pilot:
+    id: 16194
+    mass: 80.0
+    name: Mercenary Pilot
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Militants:
+    id: 25373
+    mass: 1000.0
+    name: Militants
+    packagedVolume: 2.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 2.0
+  Mina Darabi:
+    id: 31960
+    mass: 65.0
+    name: Mina Darabi
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Minecore Harvester:
+    id: 25989
+    mass: 80.0
+    name: Minecore Harvester
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Minedrill - E518 Crew:
+    id: 32372
+    mass: 100.0
+    name: Minedrill - E518 Crew
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Miner:
+    id: 21466
+    mass: 100.0
+    name: Miner
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Miniature Slaver:
+    id: 29219
+    mass: 2.0
+    name: Miniature Slaver
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3000.0
+    published: true
+    volume: 0.009999999776482582
+  Minmatar Civilians:
+    id: 22847
+    mass: 1000.0
+    name: Minmatar Civilians
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Minmatar Emissary:
+    id: 16253
+    mass: 70.0
+    name: Minmatar Emissary
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Minmatar Light Marines:
+    id: 22803
+    mass: 1000.0
+    name: Minmatar Light Marines
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Minmatar Reporter:
+    id: 25875
+    mass: 80.0
+    name: Minmatar Reporter
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Nakyo Fukoren:
+    id: 21743
+    mass: 80.0
+    name: Nakyo Fukoren
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Nebben Centrien, Janitor:
+    id: 30757
+    mass: 100.0
+    name: Nebben Centrien, Janitor
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Oura Madusaari:
+    id: 2239
+    mass: 85.0
+    name: Oura Madusaari
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Pilgrims:
+    id: 24251
+    mass: 20.0
+    name: Pilgrims
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Political Envoy:
+    id: 29253
+    mass: 90.0
+    name: Political Envoy
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Port Rolette Residents:
+    id: 26708
+    mass: 1000.0
+    name: Port Rolette Residents
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Preacher:
+    id: 2217
+    mass: 65.0
+    name: Preacher
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Prisoner:
+    id: 28886
+    mass: 80.0
+    name: Prisoner
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Prisoners:
+    id: 3808
+    mass: 560.0
+    name: Prisoners
+    packagedVolume: 7.5
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 7.5
+  Production Assistant:
+    id: 27203
+    mass: 85.0
+    name: Production Assistant
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Professor Kajurei Delainen:
+    id: 28835
+    mass: 65.0
+    name: Professor Kajurei Delainen
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Prop Comedian:
+    id: 28995
+    mass: 600.0
+    name: Prop Comedian
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Prostitute:
+    id: 22208
+    mass: 50.0
+    name: Prostitute
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Quao Kale:
+    id: 21672
+    mass: 80.0
+    name: Quao Kale
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Rahsa, Sansha Commander:
+    id: 32097
+    mass: 80.0
+    name: Rahsa, Sansha Commander
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Ralie Ardanne:
+    id: 32292
+    mass: 60.0
+    name: Ralie Ardanne
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Refugee:
+    id: 22209
+    mass: 60.0
+    name: Refugee
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Refugees:
+    id: 3806
+    marketGroup: 23
+    mass: 400.0
+    name: Refugees
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Regiment of Marines:
+    id: 26773
+    mass: 1000000.0
+    name: Regiment of Marines
+    packagedVolume: 2000.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 2000.0
+  Rogue Harvester:
+    id: 26140
+    mass: 100.0
+    name: Rogue Harvester
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Ryoke Laika:
+    id: 21066
+    mass: 80.0
+    name: Ryoke Laika
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Science Graduates:
+    id: 12243
+    marketGroup: 23
+    mass: 250.0
+    name: Science Graduates
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Scientist:
+    id: 25885
+    mass: 65.0
+    name: Scientist
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Scope Journalist:
+    id: 23509
+    mass: 100.0
+    name: Scope Journalist
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Serpentis Informant:
+    id: 30182
+    mass: 80.0
+    name: Serpentis Informant
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Sheriff Togany:
+    id: 21070
+    mass: 80.0
+    name: Sheriff Togany
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Ship's Crew:
+    id: 24766
+    mass: 1000.0
+    name: Ship's Crew
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Sidura Meisana:
+    id: 26696
+    mass: 60.0
+    name: Sidura Meisana
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Sisters of EVE Negotiator:
+    id: 2226
+    mass: 85.0
+    name: Sisters of EVE Negotiator
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Slaver:
+    id: 12049
+    marketGroup: 23
+    mass: 100.0
+    name: Slaver
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Slaver Hound:
+    id: 3723
+    marketGroup: 23
+    mass: 30.0
+    name: Slaver Hound
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 3000.0
+    published: true
+    volume: 1.0
+  Slaves:
+    id: 3721
+    marketGroup: 23
+    mass: 450.0
+    name: Slaves
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 750.0
+    published: true
+    volume: 5.0
+  Smugglers:
+    id: 29294
+    mass: 600.0
+    name: Smugglers
+    packagedVolume: 300.0
+    portionSize: 1
+    published: true
+    volume: 300.0
+  Spy:
+    id: 21467
+    mass: 100.0
+    name: Spy
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Starkmanir Slave:
+    id: 26907
+    mass: 95.0
+    name: Starkmanir Slave
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Stranded Pilot:
+    id: 28832
+    mass: 80.0
+    name: Stranded Pilot
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Survivor:
+    id: 29191
+    mass: 80.0
+    name: Survivor
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Tahaki Karin:
+    id: 30716
+    mass: 80.0
+    name: Tahaki Karin
+    packagedVolume: 3.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 3.0
+  Tantima Areki:
+    id: 25390
+    mass: 80.0
+    name: Tantima Areki
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Temko Mercenaries:
+    id: 23327
+    mass: 1000.0
+    name: Temko Mercenaries
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Thanok:
+    id: 11701
+    mass: 400.0
+    name: Thanok
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  The Chief of Security:
+    id: 16623
+    mass: 90.0
+    name: The Chief of Security
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  The Damsel:
+    id: 11742
+    mass: 60.0
+    name: The Damsel
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  The Infiltrator:
+    id: 22173
+    mass: 80.0
+    name: The Infiltrator
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  The Militia Leader:
+    id: 16630
+    mass: 60.0
+    name: The Militia Leader
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  The Ringmaster:
+    id: 32193
+    mass: 50.0
+    name: The Ringmaster
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Torin Tacs:
+    id: 26271
+    mass: 60.0
+    name: Torin Tacs
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Tourists:
+    id: 3719
+    marketGroup: 23
+    mass: 200.0
+    name: Tourists
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Troubled Miner:
+    id: 29283
+    mass: 100.0
+    name: Troubled Miner
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  VIPs:
+    id: 3804
+    mass: 130.0
+    name: VIPs
+    packagedVolume: 3.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 3.0
+  Valklears:
+    id: 26908
+    mass: 90.0
+    name: Valklears
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 50000.0
+    published: true
+    volume: 1.0
+  Vira Mikano:
+    id: 32228
+    mass: 85.0
+    name: Vira Mikano
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Wei Todaki:
+    id: 20554
+    mass: 80.0
+    name: Wei Todaki
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Zarkona Mirei:
+    id: 21502
+    mass: 80.0
+    name: Zarkona Mirei
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Zvarin Karsha:
+    id: 21064
+    mass: 90.0
+    name: Zvarin Karsha
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0

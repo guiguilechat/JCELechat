@@ -1,0 +1,13 @@
+types:
+  Rorqual Blueprint:
+    id: 28353
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    marketGroup: 1046
+    name: Rorqual Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

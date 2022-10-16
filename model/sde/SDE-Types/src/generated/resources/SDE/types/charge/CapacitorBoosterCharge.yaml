@@ -1,0 +1,298 @@
+types:
+  Cap Booster 100:
+    capacitorbonus: 100
+    capneedbonus: -100
+    chargesize: 1
+    id: 3554
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 10.0
+    name: Cap Booster 100
+    packagedVolume: 4.0
+    portionSize: 10
+    price: 10000.0
+    published: true
+    radius: 1.0
+    volume: 4.0
+  Cap Booster 150:
+    capacitorbonus: 150
+    capneedbonus: -100
+    chargesize: 2
+    id: 11283
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 1.0
+    name: Cap Booster 150
+    packagedVolume: 6.0
+    portionSize: 10
+    price: 17500.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Cap Booster 200:
+    capacitorbonus: 200
+    capneedbonus: -100
+    chargesize: 2
+    id: 11285
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 1.0
+    name: Cap Booster 200
+    packagedVolume: 8.0
+    portionSize: 10
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 8.0
+  Cap Booster 25:
+    capacitorbonus: 25
+    capneedbonus: -100
+    id: 263
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 2.5
+    name: Cap Booster 25
+    packagedVolume: 1.0
+    portionSize: 10
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  Cap Booster 3200:
+    capacitorbonus: 3200
+    capneedbonus: -100
+    chargesize: 4
+    id: 41489
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 80.0
+    name: Cap Booster 3200
+    packagedVolume: 128.0
+    portionSize: 10
+    price: 50000.0
+    published: true
+    radius: 1.0
+    volume: 128.0
+  Cap Booster 400:
+    capacitorbonus: 400
+    capneedbonus: -100
+    chargesize: 3
+    id: 11287
+    launchergroup: 76
+    launchergroup2: 1156
+    launchergroup3: 2013
+    marketGroup: 139
+    mass: 40.0
+    name: Cap Booster 400
+    packagedVolume: 16.0
+    portionSize: 10
+    price: 37500.0
+    published: true
+    radius: 1.0
+    volume: 16.0
+  Cap Booster 50:
+    capacitorbonus: 50
+    capneedbonus: -100
+    chargesize: 1
+    id: 264
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 5.0
+    name: Cap Booster 50
+    packagedVolume: 2.0
+    portionSize: 10
+    price: 2500.0
+    published: true
+    radius: 1.0
+    volume: 2.0
+  Cap Booster 75:
+    capacitorbonus: 75
+    capneedbonus: -100
+    chargesize: 1
+    id: 3552
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 7.5
+    name: Cap Booster 75
+    packagedVolume: 3.0
+    portionSize: 10
+    price: 5000.0
+    published: true
+    radius: 1.0
+    volume: 3.0
+  Cap Booster 800:
+    capacitorbonus: 800
+    capneedbonus: -100
+    chargesize: 3
+    id: 11289
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 80.0
+    name: Cap Booster 800
+    packagedVolume: 32.0
+    portionSize: 10
+    price: 50000.0
+    published: true
+    radius: 1.0
+    volume: 32.0
+  Navy Cap Booster 100:
+    capacitorbonus: 100
+    capneedbonus: -100
+    chargesize: 1
+    id: 31982
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 10.0
+    metagroupid: 4
+    name: Navy Cap Booster 100
+    packagedVolume: 3.0
+    portionSize: 10
+    price: 10000.0
+    published: true
+    radius: 1.0
+    volume: 3.0
+  Navy Cap Booster 150:
+    capacitorbonus: 150
+    capneedbonus: -100
+    chargesize: 2
+    id: 31990
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 1.0
+    metagroupid: 4
+    name: Navy Cap Booster 150
+    packagedVolume: 4.5
+    portionSize: 10
+    price: 17500.0
+    published: true
+    radius: 1.0
+    volume: 4.5
+  Navy Cap Booster 200:
+    capacitorbonus: 200
+    capneedbonus: -100
+    chargesize: 2
+    id: 31998
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 1.0
+    metagroupid: 4
+    name: Navy Cap Booster 200
+    packagedVolume: 6.0
+    portionSize: 10
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 6.0
+  Navy Cap Booster 25:
+    capacitorbonus: 25
+    capneedbonus: -100
+    id: 33330
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 2.5
+    metagroupid: 4
+    name: Navy Cap Booster 25
+    packagedVolume: 0.75
+    portionSize: 10
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.75
+  Navy Cap Booster 3200:
+    capacitorbonus: 3200
+    capneedbonus: -100
+    chargesize: 4
+    id: 41490
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 80.0
+    metagroupid: 4
+    name: Navy Cap Booster 3200
+    packagedVolume: 96.0
+    portionSize: 10
+    price: 50000.0
+    published: true
+    radius: 1.0
+    volume: 96.0
+  Navy Cap Booster 400:
+    capacitorbonus: 400
+    capneedbonus: -100
+    chargesize: 3
+    id: 32006
+    launchergroup: 76
+    launchergroup2: 1156
+    launchergroup3: 2013
+    marketGroup: 139
+    mass: 40.0
+    metagroupid: 4
+    name: Navy Cap Booster 400
+    packagedVolume: 12.0
+    portionSize: 10
+    price: 37500.0
+    published: true
+    radius: 1.0
+    volume: 12.0
+  Navy Cap Booster 50:
+    capacitorbonus: 50
+    capneedbonus: -100
+    chargesize: 1
+    id: 33332
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 5.0
+    metagroupid: 4
+    name: Navy Cap Booster 50
+    packagedVolume: 1.5
+    portionSize: 10
+    price: 2500.0
+    published: true
+    radius: 1.0
+    volume: 1.5
+  Navy Cap Booster 75:
+    capacitorbonus: 75
+    capneedbonus: -100
+    chargesize: 1
+    id: 33334
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 7.5
+    metagroupid: 4
+    name: Navy Cap Booster 75
+    packagedVolume: 2.25
+    portionSize: 10
+    price: 5000.0
+    published: true
+    radius: 1.0
+    volume: 2.25
+  Navy Cap Booster 800:
+    capacitorbonus: 800
+    capneedbonus: -100
+    chargesize: 3
+    id: 32014
+    launchergroup: 76
+    launchergroup2: 1156
+    marketGroup: 139
+    mass: 80.0
+    metagroupid: 4
+    name: Navy Cap Booster 800
+    packagedVolume: 24.0
+    portionSize: 10
+    price: 50000.0
+    published: true
+    radius: 1.0
+    volume: 24.0

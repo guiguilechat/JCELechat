@@ -1,0 +1,123 @@
+types:
+  '''Basic'' Overdrive Injector System':
+    cargocapacitymultiplier: 0.9900000095367432
+    hp: 40.0
+    id: 1192
+    implantbonusvelocity: 6.0
+    marketGroup: 1087
+    mass: 50.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Basic'' Overdrive Injector System'
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 25.0
+    requiredskill1: 3392
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Domination Overdrive Injector:
+    cargocapacitymultiplier: 0.949999988079071
+    hp: 40.0
+    id: 14126
+    implantbonusvelocity: 12.5
+    marketGroup: 1087
+    mass: 50.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination Overdrive Injector
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Overdrive Injector System I:
+    cargocapacitymultiplier: 0.8500000238418579
+    hp: 40.0
+    id: 1244
+    implantbonusvelocity: 10.5
+    marketGroup: 1087
+    mass: 50.0
+    name: Overdrive Injector System I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Overdrive Injector System II:
+    cargocapacitymultiplier: 0.800000011920929
+    hp: 40.0
+    id: 1236
+    implantbonusvelocity: 12.5
+    marketGroup: 1087
+    mass: 100.0
+    metalevelold: 5
+    name: Overdrive Injector System II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    techlevel: 2
+    volume: 5.0
+  Republic Fleet Overdrive Injector:
+    cargocapacitymultiplier: 0.949999988079071
+    hp: 40.0
+    id: 15812
+    implantbonusvelocity: 12.5
+    marketGroup: 1087
+    mass: 50.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Overdrive Injector
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Synthetic Hull Conversion Overdrive Injector:
+    cargocapacitymultiplier: 0.9700000286102295
+    hp: 40.0
+    id: 21491
+    implantbonusvelocity: 12.0
+    marketGroup: 1087
+    mass: 50.0
+    metagroupid: 3
+    metalevelold: 6
+    name: Synthetic Hull Conversion Overdrive Injector
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Type-D Restrained Overdrive Injector:
+    cargocapacitymultiplier: 0.8999999761581421
+    hp: 40.0
+    id: 5631
+    implantbonusvelocity: 11.75
+    marketGroup: 1087
+    mass: 50.0
+    metalevelold: 1
+    name: Type-D Restrained Overdrive Injector
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0

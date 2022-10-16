@@ -1,0 +1,63 @@
+types:
+  Standup XL-Set Extinction Level Weapons Suite I:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    hisecmodifier: 1.0
+    hp: 40.0
+    id: 37274
+    lowsecmodifier: 1.2000000476837158
+    marketGroup: 2346
+    mass: 200.0
+    maxgroupfitted: 1
+    name: Standup XL-Set Extinction Level Weapons Suite I
+    nullsecmodifier: 1.2000000476837158
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 4
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    structurerigdoomsdaydamagelosstargetbonus: 0.019999999552965164
+    structurerigdoomsdaytargetamountbonus: 3
+    structurerigmaxtargetbonus: 2
+    structurerigmaxtargetrangebonus: 10
+    structurerigpdcapusebonus: -30
+    structurerigpdrangebonus: 500
+    structurerigscanresbonus: 100
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  Standup XL-Set Extinction Level Weapons Suite II:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    hisecmodifier: 1.0
+    hp: 40.0
+    id: 37275
+    lowsecmodifier: 1.2000000476837158
+    marketGroup: 2346
+    mass: 200.0
+    maxgroupfitted: 1
+    name: Standup XL-Set Extinction Level Weapons Suite II
+    nullsecmodifier: 1.2000000476837158
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 4
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    structurerigdoomsdaydamagelosstargetbonus: 0.05000000074505806
+    structurerigdoomsdaytargetamountbonus: 5
+    structurerigmaxtargetbonus: 5
+    structurerigmaxtargetrangebonus: 15
+    structurerigpdcapusebonus: -35
+    structurerigpdrangebonus: 600
+    structurerigscanresbonus: 150
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0

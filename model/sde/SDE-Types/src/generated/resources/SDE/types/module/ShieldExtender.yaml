@@ -1,0 +1,641 @@
+types:
+  CONCORD Capital Shield Extender:
+    capacitybonus: 79200.0
+    cpu: 100.0
+    hp: 40.0
+    id: 41459
+    marketGroup: 2241
+    metagroupid: 4
+    metalevelold: 8
+    name: CONCORD Capital Shield Extender
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 62500
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 800
+    techlevel: 1
+    volume: 4000.0
+  Caldari Navy Large Shield Extender:
+    capacitybonus: 2750.0
+    cpu: 35.0
+    hp: 40.0
+    id: 31930
+    marketGroup: 608
+    metagroupid: 4
+    metalevelold: 8
+    name: Caldari Navy Large Shield Extender
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 150
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 25
+    techlevel: 1
+    volume: 20.0
+  Caldari Navy Medium Shield Extender:
+    capacitybonus: 1200.0
+    cpu: 26.0
+    hp: 40.0
+    id: 31926
+    marketGroup: 606
+    metagroupid: 4
+    metalevelold: 8
+    name: Caldari Navy Medium Shield Extender
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 28
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 7
+    techlevel: 1
+    volume: 10.0
+  Caldari Navy Small Shield Extender:
+    capacitybonus: 550.0
+    cpu: 19.0
+    hp: 40.0
+    id: 31922
+    marketGroup: 605
+    metagroupid: 4
+    metalevelold: 8
+    name: Caldari Navy Small Shield Extender
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 2
+    techlevel: 1
+    volume: 5.0
+  Capital Azeotropic Restrained Shield Extender:
+    capacitybonus: 64800.0
+    cpu: 120.0
+    hp: 40.0
+    id: 40355
+    marketGroup: 2241
+    metalevelold: 1
+    name: Capital Azeotropic Restrained Shield Extender
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 75000
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 800
+    techlevel: 1
+    volume: 4000.0
+  Capital F-S9 Regolith Compact Shield Extender:
+    capacitybonus: 64800.0
+    cpu: 100.0
+    hp: 40.0
+    id: 40356
+    marketGroup: 2241
+    metalevelold: 1
+    name: Capital F-S9 Regolith Compact Shield Extender
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 62500
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 1000
+    techlevel: 1
+    volume: 4000.0
+  Capital Shield Extender I:
+    capacitybonus: 57600.0
+    cpu: 120.0
+    hp: 40.0
+    id: 40354
+    marketGroup: 2241
+    name: Capital Shield Extender I
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 75000
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 1000
+    techlevel: 1
+    volume: 4000.0
+  Capital Shield Extender II:
+    capacitybonus: 72000.0
+    cpu: 132.0
+    hp: 40.0
+    id: 40357
+    marketGroup: 2241
+    metalevelold: 5
+    name: Capital Shield Extender II
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 82500
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    signatureradiusadd: 1200
+    techlevel: 2
+    volume: 4000.0
+  Domination Capital Shield Extender:
+    capacitybonus: 79200.0
+    cpu: 100.0
+    hp: 40.0
+    id: 41462
+    marketGroup: 2241
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination Capital Shield Extender
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 62500
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 800
+    techlevel: 1
+    volume: 4000.0
+  Dread Guristas Capital Shield Extender:
+    capacitybonus: 79200.0
+    cpu: 100.0
+    hp: 40.0
+    id: 41461
+    marketGroup: 2241
+    metagroupid: 4
+    metalevelold: 8
+    name: Dread Guristas Capital Shield Extender
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 62500
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 800
+    techlevel: 1
+    volume: 4000.0
+  Large 'Sheriff' Shield Extender:
+    capacitybonus: 2400.0
+    cpu: 35.0
+    hp: 40.0
+    id: 20631
+    marketGroup: 608
+    metagroupid: 3
+    metalevelold: 6
+    name: Large 'Sheriff' Shield Extender
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 135
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 25
+    techlevel: 1
+    volume: 20.0
+  Large Abyssal Shield Extender:
+    id: 47808
+    mass: 1.0
+    name: Large Abyssal Shield Extender
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 20.0
+  Large Azeotropic Restrained Shield Extender:
+    capacitybonus: 2200.0
+    cpu: 40.0
+    hp: 40.0
+    id: 8419
+    marketGroup: 608
+    metalevelold: 1
+    name: Large Azeotropic Restrained Shield Extender
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 150
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 15
+    techlevel: 1
+    volume: 20.0
+  Large F-S9 Regolith Compact Shield Extender:
+    capacitybonus: 2200.0
+    cpu: 35.0
+    hp: 40.0
+    id: 8529
+    marketGroup: 608
+    metalevelold: 1
+    name: Large F-S9 Regolith Compact Shield Extender
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 140
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 25
+    techlevel: 1
+    volume: 20.0
+  Large Shield Extender I:
+    capacitybonus: 1900.0
+    cpu: 40.0
+    hp: 40.0
+    id: 3839
+    marketGroup: 608
+    name: Large Shield Extender I
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 150
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 25
+    techlevel: 1
+    volume: 20.0
+  Large Shield Extender II:
+    capacitybonus: 2600.0
+    cpu: 45.0
+    hp: 40.0
+    id: 3841
+    marketGroup: 608
+    metalevelold: 5
+    name: Large Shield Extender II
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 160
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    signatureradiusadd: 25
+    techlevel: 2
+    volume: 20.0
+  Medium 'Canyon' Shield Extender:
+    capacitybonus: 1000.0
+    cpu: 26.0
+    hp: 40.0
+    id: 20629
+    marketGroup: 606
+    metagroupid: 3
+    metalevelold: 6
+    name: Medium 'Canyon' Shield Extender
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 25
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 7
+    techlevel: 1
+    volume: 10.0
+  Medium Abyssal Shield Extender:
+    id: 47804
+    mass: 1.0
+    name: Medium Abyssal Shield Extender
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 10.0
+  Medium Azeotropic Restrained Shield Extender:
+    capacitybonus: 900.0
+    cpu: 28.0
+    hp: 40.0
+    id: 8433
+    marketGroup: 606
+    metalevelold: 1
+    name: Medium Azeotropic Restrained Shield Extender
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 28
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 3
+    techlevel: 1
+    volume: 10.0
+  Medium F-S9 Regolith Compact Shield Extender:
+    capacitybonus: 900.0
+    cpu: 26.0
+    hp: 40.0
+    id: 8517
+    marketGroup: 606
+    metalevelold: 1
+    name: Medium F-S9 Regolith Compact Shield Extender
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 26
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 7
+    techlevel: 1
+    volume: 10.0
+  Medium Shield Extender I:
+    capacitybonus: 800.0
+    cpu: 28.0
+    hp: 40.0
+    id: 3829
+    marketGroup: 606
+    name: Medium Shield Extender I
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 28
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 7
+    techlevel: 1
+    volume: 10.0
+  Medium Shield Extender II:
+    capacitybonus: 1100.0
+    cpu: 35.0
+    hp: 40.0
+    id: 3831
+    marketGroup: 606
+    metalevelold: 5
+    name: Medium Shield Extender II
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 30
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    signatureradiusadd: 7
+    techlevel: 2
+    volume: 10.0
+  Republic Fleet Large Shield Extender:
+    capacitybonus: 2750.0
+    cpu: 40.0
+    hp: 40.0
+    id: 31932
+    marketGroup: 608
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Large Shield Extender
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 145
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 20
+    techlevel: 1
+    volume: 20.0
+  Republic Fleet Medium Shield Extender:
+    capacitybonus: 1200.0
+    cpu: 28.0
+    hp: 40.0
+    id: 31928
+    marketGroup: 606
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Medium Shield Extender
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 26
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 5
+    techlevel: 1
+    volume: 10.0
+  Republic Fleet Small Shield Extender:
+    capacitybonus: 550.0
+    cpu: 20.0
+    hp: 40.0
+    id: 31924
+    marketGroup: 605
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Small Shield Extender
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 1
+    techlevel: 1
+    volume: 5.0
+  Small 'Trapper' Shield Extender:
+    capacitybonus: 300.0
+    cpu: 12.0
+    hp: 40.0
+    id: 20627
+    marketGroup: 605
+    metagroupid: 3
+    metalevelold: 6
+    name: Small 'Trapper' Shield Extender
+    packagedVolume: 2.5
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 2.5
+  Small 'Wolf' Shield Extender:
+    capacitybonus: 500.0
+    cpu: 16.0
+    hp: 40.0
+    id: 20625
+    marketGroup: 605
+    metagroupid: 3
+    metalevelold: 6
+    name: Small 'Wolf' Shield Extender
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 2
+    techlevel: 1
+    volume: 5.0
+  Small Abyssal Shield Extender:
+    id: 47800
+    mass: 1.0
+    name: Small Abyssal Shield Extender
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 5.0
+  Small Azeotropic Restrained Shield Extender:
+    capacitybonus: 450.0
+    cpu: 20.0
+    hp: 40.0
+    id: 8427
+    marketGroup: 605
+    metalevelold: 1
+    name: Small Azeotropic Restrained Shield Extender
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  Small F-S9 Regolith Compact Shield Extender:
+    capacitybonus: 450.0
+    cpu: 16.0
+    hp: 40.0
+    id: 8521
+    marketGroup: 605
+    metalevelold: 1
+    name: Small F-S9 Regolith Compact Shield Extender
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 2
+    techlevel: 1
+    volume: 5.0
+  Small Shield Extender I:
+    capacitybonus: 400.0
+    cpu: 20.0
+    hp: 40.0
+    id: 377
+    marketGroup: 605
+    name: Small Shield Extender I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 2
+    techlevel: 1
+    volume: 5.0
+  Small Shield Extender II:
+    capacitybonus: 520.0
+    cpu: 23.0
+    hp: 40.0
+    id: 380
+    marketGroup: 605
+    metalevelold: 5
+    name: Small Shield Extender II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 3
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 3
+    signatureradiusadd: 2
+    techlevel: 2
+    volume: 5.0
+  Thukker Large Shield Extender:
+    capacitybonus: 2750.0
+    cpu: 40.0
+    hp: 40.0
+    id: 28744
+    marketGroup: 608
+    metagroupid: 4
+    metalevelold: 8
+    name: Thukker Large Shield Extender
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 155
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 15
+    techlevel: 1
+    volume: 20.0
+  Thukker Medium Shield Extender:
+    capacitybonus: 1200.0
+    cpu: 28.0
+    hp: 40.0
+    id: 28746
+    marketGroup: 606
+    metagroupid: 4
+    metalevelold: 8
+    name: Thukker Medium Shield Extender
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 30
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 3
+    techlevel: 1
+    volume: 10.0
+  Thukker Small Shield Extender:
+    capacitybonus: 550.0
+    cpu: 20.0
+    hp: 40.0
+    id: 28742
+    marketGroup: 605
+    metagroupid: 4
+    metalevelold: 8
+    name: Thukker Small Shield Extender
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 3
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  True Sansha Capital Shield Extender:
+    capacitybonus: 79200.0
+    cpu: 100.0
+    hp: 40.0
+    id: 41460
+    marketGroup: 2241
+    metagroupid: 4
+    metalevelold: 8
+    name: True Sansha Capital Shield Extender
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 62500
+    published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    signatureradiusadd: 800
+    techlevel: 1
+    volume: 4000.0

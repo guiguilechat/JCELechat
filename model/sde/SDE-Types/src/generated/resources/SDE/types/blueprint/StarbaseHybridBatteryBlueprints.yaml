@@ -1,0 +1,175 @@
+types:
+  Large Blaster Battery Blueprint:
+    id: 2803
+    industryblueprintrank: 40.0
+    marketGroup: 1347
+    name: Large Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Large Railgun Battery Blueprint:
+    id: 2804
+    industryblueprintrank: 40.0
+    marketGroup: 1347
+    name: Large Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Medium Blaster Battery Blueprint:
+    id: 2806
+    industryblueprintrank: 30.0
+    marketGroup: 1347
+    name: Medium Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Medium Railgun Battery Blueprint:
+    id: 2808
+    industryblueprintrank: 30.0
+    marketGroup: 1347
+    name: Medium Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Serpentis Large Blaster Battery Blueprint:
+    id: 27848
+    industryblueprintrank: 40.0
+    name: Serpentis Large Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Serpentis Large Railgun Battery Blueprint:
+    id: 27843
+    industryblueprintrank: 40.0
+    name: Serpentis Large Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Serpentis Medium Blaster Battery Blueprint:
+    id: 27847
+    industryblueprintrank: 30.0
+    name: Serpentis Medium Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Serpentis Medium Railgun Battery Blueprint:
+    id: 27844
+    industryblueprintrank: 30.0
+    name: Serpentis Medium Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Serpentis Small Blaster Battery Blueprint:
+    id: 27846
+    industryblueprintrank: 20.0
+    name: Serpentis Small Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Serpentis Small Railgun Battery Blueprint:
+    id: 27845
+    industryblueprintrank: 20.0
+    name: Serpentis Small Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Shadow Large Blaster Battery Blueprint:
+    id: 27849
+    industryblueprintrank: 40.0
+    name: Shadow Large Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Shadow Large Railgun Battery Blueprint:
+    id: 27850
+    industryblueprintrank: 40.0
+    name: Shadow Large Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Shadow Medium Blaster Battery Blueprint:
+    id: 27852
+    industryblueprintrank: 30.0
+    name: Shadow Medium Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Shadow Medium Railgun Battery Blueprint:
+    id: 27851
+    industryblueprintrank: 30.0
+    name: Shadow Medium Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Shadow Small Blaster Battery Blueprint:
+    id: 27853
+    industryblueprintrank: 20.0
+    name: Shadow Small Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Shadow Small Railgun Battery Blueprint:
+    id: 27854
+    industryblueprintrank: 20.0
+    name: Shadow Small Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Small Blaster Battery Blueprint:
+    id: 2813
+    industryblueprintrank: 20.0
+    marketGroup: 1347
+    name: Small Blaster Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Small Railgun Battery Blueprint:
+    id: 2815
+    industryblueprintrank: 20.0
+    marketGroup: 1347
+    name: Small Railgun Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

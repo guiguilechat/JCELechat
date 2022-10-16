@@ -1,0 +1,1754 @@
+types:
+  Men's 'Commando' Pants (black wax):
+    gender: 1
+    id: 3992
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (black wax)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Commando' Pants (black):
+    gender: 1
+    id: 4165
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Commando' Pants (blue):
+    gender: 1
+    id: 4166
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Commando' Pants (brown camo):
+    gender: 1
+    id: 4169
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (brown camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Commando' Pants (gold/black):
+    gender: 1
+    id: 4167
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (gold/black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Commando' Pants (gray/black):
+    gender: 1
+    id: 4168
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (gray/black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Commando' Pants (green camo):
+    gender: 1
+    id: 4170
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (green camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Commando' Pants (red/black):
+    gender: 1
+    id: 4171
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (red/black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Fatal Elite' Combat Pants:
+    gender: 2
+    id: 54308
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Fatal Elite' Combat Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Federal Defender' Pants:
+    gender: 2
+    id: 59187
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Federal Defender' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Hephaestus' Pants (blue):
+    gender: 1
+    id: 36493
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Hephaestus' Pants (cyan):
+    gender: 1
+    id: 36496
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (cyan)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Hephaestus' Pants (desert):
+    gender: 1
+    id: 36495
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (desert)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Hephaestus' Pants (gray/orange):
+    gender: 1
+    id: 36498
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (gray/orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Hephaestus' Pants (green):
+    gender: 1
+    id: 36497
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Hephaestus' Pants (white/red):
+    gender: 1
+    id: 36494
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (white/red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Imperial Loyalist' Pants:
+    gender: 2
+    id: 59368
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Imperial Loyalist' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Mirelle' Pants (Upwell):
+    gender: 1
+    id: 40524
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Mirelle' Pants (Upwell)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Outlaw' Pants (Blood Raiders):
+    gender: 1
+    id: 34354
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Outlaw' Pants (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Outlaw' Pants (Guristas):
+    gender: 1
+    id: 34356
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Outlaw' Pants (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Outlaw' Pants (Sansha's Nation):
+    gender: 1
+    id: 34355
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Outlaw' Pants (Sansha's Nation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Republic Valklear' Pants:
+    gender: 2
+    id: 59179
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Republic Valklear' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Rider' Pants (black silver):
+    gender: 1
+    id: 33790
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (black silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Rider' Pants (red gold):
+    gender: 1
+    id: 33788
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (red gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Rider' Pants (reflective blue):
+    gender: 1
+    id: 33789
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (reflective blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Rider' Pants (royal gold):
+    gender: 1
+    id: 33787
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (royal gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Rider' Pants (white gold):
+    gender: 1
+    id: 33786
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (white gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Sanguine Harvest' Pants:
+    gender: 2
+    id: 60432
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Sanguine Harvest' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Semiotique Sports' Pants:
+    gender: 2
+    id: 60161
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Semiotique Sports' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Semiotique Superluminal' Pants:
+    gender: 2
+    id: 63054
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Semiotique Superluminal' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'State Protector' Pants:
+    gender: 2
+    id: 59406
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'State Protector' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Strider' Pants (black):
+    gender: 1
+    id: 33785
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Strider' Pants (dark red):
+    gender: 1
+    id: 33784
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (dark red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Strider' Pants (graphite):
+    gender: 1
+    id: 33783
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (graphite)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Strider' Pants (green camo):
+    gender: 1
+    id: 33782
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (green camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's 'Strider' Pants (monochrome):
+    gender: 1
+    id: 33781
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (monochrome)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's Ace of Podhunters Pants:
+    gender: 2
+    id: 63114
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Ace of Podhunters Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Federation Commander's Dress Pants:
+    gender: 2
+    id: 58953
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Federation Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Federation Stargate Crew Pants:
+    gender: 2
+    id: 58793
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Federation Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Imperial Commander's Dress Pants:
+    gender: 2
+    id: 58952
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Imperial Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Imperial Stargate Crew Pants:
+    gender: 2
+    id: 58791
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Imperial Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Jita 4-4 Crew Pants:
+    gender: 2
+    id: 56849
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Jita 4-4 Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Jita 4-4 Executive Pants:
+    gender: 2
+    id: 56850
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Jita 4-4 Executive Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Kimotoro Eskeitan Commander's Pants:
+    gender: 2
+    id: 63748
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Kimotoro Eskeitan Commander's Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Obsidian Opulence Pants:
+    gender: 2
+    id: 54371
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Obsidian Opulence Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Commander's Dress Pants:
+    gender: 2
+    id: 58954
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Republic Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Republic Stargate Crew Pants:
+    gender: 2
+    id: 58794
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Republic Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's State Commander's Dress Pants:
+    gender: 2
+    id: 58951
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's State Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's State Stargate Crew Pants:
+    gender: 2
+    id: 58792
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's State Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's YC119 Yoiul Festival Pants:
+    gender: 1
+    id: 44124
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's YC119 Yoiul Festival Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Men's Yoiul Stormchasers Pants:
+    gender: 2
+    id: 57075
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Yoiul Stormchasers Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Eternity' Suit (Black/Gold):
+    clothingalsocoverscategory: 26
+    gender: 3
+    id: 34102
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (Black/Gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Eternity' Suit (Black/Red):
+    clothingalsocoverscategory: 26
+    gender: 3
+    id: 34108
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (Black/Red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Eternity' Suit (Olive):
+    clothingalsocoverscategory: 26
+    gender: 3
+    id: 34105
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (Olive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Eternity' Suit (White):
+    clothingalsocoverscategory: 26
+    gender: 3
+    id: 34110
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (White)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Eternity' Suit (Yellow):
+    clothingalsocoverscategory: 26
+    gender: 3
+    id: 34111
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (Yellow)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (Blood Raider):
+    gender: 3
+    id: 42701
+    marketGroup: 1403
+    name: Women's 'Excursion' Pants (Blood Raider)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (black):
+    gender: 3
+    id: 4016
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (black/blue/gold):
+    gender: 3
+    id: 4017
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/blue/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (black/gold line):
+    gender: 3
+    id: 4019
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/gold line)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (black/gold):
+    gender: 3
+    id: 4018
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (black/gray):
+    gender: 3
+    id: 3997
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (black/red/gold):
+    gender: 3
+    id: 4020
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/red/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (black/silver):
+    gender: 3
+    id: 4021
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (gold):
+    gender: 3
+    id: 4022
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (matte blue):
+    gender: 3
+    id: 4026
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (matte blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (matte green):
+    gender: 3
+    id: 4028
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (matte green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (matte red):
+    gender: 3
+    id: 4030
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (matte red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Excursion' Pants (silver):
+    gender: 3
+    id: 4032
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Fatal Elite' Combat Pants:
+    gender: 2
+    id: 54306
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Fatal Elite' Combat Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Federal Defender' Pants:
+    gender: 2
+    id: 59198
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Federal Defender' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Hephaestus' Pants (blue):
+    gender: 3
+    id: 36499
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hephaestus' Pants (cyan):
+    gender: 3
+    id: 36502
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (cyan)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hephaestus' Pants (desert):
+    gender: 3
+    id: 36501
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (desert)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hephaestus' Pants (gray/orange):
+    gender: 3
+    id: 36504
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (gray/orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hephaestus' Pants (green):
+    gender: 3
+    id: 36503
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hephaestus' Pants (white/red):
+    gender: 3
+    id: 36500
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (white/red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (black):
+    gender: 3
+    id: 33989
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (light):
+    gender: 3
+    id: 34045
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (light)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (matte black):
+    gender: 3
+    id: 34052
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (matte black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (opaque black):
+    gender: 3
+    id: 34049
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (opaque black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (opaque blue):
+    gender: 3
+    id: 34050
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (opaque blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (opaque gray):
+    gender: 3
+    id: 34051
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (opaque gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (opaque purple):
+    gender: 3
+    id: 34053
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (opaque purple)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (orange):
+    gender: 3
+    id: 34046
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (pink):
+    gender: 3
+    id: 34047
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (pink)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (red):
+    gender: 3
+    id: 34048
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (white):
+    gender: 3
+    id: 34054
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Hover' Tights (yellow):
+    gender: 3
+    id: 34055
+    marketGroup: 1944
+    mass: 0.10000000149011612
+    name: Women's 'Hover' Tights (yellow)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Imperial Loyalist' Pants:
+    gender: 2
+    id: 59370
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Imperial Loyalist' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (black leather):
+    gender: 3
+    id: 4033
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (black leather)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (black wax):
+    gender: 3
+    id: 3999
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (black wax)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (brown leather):
+    gender: 3
+    id: 4034
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (brown leather)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (graphite):
+    gender: 3
+    id: 4035
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (graphite)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (gray):
+    gender: 3
+    id: 3998
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (green/gold):
+    gender: 3
+    id: 4036
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (green/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (marine):
+    gender: 3
+    id: 4069
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (marine)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (matte black):
+    gender: 3
+    id: 4070
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (matte black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (matte blue):
+    gender: 3
+    id: 4071
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (matte blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (matte red):
+    gender: 3
+    id: 4072
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (matte red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (red gold):
+    gender: 3
+    id: 4073
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (red gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (silver):
+    gender: 3
+    id: 4074
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Impress' Skirt (white):
+    gender: 3
+    id: 4075
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Mirelle' Pants (Upwell):
+    gender: 3
+    id: 40525
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Mirelle' Pants (Upwell)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Outlaw' Pants (Blood Raiders):
+    gender: 3
+    id: 34357
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Outlaw' Pants (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Outlaw' Pants (Guristas):
+    gender: 3
+    id: 34359
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Outlaw' Pants (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Outlaw' Pants (Sansha's Nation):
+    gender: 3
+    id: 34358
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Outlaw' Pants (Sansha's Nation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (beige swirl):
+    gender: 3
+    id: 33746
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (beige swirl)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (black):
+    gender: 3
+    id: 33745
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (blue):
+    gender: 3
+    id: 33751
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (cream):
+    gender: 3
+    id: 33747
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (cream)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (dark green):
+    gender: 3
+    id: 33748
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (dark green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (dark swirl):
+    gender: 3
+    id: 33749
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (dark swirl)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (glossy black):
+    gender: 3
+    id: 33744
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (glossy black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (glossy bronze):
+    gender: 3
+    id: 33750
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (glossy bronze)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (glossy red):
+    gender: 3
+    id: 33753
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (glossy red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Poise' Pants (red):
+    gender: 3
+    id: 33752
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Republic Valklear' Pants:
+    gender: 2
+    id: 59181
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Republic Valklear' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Sanguine Harvest' Pants:
+    gender: 2
+    id: 60434
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Sanguine Harvest' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Semiotique Sports' Pants:
+    gender: 2
+    id: 60167
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Semiotique Sports' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Semiotique Superluminal' Pants:
+    gender: 2
+    id: 63055
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Semiotique Superluminal' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'State Protector' Pants:
+    gender: 2
+    id: 59408
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'State Protector' Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (black):
+    gender: 3
+    id: 4085
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (black/red):
+    gender: 3
+    id: 4076
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (black/red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (black/white):
+    gender: 3
+    id: 4101
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (black/white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (blue):
+    gender: 3
+    id: 4102
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (camouflage):
+    gender: 3
+    id: 4078
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (camouflage)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (graphite):
+    gender: 3
+    id: 4103
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (graphite)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (gray stripes):
+    gender: 3
+    id: 4105
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (gray stripes)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (gray):
+    gender: 3
+    id: 4104
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (green stripes):
+    gender: 3
+    id: 4108
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (green stripes)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (green):
+    gender: 3
+    id: 4106
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (green/black):
+    gender: 3
+    id: 4107
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (green/black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (khaki):
+    gender: 3
+    id: 4109
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (khaki)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (marine):
+    gender: 3
+    id: 4110
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (marine)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (matte black):
+    gender: 3
+    id: 4111
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (matte black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (red leather):
+    gender: 3
+    id: 4113
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (red leather)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (red stripes):
+    gender: 3
+    id: 4114
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (red stripes)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (red):
+    gender: 3
+    id: 4112
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Structure' Skirt (white stripes):
+    gender: 3
+    id: 4115
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (white stripes)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Strut' Pants (black):
+    gender: 3
+    id: 33754
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Strut' Pants (blue):
+    gender: 3
+    id: 33755
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Strut' Pants (camo):
+    gender: 3
+    id: 33756
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Strut' Pants (matte gray):
+    gender: 3
+    id: 33757
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (matte gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Strut' Pants (orange):
+    gender: 3
+    id: 33758
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Strut' Pants (red gloss):
+    gender: 3
+    id: 33760
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (red gloss)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Strut' Pants (red):
+    gender: 3
+    id: 33759
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Strut' Pants (yellow gloss):
+    gender: 3
+    id: 33761
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (yellow gloss)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's Ace of Podhunters Pants:
+    gender: 2
+    id: 63124
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Ace of Podhunters Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Federation Commander's Dress Pants:
+    gender: 2
+    id: 58948
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Federation Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Federation Stargate Crew Pants:
+    gender: 2
+    id: 58787
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Federation Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Imperial Commander's Dress Pants:
+    gender: 2
+    id: 58947
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Imperial Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Imperial Stargate Crew Pants:
+    gender: 2
+    id: 58785
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Imperial Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Jita 4-4 Crew Pants:
+    gender: 2
+    id: 56846
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Jita 4-4 Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Jita 4-4 Executive Pants:
+    gender: 2
+    id: 56853
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Jita 4-4 Executive Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Kimotoro Eskeitan Commander's Pants:
+    gender: 2
+    id: 63750
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Kimotoro Eskeitan Commander's Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Obsidian Opulence Pants:
+    gender: 2
+    id: 54365
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Obsidian Opulence Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Commander's Dress Pants:
+    gender: 2
+    id: 58949
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Republic Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Republic Stargate Crew Pants:
+    gender: 2
+    id: 58788
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Republic Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's State Commander's Dress Pants:
+    gender: 2
+    id: 58946
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's State Commander's Dress Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's State Stargate Crew Pants:
+    gender: 2
+    id: 58786
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's State Stargate Crew Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's YC119 Yoiul Festival Pants:
+    gender: 3
+    id: 44121
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's YC119 Yoiul Festival Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  Women's Yoiul Stormchasers Pants:
+    gender: 2
+    id: 57078
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Yoiul Stormchasers Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

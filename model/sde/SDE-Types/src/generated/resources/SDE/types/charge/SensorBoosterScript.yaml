@@ -1,0 +1,58 @@
+types:
+  ECCM Script:
+    chargesize: 1
+    id: 41155
+    launchergroup: 212
+    launchergroup2: 290
+    maincolor: 11646664
+    marketGroup: 1094
+    mass: 1.0
+    maxtargetrangebonusbonus: -100
+    name: ECCM Script
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    radius: 1.0
+    scanresolutionbonusbonus: -100
+    sensorstrengthbonusbonus: 100
+    techlevel: 1
+    volume: 1.0
+  Scan Resolution Script:
+    chargesize: 1
+    id: 29011
+    launchergroup: 212
+    launchergroup2: 290
+    maincolor: 11646664
+    marketGroup: 1094
+    mass: 1.0
+    maxtargetrangebonusbonus: -100
+    name: Scan Resolution Script
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    radius: 1.0
+    scanresolutionbonusbonus: 100
+    sensorstrengthbonusbonus: -100
+    techlevel: 1
+    volume: 1.0
+  Targeting Range Script:
+    chargesize: 1
+    id: 29009
+    launchergroup: 212
+    launchergroup2: 290
+    maincolor: 11646664
+    marketGroup: 1094
+    mass: 1.0
+    maxtargetrangebonusbonus: 100
+    name: Targeting Range Script
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    radius: 1.0
+    scanresolutionbonusbonus: -100
+    sensorstrengthbonusbonus: -100
+    techlevel: 1
+    volume: 1.0

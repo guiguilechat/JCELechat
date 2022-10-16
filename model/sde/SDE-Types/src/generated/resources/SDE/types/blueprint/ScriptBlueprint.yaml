@@ -1,0 +1,294 @@
+types:
+  Armor EM Resistance Script Blueprint:
+    id: 41590
+    marketGroup: 1105
+    name: Armor EM Resistance Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.009999999776482582
+  Armor Explosive Resistance Script Blueprint:
+    id: 41593
+    marketGroup: 1105
+    name: Armor Explosive Resistance Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.009999999776482582
+  Armor Kinetic Resistance Script Blueprint:
+    id: 41592
+    marketGroup: 1105
+    name: Armor Kinetic Resistance Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.009999999776482582
+  Armor Thermal Resistance Script Blueprint:
+    id: 41591
+    marketGroup: 1105
+    name: Armor Thermal Resistance Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.009999999776482582
+  ECCM Script Blueprint:
+    id: 41230
+    marketGroup: 1105
+    name: ECCM Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    volume: 0.009999999776482582
+  Focused Warp Disruption Script Blueprint:
+    id: 29004
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Focused Warp Disruption Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Focused Warp Scrambling Script Blueprint:
+    id: 45011
+    marketGroup: 1105
+    name: Focused Warp Scrambling Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    volume: 0.009999999776482582
+  Missile Precision Disruption Script Blueprint:
+    id: 40337
+    marketGroup: 1105
+    name: Missile Precision Disruption Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    volume: 0.009999999776482582
+  Missile Precision Script Blueprint:
+    id: 35797
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Missile Precision Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Missile Range Disruption Script Blueprint:
+    id: 40336
+    marketGroup: 1105
+    name: Missile Range Disruption Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    volume: 0.009999999776482582
+  Missile Range Script Blueprint:
+    id: 35796
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Missile Range Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Nanite Repair Paste Blueprint:
+    id: 2739
+    industryblueprintrank: 1.0
+    marketGroup: 1358
+    name: Nanite Repair Paste Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Optimal Range Disruption Script Blueprint:
+    id: 29006
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Optimal Range Disruption Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Optimal Range Script Blueprint:
+    id: 29000
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Optimal Range Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Scan Resolution Dampening Script Blueprint:
+    id: 29014
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Scan Resolution Dampening Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Scan Resolution Script Blueprint:
+    id: 29012
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Scan Resolution Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Shield EM Resistance Script Blueprint:
+    id: 41594
+    marketGroup: 1105
+    name: Shield EM Resistance Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.009999999776482582
+  Shield Explosive Resistance Script Blueprint:
+    id: 41597
+    marketGroup: 1105
+    name: Shield Explosive Resistance Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.009999999776482582
+  Shield Kinetic Resistance Script Blueprint:
+    id: 41596
+    marketGroup: 1105
+    name: Shield Kinetic Resistance Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.009999999776482582
+  Shield Thermal Resistance Script Blueprint:
+    id: 41595
+    marketGroup: 1105
+    name: Shield Thermal Resistance Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.009999999776482582
+  Standup Focused Warp Scrambling Script Blueprint:
+    id: 47337
+    marketGroup: 1105
+    name: Standup Focused Warp Scrambling Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    volume: 0.009999999776482582
+  Standup Gravimetric ECM Script Blueprint:
+    id: 37833
+    marketGroup: 1105
+    name: Standup Gravimetric ECM Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1300000.0
+    published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    volume: 0.009999999776482582
+  Standup Ladar ECM Script Blueprint:
+    id: 37834
+    marketGroup: 1105
+    name: Standup Ladar ECM Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1300000.0
+    published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    volume: 0.009999999776482582
+  Standup Magnetometric ECM Script Blueprint:
+    id: 37835
+    marketGroup: 1105
+    name: Standup Magnetometric ECM Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1300000.0
+    published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    volume: 0.009999999776482582
+  Standup Radar ECM Script Blueprint:
+    id: 37836
+    marketGroup: 1105
+    name: Standup Radar ECM Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1300000.0
+    published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    volume: 0.009999999776482582
+  Targeting Range Dampening Script Blueprint:
+    id: 29016
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Targeting Range Dampening Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Targeting Range Script Blueprint:
+    id: 29010
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Targeting Range Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Tracking Speed Disruption Script Blueprint:
+    id: 29008
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Tracking Speed Disruption Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Tracking Speed Script Blueprint:
+    id: 29002
+    industryblueprintrank: 1.0
+    marketGroup: 1105
+    name: Tracking Speed Script Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

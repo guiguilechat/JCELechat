@@ -1,0 +1,49 @@
+types:
+  Capital Ancillary Shield Booster Blueprint:
+    id: 41638
+    name: Capital Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9.7E7
+    published: true
+    volume: 0.009999999776482582
+  Large Ancillary Shield Booster Blueprint:
+    id: 4392
+    industryblueprintrank: 6.0
+    name: Large Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1458560.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Medium Ancillary Shield Booster Blueprint:
+    id: 32773
+    industryblueprintrank: 3.0
+    name: Medium Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1458560.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Small Ancillary Shield Booster Blueprint:
+    id: 32775
+    industryblueprintrank: 3.0
+    name: Small Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1458560.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  X-Large Ancillary Shield Booster Blueprint:
+    id: 32781
+    industryblueprintrank: 9.0
+    name: X-Large Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1458560.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

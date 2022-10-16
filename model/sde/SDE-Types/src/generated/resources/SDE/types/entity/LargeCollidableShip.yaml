@@ -1,0 +1,24 @@
+types:
+  Angel Chaos Frigate:
+    armorhp: 600.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    entityoverviewshipgroupid: 25
+    falloff: 1.0
+    hp: 600.0
+    id: 25829
+    mass: 1200000.0
+    name: Angel Chaos Frigate
+    portionSize: 1
+    published: false
+    radius: 50.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0

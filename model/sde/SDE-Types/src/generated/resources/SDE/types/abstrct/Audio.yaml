@@ -1,0 +1,6 @@
+types:
+  genericAudioEmitter:
+    id: 3859
+    name: genericAudioEmitter
+    portionSize: 1
+    published: false

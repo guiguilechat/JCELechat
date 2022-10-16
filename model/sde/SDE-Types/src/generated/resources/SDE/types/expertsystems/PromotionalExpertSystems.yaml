@@ -1,0 +1,81 @@
+types:
+  Amarr Foundation Day Expert System:
+    id: 60019
+    mass: 1.0
+    name: Amarr Foundation Day Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Caldari Union Day Expert System:
+    id: 60089
+    mass: 1.0
+    name: Caldari Union Day Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Expired Grand Prix Interceptors Expert System:
+    id: 57578
+    mass: 1.0
+    name: Expired Grand Prix Interceptors Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Free AIR Enforcer Expert System:
+    id: 63828
+    mass: 1.0
+    name: Free AIR Enforcer Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Free AIR Explorer Expert System:
+    id: 63826
+    mass: 1.0
+    name: Free AIR Explorer Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Free AIR Industrialist Expert System:
+    id: 63827
+    mass: 1.0
+    name: Free AIR Industrialist Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Free AIR Soldier of Fortune Expert System:
+    id: 63829
+    mass: 1.0
+    name: Free AIR Soldier of Fortune Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Frigate Frenzy Expert System:
+    id: 63145
+    mass: 1.0
+    name: Frigate Frenzy Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Gallente Federation Day Expert System:
+    id: 59404
+    mass: 1.0
+    name: Gallente Federation Day Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Mining Blitz Expedition Frigates Expert System:
+    id: 59195
+    mass: 1.0
+    name: Mining Blitz Expedition Frigates Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

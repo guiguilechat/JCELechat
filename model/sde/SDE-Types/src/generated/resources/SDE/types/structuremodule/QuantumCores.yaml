@@ -1,0 +1,81 @@
+types:
+  Astrahus Upwell Quantum Core:
+    id: 56201
+    marketGroup: 2749
+    mass: 4000.0
+    name: Astrahus Upwell Quantum Core
+    packagedVolume: 500.0
+    portionSize: 1
+    price: 6.0E8
+    published: true
+    volume: 500.0
+  Athanor Upwell Quantum Core:
+    id: 56202
+    marketGroup: 2749
+    mass: 4000.0
+    name: Athanor Upwell Quantum Core
+    packagedVolume: 500.0
+    portionSize: 1
+    price: 7.0E8
+    published: true
+    volume: 500.0
+  Azbel Upwell Quantum Core:
+    id: 56206
+    marketGroup: 2749
+    mass: 4000.0
+    name: Azbel Upwell Quantum Core
+    packagedVolume: 50000.0
+    portionSize: 1
+    price: 3.0E9
+    published: true
+    volume: 50000.0
+  Fortizar Upwell Quantum Core:
+    id: 56204
+    marketGroup: 2749
+    mass: 4000.0
+    name: Fortizar Upwell Quantum Core
+    packagedVolume: 50000.0
+    portionSize: 1
+    price: 4.0E9
+    published: true
+    volume: 50000.0
+  Keepstar Upwell Quantum Core:
+    id: 56207
+    marketGroup: 2749
+    mass: 4000.0
+    name: Keepstar Upwell Quantum Core
+    packagedVolume: 95000.0
+    portionSize: 1
+    price: 3.0000001024E10
+    published: true
+    volume: 95000.0
+  Raitaru Upwell Quantum Core:
+    id: 56203
+    marketGroup: 2749
+    mass: 4000.0
+    name: Raitaru Upwell Quantum Core
+    packagedVolume: 500.0
+    portionSize: 1
+    price: 8.0E8
+    published: true
+    volume: 500.0
+  Sotiyo Upwell Quantum Core:
+    id: 56208
+    marketGroup: 2749
+    mass: 4000.0
+    name: Sotiyo Upwell Quantum Core
+    packagedVolume: 95000.0
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 95000.0
+  Tatara Upwell Quantum Core:
+    id: 56205
+    marketGroup: 2749
+    mass: 4000.0
+    name: Tatara Upwell Quantum Core
+    packagedVolume: 50000.0
+    portionSize: 1
+    price: 3.5E9
+    published: true
+    volume: 50000.0

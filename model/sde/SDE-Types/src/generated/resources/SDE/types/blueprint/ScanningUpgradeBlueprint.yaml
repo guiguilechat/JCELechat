@@ -1,0 +1,47 @@
+types:
+  Scan Pinpointing Array I Blueprint:
+    id: 33179
+    industryblueprintrank: 6.0
+    marketGroup: 1707
+    name: Scan Pinpointing Array I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Scan Pinpointing Array II Blueprint:
+    id: 33200
+    industryblueprintrank: 15.600000381469727
+    name: Scan Pinpointing Array II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Scan Rangefinding Array I Blueprint:
+    id: 33181
+    industryblueprintrank: 6.0
+    marketGroup: 1707
+    name: Scan Rangefinding Array I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Scan Rangefinding Array II Blueprint:
+    id: 33202
+    industryblueprintrank: 15.600000381469727
+    name: Scan Rangefinding Array II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

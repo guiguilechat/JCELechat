@@ -1,0 +1,59 @@
+types:
+  Large Micro Jump Drive:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    capacitorneed: 786.0
+    cpu: 54.0
+    disallowearlydeactivation: 1
+    disallowrepeatingactivation: 1
+    duration: 12000.0
+    hp: 40.0
+    id: 4383
+    marketGroup: 1650
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metalevelold: 1
+    modulereactivationdelay: 180000
+    name: Large Micro Jump Drive
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 800
+    price: 1340852.0
+    published: true
+    radius: 1.0
+    requiredskill1: 4385
+    requiredskill1level: 1
+    signatureradiusbonuspercent: 150
+    techlevel: 1
+    volume: 10.0
+  Medium Micro Jump Drive:
+    canfitshipgroup01: 1972
+    canfitshipgroup02: 419
+    canfitshipgroup03: 540
+    canfitshipgroup04: 380
+    canfitshipgroup05: 1201
+    capacitorneed: 197.0
+    cpu: 51.0
+    disallowearlydeactivation: 1
+    disallowrepeatingactivation: 1
+    duration: 12000.0
+    hp: 40.0
+    id: 33915
+    marketGroup: 1650
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metalevelold: 1
+    modulereactivationdelay: 180000
+    name: Medium Micro Jump Drive
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 165
+    price: 340852.0
+    published: true
+    radius: 1.0
+    requiredskill1: 4385
+    requiredskill1level: 1
+    signatureradiusbonuspercent: 150
+    techlevel: 1
+    volume: 10.0

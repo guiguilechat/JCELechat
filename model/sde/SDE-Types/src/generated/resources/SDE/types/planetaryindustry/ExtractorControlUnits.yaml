@@ -1,0 +1,129 @@
+types:
+  Barren Extractor Control Unit:
+    cpuload: 400
+    ecuextractorheadcpu: 110
+    ecuextractorheadpower: 550
+    extractordepletionrange: 5
+    extractordepletionrate: 1
+    id: 2848
+    name: Barren Extractor Control Unit
+    pincycletime: 300
+    pinextractionquantity: 1000
+    planetrestriction: 2016
+    portionSize: 1
+    powerload: 2600
+    price: 45000.0
+    published: true
+    radius: 1.0
+  Gas Extractor Control Unit:
+    cpuload: 400
+    ecuextractorheadcpu: 110
+    ecuextractorheadpower: 550
+    extractordepletionrange: 5
+    extractordepletionrate: 1
+    id: 3060
+    name: Gas Extractor Control Unit
+    pincycletime: 300
+    pinextractionquantity: 1000
+    planetrestriction: 13
+    portionSize: 1
+    powerload: 2600
+    price: 45000.0
+    published: true
+    radius: 1.0
+  Ice Extractor Control Unit:
+    cpuload: 400
+    ecuextractorheadcpu: 110
+    ecuextractorheadpower: 550
+    extractordepletionrange: 5
+    extractordepletionrate: 1
+    id: 3061
+    name: Ice Extractor Control Unit
+    pincycletime: 300
+    pinextractionquantity: 1000
+    planetrestriction: 12
+    portionSize: 1
+    powerload: 2600
+    price: 45000.0
+    published: true
+    radius: 1.0
+  Lava Extractor Control Unit:
+    cpuload: 400
+    ecuextractorheadcpu: 110
+    ecuextractorheadpower: 550
+    extractordepletionrange: 5
+    extractordepletionrate: 1
+    id: 3062
+    name: Lava Extractor Control Unit
+    pincycletime: 300
+    pinextractionquantity: 1000
+    planetrestriction: 2015
+    portionSize: 1
+    powerload: 2600
+    price: 45000.0
+    published: true
+    radius: 1.0
+  Oceanic Extractor Control Unit:
+    cpuload: 400
+    ecuextractorheadcpu: 110
+    ecuextractorheadpower: 550
+    extractordepletionrange: 5
+    extractordepletionrate: 1
+    id: 3063
+    name: Oceanic Extractor Control Unit
+    pincycletime: 300
+    pinextractionquantity: 1000
+    planetrestriction: 2014
+    portionSize: 1
+    powerload: 2600
+    price: 45000.0
+    published: true
+    radius: 1.0
+  Plasma Extractor Control Unit:
+    cpuload: 400
+    ecuextractorheadcpu: 110
+    ecuextractorheadpower: 550
+    extractordepletionrange: 5
+    extractordepletionrate: 1
+    id: 3064
+    name: Plasma Extractor Control Unit
+    pincycletime: 300
+    pinextractionquantity: 1000
+    planetrestriction: 2063
+    portionSize: 1
+    powerload: 2600
+    price: 45000.0
+    published: true
+    radius: 1.0
+  Storm Extractor Control Unit:
+    cpuload: 400
+    ecuextractorheadcpu: 110
+    ecuextractorheadpower: 550
+    extractordepletionrange: 5
+    extractordepletionrate: 1
+    id: 3067
+    name: Storm Extractor Control Unit
+    pincycletime: 300
+    pinextractionquantity: 1000
+    planetrestriction: 2017
+    portionSize: 1
+    powerload: 2600
+    price: 45000.0
+    published: true
+    radius: 1.0
+  Temperate Extractor Control Unit:
+    cpuload: 400
+    ecuextractorheadcpu: 110
+    ecuextractorheadpower: 550
+    extractordepletionrange: 5
+    extractordepletionrate: 1
+    id: 3068
+    name: Temperate Extractor Control Unit
+    pincycletime: 300
+    pinextractionquantity: 1000
+    planetrestriction: 11
+    portionSize: 1
+    powerload: 2600
+    price: 45000.0
+    published: true
+    radius: 1.0

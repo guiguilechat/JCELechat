@@ -1,0 +1,6013 @@
+types:
+  A Lot of Money:
+    exporttaxmultiplier: 1
+    id: 30768
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: A Lot of Money
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  AEGIS Covert Operations Reports:
+    exporttaxmultiplier: 1
+    id: 60753
+    importtaxmultiplier: 1
+    marketGroup: 2801
+    mass: 1.0
+    name: AEGIS Covert Operations Reports
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.10000000149011612
+  AEGIS Fortification Schematics:
+    exporttaxmultiplier: 1
+    id: 60752
+    importtaxmultiplier: 1
+    marketGroup: 2801
+    mass: 1.0
+    name: AEGIS Fortification Schematics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 0.10000000149011612
+  AEGIS Personnel File Backups:
+    exporttaxmultiplier: 1
+    id: 60751
+    importtaxmultiplier: 1
+    marketGroup: 2801
+    mass: 1.0
+    name: AEGIS Personnel File Backups
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.10000000149011612
+  AEGIS Security Patrol Reports:
+    exporttaxmultiplier: 1
+    id: 60750
+    importtaxmultiplier: 1
+    marketGroup: 2801
+    mass: 1.0
+    name: AEGIS Security Patrol Reports
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 50000.0
+    published: true
+    volume: 0.10000000149011612
+  AIMEDs:
+    exporttaxmultiplier: 1
+    id: 28870
+    importtaxmultiplier: 1
+    mass: 5000.0
+    name: AIMEDs
+    packagedVolume: 25.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 25.0
+  Acceleration Gate Authentication Matrix:
+    exporttaxmultiplier: 1
+    id: 2888
+    importtaxmultiplier: 1
+    mass: 50.0
+    name: Acceleration Gate Authentication Matrix
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Accounting Records:
+    exporttaxmultiplier: 1
+    id: 29936
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Accounting Records
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 1.0
+  'Address #298 Audio Fragment':
+    exporttaxmultiplier: 1
+    id: 29955
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: 'Address #298 Audio Fragment'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Advisory Notes:
+    exporttaxmultiplier: 1
+    id: 29940
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Advisory Notes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Aerogel Counteragent:
+    exporttaxmultiplier: 1
+    id: 2964
+    importtaxmultiplier: 1
+    mass: 30.0
+    name: Aerogel Counteragent
+    packagedVolume: 30.0
+    portionSize: 1
+    published: true
+    volume: 30.0
+  Aidonis Honorary Fellow Medallion:
+    exporttaxmultiplier: 1
+    id: 11510
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Aidonis Honorary Fellow Medallion
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Air Show Entrance Badge:
+    exporttaxmultiplier: 1
+    id: 29272
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Air Show Entrance Badge
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Alliance Tournament Bronze Medal:
+    exporttaxmultiplier: 1
+    id: 28360
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Alliance Tournament Bronze Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Alliance Tournament Cup:
+    exporttaxmultiplier: 1
+    id: 28256
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Alliance Tournament Cup
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Alliance Tournament Gold Medal:
+    exporttaxmultiplier: 1
+    id: 28257
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Alliance Tournament Gold Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Alliance Tournament Silver Medal:
+    exporttaxmultiplier: 1
+    id: 28359
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Alliance Tournament Silver Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Altered Datacore - Mechanical Engineering:
+    exporttaxmultiplier: 1
+    id: 28843
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Altered Datacore - Mechanical Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Amarr Empire Transaction And Salary Logs:
+    exporttaxmultiplier: 1
+    id: 11606
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Amarr Empire Transaction And Salary Logs
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Amarr KIU-1 Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17794
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Amarr KIU-1 Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    volume: 0.10000000149011612
+  Amarr Loyalty Token:
+    exporttaxmultiplier: 1
+    id: 73250
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Amarr Loyalty Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.009999999776482582
+  Amarr MIY-1 Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17795
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Amarr MIY-1 Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.10000000149011612
+  Amarr Religious Holoreels:
+    exporttaxmultiplier: 1
+    id: 3013
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Amarr Religious Holoreels
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Amarr TIL-1 Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17793
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Amarr TIL-1 Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8000000.0
+    published: true
+    volume: 0.10000000149011612
+  Amarr TIL-1A Nexus Chips:
+    exporttaxmultiplier: 1
+    id: 2215
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Amarr TIL-1A Nexus Chips
+    packagedVolume: 12.0
+    portionSize: 1
+    published: true
+    volume: 12.0
+  Amarr Training Certification Results:
+    exporttaxmultiplier: 1
+    id: 22730
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Amarr Training Certification Results
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Amarrian Wheat:
+    exporttaxmultiplier: 1
+    id: 17424
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 1000.0
+    name: Amarrian Wheat
+    packagedVolume: 1.149999976158142
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 1.149999976158142
+  Ammatar Transaction and salary logs:
+    exporttaxmultiplier: 1
+    id: 11608
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ammatar Transaction and salary logs
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Amphere 9:
+    exporttaxmultiplier: 1
+    id: 32252
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Amphere 9
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Ancient Amarrian Relic:
+    exporttaxmultiplier: 1
+    id: 28829
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ancient Amarrian Relic
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Ancient Painblade:
+    exporttaxmultiplier: 1
+    id: 29471
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ancient Painblade
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Angel Cartel Plans:
+    exporttaxmultiplier: 1
+    id: 11703
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Angel Cartel Plans
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Antique Vheriokor Statue:
+    exporttaxmultiplier: 1
+    id: 29480
+    importtaxmultiplier: 1
+    mass: 5.0
+    name: Antique Vheriokor Statue
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  Antiviral Drugs:
+    exporttaxmultiplier: 1
+    id: 26974
+    importtaxmultiplier: 1
+    mass: 5.0
+    name: Antiviral Drugs
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 325.0
+    published: true
+    volume: 0.20000000298023224
+  Archives Passkey:
+    exporttaxmultiplier: 1
+    id: 32201
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Archives Passkey
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Ardorele Heirloom:
+    exporttaxmultiplier: 1
+    id: 29944
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ardorele Heirloom
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Arms Cache:
+    exporttaxmultiplier: 1
+    id: 19493
+    importtaxmultiplier: 1
+    mass: 2500.0
+    name: Arms Cache
+    packagedVolume: 2.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 2.0
+  Assault on Caldari Prime Ribbon:
+    exporttaxmultiplier: 1
+    id: 33129
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Assault on Caldari Prime Ribbon
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Autrech Voucher:
+    exporttaxmultiplier: 1
+    id: 19463
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Autrech Voucher
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Badge of Prophet Kuria:
+    exporttaxmultiplier: 1
+    id: 33120
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Badge of Prophet Kuria
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Badly Mangled Components:
+    exporttaxmultiplier: 1
+    id: 3583
+    importtaxmultiplier: 1
+    mass: 700.0
+    name: Badly Mangled Components
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  Barrels of Fertilizer:
+    exporttaxmultiplier: 1
+    id: 26782
+    importtaxmultiplier: 1
+    mass: 9000000.0
+    name: Barrels of Fertilizer
+    packagedVolume: 6000.0
+    portionSize: 1
+    price: 200.0
+    published: true
+    volume: 6000.0
+  Barrels of Soil:
+    exporttaxmultiplier: 1
+    id: 26776
+    importtaxmultiplier: 1
+    mass: 2000000.0
+    name: Barrels of Soil
+    packagedVolume: 8000.0
+    portionSize: 1
+    price: 80.0
+    published: true
+    volume: 8000.0
+  Barrels of Water:
+    exporttaxmultiplier: 1
+    id: 26792
+    importtaxmultiplier: 1
+    mass: 2.5E7
+    name: Barrels of Water
+    packagedVolume: 2500.0
+    portionSize: 1
+    price: 35.0
+    published: true
+    volume: 2500.0
+  Battery Cartridge:
+    exporttaxmultiplier: 1
+    id: 11071
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Battery Cartridge
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Biomechanical Interface Data:
+    exporttaxmultiplier: 1
+    id: 47027
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Biomechanical Interface Data
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Blaque Voucher:
+    exporttaxmultiplier: 1
+    id: 19461
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Blaque Voucher
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Blood Drop:
+    exporttaxmultiplier: 1
+    id: 13213
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Blood Drop
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Blood Obsidian Orb:
+    exporttaxmultiplier: 1
+    id: 32280
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Blood Obsidian Orb
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Blue Paradise:
+    exporttaxmultiplier: 1
+    id: 2995
+    importtaxmultiplier: 1
+    mass: 60.0
+    name: Blue Paradise
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Bone Splinter:
+    exporttaxmultiplier: 1
+    id: 13214
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Bone Splinter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Book of St. Arzad:
+    exporttaxmultiplier: 1
+    id: 32294
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Book of St. Arzad
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Boundless Creations Security Codes:
+    exporttaxmultiplier: 1
+    id: 32418
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Boundless Creations Security Codes
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Broken Broadcast Node:
+    exporttaxmultiplier: 250
+    id: 2375
+    importtaxmultiplier: 250
+    marketGroup: 20
+    name: Broken Broadcast Node
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Broken Integrity Response Drones:
+    exporttaxmultiplier: 250
+    id: 2376
+    importtaxmultiplier: 250
+    marketGroup: 20
+    name: Broken Integrity Response Drones
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Broken Mining Equipment:
+    exporttaxmultiplier: 1
+    id: 29321
+    importtaxmultiplier: 1
+    mass: 700.0
+    name: Broken Mining Equipment
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Broken Nano-Factory:
+    exporttaxmultiplier: 250
+    id: 2371
+    importtaxmultiplier: 250
+    marketGroup: 20
+    name: Broken Nano-Factory
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Broken Organic Mortar Applicators:
+    exporttaxmultiplier: 250
+    id: 2368
+    importtaxmultiplier: 250
+    marketGroup: 20
+    name: Broken Organic Mortar Applicators
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Broken Recursive Computing Module:
+    exporttaxmultiplier: 250
+    id: 2374
+    importtaxmultiplier: 250
+    marketGroup: 20
+    name: Broken Recursive Computing Module
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Broken Self-Harmonizing Power Core:
+    exporttaxmultiplier: 250
+    id: 2373
+    importtaxmultiplier: 250
+    marketGroup: 20
+    name: Broken Self-Harmonizing Power Core
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Broken Sterile Conduits:
+    exporttaxmultiplier: 250
+    id: 2369
+    importtaxmultiplier: 250
+    marketGroup: 20
+    name: Broken Sterile Conduits
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Broken Wetware Mainframe:
+    exporttaxmultiplier: 250
+    id: 2377
+    importtaxmultiplier: 250
+    marketGroup: 20
+    name: Broken Wetware Mainframe
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 25000.0
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Bronze Order of the Mountain:
+    exporttaxmultiplier: 1
+    id: 33117
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Bronze Order of the Mountain
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Bronze Sculpture:
+    exporttaxmultiplier: 1
+    id: 17757
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Bronze Sculpture
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Brutor Tribe Roster:
+    exporttaxmultiplier: 1
+    id: 28830
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Brutor Tribe Roster
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  CONCORD MTAC:
+    exporttaxmultiplier: 1
+    id: 3501
+    importtaxmultiplier: 1
+    mass: 7500.0
+    name: CONCORD MTAC
+    packagedVolume: 7500.0
+    portionSize: 1
+    published: true
+    volume: 7500.0
+  'CPF.HYA LogInt Facility POI-26: Data Cache':
+    exporttaxmultiplier: 1
+    id: 30964
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: 'CPF.HYA LogInt Facility POI-26: Data Cache'
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Caldari AZ-1 Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17643
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Caldari AZ-1 Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8000000.0
+    published: true
+    volume: 0.10000000149011612
+  Caldari BY-1 Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17647
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Caldari BY-1 Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.10000000149011612
+  Caldari CU-1 Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17646
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Caldari CU-1 Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    volume: 0.10000000149011612
+  Caldari Loyalty Token:
+    exporttaxmultiplier: 1
+    id: 73248
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Caldari Loyalty Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.009999999776482582
+  Caldari Navy Overlay Transponder:
+    exporttaxmultiplier: 1
+    id: 32403
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Caldari Navy Overlay Transponder
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Caldari State Transaction And Salary Logs:
+    exporttaxmultiplier: 1
+    id: 11604
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Caldari State Transaction And Salary Logs
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Caldari Traitor's DNA:
+    exporttaxmultiplier: 1
+    id: 29137
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Caldari Traitor's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capital Ship Design - "Dictator":
+    exporttaxmultiplier: 1
+    id: 32371
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Capital Ship Design - "Dictator"
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-001:
+    exporttaxmultiplier: 1
+    id: 63704
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-001
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-002:
+    exporttaxmultiplier: 1
+    id: 63712
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-002
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-003:
+    exporttaxmultiplier: 1
+    id: 63713
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-003
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-004:
+    exporttaxmultiplier: 1
+    id: 63705
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-004
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-005:
+    exporttaxmultiplier: 1
+    id: 63706
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-005
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-006:
+    exporttaxmultiplier: 1
+    id: 63707
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-006
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-007:
+    exporttaxmultiplier: 1
+    id: 63708
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-007
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-008:
+    exporttaxmultiplier: 1
+    id: 63709
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-008
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-009:
+    exporttaxmultiplier: 1
+    id: 63710
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-009
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsule Subsystem Holostorage EH-CN-J44-010:
+    exporttaxmultiplier: 1
+    id: 63711
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: Capsule Subsystem Holostorage EH-CN-J44-010
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Cargo Manifest:
+    exporttaxmultiplier: 1
+    id: 28975
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Cargo Manifest
+    packagedVolume: 0.5
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.5
+  Cartel Holovids:
+    exporttaxmultiplier: 1
+    id: 29935
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Cartel Holovids
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 250.0
+    published: true
+    volume: 1.0
+  Central Data Core:
+    exporttaxmultiplier: 1
+    id: 29284
+    importtaxmultiplier: 1
+    mass: 3500.0
+    name: Central Data Core
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 5.0
+  Cerebral Slice:
+    exporttaxmultiplier: 1
+    id: 13210
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Cerebral Slice
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Certification Results:
+    exporttaxmultiplier: 1
+    id: 3701
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Certification Results
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Cipher Router:
+    exporttaxmultiplier: 1
+    id: 29938
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Cipher Router
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Civilian Workers and Dependents:
+    exporttaxmultiplier: 1
+    id: 2220
+    importtaxmultiplier: 1
+    mass: 11.0
+    name: Civilian Workers and Dependents
+    packagedVolume: 12.0
+    portionSize: 1
+    published: true
+    volume: 12.0
+  Classified Caldari Databank:
+    exporttaxmultiplier: 1
+    id: 63699
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    name: Classified Caldari Databank
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 0.009999999776482582
+  Classified Report - Station Defenses:
+    exporttaxmultiplier: 1
+    id: 22222
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Classified Report - Station Defenses
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Clearance Documents:
+    exporttaxmultiplier: 1
+    id: 3838
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Clearance Documents
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Clearance Papers:
+    exporttaxmultiplier: 1
+    id: 4089
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Clearance Papers
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Colossal Sealed Cargo Containers:
+    exporttaxmultiplier: 1
+    id: 16041
+    importtaxmultiplier: 1
+    mass: 10000.0
+    name: Colossal Sealed Cargo Containers
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1000.0
+  Communications Logs:
+    exporttaxmultiplier: 1
+    id: 19730
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Communications Logs
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Complex Fullerene Shard:
+    exporttaxmultiplier: 1
+    id: 13215
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Complex Fullerene Shard
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Confiscated Vitoc:
+    exporttaxmultiplier: 1
+    id: 19399
+    importtaxmultiplier: 1
+    mass: 800.0
+    name: Confiscated Vitoc
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Consolidated Holdings Commander Access Key:
+    exporttaxmultiplier: 1
+    id: 2075
+    importtaxmultiplier: 1
+    mass: 0.009999999776482582
+    name: Consolidated Holdings Commander Access Key
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Construction Materials:
+    exporttaxmultiplier: 1
+    id: 3627
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Construction Materials
+    packagedVolume: 70.0
+    portionSize: 1
+    price: 500.0
+    published: true
+    volume: 70.0
+  Corporations for the Rest of Us:
+    exporttaxmultiplier: 1
+    id: 29205
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Corporations for the Rest of Us
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 3328.0
+    published: true
+    volume: 0.10000000149011612
+  Correspondence Log KL-513:
+    exporttaxmultiplier: 1
+    id: 32408
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Correspondence Log KL-513
+    packagedVolume: 0.5
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.5
+  Corrupted Drone Components:
+    exporttaxmultiplier: 1
+    id: 30782
+    importtaxmultiplier: 1
+    mass: 2.0
+    name: Corrupted Drone Components
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Corrupted Trinary Relics:
+    exporttaxmultiplier: 1
+    id: 46278
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Corrupted Trinary Relics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Counterfeit Voluval Tattoo Chemicals:
+    exporttaxmultiplier: 1
+    id: 2934
+    importtaxmultiplier: 1
+    mass: 20.0
+    name: Counterfeit Voluval Tattoo Chemicals
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    volume: 20.0
+  Covert Recording Device:
+    exporttaxmultiplier: 1
+    id: 32200
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Covert Recording Device
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 58624.0
+    published: true
+    volume: 1.0
+  Covert Research Tools:
+    exporttaxmultiplier: 1
+    id: 33577
+    importtaxmultiplier: 1
+    marketGroup: 1840
+    mass: 1.0
+    name: Covert Research Tools
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.10000000149011612
+  Crate of Aerogel Counteragent:
+    exporttaxmultiplier: 1
+    id: 2965
+    importtaxmultiplier: 1
+    mass: 300.0
+    name: Crate of Aerogel Counteragent
+    packagedVolume: 300.0
+    portionSize: 1
+    published: true
+    volume: 300.0
+  Crate of Amarr Religious Holoreels:
+    exporttaxmultiplier: 1
+    id: 3014
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Crate of Amarr Religious Holoreels
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Crate of Amarr Scripture Educational Study Packages (Matari translation):
+    exporttaxmultiplier: 1
+    id: 2991
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Amarr Scripture Educational Study Packages (Matari translation)
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Amarr TIL-1A Nexus Chips:
+    exporttaxmultiplier: 1
+    id: 2216
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Amarr TIL-1A Nexus Chips
+    packagedVolume: 120.0
+    portionSize: 1
+    published: true
+    volume: 120.0
+  Crate of Archaeological Lot GV87-426-D Artifacts:
+    exporttaxmultiplier: 1
+    id: 3023
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Archaeological Lot GV87-426-D Artifacts
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Architectural-Quality Plagioclase Paneling:
+    exporttaxmultiplier: 1
+    id: 2981
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Architectural-Quality Plagioclase Paneling
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Blue Paradise:
+    exporttaxmultiplier: 1
+    id: 2996
+    importtaxmultiplier: 1
+    mass: 500.0
+    name: Crate of Blue Paradise
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Crate of Bootleg Holoreels:
+    exporttaxmultiplier: 1
+    id: 3011
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Bootleg Holoreels
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Contained Cerrocentite:
+    exporttaxmultiplier: 1
+    id: 3027
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Contained Cerrocentite
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Cryo-Stored Luminaire Skippers:
+    exporttaxmultiplier: 1
+    id: 3015
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Cryo-Stored Luminaire Skippers
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Decoy Prototype Cloaking Devices:
+    exporttaxmultiplier: 1
+    id: 2990
+    importtaxmultiplier: 1
+    mass: 500.0
+    name: Crate of Decoy Prototype Cloaking Devices
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Crate of Environmentally-friendly Mining Equipment:
+    exporttaxmultiplier: 1
+    id: 2198
+    importtaxmultiplier: 1
+    mass: 210.0
+    name: Crate of Environmentally-friendly Mining Equipment
+    packagedVolume: 450.0
+    portionSize: 1
+    published: true
+    volume: 450.0
+  Crate of Exclusive Simo Reshar Fitness Holoreels:
+    exporttaxmultiplier: 1
+    id: 3031
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Exclusive Simo Reshar Fitness Holoreels
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Experimental ECM Hybrid Rounds:
+    exporttaxmultiplier: 1
+    id: 3037
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Experimental ECM Hybrid Rounds
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Feille d'Marnne Champagne:
+    exporttaxmultiplier: 1
+    id: 3005
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Feille d'Marnne Champagne
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Harvester Components:
+    exporttaxmultiplier: 1
+    id: 2987
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Harvester Components
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Industrial-Grade Tritanium-Alloy Scraps:
+    exporttaxmultiplier: 1
+    id: 2979
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Industrial-Grade Tritanium-Alloy Scraps
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Manportable Electromagnetic Pulse Weapons:
+    exporttaxmultiplier: 1
+    id: 2861
+    importtaxmultiplier: 1
+    mass: 250.0
+    name: Crate of Manportable Electromagnetic Pulse Weapons
+    packagedVolume: 250.0
+    portionSize: 1
+    published: true
+    volume: 250.0
+  Crate of Portable Emergency Heating Units:
+    exporttaxmultiplier: 1
+    id: 3021
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Portable Emergency Heating Units
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Prototype Body Armor Fabric:
+    exporttaxmultiplier: 1
+    id: 2200
+    importtaxmultiplier: 1
+    mass: 5000.0
+    name: Crate of Prototype Body Armor Fabric
+    packagedVolume: 2000.0
+    portionSize: 1
+    published: true
+    volume: 2000.0
+  Crate of Refined C-86 Epoxy Resin:
+    exporttaxmultiplier: 1
+    id: 2997
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Refined C-86 Epoxy Resin
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Refurbished Mining Drones:
+    exporttaxmultiplier: 1
+    id: 2957
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Refurbished Mining Drones
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Special Forces Weapons and Equipment:
+    exporttaxmultiplier: 1
+    id: 2930
+    importtaxmultiplier: 1
+    mass: 250.0
+    name: Crate of Special Forces Weapons and Equipment
+    packagedVolume: 250.0
+    portionSize: 1
+    published: true
+    volume: 250.0
+  Crate of Target Painter Deflection Plating:
+    exporttaxmultiplier: 1
+    id: 2967
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Target Painter Deflection Plating
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Unidentified Ancient Technology:
+    exporttaxmultiplier: 1
+    id: 3019
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Unidentified Ancient Technology
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crate of Unidentified Fibrous Compound:
+    exporttaxmultiplier: 1
+    id: 2952
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Crate of Unidentified Fibrous Compound
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Crates of Clothing:
+    exporttaxmultiplier: 1
+    id: 2596
+    importtaxmultiplier: 1
+    mass: 60000.0
+    name: Crates of Clothing
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Crates of Command Reports:
+    exporttaxmultiplier: 1
+    id: 2597
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Command Reports
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Construction Blocks:
+    exporttaxmultiplier: 1
+    id: 26791
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Crates of Construction Blocks
+    packagedVolume: 70.0
+    portionSize: 1
+    price: 500.0
+    published: true
+    volume: 70.0
+  Crates of Consumer Electronics:
+    exporttaxmultiplier: 1
+    id: 2729
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Consumer Electronics
+    packagedVolume: 40.0
+    portionSize: 1
+    price: 750.0
+    published: true
+    volume: 40.0
+  Crates of Coolant:
+    exporttaxmultiplier: 1
+    id: 2598
+    importtaxmultiplier: 1
+    mass: 80000.0
+    name: Crates of Coolant
+    packagedVolume: 80.0
+    portionSize: 1
+    published: true
+    volume: 80.0
+  Crates of Corporate Documents:
+    exporttaxmultiplier: 1
+    id: 2599
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Corporate Documents
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Data Sheets:
+    exporttaxmultiplier: 1
+    id: 2601
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Data Sheets
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Drill Parts:
+    exporttaxmultiplier: 1
+    id: 2602
+    importtaxmultiplier: 1
+    mass: 90000.0
+    name: Crates of Drill Parts
+    packagedVolume: 90.0
+    portionSize: 1
+    published: true
+    volume: 90.0
+  Crates of Electronic Parts:
+    exporttaxmultiplier: 1
+    id: 26779
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Electronic Parts
+    packagedVolume: 40.0
+    portionSize: 1
+    price: 750.0
+    published: true
+    volume: 40.0
+  Crates of Enriched Uranium:
+    exporttaxmultiplier: 1
+    id: 2730
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Crates of Enriched Uranium
+    packagedVolume: 70.0
+    portionSize: 1
+    price: 500.0
+    published: true
+    volume: 70.0
+  Crates of Fertilizer:
+    exporttaxmultiplier: 1
+    id: 2608
+    importtaxmultiplier: 1
+    mass: 80000.0
+    name: Crates of Fertilizer
+    packagedVolume: 80.0
+    portionSize: 1
+    published: true
+    volume: 80.0
+  Crates of Frozen Food:
+    exporttaxmultiplier: 1
+    id: 2610
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Frozen Food
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Frozen Plant Seeds:
+    exporttaxmultiplier: 1
+    id: 26785
+    importtaxmultiplier: 1
+    mass: 4000.0
+    name: Crates of Frozen Plant Seeds
+    packagedVolume: 50.0
+    portionSize: 1
+    price: 75.0
+    published: true
+    volume: 50.0
+  Crates of Garbage:
+    exporttaxmultiplier: 1
+    id: 2615
+    importtaxmultiplier: 1
+    mass: 90000.0
+    name: Crates of Garbage
+    packagedVolume: 90.0
+    portionSize: 1
+    published: true
+    volume: 90.0
+  Crates of Guidance Systems:
+    exporttaxmultiplier: 1
+    id: 2617
+    importtaxmultiplier: 1
+    mass: 100000.0
+    name: Crates of Guidance Systems
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Crates of Harroule Dryweed:
+    exporttaxmultiplier: 1
+    id: 2618
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Harroule Dryweed
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of High-Tech Small Arms:
+    exporttaxmultiplier: 1
+    id: 2619
+    importtaxmultiplier: 1
+    mass: 80000.0
+    name: Crates of High-Tech Small Arms
+    packagedVolume: 80.0
+    portionSize: 1
+    published: true
+    volume: 80.0
+  Crates of Holoreels:
+    exporttaxmultiplier: 1
+    id: 26778
+    importtaxmultiplier: 1
+    mass: 1000.0
+    name: Crates of Holoreels
+    packagedVolume: 50.0
+    portionSize: 1
+    price: 250.0
+    published: true
+    volume: 50.0
+  Crates of Liparer Cheese:
+    exporttaxmultiplier: 1
+    id: 2620
+    importtaxmultiplier: 1
+    mass: 100000.0
+    name: Crates of Liparer Cheese
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Crates of Listening Post Recordings:
+    exporttaxmultiplier: 1
+    id: 2623
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Listening Post Recordings
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Long-limb Roes:
+    exporttaxmultiplier: 1
+    id: 26774
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Long-limb Roes
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 2400.0
+    published: true
+    volume: 100.0
+  Crates of Mechanical Parts:
+    exporttaxmultiplier: 1
+    id: 2624
+    importtaxmultiplier: 1
+    mass: 100000.0
+    name: Crates of Mechanical Parts
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Crates of Missile Guidance Systems:
+    exporttaxmultiplier: 1
+    id: 2626
+    importtaxmultiplier: 1
+    mass: 90000.0
+    name: Crates of Missile Guidance Systems
+    packagedVolume: 90.0
+    portionSize: 1
+    published: true
+    volume: 90.0
+  Crates of Mono-Cell Batteries:
+    exporttaxmultiplier: 1
+    id: 2627
+    importtaxmultiplier: 1
+    mass: 80000.0
+    name: Crates of Mono-Cell Batteries
+    packagedVolume: 80.0
+    portionSize: 1
+    published: true
+    volume: 80.0
+  Crates of OP Insecticide:
+    exporttaxmultiplier: 1
+    id: 2631
+    importtaxmultiplier: 1
+    mass: 60000.0
+    name: Crates of OP Insecticide
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Crates of Odd Data Crystals:
+    exporttaxmultiplier: 1
+    id: 2628
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Odd Data Crystals
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Oxygen:
+    exporttaxmultiplier: 1
+    id: 2632
+    importtaxmultiplier: 1
+    mass: 70000.0
+    name: Crates of Oxygen
+    packagedVolume: 70.0
+    portionSize: 1
+    published: true
+    volume: 70.0
+  Crates of Planetary Vehicles:
+    exporttaxmultiplier: 1
+    id: 2633
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Planetary Vehicles
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Protein Delicacies:
+    exporttaxmultiplier: 1
+    id: 2635
+    importtaxmultiplier: 1
+    mass: 70000.0
+    name: Crates of Protein Delicacies
+    packagedVolume: 70.0
+    portionSize: 1
+    published: true
+    volume: 70.0
+  Crates of Raggy Dolls:
+    exporttaxmultiplier: 1
+    id: 2636
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Raggy Dolls
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Repair Parts:
+    exporttaxmultiplier: 1
+    id: 2639
+    importtaxmultiplier: 1
+    mass: 70000.0
+    name: Crates of Repair Parts
+    packagedVolume: 70.0
+    portionSize: 1
+    published: true
+    volume: 70.0
+  Crates of Replacement Parts:
+    exporttaxmultiplier: 1
+    id: 2640
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Replacement Parts
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Reports:
+    exporttaxmultiplier: 1
+    id: 2641
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Reports
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Crates of Robotics:
+    exporttaxmultiplier: 1
+    id: 2642
+    importtaxmultiplier: 1
+    mass: 70000.0
+    name: Crates of Robotics
+    packagedVolume: 70.0
+    portionSize: 1
+    published: true
+    volume: 70.0
+  Crates of Rocket Fuel:
+    exporttaxmultiplier: 1
+    id: 26787
+    importtaxmultiplier: 1
+    mass: 5000.0
+    name: Crates of Rocket Fuel
+    packagedVolume: 40.0
+    portionSize: 1
+    price: 505.0
+    published: true
+    volume: 40.0
+  Crates of Silicate Glass:
+    exporttaxmultiplier: 1
+    id: 2732
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Crates of Silicate Glass
+    packagedVolume: 50.0
+    portionSize: 1
+    price: 500.0
+    published: true
+    volume: 50.0
+  Crates of Silicon:
+    exporttaxmultiplier: 1
+    id: 2731
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Crates of Silicon
+    packagedVolume: 50.0
+    portionSize: 1
+    price: 500.0
+    published: true
+    volume: 50.0
+  Crates of Small Arms:
+    exporttaxmultiplier: 1
+    id: 2644
+    importtaxmultiplier: 1
+    mass: 60000.0
+    name: Crates of Small Arms
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Crates of Soil:
+    exporttaxmultiplier: 1
+    id: 2645
+    importtaxmultiplier: 1
+    mass: 50000.0
+    name: Crates of Soil
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Crates of Spiced Wine:
+    exporttaxmultiplier: 1
+    id: 2646
+    importtaxmultiplier: 1
+    mass: 90000.0
+    name: Crates of Spiced Wine
+    packagedVolume: 90.0
+    portionSize: 1
+    published: true
+    volume: 90.0
+  Crates of Spirits:
+    exporttaxmultiplier: 1
+    id: 26786
+    importtaxmultiplier: 1
+    mass: 25000.0
+    name: Crates of Spirits
+    packagedVolume: 60.0
+    portionSize: 1
+    price: 455.0
+    published: true
+    volume: 60.0
+  Crates of Synthetic Oil:
+    exporttaxmultiplier: 1
+    id: 2652
+    importtaxmultiplier: 1
+    mass: 60000.0
+    name: Crates of Synthetic Oil
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Crates of Tobacco:
+    exporttaxmultiplier: 1
+    id: 26790
+    importtaxmultiplier: 1
+    mass: 250000.0
+    name: Crates of Tobacco
+    packagedVolume: 40.0
+    portionSize: 1
+    price: 48.0
+    published: true
+    volume: 40.0
+  Crates of Transmitters:
+    exporttaxmultiplier: 1
+    id: 26781
+    importtaxmultiplier: 1
+    mass: 65000.0
+    name: Crates of Transmitters
+    packagedVolume: 60.0
+    portionSize: 1
+    price: 313.0
+    published: true
+    volume: 60.0
+  Crates of Vaccine Injectors:
+    exporttaxmultiplier: 1
+    id: 2653
+    importtaxmultiplier: 1
+    mass: 90000.0
+    name: Crates of Vaccine Injectors
+    packagedVolume: 90.0
+    portionSize: 1
+    published: true
+    volume: 90.0
+  Crates of Viral Agent:
+    exporttaxmultiplier: 1
+    id: 2654
+    importtaxmultiplier: 1
+    mass: 80000.0
+    name: Crates of Viral Agent
+    packagedVolume: 80.0
+    portionSize: 1
+    published: true
+    volume: 80.0
+  Crates of Vitoc:
+    exporttaxmultiplier: 1
+    id: 2657
+    importtaxmultiplier: 1
+    mass: 70000.0
+    name: Crates of Vitoc
+    packagedVolume: 70.0
+    portionSize: 1
+    published: true
+    volume: 70.0
+  Crates of Water:
+    exporttaxmultiplier: 1
+    id: 2659
+    importtaxmultiplier: 1
+    mass: 60000.0
+    name: Crates of Water
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Crates of Zemnar:
+    exporttaxmultiplier: 1
+    id: 2660
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Crates of Zemnar
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    volume: 40.0
+  Criminal DNA:
+    exporttaxmultiplier: 1
+    id: 12250
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: Criminal DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Criminal Dog Tag:
+    exporttaxmultiplier: 1
+    id: 11069
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 1.0
+    name: Criminal Dog Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Cross of the Sacred Throne Order:
+    exporttaxmultiplier: 1
+    id: 11508
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Cross of the Sacred Throne Order
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Cryogenic Stasis Capsule:
+    exporttaxmultiplier: 1
+    id: 28972
+    importtaxmultiplier: 1
+    mass: 400.0
+    name: Cryogenic Stasis Capsule
+    packagedVolume: 25.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 25.0
+  Custom Circuitry:
+    exporttaxmultiplier: 1
+    id: 2899
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Custom Circuitry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8000000.0
+    published: true
+    volume: 0.10000000149011612
+  Customs Patrol Schedule:
+    exporttaxmultiplier: 1
+    id: 29950
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Customs Patrol Schedule
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  DNA Sample:
+    exporttaxmultiplier: 1
+    id: 13288
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: DNA Sample
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Dagger of Coricia:
+    exporttaxmultiplier: 1
+    id: 33125
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Dagger of Coricia
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Damning Evidence:
+    exporttaxmultiplier: 1
+    id: 2893
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Damning Evidence
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 150.0
+    published: true
+    volume: 1.0
+  Decoy Prototype Cloaking Devices:
+    exporttaxmultiplier: 1
+    id: 2989
+    importtaxmultiplier: 1
+    mass: 60.0
+    name: Decoy Prototype Cloaking Devices
+    packagedVolume: 60.0
+    portionSize: 1
+    published: true
+    volume: 60.0
+  Defense of Caldari Prime Ribbon:
+    exporttaxmultiplier: 1
+    id: 33128
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Defense of Caldari Prime Ribbon
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Defiled Relics:
+    exporttaxmultiplier: 1
+    id: 13206
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Defiled Relics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Defunct Drone Sensor Module:
+    exporttaxmultiplier: 1
+    id: 11588
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: Defunct Drone Sensor Module
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Dem's Galactical Botanical:
+    exporttaxmultiplier: 1
+    id: 28973
+    importtaxmultiplier: 1
+    mass: 2.0
+    name: Dem's Galactical Botanical
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Demographic Analyses:
+    exporttaxmultiplier: 1
+    id: 29943
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Demographic Analyses
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Design Documents:
+    exporttaxmultiplier: 1
+    id: 11723
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Design Documents
+    packagedVolume: 0.5
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.5
+  Deteis Family:
+    exporttaxmultiplier: 1
+    id: 32277
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Deteis Family
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  DisX Stash:
+    exporttaxmultiplier: 1
+    id: 29951
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: DisX Stash
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Ditanium Metal Plates:
+    exporttaxmultiplier: 1
+    id: 2972
+    importtaxmultiplier: 1
+    mass: 30.0
+    name: Ditanium Metal Plates
+    packagedVolume: 30.0
+    portionSize: 1
+    published: true
+    volume: 30.0
+  Dossier - Author Unknown:
+    exporttaxmultiplier: 1
+    id: 30952
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Dossier - Author Unknown
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Dr. Castille's Data Core (Property of CreoDron):
+    exporttaxmultiplier: 1
+    id: 30784
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Dr. Castille's Data Core (Property of CreoDron)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Drezin's DNA:
+    exporttaxmultiplier: 1
+    id: 14483
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: Drezin's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Drill Parts:
+    exporttaxmultiplier: 1
+    id: 20541
+    importtaxmultiplier: 1
+    mass: 1000.0
+    name: Drill Parts
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Drive Cluster EDF-285:
+    exporttaxmultiplier: 1
+    id: 32241
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Drive Cluster EDF-285
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Drone Tracking Data:
+    exporttaxmultiplier: 1
+    id: 30811
+    importtaxmultiplier: 1
+    mass: 80.0
+    name: Drone Tracking Data
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Drug Contact List:
+    exporttaxmultiplier: 1
+    id: 11013
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Drug Contact List
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Dysfunctional Fluid Router:
+    exporttaxmultiplier: 1
+    id: 29941
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Dysfunctional Fluid Router
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Ekala's Design Documents:
+    exporttaxmultiplier: 1
+    id: 29946
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ekala's Design Documents
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Elena Gazky's DNA:
+    exporttaxmultiplier: 1
+    id: 17624
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: Elena Gazky's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Empire Diplomatic Documents:
+    exporttaxmultiplier: 1
+    id: 32889
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Empire Diplomatic Documents
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Empire Emissary Medallion:
+    exporttaxmultiplier: 1
+    id: 32885
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Empire Emissary Medallion
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Encoded Data Chip:
+    exporttaxmultiplier: 1
+    id: 2595
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Encoded Data Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Encoded Lai Dai Reports:
+    exporttaxmultiplier: 1
+    id: 21624
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Encoded Lai Dai Reports
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Encoded Message:
+    exporttaxmultiplier: 1
+    id: 32225
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Encoded Message
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Encrypted Data Crystals:
+    exporttaxmultiplier: 1
+    id: 28827
+    importtaxmultiplier: 1
+    mass: 50.0
+    name: Encrypted Data Crystals
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 80.0
+    published: true
+    volume: 1.0
+  Encrypted Data Fragment:
+    exporttaxmultiplier: 1
+    id: 32218
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Encrypted Data Fragment
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Encrypted Stellar Research Data:
+    exporttaxmultiplier: 1
+    id: 72373
+    importtaxmultiplier: 1
+    name: Encrypted Stellar Research Data
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Encrypted Transmission:
+    exporttaxmultiplier: 1
+    id: 32234
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Encrypted Transmission
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Engraved Blood Obsidian tablet:
+    exporttaxmultiplier: 1
+    id: 32283
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Engraved Blood Obsidian tablet
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Enigmatic Reports:
+    exporttaxmultiplier: 1
+    id: 29947
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Enigmatic Reports
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Enlightened Soul Silver Shield:
+    exporttaxmultiplier: 1
+    id: 11512
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Enlightened Soul Silver Shield
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Environmentally-friendly Mining Equipment:
+    exporttaxmultiplier: 1
+    id: 2197
+    importtaxmultiplier: 1
+    mass: 70.0
+    name: Environmentally-friendly Mining Equipment
+    packagedVolume: 32.0
+    portionSize: 1
+    published: true
+    volume: 32.0
+  Epidermis Sliver:
+    exporttaxmultiplier: 1
+    id: 13211
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Epidermis Sliver
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Farming Supplies:
+    exporttaxmultiplier: 1
+    id: 30794
+    importtaxmultiplier: 1
+    mass: 50000.0
+    name: Farming Supplies
+    packagedVolume: 150.0
+    portionSize: 1
+    published: true
+    volume: 150.0
+  Faulty Suntendi Virtu-Real Implant:
+    exporttaxmultiplier: 1
+    id: 29211
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Faulty Suntendi Virtu-Real Implant
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Federal Star of Justice:
+    exporttaxmultiplier: 1
+    id: 26270
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Federal Star of Justice
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Federation Court Logs:
+    exporttaxmultiplier: 1
+    id: 28834
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Federation Court Logs
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Federation Diplomatic Documents:
+    exporttaxmultiplier: 1
+    id: 32891
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Federation Diplomatic Documents
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Federation Emissary Medallion:
+    exporttaxmultiplier: 1
+    id: 32887
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Federation Emissary Medallion
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Festival-only 'Longbow' Energy Turrets Dose Crate:
+    exporttaxmultiplier: 1
+    id: 57302
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Festival-only 'Longbow' Energy Turrets Dose Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Festival-only 'Longbow' HybridTurrets Dose Crate:
+    exporttaxmultiplier: 1
+    id: 57304
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Festival-only 'Longbow' HybridTurrets Dose Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Festival-only 'Longbow' Missile Dose Crate:
+    exporttaxmultiplier: 1
+    id: 57305
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Festival-only 'Longbow' Missile Dose Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Festival-only 'Longbow' Projectile Turrets Dose Crate:
+    exporttaxmultiplier: 1
+    id: 57303
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Festival-only 'Longbow' Projectile Turrets Dose Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Foiritan Sculpture:
+    exporttaxmultiplier: 1
+    id: 20362
+    importtaxmultiplier: 1
+    name: Foiritan Sculpture
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Foiritan Voucher:
+    exporttaxmultiplier: 1
+    id: 19462
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Foiritan Voucher
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Folkloric Painting:
+    exporttaxmultiplier: 1
+    id: 29476
+    importtaxmultiplier: 1
+    mass: 0.5
+    name: Folkloric Painting
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  Food-Borne Toxin:
+    exporttaxmultiplier: 1
+    id: 28897
+    importtaxmultiplier: 1
+    mass: 5.0
+    name: Food-Borne Toxin
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  Foundation Stone:
+    exporttaxmultiplier: 1
+    id: 11856
+    importtaxmultiplier: 1
+    mass: 10000.0
+    name: Foundation Stone
+    packagedVolume: 180.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 180.0
+  Fraudulent Pax Amarria:
+    exporttaxmultiplier: 1
+    id: 28996
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Fraudulent Pax Amarria
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 3328.0
+    published: true
+    volume: 0.10000000149011612
+  Freedom of Operation License:
+    exporttaxmultiplier: 1
+    id: 3844
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Freedom of Operation License
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Galeptos Medicine:
+    exporttaxmultiplier: 1
+    id: 15316
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 5.0
+    name: Galeptos Medicine
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Gallente 106 Election Holoreel:
+    exporttaxmultiplier: 1
+    id: 17423
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 100.0
+    name: Gallente 106 Election Holoreel
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Gallente Alpha Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17850
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Gallente Alpha Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8000000.0
+    published: true
+    volume: 0.10000000149011612
+  Gallente Beta Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17849
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Gallente Beta Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    volume: 0.10000000149011612
+  Gallente Federation Transaction And Salary Logs:
+    exporttaxmultiplier: 1
+    id: 11602
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Gallente Federation Transaction And Salary Logs
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Gallente Gamma Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17848
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Gallente Gamma Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.10000000149011612
+  Gallente Loyalty Token:
+    exporttaxmultiplier: 1
+    id: 73249
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Gallente Loyalty Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.009999999776482582
+  Gallentean Planetary Vehicles:
+    exporttaxmultiplier: 1
+    id: 17143
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 2500.0
+    name: Gallentean Planetary Vehicles
+    packagedVolume: 2.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 2.0
+  Gallentean Viral Agent:
+    exporttaxmultiplier: 1
+    id: 29607
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Gallentean Viral Agent
+    packagedVolume: 0.5
+    portionSize: 1
+    price: 850.0
+    published: true
+    volume: 0.5
+  Gamma Ray Modulate Disc:
+    exporttaxmultiplier: 1
+    id: 34400
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Gamma Ray Modulate Disc
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    volume: 0.10000000149011612
+  Gas Passkey:
+    exporttaxmultiplier: 1
+    id: 32375
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Gas Passkey
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Giant Sealed Cargo Containers:
+    exporttaxmultiplier: 1
+    id: 16043
+    importtaxmultiplier: 1
+    mass: 5000.0
+    name: Giant Sealed Cargo Containers
+    packagedVolume: 500.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 500.0
+  Gold Medallion of Liberty:
+    exporttaxmultiplier: 1
+    id: 33123
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Gold Medallion of Liberty
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Gold Sculpture:
+    exporttaxmultiplier: 1
+    id: 17761
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Gold Sculpture
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Group of Angel Cartel VIPs:
+    exporttaxmultiplier: 1
+    id: 3000
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Group of Angel Cartel VIPs
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Group of Coriault Couture Collective Display Employees:
+    exporttaxmultiplier: 1
+    id: 3029
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Group of Coriault Couture Collective Display Employees
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Group of Haakar's Striking Hawks:
+    exporttaxmultiplier: 1
+    id: 2971
+    importtaxmultiplier: 1
+    mass: 1000.0
+    name: Group of Haakar's Striking Hawks
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Guristas 'Dirty' Explosive System:
+    exporttaxmultiplier: 1
+    id: 32383
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Guristas 'Dirty' Explosive System
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Guristas Research Data:
+    exporttaxmultiplier: 1
+    id: 19582
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Guristas Research Data
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Guristas War Plans:
+    exporttaxmultiplier: 1
+    id: 25382
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Guristas War Plans
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.10000000149011612
+  Hand of Arzad:
+    exporttaxmultiplier: 1
+    id: 32287
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Hand of Arzad
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Hauteker Memoirs:
+    exporttaxmultiplier: 1
+    id: 32202
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Hauteker Memoirs
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Havatiah's Ship Database:
+    exporttaxmultiplier: 1
+    id: 24717
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Havatiah's Ship Database
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Heap-Load of Garbage:
+    exporttaxmultiplier: 1
+    id: 26784
+    importtaxmultiplier: 1
+    mass: 2.5E7
+    name: Heap-Load of Garbage
+    packagedVolume: 2500.0
+    portionSize: 1
+    price: 20.0
+    published: true
+    volume: 2500.0
+  Heart Stone:
+    exporttaxmultiplier: 1
+    id: 13205
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Heart Stone
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Hidden Data Sheets:
+    exporttaxmultiplier: 1
+    id: 26707
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Hidden Data Sheets
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  High-Tech Data Chip:
+    exporttaxmultiplier: 1
+    id: 17893
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: High-Tech Data Chip
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.009999999776482582
+  High-Tech Manufacturing Tools:
+    exporttaxmultiplier: 1
+    hp: 100.0
+    id: 17895
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 10.0
+    name: High-Tech Manufacturing Tools
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 10000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  High-Tech Scanner:
+    exporttaxmultiplier: 1
+    id: 17894
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 2500.0
+    name: High-Tech Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.009999999776482582
+  High-Tech Small Arms:
+    exporttaxmultiplier: 1
+    id: 17897
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: High-Tech Small Arms
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.009999999776482582
+  Hive Mind CPU:
+    exporttaxmultiplier: 1
+    hp: 100.0
+    id: 28865
+    importtaxmultiplier: 1
+    mass: 70.0
+    name: Hive Mind CPU
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 5.0
+  Holoreel - Torture Log I15B:
+    exporttaxmultiplier: 1
+    id: 32407
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Holoreel - Torture Log I15B
+    packagedVolume: 0.5
+    portionSize: 1
+    price: 250.0
+    published: true
+    volume: 0.5
+  'Holoreel: Wanted for Love':
+    exporttaxmultiplier: 1
+    id: 32289
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: 'Holoreel: Wanted for Love'
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Honorary Brigadier of Engineers Insignia:
+    exporttaxmultiplier: 1
+    id: 34312
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Honorary Brigadier of Engineers Insignia
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Honorary Fabricator-General Baton:
+    exporttaxmultiplier: 1
+    id: 34311
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Honorary Fabricator-General Baton
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Honorary Federal Harbormaster Pennon:
+    exporttaxmultiplier: 1
+    id: 34313
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Honorary Federal Harbormaster Pennon
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Honorary Fleet Architect Badge:
+    exporttaxmultiplier: 1
+    id: 34314
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Honorary Fleet Architect Badge
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Hyasyoda Captain:
+    exporttaxmultiplier: 1
+    id: 30954
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Hyasyoda Captain
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Hybrid Slaver Hounds:
+    exporttaxmultiplier: 1
+    id: 2943
+    importtaxmultiplier: 1
+    mass: 28.0
+    name: Hybrid Slaver Hounds
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    volume: 20.0
+  Incriminating Evidence:
+    exporttaxmultiplier: 1
+    id: 2851
+    importtaxmultiplier: 1
+    mass: 5.0
+    name: Incriminating Evidence
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Infrared Ray Modulate Disc:
+    exporttaxmultiplier: 1
+    id: 34401
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Infrared Ray Modulate Disc
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    volume: 0.10000000149011612
+  Inquest Drone:
+    exporttaxmultiplier: 1
+    id: 29937
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Inquest Drone
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Insorum:
+    exporttaxmultiplier: 1
+    id: 20328
+    importtaxmultiplier: 1
+    mass: 5.0
+    name: Insorum
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  Insorum Booster Prototype:
+    exporttaxmultiplier: 1
+    id: 29948
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Insorum Booster Prototype
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Insta-Lock:
+    exporttaxmultiplier: 1
+    id: 29026
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Insta-Lock
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Intaki Clackers:
+    exporttaxmultiplier: 1
+    id: 29475
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Intaki Clackers
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment 0KQC:
+    exporttaxmultiplier: 1
+    id: 60454
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Intercepted Rogue Drone Communications Fragment 0KQC
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment 52B7:
+    exporttaxmultiplier: 1
+    id: 60457
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Intercepted Rogue Drone Communications Fragment 52B7
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment 55EG:
+    exporttaxmultiplier: 1
+    id: 60456
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Intercepted Rogue Drone Communications Fragment 55EG
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment GQ35:
+    exporttaxmultiplier: 1
+    id: 60455
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Intercepted Rogue Drone Communications Fragment GQ35
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intercepted Rogue Drone Communications Fragment JQH0:
+    exporttaxmultiplier: 1
+    id: 60458
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Intercepted Rogue Drone Communications Fragment JQH0
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intermediate Medal:
+    exporttaxmultiplier: 1
+    id: 16713
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 0.10000000149011612
+    name: Intermediate Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Intravenous Oscillation Fluid:
+    exporttaxmultiplier: 1
+    id: 34450
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Intravenous Oscillation Fluid
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Iron Order of the Storm:
+    exporttaxmultiplier: 1
+    id: 33118
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Iron Order of the Storm
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Ishukone Corporate Records:
+    exporttaxmultiplier: 1
+    id: 28833
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ishukone Corporate Records
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Ishukone Operational Reports:
+    exporttaxmultiplier: 1
+    id: 32267
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ishukone Operational Reports
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Jovian Delegates:
+    exporttaxmultiplier: 1
+    id: 11528
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Jovian Delegates
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Kennel of Hybrid Slaver Hounds:
+    exporttaxmultiplier: 1
+    id: 2944
+    importtaxmultiplier: 1
+    mass: 280.0
+    name: Kennel of Hybrid Slaver Hounds
+    packagedVolume: 200.0
+    portionSize: 1
+    published: true
+    volume: 200.0
+  Keron's Head:
+    exporttaxmultiplier: 1
+    id: 23871
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Keron's Head
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Khumaak:
+    exporttaxmultiplier: 1
+    id: 12478
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 2.0
+    name: Khumaak
+    packagedVolume: 0.30000001192092896
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.30000001192092896
+  Kidnapping Evidence:
+    exporttaxmultiplier: 1
+    id: 32223
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Kidnapping Evidence
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Komni History (1 of 2):
+    exporttaxmultiplier: 1
+    id: 23909
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Komni History (1 of 2)
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Komni History (2 of 2):
+    exporttaxmultiplier: 1
+    id: 23945
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Komni History (2 of 2)
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Korim Kor-Azor:
+    exporttaxmultiplier: 1
+    id: 11654
+    importtaxmultiplier: 1
+    mass: 82.0
+    name: Korim Kor-Azor
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Korrani's DNA:
+    exporttaxmultiplier: 1
+    id: 13918
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: Korrani's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Kruul's DNA:
+    exporttaxmultiplier: 1
+    id: 14292
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: Kruul's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Large 'Fortizar' Citadel BPC Token:
+    exporttaxmultiplier: 1
+    id: 40549
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: Large 'Fortizar' Citadel BPC Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.009999999776482582
+  Large Crate of Amarr Scripture Educational Study Packages (Matari translation):
+    exporttaxmultiplier: 1
+    id: 2992
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Amarr Scripture Educational Study Packages (Matari translation)
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Archaeological Lot GV87-426-E Artifacts:
+    exporttaxmultiplier: 1
+    id: 3024
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Archaeological Lot GV87-426-E Artifacts
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Architectural-Quality Plagioclase Paneling:
+    exporttaxmultiplier: 1
+    id: 2982
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Architectural-Quality Plagioclase Paneling
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Contained Mesarchonite:
+    exporttaxmultiplier: 1
+    id: 3028
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Contained Mesarchonite
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Cryo-Stored Luminaire Skippers:
+    exporttaxmultiplier: 1
+    id: 3016
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Cryo-Stored Luminaire Skippers
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Exclusive Simo Reshar Fitness Holoreels:
+    exporttaxmultiplier: 1
+    id: 3035
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Exclusive Simo Reshar Fitness Holoreels
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Experimental ECM Hybrid Rounds:
+    exporttaxmultiplier: 1
+    id: 3038
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Experimental ECM Hybrid Rounds
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Feille d'Marnne Champagne:
+    exporttaxmultiplier: 1
+    id: 3007
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Feille d'Marnne Champagne
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Harvester Components:
+    exporttaxmultiplier: 1
+    id: 2988
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Harvester Components
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Improved Inertial Compensation Systems:
+    exporttaxmultiplier: 1
+    id: 2951
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Improved Inertial Compensation Systems
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Industrial-Grade Tritanium-Alloy Scraps:
+    exporttaxmultiplier: 1
+    id: 2980
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Industrial-Grade Tritanium-Alloy Scraps
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Portable Emergency Heating Units:
+    exporttaxmultiplier: 1
+    id: 3022
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Portable Emergency Heating Units
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Refurbished Mining Drones:
+    exporttaxmultiplier: 1
+    id: 2956
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Refurbished Mining Drones
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Suspicious Holoreels:
+    exporttaxmultiplier: 1
+    id: 3012
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Suspicious Holoreels
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Talocan Station Life-Support Cores:
+    exporttaxmultiplier: 1
+    id: 3020
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Talocan Station Life-Support Cores
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Target Painter Deflection Plating:
+    exporttaxmultiplier: 1
+    id: 2968
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Target Painter Deflection Plating
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crate of Unidentified Fibrous Compound:
+    exporttaxmultiplier: 1
+    id: 2955
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Crate of Unidentified Fibrous Compound
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Crates of Construction Blocks:
+    exporttaxmultiplier: 1
+    id: 2710
+    importtaxmultiplier: 1
+    mass: 1.0E7
+    name: Large Crates of Construction Blocks
+    packagedVolume: 700.0
+    portionSize: 1
+    price: 500.0
+    published: true
+    volume: 700.0
+  Large Crates of Coolant:
+    exporttaxmultiplier: 1
+    id: 2616
+    importtaxmultiplier: 1
+    mass: 800000.0
+    name: Large Crates of Coolant
+    packagedVolume: 800.0
+    portionSize: 1
+    published: true
+    volume: 800.0
+  Large Crates of Data Sheets:
+    exporttaxmultiplier: 1
+    id: 2673
+    importtaxmultiplier: 1
+    mass: 400000.0
+    name: Large Crates of Data Sheets
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Crates of Drill Parts:
+    exporttaxmultiplier: 1
+    id: 2712
+    importtaxmultiplier: 1
+    mass: 900000.0
+    name: Large Crates of Drill Parts
+    packagedVolume: 900.0
+    portionSize: 1
+    published: true
+    volume: 900.0
+  Large Crates of Electronic Parts:
+    exporttaxmultiplier: 1
+    id: 2713
+    importtaxmultiplier: 1
+    mass: 400000.0
+    name: Large Crates of Electronic Parts
+    packagedVolume: 400.0
+    portionSize: 1
+    price: 750.0
+    published: true
+    volume: 400.0
+  Large Crates of Fertilizer:
+    exporttaxmultiplier: 1
+    id: 2714
+    importtaxmultiplier: 1
+    mass: 800000.0
+    name: Large Crates of Fertilizer
+    packagedVolume: 800.0
+    portionSize: 1
+    published: true
+    volume: 800.0
+  Large Crates of Frozen Food:
+    exporttaxmultiplier: 1
+    id: 2715
+    importtaxmultiplier: 1
+    mass: 400000.0
+    name: Large Crates of Frozen Food
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Crates of Frozen Plant Seeds:
+    exporttaxmultiplier: 1
+    id: 2716
+    importtaxmultiplier: 1
+    mass: 40000.0
+    name: Large Crates of Frozen Plant Seeds
+    packagedVolume: 500.0
+    portionSize: 1
+    price: 75.0
+    published: true
+    volume: 500.0
+  Large Crates of Galeptos Medicine:
+    exporttaxmultiplier: 1
+    id: 2682
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Large Crates of Galeptos Medicine
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    volume: 1000.0
+  Large Crates of Garbage:
+    exporttaxmultiplier: 1
+    id: 2717
+    importtaxmultiplier: 1
+    mass: 900000.0
+    name: Large Crates of Garbage
+    packagedVolume: 900.0
+    portionSize: 1
+    published: true
+    volume: 900.0
+  Large Crates of Guidance Systems:
+    exporttaxmultiplier: 1
+    id: 2683
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Large Crates of Guidance Systems
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    volume: 1000.0
+  Large Crates of Harroule Dryweed:
+    exporttaxmultiplier: 1
+    id: 2684
+    importtaxmultiplier: 1
+    mass: 400000.0
+    name: Large Crates of Harroule Dryweed
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Crates of Holoreels:
+    exporttaxmultiplier: 1
+    id: 2685
+    importtaxmultiplier: 1
+    mass: 100000.0
+    name: Large Crates of Holoreels
+    packagedVolume: 500.0
+    portionSize: 1
+    price: 250.0
+    published: true
+    volume: 500.0
+  Large Crates of Liparer Cheese:
+    exporttaxmultiplier: 1
+    id: 2686
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Large Crates of Liparer Cheese
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    volume: 1000.0
+  Large Crates of Long-limb Roes:
+    exporttaxmultiplier: 1
+    id: 2718
+    importtaxmultiplier: 1
+    mass: 400000.0
+    name: Large Crates of Long-limb Roes
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 2400.0
+    published: true
+    volume: 1000.0
+  Large Crates of Mechanical Parts:
+    exporttaxmultiplier: 1
+    id: 2687
+    importtaxmultiplier: 1
+    mass: 1000000.0
+    name: Large Crates of Mechanical Parts
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    volume: 1000.0
+  Large Crates of Mono-Cell Batteries:
+    exporttaxmultiplier: 1
+    id: 2688
+    importtaxmultiplier: 1
+    mass: 800000.0
+    name: Large Crates of Mono-Cell Batteries
+    packagedVolume: 800.0
+    portionSize: 1
+    published: true
+    volume: 800.0
+  Large Crates of Oxygen:
+    exporttaxmultiplier: 1
+    id: 2689
+    importtaxmultiplier: 1
+    mass: 700000.0
+    name: Large Crates of Oxygen
+    packagedVolume: 700.0
+    portionSize: 1
+    published: true
+    volume: 700.0
+  Large Crates of Planetary Vehicles:
+    exporttaxmultiplier: 1
+    id: 2690
+    importtaxmultiplier: 1
+    mass: 400000.0
+    name: Large Crates of Planetary Vehicles
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Crates of Polytextiles:
+    exporttaxmultiplier: 1
+    id: 2691
+    importtaxmultiplier: 1
+    mass: 500000.0
+    name: Large Crates of Polytextiles
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Large Crates of Protein Delicacies:
+    exporttaxmultiplier: 1
+    id: 2692
+    importtaxmultiplier: 1
+    mass: 700000.0
+    name: Large Crates of Protein Delicacies
+    packagedVolume: 700.0
+    portionSize: 1
+    published: true
+    volume: 700.0
+  Large Crates of Raggy Dolls:
+    exporttaxmultiplier: 1
+    id: 2719
+    importtaxmultiplier: 1
+    mass: 400000.0
+    name: Large Crates of Raggy Dolls
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Crates of Reports:
+    exporttaxmultiplier: 1
+    id: 2693
+    importtaxmultiplier: 1
+    mass: 400000.0
+    name: Large Crates of Reports
+    packagedVolume: 400.0
+    portionSize: 1
+    published: true
+    volume: 400.0
+  Large Crates of Rocket Fuel:
+    exporttaxmultiplier: 1
+    id: 2720
+    importtaxmultiplier: 1
+    mass: 50000.0
+    name: Large Crates of Rocket Fuel
+    packagedVolume: 400.0
+    portionSize: 1
+    price: 505.0
+    published: true
+    volume: 400.0
+  Large Crates of Small Arms:
+    exporttaxmultiplier: 1
+    id: 2694
+    importtaxmultiplier: 1
+    mass: 600000.0
+    name: Large Crates of Small Arms
+    packagedVolume: 600.0
+    portionSize: 1
+    published: true
+    volume: 600.0
+  Large Crates of Soil:
+    exporttaxmultiplier: 1
+    id: 2695
+    importtaxmultiplier: 1
+    mass: 500000.0
+    name: Large Crates of Soil
+    packagedVolume: 500.0
+    portionSize: 1
+    published: true
+    volume: 500.0
+  Large Crates of Spirits:
+    exporttaxmultiplier: 1
+    id: 2696
+    importtaxmultiplier: 1
+    mass: 250000.0
+    name: Large Crates of Spirits
+    packagedVolume: 600.0
+    portionSize: 1
+    price: 455.0
+    published: true
+    volume: 600.0
+  Large Crates of Synthetic Oil:
+    exporttaxmultiplier: 1
+    id: 2697
+    importtaxmultiplier: 1
+    mass: 600000.0
+    name: Large Crates of Synthetic Oil
+    packagedVolume: 600.0
+    portionSize: 1
+    published: true
+    volume: 600.0
+  Large Crates of Tobacco:
+    exporttaxmultiplier: 1
+    id: 2721
+    importtaxmultiplier: 1
+    mass: 2500000.0
+    name: Large Crates of Tobacco
+    packagedVolume: 400.0
+    portionSize: 1
+    price: 48.0
+    published: true
+    volume: 400.0
+  Large Crates of Transmitters:
+    exporttaxmultiplier: 1
+    id: 2722
+    importtaxmultiplier: 1
+    mass: 650000.0
+    name: Large Crates of Transmitters
+    packagedVolume: 600.0
+    portionSize: 1
+    price: 313.0
+    published: true
+    volume: 600.0
+  Large Crates of Viral Agent:
+    exporttaxmultiplier: 1
+    id: 2723
+    importtaxmultiplier: 1
+    mass: 800000.0
+    name: Large Crates of Viral Agent
+    packagedVolume: 800.0
+    portionSize: 1
+    published: true
+    volume: 800.0
+  Large Crates of Vitoc:
+    exporttaxmultiplier: 1
+    id: 2698
+    importtaxmultiplier: 1
+    mass: 700000.0
+    name: Large Crates of Vitoc
+    packagedVolume: 700.0
+    portionSize: 1
+    published: true
+    volume: 700.0
+  Large Crates of Water:
+    exporttaxmultiplier: 1
+    id: 2724
+    importtaxmultiplier: 1
+    mass: 600000.0
+    name: Large Crates of Water
+    packagedVolume: 600.0
+    portionSize: 1
+    published: true
+    volume: 600.0
+  Large Group of Angel Cartel VIPs:
+    exporttaxmultiplier: 1
+    id: 3003
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Group of Angel Cartel VIPs
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Group of Civilian Workers and Dependents:
+    exporttaxmultiplier: 1
+    id: 2219
+    importtaxmultiplier: 1
+    mass: 110.0
+    name: Large Group of Civilian Workers and Dependents
+    packagedVolume: 125.0
+    portionSize: 1
+    published: true
+    volume: 125.0
+  Large Group of Mannar Textile Institute International Representatives:
+    exporttaxmultiplier: 1
+    id: 3030
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Group of Mannar Textile Institute International Representatives
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Group of The Hooded Men:
+    exporttaxmultiplier: 1
+    id: 2974
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Large Group of The Hooded Men
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    volume: 100.0
+  Large Sealed Cargo Containers:
+    exporttaxmultiplier: 1
+    id: 16045
+    importtaxmultiplier: 1
+    mass: 1000.0
+    name: Large Sealed Cargo Containers
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 100.0
+  Large Special Delivery:
+    exporttaxmultiplier: 1
+    id: 15319
+    importtaxmultiplier: 1
+    mass: 800.0
+    name: Large Special Delivery
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1000.0
+  Legends Medal:
+    exporttaxmultiplier: 1
+    id: 16714
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 0.10000000149011612
+    name: Legends Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Letters of Bishop Dalamaid:
+    exporttaxmultiplier: 1
+    id: 28836
+    importtaxmultiplier: 1
+    mass: 25.0
+    name: Letters of Bishop Dalamaid
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Liberation Games Reward Token:
+    exporttaxmultiplier: 1
+    id: 59752
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Liberation Games Reward Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.009999999776482582
+  Liberty Tattoo of the Minmatar Nation:
+    exporttaxmultiplier: 1
+    id: 11511
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Liberty Tattoo of the Minmatar Nation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Liver Bile:
+    exporttaxmultiplier: 1
+    id: 13212
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Liver Bile
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Luther Veron's Head:
+    exporttaxmultiplier: 1
+    id: 19382
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Luther Veron's Head
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Manchura's Logs:
+    exporttaxmultiplier: 1
+    id: 20551
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Manchura's Logs
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Mangled Sansha Data Analyzer:
+    exporttaxmultiplier: 1
+    id: 3585
+    importtaxmultiplier: 1
+    mass: 1650.0
+    name: Mangled Sansha Data Analyzer
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 33264.0
+    published: true
+    volume: 5.0
+  Manportable Electromagnetic Pulse Weapons:
+    exporttaxmultiplier: 1
+    id: 2221
+    importtaxmultiplier: 1
+    mass: 25.0
+    name: Manportable Electromagnetic Pulse Weapons
+    packagedVolume: 25.0
+    portionSize: 1
+    published: true
+    volume: 25.0
+  Manufacturing Tools:
+    exporttaxmultiplier: 1
+    hp: 100.0
+    id: 16686
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 10.0
+    name: Manufacturing Tools
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 100.0
+  Massive Sealed Cargo Containers:
+    exporttaxmultiplier: 1
+    id: 27803
+    importtaxmultiplier: 1
+    mass: 20000.0
+    name: Massive Sealed Cargo Containers
+    packagedVolume: 2000.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 2000.0
+  Medical Supplies:
+    exporttaxmultiplier: 1
+    id: 30816
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Medical Supplies
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Medium 'Astrahus' Citadel BPC Token:
+    exporttaxmultiplier: 1
+    id: 40548
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: Medium 'Astrahus' Citadel BPC Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.009999999776482582
+  Medium Sized Sealed Cargo Containers:
+    exporttaxmultiplier: 1
+    id: 16042
+    importtaxmultiplier: 1
+    mass: 500.0
+    name: Medium Sized Sealed Cargo Containers
+    packagedVolume: 50.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 50.0
+  Message from the Governor:
+    exporttaxmultiplier: 1
+    id: 16614
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Message from the Governor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Minmatar DNA:
+    exporttaxmultiplier: 1
+    id: 29203
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Minmatar DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Minmatar Loyalty Token:
+    exporttaxmultiplier: 1
+    id: 73251
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Minmatar Loyalty Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.009999999776482582
+  Minmatar Republic Transaction And Salary Logs:
+    exporttaxmultiplier: 1
+    id: 11607
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Minmatar Republic Transaction And Salary Logs
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Minmatar Training Certification Results:
+    exporttaxmultiplier: 1
+    id: 22764
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Minmatar Training Certification Results
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Minmatar UUA Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17815
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Minmatar UUA Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.10000000149011612
+  Minmatar UUB Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17816
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Minmatar UUB Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    volume: 0.10000000149011612
+  Minmatar UUC Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 17814
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Minmatar UUC Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8000000.0
+    published: true
+    volume: 0.10000000149011612
+  Mizara's Doll:
+    exporttaxmultiplier: 1
+    id: 30776
+    importtaxmultiplier: 1
+    mass: 2.0
+    name: Mizara's Doll
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Modified Augumene Antidote:
+    exporttaxmultiplier: 1
+    id: 29202
+    importtaxmultiplier: 1
+    mass: 5.0
+    name: Modified Augumene Antidote
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 325.0
+    published: true
+    volume: 5.0
+  Mordur's DNA:
+    exporttaxmultiplier: 1
+    id: 17640
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: Mordur's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Mysterious Statuette:
+    exporttaxmultiplier: 1
+    id: 30778
+    importtaxmultiplier: 1
+    mass: 2.0
+    name: Mysterious Statuette
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Nanoplastic Membrane Patch:
+    exporttaxmultiplier: 1
+    id: 34451
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Nanoplastic Membrane Patch
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Native Freshfood Special:
+    exporttaxmultiplier: 1
+    id: 23948
+    importtaxmultiplier: 1
+    mass: 400.0
+    name: Native Freshfood Special
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Neophite:
+    exporttaxmultiplier: 1
+    id: 15410
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 1.0
+    name: Neophite
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Network Decryption Analyzer:
+    exporttaxmultiplier: 1
+    id: 29945
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Network Decryption Analyzer
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Neurowave Pattern Scanner:
+    exporttaxmultiplier: 1
+    id: 2250
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Neurowave Pattern Scanner
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  New Eden Genome Amalgam:
+    exporttaxmultiplier: 1
+    id: 47041
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: New Eden Genome Amalgam
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  New Eden Open Bronze Medal:
+    exporttaxmultiplier: 1
+    id: 33072
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: New Eden Open Bronze Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  New Eden Open Fourth Place Medal:
+    exporttaxmultiplier: 1
+    id: 33073
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: New Eden Open Fourth Place Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  New Eden Open Gold Medal:
+    exporttaxmultiplier: 1
+    id: 33070
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: New Eden Open Gold Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  New Eden Open Silver Medal:
+    exporttaxmultiplier: 1
+    id: 33071
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: New Eden Open Silver Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Nidupadian Yorak Eggs:
+    exporttaxmultiplier: 1
+    id: 23863
+    importtaxmultiplier: 1
+    mass: 1.5
+    name: Nidupadian Yorak Eggs
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Novice Medal:
+    exporttaxmultiplier: 1
+    id: 16712
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 0.10000000149011612
+    name: Novice Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Nugoeihuvi Data Chip:
+    exporttaxmultiplier: 1
+    id: 11067
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Nugoeihuvi Data Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.10000000149011612
+  Number Box:
+    exporttaxmultiplier: 1
+    id: 29477
+    importtaxmultiplier: 1
+    mass: 5.0
+    name: Number Box
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  ORE Research Data Fragment:
+    exporttaxmultiplier: 1
+    id: 62709
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    name: ORE Research Data Fragment
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.009999999776482582
+  Obsidian Datacore:
+    exporttaxmultiplier: 1
+    id: 32290
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Obsidian Datacore
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Octomet Dog Tags:
+    exporttaxmultiplier: 1
+    id: 32237
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Octomet Dog Tags
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Old Map:
+    exporttaxmultiplier: 1
+    id: 29531
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Old Map
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Olfei Medallion:
+    exporttaxmultiplier: 1
+    id: 32099
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Olfei Medallion
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.10000000149011612
+  Olufami's DNA:
+    exporttaxmultiplier: 1
+    id: 18655
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: Olufami's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Onyx Heart of Valor:
+    exporttaxmultiplier: 1
+    id: 11509
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Onyx Heart of Valor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  'Operation Stillwater: Synopsis':
+    exporttaxmultiplier: 1
+    id: 32259
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: 'Operation Stillwater: Synopsis'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Ore Passkey:
+    exporttaxmultiplier: 1
+    id: 32352
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ore Passkey
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Ornamental Necklace:
+    exporttaxmultiplier: 1
+    id: 18583
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ornamental Necklace
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Ottin Holoreels Case:
+    exporttaxmultiplier: 1
+    id: 29939
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ottin Holoreels Case
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  PDW-09FX Data Shell:
+    exporttaxmultiplier: 1
+    id: 29953
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: PDW-09FX Data Shell
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  PDW-09FX Tactical Subroutines:
+    exporttaxmultiplier: 1
+    id: 29954
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: PDW-09FX Tactical Subroutines
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Pallet of Ditanium Metal Plates:
+    exporttaxmultiplier: 1
+    id: 2973
+    importtaxmultiplier: 1
+    mass: 300.0
+    name: Pallet of Ditanium Metal Plates
+    packagedVolume: 300.0
+    portionSize: 1
+    published: true
+    volume: 300.0
+  Pax Amarria:
+    exporttaxmultiplier: 1
+    id: 11585
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 1.0
+    name: Pax Amarria
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 3328.0
+    published: true
+    volume: 0.10000000149011612
+  Pax Ammaria:
+    exporttaxmultiplier: 1
+    id: 4390
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Pax Ammaria
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 3328.0
+    published: true
+    volume: 0.10000000149011612
+  Personal Information Data:
+    exporttaxmultiplier: 1
+    id: 11635
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Personal Information Data
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Phenod's DNA:
+    exporttaxmultiplier: 1
+    id: 2100
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Phenod's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Physical Samples:
+    exporttaxmultiplier: 1
+    id: 29278
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Physical Samples
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Platinum Medallion of Freedom:
+    exporttaxmultiplier: 1
+    id: 33124
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Platinum Medallion of Freedom
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Privateer Commander's Head:
+    exporttaxmultiplier: 1
+    id: 29162
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Privateer Commander's Head
+    packagedVolume: 0.25
+    portionSize: 1
+    published: true
+    volume: 0.25
+  Pro-Trade Pamphlets:
+    exporttaxmultiplier: 1
+    id: 17755
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Pro-Trade Pamphlets
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  'Proof of Discovery: Anomalies':
+    exporttaxmultiplier: 1
+    id: 32350
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: 'Proof of Discovery: Anomalies'
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  'Proof of Discovery: Data':
+    exporttaxmultiplier: 1
+    id: 32366
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: 'Proof of Discovery: Data'
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  'Proof of Discovery: Gas':
+    exporttaxmultiplier: 1
+    id: 32376
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: 'Proof of Discovery: Gas'
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  'Proof of Discovery: Ore':
+    exporttaxmultiplier: 1
+    id: 32351
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: 'Proof of Discovery: Ore'
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  'Proof of Discovery: Relic':
+    exporttaxmultiplier: 1
+    id: 32365
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: 'Proof of Discovery: Relic'
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Prototype Body Armor Fabric:
+    exporttaxmultiplier: 1
+    id: 2199
+    importtaxmultiplier: 1
+    mass: 50.0
+    name: Prototype Body Armor Fabric
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    volume: 20.0
+  Quafe Ultra Special Edition:
+    exporttaxmultiplier: 1
+    id: 12994
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 500.0
+    name: Quafe Ultra Special Edition
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Quafe Unleashed formula:
+    exporttaxmultiplier: 1
+    id: 28828
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Quafe Unleashed formula
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 30.0
+    published: true
+    volume: 0.10000000149011612
+  Quantrium Wiring:
+    exporttaxmultiplier: 1
+    id: 2963
+    importtaxmultiplier: 1
+    mass: 30.0
+    name: Quantrium Wiring
+    packagedVolume: 30.0
+    portionSize: 1
+    published: true
+    volume: 30.0
+  Quantum Entanglement:
+    exporttaxmultiplier: 1
+    id: 2904
+    importtaxmultiplier: 1
+    mass: 400.0
+    name: Quantum Entanglement
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  Questionable Cargo:
+    exporttaxmultiplier: 1
+    id: 30967
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Questionable Cargo
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Radio Ray Modulate Disc:
+    exporttaxmultiplier: 1
+    id: 34402
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Radio Ray Modulate Disc
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    volume: 0.10000000149011612
+  Ralie Ardanne's Belongings:
+    exporttaxmultiplier: 1
+    id: 32220
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ralie Ardanne's Belongings
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Rebellion Cache:
+    exporttaxmultiplier: 1
+    id: 29952
+    importtaxmultiplier: 1
+    mass: 1000.0
+    name: Rebellion Cache
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Recovered Data Core:
+    exporttaxmultiplier: 50
+    id: 2900
+    importtaxmultiplier: 50
+    mass: 1.0
+    name: Recovered Data Core
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  Recovered Navigation Telemetry:
+    exporttaxmultiplier: 1
+    id: 47025
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Recovered Navigation Telemetry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1.0
+    published: true
+    volume: 0.10000000149011612
+  Recovered Radioactive Materials:
+    exporttaxmultiplier: 1
+    id: 47026
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Recovered Radioactive Materials
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Red:
+    exporttaxmultiplier: 1
+    id: 30756
+    importtaxmultiplier: 1
+    mass: 80.0
+    name: Red
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Religious Artifact:
+    exporttaxmultiplier: 1
+    id: 11070
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Religious Artifact
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Report R:081-9560:
+    exporttaxmultiplier: 1
+    id: 32257
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Report R:081-9560
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Report R:081-9568:
+    exporttaxmultiplier: 1
+    id: 32258
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Report R:081-9568
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Republic Diplomatic Documents:
+    exporttaxmultiplier: 1
+    id: 32890
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Republic Diplomatic Documents
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Republic Emissary Medallion:
+    exporttaxmultiplier: 1
+    id: 32886
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Republic Emissary Medallion
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Research Component:
+    exporttaxmultiplier: 1
+    id: 40456
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: Research Component
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Research Data Fragment:
+    exporttaxmultiplier: 1
+    id: 29942
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Research Data Fragment
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Research Tools:
+    exporttaxmultiplier: 1
+    id: 15353
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: Research Tools
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Riot Interdiction Team:
+    exporttaxmultiplier: 1
+    id: 2201
+    importtaxmultiplier: 1
+    mass: 30.0
+    name: Riot Interdiction Team
+    packagedVolume: 30.0
+    portionSize: 1
+    published: true
+    volume: 30.0
+  Riot Interdiction Teams:
+    exporttaxmultiplier: 1
+    id: 2202
+    importtaxmultiplier: 1
+    mass: 500.0
+    name: Riot Interdiction Teams
+    packagedVolume: 300.0
+    portionSize: 1
+    published: true
+    volume: 300.0
+  Rogue Drone 42-X Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 33620
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Rogue Drone 42-X Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8000000.0
+    published: true
+    volume: 0.10000000149011612
+  Rogue Drone 43-X Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 33619
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Rogue Drone 43-X Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    volume: 0.10000000149011612
+  Rogue Drone 46-X Nexus Chip:
+    exporttaxmultiplier: 1
+    id: 33618
+    importtaxmultiplier: 1
+    marketGroup: 738
+    mass: 1.0
+    name: Rogue Drone 46-X Nexus Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.10000000149011612
+  Rogue Drone A.I. Core:
+    exporttaxmultiplier: 1
+    id: 28866
+    importtaxmultiplier: 1
+    mass: 0.009999999776482582
+    name: Rogue Drone A.I. Core
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Router Encryption Key:
+    exporttaxmultiplier: 1
+    id: 28896
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Router Encryption Key
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Runaway Daughter:
+    exporttaxmultiplier: 1
+    id: 29464
+    importtaxmultiplier: 1
+    mass: 400.0
+    name: Runaway Daughter
+    packagedVolume: 25.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 25.0
+  S.I Formula Sheet:
+    exporttaxmultiplier: 1
+    id: 30955
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: S.I Formula Sheet
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  SARO Emblem:
+    exporttaxmultiplier: 1
+    id: 29949
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: SARO Emblem
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Sacred Bricks:
+    exporttaxmultiplier: 1
+    id: 13204
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Sacred Bricks
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Salvaged Electronics:
+    exporttaxmultiplier: 1
+    id: 2853
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Salvaged Electronics
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    volume: 20.0
+  Sansha Command Signal Receiver:
+    exporttaxmultiplier: 1
+    id: 32106
+    importtaxmultiplier: 1
+    mass: 40.0
+    name: Sansha Command Signal Receiver
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 750.0
+    published: true
+    volume: 1.0
+  Sansha Data Sheets:
+    exporttaxmultiplier: 1
+    id: 16832
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Sansha Data Sheets
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Sareko's Capsule:
+    exporttaxmultiplier: 1
+    id: 29932
+    importtaxmultiplier: 1
+    mass: 32000.0
+    name: Sareko's Capsule
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    volume: 1000.0
+  Sealed Research Cache:
+    exporttaxmultiplier: 1
+    id: 32393
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Sealed Research Cache
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Self-regulating Machine Gears:
+    exporttaxmultiplier: 1
+    id: 34452
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Self-regulating Machine Gears
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Senatorial Silver Star:
+    exporttaxmultiplier: 1
+    id: 33122
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Senatorial Silver Star
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity 618 Event Crate:
+    exporttaxmultiplier: 1
+    id: 59603
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity 618 Event Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Anniversary Crate:
+    exporttaxmultiplier: 1
+    id: 57764
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Anniversary Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Anniversary SKIN Box:
+    exporttaxmultiplier: 1
+    id: 57774
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Anniversary SKIN Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Autumn Event Crate:
+    exporttaxmultiplier: 1
+    id: 60192
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Autumn Event Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Autumn Zakura Shumyu SKIN Crate:
+    exporttaxmultiplier: 1
+    id: 60191
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Autumn Zakura Shumyu SKIN Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Cold Iron SKINs Crate L:
+    exporttaxmultiplier: 1
+    id: 60490
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Cold Iron SKINs Crate L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Cold Iron SKINs Crate S/M:
+    exporttaxmultiplier: 1
+    id: 60489
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Cold Iron SKINs Crate S/M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Festival Copper Crate:
+    exporttaxmultiplier: 1
+    id: 57279
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Festival Copper Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Festival Gold Crate:
+    exporttaxmultiplier: 1
+    id: 57281
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Festival Gold Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Festival Silver Crate:
+    exporttaxmultiplier: 1
+    id: 57280
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Festival Silver Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Imp/Whiptail Crate:
+    exporttaxmultiplier: 1
+    id: 59318
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Imp/Whiptail Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity July Season Reward Crate:
+    exporttaxmultiplier: 1
+    id: 59755
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity July Season Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Rookie DLI Day 1 Crate:
+    exporttaxmultiplier: 1
+    id: 57213
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Rookie DLI Day 1 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Rookie DLI Day 2 Crate:
+    exporttaxmultiplier: 1
+    id: 57223
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Rookie DLI Day 2 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Rookie DLI Day 3 Crate:
+    exporttaxmultiplier: 1
+    id: 57222
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Rookie DLI Day 3 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Rookie DLI Day 4 Crate:
+    exporttaxmultiplier: 1
+    id: 57224
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Rookie DLI Day 4 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Ship Crate:
+    exporttaxmultiplier: 1
+    id: 59317
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity Ship Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.10 DLI Firework Crate:
+    exporttaxmultiplier: 1
+    id: 60486
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.10 DLI Firework Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Event Crate:
+    exporttaxmultiplier: 1
+    id: 59900
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.7 Event Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Event Manufacturing Booster Crate:
+    exporttaxmultiplier: 1
+    id: 59902
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.7 Event Manufacturing Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Event SKIN Crate:
+    exporttaxmultiplier: 1
+    id: 59901
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.7 Event SKIN Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Event Skill Booster Crate:
+    exporttaxmultiplier: 1
+    id: 59903
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.7 Event Skill Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 PotT SKIN Crate Large:
+    exporttaxmultiplier: 1
+    id: 60025
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.7 PotT SKIN Crate Large
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 PotT SKIN Crate Small:
+    exporttaxmultiplier: 1
+    id: 60024
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.7 PotT SKIN Crate Small
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.7 Triglavian Recon Crate:
+    exporttaxmultiplier: 1
+    id: 59989
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.7 Triglavian Recon Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.8 Season Reward Crate:
+    exporttaxmultiplier: 1
+    id: 60096
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.8 Season Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.8 Season Ship Crate:
+    exporttaxmultiplier: 1
+    id: 60095
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.8 Season Ship Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.9 Season Reward Crate:
+    exporttaxmultiplier: 1
+    id: 60253
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.9 Season Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity YC123.9 Season Ship Crate:
+    exporttaxmultiplier: 1
+    id: 60252
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Serenity YC123.9 Season Ship Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Shiez Kuzaks Ship Database:
+    exporttaxmultiplier: 1
+    id: 11603
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Shiez Kuzaks Ship Database
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Signed Copy of Pax Amarria:
+    exporttaxmultiplier: 1
+    id: 11586
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Signed Copy of Pax Amarria
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Silver Sculpture:
+    exporttaxmultiplier: 1
+    id: 17759
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Silver Sculpture
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0
+  Singed Datapad:
+    exporttaxmultiplier: 1
+    id: 32229
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Singed Datapad
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Singing Staff:
+    exporttaxmultiplier: 1
+    id: 29474
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Singing Staff
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Small Sealed Cargo Containers:
+    exporttaxmultiplier: 1
+    id: 16044
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: Small Sealed Cargo Containers
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 10.0
+  Small Warded Container:
+    exporttaxmultiplier: 1
+    id: 28868
+    importtaxmultiplier: 1
+    mass: 75.0
+    name: Small Warded Container
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 5.0
+  Smuggler Lockbox:
+    exporttaxmultiplier: 1
+    id: 64033
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Smuggler Lockbox
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 0.10000000149011612
+  Smuggler's Warning About Sister Alitura:
+    exporttaxmultiplier: 1
+    id: 30907
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Smuggler's Warning About Sister Alitura
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Smurgleblaster:
+    exporttaxmultiplier: 1
+    id: 13067
+    importtaxmultiplier: 1
+    mass: 2500.0
+    name: Smurgleblaster
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  Spear of Matar:
+    exporttaxmultiplier: 1
+    id: 33126
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Spear of Matar
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Special Delivery:
+    exporttaxmultiplier: 1
+    id: 11068
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Special Delivery
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.10000000149011612
+  Special Forces Weapons and Equipment:
+    exporttaxmultiplier: 1
+    id: 2862
+    importtaxmultiplier: 1
+    mass: 25.0
+    name: Special Forces Weapons and Equipment
+    packagedVolume: 25.0
+    portionSize: 1
+    published: true
+    volume: 25.0
+  Spintric Coin:
+    exporttaxmultiplier: 1
+    id: 32265
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Spintric Coin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Splinter Bodyguard:
+    exporttaxmultiplier: 1
+    id: 29934
+    importtaxmultiplier: 1
+    mass: 34000.0
+    name: Splinter Bodyguard
+    packagedVolume: 25.0
+    portionSize: 1
+    published: true
+    volume: 25.0
+  Spools of Quantrium Wiring:
+    exporttaxmultiplier: 1
+    id: 2960
+    importtaxmultiplier: 1
+    mass: 300.0
+    name: Spools of Quantrium Wiring
+    packagedVolume: 300.0
+    portionSize: 1
+    published: true
+    volume: 300.0
+  Spring Festival Mystery Box:
+    exporttaxmultiplier: 1
+    id: 57306
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Spring Festival Mystery Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Spring Festival SKIN Box:
+    exporttaxmultiplier: 1
+    id: 57331
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Spring Festival SKIN Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Spring Festival ZhenPin Box:
+    exporttaxmultiplier: 1
+    id: 57330
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Spring Festival ZhenPin Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  St. Arzad:
+    exporttaxmultiplier: 1
+    id: 32284
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: St. Arzad
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Standard Decoding Device:
+    exporttaxmultiplier: 1
+    id: 23882
+    importtaxmultiplier: 1
+    mass: 80.0
+    name: Standard Decoding Device
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Star Charts:
+    exporttaxmultiplier: 1
+    id: 13328
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Star Charts
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.10000000149011612
+  Star of the Sefrim:
+    exporttaxmultiplier: 1
+    id: 33121
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Star of the Sefrim
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  State Diplomatic Documents:
+    exporttaxmultiplier: 1
+    id: 32892
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: State Diplomatic Documents
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  State Emissary Medallion:
+    exporttaxmultiplier: 1
+    id: 32888
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: State Emissary Medallion
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Steel Order of the Cold:
+    exporttaxmultiplier: 1
+    id: 33119
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Steel Order of the Cold
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Strange Coded Document:
+    exporttaxmultiplier: 1
+    id: 30780
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Strange Coded Document
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Strange Datacore:
+    exporttaxmultiplier: 1
+    id: 30755
+    importtaxmultiplier: 1
+    mass: 0.75
+    name: Strange Datacore
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Strange Mechanical Device:
+    exporttaxmultiplier: 1
+    id: 11707
+    importtaxmultiplier: 1
+    mass: 2500.0
+    name: Strange Mechanical Device
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Subcompact TEBS Interface:
+    exporttaxmultiplier: 1
+    id: 40701
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: Subcompact TEBS Interface
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.009999999776482582
+  Subcranial Nanocontrollers:
+    exporttaxmultiplier: 1
+    id: 53476
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: Subcranial Nanocontrollers
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Survivors:
+    exporttaxmultiplier: 1
+    id: 2917
+    importtaxmultiplier: 1
+    mass: 50.0
+    name: Survivors
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    volume: 50.0
+  Sword of Pator:
+    exporttaxmultiplier: 1
+    id: 33127
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Sword of Pator
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Synthetic Coffee:
+    exporttaxmultiplier: 1
+    id: 11944
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 2500.0
+    name: Synthetic Coffee
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  Tattered Doll:
+    exporttaxmultiplier: 1
+    id: 32235
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Tattered Doll
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Temple Stone:
+    exporttaxmultiplier: 1
+    id: 11587
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Temple Stone
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Test Dummies:
+    exporttaxmultiplier: 1
+    id: 12302
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 1.0
+    name: Test Dummies
+    packagedVolume: 2.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 2.0
+  Test crate 1:
+    exporttaxmultiplier: 1
+    id: 54257
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Test crate 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Test crate 2:
+    exporttaxmultiplier: 1
+    id: 56116
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Test crate 2
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  The Benevolent:
+    exporttaxmultiplier: 1
+    id: 32285
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: The Benevolent
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  The Education of the Starkmanir:
+    exporttaxmultiplier: 1
+    id: 32286
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: The Education of the Starkmanir
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  The Fire in Our Hearts:
+    exporttaxmultiplier: 1
+    id: 32288
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: The Fire in Our Hearts
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Token of Submission:
+    exporttaxmultiplier: 1
+    id: 3837
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Token of Submission
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Top-Secret Design Documents:
+    exporttaxmultiplier: 1
+    id: 15318
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Top-Secret Design Documents
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 1.0
+  Traditional Board Game:
+    exporttaxmultiplier: 1
+    id: 29478
+    importtaxmultiplier: 1
+    mass: 0.5
+    name: Traditional Board Game
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Training Certificate:
+    exporttaxmultiplier: 1
+    id: 10646
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Training Certificate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Transaction And Salary Logs:
+    exporttaxmultiplier: 1
+    id: 11702
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Transaction And Salary Logs
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Tribal Sponsorship:
+    exporttaxmultiplier: 1
+    id: 3843
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Tribal Sponsorship
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Triglavian Encrypted Relay Data:
+    exporttaxmultiplier: 1
+    id: 73041
+    importtaxmultiplier: 1
+    mass: 0.10000000149011612
+    name: Triglavian Encrypted Relay Data
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.009999999776482582
+  Trinary Data:
+    exporttaxmultiplier: 1
+    id: 11066
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Trinary Data
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  True Slave Decryption Node:
+    exporttaxmultiplier: 1
+    id: 3584
+    importtaxmultiplier: 1
+    mass: 700.0
+    name: True Slave Decryption Node
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  Ulamon's Data Chip:
+    exporttaxmultiplier: 1
+    id: 17391
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Ulamon's Data Chip
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Ultra! Promotional Holoreel:
+    exporttaxmultiplier: 1
+    id: 12995
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 100.0
+    name: Ultra! Promotional Holoreel
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Unassembled Energy Weapons:
+    exporttaxmultiplier: 1
+    id: 12303
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Unassembled Energy Weapons
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 5.0
+  Union Day Reward Token:
+    exporttaxmultiplier: 1
+    id: 72258
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Union Day Reward Token
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.009999999776482582
+  Unknown Dead:
+    exporttaxmultiplier: 1
+    id: 2880
+    importtaxmultiplier: 1
+    mass: 80.0
+    name: Unknown Dead
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Verification Key:
+    exporttaxmultiplier: 1
+    id: 30951
+    importtaxmultiplier: 1
+    mass: 10.0
+    name: Verification Key
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Victor Emblem:
+    exporttaxmultiplier: 1
+    id: 29933
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Victor Emblem
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Virgin Forest Pulp:
+    exporttaxmultiplier: 1
+    id: 17756
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1000.0
+    name: Virgin Forest Pulp
+    packagedVolume: 2.0
+    portionSize: 1
+    published: true
+    volume: 2.0
+  Warclone Blanks:
+    exporttaxmultiplier: 1
+    id: 56788
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Warclone Blanks
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 0.10000000149011612
+  Whelan Machorin's Head:
+    exporttaxmultiplier: 1
+    id: 20375
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Whelan Machorin's Head
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Wildfire Khumaak:
+    exporttaxmultiplier: 1
+    id: 32204
+    importtaxmultiplier: 1
+    mass: 2.0
+    name: Wildfire Khumaak
+    packagedVolume: 0.30000001192092896
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.30000001192092896
+  Wolf Burgan's Body Double:
+    exporttaxmultiplier: 1
+    id: 30809
+    importtaxmultiplier: 1
+    mass: 80.0
+    name: Wolf Burgan's Body Double
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Wolf Burgan's DNA:
+    exporttaxmultiplier: 1
+    id: 30810
+    importtaxmultiplier: 1
+    mass: 80.0
+    name: Wolf Burgan's DNA
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  X-Axis Calibration Coordinate:
+    exporttaxmultiplier: 1
+    id: 34381
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: X-Axis Calibration Coordinate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  X-Rated Holoreel:
+    exporttaxmultiplier: 1
+    id: 14293
+    importtaxmultiplier: 1
+    mass: 100.0
+    name: X-Rated Holoreel
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  Y-Axis Calibration Coordinate:
+    exporttaxmultiplier: 1
+    id: 34382
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Y-Axis Calibration Coordinate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123 New Year Event Medal:
+    exporttaxmultiplier: 1
+    id: 57278
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: YC123 New Year Event Medal
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - Amarr:
+    exporttaxmultiplier: 1
+    id: 57824
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: YC123.4 Serenity Season Medal - Amarr
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - Caldari:
+    exporttaxmultiplier: 1
+    id: 57825
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: YC123.4 Serenity Season Medal - Caldari
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - Gallente:
+    exporttaxmultiplier: 1
+    id: 57826
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: YC123.4 Serenity Season Medal - Gallente
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - Minmatar:
+    exporttaxmultiplier: 1
+    id: 57827
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: YC123.4 Serenity Season Medal - Minmatar
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - New Eden:
+    exporttaxmultiplier: 1
+    id: 57828
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: YC123.4 Serenity Season Medal - New Eden
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Z-Axis Calibration Coordinate:
+    exporttaxmultiplier: 1
+    id: 34383
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Z-Axis Calibration Coordinate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Zazzmatazz:
+    exporttaxmultiplier: 1
+    id: 2074
+    importtaxmultiplier: 1
+    mass: 1.0
+    name: Zazzmatazz
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Zemnar:
+    exporttaxmultiplier: 1
+    id: 14358
+    importtaxmultiplier: 1
+    marketGroup: 492
+    mass: 5.0
+    name: Zemnar
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 100.0
+    published: true
+    volume: 0.20000000298023224
+  Zor's DNA:
+    exporttaxmultiplier: 1
+    id: 17840
+    importtaxmultiplier: 1
+    marketGroup: 752
+    mass: 1.0
+    name: Zor's DNA
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

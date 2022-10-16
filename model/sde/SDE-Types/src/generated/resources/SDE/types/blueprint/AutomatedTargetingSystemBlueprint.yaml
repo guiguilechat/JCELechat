@@ -1,0 +1,24 @@
+types:
+  Auto Targeting System I Blueprint:
+    id: 1208
+    industryblueprintrank: 9.0
+    marketGroup: 1579
+    name: Auto Targeting System I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 29440.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Auto Targeting System II Blueprint:
+    id: 1437
+    industryblueprintrank: 23.399999618530273
+    name: Auto Targeting System II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9999999.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

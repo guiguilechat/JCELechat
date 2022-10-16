@@ -1,0 +1,477 @@
+types:
+  Capital Antimatter Reactor Unit:
+    id: 29039
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Antimatter Reactor Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 217600.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Crystalline Carbonide Armor Plate:
+    id: 29041
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Crystalline Carbonide Armor Plate
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Deflection Shield Emitter:
+    id: 29043
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Deflection Shield Emitter
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 339200.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital EM Pulse Generator:
+    id: 29047
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital EM Pulse Generator
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 224000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Electrolytic Capacitor Unit:
+    id: 29045
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Electrolytic Capacitor Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 492800.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Fernite Carbide Composite Armor Plate:
+    id: 29049
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Fernite Carbide Composite Armor Plate
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Fusion Reactor Unit:
+    id: 29051
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Fusion Reactor Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 217600.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Fusion Thruster:
+    id: 29053
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Fusion Thruster
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 166400.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Gravimetric Sensor Cluster:
+    id: 29055
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Gravimetric Sensor Cluster
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 224000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Graviton Pulse Generator:
+    id: 29057
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Graviton Pulse Generator
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 224000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Graviton Reactor Unit:
+    id: 29059
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Graviton Reactor Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 217600.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Ion Thruster:
+    id: 29061
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Ion Thruster
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 166400.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Ladar Sensor Cluster:
+    id: 29065
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Ladar Sensor Cluster
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 224000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Laser Focusing Crystals:
+    id: 29063
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Laser Focusing Crystals
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 433600.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Linear Shield Emitter:
+    id: 29067
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Linear Shield Emitter
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 339200.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Magnetometric Sensor Cluster:
+    id: 29069
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Magnetometric Sensor Cluster
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 224000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Magpulse Thruster:
+    id: 29071
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Magpulse Thruster
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 166400.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Nanoelectrical Microprocessor:
+    id: 29073
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Nanoelectrical Microprocessor
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 166400.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Nanomechanical Microprocessor:
+    id: 29075
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Nanomechanical Microprocessor
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 166400.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Nuclear Pulse Generator:
+    id: 29077
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Nuclear Pulse Generator
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 224000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Nuclear Reactor Unit:
+    id: 29079
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Nuclear Reactor Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 217600.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Oscillator Capacitor Unit:
+    id: 29081
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Oscillator Capacitor Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 492800.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Particle Accelerator Unit:
+    id: 29083
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Particle Accelerator Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 433600.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Photon Microprocessor:
+    id: 29085
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Photon Microprocessor
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 166400.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Plasma Pulse Generator:
+    id: 29087
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Plasma Pulse Generator
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 224000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Plasma Thruster:
+    id: 29089
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Plasma Thruster
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 166400.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Pulse Shield Emitter:
+    id: 29091
+    marketGroup: 1886
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Pulse Shield Emitter
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 339200.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Quantum Microprocessor:
+    id: 29093
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Quantum Microprocessor
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 166400.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Radar Sensor Cluster:
+    id: 29095
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Radar Sensor Cluster
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 224000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Scalar Capacitor Unit:
+    id: 29097
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Scalar Capacitor Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 492800.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Superconductor Rails:
+    id: 29099
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Superconductor Rails
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 433600.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Sustained Shield Emitter:
+    id: 29101
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Sustained Shield Emitter
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 339200.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Tesseract Capacitor Unit:
+    id: 29103
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Tesseract Capacitor Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 492800.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Thermonuclear Trigger Unit:
+    id: 29105
+    marketGroup: 1887
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Thermonuclear Trigger Unit
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 433600.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Titanium Diborite Armor Plate:
+    id: 29107
+    marketGroup: 1885
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Titanium Diborite Armor Plate
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Capital Tungsten Carbide Armor Plate:
+    id: 29109
+    marketGroup: 1884
+    mass: 1.0
+    moonminingamount: 100
+    name: Capital Tungsten Carbide Armor Plate
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    volume: 10.0
+  Gravimetric-FTL Interlink Communicator:
+    id: 57475
+    marketGroup: 1885
+    mass: 0.10000000149011612
+    moonminingamount: 1
+    name: Gravimetric-FTL Interlink Communicator
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 100.0
+  Ladar-FTL Interlink Communicator:
+    id: 57477
+    marketGroup: 1887
+    mass: 0.10000000149011612
+    moonminingamount: 1
+    name: Ladar-FTL Interlink Communicator
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 100.0
+  Magnetometric-FTL Interlink Communicator:
+    id: 57476
+    marketGroup: 1886
+    mass: 0.10000000149011612
+    moonminingamount: 1
+    name: Magnetometric-FTL Interlink Communicator
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 100.0
+  Radar-FTL Interlink Communicator:
+    id: 57474
+    marketGroup: 1884
+    mass: 0.10000000149011612
+    moonminingamount: 1
+    name: Radar-FTL Interlink Communicator
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 100.0

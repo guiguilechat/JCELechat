@@ -1,0 +1,128 @@
+types:
+  '''Basic'' Shield Flux Coil':
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 10.0
+    hp: 40.0
+    id: 508
+    marketGroup: 687
+    mass: 20.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Basic'' Shield Flux Coil'
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 1
+    shieldcapacitymultiplier: 0.949999988079071
+    shieldrechargeratemultiplier: 0.8100000023841858
+    techlevel: 1
+    volume: 5.0
+  Dread Guristas Shield Flux Coil:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 25.0
+    hp: 40.0
+    id: 37825
+    marketGroup: 687
+    mass: 20.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dread Guristas Shield Flux Coil
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 0.8500000238418579
+    shieldrechargeratemultiplier: 0.6899999976158142
+    techlevel: 1
+    volume: 5.0
+  Mark I Compact Shield Flux Coil:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 15.0
+    hp: 40.0
+    id: 8297
+    marketGroup: 687
+    mass: 20.0
+    metalevelold: 1
+    name: Mark I Compact Shield Flux Coil
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 0.8500000238418579
+    shieldrechargeratemultiplier: 0.7099999785423279
+    techlevel: 1
+    volume: 5.0
+  Shield Flux Coil I:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
+    id: 1254
+    marketGroup: 687
+    mass: 20.0
+    name: Shield Flux Coil I
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 0.8500000238418579
+    shieldrechargeratemultiplier: 0.7200000286102295
+    techlevel: 1
+    volume: 5.0
+  Shield Flux Coil II:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 25.0
+    hp: 40.0
+    id: 1256
+    marketGroup: 687
+    mass: 20.0
+    metalevelold: 5
+    name: Shield Flux Coil II
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 4
+    shieldcapacitymultiplier: 0.8500000238418579
+    shieldrechargeratemultiplier: 0.699999988079071
+    techlevel: 2
+    volume: 5.0
+  Type-D Restrained Shield Flux Coil:
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
+    id: 8295
+    marketGroup: 687
+    mass: 20.0
+    metalevelold: 1
+    name: Type-D Restrained Shield Flux Coil
+    packagedVolume: 5.0
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 0.8999999761581421
+    shieldrechargeratemultiplier: 0.75
+    techlevel: 1
+    volume: 5.0

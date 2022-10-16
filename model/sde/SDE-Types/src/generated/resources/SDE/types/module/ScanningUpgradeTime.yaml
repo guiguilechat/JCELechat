@@ -1,0 +1,42 @@
+types:
+  Scan Acquisition Array I:
+    capacity: 1.0
+    cpu: 30.0
+    hp: 40.0
+    id: 33176
+    marketGroup: 1709
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: Scan Acquisition Array I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9870.0
+    published: true
+    radius: 1.0
+    requiredskill1: 25811
+    requiredskill1level: 2
+    scandurationbonus: -10
+    techlevel: 1
+    volume: 5.0
+  Scan Acquisition Array II:
+    capacity: 1.0
+    cpu: 30.0
+    hp: 40.0
+    id: 33197
+    marketGroup: 1709
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metalevelold: 5
+    name: Scan Acquisition Array II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9870.0
+    published: true
+    radius: 1.0
+    requiredskill1: 25811
+    requiredskill1level: 5
+    scandurationbonus: -20
+    techlevel: 2
+    volume: 5.0

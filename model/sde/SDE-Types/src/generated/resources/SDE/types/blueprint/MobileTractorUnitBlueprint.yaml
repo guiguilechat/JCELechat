@@ -1,0 +1,42 @@
+types:
+  '''Magpie'' Mobile Tractor Unit Blueprint':
+    id: 33703
+    industryblueprintrank: 20.0
+    name: '''Magpie'' Mobile Tractor Unit Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  '''Packrat'' Mobile Tractor Unit Blueprint':
+    id: 33701
+    industryblueprintrank: 20.0
+    name: '''Packrat'' Mobile Tractor Unit Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Mobile Sanguine Harvester Blueprint:
+    id: 56702
+    industryblueprintrank: 20.0
+    name: Mobile Sanguine Harvester Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  Mobile Tractor Unit Blueprint:
+    id: 33519
+    industryblueprintrank: 20.0
+    marketGroup: 1830
+    name: Mobile Tractor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

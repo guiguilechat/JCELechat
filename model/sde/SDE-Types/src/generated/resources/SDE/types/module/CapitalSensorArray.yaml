@@ -1,0 +1,36 @@
+types:
+  Networked Sensor Array:
+    cancloak: 1
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    capacitorneed: 3000.0
+    cpu: 70.0
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 60000.0
+    ewcapacitorneedbonus: 9999900
+    hp: 99999.0
+    id: 41411
+    marketGroup: 671
+    mass: 1000.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: Networked Sensor Array
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 50000
+    price: 3.0E7
+    published: true
+    radius: 1.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 50
+    scanladarstrengthpercent: 50
+    scanmagnetometricstrengthpercent: 50
+    scanradarstrengthpercent: 50
+    scanresolutionbonus: 500.0
+    techlevel: 1
+    volume: 4000.0
+    warpscramblestrength: 100

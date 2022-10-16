@@ -1,0 +1,148 @@
+types:
+  August Demeanor Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1619
+    miningamountmultiplier: 1.0
+    name: August Demeanor Bonus
+    portionSize: 1
+    published: false
+  Booster Immunity Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1627
+    miningamountmultiplier: 1.0
+    name: Booster Immunity Bonus
+    portionSize: 1
+    published: false
+  Computer Empathy Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 0.800000011920929
+    id: 1611
+    miningamountmultiplier: 1.0
+    name: Computer Empathy Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  Creative Bonus:
+    accuracymultiplier: 1.0
+    blueprintresearchtimemultiplierbonus: -0.05000000074505806
+    cpumultiplier: 1.0
+    id: 1617
+    miningamountmultiplier: 1.0
+    name: Creative Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  Deft Hands Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1615
+    miningamountmultiplier: 1.0
+    name: Deft Hands Bonus
+    portionSize: 1
+    published: false
+  Doctrine Ingrained Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1624
+    miningamountmultiplier: 1.0
+    name: Doctrine Ingrained Bonus
+    portionSize: 1
+    published: false
+  Glib Tongue Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1618
+    miningamountmultiplier: 1.0
+    name: Glib Tongue Bonus
+    portionSize: 1
+    published: false
+  High-G Tolerance Bonus:
+    accuracymultiplier: 1.0
+    agilitymultiplier: 1.0499999523162842
+    cpumultiplier: 1.0
+    id: 1621
+    miningamountmultiplier: 1.0
+    name: High-G Tolerance Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  Killer Instinct Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1614
+    miningamountmultiplier: 1.0
+    name: Killer Instinct Bonus
+    portionSize: 1
+    published: false
+  Ordered Mind Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1612
+    miningamountmultiplier: 1.0
+    name: Ordered Mind Bonus
+    portionSize: 1
+    published: false
+  Standard DNA Pattern Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1613
+    miningamountmultiplier: 1.0
+    name: Standard DNA Pattern Bonus
+    portionSize: 1
+    published: false
+  Stratum Form Feel Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1623
+    miningamountmultiplier: 1.100000023841858
+    name: Stratum Form Feel Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  Structural Understanding Bonus:
+    accuracymultiplier: 1.0
+    blueprintmanufacturetimemultiplierbonus: -0.05000000074505806
+    cpumultiplier: 1.0
+    id: 1616
+    miningamountmultiplier: 1.0
+    name: Structural Understanding Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  Superior Motion Sense Bonus:
+    accuracymultiplier: 1.0199999809265137
+    cpumultiplier: 1.0
+    id: 1620
+    miningamountmultiplier: 1.0
+    name: Superior Motion Sense Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  Swift Neural Grafting Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1626
+    miningamountmultiplier: 1.0
+    name: Swift Neural Grafting Bonus
+    portionSize: 1
+    published: false
+  Three Dimensional Thinking Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1625
+    miningamountmultiplier: 1.0
+    missiledamagemultiplierbonus: 0.05000000074505806
+    name: Three Dimensional Thinking Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  Vector Reckoning Bonus:
+    accuracymultiplier: 1.0
+    cpumultiplier: 1.0
+    id: 1622
+    miningamountmultiplier: 1.0
+    name: Vector Reckoning Bonus
+    portionSize: 1
+    published: false
