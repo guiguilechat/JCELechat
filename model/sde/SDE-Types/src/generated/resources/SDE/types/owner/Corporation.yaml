@@ -1,6 +1,0 @@
-types:
-  Corporation:
-    id: 2
-    name: Corporation
-    portionSize: 1
-    published: false

@@ -1,6 +1,0 @@
-types:
-  Faction:
-    id: 30
-    name: Faction
-    portionSize: 1
-    published: false

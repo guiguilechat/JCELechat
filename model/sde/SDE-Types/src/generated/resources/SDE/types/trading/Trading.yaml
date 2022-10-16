@@ -1,6 +1,0 @@
-types:
-  Trading:
-    id: 52
-    name: Trading
-    portionSize: 1
-    published: false
