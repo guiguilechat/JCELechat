@@ -366,6 +366,8 @@ corporations:
     - 16243
     - 16340
     - 16341
+    - 17215
+    - 17216
     name: 24th Imperial Crusade
     warfare: Amarr Empire
   AEGIS:
@@ -9542,6 +9544,8 @@ corporations:
     - 16243
     - 16344
     - 16345
+    - 17217
+    - 17218
     name: Federal Defense Union
     warfare: Gallente Federation
   Federal Freight:
@@ -15235,7 +15239,7 @@ corporations:
     id: 1000239
     name: Intara Direct Action
   InterBus:
-    faction: The InterBus
+    faction: EverMore
     id: 1000148
     name: InterBus
   Internal Security:
@@ -26977,6 +26981,8 @@ corporations:
     - 17180
     - 17181
     - 17191
+    - 17204
+    - 17205
     name: State Military Stockpile
   State Peacekeepers:
     faction: Caldari State
@@ -27361,6 +27367,8 @@ corporations:
     - 16243
     - 16346
     - 16347
+    - 17213
+    - 17214
     name: State Protectorate
     warfare: Caldari State
   State War Academy:
@@ -29972,6 +29980,8 @@ corporations:
     - 16243
     - 16342
     - 16343
+    - 17219
+    - 17220
     name: Tribal Liberation Force
     warfare: Minmatar Republic
   Tronhadar Free Guard:
