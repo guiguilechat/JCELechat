@@ -1,6 +1,0 @@
-version=A.B.C
-mvn versions:set -DnewVersion=$version && mvn deploy -T2C
-
-// check data and add
-git add .
-git commit -m "v$version" && git tag "$version" && git push && git push origin "$version" 
