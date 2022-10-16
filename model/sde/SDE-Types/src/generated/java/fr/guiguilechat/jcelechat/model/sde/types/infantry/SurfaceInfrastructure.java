@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.Infantry;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class SurfaceInfrastructure
@@ -52,7 +53,9 @@ public class SurfaceInfrastructure
         public synchronized Map<String, SurfaceInfrastructure> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SurfaceInfrastructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

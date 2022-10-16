@@ -37,6 +37,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.StructureRigBonus2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCost;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class StructureEngineeringRigMBasicSmallShipME
@@ -333,7 +334,9 @@ public class StructureEngineeringRigMBasicSmallShipME
         public synchronized Map<String, StructureEngineeringRigMBasicSmallShipME> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMBasicSmallShipME.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

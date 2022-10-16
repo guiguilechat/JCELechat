@@ -124,6 +124,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class MissionMinmatarRepublicCruiser
@@ -1381,7 +1382,9 @@ public class MissionMinmatarRepublicCruiser
         public synchronized Map<String, MissionMinmatarRepublicCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionMinmatarRepublicCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

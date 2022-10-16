@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class Tool
@@ -130,7 +131,9 @@ public class Tool
         public synchronized Map<String, Tool> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Tool.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

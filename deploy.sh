@@ -5,7 +5,7 @@ if [ -z ${VERSION+x} ]; then echo "VERSION is unset"; exit 1 ; fi
 
 git pull && git add .
 
-mvn versions:set -DnewVersion=$VERSION && mvn deploy -T2C
+mvn versions:set -DnewVersion=$VERSION && mvn deploy -T2C || exit 1
 
 git add .\
  && git commit -m "v$VERSION"\

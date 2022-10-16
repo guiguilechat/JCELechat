@@ -40,6 +40,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkil
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class RemoteTrackingComputer
@@ -321,7 +322,9 @@ public class RemoteTrackingComputer
         public synchronized Map<String, RemoteTrackingComputer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteTrackingComputer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

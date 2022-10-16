@@ -37,6 +37,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonusPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class MicroJumpDrive
@@ -277,7 +278,9 @@ public class MicroJumpDrive
         public synchronized Map<String, MicroJumpDrive> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MicroJumpDrive.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class StructureModuleBlueprint
@@ -104,7 +105,9 @@ public class StructureModuleBlueprint
         public synchronized Map<String, StructureModuleBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureModuleBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

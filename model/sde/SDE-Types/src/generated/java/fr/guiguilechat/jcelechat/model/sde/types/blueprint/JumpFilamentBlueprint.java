@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class JumpFilamentBlueprint
@@ -52,7 +53,9 @@ public class JumpFilamentBlueprint
         public synchronized Map<String, JumpFilamentBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(JumpFilamentBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

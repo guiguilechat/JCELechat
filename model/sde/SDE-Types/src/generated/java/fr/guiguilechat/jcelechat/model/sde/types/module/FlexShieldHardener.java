@@ -41,6 +41,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkil
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class FlexShieldHardener
@@ -333,7 +334,9 @@ public class FlexShieldHardener
         public synchronized Map<String, FlexShieldHardener> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FlexShieldHardener.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

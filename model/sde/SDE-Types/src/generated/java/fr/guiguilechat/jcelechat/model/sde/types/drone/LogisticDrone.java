@@ -76,6 +76,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.Drone;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class LogisticDrone
@@ -416,7 +417,9 @@ public class LogisticDrone
         public synchronized Map<String, LogisticDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LogisticDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

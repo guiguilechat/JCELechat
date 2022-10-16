@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeResi
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsCapitalSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class NPCTitan
@@ -128,7 +129,9 @@ public class NPCTitan
         public synchronized Map<String, NPCTitan> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCTitan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

@@ -135,6 +135,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class ForceReconShip
@@ -735,7 +736,9 @@ public class ForceReconShip
         public synchronized Map<String, ForceReconShip> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ForceReconShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

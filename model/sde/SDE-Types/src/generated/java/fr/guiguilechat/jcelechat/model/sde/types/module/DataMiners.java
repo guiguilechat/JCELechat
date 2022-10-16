@@ -40,6 +40,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.VirusCoherence;
 import fr.guiguilechat.jcelechat.model.sde.attributes.VirusElementSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.VirusStrength;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class DataMiners
@@ -321,7 +322,9 @@ public class DataMiners
         public synchronized Map<String, DataMiners> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DataMiners.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

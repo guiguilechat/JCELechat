@@ -16,6 +16,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.IJExpression;
 import com.helger.jcodemodel.JBlock;
@@ -29,10 +34,6 @@ import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JTryResource;
 import com.helger.jcodemodel.JVar;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.compile.CompilationData;
 import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler;
@@ -301,8 +302,10 @@ public class TypesTranslater {
 						.invoke("getClassLoader")
 						.invoke("getResourceAsStream").arg(JExpr.direct("RESOURCE_PATH"))));
 		tryblock.tryResources().add(jtr);
+		JVar options = tryblock.body().decl(cm.ref(LoaderOptions.class), "options", cm.ref(LoaderOptions.class)._new());
+		tryblock.body().add(options.invoke("setCodePointLimit").arg(cm.ref(Integer.class).staticRef("MAX_VALUE")));
 		IJExpression class2cast = container ? JExpr.direct("Container.class") : loadedClass.dotclass();
-		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).invoke("loadAs").arg(jtr.var()).arg(class2cast);
+		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).arg(options).invoke("loadAs").arg(jtr.var()).arg(class2cast);
 		if (container) {
 			assign = assign.ref("types");
 		}

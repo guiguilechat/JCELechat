@@ -68,7 +68,7 @@ public class EtypeDogma {
 					return ret;
 				}
 			};
-			Yaml yaml = new Yaml(cons);
+			Yaml yaml = SDECache.yaml(cons);
 			try {
 				cache = Collections.unmodifiableMap(yaml.loadAs(new FileReader(FILE), LinkedHashMap.class));
 			} catch (FileNotFoundException e) {

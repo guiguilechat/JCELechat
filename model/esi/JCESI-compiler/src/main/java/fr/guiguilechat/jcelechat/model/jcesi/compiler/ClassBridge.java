@@ -21,8 +21,8 @@ import com.helger.jcodemodel.EClassType;
 import com.helger.jcodemodel.IJExpression;
 import com.helger.jcodemodel.JArray;
 import com.helger.jcodemodel.JArrayClass;
-import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
+import com.helger.jcodemodel.JCodeModelException;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JEnumConstant;
 import com.helger.jcodemodel.JExpr;
@@ -94,7 +94,7 @@ public class ClassBridge {
 			swaggerCOClass.javadoc().add("interface to access the ESI with a connected account.<br />"
 					+ "This typically gives access to the character information, corporation, etc.");
 
-		} catch (JClassAlreadyExistsException e) {
+		} catch (JCodeModelException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
 		createSwaggerCalls();
@@ -116,7 +116,7 @@ public class ClassBridge {
 
 		try {
 			createCacheMethods();
-		} catch (JClassAlreadyExistsException e) {
+		} catch (JCodeModelException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
 	}
@@ -284,44 +284,44 @@ public class ClassBridge {
 			return ret;
 		}
 		switch (p.getType()) {
-		case ObjectProperty.TYPE:
-			// TODO check if mapproperty
-			return translateToClass((ObjectProperty) p, pck, name);
-		case ArrayProperty.TYPE:
-			return translateToClass((ArrayProperty) p, pck, name);
-		default:
-			throw new UnsupportedOperationException("case not handled " + p.getType());
+			case ObjectProperty.TYPE:
+				// TODO check if mapproperty
+				return translateToClass((ObjectProperty) p, pck, name);
+			case ArrayProperty.TYPE:
+				return translateToClass((ArrayProperty) p, pck, name);
+			default:
+				throw new UnsupportedOperationException("case not handled " + p.getType());
 		}
 	}
 
 	public AbstractJType getExistingClass(String type, String name, String format, List<String> enums) {
 		switch (type) {
-		case IntegerProperty.TYPE:
-			if (format == null) {
-				return cm.LONG;
-			}
-			switch (format) {
-			case LongProperty.FORMAT:
-				return cm.LONG;
-			case IntegerProperty.FORMAT:
-				return cm.INT;
-			default:
-				throw new UnsupportedOperationException("can't translate property name " + name + " with format " + format);
-			}
-		case BooleanProperty.TYPE:
-			return cm.BOOLEAN;
-		case StringProperty.TYPE:
-			if (enums != null && !enums.isEmpty()) {
-				return getStringEnum(name, enums);
-			}
-			return cm.ref(String.class);
-		case DecimalProperty.TYPE:
-			switch (format) {
-			case FloatProperty.FORMAT:
-				return cm.FLOAT;
-			default:
-				return cm.DOUBLE;
-			}
+			case IntegerProperty.TYPE:
+				if (format == null) {
+					return cm.LONG;
+				}
+				switch (format) {
+					case LongProperty.FORMAT:
+						return cm.LONG;
+					case IntegerProperty.FORMAT:
+						return cm.INT;
+					default:
+						throw new UnsupportedOperationException("can't translate property name " + name + " with format " + format);
+				}
+			case BooleanProperty.TYPE:
+				return cm.BOOLEAN;
+			case StringProperty.TYPE:
+				if (enums != null && !enums.isEmpty()) {
+					return getStringEnum(name, enums);
+				}
+				return cm.ref(String.class);
+			case DecimalProperty.TYPE:
+				switch (format) {
+					case FloatProperty.FORMAT:
+						return cm.FLOAT;
+					default:
+						return cm.DOUBLE;
+				}
 		}
 		JDefinedClass created = cm._getClass(type);
 		if (created != null) {
@@ -347,7 +347,7 @@ public class ClassBridge {
 			}
 			// logger.info("created enum " + name + " with values " + enums);
 			return ret;
-		} catch (JClassAlreadyExistsException e) {
+		} catch (JCodeModelException e) {
 			// logger.info("can't recreate enum " + name + " with values " + enums);
 			for (JDefinedClass cl : structurePackage.classes()) {
 				if (cl.name().equals(name)) {
@@ -415,7 +415,7 @@ public class ClassBridge {
 			createHashCode(cl);
 			createdClasses.put(classDef, cl);
 			return cl;
-		} catch (JClassAlreadyExistsException e) {
+		} catch (JCodeModelException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
 	}
@@ -526,7 +526,7 @@ public class ClassBridge {
 		return "addFetchCacheMap";
 	}
 
-	public void createCacheMethods() throws JClassAlreadyExistsException {
+	public void createCacheMethods() throws JCodeModelException {
 
 		cacheItf = cm.ref(ISwaggerCacheHelper.class);
 		cacheCOClass = cm._class(JMod.PUBLIC | JMod.ABSTRACT, rootPackage + "." + cacheCOName, EClassType.CLASS)
@@ -586,7 +586,7 @@ public class ClassBridge {
 				// need to make direct call or the generated class is ugly(makes
 				// reference to the enclosing unparametrized class)
 				cacheClass(connected).field(JMod.PUBLIC | JMod.FINAL, ret, groupName).init(JExpr._new(ret).arg(JExpr._this()));
-			} catch (JClassAlreadyExistsException e) {
+			} catch (JCodeModelException e) {
 				throw new UnsupportedOperationException("while getting cache group for " + groupName, e);
 			}
 		}
@@ -624,7 +624,7 @@ public class ClassBridge {
 						createHashCode(ret);
 
 						existingKeyTypes.put(map, ret);
-					} catch (JClassAlreadyExistsException e) {
+					} catch (JCodeModelException e) {
 						throw new UnsupportedOperationException("catch this", e);
 					}
 				}

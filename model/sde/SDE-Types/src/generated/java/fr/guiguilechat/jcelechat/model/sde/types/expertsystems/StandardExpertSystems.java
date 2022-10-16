@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.ExpertSystems;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class StandardExpertSystems
@@ -52,7 +53,9 @@ public class StandardExpertSystems
         public synchronized Map<String, StandardExpertSystems> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StandardExpertSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

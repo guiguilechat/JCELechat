@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MemorySkillTrainingTimeMul
 import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionSkillTrainingTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class CaldariEducation
@@ -151,7 +152,9 @@ public class CaldariEducation
         public synchronized Map<String, CaldariEducation> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CaldariEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

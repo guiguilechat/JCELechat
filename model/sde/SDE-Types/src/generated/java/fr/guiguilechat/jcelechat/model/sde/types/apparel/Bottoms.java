@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ClothingRemovesCategory;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Gender;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Apparel;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class Bottoms
@@ -132,7 +133,9 @@ public class Bottoms
         public synchronized Map<String, Bottoms> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Bottoms.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

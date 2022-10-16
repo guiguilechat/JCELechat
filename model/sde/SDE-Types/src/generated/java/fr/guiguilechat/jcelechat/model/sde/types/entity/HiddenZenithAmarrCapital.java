@@ -69,6 +69,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class HiddenZenithAmarrCapital
@@ -720,7 +721,9 @@ public class HiddenZenithAmarrCapital
         public synchronized Map<String, HiddenZenithAmarrCapital> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HiddenZenithAmarrCapital.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

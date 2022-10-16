@@ -104,6 +104,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class DeadspaceSleeperEmergentSentinel
@@ -1142,7 +1143,9 @@ public class DeadspaceSleeperEmergentSentinel
         public synchronized Map<String, DeadspaceSleeperEmergentSentinel> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceSleeperEmergentSentinel.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

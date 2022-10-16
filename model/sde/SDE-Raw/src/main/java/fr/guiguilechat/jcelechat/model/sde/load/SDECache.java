@@ -23,6 +23,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.DumperOptions;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.constructor.Constructor;
+import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.lelouet.tools.application.xdg.XDGApp;
@@ -182,6 +187,20 @@ public class SDECache {
 		} catch (IOException ioe) {
 			throw new UnsupportedOperationException(ioe);
 		}
+	}
+
+	public static Yaml yaml() {
+		LoaderOptions options = new LoaderOptions();
+		options.setCodePointLimit(Integer.MAX_VALUE);
+		return new Yaml(options);
+	}
+
+	public static Yaml yaml(Constructor cons) {
+		LoaderOptions options = new LoaderOptions();
+		options.setCodePointLimit(Integer.MAX_VALUE);
+		DumperOptions dumperOptions = new DumperOptions();
+		Representer representer = new Representer(dumperOptions);
+		return new Yaml(cons, representer, dumperOptions, options);
 	}
 
 	public static void main(String[] args) {

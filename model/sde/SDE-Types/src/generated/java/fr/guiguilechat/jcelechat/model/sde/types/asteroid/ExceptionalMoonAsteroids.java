@@ -26,6 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebifierResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class ExceptionalMoonAsteroids
@@ -112,7 +113,9 @@ public class ExceptionalMoonAsteroids
         public synchronized Map<String, ExceptionalMoonAsteroids> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ExceptionalMoonAsteroids.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.InventionPropabilityMultip
 import fr.guiguilechat.jcelechat.model.sde.attributes.InventionTEModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class DecryptorsYanJung
@@ -139,7 +140,9 @@ public class DecryptorsYanJung
         public synchronized Map<String, DecryptorsYanJung> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DecryptorsYanJung.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

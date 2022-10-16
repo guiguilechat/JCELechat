@@ -40,6 +40,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarProp
 import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarPropulsion2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Subsystem;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class PropulsionSubsystem
@@ -236,7 +237,9 @@ public class PropulsionSubsystem
         public synchronized Map<String, PropulsionSubsystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PropulsionSubsystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

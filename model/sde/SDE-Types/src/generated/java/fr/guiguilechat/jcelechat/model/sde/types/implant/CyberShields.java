@@ -30,6 +30,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WillpowerBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Implant;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class CyberShields
@@ -205,7 +206,9 @@ public class CyberShields
         public synchronized Map<String, CyberShields> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberShields.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

@@ -41,6 +41,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialtyMiningAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class FrequencyMiningLaser
@@ -325,7 +326,9 @@ public class FrequencyMiningLaser
         public synchronized Map<String, FrequencyMiningLaser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FrequencyMiningLaser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

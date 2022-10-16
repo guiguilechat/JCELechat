@@ -35,7 +35,7 @@ public class EinvNames {
 					return ret;
 				}
 			};
-			Yaml yaml = new Yaml(cons);
+			Yaml yaml = SDECache.yaml(cons);
 			try {
 				cache = yaml.loadAs(new FileReader(FILE), ArrayList.class);
 			} catch (FileNotFoundException e) {

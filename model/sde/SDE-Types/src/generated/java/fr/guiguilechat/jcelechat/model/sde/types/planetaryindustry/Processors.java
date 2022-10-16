@@ -19,6 +19,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetRestriction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryIndustry;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class Processors
@@ -105,7 +106,9 @@ public class Processors
         public synchronized Map<String, Processors> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Processors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

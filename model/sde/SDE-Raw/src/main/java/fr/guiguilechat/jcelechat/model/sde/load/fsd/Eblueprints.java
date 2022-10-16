@@ -84,7 +84,7 @@ public class Eblueprints {
 					return ret;
 				}
 			};
-			Yaml yaml = new Yaml(cons);
+			Yaml yaml = SDECache.yaml(cons);
 			try {
 				cache = yaml.loadAs(SDECache.fileReader(FILE),
 						LinkedHashMap.class);

@@ -79,6 +79,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TierDifficulty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Structure;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class UpwellCynoJammer
@@ -165,7 +166,9 @@ public class UpwellCynoJammer
         public synchronized Map<String, UpwellCynoJammer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(UpwellCynoJammer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

@@ -28,6 +28,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SurveyScanRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class SurveyScanner
@@ -169,7 +170,9 @@ public class SurveyScanner
         public synchronized Map<String, SurveyScanner> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SurveyScanner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

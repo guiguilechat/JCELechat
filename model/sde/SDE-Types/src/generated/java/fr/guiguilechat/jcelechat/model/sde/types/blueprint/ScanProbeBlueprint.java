@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class ScanProbeBlueprint
@@ -115,7 +116,9 @@ public class ScanProbeBlueprint
         public synchronized Map<String, ScanProbeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ScanProbeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

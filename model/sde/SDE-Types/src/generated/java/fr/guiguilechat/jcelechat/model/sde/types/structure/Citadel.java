@@ -99,6 +99,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeSlotsLeft;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Structure;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class Citadel
@@ -414,7 +415,9 @@ public class Citadel
         public synchronized Map<String, Citadel> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Citadel.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }

@@ -30,6 +30,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRateMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class PowerDiagnosticSystem
@@ -201,7 +202,9 @@ public class PowerDiagnosticSystem
         public synchronized Map<String, PowerDiagnosticSystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PowerDiagnosticSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                    LoaderOptions options = new LoaderOptions();
+                    options.setCodePointLimit(Integer.MAX_VALUE);
+                    cache = new Yaml(options).loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
