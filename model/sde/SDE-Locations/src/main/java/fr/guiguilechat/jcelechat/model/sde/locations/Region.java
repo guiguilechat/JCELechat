@@ -216,6 +216,26 @@ public class Region extends ALocation {
 			}
 		};
 
+		// chances of anom per system (base 1)
+
+		public double chanceDen() {
+			return 0.4;
+		}
+
+		public double chanceRefuge() {
+			return 1;
+		}
+
+		public double chanceHideway() {
+			return 0.8;
+		}
+
+		public double chanceBurrow() {
+			return 0.8;
+		}
+
+		// escalation level or -1 if none
+
 		public int escalDen() {
 			return 5;
 		}
@@ -232,21 +252,128 @@ public class Region extends ALocation {
 			return -1;
 		}
 
-		public int escals(SolarSystem target) {
-			int res = 0;
-			if (escalBurrow() > 0 && target.truesec > 0.85) {
-				res++;
+		// ded evaluation. Basically the average isk gain in M
+
+		public double ded1Points() {
+			return 10;
+		}
+
+		public double ded2Points() {
+			return 20;
+		}
+
+		public double ded3Points() {
+			return 50;
+		}
+
+		public double ded4Points() {
+			return 100;
+		}
+
+		public double ded5Points() {
+			return 250;
+		}
+
+		public float ded6Points() {
+			return 10;
+		}
+
+		public float ded7Points() {
+			return 10;
+		}
+
+		public float ded8Points() {
+			return 10;
+		}
+
+		public float ded9Points() {
+			return 10;
+		}
+
+		public float ded10Points() {
+			return 10;
+		}
+
+		public double dedPoints(int dedLvl) {
+			if (dedLvl == 1) {
+				return ded1Points();
 			}
-			if (escalHideway() > 0 && target.truesec > 0.55) {
-				res++;
+			if (dedLvl == 2) {
+				return ded2Points();
 			}
-			if (escalRefuge() > 0 && target.truesec > 0.45 && target.truesec <= 0.95) {
-				res++;
+			if (dedLvl == 3) {
+				return ded3Points();
 			}
-			if (escalDen() > 0 && target.truesec > 0.45 && target.truesec <= 0.65) {
-				res++;
+			if (dedLvl == 4) {
+				return ded4Points();
 			}
-			return res;
+			if (dedLvl == 5) {
+				return ded5Points();
+			}
+			if (dedLvl == 6) {
+				return ded6Points();
+			}
+			if (dedLvl == 7) {
+				return ded7Points();
+			}
+			if (dedLvl == 8) {
+				return ded8Points();
+			}
+			if (dedLvl == 9) {
+				return ded9Points();
+			}
+			if (dedLvl == 10) {
+				return ded10Points();
+			}
+			return 0.0f;
+		}
+
+		/**
+		 *
+		 * @return points for .5, .6, .7, .8, .9 and 1.0 ss
+		 */
+		public double[] escalHSPoints() {
+			double[] points = new double[] { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+			// dens are in .5 and .6
+			double sitesPoints = chanceDen() * dedPoints(escalDen());
+			if (sitesPoints > 0) {
+				points[0] += sitesPoints;
+				points[1] += sitesPoints;
+			}
+
+			// refuges are .5 to .9
+			sitesPoints = chanceRefuge() * dedPoints(escalRefuge());
+			if (sitesPoints > 0) {
+				points[0] += sitesPoints;
+				points[1] += sitesPoints;
+				points[2] += sitesPoints;
+				points[3] += sitesPoints;
+				points[4] += sitesPoints;
+			}
+
+			// hideways are .6 to 1.0
+			sitesPoints = chanceHideway() * dedPoints(escalHideway());
+			if (sitesPoints > 0) {
+				points[1] += sitesPoints;
+				points[2] += sitesPoints;
+				points[3] += sitesPoints;
+				points[4] += sitesPoints;
+				points[5] += sitesPoints;
+			}
+
+			// burrows are in .9 and 1.0
+			sitesPoints = chanceBurrow() * dedPoints(escalBurrow());
+			if (sitesPoints > 0) {
+				points[4] += sitesPoints;
+				points[5] += sitesPoints;
+			}
+
+			// double maxPoints = DoubleStream.of(points).max().getAsDouble();
+			// for (int i = 0; i < points.length; i++) {
+			// points[i] /= maxPoints;
+			// }
+			return points;
 		}
 
 		public abstract Set<String> regions();

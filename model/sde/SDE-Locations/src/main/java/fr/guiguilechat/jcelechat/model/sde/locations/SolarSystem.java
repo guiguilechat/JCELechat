@@ -154,36 +154,4 @@ public class SolarSystem extends ALocation {
 		return name;
 	}
 
-	/**
-	 *
-	 * @param burrow
-	 *          weight for burrow anomaly
-	 * @param hideway
-	 *          weight for hideway anomaly
-	 * @param refuge
-	 *          weight of the refuge anomaly
-	 * @param den
-	 *          weight of the den anomaly
-	 * @return the sum of the anoms values available for the system, divided by
-	 *         the total sum of the anom values to never go above 1.0. For example
-	 *         if system can spawn burrow and hideway, then the value is
-	 *         (burrow+hideway=/(burrow+hideway+refuge+den)
-	 */
-	public float value(float burrow, float hideway, float refuge, float den) {
-		float ret = 0;
-		if (truesec > 0.85) {
-			ret += burrow;
-		}
-		if (truesec > 0.55) {
-			ret += hideway;
-		}
-		if (truesec > 0.45 && truesec <= 0.95) {
-			ret += refuge;
-		}
-		if (truesec > 0.45 && truesec <= 0.65) {
-			ret += den;
-		}
-		return ret /= burrow + hideway + refuge + den;
-	}
-
 }
