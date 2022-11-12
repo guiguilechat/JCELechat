@@ -41,7 +41,7 @@ public class RegionalMarket implements IPricing {
 
 	@Getter(lazy=true)
 	private final MapHolder<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID = getOrders()
-			.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
+	.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
 
 	// orders
 
@@ -73,6 +73,9 @@ public class RegionalMarket implements IPricing {
 
 	@Override
 	public RegionTypeHistory getHistory(int typeID) {
+		if (true) {
+			return null;
+		}
 		RegionTypeHistory ret = historiesByTypeID.get(typeID);
 		if (ret == null) {
 			ret = LockWatchDog.BARKER.syncExecute(historiesByTypeID, () -> {
