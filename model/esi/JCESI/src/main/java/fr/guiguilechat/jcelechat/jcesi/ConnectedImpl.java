@@ -73,7 +73,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	protected <T> Requested<T> request(String url, String method, Map<String, String> properties,
 			Map<String, Object> transmit, Class<T> expectedClass, int... retries) {
-		int maxRetry = 3;
+		int maxRetry = 4;
 		if (retries != null && retries.length != 0) {
 			maxRetry = Math.max(0, retries[0]);
 		}
@@ -116,38 +116,38 @@ public abstract class ConnectedImpl implements ITransfer {
 			Map<String, List<String>> headers = con.getHeaderFields();
 			int responseCode = con.getResponseCode();
 			switch (responseCode) {
-			// 2xx ok
-			case HttpsURLConnection.HTTP_OK:
-			case HttpsURLConnection.HTTP_CREATED:
-			case HttpsURLConnection.HTTP_ACCEPTED:
-			case HttpsURLConnection.HTTP_NOT_AUTHORITATIVE:
-			case HttpsURLConnection.HTTP_NO_CONTENT:
-			case HttpsURLConnection.HTTP_RESET:
-			case HttpsURLConnection.HTTP_PARTIAL:
-				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
-				// 304 not modified
-			case HttpsURLConnection.HTTP_NOT_MODIFIED:
-				return new RequestedImpl<>(url, responseCode, null, null, headers);
-				// 4xx client error
-			case HttpsURLConnection.HTTP_BAD_REQUEST:
-			case HttpsURLConnection.HTTP_UNAUTHORIZED:
-			case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
-			case HttpsURLConnection.HTTP_FORBIDDEN:
-			case HttpsURLConnection.HTTP_NOT_FOUND:
-			case HttpsURLConnection.HTTP_BAD_METHOD:
-				// 5xx server error
-			case HttpsURLConnection.HTTP_INTERNAL_ERROR:
-			case HttpsURLConnection.HTTP_BAD_GATEWAY:
-			case HttpsURLConnection.HTTP_UNAVAILABLE:
-			case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
-			default:
-				StringBuilder sb = new StringBuilder(
-						"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
-				if (con.getErrorStream() != null) {
-					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
-				}
-				return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
+				// 2xx ok
+				case HttpsURLConnection.HTTP_OK:
+				case HttpsURLConnection.HTTP_CREATED:
+				case HttpsURLConnection.HTTP_ACCEPTED:
+				case HttpsURLConnection.HTTP_NOT_AUTHORITATIVE:
+				case HttpsURLConnection.HTTP_NO_CONTENT:
+				case HttpsURLConnection.HTTP_RESET:
+				case HttpsURLConnection.HTTP_PARTIAL:
+					String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+					return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
+					// 304 not modified
+				case HttpsURLConnection.HTTP_NOT_MODIFIED:
+					return new RequestedImpl<>(url, responseCode, null, null, headers);
+					// 4xx client error
+				case HttpsURLConnection.HTTP_BAD_REQUEST:
+				case HttpsURLConnection.HTTP_UNAUTHORIZED:
+				case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
+				case HttpsURLConnection.HTTP_FORBIDDEN:
+				case HttpsURLConnection.HTTP_NOT_FOUND:
+				case HttpsURLConnection.HTTP_BAD_METHOD:
+					// 5xx server error
+				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
+				case HttpsURLConnection.HTTP_BAD_GATEWAY:
+				case HttpsURLConnection.HTTP_UNAVAILABLE:
+				case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
+				default:
+					StringBuilder sb = new StringBuilder(
+							"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
+					if (con.getErrorStream() != null) {
+						new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+					}
+					return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 			}
 		} catch (Exception e) {
 			return new RequestedImpl<>(url, HttpsURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
