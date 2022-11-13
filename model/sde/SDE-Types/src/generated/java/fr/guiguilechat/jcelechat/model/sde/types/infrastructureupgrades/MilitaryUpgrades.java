@@ -445,7 +445,7 @@ public class MilitaryUpgrades
         implements IMetaGroup<MilitaryUpgrades>
     {
         public static final String RESOURCE_PATH = "SDE/types/infrastructureupgrades/MilitaryUpgrades.yaml";
-        private Map<String, MilitaryUpgrades> cache = (null);
+        private Map<Integer, MilitaryUpgrades> cache = (null);
 
         @Override
         public IMetaCategory<? super MilitaryUpgrades> category() {
@@ -463,7 +463,7 @@ public class MilitaryUpgrades
         }
 
         @Override
-        public synchronized Map<String, MilitaryUpgrades> load() {
+        public synchronized Map<Integer, MilitaryUpgrades> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MilitaryUpgrades.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -477,7 +477,7 @@ public class MilitaryUpgrades
         }
 
         private static class Container {
-            public LinkedHashMap<String, MilitaryUpgrades> types;
+            public LinkedHashMap<Integer, MilitaryUpgrades> types;
         }
     }
 }

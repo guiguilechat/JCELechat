@@ -422,7 +422,7 @@ public class WarpScramblingBattery
         implements IMetaGroup<WarpScramblingBattery>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/WarpScramblingBattery.yaml";
-        private Map<String, WarpScramblingBattery> cache = (null);
+        private Map<Integer, WarpScramblingBattery> cache = (null);
 
         @Override
         public IMetaCategory<? super WarpScramblingBattery> category() {
@@ -440,7 +440,7 @@ public class WarpScramblingBattery
         }
 
         @Override
-        public synchronized Map<String, WarpScramblingBattery> load() {
+        public synchronized Map<Integer, WarpScramblingBattery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WarpScramblingBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -454,7 +454,7 @@ public class WarpScramblingBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpScramblingBattery> types;
+            public LinkedHashMap<Integer, WarpScramblingBattery> types;
         }
     }
 }

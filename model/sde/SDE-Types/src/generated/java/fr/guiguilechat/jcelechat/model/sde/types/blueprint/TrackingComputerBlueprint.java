@@ -97,7 +97,7 @@ public class TrackingComputerBlueprint
         implements IMetaGroup<TrackingComputerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/TrackingComputerBlueprint.yaml";
-        private Map<String, TrackingComputerBlueprint> cache = (null);
+        private Map<Integer, TrackingComputerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super TrackingComputerBlueprint> category() {
@@ -115,7 +115,7 @@ public class TrackingComputerBlueprint
         }
 
         @Override
-        public synchronized Map<String, TrackingComputerBlueprint> load() {
+        public synchronized Map<Integer, TrackingComputerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TrackingComputerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class TrackingComputerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingComputerBlueprint> types;
+            public LinkedHashMap<Integer, TrackingComputerBlueprint> types;
         }
     }
 }

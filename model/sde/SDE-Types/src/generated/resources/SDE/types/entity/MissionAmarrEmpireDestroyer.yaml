@@ -1,227 +1,5 @@
 types:
-  Amarr CA Destroyer:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
-    armorhp: 350.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 200.0
-    capacity: 235.0
-    damagemultiplier: 2.5
-    disallowassistance: 1
-    emdamage: 8.0
-    entityattackdelaymax: 26100
-    entityattackdelaymin: 6525
-    entityattackrange: 40000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 24000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 4
-    entityequipmentmin: -6
-    entityflyrange: 16000.0
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3799999952316284
-    entityshieldboostduration: 10000
-    falloff: 6000.0
-    gfxboosterid: 397
-    gfxturretid: 454
-    hp: 250.0
-    id: 45051
-    mass: 2860000.0
-    maxattacktargets: 1
-    maxlockedtargets: 1
-    maxrange: 15000.0
-    maxvelocity: 250.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missilelaunchduration: 20000.0
-    name: Amarr CA Destroyer
-    optimalsigradius: 40
-    packagedVolume: 28600.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scanradarstrength: 12.0
-    scanresolution: 525.0
-    scanspeed: 2500
-    shieldcapacity: 350.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 83.0
-    speed: 10000.0
-    structureuniformity: 1.0
-    thermaldamage: 8.0
-    trackingspeed: 0.4000000059604645
-    volume: 28600.0
-  Imperial Caius:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
-    armorhp: 300.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 190.0
-    capacity: 235.0
-    damagemultiplier: 4.916666507720947
-    disallowassistance: 1
-    emdamage: 5.0
-    entityarmorrepairamount: 65.0
-    entityarmorrepairdelaychancesmall: 0.25
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 26400
-    entityattackdelaymin: 6600
-    entityattackrange: 40000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 24000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 4
-    entityequipmentmin: -6
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 16000.0
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3700000047683716
-    entitysecuritymaxgain: 5.0
-    entityshieldboostdelaychancesmall: 0.25
-    entityshieldboostduration: 5000
-    falloff: 4000.0
-    gfxboosterid: 397
-    gfxturretid: 454
-    hp: 250.0
-    id: 24913
-    mass: 2860000.0
-    maxattacktargets: 1
-    maxlockedtargets: 1
-    maxrange: 15000.0
-    maxvelocity: 400.0
-    missileentityaoecloudsizemultiplier: 0.9509000182151794
-    missilelaunchduration: 1.0
-    name: Imperial Caius
-    optimalsigradius: 40
-    packagedVolume: 28600.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scanradarstrength: 12.0
-    scanresolution: 525.0
-    scanspeed: 2500
-    shieldcapacity: 250.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 83.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 5.0
-    trackingspeed: 0.10000000149011612
-    volume: 28600.0
-  Imperial Crusader:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
-    armorhp: 300.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 200.0
-    capacity: 235.0
-    damagemultiplier: 5.416666507720947
-    disallowassistance: 1
-    emdamage: 5.0
-    entityarmorrepairamount: 65.0
-    entityarmorrepairdelaychancesmall: 0.25
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 26100
-    entityattackdelaymin: 6525
-    entityattackrange: 40000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 24000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 4
-    entityequipmentmin: -6
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 16000.0
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3799999952316284
-    entitysecuritymaxgain: 5.0
-    entityshieldboostdelaychancesmall: 0.25
-    entityshieldboostduration: 5000
-    falloff: 4000.0
-    gfxboosterid: 397
-    gfxturretid: 454
-    hp: 250.0
-    id: 24915
-    mass: 2860000.0
-    maxattacktargets: 1
-    maxlockedtargets: 1
-    maxrange: 15000.0
-    maxvelocity: 400.0
-    missileentityaoecloudsizemultiplier: 0.9467999935150146
-    missilelaunchduration: 1.0
-    name: Imperial Crusader
-    optimalsigradius: 40
-    packagedVolume: 28600.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scanradarstrength: 12.0
-    scanresolution: 525.0
-    scanspeed: 2500
-    shieldcapacity: 250.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 83.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 5.0
-    trackingspeed: 0.10000000149011612
-    volume: 28600.0
-  Imperial Deacon:
+  24911:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -297,7 +75,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.19699999690055847
     volume: 28600.0
-  Imperial Exarp:
+  24912:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -373,7 +151,159 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.19699999690055847
     volume: 28600.0
-  Imperial Templar Caius:
+  24913:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 300.0
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 190.0
+    capacity: 235.0
+    damagemultiplier: 4.916666507720947
+    disallowassistance: 1
+    emdamage: 5.0
+    entityarmorrepairamount: 65.0
+    entityarmorrepairdelaychancesmall: 0.25
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 26400
+    entityattackdelaymin: 6600
+    entityattackrange: 40000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 24000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 4
+    entityequipmentmin: -6
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 16000.0
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.3700000047683716
+    entitysecuritymaxgain: 5.0
+    entityshieldboostdelaychancesmall: 0.25
+    entityshieldboostduration: 5000
+    falloff: 4000.0
+    gfxboosterid: 397
+    gfxturretid: 454
+    hp: 250.0
+    id: 24913
+    mass: 2860000.0
+    maxattacktargets: 1
+    maxlockedtargets: 1
+    maxrange: 15000.0
+    maxvelocity: 400.0
+    missileentityaoecloudsizemultiplier: 0.9509000182151794
+    missilelaunchduration: 1.0
+    name: Imperial Caius
+    optimalsigradius: 40
+    packagedVolume: 28600.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scanradarstrength: 12.0
+    scanresolution: 525.0
+    scanspeed: 2500
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.699999988079071
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 83.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 5.0
+    trackingspeed: 0.10000000149011612
+    volume: 28600.0
+  24915:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 300.0
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 200.0
+    capacity: 235.0
+    damagemultiplier: 5.416666507720947
+    disallowassistance: 1
+    emdamage: 5.0
+    entityarmorrepairamount: 65.0
+    entityarmorrepairdelaychancesmall: 0.25
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 26100
+    entityattackdelaymin: 6525
+    entityattackrange: 40000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 24000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 4
+    entityequipmentmin: -6
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 16000.0
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.3799999952316284
+    entitysecuritymaxgain: 5.0
+    entityshieldboostdelaychancesmall: 0.25
+    entityshieldboostduration: 5000
+    falloff: 4000.0
+    gfxboosterid: 397
+    gfxturretid: 454
+    hp: 250.0
+    id: 24915
+    mass: 2860000.0
+    maxattacktargets: 1
+    maxlockedtargets: 1
+    maxrange: 15000.0
+    maxvelocity: 400.0
+    missileentityaoecloudsizemultiplier: 0.9467999935150146
+    missilelaunchduration: 1.0
+    name: Imperial Crusader
+    optimalsigradius: 40
+    packagedVolume: 28600.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scanradarstrength: 12.0
+    scanresolution: 525.0
+    scanspeed: 2500
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.699999988079071
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 83.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 5.0
+    trackingspeed: 0.10000000149011612
+    volume: 28600.0
+  24917:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -449,7 +379,7 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.19699999690055847
     volume: 28600.0
-  Imperial Templar Crusader:
+  24919:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -525,7 +455,7 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.10000000149011612
     volume: 28600.0
-  Stolen Imperial Deacon:
+  27001:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -600,4 +530,74 @@ types:
     structureuniformity: 1.0
     thermaldamage: 4.0
     trackingspeed: 0.19699999690055847
+    volume: 28600.0
+  45051:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 350.0
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 200.0
+    capacity: 235.0
+    damagemultiplier: 2.5
+    disallowassistance: 1
+    emdamage: 8.0
+    entityattackdelaymax: 26100
+    entityattackdelaymin: 6525
+    entityattackrange: 40000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 24000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 4
+    entityequipmentmin: -6
+    entityflyrange: 16000.0
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.3799999952316284
+    entityshieldboostduration: 10000
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 454
+    hp: 250.0
+    id: 45051
+    mass: 2860000.0
+    maxattacktargets: 1
+    maxlockedtargets: 1
+    maxrange: 15000.0
+    maxvelocity: 250.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Amarr CA Destroyer
+    optimalsigradius: 40
+    packagedVolume: 28600.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scanradarstrength: 12.0
+    scanresolution: 525.0
+    scanspeed: 2500
+    shieldcapacity: 350.0
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.699999988079071
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 83.0
+    speed: 10000.0
+    structureuniformity: 1.0
+    thermaldamage: 8.0
+    trackingspeed: 0.4000000059604645
     volume: 28600.0

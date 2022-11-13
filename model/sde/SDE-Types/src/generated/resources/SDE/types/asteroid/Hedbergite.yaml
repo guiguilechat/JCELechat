@@ -1,185 +1,5 @@
 types:
-  Batch Compressed Glazed Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28400
-    marketGroup: 527
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Glazed Hedbergite
-    orebasictype: 21
-    packagedVolume: 0.4699999988079071
-    portionSize: 1
-    price: 3705600.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.4699999988079071
-  Batch Compressed Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28401
-    marketGroup: 527
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Hedbergite
-    orebasictype: 21
-    packagedVolume: 0.4699999988079071
-    portionSize: 1
-    price: 3374080.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.4699999988079071
-  Batch Compressed Lustrous Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 46696
-    marketGroup: 527
-    mass: 1.0
-    name: Batch Compressed Lustrous Hedbergite
-    orebasictype: 46680
-    packagedVolume: 0.4699999988079071
-    portionSize: 1
-    price: 56000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.4699999988079071
-  Batch Compressed Vitric Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28402
-    marketGroup: 527
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Vitric Hedbergite
-    orebasictype: 21
-    packagedVolume: 0.4699999988079071
-    portionSize: 1
-    price: 3552000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.4699999988079071
-  Compressed Glazed Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62550
-    marketGroup: 527
-    mass: 1.0000000409184788E35
-    name: Compressed Glazed Hedbergite
-    orebasictype: 21
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3705600.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.029999999329447746
-  Compressed Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62548
-    marketGroup: 527
-    mass: 1.0000000409184788E35
-    name: Compressed Hedbergite
-    orebasictype: 21
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3374080.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.029999999329447746
-  Compressed Lustrous Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62551
-    marketGroup: 527
-    mass: 1.0
-    name: Compressed Lustrous Hedbergite
-    orebasictype: 46680
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 56000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.029999999329447746
-  Compressed Vitric Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62549
-    marketGroup: 527
-    mass: 1.0000000409184788E35
-    name: Compressed Vitric Hedbergite
-    orebasictype: 21
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3552000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.029999999329447746
-  Glazed Hedbergite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.5
-    asteroidradiusunitsize: 90
-    id: 17441
-    marketGroup: 527
-    mass: 1.0000000409184788E35
-    name: Glazed Hedbergite
-    orebasictype: 21
-    packagedVolume: 3.0
-    portionSize: 100
-    price: 370560.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 3.0
-  Hedbergite:
+  21:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -199,27 +19,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 3.0
-  Lustrous Hedbergite:
-    asteroidmaxradius: 5000
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.22499999403953552
-    asteroidradiusunitsize: 600
-    id: 46680
-    marketGroup: 527
-    mass: 1.0000000409184788E35
-    name: Lustrous Hedbergite
-    orebasictype: 46680
-    packagedVolume: 3.0
-    portionSize: 100
-    price: 510.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 3.0
-  Vitric Hedbergite:
+  17440:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
@@ -239,3 +39,203 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 3.0
+  17441:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 17441
+    marketGroup: 527
+    mass: 1.0000000409184788E35
+    name: Glazed Hedbergite
+    orebasictype: 21
+    packagedVolume: 3.0
+    portionSize: 100
+    price: 370560.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 3.0
+  28400:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28400
+    marketGroup: 527
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Glazed Hedbergite
+    orebasictype: 21
+    packagedVolume: 0.4699999988079071
+    portionSize: 1
+    price: 3705600.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.4699999988079071
+  28401:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28401
+    marketGroup: 527
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Hedbergite
+    orebasictype: 21
+    packagedVolume: 0.4699999988079071
+    portionSize: 1
+    price: 3374080.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.4699999988079071
+  28402:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28402
+    marketGroup: 527
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Vitric Hedbergite
+    orebasictype: 21
+    packagedVolume: 0.4699999988079071
+    portionSize: 1
+    price: 3552000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.4699999988079071
+  46680:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.22499999403953552
+    asteroidradiusunitsize: 600
+    id: 46680
+    marketGroup: 527
+    mass: 1.0000000409184788E35
+    name: Lustrous Hedbergite
+    orebasictype: 46680
+    packagedVolume: 3.0
+    portionSize: 100
+    price: 510.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 3.0
+  46696:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 46696
+    marketGroup: 527
+    mass: 1.0
+    name: Batch Compressed Lustrous Hedbergite
+    orebasictype: 46680
+    packagedVolume: 0.4699999988079071
+    portionSize: 1
+    price: 56000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.4699999988079071
+  62548:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62548
+    marketGroup: 527
+    mass: 1.0000000409184788E35
+    name: Compressed Hedbergite
+    orebasictype: 21
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3374080.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.029999999329447746
+  62549:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62549
+    marketGroup: 527
+    mass: 1.0000000409184788E35
+    name: Compressed Vitric Hedbergite
+    orebasictype: 21
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3552000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.029999999329447746
+  62550:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62550
+    marketGroup: 527
+    mass: 1.0000000409184788E35
+    name: Compressed Glazed Hedbergite
+    orebasictype: 21
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3705600.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.029999999329447746
+  62551:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62551
+    marketGroup: 527
+    mass: 1.0
+    name: Compressed Lustrous Hedbergite
+    orebasictype: 46680
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 56000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.029999999329447746

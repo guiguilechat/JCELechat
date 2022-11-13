@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Drone and Fighter Manufacturing Material Efficiency I:
+  37156:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: 1
@@ -29,7 +29,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Drone and Fighter Manufacturing Material Efficiency II:
+  37157:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: 1

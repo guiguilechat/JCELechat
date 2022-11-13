@@ -1,5 +1,39 @@
 types:
-  Archaeology:
+  3412:
+    durationbonus: -5
+    id: 3412
+    marketGroup: 1110
+    maxscandeviationmodifier: -5
+    name: Astrometrics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 3
+    scanstrengthbonus: 5
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  3551:
+    id: 3551
+    marketGroup: 1110
+    name: Survey
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 55000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scanspeedbonus: -5
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  13278:
     accessdifficultybonusabsolutepercent: 1
     id: 13278
     marketGroup: 1110
@@ -18,73 +52,7 @@ types:
     skilltimeconstant: 3.0
     viruscoherencebonus: 10
     volume: 0.009999999776482582
-  Astrometric Acquisition:
-    durationbonus: -5
-    id: 25811
-    marketGroup: 1110
-    name: Astrometric Acquisition
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3412
-    requiredskill1level: 3
-    secondaryattribute: 166
-    skilltimeconstant: 5.0
-    volume: 0.009999999776482582
-  Astrometric Pinpointing:
-    id: 25810
-    marketGroup: 1110
-    maxscandeviationmodifier: -5
-    name: Astrometric Pinpointing
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3412
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 5.0
-    volume: 0.009999999776482582
-  Astrometric Rangefinding:
-    id: 25739
-    marketGroup: 1110
-    name: Astrometric Rangefinding
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 500000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 3
-    scanstrengthbonus: 5
-    secondaryattribute: 166
-    skilltimeconstant: 8.0
-    volume: 0.009999999776482582
-  Astrometrics:
-    durationbonus: -5
-    id: 3412
-    marketGroup: 1110
-    maxscandeviationmodifier: -5
-    name: Astrometrics
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 500000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 3
-    scanstrengthbonus: 5
-    secondaryattribute: 166
-    skilltimeconstant: 3.0
-    volume: 0.009999999776482582
-  Hacking:
+  21718:
     accessdifficultybonusabsolutepercent: 1
     id: 21718
     marketGroup: 1110
@@ -103,19 +71,51 @@ types:
     skilltimeconstant: 3.0
     viruscoherencebonus: 10
     volume: 0.009999999776482582
-  Survey:
-    id: 3551
+  25739:
+    id: 25739
     marketGroup: 1110
-    name: Survey
+    name: Astrometric Rangefinding
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 55000.0
+    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 1
-    scanspeedbonus: -5
+    requiredskill1: 3402
+    requiredskill1level: 3
+    scanstrengthbonus: 5
     secondaryattribute: 166
-    skilltimeconstant: 1.0
+    skilltimeconstant: 8.0
+    volume: 0.009999999776482582
+  25810:
+    id: 25810
+    marketGroup: 1110
+    maxscandeviationmodifier: -5
+    name: Astrometric Pinpointing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1000000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3412
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  25811:
+    durationbonus: -5
+    id: 25811
+    marketGroup: 1110
+    name: Astrometric Acquisition
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1000000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3412
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582

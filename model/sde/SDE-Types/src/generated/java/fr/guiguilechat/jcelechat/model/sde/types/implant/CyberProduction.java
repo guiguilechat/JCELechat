@@ -88,7 +88,7 @@ public class CyberProduction
         implements IMetaGroup<CyberProduction>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberProduction.yaml";
-        private Map<String, CyberProduction> cache = (null);
+        private Map<Integer, CyberProduction> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberProduction> category() {
@@ -106,7 +106,7 @@ public class CyberProduction
         }
 
         @Override
-        public synchronized Map<String, CyberProduction> load() {
+        public synchronized Map<Integer, CyberProduction> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberProduction.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -120,7 +120,7 @@ public class CyberProduction
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberProduction> types;
+            public LinkedHashMap<Integer, CyberProduction> types;
         }
     }
 }

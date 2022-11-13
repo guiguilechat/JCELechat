@@ -53,44 +53,44 @@ public class LootParser {
 			// System.err.println(line);
 			try {
 				switch (state) {
-				case 0:
-					if (line.length() > 0) {
-						entry = new LootEntry();
-						entry.date = date;
-						String[] tokens = line.split(" ");
-						entry.type = rename(tokens[0]);
-						entry.race = rename(tokens[1]);
-						entry.sec = Float.parseFloat(tokens[2]);
-						list.add(entry);
-						state = 1;
-					}
-					break;
-				case 1:
-					if (line.length() == 0) {
-						state = 0;
-					} else {
-						String[] tokens = line.split("\\t");
-						EveType t = TypeIndex.getType(tokens[0]);
-						if (t == null) {
-							if (undecoded.add(tokens[0])) {
-								if (!isFilenamePrinted) {
-									logger.debug("in file " + lootFile.getAbsolutePath());
-									isFilenamePrinted = true;
-								}
-								logger.debug("can't decode " + tokens[0]);
-							}
-						} else {
-							Integer nb = entry.loots.get(t.id);
-							if (tokens[1].length() > 0) {
-								nb = Integer.parseInt(tokens[1].replaceAll("[^\\d]", "")) + (nb == null ? 0 : nb);
-							} else {
-								nb = 1;
-							}
-							entry.loots.put(t.id, nb);
-							// System.err.println("" + id + "->" + nb);
+					case 0:
+						if (line.length() > 0) {
+							entry = new LootEntry();
+							entry.date = date;
+							String[] tokens = line.split(" ");
+							entry.type = rename(tokens[0]);
+							entry.race = rename(tokens[1]);
+							entry.sec = Float.parseFloat(tokens[2]);
+							list.add(entry);
+							state = 1;
 						}
-					}
-					break;
+						break;
+					case 1:
+						if (line.length() == 0) {
+							state = 0;
+						} else {
+							String[] tokens = line.split("\\t");
+							EveType t = TypeIndex.getTypes(tokens[0]).get(0);
+							if (t == null) {
+								if (undecoded.add(tokens[0])) {
+									if (!isFilenamePrinted) {
+										logger.debug("in file " + lootFile.getAbsolutePath());
+										isFilenamePrinted = true;
+									}
+									logger.debug("can't decode " + tokens[0]);
+								}
+							} else {
+								Integer nb = entry.loots.get(t.id);
+								if (tokens[1].length() > 0) {
+									nb = Integer.parseInt(tokens[1].replaceAll("[^\\d]", "")) + (nb == null ? 0 : nb);
+								} else {
+									nb = 1;
+								}
+								entry.loots.put(t.id, nb);
+								// System.err.println("" + id + "->" + nb);
+							}
+						}
+						break;
 				}
 			} catch (Exception e) {
 				System.err.println("error line " + line + "\n " + lootFile.getName() + " state=" + state);

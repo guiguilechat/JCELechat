@@ -187,7 +187,7 @@ public class CorporationManagement
         implements IMetaGroup<CorporationManagement>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/CorporationManagement.yaml";
-        private Map<String, CorporationManagement> cache = (null);
+        private Map<Integer, CorporationManagement> cache = (null);
 
         @Override
         public IMetaCategory<? super CorporationManagement> category() {
@@ -205,7 +205,7 @@ public class CorporationManagement
         }
 
         @Override
-        public synchronized Map<String, CorporationManagement> load() {
+        public synchronized Map<Integer, CorporationManagement> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CorporationManagement.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -219,7 +219,7 @@ public class CorporationManagement
         }
 
         private static class Container {
-            public LinkedHashMap<String, CorporationManagement> types;
+            public LinkedHashMap<Integer, CorporationManagement> types;
         }
     }
 }

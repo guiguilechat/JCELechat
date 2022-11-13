@@ -218,7 +218,7 @@ public class StructureSignalAmplifier
         implements IMetaGroup<StructureSignalAmplifier>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureSignalAmplifier.yaml";
-        private Map<String, StructureSignalAmplifier> cache = (null);
+        private Map<Integer, StructureSignalAmplifier> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureSignalAmplifier> category() {
@@ -236,7 +236,7 @@ public class StructureSignalAmplifier
         }
 
         @Override
-        public synchronized Map<String, StructureSignalAmplifier> load() {
+        public synchronized Map<Integer, StructureSignalAmplifier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureSignalAmplifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -250,7 +250,7 @@ public class StructureSignalAmplifier
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureSignalAmplifier> types;
+            public LinkedHashMap<Integer, StructureSignalAmplifier> types;
         }
     }
 }

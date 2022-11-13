@@ -97,7 +97,7 @@ public class StripMinerBlueprint
         implements IMetaGroup<StripMinerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StripMinerBlueprint.yaml";
-        private Map<String, StripMinerBlueprint> cache = (null);
+        private Map<Integer, StripMinerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super StripMinerBlueprint> category() {
@@ -115,7 +115,7 @@ public class StripMinerBlueprint
         }
 
         @Override
-        public synchronized Map<String, StripMinerBlueprint> load() {
+        public synchronized Map<Integer, StripMinerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StripMinerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class StripMinerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, StripMinerBlueprint> types;
+            public LinkedHashMap<Integer, StripMinerBlueprint> types;
         }
     }
 }

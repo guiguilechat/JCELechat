@@ -83,7 +83,7 @@ public class MobileObservatoryBlueprint
         implements IMetaGroup<MobileObservatoryBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileObservatoryBlueprint.yaml";
-        private Map<String, MobileObservatoryBlueprint> cache = (null);
+        private Map<Integer, MobileObservatoryBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileObservatoryBlueprint> category() {
@@ -101,7 +101,7 @@ public class MobileObservatoryBlueprint
         }
 
         @Override
-        public synchronized Map<String, MobileObservatoryBlueprint> load() {
+        public synchronized Map<Integer, MobileObservatoryBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileObservatoryBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class MobileObservatoryBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileObservatoryBlueprint> types;
+            public LinkedHashMap<Integer, MobileObservatoryBlueprint> types;
         }
     }
 }

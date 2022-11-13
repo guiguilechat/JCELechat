@@ -1,244 +1,5 @@
 types:
-  Caesarium Cadmide:
-    id: 16663
-    marketGroup: 500
-    moonminingamount: 100
-    name: Caesarium Cadmide
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 80.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Carbon Fiber:
-    id: 57453
-    marketGroup: 500
-    moonminingamount: 1
-    name: Carbon Fiber
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 100000.0
-    published: true
-    volume: 0.20000000298023224
-  Carbon Polymers:
-    id: 16659
-    marketGroup: 500
-    moonminingamount: 100
-    name: Carbon Polymers
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 8.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Ceramic Powder:
-    id: 16660
-    marketGroup: 500
-    moonminingamount: 100
-    name: Ceramic Powder
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 8.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Crystallite Alloy:
-    id: 16655
-    marketGroup: 500
-    moonminingamount: 100
-    name: Crystallite Alloy
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 40.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Dysporite:
-    id: 16668
-    marketGroup: 500
-    moonminingamount: 100
-    name: Dysporite
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 320.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Fernite Alloy:
-    id: 16656
-    marketGroup: 500
-    moonminingamount: 100
-    name: Fernite Alloy
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 40.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Ferrofluid:
-    id: 16669
-    marketGroup: 500
-    moonminingamount: 100
-    name: Ferrofluid
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Fluxed Condensates:
-    id: 17769
-    marketGroup: 500
-    moonminingamount: 100
-    name: Fluxed Condensates
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Hexite:
-    id: 16665
-    marketGroup: 500
-    moonminingamount: 100
-    name: Hexite
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 120.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Hyperflurite:
-    id: 16666
-    marketGroup: 500
-    moonminingamount: 100
-    name: Hyperflurite
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 320.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Neo Mercurite:
-    id: 16667
-    marketGroup: 500
-    moonminingamount: 100
-    name: Neo Mercurite
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 320.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Oxy-Organic Solvents:
-    id: 57454
-    marketGroup: 500
-    moonminingamount: 1
-    name: Oxy-Organic Solvents
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 250000.0
-    published: true
-    volume: 0.10000000149011612
-  Platinum Technite:
-    id: 16662
-    marketGroup: 500
-    moonminingamount: 100
-    name: Platinum Technite
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 80.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Promethium Mercurite:
-    id: 33337
-    marketGroup: 500
-    moonminingamount: 100
-    name: Promethium Mercurite
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 320.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Prometium:
-    id: 17960
-    marketGroup: 500
-    moonminingamount: 100
-    name: Prometium
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 320.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Rolled Tungsten Alloy:
-    id: 16657
-    marketGroup: 500
-    moonminingamount: 100
-    name: Rolled Tungsten Alloy
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 40.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Silicon Diborite:
-    id: 16658
-    marketGroup: 500
-    moonminingamount: 100
-    name: Silicon Diborite
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 8.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Solerium:
-    id: 16664
-    marketGroup: 500
-    moonminingamount: 100
-    name: Solerium
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 120.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Sulfuric Acid:
-    id: 16661
-    marketGroup: 500
-    moonminingamount: 100
-    name: Sulfuric Acid
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 8.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Thermosetting Polymer:
-    id: 57455
-    marketGroup: 500
-    moonminingamount: 1
-    name: Thermosetting Polymer
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 100000.0
-    published: true
-    volume: 0.20000000298023224
-  Thulium Hafnite:
-    id: 33336
-    marketGroup: 500
-    moonminingamount: 100
-    name: Thulium Hafnite
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    price: 320.0
-    published: true
-    radius: 1.0
-    volume: 0.20000000298023224
-  Titanium Chromide:
+  16654:
     id: 16654
     marketGroup: 500
     moonminingamount: 100
@@ -249,62 +10,205 @@ types:
     published: true
     radius: 1.0
     volume: 0.20000000298023224
-  Unrefined Caesarium Cadmide:
-    id: 32824
+  16655:
+    id: 16655
     marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Caesarium Cadmide
-    packagedVolume: 1.0
+    moonminingamount: 100
+    name: Crystallite Alloy
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 40.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16656:
+    id: 16656
+    marketGroup: 500
+    moonminingamount: 100
+    name: Fernite Alloy
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 40.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16657:
+    id: 16657
+    marketGroup: 500
+    moonminingamount: 100
+    name: Rolled Tungsten Alloy
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 40.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16658:
+    id: 16658
+    marketGroup: 500
+    moonminingamount: 100
+    name: Silicon Diborite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 8.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16659:
+    id: 16659
+    marketGroup: 500
+    moonminingamount: 100
+    name: Carbon Polymers
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 8.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16660:
+    id: 16660
+    marketGroup: 500
+    moonminingamount: 100
+    name: Ceramic Powder
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 8.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16661:
+    id: 16661
+    marketGroup: 500
+    moonminingamount: 100
+    name: Sulfuric Acid
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 8.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16662:
+    id: 16662
+    marketGroup: 500
+    moonminingamount: 100
+    name: Platinum Technite
+    packagedVolume: 0.20000000298023224
     portionSize: 1
     price: 80.0
     published: true
     radius: 1.0
-    volume: 1.0
-  Unrefined Crystallite Alloy:
-    id: 32829
+    volume: 0.20000000298023224
+  16663:
+    id: 16663
     marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Crystallite Alloy
-    packagedVolume: 1.0
+    moonminingamount: 100
+    name: Caesarium Cadmide
+    packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 40.0
+    price: 80.0
     published: true
     radius: 1.0
-    volume: 1.0
-  Unrefined Dysporite:
-    id: 29660
+    volume: 0.20000000298023224
+  16664:
+    id: 16664
     marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Dysporite
-    packagedVolume: 1.0
+    moonminingamount: 100
+    name: Solerium
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 120.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16665:
+    id: 16665
+    marketGroup: 500
+    moonminingamount: 100
+    name: Hexite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 120.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16666:
+    id: 16666
+    marketGroup: 500
+    moonminingamount: 100
+    name: Hyperflurite
+    packagedVolume: 0.20000000298023224
     portionSize: 1
     price: 320.0
     published: true
     radius: 1.0
-    volume: 1.0
-  Unrefined Fernite Alloy:
-    id: 32828
+    volume: 0.20000000298023224
+  16667:
+    id: 16667
     marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Fernite Alloy
-    packagedVolume: 1.0
+    moonminingamount: 100
+    name: Neo Mercurite
+    packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 40.0
+    price: 320.0
     published: true
     radius: 1.0
-    volume: 1.0
-  Unrefined Ferrofluid:
-    id: 29663
+    volume: 0.20000000298023224
+  16668:
+    id: 16668
     marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Ferrofluid
-    packagedVolume: 1.0
+    moonminingamount: 100
+    name: Dysporite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 320.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  16669:
+    id: 16669
+    marketGroup: 500
+    moonminingamount: 100
+    name: Ferrofluid
+    packagedVolume: 0.20000000298023224
     portionSize: 1
     price: 512.0
     published: true
     radius: 1.0
-    volume: 1.0
-  Unrefined Fluxed Condensates:
+    volume: 0.20000000298023224
+  17769:
+    id: 17769
+    marketGroup: 500
+    moonminingamount: 100
+    name: Fluxed Condensates
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  17959:
+    id: 17959
+    marketGroup: 500
+    moonminingamount: 100
+    name: Vanadium Hafnite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 80.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  17960:
+    id: 17960
+    marketGroup: 500
+    moonminingamount: 100
+    name: Prometium
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 320.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  29659:
     id: 29659
     marketGroup: 500
     moonminingamount: 1
@@ -315,29 +219,18 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Unrefined Hexite:
-    id: 32825
+  29660:
+    id: 29660
     marketGroup: 500
     moonminingamount: 1
-    name: Unrefined Hexite
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 120.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Unrefined Hyperflurite:
-    id: 29664
-    marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Hyperflurite
+    name: Unrefined Dysporite
     packagedVolume: 1.0
     portionSize: 1
     price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
-  Unrefined Neo Mercurite:
+  29661:
     id: 29661
     marketGroup: 500
     moonminingamount: 1
@@ -348,29 +241,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Unrefined Platinum Technite:
-    id: 32822
-    marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Platinum Technite
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 80.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Unrefined Promethium Mercurite:
-    id: 33338
-    marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Promethium Mercurite
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 320.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Unrefined Prometium:
+  29662:
     id: 29662
     marketGroup: 500
     moonminingamount: 1
@@ -381,51 +252,29 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Unrefined Rolled Tungsten Alloy:
-    id: 32826
+  29663:
+    id: 29663
     marketGroup: 500
     moonminingamount: 1
-    name: Unrefined Rolled Tungsten Alloy
+    name: Unrefined Ferrofluid
     packagedVolume: 1.0
     portionSize: 1
-    price: 40.0
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
-  Unrefined Solerium:
-    id: 32823
+  29664:
+    id: 29664
     marketGroup: 500
     moonminingamount: 1
-    name: Unrefined Solerium
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 120.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Unrefined Thulium Hafnite:
-    id: 33339
-    marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Thulium Hafnite
+    name: Unrefined Hyperflurite
     packagedVolume: 1.0
     portionSize: 1
     price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
-  Unrefined Titanium Chromide:
-    id: 32827
-    marketGroup: 500
-    moonminingamount: 1
-    name: Unrefined Titanium Chromide
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 40.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Unrefined Vanadium Hafnite:
+  32821:
     id: 32821
     marketGroup: 500
     moonminingamount: 1
@@ -436,14 +285,165 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Vanadium Hafnite:
-    id: 17959
+  32822:
+    id: 32822
     marketGroup: 500
-    moonminingamount: 100
-    name: Vanadium Hafnite
-    packagedVolume: 0.20000000298023224
+    moonminingamount: 1
+    name: Unrefined Platinum Technite
+    packagedVolume: 1.0
     portionSize: 1
     price: 80.0
     published: true
     radius: 1.0
+    volume: 1.0
+  32823:
+    id: 32823
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Solerium
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 120.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  32824:
+    id: 32824
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Caesarium Cadmide
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 80.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  32825:
+    id: 32825
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Hexite
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 120.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  32826:
+    id: 32826
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Rolled Tungsten Alloy
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 40.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  32827:
+    id: 32827
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Titanium Chromide
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 40.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  32828:
+    id: 32828
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Fernite Alloy
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 40.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  32829:
+    id: 32829
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Crystallite Alloy
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 40.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  33336:
+    id: 33336
+    marketGroup: 500
+    moonminingamount: 100
+    name: Thulium Hafnite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 320.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  33337:
+    id: 33337
+    marketGroup: 500
+    moonminingamount: 100
+    name: Promethium Mercurite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 320.0
+    published: true
+    radius: 1.0
+    volume: 0.20000000298023224
+  33338:
+    id: 33338
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Promethium Mercurite
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 320.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  33339:
+    id: 33339
+    marketGroup: 500
+    moonminingamount: 1
+    name: Unrefined Thulium Hafnite
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 320.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  57453:
+    id: 57453
+    marketGroup: 500
+    moonminingamount: 1
+    name: Carbon Fiber
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.20000000298023224
+  57454:
+    id: 57454
+    marketGroup: 500
+    moonminingamount: 1
+    name: Oxy-Organic Solvents
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 0.10000000149011612
+  57455:
+    id: 57455
+    marketGroup: 500
+    moonminingamount: 1
+    name: Thermosetting Polymer
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 100000.0
+    published: true
     volume: 0.20000000298023224

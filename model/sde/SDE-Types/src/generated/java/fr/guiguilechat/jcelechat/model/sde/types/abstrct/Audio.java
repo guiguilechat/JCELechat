@@ -32,7 +32,7 @@ public class Audio
         implements IMetaGroup<Audio>
     {
         public static final String RESOURCE_PATH = "SDE/types/abstrct/Audio.yaml";
-        private Map<String, Audio> cache = (null);
+        private Map<Integer, Audio> cache = (null);
 
         @Override
         public IMetaCategory<? super Audio> category() {
@@ -50,7 +50,7 @@ public class Audio
         }
 
         @Override
-        public synchronized Map<String, Audio> load() {
+        public synchronized Map<Integer, Audio> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Audio.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Audio
         }
 
         private static class Container {
-            public LinkedHashMap<String, Audio> types;
+            public LinkedHashMap<Integer, Audio> types;
         }
     }
 }

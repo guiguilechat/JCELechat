@@ -143,7 +143,7 @@ public class MobileDepot
         implements IMetaGroup<MobileDepot>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileDepot.yaml";
-        private Map<String, MobileDepot> cache = (null);
+        private Map<Integer, MobileDepot> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileDepot> category() {
@@ -161,7 +161,7 @@ public class MobileDepot
         }
 
         @Override
-        public synchronized Map<String, MobileDepot> load() {
+        public synchronized Map<Integer, MobileDepot> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileDepot.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -175,7 +175,7 @@ public class MobileDepot
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileDepot> types;
+            public LinkedHashMap<Integer, MobileDepot> types;
         }
     }
 }

@@ -257,7 +257,7 @@ public class MissileGuidanceComputer
         implements IMetaGroup<MissileGuidanceComputer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MissileGuidanceComputer.yaml";
-        private Map<String, MissileGuidanceComputer> cache = (null);
+        private Map<Integer, MissileGuidanceComputer> cache = (null);
 
         @Override
         public IMetaCategory<? super MissileGuidanceComputer> category() {
@@ -275,7 +275,7 @@ public class MissileGuidanceComputer
         }
 
         @Override
-        public synchronized Map<String, MissileGuidanceComputer> load() {
+        public synchronized Map<Integer, MissileGuidanceComputer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissileGuidanceComputer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -289,7 +289,7 @@ public class MissileGuidanceComputer
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileGuidanceComputer> types;
+            public LinkedHashMap<Integer, MissileGuidanceComputer> types;
         }
     }
 }

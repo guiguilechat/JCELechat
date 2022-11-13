@@ -231,7 +231,7 @@ public class SecureCargoContainer
         implements IMetaGroup<SecureCargoContainer>
     {
         public static final String RESOURCE_PATH = "SDE/types/celestial/SecureCargoContainer.yaml";
-        private Map<String, SecureCargoContainer> cache = (null);
+        private Map<Integer, SecureCargoContainer> cache = (null);
 
         @Override
         public IMetaCategory<? super SecureCargoContainer> category() {
@@ -249,7 +249,7 @@ public class SecureCargoContainer
         }
 
         @Override
-        public synchronized Map<String, SecureCargoContainer> load() {
+        public synchronized Map<Integer, SecureCargoContainer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SecureCargoContainer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -263,7 +263,7 @@ public class SecureCargoContainer
         }
 
         private static class Container {
-            public LinkedHashMap<String, SecureCargoContainer> types;
+            public LinkedHashMap<Integer, SecureCargoContainer> types;
         }
     }
 }

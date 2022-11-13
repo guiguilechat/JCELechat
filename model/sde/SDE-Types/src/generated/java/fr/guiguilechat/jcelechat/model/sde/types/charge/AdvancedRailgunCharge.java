@@ -304,7 +304,7 @@ public class AdvancedRailgunCharge
         implements IMetaGroup<AdvancedRailgunCharge>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedRailgunCharge.yaml";
-        private Map<String, AdvancedRailgunCharge> cache = (null);
+        private Map<Integer, AdvancedRailgunCharge> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedRailgunCharge> category() {
@@ -322,7 +322,7 @@ public class AdvancedRailgunCharge
         }
 
         @Override
-        public synchronized Map<String, AdvancedRailgunCharge> load() {
+        public synchronized Map<Integer, AdvancedRailgunCharge> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedRailgunCharge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -336,7 +336,7 @@ public class AdvancedRailgunCharge
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedRailgunCharge> types;
+            public LinkedHashMap<Integer, AdvancedRailgunCharge> types;
         }
     }
 }

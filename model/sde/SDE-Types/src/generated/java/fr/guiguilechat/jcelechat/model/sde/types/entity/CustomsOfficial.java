@@ -963,7 +963,7 @@ public class CustomsOfficial
         implements IMetaGroup<CustomsOfficial>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/CustomsOfficial.yaml";
-        private Map<String, CustomsOfficial> cache = (null);
+        private Map<Integer, CustomsOfficial> cache = (null);
 
         @Override
         public IMetaCategory<? super CustomsOfficial> category() {
@@ -981,7 +981,7 @@ public class CustomsOfficial
         }
 
         @Override
-        public synchronized Map<String, CustomsOfficial> load() {
+        public synchronized Map<Integer, CustomsOfficial> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CustomsOfficial.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -995,7 +995,7 @@ public class CustomsOfficial
         }
 
         private static class Container {
-            public LinkedHashMap<String, CustomsOfficial> types;
+            public LinkedHashMap<Integer, CustomsOfficial> types;
         }
     }
 }

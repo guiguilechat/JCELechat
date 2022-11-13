@@ -1,41 +1,5 @@
 types:
-  '''Augmented'' Ice Harvesting Drone Blueprint':
-    id: 43913
-    name: '''Augmented'' Ice Harvesting Drone Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 9999999.0
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  '''Augmented'' Mining Drone Blueprint':
-    id: 43914
-    name: '''Augmented'' Mining Drone Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 9999999.0
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  '''Excavator'' Ice Harvesting Drone Blueprint':
-    id: 43916
-    name: '''Excavator'' Ice Harvesting Drone Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  '''Excavator'' Mining Drone Blueprint':
-    id: 43915
-    name: '''Excavator'' Mining Drone Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Civilian Mining Drone Blueprint:
+  1218:
     id: 1218
     industryblueprintrank: 1.0
     marketGroup: 358
@@ -47,36 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Harvester Mining Drone Blueprint:
-    id: 43934
-    name: Harvester Mining Drone Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Ice Harvesting Drone I Blueprint:
-    id: 43911
-    marketGroup: 358
-    name: Ice Harvesting Drone I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E7
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Ice Harvesting Drone II Blueprint:
-    id: 43912
-    name: Ice Harvesting Drone II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E7
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Mining Drone I Blueprint:
+  10247:
     id: 10247
     industryblueprintrank: 1.0
     marketGroup: 358
@@ -88,7 +23,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Mining Drone II Blueprint:
+  10251:
     id: 10251
     industryblueprintrank: 5.0
     name: Mining Drone II Blueprint
@@ -98,4 +33,69 @@ types:
     published: true
     radius: 1.0
     techlevel: 2
+    volume: 0.009999999776482582
+  43911:
+    id: 43911
+    marketGroup: 358
+    name: Ice Harvesting Drone I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  43912:
+    id: 43912
+    name: Ice Harvesting Drone II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  43913:
+    id: 43913
+    name: '''Augmented'' Ice Harvesting Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9999999.0
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  43914:
+    id: 43914
+    name: '''Augmented'' Mining Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9999999.0
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  43915:
+    id: 43915
+    name: '''Excavator'' Mining Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  43916:
+    id: 43916
+    name: '''Excavator'' Ice Harvesting Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  43934:
+    id: 43934
+    name: Harvester Mining Drone Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
     volume: 0.009999999776482582

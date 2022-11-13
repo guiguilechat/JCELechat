@@ -10635,26 +10635,24 @@ offers:
     requirements:
       isk: 10000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57470
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 30000
   4291:
     bpid: 17704
@@ -10676,26 +10674,24 @@ offers:
         quantity: 1
       - id: 17743
         quantity: 1
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57470
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 50000
   4292:
     bpid: 17710
@@ -10708,26 +10704,24 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57470
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
       lp: 100000
   4293:
     bpid: 17710
@@ -10749,26 +10743,24 @@ offers:
         quantity: 1
       - id: 18657
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57470
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
       lp: 150000
   4294:
     bpid: 17727
@@ -10781,28 +10773,26 @@ offers:
     requirements:
       isk: 200000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57470
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
       lp: 500000
   4295:
     bpid: 17727
@@ -10824,28 +10814,26 @@ offers:
         quantity: 1
       - id: 17299
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57470
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
       lp: 500000
   4296:
     bpid: 15805
@@ -11154,26 +11142,24 @@ offers:
     requirements:
       isk: 10000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57471
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 30000
   4314:
     bpid: 17620
@@ -11195,26 +11181,24 @@ offers:
         quantity: 1
       - id: 18655
         quantity: 1
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57471
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 50000
   4315:
     bpid: 17635
@@ -11227,26 +11211,24 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57471
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
       lp: 100000
   4316:
     bpid: 17635
@@ -11268,26 +11250,24 @@ offers:
         quantity: 1
       - id: 17630
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57471
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
       lp: 150000
   4317:
     bpid: 17637
@@ -11300,28 +11280,26 @@ offers:
     requirements:
       isk: 200000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57471
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
       lp: 500000
   4318:
     bpid: 17637
@@ -11343,28 +11321,26 @@ offers:
         quantity: 1
       - id: 17639
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57471
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
       lp: 500000
   4319:
     bpid: 15822
@@ -11645,26 +11621,24 @@ offers:
     requirements:
       isk: 10000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57472
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 30000
   4336:
     bpid: 17842
@@ -11686,26 +11660,24 @@ offers:
         quantity: 1
       - id: 17272
         quantity: 1
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57472
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 50000
   4337:
     bpid: 17844
@@ -11718,26 +11690,24 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57472
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
       lp: 100000
   4338:
     bpid: 17844
@@ -11759,26 +11729,24 @@ offers:
         quantity: 1
       - id: 17293
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57472
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
       lp: 150000
   4339:
     bpid: 17729
@@ -11791,28 +11759,26 @@ offers:
     requirements:
       isk: 200000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57472
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
       lp: 500000
   4340:
     bpid: 17729
@@ -11832,28 +11798,26 @@ offers:
         quantity: 1
       - id: 17291
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57472
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
       lp: 500000
   4341:
     bpid: 15842
@@ -12052,26 +12016,24 @@ offers:
     requirements:
       isk: 10000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57473
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 30000
   4354:
     bpid: 17813
@@ -12093,26 +12055,24 @@ offers:
         quantity: 1
       - id: 17230
         quantity: 1
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57473
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 50000
   4355:
     bpid: 17714
@@ -12125,26 +12085,24 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57473
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
       lp: 100000
   4356:
     bpid: 17714
@@ -12166,26 +12124,24 @@ offers:
         quantity: 30
       - id: 17817
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57473
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
       lp: 150000
   4357:
     bpid: 17733
@@ -12198,28 +12154,26 @@ offers:
     requirements:
       isk: 200000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57473
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
       lp: 500000
   4358:
     bpid: 17733
@@ -12239,28 +12193,26 @@ offers:
         quantity: 5
       - id: 17305
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57473
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
       lp: 500000
   4359:
     bpid: 17486
@@ -18988,27 +18940,25 @@ offers:
       items:
       - id: 17258
         quantity: 1
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57470
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
-      lp: 10000
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
   14784:
     bpid: 17704
     bpruns: 1
@@ -19020,27 +18970,25 @@ offers:
     requirements:
       isk: 2000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57470
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
-      lp: 10000
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
   14785:
     bpid: 17710
     bpruns: 1
@@ -19053,27 +19001,25 @@ offers:
       items:
       - id: 17255
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57470
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   14786:
     bpid: 17710
     bpruns: 1
@@ -19085,27 +19031,25 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57470
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   14787:
     bpid: 17727
     bpruns: 1
@@ -19118,29 +19062,27 @@ offers:
       items:
       - id: 17299
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57470
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   14788:
     bpid: 17727
     bpruns: 1
@@ -19152,29 +19094,27 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57470
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   14789:
     id: 14789
     name: Caldari Navy Hookbill
@@ -19239,27 +19179,25 @@ offers:
       items:
       - id: 17248
         quantity: 1
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57471
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
-      lp: 10000
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
   14794:
     bpid: 17620
     bpruns: 1
@@ -19271,27 +19209,25 @@ offers:
     requirements:
       isk: 2000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57471
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
-      lp: 10000
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
   14795:
     bpid: 17635
     bpruns: 1
@@ -19304,27 +19240,25 @@ offers:
       items:
       - id: 17244
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57471
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   14796:
     bpid: 17635
     bpruns: 1
@@ -19336,27 +19270,25 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57471
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   14797:
     bpid: 17637
     bpruns: 1
@@ -19369,29 +19301,27 @@ offers:
       items:
       - id: 17295
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57471
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   14798:
     bpid: 17637
     bpruns: 1
@@ -19403,29 +19333,27 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57471
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   14799:
     id: 14799
     name: Federation Navy Comet
@@ -19490,27 +19418,25 @@ offers:
       items:
       - id: 17270
         quantity: 1
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57472
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
-      lp: 10000
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
   14804:
     bpid: 17842
     bpruns: 1
@@ -19522,27 +19448,25 @@ offers:
     requirements:
       isk: 2000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57472
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
-      lp: 10000
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
   14805:
     bpid: 17844
     bpruns: 1
@@ -19555,27 +19479,25 @@ offers:
       items:
       - id: 17266
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57472
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   14806:
     bpid: 17844
     bpruns: 1
@@ -19587,27 +19509,25 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57472
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   14807:
     bpid: 17729
     bpruns: 1
@@ -19620,29 +19540,27 @@ offers:
       items:
       - id: 17291
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57472
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   14808:
     bpid: 17729
     bpruns: 1
@@ -19654,29 +19572,27 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57472
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   14809:
     id: 14809
     name: Republic Fleet Firetail
@@ -19741,27 +19657,25 @@ offers:
       items:
       - id: 17226
         quantity: 1
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57473
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
-      lp: 10000
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
   14814:
     bpid: 17813
     bpruns: 1
@@ -19773,27 +19687,25 @@ offers:
     requirements:
       isk: 2000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57473
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
-      lp: 10000
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
   14815:
     bpid: 17714
     bpruns: 1
@@ -19806,27 +19718,25 @@ offers:
       items:
       - id: 17223
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57473
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   14816:
     bpid: 17714
     bpruns: 1
@@ -19838,27 +19748,25 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57473
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   14817:
     bpid: 17733
     bpruns: 1
@@ -19871,29 +19779,27 @@ offers:
       items:
       - id: 17305
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57473
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   14818:
     bpid: 17733
     bpruns: 1
@@ -19905,29 +19811,27 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57473
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   14984:
     id: 14984
     name: Armageddon Navy Issue
@@ -22647,26 +22551,24 @@ offers:
     requirements:
       isk: 100000000
       items:
-      - id: 34
-        quantity: 2800000
-      - id: 35
-        quantity: 1000000
-      - id: 36
-        quantity: 180000
-      - id: 37
-        quantity: 20000
-      - id: 38
-        quantity: 10000
-      - id: 39
-        quantity: 4000
-      - id: 40
-        quantity: 2000
-      - id: 57470
-        quantity: 8
-      - id: 57478
-        quantity: 100
       - id: 57486
         quantity: 50
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
       lp: 200000
   15783:
     bpid: 33154
@@ -22679,26 +22581,24 @@ offers:
     requirements:
       isk: 100000000
       items:
-      - id: 34
-        quantity: 2800000
-      - id: 35
-        quantity: 1000000
-      - id: 36
-        quantity: 180000
-      - id: 37
-        quantity: 20000
-      - id: 38
-        quantity: 10000
-      - id: 39
-        quantity: 4000
-      - id: 40
-        quantity: 2000
-      - id: 57471
-        quantity: 8
-      - id: 57478
-        quantity: 100
       - id: 57486
         quantity: 50
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
       lp: 200000
   15784:
     bpid: 33152
@@ -22711,26 +22611,24 @@ offers:
     requirements:
       isk: 100000000
       items:
-      - id: 34
-        quantity: 2800000
-      - id: 35
-        quantity: 1000000
-      - id: 36
-        quantity: 180000
-      - id: 37
-        quantity: 20000
-      - id: 38
-        quantity: 10000
-      - id: 39
-        quantity: 4000
-      - id: 40
-        quantity: 2000
-      - id: 57472
-        quantity: 8
-      - id: 57478
-        quantity: 100
       - id: 57486
         quantity: 50
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
       lp: 200000
   15785:
     bpid: 33158
@@ -22743,26 +22641,24 @@ offers:
     requirements:
       isk: 100000000
       items:
-      - id: 34
-        quantity: 2800000
-      - id: 35
-        quantity: 1000000
-      - id: 36
-        quantity: 180000
-      - id: 37
-        quantity: 20000
-      - id: 38
-        quantity: 10000
-      - id: 39
-        quantity: 4000
-      - id: 40
-        quantity: 2000
-      - id: 57473
-        quantity: 8
-      - id: 57478
-        quantity: 100
       - id: 57486
         quantity: 50
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
       lp: 200000
   15786:
     id: 15786
@@ -22827,27 +22723,25 @@ offers:
     requirements:
       isk: 10000000
       items:
-      - id: 34
-        quantity: 2800000
-      - id: 35
-        quantity: 1000000
-      - id: 36
-        quantity: 180000
-      - id: 37
-        quantity: 20000
-      - id: 38
-        quantity: 10000
-      - id: 39
-        quantity: 4000
-      - id: 40
-        quantity: 2000
-      - id: 57470
-        quantity: 8
-      - id: 57478
-        quantity: 100
       - id: 57486
         quantity: 50
-      lp: 100000
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
+      lp: 40000
   15791:
     bpid: 33154
     bpruns: 1
@@ -22859,27 +22753,25 @@ offers:
     requirements:
       isk: 10000000
       items:
-      - id: 34
-        quantity: 2800000
-      - id: 35
-        quantity: 1000000
-      - id: 36
-        quantity: 180000
-      - id: 37
-        quantity: 20000
-      - id: 38
-        quantity: 10000
-      - id: 39
-        quantity: 4000
-      - id: 40
-        quantity: 2000
-      - id: 57471
-        quantity: 8
-      - id: 57478
-        quantity: 100
       - id: 57486
         quantity: 50
-      lp: 100000
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
+      lp: 40000
   15792:
     bpid: 33152
     bpruns: 1
@@ -22891,27 +22783,25 @@ offers:
     requirements:
       isk: 10000000
       items:
-      - id: 34
-        quantity: 2800000
-      - id: 35
-        quantity: 1000000
-      - id: 36
-        quantity: 180000
-      - id: 37
-        quantity: 20000
-      - id: 38
-        quantity: 10000
-      - id: 39
-        quantity: 4000
-      - id: 40
-        quantity: 2000
-      - id: 57472
-        quantity: 8
-      - id: 57478
-        quantity: 100
       - id: 57486
         quantity: 50
-      lp: 100000
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
+      lp: 40000
   15793:
     bpid: 33158
     bpruns: 1
@@ -22923,27 +22813,25 @@ offers:
     requirements:
       isk: 10000000
       items:
-      - id: 34
-        quantity: 2800000
-      - id: 35
-        quantity: 1000000
-      - id: 36
-        quantity: 180000
-      - id: 37
-        quantity: 20000
-      - id: 38
-        quantity: 10000
-      - id: 39
-        quantity: 4000
-      - id: 40
-        quantity: 2000
-      - id: 57473
-        quantity: 8
-      - id: 57478
-        quantity: 100
       - id: 57486
         quantity: 50
-      lp: 100000
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
+      lp: 40000
   15794:
     bpid: 29338
     bpruns: 1
@@ -22956,27 +22844,25 @@ offers:
       items:
       - id: 17255
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57470
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   15795:
     bpid: 29338
     bpruns: 1
@@ -22988,27 +22874,25 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57470
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   15796:
     bpid: 29341
     bpruns: 1
@@ -23021,27 +22905,25 @@ offers:
       items:
       - id: 17244
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57471
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   15797:
     bpid: 29341
     bpruns: 1
@@ -23053,27 +22935,25 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57471
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   15798:
     bpid: 29345
     bpruns: 1
@@ -23086,27 +22966,25 @@ offers:
       items:
       - id: 17266
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57472
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   15799:
     bpid: 29345
     bpruns: 1
@@ -23118,27 +22996,25 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57472
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   15800:
     bpid: 29339
     bpruns: 1
@@ -23151,27 +23027,25 @@ offers:
       items:
       - id: 17223
         quantity: 1
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57473
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   15801:
     bpid: 29339
     bpruns: 1
@@ -23183,27 +23057,25 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 34
-        quantity: 540000
-      - id: 35
-        quantity: 180000
-      - id: 36
-        quantity: 36000
-      - id: 37
-        quantity: 10000
-      - id: 38
-        quantity: 1500
-      - id: 39
-        quantity: 1000
-      - id: 40
-        quantity: 500
-      - id: 57473
-        quantity: 4
-      - id: 57478
-        quantity: 50
       - id: 57486
         quantity: 25
-      lp: 45000
+      - id: 57478
+        quantity: 50
+      - id: 40
+        quantity: 500
+      - id: 39
+        quantity: 1000
+      - id: 38
+        quantity: 1500
+      - id: 37
+        quantity: 10000
+      - id: 36
+        quantity: 36000
+      - id: 35
+        quantity: 180000
+      - id: 34
+        quantity: 540000
+      lp: 18000
   15802:
     id: 15802
     name: 20* Navy Cap Booster 75
@@ -25502,29 +25374,27 @@ offers:
       items:
       - id: 17299
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57470
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   16341:
     bpid: 32306
     bpruns: 1
@@ -25536,29 +25406,27 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57470
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   16342:
     bpid: 32312
     bpruns: 1
@@ -25571,29 +25439,27 @@ offers:
       items:
       - id: 17305
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57473
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   16343:
     bpid: 32312
     bpruns: 1
@@ -25605,29 +25471,27 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57473
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   16344:
     bpid: 32308
     bpruns: 1
@@ -25640,29 +25504,27 @@ offers:
       items:
       - id: 17291
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57472
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   16345:
     bpid: 32308
     bpruns: 1
@@ -25674,29 +25536,27 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57472
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   16346:
     bpid: 32310
     bpruns: 1
@@ -25709,29 +25569,27 @@ offers:
       items:
       - id: 17295
         quantity: 1
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57471
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   16347:
     bpid: 32310
     bpruns: 1
@@ -25743,29 +25601,27 @@ offers:
     requirements:
       isk: 20000000
       items:
-      - id: 34
-        quantity: 8000000
-      - id: 35
-        quantity: 4000000
-      - id: 36
-        quantity: 600000
-      - id: 37
-        quantity: 400000
-      - id: 38
-        quantity: 30000
-      - id: 39
-        quantity: 8000
-      - id: 40
-        quantity: 4000
-      - id: 57471
-        quantity: 16
-      - id: 57478
-        quantity: 200
       - id: 57479
         quantity: 1
       - id: 57486
         quantity: 100
-      lp: 250000
+      - id: 57478
+        quantity: 200
+      - id: 40
+        quantity: 4000
+      - id: 39
+        quantity: 8000
+      - id: 38
+        quantity: 30000
+      - id: 37
+        quantity: 400000
+      - id: 36
+        quantity: 600000
+      - id: 35
+        quantity: 4000000
+      - id: 34
+        quantity: 8000000
+      lp: 100000
   16348:
     id: 16348
     name: Algos Triglavian Twilight SKIN
@@ -31360,20 +31216,1558 @@ offers:
     requirements:
       isk: 15000000
       lp: 30000
-  17213:
-    bpid: 72922
-    bpruns: 1
-    id: 17213
-    name: Heron Navy Issue(BPC)
+  17208:
+    id: 17208
+    name: Rifter Corporation Emblem
     product:
-      id: 72904
+      id: 72964
+      quantity: 1
+    requirements:
+      lp: 5000
+  17212:
+    id: 17212
+    name: Heron Corporation Emblem
+    product:
+      id: 73377
+      quantity: 1
+    requirements:
+      lp: 5000
+  17221:
+    id: 17221
+    name: Rifter Alliance Emblem
+    product:
+      id: 73394
+      quantity: 1
+    requirements:
+      lp: 5000
+  17224:
+    id: 17224
+    name: Heron Alliance Emblem
+    product:
+      id: 73682
+      quantity: 1
+    requirements:
+      lp: 5000
+  17225:
+    id: 17225
+    name: Algos Alliance Emblem
+    product:
+      id: 73728
+      quantity: 1
+    requirements:
+      lp: 7500
+  17226:
+    id: 17226
+    name: Amarr Shuttle Alliance Emblem
+    product:
+      id: 73729
+      quantity: 1
+    requirements:
+      lp: 2500
+  17227:
+    id: 17227
+    name: Apotheosis Alliance Emblem
+    product:
+      id: 73738
+      quantity: 1
+    requirements:
+      lp: 3500
+  17228:
+    id: 17228
+    name: Astero Alliance Emblem
+    product:
+      id: 73651
+      quantity: 1
+    requirements:
+      lp: 6000
+  17229:
+    id: 17229
+    name: Atron Alliance Emblem
+    product:
+      id: 73652
+      quantity: 1
+    requirements:
+      lp: 5000
+  17230:
+    id: 17230
+    name: Badger Alliance Emblem
+    product:
+      id: 73653
+      quantity: 1
+    requirements:
+      lp: 7500
+  17231:
+    id: 17231
+    name: Bantam Alliance Emblem
+    product:
+      id: 73654
+      quantity: 1
+    requirements:
+      lp: 5000
+  17232:
+    id: 17232
+    name: Bestower Alliance Emblem
+    product:
+      id: 73655
+      quantity: 1
+    requirements:
+      lp: 7500
+  17233:
+    id: 17233
+    name: Boobook Alliance Emblem
+    product:
+      id: 73656
+      quantity: 1
+    requirements:
+      lp: 2500
+  17234:
+    id: 17234
+    name: Breacher Alliance Emblem
+    product:
+      id: 73657
+      quantity: 1
+    requirements:
+      lp: 5000
+  17235:
+    id: 17235
+    name: Brutix Alliance Emblem
+    product:
+      id: 73658
+      quantity: 1
+    requirements:
+      lp: 12500
+  17236:
+    id: 17236
+    name: Burst Alliance Emblem
+    product:
+      id: 73659
+      quantity: 1
+    requirements:
+      lp: 5000
+  17237:
+    id: 17237
+    name: Caldari Shuttle Alliance Emblem
+    product:
+      id: 73660
+      quantity: 1
+    requirements:
+      lp: 2500
+  17238:
+    id: 17238
+    name: Catalyst Alliance Emblem
+    product:
+      id: 73739
+      quantity: 1
+    requirements:
+      lp: 7500
+  17239:
+    id: 17239
+    name: Charon Alliance Emblem
+    product:
+      id: 73661
+      quantity: 1
+    requirements:
+      lp: 17500
+  17240:
+    id: 17240
+    name: Coercer Alliance Emblem
+    product:
+      id: 73662
+      quantity: 1
+    requirements:
+      lp: 7500
+  17241:
+    id: 17241
+    name: Condor Alliance Emblem
+    product:
+      id: 73663
+      quantity: 1
+    requirements:
+      lp: 5000
+  17242:
+    id: 17242
+    name: Corax Alliance Emblem
+    product:
+      id: 73664
+      quantity: 1
+    requirements:
+      lp: 7500
+  17243:
+    id: 17243
+    name: Cormorant Alliance Emblem
+    product:
+      id: 73665
+      quantity: 1
+    requirements:
+      lp: 7500
+  17244:
+    id: 17244
+    name: Council Diplomatic Shuttle Alliance Emblem
+    product:
+      id: 73666
+      quantity: 1
+    requirements:
+      lp: 3500
+  17245:
+    id: 17245
+    name: Crucifier Alliance Emblem
+    product:
+      id: 73667
+      quantity: 1
+    requirements:
+      lp: 5000
+  17246:
+    id: 17246
+    name: Cyclone Alliance Emblem
+    product:
+      id: 73668
+      quantity: 1
+    requirements:
+      lp: 12500
+  17247:
+    id: 17247
+    name: Dragoon Alliance Emblem
+    product:
+      id: 73669
+      quantity: 1
+    requirements:
+      lp: 7500
+  17248:
+    id: 17248
+    name: Drake Alliance Emblem
+    product:
+      id: 73670
+      quantity: 1
+    requirements:
+      lp: 12500
+  17249:
+    id: 17249
+    name: Echo Alliance Emblem
+    product:
+      id: 73740
+      quantity: 1
+    requirements:
+      lp: 3500
+  17250:
+    id: 17250
+    name: Epithal Alliance Emblem
+    product:
+      id: 73671
+      quantity: 1
+    requirements:
+      lp: 7500
+  17251:
+    id: 17251
+    name: Executioner Alliance Emblem
+    product:
+      id: 73672
+      quantity: 1
+    requirements:
+      lp: 5000
+  17252:
+    id: 17252
+    name: Fenrir Alliance Emblem
+    product:
+      id: 73673
+      quantity: 1
+    requirements:
+      lp: 17500
+  17253:
+    id: 17253
+    name: Ferox Alliance Emblem
+    product:
+      id: 73674
+      quantity: 1
+    requirements:
+      lp: 12500
+  17254:
+    id: 17254
+    name: Gallente Shuttle Alliance Emblem
+    product:
+      id: 73675
+      quantity: 1
+    requirements:
+      lp: 2500
+  17255:
+    id: 17255
+    name: Gnosis Alliance Emblem
+    product:
+      id: 73676
+      quantity: 1
+    requirements:
+      lp: 13500
+  17256:
+    id: 17256
+    name: Gold Magnate Alliance Emblem
+    product:
+      id: 73677
+      quantity: 1
+    requirements:
+      lp: 5000
+  17257:
+    id: 17257
+    name: Goru's Shuttle Alliance Emblem
+    product:
+      id: 73678
+      quantity: 1
+    requirements:
+      lp: 2500
+  17258:
+    id: 17258
+    name: Griffin Alliance Emblem
+    product:
+      id: 73679
+      quantity: 1
+    requirements:
+      lp: 5000
+  17259:
+    id: 17259
+    name: Guristas Shuttle Alliance Emblem
+    product:
+      id: 73680
+      quantity: 1
+    requirements:
+      lp: 3500
+  17260:
+    id: 17260
+    name: Harbinger Alliance Emblem
+    product:
+      id: 73741
+      quantity: 1
+    requirements:
+      lp: 12500
+  17261:
+    id: 17261
+    name: Hematos Alliance Emblem
+    product:
+      id: 73681
+      quantity: 1
+    requirements:
+      lp: 3500
+  17262:
+    id: 17262
+    name: Hoarder Alliance Emblem
+    product:
+      id: 73683
+      quantity: 1
+    requirements:
+      lp: 7500
+  17263:
+    id: 17263
+    name: Hurricane Alliance Emblem
+    product:
+      id: 73684
+      quantity: 1
+    requirements:
+      lp: 12500
+  17264:
+    id: 17264
+    name: Ibis Alliance Emblem
+    product:
+      id: 73685
+      quantity: 1
+    requirements:
+      lp: 2500
+  17265:
+    id: 17265
+    name: Imicus Alliance Emblem
+    product:
+      id: 73686
+      quantity: 1
+    requirements:
+      lp: 5000
+  17266:
+    id: 17266
+    name: Immolator Alliance Emblem
+    product:
+      id: 73687
+      quantity: 1
+    requirements:
+      lp: 3500
+  17268:
+    id: 17268
+    name: Impairor Alliance Emblem
+    product:
+      id: 73688
+      quantity: 1
+    requirements:
+      lp: 2500
+  17269:
+    id: 17269
+    name: Incursus Alliance Emblem
+    product:
+      id: 73689
+      quantity: 1
+    requirements:
+      lp: 5000
+  17270:
+    id: 17270
+    name: Inquisitor Alliance Emblem
+    product:
+      id: 73690
+      quantity: 1
+    requirements:
+      lp: 5000
+  17271:
+    id: 17271
+    name: InterBus Shuttle Alliance Emblem
+    product:
+      id: 73742
+      quantity: 1
+    requirements:
+      lp: 3500
+  17272:
+    id: 17272
+    name: Iteron Mark V Alliance Emblem
+    product:
+      id: 73691
+      quantity: 1
+    requirements:
+      lp: 7500
+  17273:
+    id: 17273
+    name: Kestrel Alliance Emblem
+    product:
+      id: 73692
+      quantity: 1
+    requirements:
+      lp: 5000
+  17274:
+    id: 17274
+    name: Kryos Alliance Emblem
+    product:
+      id: 73693
+      quantity: 1
+    requirements:
+      lp: 7500
+  17275:
+    id: 17275
+    name: Leopard Alliance Emblem
+    product:
+      id: 73694
+      quantity: 1
+    requirements:
+      lp: 3500
+  17276:
+    id: 17276
+    name: Magnate Alliance Emblem
+    product:
+      id: 73695
+      quantity: 1
+    requirements:
+      lp: 5000
+  17277:
+    id: 17277
+    name: Mammoth Alliance Emblem
+    product:
+      id: 73696
+      quantity: 1
+    requirements:
+      lp: 7500
+  17278:
+    id: 17278
+    name: Maulus Alliance Emblem
+    product:
+      id: 73697
+      quantity: 1
+    requirements:
+      lp: 5000
+  17279:
+    id: 17279
+    name: Merlin Alliance Emblem
+    product:
+      id: 73698
+      quantity: 1
+    requirements:
+      lp: 5000
+  17280:
+    id: 17280
+    name: Miasmos Alliance Emblem
+    product:
+      id: 73699
+      quantity: 1
+    requirements:
+      lp: 7500
+  17281:
+    id: 17281
+    name: Minmatar Shuttle Alliance Emblem
+    product:
+      id: 73700
+      quantity: 1
+    requirements:
+      lp: 2500
+  17282:
+    id: 17282
+    name: Moros Alliance Emblem
+    product:
+      id: 73743
+      quantity: 1
+    requirements:
+      lp: 17500
+  17283:
+    id: 17283
+    name: Myrmidon Alliance Emblem
+    product:
+      id: 73701
+      quantity: 1
+    requirements:
+      lp: 12500
+  17284:
+    id: 17284
+    name: Naga Alliance Emblem
+    product:
+      id: 73702
+      quantity: 1
+    requirements:
+      lp: 12500
+  17285:
+    id: 17285
+    name: Naglfar Alliance Emblem
+    product:
+      id: 73703
+      quantity: 1
+    requirements:
+      lp: 17500
+  17286:
+    id: 17286
+    name: Navitas Alliance Emblem
+    product:
+      id: 73704
+      quantity: 1
+    requirements:
+      lp: 5000
+  17287:
+    id: 17287
+    name: Nereus Alliance Emblem
+    product:
+      id: 73705
+      quantity: 1
+    requirements:
+      lp: 7500
+  17288:
+    id: 17288
+    name: Obelisk Alliance Emblem
+    product:
+      id: 73706
+      quantity: 1
+    requirements:
+      lp: 17500
+  17289:
+    id: 17289
+    name: Oracle Alliance Emblem
+    product:
+      id: 73707
+      quantity: 1
+    requirements:
+      lp: 12500
+  17290:
+    id: 17290
+    name: Phoenix Alliance Emblem
+    product:
+      id: 73708
+      quantity: 1
+    requirements:
+      lp: 17500
+  17291:
+    id: 17291
+    name: Probe Alliance Emblem
+    product:
+      id: 73709
+      quantity: 1
+    requirements:
+      lp: 5000
+  17292:
+    id: 17292
+    name: Prophecy Alliance Emblem
+    product:
+      id: 73710
+      quantity: 1
+    requirements:
+      lp: 12500
+  17293:
+    id: 17293
+    name: Providence Alliance Emblem
+    product:
+      id: 73567
+      quantity: 1
+    requirements:
+      lp: 17500
+  17294:
+    id: 17294
+    name: Punisher Alliance Emblem
+    product:
+      id: 73711
+      quantity: 1
+    requirements:
+      lp: 5000
+  17295:
+    id: 17295
+    name: Reaper Alliance Emblem
+    product:
+      id: 73712
+      quantity: 1
+    requirements:
+      lp: 2500
+  17296:
+    id: 17296
+    name: Revelation Alliance Emblem
+    product:
+      id: 73713
+      quantity: 1
+    requirements:
+      lp: 17500
+  17297:
+    id: 17297
+    name: Sigil Alliance Emblem
+    product:
+      id: 73714
+      quantity: 1
+    requirements:
+      lp: 7500
+  17298:
+    id: 17298
+    name: Silver Magnate Alliance Emblem
+    product:
+      id: 73715
+      quantity: 1
+    requirements:
+      lp: 5000
+  17299:
+    id: 17299
+    name: Slasher Alliance Emblem
+    product:
+      id: 73716
+      quantity: 1
+    requirements:
+      lp: 5000
+  17300:
+    id: 17300
+    name: Sunesis Alliance Emblem
+    product:
+      id: 73717
+      quantity: 1
+    requirements:
+      lp: 8500
+  17301:
+    id: 17301
+    name: Taipan Alliance Emblem
+    product:
+      id: 73718
+      quantity: 1
+    requirements:
+      lp: 3500
+  17302:
+    id: 17302
+    name: Talos Alliance Emblem
+    product:
+      id: 73719
+      quantity: 1
+    requirements:
+      lp: 12500
+  17303:
+    id: 17303
+    name: Talwar Alliance Emblem
+    product:
+      id: 73720
+      quantity: 1
+    requirements:
+      lp: 7500
+  17304:
+    id: 17304
+    name: Tayra Alliance Emblem
+    product:
+      id: 73568
+      quantity: 1
+    requirements:
+      lp: 7500
+  17305:
+    id: 17305
+    name: Thrasher Alliance Emblem
+    product:
+      id: 73721
+      quantity: 1
+    requirements:
+      lp: 7500
+  17306:
+    id: 17306
+    name: Tormentor Alliance Emblem
+    product:
+      id: 73722
+      quantity: 1
+    requirements:
+      lp: 5000
+  17307:
+    id: 17307
+    name: Tornado Alliance Emblem
+    product:
+      id: 73723
+      quantity: 1
+    requirements:
+      lp: 12500
+  17308:
+    id: 17308
+    name: Tristan Alliance Emblem
+    product:
+      id: 73724
+      quantity: 1
+    requirements:
+      lp: 5000
+  17309:
+    id: 17309
+    name: Velator Alliance Emblem
+    product:
+      id: 73725
+      quantity: 1
+    requirements:
+      lp: 2500
+  17310:
+    id: 17310
+    name: Venture Alliance Emblem
+    product:
+      id: 73726
+      quantity: 1
+    requirements:
+      lp: 3500
+  17311:
+    id: 17311
+    name: Vigil Alliance Emblem
+    product:
+      id: 73727
+      quantity: 1
+    requirements:
+      lp: 5000
+  17312:
+    id: 17312
+    name: Violator Alliance Emblem
+    product:
+      id: 73569
+      quantity: 1
+    requirements:
+      lp: 3500
+  17313:
+    id: 17313
+    name: Wreathe Alliance Emblem
+    product:
+      id: 73570
+      quantity: 1
+    requirements:
+      lp: 7500
+  17314:
+    id: 17314
+    name: Algos Corporation Emblem
+    product:
+      id: 73730
+      quantity: 1
+    requirements:
+      lp: 7500
+  17315:
+    id: 17315
+    name: Amarr Shuttle Corporation Emblem
+    product:
+      id: 73571
+      quantity: 1
+    requirements:
+      lp: 2500
+  17316:
+    id: 17316
+    name: Apotheosis Corporation Emblem
+    product:
+      id: 73572
+      quantity: 1
+    requirements:
+      lp: 3500
+  17317:
+    id: 17317
+    name: Astero Corporation Emblem
+    product:
+      id: 73573
+      quantity: 1
+    requirements:
+      lp: 6000
+  17318:
+    id: 17318
+    name: Atron Corporation Emblem
+    product:
+      id: 73574
+      quantity: 1
+    requirements:
+      lp: 5000
+  17319:
+    id: 17319
+    name: Badger Corporation Emblem
+    product:
+      id: 73575
+      quantity: 1
+    requirements:
+      lp: 7500
+  17320:
+    id: 17320
+    name: Bantam Corporation Emblem
+    product:
+      id: 73576
+      quantity: 1
+    requirements:
+      lp: 5000
+  17321:
+    id: 17321
+    name: Bestower Corporation Emblem
+    product:
+      id: 73577
+      quantity: 1
+    requirements:
+      lp: 7500
+  17322:
+    id: 17322
+    name: Boobook Corporation Emblem
+    product:
+      id: 73578
+      quantity: 1
+    requirements:
+      lp: 2500
+  17323:
+    id: 17323
+    name: Breacher Corporation Emblem
+    product:
+      id: 73579
+      quantity: 1
+    requirements:
+      lp: 5000
+  17324:
+    id: 17324
+    name: Brutix Corporation Emblem
+    product:
+      id: 73580
+      quantity: 1
+    requirements:
+      lp: 12500
+  17325:
+    id: 17325
+    name: Burst Corporation Emblem
+    product:
+      id: 73731
+      quantity: 1
+    requirements:
+      lp: 5000
+  17326:
+    id: 17326
+    name: Caldari Shuttle Corporation Emblem
+    product:
+      id: 73581
+      quantity: 1
+    requirements:
+      lp: 2500
+  17327:
+    id: 17327
+    name: Catalyst Corporation Emblem
+    product:
+      id: 73582
+      quantity: 1
+    requirements:
+      lp: 7500
+  17328:
+    id: 17328
+    name: Charon Corporation Emblem
+    product:
+      id: 73583
+      quantity: 1
+    requirements:
+      lp: 17500
+  17329:
+    id: 17329
+    name: Coercer Corporation Emblem
+    product:
+      id: 73584
+      quantity: 1
+    requirements:
+      lp: 7500
+  17330:
+    id: 17330
+    name: Condor Corporation Emblem
+    product:
+      id: 73585
+      quantity: 1
+    requirements:
+      lp: 5000
+  17331:
+    id: 17331
+    name: Corax Corporation Emblem
+    product:
+      id: 73586
+      quantity: 1
+    requirements:
+      lp: 7500
+  17332:
+    id: 17332
+    name: Cormorant Corporation Emblem
+    product:
+      id: 73587
+      quantity: 1
+    requirements:
+      lp: 7500
+  17333:
+    id: 17333
+    name: Council Diplomatic Shuttle Corporation Emblem
+    product:
+      id: 73588
+      quantity: 1
+    requirements:
+      lp: 3500
+  17334:
+    id: 17334
+    name: Crucifier Corporation Emblem
+    product:
+      id: 73589
+      quantity: 1
+    requirements:
+      lp: 5000
+  17335:
+    id: 17335
+    name: Cyclone Corporation Emblem
+    product:
+      id: 73590
+      quantity: 1
+    requirements:
+      lp: 12500
+  17336:
+    id: 17336
+    name: Dragoon Corporation Emblem
+    product:
+      id: 73732
+      quantity: 1
+    requirements:
+      lp: 7500
+  17337:
+    id: 17337
+    name: Drake Corporation Emblem
+    product:
+      id: 73591
+      quantity: 1
+    requirements:
+      lp: 12500
+  17338:
+    id: 17338
+    name: Echo Corporation Emblem
+    product:
+      id: 73592
+      quantity: 1
+    requirements:
+      lp: 3500
+  17339:
+    id: 17339
+    name: Epithal Corporation Emblem
+    product:
+      id: 73593
+      quantity: 1
+    requirements:
+      lp: 7500
+  17340:
+    id: 17340
+    name: Executioner Corporation Emblem
+    product:
+      id: 73594
+      quantity: 1
+    requirements:
+      lp: 5000
+  17341:
+    id: 17341
+    name: Fenrir Corporation Emblem
+    product:
+      id: 73595
+      quantity: 1
+    requirements:
+      lp: 17500
+  17342:
+    id: 17342
+    name: Ferox Corporation Emblem
+    product:
+      id: 73596
+      quantity: 1
+    requirements:
+      lp: 12500
+  17343:
+    id: 17343
+    name: Gallente Shuttle Corporation Emblem
+    product:
+      id: 73597
+      quantity: 1
+    requirements:
+      lp: 2500
+  17344:
+    id: 17344
+    name: Gnosis Corporation Emblem
+    product:
+      id: 73598
+      quantity: 1
+    requirements:
+      lp: 13500
+  17345:
+    id: 17345
+    name: Gold Magnate Corporation Emblem
+    product:
+      id: 73599
+      quantity: 1
+    requirements:
+      lp: 5000
+  17346:
+    id: 17346
+    name: Goru's Shuttle Corporation Emblem
+    product:
+      id: 73600
+      quantity: 1
+    requirements:
+      lp: 2500
+  17347:
+    id: 17347
+    name: Griffin Corporation Emblem
+    product:
+      id: 73733
+      quantity: 1
+    requirements:
+      lp: 5000
+  17348:
+    id: 17348
+    name: Guristas Shuttle Corporation Emblem
+    product:
+      id: 73601
+      quantity: 1
+    requirements:
+      lp: 3500
+  17349:
+    id: 17349
+    name: Harbinger Corporation Emblem
+    product:
+      id: 73602
+      quantity: 1
+    requirements:
+      lp: 12500
+  17350:
+    id: 17350
+    name: Hematos Corporation Emblem
+    product:
+      id: 73603
+      quantity: 1
+    requirements:
+      lp: 3500
+  17351:
+    id: 17351
+    name: Hoarder Corporation Emblem
+    product:
+      id: 73604
+      quantity: 1
+    requirements:
+      lp: 7500
+  17352:
+    id: 17352
+    name: Hurricane Corporation Emblem
+    product:
+      id: 73605
+      quantity: 1
+    requirements:
+      lp: 12500
+  17353:
+    id: 17353
+    name: Ibis Corporation Emblem
+    product:
+      id: 73606
+      quantity: 1
+    requirements:
+      lp: 2500
+  17354:
+    id: 17354
+    name: Imicus Corporation Emblem
+    product:
+      id: 73607
+      quantity: 1
+    requirements:
+      lp: 5000
+  17355:
+    id: 17355
+    name: Immolator Corporation Emblem
+    product:
+      id: 73608
+      quantity: 1
+    requirements:
+      lp: 3500
+  17356:
+    id: 17356
+    name: Impairor Corporation Emblem
+    product:
+      id: 73609
+      quantity: 1
+    requirements:
+      lp: 2500
+  17357:
+    id: 17357
+    name: Incursus Corporation Emblem
+    product:
+      id: 73610
+      quantity: 1
+    requirements:
+      lp: 5000
+  17358:
+    id: 17358
+    name: Inquisitor Corporation Emblem
+    product:
+      id: 73734
+      quantity: 1
+    requirements:
+      lp: 5000
+  17359:
+    id: 17359
+    name: InterBus Shuttle Corporation Emblem
+    product:
+      id: 73611
+      quantity: 1
+    requirements:
+      lp: 3500
+  17360:
+    id: 17360
+    name: Iteron Mark V Corporation Emblem
+    product:
+      id: 73612
+      quantity: 1
+    requirements:
+      lp: 7500
+  17361:
+    id: 17361
+    name: Kestrel Corporation Emblem
+    product:
+      id: 73613
+      quantity: 1
+    requirements:
+      lp: 5000
+  17362:
+    id: 17362
+    name: Kryos Corporation Emblem
+    product:
+      id: 73614
+      quantity: 1
+    requirements:
+      lp: 7500
+  17363:
+    id: 17363
+    name: Leopard Corporation Emblem
+    product:
+      id: 73615
+      quantity: 1
+    requirements:
+      lp: 3500
+  17364:
+    id: 17364
+    name: Magnate Corporation Emblem
+    product:
+      id: 73616
+      quantity: 1
+    requirements:
+      lp: 5000
+  17365:
+    id: 17365
+    name: Mammoth Corporation Emblem
+    product:
+      id: 73617
+      quantity: 1
+    requirements:
+      lp: 7500
+  17366:
+    id: 17366
+    name: Maulus Corporation Emblem
+    product:
+      id: 73618
+      quantity: 1
+    requirements:
+      lp: 5000
+  17367:
+    id: 17367
+    name: Merlin Corporation Emblem
+    product:
+      id: 73619
+      quantity: 1
+    requirements:
+      lp: 5000
+  17368:
+    id: 17368
+    name: Miasmos Corporation Emblem
+    product:
+      id: 73620
+      quantity: 1
+    requirements:
+      lp: 7500
+  17369:
+    id: 17369
+    name: Minmatar Shuttle Corporation Emblem
+    product:
+      id: 73735
+      quantity: 1
+    requirements:
+      lp: 2500
+  17370:
+    id: 17370
+    name: Moros Corporation Emblem
+    product:
+      id: 73621
+      quantity: 1
+    requirements:
+      lp: 17500
+  17371:
+    id: 17371
+    name: Myrmidon Corporation Emblem
+    product:
+      id: 73622
+      quantity: 1
+    requirements:
+      lp: 12500
+  17372:
+    id: 17372
+    name: Naga Corporation Emblem
+    product:
+      id: 73623
+      quantity: 1
+    requirements:
+      lp: 12500
+  17373:
+    id: 17373
+    name: Naglfar Corporation Emblem
+    product:
+      id: 73624
+      quantity: 1
+    requirements:
+      lp: 17500
+  17374:
+    id: 17374
+    name: Navitas Corporation Emblem
+    product:
+      id: 73625
+      quantity: 1
+    requirements:
+      lp: 5000
+  17375:
+    id: 17375
+    name: Nereus Corporation Emblem
+    product:
+      id: 73626
+      quantity: 1
+    requirements:
+      lp: 7500
+  17376:
+    id: 17376
+    name: Obelisk Corporation Emblem
+    product:
+      id: 73627
+      quantity: 1
+    requirements:
+      lp: 17500
+  17377:
+    id: 17377
+    name: Oracle Corporation Emblem
+    product:
+      id: 73628
+      quantity: 1
+    requirements:
+      lp: 12500
+  17378:
+    id: 17378
+    name: Phoenix Corporation Emblem
+    product:
+      id: 73629
+      quantity: 1
+    requirements:
+      lp: 17500
+  17379:
+    id: 17379
+    name: Probe Corporation Emblem
+    product:
+      id: 73630
+      quantity: 1
+    requirements:
+      lp: 5000
+  17380:
+    id: 17380
+    name: Prophecy Corporation Emblem
+    product:
+      id: 73736
+      quantity: 1
+    requirements:
+      lp: 12500
+  17381:
+    id: 17381
+    name: Providence Corporation Emblem
+    product:
+      id: 73631
+      quantity: 1
+    requirements:
+      lp: 17500
+  17382:
+    id: 17382
+    name: Punisher Corporation Emblem
+    product:
+      id: 73632
+      quantity: 1
+    requirements:
+      lp: 5000
+  17383:
+    id: 17383
+    name: Reaper Corporation Emblem
+    product:
+      id: 73633
+      quantity: 1
+    requirements:
+      lp: 2500
+  17384:
+    id: 17384
+    name: Revelation Corporation Emblem
+    product:
+      id: 73634
+      quantity: 1
+    requirements:
+      lp: 17500
+  17385:
+    id: 17385
+    name: Sigil Corporation Emblem
+    product:
+      id: 73635
+      quantity: 1
+    requirements:
+      lp: 7500
+  17386:
+    id: 17386
+    name: Silver Magnate Corporation Emblem
+    product:
+      id: 73636
+      quantity: 1
+    requirements:
+      lp: 5000
+  17387:
+    id: 17387
+    name: Slasher Corporation Emblem
+    product:
+      id: 73637
+      quantity: 1
+    requirements:
+      lp: 5000
+  17388:
+    id: 17388
+    name: Sunesis Corporation Emblem
+    product:
+      id: 73638
+      quantity: 1
+    requirements:
+      lp: 8500
+  17389:
+    id: 17389
+    name: Taipan Corporation Emblem
+    product:
+      id: 73639
+      quantity: 1
+    requirements:
+      lp: 3500
+  17390:
+    id: 17390
+    name: Talos Corporation Emblem
+    product:
+      id: 73640
+      quantity: 1
+    requirements:
+      lp: 12500
+  17391:
+    id: 17391
+    name: Talwar Corporation Emblem
+    product:
+      id: 73737
+      quantity: 1
+    requirements:
+      lp: 7500
+  17392:
+    id: 17392
+    name: Tayra Corporation Emblem
+    product:
+      id: 73641
+      quantity: 1
+    requirements:
+      lp: 7500
+  17393:
+    id: 17393
+    name: Thrasher Corporation Emblem
+    product:
+      id: 73642
+      quantity: 1
+    requirements:
+      lp: 7500
+  17394:
+    id: 17394
+    name: Tormentor Corporation Emblem
+    product:
+      id: 73643
+      quantity: 1
+    requirements:
+      lp: 5000
+  17395:
+    id: 17395
+    name: Tornado Corporation Emblem
+    product:
+      id: 73644
+      quantity: 1
+    requirements:
+      lp: 12500
+  17396:
+    id: 17396
+    name: Tristan Corporation Emblem
+    product:
+      id: 73645
+      quantity: 1
+    requirements:
+      lp: 5000
+  17397:
+    id: 17397
+    name: Velator Corporation Emblem
+    product:
+      id: 73646
+      quantity: 1
+    requirements:
+      lp: 2500
+  17398:
+    id: 17398
+    name: Venture Corporation Emblem
+    product:
+      id: 73647
+      quantity: 1
+    requirements:
+      lp: 3500
+  17399:
+    id: 17399
+    name: Vigil Corporation Emblem
+    product:
+      id: 73648
+      quantity: 1
+    requirements:
+      lp: 5000
+  17400:
+    id: 17400
+    name: Violator Corporation Emblem
+    product:
+      id: 73649
+      quantity: 1
+    requirements:
+      lp: 3500
+  17401:
+    id: 17401
+    name: Wreathe Corporation Emblem
+    product:
+      id: 73650
+      quantity: 1
+    requirements:
+      lp: 7500
+  17402:
+    id: 17402
+    name: Amarr Propaganda Broadcast Structure
+    product:
+      id: 73225
       quantity: 1
     requirements:
       items:
-      - id: 73248
-        quantity: 125
-      - id: 57471
+      - id: 73402
         quantity: 1
+      lp: 100
+  17403:
+    id: 17403
+    name: Minmatar Propaganda Broadcast Structure
+    product:
+      id: 73226
+      quantity: 1
+    requirements:
+      items:
+      - id: 73401
+        quantity: 1
+      lp: 100
+  17404:
+    id: 17404
+    name: Caldari Propaganda Broadcast Structure
+    product:
+      id: 73227
+      quantity: 1
+    requirements:
+      items:
+      - id: 73404
+        quantity: 1
+      lp: 100
+  17405:
+    id: 17405
+    name: Gallente Propaganda Broadcast Structure
+    product:
+      id: 73228
+      quantity: 1
+    requirements:
+      items:
+      - id: 73403
+        quantity: 1
+      lp: 100
+  17406:
+    id: 17406
+    name: Amarr Listening Outpost
+    product:
+      id: 73270
+      quantity: 1
+    requirements:
+      items:
+      - id: 73398
+        quantity: 1
+      lp: 100
+  17407:
+    id: 17407
+    name: Minmatar Listening Outpost
+    product:
+      id: 73271
+      quantity: 1
+    requirements:
+      items:
+      - id: 73397
+        quantity: 1
+      lp: 100
+  17408:
+    id: 17408
+    name: Caldari Listening Outpost
+    product:
+      id: 73272
+      quantity: 1
+    requirements:
+      items:
+      - id: 73400
+        quantity: 1
+      lp: 100
+  17409:
+    id: 17409
+    name: Gallente Listening Outpost
+    product:
+      id: 73273
+      quantity: 1
+    requirements:
+      items:
+      - id: 73399
+        quantity: 1
+      lp: 100
+  17410:
+    id: 17410
+    name: Magnate Navy Issue
+    product:
+      id: 72907
+      quantity: 1
+    requirements:
+      items:
+      - id: 17795
+        quantity: 1
+      - id: 29248
+        quantity: 1
+      lp: 10000
+  17411:
+    bpid: 72920
+    bpruns: 1
+    id: 17411
+    name: Magnate Navy Issue(BPC)
+    product:
+      id: 72907
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
       - id: 57486
         quantity: 5
       - id: 40
@@ -31392,51 +32786,18 @@ offers:
         quantity: 6000
       - id: 34
         quantity: 32000
-  17214:
-    bpid: 72926
-    bpruns: 1
-    id: 17214
-    name: Ferox Navy Issue(BPC)
-    product:
-      id: 72812
-      quantity: 1
-    requirements:
-      items:
-      - id: 73248
-        quantity: 1250
-      - id: 57471
-        quantity: 8
-      - id: 57486
-        quantity: 50
-      - id: 57478
-        quantity: 100
-      - id: 40
-        quantity: 2000
-      - id: 39
-        quantity: 4000
-      - id: 38
-        quantity: 10000
-      - id: 37
-        quantity: 20000
-      - id: 36
-        quantity: 180000
-      - id: 35
-        quantity: 1000000
-      - id: 34
-        quantity: 2800000
-  17215:
+      lp: 4000
+  17412:
     bpid: 72920
     bpruns: 1
-    id: 17215
+    id: 17412
     name: Magnate Navy Issue(BPC)
     product:
       id: 72907
       quantity: 1
     requirements:
       items:
-      - id: 73250
-        quantity: 125
-      - id: 57470
+      - id: 17258
         quantity: 1
       - id: 57486
         quantity: 5
@@ -31456,115 +32817,61 @@ offers:
         quantity: 6000
       - id: 34
         quantity: 32000
-  17216:
-    bpid: 72924
-    bpruns: 1
-    id: 17216
-    name: Prophecy Navy Issue(BPC)
+      lp: 4000
+  17413:
+    id: 17413
+    name: Probe Fleet Issue
     product:
-      id: 72872
+      id: 72903
       quantity: 1
     requirements:
       items:
-      - id: 73250
-        quantity: 1250
-      - id: 57470
-        quantity: 8
-      - id: 57486
-        quantity: 50
-      - id: 57478
-        quantity: 100
-      - id: 40
-        quantity: 2000
-      - id: 39
-        quantity: 4000
-      - id: 38
-        quantity: 10000
-      - id: 37
-        quantity: 20000
-      - id: 36
-        quantity: 180000
-      - id: 35
-        quantity: 1000000
-      - id: 34
-        quantity: 2800000
-  17217:
-    bpid: 72919
-    bpruns: 1
-    id: 17217
-    name: Imicus Navy Issue(BPC)
-    product:
-      id: 72913
-      quantity: 1
-    requirements:
-      items:
-      - id: 73249
-        quantity: 125
-      - id: 57472
+      - id: 586
         quantity: 1
-      - id: 57486
-        quantity: 5
-      - id: 40
-        quantity: 10
-      - id: 57478
-        quantity: 10
-      - id: 39
-        quantity: 20
-      - id: 38
-        quantity: 30
-      - id: 37
-        quantity: 500
-      - id: 36
-        quantity: 2500
-      - id: 35
-        quantity: 6000
-      - id: 34
-        quantity: 32000
-  17218:
-    bpid: 72925
-    bpruns: 1
-    id: 17218
-    name: Myrmidon Navy Issue(BPC)
-    product:
-      id: 72869
-      quantity: 1
-    requirements:
-      items:
-      - id: 73249
-        quantity: 1250
-      - id: 57472
-        quantity: 8
-      - id: 57486
-        quantity: 50
-      - id: 57478
-        quantity: 100
-      - id: 40
-        quantity: 2000
-      - id: 39
-        quantity: 4000
-      - id: 38
-        quantity: 10000
-      - id: 37
-        quantity: 20000
-      - id: 36
-        quantity: 180000
-      - id: 35
-        quantity: 1000000
-      - id: 34
-        quantity: 2800000
-  17219:
+      - id: 17815
+        quantity: 1
+      lp: 10000
+  17414:
     bpid: 72917
     bpruns: 1
-    id: 17219
+    id: 17414
+    name: Probe Fleet Issue(BPC)
+    product:
+      id: 72903
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
+  17415:
+    bpid: 72917
+    bpruns: 1
+    id: 17415
     name: Probe Fleet Issue(BPC)
     product:
       id: 72903
       quantity: 1
     requirements:
       items:
-      - id: 73251
-        quantity: 125
-      - id: 57473
+      - id: 17226
         quantity: 1
       - id: 57486
         quantity: 5
@@ -31584,20 +32891,179 @@ offers:
         quantity: 6000
       - id: 34
         quantity: 32000
-  17220:
-    bpid: 72923
-    bpruns: 1
-    id: 17220
-    name: Cyclone Fleet Issue(BPC)
+      lp: 4000
+  17416:
+    id: 17416
+    name: Imicus Navy Issue
     product:
-      id: 72811
+      id: 72913
       quantity: 1
     requirements:
       items:
-      - id: 73251
-        quantity: 1250
-      - id: 57473
-        quantity: 8
+      - id: 607
+        quantity: 1
+      - id: 17848
+        quantity: 1
+      lp: 10000
+  17417:
+    bpid: 72919
+    bpruns: 1
+    id: 17417
+    name: Imicus Navy Issue(BPC)
+    product:
+      id: 72913
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
+  17418:
+    bpid: 72919
+    bpruns: 1
+    id: 17418
+    name: Imicus Navy Issue(BPC)
+    product:
+      id: 72913
+      quantity: 1
+    requirements:
+      items:
+      - id: 17270
+        quantity: 1
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
+  17419:
+    id: 17419
+    name: Heron Navy Issue
+    product:
+      id: 72904
+      quantity: 1
+    requirements:
+      items:
+      - id: 605
+        quantity: 1
+      - id: 17647
+        quantity: 1
+      lp: 10000
+  17420:
+    bpid: 72922
+    bpruns: 1
+    id: 17420
+    name: Heron Navy Issue(BPC)
+    product:
+      id: 72904
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
+  17421:
+    bpid: 72922
+    bpruns: 1
+    id: 17421
+    name: Heron Navy Issue(BPC)
+    product:
+      id: 72904
+      quantity: 1
+    requirements:
+      items:
+      - id: 17248
+        quantity: 1
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
+      lp: 4000
+  17422:
+    id: 17422
+    name: Prophecy Navy Issue
+    product:
+      id: 72872
+      quantity: 1
+    requirements:
+      items:
+      - id: 16233
+        quantity: 1
+      - id: 17794
+        quantity: 2
+      lp: 100000
+  17423:
+    bpid: 72924
+    bpruns: 1
+    id: 17423
+    name: Prophecy Navy Issue(BPC)
+    product:
+      id: 72872
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
       - id: 57486
         quantity: 50
       - id: 57478
@@ -31616,3 +33082,813 @@ offers:
         quantity: 1000000
       - id: 34
         quantity: 2800000
+      lp: 40000
+  17424:
+    id: 17424
+    name: Cyclone Fleet Issue
+    product:
+      id: 72811
+      quantity: 1
+    requirements:
+      items:
+      - id: 16231
+        quantity: 1
+      - id: 17816
+        quantity: 2
+      lp: 100000
+  17425:
+    bpid: 72923
+    bpruns: 1
+    id: 17425
+    name: Cyclone Fleet Issue(BPC)
+    product:
+      id: 72811
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 57486
+        quantity: 50
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
+      lp: 40000
+  17426:
+    id: 17426
+    name: Myrmidon Navy Issue
+    product:
+      id: 72869
+      quantity: 1
+    requirements:
+      items:
+      - id: 17849
+        quantity: 2
+      - id: 24700
+        quantity: 1
+      lp: 100000
+  17427:
+    bpid: 72925
+    bpruns: 1
+    id: 17427
+    name: Myrmidon Navy Issue(BPC)
+    product:
+      id: 72869
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 57486
+        quantity: 50
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
+      lp: 40000
+  17428:
+    id: 17428
+    name: Ferox Navy Issue
+    product:
+      id: 72812
+      quantity: 1
+    requirements:
+      items:
+      - id: 16227
+        quantity: 1
+      - id: 17646
+        quantity: 2
+      lp: 100000
+  17429:
+    bpid: 72926
+    bpruns: 1
+    id: 17429
+    name: Ferox Navy Issue(BPC)
+    product:
+      id: 72812
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 57486
+        quantity: 50
+      - id: 57478
+        quantity: 100
+      - id: 40
+        quantity: 2000
+      - id: 39
+        quantity: 4000
+      - id: 38
+        quantity: 10000
+      - id: 37
+        quantity: 20000
+      - id: 36
+        quantity: 180000
+      - id: 35
+        quantity: 1000000
+      - id: 34
+        quantity: 2800000
+      lp: 40000
+  17430:
+    id: 17430
+    name: Coercer Navy Issue
+    product:
+      id: 73789
+      quantity: 1
+    requirements:
+      items:
+      - id: 16236
+        quantity: 1
+      - id: 17795
+        quantity: 2
+      lp: 30000
+  17431:
+    bpid: 73973
+    bpruns: 1
+    id: 17431
+    name: Coercer Navy Issue(BPC)
+    product:
+      id: 73789
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 1000
+      - id: 36
+        quantity: 5000
+      - id: 35
+        quantity: 15000
+      - id: 34
+        quantity: 80000
+      lp: 12000
+  17432:
+    id: 17432
+    name: Thrasher Fleet Issue
+    product:
+      id: 73794
+      quantity: 1
+    requirements:
+      items:
+      - id: 16242
+        quantity: 1
+      - id: 17815
+        quantity: 2
+      lp: 30000
+  17433:
+    bpid: 73979
+    bpruns: 1
+    id: 17433
+    name: Thrasher Fleet Issue(BPC)
+    product:
+      id: 73794
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 1000
+      - id: 36
+        quantity: 5000
+      - id: 35
+        quantity: 15000
+      - id: 34
+        quantity: 80000
+      lp: 12000
+  17434:
+    id: 17434
+    name: Catalyst Navy Issue
+    product:
+      id: 73796
+      quantity: 1
+    requirements:
+      items:
+      - id: 16240
+        quantity: 1
+      - id: 17848
+        quantity: 2
+      lp: 30000
+  17435:
+    bpid: 73972
+    bpruns: 1
+    id: 17435
+    name: Catalyst Navy Issue(BPC)
+    product:
+      id: 73796
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 1000
+      - id: 36
+        quantity: 5000
+      - id: 35
+        quantity: 15000
+      - id: 34
+        quantity: 80000
+      lp: 12000
+  17436:
+    id: 17436
+    name: Cormorant Navy Issue
+    product:
+      id: 73795
+      quantity: 1
+    requirements:
+      items:
+      - id: 16238
+        quantity: 1
+      - id: 17647
+        quantity: 2
+      lp: 30000
+  17437:
+    bpid: 73978
+    bpruns: 1
+    id: 17437
+    name: Cormorant Navy Issue(BPC)
+    product:
+      id: 73795
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 57486
+        quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 1000
+      - id: 36
+        quantity: 5000
+      - id: 35
+        quantity: 15000
+      - id: 34
+        quantity: 80000
+      lp: 12000
+  17438:
+    id: 17438
+    name: Revelation Navy Issue
+    product:
+      id: 73790
+      quantity: 1
+    requirements:
+      items:
+      - id: 17793
+        quantity: 20
+      - id: 19720
+        quantity: 1
+      lp: 2500000
+  17439:
+    bpid: 74000
+    bpruns: 1
+    id: 17439
+    name: Revelation Navy Issue(BPC)
+    product:
+      id: 73790
+      quantity: 1
+    requirements:
+      isk: 200000000
+      items:
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
+      - id: 21019
+        quantity: 2
+      - id: 21021
+        quantity: 2
+      - id: 21023
+        quantity: 2
+      - id: 21025
+        quantity: 2
+      - id: 21035
+        quantity: 2
+      - id: 21037
+        quantity: 2
+      - id: 24560
+        quantity: 2
+      - id: 57474
+        quantity: 2
+      - id: 21013
+        quantity: 4
+      - id: 21009
+        quantity: 5
+      - id: 21017
+        quantity: 5
+      - id: 24558
+        quantity: 5
+      - id: 57470
+        quantity: 16
+      - id: 21011
+        quantity: 20
+      - id: 21039
+        quantity: 20
+      - id: 57486
+        quantity: 200
+      - id: 57478
+        quantity: 400
+      lp: 1000000
+  17440:
+    id: 17440
+    name: Naglfar Fleet Issue
+    product:
+      id: 73787
+      quantity: 1
+    requirements:
+      items:
+      - id: 17814
+        quantity: 20
+      - id: 19722
+        quantity: 1
+      lp: 2500000
+  17441:
+    bpid: 73999
+    bpruns: 1
+    id: 17441
+    name: Naglfar Fleet Issue(BPC)
+    product:
+      id: 73787
+      quantity: 1
+    requirements:
+      isk: 200000000
+      items:
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
+      - id: 21013
+        quantity: 2
+      - id: 21019
+        quantity: 2
+      - id: 21021
+        quantity: 2
+      - id: 21025
+        quantity: 2
+      - id: 21037
+        quantity: 2
+      - id: 24560
+        quantity: 2
+      - id: 57477
+        quantity: 2
+      - id: 21017
+        quantity: 3
+      - id: 21023
+        quantity: 4
+      - id: 21035
+        quantity: 4
+      - id: 21009
+        quantity: 5
+      - id: 24558
+        quantity: 5
+      - id: 57473
+        quantity: 16
+      - id: 21011
+        quantity: 20
+      - id: 21039
+        quantity: 20
+      - id: 57486
+        quantity: 200
+      - id: 57478
+        quantity: 400
+      lp: 1000000
+  17442:
+    id: 17442
+    name: Moros Navy Issue
+    product:
+      id: 73792
+      quantity: 1
+    requirements:
+      items:
+      - id: 17850
+        quantity: 20
+      - id: 19724
+        quantity: 1
+      lp: 2500000
+  17443:
+    bpid: 73996
+    bpruns: 1
+    id: 17443
+    name: Moros Navy Issue(BPC)
+    product:
+      id: 73792
+      quantity: 1
+    requirements:
+      isk: 200000000
+      items:
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
+      - id: 21019
+        quantity: 2
+      - id: 21021
+        quantity: 2
+      - id: 21025
+        quantity: 2
+      - id: 21035
+        quantity: 2
+      - id: 21037
+        quantity: 2
+      - id: 24560
+        quantity: 2
+      - id: 57476
+        quantity: 2
+      - id: 21023
+        quantity: 3
+      - id: 21013
+        quantity: 4
+      - id: 21017
+        quantity: 4
+      - id: 21009
+        quantity: 5
+      - id: 24558
+        quantity: 5
+      - id: 57472
+        quantity: 16
+      - id: 21011
+        quantity: 20
+      - id: 21039
+        quantity: 20
+      - id: 57486
+        quantity: 200
+      - id: 57478
+        quantity: 400
+      lp: 1000000
+  17444:
+    id: 17444
+    name: Phoenix Navy Issue
+    product:
+      id: 73793
+      quantity: 1
+    requirements:
+      items:
+      - id: 17643
+        quantity: 20
+      - id: 19726
+        quantity: 1
+      lp: 2500000
+  17445:
+    bpid: 73995
+    bpruns: 1
+    id: 17445
+    name: Phoenix Navy Issue(BPC)
+    product:
+      id: 73793
+      quantity: 1
+    requirements:
+      isk: 200000000
+      items:
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
+      - id: 21013
+        quantity: 2
+      - id: 21017
+        quantity: 2
+      - id: 21019
+        quantity: 2
+      - id: 21021
+        quantity: 2
+      - id: 21025
+        quantity: 2
+      - id: 21037
+        quantity: 2
+      - id: 24560
+        quantity: 2
+      - id: 57475
+        quantity: 2
+      - id: 21035
+        quantity: 4
+      - id: 21009
+        quantity: 5
+      - id: 21023
+        quantity: 5
+      - id: 24558
+        quantity: 5
+      - id: 57471
+        quantity: 16
+      - id: 21039
+        quantity: 20
+      - id: 21041
+        quantity: 20
+      - id: 57486
+        quantity: 200
+      - id: 57478
+        quantity: 400
+      lp: 1000000
+  17448:
+    id: 17448
+    name: Probe Fleet Issue Alliance Emblem
+    product:
+      id: 74007
+      quantity: 1
+    requirements:
+      lp: 5500
+  17449:
+    id: 17449
+    name: Heron Navy Issue Alliance Emblem
+    product:
+      id: 74008
+      quantity: 1
+    requirements:
+      lp: 5500
+  17450:
+    id: 17450
+    name: Magnate Navy Issue Alliance Emblem
+    product:
+      id: 74010
+      quantity: 1
+    requirements:
+      lp: 5500
+  17451:
+    id: 17451
+    name: Imicus Navy Issue Alliance Emblem
+    product:
+      id: 74013
+      quantity: 1
+    requirements:
+      lp: 5500
+  17452:
+    id: 17452
+    name: Cyclone Fleet Issue Alliance Emblem
+    product:
+      id: 74015
+      quantity: 1
+    requirements:
+      lp: 13000
+  17453:
+    id: 17453
+    name: Ferox Navy Issue Alliance Emblem
+    product:
+      id: 74018
+      quantity: 1
+    requirements:
+      lp: 13000
+  17454:
+    id: 17454
+    name: Prophecy Navy Issue Alliance Emblem
+    product:
+      id: 74020
+      quantity: 1
+    requirements:
+      lp: 13000
+  17455:
+    id: 17455
+    name: Myrmidon Navy Issue Alliance Emblem
+    product:
+      id: 74023
+      quantity: 1
+    requirements:
+      lp: 13000
+  17456:
+    id: 17456
+    name: Revelation Navy Issue Alliance Emblem
+    product:
+      id: 74025
+      quantity: 1
+    requirements:
+      lp: 18000
+  17457:
+    id: 17457
+    name: Moros Navy Issue Alliance Emblem
+    product:
+      id: 74028
+      quantity: 1
+    requirements:
+      lp: 18000
+  17458:
+    id: 17458
+    name: Phoenix Navy Issue Alliance Emblem
+    product:
+      id: 74029
+      quantity: 1
+    requirements:
+      lp: 18000
+  17459:
+    id: 17459
+    name: Naglfar Fleet Issue Alliance Emblem
+    product:
+      id: 74030
+      quantity: 1
+    requirements:
+      lp: 18000
+  17460:
+    id: 17460
+    name: Coercer Navy Issue Alliance Emblem
+    product:
+      id: 74031
+      quantity: 1
+    requirements:
+      lp: 8000
+  17461:
+    id: 17461
+    name: Cormorant Navy Issue Alliance Emblem
+    product:
+      id: 74032
+      quantity: 1
+    requirements:
+      lp: 8000
+  17462:
+    id: 17462
+    name: Catalyst Navy Issue Alliance Emblem
+    product:
+      id: 74033
+      quantity: 1
+    requirements:
+      lp: 8000
+  17463:
+    id: 17463
+    name: Thrasher Fleet Issue Alliance Emblem
+    product:
+      id: 74034
+      quantity: 1
+    requirements:
+      lp: 8000
+  17464:
+    id: 17464
+    name: Probe Fleet Issue Corporation Emblem
+    product:
+      id: 74035
+      quantity: 1
+    requirements:
+      lp: 5500
+  17465:
+    id: 17465
+    name: Heron Navy Issue Corporation Emblem
+    product:
+      id: 74036
+      quantity: 1
+    requirements:
+      lp: 5500
+  17466:
+    id: 17466
+    name: Magnate Navy Issue Corporation Emblem
+    product:
+      id: 74037
+      quantity: 1
+    requirements:
+      lp: 5500
+  17467:
+    id: 17467
+    name: Imicus Navy Issue Corporation Emblem
+    product:
+      id: 74038
+      quantity: 1
+    requirements:
+      lp: 5500
+  17468:
+    id: 17468
+    name: Cyclone Fleet Issue Corporation Emblem
+    product:
+      id: 74039
+      quantity: 1
+    requirements:
+      lp: 13000
+  17469:
+    id: 17469
+    name: Ferox Navy Issue Corporation Emblem
+    product:
+      id: 74040
+      quantity: 1
+    requirements:
+      lp: 13000
+  17470:
+    id: 17470
+    name: Prophecy Navy Issue Corporation Emblem
+    product:
+      id: 74041
+      quantity: 1
+    requirements:
+      lp: 13000
+  17471:
+    id: 17471
+    name: Myrmidon Navy Issue Corporation Emblem
+    product:
+      id: 74042
+      quantity: 1
+    requirements:
+      lp: 13000
+  17472:
+    id: 17472
+    name: Revelation Navy Issue Corporation Emblem
+    product:
+      id: 74043
+      quantity: 1
+    requirements:
+      lp: 18000
+  17473:
+    id: 17473
+    name: Moros Navy Issue Corporation Emblem
+    product:
+      id: 74044
+      quantity: 1
+    requirements:
+      lp: 18000
+  17474:
+    id: 17474
+    name: Phoenix Navy Issue Corporation Emblem
+    product:
+      id: 74045
+      quantity: 1
+    requirements:
+      lp: 18000
+  17475:
+    id: 17475
+    name: Naglfar Fleet Issue Corporation Emblem
+    product:
+      id: 74046
+      quantity: 1
+    requirements:
+      lp: 18000
+  17476:
+    id: 17476
+    name: Coercer Navy Issue Corporation Emblem
+    product:
+      id: 74047
+      quantity: 1
+    requirements:
+      lp: 8000
+  17477:
+    id: 17477
+    name: Cormorant Navy Issue Corporation Emblem
+    product:
+      id: 74048
+      quantity: 1
+    requirements:
+      lp: 8000
+  17478:
+    id: 17478
+    name: Catalyst Navy Issue Corporation Emblem
+    product:
+      id: 74049
+      quantity: 1
+    requirements:
+      lp: 8000
+  17479:
+    id: 17479
+    name: Thrasher Fleet Issue Corporation Emblem
+    product:
+      id: 74050
+      quantity: 1
+    requirements:
+      lp: 8000

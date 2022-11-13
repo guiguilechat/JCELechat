@@ -216,7 +216,7 @@ public class PropulsionSubsystem
         implements IMetaGroup<PropulsionSubsystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/subsystem/PropulsionSubsystem.yaml";
-        private Map<String, PropulsionSubsystem> cache = (null);
+        private Map<Integer, PropulsionSubsystem> cache = (null);
 
         @Override
         public IMetaCategory<? super PropulsionSubsystem> category() {
@@ -234,7 +234,7 @@ public class PropulsionSubsystem
         }
 
         @Override
-        public synchronized Map<String, PropulsionSubsystem> load() {
+        public synchronized Map<Integer, PropulsionSubsystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PropulsionSubsystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -248,7 +248,7 @@ public class PropulsionSubsystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, PropulsionSubsystem> types;
+            public LinkedHashMap<Integer, PropulsionSubsystem> types;
         }
     }
 }

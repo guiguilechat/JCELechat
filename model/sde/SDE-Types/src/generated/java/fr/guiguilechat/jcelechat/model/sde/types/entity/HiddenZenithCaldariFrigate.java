@@ -1133,7 +1133,7 @@ public class HiddenZenithCaldariFrigate
         implements IMetaGroup<HiddenZenithCaldariFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/HiddenZenithCaldariFrigate.yaml";
-        private Map<String, HiddenZenithCaldariFrigate> cache = (null);
+        private Map<Integer, HiddenZenithCaldariFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super HiddenZenithCaldariFrigate> category() {
@@ -1151,7 +1151,7 @@ public class HiddenZenithCaldariFrigate
         }
 
         @Override
-        public synchronized Map<String, HiddenZenithCaldariFrigate> load() {
+        public synchronized Map<Integer, HiddenZenithCaldariFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HiddenZenithCaldariFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1165,7 +1165,7 @@ public class HiddenZenithCaldariFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, HiddenZenithCaldariFrigate> types;
+            public LinkedHashMap<Integer, HiddenZenithCaldariFrigate> types;
         }
     }
 }

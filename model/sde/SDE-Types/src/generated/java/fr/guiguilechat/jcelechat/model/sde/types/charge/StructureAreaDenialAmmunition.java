@@ -122,7 +122,7 @@ public class StructureAreaDenialAmmunition
         implements IMetaGroup<StructureAreaDenialAmmunition>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/StructureAreaDenialAmmunition.yaml";
-        private Map<String, StructureAreaDenialAmmunition> cache = (null);
+        private Map<Integer, StructureAreaDenialAmmunition> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureAreaDenialAmmunition> category() {
@@ -140,7 +140,7 @@ public class StructureAreaDenialAmmunition
         }
 
         @Override
-        public synchronized Map<String, StructureAreaDenialAmmunition> load() {
+        public synchronized Map<Integer, StructureAreaDenialAmmunition> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureAreaDenialAmmunition.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -154,7 +154,7 @@ public class StructureAreaDenialAmmunition
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureAreaDenialAmmunition> types;
+            public LinkedHashMap<Integer, StructureAreaDenialAmmunition> types;
         }
     }
 }

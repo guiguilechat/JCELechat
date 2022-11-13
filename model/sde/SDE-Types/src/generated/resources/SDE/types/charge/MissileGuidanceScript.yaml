@@ -1,24 +1,5 @@
 types:
-  Missile Precision Script:
-    aoecloudsizebonusbonus: 100
-    aoevelocitybonusbonus: 100
-    chargesize: 1
-    explosiondelaybonusbonus: -100
-    id: 35795
-    launchergroup: 1396
-    maincolor: 11646664
-    marketGroup: 1094
-    mass: 1.0
-    missilevelocitybonusbonus: -100
-    name: Missile Precision Script
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 4000.0
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-  Missile Range Script:
+  35794:
     aoecloudsizebonusbonus: -100
     aoevelocitybonusbonus: -100
     chargesize: 1
@@ -30,6 +11,25 @@ types:
     mass: 1.0
     missilevelocitybonusbonus: 100
     name: Missile Range Script
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 4000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+  35795:
+    aoecloudsizebonusbonus: 100
+    aoevelocitybonusbonus: 100
+    chargesize: 1
+    explosiondelaybonusbonus: -100
+    id: 35795
+    launchergroup: 1396
+    maincolor: 11646664
+    marketGroup: 1094
+    mass: 1.0
+    missilevelocitybonusbonus: -100
+    name: Missile Precision Script
     packagedVolume: 1.0
     portionSize: 1
     price: 4000.0

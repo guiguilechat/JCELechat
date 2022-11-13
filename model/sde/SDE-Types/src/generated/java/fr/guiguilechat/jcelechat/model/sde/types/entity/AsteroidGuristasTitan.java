@@ -1085,7 +1085,7 @@ public class AsteroidGuristasTitan
         implements IMetaGroup<AsteroidGuristasTitan>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidGuristasTitan.yaml";
-        private Map<String, AsteroidGuristasTitan> cache = (null);
+        private Map<Integer, AsteroidGuristasTitan> cache = (null);
 
         @Override
         public IMetaCategory<? super AsteroidGuristasTitan> category() {
@@ -1103,7 +1103,7 @@ public class AsteroidGuristasTitan
         }
 
         @Override
-        public synchronized Map<String, AsteroidGuristasTitan> load() {
+        public synchronized Map<Integer, AsteroidGuristasTitan> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AsteroidGuristasTitan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1117,7 +1117,7 @@ public class AsteroidGuristasTitan
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidGuristasTitan> types;
+            public LinkedHashMap<Integer, AsteroidGuristasTitan> types;
         }
     }
 }

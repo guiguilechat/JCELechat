@@ -1,5 +1,5 @@
 types:
-  Capital Flex Shield Hardener I:
+  41516:
     capacitorneed: 3000.0
     capacity: 1.0
     chargegroup1: 1702
@@ -33,7 +33,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -16.0
     volume: 4000.0
-  Capital Flex Shield Hardener II:
+  41528:
     capacitorneed: 3600.0
     capacity: 1.0
     chargegroup1: 1702
@@ -68,7 +68,7 @@ types:
     techlevel: 2
     thermaldamageresistancebonus: -19.0
     volume: 4000.0
-  Domination Capital Flex Shield Hardener:
+  41529:
     capacitorneed: 2400.0
     capacity: 1.0
     chargegroup1: 1702
@@ -80,14 +80,14 @@ types:
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
-    id: 41531
+    id: 41529
     kineticdamageresistancebonus: -20.0
     marketGroup: 2246
     mass: 10000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8
-    name: Domination Capital Flex Shield Hardener
+    name: True Sansha Capital Flex Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 1000.0
     portionSize: 1
@@ -104,7 +104,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -20.0
     volume: 4000.0
-  Dread Guristas Capital Flex Shield Hardener:
+  41530:
     capacitorneed: 2400.0
     capacity: 1.0
     chargegroup1: 1702
@@ -140,7 +140,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -20.0
     volume: 4000.0
-  True Sansha Capital Flex Shield Hardener:
+  41531:
     capacitorneed: 2400.0
     capacity: 1.0
     chargegroup1: 1702
@@ -152,14 +152,14 @@ types:
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
-    id: 41529
+    id: 41531
     kineticdamageresistancebonus: -20.0
     marketGroup: 2246
     mass: 10000.0
     maxgroupfitted: 1
     metagroupid: 4
     metalevelold: 8
-    name: True Sansha Capital Flex Shield Hardener
+    name: Domination Capital Flex Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 1000.0
     portionSize: 1

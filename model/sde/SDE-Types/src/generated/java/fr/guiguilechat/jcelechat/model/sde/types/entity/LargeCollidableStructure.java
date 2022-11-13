@@ -1156,7 +1156,7 @@ public class LargeCollidableStructure
         implements IMetaGroup<LargeCollidableStructure>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/LargeCollidableStructure.yaml";
-        private Map<String, LargeCollidableStructure> cache = (null);
+        private Map<Integer, LargeCollidableStructure> cache = (null);
 
         @Override
         public IMetaCategory<? super LargeCollidableStructure> category() {
@@ -1174,7 +1174,7 @@ public class LargeCollidableStructure
         }
 
         @Override
-        public synchronized Map<String, LargeCollidableStructure> load() {
+        public synchronized Map<Integer, LargeCollidableStructure> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LargeCollidableStructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1188,7 +1188,7 @@ public class LargeCollidableStructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, LargeCollidableStructure> types;
+            public LinkedHashMap<Integer, LargeCollidableStructure> types;
         }
     }
 }

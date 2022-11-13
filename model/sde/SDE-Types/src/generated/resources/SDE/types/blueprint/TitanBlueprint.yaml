@@ -1,16 +1,5 @@
 types:
-  Avatar Blueprint:
-    id: 11568
-    industryblueprintrank: 600.0
-    marketGroup: 884
-    name: Avatar Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 7.4999996416E10
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Erebus Blueprint:
+  1002:
     id: 1002
     industryblueprintrank: 600.0
     marketGroup: 886
@@ -21,14 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Komodo Blueprint:
-    id: 45648
-    name: Komodo Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Leviathan Blueprint:
+  3765:
     id: 3765
     industryblueprintrank: 600.0
     marketGroup: 885
@@ -39,14 +21,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Molok Blueprint:
-    id: 45045
-    name: Molok Blueprint
+  11568:
+    id: 11568
+    industryblueprintrank: 600.0
+    marketGroup: 884
+    name: Avatar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.4999996416E10
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
-  Ragnarok Blueprint:
+  23774:
     id: 23774
     industryblueprintrank: 600.0
     marketGroup: 887
@@ -57,9 +43,23 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Vanquisher Blueprint:
+  42138:
     id: 42138
     name: Vanquisher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  45045:
+    id: 45045
+    name: Molok Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  45648:
+    id: 45648
+    name: Komodo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

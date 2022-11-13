@@ -205,7 +205,7 @@ public class ArmorCommandBurstCharges
         implements IMetaGroup<ArmorCommandBurstCharges>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/ArmorCommandBurstCharges.yaml";
-        private Map<String, ArmorCommandBurstCharges> cache = (null);
+        private Map<Integer, ArmorCommandBurstCharges> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorCommandBurstCharges> category() {
@@ -223,7 +223,7 @@ public class ArmorCommandBurstCharges
         }
 
         @Override
-        public synchronized Map<String, ArmorCommandBurstCharges> load() {
+        public synchronized Map<Integer, ArmorCommandBurstCharges> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorCommandBurstCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -237,7 +237,7 @@ public class ArmorCommandBurstCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorCommandBurstCharges> types;
+            public LinkedHashMap<Integer, ArmorCommandBurstCharges> types;
         }
     }
 }

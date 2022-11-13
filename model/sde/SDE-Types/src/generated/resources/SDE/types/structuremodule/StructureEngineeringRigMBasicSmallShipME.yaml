@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Basic Small Ship Manufacturing Material Efficiency I:
+  37154:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: 1
@@ -29,7 +29,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Basic Small Ship Manufacturing Material Efficiency II:
+  37155:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: 1

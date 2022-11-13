@@ -119,7 +119,7 @@ public class DecryptorsSleepers
         implements IMetaGroup<DecryptorsSleepers>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/DecryptorsSleepers.yaml";
-        private Map<String, DecryptorsSleepers> cache = (null);
+        private Map<Integer, DecryptorsSleepers> cache = (null);
 
         @Override
         public IMetaCategory<? super DecryptorsSleepers> category() {
@@ -137,7 +137,7 @@ public class DecryptorsSleepers
         }
 
         @Override
-        public synchronized Map<String, DecryptorsSleepers> load() {
+        public synchronized Map<Integer, DecryptorsSleepers> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DecryptorsSleepers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -151,7 +151,7 @@ public class DecryptorsSleepers
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsSleepers> types;
+            public LinkedHashMap<Integer, DecryptorsSleepers> types;
         }
     }
 }

@@ -346,7 +346,7 @@ public class StructureECMBattery
         implements IMetaGroup<StructureECMBattery>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureECMBattery.yaml";
-        private Map<String, StructureECMBattery> cache = (null);
+        private Map<Integer, StructureECMBattery> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureECMBattery> category() {
@@ -364,7 +364,7 @@ public class StructureECMBattery
         }
 
         @Override
-        public synchronized Map<String, StructureECMBattery> load() {
+        public synchronized Map<Integer, StructureECMBattery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureECMBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -378,7 +378,7 @@ public class StructureECMBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureECMBattery> types;
+            public LinkedHashMap<Integer, StructureECMBattery> types;
         }
     }
 }

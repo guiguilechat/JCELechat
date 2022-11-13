@@ -289,7 +289,7 @@ public class ECM
         implements IMetaGroup<ECM>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ECM.yaml";
-        private Map<String, ECM> cache = (null);
+        private Map<Integer, ECM> cache = (null);
 
         @Override
         public IMetaCategory<? super ECM> category() {
@@ -307,7 +307,7 @@ public class ECM
         }
 
         @Override
-        public synchronized Map<String, ECM> load() {
+        public synchronized Map<Integer, ECM> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ECM.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class ECM
         }
 
         private static class Container {
-            public LinkedHashMap<String, ECM> types;
+            public LinkedHashMap<Integer, ECM> types;
         }
     }
 }

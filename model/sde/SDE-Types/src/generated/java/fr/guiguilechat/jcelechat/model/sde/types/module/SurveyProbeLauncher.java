@@ -209,7 +209,7 @@ public class SurveyProbeLauncher
         implements IMetaGroup<SurveyProbeLauncher>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/SurveyProbeLauncher.yaml";
-        private Map<String, SurveyProbeLauncher> cache = (null);
+        private Map<Integer, SurveyProbeLauncher> cache = (null);
 
         @Override
         public IMetaCategory<? super SurveyProbeLauncher> category() {
@@ -227,7 +227,7 @@ public class SurveyProbeLauncher
         }
 
         @Override
-        public synchronized Map<String, SurveyProbeLauncher> load() {
+        public synchronized Map<Integer, SurveyProbeLauncher> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SurveyProbeLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -241,7 +241,7 @@ public class SurveyProbeLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyProbeLauncher> types;
+            public LinkedHashMap<Integer, SurveyProbeLauncher> types;
         }
     }
 }

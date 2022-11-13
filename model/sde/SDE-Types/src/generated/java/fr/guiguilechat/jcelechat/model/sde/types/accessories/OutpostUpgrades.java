@@ -32,7 +32,7 @@ public class OutpostUpgrades
         implements IMetaGroup<OutpostUpgrades>
     {
         public static final String RESOURCE_PATH = "SDE/types/accessories/OutpostUpgrades.yaml";
-        private Map<String, OutpostUpgrades> cache = (null);
+        private Map<Integer, OutpostUpgrades> cache = (null);
 
         @Override
         public IMetaCategory<? super OutpostUpgrades> category() {
@@ -50,7 +50,7 @@ public class OutpostUpgrades
         }
 
         @Override
-        public synchronized Map<String, OutpostUpgrades> load() {
+        public synchronized Map<Integer, OutpostUpgrades> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(OutpostUpgrades.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class OutpostUpgrades
         }
 
         private static class Container {
-            public LinkedHashMap<String, OutpostUpgrades> types;
+            public LinkedHashMap<Integer, OutpostUpgrades> types;
         }
     }
 }

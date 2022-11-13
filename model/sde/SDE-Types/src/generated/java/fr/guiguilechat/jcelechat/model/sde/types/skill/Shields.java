@@ -224,7 +224,7 @@ public class Shields
         implements IMetaGroup<Shields>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Shields.yaml";
-        private Map<String, Shields> cache = (null);
+        private Map<Integer, Shields> cache = (null);
 
         @Override
         public IMetaCategory<? super Shields> category() {
@@ -242,7 +242,7 @@ public class Shields
         }
 
         @Override
-        public synchronized Map<String, Shields> load() {
+        public synchronized Map<Integer, Shields> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Shields.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -256,7 +256,7 @@ public class Shields
         }
 
         private static class Container {
-            public LinkedHashMap<String, Shields> types;
+            public LinkedHashMap<Integer, Shields> types;
         }
     }
 }

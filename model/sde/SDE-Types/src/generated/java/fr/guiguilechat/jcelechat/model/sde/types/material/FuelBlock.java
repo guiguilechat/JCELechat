@@ -32,7 +32,7 @@ public class FuelBlock
         implements IMetaGroup<FuelBlock>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/FuelBlock.yaml";
-        private Map<String, FuelBlock> cache = (null);
+        private Map<Integer, FuelBlock> cache = (null);
 
         @Override
         public IMetaCategory<? super FuelBlock> category() {
@@ -50,7 +50,7 @@ public class FuelBlock
         }
 
         @Override
-        public synchronized Map<String, FuelBlock> load() {
+        public synchronized Map<Integer, FuelBlock> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FuelBlock.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class FuelBlock
         }
 
         private static class Container {
-            public LinkedHashMap<String, FuelBlock> types;
+            public LinkedHashMap<Integer, FuelBlock> types;
         }
     }
 }

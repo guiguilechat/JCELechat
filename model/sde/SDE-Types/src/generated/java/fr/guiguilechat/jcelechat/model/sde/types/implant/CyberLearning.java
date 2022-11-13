@@ -136,7 +136,7 @@ public class CyberLearning
         implements IMetaGroup<CyberLearning>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberLearning.yaml";
-        private Map<String, CyberLearning> cache = (null);
+        private Map<Integer, CyberLearning> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberLearning> category() {
@@ -154,7 +154,7 @@ public class CyberLearning
         }
 
         @Override
-        public synchronized Map<String, CyberLearning> load() {
+        public synchronized Map<Integer, CyberLearning> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberLearning.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -168,7 +168,7 @@ public class CyberLearning
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberLearning> types;
+            public LinkedHashMap<Integer, CyberLearning> types;
         }
     }
 }

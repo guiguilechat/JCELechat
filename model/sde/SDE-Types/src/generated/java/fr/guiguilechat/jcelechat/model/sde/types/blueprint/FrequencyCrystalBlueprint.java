@@ -83,7 +83,7 @@ public class FrequencyCrystalBlueprint
         implements IMetaGroup<FrequencyCrystalBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/FrequencyCrystalBlueprint.yaml";
-        private Map<String, FrequencyCrystalBlueprint> cache = (null);
+        private Map<Integer, FrequencyCrystalBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super FrequencyCrystalBlueprint> category() {
@@ -101,7 +101,7 @@ public class FrequencyCrystalBlueprint
         }
 
         @Override
-        public synchronized Map<String, FrequencyCrystalBlueprint> load() {
+        public synchronized Map<Integer, FrequencyCrystalBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FrequencyCrystalBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class FrequencyCrystalBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, FrequencyCrystalBlueprint> types;
+            public LinkedHashMap<Integer, FrequencyCrystalBlueprint> types;
         }
     }
 }

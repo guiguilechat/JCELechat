@@ -32,7 +32,7 @@ public class MassEntanglerBlueprints
         implements IMetaGroup<MassEntanglerBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MassEntanglerBlueprints.yaml";
-        private Map<String, MassEntanglerBlueprints> cache = (null);
+        private Map<Integer, MassEntanglerBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super MassEntanglerBlueprints> category() {
@@ -50,7 +50,7 @@ public class MassEntanglerBlueprints
         }
 
         @Override
-        public synchronized Map<String, MassEntanglerBlueprints> load() {
+        public synchronized Map<Integer, MassEntanglerBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MassEntanglerBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class MassEntanglerBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, MassEntanglerBlueprints> types;
+            public LinkedHashMap<Integer, MassEntanglerBlueprints> types;
         }
     }
 }

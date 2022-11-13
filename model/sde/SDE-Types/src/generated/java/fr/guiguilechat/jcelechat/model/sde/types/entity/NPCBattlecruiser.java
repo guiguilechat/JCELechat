@@ -699,7 +699,7 @@ public class NPCBattlecruiser
         implements IMetaGroup<NPCBattlecruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCBattlecruiser.yaml";
-        private Map<String, NPCBattlecruiser> cache = (null);
+        private Map<Integer, NPCBattlecruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCBattlecruiser> category() {
@@ -717,7 +717,7 @@ public class NPCBattlecruiser
         }
 
         @Override
-        public synchronized Map<String, NPCBattlecruiser> load() {
+        public synchronized Map<Integer, NPCBattlecruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCBattlecruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -731,7 +731,7 @@ public class NPCBattlecruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCBattlecruiser> types;
+            public LinkedHashMap<Integer, NPCBattlecruiser> types;
         }
     }
 }

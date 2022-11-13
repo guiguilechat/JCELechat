@@ -119,7 +119,7 @@ public class BloodlineBonus
         implements IMetaGroup<BloodlineBonus>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/BloodlineBonus.yaml";
-        private Map<String, BloodlineBonus> cache = (null);
+        private Map<Integer, BloodlineBonus> cache = (null);
 
         @Override
         public IMetaCategory<? super BloodlineBonus> category() {
@@ -137,7 +137,7 @@ public class BloodlineBonus
         }
 
         @Override
-        public synchronized Map<String, BloodlineBonus> load() {
+        public synchronized Map<Integer, BloodlineBonus> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BloodlineBonus.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -151,7 +151,7 @@ public class BloodlineBonus
         }
 
         private static class Container {
-            public LinkedHashMap<String, BloodlineBonus> types;
+            public LinkedHashMap<Integer, BloodlineBonus> types;
         }
     }
 }

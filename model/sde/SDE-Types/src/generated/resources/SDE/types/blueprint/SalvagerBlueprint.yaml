@@ -1,5 +1,5 @@
 types:
-  Salvager I Blueprint:
+  25862:
     id: 25862
     industryblueprintrank: 9.0
     marketGroup: 1712
@@ -11,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Salvager II Blueprint:
+  30837:
     id: 30837
     industryblueprintrank: 23.399999618530273
     name: Salvager II Blueprint

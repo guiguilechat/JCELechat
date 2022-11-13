@@ -1,52 +1,19 @@
 types:
-  '''Marketeer'' Tracking Computer':
-    capacitorneed: 4.0
-    capacity: 1.0
-    chargegroup1: 907
-    chargesize: 1
-    cpu: 26.0
-    duration: 10000.0
-    falloffbonus: 15.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
-    hp: 40.0
-    id: 22929
-    marketGroup: 706
-    maxrangebonus: 7.5
-    metagroupid: 3
-    metalevelold: 6
-    name: '''Marketeer'' Tracking Computer'
-    overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    price: 9900.0
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 3317
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    volume: 5.0
-  Brynn's Modified Tracking Computer:
-    capacitorneed: 11.0
+  1977:
+    capacitorneed: 7.0
     capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 32.0
     duration: 10000.0
-    falloffbonus: 17.399999618530273
+    falloffbonus: 10.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.299999952316284
     hp: 40.0
-    id: 15284
+    id: 1977
     marketGroup: 706
-    maxrangebonus: 8.699999809265137
-    metagroupid: 5
-    metalevelold: 11
-    name: Brynn's Modified Tracking Computer
+    maxrangebonus: 5.0
+    name: Tracking Computer I
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
@@ -59,101 +26,39 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    trackingspeedbonus: 18.399999618530273
+    trackingspeedbonus: 10.0
     volume: 5.0
-  Cormack's Modified Tracking Computer:
-    capacitorneed: 14.0
+  1978:
+    capacitorneed: 10.0
     capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 35.0
     duration: 10000.0
-    falloffbonus: 19.799999237060547
-    heatabsorbtionratemodifier: 0.009999999776482582
+    falloffbonus: 15.0
+    heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 3.299999952316284
     hp: 40.0
-    id: 15290
+    id: 1978
     marketGroup: 706
-    maxrangebonus: 9.899999618530273
-    metagroupid: 5
-    metalevelold: 17
-    name: Cormack's Modified Tracking Computer
+    maxrangebonus: 7.5
+    metalevelold: 5
+    name: Tracking Computer II
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 9900.0
+    price: 83760.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
     requiredskill1: 3317
-    requiredskill1level: 1
+    requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    techlevel: 1
-    trackingspeedbonus: 21.0
+    techlevel: 2
+    trackingspeedbonus: 15.0
     volume: 5.0
-  F-12 Enduring Tracking Computer:
-    capacitorneed: 4.0
-    capacity: 1.0
-    chargegroup1: 907
-    chargesize: 1
-    cpu: 32.0
-    duration: 10000.0
-    falloffbonus: 12.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
-    hp: 40.0
-    id: 6176
-    marketGroup: 706
-    maxrangebonus: 6.0
-    metalevelold: 1
-    name: F-12 Enduring Tracking Computer
-    overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    price: 1420.0
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 3317
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    trackingspeedbonus: 12.0
-    volume: 5.0
-  Federation Navy Tracking Computer:
-    capacitorneed: 7.0
-    capacity: 1.0
-    chargegroup1: 907
-    chargesize: 1
-    cpu: 30.0
-    duration: 10000.0
-    falloffbonus: 16.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
-    hp: 40.0
-    id: 15792
-    marketGroup: 706
-    maxrangebonus: 8.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Federation Navy Tracking Computer
-    overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    price: 9900.0
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 3317
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    trackingspeedbonus: 17.5
-    volume: 5.0
-  Optical Compact Tracking Computer:
+  6173:
     capacitorneed: 7.0
     capacity: 1.0
     chargegroup1: 907
@@ -183,28 +88,27 @@ types:
     techlevel: 1
     trackingspeedbonus: 12.0
     volume: 5.0
-  Setele's Modified Tracking Computer:
-    capacitorneed: 13.0
+  6176:
+    capacitorneed: 4.0
     capacity: 1.0
     chargegroup1: 907
     chargesize: 1
-    cpu: 34.0
+    cpu: 32.0
     duration: 10000.0
-    falloffbonus: 19.0
+    falloffbonus: 12.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.299999952316284
     hp: 40.0
-    id: 15288
+    id: 6176
     marketGroup: 706
-    maxrangebonus: 9.5
-    metagroupid: 5
-    metalevelold: 15
-    name: Setele's Modified Tracking Computer
+    maxrangebonus: 6.0
+    metalevelold: 1
+    name: F-12 Enduring Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 9900.0
+    price: 1420.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -212,9 +116,9 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    trackingspeedbonus: 20.100000381469727
+    trackingspeedbonus: 12.0
     volume: 5.0
-  Shadow Serpentis Tracking Computer:
+  14238:
     capacitorneed: 7.0
     capacity: 1.0
     chargegroup1: 907
@@ -245,21 +149,23 @@ types:
     techlevel: 1
     trackingspeedbonus: 17.5
     volume: 5.0
-  Tracking Computer I:
-    capacitorneed: 7.0
+  15284:
+    capacitorneed: 11.0
     capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 32.0
     duration: 10000.0
-    falloffbonus: 10.0
+    falloffbonus: 17.399999618530273
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.299999952316284
     hp: 40.0
-    id: 1977
+    id: 15284
     marketGroup: 706
-    maxrangebonus: 5.0
-    name: Tracking Computer I
+    maxrangebonus: 8.699999809265137
+    metagroupid: 5
+    metalevelold: 11
+    name: Brynn's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
@@ -272,39 +178,9 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    trackingspeedbonus: 10.0
+    trackingspeedbonus: 18.399999618530273
     volume: 5.0
-  Tracking Computer II:
-    capacitorneed: 10.0
-    capacity: 1.0
-    chargegroup1: 907
-    chargesize: 1
-    cpu: 35.0
-    duration: 10000.0
-    falloffbonus: 15.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.299999952316284
-    hp: 40.0
-    id: 1978
-    marketGroup: 706
-    maxrangebonus: 7.5
-    metalevelold: 5
-    name: Tracking Computer II
-    overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    price: 83760.0
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 3317
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    trackingspeedbonus: 15.0
-    volume: 5.0
-  Tuvan's Modified Tracking Computer:
+  15286:
     capacitorneed: 12.0
     capacity: 1.0
     chargegroup1: 907
@@ -334,4 +210,128 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     trackingspeedbonus: 19.299999237060547
+    volume: 5.0
+  15288:
+    capacitorneed: 13.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 34.0
+    duration: 10000.0
+    falloffbonus: 19.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.299999952316284
+    hp: 40.0
+    id: 15288
+    marketGroup: 706
+    maxrangebonus: 9.5
+    metagroupid: 5
+    metalevelold: 15
+    name: Setele's Modified Tracking Computer
+    overloadtrackingmodulestrengthbonus: 15
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9900.0
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3317
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 20.100000381469727
+    volume: 5.0
+  15290:
+    capacitorneed: 14.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 35.0
+    duration: 10000.0
+    falloffbonus: 19.799999237060547
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.299999952316284
+    hp: 40.0
+    id: 15290
+    marketGroup: 706
+    maxrangebonus: 9.899999618530273
+    metagroupid: 5
+    metalevelold: 17
+    name: Cormack's Modified Tracking Computer
+    overloadtrackingmodulestrengthbonus: 15
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9900.0
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3317
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 21.0
+    volume: 5.0
+  15792:
+    capacitorneed: 7.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 30.0
+    duration: 10000.0
+    falloffbonus: 16.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.299999952316284
+    hp: 40.0
+    id: 15792
+    marketGroup: 706
+    maxrangebonus: 8.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Tracking Computer
+    overloadtrackingmodulestrengthbonus: 15
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9900.0
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3317
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 17.5
+    volume: 5.0
+  22929:
+    capacitorneed: 4.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 26.0
+    duration: 10000.0
+    falloffbonus: 15.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.299999952316284
+    hp: 40.0
+    id: 22929
+    marketGroup: 706
+    maxrangebonus: 7.5
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Marketeer'' Tracking Computer'
+    overloadtrackingmodulestrengthbonus: 15
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9900.0
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3317
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 15.0
     volume: 5.0

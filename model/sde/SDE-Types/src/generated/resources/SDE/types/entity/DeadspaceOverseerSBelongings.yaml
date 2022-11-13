@@ -1,45 +1,25 @@
 types:
-  Assembled Container:
+  17274:
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entitybracketcolour: 1
     entityequipmentgroupmax: 5000
-    entityequipmentmax: 2
-    entityequipmentmin: -2
+    entityequipmentmax: 10
+    entityequipmentmin: 5
     hp: 1000000.0
-    id: 18629
+    id: 17274
     lootrespawntime: 3600000.0
     mass: 10000.0
-    name: Assembled Container
-    packagedVolume: 27500.0
+    name: Stuffed Container
+    packagedVolume: 2750.0
     portionSize: 1
     published: false
-    radius: 63.0
+    radius: 14.0
     structureuniformity: 1.0
-    volume: 27500.0
-  Black Drone Container:
-    capacitorcapacity: 2700.0
-    capacity: 2700.0
-    disallowassistance: 1
-    disallowoffensivemodifiers: 1
-    entitybracketcolour: 1
-    entityequipmentgroupmax: 5000
-    entityequipmentmax: 5
-    entityequipmentmin: 3
-    hp: 1000000.0
-    id: 19425
-    lootrespawntime: 3600000.0
-    mass: 10000.0
-    name: Black Drone Container
-    packagedVolume: 27500.0
-    portionSize: 1
-    published: false
-    radius: 63.0
-    structureuniformity: 1.0
-    volume: 27500.0
-  Container with blast marks:
+    volume: 2750.0
+  17276:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     disallowassistance: 1
@@ -59,27 +39,27 @@ types:
     radius: 14.0
     structureuniformity: 1.0
     volume: 1200.0
-  Crimson Hand Container:
+  17277:
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entitybracketcolour: 1
     entityequipmentgroupmax: 5000
-    entityequipmentmax: 2
-    entityequipmentmin: -2
+    entityequipmentmax: 3
+    entityequipmentmin: 1
     hp: 1000000.0
-    id: 17996
-    lootrespawntime: 3600000.0
+    id: 17277
+    lootrespawntime: 3.6E9
     mass: 10000.0
-    name: Crimson Hand Container
+    name: Electronically Sealed Container
     packagedVolume: 27500.0
     portionSize: 1
     published: false
     radius: 75.0
     structureuniformity: 1.0
     volume: 27500.0
-  Dented Cask:
+  17798:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     disallowassistance: 1
@@ -100,106 +80,27 @@ types:
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
     volume: 1200.0
-  Dewak's Dot:
-    capacitorcapacity: 1000.0
-    capacity: 1000.0
-    disallowassistance: 1
-    disallowoffensivemodifiers: 1
-    entitybracketcolour: 1
-    entityequipmentgroupmax: 5000
-    entityequipmentmax: 1
-    entityequipmentmin: -3
-    hp: 10000.0
-    id: 19591
-    lootrespawntime: 1.44E7
-    mass: 10000.0
-    name: Dewak's Dot
-    packagedVolume: 1200.0
-    portionSize: 1
-    published: false
-    radius: 14.0
-    structureuniformity: 1.0
-    volume: 1200.0
-  Electronically Sealed Container:
+  17996:
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entitybracketcolour: 1
     entityequipmentgroupmax: 5000
-    entityequipmentmax: 3
-    entityequipmentmin: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -2
     hp: 1000000.0
-    id: 17277
-    lootrespawntime: 3.6E9
+    id: 17996
+    lootrespawntime: 3600000.0
     mass: 10000.0
-    name: Electronically Sealed Container
+    name: Crimson Hand Container
     packagedVolume: 27500.0
     portionSize: 1
     published: false
     radius: 75.0
     structureuniformity: 1.0
     volume: 27500.0
-  Main Supply Storage:
-    capacitorcapacity: 2000.0
-    capacity: 1000.0
-    disallowassistance: 1
-    disallowoffensivemodifiers: 1
-    entityequipmentgroupmax: 5000
-    entityequipmentmax: 2
-    entityequipmentmin: -10
-    hp: 1000000.0
-    id: 20077
-    lootrespawntime: 600000.0
-    mass: 10000.0
-    name: Main Supply Storage
-    packagedVolume: 1200.0
-    portionSize: 1
-    published: false
-    radius: 14.0
-    structureuniformity: 1.0
-    volume: 1200.0
-  Scratched Cask:
-    capacitorcapacity: 2700.0
-    capacity: 2700.0
-    disallowassistance: 1
-    disallowoffensivemodifiers: 1
-    entitybracketcolour: 1
-    entityequipmentgroupmax: 5000
-    entityequipmentmax: 2
-    entityequipmentmin: -1
-    hp: 1000000.0
-    id: 18628
-    lootrespawntime: 3600000.0
-    mass: 10000.0
-    name: Scratched Cask
-    packagedVolume: 27500.0
-    portionSize: 1
-    published: false
-    radius: 63.0
-    structureuniformity: 1.0
-    volume: 27500.0
-  Special Products:
-    capacitorcapacity: 2700.0
-    capacity: 2700.0
-    disallowassistance: 1
-    disallowoffensivemodifiers: 1
-    entitybracketcolour: 1
-    entityequipmentgroupmax: 5000
-    entityequipmentmax: 3
-    entityequipmentmin: 1
-    hp: 1000000.0
-    id: 19960
-    lootrespawntime: 6.48E7
-    mass: 10000.0
-    name: Special Products
-    packagedVolume: 2750.0
-    portionSize: 1
-    published: false
-    radius: 14.0
-    structureuniformity: 1.0
-    volume: 2750.0
-  Storage Taxes:
+  18582:
     capacitorcapacity: 10000.0
     capacity: 10000.0
     disallowassistance: 1
@@ -219,27 +120,47 @@ types:
     radius: 14.0
     structureuniformity: 1.0
     volume: 10500.0
-  Stuffed Container:
+  18628:
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entitybracketcolour: 1
     entityequipmentgroupmax: 5000
-    entityequipmentmax: 10
-    entityequipmentmin: 5
+    entityequipmentmax: 2
+    entityequipmentmin: -1
     hp: 1000000.0
-    id: 17274
+    id: 18628
     lootrespawntime: 3600000.0
     mass: 10000.0
-    name: Stuffed Container
-    packagedVolume: 2750.0
+    name: Scratched Cask
+    packagedVolume: 27500.0
     portionSize: 1
     published: false
-    radius: 14.0
+    radius: 63.0
     structureuniformity: 1.0
-    volume: 2750.0
-  The Prize Container:
+    volume: 27500.0
+  18629:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entitybracketcolour: 1
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -2
+    hp: 1000000.0
+    id: 18629
+    lootrespawntime: 3600000.0
+    mass: 10000.0
+    name: Assembled Container
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 63.0
+    structureuniformity: 1.0
+    volume: 27500.0
+  19373:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     disallowassistance: 1
@@ -252,6 +173,85 @@ types:
     lootrespawntime: 1000000.0
     mass: 10000.0
     name: The Prize Container
+    packagedVolume: 1200.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    structureuniformity: 1.0
+    volume: 1200.0
+  19425:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entitybracketcolour: 1
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 5
+    entityequipmentmin: 3
+    hp: 1000000.0
+    id: 19425
+    lootrespawntime: 3600000.0
+    mass: 10000.0
+    name: Black Drone Container
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 63.0
+    structureuniformity: 1.0
+    volume: 27500.0
+  19591:
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entitybracketcolour: 1
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -3
+    hp: 10000.0
+    id: 19591
+    lootrespawntime: 1.44E7
+    mass: 10000.0
+    name: Dewak's Dot
+    packagedVolume: 1200.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    structureuniformity: 1.0
+    volume: 1200.0
+  19960:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entitybracketcolour: 1
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    hp: 1000000.0
+    id: 19960
+    lootrespawntime: 6.48E7
+    mass: 10000.0
+    name: Special Products
+    packagedVolume: 2750.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    structureuniformity: 1.0
+    volume: 2750.0
+  20077:
+    capacitorcapacity: 2000.0
+    capacity: 1000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -10
+    hp: 1000000.0
+    id: 20077
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Main Supply Storage
     packagedVolume: 1200.0
     portionSize: 1
     published: false

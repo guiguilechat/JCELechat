@@ -1,15 +1,5 @@
 types:
-  '''Inception'' Target Painter Blueprint':
-    id: 21541
-    industryblueprintrank: 6.0
-    name: '''Inception'' Target Painter Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Target Painter I Blueprint:
+  12710:
     id: 12710
     industryblueprintrank: 6.0
     marketGroup: 1571
@@ -21,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Target Painter II Blueprint:
+  19807:
     id: 19807
     industryblueprintrank: 15.600000381469727
     name: Target Painter II Blueprint
@@ -31,4 +21,14 @@ types:
     published: true
     radius: 1.0
     techlevel: 2
+    volume: 0.009999999776482582
+  21541:
+    id: 21541
+    industryblueprintrank: 6.0
+    name: '''Inception'' Target Painter Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582

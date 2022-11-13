@@ -863,7 +863,7 @@ public class BlackOps
         implements IMetaGroup<BlackOps>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/BlackOps.yaml";
-        private Map<String, BlackOps> cache = (null);
+        private Map<Integer, BlackOps> cache = (null);
 
         @Override
         public IMetaCategory<? super BlackOps> category() {
@@ -881,7 +881,7 @@ public class BlackOps
         }
 
         @Override
-        public synchronized Map<String, BlackOps> load() {
+        public synchronized Map<Integer, BlackOps> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BlackOps.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -895,7 +895,7 @@ public class BlackOps
         }
 
         private static class Container {
-            public LinkedHashMap<String, BlackOps> types;
+            public LinkedHashMap<Integer, BlackOps> types;
         }
     }
 }

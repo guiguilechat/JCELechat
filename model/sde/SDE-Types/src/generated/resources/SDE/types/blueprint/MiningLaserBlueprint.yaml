@@ -1,69 +1,16 @@
 types:
-  '''Wild'' Miner I Blueprint':
-    id: 22924
-    industryblueprintrank: 3.0
-    name: '''Wild'' Miner I Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Deep Core Mining Laser I Blueprint:
-    id: 12109
-    industryblueprintrank: 7.0
-    marketGroup: 338
-    name: Deep Core Mining Laser I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3500000.0
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Gas Cloud Scoop I Blueprint:
-    id: 25267
-    industryblueprintrank: 3.0
-    marketGroup: 338
-    name: Gas Cloud Scoop I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.65E7
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Gas Cloud Scoop II Blueprint:
-    id: 25813
+  784:
+    id: 784
     industryblueprintrank: 7.800000190734863
-    name: Gas Cloud Scoop II Blueprint
+    name: Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 92720.0
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Ice Mining Laser I Blueprint:
-    id: 38660
-    marketGroup: 338
-    name: Ice Mining Laser I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3500000.0
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Ice Mining Laser II Blueprint:
-    id: 38661
-    name: Ice Mining Laser II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 92720.0
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Miner I Blueprint:
+  785:
     id: 785
     industryblueprintrank: 3.0
     marketGroup: 338
@@ -75,18 +22,19 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Miner II Blueprint:
-    id: 784
-    industryblueprintrank: 7.800000190734863
-    name: Miner II Blueprint
+  12109:
+    id: 12109
+    industryblueprintrank: 7.0
+    marketGroup: 338
+    name: Deep Core Mining Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 3500000.0
     published: true
     radius: 1.0
-    techlevel: 2
+    techlevel: 1
     volume: 0.009999999776482582
-  Modulated Deep Core Miner II Blueprint:
+  18069:
     id: 18069
     industryblueprintrank: 18.200000762939453
     name: Modulated Deep Core Miner II Blueprint
@@ -96,4 +44,56 @@ types:
     published: true
     radius: 1.0
     techlevel: 2
+    volume: 0.009999999776482582
+  22924:
+    id: 22924
+    industryblueprintrank: 3.0
+    name: '''Wild'' Miner I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  25267:
+    id: 25267
+    industryblueprintrank: 3.0
+    marketGroup: 338
+    name: Gas Cloud Scoop I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.65E7
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  25813:
+    id: 25813
+    industryblueprintrank: 7.800000190734863
+    name: Gas Cloud Scoop II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 92720.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  38660:
+    id: 38660
+    marketGroup: 338
+    name: Ice Mining Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3500000.0
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  38661:
+    id: 38661
+    name: Ice Mining Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 92720.0
+    published: true
+    techlevel: 1
     volume: 0.009999999776482582

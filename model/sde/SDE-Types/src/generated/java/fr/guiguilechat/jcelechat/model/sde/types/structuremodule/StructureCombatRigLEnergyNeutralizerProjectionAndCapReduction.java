@@ -289,7 +289,7 @@ public class StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction
         implements IMetaGroup<StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction.yaml";
-        private Map<String, StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction> cache = (null);
+        private Map<Integer, StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction> category() {
@@ -307,7 +307,7 @@ public class StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction> load() {
+        public synchronized Map<Integer, StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction> types;
+            public LinkedHashMap<Integer, StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction> types;
         }
     }
 }

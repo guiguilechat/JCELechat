@@ -1229,7 +1229,7 @@ public class DeadspaceSanshaSNationFrigate
         implements IMetaGroup<DeadspaceSanshaSNationFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceSanshaSNationFrigate.yaml";
-        private Map<String, DeadspaceSanshaSNationFrigate> cache = (null);
+        private Map<Integer, DeadspaceSanshaSNationFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceSanshaSNationFrigate> category() {
@@ -1247,7 +1247,7 @@ public class DeadspaceSanshaSNationFrigate
         }
 
         @Override
-        public synchronized Map<String, DeadspaceSanshaSNationFrigate> load() {
+        public synchronized Map<Integer, DeadspaceSanshaSNationFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceSanshaSNationFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1261,7 +1261,7 @@ public class DeadspaceSanshaSNationFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceSanshaSNationFrigate> types;
+            public LinkedHashMap<Integer, DeadspaceSanshaSNationFrigate> types;
         }
     }
 }

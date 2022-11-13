@@ -134,7 +134,7 @@ public class CommandCenters
         implements IMetaGroup<CommandCenters>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/CommandCenters.yaml";
-        private Map<String, CommandCenters> cache = (null);
+        private Map<Integer, CommandCenters> cache = (null);
 
         @Override
         public IMetaCategory<? super CommandCenters> category() {
@@ -152,7 +152,7 @@ public class CommandCenters
         }
 
         @Override
-        public synchronized Map<String, CommandCenters> load() {
+        public synchronized Map<Integer, CommandCenters> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CommandCenters.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -166,7 +166,7 @@ public class CommandCenters
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandCenters> types;
+            public LinkedHashMap<Integer, CommandCenters> types;
         }
     }
 }

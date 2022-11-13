@@ -1,5 +1,5 @@
 types:
-  Badger Blueprint:
+  983:
     id: 983
     industryblueprintrank: 40.0
     industryjobcostmultiplier: 1
@@ -11,171 +11,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Bestower Blueprint:
-    id: 1945
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 285
-    name: Bestower Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4977500.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Epithal Blueprint:
-    id: 990
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 283
-    name: Epithal Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 6000000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Hoarder Blueprint:
-    id: 986
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 282
-    name: Hoarder Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4525000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Iteron Mark V Blueprint:
-    id: 992
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 283
-    name: Iteron Mark V Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.125E7
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Kryos Blueprint:
-    id: 989
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 283
-    name: Kryos Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3425000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Mammoth Blueprint:
-    id: 987
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 282
-    name: Mammoth Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 9375000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Miasmos Amastris Edition Blueprint:
-    id: 32812
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    name: Miasmos Amastris Edition Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4287500.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Miasmos Blueprint:
-    id: 991
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 283
-    name: Miasmos Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4287500.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Miasmos Quafe Ultra Edition Blueprint:
-    id: 4364
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    name: Miasmos Quafe Ultra Edition Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4287500.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Miasmos Quafe Ultramarine Edition Blueprint:
-    id: 4389
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    name: Miasmos Quafe Ultramarine Edition Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4287500.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Nereus Blueprint:
-    id: 985
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 283
-    name: Nereus Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3100000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Noctis Blueprint:
-    id: 3039
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 1389
-    name: Noctis Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.9E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Primae Blueprint:
-    id: 2864
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    name: Primae Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 9999999.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Sigil Blueprint:
-    id: 19745
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 285
-    name: Sigil Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4977500.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Tayra Blueprint:
+  984:
     id: 984
     industryblueprintrank: 40.0
     industryjobcostmultiplier: 1
@@ -187,7 +23,43 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Wreathe Blueprint:
+  985:
+    id: 985
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 283
+    name: Nereus Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3100000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  986:
+    id: 986
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 282
+    name: Hoarder Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4525000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  987:
+    id: 987
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 282
+    name: Mammoth Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9375000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  988:
     id: 988
     industryblueprintrank: 40.0
     industryjobcostmultiplier: 1
@@ -196,6 +68,134 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3225000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  989:
+    id: 989
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 283
+    name: Kryos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3425000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  990:
+    id: 990
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 283
+    name: Epithal Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  991:
+    id: 991
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 283
+    name: Miasmos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4287500.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  992:
+    id: 992
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 283
+    name: Iteron Mark V Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.125E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  1945:
+    id: 1945
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 285
+    name: Bestower Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4977500.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  2864:
+    id: 2864
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    name: Primae Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9999999.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  3039:
+    id: 3039
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 1389
+    name: Noctis Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.9E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  4364:
+    id: 4364
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    name: Miasmos Quafe Ultra Edition Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4287500.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  4389:
+    id: 4389
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    name: Miasmos Quafe Ultramarine Edition Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4287500.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  19745:
+    id: 19745
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 285
+    name: Sigil Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4977500.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32812:
+    id: 32812
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    name: Miasmos Amastris Edition Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4287500.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

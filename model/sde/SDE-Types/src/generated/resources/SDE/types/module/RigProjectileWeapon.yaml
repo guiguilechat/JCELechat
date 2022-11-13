@@ -1,196 +1,5 @@
 types:
-  Capital Projectile Ambit Extension I:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 15.0
-    hp: 40.0
-    id: 31660
-    marketGroup: 1731
-    mass: 200.0
-    name: Capital Projectile Ambit Extension I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Projectile Ambit Extension II:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 31666
-    marketGroup: 1731
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Projectile Ambit Extension II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Capital Projectile Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31672
-    marketGroup: 1731
-    mass: 200.0
-    name: Capital Projectile Burst Aerator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 40.0
-  Capital Projectile Burst Aerator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31678
-    marketGroup: 1731
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Projectile Burst Aerator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 0.8500000238418579
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 40.0
-  Capital Projectile Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 31684
-    marketGroup: 1731
-    mass: 200.0
-    name: Capital Projectile Collision Accelerator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 40.0
-  Capital Projectile Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 31690
-    marketGroup: 1731
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Projectile Collision Accelerator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 40.0
-  Capital Projectile Locus Coordinator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31696
-    marketGroup: 1731
-    mass: 200.0
-    maxrangebonus: 15.0
-    name: Capital Projectile Locus Coordinator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Projectile Locus Coordinator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31702
-    marketGroup: 1731
-    mass: 200.0
-    maxrangebonus: 20.0
-    metalevelold: 5
-    name: Capital Projectile Locus Coordinator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Capital Projectile Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31708
-    marketGroup: 1731
-    mass: 200.0
-    name: Capital Projectile Metastasis Adjuster I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Projectile Metastasis Adjuster II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31714
-    marketGroup: 1731
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Projectile Metastasis Adjuster II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedbonus: 20.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Large Projectile Ambit Extension I:
+  26038:
     damagemultiplier: 1.0
     drawback: 10
     falloffbonus: 15.0
@@ -209,7 +18,100 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 20.0
-  Large Projectile Ambit Extension II:
+  26040:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26040
+    marketGroup: 1239
+    mass: 200.0
+    maxrangebonus: 15.0
+    name: Large Projectile Locus Coordinator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 20.0
+  26042:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26042
+    marketGroup: 1239
+    mass: 200.0
+    name: Large Projectile Metastasis Adjuster I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 20.0
+  26046:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26046
+    marketGroup: 1239
+    mass: 200.0
+    name: Large Projectile Burst Aerator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 20.0
+  26048:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 26048
+    marketGroup: 1239
+    mass: 200.0
+    name: Large Projectile Collision Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 20.0
+  26424:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 26424
+    marketGroup: 1239
+    mass: 200.0
+    metalevelold: 5
+    name: Large Projectile Collision Accelerator II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 20.0
+  26428:
     damagemultiplier: 1.0
     drawback: 10
     falloffbonus: 20.0
@@ -229,25 +131,7 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Large Projectile Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26046
-    marketGroup: 1239
-    mass: 200.0
-    name: Large Projectile Burst Aerator I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 20.0
-  Large Projectile Burst Aerator II:
+  26430:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -266,63 +150,7 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 20.0
-  Large Projectile Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 26048
-    marketGroup: 1239
-    mass: 200.0
-    name: Large Projectile Collision Accelerator I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 20.0
-  Large Projectile Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 26424
-    marketGroup: 1239
-    mass: 200.0
-    metalevelold: 5
-    name: Large Projectile Collision Accelerator II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 20.0
-  Large Projectile Locus Coordinator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26040
-    marketGroup: 1239
-    mass: 200.0
-    maxrangebonus: 15.0
-    name: Large Projectile Locus Coordinator I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 20.0
-  Large Projectile Locus Coordinator II:
+  26432:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -342,26 +170,7 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Large Projectile Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26042
-    marketGroup: 1239
-    mass: 200.0
-    name: Large Projectile Metastasis Adjuster I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 20.0
-  Large Projectile Metastasis Adjuster II:
+  26434:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -381,198 +190,7 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Medium Projectile Ambit Extension I:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 15.0
-    hp: 40.0
-    id: 31658
-    marketGroup: 1238
-    mass: 200.0
-    name: Medium Projectile Ambit Extension I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Projectile Ambit Extension II:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 31664
-    marketGroup: 1238
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Projectile Ambit Extension II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Medium Projectile Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31670
-    marketGroup: 1238
-    mass: 200.0
-    name: Medium Projectile Burst Aerator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 10.0
-  Medium Projectile Burst Aerator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31676
-    marketGroup: 1238
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Projectile Burst Aerator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 0.8500000238418579
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 10.0
-  Medium Projectile Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 31682
-    marketGroup: 1238
-    mass: 200.0
-    name: Medium Projectile Collision Accelerator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 10.0
-  Medium Projectile Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 31688
-    marketGroup: 1238
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Projectile Collision Accelerator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 10.0
-  Medium Projectile Locus Coordinator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31694
-    marketGroup: 1238
-    mass: 200.0
-    maxrangebonus: 15.0
-    name: Medium Projectile Locus Coordinator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Projectile Locus Coordinator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31700
-    marketGroup: 1238
-    mass: 200.0
-    maxrangebonus: 20.0
-    metalevelold: 5
-    name: Medium Projectile Locus Coordinator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Medium Projectile Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31706
-    marketGroup: 1238
-    mass: 200.0
-    name: Medium Projectile Metastasis Adjuster I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Projectile Metastasis Adjuster II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31712
-    marketGroup: 1238
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Projectile Metastasis Adjuster II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedbonus: 20.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Small Projectile Ambit Extension I:
+  31656:
     damagemultiplier: 1.0
     drawback: 10
     falloffbonus: 15.0
@@ -591,7 +209,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Projectile Ambit Extension II:
+  31658:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 15.0
+    hp: 40.0
+    id: 31658
+    marketGroup: 1238
+    mass: 200.0
+    name: Medium Projectile Ambit Extension I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31660:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 15.0
+    hp: 40.0
+    id: 31660
+    marketGroup: 1731
+    mass: 200.0
+    name: Capital Projectile Ambit Extension I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31662:
     damagemultiplier: 1.0
     drawback: 10
     falloffbonus: 20.0
@@ -611,7 +267,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
-  Small Projectile Burst Aerator I:
+  31664:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 31664
+    marketGroup: 1238
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Projectile Ambit Extension II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31666:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 31666
+    marketGroup: 1731
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Projectile Ambit Extension II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0
+  31668:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -629,7 +325,43 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 200
     volume: 5.0
-  Small Projectile Burst Aerator II:
+  31670:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31670
+    marketGroup: 1238
+    mass: 200.0
+    name: Medium Projectile Burst Aerator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 10.0
+  31672:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31672
+    marketGroup: 1731
+    mass: 200.0
+    name: Capital Projectile Burst Aerator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 40.0
+  31674:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -648,7 +380,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 5.0
-  Small Projectile Collision Accelerator I:
+  31676:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31676
+    marketGroup: 1238
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Projectile Burst Aerator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 0.8500000238418579
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 10.0
+  31678:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31678
+    marketGroup: 1731
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Projectile Burst Aerator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 0.8500000238418579
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 40.0
+  31680:
     damagemultiplier: 1.100000023841858
     drawback: 10
     hp: 40.0
@@ -666,7 +436,43 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 200
     volume: 5.0
-  Small Projectile Collision Accelerator II:
+  31682:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 31682
+    marketGroup: 1238
+    mass: 200.0
+    name: Medium Projectile Collision Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 10.0
+  31684:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 31684
+    marketGroup: 1731
+    mass: 200.0
+    name: Capital Projectile Collision Accelerator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 40.0
+  31686:
     damagemultiplier: 1.149999976158142
     drawback: 10
     hp: 40.0
@@ -685,7 +491,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 5.0
-  Small Projectile Locus Coordinator I:
+  31688:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 31688
+    marketGroup: 1238
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Projectile Collision Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 10.0
+  31690:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 31690
+    marketGroup: 1731
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Projectile Collision Accelerator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 40.0
+  31692:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -704,7 +548,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Projectile Locus Coordinator II:
+  31694:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31694
+    marketGroup: 1238
+    mass: 200.0
+    maxrangebonus: 15.0
+    name: Medium Projectile Locus Coordinator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31696:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31696
+    marketGroup: 1731
+    mass: 200.0
+    maxrangebonus: 15.0
+    name: Capital Projectile Locus Coordinator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31698:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -724,7 +606,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
-  Small Projectile Metastasis Adjuster I:
+  31700:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31700
+    marketGroup: 1238
+    mass: 200.0
+    maxrangebonus: 20.0
+    metalevelold: 5
+    name: Medium Projectile Locus Coordinator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31702:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31702
+    marketGroup: 1731
+    mass: 200.0
+    maxrangebonus: 20.0
+    metalevelold: 5
+    name: Capital Projectile Locus Coordinator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0
+  31704:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -743,7 +665,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Projectile Metastasis Adjuster II:
+  31706:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31706
+    marketGroup: 1238
+    mass: 200.0
+    name: Medium Projectile Metastasis Adjuster I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31708:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31708
+    marketGroup: 1731
+    mass: 200.0
+    name: Capital Projectile Metastasis Adjuster I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31710:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -763,3 +723,43 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
+  31712:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31712
+    marketGroup: 1238
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Projectile Metastasis Adjuster II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedbonus: 20.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31714:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31714
+    marketGroup: 1731
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Projectile Metastasis Adjuster II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedbonus: 20.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0

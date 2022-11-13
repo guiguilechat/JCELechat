@@ -1,89 +1,5 @@
 types:
-  Angel Cherubim:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.2199999988079071
-    armorexplosivedamageresonance: 0.5199999809265137
-    armorhp: 4750.0
-    armorkineticdamageresonance: 0.41999998688697815
-    armorthermaldamageresonance: 0.3199999928474426
-    armoruniformity: 0.75
-    capacitorcapacity: 3300.0
-    capacity: 120.0
-    damagemultiplier: 10.0
-    disallowassistance: 1
-    entityarmorrepairdelaychancelarge: 0.6800000071525574
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 12000
-    entityattackdelaymin: 3000
-    entityattackrange: 165000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3125
-    entitychasemaxdistance: 58125
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 175.0
-    entitydefenderchance: 0.14499999582767487
-    entityequipmentmax: 8
-    entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 38750.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 1700000
-    entitymissiletypeid: 205
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8500000238418579
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.23999999463558197
-    entityshieldboostamount: 335.0
-    entityshieldboostdelaychancelarge: 0.6800000071525574
-    entityshieldboostduration: 5000
-    entitytargetpaintduration: 30000
-    falloff: 35000.0
-    gfxboosterid: 397
-    gfxturretid: 497
-    hp: 5250.0
-    id: 22842
-    kineticdamage: 8.0
-    mass: 1.9E7
-    maxattacktargets: 1
-    maxlockedtargets: 4
-    maxrange: 30000.0
-    maxvelocity: 1400.0
-    missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.7541000247001648
-    missileentityaoevelocitymultiplier: 1.4917999505996704
-    missileentityflighttimemultiplier: 1.4917999505996704
-    missileentityvelocitymultiplier: 1.4917999505996704
-    missilelaunchduration: 9000.0
-    name: Angel Cherubim
-    optimalsigradius: 400
-    packagedVolume: 1.9E7
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanladarstrength: 26.0
-    scanresolution: 105.0
-    shieldcapacity: 5500.0
-    shieldemdamageresonance: 0.2199999988079071
-    shieldexplosivedamageresonance: 0.5199999809265137
-    shieldkineticdamageresonance: 0.41999998688697815
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.3199999928474426
-    shielduniformity: 0.75
-    signatureradius: 350.0
-    speed: 5000.0
-    structureuniformity: 1.0
-    thermaldamage: 32.0
-    trackingspeed: 0.008999999612569809
-    volume: 1.9E7
-  Angel Commander:
+  11898:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -167,7 +83,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.05400000140070915
     volume: 1.9E7
-  Angel General:
+  11899:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -252,48 +168,49 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.05400000140070915
     volume: 1.9E7
-  Angel Malakim:
+  11900:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.23999999463558197
-    armorexplosivedamageresonance: 0.5400000214576721
+    armoremdamageresonance: 0.27000001072883606
+    armorexplosivedamageresonance: 0.5699999928474426
     armorhp: 4750.0
-    armorkineticdamageresonance: 0.4399999976158142
-    armorthermaldamageresonance: 0.3400000035762787
+    armorkineticdamageresonance: 0.4699999988079071
+    armorthermaldamageresonance: 0.3700000047683716
     armoruniformity: 0.75
-    capacitorcapacity: 3100.0
+    capacitorcapacity: 2800.0
     capacity: 120.0
-    damagemultiplier: 6.916666507720947
+    damagemultiplier: 4.583333492279053
     disallowassistance: 1
-    entityarmorrepairamount: 590.0
-    entityarmorrepairdelaychancelarge: 0.6600000262260437
+    entityarmorrepairamount: 470.0
+    entityarmorrepairdelaychancelarge: 0.6299999952316284
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 12600
-    entityattackdelaymin: 3150
-    entityattackrange: 19500
+    entityattackdelaymax: 13500
+    entityattackdelaymin: 3375
+    entityattackrange: 78500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.625
-    entitychasemaxdistance: 13000
+    entitychasemaxdistance: 15200
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.13500000536441803
-    entityequipmentmax: 8
-    entityequipmentmin: 5
+    entitydefenderchance: 0.11999999731779099
+    entityequipmentmax: 7
+    entityequipmentmin: 4
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 6500.0
+    entityflyrange: 7600.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1400000
+    entitykillbounty: 950000
+    entitymissiletypeid: 2508
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8299999833106995
+    entityreactionfactor: 0.800000011920929
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.2199999988079071
-    entityshieldboostamount: 295.0
-    entityshieldboostdelaychancelarge: 0.6600000262260437
+    entitysecuritystatuskillbonus: 0.1899999976158142
+    entityshieldboostamount: 235.0
+    entityshieldboostdelaychancelarge: 0.6299999952316284
     entityshieldboostduration: 5000
     entitytargetpaintduration: 30000
     explosivedamage: 32.0
@@ -301,20 +218,20 @@ types:
     gfxboosterid: 397
     gfxturretid: 494
     hp: 5250.0
-    id: 22840
+    id: 11900
     kineticdamage: 8.0
     mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 4
-    maxrange: 2500.0
+    maxrange: 3600.0
     maxvelocity: 1400.0
     missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.7623000144958496
-    missileentityaoevelocitymultiplier: 1.4753999710083008
-    missileentityflighttimemultiplier: 1.4753999710083008
-    missileentityvelocitymultiplier: 1.4753999710083008
-    missilelaunchduration: 1.0
-    name: Angel Malakim
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.4507999420166016
+    missileentityflighttimemultiplier: 6.5
+    missileentityvelocitymultiplier: 1.4507999420166016
+    missilelaunchduration: 22500.0
+    name: Angel Warlord
     optimalsigradius: 400
     packagedVolume: 1.9E7
     portionSize: 1
@@ -322,86 +239,83 @@ types:
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanladarstrength: 24.0
-    scanresolution: 105.0
+    scanladarstrength: 23.0
+    scanresolution: 115.0
     shieldcapacity: 5500.0
-    shieldemdamageresonance: 0.23999999463558197
-    shieldexplosivedamageresonance: 0.5400000214576721
-    shieldkineticdamageresonance: 0.4399999976158142
+    shieldemdamageresonance: 0.27000001072883606
+    shieldexplosivedamageresonance: 0.5699999928474426
+    shieldkineticdamageresonance: 0.4699999988079071
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.3400000035762787
+    shieldthermaldamageresonance: 0.3700000047683716
     shielduniformity: 0.75
-    signatureradius: 350.0
+    signatureradius: 320.0
     speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.04320000112056732
+    trackingspeed: 0.04800000041723251
     volume: 1.9E7
-  Angel Nephilim:
+  11927:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.25
-    armorexplosivedamageresonance: 0.550000011920929
-    armorhp: 4750.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.3499999940395355
+    armoremdamageresonance: 0.2800000011920929
+    armorexplosivedamageresonance: 0.5799999833106995
+    armorhp: 4250.0
+    armorkineticdamageresonance: 0.47999998927116394
+    armorthermaldamageresonance: 0.3799999952316284
     armoruniformity: 0.75
-    capacitorcapacity: 3000.0
+    capacitorcapacity: 2700.0
     capacity: 120.0
-    damagemultiplier: 7.375
+    damagemultiplier: 5.625
     disallowassistance: 1
-    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairamount: 430.0
+    entityarmorrepairdelaychancelarge: 0.6200000047683716
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 12900
-    entityattackdelaymin: 3225
-    entityattackrange: 80000
+    entityattackdelaymax: 13800
+    entityattackdelaymin: 3450
+    entityattackrange: 22800
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3125
-    entitychasemaxdistance: 46875
+    entitychasemaxdelaychance: 0.625
+    entitychasemaxdistance: 15200
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.12999999523162842
+    entitydefenderchance: 0.11500000208616257
     entityequipmentmax: 7
-    entityequipmentmin: 5
+    entityequipmentmin: 4
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 31250.0
+    entityflyrange: 7600.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1250000
-    entitymissiletypeid: 2508
+    entitykillbounty: 800000
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8199999928474426
+    entityreactionfactor: 0.7900000214576721
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.20999999344348907
-    entityshieldboostamount: 275.0
-    entityshieldboostdelaychancelarge: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.18000000715255737
+    entityshieldboostamount: 215.0
+    entityshieldboostdelaychancelarge: 0.6200000047683716
     entityshieldboostduration: 5000
-    entitytargetpaintduration: 10000
-    entitytargetpaintdurationchance: 0.25
-    entitytargetpaintfalloff: 50000
-    entitytargetpaintmaxrange: 35000
-    explosivedamage: 8.0
-    falloff: 35000.0
+    entitytargetpaintduration: 30000
+    explosivedamage: 32.0
+    falloff: 16000.0
     gfxboosterid: 397
-    gfxturretid: 495
-    hp: 5250.0
-    id: 22839
-    kineticdamage: 32.0
+    gfxturretid: 494
+    hp: 4750.0
+    id: 11927
+    kineticdamage: 8.0
     mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 4
-    maxrange: 22500.0
+    maxrange: 3600.0
     maxvelocity: 1400.0
-    missiledamagemultiplier: 1.100000023841858
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.4672000408172607
-    missileentityflighttimemultiplier: 6.5
-    missileentityvelocitymultiplier: 1.4672000408172607
-    missilelaunchduration: 13750.0
-    name: Angel Nephilim
+    missiledamagemultiplier: 1.25
+    missileentityaoecloudsizemultiplier: 0.7786999940872192
+    missileentityaoevelocitymultiplier: 1.4426000118255615
+    missileentityflighttimemultiplier: 1.4426000118255615
+    missileentityvelocitymultiplier: 1.4426000118255615
+    missilelaunchduration: 1.0
+    name: Angel War General
     optimalsigradius: 400
     packagedVolume: 1.9E7
     portionSize: 1
@@ -409,22 +323,21 @@ types:
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanladarstrength: 31.0
-    scanresolution: 90.0
-    shieldcapacity: 5500.0
-    shieldemdamageresonance: 0.25
-    shieldexplosivedamageresonance: 0.550000011920929
-    shieldkineticdamageresonance: 0.44999998807907104
+    scanladarstrength: 22.0
+    scanresolution: 115.0
+    shieldcapacity: 4800.0
+    shieldemdamageresonance: 0.2800000011920929
+    shieldexplosivedamageresonance: 0.5799999833106995
+    shieldkineticdamageresonance: 0.47999998927116394
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.3499999940395355
+    shieldthermaldamageresonance: 0.3799999952316284
     shielduniformity: 0.75
-    signatureradius: 400.0
-    signatureradiusbonus: 27.5
-    speed: 5000.0
+    signatureradius: 320.0
+    speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.011250000447034836
+    trackingspeed: 0.04800000041723251
     volume: 1.9E7
-  Angel Saint:
+  22838:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -512,70 +425,72 @@ types:
     thermaldamage: 32.0
     trackingspeed: 0.011250000447034836
     volume: 1.9E7
-  Angel Seraphim:
+  22839:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.5099999904632568
+    armoremdamageresonance: 0.25
+    armorexplosivedamageresonance: 0.550000011920929
     armorhp: 4750.0
-    armorkineticdamageresonance: 0.4099999964237213
-    armorthermaldamageresonance: 0.3100000023841858
+    armorkineticdamageresonance: 0.44999998807907104
+    armorthermaldamageresonance: 0.3499999940395355
     armoruniformity: 0.75
-    capacitorcapacity: 3400.0
+    capacitorcapacity: 3000.0
     capacity: 120.0
-    damagemultiplier: 10.0
+    damagemultiplier: 7.375
     disallowassistance: 1
-    emdamage: 20.0
-    entityarmorrepairdelaychancelarge: 0.6899999976158142
+    entityarmorrepairdelaychancelarge: 0.6499999761581421
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 11700
-    entityattackdelaymin: 2925
-    entityattackrange: 168750
+    entityattackdelaymax: 12900
+    entityattackdelaymin: 3225
+    entityattackrange: 80000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.3125
-    entitychasemaxdistance: 54375
+    entitychasemaxdistance: 46875
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.15000000596046448
-    entityequipmentmax: 8
-    entityequipmentmin: 6
+    entitydefenderchance: 0.12999999523162842
+    entityequipmentmax: 7
+    entityequipmentmin: 5
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 36250.0
+    entityflyrange: 31250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1850000
-    entitymissiletypeid: 205
+    entitykillbounty: 1250000
+    entitymissiletypeid: 2508
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8600000143051147
+    entityreactionfactor: 0.8199999928474426
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.25
-    entityshieldboostamount: 355.0
-    entityshieldboostdelaychancelarge: 0.6899999976158142
+    entitysecuritystatuskillbonus: 0.20999999344348907
+    entityshieldboostamount: 275.0
+    entityshieldboostdelaychancelarge: 0.6499999761581421
     entityshieldboostduration: 5000
-    entitytargetpaintduration: 30000
-    explosivedamage: 16.0
+    entitytargetpaintduration: 10000
+    entitytargetpaintdurationchance: 0.25
+    entitytargetpaintfalloff: 50000
+    entitytargetpaintmaxrange: 35000
+    explosivedamage: 8.0
     falloff: 35000.0
     gfxboosterid: 397
-    gfxturretid: 496
+    gfxturretid: 495
     hp: 5250.0
-    id: 22843
-    kineticdamage: 8.0
+    id: 22839
+    kineticdamage: 32.0
     mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 4
-    maxrange: 27500.0
+    maxrange: 22500.0
     maxvelocity: 1400.0
-    missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 9000.0
-    name: Angel Seraphim
+    missiledamagemultiplier: 1.100000023841858
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.4672000408172607
+    missileentityflighttimemultiplier: 6.5
+    missileentityvelocitymultiplier: 1.4672000408172607
+    missilelaunchduration: 13750.0
+    name: Angel Nephilim
     optimalsigradius: 400
     packagedVolume: 1.9E7
     portionSize: 1
@@ -583,21 +498,106 @@ types:
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanladarstrength: 27.0
-    scanresolution: 105.0
+    scanladarstrength: 31.0
+    scanresolution: 90.0
     shieldcapacity: 5500.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.5099999904632568
-    shieldkineticdamageresonance: 0.4099999964237213
+    shieldemdamageresonance: 0.25
+    shieldexplosivedamageresonance: 0.550000011920929
+    shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.3100000023841858
+    shieldthermaldamageresonance: 0.3499999940395355
     shielduniformity: 0.75
-    signatureradius: 350.0
+    signatureradius: 400.0
+    signatureradiusbonus: 27.5
     speed: 5000.0
     structureuniformity: 1.0
-    trackingspeed: 0.008999999612569809
+    trackingspeed: 0.011250000447034836
     volume: 1.9E7
-  Angel Throne:
+  22840:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.23999999463558197
+    armorexplosivedamageresonance: 0.5400000214576721
+    armorhp: 4750.0
+    armorkineticdamageresonance: 0.4399999976158142
+    armorthermaldamageresonance: 0.3400000035762787
+    armoruniformity: 0.75
+    capacitorcapacity: 3100.0
+    capacity: 120.0
+    damagemultiplier: 6.916666507720947
+    disallowassistance: 1
+    entityarmorrepairamount: 590.0
+    entityarmorrepairdelaychancelarge: 0.6600000262260437
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 12600
+    entityattackdelaymin: 3150
+    entityattackrange: 19500
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.625
+    entitychasemaxdistance: 13000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 175.0
+    entitydefenderchance: 0.13500000536441803
+    entityequipmentmax: 8
+    entityequipmentmin: 5
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 6500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 1400000
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8299999833106995
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.2199999988079071
+    entityshieldboostamount: 295.0
+    entityshieldboostdelaychancelarge: 0.6600000262260437
+    entityshieldboostduration: 5000
+    entitytargetpaintduration: 30000
+    explosivedamage: 32.0
+    falloff: 16000.0
+    gfxboosterid: 397
+    gfxturretid: 494
+    hp: 5250.0
+    id: 22840
+    kineticdamage: 8.0
+    mass: 1.9E7
+    maxattacktargets: 1
+    maxlockedtargets: 4
+    maxrange: 2500.0
+    maxvelocity: 1400.0
+    missiledamagemultiplier: 1.25
+    missileentityaoecloudsizemultiplier: 0.7623000144958496
+    missileentityaoevelocitymultiplier: 1.4753999710083008
+    missileentityflighttimemultiplier: 1.4753999710083008
+    missileentityvelocitymultiplier: 1.4753999710083008
+    missilelaunchduration: 1.0
+    name: Angel Malakim
+    optimalsigradius: 400
+    packagedVolume: 1.9E7
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanladarstrength: 24.0
+    scanresolution: 105.0
+    shieldcapacity: 5500.0
+    shieldemdamageresonance: 0.23999999463558197
+    shieldexplosivedamageresonance: 0.5400000214576721
+    shieldkineticdamageresonance: 0.4399999976158142
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.3400000035762787
+    shielduniformity: 0.75
+    signatureradius: 350.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    trackingspeed: 0.04320000112056732
+    volume: 1.9E7
+  22841:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -681,154 +681,68 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.04320000112056732
     volume: 1.9E7
-  Angel War General:
+  22842:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.2800000011920929
-    armorexplosivedamageresonance: 0.5799999833106995
-    armorhp: 4250.0
-    armorkineticdamageresonance: 0.47999998927116394
-    armorthermaldamageresonance: 0.3799999952316284
-    armoruniformity: 0.75
-    capacitorcapacity: 2700.0
-    capacity: 120.0
-    damagemultiplier: 5.625
-    disallowassistance: 1
-    entityarmorrepairamount: 430.0
-    entityarmorrepairdelaychancelarge: 0.6200000047683716
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 13800
-    entityattackdelaymin: 3450
-    entityattackrange: 22800
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.625
-    entitychasemaxdistance: 15200
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 175.0
-    entitydefenderchance: 0.11500000208616257
-    entityequipmentmax: 7
-    entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 7600.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 800000
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7900000214576721
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.18000000715255737
-    entityshieldboostamount: 215.0
-    entityshieldboostdelaychancelarge: 0.6200000047683716
-    entityshieldboostduration: 5000
-    entitytargetpaintduration: 30000
-    explosivedamage: 32.0
-    falloff: 16000.0
-    gfxboosterid: 397
-    gfxturretid: 494
-    hp: 4750.0
-    id: 11927
-    kineticdamage: 8.0
-    mass: 1.9E7
-    maxattacktargets: 1
-    maxlockedtargets: 4
-    maxrange: 3600.0
-    maxvelocity: 1400.0
-    missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.7786999940872192
-    missileentityaoevelocitymultiplier: 1.4426000118255615
-    missileentityflighttimemultiplier: 1.4426000118255615
-    missileentityvelocitymultiplier: 1.4426000118255615
-    missilelaunchduration: 1.0
-    name: Angel War General
-    optimalsigradius: 400
-    packagedVolume: 1.9E7
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanladarstrength: 22.0
-    scanresolution: 115.0
-    shieldcapacity: 4800.0
-    shieldemdamageresonance: 0.2800000011920929
-    shieldexplosivedamageresonance: 0.5799999833106995
-    shieldkineticdamageresonance: 0.47999998927116394
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.3799999952316284
-    shielduniformity: 0.75
-    signatureradius: 320.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    trackingspeed: 0.04800000041723251
-    volume: 1.9E7
-  Angel Warlord:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.27000001072883606
-    armorexplosivedamageresonance: 0.5699999928474426
+    armoremdamageresonance: 0.2199999988079071
+    armorexplosivedamageresonance: 0.5199999809265137
     armorhp: 4750.0
-    armorkineticdamageresonance: 0.4699999988079071
-    armorthermaldamageresonance: 0.3700000047683716
+    armorkineticdamageresonance: 0.41999998688697815
+    armorthermaldamageresonance: 0.3199999928474426
     armoruniformity: 0.75
-    capacitorcapacity: 2800.0
+    capacitorcapacity: 3300.0
     capacity: 120.0
-    damagemultiplier: 4.583333492279053
+    damagemultiplier: 10.0
     disallowassistance: 1
-    entityarmorrepairamount: 470.0
-    entityarmorrepairdelaychancelarge: 0.6299999952316284
+    entityarmorrepairdelaychancelarge: 0.6800000071525574
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 13500
-    entityattackdelaymin: 3375
-    entityattackrange: 78500
+    entityattackdelaymax: 12000
+    entityattackdelaymin: 3000
+    entityattackrange: 165000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.625
-    entitychasemaxdistance: 15200
+    entitychasemaxdelaychance: 0.3125
+    entitychasemaxdistance: 58125
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.11999999731779099
-    entityequipmentmax: 7
-    entityequipmentmin: 4
+    entitydefenderchance: 0.14499999582767487
+    entityequipmentmax: 8
+    entityequipmentmin: 6
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 7600.0
+    entityflyrange: 38750.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 950000
-    entitymissiletypeid: 2508
+    entitykillbounty: 1700000
+    entitymissiletypeid: 205
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.800000011920929
+    entityreactionfactor: 0.8500000238418579
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.1899999976158142
-    entityshieldboostamount: 235.0
-    entityshieldboostdelaychancelarge: 0.6299999952316284
+    entitysecuritystatuskillbonus: 0.23999999463558197
+    entityshieldboostamount: 335.0
+    entityshieldboostdelaychancelarge: 0.6800000071525574
     entityshieldboostduration: 5000
     entitytargetpaintduration: 30000
-    explosivedamage: 32.0
-    falloff: 16000.0
+    falloff: 35000.0
     gfxboosterid: 397
-    gfxturretid: 494
+    gfxturretid: 497
     hp: 5250.0
-    id: 11900
+    id: 22842
     kineticdamage: 8.0
     mass: 1.9E7
     maxattacktargets: 1
     maxlockedtargets: 4
-    maxrange: 3600.0
+    maxrange: 30000.0
     maxvelocity: 1400.0
     missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.4507999420166016
-    missileentityflighttimemultiplier: 6.5
-    missileentityvelocitymultiplier: 1.4507999420166016
-    missilelaunchduration: 22500.0
-    name: Angel Warlord
+    missileentityaoecloudsizemultiplier: 0.7541000247001648
+    missileentityaoevelocitymultiplier: 1.4917999505996704
+    missileentityflighttimemultiplier: 1.4917999505996704
+    missileentityvelocitymultiplier: 1.4917999505996704
+    missilelaunchduration: 9000.0
+    name: Angel Cherubim
     optimalsigradius: 400
     packagedVolume: 1.9E7
     portionSize: 1
@@ -836,17 +750,103 @@ types:
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanladarstrength: 23.0
-    scanresolution: 115.0
+    scanladarstrength: 26.0
+    scanresolution: 105.0
     shieldcapacity: 5500.0
-    shieldemdamageresonance: 0.27000001072883606
-    shieldexplosivedamageresonance: 0.5699999928474426
-    shieldkineticdamageresonance: 0.4699999988079071
+    shieldemdamageresonance: 0.2199999988079071
+    shieldexplosivedamageresonance: 0.5199999809265137
+    shieldkineticdamageresonance: 0.41999998688697815
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.3700000047683716
+    shieldthermaldamageresonance: 0.3199999928474426
     shielduniformity: 0.75
-    signatureradius: 320.0
-    speed: 2500.0
+    signatureradius: 350.0
+    speed: 5000.0
     structureuniformity: 1.0
-    trackingspeed: 0.04800000041723251
+    thermaldamage: 32.0
+    trackingspeed: 0.008999999612569809
+    volume: 1.9E7
+  22843:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.20999999344348907
+    armorexplosivedamageresonance: 0.5099999904632568
+    armorhp: 4750.0
+    armorkineticdamageresonance: 0.4099999964237213
+    armorthermaldamageresonance: 0.3100000023841858
+    armoruniformity: 0.75
+    capacitorcapacity: 3400.0
+    capacity: 120.0
+    damagemultiplier: 10.0
+    disallowassistance: 1
+    emdamage: 20.0
+    entityarmorrepairdelaychancelarge: 0.6899999976158142
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 11700
+    entityattackdelaymin: 2925
+    entityattackrange: 168750
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.3125
+    entitychasemaxdistance: 54375
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 175.0
+    entitydefenderchance: 0.15000000596046448
+    entityequipmentmax: 8
+    entityequipmentmin: 6
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 36250.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 1850000
+    entitymissiletypeid: 205
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8600000143051147
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.25
+    entityshieldboostamount: 355.0
+    entityshieldboostdelaychancelarge: 0.6899999976158142
+    entityshieldboostduration: 5000
+    entitytargetpaintduration: 30000
+    explosivedamage: 16.0
+    falloff: 35000.0
+    gfxboosterid: 397
+    gfxturretid: 496
+    hp: 5250.0
+    id: 22843
+    kineticdamage: 8.0
+    mass: 1.9E7
+    maxattacktargets: 1
+    maxlockedtargets: 4
+    maxrange: 27500.0
+    maxvelocity: 1400.0
+    missiledamagemultiplier: 1.25
+    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 9000.0
+    name: Angel Seraphim
+    optimalsigradius: 400
+    packagedVolume: 1.9E7
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanladarstrength: 27.0
+    scanresolution: 105.0
+    shieldcapacity: 5500.0
+    shieldemdamageresonance: 0.20999999344348907
+    shieldexplosivedamageresonance: 0.5099999904632568
+    shieldkineticdamageresonance: 0.4099999964237213
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.3100000023841858
+    shielduniformity: 0.75
+    signatureradius: 350.0
+    speed: 5000.0
+    structureuniformity: 1.0
+    trackingspeed: 0.008999999612569809
     volume: 1.9E7

@@ -181,7 +181,7 @@ public class ShieldPowerRelay
         implements IMetaGroup<ShieldPowerRelay>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ShieldPowerRelay.yaml";
-        private Map<String, ShieldPowerRelay> cache = (null);
+        private Map<Integer, ShieldPowerRelay> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldPowerRelay> category() {
@@ -199,7 +199,7 @@ public class ShieldPowerRelay
         }
 
         @Override
-        public synchronized Map<String, ShieldPowerRelay> load() {
+        public synchronized Map<Integer, ShieldPowerRelay> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldPowerRelay.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class ShieldPowerRelay
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldPowerRelay> types;
+            public LinkedHashMap<Integer, ShieldPowerRelay> types;
         }
     }
 }

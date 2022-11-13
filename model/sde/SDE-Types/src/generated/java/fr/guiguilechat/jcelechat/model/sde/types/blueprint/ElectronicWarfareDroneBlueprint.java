@@ -83,7 +83,7 @@ public class ElectronicWarfareDroneBlueprint
         implements IMetaGroup<ElectronicWarfareDroneBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ElectronicWarfareDroneBlueprint.yaml";
-        private Map<String, ElectronicWarfareDroneBlueprint> cache = (null);
+        private Map<Integer, ElectronicWarfareDroneBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ElectronicWarfareDroneBlueprint> category() {
@@ -101,7 +101,7 @@ public class ElectronicWarfareDroneBlueprint
         }
 
         @Override
-        public synchronized Map<String, ElectronicWarfareDroneBlueprint> load() {
+        public synchronized Map<Integer, ElectronicWarfareDroneBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ElectronicWarfareDroneBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class ElectronicWarfareDroneBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ElectronicWarfareDroneBlueprint> types;
+            public LinkedHashMap<Integer, ElectronicWarfareDroneBlueprint> types;
         }
     }
 }

@@ -473,7 +473,7 @@ public class CommandBurst
         implements IMetaGroup<CommandBurst>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CommandBurst.yaml";
-        private Map<String, CommandBurst> cache = (null);
+        private Map<Integer, CommandBurst> cache = (null);
 
         @Override
         public IMetaCategory<? super CommandBurst> category() {
@@ -491,7 +491,7 @@ public class CommandBurst
         }
 
         @Override
-        public synchronized Map<String, CommandBurst> load() {
+        public synchronized Map<Integer, CommandBurst> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CommandBurst.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -505,7 +505,7 @@ public class CommandBurst
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandBurst> types;
+            public LinkedHashMap<Integer, CommandBurst> types;
         }
     }
 }

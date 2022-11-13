@@ -322,8 +322,8 @@ public class HeavyInterdictionCruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5)
-    public int shipbonuscc;
+    @DefaultRealValue(5.0)
+    public double shipbonuscc;
     /**
      * 
      */
@@ -547,7 +547,7 @@ public class HeavyInterdictionCruiser
         implements IMetaGroup<HeavyInterdictionCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/HeavyInterdictionCruiser.yaml";
-        private Map<String, HeavyInterdictionCruiser> cache = (null);
+        private Map<Integer, HeavyInterdictionCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super HeavyInterdictionCruiser> category() {
@@ -565,7 +565,7 @@ public class HeavyInterdictionCruiser
         }
 
         @Override
-        public synchronized Map<String, HeavyInterdictionCruiser> load() {
+        public synchronized Map<Integer, HeavyInterdictionCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HeavyInterdictionCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -579,7 +579,7 @@ public class HeavyInterdictionCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, HeavyInterdictionCruiser> types;
+            public LinkedHashMap<Integer, HeavyInterdictionCruiser> types;
         }
     }
 }

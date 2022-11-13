@@ -97,7 +97,7 @@ public class HullRepairUnitBlueprint
         implements IMetaGroup<HullRepairUnitBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/HullRepairUnitBlueprint.yaml";
-        private Map<String, HullRepairUnitBlueprint> cache = (null);
+        private Map<Integer, HullRepairUnitBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super HullRepairUnitBlueprint> category() {
@@ -115,7 +115,7 @@ public class HullRepairUnitBlueprint
         }
 
         @Override
-        public synchronized Map<String, HullRepairUnitBlueprint> load() {
+        public synchronized Map<Integer, HullRepairUnitBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HullRepairUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class HullRepairUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, HullRepairUnitBlueprint> types;
+            public LinkedHashMap<Integer, HullRepairUnitBlueprint> types;
         }
     }
 }

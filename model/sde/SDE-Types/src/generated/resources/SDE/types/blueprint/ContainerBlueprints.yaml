@@ -1,192 +1,16 @@
 types:
-  Enormous Freight Container Blueprint:
-    id: 33004
+  27309:
+    id: 27309
     industryblueprintrank: 5.0
     marketGroup: 1008
-    name: Enormous Freight Container Blueprint
+    name: Station Warehouse Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Giant Freight Container Blueprint:
-    id: 32862
-    industryblueprintrank: 4.0
-    marketGroup: 1008
-    name: Giant Freight Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2000000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Giant Secure Container Blueprint:
-    id: 32863
-    industryblueprintrank: 4.0
-    marketGroup: 1008
-    name: Giant Secure Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2500000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Huge Freight Container Blueprint:
-    id: 33006
-    industryblueprintrank: 4.0
-    marketGroup: 1008
-    name: Huge Freight Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1000000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Huge Secure Container Blueprint:
-    id: 32864
-    industryblueprintrank: 5.0
-    marketGroup: 1008
-    name: Huge Secure Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1200000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Large Audit Log Secure Container Blueprint:
-    id: 32870
-    industryblueprintrank: 3.0
-    marketGroup: 1008
-    name: Large Audit Log Secure Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4000000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Large Freight Container Blueprint:
-    id: 33008
-    industryblueprintrank: 3.0
-    marketGroup: 1008
-    name: Large Freight Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 500000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Large Secure Container Blueprint:
-    id: 32865
-    industryblueprintrank: 3.0
-    marketGroup: 1008
-    name: Large Secure Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 500000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Large Standard Container Blueprint:
-    id: 32861
-    industryblueprintrank: 3.0
-    marketGroup: 1008
-    name: Large Standard Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 250000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Medium Audit Log Secure Container Blueprint:
-    id: 32869
-    industryblueprintrank: 2.0
-    marketGroup: 1008
-    name: Medium Audit Log Secure Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2000000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Medium Freight Container Blueprint:
-    id: 33010
-    industryblueprintrank: 2.0
-    marketGroup: 1008
-    name: Medium Freight Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 250000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Medium Secure Container Blueprint:
-    id: 32866
-    industryblueprintrank: 2.0
-    marketGroup: 1008
-    name: Medium Secure Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 230000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Medium Standard Container Blueprint:
-    id: 32860
-    industryblueprintrank: 2.0
-    marketGroup: 1008
-    name: Medium Standard Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 120000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Small Audit Log Secure Container Blueprint:
-    id: 32868
-    industryblueprintrank: 1.0
-    marketGroup: 1008
-    name: Small Audit Log Secure Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 180000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Small Freight Container Blueprint:
-    id: 33012
-    industryblueprintrank: 1.0
-    marketGroup: 1008
-    name: Small Freight Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 125000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Small Secure Container Blueprint:
-    id: 32867
-    industryblueprintrank: 1.0
-    marketGroup: 1008
-    name: Small Secure Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 80000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Small Standard Container Blueprint:
-    id: 32859
-    industryblueprintrank: 1.0
-    marketGroup: 1008
-    name: Small Standard Container Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 50000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Station Container Blueprint:
+  32858:
     id: 32858
     industryblueprintrank: 5.0
     marketGroup: 1008
@@ -197,7 +21,139 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Station Vault Container Blueprint:
+  32859:
+    id: 32859
+    industryblueprintrank: 1.0
+    marketGroup: 1008
+    name: Small Standard Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 50000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32860:
+    id: 32860
+    industryblueprintrank: 2.0
+    marketGroup: 1008
+    name: Medium Standard Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 120000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32861:
+    id: 32861
+    industryblueprintrank: 3.0
+    marketGroup: 1008
+    name: Large Standard Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 250000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32862:
+    id: 32862
+    industryblueprintrank: 4.0
+    marketGroup: 1008
+    name: Giant Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32863:
+    id: 32863
+    industryblueprintrank: 4.0
+    marketGroup: 1008
+    name: Giant Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32864:
+    id: 32864
+    industryblueprintrank: 5.0
+    marketGroup: 1008
+    name: Huge Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1200000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32865:
+    id: 32865
+    industryblueprintrank: 3.0
+    marketGroup: 1008
+    name: Large Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32866:
+    id: 32866
+    industryblueprintrank: 2.0
+    marketGroup: 1008
+    name: Medium Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 230000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32867:
+    id: 32867
+    industryblueprintrank: 1.0
+    marketGroup: 1008
+    name: Small Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 80000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32868:
+    id: 32868
+    industryblueprintrank: 1.0
+    marketGroup: 1008
+    name: Small Audit Log Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 180000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32869:
+    id: 32869
+    industryblueprintrank: 2.0
+    marketGroup: 1008
+    name: Medium Audit Log Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32870:
+    id: 32870
+    industryblueprintrank: 3.0
+    marketGroup: 1008
+    name: Large Audit Log Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  32871:
     id: 32871
     industryblueprintrank: 5.0
     marketGroup: 1008
@@ -208,14 +164,58 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Station Warehouse Container Blueprint:
-    id: 27309
+  33004:
+    id: 33004
     industryblueprintrank: 5.0
     marketGroup: 1008
-    name: Station Warehouse Container Blueprint
+    name: Enormous Freight Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 4000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  33006:
+    id: 33006
+    industryblueprintrank: 4.0
+    marketGroup: 1008
+    name: Huge Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  33008:
+    id: 33008
+    industryblueprintrank: 3.0
+    marketGroup: 1008
+    name: Large Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  33010:
+    id: 33010
+    industryblueprintrank: 2.0
+    marketGroup: 1008
+    name: Medium Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 250000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  33012:
+    id: 33012
+    industryblueprintrank: 1.0
+    marketGroup: 1008
+    name: Small Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

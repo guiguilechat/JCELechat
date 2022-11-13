@@ -1,161 +1,173 @@
 types:
-  Guristas Conquistador:
+  11932:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.23000000417232513
-    armorexplosivedamageresonance: 0.33000001311302185
-    armorhp: 4250.0
-    armorkineticdamageresonance: 0.5299999713897705
-    armorthermaldamageresonance: 0.4300000071525574
+    armoremdamageresonance: 0.30000001192092896
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 3500.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
-    capacitorcapacity: 3700.0
+    capacitorcapacity: 3000.0
     capacity: 235.0
-    damagemultiplier: 1.0
+    damagemultiplier: 3.3333332538604736
     disallowassistance: 1
     ecmduration: 30000
-    entityattackdelaymax: 12300
-    entityattackdelaymin: 3075
-    entityattackrange: 175000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 52500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.14000000059604645
-    entityequipmentmax: 8
-    entityequipmentmin: 5
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 35000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 1550000
-    entitylootcountmin: 1
-    entitymissiletypeid: 267
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8399999737739563
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.23000000417232513
-    entityshieldboostamount: 315.0
-    entityshieldboostdelaychancelarge: 0.7200000286102295
-    entityshieldboostduration: 5000
-    entitytargetjam: 1
-    falloff: 1.0
-    gfxboosterid: 395
-    hp: 4750.0
-    id: 23340
-    mass: 2.1E7
-    maxattacktargets: 1
-    maxlockedtargets: 3
-    maxvelocity: 1120.0
-    missiledamagemultiplier: 1.2999999523162842
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.4836000204086304
-    missileentityflighttimemultiplier: 6.5
-    missileentityvelocitymultiplier: 2.2090001106262207
-    missilelaunchduration: 5525.0
-    name: Guristas Conquistador
-    optimalsigradius: 1000
-    packagedVolume: 2.2E7
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scangravimetricstrength: 28.0
-    scanresolution: 90.0
-    shieldcapacity: 6750.0
-    shieldemdamageresonance: 0.23000000417232513
-    shieldexplosivedamageresonance: 0.33000001311302185
-    shieldkineticdamageresonance: 0.5299999713897705
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4300000071525574
-    shielduniformity: 0.75
-    signatureradius: 410.0
-    structureuniformity: 1.0
-    volume: 2.2E7
-  Guristas Destroyer:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.23999999463558197
-    armorexplosivedamageresonance: 0.3400000035762787
-    armorhp: 4250.0
-    armorkineticdamageresonance: 0.5400000214576721
-    armorthermaldamageresonance: 0.4399999976158142
-    armoruniformity: 0.75
-    capacitorcapacity: 3600.0
-    capacity: 235.0
-    damagemultiplier: 1.0
-    disallowassistance: 1
-    ecmduration: 30000
-    entityattackdelaymax: 12600
-    entityattackdelaymin: 3150
+    entityattackdelaymax: 14400
+    entityattackdelaymin: 3600
     entityattackrange: 245000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 75000
+    entitychasemaxdistance: 40500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.13500000536441803
-    entityequipmentmax: 8
-    entityequipmentmin: 5
+    entitydefenderchance: 0.10499999672174454
+    entityequipmentmax: 6
+    entityequipmentmin: 4
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 50000.0
+    entityflyrange: 27000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1400000
+    entitykillbounty: 500000
     entitylootcountmin: 1
     entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8299999833106995
+    entityreactionfactor: 0.7699999809265137
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.2199999988079071
-    entityshieldboostamount: 295.0
-    entityshieldboostdelaychancelarge: 0.7099999785423279
+    entitysecuritystatuskillbonus: 0.1599999964237213
+    entityshieldboostamount: 175.0
+    entityshieldboostdelaychancelarge: 0.6499999761581421
     entityshieldboostduration: 5000
     entitytargetjam: 1
-    falloff: 1.0
+    falloff: 12000.0
     gfxboosterid: 395
-    hp: 4750.0
-    id: 23339
+    gfxturretid: 572
+    hp: 3500.0
+    id: 11932
+    kineticdamage: 20.0
     mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 3
+    maxrange: 24000.0
     maxvelocity: 1120.0
-    missiledamagemultiplier: 1.850000023841858
-    missileentityaoecloudsizemultiplier: 0.7623000144958496
-    missileentityaoevelocitymultiplier: 1.4753999710083008
-    missileentityflighttimemultiplier: 2.188499927520752
-    missileentityvelocitymultiplier: 2.188499927520752
-    missilelaunchduration: 5000.0
-    name: Guristas Destroyer
-    optimalsigradius: 1000
-    packagedVolume: 2.2E7
+    missiledamagemultiplier: 1.25
+    missileentityaoecloudsizemultiplier: 0.786899983882904
+    missileentityaoevelocitymultiplier: 1.426200032234192
+    missileentityflighttimemultiplier: 2.065500020980835
+    missileentityvelocitymultiplier: 2.065500020980835
+    missilelaunchduration: 12000.0
+    name: Guristas Eradicator
+    optimalsigradius: 400
+    packagedVolume: 1040000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scangravimetricstrength: 27.0
-    scanresolution: 90.0
-    shieldcapacity: 6750.0
-    shieldemdamageresonance: 0.23999999463558197
-    shieldexplosivedamageresonance: 0.3400000035762787
-    shieldkineticdamageresonance: 0.5400000214576721
+    scangravimetricstrength: 23.0
+    scanresolution: 100.0
+    shieldcapacity: 4250.0
+    shieldemdamageresonance: 0.30000001192092896
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4399999976158142
+    shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
-    signatureradius: 410.0
+    signatureradius: 380.0
+    speed: 2500.0
     structureuniformity: 1.0
-    volume: 2.2E7
-  Guristas Dismantler:
+    thermaldamage: 16.0
+    trackingspeed: 0.017500000074505806
+    volume: 1040000.0
+  11933:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.28999999165534973
+    armorexplosivedamageresonance: 0.38999998569488525
+    armorhp: 3975.0
+    armorkineticdamageresonance: 0.5899999737739563
+    armorthermaldamageresonance: 0.49000000953674316
+    armoruniformity: 0.75
+    capacitorcapacity: 3100.0
+    capacity: 235.0
+    damagemultiplier: 3.75
+    disallowassistance: 1
+    ecmduration: 30000
+    entityattackdelaymax: 14100
+    entityattackdelaymin: 3525
+    entityattackrange: 160000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 40500
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.10999999940395355
+    entityequipmentmax: 6
+    entityequipmentmin: 4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 27000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 650000
+    entitylootcountmin: 1
+    entitymissiletypeid: 267
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7799999713897705
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.17000000178813934
+    entityshieldboostamount: 195.0
+    entityshieldboostdelaychancelarge: 0.6600000262260437
+    entityshieldboostduration: 5000
+    entitytargetjam: 1
+    falloff: 12000.0
+    gfxboosterid: 395
+    gfxturretid: 572
+    hp: 3975.0
+    id: 11933
+    kineticdamage: 20.0
+    mass: 2.2E7
+    maxattacktargets: 1
+    maxlockedtargets: 3
+    maxrange: 24000.0
+    maxvelocity: 1120.0
+    missiledamagemultiplier: 1.100000023841858
+    missileentityaoecloudsizemultiplier: 0.782800018787384
+    missileentityaoevelocitymultiplier: 1.434399962425232
+    missileentityflighttimemultiplier: 6.5
+    missileentityvelocitymultiplier: 2.0859999656677246
+    missilelaunchduration: 17500.0
+    name: Guristas Obliterator
+    optimalsigradius: 400
+    packagedVolume: 1080000.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scangravimetricstrength: 24.0
+    scanresolution: 100.0
+    shieldcapacity: 4800.0
+    shieldemdamageresonance: 0.28999999165534973
+    shieldexplosivedamageresonance: 0.38999998569488525
+    shieldkineticdamageresonance: 0.5899999737739563
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.49000000953674316
+    shielduniformity: 0.75
+    signatureradius: 380.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.017500000074505806
+    volume: 1080000.0
+  11934:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -233,7 +245,85 @@ types:
     signatureradius: 380.0
     structureuniformity: 1.0
     volume: 1040000.0
-  Guristas Eliminator:
+  11935:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.27000001072883606
+    armorexplosivedamageresonance: 0.3700000047683716
+    armorhp: 4250.0
+    armorkineticdamageresonance: 0.5699999928474426
+    armorthermaldamageresonance: 0.4699999988079071
+    armoruniformity: 0.75
+    capacitorcapacity: 3300.0
+    capacity: 235.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    ecmduration: 30000
+    entityattackdelaymax: 13500
+    entityattackdelaymin: 3375
+    entityattackrange: 165000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 52500
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.11999999731779099
+    entityequipmentmax: 7
+    entityequipmentmin: 4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 35000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 950000
+    entitylootcountmin: 1
+    entitymissiletypeid: 267
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.800000011920929
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.1899999976158142
+    entityshieldboostamount: 235.0
+    entityshieldboostdelaychancelarge: 0.6800000071525574
+    entityshieldboostduration: 5000
+    entitytargetjam: 1
+    falloff: 1.0
+    gfxboosterid: 395
+    hp: 4750.0
+    id: 11935
+    mass: 2.1E7
+    maxattacktargets: 1
+    maxlockedtargets: 3
+    maxvelocity: 1120.0
+    missiledamagemultiplier: 1.2000000476837158
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.4507999420166016
+    missileentityflighttimemultiplier: 6.5
+    missileentityvelocitymultiplier: 2.127000093460083
+    missilelaunchduration: 6250.0
+    name: Guristas Extinguisher
+    optimalsigradius: 1000
+    packagedVolume: 2.2E7
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scangravimetricstrength: 26.0
+    scanresolution: 100.0
+    shieldcapacity: 6750.0
+    shieldemdamageresonance: 0.27000001072883606
+    shieldexplosivedamageresonance: 0.3700000047683716
+    shieldkineticdamageresonance: 0.5699999928474426
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.4699999988079071
+    shielduniformity: 0.75
+    signatureradius: 380.0
+    structureuniformity: 1.0
+    volume: 2.2E7
+  23337:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -323,91 +413,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.011669999919831753
     volume: 2.2E7
-  Guristas Eradicator:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 3500.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 235.0
-    damagemultiplier: 3.3333332538604736
-    disallowassistance: 1
-    ecmduration: 30000
-    entityattackdelaymax: 14400
-    entityattackdelaymin: 3600
-    entityattackrange: 245000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 40500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.10499999672174454
-    entityequipmentmax: 6
-    entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 27000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 500000
-    entitylootcountmin: 1
-    entitymissiletypeid: 203
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.1599999964237213
-    entityshieldboostamount: 175.0
-    entityshieldboostdelaychancelarge: 0.6499999761581421
-    entityshieldboostduration: 5000
-    entitytargetjam: 1
-    falloff: 12000.0
-    gfxboosterid: 395
-    gfxturretid: 572
-    hp: 3500.0
-    id: 11932
-    kineticdamage: 20.0
-    mass: 2.1E7
-    maxattacktargets: 1
-    maxlockedtargets: 3
-    maxrange: 24000.0
-    maxvelocity: 1120.0
-    missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.786899983882904
-    missileentityaoevelocitymultiplier: 1.426200032234192
-    missileentityflighttimemultiplier: 2.065500020980835
-    missileentityvelocitymultiplier: 2.065500020980835
-    missilelaunchduration: 12000.0
-    name: Guristas Eradicator
-    optimalsigradius: 400
-    packagedVolume: 1040000.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scangravimetricstrength: 23.0
-    scanresolution: 100.0
-    shieldcapacity: 4250.0
-    shieldemdamageresonance: 0.30000001192092896
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 380.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.017500000074505806
-    volume: 1040000.0
-  Guristas Exterminator:
+  23338:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -497,65 +503,65 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.011669999919831753
     volume: 2.2E7
-  Guristas Extinguisher:
+  23339:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.27000001072883606
-    armorexplosivedamageresonance: 0.3700000047683716
+    armoremdamageresonance: 0.23999999463558197
+    armorexplosivedamageresonance: 0.3400000035762787
     armorhp: 4250.0
-    armorkineticdamageresonance: 0.5699999928474426
-    armorthermaldamageresonance: 0.4699999988079071
+    armorkineticdamageresonance: 0.5400000214576721
+    armorthermaldamageresonance: 0.4399999976158142
     armoruniformity: 0.75
-    capacitorcapacity: 3300.0
+    capacitorcapacity: 3600.0
     capacity: 235.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
-    entityattackdelaymax: 13500
-    entityattackdelaymin: 3375
-    entityattackrange: 165000
+    entityattackdelaymax: 12600
+    entityattackdelaymin: 3150
+    entityattackrange: 245000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 52500
+    entitychasemaxdistance: 75000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.11999999731779099
-    entityequipmentmax: 7
-    entityequipmentmin: 4
+    entitydefenderchance: 0.13500000536441803
+    entityequipmentmax: 8
+    entityequipmentmin: 5
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 35000.0
+    entityflyrange: 50000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 950000
+    entitykillbounty: 1400000
     entitylootcountmin: 1
-    entitymissiletypeid: 267
+    entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.800000011920929
+    entityreactionfactor: 0.8299999833106995
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.1899999976158142
-    entityshieldboostamount: 235.0
-    entityshieldboostdelaychancelarge: 0.6800000071525574
+    entitysecuritystatuskillbonus: 0.2199999988079071
+    entityshieldboostamount: 295.0
+    entityshieldboostdelaychancelarge: 0.7099999785423279
     entityshieldboostduration: 5000
     entitytargetjam: 1
     falloff: 1.0
     gfxboosterid: 395
     hp: 4750.0
-    id: 11935
+    id: 23339
     mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 3
     maxvelocity: 1120.0
-    missiledamagemultiplier: 1.2000000476837158
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.4507999420166016
-    missileentityflighttimemultiplier: 6.5
-    missileentityvelocitymultiplier: 2.127000093460083
-    missilelaunchduration: 6250.0
-    name: Guristas Extinguisher
+    missiledamagemultiplier: 1.850000023841858
+    missileentityaoecloudsizemultiplier: 0.7623000144958496
+    missileentityaoevelocitymultiplier: 1.4753999710083008
+    missileentityflighttimemultiplier: 2.188499927520752
+    missileentityvelocitymultiplier: 2.188499927520752
+    missilelaunchduration: 5000.0
+    name: Guristas Destroyer
     optimalsigradius: 1000
     packagedVolume: 2.2E7
     portionSize: 1
@@ -563,19 +569,97 @@ types:
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scangravimetricstrength: 26.0
-    scanresolution: 100.0
+    scangravimetricstrength: 27.0
+    scanresolution: 90.0
     shieldcapacity: 6750.0
-    shieldemdamageresonance: 0.27000001072883606
-    shieldexplosivedamageresonance: 0.3700000047683716
-    shieldkineticdamageresonance: 0.5699999928474426
+    shieldemdamageresonance: 0.23999999463558197
+    shieldexplosivedamageresonance: 0.3400000035762787
+    shieldkineticdamageresonance: 0.5400000214576721
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4699999988079071
+    shieldthermaldamageresonance: 0.4399999976158142
     shielduniformity: 0.75
-    signatureradius: 380.0
+    signatureradius: 410.0
     structureuniformity: 1.0
     volume: 2.2E7
-  Guristas Massacrer:
+  23340:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.23000000417232513
+    armorexplosivedamageresonance: 0.33000001311302185
+    armorhp: 4250.0
+    armorkineticdamageresonance: 0.5299999713897705
+    armorthermaldamageresonance: 0.4300000071525574
+    armoruniformity: 0.75
+    capacitorcapacity: 3700.0
+    capacity: 235.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    ecmduration: 30000
+    entityattackdelaymax: 12300
+    entityattackdelaymin: 3075
+    entityattackrange: 175000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 52500
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.14000000059604645
+    entityequipmentmax: 8
+    entityequipmentmin: 5
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 35000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 1550000
+    entitylootcountmin: 1
+    entitymissiletypeid: 267
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8399999737739563
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.23000000417232513
+    entityshieldboostamount: 315.0
+    entityshieldboostdelaychancelarge: 0.7200000286102295
+    entityshieldboostduration: 5000
+    entitytargetjam: 1
+    falloff: 1.0
+    gfxboosterid: 395
+    hp: 4750.0
+    id: 23340
+    mass: 2.1E7
+    maxattacktargets: 1
+    maxlockedtargets: 3
+    maxvelocity: 1120.0
+    missiledamagemultiplier: 1.2999999523162842
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.4836000204086304
+    missileentityflighttimemultiplier: 6.5
+    missileentityvelocitymultiplier: 2.2090001106262207
+    missilelaunchduration: 5525.0
+    name: Guristas Conquistador
+    optimalsigradius: 1000
+    packagedVolume: 2.2E7
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scangravimetricstrength: 28.0
+    scanresolution: 90.0
+    shieldcapacity: 6750.0
+    shieldemdamageresonance: 0.23000000417232513
+    shieldexplosivedamageresonance: 0.33000001311302185
+    shieldkineticdamageresonance: 0.5299999713897705
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.4300000071525574
+    shielduniformity: 0.75
+    signatureradius: 410.0
+    structureuniformity: 1.0
+    volume: 2.2E7
+  23341:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -659,91 +743,7 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.009624999947845936
     volume: 2.2E7
-  Guristas Obliterator:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.28999999165534973
-    armorexplosivedamageresonance: 0.38999998569488525
-    armorhp: 3975.0
-    armorkineticdamageresonance: 0.5899999737739563
-    armorthermaldamageresonance: 0.49000000953674316
-    armoruniformity: 0.75
-    capacitorcapacity: 3100.0
-    capacity: 235.0
-    damagemultiplier: 3.75
-    disallowassistance: 1
-    ecmduration: 30000
-    entityattackdelaymax: 14100
-    entityattackdelaymin: 3525
-    entityattackrange: 160000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 40500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.10999999940395355
-    entityequipmentmax: 6
-    entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 27000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 650000
-    entitylootcountmin: 1
-    entitymissiletypeid: 267
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7799999713897705
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.17000000178813934
-    entityshieldboostamount: 195.0
-    entityshieldboostdelaychancelarge: 0.6600000262260437
-    entityshieldboostduration: 5000
-    entitytargetjam: 1
-    falloff: 12000.0
-    gfxboosterid: 395
-    gfxturretid: 572
-    hp: 3975.0
-    id: 11933
-    kineticdamage: 20.0
-    mass: 2.2E7
-    maxattacktargets: 1
-    maxlockedtargets: 3
-    maxrange: 24000.0
-    maxvelocity: 1120.0
-    missiledamagemultiplier: 1.100000023841858
-    missileentityaoecloudsizemultiplier: 0.782800018787384
-    missileentityaoevelocitymultiplier: 1.434399962425232
-    missileentityflighttimemultiplier: 6.5
-    missileentityvelocitymultiplier: 2.0859999656677246
-    missilelaunchduration: 17500.0
-    name: Guristas Obliterator
-    optimalsigradius: 400
-    packagedVolume: 1080000.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scangravimetricstrength: 24.0
-    scanresolution: 100.0
-    shieldcapacity: 4800.0
-    shieldemdamageresonance: 0.28999999165534973
-    shieldexplosivedamageresonance: 0.38999998569488525
-    shieldkineticdamageresonance: 0.5899999737739563
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.49000000953674316
-    shielduniformity: 0.75
-    signatureradius: 380.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.017500000074505806
-    volume: 1080000.0
-  Guristas Usurper:
+  23342:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

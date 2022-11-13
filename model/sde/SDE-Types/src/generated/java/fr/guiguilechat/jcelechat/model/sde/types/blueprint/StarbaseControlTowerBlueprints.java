@@ -83,7 +83,7 @@ public class StarbaseControlTowerBlueprints
         implements IMetaGroup<StarbaseControlTowerBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseControlTowerBlueprints.yaml";
-        private Map<String, StarbaseControlTowerBlueprints> cache = (null);
+        private Map<Integer, StarbaseControlTowerBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StarbaseControlTowerBlueprints> category() {
@@ -101,7 +101,7 @@ public class StarbaseControlTowerBlueprints
         }
 
         @Override
-        public synchronized Map<String, StarbaseControlTowerBlueprints> load() {
+        public synchronized Map<Integer, StarbaseControlTowerBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StarbaseControlTowerBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StarbaseControlTowerBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseControlTowerBlueprints> types;
+            public LinkedHashMap<Integer, StarbaseControlTowerBlueprints> types;
         }
     }
 }

@@ -351,7 +351,7 @@ public class IrregularShuttle
         implements IMetaGroup<IrregularShuttle>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularShuttle.yaml";
-        private Map<String, IrregularShuttle> cache = (null);
+        private Map<Integer, IrregularShuttle> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularShuttle> category() {
@@ -369,7 +369,7 @@ public class IrregularShuttle
         }
 
         @Override
-        public synchronized Map<String, IrregularShuttle> load() {
+        public synchronized Map<Integer, IrregularShuttle> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularShuttle.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -383,7 +383,7 @@ public class IrregularShuttle
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularShuttle> types;
+            public LinkedHashMap<Integer, IrregularShuttle> types;
         }
     }
 }

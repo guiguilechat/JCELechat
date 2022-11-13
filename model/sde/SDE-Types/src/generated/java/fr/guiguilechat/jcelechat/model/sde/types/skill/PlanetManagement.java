@@ -91,7 +91,7 @@ public class PlanetManagement
         implements IMetaGroup<PlanetManagement>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/PlanetManagement.yaml";
-        private Map<String, PlanetManagement> cache = (null);
+        private Map<Integer, PlanetManagement> cache = (null);
 
         @Override
         public IMetaCategory<? super PlanetManagement> category() {
@@ -109,7 +109,7 @@ public class PlanetManagement
         }
 
         @Override
-        public synchronized Map<String, PlanetManagement> load() {
+        public synchronized Map<Integer, PlanetManagement> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PlanetManagement.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -123,7 +123,7 @@ public class PlanetManagement
         }
 
         private static class Container {
-            public LinkedHashMap<String, PlanetManagement> types;
+            public LinkedHashMap<Integer, PlanetManagement> types;
         }
     }
 }

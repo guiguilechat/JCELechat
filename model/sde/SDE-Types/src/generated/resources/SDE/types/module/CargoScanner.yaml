@@ -1,5 +1,5 @@
 types:
-  Cargo Scanner I:
+  442:
     capacitorneed: 4.0
     cargoscanrange: 50000
     cpu: 4.0
@@ -18,7 +18,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
-  Cargo Scanner II:
+  2038:
     capacitorneed: 4.0
     cargoscanrange: 70000
     cpu: 5.0
@@ -38,27 +38,7 @@ types:
     requiredskill1level: 2
     techlevel: 2
     volume: 5.0
-  PL-0 Scoped Cargo Scanner:
-    capacitorneed: 4.0
-    cargoscanrange: 65000
-    cpu: 4.0
-    disallowrepeatingactivation: 1
-    duration: 4000.0
-    hp: 40.0
-    id: 6135
-    marketGroup: 711
-    metalevelold: 1
-    name: PL-0 Scoped Cargo Scanner
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Type-E Enduring Cargo Scanner:
+  6131:
     capacitorneed: 3.0
     cargoscanrange: 55000
     cpu: 4.0
@@ -69,6 +49,26 @@ types:
     marketGroup: 711
     metalevelold: 1
     name: Type-E Enduring Cargo Scanner
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  6135:
+    capacitorneed: 4.0
+    cargoscanrange: 65000
+    cpu: 4.0
+    disallowrepeatingactivation: 1
+    duration: 4000.0
+    hp: 40.0
+    id: 6135
+    marketGroup: 711
+    metalevelold: 1
+    name: PL-0 Scoped Cargo Scanner
     packagedVolume: 5.0
     portionSize: 1
     power: 1

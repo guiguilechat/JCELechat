@@ -253,7 +253,7 @@ public class EnergyNosferatu
         implements IMetaGroup<EnergyNosferatu>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/EnergyNosferatu.yaml";
-        private Map<String, EnergyNosferatu> cache = (null);
+        private Map<Integer, EnergyNosferatu> cache = (null);
 
         @Override
         public IMetaCategory<? super EnergyNosferatu> category() {
@@ -271,7 +271,7 @@ public class EnergyNosferatu
         }
 
         @Override
-        public synchronized Map<String, EnergyNosferatu> load() {
+        public synchronized Map<Integer, EnergyNosferatu> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EnergyNosferatu.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class EnergyNosferatu
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyNosferatu> types;
+            public LinkedHashMap<Integer, EnergyNosferatu> types;
         }
     }
 }

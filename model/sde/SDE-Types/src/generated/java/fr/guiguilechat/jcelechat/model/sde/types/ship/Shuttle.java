@@ -211,7 +211,7 @@ public class Shuttle
         implements IMetaGroup<Shuttle>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Shuttle.yaml";
-        private Map<String, Shuttle> cache = (null);
+        private Map<Integer, Shuttle> cache = (null);
 
         @Override
         public IMetaCategory<? super Shuttle> category() {
@@ -229,7 +229,7 @@ public class Shuttle
         }
 
         @Override
-        public synchronized Map<String, Shuttle> load() {
+        public synchronized Map<Integer, Shuttle> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Shuttle.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -243,7 +243,7 @@ public class Shuttle
         }
 
         private static class Container {
-            public LinkedHashMap<String, Shuttle> types;
+            public LinkedHashMap<Integer, Shuttle> types;
         }
     }
 }

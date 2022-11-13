@@ -221,7 +221,7 @@ public class RigScanning
         implements IMetaGroup<RigScanning>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigScanning.yaml";
-        private Map<String, RigScanning> cache = (null);
+        private Map<Integer, RigScanning> cache = (null);
 
         @Override
         public IMetaCategory<? super RigScanning> category() {
@@ -239,7 +239,7 @@ public class RigScanning
         }
 
         @Override
-        public synchronized Map<String, RigScanning> load() {
+        public synchronized Map<Integer, RigScanning> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigScanning.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -253,7 +253,7 @@ public class RigScanning
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigScanning> types;
+            public LinkedHashMap<Integer, RigScanning> types;
         }
     }
 }

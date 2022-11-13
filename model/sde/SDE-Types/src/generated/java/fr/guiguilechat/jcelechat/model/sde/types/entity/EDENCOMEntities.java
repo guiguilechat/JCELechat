@@ -1803,7 +1803,7 @@ public class EDENCOMEntities
         implements IMetaGroup<EDENCOMEntities>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/EDENCOMEntities.yaml";
-        private Map<String, EDENCOMEntities> cache = (null);
+        private Map<Integer, EDENCOMEntities> cache = (null);
 
         @Override
         public IMetaCategory<? super EDENCOMEntities> category() {
@@ -1821,7 +1821,7 @@ public class EDENCOMEntities
         }
 
         @Override
-        public synchronized Map<String, EDENCOMEntities> load() {
+        public synchronized Map<Integer, EDENCOMEntities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EDENCOMEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1835,7 +1835,7 @@ public class EDENCOMEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, EDENCOMEntities> types;
+            public LinkedHashMap<Integer, EDENCOMEntities> types;
         }
     }
 }

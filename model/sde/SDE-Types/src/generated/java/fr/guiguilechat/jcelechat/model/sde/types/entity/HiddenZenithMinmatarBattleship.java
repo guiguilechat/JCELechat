@@ -1133,7 +1133,7 @@ public class HiddenZenithMinmatarBattleship
         implements IMetaGroup<HiddenZenithMinmatarBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/HiddenZenithMinmatarBattleship.yaml";
-        private Map<String, HiddenZenithMinmatarBattleship> cache = (null);
+        private Map<Integer, HiddenZenithMinmatarBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super HiddenZenithMinmatarBattleship> category() {
@@ -1151,7 +1151,7 @@ public class HiddenZenithMinmatarBattleship
         }
 
         @Override
-        public synchronized Map<String, HiddenZenithMinmatarBattleship> load() {
+        public synchronized Map<Integer, HiddenZenithMinmatarBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HiddenZenithMinmatarBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1165,7 +1165,7 @@ public class HiddenZenithMinmatarBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, HiddenZenithMinmatarBattleship> types;
+            public LinkedHashMap<Integer, HiddenZenithMinmatarBattleship> types;
         }
     }
 }

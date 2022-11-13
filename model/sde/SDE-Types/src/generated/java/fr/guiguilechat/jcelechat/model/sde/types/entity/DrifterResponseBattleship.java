@@ -1109,7 +1109,7 @@ public class DrifterResponseBattleship
         implements IMetaGroup<DrifterResponseBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DrifterResponseBattleship.yaml";
-        private Map<String, DrifterResponseBattleship> cache = (null);
+        private Map<Integer, DrifterResponseBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super DrifterResponseBattleship> category() {
@@ -1127,7 +1127,7 @@ public class DrifterResponseBattleship
         }
 
         @Override
-        public synchronized Map<String, DrifterResponseBattleship> load() {
+        public synchronized Map<Integer, DrifterResponseBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DrifterResponseBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1141,7 +1141,7 @@ public class DrifterResponseBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, DrifterResponseBattleship> types;
+            public LinkedHashMap<Integer, DrifterResponseBattleship> types;
         }
     }
 }

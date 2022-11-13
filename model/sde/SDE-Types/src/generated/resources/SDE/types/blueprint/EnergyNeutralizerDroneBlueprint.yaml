@@ -1,5 +1,16 @@
 types:
-  Acolyte EV-300 Blueprint:
+  22573:
+    id: 22573
+    industryblueprintrank: 3.0
+    marketGroup: 1586
+    name: Praetor EV-900 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  23660:
     id: 23660
     industryblueprintrank: 1.0
     marketGroup: 1586
@@ -10,7 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Infiltrator EV-600 Blueprint:
+  23703:
     id: 23703
     industryblueprintrank: 2.0
     marketGroup: 1586
@@ -18,17 +29,6 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1700000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Praetor EV-900 Blueprint:
-    id: 22573
-    industryblueprintrank: 3.0
-    marketGroup: 1586
-    name: Praetor EV-900 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 6000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

@@ -229,7 +229,7 @@ public class StripMiner
         implements IMetaGroup<StripMiner>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/StripMiner.yaml";
-        private Map<String, StripMiner> cache = (null);
+        private Map<Integer, StripMiner> cache = (null);
 
         @Override
         public IMetaCategory<? super StripMiner> category() {
@@ -247,7 +247,7 @@ public class StripMiner
         }
 
         @Override
-        public synchronized Map<String, StripMiner> load() {
+        public synchronized Map<Integer, StripMiner> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StripMiner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -261,7 +261,7 @@ public class StripMiner
         }
 
         private static class Container {
-            public LinkedHashMap<String, StripMiner> types;
+            public LinkedHashMap<Integer, StripMiner> types;
         }
     }
 }

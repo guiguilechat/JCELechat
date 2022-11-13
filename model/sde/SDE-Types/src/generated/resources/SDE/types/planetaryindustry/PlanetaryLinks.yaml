@@ -1,5 +1,5 @@
 types:
-  Link:
+  2280:
     capacity: 1000.0
     cpuload: 15
     cpuloadlevelmodifier: 1.399999976158142

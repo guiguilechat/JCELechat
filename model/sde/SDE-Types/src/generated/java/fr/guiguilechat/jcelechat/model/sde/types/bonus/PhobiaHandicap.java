@@ -32,7 +32,7 @@ public class PhobiaHandicap
         implements IMetaGroup<PhobiaHandicap>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/PhobiaHandicap.yaml";
-        private Map<String, PhobiaHandicap> cache = (null);
+        private Map<Integer, PhobiaHandicap> cache = (null);
 
         @Override
         public IMetaCategory<? super PhobiaHandicap> category() {
@@ -50,7 +50,7 @@ public class PhobiaHandicap
         }
 
         @Override
-        public synchronized Map<String, PhobiaHandicap> load() {
+        public synchronized Map<Integer, PhobiaHandicap> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PhobiaHandicap.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PhobiaHandicap
         }
 
         private static class Container {
-            public LinkedHashMap<String, PhobiaHandicap> types;
+            public LinkedHashMap<Integer, PhobiaHandicap> types;
         }
     }
 }

@@ -156,7 +156,7 @@ public class CyberLeadership
         implements IMetaGroup<CyberLeadership>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberLeadership.yaml";
-        private Map<String, CyberLeadership> cache = (null);
+        private Map<Integer, CyberLeadership> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberLeadership> category() {
@@ -174,7 +174,7 @@ public class CyberLeadership
         }
 
         @Override
-        public synchronized Map<String, CyberLeadership> load() {
+        public synchronized Map<Integer, CyberLeadership> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberLeadership.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -188,7 +188,7 @@ public class CyberLeadership
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberLeadership> types;
+            public LinkedHashMap<Integer, CyberLeadership> types;
         }
     }
 }

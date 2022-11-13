@@ -1,27 +1,5 @@
 types:
-  Barren Storage Facility:
-    capacity: 12000.0
-    cpuload: 500
-    id: 2541
-    name: Barren Storage Facility
-    planetrestriction: 2016
-    portionSize: 1
-    powerload: 700
-    price: 250000.0
-    published: true
-    radius: 1.0
-  Gas Storage Facility:
-    capacity: 12000.0
-    cpuload: 500
-    id: 2536
-    name: Gas Storage Facility
-    planetrestriction: 13
-    portionSize: 1
-    powerload: 700
-    price: 250000.0
-    published: true
-    radius: 1.0
-  Ice Storage Facility:
+  2257:
     capacity: 12000.0
     cpuload: 500
     id: 2257
@@ -32,18 +10,7 @@ types:
     price: 250000.0
     published: true
     radius: 1.0
-  Lava Storage Facility:
-    capacity: 12000.0
-    cpuload: 500
-    id: 2558
-    name: Lava Storage Facility
-    planetrestriction: 2015
-    portionSize: 1
-    powerload: 700
-    price: 250000.0
-    published: true
-    radius: 1.0
-  Oceanic Storage Facility:
+  2535:
     capacity: 12000.0
     cpuload: 500
     id: 2535
@@ -54,7 +21,40 @@ types:
     price: 250000.0
     published: true
     radius: 1.0
-  Plasma Storage Facility:
+  2536:
+    capacity: 12000.0
+    cpuload: 500
+    id: 2536
+    name: Gas Storage Facility
+    planetrestriction: 13
+    portionSize: 1
+    powerload: 700
+    price: 250000.0
+    published: true
+    radius: 1.0
+  2541:
+    capacity: 12000.0
+    cpuload: 500
+    id: 2541
+    name: Barren Storage Facility
+    planetrestriction: 2016
+    portionSize: 1
+    powerload: 700
+    price: 250000.0
+    published: true
+    radius: 1.0
+  2558:
+    capacity: 12000.0
+    cpuload: 500
+    id: 2558
+    name: Lava Storage Facility
+    planetrestriction: 2015
+    portionSize: 1
+    powerload: 700
+    price: 250000.0
+    published: true
+    radius: 1.0
+  2560:
     capacity: 12000.0
     cpuload: 500
     id: 2560
@@ -65,7 +65,7 @@ types:
     price: 250000.0
     published: true
     radius: 1.0
-  Storm Storage Facility:
+  2561:
     capacity: 12000.0
     cpuload: 500
     id: 2561
@@ -76,7 +76,7 @@ types:
     price: 250000.0
     published: true
     radius: 1.0
-  Temperate Storage Facility:
+  2562:
     capacity: 12000.0
     cpuload: 500
     id: 2562

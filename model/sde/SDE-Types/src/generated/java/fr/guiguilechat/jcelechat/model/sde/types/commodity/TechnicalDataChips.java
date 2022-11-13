@@ -32,7 +32,7 @@ public class TechnicalDataChips
         implements IMetaGroup<TechnicalDataChips>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/TechnicalDataChips.yaml";
-        private Map<String, TechnicalDataChips> cache = (null);
+        private Map<Integer, TechnicalDataChips> cache = (null);
 
         @Override
         public IMetaCategory<? super TechnicalDataChips> category() {
@@ -50,7 +50,7 @@ public class TechnicalDataChips
         }
 
         @Override
-        public synchronized Map<String, TechnicalDataChips> load() {
+        public synchronized Map<Integer, TechnicalDataChips> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TechnicalDataChips.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class TechnicalDataChips
         }
 
         private static class Container {
-            public LinkedHashMap<String, TechnicalDataChips> types;
+            public LinkedHashMap<Integer, TechnicalDataChips> types;
         }
     }
 }

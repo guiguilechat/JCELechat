@@ -1,5 +1,5 @@
 types:
-  Survey Probe Launcher I:
+  33270:
     capacity: 10.0
     chargegroup2: 492
     chargerate: 1
@@ -24,7 +24,7 @@ types:
     speed: 2000.0
     techlevel: 1
     volume: 5.0
-  Survey Probe Launcher II:
+  33272:
     capacity: 10.0
     chargegroup2: 492
     chargerate: 1

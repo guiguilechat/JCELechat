@@ -217,7 +217,7 @@ public class StructureCombatRigMMaxTargets
         implements IMetaGroup<StructureCombatRigMMaxTargets>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigMMaxTargets.yaml";
-        private Map<String, StructureCombatRigMMaxTargets> cache = (null);
+        private Map<Integer, StructureCombatRigMMaxTargets> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigMMaxTargets> category() {
@@ -235,7 +235,7 @@ public class StructureCombatRigMMaxTargets
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigMMaxTargets> load() {
+        public synchronized Map<Integer, StructureCombatRigMMaxTargets> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigMMaxTargets.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -249,7 +249,7 @@ public class StructureCombatRigMMaxTargets
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigMMaxTargets> types;
+            public LinkedHashMap<Integer, StructureCombatRigMMaxTargets> types;
         }
     }
 }

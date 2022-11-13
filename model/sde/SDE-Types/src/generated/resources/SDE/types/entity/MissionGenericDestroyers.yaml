@@ -1,5 +1,5 @@
 types:
-  Angel Resilient Destroyer:
+  27295:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -81,7 +81,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.06599999964237213
     volume: 16450.0
-  Blood Resilient Destroyer:
+  27296:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -162,7 +162,7 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.10000000149011612
     volume: 28600.0
-  Guristas Resilient Destroyer:
+  27297:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -242,7 +242,7 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.07000000029802322
     volume: 16500.0
-  Serpentis Resilient Destroyer:
+  27298:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

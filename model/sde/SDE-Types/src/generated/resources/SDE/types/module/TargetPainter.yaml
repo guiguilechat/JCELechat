@@ -1,5 +1,134 @@
 types:
-  '''Inception'' Target Painter':
+  12709:
+    capacitorneed: 10.0
+    cpu: 20.0
+    duration: 5000.0
+    falloffeffectiveness: 75000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.7000000476837158
+    hp: 40.0
+    id: 12709
+    marketGroup: 757
+    maxrange: 30000.0
+    name: Target Painter I
+    overloadpainterstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    remoteresistanceid: 2114
+    requiredskill2: 19921
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    signatureradiusbonus: 25.0
+    techlevel: 1
+    volume: 5.0
+  19806:
+    capacitorneed: 12.0
+    cpu: 24.0
+    duration: 5000.0
+    falloffeffectiveness: 90000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.7000000476837158
+    hp: 40.0
+    id: 19806
+    marketGroup: 757
+    maxrange: 36000.0
+    metalevelold: 5
+    name: Target Painter II
+    overloadpainterstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    remoteresistanceid: 2114
+    requiredskill2: 19921
+    requiredskill2level: 4
+    requiredthermodynamicsskill: 1
+    signatureradiusbonus: 30.0
+    techlevel: 2
+    volume: 5.0
+  19810:
+    capacitorneed: 10.0
+    cpu: 16.0
+    duration: 5000.0
+    falloffeffectiveness: 75000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.7000000476837158
+    hp: 40.0
+    id: 19810
+    marketGroup: 757
+    maxrange: 30000.0
+    metalevelold: 1
+    name: Peripheral Compact Target Painter
+    overloadpainterstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    remoteresistanceid: 2114
+    requiredskill2: 19921
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    signatureradiusbonus: 27.5
+    techlevel: 1
+    volume: 5.0
+  19812:
+    capacitorneed: 6.0
+    cpu: 20.0
+    duration: 5000.0
+    falloffeffectiveness: 75000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.7000000476837158
+    hp: 40.0
+    id: 19812
+    marketGroup: 757
+    maxrange: 30000.0
+    metalevelold: 1
+    name: Parallel Enduring Target Painter
+    overloadpainterstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    remoteresistanceid: 2114
+    requiredskill2: 19921
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    signatureradiusbonus: 27.5
+    techlevel: 1
+    volume: 5.0
+  19814:
+    capacitorneed: 10.0
+    cpu: 20.0
+    duration: 5000.0
+    falloffeffectiveness: 82500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.7000000476837158
+    hp: 40.0
+    id: 19814
+    marketGroup: 757
+    maxrange: 33000.0
+    metalevelold: 1
+    name: Phased Scoped Target Painter
+    overloadpainterstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 500.0
+    remoteresistanceid: 2114
+    requiredskill2: 19921
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    signatureradiusbonus: 27.5
+    techlevel: 1
+    volume: 5.0
+  21540:
     capacitorneed: 4.0
     cpu: 14.0
     duration: 5000.0
@@ -26,112 +155,7 @@ types:
     signatureradiusbonus: 30.0
     techlevel: 1
     volume: 5.0
-  Domination Target Painter:
-    capacitorneed: 10.0
-    cpu: 20.0
-    duration: 5000.0
-    falloffeffectiveness: 90000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
-    hp: 40.0
-    id: 32414
-    marketGroup: 757
-    maxrange: 36000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Domination Target Painter
-    overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 500.0
-    remoteresistanceid: 2114
-    requiredskill2: 19921
-    requiredskill2level: 1
-    requiredthermodynamicsskill: 1
-    signatureradiusbonus: 33.0
-    techlevel: 1
-    volume: 5.0
-  Parallel Enduring Target Painter:
-    capacitorneed: 6.0
-    cpu: 20.0
-    duration: 5000.0
-    falloffeffectiveness: 75000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
-    hp: 40.0
-    id: 19812
-    marketGroup: 757
-    maxrange: 30000.0
-    metalevelold: 1
-    name: Parallel Enduring Target Painter
-    overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 500.0
-    remoteresistanceid: 2114
-    requiredskill2: 19921
-    requiredskill2level: 1
-    requiredthermodynamicsskill: 1
-    signatureradiusbonus: 27.5
-    techlevel: 1
-    volume: 5.0
-  Peripheral Compact Target Painter:
-    capacitorneed: 10.0
-    cpu: 16.0
-    duration: 5000.0
-    falloffeffectiveness: 75000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
-    hp: 40.0
-    id: 19810
-    marketGroup: 757
-    maxrange: 30000.0
-    metalevelold: 1
-    name: Peripheral Compact Target Painter
-    overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 500.0
-    remoteresistanceid: 2114
-    requiredskill2: 19921
-    requiredskill2level: 1
-    requiredthermodynamicsskill: 1
-    signatureradiusbonus: 27.5
-    techlevel: 1
-    volume: 5.0
-  Phased Scoped Target Painter:
-    capacitorneed: 10.0
-    cpu: 20.0
-    duration: 5000.0
-    falloffeffectiveness: 82500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
-    hp: 40.0
-    id: 19814
-    marketGroup: 757
-    maxrange: 33000.0
-    metalevelold: 1
-    name: Phased Scoped Target Painter
-    overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 500.0
-    remoteresistanceid: 2114
-    requiredskill2: 19921
-    requiredskill2level: 1
-    requiredthermodynamicsskill: 1
-    signatureradiusbonus: 27.5
-    techlevel: 1
-    volume: 5.0
-  Republic Fleet Target Painter:
+  31944:
     capacitorneed: 10.0
     cpu: 20.0
     duration: 5000.0
@@ -158,18 +182,20 @@ types:
     signatureradiusbonus: 33.0
     techlevel: 1
     volume: 5.0
-  Target Painter I:
+  32414:
     capacitorneed: 10.0
     cpu: 20.0
     duration: 5000.0
-    falloffeffectiveness: 75000
+    falloffeffectiveness: 90000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.7000000476837158
     hp: 40.0
-    id: 12709
+    id: 32414
     marketGroup: 757
-    maxrange: 30000.0
-    name: Target Painter I
+    maxrange: 36000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination Target Painter
     overloadpainterstrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -180,32 +206,6 @@ types:
     requiredskill2: 19921
     requiredskill2level: 1
     requiredthermodynamicsskill: 1
-    signatureradiusbonus: 25.0
+    signatureradiusbonus: 33.0
     techlevel: 1
-    volume: 5.0
-  Target Painter II:
-    capacitorneed: 12.0
-    cpu: 24.0
-    duration: 5000.0
-    falloffeffectiveness: 90000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.7000000476837158
-    hp: 40.0
-    id: 19806
-    marketGroup: 757
-    maxrange: 36000.0
-    metalevelold: 5
-    name: Target Painter II
-    overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 500.0
-    remoteresistanceid: 2114
-    requiredskill2: 19921
-    requiredskill2level: 4
-    requiredthermodynamicsskill: 1
-    signatureradiusbonus: 30.0
-    techlevel: 2
     volume: 5.0

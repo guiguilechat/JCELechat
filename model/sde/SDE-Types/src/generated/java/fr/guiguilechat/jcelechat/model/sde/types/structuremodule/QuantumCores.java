@@ -32,7 +32,7 @@ public class QuantumCores
         implements IMetaGroup<QuantumCores>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/QuantumCores.yaml";
-        private Map<String, QuantumCores> cache = (null);
+        private Map<Integer, QuantumCores> cache = (null);
 
         @Override
         public IMetaCategory<? super QuantumCores> category() {
@@ -50,7 +50,7 @@ public class QuantumCores
         }
 
         @Override
-        public synchronized Map<String, QuantumCores> load() {
+        public synchronized Map<Integer, QuantumCores> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(QuantumCores.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class QuantumCores
         }
 
         private static class Container {
-            public LinkedHashMap<String, QuantumCores> types;
+            public LinkedHashMap<Integer, QuantumCores> types;
         }
     }
 }

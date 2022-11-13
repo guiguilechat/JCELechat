@@ -1,194 +1,5 @@
 types:
-  Eifyr and Co. 'Rogue' Acceleration Control AC-601:
-    id: 27101
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Acceleration Control AC-601
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    speedfbonus: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Acceleration Control AC-602:
-    id: 3120
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Acceleration Control AC-602
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    speedfbonus: 2
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Acceleration Control AC-603:
-    id: 16008
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Acceleration Control AC-603
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    speedfbonus: 3
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Acceleration Control AC-604:
-    id: 3121
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Acceleration Control AC-604
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    speedfbonus: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Acceleration Control AC-605:
-    id: 16009
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Acceleration Control AC-605
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    speedfbonus: 5
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Acceleration Control AC-606:
-    id: 3124
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Acceleration Control AC-606
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    speedfbonus: 6
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Afterburner AB-602:
-    durationbonus: 2
-    id: 27111
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Afterburner AB-602
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Afterburner AB-604:
-    durationbonus: 4
-    id: 3104
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Afterburner AB-604
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Afterburner AB-606:
-    durationbonus: 6
-    id: 13239
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Afterburner AB-606
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Afterburner AB-608:
-    durationbonus: 8
-    id: 3105
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Afterburner AB-608
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Afterburner AB-610:
-    durationbonus: 10
-    id: 27110
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Afterburner AB-610
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Afterburner AB-612:
-    durationbonus: 12
-    id: 3108
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Afterburner AB-612
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701:
-    agilitybonus: -1.0
-    id: 27099
-    implantness: 7
-    marketGroup: 1490
-    name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702:
+  3093:
     agilitybonus: -2.0
     id: 3093
     implantness: 7
@@ -203,22 +14,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703:
-    agilitybonus: -3.0
-    id: 13240
-    implantness: 7
-    marketGroup: 1490
-    name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Evasive Maneuvering EM-704:
+  3094:
     agilitybonus: -4.0
     id: 3094
     implantness: 7
@@ -233,21 +29,7 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705:
-    agilitybonus: -5.0
-    id: 16004
-    implantness: 7
-    marketGroup: 1490
-    name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706:
+  3095:
     agilitybonus: -6.0
     id: 3095
     implantness: 7
@@ -262,200 +44,7 @@ types:
     requiredskill1level: 5
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Rogue' Fuel Conservation FC-801:
-    capneedbonus: -1
-    id: 27098
-    implantness: 8
-    marketGroup: 1491
-    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Fuel Conservation FC-802:
-    capneedbonus: -2
-    id: 3101
-    implantness: 8
-    marketGroup: 1491
-    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-802
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Fuel Conservation FC-803:
-    capneedbonus: -3
-    id: 13238
-    implantness: 8
-    marketGroup: 1491
-    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-803
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Fuel Conservation FC-804:
-    capneedbonus: -4
-    id: 3102
-    implantness: 8
-    marketGroup: 1491
-    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-804
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Fuel Conservation FC-805:
-    capneedbonus: -5
-    id: 16005
-    implantness: 8
-    marketGroup: 1491
-    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-805
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Fuel Conservation FC-806:
-    capneedbonus: -6
-    id: 3103
-    implantness: 8
-    marketGroup: 1491
-    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-806
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901:
-    capneedbonus: -1
-    id: 27100
-    implantness: 9
-    marketGroup: 1492
-    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902:
-    capneedbonus: -2
-    id: 3112
-    implantness: 9
-    marketGroup: 1492
-    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903:
-    capneedbonus: -3
-    id: 13243
-    implantness: 9
-    marketGroup: 1492
-    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904:
-    capneedbonus: -4
-    id: 3113
-    implantness: 9
-    marketGroup: 1492
-    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905:
-    capneedbonus: -5
-    id: 16006
-    implantness: 9
-    marketGroup: 1492
-    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906:
-    capneedbonus: -6
-    id: 3116
-    implantness: 9
-    marketGroup: 1492
-    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Navigation NN-601:
-    id: 27097
-    implantbonusvelocity: 1.0
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Navigation NN-601
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Navigation NN-602:
+  3096:
     id: 3096
     implantbonusvelocity: 2.0
     implantness: 6
@@ -470,22 +59,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Rogue' Navigation NN-603:
-    id: 13237
-    implantbonusvelocity: 3.0
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Navigation NN-603
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Navigation NN-604:
+  3097:
     id: 3097
     implantbonusvelocity: 4.0
     implantness: 6
@@ -500,21 +74,7 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Rogue' Navigation NN-605:
-    id: 16003
-    implantbonusvelocity: 5.0
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Navigation NN-605
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Rogue' Navigation NN-606:
+  3100:
     id: 3100
     implantbonusvelocity: 6.0
     implantness: 6
@@ -529,11 +89,12 @@ types:
     requiredskill1level: 5
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Rogue' Warp Drive Operation WD-602:
-    id: 27113
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-602
+  3101:
+    capneedbonus: -2
+    id: 3101
+    implantness: 8
+    marketGroup: 1491
+    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-802
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
@@ -543,8 +104,82 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-    warpcapacitorneedbonus: -2
-  Eifyr and Co. 'Rogue' Warp Drive Operation WD-604:
+  3102:
+    capneedbonus: -4
+    id: 3102
+    implantness: 8
+    marketGroup: 1491
+    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-804
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3103:
+    capneedbonus: -6
+    id: 3103
+    implantness: 8
+    marketGroup: 1491
+    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-806
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3104:
+    durationbonus: 4
+    id: 3104
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Afterburner AB-604
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3105:
+    durationbonus: 8
+    id: 3105
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Afterburner AB-608
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3108:
+    durationbonus: 12
+    id: 3108
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Afterburner AB-612
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3109:
     id: 3109
     implantness: 6
     marketGroup: 1489
@@ -559,22 +194,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpcapacitorneedbonus: -4
-  Eifyr and Co. 'Rogue' Warp Drive Operation WD-606:
-    id: 13241
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-606
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-    warpcapacitorneedbonus: -6
-  Eifyr and Co. 'Rogue' Warp Drive Operation WD-608:
+  3110:
     id: 3110
     implantness: 6
     marketGroup: 1489
@@ -589,22 +209,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpcapacitorneedbonus: -8
-  Eifyr and Co. 'Rogue' Warp Drive Operation WD-610:
-    id: 27112
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-610
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-    warpcapacitorneedbonus: -10
-  Eifyr and Co. 'Rogue' Warp Drive Operation WD-612:
+  3111:
     id: 3111
     implantness: 6
     marketGroup: 1489
@@ -619,11 +224,12 @@ types:
     techlevel: 1
     volume: 1.0
     warpcapacitorneedbonus: -12
-  Eifyr and Co. 'Rogue' Warp Drive Speed WS-605:
-    id: 27115
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-605
+  3112:
+    capneedbonus: -2
+    id: 3112
+    implantness: 9
+    marketGroup: 1492
+    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
@@ -633,8 +239,37 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-    warpsbonus: 5
-  Eifyr and Co. 'Rogue' Warp Drive Speed WS-608:
+  3113:
+    capneedbonus: -4
+    id: 3113
+    implantness: 9
+    marketGroup: 1492
+    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3116:
+    capneedbonus: -6
+    id: 3116
+    implantness: 9
+    marketGroup: 1492
+    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3117:
     id: 3117
     implantness: 6
     marketGroup: 1489
@@ -649,22 +284,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpsbonus: 8
-  Eifyr and Co. 'Rogue' Warp Drive Speed WS-610:
-    id: 13242
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-610
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-    warpsbonus: 10
-  Eifyr and Co. 'Rogue' Warp Drive Speed WS-613:
+  3118:
     id: 3118
     implantness: 6
     marketGroup: 1489
@@ -679,22 +299,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpsbonus: 13
-  Eifyr and Co. 'Rogue' Warp Drive Speed WS-615:
-    id: 27114
-    implantness: 6
-    marketGroup: 1489
-    name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-615
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-    warpsbonus: 15
-  Eifyr and Co. 'Rogue' Warp Drive Speed WS-618:
+  3119:
     id: 3119
     implantness: 6
     marketGroup: 1489
@@ -709,28 +314,230 @@ types:
     techlevel: 1
     volume: 1.0
     warpsbonus: 18
-  Shaqil's Speed Enhancer:
-    id: 24669
-    implantbonusvelocity: 8.0
+  3120:
+    id: 3120
     implantness: 6
     marketGroup: 1489
-    name: Shaqil's Speed Enhancer
+    name: Eifyr and Co. 'Rogue' Acceleration Control AC-602
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfbonus: 2
+    techlevel: 1
+    volume: 1.0
+  3121:
+    id: 3121
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Acceleration Control AC-604
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfbonus: 4
+    techlevel: 1
+    volume: 1.0
+  3124:
+    id: 3124
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Acceleration Control AC-606
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
-    techlevel: 2
+    speedfbonus: 6
+    techlevel: 1
     volume: 1.0
-  Zor's Custom Navigation Hyper-Link:
-    id: 24663
-    implantness: 8
-    marketGroup: 1491
-    name: Zor's Custom Navigation Hyper-Link
+  13237:
+    id: 13237
+    implantbonusvelocity: 3.0
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Navigation NN-603
     packagedVolume: 1.0
     portionSize: 1
-    price: 800000.0
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13238:
+    capneedbonus: -3
+    id: 13238
+    implantness: 8
+    marketGroup: 1491
+    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-803
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13239:
+    durationbonus: 6
+    id: 13239
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Afterburner AB-606
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13240:
+    agilitybonus: -3.0
+    id: 13240
+    implantness: 7
+    marketGroup: 1490
+    name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13241:
+    id: 13241
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-606
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+    warpcapacitorneedbonus: -6
+  13242:
+    id: 13242
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-610
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+    warpsbonus: 10
+  13243:
+    capneedbonus: -3
+    id: 13243
+    implantness: 9
+    marketGroup: 1492
+    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  16003:
+    id: 16003
+    implantbonusvelocity: 5.0
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Navigation NN-605
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  16004:
+    agilitybonus: -5.0
+    id: 16004
+    implantness: 7
+    marketGroup: 1490
+    name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  16005:
+    capneedbonus: -5
+    id: 16005
+    implantness: 8
+    marketGroup: 1491
+    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-805
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  16006:
+    capneedbonus: -5
+    id: 16006
+    implantness: 9
+    marketGroup: 1492
+    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  16008:
+    id: 16008
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Acceleration Control AC-603
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfbonus: 3
+    techlevel: 1
+    volume: 1.0
+  16009:
+    id: 16009
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Acceleration Control AC-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -738,7 +545,7 @@ types:
     speedfbonus: 5
     techlevel: 1
     volume: 1.0
-  Zor's Custom Navigation Link:
+  19500:
     durationbonus: 10
     id: 19500
     implantness: 7
@@ -753,3 +560,196 @@ types:
     requiredskill1level: 4
     techlevel: 1
     volume: 1.0
+  24663:
+    id: 24663
+    implantness: 8
+    marketGroup: 1491
+    name: Zor's Custom Navigation Hyper-Link
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfbonus: 5
+    techlevel: 1
+    volume: 1.0
+  24669:
+    id: 24669
+    implantbonusvelocity: 8.0
+    implantness: 6
+    marketGroup: 1489
+    name: Shaqil's Speed Enhancer
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 2
+    volume: 1.0
+  27097:
+    id: 27097
+    implantbonusvelocity: 1.0
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Navigation NN-601
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27098:
+    capneedbonus: -1
+    id: 27098
+    implantness: 8
+    marketGroup: 1491
+    name: Eifyr and Co. 'Rogue' Fuel Conservation FC-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27099:
+    agilitybonus: -1.0
+    id: 27099
+    implantness: 7
+    marketGroup: 1490
+    name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27100:
+    capneedbonus: -1
+    id: 27100
+    implantness: 9
+    marketGroup: 1492
+    name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27101:
+    id: 27101
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Acceleration Control AC-601
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfbonus: 1
+    techlevel: 1
+    volume: 1.0
+  27110:
+    durationbonus: 10
+    id: 27110
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Afterburner AB-610
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  27111:
+    durationbonus: 2
+    id: 27111
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Afterburner AB-602
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27112:
+    id: 27112
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-610
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+    warpcapacitorneedbonus: -10
+  27113:
+    id: 27113
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-602
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+    warpcapacitorneedbonus: -2
+  27114:
+    id: 27114
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-615
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+    warpsbonus: 15
+  27115:
+    id: 27115
+    implantness: 6
+    marketGroup: 1489
+    name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-605
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+    warpsbonus: 5

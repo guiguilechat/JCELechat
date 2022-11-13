@@ -287,7 +287,7 @@ public class FrequencyCrystal
         implements IMetaGroup<FrequencyCrystal>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/FrequencyCrystal.yaml";
-        private Map<String, FrequencyCrystal> cache = (null);
+        private Map<Integer, FrequencyCrystal> cache = (null);
 
         @Override
         public IMetaCategory<? super FrequencyCrystal> category() {
@@ -305,7 +305,7 @@ public class FrequencyCrystal
         }
 
         @Override
-        public synchronized Map<String, FrequencyCrystal> load() {
+        public synchronized Map<Integer, FrequencyCrystal> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FrequencyCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -319,7 +319,7 @@ public class FrequencyCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, FrequencyCrystal> types;
+            public LinkedHashMap<Integer, FrequencyCrystal> types;
         }
     }
 }

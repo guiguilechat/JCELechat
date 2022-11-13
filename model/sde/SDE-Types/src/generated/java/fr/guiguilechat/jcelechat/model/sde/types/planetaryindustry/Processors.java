@@ -85,7 +85,7 @@ public class Processors
         implements IMetaGroup<Processors>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/Processors.yaml";
-        private Map<String, Processors> cache = (null);
+        private Map<Integer, Processors> cache = (null);
 
         @Override
         public IMetaCategory<? super Processors> category() {
@@ -103,7 +103,7 @@ public class Processors
         }
 
         @Override
-        public synchronized Map<String, Processors> load() {
+        public synchronized Map<Integer, Processors> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Processors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -117,7 +117,7 @@ public class Processors
         }
 
         private static class Container {
-            public LinkedHashMap<String, Processors> types;
+            public LinkedHashMap<Integer, Processors> types;
         }
     }
 }

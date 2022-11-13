@@ -437,7 +437,7 @@ public class VortonProjector
         implements IMetaGroup<VortonProjector>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/VortonProjector.yaml";
-        private Map<String, VortonProjector> cache = (null);
+        private Map<Integer, VortonProjector> cache = (null);
 
         @Override
         public IMetaCategory<? super VortonProjector> category() {
@@ -455,7 +455,7 @@ public class VortonProjector
         }
 
         @Override
-        public synchronized Map<String, VortonProjector> load() {
+        public synchronized Map<Integer, VortonProjector> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(VortonProjector.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -469,7 +469,7 @@ public class VortonProjector
         }
 
         private static class Container {
-            public LinkedHashMap<String, VortonProjector> types;
+            public LinkedHashMap<Integer, VortonProjector> types;
         }
     }
 }

@@ -253,7 +253,7 @@ public class HullRepairUnit
         implements IMetaGroup<HullRepairUnit>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/HullRepairUnit.yaml";
-        private Map<String, HullRepairUnit> cache = (null);
+        private Map<Integer, HullRepairUnit> cache = (null);
 
         @Override
         public IMetaCategory<? super HullRepairUnit> category() {
@@ -271,7 +271,7 @@ public class HullRepairUnit
         }
 
         @Override
-        public synchronized Map<String, HullRepairUnit> load() {
+        public synchronized Map<Integer, HullRepairUnit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HullRepairUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class HullRepairUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, HullRepairUnit> types;
+            public LinkedHashMap<Integer, HullRepairUnit> types;
         }
     }
 }

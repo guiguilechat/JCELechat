@@ -101,7 +101,7 @@ public class Kernite
         implements IMetaGroup<Kernite>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Kernite.yaml";
-        private Map<String, Kernite> cache = (null);
+        private Map<Integer, Kernite> cache = (null);
 
         @Override
         public IMetaCategory<? super Kernite> category() {
@@ -119,7 +119,7 @@ public class Kernite
         }
 
         @Override
-        public synchronized Map<String, Kernite> load() {
+        public synchronized Map<Integer, Kernite> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Kernite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class Kernite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Kernite> types;
+            public LinkedHashMap<Integer, Kernite> types;
         }
     }
 }

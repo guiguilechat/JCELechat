@@ -109,7 +109,7 @@ public class HullModsBlueprint
         implements IMetaGroup<HullModsBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/HullModsBlueprint.yaml";
-        private Map<String, HullModsBlueprint> cache = (null);
+        private Map<Integer, HullModsBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super HullModsBlueprint> category() {
@@ -127,7 +127,7 @@ public class HullModsBlueprint
         }
 
         @Override
-        public synchronized Map<String, HullModsBlueprint> load() {
+        public synchronized Map<Integer, HullModsBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HullModsBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -141,7 +141,7 @@ public class HullModsBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, HullModsBlueprint> types;
+            public LinkedHashMap<Integer, HullModsBlueprint> types;
         }
     }
 }

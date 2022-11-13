@@ -845,7 +845,7 @@ public class HiddenZenithGallenteCruiser
         implements IMetaGroup<HiddenZenithGallenteCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/HiddenZenithGallenteCruiser.yaml";
-        private Map<String, HiddenZenithGallenteCruiser> cache = (null);
+        private Map<Integer, HiddenZenithGallenteCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super HiddenZenithGallenteCruiser> category() {
@@ -863,7 +863,7 @@ public class HiddenZenithGallenteCruiser
         }
 
         @Override
-        public synchronized Map<String, HiddenZenithGallenteCruiser> load() {
+        public synchronized Map<Integer, HiddenZenithGallenteCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HiddenZenithGallenteCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -877,7 +877,7 @@ public class HiddenZenithGallenteCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, HiddenZenithGallenteCruiser> types;
+            public LinkedHashMap<Integer, HiddenZenithGallenteCruiser> types;
         }
     }
 }

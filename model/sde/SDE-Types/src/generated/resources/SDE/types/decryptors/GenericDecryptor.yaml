@@ -1,5 +1,5 @@
 types:
-  Accelerant Decryptor:
+  34201:
     id: 34201
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 2.0
@@ -13,7 +13,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Attainment Decryptor:
+  34202:
     id: 34202
     inventionmaxrunmodifier: 4.0
     inventionmemodifier: -1.0
@@ -27,7 +27,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Augmentation Decryptor:
+  34203:
     id: 34203
     inventionmaxrunmodifier: 9.0
     inventionmemodifier: -2.0
@@ -41,34 +41,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Optimized Attainment Decryptor:
-    id: 34207
-    inventionmaxrunmodifier: 2.0
-    inventionmemodifier: 1.0
-    inventionpropabilitymultiplier: 1.899999976158142
-    inventiontemodifier: -2.0
-    marketGroup: 1873
-    mass: 1.0
-    name: Optimized Attainment Decryptor
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Optimized Augmentation Decryptor:
-    id: 34208
-    inventionmaxrunmodifier: 7.0
-    inventionmemodifier: 2.0
-    inventionpropabilitymultiplier: 0.8999999761581421
-    marketGroup: 1873
-    mass: 1.0
-    name: Optimized Augmentation Decryptor
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Parity Decryptor:
+  34204:
     id: 34204
     inventionmaxrunmodifier: 3.0
     inventionmemodifier: 1.0
@@ -82,7 +55,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Process Decryptor:
+  34205:
     id: 34205
     inventionmemodifier: 3.0
     inventionpropabilitymultiplier: 1.100000023841858
@@ -95,7 +68,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Symmetry Decryptor:
+  34206:
     id: 34206
     inventionmaxrunmodifier: 2.0
     inventionmemodifier: 1.0
@@ -104,6 +77,33 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Symmetry Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34207:
+    id: 34207
+    inventionmaxrunmodifier: 2.0
+    inventionmemodifier: 1.0
+    inventionpropabilitymultiplier: 1.899999976158142
+    inventiontemodifier: -2.0
+    marketGroup: 1873
+    mass: 1.0
+    name: Optimized Attainment Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34208:
+    id: 34208
+    inventionmaxrunmodifier: 7.0
+    inventionmemodifier: 2.0
+    inventionpropabilitymultiplier: 0.8999999761581421
+    marketGroup: 1873
+    mass: 1.0
+    name: Optimized Augmentation Decryptor
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

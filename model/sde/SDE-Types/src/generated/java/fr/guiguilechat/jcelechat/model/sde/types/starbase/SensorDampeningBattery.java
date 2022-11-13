@@ -434,7 +434,7 @@ public class SensorDampeningBattery
         implements IMetaGroup<SensorDampeningBattery>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/SensorDampeningBattery.yaml";
-        private Map<String, SensorDampeningBattery> cache = (null);
+        private Map<Integer, SensorDampeningBattery> cache = (null);
 
         @Override
         public IMetaCategory<? super SensorDampeningBattery> category() {
@@ -452,7 +452,7 @@ public class SensorDampeningBattery
         }
 
         @Override
-        public synchronized Map<String, SensorDampeningBattery> load() {
+        public synchronized Map<Integer, SensorDampeningBattery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SensorDampeningBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -466,7 +466,7 @@ public class SensorDampeningBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorDampeningBattery> types;
+            public LinkedHashMap<Integer, SensorDampeningBattery> types;
         }
     }
 }

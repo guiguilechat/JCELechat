@@ -134,7 +134,7 @@ public class PlanetaryLinks
         implements IMetaGroup<PlanetaryLinks>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/PlanetaryLinks.yaml";
-        private Map<String, PlanetaryLinks> cache = (null);
+        private Map<Integer, PlanetaryLinks> cache = (null);
 
         @Override
         public IMetaCategory<? super PlanetaryLinks> category() {
@@ -152,7 +152,7 @@ public class PlanetaryLinks
         }
 
         @Override
-        public synchronized Map<String, PlanetaryLinks> load() {
+        public synchronized Map<Integer, PlanetaryLinks> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PlanetaryLinks.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -166,7 +166,7 @@ public class PlanetaryLinks
         }
 
         private static class Container {
-            public LinkedHashMap<String, PlanetaryLinks> types;
+            public LinkedHashMap<Integer, PlanetaryLinks> types;
         }
     }
 }

@@ -1600,7 +1600,7 @@ public class NPCCruiser
         implements IMetaGroup<NPCCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCCruiser.yaml";
-        private Map<String, NPCCruiser> cache = (null);
+        private Map<Integer, NPCCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCCruiser> category() {
@@ -1618,7 +1618,7 @@ public class NPCCruiser
         }
 
         @Override
-        public synchronized Map<String, NPCCruiser> load() {
+        public synchronized Map<Integer, NPCCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1632,7 +1632,7 @@ public class NPCCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCCruiser> types;
+            public LinkedHashMap<Integer, NPCCruiser> types;
         }
     }
 }

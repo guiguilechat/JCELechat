@@ -83,7 +83,7 @@ public class SurveyProbeBlueprints
         implements IMetaGroup<SurveyProbeBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SurveyProbeBlueprints.yaml";
-        private Map<String, SurveyProbeBlueprints> cache = (null);
+        private Map<Integer, SurveyProbeBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super SurveyProbeBlueprints> category() {
@@ -101,7 +101,7 @@ public class SurveyProbeBlueprints
         }
 
         @Override
-        public synchronized Map<String, SurveyProbeBlueprints> load() {
+        public synchronized Map<Integer, SurveyProbeBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SurveyProbeBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class SurveyProbeBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyProbeBlueprints> types;
+            public LinkedHashMap<Integer, SurveyProbeBlueprints> types;
         }
     }
 }

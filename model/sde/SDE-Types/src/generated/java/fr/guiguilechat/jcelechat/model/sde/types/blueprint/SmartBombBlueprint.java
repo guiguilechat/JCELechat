@@ -97,7 +97,7 @@ public class SmartBombBlueprint
         implements IMetaGroup<SmartBombBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SmartBombBlueprint.yaml";
-        private Map<String, SmartBombBlueprint> cache = (null);
+        private Map<Integer, SmartBombBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SmartBombBlueprint> category() {
@@ -115,7 +115,7 @@ public class SmartBombBlueprint
         }
 
         @Override
-        public synchronized Map<String, SmartBombBlueprint> load() {
+        public synchronized Map<Integer, SmartBombBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SmartBombBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class SmartBombBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SmartBombBlueprint> types;
+            public LinkedHashMap<Integer, SmartBombBlueprint> types;
         }
     }
 }

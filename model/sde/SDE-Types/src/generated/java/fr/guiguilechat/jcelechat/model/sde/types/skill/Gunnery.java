@@ -236,7 +236,7 @@ public class Gunnery
         implements IMetaGroup<Gunnery>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Gunnery.yaml";
-        private Map<String, Gunnery> cache = (null);
+        private Map<Integer, Gunnery> cache = (null);
 
         @Override
         public IMetaCategory<? super Gunnery> category() {
@@ -254,7 +254,7 @@ public class Gunnery
         }
 
         @Override
-        public synchronized Map<String, Gunnery> load() {
+        public synchronized Map<Integer, Gunnery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Gunnery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -268,7 +268,7 @@ public class Gunnery
         }
 
         private static class Container {
-            public LinkedHashMap<String, Gunnery> types;
+            public LinkedHashMap<Integer, Gunnery> types;
         }
     }
 }

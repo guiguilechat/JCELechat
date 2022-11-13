@@ -316,7 +316,7 @@ public class AdvancedAutocannonAmmo
         implements IMetaGroup<AdvancedAutocannonAmmo>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedAutocannonAmmo.yaml";
-        private Map<String, AdvancedAutocannonAmmo> cache = (null);
+        private Map<Integer, AdvancedAutocannonAmmo> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedAutocannonAmmo> category() {
@@ -334,7 +334,7 @@ public class AdvancedAutocannonAmmo
         }
 
         @Override
-        public synchronized Map<String, AdvancedAutocannonAmmo> load() {
+        public synchronized Map<Integer, AdvancedAutocannonAmmo> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedAutocannonAmmo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -348,7 +348,7 @@ public class AdvancedAutocannonAmmo
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedAutocannonAmmo> types;
+            public LinkedHashMap<Integer, AdvancedAutocannonAmmo> types;
         }
     }
 }

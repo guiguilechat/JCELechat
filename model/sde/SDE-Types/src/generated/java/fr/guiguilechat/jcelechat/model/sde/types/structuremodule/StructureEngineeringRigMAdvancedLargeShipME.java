@@ -289,7 +289,7 @@ public class StructureEngineeringRigMAdvancedLargeShipME
         implements IMetaGroup<StructureEngineeringRigMAdvancedLargeShipME>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMAdvancedLargeShipME.yaml";
-        private Map<String, StructureEngineeringRigMAdvancedLargeShipME> cache = (null);
+        private Map<Integer, StructureEngineeringRigMAdvancedLargeShipME> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMAdvancedLargeShipME> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMAdvancedLargeShipME
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMAdvancedLargeShipME> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMAdvancedLargeShipME> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMAdvancedLargeShipME.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMAdvancedLargeShipME
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMAdvancedLargeShipME> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMAdvancedLargeShipME> types;
         }
     }
 }

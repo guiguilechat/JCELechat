@@ -1,5 +1,5 @@
 types:
-  Caldari Navy Inferno Rocket:
+  266:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 20
@@ -12,124 +12,14 @@ types:
     explosiondelay: 2000
     explosivedamageresonance: 1.0
     hp: 90.0
-    id: 27315
-    kineticdamageresonance: 1.0
-    launchergroup: 507
-    marketGroup: 999
-    mass: 100.0
-    maxvelocity: 2250.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Inferno Rocket
-    packagedVolume: 0.004999999888241291
-    portionSize: 100
-    price: 260.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3320
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 37.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.004999999888241291
-  Caldari Navy Mjolnir Rocket:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 20
-    aoedamagereductionfactor: 0.6439999938011169
-    aoefalloff: 1500
-    aoevelocity: 150
-    armorpiercingchance: 1
-    detonationrange: 35
-    emdamage: 37.0
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 2000
-    explosivedamageresonance: 1.0
-    hp: 90.0
-    id: 27321
-    kineticdamageresonance: 1.0
-    launchergroup: 507
-    marketGroup: 999
-    mass: 100.0
-    maxvelocity: 2250.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Mjolnir Rocket
-    packagedVolume: 0.004999999888241291
-    portionSize: 100
-    price: 350.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3320
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
-  Caldari Navy Nova Rocket:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 20
-    aoedamagereductionfactor: 0.6439999938011169
-    aoefalloff: 1500
-    aoevelocity: 150
-    armorpiercingchance: 1
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 2000
-    explosivedamage: 37.0
-    explosivedamageresonance: 0.800000011920929
-    hp: 90.0
-    id: 27327
-    kineticdamageresonance: 1.0
-    launchergroup: 507
-    marketGroup: 999
-    mass: 100.0
-    maxvelocity: 2250.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Nova Rocket
-    packagedVolume: 0.004999999888241291
-    portionSize: 100
-    price: 180.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3320
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
-  Caldari Navy Scourge Rocket:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 20
-    aoedamagereductionfactor: 0.6439999938011169
-    aoefalloff: 1500
-    aoevelocity: 150
-    armorpiercingchance: 1
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 2000
-    explosivedamageresonance: 1.0
-    hp: 90.0
-    id: 27333
-    kineticdamage: 37.0
+    id: 266
+    kineticdamage: 33.0
     kineticdamageresonance: 0.800000011920929
     launchergroup: 507
-    marketGroup: 999
+    marketGroup: 922
     mass: 100.0
     maxvelocity: 2250.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Scourge Rocket
+    name: Scourge Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
     price: 240.0
@@ -143,7 +33,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.004999999888241291
-  Dread Guristas Inferno Rocket:
+  2512:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 20
@@ -152,56 +42,18 @@ types:
     aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 2000
-    explosivedamageresonance: 1.0
-    hp: 90.0
-    id: 27317
-    kineticdamageresonance: 1.0
-    launchergroup: 507
-    marketGroup: 999
-    mass: 100.0
-    maxvelocity: 2250.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Inferno Rocket
-    packagedVolume: 0.004999999888241291
-    portionSize: 100
-    price: 260.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3320
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 39.599998474121094
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.004999999888241291
-  Dread Guristas Mjolnir Rocket:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 20
-    aoedamagereductionfactor: 0.6439999938011169
-    aoefalloff: 1500
-    aoevelocity: 150
-    armorpiercingchance: 1
-    detonationrange: 35
-    emdamage: 39.599998474121094
+    emdamage: 33.0
     emdamageresonance: 0.800000011920929
     explosiondelay: 2000
     explosivedamageresonance: 1.0
     hp: 90.0
-    id: 27323
+    id: 2512
     kineticdamageresonance: 1.0
     launchergroup: 507
-    marketGroup: 999
+    marketGroup: 922
     mass: 100.0
     maxvelocity: 2250.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Mjolnir Rocket
+    name: Mjolnir Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
     price: 350.0
@@ -215,7 +67,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.004999999888241291
-  Dread Guristas Nova Rocket:
+  2514:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 20
@@ -226,18 +78,50 @@ types:
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 2000
-    explosivedamage: 39.599998474121094
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 1.0
     hp: 90.0
-    id: 27329
+    id: 2514
     kineticdamageresonance: 1.0
     launchergroup: 507
-    marketGroup: 999
+    marketGroup: 922
     mass: 100.0
     maxvelocity: 2250.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Nova Rocket
+    name: Inferno Rocket
+    packagedVolume: 0.004999999888241291
+    portionSize: 100
+    price: 260.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 33.0
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.004999999888241291
+  2516:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6439999938011169
+    aoefalloff: 1500
+    aoevelocity: 150
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamage: 33.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 90.0
+    id: 2516
+    kineticdamageresonance: 1.0
+    launchergroup: 507
+    marketGroup: 922
+    mass: 100.0
+    maxvelocity: 2250.0
+    name: Nova Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
     price: 180.0
@@ -251,43 +135,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.004999999888241291
-  Dread Guristas Scourge Rocket:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 20
-    aoedamagereductionfactor: 0.6439999938011169
-    aoefalloff: 1500
-    aoevelocity: 150
-    armorpiercingchance: 1
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 2000
-    explosivedamageresonance: 1.0
-    hp: 90.0
-    id: 27335
-    kineticdamage: 39.599998474121094
-    kineticdamageresonance: 0.800000011920929
-    launchergroup: 507
-    marketGroup: 999
-    mass: 100.0
-    maxvelocity: 2250.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Scourge Rocket
-    packagedVolume: 0.004999999888241291
-    portionSize: 100
-    price: 240.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3320
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
-  Guristas Inferno Rocket:
+  27313:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 20
@@ -323,7 +171,79 @@ types:
     thermaldamage: 35.599998474121094
     thermaldamageresonance: 0.800000011920929
     volume: 0.004999999888241291
-  Guristas Mjolnir Rocket:
+  27315:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6439999938011169
+    aoefalloff: 1500
+    aoevelocity: 150
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
+    id: 27315
+    kineticdamageresonance: 1.0
+    launchergroup: 507
+    marketGroup: 999
+    mass: 100.0
+    maxvelocity: 2250.0
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Inferno Rocket
+    packagedVolume: 0.004999999888241291
+    portionSize: 100
+    price: 260.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 37.0
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.004999999888241291
+  27317:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6439999938011169
+    aoefalloff: 1500
+    aoevelocity: 150
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
+    id: 27317
+    kineticdamageresonance: 1.0
+    launchergroup: 507
+    marketGroup: 999
+    mass: 100.0
+    maxvelocity: 2250.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Inferno Rocket
+    packagedVolume: 0.004999999888241291
+    portionSize: 100
+    price: 260.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 39.599998474121094
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.004999999888241291
+  27319:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 20
@@ -359,7 +279,79 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.004999999888241291
-  Guristas Nova Rocket:
+  27321:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6439999938011169
+    aoefalloff: 1500
+    aoevelocity: 150
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamage: 37.0
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
+    id: 27321
+    kineticdamageresonance: 1.0
+    launchergroup: 507
+    marketGroup: 999
+    mass: 100.0
+    maxvelocity: 2250.0
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Mjolnir Rocket
+    packagedVolume: 0.004999999888241291
+    portionSize: 100
+    price: 350.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.004999999888241291
+  27323:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6439999938011169
+    aoefalloff: 1500
+    aoevelocity: 150
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamage: 39.599998474121094
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
+    id: 27323
+    kineticdamageresonance: 1.0
+    launchergroup: 507
+    marketGroup: 999
+    mass: 100.0
+    maxvelocity: 2250.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Mjolnir Rocket
+    packagedVolume: 0.004999999888241291
+    portionSize: 100
+    price: 350.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.004999999888241291
+  27325:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 20
@@ -395,7 +387,79 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.004999999888241291
-  Guristas Scourge Rocket:
+  27327:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6439999938011169
+    aoefalloff: 1500
+    aoevelocity: 150
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamage: 37.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 90.0
+    id: 27327
+    kineticdamageresonance: 1.0
+    launchergroup: 507
+    marketGroup: 999
+    mass: 100.0
+    maxvelocity: 2250.0
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Nova Rocket
+    packagedVolume: 0.004999999888241291
+    portionSize: 100
+    price: 180.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.004999999888241291
+  27329:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6439999938011169
+    aoefalloff: 1500
+    aoevelocity: 150
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamage: 39.599998474121094
+    explosivedamageresonance: 0.800000011920929
+    hp: 90.0
+    id: 27329
+    kineticdamageresonance: 1.0
+    launchergroup: 507
+    marketGroup: 999
+    mass: 100.0
+    maxvelocity: 2250.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Nova Rocket
+    packagedVolume: 0.004999999888241291
+    portionSize: 100
+    price: 180.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.004999999888241291
+  27331:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 20
@@ -431,7 +495,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.004999999888241291
-  Inferno Rocket:
+  27333:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 20
@@ -444,116 +508,52 @@ types:
     explosiondelay: 2000
     explosivedamageresonance: 1.0
     hp: 90.0
-    id: 2514
-    kineticdamageresonance: 1.0
-    launchergroup: 507
-    marketGroup: 922
-    mass: 100.0
-    maxvelocity: 2250.0
-    name: Inferno Rocket
-    packagedVolume: 0.004999999888241291
-    portionSize: 100
-    price: 260.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3320
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 33.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.004999999888241291
-  Mjolnir Rocket:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 20
-    aoedamagereductionfactor: 0.6439999938011169
-    aoefalloff: 1500
-    aoevelocity: 150
-    armorpiercingchance: 1
-    detonationrange: 35
-    emdamage: 33.0
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 2000
-    explosivedamageresonance: 1.0
-    hp: 90.0
-    id: 2512
-    kineticdamageresonance: 1.0
-    launchergroup: 507
-    marketGroup: 922
-    mass: 100.0
-    maxvelocity: 2250.0
-    name: Mjolnir Rocket
-    packagedVolume: 0.004999999888241291
-    portionSize: 100
-    price: 350.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3320
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
-  Nova Rocket:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 20
-    aoedamagereductionfactor: 0.6439999938011169
-    aoefalloff: 1500
-    aoevelocity: 150
-    armorpiercingchance: 1
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 2000
-    explosivedamage: 33.0
-    explosivedamageresonance: 0.800000011920929
-    hp: 90.0
-    id: 2516
-    kineticdamageresonance: 1.0
-    launchergroup: 507
-    marketGroup: 922
-    mass: 100.0
-    maxvelocity: 2250.0
-    name: Nova Rocket
-    packagedVolume: 0.004999999888241291
-    portionSize: 100
-    price: 180.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3320
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
-  Scourge Rocket:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 20
-    aoedamagereductionfactor: 0.6439999938011169
-    aoefalloff: 1500
-    aoevelocity: 150
-    armorpiercingchance: 1
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 2000
-    explosivedamageresonance: 1.0
-    hp: 90.0
-    id: 266
-    kineticdamage: 33.0
+    id: 27333
+    kineticdamage: 37.0
     kineticdamageresonance: 0.800000011920929
     launchergroup: 507
-    marketGroup: 922
+    marketGroup: 999
     mass: 100.0
     maxvelocity: 2250.0
-    name: Scourge Rocket
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Scourge Rocket
+    packagedVolume: 0.004999999888241291
+    portionSize: 100
+    price: 240.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.004999999888241291
+  27335:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6439999938011169
+    aoefalloff: 1500
+    aoevelocity: 150
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
+    id: 27335
+    kineticdamage: 39.599998474121094
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 507
+    marketGroup: 999
+    mass: 100.0
+    maxvelocity: 2250.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Scourge Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
     price: 240.0

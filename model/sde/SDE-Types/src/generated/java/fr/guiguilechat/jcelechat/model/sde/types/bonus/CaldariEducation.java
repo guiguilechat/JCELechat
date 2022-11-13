@@ -131,7 +131,7 @@ public class CaldariEducation
         implements IMetaGroup<CaldariEducation>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/CaldariEducation.yaml";
-        private Map<String, CaldariEducation> cache = (null);
+        private Map<Integer, CaldariEducation> cache = (null);
 
         @Override
         public IMetaCategory<? super CaldariEducation> category() {
@@ -149,7 +149,7 @@ public class CaldariEducation
         }
 
         @Override
-        public synchronized Map<String, CaldariEducation> load() {
+        public synchronized Map<Integer, CaldariEducation> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CaldariEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -163,7 +163,7 @@ public class CaldariEducation
         }
 
         private static class Container {
-            public LinkedHashMap<String, CaldariEducation> types;
+            public LinkedHashMap<Integer, CaldariEducation> types;
         }
     }
 }

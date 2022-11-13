@@ -282,7 +282,7 @@ public class SpecialEditionImplant
         implements IMetaGroup<SpecialEditionImplant>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/SpecialEditionImplant.yaml";
-        private Map<String, SpecialEditionImplant> cache = (null);
+        private Map<Integer, SpecialEditionImplant> cache = (null);
 
         @Override
         public IMetaCategory<? super SpecialEditionImplant> category() {
@@ -300,7 +300,7 @@ public class SpecialEditionImplant
         }
 
         @Override
-        public synchronized Map<String, SpecialEditionImplant> load() {
+        public synchronized Map<Integer, SpecialEditionImplant> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SpecialEditionImplant.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -314,7 +314,7 @@ public class SpecialEditionImplant
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpecialEditionImplant> types;
+            public LinkedHashMap<Integer, SpecialEditionImplant> types;
         }
     }
 }

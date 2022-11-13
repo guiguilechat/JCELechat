@@ -38,7 +38,7 @@ public class PlanetLiquidGasRawResource
         implements IMetaGroup<PlanetLiquidGasRawResource>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryresources/PlanetLiquidGasRawResource.yaml";
-        private Map<String, PlanetLiquidGasRawResource> cache = (null);
+        private Map<Integer, PlanetLiquidGasRawResource> cache = (null);
 
         @Override
         public IMetaCategory<? super PlanetLiquidGasRawResource> category() {
@@ -56,7 +56,7 @@ public class PlanetLiquidGasRawResource
         }
 
         @Override
-        public synchronized Map<String, PlanetLiquidGasRawResource> load() {
+        public synchronized Map<Integer, PlanetLiquidGasRawResource> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PlanetLiquidGasRawResource.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -70,7 +70,7 @@ public class PlanetLiquidGasRawResource
         }
 
         private static class Container {
-            public LinkedHashMap<String, PlanetLiquidGasRawResource> types;
+            public LinkedHashMap<Integer, PlanetLiquidGasRawResource> types;
         }
     }
 }

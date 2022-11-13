@@ -1,5 +1,5 @@
 types:
-  CharacterLegacy1:
+  1373:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -14,7 +14,7 @@ types:
     frigateconstructioncost: 100
     heavydronedamagepercent: 1
     heavymissilespeedpercent: 1
-    id: 1383
+    id: 1373
     industrialconstructioncost: 100
     inventionreverseengineeringresearchspeed: 1
     manufacturecostmultiplier: 1
@@ -30,7 +30,7 @@ types:
     missilefofvelocitypercent: 1
     missilestandardvelocitypecent: 1
     modulerepairrate: 10
-    name: CharacterLegacy1
+    name: CharacterType
     negotiationpercentage: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -52,7 +52,7 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterLegacy10:
+  1374:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -105,253 +105,7 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterLegacy11:
-    barterdiscount: 1
-    battleshipconstructioncost: 100
-    bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
-    copyspeedpercent: 1
-    cruisemissilevelocitypercent: 1
-    cruiserconstructioncost: 100
-    damagecloudchance: 2.0
-    dronecontroldistance: 20000
-    fasttalkpercentage: 1
-    frigateconstructioncost: 100
-    heavydronedamagepercent: 1
-    heavymissilespeedpercent: 1
-    id: 1379
-    industrialconstructioncost: 100
-    inventionreverseengineeringresearchspeed: 1
-    manufacturecostmultiplier: 1
-    manufactureslotlimit: 1
-    manufacturetimemultiplier: 1
-    manufacturingtimeresearchspeed: 1
-    maxgangmodules: 1
-    maxlaborotoryslots: 1
-    maxlockedtargets: 2
-    mineralneedresearchspeed: 1
-    miningdroneamountpercent: 100
-    missiledamagemultiplier: 1.0
-    missilefofvelocitypercent: 1
-    missilestandardvelocitypecent: 1
-    modulerepairrate: 10
-    name: CharacterLegacy11
-    negotiationpercentage: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: false
-    radius: 1.0
-    reactionslotlimit: 1
-    refiningtimepercentage: 1
-    refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
-    repaircostpercent: 1
-    rocketvelocitypercent: 1
-    shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
-    socialbonus: 1
-    stationconstructiontime: 100
-    titanconstructiontime: 100
-    torpedovelocitypercent: 1
-    tradepremium: 1
-    volume: 1.0
-    warpaccuracyfactor: 1
-    warpaccuracymaxrange: 15000
-  CharacterLegacy12:
-    barterdiscount: 1
-    battleshipconstructioncost: 100
-    bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
-    copyspeedpercent: 1
-    cruisemissilevelocitypercent: 1
-    cruiserconstructioncost: 100
-    damagecloudchance: 2.0
-    dronecontroldistance: 20000
-    fasttalkpercentage: 1
-    frigateconstructioncost: 100
-    heavydronedamagepercent: 1
-    heavymissilespeedpercent: 1
-    id: 1381
-    industrialconstructioncost: 100
-    inventionreverseengineeringresearchspeed: 1
-    manufacturecostmultiplier: 1
-    manufactureslotlimit: 1
-    manufacturetimemultiplier: 1
-    manufacturingtimeresearchspeed: 1
-    maxgangmodules: 1
-    maxlaborotoryslots: 1
-    maxlockedtargets: 2
-    mineralneedresearchspeed: 1
-    miningdroneamountpercent: 100
-    missiledamagemultiplier: 1.0
-    missilefofvelocitypercent: 1
-    missilestandardvelocitypecent: 1
-    modulerepairrate: 10
-    name: CharacterLegacy12
-    negotiationpercentage: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: false
-    radius: 1.0
-    reactionslotlimit: 1
-    refiningtimepercentage: 1
-    refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
-    repaircostpercent: 1
-    rocketvelocitypercent: 1
-    shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
-    socialbonus: 1
-    stationconstructiontime: 100
-    titanconstructiontime: 100
-    torpedovelocitypercent: 1
-    tradepremium: 1
-    volume: 1.0
-    warpaccuracyfactor: 1
-    warpaccuracymaxrange: 15000
-  CharacterLegacy13:
-    barterdiscount: 1
-    battleshipconstructioncost: 100
-    bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
-    copyspeedpercent: 1
-    cruisemissilevelocitypercent: 1
-    cruiserconstructioncost: 100
-    damagecloudchance: 2.0
-    dronecontroldistance: 20000
-    fasttalkpercentage: 1
-    frigateconstructioncost: 100
-    heavydronedamagepercent: 1
-    heavymissilespeedpercent: 1
-    id: 1386
-    industrialconstructioncost: 100
-    inventionreverseengineeringresearchspeed: 1
-    manufacturecostmultiplier: 1
-    manufactureslotlimit: 1
-    manufacturetimemultiplier: 1
-    manufacturingtimeresearchspeed: 1
-    maxgangmodules: 1
-    maxlaborotoryslots: 1
-    maxlockedtargets: 2
-    mineralneedresearchspeed: 1
-    miningdroneamountpercent: 100
-    missiledamagemultiplier: 1.0
-    missilefofvelocitypercent: 1
-    missilestandardvelocitypecent: 1
-    modulerepairrate: 10
-    name: CharacterLegacy13
-    negotiationpercentage: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: false
-    radius: 1.0
-    reactionslotlimit: 1
-    refiningtimepercentage: 1
-    refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
-    repaircostpercent: 1
-    rocketvelocitypercent: 1
-    shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
-    socialbonus: 1
-    stationconstructiontime: 100
-    titanconstructiontime: 100
-    torpedovelocitypercent: 1
-    tradepremium: 1
-    volume: 1.0
-    warpaccuracyfactor: 1
-    warpaccuracymaxrange: 15000
-  CharacterLegacy14:
-    bountymultiplier: 1
-    copyspeedpercent: 1
-    dronecontroldistance: 20000
-    fasttalkpercentage: 100
-    frigateconstructioncost: 100
-    heavydronedamagepercent: 1
-    id: 34574
-    inventionreverseengineeringresearchspeed: 1
-    manufacturecostmultiplier: 1
-    manufacturetimemultiplier: 1
-    manufacturingtimeresearchspeed: 1
-    maxgangmodules: 3
-    maxlaborotoryslots: 1
-    mineralneedresearchspeed: 1
-    miningdroneamountpercent: 100
-    missiledamagemultiplier: 1.0
-    missilefofvelocitypercent: 100
-    missilestandardvelocitypecent: 100
-    modulerepairrate: 10
-    name: CharacterLegacy14
-    negotiationpercentage: 1
-    portionSize: 1
-    published: true
-    refiningtimepercentage: 100
-    repaircostmultiplier: 1.0
-    repaircostpercent: 100
-    rocketvelocitypercent: 1
-    shipbrokenmodulerepaircostmultiplier: 0.5
-    socialbonus: 100
-    stationconstructiontime: 100
-    titanconstructiontime: 100
-    warpaccuracyfactor: 1
-    warpaccuracymaxrange: 15000
-  CharacterLegacy2:
-    barterdiscount: 1
-    battleshipconstructioncost: 100
-    bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
-    copyspeedpercent: 1
-    cruisemissilevelocitypercent: 1
-    cruiserconstructioncost: 100
-    damagecloudchance: 2.0
-    dronecontroldistance: 20000
-    fasttalkpercentage: 1
-    frigateconstructioncost: 100
-    heavydronedamagepercent: 1
-    heavymissilespeedpercent: 1
-    id: 1380
-    industrialconstructioncost: 100
-    inventionreverseengineeringresearchspeed: 1
-    manufacturecostmultiplier: 1
-    manufactureslotlimit: 1
-    manufacturetimemultiplier: 1
-    manufacturingtimeresearchspeed: 1
-    maxgangmodules: 1
-    maxlaborotoryslots: 1
-    maxlockedtargets: 2
-    mineralneedresearchspeed: 1
-    miningdroneamountpercent: 100
-    missiledamagemultiplier: 1.0
-    missilefofvelocitypercent: 1
-    missilestandardvelocitypecent: 1
-    modulerepairrate: 10
-    name: CharacterLegacy2
-    negotiationpercentage: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: false
-    radius: 1.0
-    reactionslotlimit: 1
-    refiningtimepercentage: 1
-    refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
-    repaircostpercent: 1
-    rocketvelocitypercent: 1
-    shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
-    socialbonus: 1
-    stationconstructiontime: 100
-    titanconstructiontime: 100
-    torpedovelocitypercent: 1
-    tradepremium: 1
-    volume: 1.0
-    warpaccuracyfactor: 1
-    warpaccuracymaxrange: 15000
-  CharacterLegacy3:
+  1375:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -404,7 +158,7 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterLegacy4:
+  1376:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -457,7 +211,7 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterLegacy5:
+  1377:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -510,7 +264,7 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterLegacy6:
+  1378:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -563,7 +317,7 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterLegacy7:
+  1379:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -578,7 +332,7 @@ types:
     frigateconstructioncost: 100
     heavydronedamagepercent: 1
     heavymissilespeedpercent: 1
-    id: 1384
+    id: 1379
     industrialconstructioncost: 100
     inventionreverseengineeringresearchspeed: 1
     manufacturecostmultiplier: 1
@@ -594,7 +348,7 @@ types:
     missilefofvelocitypercent: 1
     missilestandardvelocitypecent: 1
     modulerepairrate: 10
-    name: CharacterLegacy7
+    name: CharacterLegacy11
     negotiationpercentage: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -616,7 +370,7 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterLegacy8:
+  1380:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -631,7 +385,7 @@ types:
     frigateconstructioncost: 100
     heavydronedamagepercent: 1
     heavymissilespeedpercent: 1
-    id: 1385
+    id: 1380
     industrialconstructioncost: 100
     inventionreverseengineeringresearchspeed: 1
     manufacturecostmultiplier: 1
@@ -647,7 +401,7 @@ types:
     missilefofvelocitypercent: 1
     missilestandardvelocitypecent: 1
     modulerepairrate: 10
-    name: CharacterLegacy8
+    name: CharacterLegacy2
     negotiationpercentage: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -669,7 +423,60 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterLegacy9:
+  1381:
+    barterdiscount: 1
+    battleshipconstructioncost: 100
+    bountymultiplier: 1
+    contrabanddetectionchance: 0.8999999761581421
+    contrabandfencingchance: 0.44999998807907104
+    copyspeedpercent: 1
+    cruisemissilevelocitypercent: 1
+    cruiserconstructioncost: 100
+    damagecloudchance: 2.0
+    dronecontroldistance: 20000
+    fasttalkpercentage: 1
+    frigateconstructioncost: 100
+    heavydronedamagepercent: 1
+    heavymissilespeedpercent: 1
+    id: 1381
+    industrialconstructioncost: 100
+    inventionreverseengineeringresearchspeed: 1
+    manufacturecostmultiplier: 1
+    manufactureslotlimit: 1
+    manufacturetimemultiplier: 1
+    manufacturingtimeresearchspeed: 1
+    maxgangmodules: 1
+    maxlaborotoryslots: 1
+    maxlockedtargets: 2
+    mineralneedresearchspeed: 1
+    miningdroneamountpercent: 100
+    missiledamagemultiplier: 1.0
+    missilefofvelocitypercent: 1
+    missilestandardvelocitypecent: 1
+    modulerepairrate: 10
+    name: CharacterLegacy12
+    negotiationpercentage: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    radius: 1.0
+    reactionslotlimit: 1
+    refiningtimepercentage: 1
+    refiningyieldpercentage: 1
+    repaircostmultiplier: 0.10000000149011612
+    repaircostpercent: 1
+    rocketvelocitypercent: 1
+    shipbrokenmodulerepaircostmultiplier: 0.5
+    smugglingchance: 0.10000000149011612
+    socialbonus: 1
+    stationconstructiontime: 100
+    titanconstructiontime: 100
+    torpedovelocitypercent: 1
+    tradepremium: 1
+    volume: 1.0
+    warpaccuracyfactor: 1
+    warpaccuracymaxrange: 15000
+  1382:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -722,7 +529,7 @@ types:
     volume: 1.0
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000
-  CharacterType:
+  1383:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
@@ -737,7 +544,7 @@ types:
     frigateconstructioncost: 100
     heavydronedamagepercent: 1
     heavymissilespeedpercent: 1
-    id: 1373
+    id: 1383
     industrialconstructioncost: 100
     inventionreverseengineeringresearchspeed: 1
     manufacturecostmultiplier: 1
@@ -753,7 +560,7 @@ types:
     missilefofvelocitypercent: 1
     missilestandardvelocitypecent: 1
     modulerepairrate: 10
-    name: CharacterType
+    name: CharacterLegacy1
     negotiationpercentage: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -773,5 +580,198 @@ types:
     torpedovelocitypercent: 1
     tradepremium: 1
     volume: 1.0
+    warpaccuracyfactor: 1
+    warpaccuracymaxrange: 15000
+  1384:
+    barterdiscount: 1
+    battleshipconstructioncost: 100
+    bountymultiplier: 1
+    contrabanddetectionchance: 0.8999999761581421
+    contrabandfencingchance: 0.44999998807907104
+    copyspeedpercent: 1
+    cruisemissilevelocitypercent: 1
+    cruiserconstructioncost: 100
+    damagecloudchance: 2.0
+    dronecontroldistance: 20000
+    fasttalkpercentage: 1
+    frigateconstructioncost: 100
+    heavydronedamagepercent: 1
+    heavymissilespeedpercent: 1
+    id: 1384
+    industrialconstructioncost: 100
+    inventionreverseengineeringresearchspeed: 1
+    manufacturecostmultiplier: 1
+    manufactureslotlimit: 1
+    manufacturetimemultiplier: 1
+    manufacturingtimeresearchspeed: 1
+    maxgangmodules: 1
+    maxlaborotoryslots: 1
+    maxlockedtargets: 2
+    mineralneedresearchspeed: 1
+    miningdroneamountpercent: 100
+    missiledamagemultiplier: 1.0
+    missilefofvelocitypercent: 1
+    missilestandardvelocitypecent: 1
+    modulerepairrate: 10
+    name: CharacterLegacy7
+    negotiationpercentage: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    radius: 1.0
+    reactionslotlimit: 1
+    refiningtimepercentage: 1
+    refiningyieldpercentage: 1
+    repaircostmultiplier: 0.10000000149011612
+    repaircostpercent: 1
+    rocketvelocitypercent: 1
+    shipbrokenmodulerepaircostmultiplier: 0.5
+    smugglingchance: 0.10000000149011612
+    socialbonus: 1
+    stationconstructiontime: 100
+    titanconstructiontime: 100
+    torpedovelocitypercent: 1
+    tradepremium: 1
+    volume: 1.0
+    warpaccuracyfactor: 1
+    warpaccuracymaxrange: 15000
+  1385:
+    barterdiscount: 1
+    battleshipconstructioncost: 100
+    bountymultiplier: 1
+    contrabanddetectionchance: 0.8999999761581421
+    contrabandfencingchance: 0.44999998807907104
+    copyspeedpercent: 1
+    cruisemissilevelocitypercent: 1
+    cruiserconstructioncost: 100
+    damagecloudchance: 2.0
+    dronecontroldistance: 20000
+    fasttalkpercentage: 1
+    frigateconstructioncost: 100
+    heavydronedamagepercent: 1
+    heavymissilespeedpercent: 1
+    id: 1385
+    industrialconstructioncost: 100
+    inventionreverseengineeringresearchspeed: 1
+    manufacturecostmultiplier: 1
+    manufactureslotlimit: 1
+    manufacturetimemultiplier: 1
+    manufacturingtimeresearchspeed: 1
+    maxgangmodules: 1
+    maxlaborotoryslots: 1
+    maxlockedtargets: 2
+    mineralneedresearchspeed: 1
+    miningdroneamountpercent: 100
+    missiledamagemultiplier: 1.0
+    missilefofvelocitypercent: 1
+    missilestandardvelocitypecent: 1
+    modulerepairrate: 10
+    name: CharacterLegacy8
+    negotiationpercentage: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    radius: 1.0
+    reactionslotlimit: 1
+    refiningtimepercentage: 1
+    refiningyieldpercentage: 1
+    repaircostmultiplier: 0.10000000149011612
+    repaircostpercent: 1
+    rocketvelocitypercent: 1
+    shipbrokenmodulerepaircostmultiplier: 0.5
+    smugglingchance: 0.10000000149011612
+    socialbonus: 1
+    stationconstructiontime: 100
+    titanconstructiontime: 100
+    torpedovelocitypercent: 1
+    tradepremium: 1
+    volume: 1.0
+    warpaccuracyfactor: 1
+    warpaccuracymaxrange: 15000
+  1386:
+    barterdiscount: 1
+    battleshipconstructioncost: 100
+    bountymultiplier: 1
+    contrabanddetectionchance: 0.8999999761581421
+    contrabandfencingchance: 0.44999998807907104
+    copyspeedpercent: 1
+    cruisemissilevelocitypercent: 1
+    cruiserconstructioncost: 100
+    damagecloudchance: 2.0
+    dronecontroldistance: 20000
+    fasttalkpercentage: 1
+    frigateconstructioncost: 100
+    heavydronedamagepercent: 1
+    heavymissilespeedpercent: 1
+    id: 1386
+    industrialconstructioncost: 100
+    inventionreverseengineeringresearchspeed: 1
+    manufacturecostmultiplier: 1
+    manufactureslotlimit: 1
+    manufacturetimemultiplier: 1
+    manufacturingtimeresearchspeed: 1
+    maxgangmodules: 1
+    maxlaborotoryslots: 1
+    maxlockedtargets: 2
+    mineralneedresearchspeed: 1
+    miningdroneamountpercent: 100
+    missiledamagemultiplier: 1.0
+    missilefofvelocitypercent: 1
+    missilestandardvelocitypecent: 1
+    modulerepairrate: 10
+    name: CharacterLegacy13
+    negotiationpercentage: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    radius: 1.0
+    reactionslotlimit: 1
+    refiningtimepercentage: 1
+    refiningyieldpercentage: 1
+    repaircostmultiplier: 0.10000000149011612
+    repaircostpercent: 1
+    rocketvelocitypercent: 1
+    shipbrokenmodulerepaircostmultiplier: 0.5
+    smugglingchance: 0.10000000149011612
+    socialbonus: 1
+    stationconstructiontime: 100
+    titanconstructiontime: 100
+    torpedovelocitypercent: 1
+    tradepremium: 1
+    volume: 1.0
+    warpaccuracyfactor: 1
+    warpaccuracymaxrange: 15000
+  34574:
+    bountymultiplier: 1
+    copyspeedpercent: 1
+    dronecontroldistance: 20000
+    fasttalkpercentage: 100
+    frigateconstructioncost: 100
+    heavydronedamagepercent: 1
+    id: 34574
+    inventionreverseengineeringresearchspeed: 1
+    manufacturecostmultiplier: 1
+    manufacturetimemultiplier: 1
+    manufacturingtimeresearchspeed: 1
+    maxgangmodules: 3
+    maxlaborotoryslots: 1
+    mineralneedresearchspeed: 1
+    miningdroneamountpercent: 100
+    missiledamagemultiplier: 1.0
+    missilefofvelocitypercent: 100
+    missilestandardvelocitypecent: 100
+    modulerepairrate: 10
+    name: CharacterLegacy14
+    negotiationpercentage: 1
+    portionSize: 1
+    published: true
+    refiningtimepercentage: 100
+    repaircostmultiplier: 1.0
+    repaircostpercent: 100
+    rocketvelocitypercent: 1
+    shipbrokenmodulerepaircostmultiplier: 0.5
+    socialbonus: 100
+    stationconstructiontime: 100
+    titanconstructiontime: 100
     warpaccuracyfactor: 1
     warpaccuracymaxrange: 15000

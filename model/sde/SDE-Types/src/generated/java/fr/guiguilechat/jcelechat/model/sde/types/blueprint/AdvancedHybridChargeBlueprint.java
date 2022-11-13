@@ -97,7 +97,7 @@ public class AdvancedHybridChargeBlueprint
         implements IMetaGroup<AdvancedHybridChargeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/AdvancedHybridChargeBlueprint.yaml";
-        private Map<String, AdvancedHybridChargeBlueprint> cache = (null);
+        private Map<Integer, AdvancedHybridChargeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedHybridChargeBlueprint> category() {
@@ -115,7 +115,7 @@ public class AdvancedHybridChargeBlueprint
         }
 
         @Override
-        public synchronized Map<String, AdvancedHybridChargeBlueprint> load() {
+        public synchronized Map<Integer, AdvancedHybridChargeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedHybridChargeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class AdvancedHybridChargeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedHybridChargeBlueprint> types;
+            public LinkedHashMap<Integer, AdvancedHybridChargeBlueprint> types;
         }
     }
 }

@@ -1,5 +1,17 @@
 types:
-  Occult Accelerant:
+  23178:
+    id: 23178
+    inventionmemodifier: 3.0
+    inventionpropabilitymultiplier: 1.100000023841858
+    inventiontemodifier: 6.0
+    mass: 1.0
+    name: Occult Process
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  23179:
     id: 23179
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 2.0
@@ -12,58 +24,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Occult Attainment:
-    id: 23182
-    inventionmaxrunmodifier: 4.0
-    inventionmemodifier: -1.0
-    inventionpropabilitymultiplier: 1.7999999523162842
-    inventiontemodifier: 4.0
-    mass: 1.0
-    name: Occult Attainment
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Occult Augmentation:
-    id: 23181
-    inventionmaxrunmodifier: 9.0
-    inventionmemodifier: -2.0
-    inventionpropabilitymultiplier: 0.6000000238418579
-    inventiontemodifier: 2.0
-    mass: 1.0
-    name: Occult Augmentation
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Occult Parity:
-    id: 33315
-    inventionmaxrunmodifier: 3.0
-    inventionmemodifier: 1.0
-    inventionpropabilitymultiplier: 1.5
-    inventiontemodifier: -2.0
-    mass: 1.0
-    name: Occult Parity
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Occult Process:
-    id: 23178
-    inventionmemodifier: 3.0
-    inventionpropabilitymultiplier: 1.100000023841858
-    inventiontemodifier: 6.0
-    mass: 1.0
-    name: Occult Process
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Occult Symmetry:
+  23180:
     id: 23180
     inventionmaxrunmodifier: 2.0
     inventionmemodifier: 1.0
@@ -76,7 +37,58 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Optimized Occult Attainment:
+  23181:
+    id: 23181
+    inventionmaxrunmodifier: 9.0
+    inventionmemodifier: -2.0
+    inventionpropabilitymultiplier: 0.6000000238418579
+    inventiontemodifier: 2.0
+    mass: 1.0
+    name: Occult Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  23182:
+    id: 23182
+    inventionmaxrunmodifier: 4.0
+    inventionmemodifier: -1.0
+    inventionpropabilitymultiplier: 1.7999999523162842
+    inventiontemodifier: 4.0
+    mass: 1.0
+    name: Occult Attainment
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  33315:
+    id: 33315
+    inventionmaxrunmodifier: 3.0
+    inventionmemodifier: 1.0
+    inventionpropabilitymultiplier: 1.5
+    inventiontemodifier: -2.0
+    mass: 1.0
+    name: Occult Parity
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  33316:
+    id: 33316
+    inventionmaxrunmodifier: 7.0
+    inventionmemodifier: 2.0
+    inventionpropabilitymultiplier: 0.8999999761581421
+    mass: 1.0
+    name: Optimized Occult Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  33317:
     id: 33317
     inventionmaxrunmodifier: 2.0
     inventionmemodifier: 1.0
@@ -84,18 +96,6 @@ types:
     inventiontemodifier: -2.0
     mass: 1.0
     name: Optimized Occult Attainment
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Optimized Occult Augmentation:
-    id: 33316
-    inventionmaxrunmodifier: 7.0
-    inventionmemodifier: 2.0
-    inventionpropabilitymultiplier: 0.8999999761581421
-    mass: 1.0
-    name: Optimized Occult Augmentation
     packagedVolume: 1.0
     portionSize: 1
     published: true

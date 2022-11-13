@@ -280,7 +280,7 @@ public class AdvancedArtilleryAmmo
         implements IMetaGroup<AdvancedArtilleryAmmo>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedArtilleryAmmo.yaml";
-        private Map<String, AdvancedArtilleryAmmo> cache = (null);
+        private Map<Integer, AdvancedArtilleryAmmo> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedArtilleryAmmo> category() {
@@ -298,7 +298,7 @@ public class AdvancedArtilleryAmmo
         }
 
         @Override
-        public synchronized Map<String, AdvancedArtilleryAmmo> load() {
+        public synchronized Map<Integer, AdvancedArtilleryAmmo> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedArtilleryAmmo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -312,7 +312,7 @@ public class AdvancedArtilleryAmmo
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedArtilleryAmmo> types;
+            public LinkedHashMap<Integer, AdvancedArtilleryAmmo> types;
         }
     }
 }

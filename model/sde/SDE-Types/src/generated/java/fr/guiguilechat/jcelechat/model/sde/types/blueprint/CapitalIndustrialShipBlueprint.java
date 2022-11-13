@@ -96,7 +96,7 @@ public class CapitalIndustrialShipBlueprint
         implements IMetaGroup<CapitalIndustrialShipBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CapitalIndustrialShipBlueprint.yaml";
-        private Map<String, CapitalIndustrialShipBlueprint> cache = (null);
+        private Map<Integer, CapitalIndustrialShipBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super CapitalIndustrialShipBlueprint> category() {
@@ -114,7 +114,7 @@ public class CapitalIndustrialShipBlueprint
         }
 
         @Override
-        public synchronized Map<String, CapitalIndustrialShipBlueprint> load() {
+        public synchronized Map<Integer, CapitalIndustrialShipBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapitalIndustrialShipBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -128,7 +128,7 @@ public class CapitalIndustrialShipBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapitalIndustrialShipBlueprint> types;
+            public LinkedHashMap<Integer, CapitalIndustrialShipBlueprint> types;
         }
     }
 }

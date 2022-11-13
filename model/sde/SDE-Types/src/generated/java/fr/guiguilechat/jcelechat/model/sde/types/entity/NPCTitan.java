@@ -108,7 +108,7 @@ public class NPCTitan
         implements IMetaGroup<NPCTitan>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCTitan.yaml";
-        private Map<String, NPCTitan> cache = (null);
+        private Map<Integer, NPCTitan> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCTitan> category() {
@@ -126,7 +126,7 @@ public class NPCTitan
         }
 
         @Override
-        public synchronized Map<String, NPCTitan> load() {
+        public synchronized Map<Integer, NPCTitan> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCTitan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -140,7 +140,7 @@ public class NPCTitan
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCTitan> types;
+            public LinkedHashMap<Integer, NPCTitan> types;
         }
     }
 }

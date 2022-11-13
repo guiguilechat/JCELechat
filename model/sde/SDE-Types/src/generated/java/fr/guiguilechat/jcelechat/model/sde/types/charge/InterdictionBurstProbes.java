@@ -219,7 +219,7 @@ public class InterdictionBurstProbes
         implements IMetaGroup<InterdictionBurstProbes>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/InterdictionBurstProbes.yaml";
-        private Map<String, InterdictionBurstProbes> cache = (null);
+        private Map<Integer, InterdictionBurstProbes> cache = (null);
 
         @Override
         public IMetaCategory<? super InterdictionBurstProbes> category() {
@@ -237,7 +237,7 @@ public class InterdictionBurstProbes
         }
 
         @Override
-        public synchronized Map<String, InterdictionBurstProbes> load() {
+        public synchronized Map<Integer, InterdictionBurstProbes> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InterdictionBurstProbes.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -251,7 +251,7 @@ public class InterdictionBurstProbes
         }
 
         private static class Container {
-            public LinkedHashMap<String, InterdictionBurstProbes> types;
+            public LinkedHashMap<Integer, InterdictionBurstProbes> types;
         }
     }
 }

@@ -2357,7 +2357,7 @@ public class IrregularFrigate
         implements IMetaGroup<IrregularFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularFrigate.yaml";
-        private Map<String, IrregularFrigate> cache = (null);
+        private Map<Integer, IrregularFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularFrigate> category() {
@@ -2375,7 +2375,7 @@ public class IrregularFrigate
         }
 
         @Override
-        public synchronized Map<String, IrregularFrigate> load() {
+        public synchronized Map<Integer, IrregularFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -2389,7 +2389,7 @@ public class IrregularFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularFrigate> types;
+            public LinkedHashMap<Integer, IrregularFrigate> types;
         }
     }
 }

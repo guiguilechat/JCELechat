@@ -1,31 +1,5 @@
 types:
-  Legion Defensive - Augmented Plating:
-    armorhpbonusadd: 1000
-    capacity: 300.0
-    covertcloakcpupenalty: 10000
-    covertopsandreconopscloakmoduledelay: 30000
-    fitstoshiptype: 29986
-    hp: 40.0
-    id: 45587
-    lowslotmodifier: 3
-    marketGroup: 1126
-    mass: 1400000.0
-    medslotmodifier: 1
-    metalevelold: 1
-    name: Legion Defensive - Augmented Plating
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30532
-    requiredskill1level: 1
-    signatureradius: 10.0
-    subsystembonusamarrdefensive: 5.0
-    subsystembonusamarrdefensive2: 5
-    subsystemslot: 126
-    techlevel: 3
-    volume: 40.0
-  Legion Defensive - Covert Reconfiguration:
+  45586:
     capacitorcapacity: 200.0
     capacity: 300.0
     cargocapacityadd: 30
@@ -59,7 +33,33 @@ types:
     techlevel: 3
     virusstrengthbonus: 10
     volume: 40.0
-  Legion Defensive - Nanobot Injector:
+  45587:
+    armorhpbonusadd: 1000
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29986
+    hp: 40.0
+    id: 45587
+    lowslotmodifier: 3
+    marketGroup: 1126
+    mass: 1400000.0
+    medslotmodifier: 1
+    metalevelold: 1
+    name: Legion Defensive - Augmented Plating
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30532
+    requiredskill1level: 1
+    signatureradius: 10.0
+    subsystembonusamarrdefensive: 5.0
+    subsystembonusamarrdefensive2: 5
+    subsystemslot: 126
+    techlevel: 3
+    volume: 40.0
+  45588:
     armorhpbonusadd: 500
     capacitorcapacity: 300.0
     capacity: 300.0
@@ -87,124 +87,94 @@ types:
     subsystemslot: 126
     techlevel: 3
     volume: 40.0
-  Loki Defensive - Adaptive Defense Node:
+  45589:
     armorhpbonusadd: 300
-    capacitorcapacity: 300.0
-    capacity: 300.0
-    covertcloakcpupenalty: 10000
-    covertopsandreconopscloakmoduledelay: 30000
-    fitstoshiptype: 29990
-    hp: 40.0
-    id: 45597
-    lowslotmodifier: 2
-    marketGroup: 1128
-    mass: 1400000.0
-    medslotmodifier: 2
-    metalevelold: 1
-    name: Loki Defensive - Adaptive Defense Node
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30545
-    requiredskill1level: 1
-    shieldcapacity: 300.0
-    signatureradius: 100.0
-    structurehpbonusadd: 100
-    subsystembonusminmatardefensive: 10.0
-    subsystembonusminmatardefensive2: 10
-    subsystembonusminmatardefensive3: 10.0
-    subsystemslot: 126
-    techlevel: 3
-    volume: 40.0
-  Loki Defensive - Augmented Durability:
-    armorhpbonusadd: 600
-    capacity: 300.0
-    covertcloakcpupenalty: 10000
-    covertopsandreconopscloakmoduledelay: 30000
-    fitstoshiptype: 29990
-    hp: 40.0
-    id: 45596
-    lowslotmodifier: 2
-    marketGroup: 1128
-    mass: 1400000.0
-    medslotmodifier: 2
-    metalevelold: 1
-    name: Loki Defensive - Augmented Durability
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30545
-    requiredskill1level: 1
-    shieldcapacity: 600.0
-    signatureradius: 10.0
-    subsystembonusminmatardefensive: 5.0
-    subsystembonusminmatardefensive2: 5
-    subsystemslot: 126
-    techlevel: 3
-    volume: 40.0
-  Loki Defensive - Covert Reconfiguration:
     capacitorcapacity: 200.0
     capacity: 300.0
     cargocapacityadd: 30
     covertopsandreconopscloakmoduledelay: 5000
-    fitstoshiptype: 29990
+    fitstoshiptype: 29984
     hislotmodifier: 1
     hp: 40.0
-    id: 45595
+    id: 45589
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     jumpharmonicsmodifier: 5
-    lowslotmodifier: 1
-    marketGroup: 1128
+    marketGroup: 1127
     mass: 1400000.0
-    medslotmodifier: 2
+    medslotmodifier: 3
     metalevelold: 1
-    name: Loki Defensive - Covert Reconfiguration
+    name: Tengu Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 30545
+    requiredskill1: 30544
     requiredskill1level: 1
     signatureradius: 5.0
-    structurehpbonusadd: 1000
-    subsystembonusminmatardefensive: 7.5
-    subsystembonusminmatardefensive2: 10
-    subsystembonusminmatardefensive3: 7.5
+    structurehpbonusadd: 600
+    subsystembonuscaldaridefensive: 7.5
+    subsystembonuscaldaridefensive2: 10
+    subsystembonuscaldaridefensive3: 7.5
     subsystemslot: 126
     techlevel: 3
     virusstrengthbonus: 10
     volume: 40.0
-  Proteus Defensive - Augmented Plating:
-    armorhpbonusadd: 1000
+  45590:
     capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
-    fitstoshiptype: 29988
+    fitstoshiptype: 29984
     hp: 40.0
-    id: 45593
-    lowslotmodifier: 3
-    marketGroup: 1129
+    id: 45590
+    lowslotmodifier: 2
+    marketGroup: 1127
     mass: 1400000.0
-    medslotmodifier: 1
+    medslotmodifier: 2
     metalevelold: 1
-    name: Proteus Defensive - Augmented Plating
+    name: Tengu Defensive - Supplemental Screening
     packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 30540
+    requiredskill1: 30544
     requiredskill1level: 1
+    shieldcapacity: 1000.0
     signatureradius: 10.0
-    subsystembonusgallentedefensive: 5.0
-    subsystembonusgallentedefensive2: 5
-    subsystembonusmassaddition: -25
+    subsystembonuscaldaridefensive: 5.0
+    subsystembonuscaldaridefensive2: 5
     subsystemslot: 126
     techlevel: 3
     volume: 40.0
-  Proteus Defensive - Covert Reconfiguration:
+  45591:
+    armorhpbonusadd: 100
+    capacitorcapacity: 300.0
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29984
+    hp: 40.0
+    id: 45591
+    lowslotmodifier: 1
+    marketGroup: 1127
+    mass: 1400000.0
+    medslotmodifier: 3
+    metalevelold: 1
+    name: Tengu Defensive - Amplification Node
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30544
+    requiredskill1level: 1
+    shieldcapacity: 500.0
+    signatureradius: 100.0
+    subsystembonuscaldaridefensive: 10.0
+    subsystembonuscaldaridefensive3: 10.0
+    subsystemslot: 126
+    techlevel: 3
+    volume: 40.0
+  45592:
     capacitorcapacity: 200.0
     capacity: 300.0
     cargocapacityadd: 30
@@ -238,7 +208,34 @@ types:
     techlevel: 3
     virusstrengthbonus: 10
     volume: 40.0
-  Proteus Defensive - Nanobot Injector:
+  45593:
+    armorhpbonusadd: 1000
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29988
+    hp: 40.0
+    id: 45593
+    lowslotmodifier: 3
+    marketGroup: 1129
+    mass: 1400000.0
+    medslotmodifier: 1
+    metalevelold: 1
+    name: Proteus Defensive - Augmented Plating
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30540
+    requiredskill1level: 1
+    signatureradius: 10.0
+    subsystembonusgallentedefensive: 5.0
+    subsystembonusgallentedefensive2: 5
+    subsystembonusmassaddition: -25
+    subsystemslot: 126
+    techlevel: 3
+    volume: 40.0
+  45594:
     armorhpbonusadd: 500
     capacitorcapacity: 300.0
     capacity: 300.0
@@ -266,90 +263,93 @@ types:
     subsystemslot: 126
     techlevel: 3
     volume: 40.0
-  Tengu Defensive - Amplification Node:
-    armorhpbonusadd: 100
-    capacitorcapacity: 300.0
-    capacity: 300.0
-    covertcloakcpupenalty: 10000
-    covertopsandreconopscloakmoduledelay: 30000
-    fitstoshiptype: 29984
-    hp: 40.0
-    id: 45591
-    lowslotmodifier: 1
-    marketGroup: 1127
-    mass: 1400000.0
-    medslotmodifier: 3
-    metalevelold: 1
-    name: Tengu Defensive - Amplification Node
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30544
-    requiredskill1level: 1
-    shieldcapacity: 500.0
-    signatureradius: 100.0
-    subsystembonuscaldaridefensive: 10.0
-    subsystembonuscaldaridefensive3: 10.0
-    subsystemslot: 126
-    techlevel: 3
-    volume: 40.0
-  Tengu Defensive - Covert Reconfiguration:
-    armorhpbonusadd: 300
+  45595:
     capacitorcapacity: 200.0
     capacity: 300.0
     cargocapacityadd: 30
     covertopsandreconopscloakmoduledelay: 5000
-    fitstoshiptype: 29984
+    fitstoshiptype: 29990
     hislotmodifier: 1
     hp: 40.0
-    id: 45589
+    id: 45595
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     jumpharmonicsmodifier: 5
-    marketGroup: 1127
+    lowslotmodifier: 1
+    marketGroup: 1128
     mass: 1400000.0
-    medslotmodifier: 3
+    medslotmodifier: 2
     metalevelold: 1
-    name: Tengu Defensive - Covert Reconfiguration
+    name: Loki Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 30544
+    requiredskill1: 30545
     requiredskill1level: 1
     signatureradius: 5.0
-    structurehpbonusadd: 600
-    subsystembonuscaldaridefensive: 7.5
-    subsystembonuscaldaridefensive2: 10
-    subsystembonuscaldaridefensive3: 7.5
+    structurehpbonusadd: 1000
+    subsystembonusminmatardefensive: 7.5
+    subsystembonusminmatardefensive2: 10
+    subsystembonusminmatardefensive3: 7.5
     subsystemslot: 126
     techlevel: 3
     virusstrengthbonus: 10
     volume: 40.0
-  Tengu Defensive - Supplemental Screening:
+  45596:
+    armorhpbonusadd: 600
     capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
-    fitstoshiptype: 29984
+    fitstoshiptype: 29990
     hp: 40.0
-    id: 45590
+    id: 45596
     lowslotmodifier: 2
-    marketGroup: 1127
+    marketGroup: 1128
     mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
-    name: Tengu Defensive - Supplemental Screening
+    name: Loki Defensive - Augmented Durability
     packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 30544
+    requiredskill1: 30545
     requiredskill1level: 1
-    shieldcapacity: 1000.0
+    shieldcapacity: 600.0
     signatureradius: 10.0
-    subsystembonuscaldaridefensive: 5.0
-    subsystembonuscaldaridefensive2: 5
+    subsystembonusminmatardefensive: 5.0
+    subsystembonusminmatardefensive2: 5
+    subsystemslot: 126
+    techlevel: 3
+    volume: 40.0
+  45597:
+    armorhpbonusadd: 300
+    capacitorcapacity: 300.0
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29990
+    hp: 40.0
+    id: 45597
+    lowslotmodifier: 2
+    marketGroup: 1128
+    mass: 1400000.0
+    medslotmodifier: 2
+    metalevelold: 1
+    name: Loki Defensive - Adaptive Defense Node
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30545
+    requiredskill1level: 1
+    shieldcapacity: 300.0
+    signatureradius: 100.0
+    structurehpbonusadd: 100
+    subsystembonusminmatardefensive: 10.0
+    subsystembonusminmatardefensive2: 10
+    subsystembonusminmatardefensive3: 10.0
     subsystemslot: 126
     techlevel: 3
     volume: 40.0

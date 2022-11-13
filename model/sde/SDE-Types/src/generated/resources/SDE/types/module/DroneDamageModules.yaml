@@ -1,46 +1,5 @@
 types:
-  AE-K Compact Drone Damage Amplifier:
-    cpu: 25.0
-    dronedamagebonus: 17.0
-    hp: 40.0
-    id: 41034
-    marketGroup: 938
-    mass: 1.0
-    metalevelold: 1
-    name: AE-K Compact Drone Damage Amplifier
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    requiredskill2: 3436
-    requiredskill2level: 1
-    techlevel: 1
-    volume: 5.0
-  Dread Guristas Drone Damage Amplifier:
-    cpu: 20.0
-    dronedamagebonus: 23.799999237060547
-    hp: 40.0
-    id: 33846
-    marketGroup: 938
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dread Guristas Drone Damage Amplifier
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    requiredskill2: 3436
-    requiredskill2level: 1
-    techlevel: 1
-    volume: 5.0
-  Drone Damage Amplifier I:
+  4393:
     cpu: 27.0
     dronedamagebonus: 15.0
     hp: 40.0
@@ -59,7 +18,7 @@ types:
     requiredskill2level: 1
     techlevel: 1
     volume: 5.0
-  Drone Damage Amplifier II:
+  4405:
     cpu: 30.0
     dronedamagebonus: 20.5
     hp: 40.0
@@ -79,89 +38,7 @@ types:
     requiredskill2level: 4
     techlevel: 2
     volume: 5.0
-  Federation Navy Drone Damage Amplifier:
-    cpu: 20.0
-    dronedamagebonus: 23.799999237060547
-    hp: 40.0
-    id: 33842
-    marketGroup: 938
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Federation Navy Drone Damage Amplifier
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    requiredskill2: 3436
-    requiredskill2level: 1
-    techlevel: 1
-    volume: 5.0
-  Imperial Navy Drone Damage Amplifier:
-    cpu: 20.0
-    dronedamagebonus: 23.799999237060547
-    hp: 40.0
-    id: 33844
-    marketGroup: 938
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Imperial Navy Drone Damage Amplifier
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    requiredskill2: 3436
-    requiredskill2level: 1
-    techlevel: 1
-    volume: 5.0
-  Mutated Drone Damage Amplifier:
-    cpu: 30.0
-    dronedamagebonus: 20.5
-    hp: 40.0
-    id: 60482
-    mass: 1.0
-    metalevelold: 5
-    name: Mutated Drone Damage Amplifier
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 4
-    requiredskill2: 3436
-    requiredskill2level: 4
-    techlevel: 2
-    volume: 5.0
-  Sentient Drone Damage Amplifier:
-    cpu: 20.0
-    dronedamagebonus: 23.799999237060547
-    hp: 40.0
-    id: 33848
-    marketGroup: 938
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Sentient Drone Damage Amplifier
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    requiredskill2: 3436
-    requiredskill2level: 1
-    techlevel: 1
-    volume: 5.0
-  Unit D-34343's Modified Drone Damage Amplifier:
+  32919:
     cpu: 22.0
     dronedamagebonus: 24.5
     hp: 40.0
@@ -180,7 +57,7 @@ types:
     requiredskill2level: 1
     techlevel: 1
     volume: 5.0
-  Unit F-435454's Modified Drone Damage Amplifier:
+  32921:
     cpu: 24.0
     dronedamagebonus: 25.149999618530273
     hp: 40.0
@@ -199,7 +76,7 @@ types:
     requiredskill2level: 1
     techlevel: 1
     volume: 5.0
-  Unit P-343554's Modified Drone Damage Amplifier:
+  32923:
     cpu: 26.0
     dronedamagebonus: 25.799999237060547
     hp: 40.0
@@ -220,7 +97,7 @@ types:
     requiredskill2level: 1
     techlevel: 1
     volume: 5.0
-  Unit W-634's Modified Drone Damage Amplifier:
+  32925:
     cpu: 28.0
     dronedamagebonus: 26.5
     hp: 40.0
@@ -240,4 +117,127 @@ types:
     requiredskill2: 3436
     requiredskill2level: 1
     techlevel: 1
+    volume: 5.0
+  33842:
+    cpu: 20.0
+    dronedamagebonus: 23.799999237060547
+    hp: 40.0
+    id: 33842
+    marketGroup: 938
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    requiredskill2: 3436
+    requiredskill2level: 1
+    techlevel: 1
+    volume: 5.0
+  33844:
+    cpu: 20.0
+    dronedamagebonus: 23.799999237060547
+    hp: 40.0
+    id: 33844
+    marketGroup: 938
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    requiredskill2: 3436
+    requiredskill2level: 1
+    techlevel: 1
+    volume: 5.0
+  33846:
+    cpu: 20.0
+    dronedamagebonus: 23.799999237060547
+    hp: 40.0
+    id: 33846
+    marketGroup: 938
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dread Guristas Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    requiredskill2: 3436
+    requiredskill2level: 1
+    techlevel: 1
+    volume: 5.0
+  33848:
+    cpu: 20.0
+    dronedamagebonus: 23.799999237060547
+    hp: 40.0
+    id: 33848
+    marketGroup: 938
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Sentient Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    requiredskill2: 3436
+    requiredskill2level: 1
+    techlevel: 1
+    volume: 5.0
+  41034:
+    cpu: 25.0
+    dronedamagebonus: 17.0
+    hp: 40.0
+    id: 41034
+    marketGroup: 938
+    mass: 1.0
+    metalevelold: 1
+    name: AE-K Compact Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    requiredskill2: 3436
+    requiredskill2level: 1
+    techlevel: 1
+    volume: 5.0
+  60482:
+    cpu: 30.0
+    dronedamagebonus: 20.5
+    hp: 40.0
+    id: 60482
+    mass: 1.0
+    metalevelold: 5
+    name: Mutated Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    requiredskill2: 3436
+    requiredskill2level: 4
+    techlevel: 2
     volume: 5.0

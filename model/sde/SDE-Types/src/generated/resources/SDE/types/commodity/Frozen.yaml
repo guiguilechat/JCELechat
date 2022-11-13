@@ -1,25 +1,5 @@
 types:
-  Dairy Products:
-    id: 3717
-    marketGroup: 492
-    mass: 400.0
-    name: Dairy Products
-    packagedVolume: 0.5
-    portionSize: 1
-    price: 160.0
-    published: true
-    volume: 0.5
-  Frozen Food:
-    id: 3715
-    marketGroup: 492
-    mass: 400.0
-    name: Frozen Food
-    packagedVolume: 0.5
-    portionSize: 1
-    price: 98.0
-    published: true
-    volume: 0.5
-  Frozen Plant Seeds:
+  45:
     id: 45
     marketGroup: 492
     mass: 400.0
@@ -29,25 +9,27 @@ types:
     price: 75.0
     published: true
     volume: 0.5
-  Ghalen Dumplings:
-    id: 29482
-    mass: 120.0
-    name: Ghalen Dumplings
-    packagedVolume: 1.0
+  3715:
+    id: 3715
+    marketGroup: 492
+    mass: 400.0
+    name: Frozen Food
+    packagedVolume: 0.5
     portionSize: 1
     price: 98.0
     published: true
-    volume: 1.0
-  Ghalen Pastries:
-    id: 29481
-    mass: 100.0
-    name: Ghalen Pastries
-    packagedVolume: 1.0
+    volume: 0.5
+  3717:
+    id: 3717
+    marketGroup: 492
+    mass: 400.0
+    name: Dairy Products
+    packagedVolume: 0.5
     portionSize: 1
-    price: 98.0
+    price: 160.0
     published: true
-    volume: 1.0
-  Long-limb Roes:
+    volume: 0.5
+  3777:
     id: 3777
     marketGroup: 492
     mass: 400.0
@@ -57,15 +39,7 @@ types:
     price: 2400.0
     published: true
     volume: 1.0
-  Milk:
-    id: 21564
-    mass: 400.0
-    name: Milk
-    packagedVolume: 0.5
-    portionSize: 1
-    published: true
-    volume: 0.5
-  Protein Delicacies:
+  11855:
     id: 11855
     marketGroup: 492
     mass: 400.0
@@ -75,7 +49,15 @@ types:
     price: 200.0
     published: true
     volume: 0.5
-  Starcakes:
+  21564:
+    id: 21564
+    mass: 400.0
+    name: Milk
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  29470:
     id: 29470
     mass: 400.0
     name: Starcakes
@@ -84,3 +66,21 @@ types:
     price: 98.0
     published: true
     volume: 2.0
+  29481:
+    id: 29481
+    mass: 100.0
+    name: Ghalen Pastries
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 98.0
+    published: true
+    volume: 1.0
+  29482:
+    id: 29482
+    mass: 120.0
+    name: Ghalen Dumplings
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 98.0
+    published: true
+    volume: 1.0

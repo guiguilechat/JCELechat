@@ -83,7 +83,7 @@ public class FuelBlockBlueprint
         implements IMetaGroup<FuelBlockBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/FuelBlockBlueprint.yaml";
-        private Map<String, FuelBlockBlueprint> cache = (null);
+        private Map<Integer, FuelBlockBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super FuelBlockBlueprint> category() {
@@ -101,7 +101,7 @@ public class FuelBlockBlueprint
         }
 
         @Override
-        public synchronized Map<String, FuelBlockBlueprint> load() {
+        public synchronized Map<Integer, FuelBlockBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FuelBlockBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class FuelBlockBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, FuelBlockBlueprint> types;
+            public LinkedHashMap<Integer, FuelBlockBlueprint> types;
         }
     }
 }

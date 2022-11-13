@@ -97,7 +97,7 @@ public class StasisWebBlueprint
         implements IMetaGroup<StasisWebBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StasisWebBlueprint.yaml";
-        private Map<String, StasisWebBlueprint> cache = (null);
+        private Map<Integer, StasisWebBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super StasisWebBlueprint> category() {
@@ -115,7 +115,7 @@ public class StasisWebBlueprint
         }
 
         @Override
-        public synchronized Map<String, StasisWebBlueprint> load() {
+        public synchronized Map<Integer, StasisWebBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StasisWebBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class StasisWebBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisWebBlueprint> types;
+            public LinkedHashMap<Integer, StasisWebBlueprint> types;
         }
     }
 }

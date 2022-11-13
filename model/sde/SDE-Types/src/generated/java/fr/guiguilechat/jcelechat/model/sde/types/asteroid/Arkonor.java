@@ -101,7 +101,7 @@ public class Arkonor
         implements IMetaGroup<Arkonor>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Arkonor.yaml";
-        private Map<String, Arkonor> cache = (null);
+        private Map<Integer, Arkonor> cache = (null);
 
         @Override
         public IMetaCategory<? super Arkonor> category() {
@@ -119,7 +119,7 @@ public class Arkonor
         }
 
         @Override
-        public synchronized Map<String, Arkonor> load() {
+        public synchronized Map<Integer, Arkonor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Arkonor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class Arkonor
         }
 
         private static class Container {
-            public LinkedHashMap<String, Arkonor> types;
+            public LinkedHashMap<Integer, Arkonor> types;
         }
     }
 }

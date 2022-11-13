@@ -1,21 +1,21 @@
 types:
-  Factory Folder:
-    id: 28
-    name: Factory Folder
+  26:
+    id: 26
+    name: Office Folder
     packagedVolume: 1.0
     portionSize: 1
     published: false
     volume: 1.0
-  Office:
+  27:
     id: 27
     name: Office
     packagedVolume: 1.0
     portionSize: 1
     published: false
     volume: 1.0
-  Office Folder:
-    id: 26
-    name: Office Folder
+  28:
+    id: 28
+    name: Factory Folder
     packagedVolume: 1.0
     portionSize: 1
     published: false

@@ -289,7 +289,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
         implements IMetaGroup<StructureCombatRigLEWProjectionAndCapReduction>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigLEWProjectionAndCapReduction.yaml";
-        private Map<String, StructureCombatRigLEWProjectionAndCapReduction> cache = (null);
+        private Map<Integer, StructureCombatRigLEWProjectionAndCapReduction> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigLEWProjectionAndCapReduction> category() {
@@ -307,7 +307,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigLEWProjectionAndCapReduction> load() {
+        public synchronized Map<Integer, StructureCombatRigLEWProjectionAndCapReduction> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigLEWProjectionAndCapReduction.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigLEWProjectionAndCapReduction> types;
+            public LinkedHashMap<Integer, StructureCombatRigLEWProjectionAndCapReduction> types;
         }
     }
 }

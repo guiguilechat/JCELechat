@@ -205,7 +205,7 @@ public class MiningForemanBurstCharges
         implements IMetaGroup<MiningForemanBurstCharges>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/MiningForemanBurstCharges.yaml";
-        private Map<String, MiningForemanBurstCharges> cache = (null);
+        private Map<Integer, MiningForemanBurstCharges> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningForemanBurstCharges> category() {
@@ -223,7 +223,7 @@ public class MiningForemanBurstCharges
         }
 
         @Override
-        public synchronized Map<String, MiningForemanBurstCharges> load() {
+        public synchronized Map<Integer, MiningForemanBurstCharges> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningForemanBurstCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -237,7 +237,7 @@ public class MiningForemanBurstCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningForemanBurstCharges> types;
+            public LinkedHashMap<Integer, MiningForemanBurstCharges> types;
         }
     }
 }

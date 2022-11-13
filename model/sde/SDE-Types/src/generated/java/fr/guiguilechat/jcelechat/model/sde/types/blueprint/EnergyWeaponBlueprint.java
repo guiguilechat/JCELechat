@@ -117,7 +117,7 @@ public class EnergyWeaponBlueprint
         implements IMetaGroup<EnergyWeaponBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/EnergyWeaponBlueprint.yaml";
-        private Map<String, EnergyWeaponBlueprint> cache = (null);
+        private Map<Integer, EnergyWeaponBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super EnergyWeaponBlueprint> category() {
@@ -135,7 +135,7 @@ public class EnergyWeaponBlueprint
         }
 
         @Override
-        public synchronized Map<String, EnergyWeaponBlueprint> load() {
+        public synchronized Map<Integer, EnergyWeaponBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EnergyWeaponBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -149,7 +149,7 @@ public class EnergyWeaponBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyWeaponBlueprint> types;
+            public LinkedHashMap<Integer, EnergyWeaponBlueprint> types;
         }
     }
 }

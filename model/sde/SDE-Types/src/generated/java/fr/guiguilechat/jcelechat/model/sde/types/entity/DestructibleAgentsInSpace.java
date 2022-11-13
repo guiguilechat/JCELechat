@@ -338,7 +338,7 @@ public class DestructibleAgentsInSpace
         implements IMetaGroup<DestructibleAgentsInSpace>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DestructibleAgentsInSpace.yaml";
-        private Map<String, DestructibleAgentsInSpace> cache = (null);
+        private Map<Integer, DestructibleAgentsInSpace> cache = (null);
 
         @Override
         public IMetaCategory<? super DestructibleAgentsInSpace> category() {
@@ -356,7 +356,7 @@ public class DestructibleAgentsInSpace
         }
 
         @Override
-        public synchronized Map<String, DestructibleAgentsInSpace> load() {
+        public synchronized Map<Integer, DestructibleAgentsInSpace> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DestructibleAgentsInSpace.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -370,7 +370,7 @@ public class DestructibleAgentsInSpace
         }
 
         private static class Container {
-            public LinkedHashMap<String, DestructibleAgentsInSpace> types;
+            public LinkedHashMap<Integer, DestructibleAgentsInSpace> types;
         }
     }
 }

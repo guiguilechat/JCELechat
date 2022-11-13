@@ -1,5 +1,5 @@
 types:
-  Broadcast Node:
+  2867:
     exporttaxmultiplier: 1200000
     id: 2867
     importtaxmultiplier: 1200000
@@ -10,7 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 100.0
-  Integrity Response Drones:
+  2868:
     exporttaxmultiplier: 1200000
     id: 2868
     importtaxmultiplier: 1200000
@@ -21,7 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 100.0
-  Nano-Factory:
+  2869:
     exporttaxmultiplier: 1200000
     id: 2869
     importtaxmultiplier: 1200000
@@ -32,7 +32,7 @@ types:
     published: true
     radius: 1.0
     volume: 100.0
-  Organic Mortar Applicators:
+  2870:
     exporttaxmultiplier: 1200000
     id: 2870
     importtaxmultiplier: 1200000
@@ -43,7 +43,7 @@ types:
     published: true
     radius: 1.0
     volume: 100.0
-  Recursive Computing Module:
+  2871:
     exporttaxmultiplier: 1200000
     id: 2871
     importtaxmultiplier: 1200000
@@ -54,7 +54,7 @@ types:
     published: true
     radius: 1.0
     volume: 100.0
-  Self-Harmonizing Power Core:
+  2872:
     exporttaxmultiplier: 1200000
     id: 2872
     importtaxmultiplier: 1200000
@@ -65,7 +65,7 @@ types:
     published: true
     radius: 1.0
     volume: 100.0
-  Sterile Conduits:
+  2875:
     exporttaxmultiplier: 1200000
     id: 2875
     importtaxmultiplier: 1200000
@@ -76,7 +76,7 @@ types:
     published: true
     radius: 1.0
     volume: 100.0
-  Wetware Mainframe:
+  2876:
     exporttaxmultiplier: 1200000
     id: 2876
     importtaxmultiplier: 1200000

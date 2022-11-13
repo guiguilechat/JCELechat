@@ -1,5 +1,5 @@
 types:
-  Survey Probe Launcher I Blueprint:
+  33271:
     id: 33271
     industryblueprintrank: 9.0
     marketGroup: 1716
@@ -11,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Survey Probe Launcher II Blueprint:
+  33273:
     id: 33273
     industryblueprintrank: 23.399999618530273
     name: Survey Probe Launcher II Blueprint

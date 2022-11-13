@@ -1,5 +1,233 @@
 types:
-  Blood Apostle:
+  11905:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.30000001192092896
+    armorhp: 4250.0
+    armorkineticdamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 235.0
+    damagemultiplier: 6.25
+    disallowassistance: 1
+    emdamage: 16.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 350.0
+    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 15600
+    entityattackdelaymin: 3900
+    entityattackrange: 42000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 28000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.10499999672174454
+    entityequipmentmax: 6
+    entityequipmentmin: 4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 14000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 500000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7699999809265137
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.1599999964237213
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 460
+    hp: 3975.0
+    id: 11905
+    mass: 2.05E7
+    maxattacktargets: 1
+    maxlockedtargets: 1
+    maxrange: 12500.0
+    maxvelocity: 1120.0
+    name: Blood Archon
+    optimalsigradius: 400
+    packagedVolume: 1100000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 21.0
+    scanresolution: 110.0
+    shieldcapacity: 3500.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.30000001192092896
+    shieldkineticdamageresonance: 0.4000000059604645
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 340.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.029999999329447746
+    volume: 1100000.0
+  11906:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5899999737739563
+    armorexplosivedamageresonance: 0.28999999165534973
+    armorhp: 4800.0
+    armorkineticdamageresonance: 0.38999998569488525
+    armorthermaldamageresonance: 0.49000000953674316
+    armoruniformity: 0.75
+    capacitorcapacity: 3100.0
+    capacity: 235.0
+    damagemultiplier: 8.0
+    disallowassistance: 1
+    emdamage: 16.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 390.0
+    entityarmorrepairdelaychancelarge: 0.6600000262260437
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 15300
+    entityattackdelaymin: 3825
+    entityattackrange: 95000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 57000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.10999999940395355
+    entityequipmentmax: 6
+    entityequipmentmin: 4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 38000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 650000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7799999713897705
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.17000000178813934
+    falloff: 12000.0
+    gfxboosterid: 397
+    gfxturretid: 461
+    hp: 4250.0
+    id: 11906
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxlockedtargets: 1
+    maxrange: 35000.0
+    maxvelocity: 1120.0
+    name: Blood Prophet
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 22.0
+    scanresolution: 110.0
+    shieldcapacity: 3975.0
+    shieldemdamageresonance: 0.5899999737739563
+    shieldexplosivedamageresonance: 0.28999999165534973
+    shieldkineticdamageresonance: 0.38999998569488525
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.49000000953674316
+    shielduniformity: 0.75
+    signatureradius: 340.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.017500000074505806
+    volume: 1150000.0
+  11907:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5799999833106995
+    armorexplosivedamageresonance: 0.2800000011920929
+    armorhp: 5500.0
+    armorkineticdamageresonance: 0.3799999952316284
+    armorthermaldamageresonance: 0.47999998927116394
+    armoruniformity: 0.75
+    capacitorcapacity: 3200.0
+    capacity: 235.0
+    damagemultiplier: 7.1875
+    disallowassistance: 1
+    emdamage: 16.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 430.0
+    entityarmorrepairdelaychancelarge: 0.6700000166893005
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 15000
+    entityattackdelaymin: 3750
+    entityattackrange: 42000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 28000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.11500000208616257
+    entityequipmentmax: 7
+    entityequipmentmin: 4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 14000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 800000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7900000214576721
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.18000000715255737
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 460
+    hp: 4750.0
+    id: 11907
+    mass: 2.05E7
+    maxattacktargets: 1
+    maxlockedtargets: 1
+    maxrange: 12500.0
+    maxvelocity: 1120.0
+    name: Blood Oracle
+    optimalsigradius: 400
+    packagedVolume: 1100000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 23.0
+    scanresolution: 110.0
+    shieldcapacity: 4250.0
+    shieldemdamageresonance: 0.5799999833106995
+    shieldexplosivedamageresonance: 0.2800000011920929
+    shieldkineticdamageresonance: 0.3799999952316284
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.47999998927116394
+    shielduniformity: 0.75
+    signatureradius: 340.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.029999999329447746
+    volume: 1100000.0
+  11908:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -75,7 +303,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.017500000074505806
     volume: 1150000.0
-  Blood Archbishop:
+  23265:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -154,159 +382,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.027000000700354576
     volume: 1150000.0
-  Blood Archon:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.30000001192092896
-    armorhp: 4250.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 235.0
-    damagemultiplier: 6.25
-    disallowassistance: 1
-    emdamage: 16.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 350.0
-    entityarmorrepairdelaychancelarge: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 15600
-    entityattackdelaymin: 3900
-    entityattackrange: 42000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 28000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.10499999672174454
-    entityequipmentmax: 6
-    entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 14000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 500000
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.1599999964237213
-    falloff: 6000.0
-    gfxboosterid: 397
-    gfxturretid: 460
-    hp: 3975.0
-    id: 11905
-    mass: 2.05E7
-    maxattacktargets: 1
-    maxlockedtargets: 1
-    maxrange: 12500.0
-    maxvelocity: 1120.0
-    name: Blood Archon
-    optimalsigradius: 400
-    packagedVolume: 1100000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 21.0
-    scanresolution: 110.0
-    shieldcapacity: 3500.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.4000000059604645
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 340.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.029999999329447746
-    volume: 1100000.0
-  Blood Cardinal:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5299999713897705
-    armorexplosivedamageresonance: 0.23000000417232513
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.33000001311302185
-    armorthermaldamageresonance: 0.4300000071525574
-    armoruniformity: 0.75
-    capacitorcapacity: 3700.0
-    capacity: 235.0
-    damagemultiplier: 8.75
-    disallowassistance: 1
-    emdamage: 20.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 630.0
-    entityarmorrepairdelaychancelarge: 0.7200000286102295
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 13500
-    entityattackdelaymin: 3375
-    entityattackrange: 122500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 73500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.14000000059604645
-    entityequipmentmax: 8
-    entityequipmentmin: 5
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 49000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 1550000
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8399999737739563
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.23000000417232513
-    falloff: 20000.0
-    gfxboosterid: 397
-    gfxturretid: 464
-    hp: 5250.0
-    id: 23268
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxlockedtargets: 1
-    maxrange: 44000.0
-    maxvelocity: 1120.0
-    name: Blood Cardinal
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 26.0
-    scanresolution: 100.0
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5299999713897705
-    shieldexplosivedamageresonance: 0.23000000417232513
-    shieldkineticdamageresonance: 0.33000001311302185
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4300000071525574
-    shielduniformity: 0.75
-    signatureradius: 370.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 20.0
-    trackingspeed: 0.013920499943196774
-    volume: 1150000.0
-  Blood Harbinger:
+  23266:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -385,7 +461,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.027000000700354576
     volume: 1150000.0
-  Blood Monsignor:
+  23267:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -464,83 +540,83 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.015312500298023224
     volume: 1150000.0
-  Blood Oracle:
+  23268:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5799999833106995
-    armorexplosivedamageresonance: 0.2800000011920929
-    armorhp: 5500.0
-    armorkineticdamageresonance: 0.3799999952316284
-    armorthermaldamageresonance: 0.47999998927116394
+    armoremdamageresonance: 0.5299999713897705
+    armorexplosivedamageresonance: 0.23000000417232513
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.33000001311302185
+    armorthermaldamageresonance: 0.4300000071525574
     armoruniformity: 0.75
-    capacitorcapacity: 3200.0
+    capacitorcapacity: 3700.0
     capacity: 235.0
-    damagemultiplier: 7.1875
+    damagemultiplier: 8.75
     disallowassistance: 1
-    emdamage: 16.0
+    emdamage: 20.0
     energyneutralizerduration: 30000
-    entityarmorrepairamount: 430.0
-    entityarmorrepairdelaychancelarge: 0.6700000166893005
+    entityarmorrepairamount: 630.0
+    entityarmorrepairdelaychancelarge: 0.7200000286102295
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 15000
-    entityattackdelaymin: 3750
-    entityattackrange: 42000
+    entityattackdelaymax: 13500
+    entityattackdelaymin: 3375
+    entityattackrange: 122500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 28000
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 73500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.11500000208616257
-    entityequipmentmax: 7
-    entityequipmentmin: 4
+    entitydefenderchance: 0.14000000059604645
+    entityequipmentmax: 8
+    entityequipmentmin: 5
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 14000.0
+    entityflyrange: 49000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 800000
+    entitykillbounty: 1550000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7900000214576721
+    entityreactionfactor: 0.8399999737739563
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.18000000715255737
-    falloff: 6000.0
+    entitysecuritystatuskillbonus: 0.23000000417232513
+    falloff: 20000.0
     gfxboosterid: 397
-    gfxturretid: 460
-    hp: 4750.0
-    id: 11907
-    mass: 2.05E7
+    gfxturretid: 464
+    hp: 5250.0
+    id: 23268
+    mass: 1.95E7
     maxattacktargets: 1
     maxlockedtargets: 1
-    maxrange: 12500.0
+    maxrange: 44000.0
     maxvelocity: 1120.0
-    name: Blood Oracle
+    name: Blood Cardinal
     optimalsigradius: 400
-    packagedVolume: 1100000.0
+    packagedVolume: 1150000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanradarstrength: 23.0
-    scanresolution: 110.0
-    shieldcapacity: 4250.0
-    shieldemdamageresonance: 0.5799999833106995
-    shieldexplosivedamageresonance: 0.2800000011920929
-    shieldkineticdamageresonance: 0.3799999952316284
+    scanradarstrength: 26.0
+    scanresolution: 100.0
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5299999713897705
+    shieldexplosivedamageresonance: 0.23000000417232513
+    shieldkineticdamageresonance: 0.33000001311302185
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.47999998927116394
+    shieldthermaldamageresonance: 0.4300000071525574
     shielduniformity: 0.75
-    signatureradius: 340.0
-    speed: 2500.0
+    signatureradius: 370.0
+    speed: 3000.0
     structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.029999999329447746
-    volume: 1100000.0
-  Blood Patriarch:
+    thermaldamage: 20.0
+    trackingspeed: 0.013920499943196774
+    volume: 1150000.0
+  23269:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -616,7 +692,7 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.027000000700354576
     volume: 1150000.0
-  Blood Pope:
+  23270:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -691,80 +767,4 @@ types:
     structureuniformity: 1.0
     thermaldamage: 20.0
     trackingspeed: 0.013920499943196774
-    volume: 1150000.0
-  Blood Prophet:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5899999737739563
-    armorexplosivedamageresonance: 0.28999999165534973
-    armorhp: 4800.0
-    armorkineticdamageresonance: 0.38999998569488525
-    armorthermaldamageresonance: 0.49000000953674316
-    armoruniformity: 0.75
-    capacitorcapacity: 3100.0
-    capacity: 235.0
-    damagemultiplier: 8.0
-    disallowassistance: 1
-    emdamage: 16.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 390.0
-    entityarmorrepairdelaychancelarge: 0.6600000262260437
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 15300
-    entityattackdelaymin: 3825
-    entityattackrange: 95000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 57000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.10999999940395355
-    entityequipmentmax: 6
-    entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 38000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 650000
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7799999713897705
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.17000000178813934
-    falloff: 12000.0
-    gfxboosterid: 397
-    gfxturretid: 461
-    hp: 4250.0
-    id: 11906
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxlockedtargets: 1
-    maxrange: 35000.0
-    maxvelocity: 1120.0
-    name: Blood Prophet
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 22.0
-    scanresolution: 110.0
-    shieldcapacity: 3975.0
-    shieldemdamageresonance: 0.5899999737739563
-    shieldexplosivedamageresonance: 0.28999999165534973
-    shieldkineticdamageresonance: 0.38999998569488525
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.49000000953674316
-    shielduniformity: 0.75
-    signatureradius: 340.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.017500000074505806
     volume: 1150000.0

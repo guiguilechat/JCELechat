@@ -32,7 +32,7 @@ public class AdvancedCondenserPackBlueprint
         implements IMetaGroup<AdvancedCondenserPackBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/AdvancedCondenserPackBlueprint.yaml";
-        private Map<String, AdvancedCondenserPackBlueprint> cache = (null);
+        private Map<Integer, AdvancedCondenserPackBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedCondenserPackBlueprint> category() {
@@ -50,7 +50,7 @@ public class AdvancedCondenserPackBlueprint
         }
 
         @Override
-        public synchronized Map<String, AdvancedCondenserPackBlueprint> load() {
+        public synchronized Map<Integer, AdvancedCondenserPackBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedCondenserPackBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class AdvancedCondenserPackBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedCondenserPackBlueprint> types;
+            public LinkedHashMap<Integer, AdvancedCondenserPackBlueprint> types;
         }
     }
 }

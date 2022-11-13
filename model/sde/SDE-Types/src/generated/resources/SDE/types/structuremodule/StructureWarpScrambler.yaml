@@ -1,5 +1,5 @@
 types:
-  Standup Focused Warp Disruptor I:
+  35949:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -31,7 +31,7 @@ types:
     techlevel: 1
     volume: 4000.0
     warpscramblestrength: 100
-  Standup Focused Warp Disruptor II:
+  47334:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

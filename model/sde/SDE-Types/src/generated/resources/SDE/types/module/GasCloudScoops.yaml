@@ -1,5 +1,29 @@
 types:
-  '''Crop'' Gas Cloud Scoop':
+  25266:
+    capacitorneed: 10.0
+    cpu: 60.0
+    disallowearlydeactivation: 1
+    duration: 30000.0
+    hp: 40.0
+    id: 25266
+    marketGroup: 1037
+    maxrange: 1500.0
+    miningamount: 10
+    miningwastedvolumemultiplier: 1
+    name: Gas Cloud Scoop I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    price: 9272.0
+    published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 1
+    slots: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0
+  25540:
     capacitorneed: 10.0
     cpu: 48.0
     disallowearlydeactivation: 1
@@ -25,7 +49,7 @@ types:
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
-  '''Plow'' Gas Cloud Scoop':
+  25542:
     capacitorneed: 15.0
     cpu: 60.0
     disallowearlydeactivation: 1
@@ -51,31 +75,7 @@ types:
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
-  Gas Cloud Scoop I:
-    capacitorneed: 10.0
-    cpu: 60.0
-    disallowearlydeactivation: 1
-    duration: 30000.0
-    hp: 40.0
-    id: 25266
-    marketGroup: 1037
-    maxrange: 1500.0
-    miningamount: 10
-    miningwastedvolumemultiplier: 1
-    name: Gas Cloud Scoop I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2
-    price: 9272.0
-    published: true
-    radius: 25.0
-    requiredskill1: 25544
-    requiredskill1level: 1
-    slots: 1
-    techlevel: 1
-    typecolorscheme: 11346
-    volume: 5.0
-  Gas Cloud Scoop II:
+  25812:
     capacitorneed: 15.0
     cpu: 70.0
     disallowearlydeactivation: 1
@@ -101,7 +101,7 @@ types:
     techlevel: 2
     typecolorscheme: 11347
     volume: 5.0
-  Syndicate Gas Cloud Scoop:
+  28788:
     capacitorneed: 10.0
     cpu: 26.0
     disallowearlydeactivation: 1

@@ -83,7 +83,7 @@ public class MobileScanInhibitorBlueprint
         implements IMetaGroup<MobileScanInhibitorBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileScanInhibitorBlueprint.yaml";
-        private Map<String, MobileScanInhibitorBlueprint> cache = (null);
+        private Map<Integer, MobileScanInhibitorBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileScanInhibitorBlueprint> category() {
@@ -101,7 +101,7 @@ public class MobileScanInhibitorBlueprint
         }
 
         @Override
-        public synchronized Map<String, MobileScanInhibitorBlueprint> load() {
+        public synchronized Map<Integer, MobileScanInhibitorBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileScanInhibitorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class MobileScanInhibitorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileScanInhibitorBlueprint> types;
+            public LinkedHashMap<Integer, MobileScanInhibitorBlueprint> types;
         }
     }
 }

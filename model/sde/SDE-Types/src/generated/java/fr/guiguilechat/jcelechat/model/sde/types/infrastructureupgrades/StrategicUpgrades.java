@@ -73,7 +73,7 @@ public class StrategicUpgrades
         implements IMetaGroup<StrategicUpgrades>
     {
         public static final String RESOURCE_PATH = "SDE/types/infrastructureupgrades/StrategicUpgrades.yaml";
-        private Map<String, StrategicUpgrades> cache = (null);
+        private Map<Integer, StrategicUpgrades> cache = (null);
 
         @Override
         public IMetaCategory<? super StrategicUpgrades> category() {
@@ -91,7 +91,7 @@ public class StrategicUpgrades
         }
 
         @Override
-        public synchronized Map<String, StrategicUpgrades> load() {
+        public synchronized Map<Integer, StrategicUpgrades> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StrategicUpgrades.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -105,7 +105,7 @@ public class StrategicUpgrades
         }
 
         private static class Container {
-            public LinkedHashMap<String, StrategicUpgrades> types;
+            public LinkedHashMap<Integer, StrategicUpgrades> types;
         }
     }
 }

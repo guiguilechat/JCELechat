@@ -1,5 +1,5 @@
 types:
-  Intact Armor Nanobot:
+  30614:
     id: 30614
     industryblueprintrank: 2.0
     marketGroup: 1909
@@ -9,7 +9,7 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
-  Malfunctioning Armor Nanobot:
+  30615:
     id: 30615
     industryblueprintrank: 2.0
     marketGroup: 1909
@@ -19,7 +19,7 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
-  Wrecked Armor Nanobot:
+  30618:
     id: 30618
     industryblueprintrank: 2.0
     marketGroup: 1909

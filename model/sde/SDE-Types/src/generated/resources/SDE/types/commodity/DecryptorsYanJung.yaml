@@ -1,5 +1,5 @@
 types:
-  Yan Jung Info Matrix:
+  23168:
     id: 23168
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 0.800000011920929
@@ -13,35 +13,21 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Yan Jung Semiotic Theory:
-    id: 23171
+  23169:
+    id: 23169
     inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.5
-    inventionpropabilitymultiplier: 5.0
-    inventiontemodifier: 0.4000000059604645
+    inventionmemodifier: 1.100000023841858
+    inventionpropabilitymultiplier: 2.5
+    inventiontemodifier: 0.8999999761581421
     marketGroup: 1904
     mass: 1.0
-    name: Yan Jung Semiotic Theory
+    name: Yan Jung Vellum Etch
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     volume: 1.0
-  Yan Jung Singularity Fact Sheet:
-    id: 23172
-    inventionmaxrunmodifier: 4.0
-    inventionmemodifier: 1.7999999523162842
-    inventionpropabilitymultiplier: 1.5
-    inventiontemodifier: 2.0
-    marketGroup: 1904
-    mass: 1.0
-    name: Yan Jung Singularity Fact Sheet
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Yan Jung Trigonometric Laws:
+  23170:
     id: 23170
     inventionmaxrunmodifier: 3.0
     inventionmemodifier: 1.2000000476837158
@@ -55,15 +41,29 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Yan Jung Vellum Etch:
-    id: 23169
+  23171:
+    id: 23171
     inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 1.100000023841858
-    inventionpropabilitymultiplier: 2.5
-    inventiontemodifier: 0.8999999761581421
+    inventionmemodifier: 0.5
+    inventionpropabilitymultiplier: 5.0
+    inventiontemodifier: 0.4000000059604645
     marketGroup: 1904
     mass: 1.0
-    name: Yan Jung Vellum Etch
+    name: Yan Jung Semiotic Theory
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  23172:
+    id: 23172
+    inventionmaxrunmodifier: 4.0
+    inventionmemodifier: 1.7999999523162842
+    inventionpropabilitymultiplier: 1.5
+    inventiontemodifier: 2.0
+    marketGroup: 1904
+    mass: 1.0
+    name: Yan Jung Singularity Fact Sheet
     packagedVolume: 1.0
     portionSize: 1
     published: true

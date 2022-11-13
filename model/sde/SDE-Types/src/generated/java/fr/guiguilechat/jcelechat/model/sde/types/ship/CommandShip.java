@@ -266,8 +266,8 @@ public class CommandShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusabc2;
+    @DefaultRealValue(0.0)
+    public double shipbonusabc2;
     /**
      * 
      */
@@ -467,7 +467,7 @@ public class CommandShip
         implements IMetaGroup<CommandShip>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/CommandShip.yaml";
-        private Map<String, CommandShip> cache = (null);
+        private Map<Integer, CommandShip> cache = (null);
 
         @Override
         public IMetaCategory<? super CommandShip> category() {
@@ -485,7 +485,7 @@ public class CommandShip
         }
 
         @Override
-        public synchronized Map<String, CommandShip> load() {
+        public synchronized Map<Integer, CommandShip> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CommandShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -499,7 +499,7 @@ public class CommandShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandShip> types;
+            public LinkedHashMap<Integer, CommandShip> types;
         }
     }
 }

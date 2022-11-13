@@ -1,5 +1,5 @@
 types:
-  Amarr Phenomena Generator:
+  43658:
     buffduration: 300000
     canfitshiptype1: 11567
     canfitshiptype2: 42241
@@ -37,7 +37,7 @@ types:
     warfarebuff3value: 15.0
     warfarebuff4id: 51
     warfarebuff4value: -10.0
-  Caldari Phenomena Generator:
+  43660:
     buffduration: 300000
     canfitshiptype1: 3764
     canfitshiptype2: 45649
@@ -75,7 +75,7 @@ types:
     warfarebuff3value: 15.0
     warfarebuff4id: 53
     warfarebuff4value: -10.0
-  Gallente Phenomena Generator:
+  43662:
     buffduration: 300000
     canfitshiptype1: 671
     canfitshiptype2: 42126
@@ -114,7 +114,7 @@ types:
     warfarebuff3value: 15.0
     warfarebuff4id: 52
     warfarebuff4value: -10.0
-  Minmatar Phenomena Generator:
+  43664:
     buffduration: 300000
     canfitshiptype1: 23773
     canfitshiptype2: 42126

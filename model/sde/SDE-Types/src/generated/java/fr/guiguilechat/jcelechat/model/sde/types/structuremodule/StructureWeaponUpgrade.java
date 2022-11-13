@@ -254,7 +254,7 @@ public class StructureWeaponUpgrade
         implements IMetaGroup<StructureWeaponUpgrade>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureWeaponUpgrade.yaml";
-        private Map<String, StructureWeaponUpgrade> cache = (null);
+        private Map<Integer, StructureWeaponUpgrade> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureWeaponUpgrade> category() {
@@ -272,7 +272,7 @@ public class StructureWeaponUpgrade
         }
 
         @Override
-        public synchronized Map<String, StructureWeaponUpgrade> load() {
+        public synchronized Map<Integer, StructureWeaponUpgrade> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureWeaponUpgrade.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -286,7 +286,7 @@ public class StructureWeaponUpgrade
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureWeaponUpgrade> types;
+            public LinkedHashMap<Integer, StructureWeaponUpgrade> types;
         }
     }
 }

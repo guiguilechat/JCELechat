@@ -1,5 +1,5 @@
 types:
-  Caldari Navy Scourge Auto-Targeting Cruise Missile I:
+  1826:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -9,15 +9,14 @@ types:
     detonationrange: 35
     explosiondelay: 14000
     hp: 70.0
-    id: 27465
-    kineticdamage: 323.0
+    id: 1826
+    kineticdamage: 281.0
     launchergroup: 506
-    marketGroup: 1192
+    marketGroup: 914
     mass: 1250.0
     maxfoftargetrange: 200000
     maxvelocity: 4700.0
-    metagroupid: 4
-    name: Caldari Navy Scourge Auto-Targeting Cruise Missile I
+    name: Scourge Auto-Targeting Cruise Missile I
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 12500.0
@@ -32,7 +31,71 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.05000000074505806
-  Federation Navy Inferno Auto-Targeting Cruise Missile I:
+  1828:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    emdamage: 281.0
+    explosiondelay: 14000
+    hp: 70.0
+    id: 1828
+    launchergroup: 506
+    marketGroup: 914
+    mass: 1250.0
+    maxfoftargetrange: 200000
+    maxvelocity: 4700.0
+    name: Mjolnir Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 15000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3326
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.05000000074505806
+  1830:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    explosiondelay: 14000
+    explosivedamage: 281.0
+    hp: 70.0
+    id: 1830
+    launchergroup: 506
+    marketGroup: 914
+    mass: 1250.0
+    maxfoftargetrange: 200000
+    maxvelocity: 4700.0
+    name: Nova Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 7500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3326
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.05000000074505806
+  1832:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -42,14 +105,13 @@ types:
     detonationrange: 35
     explosiondelay: 14000
     hp: 70.0
-    id: 27471
+    id: 1832
     launchergroup: 506
-    marketGroup: 1192
+    marketGroup: 914
     mass: 1250.0
     maxfoftargetrange: 200000
     maxvelocity: 4700.0
-    metagroupid: 4
-    name: Federation Navy Inferno Auto-Targeting Cruise Missile I
+    name: Inferno Auto-Targeting Cruise Missile I
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 40000.0
@@ -63,9 +125,9 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 323.0
+    thermaldamage: 281.0
     volume: 0.05000000074505806
-  Imperial Navy Mjolnir Auto-Targeting Cruise Missile I:
+  27459:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -98,7 +160,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.05000000074505806
-  Inferno Auto-Targeting Cruise Missile I:
+  27465:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -108,13 +170,47 @@ types:
     detonationrange: 35
     explosiondelay: 14000
     hp: 70.0
-    id: 1832
+    id: 27465
+    kineticdamage: 323.0
     launchergroup: 506
-    marketGroup: 914
+    marketGroup: 1192
     mass: 1250.0
     maxfoftargetrange: 200000
     maxvelocity: 4700.0
-    name: Inferno Auto-Targeting Cruise Missile I
+    metagroupid: 4
+    name: Caldari Navy Scourge Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 12500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3326
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.05000000074505806
+  27471:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    explosiondelay: 14000
+    hp: 70.0
+    id: 27471
+    launchergroup: 506
+    marketGroup: 1192
+    mass: 1250.0
+    maxfoftargetrange: 200000
+    maxvelocity: 4700.0
+    metagroupid: 4
+    name: Federation Navy Inferno Auto-Targeting Cruise Missile I
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 40000.0
@@ -128,73 +224,9 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 281.0
+    thermaldamage: 323.0
     volume: 0.05000000074505806
-  Mjolnir Auto-Targeting Cruise Missile I:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    emdamage: 281.0
-    explosiondelay: 14000
-    hp: 70.0
-    id: 1828
-    launchergroup: 506
-    marketGroup: 914
-    mass: 1250.0
-    maxfoftargetrange: 200000
-    maxvelocity: 4700.0
-    name: Mjolnir Auto-Targeting Cruise Missile I
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 15000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3322
-    requiredskill1level: 1
-    requiredskill2: 3326
-    requiredskill2level: 1
-    requiredskill3: 3319
-    requiredskill3level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.05000000074505806
-  Nova Auto-Targeting Cruise Missile I:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    explosiondelay: 14000
-    explosivedamage: 281.0
-    hp: 70.0
-    id: 1830
-    launchergroup: 506
-    marketGroup: 914
-    mass: 1250.0
-    maxfoftargetrange: 200000
-    maxvelocity: 4700.0
-    name: Nova Auto-Targeting Cruise Missile I
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 7500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3322
-    requiredskill1level: 1
-    requiredskill2: 3326
-    requiredskill2level: 1
-    requiredskill3: 3319
-    requiredskill3level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.05000000074505806
-  Republic Fleet Nova Auto-Targeting Cruise Missile I:
+  27477:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -216,38 +248,6 @@ types:
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 7500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3322
-    requiredskill1level: 1
-    requiredskill2: 3326
-    requiredskill2level: 1
-    requiredskill3: 3319
-    requiredskill3level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.05000000074505806
-  Scourge Auto-Targeting Cruise Missile I:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    explosiondelay: 14000
-    hp: 70.0
-    id: 1826
-    kineticdamage: 281.0
-    launchergroup: 506
-    marketGroup: 914
-    mass: 1250.0
-    maxfoftargetrange: 200000
-    maxvelocity: 4700.0
-    name: Scourge Auto-Targeting Cruise Missile I
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 12500.0
     published: true
     radius: 300.0
     requiredskill1: 3322

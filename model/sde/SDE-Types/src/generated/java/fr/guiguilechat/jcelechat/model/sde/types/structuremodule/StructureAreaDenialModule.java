@@ -450,7 +450,7 @@ public class StructureAreaDenialModule
         implements IMetaGroup<StructureAreaDenialModule>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureAreaDenialModule.yaml";
-        private Map<String, StructureAreaDenialModule> cache = (null);
+        private Map<Integer, StructureAreaDenialModule> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureAreaDenialModule> category() {
@@ -468,7 +468,7 @@ public class StructureAreaDenialModule
         }
 
         @Override
-        public synchronized Map<String, StructureAreaDenialModule> load() {
+        public synchronized Map<Integer, StructureAreaDenialModule> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureAreaDenialModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -482,7 +482,7 @@ public class StructureAreaDenialModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureAreaDenialModule> types;
+            public LinkedHashMap<Integer, StructureAreaDenialModule> types;
         }
     }
 }

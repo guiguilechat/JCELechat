@@ -340,7 +340,7 @@ public class AdvancedBeamLaserCrystal
         implements IMetaGroup<AdvancedBeamLaserCrystal>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedBeamLaserCrystal.yaml";
-        private Map<String, AdvancedBeamLaserCrystal> cache = (null);
+        private Map<Integer, AdvancedBeamLaserCrystal> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedBeamLaserCrystal> category() {
@@ -358,7 +358,7 @@ public class AdvancedBeamLaserCrystal
         }
 
         @Override
-        public synchronized Map<String, AdvancedBeamLaserCrystal> load() {
+        public synchronized Map<Integer, AdvancedBeamLaserCrystal> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedBeamLaserCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -372,7 +372,7 @@ public class AdvancedBeamLaserCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedBeamLaserCrystal> types;
+            public LinkedHashMap<Integer, AdvancedBeamLaserCrystal> types;
         }
     }
 }

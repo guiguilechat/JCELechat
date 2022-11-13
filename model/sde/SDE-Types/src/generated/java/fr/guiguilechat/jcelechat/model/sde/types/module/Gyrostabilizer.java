@@ -145,7 +145,7 @@ public class Gyrostabilizer
         implements IMetaGroup<Gyrostabilizer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/Gyrostabilizer.yaml";
-        private Map<String, Gyrostabilizer> cache = (null);
+        private Map<Integer, Gyrostabilizer> cache = (null);
 
         @Override
         public IMetaCategory<? super Gyrostabilizer> category() {
@@ -163,7 +163,7 @@ public class Gyrostabilizer
         }
 
         @Override
-        public synchronized Map<String, Gyrostabilizer> load() {
+        public synchronized Map<Integer, Gyrostabilizer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Gyrostabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class Gyrostabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, Gyrostabilizer> types;
+            public LinkedHashMap<Integer, Gyrostabilizer> types;
         }
     }
 }

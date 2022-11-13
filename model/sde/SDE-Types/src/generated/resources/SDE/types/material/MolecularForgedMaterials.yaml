@@ -1,68 +1,5 @@
 types:
-  Axosomatic Neurolink Enhancer:
-    id: 57460
-    marketGroup: 2767
-    name: Axosomatic Neurolink Enhancer
-    packagedVolume: 4.0
-    portionSize: 1
-    price: 250000.0
-    published: true
-    volume: 4.0
-  Cogni-Emotive Neurolink Enhancer:
-    id: 57461
-    marketGroup: 2767
-    name: Cogni-Emotive Neurolink Enhancer
-    packagedVolume: 4.0
-    portionSize: 1
-    price: 250000.0
-    published: true
-    volume: 4.0
-  Goal-Orienting Neurolink Stabilizer:
-    id: 57469
-    marketGroup: 2767
-    name: Goal-Orienting Neurolink Stabilizer
-    packagedVolume: 10.0
-    portionSize: 1
-    price: 1000000.0
-    published: true
-    volume: 10.0
-  Hypnagogic Neurolink Enhancer:
-    id: 57459
-    marketGroup: 2767
-    name: Hypnagogic Neurolink Enhancer
-    packagedVolume: 4.0
-    portionSize: 1
-    price: 250000.0
-    published: true
-    volume: 4.0
-  Isotropic Neofullerene Alpha-3:
-    id: 57463
-    marketGroup: 2767
-    name: Isotropic Neofullerene Alpha-3
-    packagedVolume: 8.0
-    portionSize: 1
-    price: 1000000.0
-    published: true
-    volume: 8.0
-  Isotropic Neofullerene Beta-6:
-    id: 57464
-    marketGroup: 2767
-    name: Isotropic Neofullerene Beta-6
-    packagedVolume: 8.0
-    portionSize: 1
-    price: 1000000.0
-    published: true
-    volume: 8.0
-  Isotropic Neofullerene Gamma-9:
-    id: 57465
-    marketGroup: 2767
-    name: Isotropic Neofullerene Gamma-9
-    packagedVolume: 8.0
-    portionSize: 1
-    price: 1000000.0
-    published: true
-    volume: 8.0
-  Meta-Operant Neurolink Enhancer:
+  57458:
     id: 57458
     marketGroup: 2767
     name: Meta-Operant Neurolink Enhancer
@@ -71,16 +8,34 @@ types:
     price: 4000000.0
     published: true
     volume: 16.0
-  Reaction-Orienting Neurolink Stabilizer:
-    id: 57467
+  57459:
+    id: 57459
     marketGroup: 2767
-    name: Reaction-Orienting Neurolink Stabilizer
-    packagedVolume: 10.0
+    name: Hypnagogic Neurolink Enhancer
+    packagedVolume: 4.0
     portionSize: 1
-    price: 1000000.0
+    price: 250000.0
     published: true
-    volume: 10.0
-  Sense-Heuristic Neurolink Enhancer:
+    volume: 4.0
+  57460:
+    id: 57460
+    marketGroup: 2767
+    name: Axosomatic Neurolink Enhancer
+    packagedVolume: 4.0
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 4.0
+  57461:
+    id: 57461
+    marketGroup: 2767
+    name: Cogni-Emotive Neurolink Enhancer
+    packagedVolume: 4.0
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 4.0
+  57462:
     id: 57462
     marketGroup: 2767
     name: Sense-Heuristic Neurolink Enhancer
@@ -89,7 +44,52 @@ types:
     price: 250000.0
     published: true
     volume: 4.0
-  Stress-Responding Neurolink Stabilizer:
+  57463:
+    id: 57463
+    marketGroup: 2767
+    name: Isotropic Neofullerene Alpha-3
+    packagedVolume: 8.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 8.0
+  57464:
+    id: 57464
+    marketGroup: 2767
+    name: Isotropic Neofullerene Beta-6
+    packagedVolume: 8.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 8.0
+  57465:
+    id: 57465
+    marketGroup: 2767
+    name: Isotropic Neofullerene Gamma-9
+    packagedVolume: 8.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 8.0
+  57466:
+    id: 57466
+    marketGroup: 2767
+    name: Ultradian-Cycling Neurolink Stabilizer
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 10.0
+  57467:
+    id: 57467
+    marketGroup: 2767
+    name: Reaction-Orienting Neurolink Stabilizer
+    packagedVolume: 10.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 10.0
+  57468:
     id: 57468
     marketGroup: 2767
     name: Stress-Responding Neurolink Stabilizer
@@ -98,10 +98,10 @@ types:
     price: 1000000.0
     published: true
     volume: 10.0
-  Ultradian-Cycling Neurolink Stabilizer:
-    id: 57466
+  57469:
+    id: 57469
     marketGroup: 2767
-    name: Ultradian-Cycling Neurolink Stabilizer
+    name: Goal-Orienting Neurolink Stabilizer
     packagedVolume: 10.0
     portionSize: 1
     price: 1000000.0

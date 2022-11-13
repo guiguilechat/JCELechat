@@ -32,7 +32,7 @@ public class Biohazard
         implements IMetaGroup<Biohazard>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Biohazard.yaml";
-        private Map<String, Biohazard> cache = (null);
+        private Map<Integer, Biohazard> cache = (null);
 
         @Override
         public IMetaCategory<? super Biohazard> category() {
@@ -50,7 +50,7 @@ public class Biohazard
         }
 
         @Override
-        public synchronized Map<String, Biohazard> load() {
+        public synchronized Map<Integer, Biohazard> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Biohazard.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Biohazard
         }
 
         private static class Container {
-            public LinkedHashMap<String, Biohazard> types;
+            public LinkedHashMap<Integer, Biohazard> types;
         }
     }
 }

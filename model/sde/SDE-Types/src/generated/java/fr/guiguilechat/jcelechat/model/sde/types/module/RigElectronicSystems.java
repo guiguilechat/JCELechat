@@ -245,7 +245,7 @@ public class RigElectronicSystems
         implements IMetaGroup<RigElectronicSystems>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigElectronicSystems.yaml";
-        private Map<String, RigElectronicSystems> cache = (null);
+        private Map<Integer, RigElectronicSystems> cache = (null);
 
         @Override
         public IMetaCategory<? super RigElectronicSystems> category() {
@@ -263,7 +263,7 @@ public class RigElectronicSystems
         }
 
         @Override
-        public synchronized Map<String, RigElectronicSystems> load() {
+        public synchronized Map<Integer, RigElectronicSystems> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigElectronicSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -277,7 +277,7 @@ public class RigElectronicSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigElectronicSystems> types;
+            public LinkedHashMap<Integer, RigElectronicSystems> types;
         }
     }
 }

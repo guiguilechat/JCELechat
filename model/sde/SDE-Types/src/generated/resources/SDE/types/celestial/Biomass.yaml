@@ -1,20 +1,20 @@
 types:
-  Corpse Female:
+  25:
     hp: 10.0
-    id: 29148
+    id: 25
     mass: 80.0
-    name: Corpse Female
+    name: Corpse Male
     packagedVolume: 2.0
     portionSize: 1
     published: true
     radius: 1.0
     signatureradius: 50.0
     volume: 2.0
-  Corpse Male:
+  29148:
     hp: 10.0
-    id: 25
+    id: 29148
     mass: 80.0
-    name: Corpse Male
+    name: Corpse Female
     packagedVolume: 2.0
     portionSize: 1
     published: true

@@ -1,26 +1,26 @@
 types:
-  Certificate:
-    id: 29530
-    name: Certificate
+  2733:
+    id: 2733
+    name: Schematic
     portionSize: 1
     published: false
-  Medal:
-    id: 29496
-    name: Medal
-    portionSize: 1
-    published: false
-  Rank:
+  29495:
     id: 29495
     name: Rank
     portionSize: 1
     published: false
-  Ribbon:
+  29496:
+    id: 29496
+    name: Medal
+    portionSize: 1
+    published: false
+  29497:
     id: 29497
     name: Ribbon
     portionSize: 1
     published: false
-  Schematic:
-    id: 2733
-    name: Schematic
+  29530:
+    id: 29530
+    name: Certificate
     portionSize: 1
     published: false

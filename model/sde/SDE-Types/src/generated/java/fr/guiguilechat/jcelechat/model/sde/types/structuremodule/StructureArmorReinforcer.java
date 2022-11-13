@@ -158,7 +158,7 @@ public class StructureArmorReinforcer
         implements IMetaGroup<StructureArmorReinforcer>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureArmorReinforcer.yaml";
-        private Map<String, StructureArmorReinforcer> cache = (null);
+        private Map<Integer, StructureArmorReinforcer> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureArmorReinforcer> category() {
@@ -176,7 +176,7 @@ public class StructureArmorReinforcer
         }
 
         @Override
-        public synchronized Map<String, StructureArmorReinforcer> load() {
+        public synchronized Map<Integer, StructureArmorReinforcer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureArmorReinforcer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -190,7 +190,7 @@ public class StructureArmorReinforcer
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureArmorReinforcer> types;
+            public LinkedHashMap<Integer, StructureArmorReinforcer> types;
         }
     }
 }

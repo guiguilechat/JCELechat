@@ -101,7 +101,7 @@ public class Omber
         implements IMetaGroup<Omber>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Omber.yaml";
-        private Map<String, Omber> cache = (null);
+        private Map<Integer, Omber> cache = (null);
 
         @Override
         public IMetaCategory<? super Omber> category() {
@@ -119,7 +119,7 @@ public class Omber
         }
 
         @Override
-        public synchronized Map<String, Omber> load() {
+        public synchronized Map<Integer, Omber> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Omber.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class Omber
         }
 
         private static class Container {
-            public LinkedHashMap<String, Omber> types;
+            public LinkedHashMap<Integer, Omber> types;
         }
     }
 }

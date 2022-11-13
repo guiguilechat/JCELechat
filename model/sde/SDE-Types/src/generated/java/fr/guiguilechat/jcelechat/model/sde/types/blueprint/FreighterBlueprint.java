@@ -97,7 +97,7 @@ public class FreighterBlueprint
         implements IMetaGroup<FreighterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/FreighterBlueprint.yaml";
-        private Map<String, FreighterBlueprint> cache = (null);
+        private Map<Integer, FreighterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super FreighterBlueprint> category() {
@@ -115,7 +115,7 @@ public class FreighterBlueprint
         }
 
         @Override
-        public synchronized Map<String, FreighterBlueprint> load() {
+        public synchronized Map<Integer, FreighterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FreighterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class FreighterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, FreighterBlueprint> types;
+            public LinkedHashMap<Integer, FreighterBlueprint> types;
         }
     }
 }

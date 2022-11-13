@@ -1,39 +1,5 @@
 types:
-  Burst Projector Operation:
-    cannotbetrainedontrial: 1
-    id: 27911
-    marketGroup: 367
-    name: Burst Projector Operation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E7
-    primaryattribute: 165
-    projecmdurationbonus: -5
-    published: true
-    radius: 1.0
-    requiredskill1: 3427
-    requiredskill1level: 5
-    secondaryattribute: 166
-    skilltimeconstant: 8.0
-    volume: 0.009999999776482582
-  Cloaking:
-    cannotbetrainedontrial: 1
-    cloakingtargetingdelaybonus: -10
-    id: 11579
-    marketGroup: 367
-    name: Cloaking
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 6.0
-    volume: 0.009999999776482582
-  Electronic Warfare:
+  3427:
     cannotbetrainedontrial: 1
     capneedbonus: -5
     id: 3427
@@ -50,45 +16,41 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Frequency Modulation:
+  3433:
     cannotbetrainedontrial: 1
-    falloffbonus: 10.0
-    id: 19760
+    capneedbonus: -5
+    id: 3433
     marketGroup: 367
-    name: Frequency Modulation
+    name: Sensor Linking
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
+    price: 125000.0
     primaryattribute: 165
     published: true
     radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 3
-    requiredskill2: 3427
-    requiredskill2level: 2
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Long Distance Jamming:
+  3434:
     cannotbetrainedontrial: 1
-    id: 19759
+    capneedbonus: -5
+    id: 3434
     marketGroup: 367
-    name: Long Distance Jamming
+    name: Weapon Disruption
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
+    price: 100000.0
     primaryattribute: 165
     published: true
     radius: 1.0
-    rangeskillbonus: 10
     requiredskill1: 3426
-    requiredskill1level: 4
-    requiredskill2: 3427
-    requiredskill2level: 3
+    requiredskill1level: 3
     secondaryattribute: 166
-    skilltimeconstant: 4.0
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Propulsion Jamming:
+  3435:
     cannotbetrainedontrial: 1
     capneedbonus: -5
     id: 3435
@@ -107,24 +69,79 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Sensor Linking:
+  4411:
     cannotbetrainedontrial: 1
-    capneedbonus: -5
-    id: 3433
+    durationbonus: 5
+    id: 4411
     marketGroup: 367
-    name: Sensor Linking
+    name: Signature Masking
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
+    price: 600000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  11579:
+    cannotbetrainedontrial: 1
+    cloakingtargetingdelaybonus: -10
+    id: 11579
+    marketGroup: 367
+    name: Cloaking
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 6.0
+    volume: 0.009999999776482582
+  19759:
+    cannotbetrainedontrial: 1
+    id: 19759
+    marketGroup: 367
+    name: Long Distance Jamming
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    rangeskillbonus: 10
+    requiredskill1: 3426
+    requiredskill1level: 4
+    requiredskill2: 3427
+    requiredskill2level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
+  19760:
+    cannotbetrainedontrial: 1
+    falloffbonus: 10.0
+    id: 19760
+    marketGroup: 367
+    name: Frequency Modulation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 200000.0
     primaryattribute: 165
     published: true
     radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 3
+    requiredskill2: 3427
+    requiredskill2level: 2
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Signal Dispersion:
+  19761:
     cannotbetrainedontrial: 1
     id: 19761
     marketGroup: 367
@@ -143,7 +160,7 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
-  Signal Suppression:
+  19766:
     cannotbetrainedontrial: 1
     id: 19766
     marketGroup: 367
@@ -162,77 +179,7 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
-  Signature Focusing:
-    cannotbetrainedontrial: 1
-    id: 19922
-    marketGroup: 367
-    name: Signature Focusing
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 600000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 4
-    requiredskill2: 19921
-    requiredskill2level: 4
-    scanskilltargetpaintstrengthbonus: 5
-    secondaryattribute: 166
-    skilltimeconstant: 5.0
-    volume: 0.009999999776482582
-  Signature Masking:
-    cannotbetrainedontrial: 1
-    durationbonus: 5
-    id: 4411
-    marketGroup: 367
-    name: Signature Masking
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 600000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 5.0
-    volume: 0.009999999776482582
-  Tactical Logistics Reconfiguration:
-    cannotbetrainedontrial: 1
-    consumptionquantitybonus: 25
-    id: 27906
-    marketGroup: 367
-    name: Tactical Logistics Reconfiguration
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.5E7
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 12096
-    requiredskill1level: 5
-    secondaryattribute: 166
-    skilltimeconstant: 8.0
-    volume: 0.009999999776482582
-  Target Painting:
-    cannotbetrainedontrial: 1
-    capneedbonus: -5
-    id: 19921
-    marketGroup: 367
-    name: Target Painting
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 100000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 3
-    secondaryattribute: 166
-    skilltimeconstant: 3.0
-    volume: 0.009999999776482582
-  Weapon Destabilization:
+  19767:
     cannotbetrainedontrial: 1
     id: 19767
     marketGroup: 367
@@ -251,12 +198,12 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
-  Weapon Disruption:
+  19921:
     cannotbetrainedontrial: 1
     capneedbonus: -5
-    id: 3434
+    id: 19921
     marketGroup: 367
-    name: Weapon Disruption
+    name: Target Painting
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
@@ -267,4 +214,57 @@ types:
     requiredskill1level: 3
     secondaryattribute: 166
     skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  19922:
+    cannotbetrainedontrial: 1
+    id: 19922
+    marketGroup: 367
+    name: Signature Focusing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    requiredskill2: 19921
+    requiredskill2level: 4
+    scanskilltargetpaintstrengthbonus: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  27906:
+    cannotbetrainedontrial: 1
+    consumptionquantitybonus: 25
+    id: 27906
+    marketGroup: 367
+    name: Tactical Logistics Reconfiguration
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E7
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 12096
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 8.0
+    volume: 0.009999999776482582
+  27911:
+    cannotbetrainedontrial: 1
+    id: 27911
+    marketGroup: 367
+    name: Burst Projector Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E7
+    primaryattribute: 165
+    projecmdurationbonus: -5
+    published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582

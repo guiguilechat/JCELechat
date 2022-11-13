@@ -1,5 +1,5 @@
 types:
-  Cryptic Data Interface:
+  25553:
     decryptorid: 729
     hp: 100.0
     id: 25553
@@ -11,103 +11,7 @@ types:
     requiredskill1: 21791
     requiredskill1level: 1
     volume: 1.0
-  Cryptic Ship Data Interface:
-    decryptorid: 729
-    hp: 100.0
-    id: 25857
-    name: Cryptic Ship Data Interface
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 21791
-    requiredskill1level: 1
-    volume: 1.0
-  Cryptic Tuner Data Interface:
-    decryptorid: 729
-    hp: 100.0
-    id: 26597
-    name: Cryptic Tuner Data Interface
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 21791
-    requiredskill1level: 1
-    volume: 1.0
-  Esoteric Data Interface:
-    decryptorid: 731
-    hp: 100.0
-    id: 25555
-    name: Esoteric Data Interface
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 21790
-    requiredskill1level: 1
-    volume: 1.0
-  Esoteric Ship Data Interface:
-    decryptorid: 731
-    hp: 100.0
-    id: 25853
-    name: Esoteric Ship Data Interface
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 21790
-    requiredskill1level: 1
-    volume: 1.0
-  Esoteric Tuner Data Interface:
-    decryptorid: 731
-    hp: 100.0
-    id: 26599
-    name: Esoteric Tuner Data Interface
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 21790
-    requiredskill1level: 1
-    volume: 1.0
-  Incognito Data Interface:
-    decryptorid: 730
-    hp: 100.0
-    id: 25556
-    name: Incognito Data Interface
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 23121
-    requiredskill1level: 1
-    volume: 1.0
-  Incognito Ship Data Interface:
-    decryptorid: 730
-    hp: 100.0
-    id: 25855
-    name: Incognito Ship Data Interface
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 23121
-    requiredskill1level: 1
-    volume: 1.0
-  Incognito Tuner Data Interface:
-    decryptorid: 730
-    hp: 100.0
-    id: 26601
-    name: Incognito Tuner Data Interface
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 23121
-    requiredskill1level: 1
-    volume: 1.0
-  Occult Data Interface:
+  25554:
     decryptorid: 728
     hp: 100.0
     id: 25554
@@ -119,7 +23,31 @@ types:
     requiredskill1: 23087
     requiredskill1level: 1
     volume: 1.0
-  Occult Ship Data Interface:
+  25555:
+    decryptorid: 731
+    hp: 100.0
+    id: 25555
+    name: Esoteric Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 21790
+    requiredskill1level: 1
+    volume: 1.0
+  25556:
+    decryptorid: 730
+    hp: 100.0
+    id: 25556
+    name: Incognito Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23121
+    requiredskill1level: 1
+    volume: 1.0
+  25851:
     decryptorid: 728
     hp: 100.0
     id: 25851
@@ -131,7 +59,79 @@ types:
     requiredskill1: 23087
     requiredskill1level: 1
     volume: 1.0
-  Occult Tuner Data Interface:
+  25853:
+    decryptorid: 731
+    hp: 100.0
+    id: 25853
+    name: Esoteric Ship Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 21790
+    requiredskill1level: 1
+    volume: 1.0
+  25855:
+    decryptorid: 730
+    hp: 100.0
+    id: 25855
+    name: Incognito Ship Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23121
+    requiredskill1level: 1
+    volume: 1.0
+  25857:
+    decryptorid: 729
+    hp: 100.0
+    id: 25857
+    name: Cryptic Ship Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 21791
+    requiredskill1level: 1
+    volume: 1.0
+  26597:
+    decryptorid: 729
+    hp: 100.0
+    id: 26597
+    name: Cryptic Tuner Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 21791
+    requiredskill1level: 1
+    volume: 1.0
+  26599:
+    decryptorid: 731
+    hp: 100.0
+    id: 26599
+    name: Esoteric Tuner Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 21790
+    requiredskill1level: 1
+    volume: 1.0
+  26601:
+    decryptorid: 730
+    hp: 100.0
+    id: 26601
+    name: Incognito Tuner Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 23121
+    requiredskill1level: 1
+    volume: 1.0
+  26603:
     decryptorid: 728
     hp: 100.0
     id: 26603
@@ -143,7 +143,7 @@ types:
     requiredskill1: 23087
     requiredskill1level: 1
     volume: 1.0
-  R.Db.- Hybrid Technology:
+  30386:
     decryptorid: 979
     hp: 100.0
     id: 30386

@@ -1145,7 +1145,7 @@ public class HiddenZenithDrifters
         implements IMetaGroup<HiddenZenithDrifters>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/HiddenZenithDrifters.yaml";
-        private Map<String, HiddenZenithDrifters> cache = (null);
+        private Map<Integer, HiddenZenithDrifters> cache = (null);
 
         @Override
         public IMetaCategory<? super HiddenZenithDrifters> category() {
@@ -1163,7 +1163,7 @@ public class HiddenZenithDrifters
         }
 
         @Override
-        public synchronized Map<String, HiddenZenithDrifters> load() {
+        public synchronized Map<Integer, HiddenZenithDrifters> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HiddenZenithDrifters.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1177,7 +1177,7 @@ public class HiddenZenithDrifters
         }
 
         private static class Container {
-            public LinkedHashMap<String, HiddenZenithDrifters> types;
+            public LinkedHashMap<Integer, HiddenZenithDrifters> types;
         }
     }
 }

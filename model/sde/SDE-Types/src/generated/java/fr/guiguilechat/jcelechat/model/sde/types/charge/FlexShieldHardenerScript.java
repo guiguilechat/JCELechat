@@ -134,7 +134,7 @@ public class FlexShieldHardenerScript
         implements IMetaGroup<FlexShieldHardenerScript>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/FlexShieldHardenerScript.yaml";
-        private Map<String, FlexShieldHardenerScript> cache = (null);
+        private Map<Integer, FlexShieldHardenerScript> cache = (null);
 
         @Override
         public IMetaCategory<? super FlexShieldHardenerScript> category() {
@@ -152,7 +152,7 @@ public class FlexShieldHardenerScript
         }
 
         @Override
-        public synchronized Map<String, FlexShieldHardenerScript> load() {
+        public synchronized Map<Integer, FlexShieldHardenerScript> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FlexShieldHardenerScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -166,7 +166,7 @@ public class FlexShieldHardenerScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, FlexShieldHardenerScript> types;
+            public LinkedHashMap<Integer, FlexShieldHardenerScript> types;
         }
     }
 }

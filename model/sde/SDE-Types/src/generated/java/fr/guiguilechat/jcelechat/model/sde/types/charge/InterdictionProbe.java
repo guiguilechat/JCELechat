@@ -207,7 +207,7 @@ public class InterdictionProbe
         implements IMetaGroup<InterdictionProbe>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/InterdictionProbe.yaml";
-        private Map<String, InterdictionProbe> cache = (null);
+        private Map<Integer, InterdictionProbe> cache = (null);
 
         @Override
         public IMetaCategory<? super InterdictionProbe> category() {
@@ -225,7 +225,7 @@ public class InterdictionProbe
         }
 
         @Override
-        public synchronized Map<String, InterdictionProbe> load() {
+        public synchronized Map<Integer, InterdictionProbe> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InterdictionProbe.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -239,7 +239,7 @@ public class InterdictionProbe
         }
 
         private static class Container {
-            public LinkedHashMap<String, InterdictionProbe> types;
+            public LinkedHashMap<Integer, InterdictionProbe> types;
         }
     }
 }

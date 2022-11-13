@@ -1,5 +1,5 @@
 types:
-  Standup Multirole Missile Launcher I:
+  35922:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -23,7 +23,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Multirole Missile Launcher II:
+  47298:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

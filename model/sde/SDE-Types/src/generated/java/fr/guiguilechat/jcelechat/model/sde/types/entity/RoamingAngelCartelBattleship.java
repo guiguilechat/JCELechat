@@ -1025,7 +1025,7 @@ public class RoamingAngelCartelBattleship
         implements IMetaGroup<RoamingAngelCartelBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/RoamingAngelCartelBattleship.yaml";
-        private Map<String, RoamingAngelCartelBattleship> cache = (null);
+        private Map<Integer, RoamingAngelCartelBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super RoamingAngelCartelBattleship> category() {
@@ -1043,7 +1043,7 @@ public class RoamingAngelCartelBattleship
         }
 
         @Override
-        public synchronized Map<String, RoamingAngelCartelBattleship> load() {
+        public synchronized Map<Integer, RoamingAngelCartelBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RoamingAngelCartelBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1057,7 +1057,7 @@ public class RoamingAngelCartelBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingAngelCartelBattleship> types;
+            public LinkedHashMap<Integer, RoamingAngelCartelBattleship> types;
         }
     }
 }

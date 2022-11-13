@@ -1,85 +1,5 @@
 types:
-  Abyssal Talassonite:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 15.0
-    asteroidradiusunitsize: 1000
-    id: 56625
-    marketGroup: 2540
-    name: Abyssal Talassonite
-    packagedVolume: 16.0
-    portionSize: 100
-    price: 234353.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60381
-    requiredskill1: 3386
-    requiredskill1level: 1
-    volume: 16.0
-  Compressed Abyssal Talassonite:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 15.0
-    asteroidradiusunitsize: 1000
-    id: 62583
-    marketGroup: 2540
-    name: Compressed Abyssal Talassonite
-    packagedVolume: 0.1599999964237213
-    portionSize: 100
-    price: 234353.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60381
-    requiredskill1: 3386
-    requiredskill1level: 1
-    volume: 0.1599999964237213
-  Compressed Hadal Talassonite:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 15.0
-    asteroidradiusunitsize: 1000
-    id: 62584
-    marketGroup: 2540
-    name: Compressed Hadal Talassonite
-    packagedVolume: 0.1599999964237213
-    portionSize: 100
-    price: 234353.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60381
-    requiredskill1: 3386
-    requiredskill1level: 1
-    volume: 0.1599999964237213
-  Compressed Talassonite:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 15.0
-    asteroidradiusunitsize: 1000
-    id: 62582
-    marketGroup: 2540
-    name: Compressed Talassonite
-    packagedVolume: 0.1599999964237213
-    portionSize: 100
-    price: 234353.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60381
-    requiredskill1: 3386
-    requiredskill1level: 1
-    volume: 0.1599999964237213
-  Hadal Talassonite:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 15.0
-    asteroidradiusunitsize: 1000
-    id: 56626
-    marketGroup: 2540
-    name: Hadal Talassonite
-    packagedVolume: 16.0
-    portionSize: 100
-    price: 234353.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60381
-    requiredskill1: 3386
-    requiredskill1level: 1
-    volume: 16.0
-  Talassonite:
+  52306:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
     asteroidradiusunitsize: 1000
@@ -95,3 +15,83 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 16.0
+  56625:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 56625
+    marketGroup: 2540
+    name: Abyssal Talassonite
+    packagedVolume: 16.0
+    portionSize: 100
+    price: 234353.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60381
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 16.0
+  56626:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 56626
+    marketGroup: 2540
+    name: Hadal Talassonite
+    packagedVolume: 16.0
+    portionSize: 100
+    price: 234353.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60381
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 16.0
+  62582:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 62582
+    marketGroup: 2540
+    name: Compressed Talassonite
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 234353.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60381
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 0.1599999964237213
+  62583:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 62583
+    marketGroup: 2540
+    name: Compressed Abyssal Talassonite
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 234353.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60381
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 0.1599999964237213
+  62584:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 62584
+    marketGroup: 2540
+    name: Compressed Hadal Talassonite
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 234353.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60381
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 0.1599999964237213

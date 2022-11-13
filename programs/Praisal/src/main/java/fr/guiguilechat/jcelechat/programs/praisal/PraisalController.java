@@ -205,7 +205,7 @@ public class PraisalController {
 		HashMap<EveType, Integer> item2qtty = new HashMap<>();
 		for (String line : list.split("\n")) {
 			String[] arr = line.split("\t");
-			EveType it = TypeIndex.getType(arr[0]);
+			EveType it = TypeIndex.getTypes(arr[0]).get(0);
 			if (it != null && arr[1].length() > 0) {
 				item2qtty.put(it, Integer.parseInt(arr[1].replaceAll("[^0-9]", "")) + item2qtty.getOrDefault(it, 0));
 			}

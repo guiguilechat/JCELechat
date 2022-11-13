@@ -150,7 +150,7 @@ public class Silo
         implements IMetaGroup<Silo>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/Silo.yaml";
-        private Map<String, Silo> cache = (null);
+        private Map<Integer, Silo> cache = (null);
 
         @Override
         public IMetaCategory<? super Silo> category() {
@@ -168,7 +168,7 @@ public class Silo
         }
 
         @Override
-        public synchronized Map<String, Silo> load() {
+        public synchronized Map<Integer, Silo> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Silo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -182,7 +182,7 @@ public class Silo
         }
 
         private static class Container {
-            public LinkedHashMap<String, Silo> types;
+            public LinkedHashMap<Integer, Silo> types;
         }
     }
 }

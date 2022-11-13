@@ -591,7 +591,7 @@ public class NPCMiningHauler
         implements IMetaGroup<NPCMiningHauler>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCMiningHauler.yaml";
-        private Map<String, NPCMiningHauler> cache = (null);
+        private Map<Integer, NPCMiningHauler> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCMiningHauler> category() {
@@ -609,7 +609,7 @@ public class NPCMiningHauler
         }
 
         @Override
-        public synchronized Map<String, NPCMiningHauler> load() {
+        public synchronized Map<Integer, NPCMiningHauler> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCMiningHauler.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -623,7 +623,7 @@ public class NPCMiningHauler
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCMiningHauler> types;
+            public LinkedHashMap<Integer, NPCMiningHauler> types;
         }
     }
 }

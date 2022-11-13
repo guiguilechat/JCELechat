@@ -133,7 +133,7 @@ public class DroneNavigationComputer
         implements IMetaGroup<DroneNavigationComputer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/DroneNavigationComputer.yaml";
-        private Map<String, DroneNavigationComputer> cache = (null);
+        private Map<Integer, DroneNavigationComputer> cache = (null);
 
         @Override
         public IMetaCategory<? super DroneNavigationComputer> category() {
@@ -151,7 +151,7 @@ public class DroneNavigationComputer
         }
 
         @Override
-        public synchronized Map<String, DroneNavigationComputer> load() {
+        public synchronized Map<Integer, DroneNavigationComputer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DroneNavigationComputer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -165,7 +165,7 @@ public class DroneNavigationComputer
         }
 
         private static class Container {
-            public LinkedHashMap<String, DroneNavigationComputer> types;
+            public LinkedHashMap<Integer, DroneNavigationComputer> types;
         }
     }
 }

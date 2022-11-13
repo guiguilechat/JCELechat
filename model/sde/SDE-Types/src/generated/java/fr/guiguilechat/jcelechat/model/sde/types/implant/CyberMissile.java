@@ -173,7 +173,7 @@ public class CyberMissile
         implements IMetaGroup<CyberMissile>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberMissile.yaml";
-        private Map<String, CyberMissile> cache = (null);
+        private Map<Integer, CyberMissile> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberMissile> category() {
@@ -191,7 +191,7 @@ public class CyberMissile
         }
 
         @Override
-        public synchronized Map<String, CyberMissile> load() {
+        public synchronized Map<Integer, CyberMissile> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -205,7 +205,7 @@ public class CyberMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberMissile> types;
+            public LinkedHashMap<Integer, CyberMissile> types;
         }
     }
 }

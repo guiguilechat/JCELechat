@@ -377,7 +377,7 @@ public class TitanPhenomenaGenerator
         implements IMetaGroup<TitanPhenomenaGenerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/TitanPhenomenaGenerator.yaml";
-        private Map<String, TitanPhenomenaGenerator> cache = (null);
+        private Map<Integer, TitanPhenomenaGenerator> cache = (null);
 
         @Override
         public IMetaCategory<? super TitanPhenomenaGenerator> category() {
@@ -395,7 +395,7 @@ public class TitanPhenomenaGenerator
         }
 
         @Override
-        public synchronized Map<String, TitanPhenomenaGenerator> load() {
+        public synchronized Map<Integer, TitanPhenomenaGenerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TitanPhenomenaGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -409,7 +409,7 @@ public class TitanPhenomenaGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, TitanPhenomenaGenerator> types;
+            public LinkedHashMap<Integer, TitanPhenomenaGenerator> types;
         }
     }
 }

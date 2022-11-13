@@ -85,7 +85,7 @@ public class MissileGuidanceEnhancerBlueprint
         implements IMetaGroup<MissileGuidanceEnhancerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MissileGuidanceEnhancerBlueprint.yaml";
-        private Map<String, MissileGuidanceEnhancerBlueprint> cache = (null);
+        private Map<Integer, MissileGuidanceEnhancerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MissileGuidanceEnhancerBlueprint> category() {
@@ -103,7 +103,7 @@ public class MissileGuidanceEnhancerBlueprint
         }
 
         @Override
-        public synchronized Map<String, MissileGuidanceEnhancerBlueprint> load() {
+        public synchronized Map<Integer, MissileGuidanceEnhancerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissileGuidanceEnhancerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -117,7 +117,7 @@ public class MissileGuidanceEnhancerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileGuidanceEnhancerBlueprint> types;
+            public LinkedHashMap<Integer, MissileGuidanceEnhancerBlueprint> types;
         }
     }
 }

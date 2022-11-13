@@ -233,7 +233,7 @@ public class RemoteHullRepairer
         implements IMetaGroup<RemoteHullRepairer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RemoteHullRepairer.yaml";
-        private Map<String, RemoteHullRepairer> cache = (null);
+        private Map<Integer, RemoteHullRepairer> cache = (null);
 
         @Override
         public IMetaCategory<? super RemoteHullRepairer> category() {
@@ -251,7 +251,7 @@ public class RemoteHullRepairer
         }
 
         @Override
-        public synchronized Map<String, RemoteHullRepairer> load() {
+        public synchronized Map<Integer, RemoteHullRepairer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteHullRepairer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -265,7 +265,7 @@ public class RemoteHullRepairer
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteHullRepairer> types;
+            public LinkedHashMap<Integer, RemoteHullRepairer> types;
         }
     }
 }

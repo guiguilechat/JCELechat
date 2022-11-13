@@ -40,7 +40,7 @@ public class DecryptorsMinmatar
         implements IMetaGroup<DecryptorsMinmatar>
     {
         public static final String RESOURCE_PATH = "SDE/types/decryptors/DecryptorsMinmatar.yaml";
-        private Map<String, DecryptorsMinmatar> cache = (null);
+        private Map<Integer, DecryptorsMinmatar> cache = (null);
 
         @Override
         public IMetaCategory<? super DecryptorsMinmatar> category() {
@@ -58,7 +58,7 @@ public class DecryptorsMinmatar
         }
 
         @Override
-        public synchronized Map<String, DecryptorsMinmatar> load() {
+        public synchronized Map<Integer, DecryptorsMinmatar> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DecryptorsMinmatar.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -72,7 +72,7 @@ public class DecryptorsMinmatar
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsMinmatar> types;
+            public LinkedHashMap<Integer, DecryptorsMinmatar> types;
         }
     }
 }

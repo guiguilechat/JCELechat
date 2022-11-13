@@ -1,5 +1,5 @@
 types:
-  Salvager I:
+  25861:
     accessdifficultybonus: 5.0
     capacitorneed: 20.0
     cpu: 20.0
@@ -20,7 +20,7 @@ types:
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
-  Salvager II:
+  30836:
     accessdifficultybonus: 7.0
     capacitorneed: 20.0
     cpu: 25.0

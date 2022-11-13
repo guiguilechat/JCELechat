@@ -97,7 +97,7 @@ public class ShieldRechargerBlueprint
         implements IMetaGroup<ShieldRechargerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ShieldRechargerBlueprint.yaml";
-        private Map<String, ShieldRechargerBlueprint> cache = (null);
+        private Map<Integer, ShieldRechargerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldRechargerBlueprint> category() {
@@ -115,7 +115,7 @@ public class ShieldRechargerBlueprint
         }
 
         @Override
-        public synchronized Map<String, ShieldRechargerBlueprint> load() {
+        public synchronized Map<Integer, ShieldRechargerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldRechargerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ShieldRechargerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldRechargerBlueprint> types;
+            public LinkedHashMap<Integer, ShieldRechargerBlueprint> types;
         }
     }
 }

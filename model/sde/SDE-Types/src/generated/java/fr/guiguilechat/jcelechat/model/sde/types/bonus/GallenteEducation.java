@@ -131,7 +131,7 @@ public class GallenteEducation
         implements IMetaGroup<GallenteEducation>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/GallenteEducation.yaml";
-        private Map<String, GallenteEducation> cache = (null);
+        private Map<Integer, GallenteEducation> cache = (null);
 
         @Override
         public IMetaCategory<? super GallenteEducation> category() {
@@ -149,7 +149,7 @@ public class GallenteEducation
         }
 
         @Override
-        public synchronized Map<String, GallenteEducation> load() {
+        public synchronized Map<Integer, GallenteEducation> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GallenteEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -163,7 +163,7 @@ public class GallenteEducation
         }
 
         private static class Container {
-            public LinkedHashMap<String, GallenteEducation> types;
+            public LinkedHashMap<Integer, GallenteEducation> types;
         }
     }
 }

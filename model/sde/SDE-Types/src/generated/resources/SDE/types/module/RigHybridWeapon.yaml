@@ -1,448 +1,5 @@
 types:
-  Capital Algid Hybrid Administrations Unit I:
-    cpuneedbonus: -10
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31506
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Capital Algid Hybrid Administrations Unit I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 40.0
-  Capital Algid Hybrid Administrations Unit II:
-    cpuneedbonus: -15
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31512
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Capital Algid Hybrid Administrations Unit II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 40.0
-  Capital Hybrid Ambit Extension I:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 15.0
-    hp: 40.0
-    id: 31518
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Capital Hybrid Ambit Extension I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Hybrid Ambit Extension II:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 31524
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Capital Hybrid Ambit Extension II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Capital Hybrid Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31530
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Capital Hybrid Burst Aerator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 40.0
-  Capital Hybrid Burst Aerator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31536
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Capital Hybrid Burst Aerator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 0.8500000238418579
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 40.0
-  Capital Hybrid Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 31542
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Capital Hybrid Collision Accelerator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 40.0
-  Capital Hybrid Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 31548
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Capital Hybrid Collision Accelerator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 40.0
-  Capital Hybrid Discharge Elutriation I:
-    capneedbonus: -20
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31554
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Capital Hybrid Discharge Elutriation I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Hybrid Discharge Elutriation II:
-    capneedbonus: -25
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31560
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Capital Hybrid Discharge Elutriation II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Capital Hybrid Locus Coordinator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31566
-    marketGroup: 1734
-    mass: 200.0
-    maxrangebonus: 15.0
-    maxrangemultiplier: 1.0
-    name: Capital Hybrid Locus Coordinator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Hybrid Locus Coordinator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31572
-    marketGroup: 1734
-    mass: 200.0
-    maxrangebonus: 20.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Capital Hybrid Locus Coordinator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Capital Hybrid Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31578
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Capital Hybrid Metastasis Adjuster I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Hybrid Metastasis Adjuster II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31584
-    marketGroup: 1734
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Capital Hybrid Metastasis Adjuster II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedbonus: 20.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Large Algid Hybrid Administrations Unit I:
-    cpuneedbonus: -10
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26004
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Large Algid Hybrid Administrations Unit I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 20.0
-  Large Algid Hybrid Administrations Unit II:
-    cpuneedbonus: -15
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26398
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Large Algid Hybrid Administrations Unit II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 20.0
-  Large Hybrid Ambit Extension I:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 15.0
-    hp: 40.0
-    id: 25998
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Large Hybrid Ambit Extension I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 20.0
-  Large Hybrid Ambit Extension II:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 26400
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Large Hybrid Ambit Extension II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 20.0
-  Large Hybrid Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26006
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Large Hybrid Burst Aerator I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 20.0
-  Large Hybrid Burst Aerator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26394
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Large Hybrid Burst Aerator II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 0.8500000238418579
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 20.0
-  Large Hybrid Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 26008
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Large Hybrid Collision Accelerator I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 20.0
-  Large Hybrid Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 26396
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Large Hybrid Collision Accelerator II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 20.0
-  Large Hybrid Discharge Elutriation I:
+  25996:
     capneedbonus: -20
     damagemultiplier: 1.0
     drawback: 10
@@ -462,7 +19,125 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 20.0
-  Large Hybrid Discharge Elutriation II:
+  25998:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 15.0
+    hp: 40.0
+    id: 25998
+    marketGroup: 1230
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Large Hybrid Ambit Extension I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 20.0
+  26000:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26000
+    marketGroup: 1230
+    mass: 200.0
+    maxrangebonus: 15.0
+    maxrangemultiplier: 1.0
+    name: Large Hybrid Locus Coordinator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 20.0
+  26002:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26002
+    marketGroup: 1230
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Large Hybrid Metastasis Adjuster I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 20.0
+  26004:
+    cpuneedbonus: -10
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26004
+    marketGroup: 1230
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Large Algid Hybrid Administrations Unit I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 20.0
+  26006:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26006
+    marketGroup: 1230
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Large Hybrid Burst Aerator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 20.0
+  26008:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 26008
+    marketGroup: 1230
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Large Hybrid Collision Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 20.0
+  26392:
     capneedbonus: -25
     damagemultiplier: 1.0
     drawback: 10
@@ -483,27 +158,89 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Large Hybrid Locus Coordinator I:
+  26394:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
-    id: 26000
+    id: 26394
     marketGroup: 1230
     mass: 200.0
-    maxrangebonus: 15.0
     maxrangemultiplier: 1.0
-    name: Large Hybrid Locus Coordinator I
+    metalevelold: 5
+    name: Large Hybrid Burst Aerator II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 0.8500000238418579
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 20.0
+  26396:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 26396
+    marketGroup: 1230
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Large Hybrid Collision Accelerator II
     packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
     speedmultiplier: 1.0
-    techlevel: 1
+    techlevel: 2
     trackingspeedmultiplier: 1.0
-    upgradecost: 100
+    upgradecost: 300
     volume: 20.0
-  Large Hybrid Locus Coordinator II:
+  26398:
+    cpuneedbonus: -15
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26398
+    marketGroup: 1230
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Large Algid Hybrid Administrations Unit II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 20.0
+  26400:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 26400
+    marketGroup: 1230
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Large Hybrid Ambit Extension II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 20.0
+  26402:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -524,27 +261,7 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Large Hybrid Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26002
-    marketGroup: 1230
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Large Hybrid Metastasis Adjuster I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 20.0
-  Large Hybrid Metastasis Adjuster II:
+  26404:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -565,290 +282,7 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Medium Algid Hybrid Administrations Unit I:
-    cpuneedbonus: -10
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31504
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Medium Algid Hybrid Administrations Unit I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 10.0
-  Medium Algid Hybrid Administrations Unit II:
-    cpuneedbonus: -15
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31510
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Medium Algid Hybrid Administrations Unit II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 10.0
-  Medium Hybrid Ambit Extension I:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 15.0
-    hp: 40.0
-    id: 31516
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Medium Hybrid Ambit Extension I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Hybrid Ambit Extension II:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 31522
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Medium Hybrid Ambit Extension II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Medium Hybrid Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31528
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Medium Hybrid Burst Aerator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 10.0
-  Medium Hybrid Burst Aerator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31534
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Medium Hybrid Burst Aerator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 0.8500000238418579
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 10.0
-  Medium Hybrid Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 31540
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Medium Hybrid Collision Accelerator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 10.0
-  Medium Hybrid Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 31546
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Medium Hybrid Collision Accelerator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 10.0
-  Medium Hybrid Discharge Elutriation I:
-    capneedbonus: -20
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31552
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Medium Hybrid Discharge Elutriation I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Hybrid Discharge Elutriation II:
-    capneedbonus: -25
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31558
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Medium Hybrid Discharge Elutriation II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Medium Hybrid Locus Coordinator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31564
-    marketGroup: 1229
-    mass: 200.0
-    maxrangebonus: 15.0
-    maxrangemultiplier: 1.0
-    name: Medium Hybrid Locus Coordinator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Hybrid Locus Coordinator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31570
-    marketGroup: 1229
-    mass: 200.0
-    maxrangebonus: 20.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Medium Hybrid Locus Coordinator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Medium Hybrid Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31576
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    name: Medium Hybrid Metastasis Adjuster I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Hybrid Metastasis Adjuster II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31582
-    marketGroup: 1229
-    mass: 200.0
-    maxrangemultiplier: 1.0
-    metalevelold: 5
-    name: Medium Hybrid Metastasis Adjuster II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedbonus: 20.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Small Algid Hybrid Administrations Unit I:
+  31502:
     cpuneedbonus: -10
     damagemultiplier: 1.0
     drawback: 10
@@ -868,7 +302,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 50
     volume: 5.0
-  Small Algid Hybrid Administrations Unit II:
+  31504:
+    cpuneedbonus: -10
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31504
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Medium Algid Hybrid Administrations Unit I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 10.0
+  31506:
+    cpuneedbonus: -10
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31506
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Capital Algid Hybrid Administrations Unit I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 40.0
+  31508:
     cpuneedbonus: -15
     damagemultiplier: 1.0
     drawback: 10
@@ -889,7 +363,49 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 75
     volume: 5.0
-  Small Hybrid Ambit Extension I:
+  31510:
+    cpuneedbonus: -15
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31510
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Medium Algid Hybrid Administrations Unit II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 10.0
+  31512:
+    cpuneedbonus: -15
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31512
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Capital Algid Hybrid Administrations Unit II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 40.0
+  31514:
     damagemultiplier: 1.0
     drawback: 10
     falloffbonus: 15.0
@@ -909,7 +425,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Hybrid Ambit Extension II:
+  31516:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 15.0
+    hp: 40.0
+    id: 31516
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Medium Hybrid Ambit Extension I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31518:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 15.0
+    hp: 40.0
+    id: 31518
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Capital Hybrid Ambit Extension I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31520:
     damagemultiplier: 1.0
     drawback: 10
     falloffbonus: 20.0
@@ -930,7 +486,49 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
-  Small Hybrid Burst Aerator I:
+  31522:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 31522
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Medium Hybrid Ambit Extension II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31524:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 31524
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Capital Hybrid Ambit Extension II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0
+  31526:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -949,7 +547,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 200
     volume: 5.0
-  Small Hybrid Burst Aerator II:
+  31528:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31528
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Medium Hybrid Burst Aerator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 10.0
+  31530:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31530
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Capital Hybrid Burst Aerator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 40.0
+  31532:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -969,7 +605,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 5.0
-  Small Hybrid Collision Accelerator I:
+  31534:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31534
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Medium Hybrid Burst Aerator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 0.8500000238418579
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 10.0
+  31536:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31536
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Capital Hybrid Burst Aerator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 0.8500000238418579
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 40.0
+  31538:
     damagemultiplier: 1.100000023841858
     drawback: 10
     hp: 40.0
@@ -988,7 +664,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 200
     volume: 5.0
-  Small Hybrid Collision Accelerator II:
+  31540:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 31540
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Medium Hybrid Collision Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 10.0
+  31542:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 31542
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Capital Hybrid Collision Accelerator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 40.0
+  31544:
     damagemultiplier: 1.149999976158142
     drawback: 10
     hp: 40.0
@@ -1008,7 +722,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 5.0
-  Small Hybrid Discharge Elutriation I:
+  31546:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 31546
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Medium Hybrid Collision Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 10.0
+  31548:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 31548
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Capital Hybrid Collision Accelerator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 40.0
+  31550:
     capneedbonus: -20
     damagemultiplier: 1.0
     drawback: 10
@@ -1028,7 +782,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Hybrid Discharge Elutriation II:
+  31552:
+    capneedbonus: -20
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31552
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Medium Hybrid Discharge Elutriation I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31554:
+    capneedbonus: -20
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31554
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Capital Hybrid Discharge Elutriation I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31556:
     capneedbonus: -25
     damagemultiplier: 1.0
     drawback: 10
@@ -1049,7 +843,49 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
-  Small Hybrid Locus Coordinator I:
+  31558:
+    capneedbonus: -25
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31558
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Medium Hybrid Discharge Elutriation II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31560:
+    capneedbonus: -25
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31560
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Capital Hybrid Discharge Elutriation II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0
+  31562:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -1069,7 +905,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Hybrid Locus Coordinator II:
+  31564:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31564
+    marketGroup: 1229
+    mass: 200.0
+    maxrangebonus: 15.0
+    maxrangemultiplier: 1.0
+    name: Medium Hybrid Locus Coordinator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31566:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31566
+    marketGroup: 1734
+    mass: 200.0
+    maxrangebonus: 15.0
+    maxrangemultiplier: 1.0
+    name: Capital Hybrid Locus Coordinator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31568:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -1090,7 +966,49 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
-  Small Hybrid Metastasis Adjuster I:
+  31570:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31570
+    marketGroup: 1229
+    mass: 200.0
+    maxrangebonus: 20.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Medium Hybrid Locus Coordinator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31572:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31572
+    marketGroup: 1734
+    mass: 200.0
+    maxrangebonus: 20.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Capital Hybrid Locus Coordinator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0
+  31574:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -1110,7 +1028,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Hybrid Metastasis Adjuster II:
+  31576:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31576
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Medium Hybrid Metastasis Adjuster I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31578:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31578
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    name: Capital Hybrid Metastasis Adjuster I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31580:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -1131,3 +1089,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
+  31582:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31582
+    marketGroup: 1229
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Medium Hybrid Metastasis Adjuster II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedbonus: 20.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31584:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31584
+    marketGroup: 1734
+    mass: 200.0
+    maxrangemultiplier: 1.0
+    metalevelold: 5
+    name: Capital Hybrid Metastasis Adjuster II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedbonus: 20.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0

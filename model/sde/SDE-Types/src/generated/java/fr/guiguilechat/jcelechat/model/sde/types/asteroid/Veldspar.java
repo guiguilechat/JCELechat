@@ -101,7 +101,7 @@ public class Veldspar
         implements IMetaGroup<Veldspar>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Veldspar.yaml";
-        private Map<String, Veldspar> cache = (null);
+        private Map<Integer, Veldspar> cache = (null);
 
         @Override
         public IMetaCategory<? super Veldspar> category() {
@@ -119,7 +119,7 @@ public class Veldspar
         }
 
         @Override
-        public synchronized Map<String, Veldspar> load() {
+        public synchronized Map<Integer, Veldspar> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Veldspar.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class Veldspar
         }
 
         private static class Container {
-            public LinkedHashMap<String, Veldspar> types;
+            public LinkedHashMap<Integer, Veldspar> types;
         }
     }
 }

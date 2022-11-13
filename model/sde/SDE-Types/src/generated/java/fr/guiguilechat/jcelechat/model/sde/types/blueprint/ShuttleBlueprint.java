@@ -83,7 +83,7 @@ public class ShuttleBlueprint
         implements IMetaGroup<ShuttleBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ShuttleBlueprint.yaml";
-        private Map<String, ShuttleBlueprint> cache = (null);
+        private Map<Integer, ShuttleBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ShuttleBlueprint> category() {
@@ -101,7 +101,7 @@ public class ShuttleBlueprint
         }
 
         @Override
-        public synchronized Map<String, ShuttleBlueprint> load() {
+        public synchronized Map<Integer, ShuttleBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShuttleBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class ShuttleBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShuttleBlueprint> types;
+            public LinkedHashMap<Integer, ShuttleBlueprint> types;
         }
     }
 }

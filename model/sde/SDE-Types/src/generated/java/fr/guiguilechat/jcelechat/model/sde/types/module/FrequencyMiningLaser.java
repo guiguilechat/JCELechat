@@ -305,7 +305,7 @@ public class FrequencyMiningLaser
         implements IMetaGroup<FrequencyMiningLaser>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/FrequencyMiningLaser.yaml";
-        private Map<String, FrequencyMiningLaser> cache = (null);
+        private Map<Integer, FrequencyMiningLaser> cache = (null);
 
         @Override
         public IMetaCategory<? super FrequencyMiningLaser> category() {
@@ -323,7 +323,7 @@ public class FrequencyMiningLaser
         }
 
         @Override
-        public synchronized Map<String, FrequencyMiningLaser> load() {
+        public synchronized Map<Integer, FrequencyMiningLaser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FrequencyMiningLaser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -337,7 +337,7 @@ public class FrequencyMiningLaser
         }
 
         private static class Container {
-            public LinkedHashMap<String, FrequencyMiningLaser> types;
+            public LinkedHashMap<Integer, FrequencyMiningLaser> types;
         }
     }
 }

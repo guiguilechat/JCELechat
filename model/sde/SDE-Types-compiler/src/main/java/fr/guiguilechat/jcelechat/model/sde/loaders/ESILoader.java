@@ -38,7 +38,8 @@ public class ESILoader {
 		MapHolder<Integer, R_get_universe_types_type_id> typeMap = universe.types()
 				.mapItems(typeID -> universe.types(typeID)).toMap(h -> h.get().type_id, h -> h.get());
 		MapHolder<Integer, R_get_dogma_attributes_attribute_id> attMap = dogma.attributes()
-				.mapItems(typeID -> dogma.attributes(typeID)).toMap(h -> h.get().attribute_id, h -> h.get());
+				.toMap(typeID -> typeID, typeID -> dogma.attributes(typeID)).entries()
+				.toMap(e -> e.getKey(), e -> e.getValue().get());
 
 		// categories
 
@@ -104,9 +105,17 @@ public class ESILoader {
 		}
 
 		// attributes
+		for (Entry<Integer, R_get_dogma_attributes_attribute_id> e : attMap.get().entrySet()) {
+			if (e.getValue() == null) {
+				System.err.println("att id " + e.getKey() + " has null value");
+			}
+		}
 
 		for (int attId : allAttributesIds) {
 			R_get_dogma_attributes_attribute_id eattr = attMap.get().get(attId);
+			if (eattr == null) {
+				throw new NullPointerException("no attribute data for id "+attId);
+			}
 			AttributeDetails det = new AttributeDetails();
 			det.defaultValue = eattr.default_value;
 			det.description = eattr.description;

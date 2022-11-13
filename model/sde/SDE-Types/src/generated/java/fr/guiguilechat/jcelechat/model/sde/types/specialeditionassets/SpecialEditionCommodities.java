@@ -95,7 +95,7 @@ public class SpecialEditionCommodities
         implements IMetaGroup<SpecialEditionCommodities>
     {
         public static final String RESOURCE_PATH = "SDE/types/specialeditionassets/SpecialEditionCommodities.yaml";
-        private Map<String, SpecialEditionCommodities> cache = (null);
+        private Map<Integer, SpecialEditionCommodities> cache = (null);
 
         @Override
         public IMetaCategory<? super SpecialEditionCommodities> category() {
@@ -113,7 +113,7 @@ public class SpecialEditionCommodities
         }
 
         @Override
-        public synchronized Map<String, SpecialEditionCommodities> load() {
+        public synchronized Map<Integer, SpecialEditionCommodities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SpecialEditionCommodities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -127,7 +127,7 @@ public class SpecialEditionCommodities
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpecialEditionCommodities> types;
+            public LinkedHashMap<Integer, SpecialEditionCommodities> types;
         }
     }
 }

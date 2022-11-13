@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Basic Capital Component Manufacturing Material Efficiency I:
+  43870:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: 1
@@ -28,7 +28,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Basic Capital Component Manufacturing Material Efficiency II:
+  43871:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: 1
@@ -57,7 +57,7 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 10.0
-  Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency:
+  45544:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: 1
     attributethukkerengrigmatbonus: -3.700000047683716

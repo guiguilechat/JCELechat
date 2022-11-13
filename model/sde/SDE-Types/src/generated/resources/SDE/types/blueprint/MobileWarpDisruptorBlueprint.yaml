@@ -1,51 +1,5 @@
 types:
-  Mobile Large Warp Disruptor I Blueprint:
-    id: 12301
-    industryblueprintrank: 15.0
-    marketGroup: 407
-    name: Mobile Large Warp Disruptor I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.1976448E8
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Mobile Large Warp Disruptor II Blueprint:
-    id: 26889
-    industryblueprintrank: 150.0
-    name: Mobile Large Warp Disruptor II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.1976448E8
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Mobile Medium Warp Disruptor I Blueprint:
-    id: 12300
-    industryblueprintrank: 10.0
-    marketGroup: 407
-    name: Mobile Medium Warp Disruptor I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.994112E7
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Mobile Medium Warp Disruptor II Blueprint:
-    id: 26891
-    industryblueprintrank: 100.0
-    name: Mobile Medium Warp Disruptor II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E10
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Mobile Small Warp Disruptor I Blueprint:
+  12297:
     id: 12297
     industryblueprintrank: 5.0
     marketGroup: 407
@@ -57,7 +11,53 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Mobile Small Warp Disruptor II Blueprint:
+  12300:
+    id: 12300
+    industryblueprintrank: 10.0
+    marketGroup: 407
+    name: Mobile Medium Warp Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.994112E7
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  12301:
+    id: 12301
+    industryblueprintrank: 15.0
+    marketGroup: 407
+    name: Mobile Large Warp Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.1976448E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  26889:
+    id: 26889
+    industryblueprintrank: 150.0
+    name: Mobile Large Warp Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.1976448E8
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  26891:
+    id: 26891
+    industryblueprintrank: 100.0
+    name: Mobile Medium Warp Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  26893:
     id: 26893
     industryblueprintrank: 50.0
     name: Mobile Small Warp Disruptor II Blueprint

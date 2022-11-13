@@ -117,7 +117,7 @@ public class PropulsionModuleBlueprint
         implements IMetaGroup<PropulsionModuleBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/PropulsionModuleBlueprint.yaml";
-        private Map<String, PropulsionModuleBlueprint> cache = (null);
+        private Map<Integer, PropulsionModuleBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super PropulsionModuleBlueprint> category() {
@@ -135,7 +135,7 @@ public class PropulsionModuleBlueprint
         }
 
         @Override
-        public synchronized Map<String, PropulsionModuleBlueprint> load() {
+        public synchronized Map<Integer, PropulsionModuleBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PropulsionModuleBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -149,7 +149,7 @@ public class PropulsionModuleBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, PropulsionModuleBlueprint> types;
+            public LinkedHashMap<Integer, PropulsionModuleBlueprint> types;
         }
     }
 }

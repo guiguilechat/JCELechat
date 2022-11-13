@@ -1,5 +1,5 @@
 types:
-  Amarr Navy Archon:
+  35819:
     agility: 0.045499999076128006
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
@@ -53,7 +53,7 @@ types:
     signatureradius: 2920.0
     structureuniformity: 1.0
     warpspeedmultiplier: 1.5
-  Imperial Escort Aeon:
+  50100:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0

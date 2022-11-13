@@ -97,7 +97,7 @@ public class CommandDestroyerBlueprint
         implements IMetaGroup<CommandDestroyerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CommandDestroyerBlueprint.yaml";
-        private Map<String, CommandDestroyerBlueprint> cache = (null);
+        private Map<Integer, CommandDestroyerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super CommandDestroyerBlueprint> category() {
@@ -115,7 +115,7 @@ public class CommandDestroyerBlueprint
         }
 
         @Override
-        public synchronized Map<String, CommandDestroyerBlueprint> load() {
+        public synchronized Map<Integer, CommandDestroyerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CommandDestroyerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class CommandDestroyerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandDestroyerBlueprint> types;
+            public LinkedHashMap<Integer, CommandDestroyerBlueprint> types;
         }
     }
 }

@@ -277,7 +277,7 @@ public class ScanProbeLauncher
         implements IMetaGroup<ScanProbeLauncher>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ScanProbeLauncher.yaml";
-        private Map<String, ScanProbeLauncher> cache = (null);
+        private Map<Integer, ScanProbeLauncher> cache = (null);
 
         @Override
         public IMetaCategory<? super ScanProbeLauncher> category() {
@@ -295,7 +295,7 @@ public class ScanProbeLauncher
         }
 
         @Override
-        public synchronized Map<String, ScanProbeLauncher> load() {
+        public synchronized Map<Integer, ScanProbeLauncher> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ScanProbeLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -309,7 +309,7 @@ public class ScanProbeLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScanProbeLauncher> types;
+            public LinkedHashMap<Integer, ScanProbeLauncher> types;
         }
     }
 }

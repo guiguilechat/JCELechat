@@ -530,7 +530,7 @@ public class IrregularFreighter
         implements IMetaGroup<IrregularFreighter>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularFreighter.yaml";
-        private Map<String, IrregularFreighter> cache = (null);
+        private Map<Integer, IrregularFreighter> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularFreighter> category() {
@@ -548,7 +548,7 @@ public class IrregularFreighter
         }
 
         @Override
-        public synchronized Map<String, IrregularFreighter> load() {
+        public synchronized Map<Integer, IrregularFreighter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularFreighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -562,7 +562,7 @@ public class IrregularFreighter
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularFreighter> types;
+            public LinkedHashMap<Integer, IrregularFreighter> types;
         }
     }
 }

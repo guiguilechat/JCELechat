@@ -1237,7 +1237,7 @@ public class AbyssalDroneEntities
         implements IMetaGroup<AbyssalDroneEntities>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AbyssalDroneEntities.yaml";
-        private Map<String, AbyssalDroneEntities> cache = (null);
+        private Map<Integer, AbyssalDroneEntities> cache = (null);
 
         @Override
         public IMetaCategory<? super AbyssalDroneEntities> category() {
@@ -1255,7 +1255,7 @@ public class AbyssalDroneEntities
         }
 
         @Override
-        public synchronized Map<String, AbyssalDroneEntities> load() {
+        public synchronized Map<Integer, AbyssalDroneEntities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AbyssalDroneEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1269,7 +1269,7 @@ public class AbyssalDroneEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, AbyssalDroneEntities> types;
+            public LinkedHashMap<Integer, AbyssalDroneEntities> types;
         }
     }
 }

@@ -551,7 +551,7 @@ public class ElectronicWarfareDrone
         implements IMetaGroup<ElectronicWarfareDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/drone/ElectronicWarfareDrone.yaml";
-        private Map<String, ElectronicWarfareDrone> cache = (null);
+        private Map<Integer, ElectronicWarfareDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super ElectronicWarfareDrone> category() {
@@ -569,7 +569,7 @@ public class ElectronicWarfareDrone
         }
 
         @Override
-        public synchronized Map<String, ElectronicWarfareDrone> load() {
+        public synchronized Map<Integer, ElectronicWarfareDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ElectronicWarfareDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -583,7 +583,7 @@ public class ElectronicWarfareDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, ElectronicWarfareDrone> types;
+            public LinkedHashMap<Integer, ElectronicWarfareDrone> types;
         }
     }
 }

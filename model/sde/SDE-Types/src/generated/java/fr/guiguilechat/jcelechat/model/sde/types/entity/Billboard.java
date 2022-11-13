@@ -253,7 +253,7 @@ public class Billboard
         implements IMetaGroup<Billboard>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/Billboard.yaml";
-        private Map<String, Billboard> cache = (null);
+        private Map<Integer, Billboard> cache = (null);
 
         @Override
         public IMetaCategory<? super Billboard> category() {
@@ -271,7 +271,7 @@ public class Billboard
         }
 
         @Override
-        public synchronized Map<String, Billboard> load() {
+        public synchronized Map<Integer, Billboard> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Billboard.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class Billboard
         }
 
         private static class Container {
-            public LinkedHashMap<String, Billboard> types;
+            public LinkedHashMap<Integer, Billboard> types;
         }
     }
 }

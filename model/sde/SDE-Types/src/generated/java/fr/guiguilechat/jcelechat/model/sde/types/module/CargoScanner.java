@@ -149,7 +149,7 @@ public class CargoScanner
         implements IMetaGroup<CargoScanner>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CargoScanner.yaml";
-        private Map<String, CargoScanner> cache = (null);
+        private Map<Integer, CargoScanner> cache = (null);
 
         @Override
         public IMetaCategory<? super CargoScanner> category() {
@@ -167,7 +167,7 @@ public class CargoScanner
         }
 
         @Override
-        public synchronized Map<String, CargoScanner> load() {
+        public synchronized Map<Integer, CargoScanner> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CargoScanner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -181,7 +181,7 @@ public class CargoScanner
         }
 
         private static class Container {
-            public LinkedHashMap<String, CargoScanner> types;
+            public LinkedHashMap<Integer, CargoScanner> types;
         }
     }
 }

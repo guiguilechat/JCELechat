@@ -1,19 +1,5 @@
 types:
-  Sleeper Data Crystals:
-    id: 21572
-    inventionmaxrunmodifier: 6.0
-    inventionmemodifier: 1.100000023841858
-    inventionpropabilitymultiplier: 1.5
-    inventiontemodifier: 1.0
-    marketGroup: 1902
-    mass: 1.0
-    name: Sleeper Data Crystals
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Sleeper Data Interface Protocol:
+  21568:
     id: 21568
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 1.0
@@ -27,21 +13,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Sleeper Manuscripts:
-    id: 21570
-    inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.800000011920929
-    inventionpropabilitymultiplier: 3.0
-    inventiontemodifier: 0.800000011920929
-    marketGroup: 1902
-    mass: 1.0
-    name: Sleeper Manuscripts
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Sleeper Profound Research Notes:
+  21569:
     id: 21569
     inventionmaxrunmodifier: 2.0
     inventionmemodifier: 1.399999976158142
@@ -55,7 +27,21 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Sleeper Technical Schematics:
+  21570:
+    id: 21570
+    inventionmaxrunmodifier: 1.0
+    inventionmemodifier: 0.800000011920929
+    inventionpropabilitymultiplier: 3.0
+    inventiontemodifier: 0.800000011920929
+    marketGroup: 1902
+    mass: 1.0
+    name: Sleeper Manuscripts
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  21571:
     id: 21571
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 0.5
@@ -64,6 +50,20 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Technical Schematics
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  21572:
+    id: 21572
+    inventionmaxrunmodifier: 6.0
+    inventionmemodifier: 1.100000023841858
+    inventionpropabilitymultiplier: 1.5
+    inventiontemodifier: 1.0
+    marketGroup: 1902
+    mass: 1.0
+    name: Sleeper Data Crystals
     packagedVolume: 1.0
     portionSize: 1
     published: true

@@ -97,7 +97,7 @@ public class DataMinerBlueprint
         implements IMetaGroup<DataMinerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/DataMinerBlueprint.yaml";
-        private Map<String, DataMinerBlueprint> cache = (null);
+        private Map<Integer, DataMinerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super DataMinerBlueprint> category() {
@@ -115,7 +115,7 @@ public class DataMinerBlueprint
         }
 
         @Override
-        public synchronized Map<String, DataMinerBlueprint> load() {
+        public synchronized Map<Integer, DataMinerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DataMinerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class DataMinerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DataMinerBlueprint> types;
+            public LinkedHashMap<Integer, DataMinerBlueprint> types;
         }
     }
 }

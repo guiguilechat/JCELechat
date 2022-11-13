@@ -265,7 +265,7 @@ public class StructureResourceRigMMoonOreReprocessing
         implements IMetaGroup<StructureResourceRigMMoonOreReprocessing>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureResourceRigMMoonOreReprocessing.yaml";
-        private Map<String, StructureResourceRigMMoonOreReprocessing> cache = (null);
+        private Map<Integer, StructureResourceRigMMoonOreReprocessing> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureResourceRigMMoonOreReprocessing> category() {
@@ -283,7 +283,7 @@ public class StructureResourceRigMMoonOreReprocessing
         }
 
         @Override
-        public synchronized Map<String, StructureResourceRigMMoonOreReprocessing> load() {
+        public synchronized Map<Integer, StructureResourceRigMMoonOreReprocessing> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureResourceRigMMoonOreReprocessing.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -297,7 +297,7 @@ public class StructureResourceRigMMoonOreReprocessing
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureResourceRigMMoonOreReprocessing> types;
+            public LinkedHashMap<Integer, StructureResourceRigMMoonOreReprocessing> types;
         }
     }
 }

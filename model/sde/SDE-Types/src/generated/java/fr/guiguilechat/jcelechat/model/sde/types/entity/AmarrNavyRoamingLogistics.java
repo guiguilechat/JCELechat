@@ -606,7 +606,7 @@ public class AmarrNavyRoamingLogistics
         implements IMetaGroup<AmarrNavyRoamingLogistics>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AmarrNavyRoamingLogistics.yaml";
-        private Map<String, AmarrNavyRoamingLogistics> cache = (null);
+        private Map<Integer, AmarrNavyRoamingLogistics> cache = (null);
 
         @Override
         public IMetaCategory<? super AmarrNavyRoamingLogistics> category() {
@@ -624,7 +624,7 @@ public class AmarrNavyRoamingLogistics
         }
 
         @Override
-        public synchronized Map<String, AmarrNavyRoamingLogistics> load() {
+        public synchronized Map<Integer, AmarrNavyRoamingLogistics> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AmarrNavyRoamingLogistics.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -638,7 +638,7 @@ public class AmarrNavyRoamingLogistics
         }
 
         private static class Container {
-            public LinkedHashMap<String, AmarrNavyRoamingLogistics> types;
+            public LinkedHashMap<Integer, AmarrNavyRoamingLogistics> types;
         }
     }
 }

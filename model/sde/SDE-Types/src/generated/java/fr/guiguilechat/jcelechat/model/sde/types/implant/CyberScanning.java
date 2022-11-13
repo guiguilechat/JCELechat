@@ -161,7 +161,7 @@ public class CyberScanning
         implements IMetaGroup<CyberScanning>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberScanning.yaml";
-        private Map<String, CyberScanning> cache = (null);
+        private Map<Integer, CyberScanning> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberScanning> category() {
@@ -179,7 +179,7 @@ public class CyberScanning
         }
 
         @Override
-        public synchronized Map<String, CyberScanning> load() {
+        public synchronized Map<Integer, CyberScanning> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberScanning.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -193,7 +193,7 @@ public class CyberScanning
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberScanning> types;
+            public LinkedHashMap<Integer, CyberScanning> types;
         }
     }
 }

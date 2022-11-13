@@ -467,7 +467,7 @@ public class BlockadeRunner
         implements IMetaGroup<BlockadeRunner>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/BlockadeRunner.yaml";
-        private Map<String, BlockadeRunner> cache = (null);
+        private Map<Integer, BlockadeRunner> cache = (null);
 
         @Override
         public IMetaCategory<? super BlockadeRunner> category() {
@@ -485,7 +485,7 @@ public class BlockadeRunner
         }
 
         @Override
-        public synchronized Map<String, BlockadeRunner> load() {
+        public synchronized Map<Integer, BlockadeRunner> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BlockadeRunner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -499,7 +499,7 @@ public class BlockadeRunner
         }
 
         private static class Container {
-            public LinkedHashMap<String, BlockadeRunner> types;
+            public LinkedHashMap<Integer, BlockadeRunner> types;
         }
     }
 }

@@ -1,27 +1,5 @@
 types:
-  Gallente Business School Commerce Bonus:
-    charismaskilltrainingtimemultiplierbonus: -0.05000000074505806
-    cpumultiplier: 1.0
-    id: 1667
-    name: Gallente Business School Commerce Bonus
-    portionSize: 1
-    published: false
-    radius: 1.0
-  Gallente Business School Industry Bonus:
-    cpumultiplier: 1.0
-    id: 1668
-    name: Gallente Business School Industry Bonus
-    portionSize: 1
-    published: false
-  Gallente Military Academy Gunner Bonus:
-    capacitorneedmultiplier: 0.949999988079071
-    cpumultiplier: 1.0
-    id: 1664
-    name: Gallente Military Academy Gunner Bonus
-    portionSize: 1
-    published: false
-    radius: 1.0
-  Gallente Military Academy Pilot Bonus:
+  1663:
     cpumultiplier: 1.0
     id: 1663
     name: Gallente Military Academy Pilot Bonus
@@ -29,14 +7,15 @@ types:
     portionSize: 1
     published: false
     radius: 1.0
-  Gallente Technical School Electronics Bonus:
-    cpumultiplier: 0.949999988079071
-    id: 1666
-    name: Gallente Technical School Electronics Bonus
+  1664:
+    capacitorneedmultiplier: 0.949999988079071
+    cpumultiplier: 1.0
+    id: 1664
+    name: Gallente Military Academy Gunner Bonus
     portionSize: 1
     published: false
     radius: 1.0
-  Gallente Technical School Engineering Bonus:
+  1665:
     cpumultiplier: 1.0
     id: 1665
     memoryskilltrainingtimemultiplierbonus: -0.05000000074505806
@@ -44,3 +23,24 @@ types:
     portionSize: 1
     published: false
     radius: 1.0
+  1666:
+    cpumultiplier: 0.949999988079071
+    id: 1666
+    name: Gallente Technical School Electronics Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  1667:
+    charismaskilltrainingtimemultiplierbonus: -0.05000000074505806
+    cpumultiplier: 1.0
+    id: 1667
+    name: Gallente Business School Commerce Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  1668:
+    cpumultiplier: 1.0
+    id: 1668
+    name: Gallente Business School Industry Bonus
+    portionSize: 1
+    published: false

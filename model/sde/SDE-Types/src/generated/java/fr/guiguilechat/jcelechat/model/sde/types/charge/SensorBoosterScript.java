@@ -146,7 +146,7 @@ public class SensorBoosterScript
         implements IMetaGroup<SensorBoosterScript>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/SensorBoosterScript.yaml";
-        private Map<String, SensorBoosterScript> cache = (null);
+        private Map<Integer, SensorBoosterScript> cache = (null);
 
         @Override
         public IMetaCategory<? super SensorBoosterScript> category() {
@@ -164,7 +164,7 @@ public class SensorBoosterScript
         }
 
         @Override
-        public synchronized Map<String, SensorBoosterScript> load() {
+        public synchronized Map<Integer, SensorBoosterScript> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SensorBoosterScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -178,7 +178,7 @@ public class SensorBoosterScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorBoosterScript> types;
+            public LinkedHashMap<Integer, SensorBoosterScript> types;
         }
     }
 }

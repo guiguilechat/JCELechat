@@ -85,7 +85,7 @@ public class EntosisLinkBlueprint
         implements IMetaGroup<EntosisLinkBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/EntosisLinkBlueprint.yaml";
-        private Map<String, EntosisLinkBlueprint> cache = (null);
+        private Map<Integer, EntosisLinkBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super EntosisLinkBlueprint> category() {
@@ -103,7 +103,7 @@ public class EntosisLinkBlueprint
         }
 
         @Override
-        public synchronized Map<String, EntosisLinkBlueprint> load() {
+        public synchronized Map<Integer, EntosisLinkBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EntosisLinkBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -117,7 +117,7 @@ public class EntosisLinkBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EntosisLinkBlueprint> types;
+            public LinkedHashMap<Integer, EntosisLinkBlueprint> types;
         }
     }
 }

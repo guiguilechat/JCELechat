@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Biochemical Reactor Time Efficiency I:
+  46492:
     canfitshipgroup03: 1406
     disallowinhighsec: 1
     hp: 40.0
@@ -23,7 +23,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Biochemical Reactor Time Efficiency II:
+  46493:
     canfitshipgroup03: 1406
     disallowinhighsec: 1
     hp: 40.0

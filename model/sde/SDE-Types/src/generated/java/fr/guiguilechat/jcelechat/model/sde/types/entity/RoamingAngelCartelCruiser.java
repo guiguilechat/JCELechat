@@ -1013,7 +1013,7 @@ public class RoamingAngelCartelCruiser
         implements IMetaGroup<RoamingAngelCartelCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/RoamingAngelCartelCruiser.yaml";
-        private Map<String, RoamingAngelCartelCruiser> cache = (null);
+        private Map<Integer, RoamingAngelCartelCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super RoamingAngelCartelCruiser> category() {
@@ -1031,7 +1031,7 @@ public class RoamingAngelCartelCruiser
         }
 
         @Override
-        public synchronized Map<String, RoamingAngelCartelCruiser> load() {
+        public synchronized Map<Integer, RoamingAngelCartelCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RoamingAngelCartelCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1045,7 +1045,7 @@ public class RoamingAngelCartelCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingAngelCartelCruiser> types;
+            public LinkedHashMap<Integer, RoamingAngelCartelCruiser> types;
         }
     }
 }

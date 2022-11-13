@@ -32,7 +32,7 @@ public class SalvageContainers
         implements IMetaGroup<SalvageContainers>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/SalvageContainers.yaml";
-        private Map<String, SalvageContainers> cache = (null);
+        private Map<Integer, SalvageContainers> cache = (null);
 
         @Override
         public IMetaCategory<? super SalvageContainers> category() {
@@ -50,7 +50,7 @@ public class SalvageContainers
         }
 
         @Override
-        public synchronized Map<String, SalvageContainers> load() {
+        public synchronized Map<Integer, SalvageContainers> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SalvageContainers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class SalvageContainers
         }
 
         private static class Container {
-            public LinkedHashMap<String, SalvageContainers> types;
+            public LinkedHashMap<Integer, SalvageContainers> types;
         }
     }
 }

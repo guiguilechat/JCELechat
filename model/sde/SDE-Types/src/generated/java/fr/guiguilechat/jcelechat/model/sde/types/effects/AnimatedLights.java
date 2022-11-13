@@ -32,7 +32,7 @@ public class AnimatedLights
         implements IMetaGroup<AnimatedLights>
     {
         public static final String RESOURCE_PATH = "SDE/types/effects/AnimatedLights.yaml";
-        private Map<String, AnimatedLights> cache = (null);
+        private Map<Integer, AnimatedLights> cache = (null);
 
         @Override
         public IMetaCategory<? super AnimatedLights> category() {
@@ -50,7 +50,7 @@ public class AnimatedLights
         }
 
         @Override
-        public synchronized Map<String, AnimatedLights> load() {
+        public synchronized Map<Integer, AnimatedLights> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AnimatedLights.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class AnimatedLights
         }
 
         private static class Container {
-            public LinkedHashMap<String, AnimatedLights> types;
+            public LinkedHashMap<Integer, AnimatedLights> types;
         }
     }
 }

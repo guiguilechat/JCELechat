@@ -257,7 +257,7 @@ public class RigCore
         implements IMetaGroup<RigCore>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigCore.yaml";
-        private Map<String, RigCore> cache = (null);
+        private Map<Integer, RigCore> cache = (null);
 
         @Override
         public IMetaCategory<? super RigCore> category() {
@@ -275,7 +275,7 @@ public class RigCore
         }
 
         @Override
-        public synchronized Map<String, RigCore> load() {
+        public synchronized Map<Integer, RigCore> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigCore.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -289,7 +289,7 @@ public class RigCore
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigCore> types;
+            public LinkedHashMap<Integer, RigCore> types;
         }
     }
 }

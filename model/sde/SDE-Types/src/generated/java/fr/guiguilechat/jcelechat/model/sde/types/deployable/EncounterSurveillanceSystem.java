@@ -202,7 +202,7 @@ public class EncounterSurveillanceSystem
         implements IMetaGroup<EncounterSurveillanceSystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/EncounterSurveillanceSystem.yaml";
-        private Map<String, EncounterSurveillanceSystem> cache = (null);
+        private Map<Integer, EncounterSurveillanceSystem> cache = (null);
 
         @Override
         public IMetaCategory<? super EncounterSurveillanceSystem> category() {
@@ -220,7 +220,7 @@ public class EncounterSurveillanceSystem
         }
 
         @Override
-        public synchronized Map<String, EncounterSurveillanceSystem> load() {
+        public synchronized Map<Integer, EncounterSurveillanceSystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EncounterSurveillanceSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -234,7 +234,7 @@ public class EncounterSurveillanceSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, EncounterSurveillanceSystem> types;
+            public LinkedHashMap<Integer, EncounterSurveillanceSystem> types;
         }
     }
 }

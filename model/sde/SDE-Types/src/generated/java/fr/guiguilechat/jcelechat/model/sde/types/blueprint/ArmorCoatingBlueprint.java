@@ -97,7 +97,7 @@ public class ArmorCoatingBlueprint
         implements IMetaGroup<ArmorCoatingBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ArmorCoatingBlueprint.yaml";
-        private Map<String, ArmorCoatingBlueprint> cache = (null);
+        private Map<Integer, ArmorCoatingBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorCoatingBlueprint> category() {
@@ -115,7 +115,7 @@ public class ArmorCoatingBlueprint
         }
 
         @Override
-        public synchronized Map<String, ArmorCoatingBlueprint> load() {
+        public synchronized Map<Integer, ArmorCoatingBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorCoatingBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ArmorCoatingBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorCoatingBlueprint> types;
+            public LinkedHashMap<Integer, ArmorCoatingBlueprint> types;
         }
     }
 }

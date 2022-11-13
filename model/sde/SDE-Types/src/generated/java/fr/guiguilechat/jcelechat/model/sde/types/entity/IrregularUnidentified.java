@@ -386,7 +386,7 @@ public class IrregularUnidentified
         implements IMetaGroup<IrregularUnidentified>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularUnidentified.yaml";
-        private Map<String, IrregularUnidentified> cache = (null);
+        private Map<Integer, IrregularUnidentified> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularUnidentified> category() {
@@ -404,7 +404,7 @@ public class IrregularUnidentified
         }
 
         @Override
-        public synchronized Map<String, IrregularUnidentified> load() {
+        public synchronized Map<Integer, IrregularUnidentified> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularUnidentified.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -418,7 +418,7 @@ public class IrregularUnidentified
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularUnidentified> types;
+            public LinkedHashMap<Integer, IrregularUnidentified> types;
         }
     }
 }

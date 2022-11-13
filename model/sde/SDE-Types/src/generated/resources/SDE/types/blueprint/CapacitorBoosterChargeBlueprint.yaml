@@ -1,38 +1,5 @@
 types:
-  Cap Booster 100 Blueprint:
-    id: 3555
-    industryblueprintrank: 1.0
-    marketGroup: 339
-    name: Cap Booster 100 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1000000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Cap Booster 150 Blueprint:
-    id: 11284
-    industryblueprintrank: 2.0
-    marketGroup: 339
-    name: Cap Booster 150 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1750000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Cap Booster 200 Blueprint:
-    id: 11286
-    industryblueprintrank: 2.0
-    marketGroup: 339
-    name: Cap Booster 200 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2500000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Cap Booster 25 Blueprint:
+  1178:
     id: 1178
     industryblueprintrank: 1.0
     marketGroup: 339
@@ -43,27 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Cap Booster 3200 Blueprint:
-    id: 41598
-    marketGroup: 339
-    name: Cap Booster 3200 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E7
-    published: true
-    volume: 0.009999999776482582
-  Cap Booster 400 Blueprint:
-    id: 11288
-    industryblueprintrank: 3.0
-    marketGroup: 339
-    name: Cap Booster 400 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3750000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Cap Booster 50 Blueprint:
+  1179:
     id: 1179
     industryblueprintrank: 2.0
     marketGroup: 339
@@ -74,7 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Cap Booster 75 Blueprint:
+  3553:
     id: 3553
     industryblueprintrank: 1.0
     marketGroup: 339
@@ -85,7 +32,51 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Cap Booster 800 Blueprint:
+  3555:
+    id: 3555
+    industryblueprintrank: 1.0
+    marketGroup: 339
+    name: Cap Booster 100 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  11284:
+    id: 11284
+    industryblueprintrank: 2.0
+    marketGroup: 339
+    name: Cap Booster 150 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1750000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  11286:
+    id: 11286
+    industryblueprintrank: 2.0
+    marketGroup: 339
+    name: Cap Booster 200 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  11288:
+    id: 11288
+    industryblueprintrank: 3.0
+    marketGroup: 339
+    name: Cap Booster 400 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3750000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  11290:
     id: 11290
     industryblueprintrank: 3.0
     marketGroup: 339
@@ -95,4 +86,13 @@ types:
     price: 5000000.0
     published: true
     radius: 1.0
+    volume: 0.009999999776482582
+  41598:
+    id: 41598
+    marketGroup: 339
+    name: Cap Booster 3200 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E7
+    published: true
     volume: 0.009999999776482582

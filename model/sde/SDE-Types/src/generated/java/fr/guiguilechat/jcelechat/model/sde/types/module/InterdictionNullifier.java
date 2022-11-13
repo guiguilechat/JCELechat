@@ -322,7 +322,7 @@ public class InterdictionNullifier
         implements IMetaGroup<InterdictionNullifier>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/InterdictionNullifier.yaml";
-        private Map<String, InterdictionNullifier> cache = (null);
+        private Map<Integer, InterdictionNullifier> cache = (null);
 
         @Override
         public IMetaCategory<? super InterdictionNullifier> category() {
@@ -340,7 +340,7 @@ public class InterdictionNullifier
         }
 
         @Override
-        public synchronized Map<String, InterdictionNullifier> load() {
+        public synchronized Map<Integer, InterdictionNullifier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InterdictionNullifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -354,7 +354,7 @@ public class InterdictionNullifier
         }
 
         private static class Container {
-            public LinkedHashMap<String, InterdictionNullifier> types;
+            public LinkedHashMap<Integer, InterdictionNullifier> types;
         }
     }
 }

@@ -1,23 +1,5 @@
 types:
-  Triglavian Holographic Transcriber:
-    id: 55832
-    marketGroup: 2480
-    mass: 20.0
-    name: Triglavian Holographic Transcriber
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Triglavian Sublight Telemeter:
-    id: 55830
-    marketGroup: 2480
-    mass: 20.0
-    name: Triglavian Sublight Telemeter
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Triglavian Survey Database:
+  48121:
     id: 48121
     marketGroup: 2480
     mass: 1.0
@@ -27,7 +9,16 @@ types:
     price: 100000.0
     published: true
     volume: 0.009999999776482582
-  Triglavian Transconduit Datacaster:
+  55830:
+    id: 55830
+    marketGroup: 2480
+    mass: 20.0
+    name: Triglavian Sublight Telemeter
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  55831:
     id: 55831
     marketGroup: 2480
     mass: 20.0
@@ -36,3 +27,12 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  55832:
+    id: 55832
+    marketGroup: 2480
+    mass: 20.0
+    name: Triglavian Holographic Transcriber
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

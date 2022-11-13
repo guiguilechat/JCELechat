@@ -1,5 +1,5 @@
 types:
-  Ship Scanner I:
+  443:
     capacitorneed: 5.0
     cpu: 15.0
     disallowrepeatingactivation: 1
@@ -20,7 +20,7 @@ types:
     slots: 1
     techlevel: 1
     volume: 5.0
-  Ship Scanner II:
+  1855:
     capacitorneed: 5.0
     cpu: 17.0
     disallowrepeatingactivation: 1
@@ -42,7 +42,7 @@ types:
     slots: 1
     techlevel: 2
     volume: 5.0
-  Ta3 Compact Ship Scanner:
+  6527:
     capacitorneed: 5.0
     cpu: 11.0
     disallowrepeatingactivation: 1

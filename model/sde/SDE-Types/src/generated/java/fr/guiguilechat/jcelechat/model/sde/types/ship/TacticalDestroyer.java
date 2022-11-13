@@ -467,7 +467,7 @@ public class TacticalDestroyer
         implements IMetaGroup<TacticalDestroyer>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/TacticalDestroyer.yaml";
-        private Map<String, TacticalDestroyer> cache = (null);
+        private Map<Integer, TacticalDestroyer> cache = (null);
 
         @Override
         public IMetaCategory<? super TacticalDestroyer> category() {
@@ -485,7 +485,7 @@ public class TacticalDestroyer
         }
 
         @Override
-        public synchronized Map<String, TacticalDestroyer> load() {
+        public synchronized Map<Integer, TacticalDestroyer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TacticalDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -499,7 +499,7 @@ public class TacticalDestroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, TacticalDestroyer> types;
+            public LinkedHashMap<Integer, TacticalDestroyer> types;
         }
     }
 }

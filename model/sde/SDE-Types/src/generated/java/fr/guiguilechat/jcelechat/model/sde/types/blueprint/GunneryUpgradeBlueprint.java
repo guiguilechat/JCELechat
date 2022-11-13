@@ -97,7 +97,7 @@ public class GunneryUpgradeBlueprint
         implements IMetaGroup<GunneryUpgradeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/GunneryUpgradeBlueprint.yaml";
-        private Map<String, GunneryUpgradeBlueprint> cache = (null);
+        private Map<Integer, GunneryUpgradeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super GunneryUpgradeBlueprint> category() {
@@ -115,7 +115,7 @@ public class GunneryUpgradeBlueprint
         }
 
         @Override
-        public synchronized Map<String, GunneryUpgradeBlueprint> load() {
+        public synchronized Map<Integer, GunneryUpgradeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GunneryUpgradeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class GunneryUpgradeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, GunneryUpgradeBlueprint> types;
+            public LinkedHashMap<Integer, GunneryUpgradeBlueprint> types;
         }
     }
 }

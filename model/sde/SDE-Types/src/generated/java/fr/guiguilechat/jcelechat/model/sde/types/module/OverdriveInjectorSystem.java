@@ -121,7 +121,7 @@ public class OverdriveInjectorSystem
         implements IMetaGroup<OverdriveInjectorSystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/OverdriveInjectorSystem.yaml";
-        private Map<String, OverdriveInjectorSystem> cache = (null);
+        private Map<Integer, OverdriveInjectorSystem> cache = (null);
 
         @Override
         public IMetaCategory<? super OverdriveInjectorSystem> category() {
@@ -139,7 +139,7 @@ public class OverdriveInjectorSystem
         }
 
         @Override
-        public synchronized Map<String, OverdriveInjectorSystem> load() {
+        public synchronized Map<Integer, OverdriveInjectorSystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(OverdriveInjectorSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -153,7 +153,7 @@ public class OverdriveInjectorSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, OverdriveInjectorSystem> types;
+            public LinkedHashMap<Integer, OverdriveInjectorSystem> types;
         }
     }
 }

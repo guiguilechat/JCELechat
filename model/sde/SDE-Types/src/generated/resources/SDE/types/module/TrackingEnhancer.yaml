@@ -1,5 +1,5 @@
 types:
-  '''Basic'' Tracking Enhancer':
+  1951:
     cpu: 4.0
     falloffbonus: 10.0
     hp: 40.0
@@ -20,7 +20,66 @@ types:
     techlevel: 1
     trackingspeedbonus: 6.0
     volume: 5.0
-  Domination Tracking Enhancer:
+  1998:
+    cpu: 10.0
+    falloffbonus: 14.5
+    hp: 40.0
+    id: 1998
+    marketGroup: 707
+    mass: 20.0
+    maxrangebonus: 7.25
+    name: Tracking Enhancer I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 7.0
+    volume: 5.0
+  1999:
+    cpu: 15.0
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 1999
+    marketGroup: 707
+    mass: 30.0
+    maxrangebonus: 10.0
+    metalevelold: 5
+    name: Tracking Enhancer II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    techlevel: 2
+    trackingspeedbonus: 9.5
+    volume: 5.0
+  6325:
+    cpu: 8.0
+    falloffbonus: 16.5
+    hp: 40.0
+    id: 6325
+    marketGroup: 707
+    mass: 20.0
+    maxrangebonus: 8.25
+    metalevelold: 1
+    name: Fourier Compact Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 8.0
+    volume: 5.0
+  14100:
     cpu: 8.0
     falloffbonus: 21.0
     hp: 40.0
@@ -41,69 +100,7 @@ types:
     techlevel: 1
     trackingspeedbonus: 10.0
     volume: 5.0
-  Fourier Compact Tracking Enhancer:
-    cpu: 8.0
-    falloffbonus: 16.5
-    hp: 40.0
-    id: 6325
-    marketGroup: 707
-    mass: 20.0
-    maxrangebonus: 8.25
-    metalevelold: 1
-    name: Fourier Compact Tracking Enhancer
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    techlevel: 1
-    trackingspeedbonus: 8.0
-    volume: 5.0
-  Gotan's Modified Tracking Enhancer:
-    cpu: 16.0
-    falloffbonus: 24.0
-    hp: 40.0
-    id: 14644
-    marketGroup: 707
-    mass: 20.0
-    maxrangebonus: 12.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Gotan's Modified Tracking Enhancer
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    techlevel: 1
-    trackingspeedbonus: 17.5
-    volume: 5.0
-  Hakim's Modified Tracking Enhancer:
-    cpu: 14.0
-    falloffbonus: 23.0
-    hp: 40.0
-    id: 14642
-    marketGroup: 707
-    mass: 20.0
-    maxrangebonus: 11.5
-    metagroupid: 5
-    metalevelold: 13
-    name: Hakim's Modified Tracking Enhancer
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    volume: 5.0
-  Mizuro's Modified Tracking Enhancer:
+  14640:
     cpu: 12.0
     falloffbonus: 22.0
     hp: 40.0
@@ -124,17 +121,17 @@ types:
     techlevel: 1
     trackingspeedbonus: 12.5
     volume: 5.0
-  Republic Fleet Tracking Enhancer:
-    cpu: 8.0
-    falloffbonus: 21.0
+  14642:
+    cpu: 14.0
+    falloffbonus: 23.0
     hp: 40.0
-    id: 15965
+    id: 14642
     marketGroup: 707
     mass: 20.0
-    maxrangebonus: 10.5
-    metagroupid: 4
-    metalevelold: 8
-    name: Republic Fleet Tracking Enhancer
+    maxrangebonus: 11.5
+    metagroupid: 5
+    metalevelold: 13
+    name: Hakim's Modified Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -143,9 +140,30 @@ types:
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
-    trackingspeedbonus: 10.0
+    trackingspeedbonus: 15.0
     volume: 5.0
-  Tobias' Modified Tracking Enhancer:
+  14644:
+    cpu: 16.0
+    falloffbonus: 24.0
+    hp: 40.0
+    id: 14644
+    marketGroup: 707
+    mass: 20.0
+    maxrangebonus: 12.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Gotan's Modified Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 17.5
+    volume: 5.0
+  14646:
     cpu: 18.0
     falloffbonus: 25.0
     hp: 40.0
@@ -166,15 +184,17 @@ types:
     techlevel: 1
     trackingspeedbonus: 20.0
     volume: 5.0
-  Tracking Enhancer I:
-    cpu: 10.0
-    falloffbonus: 14.5
+  15965:
+    cpu: 8.0
+    falloffbonus: 21.0
     hp: 40.0
-    id: 1998
+    id: 15965
     marketGroup: 707
     mass: 20.0
-    maxrangebonus: 7.25
-    name: Tracking Enhancer I
+    maxrangebonus: 10.5
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -183,25 +203,5 @@ types:
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
-    trackingspeedbonus: 7.0
-    volume: 5.0
-  Tracking Enhancer II:
-    cpu: 15.0
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 1999
-    marketGroup: 707
-    mass: 30.0
-    maxrangebonus: 10.0
-    metalevelold: 5
-    name: Tracking Enhancer II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 4
-    techlevel: 2
-    trackingspeedbonus: 9.5
+    trackingspeedbonus: 10.0
     volume: 5.0

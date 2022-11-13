@@ -245,7 +245,7 @@ public class GasCloudHarvesters
         implements IMetaGroup<GasCloudHarvesters>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/GasCloudHarvesters.yaml";
-        private Map<String, GasCloudHarvesters> cache = (null);
+        private Map<Integer, GasCloudHarvesters> cache = (null);
 
         @Override
         public IMetaCategory<? super GasCloudHarvesters> category() {
@@ -263,7 +263,7 @@ public class GasCloudHarvesters
         }
 
         @Override
-        public synchronized Map<String, GasCloudHarvesters> load() {
+        public synchronized Map<Integer, GasCloudHarvesters> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GasCloudHarvesters.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -277,7 +277,7 @@ public class GasCloudHarvesters
         }
 
         private static class Container {
-            public LinkedHashMap<String, GasCloudHarvesters> types;
+            public LinkedHashMap<Integer, GasCloudHarvesters> types;
         }
     }
 }

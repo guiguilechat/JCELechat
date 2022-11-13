@@ -1,22 +1,5 @@
 types:
-  Experimental Hyperspatial Accelerator:
-    hp: 40.0
-    id: 33983
-    marketGroup: 1931
-    mass: 50.0
-    maxgroupfitted: 3
-    name: Experimental Hyperspatial Accelerator
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 50.0
-    requiredskill1: 3455
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-    warpspeedadd: 0.25
-  Limited Hyperspatial Accelerator:
+  33981:
     hp: 40.0
     id: 33981
     marketGroup: 1931
@@ -33,7 +16,24 @@ types:
     techlevel: 1
     volume: 5.0
     warpspeedadd: 0.20000000298023224
-  Prototype Hyperspatial Accelerator:
+  33983:
+    hp: 40.0
+    id: 33983
+    marketGroup: 1931
+    mass: 50.0
+    maxgroupfitted: 3
+    name: Experimental Hyperspatial Accelerator
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3455
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+    warpspeedadd: 0.25
+  33985:
     hp: 40.0
     id: 33985
     marketGroup: 1931

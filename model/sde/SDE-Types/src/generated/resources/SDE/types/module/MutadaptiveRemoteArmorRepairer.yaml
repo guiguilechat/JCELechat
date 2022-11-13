@@ -1,36 +1,5 @@
 types:
-  Heavy Mutadaptive Compact Remote Armor Repairer:
-    armordamageamount: 448.0
-    canfitshiptype1: 49712
-    canfitshiptype2: 49713
-    capacitorneed: 465.0
-    cpu: 48.0
-    duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0
-    hp: 40.0
-    id: 49772
-    marketGroup: 2529
-    mass: 20.0
-    maxgroupfitted: 1
-    maxrange: 10750.0
-    metalevelold: 1
-    name: Heavy Mutadaptive Compact Remote Armor Repairer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 330
-    price: 12470.0
-    published: true
-    radius: 1.0
-    repairmultiplierbonusmax: 1.5
-    repairmultiplierbonuspercycle: 0.10000000149011612
-    requiredskill1: 16069
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 10.0
-  Heavy Mutadaptive Remote Armor Repairer I:
+  49770:
     armordamageamount: 392.0
     canfitshiptype1: 49712
     canfitshiptype2: 49713
@@ -60,38 +29,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 10.0
-  Heavy Mutadaptive Remote Armor Repairer II:
-    armordamageamount: 512.0
-    canfitshiptype1: 49712
-    canfitshiptype2: 49713
-    capacitorneed: 513.0
-    cpu: 72.0
-    duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0
-    hp: 40.0
-    id: 49773
-    marketGroup: 2529
-    mass: 20.0
-    maxgroupfitted: 1
-    maxrange: 12000.0
-    metalevelold: 5
-    name: Heavy Mutadaptive Remote Armor Repairer II
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 396
-    price: 12470.0
-    published: true
-    radius: 1.0
-    repairmultiplierbonusmax: 1.5
-    repairmultiplierbonuspercycle: 0.10000000149011612
-    requiredskill1: 16069
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 10.0
-  Heavy Mutadaptive Scoped Remote Armor Repairer:
+  49771:
     armordamageamount: 448.0
     canfitshiptype1: 49712
     canfitshiptype2: 49713
@@ -122,7 +60,69 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 10.0
-  Perun Heavy Mutadaptive Remote Armor Repairer:
+  49772:
+    armordamageamount: 448.0
+    canfitshiptype1: 49712
+    canfitshiptype2: 49713
+    capacitorneed: 465.0
+    cpu: 48.0
+    duration: 6000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
+    id: 49772
+    marketGroup: 2529
+    mass: 20.0
+    maxgroupfitted: 1
+    maxrange: 10750.0
+    metalevelold: 1
+    name: Heavy Mutadaptive Compact Remote Armor Repairer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 330
+    price: 12470.0
+    published: true
+    radius: 1.0
+    repairmultiplierbonusmax: 1.5
+    repairmultiplierbonuspercycle: 0.10000000149011612
+    requiredskill1: 16069
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  49773:
+    armordamageamount: 512.0
+    canfitshiptype1: 49712
+    canfitshiptype2: 49713
+    capacitorneed: 513.0
+    cpu: 72.0
+    duration: 6000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
+    id: 49773
+    marketGroup: 2529
+    mass: 20.0
+    maxgroupfitted: 1
+    maxrange: 12000.0
+    metalevelold: 5
+    name: Heavy Mutadaptive Remote Armor Repairer II
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 396
+    price: 12470.0
+    published: true
+    radius: 1.0
+    repairmultiplierbonusmax: 1.5
+    repairmultiplierbonuspercycle: 0.10000000149011612
+    requiredskill1: 16069
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 10.0
+  49774:
     armordamageamount: 496.0
     canfitshiptype1: 49712
     canfitshiptype2: 49713

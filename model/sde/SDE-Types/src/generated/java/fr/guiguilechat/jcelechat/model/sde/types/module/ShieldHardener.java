@@ -253,7 +253,7 @@ public class ShieldHardener
         implements IMetaGroup<ShieldHardener>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ShieldHardener.yaml";
-        private Map<String, ShieldHardener> cache = (null);
+        private Map<Integer, ShieldHardener> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldHardener> category() {
@@ -271,7 +271,7 @@ public class ShieldHardener
         }
 
         @Override
-        public synchronized Map<String, ShieldHardener> load() {
+        public synchronized Map<Integer, ShieldHardener> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldHardener.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class ShieldHardener
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldHardener> types;
+            public LinkedHashMap<Integer, ShieldHardener> types;
         }
     }
 }

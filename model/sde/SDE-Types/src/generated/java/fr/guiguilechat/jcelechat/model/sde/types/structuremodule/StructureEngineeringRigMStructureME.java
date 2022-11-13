@@ -289,7 +289,7 @@ public class StructureEngineeringRigMStructureME
         implements IMetaGroup<StructureEngineeringRigMStructureME>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMStructureME.yaml";
-        private Map<String, StructureEngineeringRigMStructureME> cache = (null);
+        private Map<Integer, StructureEngineeringRigMStructureME> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMStructureME> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMStructureME
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMStructureME> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMStructureME> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMStructureME.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMStructureME
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMStructureME> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMStructureME> types;
         }
     }
 }

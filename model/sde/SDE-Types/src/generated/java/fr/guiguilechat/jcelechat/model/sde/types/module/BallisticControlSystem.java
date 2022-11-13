@@ -193,7 +193,7 @@ public class BallisticControlSystem
         implements IMetaGroup<BallisticControlSystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/BallisticControlSystem.yaml";
-        private Map<String, BallisticControlSystem> cache = (null);
+        private Map<Integer, BallisticControlSystem> cache = (null);
 
         @Override
         public IMetaCategory<? super BallisticControlSystem> category() {
@@ -211,7 +211,7 @@ public class BallisticControlSystem
         }
 
         @Override
-        public synchronized Map<String, BallisticControlSystem> load() {
+        public synchronized Map<Integer, BallisticControlSystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BallisticControlSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -225,7 +225,7 @@ public class BallisticControlSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, BallisticControlSystem> types;
+            public LinkedHashMap<Integer, BallisticControlSystem> types;
         }
     }
 }

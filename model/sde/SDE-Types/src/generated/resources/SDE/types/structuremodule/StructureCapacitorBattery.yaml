@@ -1,5 +1,5 @@
 types:
-  Standup Cap Battery I:
+  47352:
     capacitorbonus: 50000
     cpu: 4000.0
     hp: 40.0
@@ -15,7 +15,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Cap Battery II:
+  47353:
     capacitorbonus: 62500
     cpu: 4800.0
     hp: 40.0

@@ -1073,7 +1073,7 @@ public class MissionGenericDestroyers
         implements IMetaGroup<MissionGenericDestroyers>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionGenericDestroyers.yaml";
-        private Map<String, MissionGenericDestroyers> cache = (null);
+        private Map<Integer, MissionGenericDestroyers> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionGenericDestroyers> category() {
@@ -1091,7 +1091,7 @@ public class MissionGenericDestroyers
         }
 
         @Override
-        public synchronized Map<String, MissionGenericDestroyers> load() {
+        public synchronized Map<Integer, MissionGenericDestroyers> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionGenericDestroyers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1105,7 +1105,7 @@ public class MissionGenericDestroyers
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionGenericDestroyers> types;
+            public LinkedHashMap<Integer, MissionGenericDestroyers> types;
         }
     }
 }

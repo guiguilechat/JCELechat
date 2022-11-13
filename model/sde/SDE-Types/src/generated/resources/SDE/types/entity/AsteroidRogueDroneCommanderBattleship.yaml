@@ -1,181 +1,5 @@
 types:
-  Sentient Alvus Controller:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.30000001192092896
-    armorhp: 6500.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 950.0
-    damagemultiplier: 6.25
-    disallowassistance: 1
-    entityarmorrepairamount: 438.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 15600
-    entityattackdelaymin: 3900
-    entityattackrange: 21600
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.625
-    entitychasemaxdistance: 14400
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 175.0
-    entitydefenderchance: 0.13124999403953552
-    entityequipmentgroupmax: 6
-    entityequipmentmax: 6
-    entityequipmentmin: 3
-    entityflyrange: 7200.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 13875000
-    entitylootcountmax: 10
-    entitylootcountmin: 3
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.5
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancelarge: 0.6000000238418579
-    entityshieldboostduration: 5000
-    entitystrength: 4
-    explosivedamage: 32.0
-    falloff: 20000.0
-    gfxboosterid: 394
-    gfxturretid: 568
-    hp: 8000.0
-    id: 27723
-    kineticdamage: 8.0
-    mass: 2.1E7
-    maxattacktargets: 1
-    maxlockedtargets: 4
-    maxrange: 4000.0
-    maxvelocity: 350.0
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.5899999737739563
-    missileentityaoevelocitymultiplier: 1.7799999713897705
-    missileentityflighttimemultiplier: 1.426200032234192
-    missileentityvelocitymultiplier: 1.426200032234192
-    missilelaunchduration: 1.0
-    name: Sentient Alvus Controller
-    optimalsigradius: 400
-    packagedVolume: 1010000.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 250.0
-    rechargerate: 2000000.0
-    scanladarstrength: 25.0
-    scanmagnetometricstrength: 20.0
-    scanresolution: 115.0
-    scanspeed: 2000
-    shieldcapacity: 3500.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.4000000059604645
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 350.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    trackingspeed: 0.06750000268220901
-    volume: 1010000.0
-  Sentient Alvus Creator:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5400000214576721
-    armorexplosivedamageresonance: 0.23999999463558197
-    armorhp: 6500.0
-    armorkineticdamageresonance: 0.3400000035762787
-    armorthermaldamageresonance: 0.4399999976158142
-    armoruniformity: 0.75
-    capacitorcapacity: 3600.0
-    capacity: 950.0
-    damagemultiplier: 8.645833015441895
-    disallowassistance: 1
-    entityarmorrepairamount: 738.0
-    entityarmorrepairdelaychance: 0.7099999785423279
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 13800
-    entityattackdelaymin: 3450
-    entityattackrange: 19500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.625
-    entitychasemaxdistance: 13000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 175.0
-    entitydefenderchance: 0.16875000298023224
-    entityequipmentgroupmax: 6
-    entityequipmentmax: 6
-    entityequipmentmin: 3
-    entityflyrange: 6500.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 7125000
-    entitylootcountmax: 10
-    entitylootcountmin: 3
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8299999833106995
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.3799999952316284
-    entityshieldboostdelaychance: 0.7099999785423279
-    entityshieldboostdelaychancelarge: 0.6600000262260437
-    entityshieldboostduration: 5000
-    entitystrength: 4
-    explosivedamage: 32.0
-    falloff: 20000.0
-    gfxboosterid: 394
-    gfxturretid: 568
-    hp: 8000.0
-    id: 27724
-    kineticdamage: 8.0
-    mass: 2.1E7
-    maxattacktargets: 1
-    maxlockedtargets: 4
-    maxrange: 3125.0
-    maxvelocity: 350.0
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.5699999928474426
-    missileentityaoevelocitymultiplier: 1.840000033378601
-    missileentityflighttimemultiplier: 1.4753999710083008
-    missileentityvelocitymultiplier: 1.4753999710083008
-    missilelaunchduration: 1.0
-    name: Sentient Alvus Creator
-    optimalsigradius: 400
-    packagedVolume: 1010000.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 250.0
-    rechargerate: 2000000.0
-    scanladarstrength: 28.0
-    scanmagnetometricstrength: 24.0
-    scanresolution: 100.0
-    scanspeed: 2000
-    shieldcapacity: 3500.0
-    shieldemdamageresonance: 0.5400000214576721
-    shieldexplosivedamageresonance: 0.23999999463558197
-    shieldkineticdamageresonance: 0.3400000035762787
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.4399999976158142
-    shielduniformity: 0.75
-    signatureradius: 350.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    trackingspeed: 0.05400000140070915
-    volume: 1010000.0
-  Sentient Alvus Queen:
+  27722:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -265,7 +89,183 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.011250000447034836
     volume: 1010000.0
-  Sentient Alvus Ruler:
+  27723:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.30000001192092896
+    armorhp: 6500.0
+    armorkineticdamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 950.0
+    damagemultiplier: 6.25
+    disallowassistance: 1
+    entityarmorrepairamount: 438.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 15600
+    entityattackdelaymin: 3900
+    entityattackrange: 21600
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.625
+    entitychasemaxdistance: 14400
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 175.0
+    entitydefenderchance: 0.13124999403953552
+    entityequipmentgroupmax: 6
+    entityequipmentmax: 6
+    entityequipmentmin: 3
+    entityflyrange: 7200.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 13875000
+    entitylootcountmax: 10
+    entitylootcountmin: 3
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7699999809265137
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.5
+    entityshieldboostdelaychance: 0.6499999761581421
+    entityshieldboostdelaychancelarge: 0.6000000238418579
+    entityshieldboostduration: 5000
+    entitystrength: 4
+    explosivedamage: 32.0
+    falloff: 20000.0
+    gfxboosterid: 394
+    gfxturretid: 568
+    hp: 8000.0
+    id: 27723
+    kineticdamage: 8.0
+    mass: 2.1E7
+    maxattacktargets: 1
+    maxlockedtargets: 4
+    maxrange: 4000.0
+    maxvelocity: 350.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.5899999737739563
+    missileentityaoevelocitymultiplier: 1.7799999713897705
+    missileentityflighttimemultiplier: 1.426200032234192
+    missileentityvelocitymultiplier: 1.426200032234192
+    missilelaunchduration: 1.0
+    name: Sentient Alvus Controller
+    optimalsigradius: 400
+    packagedVolume: 1010000.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 250.0
+    rechargerate: 2000000.0
+    scanladarstrength: 25.0
+    scanmagnetometricstrength: 20.0
+    scanresolution: 115.0
+    scanspeed: 2000
+    shieldcapacity: 3500.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.30000001192092896
+    shieldkineticdamageresonance: 0.4000000059604645
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 350.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    trackingspeed: 0.06750000268220901
+    volume: 1010000.0
+  27724:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5400000214576721
+    armorexplosivedamageresonance: 0.23999999463558197
+    armorhp: 6500.0
+    armorkineticdamageresonance: 0.3400000035762787
+    armorthermaldamageresonance: 0.4399999976158142
+    armoruniformity: 0.75
+    capacitorcapacity: 3600.0
+    capacity: 950.0
+    damagemultiplier: 8.645833015441895
+    disallowassistance: 1
+    entityarmorrepairamount: 738.0
+    entityarmorrepairdelaychance: 0.7099999785423279
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 13800
+    entityattackdelaymin: 3450
+    entityattackrange: 19500
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.625
+    entitychasemaxdistance: 13000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 175.0
+    entitydefenderchance: 0.16875000298023224
+    entityequipmentgroupmax: 6
+    entityequipmentmax: 6
+    entityequipmentmin: 3
+    entityflyrange: 6500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 7125000
+    entitylootcountmax: 10
+    entitylootcountmin: 3
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8299999833106995
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.3799999952316284
+    entityshieldboostdelaychance: 0.7099999785423279
+    entityshieldboostdelaychancelarge: 0.6600000262260437
+    entityshieldboostduration: 5000
+    entitystrength: 4
+    explosivedamage: 32.0
+    falloff: 20000.0
+    gfxboosterid: 394
+    gfxturretid: 568
+    hp: 8000.0
+    id: 27724
+    kineticdamage: 8.0
+    mass: 2.1E7
+    maxattacktargets: 1
+    maxlockedtargets: 4
+    maxrange: 3125.0
+    maxvelocity: 350.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.5699999928474426
+    missileentityaoevelocitymultiplier: 1.840000033378601
+    missileentityflighttimemultiplier: 1.4753999710083008
+    missileentityvelocitymultiplier: 1.4753999710083008
+    missilelaunchduration: 1.0
+    name: Sentient Alvus Creator
+    optimalsigradius: 400
+    packagedVolume: 1010000.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 250.0
+    rechargerate: 2000000.0
+    scanladarstrength: 28.0
+    scanmagnetometricstrength: 24.0
+    scanresolution: 100.0
+    scanspeed: 2000
+    shieldcapacity: 3500.0
+    shieldemdamageresonance: 0.5400000214576721
+    shieldexplosivedamageresonance: 0.23999999463558197
+    shieldkineticdamageresonance: 0.3400000035762787
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.4399999976158142
+    shielduniformity: 0.75
+    signatureradius: 350.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    trackingspeed: 0.05400000140070915
+    volume: 1010000.0
+  27725:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -355,7 +355,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.01406249962747097
     volume: 1010000.0
-  Sentient Domination Alvus:
+  27726:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -444,7 +444,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.05999999865889549
     volume: 1010000.0
-  Sentient Matriarch Alvus:
+  27727:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -533,7 +533,7 @@ types:
     thermaldamage: 32.0
     trackingspeed: 0.011250000447034836
     volume: 1010000.0
-  Sentient Patriarch Alvus:
+  27728:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -621,7 +621,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.05400000140070915
     volume: 1010000.0
-  Sentient Spearhead Alvus:
+  27729:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -709,7 +709,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.05999999865889549
     volume: 1010000.0
-  Sentient Supreme Alvus Parasite:
+  27730:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -798,7 +798,7 @@ types:
     thermaldamage: 32.0
     trackingspeed: 0.01406249962747097
     volume: 1010000.0
-  Sentient Swarm Preserver Alvus:
+  27731:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

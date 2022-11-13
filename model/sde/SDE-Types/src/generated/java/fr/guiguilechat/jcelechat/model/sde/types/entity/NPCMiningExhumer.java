@@ -531,7 +531,7 @@ public class NPCMiningExhumer
         implements IMetaGroup<NPCMiningExhumer>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCMiningExhumer.yaml";
-        private Map<String, NPCMiningExhumer> cache = (null);
+        private Map<Integer, NPCMiningExhumer> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCMiningExhumer> category() {
@@ -549,7 +549,7 @@ public class NPCMiningExhumer
         }
 
         @Override
-        public synchronized Map<String, NPCMiningExhumer> load() {
+        public synchronized Map<Integer, NPCMiningExhumer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCMiningExhumer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -563,7 +563,7 @@ public class NPCMiningExhumer
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCMiningExhumer> types;
+            public LinkedHashMap<Integer, NPCMiningExhumer> types;
         }
     }
 }

@@ -929,7 +929,7 @@ public class HiddenZenithGallenteFrigate
         implements IMetaGroup<HiddenZenithGallenteFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/HiddenZenithGallenteFrigate.yaml";
-        private Map<String, HiddenZenithGallenteFrigate> cache = (null);
+        private Map<Integer, HiddenZenithGallenteFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super HiddenZenithGallenteFrigate> category() {
@@ -947,7 +947,7 @@ public class HiddenZenithGallenteFrigate
         }
 
         @Override
-        public synchronized Map<String, HiddenZenithGallenteFrigate> load() {
+        public synchronized Map<Integer, HiddenZenithGallenteFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HiddenZenithGallenteFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -961,7 +961,7 @@ public class HiddenZenithGallenteFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, HiddenZenithGallenteFrigate> types;
+            public LinkedHashMap<Integer, HiddenZenithGallenteFrigate> types;
         }
     }
 }

@@ -125,7 +125,7 @@ public class ECMStabilizer
         implements IMetaGroup<ECMStabilizer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ECMStabilizer.yaml";
-        private Map<String, ECMStabilizer> cache = (null);
+        private Map<Integer, ECMStabilizer> cache = (null);
 
         @Override
         public IMetaCategory<? super ECMStabilizer> category() {
@@ -143,7 +143,7 @@ public class ECMStabilizer
         }
 
         @Override
-        public synchronized Map<String, ECMStabilizer> load() {
+        public synchronized Map<Integer, ECMStabilizer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ECMStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -157,7 +157,7 @@ public class ECMStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, ECMStabilizer> types;
+            public LinkedHashMap<Integer, ECMStabilizer> types;
         }
     }
 }

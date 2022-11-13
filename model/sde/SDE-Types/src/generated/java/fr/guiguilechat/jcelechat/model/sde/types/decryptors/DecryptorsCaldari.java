@@ -40,7 +40,7 @@ public class DecryptorsCaldari
         implements IMetaGroup<DecryptorsCaldari>
     {
         public static final String RESOURCE_PATH = "SDE/types/decryptors/DecryptorsCaldari.yaml";
-        private Map<String, DecryptorsCaldari> cache = (null);
+        private Map<Integer, DecryptorsCaldari> cache = (null);
 
         @Override
         public IMetaCategory<? super DecryptorsCaldari> category() {
@@ -58,7 +58,7 @@ public class DecryptorsCaldari
         }
 
         @Override
-        public synchronized Map<String, DecryptorsCaldari> load() {
+        public synchronized Map<Integer, DecryptorsCaldari> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DecryptorsCaldari.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -72,7 +72,7 @@ public class DecryptorsCaldari
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsCaldari> types;
+            public LinkedHashMap<Integer, DecryptorsCaldari> types;
         }
     }
 }

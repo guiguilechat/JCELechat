@@ -97,7 +97,7 @@ public class SalvagerBlueprint
         implements IMetaGroup<SalvagerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SalvagerBlueprint.yaml";
-        private Map<String, SalvagerBlueprint> cache = (null);
+        private Map<Integer, SalvagerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SalvagerBlueprint> category() {
@@ -115,7 +115,7 @@ public class SalvagerBlueprint
         }
 
         @Override
-        public synchronized Map<String, SalvagerBlueprint> load() {
+        public synchronized Map<Integer, SalvagerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SalvagerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class SalvagerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SalvagerBlueprint> types;
+            public LinkedHashMap<Integer, SalvagerBlueprint> types;
         }
     }
 }

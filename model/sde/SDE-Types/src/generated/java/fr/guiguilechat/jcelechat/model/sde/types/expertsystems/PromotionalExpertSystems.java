@@ -32,7 +32,7 @@ public class PromotionalExpertSystems
         implements IMetaGroup<PromotionalExpertSystems>
     {
         public static final String RESOURCE_PATH = "SDE/types/expertsystems/PromotionalExpertSystems.yaml";
-        private Map<String, PromotionalExpertSystems> cache = (null);
+        private Map<Integer, PromotionalExpertSystems> cache = (null);
 
         @Override
         public IMetaCategory<? super PromotionalExpertSystems> category() {
@@ -50,7 +50,7 @@ public class PromotionalExpertSystems
         }
 
         @Override
-        public synchronized Map<String, PromotionalExpertSystems> load() {
+        public synchronized Map<Integer, PromotionalExpertSystems> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PromotionalExpertSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PromotionalExpertSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, PromotionalExpertSystems> types;
+            public LinkedHashMap<Integer, PromotionalExpertSystems> types;
         }
     }
 }

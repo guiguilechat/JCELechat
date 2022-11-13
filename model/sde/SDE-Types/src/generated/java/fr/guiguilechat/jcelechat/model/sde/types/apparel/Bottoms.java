@@ -112,7 +112,7 @@ public class Bottoms
         implements IMetaGroup<Bottoms>
     {
         public static final String RESOURCE_PATH = "SDE/types/apparel/Bottoms.yaml";
-        private Map<String, Bottoms> cache = (null);
+        private Map<Integer, Bottoms> cache = (null);
 
         @Override
         public IMetaCategory<? super Bottoms> category() {
@@ -130,7 +130,7 @@ public class Bottoms
         }
 
         @Override
-        public synchronized Map<String, Bottoms> load() {
+        public synchronized Map<Integer, Bottoms> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Bottoms.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -144,7 +144,7 @@ public class Bottoms
         }
 
         private static class Container {
-            public LinkedHashMap<String, Bottoms> types;
+            public LinkedHashMap<Integer, Bottoms> types;
         }
     }
 }

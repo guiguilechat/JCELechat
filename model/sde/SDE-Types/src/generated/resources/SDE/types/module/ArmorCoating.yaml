@@ -1,5 +1,5 @@
 types:
-  '''Basic'' EM Coating':
+  1193:
     armorhpmultiplier: 1.0
     emdamageresistancebonus: -19.440000534057617
     hp: 40.0
@@ -17,7 +17,42 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 5.0
-  '''Basic'' Explosive Coating':
+  1197:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -21.889999389648438
+    hp: 40.0
+    id: 1197
+    marketGroup: 1668
+    mass: 1.0
+    name: EM Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  1198:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -24.850000381469727
+    hp: 40.0
+    id: 1198
+    marketGroup: 1668
+    mass: 1.0
+    metalevelold: 5
+    name: EM Coating II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 2
+    volume: 5.0
+  1262:
     armorhpmultiplier: 1.0
     explosivedamageresistancebonus: -19.440000534057617
     hp: 40.0
@@ -35,7 +70,92 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 5.0
-  '''Basic'' Kinetic Coating':
+  1264:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -21.889999389648438
+    hp: 40.0
+    id: 1264
+    marketGroup: 1667
+    mass: 1.0
+    name: Explosive Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  1266:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -24.850000381469727
+    hp: 40.0
+    id: 1266
+    marketGroup: 1667
+    mass: 1.0
+    metalevelold: 5
+    name: Explosive Coating II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 2
+    volume: 5.0
+  1272:
+    armorhpmultiplier: 1.0700000524520874
+    hp: 40.0
+    id: 1272
+    marketGroup: 1669
+    mass: 1.0
+    metalevelold: 6
+    name: '''Basic'' Layered Coating'
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3392
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 5.0
+  1274:
+    armorhpmultiplier: 1.0729999542236328
+    hp: 40.0
+    id: 1274
+    marketGroup: 1669
+    mass: 1.0
+    name: Layered Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  1276:
+    armorhpmultiplier: 1.090000033378601
+    hp: 40.0
+    id: 1276
+    marketGroup: 1669
+    mass: 1.0
+    metalevelold: 5
+    name: Layered Coating II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 2
+    volume: 5.0
+  1282:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 1282
@@ -53,14 +173,49 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 5.0
-  '''Basic'' Layered Coating':
-    armorhpmultiplier: 1.0700000524520874
+  1284:
+    armorhpmultiplier: 1.0
     hp: 40.0
-    id: 1272
-    marketGroup: 1669
+    id: 1284
+    kineticdamageresistancebonus: -21.889999389648438
+    marketGroup: 1666
+    mass: 1.0
+    name: Kinetic Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  1286:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 1286
+    kineticdamageresistancebonus: -24.850000381469727
+    marketGroup: 1666
+    mass: 1.0
+    metalevelold: 5
+    name: Kinetic Coating II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 2
+    volume: 5.0
+  1292:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 1292
+    marketGroup: 1665
     mass: 1.0
     metalevelold: 6
-    name: '''Basic'' Layered Coating'
+    name: '''Basic'' Thermal Coating'
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -69,8 +224,44 @@ types:
     requiredskill1: 3392
     requiredskill1level: 2
     techlevel: 1
+    thermaldamageresistancebonus: -19.440000534057617
     volume: 5.0
-  '''Basic'' Multispectrum Coating':
+  1294:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 1294
+    marketGroup: 1665
+    mass: 1.0
+    name: Thermal Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -21.889999389648438
+    volume: 5.0
+  1296:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 1296
+    marketGroup: 1665
+    mass: 1.0
+    metalevelold: 5
+    name: Thermal Coating II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    techlevel: 2
+    thermaldamageresistancebonus: -24.850000381469727
+    volume: 5.0
+  1302:
     armorhpmultiplier: 1.0
     emdamageresistancebonus: -8.859999656677246
     explosivedamageresistancebonus: -8.859999656677246
@@ -91,93 +282,16 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -8.859999656677246
     volume: 5.0
-  '''Basic'' Thermal Coating':
+  1304:
     armorhpmultiplier: 1.0
+    emdamageresistancebonus: -10.510000228881836
+    explosivedamageresistancebonus: -10.510000228881836
     hp: 40.0
-    id: 1292
-    marketGroup: 1665
-    mass: 1.0
-    metalevelold: 6
-    name: '''Basic'' Thermal Coating'
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3392
-    requiredskill1level: 2
-    techlevel: 1
-    thermaldamageresistancebonus: -19.440000534057617
-    volume: 5.0
-  Ahremen's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -33.810001373291016
-    hp: 40.0
-    id: 14914
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Ahremen's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Ahremen's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -33.810001373291016
-    hp: 40.0
-    id: 14898
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Ahremen's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Ahremen's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14882
-    kineticdamageresistancebonus: -33.810001373291016
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Ahremen's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Ahremen's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.030000686645508
-    explosivedamageresistancebonus: -24.030000686645508
-    hp: 40.0
-    id: 14866
-    kineticdamageresistancebonus: -24.030000686645508
+    id: 1304
+    kineticdamageresistancebonus: -10.510000228881836
     marketGroup: 1670
     mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Ahremen's Modified Multispectrum Coating
+    name: Multispectrum Coating I
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -186,1555 +300,30 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.030000686645508
+    thermaldamageresistancebonus: -10.510000228881836
     volume: 5.0
-  Ahremen's Modified Thermal Coating:
+  1306:
     armorhpmultiplier: 1.0
+    emdamageresistancebonus: -13.819999694824219
+    explosivedamageresistancebonus: -13.819999694824219
     hp: 40.0
-    id: 14930
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Ahremen's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -33.810001373291016
-    volume: 5.0
-  Ammatar Navy EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 17518
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Ammatar Navy EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Ammatar Navy Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 17516
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Ammatar Navy Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Ammatar Navy Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 17512
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Ammatar Navy Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Ammatar Navy Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
-    hp: 40.0
-    id: 17514
-    kineticdamageresistancebonus: -16.3700008392334
+    id: 1306
+    kineticdamageresistancebonus: -13.819999694824219
     marketGroup: 1670
     mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Ammatar Navy Multispectrum Coating
+    metalevelold: 5
+    name: Multispectrum Coating II
     packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
     radius: 10.0
     requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    requiredskill1level: 4
+    techlevel: 2
+    thermaldamageresistancebonus: -13.819999694824219
     volume: 5.0
-  Ammatar Navy Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 32809
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Ammatar Navy Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.0
-    volume: 5.0
-  Brokara's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -29.270000457763672
-    hp: 40.0
-    id: 14904
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brokara's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Brokara's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -29.270000457763672
-    hp: 40.0
-    id: 14888
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brokara's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Brokara's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14872
-    kineticdamageresistancebonus: -29.270000457763672
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brokara's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Brokara's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -18.920000076293945
-    explosivedamageresistancebonus: -18.920000076293945
-    hp: 40.0
-    id: 14856
-    kineticdamageresistancebonus: -18.920000076293945
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brokara's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -18.920000076293945
-    volume: 5.0
-  Brokara's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14920
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brokara's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -29.270000457763672
-    volume: 5.0
-  Brynn's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -29.270000457763672
-    hp: 40.0
-    id: 15180
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brynn's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Brynn's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -29.270000457763672
-    hp: 40.0
-    id: 15188
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brynn's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Brynn's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15196
-    kineticdamageresistancebonus: -29.270000457763672
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brynn's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Brynn's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -18.920000076293945
-    explosivedamageresistancebonus: -18.920000076293945
-    hp: 40.0
-    id: 15164
-    kineticdamageresistancebonus: -18.920000076293945
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brynn's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -18.920000076293945
-    volume: 5.0
-  Brynn's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15172
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brynn's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -29.270000457763672
-    volume: 5.0
-  Centii A-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.45000076293945
-    hp: 40.0
-    id: 18762
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Centii A-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii A-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.45000076293945
-    hp: 40.0
-    id: 18758
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Centii A-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii A-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18754
-    kineticdamageresistancebonus: -32.45000076293945
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Centii A-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii A-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -22.5
-    explosivedamageresistancebonus: -22.5
-    hp: 40.0
-    id: 18710
-    kineticdamageresistancebonus: -22.5
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Centii A-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -22.5
-    volume: 5.0
-  Centii A-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18766
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Centii A-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -32.45000076293945
-    volume: 5.0
-  Centii B-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.170000076293945
-    hp: 40.0
-    id: 18750
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Centii B-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii B-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.170000076293945
-    hp: 40.0
-    id: 18746
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Centii B-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii B-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18742
-    kineticdamageresistancebonus: -30.170000076293945
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Centii B-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii B-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.950000762939453
-    explosivedamageresistancebonus: -19.950000762939453
-    hp: 40.0
-    id: 18706
-    kineticdamageresistancebonus: -19.950000762939453
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Centii B-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -19.950000762939453
-    volume: 5.0
-  Centii B-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18730
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Centii B-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -30.170000076293945
-    volume: 5.0
-  Centii C-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.90999984741211
-    hp: 40.0
-    id: 18722
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Centii C-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii C-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.90999984741211
-    hp: 40.0
-    id: 18718
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Centii C-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii C-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18714
-    kineticdamageresistancebonus: -27.90999984741211
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Centii C-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Centii C-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.389999389648438
-    explosivedamageresistancebonus: -17.389999389648438
-    hp: 40.0
-    id: 18702
-    kineticdamageresistancebonus: -17.389999389648438
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Centii C-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -17.389999389648438
-    volume: 5.0
-  Centii C-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18726
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Centii C-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.90999984741211
-    volume: 5.0
-  Chelm's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -36.06999969482422
-    hp: 40.0
-    id: 14916
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Chelm's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Chelm's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -36.06999969482422
-    hp: 40.0
-    id: 14900
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Chelm's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Chelm's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14884
-    kineticdamageresistancebonus: -36.06999969482422
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Chelm's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Chelm's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.579999923706055
-    explosivedamageresistancebonus: -26.579999923706055
-    hp: 40.0
-    id: 14868
-    kineticdamageresistancebonus: -26.579999923706055
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Chelm's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -26.579999923706055
-    volume: 5.0
-  Chelm's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14932
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Chelm's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -36.06999969482422
-    volume: 5.0
-  Coreli A-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.45000076293945
-    hp: 40.0
-    id: 18795
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Coreli A-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli A-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.45000076293945
-    hp: 40.0
-    id: 18793
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Coreli A-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli A-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18791
-    kineticdamageresistancebonus: -32.45000076293945
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Coreli A-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli A-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -22.5
-    explosivedamageresistancebonus: -22.5
-    hp: 40.0
-    id: 18789
-    kineticdamageresistancebonus: -22.5
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Coreli A-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -22.5
-    volume: 5.0
-  Coreli A-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18797
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Coreli A-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -32.45000076293945
-    volume: 5.0
-  Coreli B-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.170000076293945
-    hp: 40.0
-    id: 18785
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Coreli B-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli B-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.170000076293945
-    hp: 40.0
-    id: 18783
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Coreli B-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli B-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18781
-    kineticdamageresistancebonus: -30.170000076293945
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Coreli B-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli B-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.950000762939453
-    explosivedamageresistancebonus: -19.950000762939453
-    hp: 40.0
-    id: 18779
-    kineticdamageresistancebonus: -19.950000762939453
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Coreli B-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -19.950000762939453
-    volume: 5.0
-  Coreli B-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18787
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Coreli B-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -30.170000076293945
-    volume: 5.0
-  Coreli C-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.90999984741211
-    hp: 40.0
-    id: 18775
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Coreli C-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli C-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.90999984741211
-    hp: 40.0
-    id: 18772
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Coreli C-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli C-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18770
-    kineticdamageresistancebonus: -27.90999984741211
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Coreli C-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Coreli C-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.389999389648438
-    explosivedamageresistancebonus: -17.389999389648438
-    hp: 40.0
-    id: 18768
-    kineticdamageresistancebonus: -17.389999389648438
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Coreli C-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -17.389999389648438
-    volume: 5.0
-  Coreli C-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18777
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Coreli C-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.90999984741211
-    volume: 5.0
-  Cormack's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -36.06999969482422
-    hp: 40.0
-    id: 15186
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Cormack's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Cormack's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -36.06999969482422
-    hp: 40.0
-    id: 15194
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Cormack's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Cormack's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15202
-    kineticdamageresistancebonus: -36.06999969482422
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Cormack's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Cormack's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.579999923706055
-    explosivedamageresistancebonus: -26.579999923706055
-    hp: 40.0
-    id: 15170
-    kineticdamageresistancebonus: -26.579999923706055
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Cormack's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -26.579999923706055
-    volume: 5.0
-  Cormack's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15178
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Cormack's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -36.06999969482422
-    volume: 5.0
-  Corpii A-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.45000076293945
-    hp: 40.0
-    id: 18760
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpii A-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii A-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.45000076293945
-    hp: 40.0
-    id: 18756
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpii A-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii A-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18752
-    kineticdamageresistancebonus: -32.45000076293945
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpii A-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii A-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -22.5
-    explosivedamageresistancebonus: -22.5
-    hp: 40.0
-    id: 18708
-    kineticdamageresistancebonus: -22.5
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpii A-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -22.5
-    volume: 5.0
-  Corpii A-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18764
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpii A-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -32.45000076293945
-    volume: 5.0
-  Corpii B-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.170000076293945
-    hp: 40.0
-    id: 18748
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpii B-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii B-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.170000076293945
-    hp: 40.0
-    id: 18744
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpii B-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii B-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18740
-    kineticdamageresistancebonus: -30.170000076293945
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpii B-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii B-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.950000762939453
-    explosivedamageresistancebonus: -19.950000762939453
-    hp: 40.0
-    id: 18704
-    kineticdamageresistancebonus: -19.950000762939453
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpii B-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -19.950000762939453
-    volume: 5.0
-  Corpii B-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18728
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpii B-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -30.170000076293945
-    volume: 5.0
-  Corpii C-Type EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.90999984741211
-    hp: 40.0
-    id: 18720
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Corpii C-Type EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii C-Type Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.90999984741211
-    hp: 40.0
-    id: 18716
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Corpii C-Type Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii C-Type Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18712
-    kineticdamageresistancebonus: -27.90999984741211
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Corpii C-Type Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii C-Type Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.389999389648438
-    explosivedamageresistancebonus: -17.389999389648438
-    hp: 40.0
-    id: 18700
-    kineticdamageresistancebonus: -17.389999389648438
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Corpii C-Type Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -17.389999389648438
-    volume: 5.0
-  Corpii C-Type Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 18724
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Corpii C-Type Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.90999984741211
-    volume: 5.0
-  Dark Blood EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 14021
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dark Blood EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Dark Blood Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 14015
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dark Blood Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Dark Blood Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14009
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dark Blood Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Dark Blood Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
-    hp: 40.0
-    id: 14003
-    kineticdamageresistancebonus: -16.3700008392334
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dark Blood Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
-    volume: 5.0
-  Dark Blood Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14027
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dark Blood Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.0
-    volume: 5.0
-  Domination EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 14017
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Domination EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Domination Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 14011
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Domination Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Domination Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14005
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Domination Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Domination Multispectrum Coating:
+  13999:
     armorhpmultiplier: 1.0
     emdamageresistancebonus: -16.3700008392334
     explosivedamageresistancebonus: -16.3700008392334
@@ -1756,1473 +345,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
-  Domination Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14023
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Domination Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.0
-    volume: 5.0
-  Draclira's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -36.06999969482422
-    hp: 40.0
-    id: 14918
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Draclira's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Draclira's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -36.06999969482422
-    hp: 40.0
-    id: 14902
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Draclira's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Draclira's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14886
-    kineticdamageresistancebonus: -36.06999969482422
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Draclira's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Draclira's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.579999923706055
-    explosivedamageresistancebonus: -26.579999923706055
-    hp: 40.0
-    id: 14870
-    kineticdamageresistancebonus: -26.579999923706055
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Draclira's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -26.579999923706055
-    volume: 5.0
-  Draclira's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14934
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Draclira's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -36.06999969482422
-    volume: 5.0
-  EM Coating I:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.889999389648438
-    hp: 40.0
-    id: 1197
-    marketGroup: 1668
-    mass: 1.0
-    name: EM Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  EM Coating II:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.850000381469727
-    hp: 40.0
-    id: 1198
-    marketGroup: 1668
-    mass: 1.0
-    metalevelold: 5
-    name: EM Coating II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 4
-    techlevel: 2
-    volume: 5.0
-  Explosive Coating I:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -21.889999389648438
-    hp: 40.0
-    id: 1264
-    marketGroup: 1667
-    mass: 1.0
-    name: Explosive Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Explosive Coating II:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.850000381469727
-    hp: 40.0
-    id: 1266
-    marketGroup: 1667
-    mass: 1.0
-    metalevelold: 5
-    name: Explosive Coating II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 4
-    techlevel: 2
-    volume: 5.0
-  Federation Navy EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 17555
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Federation Navy EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Federation Navy Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 17553
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Federation Navy Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Federation Navy Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 17551
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Federation Navy Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Federation Navy Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
-    hp: 40.0
-    id: 17549
-    kineticdamageresistancebonus: -16.3700008392334
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Federation Navy Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
-    volume: 5.0
-  Federation Navy Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 17557
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Federation Navy Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.0
-    volume: 5.0
-  Gotan's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -33.810001373291016
-    hp: 40.0
-    id: 14584
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Gotan's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Gotan's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -33.810001373291016
-    hp: 40.0
-    id: 14576
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Gotan's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Gotan's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14568
-    kineticdamageresistancebonus: -33.810001373291016
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Gotan's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Gotan's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.030000686645508
-    explosivedamageresistancebonus: -24.030000686645508
-    hp: 40.0
-    id: 14560
-    kineticdamageresistancebonus: -24.030000686645508
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Gotan's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -24.030000686645508
-    volume: 5.0
-  Gotan's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14592
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Gotan's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -33.810001373291016
-    volume: 5.0
-  Imperial Navy EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 15687
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Imperial Navy EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Imperial Navy Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 15689
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Imperial Navy Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Imperial Navy Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15691
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Imperial Navy Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Imperial Navy Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
-    hp: 40.0
-    id: 15693
-    kineticdamageresistancebonus: -16.3700008392334
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Imperial Navy Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
-    volume: 5.0
-  Imperial Navy Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15685
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Imperial Navy Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.0
-    volume: 5.0
-  Khanid Navy EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 28554
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Khanid Navy EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Khanid Navy Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 28552
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Khanid Navy Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Khanid Navy Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 28547
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Khanid Navy Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Khanid Navy Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
-    hp: 40.0
-    id: 28520
-    kineticdamageresistancebonus: -16.3700008392334
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Khanid Navy Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
-    volume: 5.0
-  Khanid Navy Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 28559
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Khanid Navy Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.0
-    volume: 5.0
-  Kinetic Coating I:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 1284
-    kineticdamageresistancebonus: -21.889999389648438
-    marketGroup: 1666
-    mass: 1.0
-    name: Kinetic Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Kinetic Coating II:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 1286
-    kineticdamageresistancebonus: -24.850000381469727
-    marketGroup: 1666
-    mass: 1.0
-    metalevelold: 5
-    name: Kinetic Coating II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 4
-    techlevel: 2
-    volume: 5.0
-  Layered Coating I:
-    armorhpmultiplier: 1.0729999542236328
-    hp: 40.0
-    id: 1274
-    marketGroup: 1669
-    mass: 1.0
-    name: Layered Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Layered Coating II:
-    armorhpmultiplier: 1.090000033378601
-    hp: 40.0
-    id: 1276
-    marketGroup: 1669
-    mass: 1.0
-    metalevelold: 5
-    name: Layered Coating II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 4
-    techlevel: 2
-    volume: 5.0
-  Mizuro's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -29.270000457763672
-    hp: 40.0
-    id: 14580
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Mizuro's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Mizuro's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -29.270000457763672
-    hp: 40.0
-    id: 14572
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Mizuro's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Mizuro's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14564
-    kineticdamageresistancebonus: -29.270000457763672
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Mizuro's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Mizuro's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -18.920000076293945
-    explosivedamageresistancebonus: -18.920000076293945
-    hp: 40.0
-    id: 14556
-    kineticdamageresistancebonus: -18.920000076293945
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Mizuro's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -18.920000076293945
-    volume: 5.0
-  Mizuro's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14588
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Mizuro's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -29.270000457763672
-    volume: 5.0
-  Multispectrum Coating I:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -10.510000228881836
-    explosivedamageresistancebonus: -10.510000228881836
-    hp: 40.0
-    id: 1304
-    kineticdamageresistancebonus: -10.510000228881836
-    marketGroup: 1670
-    mass: 1.0
-    name: Multispectrum Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -10.510000228881836
-    volume: 5.0
-  Multispectrum Coating II:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -13.819999694824219
-    explosivedamageresistancebonus: -13.819999694824219
-    hp: 40.0
-    id: 1306
-    kineticdamageresistancebonus: -13.819999694824219
-    marketGroup: 1670
-    mass: 1.0
-    metalevelold: 5
-    name: Multispectrum Coating II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 4
-    techlevel: 2
-    thermaldamageresistancebonus: -13.819999694824219
-    volume: 5.0
-  Raysere's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -31.530000686645508
-    hp: 40.0
-    id: 14910
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Raysere's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Raysere's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -31.530000686645508
-    hp: 40.0
-    id: 14894
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Raysere's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Raysere's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14878
-    kineticdamageresistancebonus: -31.530000686645508
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Raysere's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Raysere's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.479999542236328
-    explosivedamageresistancebonus: -21.479999542236328
-    hp: 40.0
-    id: 14862
-    kineticdamageresistancebonus: -21.479999542236328
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Raysere's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -21.479999542236328
-    volume: 5.0
-  Raysere's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14926
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Raysere's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -31.530000686645508
-    volume: 5.0
-  Republic Fleet EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 15697
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Republic Fleet EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Republic Fleet Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 15699
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Republic Fleet Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Republic Fleet Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15701
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Republic Fleet Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Republic Fleet Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
-    hp: 40.0
-    id: 15703
-    kineticdamageresistancebonus: -16.3700008392334
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Republic Fleet Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
-    volume: 5.0
-  Republic Fleet Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15695
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Republic Fleet Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.0
-    volume: 5.0
-  Selynne's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -31.530000686645508
-    hp: 40.0
-    id: 14908
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Selynne's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Selynne's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -31.530000686645508
-    hp: 40.0
-    id: 14892
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Selynne's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Selynne's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14876
-    kineticdamageresistancebonus: -31.530000686645508
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Selynne's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Selynne's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.479999542236328
-    explosivedamageresistancebonus: -21.479999542236328
-    hp: 40.0
-    id: 14860
-    kineticdamageresistancebonus: -21.479999542236328
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Selynne's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -21.479999542236328
-    volume: 5.0
-  Selynne's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14924
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Selynne's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -31.530000686645508
-    volume: 5.0
-  Setele's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -33.810001373291016
-    hp: 40.0
-    id: 15184
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Setele's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Setele's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -33.810001373291016
-    hp: 40.0
-    id: 15192
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Setele's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Setele's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15200
-    kineticdamageresistancebonus: -33.810001373291016
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Setele's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Setele's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.030000686645508
-    explosivedamageresistancebonus: -24.030000686645508
-    hp: 40.0
-    id: 15168
-    kineticdamageresistancebonus: -24.030000686645508
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Setele's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -24.030000686645508
-    volume: 5.0
-  Setele's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 15176
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Setele's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -33.810001373291016
-    volume: 5.0
-  Shadow Serpentis EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 14055
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Shadow Serpentis EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Shadow Serpentis Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 14053
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Shadow Serpentis Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Shadow Serpentis Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14051
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Shadow Serpentis Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Shadow Serpentis Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
-    hp: 40.0
-    id: 14049
-    kineticdamageresistancebonus: -16.3700008392334
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Shadow Serpentis Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
-    volume: 5.0
-  Shadow Serpentis Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14057
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Shadow Serpentis Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -27.0
-    volume: 5.0
-  Tairei's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -29.270000457763672
-    hp: 40.0
-    id: 14906
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Tairei's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Tairei's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -29.270000457763672
-    hp: 40.0
-    id: 14890
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Tairei's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Tairei's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14874
-    kineticdamageresistancebonus: -29.270000457763672
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Tairei's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Tairei's Modified Multispectrum Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -18.920000076293945
-    explosivedamageresistancebonus: -18.920000076293945
-    hp: 40.0
-    id: 14858
-    kineticdamageresistancebonus: -18.920000076293945
-    marketGroup: 1670
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Tairei's Modified Multispectrum Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -18.920000076293945
-    volume: 5.0
-  Tairei's Modified Thermal Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14922
-    marketGroup: 1665
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Tairei's Modified Thermal Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -29.270000457763672
-    volume: 5.0
-  Thermal Coating I:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 1294
-    marketGroup: 1665
-    mass: 1.0
-    name: Thermal Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -21.889999389648438
-    volume: 5.0
-  Thermal Coating II:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 1296
-    marketGroup: 1665
-    mass: 1.0
-    metalevelold: 5
-    name: Thermal Coating II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 4
-    techlevel: 2
-    thermaldamageresistancebonus: -24.850000381469727
-    volume: 5.0
-  True Sansha EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
-    hp: 40.0
-    id: 14019
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: True Sansha EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  True Sansha Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
-    hp: 40.0
-    id: 14013
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: True Sansha Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  True Sansha Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14007
-    kineticdamageresistancebonus: -27.0
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: True Sansha Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  True Sansha Multispectrum Coating:
+  14001:
     armorhpmultiplier: 1.0
     emdamageresistancebonus: -16.3700008392334
     explosivedamageresistancebonus: -16.3700008392334
@@ -3244,7 +367,219 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -16.3700008392334
     volume: 5.0
-  True Sansha Thermal Coating:
+  14003:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
+    hp: 40.0
+    id: 14003
+    kineticdamageresistancebonus: -16.3700008392334
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -16.3700008392334
+    volume: 5.0
+  14005:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14005
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14007:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14007
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: True Sansha Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14009:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14009
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14011:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.0
+    hp: 40.0
+    id: 14011
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14013:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.0
+    hp: 40.0
+    id: 14013
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: True Sansha Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14015:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.0
+    hp: 40.0
+    id: 14015
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14017:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 14017
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14019:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 14019
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: True Sansha EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14021:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 14021
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14023:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14023
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.0
+    volume: 5.0
+  14025:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14025
@@ -3263,16 +598,57 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -27.0
     volume: 5.0
-  Tuvan's Modified EM Coating:
+  14027:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -31.530000686645508
     hp: 40.0
-    id: 15182
-    marketGroup: 1668
+    id: 14027
+    marketGroup: 1665
     mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Tuvan's Modified EM Coating
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.0
+    volume: 5.0
+  14049:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
+    hp: 40.0
+    id: 14049
+    kineticdamageresistancebonus: -16.3700008392334
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Shadow Serpentis Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -16.3700008392334
+    volume: 5.0
+  14051:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14051
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Shadow Serpentis Kinetic Coating
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -3282,16 +658,16 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
-  Tuvan's Modified Explosive Coating:
+  14053:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -31.530000686645508
+    explosivedamageresistancebonus: -27.0
     hp: 40.0
-    id: 15190
+    id: 14053
     marketGroup: 1667
     mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Tuvan's Modified Explosive Coating
+    metagroupid: 4
+    metalevelold: 8
+    name: Shadow Serpentis Explosive Coating
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -3301,16 +677,98 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
-  Tuvan's Modified Kinetic Coating:
+  14055:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 14055
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Shadow Serpentis EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14057:
     armorhpmultiplier: 1.0
     hp: 40.0
-    id: 15198
-    kineticdamageresistancebonus: -31.530000686645508
+    id: 14057
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Shadow Serpentis Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.0
+    volume: 5.0
+  14556:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -18.920000076293945
+    explosivedamageresistancebonus: -18.920000076293945
+    hp: 40.0
+    id: 14556
+    kineticdamageresistancebonus: -18.920000076293945
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Mizuro's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -18.920000076293945
+    volume: 5.0
+  14560:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -24.030000686645508
+    explosivedamageresistancebonus: -24.030000686645508
+    hp: 40.0
+    id: 14560
+    kineticdamageresistancebonus: -24.030000686645508
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Gotan's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -24.030000686645508
+    volume: 5.0
+  14564:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14564
+    kineticdamageresistancebonus: -29.270000457763672
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
-    name: Tuvan's Modified Kinetic Coating
+    metalevelold: 11
+    name: Mizuro's Modified Kinetic Coating
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -3320,18 +778,195 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
-  Tuvan's Modified Multispectrum Coating:
+  14568:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14568
+    kineticdamageresistancebonus: -33.810001373291016
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Gotan's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14572:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -29.270000457763672
+    hp: 40.0
+    id: 14572
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Mizuro's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14576:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -33.810001373291016
+    hp: 40.0
+    id: 14576
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Gotan's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14580:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -29.270000457763672
+    hp: 40.0
+    id: 14580
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Mizuro's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14584:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -33.810001373291016
+    hp: 40.0
+    id: 14584
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Gotan's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14588:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14588
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Mizuro's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -29.270000457763672
+    volume: 5.0
+  14592:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14592
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Gotan's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -33.810001373291016
+    volume: 5.0
+  14856:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -18.920000076293945
+    explosivedamageresistancebonus: -18.920000076293945
+    hp: 40.0
+    id: 14856
+    kineticdamageresistancebonus: -18.920000076293945
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brokara's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -18.920000076293945
+    volume: 5.0
+  14858:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -18.920000076293945
+    explosivedamageresistancebonus: -18.920000076293945
+    hp: 40.0
+    id: 14858
+    kineticdamageresistancebonus: -18.920000076293945
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Tairei's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -18.920000076293945
+    volume: 5.0
+  14860:
     armorhpmultiplier: 1.0
     emdamageresistancebonus: -21.479999542236328
     explosivedamageresistancebonus: -21.479999542236328
     hp: 40.0
-    id: 15166
+    id: 14860
     kineticdamageresistancebonus: -21.479999542236328
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
     metalevelold: 13
-    name: Tuvan's Modified Multispectrum Coating
+    name: Selynne's Modified Multispectrum Coating
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -3342,15 +977,18 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -21.479999542236328
     volume: 5.0
-  Tuvan's Modified Thermal Coating:
+  14862:
     armorhpmultiplier: 1.0
+    emdamageresistancebonus: -21.479999542236328
+    explosivedamageresistancebonus: -21.479999542236328
     hp: 40.0
-    id: 15174
-    marketGroup: 1665
+    id: 14862
+    kineticdamageresistancebonus: -21.479999542236328
+    marketGroup: 1670
     mass: 1.0
     metagroupid: 5
     metalevelold: 13
-    name: Tuvan's Modified Thermal Coating
+    name: Raysere's Modified Multispectrum Coating
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -3359,176 +997,9 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -31.530000686645508
+    thermaldamageresistancebonus: -21.479999542236328
     volume: 5.0
-  Upgraded EM Coating I:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -23.3700008392334
-    hp: 40.0
-    id: 16329
-    marketGroup: 1668
-    mass: 1.0
-    metalevelold: 1
-    name: Upgraded EM Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Upgraded Explosive Coating I:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -23.3700008392334
-    hp: 40.0
-    id: 16321
-    marketGroup: 1667
-    mass: 1.0
-    metalevelold: 1
-    name: Upgraded Explosive Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Upgraded Kinetic Coating I:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 16313
-    kineticdamageresistancebonus: -23.3700008392334
-    marketGroup: 1666
-    mass: 1.0
-    metalevelold: 1
-    name: Upgraded Kinetic Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Upgraded Layered Coating I:
-    armorhpmultiplier: 1.0789999961853027
-    hp: 40.0
-    id: 16345
-    marketGroup: 1669
-    mass: 1.0
-    metalevelold: 1
-    name: Upgraded Layered Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Upgraded Multispectrum Coating I:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -12.170000076293945
-    explosivedamageresistancebonus: -12.170000076293945
-    hp: 40.0
-    id: 16305
-    kineticdamageresistancebonus: -12.170000076293945
-    marketGroup: 1670
-    mass: 1.0
-    metalevelold: 1
-    name: Upgraded Multispectrum Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -12.170000076293945
-    volume: 5.0
-  Upgraded Thermal Coating I:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 16337
-    marketGroup: 1665
-    mass: 1.0
-    metalevelold: 1
-    name: Upgraded Thermal Coating I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -23.3700008392334
-    volume: 5.0
-  Vizan's Modified EM Coating:
-    armorhpmultiplier: 1.0
-    emdamageresistancebonus: -33.810001373291016
-    hp: 40.0
-    id: 14912
-    marketGroup: 1668
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Vizan's Modified EM Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Vizan's Modified Explosive Coating:
-    armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -33.810001373291016
-    hp: 40.0
-    id: 14896
-    marketGroup: 1667
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Vizan's Modified Explosive Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Vizan's Modified Kinetic Coating:
-    armorhpmultiplier: 1.0
-    hp: 40.0
-    id: 14880
-    kineticdamageresistancebonus: -33.810001373291016
-    marketGroup: 1666
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Vizan's Modified Kinetic Coating
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 5.0
-  Vizan's Modified Multispectrum Coating:
+  14864:
     armorhpmultiplier: 1.0
     emdamageresistancebonus: -24.030000686645508
     explosivedamageresistancebonus: -24.030000686645508
@@ -3550,7 +1021,605 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -24.030000686645508
     volume: 5.0
-  Vizan's Modified Thermal Coating:
+  14866:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -24.030000686645508
+    explosivedamageresistancebonus: -24.030000686645508
+    hp: 40.0
+    id: 14866
+    kineticdamageresistancebonus: -24.030000686645508
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Ahremen's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -24.030000686645508
+    volume: 5.0
+  14868:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -26.579999923706055
+    explosivedamageresistancebonus: -26.579999923706055
+    hp: 40.0
+    id: 14868
+    kineticdamageresistancebonus: -26.579999923706055
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Chelm's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -26.579999923706055
+    volume: 5.0
+  14870:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -26.579999923706055
+    explosivedamageresistancebonus: -26.579999923706055
+    hp: 40.0
+    id: 14870
+    kineticdamageresistancebonus: -26.579999923706055
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Draclira's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -26.579999923706055
+    volume: 5.0
+  14872:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14872
+    kineticdamageresistancebonus: -29.270000457763672
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brokara's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14874:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14874
+    kineticdamageresistancebonus: -29.270000457763672
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Tairei's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14876:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14876
+    kineticdamageresistancebonus: -31.530000686645508
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Selynne's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14878:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14878
+    kineticdamageresistancebonus: -31.530000686645508
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Raysere's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14880:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14880
+    kineticdamageresistancebonus: -33.810001373291016
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Vizan's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14882:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14882
+    kineticdamageresistancebonus: -33.810001373291016
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Ahremen's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14884:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14884
+    kineticdamageresistancebonus: -36.06999969482422
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Chelm's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14886:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14886
+    kineticdamageresistancebonus: -36.06999969482422
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Draclira's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14888:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -29.270000457763672
+    hp: 40.0
+    id: 14888
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brokara's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14890:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -29.270000457763672
+    hp: 40.0
+    id: 14890
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Tairei's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14892:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -31.530000686645508
+    hp: 40.0
+    id: 14892
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Selynne's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14894:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -31.530000686645508
+    hp: 40.0
+    id: 14894
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Raysere's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14896:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -33.810001373291016
+    hp: 40.0
+    id: 14896
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Vizan's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14898:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -33.810001373291016
+    hp: 40.0
+    id: 14898
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Ahremen's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14900:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -36.06999969482422
+    hp: 40.0
+    id: 14900
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Chelm's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14902:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -36.06999969482422
+    hp: 40.0
+    id: 14902
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Draclira's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14904:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -29.270000457763672
+    hp: 40.0
+    id: 14904
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brokara's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14906:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -29.270000457763672
+    hp: 40.0
+    id: 14906
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Tairei's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14908:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -31.530000686645508
+    hp: 40.0
+    id: 14908
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Selynne's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14910:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -31.530000686645508
+    hp: 40.0
+    id: 14910
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Raysere's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14912:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -33.810001373291016
+    hp: 40.0
+    id: 14912
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Vizan's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14914:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -33.810001373291016
+    hp: 40.0
+    id: 14914
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Ahremen's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14916:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -36.06999969482422
+    hp: 40.0
+    id: 14916
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Chelm's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14918:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -36.06999969482422
+    hp: 40.0
+    id: 14918
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Draclira's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  14920:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14920
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brokara's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -29.270000457763672
+    volume: 5.0
+  14922:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14922
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Tairei's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -29.270000457763672
+    volume: 5.0
+  14924:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14924
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Selynne's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -31.530000686645508
+    volume: 5.0
+  14926:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14926
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Raysere's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -31.530000686645508
+    volume: 5.0
+  14928:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14928
@@ -3568,4 +1637,1935 @@ types:
     requiredskill1level: 1
     techlevel: 1
     thermaldamageresistancebonus: -33.810001373291016
+    volume: 5.0
+  14930:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14930
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Ahremen's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -33.810001373291016
+    volume: 5.0
+  14932:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14932
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Chelm's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -36.06999969482422
+    volume: 5.0
+  14934:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 14934
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Draclira's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -36.06999969482422
+    volume: 5.0
+  15164:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -18.920000076293945
+    explosivedamageresistancebonus: -18.920000076293945
+    hp: 40.0
+    id: 15164
+    kineticdamageresistancebonus: -18.920000076293945
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brynn's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -18.920000076293945
+    volume: 5.0
+  15166:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -21.479999542236328
+    explosivedamageresistancebonus: -21.479999542236328
+    hp: 40.0
+    id: 15166
+    kineticdamageresistancebonus: -21.479999542236328
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Tuvan's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -21.479999542236328
+    volume: 5.0
+  15168:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -24.030000686645508
+    explosivedamageresistancebonus: -24.030000686645508
+    hp: 40.0
+    id: 15168
+    kineticdamageresistancebonus: -24.030000686645508
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Setele's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -24.030000686645508
+    volume: 5.0
+  15170:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -26.579999923706055
+    explosivedamageresistancebonus: -26.579999923706055
+    hp: 40.0
+    id: 15170
+    kineticdamageresistancebonus: -26.579999923706055
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Cormack's Modified Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -26.579999923706055
+    volume: 5.0
+  15172:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15172
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brynn's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -29.270000457763672
+    volume: 5.0
+  15174:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15174
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Tuvan's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -31.530000686645508
+    volume: 5.0
+  15176:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15176
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Setele's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -33.810001373291016
+    volume: 5.0
+  15178:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15178
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Cormack's Modified Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -36.06999969482422
+    volume: 5.0
+  15180:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -29.270000457763672
+    hp: 40.0
+    id: 15180
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brynn's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15182:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -31.530000686645508
+    hp: 40.0
+    id: 15182
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Tuvan's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15184:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -33.810001373291016
+    hp: 40.0
+    id: 15184
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Setele's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15186:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -36.06999969482422
+    hp: 40.0
+    id: 15186
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Cormack's Modified EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15188:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -29.270000457763672
+    hp: 40.0
+    id: 15188
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brynn's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15190:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -31.530000686645508
+    hp: 40.0
+    id: 15190
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Tuvan's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15192:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -33.810001373291016
+    hp: 40.0
+    id: 15192
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Setele's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15194:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -36.06999969482422
+    hp: 40.0
+    id: 15194
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Cormack's Modified Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15196:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15196
+    kineticdamageresistancebonus: -29.270000457763672
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Brynn's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15198:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15198
+    kineticdamageresistancebonus: -31.530000686645508
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Tuvan's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15200:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15200
+    kineticdamageresistancebonus: -33.810001373291016
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Setele's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15202:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15202
+    kineticdamageresistancebonus: -36.06999969482422
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Cormack's Modified Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15685:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15685
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.0
+    volume: 5.0
+  15687:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 15687
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15689:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.0
+    hp: 40.0
+    id: 15689
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15691:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15691
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15693:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
+    hp: 40.0
+    id: 15693
+    kineticdamageresistancebonus: -16.3700008392334
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -16.3700008392334
+    volume: 5.0
+  15695:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15695
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.0
+    volume: 5.0
+  15697:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 15697
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15699:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.0
+    hp: 40.0
+    id: 15699
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15701:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 15701
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  15703:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
+    hp: 40.0
+    id: 15703
+    kineticdamageresistancebonus: -16.3700008392334
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -16.3700008392334
+    volume: 5.0
+  16305:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -12.170000076293945
+    explosivedamageresistancebonus: -12.170000076293945
+    hp: 40.0
+    id: 16305
+    kineticdamageresistancebonus: -12.170000076293945
+    marketGroup: 1670
+    mass: 1.0
+    metalevelold: 1
+    name: Upgraded Multispectrum Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -12.170000076293945
+    volume: 5.0
+  16313:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 16313
+    kineticdamageresistancebonus: -23.3700008392334
+    marketGroup: 1666
+    mass: 1.0
+    metalevelold: 1
+    name: Upgraded Kinetic Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  16321:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -23.3700008392334
+    hp: 40.0
+    id: 16321
+    marketGroup: 1667
+    mass: 1.0
+    metalevelold: 1
+    name: Upgraded Explosive Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  16329:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -23.3700008392334
+    hp: 40.0
+    id: 16329
+    marketGroup: 1668
+    mass: 1.0
+    metalevelold: 1
+    name: Upgraded EM Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  16337:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 16337
+    marketGroup: 1665
+    mass: 1.0
+    metalevelold: 1
+    name: Upgraded Thermal Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -23.3700008392334
+    volume: 5.0
+  16345:
+    armorhpmultiplier: 1.0789999961853027
+    hp: 40.0
+    id: 16345
+    marketGroup: 1669
+    mass: 1.0
+    metalevelold: 1
+    name: Upgraded Layered Coating I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  17512:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 17512
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  17514:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
+    hp: 40.0
+    id: 17514
+    kineticdamageresistancebonus: -16.3700008392334
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -16.3700008392334
+    volume: 5.0
+  17516:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.0
+    hp: 40.0
+    id: 17516
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  17518:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 17518
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  17549:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
+    hp: 40.0
+    id: 17549
+    kineticdamageresistancebonus: -16.3700008392334
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -16.3700008392334
+    volume: 5.0
+  17551:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 17551
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  17553:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.0
+    hp: 40.0
+    id: 17553
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  17555:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 17555
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  17557:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 17557
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.0
+    volume: 5.0
+  18700:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -17.389999389648438
+    explosivedamageresistancebonus: -17.389999389648438
+    hp: 40.0
+    id: 18700
+    kineticdamageresistancebonus: -17.389999389648438
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Corpii C-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -17.389999389648438
+    volume: 5.0
+  18702:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -17.389999389648438
+    explosivedamageresistancebonus: -17.389999389648438
+    hp: 40.0
+    id: 18702
+    kineticdamageresistancebonus: -17.389999389648438
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Centii C-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -17.389999389648438
+    volume: 5.0
+  18704:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -19.950000762939453
+    explosivedamageresistancebonus: -19.950000762939453
+    hp: 40.0
+    id: 18704
+    kineticdamageresistancebonus: -19.950000762939453
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpii B-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -19.950000762939453
+    volume: 5.0
+  18706:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -19.950000762939453
+    explosivedamageresistancebonus: -19.950000762939453
+    hp: 40.0
+    id: 18706
+    kineticdamageresistancebonus: -19.950000762939453
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Centii B-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -19.950000762939453
+    volume: 5.0
+  18708:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -22.5
+    explosivedamageresistancebonus: -22.5
+    hp: 40.0
+    id: 18708
+    kineticdamageresistancebonus: -22.5
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpii A-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -22.5
+    volume: 5.0
+  18710:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -22.5
+    explosivedamageresistancebonus: -22.5
+    hp: 40.0
+    id: 18710
+    kineticdamageresistancebonus: -22.5
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Centii A-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -22.5
+    volume: 5.0
+  18712:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18712
+    kineticdamageresistancebonus: -27.90999984741211
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Corpii C-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18714:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18714
+    kineticdamageresistancebonus: -27.90999984741211
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Centii C-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18716:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.90999984741211
+    hp: 40.0
+    id: 18716
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Corpii C-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18718:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.90999984741211
+    hp: 40.0
+    id: 18718
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Centii C-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18720:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.90999984741211
+    hp: 40.0
+    id: 18720
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Corpii C-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18722:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.90999984741211
+    hp: 40.0
+    id: 18722
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Centii C-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18724:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18724
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Corpii C-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.90999984741211
+    volume: 5.0
+  18726:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18726
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Centii C-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.90999984741211
+    volume: 5.0
+  18728:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18728
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpii B-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -30.170000076293945
+    volume: 5.0
+  18730:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18730
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Centii B-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -30.170000076293945
+    volume: 5.0
+  18740:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18740
+    kineticdamageresistancebonus: -30.170000076293945
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpii B-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18742:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18742
+    kineticdamageresistancebonus: -30.170000076293945
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Centii B-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18744:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -30.170000076293945
+    hp: 40.0
+    id: 18744
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpii B-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18746:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -30.170000076293945
+    hp: 40.0
+    id: 18746
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Centii B-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18748:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -30.170000076293945
+    hp: 40.0
+    id: 18748
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpii B-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18750:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -30.170000076293945
+    hp: 40.0
+    id: 18750
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Centii B-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18752:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18752
+    kineticdamageresistancebonus: -32.45000076293945
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpii A-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18754:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18754
+    kineticdamageresistancebonus: -32.45000076293945
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Centii A-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18756:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -32.45000076293945
+    hp: 40.0
+    id: 18756
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpii A-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18758:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -32.45000076293945
+    hp: 40.0
+    id: 18758
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Centii A-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18760:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -32.45000076293945
+    hp: 40.0
+    id: 18760
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpii A-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18762:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -32.45000076293945
+    hp: 40.0
+    id: 18762
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Centii A-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18764:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18764
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpii A-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -32.45000076293945
+    volume: 5.0
+  18766:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18766
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Centii A-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -32.45000076293945
+    volume: 5.0
+  18768:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -17.389999389648438
+    explosivedamageresistancebonus: -17.389999389648438
+    hp: 40.0
+    id: 18768
+    kineticdamageresistancebonus: -17.389999389648438
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Coreli C-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -17.389999389648438
+    volume: 5.0
+  18770:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18770
+    kineticdamageresistancebonus: -27.90999984741211
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Coreli C-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18772:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.90999984741211
+    hp: 40.0
+    id: 18772
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Coreli C-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18775:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.90999984741211
+    hp: 40.0
+    id: 18775
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Coreli C-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18777:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18777
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Coreli C-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.90999984741211
+    volume: 5.0
+  18779:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -19.950000762939453
+    explosivedamageresistancebonus: -19.950000762939453
+    hp: 40.0
+    id: 18779
+    kineticdamageresistancebonus: -19.950000762939453
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Coreli B-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -19.950000762939453
+    volume: 5.0
+  18781:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18781
+    kineticdamageresistancebonus: -30.170000076293945
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Coreli B-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18783:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -30.170000076293945
+    hp: 40.0
+    id: 18783
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Coreli B-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18785:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -30.170000076293945
+    hp: 40.0
+    id: 18785
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Coreli B-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18787:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18787
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Coreli B-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -30.170000076293945
+    volume: 5.0
+  18789:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -22.5
+    explosivedamageresistancebonus: -22.5
+    hp: 40.0
+    id: 18789
+    kineticdamageresistancebonus: -22.5
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Coreli A-Type Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -22.5
+    volume: 5.0
+  18791:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18791
+    kineticdamageresistancebonus: -32.45000076293945
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Coreli A-Type Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18793:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -32.45000076293945
+    hp: 40.0
+    id: 18793
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Coreli A-Type Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18795:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -32.45000076293945
+    hp: 40.0
+    id: 18795
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Coreli A-Type EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  18797:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 18797
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Coreli A-Type Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -32.45000076293945
+    volume: 5.0
+  28520:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -16.3700008392334
+    explosivedamageresistancebonus: -16.3700008392334
+    hp: 40.0
+    id: 28520
+    kineticdamageresistancebonus: -16.3700008392334
+    marketGroup: 1670
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Khanid Navy Multispectrum Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -16.3700008392334
+    volume: 5.0
+  28547:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 28547
+    kineticdamageresistancebonus: -27.0
+    marketGroup: 1666
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Khanid Navy Kinetic Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  28552:
+    armorhpmultiplier: 1.0
+    explosivedamageresistancebonus: -27.0
+    hp: 40.0
+    id: 28552
+    marketGroup: 1667
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Khanid Navy Explosive Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  28554:
+    armorhpmultiplier: 1.0
+    emdamageresistancebonus: -27.0
+    hp: 40.0
+    id: 28554
+    marketGroup: 1668
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Khanid Navy EM Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  28559:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 28559
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Khanid Navy Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.0
+    volume: 5.0
+  32809:
+    armorhpmultiplier: 1.0
+    hp: 40.0
+    id: 32809
+    marketGroup: 1665
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy Thermal Coating
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -27.0
     volume: 5.0

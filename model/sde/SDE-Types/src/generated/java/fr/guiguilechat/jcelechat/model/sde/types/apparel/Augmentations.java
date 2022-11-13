@@ -88,7 +88,7 @@ public class Augmentations
         implements IMetaGroup<Augmentations>
     {
         public static final String RESOURCE_PATH = "SDE/types/apparel/Augmentations.yaml";
-        private Map<String, Augmentations> cache = (null);
+        private Map<Integer, Augmentations> cache = (null);
 
         @Override
         public IMetaCategory<? super Augmentations> category() {
@@ -106,7 +106,7 @@ public class Augmentations
         }
 
         @Override
-        public synchronized Map<String, Augmentations> load() {
+        public synchronized Map<Integer, Augmentations> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Augmentations.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -120,7 +120,7 @@ public class Augmentations
         }
 
         private static class Container {
-            public LinkedHashMap<String, Augmentations> types;
+            public LinkedHashMap<Integer, Augmentations> types;
         }
     }
 }

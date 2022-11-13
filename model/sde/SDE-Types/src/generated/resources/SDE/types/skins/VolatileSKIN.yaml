@@ -1,112 +1,112 @@
 types:
-  Apocalypse War Reserves Lieutenant SKIN (Volatile):
-    id: 46588
-    name: Apocalypse War Reserves Lieutenant SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Brutix Strategic Materiel Defender SKIN (Volatile):
-    id: 46595
-    name: Brutix Strategic Materiel Defender SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Caracal Military Stockpile Captain SKIN (Volatile):
-    id: 46590
-    name: Caracal Military Stockpile Captain SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Drake Military Stockpile Captain SKIN (Volatile):
-    id: 46591
-    name: Drake Military Stockpile Captain SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Harbinger War Reserves Lieutenant SKIN (Volatile):
-    id: 46587
-    name: Harbinger War Reserves Lieutenant SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Hurricane Fleet Ordnance Spike SKIN (Volatile):
-    id: 46599
-    name: Hurricane Fleet Ordnance Spike SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Incursus Strategic Materiel Defender SKIN (Volatile):
-    id: 46593
-    name: Incursus Strategic Materiel Defender SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Megathron Strategic Materiel Defender SKIN (Volatile):
-    id: 46596
-    name: Megathron Strategic Materiel Defender SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Merlin Military Stockpile Captain SKIN (Volatile):
-    id: 46589
-    name: Merlin Military Stockpile Captain SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Omen War Reserves Lieutenant SKIN (Volatile):
-    id: 46586
-    name: Omen War Reserves Lieutenant SKIN (Volatile)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Punisher War Reserves Lieutenant SKIN (Volatile):
+  46585:
     id: 46585
     name: Punisher War Reserves Lieutenant SKIN (Volatile)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Raven Military Stockpile Captain SKIN (Volatile):
+  46586:
+    id: 46586
+    name: Omen War Reserves Lieutenant SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46587:
+    id: 46587
+    name: Harbinger War Reserves Lieutenant SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46588:
+    id: 46588
+    name: Apocalypse War Reserves Lieutenant SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46589:
+    id: 46589
+    name: Merlin Military Stockpile Captain SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46590:
+    id: 46590
+    name: Caracal Military Stockpile Captain SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46591:
+    id: 46591
+    name: Drake Military Stockpile Captain SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46592:
     id: 46592
     name: Raven Military Stockpile Captain SKIN (Volatile)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Rifter Fleet Ordnance Spike SKIN (Volatile):
+  46593:
+    id: 46593
+    name: Incursus Strategic Materiel Defender SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46594:
+    id: 46594
+    name: Thorax Strategic Materiel Defender SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46595:
+    id: 46595
+    name: Brutix Strategic Materiel Defender SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46596:
+    id: 46596
+    name: Megathron Strategic Materiel Defender SKIN (Volatile)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  46597:
     id: 46597
     name: Rifter Fleet Ordnance Spike SKIN (Volatile)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Rupture Fleet Ordnance Spike SKIN (Volatile):
+  46598:
     id: 46598
     name: Rupture Fleet Ordnance Spike SKIN (Volatile)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Tempest Fleet Ordnance Spike SKIN (Volatile):
-    id: 46600
-    name: Tempest Fleet Ordnance Spike SKIN (Volatile)
+  46599:
+    id: 46599
+    name: Hurricane Fleet Ordnance Spike SKIN (Volatile)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Thorax Strategic Materiel Defender SKIN (Volatile):
-    id: 46594
-    name: Thorax Strategic Materiel Defender SKIN (Volatile)
+  46600:
+    id: 46600
+    name: Tempest Fleet Ordnance Spike SKIN (Volatile)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

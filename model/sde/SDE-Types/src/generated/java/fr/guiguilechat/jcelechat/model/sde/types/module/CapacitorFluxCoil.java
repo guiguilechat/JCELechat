@@ -181,7 +181,7 @@ public class CapacitorFluxCoil
         implements IMetaGroup<CapacitorFluxCoil>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CapacitorFluxCoil.yaml";
-        private Map<String, CapacitorFluxCoil> cache = (null);
+        private Map<Integer, CapacitorFluxCoil> cache = (null);
 
         @Override
         public IMetaCategory<? super CapacitorFluxCoil> category() {
@@ -199,7 +199,7 @@ public class CapacitorFluxCoil
         }
 
         @Override
-        public synchronized Map<String, CapacitorFluxCoil> load() {
+        public synchronized Map<Integer, CapacitorFluxCoil> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapacitorFluxCoil.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class CapacitorFluxCoil
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapacitorFluxCoil> types;
+            public LinkedHashMap<Integer, CapacitorFluxCoil> types;
         }
     }
 }

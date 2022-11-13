@@ -164,7 +164,7 @@ public class Social
         implements IMetaGroup<Social>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Social.yaml";
-        private Map<String, Social> cache = (null);
+        private Map<Integer, Social> cache = (null);
 
         @Override
         public IMetaCategory<? super Social> category() {
@@ -182,7 +182,7 @@ public class Social
         }
 
         @Override
-        public synchronized Map<String, Social> load() {
+        public synchronized Map<Integer, Social> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Social.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -196,7 +196,7 @@ public class Social
         }
 
         private static class Container {
-            public LinkedHashMap<String, Social> types;
+            public LinkedHashMap<Integer, Social> types;
         }
     }
 }

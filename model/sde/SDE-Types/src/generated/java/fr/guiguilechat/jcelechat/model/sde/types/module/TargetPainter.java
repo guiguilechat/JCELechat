@@ -241,7 +241,7 @@ public class TargetPainter
         implements IMetaGroup<TargetPainter>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/TargetPainter.yaml";
-        private Map<String, TargetPainter> cache = (null);
+        private Map<Integer, TargetPainter> cache = (null);
 
         @Override
         public IMetaCategory<? super TargetPainter> category() {
@@ -259,7 +259,7 @@ public class TargetPainter
         }
 
         @Override
-        public synchronized Map<String, TargetPainter> load() {
+        public synchronized Map<Integer, TargetPainter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TargetPainter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -273,7 +273,7 @@ public class TargetPainter
         }
 
         private static class Container {
-            public LinkedHashMap<String, TargetPainter> types;
+            public LinkedHashMap<Integer, TargetPainter> types;
         }
     }
 }

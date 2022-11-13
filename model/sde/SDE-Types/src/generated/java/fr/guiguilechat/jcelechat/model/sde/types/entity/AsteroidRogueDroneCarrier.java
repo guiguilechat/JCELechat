@@ -1073,7 +1073,7 @@ public class AsteroidRogueDroneCarrier
         implements IMetaGroup<AsteroidRogueDroneCarrier>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidRogueDroneCarrier.yaml";
-        private Map<String, AsteroidRogueDroneCarrier> cache = (null);
+        private Map<Integer, AsteroidRogueDroneCarrier> cache = (null);
 
         @Override
         public IMetaCategory<? super AsteroidRogueDroneCarrier> category() {
@@ -1091,7 +1091,7 @@ public class AsteroidRogueDroneCarrier
         }
 
         @Override
-        public synchronized Map<String, AsteroidRogueDroneCarrier> load() {
+        public synchronized Map<Integer, AsteroidRogueDroneCarrier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AsteroidRogueDroneCarrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1105,7 +1105,7 @@ public class AsteroidRogueDroneCarrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidRogueDroneCarrier> types;
+            public LinkedHashMap<Integer, AsteroidRogueDroneCarrier> types;
         }
     }
 }

@@ -1385,7 +1385,7 @@ public class PirateDrone
         implements IMetaGroup<PirateDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/PirateDrone.yaml";
-        private Map<String, PirateDrone> cache = (null);
+        private Map<Integer, PirateDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super PirateDrone> category() {
@@ -1403,7 +1403,7 @@ public class PirateDrone
         }
 
         @Override
-        public synchronized Map<String, PirateDrone> load() {
+        public synchronized Map<Integer, PirateDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PirateDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1417,7 +1417,7 @@ public class PirateDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, PirateDrone> types;
+            public LinkedHashMap<Integer, PirateDrone> types;
         }
     }
 }

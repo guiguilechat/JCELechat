@@ -97,7 +97,7 @@ public class ShieldHardenerBlueprint
         implements IMetaGroup<ShieldHardenerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ShieldHardenerBlueprint.yaml";
-        private Map<String, ShieldHardenerBlueprint> cache = (null);
+        private Map<Integer, ShieldHardenerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldHardenerBlueprint> category() {
@@ -115,7 +115,7 @@ public class ShieldHardenerBlueprint
         }
 
         @Override
-        public synchronized Map<String, ShieldHardenerBlueprint> load() {
+        public synchronized Map<Integer, ShieldHardenerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldHardenerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ShieldHardenerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldHardenerBlueprint> types;
+            public LinkedHashMap<Integer, ShieldHardenerBlueprint> types;
         }
     }
 }

@@ -97,7 +97,7 @@ public class PowerManagerBlueprint
         implements IMetaGroup<PowerManagerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/PowerManagerBlueprint.yaml";
-        private Map<String, PowerManagerBlueprint> cache = (null);
+        private Map<Integer, PowerManagerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super PowerManagerBlueprint> category() {
@@ -115,7 +115,7 @@ public class PowerManagerBlueprint
         }
 
         @Override
-        public synchronized Map<String, PowerManagerBlueprint> load() {
+        public synchronized Map<Integer, PowerManagerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PowerManagerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class PowerManagerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, PowerManagerBlueprint> types;
+            public LinkedHashMap<Integer, PowerManagerBlueprint> types;
         }
     }
 }

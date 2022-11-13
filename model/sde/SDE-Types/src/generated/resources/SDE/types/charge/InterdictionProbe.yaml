@@ -1,27 +1,5 @@
 types:
-  Surgical Warp Disrupt Probe:
-    agility: 1000.0
-    disallowinempirespace: 1
-    explosiondelay: 180000
-    hp: 1000.0
-    id: 34260
-    launchergroup: 589
-    marketGroup: 1201
-    mass: 1.0
-    name: Surgical Warp Disrupt Probe
-    packagedVolume: 5.0
-    portionSize: 2
-    published: true
-    radius: 1.0
-    requiredskill1: 3412
-    requiredskill1level: 3
-    signatureradius: 90.0
-    speedmultiplier: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 5.0
-    warpscramblerange: 10000
-  Warp Disrupt Probe:
+  22778:
     agility: 1000.0
     disallowinempirespace: 1
     explosiondelay: 120000
@@ -43,3 +21,25 @@ types:
     techlevel: 1
     volume: 5.0
     warpscramblerange: 20000
+  34260:
+    agility: 1000.0
+    disallowinempirespace: 1
+    explosiondelay: 180000
+    hp: 1000.0
+    id: 34260
+    launchergroup: 589
+    marketGroup: 1201
+    mass: 1.0
+    name: Surgical Warp Disrupt Probe
+    packagedVolume: 5.0
+    portionSize: 2
+    published: true
+    radius: 1.0
+    requiredskill1: 3412
+    requiredskill1level: 3
+    signatureradius: 90.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 5.0
+    warpscramblerange: 10000

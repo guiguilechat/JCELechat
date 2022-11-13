@@ -32,7 +32,7 @@ public class CompositeReactionFormulas
         implements IMetaGroup<CompositeReactionFormulas>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CompositeReactionFormulas.yaml";
-        private Map<String, CompositeReactionFormulas> cache = (null);
+        private Map<Integer, CompositeReactionFormulas> cache = (null);
 
         @Override
         public IMetaCategory<? super CompositeReactionFormulas> category() {
@@ -50,7 +50,7 @@ public class CompositeReactionFormulas
         }
 
         @Override
-        public synchronized Map<String, CompositeReactionFormulas> load() {
+        public synchronized Map<Integer, CompositeReactionFormulas> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CompositeReactionFormulas.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class CompositeReactionFormulas
         }
 
         private static class Container {
-            public LinkedHashMap<String, CompositeReactionFormulas> types;
+            public LinkedHashMap<Integer, CompositeReactionFormulas> types;
         }
     }
 }

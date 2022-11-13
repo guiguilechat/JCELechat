@@ -495,7 +495,7 @@ public class ControlTower
         implements IMetaGroup<ControlTower>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/ControlTower.yaml";
-        private Map<String, ControlTower> cache = (null);
+        private Map<Integer, ControlTower> cache = (null);
 
         @Override
         public IMetaCategory<? super ControlTower> category() {
@@ -513,7 +513,7 @@ public class ControlTower
         }
 
         @Override
-        public synchronized Map<String, ControlTower> load() {
+        public synchronized Map<Integer, ControlTower> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ControlTower.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -527,7 +527,7 @@ public class ControlTower
         }
 
         private static class Container {
-            public LinkedHashMap<String, ControlTower> types;
+            public LinkedHashMap<Integer, ControlTower> types;
         }
     }
 }

@@ -83,7 +83,7 @@ public class MicroJumpDriveBlueprint
         implements IMetaGroup<MicroJumpDriveBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MicroJumpDriveBlueprint.yaml";
-        private Map<String, MicroJumpDriveBlueprint> cache = (null);
+        private Map<Integer, MicroJumpDriveBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MicroJumpDriveBlueprint> category() {
@@ -101,7 +101,7 @@ public class MicroJumpDriveBlueprint
         }
 
         @Override
-        public synchronized Map<String, MicroJumpDriveBlueprint> load() {
+        public synchronized Map<Integer, MicroJumpDriveBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MicroJumpDriveBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class MicroJumpDriveBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MicroJumpDriveBlueprint> types;
+            public LinkedHashMap<Integer, MicroJumpDriveBlueprint> types;
         }
     }
 }

@@ -1,16 +1,16 @@
 types:
-  ♦ Retriever:
+  42534:
     armoremdamageresonance: 0.3499999940395355
     armorexplosivedamageresonance: 0.7875000238418579
     armorhp: 2125.0
     armorkineticdamageresonance: 0.65625
     armorthermaldamageresonance: 0.5687500238418579
-    behaviorminingamount: 307.0
+    behaviorminingamount: 16.0
     behaviorminingdischarge: 180
-    behaviorminingduration: 162000
+    behaviorminingduration: 840000
     behaviorminingmaxrange: 15000
     capacitorcapacity: 313.0
-    capacity: 10000.0
+    capacity: 100.0
     disallowassistance: 1
     entityfactionloss: 0.007000000216066837
     entitykillbounty: 150000

@@ -1,5 +1,5 @@
 types:
-  Orca Blueprint:
+  28607:
     id: 28607
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
@@ -11,7 +11,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Porpoise Blueprint:
+  43910:
     id: 43910
     industryjobcostmultiplier: 1
     marketGroup: 2334

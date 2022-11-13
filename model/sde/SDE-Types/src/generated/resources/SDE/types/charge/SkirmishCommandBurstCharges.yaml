@@ -1,5 +1,5 @@
 types:
-  Evasive Maneuvers Charge:
+  42838:
     id: 42838
     launchergroup: 1770
     marketGroup: 2302
@@ -19,7 +19,7 @@ types:
     warfarebuff1multiplier: -6
     warfarebuff2id: 60
     warfarebuff2multiplier: -6
-  Interdiction Maneuvers Charge:
+  42839:
     id: 42839
     launchergroup: 1770
     marketGroup: 2302
@@ -37,7 +37,7 @@ types:
     volume: 0.009999999776482582
     warfarebuff1id: 21
     warfarebuff1multiplier: 12
-  Rapid Deployment Charge:
+  42840:
     id: 42840
     launchergroup: 1770
     marketGroup: 2302

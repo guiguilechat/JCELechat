@@ -32,7 +32,7 @@ public class BountyEncryptedBonds
         implements IMetaGroup<BountyEncryptedBonds>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/BountyEncryptedBonds.yaml";
-        private Map<String, BountyEncryptedBonds> cache = (null);
+        private Map<Integer, BountyEncryptedBonds> cache = (null);
 
         @Override
         public IMetaCategory<? super BountyEncryptedBonds> category() {
@@ -50,7 +50,7 @@ public class BountyEncryptedBonds
         }
 
         @Override
-        public synchronized Map<String, BountyEncryptedBonds> load() {
+        public synchronized Map<Integer, BountyEncryptedBonds> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BountyEncryptedBonds.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class BountyEncryptedBonds
         }
 
         private static class Container {
-            public LinkedHashMap<String, BountyEncryptedBonds> types;
+            public LinkedHashMap<Integer, BountyEncryptedBonds> types;
         }
     }
 }

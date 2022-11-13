@@ -1217,7 +1217,7 @@ public class AsteroidGuristasCommanderFrigate
         implements IMetaGroup<AsteroidGuristasCommanderFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidGuristasCommanderFrigate.yaml";
-        private Map<String, AsteroidGuristasCommanderFrigate> cache = (null);
+        private Map<Integer, AsteroidGuristasCommanderFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super AsteroidGuristasCommanderFrigate> category() {
@@ -1235,7 +1235,7 @@ public class AsteroidGuristasCommanderFrigate
         }
 
         @Override
-        public synchronized Map<String, AsteroidGuristasCommanderFrigate> load() {
+        public synchronized Map<Integer, AsteroidGuristasCommanderFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AsteroidGuristasCommanderFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1249,7 +1249,7 @@ public class AsteroidGuristasCommanderFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidGuristasCommanderFrigate> types;
+            public LinkedHashMap<Integer, AsteroidGuristasCommanderFrigate> types;
         }
     }
 }

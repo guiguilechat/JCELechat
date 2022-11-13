@@ -1,5 +1,5 @@
 types:
-  Sleepless Defender:
+  30192:
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
@@ -79,7 +79,89 @@ types:
     trackingspeed: 0.03999999910593033
     volume: 1.9E7
     warpscrambleduration: 8000
-  Sleepless Preserver:
+  30193:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesecondarytarget: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    armoremdamageresonance: 0.3499999940395355
+    armorexplosivedamageresonance: 0.3499999940395355
+    armorhp: 16800.0
+    armorkineticdamageresonance: 0.3499999940395355
+    armorthermaldamageresonance: 0.3499999940395355
+    armoruniformity: 0.75
+    capacitorcapacity: 3300.0
+    capacity: 120.0
+    damagemultiplier: 23.799999237060547
+    disallowassistance: 1
+    emdamage: 40.0
+    energyneutralizeramount: 100.0
+    energyneutralizerduration: 10000
+    energyneutralizerentitychance: 0.8999999761581421
+    energyneutralizerrangeoptimal: 70000
+    entityarmorrepairamount: 560.0
+    entityarmorrepairduration: 15000
+    entityattackdelaymax: 8000
+    entityattackdelaymin: 5000
+    entityattackrange: 225000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdistance: 71500
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 100.0
+    entityequipmentmax: 8
+    entityequipmentmin: 6
+    entityflyrange: 65000.0
+    entitygrouprespawnchance: 1
+    entitymissiletypeid: 30426
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8500000238418579
+    falloff: 75000.0
+    gfxboosterid: 397
+    gfxturretid: 4049
+    hp: 8400.0
+    id: 30193
+    mass: 1.9E7
+    maxattacktargets: 1
+    maxlockedtargets: 4
+    maxrange: 150000.0
+    maxvelocity: 800.0
+    missiledamagemultiplier: 2.799999952316284
+    missileentityaoecloudsizemultiplier: 0.7541000247001648
+    missileentityaoevelocitymultiplier: 1.4917999505996704
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 18000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Sleepless Upholder
+    npcassistancerange: 5000
+    npcremotearmorrepairchance: 1.0
+    npcremotearmorrepairduration: 10000
+    npcremotearmorrepairthreshold: 0.25
+    optimalsigradius: 400
+    packagedVolume: 1.9E7
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scangravimetricstrength: 30.0
+    scanladarstrength: 30.0
+    scanmagnetometricstrength: 30.0
+    scanradarstrength: 30.0
+    scanresolution: 140.0
+    signatureradius: 400.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 40.0
+    trackingspeed: 0.017000000923871994
+    volume: 1.9E7
+    warpscrambleduration: 8000
+  30194:
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
@@ -159,7 +241,7 @@ types:
     trackingspeed: 0.017000000923871994
     volume: 1.9E7
     warpscrambleduration: 8000
-  Sleepless Safeguard:
+  30195:
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
@@ -245,85 +327,3 @@ types:
     warpscrambleduration: 5000
     warpscramblerange: 24000
     warpscramblestrength: 1
-  Sleepless Upholder:
-    aishoulduseeffectmultiplier: 1
-    aishouldusesecondarytarget: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.3499999940395355
-    armorexplosivedamageresonance: 0.3499999940395355
-    armorhp: 16800.0
-    armorkineticdamageresonance: 0.3499999940395355
-    armorthermaldamageresonance: 0.3499999940395355
-    armoruniformity: 0.75
-    capacitorcapacity: 3300.0
-    capacity: 120.0
-    damagemultiplier: 23.799999237060547
-    disallowassistance: 1
-    emdamage: 40.0
-    energyneutralizeramount: 100.0
-    energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.8999999761581421
-    energyneutralizerrangeoptimal: 70000
-    entityarmorrepairamount: 560.0
-    entityarmorrepairduration: 15000
-    entityattackdelaymax: 8000
-    entityattackdelaymin: 5000
-    entityattackrange: 225000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.10000000149011612
-    entitychasemaxdistance: 71500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 100.0
-    entityequipmentmax: 8
-    entityequipmentmin: 6
-    entityflyrange: 65000.0
-    entitygrouprespawnchance: 1
-    entitymissiletypeid: 30426
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8500000238418579
-    falloff: 75000.0
-    gfxboosterid: 397
-    gfxturretid: 4049
-    hp: 8400.0
-    id: 30193
-    mass: 1.9E7
-    maxattacktargets: 1
-    maxlockedtargets: 4
-    maxrange: 150000.0
-    maxvelocity: 800.0
-    missiledamagemultiplier: 2.799999952316284
-    missileentityaoecloudsizemultiplier: 0.7541000247001648
-    missileentityaoevelocitymultiplier: 1.4917999505996704
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 18000.0
-    modifytargetspeedduration: 5000.0
-    modifytargetspeedrange: 20000
-    name: Sleepless Upholder
-    npcassistancerange: 5000
-    npcremotearmorrepairchance: 1.0
-    npcremotearmorrepairduration: 10000
-    npcremotearmorrepairthreshold: 0.25
-    optimalsigradius: 400
-    packagedVolume: 1.9E7
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scangravimetricstrength: 30.0
-    scanladarstrength: 30.0
-    scanmagnetometricstrength: 30.0
-    scanradarstrength: 30.0
-    scanresolution: 140.0
-    signatureradius: 400.0
-    speed: 5000.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 40.0
-    trackingspeed: 0.017000000923871994
-    volume: 1.9E7
-    warpscrambleduration: 8000

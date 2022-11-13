@@ -38,7 +38,7 @@ public class AdvancedCommoditiesTier4
         implements IMetaGroup<AdvancedCommoditiesTier4>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetarycommodities/AdvancedCommoditiesTier4.yaml";
-        private Map<String, AdvancedCommoditiesTier4> cache = (null);
+        private Map<Integer, AdvancedCommoditiesTier4> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedCommoditiesTier4> category() {
@@ -56,7 +56,7 @@ public class AdvancedCommoditiesTier4
         }
 
         @Override
-        public synchronized Map<String, AdvancedCommoditiesTier4> load() {
+        public synchronized Map<Integer, AdvancedCommoditiesTier4> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedCommoditiesTier4 .MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -70,7 +70,7 @@ public class AdvancedCommoditiesTier4
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedCommoditiesTier4> types;
+            public LinkedHashMap<Integer, AdvancedCommoditiesTier4> types;
         }
     }
 }

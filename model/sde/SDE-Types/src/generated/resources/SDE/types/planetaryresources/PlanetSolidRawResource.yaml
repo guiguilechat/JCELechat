@@ -1,5 +1,5 @@
 types:
-  Base Metals:
+  2267:
     exporttaxmultiplier: 5
     id: 2267
     importtaxmultiplier: 5
@@ -10,29 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Felsic Magma:
-    exporttaxmultiplier: 5
-    id: 2307
-    importtaxmultiplier: 5
-    marketGroup: 1333
-    name: Felsic Magma
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Heavy Metals:
-    exporttaxmultiplier: 5
-    id: 2272
-    importtaxmultiplier: 5
-    marketGroup: 1333
-    name: Heavy Metals
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Noble Metals:
+  2270:
     exporttaxmultiplier: 5
     id: 2270
     importtaxmultiplier: 5
@@ -43,12 +21,34 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Non-CS Crystals:
+  2272:
+    exporttaxmultiplier: 5
+    id: 2272
+    importtaxmultiplier: 5
+    marketGroup: 1333
+    name: Heavy Metals
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  2306:
     exporttaxmultiplier: 5
     id: 2306
     importtaxmultiplier: 5
     marketGroup: 1333
     name: Non-CS Crystals
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  2307:
+    exporttaxmultiplier: 5
+    id: 2307
+    importtaxmultiplier: 5
+    marketGroup: 1333
+    name: Felsic Magma
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

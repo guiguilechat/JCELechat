@@ -385,7 +385,7 @@ public class WarpDisruptFieldGenerator
         implements IMetaGroup<WarpDisruptFieldGenerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/WarpDisruptFieldGenerator.yaml";
-        private Map<String, WarpDisruptFieldGenerator> cache = (null);
+        private Map<Integer, WarpDisruptFieldGenerator> cache = (null);
 
         @Override
         public IMetaCategory<? super WarpDisruptFieldGenerator> category() {
@@ -403,7 +403,7 @@ public class WarpDisruptFieldGenerator
         }
 
         @Override
-        public synchronized Map<String, WarpDisruptFieldGenerator> load() {
+        public synchronized Map<Integer, WarpDisruptFieldGenerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WarpDisruptFieldGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -417,7 +417,7 @@ public class WarpDisruptFieldGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpDisruptFieldGenerator> types;
+            public LinkedHashMap<Integer, WarpDisruptFieldGenerator> types;
         }
     }
 }

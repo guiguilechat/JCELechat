@@ -15,6 +15,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.stream.Collectors;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.JArray;
@@ -30,6 +34,7 @@ import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JForEach;
 import com.helger.jcodemodel.JInvocation;
 import com.helger.jcodemodel.JLambda;
+import com.helger.jcodemodel.JLambdaMethodRef;
 import com.helger.jcodemodel.JLambdaParam;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
@@ -41,9 +46,6 @@ import com.helger.jcodemodel.JSwitch;
 import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JTypeVar;
 import com.helger.jcodemodel.JVar;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.AttributeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
@@ -268,18 +270,20 @@ public class SDECompiler {
 
 		try {
 			ret.typeIndexClass = rootPackage()._class("TypeIndex");
-			ret.typeIndexClass
-			.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), strRef), "id2name")
-			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
-			ret.typeIndexClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "name2group")
-			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
-			ret.typeIndexClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "group2class")
-			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
+			JVar name2Ids = ret.typeIndexClass
+					.field(JMod.PUBLIC,
+							cm.ref(LinkedHashMap.class).narrow(strRef, cm.ref(ArrayList.class).narrow(Integer.class)),
+							"name2Ids")
+					.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
+			JVar id2group = ret.typeIndexClass
+					.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), strRef), "id2group")
+					.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
 
 			// method to load an Type from its name.
 
-			// create a cache classname-> map<id, ? extends Type>
-			JNarrowedClass cacheValueType = cm.ref(Map.class).narrow(strRef).narrow(ret.eveTypeClass.wildcardExtends());
+			// create a cache groupName -> Map<id, EveType<?>>
+			JNarrowedClass cacheValueType = cm.ref(Map.class).narrow(cm.ref(Integer.class))
+					.narrow(ret.eveTypeClass.wildcardExtends());
 			JVar groupcache = ret.typeIndexClass
 					.field(JMod.PRIVATE | JMod.STATIC, cm.ref(Map.class).narrow(strRef).narrow(cacheValueType), "groupcache")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
@@ -287,19 +291,19 @@ public class SDECompiler {
 			// create the method that uses this cache
 			JMethod getType = ret.typeIndexClass.method(JMod.PUBLIC | JMod.STATIC, ret.eveTypeClass, "getType");
 			getType.annotate(SuppressWarnings.class).param("value", "unchecked");
-			JVar TypeName = getType.param(strRef, "name");
-			getType.body()._if(TypeName.eq(JExpr._null()))._then()._return(JExpr._null());
-			JVar grp = getType.body().decl(strRef, "group")
-					.init(ret.typeIndexClass.staticInvoke("load").ref("name2group").invoke("get").arg(TypeName));
-			getType.body()._if(grp.eq(JExpr._null()))._then()._return(JExpr._null());
-			JVar map = getType.body().decl(cacheValueType, "map").init(groupcache.invoke("get").arg(grp));
-			JBlock createBlock = getType.body()._if(map.eq(JExpr._null()))._then();
+			JVar typeId = getType.param(cm.INT, "id");
+			JVar grpStr = getType.body().decl(strRef, "group")
+					.init(ret.typeIndexClass.staticInvoke("load").ref(id2group).invoke("get").arg(typeId));
+			getType.body()._if(grpStr.eq(JExpr._null()))._then()._return(JExpr._null());
+			JVar mapId2Type = getType.body().decl(cacheValueType, "map").init(groupcache.invoke("get").arg(grpStr));
+			JBlock createBlock = getType.body()._if(mapId2Type.eq(JExpr._null()))._then();
 
 			// try to load the class then call load() on it
 			JTryBlock tryblock = createBlock._try();
 			// convert the group to the classname
 			JVar className = tryblock.body().decl(strRef, "className").init(
-					JExpr.lit(TypePackage().name() + ".").plus(grp.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
+					JExpr.lit(TypePackage().name() + ".")
+					.plus(grpStr.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
 			JVar loadclass = tryblock.body().decl(cm.ref(Class.class).narrowAny(), "loadclass");
 			loadclass.init(ret.typeIndexClass.dotclass().invoke("getClassLoader").invoke("loadClass").arg(className));
 			JBlock assignblock = tryblock.body()._if(loadclass.neNull())._then();
@@ -309,7 +313,7 @@ public class SDECompiler {
 			JVar img = assignblock.decl(ret.metaGroupClass.narrow(ret.eveTypeClass.wildcardExtends()), "img")
 					.init(JExpr.cast(ret.metaGroupClass.narrow(ret.eveTypeClass.wildcardExtends()),
 							loadclass.invoke("getField").arg("METAGROUP").invoke("get").arg(JExpr._null())));
-			assignblock.assign(map, img.invoke("load"));
+			assignblock.assign(mapId2Type, img.invoke("load"));
 
 			// if exception loading the class
 			JCatchBlock catchblock = tryblock._catch(cm.ref(Exception.class));
@@ -317,16 +321,21 @@ public class SDECompiler {
 			._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(catchblock.param("exception")));
 
 			// if map is still nul, assing it an empty map
-			createBlock._if(map.eq(JExpr._null()))._then().assign(map, cm.ref(Collections.class).staticInvoke("emptyMap"));
-			createBlock.add(JExpr.invoke(groupcache, "put").arg(grp).arg(map));
-			getType.body()._return(map.invoke("get").arg(TypeName));
+			createBlock._if(mapId2Type.eq(JExpr._null()))._then().assign(mapId2Type,
+					cm.ref(Collections.class).staticInvoke("emptyMap"));
+			createBlock.add(JExpr.invoke(groupcache, "put").arg(grpStr).arg(mapId2Type));
+			getType.body()._return(mapId2Type.invoke("get").arg(typeId));
 
-			// create the getType(int id)
-			getType = ret.typeIndexClass.method(JMod.PUBLIC | JMod.STATIC, ret.eveTypeClass, "getType");
-			JVar TypeId = getType.param(intType(), "id");
-			getType.body()._return(ret.typeIndexClass.staticInvoke("getType")
-					.arg(ret.typeIndexClass.staticInvoke("load").ref("id2name").invoke("get").arg(TypeId)));
+			// create the getTypes(String name id)
 
+			JMethod getTypes = ret.typeIndexClass.method(JMod.PUBLIC | JMod.STATIC,
+					cm.ref(List.class).narrow(ret.eveTypeClass), "getTypes");
+			JVar typeName = getTypes.param(strRef, "name");
+			getTypes.body()._return(ret.typeIndexClass.staticInvoke("load").ref(name2Ids)
+					.invoke("getOrDefault").arg(typeName).arg(cm.ref(ArrayList.class).narrowEmpty()._new())
+					.invoke("stream")
+					.invoke("map").arg(new JLambdaMethodRef(ret.typeIndexClass,getType.name()))
+					.invoke("collect").arg(cm.ref(Collectors.class).staticInvoke("toList")));
 		} catch (JClassAlreadyExistsException e1) {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
@@ -431,11 +440,11 @@ public class SDECompiler {
 			ret.metaCatClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
 
 			// create a load() method;
-			// public default Map<String, T> load() {
+			// public default Map<Integer, T> load() {
 			JMethod loadMethod = ret.metaCatClass.method(JMod.PUBLIC | JMod.DEFAULT,
-					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaCat), "load");
+					cm.ref(Map.class).narrow(cm.ref(Integer.class), paramMetaCat), "load");
 			// HashMap<String, T> ret = new HashMap<>()
-			JVar loadRet = loadMethod.body().decl(cm.ref(HashMap.class).narrow(cm.ref(String.class), paramMetaCat), "ret")
+			JVar loadRet = loadMethod.body().decl(cm.ref(HashMap.class).narrow(cm.ref(Integer.class), paramMetaCat), "ret")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 			// groups().stream().flatMap(img ->
 			// img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(),
@@ -455,7 +464,7 @@ public class SDECompiler {
 			ret.groupGetCat = ret.metaGroupClass.method(JMod.PUBLIC, ret.metaCatClass.narrow(paramMetaGroup.wildcardSuper()),
 					"category");
 			ret.groupGetTypes = ret.metaGroupClass.method(JMod.PUBLIC | JMod.DEFAULT,
-					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaGroup), "load");
+					cm.ref(Map.class).narrow(cm.ref(Integer.class), paramMetaGroup), "load");
 			ret.groupGetTypes.body()._return(JExpr._null());
 
 			ret.metaGroupClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");

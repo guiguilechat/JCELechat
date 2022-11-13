@@ -1433,7 +1433,7 @@ public class DestructibleSentryGun
         implements IMetaGroup<DestructibleSentryGun>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DestructibleSentryGun.yaml";
-        private Map<String, DestructibleSentryGun> cache = (null);
+        private Map<Integer, DestructibleSentryGun> cache = (null);
 
         @Override
         public IMetaCategory<? super DestructibleSentryGun> category() {
@@ -1451,7 +1451,7 @@ public class DestructibleSentryGun
         }
 
         @Override
-        public synchronized Map<String, DestructibleSentryGun> load() {
+        public synchronized Map<Integer, DestructibleSentryGun> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DestructibleSentryGun.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1465,7 +1465,7 @@ public class DestructibleSentryGun
         }
 
         private static class Container {
-            public LinkedHashMap<String, DestructibleSentryGun> types;
+            public LinkedHashMap<Integer, DestructibleSentryGun> types;
         }
     }
 }

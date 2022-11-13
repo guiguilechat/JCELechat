@@ -83,7 +83,7 @@ public class StarbaseMobileLaboratoryBlueprints
         implements IMetaGroup<StarbaseMobileLaboratoryBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseMobileLaboratoryBlueprints.yaml";
-        private Map<String, StarbaseMobileLaboratoryBlueprints> cache = (null);
+        private Map<Integer, StarbaseMobileLaboratoryBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StarbaseMobileLaboratoryBlueprints> category() {
@@ -101,7 +101,7 @@ public class StarbaseMobileLaboratoryBlueprints
         }
 
         @Override
-        public synchronized Map<String, StarbaseMobileLaboratoryBlueprints> load() {
+        public synchronized Map<Integer, StarbaseMobileLaboratoryBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StarbaseMobileLaboratoryBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StarbaseMobileLaboratoryBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseMobileLaboratoryBlueprints> types;
+            public LinkedHashMap<Integer, StarbaseMobileLaboratoryBlueprints> types;
         }
     }
 }

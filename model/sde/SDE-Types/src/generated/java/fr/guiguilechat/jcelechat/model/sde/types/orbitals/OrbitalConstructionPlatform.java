@@ -60,7 +60,7 @@ public class OrbitalConstructionPlatform
         implements IMetaGroup<OrbitalConstructionPlatform>
     {
         public static final String RESOURCE_PATH = "SDE/types/orbitals/OrbitalConstructionPlatform.yaml";
-        private Map<String, OrbitalConstructionPlatform> cache = (null);
+        private Map<Integer, OrbitalConstructionPlatform> cache = (null);
 
         @Override
         public IMetaCategory<? super OrbitalConstructionPlatform> category() {
@@ -78,7 +78,7 @@ public class OrbitalConstructionPlatform
         }
 
         @Override
-        public synchronized Map<String, OrbitalConstructionPlatform> load() {
+        public synchronized Map<Integer, OrbitalConstructionPlatform> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(OrbitalConstructionPlatform.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -92,7 +92,7 @@ public class OrbitalConstructionPlatform
         }
 
         private static class Container {
-            public LinkedHashMap<String, OrbitalConstructionPlatform> types;
+            public LinkedHashMap<Integer, OrbitalConstructionPlatform> types;
         }
     }
 }

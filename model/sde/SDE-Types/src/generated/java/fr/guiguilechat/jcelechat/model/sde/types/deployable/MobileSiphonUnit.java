@@ -250,7 +250,7 @@ public class MobileSiphonUnit
         implements IMetaGroup<MobileSiphonUnit>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileSiphonUnit.yaml";
-        private Map<String, MobileSiphonUnit> cache = (null);
+        private Map<Integer, MobileSiphonUnit> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileSiphonUnit> category() {
@@ -268,7 +268,7 @@ public class MobileSiphonUnit
         }
 
         @Override
-        public synchronized Map<String, MobileSiphonUnit> load() {
+        public synchronized Map<Integer, MobileSiphonUnit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileSiphonUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -282,7 +282,7 @@ public class MobileSiphonUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileSiphonUnit> types;
+            public LinkedHashMap<Integer, MobileSiphonUnit> types;
         }
     }
 }

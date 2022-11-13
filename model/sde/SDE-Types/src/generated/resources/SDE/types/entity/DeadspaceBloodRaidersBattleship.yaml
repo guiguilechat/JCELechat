@@ -1,28 +1,28 @@
 types:
-  Corpus Apostle:
+  16934:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5699999928474426
-    armorexplosivedamageresonance: 0.27000001072883606
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.3700000047683716
-    armorthermaldamageresonance: 0.4699999988079071
+    armoremdamageresonance: 0.5899999737739563
+    armorexplosivedamageresonance: 0.28999999165534973
+    armorhp: 4800.0
+    armorkineticdamageresonance: 0.38999998569488525
+    armorthermaldamageresonance: 0.49000000953674316
     armoruniformity: 0.75
-    capacitorcapacity: 3300.0
+    capacitorcapacity: 3100.0
     capacity: 235.0
-    damagemultiplier: 9.0
+    damagemultiplier: 8.0
     disallowassistance: 1
     emdamage: 16.0
     energyneutralizerduration: 30000
-    entityarmorrepairamount: 470.0
+    entityarmorrepairamount: 390.0
     entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.6800000071525574
+    entityarmorrepairdelaychancelarge: 0.6600000262260437
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 14700
-    entityattackdelaymin: 3675
+    entityattackdelaymax: 15300
+    entityattackdelaymin: 3825
     entityattackrange: 95000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
@@ -31,26 +31,26 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.11999999731779099
+    entitydefenderchance: 0.10999999940395355
     entityequipmentmax: 4
     entityequipmentmin: -3
     entityfactionloss: 0.009999999776482582
     entityflyrange: 38000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 543750
+    entitykillbounty: 431250
     entitylootcountmin: 1
-    entitymissiletypeid: 203
+    entitymissiletypeid: 204
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.800000011920929
+    entityreactionfactor: 0.7799999713897705
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.6800000071525574
+    entityshieldboostdelaychancelarge: 0.6600000262260437
     entityshieldboostduration: 5000
     falloff: 12000.0
     gfxboosterid: 397
     gfxturretid: 461
-    hp: 5250.0
-    id: 16941
+    hp: 4250.0
+    id: 16934
     mass: 1.95E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
@@ -60,11 +60,11 @@ types:
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.4507999420166016
-    missileentityflighttimemultiplier: 1.4507999420166016
-    missileentityvelocitymultiplier: 1.4507999420166016
+    missileentityaoevelocitymultiplier: 1.434399962425232
+    missileentityflighttimemultiplier: 1.434399962425232
+    missileentityvelocitymultiplier: 1.434399962425232
     missilelaunchduration: 1.0
-    name: Corpus Apostle
+    name: Corpus Prophet
     optimalsigradius: 400
     packagedVolume: 1150000.0
     portionSize: 1
@@ -72,15 +72,15 @@ types:
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanradarstrength: 24.0
+    scanradarstrength: 22.0
     scanresolution: 110.0
     scanspeed: 7500
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5699999928474426
-    shieldexplosivedamageresonance: 0.27000001072883606
-    shieldkineticdamageresonance: 0.3700000047683716
+    shieldcapacity: 3975.0
+    shieldemdamageresonance: 0.5899999737739563
+    shieldexplosivedamageresonance: 0.28999999165534973
+    shieldkineticdamageresonance: 0.38999998569488525
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4699999988079071
+    shieldthermaldamageresonance: 0.49000000953674316
     shielduniformity: 0.75
     signatureradius: 340.0
     speed: 3000.0
@@ -88,548 +88,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.017500000074505806
     volume: 1150000.0
-  Corpus Archbishop:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5600000023841858
-    armorexplosivedamageresonance: 0.25999999046325684
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.36000001430511475
-    armorthermaldamageresonance: 0.46000000834465027
-    armoruniformity: 0.75
-    capacitorcapacity: 3400.0
-    capacity: 235.0
-    damagemultiplier: 8.0
-    disallowassistance: 1
-    emdamage: 20.0
-    energyneutralizeramount: 300.0
-    energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.25
-    energyneutralizerrangeoptimal: 25000
-    entityarmorrepairamount: 510.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.6899999976158142
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 14400
-    entityattackdelaymin: 3600
-    entityattackrange: 42500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 25500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.125
-    entityequipmentmax: 5
-    entityequipmentmin: -4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 17000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 712500
-    entitylootcountmin: 1
-    entitymissiletypeid: 203
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8100000023841858
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.6899999976158142
-    entityshieldboostduration: 5000
-    falloff: 8000.0
-    gfxboosterid: 397
-    gfxturretid: 460
-    hp: 5250.0
-    id: 24135
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 15000.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.4589999914169312
-    missileentityflighttimemultiplier: 1.4589999914169312
-    missileentityvelocitymultiplier: 1.4589999914169312
-    missilelaunchduration: 1.0
-    name: Corpus Archbishop
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 31.0
-    scanresolution: 85.0
-    scanspeed: 7500
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5600000023841858
-    shieldexplosivedamageresonance: 0.25999999046325684
-    shieldkineticdamageresonance: 0.36000001430511475
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.46000000834465027
-    shielduniformity: 0.75
-    signatureradius: 420.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.027000000700354576
-    volume: 1150000.0
-  Corpus Archon:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.30000001192092896
-    armorhp: 4250.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 235.0
-    damagemultiplier: 6.25
-    disallowassistance: 1
-    emdamage: 16.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 350.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 15600
-    entityattackdelaymin: 3900
-    entityattackrange: 42000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 28000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.10499999672174454
-    entityequipmentmax: 4
-    entityequipmentmin: -3
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 14000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 375000
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.6499999761581421
-    entityshieldboostduration: 5000
-    falloff: 6000.0
-    gfxboosterid: 397
-    gfxturretid: 460
-    hp: 3975.0
-    id: 16952
-    mass: 2.05E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 12500.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.786899983882904
-    missileentityaoevelocitymultiplier: 1.426200032234192
-    missileentityflighttimemultiplier: 1.426200032234192
-    missileentityvelocitymultiplier: 1.426200032234192
-    missilelaunchduration: 1.0
-    name: Corpus Archon
-    optimalsigradius: 400
-    packagedVolume: 1100000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 21.0
-    scanresolution: 110.0
-    scanspeed: 7500
-    shieldcapacity: 3500.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.4000000059604645
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 340.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.029999999329447746
-    volume: 1100000.0
-    warpscramblerange: 20000
-    warpscramblestrength: 2
-  Corpus Cardinal:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5299999713897705
-    armorexplosivedamageresonance: 0.23000000417232513
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.33000001311302185
-    armorthermaldamageresonance: 0.4300000071525574
-    armoruniformity: 0.75
-    capacitorcapacity: 3700.0
-    capacity: 235.0
-    damagemultiplier: 8.75
-    disallowassistance: 1
-    emdamage: 20.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 630.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.7200000286102295
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 13500
-    entityattackdelaymin: 3375
-    entityattackrange: 122500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 73500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.14000000059604645
-    entityequipmentmax: 7
-    entityequipmentmin: -5
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 49000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 993750
-    entitylootcountmin: 1
-    entitymissiletypeid: 203
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8399999737739563
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.7200000286102295
-    entityshieldboostduration: 5000
-    falloff: 20000.0
-    gfxboosterid: 397
-    gfxturretid: 464
-    hp: 5250.0
-    id: 24138
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 44000.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.7581999897956848
-    missileentityaoevelocitymultiplier: 1.4836000204086304
-    missileentityflighttimemultiplier: 1.4836000204086304
-    missileentityvelocitymultiplier: 1.4836000204086304
-    missilelaunchduration: 1.0
-    name: Corpus Cardinal
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 26.0
-    scanresolution: 100.0
-    scanspeed: 7500
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5299999713897705
-    shieldexplosivedamageresonance: 0.23000000417232513
-    shieldkineticdamageresonance: 0.33000001311302185
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4300000071525574
-    shielduniformity: 0.75
-    signatureradius: 370.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 20.0
-    trackingspeed: 0.013920499943196774
-    volume: 1150000.0
-  Corpus Harbinger:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.550000011920929
-    armorexplosivedamageresonance: 0.25
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.3499999940395355
-    armorthermaldamageresonance: 0.44999998807907104
-    armoruniformity: 0.75
-    capacitorcapacity: 3500.0
-    capacity: 235.0
-    damagemultiplier: 6.875
-    disallowassistance: 1
-    emdamage: 20.0
-    energyneutralizeramount: 350.0
-    energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.25
-    energyneutralizerrangeoptimal: 25000
-    entityarmorrepairamount: 550.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.699999988079071
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 14100
-    entityattackdelaymin: 3525
-    entityattackrange: 51000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 34000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.12999999523162842
-    entityequipmentmax: 5
-    entityequipmentmin: -4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 17000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 768750
-    entitylootcountmin: 1
-    entitymissiletypeid: 203
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8199999928474426
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.699999988079071
-    entityshieldboostduration: 5000
-    falloff: 8000.0
-    gfxboosterid: 397
-    gfxturretid: 460
-    hp: 5250.0
-    id: 24136
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 15000.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.4672000408172607
-    missileentityflighttimemultiplier: 1.4672000408172607
-    missileentityvelocitymultiplier: 1.4672000408172607
-    missilelaunchduration: 1.0
-    name: Corpus Harbinger
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 32.0
-    scanresolution: 85.0
-    scanspeed: 7500
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.550000011920929
-    shieldexplosivedamageresonance: 0.25
-    shieldkineticdamageresonance: 0.3499999940395355
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.44999998807907104
-    shielduniformity: 0.75
-    signatureradius: 420.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.027000000700354576
-    volume: 1150000.0
-  Corpus Messiah:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5099999904632568
-    armorexplosivedamageresonance: 0.20999999344348907
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.3100000023841858
-    armorthermaldamageresonance: 0.4099999964237213
-    armoruniformity: 0.75
-    capacitorcapacity: 3900.0
-    capacity: 235.0
-    damagemultiplier: 9.0
-    disallowassistance: 1
-    emdamage: 24.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 710.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.7400000095367432
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 12900
-    entityattackdelaymin: 3225
-    entityattackrange: 122500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 73500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.15000000596046448
-    entityequipmentmax: 6
-    entityequipmentmin: -4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 49000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 1218750
-    entitylootcountmin: 1
-    entitymissiletypeid: 203
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8600000143051147
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.7400000095367432
-    entityshieldboostduration: 5000
-    falloff: 20000.0
-    gfxboosterid: 397
-    gfxturretid: 464
-    hp: 5250.0
-    id: 26754
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 44000.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 1.0
-    name: Corpus Messiah
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 28.0
-    scanresolution: 100.0
-    scanspeed: 7500
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.20999999344348907
-    shieldkineticdamageresonance: 0.3100000023841858
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4099999964237213
-    shielduniformity: 0.75
-    signatureradius: 370.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 20.0
-    trackingspeed: 0.013920499943196774
-    volume: 1150000.0
-  Corpus Monsignor:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5400000214576721
-    armorexplosivedamageresonance: 0.23999999463558197
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.3400000035762787
-    armorthermaldamageresonance: 0.4399999976158142
-    armoruniformity: 0.75
-    capacitorcapacity: 3600.0
-    capacity: 235.0
-    damagemultiplier: 8.5
-    disallowassistance: 1
-    emdamage: 20.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 590.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.7099999785423279
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 13800
-    entityattackdelaymin: 3450
-    entityattackrange: 110000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 66000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.13500000536441803
-    entityequipmentmax: 7
-    entityequipmentmin: -5
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 44000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 881250
-    entitylootcountmin: 1
-    entitymissiletypeid: 203
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8299999833106995
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.7099999785423279
-    entityshieldboostduration: 5000
-    falloff: 16000.0
-    gfxboosterid: 397
-    gfxturretid: 463
-    hp: 5250.0
-    id: 24137
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 40000.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.7623000144958496
-    missileentityaoevelocitymultiplier: 1.4753999710083008
-    missileentityflighttimemultiplier: 1.4753999710083008
-    missileentityvelocitymultiplier: 1.4753999710083008
-    missilelaunchduration: 1.0
-    name: Corpus Monsignor
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 25.0
-    scanresolution: 100.0
-    scanspeed: 7500
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5400000214576721
-    shieldexplosivedamageresonance: 0.23999999463558197
-    shieldkineticdamageresonance: 0.3400000035762787
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4399999976158142
-    shielduniformity: 0.75
-    signatureradius: 370.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 20.0
-    trackingspeed: 0.015312500298023224
-    volume: 1150000.0
-  Corpus Oracle:
+  16938:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -719,274 +178,7 @@ types:
     volume: 1100000.0
     warpscramblerange: 20000
     warpscramblestrength: 2
-  Corpus Patriarch:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5199999809265137
-    armorexplosivedamageresonance: 0.2199999988079071
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.3199999928474426
-    armorthermaldamageresonance: 0.41999998688697815
-    armoruniformity: 0.75
-    capacitorcapacity: 3800.0
-    capacity: 235.0
-    damagemultiplier: 7.1875
-    disallowassistance: 1
-    emdamage: 24.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 670.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.7300000190734863
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 13200
-    entityattackdelaymin: 3300
-    entityattackrange: 51000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 34000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.14499999582767487
-    entityequipmentmax: 6
-    entityequipmentmin: -4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 17000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 1162500
-    entitylootcountmin: 1
-    entitymissiletypeid: 203
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8500000238418579
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.7300000190734863
-    entityshieldboostduration: 5000
-    falloff: 8000.0
-    gfxboosterid: 397
-    gfxturretid: 460
-    hp: 5250.0
-    id: 24139
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 15000.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.7541000247001648
-    missileentityaoevelocitymultiplier: 1.4917999505996704
-    missileentityflighttimemultiplier: 1.4917999505996704
-    missileentityvelocitymultiplier: 1.4917999505996704
-    missilelaunchduration: 1.0
-    name: Corpus Patriarch
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 27.0
-    scanresolution: 100.0
-    scanspeed: 7500
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5199999809265137
-    shieldexplosivedamageresonance: 0.2199999988079071
-    shieldkineticdamageresonance: 0.3199999928474426
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.41999998688697815
-    shielduniformity: 0.75
-    signatureradius: 370.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 20.0
-    trackingspeed: 0.027000000700354576
-    volume: 1150000.0
-  Corpus Pope:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5099999904632568
-    armorexplosivedamageresonance: 0.20999999344348907
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.3100000023841858
-    armorthermaldamageresonance: 0.4099999964237213
-    armoruniformity: 0.75
-    capacitorcapacity: 3900.0
-    capacity: 235.0
-    damagemultiplier: 9.0
-    disallowassistance: 1
-    emdamage: 24.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 710.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.7400000095367432
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 12900
-    entityattackdelaymin: 3225
-    entityattackrange: 122500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 73500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.15000000596046448
-    entityequipmentmax: 6
-    entityequipmentmin: -4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 49000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 1218750
-    entitylootcountmin: 1
-    entitymissiletypeid: 203
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8600000143051147
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.7400000095367432
-    entityshieldboostduration: 5000
-    falloff: 20000.0
-    gfxboosterid: 397
-    gfxturretid: 464
-    hp: 5250.0
-    id: 24140
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 44000.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 1.0
-    name: Corpus Pope
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 28.0
-    scanresolution: 100.0
-    scanspeed: 7500
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.20999999344348907
-    shieldkineticdamageresonance: 0.3100000023841858
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4099999964237213
-    shielduniformity: 0.75
-    signatureradius: 370.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 20.0
-    trackingspeed: 0.013920499943196774
-    volume: 1150000.0
-  Corpus Prophet:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5899999737739563
-    armorexplosivedamageresonance: 0.28999999165534973
-    armorhp: 4800.0
-    armorkineticdamageresonance: 0.38999998569488525
-    armorthermaldamageresonance: 0.49000000953674316
-    armoruniformity: 0.75
-    capacitorcapacity: 3100.0
-    capacity: 235.0
-    damagemultiplier: 8.0
-    disallowassistance: 1
-    emdamage: 16.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 390.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.6600000262260437
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 15300
-    entityattackdelaymin: 3825
-    entityattackrange: 95000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 57000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.10999999940395355
-    entityequipmentmax: 4
-    entityequipmentmin: -3
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 38000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 431250
-    entitylootcountmin: 1
-    entitymissiletypeid: 204
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7799999713897705
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.6600000262260437
-    entityshieldboostduration: 5000
-    falloff: 12000.0
-    gfxboosterid: 397
-    gfxturretid: 461
-    hp: 4250.0
-    id: 16934
-    mass: 1.95E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 35000.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.434399962425232
-    missileentityflighttimemultiplier: 1.434399962425232
-    missileentityvelocitymultiplier: 1.434399962425232
-    missilelaunchduration: 1.0
-    name: Corpus Prophet
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 22.0
-    scanresolution: 110.0
-    scanspeed: 7500
-    shieldcapacity: 3975.0
-    shieldemdamageresonance: 0.5899999737739563
-    shieldexplosivedamageresonance: 0.28999999165534973
-    shieldkineticdamageresonance: 0.38999998569488525
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.49000000953674316
-    shielduniformity: 0.75
-    signatureradius: 340.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.017500000074505806
-    volume: 1150000.0
-  Dark Corpus Apostle:
+  16941:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1000,11 +192,11 @@ types:
     armoruniformity: 0.75
     capacitorcapacity: 3300.0
     capacity: 235.0
-    damagemultiplier: 11.25
+    damagemultiplier: 9.0
     disallowassistance: 1
     emdamage: 16.0
     energyneutralizerduration: 30000
-    entityarmorrepairamount: 588.0
+    entityarmorrepairamount: 470.0
     entityarmorrepairdelaychance: 0.75
     entityarmorrepairdelaychancelarge: 0.6800000071525574
     entityarmorrepairduration: 10000
@@ -1018,13 +210,13 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.15000000596046448
-    entityequipmentmax: 7
-    entityequipmentmin: -5
+    entitydefenderchance: 0.11999999731779099
+    entityequipmentmax: 4
+    entityequipmentmin: -3
     entityfactionloss: 0.009999999776482582
     entityflyrange: 38000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 937500
+    entitykillbounty: 543750
     entitylootcountmin: 1
     entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
@@ -1033,25 +225,25 @@ types:
     entitysecuritystatuskillbonus: 0.14000000059604645
     entityshieldboostdelaychancelarge: 0.6800000071525574
     entityshieldboostduration: 5000
-    falloff: 15000.0
+    falloff: 12000.0
     gfxboosterid: 397
-    gfxturretid: 463
+    gfxturretid: 461
     hp: 5250.0
-    id: 16969
+    id: 16941
     mass: 1.95E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 1
-    maxrange: 43750.0
+    maxrange: 35000.0
     maxvelocity: 280.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.809999942779541
+    missileentityaoevelocitymultiplier: 1.4507999420166016
     missileentityflighttimemultiplier: 1.4507999420166016
     missileentityvelocitymultiplier: 1.4507999420166016
-    missilelaunchduration: 0.800000011920929
-    name: Dark Corpus Apostle
+    missilelaunchduration: 1.0
+    name: Corpus Apostle
     optimalsigradius: 400
     packagedVolume: 1150000.0
     portionSize: 1
@@ -1073,9 +265,278 @@ types:
     speed: 3000.0
     structureuniformity: 1.0
     thermaldamage: 16.0
+    trackingspeed: 0.017500000074505806
+    volume: 1150000.0
+  16952:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.30000001192092896
+    armorhp: 4250.0
+    armorkineticdamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 235.0
+    damagemultiplier: 6.25
+    disallowassistance: 1
+    emdamage: 16.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 350.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 15600
+    entityattackdelaymin: 3900
+    entityattackrange: 42000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 28000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.10499999672174454
+    entityequipmentmax: 4
+    entityequipmentmin: -3
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 14000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 375000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7699999809265137
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.6499999761581421
+    entityshieldboostduration: 5000
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 460
+    hp: 3975.0
+    id: 16952
+    mass: 2.05E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 12500.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.786899983882904
+    missileentityaoevelocitymultiplier: 1.426200032234192
+    missileentityflighttimemultiplier: 1.426200032234192
+    missileentityvelocitymultiplier: 1.426200032234192
+    missilelaunchduration: 1.0
+    name: Corpus Archon
+    optimalsigradius: 400
+    packagedVolume: 1100000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 21.0
+    scanresolution: 110.0
+    scanspeed: 7500
+    shieldcapacity: 3500.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.30000001192092896
+    shieldkineticdamageresonance: 0.4000000059604645
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 340.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.029999999329447746
+    volume: 1100000.0
+    warpscramblerange: 20000
+    warpscramblestrength: 2
+  16965:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5899999737739563
+    armorexplosivedamageresonance: 0.28999999165534973
+    armorhp: 4800.0
+    armorkineticdamageresonance: 0.38999998569488525
+    armorthermaldamageresonance: 0.49000000953674316
+    armoruniformity: 0.75
+    capacitorcapacity: 3100.0
+    capacity: 235.0
+    damagemultiplier: 10.0
+    disallowassistance: 1
+    emdamage: 16.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 488.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.6600000262260437
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 15300
+    entityattackdelaymin: 3825
+    entityattackrange: 95000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 57000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.13750000298023224
+    entityequipmentmax: 5
+    entityequipmentmin: -4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 38000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 656250
+    entitylootcountmin: 1
+    entitymissiletypeid: 204
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7799999713897705
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.6600000262260437
+    entityshieldboostduration: 5000
+    falloff: 15000.0
+    gfxboosterid: 397
+    gfxturretid: 463
+    hp: 4250.0
+    id: 16965
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 43750.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.7899999618530273
+    missileentityflighttimemultiplier: 1.434399962425232
+    missileentityvelocitymultiplier: 1.434399962425232
+    missilelaunchduration: 0.800000011920929
+    name: Dark Corpus Prophet
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 22.0
+    scanresolution: 110.0
+    scanspeed: 7500
+    shieldcapacity: 3975.0
+    shieldemdamageresonance: 0.5899999737739563
+    shieldexplosivedamageresonance: 0.28999999165534973
+    shieldkineticdamageresonance: 0.38999998569488525
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.49000000953674316
+    shielduniformity: 0.75
+    signatureradius: 340.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
     trackingspeed: 0.02187499962747097
     volume: 1150000.0
-  Dark Corpus Archbishop:
+  16967:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5799999833106995
+    armorexplosivedamageresonance: 0.2800000011920929
+    armorhp: 5500.0
+    armorkineticdamageresonance: 0.3799999952316284
+    armorthermaldamageresonance: 0.47999998927116394
+    armoruniformity: 0.75
+    capacitorcapacity: 3200.0
+    capacity: 235.0
+    damagemultiplier: 8.984375
+    disallowassistance: 1
+    emdamage: 16.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 538.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.6700000166893005
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 15000
+    entityattackdelaymin: 3750
+    entityattackrange: 42000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 28000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.14374999701976776
+    entityequipmentmax: 7
+    entityequipmentmin: -5
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 14000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 825000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7900000214576721
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.6700000166893005
+    entityshieldboostduration: 5000
+    falloff: 7500.0
+    gfxboosterid: 397
+    gfxturretid: 460
+    hp: 4750.0
+    id: 16967
+    mass: 2.05E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 15625.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.5799999833106995
+    missileentityaoevelocitymultiplier: 1.7999999523162842
+    missileentityflighttimemultiplier: 1.4426000118255615
+    missileentityvelocitymultiplier: 1.4426000118255615
+    missilelaunchduration: 1.0
+    name: Dark Corpus Oracle
+    optimalsigradius: 400
+    packagedVolume: 1100000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 23.0
+    scanresolution: 110.0
+    scanspeed: 7500
+    shieldcapacity: 4250.0
+    shieldemdamageresonance: 0.5799999833106995
+    shieldexplosivedamageresonance: 0.2800000011920929
+    shieldkineticdamageresonance: 0.3799999952316284
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.47999998927116394
+    shielduniformity: 0.75
+    signatureradius: 340.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.03750000149011612
+    volume: 1100000.0
+    warpscramblerange: 20000
+    warpscramblestrength: 2
+  16968:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1168,162 +629,72 @@ types:
     volume: 1100000.0
     warpscramblerange: 20000
     warpscramblestrength: 2
-  Dark Corpus Archon:
+  16969:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.30000001192092896
-    armorhp: 4250.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.5
+    armoremdamageresonance: 0.5699999928474426
+    armorexplosivedamageresonance: 0.27000001072883606
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.3700000047683716
+    armorthermaldamageresonance: 0.4699999988079071
     armoruniformity: 0.75
-    capacitorcapacity: 3000.0
+    capacitorcapacity: 3300.0
     capacity: 235.0
-    damagemultiplier: 7.8125
+    damagemultiplier: 11.25
     disallowassistance: 1
     emdamage: 16.0
     energyneutralizerduration: 30000
-    entityarmorrepairamount: 438.0
+    entityarmorrepairamount: 588.0
     entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairdelaychancelarge: 0.6800000071525574
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 15600
-    entityattackdelaymin: 3900
-    entityattackrange: 42000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 28000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 140.0
-    entitydefenderchance: 0.13124999403953552
-    entityequipmentmax: 5
-    entityequipmentmin: -4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 14000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 600000
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.6499999761581421
-    entityshieldboostduration: 5000
-    falloff: 7500.0
-    gfxboosterid: 397
-    gfxturretid: 460
-    hp: 3975.0
-    id: 16978
-    mass: 2.05E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 1
-    maxrange: 15625.0
-    maxvelocity: 280.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.5899999737739563
-    missileentityaoevelocitymultiplier: 1.7799999713897705
-    missileentityflighttimemultiplier: 1.426200032234192
-    missileentityvelocitymultiplier: 1.426200032234192
-    missilelaunchduration: 1.0
-    name: Dark Corpus Archon
-    optimalsigradius: 400
-    packagedVolume: 1100000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 21.0
-    scanresolution: 110.0
-    scanspeed: 7500
-    shieldcapacity: 3500.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.4000000059604645
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 340.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.03750000149011612
-    volume: 1100000.0
-    warpscramblerange: 20000
-    warpscramblestrength: 2
-  Dark Corpus Cardinal:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5299999713897705
-    armorexplosivedamageresonance: 0.23000000417232513
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.33000001311302185
-    armorthermaldamageresonance: 0.4300000071525574
-    armoruniformity: 0.75
-    capacitorcapacity: 3700.0
-    capacity: 235.0
-    damagemultiplier: 10.9375
-    disallowassistance: 1
-    emdamage: 20.0
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 788.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.7200000286102295
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 13500
-    entityattackdelaymin: 3375
-    entityattackrange: 122500
+    entityattackdelaymax: 14700
+    entityattackdelaymin: 3675
+    entityattackrange: 95000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 73500
+    entitychasemaxdistance: 57000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.17499999701976776
+    entitydefenderchance: 0.15000000596046448
     entityequipmentmax: 7
-    entityequipmentmin: -4
+    entityequipmentmin: -5
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 49000.0
+    entityflyrange: 38000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 1331250
+    entitykillbounty: 937500
     entitylootcountmin: 1
     entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8399999737739563
+    entityreactionfactor: 0.800000011920929
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.7200000286102295
+    entityshieldboostdelaychancelarge: 0.6800000071525574
     entityshieldboostduration: 5000
-    falloff: 25000.0
+    falloff: 15000.0
     gfxboosterid: 397
-    gfxturretid: 464
+    gfxturretid: 463
     hp: 5250.0
-    id: 24142
+    id: 16969
     mass: 1.95E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 1
-    maxrange: 55000.0
+    maxrange: 43750.0
     maxvelocity: 280.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.5699999928474426
-    missileentityaoevelocitymultiplier: 1.850000023841858
-    missileentityflighttimemultiplier: 1.4836000204086304
-    missileentityvelocitymultiplier: 1.4836000204086304
-    missilelaunchduration: 1.0
-    name: Dark Corpus Cardinal
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.809999942779541
+    missileentityflighttimemultiplier: 1.4507999420166016
+    missileentityvelocitymultiplier: 1.4507999420166016
+    missilelaunchduration: 0.800000011920929
+    name: Dark Corpus Apostle
     optimalsigradius: 400
     packagedVolume: 1150000.0
     portionSize: 1
@@ -1331,23 +702,23 @@ types:
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanradarstrength: 26.0
-    scanresolution: 100.0
+    scanradarstrength: 24.0
+    scanresolution: 110.0
     scanspeed: 7500
     shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5299999713897705
-    shieldexplosivedamageresonance: 0.23000000417232513
-    shieldkineticdamageresonance: 0.33000001311302185
+    shieldemdamageresonance: 0.5699999928474426
+    shieldexplosivedamageresonance: 0.27000001072883606
+    shieldkineticdamageresonance: 0.3700000047683716
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4300000071525574
+    shieldthermaldamageresonance: 0.4699999988079071
     shielduniformity: 0.75
-    signatureradius: 370.0
+    signatureradius: 340.0
     speed: 3000.0
     structureuniformity: 1.0
-    thermaldamage: 20.0
-    trackingspeed: 0.017400624230504036
+    thermaldamage: 16.0
+    trackingspeed: 0.02187499962747097
     volume: 1150000.0
-  Dark Corpus Harbinger:
+  16970:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1439,7 +810,637 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.03375000134110451
     volume: 1150000.0
-  Dark Corpus Monsignor:
+  16978:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.30000001192092896
+    armorhp: 4250.0
+    armorkineticdamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 235.0
+    damagemultiplier: 7.8125
+    disallowassistance: 1
+    emdamage: 16.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 438.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 15600
+    entityattackdelaymin: 3900
+    entityattackrange: 42000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 28000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.13124999403953552
+    entityequipmentmax: 5
+    entityequipmentmin: -4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 14000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 600000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7699999809265137
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.6499999761581421
+    entityshieldboostduration: 5000
+    falloff: 7500.0
+    gfxboosterid: 397
+    gfxturretid: 460
+    hp: 3975.0
+    id: 16978
+    mass: 2.05E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 15625.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.5899999737739563
+    missileentityaoevelocitymultiplier: 1.7799999713897705
+    missileentityflighttimemultiplier: 1.426200032234192
+    missileentityvelocitymultiplier: 1.426200032234192
+    missilelaunchduration: 1.0
+    name: Dark Corpus Archon
+    optimalsigradius: 400
+    packagedVolume: 1100000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 21.0
+    scanresolution: 110.0
+    scanspeed: 7500
+    shieldcapacity: 3500.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.30000001192092896
+    shieldkineticdamageresonance: 0.4000000059604645
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 340.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.03750000149011612
+    volume: 1100000.0
+    warpscramblerange: 20000
+    warpscramblestrength: 2
+  24135:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5600000023841858
+    armorexplosivedamageresonance: 0.25999999046325684
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.36000001430511475
+    armorthermaldamageresonance: 0.46000000834465027
+    armoruniformity: 0.75
+    capacitorcapacity: 3400.0
+    capacity: 235.0
+    damagemultiplier: 8.0
+    disallowassistance: 1
+    emdamage: 20.0
+    energyneutralizeramount: 300.0
+    energyneutralizerduration: 10000
+    energyneutralizerentitychance: 0.25
+    energyneutralizerrangeoptimal: 25000
+    entityarmorrepairamount: 510.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.6899999976158142
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 14400
+    entityattackdelaymin: 3600
+    entityattackrange: 42500
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 25500
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.125
+    entityequipmentmax: 5
+    entityequipmentmin: -4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 17000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 712500
+    entitylootcountmin: 1
+    entitymissiletypeid: 203
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8100000023841858
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.6899999976158142
+    entityshieldboostduration: 5000
+    falloff: 8000.0
+    gfxboosterid: 397
+    gfxturretid: 460
+    hp: 5250.0
+    id: 24135
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 15000.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.4589999914169312
+    missileentityflighttimemultiplier: 1.4589999914169312
+    missileentityvelocitymultiplier: 1.4589999914169312
+    missilelaunchduration: 1.0
+    name: Corpus Archbishop
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 31.0
+    scanresolution: 85.0
+    scanspeed: 7500
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5600000023841858
+    shieldexplosivedamageresonance: 0.25999999046325684
+    shieldkineticdamageresonance: 0.36000001430511475
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.46000000834465027
+    shielduniformity: 0.75
+    signatureradius: 420.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.027000000700354576
+    volume: 1150000.0
+  24136:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.550000011920929
+    armorexplosivedamageresonance: 0.25
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.3499999940395355
+    armorthermaldamageresonance: 0.44999998807907104
+    armoruniformity: 0.75
+    capacitorcapacity: 3500.0
+    capacity: 235.0
+    damagemultiplier: 6.875
+    disallowassistance: 1
+    emdamage: 20.0
+    energyneutralizeramount: 350.0
+    energyneutralizerduration: 10000
+    energyneutralizerentitychance: 0.25
+    energyneutralizerrangeoptimal: 25000
+    entityarmorrepairamount: 550.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.699999988079071
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 14100
+    entityattackdelaymin: 3525
+    entityattackrange: 51000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 34000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.12999999523162842
+    entityequipmentmax: 5
+    entityequipmentmin: -4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 17000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 768750
+    entitylootcountmin: 1
+    entitymissiletypeid: 203
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8199999928474426
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.699999988079071
+    entityshieldboostduration: 5000
+    falloff: 8000.0
+    gfxboosterid: 397
+    gfxturretid: 460
+    hp: 5250.0
+    id: 24136
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 15000.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.4672000408172607
+    missileentityflighttimemultiplier: 1.4672000408172607
+    missileentityvelocitymultiplier: 1.4672000408172607
+    missilelaunchduration: 1.0
+    name: Corpus Harbinger
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 32.0
+    scanresolution: 85.0
+    scanspeed: 7500
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.550000011920929
+    shieldexplosivedamageresonance: 0.25
+    shieldkineticdamageresonance: 0.3499999940395355
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.44999998807907104
+    shielduniformity: 0.75
+    signatureradius: 420.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.027000000700354576
+    volume: 1150000.0
+  24137:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5400000214576721
+    armorexplosivedamageresonance: 0.23999999463558197
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.3400000035762787
+    armorthermaldamageresonance: 0.4399999976158142
+    armoruniformity: 0.75
+    capacitorcapacity: 3600.0
+    capacity: 235.0
+    damagemultiplier: 8.5
+    disallowassistance: 1
+    emdamage: 20.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 590.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.7099999785423279
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 13800
+    entityattackdelaymin: 3450
+    entityattackrange: 110000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 66000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.13500000536441803
+    entityequipmentmax: 7
+    entityequipmentmin: -5
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 44000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 881250
+    entitylootcountmin: 1
+    entitymissiletypeid: 203
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8299999833106995
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.7099999785423279
+    entityshieldboostduration: 5000
+    falloff: 16000.0
+    gfxboosterid: 397
+    gfxturretid: 463
+    hp: 5250.0
+    id: 24137
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 40000.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.7623000144958496
+    missileentityaoevelocitymultiplier: 1.4753999710083008
+    missileentityflighttimemultiplier: 1.4753999710083008
+    missileentityvelocitymultiplier: 1.4753999710083008
+    missilelaunchduration: 1.0
+    name: Corpus Monsignor
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 25.0
+    scanresolution: 100.0
+    scanspeed: 7500
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5400000214576721
+    shieldexplosivedamageresonance: 0.23999999463558197
+    shieldkineticdamageresonance: 0.3400000035762787
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.4399999976158142
+    shielduniformity: 0.75
+    signatureradius: 370.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 20.0
+    trackingspeed: 0.015312500298023224
+    volume: 1150000.0
+  24138:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5299999713897705
+    armorexplosivedamageresonance: 0.23000000417232513
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.33000001311302185
+    armorthermaldamageresonance: 0.4300000071525574
+    armoruniformity: 0.75
+    capacitorcapacity: 3700.0
+    capacity: 235.0
+    damagemultiplier: 8.75
+    disallowassistance: 1
+    emdamage: 20.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 630.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.7200000286102295
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 13500
+    entityattackdelaymin: 3375
+    entityattackrange: 122500
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 73500
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.14000000059604645
+    entityequipmentmax: 7
+    entityequipmentmin: -5
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 49000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 993750
+    entitylootcountmin: 1
+    entitymissiletypeid: 203
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8399999737739563
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.7200000286102295
+    entityshieldboostduration: 5000
+    falloff: 20000.0
+    gfxboosterid: 397
+    gfxturretid: 464
+    hp: 5250.0
+    id: 24138
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 44000.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.7581999897956848
+    missileentityaoevelocitymultiplier: 1.4836000204086304
+    missileentityflighttimemultiplier: 1.4836000204086304
+    missileentityvelocitymultiplier: 1.4836000204086304
+    missilelaunchduration: 1.0
+    name: Corpus Cardinal
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 26.0
+    scanresolution: 100.0
+    scanspeed: 7500
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5299999713897705
+    shieldexplosivedamageresonance: 0.23000000417232513
+    shieldkineticdamageresonance: 0.33000001311302185
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.4300000071525574
+    shielduniformity: 0.75
+    signatureradius: 370.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 20.0
+    trackingspeed: 0.013920499943196774
+    volume: 1150000.0
+  24139:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5199999809265137
+    armorexplosivedamageresonance: 0.2199999988079071
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.3199999928474426
+    armorthermaldamageresonance: 0.41999998688697815
+    armoruniformity: 0.75
+    capacitorcapacity: 3800.0
+    capacity: 235.0
+    damagemultiplier: 7.1875
+    disallowassistance: 1
+    emdamage: 24.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 670.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.7300000190734863
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 13200
+    entityattackdelaymin: 3300
+    entityattackrange: 51000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 34000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.14499999582767487
+    entityequipmentmax: 6
+    entityequipmentmin: -4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 17000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 1162500
+    entitylootcountmin: 1
+    entitymissiletypeid: 203
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8500000238418579
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.7300000190734863
+    entityshieldboostduration: 5000
+    falloff: 8000.0
+    gfxboosterid: 397
+    gfxturretid: 460
+    hp: 5250.0
+    id: 24139
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 15000.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.7541000247001648
+    missileentityaoevelocitymultiplier: 1.4917999505996704
+    missileentityflighttimemultiplier: 1.4917999505996704
+    missileentityvelocitymultiplier: 1.4917999505996704
+    missilelaunchduration: 1.0
+    name: Corpus Patriarch
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 27.0
+    scanresolution: 100.0
+    scanspeed: 7500
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5199999809265137
+    shieldexplosivedamageresonance: 0.2199999988079071
+    shieldkineticdamageresonance: 0.3199999928474426
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.41999998688697815
+    shielduniformity: 0.75
+    signatureradius: 370.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 20.0
+    trackingspeed: 0.027000000700354576
+    volume: 1150000.0
+  24140:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5099999904632568
+    armorexplosivedamageresonance: 0.20999999344348907
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.3100000023841858
+    armorthermaldamageresonance: 0.4099999964237213
+    armoruniformity: 0.75
+    capacitorcapacity: 3900.0
+    capacity: 235.0
+    damagemultiplier: 9.0
+    disallowassistance: 1
+    emdamage: 24.0
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 710.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairdelaychancelarge: 0.7400000095367432
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 12900
+    entityattackdelaymin: 3225
+    entityattackrange: 122500
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 73500
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entitydefenderchance: 0.15000000596046448
+    entityequipmentmax: 6
+    entityequipmentmin: -4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 49000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 1218750
+    entitylootcountmin: 1
+    entitymissiletypeid: 203
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.8600000143051147
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14000000059604645
+    entityshieldboostdelaychancelarge: 0.7400000095367432
+    entityshieldboostduration: 5000
+    falloff: 20000.0
+    gfxboosterid: 397
+    gfxturretid: 464
+    hp: 5250.0
+    id: 24140
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 1
+    maxrange: 44000.0
+    maxvelocity: 280.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 1.0
+    name: Corpus Pope
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 28.0
+    scanresolution: 100.0
+    scanspeed: 7500
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5099999904632568
+    shieldexplosivedamageresonance: 0.20999999344348907
+    shieldkineticdamageresonance: 0.3100000023841858
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.4099999964237213
+    shielduniformity: 0.75
+    signatureradius: 370.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 20.0
+    trackingspeed: 0.013920499943196774
+    volume: 1150000.0
+  24141:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1528,97 +1529,96 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.01914062537252903
     volume: 1150000.0
-  Dark Corpus Oracle:
+  24142:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5799999833106995
-    armorexplosivedamageresonance: 0.2800000011920929
-    armorhp: 5500.0
-    armorkineticdamageresonance: 0.3799999952316284
-    armorthermaldamageresonance: 0.47999998927116394
+    armoremdamageresonance: 0.5299999713897705
+    armorexplosivedamageresonance: 0.23000000417232513
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.33000001311302185
+    armorthermaldamageresonance: 0.4300000071525574
     armoruniformity: 0.75
-    capacitorcapacity: 3200.0
+    capacitorcapacity: 3700.0
     capacity: 235.0
-    damagemultiplier: 8.984375
+    damagemultiplier: 10.9375
     disallowassistance: 1
-    emdamage: 16.0
+    emdamage: 20.0
     energyneutralizerduration: 30000
-    entityarmorrepairamount: 538.0
+    entityarmorrepairamount: 788.0
     entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.6700000166893005
+    entityarmorrepairdelaychancelarge: 0.7200000286102295
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 15000
-    entityattackdelaymin: 3750
-    entityattackrange: 42000
+    entityattackdelaymax: 13500
+    entityattackdelaymin: 3375
+    entityattackrange: 122500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 28000
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 73500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.14374999701976776
+    entitydefenderchance: 0.17499999701976776
     entityequipmentmax: 7
-    entityequipmentmin: -5
+    entityequipmentmin: -4
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 14000.0
+    entityflyrange: 49000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 825000
+    entitykillbounty: 1331250
     entitylootcountmin: 1
+    entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7900000214576721
+    entityreactionfactor: 0.8399999737739563
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.6700000166893005
+    entityshieldboostdelaychancelarge: 0.7200000286102295
     entityshieldboostduration: 5000
-    falloff: 7500.0
+    falloff: 25000.0
     gfxboosterid: 397
-    gfxturretid: 460
-    hp: 4750.0
-    id: 16967
-    mass: 2.05E7
+    gfxturretid: 464
+    hp: 5250.0
+    id: 24142
+    mass: 1.95E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 1
-    maxrange: 15625.0
+    maxrange: 55000.0
     maxvelocity: 280.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.5799999833106995
-    missileentityaoevelocitymultiplier: 1.7999999523162842
-    missileentityflighttimemultiplier: 1.4426000118255615
-    missileentityvelocitymultiplier: 1.4426000118255615
+    missileentityaoecloudsizemultiplier: 0.5699999928474426
+    missileentityaoevelocitymultiplier: 1.850000023841858
+    missileentityflighttimemultiplier: 1.4836000204086304
+    missileentityvelocitymultiplier: 1.4836000204086304
     missilelaunchduration: 1.0
-    name: Dark Corpus Oracle
+    name: Dark Corpus Cardinal
     optimalsigradius: 400
-    packagedVolume: 1100000.0
+    packagedVolume: 1150000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanradarstrength: 23.0
-    scanresolution: 110.0
+    scanradarstrength: 26.0
+    scanresolution: 100.0
     scanspeed: 7500
-    shieldcapacity: 4250.0
-    shieldemdamageresonance: 0.5799999833106995
-    shieldexplosivedamageresonance: 0.2800000011920929
-    shieldkineticdamageresonance: 0.3799999952316284
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5299999713897705
+    shieldexplosivedamageresonance: 0.23000000417232513
+    shieldkineticdamageresonance: 0.33000001311302185
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.47999998927116394
+    shieldthermaldamageresonance: 0.4300000071525574
     shielduniformity: 0.75
-    signatureradius: 340.0
-    speed: 2500.0
+    signatureradius: 370.0
+    speed: 3000.0
     structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.03750000149011612
-    volume: 1100000.0
-    warpscramblerange: 20000
-    warpscramblestrength: 2
-  Dark Corpus Patriarch:
+    thermaldamage: 20.0
+    trackingspeed: 0.017400624230504036
+    volume: 1150000.0
+  24143:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1707,7 +1707,7 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.03375000134110451
     volume: 1150000.0
-  Dark Corpus Pope:
+  24144:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1796,72 +1796,72 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.017400624230504036
     volume: 1150000.0
-  Dark Corpus Prophet:
+  26754:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5899999737739563
-    armorexplosivedamageresonance: 0.28999999165534973
-    armorhp: 4800.0
-    armorkineticdamageresonance: 0.38999998569488525
-    armorthermaldamageresonance: 0.49000000953674316
+    armoremdamageresonance: 0.5099999904632568
+    armorexplosivedamageresonance: 0.20999999344348907
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.3100000023841858
+    armorthermaldamageresonance: 0.4099999964237213
     armoruniformity: 0.75
-    capacitorcapacity: 3100.0
+    capacitorcapacity: 3900.0
     capacity: 235.0
-    damagemultiplier: 10.0
+    damagemultiplier: 9.0
     disallowassistance: 1
-    emdamage: 16.0
+    emdamage: 24.0
     energyneutralizerduration: 30000
-    entityarmorrepairamount: 488.0
+    entityarmorrepairamount: 710.0
     entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.6600000262260437
+    entityarmorrepairdelaychancelarge: 0.7400000095367432
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 15300
-    entityattackdelaymin: 3825
-    entityattackrange: 95000
+    entityattackdelaymax: 12900
+    entityattackdelaymin: 3225
+    entityattackrange: 122500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 57000
+    entitychasemaxdistance: 73500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.13750000298023224
-    entityequipmentmax: 5
+    entitydefenderchance: 0.15000000596046448
+    entityequipmentmax: 6
     entityequipmentmin: -4
     entityfactionloss: 0.009999999776482582
-    entityflyrange: 38000.0
+    entityflyrange: 49000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 656250
+    entitykillbounty: 1218750
     entitylootcountmin: 1
-    entitymissiletypeid: 204
+    entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7799999713897705
+    entityreactionfactor: 0.8600000143051147
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.14000000059604645
-    entityshieldboostdelaychancelarge: 0.6600000262260437
+    entityshieldboostdelaychancelarge: 0.7400000095367432
     entityshieldboostduration: 5000
-    falloff: 15000.0
+    falloff: 20000.0
     gfxboosterid: 397
-    gfxturretid: 463
-    hp: 4250.0
-    id: 16965
+    gfxturretid: 464
+    hp: 5250.0
+    id: 26754
     mass: 1.95E7
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 1
-    maxrange: 43750.0
+    maxrange: 44000.0
     maxvelocity: 280.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.7899999618530273
-    missileentityflighttimemultiplier: 1.434399962425232
-    missileentityvelocitymultiplier: 1.434399962425232
-    missilelaunchduration: 0.800000011920929
-    name: Dark Corpus Prophet
+    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 1.0
+    name: Corpus Messiah
     optimalsigradius: 400
     packagedVolume: 1150000.0
     portionSize: 1
@@ -1869,19 +1869,19 @@ types:
     published: false
     radius: 350.0
     rechargerate: 1000000.0
-    scanradarstrength: 22.0
-    scanresolution: 110.0
+    scanradarstrength: 28.0
+    scanresolution: 100.0
     scanspeed: 7500
-    shieldcapacity: 3975.0
-    shieldemdamageresonance: 0.5899999737739563
-    shieldexplosivedamageresonance: 0.28999999165534973
-    shieldkineticdamageresonance: 0.38999998569488525
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5099999904632568
+    shieldexplosivedamageresonance: 0.20999999344348907
+    shieldkineticdamageresonance: 0.3100000023841858
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.49000000953674316
+    shieldthermaldamageresonance: 0.4099999964237213
     shielduniformity: 0.75
-    signatureradius: 340.0
+    signatureradius: 370.0
     speed: 3000.0
     structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.02187499962747097
+    thermaldamage: 20.0
+    trackingspeed: 0.013920499943196774
     volume: 1150000.0

@@ -97,7 +97,7 @@ public class MiningLaserUpgradeBlueprint
         implements IMetaGroup<MiningLaserUpgradeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MiningLaserUpgradeBlueprint.yaml";
-        private Map<String, MiningLaserUpgradeBlueprint> cache = (null);
+        private Map<Integer, MiningLaserUpgradeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningLaserUpgradeBlueprint> category() {
@@ -115,7 +115,7 @@ public class MiningLaserUpgradeBlueprint
         }
 
         @Override
-        public synchronized Map<String, MiningLaserUpgradeBlueprint> load() {
+        public synchronized Map<Integer, MiningLaserUpgradeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningLaserUpgradeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class MiningLaserUpgradeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningLaserUpgradeBlueprint> types;
+            public LinkedHashMap<Integer, MiningLaserUpgradeBlueprint> types;
         }
     }
 }

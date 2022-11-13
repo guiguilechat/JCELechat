@@ -409,7 +409,7 @@ public class IrregularCapsule
         implements IMetaGroup<IrregularCapsule>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularCapsule.yaml";
-        private Map<String, IrregularCapsule> cache = (null);
+        private Map<Integer, IrregularCapsule> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularCapsule> category() {
@@ -427,7 +427,7 @@ public class IrregularCapsule
         }
 
         @Override
-        public synchronized Map<String, IrregularCapsule> load() {
+        public synchronized Map<Integer, IrregularCapsule> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularCapsule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -441,7 +441,7 @@ public class IrregularCapsule
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularCapsule> types;
+            public LinkedHashMap<Integer, IrregularCapsule> types;
         }
     }
 }

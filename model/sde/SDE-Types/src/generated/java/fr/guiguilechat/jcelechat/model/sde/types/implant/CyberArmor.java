@@ -137,7 +137,7 @@ public class CyberArmor
         implements IMetaGroup<CyberArmor>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberArmor.yaml";
-        private Map<String, CyberArmor> cache = (null);
+        private Map<Integer, CyberArmor> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberArmor> category() {
@@ -155,7 +155,7 @@ public class CyberArmor
         }
 
         @Override
-        public synchronized Map<String, CyberArmor> load() {
+        public synchronized Map<Integer, CyberArmor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberArmor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -169,7 +169,7 @@ public class CyberArmor
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberArmor> types;
+            public LinkedHashMap<Integer, CyberArmor> types;
         }
     }
 }

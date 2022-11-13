@@ -32,7 +32,7 @@ public class CriminalTags
         implements IMetaGroup<CriminalTags>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/CriminalTags.yaml";
-        private Map<String, CriminalTags> cache = (null);
+        private Map<Integer, CriminalTags> cache = (null);
 
         @Override
         public IMetaCategory<? super CriminalTags> category() {
@@ -50,7 +50,7 @@ public class CriminalTags
         }
 
         @Override
-        public synchronized Map<String, CriminalTags> load() {
+        public synchronized Map<Integer, CriminalTags> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CriminalTags.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class CriminalTags
         }
 
         private static class Container {
-            public LinkedHashMap<String, CriminalTags> types;
+            public LinkedHashMap<Integer, CriminalTags> types;
         }
     }
 }

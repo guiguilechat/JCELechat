@@ -620,7 +620,7 @@ public class BurstProjectors
         implements IMetaGroup<BurstProjectors>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/BurstProjectors.yaml";
-        private Map<String, BurstProjectors> cache = (null);
+        private Map<Integer, BurstProjectors> cache = (null);
 
         @Override
         public IMetaCategory<? super BurstProjectors> category() {
@@ -638,7 +638,7 @@ public class BurstProjectors
         }
 
         @Override
-        public synchronized Map<String, BurstProjectors> load() {
+        public synchronized Map<Integer, BurstProjectors> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BurstProjectors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -652,7 +652,7 @@ public class BurstProjectors
         }
 
         private static class Container {
-            public LinkedHashMap<String, BurstProjectors> types;
+            public LinkedHashMap<Integer, BurstProjectors> types;
         }
     }
 }

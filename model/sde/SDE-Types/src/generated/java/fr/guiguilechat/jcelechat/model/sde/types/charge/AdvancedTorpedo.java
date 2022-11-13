@@ -412,7 +412,7 @@ public class AdvancedTorpedo
         implements IMetaGroup<AdvancedTorpedo>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedTorpedo.yaml";
-        private Map<String, AdvancedTorpedo> cache = (null);
+        private Map<Integer, AdvancedTorpedo> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedTorpedo> category() {
@@ -430,7 +430,7 @@ public class AdvancedTorpedo
         }
 
         @Override
-        public synchronized Map<String, AdvancedTorpedo> load() {
+        public synchronized Map<Integer, AdvancedTorpedo> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedTorpedo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -444,7 +444,7 @@ public class AdvancedTorpedo
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedTorpedo> types;
+            public LinkedHashMap<Integer, AdvancedTorpedo> types;
         }
     }
 }

@@ -32,7 +32,7 @@ public class OverseerPersonalEffects
         implements IMetaGroup<OverseerPersonalEffects>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/OverseerPersonalEffects.yaml";
-        private Map<String, OverseerPersonalEffects> cache = (null);
+        private Map<Integer, OverseerPersonalEffects> cache = (null);
 
         @Override
         public IMetaCategory<? super OverseerPersonalEffects> category() {
@@ -50,7 +50,7 @@ public class OverseerPersonalEffects
         }
 
         @Override
-        public synchronized Map<String, OverseerPersonalEffects> load() {
+        public synchronized Map<Integer, OverseerPersonalEffects> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(OverseerPersonalEffects.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class OverseerPersonalEffects
         }
 
         private static class Container {
-            public LinkedHashMap<String, OverseerPersonalEffects> types;
+            public LinkedHashMap<Integer, OverseerPersonalEffects> types;
         }
     }
 }

@@ -963,7 +963,7 @@ public class AIREntitiesII
         implements IMetaGroup<AIREntitiesII>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AIREntitiesII.yaml";
-        private Map<String, AIREntitiesII> cache = (null);
+        private Map<Integer, AIREntitiesII> cache = (null);
 
         @Override
         public IMetaCategory<? super AIREntitiesII> category() {
@@ -981,7 +981,7 @@ public class AIREntitiesII
         }
 
         @Override
-        public synchronized Map<String, AIREntitiesII> load() {
+        public synchronized Map<Integer, AIREntitiesII> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AIREntitiesII.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -995,7 +995,7 @@ public class AIREntitiesII
         }
 
         private static class Container {
-            public LinkedHashMap<String, AIREntitiesII> types;
+            public LinkedHashMap<Integer, AIREntitiesII> types;
         }
     }
 }

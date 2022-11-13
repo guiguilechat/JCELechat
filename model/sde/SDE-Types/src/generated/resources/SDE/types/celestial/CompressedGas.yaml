@@ -1,13 +1,5 @@
 types:
-  Compressed Amber Cytoserocin:
-    id: 62396
-    marketGroup: 2814
-    name: Compressed Amber Cytoserocin
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Compressed Amber Mykoserocin:
+  62377:
     id: 62377
     marketGroup: 2814
     name: Compressed Amber Mykoserocin
@@ -15,15 +7,7 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Compressed Azure Cytoserocin:
-    id: 62386
-    marketGroup: 2814
-    name: Compressed Azure Cytoserocin
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Compressed Azure Mykoserocin:
+  62379:
     id: 62379
     marketGroup: 2814
     name: Compressed Azure Mykoserocin
@@ -31,15 +15,7 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Compressed Celadon Cytoserocin:
-    id: 62387
-    marketGroup: 2814
-    name: Compressed Celadon Cytoserocin
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Compressed Celadon Mykoserocin:
+  62380:
     id: 62380
     marketGroup: 2814
     name: Compressed Celadon Mykoserocin
@@ -47,7 +23,63 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Compressed Chartreuse Cytoserocin:
+  62381:
+    id: 62381
+    marketGroup: 2814
+    name: Compressed Golden Mykoserocin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  62382:
+    id: 62382
+    marketGroup: 2814
+    name: Compressed Lime Mykoserocin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  62383:
+    id: 62383
+    marketGroup: 2814
+    name: Compressed Malachite Mykoserocin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  62384:
+    id: 62384
+    marketGroup: 2814
+    name: Compressed Vermillion Mykoserocin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  62385:
+    id: 62385
+    marketGroup: 2814
+    name: Compressed Viridian Mykoserocin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  62386:
+    id: 62386
+    marketGroup: 2814
+    name: Compressed Azure Cytoserocin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  62387:
+    id: 62387
+    marketGroup: 2814
+    name: Compressed Celadon Cytoserocin
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  62388:
     id: 62388
     ignoreminingwaste: 1
     name: Compressed Chartreuse Cytoserocin
@@ -57,79 +89,7 @@ types:
     published: true
     radius: 100.0
     volume: 1.0
-  Compressed Fullerite-C28:
-    id: 62402
-    marketGroup: 2814
-    name: Compressed Fullerite-C28
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    published: true
-    volume: 0.20000000298023224
-  Compressed Fullerite-C32:
-    id: 62404
-    marketGroup: 2814
-    name: Compressed Fullerite-C32
-    packagedVolume: 0.5
-    portionSize: 1
-    published: true
-    volume: 0.5
-  Compressed Fullerite-C320:
-    id: 62406
-    marketGroup: 2814
-    name: Compressed Fullerite-C320
-    packagedVolume: 0.5
-    portionSize: 1
-    published: true
-    volume: 0.5
-  Compressed Fullerite-C50:
-    id: 62399
-    marketGroup: 2814
-    name: Compressed Fullerite-C50
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Compressed Fullerite-C540:
-    id: 62405
-    marketGroup: 2814
-    name: Compressed Fullerite-C540
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Compressed Fullerite-C60:
-    id: 62397
-    marketGroup: 2814
-    name: Compressed Fullerite-C60
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Compressed Fullerite-C70:
-    id: 62398
-    marketGroup: 2814
-    name: Compressed Fullerite-C70
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Compressed Fullerite-C72:
-    id: 62403
-    marketGroup: 2814
-    name: Compressed Fullerite-C72
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    published: true
-    volume: 0.20000000298023224
-  Compressed Fullerite-C84:
-    id: 62400
-    marketGroup: 2814
-    name: Compressed Fullerite-C84
-    packagedVolume: 0.20000000298023224
-    portionSize: 1
-    published: true
-    volume: 0.20000000298023224
-  Compressed Gamboge Cytoserocin:
+  62389:
     id: 62389
     ignoreminingwaste: 1
     name: Compressed Gamboge Cytoserocin
@@ -139,7 +99,7 @@ types:
     published: true
     radius: 100.0
     volume: 1.0
-  Compressed Golden Cytoserocin:
+  62390:
     id: 62390
     marketGroup: 2814
     name: Compressed Golden Cytoserocin
@@ -147,15 +107,7 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Compressed Golden Mykoserocin:
-    id: 62381
-    marketGroup: 2814
-    name: Compressed Golden Mykoserocin
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Compressed Lime Cytoserocin:
+  62391:
     id: 62391
     marketGroup: 2814
     name: Compressed Lime Cytoserocin
@@ -163,15 +115,7 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Compressed Lime Mykoserocin:
-    id: 62382
-    marketGroup: 2814
-    name: Compressed Lime Mykoserocin
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Compressed Malachite Cytoserocin:
+  62392:
     id: 62392
     marketGroup: 2814
     name: Compressed Malachite Cytoserocin
@@ -179,15 +123,7 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Compressed Malachite Mykoserocin:
-    id: 62383
-    marketGroup: 2814
-    name: Compressed Malachite Mykoserocin
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Compressed Vermillion Cytoserocin:
+  62393:
     id: 62393
     marketGroup: 2814
     name: Compressed Vermillion Cytoserocin
@@ -195,15 +131,7 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Compressed Vermillion Mykoserocin:
-    id: 62384
-    marketGroup: 2814
-    name: Compressed Vermillion Mykoserocin
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Compressed Viridian Cytoserocin:
+  62394:
     id: 62394
     marketGroup: 2814
     name: Compressed Viridian Cytoserocin
@@ -211,11 +139,83 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Compressed Viridian Mykoserocin:
-    id: 62385
+  62396:
+    id: 62396
     marketGroup: 2814
-    name: Compressed Viridian Mykoserocin
+    name: Compressed Amber Cytoserocin
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
+  62397:
+    id: 62397
+    marketGroup: 2814
+    name: Compressed Fullerite-C60
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  62398:
+    id: 62398
+    marketGroup: 2814
+    name: Compressed Fullerite-C70
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  62399:
+    id: 62399
+    marketGroup: 2814
+    name: Compressed Fullerite-C50
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  62400:
+    id: 62400
+    marketGroup: 2814
+    name: Compressed Fullerite-C84
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  62402:
+    id: 62402
+    marketGroup: 2814
+    name: Compressed Fullerite-C28
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  62403:
+    id: 62403
+    marketGroup: 2814
+    name: Compressed Fullerite-C72
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    published: true
+    volume: 0.20000000298023224
+  62404:
+    id: 62404
+    marketGroup: 2814
+    name: Compressed Fullerite-C32
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  62405:
+    id: 62405
+    marketGroup: 2814
+    name: Compressed Fullerite-C540
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  62406:
+    id: 62406
+    marketGroup: 2814
+    name: Compressed Fullerite-C320
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5

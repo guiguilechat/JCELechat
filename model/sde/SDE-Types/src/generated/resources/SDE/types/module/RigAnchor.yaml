@@ -1,62 +1,5 @@
 types:
-  Capital Higgs Anchor I:
-    agilitybonus: -55.0
-    drawback: -10
-    hp: 40.0
-    id: 34308
-    marketGroup: 1740
-    mass: 200.0
-    massbonuspercentage: 100
-    maxgroupfitted: 1
-    name: Capital Higgs Anchor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 25
-    velocitybonus: -75.0
-    volume: 40.0
-  Large Higgs Anchor I:
-    agilitybonus: -55.0
-    drawback: -10
-    hp: 40.0
-    id: 34306
-    marketGroup: 1212
-    mass: 200.0
-    massbonuspercentage: 100
-    maxgroupfitted: 1
-    name: Large Higgs Anchor I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 25
-    velocitybonus: -75.0
-    volume: 20.0
-  Medium Higgs Anchor I:
-    agilitybonus: -55.0
-    drawback: -10
-    hp: 40.0
-    id: 34268
-    marketGroup: 1211
-    mass: 200.0
-    massbonuspercentage: 100
-    maxgroupfitted: 1
-    name: Medium Higgs Anchor I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 25
-    velocitybonus: -75.0
-    volume: 10.0
-  Small Higgs Anchor I:
+  34266:
     agilitybonus: -55.0
     drawback: -10
     hp: 40.0
@@ -75,3 +18,60 @@ types:
     upgradecost: 25
     velocitybonus: -75.0
     volume: 5.0
+  34268:
+    agilitybonus: -55.0
+    drawback: -10
+    hp: 40.0
+    id: 34268
+    marketGroup: 1211
+    mass: 200.0
+    massbonuspercentage: 100
+    maxgroupfitted: 1
+    name: Medium Higgs Anchor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 25
+    velocitybonus: -75.0
+    volume: 10.0
+  34306:
+    agilitybonus: -55.0
+    drawback: -10
+    hp: 40.0
+    id: 34306
+    marketGroup: 1212
+    mass: 200.0
+    massbonuspercentage: 100
+    maxgroupfitted: 1
+    name: Large Higgs Anchor I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 25
+    velocitybonus: -75.0
+    volume: 20.0
+  34308:
+    agilitybonus: -55.0
+    drawback: -10
+    hp: 40.0
+    id: 34308
+    marketGroup: 1740
+    mass: 200.0
+    massbonuspercentage: 100
+    maxgroupfitted: 1
+    name: Capital Higgs Anchor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 25
+    velocitybonus: -75.0
+    volume: 40.0

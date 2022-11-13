@@ -205,7 +205,7 @@ public class SkirmishCommandBurstCharges
         implements IMetaGroup<SkirmishCommandBurstCharges>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/SkirmishCommandBurstCharges.yaml";
-        private Map<String, SkirmishCommandBurstCharges> cache = (null);
+        private Map<Integer, SkirmishCommandBurstCharges> cache = (null);
 
         @Override
         public IMetaCategory<? super SkirmishCommandBurstCharges> category() {
@@ -223,7 +223,7 @@ public class SkirmishCommandBurstCharges
         }
 
         @Override
-        public synchronized Map<String, SkirmishCommandBurstCharges> load() {
+        public synchronized Map<Integer, SkirmishCommandBurstCharges> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SkirmishCommandBurstCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -237,7 +237,7 @@ public class SkirmishCommandBurstCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, SkirmishCommandBurstCharges> types;
+            public LinkedHashMap<Integer, SkirmishCommandBurstCharges> types;
         }
     }
 }

@@ -101,7 +101,7 @@ public class Jaspet
         implements IMetaGroup<Jaspet>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Jaspet.yaml";
-        private Map<String, Jaspet> cache = (null);
+        private Map<Integer, Jaspet> cache = (null);
 
         @Override
         public IMetaCategory<? super Jaspet> category() {
@@ -119,7 +119,7 @@ public class Jaspet
         }
 
         @Override
-        public synchronized Map<String, Jaspet> load() {
+        public synchronized Map<Integer, Jaspet> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Jaspet.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class Jaspet
         }
 
         private static class Container {
-            public LinkedHashMap<String, Jaspet> types;
+            public LinkedHashMap<Integer, Jaspet> types;
         }
     }
 }

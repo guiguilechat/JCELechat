@@ -1,5 +1,21 @@
 types:
-  Barren Command Center:
+  2254:
+    capacity: 500.0
+    cpuoutput: 1675
+    exporttax: 3
+    id: 2254
+    marketGroup: 1322
+    mass: 5000.0
+    name: Temperate Command Center
+    packagedVolume: 1000.0
+    planetrestriction: 11
+    portionSize: 1
+    poweroutput: 6000
+    price: 90000.0
+    published: true
+    radius: 1.0
+    volume: 1000.0
+  2524:
     capacity: 500.0
     cpuoutput: 1675
     exporttax: 3
@@ -15,55 +31,7 @@ types:
     published: true
     radius: 1.0
     volume: 1000.0
-  Gas Command Center:
-    capacity: 500.0
-    cpuoutput: 1675
-    exporttax: 3
-    id: 2534
-    marketGroup: 1322
-    mass: 5000.0
-    name: Gas Command Center
-    packagedVolume: 1000.0
-    planetrestriction: 13
-    portionSize: 1
-    poweroutput: 6000
-    price: 90000.0
-    published: true
-    radius: 1.0
-    volume: 1000.0
-  Ice Command Center:
-    capacity: 500.0
-    cpuoutput: 1675
-    exporttax: 3
-    id: 2533
-    marketGroup: 1322
-    mass: 5000.0
-    name: Ice Command Center
-    packagedVolume: 1000.0
-    planetrestriction: 12
-    portionSize: 1
-    poweroutput: 6000
-    price: 90000.0
-    published: true
-    radius: 1.0
-    volume: 1000.0
-  Lava Command Center:
-    capacity: 500.0
-    cpuoutput: 1675
-    exporttax: 3
-    id: 2549
-    marketGroup: 1322
-    mass: 5000.0
-    name: Lava Command Center
-    packagedVolume: 1000.0
-    planetrestriction: 2015
-    portionSize: 1
-    poweroutput: 6000
-    price: 90000.0
-    published: true
-    radius: 1.0
-    volume: 1000.0
-  Oceanic Command Center:
+  2525:
     capacity: 500.0
     cpuoutput: 1675
     exporttax: 3
@@ -79,23 +47,55 @@ types:
     published: true
     radius: 1.0
     volume: 1000.0
-  Plasma Command Center:
+  2533:
     capacity: 500.0
     cpuoutput: 1675
     exporttax: 3
-    id: 2551
+    id: 2533
     marketGroup: 1322
     mass: 5000.0
-    name: Plasma Command Center
+    name: Ice Command Center
     packagedVolume: 1000.0
-    planetrestriction: 2063
+    planetrestriction: 12
     portionSize: 1
     poweroutput: 6000
     price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0
-  Storm Command Center:
+  2534:
+    capacity: 500.0
+    cpuoutput: 1675
+    exporttax: 3
+    id: 2534
+    marketGroup: 1322
+    mass: 5000.0
+    name: Gas Command Center
+    packagedVolume: 1000.0
+    planetrestriction: 13
+    portionSize: 1
+    poweroutput: 6000
+    price: 90000.0
+    published: true
+    radius: 1.0
+    volume: 1000.0
+  2549:
+    capacity: 500.0
+    cpuoutput: 1675
+    exporttax: 3
+    id: 2549
+    marketGroup: 1322
+    mass: 5000.0
+    name: Lava Command Center
+    packagedVolume: 1000.0
+    planetrestriction: 2015
+    portionSize: 1
+    poweroutput: 6000
+    price: 90000.0
+    published: true
+    radius: 1.0
+    volume: 1000.0
+  2550:
     capacity: 500.0
     cpuoutput: 1675
     exporttax: 3
@@ -111,16 +111,16 @@ types:
     published: true
     radius: 1.0
     volume: 1000.0
-  Temperate Command Center:
+  2551:
     capacity: 500.0
     cpuoutput: 1675
     exporttax: 3
-    id: 2254
+    id: 2551
     marketGroup: 1322
     mass: 5000.0
-    name: Temperate Command Center
+    name: Plasma Command Center
     packagedVolume: 1000.0
-    planetrestriction: 11
+    planetrestriction: 2063
     portionSize: 1
     poweroutput: 6000
     price: 90000.0

@@ -1,718 +1,5 @@
 types:
-  Capital Ancillary Current Router I:
-    hp: 40.0
-    id: 31362
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    name: Capital Ancillary Current Router I
-    packagedVolume: 40.0
-    portionSize: 1
-    powerengineeringoutputbonus: 10.0
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Ancillary Current Router II:
-    hp: 40.0
-    id: 31368
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Capital Ancillary Current Router II
-    packagedVolume: 40.0
-    portionSize: 1
-    powerengineeringoutputbonus: 15.0
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Capacitor Control Circuit I:
-    caprechargebonus: -15.0
-    hp: 40.0
-    id: 31374
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    name: Capital Capacitor Control Circuit I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Capacitor Control Circuit II:
-    caprechargebonus: -20.0
-    hp: 40.0
-    id: 31380
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Capital Capacitor Control Circuit II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Command Processor I:
-    hp: 40.0
-    id: 43900
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 1
-    name: Capital Command Processor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 150
-    volume: 40.0
-  Capital Egress Port Maximizer I:
-    capneedbonus: -15
-    hp: 40.0
-    id: 31386
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    name: Capital Egress Port Maximizer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Egress Port Maximizer II:
-    capneedbonus: -20
-    hp: 40.0
-    id: 31392
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Capital Egress Port Maximizer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Liquid Cooled Electronics I:
-    cpuneedbonus: -10
-    hp: 40.0
-    id: 31230
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    name: Capital Liquid Cooled Electronics I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Liquid Cooled Electronics II:
-    cpuneedbonus: -15
-    hp: 40.0
-    id: 31236
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Capital Liquid Cooled Electronics II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Powergrid Subroutine Maximizer I:
-    cpuneedbonus: -15
-    hp: 40.0
-    id: 31398
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    name: Capital Powergrid Subroutine Maximizer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Powergrid Subroutine Maximizer II:
-    cpuneedbonus: -20
-    hp: 40.0
-    id: 31404
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Capital Powergrid Subroutine Maximizer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Processor Overclocking Unit I:
-    cpuoutputbonus2: 7.099999904632568
-    hp: 40.0
-    id: 33303
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    name: Capital Processor Overclocking Unit I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0499999523162842
-    techlevel: 1
-    upgradecost: 150
-    volume: 40.0
-  Capital Processor Overclocking Unit II:
-    cpuoutputbonus2: 9.600000381469727
-    hp: 40.0
-    id: 33305
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Capital Processor Overclocking Unit II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.100000023841858
-    techlevel: 2
-    upgradecost: 300
-    volume: 40.0
-  Capital Semiconductor Memory Cell I:
-    capacitorcapacitybonus: 15.0
-    hp: 40.0
-    id: 31410
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    name: Capital Semiconductor Memory Cell I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Semiconductor Memory Cell II:
-    capacitorcapacitybonus: 20.0
-    hp: 40.0
-    id: 31416
-    marketGroup: 1736
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Capital Semiconductor Memory Cell II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Large Ancillary Current Router I:
-    hp: 40.0
-    id: 25956
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    name: Large Ancillary Current Router I
-    packagedVolume: 20.0
-    portionSize: 1
-    powerengineeringoutputbonus: 10.0
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Ancillary Current Router II:
-    hp: 40.0
-    id: 26370
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Large Ancillary Current Router II
-    packagedVolume: 20.0
-    portionSize: 1
-    powerengineeringoutputbonus: 15.0
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Large Capacitor Control Circuit I:
-    caprechargebonus: -15.0
-    hp: 40.0
-    id: 25948
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    name: Large Capacitor Control Circuit I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Capacitor Control Circuit II:
-    caprechargebonus: -20.0
-    hp: 40.0
-    id: 26374
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Large Capacitor Control Circuit II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Large Command Processor I:
-    hp: 40.0
-    id: 43898
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 1
-    name: Large Command Processor I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 150
-    volume: 20.0
-  Large Egress Port Maximizer I:
-    capneedbonus: -15
-    hp: 40.0
-    id: 25950
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    name: Large Egress Port Maximizer I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Egress Port Maximizer II:
-    capneedbonus: -20
-    hp: 40.0
-    id: 26368
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Large Egress Port Maximizer II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Large Liquid Cooled Electronics I:
-    cpuneedbonus: -10
-    hp: 40.0
-    id: 25934
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    name: Large Liquid Cooled Electronics I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Liquid Cooled Electronics II:
-    cpuneedbonus: -15
-    hp: 40.0
-    id: 26348
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Large Liquid Cooled Electronics II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Large Powergrid Subroutine Maximizer I:
-    cpuneedbonus: -15
-    hp: 40.0
-    id: 25952
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    name: Large Powergrid Subroutine Maximizer I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Powergrid Subroutine Maximizer II:
-    cpuneedbonus: -20
-    hp: 40.0
-    id: 26372
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Large Powergrid Subroutine Maximizer II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 75
-    volume: 20.0
-  Large Processor Overclocking Unit I:
-    cpuoutputbonus2: 7.099999904632568
-    hp: 40.0
-    id: 4397
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    name: Large Processor Overclocking Unit I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0499999523162842
-    techlevel: 1
-    upgradecost: 150
-    volume: 5.0
-  Large Processor Overclocking Unit II:
-    cpuoutputbonus2: 9.600000381469727
-    hp: 40.0
-    id: 4401
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Large Processor Overclocking Unit II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.100000023841858
-    techlevel: 2
-    upgradecost: 300
-    volume: 5.0
-  Large Semiconductor Memory Cell I:
-    capacitorcapacitybonus: 15.0
-    hp: 40.0
-    id: 25954
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    name: Large Semiconductor Memory Cell I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Semiconductor Memory Cell II:
-    capacitorcapacitybonus: 20.0
-    hp: 40.0
-    id: 26376
-    marketGroup: 1224
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Large Semiconductor Memory Cell II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Medium Ancillary Current Router I:
-    hp: 40.0
-    id: 31360
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    name: Medium Ancillary Current Router I
-    packagedVolume: 10.0
-    portionSize: 1
-    powerengineeringoutputbonus: 10.0
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Ancillary Current Router II:
-    hp: 40.0
-    id: 31366
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Medium Ancillary Current Router II
-    packagedVolume: 10.0
-    portionSize: 1
-    powerengineeringoutputbonus: 15.0
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Capacitor Control Circuit I:
-    caprechargebonus: -15.0
-    hp: 40.0
-    id: 31372
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    name: Medium Capacitor Control Circuit I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Capacitor Control Circuit II:
-    caprechargebonus: -20.0
-    hp: 40.0
-    id: 31378
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Medium Capacitor Control Circuit II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Command Processor I:
-    hp: 40.0
-    id: 43896
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 1
-    name: Medium Command Processor I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 150
-    volume: 10.0
-  Medium Egress Port Maximizer I:
-    capneedbonus: -15
-    hp: 40.0
-    id: 31384
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    name: Medium Egress Port Maximizer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Egress Port Maximizer II:
-    capneedbonus: -20
-    hp: 40.0
-    id: 31390
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Medium Egress Port Maximizer II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Liquid Cooled Electronics I:
-    cpuneedbonus: -10
-    hp: 40.0
-    id: 31228
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    name: Medium Liquid Cooled Electronics I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Liquid Cooled Electronics II:
-    cpuneedbonus: -15
-    hp: 40.0
-    id: 31234
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Medium Liquid Cooled Electronics II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Powergrid Subroutine Maximizer I:
-    cpuneedbonus: -15
-    hp: 40.0
-    id: 31396
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    name: Medium Powergrid Subroutine Maximizer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Powergrid Subroutine Maximizer II:
-    cpuneedbonus: -20
-    hp: 40.0
-    id: 31402
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Medium Powergrid Subroutine Maximizer II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Processor Overclocking Unit I:
+  4395:
     cpuoutputbonus2: 7.099999904632568
     hp: 40.0
     id: 4395
@@ -729,7 +16,24 @@ types:
     techlevel: 1
     upgradecost: 150
     volume: 5.0
-  Medium Processor Overclocking Unit II:
+  4397:
+    cpuoutputbonus2: 7.099999904632568
+    hp: 40.0
+    id: 4397
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    name: Large Processor Overclocking Unit I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0499999523162842
+    techlevel: 1
+    upgradecost: 150
+    volume: 5.0
+  4399:
     cpuoutputbonus2: 9.600000381469727
     hp: 40.0
     id: 4399
@@ -747,233 +51,235 @@ types:
     techlevel: 2
     upgradecost: 300
     volume: 5.0
-  Medium Semiconductor Memory Cell I:
-    capacitorcapacitybonus: 15.0
+  4401:
+    cpuoutputbonus2: 9.600000381469727
     hp: 40.0
-    id: 31408
-    marketGroup: 1223
-    mass: 200.0
-    maxgangmodules: 3
-    name: Medium Semiconductor Memory Cell I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Semiconductor Memory Cell II:
-    capacitorcapacitybonus: 20.0
-    hp: 40.0
-    id: 31414
-    marketGroup: 1223
+    id: 4401
+    marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
     metalevelold: 5
-    name: Medium Semiconductor Memory Cell II
-    packagedVolume: 10.0
+    name: Large Processor Overclocking Unit II
+    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
-    shieldrechargeratemultiplier: 1.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.100000023841858
     techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Small Ancillary Current Router I:
+    upgradecost: 300
+    volume: 5.0
+  25934:
+    cpuneedbonus: -10
     hp: 40.0
-    id: 31358
-    marketGroup: 1222
+    id: 25934
+    marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
-    name: Small Ancillary Current Router I
-    packagedVolume: 5.0
+    name: Large Liquid Cooled Electronics I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 20.0
+  25948:
+    caprechargebonus: -15.0
+    hp: 40.0
+    id: 25948
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    name: Large Capacitor Control Circuit I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 20.0
+  25950:
+    capneedbonus: -15
+    hp: 40.0
+    id: 25950
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    name: Large Egress Port Maximizer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 20.0
+  25952:
+    cpuneedbonus: -15
+    hp: 40.0
+    id: 25952
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    name: Large Powergrid Subroutine Maximizer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  25954:
+    capacitorcapacitybonus: 15.0
+    hp: 40.0
+    id: 25954
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    name: Large Semiconductor Memory Cell I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 20.0
+  25956:
+    hp: 40.0
+    id: 25956
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    name: Large Ancillary Current Router I
+    packagedVolume: 20.0
     portionSize: 1
     powerengineeringoutputbonus: 10.0
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 3
     shieldrechargeratemultiplier: 1.0
     techlevel: 1
     upgradecost: 100
-    volume: 5.0
-  Small Ancillary Current Router II:
+    volume: 20.0
+  26348:
+    cpuneedbonus: -15
     hp: 40.0
-    id: 31364
-    marketGroup: 1222
+    id: 26348
+    marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
     metalevelold: 5
-    name: Small Ancillary Current Router II
-    packagedVolume: 5.0
+    name: Large Liquid Cooled Electronics II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0
+  26368:
+    capneedbonus: -20
+    hp: 40.0
+    id: 26368
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Large Egress Port Maximizer II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0
+  26370:
+    hp: 40.0
+    id: 26370
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Large Ancillary Current Router II
+    packagedVolume: 20.0
     portionSize: 1
     powerengineeringoutputbonus: 15.0
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 3
     shieldrechargeratemultiplier: 1.0
     techlevel: 2
     upgradecost: 150
-    volume: 5.0
-  Small Capacitor Control Circuit I:
-    caprechargebonus: -15.0
-    hp: 40.0
-    id: 31370
-    marketGroup: 1222
-    mass: 200.0
-    maxgangmodules: 3
-    name: Small Capacitor Control Circuit I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 5.0
-  Small Capacitor Control Circuit II:
-    caprechargebonus: -20.0
-    hp: 40.0
-    id: 31376
-    marketGroup: 1222
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Small Capacitor Control Circuit II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 5.0
-  Small Command Processor I:
-    hp: 40.0
-    id: 43894
-    marketGroup: 1222
-    mass: 200.0
-    maxgangmodules: 1
-    name: Small Command Processor I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 150
-    volume: 5.0
-  Small Egress Port Maximizer I:
-    capneedbonus: -15
-    hp: 40.0
-    id: 31382
-    marketGroup: 1222
-    mass: 200.0
-    maxgangmodules: 3
-    name: Small Egress Port Maximizer I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 5.0
-  Small Egress Port Maximizer II:
-    capneedbonus: -20
-    hp: 40.0
-    id: 31388
-    marketGroup: 1222
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Small Egress Port Maximizer II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 5.0
-  Small Liquid Cooled Electronics I:
-    cpuneedbonus: -10
-    hp: 40.0
-    id: 31226
-    marketGroup: 1222
-    mass: 200.0
-    maxgangmodules: 3
-    name: Small Liquid Cooled Electronics I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 5.0
-  Small Liquid Cooled Electronics II:
-    cpuneedbonus: -15
-    hp: 40.0
-    id: 31232
-    marketGroup: 1222
-    mass: 200.0
-    maxgangmodules: 3
-    metalevelold: 5
-    name: Small Liquid Cooled Electronics II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 5.0
-  Small Powergrid Subroutine Maximizer I:
-    cpuneedbonus: -15
-    hp: 40.0
-    id: 31394
-    marketGroup: 1222
-    mass: 200.0
-    maxgangmodules: 3
-    name: Small Powergrid Subroutine Maximizer I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    shieldrechargeratemultiplier: 1.0
-    techlevel: 1
-    upgradecost: 50
-    volume: 5.0
-  Small Powergrid Subroutine Maximizer II:
+    volume: 20.0
+  26372:
     cpuneedbonus: -20
     hp: 40.0
-    id: 31400
-    marketGroup: 1222
+    id: 26372
+    marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
     metalevelold: 5
-    name: Small Powergrid Subroutine Maximizer II
-    packagedVolume: 5.0
+    name: Large Powergrid Subroutine Maximizer II
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 3
     shieldrechargeratemultiplier: 1.0
     techlevel: 2
     upgradecost: 75
-    volume: 5.0
-  Small Processor Overclocking Unit I:
+    volume: 20.0
+  26374:
+    caprechargebonus: -20.0
+    hp: 40.0
+    id: 26374
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Large Capacitor Control Circuit II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0
+  26376:
+    capacitorcapacitybonus: 20.0
+    hp: 40.0
+    id: 26376
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Large Semiconductor Memory Cell II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0
+  26929:
     cpuoutputbonus2: 7.099999904632568
     hp: 40.0
     id: 26929
@@ -990,7 +296,7 @@ types:
     techlevel: 1
     upgradecost: 150
     volume: 5.0
-  Small Processor Overclocking Unit II:
+  26931:
     cpuoutputbonus2: 9.600000381469727
     hp: 40.0
     id: 26931
@@ -1008,7 +314,532 @@ types:
     techlevel: 2
     upgradecost: 300
     volume: 5.0
-  Small Semiconductor Memory Cell I:
+  31226:
+    cpuneedbonus: -10
+    hp: 40.0
+    id: 31226
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    name: Small Liquid Cooled Electronics I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 5.0
+  31228:
+    cpuneedbonus: -10
+    hp: 40.0
+    id: 31228
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    name: Medium Liquid Cooled Electronics I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31230:
+    cpuneedbonus: -10
+    hp: 40.0
+    id: 31230
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    name: Capital Liquid Cooled Electronics I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31232:
+    cpuneedbonus: -15
+    hp: 40.0
+    id: 31232
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Small Liquid Cooled Electronics II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 5.0
+  31234:
+    cpuneedbonus: -15
+    hp: 40.0
+    id: 31234
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Medium Liquid Cooled Electronics II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31236:
+    cpuneedbonus: -15
+    hp: 40.0
+    id: 31236
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Capital Liquid Cooled Electronics II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  31358:
+    hp: 40.0
+    id: 31358
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    name: Small Ancillary Current Router I
+    packagedVolume: 5.0
+    portionSize: 1
+    powerengineeringoutputbonus: 10.0
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 5.0
+  31360:
+    hp: 40.0
+    id: 31360
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    name: Medium Ancillary Current Router I
+    packagedVolume: 10.0
+    portionSize: 1
+    powerengineeringoutputbonus: 10.0
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31362:
+    hp: 40.0
+    id: 31362
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    name: Capital Ancillary Current Router I
+    packagedVolume: 40.0
+    portionSize: 1
+    powerengineeringoutputbonus: 10.0
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31364:
+    hp: 40.0
+    id: 31364
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Small Ancillary Current Router II
+    packagedVolume: 5.0
+    portionSize: 1
+    powerengineeringoutputbonus: 15.0
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 5.0
+  31366:
+    hp: 40.0
+    id: 31366
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Medium Ancillary Current Router II
+    packagedVolume: 10.0
+    portionSize: 1
+    powerengineeringoutputbonus: 15.0
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31368:
+    hp: 40.0
+    id: 31368
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Capital Ancillary Current Router II
+    packagedVolume: 40.0
+    portionSize: 1
+    powerengineeringoutputbonus: 15.0
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  31370:
+    caprechargebonus: -15.0
+    hp: 40.0
+    id: 31370
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    name: Small Capacitor Control Circuit I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 5.0
+  31372:
+    caprechargebonus: -15.0
+    hp: 40.0
+    id: 31372
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    name: Medium Capacitor Control Circuit I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31374:
+    caprechargebonus: -15.0
+    hp: 40.0
+    id: 31374
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    name: Capital Capacitor Control Circuit I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31376:
+    caprechargebonus: -20.0
+    hp: 40.0
+    id: 31376
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Small Capacitor Control Circuit II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 5.0
+  31378:
+    caprechargebonus: -20.0
+    hp: 40.0
+    id: 31378
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Medium Capacitor Control Circuit II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31380:
+    caprechargebonus: -20.0
+    hp: 40.0
+    id: 31380
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Capital Capacitor Control Circuit II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  31382:
+    capneedbonus: -15
+    hp: 40.0
+    id: 31382
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    name: Small Egress Port Maximizer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 5.0
+  31384:
+    capneedbonus: -15
+    hp: 40.0
+    id: 31384
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    name: Medium Egress Port Maximizer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31386:
+    capneedbonus: -15
+    hp: 40.0
+    id: 31386
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    name: Capital Egress Port Maximizer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31388:
+    capneedbonus: -20
+    hp: 40.0
+    id: 31388
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Small Egress Port Maximizer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 5.0
+  31390:
+    capneedbonus: -20
+    hp: 40.0
+    id: 31390
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Medium Egress Port Maximizer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31392:
+    capneedbonus: -20
+    hp: 40.0
+    id: 31392
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Capital Egress Port Maximizer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  31394:
+    cpuneedbonus: -15
+    hp: 40.0
+    id: 31394
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    name: Small Powergrid Subroutine Maximizer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  31396:
+    cpuneedbonus: -15
+    hp: 40.0
+    id: 31396
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    name: Medium Powergrid Subroutine Maximizer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31398:
+    cpuneedbonus: -15
+    hp: 40.0
+    id: 31398
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    name: Capital Powergrid Subroutine Maximizer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31400:
+    cpuneedbonus: -20
+    hp: 40.0
+    id: 31400
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Small Powergrid Subroutine Maximizer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  31402:
+    cpuneedbonus: -20
+    hp: 40.0
+    id: 31402
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Medium Powergrid Subroutine Maximizer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31404:
+    cpuneedbonus: -20
+    hp: 40.0
+    id: 31404
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Capital Powergrid Subroutine Maximizer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31406:
     capacitorcapacitybonus: 15.0
     hp: 40.0
     id: 31406
@@ -1025,7 +856,41 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 5.0
-  Small Semiconductor Memory Cell II:
+  31408:
+    capacitorcapacitybonus: 15.0
+    hp: 40.0
+    id: 31408
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    name: Medium Semiconductor Memory Cell I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31410:
+    capacitorcapacitybonus: 15.0
+    hp: 40.0
+    id: 31410
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    name: Capital Semiconductor Memory Cell I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31412:
     capacitorcapacitybonus: 20.0
     hp: 40.0
     id: 31412
@@ -1043,3 +908,138 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 5.0
+  31414:
+    capacitorcapacitybonus: 20.0
+    hp: 40.0
+    id: 31414
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Medium Semiconductor Memory Cell II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31416:
+    capacitorcapacitybonus: 20.0
+    hp: 40.0
+    id: 31416
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Capital Semiconductor Memory Cell II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  33303:
+    cpuoutputbonus2: 7.099999904632568
+    hp: 40.0
+    id: 33303
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    name: Capital Processor Overclocking Unit I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0499999523162842
+    techlevel: 1
+    upgradecost: 150
+    volume: 40.0
+  33305:
+    cpuoutputbonus2: 9.600000381469727
+    hp: 40.0
+    id: 33305
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 3
+    metalevelold: 5
+    name: Capital Processor Overclocking Unit II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.100000023841858
+    techlevel: 2
+    upgradecost: 300
+    volume: 40.0
+  43894:
+    hp: 40.0
+    id: 43894
+    marketGroup: 1222
+    mass: 200.0
+    maxgangmodules: 1
+    name: Small Command Processor I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 150
+    volume: 5.0
+  43896:
+    hp: 40.0
+    id: 43896
+    marketGroup: 1223
+    mass: 200.0
+    maxgangmodules: 1
+    name: Medium Command Processor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 150
+    volume: 10.0
+  43898:
+    hp: 40.0
+    id: 43898
+    marketGroup: 1224
+    mass: 200.0
+    maxgangmodules: 1
+    name: Large Command Processor I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 150
+    volume: 20.0
+  43900:
+    hp: 40.0
+    id: 43900
+    marketGroup: 1736
+    mass: 200.0
+    maxgangmodules: 1
+    name: Capital Command Processor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
+    upgradecost: 150
+    volume: 40.0

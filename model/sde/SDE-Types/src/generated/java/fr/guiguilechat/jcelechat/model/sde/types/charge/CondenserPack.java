@@ -207,7 +207,7 @@ public class CondenserPack
         implements IMetaGroup<CondenserPack>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/CondenserPack.yaml";
-        private Map<String, CondenserPack> cache = (null);
+        private Map<Integer, CondenserPack> cache = (null);
 
         @Override
         public IMetaCategory<? super CondenserPack> category() {
@@ -225,7 +225,7 @@ public class CondenserPack
         }
 
         @Override
-        public synchronized Map<String, CondenserPack> load() {
+        public synchronized Map<Integer, CondenserPack> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CondenserPack.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -239,7 +239,7 @@ public class CondenserPack
         }
 
         private static class Container {
-            public LinkedHashMap<String, CondenserPack> types;
+            public LinkedHashMap<Integer, CondenserPack> types;
         }
     }
 }

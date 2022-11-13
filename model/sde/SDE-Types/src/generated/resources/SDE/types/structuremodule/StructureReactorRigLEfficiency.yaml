@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Reactor Efficiency I:
+  46496:
     canfitshipgroup03: 1406
     disallowinhighsec: 1
     hp: 40.0
@@ -24,7 +24,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Reactor Efficiency II:
+  46497:
     canfitshipgroup03: 1406
     disallowinhighsec: 1
     hp: 40.0

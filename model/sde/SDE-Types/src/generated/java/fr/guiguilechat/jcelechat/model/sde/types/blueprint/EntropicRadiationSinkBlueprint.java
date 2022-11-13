@@ -32,7 +32,7 @@ public class EntropicRadiationSinkBlueprint
         implements IMetaGroup<EntropicRadiationSinkBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/EntropicRadiationSinkBlueprint.yaml";
-        private Map<String, EntropicRadiationSinkBlueprint> cache = (null);
+        private Map<Integer, EntropicRadiationSinkBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super EntropicRadiationSinkBlueprint> category() {
@@ -50,7 +50,7 @@ public class EntropicRadiationSinkBlueprint
         }
 
         @Override
-        public synchronized Map<String, EntropicRadiationSinkBlueprint> load() {
+        public synchronized Map<Integer, EntropicRadiationSinkBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EntropicRadiationSinkBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class EntropicRadiationSinkBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EntropicRadiationSinkBlueprint> types;
+            public LinkedHashMap<Integer, EntropicRadiationSinkBlueprint> types;
         }
     }
 }

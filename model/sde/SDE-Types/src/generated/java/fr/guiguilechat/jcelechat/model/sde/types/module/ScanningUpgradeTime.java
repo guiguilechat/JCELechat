@@ -137,7 +137,7 @@ public class ScanningUpgradeTime
         implements IMetaGroup<ScanningUpgradeTime>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ScanningUpgradeTime.yaml";
-        private Map<String, ScanningUpgradeTime> cache = (null);
+        private Map<Integer, ScanningUpgradeTime> cache = (null);
 
         @Override
         public IMetaCategory<? super ScanningUpgradeTime> category() {
@@ -155,7 +155,7 @@ public class ScanningUpgradeTime
         }
 
         @Override
-        public synchronized Map<String, ScanningUpgradeTime> load() {
+        public synchronized Map<Integer, ScanningUpgradeTime> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ScanningUpgradeTime.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -169,7 +169,7 @@ public class ScanningUpgradeTime
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScanningUpgradeTime> types;
+            public LinkedHashMap<Integer, ScanningUpgradeTime> types;
         }
     }
 }

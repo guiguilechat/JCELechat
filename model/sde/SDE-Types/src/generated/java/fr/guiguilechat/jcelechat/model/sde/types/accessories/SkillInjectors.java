@@ -96,7 +96,7 @@ public class SkillInjectors
         implements IMetaGroup<SkillInjectors>
     {
         public static final String RESOURCE_PATH = "SDE/types/accessories/SkillInjectors.yaml";
-        private Map<String, SkillInjectors> cache = (null);
+        private Map<Integer, SkillInjectors> cache = (null);
 
         @Override
         public IMetaCategory<? super SkillInjectors> category() {
@@ -114,7 +114,7 @@ public class SkillInjectors
         }
 
         @Override
-        public synchronized Map<String, SkillInjectors> load() {
+        public synchronized Map<Integer, SkillInjectors> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SkillInjectors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -128,7 +128,7 @@ public class SkillInjectors
         }
 
         private static class Container {
-            public LinkedHashMap<String, SkillInjectors> types;
+            public LinkedHashMap<Integer, SkillInjectors> types;
         }
     }
 }

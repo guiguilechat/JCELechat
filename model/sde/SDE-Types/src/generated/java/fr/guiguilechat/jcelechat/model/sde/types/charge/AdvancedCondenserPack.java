@@ -268,7 +268,7 @@ public class AdvancedCondenserPack
         implements IMetaGroup<AdvancedCondenserPack>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedCondenserPack.yaml";
-        private Map<String, AdvancedCondenserPack> cache = (null);
+        private Map<Integer, AdvancedCondenserPack> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedCondenserPack> category() {
@@ -286,7 +286,7 @@ public class AdvancedCondenserPack
         }
 
         @Override
-        public synchronized Map<String, AdvancedCondenserPack> load() {
+        public synchronized Map<Integer, AdvancedCondenserPack> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedCondenserPack.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -300,7 +300,7 @@ public class AdvancedCondenserPack
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedCondenserPack> types;
+            public LinkedHashMap<Integer, AdvancedCondenserPack> types;
         }
     }
 }

@@ -242,7 +242,7 @@ public class StructureXLMissileLauncher
         implements IMetaGroup<StructureXLMissileLauncher>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureXLMissileLauncher.yaml";
-        private Map<String, StructureXLMissileLauncher> cache = (null);
+        private Map<Integer, StructureXLMissileLauncher> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureXLMissileLauncher> category() {
@@ -260,7 +260,7 @@ public class StructureXLMissileLauncher
         }
 
         @Override
-        public synchronized Map<String, StructureXLMissileLauncher> load() {
+        public synchronized Map<Integer, StructureXLMissileLauncher> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureXLMissileLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -274,7 +274,7 @@ public class StructureXLMissileLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureXLMissileLauncher> types;
+            public LinkedHashMap<Integer, StructureXLMissileLauncher> types;
         }
     }
 }

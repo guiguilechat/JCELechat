@@ -154,7 +154,7 @@ public class PrototypeExplorationShip
         implements IMetaGroup<PrototypeExplorationShip>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/PrototypeExplorationShip.yaml";
-        private Map<String, PrototypeExplorationShip> cache = (null);
+        private Map<Integer, PrototypeExplorationShip> cache = (null);
 
         @Override
         public IMetaCategory<? super PrototypeExplorationShip> category() {
@@ -172,7 +172,7 @@ public class PrototypeExplorationShip
         }
 
         @Override
-        public synchronized Map<String, PrototypeExplorationShip> load() {
+        public synchronized Map<Integer, PrototypeExplorationShip> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PrototypeExplorationShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -186,7 +186,7 @@ public class PrototypeExplorationShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, PrototypeExplorationShip> types;
+            public LinkedHashMap<Integer, PrototypeExplorationShip> types;
         }
     }
 }

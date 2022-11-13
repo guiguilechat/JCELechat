@@ -1,5 +1,5 @@
 types:
-  Sentient Crippler Alvatis:
+  27732:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -87,7 +87,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.13199999928474426
     volume: 60.0
-  Sentient Defeater Alvatis:
+  27733:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -176,7 +176,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.03375000134110451
     volume: 60.0
-  Sentient Enforcer Alvatis:
+  27734:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -265,7 +265,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.03375000134110451
     volume: 60.0
-  Sentient Exterminator Alvatis:
+  27735:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -355,7 +355,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.027499999850988388
     volume: 60.0
-  Sentient Siege Alvatis:
+  27736:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -444,7 +444,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.027499999850988388
     volume: 60.0
-  Sentient Striker Alvatis:
+  27737:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

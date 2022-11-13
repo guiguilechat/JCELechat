@@ -1,5 +1,5 @@
 types:
-  Shadow Serpentis Artillery:
+  23457:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11,47 +11,47 @@ types:
     armorkineticdamageresonance: 0.8999999761581421
     armorthermaldamageresonance: 0.800000011920929
     armoruniformity: 0.75
-    capacitorcapacity: 220.0
+    capacitorcapacity: 170.0
     capacity: 235.0
-    damagemultiplier: 7.5
+    damagemultiplier: 7.125
     disallowassistance: 1
     entityarmorrepairamount: 81.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 25500
-    entityattackdelaymin: 6375
-    entityattackrange: 7313
+    entityattackdelaymax: 27000
+    entityattackdelaymin: 6750
+    entityattackrange: 6000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
     entitychasemaxdelaychance: 0.15000000596046448
-    entitychasemaxdistance: 4875
+    entitychasemaxdistance: 4000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
     entityequipmentmax: 3
     entityequipmentmin: 2
     entityfactionloss: 0.0032500000670552254
-    entityflyrange: 2438.0
+    entityflyrange: 2000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 168750
+    entitykillbounty: 112500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.3499999940395355
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04749999940395355
-    falloff: 4688.0
+    entitysecuritystatuskillbonus: 0.03500000014901161
+    falloff: 3750.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
-    id: 23462
-    kineticdamage: 4.0
+    id: 23457
+    kineticdamage: 3.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
-    maxrange: 1875.0
+    maxrange: 1563.0
     maxvelocity: 1600.0
-    name: Shadow Serpentis Artillery
+    name: Shadow Serpentis Trooper
     optimalsigradius: 40
     packagedVolume: 26500.0
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     published: false
     radius: 50.0
     rechargerate: 500000.0
-    scanmagnetometricstrength: 14.0
+    scanmagnetometricstrength: 12.0
     scanresolution: 500.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 0.699999988079071
@@ -71,235 +71,10 @@ types:
     signatureradius: 86.0
     speed: 2500.0
     structureuniformity: 1.0
-    thermaldamage: 7.0
-    trackingspeed: 0.4945312440395355
+    thermaldamage: 4.0
+    trackingspeed: 0.5249999761581421
     volume: 26500.0
-  Shadow Serpentis Cannoneer:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.6000000238418579
-    armorhp: 275.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 210.0
-    capacity: 235.0
-    damagemultiplier: 6.875
-    disallowassistance: 1
-    entityarmorrepairamount: 81.0
-    entityarmorrepairdelaychance: 0.25
-    entityarmorrepairdelaychancesmall: 0.25
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 25800
-    entityattackdelaymin: 6450
-    entityattackrange: 7313
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.15000000596046448
-    entitychasemaxdistance: 4875
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 3
-    entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 2438.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 157500
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.38999998569488525
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04500000178813934
-    falloff: 4688.0
-    gfxboosterid: 394
-    gfxturretid: 563
-    hp: 275.0
-    id: 23461
-    kineticdamage: 4.0
-    mass: 2650000.0
-    maxattacktargets: 1
-    maxlockedtargets: 2
-    maxrange: 1875.0
-    maxvelocity: 1600.0
-    name: Shadow Serpentis Cannoneer
-    optimalsigradius: 40
-    packagedVolume: 26500.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scanmagnetometricstrength: 14.0
-    scanresolution: 500.0
-    shieldcapacity: 250.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 86.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 7.0
-    trackingspeed: 0.4945312440395355
-    volume: 26500.0
-  Shadow Serpentis Infantry:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.6000000238418579
-    armorhp: 275.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 190.0
-    capacity: 235.0
-    damagemultiplier: 7.3125
-    disallowassistance: 1
-    entityarmorrepairamount: 81.0
-    entityarmorrepairdelaychance: 0.25
-    entityarmorrepairdelaychancesmall: 0.25
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 26400
-    entityattackdelaymin: 6600
-    entityattackrange: 35938
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 21563
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 4
-    entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 14375.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 135000
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3700000047683716
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03999999910593033
-    falloff: 9375.0
-    gfxboosterid: 394
-    gfxturretid: 565
-    hp: 275.0
-    id: 23459
-    kineticdamage: 3.0
-    mass: 2650000.0
-    maxattacktargets: 1
-    maxlockedtargets: 2
-    maxrange: 15625.0
-    maxvelocity: 1600.0
-    name: Shadow Serpentis Infantry
-    optimalsigradius: 40
-    packagedVolume: 26500.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scanmagnetometricstrength: 13.0
-    scanresolution: 500.0
-    shieldcapacity: 250.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 86.0
-    speed: 2750.0
-    structureuniformity: 1.0
-    thermaldamage: 6.0
-    trackingspeed: 0.109375
-    volume: 26500.0
-  Shadow Serpentis Sentinel:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.6000000238418579
-    armorhp: 275.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 200.0
-    capacity: 235.0
-    damagemultiplier: 8.25
-    disallowassistance: 1
-    entityarmorrepairamount: 81.0
-    entityarmorrepairdelaychance: 0.25
-    entityarmorrepairdelaychancesmall: 0.25
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 26100
-    entityattackdelaymin: 6525
-    entityattackrange: 35938
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 21563
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 4
-    entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 14375.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 146250
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3799999952316284
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.042500000447034836
-    falloff: 9375.0
-    gfxboosterid: 394
-    gfxturretid: 565
-    hp: 275.0
-    id: 23460
-    kineticdamage: 3.0
-    mass: 2650000.0
-    maxattacktargets: 1
-    maxlockedtargets: 2
-    maxrange: 15625.0
-    maxvelocity: 1600.0
-    name: Shadow Serpentis Sentinel
-    optimalsigradius: 40
-    packagedVolume: 26500.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scanmagnetometricstrength: 13.0
-    scanresolution: 500.0
-    shieldcapacity: 250.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 86.0
-    speed: 2750.0
-    structureuniformity: 1.0
-    thermaldamage: 6.0
-    trackingspeed: 0.109375
-    volume: 26500.0
-  Shadow Serpentis Soldier:
+  23458:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -374,7 +149,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.5249999761581421
     volume: 26500.0
-  Shadow Serpentis Trooper:
+  23459:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -386,47 +161,47 @@ types:
     armorkineticdamageresonance: 0.8999999761581421
     armorthermaldamageresonance: 0.800000011920929
     armoruniformity: 0.75
-    capacitorcapacity: 170.0
+    capacitorcapacity: 190.0
     capacity: 235.0
-    damagemultiplier: 7.125
+    damagemultiplier: 7.3125
     disallowassistance: 1
     entityarmorrepairamount: 81.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 27000
-    entityattackdelaymin: 6750
-    entityattackrange: 6000
+    entityattackdelaymax: 26400
+    entityattackdelaymin: 6600
+    entityattackrange: 35938
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.15000000596046448
-    entitychasemaxdistance: 4000
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 21563
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entityequipmentmax: 3
+    entityequipmentmax: 4
     entityequipmentmin: 2
     entityfactionloss: 0.0032500000670552254
-    entityflyrange: 2000.0
+    entityflyrange: 14375.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 112500
+    entitykillbounty: 135000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3499999940395355
+    entityreactionfactor: 0.3700000047683716
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03500000014901161
-    falloff: 3750.0
+    entitysecuritystatuskillbonus: 0.03999999910593033
+    falloff: 9375.0
     gfxboosterid: 394
-    gfxturretid: 563
+    gfxturretid: 565
     hp: 275.0
-    id: 23457
+    id: 23459
     kineticdamage: 3.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
-    maxrange: 1563.0
+    maxrange: 15625.0
     maxvelocity: 1600.0
-    name: Shadow Serpentis Trooper
+    name: Shadow Serpentis Infantry
     optimalsigradius: 40
     packagedVolume: 26500.0
     portionSize: 1
@@ -434,7 +209,157 @@ types:
     published: false
     radius: 50.0
     rechargerate: 500000.0
-    scanmagnetometricstrength: 12.0
+    scanmagnetometricstrength: 13.0
+    scanresolution: 500.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 86.0
+    speed: 2750.0
+    structureuniformity: 1.0
+    thermaldamage: 6.0
+    trackingspeed: 0.109375
+    volume: 26500.0
+  23460:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 275.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 200.0
+    capacity: 235.0
+    damagemultiplier: 8.25
+    disallowassistance: 1
+    entityarmorrepairamount: 81.0
+    entityarmorrepairdelaychance: 0.25
+    entityarmorrepairdelaychancesmall: 0.25
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 26100
+    entityattackdelaymin: 6525
+    entityattackrange: 35938
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 21563
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 4
+    entityequipmentmin: 2
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 14375.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 146250
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.3799999952316284
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.042500000447034836
+    falloff: 9375.0
+    gfxboosterid: 394
+    gfxturretid: 565
+    hp: 275.0
+    id: 23460
+    kineticdamage: 3.0
+    mass: 2650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 2
+    maxrange: 15625.0
+    maxvelocity: 1600.0
+    name: Shadow Serpentis Sentinel
+    optimalsigradius: 40
+    packagedVolume: 26500.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scanmagnetometricstrength: 13.0
+    scanresolution: 500.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 86.0
+    speed: 2750.0
+    structureuniformity: 1.0
+    thermaldamage: 6.0
+    trackingspeed: 0.109375
+    volume: 26500.0
+  23461:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 275.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 210.0
+    capacity: 235.0
+    damagemultiplier: 6.875
+    disallowassistance: 1
+    entityarmorrepairamount: 81.0
+    entityarmorrepairdelaychance: 0.25
+    entityarmorrepairdelaychancesmall: 0.25
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 25800
+    entityattackdelaymin: 6450
+    entityattackrange: 7313
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.15000000596046448
+    entitychasemaxdistance: 4875
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 2438.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 157500
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.38999998569488525
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.04500000178813934
+    falloff: 4688.0
+    gfxboosterid: 394
+    gfxturretid: 563
+    hp: 275.0
+    id: 23461
+    kineticdamage: 4.0
+    mass: 2650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 2
+    maxrange: 1875.0
+    maxvelocity: 1600.0
+    name: Shadow Serpentis Cannoneer
+    optimalsigradius: 40
+    packagedVolume: 26500.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scanmagnetometricstrength: 14.0
     scanresolution: 500.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 0.699999988079071
@@ -446,6 +371,81 @@ types:
     signatureradius: 86.0
     speed: 2500.0
     structureuniformity: 1.0
-    thermaldamage: 4.0
-    trackingspeed: 0.5249999761581421
+    thermaldamage: 7.0
+    trackingspeed: 0.4945312440395355
+    volume: 26500.0
+  23462:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 275.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 220.0
+    capacity: 235.0
+    damagemultiplier: 7.5
+    disallowassistance: 1
+    entityarmorrepairamount: 81.0
+    entityarmorrepairdelaychance: 0.25
+    entityarmorrepairdelaychancesmall: 0.25
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 25500
+    entityattackdelaymin: 6375
+    entityattackrange: 7313
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.15000000596046448
+    entitychasemaxdistance: 4875
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 2438.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 168750
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.4000000059604645
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.04749999940395355
+    falloff: 4688.0
+    gfxboosterid: 394
+    gfxturretid: 563
+    hp: 275.0
+    id: 23462
+    kineticdamage: 4.0
+    mass: 2650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 2
+    maxrange: 1875.0
+    maxvelocity: 1600.0
+    name: Shadow Serpentis Artillery
+    optimalsigradius: 40
+    packagedVolume: 26500.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scanmagnetometricstrength: 14.0
+    scanresolution: 500.0
+    shieldcapacity: 250.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 86.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 7.0
+    trackingspeed: 0.4945312440395355
     volume: 26500.0

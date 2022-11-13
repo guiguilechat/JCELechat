@@ -1,5 +1,5 @@
 types:
-  Optimal Range Script:
+  28999:
     aoecloudsizebonusbonus: -100
     aoevelocitybonusbonus: -100
     chargesize: 1
@@ -21,7 +21,7 @@ types:
     techlevel: 1
     trackingspeedbonusbonus: -100
     volume: 1.0
-  Tracking Speed Script:
+  29001:
     aoecloudsizebonusbonus: 100
     aoevelocitybonusbonus: 100
     chargesize: 1

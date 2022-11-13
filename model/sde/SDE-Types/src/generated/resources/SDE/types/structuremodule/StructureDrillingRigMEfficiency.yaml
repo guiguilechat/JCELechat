@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Moon Drilling Efficiency I:
+  46323:
     canfitshipgroup03: 1406
     hp: 40.0
     id: 46323
@@ -19,7 +19,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Moon Drilling Efficiency II:
+  46324:
     canfitshipgroup03: 1406
     hp: 40.0
     id: 46324

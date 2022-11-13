@@ -1,38 +1,5 @@
 types:
-  Compact Interdiction Nullifier:
-    canactivateingatecloak: 1
-    canfitshipgroup01: 831
-    canfitshipgroup02: 1202
-    canfitshipgroup03: 380
-    canfitshipgroup04: 963
-    canfitshipgroup05: 830
-    canfitshipgroup07: 28
-    canfitshiptype1: 34590
-    capacitorneed: 50.0
-    cpu: 32.0
-    disallowrepeatingactivation: 1
-    dronebandwidthpercentage: -50
-    durationhighisgood: 12000
-    hp: 40.0
-    id: 58966
-    marketGroup: 2783
-    mass: 5000.0
-    maxgroupfitted: 1
-    maxtargetrangebonus: -50.0
-    modulereactivationdelay: 130000
-    name: Compact Interdiction Nullifier
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3455
-    requiredskill1level: 4
-    scanresolutionmultiplier: 0.5
-    techlevel: 1
-    volume: 5.0
-    warpbubbleimmunebonus: 1
-  Interdiction Nullifier I:
+  58919:
     canactivateingatecloak: 1
     canfitshipgroup01: 831
     canfitshipgroup02: 1202
@@ -65,7 +32,7 @@ types:
     techlevel: 1
     volume: 5.0
     warpbubbleimmunebonus: 1
-  Interdiction Nullifier II:
+  58966:
     canactivateingatecloak: 1
     canfitshipgroup01: 831
     canfitshipgroup02: 1202
@@ -75,30 +42,30 @@ types:
     canfitshipgroup07: 28
     canfitshiptype1: 34590
     capacitorneed: 50.0
-    cpu: 46.0
+    cpu: 32.0
     disallowrepeatingactivation: 1
     dronebandwidthpercentage: -50
-    durationhighisgood: 15000
+    durationhighisgood: 12000
     hp: 40.0
-    id: 58972
+    id: 58966
     marketGroup: 2783
     mass: 5000.0
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
-    modulereactivationdelay: 150000
-    name: Interdiction Nullifier II
+    modulereactivationdelay: 130000
+    name: Compact Interdiction Nullifier
     packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
     radius: 1.0
     requiredskill1: 3455
-    requiredskill1level: 5
+    requiredskill1level: 4
     scanresolutionmultiplier: 0.5
     techlevel: 1
     volume: 5.0
     warpbubbleimmunebonus: 1
-  Restrained Interdiction Nullifier:
+  58971:
     canactivateingatecloak: 1
     canfitshipgroup01: 831
     canfitshipgroup02: 1202
@@ -127,6 +94,39 @@ types:
     radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 4
+    scanresolutionmultiplier: 0.5
+    techlevel: 1
+    volume: 5.0
+    warpbubbleimmunebonus: 1
+  58972:
+    canactivateingatecloak: 1
+    canfitshipgroup01: 831
+    canfitshipgroup02: 1202
+    canfitshipgroup03: 380
+    canfitshipgroup04: 963
+    canfitshipgroup05: 830
+    canfitshipgroup07: 28
+    canfitshiptype1: 34590
+    capacitorneed: 50.0
+    cpu: 46.0
+    disallowrepeatingactivation: 1
+    dronebandwidthpercentage: -50
+    durationhighisgood: 15000
+    hp: 40.0
+    id: 58972
+    marketGroup: 2783
+    mass: 5000.0
+    maxgroupfitted: 1
+    maxtargetrangebonus: -50.0
+    modulereactivationdelay: 150000
+    name: Interdiction Nullifier II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 5
     scanresolutionmultiplier: 0.5
     techlevel: 1
     volume: 5.0

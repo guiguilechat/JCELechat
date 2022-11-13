@@ -1,5 +1,5 @@
 types:
-  Capital Flex Armor Hardener I:
+  41515:
     capacitorneed: 3000.0
     capacity: 1.0
     chargegroup1: 1701
@@ -32,7 +32,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -16.0
     volume: 4000.0
-  Capital Flex Armor Hardener II:
+  41525:
     capacitorneed: 3600.0
     capacity: 1.0
     chargegroup1: 1701
@@ -66,7 +66,7 @@ types:
     techlevel: 2
     thermaldamageresistancebonus: -19.0
     volume: 4000.0
-  Dark Blood Capital Flex Armor Hardener:
+  41526:
     capacitorneed: 2400.0
     capacity: 1.0
     chargegroup1: 1701
@@ -101,7 +101,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -20.0
     volume: 4000.0
-  Shadow Serpentis Capital Flex Armor Hardener:
+  41527:
     capacitorneed: 2400.0
     capacity: 1.0
     chargegroup1: 1701

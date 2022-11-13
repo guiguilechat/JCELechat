@@ -1,20 +1,5 @@
 types:
-  Zainou 'Beancounter' Industry BX-801:
-    id: 27170
-    implantness: 8
-    manufacturingtimebonus: -1
-    marketGroup: 1504
-    name: Zainou 'Beancounter' Industry BX-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Beancounter' Industry BX-802:
+  27167:
     id: 27167
     implantness: 8
     manufacturingtimebonus: -2
@@ -29,7 +14,22 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Zainou 'Beancounter' Industry BX-804:
+  27170:
+    id: 27170
+    implantness: 8
+    manufacturingtimebonus: -1
+    marketGroup: 1504
+    name: Zainou 'Beancounter' Industry BX-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27171:
     id: 27171
     implantness: 8
     manufacturingtimebonus: -4

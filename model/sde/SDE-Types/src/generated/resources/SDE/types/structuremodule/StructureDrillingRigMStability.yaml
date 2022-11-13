@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Moon Drilling Stability I:
+  46325:
     canfitshipgroup03: 1406
     hp: 40.0
     id: 46325
@@ -21,7 +21,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Moon Drilling Stability II:
+  46326:
     canfitshipgroup03: 1406
     hp: 40.0
     id: 46326

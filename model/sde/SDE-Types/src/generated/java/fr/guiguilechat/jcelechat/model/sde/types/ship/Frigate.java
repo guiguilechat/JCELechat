@@ -1177,7 +1177,7 @@ public class Frigate
         implements IMetaGroup<Frigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Frigate.yaml";
-        private Map<String, Frigate> cache = (null);
+        private Map<Integer, Frigate> cache = (null);
 
         @Override
         public IMetaCategory<? super Frigate> category() {
@@ -1195,7 +1195,7 @@ public class Frigate
         }
 
         @Override
-        public synchronized Map<String, Frigate> load() {
+        public synchronized Map<Integer, Frigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Frigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1209,7 +1209,7 @@ public class Frigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, Frigate> types;
+            public LinkedHashMap<Integer, Frigate> types;
         }
     }
 }

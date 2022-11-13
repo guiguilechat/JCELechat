@@ -145,7 +145,7 @@ public class ShieldExtender
         implements IMetaGroup<ShieldExtender>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ShieldExtender.yaml";
-        private Map<String, ShieldExtender> cache = (null);
+        private Map<Integer, ShieldExtender> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldExtender> category() {
@@ -163,7 +163,7 @@ public class ShieldExtender
         }
 
         @Override
-        public synchronized Map<String, ShieldExtender> load() {
+        public synchronized Map<Integer, ShieldExtender> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldExtender.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class ShieldExtender
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldExtender> types;
+            public LinkedHashMap<Integer, ShieldExtender> types;
         }
     }
 }

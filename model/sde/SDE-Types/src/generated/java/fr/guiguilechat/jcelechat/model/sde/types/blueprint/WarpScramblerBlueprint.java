@@ -117,7 +117,7 @@ public class WarpScramblerBlueprint
         implements IMetaGroup<WarpScramblerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/WarpScramblerBlueprint.yaml";
-        private Map<String, WarpScramblerBlueprint> cache = (null);
+        private Map<Integer, WarpScramblerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super WarpScramblerBlueprint> category() {
@@ -135,7 +135,7 @@ public class WarpScramblerBlueprint
         }
 
         @Override
-        public synchronized Map<String, WarpScramblerBlueprint> load() {
+        public synchronized Map<Integer, WarpScramblerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WarpScramblerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -149,7 +149,7 @@ public class WarpScramblerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpScramblerBlueprint> types;
+            public LinkedHashMap<Integer, WarpScramblerBlueprint> types;
         }
     }
 }

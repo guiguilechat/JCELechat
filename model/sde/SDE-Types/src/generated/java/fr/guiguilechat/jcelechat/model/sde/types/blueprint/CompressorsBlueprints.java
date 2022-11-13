@@ -83,7 +83,7 @@ public class CompressorsBlueprints
         implements IMetaGroup<CompressorsBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CompressorsBlueprints.yaml";
-        private Map<String, CompressorsBlueprints> cache = (null);
+        private Map<Integer, CompressorsBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super CompressorsBlueprints> category() {
@@ -101,7 +101,7 @@ public class CompressorsBlueprints
         }
 
         @Override
-        public synchronized Map<String, CompressorsBlueprints> load() {
+        public synchronized Map<Integer, CompressorsBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CompressorsBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class CompressorsBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, CompressorsBlueprints> types;
+            public LinkedHashMap<Integer, CompressorsBlueprints> types;
         }
     }
 }

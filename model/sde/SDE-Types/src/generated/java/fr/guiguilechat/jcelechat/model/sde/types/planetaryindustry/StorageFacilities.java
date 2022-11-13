@@ -85,7 +85,7 @@ public class StorageFacilities
         implements IMetaGroup<StorageFacilities>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/StorageFacilities.yaml";
-        private Map<String, StorageFacilities> cache = (null);
+        private Map<Integer, StorageFacilities> cache = (null);
 
         @Override
         public IMetaCategory<? super StorageFacilities> category() {
@@ -103,7 +103,7 @@ public class StorageFacilities
         }
 
         @Override
-        public synchronized Map<String, StorageFacilities> load() {
+        public synchronized Map<Integer, StorageFacilities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StorageFacilities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -117,7 +117,7 @@ public class StorageFacilities
         }
 
         private static class Container {
-            public LinkedHashMap<String, StorageFacilities> types;
+            public LinkedHashMap<Integer, StorageFacilities> types;
         }
     }
 }

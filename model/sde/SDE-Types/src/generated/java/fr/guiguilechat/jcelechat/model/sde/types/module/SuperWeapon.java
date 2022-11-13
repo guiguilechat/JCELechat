@@ -680,7 +680,7 @@ public class SuperWeapon
         implements IMetaGroup<SuperWeapon>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/SuperWeapon.yaml";
-        private Map<String, SuperWeapon> cache = (null);
+        private Map<Integer, SuperWeapon> cache = (null);
 
         @Override
         public IMetaCategory<? super SuperWeapon> category() {
@@ -698,7 +698,7 @@ public class SuperWeapon
         }
 
         @Override
-        public synchronized Map<String, SuperWeapon> load() {
+        public synchronized Map<Integer, SuperWeapon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SuperWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -712,7 +712,7 @@ public class SuperWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, SuperWeapon> types;
+            public LinkedHashMap<Integer, SuperWeapon> types;
         }
     }
 }

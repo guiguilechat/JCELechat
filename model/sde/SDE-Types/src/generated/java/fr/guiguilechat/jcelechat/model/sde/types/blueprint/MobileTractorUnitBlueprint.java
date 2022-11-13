@@ -83,7 +83,7 @@ public class MobileTractorUnitBlueprint
         implements IMetaGroup<MobileTractorUnitBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileTractorUnitBlueprint.yaml";
-        private Map<String, MobileTractorUnitBlueprint> cache = (null);
+        private Map<Integer, MobileTractorUnitBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileTractorUnitBlueprint> category() {
@@ -101,7 +101,7 @@ public class MobileTractorUnitBlueprint
         }
 
         @Override
-        public synchronized Map<String, MobileTractorUnitBlueprint> load() {
+        public synchronized Map<Integer, MobileTractorUnitBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileTractorUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class MobileTractorUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileTractorUnitBlueprint> types;
+            public LinkedHashMap<Integer, MobileTractorUnitBlueprint> types;
         }
     }
 }

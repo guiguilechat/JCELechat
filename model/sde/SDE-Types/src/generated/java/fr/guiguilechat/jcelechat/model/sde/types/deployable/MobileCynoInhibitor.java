@@ -167,7 +167,7 @@ public class MobileCynoInhibitor
         implements IMetaGroup<MobileCynoInhibitor>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileCynoInhibitor.yaml";
-        private Map<String, MobileCynoInhibitor> cache = (null);
+        private Map<Integer, MobileCynoInhibitor> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileCynoInhibitor> category() {
@@ -185,7 +185,7 @@ public class MobileCynoInhibitor
         }
 
         @Override
-        public synchronized Map<String, MobileCynoInhibitor> load() {
+        public synchronized Map<Integer, MobileCynoInhibitor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileCynoInhibitor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -199,7 +199,7 @@ public class MobileCynoInhibitor
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileCynoInhibitor> types;
+            public LinkedHashMap<Integer, MobileCynoInhibitor> types;
         }
     }
 }

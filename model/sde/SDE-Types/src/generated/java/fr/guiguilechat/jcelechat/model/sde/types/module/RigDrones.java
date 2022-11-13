@@ -221,7 +221,7 @@ public class RigDrones
         implements IMetaGroup<RigDrones>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigDrones.yaml";
-        private Map<String, RigDrones> cache = (null);
+        private Map<Integer, RigDrones> cache = (null);
 
         @Override
         public IMetaCategory<? super RigDrones> category() {
@@ -239,7 +239,7 @@ public class RigDrones
         }
 
         @Override
-        public synchronized Map<String, RigDrones> load() {
+        public synchronized Map<Integer, RigDrones> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigDrones.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -253,7 +253,7 @@ public class RigDrones
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigDrones> types;
+            public LinkedHashMap<Integer, RigDrones> types;
         }
     }
 }

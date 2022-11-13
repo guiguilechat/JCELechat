@@ -32,7 +32,7 @@ public class PrecursorWeaponBlueprint
         implements IMetaGroup<PrecursorWeaponBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/PrecursorWeaponBlueprint.yaml";
-        private Map<String, PrecursorWeaponBlueprint> cache = (null);
+        private Map<Integer, PrecursorWeaponBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super PrecursorWeaponBlueprint> category() {
@@ -50,7 +50,7 @@ public class PrecursorWeaponBlueprint
         }
 
         @Override
-        public synchronized Map<String, PrecursorWeaponBlueprint> load() {
+        public synchronized Map<Integer, PrecursorWeaponBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PrecursorWeaponBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PrecursorWeaponBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, PrecursorWeaponBlueprint> types;
+            public LinkedHashMap<Integer, PrecursorWeaponBlueprint> types;
         }
     }
 }

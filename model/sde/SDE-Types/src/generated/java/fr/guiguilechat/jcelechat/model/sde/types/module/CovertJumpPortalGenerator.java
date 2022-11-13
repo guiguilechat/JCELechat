@@ -317,7 +317,7 @@ public class CovertJumpPortalGenerator
         implements IMetaGroup<CovertJumpPortalGenerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CovertJumpPortalGenerator.yaml";
-        private Map<String, CovertJumpPortalGenerator> cache = (null);
+        private Map<Integer, CovertJumpPortalGenerator> cache = (null);
 
         @Override
         public IMetaCategory<? super CovertJumpPortalGenerator> category() {
@@ -335,7 +335,7 @@ public class CovertJumpPortalGenerator
         }
 
         @Override
-        public synchronized Map<String, CovertJumpPortalGenerator> load() {
+        public synchronized Map<Integer, CovertJumpPortalGenerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CovertJumpPortalGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -349,7 +349,7 @@ public class CovertJumpPortalGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, CovertJumpPortalGenerator> types;
+            public LinkedHashMap<Integer, CovertJumpPortalGenerator> types;
         }
     }
 }

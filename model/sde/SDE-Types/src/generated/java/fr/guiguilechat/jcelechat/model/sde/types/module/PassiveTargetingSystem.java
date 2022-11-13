@@ -125,7 +125,7 @@ public class PassiveTargetingSystem
         implements IMetaGroup<PassiveTargetingSystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/PassiveTargetingSystem.yaml";
-        private Map<String, PassiveTargetingSystem> cache = (null);
+        private Map<Integer, PassiveTargetingSystem> cache = (null);
 
         @Override
         public IMetaCategory<? super PassiveTargetingSystem> category() {
@@ -143,7 +143,7 @@ public class PassiveTargetingSystem
         }
 
         @Override
-        public synchronized Map<String, PassiveTargetingSystem> load() {
+        public synchronized Map<Integer, PassiveTargetingSystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PassiveTargetingSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -157,7 +157,7 @@ public class PassiveTargetingSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, PassiveTargetingSystem> types;
+            public LinkedHashMap<Integer, PassiveTargetingSystem> types;
         }
     }
 }

@@ -32,7 +32,7 @@ public class CyberScanningImplantBlueprints
         implements IMetaGroup<CyberScanningImplantBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CyberScanningImplantBlueprints.yaml";
-        private Map<String, CyberScanningImplantBlueprints> cache = (null);
+        private Map<Integer, CyberScanningImplantBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberScanningImplantBlueprints> category() {
@@ -50,7 +50,7 @@ public class CyberScanningImplantBlueprints
         }
 
         @Override
-        public synchronized Map<String, CyberScanningImplantBlueprints> load() {
+        public synchronized Map<Integer, CyberScanningImplantBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberScanningImplantBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class CyberScanningImplantBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberScanningImplantBlueprints> types;
+            public LinkedHashMap<Integer, CyberScanningImplantBlueprints> types;
         }
     }
 }

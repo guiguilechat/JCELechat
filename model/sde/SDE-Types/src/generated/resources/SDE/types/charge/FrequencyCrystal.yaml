@@ -1,2315 +1,26 @@
 types:
-  Blood Gamma L:
+  239:
     capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 30.799999237060547
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 21236
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Gamma L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 17.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Blood Gamma M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 15.399999618530273
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 21220
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Gamma M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Blood Gamma S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 7.699999809265137
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 21206
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Gamma S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.400000095367432
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Blood Gamma XL:
-    capneedbonus: -15
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 61.599998474121094
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 21252
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Gamma XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 35.20000076293945
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Blood Infrared L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 22.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 21228
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Infrared L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Blood Infrared M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 21212
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Infrared M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.400000095367432
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Blood Infrared S:
-    capneedbonus: -35
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 5.5
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 21198
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Infrared S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 2.200000047683716
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Blood Infrared XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 44.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 21244
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Infrared XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 17.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Blood Microwave L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 17.600000381469727
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 21226
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Microwave L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Blood Microwave M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.800000190734863
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 21210
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Microwave M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.400000095367432
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Blood Microwave S:
-    capneedbonus: -25
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 4.400000095367432
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 21196
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Microwave S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 2.200000047683716
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Blood Microwave XL:
-    capneedbonus: -25
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 35.20000076293945
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 21242
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Microwave XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 17.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Blood Multifrequency L:
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 30.799999237060547
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 21238
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Multifrequency L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 22.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Blood Multifrequency M:
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 15.399999618530273
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 21222
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Multifrequency M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 11.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Blood Multifrequency S:
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 7.699999809265137
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 21208
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Multifrequency S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 5.5
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Blood Multifrequency XL:
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 61.599998474121094
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 21254
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Multifrequency XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 44.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Blood Radio L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 22.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 21224
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Radio L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Blood Radio M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 21450
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Radio M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Blood Radio S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 5.5
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 21194
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Radio S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Blood Radio XL:
-    capneedbonus: -15
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 44.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 21240
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Radio XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Blood Standard L:
-    capneedbonus: -45
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 22.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 21230
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Standard L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 13.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Blood Standard M:
-    capneedbonus: -45
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 21214
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Standard M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.599999904632568
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Blood Standard S:
-    capneedbonus: -45
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 5.5
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 21200
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Standard S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 3.299999952316284
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Blood Standard XL:
-    capneedbonus: -45
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 44.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 21246
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Standard XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 26.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Blood Ultraviolet L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 26.399999618530273
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 21232
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Ultraviolet L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 13.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Blood Ultraviolet M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 13.199999809265137
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 21216
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Ultraviolet M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.599999904632568
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Blood Ultraviolet S:
-    capneedbonus: -35
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.599999904632568
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 21202
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Ultraviolet S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 3.299999952316284
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Blood Ultraviolet XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 52.79999923706055
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 21248
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Ultraviolet XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 26.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Blood Xray L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 26.399999618530273
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 21234
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Xray L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 17.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Blood Xray M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 13.199999809265137
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 21218
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Xray M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Blood Xray S:
-    capneedbonus: -25
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.599999904632568
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 21204
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Xray S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.400000095367432
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Blood Xray XL:
-    capneedbonus: -25
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 52.79999923706055
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 21250
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Blood Xray XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 35.20000076293945
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Dark Blood Gamma L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 33.599998474121094
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 21300
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Gamma L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 19.200000762939453
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Dark Blood Gamma M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 16.799999237060547
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 21284
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Gamma M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Dark Blood Gamma S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.399999618530273
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 21268
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Gamma S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Dark Blood Gamma XL:
-    capneedbonus: -15
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 67.19999694824219
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 21316
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Gamma XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 38.400001525878906
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Dark Blood Infrared L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 24.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 21292
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Infrared L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Dark Blood Infrared M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 12.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 21276
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Infrared M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Dark Blood Infrared S:
-    capneedbonus: -35
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 21260
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Infrared S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 2.4000000953674316
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Dark Blood Infrared XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 48.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 21308
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Infrared XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 19.200000762939453
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Dark Blood Microwave L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 19.200000762939453
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 21290
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Microwave L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Dark Blood Microwave M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 9.600000381469727
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 21274
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Microwave M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Dark Blood Microwave S:
-    capneedbonus: -25
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 4.800000190734863
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 21258
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Microwave S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 2.4000000953674316
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Dark Blood Microwave XL:
-    capneedbonus: -25
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 38.400001525878906
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 21306
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Microwave XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 19.200000762939453
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Dark Blood Multifrequency L:
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 33.599998474121094
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 21302
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Multifrequency L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 24.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Dark Blood Multifrequency M:
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 16.799999237060547
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 21286
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Multifrequency M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 12.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Dark Blood Multifrequency S:
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.399999618530273
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 21270
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Multifrequency S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Dark Blood Multifrequency XL:
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 67.19999694824219
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 21318
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Multifrequency XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 48.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Dark Blood Radio L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 24.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 21288
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Radio L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Dark Blood Radio M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 12.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 21272
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Radio M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Dark Blood Radio S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 21256
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Radio S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Dark Blood Radio XL:
-    capneedbonus: -15
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 48.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 21304
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Radio XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Dark Blood Standard L:
-    capneedbonus: -45
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 24.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 21294
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Standard L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 14.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Dark Blood Standard M:
-    capneedbonus: -45
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 12.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 21278
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Standard M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 7.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Dark Blood Standard S:
-    capneedbonus: -45
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 21262
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Standard S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 3.5999999046325684
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Dark Blood Standard XL:
-    capneedbonus: -45
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 48.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 21310
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Standard XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 28.799999237060547
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Dark Blood Ultraviolet L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 28.799999237060547
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 21296
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Ultraviolet L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 14.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Dark Blood Ultraviolet M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 14.399999618530273
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 21280
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Ultraviolet M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 7.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Dark Blood Ultraviolet S:
-    capneedbonus: -35
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 7.199999809265137
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 21264
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Ultraviolet S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 3.5999999046325684
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Dark Blood Ultraviolet XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 57.599998474121094
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 21312
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Ultraviolet XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 28.799999237060547
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Dark Blood Xray L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 28.799999237060547
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 21298
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Xray L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 19.200000762939453
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Dark Blood Xray M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 14.399999618530273
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 21282
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Xray M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Dark Blood Xray S:
-    capneedbonus: -25
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 7.199999809265137
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 21266
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Xray S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Dark Blood Xray XL:
-    capneedbonus: -25
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 57.599998474121094
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 21314
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Dark Blood Xray XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 38.400001525878906
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Gamma L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 28.0
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 261
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 105
-    mass: 1.0
-    name: Gamma L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 16.0
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Gamma M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 14.0
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 253
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 103
-    mass: 1.0
-    name: Gamma M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.0
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Gamma S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 7.0
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 245
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 102
-    mass: 1.0
-    name: Gamma S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.0
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Gamma XL:
-    capneedbonus: -15
-    chargesize: 4
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 56.0
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 17680
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 503
-    mass: 1.0
-    name: Gamma XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 32.0
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Imperial Navy Gamma L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 32.20000076293945
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 23107
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Gamma L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 18.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Imperial Navy Gamma M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 16.100000381469727
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 23091
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Gamma M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Imperial Navy Gamma S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.050000190734863
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 23073
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Gamma S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.599999904632568
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Imperial Navy Infrared L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 23.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 23115
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Infrared L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Imperial Navy Infrared M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.5
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 23099
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Infrared M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.599999904632568
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Imperial Navy Infrared S:
-    capneedbonus: -35
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 5.75
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 23081
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Infrared S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 2.299999952316284
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Imperial Navy Microwave L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 18.399999618530273
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 23117
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Microwave L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Imperial Navy Microwave M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 9.199999809265137
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 23101
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Microwave M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.599999904632568
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Imperial Navy Microwave S:
-    capneedbonus: -25
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 4.599999904632568
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 23083
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Microwave S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 2.299999952316284
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Imperial Navy Multifrequency L:
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 32.20000076293945
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 23105
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Multifrequency L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 23.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Imperial Navy Multifrequency M:
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 16.100000381469727
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 23089
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Multifrequency M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 11.5
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Imperial Navy Multifrequency S:
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.050000190734863
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 23071
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Multifrequency S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 5.75
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Imperial Navy Radio L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 23.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 23119
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Radio L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Imperial Navy Radio M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.5
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 23103
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Radio M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Imperial Navy Radio S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 5.75
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 23085
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Radio S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Imperial Navy Standard L:
-    capneedbonus: -45
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 23.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 23113
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Standard L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 13.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Imperial Navy Standard M:
-    capneedbonus: -45
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.5
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 23097
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Standard M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.900000095367432
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Imperial Navy Standard S:
-    capneedbonus: -45
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 5.75
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 23079
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Standard S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 3.450000047683716
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Imperial Navy Ultraviolet L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 27.600000381469727
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 23111
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Ultraviolet L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 13.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Imperial Navy Ultraviolet M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 13.800000190734863
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 23095
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Ultraviolet M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.900000095367432
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Imperial Navy Ultraviolet S:
-    capneedbonus: -35
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.900000095367432
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 23077
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Ultraviolet S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 3.450000047683716
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Imperial Navy Xray L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 27.600000381469727
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 23109
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Xray L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 18.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Imperial Navy Xray M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 13.800000190734863
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 23093
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Xray M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Imperial Navy Xray S:
-    capneedbonus: -25
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.900000095367432
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 23075
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Imperial Navy Xray S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.599999904632568
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Infrared L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 20.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 257
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 105
-    mass: 1.0
-    name: Infrared L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.0
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Infrared M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 10.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 249
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 103
-    mass: 1.0
-    name: Infrared M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.0
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Infrared S:
-    capneedbonus: -35
     chargesize: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
     emdamage: 5.0
-    entityflyrangemultiplier: 1.2000000476837158
+    entityflyrangemultiplier: 1.600000023841858
     hp: 1.0
-    id: 241
+    id: 239
     launchergroup: 53
-    maincolor: 5209238
+    maincolor: 2833864
     marketGroup: 102
     mass: 1.0
-    name: Infrared S
+    name: Radio S
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 2.0
     volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Infrared XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 40.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 17682
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 503
-    mass: 1.0
-    name: Infrared XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 16.0
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Microwave L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 16.0
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 256
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 105
-    mass: 1.0
-    name: Microwave L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.0
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Microwave M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.0
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 248
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 103
-    mass: 1.0
-    name: Microwave M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.0
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Microwave S:
+    weaponrangemultiplier: 1.600000023841858
+  240:
     capneedbonus: -25
     chargesize: 1
     crystalvolatilitychance: 1.0
@@ -2331,7 +42,530 @@ types:
     thermaldamage: 2.0
     volume: 1.0
     weaponrangemultiplier: 1.399999976158142
-  Microwave XL:
+  241:
+    capneedbonus: -35
+    chargesize: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 5.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 241
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 102
+    mass: 1.0
+    name: Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.0
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  242:
+    capneedbonus: -45
+    chargesize: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 5.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 242
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 102
+    mass: 1.0
+    name: Standard S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.0
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  243:
+    capneedbonus: -35
+    chargesize: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.0
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 243
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 102
+    mass: 1.0
+    name: Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.0
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  244:
+    capneedbonus: -25
+    chargesize: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.0
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 244
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 102
+    mass: 1.0
+    name: Xray S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.0
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  245:
+    capneedbonus: -15
+    chargesize: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 7.0
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 245
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 102
+    mass: 1.0
+    name: Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.0
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  246:
+    chargesize: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 7.0
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 246
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 102
+    mass: 1.0
+    name: Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  247:
+    capneedbonus: -15
+    chargesize: 2
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 10.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 247
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 103
+    mass: 1.0
+    name: Radio M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  248:
+    capneedbonus: -25
+    chargesize: 2
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.0
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 248
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 103
+    mass: 1.0
+    name: Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.0
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  249:
+    capneedbonus: -35
+    chargesize: 2
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 10.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 249
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 103
+    mass: 1.0
+    name: Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.0
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  250:
+    capneedbonus: -45
+    chargesize: 2
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 10.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 250
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 103
+    mass: 1.0
+    name: Standard M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  251:
+    capneedbonus: -35
+    chargesize: 2
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 12.0
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 251
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 103
+    mass: 1.0
+    name: Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  252:
+    capneedbonus: -25
+    chargesize: 2
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 12.0
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 252
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 103
+    mass: 1.0
+    name: Xray M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.0
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  253:
+    capneedbonus: -15
+    chargesize: 2
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 14.0
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 253
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 103
+    mass: 1.0
+    name: Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.0
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  254:
+    chargesize: 2
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 14.0
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 254
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 103
+    mass: 1.0
+    name: Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  255:
+    capneedbonus: -15
+    chargesize: 3
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 20.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 255
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 105
+    mass: 1.0
+    name: Radio L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  256:
+    capneedbonus: -25
+    chargesize: 3
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 16.0
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 256
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 105
+    mass: 1.0
+    name: Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.0
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  257:
+    capneedbonus: -35
+    chargesize: 3
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 20.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 257
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 105
+    mass: 1.0
+    name: Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.0
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  258:
+    capneedbonus: -45
+    chargesize: 3
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 20.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 258
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 105
+    mass: 1.0
+    name: Standard L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 12.0
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  259:
+    capneedbonus: -35
+    chargesize: 3
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 24.0
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 259
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 105
+    mass: 1.0
+    name: Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 12.0
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  260:
+    capneedbonus: -25
+    chargesize: 3
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 24.0
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 260
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 105
+    mass: 1.0
+    name: Xray L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 16.0
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  261:
+    capneedbonus: -15
+    chargesize: 3
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 28.0
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 261
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 105
+    mass: 1.0
+    name: Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 16.0
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  262:
+    chargesize: 3
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 28.0
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 262
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 105
+    mass: 1.0
+    name: Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 20.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  17680:
+    capneedbonus: -15
+    chargesize: 4
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 56.0
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 17680
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 503
+    mass: 1.0
+    name: Gamma XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 32.0
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  17682:
+    capneedbonus: -35
+    chargesize: 4
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 40.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 17682
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 503
+    mass: 1.0
+    name: Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 16.0
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  17684:
     capneedbonus: -25
     chargesize: 4
     crystalvolatilitychance: 1.0
@@ -2353,70 +587,7 @@ types:
     thermaldamage: 16.0
     volume: 1.0
     weaponrangemultiplier: 1.399999976158142
-  Multifrequency L:
-    chargesize: 3
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 28.0
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 262
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 105
-    mass: 1.0
-    name: Multifrequency L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 20.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Multifrequency M:
-    chargesize: 2
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 14.0
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 254
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 103
-    mass: 1.0
-    name: Multifrequency M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 10.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Multifrequency S:
-    chargesize: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 7.0
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 246
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 102
-    mass: 1.0
-    name: Multifrequency S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 5.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Multifrequency XL:
+  17686:
     chargesize: 4
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
@@ -2437,70 +608,7 @@ types:
     thermaldamage: 40.0
     volume: 1.0
     weaponrangemultiplier: 0.5
-  Radio L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 20.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 255
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 105
-    mass: 1.0
-    name: Radio L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Radio M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 10.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 247
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 103
-    mass: 1.0
-    name: Radio M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Radio S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 5.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 239
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 102
-    mass: 1.0
-    name: Radio S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Radio XL:
+  17688:
     capneedbonus: -15
     chargesize: 4
     crystalvolatilitychance: 1.0
@@ -2521,247 +629,96 @@ types:
     techlevel: 1
     volume: 1.0
     weaponrangemultiplier: 1.600000023841858
-  Sanshas Gamma L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 30.799999237060547
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 20837
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Gamma L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 17.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Sanshas Gamma M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 15.399999618530273
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 20829
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Gamma M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Sanshas Gamma S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 7.699999809265137
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 20821
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Gamma S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.400000095367432
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  Sanshas Gamma XL:
-    capneedbonus: -15
+  17690:
+    capneedbonus: -45
     chargesize: 4
-    crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 61.599998474121094
-    entityflyrangemultiplier: 0.625
+    emdamage: 40.0
+    entityflyrangemultiplier: 1.0
     hp: 1.0
-    id: 20845
+    id: 17690
     launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 1007
+    maincolor: 5215864
+    marketGroup: 503
     mass: 1.0
-    metagroupid: 4
-    name: Sanshas Gamma XL
+    name: Standard XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 35.20000076293945
+    thermaldamage: 24.0
     volume: 1.0
-    weaponrangemultiplier: 0.625
-  Sanshas Infrared L:
+    weaponrangemultiplier: 1.0
+  17692:
     capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
+    chargesize: 4
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 22.0
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 48.0
+    entityflyrangemultiplier: 0.875
     hp: 1.0
-    id: 20022
+    id: 17692
     launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 995
+    maincolor: 8039008
+    marketGroup: 503
     mass: 1.0
-    metagroupid: 4
-    name: Sanshas Infrared L
+    name: Ultraviolet XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 8.800000190734863
+    thermaldamage: 24.0
     volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Sanshas Infrared M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
+    weaponrangemultiplier: 0.875
+  17694:
+    capneedbonus: -25
+    chargesize: 4
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.0
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 48.0
+    entityflyrangemultiplier: 0.75
     hp: 1.0
-    id: 20014
+    id: 17694
     launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 996
+    maincolor: 9202277
+    marketGroup: 503
     mass: 1.0
-    metagroupid: 4
-    name: Sanshas Infrared M
+    name: Xray XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 4.400000095367432
+    thermaldamage: 32.0
     volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Sanshas Infrared S:
-    capneedbonus: -35
+    weaponrangemultiplier: 0.75
+  19978:
+    capneedbonus: -15
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
     emdamage: 5.5
-    entityflyrangemultiplier: 1.2000000476837158
+    entityflyrangemultiplier: 1.600000023841858
     hp: 1.0
-    id: 19982
+    id: 19978
     launchergroup: 53
-    maincolor: 5209238
+    maincolor: 2833864
     marketGroup: 997
     mass: 1.0
     metagroupid: 4
-    name: Sanshas Infrared S
+    name: Sanshas Radio S
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 2.200000047683716
     volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Sanshas Infrared XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 44.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 20030
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Infrared XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 17.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  Sanshas Microwave L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 17.600000381469727
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 20020
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Microwave L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Sanshas Microwave M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.800000190734863
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 20012
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Microwave M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.400000095367432
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Sanshas Microwave S:
+    weaponrangemultiplier: 1.600000023841858
+  19980:
     capneedbonus: -25
     chargesize: 1
     crystalsgetdamaged: 1
@@ -2785,263 +742,31 @@ types:
     thermaldamage: 2.200000047683716
     volume: 1.0
     weaponrangemultiplier: 1.399999976158142
-  Sanshas Microwave XL:
-    capneedbonus: -25
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 35.20000076293945
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 20028
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Microwave XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 17.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  Sanshas Multifrequency L:
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 30.799999237060547
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 20839
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Multifrequency L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 22.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Sanshas Multifrequency M:
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 15.399999618530273
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 20831
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Multifrequency M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 11.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Sanshas Multifrequency S:
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 7.699999809265137
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 20823
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Multifrequency S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 5.5
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Sanshas Multifrequency XL:
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 61.599998474121094
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 20847
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Multifrequency XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 44.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  Sanshas Radio L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 22.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 20018
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Radio L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Sanshas Radio M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 20010
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Radio M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Sanshas Radio S:
-    capneedbonus: -15
+  19982:
+    capneedbonus: -35
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
     emdamage: 5.5
-    entityflyrangemultiplier: 1.600000023841858
+    entityflyrangemultiplier: 1.2000000476837158
     hp: 1.0
-    id: 19978
+    id: 19982
     launchergroup: 53
-    maincolor: 2833864
+    maincolor: 5209238
     marketGroup: 997
     mass: 1.0
     metagroupid: 4
-    name: Sanshas Radio S
+    name: Sanshas Infrared S
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
+    thermaldamage: 2.200000047683716
     volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Sanshas Radio XL:
-    capneedbonus: -15
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 44.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 20026
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Radio XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  Sanshas Standard L:
-    capneedbonus: -45
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 22.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 20024
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Standard L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 13.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Sanshas Standard M:
-    capneedbonus: -45
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 11.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 20016
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Standard M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.599999904632568
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Sanshas Standard S:
+    weaponrangemultiplier: 1.2000000476837158
+  19984:
     capneedbonus: -45
     chargesize: 1
     crystalsgetdamaged: 1
@@ -3065,7 +790,268 @@ types:
     thermaldamage: 3.299999952316284
     volume: 1.0
     weaponrangemultiplier: 1.0
-  Sanshas Standard XL:
+  20010:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 20010
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Radio M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  20012:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.800000190734863
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 20012
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  20014:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 20014
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  20016:
+    capneedbonus: -45
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 20016
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Standard M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.599999904632568
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  20018:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 22.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 20018
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Radio L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  20020:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 17.600000381469727
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 20020
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  20022:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 22.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 20022
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  20024:
+    capneedbonus: -45
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 22.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 20024
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Standard L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  20026:
+    capneedbonus: -15
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 44.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 20026
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Radio XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  20028:
+    capneedbonus: -25
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 35.20000076293945
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 20028
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  20030:
+    capneedbonus: -35
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 44.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 20030
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  20032:
     capneedbonus: -45
     chargesize: 4
     crystalsgetdamaged: 1
@@ -3089,55 +1075,7 @@ types:
     thermaldamage: 26.399999618530273
     volume: 1.0
     weaponrangemultiplier: 1.0
-  Sanshas Ultraviolet L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 26.399999618530273
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 20833
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Ultraviolet L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 13.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Sanshas Ultraviolet M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 13.199999809265137
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 20825
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Ultraviolet M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.599999904632568
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Sanshas Ultraviolet S:
+  20817:
     capneedbonus: -35
     chargesize: 1
     crystalsgetdamaged: 1
@@ -3161,79 +1099,7 @@ types:
     thermaldamage: 3.299999952316284
     volume: 1.0
     weaponrangemultiplier: 0.875
-  Sanshas Ultraviolet XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 52.79999923706055
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 20841
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Ultraviolet XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 26.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  Sanshas Xray L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 26.399999618530273
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 20835
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Xray L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 17.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Sanshas Xray M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 13.199999809265137
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 20827
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: Sanshas Xray M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Sanshas Xray S:
+  20819:
     capneedbonus: -25
     chargesize: 1
     crystalsgetdamaged: 1
@@ -3257,7 +1123,268 @@ types:
     thermaldamage: 4.400000095367432
     volume: 1.0
     weaponrangemultiplier: 0.75
-  Sanshas Xray XL:
+  20821:
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 7.699999809265137
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 20821
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  20823:
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 7.699999809265137
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 20823
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.5
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  20825:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 13.199999809265137
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 20825
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.599999904632568
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  20827:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 13.199999809265137
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 20827
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Xray M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  20829:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 15.399999618530273
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 20829
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  20831:
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 15.399999618530273
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 20831
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 11.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  20833:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 26.399999618530273
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 20833
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  20835:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 26.399999618530273
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 20835
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Xray L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  20837:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 30.799999237060547
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 20837
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  20839:
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 30.799999237060547
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 20839
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 22.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  20841:
+    capneedbonus: -35
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 52.79999923706055
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 20841
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Sanshas Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 26.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  20843:
     capneedbonus: -25
     chargesize: 4
     crystalsgetdamaged: 1
@@ -3281,335 +1408,77 @@ types:
     thermaldamage: 35.20000076293945
     volume: 1.0
     weaponrangemultiplier: 0.75
-  Standard L:
-    capneedbonus: -45
-    chargesize: 3
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 20.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 258
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 105
-    mass: 1.0
-    name: Standard L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 12.0
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Standard M:
-    capneedbonus: -45
-    chargesize: 2
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 10.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 250
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 103
-    mass: 1.0
-    name: Standard M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.0
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Standard S:
-    capneedbonus: -45
-    chargesize: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 5.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 242
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 102
-    mass: 1.0
-    name: Standard S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 3.0
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  Standard XL:
-    capneedbonus: -45
-    chargesize: 4
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 40.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 17690
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 503
-    mass: 1.0
-    name: Standard XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 24.0
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  True Sanshas Gamma L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 33.599998474121094
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 20893
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Gamma L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 19.200000762939453
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  True Sanshas Gamma M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 16.799999237060547
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 20877
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Gamma M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  True Sanshas Gamma S:
-    capneedbonus: -15
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.399999618530273
-    entityflyrangemultiplier: 0.625
-    hp: 1.0
-    id: 20861
-    launchergroup: 53
-    maincolor: 16746403
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Gamma S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 0.625
-  True Sanshas Gamma XL:
+  20845:
     capneedbonus: -15
     chargesize: 4
     crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 67.19999694824219
+    emdamage: 61.599998474121094
     entityflyrangemultiplier: 0.625
     hp: 1.0
-    id: 20909
+    id: 20845
     launchergroup: 53
     maincolor: 16746403
     marketGroup: 1007
     mass: 1.0
     metagroupid: 4
-    name: True Sanshas Gamma XL
+    name: Sanshas Gamma XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 38.400001525878906
+    thermaldamage: 35.20000076293945
     volume: 1.0
     weaponrangemultiplier: 0.625
-  True Sanshas Infrared L:
-    capneedbonus: -35
-    chargesize: 3
+  20847:
+    chargesize: 4
     crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 24.0
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 61.599998474121094
+    entityflyrangemultiplier: 0.5
     hp: 1.0
-    id: 20885
+    id: 20847
     launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 995
+    maincolor: 11646664
+    marketGroup: 1007
     mass: 1.0
     metagroupid: 4
-    name: True Sanshas Infrared L
+    name: Sanshas Multifrequency XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 9.600000381469727
+    thermaldamage: 44.0
     volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  True Sanshas Infrared M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 12.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 20869
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Infrared M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  True Sanshas Infrared S:
-    capneedbonus: -35
+    weaponrangemultiplier: 0.5
+  20849:
+    capneedbonus: -15
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
     emdamage: 6.0
-    entityflyrangemultiplier: 1.2000000476837158
+    entityflyrangemultiplier: 1.600000023841858
     hp: 1.0
-    id: 20853
+    id: 20849
     launchergroup: 53
-    maincolor: 5209238
+    maincolor: 2833864
     marketGroup: 997
     mass: 1.0
     metagroupid: 4
-    name: True Sanshas Infrared S
+    name: True Sanshas Radio S
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 2.4000000953674316
     volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  True Sanshas Infrared XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 48.0
-    entityflyrangemultiplier: 1.2000000476837158
-    hp: 1.0
-    id: 20901
-    launchergroup: 53
-    maincolor: 5209238
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Infrared XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 19.200000762939453
-    volume: 1.0
-    weaponrangemultiplier: 1.2000000476837158
-  True Sanshas Microwave L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 19.200000762939453
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 20883
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Microwave L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  True Sanshas Microwave M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 9.600000381469727
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 20867
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Microwave M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.800000190734863
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  True Sanshas Microwave S:
+    weaponrangemultiplier: 1.600000023841858
+  20851:
     capneedbonus: -25
     chargesize: 1
     crystalsgetdamaged: 1
@@ -3633,263 +1502,31 @@ types:
     thermaldamage: 2.4000000953674316
     volume: 1.0
     weaponrangemultiplier: 1.399999976158142
-  True Sanshas Microwave XL:
-    capneedbonus: -25
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 38.400001525878906
-    entityflyrangemultiplier: 1.399999976158142
-    hp: 1.0
-    id: 20899
-    launchergroup: 53
-    maincolor: 3105952
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Microwave XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 19.200000762939453
-    volume: 1.0
-    weaponrangemultiplier: 1.399999976158142
-  True Sanshas Multifrequency L:
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 33.599998474121094
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 20895
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Multifrequency L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 24.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  True Sanshas Multifrequency M:
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 16.799999237060547
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 20879
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Multifrequency M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 12.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  True Sanshas Multifrequency S:
-    chargesize: 1
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 8.399999618530273
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 20863
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 997
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Multifrequency S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 6.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  True Sanshas Multifrequency XL:
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 67.19999694824219
-    entityflyrangemultiplier: 0.5
-    hp: 1.0
-    id: 20911
-    launchergroup: 53
-    maincolor: 11646664
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Multifrequency XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 48.0
-    volume: 1.0
-    weaponrangemultiplier: 0.5
-  True Sanshas Radio L:
-    capneedbonus: -15
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 24.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 20881
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Radio L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  True Sanshas Radio M:
-    capneedbonus: -15
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 12.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 20865
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Radio M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  True Sanshas Radio S:
-    capneedbonus: -15
+  20853:
+    capneedbonus: -35
     chargesize: 1
     crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
     emdamage: 6.0
-    entityflyrangemultiplier: 1.600000023841858
+    entityflyrangemultiplier: 1.2000000476837158
     hp: 1.0
-    id: 20849
+    id: 20853
     launchergroup: 53
-    maincolor: 2833864
+    maincolor: 5209238
     marketGroup: 997
     mass: 1.0
     metagroupid: 4
-    name: True Sanshas Radio S
+    name: True Sanshas Infrared S
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
+    thermaldamage: 2.4000000953674316
     volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  True Sanshas Radio XL:
-    capneedbonus: -15
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 48.0
-    entityflyrangemultiplier: 1.600000023841858
-    hp: 1.0
-    id: 20897
-    launchergroup: 53
-    maincolor: 2833864
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Radio XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-    weaponrangemultiplier: 1.600000023841858
-  True Sanshas Standard L:
-    capneedbonus: -45
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 24.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 20887
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Standard L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 14.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  True Sanshas Standard M:
-    capneedbonus: -45
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 12.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 20871
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Standard M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 7.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  True Sanshas Standard S:
+    weaponrangemultiplier: 1.2000000476837158
+  20855:
     capneedbonus: -45
     chargesize: 1
     crystalsgetdamaged: 1
@@ -3913,79 +1550,7 @@ types:
     thermaldamage: 3.5999999046325684
     volume: 1.0
     weaponrangemultiplier: 1.0
-  True Sanshas Standard XL:
-    capneedbonus: -45
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 48.0
-    entityflyrangemultiplier: 1.0
-    hp: 1.0
-    id: 20903
-    launchergroup: 53
-    maincolor: 5215864
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Standard XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 28.799999237060547
-    volume: 1.0
-    weaponrangemultiplier: 1.0
-  True Sanshas Ultraviolet L:
-    capneedbonus: -35
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 28.799999237060547
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 20889
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Ultraviolet L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 14.399999618530273
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  True Sanshas Ultraviolet M:
-    capneedbonus: -35
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 14.399999618530273
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 20873
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Ultraviolet M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 7.199999809265137
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  True Sanshas Ultraviolet S:
+  20857:
     capneedbonus: -35
     chargesize: 1
     crystalsgetdamaged: 1
@@ -4009,79 +1574,7 @@ types:
     thermaldamage: 3.5999999046325684
     volume: 1.0
     weaponrangemultiplier: 0.875
-  True Sanshas Ultraviolet XL:
-    capneedbonus: -35
-    chargesize: 4
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 57.599998474121094
-    entityflyrangemultiplier: 0.875
-    hp: 1.0
-    id: 20905
-    launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 1007
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Ultraviolet XL
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 28.799999237060547
-    volume: 1.0
-    weaponrangemultiplier: 0.875
-  True Sanshas Xray L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 28.799999237060547
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 20891
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 995
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Xray L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 19.200000762939453
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  True Sanshas Xray M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalsgetdamaged: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 14.399999618530273
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 20875
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 996
-    mass: 1.0
-    metagroupid: 4
-    name: True Sanshas Xray M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 9.600000381469727
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  True Sanshas Xray S:
+  20859:
     capneedbonus: -25
     chargesize: 1
     crystalsgetdamaged: 1
@@ -4105,7 +1598,553 @@ types:
     thermaldamage: 4.800000190734863
     volume: 1.0
     weaponrangemultiplier: 0.75
-  True Sanshas Xray XL:
+  20861:
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.399999618530273
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 20861
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  20863:
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.399999618530273
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 20863
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  20865:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 12.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 20865
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Radio M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  20867:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 9.600000381469727
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 20867
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  20869:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 12.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 20869
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  20871:
+    capneedbonus: -45
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 12.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 20871
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Standard M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 7.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  20873:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 14.399999618530273
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 20873
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 7.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  20875:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 14.399999618530273
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 20875
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Xray M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  20877:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 16.799999237060547
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 20877
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  20879:
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 16.799999237060547
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 20879
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 12.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  20881:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 24.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 20881
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Radio L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  20883:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 19.200000762939453
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 20883
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  20885:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 24.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 20885
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  20887:
+    capneedbonus: -45
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 24.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 20887
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Standard L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 14.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  20889:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 28.799999237060547
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 20889
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 14.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  20891:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 28.799999237060547
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 20891
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Xray L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  20893:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 33.599998474121094
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 20893
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  20895:
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 33.599998474121094
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 20895
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 24.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  20897:
+    capneedbonus: -15
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 48.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 20897
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Radio XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  20899:
+    capneedbonus: -25
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 38.400001525878906
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 20899
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  20901:
+    capneedbonus: -35
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 48.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 20901
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  20903:
+    capneedbonus: -45
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 48.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 20903
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Standard XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 28.799999237060547
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  20905:
+    capneedbonus: -35
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 57.599998474121094
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 20905
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 28.799999237060547
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  20907:
     capneedbonus: -25
     chargesize: 4
     crystalsgetdamaged: 1
@@ -4129,42 +2168,972 @@ types:
     thermaldamage: 38.400001525878906
     volume: 1.0
     weaponrangemultiplier: 0.75
-  Ultraviolet L:
-    capneedbonus: -35
-    chargesize: 3
+  20909:
+    capneedbonus: -15
+    chargesize: 4
+    crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 24.0
-    entityflyrangemultiplier: 0.875
+    emdamage: 67.19999694824219
+    entityflyrangemultiplier: 0.625
     hp: 1.0
-    id: 259
+    id: 20909
     launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 105
+    maincolor: 16746403
+    marketGroup: 1007
     mass: 1.0
-    name: Ultraviolet L
+    metagroupid: 4
+    name: True Sanshas Gamma XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 12.0
+    thermaldamage: 38.400001525878906
     volume: 1.0
-    weaponrangemultiplier: 0.875
-  Ultraviolet M:
-    capneedbonus: -35
-    chargesize: 2
+    weaponrangemultiplier: 0.625
+  20911:
+    chargesize: 4
+    crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 12.0
+    emdamage: 67.19999694824219
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 20911
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: True Sanshas Multifrequency XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 48.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  21194:
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 5.5
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 21194
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Radio S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  21196:
+    capneedbonus: -25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 4.400000095367432
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 21196
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.200000047683716
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  21198:
+    capneedbonus: -35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 5.5
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 21198
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.200000047683716
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  21200:
+    capneedbonus: -45
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 5.5
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 21200
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Standard S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.299999952316284
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  21202:
+    capneedbonus: -35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.599999904632568
     entityflyrangemultiplier: 0.875
     hp: 1.0
-    id: 251
+    id: 21202
     launchergroup: 53
     maincolor: 8039008
-    marketGroup: 103
+    marketGroup: 997
     mass: 1.0
-    name: Ultraviolet M
+    metagroupid: 4
+    name: Blood Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.299999952316284
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  21204:
+    capneedbonus: -25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.599999904632568
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 21204
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Xray S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  21206:
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 7.699999809265137
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 21206
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  21208:
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 7.699999809265137
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 21208
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.5
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  21210:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.800000190734863
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 21210
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  21212:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 21212
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  21214:
+    capneedbonus: -45
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 21214
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Standard M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.599999904632568
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  21216:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 13.199999809265137
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 21216
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.599999904632568
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  21218:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 13.199999809265137
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 21218
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Xray M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  21220:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 15.399999618530273
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 21220
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  21222:
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 15.399999618530273
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 21222
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 11.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  21224:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 22.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 21224
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Radio L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  21226:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 17.600000381469727
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 21226
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  21228:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 22.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 21228
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  21230:
+    capneedbonus: -45
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 22.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 21230
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Standard L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  21232:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 26.399999618530273
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 21232
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  21234:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 26.399999618530273
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 21234
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Xray L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  21236:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 30.799999237060547
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 21236
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  21238:
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 30.799999237060547
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 21238
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 22.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  21240:
+    capneedbonus: -15
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 44.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 21240
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Radio XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  21242:
+    capneedbonus: -25
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 35.20000076293945
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 21242
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  21244:
+    capneedbonus: -35
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 44.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 21244
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  21246:
+    capneedbonus: -45
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 44.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 21246
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Standard XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 26.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  21248:
+    capneedbonus: -35
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 52.79999923706055
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 21248
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 26.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  21250:
+    capneedbonus: -25
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 52.79999923706055
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 21250
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Xray XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 35.20000076293945
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  21252:
+    capneedbonus: -15
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 61.599998474121094
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 21252
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Gamma XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 35.20000076293945
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  21254:
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 61.599998474121094
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 21254
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Multifrequency XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 44.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  21256:
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 21256
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Radio S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  21258:
+    capneedbonus: -25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 4.800000190734863
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 21258
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.4000000953674316
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  21260:
+    capneedbonus: -35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 21260
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.4000000953674316
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  21262:
+    capneedbonus: -45
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 21262
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Standard S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.5999999046325684
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  21264:
+    capneedbonus: -35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 7.199999809265137
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 21264
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.5999999046325684
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  21266:
+    capneedbonus: -25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 7.199999809265137
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 21266
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Xray S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  21268:
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.399999618530273
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 21268
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  21270:
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.399999618530273
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 21270
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Multifrequency S
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -4172,43 +3141,379 @@ types:
     techlevel: 1
     thermaldamage: 6.0
     volume: 1.0
-    weaponrangemultiplier: 0.875
-  Ultraviolet S:
-    capneedbonus: -35
-    chargesize: 1
+    weaponrangemultiplier: 0.5
+  21272:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.0
-    entityflyrangemultiplier: 0.875
+    emdamage: 12.0
+    entityflyrangemultiplier: 1.600000023841858
     hp: 1.0
-    id: 243
+    id: 21272
     launchergroup: 53
-    maincolor: 8039008
-    marketGroup: 102
+    maincolor: 2833864
+    marketGroup: 996
     mass: 1.0
-    name: Ultraviolet S
+    metagroupid: 4
+    name: Dark Blood Radio M
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 3.0
     volume: 1.0
-    weaponrangemultiplier: 0.875
-  Ultraviolet XL:
-    capneedbonus: -35
-    chargesize: 4
+    weaponrangemultiplier: 1.600000023841858
+  21274:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 48.0
+    emdamage: 9.600000381469727
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 21274
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  21276:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 12.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 21276
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  21278:
+    capneedbonus: -45
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 12.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 21278
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Standard M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 7.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  21280:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 14.399999618530273
     entityflyrangemultiplier: 0.875
     hp: 1.0
-    id: 17692
+    id: 21280
     launchergroup: 53
     maincolor: 8039008
-    marketGroup: 503
+    marketGroup: 996
     mass: 1.0
-    name: Ultraviolet XL
+    metagroupid: 4
+    name: Dark Blood Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 7.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  21282:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 14.399999618530273
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 21282
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Xray M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  21284:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 16.799999237060547
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 21284
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  21286:
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 16.799999237060547
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 21286
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 12.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  21288:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 24.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 21288
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Radio L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  21290:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 19.200000762939453
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 21290
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  21292:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 24.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 21292
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  21294:
+    capneedbonus: -45
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 24.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 21294
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Standard L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 14.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  21296:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 28.799999237060547
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 21296
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 14.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  21298:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 28.799999237060547
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 21298
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Xray L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  21300:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 33.599998474121094
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 21300
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  21302:
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 33.599998474121094
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 21302
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Multifrequency L
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -4216,92 +3521,787 @@ types:
     techlevel: 1
     thermaldamage: 24.0
     volume: 1.0
-    weaponrangemultiplier: 0.875
-  Xray L:
-    capneedbonus: -25
-    chargesize: 3
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 24.0
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 260
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 105
-    mass: 1.0
-    name: Xray L
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 16.0
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Xray M:
-    capneedbonus: -25
-    chargesize: 2
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 12.0
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 252
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 103
-    mass: 1.0
-    name: Xray M
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 8.0
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Xray S:
-    capneedbonus: -25
-    chargesize: 1
-    crystalvolatilitychance: 1.0
-    crystalvolatilitydamage: 2.500000118743628E-4
-    emdamage: 6.0
-    entityflyrangemultiplier: 0.75
-    hp: 1.0
-    id: 244
-    launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 102
-    mass: 1.0
-    name: Xray S
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    thermaldamage: 4.0
-    volume: 1.0
-    weaponrangemultiplier: 0.75
-  Xray XL:
-    capneedbonus: -25
+    weaponrangemultiplier: 0.5
+  21304:
+    capneedbonus: -15
     chargesize: 4
+    crystalsgetdamaged: 1
     crystalvolatilitychance: 1.0
     crystalvolatilitydamage: 2.500000118743628E-4
     emdamage: 48.0
-    entityflyrangemultiplier: 0.75
+    entityflyrangemultiplier: 1.600000023841858
     hp: 1.0
-    id: 17694
+    id: 21304
     launchergroup: 53
-    maincolor: 9202277
-    marketGroup: 503
+    maincolor: 2833864
+    marketGroup: 1007
     mass: 1.0
-    name: Xray XL
+    metagroupid: 4
+    name: Dark Blood Radio XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 32.0
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  21306:
+    capneedbonus: -25
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 38.400001525878906
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 21306
+    launchergroup: 53
+    maincolor: 3105952
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  21308:
+    capneedbonus: -35
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 48.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 21308
+    launchergroup: 53
+    maincolor: 5209238
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  21310:
+    capneedbonus: -45
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 48.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 21310
+    launchergroup: 53
+    maincolor: 5215864
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Standard XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 28.799999237060547
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  21312:
+    capneedbonus: -35
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 57.599998474121094
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 21312
+    launchergroup: 53
+    maincolor: 8039008
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 28.799999237060547
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  21314:
+    capneedbonus: -25
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 57.599998474121094
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 21314
+    launchergroup: 53
+    maincolor: 9202277
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Xray XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 38.400001525878906
     volume: 1.0
     weaponrangemultiplier: 0.75
+  21316:
+    capneedbonus: -15
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 67.19999694824219
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 21316
+    launchergroup: 53
+    maincolor: 16746403
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Gamma XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 38.400001525878906
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  21318:
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 67.19999694824219
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 21318
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 1007
+    mass: 1.0
+    metagroupid: 4
+    name: Dark Blood Multifrequency XL
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 48.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  21450:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 21450
+    launchergroup: 53
+    maincolor: 2833864
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Blood Radio M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  23071:
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.050000190734863
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 23071
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.75
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  23073:
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 8.050000190734863
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 23073
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  23075:
+    capneedbonus: -25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.900000095367432
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 23075
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Xray S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  23077:
+    capneedbonus: -35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 6.900000095367432
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 23077
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.450000047683716
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  23079:
+    capneedbonus: -45
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 5.75
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 23079
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Standard S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.450000047683716
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  23081:
+    capneedbonus: -35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 5.75
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 23081
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.299999952316284
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  23083:
+    capneedbonus: -25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 4.599999904632568
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 23083
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.299999952316284
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  23085:
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 5.75
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 23085
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 997
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Radio S
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  23089:
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 16.100000381469727
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 23089
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 11.5
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  23091:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 16.100000381469727
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 23091
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  23093:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 13.800000190734863
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 23093
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Xray M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  23095:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 13.800000190734863
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 23095
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.900000095367432
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  23097:
+    capneedbonus: -45
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.5
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 23097
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Standard M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.900000095367432
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  23099:
+    capneedbonus: -35
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.5
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 23099
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  23101:
+    capneedbonus: -25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 9.199999809265137
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 23101
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  23103:
+    capneedbonus: -15
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 11.5
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 23103
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 996
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Radio M
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858
+  23105:
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 32.20000076293945
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
+    id: 23105
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 23.0
+    volume: 1.0
+    weaponrangemultiplier: 0.5
+  23107:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 32.20000076293945
+    entityflyrangemultiplier: 0.625
+    hp: 1.0
+    id: 23107
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 18.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 0.625
+  23109:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 27.600000381469727
+    entityflyrangemultiplier: 0.75
+    hp: 1.0
+    id: 23109
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Xray L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 18.399999618530273
+    volume: 1.0
+    weaponrangemultiplier: 0.75
+  23111:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 27.600000381469727
+    entityflyrangemultiplier: 0.875
+    hp: 1.0
+    id: 23111
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 0.875
+  23113:
+    capneedbonus: -45
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 23.0
+    entityflyrangemultiplier: 1.0
+    hp: 1.0
+    id: 23113
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Standard L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.800000190734863
+    volume: 1.0
+    weaponrangemultiplier: 1.0
+  23115:
+    capneedbonus: -35
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 23.0
+    entityflyrangemultiplier: 1.2000000476837158
+    hp: 1.0
+    id: 23115
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 1.2000000476837158
+  23117:
+    capneedbonus: -25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 18.399999618530273
+    entityflyrangemultiplier: 1.399999976158142
+    hp: 1.0
+    id: 23117
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
+    volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
+  23119:
+    capneedbonus: -15
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 1.0
+    crystalvolatilitydamage: 2.500000118743628E-4
+    emdamage: 23.0
+    entityflyrangemultiplier: 1.600000023841858
+    hp: 1.0
+    id: 23119
+    launchergroup: 53
+    maincolor: 11646664
+    marketGroup: 995
+    mass: 1.0
+    metagroupid: 4
+    name: Imperial Navy Radio L
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+    weaponrangemultiplier: 1.600000023841858

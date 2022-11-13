@@ -739,7 +739,7 @@ public class CovertOps
         implements IMetaGroup<CovertOps>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/CovertOps.yaml";
-        private Map<String, CovertOps> cache = (null);
+        private Map<Integer, CovertOps> cache = (null);
 
         @Override
         public IMetaCategory<? super CovertOps> category() {
@@ -757,7 +757,7 @@ public class CovertOps
         }
 
         @Override
-        public synchronized Map<String, CovertOps> load() {
+        public synchronized Map<Integer, CovertOps> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CovertOps.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -771,7 +771,7 @@ public class CovertOps
         }
 
         private static class Container {
-            public LinkedHashMap<String, CovertOps> types;
+            public LinkedHashMap<Integer, CovertOps> types;
         }
     }
 }

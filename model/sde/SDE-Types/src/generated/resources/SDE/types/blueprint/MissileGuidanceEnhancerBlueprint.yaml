@@ -1,5 +1,5 @@
 types:
-  Missile Guidance Enhancer I Blueprint:
+  35772:
     id: 35772
     marketGroup: 343
     name: Missile Guidance Enhancer I Blueprint
@@ -9,7 +9,7 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
-  Missile Guidance Enhancer II Blueprint:
+  35773:
     id: 35773
     name: Missile Guidance Enhancer II Blueprint
     packagedVolume: 0.009999999776482582

@@ -1,5 +1,5 @@
 types:
-  Standup Capacitor Power Relay I:
+  47356:
     capacitorrechargeratemultiplier: 0.8999999761581421
     cpu: 1000.0
     hp: 40.0
@@ -15,7 +15,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Capacitor Power Relay II:
+  47358:
     capacitorrechargeratemultiplier: 0.8799999952316284
     cpu: 1200.0
     hp: 40.0

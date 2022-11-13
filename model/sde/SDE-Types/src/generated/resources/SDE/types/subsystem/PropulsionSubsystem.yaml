@@ -1,26 +1,5 @@
 types:
-  Legion Propulsion - Intercalated Nanofibers:
-    fitstoshiptype: 29986
-    hp: 40.0
-    id: 45611
-    lowslotmodifier: 2
-    marketGroup: 1134
-    mass: 1400000.0
-    metalevelold: 1
-    name: Legion Propulsion - Intercalated Nanofibers
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30538
-    requiredskill1level: 1
-    signatureradius: 100.0
-    subsystembonusamarrpropulsion: 5
-    subsystembonusamarrpropulsion2: -5
-    subsystemslot: 128
-    techlevel: 3
-    volume: 40.0
-  Legion Propulsion - Interdiction Nullifier:
+  45610:
     agilitybonusadd: 0.10000000149011612
     fitstoshiptype: 29986
     hp: 40.0
@@ -45,7 +24,28 @@ types:
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-  Legion Propulsion - Wake Limiter:
+  45611:
+    fitstoshiptype: 29986
+    hp: 40.0
+    id: 45611
+    lowslotmodifier: 2
+    marketGroup: 1134
+    mass: 1400000.0
+    metalevelold: 1
+    name: Legion Propulsion - Intercalated Nanofibers
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30538
+    requiredskill1level: 1
+    signatureradius: 100.0
+    subsystembonusamarrpropulsion: 5
+    subsystembonusamarrpropulsion2: -5
+    subsystemslot: 128
+    techlevel: 3
+    volume: 40.0
+  45612:
     fitstoshiptype: 29986
     hp: 40.0
     id: 45612
@@ -67,95 +67,75 @@ types:
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-  Loki Propulsion - Intercalated Nanofibers:
-    fitstoshiptype: 29990
-    hp: 40.0
-    id: 45620
-    lowslotmodifier: 2
-    marketGroup: 1137
-    mass: 1400000.0
-    metalevelold: 1
-    name: Loki Propulsion - Intercalated Nanofibers
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30554
-    requiredskill1level: 1
-    signatureradius: 100.0
-    subsystembonusminmatarpropulsion: 5
-    subsystembonusminmatarpropulsion2: -5
-    subsystemslot: 128
-    techlevel: 3
-    volume: 40.0
-  Loki Propulsion - Interdiction Nullifier:
+  45613:
     agilitybonusadd: 0.10000000149011612
-    fitstoshiptype: 29990
+    fitstoshiptype: 29984
     hp: 40.0
-    id: 45619
+    id: 45613
     lowslotmodifier: 1
-    marketGroup: 1137
+    marketGroup: 1135
     mass: 1400000.0
     maxtargetrange: -20000.0
     metalevelold: 1
-    name: Loki Propulsion - Interdiction Nullifier
+    name: Tengu Propulsion - Interdiction Nullifier
     packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 30554
+    requiredskill1: 30552
     requiredskill1level: 1
     shipbonusrole1: -80.0
     shipbonusrole2: 100
     signatureradius: 20.0
-    subsystembonusminmatarpropulsion: -15
-    subsystembonusminmatarpropulsion2: 10
+    subsystembonuscaldaripropulsion: -15.0
+    subsystembonuscaldaripropulsion2: 10.0
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-  Loki Propulsion - Wake Limiter:
-    fitstoshiptype: 29990
+  45614:
+    fitstoshiptype: 29984
     hp: 40.0
-    id: 45621
-    marketGroup: 1137
+    id: 45614
+    lowslotmodifier: 1
+    marketGroup: 1135
+    mass: 1400000.0
+    medslotmodifier: 1
+    metalevelold: 1
+    name: Tengu Propulsion - Chassis Optimization
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30552
+    requiredskill1level: 1
+    signatureradius: 100.0
+    subsystembonuscaldaripropulsion: 3.0
+    subsystembonuscaldaripropulsion2: -7.5
+    subsystemslot: 128
+    techlevel: 3
+    volume: 40.0
+  45615:
+    fitstoshiptype: 29984
+    hp: 40.0
+    id: 45615
+    marketGroup: 1135
     mass: 1400000.0
     medslotmodifier: 2
     metalevelold: 1
-    name: Loki Propulsion - Wake Limiter
+    name: Tengu Propulsion - Fuel Catalyst
     packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 30554
+    requiredskill1: 30552
     requiredskill1level: 1
     signatureradius: 100.0
-    subsystembonusminmatarpropulsion: 10
-    subsystembonusminmatarpropulsion2: -10
+    subsystembonuscaldaripropulsion: 10.0
+    subsystembonuscaldaripropulsion2: 10.0
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-  Proteus Propulsion - Hyperspatial Optimization:
-    fitstoshiptype: 29988
-    hp: 40.0
-    id: 45617
-    lowslotmodifier: 2
-    marketGroup: 1136
-    mass: 1400000.0
-    metalevelold: 1
-    name: Proteus Propulsion - Hyperspatial Optimization
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30553
-    requiredskill1level: 1
-    signatureradius: 100.0
-    subsystembonusgallentepropulsion: 10.0
-    subsystembonusgallentepropulsion2: -7.5
-    subsystemslot: 128
-    techlevel: 3
-    volume: 40.0
-  Proteus Propulsion - Interdiction Nullifier:
+  45616:
     agilitybonusadd: 0.10000000149011612
     fitstoshiptype: 29988
     hp: 40.0
@@ -180,7 +160,28 @@ types:
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-  Proteus Propulsion - Localized Injectors:
+  45617:
+    fitstoshiptype: 29988
+    hp: 40.0
+    id: 45617
+    lowslotmodifier: 2
+    marketGroup: 1136
+    mass: 1400000.0
+    metalevelold: 1
+    name: Proteus Propulsion - Hyperspatial Optimization
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30553
+    requiredskill1level: 1
+    signatureradius: 100.0
+    subsystembonusgallentepropulsion: 10.0
+    subsystembonusgallentepropulsion2: -7.5
+    subsystemslot: 128
+    techlevel: 3
+    volume: 40.0
+  45618:
     fitstoshiptype: 29988
     hp: 40.0
     id: 45618
@@ -202,71 +203,70 @@ types:
     subsystemslot: 128
     techlevel: 3
     volume: 40.0
-  Tengu Propulsion - Chassis Optimization:
-    fitstoshiptype: 29984
-    hp: 40.0
-    id: 45614
-    lowslotmodifier: 1
-    marketGroup: 1135
-    mass: 1400000.0
-    medslotmodifier: 1
-    metalevelold: 1
-    name: Tengu Propulsion - Chassis Optimization
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30552
-    requiredskill1level: 1
-    signatureradius: 100.0
-    subsystembonuscaldaripropulsion: 3.0
-    subsystembonuscaldaripropulsion2: -7.5
-    subsystemslot: 128
-    techlevel: 3
-    volume: 40.0
-  Tengu Propulsion - Fuel Catalyst:
-    fitstoshiptype: 29984
-    hp: 40.0
-    id: 45615
-    marketGroup: 1135
-    mass: 1400000.0
-    medslotmodifier: 2
-    metalevelold: 1
-    name: Tengu Propulsion - Fuel Catalyst
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 30552
-    requiredskill1level: 1
-    signatureradius: 100.0
-    subsystembonuscaldaripropulsion: 10.0
-    subsystembonuscaldaripropulsion2: 10.0
-    subsystemslot: 128
-    techlevel: 3
-    volume: 40.0
-  Tengu Propulsion - Interdiction Nullifier:
+  45619:
     agilitybonusadd: 0.10000000149011612
-    fitstoshiptype: 29984
+    fitstoshiptype: 29990
     hp: 40.0
-    id: 45613
+    id: 45619
     lowslotmodifier: 1
-    marketGroup: 1135
+    marketGroup: 1137
     mass: 1400000.0
     maxtargetrange: -20000.0
     metalevelold: 1
-    name: Tengu Propulsion - Interdiction Nullifier
+    name: Loki Propulsion - Interdiction Nullifier
     packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 1.0
-    requiredskill1: 30552
+    requiredskill1: 30554
     requiredskill1level: 1
     shipbonusrole1: -80.0
     shipbonusrole2: 100
     signatureradius: 20.0
-    subsystembonuscaldaripropulsion: -15.0
-    subsystembonuscaldaripropulsion2: 10.0
+    subsystembonusminmatarpropulsion: -15
+    subsystembonusminmatarpropulsion2: 10
+    subsystemslot: 128
+    techlevel: 3
+    volume: 40.0
+  45620:
+    fitstoshiptype: 29990
+    hp: 40.0
+    id: 45620
+    lowslotmodifier: 2
+    marketGroup: 1137
+    mass: 1400000.0
+    metalevelold: 1
+    name: Loki Propulsion - Intercalated Nanofibers
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30554
+    requiredskill1level: 1
+    signatureradius: 100.0
+    subsystembonusminmatarpropulsion: 5
+    subsystembonusminmatarpropulsion2: -5
+    subsystemslot: 128
+    techlevel: 3
+    volume: 40.0
+  45621:
+    fitstoshiptype: 29990
+    hp: 40.0
+    id: 45621
+    marketGroup: 1137
+    mass: 1400000.0
+    medslotmodifier: 2
+    metalevelold: 1
+    name: Loki Propulsion - Wake Limiter
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 30554
+    requiredskill1level: 1
+    signatureradius: 100.0
+    subsystembonusminmatarpropulsion: 10
+    subsystembonusminmatarpropulsion2: -10
     subsystemslot: 128
     techlevel: 3
     volume: 40.0

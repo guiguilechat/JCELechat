@@ -32,7 +32,7 @@ public class Radioactive
         implements IMetaGroup<Radioactive>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Radioactive.yaml";
-        private Map<String, Radioactive> cache = (null);
+        private Map<Integer, Radioactive> cache = (null);
 
         @Override
         public IMetaCategory<? super Radioactive> category() {
@@ -50,7 +50,7 @@ public class Radioactive
         }
 
         @Override
-        public synchronized Map<String, Radioactive> load() {
+        public synchronized Map<Integer, Radioactive> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Radioactive.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Radioactive
         }
 
         private static class Container {
-            public LinkedHashMap<String, Radioactive> types;
+            public LinkedHashMap<Integer, Radioactive> types;
         }
     }
 }

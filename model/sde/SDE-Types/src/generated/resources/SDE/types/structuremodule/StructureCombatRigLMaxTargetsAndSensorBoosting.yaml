@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Target Acquisition Array I:
+  37260:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -27,7 +27,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Target Acquisition Array II:
+  37261:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

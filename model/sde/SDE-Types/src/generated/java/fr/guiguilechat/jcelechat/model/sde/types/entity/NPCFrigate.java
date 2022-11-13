@@ -1660,7 +1660,7 @@ public class NPCFrigate
         implements IMetaGroup<NPCFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCFrigate.yaml";
-        private Map<String, NPCFrigate> cache = (null);
+        private Map<Integer, NPCFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCFrigate> category() {
@@ -1678,7 +1678,7 @@ public class NPCFrigate
         }
 
         @Override
-        public synchronized Map<String, NPCFrigate> load() {
+        public synchronized Map<Integer, NPCFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1692,7 +1692,7 @@ public class NPCFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCFrigate> types;
+            public LinkedHashMap<Integer, NPCFrigate> types;
         }
     }
 }

@@ -97,7 +97,7 @@ public class InterdictionNullifierBlueprint
         implements IMetaGroup<InterdictionNullifierBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/InterdictionNullifierBlueprint.yaml";
-        private Map<String, InterdictionNullifierBlueprint> cache = (null);
+        private Map<Integer, InterdictionNullifierBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super InterdictionNullifierBlueprint> category() {
@@ -115,7 +115,7 @@ public class InterdictionNullifierBlueprint
         }
 
         @Override
-        public synchronized Map<String, InterdictionNullifierBlueprint> load() {
+        public synchronized Map<Integer, InterdictionNullifierBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InterdictionNullifierBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class InterdictionNullifierBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, InterdictionNullifierBlueprint> types;
+            public LinkedHashMap<Integer, InterdictionNullifierBlueprint> types;
         }
     }
 }

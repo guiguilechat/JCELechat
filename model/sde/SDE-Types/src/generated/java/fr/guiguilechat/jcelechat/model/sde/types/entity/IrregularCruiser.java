@@ -2393,7 +2393,7 @@ public class IrregularCruiser
         implements IMetaGroup<IrregularCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularCruiser.yaml";
-        private Map<String, IrregularCruiser> cache = (null);
+        private Map<Integer, IrregularCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularCruiser> category() {
@@ -2411,7 +2411,7 @@ public class IrregularCruiser
         }
 
         @Override
-        public synchronized Map<String, IrregularCruiser> load() {
+        public synchronized Map<Integer, IrregularCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -2425,7 +2425,7 @@ public class IrregularCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularCruiser> types;
+            public LinkedHashMap<Integer, IrregularCruiser> types;
         }
     }
 }

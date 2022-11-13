@@ -194,7 +194,7 @@ public class WarpDisruptionScript
         implements IMetaGroup<WarpDisruptionScript>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/WarpDisruptionScript.yaml";
-        private Map<String, WarpDisruptionScript> cache = (null);
+        private Map<Integer, WarpDisruptionScript> cache = (null);
 
         @Override
         public IMetaCategory<? super WarpDisruptionScript> category() {
@@ -212,7 +212,7 @@ public class WarpDisruptionScript
         }
 
         @Override
-        public synchronized Map<String, WarpDisruptionScript> load() {
+        public synchronized Map<Integer, WarpDisruptionScript> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WarpDisruptionScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -226,7 +226,7 @@ public class WarpDisruptionScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpDisruptionScript> types;
+            public LinkedHashMap<Integer, WarpDisruptionScript> types;
         }
     }
 }

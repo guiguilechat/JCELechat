@@ -977,7 +977,7 @@ public class DeadspaceRogueDroneSwarm
         implements IMetaGroup<DeadspaceRogueDroneSwarm>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceRogueDroneSwarm.yaml";
-        private Map<String, DeadspaceRogueDroneSwarm> cache = (null);
+        private Map<Integer, DeadspaceRogueDroneSwarm> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceRogueDroneSwarm> category() {
@@ -995,7 +995,7 @@ public class DeadspaceRogueDroneSwarm
         }
 
         @Override
-        public synchronized Map<String, DeadspaceRogueDroneSwarm> load() {
+        public synchronized Map<Integer, DeadspaceRogueDroneSwarm> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceRogueDroneSwarm.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1009,7 +1009,7 @@ public class DeadspaceRogueDroneSwarm
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceRogueDroneSwarm> types;
+            public LinkedHashMap<Integer, DeadspaceRogueDroneSwarm> types;
         }
     }
 }

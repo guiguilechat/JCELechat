@@ -32,7 +32,7 @@ public class Warbarge
         implements IMetaGroup<Warbarge>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/Warbarge.yaml";
-        private Map<String, Warbarge> cache = (null);
+        private Map<Integer, Warbarge> cache = (null);
 
         @Override
         public IMetaCategory<? super Warbarge> category() {
@@ -50,7 +50,7 @@ public class Warbarge
         }
 
         @Override
-        public synchronized Map<String, Warbarge> load() {
+        public synchronized Map<Integer, Warbarge> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Warbarge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Warbarge
         }
 
         private static class Container {
-            public LinkedHashMap<String, Warbarge> types;
+            public LinkedHashMap<Integer, Warbarge> types;
         }
     }
 }

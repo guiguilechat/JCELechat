@@ -253,7 +253,7 @@ public class SmartBomb
         implements IMetaGroup<SmartBomb>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/SmartBomb.yaml";
-        private Map<String, SmartBomb> cache = (null);
+        private Map<Integer, SmartBomb> cache = (null);
 
         @Override
         public IMetaCategory<? super SmartBomb> category() {
@@ -271,7 +271,7 @@ public class SmartBomb
         }
 
         @Override
-        public synchronized Map<String, SmartBomb> load() {
+        public synchronized Map<Integer, SmartBomb> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SmartBomb.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class SmartBomb
         }
 
         private static class Container {
-            public LinkedHashMap<String, SmartBomb> types;
+            public LinkedHashMap<Integer, SmartBomb> types;
         }
     }
 }

@@ -289,7 +289,7 @@ public class StructureEngineeringRigMAdvancedSmallShipME
         implements IMetaGroup<StructureEngineeringRigMAdvancedSmallShipME>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMAdvancedSmallShipME.yaml";
-        private Map<String, StructureEngineeringRigMAdvancedSmallShipME> cache = (null);
+        private Map<Integer, StructureEngineeringRigMAdvancedSmallShipME> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMAdvancedSmallShipME> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMAdvancedSmallShipME
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMAdvancedSmallShipME> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMAdvancedSmallShipME> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMAdvancedSmallShipME.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMAdvancedSmallShipME
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMAdvancedSmallShipME> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMAdvancedSmallShipME> types;
         }
     }
 }

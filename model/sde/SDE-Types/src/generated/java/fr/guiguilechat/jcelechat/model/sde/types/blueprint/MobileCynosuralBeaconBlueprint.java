@@ -83,7 +83,7 @@ public class MobileCynosuralBeaconBlueprint
         implements IMetaGroup<MobileCynosuralBeaconBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileCynosuralBeaconBlueprint.yaml";
-        private Map<String, MobileCynosuralBeaconBlueprint> cache = (null);
+        private Map<Integer, MobileCynosuralBeaconBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileCynosuralBeaconBlueprint> category() {
@@ -101,7 +101,7 @@ public class MobileCynosuralBeaconBlueprint
         }
 
         @Override
-        public synchronized Map<String, MobileCynosuralBeaconBlueprint> load() {
+        public synchronized Map<Integer, MobileCynosuralBeaconBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileCynosuralBeaconBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class MobileCynosuralBeaconBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileCynosuralBeaconBlueprint> types;
+            public LinkedHashMap<Integer, MobileCynosuralBeaconBlueprint> types;
         }
     }
 }

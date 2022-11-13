@@ -10,7 +10,7 @@ public class HighestBSBumper {
 	public static void main(String[] args) {
 
 		Map<String, Double> bs2energy = Ship.METACAT.load().entrySet().stream()
-				.collect(Collectors.toMap(e -> e.getKey(), e -> getMomentumMWD(e.getValue())));
+				.collect(Collectors.toMap(e -> e.getValue().name, e -> getMomentumMWD(e.getValue())));
 		bs2energy.entrySet().stream().sorted((e1, e2) -> -Double.compare(e1.getValue(), e2.getValue()))
 		.forEach(e -> System.out.println("" + e.getKey() + " : " + e.getValue()));
 	}

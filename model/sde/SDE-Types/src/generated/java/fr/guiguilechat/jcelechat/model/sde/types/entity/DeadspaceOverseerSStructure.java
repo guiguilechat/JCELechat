@@ -580,7 +580,7 @@ public class DeadspaceOverseerSStructure
         implements IMetaGroup<DeadspaceOverseerSStructure>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceOverseerSStructure.yaml";
-        private Map<String, DeadspaceOverseerSStructure> cache = (null);
+        private Map<Integer, DeadspaceOverseerSStructure> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceOverseerSStructure> category() {
@@ -598,7 +598,7 @@ public class DeadspaceOverseerSStructure
         }
 
         @Override
-        public synchronized Map<String, DeadspaceOverseerSStructure> load() {
+        public synchronized Map<Integer, DeadspaceOverseerSStructure> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceOverseerSStructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -612,7 +612,7 @@ public class DeadspaceOverseerSStructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceOverseerSStructure> types;
+            public LinkedHashMap<Integer, DeadspaceOverseerSStructure> types;
         }
     }
 }

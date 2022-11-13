@@ -277,7 +277,7 @@ public class StructureCombatRigXLEnergyNeutralizerAndEW
         implements IMetaGroup<StructureCombatRigXLEnergyNeutralizerAndEW>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigXLEnergyNeutralizerAndEW.yaml";
-        private Map<String, StructureCombatRigXLEnergyNeutralizerAndEW> cache = (null);
+        private Map<Integer, StructureCombatRigXLEnergyNeutralizerAndEW> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigXLEnergyNeutralizerAndEW> category() {
@@ -295,7 +295,7 @@ public class StructureCombatRigXLEnergyNeutralizerAndEW
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigXLEnergyNeutralizerAndEW> load() {
+        public synchronized Map<Integer, StructureCombatRigXLEnergyNeutralizerAndEW> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigXLEnergyNeutralizerAndEW.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -309,7 +309,7 @@ public class StructureCombatRigXLEnergyNeutralizerAndEW
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigXLEnergyNeutralizerAndEW> types;
+            public LinkedHashMap<Integer, StructureCombatRigXLEnergyNeutralizerAndEW> types;
         }
     }
 }

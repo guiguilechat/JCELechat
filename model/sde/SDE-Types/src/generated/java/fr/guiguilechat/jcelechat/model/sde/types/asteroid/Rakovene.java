@@ -42,7 +42,7 @@ public class Rakovene
         implements IMetaGroup<Rakovene>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Rakovene.yaml";
-        private Map<String, Rakovene> cache = (null);
+        private Map<Integer, Rakovene> cache = (null);
 
         @Override
         public IMetaCategory<? super Rakovene> category() {
@@ -60,7 +60,7 @@ public class Rakovene
         }
 
         @Override
-        public synchronized Map<String, Rakovene> load() {
+        public synchronized Map<Integer, Rakovene> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Rakovene.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -74,7 +74,7 @@ public class Rakovene
         }
 
         private static class Container {
-            public LinkedHashMap<String, Rakovene> types;
+            public LinkedHashMap<Integer, Rakovene> types;
         }
     }
 }

@@ -1,7 +1,7 @@
 types:
-  Dread Guristas Ion Field Projection Battery:
+  17174:
     anchoringdelay: 5000
-    armorhp: 3000000.0
+    armorhp: 1500000.0
     armoruniformity: 0.75
     controltowerminimumdistance: 5000
     cpu: 50.0
@@ -16,7 +16,7 @@ types:
     falloffeffectiveness: 100000
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
-    id: 27576
+    id: 17174
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 481
@@ -24,13 +24,12 @@ types:
     maxlockedtargets: 1
     maxrange: 200000.0
     maxtargetrange: 500000.0
-    metagroupid: 4
-    name: Dread Guristas Ion Field Projection Battery
+    name: Ion Field Projection Battery
     onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
-    power: 20000
+    power: 25000
     price: 2500000.0
     proximityrange: 300000
     published: true
@@ -39,16 +38,16 @@ types:
     requiredskill1: 11584
     requiredskill1level: 3
     scangravimetricstrength: 200.0
-    scangravimetricstrengthbonus: 25.0
+    scangravimetricstrengthbonus: 15.0
     scanladarstrength: 200.0
-    scanladarstrengthbonus: 25.0
+    scanladarstrengthbonus: 15.0
     scanmagnetometricstrength: 200.0
-    scanmagnetometricstrengthbonus: 76.0
+    scanmagnetometricstrengthbonus: 45.0
     scanradarstrength: 200.0
-    scanradarstrengthbonus: 25.0
-    scanresolution: 60.0
-    shieldcapacity: 200000.0
-    shieldrechargerate: 2.0E7
+    scanradarstrengthbonus: 15.0
+    scanresolution: 50.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 1.0E7
     shielduniformity: 0.75
     signatureradius: 8000.0
     structureuniformity: 1.0
@@ -57,9 +56,9 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Dread Guristas Phase Inversion Battery:
+  17175:
     anchoringdelay: 5000
-    armorhp: 3000000.0
+    armorhp: 1500000.0
     armoruniformity: 0.75
     controltowerminimumdistance: 5000
     cpu: 50.0
@@ -74,7 +73,7 @@ types:
     falloffeffectiveness: 100000
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
-    id: 27579
+    id: 17175
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 481
@@ -82,13 +81,12 @@ types:
     maxlockedtargets: 1
     maxrange: 200000.0
     maxtargetrange: 500000.0
-    metagroupid: 4
-    name: Dread Guristas Phase Inversion Battery
+    name: Phase Inversion Battery
     onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
-    power: 20000
+    power: 25000
     price: 2500000.0
     proximityrange: 300000
     published: true
@@ -97,16 +95,16 @@ types:
     requiredskill1: 11584
     requiredskill1level: 3
     scangravimetricstrength: 200.0
-    scangravimetricstrengthbonus: 25.0
+    scangravimetricstrengthbonus: 15.0
     scanladarstrength: 200.0
-    scanladarstrengthbonus: 76.0
+    scanladarstrengthbonus: 45.0
     scanmagnetometricstrength: 200.0
-    scanmagnetometricstrengthbonus: 25.0
+    scanmagnetometricstrengthbonus: 15.0
     scanradarstrength: 200.0
-    scanradarstrengthbonus: 25.0
-    scanresolution: 60.0
-    shieldcapacity: 200000.0
-    shieldrechargerate: 2.0E7
+    scanradarstrengthbonus: 15.0
+    scanresolution: 50.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 1.0E7
     shielduniformity: 0.75
     signatureradius: 8000.0
     structureuniformity: 1.0
@@ -115,9 +113,9 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Dread Guristas Spatial Destabilization Battery:
+  17176:
     anchoringdelay: 5000
-    armorhp: 3000000.0
+    armorhp: 1500000.0
     armoruniformity: 0.75
     controltowerminimumdistance: 5000
     cpu: 50.0
@@ -132,7 +130,7 @@ types:
     falloffeffectiveness: 100000
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
-    id: 27582
+    id: 17176
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 481
@@ -140,13 +138,12 @@ types:
     maxlockedtargets: 1
     maxrange: 200000.0
     maxtargetrange: 500000.0
-    metagroupid: 4
-    name: Dread Guristas Spatial Destabilization Battery
+    name: Spatial Destabilization Battery
     onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
-    power: 20000
+    power: 25000
     price: 2500000.0
     proximityrange: 300000
     published: true
@@ -155,16 +152,16 @@ types:
     requiredskill1: 11584
     requiredskill1level: 3
     scangravimetricstrength: 200.0
-    scangravimetricstrengthbonus: 76.0
+    scangravimetricstrengthbonus: 45.0
     scanladarstrength: 200.0
-    scanladarstrengthbonus: 25.0
+    scanladarstrengthbonus: 15.0
     scanmagnetometricstrength: 200.0
-    scanmagnetometricstrengthbonus: 25.0
+    scanmagnetometricstrengthbonus: 15.0
     scanradarstrength: 200.0
-    scanradarstrengthbonus: 25.0
-    scanresolution: 60.0
-    shieldcapacity: 200000.0
-    shieldrechargerate: 2.0E7
+    scanradarstrengthbonus: 15.0
+    scanresolution: 50.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 1.0E7
     shielduniformity: 0.75
     signatureradius: 8000.0
     structureuniformity: 1.0
@@ -173,9 +170,9 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Dread Guristas White Noise Generation Battery:
+  17177:
     anchoringdelay: 5000
-    armorhp: 3000000.0
+    armorhp: 1500000.0
     armoruniformity: 0.75
     controltowerminimumdistance: 5000
     cpu: 50.0
@@ -190,7 +187,7 @@ types:
     falloffeffectiveness: 100000
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
-    id: 27585
+    id: 17177
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 481
@@ -198,13 +195,12 @@ types:
     maxlockedtargets: 1
     maxrange: 200000.0
     maxtargetrange: 500000.0
-    metagroupid: 4
-    name: Dread Guristas White Noise Generation Battery
+    name: White Noise Generation Battery
     onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
-    power: 20000
+    power: 25000
     price: 2500000.0
     proximityrange: 300000
     published: true
@@ -213,16 +209,16 @@ types:
     requiredskill1: 11584
     requiredskill1level: 3
     scangravimetricstrength: 200.0
-    scangravimetricstrengthbonus: 25.0
+    scangravimetricstrengthbonus: 15.0
     scanladarstrength: 200.0
-    scanladarstrengthbonus: 25.0
+    scanladarstrengthbonus: 15.0
     scanmagnetometricstrength: 200.0
-    scanmagnetometricstrengthbonus: 25.0
+    scanmagnetometricstrengthbonus: 15.0
     scanradarstrength: 200.0
-    scanradarstrengthbonus: 76.0
-    scanresolution: 60.0
-    shieldcapacity: 200000.0
-    shieldrechargerate: 2.0E7
+    scanradarstrengthbonus: 45.0
+    scanresolution: 50.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 1.0E7
     shielduniformity: 0.75
     signatureradius: 8000.0
     structureuniformity: 1.0
@@ -231,7 +227,7 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Guristas Ion Field Projection Battery:
+  27574:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
@@ -289,7 +285,65 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Guristas Phase Inversion Battery:
+  27576:
+    anchoringdelay: 5000
+    armorhp: 3000000.0
+    armoruniformity: 0.75
+    controltowerminimumdistance: 5000
+    cpu: 50.0
+    disallowoffensivemodifiers: 1
+    duration: 7500.0
+    emdamageresonance: 1.0
+    entityattackdelaymax: 30000
+    entityattackdelaymin: 7500
+    entityflyrange: 200000.0
+    entityreactionfactor: 0.5
+    explosivedamageresonance: 1.0
+    falloffeffectiveness: 100000
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
+    id: 27576
+    incapacitationratio: 0.0010000000474974513
+    kineticdamageresonance: 1.0
+    marketGroup: 481
+    mass: 1.0E8
+    maxlockedtargets: 1
+    maxrange: 200000.0
+    maxtargetrange: 500000.0
+    metagroupid: 4
+    name: Dread Guristas Ion Field Projection Battery
+    onliningdelay: 120000
+    packagedVolume: 4000.0
+    portionSize: 1
+    posplayercontrolstructure: 1
+    power: 20000
+    price: 2500000.0
+    proximityrange: 300000
+    published: true
+    radius: 629.0
+    remoteresistanceid: 2253
+    requiredskill1: 11584
+    requiredskill1level: 3
+    scangravimetricstrength: 200.0
+    scangravimetricstrengthbonus: 25.0
+    scanladarstrength: 200.0
+    scanladarstrengthbonus: 25.0
+    scanmagnetometricstrength: 200.0
+    scanmagnetometricstrengthbonus: 76.0
+    scanradarstrength: 200.0
+    scanradarstrengthbonus: 25.0
+    scanresolution: 60.0
+    shieldcapacity: 200000.0
+    shieldrechargerate: 2.0E7
+    shielduniformity: 0.75
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    targetswitchdelay: 30000
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
+    volume: 4000.0
+  27577:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
@@ -347,7 +401,65 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Guristas Spatial Destabilization Battery:
+  27579:
+    anchoringdelay: 5000
+    armorhp: 3000000.0
+    armoruniformity: 0.75
+    controltowerminimumdistance: 5000
+    cpu: 50.0
+    disallowoffensivemodifiers: 1
+    duration: 7500.0
+    emdamageresonance: 1.0
+    entityattackdelaymax: 30000
+    entityattackdelaymin: 7500
+    entityflyrange: 200000.0
+    entityreactionfactor: 0.5
+    explosivedamageresonance: 1.0
+    falloffeffectiveness: 100000
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
+    id: 27579
+    incapacitationratio: 0.0010000000474974513
+    kineticdamageresonance: 1.0
+    marketGroup: 481
+    mass: 1.0E8
+    maxlockedtargets: 1
+    maxrange: 200000.0
+    maxtargetrange: 500000.0
+    metagroupid: 4
+    name: Dread Guristas Phase Inversion Battery
+    onliningdelay: 120000
+    packagedVolume: 4000.0
+    portionSize: 1
+    posplayercontrolstructure: 1
+    power: 20000
+    price: 2500000.0
+    proximityrange: 300000
+    published: true
+    radius: 629.0
+    remoteresistanceid: 2253
+    requiredskill1: 11584
+    requiredskill1level: 3
+    scangravimetricstrength: 200.0
+    scangravimetricstrengthbonus: 25.0
+    scanladarstrength: 200.0
+    scanladarstrengthbonus: 76.0
+    scanmagnetometricstrength: 200.0
+    scanmagnetometricstrengthbonus: 25.0
+    scanradarstrength: 200.0
+    scanradarstrengthbonus: 25.0
+    scanresolution: 60.0
+    shieldcapacity: 200000.0
+    shieldrechargerate: 2.0E7
+    shielduniformity: 0.75
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    targetswitchdelay: 30000
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
+    volume: 4000.0
+  27580:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
@@ -405,7 +517,65 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Guristas White Noise Generation Battery:
+  27582:
+    anchoringdelay: 5000
+    armorhp: 3000000.0
+    armoruniformity: 0.75
+    controltowerminimumdistance: 5000
+    cpu: 50.0
+    disallowoffensivemodifiers: 1
+    duration: 7500.0
+    emdamageresonance: 1.0
+    entityattackdelaymax: 30000
+    entityattackdelaymin: 7500
+    entityflyrange: 200000.0
+    entityreactionfactor: 0.5
+    explosivedamageresonance: 1.0
+    falloffeffectiveness: 100000
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
+    id: 27582
+    incapacitationratio: 0.0010000000474974513
+    kineticdamageresonance: 1.0
+    marketGroup: 481
+    mass: 1.0E8
+    maxlockedtargets: 1
+    maxrange: 200000.0
+    maxtargetrange: 500000.0
+    metagroupid: 4
+    name: Dread Guristas Spatial Destabilization Battery
+    onliningdelay: 120000
+    packagedVolume: 4000.0
+    portionSize: 1
+    posplayercontrolstructure: 1
+    power: 20000
+    price: 2500000.0
+    proximityrange: 300000
+    published: true
+    radius: 629.0
+    remoteresistanceid: 2253
+    requiredskill1: 11584
+    requiredskill1level: 3
+    scangravimetricstrength: 200.0
+    scangravimetricstrengthbonus: 76.0
+    scanladarstrength: 200.0
+    scanladarstrengthbonus: 25.0
+    scanmagnetometricstrength: 200.0
+    scanmagnetometricstrengthbonus: 25.0
+    scanradarstrength: 200.0
+    scanradarstrengthbonus: 25.0
+    scanresolution: 60.0
+    shieldcapacity: 200000.0
+    shieldrechargerate: 2.0E7
+    shielduniformity: 0.75
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    targetswitchdelay: 30000
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
+    volume: 4000.0
+  27583:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
@@ -463,9 +633,9 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Ion Field Projection Battery:
+  27585:
     anchoringdelay: 5000
-    armorhp: 1500000.0
+    armorhp: 3000000.0
     armoruniformity: 0.75
     controltowerminimumdistance: 5000
     cpu: 50.0
@@ -480,7 +650,7 @@ types:
     falloffeffectiveness: 100000
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
-    id: 17174
+    id: 27585
     incapacitationratio: 0.0010000000474974513
     kineticdamageresonance: 1.0
     marketGroup: 481
@@ -488,12 +658,13 @@ types:
     maxlockedtargets: 1
     maxrange: 200000.0
     maxtargetrange: 500000.0
-    name: Ion Field Projection Battery
+    metagroupid: 4
+    name: Dread Guristas White Noise Generation Battery
     onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
-    power: 25000
+    power: 20000
     price: 2500000.0
     proximityrange: 300000
     published: true
@@ -502,187 +673,16 @@ types:
     requiredskill1: 11584
     requiredskill1level: 3
     scangravimetricstrength: 200.0
-    scangravimetricstrengthbonus: 15.0
+    scangravimetricstrengthbonus: 25.0
     scanladarstrength: 200.0
-    scanladarstrengthbonus: 15.0
+    scanladarstrengthbonus: 25.0
     scanmagnetometricstrength: 200.0
-    scanmagnetometricstrengthbonus: 45.0
+    scanmagnetometricstrengthbonus: 25.0
     scanradarstrength: 200.0
-    scanradarstrengthbonus: 15.0
-    scanresolution: 50.0
-    shieldcapacity: 100000.0
-    shieldrechargerate: 1.0E7
-    shielduniformity: 0.75
-    signatureradius: 8000.0
-    structureuniformity: 1.0
-    targetswitchdelay: 30000
-    thermaldamageresonance: 1.0
-    unanchoringdelay: 5000
-    uniformity: 1.0
-    volume: 4000.0
-  Phase Inversion Battery:
-    anchoringdelay: 5000
-    armorhp: 1500000.0
-    armoruniformity: 0.75
-    controltowerminimumdistance: 5000
-    cpu: 50.0
-    disallowoffensivemodifiers: 1
-    duration: 7500.0
-    emdamageresonance: 1.0
-    entityattackdelaymax: 30000
-    entityattackdelaymin: 7500
-    entityflyrange: 200000.0
-    entityreactionfactor: 0.5
-    explosivedamageresonance: 1.0
-    falloffeffectiveness: 100000
-    fighterabilityanticapitalmissileresistance: 1
-    hp: 100000.0
-    id: 17175
-    incapacitationratio: 0.0010000000474974513
-    kineticdamageresonance: 1.0
-    marketGroup: 481
-    mass: 1.0E8
-    maxlockedtargets: 1
-    maxrange: 200000.0
-    maxtargetrange: 500000.0
-    name: Phase Inversion Battery
-    onliningdelay: 120000
-    packagedVolume: 4000.0
-    portionSize: 1
-    posplayercontrolstructure: 1
-    power: 25000
-    price: 2500000.0
-    proximityrange: 300000
-    published: true
-    radius: 629.0
-    remoteresistanceid: 2253
-    requiredskill1: 11584
-    requiredskill1level: 3
-    scangravimetricstrength: 200.0
-    scangravimetricstrengthbonus: 15.0
-    scanladarstrength: 200.0
-    scanladarstrengthbonus: 45.0
-    scanmagnetometricstrength: 200.0
-    scanmagnetometricstrengthbonus: 15.0
-    scanradarstrength: 200.0
-    scanradarstrengthbonus: 15.0
-    scanresolution: 50.0
-    shieldcapacity: 100000.0
-    shieldrechargerate: 1.0E7
-    shielduniformity: 0.75
-    signatureradius: 8000.0
-    structureuniformity: 1.0
-    targetswitchdelay: 30000
-    thermaldamageresonance: 1.0
-    unanchoringdelay: 5000
-    uniformity: 1.0
-    volume: 4000.0
-  Spatial Destabilization Battery:
-    anchoringdelay: 5000
-    armorhp: 1500000.0
-    armoruniformity: 0.75
-    controltowerminimumdistance: 5000
-    cpu: 50.0
-    disallowoffensivemodifiers: 1
-    duration: 7500.0
-    emdamageresonance: 1.0
-    entityattackdelaymax: 30000
-    entityattackdelaymin: 7500
-    entityflyrange: 200000.0
-    entityreactionfactor: 0.5
-    explosivedamageresonance: 1.0
-    falloffeffectiveness: 100000
-    fighterabilityanticapitalmissileresistance: 1
-    hp: 100000.0
-    id: 17176
-    incapacitationratio: 0.0010000000474974513
-    kineticdamageresonance: 1.0
-    marketGroup: 481
-    mass: 1.0E8
-    maxlockedtargets: 1
-    maxrange: 200000.0
-    maxtargetrange: 500000.0
-    name: Spatial Destabilization Battery
-    onliningdelay: 120000
-    packagedVolume: 4000.0
-    portionSize: 1
-    posplayercontrolstructure: 1
-    power: 25000
-    price: 2500000.0
-    proximityrange: 300000
-    published: true
-    radius: 629.0
-    remoteresistanceid: 2253
-    requiredskill1: 11584
-    requiredskill1level: 3
-    scangravimetricstrength: 200.0
-    scangravimetricstrengthbonus: 45.0
-    scanladarstrength: 200.0
-    scanladarstrengthbonus: 15.0
-    scanmagnetometricstrength: 200.0
-    scanmagnetometricstrengthbonus: 15.0
-    scanradarstrength: 200.0
-    scanradarstrengthbonus: 15.0
-    scanresolution: 50.0
-    shieldcapacity: 100000.0
-    shieldrechargerate: 1.0E7
-    shielduniformity: 0.75
-    signatureradius: 8000.0
-    structureuniformity: 1.0
-    targetswitchdelay: 30000
-    thermaldamageresonance: 1.0
-    unanchoringdelay: 5000
-    uniformity: 1.0
-    volume: 4000.0
-  White Noise Generation Battery:
-    anchoringdelay: 5000
-    armorhp: 1500000.0
-    armoruniformity: 0.75
-    controltowerminimumdistance: 5000
-    cpu: 50.0
-    disallowoffensivemodifiers: 1
-    duration: 7500.0
-    emdamageresonance: 1.0
-    entityattackdelaymax: 30000
-    entityattackdelaymin: 7500
-    entityflyrange: 200000.0
-    entityreactionfactor: 0.5
-    explosivedamageresonance: 1.0
-    falloffeffectiveness: 100000
-    fighterabilityanticapitalmissileresistance: 1
-    hp: 100000.0
-    id: 17177
-    incapacitationratio: 0.0010000000474974513
-    kineticdamageresonance: 1.0
-    marketGroup: 481
-    mass: 1.0E8
-    maxlockedtargets: 1
-    maxrange: 200000.0
-    maxtargetrange: 500000.0
-    name: White Noise Generation Battery
-    onliningdelay: 120000
-    packagedVolume: 4000.0
-    portionSize: 1
-    posplayercontrolstructure: 1
-    power: 25000
-    price: 2500000.0
-    proximityrange: 300000
-    published: true
-    radius: 629.0
-    remoteresistanceid: 2253
-    requiredskill1: 11584
-    requiredskill1level: 3
-    scangravimetricstrength: 200.0
-    scangravimetricstrengthbonus: 15.0
-    scanladarstrength: 200.0
-    scanladarstrengthbonus: 15.0
-    scanmagnetometricstrength: 200.0
-    scanmagnetometricstrengthbonus: 15.0
-    scanradarstrength: 200.0
-    scanradarstrengthbonus: 45.0
-    scanresolution: 50.0
-    shieldcapacity: 100000.0
-    shieldrechargerate: 1.0E7
+    scanradarstrengthbonus: 76.0
+    scanresolution: 60.0
+    shieldcapacity: 200000.0
+    shieldrechargerate: 2.0E7
     shielduniformity: 0.75
     signatureradius: 8000.0
     structureuniformity: 1.0

@@ -1,101 +1,101 @@
 types:
-  Collision:
-    id: 32728
-    name: Collision
-    portionSize: 1
-    published: false
-  Falling Vapor:
-    id: 32623
-    name: Falling Vapor
-    portionSize: 1
-    published: false
-  Large_Atmo_Cloud_01:
-    id: 32638
-    name: Large_Atmo_Cloud_01
-    portionSize: 1
-    published: false
-  Left_Balcony_Mist_01_Min:
-    id: 32637
-    name: Left_Balcony_Mist_01_Min
-    portionSize: 1
-    published: false
-  Left_Walkway_Steam_01:
-    id: 32666
-    name: Left_Walkway_Steam_01
-    portionSize: 1
-    published: false
-  Left_Walkway_Steam_02:
-    id: 32734
-    name: Left_Walkway_Steam_02
-    portionSize: 1
-    published: false
-  Left_Walkway_Steam_03:
-    id: 32735
-    name: Left_Walkway_Steam_03
-    portionSize: 1
-    published: false
-  Noise:
-    id: 32727
-    name: Noise
-    portionSize: 1
-    published: false
-  Pod_Smoke_01:
-    id: 32679
-    name: Pod_Smoke_01
-    portionSize: 1
-    published: false
-  Pressure Steam:
-    id: 32628
-    name: Pressure Steam
-    portionSize: 1
-    published: false
-  PressureSteam02:
-    id: 32644
-    name: PressureSteam02
-    portionSize: 1
-    published: false
-  Right_Balcony_Mist_01_Min:
-    id: 32636
-    name: Right_Balcony_Mist_01_Min
-    portionSize: 1
-    published: false
-  Right_Walkway_Steam_01:
-    id: 32667
-    name: Right_Walkway_Steam_01
-    portionSize: 1
-    published: false
-  Right_Walkway_Steam_02:
-    id: 32736
-    name: Right_Walkway_Steam_02
-    portionSize: 1
-    published: false
-  Right_Walkway_Steam_03:
-    id: 32737
-    name: Right_Walkway_Steam_03
-    portionSize: 1
-    published: false
-  Smoke_Atlas:
-    id: 32730
-    name: Smoke_Atlas
-    portionSize: 1
-    published: false
-  Soft Myst:
-    id: 32624
-    name: Soft Myst
-    portionSize: 1
-    published: false
-  Sparks:
-    id: 32729
-    name: Sparks
-    portionSize: 1
-    published: false
-  Test Steam:
+  32615:
     id: 32615
     name: Test Steam
     portionSize: 1
     published: false
-  Vapor:
+  32623:
+    id: 32623
+    name: Falling Vapor
+    portionSize: 1
+    published: false
+  32624:
+    id: 32624
+    name: Soft Myst
+    portionSize: 1
+    published: false
+  32628:
+    id: 32628
+    name: Pressure Steam
+    portionSize: 1
+    published: false
+  32636:
+    id: 32636
+    name: Right_Balcony_Mist_01_Min
+    portionSize: 1
+    published: false
+  32637:
+    id: 32637
+    name: Left_Balcony_Mist_01_Min
+    portionSize: 1
+    published: false
+  32638:
+    id: 32638
+    name: Large_Atmo_Cloud_01
+    portionSize: 1
+    published: false
+  32644:
+    id: 32644
+    name: PressureSteam02
+    portionSize: 1
+    published: false
+  32666:
+    id: 32666
+    name: Left_Walkway_Steam_01
+    portionSize: 1
+    published: false
+  32667:
+    id: 32667
+    name: Right_Walkway_Steam_01
+    portionSize: 1
+    published: false
+  32679:
+    id: 32679
+    name: Pod_Smoke_01
+    portionSize: 1
+    published: false
+  32725:
     id: 32725
     name: Vapor
+    portionSize: 1
+    published: false
+  32727:
+    id: 32727
+    name: Noise
+    portionSize: 1
+    published: false
+  32728:
+    id: 32728
+    name: Collision
+    portionSize: 1
+    published: false
+  32729:
+    id: 32729
+    name: Sparks
+    portionSize: 1
+    published: false
+  32730:
+    id: 32730
+    name: Smoke_Atlas
+    portionSize: 1
+    published: false
+  32734:
+    id: 32734
+    name: Left_Walkway_Steam_02
+    portionSize: 1
+    published: false
+  32735:
+    id: 32735
+    name: Left_Walkway_Steam_03
+    portionSize: 1
+    published: false
+  32736:
+    id: 32736
+    name: Right_Walkway_Steam_02
+    portionSize: 1
+    published: false
+  32737:
+    id: 32737
+    name: Right_Walkway_Steam_03
     portionSize: 1
     published: false

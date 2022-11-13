@@ -83,7 +83,7 @@ public class MobileDepotBlueprint
         implements IMetaGroup<MobileDepotBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileDepotBlueprint.yaml";
-        private Map<String, MobileDepotBlueprint> cache = (null);
+        private Map<Integer, MobileDepotBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileDepotBlueprint> category() {
@@ -101,7 +101,7 @@ public class MobileDepotBlueprint
         }
 
         @Override
-        public synchronized Map<String, MobileDepotBlueprint> load() {
+        public synchronized Map<Integer, MobileDepotBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileDepotBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class MobileDepotBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileDepotBlueprint> types;
+            public LinkedHashMap<Integer, MobileDepotBlueprint> types;
         }
     }
 }

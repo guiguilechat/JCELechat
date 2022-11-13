@@ -1312,7 +1312,7 @@ public class PoliceDrone
         implements IMetaGroup<PoliceDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/PoliceDrone.yaml";
-        private Map<String, PoliceDrone> cache = (null);
+        private Map<Integer, PoliceDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super PoliceDrone> category() {
@@ -1330,7 +1330,7 @@ public class PoliceDrone
         }
 
         @Override
-        public synchronized Map<String, PoliceDrone> load() {
+        public synchronized Map<Integer, PoliceDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PoliceDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1344,7 +1344,7 @@ public class PoliceDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, PoliceDrone> types;
+            public LinkedHashMap<Integer, PoliceDrone> types;
         }
     }
 }

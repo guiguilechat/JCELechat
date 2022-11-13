@@ -97,7 +97,7 @@ public class TargetPainterBlueprint
         implements IMetaGroup<TargetPainterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/TargetPainterBlueprint.yaml";
-        private Map<String, TargetPainterBlueprint> cache = (null);
+        private Map<Integer, TargetPainterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super TargetPainterBlueprint> category() {
@@ -115,7 +115,7 @@ public class TargetPainterBlueprint
         }
 
         @Override
-        public synchronized Map<String, TargetPainterBlueprint> load() {
+        public synchronized Map<Integer, TargetPainterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TargetPainterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class TargetPainterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TargetPainterBlueprint> types;
+            public LinkedHashMap<Integer, TargetPainterBlueprint> types;
         }
     }
 }

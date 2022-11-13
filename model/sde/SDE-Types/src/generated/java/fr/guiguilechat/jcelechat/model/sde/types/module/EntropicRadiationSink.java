@@ -125,7 +125,7 @@ public class EntropicRadiationSink
         implements IMetaGroup<EntropicRadiationSink>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/EntropicRadiationSink.yaml";
-        private Map<String, EntropicRadiationSink> cache = (null);
+        private Map<Integer, EntropicRadiationSink> cache = (null);
 
         @Override
         public IMetaCategory<? super EntropicRadiationSink> category() {
@@ -143,7 +143,7 @@ public class EntropicRadiationSink
         }
 
         @Override
-        public synchronized Map<String, EntropicRadiationSink> load() {
+        public synchronized Map<Integer, EntropicRadiationSink> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EntropicRadiationSink.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -157,7 +157,7 @@ public class EntropicRadiationSink
         }
 
         private static class Container {
-            public LinkedHashMap<String, EntropicRadiationSink> types;
+            public LinkedHashMap<Integer, EntropicRadiationSink> types;
         }
     }
 }

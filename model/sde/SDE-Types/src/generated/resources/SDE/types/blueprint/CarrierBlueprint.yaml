@@ -1,5 +1,5 @@
 types:
-  Archon Blueprint:
+  23758:
     id: 23758
     industryblueprintrank: 200.0
     marketGroup: 888
@@ -10,7 +10,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Chimera Blueprint:
+  23912:
+    id: 23912
+    industryblueprintrank: 200.0
+    marketGroup: 890
+    name: Thanatos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.25E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  23916:
     id: 23916
     industryblueprintrank: 200.0
     marketGroup: 889
@@ -21,7 +32,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Nidhoggur Blueprint:
+  24484:
     id: 24484
     industryblueprintrank: 200.0
     marketGroup: 891
@@ -29,17 +40,6 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.15E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Thanatos Blueprint:
-    id: 23912
-    industryblueprintrank: 200.0
-    marketGroup: 890
-    name: Thanatos Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.25E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582

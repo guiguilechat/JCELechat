@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Structure Manufacturing Efficiency I:
+  43720:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20
@@ -27,7 +27,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Structure Manufacturing Efficiency II:
+  43721:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: -24

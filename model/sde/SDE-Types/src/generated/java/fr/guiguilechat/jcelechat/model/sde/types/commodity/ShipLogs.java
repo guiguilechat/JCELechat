@@ -32,7 +32,7 @@ public class ShipLogs
         implements IMetaGroup<ShipLogs>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/ShipLogs.yaml";
-        private Map<String, ShipLogs> cache = (null);
+        private Map<Integer, ShipLogs> cache = (null);
 
         @Override
         public IMetaCategory<? super ShipLogs> category() {
@@ -50,7 +50,7 @@ public class ShipLogs
         }
 
         @Override
-        public synchronized Map<String, ShipLogs> load() {
+        public synchronized Map<Integer, ShipLogs> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShipLogs.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class ShipLogs
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShipLogs> types;
+            public LinkedHashMap<Integer, ShipLogs> types;
         }
     }
 }

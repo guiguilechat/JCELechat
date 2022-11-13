@@ -84,7 +84,7 @@ public class HybridTechComponents
         implements IMetaGroup<HybridTechComponents>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/HybridTechComponents.yaml";
-        private Map<String, HybridTechComponents> cache = (null);
+        private Map<Integer, HybridTechComponents> cache = (null);
 
         @Override
         public IMetaCategory<? super HybridTechComponents> category() {
@@ -102,7 +102,7 @@ public class HybridTechComponents
         }
 
         @Override
-        public synchronized Map<String, HybridTechComponents> load() {
+        public synchronized Map<Integer, HybridTechComponents> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HybridTechComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -116,7 +116,7 @@ public class HybridTechComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridTechComponents> types;
+            public LinkedHashMap<Integer, HybridTechComponents> types;
         }
     }
 }

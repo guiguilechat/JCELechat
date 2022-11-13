@@ -293,7 +293,7 @@ public class AncillaryArmorRepairer
         implements IMetaGroup<AncillaryArmorRepairer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/AncillaryArmorRepairer.yaml";
-        private Map<String, AncillaryArmorRepairer> cache = (null);
+        private Map<Integer, AncillaryArmorRepairer> cache = (null);
 
         @Override
         public IMetaCategory<? super AncillaryArmorRepairer> category() {
@@ -311,7 +311,7 @@ public class AncillaryArmorRepairer
         }
 
         @Override
-        public synchronized Map<String, AncillaryArmorRepairer> load() {
+        public synchronized Map<Integer, AncillaryArmorRepairer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AncillaryArmorRepairer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -325,7 +325,7 @@ public class AncillaryArmorRepairer
         }
 
         private static class Container {
-            public LinkedHashMap<String, AncillaryArmorRepairer> types;
+            public LinkedHashMap<Integer, AncillaryArmorRepairer> types;
         }
     }
 }

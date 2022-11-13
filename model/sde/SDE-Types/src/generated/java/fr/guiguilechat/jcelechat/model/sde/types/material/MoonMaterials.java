@@ -84,7 +84,7 @@ public class MoonMaterials
         implements IMetaGroup<MoonMaterials>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/MoonMaterials.yaml";
-        private Map<String, MoonMaterials> cache = (null);
+        private Map<Integer, MoonMaterials> cache = (null);
 
         @Override
         public IMetaCategory<? super MoonMaterials> category() {
@@ -102,7 +102,7 @@ public class MoonMaterials
         }
 
         @Override
-        public synchronized Map<String, MoonMaterials> load() {
+        public synchronized Map<Integer, MoonMaterials> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MoonMaterials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -116,7 +116,7 @@ public class MoonMaterials
         }
 
         private static class Container {
-            public LinkedHashMap<String, MoonMaterials> types;
+            public LinkedHashMap<Integer, MoonMaterials> types;
         }
     }
 }

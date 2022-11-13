@@ -1,10 +1,10 @@
 types:
-  Encrypted Strongbox:
+  367765:
     id: 367765
     name: Encrypted Strongbox
     portionSize: 1
     published: false
-  Special Encrypted Strongbox:
+  367768:
     id: 367768
     name: Special Encrypted Strongbox
     portionSize: 1

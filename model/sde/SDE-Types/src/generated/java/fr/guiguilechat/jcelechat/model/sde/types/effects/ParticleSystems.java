@@ -32,7 +32,7 @@ public class ParticleSystems
         implements IMetaGroup<ParticleSystems>
     {
         public static final String RESOURCE_PATH = "SDE/types/effects/ParticleSystems.yaml";
-        private Map<String, ParticleSystems> cache = (null);
+        private Map<Integer, ParticleSystems> cache = (null);
 
         @Override
         public IMetaCategory<? super ParticleSystems> category() {
@@ -50,7 +50,7 @@ public class ParticleSystems
         }
 
         @Override
-        public synchronized Map<String, ParticleSystems> load() {
+        public synchronized Map<Integer, ParticleSystems> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ParticleSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class ParticleSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, ParticleSystems> types;
+            public LinkedHashMap<Integer, ParticleSystems> types;
         }
     }
 }

@@ -700,7 +700,7 @@ public class HiddenZenithAmarrCapital
         implements IMetaGroup<HiddenZenithAmarrCapital>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/HiddenZenithAmarrCapital.yaml";
-        private Map<String, HiddenZenithAmarrCapital> cache = (null);
+        private Map<Integer, HiddenZenithAmarrCapital> cache = (null);
 
         @Override
         public IMetaCategory<? super HiddenZenithAmarrCapital> category() {
@@ -718,7 +718,7 @@ public class HiddenZenithAmarrCapital
         }
 
         @Override
-        public synchronized Map<String, HiddenZenithAmarrCapital> load() {
+        public synchronized Map<Integer, HiddenZenithAmarrCapital> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HiddenZenithAmarrCapital.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -732,7 +732,7 @@ public class HiddenZenithAmarrCapital
         }
 
         private static class Container {
-            public LinkedHashMap<String, HiddenZenithAmarrCapital> types;
+            public LinkedHashMap<Integer, HiddenZenithAmarrCapital> types;
         }
     }
 }

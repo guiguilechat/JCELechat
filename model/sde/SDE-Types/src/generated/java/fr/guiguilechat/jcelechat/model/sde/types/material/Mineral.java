@@ -32,7 +32,7 @@ public class Mineral
         implements IMetaGroup<Mineral>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/Mineral.yaml";
-        private Map<String, Mineral> cache = (null);
+        private Map<Integer, Mineral> cache = (null);
 
         @Override
         public IMetaCategory<? super Mineral> category() {
@@ -50,7 +50,7 @@ public class Mineral
         }
 
         @Override
-        public synchronized Map<String, Mineral> load() {
+        public synchronized Map<Integer, Mineral> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Mineral.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Mineral
         }
 
         private static class Container {
-            public LinkedHashMap<String, Mineral> types;
+            public LinkedHashMap<Integer, Mineral> types;
         }
     }
 }

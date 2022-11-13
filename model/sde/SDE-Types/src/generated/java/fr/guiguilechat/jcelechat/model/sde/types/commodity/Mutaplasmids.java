@@ -32,7 +32,7 @@ public class Mutaplasmids
         implements IMetaGroup<Mutaplasmids>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Mutaplasmids.yaml";
-        private Map<String, Mutaplasmids> cache = (null);
+        private Map<Integer, Mutaplasmids> cache = (null);
 
         @Override
         public IMetaCategory<? super Mutaplasmids> category() {
@@ -50,7 +50,7 @@ public class Mutaplasmids
         }
 
         @Override
-        public synchronized Map<String, Mutaplasmids> load() {
+        public synchronized Map<Integer, Mutaplasmids> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Mutaplasmids.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Mutaplasmids
         }
 
         private static class Container {
-            public LinkedHashMap<String, Mutaplasmids> types;
+            public LinkedHashMap<Integer, Mutaplasmids> types;
         }
     }
 }

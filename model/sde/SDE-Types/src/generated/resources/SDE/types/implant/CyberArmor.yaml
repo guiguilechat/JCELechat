@@ -1,394 +1,5 @@
 types:
-  Imperial Navy Modified 'Noble' Implant:
-    armorhpbonus2: 3.0
-    id: 32254
-    implantness: 10
-    marketGroup: 1518
-    name: Imperial Navy Modified 'Noble' Implant
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    repairbonus: 3
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Hull Upgrades HG-1001:
-    armorhpbonus2: 1.0
-    id: 27074
-    implantness: 10
-    marketGroup: 1518
-    name: Inherent Implants 'Noble' Hull Upgrades HG-1001
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Hull Upgrades HG-1002:
-    armorhpbonus2: 2.0
-    id: 3479
-    implantness: 10
-    marketGroup: 1518
-    name: Inherent Implants 'Noble' Hull Upgrades HG-1002
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Hull Upgrades HG-1003:
-    armorhpbonus2: 3.0
-    id: 13256
-    implantness: 10
-    marketGroup: 1518
-    name: Inherent Implants 'Noble' Hull Upgrades HG-1003
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Hull Upgrades HG-1004:
-    armorhpbonus2: 4.0
-    id: 3481
-    implantness: 10
-    marketGroup: 1518
-    name: Inherent Implants 'Noble' Hull Upgrades HG-1004
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Hull Upgrades HG-1005:
-    armorhpbonus2: 5.0
-    id: 19550
-    implantness: 10
-    marketGroup: 1518
-    name: Inherent Implants 'Noble' Hull Upgrades HG-1005
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Hull Upgrades HG-1006:
-    armorhpbonus2: 6.0
-    id: 3482
-    implantness: 10
-    marketGroup: 1518
-    name: Inherent Implants 'Noble' Hull Upgrades HG-1006
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Hull Upgrades HG-1008:
-    armorhpbonus2: 8.0
-    id: 21606
-    implantness: 10
-    marketGroup: 1518
-    name: Inherent Implants 'Noble' Hull Upgrades HG-1008
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Mechanic MC-801:
-    hullhpbonus: 1.0
-    id: 27072
-    implantness: 8
-    marketGroup: 1516
-    name: Inherent Implants 'Noble' Mechanic MC-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Mechanic MC-802:
-    hullhpbonus: 2.0
-    id: 3471
-    implantness: 8
-    marketGroup: 1516
-    name: Inherent Implants 'Noble' Mechanic MC-802
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Mechanic MC-803:
-    hullhpbonus: 3.0
-    id: 13257
-    implantness: 8
-    marketGroup: 1516
-    name: Inherent Implants 'Noble' Mechanic MC-803
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Mechanic MC-804:
-    hullhpbonus: 4.0
-    id: 3474
-    implantness: 8
-    marketGroup: 1516
-    name: Inherent Implants 'Noble' Mechanic MC-804
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Mechanic MC-805:
-    hullhpbonus: 5.0
-    id: 19549
-    implantness: 8
-    marketGroup: 1516
-    name: Inherent Implants 'Noble' Mechanic MC-805
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Mechanic MC-806:
-    hullhpbonus: 6.0
-    id: 3475
-    implantness: 8
-    marketGroup: 1516
-    name: Inherent Implants 'Noble' Mechanic MC-806
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Remote Armor Repair Systems RA-701:
-    capneedbonus: -1
-    id: 27071
-    implantness: 7
-    marketGroup: 1515
-    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-701
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Remote Armor Repair Systems RA-702:
-    capneedbonus: -2
-    id: 3414
-    implantness: 7
-    marketGroup: 1515
-    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-702
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Remote Armor Repair Systems RA-703:
-    capneedbonus: -3
-    id: 17871
-    implantness: 7
-    marketGroup: 1515
-    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-703
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Remote Armor Repair Systems RA-704:
-    capneedbonus: -4
-    id: 3415
-    implantness: 7
-    marketGroup: 1515
-    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-704
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Remote Armor Repair Systems RA-705:
-    capneedbonus: -5
-    id: 19548
-    implantness: 7
-    marketGroup: 1515
-    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-705
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Remote Armor Repair Systems RA-706:
-    capneedbonus: -6
-    id: 3470
-    implantness: 7
-    marketGroup: 1515
-    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-706
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Proficiency RP-901:
-    id: 27073
-    implantness: 9
-    marketGroup: 1517
-    name: Inherent Implants 'Noble' Repair Proficiency RP-901
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    repairbonus: 1
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Proficiency RP-902:
-    id: 3476
-    implantness: 9
-    marketGroup: 1517
-    name: Inherent Implants 'Noble' Repair Proficiency RP-902
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    repairbonus: 2
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Proficiency RP-903:
-    id: 19684
-    implantness: 9
-    marketGroup: 1517
-    name: Inherent Implants 'Noble' Repair Proficiency RP-903
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    repairbonus: 3
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Proficiency RP-904:
-    id: 3477
-    implantness: 9
-    marketGroup: 1517
-    name: Inherent Implants 'Noble' Repair Proficiency RP-904
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    repairbonus: 4
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Proficiency RP-905:
-    id: 19685
-    implantness: 9
-    marketGroup: 1517
-    name: Inherent Implants 'Noble' Repair Proficiency RP-905
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    repairbonus: 5
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Proficiency RP-906:
-    id: 3478
-    implantness: 9
-    marketGroup: 1517
-    name: Inherent Implants 'Noble' Repair Proficiency RP-906
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    repairbonus: 6
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Systems RS-601:
-    durationskillbonus: -1
-    id: 27070
-    implantness: 6
-    marketGroup: 1514
-    name: Inherent Implants 'Noble' Repair Systems RS-601
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Systems RS-602:
+  3291:
     durationskillbonus: -2
     id: 3291
     implantness: 6
@@ -403,22 +14,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Noble' Repair Systems RS-603:
-    durationskillbonus: -3
-    id: 13258
-    implantness: 6
-    marketGroup: 1514
-    name: Inherent Implants 'Noble' Repair Systems RS-603
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Systems RS-604:
+  3292:
     durationskillbonus: -4
     id: 3292
     implantness: 6
@@ -433,21 +29,7 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Noble' Repair Systems RS-605:
-    durationskillbonus: -5
-    id: 19547
-    implantness: 6
-    marketGroup: 1514
-    name: Inherent Implants 'Noble' Repair Systems RS-605
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Noble' Repair Systems RS-606:
+  3299:
     durationskillbonus: -6
     id: 3299
     implantness: 6
@@ -461,7 +43,322 @@ types:
     requiredskill1level: 5
     techlevel: 1
     volume: 1.0
-  Numon Family Heirloom:
+  3414:
+    capneedbonus: -2
+    id: 3414
+    implantness: 7
+    marketGroup: 1515
+    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-702
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3415:
+    capneedbonus: -4
+    id: 3415
+    implantness: 7
+    marketGroup: 1515
+    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-704
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3470:
+    capneedbonus: -6
+    id: 3470
+    implantness: 7
+    marketGroup: 1515
+    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-706
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3471:
+    hullhpbonus: 2.0
+    id: 3471
+    implantness: 8
+    marketGroup: 1516
+    name: Inherent Implants 'Noble' Mechanic MC-802
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3474:
+    hullhpbonus: 4.0
+    id: 3474
+    implantness: 8
+    marketGroup: 1516
+    name: Inherent Implants 'Noble' Mechanic MC-804
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3475:
+    hullhpbonus: 6.0
+    id: 3475
+    implantness: 8
+    marketGroup: 1516
+    name: Inherent Implants 'Noble' Mechanic MC-806
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3476:
+    id: 3476
+    implantness: 9
+    marketGroup: 1517
+    name: Inherent Implants 'Noble' Repair Proficiency RP-902
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    repairbonus: 2
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3477:
+    id: 3477
+    implantness: 9
+    marketGroup: 1517
+    name: Inherent Implants 'Noble' Repair Proficiency RP-904
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    repairbonus: 4
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3478:
+    id: 3478
+    implantness: 9
+    marketGroup: 1517
+    name: Inherent Implants 'Noble' Repair Proficiency RP-906
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    repairbonus: 6
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3479:
+    armorhpbonus2: 2.0
+    id: 3479
+    implantness: 10
+    marketGroup: 1518
+    name: Inherent Implants 'Noble' Hull Upgrades HG-1002
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3481:
+    armorhpbonus2: 4.0
+    id: 3481
+    implantness: 10
+    marketGroup: 1518
+    name: Inherent Implants 'Noble' Hull Upgrades HG-1004
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3482:
+    armorhpbonus2: 6.0
+    id: 3482
+    implantness: 10
+    marketGroup: 1518
+    name: Inherent Implants 'Noble' Hull Upgrades HG-1006
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  13256:
+    armorhpbonus2: 3.0
+    id: 13256
+    implantness: 10
+    marketGroup: 1518
+    name: Inherent Implants 'Noble' Hull Upgrades HG-1003
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13257:
+    hullhpbonus: 3.0
+    id: 13257
+    implantness: 8
+    marketGroup: 1516
+    name: Inherent Implants 'Noble' Mechanic MC-803
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13258:
+    durationskillbonus: -3
+    id: 13258
+    implantness: 6
+    marketGroup: 1514
+    name: Inherent Implants 'Noble' Repair Systems RS-603
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  17871:
+    capneedbonus: -3
+    id: 17871
+    implantness: 7
+    marketGroup: 1515
+    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-703
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  19547:
+    durationskillbonus: -5
+    id: 19547
+    implantness: 6
+    marketGroup: 1514
+    name: Inherent Implants 'Noble' Repair Systems RS-605
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19548:
+    capneedbonus: -5
+    id: 19548
+    implantness: 7
+    marketGroup: 1515
+    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-705
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19549:
+    hullhpbonus: 5.0
+    id: 19549
+    implantness: 8
+    marketGroup: 1516
+    name: Inherent Implants 'Noble' Mechanic MC-805
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19550:
+    armorhpbonus2: 5.0
+    id: 19550
+    implantness: 10
+    marketGroup: 1518
+    name: Inherent Implants 'Noble' Hull Upgrades HG-1005
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19684:
+    id: 19684
+    implantness: 9
+    marketGroup: 1517
+    name: Inherent Implants 'Noble' Repair Proficiency RP-903
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    repairbonus: 3
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  19685:
+    id: 19685
+    implantness: 9
+    marketGroup: 1517
+    name: Inherent Implants 'Noble' Repair Proficiency RP-905
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    repairbonus: 5
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  20358:
     durationskillbonus: -7
     id: 20358
     implantness: 6
@@ -473,5 +370,108 @@ types:
     radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  21606:
+    armorhpbonus2: 8.0
+    id: 21606
+    implantness: 10
+    marketGroup: 1518
+    name: Inherent Implants 'Noble' Hull Upgrades HG-1008
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  27070:
+    durationskillbonus: -1
+    id: 27070
+    implantness: 6
+    marketGroup: 1514
+    name: Inherent Implants 'Noble' Repair Systems RS-601
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27071:
+    capneedbonus: -1
+    id: 27071
+    implantness: 7
+    marketGroup: 1515
+    name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-701
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27072:
+    hullhpbonus: 1.0
+    id: 27072
+    implantness: 8
+    marketGroup: 1516
+    name: Inherent Implants 'Noble' Mechanic MC-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27073:
+    id: 27073
+    implantness: 9
+    marketGroup: 1517
+    name: Inherent Implants 'Noble' Repair Proficiency RP-901
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    repairbonus: 1
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27074:
+    armorhpbonus2: 1.0
+    id: 27074
+    implantness: 10
+    marketGroup: 1518
+    name: Inherent Implants 'Noble' Hull Upgrades HG-1001
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  32254:
+    armorhpbonus2: 3.0
+    id: 32254
+    implantness: 10
+    marketGroup: 1518
+    name: Imperial Navy Modified 'Noble' Implant
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    repairbonus: 3
+    requiredskill1: 3411
+    requiredskill1level: 2
     techlevel: 1
     volume: 1.0

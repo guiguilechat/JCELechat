@@ -1,5 +1,5 @@
 types:
-  Intact Power Cores:
+  30582:
     id: 30582
     industryblueprintrank: 2.0
     marketGroup: 1909
@@ -9,7 +9,7 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
-  Malfunctioning Power Cores:
+  30586:
     id: 30586
     industryblueprintrank: 2.0
     marketGroup: 1909
@@ -19,7 +19,7 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
-  Wrecked Power Cores:
+  30588:
     id: 30588
     industryblueprintrank: 2.0
     marketGroup: 1909

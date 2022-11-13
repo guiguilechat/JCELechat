@@ -157,7 +157,7 @@ public class ReinforcedBulkhead
         implements IMetaGroup<ReinforcedBulkhead>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ReinforcedBulkhead.yaml";
-        private Map<String, ReinforcedBulkhead> cache = (null);
+        private Map<Integer, ReinforcedBulkhead> cache = (null);
 
         @Override
         public IMetaCategory<? super ReinforcedBulkhead> category() {
@@ -175,7 +175,7 @@ public class ReinforcedBulkhead
         }
 
         @Override
-        public synchronized Map<String, ReinforcedBulkhead> load() {
+        public synchronized Map<Integer, ReinforcedBulkhead> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ReinforcedBulkhead.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -189,7 +189,7 @@ public class ReinforcedBulkhead
         }
 
         private static class Container {
-            public LinkedHashMap<String, ReinforcedBulkhead> types;
+            public LinkedHashMap<Integer, ReinforcedBulkhead> types;
         }
     }
 }

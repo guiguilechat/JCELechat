@@ -123,7 +123,7 @@ public class TriglavianSpaceFilaments
         implements IMetaGroup<TriglavianSpaceFilaments>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/TriglavianSpaceFilaments.yaml";
-        private Map<String, TriglavianSpaceFilaments> cache = (null);
+        private Map<Integer, TriglavianSpaceFilaments> cache = (null);
 
         @Override
         public IMetaCategory<? super TriglavianSpaceFilaments> category() {
@@ -141,7 +141,7 @@ public class TriglavianSpaceFilaments
         }
 
         @Override
-        public synchronized Map<String, TriglavianSpaceFilaments> load() {
+        public synchronized Map<Integer, TriglavianSpaceFilaments> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TriglavianSpaceFilaments.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -155,7 +155,7 @@ public class TriglavianSpaceFilaments
         }
 
         private static class Container {
-            public LinkedHashMap<String, TriglavianSpaceFilaments> types;
+            public LinkedHashMap<Integer, TriglavianSpaceFilaments> types;
         }
     }
 }

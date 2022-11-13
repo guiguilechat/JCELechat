@@ -104,7 +104,7 @@ public class Targeting
         implements IMetaGroup<Targeting>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Targeting.yaml";
-        private Map<String, Targeting> cache = (null);
+        private Map<Integer, Targeting> cache = (null);
 
         @Override
         public IMetaCategory<? super Targeting> category() {
@@ -122,7 +122,7 @@ public class Targeting
         }
 
         @Override
-        public synchronized Map<String, Targeting> load() {
+        public synchronized Map<Integer, Targeting> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Targeting.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -136,7 +136,7 @@ public class Targeting
         }
 
         private static class Container {
-            public LinkedHashMap<String, Targeting> types;
+            public LinkedHashMap<Integer, Targeting> types;
         }
     }
 }

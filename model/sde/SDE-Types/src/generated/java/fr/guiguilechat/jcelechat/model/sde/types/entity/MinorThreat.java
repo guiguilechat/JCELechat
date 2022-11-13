@@ -1300,7 +1300,7 @@ public class MinorThreat
         implements IMetaGroup<MinorThreat>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MinorThreat.yaml";
-        private Map<String, MinorThreat> cache = (null);
+        private Map<Integer, MinorThreat> cache = (null);
 
         @Override
         public IMetaCategory<? super MinorThreat> category() {
@@ -1318,7 +1318,7 @@ public class MinorThreat
         }
 
         @Override
-        public synchronized Map<String, MinorThreat> load() {
+        public synchronized Map<Integer, MinorThreat> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MinorThreat.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1332,7 +1332,7 @@ public class MinorThreat
         }
 
         private static class Container {
-            public LinkedHashMap<String, MinorThreat> types;
+            public LinkedHashMap<Integer, MinorThreat> types;
         }
     }
 }

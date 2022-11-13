@@ -83,7 +83,7 @@ public class ForceAuxiliaryBlueprint
         implements IMetaGroup<ForceAuxiliaryBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ForceAuxiliaryBlueprint.yaml";
-        private Map<String, ForceAuxiliaryBlueprint> cache = (null);
+        private Map<Integer, ForceAuxiliaryBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ForceAuxiliaryBlueprint> category() {
@@ -101,7 +101,7 @@ public class ForceAuxiliaryBlueprint
         }
 
         @Override
-        public synchronized Map<String, ForceAuxiliaryBlueprint> load() {
+        public synchronized Map<Integer, ForceAuxiliaryBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ForceAuxiliaryBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class ForceAuxiliaryBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ForceAuxiliaryBlueprint> types;
+            public LinkedHashMap<Integer, ForceAuxiliaryBlueprint> types;
         }
     }
 }

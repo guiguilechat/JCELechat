@@ -188,7 +188,7 @@ public class Missiles
         implements IMetaGroup<Missiles>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Missiles.yaml";
-        private Map<String, Missiles> cache = (null);
+        private Map<Integer, Missiles> cache = (null);
 
         @Override
         public IMetaCategory<? super Missiles> category() {
@@ -206,7 +206,7 @@ public class Missiles
         }
 
         @Override
-        public synchronized Map<String, Missiles> load() {
+        public synchronized Map<Integer, Missiles> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Missiles.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -220,7 +220,7 @@ public class Missiles
         }
 
         private static class Container {
-            public LinkedHashMap<String, Missiles> types;
+            public LinkedHashMap<Integer, Missiles> types;
         }
     }
 }

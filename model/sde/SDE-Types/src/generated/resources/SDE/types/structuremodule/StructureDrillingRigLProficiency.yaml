@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Moon Drilling Proficiency I:
+  46327:
     canfitshipgroup03: 1406
     hp: 40.0
     id: 46327
@@ -22,7 +22,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Moon Drilling Proficiency II:
+  46328:
     canfitshipgroup03: 1406
     hp: 40.0
     id: 46328

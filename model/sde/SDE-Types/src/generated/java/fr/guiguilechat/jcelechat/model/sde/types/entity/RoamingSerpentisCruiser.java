@@ -905,7 +905,7 @@ public class RoamingSerpentisCruiser
         implements IMetaGroup<RoamingSerpentisCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/RoamingSerpentisCruiser.yaml";
-        private Map<String, RoamingSerpentisCruiser> cache = (null);
+        private Map<Integer, RoamingSerpentisCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super RoamingSerpentisCruiser> category() {
@@ -923,7 +923,7 @@ public class RoamingSerpentisCruiser
         }
 
         @Override
-        public synchronized Map<String, RoamingSerpentisCruiser> load() {
+        public synchronized Map<Integer, RoamingSerpentisCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RoamingSerpentisCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -937,7 +937,7 @@ public class RoamingSerpentisCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingSerpentisCruiser> types;
+            public LinkedHashMap<Integer, RoamingSerpentisCruiser> types;
         }
     }
 }

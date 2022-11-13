@@ -1718,7 +1718,7 @@ public class AbyssalSpaceshipEntities
         implements IMetaGroup<AbyssalSpaceshipEntities>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AbyssalSpaceshipEntities.yaml";
-        private Map<String, AbyssalSpaceshipEntities> cache = (null);
+        private Map<Integer, AbyssalSpaceshipEntities> cache = (null);
 
         @Override
         public IMetaCategory<? super AbyssalSpaceshipEntities> category() {
@@ -1736,7 +1736,7 @@ public class AbyssalSpaceshipEntities
         }
 
         @Override
-        public synchronized Map<String, AbyssalSpaceshipEntities> load() {
+        public synchronized Map<Integer, AbyssalSpaceshipEntities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AbyssalSpaceshipEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1750,7 +1750,7 @@ public class AbyssalSpaceshipEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, AbyssalSpaceshipEntities> types;
+            public LinkedHashMap<Integer, AbyssalSpaceshipEntities> types;
         }
     }
 }

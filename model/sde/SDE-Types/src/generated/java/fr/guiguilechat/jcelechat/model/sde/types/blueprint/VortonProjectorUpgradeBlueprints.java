@@ -32,7 +32,7 @@ public class VortonProjectorUpgradeBlueprints
         implements IMetaGroup<VortonProjectorUpgradeBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/VortonProjectorUpgradeBlueprints.yaml";
-        private Map<String, VortonProjectorUpgradeBlueprints> cache = (null);
+        private Map<Integer, VortonProjectorUpgradeBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super VortonProjectorUpgradeBlueprints> category() {
@@ -50,7 +50,7 @@ public class VortonProjectorUpgradeBlueprints
         }
 
         @Override
-        public synchronized Map<String, VortonProjectorUpgradeBlueprints> load() {
+        public synchronized Map<Integer, VortonProjectorUpgradeBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(VortonProjectorUpgradeBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class VortonProjectorUpgradeBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, VortonProjectorUpgradeBlueprints> types;
+            public LinkedHashMap<Integer, VortonProjectorUpgradeBlueprints> types;
         }
     }
 }

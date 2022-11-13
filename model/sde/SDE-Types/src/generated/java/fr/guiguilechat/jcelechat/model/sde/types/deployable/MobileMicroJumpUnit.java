@@ -227,7 +227,7 @@ public class MobileMicroJumpUnit
         implements IMetaGroup<MobileMicroJumpUnit>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileMicroJumpUnit.yaml";
-        private Map<String, MobileMicroJumpUnit> cache = (null);
+        private Map<Integer, MobileMicroJumpUnit> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileMicroJumpUnit> category() {
@@ -245,7 +245,7 @@ public class MobileMicroJumpUnit
         }
 
         @Override
-        public synchronized Map<String, MobileMicroJumpUnit> load() {
+        public synchronized Map<Integer, MobileMicroJumpUnit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileMicroJumpUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -259,7 +259,7 @@ public class MobileMicroJumpUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileMicroJumpUnit> types;
+            public LinkedHashMap<Integer, MobileMicroJumpUnit> types;
         }
     }
 }

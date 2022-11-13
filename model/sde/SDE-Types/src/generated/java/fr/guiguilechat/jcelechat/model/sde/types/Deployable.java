@@ -24,12 +24,13 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.EncounterSurveillanceSystem;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.FWListeningOutpost;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.FWPropagandaBroadcastStructure;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileAnalysisBeacon;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileCynoInhibitor;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileCynosuralBeacon;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileDepot;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileMicroJumpUnit;
-import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileObjective;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileObservatory;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileScanInhibitor;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileSiphonUnit;
@@ -190,7 +191,7 @@ public abstract class Deployable
 
         @Override
         public Collection<IMetaGroup<? extends Deployable>> groups() {
-            return Arrays.asList(MobileObservatory.METAGROUP, MobileAnalysisBeacon.METAGROUP, MobileWarpDisruptor.METAGROUP, MobileObjective.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP, MobileCynosuralBeacon.METAGROUP);
+            return Arrays.asList(MobileObservatory.METAGROUP, MobileAnalysisBeacon.METAGROUP, MobileWarpDisruptor.METAGROUP, FWPropagandaBroadcastStructure.METAGROUP, FWListeningOutpost.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP, MobileCynosuralBeacon.METAGROUP);
         }
     }
 }

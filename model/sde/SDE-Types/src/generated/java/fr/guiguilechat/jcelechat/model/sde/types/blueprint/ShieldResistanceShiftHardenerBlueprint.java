@@ -32,7 +32,7 @@ public class ShieldResistanceShiftHardenerBlueprint
         implements IMetaGroup<ShieldResistanceShiftHardenerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ShieldResistanceShiftHardenerBlueprint.yaml";
-        private Map<String, ShieldResistanceShiftHardenerBlueprint> cache = (null);
+        private Map<Integer, ShieldResistanceShiftHardenerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldResistanceShiftHardenerBlueprint> category() {
@@ -50,7 +50,7 @@ public class ShieldResistanceShiftHardenerBlueprint
         }
 
         @Override
-        public synchronized Map<String, ShieldResistanceShiftHardenerBlueprint> load() {
+        public synchronized Map<Integer, ShieldResistanceShiftHardenerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldResistanceShiftHardenerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class ShieldResistanceShiftHardenerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldResistanceShiftHardenerBlueprint> types;
+            public LinkedHashMap<Integer, ShieldResistanceShiftHardenerBlueprint> types;
         }
     }
 }

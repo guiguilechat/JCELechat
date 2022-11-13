@@ -1,5 +1,5 @@
 types:
-  Amarr Battleship Vessel:
+  29236:
     armoremdamageresonance: 0.6000000238418579
     armorexplosivedamageresonance: 0.30000001192092896
     armorhp: 4250.0
@@ -81,7 +81,7 @@ types:
     volume: 1100000.0
     warpscramblerange: 20000
     warpscramblestrength: 2
-  Caldari Battleship Vessel:
+  29237:
     armoremdamageresonance: 0.30000001192092896
     armorexplosivedamageresonance: 0.4000000059604645
     armorhp: 3500.0
@@ -163,7 +163,7 @@ types:
     volume: 1040000.0
     warpscramblerange: 22500
     warpscramblestrength: 2
-  Gallente Battleship Vessel:
+  29240:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
@@ -243,90 +243,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.05000000074505806
     volume: 1010000.0
-  Karsten Lundham's Typhoon:
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.6000000238418579
-    armorhp: 3500.0
-    armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.4000000059604645
-    armoruniformity: 0.75
-    capacitorcapacity: 2500.0
-    capacity: 120.0
-    damagemultiplier: 5.0
-    disallowassistance: 1
-    entityarmorrepairamount: 350.0
-    entityarmorrepairdelaychance: 0.75
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 14400
-    entityattackdelaymin: 3600
-    entityattackrange: 21600
-    entitybracketcolour: 2
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.625
-    entitychasemaxdistance: 14400
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 175.0
-    entitydefenderchance: 0.10499999672174454
-    entityequipmentmax: 4
-    entityequipmentmin: -3
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 7200.0
-    entitygrouprespawnchance: 1
-    entitylootcountmin: 1
-    entitymissiletypeid: 205
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
-    entitysecuritymaxgain: 5.0
-    entityshieldboostamount: 175.0
-    entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancelarge: 0.6000000238418579
-    entityshieldboostduration: 5000
-    explosivedamage: 32.0
-    falloff: 16000.0
-    gfxboosterid: 397
-    gfxturretid: 494
-    hp: 4500.0
-    id: 32784
-    kineticdamage: 8.0
-    mass: 1.9E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1000
-    maxrange: 3200.0
-    maxvelocity: 350.0
-    mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.786899983882904
-    missileentityaoevelocitymultiplier: 1.426200032234192
-    missileentityflighttimemultiplier: 1.426200032234192
-    missileentityvelocitymultiplier: 1.426200032234192
-    missilelaunchduration: 1.0
-    name: Karsten Lundham's Typhoon
-    optimalsigradius: 400
-    packagedVolume: 1.9E7
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanladarstrength: 20.0
-    scanresolution: 115.0
-    scanspeed: 6750
-    shieldcapacity: 3975.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 0.75
-    signatureradius: 320.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    trackingspeed: 0.05400000140070915
-    volume: 1.9E7
-    warpscramblerange: 20000
-    warpscramblestrength: 2
-  Minmatar Battleship Vessel:
+  29243:
     armoremdamageresonance: 0.30000001192092896
     armorexplosivedamageresonance: 0.6000000238418579
     armorhp: 3500.0
@@ -401,6 +318,89 @@ types:
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.4000000059604645
+    shielduniformity: 0.75
+    signatureradius: 320.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    trackingspeed: 0.05400000140070915
+    volume: 1.9E7
+    warpscramblerange: 20000
+    warpscramblestrength: 2
+  32784:
+    armoremdamageresonance: 0.30000001192092896
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 3500.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.4000000059604645
+    armoruniformity: 0.75
+    capacitorcapacity: 2500.0
+    capacity: 120.0
+    damagemultiplier: 5.0
+    disallowassistance: 1
+    entityarmorrepairamount: 350.0
+    entityarmorrepairdelaychance: 0.75
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 14400
+    entityattackdelaymin: 3600
+    entityattackrange: 21600
+    entitybracketcolour: 2
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.625
+    entitychasemaxdistance: 14400
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 175.0
+    entitydefenderchance: 0.10499999672174454
+    entityequipmentmax: 4
+    entityequipmentmin: -3
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 7200.0
+    entitygrouprespawnchance: 1
+    entitylootcountmin: 1
+    entitymissiletypeid: 205
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.7699999809265137
+    entitysecuritymaxgain: 5.0
+    entityshieldboostamount: 175.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostdelaychancelarge: 0.6000000238418579
+    entityshieldboostduration: 5000
+    explosivedamage: 32.0
+    falloff: 16000.0
+    gfxboosterid: 397
+    gfxturretid: 494
+    hp: 4500.0
+    id: 32784
+    kineticdamage: 8.0
+    mass: 1.9E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1000
+    maxrange: 3200.0
+    maxvelocity: 350.0
+    mintargetveldmgmultiplier: 0.5
+    missiledamagemultiplier: 1.25
+    missileentityaoecloudsizemultiplier: 0.786899983882904
+    missileentityaoevelocitymultiplier: 1.426200032234192
+    missileentityflighttimemultiplier: 1.426200032234192
+    missileentityvelocitymultiplier: 1.426200032234192
+    missilelaunchduration: 1.0
+    name: Karsten Lundham's Typhoon
+    optimalsigradius: 400
+    packagedVolume: 1.9E7
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanladarstrength: 20.0
+    scanresolution: 115.0
+    scanspeed: 6750
+    shieldcapacity: 3975.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
     signatureradius: 320.0
     speed: 2500.0

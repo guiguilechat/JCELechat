@@ -294,7 +294,7 @@ public class CynosuralSystemJammer
         implements IMetaGroup<CynosuralSystemJammer>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/CynosuralSystemJammer.yaml";
-        private Map<String, CynosuralSystemJammer> cache = (null);
+        private Map<Integer, CynosuralSystemJammer> cache = (null);
 
         @Override
         public IMetaCategory<? super CynosuralSystemJammer> category() {
@@ -312,7 +312,7 @@ public class CynosuralSystemJammer
         }
 
         @Override
-        public synchronized Map<String, CynosuralSystemJammer> load() {
+        public synchronized Map<Integer, CynosuralSystemJammer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CynosuralSystemJammer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -326,7 +326,7 @@ public class CynosuralSystemJammer
         }
 
         private static class Container {
-            public LinkedHashMap<String, CynosuralSystemJammer> types;
+            public LinkedHashMap<Integer, CynosuralSystemJammer> types;
         }
     }
 }

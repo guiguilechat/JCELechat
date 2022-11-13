@@ -1,41 +1,5 @@
 types:
-  Inferno Javelin Heavy Assault Missile:
-    agility: 0.0019947297405451536
-    aimedlaunch: 1
-    aoecloudsize: 125
-    aoedamagereductionfactor: 0.8949999809265137
-    aoefalloff: 1500
-    aoevelocity: 101
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 4000
-    explosivedamageresonance: 1.0
-    hp: 60.0
-    id: 24494
-    kineticdamageresonance: 1.0
-    launchergroup: 771
-    marketGroup: 972
-    mass: 625.0
-    maxvelocity: 3375.0
-    metalevelold: 5
-    name: Inferno Javelin Heavy Assault Missile
-    packagedVolume: 0.014999999664723873
-    portionSize: 5000
-    price: 126160.0
-    published: true
-    radius: 300.0
-    requiredskill1: 25718
-    requiredskill1level: 1
-    requiredskill2: 25719
-    requiredskill2level: 5
-    requiredskill3: 3319
-    requiredskill3level: 5
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamage: 90.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.014999999664723873
-  Inferno Rage Heavy Assault Missile:
+  2679:
     agility: 67.54669189453125
     aimedlaunch: 1
     aoecloudsize: 215
@@ -47,51 +11,15 @@ types:
     explosiondelay: 4000
     explosivedamageresonance: 1.0
     hp: 180.0
-    id: 24486
-    kineticdamageresonance: 1.0
+    id: 2679
+    kineticdamage: 155.3000030517578
+    kineticdamageresonance: 0.800000011920929
     launchergroup: 771
     marketGroup: 973
     mass: 700.0
     maxvelocity: 1875.0
     metalevelold: 5
-    name: Inferno Rage Heavy Assault Missile
-    packagedVolume: 0.014999999664723873
-    portionSize: 5000
-    price: 126160.0
-    published: true
-    radius: 300.0
-    requiredskill1: 25718
-    requiredskill1level: 1
-    requiredskill2: 25719
-    requiredskill2level: 5
-    requiredskill3: 3319
-    requiredskill3level: 5
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamage: 155.3000030517578
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.014999999664723873
-  Mjolnir Javelin Heavy Assault Missile:
-    agility: 0.0019947297405451536
-    aimedlaunch: 1
-    aoecloudsize: 125
-    aoedamagereductionfactor: 0.8949999809265137
-    aoefalloff: 1500
-    aoevelocity: 101
-    detonationrange: 35
-    emdamage: 90.0
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 4000
-    explosivedamageresonance: 1.0
-    hp: 60.0
-    id: 24493
-    kineticdamageresonance: 1.0
-    launchergroup: 771
-    marketGroup: 972
-    mass: 625.0
-    maxvelocity: 3375.0
-    metalevelold: 5
-    name: Mjolnir Javelin Heavy Assault Missile
+    name: Scourge Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 126160.0
@@ -107,43 +35,7 @@ types:
     techlevel: 2
     thermaldamageresonance: 1.0
     volume: 0.014999999664723873
-  Mjolnir Rage Heavy Assault Missile:
-    agility: 67.54669189453125
-    aimedlaunch: 1
-    aoecloudsize: 215
-    aoedamagereductionfactor: 0.9200000166893005
-    aoefalloff: 1500
-    aoevelocity: 87
-    detonationrange: 35
-    emdamage: 155.3000030517578
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 4000
-    explosivedamageresonance: 1.0
-    hp: 180.0
-    id: 24490
-    kineticdamageresonance: 1.0
-    launchergroup: 771
-    marketGroup: 973
-    mass: 700.0
-    maxvelocity: 1875.0
-    metalevelold: 5
-    name: Mjolnir Rage Heavy Assault Missile
-    packagedVolume: 0.014999999664723873
-    portionSize: 5000
-    price: 126160.0
-    published: true
-    radius: 300.0
-    requiredskill1: 25718
-    requiredskill1level: 1
-    requiredskill2: 25719
-    requiredskill2level: 5
-    requiredskill3: 3319
-    requiredskill3level: 5
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
-  Nova Javelin Heavy Assault Missile:
+  13856:
     agility: 0.0019947297405451536
     aimedlaunch: 1
     aoecloudsize: 125
@@ -179,7 +71,43 @@ types:
     techlevel: 2
     thermaldamageresonance: 1.0
     volume: 0.014999999664723873
-  Nova Rage Heavy Assault Missile:
+  24486:
+    agility: 67.54669189453125
+    aimedlaunch: 1
+    aoecloudsize: 215
+    aoedamagereductionfactor: 0.9200000166893005
+    aoefalloff: 1500
+    aoevelocity: 87
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 180.0
+    id: 24486
+    kineticdamageresonance: 1.0
+    launchergroup: 771
+    marketGroup: 973
+    mass: 700.0
+    maxvelocity: 1875.0
+    metalevelold: 5
+    name: Inferno Rage Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
+    price: 126160.0
+    published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 155.3000030517578
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.014999999664723873
+  24488:
     agility: 67.54669189453125
     aimedlaunch: 1
     aoecloudsize: 215
@@ -215,7 +143,43 @@ types:
     techlevel: 2
     thermaldamageresonance: 1.0
     volume: 0.014999999664723873
-  Scourge Javelin Heavy Assault Missile:
+  24490:
+    agility: 67.54669189453125
+    aimedlaunch: 1
+    aoecloudsize: 215
+    aoedamagereductionfactor: 0.9200000166893005
+    aoefalloff: 1500
+    aoevelocity: 87
+    detonationrange: 35
+    emdamage: 155.3000030517578
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 180.0
+    id: 24490
+    kineticdamageresonance: 1.0
+    launchergroup: 771
+    marketGroup: 973
+    mass: 700.0
+    maxvelocity: 1875.0
+    metalevelold: 5
+    name: Mjolnir Rage Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
+    price: 126160.0
+    published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    volume: 0.014999999664723873
+  24492:
     agility: 0.0019947297405451536
     aimedlaunch: 1
     aoecloudsize: 125
@@ -251,27 +215,27 @@ types:
     techlevel: 2
     thermaldamageresonance: 1.0
     volume: 0.014999999664723873
-  Scourge Rage Heavy Assault Missile:
-    agility: 67.54669189453125
+  24493:
+    agility: 0.0019947297405451536
     aimedlaunch: 1
-    aoecloudsize: 215
-    aoedamagereductionfactor: 0.9200000166893005
+    aoecloudsize: 125
+    aoedamagereductionfactor: 0.8949999809265137
     aoefalloff: 1500
-    aoevelocity: 87
+    aoevelocity: 101
     detonationrange: 35
-    emdamageresonance: 1.0
+    emdamage: 90.0
+    emdamageresonance: 0.800000011920929
     explosiondelay: 4000
     explosivedamageresonance: 1.0
-    hp: 180.0
-    id: 2679
-    kineticdamage: 155.3000030517578
-    kineticdamageresonance: 0.800000011920929
+    hp: 60.0
+    id: 24493
+    kineticdamageresonance: 1.0
     launchergroup: 771
-    marketGroup: 973
-    mass: 700.0
-    maxvelocity: 1875.0
+    marketGroup: 972
+    mass: 625.0
+    maxvelocity: 3375.0
     metalevelold: 5
-    name: Scourge Rage Heavy Assault Missile
+    name: Mjolnir Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 126160.0
@@ -286,4 +250,40 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
+    volume: 0.014999999664723873
+  24494:
+    agility: 0.0019947297405451536
+    aimedlaunch: 1
+    aoecloudsize: 125
+    aoedamagereductionfactor: 0.8949999809265137
+    aoefalloff: 1500
+    aoevelocity: 101
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 60.0
+    id: 24494
+    kineticdamageresonance: 1.0
+    launchergroup: 771
+    marketGroup: 972
+    mass: 625.0
+    maxvelocity: 3375.0
+    metalevelold: 5
+    name: Inferno Javelin Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
+    price: 126160.0
+    published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 90.0
+    thermaldamageresonance: 0.800000011920929
     volume: 0.014999999664723873

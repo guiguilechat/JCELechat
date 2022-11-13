@@ -31,7 +31,7 @@ public class Trading
         implements IMetaGroup<Trading>
     {
         public static final String RESOURCE_PATH = "SDE/types/trading/Trading.yaml";
-        private Map<String, Trading> cache = (null);
+        private Map<Integer, Trading> cache = (null);
 
         @Override
         public IMetaCategory<? super Trading> category() {
@@ -49,7 +49,7 @@ public class Trading
         }
 
         @Override
-        public synchronized Map<String, Trading> load() {
+        public synchronized Map<Integer, Trading> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Trading.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -63,7 +63,7 @@ public class Trading
         }
 
         private static class Container {
-            public LinkedHashMap<String, Trading> types;
+            public LinkedHashMap<Integer, Trading> types;
         }
     }
 }

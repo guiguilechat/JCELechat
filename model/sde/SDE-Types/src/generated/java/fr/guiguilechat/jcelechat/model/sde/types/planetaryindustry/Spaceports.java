@@ -110,7 +110,7 @@ public class Spaceports
         implements IMetaGroup<Spaceports>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/Spaceports.yaml";
-        private Map<String, Spaceports> cache = (null);
+        private Map<Integer, Spaceports> cache = (null);
 
         @Override
         public IMetaCategory<? super Spaceports> category() {
@@ -128,7 +128,7 @@ public class Spaceports
         }
 
         @Override
-        public synchronized Map<String, Spaceports> load() {
+        public synchronized Map<Integer, Spaceports> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Spaceports.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -142,7 +142,7 @@ public class Spaceports
         }
 
         private static class Container {
-            public LinkedHashMap<String, Spaceports> types;
+            public LinkedHashMap<Integer, Spaceports> types;
         }
     }
 }

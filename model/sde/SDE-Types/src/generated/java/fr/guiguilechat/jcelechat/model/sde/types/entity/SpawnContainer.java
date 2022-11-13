@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficulty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AllowOnlyFwAttackers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AllowRefills;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
@@ -68,6 +69,13 @@ public class SpawnContainer
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double accessdifficulty;
+    /**
+     * It is a Boolean Value that defaults to false. If true, it will only allow players to Hack if they belong to the Faction that is an enemy of the Occupier of the Star System.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int allowonlyfwattackers;
     /**
      * When set to 1 this attribute allows Spawn Containers to refill and relock. 
      */
@@ -343,7 +351,7 @@ public class SpawnContainer
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AccessDifficulty.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMax.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, Charge.INSTANCE, RequiredSkill1Level.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, AllowRefills.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SpecialTutorialLootRespawnTime.INSTANCE, IsHacking.INSTANCE, EntityFactionLoss.INSTANCE, IsArcheology.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, EntityAttackRange.INSTANCE, RechargeRate.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, SpewContainerLifeExtension.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AccessDifficulty.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMax.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, Charge.INSTANCE, RequiredSkill1Level.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, AllowOnlyFwAttackers.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, AllowRefills.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SpecialTutorialLootRespawnTime.INSTANCE, IsHacking.INSTANCE, EntityFactionLoss.INSTANCE, IsArcheology.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, EntityAttackRange.INSTANCE, RechargeRate.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, SpewContainerLifeExtension.INSTANCE, TierDifficulty.INSTANCE })));
     public static final SpawnContainer.MetaGroup METAGROUP = new SpawnContainer.MetaGroup();
 
     @Override
@@ -352,6 +360,10 @@ public class SpawnContainer
             case  901 :
             {
                 return accessdifficulty;
+            }
+            case  5206 :
+            {
+                return allowonlyfwattackers;
             }
             case  2019 :
             {
@@ -530,7 +542,7 @@ public class SpawnContainer
         implements IMetaGroup<SpawnContainer>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/SpawnContainer.yaml";
-        private Map<String, SpawnContainer> cache = (null);
+        private Map<Integer, SpawnContainer> cache = (null);
 
         @Override
         public IMetaCategory<? super SpawnContainer> category() {
@@ -548,7 +560,7 @@ public class SpawnContainer
         }
 
         @Override
-        public synchronized Map<String, SpawnContainer> load() {
+        public synchronized Map<Integer, SpawnContainer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SpawnContainer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -562,7 +574,7 @@ public class SpawnContainer
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpawnContainer> types;
+            public LinkedHashMap<Integer, SpawnContainer> types;
         }
     }
 }

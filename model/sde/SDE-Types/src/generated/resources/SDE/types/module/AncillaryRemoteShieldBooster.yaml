@@ -1,62 +1,27 @@
 types:
-  Capital Ancillary Remote Shield Booster:
-    capacitorneed: 7200.0
-    capacity: 900.0
+  41480:
+    capacitorneed: 135.0
+    capacity: 7.0
     chargegroup1: 87
     chargerate: 1
-    chargesize: 4
-    cpu: 112.0
-    duration: 16000.0
-    falloffeffectiveness: 12000
+    cpu: 28.0
+    duration: 4000.0
+    falloffeffectiveness: 6500
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatdamage: 1.399999976158142
     hp: 40.0
-    id: 41483
-    marketGroup: 600
+    id: 41480
+    marketGroup: 603
     maxgroupfitted: 1
-    maxrange: 9000.0
+    maxrange: 4000.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
-    name: Capital Ancillary Remote Shield Booster
+    name: Small Ancillary Remote Shield Booster
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
+    packagedVolume: 5.0
     portionSize: 1
-    power: 97500
-    price: 2.465951E7
-    published: true
-    radius: 1.0
-    reloadtime: 60000.0
-    remoteresistanceid: 2116
-    requiredskill1: 24571
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    shieldbonus: 1700.0
-    techlevel: 1
-    volume: 4000.0
-  Large Ancillary Remote Shield Booster:
-    capacitorneed: 1475.0
-    capacity: 42.0
-    chargegroup1: 87
-    chargerate: 1
-    chargesize: 2
-    cpu: 112.0
-    duration: 8000.0
-    falloffeffectiveness: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
-    hp: 40.0
-    id: 41482
-    marketGroup: 601
-    maxgroupfitted: 1
-    maxrange: 6700.0
-    mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
-    name: Large Ancillary Remote Shield Booster
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
-    portionSize: 1
-    power: 208
-    price: 31244.0
+    power: 3
+    price: 4996.0
     published: true
     radius: 1.0
     reloadtime: 60000.0
@@ -64,10 +29,10 @@ types:
     requiredskill1: 3422
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    shieldbonus: 950.0
+    shieldbonus: 125.0
     techlevel: 1
-    volume: 25.0
-  Medium Ancillary Remote Shield Booster:
+    volume: 5.0
+  41481:
     capacitorneed: 700.0
     capacity: 14.0
     chargegroup1: 87
@@ -101,29 +66,30 @@ types:
     shieldbonus: 475.0
     techlevel: 1
     volume: 10.0
-  Small Ancillary Remote Shield Booster:
-    capacitorneed: 135.0
-    capacity: 7.0
+  41482:
+    capacitorneed: 1475.0
+    capacity: 42.0
     chargegroup1: 87
     chargerate: 1
-    cpu: 28.0
-    duration: 4000.0
-    falloffeffectiveness: 6500
+    chargesize: 2
+    cpu: 112.0
+    duration: 8000.0
+    falloffeffectiveness: 10000
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatdamage: 2.799999952316284
     hp: 40.0
-    id: 41480
-    marketGroup: 603
+    id: 41482
+    marketGroup: 601
     maxgroupfitted: 1
-    maxrange: 4000.0
+    maxrange: 6700.0
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
-    name: Small Ancillary Remote Shield Booster
+    name: Large Ancillary Remote Shield Booster
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
+    packagedVolume: 25.0
     portionSize: 1
-    power: 3
-    price: 4996.0
+    power: 208
+    price: 31244.0
     published: true
     radius: 1.0
     reloadtime: 60000.0
@@ -131,6 +97,40 @@ types:
     requiredskill1: 3422
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    shieldbonus: 125.0
+    shieldbonus: 950.0
     techlevel: 1
-    volume: 5.0
+    volume: 25.0
+  41483:
+    capacitorneed: 7200.0
+    capacity: 900.0
+    chargegroup1: 87
+    chargerate: 1
+    chargesize: 4
+    cpu: 112.0
+    duration: 16000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
+    id: 41483
+    marketGroup: 600
+    maxgroupfitted: 1
+    maxrange: 9000.0
+    mediumremoterepfittingmultiplier: 1
+    metalevelold: 1
+    name: Capital Ancillary Remote Shield Booster
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 97500
+    price: 2.465951E7
+    published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1700.0
+    techlevel: 1
+    volume: 4000.0

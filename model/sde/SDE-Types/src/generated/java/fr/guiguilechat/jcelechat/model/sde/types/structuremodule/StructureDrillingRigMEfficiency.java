@@ -193,7 +193,7 @@ public class StructureDrillingRigMEfficiency
         implements IMetaGroup<StructureDrillingRigMEfficiency>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureDrillingRigMEfficiency.yaml";
-        private Map<String, StructureDrillingRigMEfficiency> cache = (null);
+        private Map<Integer, StructureDrillingRigMEfficiency> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureDrillingRigMEfficiency> category() {
@@ -211,7 +211,7 @@ public class StructureDrillingRigMEfficiency
         }
 
         @Override
-        public synchronized Map<String, StructureDrillingRigMEfficiency> load() {
+        public synchronized Map<Integer, StructureDrillingRigMEfficiency> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureDrillingRigMEfficiency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -225,7 +225,7 @@ public class StructureDrillingRigMEfficiency
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureDrillingRigMEfficiency> types;
+            public LinkedHashMap<Integer, StructureDrillingRigMEfficiency> types;
         }
     }
 }

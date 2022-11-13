@@ -1,141 +1,5 @@
 types:
-  Capital Emission Scope Sharpener I:
-    accessdifficultybonusmodifier: 20
-    drawback: 10
-    hp: 40.0
-    id: 31205
-    marketGroup: 1789
-    mass: 200.0
-    name: Capital Emission Scope Sharpener I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 200
-    viruscoherencebonus: 10
-    volume: 40.0
-  Capital Emission Scope Sharpener II:
-    accessdifficultybonusmodifier: 40
-    drawback: 10
-    hp: 40.0
-    id: 31211
-    marketGroup: 1789
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Emission Scope Sharpener II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 300
-    viruscoherencebonus: 20
-    volume: 40.0
-  Capital Gravity Capacitor Upgrade I:
-    drawback: 10
-    hp: 40.0
-    id: 31217
-    marketGroup: 1789
-    mass: 200.0
-    name: Capital Gravity Capacitor Upgrade I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    scanstrengthbonus: 10
-    techlevel: 1
-    upgradecost: 200
-    volume: 40.0
-  Capital Gravity Capacitor Upgrade II:
-    drawback: 10
-    hp: 40.0
-    id: 31224
-    marketGroup: 1789
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Gravity Capacitor Upgrade II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    scanstrengthbonus: 15
-    techlevel: 2
-    upgradecost: 300
-    volume: 40.0
-  Capital Memetic Algorithm Bank I:
-    accessdifficultybonusmodifier: 20
-    drawback: 10
-    hp: 40.0
-    id: 31242
-    marketGroup: 1789
-    mass: 200.0
-    name: Capital Memetic Algorithm Bank I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 200
-    viruscoherencebonus: 10
-    volume: 40.0
-  Capital Memetic Algorithm Bank II:
-    accessdifficultybonusmodifier: 40
-    drawback: 10
-    hp: 40.0
-    id: 31248
-    marketGroup: 1789
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Memetic Algorithm Bank II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 300
-    viruscoherencebonus: 20
-    volume: 40.0
-  Capital Signal Focusing Kit I:
-    drawback: -10
-    hp: 40.0
-    id: 31314
-    marketGroup: 1789
-    mass: 200.0
-    name: Capital Signal Focusing Kit I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    scanspeedbonus: -15
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Signal Focusing Kit II:
-    drawback: -10
-    hp: 40.0
-    id: 31320
-    marketGroup: 1789
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Signal Focusing Kit II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    scanspeedbonus: -20
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Large Emission Scope Sharpener I:
+  25930:
     accessdifficultybonusmodifier: 20
     drawback: 10
     hp: 40.0
@@ -152,7 +16,56 @@ types:
     upgradecost: 200
     viruscoherencebonus: 10
     volume: 20.0
-  Large Emission Scope Sharpener II:
+  25932:
+    accessdifficultybonusmodifier: 20
+    drawback: 10
+    hp: 40.0
+    id: 25932
+    marketGroup: 1788
+    mass: 200.0
+    name: Large Memetic Algorithm Bank I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 200
+    viruscoherencebonus: 10
+    volume: 20.0
+  25936:
+    drawback: 10
+    hp: 40.0
+    id: 25936
+    marketGroup: 1788
+    mass: 200.0
+    name: Large Gravity Capacitor Upgrade I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    scanstrengthbonus: 10
+    techlevel: 1
+    upgradecost: 200
+    volume: 20.0
+  26104:
+    drawback: -10
+    hp: 40.0
+    id: 26104
+    marketGroup: 1788
+    mass: 200.0
+    name: Large Signal Focusing Kit I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    scanspeedbonus: -15
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  26342:
     accessdifficultybonusmodifier: 40
     drawback: 10
     hp: 40.0
@@ -170,57 +83,7 @@ types:
     upgradecost: 300
     viruscoherencebonus: 20
     volume: 20.0
-  Large Gravity Capacitor Upgrade I:
-    drawback: 10
-    hp: 40.0
-    id: 25936
-    marketGroup: 1788
-    mass: 200.0
-    name: Large Gravity Capacitor Upgrade I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    scanstrengthbonus: 10
-    techlevel: 1
-    upgradecost: 200
-    volume: 20.0
-  Large Gravity Capacitor Upgrade II:
-    drawback: 10
-    hp: 40.0
-    id: 26350
-    marketGroup: 1788
-    mass: 200.0
-    metalevelold: 5
-    name: Large Gravity Capacitor Upgrade II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    scanstrengthbonus: 15
-    techlevel: 2
-    upgradecost: 300
-    volume: 20.0
-  Large Memetic Algorithm Bank I:
-    accessdifficultybonusmodifier: 20
-    drawback: 10
-    hp: 40.0
-    id: 25932
-    marketGroup: 1788
-    mass: 200.0
-    name: Large Memetic Algorithm Bank I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 200
-    viruscoherencebonus: 10
-    volume: 20.0
-  Large Memetic Algorithm Bank II:
+  26346:
     accessdifficultybonusmodifier: 40
     drawback: 10
     hp: 40.0
@@ -238,23 +101,24 @@ types:
     upgradecost: 300
     viruscoherencebonus: 20
     volume: 20.0
-  Large Signal Focusing Kit I:
-    drawback: -10
+  26350:
+    drawback: 10
     hp: 40.0
-    id: 26104
+    id: 26350
     marketGroup: 1788
     mass: 200.0
-    name: Large Signal Focusing Kit I
+    metalevelold: 5
+    name: Large Gravity Capacitor Upgrade II
     packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    scanspeedbonus: -15
-    techlevel: 1
-    upgradecost: 50
+    scanstrengthbonus: 15
+    techlevel: 2
+    upgradecost: 300
     volume: 20.0
-  Large Signal Focusing Kit II:
+  26362:
     drawback: -10
     hp: 40.0
     id: 26362
@@ -271,143 +135,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Medium Emission Scope Sharpener I:
-    accessdifficultybonusmodifier: 20
-    drawback: 10
-    hp: 40.0
-    id: 31203
-    marketGroup: 1787
-    mass: 200.0
-    name: Medium Emission Scope Sharpener I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 200
-    viruscoherencebonus: 10
-    volume: 10.0
-  Medium Emission Scope Sharpener II:
-    accessdifficultybonusmodifier: 40
-    drawback: 10
-    hp: 40.0
-    id: 31209
-    marketGroup: 1787
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Emission Scope Sharpener II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 300
-    viruscoherencebonus: 20
-    volume: 10.0
-  Medium Gravity Capacitor Upgrade I:
-    drawback: 10
-    hp: 40.0
-    id: 31215
-    marketGroup: 1787
-    mass: 200.0
-    name: Medium Gravity Capacitor Upgrade I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    scanstrengthbonus: 10
-    techlevel: 1
-    upgradecost: 200
-    volume: 10.0
-  Medium Gravity Capacitor Upgrade II:
-    drawback: 10
-    hp: 40.0
-    id: 31222
-    marketGroup: 1787
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Gravity Capacitor Upgrade II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    scanstrengthbonus: 15
-    techlevel: 2
-    upgradecost: 300
-    volume: 10.0
-  Medium Memetic Algorithm Bank I:
-    accessdifficultybonusmodifier: 20
-    drawback: 10
-    hp: 40.0
-    id: 31240
-    marketGroup: 1787
-    mass: 200.0
-    name: Medium Memetic Algorithm Bank I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 200
-    viruscoherencebonus: 10
-    volume: 10.0
-  Medium Memetic Algorithm Bank II:
-    accessdifficultybonusmodifier: 40
-    drawback: 10
-    hp: 40.0
-    id: 31246
-    marketGroup: 1787
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Memetic Algorithm Bank II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 300
-    viruscoherencebonus: 20
-    volume: 10.0
-  Medium Signal Focusing Kit I:
-    drawback: -10
-    hp: 40.0
-    id: 31312
-    marketGroup: 1787
-    mass: 200.0
-    name: Medium Signal Focusing Kit I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    scanspeedbonus: -15
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Signal Focusing Kit II:
-    drawback: -10
-    hp: 40.0
-    id: 31318
-    marketGroup: 1787
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Signal Focusing Kit II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    scanspeedbonus: -20
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Small Emission Scope Sharpener I:
+  31201:
     accessdifficultybonusmodifier: 20
     drawback: 10
     hp: 40.0
@@ -424,7 +152,41 @@ types:
     upgradecost: 200
     viruscoherencebonus: 10
     volume: 5.0
-  Small Emission Scope Sharpener II:
+  31203:
+    accessdifficultybonusmodifier: 20
+    drawback: 10
+    hp: 40.0
+    id: 31203
+    marketGroup: 1787
+    mass: 200.0
+    name: Medium Emission Scope Sharpener I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 200
+    viruscoherencebonus: 10
+    volume: 10.0
+  31205:
+    accessdifficultybonusmodifier: 20
+    drawback: 10
+    hp: 40.0
+    id: 31205
+    marketGroup: 1789
+    mass: 200.0
+    name: Capital Emission Scope Sharpener I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 200
+    viruscoherencebonus: 10
+    volume: 40.0
+  31207:
     accessdifficultybonusmodifier: 40
     drawback: 10
     hp: 40.0
@@ -442,7 +204,43 @@ types:
     upgradecost: 300
     viruscoherencebonus: 20
     volume: 5.0
-  Small Gravity Capacitor Upgrade I:
+  31209:
+    accessdifficultybonusmodifier: 40
+    drawback: 10
+    hp: 40.0
+    id: 31209
+    marketGroup: 1787
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Emission Scope Sharpener II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 300
+    viruscoherencebonus: 20
+    volume: 10.0
+  31211:
+    accessdifficultybonusmodifier: 40
+    drawback: 10
+    hp: 40.0
+    id: 31211
+    marketGroup: 1789
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Emission Scope Sharpener II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 300
+    viruscoherencebonus: 20
+    volume: 40.0
+  31213:
     drawback: 10
     hp: 40.0
     id: 31213
@@ -458,7 +256,39 @@ types:
     techlevel: 1
     upgradecost: 200
     volume: 5.0
-  Small Gravity Capacitor Upgrade II:
+  31215:
+    drawback: 10
+    hp: 40.0
+    id: 31215
+    marketGroup: 1787
+    mass: 200.0
+    name: Medium Gravity Capacitor Upgrade I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    scanstrengthbonus: 10
+    techlevel: 1
+    upgradecost: 200
+    volume: 10.0
+  31217:
+    drawback: 10
+    hp: 40.0
+    id: 31217
+    marketGroup: 1789
+    mass: 200.0
+    name: Capital Gravity Capacitor Upgrade I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    scanstrengthbonus: 10
+    techlevel: 1
+    upgradecost: 200
+    volume: 40.0
+  31220:
     drawback: 10
     hp: 40.0
     id: 31220
@@ -475,7 +305,41 @@ types:
     techlevel: 2
     upgradecost: 300
     volume: 5.0
-  Small Memetic Algorithm Bank I:
+  31222:
+    drawback: 10
+    hp: 40.0
+    id: 31222
+    marketGroup: 1787
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Gravity Capacitor Upgrade II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    scanstrengthbonus: 15
+    techlevel: 2
+    upgradecost: 300
+    volume: 10.0
+  31224:
+    drawback: 10
+    hp: 40.0
+    id: 31224
+    marketGroup: 1789
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Gravity Capacitor Upgrade II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    scanstrengthbonus: 15
+    techlevel: 2
+    upgradecost: 300
+    volume: 40.0
+  31238:
     accessdifficultybonusmodifier: 20
     drawback: 10
     hp: 40.0
@@ -492,7 +356,41 @@ types:
     upgradecost: 200
     viruscoherencebonus: 10
     volume: 5.0
-  Small Memetic Algorithm Bank II:
+  31240:
+    accessdifficultybonusmodifier: 20
+    drawback: 10
+    hp: 40.0
+    id: 31240
+    marketGroup: 1787
+    mass: 200.0
+    name: Medium Memetic Algorithm Bank I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 200
+    viruscoherencebonus: 10
+    volume: 10.0
+  31242:
+    accessdifficultybonusmodifier: 20
+    drawback: 10
+    hp: 40.0
+    id: 31242
+    marketGroup: 1789
+    mass: 200.0
+    name: Capital Memetic Algorithm Bank I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 200
+    viruscoherencebonus: 10
+    volume: 40.0
+  31244:
     accessdifficultybonusmodifier: 40
     drawback: 10
     hp: 40.0
@@ -510,7 +408,43 @@ types:
     upgradecost: 300
     viruscoherencebonus: 20
     volume: 5.0
-  Small Signal Focusing Kit I:
+  31246:
+    accessdifficultybonusmodifier: 40
+    drawback: 10
+    hp: 40.0
+    id: 31246
+    marketGroup: 1787
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Memetic Algorithm Bank II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 300
+    viruscoherencebonus: 20
+    volume: 10.0
+  31248:
+    accessdifficultybonusmodifier: 40
+    drawback: 10
+    hp: 40.0
+    id: 31248
+    marketGroup: 1789
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Memetic Algorithm Bank II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 300
+    viruscoherencebonus: 20
+    volume: 40.0
+  31310:
     drawback: -10
     hp: 40.0
     id: 31310
@@ -526,7 +460,39 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Signal Focusing Kit II:
+  31312:
+    drawback: -10
+    hp: 40.0
+    id: 31312
+    marketGroup: 1787
+    mass: 200.0
+    name: Medium Signal Focusing Kit I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    scanspeedbonus: -15
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31314:
+    drawback: -10
+    hp: 40.0
+    id: 31314
+    marketGroup: 1789
+    mass: 200.0
+    name: Capital Signal Focusing Kit I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    scanspeedbonus: -15
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31316:
     drawback: -10
     hp: 40.0
     id: 31316
@@ -543,3 +509,37 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
+  31318:
+    drawback: -10
+    hp: 40.0
+    id: 31318
+    marketGroup: 1787
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Signal Focusing Kit II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    scanspeedbonus: -20
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31320:
+    drawback: -10
+    hp: 40.0
+    id: 31320
+    marketGroup: 1789
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Signal Focusing Kit II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    scanspeedbonus: -20
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0

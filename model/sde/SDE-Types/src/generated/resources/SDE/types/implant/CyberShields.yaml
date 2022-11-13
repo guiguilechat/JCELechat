@@ -1,303 +1,5 @@
 types:
-  Sansha Modified 'Gnome' Implant:
-    id: 32255
-    implantness: 7
-    marketGroup: 1481
-    name: Sansha Modified 'Gnome' Implant
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rechargeratebonus: -3
-    requiredskill1: 3411
-    requiredskill1level: 3
-    shieldcapacitybonus: 3.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Emission Systems SE-801:
-    capneedbonus: -1
-    id: 27106
-    implantness: 8
-    marketGroup: 1482
-    name: Zainou 'Gnome' Shield Emission Systems SE-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Emission Systems SE-802:
-    capneedbonus: -2
-    id: 3085
-    implantness: 8
-    marketGroup: 1482
-    name: Zainou 'Gnome' Shield Emission Systems SE-802
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Emission Systems SE-803:
-    capneedbonus: -3
-    id: 13262
-    implantness: 8
-    marketGroup: 1482
-    name: Zainou 'Gnome' Shield Emission Systems SE-803
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Emission Systems SE-804:
-    capneedbonus: -4
-    id: 3086
-    implantness: 8
-    marketGroup: 1482
-    name: Zainou 'Gnome' Shield Emission Systems SE-804
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Emission Systems SE-805:
-    capneedbonus: -5
-    id: 16247
-    implantness: 8
-    marketGroup: 1482
-    name: Zainou 'Gnome' Shield Emission Systems SE-805
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Emission Systems SE-806:
-    capneedbonus: -6
-    id: 3087
-    implantness: 8
-    marketGroup: 1482
-    name: Zainou 'Gnome' Shield Emission Systems SE-806
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Management SM-701:
-    id: 27105
-    implantness: 7
-    marketGroup: 1481
-    name: Zainou 'Gnome' Shield Management SM-701
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    shieldcapacitybonus: 1.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Management SM-702:
-    id: 3080
-    implantness: 7
-    marketGroup: 1481
-    name: Zainou 'Gnome' Shield Management SM-702
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    shieldcapacitybonus: 2.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Management SM-703:
-    id: 10228
-    implantness: 7
-    marketGroup: 1481
-    name: Zainou 'Gnome' Shield Management SM-703
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    shieldcapacitybonus: 3.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Management SM-704:
-    id: 3081
-    implantness: 7
-    marketGroup: 1481
-    name: Zainou 'Gnome' Shield Management SM-704
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    shieldcapacitybonus: 4.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Management SM-705:
-    id: 16246
-    implantness: 7
-    marketGroup: 1481
-    name: Zainou 'Gnome' Shield Management SM-705
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    shieldcapacitybonus: 5.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Management SM-706:
-    id: 3084
-    implantness: 7
-    marketGroup: 1481
-    name: Zainou 'Gnome' Shield Management SM-706
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    shieldcapacitybonus: 6.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Operation SP-901:
-    id: 27107
-    implantness: 9
-    marketGroup: 1483
-    name: Zainou 'Gnome' Shield Operation SP-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rechargeratebonus: -1
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Operation SP-902:
-    id: 3088
-    implantness: 9
-    marketGroup: 1483
-    name: Zainou 'Gnome' Shield Operation SP-902
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rechargeratebonus: -2
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Operation SP-903:
-    id: 13263
-    implantness: 9
-    marketGroup: 1483
-    name: Zainou 'Gnome' Shield Operation SP-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rechargeratebonus: -3
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Operation SP-904:
-    id: 3089
-    implantness: 9
-    marketGroup: 1483
-    name: Zainou 'Gnome' Shield Operation SP-904
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rechargeratebonus: -4
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Operation SP-905:
-    id: 16248
-    implantness: 9
-    marketGroup: 1483
-    name: Zainou 'Gnome' Shield Operation SP-905
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rechargeratebonus: -5
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Operation SP-906:
-    id: 3092
-    implantness: 9
-    marketGroup: 1483
-    name: Zainou 'Gnome' Shield Operation SP-906
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rechargeratebonus: -6
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Upgrades SU-601:
-    id: 27104
-    implantness: 6
-    marketGroup: 1480
-    name: Zainou 'Gnome' Shield Upgrades SU-601
-    packagedVolume: 1.0
-    portionSize: 1
-    powerneedbonus: -1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Upgrades SU-602:
+  3077:
     id: 3077
     implantness: 6
     marketGroup: 1480
@@ -312,22 +14,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Zainou 'Gnome' Shield Upgrades SU-603:
-    id: 13253
-    implantness: 6
-    marketGroup: 1480
-    name: Zainou 'Gnome' Shield Upgrades SU-603
-    packagedVolume: 1.0
-    portionSize: 1
-    powerneedbonus: -3
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Shield Upgrades SU-604:
+  3078:
     id: 3078
     implantness: 6
     marketGroup: 1480
@@ -342,7 +29,217 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Zainou 'Gnome' Shield Upgrades SU-605:
+  3079:
+    id: 3079
+    implantness: 6
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-606
+    packagedVolume: 1.0
+    portionSize: 1
+    powerneedbonus: -6
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3080:
+    id: 3080
+    implantness: 7
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-702
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    shieldcapacitybonus: 2.0
+    techlevel: 1
+    volume: 1.0
+  3081:
+    id: 3081
+    implantness: 7
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-704
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    shieldcapacitybonus: 4.0
+    techlevel: 1
+    volume: 1.0
+  3084:
+    id: 3084
+    implantness: 7
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-706
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    shieldcapacitybonus: 6.0
+    techlevel: 1
+    volume: 1.0
+  3085:
+    capneedbonus: -2
+    id: 3085
+    implantness: 8
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-802
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3086:
+    capneedbonus: -4
+    id: 3086
+    implantness: 8
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-804
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3087:
+    capneedbonus: -6
+    id: 3087
+    implantness: 8
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-806
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3088:
+    id: 3088
+    implantness: 9
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-902
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rechargeratebonus: -2
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3089:
+    id: 3089
+    implantness: 9
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-904
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rechargeratebonus: -4
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3092:
+    id: 3092
+    implantness: 9
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-906
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rechargeratebonus: -6
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  10228:
+    id: 10228
+    implantness: 7
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-703
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    shieldcapacitybonus: 3.0
+    techlevel: 1
+    volume: 1.0
+  13253:
+    id: 13253
+    implantness: 6
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-603
+    packagedVolume: 1.0
+    portionSize: 1
+    powerneedbonus: -3
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13262:
+    capneedbonus: -3
+    id: 13262
+    implantness: 8
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-803
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13263:
+    id: 13263
+    implantness: 9
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rechargeratebonus: -3
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  16245:
     id: 16245
     implantness: 6
     marketGroup: 1480
@@ -356,18 +253,121 @@ types:
     requiredskill1level: 4
     techlevel: 1
     volume: 1.0
-  Zainou 'Gnome' Shield Upgrades SU-606:
-    id: 3079
-    implantness: 6
-    marketGroup: 1480
-    name: Zainou 'Gnome' Shield Upgrades SU-606
+  16246:
+    id: 16246
+    implantness: 7
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-705
     packagedVolume: 1.0
     portionSize: 1
-    powerneedbonus: -6
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    shieldcapacitybonus: 5.0
+    techlevel: 1
+    volume: 1.0
+  16247:
+    capneedbonus: -5
+    id: 16247
+    implantness: 8
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-805
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  16248:
+    id: 16248
+    implantness: 9
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-905
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rechargeratebonus: -5
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  27104:
+    id: 27104
+    implantness: 6
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-601
+    packagedVolume: 1.0
+    portionSize: 1
+    powerneedbonus: -1
     price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
-    requiredskill1level: 5
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27105:
+    id: 27105
+    implantness: 7
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-701
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    shieldcapacitybonus: 1.0
+    techlevel: 1
+    volume: 1.0
+  27106:
+    capneedbonus: -1
+    id: 27106
+    implantness: 8
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27107:
+    id: 27107
+    implantness: 9
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rechargeratebonus: -1
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  32255:
+    id: 32255
+    implantness: 7
+    marketGroup: 1481
+    name: Sansha Modified 'Gnome' Implant
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rechargeratebonus: -3
+    requiredskill1: 3411
+    requiredskill1level: 3
+    shieldcapacitybonus: 3.0
     techlevel: 1
     volume: 1.0

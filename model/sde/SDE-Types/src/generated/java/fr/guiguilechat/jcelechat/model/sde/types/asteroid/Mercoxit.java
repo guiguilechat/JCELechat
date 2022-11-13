@@ -113,7 +113,7 @@ public class Mercoxit
         implements IMetaGroup<Mercoxit>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Mercoxit.yaml";
-        private Map<String, Mercoxit> cache = (null);
+        private Map<Integer, Mercoxit> cache = (null);
 
         @Override
         public IMetaCategory<? super Mercoxit> category() {
@@ -131,7 +131,7 @@ public class Mercoxit
         }
 
         @Override
-        public synchronized Map<String, Mercoxit> load() {
+        public synchronized Map<Integer, Mercoxit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Mercoxit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -145,7 +145,7 @@ public class Mercoxit
         }
 
         private static class Container {
-            public LinkedHashMap<String, Mercoxit> types;
+            public LinkedHashMap<Integer, Mercoxit> types;
         }
     }
 }

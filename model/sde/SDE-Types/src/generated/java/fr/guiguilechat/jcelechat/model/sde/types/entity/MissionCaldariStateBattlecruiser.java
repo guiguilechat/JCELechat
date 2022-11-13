@@ -1301,7 +1301,7 @@ public class MissionCaldariStateBattlecruiser
         implements IMetaGroup<MissionCaldariStateBattlecruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionCaldariStateBattlecruiser.yaml";
-        private Map<String, MissionCaldariStateBattlecruiser> cache = (null);
+        private Map<Integer, MissionCaldariStateBattlecruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionCaldariStateBattlecruiser> category() {
@@ -1319,7 +1319,7 @@ public class MissionCaldariStateBattlecruiser
         }
 
         @Override
-        public synchronized Map<String, MissionCaldariStateBattlecruiser> load() {
+        public synchronized Map<Integer, MissionCaldariStateBattlecruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionCaldariStateBattlecruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1333,7 +1333,7 @@ public class MissionCaldariStateBattlecruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionCaldariStateBattlecruiser> types;
+            public LinkedHashMap<Integer, MissionCaldariStateBattlecruiser> types;
         }
     }
 }

@@ -97,7 +97,7 @@ public class ECMStabilizerBlueprint
         implements IMetaGroup<ECMStabilizerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ECMStabilizerBlueprint.yaml";
-        private Map<String, ECMStabilizerBlueprint> cache = (null);
+        private Map<Integer, ECMStabilizerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ECMStabilizerBlueprint> category() {
@@ -115,7 +115,7 @@ public class ECMStabilizerBlueprint
         }
 
         @Override
-        public synchronized Map<String, ECMStabilizerBlueprint> load() {
+        public synchronized Map<Integer, ECMStabilizerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ECMStabilizerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ECMStabilizerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ECMStabilizerBlueprint> types;
+            public LinkedHashMap<Integer, ECMStabilizerBlueprint> types;
         }
     }
 }

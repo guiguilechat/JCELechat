@@ -1,5 +1,5 @@
 types:
-  Standup XL-Set Structure and Component Manufacturing Efficiency I:
+  43704:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 40.0
-  Standup XL-Set Structure and Component Manufacturing Efficiency II:
+  43705:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: -24
@@ -53,7 +53,7 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 40.0
-  Standup XL-Set Thukker Structure and Component Manufacturing Efficiency:
+  45548:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20

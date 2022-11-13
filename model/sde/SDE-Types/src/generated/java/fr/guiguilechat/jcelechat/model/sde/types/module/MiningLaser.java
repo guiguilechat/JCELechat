@@ -277,7 +277,7 @@ public class MiningLaser
         implements IMetaGroup<MiningLaser>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MiningLaser.yaml";
-        private Map<String, MiningLaser> cache = (null);
+        private Map<Integer, MiningLaser> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningLaser> category() {
@@ -295,7 +295,7 @@ public class MiningLaser
         }
 
         @Override
-        public synchronized Map<String, MiningLaser> load() {
+        public synchronized Map<Integer, MiningLaser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningLaser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -309,7 +309,7 @@ public class MiningLaser
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningLaser> types;
+            public LinkedHashMap<Integer, MiningLaser> types;
         }
     }
 }

@@ -112,7 +112,7 @@ public class CyberScience
         implements IMetaGroup<CyberScience>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberScience.yaml";
-        private Map<String, CyberScience> cache = (null);
+        private Map<Integer, CyberScience> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberScience> category() {
@@ -130,7 +130,7 @@ public class CyberScience
         }
 
         @Override
-        public synchronized Map<String, CyberScience> load() {
+        public synchronized Map<Integer, CyberScience> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberScience.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -144,7 +144,7 @@ public class CyberScience
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberScience> types;
+            public LinkedHashMap<Integer, CyberScience> types;
         }
     }
 }

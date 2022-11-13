@@ -238,7 +238,7 @@ public class WarpCoreStabilizer
         implements IMetaGroup<WarpCoreStabilizer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/WarpCoreStabilizer.yaml";
-        private Map<String, WarpCoreStabilizer> cache = (null);
+        private Map<Integer, WarpCoreStabilizer> cache = (null);
 
         @Override
         public IMetaCategory<? super WarpCoreStabilizer> category() {
@@ -256,7 +256,7 @@ public class WarpCoreStabilizer
         }
 
         @Override
-        public synchronized Map<String, WarpCoreStabilizer> load() {
+        public synchronized Map<Integer, WarpCoreStabilizer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WarpCoreStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -270,7 +270,7 @@ public class WarpCoreStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpCoreStabilizer> types;
+            public LinkedHashMap<Integer, WarpCoreStabilizer> types;
         }
     }
 }

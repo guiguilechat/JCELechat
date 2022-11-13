@@ -83,7 +83,7 @@ public class StarbaseMissileBatteryBlueprints
         implements IMetaGroup<StarbaseMissileBatteryBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseMissileBatteryBlueprints.yaml";
-        private Map<String, StarbaseMissileBatteryBlueprints> cache = (null);
+        private Map<Integer, StarbaseMissileBatteryBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StarbaseMissileBatteryBlueprints> category() {
@@ -101,7 +101,7 @@ public class StarbaseMissileBatteryBlueprints
         }
 
         @Override
-        public synchronized Map<String, StarbaseMissileBatteryBlueprints> load() {
+        public synchronized Map<Integer, StarbaseMissileBatteryBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StarbaseMissileBatteryBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StarbaseMissileBatteryBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseMissileBatteryBlueprints> types;
+            public LinkedHashMap<Integer, StarbaseMissileBatteryBlueprints> types;
         }
     }
 }

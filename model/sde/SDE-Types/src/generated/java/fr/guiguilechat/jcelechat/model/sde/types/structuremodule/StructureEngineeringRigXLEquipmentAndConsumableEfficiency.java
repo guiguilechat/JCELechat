@@ -301,7 +301,7 @@ public class StructureEngineeringRigXLEquipmentAndConsumableEfficiency
         implements IMetaGroup<StructureEngineeringRigXLEquipmentAndConsumableEfficiency>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigXLEquipmentAndConsumableEfficiency.yaml";
-        private Map<String, StructureEngineeringRigXLEquipmentAndConsumableEfficiency> cache = (null);
+        private Map<Integer, StructureEngineeringRigXLEquipmentAndConsumableEfficiency> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigXLEquipmentAndConsumableEfficiency> category() {
@@ -319,7 +319,7 @@ public class StructureEngineeringRigXLEquipmentAndConsumableEfficiency
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigXLEquipmentAndConsumableEfficiency> load() {
+        public synchronized Map<Integer, StructureEngineeringRigXLEquipmentAndConsumableEfficiency> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigXLEquipmentAndConsumableEfficiency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -333,7 +333,7 @@ public class StructureEngineeringRigXLEquipmentAndConsumableEfficiency
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigXLEquipmentAndConsumableEfficiency> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigXLEquipmentAndConsumableEfficiency> types;
         }
     }
 }

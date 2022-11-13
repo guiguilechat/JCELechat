@@ -1,5 +1,5 @@
 types:
-  Intact Thruster Sections:
+  30187:
     id: 30187
     industryblueprintrank: 2.0
     marketGroup: 1909
@@ -9,7 +9,7 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
-  Malfunctioning Thruster Sections:
+  30558:
     id: 30558
     industryblueprintrank: 2.0
     marketGroup: 1909
@@ -19,7 +19,7 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
-  Wrecked Thruster Sections:
+  30562:
     id: 30562
     industryblueprintrank: 2.0
     marketGroup: 1909

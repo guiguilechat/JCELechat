@@ -95,7 +95,7 @@ public class ScanProbeBlueprint
         implements IMetaGroup<ScanProbeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ScanProbeBlueprint.yaml";
-        private Map<String, ScanProbeBlueprint> cache = (null);
+        private Map<Integer, ScanProbeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ScanProbeBlueprint> category() {
@@ -113,7 +113,7 @@ public class ScanProbeBlueprint
         }
 
         @Override
-        public synchronized Map<String, ScanProbeBlueprint> load() {
+        public synchronized Map<Integer, ScanProbeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ScanProbeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -127,7 +127,7 @@ public class ScanProbeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScanProbeBlueprint> types;
+            public LinkedHashMap<Integer, ScanProbeBlueprint> types;
         }
     }
 }

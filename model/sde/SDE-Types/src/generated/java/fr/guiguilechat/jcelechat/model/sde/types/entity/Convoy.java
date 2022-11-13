@@ -675,7 +675,7 @@ public class Convoy
         implements IMetaGroup<Convoy>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/Convoy.yaml";
-        private Map<String, Convoy> cache = (null);
+        private Map<Integer, Convoy> cache = (null);
 
         @Override
         public IMetaCategory<? super Convoy> category() {
@@ -693,7 +693,7 @@ public class Convoy
         }
 
         @Override
-        public synchronized Map<String, Convoy> load() {
+        public synchronized Map<Integer, Convoy> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Convoy.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -707,7 +707,7 @@ public class Convoy
         }
 
         private static class Container {
-            public LinkedHashMap<String, Convoy> types;
+            public LinkedHashMap<Integer, Convoy> types;
         }
     }
 }

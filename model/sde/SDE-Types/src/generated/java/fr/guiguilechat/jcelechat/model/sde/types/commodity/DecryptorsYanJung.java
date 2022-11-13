@@ -119,7 +119,7 @@ public class DecryptorsYanJung
         implements IMetaGroup<DecryptorsYanJung>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/DecryptorsYanJung.yaml";
-        private Map<String, DecryptorsYanJung> cache = (null);
+        private Map<Integer, DecryptorsYanJung> cache = (null);
 
         @Override
         public IMetaCategory<? super DecryptorsYanJung> category() {
@@ -137,7 +137,7 @@ public class DecryptorsYanJung
         }
 
         @Override
-        public synchronized Map<String, DecryptorsYanJung> load() {
+        public synchronized Map<Integer, DecryptorsYanJung> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DecryptorsYanJung.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -151,7 +151,7 @@ public class DecryptorsYanJung
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsYanJung> types;
+            public LinkedHashMap<Integer, DecryptorsYanJung> types;
         }
     }
 }

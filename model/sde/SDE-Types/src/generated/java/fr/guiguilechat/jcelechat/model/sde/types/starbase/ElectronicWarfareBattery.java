@@ -470,7 +470,7 @@ public class ElectronicWarfareBattery
         implements IMetaGroup<ElectronicWarfareBattery>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/ElectronicWarfareBattery.yaml";
-        private Map<String, ElectronicWarfareBattery> cache = (null);
+        private Map<Integer, ElectronicWarfareBattery> cache = (null);
 
         @Override
         public IMetaCategory<? super ElectronicWarfareBattery> category() {
@@ -488,7 +488,7 @@ public class ElectronicWarfareBattery
         }
 
         @Override
-        public synchronized Map<String, ElectronicWarfareBattery> load() {
+        public synchronized Map<Integer, ElectronicWarfareBattery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ElectronicWarfareBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -502,7 +502,7 @@ public class ElectronicWarfareBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, ElectronicWarfareBattery> types;
+            public LinkedHashMap<Integer, ElectronicWarfareBattery> types;
         }
     }
 }

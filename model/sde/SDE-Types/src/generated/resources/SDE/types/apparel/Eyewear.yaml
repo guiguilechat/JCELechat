@@ -1,5 +1,5 @@
 types:
-  GDN-9 "Nightstalker" Combat Goggles:
+  3958:
     gender: 2
     id: 3958
     marketGroup: 1408
@@ -9,29 +9,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Looking Glass Monocle Interface (left/gold):
-    gender: 2
-    id: 4050
-    marketGroup: 1408
-    mass: 0.5
-    name: Looking Glass Monocle Interface (left/gold)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Looking Glass Monocle Interface (left/gray):
-    gender: 2
-    id: 4052
-    marketGroup: 1408
-    mass: 0.5
-    name: Looking Glass Monocle Interface (left/gray)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Looking Glass Monocle Interface (right/gold):
+  4009:
     gender: 2
     id: 4009
     marketGroup: 1408
@@ -42,133 +20,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Looking Glass Monocle Interface (right/silver):
-    gender: 2
-    id: 4042
-    marketGroup: 1408
-    mass: 0.5
-    name: Looking Glass Monocle Interface (right/silver)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's "Mirelle" Upwell Executive Spectacles:
-    gender: 1
-    id: 41576
-    marketGroup: 1408
-    mass: 0.5
-    name: Men's "Mirelle" Upwell Executive Spectacles
-    packagedVolume: 0.5
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.5
-  Men's 'Farsight' Augmented Spectacles:
-    gender: 1
-    id: 45745
-    marketGroup: 1408
-    mass: 0.5
-    name: Men's 'Farsight' Augmented Spectacles
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Glass Semiotique' Monocle Interface (right):
-    gender: 2
-    id: 60165
-    marketGroup: 1408
-    mass: 0.5
-    name: Men's 'Glass Semiotique' Monocle Interface (right)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Orb Semiotique' Synthetic Eye (right):
-    gender: 2
-    id: 60160
-    marketGroup: 1408
-    mass: 0.5
-    name: Men's 'Orb Semiotique' Synthetic Eye (right)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Semiotique Superluminal' Shades:
-    gender: 2
-    id: 63058
-    marketGroup: 1408
-    mass: 0.5
-    name: Men's 'Semiotique Superluminal' Shades
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's BioCrystal Protective Glasses:
-    gender: 2
-    id: 54966
-    marketGroup: 1408
-    mass: 0.5
-    name: Men's BioCrystal Protective Glasses
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Genolution Tactical Goggles:
-    gender: 2
-    id: 42906
-    marketGroup: 1408
-    mass: 0.10000000149011612
-    name: Men's Genolution Tactical Goggles
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Radioactives Reclamation Goggles:
-    gender: 2
-    id: 60639
-    marketGroup: 1408
-    mass: 0.5
-    name: Men's Radioactives Reclamation Goggles
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Odin Synthetic Eye (left/dark):
-    gender: 2
-    id: 4043
-    marketGroup: 1408
-    mass: 0.5
-    name: Odin Synthetic Eye (left/dark)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Odin Synthetic Eye (left/gold):
-    gender: 2
-    id: 4046
-    marketGroup: 1408
-    mass: 0.5
-    name: Odin Synthetic Eye (left/gold)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Odin Synthetic Eye (left/gray):
-    gender: 2
-    id: 4048
-    marketGroup: 1408
-    mass: 0.5
-    name: Odin Synthetic Eye (left/gray)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Odin Synthetic Eye (right/dark):
+  4037:
     gender: 2
     id: 4037
     marketGroup: 1408
@@ -179,18 +31,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Odin Synthetic Eye (right/gold):
-    gender: 2
-    id: 4039
-    marketGroup: 1408
-    mass: 0.5
-    name: Odin Synthetic Eye (right/gold)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Odin Synthetic Eye (right/gray):
+  4038:
     gender: 2
     id: 4038
     marketGroup: 1408
@@ -201,7 +42,84 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black):
+  4039:
+    gender: 2
+    id: 4039
+    marketGroup: 1408
+    mass: 0.5
+    name: Odin Synthetic Eye (right/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  4042:
+    gender: 2
+    id: 4042
+    marketGroup: 1408
+    mass: 0.5
+    name: Looking Glass Monocle Interface (right/silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  4043:
+    gender: 2
+    id: 4043
+    marketGroup: 1408
+    mass: 0.5
+    name: Odin Synthetic Eye (left/dark)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  4046:
+    gender: 2
+    id: 4046
+    marketGroup: 1408
+    mass: 0.5
+    name: Odin Synthetic Eye (left/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  4048:
+    gender: 2
+    id: 4048
+    marketGroup: 1408
+    mass: 0.5
+    name: Odin Synthetic Eye (left/gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  4050:
+    gender: 2
+    id: 4050
+    marketGroup: 1408
+    mass: 0.5
+    name: Looking Glass Monocle Interface (left/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  4052:
+    gender: 2
+    id: 4052
+    marketGroup: 1408
+    mass: 0.5
+    name: Looking Glass Monocle Interface (left/gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  32853:
     gender: 2
     id: 32853
     marketGroup: 1408
@@ -210,7 +128,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's "Mirelle" Upwell Executive Spectacles:
+  41575:
     gender: 3
     id: 41575
     marketGroup: 1408
@@ -221,7 +139,38 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Farsight' Augmented Spectacles:
+  41576:
+    gender: 1
+    id: 41576
+    marketGroup: 1408
+    mass: 0.5
+    name: Men's "Mirelle" Upwell Executive Spectacles
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.5
+  42905:
+    gender: 2
+    id: 42905
+    marketGroup: 1408
+    mass: 0.10000000149011612
+    name: Women's Genolution Tactical Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  42906:
+    gender: 2
+    id: 42906
+    marketGroup: 1408
+    mass: 0.10000000149011612
+    name: Men's Genolution Tactical Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  45736:
     gender: 3
     id: 45736
     marketGroup: 1408
@@ -232,37 +181,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Glass Semiotique' Monocle Interface (right):
-    gender: 2
-    id: 60171
+  45745:
+    gender: 1
+    id: 45745
     marketGroup: 1408
     mass: 0.5
-    name: Women's 'Glass Semiotique' Monocle Interface (right)
+    name: Men's 'Farsight' Augmented Spectacles
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Orb Semiotique' Synthetic Eye (right):
-    gender: 2
-    id: 60166
-    marketGroup: 1408
-    mass: 0.5
-    name: Women's 'Orb Semiotique' Synthetic Eye (right)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Semiotique Superluminal' Shades:
-    gender: 2
-    id: 63061
-    marketGroup: 1408
-    mass: 0.5
-    name: Women's 'Semiotique Superluminal' Shades
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's BioCrystal Protective Glasses:
+  54965:
     gender: 2
     id: 54965
     marketGroup: 1408
@@ -272,22 +202,112 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's Genolution Tactical Goggles:
+  54966:
     gender: 2
-    id: 42905
+    id: 54966
     marketGroup: 1408
-    mass: 0.10000000149011612
-    name: Women's Genolution Tactical Goggles
+    mass: 0.5
+    name: Men's BioCrystal Protective Glasses
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's Radioactives Reclamation Goggles:
+  60160:
+    gender: 2
+    id: 60160
+    marketGroup: 1408
+    mass: 0.5
+    name: Men's 'Orb Semiotique' Synthetic Eye (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  60165:
+    gender: 2
+    id: 60165
+    marketGroup: 1408
+    mass: 0.5
+    name: Men's 'Glass Semiotique' Monocle Interface (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  60166:
+    gender: 2
+    id: 60166
+    marketGroup: 1408
+    mass: 0.5
+    name: Women's 'Orb Semiotique' Synthetic Eye (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  60171:
+    gender: 2
+    id: 60171
+    marketGroup: 1408
+    mass: 0.5
+    name: Women's 'Glass Semiotique' Monocle Interface (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  60639:
+    gender: 2
+    id: 60639
+    marketGroup: 1408
+    mass: 0.5
+    name: Men's Radioactives Reclamation Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  60645:
     gender: 2
     id: 60645
     marketGroup: 1408
     mass: 0.5
     name: Women's Radioactives Reclamation Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  63058:
+    gender: 2
+    id: 63058
+    marketGroup: 1408
+    mass: 0.5
+    name: Men's 'Semiotique Superluminal' Shades
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  63061:
+    gender: 2
+    id: 63061
+    marketGroup: 1408
+    mass: 0.5
+    name: Women's 'Semiotique Superluminal' Shades
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  73424:
+    gender: 2
+    id: 73424
+    marketGroup: 1408
+    mass: 0.5
+    name: Women's Desert Nomad Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  73426:
+    gender: 2
+    id: 73426
+    marketGroup: 1408
+    mass: 0.5
+    name: Men's Desert Nomad Goggles
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

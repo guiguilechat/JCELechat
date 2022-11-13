@@ -1,5 +1,5 @@
 types:
-  Amarr HS Space Exploration Expert System:
+  57203:
     id: 57203
     mass: 1.0
     name: Amarr HS Space Exploration Expert System
@@ -7,7 +7,7 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Caldari HS Space Exploration Expert System:
+  57204:
     id: 57204
     mass: 1.0
     name: Caldari HS Space Exploration Expert System
@@ -15,15 +15,7 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Core Ship Operations Expert System:
-    id: 57208
-    mass: 1.0
-    name: Core Ship Operations Expert System
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Gallente HS Space Exploration Expert System:
+  57205:
     id: 57205
     mass: 1.0
     name: Gallente HS Space Exploration Expert System
@@ -31,7 +23,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Mining Barge Operations Expert System:
+  57206:
+    id: 57206
+    mass: 1.0
+    name: Minmatar HS Space Exploration Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  57207:
     id: 57207
     mass: 1.0
     name: Mining Barge Operations Expert System
@@ -39,10 +39,10 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  Minmatar HS Space Exploration Expert System:
-    id: 57206
+  57208:
+    id: 57208
     mass: 1.0
-    name: Minmatar HS Space Exploration Expert System
+    name: Core Ship Operations Expert System
     packagedVolume: 1.0
     portionSize: 1
     published: true

@@ -32,7 +32,7 @@ public class PolymerReactionFormulas
         implements IMetaGroup<PolymerReactionFormulas>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/PolymerReactionFormulas.yaml";
-        private Map<String, PolymerReactionFormulas> cache = (null);
+        private Map<Integer, PolymerReactionFormulas> cache = (null);
 
         @Override
         public IMetaCategory<? super PolymerReactionFormulas> category() {
@@ -50,7 +50,7 @@ public class PolymerReactionFormulas
         }
 
         @Override
-        public synchronized Map<String, PolymerReactionFormulas> load() {
+        public synchronized Map<Integer, PolymerReactionFormulas> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PolymerReactionFormulas.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PolymerReactionFormulas
         }
 
         private static class Container {
-            public LinkedHashMap<String, PolymerReactionFormulas> types;
+            public LinkedHashMap<Integer, PolymerReactionFormulas> types;
         }
     }
 }

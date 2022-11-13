@@ -1265,7 +1265,7 @@ public class StorylineFrigate
         implements IMetaGroup<StorylineFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/StorylineFrigate.yaml";
-        private Map<String, StorylineFrigate> cache = (null);
+        private Map<Integer, StorylineFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super StorylineFrigate> category() {
@@ -1283,7 +1283,7 @@ public class StorylineFrigate
         }
 
         @Override
-        public synchronized Map<String, StorylineFrigate> load() {
+        public synchronized Map<Integer, StorylineFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StorylineFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1297,7 +1297,7 @@ public class StorylineFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, StorylineFrigate> types;
+            public LinkedHashMap<Integer, StorylineFrigate> types;
         }
     }
 }

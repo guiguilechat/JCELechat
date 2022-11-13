@@ -88,7 +88,7 @@ public class Tops
         implements IMetaGroup<Tops>
     {
         public static final String RESOURCE_PATH = "SDE/types/apparel/Tops.yaml";
-        private Map<String, Tops> cache = (null);
+        private Map<Integer, Tops> cache = (null);
 
         @Override
         public IMetaCategory<? super Tops> category() {
@@ -106,7 +106,7 @@ public class Tops
         }
 
         @Override
-        public synchronized Map<String, Tops> load() {
+        public synchronized Map<Integer, Tops> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Tops.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -120,7 +120,7 @@ public class Tops
         }
 
         private static class Container {
-            public LinkedHashMap<String, Tops> types;
+            public LinkedHashMap<Integer, Tops> types;
         }
     }
 }

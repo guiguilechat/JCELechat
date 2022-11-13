@@ -103,7 +103,7 @@ public class Subsystems
         implements IMetaGroup<Subsystems>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Subsystems.yaml";
-        private Map<String, Subsystems> cache = (null);
+        private Map<Integer, Subsystems> cache = (null);
 
         @Override
         public IMetaCategory<? super Subsystems> category() {
@@ -121,7 +121,7 @@ public class Subsystems
         }
 
         @Override
-        public synchronized Map<String, Subsystems> load() {
+        public synchronized Map<Integer, Subsystems> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Subsystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -135,7 +135,7 @@ public class Subsystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, Subsystems> types;
+            public LinkedHashMap<Integer, Subsystems> types;
         }
     }
 }

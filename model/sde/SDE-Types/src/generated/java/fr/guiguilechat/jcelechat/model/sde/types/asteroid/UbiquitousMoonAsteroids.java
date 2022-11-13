@@ -92,7 +92,7 @@ public class UbiquitousMoonAsteroids
         implements IMetaGroup<UbiquitousMoonAsteroids>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/UbiquitousMoonAsteroids.yaml";
-        private Map<String, UbiquitousMoonAsteroids> cache = (null);
+        private Map<Integer, UbiquitousMoonAsteroids> cache = (null);
 
         @Override
         public IMetaCategory<? super UbiquitousMoonAsteroids> category() {
@@ -110,7 +110,7 @@ public class UbiquitousMoonAsteroids
         }
 
         @Override
-        public synchronized Map<String, UbiquitousMoonAsteroids> load() {
+        public synchronized Map<Integer, UbiquitousMoonAsteroids> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(UbiquitousMoonAsteroids.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class UbiquitousMoonAsteroids
         }
 
         private static class Container {
-            public LinkedHashMap<String, UbiquitousMoonAsteroids> types;
+            public LinkedHashMap<Integer, UbiquitousMoonAsteroids> types;
         }
     }
 }

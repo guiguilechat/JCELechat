@@ -1,5 +1,5 @@
 types:
-  Infrastructure Hub Blueprint:
+  2735:
     id: 2735
     industryblueprintrank: 400.0
     marketGroup: 1356
@@ -10,7 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Territorial Claim Unit Blueprint:
+  2737:
     id: 2737
     industryblueprintrank: 200.0
     marketGroup: 1356

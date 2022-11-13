@@ -1,5 +1,5 @@
 types:
-  Cleansing Flame Amarr Frigate:
+  42819:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -74,7 +74,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.19699999690055847
     volume: 24398.0
-  Imperial Escort Punisher:
+  50104:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0

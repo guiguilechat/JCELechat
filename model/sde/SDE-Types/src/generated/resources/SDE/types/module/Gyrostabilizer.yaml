@@ -1,5 +1,5 @@
 types:
-  '''Basic'' Gyrostabilizer':
+  518:
     cpu: 16.0
     damagemultiplier: 1.0700000524520874
     hp: 40.0
@@ -18,15 +18,31 @@ types:
     speedmultiplier: 0.9300000071525574
     techlevel: 1
     volume: 5.0
-  '''Kindred'' Gyrostabilizer':
-    cpu: 18.0
+  519:
+    cpu: 30.0
     damagemultiplier: 1.100000023841858
     hp: 40.0
-    id: 21486
+    id: 519
     marketGroup: 646
-    metagroupid: 3
-    metalevelold: 6
-    name: '''Kindred'' Gyrostabilizer'
+    metalevelold: 5
+    name: Gyrostabilizer II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    speedmultiplier: 0.8949999809265137
+    techlevel: 2
+    volume: 5.0
+  520:
+    cpu: 27.0
+    damagemultiplier: 1.0700000524520874
+    hp: 40.0
+    id: 520
+    marketGroup: 646
+    name: Gyrostabilizer I
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -34,25 +50,10 @@ types:
     radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8949999809265137
+    speedmultiplier: 0.9200000166893005
     techlevel: 1
     volume: 5.0
-  Abyssal Gyrostabilizer:
-    damagemultiplier: 1.0
-    id: 49730
-    mass: 1.0
-    name: Abyssal Gyrostabilizer
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 1000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    volume: 1.0
-  Counterbalanced Compact Gyrostabilizer:
+  5933:
     cpu: 25.0
     damagemultiplier: 1.0800000429153442
     hp: 40.0
@@ -70,7 +71,7 @@ types:
     speedmultiplier: 0.9049999713897705
     techlevel: 1
     volume: 5.0
-  Domination Gyrostabilizer:
+  13939:
     cpu: 20.0
     damagemultiplier: 1.1200000047683716
     hp: 40.0
@@ -89,80 +90,7 @@ types:
     speedmultiplier: 0.8899999856948853
     techlevel: 1
     volume: 5.0
-  Gotan's Modified Gyrostabilizer:
-    cpu: 26.0
-    damagemultiplier: 1.1399999856948853
-    hp: 40.0
-    id: 14540
-    marketGroup: 646
-    metagroupid: 5
-    metalevelold: 15
-    name: Gotan's Modified Gyrostabilizer
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Gyrostabilizer I:
-    cpu: 27.0
-    damagemultiplier: 1.0700000524520874
-    hp: 40.0
-    id: 520
-    marketGroup: 646
-    name: Gyrostabilizer I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.9200000166893005
-    techlevel: 1
-    volume: 5.0
-  Gyrostabilizer II:
-    cpu: 30.0
-    damagemultiplier: 1.100000023841858
-    hp: 40.0
-    id: 519
-    marketGroup: 646
-    metalevelold: 5
-    name: Gyrostabilizer II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 4
-    speedmultiplier: 0.8949999809265137
-    techlevel: 2
-    volume: 5.0
-  Hakim's Modified Gyrostabilizer:
-    cpu: 24.0
-    damagemultiplier: 1.1349999904632568
-    hp: 40.0
-    id: 14538
-    marketGroup: 646
-    metagroupid: 5
-    metalevelold: 13
-    name: Hakim's Modified Gyrostabilizer
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Mizuro's Modified Gyrostabilizer:
+  14536:
     cpu: 22.0
     damagemultiplier: 1.1299999952316284
     hp: 40.0
@@ -181,15 +109,15 @@ types:
     speedmultiplier: 0.8899999856948853
     techlevel: 1
     volume: 5.0
-  Republic Fleet Gyrostabilizer:
-    cpu: 20.0
-    damagemultiplier: 1.1200000047683716
+  14538:
+    cpu: 24.0
+    damagemultiplier: 1.1349999904632568
     hp: 40.0
-    id: 15806
+    id: 14538
     marketGroup: 646
-    metagroupid: 4
-    metalevelold: 8
-    name: Republic Fleet Gyrostabilizer
+    metagroupid: 5
+    metalevelold: 13
+    name: Hakim's Modified Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -200,15 +128,15 @@ types:
     speedmultiplier: 0.8899999856948853
     techlevel: 1
     volume: 5.0
-  Shaqil's Modified Gyrostabilizer:
-    cpu: 28.0
-    damagemultiplier: 1.149999976158142
+  14540:
+    cpu: 26.0
+    damagemultiplier: 1.1399999856948853
     hp: 40.0
-    id: 15447
+    id: 14540
     marketGroup: 646
     metagroupid: 5
-    metalevelold: 14
-    name: Shaqil's Modified Gyrostabilizer
+    metalevelold: 15
+    name: Gotan's Modified Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -216,10 +144,10 @@ types:
     radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8949999809265137
+    speedmultiplier: 0.8899999856948853
     techlevel: 1
     volume: 5.0
-  Tobias' Modified Gyrostabilizer:
+  14542:
     cpu: 28.0
     damagemultiplier: 1.1449999809265137
     hp: 40.0
@@ -238,7 +166,64 @@ types:
     speedmultiplier: 0.8899999856948853
     techlevel: 1
     volume: 5.0
-  Vadari's Custom Gyrostabilizer:
+  15447:
+    cpu: 28.0
+    damagemultiplier: 1.149999976158142
+    hp: 40.0
+    id: 15447
+    marketGroup: 646
+    metagroupid: 5
+    metalevelold: 14
+    name: Shaqil's Modified Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8949999809265137
+    techlevel: 1
+    volume: 5.0
+  15806:
+    cpu: 20.0
+    damagemultiplier: 1.1200000047683716
+    hp: 40.0
+    id: 15806
+    marketGroup: 646
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  21486:
+    cpu: 18.0
+    damagemultiplier: 1.100000023841858
+    hp: 40.0
+    id: 21486
+    marketGroup: 646
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Kindred'' Gyrostabilizer'
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8949999809265137
+    techlevel: 1
+    volume: 5.0
+  44112:
     cpu: 29.0
     damagemultiplier: 1.100000023841858
     hp: 40.0
@@ -257,3 +242,18 @@ types:
     speedmultiplier: 0.8999999761581421
     techlevel: 1
     volume: 5.0
+  49730:
+    damagemultiplier: 1.0
+    id: 49730
+    mass: 1.0
+    name: Abyssal Gyrostabilizer
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    volume: 1.0

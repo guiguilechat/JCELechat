@@ -1,5 +1,5 @@
 types:
-  Optimal Range Disruption Script:
+  29005:
     chargesize: 1
     falloffbonusbonus: 100
     id: 29005
@@ -17,7 +17,7 @@ types:
     techlevel: 1
     trackingspeedbonusbonus: -100
     volume: 1.0
-  Tracking Speed Disruption Script:
+  29007:
     chargesize: 1
     falloffbonusbonus: -100
     id: 29007

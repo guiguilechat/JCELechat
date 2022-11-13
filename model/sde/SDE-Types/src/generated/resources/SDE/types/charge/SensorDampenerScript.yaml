@@ -1,5 +1,5 @@
 types:
-  Scan Resolution Dampening Script:
+  29013:
     chargesize: 1
     id: 29013
     launchergroup: 208
@@ -16,7 +16,7 @@ types:
     scanresolutionbonusbonus: 100
     techlevel: 1
     volume: 1.0
-  Targeting Range Dampening Script:
+  29015:
     chargesize: 1
     id: 29015
     launchergroup: 208

@@ -1,38 +1,5 @@
 types:
-  Autotrophs:
-    exporttaxmultiplier: 5
-    id: 2305
-    importtaxmultiplier: 5
-    marketGroup: 1333
-    name: Autotrophs
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Carbon Compounds:
-    exporttaxmultiplier: 5
-    id: 2288
-    importtaxmultiplier: 5
-    marketGroup: 1333
-    name: Carbon Compounds
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Complex Organisms:
-    exporttaxmultiplier: 5
-    id: 2287
-    importtaxmultiplier: 5
-    marketGroup: 1333
-    name: Complex Organisms
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Microorganisms:
+  2073:
     exporttaxmultiplier: 5
     id: 2073
     importtaxmultiplier: 5
@@ -43,12 +10,45 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Planktic Colonies:
+  2286:
     exporttaxmultiplier: 5
     id: 2286
     importtaxmultiplier: 5
     marketGroup: 1333
     name: Planktic Colonies
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  2287:
+    exporttaxmultiplier: 5
+    id: 2287
+    importtaxmultiplier: 5
+    marketGroup: 1333
+    name: Complex Organisms
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  2288:
+    exporttaxmultiplier: 5
+    id: 2288
+    importtaxmultiplier: 5
+    marketGroup: 1333
+    name: Carbon Compounds
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  2305:
+    exporttaxmultiplier: 5
+    id: 2305
+    importtaxmultiplier: 5
+    marketGroup: 1333
+    name: Autotrophs
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

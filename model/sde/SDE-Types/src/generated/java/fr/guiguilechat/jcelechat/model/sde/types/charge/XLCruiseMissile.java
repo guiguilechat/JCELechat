@@ -360,7 +360,7 @@ public class XLCruiseMissile
         implements IMetaGroup<XLCruiseMissile>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/XLCruiseMissile.yaml";
-        private Map<String, XLCruiseMissile> cache = (null);
+        private Map<Integer, XLCruiseMissile> cache = (null);
 
         @Override
         public IMetaCategory<? super XLCruiseMissile> category() {
@@ -378,7 +378,7 @@ public class XLCruiseMissile
         }
 
         @Override
-        public synchronized Map<String, XLCruiseMissile> load() {
+        public synchronized Map<Integer, XLCruiseMissile> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(XLCruiseMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -392,7 +392,7 @@ public class XLCruiseMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, XLCruiseMissile> types;
+            public LinkedHashMap<Integer, XLCruiseMissile> types;
         }
     }
 }

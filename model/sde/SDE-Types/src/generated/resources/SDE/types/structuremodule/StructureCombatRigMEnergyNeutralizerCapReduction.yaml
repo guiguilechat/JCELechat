@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Energy Neutralizer Economy I:
+  37222:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -25,7 +25,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Energy Neutralizer Economy II:
+  37223:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

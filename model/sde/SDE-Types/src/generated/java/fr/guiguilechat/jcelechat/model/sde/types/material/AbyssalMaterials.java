@@ -32,7 +32,7 @@ public class AbyssalMaterials
         implements IMetaGroup<AbyssalMaterials>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/AbyssalMaterials.yaml";
-        private Map<String, AbyssalMaterials> cache = (null);
+        private Map<Integer, AbyssalMaterials> cache = (null);
 
         @Override
         public IMetaCategory<? super AbyssalMaterials> category() {
@@ -50,7 +50,7 @@ public class AbyssalMaterials
         }
 
         @Override
-        public synchronized Map<String, AbyssalMaterials> load() {
+        public synchronized Map<Integer, AbyssalMaterials> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AbyssalMaterials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class AbyssalMaterials
         }
 
         private static class Container {
-            public LinkedHashMap<String, AbyssalMaterials> types;
+            public LinkedHashMap<Integer, AbyssalMaterials> types;
         }
     }
 }

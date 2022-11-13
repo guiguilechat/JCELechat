@@ -117,7 +117,7 @@ public class MissileLauncherBlueprint
         implements IMetaGroup<MissileLauncherBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MissileLauncherBlueprint.yaml";
-        private Map<String, MissileLauncherBlueprint> cache = (null);
+        private Map<Integer, MissileLauncherBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MissileLauncherBlueprint> category() {
@@ -135,7 +135,7 @@ public class MissileLauncherBlueprint
         }
 
         @Override
-        public synchronized Map<String, MissileLauncherBlueprint> load() {
+        public synchronized Map<Integer, MissileLauncherBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissileLauncherBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -149,7 +149,7 @@ public class MissileLauncherBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileLauncherBlueprint> types;
+            public LinkedHashMap<Integer, MissileLauncherBlueprint> types;
         }
     }
 }

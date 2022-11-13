@@ -376,7 +376,7 @@ public class StructureDoomsdayWeapon
         implements IMetaGroup<StructureDoomsdayWeapon>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureDoomsdayWeapon.yaml";
-        private Map<String, StructureDoomsdayWeapon> cache = (null);
+        private Map<Integer, StructureDoomsdayWeapon> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureDoomsdayWeapon> category() {
@@ -394,7 +394,7 @@ public class StructureDoomsdayWeapon
         }
 
         @Override
-        public synchronized Map<String, StructureDoomsdayWeapon> load() {
+        public synchronized Map<Integer, StructureDoomsdayWeapon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureDoomsdayWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -408,7 +408,7 @@ public class StructureDoomsdayWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureDoomsdayWeapon> types;
+            public LinkedHashMap<Integer, StructureDoomsdayWeapon> types;
         }
     }
 }

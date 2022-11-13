@@ -551,7 +551,7 @@ public class StrategicCruiser
         implements IMetaGroup<StrategicCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/StrategicCruiser.yaml";
-        private Map<String, StrategicCruiser> cache = (null);
+        private Map<Integer, StrategicCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super StrategicCruiser> category() {
@@ -569,7 +569,7 @@ public class StrategicCruiser
         }
 
         @Override
-        public synchronized Map<String, StrategicCruiser> load() {
+        public synchronized Map<Integer, StrategicCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StrategicCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -583,7 +583,7 @@ public class StrategicCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, StrategicCruiser> types;
+            public LinkedHashMap<Integer, StrategicCruiser> types;
         }
     }
 }

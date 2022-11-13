@@ -1,79 +1,21 @@
 types:
-  '''Chivalry'' Large Remote Capacitor Transmitter':
-    capacitorneed: 439.0
-    cpu: 37.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.0
-    hp: 40.0
-    id: 23856
-    marketGroup: 697
-    mass: 1000.0
-    maxrange: 9750.0
-    metagroupid: 3
-    metalevelold: 6
-    name: '''Chivalry'' Large Remote Capacitor Transmitter'
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
-    portionSize: 1
-    power: 272
-    powertransferamount: 351
-    price: 78840.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 25.0
-  '''Knight'' Medium Remote Capacitor Transmitter':
-    capacitorneed: 146.0
+  529:
+    capacitorneed: 38.0
     cpu: 30.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
-    hp: 40.0
-    id: 23854
-    marketGroup: 696
-    mass: 1000.0
-    maxrange: 6500.0
-    metagroupid: 3
-    metalevelold: 6
-    name: '''Knight'' Medium Remote Capacitor Transmitter'
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 68
-    powertransferamount: 117
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 10.0
-  '''Squire'' Small Remote Capacitor Transmitter':
-    capacitorneed: 49.0
-    cpu: 22.0
     duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 2.200000047683716
     hp: 40.0
-    id: 23852
+    id: 529
     marketGroup: 695
     mass: 1000.0
-    maxrange: 4550.0
-    metagroupid: 3
-    metalevelold: 6
-    name: '''Squire'' Small Remote Capacitor Transmitter'
+    maxrange: 3500.0
+    name: Small Remote Capacitor Transmitter I
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
-    power: 3
-    powertransferamount: 39
+    power: 4
+    powertransferamount: 30
     price: 30000.0
     published: true
     radius: 1000.0
@@ -83,7 +25,34 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  CONCORD Capital Remote Capacitor Transmitter:
+  1190:
+    capacitorneed: 41.0
+    cpu: 32.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 2.200000047683716
+    hp: 40.0
+    id: 1190
+    marketGroup: 695
+    mass: 10000.0
+    maxrange: 4550.0
+    metalevelold: 5
+    name: Small Remote Capacitor Transmitter II
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 5
+    powertransferamount: 39
+    price: 140108.0
+    published: true
+    radius: 2000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 5.0
+  3575:
     capacitorneed: 2500.0
     cpu: 90.0
     duration: 20000.0
@@ -113,65 +82,114 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 4000.0
-  Capital Inductive Compact Remote Capacitor Transmitter:
-    capacitorneed: 2500.0
-    cpu: 80.0
-    duration: 20000.0
+  5091:
+    capacitorneed: 38.0
+    cpu: 24.0
+    duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.5
+    heatdamage: 2.200000047683716
     hp: 40.0
-    id: 41566
-    marketGroup: 910
+    id: 5091
+    marketGroup: 695
     mass: 1000.0
-    maxrange: 16000.0
+    maxrange: 3500.0
     metalevelold: 1
-    name: Capital Inductive Compact Remote Capacitor Transmitter
+    name: Small Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
+    packagedVolume: 5.0
     portionSize: 1
-    power: 112500
-    powertransferamount: 1100
-    price: 2.677384E7
+    power: 4
+    powertransferamount: 35
+    price: 9840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
-    requiredskill1: 24572
+    requiredskill1: 3423
     requiredskill1level: 1
-    requiredskill2: 3423
-    requiredskill2level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 4000.0
-  Capital Radiative Scoped Remote Capacitor Transmitter:
-    capacitorneed: 2500.0
-    cpu: 100.0
-    duration: 20000.0
+    volume: 5.0
+  5093:
+    capacitorneed: 38.0
+    cpu: 30.0
+    duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.5
+    heatdamage: 2.200000047683716
     hp: 40.0
-    id: 41565
-    marketGroup: 910
+    id: 5093
+    marketGroup: 695
     mass: 1000.0
-    maxrange: 17600.0
+    maxrange: 4025.0
     metalevelold: 1
-    name: Capital Radiative Scoped Remote Capacitor Transmitter
+    name: Small Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
+    packagedVolume: 5.0
     portionSize: 1
-    power: 125000
-    powertransferamount: 1100
-    price: 2.677384E7
+    power: 4
+    powertransferamount: 35
+    price: 9840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
-    requiredskill1: 24572
+    requiredskill1: 3423
     requiredskill1level: 1
-    requiredskill2: 3423
-    requiredskill2level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 4000.0
-  Capital Remote Capacitor Transmitter I:
+    volume: 5.0
+  12102:
+    capacitorneed: 366.0
+    cpu: 53.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.0
+    hp: 40.0
+    id: 12102
+    marketGroup: 697
+    mass: 1000.0
+    maxrange: 9750.0
+    metalevelold: 5
+    name: Large Remote Capacitor Transmitter II
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 352
+    powertransferamount: 351
+    price: 147840.0
+    published: true
+    radius: 2000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 25.0
+  12217:
+    capacitorneed: 113.0
+    cpu: 40.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 12217
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 5000.0
+    name: Medium Remote Capacitor Transmitter I
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 80
+    powertransferamount: 90
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  12219:
     capacitorneed: 2500.0
     cpu: 100.0
     duration: 20000.0
@@ -199,7 +217,34 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 4000.0
-  Capital Remote Capacitor Transmitter II:
+  12221:
+    capacitorneed: 122.0
+    cpu: 42.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 12221
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 6500.0
+    metalevelold: 5
+    name: Medium Remote Capacitor Transmitter II
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 88
+    powertransferamount: 117
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 10.0
+  12223:
     capacitorneed: 2700.0
     cpu: 110.0
     duration: 20000.0
@@ -228,26 +273,24 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 2
     volume: 4000.0
-  Centii A-Type Small Remote Capacitor Transmitter:
-    capacitorneed: 38.0
-    cpu: 30.0
+  12225:
+    capacitorneed: 338.0
+    cpu: 50.0
     duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatdamage: 1.0
     hp: 40.0
-    id: 19075
-    marketGroup: 695
+    id: 12225
+    marketGroup: 697
     mass: 1000.0
-    maxrange: 4500.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Centii A-Type Small Remote Capacitor Transmitter
+    maxrange: 7500.0
+    name: Large Remote Capacitor Transmitter I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
+    packagedVolume: 25.0
     portionSize: 1
-    power: 4
-    powertransferamount: 41
-    price: 30000.0
+    power: 320
+    powertransferamount: 270
+    price: 78840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -255,27 +298,26 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 5.0
-  Centii B-Type Small Remote Capacitor Transmitter:
-    capacitorneed: 38.0
-    cpu: 30.0
+    volume: 25.0
+  16481:
+    capacitorneed: 338.0
+    cpu: 50.0
     duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatdamage: 1.0
     hp: 40.0
-    id: 19073
-    marketGroup: 695
+    id: 16481
+    marketGroup: 697
     mass: 1000.0
-    maxrange: 4500.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Centii B-Type Small Remote Capacitor Transmitter
+    maxrange: 8625.0
+    metalevelold: 1
+    name: Large Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
+    packagedVolume: 25.0
     portionSize: 1
-    power: 4
-    powertransferamount: 39
-    price: 30000.0
+    power: 320
+    powertransferamount: 311
+    price: 78840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -283,27 +325,26 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 5.0
-  Centii C-Type Small Remote Capacitor Transmitter:
-    capacitorneed: 38.0
-    cpu: 30.0
+    volume: 25.0
+  16487:
+    capacitorneed: 338.0
+    cpu: 40.0
     duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatdamage: 1.0
     hp: 40.0
-    id: 19071
-    marketGroup: 695
+    id: 16487
+    marketGroup: 697
     mass: 1000.0
-    maxrange: 4500.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Centii C-Type Small Remote Capacitor Transmitter
+    maxrange: 7500.0
+    metalevelold: 1
+    name: Large Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
+    packagedVolume: 25.0
     portionSize: 1
-    power: 4
-    powertransferamount: 38
-    price: 30000.0
+    power: 288
+    powertransferamount: 311
+    price: 78840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -311,26 +352,25 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 5.0
-  Centum A-Type Medium Remote Capacitor Transmitter:
+    volume: 25.0
+  16489:
     capacitorneed: 113.0
     cpu: 40.0
     duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.2999999523162842
     hp: 40.0
-    id: 19087
+    id: 16489
     marketGroup: 696
     mass: 1000.0
-    maxrange: 6500.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Centum A-Type Medium Remote Capacitor Transmitter
+    maxrange: 5750.0
+    metalevelold: 1
+    name: Medium Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
     power: 80
-    powertransferamount: 122
+    powertransferamount: 104
     price: 30000.0
     published: true
     radius: 1000.0
@@ -340,25 +380,24 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 10.0
-  Centum B-Type Medium Remote Capacitor Transmitter:
+  16495:
     capacitorneed: 113.0
-    cpu: 40.0
+    cpu: 32.0
     duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.2999999523162842
     hp: 40.0
-    id: 19085
+    id: 16495
     marketGroup: 696
     mass: 1000.0
-    maxrange: 6500.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Centum B-Type Medium Remote Capacitor Transmitter
+    maxrange: 5000.0
+    metalevelold: 1
+    name: Medium Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
-    power: 80
-    powertransferamount: 117
+    power: 72
+    powertransferamount: 104
     price: 30000.0
     published: true
     radius: 1000.0
@@ -368,91 +407,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 10.0
-  Centum C-Type Medium Remote Capacitor Transmitter:
-    capacitorneed: 113.0
-    cpu: 40.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
-    hp: 40.0
-    id: 19083
-    marketGroup: 696
-    mass: 1000.0
-    maxrange: 6500.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Centum C-Type Medium Remote Capacitor Transmitter
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 80
-    powertransferamount: 113
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 10.0
-  Corpii A-Type Small Remote Capacitor Transmitter:
-    capacitorneed: 44.0
-    cpu: 30.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
-    hp: 40.0
-    id: 19069
-    marketGroup: 695
-    mass: 1000.0
-    maxrange: 5075.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpii A-Type Small Remote Capacitor Transmitter
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 7
-    powertransferamount: 44
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii B-Type Small Remote Capacitor Transmitter:
-    capacitorneed: 42.0
-    cpu: 30.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
-    hp: 40.0
-    id: 19067
-    marketGroup: 695
-    mass: 1000.0
-    maxrange: 4900.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpii B-Type Small Remote Capacitor Transmitter
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 6
-    powertransferamount: 42
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii C-Type Small Remote Capacitor Transmitter:
+  19065:
     capacitorneed: 40.0
     cpu: 30.0
     duration: 5000.0
@@ -480,53 +435,25 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpum A-Type Medium Remote Capacitor Transmitter:
-    capacitorneed: 130.0
-    cpu: 40.0
+  19067:
+    capacitorneed: 42.0
+    cpu: 30.0
     duration: 5000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatdamage: 2.200000047683716
     hp: 40.0
-    id: 19081
-    marketGroup: 696
+    id: 19067
+    marketGroup: 695
     mass: 1000.0
-    maxrange: 7250.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpum A-Type Medium Remote Capacitor Transmitter
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 116
-    powertransferamount: 131
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 10.0
-  Corpum B-Type Medium Remote Capacitor Transmitter:
-    capacitorneed: 124.0
-    cpu: 40.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
-    hp: 40.0
-    id: 19079
-    marketGroup: 696
-    mass: 1000.0
-    maxrange: 7000.0
+    maxrange: 4900.0
     metagroupid: 6
     metalevelold: 12
-    name: Corpum B-Type Medium Remote Capacitor Transmitter
+    name: Corpii B-Type Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
+    packagedVolume: 5.0
     portionSize: 1
-    power: 112
-    powertransferamount: 126
+    power: 6
+    powertransferamount: 42
     price: 30000.0
     published: true
     radius: 1000.0
@@ -535,8 +462,120 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 10.0
-  Corpum C-Type Medium Remote Capacitor Transmitter:
+    volume: 5.0
+  19069:
+    capacitorneed: 44.0
+    cpu: 30.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.200000047683716
+    hp: 40.0
+    id: 19069
+    marketGroup: 695
+    mass: 1000.0
+    maxrange: 5075.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpii A-Type Small Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 7
+    powertransferamount: 44
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  19071:
+    capacitorneed: 38.0
+    cpu: 30.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.200000047683716
+    hp: 40.0
+    id: 19071
+    marketGroup: 695
+    mass: 1000.0
+    maxrange: 4500.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Centii C-Type Small Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 4
+    powertransferamount: 38
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  19073:
+    capacitorneed: 38.0
+    cpu: 30.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.200000047683716
+    hp: 40.0
+    id: 19073
+    marketGroup: 695
+    mass: 1000.0
+    maxrange: 4500.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Centii B-Type Small Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 4
+    powertransferamount: 39
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  19075:
+    capacitorneed: 38.0
+    cpu: 30.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.200000047683716
+    hp: 40.0
+    id: 19075
+    marketGroup: 695
+    mass: 1000.0
+    maxrange: 4500.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Centii A-Type Small Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 4
+    powertransferamount: 41
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  19077:
     capacitorneed: 119.0
     cpu: 40.0
     duration: 5000.0
@@ -564,7 +603,231 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 10.0
-  Imperial Navy Large Remote Capacitor Transmitter:
+  19079:
+    capacitorneed: 124.0
+    cpu: 40.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 19079
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 7000.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpum B-Type Medium Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 112
+    powertransferamount: 126
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  19081:
+    capacitorneed: 130.0
+    cpu: 40.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 19081
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 7250.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpum A-Type Medium Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 116
+    powertransferamount: 131
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  19083:
+    capacitorneed: 113.0
+    cpu: 40.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 19083
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 6500.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Centum C-Type Medium Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 80
+    powertransferamount: 113
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  19085:
+    capacitorneed: 113.0
+    cpu: 40.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 19085
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 6500.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Centum B-Type Medium Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 80
+    powertransferamount: 117
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  19087:
+    capacitorneed: 113.0
+    cpu: 40.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 19087
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 6500.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Centum A-Type Medium Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 80
+    powertransferamount: 122
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  23852:
+    capacitorneed: 49.0
+    cpu: 22.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.200000047683716
+    hp: 40.0
+    id: 23852
+    marketGroup: 695
+    mass: 1000.0
+    maxrange: 4550.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Squire'' Small Remote Capacitor Transmitter'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 3
+    powertransferamount: 39
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  23854:
+    capacitorneed: 146.0
+    cpu: 30.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 23854
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 6500.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Knight'' Medium Remote Capacitor Transmitter'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 68
+    powertransferamount: 117
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  23856:
+    capacitorneed: 439.0
+    cpu: 37.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
+    id: 23856
+    marketGroup: 697
+    mass: 1000.0
+    maxrange: 9750.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Chivalry'' Large Remote Capacitor Transmitter'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 272
+    powertransferamount: 351
+    price: 78840.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 25.0
+  31946:
     capacitorneed: 366.0
     cpu: 48.0
     duration: 5000.0
@@ -592,7 +855,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 25.0
-  Imperial Navy Medium Remote Capacitor Transmitter:
+  31948:
     capacitorneed: 122.0
     cpu: 38.0
     duration: 5000.0
@@ -620,7 +883,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 10.0
-  Imperial Navy Small Remote Capacitor Transmitter:
+  31950:
     capacitorneed: 41.0
     cpu: 29.0
     duration: 5000.0
@@ -648,324 +911,61 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Large Inductive Compact Remote Capacitor Transmitter:
-    capacitorneed: 338.0
-    cpu: 40.0
-    duration: 5000.0
+  41565:
+    capacitorneed: 2500.0
+    cpu: 100.0
+    duration: 20000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.0
+    heatdamage: 4.5
     hp: 40.0
-    id: 16487
-    marketGroup: 697
+    id: 41565
+    marketGroup: 910
     mass: 1000.0
-    maxrange: 7500.0
+    maxrange: 17600.0
     metalevelold: 1
-    name: Large Inductive Compact Remote Capacitor Transmitter
+    name: Capital Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
+    packagedVolume: 1000.0
     portionSize: 1
-    power: 288
-    powertransferamount: 311
-    price: 78840.0
+    power: 125000
+    powertransferamount: 1100
+    price: 2.677384E7
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
-    requiredskill1: 3423
+    requiredskill1: 24572
     requiredskill1level: 1
+    requiredskill2: 3423
+    requiredskill2level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 25.0
-  Large Radiative Scoped Remote Capacitor Transmitter:
-    capacitorneed: 338.0
-    cpu: 50.0
-    duration: 5000.0
+    volume: 4000.0
+  41566:
+    capacitorneed: 2500.0
+    cpu: 80.0
+    duration: 20000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.0
+    heatdamage: 4.5
     hp: 40.0
-    id: 16481
-    marketGroup: 697
+    id: 41566
+    marketGroup: 910
     mass: 1000.0
-    maxrange: 8625.0
+    maxrange: 16000.0
     metalevelold: 1
-    name: Large Radiative Scoped Remote Capacitor Transmitter
+    name: Capital Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
+    packagedVolume: 1000.0
     portionSize: 1
-    power: 320
-    powertransferamount: 311
-    price: 78840.0
+    power: 112500
+    powertransferamount: 1100
+    price: 2.677384E7
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
-    requiredskill1: 3423
+    requiredskill1: 24572
     requiredskill1level: 1
+    requiredskill2: 3423
+    requiredskill2level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 25.0
-  Large Remote Capacitor Transmitter I:
-    capacitorneed: 338.0
-    cpu: 50.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.0
-    hp: 40.0
-    id: 12225
-    marketGroup: 697
-    mass: 1000.0
-    maxrange: 7500.0
-    name: Large Remote Capacitor Transmitter I
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
-    portionSize: 1
-    power: 320
-    powertransferamount: 270
-    price: 78840.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 25.0
-  Large Remote Capacitor Transmitter II:
-    capacitorneed: 366.0
-    cpu: 53.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.0
-    hp: 40.0
-    id: 12102
-    marketGroup: 697
-    mass: 1000.0
-    maxrange: 9750.0
-    metalevelold: 5
-    name: Large Remote Capacitor Transmitter II
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
-    portionSize: 1
-    power: 352
-    powertransferamount: 351
-    price: 147840.0
-    published: true
-    radius: 2000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 25.0
-  Medium Inductive Compact Remote Capacitor Transmitter:
-    capacitorneed: 113.0
-    cpu: 32.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
-    hp: 40.0
-    id: 16495
-    marketGroup: 696
-    mass: 1000.0
-    maxrange: 5000.0
-    metalevelold: 1
-    name: Medium Inductive Compact Remote Capacitor Transmitter
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 72
-    powertransferamount: 104
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 10.0
-  Medium Radiative Scoped Remote Capacitor Transmitter:
-    capacitorneed: 113.0
-    cpu: 40.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
-    hp: 40.0
-    id: 16489
-    marketGroup: 696
-    mass: 1000.0
-    maxrange: 5750.0
-    metalevelold: 1
-    name: Medium Radiative Scoped Remote Capacitor Transmitter
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 80
-    powertransferamount: 104
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 10.0
-  Medium Remote Capacitor Transmitter I:
-    capacitorneed: 113.0
-    cpu: 40.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
-    hp: 40.0
-    id: 12217
-    marketGroup: 696
-    mass: 1000.0
-    maxrange: 5000.0
-    name: Medium Remote Capacitor Transmitter I
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 80
-    powertransferamount: 90
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 10.0
-  Medium Remote Capacitor Transmitter II:
-    capacitorneed: 122.0
-    cpu: 42.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.2999999523162842
-    hp: 40.0
-    id: 12221
-    marketGroup: 696
-    mass: 1000.0
-    maxrange: 6500.0
-    metalevelold: 5
-    name: Medium Remote Capacitor Transmitter II
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 88
-    powertransferamount: 117
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 10.0
-  Small Inductive Compact Remote Capacitor Transmitter:
-    capacitorneed: 38.0
-    cpu: 24.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
-    hp: 40.0
-    id: 5091
-    marketGroup: 695
-    mass: 1000.0
-    maxrange: 3500.0
-    metalevelold: 1
-    name: Small Inductive Compact Remote Capacitor Transmitter
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 4
-    powertransferamount: 35
-    price: 9840.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Small Radiative Scoped Remote Capacitor Transmitter:
-    capacitorneed: 38.0
-    cpu: 30.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
-    hp: 40.0
-    id: 5093
-    marketGroup: 695
-    mass: 1000.0
-    maxrange: 4025.0
-    metalevelold: 1
-    name: Small Radiative Scoped Remote Capacitor Transmitter
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 4
-    powertransferamount: 35
-    price: 9840.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Small Remote Capacitor Transmitter I:
-    capacitorneed: 38.0
-    cpu: 30.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
-    hp: 40.0
-    id: 529
-    marketGroup: 695
-    mass: 1000.0
-    maxrange: 3500.0
-    name: Small Remote Capacitor Transmitter I
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 4
-    powertransferamount: 30
-    price: 30000.0
-    published: true
-    radius: 1000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Small Remote Capacitor Transmitter II:
-    capacitorneed: 41.0
-    cpu: 32.0
-    duration: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.200000047683716
-    hp: 40.0
-    id: 1190
-    marketGroup: 695
-    mass: 10000.0
-    maxrange: 4550.0
-    metalevelold: 5
-    name: Small Remote Capacitor Transmitter II
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 5
-    powertransferamount: 39
-    price: 140108.0
-    published: true
-    radius: 2000.0
-    remoteresistanceid: 2116
-    requiredskill1: 3423
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
+    volume: 4000.0

@@ -209,7 +209,7 @@ public class RigShield
         implements IMetaGroup<RigShield>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigShield.yaml";
-        private Map<String, RigShield> cache = (null);
+        private Map<Integer, RigShield> cache = (null);
 
         @Override
         public IMetaCategory<? super RigShield> category() {
@@ -227,7 +227,7 @@ public class RigShield
         }
 
         @Override
-        public synchronized Map<String, RigShield> load() {
+        public synchronized Map<Integer, RigShield> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigShield.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -241,7 +241,7 @@ public class RigShield
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigShield> types;
+            public LinkedHashMap<Integer, RigShield> types;
         }
     }
 }

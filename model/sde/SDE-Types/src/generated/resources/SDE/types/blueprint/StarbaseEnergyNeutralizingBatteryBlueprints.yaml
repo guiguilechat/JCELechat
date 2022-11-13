@@ -1,23 +1,5 @@
 types:
-  Blood Energy Neutralizing Battery Blueprint:
-    id: 27875
-    industryblueprintrank: 40.0
-    name: Blood Energy Neutralizing Battery Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Dark Blood Energy Neutralizing Battery Blueprint:
-    id: 27876
-    industryblueprintrank: 40.0
-    name: Dark Blood Energy Neutralizing Battery Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Energy Neutralizing Battery Blueprint:
+  2799:
     id: 2799
     industryblueprintrank: 40.0
     marketGroup: 1345
@@ -28,7 +10,25 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Sansha Energy Neutralizing Battery Blueprint:
+  27875:
+    id: 27875
+    industryblueprintrank: 40.0
+    name: Blood Energy Neutralizing Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  27876:
+    id: 27876
+    industryblueprintrank: 40.0
+    name: Dark Blood Energy Neutralizing Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  27877:
     id: 27877
     industryblueprintrank: 40.0
     name: Sansha Energy Neutralizing Battery Blueprint
@@ -37,7 +37,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  True Sansha Energy Neutralizing Battery Blueprint:
+  27878:
     id: 27878
     industryblueprintrank: 40.0
     name: True Sansha Energy Neutralizing Battery Blueprint

@@ -206,7 +206,7 @@ public class StructureFittingModule
         implements IMetaGroup<StructureFittingModule>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureFittingModule.yaml";
-        private Map<String, StructureFittingModule> cache = (null);
+        private Map<Integer, StructureFittingModule> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureFittingModule> category() {
@@ -224,7 +224,7 @@ public class StructureFittingModule
         }
 
         @Override
-        public synchronized Map<String, StructureFittingModule> load() {
+        public synchronized Map<Integer, StructureFittingModule> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureFittingModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -238,7 +238,7 @@ public class StructureFittingModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureFittingModule> types;
+            public LinkedHashMap<Integer, StructureFittingModule> types;
         }
     }
 }

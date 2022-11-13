@@ -1,36 +1,5 @@
 types:
-  Cybernetic 'Source' Subprocessor:
-    id: 33807
-    implantness: 4
-    implantsetchristmas: 1.0
-    intelligencebonus: 4
-    marketGroup: 621
-    name: Cybernetic 'Source' Subprocessor
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 400000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Genolution 'Auroral' AU-79:
-    followsjumpclones: 1
-    id: 33329
-    implantness: 79
-    implantsetchristmas: 1.0
-    marketGroup: 1814
-    name: Genolution 'Auroral' AU-79
-    nondestructible: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 800000.0
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 1.0
-  Genolution Core Augmentation CA-1:
+  2082:
     capacitorcapacitybonus: 1.5
     id: 2082
     implantness: 1
@@ -49,7 +18,7 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 1.0
-  Genolution Core Augmentation CA-2:
+  2589:
     caprechargebonus: -1.5
     cpuoutputbonus2: 1.5
     id: 2589
@@ -68,7 +37,22 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 1.0
-  Genolution Core Augmentation CA-3:
+  33329:
+    followsjumpclones: 1
+    id: 33329
+    implantness: 79
+    implantsetchristmas: 1.0
+    marketGroup: 1814
+    name: Genolution 'Auroral' AU-79
+    nondestructible: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 800000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 1.0
+  33393:
     id: 33393
     implantbonusvelocity: 1.5
     implantness: 3
@@ -87,7 +71,7 @@ types:
     techlevel: 1
     volume: 1.0
     willpowerbonus: 3
-  Genolution Core Augmentation CA-4:
+  33394:
     agilitybonus: -1.5
     armorhpbonus2: 1.5
     id: 33394
@@ -106,7 +90,23 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 1.0
-  Neural 'Source' Boost:
+  33807:
+    id: 33807
+    implantness: 4
+    implantsetchristmas: 1.0
+    intelligencebonus: 4
+    marketGroup: 621
+    name: Cybernetic 'Source' Subprocessor
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 400000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  33808:
     id: 33808
     implantness: 3
     implantsetchristmas: 1.0

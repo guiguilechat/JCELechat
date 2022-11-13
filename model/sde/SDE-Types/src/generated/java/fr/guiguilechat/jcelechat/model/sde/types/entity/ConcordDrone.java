@@ -1095,7 +1095,7 @@ public class ConcordDrone
         implements IMetaGroup<ConcordDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/ConcordDrone.yaml";
-        private Map<String, ConcordDrone> cache = (null);
+        private Map<Integer, ConcordDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super ConcordDrone> category() {
@@ -1113,7 +1113,7 @@ public class ConcordDrone
         }
 
         @Override
-        public synchronized Map<String, ConcordDrone> load() {
+        public synchronized Map<Integer, ConcordDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ConcordDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1127,7 +1127,7 @@ public class ConcordDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, ConcordDrone> types;
+            public LinkedHashMap<Integer, ConcordDrone> types;
         }
     }
 }

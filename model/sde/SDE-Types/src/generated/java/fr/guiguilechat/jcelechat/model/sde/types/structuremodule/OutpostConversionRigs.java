@@ -441,7 +441,7 @@ public class OutpostConversionRigs
         implements IMetaGroup<OutpostConversionRigs>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/OutpostConversionRigs.yaml";
-        private Map<String, OutpostConversionRigs> cache = (null);
+        private Map<Integer, OutpostConversionRigs> cache = (null);
 
         @Override
         public IMetaCategory<? super OutpostConversionRigs> category() {
@@ -459,7 +459,7 @@ public class OutpostConversionRigs
         }
 
         @Override
-        public synchronized Map<String, OutpostConversionRigs> load() {
+        public synchronized Map<Integer, OutpostConversionRigs> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(OutpostConversionRigs.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -473,7 +473,7 @@ public class OutpostConversionRigs
         }
 
         private static class Container {
-            public LinkedHashMap<String, OutpostConversionRigs> types;
+            public LinkedHashMap<Integer, OutpostConversionRigs> types;
         }
     }
 }

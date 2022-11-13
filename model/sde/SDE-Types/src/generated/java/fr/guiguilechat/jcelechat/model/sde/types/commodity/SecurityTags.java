@@ -84,7 +84,7 @@ public class SecurityTags
         implements IMetaGroup<SecurityTags>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/SecurityTags.yaml";
-        private Map<String, SecurityTags> cache = (null);
+        private Map<Integer, SecurityTags> cache = (null);
 
         @Override
         public IMetaCategory<? super SecurityTags> category() {
@@ -102,7 +102,7 @@ public class SecurityTags
         }
 
         @Override
-        public synchronized Map<String, SecurityTags> load() {
+        public synchronized Map<Integer, SecurityTags> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SecurityTags.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -116,7 +116,7 @@ public class SecurityTags
         }
 
         private static class Container {
-            public LinkedHashMap<String, SecurityTags> types;
+            public LinkedHashMap<Integer, SecurityTags> types;
         }
     }
 }

@@ -205,7 +205,7 @@ public class UpwellJumpGate
         implements IMetaGroup<UpwellJumpGate>
     {
         public static final String RESOURCE_PATH = "SDE/types/structure/UpwellJumpGate.yaml";
-        private Map<String, UpwellJumpGate> cache = (null);
+        private Map<Integer, UpwellJumpGate> cache = (null);
 
         @Override
         public IMetaCategory<? super UpwellJumpGate> category() {
@@ -223,7 +223,7 @@ public class UpwellJumpGate
         }
 
         @Override
-        public synchronized Map<String, UpwellJumpGate> load() {
+        public synchronized Map<Integer, UpwellJumpGate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(UpwellJumpGate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -237,7 +237,7 @@ public class UpwellJumpGate
         }
 
         private static class Container {
-            public LinkedHashMap<String, UpwellJumpGate> types;
+            public LinkedHashMap<Integer, UpwellJumpGate> types;
         }
     }
 }

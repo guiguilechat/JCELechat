@@ -1,5 +1,5 @@
 types:
-  Cargo Hub:
+  364205:
     id: 364205
     mass: 1.1E8
     name: Cargo Hub
@@ -8,19 +8,19 @@ types:
     price: 2.5E7
     published: false
     volume: 4000.0
-  Production Facility:
-    id: 364207
+  364206:
+    id: 364206
     mass: 1.1E8
-    name: Production Facility
+    name: Surface Research Lab
     packagedVolume: 4000.0
     portionSize: 1
     price: 2.5E7
     published: false
     volume: 4000.0
-  Surface Research Lab:
-    id: 364206
+  364207:
+    id: 364207
     mass: 1.1E8
-    name: Surface Research Lab
+    name: Production Facility
     packagedVolume: 4000.0
     portionSize: 1
     price: 2.5E7

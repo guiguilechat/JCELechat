@@ -1,23 +1,5 @@
 types:
-  Barrels Of Viral Agent:
-    id: 26777
-    mass: 1000000.0
-    name: Barrels Of Viral Agent
-    packagedVolume: 5000.0
-    portionSize: 1
-    price: 850.0
-    published: true
-    volume: 5000.0
-  Confiscated Viral Agent:
-    id: 19398
-    marketGroup: 22
-    mass: 100.0
-    name: Confiscated Viral Agent
-    packagedVolume: 0.5
-    portionSize: 1
-    published: true
-    volume: 0.5
-  Ectoplasm:
+  3771:
     id: 3771
     marketGroup: 20
     mass: 100.0
@@ -27,7 +9,7 @@ types:
     price: 900.0
     published: true
     volume: 0.5
-  Hydrochloric Acid:
+  3773:
     id: 3773
     marketGroup: 20
     mass: 100.0
@@ -37,7 +19,7 @@ types:
     price: 630.0
     published: true
     volume: 0.5
-  Large Crates of Ectoplasm:
+  4091:
     id: 4091
     mass: 100.0
     name: Large Crates of Ectoplasm
@@ -46,7 +28,33 @@ types:
     price: 900.0
     published: true
     volume: 500.0
-  OP Insecticide:
+  19398:
+    id: 19398
+    marketGroup: 22
+    mass: 100.0
+    name: Confiscated Viral Agent
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  20510:
+    id: 20510
+    mass: 100.0
+    name: Potent Viral Agent
+    packagedVolume: 0.5
+    portionSize: 1
+    published: true
+    volume: 0.5
+  26777:
+    id: 26777
+    mass: 1000000.0
+    name: Barrels Of Viral Agent
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 850.0
+    published: true
+    volume: 5000.0
+  29504:
     id: 29504
     mass: 250.0
     name: OP Insecticide
@@ -55,11 +63,3 @@ types:
     price: 320.0
     published: true
     volume: 0.25
-  Potent Viral Agent:
-    id: 20510
-    mass: 100.0
-    name: Potent Viral Agent
-    packagedVolume: 0.5
-    portionSize: 1
-    published: true
-    volume: 0.5

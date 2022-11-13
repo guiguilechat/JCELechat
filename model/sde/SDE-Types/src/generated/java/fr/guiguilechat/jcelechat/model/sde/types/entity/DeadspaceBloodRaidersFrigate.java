@@ -1169,7 +1169,7 @@ public class DeadspaceBloodRaidersFrigate
         implements IMetaGroup<DeadspaceBloodRaidersFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceBloodRaidersFrigate.yaml";
-        private Map<String, DeadspaceBloodRaidersFrigate> cache = (null);
+        private Map<Integer, DeadspaceBloodRaidersFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceBloodRaidersFrigate> category() {
@@ -1187,7 +1187,7 @@ public class DeadspaceBloodRaidersFrigate
         }
 
         @Override
-        public synchronized Map<String, DeadspaceBloodRaidersFrigate> load() {
+        public synchronized Map<Integer, DeadspaceBloodRaidersFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceBloodRaidersFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1201,7 +1201,7 @@ public class DeadspaceBloodRaidersFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceBloodRaidersFrigate> types;
+            public LinkedHashMap<Integer, DeadspaceBloodRaidersFrigate> types;
         }
     }
 }

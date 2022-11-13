@@ -83,7 +83,7 @@ public class AncientSalvage
         implements IMetaGroup<AncientSalvage>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/AncientSalvage.yaml";
-        private Map<String, AncientSalvage> cache = (null);
+        private Map<Integer, AncientSalvage> cache = (null);
 
         @Override
         public IMetaCategory<? super AncientSalvage> category() {
@@ -101,7 +101,7 @@ public class AncientSalvage
         }
 
         @Override
-        public synchronized Map<String, AncientSalvage> load() {
+        public synchronized Map<Integer, AncientSalvage> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AncientSalvage.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class AncientSalvage
         }
 
         private static class Container {
-            public LinkedHashMap<String, AncientSalvage> types;
+            public LinkedHashMap<Integer, AncientSalvage> types;
         }
     }
 }

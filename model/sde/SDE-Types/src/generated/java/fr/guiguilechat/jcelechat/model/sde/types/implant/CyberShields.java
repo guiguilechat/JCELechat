@@ -185,7 +185,7 @@ public class CyberShields
         implements IMetaGroup<CyberShields>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberShields.yaml";
-        private Map<String, CyberShields> cache = (null);
+        private Map<Integer, CyberShields> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberShields> category() {
@@ -203,7 +203,7 @@ public class CyberShields
         }
 
         @Override
-        public synchronized Map<String, CyberShields> load() {
+        public synchronized Map<Integer, CyberShields> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberShields.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -217,7 +217,7 @@ public class CyberShields
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberShields> types;
+            public LinkedHashMap<Integer, CyberShields> types;
         }
     }
 }

@@ -310,7 +310,7 @@ public class StructureEnergyNeutralizer
         implements IMetaGroup<StructureEnergyNeutralizer>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEnergyNeutralizer.yaml";
-        private Map<String, StructureEnergyNeutralizer> cache = (null);
+        private Map<Integer, StructureEnergyNeutralizer> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEnergyNeutralizer> category() {
@@ -328,7 +328,7 @@ public class StructureEnergyNeutralizer
         }
 
         @Override
-        public synchronized Map<String, StructureEnergyNeutralizer> load() {
+        public synchronized Map<Integer, StructureEnergyNeutralizer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEnergyNeutralizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -342,7 +342,7 @@ public class StructureEnergyNeutralizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEnergyNeutralizer> types;
+            public LinkedHashMap<Integer, StructureEnergyNeutralizer> types;
         }
     }
 }

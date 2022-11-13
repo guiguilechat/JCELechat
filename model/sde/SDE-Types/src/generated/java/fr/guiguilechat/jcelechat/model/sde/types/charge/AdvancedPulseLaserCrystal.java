@@ -328,7 +328,7 @@ public class AdvancedPulseLaserCrystal
         implements IMetaGroup<AdvancedPulseLaserCrystal>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedPulseLaserCrystal.yaml";
-        private Map<String, AdvancedPulseLaserCrystal> cache = (null);
+        private Map<Integer, AdvancedPulseLaserCrystal> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedPulseLaserCrystal> category() {
@@ -346,7 +346,7 @@ public class AdvancedPulseLaserCrystal
         }
 
         @Override
-        public synchronized Map<String, AdvancedPulseLaserCrystal> load() {
+        public synchronized Map<Integer, AdvancedPulseLaserCrystal> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedPulseLaserCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -360,7 +360,7 @@ public class AdvancedPulseLaserCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedPulseLaserCrystal> types;
+            public LinkedHashMap<Integer, AdvancedPulseLaserCrystal> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Drone Damage Amplifier I Blueprint:
+  4394:
     id: 4394
     industryblueprintrank: 3.0
     marketGroup: 939
@@ -11,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Drone Damage Amplifier II Blueprint:
+  4406:
     id: 4406
     industryblueprintrank: 7.800000190734863
     name: Drone Damage Amplifier II Blueprint

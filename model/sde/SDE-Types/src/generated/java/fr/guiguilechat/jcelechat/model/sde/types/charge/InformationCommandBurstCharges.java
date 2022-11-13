@@ -205,7 +205,7 @@ public class InformationCommandBurstCharges
         implements IMetaGroup<InformationCommandBurstCharges>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/InformationCommandBurstCharges.yaml";
-        private Map<String, InformationCommandBurstCharges> cache = (null);
+        private Map<Integer, InformationCommandBurstCharges> cache = (null);
 
         @Override
         public IMetaCategory<? super InformationCommandBurstCharges> category() {
@@ -223,7 +223,7 @@ public class InformationCommandBurstCharges
         }
 
         @Override
-        public synchronized Map<String, InformationCommandBurstCharges> load() {
+        public synchronized Map<Integer, InformationCommandBurstCharges> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InformationCommandBurstCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -237,7 +237,7 @@ public class InformationCommandBurstCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, InformationCommandBurstCharges> types;
+            public LinkedHashMap<Integer, InformationCommandBurstCharges> types;
         }
     }
 }

@@ -32,7 +32,7 @@ public class BiochemicalReactionFormulas
         implements IMetaGroup<BiochemicalReactionFormulas>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/BiochemicalReactionFormulas.yaml";
-        private Map<String, BiochemicalReactionFormulas> cache = (null);
+        private Map<Integer, BiochemicalReactionFormulas> cache = (null);
 
         @Override
         public IMetaCategory<? super BiochemicalReactionFormulas> category() {
@@ -50,7 +50,7 @@ public class BiochemicalReactionFormulas
         }
 
         @Override
-        public synchronized Map<String, BiochemicalReactionFormulas> load() {
+        public synchronized Map<Integer, BiochemicalReactionFormulas> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BiochemicalReactionFormulas.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class BiochemicalReactionFormulas
         }
 
         private static class Container {
-            public LinkedHashMap<String, BiochemicalReactionFormulas> types;
+            public LinkedHashMap<Integer, BiochemicalReactionFormulas> types;
         }
     }
 }

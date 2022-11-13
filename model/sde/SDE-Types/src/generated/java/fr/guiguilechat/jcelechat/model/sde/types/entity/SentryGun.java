@@ -579,7 +579,7 @@ public class SentryGun
         implements IMetaGroup<SentryGun>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/SentryGun.yaml";
-        private Map<String, SentryGun> cache = (null);
+        private Map<Integer, SentryGun> cache = (null);
 
         @Override
         public IMetaCategory<? super SentryGun> category() {
@@ -597,7 +597,7 @@ public class SentryGun
         }
 
         @Override
-        public synchronized Map<String, SentryGun> load() {
+        public synchronized Map<Integer, SentryGun> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SentryGun.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -611,7 +611,7 @@ public class SentryGun
         }
 
         private static class Container {
-            public LinkedHashMap<String, SentryGun> types;
+            public LinkedHashMap<Integer, SentryGun> types;
         }
     }
 }

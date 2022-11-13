@@ -97,7 +97,7 @@ public class MobileWarpDisruptorBlueprint
         implements IMetaGroup<MobileWarpDisruptorBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileWarpDisruptorBlueprint.yaml";
-        private Map<String, MobileWarpDisruptorBlueprint> cache = (null);
+        private Map<Integer, MobileWarpDisruptorBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileWarpDisruptorBlueprint> category() {
@@ -115,7 +115,7 @@ public class MobileWarpDisruptorBlueprint
         }
 
         @Override
-        public synchronized Map<String, MobileWarpDisruptorBlueprint> load() {
+        public synchronized Map<Integer, MobileWarpDisruptorBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileWarpDisruptorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class MobileWarpDisruptorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileWarpDisruptorBlueprint> types;
+            public LinkedHashMap<Integer, MobileWarpDisruptorBlueprint> types;
         }
     }
 }

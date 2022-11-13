@@ -503,7 +503,7 @@ public class Freighter
         implements IMetaGroup<Freighter>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Freighter.yaml";
-        private Map<String, Freighter> cache = (null);
+        private Map<Integer, Freighter> cache = (null);
 
         @Override
         public IMetaCategory<? super Freighter> category() {
@@ -521,7 +521,7 @@ public class Freighter
         }
 
         @Override
-        public synchronized Map<String, Freighter> load() {
+        public synchronized Map<Integer, Freighter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Freighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -535,7 +535,7 @@ public class Freighter
         }
 
         private static class Container {
-            public LinkedHashMap<String, Freighter> types;
+            public LinkedHashMap<Integer, Freighter> types;
         }
     }
 }

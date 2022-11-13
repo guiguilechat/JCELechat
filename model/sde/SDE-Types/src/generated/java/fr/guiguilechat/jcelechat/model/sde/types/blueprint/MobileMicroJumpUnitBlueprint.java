@@ -83,7 +83,7 @@ public class MobileMicroJumpUnitBlueprint
         implements IMetaGroup<MobileMicroJumpUnitBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileMicroJumpUnitBlueprint.yaml";
-        private Map<String, MobileMicroJumpUnitBlueprint> cache = (null);
+        private Map<Integer, MobileMicroJumpUnitBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileMicroJumpUnitBlueprint> category() {
@@ -101,7 +101,7 @@ public class MobileMicroJumpUnitBlueprint
         }
 
         @Override
-        public synchronized Map<String, MobileMicroJumpUnitBlueprint> load() {
+        public synchronized Map<Integer, MobileMicroJumpUnitBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileMicroJumpUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class MobileMicroJumpUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileMicroJumpUnitBlueprint> types;
+            public LinkedHashMap<Integer, MobileMicroJumpUnitBlueprint> types;
         }
     }
 }

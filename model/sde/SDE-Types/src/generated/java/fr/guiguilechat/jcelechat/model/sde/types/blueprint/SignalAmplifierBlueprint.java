@@ -97,7 +97,7 @@ public class SignalAmplifierBlueprint
         implements IMetaGroup<SignalAmplifierBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SignalAmplifierBlueprint.yaml";
-        private Map<String, SignalAmplifierBlueprint> cache = (null);
+        private Map<Integer, SignalAmplifierBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SignalAmplifierBlueprint> category() {
@@ -115,7 +115,7 @@ public class SignalAmplifierBlueprint
         }
 
         @Override
-        public synchronized Map<String, SignalAmplifierBlueprint> load() {
+        public synchronized Map<Integer, SignalAmplifierBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SignalAmplifierBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class SignalAmplifierBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SignalAmplifierBlueprint> types;
+            public LinkedHashMap<Integer, SignalAmplifierBlueprint> types;
         }
     }
 }

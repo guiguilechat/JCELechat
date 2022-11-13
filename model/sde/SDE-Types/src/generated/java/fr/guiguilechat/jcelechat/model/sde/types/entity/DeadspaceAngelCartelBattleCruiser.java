@@ -1145,7 +1145,7 @@ public class DeadspaceAngelCartelBattleCruiser
         implements IMetaGroup<DeadspaceAngelCartelBattleCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceAngelCartelBattleCruiser.yaml";
-        private Map<String, DeadspaceAngelCartelBattleCruiser> cache = (null);
+        private Map<Integer, DeadspaceAngelCartelBattleCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceAngelCartelBattleCruiser> category() {
@@ -1163,7 +1163,7 @@ public class DeadspaceAngelCartelBattleCruiser
         }
 
         @Override
-        public synchronized Map<String, DeadspaceAngelCartelBattleCruiser> load() {
+        public synchronized Map<Integer, DeadspaceAngelCartelBattleCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceAngelCartelBattleCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1177,7 +1177,7 @@ public class DeadspaceAngelCartelBattleCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceAngelCartelBattleCruiser> types;
+            public LinkedHashMap<Integer, DeadspaceAngelCartelBattleCruiser> types;
         }
     }
 }

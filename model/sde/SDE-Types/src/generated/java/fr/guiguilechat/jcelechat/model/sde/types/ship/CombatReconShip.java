@@ -248,8 +248,8 @@ public class CombatReconShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5)
-    public int shipbonuscc;
+    @DefaultRealValue(5.0)
+    public double shipbonuscc;
     /**
      * 
      */
@@ -419,7 +419,7 @@ public class CombatReconShip
         implements IMetaGroup<CombatReconShip>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/CombatReconShip.yaml";
-        private Map<String, CombatReconShip> cache = (null);
+        private Map<Integer, CombatReconShip> cache = (null);
 
         @Override
         public IMetaCategory<? super CombatReconShip> category() {
@@ -437,7 +437,7 @@ public class CombatReconShip
         }
 
         @Override
-        public synchronized Map<String, CombatReconShip> load() {
+        public synchronized Map<Integer, CombatReconShip> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CombatReconShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -451,7 +451,7 @@ public class CombatReconShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, CombatReconShip> types;
+            public LinkedHashMap<Integer, CombatReconShip> types;
         }
     }
 }

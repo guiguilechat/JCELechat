@@ -1,71 +1,21 @@
 types:
-  Capital Ionic Field Projector I:
+  26100:
     drawback: -10
     hp: 40.0
-    id: 31278
-    marketGroup: 1793
+    id: 26100
+    marketGroup: 1792
     mass: 200.0
-    maxtargetrangebonus: 25.0
-    name: Capital Ionic Field Projector I
-    packagedVolume: 40.0
+    name: Large Targeting System Subcontroller I
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Ionic Field Projector II:
-    drawback: -10
-    hp: 40.0
-    id: 31284
-    marketGroup: 1793
-    mass: 200.0
-    maxtargetrangebonus: 30.0
-    metalevelold: 5
-    name: Capital Ionic Field Projector II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Targeting System Subcontroller I:
-    drawback: -10
-    hp: 40.0
-    id: 31326
-    marketGroup: 1793
-    mass: 200.0
-    name: Capital Targeting System Subcontroller I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
+    rigsize: 3
     scanresolutionbonus: 20.0
     techlevel: 1
     upgradecost: 100
-    volume: 40.0
-  Capital Targeting System Subcontroller II:
-    drawback: -10
-    hp: 40.0
-    id: 31332
-    marketGroup: 1793
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Targeting System Subcontroller II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    scanresolutionbonus: 25.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Large Ionic Field Projector I:
+    volume: 20.0
+  26102:
     drawback: -10
     hp: 40.0
     id: 26102
@@ -81,7 +31,7 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 20.0
-  Large Ionic Field Projector II:
+  26358:
     drawback: -10
     hp: 40.0
     id: 26358
@@ -98,23 +48,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Large Targeting System Subcontroller I:
-    drawback: -10
-    hp: 40.0
-    id: 26100
-    marketGroup: 1792
-    mass: 200.0
-    name: Large Targeting System Subcontroller I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    scanresolutionbonus: 20.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Targeting System Subcontroller II:
+  26364:
     drawback: -10
     hp: 40.0
     id: 26364
@@ -131,73 +65,7 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 20.0
-  Medium Ionic Field Projector I:
-    drawback: -10
-    hp: 40.0
-    id: 31276
-    marketGroup: 1791
-    mass: 200.0
-    maxtargetrangebonus: 25.0
-    name: Medium Ionic Field Projector I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Ionic Field Projector II:
-    drawback: -10
-    hp: 40.0
-    id: 31282
-    marketGroup: 1791
-    mass: 200.0
-    maxtargetrangebonus: 30.0
-    metalevelold: 5
-    name: Medium Ionic Field Projector II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Targeting System Subcontroller I:
-    drawback: -10
-    hp: 40.0
-    id: 31324
-    marketGroup: 1791
-    mass: 200.0
-    name: Medium Targeting System Subcontroller I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    scanresolutionbonus: 20.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Targeting System Subcontroller II:
-    drawback: -10
-    hp: 40.0
-    id: 31330
-    marketGroup: 1791
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Targeting System Subcontroller II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    scanresolutionbonus: 25.0
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Small Ionic Field Projector I:
+  31274:
     drawback: -10
     hp: 40.0
     id: 31274
@@ -213,7 +81,39 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Ionic Field Projector II:
+  31276:
+    drawback: -10
+    hp: 40.0
+    id: 31276
+    marketGroup: 1791
+    mass: 200.0
+    maxtargetrangebonus: 25.0
+    name: Medium Ionic Field Projector I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31278:
+    drawback: -10
+    hp: 40.0
+    id: 31278
+    marketGroup: 1793
+    mass: 200.0
+    maxtargetrangebonus: 25.0
+    name: Capital Ionic Field Projector I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31280:
     drawback: -10
     hp: 40.0
     id: 31280
@@ -230,7 +130,41 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Targeting System Subcontroller I:
+  31282:
+    drawback: -10
+    hp: 40.0
+    id: 31282
+    marketGroup: 1791
+    mass: 200.0
+    maxtargetrangebonus: 30.0
+    metalevelold: 5
+    name: Medium Ionic Field Projector II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31284:
+    drawback: -10
+    hp: 40.0
+    id: 31284
+    marketGroup: 1793
+    mass: 200.0
+    maxtargetrangebonus: 30.0
+    metalevelold: 5
+    name: Capital Ionic Field Projector II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31322:
     drawback: -10
     hp: 40.0
     id: 31322
@@ -246,7 +180,39 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 5.0
-  Small Targeting System Subcontroller II:
+  31324:
+    drawback: -10
+    hp: 40.0
+    id: 31324
+    marketGroup: 1791
+    mass: 200.0
+    name: Medium Targeting System Subcontroller I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    scanresolutionbonus: 20.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31326:
+    drawback: -10
+    hp: 40.0
+    id: 31326
+    marketGroup: 1793
+    mass: 200.0
+    name: Capital Targeting System Subcontroller I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    scanresolutionbonus: 20.0
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31328:
     drawback: -10
     hp: 40.0
     id: 31328
@@ -263,3 +229,37 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 5.0
+  31330:
+    drawback: -10
+    hp: 40.0
+    id: 31330
+    marketGroup: 1791
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Targeting System Subcontroller II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    scanresolutionbonus: 25.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31332:
+    drawback: -10
+    hp: 40.0
+    id: 31332
+    marketGroup: 1793
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Targeting System Subcontroller II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    scanresolutionbonus: 25.0
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0

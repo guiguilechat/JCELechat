@@ -412,7 +412,7 @@ public class SupportFighter
         implements IMetaGroup<SupportFighter>
     {
         public static final String RESOURCE_PATH = "SDE/types/fighter/SupportFighter.yaml";
-        private Map<String, SupportFighter> cache = (null);
+        private Map<Integer, SupportFighter> cache = (null);
 
         @Override
         public IMetaCategory<? super SupportFighter> category() {
@@ -430,7 +430,7 @@ public class SupportFighter
         }
 
         @Override
-        public synchronized Map<String, SupportFighter> load() {
+        public synchronized Map<Integer, SupportFighter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SupportFighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -444,7 +444,7 @@ public class SupportFighter
         }
 
         private static class Container {
-            public LinkedHashMap<String, SupportFighter> types;
+            public LinkedHashMap<Integer, SupportFighter> types;
         }
     }
 }

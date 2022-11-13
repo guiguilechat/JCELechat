@@ -1,21 +1,5 @@
 types:
-  Broken Optronic Sight:
-    id: 366969
-    name: Broken Optronic Sight
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 80000.0
-    published: false
-    volume: 0.009999999776482582
-  Crushed Magazine Housing:
-    id: 366968
-    name: Crushed Magazine Housing
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 50000.0
-    published: false
-    volume: 0.009999999776482582
-  Mangled Coil Assembly:
+  366967:
     id: 366967
     name: Mangled Coil Assembly
     packagedVolume: 0.009999999776482582
@@ -23,19 +7,35 @@ types:
     price: 30000.0
     published: false
     volume: 0.009999999776482582
-  Melted Heat Sink:
-    id: 366971
-    name: Melted Heat Sink
+  366968:
+    id: 366968
+    name: Crushed Magazine Housing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
+    price: 50000.0
     published: false
     volume: 0.009999999776482582
-  Shattered Heat Shield:
+  366969:
+    id: 366969
+    name: Broken Optronic Sight
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 80000.0
+    published: false
+    volume: 0.009999999776482582
+  366970:
     id: 366970
     name: Shattered Heat Shield
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
+    published: false
+    volume: 0.009999999776482582
+  366971:
+    id: 366971
+    name: Melted Heat Sink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 150000.0
     published: false
     volume: 0.009999999776482582

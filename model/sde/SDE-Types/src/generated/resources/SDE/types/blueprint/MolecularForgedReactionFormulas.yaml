@@ -1,68 +1,5 @@
 types:
-  Axosomatic Neurolink Enhancer Reaction Formula:
-    id: 57497
-    marketGroup: 2769
-    name: Axosomatic Neurolink Enhancer Reaction Formula
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    published: true
-    volume: 0.009999999776482582
-  Cogni-Emotive Neurolink Enhancer Reaction Formula:
-    id: 57498
-    marketGroup: 2769
-    name: Cogni-Emotive Neurolink Enhancer Reaction Formula
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    published: true
-    volume: 0.009999999776482582
-  Goal-Orienting Neurolink Stabilizer Reaction Formula:
-    id: 57506
-    marketGroup: 2769
-    name: Goal-Orienting Neurolink Stabilizer Reaction Formula
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    published: true
-    volume: 0.009999999776482582
-  Hypnagogic Neurolink Enhancer Reaction Formula:
-    id: 57496
-    marketGroup: 2769
-    name: Hypnagogic Neurolink Enhancer Reaction Formula
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    published: true
-    volume: 0.009999999776482582
-  Isotropic Neofullerene Alpha-3 Reaction Formula:
-    id: 57500
-    marketGroup: 2769
-    name: Isotropic Neofullerene Alpha-3 Reaction Formula
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    published: true
-    volume: 0.009999999776482582
-  Isotropic Neofullerene Beta-6 Reaction Formula:
-    id: 57501
-    marketGroup: 2769
-    name: Isotropic Neofullerene Beta-6 Reaction Formula
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    published: true
-    volume: 0.009999999776482582
-  Isotropic Neofullerene Gamma-9 Reaction Formula:
-    id: 57502
-    marketGroup: 2769
-    name: Isotropic Neofullerene Gamma-9 Reaction Formula
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    published: true
-    volume: 0.009999999776482582
-  Meta-Operant Neurolink Enhancer Reaction Formula:
+  57495:
     id: 57495
     marketGroup: 2769
     name: Meta-Operant Neurolink Enhancer Reaction Formula
@@ -71,16 +8,34 @@ types:
     price: 4.0E7
     published: true
     volume: 0.009999999776482582
-  Reaction-Orienting Neurolink Stabilizer Reaction Formula:
-    id: 57504
+  57496:
+    id: 57496
     marketGroup: 2769
-    name: Reaction-Orienting Neurolink Stabilizer Reaction Formula
+    name: Hypnagogic Neurolink Enhancer Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.0E7
     published: true
     volume: 0.009999999776482582
-  Sense-Heuristic Neurolink Enhancer Reaction Formula:
+  57497:
+    id: 57497
+    marketGroup: 2769
+    name: Axosomatic Neurolink Enhancer Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
+  57498:
+    id: 57498
+    marketGroup: 2769
+    name: Cogni-Emotive Neurolink Enhancer Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
+  57499:
     id: 57499
     marketGroup: 2769
     name: Sense-Heuristic Neurolink Enhancer Reaction Formula
@@ -89,7 +44,52 @@ types:
     price: 1.0E7
     published: true
     volume: 0.009999999776482582
-  Stress-Responding Neurolink Stabilizer Reaction Formula:
+  57500:
+    id: 57500
+    marketGroup: 2769
+    name: Isotropic Neofullerene Alpha-3 Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
+  57501:
+    id: 57501
+    marketGroup: 2769
+    name: Isotropic Neofullerene Beta-6 Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
+  57502:
+    id: 57502
+    marketGroup: 2769
+    name: Isotropic Neofullerene Gamma-9 Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
+  57503:
+    id: 57503
+    marketGroup: 2769
+    name: Ultradian-Cycling Neurolink Stabilizer Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
+  57504:
+    id: 57504
+    marketGroup: 2769
+    name: Reaction-Orienting Neurolink Stabilizer Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
+  57505:
     id: 57505
     marketGroup: 2769
     name: Stress-Responding Neurolink Stabilizer Reaction Formula
@@ -98,10 +98,10 @@ types:
     price: 1.0E7
     published: true
     volume: 0.009999999776482582
-  Ultradian-Cycling Neurolink Stabilizer Reaction Formula:
-    id: 57503
+  57506:
+    id: 57506
     marketGroup: 2769
-    name: Ultradian-Cycling Neurolink Stabilizer Reaction Formula
+    name: Goal-Orienting Neurolink Stabilizer Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.0E7

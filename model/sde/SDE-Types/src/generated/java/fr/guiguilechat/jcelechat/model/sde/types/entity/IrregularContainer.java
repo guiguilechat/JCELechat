@@ -32,7 +32,7 @@ public class IrregularContainer
         implements IMetaGroup<IrregularContainer>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularContainer.yaml";
-        private Map<String, IrregularContainer> cache = (null);
+        private Map<Integer, IrregularContainer> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularContainer> category() {
@@ -50,7 +50,7 @@ public class IrregularContainer
         }
 
         @Override
-        public synchronized Map<String, IrregularContainer> load() {
+        public synchronized Map<Integer, IrregularContainer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularContainer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class IrregularContainer
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularContainer> types;
+            public LinkedHashMap<Integer, IrregularContainer> types;
         }
     }
 }

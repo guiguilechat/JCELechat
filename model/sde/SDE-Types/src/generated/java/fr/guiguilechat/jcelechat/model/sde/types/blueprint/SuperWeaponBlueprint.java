@@ -83,7 +83,7 @@ public class SuperWeaponBlueprint
         implements IMetaGroup<SuperWeaponBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SuperWeaponBlueprint.yaml";
-        private Map<String, SuperWeaponBlueprint> cache = (null);
+        private Map<Integer, SuperWeaponBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SuperWeaponBlueprint> category() {
@@ -101,7 +101,7 @@ public class SuperWeaponBlueprint
         }
 
         @Override
-        public synchronized Map<String, SuperWeaponBlueprint> load() {
+        public synchronized Map<Integer, SuperWeaponBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SuperWeaponBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class SuperWeaponBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SuperWeaponBlueprint> types;
+            public LinkedHashMap<Integer, SuperWeaponBlueprint> types;
         }
     }
 }

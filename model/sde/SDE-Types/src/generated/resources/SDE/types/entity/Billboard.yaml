@@ -1,5 +1,5 @@
 types:
-  CONCORD Billboard:
+  11136:
     armoremdamageresonance: 0.10000000149011612
     armorexplosivedamageresonance: 0.10000000149011612
     armorhp: 48000.0
@@ -23,7 +23,7 @@ types:
     shielduniformity: 0.75
     structureuniformity: 1.0
     volume: 1.0
-  Large CONCORD Billboard:
+  41339:
     armoremdamageresonance: 0.10000000149011612
     armorexplosivedamageresonance: 0.10000000149011612
     armorhp: 48000.0
@@ -32,9 +32,9 @@ types:
     capacity: 1000.0
     disallowassistance: 1
     hp: 480000.0
-    id: 41341
+    id: 41339
     mass: 100.0
-    name: Large CONCORD Billboard
+    name: Small CONCORD Billboard
     packagedVolume: 1.0
     portionSize: 1
     published: false
@@ -47,7 +47,7 @@ types:
     shielduniformity: 0.75
     structureuniformity: 1.0
     volume: 1.0
-  Medium CONCORD Billboard:
+  41340:
     armoremdamageresonance: 0.10000000149011612
     armorexplosivedamageresonance: 0.10000000149011612
     armorhp: 48000.0
@@ -71,7 +71,7 @@ types:
     shielduniformity: 0.75
     structureuniformity: 1.0
     volume: 1.0
-  Small CONCORD Billboard:
+  41341:
     armoremdamageresonance: 0.10000000149011612
     armorexplosivedamageresonance: 0.10000000149011612
     armorhp: 48000.0
@@ -80,9 +80,9 @@ types:
     capacity: 1000.0
     disallowassistance: 1
     hp: 480000.0
-    id: 41339
+    id: 41341
     mass: 100.0
-    name: Small CONCORD Billboard
+    name: Large CONCORD Billboard
     packagedVolume: 1.0
     portionSize: 1
     published: false

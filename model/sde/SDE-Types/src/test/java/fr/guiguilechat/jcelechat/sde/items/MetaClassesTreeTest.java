@@ -10,8 +10,8 @@ public class MetaClassesTreeTest {
 	public static void main(String[] args) {
 		IMetaGroup<? extends Asteroid> group = Asteroid.METACAT.groups().iterator().next();
 		System.err.println(" group name " + group.getName());
-		for (Entry<String, ? extends Asteroid> e : group.load().entrySet()) {
-			System.err.println("  " + e.getKey());
+		for (Entry<Integer, ? extends Asteroid> e : group.load().entrySet()) {
+			System.err.println("  " + e.getValue().name);
 		}
 	}
 

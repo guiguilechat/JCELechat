@@ -97,7 +97,7 @@ public class TrackingEnhancerBlueprint
         implements IMetaGroup<TrackingEnhancerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/TrackingEnhancerBlueprint.yaml";
-        private Map<String, TrackingEnhancerBlueprint> cache = (null);
+        private Map<Integer, TrackingEnhancerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super TrackingEnhancerBlueprint> category() {
@@ -115,7 +115,7 @@ public class TrackingEnhancerBlueprint
         }
 
         @Override
-        public synchronized Map<String, TrackingEnhancerBlueprint> load() {
+        public synchronized Map<Integer, TrackingEnhancerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TrackingEnhancerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class TrackingEnhancerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingEnhancerBlueprint> types;
+            public LinkedHashMap<Integer, TrackingEnhancerBlueprint> types;
         }
     }
 }

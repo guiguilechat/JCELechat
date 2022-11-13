@@ -241,7 +241,7 @@ public class StructureBiochemicalReactorRigMTE
         implements IMetaGroup<StructureBiochemicalReactorRigMTE>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureBiochemicalReactorRigMTE.yaml";
-        private Map<String, StructureBiochemicalReactorRigMTE> cache = (null);
+        private Map<Integer, StructureBiochemicalReactorRigMTE> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureBiochemicalReactorRigMTE> category() {
@@ -259,7 +259,7 @@ public class StructureBiochemicalReactorRigMTE
         }
 
         @Override
-        public synchronized Map<String, StructureBiochemicalReactorRigMTE> load() {
+        public synchronized Map<Integer, StructureBiochemicalReactorRigMTE> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureBiochemicalReactorRigMTE.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -273,7 +273,7 @@ public class StructureBiochemicalReactorRigMTE
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureBiochemicalReactorRigMTE> types;
+            public LinkedHashMap<Integer, StructureBiochemicalReactorRigMTE> types;
         }
     }
 }

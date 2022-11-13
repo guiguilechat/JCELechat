@@ -108,7 +108,7 @@ public class Miscellaneous
         implements IMetaGroup<Miscellaneous>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Miscellaneous.yaml";
-        private Map<String, Miscellaneous> cache = (null);
+        private Map<Integer, Miscellaneous> cache = (null);
 
         @Override
         public IMetaCategory<? super Miscellaneous> category() {
@@ -126,7 +126,7 @@ public class Miscellaneous
         }
 
         @Override
-        public synchronized Map<String, Miscellaneous> load() {
+        public synchronized Map<Integer, Miscellaneous> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Miscellaneous.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -140,7 +140,7 @@ public class Miscellaneous
         }
 
         private static class Container {
-            public LinkedHashMap<String, Miscellaneous> types;
+            public LinkedHashMap<Integer, Miscellaneous> types;
         }
     }
 }

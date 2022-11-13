@@ -1,5 +1,38 @@
 types:
-  Standup ECM Jammer Burst Projector:
+  35944:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 19000.0
+    cpu: 3000.0
+    disallowinhighsec: 1
+    disallowrepeatingactivation: 1
+    doomsdayaoerange: 10000
+    doomsdayaoeshape: 4
+    doomsdayaoesignatureradius: 500
+    doomsdaywarningduration: 20000
+    duration: 90000.0
+    energyneutralizeramount: 4000.0
+    hp: 40.0
+    id: 35944
+    ispointtargeted: 1
+    marketGroup: 2408
+    mass: 500.0
+    maxrange: 300000.0
+    maxtypefitted: 1
+    name: Standup Energy Neutralization Burst Projector
+    onlinemaxsecurityclass: 1
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 200000
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    speedfactor: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
+    volume: 4000.0
+  47069:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -35,40 +68,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Energy Neutralization Burst Projector:
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    capacitorneed: 19000.0
-    cpu: 3000.0
-    disallowinhighsec: 1
-    disallowrepeatingactivation: 1
-    doomsdayaoerange: 10000
-    doomsdayaoeshape: 4
-    doomsdayaoesignatureradius: 500
-    doomsdaywarningduration: 20000
-    duration: 90000.0
-    energyneutralizeramount: 4000.0
-    hp: 40.0
-    id: 35944
-    ispointtargeted: 1
-    marketGroup: 2408
-    mass: 500.0
-    maxrange: 300000.0
-    maxtypefitted: 1
-    name: Standup Energy Neutralization Burst Projector
-    onlinemaxsecurityclass: 1
-    packagedVolume: 4000.0
-    portionSize: 1
-    power: 200000
-    published: true
-    radius: 1.0
-    remoteresistanceid: 2045
-    speedfactor: 1.0
-    structureitemvisualflag: 1
-    techlevel: 1
-    volume: 4000.0
-  Standup Sensor Dampening Burst Projector:
+  47070:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -102,7 +102,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Stasis Webification Burst Projector:
+  47071:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -134,7 +134,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Target Illumination Burst Projector:
+  47072:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -167,7 +167,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Warp Disruption Burst Projector:
+  47073:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -199,7 +199,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Weapon Disruption Burst Projector:
+  47074:
     aoecloudsizebonus: 28.0
     aoevelocitybonus: -28.0
     canfitshipgroup01: 1657

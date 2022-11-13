@@ -289,7 +289,7 @@ public class StructureEngineeringRigMBlueprintCopyCostOptimization
         implements IMetaGroup<StructureEngineeringRigMBlueprintCopyCostOptimization>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMBlueprintCopyCostOptimization.yaml";
-        private Map<String, StructureEngineeringRigMBlueprintCopyCostOptimization> cache = (null);
+        private Map<Integer, StructureEngineeringRigMBlueprintCopyCostOptimization> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMBlueprintCopyCostOptimization> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMBlueprintCopyCostOptimization
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMBlueprintCopyCostOptimization> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMBlueprintCopyCostOptimization> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMBlueprintCopyCostOptimization.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMBlueprintCopyCostOptimization
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMBlueprintCopyCostOptimization> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMBlueprintCopyCostOptimization> types;
         }
     }
 }

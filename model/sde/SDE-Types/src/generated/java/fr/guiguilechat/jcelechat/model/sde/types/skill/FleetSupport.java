@@ -148,7 +148,7 @@ public class FleetSupport
         implements IMetaGroup<FleetSupport>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/FleetSupport.yaml";
-        private Map<String, FleetSupport> cache = (null);
+        private Map<Integer, FleetSupport> cache = (null);
 
         @Override
         public IMetaCategory<? super FleetSupport> category() {
@@ -166,7 +166,7 @@ public class FleetSupport
         }
 
         @Override
-        public synchronized Map<String, FleetSupport> load() {
+        public synchronized Map<Integer, FleetSupport> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FleetSupport.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -180,7 +180,7 @@ public class FleetSupport
         }
 
         private static class Container {
-            public LinkedHashMap<String, FleetSupport> types;
+            public LinkedHashMap<Integer, FleetSupport> types;
         }
     }
 }

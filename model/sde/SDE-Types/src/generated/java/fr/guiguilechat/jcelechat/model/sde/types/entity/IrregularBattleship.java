@@ -1985,7 +1985,7 @@ public class IrregularBattleship
         implements IMetaGroup<IrregularBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularBattleship.yaml";
-        private Map<String, IrregularBattleship> cache = (null);
+        private Map<Integer, IrregularBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularBattleship> category() {
@@ -2003,7 +2003,7 @@ public class IrregularBattleship
         }
 
         @Override
-        public synchronized Map<String, IrregularBattleship> load() {
+        public synchronized Map<Integer, IrregularBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -2017,7 +2017,7 @@ public class IrregularBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularBattleship> types;
+            public LinkedHashMap<Integer, IrregularBattleship> types;
         }
     }
 }

@@ -301,7 +301,7 @@ public class InsuranceFraudController {
 			return item2craftQtty.get(name);
 		}
 		CraftCost ret = null;
-		IndustryUsage usage = IndustryUsage.load().get(TypeIndex.getType(name).id);
+		IndustryUsage usage = IndustryUsage.load().get(TypeIndex.getTypes(name).get(0).id);
 		if (usage != null && usage.productOfManuf.size() != 0) {
 			Integer bpID = usage.productOfManuf.iterator().next();
 			Blueprint bpo = Blueprint.load().get(bpID);
@@ -311,7 +311,7 @@ public class InsuranceFraudController {
 				if (requiredMats != null) {
 					ret.isks = costMult * requiredMats.parallelStream()
 							.mapToDouble(
-									mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(TypeIndex.getType(mat.name()).id))
+									mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(mat.id))
 							.sum();
 					double produced = bpo.manufacturing.products.get(0).quantity * bpo.manufacturing.products.get(0).probability;
 					Map<String, Double> mapMat = requiredMats.stream().collect(Collectors.toMap(req -> req.name(),

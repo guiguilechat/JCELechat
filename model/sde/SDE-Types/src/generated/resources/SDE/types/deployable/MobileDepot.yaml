@@ -1,5 +1,30 @@
 types:
-  '''Wetu'' Mobile Depot':
+  33474:
+    armorhp: 5000.0
+    armoruniformity: 0.75
+    capacity: 3000.0
+    hp: 7500.0
+    id: 33474
+    marketGroup: 1831
+    mass: 10000.0
+    metalevelold: 1
+    name: Mobile Depot
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 50.0
+  33520:
     armorhp: 5000.0
     armoruniformity: 0.75
     capacity: 4000.0
@@ -24,7 +49,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 100.0
-  '''Yurt'' Mobile Depot':
+  33522:
     armorhp: 5000.0
     armoruniformity: 0.75
     capacity: 4000.0
@@ -42,31 +67,6 @@ types:
     scanladarstrength: 400.0
     scanmagnetometricstrength: 400.0
     scanradarstrength: 400.0
-    shieldcapacity: 5000.0
-    shieldrechargerate: 8.64E7
-    shielduniformity: 0.75
-    signatureradius: 500.0
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 50.0
-  Mobile Depot:
-    armorhp: 5000.0
-    armoruniformity: 0.75
-    capacity: 3000.0
-    hp: 7500.0
-    id: 33474
-    marketGroup: 1831
-    mass: 10000.0
-    metalevelold: 1
-    name: Mobile Depot
-    packagedVolume: 50.0
-    portionSize: 1
-    published: true
-    radius: 50.0
-    scangravimetricstrength: 50.0
-    scanladarstrength: 50.0
-    scanmagnetometricstrength: 50.0
-    scanradarstrength: 50.0
     shieldcapacity: 5000.0
     shieldrechargerate: 8.64E7
     shielduniformity: 0.75

@@ -32,7 +32,7 @@ public class Faction
         implements IMetaGroup<Faction>
     {
         public static final String RESOURCE_PATH = "SDE/types/owner/Faction.yaml";
-        private Map<String, Faction> cache = (null);
+        private Map<Integer, Faction> cache = (null);
 
         @Override
         public IMetaCategory<? super Faction> category() {
@@ -50,7 +50,7 @@ public class Faction
         }
 
         @Override
-        public synchronized Map<String, Faction> load() {
+        public synchronized Map<Integer, Faction> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Faction.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Faction
         }
 
         private static class Container {
-            public LinkedHashMap<String, Faction> types;
+            public LinkedHashMap<Integer, Faction> types;
         }
     }
 }

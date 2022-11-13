@@ -83,7 +83,7 @@ public class SupercarrierBlueprints
         implements IMetaGroup<SupercarrierBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SupercarrierBlueprints.yaml";
-        private Map<String, SupercarrierBlueprints> cache = (null);
+        private Map<Integer, SupercarrierBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super SupercarrierBlueprints> category() {
@@ -101,7 +101,7 @@ public class SupercarrierBlueprints
         }
 
         @Override
-        public synchronized Map<String, SupercarrierBlueprints> load() {
+        public synchronized Map<Integer, SupercarrierBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SupercarrierBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class SupercarrierBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, SupercarrierBlueprints> types;
+            public LinkedHashMap<Integer, SupercarrierBlueprints> types;
         }
     }
 }

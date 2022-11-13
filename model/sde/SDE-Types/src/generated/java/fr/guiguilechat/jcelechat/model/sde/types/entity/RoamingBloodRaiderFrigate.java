@@ -1061,7 +1061,7 @@ public class RoamingBloodRaiderFrigate
         implements IMetaGroup<RoamingBloodRaiderFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/RoamingBloodRaiderFrigate.yaml";
-        private Map<String, RoamingBloodRaiderFrigate> cache = (null);
+        private Map<Integer, RoamingBloodRaiderFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super RoamingBloodRaiderFrigate> category() {
@@ -1079,7 +1079,7 @@ public class RoamingBloodRaiderFrigate
         }
 
         @Override
-        public synchronized Map<String, RoamingBloodRaiderFrigate> load() {
+        public synchronized Map<Integer, RoamingBloodRaiderFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RoamingBloodRaiderFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1093,7 +1093,7 @@ public class RoamingBloodRaiderFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingBloodRaiderFrigate> types;
+            public LinkedHashMap<Integer, RoamingBloodRaiderFrigate> types;
         }
     }
 }

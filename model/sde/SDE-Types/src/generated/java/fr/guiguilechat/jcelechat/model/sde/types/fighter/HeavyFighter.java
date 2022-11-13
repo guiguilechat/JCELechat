@@ -588,7 +588,7 @@ public class HeavyFighter
         implements IMetaGroup<HeavyFighter>
     {
         public static final String RESOURCE_PATH = "SDE/types/fighter/HeavyFighter.yaml";
-        private Map<String, HeavyFighter> cache = (null);
+        private Map<Integer, HeavyFighter> cache = (null);
 
         @Override
         public IMetaCategory<? super HeavyFighter> category() {
@@ -606,7 +606,7 @@ public class HeavyFighter
         }
 
         @Override
-        public synchronized Map<String, HeavyFighter> load() {
+        public synchronized Map<Integer, HeavyFighter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HeavyFighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -620,7 +620,7 @@ public class HeavyFighter
         }
 
         private static class Container {
-            public LinkedHashMap<String, HeavyFighter> types;
+            public LinkedHashMap<Integer, HeavyFighter> types;
         }
     }
 }

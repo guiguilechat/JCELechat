@@ -83,7 +83,7 @@ public class StarbaseStasisWebificationBatteryBlueprints
         implements IMetaGroup<StarbaseStasisWebificationBatteryBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseStasisWebificationBatteryBlueprints.yaml";
-        private Map<String, StarbaseStasisWebificationBatteryBlueprints> cache = (null);
+        private Map<Integer, StarbaseStasisWebificationBatteryBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StarbaseStasisWebificationBatteryBlueprints> category() {
@@ -101,7 +101,7 @@ public class StarbaseStasisWebificationBatteryBlueprints
         }
 
         @Override
-        public synchronized Map<String, StarbaseStasisWebificationBatteryBlueprints> load() {
+        public synchronized Map<Integer, StarbaseStasisWebificationBatteryBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StarbaseStasisWebificationBatteryBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StarbaseStasisWebificationBatteryBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseStasisWebificationBatteryBlueprints> types;
+            public LinkedHashMap<Integer, StarbaseStasisWebificationBatteryBlueprints> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Large Micro Jump Drive:
+  4383:
     canfitshipgroup01: 27
     canfitshipgroup02: 898
     canfitshipgroup03: 900
@@ -27,7 +27,7 @@ types:
     signatureradiusbonuspercent: 150
     techlevel: 1
     volume: 10.0
-  Medium Micro Jump Drive:
+  33915:
     canfitshipgroup01: 1972
     canfitshipgroup02: 419
     canfitshipgroup03: 540

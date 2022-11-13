@@ -989,7 +989,7 @@ public class HiddenZenithMinmatarFrigate
         implements IMetaGroup<HiddenZenithMinmatarFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/HiddenZenithMinmatarFrigate.yaml";
-        private Map<String, HiddenZenithMinmatarFrigate> cache = (null);
+        private Map<Integer, HiddenZenithMinmatarFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super HiddenZenithMinmatarFrigate> category() {
@@ -1007,7 +1007,7 @@ public class HiddenZenithMinmatarFrigate
         }
 
         @Override
-        public synchronized Map<String, HiddenZenithMinmatarFrigate> load() {
+        public synchronized Map<Integer, HiddenZenithMinmatarFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HiddenZenithMinmatarFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1021,7 +1021,7 @@ public class HiddenZenithMinmatarFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, HiddenZenithMinmatarFrigate> types;
+            public LinkedHashMap<Integer, HiddenZenithMinmatarFrigate> types;
         }
     }
 }

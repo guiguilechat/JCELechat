@@ -121,7 +121,7 @@ public class InertialStabilizer
         implements IMetaGroup<InertialStabilizer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/InertialStabilizer.yaml";
-        private Map<String, InertialStabilizer> cache = (null);
+        private Map<Integer, InertialStabilizer> cache = (null);
 
         @Override
         public IMetaCategory<? super InertialStabilizer> category() {
@@ -139,7 +139,7 @@ public class InertialStabilizer
         }
 
         @Override
-        public synchronized Map<String, InertialStabilizer> load() {
+        public synchronized Map<Integer, InertialStabilizer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InertialStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -153,7 +153,7 @@ public class InertialStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, InertialStabilizer> types;
+            public LinkedHashMap<Integer, InertialStabilizer> types;
         }
     }
 }

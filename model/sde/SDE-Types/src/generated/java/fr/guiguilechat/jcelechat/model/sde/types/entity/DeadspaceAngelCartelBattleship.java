@@ -1301,7 +1301,7 @@ public class DeadspaceAngelCartelBattleship
         implements IMetaGroup<DeadspaceAngelCartelBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceAngelCartelBattleship.yaml";
-        private Map<String, DeadspaceAngelCartelBattleship> cache = (null);
+        private Map<Integer, DeadspaceAngelCartelBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceAngelCartelBattleship> category() {
@@ -1319,7 +1319,7 @@ public class DeadspaceAngelCartelBattleship
         }
 
         @Override
-        public synchronized Map<String, DeadspaceAngelCartelBattleship> load() {
+        public synchronized Map<Integer, DeadspaceAngelCartelBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceAngelCartelBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1333,7 +1333,7 @@ public class DeadspaceAngelCartelBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceAngelCartelBattleship> types;
+            public LinkedHashMap<Integer, DeadspaceAngelCartelBattleship> types;
         }
     }
 }

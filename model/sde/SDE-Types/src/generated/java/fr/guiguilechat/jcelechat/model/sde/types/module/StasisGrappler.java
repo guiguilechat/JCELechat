@@ -373,7 +373,7 @@ public class StasisGrappler
         implements IMetaGroup<StasisGrappler>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/StasisGrappler.yaml";
-        private Map<String, StasisGrappler> cache = (null);
+        private Map<Integer, StasisGrappler> cache = (null);
 
         @Override
         public IMetaCategory<? super StasisGrappler> category() {
@@ -391,7 +391,7 @@ public class StasisGrappler
         }
 
         @Override
-        public synchronized Map<String, StasisGrappler> load() {
+        public synchronized Map<Integer, StasisGrappler> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StasisGrappler.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -405,7 +405,7 @@ public class StasisGrappler
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisGrappler> types;
+            public LinkedHashMap<Integer, StasisGrappler> types;
         }
     }
 }

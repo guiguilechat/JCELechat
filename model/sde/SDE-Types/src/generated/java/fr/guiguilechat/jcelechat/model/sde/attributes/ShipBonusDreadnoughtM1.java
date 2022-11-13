@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplied by Minmatar Dreadnought skill level
  */
 public class ShipBonusDreadnoughtM1
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final ShipBonusDreadnoughtM1 INSTANCE = new ShipBonusDreadnoughtM1();
 

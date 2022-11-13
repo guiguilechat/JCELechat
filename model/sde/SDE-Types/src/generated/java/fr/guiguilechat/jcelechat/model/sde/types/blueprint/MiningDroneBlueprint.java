@@ -97,7 +97,7 @@ public class MiningDroneBlueprint
         implements IMetaGroup<MiningDroneBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MiningDroneBlueprint.yaml";
-        private Map<String, MiningDroneBlueprint> cache = (null);
+        private Map<Integer, MiningDroneBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningDroneBlueprint> category() {
@@ -115,7 +115,7 @@ public class MiningDroneBlueprint
         }
 
         @Override
-        public synchronized Map<String, MiningDroneBlueprint> load() {
+        public synchronized Map<Integer, MiningDroneBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningDroneBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class MiningDroneBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningDroneBlueprint> types;
+            public LinkedHashMap<Integer, MiningDroneBlueprint> types;
         }
     }
 }

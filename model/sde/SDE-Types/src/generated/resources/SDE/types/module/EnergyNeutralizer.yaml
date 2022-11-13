@@ -1,113 +1,21 @@
 types:
-  Ahremen's Modified Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 650.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 15000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 14842
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 30000.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Ahremen's Modified Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2600
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Ammatar Navy Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 15798
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 24000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Ammatar Navy Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Ammatar Navy Medium Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 20.0
-    duration: 12000.0
-    energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9624999761581421
-    entitycapacitorlevelmodifiermedium: 0.8500000238418579
-    entitycapacitorlevelmodifiersmall: 0.47058823704719543
-    falloffeffectiveness: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 15796
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 12000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Ammatar Navy Medium Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 175
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Ammatar Navy Small Energy Neutralizer:
+  533:
     capacitorneed: 45.0
     cpu: 10.0
     duration: 6000.0
-    energyneutralizeramount: 55.0
-    entitycapacitorlevelmodifierlarge: 0.987500011920929
-    entitycapacitorlevelmodifiermedium: 0.949999988079071
-    entitycapacitorlevelmodifiersmall: 0.8235294222831726
-    falloffeffectiveness: 3000
+    energyneutralizeramount: 45.0
+    entitycapacitorlevelmodifierlarge: 0.9916666746139526
+    entitycapacitorlevelmodifiermedium: 0.9666666388511658
+    entitycapacitorlevelmodifiersmall: 0.8823529481887817
+    falloffeffectiveness: 2000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 2.5999999046325684
     hp: 40.0
-    id: 15794
+    id: 533
     marketGroup: 689
     mass: 2000.0
-    maxrange: 6000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Ammatar Navy Small Energy Neutralizer
+    maxrange: 4000.0
+    name: Small Energy Neutralizer I
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
@@ -119,223 +27,28 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Brokara's Modified Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 650.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 13000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 14832
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 26000.0
-    metagroupid: 5
-    metalevelold: 11
-    name: Brokara's Modified Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2200
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Capital Abyssal Energy Neutralizer:
-    entitycapacitorlevelmodifierlarge: 1.0
-    entitycapacitorlevelmodifiermedium: 1.0
-    entitycapacitorlevelmodifiersmall: 1.0
-    id: 56312
-    mass: 2000.0
-    name: Capital Abyssal Energy Neutralizer
-    packagedVolume: 4000.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 4000.0
-  Capital Energy Neutralizer I:
-    capacitorneed: 3600.0
-    cpu: 90.0
-    duration: 48000.0
-    energyneutralizeramount: 3600.0
-    energyneutralizersignatureresolution: 8000
-    entitycapacitorlevelmodifierlarge: 0.8140000104904175
-    entitycapacitorlevelmodifiermedium: 0.5299999713897705
-    entitycapacitorlevelmodifiersmall: 0.3179999887943268
-    falloffeffectiveness: 15000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 40659
-    marketGroup: 2250
-    mass: 2000.0
-    maxrange: 30000.0
-    name: Capital Energy Neutralizer I
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
-    portionSize: 1
-    power: 80000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 4000.0
-  Capital Energy Neutralizer II:
-    capacitorneed: 3600.0
-    cpu: 90.0
-    duration: 48000.0
-    energyneutralizeramount: 4400.0
-    energyneutralizersignatureresolution: 8000
-    entitycapacitorlevelmodifierlarge: 0.8140000104904175
-    entitycapacitorlevelmodifiermedium: 0.5299999713897705
-    entitycapacitorlevelmodifiersmall: 0.3179999887943268
-    falloffeffectiveness: 18000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 40662
-    marketGroup: 2250
-    mass: 2000.0
-    maxrange: 36000.0
-    metalevelold: 5
-    name: Capital Energy Neutralizer II
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
-    portionSize: 1
-    power: 90000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 5
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 4000.0
-  Capital Gremlin Compact Energy Neutralizer:
-    capacitorneed: 3600.0
-    cpu: 72.0
-    duration: 48000.0
-    energyneutralizeramount: 4000.0
-    energyneutralizersignatureresolution: 8000
-    entitycapacitorlevelmodifierlarge: 0.8140000104904175
-    entitycapacitorlevelmodifiermedium: 0.5299999713897705
-    entitycapacitorlevelmodifiersmall: 0.3179999887943268
-    falloffeffectiveness: 15000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 40660
-    marketGroup: 2250
-    mass: 2000.0
-    maxrange: 30000.0
-    metalevelold: 1
-    name: Capital Gremlin Compact Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
-    portionSize: 1
-    power: 70000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 4000.0
-  Capital Infectious Scoped Energy Neutralizer:
-    capacitorneed: 3600.0
-    cpu: 90.0
-    duration: 48000.0
-    energyneutralizeramount: 4000.0
-    energyneutralizersignatureresolution: 8000
-    entitycapacitorlevelmodifierlarge: 0.8140000104904175
-    entitycapacitorlevelmodifiermedium: 0.5299999713897705
-    entitycapacitorlevelmodifiersmall: 0.3179999887943268
-    falloffeffectiveness: 16500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 40661
-    marketGroup: 2250
-    mass: 2000.0
-    maxrange: 33000.0
-    metalevelold: 1
-    name: Capital Infectious Scoped Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
-    portionSize: 1
-    power: 80000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 4000.0
-  Chelm's Modified Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 650.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 16000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 14844
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 32000.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Chelm's Modified Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2800
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii A-Type Small Energy Neutralizer:
+  4471:
     capacitorneed: 45.0
     cpu: 10.0
     duration: 6000.0
-    energyneutralizeramount: 55.0
-    entitycapacitorlevelmodifierlarge: 0.987500011920929
-    entitycapacitorlevelmodifiermedium: 0.949999988079071
-    entitycapacitorlevelmodifiersmall: 0.8235294222831726
-    falloffeffectiveness: 4500
+    energyneutralizeramount: 50.0
+    entitycapacitorlevelmodifierlarge: 0.9904166460037231
+    entitycapacitorlevelmodifiermedium: 0.9616666436195374
+    entitycapacitorlevelmodifiersmall: 0.8647058606147766
+    falloffeffectiveness: 2250
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 2.5999999046325684
     hp: 40.0
-    id: 37624
+    id: 4471
     marketGroup: 689
     mass: 2000.0
-    maxrange: 9000.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpii A-Type Small Energy Neutralizer
+    maxrange: 4500.0
+    metalevelold: 1
+    name: Small Infectious Scoped Energy Neutralizer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
-    power: 11
+    power: 8
     published: true
     radius: 1.0
     requiredskill1: 3423
@@ -343,356 +56,52 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpii B-Type Small Energy Neutralizer:
+  4477:
     capacitorneed: 45.0
-    cpu: 10.0
+    cpu: 8.0
     duration: 6000.0
-    energyneutralizeramount: 55.0
-    entitycapacitorlevelmodifierlarge: 0.987500011920929
-    entitycapacitorlevelmodifiermedium: 0.949999988079071
-    entitycapacitorlevelmodifiersmall: 0.8235294222831726
+    energyneutralizeramount: 50.0
+    entitycapacitorlevelmodifierlarge: 0.9904166460037231
+    entitycapacitorlevelmodifiermedium: 0.9616666436195374
+    entitycapacitorlevelmodifiersmall: 0.8647058606147766
+    falloffeffectiveness: 2000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 4477
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 4000.0
+    metalevelold: 1
+    name: Small Gremlin Compact Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 7
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  12265:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 150.0
+    entitycapacitorlevelmodifierlarge: 0.96875
+    entitycapacitorlevelmodifiermedium: 0.875
+    entitycapacitorlevelmodifiersmall: 0.5588235259056091
     falloffeffectiveness: 4000
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatdamage: 3.200000047683716
     hp: 40.0
-    id: 37623
-    marketGroup: 689
+    id: 12265
+    marketGroup: 690
     mass: 2000.0
     maxrange: 8000.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpii B-Type Small Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 10
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Corpii C-Type Small Energy Neutralizer:
-    capacitorneed: 45.0
-    cpu: 10.0
-    duration: 6000.0
-    energyneutralizeramount: 55.0
-    entitycapacitorlevelmodifierlarge: 0.987500011920929
-    entitycapacitorlevelmodifiermedium: 0.949999988079071
-    entitycapacitorlevelmodifiersmall: 0.8235294222831726
-    falloffeffectiveness: 3500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
-    hp: 40.0
-    id: 37622
-    marketGroup: 689
-    mass: 2000.0
-    maxrange: 7000.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Corpii C-Type Small Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 9
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Corpum A-Type Medium Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 20.0
-    duration: 12000.0
-    energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9624999761581421
-    entitycapacitorlevelmodifiermedium: 0.8500000238418579
-    entitycapacitorlevelmodifiersmall: 0.47058823704719543
-    falloffeffectiveness: 8250
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 37627
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 16500.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpum A-Type Medium Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 228
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Corpum B-Type Medium Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 20.0
-    duration: 12000.0
-    energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9624999761581421
-    entitycapacitorlevelmodifiermedium: 0.8500000238418579
-    entitycapacitorlevelmodifiersmall: 0.47058823704719543
-    falloffeffectiveness: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 37626
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 15000.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpum B-Type Medium Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 210
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Corpum C-Type Medium Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 20.0
-    duration: 12000.0
-    energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9624999761581421
-    entitycapacitorlevelmodifiermedium: 0.8500000238418579
-    entitycapacitorlevelmodifiersmall: 0.47058823704719543
-    falloffeffectiveness: 6750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 37625
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 13500.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Corpum C-Type Medium Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 193
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Corpus A-Type Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 15000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 37630
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 30000.0
-    metagroupid: 6
-    metalevelold: 14
-    name: Corpus A-Type Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
-    portionSize: 1
-    power: 2600
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 50.0
-  Corpus B-Type Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 14000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 37629
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 28000.0
-    metagroupid: 6
-    metalevelold: 12
-    name: Corpus B-Type Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
-    portionSize: 1
-    power: 2400
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 50.0
-  Corpus C-Type Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 13000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 37628
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 26000.0
-    metagroupid: 6
-    metalevelold: 10
-    name: Corpus C-Type Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
-    portionSize: 1
-    power: 2200
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 50.0
-  Corpus X-Type Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 16000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 37631
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 32000.0
-    metagroupid: 6
-    metalevelold: 16
-    name: Corpus X-Type Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
-    portionSize: 1
-    power: 2800
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 50.0
-  Dark Blood Capital Energy Neutralizer:
-    capacitorneed: 3600.0
-    cpu: 90.0
-    duration: 48000.0
-    energyneutralizeramount: 4400.0
-    energyneutralizersignatureresolution: 8000
-    entitycapacitorlevelmodifierlarge: 0.8140000104904175
-    entitycapacitorlevelmodifiermedium: 0.5299999713897705
-    entitycapacitorlevelmodifiersmall: 0.3179999887943268
-    falloffeffectiveness: 20000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 40664
-    marketGroup: 2250
-    mass: 2000.0
-    maxrange: 40000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dark Blood Capital Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
-    portionSize: 1
-    power: 100000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 4000.0
-  Dark Blood Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 14168
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 24000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dark Blood Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Dark Blood Medium Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 20.0
-    duration: 12000.0
-    energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9624999761581421
-    entitycapacitorlevelmodifiermedium: 0.8500000238418579
-    entitycapacitorlevelmodifiersmall: 0.47058823704719543
-    falloffeffectiveness: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 14164
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 12000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Dark Blood Medium Energy Neutralizer
+    name: Medium Energy Neutralizer I
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
@@ -704,7 +113,122 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Dark Blood Small Energy Neutralizer:
+  12267:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 180.0
+    entitycapacitorlevelmodifierlarge: 0.9645833373069763
+    entitycapacitorlevelmodifiermedium: 0.8583333492279053
+    entitycapacitorlevelmodifiersmall: 0.5
+    falloffeffectiveness: 5000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 12267
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 10000.0
+    metalevelold: 5
+    name: Medium Energy Neutralizer II
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 200
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 5.0
+  12269:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 500.0
+    entitycapacitorlevelmodifierlarge: 0.8958333134651184
+    entitycapacitorlevelmodifiermedium: 0.5833333134651184
+    entitycapacitorlevelmodifiersmall: 0.3499999940395355
+    falloffeffectiveness: 8000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 12269
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 16000.0
+    name: Heavy Energy Neutralizer I
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 2000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 50.0
+  12271:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.21958717703819275
+    falloffeffectiveness: 10000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 12271
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 20000.0
+    metalevelold: 5
+    name: Heavy Energy Neutralizer II
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2250
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 5.0
+  13003:
+    capacitorneed: 45.0
+    cpu: 10.0
+    duration: 6000.0
+    energyneutralizeramount: 55.0
+    entitycapacitorlevelmodifierlarge: 0.9895833134651184
+    entitycapacitorlevelmodifiermedium: 0.9583333134651184
+    entitycapacitorlevelmodifiersmall: 0.8529411554336548
+    falloffeffectiveness: 2500
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 13003
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 5000.0
+    metalevelold: 5
+    name: Small Energy Neutralizer II
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 5.0
+  14160:
     capacitorneed: 45.0
     cpu: 10.0
     duration: 6000.0
@@ -734,257 +258,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Draclira's Modified Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 650.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 16000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 14846
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 32000.0
-    metagroupid: 5
-    metalevelold: 17
-    name: Draclira's Modified Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2800
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Heavy 'Moat' Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 32.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.21958717703819275
-    falloffeffectiveness: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 23819
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 20000.0
-    metagroupid: 3
-    metalevelold: 6
-    name: Heavy 'Moat' Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1800
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Heavy Abyssal Energy Neutralizer:
-    entitycapacitorlevelmodifierlarge: 1.0
-    entitycapacitorlevelmodifiermedium: 1.0
-    entitycapacitorlevelmodifiersmall: 1.0
-    id: 47832
-    mass: 1.0
-    name: Heavy Abyssal Energy Neutralizer
-    packagedVolume: 50.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 50.0
-  Heavy Energy Neutralizer I:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 500.0
-    entitycapacitorlevelmodifierlarge: 0.8958333134651184
-    entitycapacitorlevelmodifiermedium: 0.5833333134651184
-    entitycapacitorlevelmodifiersmall: 0.3499999940395355
-    falloffeffectiveness: 8000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 12269
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 16000.0
-    name: Heavy Energy Neutralizer I
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
-    portionSize: 1
-    power: 2000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 50.0
-  Heavy Energy Neutralizer II:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.21958717703819275
-    falloffeffectiveness: 10000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 12271
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 20000.0
-    metalevelold: 5
-    name: Heavy Energy Neutralizer II
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2250
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 5
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Heavy Gremlin Compact Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 32.0
-    duration: 24000.0
-    energyneutralizeramount: 550.0
-    entitycapacitorlevelmodifierlarge: 0.8802083134651184
-    entitycapacitorlevelmodifiermedium: 0.5208333134651184
-    entitycapacitorlevelmodifiersmall: 0.26350462436676025
-    falloffeffectiveness: 8000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 16475
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 16000.0
-    metalevelold: 1
-    name: Heavy Gremlin Compact Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1800
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Heavy Infectious Scoped Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 550.0
-    entitycapacitorlevelmodifierlarge: 0.8802083134651184
-    entitycapacitorlevelmodifiermedium: 0.5208333134651184
-    entitycapacitorlevelmodifiersmall: 0.26350462436676025
-    falloffeffectiveness: 9000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 16477
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 18000.0
-    metalevelold: 1
-    name: Heavy Infectious Scoped Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Imperial Navy Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 15804
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 24000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Imperial Navy Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2000
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Imperial Navy Medium Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 20.0
-    duration: 12000.0
-    energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9624999761581421
-    entitycapacitorlevelmodifiermedium: 0.8500000238418579
-    entitycapacitorlevelmodifiersmall: 0.47058823704719543
-    falloffeffectiveness: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 15802
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 12000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Imperial Navy Medium Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 175
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Imperial Navy Small Energy Neutralizer:
+  14162:
     capacitorneed: 45.0
     cpu: 10.0
     duration: 6000.0
@@ -996,13 +270,13 @@ types:
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 2.5999999046325684
     hp: 40.0
-    id: 15800
+    id: 14162
     marketGroup: 689
     mass: 2000.0
     maxrange: 6000.0
     metagroupid: 4
     metalevelold: 8
-    name: Imperial Navy Small Energy Neutralizer
+    name: True Sansha Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
@@ -1014,68 +288,25 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Medium 'Ditch' Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 16.0
-    duration: 12000.0
-    energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9645833373069763
-    entitycapacitorlevelmodifiermedium: 0.8583333492279053
-    entitycapacitorlevelmodifiersmall: 0.5
-    falloffeffectiveness: 5000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 23817
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 10000.0
-    metagroupid: 3
-    metalevelold: 6
-    name: Medium 'Ditch' Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 160
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Medium Abyssal Energy Neutralizer:
-    entitycapacitorlevelmodifierlarge: 1.0
-    entitycapacitorlevelmodifiermedium: 1.0
-    entitycapacitorlevelmodifiersmall: 1.0
-    id: 47828
-    mass: 1.0
-    name: Medium Abyssal Energy Neutralizer
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 5.0
-  Medium Energy Neutralizer I:
+  14164:
     capacitorneed: 150.0
     cpu: 20.0
     duration: 12000.0
-    energyneutralizeramount: 150.0
-    entitycapacitorlevelmodifierlarge: 0.96875
-    entitycapacitorlevelmodifiermedium: 0.875
-    entitycapacitorlevelmodifiersmall: 0.5588235259056091
-    falloffeffectiveness: 4000
+    energyneutralizeramount: 180.0
+    entitycapacitorlevelmodifierlarge: 0.9624999761581421
+    entitycapacitorlevelmodifiermedium: 0.8500000238418579
+    entitycapacitorlevelmodifiersmall: 0.47058823704719543
+    falloffeffectiveness: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.200000047683716
     hp: 40.0
-    id: 12265
+    id: 14164
     marketGroup: 690
     mass: 2000.0
-    maxrange: 8000.0
-    name: Medium Energy Neutralizer I
+    maxrange: 12000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
@@ -1087,82 +318,25 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Medium Energy Neutralizer II:
+  14166:
     capacitorneed: 150.0
     cpu: 20.0
     duration: 12000.0
     energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9645833373069763
-    entitycapacitorlevelmodifiermedium: 0.8583333492279053
-    entitycapacitorlevelmodifiersmall: 0.5
-    falloffeffectiveness: 5000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 12267
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 10000.0
-    metalevelold: 5
-    name: Medium Energy Neutralizer II
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 200
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Medium Gremlin Compact Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 16.0
-    duration: 12000.0
-    energyneutralizeramount: 165.0
-    entitycapacitorlevelmodifierlarge: 0.9639583230018616
-    entitycapacitorlevelmodifiermedium: 0.8558333516120911
-    entitycapacitorlevelmodifiersmall: 0.49117645621299744
-    falloffeffectiveness: 4000
+    entitycapacitorlevelmodifierlarge: 0.9624999761581421
+    entitycapacitorlevelmodifiermedium: 0.8500000238418579
+    entitycapacitorlevelmodifiersmall: 0.47058823704719543
+    falloffeffectiveness: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.200000047683716
     hp: 40.0
-    id: 16467
+    id: 14166
     marketGroup: 690
     mass: 2000.0
-    maxrange: 8000.0
-    metalevelold: 1
-    name: Medium Gremlin Compact Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 160
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Medium Infectious Scoped Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 20.0
-    duration: 12000.0
-    energyneutralizeramount: 165.0
-    entitycapacitorlevelmodifierlarge: 0.9639583230018616
-    entitycapacitorlevelmodifiermedium: 0.8558333516120911
-    entitycapacitorlevelmodifiersmall: 0.49117645621299744
-    falloffeffectiveness: 4500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 16469
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 9000.0
-    metalevelold: 1
-    name: Medium Infectious Scoped Energy Neutralizer
+    maxrange: 12000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: True Sansha Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
@@ -1174,7 +348,67 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Raysere's Modified Heavy Energy Neutralizer:
+  14168:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 14168
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 24000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Dark Blood Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  14170:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 14170
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 24000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: True Sansha Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  14832:
     capacitorneed: 500.0
     cpu: 40.0
     duration: 24000.0
@@ -1182,21 +416,21 @@ types:
     entitycapacitorlevelmodifierlarge: 0.875
     entitycapacitorlevelmodifiermedium: 0.5
     entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 14000
+    falloffeffectiveness: 13000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.599999904632568
     hp: 40.0
-    id: 14838
+    id: 14832
     marketGroup: 691
     mass: 2000.0
-    maxrange: 28000.0
+    maxrange: 26000.0
     metagroupid: 5
-    metalevelold: 13
-    name: Raysere's Modified Heavy Energy Neutralizer
+    metalevelold: 11
+    name: Brokara's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
-    power: 2400
+    power: 2200
     published: true
     radius: 1.0
     requiredskill1: 3423
@@ -1204,197 +438,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Selynne's Modified Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 650.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 14000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 14836
-    marketGroup: 691
-    mass: 2000.0
-    maxrange: 28000.0
-    metagroupid: 5
-    metalevelold: 13
-    name: Selynne's Modified Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2400
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Small 'Caltrop' Energy Neutralizer:
-    capacitorneed: 45.0
-    cpu: 8.0
-    duration: 6000.0
-    energyneutralizeramount: 55.0
-    entitycapacitorlevelmodifierlarge: 0.9895833134651184
-    entitycapacitorlevelmodifiermedium: 0.9583333134651184
-    entitycapacitorlevelmodifiersmall: 0.8529411554336548
-    falloffeffectiveness: 2500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
-    hp: 40.0
-    id: 23815
-    marketGroup: 689
-    mass: 2000.0
-    maxrange: 5000.0
-    metagroupid: 3
-    metalevelold: 6
-    name: Small 'Caltrop' Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 7
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Small Abyssal Energy Neutralizer:
-    entitycapacitorlevelmodifierlarge: 1.0
-    entitycapacitorlevelmodifiermedium: 1.0
-    entitycapacitorlevelmodifiersmall: 1.0
-    id: 47824
-    mass: 1.0
-    name: Small Abyssal Energy Neutralizer
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 5.0
-  Small Energy Neutralizer I:
-    capacitorneed: 45.0
-    cpu: 10.0
-    duration: 6000.0
-    energyneutralizeramount: 45.0
-    entitycapacitorlevelmodifierlarge: 0.9916666746139526
-    entitycapacitorlevelmodifiermedium: 0.9666666388511658
-    entitycapacitorlevelmodifiersmall: 0.8823529481887817
-    falloffeffectiveness: 2000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
-    hp: 40.0
-    id: 533
-    marketGroup: 689
-    mass: 2000.0
-    maxrange: 4000.0
-    name: Small Energy Neutralizer I
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 8
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Small Energy Neutralizer II:
-    capacitorneed: 45.0
-    cpu: 10.0
-    duration: 6000.0
-    energyneutralizeramount: 55.0
-    entitycapacitorlevelmodifierlarge: 0.9895833134651184
-    entitycapacitorlevelmodifiermedium: 0.9583333134651184
-    entitycapacitorlevelmodifiersmall: 0.8529411554336548
-    falloffeffectiveness: 2500
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.5999999046325684
-    hp: 40.0
-    id: 13003
-    marketGroup: 689
-    mass: 2000.0
-    maxrange: 5000.0
-    metalevelold: 5
-    name: Small Energy Neutralizer II
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 10
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Small Gremlin Compact Energy Neutralizer:
-    capacitorneed: 45.0
-    cpu: 8.0
-    duration: 6000.0
-    energyneutralizeramount: 50.0
-    entitycapacitorlevelmodifierlarge: 0.9904166460037231
-    entitycapacitorlevelmodifiermedium: 0.9616666436195374
-    entitycapacitorlevelmodifiersmall: 0.8647058606147766
-    falloffeffectiveness: 2000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
-    hp: 40.0
-    id: 4477
-    marketGroup: 689
-    mass: 2000.0
-    maxrange: 4000.0
-    metalevelold: 1
-    name: Small Gremlin Compact Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 7
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Small Infectious Scoped Energy Neutralizer:
-    capacitorneed: 45.0
-    cpu: 10.0
-    duration: 6000.0
-    energyneutralizeramount: 50.0
-    entitycapacitorlevelmodifierlarge: 0.9904166460037231
-    entitycapacitorlevelmodifiermedium: 0.9616666436195374
-    entitycapacitorlevelmodifiersmall: 0.8647058606147766
-    falloffeffectiveness: 2250
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
-    hp: 40.0
-    id: 4471
-    marketGroup: 689
-    mass: 2000.0
-    maxrange: 4500.0
-    metalevelold: 1
-    name: Small Infectious Scoped Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 8
-    published: true
-    radius: 1.0
-    requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Tairei's Modified Heavy Energy Neutralizer:
+  14834:
     capacitorneed: 500.0
     cpu: 40.0
     duration: 24000.0
@@ -1424,7 +468,992 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  True Sansha Capital Energy Neutralizer:
+  14836:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 650.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 14000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 14836
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 28000.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Selynne's Modified Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2400
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  14838:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 650.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 14000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 14838
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 28000.0
+    metagroupid: 5
+    metalevelold: 13
+    name: Raysere's Modified Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2400
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  14840:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 650.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 14840
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 30000.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Vizan's Modified Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2600
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  14842:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 650.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 14842
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 30000.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Ahremen's Modified Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2600
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  14844:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 650.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 16000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 14844
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 32000.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Chelm's Modified Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2800
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  14846:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 650.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 16000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 14846
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 32000.0
+    metagroupid: 5
+    metalevelold: 17
+    name: Draclira's Modified Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2800
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  15794:
+    capacitorneed: 45.0
+    cpu: 10.0
+    duration: 6000.0
+    energyneutralizeramount: 55.0
+    entitycapacitorlevelmodifierlarge: 0.987500011920929
+    entitycapacitorlevelmodifiermedium: 0.949999988079071
+    entitycapacitorlevelmodifiersmall: 0.8235294222831726
+    falloffeffectiveness: 3000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 15794
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 6000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy Small Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 8
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  15796:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 180.0
+    entitycapacitorlevelmodifierlarge: 0.9624999761581421
+    entitycapacitorlevelmodifiermedium: 0.8500000238418579
+    entitycapacitorlevelmodifiersmall: 0.47058823704719543
+    falloffeffectiveness: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 15796
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 12000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy Medium Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 175
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  15798:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 15798
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 24000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Ammatar Navy Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  15800:
+    capacitorneed: 45.0
+    cpu: 10.0
+    duration: 6000.0
+    energyneutralizeramount: 55.0
+    entitycapacitorlevelmodifierlarge: 0.987500011920929
+    entitycapacitorlevelmodifiermedium: 0.949999988079071
+    entitycapacitorlevelmodifiersmall: 0.8235294222831726
+    falloffeffectiveness: 3000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 15800
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 6000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Small Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 8
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  15802:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 180.0
+    entitycapacitorlevelmodifierlarge: 0.9624999761581421
+    entitycapacitorlevelmodifiermedium: 0.8500000238418579
+    entitycapacitorlevelmodifiersmall: 0.47058823704719543
+    falloffeffectiveness: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 15802
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 12000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Medium Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 175
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  15804:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 15804
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 24000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  16467:
+    capacitorneed: 150.0
+    cpu: 16.0
+    duration: 12000.0
+    energyneutralizeramount: 165.0
+    entitycapacitorlevelmodifierlarge: 0.9639583230018616
+    entitycapacitorlevelmodifiermedium: 0.8558333516120911
+    entitycapacitorlevelmodifiersmall: 0.49117645621299744
+    falloffeffectiveness: 4000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 16467
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 8000.0
+    metalevelold: 1
+    name: Medium Gremlin Compact Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 160
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  16469:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 165.0
+    entitycapacitorlevelmodifierlarge: 0.9639583230018616
+    entitycapacitorlevelmodifiermedium: 0.8558333516120911
+    entitycapacitorlevelmodifiersmall: 0.49117645621299744
+    falloffeffectiveness: 4500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 16469
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 9000.0
+    metalevelold: 1
+    name: Medium Infectious Scoped Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 175
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  16475:
+    capacitorneed: 500.0
+    cpu: 32.0
+    duration: 24000.0
+    energyneutralizeramount: 550.0
+    entitycapacitorlevelmodifierlarge: 0.8802083134651184
+    entitycapacitorlevelmodifiermedium: 0.5208333134651184
+    entitycapacitorlevelmodifiersmall: 0.26350462436676025
+    falloffeffectiveness: 8000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 16475
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 16000.0
+    metalevelold: 1
+    name: Heavy Gremlin Compact Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1800
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  16477:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 550.0
+    entitycapacitorlevelmodifierlarge: 0.8802083134651184
+    entitycapacitorlevelmodifiermedium: 0.5208333134651184
+    entitycapacitorlevelmodifiersmall: 0.26350462436676025
+    falloffeffectiveness: 9000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 16477
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 18000.0
+    metalevelold: 1
+    name: Heavy Infectious Scoped Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  23815:
+    capacitorneed: 45.0
+    cpu: 8.0
+    duration: 6000.0
+    energyneutralizeramount: 55.0
+    entitycapacitorlevelmodifierlarge: 0.9895833134651184
+    entitycapacitorlevelmodifiermedium: 0.9583333134651184
+    entitycapacitorlevelmodifiersmall: 0.8529411554336548
+    falloffeffectiveness: 2500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 23815
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 5000.0
+    metagroupid: 3
+    metalevelold: 6
+    name: Small 'Caltrop' Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 7
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  23817:
+    capacitorneed: 150.0
+    cpu: 16.0
+    duration: 12000.0
+    energyneutralizeramount: 180.0
+    entitycapacitorlevelmodifierlarge: 0.9645833373069763
+    entitycapacitorlevelmodifiermedium: 0.8583333492279053
+    entitycapacitorlevelmodifiersmall: 0.5
+    falloffeffectiveness: 5000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 23817
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 10000.0
+    metagroupid: 3
+    metalevelold: 6
+    name: Medium 'Ditch' Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 160
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  23819:
+    capacitorneed: 500.0
+    cpu: 32.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.21958717703819275
+    falloffeffectiveness: 10000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 23819
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 20000.0
+    metagroupid: 3
+    metalevelold: 6
+    name: Heavy 'Moat' Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1800
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  37622:
+    capacitorneed: 45.0
+    cpu: 10.0
+    duration: 6000.0
+    energyneutralizeramount: 55.0
+    entitycapacitorlevelmodifierlarge: 0.987500011920929
+    entitycapacitorlevelmodifiermedium: 0.949999988079071
+    entitycapacitorlevelmodifiersmall: 0.8235294222831726
+    falloffeffectiveness: 3500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 37622
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 7000.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Corpii C-Type Small Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 9
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  37623:
+    capacitorneed: 45.0
+    cpu: 10.0
+    duration: 6000.0
+    energyneutralizeramount: 55.0
+    entitycapacitorlevelmodifierlarge: 0.987500011920929
+    entitycapacitorlevelmodifiermedium: 0.949999988079071
+    entitycapacitorlevelmodifiersmall: 0.8235294222831726
+    falloffeffectiveness: 4000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 37623
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 8000.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpii B-Type Small Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  37624:
+    capacitorneed: 45.0
+    cpu: 10.0
+    duration: 6000.0
+    energyneutralizeramount: 55.0
+    entitycapacitorlevelmodifierlarge: 0.987500011920929
+    entitycapacitorlevelmodifiermedium: 0.949999988079071
+    entitycapacitorlevelmodifiersmall: 0.8235294222831726
+    falloffeffectiveness: 4500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 37624
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 9000.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpii A-Type Small Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 11
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  37625:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 180.0
+    entitycapacitorlevelmodifierlarge: 0.9624999761581421
+    entitycapacitorlevelmodifiermedium: 0.8500000238418579
+    entitycapacitorlevelmodifiersmall: 0.47058823704719543
+    falloffeffectiveness: 6750
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 37625
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 13500.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Corpum C-Type Medium Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 193
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  37626:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 180.0
+    entitycapacitorlevelmodifierlarge: 0.9624999761581421
+    entitycapacitorlevelmodifiermedium: 0.8500000238418579
+    entitycapacitorlevelmodifiersmall: 0.47058823704719543
+    falloffeffectiveness: 7500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 37626
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 15000.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpum B-Type Medium Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 210
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  37627:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 180.0
+    entitycapacitorlevelmodifierlarge: 0.9624999761581421
+    entitycapacitorlevelmodifiermedium: 0.8500000238418579
+    entitycapacitorlevelmodifiersmall: 0.47058823704719543
+    falloffeffectiveness: 8250
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 37627
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 16500.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpum A-Type Medium Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 228
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  37628:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 13000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 37628
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 26000.0
+    metagroupid: 6
+    metalevelold: 10
+    name: Corpus C-Type Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 2200
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 50.0
+  37629:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 14000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 37629
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 28000.0
+    metagroupid: 6
+    metalevelold: 12
+    name: Corpus B-Type Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 2400
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 50.0
+  37630:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 37630
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 30000.0
+    metagroupid: 6
+    metalevelold: 14
+    name: Corpus A-Type Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 2600
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 50.0
+  37631:
+    capacitorneed: 500.0
+    cpu: 40.0
+    duration: 24000.0
+    energyneutralizeramount: 600.0
+    entitycapacitorlevelmodifierlarge: 0.875
+    entitycapacitorlevelmodifiermedium: 0.5
+    entitycapacitorlevelmodifiersmall: 0.15249109268188477
+    falloffeffectiveness: 16000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 37631
+    marketGroup: 691
+    mass: 2000.0
+    maxrange: 32000.0
+    metagroupid: 6
+    metalevelold: 16
+    name: Corpus X-Type Heavy Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 2800
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 50.0
+  40659:
+    capacitorneed: 3600.0
+    cpu: 90.0
+    duration: 48000.0
+    energyneutralizeramount: 3600.0
+    energyneutralizersignatureresolution: 8000
+    entitycapacitorlevelmodifierlarge: 0.8140000104904175
+    entitycapacitorlevelmodifiermedium: 0.5299999713897705
+    entitycapacitorlevelmodifiersmall: 0.3179999887943268
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 40659
+    marketGroup: 2250
+    mass: 2000.0
+    maxrange: 30000.0
+    name: Capital Energy Neutralizer I
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 80000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 4000.0
+  40660:
+    capacitorneed: 3600.0
+    cpu: 72.0
+    duration: 48000.0
+    energyneutralizeramount: 4000.0
+    energyneutralizersignatureresolution: 8000
+    entitycapacitorlevelmodifierlarge: 0.8140000104904175
+    entitycapacitorlevelmodifiermedium: 0.5299999713897705
+    entitycapacitorlevelmodifiersmall: 0.3179999887943268
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 40660
+    marketGroup: 2250
+    mass: 2000.0
+    maxrange: 30000.0
+    metalevelold: 1
+    name: Capital Gremlin Compact Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 70000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 4000.0
+  40661:
+    capacitorneed: 3600.0
+    cpu: 90.0
+    duration: 48000.0
+    energyneutralizeramount: 4000.0
+    energyneutralizersignatureresolution: 8000
+    entitycapacitorlevelmodifierlarge: 0.8140000104904175
+    entitycapacitorlevelmodifiermedium: 0.5299999713897705
+    entitycapacitorlevelmodifiersmall: 0.3179999887943268
+    falloffeffectiveness: 16500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 40661
+    marketGroup: 2250
+    mass: 2000.0
+    maxrange: 33000.0
+    metalevelold: 1
+    name: Capital Infectious Scoped Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 80000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 4000.0
+  40662:
+    capacitorneed: 3600.0
+    cpu: 90.0
+    duration: 48000.0
+    energyneutralizeramount: 4400.0
+    energyneutralizersignatureresolution: 8000
+    entitycapacitorlevelmodifierlarge: 0.8140000104904175
+    entitycapacitorlevelmodifiermedium: 0.5299999713897705
+    entitycapacitorlevelmodifiersmall: 0.3179999887943268
+    falloffeffectiveness: 18000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.599999904632568
+    hp: 40.0
+    id: 40662
+    marketGroup: 2250
+    mass: 2000.0
+    maxrange: 36000.0
+    metalevelold: 5
+    name: Capital Energy Neutralizer II
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 90000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 4000.0
+  40663:
     capacitorneed: 3600.0
     cpu: 90.0
     duration: 48000.0
@@ -1455,123 +1484,94 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 4000.0
-  True Sansha Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 600.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 12000
+  40664:
+    capacitorneed: 3600.0
+    cpu: 90.0
+    duration: 48000.0
+    energyneutralizeramount: 4400.0
+    energyneutralizersignatureresolution: 8000
+    entitycapacitorlevelmodifierlarge: 0.8140000104904175
+    entitycapacitorlevelmodifiermedium: 0.5299999713897705
+    entitycapacitorlevelmodifiersmall: 0.3179999887943268
+    falloffeffectiveness: 20000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.599999904632568
     hp: 40.0
-    id: 14170
-    marketGroup: 691
+    id: 40664
+    marketGroup: 2250
     mass: 2000.0
-    maxrange: 24000.0
+    maxrange: 40000.0
     metagroupid: 4
     metalevelold: 8
-    name: True Sansha Heavy Energy Neutralizer
+    name: Dark Blood Capital Energy Neutralizer
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 100000
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 4000.0
+  47824:
+    entitycapacitorlevelmodifierlarge: 1.0
+    entitycapacitorlevelmodifiermedium: 1.0
+    entitycapacitorlevelmodifiersmall: 1.0
+    id: 47824
+    mass: 1.0
+    name: Small Abyssal Energy Neutralizer
     packagedVolume: 5.0
     portionSize: 1
-    power: 2000
     published: true
     radius: 1.0
     requiredskill1: 3423
     requiredskill1level: 3
-    requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  True Sansha Medium Energy Neutralizer:
-    capacitorneed: 150.0
-    cpu: 20.0
-    duration: 12000.0
-    energyneutralizeramount: 180.0
-    entitycapacitorlevelmodifierlarge: 0.9624999761581421
-    entitycapacitorlevelmodifiermedium: 0.8500000238418579
-    entitycapacitorlevelmodifiersmall: 0.47058823704719543
-    falloffeffectiveness: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
-    hp: 40.0
-    id: 14166
-    marketGroup: 690
-    mass: 2000.0
-    maxrange: 12000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: True Sansha Medium Energy Neutralizer
-    overloadselfdurationbonus: -15.0
+  47828:
+    entitycapacitorlevelmodifierlarge: 1.0
+    entitycapacitorlevelmodifiermedium: 1.0
+    entitycapacitorlevelmodifiersmall: 1.0
+    id: 47828
+    mass: 1.0
+    name: Medium Abyssal Energy Neutralizer
     packagedVolume: 5.0
     portionSize: 1
-    power: 175
     published: true
     radius: 1.0
     requiredskill1: 3423
-    requiredskill1level: 2
-    requiredthermodynamicsskill: 1
+    requiredskill1level: 4
     techlevel: 1
     volume: 5.0
-  True Sansha Small Energy Neutralizer:
-    capacitorneed: 45.0
-    cpu: 10.0
-    duration: 6000.0
-    energyneutralizeramount: 55.0
-    entitycapacitorlevelmodifierlarge: 0.987500011920929
-    entitycapacitorlevelmodifiermedium: 0.949999988079071
-    entitycapacitorlevelmodifiersmall: 0.8235294222831726
-    falloffeffectiveness: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
-    hp: 40.0
-    id: 14162
-    marketGroup: 689
-    mass: 2000.0
-    maxrange: 6000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: True Sansha Small Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
+  47832:
+    entitycapacitorlevelmodifierlarge: 1.0
+    entitycapacitorlevelmodifiermedium: 1.0
+    entitycapacitorlevelmodifiersmall: 1.0
+    id: 47832
+    mass: 1.0
+    name: Heavy Abyssal Energy Neutralizer
+    packagedVolume: 50.0
     portionSize: 1
-    power: 8
     published: true
     radius: 1.0
     requiredskill1: 3423
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
+    requiredskill1level: 5
     techlevel: 1
-    volume: 5.0
-  Vizan's Modified Heavy Energy Neutralizer:
-    capacitorneed: 500.0
-    cpu: 40.0
-    duration: 24000.0
-    energyneutralizeramount: 650.0
-    entitycapacitorlevelmodifierlarge: 0.875
-    entitycapacitorlevelmodifiermedium: 0.5
-    entitycapacitorlevelmodifiersmall: 0.15249109268188477
-    falloffeffectiveness: 15000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
-    hp: 40.0
-    id: 14840
-    marketGroup: 691
+    volume: 50.0
+  56312:
+    entitycapacitorlevelmodifierlarge: 1.0
+    entitycapacitorlevelmodifiermedium: 1.0
+    entitycapacitorlevelmodifiersmall: 1.0
+    id: 56312
     mass: 2000.0
-    maxrange: 30000.0
-    metagroupid: 5
-    metalevelold: 15
-    name: Vizan's Modified Heavy Energy Neutralizer
-    overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
+    name: Capital Abyssal Energy Neutralizer
+    packagedVolume: 4000.0
     portionSize: 1
-    power: 2600
     published: true
     radius: 1.0
     requiredskill1: 3423
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
+    requiredskill1level: 5
     techlevel: 1
-    volume: 5.0
+    volume: 4000.0

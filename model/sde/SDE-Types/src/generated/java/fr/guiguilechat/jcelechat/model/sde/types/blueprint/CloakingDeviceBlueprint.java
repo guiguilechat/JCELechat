@@ -97,7 +97,7 @@ public class CloakingDeviceBlueprint
         implements IMetaGroup<CloakingDeviceBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CloakingDeviceBlueprint.yaml";
-        private Map<String, CloakingDeviceBlueprint> cache = (null);
+        private Map<Integer, CloakingDeviceBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super CloakingDeviceBlueprint> category() {
@@ -115,7 +115,7 @@ public class CloakingDeviceBlueprint
         }
 
         @Override
-        public synchronized Map<String, CloakingDeviceBlueprint> load() {
+        public synchronized Map<Integer, CloakingDeviceBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CloakingDeviceBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class CloakingDeviceBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CloakingDeviceBlueprint> types;
+            public LinkedHashMap<Integer, CloakingDeviceBlueprint> types;
         }
     }
 }

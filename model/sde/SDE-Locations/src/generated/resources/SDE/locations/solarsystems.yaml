@@ -18002,7 +18002,7 @@ locations:
     isWormhole: false
     name: Amamake
     region: Heimatar
-    truesec: 0.4387612481113237
+    truesec: 0.438761248111
   Amane:
     adjacentSystems:
     - Actee
@@ -20250,7 +20250,7 @@ locations:
     isWormhole: false
     name: Assah
     region: Derelik
-    truesec: 0.2978021987075381
+    truesec: 0.297802198708
   Assez:
     adjacentConstellations:
     - Ashela
@@ -20421,8 +20421,13 @@ locations:
     region: Everyshore
     truesec: 0.9749090362069222
   Athounon:
+    adjacentConstellations:
+    - Aokinen
+    adjacentRegions:
+    - Black Rise
     adjacentSystems:
     - Mercomesier
+    - Samanuni
     anchorStructures: true
     constellation: Serthoulde
     id: 30003856
@@ -20664,7 +20669,7 @@ locations:
     isWormhole: false
     name: Aubenall
     region: Placid
-    truesec: 0.4318512884258707
+    truesec: 0.431851288426
   Auberulle:
     adjacentConstellations:
     - Disier
@@ -29538,7 +29543,7 @@ locations:
     isWormhole: false
     name: Dodixie
     region: Sinq Laison
-    truesec: 0.8684067016428851
+    truesec: 0.868406701643
   Dom-Aphis:
     adjacentSystems:
     - Alal
@@ -41380,7 +41385,7 @@ locations:
     isWormhole: false
     name: Hakonen
     region: Lonetrek
-    truesec: 0.2963790210777346
+    truesec: 0.296379021078
   Hakshma:
     adjacentConstellations:
     - Abthi
@@ -42097,7 +42102,7 @@ locations:
     isWormhole: false
     name: Hek
     region: Metropolis
-    truesec: 0.5496682670749016
+    truesec: 0.549668267075
   Helgatild:
     adjacentSystems:
     - Todifrauan
@@ -82425,7 +82430,7 @@ locations:
     isWormhole: false
     name: Jita
     region: The Forge
-    truesec: 0.9459131166648389
+    truesec: 0.945913116665
   Joamma:
     adjacentSystems:
     - Ghesis
@@ -100378,7 +100383,7 @@ locations:
     isWormhole: false
     name: Ourapheh
     region: Genesis
-    truesec: 0.8619601733107651
+    truesec: 0.861960173311
   Oursulaert:
     adjacentConstellations:
     - Sanctum
@@ -108084,7 +108089,7 @@ locations:
     isWormhole: false
     name: Rens
     region: Heimatar
-    truesec: 0.894581865920994
+    truesec: 0.894581865921
   Renyn:
     adjacentConstellations:
     - Sanctum
@@ -110529,10 +110534,14 @@ locations:
   Samanuni:
     adjacentConstellations:
     - Kurala
+    - Serthoulde
+    adjacentRegions:
+    - Placid
     adjacentSystems:
     - Uchomida
     - Uuhulanen
     - Ikoskio
+    - Athounon
     anchorStructures: true
     constellation: Aokinen
     id: 30045322
@@ -115739,7 +115748,7 @@ locations:
     isWormhole: false
     name: Turnur
     region: Metropolis
-    truesec: 0.3874342199051835
+    truesec: 0.387434219905
   Tuuriainas:
     adjacentSystems:
     - Geras
@@ -126539,7 +126548,7 @@ locations:
     isWormhole: false
     name: Yehaba
     region: Aridia
-    truesec: 0.2417065516550608
+    truesec: 0.241706551655
   Yehnifi:
     adjacentSystems:
     - Kooreng

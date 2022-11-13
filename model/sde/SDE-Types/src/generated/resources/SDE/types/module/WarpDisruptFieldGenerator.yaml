@@ -1,23 +1,22 @@
 types:
-  CONCORD Warp Disruption Field Generator:
+  4248:
     activationblockedstrenght: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
     capacity: 1.0
     chargegroup1: 908
-    cpu: 50.0
+    cpu: 55.0
     disallowassistance: 1
     disallowinempirespace: 1
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 3.0
     hp: 40.0
-    id: 37613
+    id: 4248
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    name: CONCORD Warp Disruption Field Generator
+    metalevelold: 5
+    name: Warp Disruption Field Generator II
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0
     portionSize: 1
@@ -27,16 +26,16 @@ types:
     radius: 1.0
     reloadtime: 0.009999999776482582
     requiredskill1: 11446
-    requiredskill1level: 4
+    requiredskill1level: 5
     requiredskill2: 3435
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     signatureradiusbonus: 50.0
-    techlevel: 1
+    techlevel: 2
     volume: 50.0
-    warpscramblerange: 21000
+    warpscramblerange: 20000
     warpscramblestrength: 100
-  Clutch Restrained Warp Disruption Field Generator:
+  28654:
     activationblockedstrenght: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
@@ -49,11 +48,10 @@ types:
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
     hp: 40.0
-    id: 37610
+    id: 28654
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevelold: 1
-    name: Clutch Restrained Warp Disruption Field Generator
+    name: Warp Disruption Field Generator I
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0
     portionSize: 1
@@ -70,45 +68,9 @@ types:
     signatureradiusbonus: 50.0
     techlevel: 1
     volume: 50.0
-    warpscramblerange: 18000
+    warpscramblerange: 16000
     warpscramblestrength: 100
-  M-36 Enduring Warp Disruption Field Generator:
-    activationblockedstrenght: 1
-    canfitshipgroup01: 894
-    capacitorneed: 100.0
-    capacity: 1.0
-    chargegroup1: 908
-    cpu: 50.0
-    disallowassistance: 1
-    disallowinempirespace: 1
-    duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.0
-    hp: 40.0
-    id: 37611
-    marketGroup: 1085
-    maxvelocitymultiplier: 1.0
-    metalevelold: 1
-    name: M-36 Enduring Warp Disruption Field Generator
-    overloadselfdurationbonus: -33.29999923706055
-    packagedVolume: 50.0
-    portionSize: 1
-    power: 80
-    price: 3964874.0
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 11446
-    requiredskill1level: 4
-    requiredskill2: 3435
-    requiredskill2level: 5
-    requiredthermodynamicsskill: 1
-    signatureradiusbonus: 50.0
-    techlevel: 1
-    volume: 50.0
-    warpscramblerange: 18000
-    warpscramblestrength: 100
-  Pitfall Compact Warp Disruption Field Generator:
+  37608:
     activationblockedstrenght: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
@@ -144,7 +106,79 @@ types:
     volume: 50.0
     warpscramblerange: 18000
     warpscramblestrength: 100
-  True Sansha Warp Disruption Field Generator:
+  37610:
+    activationblockedstrenght: 1
+    canfitshipgroup01: 894
+    capacitorneed: 150.0
+    capacity: 1.0
+    chargegroup1: 908
+    cpu: 50.0
+    disallowassistance: 1
+    disallowinempirespace: 1
+    duration: 30000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.0
+    hp: 40.0
+    id: 37610
+    marketGroup: 1085
+    maxvelocitymultiplier: 1.0
+    metalevelold: 1
+    name: Clutch Restrained Warp Disruption Field Generator
+    overloadselfdurationbonus: -33.29999923706055
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 80
+    price: 3964874.0
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 11446
+    requiredskill1level: 4
+    requiredskill2: 3435
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    signatureradiusbonus: 50.0
+    techlevel: 1
+    volume: 50.0
+    warpscramblerange: 18000
+    warpscramblestrength: 100
+  37611:
+    activationblockedstrenght: 1
+    canfitshipgroup01: 894
+    capacitorneed: 100.0
+    capacity: 1.0
+    chargegroup1: 908
+    cpu: 50.0
+    disallowassistance: 1
+    disallowinempirespace: 1
+    duration: 30000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.0
+    hp: 40.0
+    id: 37611
+    marketGroup: 1085
+    maxvelocitymultiplier: 1.0
+    metalevelold: 1
+    name: M-36 Enduring Warp Disruption Field Generator
+    overloadselfdurationbonus: -33.29999923706055
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 80
+    price: 3964874.0
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 11446
+    requiredskill1level: 4
+    requiredskill2: 3435
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    signatureradiusbonus: 50.0
+    techlevel: 1
+    volume: 50.0
+    warpscramblerange: 18000
+    warpscramblestrength: 100
+  37612:
     activationblockedstrenght: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
@@ -181,7 +215,7 @@ types:
     volume: 50.0
     warpscramblerange: 21000
     warpscramblestrength: 100
-  Warp Disruption Field Generator I:
+  37613:
     activationblockedstrenght: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
@@ -194,14 +228,16 @@ types:
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
     hp: 40.0
-    id: 28654
+    id: 37613
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    name: Warp Disruption Field Generator I
+    metagroupid: 4
+    metalevelold: 8
+    name: CONCORD Warp Disruption Field Generator
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0
     portionSize: 1
-    power: 80
+    power: 84
     price: 3964874.0
     published: true
     radius: 1.0
@@ -214,41 +250,5 @@ types:
     signatureradiusbonus: 50.0
     techlevel: 1
     volume: 50.0
-    warpscramblerange: 16000
-    warpscramblestrength: 100
-  Warp Disruption Field Generator II:
-    activationblockedstrenght: 1
-    canfitshipgroup01: 894
-    capacitorneed: 150.0
-    capacity: 1.0
-    chargegroup1: 908
-    cpu: 55.0
-    disallowassistance: 1
-    disallowinempirespace: 1
-    duration: 30000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.0
-    hp: 40.0
-    id: 4248
-    marketGroup: 1085
-    maxvelocitymultiplier: 1.0
-    metalevelold: 5
-    name: Warp Disruption Field Generator II
-    overloadselfdurationbonus: -33.29999923706055
-    packagedVolume: 50.0
-    portionSize: 1
-    power: 84
-    price: 3964874.0
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 11446
-    requiredskill1level: 5
-    requiredskill2: 3435
-    requiredskill2level: 5
-    requiredthermodynamicsskill: 1
-    signatureradiusbonus: 50.0
-    techlevel: 2
-    volume: 50.0
-    warpscramblerange: 20000
+    warpscramblerange: 21000
     warpscramblestrength: 100

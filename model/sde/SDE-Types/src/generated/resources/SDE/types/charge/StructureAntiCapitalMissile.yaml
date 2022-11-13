@@ -1,5 +1,5 @@
 types:
-  Standup Super-heavy Torpedo:
+  37843:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 25000
@@ -27,7 +27,7 @@ types:
     structureuniformity: 0.75
     thermaldamage: 12600.0
     volume: 0.5
-  Standup XL Cruise Missile:
+  37844:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 15000

@@ -97,7 +97,7 @@ public class GangCoordinatorBlueprint
         implements IMetaGroup<GangCoordinatorBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/GangCoordinatorBlueprint.yaml";
-        private Map<String, GangCoordinatorBlueprint> cache = (null);
+        private Map<Integer, GangCoordinatorBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super GangCoordinatorBlueprint> category() {
@@ -115,7 +115,7 @@ public class GangCoordinatorBlueprint
         }
 
         @Override
-        public synchronized Map<String, GangCoordinatorBlueprint> load() {
+        public synchronized Map<Integer, GangCoordinatorBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GangCoordinatorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class GangCoordinatorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, GangCoordinatorBlueprint> types;
+            public LinkedHashMap<Integer, GangCoordinatorBlueprint> types;
         }
     }
 }

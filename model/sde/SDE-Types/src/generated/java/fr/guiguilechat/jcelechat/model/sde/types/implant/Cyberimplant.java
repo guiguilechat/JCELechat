@@ -993,7 +993,7 @@ public class Cyberimplant
         implements IMetaGroup<Cyberimplant>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/Cyberimplant.yaml";
-        private Map<String, Cyberimplant> cache = (null);
+        private Map<Integer, Cyberimplant> cache = (null);
 
         @Override
         public IMetaCategory<? super Cyberimplant> category() {
@@ -1011,7 +1011,7 @@ public class Cyberimplant
         }
 
         @Override
-        public synchronized Map<String, Cyberimplant> load() {
+        public synchronized Map<Integer, Cyberimplant> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Cyberimplant.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1025,7 +1025,7 @@ public class Cyberimplant
         }
 
         private static class Container {
-            public LinkedHashMap<String, Cyberimplant> types;
+            public LinkedHashMap<Integer, Cyberimplant> types;
         }
     }
 }

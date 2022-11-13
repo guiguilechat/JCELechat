@@ -422,7 +422,7 @@ public class EnergyNeutralizingBattery
         implements IMetaGroup<EnergyNeutralizingBattery>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/EnergyNeutralizingBattery.yaml";
-        private Map<String, EnergyNeutralizingBattery> cache = (null);
+        private Map<Integer, EnergyNeutralizingBattery> cache = (null);
 
         @Override
         public IMetaCategory<? super EnergyNeutralizingBattery> category() {
@@ -440,7 +440,7 @@ public class EnergyNeutralizingBattery
         }
 
         @Override
-        public synchronized Map<String, EnergyNeutralizingBattery> load() {
+        public synchronized Map<Integer, EnergyNeutralizingBattery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EnergyNeutralizingBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -454,7 +454,7 @@ public class EnergyNeutralizingBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyNeutralizingBattery> types;
+            public LinkedHashMap<Integer, EnergyNeutralizingBattery> types;
         }
     }
 }

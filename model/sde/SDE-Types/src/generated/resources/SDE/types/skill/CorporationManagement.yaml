@@ -1,5 +1,5 @@
 types:
-  Corporation Management:
+  3363:
     basedefenderallycost: 10000000
     cannotbetrainedontrial: 1
     corporationmemberbonus: 20
@@ -15,7 +15,7 @@ types:
     secondaryattribute: 164
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Diplomatic Relations:
+  3368:
     basedefenderallycost: 10000000
     cannotbetrainedontrial: 1
     id: 3368
@@ -35,25 +35,7 @@ types:
     skillallycostmodifierbonus: -5
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Empire Control:
-    basedefenderallycost: 10000000
-    cannotbetrainedontrial: 1
-    corporationmemberbonus: 400
-    id: 3732
-    marketGroup: 365
-    name: Empire Control
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    primaryattribute: 166
-    published: true
-    radius: 1.0
-    requiredskill1: 3731
-    requiredskill1level: 5
-    secondaryattribute: 164
-    skilltimeconstant: 5.0
-    volume: 0.009999999776482582
-  Megacorp Management:
+  3731:
     basedefenderallycost: 10000000
     cannotbetrainedontrial: 1
     corporationmemberbonus: 100
@@ -71,7 +53,25 @@ types:
     secondaryattribute: 164
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Sovereignty:
+  3732:
+    basedefenderallycost: 10000000
+    cannotbetrainedontrial: 1
+    corporationmemberbonus: 400
+    id: 3732
+    marketGroup: 365
+    name: Empire Control
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill1: 3731
+    requiredskill1level: 5
+    secondaryattribute: 164
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  12241:
     basedefenderallycost: 10000000
     cannotbetrainedontrial: 1
     corporationmemberbonus: 2000

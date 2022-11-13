@@ -83,7 +83,7 @@ public class ArmorResistanceShiftHardenerBlueprint
         implements IMetaGroup<ArmorResistanceShiftHardenerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ArmorResistanceShiftHardenerBlueprint.yaml";
-        private Map<String, ArmorResistanceShiftHardenerBlueprint> cache = (null);
+        private Map<Integer, ArmorResistanceShiftHardenerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorResistanceShiftHardenerBlueprint> category() {
@@ -101,7 +101,7 @@ public class ArmorResistanceShiftHardenerBlueprint
         }
 
         @Override
-        public synchronized Map<String, ArmorResistanceShiftHardenerBlueprint> load() {
+        public synchronized Map<Integer, ArmorResistanceShiftHardenerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorResistanceShiftHardenerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class ArmorResistanceShiftHardenerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorResistanceShiftHardenerBlueprint> types;
+            public LinkedHashMap<Integer, ArmorResistanceShiftHardenerBlueprint> types;
         }
     }
 }

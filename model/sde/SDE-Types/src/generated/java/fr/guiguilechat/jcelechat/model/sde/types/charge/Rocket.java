@@ -420,7 +420,7 @@ public class Rocket
         implements IMetaGroup<Rocket>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/Rocket.yaml";
-        private Map<String, Rocket> cache = (null);
+        private Map<Integer, Rocket> cache = (null);
 
         @Override
         public IMetaCategory<? super Rocket> category() {
@@ -438,7 +438,7 @@ public class Rocket
         }
 
         @Override
-        public synchronized Map<String, Rocket> load() {
+        public synchronized Map<Integer, Rocket> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Rocket.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -452,7 +452,7 @@ public class Rocket
         }
 
         private static class Container {
-            public LinkedHashMap<String, Rocket> types;
+            public LinkedHashMap<Integer, Rocket> types;
         }
     }
 }

@@ -1157,7 +1157,7 @@ public class MissionMorduFrigate
         implements IMetaGroup<MissionMorduFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionMorduFrigate.yaml";
-        private Map<String, MissionMorduFrigate> cache = (null);
+        private Map<Integer, MissionMorduFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionMorduFrigate> category() {
@@ -1175,7 +1175,7 @@ public class MissionMorduFrigate
         }
 
         @Override
-        public synchronized Map<String, MissionMorduFrigate> load() {
+        public synchronized Map<Integer, MissionMorduFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionMorduFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1189,7 +1189,7 @@ public class MissionMorduFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionMorduFrigate> types;
+            public LinkedHashMap<Integer, MissionMorduFrigate> types;
         }
     }
 }

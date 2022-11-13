@@ -1157,7 +1157,7 @@ public class RoamingBloodRaiderBattleship
         implements IMetaGroup<RoamingBloodRaiderBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/RoamingBloodRaiderBattleship.yaml";
-        private Map<String, RoamingBloodRaiderBattleship> cache = (null);
+        private Map<Integer, RoamingBloodRaiderBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super RoamingBloodRaiderBattleship> category() {
@@ -1175,7 +1175,7 @@ public class RoamingBloodRaiderBattleship
         }
 
         @Override
-        public synchronized Map<String, RoamingBloodRaiderBattleship> load() {
+        public synchronized Map<Integer, RoamingBloodRaiderBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RoamingBloodRaiderBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1189,7 +1189,7 @@ public class RoamingBloodRaiderBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingBloodRaiderBattleship> types;
+            public LinkedHashMap<Integer, RoamingBloodRaiderBattleship> types;
         }
     }
 }

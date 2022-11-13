@@ -150,7 +150,7 @@ public class CorporateHangarArray
         implements IMetaGroup<CorporateHangarArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/CorporateHangarArray.yaml";
-        private Map<String, CorporateHangarArray> cache = (null);
+        private Map<Integer, CorporateHangarArray> cache = (null);
 
         @Override
         public IMetaCategory<? super CorporateHangarArray> category() {
@@ -168,7 +168,7 @@ public class CorporateHangarArray
         }
 
         @Override
-        public synchronized Map<String, CorporateHangarArray> load() {
+        public synchronized Map<Integer, CorporateHangarArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CorporateHangarArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -182,7 +182,7 @@ public class CorporateHangarArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, CorporateHangarArray> types;
+            public LinkedHashMap<Integer, CorporateHangarArray> types;
         }
     }
 }

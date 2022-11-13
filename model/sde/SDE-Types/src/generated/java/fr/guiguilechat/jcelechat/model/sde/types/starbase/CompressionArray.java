@@ -186,7 +186,7 @@ public class CompressionArray
         implements IMetaGroup<CompressionArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/CompressionArray.yaml";
-        private Map<String, CompressionArray> cache = (null);
+        private Map<Integer, CompressionArray> cache = (null);
 
         @Override
         public IMetaCategory<? super CompressionArray> category() {
@@ -204,7 +204,7 @@ public class CompressionArray
         }
 
         @Override
-        public synchronized Map<String, CompressionArray> load() {
+        public synchronized Map<Integer, CompressionArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CompressionArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -218,7 +218,7 @@ public class CompressionArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, CompressionArray> types;
+            public LinkedHashMap<Integer, CompressionArray> types;
         }
     }
 }

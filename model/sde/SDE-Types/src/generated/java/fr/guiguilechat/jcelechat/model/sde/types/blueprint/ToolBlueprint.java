@@ -109,7 +109,7 @@ public class ToolBlueprint
         implements IMetaGroup<ToolBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ToolBlueprint.yaml";
-        private Map<String, ToolBlueprint> cache = (null);
+        private Map<Integer, ToolBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ToolBlueprint> category() {
@@ -127,7 +127,7 @@ public class ToolBlueprint
         }
 
         @Override
-        public synchronized Map<String, ToolBlueprint> load() {
+        public synchronized Map<Integer, ToolBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ToolBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -141,7 +141,7 @@ public class ToolBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ToolBlueprint> types;
+            public LinkedHashMap<Integer, ToolBlueprint> types;
         }
     }
 }

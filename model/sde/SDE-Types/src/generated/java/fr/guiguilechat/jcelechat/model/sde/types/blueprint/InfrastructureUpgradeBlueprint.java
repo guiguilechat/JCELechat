@@ -83,7 +83,7 @@ public class InfrastructureUpgradeBlueprint
         implements IMetaGroup<InfrastructureUpgradeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/InfrastructureUpgradeBlueprint.yaml";
-        private Map<String, InfrastructureUpgradeBlueprint> cache = (null);
+        private Map<Integer, InfrastructureUpgradeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super InfrastructureUpgradeBlueprint> category() {
@@ -101,7 +101,7 @@ public class InfrastructureUpgradeBlueprint
         }
 
         @Override
-        public synchronized Map<String, InfrastructureUpgradeBlueprint> load() {
+        public synchronized Map<Integer, InfrastructureUpgradeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InfrastructureUpgradeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class InfrastructureUpgradeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfrastructureUpgradeBlueprint> types;
+            public LinkedHashMap<Integer, InfrastructureUpgradeBlueprint> types;
         }
     }
 }

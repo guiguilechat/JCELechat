@@ -1,33 +1,5 @@
 types:
-  Ahremen Arkah's Tag:
-    id: 17300
-    marketGroup: 750
-    mass: 1.0
-    name: Ahremen Arkah's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Angel Brass Tag:
-    id: 12529
-    marketGroup: 740
-    mass: 1.0
-    name: Angel Brass Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 4500.0
-    published: true
-    volume: 0.10000000149011612
-  Angel Bronze Tag:
-    id: 17190
-    marketGroup: 740
-    mass: 1.0
-    name: Angel Bronze Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Angel Copper Tag:
+  12304:
     id: 12304
     marketGroup: 740
     mass: 1.0
@@ -37,63 +9,7 @@ types:
     price: 1000.0
     published: true
     volume: 0.10000000149011612
-  Angel Crystal Tag:
-    id: 12531
-    marketGroup: 740
-    mass: 1.0
-    name: Angel Crystal Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 8250.0
-    published: true
-    volume: 0.10000000149011612
-  Angel Diamond Tag:
-    id: 17192
-    marketGroup: 740
-    mass: 1.0
-    name: Angel Diamond Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Angel Electrum Tag:
-    id: 17199
-    marketGroup: 740
-    mass: 1.0
-    name: Angel Electrum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Angel Gold Tag:
-    id: 17194
-    marketGroup: 740
-    mass: 1.0
-    name: Angel Gold Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Angel Palladium Tag:
-    id: 12530
-    marketGroup: 740
-    mass: 1.0
-    name: Angel Palladium Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 6000.0
-    published: true
-    volume: 0.10000000149011612
-  Angel Platinum Tag:
-    id: 17196
-    marketGroup: 740
-    mass: 1.0
-    name: Angel Platinum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Angel Silver Tag:
+  12528:
     id: 12528
     marketGroup: 740
     mass: 1.0
@@ -103,16 +19,37 @@ types:
     price: 2250.0
     published: true
     volume: 0.10000000149011612
-  Blood Brass Tag:
-    id: 17204
-    marketGroup: 741
+  12529:
+    id: 12529
+    marketGroup: 740
     mass: 1.0
-    name: Blood Brass Tag
+    name: Angel Brass Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
-  Blood Bronze Tag:
+  12530:
+    id: 12530
+    marketGroup: 740
+    mass: 1.0
+    name: Angel Palladium Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 6000.0
+    published: true
+    volume: 0.10000000149011612
+  12531:
+    id: 12531
+    marketGroup: 740
+    mass: 1.0
+    name: Angel Crystal Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8250.0
+    published: true
+    volume: 0.10000000149011612
+  12532:
     id: 12532
     marketGroup: 741
     mass: 1.0
@@ -122,89 +59,7 @@ types:
     price: 1000.0
     published: true
     volume: 0.10000000149011612
-  Blood Copper Tag:
-    id: 17200
-    marketGroup: 741
-    mass: 1.0
-    name: Blood Copper Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Blood Crystal Tag:
-    id: 12536
-    marketGroup: 741
-    mass: 1.0
-    name: Blood Crystal Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 8250.0
-    published: true
-    volume: 0.10000000149011612
-  Blood Diamond Tag:
-    id: 17201
-    marketGroup: 741
-    mass: 1.0
-    name: Blood Diamond Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Blood Electrum Tag:
-    id: 17203
-    marketGroup: 741
-    mass: 1.0
-    name: Blood Electrum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Blood Gold Tag:
-    id: 25239
-    marketGroup: 741
-    mass: 1.0
-    name: Blood Gold Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 4500.0
-    published: true
-    volume: 0.10000000149011612
-  Blood Grunt Tag:
-    id: 23669
-    mass: 1.0
-    name: Blood Grunt Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Blood Lower-Tier Tag:
-    id: 23668
-    mass: 1.0
-    name: Blood Lower-Tier Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Blood Palladium Tag:
-    id: 17202
-    marketGroup: 741
-    mass: 1.0
-    name: Blood Palladium Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Blood Platinum Tag:
-    id: 12535
-    marketGroup: 741
-    mass: 1.0
-    name: Blood Platinum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 6000.0
-    published: true
-    volume: 0.10000000149011612
-  Blood Silver Tag:
+  12533:
     id: 12533
     marketGroup: 741
     mass: 1.0
@@ -214,7 +69,7 @@ types:
     price: 2250.0
     published: true
     volume: 0.10000000149011612
-  Blood Upper-Tier Tag:
+  12534:
     id: 12534
     marketGroup: 741
     mass: 1.0
@@ -224,694 +79,27 @@ types:
     price: 4500.0
     published: true
     volume: 0.10000000149011612
-  Brokara Ryver's Tag:
-    id: 17290
-    marketGroup: 750
+  12535:
+    id: 12535
+    marketGroup: 741
     mass: 1.0
-    name: Brokara Ryver's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Brynn Jerdola's Tag:
-    id: 17294
-    marketGroup: 750
-    mass: 1.0
-    name: Brynn Jerdola's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Chelm Soran's Tag:
-    id: 17287
-    marketGroup: 750
-    mass: 1.0
-    name: Chelm Soran's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Cormack Vaaja's Tag:
-    id: 17291
-    marketGroup: 750
-    mass: 1.0
-    name: Cormack Vaaja's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Corpum Commander Medallion:
-    id: 24285
-    mass: 1.0
-    name: Corpum Commander Medallion
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Brass Tag:
-    id: 17231
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Brass Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Bronze Tag:
-    id: 17232
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Bronze Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Copper Tag:
-    id: 17233
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Copper Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Crystal Tag:
-    id: 17234
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Crystal Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Diamond Tag:
-    id: 17235
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Diamond Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Electrum Tag:
-    id: 17236
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Electrum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Gold Tag:
-    id: 17238
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Gold Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Palladium Tag:
-    id: 17237
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Palladium Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Platinum Tag:
-    id: 17240
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Platinum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dark Blood Silver Tag:
-    id: 17239
-    marketGroup: 742
-    mass: 1.0
-    name: Dark Blood Silver Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Brass Tag:
-    id: 17220
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Brass Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Bronze Tag:
-    id: 17221
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Bronze Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Copper Tag:
-    id: 17222
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Copper Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Crystal Tag:
-    id: 17223
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Crystal Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Diamond Tag:
-    id: 17224
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Diamond Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Electrum Tag:
-    id: 17225
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Electrum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Gold Tag:
-    id: 17226
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Gold Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Palladium Tag:
-    id: 17227
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Palladium Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Platinum Tag:
-    id: 17229
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Platinum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Domination Silver Tag:
-    id: 17230
-    marketGroup: 743
-    mass: 1.0
-    name: Domination Silver Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Draclira Merlonne's Tag:
-    id: 17299
-    marketGroup: 750
-    mass: 1.0
-    name: Draclira Merlonne's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Brass Tag:
-    id: 17241
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Brass Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Bronze Tag:
-    id: 17242
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Bronze Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Copper Tag:
-    id: 17243
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Copper Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Crystal Tag:
-    id: 17244
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Crystal Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Diamond Tag:
-    id: 17245
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Diamond Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Electrum Tag:
-    id: 17247
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Electrum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Gold Tag:
-    id: 17248
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Gold Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Palladium Tag:
-    id: 17249
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Palladium Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Platinum Tag:
-    id: 17250
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Platinum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Dread Guristas Silver Tag:
-    id: 17251
-    marketGroup: 744
-    mass: 1.0
-    name: Dread Guristas Silver Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Estamel Tharchon's Tag:
-    id: 17295
-    marketGroup: 750
-    mass: 1.0
-    name: Estamel Tharchon's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Faramon's Tag:
-    id: 17852
-    marketGroup: 750
-    mass: 1.0
-    name: Faramon's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Gotan Kreiss's Tag:
-    id: 17304
-    marketGroup: 750
-    mass: 1.0
-    name: Gotan Kreiss's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Guristas Brass Tag:
-    id: 17207
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Brass Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Guristas Bronze Tag:
-    id: 12542
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Bronze Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.10000000149011612
-  Guristas Copper Tag:
-    id: 17205
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Copper Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Guristas Crystal Tag:
-    id: 12546
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Crystal Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 8250.0
-    published: true
-    volume: 0.10000000149011612
-  Guristas Diamond Tag:
-    id: 17206
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Diamond Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Guristas Electrum Tag:
-    id: 17209
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Electrum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Guristas Gold Tag:
-    id: 12544
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Gold Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 4500.0
-    published: true
-    volume: 0.10000000149011612
-  Guristas Palladium Tag:
-    id: 17208
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Palladium Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Guristas Platinum Tag:
-    id: 12545
-    marketGroup: 745
-    mass: 1.0
-    name: Guristas Platinum Tag
+    name: Blood Platinum Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 6000.0
     published: true
     volume: 0.10000000149011612
-  Guristas Silver Tag:
-    id: 12543
-    marketGroup: 745
+  12536:
+    id: 12536
+    marketGroup: 741
     mass: 1.0
-    name: Guristas Silver Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 2250.0
-    published: true
-    volume: 0.10000000149011612
-  Hakim Stormare's Tag:
-    id: 17305
-    marketGroup: 750
-    mass: 1.0
-    name: Hakim Stormare's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Imai Kenon's Tag:
-    id: 17630
-    marketGroup: 750
-    mass: 1.0
-    name: Imai Kenon's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Jakon's Tag:
-    id: 21104
-    mass: 1.0
-    name: Jakon's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Jarkon Puman's Tag:
-    id: 19663
-    marketGroup: 750
-    mass: 1.0
-    name: Jarkon Puman's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Jenmei's Tag:
-    id: 17623
-    marketGroup: 750
-    mass: 1.0
-    name: Jenmei's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Kaikka Peunato's Tag:
-    id: 17298
-    marketGroup: 750
-    mass: 1.0
-    name: Kaikka Peunato's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Kalorr Makur's Tag:
-    id: 25849
-    mass: 1.0
-    name: Kalorr Makur's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Lazarus's Tag:
-    id: 17847
-    marketGroup: 750
-    mass: 1.0
-    name: Lazarus's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Makele's Tag:
-    id: 21062
-    mass: 1.0
-    name: Makele's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Manchura's Tag:
-    id: 20550
-    mass: 1.0
-    name: Manchura's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Mizuro Cybon's Tag:
-    id: 17306
-    marketGroup: 750
-    mass: 1.0
-    name: Mizuro Cybon's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Propel Dynamics Dogtag:
-    id: 21626
-    mass: 1.0
-    name: Propel Dynamics Dogtag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Raelek's Tag:
-    id: 17642
-    marketGroup: 750
-    mass: 1.0
-    name: Raelek's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Raysere Giant's Tag:
-    id: 17301
-    marketGroup: 750
-    mass: 1.0
-    name: Raysere Giant's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Sansha Brass Tag:
-    id: 17212
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Brass Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Sansha Bronze Tag:
-    id: 12547
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Bronze Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.10000000149011612
-  Sansha Copper Tag:
-    id: 17210
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Copper Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Sansha Crystal Tag:
-    id: 12551
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Crystal Tag
+    name: Blood Crystal Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 8250.0
     published: true
     volume: 0.10000000149011612
-  Sansha Diamond Tag:
-    id: 17211
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Diamond Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Sansha Electrum Tag:
-    id: 17214
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Electrum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Sansha Gold Tag:
-    id: 12549
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Gold Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 4500.0
-    published: true
-    volume: 0.10000000149011612
-  Sansha Infiltrator Tag:
-    id: 26128
-    mass: 1.0
-    name: Sansha Infiltrator Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Sansha Palladium Tag:
-    id: 17213
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Palladium Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Sansha Platinum Tag:
-    id: 12550
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Platinum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 6000.0
-    published: true
-    volume: 0.10000000149011612
-  Sansha Silver Tag:
-    id: 12548
-    marketGroup: 746
-    mass: 1.0
-    name: Sansha Silver Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 2250.0
-    published: true
-    volume: 0.10000000149011612
-  Selynne Mardakar's Tag:
-    id: 17289
-    marketGroup: 750
-    mass: 1.0
-    name: Selynne Mardakar's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Brass Tag:
-    id: 17217
-    marketGroup: 747
-    mass: 1.0
-    name: Serpentis Brass Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Bronze Tag:
+  12537:
     id: 12537
     marketGroup: 747
     mass: 1.0
@@ -921,73 +109,7 @@ types:
     price: 1000.0
     published: true
     volume: 0.10000000149011612
-  Serpentis Copper Tag:
-    id: 17215
-    marketGroup: 747
-    mass: 1.0
-    name: Serpentis Copper Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Crystal Tag:
-    id: 12541
-    marketGroup: 747
-    mass: 1.0
-    name: Serpentis Crystal Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 8250.0
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Diamond Tag:
-    id: 17216
-    marketGroup: 747
-    mass: 1.0
-    name: Serpentis Diamond Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Electrum Tag:
-    id: 17219
-    marketGroup: 747
-    mass: 1.0
-    name: Serpentis Electrum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Gold Tag:
-    id: 12539
-    marketGroup: 747
-    mass: 1.0
-    name: Serpentis Gold Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 4500.0
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Palladium Tag:
-    id: 17218
-    marketGroup: 747
-    mass: 1.0
-    name: Serpentis Palladium Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Platinum Tag:
-    id: 12540
-    marketGroup: 747
-    mass: 1.0
-    name: Serpentis Platinum Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 6000.0
-    published: true
-    volume: 0.10000000149011612
-  Serpentis Silver Tag:
+  12538:
     id: 12538
     marketGroup: 747
     mass: 1.0
@@ -997,133 +119,632 @@ types:
     price: 8250.0
     published: true
     volume: 0.10000000149011612
-  Setele Schellan's Tag:
-    id: 17292
-    marketGroup: 750
+  12539:
+    id: 12539
+    marketGroup: 747
     mass: 1.0
-    name: Setele Schellan's Tag
+    name: Serpentis Gold Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 4500.0
+    published: true
+    volume: 0.10000000149011612
+  12540:
+    id: 12540
+    marketGroup: 747
+    mass: 1.0
+    name: Serpentis Platinum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 6000.0
+    published: true
+    volume: 0.10000000149011612
+  12541:
+    id: 12541
+    marketGroup: 747
+    mass: 1.0
+    name: Serpentis Crystal Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8250.0
+    published: true
+    volume: 0.10000000149011612
+  12542:
+    id: 12542
+    marketGroup: 745
+    mass: 1.0
+    name: Guristas Bronze Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.10000000149011612
+  12543:
+    id: 12543
+    marketGroup: 745
+    mass: 1.0
+    name: Guristas Silver Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2250.0
+    published: true
+    volume: 0.10000000149011612
+  12544:
+    id: 12544
+    marketGroup: 745
+    mass: 1.0
+    name: Guristas Gold Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 4500.0
+    published: true
+    volume: 0.10000000149011612
+  12545:
+    id: 12545
+    marketGroup: 745
+    mass: 1.0
+    name: Guristas Platinum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 6000.0
+    published: true
+    volume: 0.10000000149011612
+  12546:
+    id: 12546
+    marketGroup: 745
+    mass: 1.0
+    name: Guristas Crystal Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8250.0
+    published: true
+    volume: 0.10000000149011612
+  12547:
+    id: 12547
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Bronze Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.10000000149011612
+  12548:
+    id: 12548
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Silver Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 2250.0
+    published: true
+    volume: 0.10000000149011612
+  12549:
+    id: 12549
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Gold Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 4500.0
+    published: true
+    volume: 0.10000000149011612
+  12550:
+    id: 12550
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Platinum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 6000.0
+    published: true
+    volume: 0.10000000149011612
+  12551:
+    id: 12551
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Crystal Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 8250.0
+    published: true
+    volume: 0.10000000149011612
+  17190:
+    id: 17190
+    marketGroup: 740
+    mass: 1.0
+    name: Angel Bronze Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Brass Tag:
-    id: 17262
-    marketGroup: 748
+  17192:
+    id: 17192
+    marketGroup: 740
     mass: 1.0
-    name: Shadow Serpentis Brass Tag
+    name: Angel Diamond Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Bronze Tag:
-    id: 17263
-    marketGroup: 748
+  17194:
+    id: 17194
+    marketGroup: 740
     mass: 1.0
-    name: Shadow Serpentis Bronze Tag
+    name: Angel Gold Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Copper Tag:
-    id: 17264
-    marketGroup: 748
+  17196:
+    id: 17196
+    marketGroup: 740
     mass: 1.0
-    name: Shadow Serpentis Copper Tag
+    name: Angel Platinum Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Crystal Tag:
-    id: 17266
-    marketGroup: 748
+  17199:
+    id: 17199
+    marketGroup: 740
     mass: 1.0
-    name: Shadow Serpentis Crystal Tag
+    name: Angel Electrum Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Diamond Tag:
-    id: 17267
-    marketGroup: 748
+  17200:
+    id: 17200
+    marketGroup: 741
     mass: 1.0
-    name: Shadow Serpentis Diamond Tag
+    name: Blood Copper Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Electrum Tag:
-    id: 17268
-    marketGroup: 748
+  17201:
+    id: 17201
+    marketGroup: 741
     mass: 1.0
-    name: Shadow Serpentis Electrum Tag
+    name: Blood Diamond Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Gold Tag:
-    id: 17270
-    marketGroup: 748
+  17202:
+    id: 17202
+    marketGroup: 741
     mass: 1.0
-    name: Shadow Serpentis Gold Tag
+    name: Blood Palladium Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Palladium Tag:
-    id: 17269
-    marketGroup: 748
+  17203:
+    id: 17203
+    marketGroup: 741
     mass: 1.0
-    name: Shadow Serpentis Palladium Tag
+    name: Blood Electrum Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Platinum Tag:
-    id: 17271
-    marketGroup: 748
+  17204:
+    id: 17204
+    marketGroup: 741
     mass: 1.0
-    name: Shadow Serpentis Platinum Tag
+    name: Blood Brass Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shadow Serpentis Silver Tag:
-    id: 17272
-    marketGroup: 748
+  17205:
+    id: 17205
+    marketGroup: 745
     mass: 1.0
-    name: Shadow Serpentis Silver Tag
+    name: Guristas Copper Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Tairei Namazoth's Tag:
-    id: 17302
-    marketGroup: 750
+  17206:
+    id: 17206
+    marketGroup: 745
     mass: 1.0
-    name: Tairei Namazoth's Tag
+    name: Guristas Diamond Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Thon Eney's Tag:
-    id: 17297
-    marketGroup: 750
+  17207:
+    id: 17207
+    marketGroup: 745
     mass: 1.0
-    name: Thon Eney's Tag
+    name: Guristas Brass Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Tobias Kruzhor's Tag:
-    id: 17303
-    marketGroup: 750
+  17208:
+    id: 17208
+    marketGroup: 745
     mass: 1.0
-    name: Tobias Kruzhor's Tag
+    name: Guristas Palladium Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Brass Tag:
+  17209:
+    id: 17209
+    marketGroup: 745
+    mass: 1.0
+    name: Guristas Electrum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17210:
+    id: 17210
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Copper Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17211:
+    id: 17211
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Diamond Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17212:
+    id: 17212
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Brass Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17213:
+    id: 17213
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Palladium Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17214:
+    id: 17214
+    marketGroup: 746
+    mass: 1.0
+    name: Sansha Electrum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17215:
+    id: 17215
+    marketGroup: 747
+    mass: 1.0
+    name: Serpentis Copper Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17216:
+    id: 17216
+    marketGroup: 747
+    mass: 1.0
+    name: Serpentis Diamond Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17217:
+    id: 17217
+    marketGroup: 747
+    mass: 1.0
+    name: Serpentis Brass Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17218:
+    id: 17218
+    marketGroup: 747
+    mass: 1.0
+    name: Serpentis Palladium Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17219:
+    id: 17219
+    marketGroup: 747
+    mass: 1.0
+    name: Serpentis Electrum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17220:
+    id: 17220
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Brass Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17221:
+    id: 17221
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Bronze Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17222:
+    id: 17222
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Copper Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17223:
+    id: 17223
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Crystal Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17224:
+    id: 17224
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Diamond Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17225:
+    id: 17225
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Electrum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17226:
+    id: 17226
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Gold Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17227:
+    id: 17227
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Palladium Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17229:
+    id: 17229
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Platinum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17230:
+    id: 17230
+    marketGroup: 743
+    mass: 1.0
+    name: Domination Silver Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17231:
+    id: 17231
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Brass Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17232:
+    id: 17232
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Bronze Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17233:
+    id: 17233
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Copper Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17234:
+    id: 17234
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Crystal Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17235:
+    id: 17235
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Diamond Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17236:
+    id: 17236
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Electrum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17237:
+    id: 17237
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Palladium Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17238:
+    id: 17238
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Gold Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17239:
+    id: 17239
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Silver Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17240:
+    id: 17240
+    marketGroup: 742
+    mass: 1.0
+    name: Dark Blood Platinum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17241:
+    id: 17241
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Brass Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17242:
+    id: 17242
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Bronze Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17243:
+    id: 17243
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Copper Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17244:
+    id: 17244
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Crystal Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17245:
+    id: 17245
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Diamond Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17247:
+    id: 17247
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Electrum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17248:
+    id: 17248
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Gold Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17249:
+    id: 17249
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Palladium Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17250:
+    id: 17250
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Platinum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17251:
+    id: 17251
+    marketGroup: 744
+    mass: 1.0
+    name: Dread Guristas Silver Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17252:
     id: 17252
     marketGroup: 749
     mass: 1.0
@@ -1132,7 +753,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Bronze Tag:
+  17253:
     id: 17253
     marketGroup: 749
     mass: 1.0
@@ -1141,7 +762,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Copper Tag:
+  17254:
     id: 17254
     marketGroup: 749
     mass: 1.0
@@ -1150,7 +771,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Crystal Tag:
+  17255:
     id: 17255
     marketGroup: 749
     mass: 1.0
@@ -1159,7 +780,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Diamond Tag:
+  17256:
     id: 17256
     marketGroup: 749
     mass: 1.0
@@ -1168,7 +789,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Electrum Tag:
+  17257:
     id: 17257
     marketGroup: 749
     mass: 1.0
@@ -1177,7 +798,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Gold Tag:
+  17258:
     id: 17258
     marketGroup: 749
     mass: 1.0
@@ -1186,7 +807,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Palladium Tag:
+  17259:
     id: 17259
     marketGroup: 749
     mass: 1.0
@@ -1195,7 +816,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Platinum Tag:
+  17260:
     id: 17260
     marketGroup: 749
     mass: 1.0
@@ -1204,7 +825,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Sansha Silver Tag:
+  17261:
     id: 17261
     marketGroup: 749
     mass: 1.0
@@ -1213,34 +834,106 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Tuvan Orth's Tag:
-    id: 17293
-    marketGroup: 750
+  17262:
+    id: 17262
+    marketGroup: 748
     mass: 1.0
-    name: Tuvan Orth's Tag
+    name: Shadow Serpentis Brass Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Uleen Bloodsworn's Tag:
-    id: 17743
-    marketGroup: 750
+  17263:
+    id: 17263
+    marketGroup: 748
     mass: 1.0
-    name: Uleen Bloodsworn's Tag
+    name: Shadow Serpentis Bronze Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Vepas Minimala's Tag:
-    id: 17296
-    marketGroup: 750
+  17264:
+    id: 17264
+    marketGroup: 748
     mass: 1.0
-    name: Vepas Minimala's Tag
+    name: Shadow Serpentis Copper Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Vizan Ankonin's Tag:
+  17266:
+    id: 17266
+    marketGroup: 748
+    mass: 1.0
+    name: Shadow Serpentis Crystal Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17267:
+    id: 17267
+    marketGroup: 748
+    mass: 1.0
+    name: Shadow Serpentis Diamond Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17268:
+    id: 17268
+    marketGroup: 748
+    mass: 1.0
+    name: Shadow Serpentis Electrum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17269:
+    id: 17269
+    marketGroup: 748
+    mass: 1.0
+    name: Shadow Serpentis Palladium Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17270:
+    id: 17270
+    marketGroup: 748
+    mass: 1.0
+    name: Shadow Serpentis Gold Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17271:
+    id: 17271
+    marketGroup: 748
+    mass: 1.0
+    name: Shadow Serpentis Platinum Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17272:
+    id: 17272
+    marketGroup: 748
+    mass: 1.0
+    name: Shadow Serpentis Silver Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17287:
+    id: 17287
+    marketGroup: 750
+    mass: 1.0
+    name: Chelm Soran's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17288:
     id: 17288
     marketGroup: 750
     mass: 1.0
@@ -1249,11 +942,318 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Zelfarios Kashnostramus's Tag:
+  17289:
+    id: 17289
+    marketGroup: 750
+    mass: 1.0
+    name: Selynne Mardakar's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17290:
+    id: 17290
+    marketGroup: 750
+    mass: 1.0
+    name: Brokara Ryver's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17291:
+    id: 17291
+    marketGroup: 750
+    mass: 1.0
+    name: Cormack Vaaja's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17292:
+    id: 17292
+    marketGroup: 750
+    mass: 1.0
+    name: Setele Schellan's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17293:
+    id: 17293
+    marketGroup: 750
+    mass: 1.0
+    name: Tuvan Orth's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17294:
+    id: 17294
+    marketGroup: 750
+    mass: 1.0
+    name: Brynn Jerdola's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17295:
+    id: 17295
+    marketGroup: 750
+    mass: 1.0
+    name: Estamel Tharchon's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17296:
+    id: 17296
+    marketGroup: 750
+    mass: 1.0
+    name: Vepas Minimala's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17297:
+    id: 17297
+    marketGroup: 750
+    mass: 1.0
+    name: Thon Eney's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17298:
+    id: 17298
+    marketGroup: 750
+    mass: 1.0
+    name: Kaikka Peunato's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17299:
+    id: 17299
+    marketGroup: 750
+    mass: 1.0
+    name: Draclira Merlonne's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17300:
+    id: 17300
+    marketGroup: 750
+    mass: 1.0
+    name: Ahremen Arkah's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17301:
+    id: 17301
+    marketGroup: 750
+    mass: 1.0
+    name: Raysere Giant's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17302:
+    id: 17302
+    marketGroup: 750
+    mass: 1.0
+    name: Tairei Namazoth's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17303:
+    id: 17303
+    marketGroup: 750
+    mass: 1.0
+    name: Tobias Kruzhor's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17304:
+    id: 17304
+    marketGroup: 750
+    mass: 1.0
+    name: Gotan Kreiss's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17305:
+    id: 17305
+    marketGroup: 750
+    mass: 1.0
+    name: Hakim Stormare's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17306:
+    id: 17306
+    marketGroup: 750
+    mass: 1.0
+    name: Mizuro Cybon's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17623:
+    id: 17623
+    marketGroup: 750
+    mass: 1.0
+    name: Jenmei's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17630:
+    id: 17630
+    marketGroup: 750
+    mass: 1.0
+    name: Imai Kenon's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17642:
+    id: 17642
+    marketGroup: 750
+    mass: 1.0
+    name: Raelek's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17743:
+    id: 17743
+    marketGroup: 750
+    mass: 1.0
+    name: Uleen Bloodsworn's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17847:
+    id: 17847
+    marketGroup: 750
+    mass: 1.0
+    name: Lazarus's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  17852:
+    id: 17852
+    marketGroup: 750
+    mass: 1.0
+    name: Faramon's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  18679:
     id: 18679
     marketGroup: 750
     mass: 1.0
     name: Zelfarios Kashnostramus's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  19663:
+    id: 19663
+    marketGroup: 750
+    mass: 1.0
+    name: Jarkon Puman's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  20550:
+    id: 20550
+    mass: 1.0
+    name: Manchura's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  21062:
+    id: 21062
+    mass: 1.0
+    name: Makele's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  21104:
+    id: 21104
+    mass: 1.0
+    name: Jakon's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  21626:
+    id: 21626
+    mass: 1.0
+    name: Propel Dynamics Dogtag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  23668:
+    id: 23668
+    mass: 1.0
+    name: Blood Lower-Tier Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  23669:
+    id: 23669
+    mass: 1.0
+    name: Blood Grunt Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  24285:
+    id: 24285
+    mass: 1.0
+    name: Corpum Commander Medallion
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  25239:
+    id: 25239
+    marketGroup: 741
+    mass: 1.0
+    name: Blood Gold Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 4500.0
+    published: true
+    volume: 0.10000000149011612
+  25849:
+    id: 25849
+    mass: 1.0
+    name: Kalorr Makur's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  26128:
+    id: 26128
+    mass: 1.0
+    name: Sansha Infiltrator Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

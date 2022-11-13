@@ -1,8 +1,8 @@
 types:
-  Enhanced Training Drone:
+  10649:
     armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 1.0
-    armorhp: 100.0
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 10.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
@@ -10,10 +10,10 @@ types:
     capacity: 1200.0
     damagemultiplier: 1.0
     disallowassistance: 1
-    emdamage: 2.0
-    entityattackdelaymax: 17000
-    entityattackdelaymin: 6000
-    entityattackrange: 6000
+    emdamage: 1.0
+    entityattackdelaymax: 5000
+    entityattackdelaymin: 500
+    entityattackrange: 10000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -21,30 +21,30 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
+    entitydefenderchance: 0.5
     entityequipmentgroupmax: 1
     entityequipmentmax: 1
     entityequipmentmin: 1
     entityfactionloss: 0.001500000013038516
-    entityflyrange: 1250.0
+    entityflyrange: 375.0
     entitylootcountmax: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
-    entitysecuritymaxgain: 5.0
+    entityreactionfactor: 1.0
     entitystrength: 4
-    falloff: 4500.0
+    falloff: 34000.0
     gfxboosterid: 397
-    hp: 100.0
-    id: 16693
+    hp: 10.0
+    id: 10649
     mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 3
-    maxrange: 1120.0
+    maxrange: 18200.0
     maxvelocity: 250.0
     missiledamagemultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
-    name: Enhanced Training Drone
+    name: Training Drone
     optimalsigradius: 45
     packagedVolume: 60.0
     portionSize: 1
@@ -52,10 +52,9 @@ types:
     published: false
     radius: 45.0
     rechargerate: 500000.0
-    scanmagnetometricstrength: 1.0
     scanresolution: 850.0
     scanspeed: 2000
-    shieldcapacity: 100.0
+    shieldcapacity: 10.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579
@@ -65,9 +64,9 @@ types:
     signatureradius: 45.0
     speed: 4000.0
     structureuniformity: 1.0
-    trackingspeed: 0.3287000060081482
+    trackingspeed: 0.014999999664723873
     volume: 60.0
-  Rogue Drone:
+  13323:
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 1.0
     armorhp: 50.0
@@ -136,10 +135,10 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.3287000060081482
     volume: 60.0
-  Training Drone:
+  16693:
     armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 10.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
@@ -147,10 +146,10 @@ types:
     capacity: 1200.0
     damagemultiplier: 1.0
     disallowassistance: 1
-    emdamage: 1.0
-    entityattackdelaymax: 5000
-    entityattackdelaymin: 500
-    entityattackrange: 10000
+    emdamage: 2.0
+    entityattackdelaymax: 17000
+    entityattackdelaymin: 6000
+    entityattackrange: 6000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -158,30 +157,30 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.5
     entityequipmentgroupmax: 1
     entityequipmentmax: 1
     entityequipmentmin: 1
     entityfactionloss: 0.001500000013038516
-    entityflyrange: 375.0
+    entityflyrange: 1250.0
     entitylootcountmax: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 1.0
+    entityreactionfactor: 0.4000000059604645
+    entitysecuritymaxgain: 5.0
     entitystrength: 4
-    falloff: 34000.0
+    falloff: 4500.0
     gfxboosterid: 397
-    hp: 10.0
-    id: 10649
+    hp: 100.0
+    id: 16693
     mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 3
-    maxrange: 18200.0
+    maxrange: 1120.0
     maxvelocity: 250.0
     missiledamagemultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
-    name: Training Drone
+    name: Enhanced Training Drone
     optimalsigradius: 45
     packagedVolume: 60.0
     portionSize: 1
@@ -189,9 +188,10 @@ types:
     published: false
     radius: 45.0
     rechargerate: 500000.0
+    scanmagnetometricstrength: 1.0
     scanresolution: 850.0
     scanspeed: 2000
-    shieldcapacity: 10.0
+    shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579
@@ -201,5 +201,5 @@ types:
     signatureradius: 45.0
     speed: 4000.0
     structureuniformity: 1.0
-    trackingspeed: 0.014999999664723873
+    trackingspeed: 0.3287000060081482
     volume: 60.0

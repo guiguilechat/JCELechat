@@ -329,7 +329,7 @@ public class EntosisLink
         implements IMetaGroup<EntosisLink>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/EntosisLink.yaml";
-        private Map<String, EntosisLink> cache = (null);
+        private Map<Integer, EntosisLink> cache = (null);
 
         @Override
         public IMetaCategory<? super EntosisLink> category() {
@@ -347,7 +347,7 @@ public class EntosisLink
         }
 
         @Override
-        public synchronized Map<String, EntosisLink> load() {
+        public synchronized Map<Integer, EntosisLink> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EntosisLink.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -361,7 +361,7 @@ public class EntosisLink
         }
 
         private static class Container {
-            public LinkedHashMap<String, EntosisLink> types;
+            public LinkedHashMap<Integer, EntosisLink> types;
         }
     }
 }

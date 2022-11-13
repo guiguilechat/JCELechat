@@ -1,5 +1,5 @@
 types:
-  Unit D-34343:
+  32959:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
@@ -86,7 +86,7 @@ types:
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1
-  Unit F-435454:
+  32960:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
@@ -170,7 +170,7 @@ types:
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1
-  Unit P-343554:
+  32961:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
@@ -257,7 +257,7 @@ types:
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1
-  Unit W-634:
+  32962:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1

@@ -989,7 +989,7 @@ public class MissionThukkerFrigate
         implements IMetaGroup<MissionThukkerFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionThukkerFrigate.yaml";
-        private Map<String, MissionThukkerFrigate> cache = (null);
+        private Map<Integer, MissionThukkerFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionThukkerFrigate> category() {
@@ -1007,7 +1007,7 @@ public class MissionThukkerFrigate
         }
 
         @Override
-        public synchronized Map<String, MissionThukkerFrigate> load() {
+        public synchronized Map<Integer, MissionThukkerFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionThukkerFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1021,7 +1021,7 @@ public class MissionThukkerFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionThukkerFrigate> types;
+            public LinkedHashMap<Integer, MissionThukkerFrigate> types;
         }
     }
 }

@@ -97,7 +97,7 @@ public class SiegeModuleBlueprint
         implements IMetaGroup<SiegeModuleBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SiegeModuleBlueprint.yaml";
-        private Map<String, SiegeModuleBlueprint> cache = (null);
+        private Map<Integer, SiegeModuleBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SiegeModuleBlueprint> category() {
@@ -115,7 +115,7 @@ public class SiegeModuleBlueprint
         }
 
         @Override
-        public synchronized Map<String, SiegeModuleBlueprint> load() {
+        public synchronized Map<Integer, SiegeModuleBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SiegeModuleBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class SiegeModuleBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SiegeModuleBlueprint> types;
+            public LinkedHashMap<Integer, SiegeModuleBlueprint> types;
         }
     }
 }

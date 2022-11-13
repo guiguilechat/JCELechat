@@ -97,7 +97,7 @@ public class ArmorHardenerBlueprint
         implements IMetaGroup<ArmorHardenerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ArmorHardenerBlueprint.yaml";
-        private Map<String, ArmorHardenerBlueprint> cache = (null);
+        private Map<Integer, ArmorHardenerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorHardenerBlueprint> category() {
@@ -115,7 +115,7 @@ public class ArmorHardenerBlueprint
         }
 
         @Override
-        public synchronized Map<String, ArmorHardenerBlueprint> load() {
+        public synchronized Map<Integer, ArmorHardenerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorHardenerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ArmorHardenerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorHardenerBlueprint> types;
+            public LinkedHashMap<Integer, ArmorHardenerBlueprint> types;
         }
     }
 }

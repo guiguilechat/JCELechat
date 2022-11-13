@@ -197,6 +197,7 @@ locations:
     - Ieyama
     - Jeon
     - Isoma
+    - Serthoulde
     - Minnen
     adjacentRegions:
     - Lonetrek
@@ -213,6 +214,7 @@ locations:
     - Abune
     - Tama
     - Aldranette
+    - Athounon
     - Piak
     constellations:
     - Urpiken
@@ -2426,6 +2428,7 @@ locations:
   Placid:
     adjacentConstellations:
     - S4GH-I
+    - Aokinen
     - Anwyns
     - Mobrault
     - YFN-UN
@@ -2437,14 +2440,15 @@ locations:
     - Patrie
     adjacentRegions:
     - Pure Blind
+    - Black Rise
     - Verge Vendor
     - Solitude
     - Syndicate
-    - Black Rise
     - Cloud Ring
     - Essence
     adjacentSystems:
     - RQH-MY
+    - Samanuni
     - Aidart
     - Eggheron
     - TXW-EI

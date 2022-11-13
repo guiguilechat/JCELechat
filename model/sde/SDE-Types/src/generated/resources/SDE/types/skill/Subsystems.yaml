@@ -1,21 +1,5 @@
 types:
-  Amarr Core Systems:
-    cannotbetrainedontrial: 1
-    id: 30539
-    marketGroup: 1824
-    name: Amarr Core Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 5
-    secondaryattribute: 166
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Amarr Defensive Systems:
+  30532:
     cannotbetrainedontrial: 1
     id: 30532
     marketGroup: 1824
@@ -33,7 +17,7 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Amarr Offensive Systems:
+  30537:
     cannotbetrainedontrial: 1
     id: 30537
     marketGroup: 1824
@@ -51,7 +35,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Amarr Propulsion Systems:
+  30538:
     cannotbetrainedontrial: 1
     id: 30538
     marketGroup: 1824
@@ -67,11 +51,11 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Caldari Core Systems:
+  30539:
     cannotbetrainedontrial: 1
-    id: 30548
+    id: 30539
     marketGroup: 1824
-    name: Caldari Core Systems
+    name: Amarr Core Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
@@ -83,75 +67,7 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Caldari Defensive Systems:
-    cannotbetrainedontrial: 1
-    id: 30544
-    marketGroup: 1824
-    name: Caldari Defensive Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3416
-    requiredskill1level: 5
-    requiredskill2: 3392
-    requiredskill2level: 3
-    secondaryattribute: 166
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Caldari Offensive Systems:
-    cannotbetrainedontrial: 1
-    id: 30549
-    marketGroup: 1824
-    name: Caldari Offensive Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 167
-    published: true
-    radius: 1.0
-    requiredskill1: 3319
-    requiredskill1level: 5
-    requiredskill2: 3300
-    requiredskill2level: 3
-    secondaryattribute: 168
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Caldari Propulsion Systems:
-    cannotbetrainedontrial: 1
-    id: 30552
-    marketGroup: 1824
-    name: Caldari Propulsion Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 167
-    published: true
-    radius: 1.0
-    requiredskill1: 3449
-    requiredskill1level: 5
-    secondaryattribute: 168
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Gallente Core Systems:
-    cannotbetrainedontrial: 1
-    id: 30546
-    marketGroup: 1824
-    name: Gallente Core Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 5
-    secondaryattribute: 166
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Gallente Defensive Systems:
+  30540:
     cannotbetrainedontrial: 1
     id: 30540
     marketGroup: 1824
@@ -169,57 +85,25 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Gallente Offensive Systems:
+  30544:
     cannotbetrainedontrial: 1
-    id: 30550
+    id: 30544
     marketGroup: 1824
-    name: Gallente Offensive Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 167
-    published: true
-    radius: 1.0
-    requiredskill1: 3300
-    requiredskill1level: 5
-    requiredskill2: 3436
-    requiredskill2level: 3
-    secondaryattribute: 168
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Gallente Propulsion Systems:
-    cannotbetrainedontrial: 1
-    id: 30553
-    marketGroup: 1824
-    name: Gallente Propulsion Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 167
-    published: true
-    radius: 1.0
-    requiredskill1: 3449
-    requiredskill1level: 5
-    secondaryattribute: 168
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Minmatar Core Systems:
-    cannotbetrainedontrial: 1
-    id: 30547
-    marketGroup: 1824
-    name: Minmatar Core Systems
+    name: Caldari Defensive Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
-    requiredskill1: 3413
+    requiredskill1: 3416
     requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 3
     secondaryattribute: 166
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Minmatar Defensive Systems:
+  30545:
     cannotbetrainedontrial: 1
     id: 30545
     marketGroup: 1824
@@ -237,7 +121,91 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Minmatar Offensive Systems:
+  30546:
+    cannotbetrainedontrial: 1
+    id: 30546
+    marketGroup: 1824
+    name: Gallente Core Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  30547:
+    cannotbetrainedontrial: 1
+    id: 30547
+    marketGroup: 1824
+    name: Minmatar Core Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  30548:
+    cannotbetrainedontrial: 1
+    id: 30548
+    marketGroup: 1824
+    name: Caldari Core Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  30549:
+    cannotbetrainedontrial: 1
+    id: 30549
+    marketGroup: 1824
+    name: Caldari Offensive Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 5
+    requiredskill2: 3300
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  30550:
+    cannotbetrainedontrial: 1
+    id: 30550
+    marketGroup: 1824
+    name: Gallente Offensive Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 3436
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  30551:
     cannotbetrainedontrial: 1
     id: 30551
     marketGroup: 1824
@@ -255,7 +223,39 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Minmatar Propulsion Systems:
+  30552:
+    cannotbetrainedontrial: 1
+    id: 30552
+    marketGroup: 1824
+    name: Caldari Propulsion Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3449
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  30553:
+    cannotbetrainedontrial: 1
+    id: 30553
+    marketGroup: 1824
+    name: Gallente Propulsion Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3449
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  30554:
     cannotbetrainedontrial: 1
     id: 30554
     marketGroup: 1824

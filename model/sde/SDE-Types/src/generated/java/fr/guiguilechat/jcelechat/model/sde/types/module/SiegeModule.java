@@ -989,7 +989,7 @@ public class SiegeModule
         implements IMetaGroup<SiegeModule>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/SiegeModule.yaml";
-        private Map<String, SiegeModule> cache = (null);
+        private Map<Integer, SiegeModule> cache = (null);
 
         @Override
         public IMetaCategory<? super SiegeModule> category() {
@@ -1007,7 +1007,7 @@ public class SiegeModule
         }
 
         @Override
-        public synchronized Map<String, SiegeModule> load() {
+        public synchronized Map<Integer, SiegeModule> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SiegeModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1021,7 +1021,7 @@ public class SiegeModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, SiegeModule> types;
+            public LinkedHashMap<Integer, SiegeModule> types;
         }
     }
 }

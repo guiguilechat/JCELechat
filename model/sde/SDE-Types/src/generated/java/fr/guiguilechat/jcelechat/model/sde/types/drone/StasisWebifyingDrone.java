@@ -371,7 +371,7 @@ public class StasisWebifyingDrone
         implements IMetaGroup<StasisWebifyingDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/drone/StasisWebifyingDrone.yaml";
-        private Map<String, StasisWebifyingDrone> cache = (null);
+        private Map<Integer, StasisWebifyingDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super StasisWebifyingDrone> category() {
@@ -389,7 +389,7 @@ public class StasisWebifyingDrone
         }
 
         @Override
-        public synchronized Map<String, StasisWebifyingDrone> load() {
+        public synchronized Map<Integer, StasisWebifyingDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StasisWebifyingDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -403,7 +403,7 @@ public class StasisWebifyingDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisWebifyingDrone> types;
+            public LinkedHashMap<Integer, StasisWebifyingDrone> types;
         }
     }
 }

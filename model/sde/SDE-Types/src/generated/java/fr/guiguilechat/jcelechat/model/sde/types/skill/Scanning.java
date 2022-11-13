@@ -151,7 +151,7 @@ public class Scanning
         implements IMetaGroup<Scanning>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Scanning.yaml";
-        private Map<String, Scanning> cache = (null);
+        private Map<Integer, Scanning> cache = (null);
 
         @Override
         public IMetaCategory<? super Scanning> category() {
@@ -169,7 +169,7 @@ public class Scanning
         }
 
         @Override
-        public synchronized Map<String, Scanning> load() {
+        public synchronized Map<Integer, Scanning> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Scanning.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -183,7 +183,7 @@ public class Scanning
         }
 
         private static class Container {
-            public LinkedHashMap<String, Scanning> types;
+            public LinkedHashMap<Integer, Scanning> types;
         }
     }
 }

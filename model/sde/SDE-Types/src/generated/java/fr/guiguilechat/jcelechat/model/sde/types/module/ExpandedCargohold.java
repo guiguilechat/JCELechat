@@ -133,7 +133,7 @@ public class ExpandedCargohold
         implements IMetaGroup<ExpandedCargohold>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ExpandedCargohold.yaml";
-        private Map<String, ExpandedCargohold> cache = (null);
+        private Map<Integer, ExpandedCargohold> cache = (null);
 
         @Override
         public IMetaCategory<? super ExpandedCargohold> category() {
@@ -151,7 +151,7 @@ public class ExpandedCargohold
         }
 
         @Override
-        public synchronized Map<String, ExpandedCargohold> load() {
+        public synchronized Map<Integer, ExpandedCargohold> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ExpandedCargohold.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -165,7 +165,7 @@ public class ExpandedCargohold
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExpandedCargohold> types;
+            public LinkedHashMap<Integer, ExpandedCargohold> types;
         }
     }
 }

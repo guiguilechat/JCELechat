@@ -1,16 +1,16 @@
 types:
-  ♦ Venture:
+  42533:
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 219.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
-    behaviorminingamount: 51.0
+    behaviorminingamount: 16.0
     behaviorminingdischarge: 40
-    behaviorminingduration: 60000
+    behaviorminingduration: 1920000
     behaviorminingmaxrange: 11000
     capacitorcapacity: 313.0
-    capacity: 5000.0
+    capacity: 50.0
     disallowassistance: 1
     entityfactionloss: 0.0010000000474974513
     entitykillbounty: 50000

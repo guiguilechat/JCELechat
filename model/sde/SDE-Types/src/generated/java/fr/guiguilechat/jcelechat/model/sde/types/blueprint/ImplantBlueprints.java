@@ -97,7 +97,7 @@ public class ImplantBlueprints
         implements IMetaGroup<ImplantBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ImplantBlueprints.yaml";
-        private Map<String, ImplantBlueprints> cache = (null);
+        private Map<Integer, ImplantBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super ImplantBlueprints> category() {
@@ -115,7 +115,7 @@ public class ImplantBlueprints
         }
 
         @Override
-        public synchronized Map<String, ImplantBlueprints> load() {
+        public synchronized Map<Integer, ImplantBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ImplantBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ImplantBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, ImplantBlueprints> types;
+            public LinkedHashMap<Integer, ImplantBlueprints> types;
         }
     }
 }

@@ -97,7 +97,7 @@ public class ArmorRepairUnitBlueprint
         implements IMetaGroup<ArmorRepairUnitBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ArmorRepairUnitBlueprint.yaml";
-        private Map<String, ArmorRepairUnitBlueprint> cache = (null);
+        private Map<Integer, ArmorRepairUnitBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorRepairUnitBlueprint> category() {
@@ -115,7 +115,7 @@ public class ArmorRepairUnitBlueprint
         }
 
         @Override
-        public synchronized Map<String, ArmorRepairUnitBlueprint> load() {
+        public synchronized Map<Integer, ArmorRepairUnitBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorRepairUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ArmorRepairUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorRepairUnitBlueprint> types;
+            public LinkedHashMap<Integer, ArmorRepairUnitBlueprint> types;
         }
     }
 }

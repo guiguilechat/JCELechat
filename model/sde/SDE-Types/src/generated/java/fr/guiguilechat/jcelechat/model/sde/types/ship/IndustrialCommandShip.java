@@ -623,7 +623,7 @@ public class IndustrialCommandShip
         implements IMetaGroup<IndustrialCommandShip>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/IndustrialCommandShip.yaml";
-        private Map<String, IndustrialCommandShip> cache = (null);
+        private Map<Integer, IndustrialCommandShip> cache = (null);
 
         @Override
         public IMetaCategory<? super IndustrialCommandShip> category() {
@@ -641,7 +641,7 @@ public class IndustrialCommandShip
         }
 
         @Override
-        public synchronized Map<String, IndustrialCommandShip> load() {
+        public synchronized Map<Integer, IndustrialCommandShip> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IndustrialCommandShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -655,7 +655,7 @@ public class IndustrialCommandShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, IndustrialCommandShip> types;
+            public LinkedHashMap<Integer, IndustrialCommandShip> types;
         }
     }
 }

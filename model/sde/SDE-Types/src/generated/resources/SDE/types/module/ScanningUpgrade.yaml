@@ -1,5 +1,5 @@
 types:
-  Scan Pinpointing Array I:
+  33178:
     capacity: 1.0
     cpu: 30.0
     hp: 40.0
@@ -17,7 +17,25 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 5.0
-  Scan Pinpointing Array II:
+  33180:
+    capacity: 1.0
+    cpu: 30.0
+    hp: 40.0
+    id: 33180
+    marketGroup: 1709
+    name: Scan Rangefinding Array I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9870.0
+    published: true
+    radius: 1.0
+    requiredskill1: 25739
+    requiredskill1level: 2
+    scanstrengthbonusmodule: 5
+    techlevel: 1
+    volume: 5.0
+  33199:
     capacity: 1.0
     cpu: 30.0
     hp: 40.0
@@ -36,25 +54,7 @@ types:
     requiredskill1level: 5
     techlevel: 2
     volume: 5.0
-  Scan Rangefinding Array I:
-    capacity: 1.0
-    cpu: 30.0
-    hp: 40.0
-    id: 33180
-    marketGroup: 1709
-    name: Scan Rangefinding Array I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    price: 9870.0
-    published: true
-    radius: 1.0
-    requiredskill1: 25739
-    requiredskill1level: 2
-    scanstrengthbonusmodule: 5
-    techlevel: 1
-    volume: 5.0
-  Scan Rangefinding Array II:
+  33201:
     capacity: 1.0
     cpu: 30.0
     hp: 40.0

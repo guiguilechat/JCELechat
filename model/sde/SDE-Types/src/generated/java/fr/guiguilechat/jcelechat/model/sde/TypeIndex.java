@@ -1,31 +1,30 @@
 package fr.guiguilechat.jcelechat.model.sde;
 
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 public class TypeIndex {
-    public LinkedHashMap<Integer, String> id2name = new LinkedHashMap<>();
-    public LinkedHashMap<String, String> name2group = new LinkedHashMap<>();
-    public LinkedHashMap<String, String> group2class = new LinkedHashMap<>();
-    private static Map<String, Map<String, ? extends EveType>> groupcache = new HashMap<>();
+    public LinkedHashMap<String, ArrayList<Integer>> name2Ids = new LinkedHashMap<>();
+    public LinkedHashMap<Integer, String> id2group = new LinkedHashMap<>();
+    private static Map<String, Map<Integer, ? extends EveType>> groupcache = new HashMap<>();
     public static final String RESOURCE_PATH = "SDE/types/metainf.yaml";
     private static TypeIndex cache = (null);
 
     @SuppressWarnings("unchecked")
-    public static EveType getType(String name) {
-        if (name == null) {
-            return null;
-        }
-        String group = TypeIndex.load().name2group.get(name);
+    public static EveType getType(int id) {
+        String group = TypeIndex.load().id2group.get(id);
         if (group == null) {
             return null;
         }
-        Map<String, ? extends EveType> map = groupcache.get(group);
+        Map<Integer, ? extends EveType> map = groupcache.get(group);
         if (map == null) {
             try {
                 String className = ("fr.guiguilechat.jcelechat.model.sde.types."+ group.replaceAll("/", "."));
@@ -42,11 +41,11 @@ public class TypeIndex {
             }
             groupcache.put(group, map);
         }
-        return map.get(name);
+        return map.get(id);
     }
 
-    public static EveType getType(int id) {
-        return TypeIndex.getType(TypeIndex.load().id2name.get(id));
+    public static List<EveType> getTypes(String name) {
+        return TypeIndex.load().name2Ids.getOrDefault(name, new ArrayList<>()).stream().map(TypeIndex::getType).collect(Collectors.toList());
     }
 
     public static synchronized TypeIndex load() {

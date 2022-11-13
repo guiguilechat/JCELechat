@@ -117,7 +117,7 @@ public class DamageControlBlueprint
         implements IMetaGroup<DamageControlBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/DamageControlBlueprint.yaml";
-        private Map<String, DamageControlBlueprint> cache = (null);
+        private Map<Integer, DamageControlBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super DamageControlBlueprint> category() {
@@ -135,7 +135,7 @@ public class DamageControlBlueprint
         }
 
         @Override
-        public synchronized Map<String, DamageControlBlueprint> load() {
+        public synchronized Map<Integer, DamageControlBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DamageControlBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -149,7 +149,7 @@ public class DamageControlBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DamageControlBlueprint> types;
+            public LinkedHashMap<Integer, DamageControlBlueprint> types;
         }
     }
 }

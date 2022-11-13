@@ -97,7 +97,7 @@ public class ShieldBoosterBlueprint
         implements IMetaGroup<ShieldBoosterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ShieldBoosterBlueprint.yaml";
-        private Map<String, ShieldBoosterBlueprint> cache = (null);
+        private Map<Integer, ShieldBoosterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldBoosterBlueprint> category() {
@@ -115,7 +115,7 @@ public class ShieldBoosterBlueprint
         }
 
         @Override
-        public synchronized Map<String, ShieldBoosterBlueprint> load() {
+        public synchronized Map<Integer, ShieldBoosterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldBoosterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ShieldBoosterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldBoosterBlueprint> types;
+            public LinkedHashMap<Integer, ShieldBoosterBlueprint> types;
         }
     }
 }

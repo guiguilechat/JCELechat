@@ -223,7 +223,7 @@ public class Science
         implements IMetaGroup<Science>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Science.yaml";
-        private Map<String, Science> cache = (null);
+        private Map<Integer, Science> cache = (null);
 
         @Override
         public IMetaCategory<? super Science> category() {
@@ -241,7 +241,7 @@ public class Science
         }
 
         @Override
-        public synchronized Map<String, Science> load() {
+        public synchronized Map<Integer, Science> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Science.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -255,7 +255,7 @@ public class Science
         }
 
         private static class Container {
-            public LinkedHashMap<String, Science> types;
+            public LinkedHashMap<Integer, Science> types;
         }
     }
 }

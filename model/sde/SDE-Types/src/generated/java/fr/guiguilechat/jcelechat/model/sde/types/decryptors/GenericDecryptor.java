@@ -40,7 +40,7 @@ public class GenericDecryptor
         implements IMetaGroup<GenericDecryptor>
     {
         public static final String RESOURCE_PATH = "SDE/types/decryptors/GenericDecryptor.yaml";
-        private Map<String, GenericDecryptor> cache = (null);
+        private Map<Integer, GenericDecryptor> cache = (null);
 
         @Override
         public IMetaCategory<? super GenericDecryptor> category() {
@@ -58,7 +58,7 @@ public class GenericDecryptor
         }
 
         @Override
-        public synchronized Map<String, GenericDecryptor> load() {
+        public synchronized Map<Integer, GenericDecryptor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GenericDecryptor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -72,7 +72,7 @@ public class GenericDecryptor
         }
 
         private static class Container {
-            public LinkedHashMap<String, GenericDecryptor> types;
+            public LinkedHashMap<Integer, GenericDecryptor> types;
         }
     }
 }

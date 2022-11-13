@@ -289,7 +289,7 @@ public class StructureEngineeringRigMMEResearchCostOptimization
         implements IMetaGroup<StructureEngineeringRigMMEResearchCostOptimization>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMMEResearchCostOptimization.yaml";
-        private Map<String, StructureEngineeringRigMMEResearchCostOptimization> cache = (null);
+        private Map<Integer, StructureEngineeringRigMMEResearchCostOptimization> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMMEResearchCostOptimization> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMMEResearchCostOptimization
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMMEResearchCostOptimization> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMMEResearchCostOptimization> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMMEResearchCostOptimization.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMMEResearchCostOptimization
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMMEResearchCostOptimization> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMMEResearchCostOptimization> types;
         }
     }
 }

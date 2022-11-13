@@ -543,7 +543,7 @@ public class NPCMiningBarge
         implements IMetaGroup<NPCMiningBarge>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCMiningBarge.yaml";
-        private Map<String, NPCMiningBarge> cache = (null);
+        private Map<Integer, NPCMiningBarge> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCMiningBarge> category() {
@@ -561,7 +561,7 @@ public class NPCMiningBarge
         }
 
         @Override
-        public synchronized Map<String, NPCMiningBarge> load() {
+        public synchronized Map<Integer, NPCMiningBarge> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCMiningBarge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -575,7 +575,7 @@ public class NPCMiningBarge
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCMiningBarge> types;
+            public LinkedHashMap<Integer, NPCMiningBarge> types;
         }
     }
 }

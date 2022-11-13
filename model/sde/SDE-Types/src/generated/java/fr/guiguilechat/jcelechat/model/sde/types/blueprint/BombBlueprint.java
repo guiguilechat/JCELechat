@@ -83,7 +83,7 @@ public class BombBlueprint
         implements IMetaGroup<BombBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/BombBlueprint.yaml";
-        private Map<String, BombBlueprint> cache = (null);
+        private Map<Integer, BombBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super BombBlueprint> category() {
@@ -101,7 +101,7 @@ public class BombBlueprint
         }
 
         @Override
-        public synchronized Map<String, BombBlueprint> load() {
+        public synchronized Map<Integer, BombBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BombBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class BombBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, BombBlueprint> types;
+            public LinkedHashMap<Integer, BombBlueprint> types;
         }
     }
 }

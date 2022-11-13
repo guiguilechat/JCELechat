@@ -979,7 +979,7 @@ public class ForceAuxiliary
         implements IMetaGroup<ForceAuxiliary>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/ForceAuxiliary.yaml";
-        private Map<String, ForceAuxiliary> cache = (null);
+        private Map<Integer, ForceAuxiliary> cache = (null);
 
         @Override
         public IMetaCategory<? super ForceAuxiliary> category() {
@@ -997,7 +997,7 @@ public class ForceAuxiliary
         }
 
         @Override
-        public synchronized Map<String, ForceAuxiliary> load() {
+        public synchronized Map<Integer, ForceAuxiliary> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ForceAuxiliary.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1011,7 +1011,7 @@ public class ForceAuxiliary
         }
 
         private static class Container {
-            public LinkedHashMap<String, ForceAuxiliary> types;
+            public LinkedHashMap<Integer, ForceAuxiliary> types;
         }
     }
 }

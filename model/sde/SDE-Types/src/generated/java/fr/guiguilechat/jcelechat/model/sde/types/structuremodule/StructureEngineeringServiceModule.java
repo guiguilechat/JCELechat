@@ -408,7 +408,7 @@ public class StructureEngineeringServiceModule
         implements IMetaGroup<StructureEngineeringServiceModule>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringServiceModule.yaml";
-        private Map<String, StructureEngineeringServiceModule> cache = (null);
+        private Map<Integer, StructureEngineeringServiceModule> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringServiceModule> category() {
@@ -426,7 +426,7 @@ public class StructureEngineeringServiceModule
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringServiceModule> load() {
+        public synchronized Map<Integer, StructureEngineeringServiceModule> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringServiceModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -440,7 +440,7 @@ public class StructureEngineeringServiceModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringServiceModule> types;
+            public LinkedHashMap<Integer, StructureEngineeringServiceModule> types;
         }
     }
 }

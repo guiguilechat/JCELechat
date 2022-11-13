@@ -66,7 +66,7 @@ public class InfrastructureHub
         implements IMetaGroup<InfrastructureHub>
     {
         public static final String RESOURCE_PATH = "SDE/types/sovereigntystructures/InfrastructureHub.yaml";
-        private Map<String, InfrastructureHub> cache = (null);
+        private Map<Integer, InfrastructureHub> cache = (null);
 
         @Override
         public IMetaCategory<? super InfrastructureHub> category() {
@@ -84,7 +84,7 @@ public class InfrastructureHub
         }
 
         @Override
-        public synchronized Map<String, InfrastructureHub> load() {
+        public synchronized Map<Integer, InfrastructureHub> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InfrastructureHub.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -98,7 +98,7 @@ public class InfrastructureHub
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfrastructureHub> types;
+            public LinkedHashMap<Integer, InfrastructureHub> types;
         }
     }
 }

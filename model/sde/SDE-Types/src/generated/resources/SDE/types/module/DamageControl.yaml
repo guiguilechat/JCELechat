@@ -1,5 +1,5 @@
 types:
-  '''Basic'' Damage Control':
+  521:
     armoremdamageresonance: 0.925000011920929
     armorexplosivedamageresonance: 0.925000011920929
     armorkineticdamageresonance: 0.925000011920929
@@ -30,7 +30,96 @@ types:
     shieldthermaldamageresonance: 0.949999988079071
     techlevel: 1
     volume: 5.0
-  '''Radical'' Damage Control':
+  2046:
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.8999999761581421
+    cpu: 25.0
+    hp: 40.0
+    hullemdamageresonance: 0.699999988079071
+    hullexplosivedamageresonance: 0.699999988079071
+    hullkineticdamageresonance: 0.699999988079071
+    hullthermaldamageresonance: 0.699999988079071
+    id: 2046
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    name: Damage Control I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    shieldemdamageresonance: 0.925000011920929
+    shieldexplosivedamageresonance: 0.925000011920929
+    shieldkineticdamageresonance: 0.925000011920929
+    shieldthermaldamageresonance: 0.925000011920929
+    techlevel: 1
+    volume: 5.0
+  2048:
+    armoremdamageresonance: 0.8500000238418579
+    armorexplosivedamageresonance: 0.8500000238418579
+    armorkineticdamageresonance: 0.8500000238418579
+    armorthermaldamageresonance: 0.8500000238418579
+    cpu: 30.0
+    hp: 40.0
+    hullemdamageresonance: 0.6000000238418579
+    hullexplosivedamageresonance: 0.6000000238418579
+    hullkineticdamageresonance: 0.6000000238418579
+    hullthermaldamageresonance: 0.6000000238418579
+    id: 2048
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metalevelold: 5
+    name: Damage Control II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    shieldemdamageresonance: 0.875
+    shieldexplosivedamageresonance: 0.875
+    shieldkineticdamageresonance: 0.875
+    shieldthermaldamageresonance: 0.875
+    techlevel: 2
+    volume: 5.0
+  5839:
+    armoremdamageresonance: 0.875
+    armorexplosivedamageresonance: 0.875
+    armorkineticdamageresonance: 0.875
+    armorthermaldamageresonance: 0.875
+    cpu: 20.0
+    hp: 40.0
+    hullemdamageresonance: 0.6499999761581421
+    hullexplosivedamageresonance: 0.6499999761581421
+    hullkineticdamageresonance: 0.6499999761581421
+    hullthermaldamageresonance: 0.6499999761581421
+    id: 5839
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metalevelold: 1
+    name: IFFA Compact Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8999999761581421
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.8999999761581421
+    techlevel: 1
+    volume: 5.0
+  23418:
     armoremdamageresonance: 0.8500000238418579
     armorexplosivedamageresonance: 0.8500000238418579
     armorkineticdamageresonance: 0.8500000238418579
@@ -61,161 +150,36 @@ types:
     shieldthermaldamageresonance: 0.875
     techlevel: 1
     volume: 5.0
-  Abyssal Assault Damage Control:
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    canfitshipgroup01: 324
-    canfitshipgroup02: 358
-    hullemdamageresonance: 1.0
-    hullexplosivedamageresonance: 1.0
-    hullkineticdamageresonance: 1.0
-    hullthermaldamageresonance: 1.0
-    id: 52230
-    maxgroupfitted: 1
-    name: Abyssal Assault Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 5
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldthermaldamageresonance: 1.0
-    techlevel: 1
-    volume: 5.0
-  Abyssal Damage Control:
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    hullemdamageresonance: 1.0
-    hullexplosivedamageresonance: 1.0
-    hullkineticdamageresonance: 1.0
-    hullthermaldamageresonance: 1.0
-    id: 52227
-    maxgroupfitted: 1
-    name: Abyssal Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 4
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldthermaldamageresonance: 1.0
-    techlevel: 1
-    volume: 5.0
-  Assault Damage Control I:
-    armoremdamageresonance: 0.925000011920929
-    armorexplosivedamageresonance: 0.925000011920929
-    armorkineticdamageresonance: 0.925000011920929
-    armorthermaldamageresonance: 0.925000011920929
-    canfitshipgroup01: 358
-    canfitshipgroup02: 324
-    capacitorneed: 32.0
-    cpu: 28.0
-    disallowrepeatingactivation: 1
-    duration: 8775.0
+  30839:
+    armoremdamageresonance: 0.949999988079071
+    armorexplosivedamageresonance: 0.949999988079071
+    armorkineticdamageresonance: 0.949999988079071
+    armorthermaldamageresonance: 0.949999988079071
+    cpu: 10.0
     hp: 40.0
-    hullemdamageresonance: 0.75
-    hullexplosivedamageresonance: 0.75
-    hullkineticdamageresonance: 0.75
-    hullthermaldamageresonance: 0.75
-    id: 47254
+    hullemdamageresonance: 0.800000011920929
+    hullexplosivedamageresonance: 0.800000011920929
+    hullkineticdamageresonance: 0.800000011920929
+    hullthermaldamageresonance: 0.800000011920929
+    id: 30839
     marketGroup: 615
     mass: 5000.0
     maxgroupfitted: 1
-    modulereactivationdelay: 150000
-    name: Assault Damage Control I
+    name: Civilian Damage Control
     packagedVolume: 5.0
     portionSize: 1
-    power: 1
+    power: 2
     published: true
     radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
-    resistancemultiplier: 0.25
-    shieldemdamageresonance: 0.949999988079071
-    shieldexplosivedamageresonance: 0.949999988079071
-    shieldkineticdamageresonance: 0.949999988079071
-    shieldthermaldamageresonance: 0.949999988079071
+    shieldemdamageresonance: 0.9800000190734863
+    shieldexplosivedamageresonance: 0.9800000190734863
+    shieldkineticdamageresonance: 0.9800000190734863
+    shieldthermaldamageresonance: 0.9800000190734863
     techlevel: 1
     volume: 5.0
-  Assault Damage Control II:
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.8999999761581421
-    canfitshipgroup01: 358
-    canfitshipgroup02: 324
-    capacitorneed: 35.0
-    cpu: 35.0
-    disallowrepeatingactivation: 1
-    duration: 10125.0
-    hp: 40.0
-    hullemdamageresonance: 0.699999988079071
-    hullexplosivedamageresonance: 0.699999988079071
-    hullkineticdamageresonance: 0.699999988079071
-    hullthermaldamageresonance: 0.699999988079071
-    id: 47257
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metalevelold: 5
-    modulereactivationdelay: 150000
-    name: Assault Damage Control II
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 5
-    resistancemultiplier: 0.25
-    shieldemdamageresonance: 0.925000011920929
-    shieldexplosivedamageresonance: 0.925000011920929
-    shieldkineticdamageresonance: 0.925000011920929
-    shieldthermaldamageresonance: 0.925000011920929
-    techlevel: 2
-    volume: 5.0
-  Brynn's Modified Damage Control:
-    armoremdamageresonance: 0.8100000023841858
-    armorexplosivedamageresonance: 0.8100000023841858
-    armorkineticdamageresonance: 0.8100000023841858
-    armorthermaldamageresonance: 0.8100000023841858
-    cpu: 30.0
-    hp: 40.0
-    hullemdamageresonance: 0.550000011920929
-    hullexplosivedamageresonance: 0.550000011920929
-    hullkineticdamageresonance: 0.550000011920929
-    hullthermaldamageresonance: 0.550000011920929
-    id: 41203
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metagroupid: 5
-    metalevelold: 11
-    name: Brynn's Modified Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    shieldemdamageresonance: 0.8199999928474426
-    shieldexplosivedamageresonance: 0.8199999928474426
-    shieldkineticdamageresonance: 0.8199999928474426
-    shieldthermaldamageresonance: 0.8199999928474426
-    techlevel: 1
-    volume: 5.0
-  Capital Emergency Hull Energizer I:
+  40714:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -254,47 +218,7 @@ types:
     shieldthermaldamageresonance: 1.0
     techlevel: 1
     volume: 8000.0
-  Capital Emergency Hull Energizer II:
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    canfitshipgroup01: 547
-    canfitshipgroup02: 1538
-    canfitshipgroup03: 485
-    canfitshipgroup04: 30
-    canfitshipgroup05: 659
-    canfitshipgroup06: 883
-    capacitorneed: 12000.0
-    cpu: 80.0
-    disallowrepeatingactivation: 1
-    duration: 16500.0
-    hp: 40.0
-    hullemdamageresonance: 0.05000000074505806
-    hullexplosivedamageresonance: 0.05000000074505806
-    hullkineticdamageresonance: 0.05000000074505806
-    hullthermaldamageresonance: 0.05000000074505806
-    id: 40717
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    metalevelold: 5
-    name: Capital Emergency Hull Energizer II
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 120000
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 4
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldthermaldamageresonance: 1.0
-    techlevel: 2
-    volume: 8000.0
-  Capital Implacable Compact Emergency Hull Energizer:
+  40715:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -334,7 +258,7 @@ types:
     shieldthermaldamageresonance: 1.0
     techlevel: 1
     volume: 8000.0
-  Capital Indefatigable Enduring Emergency Hull Energizer:
+  40716:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -374,361 +298,47 @@ types:
     shieldthermaldamageresonance: 1.0
     techlevel: 1
     volume: 8000.0
-  Civilian Damage Control:
-    armoremdamageresonance: 0.949999988079071
-    armorexplosivedamageresonance: 0.949999988079071
-    armorkineticdamageresonance: 0.949999988079071
-    armorthermaldamageresonance: 0.949999988079071
-    cpu: 10.0
+  40717:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    canfitshipgroup01: 547
+    canfitshipgroup02: 1538
+    canfitshipgroup03: 485
+    canfitshipgroup04: 30
+    canfitshipgroup05: 659
+    canfitshipgroup06: 883
+    capacitorneed: 12000.0
+    cpu: 80.0
+    disallowrepeatingactivation: 1
+    duration: 16500.0
     hp: 40.0
-    hullemdamageresonance: 0.800000011920929
-    hullexplosivedamageresonance: 0.800000011920929
-    hullkineticdamageresonance: 0.800000011920929
-    hullthermaldamageresonance: 0.800000011920929
-    id: 30839
+    hullemdamageresonance: 0.05000000074505806
+    hullexplosivedamageresonance: 0.05000000074505806
+    hullkineticdamageresonance: 0.05000000074505806
+    hullthermaldamageresonance: 0.05000000074505806
+    id: 40717
     marketGroup: 615
     mass: 5000.0
-    maxgroupfitted: 1
-    name: Civilian Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 2
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    shieldemdamageresonance: 0.9800000190734863
-    shieldexplosivedamageresonance: 0.9800000190734863
-    shieldkineticdamageresonance: 0.9800000190734863
-    shieldthermaldamageresonance: 0.9800000190734863
-    techlevel: 1
-    volume: 5.0
-  Cormack's Modified Damage Control:
-    armoremdamageresonance: 0.7799999713897705
-    armorexplosivedamageresonance: 0.7799999713897705
-    armorkineticdamageresonance: 0.7799999713897705
-    armorthermaldamageresonance: 0.7799999713897705
-    cpu: 36.0
-    hp: 40.0
-    hullemdamageresonance: 0.4749999940395355
-    hullexplosivedamageresonance: 0.4749999940395355
-    hullkineticdamageresonance: 0.4749999940395355
-    hullthermaldamageresonance: 0.4749999940395355
-    id: 41210
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metagroupid: 5
-    metalevelold: 17
-    name: Cormack's Modified Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    shieldemdamageresonance: 0.7900000214576721
-    shieldexplosivedamageresonance: 0.7900000214576721
-    shieldkineticdamageresonance: 0.7900000214576721
-    shieldthermaldamageresonance: 0.7900000214576721
-    techlevel: 1
-    volume: 5.0
-  Damage Control I:
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.8999999761581421
-    cpu: 25.0
-    hp: 40.0
-    hullemdamageresonance: 0.699999988079071
-    hullexplosivedamageresonance: 0.699999988079071
-    hullkineticdamageresonance: 0.699999988079071
-    hullthermaldamageresonance: 0.699999988079071
-    id: 2046
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    name: Damage Control I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    shieldemdamageresonance: 0.925000011920929
-    shieldexplosivedamageresonance: 0.925000011920929
-    shieldkineticdamageresonance: 0.925000011920929
-    shieldthermaldamageresonance: 0.925000011920929
-    techlevel: 1
-    volume: 5.0
-  Damage Control II:
-    armoremdamageresonance: 0.8500000238418579
-    armorexplosivedamageresonance: 0.8500000238418579
-    armorkineticdamageresonance: 0.8500000238418579
-    armorthermaldamageresonance: 0.8500000238418579
-    cpu: 30.0
-    hp: 40.0
-    hullemdamageresonance: 0.6000000238418579
-    hullexplosivedamageresonance: 0.6000000238418579
-    hullkineticdamageresonance: 0.6000000238418579
-    hullthermaldamageresonance: 0.6000000238418579
-    id: 2048
-    marketGroup: 615
-    mass: 5000.0
+    maxgroupactive: 1
     maxgroupfitted: 1
     metalevelold: 5
-    name: Damage Control II
-    packagedVolume: 5.0
+    name: Capital Emergency Hull Energizer II
+    packagedVolume: 2000.0
     portionSize: 1
-    power: 1
+    power: 120000
     published: true
     radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
-    shieldemdamageresonance: 0.875
-    shieldexplosivedamageresonance: 0.875
-    shieldkineticdamageresonance: 0.875
-    shieldthermaldamageresonance: 0.875
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     techlevel: 2
-    volume: 5.0
-  EFFA Compact Assault Damage Control:
-    armoremdamageresonance: 0.925000011920929
-    armorexplosivedamageresonance: 0.925000011920929
-    armorkineticdamageresonance: 0.925000011920929
-    armorthermaldamageresonance: 0.925000011920929
-    canfitshipgroup01: 358
-    canfitshipgroup02: 324
-    capacitorneed: 32.0
-    cpu: 24.0
-    disallowrepeatingactivation: 1
-    duration: 8775.0
-    hp: 40.0
-    hullemdamageresonance: 0.75
-    hullexplosivedamageresonance: 0.75
-    hullkineticdamageresonance: 0.75
-    hullthermaldamageresonance: 0.75
-    id: 47255
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metalevelold: 1
-    modulereactivationdelay: 150000
-    name: EFFA Compact Assault Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    resistancemultiplier: 0.25
-    shieldemdamageresonance: 0.949999988079071
-    shieldexplosivedamageresonance: 0.949999988079071
-    shieldkineticdamageresonance: 0.949999988079071
-    shieldthermaldamageresonance: 0.949999988079071
-    techlevel: 1
-    volume: 5.0
-  FFR Enduring Assault Damage Control:
-    armoremdamageresonance: 0.925000011920929
-    armorexplosivedamageresonance: 0.925000011920929
-    armorkineticdamageresonance: 0.925000011920929
-    armorthermaldamageresonance: 0.925000011920929
-    canfitshipgroup01: 358
-    canfitshipgroup02: 324
-    capacitorneed: 26.0
-    cpu: 28.0
-    disallowrepeatingactivation: 1
-    duration: 8775.0
-    hp: 40.0
-    hullemdamageresonance: 0.75
-    hullexplosivedamageresonance: 0.75
-    hullkineticdamageresonance: 0.75
-    hullthermaldamageresonance: 0.75
-    id: 47256
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metalevelold: 1
-    modulereactivationdelay: 150000
-    name: FFR Enduring Assault Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    resistancemultiplier: 0.25
-    shieldemdamageresonance: 0.949999988079071
-    shieldexplosivedamageresonance: 0.949999988079071
-    shieldkineticdamageresonance: 0.949999988079071
-    shieldthermaldamageresonance: 0.949999988079071
-    techlevel: 1
-    volume: 5.0
-  IFFA Compact Damage Control:
-    armoremdamageresonance: 0.875
-    armorexplosivedamageresonance: 0.875
-    armorkineticdamageresonance: 0.875
-    armorthermaldamageresonance: 0.875
-    cpu: 20.0
-    hp: 40.0
-    hullemdamageresonance: 0.6499999761581421
-    hullexplosivedamageresonance: 0.6499999761581421
-    hullkineticdamageresonance: 0.6499999761581421
-    hullthermaldamageresonance: 0.6499999761581421
-    id: 5839
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metalevelold: 1
-    name: IFFA Compact Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldthermaldamageresonance: 0.8999999761581421
-    techlevel: 1
-    volume: 5.0
-  Sentient Damage Control:
-    armoremdamageresonance: 0.8349999785423279
-    armorexplosivedamageresonance: 0.8349999785423279
-    armorkineticdamageresonance: 0.8349999785423279
-    armorthermaldamageresonance: 0.8349999785423279
-    cpu: 18.0
-    hp: 40.0
-    hullemdamageresonance: 0.574999988079071
-    hullexplosivedamageresonance: 0.574999988079071
-    hullkineticdamageresonance: 0.574999988079071
-    hullthermaldamageresonance: 0.574999988079071
-    id: 41202
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metagroupid: 4
-    metalevelold: 8
-    name: Sentient Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    shieldemdamageresonance: 0.8600000143051147
-    shieldexplosivedamageresonance: 0.8600000143051147
-    shieldkineticdamageresonance: 0.8600000143051147
-    shieldthermaldamageresonance: 0.8600000143051147
-    techlevel: 1
-    volume: 5.0
-  Setele's Modified Damage Control:
-    armoremdamageresonance: 0.7900000214576721
-    armorexplosivedamageresonance: 0.7900000214576721
-    armorkineticdamageresonance: 0.7900000214576721
-    armorthermaldamageresonance: 0.7900000214576721
-    cpu: 34.0
-    hp: 40.0
-    hullemdamageresonance: 0.5
-    hullexplosivedamageresonance: 0.5
-    hullkineticdamageresonance: 0.5
-    hullthermaldamageresonance: 0.5
-    id: 41207
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metagroupid: 5
-    metalevelold: 15
-    name: Setele's Modified Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.800000011920929
-    shieldthermaldamageresonance: 0.800000011920929
-    techlevel: 1
-    volume: 5.0
-  Shadow Serpentis Assault Damage Control:
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.8999999761581421
-    canfitshipgroup01: 358
-    canfitshipgroup02: 324
-    capacitorneed: 30.0
-    cpu: 24.0
-    disallowrepeatingactivation: 1
-    duration: 10800.0
-    hp: 40.0
-    hullemdamageresonance: 0.699999988079071
-    hullexplosivedamageresonance: 0.699999988079071
-    hullkineticdamageresonance: 0.699999988079071
-    hullthermaldamageresonance: 0.699999988079071
-    id: 47258
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metagroupid: 4
-    metalevelold: 8
-    modulereactivationdelay: 150000
-    name: Shadow Serpentis Assault Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    resistancemultiplier: 0.25
-    shieldemdamageresonance: 0.925000011920929
-    shieldexplosivedamageresonance: 0.925000011920929
-    shieldkineticdamageresonance: 0.925000011920929
-    shieldthermaldamageresonance: 0.925000011920929
-    techlevel: 1
-    volume: 5.0
-  Shadow Serpentis Damage Control:
-    armoremdamageresonance: 0.8349999785423279
-    armorexplosivedamageresonance: 0.8349999785423279
-    armorkineticdamageresonance: 0.8349999785423279
-    armorthermaldamageresonance: 0.8349999785423279
-    cpu: 18.0
-    hp: 40.0
-    hullemdamageresonance: 0.574999988079071
-    hullexplosivedamageresonance: 0.574999988079071
-    hullkineticdamageresonance: 0.574999988079071
-    hullthermaldamageresonance: 0.574999988079071
-    id: 41200
-    marketGroup: 615
-    mass: 5000.0
-    maxgroupfitted: 1
-    metagroupid: 4
-    metalevelold: 8
-    name: Shadow Serpentis Damage Control
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    shieldemdamageresonance: 0.8600000143051147
-    shieldexplosivedamageresonance: 0.8600000143051147
-    shieldkineticdamageresonance: 0.8600000143051147
-    shieldthermaldamageresonance: 0.8600000143051147
-    techlevel: 1
-    volume: 5.0
-  Sisters Capital Emergency Hull Energizer:
+    volume: 8000.0
+  40718:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -769,7 +379,38 @@ types:
     shieldthermaldamageresonance: 1.0
     techlevel: 1
     volume: 8000.0
-  Syndicate Damage Control:
+  41200:
+    armoremdamageresonance: 0.8349999785423279
+    armorexplosivedamageresonance: 0.8349999785423279
+    armorkineticdamageresonance: 0.8349999785423279
+    armorthermaldamageresonance: 0.8349999785423279
+    cpu: 18.0
+    hp: 40.0
+    hullemdamageresonance: 0.574999988079071
+    hullexplosivedamageresonance: 0.574999988079071
+    hullkineticdamageresonance: 0.574999988079071
+    hullthermaldamageresonance: 0.574999988079071
+    id: 41200
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metagroupid: 4
+    metalevelold: 8
+    name: Shadow Serpentis Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    shieldemdamageresonance: 0.8600000143051147
+    shieldexplosivedamageresonance: 0.8600000143051147
+    shieldkineticdamageresonance: 0.8600000143051147
+    shieldthermaldamageresonance: 0.8600000143051147
+    techlevel: 1
+    volume: 5.0
+  41201:
     armoremdamageresonance: 0.8349999785423279
     armorexplosivedamageresonance: 0.8349999785423279
     armorkineticdamageresonance: 0.8349999785423279
@@ -800,24 +441,24 @@ types:
     shieldthermaldamageresonance: 0.8600000143051147
     techlevel: 1
     volume: 5.0
-  Tuvan's Modified Damage Control:
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.800000011920929
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.800000011920929
-    cpu: 32.0
+  41202:
+    armoremdamageresonance: 0.8349999785423279
+    armorexplosivedamageresonance: 0.8349999785423279
+    armorkineticdamageresonance: 0.8349999785423279
+    armorthermaldamageresonance: 0.8349999785423279
+    cpu: 18.0
     hp: 40.0
-    hullemdamageresonance: 0.5249999761581421
-    hullexplosivedamageresonance: 0.5249999761581421
-    hullkineticdamageresonance: 0.5249999761581421
-    hullthermaldamageresonance: 0.5249999761581421
-    id: 41205
+    hullemdamageresonance: 0.574999988079071
+    hullexplosivedamageresonance: 0.574999988079071
+    hullkineticdamageresonance: 0.574999988079071
+    hullthermaldamageresonance: 0.574999988079071
+    id: 41202
     marketGroup: 615
     mass: 5000.0
     maxgroupfitted: 1
-    metagroupid: 5
-    metalevelold: 13
-    name: Tuvan's Modified Damage Control
+    metagroupid: 4
+    metalevelold: 8
+    name: Sentient Damage Control
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -825,13 +466,44 @@ types:
     radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
-    shieldemdamageresonance: 0.8100000023841858
-    shieldexplosivedamageresonance: 0.8100000023841858
-    shieldkineticdamageresonance: 0.8100000023841858
-    shieldthermaldamageresonance: 0.8100000023841858
+    shieldemdamageresonance: 0.8600000143051147
+    shieldexplosivedamageresonance: 0.8600000143051147
+    shieldkineticdamageresonance: 0.8600000143051147
+    shieldthermaldamageresonance: 0.8600000143051147
     techlevel: 1
     volume: 5.0
-  Unit D-34343's Modified Damage Control:
+  41203:
+    armoremdamageresonance: 0.8100000023841858
+    armorexplosivedamageresonance: 0.8100000023841858
+    armorkineticdamageresonance: 0.8100000023841858
+    armorthermaldamageresonance: 0.8100000023841858
+    cpu: 30.0
+    hp: 40.0
+    hullemdamageresonance: 0.550000011920929
+    hullexplosivedamageresonance: 0.550000011920929
+    hullkineticdamageresonance: 0.550000011920929
+    hullthermaldamageresonance: 0.550000011920929
+    id: 41203
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metagroupid: 5
+    metalevelold: 11
+    name: Brynn's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    shieldemdamageresonance: 0.8199999928474426
+    shieldexplosivedamageresonance: 0.8199999928474426
+    shieldkineticdamageresonance: 0.8199999928474426
+    shieldthermaldamageresonance: 0.8199999928474426
+    techlevel: 1
+    volume: 5.0
+  41204:
     armoremdamageresonance: 0.8100000023841858
     armorexplosivedamageresonance: 0.8100000023841858
     armorkineticdamageresonance: 0.8100000023841858
@@ -862,7 +534,38 @@ types:
     shieldthermaldamageresonance: 0.8199999928474426
     techlevel: 1
     volume: 5.0
-  Unit F-435454's Modified Damage Control:
+  41205:
+    armoremdamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.800000011920929
+    armorthermaldamageresonance: 0.800000011920929
+    cpu: 32.0
+    hp: 40.0
+    hullemdamageresonance: 0.5249999761581421
+    hullexplosivedamageresonance: 0.5249999761581421
+    hullkineticdamageresonance: 0.5249999761581421
+    hullthermaldamageresonance: 0.5249999761581421
+    id: 41205
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metagroupid: 5
+    metalevelold: 13
+    name: Tuvan's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    shieldemdamageresonance: 0.8100000023841858
+    shieldexplosivedamageresonance: 0.8100000023841858
+    shieldkineticdamageresonance: 0.8100000023841858
+    shieldthermaldamageresonance: 0.8100000023841858
+    techlevel: 1
+    volume: 5.0
+  41206:
     armoremdamageresonance: 0.800000011920929
     armorexplosivedamageresonance: 0.800000011920929
     armorkineticdamageresonance: 0.800000011920929
@@ -893,7 +596,38 @@ types:
     shieldthermaldamageresonance: 0.8100000023841858
     techlevel: 1
     volume: 5.0
-  Unit P-343554's Modified Damage Control:
+  41207:
+    armoremdamageresonance: 0.7900000214576721
+    armorexplosivedamageresonance: 0.7900000214576721
+    armorkineticdamageresonance: 0.7900000214576721
+    armorthermaldamageresonance: 0.7900000214576721
+    cpu: 34.0
+    hp: 40.0
+    hullemdamageresonance: 0.5
+    hullexplosivedamageresonance: 0.5
+    hullkineticdamageresonance: 0.5
+    hullthermaldamageresonance: 0.5
+    id: 41207
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metagroupid: 5
+    metalevelold: 15
+    name: Setele's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.800000011920929
+    techlevel: 1
+    volume: 5.0
+  41208:
     armoremdamageresonance: 0.7900000214576721
     armorexplosivedamageresonance: 0.7900000214576721
     armorkineticdamageresonance: 0.7900000214576721
@@ -924,7 +658,38 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     techlevel: 1
     volume: 5.0
-  Unit W-634's Modified Damage Control:
+  41210:
+    armoremdamageresonance: 0.7799999713897705
+    armorexplosivedamageresonance: 0.7799999713897705
+    armorkineticdamageresonance: 0.7799999713897705
+    armorthermaldamageresonance: 0.7799999713897705
+    cpu: 36.0
+    hp: 40.0
+    hullemdamageresonance: 0.4749999940395355
+    hullexplosivedamageresonance: 0.4749999940395355
+    hullkineticdamageresonance: 0.4749999940395355
+    hullthermaldamageresonance: 0.4749999940395355
+    id: 41210
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metagroupid: 5
+    metalevelold: 17
+    name: Cormack's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    shieldemdamageresonance: 0.7900000214576721
+    shieldexplosivedamageresonance: 0.7900000214576721
+    shieldkineticdamageresonance: 0.7900000214576721
+    shieldthermaldamageresonance: 0.7900000214576721
+    techlevel: 1
+    volume: 5.0
+  41211:
     armoremdamageresonance: 0.7799999713897705
     armorexplosivedamageresonance: 0.7799999713897705
     armorkineticdamageresonance: 0.7799999713897705
@@ -953,5 +718,240 @@ types:
     shieldexplosivedamageresonance: 0.7900000214576721
     shieldkineticdamageresonance: 0.7900000214576721
     shieldthermaldamageresonance: 0.7900000214576721
+    techlevel: 1
+    volume: 5.0
+  47254:
+    armoremdamageresonance: 0.925000011920929
+    armorexplosivedamageresonance: 0.925000011920929
+    armorkineticdamageresonance: 0.925000011920929
+    armorthermaldamageresonance: 0.925000011920929
+    canfitshipgroup01: 358
+    canfitshipgroup02: 324
+    capacitorneed: 32.0
+    cpu: 28.0
+    disallowrepeatingactivation: 1
+    duration: 8775.0
+    hp: 40.0
+    hullemdamageresonance: 0.75
+    hullexplosivedamageresonance: 0.75
+    hullkineticdamageresonance: 0.75
+    hullthermaldamageresonance: 0.75
+    id: 47254
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    modulereactivationdelay: 150000
+    name: Assault Damage Control I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    resistancemultiplier: 0.25
+    shieldemdamageresonance: 0.949999988079071
+    shieldexplosivedamageresonance: 0.949999988079071
+    shieldkineticdamageresonance: 0.949999988079071
+    shieldthermaldamageresonance: 0.949999988079071
+    techlevel: 1
+    volume: 5.0
+  47255:
+    armoremdamageresonance: 0.925000011920929
+    armorexplosivedamageresonance: 0.925000011920929
+    armorkineticdamageresonance: 0.925000011920929
+    armorthermaldamageresonance: 0.925000011920929
+    canfitshipgroup01: 358
+    canfitshipgroup02: 324
+    capacitorneed: 32.0
+    cpu: 24.0
+    disallowrepeatingactivation: 1
+    duration: 8775.0
+    hp: 40.0
+    hullemdamageresonance: 0.75
+    hullexplosivedamageresonance: 0.75
+    hullkineticdamageresonance: 0.75
+    hullthermaldamageresonance: 0.75
+    id: 47255
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metalevelold: 1
+    modulereactivationdelay: 150000
+    name: EFFA Compact Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    resistancemultiplier: 0.25
+    shieldemdamageresonance: 0.949999988079071
+    shieldexplosivedamageresonance: 0.949999988079071
+    shieldkineticdamageresonance: 0.949999988079071
+    shieldthermaldamageresonance: 0.949999988079071
+    techlevel: 1
+    volume: 5.0
+  47256:
+    armoremdamageresonance: 0.925000011920929
+    armorexplosivedamageresonance: 0.925000011920929
+    armorkineticdamageresonance: 0.925000011920929
+    armorthermaldamageresonance: 0.925000011920929
+    canfitshipgroup01: 358
+    canfitshipgroup02: 324
+    capacitorneed: 26.0
+    cpu: 28.0
+    disallowrepeatingactivation: 1
+    duration: 8775.0
+    hp: 40.0
+    hullemdamageresonance: 0.75
+    hullexplosivedamageresonance: 0.75
+    hullkineticdamageresonance: 0.75
+    hullthermaldamageresonance: 0.75
+    id: 47256
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metalevelold: 1
+    modulereactivationdelay: 150000
+    name: FFR Enduring Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    resistancemultiplier: 0.25
+    shieldemdamageresonance: 0.949999988079071
+    shieldexplosivedamageresonance: 0.949999988079071
+    shieldkineticdamageresonance: 0.949999988079071
+    shieldthermaldamageresonance: 0.949999988079071
+    techlevel: 1
+    volume: 5.0
+  47257:
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.8999999761581421
+    canfitshipgroup01: 358
+    canfitshipgroup02: 324
+    capacitorneed: 35.0
+    cpu: 35.0
+    disallowrepeatingactivation: 1
+    duration: 10125.0
+    hp: 40.0
+    hullemdamageresonance: 0.699999988079071
+    hullexplosivedamageresonance: 0.699999988079071
+    hullkineticdamageresonance: 0.699999988079071
+    hullthermaldamageresonance: 0.699999988079071
+    id: 47257
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metalevelold: 5
+    modulereactivationdelay: 150000
+    name: Assault Damage Control II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    resistancemultiplier: 0.25
+    shieldemdamageresonance: 0.925000011920929
+    shieldexplosivedamageresonance: 0.925000011920929
+    shieldkineticdamageresonance: 0.925000011920929
+    shieldthermaldamageresonance: 0.925000011920929
+    techlevel: 2
+    volume: 5.0
+  47258:
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.8999999761581421
+    canfitshipgroup01: 358
+    canfitshipgroup02: 324
+    capacitorneed: 30.0
+    cpu: 24.0
+    disallowrepeatingactivation: 1
+    duration: 10800.0
+    hp: 40.0
+    hullemdamageresonance: 0.699999988079071
+    hullexplosivedamageresonance: 0.699999988079071
+    hullkineticdamageresonance: 0.699999988079071
+    hullthermaldamageresonance: 0.699999988079071
+    id: 47258
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metagroupid: 4
+    metalevelold: 8
+    modulereactivationdelay: 150000
+    name: Shadow Serpentis Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    resistancemultiplier: 0.25
+    shieldemdamageresonance: 0.925000011920929
+    shieldexplosivedamageresonance: 0.925000011920929
+    shieldkineticdamageresonance: 0.925000011920929
+    shieldthermaldamageresonance: 0.925000011920929
+    techlevel: 1
+    volume: 5.0
+  52227:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    hullemdamageresonance: 1.0
+    hullexplosivedamageresonance: 1.0
+    hullkineticdamageresonance: 1.0
+    hullthermaldamageresonance: 1.0
+    id: 52227
+    maxgroupfitted: 1
+    name: Abyssal Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    techlevel: 1
+    volume: 5.0
+  52230:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    canfitshipgroup01: 324
+    canfitshipgroup02: 358
+    hullemdamageresonance: 1.0
+    hullexplosivedamageresonance: 1.0
+    hullkineticdamageresonance: 1.0
+    hullthermaldamageresonance: 1.0
+    id: 52230
+    maxgroupfitted: 1
+    name: Abyssal Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     techlevel: 1
     volume: 5.0

@@ -1,5 +1,5 @@
 types:
-  Clone Vat Bay I:
+  23735:
     allowsclonejumpswhenactive: 1
     cancloak: 1
     canfitshipgroup01: 883
@@ -28,7 +28,7 @@ types:
     speedfactor: -100.0
     techlevel: 1
     volume: 4000.0
-  Tactical Capsuleer Recloner:
+  56735:
     cancloak: 1
     canfitshipgroup01: 659
     cpu: 100.0

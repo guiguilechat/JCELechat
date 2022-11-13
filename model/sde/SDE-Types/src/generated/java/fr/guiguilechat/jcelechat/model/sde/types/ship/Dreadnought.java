@@ -123,15 +123,19 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtA1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtA2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtA3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtA4;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtC1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtC2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtC3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtG1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtG2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtG3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtG4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtG5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtM1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtM2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtM3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtM4;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtPC1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtPC2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusDreadnoughtPC3;
@@ -513,8 +517,8 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusdreadnoughta1;
+    @DefaultRealValue(0.0)
+    public double shipbonusdreadnoughta1;
     /**
      * Multiplied by Amarr Dreadnought skill level
      */
@@ -530,12 +534,19 @@ public class Dreadnought
     @DefaultIntValue(0)
     public int shipbonusdreadnoughta3;
     /**
-     * Multiplied by Caldari Dreadnought skill level
+     * Multiplied by Amarr Dreadnought skill level
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int shipbonusdreadnoughtc1;
+    public int shipbonusdreadnoughta4;
+    /**
+     * Multiplied by Caldari Dreadnought skill level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusdreadnoughtc1;
     /**
      * Multiplied by Caldari Dreadnought skill level
      */
@@ -572,12 +583,26 @@ public class Dreadnought
     @DefaultIntValue(0)
     public int shipbonusdreadnoughtg3;
     /**
-     * Multiplied by Minmatar Dreadnought skill level
+     * Multiplied by Gallente Dreadnought skill level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusdreadnoughtg4;
+    /**
+     * Multiplied by Gallente Dreadnought skill level
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int shipbonusdreadnoughtm1;
+    public int shipbonusdreadnoughtg5;
+    /**
+     * Multiplied by Minmatar Dreadnought skill level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusdreadnoughtm1;
     /**
      * Multiplied by Minmatar Dreadnought skill level
      */
@@ -592,6 +617,10 @@ public class Dreadnought
     @Stackable(true)
     @DefaultIntValue(0)
     public int shipbonusdreadnoughtm3;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusdreadnoughtm4;
     /**
      * Multiplied by Triglavian Dreadnought skill level
      */
@@ -676,7 +705,7 @@ public class Dreadnought
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, ShipBonusDreadnoughtPC2 .INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ShipBonusDreadnoughtPC1 .INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShipBonusDreadnoughtPC3 .INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, SpecialCorpseHoldCapacity.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusDreadnoughtA1 .INSTANCE, ShipBonusDreadnoughtA2 .INSTANCE, HeatAttenuationMed.INSTANCE, ShipBonusDreadnoughtA3 .INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusDreadnoughtC1 .INSTANCE, ShipBonusDreadnoughtC2 .INSTANCE, ShipBonusDreadnoughtC3 .INSTANCE, ShipBonusDreadnoughtG1 .INSTANCE, ShipBonusDreadnoughtG2 .INSTANCE, ShipBonusDreadnoughtG3 .INSTANCE, ShipBonusDreadnoughtM1 .INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, ShipBonusDreadnoughtM2 .INSTANCE, ShipBonusDreadnoughtM3 .INSTANCE, GfxBoosterID.INSTANCE, IsTitanJumpPortalPassenger.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, ShipBonusDreadnoughtPC2 .INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ShipBonusDreadnoughtPC1 .INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShipBonusDreadnoughtPC3 .INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, ShipBonusDreadnoughtA4 .INSTANCE, ShipBonusDreadnoughtG4 .INSTANCE, ShipBonusDreadnoughtG5 .INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, ShipBonusDreadnoughtM4 .INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, SpecialCorpseHoldCapacity.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusDreadnoughtA1 .INSTANCE, ShipBonusDreadnoughtA2 .INSTANCE, HeatAttenuationMed.INSTANCE, ShipBonusDreadnoughtA3 .INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusDreadnoughtC1 .INSTANCE, ShipBonusDreadnoughtC2 .INSTANCE, ShipBonusDreadnoughtC3 .INSTANCE, ShipBonusDreadnoughtG1 .INSTANCE, ShipBonusDreadnoughtG2 .INSTANCE, ShipBonusDreadnoughtG3 .INSTANCE, ShipBonusDreadnoughtM1 .INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, ShipBonusDreadnoughtM2 .INSTANCE, ShipBonusDreadnoughtM3 .INSTANCE, GfxBoosterID.INSTANCE, IsTitanJumpPortalPassenger.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Dreadnought.MetaGroup METAGROUP = new Dreadnought.MetaGroup();
 
     @Override
@@ -886,6 +915,10 @@ public class Dreadnought
             {
                 return shipbonusdreadnoughta3;
             }
+            case  5214 :
+            {
+                return shipbonusdreadnoughta4;
+            }
             case  2286 :
             {
                 return shipbonusdreadnoughtc1;
@@ -910,6 +943,14 @@ public class Dreadnought
             {
                 return shipbonusdreadnoughtg3;
             }
+            case  5215 :
+            {
+                return shipbonusdreadnoughtg4;
+            }
+            case  5216 :
+            {
+                return shipbonusdreadnoughtg5;
+            }
             case  2292 :
             {
                 return shipbonusdreadnoughtm1;
@@ -921,6 +962,10 @@ public class Dreadnought
             case  2294 :
             {
                 return shipbonusdreadnoughtm3;
+            }
+            case  5248 :
+            {
+                return shipbonusdreadnoughtm4;
             }
             case  2830 :
             {
@@ -991,7 +1036,7 @@ public class Dreadnought
         implements IMetaGroup<Dreadnought>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Dreadnought.yaml";
-        private Map<String, Dreadnought> cache = (null);
+        private Map<Integer, Dreadnought> cache = (null);
 
         @Override
         public IMetaCategory<? super Dreadnought> category() {
@@ -1009,7 +1054,7 @@ public class Dreadnought
         }
 
         @Override
-        public synchronized Map<String, Dreadnought> load() {
+        public synchronized Map<Integer, Dreadnought> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Dreadnought.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1023,7 +1068,7 @@ public class Dreadnought
         }
 
         private static class Container {
-            public LinkedHashMap<String, Dreadnought> types;
+            public LinkedHashMap<Integer, Dreadnought> types;
         }
     }
 }

@@ -868,7 +868,7 @@ public class MissionFactionHaulers
         implements IMetaGroup<MissionFactionHaulers>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionFactionHaulers.yaml";
-        private Map<String, MissionFactionHaulers> cache = (null);
+        private Map<Integer, MissionFactionHaulers> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionFactionHaulers> category() {
@@ -886,7 +886,7 @@ public class MissionFactionHaulers
         }
 
         @Override
-        public synchronized Map<String, MissionFactionHaulers> load() {
+        public synchronized Map<Integer, MissionFactionHaulers> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionFactionHaulers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -900,7 +900,7 @@ public class MissionFactionHaulers
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionFactionHaulers> types;
+            public LinkedHashMap<Integer, MissionFactionHaulers> types;
         }
     }
 }

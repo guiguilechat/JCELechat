@@ -97,7 +97,7 @@ public class AuxiliaryPowerCoreBlueprint
         implements IMetaGroup<AuxiliaryPowerCoreBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/AuxiliaryPowerCoreBlueprint.yaml";
-        private Map<String, AuxiliaryPowerCoreBlueprint> cache = (null);
+        private Map<Integer, AuxiliaryPowerCoreBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super AuxiliaryPowerCoreBlueprint> category() {
@@ -115,7 +115,7 @@ public class AuxiliaryPowerCoreBlueprint
         }
 
         @Override
-        public synchronized Map<String, AuxiliaryPowerCoreBlueprint> load() {
+        public synchronized Map<Integer, AuxiliaryPowerCoreBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AuxiliaryPowerCoreBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class AuxiliaryPowerCoreBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AuxiliaryPowerCoreBlueprint> types;
+            public LinkedHashMap<Integer, AuxiliaryPowerCoreBlueprint> types;
         }
     }
 }

@@ -253,7 +253,7 @@ public class RemoteCapacitorTransmitter
         implements IMetaGroup<RemoteCapacitorTransmitter>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RemoteCapacitorTransmitter.yaml";
-        private Map<String, RemoteCapacitorTransmitter> cache = (null);
+        private Map<Integer, RemoteCapacitorTransmitter> cache = (null);
 
         @Override
         public IMetaCategory<? super RemoteCapacitorTransmitter> category() {
@@ -271,7 +271,7 @@ public class RemoteCapacitorTransmitter
         }
 
         @Override
-        public synchronized Map<String, RemoteCapacitorTransmitter> load() {
+        public synchronized Map<Integer, RemoteCapacitorTransmitter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteCapacitorTransmitter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class RemoteCapacitorTransmitter
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteCapacitorTransmitter> types;
+            public LinkedHashMap<Integer, RemoteCapacitorTransmitter> types;
         }
     }
 }

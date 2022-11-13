@@ -1085,7 +1085,7 @@ public class AsteroidAngelCartelDreadnought
         implements IMetaGroup<AsteroidAngelCartelDreadnought>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidAngelCartelDreadnought.yaml";
-        private Map<String, AsteroidAngelCartelDreadnought> cache = (null);
+        private Map<Integer, AsteroidAngelCartelDreadnought> cache = (null);
 
         @Override
         public IMetaCategory<? super AsteroidAngelCartelDreadnought> category() {
@@ -1103,7 +1103,7 @@ public class AsteroidAngelCartelDreadnought
         }
 
         @Override
-        public synchronized Map<String, AsteroidAngelCartelDreadnought> load() {
+        public synchronized Map<Integer, AsteroidAngelCartelDreadnought> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AsteroidAngelCartelDreadnought.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1117,7 +1117,7 @@ public class AsteroidAngelCartelDreadnought
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidAngelCartelDreadnought> types;
+            public LinkedHashMap<Integer, AsteroidAngelCartelDreadnought> types;
         }
     }
 }

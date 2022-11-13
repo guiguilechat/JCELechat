@@ -1,45 +1,5 @@
 types:
-  Angel Drug Addict Tag:
-    id: 22203
-    mass: 0.10000000149011612
-    name: Angel Drug Addict Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Bandit Spur:
-    id: 20477
-    mass: 1.0
-    name: Bandit Spur
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Black Box:
-    id: 27276
-    mass: 1.0
-    name: Black Box
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Blood Raider Commander's Medalion:
-    id: 23878
-    mass: 0.10000000149011612
-    name: Blood Raider Commander's Medalion
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Desperado Spur:
-    id: 20481
-    mass: 1.0
-    name: Desperado Spur
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Drifter Spur:
+  20476:
     id: 20476
     mass: 1.0
     name: Drifter Spur
@@ -47,31 +7,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Garp Soolim's ID Tag:
-    id: 22095
-    mass: 0.10000000149011612
-    name: Garp Soolim's ID Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Gunslinger Spur:
-    id: 20480
+  20477:
+    id: 20477
     mass: 1.0
-    name: Gunslinger Spur
+    name: Bandit Spur
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Hacker ID Slice:
-    id: 21809
-    mass: 1.0
-    name: Hacker ID Slice
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Marauder Spur:
+  20478:
     id: 20478
     mass: 1.0
     name: Marauder Spur
@@ -79,31 +23,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Mikado ID Slice:
-    id: 21813
-    mass: 1.0
-    name: Mikado ID Slice
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Minmatar Republic Narcotic Officer's Tag:
-    id: 22194
-    mass: 0.10000000149011612
-    name: Minmatar Republic Narcotic Officer's Tag
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Ninja ID Slice:
-    id: 21812
-    mass: 1.0
-    name: Ninja ID Slice
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Outlaw Spur:
+  20479:
     id: 20479
     mass: 1.0
     name: Outlaw Spur
@@ -111,7 +31,23 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Punk ID Slice:
+  20480:
+    id: 20480
+    mass: 1.0
+    name: Gunslinger Spur
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  20481:
+    id: 20481
+    mass: 1.0
+    name: Desperado Spur
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  21808:
     id: 21808
     mass: 1.0
     name: Punk ID Slice
@@ -119,15 +55,23 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Red Hammer's Personal Effects:
-    id: 22204
-    mass: 25.0
-    name: Red Hammer's Personal Effects
-    packagedVolume: 10.0
+  21809:
+    id: 21809
+    mass: 1.0
+    name: Hacker ID Slice
+    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 10.0
-  Sniper ID Slice:
+    volume: 0.10000000149011612
+  21810:
+    id: 21810
+    mass: 1.0
+    name: Spy ID Slice
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  21811:
     id: 21811
     mass: 1.0
     name: Sniper ID Slice
@@ -135,10 +79,66 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Spy ID Slice:
-    id: 21810
+  21812:
+    id: 21812
     mass: 1.0
-    name: Spy ID Slice
+    name: Ninja ID Slice
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  21813:
+    id: 21813
+    mass: 1.0
+    name: Mikado ID Slice
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  22095:
+    id: 22095
+    mass: 0.10000000149011612
+    name: Garp Soolim's ID Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  22194:
+    id: 22194
+    mass: 0.10000000149011612
+    name: Minmatar Republic Narcotic Officer's Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  22203:
+    id: 22203
+    mass: 0.10000000149011612
+    name: Angel Drug Addict Tag
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  22204:
+    id: 22204
+    mass: 25.0
+    name: Red Hammer's Personal Effects
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  23878:
+    id: 23878
+    mass: 0.10000000149011612
+    name: Blood Raider Commander's Medalion
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  27276:
+    id: 27276
+    mass: 1.0
+    name: Black Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

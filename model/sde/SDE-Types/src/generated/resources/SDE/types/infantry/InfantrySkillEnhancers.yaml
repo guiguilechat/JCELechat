@@ -1,415 +1,415 @@
 types:
-  Active Booster (1-Day):
+  354643:
     id: 354643
     name: Active Booster (1-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Active Booster (15-Day):
-    id: 365921
-    name: Active Booster (15-Day)
-    portionSize: 1
-    published: false
-  Active Booster (3-Day):
-    id: 355217
-    name: Active Booster (3-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Booster (30-Day):
-    id: 355561
-    name: Active Booster (30-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Booster (60-Day):
-    id: 365922
-    name: Active Booster (60-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Booster (7-Day):
+  354644:
     id: 354644
     name: Active Booster (7-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Active Booster (90-Day):
-    id: 365923
-    name: Active Booster (90-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Omega-Booster (1-Day):
-    id: 365915
-    name: Active Omega-Booster (1-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Omega-Booster (15-Day):
-    id: 365917
-    name: Active Omega-Booster (15-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Omega-Booster (3-Day):
-    id: 365916
-    name: Active Omega-Booster (3-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Omega-Booster (30-Day):
-    id: 365918
-    name: Active Omega-Booster (30-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Omega-Booster (60-Day):
-    id: 365919
-    name: Active Omega-Booster (60-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Omega-Booster (7-Day):
-    id: 364094
-    name: Active Omega-Booster (7-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Omega-Booster (90-Day):
-    id: 365920
-    name: Active Omega-Booster (90-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Active Omega-Booster NWS (7-Day):
-    id: 369233
-    name: Active Omega-Booster NWS (7-Day)
-    portionSize: 1
-    published: false
-  Active Recruit-Booster (7-Day):
-    id: 364101
-    name: Active Recruit-Booster (7-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Faction Booster Amarr (1-Day):
-    id: 366022
-    name: Faction Booster Amarr (1-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Amarr (15-Day):
-    id: 366231
-    name: Faction Booster Amarr (15-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Amarr (3-Day):
-    id: 366229
-    name: Faction Booster Amarr (3-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Amarr (30-Day):
-    id: 366232
-    name: Faction Booster Amarr (30-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Amarr (60-Day):
-    id: 366233
-    name: Faction Booster Amarr (60-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Amarr (7-Day):
-    id: 366230
-    name: Faction Booster Amarr (7-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Amarr (90-Day):
-    id: 366234
-    name: Faction Booster Amarr (90-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Caldari (1-Day):
-    id: 366023
-    name: Faction Booster Caldari (1-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Caldari (15-Day):
-    id: 366237
-    name: Faction Booster Caldari (15-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Caldari (3-Day):
-    id: 366235
-    name: Faction Booster Caldari (3-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Caldari (30-Day):
-    id: 366238
-    name: Faction Booster Caldari (30-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Caldari (60-Day):
-    id: 366239
-    name: Faction Booster Caldari (60-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Caldari (7-Day):
-    id: 366236
-    name: Faction Booster Caldari (7-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Caldari (90-Day):
-    id: 366240
-    name: Faction Booster Caldari (90-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Gallente (1-Day):
-    id: 366024
-    name: Faction Booster Gallente (1-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Gallente (15-Day):
-    id: 366243
-    name: Faction Booster Gallente (15-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Gallente (3-Day):
-    id: 366241
-    name: Faction Booster Gallente (3-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Gallente (30-Day):
-    id: 366244
-    name: Faction Booster Gallente (30-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Gallente (60-Day):
-    id: 366245
-    name: Faction Booster Gallente (60-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Gallente (7-Day):
-    id: 366242
-    name: Faction Booster Gallente (7-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Gallente (90-Day):
-    id: 366246
-    name: Faction Booster Gallente (90-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Minmatar (1-Day):
-    id: 366025
-    name: Faction Booster Minmatar (1-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Minmatar (15-Day):
-    id: 366249
-    name: Faction Booster Minmatar (15-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Minmatar (3-Day):
-    id: 366247
-    name: Faction Booster Minmatar (3-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Minmatar (30-Day):
-    id: 366250
-    name: Faction Booster Minmatar (30-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Minmatar (60-Day):
-    id: 366251
-    name: Faction Booster Minmatar (60-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Minmatar (7-Day):
-    id: 366248
-    name: Faction Booster Minmatar (7-Day)
-    portionSize: 1
-    published: false
-  Faction Booster Minmatar (90-Day):
-    id: 366252
-    name: Faction Booster Minmatar (90-Day)
-    portionSize: 1
-    published: false
-  Passive Booster (1-Day):
-    id: 365924
-    name: Passive Booster (1-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Passive Booster (15-Day):
+  355210:
     id: 355210
     name: Passive Booster (15-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Passive Booster (15-minute) [QA]:
-    id: 365446
-    name: Passive Booster (15-minute) [QA]
+  355217:
+    id: 355217
+    name: Active Booster (3-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Passive Booster (3-Day):
+  355218:
     id: 355218
     name: Passive Booster (3-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Passive Booster (30-Day):
-    id: 355558
-    name: Passive Booster (30-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Passive Booster (60-Day):
-    id: 365925
-    name: Passive Booster (60-Day)
-    portionSize: 1
-    published: false
-  Passive Booster (7-Day):
+  355219:
     id: 355219
     name: Passive Booster (7-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Passive Booster (90-Day):
-    id: 365926
-    name: Passive Booster (90-Day)
+  355558:
+    id: 355558
+    name: Passive Booster (30-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Passive Omega-Booster (1-Day):
-    id: 365913
-    name: Passive Omega-Booster (1-Day)
+  355561:
+    id: 355561
+    name: Active Booster (30-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Passive Omega-Booster (15-Day):
-    id: 365912
-    name: Passive Omega-Booster (15-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Passive Omega-Booster (3-Day):
-    id: 365914
-    name: Passive Omega-Booster (3-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Passive Omega-Booster (30-Day):
-    id: 365433
-    name: Passive Omega-Booster (30-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Passive Omega-Booster (60-Day):
-    id: 365434
-    name: Passive Omega-Booster (60-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Passive Omega-Booster (7-Day):
-    id: 365909
-    name: Passive Omega-Booster (7-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Passive Omega-Booster (90-Day):
-    id: 365435
-    name: Passive Omega-Booster (90-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Staff Recruiter Active Booster (1-Day):
-    id: 364471
-    name: Staff Recruiter Active Booster (1-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Staff Recruiter Active Booster (15-Day):
-    id: 364478
-    name: Staff Recruiter Active Booster (15-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Staff Recruiter Active Booster (3-Day):
-    id: 364472
-    name: Staff Recruiter Active Booster (3-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Staff Recruiter Active Booster (30-Day):
-    id: 364479
-    name: Staff Recruiter Active Booster (30-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Staff Recruiter Active Booster (7-Day):
-    id: 364477
-    name: Staff Recruiter Active Booster (7-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Universal Voice Transmitter (1-Day):
+  355976:
     id: 355976
     name: Universal Voice Transmitter (1-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Universal Voice Transmitter (3-Day):
+  355977:
     id: 355977
     name: Universal Voice Transmitter (3-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
-  Universal Voice Transmitter (30-Day):
-    id: 355979
-    name: Universal Voice Transmitter (30-Day)
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: false
-    volume: 0.009999999776482582
-  Universal Voice Transmitter (7-Day):
+  355978:
     id: 355978
     name: Universal Voice Transmitter (7-Day)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
     volume: 0.009999999776482582
+  355979:
+    id: 355979
+    name: Universal Voice Transmitter (30-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  364094:
+    id: 364094
+    name: Active Omega-Booster (7-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  364101:
+    id: 364101
+    name: Active Recruit-Booster (7-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  364471:
+    id: 364471
+    name: Staff Recruiter Active Booster (1-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  364472:
+    id: 364472
+    name: Staff Recruiter Active Booster (3-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  364477:
+    id: 364477
+    name: Staff Recruiter Active Booster (7-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  364478:
+    id: 364478
+    name: Staff Recruiter Active Booster (15-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  364479:
+    id: 364479
+    name: Staff Recruiter Active Booster (30-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365433:
+    id: 365433
+    name: Passive Omega-Booster (30-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365434:
+    id: 365434
+    name: Passive Omega-Booster (60-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365435:
+    id: 365435
+    name: Passive Omega-Booster (90-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365446:
+    id: 365446
+    name: Passive Booster (15-minute) [QA]
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365909:
+    id: 365909
+    name: Passive Omega-Booster (7-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365912:
+    id: 365912
+    name: Passive Omega-Booster (15-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365913:
+    id: 365913
+    name: Passive Omega-Booster (1-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365914:
+    id: 365914
+    name: Passive Omega-Booster (3-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365915:
+    id: 365915
+    name: Active Omega-Booster (1-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365916:
+    id: 365916
+    name: Active Omega-Booster (3-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365917:
+    id: 365917
+    name: Active Omega-Booster (15-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365918:
+    id: 365918
+    name: Active Omega-Booster (30-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365919:
+    id: 365919
+    name: Active Omega-Booster (60-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365920:
+    id: 365920
+    name: Active Omega-Booster (90-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365921:
+    id: 365921
+    name: Active Booster (15-Day)
+    portionSize: 1
+    published: false
+  365922:
+    id: 365922
+    name: Active Booster (60-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365923:
+    id: 365923
+    name: Active Booster (90-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365924:
+    id: 365924
+    name: Passive Booster (1-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  365925:
+    id: 365925
+    name: Passive Booster (60-Day)
+    portionSize: 1
+    published: false
+  365926:
+    id: 365926
+    name: Passive Booster (90-Day)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: false
+    volume: 0.009999999776482582
+  366022:
+    id: 366022
+    name: Faction Booster Amarr (1-Day)
+    portionSize: 1
+    published: false
+  366023:
+    id: 366023
+    name: Faction Booster Caldari (1-Day)
+    portionSize: 1
+    published: false
+  366024:
+    id: 366024
+    name: Faction Booster Gallente (1-Day)
+    portionSize: 1
+    published: false
+  366025:
+    id: 366025
+    name: Faction Booster Minmatar (1-Day)
+    portionSize: 1
+    published: false
+  366229:
+    id: 366229
+    name: Faction Booster Amarr (3-Day)
+    portionSize: 1
+    published: false
+  366230:
+    id: 366230
+    name: Faction Booster Amarr (7-Day)
+    portionSize: 1
+    published: false
+  366231:
+    id: 366231
+    name: Faction Booster Amarr (15-Day)
+    portionSize: 1
+    published: false
+  366232:
+    id: 366232
+    name: Faction Booster Amarr (30-Day)
+    portionSize: 1
+    published: false
+  366233:
+    id: 366233
+    name: Faction Booster Amarr (60-Day)
+    portionSize: 1
+    published: false
+  366234:
+    id: 366234
+    name: Faction Booster Amarr (90-Day)
+    portionSize: 1
+    published: false
+  366235:
+    id: 366235
+    name: Faction Booster Caldari (3-Day)
+    portionSize: 1
+    published: false
+  366236:
+    id: 366236
+    name: Faction Booster Caldari (7-Day)
+    portionSize: 1
+    published: false
+  366237:
+    id: 366237
+    name: Faction Booster Caldari (15-Day)
+    portionSize: 1
+    published: false
+  366238:
+    id: 366238
+    name: Faction Booster Caldari (30-Day)
+    portionSize: 1
+    published: false
+  366239:
+    id: 366239
+    name: Faction Booster Caldari (60-Day)
+    portionSize: 1
+    published: false
+  366240:
+    id: 366240
+    name: Faction Booster Caldari (90-Day)
+    portionSize: 1
+    published: false
+  366241:
+    id: 366241
+    name: Faction Booster Gallente (3-Day)
+    portionSize: 1
+    published: false
+  366242:
+    id: 366242
+    name: Faction Booster Gallente (7-Day)
+    portionSize: 1
+    published: false
+  366243:
+    id: 366243
+    name: Faction Booster Gallente (15-Day)
+    portionSize: 1
+    published: false
+  366244:
+    id: 366244
+    name: Faction Booster Gallente (30-Day)
+    portionSize: 1
+    published: false
+  366245:
+    id: 366245
+    name: Faction Booster Gallente (60-Day)
+    portionSize: 1
+    published: false
+  366246:
+    id: 366246
+    name: Faction Booster Gallente (90-Day)
+    portionSize: 1
+    published: false
+  366247:
+    id: 366247
+    name: Faction Booster Minmatar (3-Day)
+    portionSize: 1
+    published: false
+  366248:
+    id: 366248
+    name: Faction Booster Minmatar (7-Day)
+    portionSize: 1
+    published: false
+  366249:
+    id: 366249
+    name: Faction Booster Minmatar (15-Day)
+    portionSize: 1
+    published: false
+  366250:
+    id: 366250
+    name: Faction Booster Minmatar (30-Day)
+    portionSize: 1
+    published: false
+  366251:
+    id: 366251
+    name: Faction Booster Minmatar (60-Day)
+    portionSize: 1
+    published: false
+  366252:
+    id: 366252
+    name: Faction Booster Minmatar (90-Day)
+    portionSize: 1
+    published: false
+  369233:
+    id: 369233
+    name: Active Omega-Booster NWS (7-Day)
+    portionSize: 1
+    published: false

@@ -181,7 +181,7 @@ public class PowerDiagnosticSystem
         implements IMetaGroup<PowerDiagnosticSystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/PowerDiagnosticSystem.yaml";
-        private Map<String, PowerDiagnosticSystem> cache = (null);
+        private Map<Integer, PowerDiagnosticSystem> cache = (null);
 
         @Override
         public IMetaCategory<? super PowerDiagnosticSystem> category() {
@@ -199,7 +199,7 @@ public class PowerDiagnosticSystem
         }
 
         @Override
-        public synchronized Map<String, PowerDiagnosticSystem> load() {
+        public synchronized Map<Integer, PowerDiagnosticSystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PowerDiagnosticSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class PowerDiagnosticSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, PowerDiagnosticSystem> types;
+            public LinkedHashMap<Integer, PowerDiagnosticSystem> types;
         }
     }
 }

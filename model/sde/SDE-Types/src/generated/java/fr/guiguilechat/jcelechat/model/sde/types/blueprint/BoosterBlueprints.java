@@ -83,7 +83,7 @@ public class BoosterBlueprints
         implements IMetaGroup<BoosterBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/BoosterBlueprints.yaml";
-        private Map<String, BoosterBlueprints> cache = (null);
+        private Map<Integer, BoosterBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super BoosterBlueprints> category() {
@@ -101,7 +101,7 @@ public class BoosterBlueprints
         }
 
         @Override
-        public synchronized Map<String, BoosterBlueprints> load() {
+        public synchronized Map<Integer, BoosterBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BoosterBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class BoosterBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, BoosterBlueprints> types;
+            public LinkedHashMap<Integer, BoosterBlueprints> types;
         }
     }
 }

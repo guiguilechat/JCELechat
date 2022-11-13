@@ -277,7 +277,7 @@ public class StructureCombatRigMBoostedSensors
         implements IMetaGroup<StructureCombatRigMBoostedSensors>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigMBoostedSensors.yaml";
-        private Map<String, StructureCombatRigMBoostedSensors> cache = (null);
+        private Map<Integer, StructureCombatRigMBoostedSensors> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigMBoostedSensors> category() {
@@ -295,7 +295,7 @@ public class StructureCombatRigMBoostedSensors
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigMBoostedSensors> load() {
+        public synchronized Map<Integer, StructureCombatRigMBoostedSensors> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigMBoostedSensors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -309,7 +309,7 @@ public class StructureCombatRigMBoostedSensors
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigMBoostedSensors> types;
+            public LinkedHashMap<Integer, StructureCombatRigMBoostedSensors> types;
         }
     }
 }

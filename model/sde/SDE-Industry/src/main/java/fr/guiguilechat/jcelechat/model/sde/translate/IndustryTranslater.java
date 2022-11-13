@@ -233,8 +233,8 @@ public class IndustryTranslater {
 	}
 
 	private static void translateDecryptors(LinkedHashMap<Integer, InventionDecryptor> decryptors) {
-		for (Entry<String, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
-			decryptors.put(e.getValue().id, convertDecryptor(e.getValue()));
+		for (Entry<Integer, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
+			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
 		}
 		InventionDecryptor nullDecryptor = new InventionDecryptor();
 		decryptors.put(0, nullDecryptor);

@@ -32,7 +32,7 @@ public class MicroJumpFieldGeneratorBlueprint
         implements IMetaGroup<MicroJumpFieldGeneratorBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MicroJumpFieldGeneratorBlueprint.yaml";
-        private Map<String, MicroJumpFieldGeneratorBlueprint> cache = (null);
+        private Map<Integer, MicroJumpFieldGeneratorBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MicroJumpFieldGeneratorBlueprint> category() {
@@ -50,7 +50,7 @@ public class MicroJumpFieldGeneratorBlueprint
         }
 
         @Override
-        public synchronized Map<String, MicroJumpFieldGeneratorBlueprint> load() {
+        public synchronized Map<Integer, MicroJumpFieldGeneratorBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MicroJumpFieldGeneratorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class MicroJumpFieldGeneratorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MicroJumpFieldGeneratorBlueprint> types;
+            public LinkedHashMap<Integer, MicroJumpFieldGeneratorBlueprint> types;
         }
     }
 }

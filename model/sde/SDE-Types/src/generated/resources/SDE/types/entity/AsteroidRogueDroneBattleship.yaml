@@ -1,5 +1,5 @@
 types:
-  Domination Drone:
+  25648:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -87,7 +87,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.04800000041723251
     volume: 1010000.0
-  Drone Controller:
+  25650:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -174,7 +174,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.05400000140070915
     volume: 1010000.0
-  Drone Creator:
+  25651:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -261,7 +261,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.04320000112056732
     volume: 1010000.0
-  Drone Queen:
+  25652:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -350,7 +350,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.008999999612569809
     volume: 1010000.0
-  Drone Ruler:
+  25653:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -439,7 +439,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.011250000447034836
     volume: 1010000.0
-  Matriarch Drone:
+  25662:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -527,7 +527,7 @@ types:
     thermaldamage: 32.0
     trackingspeed: 0.008999999612569809
     volume: 1010000.0
-  Patriarch Drone:
+  25665:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -614,7 +614,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.04320000112056732
     volume: 1010000.0
-  Spearhead Drone:
+  25675:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -701,7 +701,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.04800000041723251
     volume: 1010000.0
-  Supreme Drone Parasite:
+  25699:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -789,7 +789,7 @@ types:
     thermaldamage: 32.0
     trackingspeed: 0.011250000447034836
     volume: 1010000.0
-  Swarm Preserver Drone:
+  25700:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

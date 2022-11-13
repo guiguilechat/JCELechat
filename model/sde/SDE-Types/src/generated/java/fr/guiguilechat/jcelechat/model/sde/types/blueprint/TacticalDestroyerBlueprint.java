@@ -97,7 +97,7 @@ public class TacticalDestroyerBlueprint
         implements IMetaGroup<TacticalDestroyerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/TacticalDestroyerBlueprint.yaml";
-        private Map<String, TacticalDestroyerBlueprint> cache = (null);
+        private Map<Integer, TacticalDestroyerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super TacticalDestroyerBlueprint> category() {
@@ -115,7 +115,7 @@ public class TacticalDestroyerBlueprint
         }
 
         @Override
-        public synchronized Map<String, TacticalDestroyerBlueprint> load() {
+        public synchronized Map<Integer, TacticalDestroyerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TacticalDestroyerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class TacticalDestroyerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TacticalDestroyerBlueprint> types;
+            public LinkedHashMap<Integer, TacticalDestroyerBlueprint> types;
         }
     }
 }

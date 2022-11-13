@@ -97,7 +97,7 @@ public class GasHarvesterBlueprint
         implements IMetaGroup<GasHarvesterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/GasHarvesterBlueprint.yaml";
-        private Map<String, GasHarvesterBlueprint> cache = (null);
+        private Map<Integer, GasHarvesterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super GasHarvesterBlueprint> category() {
@@ -115,7 +115,7 @@ public class GasHarvesterBlueprint
         }
 
         @Override
-        public synchronized Map<String, GasHarvesterBlueprint> load() {
+        public synchronized Map<Integer, GasHarvesterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GasHarvesterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class GasHarvesterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, GasHarvesterBlueprint> types;
+            public LinkedHashMap<Integer, GasHarvesterBlueprint> types;
         }
     }
 }

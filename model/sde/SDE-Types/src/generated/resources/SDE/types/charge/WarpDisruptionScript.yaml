@@ -1,5 +1,5 @@
 types:
-  Focused Warp Disruption Script:
+  29003:
     capneedbonus: -60
     durationbonus: -80
     id: 29003
@@ -19,7 +19,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpscramblerangebonus: 50
-  Focused Warp Scrambling Script:
+  45010:
     capneedbonus: -60
     durationbonus: -80
     id: 45010

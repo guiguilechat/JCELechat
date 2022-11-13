@@ -1,35 +1,5 @@
 types:
-  '''Glycerine'' Shield Boost Amplifier Blueprint':
-    id: 20614
-    industryblueprintrank: 6.0
-    name: '''Glycerine'' Shield Boost Amplifier Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Caldari Navy Shield Boost Amplifier Blueprint:
-    id: 15906
-    industryblueprintrank: 6.0
-    name: Caldari Navy Shield Boost Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Republic Fleet Shield Boost Amplifier Blueprint:
-    id: 15908
-    industryblueprintrank: 6.0
-    name: Republic Fleet Shield Boost Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Shield Boost Amplifier I Blueprint:
+  11562:
     id: 11562
     industryblueprintrank: 6.0
     marketGroup: 1552
@@ -41,7 +11,37 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Shield Boost Amplifier II Blueprint:
+  15906:
+    id: 15906
+    industryblueprintrank: 6.0
+    name: Caldari Navy Shield Boost Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  15908:
+    id: 15908
+    industryblueprintrank: 6.0
+    name: Republic Fleet Shield Boost Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  20614:
+    id: 20614
+    industryblueprintrank: 6.0
+    name: '''Glycerine'' Shield Boost Amplifier Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  24444:
     id: 24444
     industryblueprintrank: 15.600000381469727
     name: Shield Boost Amplifier II Blueprint

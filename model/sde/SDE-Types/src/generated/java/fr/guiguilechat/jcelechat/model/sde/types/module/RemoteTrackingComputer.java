@@ -301,7 +301,7 @@ public class RemoteTrackingComputer
         implements IMetaGroup<RemoteTrackingComputer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RemoteTrackingComputer.yaml";
-        private Map<String, RemoteTrackingComputer> cache = (null);
+        private Map<Integer, RemoteTrackingComputer> cache = (null);
 
         @Override
         public IMetaCategory<? super RemoteTrackingComputer> category() {
@@ -319,7 +319,7 @@ public class RemoteTrackingComputer
         }
 
         @Override
-        public synchronized Map<String, RemoteTrackingComputer> load() {
+        public synchronized Map<Integer, RemoteTrackingComputer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteTrackingComputer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -333,7 +333,7 @@ public class RemoteTrackingComputer
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteTrackingComputer> types;
+            public LinkedHashMap<Integer, RemoteTrackingComputer> types;
         }
     }
 }

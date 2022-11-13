@@ -32,7 +32,7 @@ public class Refinables
         implements IMetaGroup<Refinables>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Refinables.yaml";
-        private Map<String, Refinables> cache = (null);
+        private Map<Integer, Refinables> cache = (null);
 
         @Override
         public IMetaCategory<? super Refinables> category() {
@@ -50,7 +50,7 @@ public class Refinables
         }
 
         @Override
-        public synchronized Map<String, Refinables> load() {
+        public synchronized Map<Integer, Refinables> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Refinables.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Refinables
         }
 
         private static class Container {
-            public LinkedHashMap<String, Refinables> types;
+            public LinkedHashMap<Integer, Refinables> types;
         }
     }
 }

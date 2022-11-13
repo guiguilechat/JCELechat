@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Electronic Warfare Projection I:
+  37228:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Electronic Warfare Projection II:
+  37229:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

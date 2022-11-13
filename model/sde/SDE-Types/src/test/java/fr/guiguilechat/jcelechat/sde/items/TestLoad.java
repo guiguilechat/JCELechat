@@ -11,7 +11,7 @@ public class TestLoad {
 
 	@Test
 	public void testLoadAtron() {
-		Frigate atron = Frigate.METAGROUP.load().get("Atron");
+		Frigate atron = Frigate.METAGROUP.load().get(608);
 		Assert.assertEquals(atron.cpuoutput, 147);
 		Assert.assertEquals(atron.hislots, 4);
 		Assert.assertEquals(atron.agility, 2.799999952316284);
@@ -20,13 +20,13 @@ public class TestLoad {
 	@Test
 	public void testLoadAtronFromMetainf() {
 		TypeIndex mi = TypeIndex.load();
-		Assert.assertEquals(mi.name2group.get("Atron"), "ship/Frigate");
-		Assert.assertEquals(TypeIndex.getType("Atron").name, "Atron");
+		Assert.assertEquals(mi.id2group.get(608), "ship/Frigate");
+		Assert.assertEquals(TypeIndex.getType(608).name, "Atron");
 	}
 
 	@Test
 	public void testLoadAtronFromFrigates() {
-		Ship atron = Frigate.METAGROUP.load().get("Atron");
+		Ship atron = Frigate.METAGROUP.load().get(608);
 		Assert.assertEquals(atron.warpspeedmultiplier, 5.0);
 	}
 
@@ -41,7 +41,7 @@ public class TestLoad {
 
 	@Test(dependsOnMethods = "testLoadAtronFromFrigates")
 	public void testLoadAtronFromShips() {
-		Ship atron = Ship.METACAT.load().get("Atron");
+		Ship atron = Ship.METACAT.load().get(608);
 		Assert.assertEquals(atron.warpspeedmultiplier, 5.0);
 	}
 

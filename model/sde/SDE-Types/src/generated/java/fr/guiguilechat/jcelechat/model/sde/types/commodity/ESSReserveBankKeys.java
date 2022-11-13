@@ -32,7 +32,7 @@ public class ESSReserveBankKeys
         implements IMetaGroup<ESSReserveBankKeys>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/ESSReserveBankKeys.yaml";
-        private Map<String, ESSReserveBankKeys> cache = (null);
+        private Map<Integer, ESSReserveBankKeys> cache = (null);
 
         @Override
         public IMetaCategory<? super ESSReserveBankKeys> category() {
@@ -50,7 +50,7 @@ public class ESSReserveBankKeys
         }
 
         @Override
-        public synchronized Map<String, ESSReserveBankKeys> load() {
+        public synchronized Map<Integer, ESSReserveBankKeys> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ESSReserveBankKeys.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class ESSReserveBankKeys
         }
 
         private static class Container {
-            public LinkedHashMap<String, ESSReserveBankKeys> types;
+            public LinkedHashMap<Integer, ESSReserveBankKeys> types;
         }
     }
 }

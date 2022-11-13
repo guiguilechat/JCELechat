@@ -32,7 +32,7 @@ public class MolecularForgedReactionFormulas
         implements IMetaGroup<MolecularForgedReactionFormulas>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MolecularForgedReactionFormulas.yaml";
-        private Map<String, MolecularForgedReactionFormulas> cache = (null);
+        private Map<Integer, MolecularForgedReactionFormulas> cache = (null);
 
         @Override
         public IMetaCategory<? super MolecularForgedReactionFormulas> category() {
@@ -50,7 +50,7 @@ public class MolecularForgedReactionFormulas
         }
 
         @Override
-        public synchronized Map<String, MolecularForgedReactionFormulas> load() {
+        public synchronized Map<Integer, MolecularForgedReactionFormulas> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MolecularForgedReactionFormulas.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class MolecularForgedReactionFormulas
         }
 
         private static class Container {
-            public LinkedHashMap<String, MolecularForgedReactionFormulas> types;
+            public LinkedHashMap<Integer, MolecularForgedReactionFormulas> types;
         }
     }
 }

@@ -1,261 +1,5 @@
 types:
-  Centatis Behemoth:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 1800.0
-    armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
-    armoruniformity: 0.75
-    capacitorcapacity: 975.0
-    capacity: 235.0
-    damagemultiplier: 8.25
-    disallowassistance: 1
-    emdamage: 12.0
-    entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 17700
-    entityattackdelaymin: 4425
-    entityattackrange: 55000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.125
-    entitychasemaxdistance: 33000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 160.0
-    entitydefenderchance: 0.05000000074505806
-    entityequipmentmax: 6
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 22000.0
-    entitykillbounty: 153750
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
-    falloff: 8000.0
-    gfxboosterid: 394
-    gfxturretid: 459
-    hp: 1500.0
-    id: 24023
-    mass: 1.001E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 1
-    maxrange: 20000.0
-    maxvelocity: 320.0
-    mintargetveldmgmultiplier: 0.25
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
-    missilelaunchduration: 1.0
-    modifytargetspeedduration: 5000.0
-    name: Centatis Behemoth
-    optimalsigradius: 125
-    packagedVolume: 100100.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanradarstrength: 20.0
-    scanresolution: 200.0
-    scanspeed: 5000
-    shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.5
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
-    shielduniformity: 0.75
-    signatureradius: 275.0
-    speed: 3000.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 10.0
-    trackingspeed: 0.032999999821186066
-    volume: 100100.0
-  Centatis Daemon:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 1800.0
-    armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
-    armoruniformity: 0.75
-    capacitorcapacity: 950.0
-    capacity: 235.0
-    damagemultiplier: 5.625
-    disallowassistance: 1
-    emdamage: 12.0
-    entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 18000
-    entityattackdelaymin: 4500
-    entityattackrange: 75000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 19000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 160.0
-    entitydefenderchance: 0.04749999940395355
-    entityequipmentmax: 5
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 9500.0
-    entitykillbounty: 146250
-    entitylootcountmin: 1
-    entitymissiletypeid: 207
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
-    falloff: 4000.0
-    gfxboosterid: 394
-    gfxturretid: 456
-    hp: 1500.0
-    id: 24022
-    mass: 1.001E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 1
-    maxrange: 8500.0
-    maxvelocity: 320.0
-    mintargetveldmgmultiplier: 0.25
-    missileentityaoecloudsizemultiplier: 0.8360999822616577
-    missileentityaoevelocitymultiplier: 1.3278000354766846
-    missileentityflighttimemultiplier: 1.3278000354766846
-    missileentityvelocitymultiplier: 1.3278000354766846
-    missilelaunchduration: 17500.0
-    modifytargetspeedduration: 5000.0
-    name: Centatis Daemon
-    optimalsigradius: 125
-    packagedVolume: 100100.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanradarstrength: 20.0
-    scanresolution: 200.0
-    scanspeed: 5000
-    shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.5
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
-    shielduniformity: 0.75
-    signatureradius: 275.0
-    speed: 2500.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 10.0
-    trackingspeed: 0.06499999761581421
-    volume: 100100.0
-  Centatis Devil:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 1800.0
-    armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
-    armoruniformity: 0.75
-    capacitorcapacity: 925.0
-    capacity: 235.0
-    damagemultiplier: 8.199999809265137
-    disallowassistance: 1
-    emdamage: 10.0
-    entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 18300
-    entityattackdelaymin: 4575
-    entityattackrange: 55000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.125
-    entitychasemaxdistance: 33000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 160.0
-    entitydefenderchance: 0.04500000178813934
-    entityequipmentmax: 5
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 22000.0
-    entitykillbounty: 142500
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6399999856948853
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07874999940395355
-    falloff: 8000.0
-    gfxboosterid: 394
-    gfxturretid: 459
-    hp: 1500.0
-    id: 24021
-    mass: 1.001E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 1
-    maxrange: 20000.0
-    maxvelocity: 320.0
-    mintargetveldmgmultiplier: 0.25
-    missileentityaoecloudsizemultiplier: 0.8402000069618225
-    missileentityaoevelocitymultiplier: 1.319599986076355
-    missileentityflighttimemultiplier: 1.319599986076355
-    missileentityvelocitymultiplier: 1.319599986076355
-    missilelaunchduration: 1.0
-    modifytargetspeedduration: 5000.0
-    name: Centatis Devil
-    optimalsigradius: 125
-    packagedVolume: 100100.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanradarstrength: 19.0
-    scanresolution: 200.0
-    scanspeed: 5000
-    shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.5
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
-    shielduniformity: 0.75
-    signatureradius: 275.0
-    speed: 3000.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 10.0
-    trackingspeed: 0.032999999821186066
-    volume: 100100.0
-  Centatis Phantasm:
+  24002:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -341,7 +85,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.06499999761581421
     volume: 100100.0
-  Centatis Specter:
+  24019:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -426,7 +170,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.032999999821186066
     volume: 100100.0
-  Centatis Wraith:
+  24020:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -512,178 +256,7 @@ types:
     thermaldamage: 10.0
     trackingspeed: 0.06499999761581421
     volume: 100100.0
-  True Centatis Behemoth:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 1800.0
-    armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
-    armoruniformity: 0.75
-    capacitorcapacity: 975.0
-    capacity: 235.0
-    damagemultiplier: 10.3125
-    disallowassistance: 1
-    emdamage: 12.0
-    entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 17700
-    entityattackdelaymin: 4425
-    entityattackrange: 55000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.125
-    entitychasemaxdistance: 33000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 160.0
-    entitydefenderchance: 0.0625
-    entityequipmentmax: 6
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 22000.0
-    entitykillbounty: 172500
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08874999731779099
-    falloff: 10000.0
-    gfxboosterid: 394
-    gfxturretid: 459
-    hp: 1500.0
-    id: 24198
-    mass: 1.001E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 1
-    maxrange: 25000.0
-    maxvelocity: 320.0
-    mintargetveldmgmultiplier: 0.25
-    missileentityaoecloudsizemultiplier: 0.6200000047683716
-    missileentityaoevelocitymultiplier: 1.6699999570846558
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
-    missilelaunchduration: 1.0
-    modifytargetspeedduration: 5000.0
-    name: True Centatis Behemoth
-    optimalsigradius: 125
-    packagedVolume: 100100.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanradarstrength: 20.0
-    scanresolution: 200.0
-    scanspeed: 5000
-    shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.5
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
-    shielduniformity: 0.75
-    signatureradius: 275.0
-    speed: 3000.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 10.0
-    trackingspeed: 0.04125000163912773
-    volume: 100100.0
-  True Centatis Daemon:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 1800.0
-    armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
-    armoruniformity: 0.75
-    capacitorcapacity: 950.0
-    capacity: 235.0
-    damagemultiplier: 7.03125
-    disallowassistance: 1
-    emdamage: 12.0
-    entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 18000
-    entityattackdelaymin: 4500
-    entityattackrange: 75000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 19000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 160.0
-    entitydefenderchance: 0.05937499925494194
-    entityequipmentmax: 6
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 9500.0
-    entitykillbounty: 168750
-    entitylootcountmin: 1
-    entitymissiletypeid: 207
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08749999850988388
-    falloff: 5000.0
-    gfxboosterid: 394
-    gfxturretid: 458
-    hp: 1500.0
-    id: 24197
-    mass: 1.001E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 1
-    maxrange: 10625.0
-    maxvelocity: 320.0
-    mintargetveldmgmultiplier: 0.25
-    missileentityaoecloudsizemultiplier: 0.6299999952316284
-    missileentityaoevelocitymultiplier: 1.659999966621399
-    missileentityflighttimemultiplier: 1.3278000354766846
-    missileentityvelocitymultiplier: 1.3278000354766846
-    missilelaunchduration: 14000.0
-    modifytargetspeedduration: 5000.0
-    name: True Centatis Daemon
-    optimalsigradius: 125
-    packagedVolume: 100100.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanradarstrength: 20.0
-    scanresolution: 200.0
-    scanspeed: 5000
-    shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.5
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
-    shielduniformity: 0.75
-    signatureradius: 275.0
-    speed: 2500.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 10.0
-    trackingspeed: 0.08124999701976776
-    volume: 100100.0
-  True Centatis Devil:
+  24021:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -697,10 +270,10 @@ types:
     armoruniformity: 0.75
     capacitorcapacity: 925.0
     capacity: 235.0
-    damagemultiplier: 10.25
+    damagemultiplier: 8.199999809265137
     disallowassistance: 1
     emdamage: 10.0
-    entityarmorrepairamount: 375.0
+    entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -714,36 +287,36 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.05624999850988388
-    entityequipmentmax: 6
+    entitydefenderchance: 0.04500000178813934
+    entityequipmentmax: 5
     entityequipmentmin: -5
     entityfactionloss: 0.008999999612569809
     entityflyrange: 22000.0
-    entitykillbounty: 165000
+    entitykillbounty: 142500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6399999856948853
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08624999970197678
-    falloff: 10000.0
+    entitysecuritystatuskillbonus: 0.07874999940395355
+    falloff: 8000.0
     gfxboosterid: 394
     gfxturretid: 459
     hp: 1500.0
-    id: 24196
+    id: 24021
     mass: 1.001E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
-    maxrange: 25000.0
+    maxrange: 20000.0
     maxvelocity: 320.0
     mintargetveldmgmultiplier: 0.25
-    missileentityaoecloudsizemultiplier: 0.6299999952316284
-    missileentityaoevelocitymultiplier: 1.649999976158142
+    missileentityaoecloudsizemultiplier: 0.8402000069618225
+    missileentityaoevelocitymultiplier: 1.319599986076355
     missileentityflighttimemultiplier: 1.319599986076355
     missileentityvelocitymultiplier: 1.319599986076355
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
-    name: True Centatis Devil
+    name: Centatis Devil
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -766,9 +339,180 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.04125000163912773
+    trackingspeed: 0.032999999821186066
     volume: 100100.0
-  True Centatis Phantasm:
+  24022:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 1800.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    capacitorcapacity: 950.0
+    capacity: 235.0
+    damagemultiplier: 5.625
+    disallowassistance: 1
+    emdamage: 12.0
+    entityarmorrepairamount: 300.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 18000
+    entityattackdelaymin: 4500
+    entityattackrange: 75000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 19000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 160.0
+    entitydefenderchance: 0.04749999940395355
+    entityequipmentmax: 5
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 9500.0
+    entitykillbounty: 146250
+    entitylootcountmin: 1
+    entitymissiletypeid: 207
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6499999761581421
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.07999999821186066
+    falloff: 4000.0
+    gfxboosterid: 394
+    gfxturretid: 456
+    hp: 1500.0
+    id: 24022
+    mass: 1.001E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 1
+    maxrange: 8500.0
+    maxvelocity: 320.0
+    mintargetveldmgmultiplier: 0.25
+    missileentityaoecloudsizemultiplier: 0.8360999822616577
+    missileentityaoevelocitymultiplier: 1.3278000354766846
+    missileentityflighttimemultiplier: 1.3278000354766846
+    missileentityvelocitymultiplier: 1.3278000354766846
+    missilelaunchduration: 17500.0
+    modifytargetspeedduration: 5000.0
+    name: Centatis Daemon
+    optimalsigradius: 125
+    packagedVolume: 100100.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanradarstrength: 20.0
+    scanresolution: 200.0
+    scanspeed: 5000
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 275.0
+    speed: 2500.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 10.0
+    trackingspeed: 0.06499999761581421
+    volume: 100100.0
+  24023:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 1800.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    capacitorcapacity: 975.0
+    capacity: 235.0
+    damagemultiplier: 8.25
+    disallowassistance: 1
+    emdamage: 12.0
+    entityarmorrepairamount: 300.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 17700
+    entityattackdelaymin: 4425
+    entityattackrange: 55000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.125
+    entitychasemaxdistance: 33000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 160.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentmax: 6
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 22000.0
+    entitykillbounty: 153750
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6600000262260437
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08250000327825546
+    falloff: 8000.0
+    gfxboosterid: 394
+    gfxturretid: 459
+    hp: 1500.0
+    id: 24023
+    mass: 1.001E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 1
+    maxrange: 20000.0
+    maxvelocity: 320.0
+    mintargetveldmgmultiplier: 0.25
+    missileentityaoecloudsizemultiplier: 0.8320000171661377
+    missileentityaoevelocitymultiplier: 1.3359999656677246
+    missileentityflighttimemultiplier: 1.3359999656677246
+    missileentityvelocitymultiplier: 1.3359999656677246
+    missilelaunchduration: 1.0
+    modifytargetspeedduration: 5000.0
+    name: Centatis Behemoth
+    optimalsigradius: 125
+    packagedVolume: 100100.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanradarstrength: 20.0
+    scanresolution: 200.0
+    scanspeed: 5000
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 275.0
+    speed: 3000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 10.0
+    trackingspeed: 0.032999999821186066
+    volume: 100100.0
+  24193:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -854,7 +598,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.08124999701976776
     volume: 100100.0
-  True Centatis Specter:
+  24194:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -939,7 +683,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.04125000163912773
     volume: 100100.0
-  True Centatis Wraith:
+  24195:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1024,4 +768,260 @@ types:
     structureuniformity: 1.0
     thermaldamage: 10.0
     trackingspeed: 0.08124999701976776
+    volume: 100100.0
+  24196:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 1800.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    capacitorcapacity: 925.0
+    capacity: 235.0
+    damagemultiplier: 10.25
+    disallowassistance: 1
+    emdamage: 10.0
+    entityarmorrepairamount: 375.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 18300
+    entityattackdelaymin: 4575
+    entityattackrange: 55000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.125
+    entitychasemaxdistance: 33000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 160.0
+    entitydefenderchance: 0.05624999850988388
+    entityequipmentmax: 6
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 22000.0
+    entitykillbounty: 165000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6399999856948853
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08624999970197678
+    falloff: 10000.0
+    gfxboosterid: 394
+    gfxturretid: 459
+    hp: 1500.0
+    id: 24196
+    mass: 1.001E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 1
+    maxrange: 25000.0
+    maxvelocity: 320.0
+    mintargetveldmgmultiplier: 0.25
+    missileentityaoecloudsizemultiplier: 0.6299999952316284
+    missileentityaoevelocitymultiplier: 1.649999976158142
+    missileentityflighttimemultiplier: 1.319599986076355
+    missileentityvelocitymultiplier: 1.319599986076355
+    missilelaunchduration: 1.0
+    modifytargetspeedduration: 5000.0
+    name: True Centatis Devil
+    optimalsigradius: 125
+    packagedVolume: 100100.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanradarstrength: 19.0
+    scanresolution: 200.0
+    scanspeed: 5000
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 275.0
+    speed: 3000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 10.0
+    trackingspeed: 0.04125000163912773
+    volume: 100100.0
+  24197:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 1800.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    capacitorcapacity: 950.0
+    capacity: 235.0
+    damagemultiplier: 7.03125
+    disallowassistance: 1
+    emdamage: 12.0
+    entityarmorrepairamount: 375.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 18000
+    entityattackdelaymin: 4500
+    entityattackrange: 75000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 19000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 160.0
+    entitydefenderchance: 0.05937499925494194
+    entityequipmentmax: 6
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 9500.0
+    entitykillbounty: 168750
+    entitylootcountmin: 1
+    entitymissiletypeid: 207
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6499999761581421
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08749999850988388
+    falloff: 5000.0
+    gfxboosterid: 394
+    gfxturretid: 458
+    hp: 1500.0
+    id: 24197
+    mass: 1.001E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 1
+    maxrange: 10625.0
+    maxvelocity: 320.0
+    mintargetveldmgmultiplier: 0.25
+    missileentityaoecloudsizemultiplier: 0.6299999952316284
+    missileentityaoevelocitymultiplier: 1.659999966621399
+    missileentityflighttimemultiplier: 1.3278000354766846
+    missileentityvelocitymultiplier: 1.3278000354766846
+    missilelaunchduration: 14000.0
+    modifytargetspeedduration: 5000.0
+    name: True Centatis Daemon
+    optimalsigradius: 125
+    packagedVolume: 100100.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanradarstrength: 20.0
+    scanresolution: 200.0
+    scanspeed: 5000
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 275.0
+    speed: 2500.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 10.0
+    trackingspeed: 0.08124999701976776
+    volume: 100100.0
+  24198:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 1800.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    capacitorcapacity: 975.0
+    capacity: 235.0
+    damagemultiplier: 10.3125
+    disallowassistance: 1
+    emdamage: 12.0
+    entityarmorrepairamount: 375.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 17700
+    entityattackdelaymin: 4425
+    entityattackrange: 55000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.125
+    entitychasemaxdistance: 33000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 160.0
+    entitydefenderchance: 0.0625
+    entityequipmentmax: 6
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 22000.0
+    entitykillbounty: 172500
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6600000262260437
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08874999731779099
+    falloff: 10000.0
+    gfxboosterid: 394
+    gfxturretid: 459
+    hp: 1500.0
+    id: 24198
+    mass: 1.001E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 1
+    maxrange: 25000.0
+    maxvelocity: 320.0
+    mintargetveldmgmultiplier: 0.25
+    missileentityaoecloudsizemultiplier: 0.6200000047683716
+    missileentityaoevelocitymultiplier: 1.6699999570846558
+    missileentityflighttimemultiplier: 1.3359999656677246
+    missileentityvelocitymultiplier: 1.3359999656677246
+    missilelaunchduration: 1.0
+    modifytargetspeedduration: 5000.0
+    name: True Centatis Behemoth
+    optimalsigradius: 125
+    packagedVolume: 100100.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanradarstrength: 20.0
+    scanresolution: 200.0
+    scanspeed: 5000
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 275.0
+    speed: 3000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 10.0
+    trackingspeed: 0.04125000163912773
     volume: 100100.0

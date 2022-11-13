@@ -1,25 +1,5 @@
 types:
-  '''Enterprise'' Remote Tracking Computer Blueprint':
-    id: 22938
-    industryblueprintrank: 6.0
-    name: '''Enterprise'' Remote Tracking Computer Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Federation Navy Remote Tracking Computer  Blueprint:
-    id: 15968
-    industryblueprintrank: 6.0
-    name: Federation Navy Remote Tracking Computer  Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Remote Tracking Computer I Blueprint:
+  11617:
     id: 11617
     industryblueprintrank: 6.0
     marketGroup: 343
@@ -31,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Remote Tracking Computer II Blueprint:
+  11851:
     id: 11851
     industryblueprintrank: 15.600000381469727
     name: Remote Tracking Computer II Blueprint
@@ -41,4 +21,24 @@ types:
     published: true
     radius: 1.0
     techlevel: 2
+    volume: 0.009999999776482582
+  15968:
+    id: 15968
+    industryblueprintrank: 6.0
+    name: Federation Navy Remote Tracking Computer  Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  22938:
+    id: 22938
+    industryblueprintrank: 6.0
+    name: '''Enterprise'' Remote Tracking Computer Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582

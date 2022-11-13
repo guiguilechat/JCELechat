@@ -83,7 +83,7 @@ public class MobileSiphonUnitBlueprint
         implements IMetaGroup<MobileSiphonUnitBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileSiphonUnitBlueprint.yaml";
-        private Map<String, MobileSiphonUnitBlueprint> cache = (null);
+        private Map<Integer, MobileSiphonUnitBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileSiphonUnitBlueprint> category() {
@@ -101,7 +101,7 @@ public class MobileSiphonUnitBlueprint
         }
 
         @Override
-        public synchronized Map<String, MobileSiphonUnitBlueprint> load() {
+        public synchronized Map<Integer, MobileSiphonUnitBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileSiphonUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class MobileSiphonUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileSiphonUnitBlueprint> types;
+            public LinkedHashMap<Integer, MobileSiphonUnitBlueprint> types;
         }
     }
 }

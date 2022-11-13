@@ -109,7 +109,7 @@ public class MiningBargeBlueprint
         implements IMetaGroup<MiningBargeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MiningBargeBlueprint.yaml";
-        private Map<String, MiningBargeBlueprint> cache = (null);
+        private Map<Integer, MiningBargeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningBargeBlueprint> category() {
@@ -127,7 +127,7 @@ public class MiningBargeBlueprint
         }
 
         @Override
-        public synchronized Map<String, MiningBargeBlueprint> load() {
+        public synchronized Map<Integer, MiningBargeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningBargeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -141,7 +141,7 @@ public class MiningBargeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningBargeBlueprint> types;
+            public LinkedHashMap<Integer, MiningBargeBlueprint> types;
         }
     }
 }

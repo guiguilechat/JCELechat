@@ -181,7 +181,7 @@ public class ReactorControlUnit
         implements IMetaGroup<ReactorControlUnit>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ReactorControlUnit.yaml";
-        private Map<String, ReactorControlUnit> cache = (null);
+        private Map<Integer, ReactorControlUnit> cache = (null);
 
         @Override
         public IMetaCategory<? super ReactorControlUnit> category() {
@@ -199,7 +199,7 @@ public class ReactorControlUnit
         }
 
         @Override
-        public synchronized Map<String, ReactorControlUnit> load() {
+        public synchronized Map<Integer, ReactorControlUnit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ReactorControlUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class ReactorControlUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, ReactorControlUnit> types;
+            public LinkedHashMap<Integer, ReactorControlUnit> types;
         }
     }
 }

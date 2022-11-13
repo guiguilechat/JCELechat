@@ -97,7 +97,7 @@ public class RemoteCapacitorTransmitterBlueprint
         implements IMetaGroup<RemoteCapacitorTransmitterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/RemoteCapacitorTransmitterBlueprint.yaml";
-        private Map<String, RemoteCapacitorTransmitterBlueprint> cache = (null);
+        private Map<Integer, RemoteCapacitorTransmitterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super RemoteCapacitorTransmitterBlueprint> category() {
@@ -115,7 +115,7 @@ public class RemoteCapacitorTransmitterBlueprint
         }
 
         @Override
-        public synchronized Map<String, RemoteCapacitorTransmitterBlueprint> load() {
+        public synchronized Map<Integer, RemoteCapacitorTransmitterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteCapacitorTransmitterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class RemoteCapacitorTransmitterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteCapacitorTransmitterBlueprint> types;
+            public LinkedHashMap<Integer, RemoteCapacitorTransmitterBlueprint> types;
         }
     }
 }

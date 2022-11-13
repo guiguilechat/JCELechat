@@ -97,7 +97,7 @@ public class SurveyScannerBlueprint
         implements IMetaGroup<SurveyScannerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SurveyScannerBlueprint.yaml";
-        private Map<String, SurveyScannerBlueprint> cache = (null);
+        private Map<Integer, SurveyScannerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SurveyScannerBlueprint> category() {
@@ -115,7 +115,7 @@ public class SurveyScannerBlueprint
         }
 
         @Override
-        public synchronized Map<String, SurveyScannerBlueprint> load() {
+        public synchronized Map<Integer, SurveyScannerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SurveyScannerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class SurveyScannerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyScannerBlueprint> types;
+            public LinkedHashMap<Integer, SurveyScannerBlueprint> types;
         }
     }
 }

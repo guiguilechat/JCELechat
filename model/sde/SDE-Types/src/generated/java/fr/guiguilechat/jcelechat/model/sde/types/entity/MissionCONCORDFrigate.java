@@ -1085,7 +1085,7 @@ public class MissionCONCORDFrigate
         implements IMetaGroup<MissionCONCORDFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionCONCORDFrigate.yaml";
-        private Map<String, MissionCONCORDFrigate> cache = (null);
+        private Map<Integer, MissionCONCORDFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionCONCORDFrigate> category() {
@@ -1103,7 +1103,7 @@ public class MissionCONCORDFrigate
         }
 
         @Override
-        public synchronized Map<String, MissionCONCORDFrigate> load() {
+        public synchronized Map<Integer, MissionCONCORDFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionCONCORDFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1117,7 +1117,7 @@ public class MissionCONCORDFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionCONCORDFrigate> types;
+            public LinkedHashMap<Integer, MissionCONCORDFrigate> types;
         }
     }
 }

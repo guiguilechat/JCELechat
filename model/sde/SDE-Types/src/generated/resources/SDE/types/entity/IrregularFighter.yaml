@@ -1,5 +1,5 @@
 types:
-  Guardian Angels Cherubim:
+  47276:
     agility: 0.9900000095367432
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 1.0
@@ -45,7 +45,7 @@ types:
     speed: 2000.0
     trackingspeed: 1.0
     volume: 5000.0
-  Serpentis Inquest Viper:
+  47277:
     agility: 0.9900000095367432
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.4000000059604645

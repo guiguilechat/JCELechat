@@ -173,7 +173,7 @@ public class RigLauncher
         implements IMetaGroup<RigLauncher>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigLauncher.yaml";
-        private Map<String, RigLauncher> cache = (null);
+        private Map<Integer, RigLauncher> cache = (null);
 
         @Override
         public IMetaCategory<? super RigLauncher> category() {
@@ -191,7 +191,7 @@ public class RigLauncher
         }
 
         @Override
-        public synchronized Map<String, RigLauncher> load() {
+        public synchronized Map<Integer, RigLauncher> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -205,7 +205,7 @@ public class RigLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigLauncher> types;
+            public LinkedHashMap<Integer, RigLauncher> types;
         }
     }
 }

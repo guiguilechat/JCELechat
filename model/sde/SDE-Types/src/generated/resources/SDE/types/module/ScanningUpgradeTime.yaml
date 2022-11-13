@@ -1,5 +1,5 @@
 types:
-  Scan Acquisition Array I:
+  33176:
     capacity: 1.0
     cpu: 30.0
     hp: 40.0
@@ -19,7 +19,7 @@ types:
     scandurationbonus: -10
     techlevel: 1
     volume: 5.0
-  Scan Acquisition Array II:
+  33197:
     capacity: 1.0
     cpu: 30.0
     hp: 40.0

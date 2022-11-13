@@ -374,8 +374,8 @@ public class Logistics
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5)
-    public int shipbonuscc;
+    @DefaultRealValue(5.0)
+    public double shipbonuscc;
     /**
      * 
      */
@@ -667,7 +667,7 @@ public class Logistics
         implements IMetaGroup<Logistics>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Logistics.yaml";
-        private Map<String, Logistics> cache = (null);
+        private Map<Integer, Logistics> cache = (null);
 
         @Override
         public IMetaCategory<? super Logistics> category() {
@@ -685,7 +685,7 @@ public class Logistics
         }
 
         @Override
-        public synchronized Map<String, Logistics> load() {
+        public synchronized Map<Integer, Logistics> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Logistics.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -699,7 +699,7 @@ public class Logistics
         }
 
         private static class Container {
-            public LinkedHashMap<String, Logistics> types;
+            public LinkedHashMap<Integer, Logistics> types;
         }
     }
 }

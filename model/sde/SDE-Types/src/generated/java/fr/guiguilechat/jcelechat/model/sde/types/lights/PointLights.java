@@ -32,7 +32,7 @@ public class PointLights
         implements IMetaGroup<PointLights>
     {
         public static final String RESOURCE_PATH = "SDE/types/lights/PointLights.yaml";
-        private Map<String, PointLights> cache = (null);
+        private Map<Integer, PointLights> cache = (null);
 
         @Override
         public IMetaCategory<? super PointLights> category() {
@@ -50,7 +50,7 @@ public class PointLights
         }
 
         @Override
-        public synchronized Map<String, PointLights> load() {
+        public synchronized Map<Integer, PointLights> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PointLights.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PointLights
         }
 
         private static class Container {
-            public LinkedHashMap<String, PointLights> types;
+            public LinkedHashMap<Integer, PointLights> types;
         }
     }
 }

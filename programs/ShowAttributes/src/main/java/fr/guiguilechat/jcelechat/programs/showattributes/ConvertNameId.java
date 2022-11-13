@@ -293,7 +293,7 @@ public class ConvertNameId {
 					;
 	//@formatter:on
 	public static void main(String[] args) throws IOException {
-		Map<String, EveType> map = Stream.of(in.split("\n")).map(TypeIndex::getType)
+		Map<String, EveType> map = Stream.of(in.split("\n")).map(TypeIndex::getTypes).map(l -> l.get(0))
 				.filter(Objects::nonNull)
 				.collect(Collectors.toMap(t -> t.name, t -> t));
 		StringBuilder sb = null;

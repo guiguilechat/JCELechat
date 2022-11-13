@@ -1,5 +1,5 @@
 types:
-  '''Basic'' Inertial Stabilizers':
+  1401:
     agilitymultiplier: -14.0
     hp: 40.0
     id: 1401
@@ -17,25 +17,7 @@ types:
     signatureradiusbonus: 5.0
     techlevel: 1
     volume: 5.0
-  Domination Inertial Stabilizers:
-    agilitymultiplier: -20.5
-    hp: 40.0
-    id: 34481
-    marketGroup: 1086
-    mass: 200.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Domination Inertial Stabilizers
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    signatureradiusbonus: 7.0
-    techlevel: 1
-    volume: 5.0
-  Inertial Stabilizers I:
+  1403:
     agilitymultiplier: -16.75
     hp: 40.0
     id: 1403
@@ -51,7 +33,7 @@ types:
     signatureradiusbonus: 10.0
     techlevel: 1
     volume: 5.0
-  Inertial Stabilizers II:
+  1405:
     agilitymultiplier: -20.0
     hp: 40.0
     id: 1405
@@ -68,25 +50,24 @@ types:
     signatureradiusbonus: 11.0
     techlevel: 2
     volume: 5.0
-  Shadow Serpentis Inertial Stabilizers:
-    agilitymultiplier: -21.5
+  5533:
+    agilitymultiplier: -18.5
     hp: 40.0
-    id: 34483
+    id: 5533
     marketGroup: 1086
     mass: 200.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Shadow Serpentis Inertial Stabilizers
+    metalevelold: 1
+    name: Type-D Restrained Inertial Stabilizers
     packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
+    radius: 100.0
     requiredskill1: 3394
     requiredskill1level: 1
-    signatureradiusbonus: 10.0
+    signatureradiusbonus: 8.0
     techlevel: 1
     volume: 5.0
-  Synthetic Hull Conversion Inertia Stabilizers:
+  21498:
     agilitymultiplier: -20.0
     hp: 40.0
     id: 21498
@@ -104,20 +85,39 @@ types:
     signatureradiusbonus: 6.0
     techlevel: 1
     volume: 5.0
-  Type-D Restrained Inertial Stabilizers:
-    agilitymultiplier: -18.5
+  34481:
+    agilitymultiplier: -20.5
     hp: 40.0
-    id: 5533
+    id: 34481
     marketGroup: 1086
     mass: 200.0
-    metalevelold: 1
-    name: Type-D Restrained Inertial Stabilizers
+    metagroupid: 4
+    metalevelold: 8
+    name: Domination Inertial Stabilizers
     packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 100.0
+    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
-    signatureradiusbonus: 8.0
+    signatureradiusbonus: 7.0
+    techlevel: 1
+    volume: 5.0
+  34483:
+    agilitymultiplier: -21.5
+    hp: 40.0
+    id: 34483
+    marketGroup: 1086
+    mass: 200.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Shadow Serpentis Inertial Stabilizers
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    signatureradiusbonus: 10.0
     techlevel: 1
     volume: 5.0

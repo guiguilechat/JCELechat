@@ -1,5 +1,5 @@
 types:
-  Standup Remote Sensor Dampener I:
+  35941:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -24,82 +24,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Remote Sensor Dampener II:
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    capacitorneed: 480.0
-    cpu: 1800.0
-    duration: 5000.0
-    falloffeffectiveness: 180000
-    hp: 40.0
-    id: 47368
-    marketGroup: 2212
-    mass: 500.0
-    maxrange: 90000.0
-    maxtargetrangebonus: -61.0
-    metalevelold: 5
-    name: Standup Remote Sensor Dampener II
-    packagedVolume: 4000.0
-    portionSize: 1
-    power: 60000
-    published: true
-    radius: 1.0
-    remoteresistanceid: 2112
-    scanresolutionbonus: -61.0
-    structureitemvisualflag: 1
-    techlevel: 2
-    volume: 4000.0
-  Standup Target Painter I:
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    capacitorneed: 1000.0
-    cpu: 1500.0
-    duration: 10000.0
-    falloffeffectiveness: 150000
-    hp: 40.0
-    id: 35947
-    marketGroup: 2214
-    mass: 500.0
-    maxrange: 75000.0
-    name: Standup Target Painter I
-    packagedVolume: 4000.0
-    portionSize: 1
-    power: 50000
-    published: true
-    radius: 1.0
-    remoteresistanceid: 2114
-    signatureradiusbonus: 65.0
-    structureitemvisualflag: 1
-    techlevel: 1
-    volume: 4000.0
-  Standup Target Painter II:
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    capacitorneed: 1200.0
-    cpu: 1800.0
-    duration: 10000.0
-    falloffeffectiveness: 180000
-    hp: 40.0
-    id: 47366
-    marketGroup: 2214
-    mass: 500.0
-    maxrange: 90000.0
-    metalevelold: 5
-    name: Standup Target Painter II
-    packagedVolume: 4000.0
-    portionSize: 1
-    power: 60000
-    published: true
-    radius: 1.0
-    remoteresistanceid: 2114
-    signatureradiusbonus: 72.0
-    structureitemvisualflag: 1
-    techlevel: 2
-    volume: 4000.0
-  Standup Weapon Disruptor I:
+  35945:
     aoecloudsizebonus: 50.0
     aoevelocitybonus: -50.0
     canfitshipgroup01: 1657
@@ -128,7 +53,31 @@ types:
     techlevel: 1
     trackingspeedbonus: -60.0
     volume: 4000.0
-  Standup Weapon Disruptor II:
+  35947:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 1000.0
+    cpu: 1500.0
+    duration: 10000.0
+    falloffeffectiveness: 150000
+    hp: 40.0
+    id: 35947
+    marketGroup: 2214
+    mass: 500.0
+    maxrange: 75000.0
+    name: Standup Target Painter I
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 50000
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2114
+    signatureradiusbonus: 65.0
+    structureitemvisualflag: 1
+    techlevel: 1
+    volume: 4000.0
+  47364:
     aoecloudsizebonus: 55.0
     aoevelocitybonus: -55.0
     canfitshipgroup01: 1657
@@ -157,4 +106,55 @@ types:
     structureitemvisualflag: 1
     techlevel: 2
     trackingspeedbonus: -66.0
+    volume: 4000.0
+  47366:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 1200.0
+    cpu: 1800.0
+    duration: 10000.0
+    falloffeffectiveness: 180000
+    hp: 40.0
+    id: 47366
+    marketGroup: 2214
+    mass: 500.0
+    maxrange: 90000.0
+    metalevelold: 5
+    name: Standup Target Painter II
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 60000
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2114
+    signatureradiusbonus: 72.0
+    structureitemvisualflag: 1
+    techlevel: 2
+    volume: 4000.0
+  47368:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 480.0
+    cpu: 1800.0
+    duration: 5000.0
+    falloffeffectiveness: 180000
+    hp: 40.0
+    id: 47368
+    marketGroup: 2212
+    mass: 500.0
+    maxrange: 90000.0
+    maxtargetrangebonus: -61.0
+    metalevelold: 5
+    name: Standup Remote Sensor Dampener II
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 60000
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2112
+    scanresolutionbonus: -61.0
+    structureitemvisualflag: 1
+    techlevel: 2
     volume: 4000.0

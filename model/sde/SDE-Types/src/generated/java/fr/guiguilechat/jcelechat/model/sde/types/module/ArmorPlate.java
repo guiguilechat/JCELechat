@@ -145,7 +145,7 @@ public class ArmorPlate
         implements IMetaGroup<ArmorPlate>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ArmorPlate.yaml";
-        private Map<String, ArmorPlate> cache = (null);
+        private Map<Integer, ArmorPlate> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorPlate> category() {
@@ -163,7 +163,7 @@ public class ArmorPlate
         }
 
         @Override
-        public synchronized Map<String, ArmorPlate> load() {
+        public synchronized Map<Integer, ArmorPlate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorPlate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class ArmorPlate
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorPlate> types;
+            public LinkedHashMap<Integer, ArmorPlate> types;
         }
     }
 }

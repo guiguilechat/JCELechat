@@ -1,5 +1,5 @@
 types:
-  Amarr Empire Starbase Charter:
+  24592:
     id: 24592
     marketGroup: 940
     mass: 1.0
@@ -9,17 +9,7 @@ types:
     price: 50000.0
     published: true
     volume: 0.10000000149011612
-  Ammatar Mandate Starbase Charter:
-    id: 24597
-    marketGroup: 940
-    mass: 1.0
-    name: Ammatar Mandate Starbase Charter
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 50000.0
-    published: true
-    volume: 0.10000000149011612
-  Caldari State Starbase Charter:
+  24593:
     id: 24593
     marketGroup: 940
     mass: 1.0
@@ -29,7 +19,7 @@ types:
     price: 50000.0
     published: true
     volume: 0.10000000149011612
-  Gallente Federation Starbase Charter:
+  24594:
     id: 24594
     marketGroup: 940
     mass: 1.0
@@ -39,7 +29,17 @@ types:
     price: 50000.0
     published: true
     volume: 0.10000000149011612
-  Khanid Kingdom Starbase Charter:
+  24595:
+    id: 24595
+    marketGroup: 940
+    mass: 1.0
+    name: Minmatar Republic Starbase Charter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 50000.0
+    published: true
+    volume: 0.10000000149011612
+  24596:
     id: 24596
     marketGroup: 940
     mass: 1.0
@@ -49,11 +49,11 @@ types:
     price: 50000.0
     published: true
     volume: 0.10000000149011612
-  Minmatar Republic Starbase Charter:
-    id: 24595
+  24597:
+    id: 24597
     marketGroup: 940
     mass: 1.0
-    name: Minmatar Republic Starbase Charter
+    name: Ammatar Mandate Starbase Charter
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 50000.0

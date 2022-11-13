@@ -1,5 +1,5 @@
 types:
-  '''Basic'' Nanofiber Internal Structure':
+  1242:
     agilitymultiplier: -10.25
     hp: 40.0
     id: 1242
@@ -18,7 +18,60 @@ types:
     structurehpmultiplier: 0.949999988079071
     techlevel: 1
     volume: 5.0
-  Domination Nanofiber Structure:
+  2603:
+    agilitymultiplier: -13.0
+    hp: 40.0
+    id: 2603
+    implantbonusvelocity: 7.75
+    marketGroup: 1196
+    mass: 100.0
+    name: Nanofiber Internal Structure I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 0.8500000238418579
+    techlevel: 1
+    volume: 5.0
+  2605:
+    agilitymultiplier: -15.75
+    hp: 40.0
+    id: 2605
+    implantbonusvelocity: 9.5
+    marketGroup: 1196
+    mass: 100.0
+    metalevelold: 5
+    name: Nanofiber Internal Structure II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    structurehpmultiplier: 0.800000011920929
+    techlevel: 2
+    volume: 5.0
+  5599:
+    agilitymultiplier: -14.5
+    hp: 40.0
+    id: 5599
+    implantbonusvelocity: 8.5
+    marketGroup: 1196
+    mass: 100.0
+    metalevelold: 1
+    name: Type-D Restrained Nanofiber Structure
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 0.8999999761581421
+    techlevel: 1
+    volume: 5.0
+  14127:
     agilitymultiplier: -16.0
     hp: 40.0
     id: 14127
@@ -37,42 +90,7 @@ types:
     structurehpmultiplier: 0.8500000238418579
     techlevel: 1
     volume: 5.0
-  Nanofiber Internal Structure I:
-    agilitymultiplier: -13.0
-    hp: 40.0
-    id: 2603
-    implantbonusvelocity: 7.75
-    marketGroup: 1196
-    mass: 100.0
-    name: Nanofiber Internal Structure I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 50.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    structurehpmultiplier: 0.8500000238418579
-    techlevel: 1
-    volume: 5.0
-  Nanofiber Internal Structure II:
-    agilitymultiplier: -15.75
-    hp: 40.0
-    id: 2605
-    implantbonusvelocity: 9.5
-    marketGroup: 1196
-    mass: 100.0
-    metalevelold: 5
-    name: Nanofiber Internal Structure II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 50.0
-    requiredskill1: 3394
-    requiredskill1level: 2
-    structurehpmultiplier: 0.800000011920929
-    techlevel: 2
-    volume: 5.0
-  Republic Fleet Nanofiber Structure:
+  15813:
     agilitymultiplier: -16.0
     hp: 40.0
     id: 15813
@@ -91,7 +109,7 @@ types:
     structurehpmultiplier: 0.8500000238418579
     techlevel: 1
     volume: 5.0
-  Synthetic Hull Conversion Nanofiber Structure:
+  21500:
     agilitymultiplier: -15.5
     hp: 40.0
     id: 21500
@@ -101,24 +119,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Synthetic Hull Conversion Nanofiber Structure
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 50.0
-    requiredskill1: 3394
-    requiredskill1level: 1
-    structurehpmultiplier: 0.8999999761581421
-    techlevel: 1
-    volume: 5.0
-  Type-D Restrained Nanofiber Structure:
-    agilitymultiplier: -14.5
-    hp: 40.0
-    id: 5599
-    implantbonusvelocity: 8.5
-    marketGroup: 1196
-    mass: 100.0
-    metalevelold: 1
-    name: Type-D Restrained Nanofiber Structure
     packagedVolume: 5.0
     portionSize: 1
     published: true

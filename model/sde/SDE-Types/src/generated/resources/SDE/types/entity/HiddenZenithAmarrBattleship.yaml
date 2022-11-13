@@ -1,5 +1,5 @@
 types:
-  Cleansing Flame Amarr Battleship:
+  42817:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -84,7 +84,7 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.013920499943196774
     volume: 1100000.0
-  Imperial Escort Apocalypse:
+  50107:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -124,7 +124,7 @@ types:
     signatureradius: 100.0
     structureuniformity: 1.0
     volume: 495000.0
-  Imperial Escort Armageddon:
+  50108:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0

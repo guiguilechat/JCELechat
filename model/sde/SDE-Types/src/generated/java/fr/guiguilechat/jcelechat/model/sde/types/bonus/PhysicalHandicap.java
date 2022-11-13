@@ -95,7 +95,7 @@ public class PhysicalHandicap
         implements IMetaGroup<PhysicalHandicap>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/PhysicalHandicap.yaml";
-        private Map<String, PhysicalHandicap> cache = (null);
+        private Map<Integer, PhysicalHandicap> cache = (null);
 
         @Override
         public IMetaCategory<? super PhysicalHandicap> category() {
@@ -113,7 +113,7 @@ public class PhysicalHandicap
         }
 
         @Override
-        public synchronized Map<String, PhysicalHandicap> load() {
+        public synchronized Map<Integer, PhysicalHandicap> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PhysicalHandicap.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -127,7 +127,7 @@ public class PhysicalHandicap
         }
 
         private static class Container {
-            public LinkedHashMap<String, PhysicalHandicap> types;
+            public LinkedHashMap<Integer, PhysicalHandicap> types;
         }
     }
 }

@@ -112,7 +112,7 @@ public class CyberBiology
         implements IMetaGroup<CyberBiology>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberBiology.yaml";
-        private Map<String, CyberBiology> cache = (null);
+        private Map<Integer, CyberBiology> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberBiology> category() {
@@ -130,7 +130,7 @@ public class CyberBiology
         }
 
         @Override
-        public synchronized Map<String, CyberBiology> load() {
+        public synchronized Map<Integer, CyberBiology> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberBiology.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -144,7 +144,7 @@ public class CyberBiology
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberBiology> types;
+            public LinkedHashMap<Integer, CyberBiology> types;
         }
     }
 }

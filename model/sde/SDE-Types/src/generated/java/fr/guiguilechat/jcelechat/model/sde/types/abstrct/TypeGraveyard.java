@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -55,6 +56,13 @@ public class TypeGraveyard
     @Stackable(true)
     @DefaultIntValue(0)
     public int damagemultiplierbonus;
+    /**
+     * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double industryblueprintrank;
     /**
      * Only refers to another dogma attribute.
      */
@@ -125,7 +133,7 @@ public class TypeGraveyard
     @Stackable(true)
     @DefaultIntValue(0)
     public int turretspeebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, TurretSpeeBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, DamageMultiplierBonus.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, TurretSpeeBonus.INSTANCE })));
     public static final TypeGraveyard.MetaGroup METAGROUP = new TypeGraveyard.MetaGroup();
 
     @Override
@@ -142,6 +150,10 @@ public class TypeGraveyard
             case  292 :
             {
                 return damagemultiplierbonus;
+            }
+            case  1955 :
+            {
+                return industryblueprintrank;
             }
             case  180 :
             {
@@ -204,7 +216,7 @@ public class TypeGraveyard
         implements IMetaGroup<TypeGraveyard>
     {
         public static final String RESOURCE_PATH = "SDE/types/abstrct/TypeGraveyard.yaml";
-        private Map<String, TypeGraveyard> cache = (null);
+        private Map<Integer, TypeGraveyard> cache = (null);
 
         @Override
         public IMetaCategory<? super TypeGraveyard> category() {
@@ -222,7 +234,7 @@ public class TypeGraveyard
         }
 
         @Override
-        public synchronized Map<String, TypeGraveyard> load() {
+        public synchronized Map<Integer, TypeGraveyard> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TypeGraveyard.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -236,7 +248,7 @@ public class TypeGraveyard
         }
 
         private static class Container {
-            public LinkedHashMap<String, TypeGraveyard> types;
+            public LinkedHashMap<Integer, TypeGraveyard> types;
         }
     }
 }

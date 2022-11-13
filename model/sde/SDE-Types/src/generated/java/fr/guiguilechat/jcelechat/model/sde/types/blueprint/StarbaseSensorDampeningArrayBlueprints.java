@@ -83,7 +83,7 @@ public class StarbaseSensorDampeningArrayBlueprints
         implements IMetaGroup<StarbaseSensorDampeningArrayBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseSensorDampeningArrayBlueprints.yaml";
-        private Map<String, StarbaseSensorDampeningArrayBlueprints> cache = (null);
+        private Map<Integer, StarbaseSensorDampeningArrayBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StarbaseSensorDampeningArrayBlueprints> category() {
@@ -101,7 +101,7 @@ public class StarbaseSensorDampeningArrayBlueprints
         }
 
         @Override
-        public synchronized Map<String, StarbaseSensorDampeningArrayBlueprints> load() {
+        public synchronized Map<Integer, StarbaseSensorDampeningArrayBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StarbaseSensorDampeningArrayBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StarbaseSensorDampeningArrayBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseSensorDampeningArrayBlueprints> types;
+            public LinkedHashMap<Integer, StarbaseSensorDampeningArrayBlueprints> types;
         }
     }
 }

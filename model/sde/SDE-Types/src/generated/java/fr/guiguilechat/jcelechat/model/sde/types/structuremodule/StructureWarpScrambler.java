@@ -350,7 +350,7 @@ public class StructureWarpScrambler
         implements IMetaGroup<StructureWarpScrambler>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureWarpScrambler.yaml";
-        private Map<String, StructureWarpScrambler> cache = (null);
+        private Map<Integer, StructureWarpScrambler> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureWarpScrambler> category() {
@@ -368,7 +368,7 @@ public class StructureWarpScrambler
         }
 
         @Override
-        public synchronized Map<String, StructureWarpScrambler> load() {
+        public synchronized Map<Integer, StructureWarpScrambler> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureWarpScrambler.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -382,7 +382,7 @@ public class StructureWarpScrambler
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureWarpScrambler> types;
+            public LinkedHashMap<Integer, StructureWarpScrambler> types;
         }
     }
 }

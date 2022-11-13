@@ -246,7 +246,7 @@ public class ResourceProcessing
         implements IMetaGroup<ResourceProcessing>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/ResourceProcessing.yaml";
-        private Map<String, ResourceProcessing> cache = (null);
+        private Map<Integer, ResourceProcessing> cache = (null);
 
         @Override
         public IMetaCategory<? super ResourceProcessing> category() {
@@ -264,7 +264,7 @@ public class ResourceProcessing
         }
 
         @Override
-        public synchronized Map<String, ResourceProcessing> load() {
+        public synchronized Map<Integer, ResourceProcessing> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ResourceProcessing.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -278,7 +278,7 @@ public class ResourceProcessing
         }
 
         private static class Container {
-            public LinkedHashMap<String, ResourceProcessing> types;
+            public LinkedHashMap<Integer, ResourceProcessing> types;
         }
     }
 }

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplied by Caldari Dreadnought skill level
  */
 public class ShipBonusDreadnoughtC1
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final ShipBonusDreadnoughtC1 INSTANCE = new ShipBonusDreadnoughtC1();
 

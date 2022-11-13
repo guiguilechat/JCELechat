@@ -544,7 +544,7 @@ public class LightFighter
         implements IMetaGroup<LightFighter>
     {
         public static final String RESOURCE_PATH = "SDE/types/fighter/LightFighter.yaml";
-        private Map<String, LightFighter> cache = (null);
+        private Map<Integer, LightFighter> cache = (null);
 
         @Override
         public IMetaCategory<? super LightFighter> category() {
@@ -562,7 +562,7 @@ public class LightFighter
         }
 
         @Override
-        public synchronized Map<String, LightFighter> load() {
+        public synchronized Map<Integer, LightFighter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LightFighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -576,7 +576,7 @@ public class LightFighter
         }
 
         private static class Container {
-            public LinkedHashMap<String, LightFighter> types;
+            public LinkedHashMap<Integer, LightFighter> types;
         }
     }
 }

@@ -1,34 +1,5 @@
 types:
-  Arbalest Compact XL Cruise Missile Launcher:
-    capacity: 4.5
-    chargegroup1: 1019
-    chargerate: 1
-    cpu: 135.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.0
-    hp: 40.0
-    id: 41175
-    marketGroup: 777
-    metalevelold: 1
-    name: Arbalest Compact XL Cruise Missile Launcher
-    overloadrofbonus: -15
-    packagedVolume: 1000.0
-    portionSize: 1
-    power: 90000
-    published: true
-    radius: 1.0
-    reloadtime: 10000.0
-    requiredskill1: 32435
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 5
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 162815.0
-    techlevel: 1
-    typecolorscheme: 11324
-    volume: 4000.0
-  CONCORD XL Cruise Missile Launcher:
+  3563:
     capacity: 5.175000190734863
     chargegroup1: 1019
     chargegroup2: 1678
@@ -59,7 +30,67 @@ types:
     techlevel: 1
     typecolorscheme: 20115
     volume: 4000.0
-  Dread Guristas XL Cruise Missile Launcher:
+  32444:
+    capacity: 4.5
+    chargegroup1: 1019
+    chargerate: 1
+    cpu: 150.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.0
+    hp: 40.0
+    id: 32444
+    marketGroup: 777
+    name: XL Cruise Missile Launcher I
+    overloadrofbonus: -15
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 100000
+    published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 32435
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 170970.0
+    techlevel: 1
+    typecolorscheme: 11324
+    volume: 4000.0
+  37295:
+    capacity: 4.5
+    chargegroup1: 1019
+    chargegroup2: 1678
+    chargerate: 1
+    cpu: 165.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.0
+    hp: 40.0
+    id: 37295
+    marketGroup: 777
+    metalevelold: 5
+    name: XL Cruise Missile Launcher II
+    overloadrofbonus: -15
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 110000
+    published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3319
+    requiredskill1level: 5
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 41410
+    requiredskill3level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 155412.0
+    techlevel: 2
+    typecolorscheme: 11324
+    volume: 4000.0
+  41174:
     capacity: 5.175000190734863
     chargegroup1: 1019
     chargegroup2: 1678
@@ -90,7 +121,36 @@ types:
     techlevel: 1
     typecolorscheme: 11324
     volume: 4000.0
-  TE-2100 Ample XL Cruise Missile Launcher:
+  41175:
+    capacity: 4.5
+    chargegroup1: 1019
+    chargerate: 1
+    cpu: 135.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.0
+    hp: 40.0
+    id: 41175
+    marketGroup: 777
+    metalevelold: 1
+    name: Arbalest Compact XL Cruise Missile Launcher
+    overloadrofbonus: -15
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 90000
+    published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 32435
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 162815.0
+    techlevel: 1
+    typecolorscheme: 11324
+    volume: 4000.0
+  41176:
     capacity: 5.175000190734863
     chargegroup1: 1019
     chargerate: 1
@@ -117,65 +177,5 @@ types:
     slots: 1
     speed: 162815.0
     techlevel: 1
-    typecolorscheme: 11324
-    volume: 4000.0
-  XL Cruise Missile Launcher I:
-    capacity: 4.5
-    chargegroup1: 1019
-    chargerate: 1
-    cpu: 150.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.0
-    hp: 40.0
-    id: 32444
-    marketGroup: 777
-    name: XL Cruise Missile Launcher I
-    overloadrofbonus: -15
-    packagedVolume: 1000.0
-    portionSize: 1
-    power: 100000
-    published: true
-    radius: 1.0
-    reloadtime: 10000.0
-    requiredskill1: 32435
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 5
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 170970.0
-    techlevel: 1
-    typecolorscheme: 11324
-    volume: 4000.0
-  XL Cruise Missile Launcher II:
-    capacity: 4.5
-    chargegroup1: 1019
-    chargegroup2: 1678
-    chargerate: 1
-    cpu: 165.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.0
-    hp: 40.0
-    id: 37295
-    marketGroup: 777
-    metalevelold: 5
-    name: XL Cruise Missile Launcher II
-    overloadrofbonus: -15
-    packagedVolume: 1000.0
-    portionSize: 1
-    power: 110000
-    published: true
-    radius: 1.0
-    reloadtime: 10000.0
-    requiredskill1: 3319
-    requiredskill1level: 5
-    requiredskill2: 32435
-    requiredskill2level: 5
-    requiredskill3: 41410
-    requiredskill3level: 1
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 155412.0
-    techlevel: 2
     typecolorscheme: 11324
     volume: 4000.0

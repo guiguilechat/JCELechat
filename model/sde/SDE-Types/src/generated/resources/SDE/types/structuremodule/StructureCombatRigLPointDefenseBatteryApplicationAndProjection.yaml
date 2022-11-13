@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Point Defense Battery Control I:
+  37258:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Point Defense Battery Control II:
+  37259:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

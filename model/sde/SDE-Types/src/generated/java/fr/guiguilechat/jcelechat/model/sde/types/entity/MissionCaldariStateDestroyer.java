@@ -1133,7 +1133,7 @@ public class MissionCaldariStateDestroyer
         implements IMetaGroup<MissionCaldariStateDestroyer>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionCaldariStateDestroyer.yaml";
-        private Map<String, MissionCaldariStateDestroyer> cache = (null);
+        private Map<Integer, MissionCaldariStateDestroyer> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionCaldariStateDestroyer> category() {
@@ -1151,7 +1151,7 @@ public class MissionCaldariStateDestroyer
         }
 
         @Override
-        public synchronized Map<String, MissionCaldariStateDestroyer> load() {
+        public synchronized Map<Integer, MissionCaldariStateDestroyer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionCaldariStateDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1165,7 +1165,7 @@ public class MissionCaldariStateDestroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionCaldariStateDestroyer> types;
+            public LinkedHashMap<Integer, MissionCaldariStateDestroyer> types;
         }
     }
 }

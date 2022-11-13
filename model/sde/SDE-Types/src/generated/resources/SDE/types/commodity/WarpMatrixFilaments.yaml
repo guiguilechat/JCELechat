@@ -1,5 +1,5 @@
 types:
-  Expired Curious Warp Matrix Filament:
+  60633:
     filamentdescriptionmessageid: 561098
     id: 60633
     marketGroup: 2457
@@ -10,29 +10,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Expired Dangerous Warp Matrix Filament:
+  61654:
     filamentdescriptionmessageid: 561098
-    id: 62056
+    id: 61654
     marketGroup: 2457
-    name: Expired Dangerous Warp Matrix Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 1000000.0
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Expired Enigmatic Warp Matrix Filament:
-    filamentdescriptionmessageid: 561098
-    id: 61656
-    marketGroup: 2457
-    name: Expired Enigmatic Warp Matrix Filament
+    name: Expired Precarious Warp Matrix Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 80000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Expired Hazardous Warp Matrix Filament:
+  61655:
     filamentdescriptionmessageid: 561098
     id: 61655
     marketGroup: 2457
@@ -43,7 +32,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Expired Mysterious Warp Matrix Filament:
+  61656:
+    filamentdescriptionmessageid: 561098
+    id: 61656
+    marketGroup: 2457
+    name: Expired Enigmatic Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 80000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  62055:
     filamentdescriptionmessageid: 561098
     id: 62055
     marketGroup: 2457
@@ -54,7 +54,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Expired Perilous Warp Matrix Filament:
+  62056:
+    filamentdescriptionmessageid: 561098
+    id: 62056
+    marketGroup: 2457
+    name: Expired Dangerous Warp Matrix Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  62057:
     filamentdescriptionmessageid: 561098
     id: 62057
     marketGroup: 2457
@@ -62,17 +73,6 @@ types:
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2500000.0
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Expired Precarious Warp Matrix Filament:
-    filamentdescriptionmessageid: 561098
-    id: 61654
-    marketGroup: 2457
-    name: Expired Precarious Warp Matrix Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 80000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

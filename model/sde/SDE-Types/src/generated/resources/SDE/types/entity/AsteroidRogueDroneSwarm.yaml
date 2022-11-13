@@ -1,5 +1,5 @@
 types:
-  Arachula Drone:
+  25633:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -74,7 +74,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.6000000238418579
     volume: 20000.0
-  Asmodeus Drone:
+  25634:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -149,7 +149,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.27000001072883606
     volume: 20000.0
-  Beelzebub Drone:
+  25637:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -224,7 +224,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.2329999953508377
     volume: 20000.0
-  Belphegor Drone:
+  25638:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -299,7 +299,7 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.20000000298023224
     volume: 20000.0
-  Dragonfly Drone:
+  25649:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -374,7 +374,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 1.7999999523162842
     volume: 20000.0
-  Incubus Drone:
+  25657:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -449,7 +449,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.699999988079071
     volume: 20000.0
-  Malphas Drone:
+  25659:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -524,7 +524,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.6499999761581421
     volume: 20000.0
-  Mammon Drone:
+  25660:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -599,7 +599,7 @@ types:
     thermaldamage: 3.0
     trackingspeed: 0.2167000025510788
     volume: 20000.0
-  Moth Drone:
+  25663:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -672,7 +672,7 @@ types:
     thermaldamage: 1.0
     trackingspeed: 2.430000066757202
     volume: 20000.0
-  Scorpionfly Drone:
+  25670:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -746,7 +746,7 @@ types:
     thermaldamage: 3.0
     trackingspeed: 2.0999999046325684
     volume: 20000.0
-  Tarantula Drone:
+  25701:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -821,7 +821,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.8100000023841858
     volume: 20000.0
-  Termite Drone:
+  25702:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

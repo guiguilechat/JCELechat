@@ -1,5 +1,5 @@
 types:
-  Caldari Navy Inferno Heavy Missile:
+  206:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -9,88 +9,16 @@ types:
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 6500
-    explosivedamageresonance: 1.0
-    hp: 120.0
-    id: 27447
-    kineticdamageresonance: 1.0
-    launchergroup: 510
-    marketGroup: 1002
-    mass: 1000.0
-    maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Inferno Heavy Missile
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3324
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 171.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.029999999329447746
-  Caldari Navy Mjolnir Heavy Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 85
-    detonationrange: 35
-    emdamage: 171.0
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 6500
-    explosivedamageresonance: 1.0
-    hp: 120.0
-    id: 27435
-    kineticdamageresonance: 1.0
-    launchergroup: 510
-    marketGroup: 1002
-    mass: 1000.0
-    maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Mjolnir Heavy Missile
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3324
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
-  Caldari Navy Nova Heavy Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 85
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 6500
-    explosivedamage: 171.0
+    explosivedamage: 149.0
     explosivedamageresonance: 0.800000011920929
     hp: 120.0
-    id: 27453
+    id: 206
     kineticdamageresonance: 1.0
     launchergroup: 510
-    marketGroup: 1002
+    marketGroup: 924
     mass: 1000.0
     maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Nova Heavy Missile
+    name: Nova Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2000.0
@@ -104,7 +32,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.029999999329447746
-  Caldari Navy Scourge Heavy Missile:
+  207:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -112,90 +40,18 @@ types:
     aoefalloff: 1500
     aoevelocity: 85
     detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 6500
-    explosivedamageresonance: 1.0
-    hp: 120.0
-    id: 27441
-    kineticdamage: 171.0
-    kineticdamageresonance: 0.800000011920929
-    launchergroup: 510
-    marketGroup: 1002
-    mass: 1000.0
-    maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Scourge Heavy Missile
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 2500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3324
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
-  Dread Guristas Inferno Heavy Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 85
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 6500
-    explosivedamageresonance: 1.0
-    hp: 120.0
-    id: 27449
-    kineticdamageresonance: 1.0
-    launchergroup: 510
-    marketGroup: 1002
-    mass: 1000.0
-    maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Inferno Heavy Missile
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3324
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 179.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.029999999329447746
-  Dread Guristas Mjolnir Heavy Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 85
-    detonationrange: 35
-    emdamage: 179.0
+    emdamage: 149.0
     emdamageresonance: 0.800000011920929
     explosiondelay: 6500
     explosivedamageresonance: 1.0
     hp: 120.0
-    id: 27437
+    id: 207
     kineticdamageresonance: 1.0
     launchergroup: 510
-    marketGroup: 1002
+    marketGroup: 924
     mass: 1000.0
     maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Mjolnir Heavy Missile
+    name: Mjolnir Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3500.0
@@ -209,42 +65,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.029999999329447746
-  Dread Guristas Nova Heavy Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 85
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 6500
-    explosivedamage: 179.0
-    explosivedamageresonance: 0.800000011920929
-    hp: 120.0
-    id: 27455
-    kineticdamageresonance: 1.0
-    launchergroup: 510
-    marketGroup: 1002
-    mass: 1000.0
-    maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Nova Heavy Missile
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 2000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3324
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
-  Dread Guristas Scourge Heavy Missile:
+  208:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -256,16 +77,47 @@ types:
     explosiondelay: 6500
     explosivedamageresonance: 1.0
     hp: 120.0
-    id: 27443
-    kineticdamage: 179.0
-    kineticdamageresonance: 0.800000011920929
+    id: 208
+    kineticdamageresonance: 1.0
     launchergroup: 510
-    marketGroup: 1002
+    marketGroup: 924
     mass: 1000.0
     maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Scourge Heavy Missile
+    name: Inferno Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3324
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 149.0
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.029999999329447746
+  209:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 85
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 6500
+    explosivedamageresonance: 1.0
+    hp: 120.0
+    id: 209
+    kineticdamage: 149.0
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 510
+    marketGroup: 924
+    mass: 1000.0
+    maxvelocity: 4300.0
+    name: Scourge Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2500.0
@@ -279,42 +131,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.029999999329447746
-  Guristas Inferno Heavy Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 85
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 6500
-    explosivedamageresonance: 1.0
-    hp: 160.0
-    id: 27445
-    kineticdamageresonance: 1.0
-    launchergroup: 510
-    marketGroup: 1002
-    mass: 1000.0
-    maxvelocity: 4300.0
-    metagroupid: 4
-    metalevelold: 1
-    name: Guristas Inferno Heavy Missile
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3324
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 164.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.029999999329447746
-  Guristas Mjolnir Heavy Missile:
+  27433:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -349,7 +166,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.029999999329447746
-  Guristas Nova Heavy Missile:
+  27435:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -357,23 +174,23 @@ types:
     aoefalloff: 1500
     aoevelocity: 85
     detonationrange: 35
-    emdamageresonance: 1.0
+    emdamage: 171.0
+    emdamageresonance: 0.800000011920929
     explosiondelay: 6500
-    explosivedamage: 164.0
-    explosivedamageresonance: 0.800000011920929
-    hp: 160.0
-    id: 27451
+    explosivedamageresonance: 1.0
+    hp: 120.0
+    id: 27435
     kineticdamageresonance: 1.0
     launchergroup: 510
     marketGroup: 1002
     mass: 1000.0
     maxvelocity: 4300.0
     metagroupid: 4
-    metalevelold: 1
-    name: Guristas Nova Heavy Missile
+    metalevelold: 2
+    name: Caldari Navy Mjolnir Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
-    price: 2000.0
+    price: 3500.0
     published: true
     radius: 300.0
     requiredskill1: 3324
@@ -384,7 +201,42 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.029999999329447746
-  Guristas Scourge Heavy Missile:
+  27437:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 85
+    detonationrange: 35
+    emdamage: 179.0
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 6500
+    explosivedamageresonance: 1.0
+    hp: 120.0
+    id: 27437
+    kineticdamageresonance: 1.0
+    launchergroup: 510
+    marketGroup: 1002
+    mass: 1000.0
+    maxvelocity: 4300.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Mjolnir Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3324
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.029999999329447746
+  27439:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -419,7 +271,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.029999999329447746
-  Inferno Heavy Missile:
+  27441:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -431,13 +283,85 @@ types:
     explosiondelay: 6500
     explosivedamageresonance: 1.0
     hp: 120.0
-    id: 208
-    kineticdamageresonance: 1.0
+    id: 27441
+    kineticdamage: 171.0
+    kineticdamageresonance: 0.800000011920929
     launchergroup: 510
-    marketGroup: 924
+    marketGroup: 1002
     mass: 1000.0
     maxvelocity: 4300.0
-    name: Inferno Heavy Missile
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Scourge Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 2500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3324
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.029999999329447746
+  27443:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 85
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 6500
+    explosivedamageresonance: 1.0
+    hp: 120.0
+    id: 27443
+    kineticdamage: 179.0
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 510
+    marketGroup: 1002
+    mass: 1000.0
+    maxvelocity: 4300.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Scourge Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 2500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3324
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.029999999329447746
+  27445:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 85
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 6500
+    explosivedamageresonance: 1.0
+    hp: 160.0
+    id: 27445
+    kineticdamageresonance: 1.0
+    launchergroup: 510
+    marketGroup: 1002
+    mass: 1000.0
+    maxvelocity: 4300.0
+    metagroupid: 4
+    metalevelold: 1
+    name: Guristas Inferno Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3000.0
@@ -449,43 +373,10 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 149.0
+    thermaldamage: 164.0
     thermaldamageresonance: 0.800000011920929
     volume: 0.029999999329447746
-  Mjolnir Heavy Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 85
-    detonationrange: 35
-    emdamage: 149.0
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 6500
-    explosivedamageresonance: 1.0
-    hp: 120.0
-    id: 207
-    kineticdamageresonance: 1.0
-    launchergroup: 510
-    marketGroup: 924
-    mass: 1000.0
-    maxvelocity: 4300.0
-    name: Mjolnir Heavy Missile
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3324
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
-  Nova Heavy Missile:
+  27447:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -495,16 +386,88 @@ types:
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 6500
-    explosivedamage: 149.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 1.0
     hp: 120.0
-    id: 206
+    id: 27447
     kineticdamageresonance: 1.0
     launchergroup: 510
-    marketGroup: 924
+    marketGroup: 1002
     mass: 1000.0
     maxvelocity: 4300.0
-    name: Nova Heavy Missile
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Inferno Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3324
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 171.0
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.029999999329447746
+  27449:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 85
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 6500
+    explosivedamageresonance: 1.0
+    hp: 120.0
+    id: 27449
+    kineticdamageresonance: 1.0
+    launchergroup: 510
+    marketGroup: 1002
+    mass: 1000.0
+    maxvelocity: 4300.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Inferno Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3324
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 179.0
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.029999999329447746
+  27451:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 85
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 6500
+    explosivedamage: 164.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 160.0
+    id: 27451
+    kineticdamageresonance: 1.0
+    launchergroup: 510
+    marketGroup: 1002
+    mass: 1000.0
+    maxvelocity: 4300.0
+    metagroupid: 4
+    metalevelold: 1
+    name: Guristas Nova Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2000.0
@@ -518,7 +481,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.029999999329447746
-  Scourge Heavy Missile:
+  27453:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -528,19 +491,56 @@ types:
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 6500
-    explosivedamageresonance: 1.0
+    explosivedamage: 171.0
+    explosivedamageresonance: 0.800000011920929
     hp: 120.0
-    id: 209
-    kineticdamage: 149.0
-    kineticdamageresonance: 0.800000011920929
+    id: 27453
+    kineticdamageresonance: 1.0
     launchergroup: 510
-    marketGroup: 924
+    marketGroup: 1002
     mass: 1000.0
     maxvelocity: 4300.0
-    name: Scourge Heavy Missile
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Nova Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
-    price: 2500.0
+    price: 2000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3324
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.029999999329447746
+  27455:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 85
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 6500
+    explosivedamage: 179.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 120.0
+    id: 27455
+    kineticdamageresonance: 1.0
+    launchergroup: 510
+    marketGroup: 1002
+    mass: 1000.0
+    maxvelocity: 4300.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Nova Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 2000.0
     published: true
     radius: 300.0
     requiredskill1: 3324

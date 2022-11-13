@@ -1,5 +1,5 @@
 types:
-  Shield EM Resistance Script:
+  41521:
     chargesize: 1
     emdamageresistancebonusbonus: 200
     explosivedamageresistancebonusbonus: -100
@@ -17,25 +17,25 @@ types:
     techlevel: 1
     thermaldamageresistancebonusbonus: -100
     volume: 1.0
-  Shield Explosive Resistance Script:
+  41522:
     chargesize: 1
     emdamageresistancebonusbonus: -100
-    explosivedamageresistancebonusbonus: 200
-    id: 41524
+    explosivedamageresistancebonusbonus: -100
+    id: 41522
     kineticdamageresistancebonusbonus: -100
     launchergroup: 1700
     marketGroup: 1094
     mass: 1.0
-    name: Shield Explosive Resistance Script
+    name: Shield Thermal Resistance Script
     packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamageresistancebonusbonus: -100
+    thermaldamageresistancebonusbonus: 200
     volume: 1.0
-  Shield Kinetic Resistance Script:
+  41523:
     chargesize: 1
     emdamageresistancebonusbonus: -100
     explosivedamageresistancebonusbonus: -100
@@ -53,21 +53,21 @@ types:
     techlevel: 1
     thermaldamageresistancebonusbonus: -100
     volume: 1.0
-  Shield Thermal Resistance Script:
+  41524:
     chargesize: 1
     emdamageresistancebonusbonus: -100
-    explosivedamageresistancebonusbonus: -100
-    id: 41522
+    explosivedamageresistancebonusbonus: 200
+    id: 41524
     kineticdamageresistancebonusbonus: -100
     launchergroup: 1700
     marketGroup: 1094
     mass: 1.0
-    name: Shield Thermal Resistance Script
+    name: Shield Explosive Resistance Script
     packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamageresistancebonusbonus: 200
+    thermaldamageresistancebonusbonus: -100
     volume: 1.0

@@ -821,7 +821,7 @@ public class MissionGenericSupercarrier
         implements IMetaGroup<MissionGenericSupercarrier>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionGenericSupercarrier.yaml";
-        private Map<String, MissionGenericSupercarrier> cache = (null);
+        private Map<Integer, MissionGenericSupercarrier> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionGenericSupercarrier> category() {
@@ -839,7 +839,7 @@ public class MissionGenericSupercarrier
         }
 
         @Override
-        public synchronized Map<String, MissionGenericSupercarrier> load() {
+        public synchronized Map<Integer, MissionGenericSupercarrier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionGenericSupercarrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -853,7 +853,7 @@ public class MissionGenericSupercarrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionGenericSupercarrier> types;
+            public LinkedHashMap<Integer, MissionGenericSupercarrier> types;
         }
     }
 }

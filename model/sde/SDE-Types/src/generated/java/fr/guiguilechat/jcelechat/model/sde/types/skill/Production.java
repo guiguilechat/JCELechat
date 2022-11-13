@@ -211,7 +211,7 @@ public class Production
         implements IMetaGroup<Production>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Production.yaml";
-        private Map<String, Production> cache = (null);
+        private Map<Integer, Production> cache = (null);
 
         @Override
         public IMetaCategory<? super Production> category() {
@@ -229,7 +229,7 @@ public class Production
         }
 
         @Override
-        public synchronized Map<String, Production> load() {
+        public synchronized Map<Integer, Production> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Production.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -243,7 +243,7 @@ public class Production
         }
 
         private static class Container {
-            public LinkedHashMap<String, Production> types;
+            public LinkedHashMap<Integer, Production> types;
         }
     }
 }

@@ -71,7 +71,7 @@ public class AbyssalProvingFilaments
         implements IMetaGroup<AbyssalProvingFilaments>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/AbyssalProvingFilaments.yaml";
-        private Map<String, AbyssalProvingFilaments> cache = (null);
+        private Map<Integer, AbyssalProvingFilaments> cache = (null);
 
         @Override
         public IMetaCategory<? super AbyssalProvingFilaments> category() {
@@ -89,7 +89,7 @@ public class AbyssalProvingFilaments
         }
 
         @Override
-        public synchronized Map<String, AbyssalProvingFilaments> load() {
+        public synchronized Map<Integer, AbyssalProvingFilaments> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AbyssalProvingFilaments.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -103,7 +103,7 @@ public class AbyssalProvingFilaments
         }
 
         private static class Container {
-            public LinkedHashMap<String, AbyssalProvingFilaments> types;
+            public LinkedHashMap<Integer, AbyssalProvingFilaments> types;
         }
     }
 }

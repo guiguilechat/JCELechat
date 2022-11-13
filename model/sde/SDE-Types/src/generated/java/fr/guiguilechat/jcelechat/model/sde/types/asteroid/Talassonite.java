@@ -42,7 +42,7 @@ public class Talassonite
         implements IMetaGroup<Talassonite>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Talassonite.yaml";
-        private Map<String, Talassonite> cache = (null);
+        private Map<Integer, Talassonite> cache = (null);
 
         @Override
         public IMetaCategory<? super Talassonite> category() {
@@ -60,7 +60,7 @@ public class Talassonite
         }
 
         @Override
-        public synchronized Map<String, Talassonite> load() {
+        public synchronized Map<Integer, Talassonite> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Talassonite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -74,7 +74,7 @@ public class Talassonite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Talassonite> types;
+            public LinkedHashMap<Integer, Talassonite> types;
         }
     }
 }

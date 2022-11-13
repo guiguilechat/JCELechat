@@ -1110,7 +1110,7 @@ public class DeadspaceSleeperEmergentDefender
         implements IMetaGroup<DeadspaceSleeperEmergentDefender>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceSleeperEmergentDefender.yaml";
-        private Map<String, DeadspaceSleeperEmergentDefender> cache = (null);
+        private Map<Integer, DeadspaceSleeperEmergentDefender> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceSleeperEmergentDefender> category() {
@@ -1128,7 +1128,7 @@ public class DeadspaceSleeperEmergentDefender
         }
 
         @Override
-        public synchronized Map<String, DeadspaceSleeperEmergentDefender> load() {
+        public synchronized Map<Integer, DeadspaceSleeperEmergentDefender> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceSleeperEmergentDefender.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1142,7 +1142,7 @@ public class DeadspaceSleeperEmergentDefender
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceSleeperEmergentDefender> types;
+            public LinkedHashMap<Integer, DeadspaceSleeperEmergentDefender> types;
         }
     }
 }

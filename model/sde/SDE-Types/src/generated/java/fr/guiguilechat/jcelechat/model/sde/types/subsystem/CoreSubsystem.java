@@ -264,7 +264,7 @@ public class CoreSubsystem
         implements IMetaGroup<CoreSubsystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/subsystem/CoreSubsystem.yaml";
-        private Map<String, CoreSubsystem> cache = (null);
+        private Map<Integer, CoreSubsystem> cache = (null);
 
         @Override
         public IMetaCategory<? super CoreSubsystem> category() {
@@ -282,7 +282,7 @@ public class CoreSubsystem
         }
 
         @Override
-        public synchronized Map<String, CoreSubsystem> load() {
+        public synchronized Map<Integer, CoreSubsystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CoreSubsystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -296,7 +296,7 @@ public class CoreSubsystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, CoreSubsystem> types;
+            public LinkedHashMap<Integer, CoreSubsystem> types;
         }
     }
 }

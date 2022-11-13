@@ -398,8 +398,8 @@ public class Cruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5)
-    public int shipbonuscc;
+    @DefaultRealValue(5.0)
+    public double shipbonuscc;
     /**
      * 
      */
@@ -781,7 +781,7 @@ public class Cruiser
         implements IMetaGroup<Cruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Cruiser.yaml";
-        private Map<String, Cruiser> cache = (null);
+        private Map<Integer, Cruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super Cruiser> category() {
@@ -799,7 +799,7 @@ public class Cruiser
         }
 
         @Override
-        public synchronized Map<String, Cruiser> load() {
+        public synchronized Map<Integer, Cruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Cruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -813,7 +813,7 @@ public class Cruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, Cruiser> types;
+            public LinkedHashMap<Integer, Cruiser> types;
         }
     }
 }

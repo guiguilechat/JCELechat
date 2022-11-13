@@ -133,7 +133,7 @@ public class StructureECMScript
         implements IMetaGroup<StructureECMScript>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/StructureECMScript.yaml";
-        private Map<String, StructureECMScript> cache = (null);
+        private Map<Integer, StructureECMScript> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureECMScript> category() {
@@ -151,7 +151,7 @@ public class StructureECMScript
         }
 
         @Override
-        public synchronized Map<String, StructureECMScript> load() {
+        public synchronized Map<Integer, StructureECMScript> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureECMScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -165,7 +165,7 @@ public class StructureECMScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureECMScript> types;
+            public LinkedHashMap<Integer, StructureECMScript> types;
         }
     }
 }

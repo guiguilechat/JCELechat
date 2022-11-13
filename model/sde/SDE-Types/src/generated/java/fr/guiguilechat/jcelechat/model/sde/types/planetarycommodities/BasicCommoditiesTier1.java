@@ -38,7 +38,7 @@ public class BasicCommoditiesTier1
         implements IMetaGroup<BasicCommoditiesTier1>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetarycommodities/BasicCommoditiesTier1.yaml";
-        private Map<String, BasicCommoditiesTier1> cache = (null);
+        private Map<Integer, BasicCommoditiesTier1> cache = (null);
 
         @Override
         public IMetaCategory<? super BasicCommoditiesTier1> category() {
@@ -56,7 +56,7 @@ public class BasicCommoditiesTier1
         }
 
         @Override
-        public synchronized Map<String, BasicCommoditiesTier1> load() {
+        public synchronized Map<Integer, BasicCommoditiesTier1> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BasicCommoditiesTier1 .MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -70,7 +70,7 @@ public class BasicCommoditiesTier1
         }
 
         private static class Container {
-            public LinkedHashMap<String, BasicCommoditiesTier1> types;
+            public LinkedHashMap<Integer, BasicCommoditiesTier1> types;
         }
     }
 }

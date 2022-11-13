@@ -506,7 +506,7 @@ public class MobileLaserSentry
         implements IMetaGroup<MobileLaserSentry>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/MobileLaserSentry.yaml";
-        private Map<String, MobileLaserSentry> cache = (null);
+        private Map<Integer, MobileLaserSentry> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileLaserSentry> category() {
@@ -524,7 +524,7 @@ public class MobileLaserSentry
         }
 
         @Override
-        public synchronized Map<String, MobileLaserSentry> load() {
+        public synchronized Map<Integer, MobileLaserSentry> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileLaserSentry.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -538,7 +538,7 @@ public class MobileLaserSentry
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileLaserSentry> types;
+            public LinkedHashMap<Integer, MobileLaserSentry> types;
         }
     }
 }

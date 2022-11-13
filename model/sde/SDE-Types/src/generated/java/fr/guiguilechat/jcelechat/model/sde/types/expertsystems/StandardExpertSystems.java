@@ -32,7 +32,7 @@ public class StandardExpertSystems
         implements IMetaGroup<StandardExpertSystems>
     {
         public static final String RESOURCE_PATH = "SDE/types/expertsystems/StandardExpertSystems.yaml";
-        private Map<String, StandardExpertSystems> cache = (null);
+        private Map<Integer, StandardExpertSystems> cache = (null);
 
         @Override
         public IMetaCategory<? super StandardExpertSystems> category() {
@@ -50,7 +50,7 @@ public class StandardExpertSystems
         }
 
         @Override
-        public synchronized Map<String, StandardExpertSystems> load() {
+        public synchronized Map<Integer, StandardExpertSystems> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StandardExpertSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class StandardExpertSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, StandardExpertSystems> types;
+            public LinkedHashMap<Integer, StandardExpertSystems> types;
         }
     }
 }

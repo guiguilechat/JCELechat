@@ -1,5 +1,5 @@
 types:
-  Thukker Mercenary Captain:
+  23956:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -79,7 +79,7 @@ types:
     thermaldamage: 10.0
     trackingspeed: 0.032999999821186066
     volume: 96000.0
-  Thukker Mercenary Eliminator:
+  23957:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

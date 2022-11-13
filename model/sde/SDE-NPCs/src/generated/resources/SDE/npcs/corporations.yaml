@@ -366,8 +366,17 @@ corporations:
     - 16243
     - 16340
     - 16341
-    - 17215
-    - 17216
+    - 17402
+    - 17406
+    - 17410
+    - 17411
+    - 17412
+    - 17422
+    - 17423
+    - 17430
+    - 17431
+    - 17438
+    - 17439
     name: 24th Imperial Crusade
     warfare: Amarr Empire
   AEGIS:
@@ -382,6 +391,10 @@ corporations:
     faction: Jove Empire
     id: 1000178
     name: Academy of Aggressive Behaviour
+  Adaptive Provisioning:
+    faction: EverMore
+    id: 1000426
+    name: Adaptive Provisioning
   Algintal Core:
     faction: Gallente Federation
     id: 1000215
@@ -7073,6 +7086,10 @@ corporations:
     - 16194
     - 16195
     name: CreoDron
+  Cromeaux Inc:
+    faction: EverMore
+    id: 1000425
+    name: Cromeaux Inc
   Crux Special Tasks Group:
     faction: Gallente Federation
     id: 1000216
@@ -9544,8 +9561,17 @@ corporations:
     - 16243
     - 16344
     - 16345
-    - 17217
-    - 17218
+    - 17405
+    - 17409
+    - 17416
+    - 17417
+    - 17418
+    - 17426
+    - 17427
+    - 17434
+    - 17435
+    - 17442
+    - 17443
     name: Federal Defense Union
     warfare: Gallente Federation
   Federal Freight:
@@ -14452,7 +14478,7 @@ corporations:
     name: Inner Circle
   Inner Zone Shipping:
     concordRate: 0.8
-    faction: Gallente Federation
+    faction: EverMore
     id: 1000096
     lpoffers:
     - 3414
@@ -15581,6 +15607,10 @@ corporations:
     - 16174
     - 17096
     name: Internal Security
+  Interplanetary Media Network:
+    faction: EverMore
+    id: 1000427
+    name: Interplanetary Media Network
   Ishukone Corporation:
     concordRate: 0.8
     faction: Caldari State
@@ -20461,6 +20491,223 @@ corporations:
   Pann's Peeps:
     id: 1000176
     name: Pann's Peeps
+  Paragon:
+    faction: EverMore
+    id: 1000419
+    lpoffers:
+    - 17208
+    - 17212
+    - 17221
+    - 17224
+    - 17225
+    - 17226
+    - 17227
+    - 17228
+    - 17229
+    - 17230
+    - 17231
+    - 17232
+    - 17233
+    - 17234
+    - 17235
+    - 17236
+    - 17237
+    - 17238
+    - 17239
+    - 17240
+    - 17241
+    - 17242
+    - 17243
+    - 17244
+    - 17245
+    - 17246
+    - 17247
+    - 17248
+    - 17249
+    - 17250
+    - 17251
+    - 17252
+    - 17253
+    - 17254
+    - 17255
+    - 17256
+    - 17257
+    - 17258
+    - 17259
+    - 17260
+    - 17261
+    - 17262
+    - 17263
+    - 17264
+    - 17265
+    - 17266
+    - 17268
+    - 17269
+    - 17270
+    - 17271
+    - 17272
+    - 17273
+    - 17274
+    - 17275
+    - 17276
+    - 17277
+    - 17278
+    - 17279
+    - 17280
+    - 17281
+    - 17282
+    - 17283
+    - 17284
+    - 17285
+    - 17286
+    - 17287
+    - 17288
+    - 17289
+    - 17290
+    - 17291
+    - 17292
+    - 17293
+    - 17294
+    - 17295
+    - 17296
+    - 17297
+    - 17298
+    - 17299
+    - 17300
+    - 17301
+    - 17302
+    - 17303
+    - 17304
+    - 17305
+    - 17306
+    - 17307
+    - 17308
+    - 17309
+    - 17310
+    - 17311
+    - 17312
+    - 17313
+    - 17314
+    - 17315
+    - 17316
+    - 17317
+    - 17318
+    - 17319
+    - 17320
+    - 17321
+    - 17322
+    - 17323
+    - 17324
+    - 17325
+    - 17326
+    - 17327
+    - 17328
+    - 17329
+    - 17330
+    - 17331
+    - 17332
+    - 17333
+    - 17334
+    - 17335
+    - 17336
+    - 17337
+    - 17338
+    - 17339
+    - 17340
+    - 17341
+    - 17342
+    - 17343
+    - 17344
+    - 17345
+    - 17346
+    - 17347
+    - 17348
+    - 17349
+    - 17350
+    - 17351
+    - 17352
+    - 17353
+    - 17354
+    - 17355
+    - 17356
+    - 17357
+    - 17358
+    - 17359
+    - 17360
+    - 17361
+    - 17362
+    - 17363
+    - 17364
+    - 17365
+    - 17366
+    - 17367
+    - 17368
+    - 17369
+    - 17370
+    - 17371
+    - 17372
+    - 17373
+    - 17374
+    - 17375
+    - 17376
+    - 17377
+    - 17378
+    - 17379
+    - 17380
+    - 17381
+    - 17382
+    - 17383
+    - 17384
+    - 17385
+    - 17386
+    - 17387
+    - 17388
+    - 17389
+    - 17390
+    - 17391
+    - 17392
+    - 17393
+    - 17394
+    - 17395
+    - 17396
+    - 17397
+    - 17398
+    - 17399
+    - 17400
+    - 17401
+    - 17448
+    - 17449
+    - 17450
+    - 17451
+    - 17452
+    - 17453
+    - 17454
+    - 17455
+    - 17456
+    - 17457
+    - 17458
+    - 17459
+    - 17460
+    - 17461
+    - 17462
+    - 17463
+    - 17464
+    - 17465
+    - 17466
+    - 17467
+    - 17468
+    - 17469
+    - 17470
+    - 17471
+    - 17472
+    - 17473
+    - 17474
+    - 17475
+    - 17476
+    - 17477
+    - 17478
+    - 17479
+    name: Paragon
   Pator Tech School:
     concordRate: 0.8
     faction: Minmatar Republic
@@ -27367,8 +27614,17 @@ corporations:
     - 16243
     - 16346
     - 16347
-    - 17213
-    - 17214
+    - 17404
+    - 17408
+    - 17419
+    - 17420
+    - 17421
+    - 17428
+    - 17429
+    - 17436
+    - 17437
+    - 17444
+    - 17445
     name: State Protectorate
     warfare: Caldari State
   State War Academy:
@@ -29980,8 +30236,17 @@ corporations:
     - 16243
     - 16342
     - 16343
-    - 17219
-    - 17220
+    - 17403
+    - 17407
+    - 17413
+    - 17414
+    - 17415
+    - 17424
+    - 17425
+    - 17432
+    - 17433
+    - 17440
+    - 17441
     name: Tribal Liberation Force
     warfare: Minmatar Republic
   Tronhadar Free Guard:
@@ -30723,6 +30988,10 @@ corporations:
     - 16200
     - 16202
     name: Urban Management
+  Vapor Sea Technologies:
+    faction: EverMore
+    id: 1000429
+    name: Vapor Sea Technologies
   Veles Clade:
     faction: Triglavian Collective
     id: 1000292
@@ -30812,6 +31081,10 @@ corporations:
     - 17094
     - 17183
     name: Veles Clade
+  Verity Enhancements:
+    faction: EverMore
+    id: 1000428
+    name: Verity Enhancements
   Vherokior Combat Logistics:
     faction: Minmatar Republic
     id: 1000252
@@ -30982,7 +31255,7 @@ corporations:
     id: 1000274
     name: Vigilant Tyrannos
   Villore Sec Ops:
-    faction: Gallente Federation
+    faction: EverMore
     id: 1000217
     name: Villore Sec Ops
   Vimoksha Chorus:
@@ -31971,7 +32244,7 @@ corporations:
     name: Zainou
   Zero-G Research Firm:
     concordRate: 0.8
-    faction: Caldari State
+    faction: EverMore
     id: 1000021
     lpoffers:
     - 3414

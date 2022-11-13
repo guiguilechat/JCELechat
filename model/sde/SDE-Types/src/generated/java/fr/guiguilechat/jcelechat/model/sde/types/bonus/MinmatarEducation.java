@@ -131,7 +131,7 @@ public class MinmatarEducation
         implements IMetaGroup<MinmatarEducation>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/MinmatarEducation.yaml";
-        private Map<String, MinmatarEducation> cache = (null);
+        private Map<Integer, MinmatarEducation> cache = (null);
 
         @Override
         public IMetaCategory<? super MinmatarEducation> category() {
@@ -149,7 +149,7 @@ public class MinmatarEducation
         }
 
         @Override
-        public synchronized Map<String, MinmatarEducation> load() {
+        public synchronized Map<Integer, MinmatarEducation> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MinmatarEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -163,7 +163,7 @@ public class MinmatarEducation
         }
 
         private static class Container {
-            public LinkedHashMap<String, MinmatarEducation> types;
+            public LinkedHashMap<Integer, MinmatarEducation> types;
         }
     }
 }

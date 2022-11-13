@@ -1193,7 +1193,7 @@ public class AmarrNavyRoamingBattleship
         implements IMetaGroup<AmarrNavyRoamingBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AmarrNavyRoamingBattleship.yaml";
-        private Map<String, AmarrNavyRoamingBattleship> cache = (null);
+        private Map<Integer, AmarrNavyRoamingBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super AmarrNavyRoamingBattleship> category() {
@@ -1211,7 +1211,7 @@ public class AmarrNavyRoamingBattleship
         }
 
         @Override
-        public synchronized Map<String, AmarrNavyRoamingBattleship> load() {
+        public synchronized Map<Integer, AmarrNavyRoamingBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AmarrNavyRoamingBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1225,7 +1225,7 @@ public class AmarrNavyRoamingBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, AmarrNavyRoamingBattleship> types;
+            public LinkedHashMap<Integer, AmarrNavyRoamingBattleship> types;
         }
     }
 }

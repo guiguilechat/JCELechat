@@ -38,7 +38,7 @@ public class PlanetSolidRawResource
         implements IMetaGroup<PlanetSolidRawResource>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryresources/PlanetSolidRawResource.yaml";
-        private Map<String, PlanetSolidRawResource> cache = (null);
+        private Map<Integer, PlanetSolidRawResource> cache = (null);
 
         @Override
         public IMetaCategory<? super PlanetSolidRawResource> category() {
@@ -56,7 +56,7 @@ public class PlanetSolidRawResource
         }
 
         @Override
-        public synchronized Map<String, PlanetSolidRawResource> load() {
+        public synchronized Map<Integer, PlanetSolidRawResource> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PlanetSolidRawResource.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -70,7 +70,7 @@ public class PlanetSolidRawResource
         }
 
         private static class Container {
-            public LinkedHashMap<String, PlanetSolidRawResource> types;
+            public LinkedHashMap<Integer, PlanetSolidRawResource> types;
         }
     }
 }

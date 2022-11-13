@@ -1013,7 +1013,7 @@ public class AmarrNavyRoamingFrigate
         implements IMetaGroup<AmarrNavyRoamingFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AmarrNavyRoamingFrigate.yaml";
-        private Map<String, AmarrNavyRoamingFrigate> cache = (null);
+        private Map<Integer, AmarrNavyRoamingFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super AmarrNavyRoamingFrigate> category() {
@@ -1031,7 +1031,7 @@ public class AmarrNavyRoamingFrigate
         }
 
         @Override
-        public synchronized Map<String, AmarrNavyRoamingFrigate> load() {
+        public synchronized Map<Integer, AmarrNavyRoamingFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AmarrNavyRoamingFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1045,7 +1045,7 @@ public class AmarrNavyRoamingFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, AmarrNavyRoamingFrigate> types;
+            public LinkedHashMap<Integer, AmarrNavyRoamingFrigate> types;
         }
     }
 }

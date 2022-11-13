@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Moon Ore Grading Processor I:
+  46637:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -25,7 +25,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Moon Ore Grading Processor II:
+  46638:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

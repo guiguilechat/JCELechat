@@ -188,7 +188,7 @@ public class Armor
         implements IMetaGroup<Armor>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Armor.yaml";
-        private Map<String, Armor> cache = (null);
+        private Map<Integer, Armor> cache = (null);
 
         @Override
         public IMetaCategory<? super Armor> category() {
@@ -206,7 +206,7 @@ public class Armor
         }
 
         @Override
-        public synchronized Map<String, Armor> load() {
+        public synchronized Map<Integer, Armor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Armor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -220,7 +220,7 @@ public class Armor
         }
 
         private static class Container {
-            public LinkedHashMap<String, Armor> types;
+            public LinkedHashMap<Integer, Armor> types;
         }
     }
 }

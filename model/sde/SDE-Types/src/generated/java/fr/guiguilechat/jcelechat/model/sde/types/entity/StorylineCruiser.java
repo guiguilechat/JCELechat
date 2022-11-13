@@ -1241,7 +1241,7 @@ public class StorylineCruiser
         implements IMetaGroup<StorylineCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/StorylineCruiser.yaml";
-        private Map<String, StorylineCruiser> cache = (null);
+        private Map<Integer, StorylineCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super StorylineCruiser> category() {
@@ -1259,7 +1259,7 @@ public class StorylineCruiser
         }
 
         @Override
-        public synchronized Map<String, StorylineCruiser> load() {
+        public synchronized Map<Integer, StorylineCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StorylineCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1273,7 +1273,7 @@ public class StorylineCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, StorylineCruiser> types;
+            public LinkedHashMap<Integer, StorylineCruiser> types;
         }
     }
 }

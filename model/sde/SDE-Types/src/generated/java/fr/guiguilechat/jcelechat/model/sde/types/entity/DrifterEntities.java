@@ -1181,7 +1181,7 @@ public class DrifterEntities
         implements IMetaGroup<DrifterEntities>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DrifterEntities.yaml";
-        private Map<String, DrifterEntities> cache = (null);
+        private Map<Integer, DrifterEntities> cache = (null);
 
         @Override
         public IMetaCategory<? super DrifterEntities> category() {
@@ -1199,7 +1199,7 @@ public class DrifterEntities
         }
 
         @Override
-        public synchronized Map<String, DrifterEntities> load() {
+        public synchronized Map<Integer, DrifterEntities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DrifterEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1213,7 +1213,7 @@ public class DrifterEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, DrifterEntities> types;
+            public LinkedHashMap<Integer, DrifterEntities> types;
         }
     }
 }

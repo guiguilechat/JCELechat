@@ -253,7 +253,7 @@ public class FestivalChargesExpired
         implements IMetaGroup<FestivalChargesExpired>
     {
         public static final String RESOURCE_PATH = "SDE/types/specialeditionassets/FestivalChargesExpired.yaml";
-        private Map<String, FestivalChargesExpired> cache = (null);
+        private Map<Integer, FestivalChargesExpired> cache = (null);
 
         @Override
         public IMetaCategory<? super FestivalChargesExpired> category() {
@@ -271,7 +271,7 @@ public class FestivalChargesExpired
         }
 
         @Override
-        public synchronized Map<String, FestivalChargesExpired> load() {
+        public synchronized Map<Integer, FestivalChargesExpired> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FestivalChargesExpired.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class FestivalChargesExpired
         }
 
         private static class Container {
-            public LinkedHashMap<String, FestivalChargesExpired> types;
+            public LinkedHashMap<Integer, FestivalChargesExpired> types;
         }
     }
 }

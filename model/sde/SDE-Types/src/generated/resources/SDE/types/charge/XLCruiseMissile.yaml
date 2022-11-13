@@ -1,67 +1,5 @@
 types:
-  Guristas Inferno XL Cruise Missile:
-    agility: 4.363462267065188E-6
-    aimedlaunch: 1
-    aoecloudsize: 6000
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 40
-    detonationrange: 35
-    explosiondelay: 15000
-    hp: 1920.0
-    id: 2182
-    launchergroup: 1674
-    marketGroup: 1317
-    mass: 1500.0
-    maxvelocity: 7000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Guristas Inferno XL Cruise Missile
-    packagedVolume: 0.30000001192092896
-    portionSize: 100
-    price: 325000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 32435
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 5225.0
-    volume: 0.30000001192092896
-  Guristas Mjolnir XL Cruise Missile:
-    agility: 4.363462267065188E-6
-    aimedlaunch: 1
-    aoecloudsize: 6000
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 40
-    detonationrange: 35
-    emdamage: 5225.0
-    explosiondelay: 15000
-    hp: 1920.0
-    id: 2188
-    launchergroup: 1674
-    marketGroup: 1317
-    mass: 1500.0
-    maxvelocity: 7000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Guristas Mjolnir XL Cruise Missile
-    packagedVolume: 0.30000001192092896
-    portionSize: 100
-    price: 350000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 32435
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.30000001192092896
-  Guristas Nova XL Cruise Missile:
+  2178:
     agility: 4.363462267065188E-6
     aimedlaunch: 1
     aoecloudsize: 6000
@@ -92,7 +30,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.30000001192092896
-  Guristas Scourge XL Cruise Missile:
+  2180:
     agility: 4.363462267065188E-6
     aimedlaunch: 1
     aoecloudsize: 6000
@@ -123,7 +61,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.30000001192092896
-  Inferno XL Cruise Missile:
+  2182:
     agility: 4.363462267065188E-6
     aimedlaunch: 1
     aoecloudsize: 6000
@@ -133,12 +71,14 @@ types:
     detonationrange: 35
     explosiondelay: 15000
     hp: 1920.0
-    id: 32440
+    id: 2182
     launchergroup: 1674
-    marketGroup: 1287
+    marketGroup: 1317
     mass: 1500.0
     maxvelocity: 7000.0
-    name: Inferno XL Cruise Missile
+    metagroupid: 4
+    metalevelold: 8
+    name: Guristas Inferno XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 325000.0
@@ -150,9 +90,9 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 4750.0
+    thermaldamage: 5225.0
     volume: 0.30000001192092896
-  Mjolnir XL Cruise Missile:
+  2188:
     agility: 4.363462267065188E-6
     aimedlaunch: 1
     aoecloudsize: 6000
@@ -160,15 +100,17 @@ types:
     aoefalloff: 1500
     aoevelocity: 40
     detonationrange: 35
-    emdamage: 4750.0
+    emdamage: 5225.0
     explosiondelay: 15000
     hp: 1920.0
-    id: 32442
+    id: 2188
     launchergroup: 1674
-    marketGroup: 1287
+    marketGroup: 1317
     mass: 1500.0
     maxvelocity: 7000.0
-    name: Mjolnir XL Cruise Missile
+    metagroupid: 4
+    metalevelold: 8
+    name: Guristas Mjolnir XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 350000.0
@@ -181,7 +123,36 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.30000001192092896
-  Nova XL Cruise Missile:
+  32436:
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 6000
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 40
+    detonationrange: 35
+    explosiondelay: 15000
+    hp: 1920.0
+    id: 32436
+    kineticdamage: 4750.0
+    launchergroup: 1674
+    marketGroup: 1287
+    mass: 1500.0
+    maxvelocity: 7000.0
+    name: Scourge XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
+    price: 300000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 32435
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.30000001192092896
+  32438:
     agility: 4.363462267065188E-6
     aimedlaunch: 1
     aoecloudsize: 6000
@@ -210,7 +181,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.30000001192092896
-  Scourge XL Cruise Missile:
+  32440:
     agility: 4.363462267065188E-6
     aimedlaunch: 1
     aoecloudsize: 6000
@@ -220,16 +191,45 @@ types:
     detonationrange: 35
     explosiondelay: 15000
     hp: 1920.0
-    id: 32436
-    kineticdamage: 4750.0
+    id: 32440
     launchergroup: 1674
     marketGroup: 1287
     mass: 1500.0
     maxvelocity: 7000.0
-    name: Scourge XL Cruise Missile
+    name: Inferno XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 300000.0
+    price: 325000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 32435
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 4750.0
+    volume: 0.30000001192092896
+  32442:
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 6000
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 40
+    detonationrange: 35
+    emdamage: 4750.0
+    explosiondelay: 15000
+    hp: 1920.0
+    id: 32442
+    launchergroup: 1674
+    marketGroup: 1287
+    mass: 1500.0
+    maxvelocity: 7000.0
+    name: Mjolnir XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
+    price: 350000.0
     published: true
     radius: 300.0
     requiredskill1: 32435

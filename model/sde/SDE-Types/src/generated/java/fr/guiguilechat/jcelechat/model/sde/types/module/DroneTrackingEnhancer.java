@@ -181,7 +181,7 @@ public class DroneTrackingEnhancer
         implements IMetaGroup<DroneTrackingEnhancer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/DroneTrackingEnhancer.yaml";
-        private Map<String, DroneTrackingEnhancer> cache = (null);
+        private Map<Integer, DroneTrackingEnhancer> cache = (null);
 
         @Override
         public IMetaCategory<? super DroneTrackingEnhancer> category() {
@@ -199,7 +199,7 @@ public class DroneTrackingEnhancer
         }
 
         @Override
-        public synchronized Map<String, DroneTrackingEnhancer> load() {
+        public synchronized Map<Integer, DroneTrackingEnhancer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DroneTrackingEnhancer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class DroneTrackingEnhancer
         }
 
         private static class Container {
-            public LinkedHashMap<String, DroneTrackingEnhancer> types;
+            public LinkedHashMap<Integer, DroneTrackingEnhancer> types;
         }
     }
 }

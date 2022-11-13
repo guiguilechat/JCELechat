@@ -32,7 +32,7 @@ public class StructureEntities
         implements IMetaGroup<StructureEntities>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/StructureEntities.yaml";
-        private Map<String, StructureEntities> cache = (null);
+        private Map<Integer, StructureEntities> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEntities> category() {
@@ -50,7 +50,7 @@ public class StructureEntities
         }
 
         @Override
-        public synchronized Map<String, StructureEntities> load() {
+        public synchronized Map<Integer, StructureEntities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class StructureEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEntities> types;
+            public LinkedHashMap<Integer, StructureEntities> types;
         }
     }
 }

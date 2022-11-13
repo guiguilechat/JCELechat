@@ -1,22 +1,20 @@
 types:
-  Acceleration Control:
+  3449:
     cannotbetrainedontrial: 1
-    id: 3452
+    id: 3449
     marketGroup: 374
-    name: Acceleration Control
+    name: Navigation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 50000.0
+    price: 30000.0
     primaryattribute: 165
     published: true
     radius: 1.0
-    requiredskill1: 3449
-    requiredskill1level: 3
     secondaryattribute: 167
-    skilltimeconstant: 4.0
-    speedfbonus: 5
+    skilltimeconstant: 1.0
+    velocitybonus: 5.0
     volume: 0.009999999776482582
-  Afterburner:
+  3450:
     cannotbetrainedontrial: 1
     capneedbonus: -10
     durationbonus: -5
@@ -34,41 +32,7 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Cynosural Field Theory:
-    cannotbetrainedontrial: 1
-    consumptionquantitybonuspercentage: -10
-    id: 21603
-    marketGroup: 374
-    name: Cynosural Field Theory
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E7
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 5
-    secondaryattribute: 166
-    skilltimeconstant: 5.0
-    volume: 0.009999999776482582
-  Evasive Maneuvering:
-    agilitybonus: -5.0
-    cannotbetrainedontrial: 1
-    id: 3453
-    marketGroup: 374
-    name: Evasive Maneuvering
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 35000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3449
-    requiredskill1level: 2
-    secondaryattribute: 167
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Fuel Conservation:
+  3451:
     cannotbetrainedontrial: 1
     capneedbonus: -10
     id: 3451
@@ -87,7 +51,41 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  High Speed Maneuvering:
+  3452:
+    cannotbetrainedontrial: 1
+    id: 3452
+    marketGroup: 374
+    name: Acceleration Control
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 50000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3449
+    requiredskill1level: 3
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
+    speedfbonus: 5
+    volume: 0.009999999776482582
+  3453:
+    agilitybonus: -5.0
+    cannotbetrainedontrial: 1
+    id: 3453
+    marketGroup: 374
+    name: Evasive Maneuvering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 35000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3449
+    requiredskill1level: 2
+    secondaryattribute: 167
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  3454:
     cannotbetrainedontrial: 1
     capneedbonus: -5
     id: 3454
@@ -106,24 +104,24 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
-  Jump Drive Calibration:
+  3455:
     cannotbetrainedontrial: 1
-    id: 21611
-    jumpdriverangebonus: 20
+    id: 3455
     marketGroup: 374
-    name: Jump Drive Calibration
+    name: Warp Drive Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 45000.0
     primaryattribute: 165
     published: true
     radius: 1.0
-    requiredskill1: 3456
-    requiredskill1level: 5
+    requiredskill1: 3449
+    requiredskill1level: 1
     secondaryattribute: 167
-    skilltimeconstant: 9.0
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Jump Drive Operation:
+    warpcapacitorneedbonus: -10
+  3456:
     cannotbetrainedontrial: 1
     id: 3456
     jumpdrivecapacitorneedbonus: -5
@@ -144,7 +142,43 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
-  Jump Fuel Conservation:
+  4385:
+    cannotbetrainedontrial: 1
+    durationbonus: -5
+    id: 4385
+    marketGroup: 374
+    name: Micro Jump Drive Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3449
+    requiredskill1level: 4
+    requiredskill2: 3455
+    requiredskill2level: 2
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  21603:
+    cannotbetrainedontrial: 1
+    consumptionquantitybonuspercentage: -10
+    id: 21603
+    marketGroup: 374
+    name: Cynosural Field Theory
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  21610:
     cannotbetrainedontrial: 1
     consumptionquantitybonuspercentage: -10
     id: 21610
@@ -161,7 +195,24 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 8.0
     volume: 0.009999999776482582
-  Jump Portal Generation:
+  21611:
+    cannotbetrainedontrial: 1
+    id: 21611
+    jumpdriverangebonus: 20
+    marketGroup: 374
+    name: Jump Drive Calibration
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3456
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 9.0
+    volume: 0.009999999776482582
+  24562:
     cannotbetrainedontrial: 1
     consumptionquantitybonuspercent: -10
     id: 24562
@@ -182,54 +233,3 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 14.0
     volume: 0.009999999776482582
-  Micro Jump Drive Operation:
-    cannotbetrainedontrial: 1
-    durationbonus: -5
-    id: 4385
-    marketGroup: 374
-    name: Micro Jump Drive Operation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3449
-    requiredskill1level: 4
-    requiredskill2: 3455
-    requiredskill2level: 2
-    secondaryattribute: 167
-    skilltimeconstant: 5.0
-    volume: 0.009999999776482582
-  Navigation:
-    cannotbetrainedontrial: 1
-    id: 3449
-    marketGroup: 374
-    name: Navigation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 30000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    secondaryattribute: 167
-    skilltimeconstant: 1.0
-    velocitybonus: 5.0
-    volume: 0.009999999776482582
-  Warp Drive Operation:
-    cannotbetrainedontrial: 1
-    id: 3455
-    marketGroup: 374
-    name: Warp Drive Operation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 45000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3449
-    requiredskill1level: 1
-    secondaryattribute: 167
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-    warpcapacitorneedbonus: -10

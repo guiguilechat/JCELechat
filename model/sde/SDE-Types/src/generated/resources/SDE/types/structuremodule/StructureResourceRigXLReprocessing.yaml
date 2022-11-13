@@ -1,5 +1,5 @@
 types:
-  Standup XL-Set Reprocessing Monitor I:
+  46641:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     hisecmodifier: 1.0
@@ -24,7 +24,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 40.0
-  Standup XL-Set Reprocessing Monitor II:
+  46642:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     hisecmodifier: 1.0

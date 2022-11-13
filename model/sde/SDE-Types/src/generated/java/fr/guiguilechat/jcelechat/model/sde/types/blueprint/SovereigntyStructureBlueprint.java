@@ -83,7 +83,7 @@ public class SovereigntyStructureBlueprint
         implements IMetaGroup<SovereigntyStructureBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SovereigntyStructureBlueprint.yaml";
-        private Map<String, SovereigntyStructureBlueprint> cache = (null);
+        private Map<Integer, SovereigntyStructureBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SovereigntyStructureBlueprint> category() {
@@ -101,7 +101,7 @@ public class SovereigntyStructureBlueprint
         }
 
         @Override
-        public synchronized Map<String, SovereigntyStructureBlueprint> load() {
+        public synchronized Map<Integer, SovereigntyStructureBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SovereigntyStructureBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class SovereigntyStructureBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SovereigntyStructureBlueprint> types;
+            public LinkedHashMap<Integer, SovereigntyStructureBlueprint> types;
         }
     }
 }

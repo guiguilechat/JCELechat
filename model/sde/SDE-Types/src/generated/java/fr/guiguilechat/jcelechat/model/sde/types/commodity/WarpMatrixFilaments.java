@@ -81,7 +81,7 @@ public class WarpMatrixFilaments
         implements IMetaGroup<WarpMatrixFilaments>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/WarpMatrixFilaments.yaml";
-        private Map<String, WarpMatrixFilaments> cache = (null);
+        private Map<Integer, WarpMatrixFilaments> cache = (null);
 
         @Override
         public IMetaCategory<? super WarpMatrixFilaments> category() {
@@ -99,7 +99,7 @@ public class WarpMatrixFilaments
         }
 
         @Override
-        public synchronized Map<String, WarpMatrixFilaments> load() {
+        public synchronized Map<Integer, WarpMatrixFilaments> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WarpMatrixFilaments.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -113,7 +113,7 @@ public class WarpMatrixFilaments
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpMatrixFilaments> types;
+            public LinkedHashMap<Integer, WarpMatrixFilaments> types;
         }
     }
 }

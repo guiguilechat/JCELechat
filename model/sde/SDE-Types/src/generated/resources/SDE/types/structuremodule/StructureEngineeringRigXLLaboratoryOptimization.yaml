@@ -1,33 +1,5 @@
 types:
-  Standup XL-Set Laboratory Optimization I:
-    attributeengrigcostbonus: -10
-    attributeengrigtimebonus: -20
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    hisecmodifier: 1.0
-    hp: 40.0
-    id: 37183
-    lowsecmodifier: 1.899999976158142
-    marketGroup: 2349
-    mass: 200.0
-    maxgroupfitted: 1
-    name: Standup XL-Set Laboratory Optimization I
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    requiredskill1: 26252
-    requiredskill1level: 1
-    rigsize: 4
-    securitymodifier: 1
-    structureitemvisualflag: 1
-    structurerigbonus1: 40
-    structurerigbonus2: 4.0
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Standup XL-Set Laboratory Optimization II:
+  37182:
     attributeengrigcostbonus: -12
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657
@@ -54,4 +26,32 @@ types:
     structurerigbonus2: 3.200000047683716
     techlevel: 2
     upgradecost: 150
+    volume: 40.0
+  37183:
+    attributeengrigcostbonus: -10
+    attributeengrigtimebonus: -20
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    hisecmodifier: 1.0
+    hp: 40.0
+    id: 37183
+    lowsecmodifier: 1.899999976158142
+    marketGroup: 2349
+    mass: 200.0
+    maxgroupfitted: 1
+    name: Standup XL-Set Laboratory Optimization I
+    nullsecmodifier: 2.0999999046325684
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 4
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    structurerigbonus1: 40
+    structurerigbonus2: 4.0
+    techlevel: 1
+    upgradecost: 100
     volume: 40.0

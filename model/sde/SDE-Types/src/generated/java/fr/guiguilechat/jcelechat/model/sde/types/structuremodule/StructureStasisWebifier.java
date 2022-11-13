@@ -314,7 +314,7 @@ public class StructureStasisWebifier
         implements IMetaGroup<StructureStasisWebifier>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureStasisWebifier.yaml";
-        private Map<String, StructureStasisWebifier> cache = (null);
+        private Map<Integer, StructureStasisWebifier> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureStasisWebifier> category() {
@@ -332,7 +332,7 @@ public class StructureStasisWebifier
         }
 
         @Override
-        public synchronized Map<String, StructureStasisWebifier> load() {
+        public synchronized Map<Integer, StructureStasisWebifier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureStasisWebifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -346,7 +346,7 @@ public class StructureStasisWebifier
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureStasisWebifier> types;
+            public LinkedHashMap<Integer, StructureStasisWebifier> types;
         }
     }
 }

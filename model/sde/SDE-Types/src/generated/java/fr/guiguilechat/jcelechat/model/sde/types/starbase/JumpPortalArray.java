@@ -294,7 +294,7 @@ public class JumpPortalArray
         implements IMetaGroup<JumpPortalArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/JumpPortalArray.yaml";
-        private Map<String, JumpPortalArray> cache = (null);
+        private Map<Integer, JumpPortalArray> cache = (null);
 
         @Override
         public IMetaCategory<? super JumpPortalArray> category() {
@@ -312,7 +312,7 @@ public class JumpPortalArray
         }
 
         @Override
-        public synchronized Map<String, JumpPortalArray> load() {
+        public synchronized Map<Integer, JumpPortalArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(JumpPortalArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -326,7 +326,7 @@ public class JumpPortalArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpPortalArray> types;
+            public LinkedHashMap<Integer, JumpPortalArray> types;
         }
     }
 }

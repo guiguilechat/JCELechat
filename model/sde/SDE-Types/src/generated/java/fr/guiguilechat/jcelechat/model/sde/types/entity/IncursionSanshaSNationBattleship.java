@@ -1219,7 +1219,7 @@ public class IncursionSanshaSNationBattleship
         implements IMetaGroup<IncursionSanshaSNationBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IncursionSanshaSNationBattleship.yaml";
-        private Map<String, IncursionSanshaSNationBattleship> cache = (null);
+        private Map<Integer, IncursionSanshaSNationBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super IncursionSanshaSNationBattleship> category() {
@@ -1237,7 +1237,7 @@ public class IncursionSanshaSNationBattleship
         }
 
         @Override
-        public synchronized Map<String, IncursionSanshaSNationBattleship> load() {
+        public synchronized Map<Integer, IncursionSanshaSNationBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IncursionSanshaSNationBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1251,7 +1251,7 @@ public class IncursionSanshaSNationBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, IncursionSanshaSNationBattleship> types;
+            public LinkedHashMap<Integer, IncursionSanshaSNationBattleship> types;
         }
     }
 }

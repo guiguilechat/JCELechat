@@ -31,7 +31,7 @@ public class WorldSpace
         implements IMetaGroup<WorldSpace>
     {
         public static final String RESOURCE_PATH = "SDE/types/worldspace/WorldSpace.yaml";
-        private Map<String, WorldSpace> cache = (null);
+        private Map<Integer, WorldSpace> cache = (null);
 
         @Override
         public IMetaCategory<? super WorldSpace> category() {
@@ -49,7 +49,7 @@ public class WorldSpace
         }
 
         @Override
-        public synchronized Map<String, WorldSpace> load() {
+        public synchronized Map<Integer, WorldSpace> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WorldSpace.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -63,7 +63,7 @@ public class WorldSpace
         }
 
         private static class Container {
-            public LinkedHashMap<String, WorldSpace> types;
+            public LinkedHashMap<Integer, WorldSpace> types;
         }
     }
 }

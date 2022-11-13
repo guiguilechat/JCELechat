@@ -181,7 +181,7 @@ public class EnergizedArmorMembrane
         implements IMetaGroup<EnergizedArmorMembrane>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/EnergizedArmorMembrane.yaml";
-        private Map<String, EnergizedArmorMembrane> cache = (null);
+        private Map<Integer, EnergizedArmorMembrane> cache = (null);
 
         @Override
         public IMetaCategory<? super EnergizedArmorMembrane> category() {
@@ -199,7 +199,7 @@ public class EnergizedArmorMembrane
         }
 
         @Override
-        public synchronized Map<String, EnergizedArmorMembrane> load() {
+        public synchronized Map<Integer, EnergizedArmorMembrane> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EnergizedArmorMembrane.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class EnergizedArmorMembrane
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergizedArmorMembrane> types;
+            public LinkedHashMap<Integer, EnergizedArmorMembrane> types;
         }
     }
 }

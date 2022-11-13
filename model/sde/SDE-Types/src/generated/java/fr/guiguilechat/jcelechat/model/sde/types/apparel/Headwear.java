@@ -88,7 +88,7 @@ public class Headwear
         implements IMetaGroup<Headwear>
     {
         public static final String RESOURCE_PATH = "SDE/types/apparel/Headwear.yaml";
-        private Map<String, Headwear> cache = (null);
+        private Map<Integer, Headwear> cache = (null);
 
         @Override
         public IMetaCategory<? super Headwear> category() {
@@ -106,7 +106,7 @@ public class Headwear
         }
 
         @Override
-        public synchronized Map<String, Headwear> load() {
+        public synchronized Map<Integer, Headwear> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Headwear.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -120,7 +120,7 @@ public class Headwear
         }
 
         private static class Container {
-            public LinkedHashMap<String, Headwear> types;
+            public LinkedHashMap<Integer, Headwear> types;
         }
     }
 }

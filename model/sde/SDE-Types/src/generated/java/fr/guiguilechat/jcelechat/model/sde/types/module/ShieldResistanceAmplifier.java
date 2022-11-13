@@ -181,7 +181,7 @@ public class ShieldResistanceAmplifier
         implements IMetaGroup<ShieldResistanceAmplifier>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ShieldResistanceAmplifier.yaml";
-        private Map<String, ShieldResistanceAmplifier> cache = (null);
+        private Map<Integer, ShieldResistanceAmplifier> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldResistanceAmplifier> category() {
@@ -199,7 +199,7 @@ public class ShieldResistanceAmplifier
         }
 
         @Override
-        public synchronized Map<String, ShieldResistanceAmplifier> load() {
+        public synchronized Map<Integer, ShieldResistanceAmplifier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldResistanceAmplifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class ShieldResistanceAmplifier
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldResistanceAmplifier> types;
+            public LinkedHashMap<Integer, ShieldResistanceAmplifier> types;
         }
     }
 }

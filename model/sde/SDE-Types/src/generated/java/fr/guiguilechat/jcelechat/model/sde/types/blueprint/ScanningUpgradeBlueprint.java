@@ -97,7 +97,7 @@ public class ScanningUpgradeBlueprint
         implements IMetaGroup<ScanningUpgradeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ScanningUpgradeBlueprint.yaml";
-        private Map<String, ScanningUpgradeBlueprint> cache = (null);
+        private Map<Integer, ScanningUpgradeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ScanningUpgradeBlueprint> category() {
@@ -115,7 +115,7 @@ public class ScanningUpgradeBlueprint
         }
 
         @Override
-        public synchronized Map<String, ScanningUpgradeBlueprint> load() {
+        public synchronized Map<Integer, ScanningUpgradeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ScanningUpgradeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ScanningUpgradeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScanningUpgradeBlueprint> types;
+            public LinkedHashMap<Integer, ScanningUpgradeBlueprint> types;
         }
     }
 }

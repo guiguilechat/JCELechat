@@ -518,7 +518,7 @@ public class MiningBarge
         implements IMetaGroup<MiningBarge>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/MiningBarge.yaml";
-        private Map<String, MiningBarge> cache = (null);
+        private Map<Integer, MiningBarge> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningBarge> category() {
@@ -536,7 +536,7 @@ public class MiningBarge
         }
 
         @Override
-        public synchronized Map<String, MiningBarge> load() {
+        public synchronized Map<Integer, MiningBarge> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningBarge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -550,7 +550,7 @@ public class MiningBarge
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningBarge> types;
+            public LinkedHashMap<Integer, MiningBarge> types;
         }
     }
 }

@@ -32,7 +32,7 @@ public class Drugs
         implements IMetaGroup<Drugs>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Drugs.yaml";
-        private Map<String, Drugs> cache = (null);
+        private Map<Integer, Drugs> cache = (null);
 
         @Override
         public IMetaCategory<? super Drugs> category() {
@@ -50,7 +50,7 @@ public class Drugs
         }
 
         @Override
-        public synchronized Map<String, Drugs> load() {
+        public synchronized Map<Integer, Drugs> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Drugs.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Drugs
         }
 
         private static class Container {
-            public LinkedHashMap<String, Drugs> types;
+            public LinkedHashMap<Integer, Drugs> types;
         }
     }
 }

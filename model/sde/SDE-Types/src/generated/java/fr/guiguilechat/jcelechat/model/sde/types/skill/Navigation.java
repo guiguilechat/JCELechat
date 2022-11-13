@@ -236,7 +236,7 @@ public class Navigation
         implements IMetaGroup<Navigation>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Navigation.yaml";
-        private Map<String, Navigation> cache = (null);
+        private Map<Integer, Navigation> cache = (null);
 
         @Override
         public IMetaCategory<? super Navigation> category() {
@@ -254,7 +254,7 @@ public class Navigation
         }
 
         @Override
-        public synchronized Map<String, Navigation> load() {
+        public synchronized Map<Integer, Navigation> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Navigation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -268,7 +268,7 @@ public class Navigation
         }
 
         private static class Container {
-            public LinkedHashMap<String, Navigation> types;
+            public LinkedHashMap<Integer, Navigation> types;
         }
     }
 }

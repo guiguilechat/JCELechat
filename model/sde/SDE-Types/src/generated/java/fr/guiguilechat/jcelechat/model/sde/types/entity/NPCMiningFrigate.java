@@ -543,7 +543,7 @@ public class NPCMiningFrigate
         implements IMetaGroup<NPCMiningFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCMiningFrigate.yaml";
-        private Map<String, NPCMiningFrigate> cache = (null);
+        private Map<Integer, NPCMiningFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCMiningFrigate> category() {
@@ -561,7 +561,7 @@ public class NPCMiningFrigate
         }
 
         @Override
-        public synchronized Map<String, NPCMiningFrigate> load() {
+        public synchronized Map<Integer, NPCMiningFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCMiningFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -575,7 +575,7 @@ public class NPCMiningFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCMiningFrigate> types;
+            public LinkedHashMap<Integer, NPCMiningFrigate> types;
         }
     }
 }

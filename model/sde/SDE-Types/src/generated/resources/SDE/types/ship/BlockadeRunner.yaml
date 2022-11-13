@@ -1,5 +1,5 @@
 types:
-  Crane:
+  12729:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.5099999904632568
     allowedincapindustrialmaintenancebay: 1
@@ -94,7 +94,7 @@ types:
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0
     weapondisruptionresistance: 1.0
-  Prorator:
+  12733:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.5199999809265137
     allowedincapindustrialmaintenancebay: 1
@@ -190,7 +190,7 @@ types:
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0
     weapondisruptionresistance: 1.0
-  Prowler:
+  12735:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.48500001430511475
     allowedincapindustrialmaintenancebay: 1
@@ -287,7 +287,7 @@ types:
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0
     weapondisruptionresistance: 1.0
-  Viator:
+  12743:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.5400000214576721
     allowedincapindustrialmaintenancebay: 1

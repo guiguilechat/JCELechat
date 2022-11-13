@@ -58,7 +58,7 @@ public class CompressedGas
         implements IMetaGroup<CompressedGas>
     {
         public static final String RESOURCE_PATH = "SDE/types/celestial/CompressedGas.yaml";
-        private Map<String, CompressedGas> cache = (null);
+        private Map<Integer, CompressedGas> cache = (null);
 
         @Override
         public IMetaCategory<? super CompressedGas> category() {
@@ -76,7 +76,7 @@ public class CompressedGas
         }
 
         @Override
-        public synchronized Map<String, CompressedGas> load() {
+        public synchronized Map<Integer, CompressedGas> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CompressedGas.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -90,7 +90,7 @@ public class CompressedGas
         }
 
         private static class Container {
-            public LinkedHashMap<String, CompressedGas> types;
+            public LinkedHashMap<Integer, CompressedGas> types;
         }
     }
 }

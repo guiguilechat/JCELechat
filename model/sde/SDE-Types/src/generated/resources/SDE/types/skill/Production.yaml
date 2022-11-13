@@ -1,24 +1,37 @@
 types:
-  Advanced Industrial Ship Construction:
+  3380:
     cannotbetrainedontrial: 1
-    id: 3396
-    manufacturetimeperlevel: -1
+    id: 3380
+    manufacturingtimebonus: -4
     marketGroup: 369
-    name: Advanced Industrial Ship Construction
+    name: Industry
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
-    primaryattribute: 165
+    price: 30000.0
+    primaryattribute: 166
     published: true
     radius: 1.0
-    requiredskill1: 3392
-    requiredskill1level: 2
-    requiredskill2: 3380
-    requiredskill2level: 3
-    secondaryattribute: 166
-    skilltimeconstant: 3.0
+    secondaryattribute: 165
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Advanced Industry:
+  3387:
+    cannotbetrainedontrial: 1
+    id: 3387
+    manufacturingslotbonus: 1
+    marketGroup: 369
+    name: Mass Production
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 200000.0
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill1: 3380
+    requiredskill1level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  3388:
     advancedindustryskillindustryjobtimebonus: -3
     cannotbetrainedontrial: 1
     id: 3388
@@ -35,60 +48,7 @@ types:
     secondaryattribute: 165
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Advanced Large Ship Construction:
-    cannotbetrainedontrial: 1
-    id: 3398
-    manufacturetimeperlevel: -1
-    marketGroup: 369
-    name: Advanced Large Ship Construction
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E7
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3397
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 8.0
-    volume: 0.009999999776482582
-  Advanced Mass Production:
-    cannotbetrainedontrial: 1
-    id: 24625
-    manufacturingslotbonus: 1
-    marketGroup: 369
-    name: Advanced Mass Production
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E7
-    primaryattribute: 166
-    published: true
-    radius: 1.0
-    requiredskill1: 3387
-    requiredskill1level: 5
-    secondaryattribute: 165
-    skilltimeconstant: 8.0
-    volume: 0.009999999776482582
-  Advanced Medium Ship Construction:
-    cannotbetrainedontrial: 1
-    id: 3397
-    manufacturetimeperlevel: -1
-    marketGroup: 369
-    name: Advanced Medium Ship Construction
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3392
-    requiredskill1level: 3
-    requiredskill2: 3395
-    requiredskill2level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 5.0
-    volume: 0.009999999776482582
-  Advanced Small Ship Construction:
+  3395:
     cannotbetrainedontrial: 1
     id: 3395
     manufacturetimeperlevel: -1
@@ -107,74 +67,62 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Capital Ship Construction:
+  3396:
     cannotbetrainedontrial: 1
-    id: 22242
+    id: 3396
+    manufacturetimeperlevel: -1
     marketGroup: 369
-    name: Capital Ship Construction
+    name: Advanced Industrial Ship Construction
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
+    price: 2000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
     requiredskill1: 3392
-    requiredskill1level: 5
+    requiredskill1level: 2
     requiredskill2: 3380
-    requiredskill2level: 5
-    requiredskill3: 3388
-    requiredskill3level: 5
+    requiredskill2level: 3
     secondaryattribute: 166
-    skilltimeconstant: 14.0
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Drug Manufacturing:
+  3397:
     cannotbetrainedontrial: 1
-    durationskillbonus: 1
-    id: 26224
+    id: 3397
+    manufacturetimeperlevel: -1
     marketGroup: 369
-    name: Drug Manufacturing
+    name: Advanced Medium Ship Construction
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
-    primaryattribute: 166
+    price: 1000000.0
+    primaryattribute: 165
     published: true
     radius: 1.0
-    secondaryattribute: 165
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Industry:
-    cannotbetrainedontrial: 1
-    id: 3380
-    manufacturingtimebonus: -4
-    marketGroup: 369
-    name: Industry
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 30000.0
-    primaryattribute: 166
-    published: true
-    radius: 1.0
-    secondaryattribute: 165
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Mass Production:
-    cannotbetrainedontrial: 1
-    id: 3387
-    manufacturingslotbonus: 1
-    marketGroup: 369
-    name: Mass Production
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 200000.0
-    primaryattribute: 166
-    published: true
-    radius: 1.0
-    requiredskill1: 3380
+    requiredskill1: 3392
     requiredskill1level: 3
-    secondaryattribute: 165
-    skilltimeconstant: 2.0
+    requiredskill2: 3395
+    requiredskill2level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
-  Outpost Construction:
+  3398:
+    cannotbetrainedontrial: 1
+    id: 3398
+    manufacturetimeperlevel: -1
+    marketGroup: 369
+    name: Advanced Large Ship Construction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3397
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 8.0
+    volume: 0.009999999776482582
+  3400:
     cannotbetrainedontrial: 1
     id: 3400
     marketGroup: 369
@@ -194,7 +142,27 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 16.0
     volume: 0.009999999776482582
-  Supply Chain Management:
+  22242:
+    cannotbetrainedontrial: 1
+    id: 22242
+    marketGroup: 369
+    name: Capital Ship Construction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E7
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3392
+    requiredskill1level: 5
+    requiredskill2: 3380
+    requiredskill2level: 5
+    requiredskill3: 3388
+    requiredskill3level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 14.0
+    volume: 0.009999999776482582
+  24268:
     cannotbetrainedontrial: 1
     id: 24268
     marketGroup: 369
@@ -209,4 +177,36 @@ types:
     requiredskill1level: 4
     secondaryattribute: 165
     skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  24625:
+    cannotbetrainedontrial: 1
+    id: 24625
+    manufacturingslotbonus: 1
+    marketGroup: 369
+    name: Advanced Mass Production
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E7
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill1: 3387
+    requiredskill1level: 5
+    secondaryattribute: 165
+    skilltimeconstant: 8.0
+    volume: 0.009999999776482582
+  26224:
+    cannotbetrainedontrial: 1
+    durationskillbonus: 1
+    id: 26224
+    marketGroup: 369
+    name: Drug Manufacturing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E7
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    secondaryattribute: 165
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582

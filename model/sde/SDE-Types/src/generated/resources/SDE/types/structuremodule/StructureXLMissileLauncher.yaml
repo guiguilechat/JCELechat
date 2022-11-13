@@ -1,5 +1,5 @@
 types:
-  Standup Anticapital Missile Launcher I:
+  35921:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -23,7 +23,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Anticapital Missile Launcher II:
+  47323:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

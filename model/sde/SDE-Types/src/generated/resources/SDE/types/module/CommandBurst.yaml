@@ -1,5 +1,5 @@
 types:
-  Armor Command Burst I:
+  42526:
     buffduration: 60000
     canfitshipgroup01: 1534
     canfitshipgroup02: 963
@@ -43,54 +43,7 @@ types:
     warfarebuff2value: 1.0
     warfarebuff3value: 1.0
     warfarebuff4value: 1.0
-  Armor Command Burst II:
-    buffduration: 60000
-    canfitshipgroup01: 1534
-    canfitshipgroup02: 963
-    canfitshipgroup03: 419
-    canfitshipgroup04: 540
-    canfitshipgroup05: 941
-    canfitshipgroup06: 883
-    canfitshipgroup07: 547
-    canfitshipgroup08: 1538
-    canfitshipgroup09: 659
-    canfitshipgroup10: 30
-    capacitorneed: 25.0
-    capacity: 3.0
-    chargegroup1: 1774
-    chargerate: 1
-    cpu: 55.0
-    disallowactivateinforcefield: 1
-    disallowdocking: 1
-    disallowtethering: 1
-    duration: 60000.0
-    hp: 40.0
-    id: 43552
-    marketGroup: 1633
-    maxgroupactive: 1
-    maxgrouponline: 1
-    maxrange: 15000.0
-    metalevelold: 5
-    name: Armor Command Burst II
-    packagedVolume: 60.0
-    portionSize: 1
-    power: 110
-    published: true
-    radius: 1.0
-    reloadtime: 60000.0
-    requiredskill1: 3348
-    requiredskill1level: 5
-    requiredskill2: 20494
-    requiredskill2level: 5
-    requiredskill3: 11569
-    requiredskill3level: 1
-    techlevel: 2
-    volume: 60.0
-    warfarebuff1value: 1.25
-    warfarebuff2value: 1.25
-    warfarebuff3value: 1.25
-    warfarebuff4value: 1.25
-  Information Command Burst I:
+  42527:
     buffduration: 60000
     canfitshipgroup01: 1534
     canfitshipgroup02: 963
@@ -134,54 +87,7 @@ types:
     warfarebuff2value: 1.0
     warfarebuff3value: 1.0
     warfarebuff4value: 1.0
-  Information Command Burst II:
-    buffduration: 60000
-    canfitshipgroup01: 1534
-    canfitshipgroup02: 963
-    canfitshipgroup03: 419
-    canfitshipgroup04: 540
-    canfitshipgroup05: 941
-    canfitshipgroup06: 883
-    canfitshipgroup07: 547
-    canfitshipgroup08: 1538
-    canfitshipgroup09: 659
-    canfitshipgroup10: 30
-    capacitorneed: 25.0
-    capacity: 3.0
-    chargegroup1: 1773
-    chargerate: 1
-    cpu: 55.0
-    disallowactivateinforcefield: 1
-    disallowdocking: 1
-    disallowtethering: 1
-    duration: 60000.0
-    hp: 40.0
-    id: 43554
-    marketGroup: 1633
-    maxgroupactive: 1
-    maxgrouponline: 1
-    maxrange: 15000.0
-    metalevelold: 5
-    name: Information Command Burst II
-    packagedVolume: 60.0
-    portionSize: 1
-    power: 110
-    published: true
-    radius: 1.0
-    reloadtime: 60000.0
-    requiredskill1: 3348
-    requiredskill1level: 5
-    requiredskill2: 20495
-    requiredskill2level: 5
-    requiredskill3: 3352
-    requiredskill3level: 1
-    techlevel: 2
-    volume: 60.0
-    warfarebuff1value: 1.25
-    warfarebuff2value: 1.25
-    warfarebuff3value: 1.25
-    warfarebuff4value: 1.25
-  Mining Foreman Burst I:
+  42528:
     buffduration: 60000
     canfitshipgroup01: 1534
     canfitshipgroup02: 963
@@ -225,7 +131,95 @@ types:
     warfarebuff2value: 1.0
     warfarebuff3value: 1.0
     warfarebuff4value: 1.0
-  Mining Foreman Burst II:
+  42529:
+    buffduration: 60000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    capacitorneed: 25.0
+    capacity: 3.0
+    chargegroup1: 1769
+    chargerate: 1
+    cpu: 50.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 42529
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 15000.0
+    name: Shield Command Burst I
+    packagedVolume: 60.0
+    portionSize: 1
+    power: 100
+    published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 1
+    requiredskill2: 3350
+    requiredskill2level: 1
+    techlevel: 1
+    volume: 60.0
+    warfarebuff1value: 1.0
+    warfarebuff2value: 1.0
+    warfarebuff3value: 1.0
+    warfarebuff4value: 1.0
+  42530:
+    buffduration: 60000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    capacitorneed: 25.0
+    capacity: 3.0
+    chargegroup1: 1772
+    chargerate: 1
+    cpu: 50.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 42530
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 15000.0
+    name: Skirmish Command Burst I
+    packagedVolume: 60.0
+    portionSize: 1
+    power: 100
+    published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 1
+    requiredskill2: 3349
+    requiredskill2level: 1
+    techlevel: 1
+    volume: 60.0
+    warfarebuff1value: 1.0
+    warfarebuff2value: 1.0
+    warfarebuff3value: 1.0
+    warfarebuff4value: 1.0
+  43551:
     buffduration: 60000
     canfitshipgroup01: 1534
     canfitshipgroup02: 963
@@ -272,7 +266,7 @@ types:
     warfarebuff2value: 1.25
     warfarebuff3value: 1.25
     warfarebuff4value: 1.25
-  Shield Command Burst I:
+  43552:
     buffduration: 60000
     canfitshipgroup01: 1534
     canfitshipgroup02: 963
@@ -286,37 +280,87 @@ types:
     canfitshipgroup10: 30
     capacitorneed: 25.0
     capacity: 3.0
-    chargegroup1: 1769
+    chargegroup1: 1774
     chargerate: 1
-    cpu: 50.0
+    cpu: 55.0
     disallowactivateinforcefield: 1
     disallowdocking: 1
     disallowtethering: 1
     duration: 60000.0
     hp: 40.0
-    id: 42529
+    id: 43552
     marketGroup: 1633
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 15000.0
-    name: Shield Command Burst I
+    metalevelold: 5
+    name: Armor Command Burst II
     packagedVolume: 60.0
     portionSize: 1
-    power: 100
+    power: 110
     published: true
     radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
-    requiredskill1level: 1
-    requiredskill2: 3350
-    requiredskill2level: 1
-    techlevel: 1
+    requiredskill1level: 5
+    requiredskill2: 20494
+    requiredskill2level: 5
+    requiredskill3: 11569
+    requiredskill3level: 1
+    techlevel: 2
     volume: 60.0
-    warfarebuff1value: 1.0
-    warfarebuff2value: 1.0
-    warfarebuff3value: 1.0
-    warfarebuff4value: 1.0
-  Shield Command Burst II:
+    warfarebuff1value: 1.25
+    warfarebuff2value: 1.25
+    warfarebuff3value: 1.25
+    warfarebuff4value: 1.25
+  43554:
+    buffduration: 60000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    capacitorneed: 25.0
+    capacity: 3.0
+    chargegroup1: 1773
+    chargerate: 1
+    cpu: 55.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 43554
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 15000.0
+    metalevelold: 5
+    name: Information Command Burst II
+    packagedVolume: 60.0
+    portionSize: 1
+    power: 110
+    published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 5
+    requiredskill2: 20495
+    requiredskill2level: 5
+    requiredskill3: 3352
+    requiredskill3level: 1
+    techlevel: 2
+    volume: 60.0
+    warfarebuff1value: 1.25
+    warfarebuff2value: 1.25
+    warfarebuff3value: 1.25
+    warfarebuff4value: 1.25
+  43555:
     buffduration: 60000
     canfitshipgroup01: 1534
     canfitshipgroup02: 963
@@ -363,51 +407,7 @@ types:
     warfarebuff2value: 1.25
     warfarebuff3value: 1.25
     warfarebuff4value: 1.25
-  Skirmish Command Burst I:
-    buffduration: 60000
-    canfitshipgroup01: 1534
-    canfitshipgroup02: 963
-    canfitshipgroup03: 419
-    canfitshipgroup04: 540
-    canfitshipgroup05: 941
-    canfitshipgroup06: 883
-    canfitshipgroup07: 547
-    canfitshipgroup08: 1538
-    canfitshipgroup09: 659
-    canfitshipgroup10: 30
-    capacitorneed: 25.0
-    capacity: 3.0
-    chargegroup1: 1772
-    chargerate: 1
-    cpu: 50.0
-    disallowactivateinforcefield: 1
-    disallowdocking: 1
-    disallowtethering: 1
-    duration: 60000.0
-    hp: 40.0
-    id: 42530
-    marketGroup: 1633
-    maxgroupactive: 1
-    maxgrouponline: 1
-    maxrange: 15000.0
-    name: Skirmish Command Burst I
-    packagedVolume: 60.0
-    portionSize: 1
-    power: 100
-    published: true
-    radius: 1.0
-    reloadtime: 60000.0
-    requiredskill1: 3348
-    requiredskill1level: 1
-    requiredskill2: 3349
-    requiredskill2level: 1
-    techlevel: 1
-    volume: 60.0
-    warfarebuff1value: 1.0
-    warfarebuff2value: 1.0
-    warfarebuff3value: 1.0
-    warfarebuff4value: 1.0
-  Skirmish Command Burst II:
+  43556:
     buffduration: 60000
     canfitshipgroup01: 1534
     canfitshipgroup02: 963

@@ -32,7 +32,7 @@ public class Lease
         implements IMetaGroup<Lease>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Lease.yaml";
-        private Map<String, Lease> cache = (null);
+        private Map<Integer, Lease> cache = (null);
 
         @Override
         public IMetaCategory<? super Lease> category() {
@@ -50,7 +50,7 @@ public class Lease
         }
 
         @Override
-        public synchronized Map<String, Lease> load() {
+        public synchronized Map<Integer, Lease> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Lease.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Lease
         }
 
         private static class Container {
-            public LinkedHashMap<String, Lease> types;
+            public LinkedHashMap<Integer, Lease> types;
         }
     }
 }

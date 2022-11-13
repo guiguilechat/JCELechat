@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Drone and Fighter Manufacturing Time Efficiency I:
+  37148:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -20
     canfitshipgroup01: 1657
@@ -28,7 +28,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Drone and Fighter Manufacturing Time Efficiency II:
+  37149:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657

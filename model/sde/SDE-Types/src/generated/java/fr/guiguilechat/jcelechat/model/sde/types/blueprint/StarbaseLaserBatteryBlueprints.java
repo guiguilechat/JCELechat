@@ -83,7 +83,7 @@ public class StarbaseLaserBatteryBlueprints
         implements IMetaGroup<StarbaseLaserBatteryBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseLaserBatteryBlueprints.yaml";
-        private Map<String, StarbaseLaserBatteryBlueprints> cache = (null);
+        private Map<Integer, StarbaseLaserBatteryBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StarbaseLaserBatteryBlueprints> category() {
@@ -101,7 +101,7 @@ public class StarbaseLaserBatteryBlueprints
         }
 
         @Override
-        public synchronized Map<String, StarbaseLaserBatteryBlueprints> load() {
+        public synchronized Map<Integer, StarbaseLaserBatteryBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StarbaseLaserBatteryBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StarbaseLaserBatteryBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseLaserBatteryBlueprints> types;
+            public LinkedHashMap<Integer, StarbaseLaserBatteryBlueprints> types;
         }
     }
 }

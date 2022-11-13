@@ -1,5 +1,5 @@
 types:
-  Amarr Infrastructure Hub:
+  29286:
     armorhp: 7500000.0
     armoruniformity: 1.0
     disallowassistance: 1
@@ -17,7 +17,7 @@ types:
     shielduniformity: 1.0
     signatureradius: 4000.0
     uniformity: 1.0
-  Caldari Infrastructure Hub:
+  29302:
     armorhp: 7500000.0
     armoruniformity: 1.0
     disallowassistance: 1
@@ -35,7 +35,7 @@ types:
     shielduniformity: 1.0
     signatureradius: 4000.0
     uniformity: 1.0
-  Gallente Infrastructure Hub:
+  29303:
     armorhp: 7500000.0
     armoruniformity: 1.0
     disallowassistance: 1
@@ -53,7 +53,7 @@ types:
     shielduniformity: 1.0
     signatureradius: 4000.0
     uniformity: 1.0
-  Minmatar Infrastructure Hub:
+  29304:
     armorhp: 7500000.0
     armoruniformity: 1.0
     disallowassistance: 1

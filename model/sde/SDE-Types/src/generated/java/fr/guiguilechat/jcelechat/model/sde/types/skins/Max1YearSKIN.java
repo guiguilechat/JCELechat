@@ -32,7 +32,7 @@ public class Max1YearSKIN
         implements IMetaGroup<Max1YearSKIN>
     {
         public static final String RESOURCE_PATH = "SDE/types/skins/Max1YearSKIN.yaml";
-        private Map<String, Max1YearSKIN> cache = (null);
+        private Map<Integer, Max1YearSKIN> cache = (null);
 
         @Override
         public IMetaCategory<? super Max1YearSKIN> category() {
@@ -50,7 +50,7 @@ public class Max1YearSKIN
         }
 
         @Override
-        public synchronized Map<String, Max1YearSKIN> load() {
+        public synchronized Map<Integer, Max1YearSKIN> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Max1YearSKIN.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Max1YearSKIN
         }
 
         private static class Container {
-            public LinkedHashMap<String, Max1YearSKIN> types;
+            public LinkedHashMap<Integer, Max1YearSKIN> types;
         }
     }
 }

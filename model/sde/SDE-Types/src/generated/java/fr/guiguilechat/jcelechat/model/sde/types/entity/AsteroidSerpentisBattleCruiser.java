@@ -905,7 +905,7 @@ public class AsteroidSerpentisBattleCruiser
         implements IMetaGroup<AsteroidSerpentisBattleCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidSerpentisBattleCruiser.yaml";
-        private Map<String, AsteroidSerpentisBattleCruiser> cache = (null);
+        private Map<Integer, AsteroidSerpentisBattleCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super AsteroidSerpentisBattleCruiser> category() {
@@ -923,7 +923,7 @@ public class AsteroidSerpentisBattleCruiser
         }
 
         @Override
-        public synchronized Map<String, AsteroidSerpentisBattleCruiser> load() {
+        public synchronized Map<Integer, AsteroidSerpentisBattleCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AsteroidSerpentisBattleCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -937,7 +937,7 @@ public class AsteroidSerpentisBattleCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidSerpentisBattleCruiser> types;
+            public LinkedHashMap<Integer, AsteroidSerpentisBattleCruiser> types;
         }
     }
 }

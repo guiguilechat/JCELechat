@@ -1,5 +1,5 @@
 types:
-  Rank 1 Upgrade:
+  28183:
     id: 28183
     name: Rank 1 Upgrade
     packagedVolume: 1.0
@@ -7,7 +7,7 @@ types:
     price: 1.702171776E9
     published: true
     volume: 1.0
-  Rank 2 Upgrade:
+  28184:
     id: 28184
     name: Rank 2 Upgrade
     packagedVolume: 1.0
@@ -15,7 +15,7 @@ types:
     price: 1.702171776E9
     published: true
     volume: 1.0
-  Rank 3 Upgrade:
+  28185:
     id: 28185
     name: Rank 3 Upgrade
     packagedVolume: 1.0

@@ -32,7 +32,7 @@ public class SlaveReception
         implements IMetaGroup<SlaveReception>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/SlaveReception.yaml";
-        private Map<String, SlaveReception> cache = (null);
+        private Map<Integer, SlaveReception> cache = (null);
 
         @Override
         public IMetaCategory<? super SlaveReception> category() {
@@ -50,7 +50,7 @@ public class SlaveReception
         }
 
         @Override
-        public synchronized Map<String, SlaveReception> load() {
+        public synchronized Map<Integer, SlaveReception> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SlaveReception.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class SlaveReception
         }
 
         private static class Container {
-            public LinkedHashMap<String, SlaveReception> types;
+            public LinkedHashMap<Integer, SlaveReception> types;
         }
     }
 }

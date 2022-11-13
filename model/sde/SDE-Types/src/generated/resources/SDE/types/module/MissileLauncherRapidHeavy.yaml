@@ -1,5 +1,5 @@
 types:
-  '''Arbalest'' Rapid Heavy Missile Launcher I':
+  33440:
     capacity: 0.7200000286102295
     chargegroup1: 385
     chargegroup2: 395
@@ -30,7 +30,7 @@ types:
     techlevel: 1
     typecolorscheme: 20113
     volume: 20.0
-  '''Limos'' Rapid Heavy Missile Launcher I':
+  33441:
     capacity: 0.7200000286102295
     chargegroup1: 385
     chargegroup2: 395
@@ -61,7 +61,7 @@ types:
     techlevel: 1
     typecolorscheme: 20115
     volume: 20.0
-  '''Malkuth'' Rapid Heavy Missile Launcher I':
+  33442:
     capacity: 0.7200000286102295
     chargegroup1: 385
     chargegroup2: 395
@@ -92,7 +92,7 @@ types:
     techlevel: 1
     typecolorscheme: 20123
     volume: 20.0
-  Caldari Navy Rapid Heavy Missile Launcher:
+  33446:
     capacity: 0.7799999713897705
     chargegroup1: 385
     chargegroup2: 395
@@ -125,7 +125,69 @@ types:
     techlevel: 1
     typecolorscheme: 11321
     volume: 20.0
-  Domination Rapid Heavy Missile Launcher:
+  33448:
+    capacity: 0.7200000286102295
+    chargegroup1: 385
+    chargegroup2: 395
+    chargerate: 1
+    cpu: 50.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.4000000953674316
+    hp: 40.0
+    id: 33448
+    marketGroup: 1827
+    name: Rapid Heavy Missile Launcher I
+    overloadrofbonus: -15
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 960
+    price: 80118.0
+    published: true
+    radius: 1.0
+    reloadtime: 35000.0
+    requiredskill1: 3324
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 6480.0
+    techlevel: 1
+    typecolorscheme: 11324
+    volume: 20.0
+  33450:
+    capacity: 0.75
+    chargegroup1: 385
+    chargegroup2: 395
+    chargegroup4: 655
+    chargerate: 1
+    cpu: 59.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.899999976158142
+    hp: 40.0
+    id: 33450
+    marketGroup: 1827
+    metalevelold: 5
+    name: Rapid Heavy Missile Launcher II
+    overloadrofbonus: -15
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 1210
+    price: 342262.0
+    published: true
+    radius: 1.0
+    reloadtime: 35000.0
+    requiredskill1: 3319
+    requiredskill1level: 3
+    requiredskill2: 20211
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5185.0
+    techlevel: 2
+    typecolorscheme: 11325
+    volume: 20.0
+  33452:
     capacity: 0.7799999713897705
     chargegroup1: 385
     chargegroup2: 395
@@ -158,7 +220,7 @@ types:
     techlevel: 1
     typecolorscheme: 11318
     volume: 20.0
-  Dread Guristas Rapid Heavy Missile Launcher:
+  33453:
     capacity: 0.7799999713897705
     chargegroup1: 385
     chargegroup2: 395
@@ -191,7 +253,7 @@ types:
     techlevel: 1
     typecolorscheme: 11335
     volume: 20.0
-  Estamel's Modified Rapid Heavy Missile Launcher:
+  33454:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -224,7 +286,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  Gotan's Modified Rapid Heavy Missile Launcher:
+  33455:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -257,7 +319,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  Hakim's Modified Rapid Heavy Missile Launcher:
+  33456:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -290,7 +352,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  Kaikka's Modified Rapid Heavy Missile Launcher:
+  33457:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -323,7 +385,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  Mizuro's Modified Rapid Heavy Missile Launcher:
+  33458:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -356,69 +418,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  Rapid Heavy Missile Launcher I:
-    capacity: 0.7200000286102295
-    chargegroup1: 385
-    chargegroup2: 395
-    chargerate: 1
-    cpu: 50.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
-    hp: 40.0
-    id: 33448
-    marketGroup: 1827
-    name: Rapid Heavy Missile Launcher I
-    overloadrofbonus: -15
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 960
-    price: 80118.0
-    published: true
-    radius: 1.0
-    reloadtime: 35000.0
-    requiredskill1: 3324
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 6480.0
-    techlevel: 1
-    typecolorscheme: 11324
-    volume: 20.0
-  Rapid Heavy Missile Launcher II:
-    capacity: 0.75
-    chargegroup1: 385
-    chargegroup2: 395
-    chargegroup4: 655
-    chargerate: 1
-    cpu: 59.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.899999976158142
-    hp: 40.0
-    id: 33450
-    marketGroup: 1827
-    metalevelold: 5
-    name: Rapid Heavy Missile Launcher II
-    overloadrofbonus: -15
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 1210
-    price: 342262.0
-    published: true
-    radius: 1.0
-    reloadtime: 35000.0
-    requiredskill1: 3319
-    requiredskill1level: 3
-    requiredskill2: 20211
-    requiredskill2level: 1
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 5185.0
-    techlevel: 2
-    typecolorscheme: 11325
-    volume: 20.0
-  Republic Fleet Rapid Heavy Missile Launcher:
+  33459:
     capacity: 0.7799999713897705
     chargegroup1: 385
     chargegroup2: 395
@@ -451,7 +451,7 @@ types:
     techlevel: 1
     typecolorscheme: 11339
     volume: 20.0
-  Shaqil's Modified Rapid Heavy Missile Launcher:
+  33461:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -484,7 +484,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  Thon's Modified Rapid Heavy Missile Launcher:
+  33462:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -517,7 +517,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  Tobias' Modified Rapid Heavy Missile Launcher:
+  33463:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -550,7 +550,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  True Sansha Rapid Heavy Missile Launcher:
+  33464:
     capacity: 0.7799999713897705
     chargegroup1: 385
     chargegroup2: 395
@@ -583,7 +583,7 @@ types:
     techlevel: 1
     typecolorscheme: 11349
     volume: 20.0
-  Vepas' Modified Rapid Heavy Missile Launcher:
+  33465:
     capacity: 0.8500000238418579
     chargegroup1: 385
     chargegroup2: 395
@@ -616,7 +616,7 @@ types:
     techlevel: 1
     typecolorscheme: 11323
     volume: 20.0
-  YO-5000 Rapid Heavy Missile Launcher:
+  33466:
     capacity: 0.7200000286102295
     chargegroup1: 385
     chargegroup2: 395

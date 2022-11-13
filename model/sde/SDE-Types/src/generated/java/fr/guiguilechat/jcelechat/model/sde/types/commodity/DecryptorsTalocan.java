@@ -119,7 +119,7 @@ public class DecryptorsTalocan
         implements IMetaGroup<DecryptorsTalocan>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/DecryptorsTalocan.yaml";
-        private Map<String, DecryptorsTalocan> cache = (null);
+        private Map<Integer, DecryptorsTalocan> cache = (null);
 
         @Override
         public IMetaCategory<? super DecryptorsTalocan> category() {
@@ -137,7 +137,7 @@ public class DecryptorsTalocan
         }
 
         @Override
-        public synchronized Map<String, DecryptorsTalocan> load() {
+        public synchronized Map<Integer, DecryptorsTalocan> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DecryptorsTalocan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -151,7 +151,7 @@ public class DecryptorsTalocan
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsTalocan> types;
+            public LinkedHashMap<Integer, DecryptorsTalocan> types;
         }
     }
 }

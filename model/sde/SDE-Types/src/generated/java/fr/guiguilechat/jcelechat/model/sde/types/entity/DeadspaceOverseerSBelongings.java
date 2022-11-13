@@ -219,7 +219,7 @@ public class DeadspaceOverseerSBelongings
         implements IMetaGroup<DeadspaceOverseerSBelongings>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceOverseerSBelongings.yaml";
-        private Map<String, DeadspaceOverseerSBelongings> cache = (null);
+        private Map<Integer, DeadspaceOverseerSBelongings> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceOverseerSBelongings> category() {
@@ -237,7 +237,7 @@ public class DeadspaceOverseerSBelongings
         }
 
         @Override
-        public synchronized Map<String, DeadspaceOverseerSBelongings> load() {
+        public synchronized Map<Integer, DeadspaceOverseerSBelongings> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceOverseerSBelongings.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -251,7 +251,7 @@ public class DeadspaceOverseerSBelongings
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceOverseerSBelongings> types;
+            public LinkedHashMap<Integer, DeadspaceOverseerSBelongings> types;
         }
     }
 }

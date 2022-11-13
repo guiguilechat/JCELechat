@@ -571,7 +571,7 @@ public class Interceptor
         implements IMetaGroup<Interceptor>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Interceptor.yaml";
-        private Map<String, Interceptor> cache = (null);
+        private Map<Integer, Interceptor> cache = (null);
 
         @Override
         public IMetaCategory<? super Interceptor> category() {
@@ -589,7 +589,7 @@ public class Interceptor
         }
 
         @Override
-        public synchronized Map<String, Interceptor> load() {
+        public synchronized Map<Integer, Interceptor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Interceptor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -603,7 +603,7 @@ public class Interceptor
         }
 
         private static class Container {
-            public LinkedHashMap<String, Interceptor> types;
+            public LinkedHashMap<Integer, Interceptor> types;
         }
     }
 }

@@ -1,65 +1,5 @@
 types:
-  Caldari Navy Stasis Webifier Blueprint:
-    id: 17501
-    industryblueprintrank: 6.0
-    name: Caldari Navy Stasis Webifier Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Civilian Stasis Webifier Blueprint:
-    id: 30329
-    industryblueprintrank: 3.0
-    name: Civilian Stasis Webifier Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 224880.0
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Federation Navy Stasis Webifier Blueprint:
-    id: 17561
-    industryblueprintrank: 6.0
-    name: Federation Navy Stasis Webifier Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Heavy Stasis Grappler I Blueprint:
-    id: 41221
-    marketGroup: 2153
-    name: Heavy Stasis Grappler I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.5E7
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Heavy Stasis Grappler II Blueprint:
-    id: 41222
-    name: Heavy Stasis Grappler II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 224880.0
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Khanid Navy Stasis Webifier Blueprint:
-    id: 28515
-    industryblueprintrank: 6.0
-    name: Khanid Navy Stasis Webifier Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Stasis Webifier I Blueprint:
+  1102:
     id: 1102
     industryblueprintrank: 6.0
     marketGroup: 1570
@@ -71,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Stasis Webifier II Blueprint:
+  1103:
     id: 1103
     industryblueprintrank: 15.600000381469727
     name: Stasis Webifier II Blueprint
@@ -81,4 +21,64 @@ types:
     published: true
     radius: 1.0
     techlevel: 2
+    volume: 0.009999999776482582
+  17501:
+    id: 17501
+    industryblueprintrank: 6.0
+    name: Caldari Navy Stasis Webifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  17561:
+    id: 17561
+    industryblueprintrank: 6.0
+    name: Federation Navy Stasis Webifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  28515:
+    id: 28515
+    industryblueprintrank: 6.0
+    name: Khanid Navy Stasis Webifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  30329:
+    id: 30329
+    industryblueprintrank: 3.0
+    name: Civilian Stasis Webifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 224880.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  41221:
+    id: 41221
+    marketGroup: 2153
+    name: Heavy Stasis Grappler I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E7
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  41222:
+    id: 41222
+    name: Heavy Stasis Grappler II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 224880.0
+    published: true
+    techlevel: 1
     volume: 0.009999999776482582

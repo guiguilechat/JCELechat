@@ -1,303 +1,5 @@
 types:
-  Dragonfly I Blueprint:
-    id: 23058
-    industryblueprintrank: 40.0
-    marketGroup: 1028
-    name: Dragonfly I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.03363328E8
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Dragonfly II Blueprint:
-    id: 41378
-    name: Dragonfly II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.03363328E8
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Einherji I Blueprint:
-    id: 23062
-    industryblueprintrank: 40.0
-    marketGroup: 1028
-    name: Einherji I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.00013408E8
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Einherji II Blueprint:
-    id: 41384
-    name: Einherji II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.00013408E8
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Equite I Blueprint:
-    id: 41376
-    marketGroup: 1028
-    name: Equite I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.00473408E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Equite II Blueprint:
-    id: 41377
-    name: Equite II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.00473408E8
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Firbolg I Blueprint:
-    id: 23060
-    industryblueprintrank: 40.0
-    marketGroup: 1028
-    name: Firbolg I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.1394992E8
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Firbolg II Blueprint:
-    id: 41381
-    name: Firbolg II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.1394992E8
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Gram I Blueprint:
-    id: 41385
-    marketGroup: 1028
-    name: Gram I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.00013408E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Gram II Blueprint:
-    id: 41386
-    name: Gram II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.00013408E8
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Locust I Blueprint:
-    id: 41379
-    marketGroup: 1028
-    name: Locust I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.03363328E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Locust II Blueprint:
-    id: 41380
-    name: Locust II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.03363328E8
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Satyr I Blueprint:
-    id: 41382
-    marketGroup: 1028
-    name: Satyr I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.1394992E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Satyr II Blueprint:
-    id: 41383
-    name: Satyr II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.1394992E8
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Standup Dragonfly I Blueprint:
-    id: 47209
-    marketGroup: 1028
-    name: Standup Dragonfly I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Dragonfly II Blueprint:
-    id: 47215
-    name: Standup Dragonfly II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Einherji I Blueprint:
-    id: 47211
-    marketGroup: 1028
-    name: Standup Einherji I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Einherji II Blueprint:
-    id: 47221
-    name: Standup Einherji II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Equite I Blueprint:
-    id: 47213
-    marketGroup: 1028
-    name: Standup Equite I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Equite II Blueprint:
-    id: 47214
-    name: Standup Equite II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Firbolg I Blueprint:
-    id: 47210
-    marketGroup: 1028
-    name: Standup Firbolg I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Firbolg II Blueprint:
-    id: 47218
-    name: Standup Firbolg II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Gram I Blueprint:
-    id: 47222
-    marketGroup: 1028
-    name: Standup Gram I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Gram II Blueprint:
-    id: 47223
-    name: Standup Gram II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Locust I Blueprint:
-    id: 47216
-    marketGroup: 1028
-    name: Standup Locust I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Locust II Blueprint:
-    id: 47217
-    name: Standup Locust II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Satyr I Blueprint:
-    id: 47219
-    marketGroup: 1028
-    name: Standup Satyr I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Satyr II Blueprint:
-    id: 47220
-    name: Standup Satyr II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Templar I Blueprint:
-    id: 47208
-    marketGroup: 1028
-    name: Standup Templar I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Standup Templar II Blueprint:
-    id: 47212
-    name: Standup Templar II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Templar I Blueprint:
+  23056:
     id: 23056
     industryblueprintrank: 40.0
     marketGroup: 1028
@@ -309,7 +11,43 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Templar II Blueprint:
+  23058:
+    id: 23058
+    industryblueprintrank: 40.0
+    marketGroup: 1028
+    name: Dragonfly I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.03363328E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  23060:
+    id: 23060
+    industryblueprintrank: 40.0
+    marketGroup: 1028
+    name: Firbolg I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.1394992E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  23062:
+    id: 23062
+    industryblueprintrank: 40.0
+    marketGroup: 1028
+    name: Einherji I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00013408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  41375:
     id: 41375
     name: Templar II Blueprint
     packagedVolume: 0.009999999776482582
@@ -318,4 +56,266 @@ types:
     published: true
     radius: 1.0
     techlevel: 2
+    volume: 0.009999999776482582
+  41376:
+    id: 41376
+    marketGroup: 1028
+    name: Equite I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  41377:
+    id: 41377
+    name: Equite II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  41378:
+    id: 41378
+    name: Dragonfly II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.03363328E8
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  41379:
+    id: 41379
+    marketGroup: 1028
+    name: Locust I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.03363328E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  41380:
+    id: 41380
+    name: Locust II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.03363328E8
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  41381:
+    id: 41381
+    name: Firbolg II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.1394992E8
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  41382:
+    id: 41382
+    marketGroup: 1028
+    name: Satyr I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.1394992E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  41383:
+    id: 41383
+    name: Satyr II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.1394992E8
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  41384:
+    id: 41384
+    name: Einherji II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00013408E8
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  41385:
+    id: 41385
+    marketGroup: 1028
+    name: Gram I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00013408E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  41386:
+    id: 41386
+    name: Gram II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00013408E8
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  47208:
+    id: 47208
+    marketGroup: 1028
+    name: Standup Templar I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47209:
+    id: 47209
+    marketGroup: 1028
+    name: Standup Dragonfly I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47210:
+    id: 47210
+    marketGroup: 1028
+    name: Standup Firbolg I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47211:
+    id: 47211
+    marketGroup: 1028
+    name: Standup Einherji I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47212:
+    id: 47212
+    name: Standup Templar II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47213:
+    id: 47213
+    marketGroup: 1028
+    name: Standup Equite I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47214:
+    id: 47214
+    name: Standup Equite II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47215:
+    id: 47215
+    name: Standup Dragonfly II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47216:
+    id: 47216
+    marketGroup: 1028
+    name: Standup Locust I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47217:
+    id: 47217
+    name: Standup Locust II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47218:
+    id: 47218
+    name: Standup Firbolg II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47219:
+    id: 47219
+    marketGroup: 1028
+    name: Standup Satyr I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47220:
+    id: 47220
+    name: Standup Satyr II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47221:
+    id: 47221
+    name: Standup Einherji II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47222:
+    id: 47222
+    marketGroup: 1028
+    name: Standup Gram I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  47223:
+    id: 47223
+    name: Standup Gram II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    techlevel: 1
     volume: 0.009999999776482582

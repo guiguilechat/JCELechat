@@ -313,7 +313,7 @@ public class MissileLauncherTorpedo
         implements IMetaGroup<MissileLauncherTorpedo>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MissileLauncherTorpedo.yaml";
-        private Map<String, MissileLauncherTorpedo> cache = (null);
+        private Map<Integer, MissileLauncherTorpedo> cache = (null);
 
         @Override
         public IMetaCategory<? super MissileLauncherTorpedo> category() {
@@ -331,7 +331,7 @@ public class MissileLauncherTorpedo
         }
 
         @Override
-        public synchronized Map<String, MissileLauncherTorpedo> load() {
+        public synchronized Map<Integer, MissileLauncherTorpedo> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissileLauncherTorpedo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -345,7 +345,7 @@ public class MissileLauncherTorpedo
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileLauncherTorpedo> types;
+            public LinkedHashMap<Integer, MissileLauncherTorpedo> types;
         }
     }
 }

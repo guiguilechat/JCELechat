@@ -92,7 +92,7 @@ public class CommonMoonAsteroids
         implements IMetaGroup<CommonMoonAsteroids>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/CommonMoonAsteroids.yaml";
-        private Map<String, CommonMoonAsteroids> cache = (null);
+        private Map<Integer, CommonMoonAsteroids> cache = (null);
 
         @Override
         public IMetaCategory<? super CommonMoonAsteroids> category() {
@@ -110,7 +110,7 @@ public class CommonMoonAsteroids
         }
 
         @Override
-        public synchronized Map<String, CommonMoonAsteroids> load() {
+        public synchronized Map<Integer, CommonMoonAsteroids> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CommonMoonAsteroids.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class CommonMoonAsteroids
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommonMoonAsteroids> types;
+            public LinkedHashMap<Integer, CommonMoonAsteroids> types;
         }
     }
 }

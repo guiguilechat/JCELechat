@@ -8,7 +8,7 @@ public interface IMetaGroup<T extends EveType> {
 
     public IMetaCategory<? super T> category();
 
-    public default Map<String, T> load() {
+    public default Map<Integer, T> load() {
         return null;
     }
 

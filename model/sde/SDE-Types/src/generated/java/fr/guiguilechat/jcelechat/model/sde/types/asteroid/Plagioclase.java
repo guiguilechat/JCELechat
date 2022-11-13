@@ -92,7 +92,7 @@ public class Plagioclase
         implements IMetaGroup<Plagioclase>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Plagioclase.yaml";
-        private Map<String, Plagioclase> cache = (null);
+        private Map<Integer, Plagioclase> cache = (null);
 
         @Override
         public IMetaCategory<? super Plagioclase> category() {
@@ -110,7 +110,7 @@ public class Plagioclase
         }
 
         @Override
-        public synchronized Map<String, Plagioclase> load() {
+        public synchronized Map<Integer, Plagioclase> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Plagioclase.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class Plagioclase
         }
 
         private static class Container {
-            public LinkedHashMap<String, Plagioclase> types;
+            public LinkedHashMap<Integer, Plagioclase> types;
         }
     }
 }

@@ -186,7 +186,7 @@ public class ShipMaintenanceArray
         implements IMetaGroup<ShipMaintenanceArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/ShipMaintenanceArray.yaml";
-        private Map<String, ShipMaintenanceArray> cache = (null);
+        private Map<Integer, ShipMaintenanceArray> cache = (null);
 
         @Override
         public IMetaCategory<? super ShipMaintenanceArray> category() {
@@ -204,7 +204,7 @@ public class ShipMaintenanceArray
         }
 
         @Override
-        public synchronized Map<String, ShipMaintenanceArray> load() {
+        public synchronized Map<Integer, ShipMaintenanceArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShipMaintenanceArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -218,7 +218,7 @@ public class ShipMaintenanceArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShipMaintenanceArray> types;
+            public LinkedHashMap<Integer, ShipMaintenanceArray> types;
         }
     }
 }

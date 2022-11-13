@@ -32,7 +32,7 @@ public class CommandBurstBlueprint
         implements IMetaGroup<CommandBurstBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CommandBurstBlueprint.yaml";
-        private Map<String, CommandBurstBlueprint> cache = (null);
+        private Map<Integer, CommandBurstBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super CommandBurstBlueprint> category() {
@@ -50,7 +50,7 @@ public class CommandBurstBlueprint
         }
 
         @Override
-        public synchronized Map<String, CommandBurstBlueprint> load() {
+        public synchronized Map<Integer, CommandBurstBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CommandBurstBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class CommandBurstBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandBurstBlueprint> types;
+            public LinkedHashMap<Integer, CommandBurstBlueprint> types;
         }
     }
 }

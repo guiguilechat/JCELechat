@@ -371,7 +371,7 @@ public class EnergyNeutralizerDrone
         implements IMetaGroup<EnergyNeutralizerDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/drone/EnergyNeutralizerDrone.yaml";
-        private Map<String, EnergyNeutralizerDrone> cache = (null);
+        private Map<Integer, EnergyNeutralizerDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super EnergyNeutralizerDrone> category() {
@@ -389,7 +389,7 @@ public class EnergyNeutralizerDrone
         }
 
         @Override
-        public synchronized Map<String, EnergyNeutralizerDrone> load() {
+        public synchronized Map<Integer, EnergyNeutralizerDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EnergyNeutralizerDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -403,7 +403,7 @@ public class EnergyNeutralizerDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyNeutralizerDrone> types;
+            public LinkedHashMap<Integer, EnergyNeutralizerDrone> types;
         }
     }
 }

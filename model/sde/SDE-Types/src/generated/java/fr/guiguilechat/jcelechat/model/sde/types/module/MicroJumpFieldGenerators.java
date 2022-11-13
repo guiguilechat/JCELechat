@@ -269,7 +269,7 @@ public class MicroJumpFieldGenerators
         implements IMetaGroup<MicroJumpFieldGenerators>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MicroJumpFieldGenerators.yaml";
-        private Map<String, MicroJumpFieldGenerators> cache = (null);
+        private Map<Integer, MicroJumpFieldGenerators> cache = (null);
 
         @Override
         public IMetaCategory<? super MicroJumpFieldGenerators> category() {
@@ -287,7 +287,7 @@ public class MicroJumpFieldGenerators
         }
 
         @Override
-        public synchronized Map<String, MicroJumpFieldGenerators> load() {
+        public synchronized Map<Integer, MicroJumpFieldGenerators> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MicroJumpFieldGenerators.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -301,7 +301,7 @@ public class MicroJumpFieldGenerators
         }
 
         private static class Container {
-            public LinkedHashMap<String, MicroJumpFieldGenerators> types;
+            public LinkedHashMap<Integer, MicroJumpFieldGenerators> types;
         }
     }
 }

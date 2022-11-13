@@ -506,7 +506,7 @@ public class MobileHybridSentry
         implements IMetaGroup<MobileHybridSentry>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/MobileHybridSentry.yaml";
-        private Map<String, MobileHybridSentry> cache = (null);
+        private Map<Integer, MobileHybridSentry> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileHybridSentry> category() {
@@ -524,7 +524,7 @@ public class MobileHybridSentry
         }
 
         @Override
-        public synchronized Map<String, MobileHybridSentry> load() {
+        public synchronized Map<Integer, MobileHybridSentry> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileHybridSentry.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -538,7 +538,7 @@ public class MobileHybridSentry
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileHybridSentry> types;
+            public LinkedHashMap<Integer, MobileHybridSentry> types;
         }
     }
 }

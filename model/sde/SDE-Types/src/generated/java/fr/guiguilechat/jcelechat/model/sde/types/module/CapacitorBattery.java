@@ -145,7 +145,7 @@ public class CapacitorBattery
         implements IMetaGroup<CapacitorBattery>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CapacitorBattery.yaml";
-        private Map<String, CapacitorBattery> cache = (null);
+        private Map<Integer, CapacitorBattery> cache = (null);
 
         @Override
         public IMetaCategory<? super CapacitorBattery> category() {
@@ -163,7 +163,7 @@ public class CapacitorBattery
         }
 
         @Override
-        public synchronized Map<String, CapacitorBattery> load() {
+        public synchronized Map<Integer, CapacitorBattery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapacitorBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class CapacitorBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapacitorBattery> types;
+            public LinkedHashMap<Integer, CapacitorBattery> types;
         }
     }
 }

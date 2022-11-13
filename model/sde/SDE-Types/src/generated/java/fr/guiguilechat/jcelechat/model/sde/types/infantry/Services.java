@@ -32,7 +32,7 @@ public class Services
         implements IMetaGroup<Services>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/Services.yaml";
-        private Map<String, Services> cache = (null);
+        private Map<Integer, Services> cache = (null);
 
         @Override
         public IMetaCategory<? super Services> category() {
@@ -50,7 +50,7 @@ public class Services
         }
 
         @Override
-        public synchronized Map<String, Services> load() {
+        public synchronized Map<Integer, Services> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Services.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Services
         }
 
         private static class Container {
-            public LinkedHashMap<String, Services> types;
+            public LinkedHashMap<Integer, Services> types;
         }
     }
 }

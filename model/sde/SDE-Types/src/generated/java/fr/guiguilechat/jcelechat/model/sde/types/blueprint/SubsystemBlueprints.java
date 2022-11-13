@@ -32,7 +32,7 @@ public class SubsystemBlueprints
         implements IMetaGroup<SubsystemBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SubsystemBlueprints.yaml";
-        private Map<String, SubsystemBlueprints> cache = (null);
+        private Map<Integer, SubsystemBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super SubsystemBlueprints> category() {
@@ -50,7 +50,7 @@ public class SubsystemBlueprints
         }
 
         @Override
-        public synchronized Map<String, SubsystemBlueprints> load() {
+        public synchronized Map<Integer, SubsystemBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SubsystemBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class SubsystemBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, SubsystemBlueprints> types;
+            public LinkedHashMap<Integer, SubsystemBlueprints> types;
         }
     }
 }

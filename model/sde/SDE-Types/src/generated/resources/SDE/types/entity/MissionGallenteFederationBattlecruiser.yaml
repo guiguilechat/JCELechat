@@ -1,81 +1,5 @@
 types:
-  Federation Calo:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
-    armoruniformity: 0.75
-    capacitorcapacity: 900.0
-    capacity: 480.0
-    damagemultiplier: 9.0
-    disallowassistance: 1
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 18600
-    entityattackdelaymin: 4650
-    entityattackrange: 57500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.125
-    entitychasemaxdistance: 34500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 160.0
-    entitydefenderchance: 0.08500000089406967
-    entityequipmentmax: 5
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 23000.0
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6299999952316284
-    entitysecuritymaxgain: 5.0
-    entitysensordampenduration: 30000
-    entityshieldboostdelaychancemedium: 0.6499999761581421
-    falloff: 12000.0
-    gfxboosterid: 394
-    gfxturretid: 12344
-    hp: 1800.0
-    id: 25169
-    kineticdamage: 8.0
-    mass: 1.12E7
-    maxattacktargets: 1
-    maxlockedtargets: 1
-    maxrange: 20000.0
-    maxtargetrangemultiplier: 1.0
-    maxvelocity: 320.0
-    name: Federation Calo
-    optimalsigradius: 125
-    packagedVolume: 112000.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanmagnetometricstrength: 20.0
-    scanresolution: 200.0
-    shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
-    shielduniformity: 0.75
-    signatureradius: 270.0
-    speed: 3500.0
-    structureuniformity: 1.0
-    thermaldamage: 12.0
-    trackingspeed: 0.023000000044703484
-    volume: 112000.0
-  Federation Pezos:
+  25167:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -151,7 +75,7 @@ types:
     thermaldamage: 12.0
     trackingspeed: 0.10999999940395355
     volume: 112000.0
-  Federation Praeco:
+  25168:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -227,7 +151,7 @@ types:
     thermaldamage: 12.0
     trackingspeed: 0.10999999940395355
     volume: 112000.0
-  Federation Praktor Arx:
+  25169:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -239,48 +163,48 @@ types:
     armorkineticdamageresonance: 0.699999988079071
     armorthermaldamageresonance: 0.6000000238418579
     armoruniformity: 0.75
-    capacitorcapacity: 950.0
+    capacitorcapacity: 900.0
     capacity: 480.0
-    damagemultiplier: 7.824999809265137
+    damagemultiplier: 9.0
     disallowassistance: 1
     energyneutralizerduration: 30000
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 18000
-    entityattackdelaymin: 4500
-    entityattackrange: 18000
+    entityattackdelaymax: 18600
+    entityattackdelaymin: 4650
+    entityattackrange: 57500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 12000
+    entitychasemaxdelaychance: 0.125
+    entitychasemaxdistance: 34500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.0949999988079071
+    entitydefenderchance: 0.08500000089406967
     entityequipmentmax: 5
     entityequipmentmin: -5
     entityfactionloss: 0.008999999612569809
-    entityflyrange: 6000.0
+    entityflyrange: 23000.0
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.6299999952316284
     entitysecuritymaxgain: 5.0
     entitysensordampenduration: 30000
     entityshieldboostdelaychancemedium: 0.6499999761581421
-    falloff: 3000.0
+    falloff: 12000.0
     gfxboosterid: 394
-    gfxturretid: 568
+    gfxturretid: 12344
     hp: 1800.0
-    id: 25171
+    id: 25169
     kineticdamage: 8.0
     mass: 1.12E7
     maxattacktargets: 1
     maxlockedtargets: 1
-    maxrange: 5250.0
+    maxrange: 20000.0
     maxtargetrangemultiplier: 1.0
     maxvelocity: 320.0
-    name: Federation Praktor Arx
+    name: Federation Calo
     optimalsigradius: 125
     packagedVolume: 112000.0
     portionSize: 1
@@ -288,7 +212,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
-    scanmagnetometricstrength: 21.0
+    scanmagnetometricstrength: 20.0
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
@@ -298,88 +222,12 @@ types:
     shieldthermaldamageresonance: 0.6000000238418579
     shielduniformity: 0.75
     signatureradius: 270.0
-    speed: 3000.0
+    speed: 3500.0
     structureuniformity: 1.0
-    thermaldamage: 14.0
-    trackingspeed: 0.10000000149011612
+    thermaldamage: 12.0
+    trackingspeed: 0.023000000044703484
     volume: 112000.0
-  Federation Praktor Auxilia:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
-    armoruniformity: 0.75
-    capacitorcapacity: 975.0
-    capacity: 480.0
-    damagemultiplier: 8.25
-    disallowassistance: 1
-    energyneutralizerduration: 30000
-    entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 17700
-    entityattackdelaymin: 4425
-    entityattackrange: 18000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 12000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 160.0
-    entitydefenderchance: 0.10000000149011612
-    entityequipmentmax: 6
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 6000.0
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
-    entitysecuritymaxgain: 5.0
-    entitysensordampenduration: 30000
-    entityshieldboostdelaychancemedium: 0.6499999761581421
-    falloff: 3000.0
-    gfxboosterid: 394
-    gfxturretid: 568
-    hp: 1800.0
-    id: 25173
-    kineticdamage: 8.0
-    mass: 1.12E7
-    maxattacktargets: 1
-    maxlockedtargets: 1
-    maxrange: 5250.0
-    maxtargetrangemultiplier: 1.0
-    maxvelocity: 320.0
-    name: Federation Praktor Auxilia
-    optimalsigradius: 125
-    packagedVolume: 112000.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanmagnetometricstrength: 21.0
-    scanresolution: 200.0
-    shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
-    shielduniformity: 0.75
-    signatureradius: 270.0
-    speed: 3000.0
-    structureuniformity: 1.0
-    thermaldamage: 14.0
-    trackingspeed: 0.10000000149011612
-    volume: 112000.0
-  Federation Praktor Bearcus:
+  25170:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -455,7 +303,159 @@ types:
     thermaldamage: 12.0
     trackingspeed: 0.023000000044703484
     volume: 112000.0
-  Federation Praktor Diablic:
+  25171:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 1500.0
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    capacitorcapacity: 950.0
+    capacity: 480.0
+    damagemultiplier: 7.824999809265137
+    disallowassistance: 1
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 300.0
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 18000
+    entityattackdelaymin: 4500
+    entityattackrange: 18000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 12000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 160.0
+    entitydefenderchance: 0.0949999988079071
+    entityequipmentmax: 5
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 6000.0
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6499999761581421
+    entitysecuritymaxgain: 5.0
+    entitysensordampenduration: 30000
+    entityshieldboostdelaychancemedium: 0.6499999761581421
+    falloff: 3000.0
+    gfxboosterid: 394
+    gfxturretid: 568
+    hp: 1800.0
+    id: 25171
+    kineticdamage: 8.0
+    mass: 1.12E7
+    maxattacktargets: 1
+    maxlockedtargets: 1
+    maxrange: 5250.0
+    maxtargetrangemultiplier: 1.0
+    maxvelocity: 320.0
+    name: Federation Praktor Arx
+    optimalsigradius: 125
+    packagedVolume: 112000.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanmagnetometricstrength: 21.0
+    scanresolution: 200.0
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 0.5
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.699999988079071
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 270.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 14.0
+    trackingspeed: 0.10000000149011612
+    volume: 112000.0
+  25173:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 1500.0
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    capacitorcapacity: 975.0
+    capacity: 480.0
+    damagemultiplier: 8.25
+    disallowassistance: 1
+    energyneutralizerduration: 30000
+    entityarmorrepairamount: 300.0
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 17700
+    entityattackdelaymin: 4425
+    entityattackrange: 18000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 12000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 160.0
+    entitydefenderchance: 0.10000000149011612
+    entityequipmentmax: 6
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 6000.0
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6600000262260437
+    entitysecuritymaxgain: 5.0
+    entitysensordampenduration: 30000
+    entityshieldboostdelaychancemedium: 0.6499999761581421
+    falloff: 3000.0
+    gfxboosterid: 394
+    gfxturretid: 568
+    hp: 1800.0
+    id: 25173
+    kineticdamage: 8.0
+    mass: 1.12E7
+    maxattacktargets: 1
+    maxlockedtargets: 1
+    maxrange: 5250.0
+    maxtargetrangemultiplier: 1.0
+    maxvelocity: 320.0
+    name: Federation Praktor Auxilia
+    optimalsigradius: 125
+    packagedVolume: 112000.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanmagnetometricstrength: 21.0
+    scanresolution: 200.0
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 0.5
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.699999988079071
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 270.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 14.0
+    trackingspeed: 0.10000000149011612
+    volume: 112000.0
+  28175:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -531,7 +531,7 @@ types:
     thermaldamage: 12.0
     trackingspeed: 0.023000000044703484
     volume: 150000.0
-  Federation Praktor Erenus:
+  28176:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

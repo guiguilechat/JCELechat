@@ -277,7 +277,7 @@ public class BurstJammer
         implements IMetaGroup<BurstJammer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/BurstJammer.yaml";
-        private Map<String, BurstJammer> cache = (null);
+        private Map<Integer, BurstJammer> cache = (null);
 
         @Override
         public IMetaCategory<? super BurstJammer> category() {
@@ -295,7 +295,7 @@ public class BurstJammer
         }
 
         @Override
-        public synchronized Map<String, BurstJammer> load() {
+        public synchronized Map<Integer, BurstJammer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BurstJammer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -309,7 +309,7 @@ public class BurstJammer
         }
 
         private static class Container {
-            public LinkedHashMap<String, BurstJammer> types;
+            public LinkedHashMap<Integer, BurstJammer> types;
         }
     }
 }

@@ -97,7 +97,7 @@ public class AntiWarpScramblerBlueprint
         implements IMetaGroup<AntiWarpScramblerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/AntiWarpScramblerBlueprint.yaml";
-        private Map<String, AntiWarpScramblerBlueprint> cache = (null);
+        private Map<Integer, AntiWarpScramblerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super AntiWarpScramblerBlueprint> category() {
@@ -115,7 +115,7 @@ public class AntiWarpScramblerBlueprint
         }
 
         @Override
-        public synchronized Map<String, AntiWarpScramblerBlueprint> load() {
+        public synchronized Map<Integer, AntiWarpScramblerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AntiWarpScramblerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class AntiWarpScramblerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AntiWarpScramblerBlueprint> types;
+            public LinkedHashMap<Integer, AntiWarpScramblerBlueprint> types;
         }
     }
 }

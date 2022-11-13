@@ -1,335 +1,5 @@
 types:
-  Capital Auxiliary Nano Pump I:
-    drawback: 10
-    hp: 40.0
-    id: 27064
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital Auxiliary Nano Pump I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    repairbonus: 15
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Auxiliary Nano Pump II:
-    drawback: 10
-    hp: 40.0
-    id: 31049
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Auxiliary Nano Pump II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    repairbonus: 20
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital EM Armor Reinforcer I:
-    drawback: -10
-    emdamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31001
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital EM Armor Reinforcer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital EM Armor Reinforcer II:
-    drawback: -10
-    emdamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31007
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital EM Armor Reinforcer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Explosive Armor Reinforcer I:
-    drawback: -10
-    explosivedamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31013
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital Explosive Armor Reinforcer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Explosive Armor Reinforcer II:
-    drawback: -10
-    explosivedamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31019
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Explosive Armor Reinforcer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Kinetic Armor Reinforcer I:
-    drawback: -10
-    hp: 40.0
-    id: 31025
-    kineticdamageresistancebonus: -30.0
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital Kinetic Armor Reinforcer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Kinetic Armor Reinforcer II:
-    drawback: -10
-    hp: 40.0
-    id: 31031
-    kineticdamageresistancebonus: -35.0
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Kinetic Armor Reinforcer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Nanobot Accelerator I:
-    drawback: 10
-    durationskillbonus: -15
-    hp: 40.0
-    id: 31067
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital Nanobot Accelerator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Nanobot Accelerator II:
-    drawback: 10
-    durationskillbonus: -20
-    hp: 40.0
-    id: 27066
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Nanobot Accelerator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Remote Repair Augmentor I:
-    capneedbonus: -20
-    drawback: -10
-    hp: 40.0
-    id: 31075
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital Remote Repair Augmentor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Remote Repair Augmentor II:
-    capneedbonus: -25
-    drawback: -10
-    hp: 40.0
-    id: 31081
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Remote Repair Augmentor II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Thermal Armor Reinforcer I:
-    drawback: -10
-    hp: 40.0
-    id: 31037
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital Thermal Armor Reinforcer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    thermaldamageresistancebonus: -30.0
-    upgradecost: 50
-    volume: 40.0
-  Capital Thermal Armor Reinforcer II:
-    drawback: -10
-    hp: 40.0
-    id: 31043
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Thermal Armor Reinforcer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    thermaldamageresistancebonus: -35.0
-    upgradecost: 75
-    volume: 40.0
-  Capital Transverse Bulkhead I:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 20.0
-    id: 33902
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital Transverse Bulkhead I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Transverse Bulkhead II:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 25.0
-    id: 33904
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Transverse Bulkhead II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Trimark Armor Pump I:
-    armorhpbonus: 15
-    drawback: -10
-    hp: 40.0
-    id: 30993
-    marketGroup: 1730
-    mass: 200.0
-    name: Capital Trimark Armor Pump I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Trimark Armor Pump II:
-    armorhpbonus: 20
-    drawback: -10
-    hp: 40.0
-    id: 31061
-    marketGroup: 1730
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Trimark Armor Pump II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Large Auxiliary Nano Pump I:
-    drawback: 10
-    hp: 40.0
-    id: 25896
-    marketGroup: 1208
-    mass: 200.0
-    name: Large Auxiliary Nano Pump I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    repairbonus: 15
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Auxiliary Nano Pump II:
-    drawback: 10
-    hp: 40.0
-    id: 26294
-    marketGroup: 1208
-    mass: 200.0
-    metalevelold: 5
-    name: Large Auxiliary Nano Pump II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    repairbonus: 20
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Large EM Armor Reinforcer I:
+  25736:
     drawback: -10
     emdamageresistancebonus: -30.0
     hp: 40.0
@@ -345,7 +15,119 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 20.0
-  Large EM Armor Reinforcer II:
+  25888:
+    drawback: -10
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
+    id: 25888
+    marketGroup: 1208
+    mass: 200.0
+    name: Large Explosive Armor Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  25890:
+    drawback: -10
+    hp: 40.0
+    id: 25890
+    kineticdamageresistancebonus: -30.0
+    marketGroup: 1208
+    mass: 200.0
+    name: Large Kinetic Armor Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  25892:
+    drawback: -10
+    hp: 40.0
+    id: 25892
+    marketGroup: 1208
+    mass: 200.0
+    name: Large Thermal Armor Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
+    upgradecost: 50
+    volume: 20.0
+  25894:
+    armorhpbonus: 15
+    drawback: -10
+    hp: 40.0
+    id: 25894
+    marketGroup: 1208
+    mass: 200.0
+    name: Large Trimark Armor Pump I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  25896:
+    drawback: 10
+    hp: 40.0
+    id: 25896
+    marketGroup: 1208
+    mass: 200.0
+    name: Large Auxiliary Nano Pump I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    repairbonus: 15
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 100
+    volume: 20.0
+  25898:
+    drawback: 10
+    durationskillbonus: -15
+    hp: 40.0
+    id: 25898
+    marketGroup: 1208
+    mass: 200.0
+    name: Large Nanobot Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 100
+    volume: 20.0
+  25900:
+    capneedbonus: -20
+    drawback: -10
+    hp: 40.0
+    id: 25900
+    marketGroup: 1208
+    mass: 200.0
+    name: Large Remote Repair Augmentor I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  26286:
     drawback: -10
     emdamageresistancebonus: -35.0
     hp: 40.0
@@ -362,23 +144,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Large Explosive Armor Reinforcer I:
-    drawback: -10
-    explosivedamageresistancebonus: -30.0
-    hp: 40.0
-    id: 25888
-    marketGroup: 1208
-    mass: 200.0
-    name: Large Explosive Armor Reinforcer I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Explosive Armor Reinforcer II:
+  26288:
     drawback: -10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
@@ -395,23 +161,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Large Kinetic Armor Reinforcer I:
-    drawback: -10
-    hp: 40.0
-    id: 25890
-    kineticdamageresistancebonus: -30.0
-    marketGroup: 1208
-    mass: 200.0
-    name: Large Kinetic Armor Reinforcer I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Kinetic Armor Reinforcer II:
+  26290:
     drawback: -10
     hp: 40.0
     id: 26290
@@ -428,89 +178,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Large Nanobot Accelerator I:
-    drawback: 10
-    durationskillbonus: -15
-    hp: 40.0
-    id: 25898
-    marketGroup: 1208
-    mass: 200.0
-    name: Large Nanobot Accelerator I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Nanobot Accelerator II:
-    drawback: 10
-    durationskillbonus: -20
-    hp: 40.0
-    id: 26296
-    marketGroup: 1208
-    mass: 200.0
-    metalevelold: 5
-    name: Large Nanobot Accelerator II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Large Remote Repair Augmentor I:
-    capneedbonus: -20
-    drawback: -10
-    hp: 40.0
-    id: 25900
-    marketGroup: 1208
-    mass: 200.0
-    name: Large Remote Repair Augmentor I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Remote Repair Augmentor II:
-    capneedbonus: -25
-    drawback: -10
-    hp: 40.0
-    id: 26298
-    marketGroup: 1208
-    mass: 200.0
-    metalevelold: 5
-    name: Large Remote Repair Augmentor II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 75
-    volume: 20.0
-  Large Thermal Armor Reinforcer I:
-    drawback: -10
-    hp: 40.0
-    id: 25892
-    marketGroup: 1208
-    mass: 200.0
-    name: Large Thermal Armor Reinforcer I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    thermaldamageresistancebonus: -30.0
-    upgradecost: 50
-    volume: 20.0
-  Large Thermal Armor Reinforcer II:
+  26292:
     drawback: -10
     hp: 40.0
     id: 26292
@@ -527,31 +195,49 @@ types:
     thermaldamageresistancebonus: -35.0
     upgradecost: 75
     volume: 20.0
-  Large Transverse Bulkhead I:
-    drawback: -10
+  26294:
+    drawback: 10
     hp: 40.0
-    hullhpbonus: 20.0
-    id: 33898
+    id: 26294
     marketGroup: 1208
     mass: 200.0
-    name: Large Transverse Bulkhead I
+    metalevelold: 5
+    name: Large Auxiliary Nano Pump II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    repairbonus: 20
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0
+  26296:
+    drawback: 10
+    durationskillbonus: -20
+    hp: 40.0
+    id: 26296
+    marketGroup: 1208
+    mass: 200.0
+    metalevelold: 5
+    name: Large Nanobot Accelerator II
     packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    techlevel: 1
-    upgradecost: 50
+    techlevel: 2
+    upgradecost: 150
     volume: 20.0
-  Large Transverse Bulkhead II:
+  26298:
+    capneedbonus: -25
     drawback: -10
     hp: 40.0
-    hullhpbonus: 25.0
-    id: 33900
+    id: 26298
     marketGroup: 1208
     mass: 200.0
     metalevelold: 5
-    name: Large Transverse Bulkhead II
+    name: Large Remote Repair Augmentor II
     packagedVolume: 20.0
     portionSize: 1
     published: true
@@ -560,23 +246,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Large Trimark Armor Pump I:
-    armorhpbonus: 15
-    drawback: -10
-    hp: 40.0
-    id: 25894
-    marketGroup: 1208
-    mass: 200.0
-    name: Large Trimark Armor Pump I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Trimark Armor Pump II:
+  26302:
     armorhpbonus: 20
     drawback: -10
     hp: 40.0
@@ -593,337 +263,88 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Medium Auxiliary Nano Pump I:
+  27064:
     drawback: 10
     hp: 40.0
-    id: 31047
-    marketGroup: 1207
+    id: 27064
+    marketGroup: 1730
     mass: 200.0
-    name: Medium Auxiliary Nano Pump I
-    packagedVolume: 10.0
+    name: Capital Auxiliary Nano Pump I
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
     repairbonus: 15
-    rigsize: 2
+    rigsize: 4
     techlevel: 1
     upgradecost: 100
-    volume: 10.0
-  Medium Auxiliary Nano Pump II:
-    drawback: 10
-    hp: 40.0
-    id: 31053
-    marketGroup: 1207
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Auxiliary Nano Pump II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    repairbonus: 20
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium EM Armor Reinforcer I:
-    drawback: -10
-    emdamageresistancebonus: -30.0
-    hp: 40.0
-    id: 30999
-    marketGroup: 1207
-    mass: 200.0
-    name: Medium EM Armor Reinforcer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium EM Armor Reinforcer II:
-    drawback: -10
-    emdamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31005
-    marketGroup: 1207
-    mass: 200.0
-    metalevelold: 5
-    name: Medium EM Armor Reinforcer II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Explosive Armor Reinforcer I:
-    drawback: -10
-    explosivedamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31011
-    marketGroup: 1207
-    mass: 200.0
-    name: Medium Explosive Armor Reinforcer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Explosive Armor Reinforcer II:
-    drawback: -10
-    explosivedamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31017
-    marketGroup: 1207
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Explosive Armor Reinforcer II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Kinetic Armor Reinforcer I:
-    drawback: -10
-    hp: 40.0
-    id: 31023
-    kineticdamageresistancebonus: -30.0
-    marketGroup: 1207
-    mass: 200.0
-    name: Medium Kinetic Armor Reinforcer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Kinetic Armor Reinforcer II:
-    drawback: -10
-    hp: 40.0
-    id: 31029
-    kineticdamageresistancebonus: -35.0
-    marketGroup: 1207
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Kinetic Armor Reinforcer II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Nanobot Accelerator I:
-    drawback: 10
-    durationskillbonus: -15
-    hp: 40.0
-    id: 31065
-    marketGroup: 1207
-    mass: 200.0
-    name: Medium Nanobot Accelerator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Nanobot Accelerator II:
+    volume: 40.0
+  27066:
     drawback: 10
     durationskillbonus: -20
     hp: 40.0
-    id: 31071
-    marketGroup: 1207
+    id: 27066
+    marketGroup: 1730
     mass: 200.0
     metalevelold: 5
-    name: Medium Nanobot Accelerator II
-    packagedVolume: 10.0
+    name: Capital Nanobot Accelerator II
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 4
     techlevel: 2
     upgradecost: 150
-    volume: 10.0
-  Medium Remote Repair Augmentor I:
+    volume: 40.0
+  27068:
     capneedbonus: -20
     drawback: -10
     hp: 40.0
-    id: 31073
-    marketGroup: 1207
+    id: 27068
+    marketGroup: 1206
     mass: 200.0
-    name: Medium Remote Repair Augmentor I
-    packagedVolume: 10.0
+    name: Small Remote Repair Augmentor I
+    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 1
     techlevel: 1
     upgradecost: 50
-    volume: 10.0
-  Medium Remote Repair Augmentor II:
-    capneedbonus: -25
-    drawback: -10
-    hp: 40.0
-    id: 31079
-    marketGroup: 1207
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Remote Repair Augmentor II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Thermal Armor Reinforcer I:
-    drawback: -10
-    hp: 40.0
-    id: 31035
-    marketGroup: 1207
-    mass: 200.0
-    name: Medium Thermal Armor Reinforcer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    thermaldamageresistancebonus: -30.0
-    upgradecost: 50
-    volume: 10.0
-  Medium Thermal Armor Reinforcer II:
-    drawback: -10
-    hp: 40.0
-    id: 31041
-    marketGroup: 1207
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Thermal Armor Reinforcer II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    thermaldamageresistancebonus: -35.0
-    upgradecost: 75
-    volume: 10.0
-  Medium Transverse Bulkhead I:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 20.0
-    id: 33894
-    marketGroup: 1207
-    mass: 200.0
-    name: Medium Transverse Bulkhead I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Transverse Bulkhead II:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 25.0
-    id: 33896
-    marketGroup: 1207
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Transverse Bulkhead II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Trimark Armor Pump I:
+    volume: 5.0
+  30987:
     armorhpbonus: 15
     drawback: -10
     hp: 40.0
-    id: 31055
-    marketGroup: 1207
+    id: 30987
+    marketGroup: 1206
     mass: 200.0
-    name: Medium Trimark Armor Pump I
-    packagedVolume: 10.0
+    name: Small Trimark Armor Pump I
+    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 1
     techlevel: 1
     upgradecost: 50
-    volume: 10.0
-  Medium Trimark Armor Pump II:
-    armorhpbonus: 20
+    volume: 5.0
+  30993:
+    armorhpbonus: 15
     drawback: -10
     hp: 40.0
-    id: 31059
-    marketGroup: 1207
+    id: 30993
+    marketGroup: 1730
     mass: 200.0
-    metalevelold: 5
-    name: Medium Trimark Armor Pump II
-    packagedVolume: 10.0
+    name: Capital Trimark Armor Pump I
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Small Auxiliary Nano Pump I:
-    drawback: 10
-    hp: 40.0
-    id: 31045
-    marketGroup: 1206
-    mass: 200.0
-    name: Small Auxiliary Nano Pump I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    repairbonus: 15
-    rigsize: 1
+    rigsize: 4
     techlevel: 1
-    upgradecost: 100
-    volume: 5.0
-  Small Auxiliary Nano Pump II:
-    drawback: 10
-    hp: 40.0
-    id: 31051
-    marketGroup: 1206
-    mass: 200.0
-    metalevelold: 5
-    name: Small Auxiliary Nano Pump II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    repairbonus: 20
-    rigsize: 1
-    techlevel: 2
-    upgradecost: 150
-    volume: 5.0
-  Small EM Armor Reinforcer I:
+    upgradecost: 50
+    volume: 40.0
+  30997:
     drawback: -10
     emdamageresistancebonus: -30.0
     hp: 40.0
@@ -939,7 +360,39 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small EM Armor Reinforcer II:
+  30999:
+    drawback: -10
+    emdamageresistancebonus: -30.0
+    hp: 40.0
+    id: 30999
+    marketGroup: 1207
+    mass: 200.0
+    name: Medium EM Armor Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31001:
+    drawback: -10
+    emdamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31001
+    marketGroup: 1730
+    mass: 200.0
+    name: Capital EM Armor Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31003:
     drawback: -10
     emdamageresistancebonus: -35.0
     hp: 40.0
@@ -956,7 +409,41 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Explosive Armor Reinforcer I:
+  31005:
+    drawback: -10
+    emdamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31005
+    marketGroup: 1207
+    mass: 200.0
+    metalevelold: 5
+    name: Medium EM Armor Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31007:
+    drawback: -10
+    emdamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31007
+    marketGroup: 1730
+    mass: 200.0
+    metalevelold: 5
+    name: Capital EM Armor Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31009:
     drawback: -10
     explosivedamageresistancebonus: -30.0
     hp: 40.0
@@ -972,7 +459,39 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Explosive Armor Reinforcer II:
+  31011:
+    drawback: -10
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31011
+    marketGroup: 1207
+    mass: 200.0
+    name: Medium Explosive Armor Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31013:
+    drawback: -10
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31013
+    marketGroup: 1730
+    mass: 200.0
+    name: Capital Explosive Armor Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31015:
     drawback: -10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
@@ -989,7 +508,41 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Kinetic Armor Reinforcer I:
+  31017:
+    drawback: -10
+    explosivedamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31017
+    marketGroup: 1207
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Explosive Armor Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31019:
+    drawback: -10
+    explosivedamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31019
+    marketGroup: 1730
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Explosive Armor Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31021:
     drawback: -10
     hp: 40.0
     id: 31021
@@ -1005,7 +558,39 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Kinetic Armor Reinforcer II:
+  31023:
+    drawback: -10
+    hp: 40.0
+    id: 31023
+    kineticdamageresistancebonus: -30.0
+    marketGroup: 1207
+    mass: 200.0
+    name: Medium Kinetic Armor Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31025:
+    drawback: -10
+    hp: 40.0
+    id: 31025
+    kineticdamageresistancebonus: -30.0
+    marketGroup: 1730
+    mass: 200.0
+    name: Capital Kinetic Armor Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31027:
     drawback: -10
     hp: 40.0
     id: 31027
@@ -1022,73 +607,41 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Nanobot Accelerator I:
-    drawback: 10
-    durationskillbonus: -15
-    hp: 40.0
-    id: 31063
-    marketGroup: 1206
-    mass: 200.0
-    name: Small Nanobot Accelerator I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 1
-    upgradecost: 100
-    volume: 5.0
-  Small Nanobot Accelerator II:
-    drawback: 10
-    durationskillbonus: -20
-    hp: 40.0
-    id: 31069
-    marketGroup: 1206
-    mass: 200.0
-    metalevelold: 5
-    name: Small Nanobot Accelerator II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 2
-    upgradecost: 150
-    volume: 5.0
-  Small Remote Repair Augmentor I:
-    capneedbonus: -20
+  31029:
     drawback: -10
     hp: 40.0
-    id: 27068
-    marketGroup: 1206
-    mass: 200.0
-    name: Small Remote Repair Augmentor I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 1
-    upgradecost: 50
-    volume: 5.0
-  Small Remote Repair Augmentor II:
-    capneedbonus: -25
-    drawback: -10
-    hp: 40.0
-    id: 31077
-    marketGroup: 1206
+    id: 31029
+    kineticdamageresistancebonus: -35.0
+    marketGroup: 1207
     mass: 200.0
     metalevelold: 5
-    name: Small Remote Repair Augmentor II
-    packagedVolume: 5.0
+    name: Medium Kinetic Armor Reinforcer II
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 2
     upgradecost: 75
-    volume: 5.0
-  Small Thermal Armor Reinforcer I:
+    volume: 10.0
+  31031:
+    drawback: -10
+    hp: 40.0
+    id: 31031
+    kineticdamageresistancebonus: -35.0
+    marketGroup: 1730
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Kinetic Armor Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31033:
     drawback: -10
     hp: 40.0
     id: 31033
@@ -1104,7 +657,39 @@ types:
     thermaldamageresistancebonus: -30.0
     upgradecost: 50
     volume: 5.0
-  Small Thermal Armor Reinforcer II:
+  31035:
+    drawback: -10
+    hp: 40.0
+    id: 31035
+    marketGroup: 1207
+    mass: 200.0
+    name: Medium Thermal Armor Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
+    upgradecost: 50
+    volume: 10.0
+  31037:
+    drawback: -10
+    hp: 40.0
+    id: 31037
+    marketGroup: 1730
+    mass: 200.0
+    name: Capital Thermal Armor Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
+    upgradecost: 50
+    volume: 40.0
+  31039:
     drawback: -10
     hp: 40.0
     id: 31039
@@ -1121,56 +706,140 @@ types:
     thermaldamageresistancebonus: -35.0
     upgradecost: 75
     volume: 5.0
-  Small Transverse Bulkhead I:
+  31041:
     drawback: -10
     hp: 40.0
-    hullhpbonus: 20.0
-    id: 33890
+    id: 31041
+    marketGroup: 1207
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Thermal Armor Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    thermaldamageresistancebonus: -35.0
+    upgradecost: 75
+    volume: 10.0
+  31043:
+    drawback: -10
+    hp: 40.0
+    id: 31043
+    marketGroup: 1730
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Thermal Armor Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    thermaldamageresistancebonus: -35.0
+    upgradecost: 75
+    volume: 40.0
+  31045:
+    drawback: 10
+    hp: 40.0
+    id: 31045
     marketGroup: 1206
     mass: 200.0
-    name: Small Transverse Bulkhead I
+    name: Small Auxiliary Nano Pump I
     packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
+    repairbonus: 15
     rigsize: 1
     techlevel: 1
-    upgradecost: 50
+    upgradecost: 100
     volume: 5.0
-  Small Transverse Bulkhead II:
-    drawback: -10
+  31047:
+    drawback: 10
     hp: 40.0
-    hullhpbonus: 25.0
-    id: 33892
+    id: 31047
+    marketGroup: 1207
+    mass: 200.0
+    name: Medium Auxiliary Nano Pump I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    repairbonus: 15
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31049:
+    drawback: 10
+    hp: 40.0
+    id: 31049
+    marketGroup: 1730
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Auxiliary Nano Pump II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    repairbonus: 20
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  31051:
+    drawback: 10
+    hp: 40.0
+    id: 31051
     marketGroup: 1206
     mass: 200.0
     metalevelold: 5
-    name: Small Transverse Bulkhead II
+    name: Small Auxiliary Nano Pump II
     packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
+    repairbonus: 20
     rigsize: 1
     techlevel: 2
-    upgradecost: 75
+    upgradecost: 150
     volume: 5.0
-  Small Trimark Armor Pump I:
+  31053:
+    drawback: 10
+    hp: 40.0
+    id: 31053
+    marketGroup: 1207
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Auxiliary Nano Pump II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    repairbonus: 20
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31055:
     armorhpbonus: 15
     drawback: -10
     hp: 40.0
-    id: 30987
-    marketGroup: 1206
+    id: 31055
+    marketGroup: 1207
     mass: 200.0
-    name: Small Trimark Armor Pump I
-    packagedVolume: 5.0
+    name: Medium Trimark Armor Pump I
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 1
     upgradecost: 50
-    volume: 5.0
-  Small Trimark Armor Pump II:
+    volume: 10.0
+  31057:
     armorhpbonus: 20
     drawback: -10
     hp: 40.0
@@ -1187,3 +856,334 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
+  31059:
+    armorhpbonus: 20
+    drawback: -10
+    hp: 40.0
+    id: 31059
+    marketGroup: 1207
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Trimark Armor Pump II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31061:
+    armorhpbonus: 20
+    drawback: -10
+    hp: 40.0
+    id: 31061
+    marketGroup: 1730
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Trimark Armor Pump II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31063:
+    drawback: 10
+    durationskillbonus: -15
+    hp: 40.0
+    id: 31063
+    marketGroup: 1206
+    mass: 200.0
+    name: Small Nanobot Accelerator I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 100
+    volume: 5.0
+  31065:
+    drawback: 10
+    durationskillbonus: -15
+    hp: 40.0
+    id: 31065
+    marketGroup: 1207
+    mass: 200.0
+    name: Medium Nanobot Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31067:
+    drawback: 10
+    durationskillbonus: -15
+    hp: 40.0
+    id: 31067
+    marketGroup: 1730
+    mass: 200.0
+    name: Capital Nanobot Accelerator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31069:
+    drawback: 10
+    durationskillbonus: -20
+    hp: 40.0
+    id: 31069
+    marketGroup: 1206
+    mass: 200.0
+    metalevelold: 5
+    name: Small Nanobot Accelerator II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 150
+    volume: 5.0
+  31071:
+    drawback: 10
+    durationskillbonus: -20
+    hp: 40.0
+    id: 31071
+    marketGroup: 1207
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Nanobot Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31073:
+    capneedbonus: -20
+    drawback: -10
+    hp: 40.0
+    id: 31073
+    marketGroup: 1207
+    mass: 200.0
+    name: Medium Remote Repair Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31075:
+    capneedbonus: -20
+    drawback: -10
+    hp: 40.0
+    id: 31075
+    marketGroup: 1730
+    mass: 200.0
+    name: Capital Remote Repair Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31077:
+    capneedbonus: -25
+    drawback: -10
+    hp: 40.0
+    id: 31077
+    marketGroup: 1206
+    mass: 200.0
+    metalevelold: 5
+    name: Small Remote Repair Augmentor II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  31079:
+    capneedbonus: -25
+    drawback: -10
+    hp: 40.0
+    id: 31079
+    marketGroup: 1207
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Remote Repair Augmentor II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31081:
+    capneedbonus: -25
+    drawback: -10
+    hp: 40.0
+    id: 31081
+    marketGroup: 1730
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Remote Repair Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  33890:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 20.0
+    id: 33890
+    marketGroup: 1206
+    mass: 200.0
+    name: Small Transverse Bulkhead I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  33892:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 25.0
+    id: 33892
+    marketGroup: 1206
+    mass: 200.0
+    metalevelold: 5
+    name: Small Transverse Bulkhead II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  33894:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 20.0
+    id: 33894
+    marketGroup: 1207
+    mass: 200.0
+    name: Medium Transverse Bulkhead I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  33896:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 25.0
+    id: 33896
+    marketGroup: 1207
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Transverse Bulkhead II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  33898:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 20.0
+    id: 33898
+    marketGroup: 1208
+    mass: 200.0
+    name: Large Transverse Bulkhead I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  33900:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 25.0
+    id: 33900
+    marketGroup: 1208
+    mass: 200.0
+    metalevelold: 5
+    name: Large Transverse Bulkhead II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 75
+    volume: 20.0
+  33902:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 20.0
+    id: 33902
+    marketGroup: 1730
+    mass: 200.0
+    name: Capital Transverse Bulkhead I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  33904:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 25.0
+    id: 33904
+    marketGroup: 1730
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Transverse Bulkhead II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0

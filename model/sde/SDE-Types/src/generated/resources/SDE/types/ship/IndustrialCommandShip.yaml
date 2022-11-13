@@ -1,5 +1,5 @@
 types:
-  Orca:
+  28606:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.25999999046325684
     armoremdamageresonance: 0.5
@@ -105,7 +105,7 @@ types:
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 2.0
     weapondisruptionresistance: 1.0
-  Porpoise:
+  42244:
     affectedbyindustrialinvulnmodule: 1
     agility: 1.5
     allowedincapindustrialmaintenancebay: 1

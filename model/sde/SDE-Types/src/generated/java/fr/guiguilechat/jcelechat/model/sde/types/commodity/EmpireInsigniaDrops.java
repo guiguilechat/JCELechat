@@ -32,7 +32,7 @@ public class EmpireInsigniaDrops
         implements IMetaGroup<EmpireInsigniaDrops>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/EmpireInsigniaDrops.yaml";
-        private Map<String, EmpireInsigniaDrops> cache = (null);
+        private Map<Integer, EmpireInsigniaDrops> cache = (null);
 
         @Override
         public IMetaCategory<? super EmpireInsigniaDrops> category() {
@@ -50,7 +50,7 @@ public class EmpireInsigniaDrops
         }
 
         @Override
-        public synchronized Map<String, EmpireInsigniaDrops> load() {
+        public synchronized Map<Integer, EmpireInsigniaDrops> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EmpireInsigniaDrops.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class EmpireInsigniaDrops
         }
 
         private static class Container {
-            public LinkedHashMap<String, EmpireInsigniaDrops> types;
+            public LinkedHashMap<Integer, EmpireInsigniaDrops> types;
         }
     }
 }

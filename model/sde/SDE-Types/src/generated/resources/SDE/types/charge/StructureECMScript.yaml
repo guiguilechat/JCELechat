@@ -1,5 +1,5 @@
 types:
-  Standup Gravimetric ECM Script:
+  37821:
     chargesize: 1
     id: 37821
     launchergroup: 1332
@@ -17,7 +17,7 @@ types:
     scanradarstrengthbonusbonus: -50
     structureitemvisualflag: 1
     volume: 1.0
-  Standup Ladar ECM Script:
+  37822:
     chargesize: 1
     id: 37822
     launchergroup: 1332
@@ -35,7 +35,7 @@ types:
     scanradarstrengthbonusbonus: -50
     structureitemvisualflag: 1
     volume: 1.0
-  Standup Magnetometric ECM Script:
+  37823:
     chargesize: 1
     id: 37823
     launchergroup: 1332
@@ -53,7 +53,7 @@ types:
     scanradarstrengthbonusbonus: -50
     structureitemvisualflag: 1
     volume: 1.0
-  Standup Radar ECM Script:
+  37824:
     chargesize: 1
     id: 37824
     launchergroup: 1332

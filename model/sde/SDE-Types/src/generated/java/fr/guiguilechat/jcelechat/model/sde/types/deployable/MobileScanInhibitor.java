@@ -167,7 +167,7 @@ public class MobileScanInhibitor
         implements IMetaGroup<MobileScanInhibitor>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileScanInhibitor.yaml";
-        private Map<String, MobileScanInhibitor> cache = (null);
+        private Map<Integer, MobileScanInhibitor> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileScanInhibitor> category() {
@@ -185,7 +185,7 @@ public class MobileScanInhibitor
         }
 
         @Override
-        public synchronized Map<String, MobileScanInhibitor> load() {
+        public synchronized Map<Integer, MobileScanInhibitor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileScanInhibitor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -199,7 +199,7 @@ public class MobileScanInhibitor
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileScanInhibitor> types;
+            public LinkedHashMap<Integer, MobileScanInhibitor> types;
         }
     }
 }

@@ -32,7 +32,7 @@ public class BattleSalvage
         implements IMetaGroup<BattleSalvage>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/BattleSalvage.yaml";
-        private Map<String, BattleSalvage> cache = (null);
+        private Map<Integer, BattleSalvage> cache = (null);
 
         @Override
         public IMetaCategory<? super BattleSalvage> category() {
@@ -50,7 +50,7 @@ public class BattleSalvage
         }
 
         @Override
-        public synchronized Map<String, BattleSalvage> load() {
+        public synchronized Map<Integer, BattleSalvage> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BattleSalvage.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class BattleSalvage
         }
 
         private static class Container {
-            public LinkedHashMap<String, BattleSalvage> types;
+            public LinkedHashMap<Integer, BattleSalvage> types;
         }
     }
 }

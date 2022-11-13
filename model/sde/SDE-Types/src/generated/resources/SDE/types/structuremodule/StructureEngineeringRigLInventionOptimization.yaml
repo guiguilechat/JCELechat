@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Invention Optimization I:
+  43722:
     attributeengrigcostbonus: -10
     attributeengrigtimebonus: -20
     canfitshipgroup01: 1657
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Invention Optimization II:
+  43723:
     attributeengrigcostbonus: -12
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657

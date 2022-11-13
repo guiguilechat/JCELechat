@@ -1,165 +1,5 @@
 types:
-  Batch Compressed Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28403
-    marketGroup: 528
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Hemorphite
-    orebasictype: 1231
-    packagedVolume: 0.8600000143051147
-    portionSize: 1
-    price: 3019920.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.8600000143051147
-  Batch Compressed Radiant Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28404
-    marketGroup: 528
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Radiant Hemorphite
-    orebasictype: 1231
-    packagedVolume: 0.8600000143051147
-    portionSize: 1
-    price: 3323700.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.8600000143051147
-  Batch Compressed Scintillating Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 46697
-    marketGroup: 528
-    mass: 1.0
-    name: Batch Compressed Scintillating Hemorphite
-    orebasictype: 46681
-    packagedVolume: 0.8600000143051147
-    portionSize: 1
-    price: 122000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.8600000143051147
-  Batch Compressed Vivid Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28405
-    marketGroup: 528
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Vivid Hemorphite
-    orebasictype: 1231
-    packagedVolume: 0.8600000143051147
-    portionSize: 1
-    price: 3162220.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.8600000143051147
-  Compressed Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62544
-    marketGroup: 528
-    mass: 1.0000000409184788E35
-    name: Compressed Hemorphite
-    orebasictype: 1231
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3019920.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.029999999329447746
-  Compressed Radiant Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62546
-    marketGroup: 528
-    mass: 1.0000000409184788E35
-    name: Compressed Radiant Hemorphite
-    orebasictype: 1231
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3323700.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.029999999329447746
-  Compressed Scintillating Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62547
-    marketGroup: 528
-    mass: 1.0
-    name: Compressed Scintillating Hemorphite
-    orebasictype: 46681
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 122000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.029999999329447746
-  Compressed Vivid Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62545
-    marketGroup: 528
-    mass: 1.0000000409184788E35
-    name: Compressed Vivid Hemorphite
-    orebasictype: 1231
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3162220.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.029999999329447746
-  Hemorphite:
+  1231:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -179,47 +19,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 3.0
-  Radiant Hemorphite:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.5
-    asteroidradiusunitsize: 90
-    id: 17445
-    marketGroup: 528
-    mass: 1.0000000409184788E35
-    name: Radiant Hemorphite
-    orebasictype: 1231
-    packagedVolume: 3.0
-    portionSize: 100
-    price: 332370.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 3.0
-  Scintillating Hemorphite:
-    asteroidmaxradius: 5000
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.22499999403953552
-    asteroidradiusunitsize: 600
-    id: 46681
-    marketGroup: 528
-    mass: 1.0000000409184788E35
-    name: Scintillating Hemorphite
-    orebasictype: 46681
-    packagedVolume: 3.0
-    portionSize: 100
-    price: 1100.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60378
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 3.0
-  Vivid Hemorphite:
+  17444:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
@@ -239,3 +39,203 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 3.0
+  17445:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 17445
+    marketGroup: 528
+    mass: 1.0000000409184788E35
+    name: Radiant Hemorphite
+    orebasictype: 1231
+    packagedVolume: 3.0
+    portionSize: 100
+    price: 332370.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 3.0
+  28403:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28403
+    marketGroup: 528
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Hemorphite
+    orebasictype: 1231
+    packagedVolume: 0.8600000143051147
+    portionSize: 1
+    price: 3019920.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.8600000143051147
+  28404:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28404
+    marketGroup: 528
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Radiant Hemorphite
+    orebasictype: 1231
+    packagedVolume: 0.8600000143051147
+    portionSize: 1
+    price: 3323700.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.8600000143051147
+  28405:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28405
+    marketGroup: 528
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Vivid Hemorphite
+    orebasictype: 1231
+    packagedVolume: 0.8600000143051147
+    portionSize: 1
+    price: 3162220.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.8600000143051147
+  46681:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.22499999403953552
+    asteroidradiusunitsize: 600
+    id: 46681
+    marketGroup: 528
+    mass: 1.0000000409184788E35
+    name: Scintillating Hemorphite
+    orebasictype: 46681
+    packagedVolume: 3.0
+    portionSize: 100
+    price: 1100.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 3.0
+  46697:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 46697
+    marketGroup: 528
+    mass: 1.0
+    name: Batch Compressed Scintillating Hemorphite
+    orebasictype: 46681
+    packagedVolume: 0.8600000143051147
+    portionSize: 1
+    price: 122000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.8600000143051147
+  62544:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62544
+    marketGroup: 528
+    mass: 1.0000000409184788E35
+    name: Compressed Hemorphite
+    orebasictype: 1231
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3019920.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.029999999329447746
+  62545:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62545
+    marketGroup: 528
+    mass: 1.0000000409184788E35
+    name: Compressed Vivid Hemorphite
+    orebasictype: 1231
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3162220.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.029999999329447746
+  62546:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62546
+    marketGroup: 528
+    mass: 1.0000000409184788E35
+    name: Compressed Radiant Hemorphite
+    orebasictype: 1231
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3323700.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.029999999329447746
+  62547:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62547
+    marketGroup: 528
+    mass: 1.0
+    name: Compressed Scintillating Hemorphite
+    orebasictype: 46681
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 122000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.029999999329447746

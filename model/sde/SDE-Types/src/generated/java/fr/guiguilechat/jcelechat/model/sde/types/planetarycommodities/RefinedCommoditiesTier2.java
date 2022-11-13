@@ -38,7 +38,7 @@ public class RefinedCommoditiesTier2
         implements IMetaGroup<RefinedCommoditiesTier2>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetarycommodities/RefinedCommoditiesTier2.yaml";
-        private Map<String, RefinedCommoditiesTier2> cache = (null);
+        private Map<Integer, RefinedCommoditiesTier2> cache = (null);
 
         @Override
         public IMetaCategory<? super RefinedCommoditiesTier2> category() {
@@ -56,7 +56,7 @@ public class RefinedCommoditiesTier2
         }
 
         @Override
-        public synchronized Map<String, RefinedCommoditiesTier2> load() {
+        public synchronized Map<Integer, RefinedCommoditiesTier2> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RefinedCommoditiesTier2 .MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -70,7 +70,7 @@ public class RefinedCommoditiesTier2
         }
 
         private static class Container {
-            public LinkedHashMap<String, RefinedCommoditiesTier2> types;
+            public LinkedHashMap<Integer, RefinedCommoditiesTier2> types;
         }
     }
 }

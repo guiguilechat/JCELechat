@@ -253,7 +253,7 @@ public class RemoteShieldBooster
         implements IMetaGroup<RemoteShieldBooster>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RemoteShieldBooster.yaml";
-        private Map<String, RemoteShieldBooster> cache = (null);
+        private Map<Integer, RemoteShieldBooster> cache = (null);
 
         @Override
         public IMetaCategory<? super RemoteShieldBooster> category() {
@@ -271,7 +271,7 @@ public class RemoteShieldBooster
         }
 
         @Override
-        public synchronized Map<String, RemoteShieldBooster> load() {
+        public synchronized Map<Integer, RemoteShieldBooster> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteShieldBooster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class RemoteShieldBooster
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteShieldBooster> types;
+            public LinkedHashMap<Integer, RemoteShieldBooster> types;
         }
     }
 }

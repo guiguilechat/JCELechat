@@ -173,7 +173,7 @@ public class RigProjectileWeapon
         implements IMetaGroup<RigProjectileWeapon>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigProjectileWeapon.yaml";
-        private Map<String, RigProjectileWeapon> cache = (null);
+        private Map<Integer, RigProjectileWeapon> cache = (null);
 
         @Override
         public IMetaCategory<? super RigProjectileWeapon> category() {
@@ -191,7 +191,7 @@ public class RigProjectileWeapon
         }
 
         @Override
-        public synchronized Map<String, RigProjectileWeapon> load() {
+        public synchronized Map<Integer, RigProjectileWeapon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigProjectileWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -205,7 +205,7 @@ public class RigProjectileWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigProjectileWeapon> types;
+            public LinkedHashMap<Integer, RigProjectileWeapon> types;
         }
     }
 }

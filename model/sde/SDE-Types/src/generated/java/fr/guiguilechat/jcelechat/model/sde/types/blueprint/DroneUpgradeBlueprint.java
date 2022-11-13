@@ -117,7 +117,7 @@ public class DroneUpgradeBlueprint
         implements IMetaGroup<DroneUpgradeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/DroneUpgradeBlueprint.yaml";
-        private Map<String, DroneUpgradeBlueprint> cache = (null);
+        private Map<Integer, DroneUpgradeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super DroneUpgradeBlueprint> category() {
@@ -135,7 +135,7 @@ public class DroneUpgradeBlueprint
         }
 
         @Override
-        public synchronized Map<String, DroneUpgradeBlueprint> load() {
+        public synchronized Map<Integer, DroneUpgradeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DroneUpgradeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -149,7 +149,7 @@ public class DroneUpgradeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DroneUpgradeBlueprint> types;
+            public LinkedHashMap<Integer, DroneUpgradeBlueprint> types;
         }
     }
 }

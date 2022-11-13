@@ -467,7 +467,7 @@ public class LogisticsFrigate
         implements IMetaGroup<LogisticsFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/LogisticsFrigate.yaml";
-        private Map<String, LogisticsFrigate> cache = (null);
+        private Map<Integer, LogisticsFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super LogisticsFrigate> category() {
@@ -485,7 +485,7 @@ public class LogisticsFrigate
         }
 
         @Override
-        public synchronized Map<String, LogisticsFrigate> load() {
+        public synchronized Map<Integer, LogisticsFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LogisticsFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -499,7 +499,7 @@ public class LogisticsFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, LogisticsFrigate> types;
+            public LinkedHashMap<Integer, LogisticsFrigate> types;
         }
     }
 }

@@ -145,7 +145,7 @@ public class HeatSink
         implements IMetaGroup<HeatSink>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/HeatSink.yaml";
-        private Map<String, HeatSink> cache = (null);
+        private Map<Integer, HeatSink> cache = (null);
 
         @Override
         public IMetaCategory<? super HeatSink> category() {
@@ -163,7 +163,7 @@ public class HeatSink
         }
 
         @Override
-        public synchronized Map<String, HeatSink> load() {
+        public synchronized Map<Integer, HeatSink> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HeatSink.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class HeatSink
         }
 
         private static class Container {
-            public LinkedHashMap<String, HeatSink> types;
+            public LinkedHashMap<Integer, HeatSink> types;
         }
     }
 }

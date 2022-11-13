@@ -1,114 +1,5 @@
 types:
-  Men's 'Boarder' Cap (Digital Camo):
-    gender: 1
-    id: 42732
-    marketGroup: 1943
-    name: Men's 'Boarder' Cap (Digital Camo)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Crimson Harvest' Cap:
-    gender: 2
-    id: 56637
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's 'Crimson Harvest' Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Crusader' Beret (Amarr Empire):
-    gender: 1
-    id: 42741
-    marketGroup: 1943
-    name: Men's 'Crusader' Beret (Amarr Empire)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Defender' Beret (Gallente Federation):
-    gender: 1
-    id: 42739
-    marketGroup: 1943
-    name: Men's 'Defender' Beret (Gallente Federation)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Dread' Beret (Guristas):
-    gender: 1
-    id: 42699
-    marketGroup: 1943
-    name: Men's 'Dread' Beret (Guristas)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Fatal Elite' Beret:
-    gender: 2
-    id: 54310
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's 'Fatal Elite' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Federal Defender' Beret:
-    gender: 2
-    id: 55757
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's 'Federal Defender' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Imperial Loyalist' Beret:
-    gender: 2
-    id: 55755
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's 'Imperial Loyalist' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Kybernaut Clade' Beret:
-    gender: 2
-    id: 56210
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's 'Kybernaut Clade' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Liberator' Beret (Minmatar Republic):
-    gender: 1
-    id: 42712
-    marketGroup: 1943
-    name: Men's 'Liberator' Beret (Minmatar Republic)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Liberator' Cap (Minmatar Republic):
-    gender: 2
-    id: 42730
-    marketGroup: 1943
-    name: Men's 'Liberator' Cap (Minmatar Republic)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Nova' Headwear (black):
+  34056:
     gender: 1
     id: 34056
     marketGroup: 1943
@@ -119,89 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Men's 'Nova' Headwear (bronze):
-    gender: 1
-    id: 34061
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Men's 'Nova' Headwear (bronze)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Nova' Headwear (gold):
-    gender: 1
-    id: 34060
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Men's 'Nova' Headwear (gold)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Nova' Headwear (silver):
-    gender: 1
-    id: 34059
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Men's 'Nova' Headwear (silver)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Pithum' Beret (Guristas):
-    gender: 1
-    id: 42721
-    marketGroup: 1943
-    name: Men's 'Pithum' Beret (Guristas)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Protector' Beret (Caldari State):
-    gender: 1
-    id: 42736
-    marketGroup: 1943
-    name: Men's 'Protector' Beret (Caldari State)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Republic Valklear' Beret:
-    gender: 2
-    id: 55758
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's 'Republic Valklear' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Sable' Cap (Black):
-    gender: 2
-    id: 42723
-    marketGroup: 1943
-    name: Men's 'Sable' Cap (Black)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'State Protector' Beret:
-    gender: 2
-    id: 55756
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's 'State Protector' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's 'Tectonic' Headwear (matte black):
+  34057:
     gender: 1
     id: 34057
     marketGroup: 1943
@@ -212,29 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Men's 'Tectonic' Headwear (metal):
-    gender: 1
-    id: 34062
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Men's 'Tectonic' Headwear (metal)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Tectonic' Headwear (shiny black):
-    gender: 1
-    id: 34063
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Men's 'Tectonic' Headwear (shiny black)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Tectonic' Headwear (white):
+  34058:
     gender: 1
     id: 34058
     marketGroup: 1943
@@ -245,218 +32,62 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Men's Aurora Universalis Cap:
-    gender: 2
-    id: 53384
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Aurora Universalis Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Beret (Blood Raiders):
+  34059:
     gender: 1
-    id: 42708
-    marketGroup: 1943
-    name: Men's Beret (Blood Raiders)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's Cap (Blood Raiders):
-    gender: 1
-    id: 42726
-    marketGroup: 1943
-    name: Men's Cap (Blood Raiders)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's Cap (Guristas):
-    gender: 2
-    id: 42743
-    marketGroup: 1943
-    name: Men's Cap (Guristas)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Capsuleer Day XVI Cap:
-    gender: 2
-    id: 52202
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Capsuleer Day XVI Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Capsuleer Day XVII Cap:
-    gender: 2
-    id: 54327
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Capsuleer Day XVII Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Capsuleer Day XVIII Cap:
-    gender: 2
-    id: 58767
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Capsuleer Day XVIII Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Capsuleer Elite XV Cap:
-    gender: 2
-    id: 47191
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Capsuleer Elite XV Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Capsuleer Networker XV Cap:
-    gender: 2
-    id: 47478
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Capsuleer Networker XV Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's EDENCOM 'Reliant' Beret:
-    gender: 2
-    id: 56145
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's EDENCOM 'Reliant' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Exoplanets Hunter Cap:
-    gender: 2
-    id: 45740
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Exoplanets Hunter Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Federation Grand Prix 'Pit Stop' Cap:
-    gender: 2
-    id: 42710
-    marketGroup: 1943
-    name: Men's Federation Grand Prix 'Pit Stop' Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Minmatar 'Freedom Fighter' Cap:
-    gender: 2
-    id: 64270
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Minmatar 'Freedom Fighter' Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Minmatar 'Rebellion' Cap:
-    gender: 2
-    id: 64201
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Minmatar 'Rebellion' Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Permaband Tour Cap:
-    gender: 2
-    id: 50133
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Permaband Tour Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Project Discovery Cytometry Cap:
-    gender: 2
-    id: 54948
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Project Discovery Cytometry Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's YC119 Yoiul Festival Cap:
-    gender: 1
-    id: 44125
-    marketGroup: 1943
-    name: Men's YC119 Yoiul Festival Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Men's Yoiul Stormchasers Cap:
-    gender: 2
-    id: 57074
-    marketGroup: 1943
-    mass: 0.5
-    name: Men's Yoiul Stormchasers Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Aeriform' Headwear (black):
-    gender: 3
-    id: 34078
+    id: 34059
     marketGroup: 1943
     mass: 0.10000000149011612
-    name: Women's 'Aeriform' Headwear (black)
+    name: Men's 'Nova' Headwear (silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Aeriform' Headwear (blue):
-    gender: 3
-    id: 34066
+  34060:
+    gender: 1
+    id: 34060
     marketGroup: 1943
     mass: 0.10000000149011612
-    name: Women's 'Aeriform' Headwear (blue)
+    name: Men's 'Nova' Headwear (gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Aeriform' Headwear (clear):
-    gender: 3
-    id: 34076
+  34061:
+    gender: 1
+    id: 34061
     marketGroup: 1943
     mass: 0.10000000149011612
-    name: Women's 'Aeriform' Headwear (clear)
+    name: Men's 'Nova' Headwear (bronze)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Aeriform' Headwear (cyan):
+  34062:
+    gender: 1
+    id: 34062
+    marketGroup: 1943
+    mass: 0.10000000149011612
+    name: Men's 'Tectonic' Headwear (metal)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34063:
+    gender: 1
+    id: 34063
+    marketGroup: 1943
+    mass: 0.10000000149011612
+    name: Men's 'Tectonic' Headwear (shiny black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34064:
     gender: 3
     id: 34064
     marketGroup: 1943
@@ -467,40 +98,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Aeriform' Headwear (orange):
-    gender: 3
-    id: 34070
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Women's 'Aeriform' Headwear (orange)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Blades' Headwear (black):
-    gender: 3
-    id: 34071
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Women's 'Blades' Headwear (black)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Blades' Headwear (gold):
-    gender: 3
-    id: 34069
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Women's 'Blades' Headwear (gold)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Blades' Headwear (gunmetal):
+  34065:
     gender: 3
     id: 34065
     marketGroup: 1943
@@ -511,18 +109,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Blades' Headwear (jade):
+  34066:
     gender: 3
-    id: 34074
+    id: 34066
     marketGroup: 1943
     mass: 0.10000000149011612
-    name: Women's 'Blades' Headwear (jade)
+    name: Women's 'Aeriform' Headwear (blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Blades' Headwear (platinum):
+  34067:
     gender: 3
     id: 34067
     marketGroup: 1943
@@ -533,155 +131,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Boarder' Cap (Digital Camo):
-    gender: 3
-    id: 42729
-    marketGroup: 1943
-    name: Women's 'Boarder' Cap (Digital Camo)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Crimson Harvest' Cap:
-    gender: 2
-    id: 56634
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's 'Crimson Harvest' Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Crusader' Beret (Amarr Empire):
-    gender: 3
-    id: 42744
-    marketGroup: 1943
-    name: Women's 'Crusader' Beret (Amarr Empire)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Defender' Beret (Gallente Federation):
-    gender: 3
-    id: 42709
-    marketGroup: 1943
-    name: Women's 'Defender' Beret (Gallente Federation)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Dread' Beret (Guristas):
-    gender: 3
-    id: 42698
-    marketGroup: 1943
-    name: Women's 'Dread' Beret (Guristas)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Fatal Elite' Beret:
-    gender: 2
-    id: 54304
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's 'Fatal Elite' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Federal Defender' Beret:
-    gender: 2
-    id: 55753
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's 'Federal Defender' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Imperial Loyalist' Beret:
-    gender: 2
-    id: 55751
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's 'Imperial Loyalist' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Kybernaut Clade' Beret:
-    gender: 2
-    id: 56209
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's 'Kybernaut Clade' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Liberator' Beret (Minmatar Republic):
-    gender: 3
-    id: 42738
-    marketGroup: 1943
-    name: Women's 'Liberator' Beret (Minmatar Republic)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Liberator' Cap (Minmatar Republic):
-    gender: 2
-    id: 42715
-    marketGroup: 1943
-    name: Women's 'Liberator' Cap (Minmatar Republic)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Pithum' Beret (Guristas):
-    gender: 3
-    id: 42717
-    marketGroup: 1943
-    name: Women's 'Pithum' Beret (Guristas)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Protector' Beret (Caldari State):
-    gender: 3
-    id: 42740
-    marketGroup: 1943
-    name: Women's 'Protector' Beret (Caldari State)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Republic Valklear' Beret:
-    gender: 2
-    id: 55754
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's 'Republic Valklear' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Sable' Cap (Black):
-    gender: 2
-    id: 42734
-    marketGroup: 1943
-    name: Women's 'Sable' Cap (Black)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Spiderweb' Headwear (black):
+  34068:
     gender: 3
     id: 34068
     marketGroup: 1943
@@ -692,7 +142,40 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Spiderweb' Headwear (copper):
+  34069:
+    gender: 3
+    id: 34069
+    marketGroup: 1943
+    mass: 0.10000000149011612
+    name: Women's 'Blades' Headwear (gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34070:
+    gender: 3
+    id: 34070
+    marketGroup: 1943
+    mass: 0.10000000149011612
+    name: Women's 'Aeriform' Headwear (orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34071:
+    gender: 3
+    id: 34071
+    marketGroup: 1943
+    mass: 0.10000000149011612
+    name: Women's 'Blades' Headwear (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34072:
     gender: 3
     id: 34072
     marketGroup: 1943
@@ -703,18 +186,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'Spiderweb' Headwear (golden):
-    gender: 3
-    id: 34077
-    marketGroup: 1943
-    mass: 0.10000000149011612
-    name: Women's 'Spiderweb' Headwear (golden)
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Women's 'Spiderweb' Headwear (metallic):
+  34073:
     gender: 3
     id: 34073
     marketGroup: 1943
@@ -725,37 +197,129 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's 'State Protector' Beret:
-    gender: 2
-    id: 55752
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's 'State Protector' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Aurora Universalis Cap:
-    gender: 2
-    id: 53381
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's Aurora Universalis Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Beret (Blood Raiders):
+  34074:
     gender: 3
-    id: 42733
+    id: 34074
     marketGroup: 1943
-    name: Women's Beret (Blood Raiders)
+    mass: 0.10000000149011612
+    name: Women's 'Blades' Headwear (jade)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's Cap (Blood Raiders):
+  34076:
+    gender: 3
+    id: 34076
+    marketGroup: 1943
+    mass: 0.10000000149011612
+    name: Women's 'Aeriform' Headwear (clear)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34077:
+    gender: 3
+    id: 34077
+    marketGroup: 1943
+    mass: 0.10000000149011612
+    name: Women's 'Spiderweb' Headwear (golden)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  34078:
+    gender: 3
+    id: 34078
+    marketGroup: 1943
+    mass: 0.10000000149011612
+    name: Women's 'Aeriform' Headwear (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42698:
+    gender: 3
+    id: 42698
+    marketGroup: 1943
+    name: Women's 'Dread' Beret (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42699:
+    gender: 1
+    id: 42699
+    marketGroup: 1943
+    name: Men's 'Dread' Beret (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42708:
+    gender: 1
+    id: 42708
+    marketGroup: 1943
+    name: Men's Beret (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42709:
+    gender: 3
+    id: 42709
+    marketGroup: 1943
+    name: Women's 'Defender' Beret (Gallente Federation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42710:
+    gender: 2
+    id: 42710
+    marketGroup: 1943
+    name: Men's Federation Grand Prix 'Pit Stop' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  42712:
+    gender: 1
+    id: 42712
+    marketGroup: 1943
+    name: Men's 'Liberator' Beret (Minmatar Republic)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42715:
+    gender: 2
+    id: 42715
+    marketGroup: 1943
+    name: Women's 'Liberator' Cap (Minmatar Republic)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  42717:
+    gender: 3
+    id: 42717
+    marketGroup: 1943
+    name: Women's 'Pithum' Beret (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42718:
     gender: 3
     id: 42718
     marketGroup: 1943
@@ -765,7 +329,17 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's Cap (Guristas):
+  42721:
+    gender: 1
+    id: 42721
+    marketGroup: 1943
+    name: Men's 'Pithum' Beret (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42722:
     gender: 2
     id: 42722
     marketGroup: 1943
@@ -774,77 +348,143 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's Capsuleer Day XVI Cap:
+  42723:
     gender: 2
-    id: 52201
+    id: 42723
     marketGroup: 1943
-    mass: 0.5
-    name: Women's Capsuleer Day XVI Cap
+    name: Men's 'Sable' Cap (Black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's Capsuleer Day XVII Cap:
-    gender: 2
-    id: 54322
+  42726:
+    gender: 1
+    id: 42726
     marketGroup: 1943
-    mass: 0.5
-    name: Women's Capsuleer Day XVII Cap
+    name: Men's Cap (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42729:
+    gender: 3
+    id: 42729
+    marketGroup: 1943
+    name: Women's 'Boarder' Cap (Digital Camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42730:
+    gender: 2
+    id: 42730
+    marketGroup: 1943
+    name: Men's 'Liberator' Cap (Minmatar Republic)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's Capsuleer Day XVIII Cap:
-    gender: 2
-    id: 58769
+  42732:
+    gender: 1
+    id: 42732
     marketGroup: 1943
-    mass: 0.5
-    name: Women's Capsuleer Day XVIII Cap
+    name: Men's 'Boarder' Cap (Digital Camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42733:
+    gender: 3
+    id: 42733
+    marketGroup: 1943
+    name: Women's Beret (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42734:
+    gender: 2
+    id: 42734
+    marketGroup: 1943
+    name: Women's 'Sable' Cap (Black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's Capsuleer Elite XV Cap:
-    gender: 2
-    id: 47193
+  42736:
+    gender: 1
+    id: 42736
     marketGroup: 1943
-    mass: 0.5
-    name: Women's Capsuleer Elite XV Cap
+    name: Men's 'Protector' Beret (Caldari State)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42738:
+    gender: 3
+    id: 42738
+    marketGroup: 1943
+    name: Women's 'Liberator' Beret (Minmatar Republic)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42739:
+    gender: 1
+    id: 42739
+    marketGroup: 1943
+    name: Men's 'Defender' Beret (Gallente Federation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42740:
+    gender: 3
+    id: 42740
+    marketGroup: 1943
+    name: Women's 'Protector' Beret (Caldari State)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42741:
+    gender: 1
+    id: 42741
+    marketGroup: 1943
+    name: Men's 'Crusader' Beret (Amarr Empire)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  42743:
+    gender: 2
+    id: 42743
+    marketGroup: 1943
+    name: Men's Cap (Guristas)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's Capsuleer Networker XV Cap:
-    gender: 2
-    id: 47477
+  42744:
+    gender: 3
+    id: 42744
     marketGroup: 1943
-    mass: 0.5
-    name: Women's Capsuleer Networker XV Cap
+    name: Women's 'Crusader' Beret (Amarr Empire)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
-  Women's EDENCOM 'Reliant' Beret:
-    gender: 2
-    id: 56144
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's EDENCOM 'Reliant' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Exoplanets Hunter Cap:
-    gender: 2
-    id: 45739
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's Exoplanets Hunter Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Federation Grand Prix 'Pit Stop' Cap:
+  42745:
     gender: 2
     id: 42745
     marketGroup: 1943
@@ -853,47 +493,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's Minmatar 'Freedom Fighter' Cap:
-    gender: 2
-    id: 64271
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's Minmatar 'Freedom Fighter' Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Minmatar 'Rebellion' Cap:
-    gender: 2
-    id: 64202
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's Minmatar 'Rebellion' Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Permaband Tour Cap:
-    gender: 2
-    id: 50132
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's Permaband Tour Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Project Discovery Cytometry Cap:
-    gender: 2
-    id: 54949
-    marketGroup: 1943
-    mass: 0.5
-    name: Women's Project Discovery Cytometry Cap
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's YC119 Yoiul Festival Cap:
+  44122:
     gender: 3
     id: 44122
     marketGroup: 1943
@@ -904,12 +504,412 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Women's Yoiul Stormchasers Cap:
+  44125:
+    gender: 1
+    id: 44125
+    marketGroup: 1943
+    name: Men's YC119 Yoiul Festival Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  45739:
+    gender: 2
+    id: 45739
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Exoplanets Hunter Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  45740:
+    gender: 2
+    id: 45740
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Exoplanets Hunter Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  47191:
+    gender: 2
+    id: 47191
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Capsuleer Elite XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  47193:
+    gender: 2
+    id: 47193
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Capsuleer Elite XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  47477:
+    gender: 2
+    id: 47477
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Capsuleer Networker XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  47478:
+    gender: 2
+    id: 47478
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Capsuleer Networker XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  50132:
+    gender: 2
+    id: 50132
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Permaband Tour Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  50133:
+    gender: 2
+    id: 50133
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Permaband Tour Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  52201:
+    gender: 2
+    id: 52201
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Capsuleer Day XVI Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  52202:
+    gender: 2
+    id: 52202
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Capsuleer Day XVI Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  53381:
+    gender: 2
+    id: 53381
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Aurora Universalis Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  53384:
+    gender: 2
+    id: 53384
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Aurora Universalis Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54304:
+    gender: 2
+    id: 54304
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's 'Fatal Elite' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54310:
+    gender: 2
+    id: 54310
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's 'Fatal Elite' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54322:
+    gender: 2
+    id: 54322
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Capsuleer Day XVII Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54327:
+    gender: 2
+    id: 54327
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Capsuleer Day XVII Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54948:
+    gender: 2
+    id: 54948
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Project Discovery Cytometry Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54949:
+    gender: 2
+    id: 54949
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Project Discovery Cytometry Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  55751:
+    gender: 2
+    id: 55751
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's 'Imperial Loyalist' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  55752:
+    gender: 2
+    id: 55752
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's 'State Protector' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  55753:
+    gender: 2
+    id: 55753
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's 'Federal Defender' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  55754:
+    gender: 2
+    id: 55754
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's 'Republic Valklear' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  55755:
+    gender: 2
+    id: 55755
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's 'Imperial Loyalist' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  55756:
+    gender: 2
+    id: 55756
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's 'State Protector' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  55757:
+    gender: 2
+    id: 55757
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's 'Federal Defender' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  55758:
+    gender: 2
+    id: 55758
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's 'Republic Valklear' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  56144:
+    gender: 2
+    id: 56144
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's EDENCOM 'Reliant' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  56145:
+    gender: 2
+    id: 56145
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's EDENCOM 'Reliant' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  56209:
+    gender: 2
+    id: 56209
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's 'Kybernaut Clade' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  56210:
+    gender: 2
+    id: 56210
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's 'Kybernaut Clade' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  56634:
+    gender: 2
+    id: 56634
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's 'Crimson Harvest' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  56637:
+    gender: 2
+    id: 56637
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's 'Crimson Harvest' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  57074:
+    gender: 2
+    id: 57074
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Yoiul Stormchasers Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  57079:
     gender: 2
     id: 57079
     marketGroup: 1943
     mass: 0.5
     name: Women's Yoiul Stormchasers Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  58767:
+    gender: 2
+    id: 58767
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Capsuleer Day XVIII Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  58769:
+    gender: 2
+    id: 58769
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Capsuleer Day XVIII Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  64201:
+    gender: 2
+    id: 64201
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Minmatar 'Rebellion' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  64202:
+    gender: 2
+    id: 64202
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Minmatar 'Rebellion' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  64270:
+    gender: 2
+    id: 64270
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Minmatar 'Freedom Fighter' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  64271:
+    gender: 2
+    id: 64271
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Minmatar 'Freedom Fighter' Cap
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

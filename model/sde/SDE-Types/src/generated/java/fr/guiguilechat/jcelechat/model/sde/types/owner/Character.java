@@ -817,7 +817,7 @@ public class Character
         implements IMetaGroup<Character>
     {
         public static final String RESOURCE_PATH = "SDE/types/owner/Character.yaml";
-        private Map<String, Character> cache = (null);
+        private Map<Integer, Character> cache = (null);
 
         @Override
         public IMetaCategory<? super Character> category() {
@@ -835,7 +835,7 @@ public class Character
         }
 
         @Override
-        public synchronized Map<String, Character> load() {
+        public synchronized Map<Integer, Character> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Character.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -849,7 +849,7 @@ public class Character
         }
 
         private static class Container {
-            public LinkedHashMap<String, Character> types;
+            public LinkedHashMap<Integer, Character> types;
         }
     }
 }

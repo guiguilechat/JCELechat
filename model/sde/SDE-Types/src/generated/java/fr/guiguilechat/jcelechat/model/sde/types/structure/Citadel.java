@@ -394,7 +394,7 @@ public class Citadel
         implements IMetaGroup<Citadel>
     {
         public static final String RESOURCE_PATH = "SDE/types/structure/Citadel.yaml";
-        private Map<String, Citadel> cache = (null);
+        private Map<Integer, Citadel> cache = (null);
 
         @Override
         public IMetaCategory<? super Citadel> category() {
@@ -412,7 +412,7 @@ public class Citadel
         }
 
         @Override
-        public synchronized Map<String, Citadel> load() {
+        public synchronized Map<Integer, Citadel> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Citadel.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -426,7 +426,7 @@ public class Citadel
         }
 
         private static class Container {
-            public LinkedHashMap<String, Citadel> types;
+            public LinkedHashMap<Integer, Citadel> types;
         }
     }
 }

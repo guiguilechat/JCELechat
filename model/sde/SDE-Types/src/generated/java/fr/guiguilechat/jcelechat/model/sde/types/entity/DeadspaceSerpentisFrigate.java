@@ -1157,7 +1157,7 @@ public class DeadspaceSerpentisFrigate
         implements IMetaGroup<DeadspaceSerpentisFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceSerpentisFrigate.yaml";
-        private Map<String, DeadspaceSerpentisFrigate> cache = (null);
+        private Map<Integer, DeadspaceSerpentisFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceSerpentisFrigate> category() {
@@ -1175,7 +1175,7 @@ public class DeadspaceSerpentisFrigate
         }
 
         @Override
-        public synchronized Map<String, DeadspaceSerpentisFrigate> load() {
+        public synchronized Map<Integer, DeadspaceSerpentisFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceSerpentisFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1189,7 +1189,7 @@ public class DeadspaceSerpentisFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceSerpentisFrigate> types;
+            public LinkedHashMap<Integer, DeadspaceSerpentisFrigate> types;
         }
     }
 }

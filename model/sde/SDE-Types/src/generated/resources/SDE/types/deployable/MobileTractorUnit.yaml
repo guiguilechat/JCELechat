@@ -1,27 +1,27 @@
 types:
-  '''Magpie'' Mobile Tractor Unit':
+  33475:
     armorhp: 10000.0
     armoruniformity: 0.75
     capacity: 27000.0
     duration: 30000.0
     hp: 30000.0
-    id: 33702
+    id: 33475
     marketGroup: 1833
     mass: 10000.0
     maxlockedtargets: 1
-    maxrange: 175000.0
-    maxtargetrange: 175000.0
-    maxtractorvelocity: 1500
-    metalevelold: 3
-    name: '''Magpie'' Mobile Tractor Unit'
+    maxrange: 125000.0
+    maxtargetrange: 125000.0
+    maxtractorvelocity: 1000
+    metalevelold: 1
+    name: Mobile Tractor Unit
     packagedVolume: 100.0
     portionSize: 1
     published: true
     radius: 100.0
-    scangravimetricstrength: 300.0
-    scanladarstrength: 300.0
-    scanmagnetometricstrength: 300.0
-    scanradarstrength: 300.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
     shieldcapacity: 10000.0
     shieldrechargerate: 3200000.0
     shielduniformity: 0.75
@@ -29,7 +29,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 100.0
-  '''Packrat'' Mobile Tractor Unit':
+  33700:
     armorhp: 15000.0
     armoruniformity: 0.75
     capacity: 27000.0
@@ -59,7 +59,37 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 125.0
-  Mobile Sanguine Harvester:
+  33702:
+    armorhp: 10000.0
+    armoruniformity: 0.75
+    capacity: 27000.0
+    duration: 30000.0
+    hp: 30000.0
+    id: 33702
+    marketGroup: 1833
+    mass: 10000.0
+    maxlockedtargets: 1
+    maxrange: 175000.0
+    maxtargetrange: 175000.0
+    maxtractorvelocity: 1500
+    metalevelold: 3
+    name: '''Magpie'' Mobile Tractor Unit'
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    scangravimetricstrength: 300.0
+    scanladarstrength: 300.0
+    scanmagnetometricstrength: 300.0
+    scanradarstrength: 300.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 3200000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 100.0
+  56701:
     armorhp: 20000.0
     armoruniformity: 0.75
     capacity: 27000.0
@@ -84,36 +114,6 @@ types:
     scanmagnetometricstrength: 50.0
     scanradarstrength: 50.0
     shieldcapacity: 20000.0
-    shieldrechargerate: 3200000.0
-    shielduniformity: 0.75
-    signatureradius: 500.0
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 100.0
-  Mobile Tractor Unit:
-    armorhp: 10000.0
-    armoruniformity: 0.75
-    capacity: 27000.0
-    duration: 30000.0
-    hp: 30000.0
-    id: 33475
-    marketGroup: 1833
-    mass: 10000.0
-    maxlockedtargets: 1
-    maxrange: 125000.0
-    maxtargetrange: 125000.0
-    maxtractorvelocity: 1000
-    metalevelold: 1
-    name: Mobile Tractor Unit
-    packagedVolume: 100.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    scangravimetricstrength: 50.0
-    scanladarstrength: 50.0
-    scanmagnetometricstrength: 50.0
-    scanradarstrength: 50.0
-    shieldcapacity: 10000.0
     shieldrechargerate: 3200000.0
     shielduniformity: 0.75
     signatureradius: 500.0

@@ -1,5 +1,5 @@
 types:
-  Scan Acquisition Array I Blueprint:
+  33177:
     id: 33177
     industryblueprintrank: 6.0
     marketGroup: 1707
@@ -11,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Scan Acquisition Array II Blueprint:
+  33198:
     id: 33198
     industryblueprintrank: 15.600000381469727
     name: Scan Acquisition Array II Blueprint

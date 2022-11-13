@@ -855,7 +855,7 @@ public class ConvoyDrone
         implements IMetaGroup<ConvoyDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/ConvoyDrone.yaml";
-        private Map<String, ConvoyDrone> cache = (null);
+        private Map<Integer, ConvoyDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super ConvoyDrone> category() {
@@ -873,7 +873,7 @@ public class ConvoyDrone
         }
 
         @Override
-        public synchronized Map<String, ConvoyDrone> load() {
+        public synchronized Map<Integer, ConvoyDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ConvoyDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -887,7 +887,7 @@ public class ConvoyDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, ConvoyDrone> types;
+            public LinkedHashMap<Integer, ConvoyDrone> types;
         }
     }
 }

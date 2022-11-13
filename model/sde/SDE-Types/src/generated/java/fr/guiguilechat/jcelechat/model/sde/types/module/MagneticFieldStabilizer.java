@@ -145,7 +145,7 @@ public class MagneticFieldStabilizer
         implements IMetaGroup<MagneticFieldStabilizer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MagneticFieldStabilizer.yaml";
-        private Map<String, MagneticFieldStabilizer> cache = (null);
+        private Map<Integer, MagneticFieldStabilizer> cache = (null);
 
         @Override
         public IMetaCategory<? super MagneticFieldStabilizer> category() {
@@ -163,7 +163,7 @@ public class MagneticFieldStabilizer
         }
 
         @Override
-        public synchronized Map<String, MagneticFieldStabilizer> load() {
+        public synchronized Map<Integer, MagneticFieldStabilizer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MagneticFieldStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class MagneticFieldStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, MagneticFieldStabilizer> types;
+            public LinkedHashMap<Integer, MagneticFieldStabilizer> types;
         }
     }
 }

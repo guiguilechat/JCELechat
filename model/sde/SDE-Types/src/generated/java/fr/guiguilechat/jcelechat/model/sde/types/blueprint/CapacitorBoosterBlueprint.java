@@ -97,7 +97,7 @@ public class CapacitorBoosterBlueprint
         implements IMetaGroup<CapacitorBoosterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CapacitorBoosterBlueprint.yaml";
-        private Map<String, CapacitorBoosterBlueprint> cache = (null);
+        private Map<Integer, CapacitorBoosterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super CapacitorBoosterBlueprint> category() {
@@ -115,7 +115,7 @@ public class CapacitorBoosterBlueprint
         }
 
         @Override
-        public synchronized Map<String, CapacitorBoosterBlueprint> load() {
+        public synchronized Map<Integer, CapacitorBoosterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapacitorBoosterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class CapacitorBoosterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapacitorBoosterBlueprint> types;
+            public LinkedHashMap<Integer, CapacitorBoosterBlueprint> types;
         }
     }
 }

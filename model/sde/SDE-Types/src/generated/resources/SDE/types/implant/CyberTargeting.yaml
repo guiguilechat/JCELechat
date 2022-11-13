@@ -1,110 +1,5 @@
 types:
-  Zainou 'Gypsy' Long Range Targeting LT-801:
-    id: 27229
-    implantness: 8
-    marketGroup: 1766
-    maxtargetrangebonus: 1.0
-    name: Zainou 'Gypsy' Long Range Targeting LT-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Long Range Targeting LT-802:
-    id: 3274
-    implantness: 8
-    marketGroup: 1766
-    maxtargetrangebonus: 2.0
-    name: Zainou 'Gypsy' Long Range Targeting LT-802
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Long Range Targeting LT-803:
-    id: 13233
-    implantness: 8
-    marketGroup: 1766
-    maxtargetrangebonus: 3.0
-    name: Zainou 'Gypsy' Long Range Targeting LT-803
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Long Range Targeting LT-804:
-    id: 3275
-    implantness: 8
-    marketGroup: 1766
-    maxtargetrangebonus: 4.0
-    name: Zainou 'Gypsy' Long Range Targeting LT-804
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Long Range Targeting LT-805:
-    id: 27227
-    implantness: 8
-    marketGroup: 1766
-    maxtargetrangebonus: 5.0
-    name: Zainou 'Gypsy' Long Range Targeting LT-805
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Long Range Targeting LT-806:
-    id: 3276
-    implantness: 8
-    marketGroup: 1766
-    maxtargetrangebonus: 6.0
-    name: Zainou 'Gypsy' Long Range Targeting LT-806
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-701:
-    id: 27131
-    implantness: 7
-    marketGroup: 1765
-    name: Zainou 'Gypsy' Signature Analysis SA-701
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    scanresolutionbonus: 1.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-702:
+  3268:
     id: 3268
     implantness: 7
     marketGroup: 1765
@@ -119,22 +14,7 @@ types:
     scanresolutionbonus: 2.0
     techlevel: 1
     volume: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-703:
-    id: 10244
-    implantness: 7
-    marketGroup: 1765
-    name: Zainou 'Gypsy' Signature Analysis SA-703
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    scanresolutionbonus: 3.0
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-704:
+  3269:
     id: 3269
     implantness: 7
     marketGroup: 1765
@@ -149,7 +29,97 @@ types:
     scanresolutionbonus: 4.0
     techlevel: 1
     volume: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-705:
+  3270:
+    id: 3270
+    implantness: 7
+    marketGroup: 1765
+    name: Zainou 'Gypsy' Signature Analysis SA-706
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    scanresolutionbonus: 6.0
+    techlevel: 1
+    volume: 1.0
+  3274:
+    id: 3274
+    implantness: 8
+    marketGroup: 1766
+    maxtargetrangebonus: 2.0
+    name: Zainou 'Gypsy' Long Range Targeting LT-802
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3275:
+    id: 3275
+    implantness: 8
+    marketGroup: 1766
+    maxtargetrangebonus: 4.0
+    name: Zainou 'Gypsy' Long Range Targeting LT-804
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3276:
+    id: 3276
+    implantness: 8
+    marketGroup: 1766
+    maxtargetrangebonus: 6.0
+    name: Zainou 'Gypsy' Long Range Targeting LT-806
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  10244:
+    id: 10244
+    implantness: 7
+    marketGroup: 1765
+    name: Zainou 'Gypsy' Signature Analysis SA-703
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    scanresolutionbonus: 3.0
+    techlevel: 1
+    volume: 1.0
+  13233:
+    id: 13233
+    implantness: 8
+    marketGroup: 1766
+    maxtargetrangebonus: 3.0
+    name: Zainou 'Gypsy' Long Range Targeting LT-803
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  27130:
     id: 27130
     implantness: 7
     marketGroup: 1765
@@ -164,18 +134,48 @@ types:
     scanresolutionbonus: 5.0
     techlevel: 1
     volume: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-706:
-    id: 3270
+  27131:
+    id: 27131
     implantness: 7
     marketGroup: 1765
-    name: Zainou 'Gypsy' Signature Analysis SA-706
+    name: Zainou 'Gypsy' Signature Analysis SA-701
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
-    requiredskill1level: 5
-    scanresolutionbonus: 6.0
+    requiredskill1level: 1
+    scanresolutionbonus: 1.0
+    techlevel: 1
+    volume: 1.0
+  27227:
+    id: 27227
+    implantness: 8
+    marketGroup: 1766
+    maxtargetrangebonus: 5.0
+    name: Zainou 'Gypsy' Long Range Targeting LT-805
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  27229:
+    id: 27229
+    implantness: 8
+    marketGroup: 1766
+    maxtargetrangebonus: 1.0
+    name: Zainou 'Gypsy' Long Range Targeting LT-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
     techlevel: 1
     volume: 1.0

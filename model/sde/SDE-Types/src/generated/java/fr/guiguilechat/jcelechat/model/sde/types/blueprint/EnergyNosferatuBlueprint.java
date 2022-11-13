@@ -97,7 +97,7 @@ public class EnergyNosferatuBlueprint
         implements IMetaGroup<EnergyNosferatuBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/EnergyNosferatuBlueprint.yaml";
-        private Map<String, EnergyNosferatuBlueprint> cache = (null);
+        private Map<Integer, EnergyNosferatuBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super EnergyNosferatuBlueprint> category() {
@@ -115,7 +115,7 @@ public class EnergyNosferatuBlueprint
         }
 
         @Override
-        public synchronized Map<String, EnergyNosferatuBlueprint> load() {
+        public synchronized Map<Integer, EnergyNosferatuBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EnergyNosferatuBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class EnergyNosferatuBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyNosferatuBlueprint> types;
+            public LinkedHashMap<Integer, EnergyNosferatuBlueprint> types;
         }
     }
 }

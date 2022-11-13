@@ -1,5 +1,5 @@
 types:
-  Standup Guided Bomb Launcher I:
+  35923:
     canfitshiptype1: 35833
     canfitshiptype10: 47516
     canfitshiptype11: 47514
@@ -36,7 +36,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 8000.0
-  Standup Guided Bomb Launcher II:
+  47325:
     canfitshiptype1: 35833
     canfitshiptype10: 47516
     canfitshiptype11: 47514

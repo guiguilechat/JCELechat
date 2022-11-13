@@ -301,7 +301,7 @@ public class SensorBooster
         implements IMetaGroup<SensorBooster>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/SensorBooster.yaml";
-        private Map<String, SensorBooster> cache = (null);
+        private Map<Integer, SensorBooster> cache = (null);
 
         @Override
         public IMetaCategory<? super SensorBooster> category() {
@@ -319,7 +319,7 @@ public class SensorBooster
         }
 
         @Override
-        public synchronized Map<String, SensorBooster> load() {
+        public synchronized Map<Integer, SensorBooster> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SensorBooster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -333,7 +333,7 @@ public class SensorBooster
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorBooster> types;
+            public LinkedHashMap<Integer, SensorBooster> types;
         }
     }
 }

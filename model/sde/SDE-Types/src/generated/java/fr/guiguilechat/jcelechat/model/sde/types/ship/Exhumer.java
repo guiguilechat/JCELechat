@@ -647,7 +647,7 @@ public class Exhumer
         implements IMetaGroup<Exhumer>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Exhumer.yaml";
-        private Map<String, Exhumer> cache = (null);
+        private Map<Integer, Exhumer> cache = (null);
 
         @Override
         public IMetaCategory<? super Exhumer> category() {
@@ -665,7 +665,7 @@ public class Exhumer
         }
 
         @Override
-        public synchronized Map<String, Exhumer> load() {
+        public synchronized Map<Integer, Exhumer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Exhumer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -679,7 +679,7 @@ public class Exhumer
         }
 
         private static class Container {
-            public LinkedHashMap<String, Exhumer> types;
+            public LinkedHashMap<Integer, Exhumer> types;
         }
     }
 }

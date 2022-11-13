@@ -1,5 +1,113 @@
 types:
-  Serpentis Warp Disruption Battery:
+  17181:
+    anchoringdelay: 5000
+    armorhp: 1500000.0
+    armoruniformity: 0.75
+    controltowerminimumdistance: 5000
+    cpu: 50.0
+    disallowoffensivemodifiers: 1
+    duration: 10000.0
+    emdamageresonance: 1.0
+    entityattackdelaymax: 30000
+    entityattackdelaymin: 7500
+    entityflyrange: 250000.0
+    entityreactionfactor: 0.5
+    entitywarpscramblechance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
+    id: 17181
+    incapacitationratio: 0.0010000000474974513
+    kineticdamageresonance: 1.0
+    marketGroup: 481
+    mass: 1.0E8
+    maxlockedtargets: 1
+    maxtargetrange: 500000.0
+    name: Warp Disruption Battery
+    onliningdelay: 120000
+    packagedVolume: 4000.0
+    portionSize: 1
+    posplayercontrolstructure: 1
+    power: 100000
+    price: 5000000.0
+    proximityrange: 300000
+    published: true
+    radius: 629.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    scanresolution: 30.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 1.0E7
+    shielduniformity: 0.75
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    targetswitchdelay: 30000
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
+    volume: 4000.0
+    warpscrambleduration: 10000
+    warpscramblerange: 150000
+    warpscramblestrength: 3
+  17182:
+    anchoringdelay: 5000
+    armorhp: 1500000.0
+    armoruniformity: 0.75
+    controltowerminimumdistance: 5000
+    cpu: 25.0
+    disallowoffensivemodifiers: 1
+    duration: 10000.0
+    emdamageresonance: 1.0
+    entityattackdelaymax: 30000
+    entityattackdelaymin: 7500
+    entityflyrange: 75000.0
+    entityreactionfactor: 0.5
+    entitywarpscramblechance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
+    id: 17182
+    incapacitationratio: 0.0010000000474974513
+    kineticdamageresonance: 1.0
+    marketGroup: 481
+    mass: 1.0E8
+    maxlockedtargets: 1
+    maxtargetrange: 500000.0
+    name: Warp Scrambling Battery
+    onliningdelay: 120000
+    packagedVolume: 4000.0
+    portionSize: 1
+    posplayercontrolstructure: 1
+    power: 25000
+    price: 2500000.0
+    proximityrange: 100000
+    published: true
+    radius: 629.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    scanresolution: 30.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 1.0E7
+    shielduniformity: 0.75
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    targetswitchdelay: 30000
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
+    volume: 4000.0
+    warpscrambleduration: 10000
+    warpscramblerange: 75000
+    warpscramblestrength: 6
+  27563:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
@@ -54,62 +162,7 @@ types:
     warpscrambleduration: 15000
     warpscramblerange: 150000
     warpscramblestrength: 4
-  Serpentis Warp Scrambling Battery:
-    anchoringdelay: 5000
-    armorhp: 2250000.0
-    armoruniformity: 0.75
-    controltowerminimumdistance: 5000
-    cpu: 25.0
-    disallowoffensivemodifiers: 1
-    duration: 10000.0
-    emdamageresonance: 1.0
-    entityattackdelaymax: 30000
-    entityattackdelaymin: 7500
-    entityflyrange: 75000.0
-    entityreactionfactor: 0.5
-    entitywarpscramblechance: 1.0
-    explosivedamageresonance: 1.0
-    fighterabilityanticapitalmissileresistance: 1
-    hp: 100000.0
-    id: 27567
-    incapacitationratio: 0.0010000000474974513
-    kineticdamageresonance: 1.0
-    marketGroup: 481
-    mass: 1.0E8
-    maxlockedtargets: 1
-    maxtargetrange: 500000.0
-    metagroupid: 4
-    name: Serpentis Warp Scrambling Battery
-    onliningdelay: 120000
-    packagedVolume: 4000.0
-    portionSize: 1
-    posplayercontrolstructure: 1
-    power: 25000
-    price: 2500000.0
-    proximityrange: 100000
-    published: true
-    radius: 629.0
-    requiredskill1: 11584
-    requiredskill1level: 1
-    scangravimetricstrength: 200.0
-    scanladarstrength: 200.0
-    scanmagnetometricstrength: 200.0
-    scanradarstrength: 200.0
-    scanresolution: 33.0
-    shieldcapacity: 150000.0
-    shieldrechargerate: 1.0E7
-    shielduniformity: 0.75
-    signatureradius: 8000.0
-    structureuniformity: 1.0
-    targetswitchdelay: 30000
-    thermaldamageresonance: 1.0
-    unanchoringdelay: 5000
-    uniformity: 1.0
-    volume: 4000.0
-    warpscrambleduration: 11000
-    warpscramblerange: 82500
-    warpscramblestrength: 6
-  Shadow Warp Disruption Battery:
+  27565:
     anchoringdelay: 5000
     armorhp: 3000000.0
     armoruniformity: 0.75
@@ -164,7 +217,62 @@ types:
     warpscrambleduration: 25000
     warpscramblerange: 150000
     warpscramblestrength: 5
-  Shadow Warp Scrambling Battery:
+  27567:
+    anchoringdelay: 5000
+    armorhp: 2250000.0
+    armoruniformity: 0.75
+    controltowerminimumdistance: 5000
+    cpu: 25.0
+    disallowoffensivemodifiers: 1
+    duration: 10000.0
+    emdamageresonance: 1.0
+    entityattackdelaymax: 30000
+    entityattackdelaymin: 7500
+    entityflyrange: 75000.0
+    entityreactionfactor: 0.5
+    entitywarpscramblechance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
+    id: 27567
+    incapacitationratio: 0.0010000000474974513
+    kineticdamageresonance: 1.0
+    marketGroup: 481
+    mass: 1.0E8
+    maxlockedtargets: 1
+    maxtargetrange: 500000.0
+    metagroupid: 4
+    name: Serpentis Warp Scrambling Battery
+    onliningdelay: 120000
+    packagedVolume: 4000.0
+    portionSize: 1
+    posplayercontrolstructure: 1
+    power: 25000
+    price: 2500000.0
+    proximityrange: 100000
+    published: true
+    radius: 629.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    scanresolution: 33.0
+    shieldcapacity: 150000.0
+    shieldrechargerate: 1.0E7
+    shielduniformity: 0.75
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    targetswitchdelay: 30000
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
+    volume: 4000.0
+    warpscrambleduration: 11000
+    warpscramblerange: 82500
+    warpscramblestrength: 6
+  27569:
     anchoringdelay: 5000
     armorhp: 3000000.0
     armoruniformity: 0.75
@@ -218,112 +326,4 @@ types:
     volume: 4000.0
     warpscrambleduration: 13000
     warpscramblerange: 97500
-    warpscramblestrength: 6
-  Warp Disruption Battery:
-    anchoringdelay: 5000
-    armorhp: 1500000.0
-    armoruniformity: 0.75
-    controltowerminimumdistance: 5000
-    cpu: 50.0
-    disallowoffensivemodifiers: 1
-    duration: 10000.0
-    emdamageresonance: 1.0
-    entityattackdelaymax: 30000
-    entityattackdelaymin: 7500
-    entityflyrange: 250000.0
-    entityreactionfactor: 0.5
-    entitywarpscramblechance: 1.0
-    explosivedamageresonance: 1.0
-    fighterabilityanticapitalmissileresistance: 1
-    hp: 100000.0
-    id: 17181
-    incapacitationratio: 0.0010000000474974513
-    kineticdamageresonance: 1.0
-    marketGroup: 481
-    mass: 1.0E8
-    maxlockedtargets: 1
-    maxtargetrange: 500000.0
-    name: Warp Disruption Battery
-    onliningdelay: 120000
-    packagedVolume: 4000.0
-    portionSize: 1
-    posplayercontrolstructure: 1
-    power: 100000
-    price: 5000000.0
-    proximityrange: 300000
-    published: true
-    radius: 629.0
-    requiredskill1: 11584
-    requiredskill1level: 1
-    scangravimetricstrength: 200.0
-    scanladarstrength: 200.0
-    scanmagnetometricstrength: 200.0
-    scanradarstrength: 200.0
-    scanresolution: 30.0
-    shieldcapacity: 100000.0
-    shieldrechargerate: 1.0E7
-    shielduniformity: 0.75
-    signatureradius: 8000.0
-    structureuniformity: 1.0
-    targetswitchdelay: 30000
-    thermaldamageresonance: 1.0
-    unanchoringdelay: 5000
-    uniformity: 1.0
-    volume: 4000.0
-    warpscrambleduration: 10000
-    warpscramblerange: 150000
-    warpscramblestrength: 3
-  Warp Scrambling Battery:
-    anchoringdelay: 5000
-    armorhp: 1500000.0
-    armoruniformity: 0.75
-    controltowerminimumdistance: 5000
-    cpu: 25.0
-    disallowoffensivemodifiers: 1
-    duration: 10000.0
-    emdamageresonance: 1.0
-    entityattackdelaymax: 30000
-    entityattackdelaymin: 7500
-    entityflyrange: 75000.0
-    entityreactionfactor: 0.5
-    entitywarpscramblechance: 1.0
-    explosivedamageresonance: 1.0
-    fighterabilityanticapitalmissileresistance: 1
-    hp: 100000.0
-    id: 17182
-    incapacitationratio: 0.0010000000474974513
-    kineticdamageresonance: 1.0
-    marketGroup: 481
-    mass: 1.0E8
-    maxlockedtargets: 1
-    maxtargetrange: 500000.0
-    name: Warp Scrambling Battery
-    onliningdelay: 120000
-    packagedVolume: 4000.0
-    portionSize: 1
-    posplayercontrolstructure: 1
-    power: 25000
-    price: 2500000.0
-    proximityrange: 100000
-    published: true
-    radius: 629.0
-    requiredskill1: 11584
-    requiredskill1level: 1
-    scangravimetricstrength: 200.0
-    scanladarstrength: 200.0
-    scanmagnetometricstrength: 200.0
-    scanradarstrength: 200.0
-    scanresolution: 30.0
-    shieldcapacity: 100000.0
-    shieldrechargerate: 1.0E7
-    shielduniformity: 0.75
-    signatureradius: 8000.0
-    structureuniformity: 1.0
-    targetswitchdelay: 30000
-    thermaldamageresonance: 1.0
-    unanchoringdelay: 5000
-    uniformity: 1.0
-    volume: 4000.0
-    warpscrambleduration: 10000
-    warpscramblerange: 75000
     warpscramblestrength: 6

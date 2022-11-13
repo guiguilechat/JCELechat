@@ -110,7 +110,7 @@ public class Tool
         implements IMetaGroup<Tool>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Tool.yaml";
-        private Map<String, Tool> cache = (null);
+        private Map<Integer, Tool> cache = (null);
 
         @Override
         public IMetaCategory<? super Tool> category() {
@@ -128,7 +128,7 @@ public class Tool
         }
 
         @Override
-        public synchronized Map<String, Tool> load() {
+        public synchronized Map<Integer, Tool> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Tool.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -142,7 +142,7 @@ public class Tool
         }
 
         private static class Container {
-            public LinkedHashMap<String, Tool> types;
+            public LinkedHashMap<Integer, Tool> types;
         }
     }
 }

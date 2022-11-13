@@ -14,14 +14,19 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CaptureProximityRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
@@ -31,6 +36,13 @@ import org.yaml.snakeyaml.Yaml;
 public class CapturePoint
     extends Entity
 {
+    /**
+     * Capacitor capacity
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
@@ -46,6 +58,13 @@ public class CapturePoint
     @DefaultIntValue(0)
     public int captureproximityrange;
     /**
+     * charge of module
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int charge;
+    /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
@@ -59,6 +78,20 @@ public class CapturePoint
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double emdamageresonance;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entityfactionloss;
+    /**
+     * Reward for destroying this entity.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitykillbounty;
     /**
      * damage multiplier vs. explosive damagers.
      */
@@ -88,6 +121,13 @@ public class CapturePoint
     @DefaultRealValue(0.0)
     public double radius;
     /**
+     * Amount of time taken to fully recharge the capacitor.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double rechargerate;
+    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -101,12 +141,16 @@ public class CapturePoint
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EmDamageResonance.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, DisallowAssistance.INSTANCE, Hp.INSTANCE, CaptureProximityRange.INSTANCE, StructureUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Charge.INSTANCE, EntityFactionLoss.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, CaptureProximityRange.INSTANCE })));
     public static final CapturePoint.MetaGroup METAGROUP = new CapturePoint.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  482 :
+            {
+                return capacitorcapacity;
+            }
             case  38 :
             {
                 return capacity;
@@ -115,6 +159,10 @@ public class CapturePoint
             {
                 return captureproximityrange;
             }
+            case  18 :
+            {
+                return charge;
+            }
             case  854 :
             {
                 return disallowassistance;
@@ -122,6 +170,14 @@ public class CapturePoint
             case  113 :
             {
                 return emdamageresonance;
+            }
+            case  562 :
+            {
+                return entityfactionloss;
+            }
+            case  481 :
+            {
+                return entitykillbounty;
             }
             case  111 :
             {
@@ -138,6 +194,10 @@ public class CapturePoint
             case  162 :
             {
                 return radius;
+            }
+            case  55 :
+            {
+                return rechargerate;
             }
             case  525 :
             {
@@ -168,7 +228,7 @@ public class CapturePoint
         implements IMetaGroup<CapturePoint>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/CapturePoint.yaml";
-        private Map<String, CapturePoint> cache = (null);
+        private Map<Integer, CapturePoint> cache = (null);
 
         @Override
         public IMetaCategory<? super CapturePoint> category() {
@@ -186,7 +246,7 @@ public class CapturePoint
         }
 
         @Override
-        public synchronized Map<String, CapturePoint> load() {
+        public synchronized Map<Integer, CapturePoint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapturePoint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -200,7 +260,7 @@ public class CapturePoint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapturePoint> types;
+            public LinkedHashMap<Integer, CapturePoint> types;
         }
     }
 }

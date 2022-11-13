@@ -146,7 +146,7 @@ public class GuidanceDisruptionScript
         implements IMetaGroup<GuidanceDisruptionScript>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/GuidanceDisruptionScript.yaml";
-        private Map<String, GuidanceDisruptionScript> cache = (null);
+        private Map<Integer, GuidanceDisruptionScript> cache = (null);
 
         @Override
         public IMetaCategory<? super GuidanceDisruptionScript> category() {
@@ -164,7 +164,7 @@ public class GuidanceDisruptionScript
         }
 
         @Override
-        public synchronized Map<String, GuidanceDisruptionScript> load() {
+        public synchronized Map<Integer, GuidanceDisruptionScript> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GuidanceDisruptionScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -178,7 +178,7 @@ public class GuidanceDisruptionScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, GuidanceDisruptionScript> types;
+            public LinkedHashMap<Integer, GuidanceDisruptionScript> types;
         }
     }
 }

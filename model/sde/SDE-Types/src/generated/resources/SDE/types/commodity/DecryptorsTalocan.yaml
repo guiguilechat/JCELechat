@@ -1,19 +1,19 @@
 types:
-  Talocan Automation Accounts:
-    id: 21085
+  21074:
+    id: 21074
     inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.5
-    inventionpropabilitymultiplier: 4.5
-    inventiontemodifier: 0.5
+    inventionmemodifier: 0.6000000238418579
+    inventionpropabilitymultiplier: 3.5
+    inventiontemodifier: 0.6000000238418579
     marketGroup: 1903
     mass: 1.0
-    name: Talocan Automation Accounts
+    name: Talocan Sketch Books
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     volume: 1.0
-  Talocan Info Shards:
+  21077:
     id: 21077
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 1.0
@@ -27,21 +27,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Talocan Intricate Formulas:
-    id: 21087
-    inventionmaxrunmodifier: 5.0
-    inventionmemodifier: 1.2000000476837158
-    inventionpropabilitymultiplier: 1.5
-    inventiontemodifier: 1.2000000476837158
-    marketGroup: 1903
-    mass: 1.0
-    name: Talocan Intricate Formulas
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Talocan Mathematical Schematics:
+  21084:
     id: 21084
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 0.6000000238418579
@@ -55,15 +41,29 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Talocan Sketch Books:
-    id: 21074
+  21085:
+    id: 21085
     inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.6000000238418579
-    inventionpropabilitymultiplier: 3.5
-    inventiontemodifier: 0.6000000238418579
+    inventionmemodifier: 0.5
+    inventionpropabilitymultiplier: 4.5
+    inventiontemodifier: 0.5
     marketGroup: 1903
     mass: 1.0
-    name: Talocan Sketch Books
+    name: Talocan Automation Accounts
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  21087:
+    id: 21087
+    inventionmaxrunmodifier: 5.0
+    inventionmemodifier: 1.2000000476837158
+    inventionpropabilitymultiplier: 1.5
+    inventiontemodifier: 1.2000000476837158
+    marketGroup: 1903
+    mass: 1.0
+    name: Talocan Intricate Formulas
     packagedVolume: 1.0
     portionSize: 1
     published: true

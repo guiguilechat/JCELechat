@@ -101,7 +101,7 @@ public class Gneiss
         implements IMetaGroup<Gneiss>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Gneiss.yaml";
-        private Map<String, Gneiss> cache = (null);
+        private Map<Integer, Gneiss> cache = (null);
 
         @Override
         public IMetaCategory<? super Gneiss> category() {
@@ -119,7 +119,7 @@ public class Gneiss
         }
 
         @Override
-        public synchronized Map<String, Gneiss> load() {
+        public synchronized Map<Integer, Gneiss> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Gneiss.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class Gneiss
         }
 
         private static class Container {
-            public LinkedHashMap<String, Gneiss> types;
+            public LinkedHashMap<Integer, Gneiss> types;
         }
     }
 }

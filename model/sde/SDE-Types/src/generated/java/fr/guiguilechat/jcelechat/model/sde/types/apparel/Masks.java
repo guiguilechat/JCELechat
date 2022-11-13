@@ -32,7 +32,7 @@ public class Masks
         implements IMetaGroup<Masks>
     {
         public static final String RESOURCE_PATH = "SDE/types/apparel/Masks.yaml";
-        private Map<String, Masks> cache = (null);
+        private Map<Integer, Masks> cache = (null);
 
         @Override
         public IMetaCategory<? super Masks> category() {
@@ -50,7 +50,7 @@ public class Masks
         }
 
         @Override
-        public synchronized Map<String, Masks> load() {
+        public synchronized Map<Integer, Masks> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Masks.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Masks
         }
 
         private static class Container {
-            public LinkedHashMap<String, Masks> types;
+            public LinkedHashMap<Integer, Masks> types;
         }
     }
 }

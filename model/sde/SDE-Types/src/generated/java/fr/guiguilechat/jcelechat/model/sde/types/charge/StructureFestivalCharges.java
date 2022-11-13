@@ -219,7 +219,7 @@ public class StructureFestivalCharges
         implements IMetaGroup<StructureFestivalCharges>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/StructureFestivalCharges.yaml";
-        private Map<String, StructureFestivalCharges> cache = (null);
+        private Map<Integer, StructureFestivalCharges> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureFestivalCharges> category() {
@@ -237,7 +237,7 @@ public class StructureFestivalCharges
         }
 
         @Override
-        public synchronized Map<String, StructureFestivalCharges> load() {
+        public synchronized Map<Integer, StructureFestivalCharges> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureFestivalCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -251,7 +251,7 @@ public class StructureFestivalCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureFestivalCharges> types;
+            public LinkedHashMap<Integer, StructureFestivalCharges> types;
         }
     }
 }

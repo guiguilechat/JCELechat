@@ -1027,7 +1027,7 @@ public class Titan
         implements IMetaGroup<Titan>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Titan.yaml";
-        private Map<String, Titan> cache = (null);
+        private Map<Integer, Titan> cache = (null);
 
         @Override
         public IMetaCategory<? super Titan> category() {
@@ -1045,7 +1045,7 @@ public class Titan
         }
 
         @Override
-        public synchronized Map<String, Titan> load() {
+        public synchronized Map<Integer, Titan> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Titan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1059,7 +1059,7 @@ public class Titan
         }
 
         private static class Container {
-            public LinkedHashMap<String, Titan> types;
+            public LinkedHashMap<Integer, Titan> types;
         }
     }
 }

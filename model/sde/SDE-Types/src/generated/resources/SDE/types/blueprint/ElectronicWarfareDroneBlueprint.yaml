@@ -1,71 +1,16 @@
 types:
-  Acolyte TD-300 Blueprint:
-    id: 23728
-    industryblueprintrank: 1.0
-    marketGroup: 1029
-    name: Acolyte TD-300 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Berserker TP-900 Blueprint:
-    id: 23513
+  23474:
+    id: 23474
     industryblueprintrank: 3.0
     marketGroup: 1029
-    name: Berserker TP-900 Blueprint
+    name: Wasp EC-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Hammerhead SD-600 Blueprint:
-    id: 23714
-    industryblueprintrank: 2.0
-    marketGroup: 1029
-    name: Hammerhead SD-600 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1800000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Hobgoblin SD-300 Blueprint:
-    id: 23716
-    industryblueprintrank: 1.0
-    marketGroup: 1029
-    name: Hobgoblin SD-300 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 250000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Hornet EC-300 Blueprint:
-    id: 23708
-    industryblueprintrank: 1.0
-    marketGroup: 1029
-    name: Hornet EC-300 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 300000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Infiltrator TD-600 Blueprint:
-    id: 23726
-    industryblueprintrank: 2.0
-    marketGroup: 1029
-    name: Infiltrator TD-600 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1700000.0
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Ogre SD-900 Blueprint:
+  23507:
     id: 23507
     industryblueprintrank: 3.0
     marketGroup: 1029
@@ -76,7 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Praetor TD-900 Blueprint:
+  23511:
     id: 23511
     industryblueprintrank: 3.0
     marketGroup: 1029
@@ -87,18 +32,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Valkyrie TP-600 Blueprint:
-    id: 23722
-    industryblueprintrank: 2.0
+  23513:
+    id: 23513
+    industryblueprintrank: 3.0
     marketGroup: 1029
-    name: Valkyrie TP-600 Blueprint
+    name: Berserker TP-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1500000.0
+    price: 4000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Vespa EC-600 Blueprint:
+  23706:
     id: 23706
     industryblueprintrank: 2.0
     marketGroup: 1029
@@ -109,7 +54,51 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Warrior TP-300 Blueprint:
+  23708:
+    id: 23708
+    industryblueprintrank: 1.0
+    marketGroup: 1029
+    name: Hornet EC-300 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 300000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  23714:
+    id: 23714
+    industryblueprintrank: 2.0
+    marketGroup: 1029
+    name: Hammerhead SD-600 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1800000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  23716:
+    id: 23716
+    industryblueprintrank: 1.0
+    marketGroup: 1029
+    name: Hobgoblin SD-300 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 250000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  23722:
+    id: 23722
+    industryblueprintrank: 2.0
+    marketGroup: 1029
+    name: Valkyrie TP-600 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  23724:
     id: 23724
     industryblueprintrank: 1.0
     marketGroup: 1029
@@ -120,14 +109,25 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Wasp EC-900 Blueprint:
-    id: 23474
-    industryblueprintrank: 3.0
+  23726:
+    id: 23726
+    industryblueprintrank: 2.0
     marketGroup: 1029
-    name: Wasp EC-900 Blueprint
+    name: Infiltrator TD-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
+    price: 1700000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  23728:
+    id: 23728
+    industryblueprintrank: 1.0
+    marketGroup: 1029
+    name: Acolyte TD-300 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

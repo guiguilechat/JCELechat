@@ -1145,7 +1145,7 @@ public class DeadspaceGuristasDestroyer
         implements IMetaGroup<DeadspaceGuristasDestroyer>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceGuristasDestroyer.yaml";
-        private Map<String, DeadspaceGuristasDestroyer> cache = (null);
+        private Map<Integer, DeadspaceGuristasDestroyer> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceGuristasDestroyer> category() {
@@ -1163,7 +1163,7 @@ public class DeadspaceGuristasDestroyer
         }
 
         @Override
-        public synchronized Map<String, DeadspaceGuristasDestroyer> load() {
+        public synchronized Map<Integer, DeadspaceGuristasDestroyer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceGuristasDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1177,7 +1177,7 @@ public class DeadspaceGuristasDestroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceGuristasDestroyer> types;
+            public LinkedHashMap<Integer, DeadspaceGuristasDestroyer> types;
         }
     }
 }

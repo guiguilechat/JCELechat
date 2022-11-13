@@ -1,5 +1,5 @@
 types:
-  Standup XL-Set EW and Emissions Co-ordinator I:
+  37272:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     hisecmodifier: 1.0
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 40.0
-  Standup XL-Set EW and Emissions Co-ordinator II:
+  37273:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     hisecmodifier: 1.0

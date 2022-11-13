@@ -186,7 +186,7 @@ public class MobileReactor
         implements IMetaGroup<MobileReactor>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/MobileReactor.yaml";
-        private Map<String, MobileReactor> cache = (null);
+        private Map<Integer, MobileReactor> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileReactor> category() {
@@ -204,7 +204,7 @@ public class MobileReactor
         }
 
         @Override
-        public synchronized Map<String, MobileReactor> load() {
+        public synchronized Map<Integer, MobileReactor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileReactor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -218,7 +218,7 @@ public class MobileReactor
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileReactor> types;
+            public LinkedHashMap<Integer, MobileReactor> types;
         }
     }
 }

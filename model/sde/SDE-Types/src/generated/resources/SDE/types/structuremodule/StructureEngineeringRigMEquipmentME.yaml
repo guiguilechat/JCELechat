@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Equipment Manufacturing Material Efficiency I:
+  43920:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: 1
@@ -27,7 +27,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Equipment Manufacturing Material Efficiency II:
+  43921:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: 1

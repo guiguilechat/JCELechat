@@ -215,7 +215,7 @@ public class MobileCynosuralBeacon
         implements IMetaGroup<MobileCynosuralBeacon>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileCynosuralBeacon.yaml";
-        private Map<String, MobileCynosuralBeacon> cache = (null);
+        private Map<Integer, MobileCynosuralBeacon> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileCynosuralBeacon> category() {
@@ -233,7 +233,7 @@ public class MobileCynosuralBeacon
         }
 
         @Override
-        public synchronized Map<String, MobileCynosuralBeacon> load() {
+        public synchronized Map<Integer, MobileCynosuralBeacon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileCynosuralBeacon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -247,7 +247,7 @@ public class MobileCynosuralBeacon
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileCynosuralBeacon> types;
+            public LinkedHashMap<Integer, MobileCynosuralBeacon> types;
         }
     }
 }

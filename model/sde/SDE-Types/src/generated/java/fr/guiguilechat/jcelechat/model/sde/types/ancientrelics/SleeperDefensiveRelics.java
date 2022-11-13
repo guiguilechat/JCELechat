@@ -37,7 +37,7 @@ public class SleeperDefensiveRelics
         implements IMetaGroup<SleeperDefensiveRelics>
     {
         public static final String RESOURCE_PATH = "SDE/types/ancientrelics/SleeperDefensiveRelics.yaml";
-        private Map<String, SleeperDefensiveRelics> cache = (null);
+        private Map<Integer, SleeperDefensiveRelics> cache = (null);
 
         @Override
         public IMetaCategory<? super SleeperDefensiveRelics> category() {
@@ -55,7 +55,7 @@ public class SleeperDefensiveRelics
         }
 
         @Override
-        public synchronized Map<String, SleeperDefensiveRelics> load() {
+        public synchronized Map<Integer, SleeperDefensiveRelics> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SleeperDefensiveRelics.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -69,7 +69,7 @@ public class SleeperDefensiveRelics
         }
 
         private static class Container {
-            public LinkedHashMap<String, SleeperDefensiveRelics> types;
+            public LinkedHashMap<Integer, SleeperDefensiveRelics> types;
         }
     }
 }

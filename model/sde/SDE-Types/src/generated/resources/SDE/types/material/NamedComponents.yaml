@@ -1,25 +1,5 @@
 types:
-  Ample Compounds:
-    id: 41264
-    marketGroup: 2155
-    mass: 0.0010000000474974513
-    name: Ample Compounds
-    packagedVolume: 0.0010000000474974513
-    portionSize: 1
-    price: 250000.0
-    published: true
-    volume: 0.0010000000474974513
-  Ample Conductors:
-    id: 41265
-    marketGroup: 2155
-    mass: 0.0010000000474974513
-    name: Ample Conductors
-    packagedVolume: 0.0010000000474974513
-    portionSize: 1
-    price: 250000.0
-    published: true
-    volume: 0.0010000000474974513
-  Ample Electronics:
+  41263:
     id: 41263
     marketGroup: 2155
     mass: 0.0010000000474974513
@@ -29,27 +9,27 @@ types:
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Compact Compounds:
-    id: 41267
+  41264:
+    id: 41264
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Compact Compounds
+    name: Ample Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Compact Conductors:
-    id: 41268
+  41265:
+    id: 41265
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Compact Conductors
+    name: Ample Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Compact Electronics:
+  41266:
     id: 41266
     marketGroup: 2155
     mass: 0.0010000000474974513
@@ -59,27 +39,27 @@ types:
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Enduring Compounds:
-    id: 41302
+  41267:
+    id: 41267
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Enduring Compounds
+    name: Compact Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Enduring Conductors:
-    id: 41303
+  41268:
+    id: 41268
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Enduring Conductors
+    name: Compact Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Enduring Electronics:
+  41269:
     id: 41269
     marketGroup: 2155
     mass: 0.0010000000474974513
@@ -89,37 +69,27 @@ types:
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Korako's Modified Drone Control Unit:
-    id: 54562
-    marketGroup: 2155
-    mass: 1.0
-    name: Korako's Modified Drone Control Unit
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 250000.0
-    published: true
-    volume: 0.10000000149011612
-  Precise Compounds:
-    id: 41305
+  41302:
+    id: 41302
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Precise Compounds
+    name: Enduring Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Precise Conductors:
-    id: 41306
+  41303:
+    id: 41303
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Precise Conductors
+    name: Enduring Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Precise Electronics:
+  41304:
     id: 41304
     marketGroup: 2155
     mass: 0.0010000000474974513
@@ -129,27 +99,27 @@ types:
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Restrained Compounds:
-    id: 41308
+  41305:
+    id: 41305
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Restrained Compounds
+    name: Precise Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Restrained Conductors:
-    id: 41309
+  41306:
+    id: 41306
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Restrained Conductors
+    name: Precise Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Restrained Electronics:
+  41307:
     id: 41307
     marketGroup: 2155
     mass: 0.0010000000474974513
@@ -159,27 +129,27 @@ types:
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Scoped Compounds:
-    id: 41311
+  41308:
+    id: 41308
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Scoped Compounds
+    name: Restrained Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Scoped Conductors:
-    id: 41312
+  41309:
+    id: 41309
     marketGroup: 2155
     mass: 0.0010000000474974513
-    name: Scoped Conductors
+    name: Restrained Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
-  Scoped Electronics:
+  41310:
     id: 41310
     marketGroup: 2155
     mass: 0.0010000000474974513
@@ -189,3 +159,33 @@ types:
     price: 250000.0
     published: true
     volume: 0.0010000000474974513
+  41311:
+    id: 41311
+    marketGroup: 2155
+    mass: 0.0010000000474974513
+    name: Scoped Compounds
+    packagedVolume: 0.0010000000474974513
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 0.0010000000474974513
+  41312:
+    id: 41312
+    marketGroup: 2155
+    mass: 0.0010000000474974513
+    name: Scoped Conductors
+    packagedVolume: 0.0010000000474974513
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 0.0010000000474974513
+  54562:
+    id: 54562
+    marketGroup: 2155
+    mass: 1.0
+    name: Korako's Modified Drone Control Unit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 0.10000000149011612

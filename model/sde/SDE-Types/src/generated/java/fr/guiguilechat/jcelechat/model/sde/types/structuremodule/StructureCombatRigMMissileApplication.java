@@ -265,7 +265,7 @@ public class StructureCombatRigMMissileApplication
         implements IMetaGroup<StructureCombatRigMMissileApplication>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigMMissileApplication.yaml";
-        private Map<String, StructureCombatRigMMissileApplication> cache = (null);
+        private Map<Integer, StructureCombatRigMMissileApplication> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigMMissileApplication> category() {
@@ -283,7 +283,7 @@ public class StructureCombatRigMMissileApplication
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigMMissileApplication> load() {
+        public synchronized Map<Integer, StructureCombatRigMMissileApplication> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigMMissileApplication.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -297,7 +297,7 @@ public class StructureCombatRigMMissileApplication
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigMMissileApplication> types;
+            public LinkedHashMap<Integer, StructureCombatRigMMissileApplication> types;
         }
     }
 }

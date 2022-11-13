@@ -32,7 +32,7 @@ public class PeculiarMaterials
         implements IMetaGroup<PeculiarMaterials>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/PeculiarMaterials.yaml";
-        private Map<String, PeculiarMaterials> cache = (null);
+        private Map<Integer, PeculiarMaterials> cache = (null);
 
         @Override
         public IMetaCategory<? super PeculiarMaterials> category() {
@@ -50,7 +50,7 @@ public class PeculiarMaterials
         }
 
         @Override
-        public synchronized Map<String, PeculiarMaterials> load() {
+        public synchronized Map<Integer, PeculiarMaterials> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PeculiarMaterials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PeculiarMaterials
         }
 
         private static class Container {
-            public LinkedHashMap<String, PeculiarMaterials> types;
+            public LinkedHashMap<Integer, PeculiarMaterials> types;
         }
     }
 }

@@ -1,20 +1,5 @@
 types:
-  Imperial Special Ops Field Enhancer - Standard:
-    armorhpbonus2: 5.0
-    id: 22760
-    implantness: 1
-    marketGroup: 618
-    name: Imperial Special Ops Field Enhancer - Standard
-    packagedVolume: 1.0
-    perceptionbonus: 4
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Republic Special Ops Field Enhancer - Gamma:
+  22715:
     id: 22715
     implantness: 3
     marketGroup: 620
@@ -29,3 +14,18 @@ types:
     velocitybonus2: 5
     volume: 1.0
     willpowerbonus: 4
+  22760:
+    armorhpbonus2: 5.0
+    id: 22760
+    implantness: 1
+    marketGroup: 618
+    name: Imperial Special Ops Field Enhancer - Standard
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0

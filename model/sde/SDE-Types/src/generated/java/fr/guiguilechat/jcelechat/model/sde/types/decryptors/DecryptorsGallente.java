@@ -40,7 +40,7 @@ public class DecryptorsGallente
         implements IMetaGroup<DecryptorsGallente>
     {
         public static final String RESOURCE_PATH = "SDE/types/decryptors/DecryptorsGallente.yaml";
-        private Map<String, DecryptorsGallente> cache = (null);
+        private Map<Integer, DecryptorsGallente> cache = (null);
 
         @Override
         public IMetaCategory<? super DecryptorsGallente> category() {
@@ -58,7 +58,7 @@ public class DecryptorsGallente
         }
 
         @Override
-        public synchronized Map<String, DecryptorsGallente> load() {
+        public synchronized Map<Integer, DecryptorsGallente> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DecryptorsGallente.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -72,7 +72,7 @@ public class DecryptorsGallente
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsGallente> types;
+            public LinkedHashMap<Integer, DecryptorsGallente> types;
         }
     }
 }

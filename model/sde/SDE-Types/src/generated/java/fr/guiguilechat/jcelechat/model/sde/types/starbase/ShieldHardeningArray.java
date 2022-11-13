@@ -198,7 +198,7 @@ public class ShieldHardeningArray
         implements IMetaGroup<ShieldHardeningArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/ShieldHardeningArray.yaml";
-        private Map<String, ShieldHardeningArray> cache = (null);
+        private Map<Integer, ShieldHardeningArray> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldHardeningArray> category() {
@@ -216,7 +216,7 @@ public class ShieldHardeningArray
         }
 
         @Override
-        public synchronized Map<String, ShieldHardeningArray> load() {
+        public synchronized Map<Integer, ShieldHardeningArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldHardeningArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -230,7 +230,7 @@ public class ShieldHardeningArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldHardeningArray> types;
+            public LinkedHashMap<Integer, ShieldHardeningArray> types;
         }
     }
 }

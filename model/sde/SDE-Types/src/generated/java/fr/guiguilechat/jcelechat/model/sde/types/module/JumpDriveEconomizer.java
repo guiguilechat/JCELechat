@@ -124,7 +124,7 @@ public class JumpDriveEconomizer
         implements IMetaGroup<JumpDriveEconomizer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/JumpDriveEconomizer.yaml";
-        private Map<String, JumpDriveEconomizer> cache = (null);
+        private Map<Integer, JumpDriveEconomizer> cache = (null);
 
         @Override
         public IMetaCategory<? super JumpDriveEconomizer> category() {
@@ -142,7 +142,7 @@ public class JumpDriveEconomizer
         }
 
         @Override
-        public synchronized Map<String, JumpDriveEconomizer> load() {
+        public synchronized Map<Integer, JumpDriveEconomizer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(JumpDriveEconomizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -156,7 +156,7 @@ public class JumpDriveEconomizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpDriveEconomizer> types;
+            public LinkedHashMap<Integer, JumpDriveEconomizer> types;
         }
     }
 }

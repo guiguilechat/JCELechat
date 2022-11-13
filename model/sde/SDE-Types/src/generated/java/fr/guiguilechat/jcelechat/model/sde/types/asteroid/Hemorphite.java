@@ -92,7 +92,7 @@ public class Hemorphite
         implements IMetaGroup<Hemorphite>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Hemorphite.yaml";
-        private Map<String, Hemorphite> cache = (null);
+        private Map<Integer, Hemorphite> cache = (null);
 
         @Override
         public IMetaCategory<? super Hemorphite> category() {
@@ -110,7 +110,7 @@ public class Hemorphite
         }
 
         @Override
-        public synchronized Map<String, Hemorphite> load() {
+        public synchronized Map<Integer, Hemorphite> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Hemorphite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class Hemorphite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Hemorphite> types;
+            public LinkedHashMap<Integer, Hemorphite> types;
         }
     }
 }

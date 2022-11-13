@@ -1,5 +1,5 @@
 types:
-  Annihilator Drone:
+  25632:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -85,7 +85,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.11749999970197678
     volume: 60.0
-  Atomizer Drone:
+  25635:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -173,7 +173,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.02199999988079071
     volume: 60.0
-  Bomber Drone:
+  25639:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -261,7 +261,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.027000000700354576
     volume: 60.0
-  Destructor Drone:
+  25643:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -347,7 +347,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.11749999970197678
     volume: 60.0
-  Devastator Drone:
+  25644:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -434,7 +434,7 @@ types:
     thermaldamage: 6.0
     trackingspeed: 0.027000000700354576
     volume: 60.0
-  Disintegrator Drone:
+  25646:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -522,7 +522,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.10559999942779541
     volume: 60.0
-  Nuker Drone:
+  25664:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -611,7 +611,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.02199999988079071
     volume: 60.0
-  Strain Annihilator Drone:
+  25677:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -695,7 +695,7 @@ types:
     thermaldamage: 9.0
     trackingspeed: 0.02800000086426735
     volume: 60.0
-  Strain Atomizer Drone:
+  25678:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -783,7 +783,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.02199999988079071
     volume: 60.0
-  Strain Bomber Drone:
+  25680:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -871,7 +871,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.027000000700354576
     volume: 60.0
-  Strain Destructor Drone:
+  25682:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -957,7 +957,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.11749999970197678
     volume: 60.0
-  Strain Devastator Drone:
+  25683:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1041,7 +1041,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.041999999433755875
     volume: 60.0
-  Strain Disintegrator Drone:
+  25685:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1129,7 +1129,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.10559999942779541
     volume: 60.0
-  Strain Nuker Drone:
+  25688:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1218,7 +1218,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.02199999988079071
     volume: 60.0
-  Strain Violator Drone:
+  25694:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1302,7 +1302,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.10559999942779541
     volume: 60.0
-  Strain Viral Infector Drone:
+  25695:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1386,7 +1386,7 @@ types:
     thermaldamage: 9.0
     trackingspeed: 0.10999999940395355
     volume: 60.0
-  Strain Wrecker Drone:
+  25696:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1473,7 +1473,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.13199999928474426
     volume: 60.0
-  Violator Drone:
+  25703:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1561,7 +1561,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.10559999942779541
     volume: 60.0
-  Viral Infector Drone:
+  25704:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1649,7 +1649,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.027000000700354576
     volume: 60.0
-  Wrecker Drone:
+  25705:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

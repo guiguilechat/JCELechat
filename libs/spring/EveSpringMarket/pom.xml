@@ -51,10 +51,15 @@
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Locations</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 	<packaging>war</packaging>
 	<build>
-		<finalName>${artifactId}</finalName>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
@@ -66,8 +71,17 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>2.3.0.RELEASE</version>
-			</plugin>
+				<version>${springboot.version}</version>
+			</plugin><plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <configuration>
+    <forkCount>3</forkCount>
+    <reuseForks>true</reuseForks>
+    <argLine>-Xmx2048m -XX:MaxPermSize=512m</argLine>
+  </configuration>
+</plugin>
+
 		</plugins>
 	</build>
 </project>

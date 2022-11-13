@@ -1,29 +1,29 @@
 types:
-  Advanced Weapon Upgrades:
+  3318:
     cannotbetrainedontrial: 1
-    id: 11207
+    cpuneedbonus: -5
+    id: 3318
     marketGroup: 368
-    name: Advanced Weapon Upgrades
+    name: Weapon Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    powerneedbonus: -2
-    price: 1000000.0
+    price: 80000.0
     primaryattribute: 167
     published: true
     radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 4
-    secondaryattribute: 168
-    skilltimeconstant: 6.0
+    requiredskill1: 3300
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  CPU Management:
+  3413:
     cannotbetrainedontrial: 1
-    cpuoutputbonus2: 5.0
-    id: 3426
+    id: 3413
     marketGroup: 368
-    name: CPU Management
+    name: Power Grid Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    powerengineeringoutputbonus: 5.0
     price: 30000.0
     primaryattribute: 165
     published: true
@@ -31,43 +31,7 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Capacitor Emission Systems:
-    cannotbetrainedontrial: 1
-    capneedbonus: -5
-    id: 3423
-    marketGroup: 368
-    name: Capacitor Emission Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 75000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 3
-    requiredskill2: 3402
-    requiredskill2level: 2
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Capacitor Management:
-    cannotbetrainedontrial: 1
-    capacitorcapacitybonus: 5.0
-    id: 3418
-    marketGroup: 368
-    name: Capacitor Management
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 200000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 3
-    secondaryattribute: 166
-    skilltimeconstant: 3.0
-    volume: 0.009999999776482582
-  Capacitor Systems Operation:
+  3417:
     cannotbetrainedontrial: 1
     caprechargebonus: -5.0
     id: 3417
@@ -84,64 +48,24 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Capital Capacitor Emission Systems:
+  3418:
     cannotbetrainedontrial: 1
-    capneedbonus: -5
-    id: 24572
+    capacitorcapacitybonus: 5.0
+    id: 3418
     marketGroup: 368
-    name: Capital Capacitor Emission Systems
+    name: Capacitor Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 200000.0
     primaryattribute: 165
     published: true
     radius: 1.0
     requiredskill1: 3413
-    requiredskill1level: 5
-    requiredskill2: 3423
-    requiredskill2level: 5
+    requiredskill1level: 3
     secondaryattribute: 166
-    skilltimeconstant: 10.0
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Electronics Upgrades:
-    cannotbetrainedontrial: 1
-    cpuneedbonus: -5
-    id: 3432
-    marketGroup: 368
-    name: Electronics Upgrades
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 100000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 2
-    requiredskill2: 3413
-    requiredskill2level: 2
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Energy Grid Upgrades:
-    cannotbetrainedontrial: 1
-    cpuneedbonus: -5
-    id: 3424
-    marketGroup: 368
-    name: Energy Grid Upgrades
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 79000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 2
-    requiredskill2: 3402
-    requiredskill2level: 1
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Energy Pulse Weapons:
+  3421:
     cannotbetrainedontrial: 1
     durationbonus: -5
     id: 3421
@@ -160,48 +84,52 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Nanite Interfacing:
+  3423:
     cannotbetrainedontrial: 1
-    id: 28880
+    capneedbonus: -5
+    id: 3423
     marketGroup: 368
-    modulerepairratebonus: 20
-    name: Nanite Interfacing
+    name: Capacitor Emission Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
+    price: 75000.0
     primaryattribute: 165
     published: true
     radius: 1.0
-    requiredskill1: 28879
+    requiredskill1: 3413
     requiredskill1level: 3
+    requiredskill2: 3402
+    requiredskill2level: 2
     secondaryattribute: 166
-    skilltimeconstant: 3.0
-    volume: 0.009999999776482582
-  Nanite Operation:
-    cannotbetrainedontrial: 1
-    id: 28879
-    marketGroup: 368
-    name: Nanite Operation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1000000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3392
-    requiredskill1level: 4
-    secondaryattribute: 166
-    shipbrokenrepaircostmultiplierbonus: -5
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Power Grid Management:
+  3424:
     cannotbetrainedontrial: 1
-    id: 3413
+    cpuneedbonus: -5
+    id: 3424
     marketGroup: 368
-    name: Power Grid Management
+    name: Energy Grid Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    powerengineeringoutputbonus: 5.0
+    price: 79000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 2
+    requiredskill2: 3402
+    requiredskill2level: 1
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  3426:
+    cannotbetrainedontrial: 1
+    cpuoutputbonus2: 5.0
+    id: 3426
+    marketGroup: 368
+    name: CPU Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     price: 30000.0
     primaryattribute: 165
     published: true
@@ -209,25 +137,62 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Resistance Phasing:
+  3432:
     cannotbetrainedontrial: 1
-    capneedbonus: -15
-    durationbonus: -10
-    id: 32797
+    cpuneedbonus: -5
+    id: 3432
     marketGroup: 368
-    name: Resistance Phasing
+    name: Electronics Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
+    price: 100000.0
     primaryattribute: 165
     published: true
     radius: 1.0
-    requiredskill1: 3394
-    requiredskill1level: 4
+    requiredskill1: 3426
+    requiredskill1level: 2
+    requiredskill2: 3413
+    requiredskill2level: 2
     secondaryattribute: 166
-    skilltimeconstant: 3.0
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Thermodynamics:
+  11207:
+    cannotbetrainedontrial: 1
+    id: 11207
+    marketGroup: 368
+    name: Advanced Weapon Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    powerneedbonus: -2
+    price: 1000000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    secondaryattribute: 168
+    skilltimeconstant: 6.0
+    volume: 0.009999999776482582
+  24572:
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
+    id: 24572
+    marketGroup: 368
+    name: Capital Capacitor Emission Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 5
+    requiredskill2: 3423
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 10.0
+    volume: 0.009999999776482582
+  28164:
     cannotbetrainedontrial: 1
     id: 28164
     marketGroup: 368
@@ -248,20 +213,55 @@ types:
     skilltimeconstant: 3.0
     thermodynamicsheatdamage: -5
     volume: 0.009999999776482582
-  Weapon Upgrades:
+  28879:
     cannotbetrainedontrial: 1
-    cpuneedbonus: -5
-    id: 3318
+    id: 28879
     marketGroup: 368
-    name: Weapon Upgrades
+    name: Nanite Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 80000.0
-    primaryattribute: 167
+    price: 1000000.0
+    primaryattribute: 165
     published: true
     radius: 1.0
-    requiredskill1: 3300
-    requiredskill1level: 2
+    requiredskill1: 3392
+    requiredskill1level: 4
     secondaryattribute: 166
+    shipbrokenrepaircostmultiplierbonus: -5
     skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  28880:
+    cannotbetrainedontrial: 1
+    id: 28880
+    marketGroup: 368
+    modulerepairratebonus: 20
+    name: Nanite Interfacing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 28879
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  32797:
+    cannotbetrainedontrial: 1
+    capneedbonus: -15
+    durationbonus: -10
+    id: 32797
+    marketGroup: 368
+    name: Resistance Phasing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582

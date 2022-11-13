@@ -1,5 +1,5 @@
 types:
-  Ice Harvester I:
+  16278:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
     capacitorneed: 8.0
@@ -23,7 +23,30 @@ types:
     techlevel: 1
     typecolorscheme: 11346
     volume: 25.0
-  Ice Harvester II:
+  17482:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    capacitorneed: 90.0
+    cpu: 60.0
+    duration: 180000.0
+    hp: 40.0
+    id: 17482
+    marketGroup: 1040
+    maxrange: 15000.0
+    miningamount: 600
+    miningwastedvolumemultiplier: 1
+    name: Strip Miner I
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 4
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 25.0
+  22229:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
     capacitorneed: 12.0
@@ -48,7 +71,7 @@ types:
     techlevel: 2
     typecolorscheme: 11347
     volume: 5.0
-  ORE Ice Harvester:
+  28752:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
     capacitorneed: 12.0
@@ -74,7 +97,7 @@ types:
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
-  ORE Strip Miner:
+  28754:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
     capacitorneed: 90.0
@@ -99,26 +122,3 @@ types:
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
-  Strip Miner I:
-    canfitshipgroup01: 463
-    canfitshipgroup02: 543
-    capacitorneed: 90.0
-    cpu: 60.0
-    duration: 180000.0
-    hp: 40.0
-    id: 17482
-    marketGroup: 1040
-    maxrange: 15000.0
-    miningamount: 600
-    miningwastedvolumemultiplier: 1
-    name: Strip Miner I
-    packagedVolume: 25.0
-    portionSize: 1
-    power: 10
-    published: true
-    radius: 25.0
-    requiredskill1: 3386
-    requiredskill1level: 4
-    techlevel: 1
-    typecolorscheme: 11346
-    volume: 25.0

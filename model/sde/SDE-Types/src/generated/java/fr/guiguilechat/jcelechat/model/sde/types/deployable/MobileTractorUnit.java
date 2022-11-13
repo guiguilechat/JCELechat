@@ -215,7 +215,7 @@ public class MobileTractorUnit
         implements IMetaGroup<MobileTractorUnit>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileTractorUnit.yaml";
-        private Map<String, MobileTractorUnit> cache = (null);
+        private Map<Integer, MobileTractorUnit> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileTractorUnit> category() {
@@ -233,7 +233,7 @@ public class MobileTractorUnit
         }
 
         @Override
-        public synchronized Map<String, MobileTractorUnit> load() {
+        public synchronized Map<Integer, MobileTractorUnit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileTractorUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -247,7 +247,7 @@ public class MobileTractorUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileTractorUnit> types;
+            public LinkedHashMap<Integer, MobileTractorUnit> types;
         }
     }
 }

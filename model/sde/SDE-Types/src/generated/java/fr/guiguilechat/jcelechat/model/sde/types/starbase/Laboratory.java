@@ -174,7 +174,7 @@ public class Laboratory
         implements IMetaGroup<Laboratory>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/Laboratory.yaml";
-        private Map<String, Laboratory> cache = (null);
+        private Map<Integer, Laboratory> cache = (null);
 
         @Override
         public IMetaCategory<? super Laboratory> category() {
@@ -192,7 +192,7 @@ public class Laboratory
         }
 
         @Override
-        public synchronized Map<String, Laboratory> load() {
+        public synchronized Map<Integer, Laboratory> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Laboratory.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -206,7 +206,7 @@ public class Laboratory
         }
 
         private static class Container {
-            public LinkedHashMap<String, Laboratory> types;
+            public LinkedHashMap<Integer, Laboratory> types;
         }
     }
 }

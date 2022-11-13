@@ -289,7 +289,7 @@ public class DroneTrackingModules
         implements IMetaGroup<DroneTrackingModules>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/DroneTrackingModules.yaml";
-        private Map<String, DroneTrackingModules> cache = (null);
+        private Map<Integer, DroneTrackingModules> cache = (null);
 
         @Override
         public IMetaCategory<? super DroneTrackingModules> category() {
@@ -307,7 +307,7 @@ public class DroneTrackingModules
         }
 
         @Override
-        public synchronized Map<String, DroneTrackingModules> load() {
+        public synchronized Map<Integer, DroneTrackingModules> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DroneTrackingModules.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class DroneTrackingModules
         }
 
         private static class Container {
-            public LinkedHashMap<String, DroneTrackingModules> types;
+            public LinkedHashMap<Integer, DroneTrackingModules> types;
         }
     }
 }

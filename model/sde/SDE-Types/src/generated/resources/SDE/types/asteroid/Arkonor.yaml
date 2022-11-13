@@ -1,5 +1,5 @@
 types:
-  Arkonor:
+  22:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -19,167 +19,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 16.0
-  Batch Compressed Arkonor:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28367
-    marketGroup: 512
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Arkonor
-    orebasictype: 22
-    packagedVolume: 8.800000190734863
-    portionSize: 1
-    price: 1.568047E7
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 8.800000190734863
-  Batch Compressed Crimson Arkonor:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28385
-    marketGroup: 512
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Crimson Arkonor
-    orebasictype: 22
-    packagedVolume: 8.800000190734863
-    portionSize: 1
-    price: 1.612091E7
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 8.800000190734863
-  Batch Compressed Flawless Arkonor:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 46691
-    marketGroup: 512
-    mass: 1.0
-    name: Batch Compressed Flawless Arkonor
-    orebasictype: 46678
-    packagedVolume: 8.800000190734863
-    portionSize: 1
-    price: 564000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 8.800000190734863
-  Batch Compressed Prime Arkonor:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28387
-    marketGroup: 512
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Prime Arkonor
-    orebasictype: 22
-    packagedVolume: 8.800000190734863
-    portionSize: 1
-    price: 1.686858E7
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 8.800000190734863
-  Compressed Arkonor:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62568
-    marketGroup: 512
-    mass: 1.0000000409184788E35
-    name: Compressed Arkonor
-    orebasictype: 22
-    packagedVolume: 0.1599999964237213
-    portionSize: 100
-    price: 1.568047E7
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
-  Compressed Crimson Arkonor:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62569
-    marketGroup: 512
-    mass: 1.0000000409184788E35
-    name: Compressed Crimson Arkonor
-    orebasictype: 22
-    packagedVolume: 0.1599999964237213
-    portionSize: 100
-    price: 1.612091E7
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
-  Compressed Flawless Arkonor:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62571
-    marketGroup: 512
-    mass: 1.0
-    name: Compressed Flawless Arkonor
-    orebasictype: 46678
-    packagedVolume: 0.1599999964237213
-    portionSize: 100
-    price: 564000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
-  Compressed Prime Arkonor:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62570
-    marketGroup: 512
-    mass: 1.0000000409184788E35
-    name: Compressed Prime Arkonor
-    orebasictype: 22
-    packagedVolume: 0.1599999964237213
-    portionSize: 100
-    price: 1.686858E7
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
-  Crimson Arkonor:
+  17425:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -199,46 +39,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 16.0
-  Flawless Arkonor:
-    asteroidmaxradius: 5000
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 800
-    id: 46678
-    marketGroup: 512
-    mass: 1.0000000409184788E35
-    name: Flawless Arkonor
-    orebasictype: 22
-    packagedVolume: 16.0
-    portionSize: 100
-    price: 5100.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 16.0
-  Polygypsum:
-    asteroidmaxradius: 16255
-    asteroidradiusgrowthfactor: 0.5
-    asteroidradiusunitsize: 90
-    id: 28625
-    ignoreminingwaste: 1
-    mass: 1.0000000409184788E35
-    name: Polygypsum
-    orebasictype: 22
-    packagedVolume: 16.0
-    portionSize: 1
-    price: 2000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60380
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 16.0
-  Prime Arkonor:
+  17426:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -258,3 +59,202 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 16.0
+  28367:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28367
+    marketGroup: 512
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Arkonor
+    orebasictype: 22
+    packagedVolume: 8.800000190734863
+    portionSize: 1
+    price: 1.568047E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.800000190734863
+  28385:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28385
+    marketGroup: 512
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Crimson Arkonor
+    orebasictype: 22
+    packagedVolume: 8.800000190734863
+    portionSize: 1
+    price: 1.612091E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.800000190734863
+  28387:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28387
+    marketGroup: 512
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Prime Arkonor
+    orebasictype: 22
+    packagedVolume: 8.800000190734863
+    portionSize: 1
+    price: 1.686858E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.800000190734863
+  28625:
+    asteroidmaxradius: 16255
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 28625
+    ignoreminingwaste: 1
+    mass: 1.0000000409184788E35
+    name: Polygypsum
+    orebasictype: 22
+    packagedVolume: 16.0
+    portionSize: 1
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  46678:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 800
+    id: 46678
+    marketGroup: 512
+    mass: 1.0000000409184788E35
+    name: Flawless Arkonor
+    orebasictype: 22
+    packagedVolume: 16.0
+    portionSize: 100
+    price: 5100.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  46691:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 46691
+    marketGroup: 512
+    mass: 1.0
+    name: Batch Compressed Flawless Arkonor
+    orebasictype: 46678
+    packagedVolume: 8.800000190734863
+    portionSize: 1
+    price: 564000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.800000190734863
+  62568:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62568
+    marketGroup: 512
+    mass: 1.0000000409184788E35
+    name: Compressed Arkonor
+    orebasictype: 22
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 1.568047E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  62569:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62569
+    marketGroup: 512
+    mass: 1.0000000409184788E35
+    name: Compressed Crimson Arkonor
+    orebasictype: 22
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 1.612091E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  62570:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62570
+    marketGroup: 512
+    mass: 1.0000000409184788E35
+    name: Compressed Prime Arkonor
+    orebasictype: 22
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 1.686858E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  62571:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62571
+    marketGroup: 512
+    mass: 1.0
+    name: Compressed Flawless Arkonor
+    orebasictype: 46678
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    price: 564000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213

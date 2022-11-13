@@ -84,7 +84,7 @@ public class CapitalConstructionComponents
         implements IMetaGroup<CapitalConstructionComponents>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/CapitalConstructionComponents.yaml";
-        private Map<String, CapitalConstructionComponents> cache = (null);
+        private Map<Integer, CapitalConstructionComponents> cache = (null);
 
         @Override
         public IMetaCategory<? super CapitalConstructionComponents> category() {
@@ -102,7 +102,7 @@ public class CapitalConstructionComponents
         }
 
         @Override
-        public synchronized Map<String, CapitalConstructionComponents> load() {
+        public synchronized Map<Integer, CapitalConstructionComponents> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapitalConstructionComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -116,7 +116,7 @@ public class CapitalConstructionComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapitalConstructionComponents> types;
+            public LinkedHashMap<Integer, CapitalConstructionComponents> types;
         }
     }
 }

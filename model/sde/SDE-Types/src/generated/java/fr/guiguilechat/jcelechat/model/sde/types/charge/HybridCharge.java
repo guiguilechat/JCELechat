@@ -227,7 +227,7 @@ public class HybridCharge
         implements IMetaGroup<HybridCharge>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/HybridCharge.yaml";
-        private Map<String, HybridCharge> cache = (null);
+        private Map<Integer, HybridCharge> cache = (null);
 
         @Override
         public IMetaCategory<? super HybridCharge> category() {
@@ -245,7 +245,7 @@ public class HybridCharge
         }
 
         @Override
-        public synchronized Map<String, HybridCharge> load() {
+        public synchronized Map<Integer, HybridCharge> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HybridCharge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -259,7 +259,7 @@ public class HybridCharge
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridCharge> types;
+            public LinkedHashMap<Integer, HybridCharge> types;
         }
     }
 }

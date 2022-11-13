@@ -101,7 +101,7 @@ public class Pyroxeres
         implements IMetaGroup<Pyroxeres>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Pyroxeres.yaml";
-        private Map<String, Pyroxeres> cache = (null);
+        private Map<Integer, Pyroxeres> cache = (null);
 
         @Override
         public IMetaCategory<? super Pyroxeres> category() {
@@ -119,7 +119,7 @@ public class Pyroxeres
         }
 
         @Override
-        public synchronized Map<String, Pyroxeres> load() {
+        public synchronized Map<Integer, Pyroxeres> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Pyroxeres.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class Pyroxeres
         }
 
         private static class Container {
-            public LinkedHashMap<String, Pyroxeres> types;
+            public LinkedHashMap<Integer, Pyroxeres> types;
         }
     }
 }

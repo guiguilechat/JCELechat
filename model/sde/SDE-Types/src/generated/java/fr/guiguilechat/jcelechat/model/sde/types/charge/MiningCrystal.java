@@ -304,7 +304,7 @@ public class MiningCrystal
         implements IMetaGroup<MiningCrystal>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/MiningCrystal.yaml";
-        private Map<String, MiningCrystal> cache = (null);
+        private Map<Integer, MiningCrystal> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningCrystal> category() {
@@ -322,7 +322,7 @@ public class MiningCrystal
         }
 
         @Override
-        public synchronized Map<String, MiningCrystal> load() {
+        public synchronized Map<Integer, MiningCrystal> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -336,7 +336,7 @@ public class MiningCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningCrystal> types;
+            public LinkedHashMap<Integer, MiningCrystal> types;
         }
     }
 }

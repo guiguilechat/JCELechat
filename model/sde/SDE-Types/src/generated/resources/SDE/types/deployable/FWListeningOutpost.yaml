@@ -1,13 +1,13 @@
 types:
-  Amarr Propaganda Broadcast Structure:
+  73270:
     armorhp: 50000.0
     armoruniformity: 0.75
     hp: 50000.0
-    id: 73225
-    marketGroup: 2798
+    id: 73270
+    marketGroup: 3450
     mass: 10000.0
     metalevelold: 1
-    name: Amarr Propaganda Broadcast Structure
+    name: Amarr Listening Outpost
     packagedVolume: 100.0
     portionSize: 1
     published: true
@@ -25,15 +25,15 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 100.0
-  Caldari Propaganda Broadcast Structure:
+  73271:
     armorhp: 50000.0
     armoruniformity: 0.75
     hp: 50000.0
-    id: 73227
-    marketGroup: 2798
+    id: 73271
+    marketGroup: 3450
     mass: 10000.0
     metalevelold: 1
-    name: Caldari Propaganda Broadcast Structure
+    name: Minmatar Listening Outpost
     packagedVolume: 100.0
     portionSize: 1
     published: true
@@ -51,15 +51,15 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 100.0
-  Gallente Propaganda Broadcast Structure:
+  73272:
     armorhp: 50000.0
     armoruniformity: 0.75
     hp: 50000.0
-    id: 73228
-    marketGroup: 2798
+    id: 73272
+    marketGroup: 3450
     mass: 10000.0
     metalevelold: 1
-    name: Gallente Propaganda Broadcast Structure
+    name: Caldari Listening Outpost
     packagedVolume: 100.0
     portionSize: 1
     published: true
@@ -77,15 +77,15 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 100.0
-  Minmatar Propaganda Broadcast Structure:
+  73273:
     armorhp: 50000.0
     armoruniformity: 0.75
     hp: 50000.0
-    id: 73226
-    marketGroup: 2798
+    id: 73273
+    marketGroup: 3450
     mass: 10000.0
     metalevelold: 1
-    name: Minmatar Propaganda Broadcast Structure
+    name: Gallente Listening Outpost
     packagedVolume: 100.0
     portionSize: 1
     published: true

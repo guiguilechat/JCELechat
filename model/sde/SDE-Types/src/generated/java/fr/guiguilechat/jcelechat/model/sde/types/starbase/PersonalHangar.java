@@ -150,7 +150,7 @@ public class PersonalHangar
         implements IMetaGroup<PersonalHangar>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/PersonalHangar.yaml";
-        private Map<String, PersonalHangar> cache = (null);
+        private Map<Integer, PersonalHangar> cache = (null);
 
         @Override
         public IMetaCategory<? super PersonalHangar> category() {
@@ -168,7 +168,7 @@ public class PersonalHangar
         }
 
         @Override
-        public synchronized Map<String, PersonalHangar> load() {
+        public synchronized Map<Integer, PersonalHangar> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PersonalHangar.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -182,7 +182,7 @@ public class PersonalHangar
         }
 
         private static class Container {
-            public LinkedHashMap<String, PersonalHangar> types;
+            public LinkedHashMap<Integer, PersonalHangar> types;
         }
     }
 }

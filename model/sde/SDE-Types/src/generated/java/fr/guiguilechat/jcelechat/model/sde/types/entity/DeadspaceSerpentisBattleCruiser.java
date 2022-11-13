@@ -893,7 +893,7 @@ public class DeadspaceSerpentisBattleCruiser
         implements IMetaGroup<DeadspaceSerpentisBattleCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceSerpentisBattleCruiser.yaml";
-        private Map<String, DeadspaceSerpentisBattleCruiser> cache = (null);
+        private Map<Integer, DeadspaceSerpentisBattleCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceSerpentisBattleCruiser> category() {
@@ -911,7 +911,7 @@ public class DeadspaceSerpentisBattleCruiser
         }
 
         @Override
-        public synchronized Map<String, DeadspaceSerpentisBattleCruiser> load() {
+        public synchronized Map<Integer, DeadspaceSerpentisBattleCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceSerpentisBattleCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -925,7 +925,7 @@ public class DeadspaceSerpentisBattleCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceSerpentisBattleCruiser> types;
+            public LinkedHashMap<Integer, DeadspaceSerpentisBattleCruiser> types;
         }
     }
 }

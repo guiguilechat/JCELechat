@@ -181,7 +181,7 @@ public class MiningUpgrade
         implements IMetaGroup<MiningUpgrade>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MiningUpgrade.yaml";
-        private Map<String, MiningUpgrade> cache = (null);
+        private Map<Integer, MiningUpgrade> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningUpgrade> category() {
@@ -199,7 +199,7 @@ public class MiningUpgrade
         }
 
         @Override
-        public synchronized Map<String, MiningUpgrade> load() {
+        public synchronized Map<Integer, MiningUpgrade> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningUpgrade.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class MiningUpgrade
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningUpgrade> types;
+            public LinkedHashMap<Integer, MiningUpgrade> types;
         }
     }
 }

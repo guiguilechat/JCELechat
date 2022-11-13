@@ -1,17 +1,5 @@
 types:
-  Bustard Blueprint:
-    id: 12732
-    industryblueprintrank: 800.0
-    marketGroup: 636
-    name: Bustard Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4.9999998976E10
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Crane Blueprint:
+  12730:
     id: 12730
     industryblueprintrank: 800.0
     marketGroup: 636
@@ -23,11 +11,11 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Impel Blueprint:
-    id: 12754
+  12732:
+    id: 12732
     industryblueprintrank: 800.0
-    marketGroup: 635
-    name: Impel Blueprint
+    marketGroup: 636
+    name: Bustard Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4.9999998976E10
@@ -35,31 +23,7 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Mastodon Blueprint:
-    id: 12748
-    industryblueprintrank: 800.0
-    marketGroup: 638
-    name: Mastodon Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4.9999998976E10
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Occator Blueprint:
-    id: 12746
-    industryblueprintrank: 800.0
-    marketGroup: 637
-    name: Occator Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4.9999998976E10
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Prorator Blueprint:
+  12734:
     id: 12734
     industryblueprintrank: 800.0
     marketGroup: 635
@@ -71,7 +35,7 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Prowler Blueprint:
+  12736:
     id: 12736
     industryblueprintrank: 800.0
     marketGroup: 638
@@ -83,11 +47,47 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Viator Blueprint:
+  12744:
     id: 12744
     industryblueprintrank: 800.0
     marketGroup: 637
     name: Viator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  12746:
+    id: 12746
+    industryblueprintrank: 800.0
+    marketGroup: 637
+    name: Occator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  12748:
+    id: 12748
+    industryblueprintrank: 800.0
+    marketGroup: 638
+    name: Mastodon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  12754:
+    id: 12754
+    industryblueprintrank: 800.0
+    marketGroup: 635
+    name: Impel Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4.9999998976E10

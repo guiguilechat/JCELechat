@@ -217,7 +217,7 @@ public class FWInfrastructureHub
         implements IMetaGroup<FWInfrastructureHub>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/FWInfrastructureHub.yaml";
-        private Map<String, FWInfrastructureHub> cache = (null);
+        private Map<Integer, FWInfrastructureHub> cache = (null);
 
         @Override
         public IMetaCategory<? super FWInfrastructureHub> category() {
@@ -235,7 +235,7 @@ public class FWInfrastructureHub
         }
 
         @Override
-        public synchronized Map<String, FWInfrastructureHub> load() {
+        public synchronized Map<Integer, FWInfrastructureHub> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FWInfrastructureHub.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -249,7 +249,7 @@ public class FWInfrastructureHub
         }
 
         private static class Container {
-            public LinkedHashMap<String, FWInfrastructureHub> types;
+            public LinkedHashMap<Integer, FWInfrastructureHub> types;
         }
     }
 }

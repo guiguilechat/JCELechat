@@ -63,11 +63,22 @@ public class NPCsTranslater {
 		translate(Eagents.load(), agents, corporations,
 				lpoffers);
 
+		for (Entry<String, Agent> e : agents.entrySet()) {
+			if (e.getKey() == null || e.getValue() == null) {
+				throw new NullPointerException("agent key=" + e.getKey() + " value=" + e.getValue());
+			}
+		}
+		for (Entry<String, Corporation> e : corporations.entrySet()) {
+			if (e.getKey() == null || e.getValue() == null) {
+				throw new NullPointerException("corporation key=" + e.getKey() + " value=" + e.getValue());
+			}
+		}
+
 		// sort
 
 		Stream.of(agents, corporations).forEach(m -> {
 			ArrayList<Entry<String, ?>> list = new ArrayList<>(m.entrySet());
-			Collections.sort(list, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+			Collections.sort(list, Comparator.comparing(e -> e.getKey()));
 			m.clear();
 			for (Entry<String, ?> e : list) {
 				((Map<String, Object>) m).put(e.getKey(), e.getValue());
@@ -120,11 +131,14 @@ public class NPCsTranslater {
 			agent.id = eagt.getKey();
 			agent.corporation = ecorps.get(agt.corporationID).enName();
 			agent.name = idx2name.get(agent.id);
+			if (agent.name == null) {
+				agent.name="unknown_"+agent.id;
+			}
 			agent.isLocator = agt.isLocator;
 			agent.level = agt.level;
 			agent.type = AGENT_TYPE.of(agt.agentTypeID);
 			if (agent.type == null) {
-				logger.warn("no type for agent " + agent.name + " typeID=" + agt.agentTypeID);
+				logger.warn("no type for agent " + agent + " typeID=" + agt.agentTypeID);
 			}
 			agent.division = AGENT_DIVISION.of(agt.divisionID);
 			if (agent.division == null) {

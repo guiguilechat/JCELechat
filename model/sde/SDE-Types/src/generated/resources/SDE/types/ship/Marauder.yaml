@@ -1,22 +1,22 @@
 types:
-  Golem:
-    agility: 0.11999999731779099
+  28659:
+    agility: 0.11900000274181366
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 6700.0
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 8800.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.4124999940395355
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05000000074505806
     battleshipextenderhpbonus: 100
     battleshipplatehpbonus: 50
-    capacitorcapacity: 6325.0
-    capacity: 1225.0
-    cpuoutput: 715
+    capacitorcapacity: 7500.0
+    capacity: 1125.0
+    cpuoutput: 530
     dronebandwidth: 25
     dronecapacity: 75
-    elitebonusviolators1: 10.0
+    elitebonusviolators1: 5.0
     elitebonusviolators2: 7.5
     elitebonusviolatorsrole1: 100
     elitebonusviolatorsrole2: 100
@@ -26,10 +26,10 @@ types:
     explosivedamageresonance: 0.6700000166893005
     frigateescapebaycapacity: 1
     fwlpkill: 1000
-    gfxboosterid: 395
+    gfxboosterid: 394
     heatattenuationhi: 0.820335328578949
-    heatattenuationlow: 0.6299605369567871
-    heatattenuationmed: 0.7937005162239075
+    heatattenuationlow: 0.7937005162239075
+    heatattenuationmed: 0.6299605369567871
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -38,60 +38,59 @@ types:
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.5
     hislots: 8
-    hp: 7700.0
-    id: 28710
+    hp: 8500.0
+    id: 28659
     kineticdamageresonance: 0.6700000166893005
-    launcherslotsleft: 4
-    lowslots: 4
+    lowslots: 7
     maincolor: 16777215
-    marketGroup: 1082
-    mass: 9.4335E7
+    marketGroup: 1081
+    mass: 9.2245E7
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
-    maxpassengers: 1000
-    maxtargetrange: 123500.0
+    maxpassengers: 999
+    maxtargetrange: 118300.0
     maxvelocity: 100.0
-    medslots: 7
+    medslots: 4
     metalevelold: 5
     mintargetveldmgmultiplier: 0.5
-    name: Golem
+    name: Paladin
     packagedVolume: 50000.0
     portionSize: 1
-    poweroutput: 8500
+    poweroutput: 16000
     powertospeed: 1
-    price: 9.58300032E8
-    propulsiongraphicid: 395
+    price: 8.79500032E8
+    propulsiongraphicid: 394
     published: true
     radius: 250.0
-    rechargerate: 1150000.0
-    requiredskill1: 3338
+    rechargerate: 1000000.0
+    requiredskill1: 3339
     requiredskill1level: 5
     requiredskill2: 28667
     requiredskill2level: 1
     rigsize: 3
     rigslots: 2
     rolebonusmarauder: -70
-    scangravimetricstrength: 23.0
-    scanresolution: 140.0
-    scanspeed: 9000
-    shieldcapacity: 8800.0
+    scanradarstrength: 21.0
+    scanresolution: 160.0
+    scanspeed: 7500
+    shieldcapacity: 6900.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
+    shieldexplosivedamageresonance: 0.375
     shieldkineticdamageresonance: 0.5249999761581421
     shieldrechargerate: 2272000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2cb: 5.0
-    shipbonusab: 5.0
-    shipbonuscb: 10
-    shipbonuscb3: 10
+    shipbonusab: 7.5
+    shipbonusab2: -10.0
+    shipbonuscb: 5
     shipbonusmb: 5.0
-    signatureradius: 450.0
+    signatureradius: 420.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
-    typecolorscheme: 11412
+    turretslotsleft: 4
+    typecolorscheme: 11350
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 2
@@ -99,7 +98,7 @@ types:
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
-  Kronos:
+  28661:
     agility: 0.11699999868869781
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
@@ -199,106 +198,7 @@ types:
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
-  Paladin:
-    agility: 0.11900000274181366
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.6000000238418579
-    armorhp: 8800.0
-    armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    basewarpspeed: 1
-    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
-    capacitorcapacity: 7500.0
-    capacity: 1125.0
-    cpuoutput: 530
-    dronebandwidth: 25
-    dronecapacity: 75
-    elitebonusviolators1: 5.0
-    elitebonusviolators2: 7.5
-    elitebonusviolatorsrole1: 100
-    elitebonusviolatorsrole2: 100
-    elitebonusviolatorsrole3: 100
-    emdamageresonance: 0.6700000166893005
-    energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
-    frigateescapebaycapacity: 1
-    fwlpkill: 1000
-    gfxboosterid: 394
-    heatattenuationhi: 0.820335328578949
-    heatattenuationlow: 0.7937005162239075
-    heatattenuationmed: 0.6299605369567871
-    heatcapacityhi: 100
-    heatcapacitylow: 100
-    heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.5
-    hislots: 8
-    hp: 8500.0
-    id: 28659
-    kineticdamageresonance: 0.6700000166893005
-    lowslots: 7
-    maincolor: 16777215
-    marketGroup: 1081
-    mass: 9.2245E7
-    maxdirectionalvelocity: 1000
-    maxlockedtargets: 10
-    maxpassengers: 999
-    maxtargetrange: 118300.0
-    maxvelocity: 100.0
-    medslots: 4
-    metalevelold: 5
-    mintargetveldmgmultiplier: 0.5
-    name: Paladin
-    packagedVolume: 50000.0
-    portionSize: 1
-    poweroutput: 16000
-    powertospeed: 1
-    price: 8.79500032E8
-    propulsiongraphicid: 394
-    published: true
-    radius: 250.0
-    rechargerate: 1000000.0
-    requiredskill1: 3339
-    requiredskill1level: 5
-    requiredskill2: 28667
-    requiredskill2level: 1
-    rigsize: 3
-    rigslots: 2
-    rolebonusmarauder: -70
-    scanradarstrength: 21.0
-    scanresolution: 160.0
-    scanspeed: 7500
-    shieldcapacity: 6900.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.375
-    shieldkineticdamageresonance: 0.5249999761581421
-    shieldrechargerate: 2272000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    shipbonusab: 7.5
-    shipbonusab2: -10.0
-    shipbonuscb: 5
-    shipbonusmb: 5.0
-    signatureradius: 420.0
-    stasiswebifierresistance: 1.0
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamageresonance: 0.6700000166893005
-    turretslotsleft: 4
-    typecolorscheme: 11350
-    uniformity: 1.0
-    upgradecapacity: 400
-    upgradeslotsleft: 2
-    volume: 470000.0
-    warpcapacitorneed: 1.3800000431274384E-7
-    warpspeedmultiplier: 3.5
-    weapondisruptionresistance: 1.0
-  Vargur:
+  28665:
     agility: 0.10999999940395355
     armoremdamageresonance: 0.30000001192092896
     armorexplosivedamageresonance: 0.8999999761581421
@@ -394,6 +294,106 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 450000.0
+    warpcapacitorneed: 1.3800000431274384E-7
+    warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
+  28710:
+    agility: 0.11999999731779099
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 6700.0
+    armorkineticdamageresonance: 0.65625
+    armorthermaldamageresonance: 0.4124999940395355
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
+    battleshipextenderhpbonus: 100
+    battleshipplatehpbonus: 50
+    capacitorcapacity: 6325.0
+    capacity: 1225.0
+    cpuoutput: 715
+    dronebandwidth: 25
+    dronecapacity: 75
+    elitebonusviolators1: 10.0
+    elitebonusviolators2: 7.5
+    elitebonusviolatorsrole1: 100
+    elitebonusviolatorsrole2: 100
+    elitebonusviolatorsrole3: 100
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    frigateescapebaycapacity: 1
+    fwlpkill: 1000
+    gfxboosterid: 395
+    heatattenuationhi: 0.820335328578949
+    heatattenuationlow: 0.6299605369567871
+    heatattenuationmed: 0.7937005162239075
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.5
+    hislots: 8
+    hp: 7700.0
+    id: 28710
+    kineticdamageresonance: 0.6700000166893005
+    launcherslotsleft: 4
+    lowslots: 4
+    maincolor: 16777215
+    marketGroup: 1082
+    mass: 9.4335E7
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 10
+    maxpassengers: 1000
+    maxtargetrange: 123500.0
+    maxvelocity: 100.0
+    medslots: 7
+    metalevelold: 5
+    mintargetveldmgmultiplier: 0.5
+    name: Golem
+    packagedVolume: 50000.0
+    portionSize: 1
+    poweroutput: 8500
+    powertospeed: 1
+    price: 9.58300032E8
+    propulsiongraphicid: 395
+    published: true
+    radius: 250.0
+    rechargerate: 1150000.0
+    requiredskill1: 3338
+    requiredskill1level: 5
+    requiredskill2: 28667
+    requiredskill2level: 1
+    rigsize: 3
+    rigslots: 2
+    rolebonusmarauder: -70
+    scangravimetricstrength: 23.0
+    scanresolution: 140.0
+    scanspeed: 9000
+    shieldcapacity: 8800.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.5249999761581421
+    shieldrechargerate: 2272000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    shipbonus2cb: 5.0
+    shipbonusab: 5.0
+    shipbonuscb: 10
+    shipbonuscb3: 10
+    shipbonusmb: 5.0
+    signatureradius: 450.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 0.6700000166893005
+    typecolorscheme: 11412
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 2
+    volume: 470000.0
     warpcapacitorneed: 1.3800000431274384E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

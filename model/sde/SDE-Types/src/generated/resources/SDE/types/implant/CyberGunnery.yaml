@@ -1,109 +1,5 @@
 types:
-  Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001:
-    damagemultiplierbonus: 1
-    id: 27090
-    implantness: 10
-    marketGroup: 1502
-    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002:
-    damagemultiplierbonus: 2
-    id: 3196
-    implantness: 10
-    marketGroup: 1502
-    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003:
-    damagemultiplierbonus: 3
-    id: 13219
-    implantness: 10
-    marketGroup: 1502
-    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004:
-    damagemultiplierbonus: 4
-    id: 3197
-    implantness: 10
-    marketGroup: 1502
-    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005:
-    damagemultiplierbonus: 5
-    id: 19688
-    implantness: 10
-    marketGroup: 1502
-    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006:
-    damagemultiplierbonus: 6
-    id: 3198
-    implantness: 10
-    marketGroup: 1502
-    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801:
-    damagemultiplierbonus: 1
-    id: 27087
-    implantness: 8
-    marketGroup: 1500
-    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802:
+  3185:
     damagemultiplierbonus: 2
     id: 3185
     implantness: 8
@@ -117,22 +13,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803:
-    damagemultiplierbonus: 3
-    id: 13222
-    implantness: 8
-    marketGroup: 1500
-    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804:
+  3188:
     damagemultiplierbonus: 4
     id: 3188
     implantness: 8
@@ -146,21 +27,7 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805:
-    damagemultiplierbonus: 5
-    id: 19689
-    implantness: 8
-    marketGroup: 1500
-    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-806:
+  3189:
     damagemultiplierbonus: 6
     id: 3189
     implantness: 8
@@ -174,22 +41,7 @@ types:
     requiredskill1level: 5
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Gunslinger' Motion Prediction MR-701:
-    id: 27075
-    implantness: 7
-    marketGroup: 1499
-    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-701
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    trackingspeedbonus: 1.0
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Motion Prediction MR-702:
+  3190:
     id: 3190
     implantness: 7
     marketGroup: 1499
@@ -204,22 +56,7 @@ types:
     techlevel: 1
     trackingspeedbonus: 2.0
     volume: 1.0
-  Eifyr and Co. 'Gunslinger' Motion Prediction MR-703:
-    id: 9957
-    implantness: 7
-    marketGroup: 1499
-    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-703
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    trackingspeedbonus: 3.0
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Motion Prediction MR-704:
+  3191:
     id: 3191
     implantness: 7
     marketGroup: 1499
@@ -234,21 +71,7 @@ types:
     techlevel: 1
     trackingspeedbonus: 4.0
     volume: 1.0
-  Eifyr and Co. 'Gunslinger' Motion Prediction MR-705:
-    id: 19686
-    implantness: 7
-    marketGroup: 1499
-    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-705
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    trackingspeedbonus: 5.0
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Motion Prediction MR-706:
+  3192:
     id: 3192
     implantness: 7
     marketGroup: 1499
@@ -263,111 +86,7 @@ types:
     techlevel: 1
     trackingspeedbonus: 6.0
     volume: 1.0
-  Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601:
-    damagemultiplierbonus: 1
-    id: 27084
-    implantness: 6
-    marketGroup: 1498
-    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602:
-    damagemultiplierbonus: 2
-    id: 3199
-    implantness: 6
-    marketGroup: 1498
-    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603:
-    damagemultiplierbonus: 3
-    id: 13225
-    implantness: 6
-    marketGroup: 1498
-    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604:
-    damagemultiplierbonus: 4
-    id: 3200
-    implantness: 6
-    marketGroup: 1498
-    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605:
-    damagemultiplierbonus: 5
-    id: 19690
-    implantness: 6
-    marketGroup: 1498
-    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606:
-    damagemultiplierbonus: 6
-    id: 3201
-    implantness: 6
-    marketGroup: 1498
-    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Surgical Strike SS-901:
-    damagemultiplierbonus: 1
-    id: 27081
-    implantness: 9
-    marketGroup: 1501
-    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Surgical Strike SS-902:
+  3193:
     damagemultiplierbonus: 2
     id: 3193
     implantness: 9
@@ -382,22 +101,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Gunslinger' Surgical Strike SS-903:
-    damagemultiplierbonus: 3
-    id: 13244
-    implantness: 9
-    marketGroup: 1501
-    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Surgical Strike SS-904:
+  3194:
     damagemultiplierbonus: 4
     id: 3194
     implantness: 9
@@ -412,21 +116,7 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Eifyr and Co. 'Gunslinger' Surgical Strike SS-905:
-    damagemultiplierbonus: 5
-    id: 19687
-    implantness: 9
-    marketGroup: 1501
-    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-905
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Eifyr and Co. 'Gunslinger' Surgical Strike SS-906:
+  3195:
     damagemultiplierbonus: 6
     id: 3195
     implantness: 9
@@ -441,203 +131,12 @@ types:
     requiredskill1level: 5
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Controlled Bursts CB-701:
-    capneedbonus: -1
-    id: 27079
-    implantness: 7
-    marketGroup: 1499
-    name: Inherent Implants 'Lancer' Controlled Bursts CB-701
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Controlled Bursts CB-702:
-    capneedbonus: -2
-    id: 3203
-    implantness: 7
-    marketGroup: 1499
-    name: Inherent Implants 'Lancer' Controlled Bursts CB-702
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Controlled Bursts CB-703:
-    capneedbonus: -3
-    id: 13246
-    implantness: 7
-    marketGroup: 1499
-    name: Inherent Implants 'Lancer' Controlled Bursts CB-703
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Controlled Bursts CB-704:
-    capneedbonus: -4
-    id: 3208
-    implantness: 7
-    marketGroup: 1499
-    name: Inherent Implants 'Lancer' Controlled Bursts CB-704
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Controlled Bursts CB-705:
-    capneedbonus: -5
-    id: 19692
-    implantness: 7
-    marketGroup: 1499
-    name: Inherent Implants 'Lancer' Controlled Bursts CB-705
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Controlled Bursts CB-706:
-    capneedbonus: -6
-    id: 3213
-    implantness: 7
-    marketGroup: 1499
-    name: Inherent Implants 'Lancer' Controlled Bursts CB-706
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Gunnery RF-901:
-    id: 27077
-    implantness: 9
-    marketGroup: 1501
-    name: Inherent Implants 'Lancer' Gunnery RF-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    turretspeebonus: -1
-    volume: 1.0
-  Inherent Implants 'Lancer' Gunnery RF-902:
-    id: 3204
-    implantness: 9
-    marketGroup: 1501
-    name: Inherent Implants 'Lancer' Gunnery RF-902
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    turretspeebonus: -2
-    volume: 1.0
-  Inherent Implants 'Lancer' Gunnery RF-903:
-    id: 13166
-    implantness: 9
-    marketGroup: 1501
-    name: Inherent Implants 'Lancer' Gunnery RF-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    turretspeebonus: -3
-    volume: 1.0
-  Inherent Implants 'Lancer' Gunnery RF-904:
-    id: 3209
-    implantness: 9
-    marketGroup: 1501
-    name: Inherent Implants 'Lancer' Gunnery RF-904
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    turretspeebonus: -4
-    volume: 1.0
-  Inherent Implants 'Lancer' Gunnery RF-905:
-    id: 19693
-    implantness: 9
-    marketGroup: 1501
-    name: Inherent Implants 'Lancer' Gunnery RF-905
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    turretspeebonus: -5
-    volume: 1.0
-  Inherent Implants 'Lancer' Gunnery RF-906:
-    id: 3214
-    implantness: 9
-    marketGroup: 1501
-    name: Inherent Implants 'Lancer' Gunnery RF-906
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    turretspeebonus: -6
-    volume: 1.0
-  Inherent Implants 'Lancer' Large Energy Turret LE-1001:
-    damagemultiplierbonus: 1
-    id: 27088
-    implantness: 10
-    marketGroup: 1502
-    name: Inherent Implants 'Lancer' Large Energy Turret LE-1001
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Large Energy Turret LE-1002:
+  3196:
     damagemultiplierbonus: 2
-    id: 3205
+    id: 3196
     implantness: 10
     marketGroup: 1502
-    name: Inherent Implants 'Lancer' Large Energy Turret LE-1002
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
@@ -647,27 +146,12 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Large Energy Turret LE-1003:
-    damagemultiplierbonus: 3
-    id: 13217
-    implantness: 10
-    marketGroup: 1502
-    name: Inherent Implants 'Lancer' Large Energy Turret LE-1003
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Large Energy Turret LE-1004:
+  3197:
     damagemultiplierbonus: 4
-    id: 3210
+    id: 3197
     implantness: 10
     marketGroup: 1502
-    name: Inherent Implants 'Lancer' Large Energy Turret LE-1004
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
@@ -677,128 +161,27 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Large Energy Turret LE-1005:
-    damagemultiplierbonus: 5
-    id: 19694
-    implantness: 10
-    marketGroup: 1502
-    name: Inherent Implants 'Lancer' Large Energy Turret LE-1005
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Large Energy Turret LE-1006:
+  3198:
     damagemultiplierbonus: 6
-    id: 3215
+    id: 3198
     implantness: 10
     marketGroup: 1502
-    name: Inherent Implants 'Lancer' Large Energy Turret LE-1006
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Medium Energy Turret ME-801:
-    damagemultiplierbonus: 1
-    id: 27085
-    implantness: 8
-    marketGroup: 1500
-    name: Inherent Implants 'Lancer' Medium Energy Turret ME-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Medium Energy Turret ME-802:
+  3199:
     damagemultiplierbonus: 2
-    id: 3206
-    implantness: 8
-    marketGroup: 1500
-    name: Inherent Implants 'Lancer' Medium Energy Turret ME-802
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Medium Energy Turret ME-803:
-    damagemultiplierbonus: 3
-    id: 13220
-    implantness: 8
-    marketGroup: 1500
-    name: Inherent Implants 'Lancer' Medium Energy Turret ME-803
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Medium Energy Turret ME-804:
-    damagemultiplierbonus: 4
-    id: 3211
-    implantness: 8
-    marketGroup: 1500
-    name: Inherent Implants 'Lancer' Medium Energy Turret ME-804
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Medium Energy Turret ME-805:
-    damagemultiplierbonus: 5
-    id: 19695
-    implantness: 8
-    marketGroup: 1500
-    name: Inherent Implants 'Lancer' Medium Energy Turret ME-805
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Medium Energy Turret ME-806:
-    damagemultiplierbonus: 6
-    id: 3216
-    implantness: 8
-    marketGroup: 1500
-    name: Inherent Implants 'Lancer' Medium Energy Turret ME-806
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Inherent Implants 'Lancer' Small Energy Turret SE-601:
-    damagemultiplierbonus: 1
-    id: 27082
+    id: 3199
     implantness: 6
     marketGroup: 1498
-    name: Inherent Implants 'Lancer' Small Energy Turret SE-601
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
@@ -808,7 +191,37 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Small Energy Turret SE-602:
+  3200:
+    damagemultiplierbonus: 4
+    id: 3200
+    implantness: 6
+    marketGroup: 1498
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3201:
+    damagemultiplierbonus: 6
+    id: 3201
+    implantness: 6
+    marketGroup: 1498
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3202:
     damagemultiplierbonus: 2
     id: 3202
     implantness: 6
@@ -823,12 +236,12 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Small Energy Turret SE-603:
-    damagemultiplierbonus: 3
-    id: 13223
-    implantness: 6
-    marketGroup: 1498
-    name: Inherent Implants 'Lancer' Small Energy Turret SE-603
+  3203:
+    capneedbonus: -2
+    id: 3203
+    implantness: 7
+    marketGroup: 1499
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-702
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
@@ -838,7 +251,52 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Small Energy Turret SE-604:
+  3204:
+    id: 3204
+    implantness: 9
+    marketGroup: 1501
+    name: Inherent Implants 'Lancer' Gunnery RF-902
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    turretspeebonus: -2
+    volume: 1.0
+  3205:
+    damagemultiplierbonus: 2
+    id: 3205
+    implantness: 10
+    marketGroup: 1502
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1002
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3206:
+    damagemultiplierbonus: 2
+    id: 3206
+    implantness: 8
+    marketGroup: 1500
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-802
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3207:
     damagemultiplierbonus: 4
     id: 3207
     implantness: 6
@@ -853,21 +311,67 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Small Energy Turret SE-605:
-    damagemultiplierbonus: 5
-    id: 19691
-    implantness: 6
-    marketGroup: 1498
-    name: Inherent Implants 'Lancer' Small Energy Turret SE-605
+  3208:
+    capneedbonus: -4
+    id: 3208
+    implantness: 7
+    marketGroup: 1499
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-704
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3209:
+    id: 3209
+    implantness: 9
+    marketGroup: 1501
+    name: Inherent Implants 'Lancer' Gunnery RF-904
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    turretspeebonus: -4
+    volume: 1.0
+  3210:
+    damagemultiplierbonus: 4
+    id: 3210
+    implantness: 10
+    marketGroup: 1502
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1004
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Inherent Implants 'Lancer' Small Energy Turret SE-606:
+  3211:
+    damagemultiplierbonus: 4
+    id: 3211
+    implantness: 8
+    marketGroup: 1500
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-804
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  3212:
     damagemultiplierbonus: 6
     id: 3212
     implantness: 6
@@ -881,11 +385,12 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Ogdin's Eye Coordination Enhancer:
-    id: 20443
+  3213:
+    capneedbonus: -6
+    id: 3213
     implantness: 7
     marketGroup: 1499
-    name: Ogdin's Eye Coordination Enhancer
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-706
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -893,13 +398,12 @@ types:
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
-    trackingspeedbonus: 6.0
     volume: 1.0
-  Pashan's Turret Customization Mindlink:
-    id: 25868
+  3214:
+    id: 3214
     implantness: 9
     marketGroup: 1501
-    name: Pashan's Turret Customization Mindlink
+    name: Inherent Implants 'Lancer' Gunnery RF-906
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -907,102 +411,14 @@ types:
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
-    turretspeebonus: -7
+    turretspeebonus: -6
     volume: 1.0
-  Pashan's Turret Handling Mindlink:
-    damagemultiplierbonus: 7
-    id: 25867
-    implantness: 10
-    marketGroup: 1502
-    name: Pashan's Turret Handling Mindlink
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Large Hybrid Turret LH-1001:
-    damagemultiplierbonus: 1
-    id: 27089
-    implantness: 10
-    marketGroup: 1502
-    name: Zainou 'Deadeye' Large Hybrid Turret LH-1001
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Large Hybrid Turret LH-1002:
-    damagemultiplierbonus: 2
-    id: 3222
-    implantness: 10
-    marketGroup: 1502
-    name: Zainou 'Deadeye' Large Hybrid Turret LH-1002
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Large Hybrid Turret LH-1003:
-    damagemultiplierbonus: 3
-    id: 13218
-    implantness: 10
-    marketGroup: 1502
-    name: Zainou 'Deadeye' Large Hybrid Turret LH-1003
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Large Hybrid Turret LH-1004:
-    damagemultiplierbonus: 4
-    id: 3223
-    implantness: 10
-    marketGroup: 1502
-    name: Zainou 'Deadeye' Large Hybrid Turret LH-1004
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Large Hybrid Turret LH-1005:
-    damagemultiplierbonus: 5
-    id: 19698
-    implantness: 10
-    marketGroup: 1502
-    name: Zainou 'Deadeye' Large Hybrid Turret LH-1005
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Large Hybrid Turret LH-1006:
+  3215:
     damagemultiplierbonus: 6
-    id: 3224
+    id: 3215
     implantness: 10
     marketGroup: 1502
-    name: Zainou 'Deadeye' Large Hybrid Turret LH-1006
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1006
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -1011,86 +427,12 @@ types:
     requiredskill1level: 5
     techlevel: 1
     volume: 1.0
-  Zainou 'Deadeye' Medium Hybrid Turret MH-801:
-    damagemultiplierbonus: 1
-    id: 27086
-    implantness: 8
-    marketGroup: 1500
-    name: Zainou 'Deadeye' Medium Hybrid Turret MH-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Medium Hybrid Turret MH-802:
-    damagemultiplierbonus: 2
-    id: 3231
-    implantness: 8
-    marketGroup: 1500
-    name: Zainou 'Deadeye' Medium Hybrid Turret MH-802
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Medium Hybrid Turret MH-803:
-    damagemultiplierbonus: 3
-    id: 13221
-    implantness: 8
-    marketGroup: 1500
-    name: Zainou 'Deadeye' Medium Hybrid Turret MH-803
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Medium Hybrid Turret MH-804:
-    damagemultiplierbonus: 4
-    id: 3232
-    implantness: 8
-    marketGroup: 1500
-    name: Zainou 'Deadeye' Medium Hybrid Turret MH-804
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Medium Hybrid Turret MH-805:
-    damagemultiplierbonus: 5
-    id: 19699
-    implantness: 8
-    marketGroup: 1500
-    name: Zainou 'Deadeye' Medium Hybrid Turret MH-805
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Medium Hybrid Turret MH-806:
+  3216:
     damagemultiplierbonus: 6
-    id: 3233
+    id: 3216
     implantness: 8
     marketGroup: 1500
-    name: Zainou 'Deadeye' Medium Hybrid Turret MH-806
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-806
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -1099,22 +441,7 @@ types:
     requiredskill1level: 4
     techlevel: 1
     volume: 1.0
-  Zainou 'Deadeye' Sharpshooter ST-901:
-    id: 27076
-    implantness: 9
-    marketGroup: 1501
-    name: Zainou 'Deadeye' Sharpshooter ST-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rangeskillbonus: 1
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Sharpshooter ST-902:
+  3217:
     id: 3217
     implantness: 9
     marketGroup: 1501
@@ -1129,198 +456,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Zainou 'Deadeye' Sharpshooter ST-903:
-    id: 10204
-    implantness: 9
-    marketGroup: 1501
-    name: Zainou 'Deadeye' Sharpshooter ST-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rangeskillbonus: 3
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Sharpshooter ST-904:
-    id: 3234
-    implantness: 9
-    marketGroup: 1501
-    name: Zainou 'Deadeye' Sharpshooter ST-904
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    rangeskillbonus: 4
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Sharpshooter ST-905:
-    id: 19696
-    implantness: 9
-    marketGroup: 1501
-    name: Zainou 'Deadeye' Sharpshooter ST-905
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 5
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Sharpshooter ST-906:
-    id: 3235
-    implantness: 9
-    marketGroup: 1501
-    name: Zainou 'Deadeye' Sharpshooter ST-906
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    rangeskillbonus: 6
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Small Hybrid Turret SH-601:
-    damagemultiplierbonus: 1
-    id: 27083
-    implantness: 6
-    marketGroup: 1498
-    name: Zainou 'Deadeye' Small Hybrid Turret SH-601
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Small Hybrid Turret SH-602:
-    damagemultiplierbonus: 2
-    id: 3225
-    implantness: 6
-    marketGroup: 1498
-    name: Zainou 'Deadeye' Small Hybrid Turret SH-602
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Small Hybrid Turret SH-603:
-    damagemultiplierbonus: 3
-    id: 13224
-    implantness: 6
-    marketGroup: 1498
-    name: Zainou 'Deadeye' Small Hybrid Turret SH-603
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Small Hybrid Turret SH-604:
-    damagemultiplierbonus: 4
-    id: 3226
-    implantness: 6
-    marketGroup: 1498
-    name: Zainou 'Deadeye' Small Hybrid Turret SH-604
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Small Hybrid Turret SH-605:
-    damagemultiplierbonus: 5
-    id: 19700
-    implantness: 6
-    marketGroup: 1498
-    name: Zainou 'Deadeye' Small Hybrid Turret SH-605
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Small Hybrid Turret SH-606:
-    damagemultiplierbonus: 6
-    id: 3227
-    implantness: 6
-    marketGroup: 1498
-    name: Zainou 'Deadeye' Small Hybrid Turret SH-606
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Trajectory Analysis TA-701:
-    falloffbonus: 1.0
-    id: 27078
-    implantness: 7
-    marketGroup: 1499
-    name: Zainou 'Deadeye' Trajectory Analysis TA-701
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Trajectory Analysis TA-702:
-    falloffbonus: 2.0
-    id: 3236
-    implantness: 7
-    marketGroup: 1499
-    name: Zainou 'Deadeye' Trajectory Analysis TA-702
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Trajectory Analysis TA-703:
-    falloffbonus: 3.0
-    id: 13245
-    implantness: 7
-    marketGroup: 1499
-    name: Zainou 'Deadeye' Trajectory Analysis TA-703
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Trajectory Analysis TA-704:
+  3220:
     falloffbonus: 4.0
     id: 3220
     implantness: 7
@@ -1335,21 +471,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Zainou 'Deadeye' Trajectory Analysis TA-705:
-    falloffbonus: 5.0
-    id: 19697
-    implantness: 7
-    marketGroup: 1499
-    name: Zainou 'Deadeye' Trajectory Analysis TA-705
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Deadeye' Trajectory Analysis TA-706:
+  3221:
     falloffbonus: 6.0
     id: 3221
     implantness: 7
@@ -1363,12 +485,12 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Zainou 'Gnome' Weapon Upgrades WU-1001:
-    cpuneedbonus: -1
-    id: 27080
+  3222:
+    damagemultiplierbonus: 2
+    id: 3222
     implantness: 10
     marketGroup: 1502
-    name: Zainou 'Gnome' Weapon Upgrades WU-1001
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1002
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
@@ -1378,7 +500,80 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Zainou 'Gnome' Weapon Upgrades WU-1002:
+  3223:
+    damagemultiplierbonus: 4
+    id: 3223
+    implantness: 10
+    marketGroup: 1502
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1004
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3224:
+    damagemultiplierbonus: 6
+    id: 3224
+    implantness: 10
+    marketGroup: 1502
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1006
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3225:
+    damagemultiplierbonus: 2
+    id: 3225
+    implantness: 6
+    marketGroup: 1498
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-602
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3226:
+    damagemultiplierbonus: 4
+    id: 3226
+    implantness: 6
+    marketGroup: 1498
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-604
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3227:
+    damagemultiplierbonus: 6
+    id: 3227
+    implantness: 6
+    marketGroup: 1498
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-606
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3228:
     cpuneedbonus: -2
     id: 3228
     implantness: 10
@@ -1393,22 +588,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 1.0
-  Zainou 'Gnome' Weapon Upgrades WU-1003:
-    cpuneedbonus: -3
-    id: 13252
-    implantness: 10
-    marketGroup: 1502
-    name: Zainou 'Gnome' Weapon Upgrades WU-1003
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gnome' Weapon Upgrades WU-1004:
+  3229:
     cpuneedbonus: -4
     id: 3229
     implantness: 10
@@ -1423,7 +603,349 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 1.0
-  Zainou 'Gnome' Weapon Upgrades WU-1005:
+  3230:
+    cpuneedbonus: -6
+    id: 3230
+    implantness: 10
+    marketGroup: 1502
+    name: Zainou 'Gnome' Weapon Upgrades WU-1006
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3231:
+    damagemultiplierbonus: 2
+    id: 3231
+    implantness: 8
+    marketGroup: 1500
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-802
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3232:
+    damagemultiplierbonus: 4
+    id: 3232
+    implantness: 8
+    marketGroup: 1500
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-804
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  3233:
+    damagemultiplierbonus: 6
+    id: 3233
+    implantness: 8
+    marketGroup: 1500
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-806
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  3234:
+    id: 3234
+    implantness: 9
+    marketGroup: 1501
+    name: Zainou 'Deadeye' Sharpshooter ST-904
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rangeskillbonus: 4
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  3235:
+    id: 3235
+    implantness: 9
+    marketGroup: 1501
+    name: Zainou 'Deadeye' Sharpshooter ST-906
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 6
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  3236:
+    falloffbonus: 2.0
+    id: 3236
+    implantness: 7
+    marketGroup: 1499
+    name: Zainou 'Deadeye' Trajectory Analysis TA-702
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  9957:
+    id: 9957
+    implantness: 7
+    marketGroup: 1499
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-703
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 3.0
+    volume: 1.0
+  10204:
+    id: 10204
+    implantness: 9
+    marketGroup: 1501
+    name: Zainou 'Deadeye' Sharpshooter ST-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rangeskillbonus: 3
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13166:
+    id: 13166
+    implantness: 9
+    marketGroup: 1501
+    name: Inherent Implants 'Lancer' Gunnery RF-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    turretspeebonus: -3
+    volume: 1.0
+  13217:
+    damagemultiplierbonus: 3
+    id: 13217
+    implantness: 10
+    marketGroup: 1502
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1003
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  13218:
+    damagemultiplierbonus: 3
+    id: 13218
+    implantness: 10
+    marketGroup: 1502
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1003
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  13219:
+    damagemultiplierbonus: 3
+    id: 13219
+    implantness: 10
+    marketGroup: 1502
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  13220:
+    damagemultiplierbonus: 3
+    id: 13220
+    implantness: 8
+    marketGroup: 1500
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-803
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13221:
+    damagemultiplierbonus: 3
+    id: 13221
+    implantness: 8
+    marketGroup: 1500
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-803
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13222:
+    damagemultiplierbonus: 3
+    id: 13222
+    implantness: 8
+    marketGroup: 1500
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13223:
+    damagemultiplierbonus: 3
+    id: 13223
+    implantness: 6
+    marketGroup: 1498
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-603
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  13224:
+    damagemultiplierbonus: 3
+    id: 13224
+    implantness: 6
+    marketGroup: 1498
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-603
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  13225:
+    damagemultiplierbonus: 3
+    id: 13225
+    implantness: 6
+    marketGroup: 1498
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  13244:
+    damagemultiplierbonus: 3
+    id: 13244
+    implantness: 9
+    marketGroup: 1501
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13245:
+    falloffbonus: 3.0
+    id: 13245
+    implantness: 7
+    marketGroup: 1499
+    name: Zainou 'Deadeye' Trajectory Analysis TA-703
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  13246:
+    capneedbonus: -3
+    id: 13246
+    implantness: 7
+    marketGroup: 1499
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-703
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  13252:
+    cpuneedbonus: -3
+    id: 13252
+    implantness: 10
+    marketGroup: 1502
+    name: Zainou 'Gnome' Weapon Upgrades WU-1003
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  16249:
     cpuneedbonus: -5
     id: 16249
     implantness: 10
@@ -1437,17 +959,495 @@ types:
     requiredskill1level: 4
     techlevel: 1
     volume: 1.0
-  Zainou 'Gnome' Weapon Upgrades WU-1006:
-    cpuneedbonus: -6
-    id: 3230
-    implantness: 10
-    marketGroup: 1502
-    name: Zainou 'Gnome' Weapon Upgrades WU-1006
+  19686:
+    id: 19686
+    implantness: 7
+    marketGroup: 1499
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-705
     packagedVolume: 1.0
     portionSize: 1
     published: true
     radius: 1.0
     requiredskill1: 3411
-    requiredskill1level: 5
+    requiredskill1level: 3
+    techlevel: 1
+    trackingspeedbonus: 5.0
+    volume: 1.0
+  19687:
+    damagemultiplierbonus: 5
+    id: 19687
+    implantness: 9
+    marketGroup: 1501
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-905
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19688:
+    damagemultiplierbonus: 5
+    id: 19688
+    implantness: 10
+    marketGroup: 1502
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19689:
+    damagemultiplierbonus: 5
+    id: 19689
+    implantness: 8
+    marketGroup: 1500
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19690:
+    damagemultiplierbonus: 5
+    id: 19690
+    implantness: 6
+    marketGroup: 1498
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  19691:
+    damagemultiplierbonus: 5
+    id: 19691
+    implantness: 6
+    marketGroup: 1498
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-605
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  19692:
+    capneedbonus: -5
+    id: 19692
+    implantness: 7
+    marketGroup: 1499
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-705
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  19693:
+    id: 19693
+    implantness: 9
+    marketGroup: 1501
+    name: Inherent Implants 'Lancer' Gunnery RF-905
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    turretspeebonus: -5
+    volume: 1.0
+  19694:
+    damagemultiplierbonus: 5
+    id: 19694
+    implantness: 10
+    marketGroup: 1502
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1005
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19695:
+    damagemultiplierbonus: 5
+    id: 19695
+    implantness: 8
+    marketGroup: 1500
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-805
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19696:
+    id: 19696
+    implantness: 9
+    marketGroup: 1501
+    name: Zainou 'Deadeye' Sharpshooter ST-905
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 5
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19697:
+    falloffbonus: 5.0
+    id: 19697
+    implantness: 7
+    marketGroup: 1499
+    name: Zainou 'Deadeye' Trajectory Analysis TA-705
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  19698:
+    damagemultiplierbonus: 5
+    id: 19698
+    implantness: 10
+    marketGroup: 1502
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1005
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19699:
+    damagemultiplierbonus: 5
+    id: 19699
+    implantness: 8
+    marketGroup: 1500
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-805
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  19700:
+    damagemultiplierbonus: 5
+    id: 19700
+    implantness: 6
+    marketGroup: 1498
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-605
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  20443:
+    id: 20443
+    implantness: 7
+    marketGroup: 1499
+    name: Ogdin's Eye Coordination Enhancer
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  25867:
+    damagemultiplierbonus: 7
+    id: 25867
+    implantness: 10
+    marketGroup: 1502
+    name: Pashan's Turret Handling Mindlink
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  25868:
+    id: 25868
+    implantness: 9
+    marketGroup: 1501
+    name: Pashan's Turret Customization Mindlink
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    turretspeebonus: -7
+    volume: 1.0
+  27075:
+    id: 27075
+    implantness: 7
+    marketGroup: 1499
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-701
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 1.0
+    volume: 1.0
+  27076:
+    id: 27076
+    implantness: 9
+    marketGroup: 1501
+    name: Zainou 'Deadeye' Sharpshooter ST-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    rangeskillbonus: 1
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27077:
+    id: 27077
+    implantness: 9
+    marketGroup: 1501
+    name: Inherent Implants 'Lancer' Gunnery RF-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    turretspeebonus: -1
+    volume: 1.0
+  27078:
+    falloffbonus: 1.0
+    id: 27078
+    implantness: 7
+    marketGroup: 1499
+    name: Zainou 'Deadeye' Trajectory Analysis TA-701
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27079:
+    capneedbonus: -1
+    id: 27079
+    implantness: 7
+    marketGroup: 1499
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-701
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27080:
+    cpuneedbonus: -1
+    id: 27080
+    implantness: 10
+    marketGroup: 1502
+    name: Zainou 'Gnome' Weapon Upgrades WU-1001
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27081:
+    damagemultiplierbonus: 1
+    id: 27081
+    implantness: 9
+    marketGroup: 1501
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27082:
+    damagemultiplierbonus: 1
+    id: 27082
+    implantness: 6
+    marketGroup: 1498
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-601
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27083:
+    damagemultiplierbonus: 1
+    id: 27083
+    implantness: 6
+    marketGroup: 1498
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-601
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27084:
+    damagemultiplierbonus: 1
+    id: 27084
+    implantness: 6
+    marketGroup: 1498
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27085:
+    damagemultiplierbonus: 1
+    id: 27085
+    implantness: 8
+    marketGroup: 1500
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27086:
+    damagemultiplierbonus: 1
+    id: 27086
+    implantness: 8
+    marketGroup: 1500
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27087:
+    damagemultiplierbonus: 1
+    id: 27087
+    implantness: 8
+    marketGroup: 1500
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27088:
+    damagemultiplierbonus: 1
+    id: 27088
+    implantness: 10
+    marketGroup: 1502
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1001
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27089:
+    damagemultiplierbonus: 1
+    id: 27089
+    implantness: 10
+    marketGroup: 1502
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1001
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27090:
+    damagemultiplierbonus: 1
+    id: 27090
+    implantness: 10
+    marketGroup: 1502
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
     techlevel: 1
     volume: 1.0

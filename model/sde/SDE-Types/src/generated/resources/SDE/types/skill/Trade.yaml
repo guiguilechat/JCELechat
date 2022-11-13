@@ -1,21 +1,118 @@
 types:
-  Accounting:
+  3443:
     cannotbetrainedontrial: 1
-    id: 16622
+    id: 3443
     marketGroup: 378
-    name: Accounting
+    name: Trade
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
+    price: 30000.0
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    secondaryattribute: 164
+    skilltimeconstant: 1.0
+    tradepremiumbonus: -5
+    volume: 0.009999999776482582
+  3444:
+    cannotbetrainedontrial: 1
+    id: 3444
+    marketGroup: 378
+    name: Retail
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 125000.0
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 2
+    secondaryattribute: 164
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  3446:
+    cannotbetrainedontrial: 1
+    id: 3446
+    marketGroup: 378
+    name: Broker Relations
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 125000.0
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 2
+    secondaryattribute: 164
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  3447:
+    cannotbetrainedontrial: 1
+    id: 3447
+    marketGroup: 378
+    name: Visibility
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7500000.0
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 16594
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  16594:
+    cannotbetrainedontrial: 1
+    id: 16594
+    marketGroup: 378
+    name: Procurement
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 16598
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  16595:
+    cannotbetrainedontrial: 1
+    id: 16595
+    marketGroup: 378
+    name: Daytrading
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E7
     primaryattribute: 164
     published: true
     radius: 1.0
     requiredskill1: 3443
     requiredskill1level: 4
     secondaryattribute: 166
-    skilltimeconstant: 3.0
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Advanced Broker Relations:
+  16596:
+    cannotbetrainedontrial: 1
+    id: 16596
+    marketGroup: 378
+    name: Wholesale
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.5E7
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 3444
+    requiredskill1level: 5
+    requiredskill2: 16598
+    requiredskill2level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
+  16597:
     cannotbetrainedontrial: 1
     id: 16597
     marketGroup: 378
@@ -33,88 +130,7 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Broker Relations:
-    cannotbetrainedontrial: 1
-    id: 3446
-    marketGroup: 378
-    name: Broker Relations
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 125000.0
-    primaryattribute: 168
-    published: true
-    radius: 1.0
-    requiredskill1: 3443
-    requiredskill1level: 2
-    secondaryattribute: 164
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Contracting:
-    cannotbetrainedontrial: 1
-    id: 25235
-    marketGroup: 378
-    name: Contracting
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 175000.0
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    secondaryattribute: 168
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Corporation Contracting:
-    cannotbetrainedontrial: 1
-    id: 25233
-    marketGroup: 378
-    name: Corporation Contracting
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 150000.0
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    requiredskill1: 25235
-    requiredskill1level: 4
-    secondaryattribute: 168
-    skilltimeconstant: 3.0
-    volume: 0.009999999776482582
-  Customs Code Expertise:
-    cannotbetrainedontrial: 1
-    id: 33467
-    marketGroup: 378
-    name: Customs Code Expertise
-    packagedVolume: 0.009999999776482582
-    pitaxreductionmodifer: -10
-    portionSize: 1
-    price: 3000000.0
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    requiredskill1: 3443
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Daytrading:
-    cannotbetrainedontrial: 1
-    id: 16595
-    marketGroup: 378
-    name: Daytrading
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.5E7
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    requiredskill1: 3443
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Marketing:
+  16598:
     cannotbetrainedontrial: 1
     id: 16598
     marketGroup: 378
@@ -130,54 +146,23 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Procurement:
+  16622:
     cannotbetrainedontrial: 1
-    id: 16594
+    id: 16622
     marketGroup: 378
-    name: Procurement
+    name: Accounting
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1500000.0
+    price: 5000000.0
     primaryattribute: 164
     published: true
     radius: 1.0
-    requiredskill1: 16598
-    requiredskill1level: 2
+    requiredskill1: 3443
+    requiredskill1level: 4
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Retail:
-    cannotbetrainedontrial: 1
-    id: 3444
-    marketGroup: 378
-    name: Retail
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 125000.0
-    primaryattribute: 168
-    published: true
-    radius: 1.0
-    requiredskill1: 3443
-    requiredskill1level: 2
-    secondaryattribute: 164
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Trade:
-    cannotbetrainedontrial: 1
-    id: 3443
-    marketGroup: 378
-    name: Trade
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 30000.0
-    primaryattribute: 168
-    published: true
-    radius: 1.0
-    secondaryattribute: 164
-    skilltimeconstant: 1.0
-    tradepremiumbonus: -5
-    volume: 0.009999999776482582
-  Tycoon:
+  18580:
     cannotbetrainedontrial: 1
     id: 18580
     marketGroup: 378
@@ -195,37 +180,68 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 6.0
     volume: 0.009999999776482582
-  Visibility:
+  25233:
     cannotbetrainedontrial: 1
-    id: 3447
+    id: 25233
     marketGroup: 378
-    name: Visibility
+    name: Corporation Contracting
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7500000.0
+    price: 150000.0
     primaryattribute: 164
     published: true
     radius: 1.0
-    requiredskill1: 16594
+    requiredskill1: 25235
     requiredskill1level: 4
-    secondaryattribute: 166
+    secondaryattribute: 168
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Wholesale:
+  25235:
     cannotbetrainedontrial: 1
-    id: 16596
+    id: 25235
     marketGroup: 378
-    name: Wholesale
+    name: Contracting
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E7
+    price: 175000.0
     primaryattribute: 164
     published: true
     radius: 1.0
-    requiredskill1: 3444
-    requiredskill1level: 5
-    requiredskill2: 16598
-    requiredskill2level: 2
+    requiredskill1: 3355
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  33467:
+    cannotbetrainedontrial: 1
+    id: 33467
+    marketGroup: 378
+    name: Customs Code Expertise
+    packagedVolume: 0.009999999776482582
+    pitaxreductionmodifer: -10
+    portionSize: 1
+    price: 3000000.0
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 4
     secondaryattribute: 166
-    skilltimeconstant: 4.0
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  73912:
+    cannotbetrainedontrial: 1
+    id: 73912
+    marketGroup: 378
+    name: Advanced Contracting
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E8
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 25235
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582

@@ -1,5 +1,5 @@
 types:
-  Standup XL-Set Extinction Level Weapons Suite I:
+  37274:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     hisecmodifier: 1.0
@@ -30,7 +30,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 40.0
-  Standup XL-Set Extinction Level Weapons Suite II:
+  37275:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     hisecmodifier: 1.0

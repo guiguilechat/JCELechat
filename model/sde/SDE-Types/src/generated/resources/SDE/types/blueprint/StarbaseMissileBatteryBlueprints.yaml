@@ -1,5 +1,16 @@
 types:
-  Cruise Missile Battery Blueprint:
+  2822:
+    id: 2822
+    industryblueprintrank: 40.0
+    marketGroup: 1349
+    name: XL Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  2823:
     id: 2823
     industryblueprintrank: 40.0
     marketGroup: 1349
@@ -10,61 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Dread Guristas Cruise Missile Battery Blueprint:
-    id: 27947
-    industryblueprintrank: 40.0
-    name: Dread Guristas Cruise Missile Battery Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Dread Guristas Torpedo Battery Blueprint:
-    id: 27948
-    industryblueprintrank: 40.0
-    name: Dread Guristas Torpedo Battery Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Dread Guristas XL Torpedo Battery Blueprint:
-    id: 27949
-    industryblueprintrank: 40.0
-    name: Dread Guristas XL Torpedo Battery Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Guristas Cruise Missile Battery Blueprint:
-    id: 27946
-    industryblueprintrank: 40.0
-    name: Guristas Cruise Missile Battery Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Guristas Torpedo Battery Blueprint:
-    id: 27945
-    industryblueprintrank: 40.0
-    name: Guristas Torpedo Battery Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Guristas XL Torpedo Battery Blueprint:
-    id: 27944
-    industryblueprintrank: 40.0
-    name: Guristas XL Torpedo Battery Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Torpedo Battery Blueprint:
+  2824:
     id: 2824
     industryblueprintrank: 40.0
     marketGroup: 1349
@@ -75,14 +32,57 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  XL Torpedo Battery Blueprint:
-    id: 2822
+  27944:
+    id: 27944
     industryblueprintrank: 40.0
-    marketGroup: 1349
-    name: XL Torpedo Battery Blueprint
+    name: Guristas XL Torpedo Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  27945:
+    id: 27945
+    industryblueprintrank: 40.0
+    name: Guristas Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  27946:
+    id: 27946
+    industryblueprintrank: 40.0
+    name: Guristas Cruise Missile Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  27947:
+    id: 27947
+    industryblueprintrank: 40.0
+    name: Dread Guristas Cruise Missile Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  27948:
+    id: 27948
+    industryblueprintrank: 40.0
+    name: Dread Guristas Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  27949:
+    id: 27949
+    industryblueprintrank: 40.0
+    name: Dread Guristas XL Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     radius: 1.0
     volume: 0.009999999776482582

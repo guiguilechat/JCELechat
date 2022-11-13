@@ -32,7 +32,7 @@ public class Decorations
         implements IMetaGroup<Decorations>
     {
         public static final String RESOURCE_PATH = "SDE/types/abstrct/Decorations.yaml";
-        private Map<String, Decorations> cache = (null);
+        private Map<Integer, Decorations> cache = (null);
 
         @Override
         public IMetaCategory<? super Decorations> category() {
@@ -50,7 +50,7 @@ public class Decorations
         }
 
         @Override
-        public synchronized Map<String, Decorations> load() {
+        public synchronized Map<Integer, Decorations> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Decorations.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Decorations
         }
 
         private static class Container {
-            public LinkedHashMap<String, Decorations> types;
+            public LinkedHashMap<Integer, Decorations> types;
         }
     }
 }

@@ -1,100 +1,5 @@
 types:
-  Entrapment Array 1:
-    devindexmilitary: 3
-    distributionidangel01: 399
-    distributionidblood01: 404
-    distributionidgurista01: 409
-    distributionidroguedrone01: 424
-    distributionidsansha01: 414
-    distributionidserpentis01: 419
-    id: 2031
-    marketGroup: 1284
-    mass: 1000.0
-    name: Entrapment Array 1
-    packagedVolume: 5000.0
-    portionSize: 1
-    price: 1.0E8
-    published: true
-    radius: 1.0
-    sovupgraderequiredupgradeid: 2028
-    volume: 5000.0
-  Entrapment Array 2:
-    devindexmilitary: 3
-    distributionidangel01: 400
-    distributionidblood01: 405
-    distributionidgurista01: 410
-    distributionidroguedrone01: 425
-    distributionidsansha01: 415
-    distributionidserpentis01: 420
-    id: 2034
-    marketGroup: 1284
-    mass: 1000.0
-    name: Entrapment Array 2
-    packagedVolume: 10000.0
-    portionSize: 1
-    price: 2.0E8
-    published: true
-    radius: 1.0
-    sovupgraderequiredupgradeid: 2031
-    volume: 10000.0
-  Entrapment Array 3:
-    devindexmilitary: 4
-    distributionidangel01: 401
-    distributionidblood01: 406
-    distributionidgurista01: 411
-    distributionidroguedrone01: 426
-    distributionidsansha01: 416
-    distributionidserpentis01: 421
-    id: 2035
-    marketGroup: 1284
-    mass: 1000.0
-    name: Entrapment Array 3
-    packagedVolume: 20000.0
-    portionSize: 1
-    price: 3.0E8
-    published: true
-    radius: 1.0
-    sovupgraderequiredupgradeid: 2034
-    volume: 20000.0
-  Entrapment Array 4:
-    devindexmilitary: 4
-    distributionidangel01: 402
-    distributionidblood01: 407
-    distributionidgurista01: 412
-    distributionidroguedrone01: 427
-    distributionidsansha01: 417
-    distributionidserpentis01: 422
-    id: 2036
-    marketGroup: 1284
-    mass: 1000.0
-    name: Entrapment Array 4
-    packagedVolume: 40000.0
-    portionSize: 1
-    price: 4.0E8
-    published: true
-    radius: 1.0
-    sovupgraderequiredupgradeid: 2035
-    volume: 40000.0
-  Entrapment Array 5:
-    devindexmilitary: 5
-    distributionidangel01: 403
-    distributionidblood01: 408
-    distributionidgurista01: 413
-    distributionidroguedrone01: 428
-    distributionidsansha01: 418
-    distributionidserpentis01: 423
-    id: 2037
-    marketGroup: 1284
-    mass: 1000.0
-    name: Entrapment Array 5
-    packagedVolume: 60000.0
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    radius: 1.0
-    sovupgraderequiredupgradeid: 2036
-    volume: 60000.0
-  Pirate Detection Array 1:
+  2026:
     devindexmilitary: 1
     distributionidangel01: 466
     distributionidangel02: 467
@@ -136,7 +41,7 @@ types:
     published: true
     radius: 1.0
     volume: 5000.0
-  Pirate Detection Array 2:
+  2027:
     devindexmilitary: 2
     distributionidangel01: 471
     distributionidangel02: 472
@@ -179,7 +84,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2026
     volume: 10000.0
-  Pirate Detection Array 3:
+  2028:
     devindexmilitary: 3
     distributionidangel01: 476
     distributionidangel02: 477
@@ -222,7 +127,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2027
     volume: 20000.0
-  Pirate Detection Array 4:
+  2029:
     devindexmilitary: 4
     distributionidangel01: 481
     distributionidangel02: 482
@@ -265,7 +170,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2028
     volume: 40000.0
-  Pirate Detection Array 5:
+  2030:
     devindexmilitary: 5
     distributionidangel01: 486
     distributionidangel02: 487
@@ -308,7 +213,102 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2029
     volume: 60000.0
-  Quantum Flux Generator 1:
+  2031:
+    devindexmilitary: 3
+    distributionidangel01: 399
+    distributionidblood01: 404
+    distributionidgurista01: 409
+    distributionidroguedrone01: 424
+    distributionidsansha01: 414
+    distributionidserpentis01: 419
+    id: 2031
+    marketGroup: 1284
+    mass: 1000.0
+    name: Entrapment Array 1
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2028
+    volume: 5000.0
+  2034:
+    devindexmilitary: 3
+    distributionidangel01: 400
+    distributionidblood01: 405
+    distributionidgurista01: 410
+    distributionidroguedrone01: 425
+    distributionidsansha01: 415
+    distributionidserpentis01: 420
+    id: 2034
+    marketGroup: 1284
+    mass: 1000.0
+    name: Entrapment Array 2
+    packagedVolume: 10000.0
+    portionSize: 1
+    price: 2.0E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2031
+    volume: 10000.0
+  2035:
+    devindexmilitary: 4
+    distributionidangel01: 401
+    distributionidblood01: 406
+    distributionidgurista01: 411
+    distributionidroguedrone01: 426
+    distributionidsansha01: 416
+    distributionidserpentis01: 421
+    id: 2035
+    marketGroup: 1284
+    mass: 1000.0
+    name: Entrapment Array 3
+    packagedVolume: 20000.0
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2034
+    volume: 20000.0
+  2036:
+    devindexmilitary: 4
+    distributionidangel01: 402
+    distributionidblood01: 407
+    distributionidgurista01: 412
+    distributionidroguedrone01: 427
+    distributionidsansha01: 417
+    distributionidserpentis01: 422
+    id: 2036
+    marketGroup: 1284
+    mass: 1000.0
+    name: Entrapment Array 4
+    packagedVolume: 40000.0
+    portionSize: 1
+    price: 4.0E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2035
+    volume: 40000.0
+  2037:
+    devindexmilitary: 5
+    distributionidangel01: 403
+    distributionidblood01: 408
+    distributionidgurista01: 413
+    distributionidroguedrone01: 428
+    distributionidsansha01: 418
+    distributionidserpentis01: 423
+    id: 2037
+    marketGroup: 1284
+    mass: 1000.0
+    name: Entrapment Array 5
+    packagedVolume: 60000.0
+    portionSize: 1
+    price: 5.0E8
+    published: true
+    radius: 1.0
+    sovupgraderequiredupgradeid: 2036
+    volume: 60000.0
+  2058:
     devindexmilitary: 2
     distributionid01: 429
     id: 2058
@@ -321,7 +321,7 @@ types:
     published: true
     radius: 1.0
     volume: 5000.0
-  Quantum Flux Generator 2:
+  2059:
     devindexmilitary: 3
     distributionid01: 430
     id: 2059
@@ -335,7 +335,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2058
     volume: 10000.0
-  Quantum Flux Generator 3:
+  2060:
     devindexmilitary: 3
     distributionid01: 431
     id: 2060
@@ -349,7 +349,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2059
     volume: 20000.0
-  Quantum Flux Generator 4:
+  2061:
     devindexmilitary: 4
     distributionid01: 432
     id: 2061
@@ -363,7 +363,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2060
     volume: 40000.0
-  Quantum Flux Generator 5:
+  2062:
     devindexmilitary: 4
     distributionid01: 433
     id: 2062

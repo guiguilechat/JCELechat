@@ -173,7 +173,7 @@ public class CyberDrones
         implements IMetaGroup<CyberDrones>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberDrones.yaml";
-        private Map<String, CyberDrones> cache = (null);
+        private Map<Integer, CyberDrones> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberDrones> category() {
@@ -191,7 +191,7 @@ public class CyberDrones
         }
 
         @Override
-        public synchronized Map<String, CyberDrones> load() {
+        public synchronized Map<Integer, CyberDrones> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberDrones.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -205,7 +205,7 @@ public class CyberDrones
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberDrones> types;
+            public LinkedHashMap<Integer, CyberDrones> types;
         }
     }
 }

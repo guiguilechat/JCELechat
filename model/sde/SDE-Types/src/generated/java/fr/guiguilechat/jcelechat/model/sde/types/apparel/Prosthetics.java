@@ -88,7 +88,7 @@ public class Prosthetics
         implements IMetaGroup<Prosthetics>
     {
         public static final String RESOURCE_PATH = "SDE/types/apparel/Prosthetics.yaml";
-        private Map<String, Prosthetics> cache = (null);
+        private Map<Integer, Prosthetics> cache = (null);
 
         @Override
         public IMetaCategory<? super Prosthetics> category() {
@@ -106,7 +106,7 @@ public class Prosthetics
         }
 
         @Override
-        public synchronized Map<String, Prosthetics> load() {
+        public synchronized Map<Integer, Prosthetics> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Prosthetics.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -120,7 +120,7 @@ public class Prosthetics
         }
 
         private static class Container {
-            public LinkedHashMap<String, Prosthetics> types;
+            public LinkedHashMap<Integer, Prosthetics> types;
         }
     }
 }

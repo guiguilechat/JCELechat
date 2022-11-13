@@ -479,7 +479,7 @@ public class Interdictor
         implements IMetaGroup<Interdictor>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Interdictor.yaml";
-        private Map<String, Interdictor> cache = (null);
+        private Map<Integer, Interdictor> cache = (null);
 
         @Override
         public IMetaCategory<? super Interdictor> category() {
@@ -497,7 +497,7 @@ public class Interdictor
         }
 
         @Override
-        public synchronized Map<String, Interdictor> load() {
+        public synchronized Map<Integer, Interdictor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Interdictor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -511,7 +511,7 @@ public class Interdictor
         }
 
         private static class Container {
-            public LinkedHashMap<String, Interdictor> types;
+            public LinkedHashMap<Integer, Interdictor> types;
         }
     }
 }

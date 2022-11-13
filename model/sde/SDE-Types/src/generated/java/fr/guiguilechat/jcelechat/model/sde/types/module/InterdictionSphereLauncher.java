@@ -293,7 +293,7 @@ public class InterdictionSphereLauncher
         implements IMetaGroup<InterdictionSphereLauncher>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/InterdictionSphereLauncher.yaml";
-        private Map<String, InterdictionSphereLauncher> cache = (null);
+        private Map<Integer, InterdictionSphereLauncher> cache = (null);
 
         @Override
         public IMetaCategory<? super InterdictionSphereLauncher> category() {
@@ -311,7 +311,7 @@ public class InterdictionSphereLauncher
         }
 
         @Override
-        public synchronized Map<String, InterdictionSphereLauncher> load() {
+        public synchronized Map<Integer, InterdictionSphereLauncher> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InterdictionSphereLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -325,7 +325,7 @@ public class InterdictionSphereLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, InterdictionSphereLauncher> types;
+            public LinkedHashMap<Integer, InterdictionSphereLauncher> types;
         }
     }
 }

@@ -1,37 +1,35 @@
 types:
-  Connections:
-    connectionbonusmutator: 0.4000000059604645
-    id: 3359
+  3355:
+    id: 3355
     marketGroup: 376
-    name: Connections
+    name: Social
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
+    price: 30000.0
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    secondaryattribute: 165
+    skilltimeconstant: 1.0
+    socialmutator: 5
+    volume: 0.009999999776482582
+  3356:
+    id: 3356
+    marketGroup: 376
+    name: Negotiation
+    negotiationbonus: 5
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 60000.0
     primaryattribute: 164
     published: true
     radius: 1.0
     requiredskill1: 3355
-    requiredskill1level: 3
+    requiredskill1level: 1
     secondaryattribute: 165
-    skilltimeconstant: 3.0
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Criminal Connections:
-    criminalconnectionsmutator: 0.4000000059604645
-    id: 3361
-    marketGroup: 376
-    name: Criminal Connections
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 200000.0
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 3
-    secondaryattribute: 165
-    skilltimeconstant: 3.0
-    volume: 0.009999999776482582
-  Diplomacy:
+  3357:
     diplomacymutator: 0.4000000059604645
     id: 3357
     marketGroup: 376
@@ -47,24 +45,7 @@ types:
     secondaryattribute: 165
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
-  Distribution Connections:
-    id: 3894
-    marketGroup: 376
-    name: Distribution Connections
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E7
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    requiredskill1: 3443
-    requiredskill1level: 3
-    requiredskill2: 3355
-    requiredskill2level: 3
-    secondaryattribute: 165
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Fast Talk:
+  3358:
     fasttalkmutator: 5
     id: 3358
     marketGroup: 376
@@ -80,7 +61,39 @@ types:
     secondaryattribute: 165
     skilltimeconstant: 4.0
     volume: 0.009999999776482582
-  Mining Connections:
+  3359:
+    connectionbonusmutator: 0.4000000059604645
+    id: 3359
+    marketGroup: 376
+    name: Connections
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 200000.0
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  3361:
+    criminalconnectionsmutator: 0.4000000059604645
+    id: 3361
+    marketGroup: 376
+    name: Criminal Connections
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 200000.0
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  3893:
     id: 3893
     marketGroup: 376
     name: Mining Connections
@@ -97,23 +110,24 @@ types:
     secondaryattribute: 165
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Negotiation:
-    id: 3356
+  3894:
+    id: 3894
     marketGroup: 376
-    name: Negotiation
-    negotiationbonus: 5
+    name: Distribution Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 60000.0
+    price: 2.0E7
     primaryattribute: 164
     published: true
     radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
+    requiredskill1: 3443
+    requiredskill1level: 3
+    requiredskill2: 3355
+    requiredskill2level: 3
     secondaryattribute: 165
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Security Connections:
+  3895:
     id: 3895
     marketGroup: 376
     name: Security Connections
@@ -129,18 +143,4 @@ types:
     requiredskill2level: 3
     secondaryattribute: 165
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Social:
-    id: 3355
-    marketGroup: 376
-    name: Social
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 30000.0
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    secondaryattribute: 165
-    skilltimeconstant: 1.0
-    socialmutator: 5
     volume: 0.009999999776482582

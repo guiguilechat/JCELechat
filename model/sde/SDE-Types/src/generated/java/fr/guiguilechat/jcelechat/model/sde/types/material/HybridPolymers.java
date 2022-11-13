@@ -32,7 +32,7 @@ public class HybridPolymers
         implements IMetaGroup<HybridPolymers>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/HybridPolymers.yaml";
-        private Map<String, HybridPolymers> cache = (null);
+        private Map<Integer, HybridPolymers> cache = (null);
 
         @Override
         public IMetaCategory<? super HybridPolymers> category() {
@@ -50,7 +50,7 @@ public class HybridPolymers
         }
 
         @Override
-        public synchronized Map<String, HybridPolymers> load() {
+        public synchronized Map<Integer, HybridPolymers> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HybridPolymers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class HybridPolymers
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridPolymers> types;
+            public LinkedHashMap<Integer, HybridPolymers> types;
         }
     }
 }

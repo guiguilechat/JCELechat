@@ -1,49 +1,5 @@
 types:
-  Heavy Compact Entropic Disintegrator Blueprint:
-    id: 48471
-    marketGroup: 293
-    name: Heavy Compact Entropic Disintegrator Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1200000.0
-    published: true
-    volume: 0.009999999776482582
-  Heavy Entropic Disintegrator I Blueprint:
-    id: 47971
-    marketGroup: 293
-    name: Heavy Entropic Disintegrator I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1200000.0
-    published: true
-    volume: 0.009999999776482582
-  Heavy Entropic Disintegrator II Blueprint:
-    id: 47972
-    name: Heavy Entropic Disintegrator II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E10
-    published: true
-    volume: 0.009999999776482582
-  Heavy Scoped Entropic Disintegrator Blueprint:
-    id: 48472
-    marketGroup: 293
-    name: Heavy Scoped Entropic Disintegrator Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1200000.0
-    published: true
-    volume: 0.009999999776482582
-  Light Compact Entropic Disintegrator Blueprint:
-    id: 48469
-    marketGroup: 292
-    name: Light Compact Entropic Disintegrator Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 120000.0
-    published: true
-    volume: 0.009999999776482582
-  Light Entropic Disintegrator I Blueprint:
+  47969:
     id: 47969
     marketGroup: 292
     name: Light Entropic Disintegrator I Blueprint
@@ -52,7 +8,7 @@ types:
     price: 120000.0
     published: true
     volume: 0.009999999776482582
-  Light Entropic Disintegrator II Blueprint:
+  47970:
     id: 47970
     name: Light Entropic Disintegrator II Blueprint
     packagedVolume: 0.009999999776482582
@@ -60,25 +16,24 @@ types:
     price: 1.0E10
     published: true
     volume: 0.009999999776482582
-  Light Scoped Entropic Disintegrator Blueprint:
-    id: 48470
-    marketGroup: 292
-    name: Light Scoped Entropic Disintegrator Blueprint
+  47971:
+    id: 47971
+    marketGroup: 293
+    name: Heavy Entropic Disintegrator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 120000.0
+    price: 1200000.0
     published: true
     volume: 0.009999999776482582
-  Supratidal Compact Entropic Disintegrator Blueprint:
-    id: 48473
-    marketGroup: 295
-    name: Supratidal Compact Entropic Disintegrator Blueprint
+  47972:
+    id: 47972
+    name: Heavy Entropic Disintegrator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9000000.0
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
-  Supratidal Entropic Disintegrator I Blueprint:
+  47973:
     id: 47973
     marketGroup: 295
     name: Supratidal Entropic Disintegrator I Blueprint
@@ -87,7 +42,7 @@ types:
     price: 9000000.0
     published: true
     volume: 0.009999999776482582
-  Supratidal Entropic Disintegrator II Blueprint:
+  47974:
     id: 47974
     name: Supratidal Entropic Disintegrator II Blueprint
     packagedVolume: 0.009999999776482582
@@ -95,7 +50,52 @@ types:
     price: 1.0E10
     published: true
     volume: 0.009999999776482582
-  Supratidal Scoped Entropic Disintegrator Blueprint:
+  48469:
+    id: 48469
+    marketGroup: 292
+    name: Light Compact Entropic Disintegrator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 120000.0
+    published: true
+    volume: 0.009999999776482582
+  48470:
+    id: 48470
+    marketGroup: 292
+    name: Light Scoped Entropic Disintegrator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 120000.0
+    published: true
+    volume: 0.009999999776482582
+  48471:
+    id: 48471
+    marketGroup: 293
+    name: Heavy Compact Entropic Disintegrator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1200000.0
+    published: true
+    volume: 0.009999999776482582
+  48472:
+    id: 48472
+    marketGroup: 293
+    name: Heavy Scoped Entropic Disintegrator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1200000.0
+    published: true
+    volume: 0.009999999776482582
+  48473:
+    id: 48473
+    marketGroup: 295
+    name: Supratidal Compact Entropic Disintegrator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9000000.0
+    published: true
+    volume: 0.009999999776482582
+  48474:
     id: 48474
     marketGroup: 295
     name: Supratidal Scoped Entropic Disintegrator Blueprint
@@ -104,24 +104,31 @@ types:
     price: 9000000.0
     published: true
     volume: 0.009999999776482582
-  Ultratidal Entropic Disintegrator I Blueprint:
-    id: 53030
-    name: Ultratidal Entropic Disintegrator I Blueprint
+  52237:
+    id: 52237
+    name: Zorya's Light Entropic Disintegrator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.300626E7
+    price: 120000.0
     published: true
     volume: 0.009999999776482582
-  Veles Heavy Entropic Disintegrator Blueprint:
-    id: 52349
-    marketGroup: 293
-    name: Veles Heavy Entropic Disintegrator Blueprint
+  52239:
+    id: 52239
+    name: Zorya's Heavy Entropic Disintegrator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200000.0
     published: true
     volume: 0.009999999776482582
-  Veles Light Entropic Disintegrator Blueprint:
+  52241:
+    id: 52241
+    name: Zorya's Supratidal Entropic Disintegrator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9000000.0
+    published: true
+    volume: 0.009999999776482582
+  52348:
     id: 52348
     marketGroup: 292
     name: Veles Light Entropic Disintegrator Blueprint
@@ -130,7 +137,16 @@ types:
     price: 120000.0
     published: true
     volume: 0.009999999776482582
-  Veles Supratidal Entropic Disintegrator Blueprint:
+  52349:
+    id: 52349
+    marketGroup: 293
+    name: Veles Heavy Entropic Disintegrator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1200000.0
+    published: true
+    volume: 0.009999999776482582
+  52350:
     id: 52350
     marketGroup: 295
     name: Veles Supratidal Entropic Disintegrator Blueprint
@@ -139,27 +155,11 @@ types:
     price: 9000000.0
     published: true
     volume: 0.009999999776482582
-  Zorya's Heavy Entropic Disintegrator Blueprint:
-    id: 52239
-    name: Zorya's Heavy Entropic Disintegrator Blueprint
+  53030:
+    id: 53030
+    name: Ultratidal Entropic Disintegrator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1200000.0
-    published: true
-    volume: 0.009999999776482582
-  Zorya's Light Entropic Disintegrator Blueprint:
-    id: 52237
-    name: Zorya's Light Entropic Disintegrator Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 120000.0
-    published: true
-    volume: 0.009999999776482582
-  Zorya's Supratidal Entropic Disintegrator Blueprint:
-    id: 52241
-    name: Zorya's Supratidal Entropic Disintegrator Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 9000000.0
+    price: 4.300626E7
     published: true
     volume: 0.009999999776482582

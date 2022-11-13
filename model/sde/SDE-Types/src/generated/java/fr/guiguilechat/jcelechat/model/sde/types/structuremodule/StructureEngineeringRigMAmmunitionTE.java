@@ -313,7 +313,7 @@ public class StructureEngineeringRigMAmmunitionTE
         implements IMetaGroup<StructureEngineeringRigMAmmunitionTE>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMAmmunitionTE.yaml";
-        private Map<String, StructureEngineeringRigMAmmunitionTE> cache = (null);
+        private Map<Integer, StructureEngineeringRigMAmmunitionTE> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMAmmunitionTE> category() {
@@ -331,7 +331,7 @@ public class StructureEngineeringRigMAmmunitionTE
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMAmmunitionTE> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMAmmunitionTE> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMAmmunitionTE.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -345,7 +345,7 @@ public class StructureEngineeringRigMAmmunitionTE
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMAmmunitionTE> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMAmmunitionTE> types;
         }
     }
 }

@@ -1,43 +1,5 @@
 types:
-  '''Aurora Ominae'' Thermal Doomsday Blueprint':
-    id: 24555
-    industryblueprintrank: 240.0
-    marketGroup: 913
-    name: '''Aurora Ominae'' Thermal Doomsday Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.40950752E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  '''Cold Wind'' Kinetic Reaper Blueprint':
-    id: 41449
-    marketGroup: 913
-    name: '''Cold Wind'' Kinetic Reaper Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E8
-    published: true
-    volume: 0.009999999776482582
-  '''Divine Harvest'' Electromagnetic Reaper Blueprint':
-    id: 41452
-    marketGroup: 913
-    name: '''Divine Harvest'' Electromagnetic Reaper Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E8
-    published: true
-    volume: 0.009999999776482582
-  '''Geiravor'' Explosive Lance Blueprint':
-    id: 41448
-    marketGroup: 913
-    name: '''Geiravor'' Explosive Lance Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E8
-    published: true
-    volume: 0.009999999776482582
-  '''Gjallarhorn'' Explosive Doomsday Blueprint':
+  24549:
     id: 24549
     industryblueprintrank: 240.0
     marketGroup: 913
@@ -48,43 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  '''Guillotine'' Thermal Reaper Blueprint':
-    id: 41450
-    marketGroup: 913
-    name: '''Guillotine'' Thermal Reaper Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E8
-    published: true
-    volume: 0.009999999776482582
-  '''Holy Destiny'' Electromagnetic Lance Blueprint':
-    id: 41445
-    marketGroup: 913
-    name: '''Holy Destiny'' Electromagnetic Lance Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E8
-    published: true
-    volume: 0.009999999776482582
-  '''Iron Pike'' Kinetic Lance Blueprint':
-    id: 41446
-    marketGroup: 913
-    name: '''Iron Pike'' Kinetic Lance Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E8
-    published: true
-    volume: 0.009999999776482582
-  '''Jormungandr'' Explosive Reaper Blueprint':
-    id: 41451
-    marketGroup: 913
-    name: '''Jormungandr'' Explosive Reaper Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.0E8
-    published: true
-    volume: 0.009999999776482582
-  '''Judgment'' Electromagnetic Doomsday Blueprint':
+  24551:
     id: 24551
     industryblueprintrank: 240.0
     marketGroup: 913
@@ -95,7 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  '''Oblivion'' Kinetic Doomsday Blueprint':
+  24553:
     id: 24553
     industryblueprintrank: 240.0
     marketGroup: 913
@@ -106,25 +32,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  '''Phalarica'' Thermal Lance Blueprint':
-    id: 41447
+  24555:
+    id: 24555
+    industryblueprintrank: 240.0
     marketGroup: 913
-    name: '''Phalarica'' Thermal Lance Blueprint'
+    name: '''Aurora Ominae'' Thermal Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 2.40950752E8
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
-  Bosonic Field Generator Blueprint:
-    id: 41532
-    marketGroup: 913
-    name: Bosonic Field Generator Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    volume: 0.009999999776482582
-  Gravitational Transportation Field Oscillator Blueprint:
+  41438:
     id: 41438
     marketGroup: 913
     name: Gravitational Transportation Field Oscillator Blueprint
@@ -133,7 +52,88 @@ types:
     price: 5.0E8
     published: true
     volume: 0.009999999776482582
-  Pulse Activated Nexus Invulnerability Core Blueprint:
+  41445:
+    id: 41445
+    marketGroup: 913
+    name: '''Holy Destiny'' Electromagnetic Lance Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 0.009999999776482582
+  41446:
+    id: 41446
+    marketGroup: 913
+    name: '''Iron Pike'' Kinetic Lance Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 0.009999999776482582
+  41447:
+    id: 41447
+    marketGroup: 913
+    name: '''Phalarica'' Thermal Lance Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 0.009999999776482582
+  41448:
+    id: 41448
+    marketGroup: 913
+    name: '''Geiravor'' Explosive Lance Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 0.009999999776482582
+  41449:
+    id: 41449
+    marketGroup: 913
+    name: '''Cold Wind'' Kinetic Reaper Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 0.009999999776482582
+  41450:
+    id: 41450
+    marketGroup: 913
+    name: '''Guillotine'' Thermal Reaper Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 0.009999999776482582
+  41451:
+    id: 41451
+    marketGroup: 913
+    name: '''Jormungandr'' Explosive Reaper Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 0.009999999776482582
+  41452:
+    id: 41452
+    marketGroup: 913
+    name: '''Divine Harvest'' Electromagnetic Reaper Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 0.009999999776482582
+  41532:
+    id: 41532
+    marketGroup: 913
+    name: Bosonic Field Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E8
+    published: true
+    volume: 0.009999999776482582
+  42889:
     id: 42889
     marketGroup: 913
     name: Pulse Activated Nexus Invulnerability Core Blueprint

@@ -32,7 +32,7 @@ public class JumpFilamentBlueprint
         implements IMetaGroup<JumpFilamentBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/JumpFilamentBlueprint.yaml";
-        private Map<String, JumpFilamentBlueprint> cache = (null);
+        private Map<Integer, JumpFilamentBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super JumpFilamentBlueprint> category() {
@@ -50,7 +50,7 @@ public class JumpFilamentBlueprint
         }
 
         @Override
-        public synchronized Map<String, JumpFilamentBlueprint> load() {
+        public synchronized Map<Integer, JumpFilamentBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(JumpFilamentBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class JumpFilamentBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpFilamentBlueprint> types;
+            public LinkedHashMap<Integer, JumpFilamentBlueprint> types;
         }
     }
 }

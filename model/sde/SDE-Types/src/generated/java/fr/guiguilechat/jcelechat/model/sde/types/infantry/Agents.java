@@ -32,7 +32,7 @@ public class Agents
         implements IMetaGroup<Agents>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/Agents.yaml";
-        private Map<String, Agents> cache = (null);
+        private Map<Integer, Agents> cache = (null);
 
         @Override
         public IMetaCategory<? super Agents> category() {
@@ -50,7 +50,7 @@ public class Agents
         }
 
         @Override
-        public synchronized Map<String, Agents> load() {
+        public synchronized Map<Integer, Agents> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Agents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Agents
         }
 
         private static class Container {
-            public LinkedHashMap<String, Agents> types;
+            public LinkedHashMap<Integer, Agents> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Armored Command Mindlink:
+  13209:
     id: 13209
     implantness: 10
     marketGroup: 1505
@@ -16,13 +16,12 @@ types:
     requiredskill2level: 5
     techlevel: 2
     volume: 1.0
-  Caldari Navy Command Mindlink:
-    id: 33406
+  21888:
+    id: 21888
     implantness: 10
     marketGroup: 1505
-    metagroupid: 4
     mindlinkbonus: 25
-    name: Caldari Navy Command Mindlink
+    name: Shield Command Mindlink
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -31,31 +30,57 @@ types:
     requiredskill1level: 5
     requiredskill2: 3351
     requiredskill2level: 5
-    requiredskill3: 3352
-    requiredskill3level: 5
-    techlevel: 1
+    techlevel: 2
     volume: 1.0
-  Federation Navy Command Mindlink:
-    id: 33404
+  21889:
+    id: 21889
     implantness: 10
     marketGroup: 1505
-    metagroupid: 4
     mindlinkbonus: 25
-    name: Federation Navy Command Mindlink
+    name: Information Command Mindlink
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
-    requiredskill2: 11569
+    requiredskill2: 3352
     requiredskill2level: 5
-    requiredskill3: 11572
-    requiredskill3level: 5
-    techlevel: 1
+    techlevel: 2
     volume: 1.0
-  Imperial Navy Command Mindlink:
+  21890:
+    id: 21890
+    implantness: 10
+    marketGroup: 1505
+    mindlinkbonus: 25
+    name: Skirmish Command Mindlink
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    requiredskill2: 11572
+    requiredskill2level: 5
+    techlevel: 2
+    volume: 1.0
+  22559:
+    id: 22559
+    implantness: 10
+    marketGroup: 1505
+    mindlinkbonus: 25
+    name: Mining Foreman Mindlink
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    requiredskill2: 22552
+    requiredskill2level: 5
+    techlevel: 2
+    volume: 1.0
+  33403:
     id: 33403
     implantness: 10
     marketGroup: 1505
@@ -75,45 +100,13 @@ types:
     requiredskill3level: 5
     techlevel: 1
     volume: 1.0
-  Information Command Mindlink:
-    id: 21889
-    implantness: 10
-    marketGroup: 1505
-    mindlinkbonus: 25
-    name: Information Command Mindlink
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    requiredskill2: 3352
-    requiredskill2level: 5
-    techlevel: 2
-    volume: 1.0
-  Mining Foreman Mindlink:
-    id: 22559
-    implantness: 10
-    marketGroup: 1505
-    mindlinkbonus: 25
-    name: Mining Foreman Mindlink
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    requiredskill2: 22552
-    requiredskill2level: 5
-    techlevel: 2
-    volume: 1.0
-  ORE Mining Director Mindlink:
-    id: 43775
+  33404:
+    id: 33404
     implantness: 10
     marketGroup: 1505
     metagroupid: 4
     mindlinkbonus: 25
-    name: ORE Mining Director Mindlink
+    name: Federation Navy Command Mindlink
     packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
@@ -121,13 +114,13 @@ types:
     radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
-    requiredskill2: 22552
+    requiredskill2: 11569
     requiredskill2level: 5
-    requiredskill3: 3351
+    requiredskill3: 11572
     requiredskill3level: 5
     techlevel: 1
     volume: 1.0
-  Republic Fleet Command Mindlink:
+  33405:
     id: 33405
     implantness: 10
     marketGroup: 1505
@@ -146,12 +139,13 @@ types:
     requiredskill3level: 5
     techlevel: 1
     volume: 1.0
-  Shield Command Mindlink:
-    id: 21888
+  33406:
+    id: 33406
     implantness: 10
     marketGroup: 1505
+    metagroupid: 4
     mindlinkbonus: 25
-    name: Shield Command Mindlink
+    name: Caldari Navy Command Mindlink
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -160,21 +154,27 @@ types:
     requiredskill1level: 5
     requiredskill2: 3351
     requiredskill2level: 5
-    techlevel: 2
+    requiredskill3: 3352
+    requiredskill3level: 5
+    techlevel: 1
     volume: 1.0
-  Skirmish Command Mindlink:
-    id: 21890
+  43775:
+    id: 43775
     implantness: 10
     marketGroup: 1505
+    metagroupid: 4
     mindlinkbonus: 25
-    name: Skirmish Command Mindlink
+    name: ORE Mining Director Mindlink
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
-    requiredskill2: 11572
+    requiredskill2: 22552
     requiredskill2level: 5
-    techlevel: 2
+    requiredskill3: 3351
+    requiredskill3level: 5
+    techlevel: 1
     volume: 1.0

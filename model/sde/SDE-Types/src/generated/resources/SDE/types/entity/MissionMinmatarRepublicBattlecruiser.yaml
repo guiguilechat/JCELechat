@@ -1,93 +1,5 @@
 types:
-  Republic Norn:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 1200.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 775.0
-    capacity: 120.0
-    damagemultiplier: 6.25
-    disallowassistance: 1
-    energyneutralizerduration: 30000
-    entityarmorrepairdelaychance: 0.6000000238418579
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 18900
-    entityattackdelaymin: 4725
-    entityattackrange: 62500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.15625
-    entitychasemaxdistance: 34453
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entitydefenderchance: 0.03999999910593033
-    entityequipmentmax: 5
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 22969.0
-    entitygrouprespawnchance: 1
-    entitylootcountmin: 1
-    entitymissiletypeid: 206
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6200000047683716
-    entitysecuritymaxgain: 5.0
-    entityshieldboostamount: 150.0
-    entityshieldboostdelaychancemedium: 0.6000000238418579
-    entityshieldboostduration: 5000
-    entitytargetpaintduration: 30000
-    explosivedamage: 4.0
-    falloff: 21875.0
-    gfxboosterid: 397
-    gfxturretid: 492
-    hp: 1300.0
-    id: 24851
-    kineticdamage: 14.0
-    mass: 1.09E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 4
-    maxrange: 17500.0
-    maxvelocity: 400.0
-    mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8483999967575073
-    missileentityaoevelocitymultiplier: 1.3032000064849854
-    missileentityflighttimemultiplier: 1.3032000064849854
-    missileentityvelocitymultiplier: 1.3032000064849854
-    missilelaunchduration: 5750.0
-    modifytargetspeedduration: 5000.0
-    name: Republic Norn
-    optimalsigradius: 125
-    packagedVolume: 109000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanladarstrength: 17.0
-    scanresolution: 220.0
-    scanspeed: 4500
-    shieldcapacity: 1700.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 240.0
-    speed: 5000.0
-    structureuniformity: 1.0
-    trackingspeed: 0.027000000700354576
-    volume: 109000.0
-  Republic Nutia:
+  24843:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -176,7 +88,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.10559999942779541
     volume: 109000.0
-  Republic Tribal Caluka:
+  24847:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -188,103 +100,15 @@ types:
     armorkineticdamageresonance: 0.6000000238418579
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
-    capacitorcapacity: 875.0
-    capacity: 475.0
-    damagemultiplier: 18.0
-    disallowassistance: 1
-    emdamage: 10.0
-    energyneutralizerduration: 30000
-    entityarmorrepairdelaychance: 0.6000000238418579
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 17700
-    entityattackdelaymin: 4425
-    entityattackrange: 57422
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.15625
-    entitychasemaxdistance: 34453
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entitydefenderchance: 0.05000000074505806
-    entityequipmentmax: 6
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 22969.0
-    entitygrouprespawnchance: 1
-    entitymissiletypeid: 213
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
-    entitysecuritymaxgain: 5.0
-    entityshieldboostamount: 150.0
-    entityshieldboostdelaychancemedium: 0.6000000238418579
-    entityshieldboostduration: 5000
-    entitytargetpaintduration: 30000
-    explosivedamage: 8.0
-    falloff: 21875.0
-    gfxboosterid: 397
-    gfxturretid: 492
-    hp: 1300.0
-    id: 28179
-    kineticdamage: 4.0
-    mass: 1.25E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1
-    maxlockedtargets: 4
-    maxrange: 17500.0
-    maxvelocity: 1600.0
-    mintargetveldmgmultiplier: 1.0
-    missiledamagemultiplier: 3.3299999237060547
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
-    missilelaunchduration: 5000.0
-    modifytargetspeedduration: 5000.0
-    name: Republic Tribal Caluka
-    optimalsigradius: 125
-    packagedVolume: 120000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 190.0
-    rechargerate: 1000000.0
-    scanladarstrength: 19.0
-    scanresolution: 220.0
-    scanspeed: 4500
-    shieldcapacity: 1700.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 240.0
-    speed: 5000.0
-    structureuniformity: 1.0
-    trackingspeed: 0.02199999988079071
-    volume: 120000.0
-  Republic Tribal Norn:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 1200.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 850.0
+    capacitorcapacity: 750.0
     capacity: 120.0
-    damagemultiplier: 8.0
+    damagemultiplier: 6.0
     disallowassistance: 1
     energyneutralizerduration: 30000
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairduration: 10000
-    entityattackdelaymax: 18000
-    entityattackdelaymin: 4500
+    entityattackdelaymax: 19200
+    entityattackdelaymin: 4800
     entityattackrange: 69922
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
@@ -293,26 +117,27 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.04749999940395355
+    entitydefenderchance: 0.03750000149011612
     entityequipmentmax: 5
     entityequipmentmin: -5
     entityfactionloss: 0.008999999612569809
     entityflyrange: 27969.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
-    entitymissiletypeid: 213
+    entitymissiletypeid: 206
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.6100000143051147
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 150.0
     entityshieldboostdelaychancemedium: 0.6000000238418579
     entityshieldboostduration: 5000
     entitytargetpaintduration: 30000
+    explosivedamage: 14.0
     falloff: 21875.0
     gfxboosterid: 397
     gfxturretid: 493
     hp: 1300.0
-    id: 24857
+    id: 24847
     kineticdamage: 4.0
     mass: 1.09E7
     maxattacktargets: 1
@@ -321,14 +146,14 @@ types:
     maxrange: 22500.0
     maxvelocity: 400.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 1.6699999570846558
-    missileentityaoecloudsizemultiplier: 0.8360999822616577
-    missileentityaoevelocitymultiplier: 1.3278000354766846
-    missileentityflighttimemultiplier: 1.3278000354766846
-    missileentityvelocitymultiplier: 1.3278000354766846
-    missilelaunchduration: 5000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.8525000214576721
+    missileentityaoevelocitymultiplier: 1.2949999570846558
+    missileentityflighttimemultiplier: 1.2949999570846558
+    missileentityvelocitymultiplier: 1.2949999570846558
+    missilelaunchduration: 6250.0
     modifytargetspeedduration: 5000.0
-    name: Republic Tribal Norn
+    name: Republic Venis
     optimalsigradius: 125
     packagedVolume: 109000.0
     portionSize: 1
@@ -336,7 +161,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
-    scanladarstrength: 19.0
+    scanladarstrength: 17.0
     scanresolution: 220.0
     scanspeed: 4500
     shieldcapacity: 1700.0
@@ -349,10 +174,9 @@ types:
     signatureradius: 240.0
     speed: 5000.0
     structureuniformity: 1.0
-    thermaldamage: 16.0
-    trackingspeed: 0.02199999988079071
+    trackingspeed: 0.027000000700354576
     volume: 109000.0
-  Republic Tribal Nutia:
+  24848:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -441,7 +265,95 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.02199999988079071
     volume: 109000.0
-  Republic Tribal Venis:
+  24851:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 1200.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 775.0
+    capacity: 120.0
+    damagemultiplier: 6.25
+    disallowassistance: 1
+    energyneutralizerduration: 30000
+    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 18900
+    entityattackdelaymin: 4725
+    entityattackrange: 62500
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.15625
+    entitychasemaxdistance: 34453
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entitydefenderchance: 0.03999999910593033
+    entityequipmentmax: 5
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 22969.0
+    entitygrouprespawnchance: 1
+    entitylootcountmin: 1
+    entitymissiletypeid: 206
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6200000047683716
+    entitysecuritymaxgain: 5.0
+    entityshieldboostamount: 150.0
+    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostduration: 5000
+    entitytargetpaintduration: 30000
+    explosivedamage: 4.0
+    falloff: 21875.0
+    gfxboosterid: 397
+    gfxturretid: 492
+    hp: 1300.0
+    id: 24851
+    kineticdamage: 14.0
+    mass: 1.09E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 4
+    maxrange: 17500.0
+    maxvelocity: 400.0
+    mintargetveldmgmultiplier: 0.25
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.8483999967575073
+    missileentityaoevelocitymultiplier: 1.3032000064849854
+    missileentityflighttimemultiplier: 1.3032000064849854
+    missileentityvelocitymultiplier: 1.3032000064849854
+    missilelaunchduration: 5750.0
+    modifytargetspeedduration: 5000.0
+    name: Republic Norn
+    optimalsigradius: 125
+    packagedVolume: 109000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanladarstrength: 17.0
+    scanresolution: 220.0
+    scanspeed: 4500
+    shieldcapacity: 1700.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 240.0
+    speed: 5000.0
+    structureuniformity: 1.0
+    trackingspeed: 0.027000000700354576
+    volume: 109000.0
+  24855:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -530,7 +442,183 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.10559999942779541
     volume: 109000.0
-  Republic Tribal Vorshud:
+  24857:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 1200.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 850.0
+    capacity: 120.0
+    damagemultiplier: 8.0
+    disallowassistance: 1
+    energyneutralizerduration: 30000
+    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 18000
+    entityattackdelaymin: 4500
+    entityattackrange: 69922
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.15625
+    entitychasemaxdistance: 41953
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entitydefenderchance: 0.04749999940395355
+    entityequipmentmax: 5
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 27969.0
+    entitygrouprespawnchance: 1
+    entitylootcountmin: 1
+    entitymissiletypeid: 213
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6499999761581421
+    entitysecuritymaxgain: 5.0
+    entityshieldboostamount: 150.0
+    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostduration: 5000
+    entitytargetpaintduration: 30000
+    falloff: 21875.0
+    gfxboosterid: 397
+    gfxturretid: 493
+    hp: 1300.0
+    id: 24857
+    kineticdamage: 4.0
+    mass: 1.09E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 4
+    maxrange: 22500.0
+    maxvelocity: 400.0
+    mintargetveldmgmultiplier: 0.25
+    missiledamagemultiplier: 1.6699999570846558
+    missileentityaoecloudsizemultiplier: 0.8360999822616577
+    missileentityaoevelocitymultiplier: 1.3278000354766846
+    missileentityflighttimemultiplier: 1.3278000354766846
+    missileentityvelocitymultiplier: 1.3278000354766846
+    missilelaunchduration: 5000.0
+    modifytargetspeedduration: 5000.0
+    name: Republic Tribal Norn
+    optimalsigradius: 125
+    packagedVolume: 109000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanladarstrength: 19.0
+    scanresolution: 220.0
+    scanspeed: 4500
+    shieldcapacity: 1700.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 240.0
+    speed: 5000.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    trackingspeed: 0.02199999988079071
+    volume: 109000.0
+  28179:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 1200.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 875.0
+    capacity: 475.0
+    damagemultiplier: 18.0
+    disallowassistance: 1
+    emdamage: 10.0
+    energyneutralizerduration: 30000
+    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 17700
+    entityattackdelaymin: 4425
+    entityattackrange: 57422
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.15625
+    entitychasemaxdistance: 34453
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentmax: 6
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 22969.0
+    entitygrouprespawnchance: 1
+    entitymissiletypeid: 213
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6600000262260437
+    entitysecuritymaxgain: 5.0
+    entityshieldboostamount: 150.0
+    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostduration: 5000
+    entitytargetpaintduration: 30000
+    explosivedamage: 8.0
+    falloff: 21875.0
+    gfxboosterid: 397
+    gfxturretid: 492
+    hp: 1300.0
+    id: 28179
+    kineticdamage: 4.0
+    mass: 1.25E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 4
+    maxrange: 17500.0
+    maxvelocity: 1600.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 3.3299999237060547
+    missileentityaoecloudsizemultiplier: 0.8320000171661377
+    missileentityaoevelocitymultiplier: 1.3359999656677246
+    missileentityflighttimemultiplier: 1.3359999656677246
+    missileentityvelocitymultiplier: 1.3359999656677246
+    missilelaunchduration: 5000.0
+    modifytargetspeedduration: 5000.0
+    name: Republic Tribal Caluka
+    optimalsigradius: 125
+    packagedVolume: 120000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 190.0
+    rechargerate: 1000000.0
+    scanladarstrength: 19.0
+    scanresolution: 220.0
+    scanspeed: 4500
+    shieldcapacity: 1700.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 240.0
+    speed: 5000.0
+    structureuniformity: 1.0
+    trackingspeed: 0.02199999988079071
+    volume: 120000.0
+  28180:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -625,91 +713,3 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.02199999988079071
     volume: 120000.0
-  Republic Venis:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 1200.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 750.0
-    capacity: 120.0
-    damagemultiplier: 6.0
-    disallowassistance: 1
-    energyneutralizerduration: 30000
-    entityarmorrepairdelaychance: 0.6000000238418579
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 19200
-    entityattackdelaymin: 4800
-    entityattackrange: 69922
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.15625
-    entitychasemaxdistance: 41953
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entitydefenderchance: 0.03750000149011612
-    entityequipmentmax: 5
-    entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 27969.0
-    entitygrouprespawnchance: 1
-    entitylootcountmin: 1
-    entitymissiletypeid: 206
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6100000143051147
-    entitysecuritymaxgain: 5.0
-    entityshieldboostamount: 150.0
-    entityshieldboostdelaychancemedium: 0.6000000238418579
-    entityshieldboostduration: 5000
-    entitytargetpaintduration: 30000
-    explosivedamage: 14.0
-    falloff: 21875.0
-    gfxboosterid: 397
-    gfxturretid: 493
-    hp: 1300.0
-    id: 24847
-    kineticdamage: 4.0
-    mass: 1.09E7
-    maxattacktargets: 1
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 4
-    maxrange: 22500.0
-    maxvelocity: 400.0
-    mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8525000214576721
-    missileentityaoevelocitymultiplier: 1.2949999570846558
-    missileentityflighttimemultiplier: 1.2949999570846558
-    missileentityvelocitymultiplier: 1.2949999570846558
-    missilelaunchduration: 6250.0
-    modifytargetspeedduration: 5000.0
-    name: Republic Venis
-    optimalsigradius: 125
-    packagedVolume: 109000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanladarstrength: 17.0
-    scanresolution: 220.0
-    scanspeed: 4500
-    shieldcapacity: 1700.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 240.0
-    speed: 5000.0
-    structureuniformity: 1.0
-    trackingspeed: 0.027000000700354576
-    volume: 109000.0

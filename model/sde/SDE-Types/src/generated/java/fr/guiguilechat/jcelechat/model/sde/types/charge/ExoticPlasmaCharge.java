@@ -263,7 +263,7 @@ public class ExoticPlasmaCharge
         implements IMetaGroup<ExoticPlasmaCharge>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/ExoticPlasmaCharge.yaml";
-        private Map<String, ExoticPlasmaCharge> cache = (null);
+        private Map<Integer, ExoticPlasmaCharge> cache = (null);
 
         @Override
         public IMetaCategory<? super ExoticPlasmaCharge> category() {
@@ -281,7 +281,7 @@ public class ExoticPlasmaCharge
         }
 
         @Override
-        public synchronized Map<String, ExoticPlasmaCharge> load() {
+        public synchronized Map<Integer, ExoticPlasmaCharge> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ExoticPlasmaCharge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -295,7 +295,7 @@ public class ExoticPlasmaCharge
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExoticPlasmaCharge> types;
+            public LinkedHashMap<Integer, ExoticPlasmaCharge> types;
         }
     }
 }

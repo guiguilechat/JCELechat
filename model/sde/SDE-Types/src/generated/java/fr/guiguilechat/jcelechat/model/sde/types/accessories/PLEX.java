@@ -32,7 +32,7 @@ public class PLEX
         implements IMetaGroup<PLEX>
     {
         public static final String RESOURCE_PATH = "SDE/types/accessories/PLEX.yaml";
-        private Map<String, PLEX> cache = (null);
+        private Map<Integer, PLEX> cache = (null);
 
         @Override
         public IMetaCategory<? super PLEX> category() {
@@ -50,7 +50,7 @@ public class PLEX
         }
 
         @Override
-        public synchronized Map<String, PLEX> load() {
+        public synchronized Map<Integer, PLEX> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PLEX.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PLEX
         }
 
         private static class Container {
-            public LinkedHashMap<String, PLEX> types;
+            public LinkedHashMap<Integer, PLEX> types;
         }
     }
 }

@@ -32,7 +32,7 @@ public class Corporation
         implements IMetaGroup<Corporation>
     {
         public static final String RESOURCE_PATH = "SDE/types/owner/Corporation.yaml";
-        private Map<String, Corporation> cache = (null);
+        private Map<Integer, Corporation> cache = (null);
 
         @Override
         public IMetaCategory<? super Corporation> category() {
@@ -50,7 +50,7 @@ public class Corporation
         }
 
         @Override
-        public synchronized Map<String, Corporation> load() {
+        public synchronized Map<Integer, Corporation> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Corporation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Corporation
         }
 
         private static class Container {
-            public LinkedHashMap<String, Corporation> types;
+            public LinkedHashMap<Integer, Corporation> types;
         }
     }
 }

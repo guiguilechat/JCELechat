@@ -1,5 +1,5 @@
 types:
-  Standup XL-Set Equipment and Consumable Manufacturing Efficiency I:
+  37178:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20
@@ -28,7 +28,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 40.0
-  Standup XL-Set Equipment and Consumable Manufacturing Efficiency II:
+  37179:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: -24

@@ -449,7 +449,7 @@ public class CynosuralFieldGenerator
         implements IMetaGroup<CynosuralFieldGenerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CynosuralFieldGenerator.yaml";
-        private Map<String, CynosuralFieldGenerator> cache = (null);
+        private Map<Integer, CynosuralFieldGenerator> cache = (null);
 
         @Override
         public IMetaCategory<? super CynosuralFieldGenerator> category() {
@@ -467,7 +467,7 @@ public class CynosuralFieldGenerator
         }
 
         @Override
-        public synchronized Map<String, CynosuralFieldGenerator> load() {
+        public synchronized Map<Integer, CynosuralFieldGenerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CynosuralFieldGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -481,7 +481,7 @@ public class CynosuralFieldGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, CynosuralFieldGenerator> types;
+            public LinkedHashMap<Integer, CynosuralFieldGenerator> types;
         }
     }
 }

@@ -97,7 +97,7 @@ public class WeaponDisruptorBlueprint
         implements IMetaGroup<WeaponDisruptorBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/WeaponDisruptorBlueprint.yaml";
-        private Map<String, WeaponDisruptorBlueprint> cache = (null);
+        private Map<Integer, WeaponDisruptorBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super WeaponDisruptorBlueprint> category() {
@@ -115,7 +115,7 @@ public class WeaponDisruptorBlueprint
         }
 
         @Override
-        public synchronized Map<String, WeaponDisruptorBlueprint> load() {
+        public synchronized Map<Integer, WeaponDisruptorBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WeaponDisruptorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class WeaponDisruptorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, WeaponDisruptorBlueprint> types;
+            public LinkedHashMap<Integer, WeaponDisruptorBlueprint> types;
         }
     }
 }

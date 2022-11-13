@@ -869,7 +869,7 @@ public class MissionCaldariStateCarrier
         implements IMetaGroup<MissionCaldariStateCarrier>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionCaldariStateCarrier.yaml";
-        private Map<String, MissionCaldariStateCarrier> cache = (null);
+        private Map<Integer, MissionCaldariStateCarrier> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionCaldariStateCarrier> category() {
@@ -887,7 +887,7 @@ public class MissionCaldariStateCarrier
         }
 
         @Override
-        public synchronized Map<String, MissionCaldariStateCarrier> load() {
+        public synchronized Map<Integer, MissionCaldariStateCarrier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionCaldariStateCarrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -901,7 +901,7 @@ public class MissionCaldariStateCarrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionCaldariStateCarrier> types;
+            public LinkedHashMap<Integer, MissionCaldariStateCarrier> types;
         }
     }
 }

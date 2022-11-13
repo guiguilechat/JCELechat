@@ -139,8 +139,8 @@ public class HeavyAssaultCruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int elitebonusheavygunship1;
+    @DefaultRealValue(0.0)
+    public double elitebonusheavygunship1;
     /**
      * 
      */
@@ -301,8 +301,8 @@ public class HeavyAssaultCruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5)
-    public int shipbonuscc;
+    @DefaultRealValue(5.0)
+    public double shipbonuscc;
     /**
      * 
      */
@@ -547,7 +547,7 @@ public class HeavyAssaultCruiser
         implements IMetaGroup<HeavyAssaultCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/HeavyAssaultCruiser.yaml";
-        private Map<String, HeavyAssaultCruiser> cache = (null);
+        private Map<Integer, HeavyAssaultCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super HeavyAssaultCruiser> category() {
@@ -565,7 +565,7 @@ public class HeavyAssaultCruiser
         }
 
         @Override
-        public synchronized Map<String, HeavyAssaultCruiser> load() {
+        public synchronized Map<Integer, HeavyAssaultCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HeavyAssaultCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -579,7 +579,7 @@ public class HeavyAssaultCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, HeavyAssaultCruiser> types;
+            public LinkedHashMap<Integer, HeavyAssaultCruiser> types;
         }
     }
 }

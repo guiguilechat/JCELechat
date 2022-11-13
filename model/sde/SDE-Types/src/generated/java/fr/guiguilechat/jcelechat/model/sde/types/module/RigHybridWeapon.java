@@ -197,7 +197,7 @@ public class RigHybridWeapon
         implements IMetaGroup<RigHybridWeapon>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigHybridWeapon.yaml";
-        private Map<String, RigHybridWeapon> cache = (null);
+        private Map<Integer, RigHybridWeapon> cache = (null);
 
         @Override
         public IMetaCategory<? super RigHybridWeapon> category() {
@@ -215,7 +215,7 @@ public class RigHybridWeapon
         }
 
         @Override
-        public synchronized Map<String, RigHybridWeapon> load() {
+        public synchronized Map<Integer, RigHybridWeapon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigHybridWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -229,7 +229,7 @@ public class RigHybridWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigHybridWeapon> types;
+            public LinkedHashMap<Integer, RigHybridWeapon> types;
         }
     }
 }

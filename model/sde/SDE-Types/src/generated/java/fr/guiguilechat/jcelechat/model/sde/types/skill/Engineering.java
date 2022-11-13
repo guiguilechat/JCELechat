@@ -248,7 +248,7 @@ public class Engineering
         implements IMetaGroup<Engineering>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Engineering.yaml";
-        private Map<String, Engineering> cache = (null);
+        private Map<Integer, Engineering> cache = (null);
 
         @Override
         public IMetaCategory<? super Engineering> category() {
@@ -266,7 +266,7 @@ public class Engineering
         }
 
         @Override
-        public synchronized Map<String, Engineering> load() {
+        public synchronized Map<Integer, Engineering> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Engineering.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -280,7 +280,7 @@ public class Engineering
         }
 
         private static class Container {
-            public LinkedHashMap<String, Engineering> types;
+            public LinkedHashMap<Integer, Engineering> types;
         }
     }
 }

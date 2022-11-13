@@ -92,7 +92,7 @@ public class StrongBoxes
         implements IMetaGroup<StrongBoxes>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/StrongBoxes.yaml";
-        private Map<String, StrongBoxes> cache = (null);
+        private Map<Integer, StrongBoxes> cache = (null);
 
         @Override
         public IMetaCategory<? super StrongBoxes> category() {
@@ -110,7 +110,7 @@ public class StrongBoxes
         }
 
         @Override
-        public synchronized Map<String, StrongBoxes> load() {
+        public synchronized Map<Integer, StrongBoxes> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StrongBoxes.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class StrongBoxes
         }
 
         private static class Container {
-            public LinkedHashMap<String, StrongBoxes> types;
+            public LinkedHashMap<Integer, StrongBoxes> types;
         }
     }
 }

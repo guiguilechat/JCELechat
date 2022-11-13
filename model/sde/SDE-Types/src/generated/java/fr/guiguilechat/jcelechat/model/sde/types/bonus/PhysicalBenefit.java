@@ -155,7 +155,7 @@ public class PhysicalBenefit
         implements IMetaGroup<PhysicalBenefit>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/PhysicalBenefit.yaml";
-        private Map<String, PhysicalBenefit> cache = (null);
+        private Map<Integer, PhysicalBenefit> cache = (null);
 
         @Override
         public IMetaCategory<? super PhysicalBenefit> category() {
@@ -173,7 +173,7 @@ public class PhysicalBenefit
         }
 
         @Override
-        public synchronized Map<String, PhysicalBenefit> load() {
+        public synchronized Map<Integer, PhysicalBenefit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PhysicalBenefit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -187,7 +187,7 @@ public class PhysicalBenefit
         }
 
         private static class Container {
-            public LinkedHashMap<String, PhysicalBenefit> types;
+            public LinkedHashMap<Integer, PhysicalBenefit> types;
         }
     }
 }

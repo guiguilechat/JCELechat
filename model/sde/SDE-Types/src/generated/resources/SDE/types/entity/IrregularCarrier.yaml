@@ -1,5 +1,5 @@
 types:
-  Khaitetha's Nidhoggur:
+  47180:
     agility: 0.05000000074505806
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 1.0
@@ -45,7 +45,7 @@ types:
     trackingspeed: 0.4000000059604645
     volume: 5.3E7
     warpspeedmultiplier: 25.0
-  Otuwiri's Thanatos:
+  47181:
     agility: 0.05000000074505806
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.4000000059604645

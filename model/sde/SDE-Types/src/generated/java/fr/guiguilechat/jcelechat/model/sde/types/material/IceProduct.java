@@ -32,7 +32,7 @@ public class IceProduct
         implements IMetaGroup<IceProduct>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/IceProduct.yaml";
-        private Map<String, IceProduct> cache = (null);
+        private Map<Integer, IceProduct> cache = (null);
 
         @Override
         public IMetaCategory<? super IceProduct> category() {
@@ -50,7 +50,7 @@ public class IceProduct
         }
 
         @Override
-        public synchronized Map<String, IceProduct> load() {
+        public synchronized Map<Integer, IceProduct> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IceProduct.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class IceProduct
         }
 
         private static class Container {
-            public LinkedHashMap<String, IceProduct> types;
+            public LinkedHashMap<Integer, IceProduct> types;
         }
     }
 }

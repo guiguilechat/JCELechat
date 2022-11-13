@@ -97,7 +97,7 @@ public class StructureRigBlueprint
         implements IMetaGroup<StructureRigBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StructureRigBlueprint.yaml";
-        private Map<String, StructureRigBlueprint> cache = (null);
+        private Map<Integer, StructureRigBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureRigBlueprint> category() {
@@ -115,7 +115,7 @@ public class StructureRigBlueprint
         }
 
         @Override
-        public synchronized Map<String, StructureRigBlueprint> load() {
+        public synchronized Map<Integer, StructureRigBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureRigBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class StructureRigBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureRigBlueprint> types;
+            public LinkedHashMap<Integer, StructureRigBlueprint> types;
         }
     }
 }

@@ -469,7 +469,7 @@ public class PrecursorWeapon
         implements IMetaGroup<PrecursorWeapon>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/PrecursorWeapon.yaml";
-        private Map<String, PrecursorWeapon> cache = (null);
+        private Map<Integer, PrecursorWeapon> cache = (null);
 
         @Override
         public IMetaCategory<? super PrecursorWeapon> category() {
@@ -487,7 +487,7 @@ public class PrecursorWeapon
         }
 
         @Override
-        public synchronized Map<String, PrecursorWeapon> load() {
+        public synchronized Map<Integer, PrecursorWeapon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PrecursorWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -501,7 +501,7 @@ public class PrecursorWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, PrecursorWeapon> types;
+            public LinkedHashMap<Integer, PrecursorWeapon> types;
         }
     }
 }

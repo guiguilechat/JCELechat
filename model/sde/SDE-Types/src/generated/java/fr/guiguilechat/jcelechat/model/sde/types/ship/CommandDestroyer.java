@@ -563,7 +563,7 @@ public class CommandDestroyer
         implements IMetaGroup<CommandDestroyer>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/CommandDestroyer.yaml";
-        private Map<String, CommandDestroyer> cache = (null);
+        private Map<Integer, CommandDestroyer> cache = (null);
 
         @Override
         public IMetaCategory<? super CommandDestroyer> category() {
@@ -581,7 +581,7 @@ public class CommandDestroyer
         }
 
         @Override
-        public synchronized Map<String, CommandDestroyer> load() {
+        public synchronized Map<Integer, CommandDestroyer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CommandDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -595,7 +595,7 @@ public class CommandDestroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandDestroyer> types;
+            public LinkedHashMap<Integer, CommandDestroyer> types;
         }
     }
 }

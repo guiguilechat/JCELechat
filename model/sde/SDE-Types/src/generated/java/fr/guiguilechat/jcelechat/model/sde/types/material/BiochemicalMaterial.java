@@ -84,7 +84,7 @@ public class BiochemicalMaterial
         implements IMetaGroup<BiochemicalMaterial>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/BiochemicalMaterial.yaml";
-        private Map<String, BiochemicalMaterial> cache = (null);
+        private Map<Integer, BiochemicalMaterial> cache = (null);
 
         @Override
         public IMetaCategory<? super BiochemicalMaterial> category() {
@@ -102,7 +102,7 @@ public class BiochemicalMaterial
         }
 
         @Override
-        public synchronized Map<String, BiochemicalMaterial> load() {
+        public synchronized Map<Integer, BiochemicalMaterial> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BiochemicalMaterial.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -116,7 +116,7 @@ public class BiochemicalMaterial
         }
 
         private static class Container {
-            public LinkedHashMap<String, BiochemicalMaterial> types;
+            public LinkedHashMap<Integer, BiochemicalMaterial> types;
         }
     }
 }

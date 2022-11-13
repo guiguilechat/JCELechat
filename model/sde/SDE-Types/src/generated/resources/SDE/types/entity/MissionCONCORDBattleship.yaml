@@ -1,5 +1,5 @@
 types:
-  CONCORD Fleet Commander:
+  16116:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -43,7 +43,7 @@ types:
     gfxboosterid: 395
     gfxturretid: 12354
     hp: 4250.0
-    id: 64404
+    id: 16116
     kineticdamage: 10.0
     mass: 2.05E7
     maxattacktargets: 1
@@ -55,7 +55,7 @@ types:
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 8500.0
     modifytargetspeedduration: 5000.0
-    name: CONCORD Fleet Commander
+    name: DED Army Colonel
     optimalsigradius: 400
     packagedVolume: 1080000.0
     portionSize: 1
@@ -80,7 +80,89 @@ types:
     thermaldamage: 10.0
     trackingspeed: 0.014587500132620335
     volume: 1080000.0
-  CONCORD Starship:
+  16117:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 4250.0
+    armorkineticdamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.4000000059604645
+    armoruniformity: 0.75
+    capacitorcapacity: 450.0
+    capacity: 235.0
+    damagemultiplier: 3.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    emdamage: 12.0
+    entityattackdelaymax: 7500
+    entityattackdelaymin: 1500
+    entityattackrange: 75000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 35000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 145.0
+    entitydefenderchance: 0.25
+    entityequipmentmax: 9
+    entityequipmentmin: 5
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 50000.0
+    entitylootcountmin: 1
+    entitymissiletypeid: 2506
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.699999988079071
+    entityshieldboostamount: 500.0
+    entityshieldboostdelaychance: 0.75
+    entityshieldboostduration: 10000
+    explosivedamage: 12.0
+    falloff: 24000.0
+    gfxboosterid: 395
+    gfxturretid: 574
+    hp: 4750.0
+    id: 16117
+    kineticdamage: 12.0
+    mass: 2.05E7
+    maxattacktargets: 1
+    maxlockedtargets: 3
+    maxrange: 50000.0
+    maxvelocity: 290.0
+    missiledamagemultiplier: 1.6375000476837158
+    missileentityflighttimemultiplier: 6.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 10000.0
+    modifytargetspeedduration: 5000.0
+    name: DED Army General
+    optimalsigradius: 400
+    packagedVolume: 1080000.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 600.0
+    rechargerate: 1000000.0
+    scanmagnetometricstrength: 30.0
+    scanresolution: 100.0
+    scanspeed: 9000
+    shieldcapacity: 6750.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.4000000059604645
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.4000000059604645
+    shielduniformity: 0.75
+    signatureradius: 450.0
+    speed: 3750.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 12.0
+    trackingspeed: 0.012031249701976776
+    volume: 1080000.0
+  16615:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -160,86 +242,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.012937500141561031
     volume: 1080000.0
-  CONCORD Starship Vessel:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorhp: 90000.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    armoruniformity: 0.75
-    capacitorcapacity: 1400.0
-    capacity: 665.0
-    damagemultiplier: 0.5
-    disallowassistance: 1
-    disallowoffensivemodifiers: 1
-    entityattackdelaymax: 7500
-    entityattackdelaymin: 1500
-    entityattackrange: 100000
-    entitybracketcolour: 2
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 2500
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 165.0
-    entitydefenderchance: 0.25
-    entityequipmentmax: 9
-    entityequipmentmin: 5
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 40000.0
-    entitylootcountmin: 1
-    entitymissiletypeid: 207
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.699999988079071
-    entityshieldboostamount: 3000.25
-    entityshieldboostdelaychance: 0.75
-    entityshieldboostduration: 10000
-    explosivedamage: 28.0
-    falloff: 35000.0
-    gfxboosterid: 397
-    gfxturretid: 12354
-    hp: 90000.0
-    id: 33806
-    kineticdamage: 8.0
-    mass: 2.05E7
-    maxattacktargets: 1
-    maxrange: 40000.0
-    maxvelocity: 330.0
-    missiledamagemultiplier: 0.10000000149011612
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 19375.0
-    modifytargetspeedduration: 5000.0
-    name: CONCORD Starship Vessel
-    optimalsigradius: 400
-    packagedVolume: 1080000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 600.0
-    rechargerate: 1000000.0
-    scanmagnetometricstrength: 30.0
-    scanresolution: 100.0
-    scanspeed: 6750
-    shieldcapacity: 90000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 0.75
-    signatureradius: 350.0
-    speed: 3950.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    trackingspeed: 0.012937500141561031
-    volume: 1080000.0
-  CONCORD ship:
+  16616:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -321,7 +324,7 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.012031249701976776
     volume: 1080000.0
-  Concord Battleship:
+  29228:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -402,7 +405,86 @@ types:
     thermaldamage: 10.0
     trackingspeed: 0.014587500132620335
     volume: 1080000.0
-  DED Army Colonel:
+  33806:
+    aiignoredronesbelowsignatureradius: 100
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 90000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 0.75
+    capacitorcapacity: 1400.0
+    capacity: 665.0
+    damagemultiplier: 0.5
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackdelaymax: 7500
+    entityattackdelaymin: 1500
+    entityattackrange: 100000
+    entitybracketcolour: 2
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 165.0
+    entitydefenderchance: 0.25
+    entityequipmentmax: 9
+    entityequipmentmin: 5
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 40000.0
+    entitylootcountmin: 1
+    entitymissiletypeid: 207
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.699999988079071
+    entityshieldboostamount: 3000.25
+    entityshieldboostdelaychance: 0.75
+    entityshieldboostduration: 10000
+    explosivedamage: 28.0
+    falloff: 35000.0
+    gfxboosterid: 397
+    gfxturretid: 12354
+    hp: 90000.0
+    id: 33806
+    kineticdamage: 8.0
+    mass: 2.05E7
+    maxattacktargets: 1
+    maxrange: 40000.0
+    maxvelocity: 330.0
+    missiledamagemultiplier: 0.10000000149011612
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 19375.0
+    modifytargetspeedduration: 5000.0
+    name: CONCORD Starship Vessel
+    optimalsigradius: 400
+    packagedVolume: 1080000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 600.0
+    rechargerate: 1000000.0
+    scanmagnetometricstrength: 30.0
+    scanresolution: 100.0
+    scanspeed: 6750
+    shieldcapacity: 90000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 350.0
+    speed: 3950.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    trackingspeed: 0.012937500141561031
+    volume: 1080000.0
+  64404:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -446,7 +528,7 @@ types:
     gfxboosterid: 395
     gfxturretid: 12354
     hp: 4250.0
-    id: 16116
+    id: 64404
     kineticdamage: 10.0
     mass: 2.05E7
     maxattacktargets: 1
@@ -458,7 +540,7 @@ types:
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 8500.0
     modifytargetspeedduration: 5000.0
-    name: DED Army Colonel
+    name: CONCORD Fleet Commander
     optimalsigradius: 400
     packagedVolume: 1080000.0
     portionSize: 1
@@ -482,86 +564,4 @@ types:
     structureuniformity: 1.0
     thermaldamage: 10.0
     trackingspeed: 0.014587500132620335
-    volume: 1080000.0
-  DED Army General:
-    aiignoredronesbelowsignatureradius: 100
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 4250.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.4000000059604645
-    armoruniformity: 0.75
-    capacitorcapacity: 450.0
-    capacity: 235.0
-    damagemultiplier: 3.0
-    disallowassistance: 1
-    disallowoffensivemodifiers: 1
-    emdamage: 12.0
-    entityattackdelaymax: 7500
-    entityattackdelaymin: 1500
-    entityattackrange: 75000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.5
-    entitychasemaxdistance: 35000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 145.0
-    entitydefenderchance: 0.25
-    entityequipmentmax: 9
-    entityequipmentmin: 5
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 50000.0
-    entitylootcountmin: 1
-    entitymissiletypeid: 2506
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.699999988079071
-    entityshieldboostamount: 500.0
-    entityshieldboostdelaychance: 0.75
-    entityshieldboostduration: 10000
-    explosivedamage: 12.0
-    falloff: 24000.0
-    gfxboosterid: 395
-    gfxturretid: 574
-    hp: 4750.0
-    id: 16117
-    kineticdamage: 12.0
-    mass: 2.05E7
-    maxattacktargets: 1
-    maxlockedtargets: 3
-    maxrange: 50000.0
-    maxvelocity: 290.0
-    missiledamagemultiplier: 1.6375000476837158
-    missileentityflighttimemultiplier: 6.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 10000.0
-    modifytargetspeedduration: 5000.0
-    name: DED Army General
-    optimalsigradius: 400
-    packagedVolume: 1080000.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 600.0
-    rechargerate: 1000000.0
-    scanmagnetometricstrength: 30.0
-    scanresolution: 100.0
-    scanspeed: 9000
-    shieldcapacity: 6750.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.4000000059604645
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4000000059604645
-    shielduniformity: 0.75
-    signatureradius: 450.0
-    speed: 3750.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 12.0
-    trackingspeed: 0.012031249701976776
     volume: 1080000.0

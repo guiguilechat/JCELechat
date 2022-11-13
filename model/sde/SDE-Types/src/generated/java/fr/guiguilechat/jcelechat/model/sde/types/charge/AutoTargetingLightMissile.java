@@ -383,7 +383,7 @@ public class AutoTargetingLightMissile
         implements IMetaGroup<AutoTargetingLightMissile>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AutoTargetingLightMissile.yaml";
-        private Map<String, AutoTargetingLightMissile> cache = (null);
+        private Map<Integer, AutoTargetingLightMissile> cache = (null);
 
         @Override
         public IMetaCategory<? super AutoTargetingLightMissile> category() {
@@ -401,7 +401,7 @@ public class AutoTargetingLightMissile
         }
 
         @Override
-        public synchronized Map<String, AutoTargetingLightMissile> load() {
+        public synchronized Map<Integer, AutoTargetingLightMissile> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AutoTargetingLightMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -415,7 +415,7 @@ public class AutoTargetingLightMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, AutoTargetingLightMissile> types;
+            public LinkedHashMap<Integer, AutoTargetingLightMissile> types;
         }
     }
 }

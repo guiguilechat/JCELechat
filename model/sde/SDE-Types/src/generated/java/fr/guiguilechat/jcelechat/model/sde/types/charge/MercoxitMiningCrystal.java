@@ -304,7 +304,7 @@ public class MercoxitMiningCrystal
         implements IMetaGroup<MercoxitMiningCrystal>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/MercoxitMiningCrystal.yaml";
-        private Map<String, MercoxitMiningCrystal> cache = (null);
+        private Map<Integer, MercoxitMiningCrystal> cache = (null);
 
         @Override
         public IMetaCategory<? super MercoxitMiningCrystal> category() {
@@ -322,7 +322,7 @@ public class MercoxitMiningCrystal
         }
 
         @Override
-        public synchronized Map<String, MercoxitMiningCrystal> load() {
+        public synchronized Map<Integer, MercoxitMiningCrystal> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MercoxitMiningCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -336,7 +336,7 @@ public class MercoxitMiningCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, MercoxitMiningCrystal> types;
+            public LinkedHashMap<Integer, MercoxitMiningCrystal> types;
         }
     }
 }

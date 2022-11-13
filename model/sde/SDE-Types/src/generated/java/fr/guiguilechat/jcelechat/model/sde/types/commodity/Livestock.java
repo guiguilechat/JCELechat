@@ -32,7 +32,7 @@ public class Livestock
         implements IMetaGroup<Livestock>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Livestock.yaml";
-        private Map<String, Livestock> cache = (null);
+        private Map<Integer, Livestock> cache = (null);
 
         @Override
         public IMetaCategory<? super Livestock> category() {
@@ -50,7 +50,7 @@ public class Livestock
         }
 
         @Override
-        public synchronized Map<String, Livestock> load() {
+        public synchronized Map<Integer, Livestock> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Livestock.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Livestock
         }
 
         private static class Container {
-            public LinkedHashMap<String, Livestock> types;
+            public LinkedHashMap<Integer, Livestock> types;
         }
     }
 }

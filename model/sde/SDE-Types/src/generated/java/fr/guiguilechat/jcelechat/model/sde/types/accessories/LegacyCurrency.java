@@ -96,7 +96,7 @@ public class LegacyCurrency
         implements IMetaGroup<LegacyCurrency>
     {
         public static final String RESOURCE_PATH = "SDE/types/accessories/LegacyCurrency.yaml";
-        private Map<String, LegacyCurrency> cache = (null);
+        private Map<Integer, LegacyCurrency> cache = (null);
 
         @Override
         public IMetaCategory<? super LegacyCurrency> category() {
@@ -114,7 +114,7 @@ public class LegacyCurrency
         }
 
         @Override
-        public synchronized Map<String, LegacyCurrency> load() {
+        public synchronized Map<Integer, LegacyCurrency> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LegacyCurrency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -128,7 +128,7 @@ public class LegacyCurrency
         }
 
         private static class Container {
-            public LinkedHashMap<String, LegacyCurrency> types;
+            public LinkedHashMap<Integer, LegacyCurrency> types;
         }
     }
 }

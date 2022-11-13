@@ -97,7 +97,7 @@ public class MiningCrystalBlueprint
         implements IMetaGroup<MiningCrystalBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/MiningCrystalBlueprint.yaml";
-        private Map<String, MiningCrystalBlueprint> cache = (null);
+        private Map<Integer, MiningCrystalBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningCrystalBlueprint> category() {
@@ -115,7 +115,7 @@ public class MiningCrystalBlueprint
         }
 
         @Override
-        public synchronized Map<String, MiningCrystalBlueprint> load() {
+        public synchronized Map<Integer, MiningCrystalBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningCrystalBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class MiningCrystalBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningCrystalBlueprint> types;
+            public LinkedHashMap<Integer, MiningCrystalBlueprint> types;
         }
     }
 }

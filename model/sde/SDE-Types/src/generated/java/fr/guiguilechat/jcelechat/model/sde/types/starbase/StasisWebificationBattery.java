@@ -422,7 +422,7 @@ public class StasisWebificationBattery
         implements IMetaGroup<StasisWebificationBattery>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/StasisWebificationBattery.yaml";
-        private Map<String, StasisWebificationBattery> cache = (null);
+        private Map<Integer, StasisWebificationBattery> cache = (null);
 
         @Override
         public IMetaCategory<? super StasisWebificationBattery> category() {
@@ -440,7 +440,7 @@ public class StasisWebificationBattery
         }
 
         @Override
-        public synchronized Map<String, StasisWebificationBattery> load() {
+        public synchronized Map<Integer, StasisWebificationBattery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StasisWebificationBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -454,7 +454,7 @@ public class StasisWebificationBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisWebificationBattery> types;
+            public LinkedHashMap<Integer, StasisWebificationBattery> types;
         }
     }
 }

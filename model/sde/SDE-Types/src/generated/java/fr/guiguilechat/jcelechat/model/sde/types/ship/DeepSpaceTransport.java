@@ -491,7 +491,7 @@ public class DeepSpaceTransport
         implements IMetaGroup<DeepSpaceTransport>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/DeepSpaceTransport.yaml";
-        private Map<String, DeepSpaceTransport> cache = (null);
+        private Map<Integer, DeepSpaceTransport> cache = (null);
 
         @Override
         public IMetaCategory<? super DeepSpaceTransport> category() {
@@ -509,7 +509,7 @@ public class DeepSpaceTransport
         }
 
         @Override
-        public synchronized Map<String, DeepSpaceTransport> load() {
+        public synchronized Map<Integer, DeepSpaceTransport> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeepSpaceTransport.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -523,7 +523,7 @@ public class DeepSpaceTransport
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeepSpaceTransport> types;
+            public LinkedHashMap<Integer, DeepSpaceTransport> types;
         }
     }
 }

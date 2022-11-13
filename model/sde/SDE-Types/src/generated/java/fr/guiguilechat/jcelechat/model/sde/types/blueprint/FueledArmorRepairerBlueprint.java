@@ -83,7 +83,7 @@ public class FueledArmorRepairerBlueprint
         implements IMetaGroup<FueledArmorRepairerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/FueledArmorRepairerBlueprint.yaml";
-        private Map<String, FueledArmorRepairerBlueprint> cache = (null);
+        private Map<Integer, FueledArmorRepairerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super FueledArmorRepairerBlueprint> category() {
@@ -101,7 +101,7 @@ public class FueledArmorRepairerBlueprint
         }
 
         @Override
-        public synchronized Map<String, FueledArmorRepairerBlueprint> load() {
+        public synchronized Map<Integer, FueledArmorRepairerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FueledArmorRepairerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class FueledArmorRepairerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, FueledArmorRepairerBlueprint> types;
+            public LinkedHashMap<Integer, FueledArmorRepairerBlueprint> types;
         }
     }
 }

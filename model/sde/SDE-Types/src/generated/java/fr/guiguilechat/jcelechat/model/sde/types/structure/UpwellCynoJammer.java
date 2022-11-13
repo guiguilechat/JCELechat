@@ -145,7 +145,7 @@ public class UpwellCynoJammer
         implements IMetaGroup<UpwellCynoJammer>
     {
         public static final String RESOURCE_PATH = "SDE/types/structure/UpwellCynoJammer.yaml";
-        private Map<String, UpwellCynoJammer> cache = (null);
+        private Map<Integer, UpwellCynoJammer> cache = (null);
 
         @Override
         public IMetaCategory<? super UpwellCynoJammer> category() {
@@ -163,7 +163,7 @@ public class UpwellCynoJammer
         }
 
         @Override
-        public synchronized Map<String, UpwellCynoJammer> load() {
+        public synchronized Map<Integer, UpwellCynoJammer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(UpwellCynoJammer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class UpwellCynoJammer
         }
 
         private static class Container {
-            public LinkedHashMap<String, UpwellCynoJammer> types;
+            public LinkedHashMap<Integer, UpwellCynoJammer> types;
         }
     }
 }

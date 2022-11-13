@@ -101,7 +101,7 @@ public class Crokite
         implements IMetaGroup<Crokite>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Crokite.yaml";
-        private Map<String, Crokite> cache = (null);
+        private Map<Integer, Crokite> cache = (null);
 
         @Override
         public IMetaCategory<? super Crokite> category() {
@@ -119,7 +119,7 @@ public class Crokite
         }
 
         @Override
-        public synchronized Map<String, Crokite> load() {
+        public synchronized Map<Integer, Crokite> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Crokite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class Crokite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Crokite> types;
+            public LinkedHashMap<Integer, Crokite> types;
         }
     }
 }

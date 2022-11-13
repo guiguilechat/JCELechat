@@ -97,7 +97,7 @@ public class RemoteTrackingComputerBlueprint
         implements IMetaGroup<RemoteTrackingComputerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/RemoteTrackingComputerBlueprint.yaml";
-        private Map<String, RemoteTrackingComputerBlueprint> cache = (null);
+        private Map<Integer, RemoteTrackingComputerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super RemoteTrackingComputerBlueprint> category() {
@@ -115,7 +115,7 @@ public class RemoteTrackingComputerBlueprint
         }
 
         @Override
-        public synchronized Map<String, RemoteTrackingComputerBlueprint> load() {
+        public synchronized Map<Integer, RemoteTrackingComputerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteTrackingComputerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class RemoteTrackingComputerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteTrackingComputerBlueprint> types;
+            public LinkedHashMap<Integer, RemoteTrackingComputerBlueprint> types;
         }
     }
 }

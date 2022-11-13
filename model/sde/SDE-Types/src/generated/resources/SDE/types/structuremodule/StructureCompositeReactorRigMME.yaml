@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Composite Reactor Material Efficiency I:
+  46486:
     canfitshipgroup03: 1406
     disallowinhighsec: 1
     hp: 40.0
@@ -23,7 +23,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Composite Reactor Material Efficiency II:
+  46487:
     canfitshipgroup03: 1406
     disallowinhighsec: 1
     hp: 40.0

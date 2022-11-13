@@ -32,7 +32,7 @@ public class PermanentSKIN
         implements IMetaGroup<PermanentSKIN>
     {
         public static final String RESOURCE_PATH = "SDE/types/skins/PermanentSKIN.yaml";
-        private Map<String, PermanentSKIN> cache = (null);
+        private Map<Integer, PermanentSKIN> cache = (null);
 
         @Override
         public IMetaCategory<? super PermanentSKIN> category() {
@@ -50,7 +50,7 @@ public class PermanentSKIN
         }
 
         @Override
-        public synchronized Map<String, PermanentSKIN> load() {
+        public synchronized Map<Integer, PermanentSKIN> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PermanentSKIN.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PermanentSKIN
         }
 
         private static class Container {
-            public LinkedHashMap<String, PermanentSKIN> types;
+            public LinkedHashMap<Integer, PermanentSKIN> types;
         }
     }
 }

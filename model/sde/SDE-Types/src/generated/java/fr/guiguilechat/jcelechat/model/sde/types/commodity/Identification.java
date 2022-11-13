@@ -32,7 +32,7 @@ public class Identification
         implements IMetaGroup<Identification>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Identification.yaml";
-        private Map<String, Identification> cache = (null);
+        private Map<Integer, Identification> cache = (null);
 
         @Override
         public IMetaCategory<? super Identification> category() {
@@ -50,7 +50,7 @@ public class Identification
         }
 
         @Override
-        public synchronized Map<String, Identification> load() {
+        public synchronized Map<Integer, Identification> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Identification.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Identification
         }
 
         private static class Container {
-            public LinkedHashMap<String, Identification> types;
+            public LinkedHashMap<Integer, Identification> types;
         }
     }
 }

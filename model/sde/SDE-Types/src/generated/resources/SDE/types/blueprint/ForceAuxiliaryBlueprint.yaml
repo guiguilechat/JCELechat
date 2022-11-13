@@ -1,5 +1,5 @@
 types:
-  Apostle Blueprint:
+  41582:
     id: 41582
     industryblueprintrank: 200.0
     marketGroup: 2263
@@ -10,32 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Dagon Blueprint:
-    id: 45043
-    name: Dagon Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Lif Blueprint:
-    id: 41585
-    industryblueprintrank: 200.0
-    marketGroup: 2266
-    name: Lif Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Loggerhead Blueprint:
-    id: 45644
-    name: Loggerhead Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Minokawa Blueprint:
+  41583:
     id: 41583
     industryblueprintrank: 200.0
     marketGroup: 2264
@@ -46,7 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Ninazu Blueprint:
+  41584:
     id: 41584
     industryblueprintrank: 200.0
     marketGroup: 2265
@@ -56,4 +31,29 @@ types:
     price: 1.0E9
     published: true
     radius: 1.0
+    volume: 0.009999999776482582
+  41585:
+    id: 41585
+    industryblueprintrank: 200.0
+    marketGroup: 2266
+    name: Lif Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  45043:
+    id: 45043
+    name: Dagon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  45644:
+    id: 45644
+    name: Loggerhead Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
     volume: 0.009999999776482582

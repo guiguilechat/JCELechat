@@ -1,5 +1,5 @@
 types:
-  Concussion Bomb:
+  27912:
     agility: 0.02753569185733795
     aimedlaunch: 1
     aoecloudsize: 400
@@ -34,42 +34,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 75.0
-  Electron Bomb:
-    agility: 0.02753569185733795
-    aimedlaunch: 1
-    aoecloudsize: 400
-    aoefalloff: 1500
-    armoremdamageresonance: 0.0020000000949949026
-    armorexplosivedamageresonance: 1.0
-    armorhp: 88.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    armoruniformity: 1.0
-    detonationrange: 35
-    disallowinempirespace: 1
-    emdamage: 5800.0
-    empfieldrange: 15000
-    explosiondelay: 12000
-    explosionrange: 15000
-    hp: 20.0
-    id: 27920
-    launchergroup: 862
-    marketGroup: 1015
-    mass: 1000.0
-    maxvelocity: 2500.0
-    name: Electron Bomb
-    packagedVolume: 75.0
-    portionSize: 20
-    price: 129920.0
-    published: true
-    radius: 300.0
-    requiredskill1: 28073
-    requiredskill1level: 1
-    signatureradius: 400.0
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 75.0
-  Scorch Bomb:
+  27916:
     agility: 0.02753569185733795
     aimedlaunch: 1
     aoecloudsize: 400
@@ -104,7 +69,7 @@ types:
     techlevel: 1
     thermaldamage: 5800.0
     volume: 75.0
-  Shrapnel Bomb:
+  27918:
     agility: 0.02753569185733795
     aimedlaunch: 1
     aoecloudsize: 400
@@ -128,6 +93,41 @@ types:
     mass: 1000.0
     maxvelocity: 2500.0
     name: Shrapnel Bomb
+    packagedVolume: 75.0
+    portionSize: 20
+    price: 129920.0
+    published: true
+    radius: 300.0
+    requiredskill1: 28073
+    requiredskill1level: 1
+    signatureradius: 400.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 75.0
+  27920:
+    agility: 0.02753569185733795
+    aimedlaunch: 1
+    aoecloudsize: 400
+    aoefalloff: 1500
+    armoremdamageresonance: 0.0020000000949949026
+    armorexplosivedamageresonance: 1.0
+    armorhp: 88.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    detonationrange: 35
+    disallowinempirespace: 1
+    emdamage: 5800.0
+    empfieldrange: 15000
+    explosiondelay: 12000
+    explosionrange: 15000
+    hp: 20.0
+    id: 27920
+    launchergroup: 862
+    marketGroup: 1015
+    mass: 1000.0
+    maxvelocity: 2500.0
+    name: Electron Bomb
     packagedVolume: 75.0
     portionSize: 20
     price: 129920.0

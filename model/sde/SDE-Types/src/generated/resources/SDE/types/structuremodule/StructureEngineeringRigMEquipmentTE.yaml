@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Equipment Manufacturing Time Efficiency I:
+  37160:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -20
     canfitshipgroup01: 1657
@@ -28,7 +28,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Equipment Manufacturing Time Efficiency II:
+  37161:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657

@@ -253,7 +253,7 @@ public class StructureReactorRigLEfficiency
         implements IMetaGroup<StructureReactorRigLEfficiency>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureReactorRigLEfficiency.yaml";
-        private Map<String, StructureReactorRigLEfficiency> cache = (null);
+        private Map<Integer, StructureReactorRigLEfficiency> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureReactorRigLEfficiency> category() {
@@ -271,7 +271,7 @@ public class StructureReactorRigLEfficiency
         }
 
         @Override
-        public synchronized Map<String, StructureReactorRigLEfficiency> load() {
+        public synchronized Map<Integer, StructureReactorRigLEfficiency> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureReactorRigLEfficiency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class StructureReactorRigLEfficiency
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureReactorRigLEfficiency> types;
+            public LinkedHashMap<Integer, StructureReactorRigLEfficiency> types;
         }
     }
 }

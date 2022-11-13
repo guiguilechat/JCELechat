@@ -1,109 +1,26 @@
 types:
-  Caldari Hacking Accelerant Tower:
+  48969:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
-    disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
-    hp: 50000.0
-    id: 71457
+    id: 48969
     kineticdamageresonance: 1.0
-    mass: 1000.0
-    name: Caldari Hacking Accelerant Tower
-    packagedVolume: 1000.0
+    mass: 2.5E8
+    name: November Hulk
+    packagedVolume: 100000.0
     portionSize: 1
     published: false
-    radius: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     thermaldamageresonance: 1.0
-    volume: 1000.0
-  Caldari Hacking Impediment Mine:
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    capacity: 1000.0
-    disallowassistance: 1
-    emdamageresonance: 1.0
-    explosivedamageresonance: 1.0
-    hp: 50000.0
-    id: 71456
-    kineticdamageresonance: 1.0
-    mass: 1000.0
-    name: Caldari Hacking Impediment Mine
-    packagedVolume: 1000.0
-    portionSize: 1
-    published: false
-    radius: 1000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 1.0
-    signatureradius: 100.0
-    thermaldamageresonance: 1.0
-    volume: 1000.0
-  Capsuleer Day Buff Nexus:
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    capacity: 1000.0
-    disallowassistance: 1
-    emdamageresonance: 1.0
-    explosivedamageresonance: 1.0
-    hp: 50000.0
-    id: 63938
-    kineticdamageresonance: 1.0
-    mass: 1000.0
-    name: Capsuleer Day Buff Nexus
-    packagedVolume: 1000.0
-    portionSize: 1
-    published: false
-    radius: 1000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 1.0
-    signatureradius: 100.0
-    thermaldamageresonance: 1.0
-    volume: 1000.0
-  Capsuleer Day Debuff Nexus:
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    capacity: 1000.0
-    disallowassistance: 1
-    emdamageresonance: 1.0
-    explosivedamageresonance: 1.0
-    hp: 50000.0
-    id: 63939
-    kineticdamageresonance: 1.0
-    mass: 1000.0
-    name: Capsuleer Day Debuff Nexus
-    packagedVolume: 1000.0
-    portionSize: 1
-    published: false
-    radius: 1000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 1.0
-    signatureradius: 100.0
-    thermaldamageresonance: 1.0
-    volume: 1000.0
-  Convergent Accelerant Nexus:
+    volume: 100000.0
+  61841:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -129,7 +46,7 @@ types:
     signatureradius: 100.0
     thermaldamageresonance: 1.0
     volume: 1000.0
-  Convergent Decelerant Nexus:
+  61842:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -155,7 +72,33 @@ types:
     signatureradius: 100.0
     thermaldamageresonance: 1.0
     volume: 1000.0
-  Mystery Nexus:
+  63152:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 1000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 50000.0
+    id: 63152
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    name: Mystery Nexus
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+  63153:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -181,28 +124,85 @@ types:
     signatureradius: 100.0
     thermaldamageresonance: 1.0
     volume: 1000.0
-  November Hulk:
+  63788:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    capacity: 1000.0
+    disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
-    id: 48969
+    hp: 50000.0
+    id: 63788
     kineticdamageresonance: 1.0
-    mass: 2.5E8
-    name: November Hulk
-    packagedVolume: 100000.0
+    mass: 1000.0
+    name: Proving Bonus Nexus
+    packagedVolume: 1000.0
     portionSize: 1
     published: false
+    radius: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     thermaldamageresonance: 1.0
-    volume: 100000.0
-  Proving Bonus Nexus:
+    volume: 1000.0
+  63938:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 1000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 50000.0
+    id: 63938
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    name: Capsuleer Day Buff Nexus
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+  63939:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 1000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 50000.0
+    id: 63939
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    name: Capsuleer Day Debuff Nexus
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+  65079:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -216,6 +216,58 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Proving Bonus Nexus
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+  71456:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 1000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 50000.0
+    id: 71456
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    name: Caldari Hacking Impediment Mine
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+  71457:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 1000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 50000.0
+    id: 71457
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    name: Caldari Hacking Accelerant Tower
     packagedVolume: 1000.0
     portionSize: 1
     published: false

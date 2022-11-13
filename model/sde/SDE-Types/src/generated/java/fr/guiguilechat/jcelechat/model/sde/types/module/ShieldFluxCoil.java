@@ -181,7 +181,7 @@ public class ShieldFluxCoil
         implements IMetaGroup<ShieldFluxCoil>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ShieldFluxCoil.yaml";
-        private Map<String, ShieldFluxCoil> cache = (null);
+        private Map<Integer, ShieldFluxCoil> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldFluxCoil> category() {
@@ -199,7 +199,7 @@ public class ShieldFluxCoil
         }
 
         @Override
-        public synchronized Map<String, ShieldFluxCoil> load() {
+        public synchronized Map<Integer, ShieldFluxCoil> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldFluxCoil.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class ShieldFluxCoil
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldFluxCoil> types;
+            public LinkedHashMap<Integer, ShieldFluxCoil> types;
         }
     }
 }

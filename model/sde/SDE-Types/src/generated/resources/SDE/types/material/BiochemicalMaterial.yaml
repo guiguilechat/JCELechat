@@ -1,93 +1,5 @@
 types:
-  Pure Improved Blue Pill Booster:
-    id: 25241
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Improved Blue Pill Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Improved Crash Booster:
-    id: 25335
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Improved Crash Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Improved Drop Booster:
-    id: 25336
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Improved Drop Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Improved Exile Booster:
-    id: 25337
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Improved Exile Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Improved Frentix Booster:
-    id: 25339
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Improved Frentix Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Improved Mindflood Booster:
-    id: 25338
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Improved Mindflood Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Improved Sooth Sayer Booster:
-    id: 25341
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Improved Sooth Sayer Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Improved X-Instinct Booster:
-    id: 25340
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Improved X-Instinct Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Standard Blue Pill Booster:
+  25237:
     id: 25237
     marketGroup: 1858
     moonminingamount: 1
@@ -98,7 +10,18 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Standard Crash Booster:
+  25241:
+    id: 25241
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Improved Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25242:
     id: 25242
     marketGroup: 1858
     moonminingamount: 1
@@ -109,29 +32,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Standard Drop Booster:
-    id: 25330
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Standard Drop Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Standard Exile Booster:
-    id: 25331
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Standard Exile Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Standard Frentix Booster:
+  25252:
     id: 25252
     marketGroup: 1858
     moonminingamount: 1
@@ -142,40 +43,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Standard Mindflood Booster:
-    id: 25332
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Standard Mindflood Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Standard Sooth Sayer Booster:
-    id: 25334
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Standard Sooth Sayer Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Standard X-Instinct Booster:
-    id: 25333
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Standard X-Instinct Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Strong Blue Pill Booster:
+  25283:
     id: 25283
     marketGroup: 1858
     moonminingamount: 1
@@ -186,7 +54,139 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Strong Crash Booster:
+  25330:
+    id: 25330
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Standard Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25331:
+    id: 25331
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Standard Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25332:
+    id: 25332
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Standard Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25333:
+    id: 25333
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Standard X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25334:
+    id: 25334
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Standard Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25335:
+    id: 25335
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Improved Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25336:
+    id: 25336
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Improved Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25337:
+    id: 25337
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Improved Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25338:
+    id: 25338
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Improved Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25339:
+    id: 25339
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Improved Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25340:
+    id: 25340
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Improved X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25341:
+    id: 25341
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Improved Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  25342:
     id: 25342
     marketGroup: 1858
     moonminingamount: 1
@@ -197,7 +197,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Strong Drop Booster:
+  25343:
     id: 25343
     marketGroup: 1858
     moonminingamount: 1
@@ -208,7 +208,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Strong Exile Booster:
+  25344:
     id: 25344
     marketGroup: 1858
     moonminingamount: 1
@@ -219,18 +219,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Strong Frentix Booster:
-    id: 25346
-    marketGroup: 1858
-    moonminingamount: 1
-    name: Pure Strong Frentix Booster
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 512.0
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Pure Strong Mindflood Booster:
+  25345:
     id: 25345
     marketGroup: 1858
     moonminingamount: 1
@@ -241,18 +230,18 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Strong Sooth Sayer Booster:
-    id: 25348
+  25346:
+    id: 25346
     marketGroup: 1858
     moonminingamount: 1
-    name: Pure Strong Sooth Sayer Booster
+    name: Pure Strong Frentix Booster
     packagedVolume: 1.0
     portionSize: 1
     price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Strong X-Instinct Booster:
+  25347:
     id: 25347
     marketGroup: 1858
     moonminingamount: 1
@@ -263,7 +252,18 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Synth Blue Pill Booster:
+  25348:
+    id: 25348
+    marketGroup: 1858
+    moonminingamount: 1
+    name: Pure Strong Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 512.0
+    published: true
+    radius: 1.0
+    volume: 1.0
+  28686:
     id: 28686
     marketGroup: 1858
     moonminingamount: 1
@@ -274,7 +274,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Synth Crash Booster:
+  28687:
     id: 28687
     marketGroup: 1858
     moonminingamount: 1
@@ -285,7 +285,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Synth Drop Booster:
+  28688:
     id: 28688
     marketGroup: 1858
     moonminingamount: 1
@@ -296,7 +296,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Synth Exile Booster:
+  28689:
     id: 28689
     marketGroup: 1858
     moonminingamount: 1
@@ -307,7 +307,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Synth Frentix Booster:
+  28690:
     id: 28690
     marketGroup: 1858
     moonminingamount: 1
@@ -318,7 +318,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Synth Mindflood Booster:
+  28691:
     id: 28691
     marketGroup: 1858
     moonminingamount: 1
@@ -329,7 +329,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Synth Sooth Sayer Booster:
+  28692:
     id: 28692
     marketGroup: 1858
     moonminingamount: 1
@@ -340,7 +340,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Pure Synth X-Instinct Booster:
+  28693:
     id: 28693
     marketGroup: 1858
     moonminingamount: 1

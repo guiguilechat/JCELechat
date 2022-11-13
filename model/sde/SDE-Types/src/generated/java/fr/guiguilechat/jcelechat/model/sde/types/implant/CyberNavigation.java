@@ -185,7 +185,7 @@ public class CyberNavigation
         implements IMetaGroup<CyberNavigation>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberNavigation.yaml";
-        private Map<String, CyberNavigation> cache = (null);
+        private Map<Integer, CyberNavigation> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberNavigation> category() {
@@ -203,7 +203,7 @@ public class CyberNavigation
         }
 
         @Override
-        public synchronized Map<String, CyberNavigation> load() {
+        public synchronized Map<Integer, CyberNavigation> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberNavigation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -217,7 +217,7 @@ public class CyberNavigation
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberNavigation> types;
+            public LinkedHashMap<Integer, CyberNavigation> types;
         }
     }
 }

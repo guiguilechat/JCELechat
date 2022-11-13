@@ -1,5 +1,5 @@
 types:
-  Trading:
+  52:
     id: 52
     name: Trading
     portionSize: 1

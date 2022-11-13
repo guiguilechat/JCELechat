@@ -149,7 +149,7 @@ public class MissileGuidanceEnhancer
         implements IMetaGroup<MissileGuidanceEnhancer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MissileGuidanceEnhancer.yaml";
-        private Map<String, MissileGuidanceEnhancer> cache = (null);
+        private Map<Integer, MissileGuidanceEnhancer> cache = (null);
 
         @Override
         public IMetaCategory<? super MissileGuidanceEnhancer> category() {
@@ -167,7 +167,7 @@ public class MissileGuidanceEnhancer
         }
 
         @Override
-        public synchronized Map<String, MissileGuidanceEnhancer> load() {
+        public synchronized Map<Integer, MissileGuidanceEnhancer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissileGuidanceEnhancer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -181,7 +181,7 @@ public class MissileGuidanceEnhancer
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileGuidanceEnhancer> types;
+            public LinkedHashMap<Integer, MissileGuidanceEnhancer> types;
         }
     }
 }

@@ -337,7 +337,7 @@ public class WeaponDisruptor
         implements IMetaGroup<WeaponDisruptor>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/WeaponDisruptor.yaml";
-        private Map<String, WeaponDisruptor> cache = (null);
+        private Map<Integer, WeaponDisruptor> cache = (null);
 
         @Override
         public IMetaCategory<? super WeaponDisruptor> category() {
@@ -355,7 +355,7 @@ public class WeaponDisruptor
         }
 
         @Override
-        public synchronized Map<String, WeaponDisruptor> load() {
+        public synchronized Map<Integer, WeaponDisruptor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WeaponDisruptor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -369,7 +369,7 @@ public class WeaponDisruptor
         }
 
         private static class Container {
-            public LinkedHashMap<String, WeaponDisruptor> types;
+            public LinkedHashMap<Integer, WeaponDisruptor> types;
         }
     }
 }

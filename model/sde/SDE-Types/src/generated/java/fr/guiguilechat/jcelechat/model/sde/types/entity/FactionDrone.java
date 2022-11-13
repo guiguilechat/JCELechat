@@ -1481,7 +1481,7 @@ public class FactionDrone
         implements IMetaGroup<FactionDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/FactionDrone.yaml";
-        private Map<String, FactionDrone> cache = (null);
+        private Map<Integer, FactionDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super FactionDrone> category() {
@@ -1499,7 +1499,7 @@ public class FactionDrone
         }
 
         @Override
-        public synchronized Map<String, FactionDrone> load() {
+        public synchronized Map<Integer, FactionDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FactionDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1513,7 +1513,7 @@ public class FactionDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, FactionDrone> types;
+            public LinkedHashMap<Integer, FactionDrone> types;
         }
     }
 }

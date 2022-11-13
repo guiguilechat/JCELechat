@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency I:
+  43858:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: 1
@@ -27,7 +27,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency II:
+  43859:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: 1

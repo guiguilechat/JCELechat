@@ -289,7 +289,7 @@ public class MissileLauncherRapidHeavy
         implements IMetaGroup<MissileLauncherRapidHeavy>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MissileLauncherRapidHeavy.yaml";
-        private Map<String, MissileLauncherRapidHeavy> cache = (null);
+        private Map<Integer, MissileLauncherRapidHeavy> cache = (null);
 
         @Override
         public IMetaCategory<? super MissileLauncherRapidHeavy> category() {
@@ -307,7 +307,7 @@ public class MissileLauncherRapidHeavy
         }
 
         @Override
-        public synchronized Map<String, MissileLauncherRapidHeavy> load() {
+        public synchronized Map<Integer, MissileLauncherRapidHeavy> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissileLauncherRapidHeavy.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class MissileLauncherRapidHeavy
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileLauncherRapidHeavy> types;
+            public LinkedHashMap<Integer, MissileLauncherRapidHeavy> types;
         }
     }
 }

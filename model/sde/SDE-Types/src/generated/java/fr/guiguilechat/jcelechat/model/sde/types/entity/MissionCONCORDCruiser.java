@@ -1085,7 +1085,7 @@ public class MissionCONCORDCruiser
         implements IMetaGroup<MissionCONCORDCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionCONCORDCruiser.yaml";
-        private Map<String, MissionCONCORDCruiser> cache = (null);
+        private Map<Integer, MissionCONCORDCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionCONCORDCruiser> category() {
@@ -1103,7 +1103,7 @@ public class MissionCONCORDCruiser
         }
 
         @Override
-        public synchronized Map<String, MissionCONCORDCruiser> load() {
+        public synchronized Map<Integer, MissionCONCORDCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionCONCORDCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1117,7 +1117,7 @@ public class MissionCONCORDCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionCONCORDCruiser> types;
+            public LinkedHashMap<Integer, MissionCONCORDCruiser> types;
         }
     }
 }

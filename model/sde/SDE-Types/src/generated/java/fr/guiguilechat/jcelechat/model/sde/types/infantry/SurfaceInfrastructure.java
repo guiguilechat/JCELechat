@@ -32,7 +32,7 @@ public class SurfaceInfrastructure
         implements IMetaGroup<SurfaceInfrastructure>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/SurfaceInfrastructure.yaml";
-        private Map<String, SurfaceInfrastructure> cache = (null);
+        private Map<Integer, SurfaceInfrastructure> cache = (null);
 
         @Override
         public IMetaCategory<? super SurfaceInfrastructure> category() {
@@ -50,7 +50,7 @@ public class SurfaceInfrastructure
         }
 
         @Override
-        public synchronized Map<String, SurfaceInfrastructure> load() {
+        public synchronized Map<Integer, SurfaceInfrastructure> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SurfaceInfrastructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class SurfaceInfrastructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurfaceInfrastructure> types;
+            public LinkedHashMap<Integer, SurfaceInfrastructure> types;
         }
     }
 }

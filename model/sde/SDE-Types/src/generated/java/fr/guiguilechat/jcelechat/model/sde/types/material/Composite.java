@@ -84,7 +84,7 @@ public class Composite
         implements IMetaGroup<Composite>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/Composite.yaml";
-        private Map<String, Composite> cache = (null);
+        private Map<Integer, Composite> cache = (null);
 
         @Override
         public IMetaCategory<? super Composite> category() {
@@ -102,7 +102,7 @@ public class Composite
         }
 
         @Override
-        public synchronized Map<String, Composite> load() {
+        public synchronized Map<Integer, Composite> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Composite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -116,7 +116,7 @@ public class Composite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Composite> types;
+            public LinkedHashMap<Integer, Composite> types;
         }
     }
 }

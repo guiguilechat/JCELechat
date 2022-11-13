@@ -1,5 +1,455 @@
 types:
-  Inquest 'Eros' Stasis Webifier MR-803:
+  3271:
+    capneedbonus: -2
+    id: 3271
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Electronic Warfare EW-902
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3272:
+    capneedbonus: -4
+    id: 3272
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Electronic Warfare EW-904
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3273:
+    capneedbonus: -6
+    id: 3273
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Electronic Warfare EW-906
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3277:
+    capneedbonus: -2
+    id: 3277
+    implantness: 8
+    marketGroup: 1512
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-802
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3278:
+    capneedbonus: -4
+    id: 3278
+    implantness: 8
+    marketGroup: 1512
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-804
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3279:
+    capneedbonus: -6
+    id: 3279
+    implantness: 8
+    marketGroup: 1512
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-806
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3280:
+    capneedbonus: -2
+    id: 3280
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Sensor Linking SL-902
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3281:
+    capneedbonus: -4
+    id: 3281
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Sensor Linking SL-904
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3282:
+    capneedbonus: -6
+    id: 3282
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Sensor Linking SL-906
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3283:
+    capneedbonus: -2
+    id: 3283
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Weapon Disruption WD-902
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3284:
+    capneedbonus: -4
+    id: 3284
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Weapon Disruption WD-904
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3287:
+    capneedbonus: -6
+    id: 3287
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Weapon Disruption WD-906
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  3288:
+    capneedbonus: -2
+    id: 3288
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Target Painting TG-902
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  3289:
+    capneedbonus: -4
+    id: 3289
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Target Painting TG-904
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0
+  3290:
+    capneedbonus: -6
+    id: 3290
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Target Painting TG-906
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 1.0
+  13232:
+    capneedbonus: -3
+    id: 13232
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Electronic Warfare EW-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13234:
+    capneedbonus: -3
+    id: 13234
+    implantness: 8
+    marketGroup: 1512
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-803
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13235:
+    capneedbonus: -3
+    id: 13235
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Sensor Linking SL-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  13236:
+    capneedbonus: -3
+    id: 13236
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Weapon Disruption WD-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  27224:
+    capneedbonus: -3
+    id: 27224
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Target Painting TG-903
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 1.0
+  27225:
+    capneedbonus: -5
+    id: 27225
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Electronic Warfare EW-905
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  27226:
+    capneedbonus: -1
+    id: 27226
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Electronic Warfare EW-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27230:
+    capneedbonus: -5
+    id: 27230
+    implantness: 8
+    marketGroup: 1512
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-805
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  27231:
+    capneedbonus: -1
+    id: 27231
+    implantness: 8
+    marketGroup: 1512
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-801
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27232:
+    capneedbonus: -5
+    id: 27232
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Sensor Linking SL-905
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  27233:
+    capneedbonus: -1
+    id: 27233
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Sensor Linking SL-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27234:
+    capneedbonus: -5
+    id: 27234
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Weapon Disruption WD-905
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  27235:
+    capneedbonus: -1
+    id: 27235
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Weapon Disruption WD-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  27236:
+    capneedbonus: -5
+    id: 27236
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Target Painting TG-905
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 1.0
+  27237:
+    capneedbonus: -1
+    id: 27237
+    implantness: 9
+    marketGroup: 1513
+    name: Zainou 'Gypsy' Target Painting TG-901
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 200000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 1.0
+  47261:
     id: 47261
     implantness: 8
     marketGroup: 1512
@@ -14,7 +464,7 @@ types:
     stasiswebrangebonus: 3
     techlevel: 1
     volume: 1.0
-  Inquest 'Eros' Stasis Webifier MR-805:
+  47262:
     id: 47262
     implantness: 8
     marketGroup: 1512
@@ -29,7 +479,7 @@ types:
     stasiswebrangebonus: 5
     techlevel: 1
     volume: 1.0
-  Inquest 'Eros' Stasis Webifier MR-807:
+  47263:
     id: 47263
     implantness: 8
     marketGroup: 1512
@@ -44,7 +494,7 @@ types:
     stasiswebrangebonus: 7
     techlevel: 1
     volume: 1.0
-  Inquest 'Hedone' Entanglement Optimizer WS-802:
+  50053:
     id: 50053
     implantness: 8
     marketGroup: 1512
@@ -60,7 +510,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpscramblerangebonus: 2
-  Inquest 'Hedone' Entanglement Optimizer WS-803:
+  50066:
     id: 50066
     implantness: 8
     marketGroup: 1512
@@ -76,7 +526,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpscramblerangebonus: 3
-  Inquest 'Hedone' Entanglement Optimizer WS-804:
+  50067:
     id: 50067
     implantness: 8
     marketGroup: 1512
@@ -92,453 +542,3 @@ types:
     techlevel: 1
     volume: 1.0
     warpscramblerangebonus: 4
-  Zainou 'Gypsy' Electronic Warfare EW-901:
-    capneedbonus: -1
-    id: 27226
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Electronic Warfare EW-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-902:
-    capneedbonus: -2
-    id: 3271
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Electronic Warfare EW-902
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-903:
-    capneedbonus: -3
-    id: 13232
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Electronic Warfare EW-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-904:
-    capneedbonus: -4
-    id: 3272
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Electronic Warfare EW-904
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-905:
-    capneedbonus: -5
-    id: 27225
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Electronic Warfare EW-905
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-906:
-    capneedbonus: -6
-    id: 3273
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Electronic Warfare EW-906
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-801:
-    capneedbonus: -1
-    id: 27231
-    implantness: 8
-    marketGroup: 1512
-    name: Zainou 'Gypsy' Propulsion Jamming PJ-801
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-802:
-    capneedbonus: -2
-    id: 3277
-    implantness: 8
-    marketGroup: 1512
-    name: Zainou 'Gypsy' Propulsion Jamming PJ-802
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-803:
-    capneedbonus: -3
-    id: 13234
-    implantness: 8
-    marketGroup: 1512
-    name: Zainou 'Gypsy' Propulsion Jamming PJ-803
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-804:
-    capneedbonus: -4
-    id: 3278
-    implantness: 8
-    marketGroup: 1512
-    name: Zainou 'Gypsy' Propulsion Jamming PJ-804
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-805:
-    capneedbonus: -5
-    id: 27230
-    implantness: 8
-    marketGroup: 1512
-    name: Zainou 'Gypsy' Propulsion Jamming PJ-805
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-806:
-    capneedbonus: -6
-    id: 3279
-    implantness: 8
-    marketGroup: 1512
-    name: Zainou 'Gypsy' Propulsion Jamming PJ-806
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Sensor Linking SL-901:
-    capneedbonus: -1
-    id: 27233
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Sensor Linking SL-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Sensor Linking SL-902:
-    capneedbonus: -2
-    id: 3280
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Sensor Linking SL-902
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Sensor Linking SL-903:
-    capneedbonus: -3
-    id: 13235
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Sensor Linking SL-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Sensor Linking SL-904:
-    capneedbonus: -4
-    id: 3281
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Sensor Linking SL-904
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Sensor Linking SL-905:
-    capneedbonus: -5
-    id: 27232
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Sensor Linking SL-905
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Sensor Linking SL-906:
-    capneedbonus: -6
-    id: 3282
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Sensor Linking SL-906
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Target Painting TG-901:
-    capneedbonus: -1
-    id: 27237
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Target Painting TG-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Target Painting TG-902:
-    capneedbonus: -2
-    id: 3288
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Target Painting TG-902
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Target Painting TG-903:
-    capneedbonus: -3
-    id: 27224
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Target Painting TG-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Target Painting TG-904:
-    capneedbonus: -4
-    id: 3289
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Target Painting TG-904
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Target Painting TG-905:
-    capneedbonus: -5
-    id: 27236
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Target Painting TG-905
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Target Painting TG-906:
-    capneedbonus: -6
-    id: 3290
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Target Painting TG-906
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Weapon Disruption WD-901:
-    capneedbonus: -1
-    id: 27235
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Weapon Disruption WD-901
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Weapon Disruption WD-902:
-    capneedbonus: -2
-    id: 3283
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Weapon Disruption WD-902
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 1
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Weapon Disruption WD-903:
-    capneedbonus: -3
-    id: 13236
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Weapon Disruption WD-903
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Weapon Disruption WD-904:
-    capneedbonus: -4
-    id: 3284
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Weapon Disruption WD-904
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Weapon Disruption WD-905:
-    capneedbonus: -5
-    id: 27234
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Weapon Disruption WD-905
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 4
-    techlevel: 1
-    volume: 1.0
-  Zainou 'Gypsy' Weapon Disruption WD-906:
-    capneedbonus: -6
-    id: 3287
-    implantness: 9
-    marketGroup: 1513
-    name: Zainou 'Gypsy' Weapon Disruption WD-906
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 200000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3411
-    requiredskill1level: 5
-    techlevel: 1
-    volume: 1.0

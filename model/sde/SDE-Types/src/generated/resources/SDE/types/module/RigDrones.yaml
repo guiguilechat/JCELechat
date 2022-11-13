@@ -1,271 +1,5 @@
 types:
-  Capital Drone Control Range Augmentor I:
-    drawback: -10
-    dronerangebonus: 15000
-    hp: 40.0
-    id: 33277
-    marketGroup: 1739
-    mass: 200.0
-    name: Capital Drone Control Range Augmentor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Drone Control Range Augmentor II:
-    drawback: -10
-    dronerangebonus: 20000
-    hp: 40.0
-    id: 33279
-    marketGroup: 1739
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Drone Control Range Augmentor II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Drone Durability Enhancer I:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 20.0
-    id: 33281
-    marketGroup: 1739
-    mass: 200.0
-    name: Capital Drone Durability Enhancer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Drone Durability Enhancer II:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 25.0
-    id: 33283
-    marketGroup: 1739
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Drone Durability Enhancer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Drone Mining Augmentor I:
-    drawback: -10
-    hp: 40.0
-    id: 33285
-    marketGroup: 1739
-    mass: 200.0
-    miningamountbonus: 10
-    name: Capital Drone Mining Augmentor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    rofbonus: -10
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Drone Mining Augmentor II:
-    drawback: -10
-    hp: 40.0
-    id: 33287
-    marketGroup: 1739
-    mass: 200.0
-    metalevelold: 5
-    miningamountbonus: 15
-    name: Capital Drone Mining Augmentor II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    rofbonus: -15
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Drone Repair Augmentor I:
-    damagehp: 10
-    drawback: -10
-    hp: 40.0
-    id: 33289
-    marketGroup: 1739
-    mass: 200.0
-    name: Capital Drone Repair Augmentor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Drone Repair Augmentor II:
-    damagehp: 15
-    drawback: -10
-    hp: 40.0
-    id: 33291
-    marketGroup: 1739
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Drone Repair Augmentor II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Drone Scope Chip I:
-    drawback: -10
-    hp: 40.0
-    id: 33293
-    marketGroup: 1739
-    mass: 200.0
-    name: Capital Drone Scope Chip I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rangeskillbonus: 15
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Drone Scope Chip II:
-    drawback: -10
-    hp: 40.0
-    id: 33295
-    marketGroup: 1739
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Drone Scope Chip II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rangeskillbonus: 20
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Drone Speed Augmentor I:
-    drawback: -10
-    dronemaxvelocitybonus: 10
-    hp: 40.0
-    id: 33297
-    marketGroup: 1739
-    mass: 200.0
-    name: Capital Drone Speed Augmentor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Drone Speed Augmentor II:
-    drawback: -10
-    dronemaxvelocitybonus: 15
-    hp: 40.0
-    id: 33298
-    marketGroup: 1739
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Drone Speed Augmentor II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Sentry Damage Augmentor I:
-    damagemultiplierbonus: 10
-    drawback: -10
-    hp: 40.0
-    id: 33307
-    marketGroup: 1739
-    mass: 200.0
-    name: Capital Sentry Damage Augmentor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 200
-    volume: 40.0
-  Capital Sentry Damage Augmentor II:
-    damagemultiplierbonus: 15
-    drawback: -10
-    hp: 40.0
-    id: 33309
-    marketGroup: 1739
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Sentry Damage Augmentor II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 300
-    volume: 40.0
-  Capital Stasis Drone Augmentor I:
-    drawback: -10
-    hp: 40.0
-    id: 33311
-    marketGroup: 1739
-    mass: 200.0
-    name: Capital Stasis Drone Augmentor I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-    webspeedfactorbonus: 15
-  Capital Stasis Drone Augmentor II:
-    drawback: -10
-    hp: 40.0
-    id: 33313
-    marketGroup: 1739
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Stasis Drone Augmentor II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-    webspeedfactorbonus: 20
-  Large Drone Control Range Augmentor I:
+  25908:
     drawback: -10
     dronerangebonus: 15000
     hp: 40.0
@@ -281,24 +15,55 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Large Drone Control Range Augmentor II:
+  25910:
+    damagehp: 10
     drawback: -10
-    dronerangebonus: 20000
     hp: 40.0
-    id: 26324
+    id: 25910
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
-    name: Large Drone Control Range Augmentor II
+    name: Large Drone Repair Augmentor I
     packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    techlevel: 2
-    upgradecost: 150
+    techlevel: 1
+    upgradecost: 50
     volume: 20.0
-  Large Drone Durability Enhancer I:
+  25912:
+    drawback: -10
+    hp: 40.0
+    id: 25912
+    marketGroup: 1215
+    mass: 200.0
+    name: Large Drone Scope Chip I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rangeskillbonus: 15
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  25914:
+    drawback: -10
+    dronemaxvelocitybonus: 10
+    hp: 40.0
+    id: 25914
+    marketGroup: 1215
+    mass: 200.0
+    name: Large Drone Speed Augmentor I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  25916:
     drawback: -10
     hp: 40.0
     hullhpbonus: 20.0
@@ -314,24 +79,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Large Drone Durability Enhancer II:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 25.0
-    id: 26326
-    marketGroup: 1215
-    mass: 200.0
-    metalevelold: 5
-    name: Large Drone Durability Enhancer II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Large Drone Mining Augmentor I:
+  25918:
     drawback: -10
     hp: 40.0
     id: 25918
@@ -348,7 +96,73 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Large Drone Mining Augmentor II:
+  25920:
+    damagemultiplierbonus: 10
+    drawback: -10
+    hp: 40.0
+    id: 25920
+    marketGroup: 1215
+    mass: 200.0
+    name: Large Sentry Damage Augmentor I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 200
+    volume: 20.0
+  25924:
+    drawback: -10
+    hp: 40.0
+    id: 25924
+    marketGroup: 1215
+    mass: 200.0
+    name: Large Stasis Drone Augmentor I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+    webspeedfactorbonus: 15
+  26324:
+    drawback: -10
+    dronerangebonus: 20000
+    hp: 40.0
+    id: 26324
+    marketGroup: 1215
+    mass: 200.0
+    metalevelold: 5
+    name: Large Drone Control Range Augmentor II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0
+  26326:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 25.0
+    id: 26326
+    marketGroup: 1215
+    mass: 200.0
+    metalevelold: 5
+    name: Large Drone Durability Enhancer II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0
+  26328:
     drawback: -10
     hp: 40.0
     id: 26328
@@ -366,23 +180,7 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 20.0
-  Large Drone Repair Augmentor I:
-    damagehp: 10
-    drawback: -10
-    hp: 40.0
-    id: 25910
-    marketGroup: 1215
-    mass: 200.0
-    name: Large Drone Repair Augmentor I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Drone Repair Augmentor II:
+  26330:
     damagehp: 15
     drawback: -10
     hp: 40.0
@@ -399,23 +197,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Large Drone Scope Chip I:
-    drawback: -10
-    hp: 40.0
-    id: 25912
-    marketGroup: 1215
-    mass: 200.0
-    name: Large Drone Scope Chip I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rangeskillbonus: 15
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Drone Scope Chip II:
+  26332:
     drawback: -10
     hp: 40.0
     id: 26332
@@ -432,23 +214,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Large Drone Speed Augmentor I:
-    drawback: -10
-    dronemaxvelocitybonus: 10
-    hp: 40.0
-    id: 25914
-    marketGroup: 1215
-    mass: 200.0
-    name: Large Drone Speed Augmentor I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Drone Speed Augmentor II:
+  26334:
     drawback: -10
     dronemaxvelocitybonus: 15
     hp: 40.0
@@ -466,23 +232,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Large Sentry Damage Augmentor I:
-    damagemultiplierbonus: 10
-    drawback: -10
-    hp: 40.0
-    id: 25920
-    marketGroup: 1215
-    mass: 200.0
-    name: Large Sentry Damage Augmentor I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 200
-    volume: 20.0
-  Large Sentry Damage Augmentor II:
+  26338:
     damagemultiplierbonus: 15
     drawback: -10
     hp: 40.0
@@ -499,23 +249,7 @@ types:
     techlevel: 2
     upgradecost: 300
     volume: 20.0
-  Large Stasis Drone Augmentor I:
-    drawback: -10
-    hp: 40.0
-    id: 25924
-    marketGroup: 1215
-    mass: 200.0
-    name: Large Stasis Drone Augmentor I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-    webspeedfactorbonus: 15
-  Large Stasis Drone Augmentor II:
+  26340:
     drawback: -10
     hp: 40.0
     id: 26340
@@ -532,274 +266,7 @@ types:
     upgradecost: 75
     volume: 20.0
     webspeedfactorbonus: 20
-  Medium Drone Control Range Augmentor I:
-    drawback: -10
-    dronerangebonus: 15000
-    hp: 40.0
-    id: 32027
-    marketGroup: 1214
-    mass: 200.0
-    name: Medium Drone Control Range Augmentor I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Drone Control Range Augmentor II:
-    drawback: -10
-    dronerangebonus: 20000
-    hp: 40.0
-    id: 32031
-    marketGroup: 1214
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Drone Control Range Augmentor II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Drone Durability Enhancer I:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 20.0
-    id: 32035
-    marketGroup: 1214
-    mass: 200.0
-    name: Medium Drone Durability Enhancer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Drone Durability Enhancer II:
-    drawback: -10
-    hp: 40.0
-    hullhpbonus: 25.0
-    id: 32039
-    marketGroup: 1214
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Drone Durability Enhancer II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Drone Mining Augmentor I:
-    drawback: -10
-    hp: 40.0
-    id: 32043
-    marketGroup: 1214
-    mass: 200.0
-    miningamountbonus: 10
-    name: Medium Drone Mining Augmentor I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    rofbonus: -10
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Drone Mining Augmentor II:
-    drawback: -10
-    hp: 40.0
-    id: 32047
-    marketGroup: 1214
-    mass: 200.0
-    metalevelold: 5
-    miningamountbonus: 15
-    name: Medium Drone Mining Augmentor II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    rofbonus: -15
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Drone Repair Augmentor I:
-    damagehp: 10
-    drawback: -10
-    hp: 40.0
-    id: 32051
-    marketGroup: 1214
-    mass: 200.0
-    name: Medium Drone Repair Augmentor I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Drone Repair Augmentor II:
-    damagehp: 15
-    drawback: -10
-    hp: 40.0
-    id: 32055
-    marketGroup: 1214
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Drone Repair Augmentor II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Drone Scope Chip I:
-    drawback: -10
-    hp: 40.0
-    id: 32071
-    marketGroup: 1214
-    mass: 200.0
-    name: Medium Drone Scope Chip I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rangeskillbonus: 15
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Drone Scope Chip II:
-    drawback: -10
-    hp: 40.0
-    id: 32075
-    marketGroup: 1214
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Drone Scope Chip II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rangeskillbonus: 20
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Drone Speed Augmentor I:
-    drawback: -10
-    dronemaxvelocitybonus: 10
-    hp: 40.0
-    id: 32059
-    marketGroup: 1214
-    mass: 200.0
-    name: Medium Drone Speed Augmentor I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Drone Speed Augmentor II:
-    drawback: -10
-    dronemaxvelocitybonus: 15
-    hp: 40.0
-    id: 32063
-    marketGroup: 1214
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Drone Speed Augmentor II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedfactorbonus: 20
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Sentry Damage Augmentor I:
-    damagemultiplierbonus: 10
-    drawback: -10
-    hp: 40.0
-    id: 32083
-    marketGroup: 1214
-    mass: 200.0
-    name: Medium Sentry Damage Augmentor I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 200
-    volume: 10.0
-  Medium Sentry Damage Augmentor II:
-    damagemultiplierbonus: 15
-    drawback: -10
-    hp: 40.0
-    id: 32087
-    marketGroup: 1214
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Sentry Damage Augmentor II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 300
-    volume: 10.0
-  Medium Stasis Drone Augmentor I:
-    drawback: -10
-    hp: 40.0
-    id: 32091
-    marketGroup: 1214
-    mass: 200.0
-    name: Medium Stasis Drone Augmentor I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-    webspeedfactorbonus: 15
-  Medium Stasis Drone Augmentor II:
-    drawback: -10
-    hp: 40.0
-    id: 32095
-    marketGroup: 1214
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Stasis Drone Augmentor II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-    webspeedfactorbonus: 20
-  Small Drone Control Range Augmentor I:
+  32025:
     drawback: -10
     dronerangebonus: 15000
     hp: 40.0
@@ -815,7 +282,23 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 5.0
-  Small Drone Control Range Augmentor II:
+  32027:
+    drawback: -10
+    dronerangebonus: 15000
+    hp: 40.0
+    id: 32027
+    marketGroup: 1214
+    mass: 200.0
+    name: Medium Drone Control Range Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  32029:
     drawback: -10
     dronerangebonus: 20000
     hp: 40.0
@@ -832,7 +315,24 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 5.0
-  Small Drone Durability Enhancer I:
+  32031:
+    drawback: -10
+    dronerangebonus: 20000
+    hp: 40.0
+    id: 32031
+    marketGroup: 1214
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Drone Control Range Augmentor II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  32033:
     drawback: -10
     hp: 40.0
     hullhpbonus: 20.0
@@ -848,7 +348,23 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 5.0
-  Small Drone Durability Enhancer II:
+  32035:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 20.0
+    id: 32035
+    marketGroup: 1214
+    mass: 200.0
+    name: Medium Drone Durability Enhancer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  32037:
     drawback: -10
     hp: 40.0
     hullhpbonus: 25.0
@@ -865,7 +381,24 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 5.0
-  Small Drone Mining Augmentor I:
+  32039:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 25.0
+    id: 32039
+    marketGroup: 1214
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Drone Durability Enhancer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  32041:
     drawback: -10
     hp: 40.0
     id: 32041
@@ -882,7 +415,24 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 5.0
-  Small Drone Mining Augmentor II:
+  32043:
+    drawback: -10
+    hp: 40.0
+    id: 32043
+    marketGroup: 1214
+    mass: 200.0
+    miningamountbonus: 10
+    name: Medium Drone Mining Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    rofbonus: -10
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  32045:
     drawback: -10
     hp: 40.0
     id: 32045
@@ -900,7 +450,25 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 5.0
-  Small Drone Repair Augmentor I:
+  32047:
+    drawback: -10
+    hp: 40.0
+    id: 32047
+    marketGroup: 1214
+    mass: 200.0
+    metalevelold: 5
+    miningamountbonus: 15
+    name: Medium Drone Mining Augmentor II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    rofbonus: -15
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  32049:
     damagehp: 10
     drawback: -10
     hp: 40.0
@@ -916,7 +484,23 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Drone Repair Augmentor II:
+  32051:
+    damagehp: 10
+    drawback: -10
+    hp: 40.0
+    id: 32051
+    marketGroup: 1214
+    mass: 200.0
+    name: Medium Drone Repair Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  32053:
     damagehp: 15
     drawback: -10
     hp: 40.0
@@ -933,40 +517,24 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Drone Scope Chip I:
+  32055:
+    damagehp: 15
     drawback: -10
     hp: 40.0
-    id: 32069
-    marketGroup: 1213
-    mass: 200.0
-    name: Small Drone Scope Chip I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rangeskillbonus: 15
-    rigsize: 1
-    techlevel: 1
-    upgradecost: 50
-    volume: 5.0
-  Small Drone Scope Chip II:
-    drawback: -10
-    hp: 40.0
-    id: 32073
-    marketGroup: 1213
+    id: 32055
+    marketGroup: 1214
     mass: 200.0
     metalevelold: 5
-    name: Small Drone Scope Chip II
-    packagedVolume: 5.0
+    name: Medium Drone Repair Augmentor II
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rangeskillbonus: 20
-    rigsize: 1
+    rigsize: 2
     techlevel: 2
     upgradecost: 75
-    volume: 5.0
-  Small Drone Speed Augmentor I:
+    volume: 10.0
+  32057:
     drawback: -10
     dronemaxvelocitybonus: 10
     hp: 40.0
@@ -982,7 +550,23 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Drone Speed Augmentor II:
+  32059:
+    drawback: -10
+    dronemaxvelocitybonus: 10
+    hp: 40.0
+    id: 32059
+    marketGroup: 1214
+    mass: 200.0
+    name: Medium Drone Speed Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  32061:
     drawback: -10
     dronemaxvelocitybonus: 15
     hp: 40.0
@@ -1000,7 +584,91 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Sentry Damage Augmentor I:
+  32063:
+    drawback: -10
+    dronemaxvelocitybonus: 15
+    hp: 40.0
+    id: 32063
+    marketGroup: 1214
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Drone Speed Augmentor II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedfactorbonus: 20
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  32069:
+    drawback: -10
+    hp: 40.0
+    id: 32069
+    marketGroup: 1213
+    mass: 200.0
+    name: Small Drone Scope Chip I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rangeskillbonus: 15
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  32071:
+    drawback: -10
+    hp: 40.0
+    id: 32071
+    marketGroup: 1214
+    mass: 200.0
+    name: Medium Drone Scope Chip I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rangeskillbonus: 15
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  32073:
+    drawback: -10
+    hp: 40.0
+    id: 32073
+    marketGroup: 1213
+    mass: 200.0
+    metalevelold: 5
+    name: Small Drone Scope Chip II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rangeskillbonus: 20
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  32075:
+    drawback: -10
+    hp: 40.0
+    id: 32075
+    marketGroup: 1214
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Drone Scope Chip II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rangeskillbonus: 20
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  32081:
     damagemultiplierbonus: 10
     drawback: -10
     hp: 40.0
@@ -1016,7 +684,23 @@ types:
     techlevel: 1
     upgradecost: 200
     volume: 5.0
-  Small Sentry Damage Augmentor II:
+  32083:
+    damagemultiplierbonus: 10
+    drawback: -10
+    hp: 40.0
+    id: 32083
+    marketGroup: 1214
+    mass: 200.0
+    name: Medium Sentry Damage Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 200
+    volume: 10.0
+  32085:
     damagemultiplierbonus: 15
     drawback: -10
     hp: 40.0
@@ -1033,7 +717,24 @@ types:
     techlevel: 2
     upgradecost: 300
     volume: 5.0
-  Small Stasis Drone Augmentor I:
+  32087:
+    damagemultiplierbonus: 15
+    drawback: -10
+    hp: 40.0
+    id: 32087
+    marketGroup: 1214
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Sentry Damage Augmentor II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 300
+    volume: 10.0
+  32089:
     drawback: -10
     hp: 40.0
     id: 32089
@@ -1049,7 +750,23 @@ types:
     upgradecost: 50
     volume: 5.0
     webspeedfactorbonus: 15
-  Small Stasis Drone Augmentor II:
+  32091:
+    drawback: -10
+    hp: 40.0
+    id: 32091
+    marketGroup: 1214
+    mass: 200.0
+    name: Medium Stasis Drone Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+    webspeedfactorbonus: 15
+  32093:
     drawback: -10
     hp: 40.0
     id: 32093
@@ -1065,4 +782,287 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
+    webspeedfactorbonus: 20
+  32095:
+    drawback: -10
+    hp: 40.0
+    id: 32095
+    marketGroup: 1214
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Stasis Drone Augmentor II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+    webspeedfactorbonus: 20
+  33277:
+    drawback: -10
+    dronerangebonus: 15000
+    hp: 40.0
+    id: 33277
+    marketGroup: 1739
+    mass: 200.0
+    name: Capital Drone Control Range Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  33279:
+    drawback: -10
+    dronerangebonus: 20000
+    hp: 40.0
+    id: 33279
+    marketGroup: 1739
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Drone Control Range Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  33281:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 20.0
+    id: 33281
+    marketGroup: 1739
+    mass: 200.0
+    name: Capital Drone Durability Enhancer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  33283:
+    drawback: -10
+    hp: 40.0
+    hullhpbonus: 25.0
+    id: 33283
+    marketGroup: 1739
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Drone Durability Enhancer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  33285:
+    drawback: -10
+    hp: 40.0
+    id: 33285
+    marketGroup: 1739
+    mass: 200.0
+    miningamountbonus: 10
+    name: Capital Drone Mining Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    rofbonus: -10
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  33287:
+    drawback: -10
+    hp: 40.0
+    id: 33287
+    marketGroup: 1739
+    mass: 200.0
+    metalevelold: 5
+    miningamountbonus: 15
+    name: Capital Drone Mining Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    rofbonus: -15
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  33289:
+    damagehp: 10
+    drawback: -10
+    hp: 40.0
+    id: 33289
+    marketGroup: 1739
+    mass: 200.0
+    name: Capital Drone Repair Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  33291:
+    damagehp: 15
+    drawback: -10
+    hp: 40.0
+    id: 33291
+    marketGroup: 1739
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Drone Repair Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  33293:
+    drawback: -10
+    hp: 40.0
+    id: 33293
+    marketGroup: 1739
+    mass: 200.0
+    name: Capital Drone Scope Chip I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rangeskillbonus: 15
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  33295:
+    drawback: -10
+    hp: 40.0
+    id: 33295
+    marketGroup: 1739
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Drone Scope Chip II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rangeskillbonus: 20
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  33297:
+    drawback: -10
+    dronemaxvelocitybonus: 10
+    hp: 40.0
+    id: 33297
+    marketGroup: 1739
+    mass: 200.0
+    name: Capital Drone Speed Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  33298:
+    drawback: -10
+    dronemaxvelocitybonus: 15
+    hp: 40.0
+    id: 33298
+    marketGroup: 1739
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Drone Speed Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  33307:
+    damagemultiplierbonus: 10
+    drawback: -10
+    hp: 40.0
+    id: 33307
+    marketGroup: 1739
+    mass: 200.0
+    name: Capital Sentry Damage Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 200
+    volume: 40.0
+  33309:
+    damagemultiplierbonus: 15
+    drawback: -10
+    hp: 40.0
+    id: 33309
+    marketGroup: 1739
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Sentry Damage Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 300
+    volume: 40.0
+  33311:
+    drawback: -10
+    hp: 40.0
+    id: 33311
+    marketGroup: 1739
+    mass: 200.0
+    name: Capital Stasis Drone Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+    webspeedfactorbonus: 15
+  33313:
+    drawback: -10
+    hp: 40.0
+    id: 33313
+    marketGroup: 1739
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Stasis Drone Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
     webspeedfactorbonus: 20

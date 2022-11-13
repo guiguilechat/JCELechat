@@ -167,7 +167,7 @@ public class SalvageDrone
         implements IMetaGroup<SalvageDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/drone/SalvageDrone.yaml";
-        private Map<String, SalvageDrone> cache = (null);
+        private Map<Integer, SalvageDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super SalvageDrone> category() {
@@ -185,7 +185,7 @@ public class SalvageDrone
         }
 
         @Override
-        public synchronized Map<String, SalvageDrone> load() {
+        public synchronized Map<Integer, SalvageDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SalvageDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -199,7 +199,7 @@ public class SalvageDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, SalvageDrone> types;
+            public LinkedHashMap<Integer, SalvageDrone> types;
         }
     }
 }

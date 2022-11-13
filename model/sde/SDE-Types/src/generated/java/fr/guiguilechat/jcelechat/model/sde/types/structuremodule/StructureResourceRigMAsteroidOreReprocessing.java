@@ -265,7 +265,7 @@ public class StructureResourceRigMAsteroidOreReprocessing
         implements IMetaGroup<StructureResourceRigMAsteroidOreReprocessing>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureResourceRigMAsteroidOreReprocessing.yaml";
-        private Map<String, StructureResourceRigMAsteroidOreReprocessing> cache = (null);
+        private Map<Integer, StructureResourceRigMAsteroidOreReprocessing> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureResourceRigMAsteroidOreReprocessing> category() {
@@ -283,7 +283,7 @@ public class StructureResourceRigMAsteroidOreReprocessing
         }
 
         @Override
-        public synchronized Map<String, StructureResourceRigMAsteroidOreReprocessing> load() {
+        public synchronized Map<Integer, StructureResourceRigMAsteroidOreReprocessing> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureResourceRigMAsteroidOreReprocessing.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -297,7 +297,7 @@ public class StructureResourceRigMAsteroidOreReprocessing
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureResourceRigMAsteroidOreReprocessing> types;
+            public LinkedHashMap<Integer, StructureResourceRigMAsteroidOreReprocessing> types;
         }
     }
 }

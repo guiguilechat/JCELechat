@@ -348,7 +348,7 @@ public class StructureCitadelServiceModule
         implements IMetaGroup<StructureCitadelServiceModule>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCitadelServiceModule.yaml";
-        private Map<String, StructureCitadelServiceModule> cache = (null);
+        private Map<Integer, StructureCitadelServiceModule> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCitadelServiceModule> category() {
@@ -366,7 +366,7 @@ public class StructureCitadelServiceModule
         }
 
         @Override
-        public synchronized Map<String, StructureCitadelServiceModule> load() {
+        public synchronized Map<Integer, StructureCitadelServiceModule> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCitadelServiceModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -380,7 +380,7 @@ public class StructureCitadelServiceModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCitadelServiceModule> types;
+            public LinkedHashMap<Integer, StructureCitadelServiceModule> types;
         }
     }
 }

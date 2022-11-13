@@ -149,7 +149,7 @@ public class FestivalLauncher
         implements IMetaGroup<FestivalLauncher>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/FestivalLauncher.yaml";
-        private Map<String, FestivalLauncher> cache = (null);
+        private Map<Integer, FestivalLauncher> cache = (null);
 
         @Override
         public IMetaCategory<? super FestivalLauncher> category() {
@@ -167,7 +167,7 @@ public class FestivalLauncher
         }
 
         @Override
-        public synchronized Map<String, FestivalLauncher> load() {
+        public synchronized Map<Integer, FestivalLauncher> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FestivalLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -181,7 +181,7 @@ public class FestivalLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, FestivalLauncher> types;
+            public LinkedHashMap<Integer, FestivalLauncher> types;
         }
     }
 }

@@ -317,7 +317,7 @@ public class CapitalSensorArray
         implements IMetaGroup<CapitalSensorArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CapitalSensorArray.yaml";
-        private Map<String, CapitalSensorArray> cache = (null);
+        private Map<Integer, CapitalSensorArray> cache = (null);
 
         @Override
         public IMetaCategory<? super CapitalSensorArray> category() {
@@ -335,7 +335,7 @@ public class CapitalSensorArray
         }
 
         @Override
-        public synchronized Map<String, CapitalSensorArray> load() {
+        public synchronized Map<Integer, CapitalSensorArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapitalSensorArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -349,7 +349,7 @@ public class CapitalSensorArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapitalSensorArray> types;
+            public LinkedHashMap<Integer, CapitalSensorArray> types;
         }
     }
 }

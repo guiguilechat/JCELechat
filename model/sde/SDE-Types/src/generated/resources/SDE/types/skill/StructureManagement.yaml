@@ -1,19 +1,5 @@
 types:
-  Anchoring:
-    cannotbetrainedontrial: 1
-    id: 11584
-    marketGroup: 2152
-    name: Anchoring
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 75000.0
-    primaryattribute: 166
-    published: true
-    radius: 1.0
-    secondaryattribute: 164
-    skilltimeconstant: 3.0
-    volume: 0.009999999776482582
-  Starbase Defense Management:
+  3373:
     cannotbetrainedontrial: 1
     id: 3373
     marketGroup: 2152
@@ -29,7 +15,40 @@ types:
     secondaryattribute: 164
     skilltimeconstant: 7.0
     volume: 0.009999999776482582
-  Structure Doomsday Operation:
+  11584:
+    cannotbetrainedontrial: 1
+    id: 11584
+    marketGroup: 2152
+    name: Anchoring
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 75000.0
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    secondaryattribute: 164
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  37796:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
+    id: 37796
+    marketGroup: 2152
+    name: Structure Missile Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 11584
+    requiredskill2level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  37797:
     cannotbetrainedontrial: 1
     durationbonus: -2
     id: 37797
@@ -48,7 +67,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Structure Electronic Systems:
+  37798:
     cannotbetrainedontrial: 1
     capneedbonus: -3
     id: 37798
@@ -67,7 +86,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
-  Structure Engineering Systems:
+  37799:
     cannotbetrainedontrial: 1
     capneedbonus: -2
     id: 37799
@@ -80,25 +99,6 @@ types:
     published: true
     radius: 1.0
     requiredskill1: 3413
-    requiredskill1level: 1
-    requiredskill2: 11584
-    requiredskill2level: 1
-    secondaryattribute: 168
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Structure Missile Systems:
-    cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
-    id: 37796
-    marketGroup: 2152
-    name: Structure Missile Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5000000.0
-    primaryattribute: 166
-    published: true
-    radius: 1.0
-    requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 11584
     requiredskill2level: 1

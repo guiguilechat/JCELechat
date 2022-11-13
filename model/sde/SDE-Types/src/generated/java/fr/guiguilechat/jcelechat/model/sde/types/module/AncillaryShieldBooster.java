@@ -257,7 +257,7 @@ public class AncillaryShieldBooster
         implements IMetaGroup<AncillaryShieldBooster>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/AncillaryShieldBooster.yaml";
-        private Map<String, AncillaryShieldBooster> cache = (null);
+        private Map<Integer, AncillaryShieldBooster> cache = (null);
 
         @Override
         public IMetaCategory<? super AncillaryShieldBooster> category() {
@@ -275,7 +275,7 @@ public class AncillaryShieldBooster
         }
 
         @Override
-        public synchronized Map<String, AncillaryShieldBooster> load() {
+        public synchronized Map<Integer, AncillaryShieldBooster> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AncillaryShieldBooster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -289,7 +289,7 @@ public class AncillaryShieldBooster
         }
 
         private static class Container {
-            public LinkedHashMap<String, AncillaryShieldBooster> types;
+            public LinkedHashMap<Integer, AncillaryShieldBooster> types;
         }
     }
 }

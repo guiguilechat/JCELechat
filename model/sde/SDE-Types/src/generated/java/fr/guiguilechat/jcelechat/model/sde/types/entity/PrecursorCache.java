@@ -386,7 +386,7 @@ public class PrecursorCache
         implements IMetaGroup<PrecursorCache>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/PrecursorCache.yaml";
-        private Map<String, PrecursorCache> cache = (null);
+        private Map<Integer, PrecursorCache> cache = (null);
 
         @Override
         public IMetaCategory<? super PrecursorCache> category() {
@@ -404,7 +404,7 @@ public class PrecursorCache
         }
 
         @Override
-        public synchronized Map<String, PrecursorCache> load() {
+        public synchronized Map<Integer, PrecursorCache> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PrecursorCache.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -418,7 +418,7 @@ public class PrecursorCache
         }
 
         private static class Container {
-            public LinkedHashMap<String, PrecursorCache> types;
+            public LinkedHashMap<Integer, PrecursorCache> types;
         }
     }
 }

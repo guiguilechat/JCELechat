@@ -590,7 +590,7 @@ public class Hauler
         implements IMetaGroup<Hauler>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Hauler.yaml";
-        private Map<String, Hauler> cache = (null);
+        private Map<Integer, Hauler> cache = (null);
 
         @Override
         public IMetaCategory<? super Hauler> category() {
@@ -608,7 +608,7 @@ public class Hauler
         }
 
         @Override
-        public synchronized Map<String, Hauler> load() {
+        public synchronized Map<Integer, Hauler> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Hauler.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -622,7 +622,7 @@ public class Hauler
         }
 
         private static class Container {
-            public LinkedHashMap<String, Hauler> types;
+            public LinkedHashMap<Integer, Hauler> types;
         }
     }
 }

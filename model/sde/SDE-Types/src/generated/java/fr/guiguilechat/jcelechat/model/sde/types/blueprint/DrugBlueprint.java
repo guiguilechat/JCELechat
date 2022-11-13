@@ -83,7 +83,7 @@ public class DrugBlueprint
         implements IMetaGroup<DrugBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/DrugBlueprint.yaml";
-        private Map<String, DrugBlueprint> cache = (null);
+        private Map<Integer, DrugBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super DrugBlueprint> category() {
@@ -101,7 +101,7 @@ public class DrugBlueprint
         }
 
         @Override
-        public synchronized Map<String, DrugBlueprint> load() {
+        public synchronized Map<Integer, DrugBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DrugBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class DrugBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DrugBlueprint> types;
+            public LinkedHashMap<Integer, DrugBlueprint> types;
         }
     }
 }

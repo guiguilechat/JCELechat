@@ -1,5 +1,5 @@
 types:
-  Aqueous Liquids:
+  2268:
     exporttaxmultiplier: 5
     id: 2268
     importtaxmultiplier: 5
@@ -10,7 +10,18 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Ionic Solutions:
+  2308:
+    exporttaxmultiplier: 5
+    id: 2308
+    importtaxmultiplier: 5
+    marketGroup: 1333
+    name: Suspended Plasma
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  2309:
     exporttaxmultiplier: 5
     id: 2309
     importtaxmultiplier: 5
@@ -21,7 +32,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Noble Gas:
+  2310:
     exporttaxmultiplier: 5
     id: 2310
     importtaxmultiplier: 5
@@ -32,23 +43,12 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Reactive Gas:
+  2311:
     exporttaxmultiplier: 5
     id: 2311
     importtaxmultiplier: 5
     marketGroup: 1333
     name: Reactive Gas
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Suspended Plasma:
-    exporttaxmultiplier: 5
-    id: 2308
-    importtaxmultiplier: 5
-    marketGroup: 1333
-    name: Suspended Plasma
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

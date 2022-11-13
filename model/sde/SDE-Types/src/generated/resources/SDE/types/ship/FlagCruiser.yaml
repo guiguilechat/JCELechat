@@ -1,5 +1,5 @@
 types:
-  Monitor:
+  45534:
     agility: 0.6000000238418579
     armoremdamageresonance: 0.10000000149011612
     armorexplosivedamageresonance: 0.10000000149011612
@@ -75,7 +75,7 @@ types:
     shieldthermaldamageresonance: 0.10000000149011612
     shielduniformity: 0.75
     shipbonusac: 5.0
-    shipbonuscc: 5
+    shipbonuscc: 5.0
     shipbonusgc: -5.0
     shipbonusmc: -5.0
     signatureradius: 40.0

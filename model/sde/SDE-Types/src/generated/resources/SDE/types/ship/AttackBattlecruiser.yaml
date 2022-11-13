@@ -1,5 +1,90 @@
 types:
-  Naga:
+  4302:
+    agility: 0.4950000047683716
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 2160.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    bclargeturretcap: 0.5
+    bclargeturretcpu: 0.5
+    bclargeturretpower: 0.05000000074505806
+    capacitorcapacity: 3500.0
+    capacity: 500.0
+    cpuoutput: 345
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 200
+    gfxboosterid: 394
+    heatattenuationhi: 0.8199999928474426
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.5
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.6499999761581421
+    hislots: 8
+    hp: 1980.0
+    id: 4302
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 6
+    maincolor: 16777215
+    marketGroup: 470
+    mass: 1.476E7
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 6
+    maxpassengers: 450
+    maxtargetrange: 65000.0
+    maxvelocity: 200.0
+    medslots: 3
+    mintargetveldmgmultiplier: 0.25
+    name: Oracle
+    packagedVolume: 15000.0
+    portionSize: 1
+    poweroutput: 1375
+    powertospeed: 1
+    price: 5.25E7
+    propulsiongraphicid: 394
+    published: true
+    radius: 199.0
+    rechargerate: 875000.0
+    requiredskill1: 33095
+    requiredskill1level: 1
+    rigsize: 2
+    rigslots: 3
+    scanradarstrength: 18.0
+    scanresolution: 220.0
+    scanspeed: 5000
+    shieldcapacity: 1575.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1400000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonusabc1: -10.0
+    shipbonusabc2: 5.0
+    signatureradius: 210.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    turretslotsleft: 8
+    typecolorscheme: 11313
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 234000.0
+    warpcapacitorneed: 8.12999985555507E-7
+    warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
+  4306:
     agility: 0.5249999761581421
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
@@ -84,92 +169,7 @@ types:
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
-  Oracle:
-    agility: 0.4950000047683716
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
-    armorhp: 2160.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    basewarpspeed: 1
-    bclargeturretcap: 0.5
-    bclargeturretcpu: 0.5
-    bclargeturretpower: 0.05000000074505806
-    capacitorcapacity: 3500.0
-    capacity: 500.0
-    cpuoutput: 345
-    emdamageresonance: 0.6700000166893005
-    energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
-    fwlpkill: 200
-    gfxboosterid: 394
-    heatattenuationhi: 0.8199999928474426
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.5
-    heatcapacityhi: 100
-    heatcapacitylow: 100
-    heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.6499999761581421
-    hislots: 8
-    hp: 1980.0
-    id: 4302
-    kineticdamageresonance: 0.6700000166893005
-    lowslots: 6
-    maincolor: 16777215
-    marketGroup: 470
-    mass: 1.476E7
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 6
-    maxpassengers: 450
-    maxtargetrange: 65000.0
-    maxvelocity: 200.0
-    medslots: 3
-    mintargetveldmgmultiplier: 0.25
-    name: Oracle
-    packagedVolume: 15000.0
-    portionSize: 1
-    poweroutput: 1375
-    powertospeed: 1
-    price: 5.25E7
-    propulsiongraphicid: 394
-    published: true
-    radius: 199.0
-    rechargerate: 875000.0
-    requiredskill1: 33095
-    requiredskill1level: 1
-    rigsize: 2
-    rigslots: 3
-    scanradarstrength: 18.0
-    scanresolution: 220.0
-    scanspeed: 5000
-    shieldcapacity: 1575.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    shipbonusabc1: -10.0
-    shipbonusabc2: 5
-    signatureradius: 210.0
-    stasiswebifierresistance: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
-    turretslotsleft: 8
-    typecolorscheme: 11313
-    uniformity: 1.0
-    upgradecapacity: 400
-    upgradeslotsleft: 3
-    volume: 234000.0
-    warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 3.5
-    weapondisruptionresistance: 1.0
-  Talos:
+  4308:
     agility: 0.44999998807907104
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
@@ -256,7 +256,7 @@ types:
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
-  Tornado:
+  4310:
     agility: 0.4749999940395355
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421

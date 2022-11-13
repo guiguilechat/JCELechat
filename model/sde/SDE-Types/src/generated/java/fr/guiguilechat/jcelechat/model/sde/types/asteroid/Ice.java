@@ -89,7 +89,7 @@ public class Ice
         implements IMetaGroup<Ice>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Ice.yaml";
-        private Map<String, Ice> cache = (null);
+        private Map<Integer, Ice> cache = (null);
 
         @Override
         public IMetaCategory<? super Ice> category() {
@@ -107,7 +107,7 @@ public class Ice
         }
 
         @Override
-        public synchronized Map<String, Ice> load() {
+        public synchronized Map<Integer, Ice> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Ice.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -121,7 +121,7 @@ public class Ice
         }
 
         private static class Container {
-            public LinkedHashMap<String, Ice> types;
+            public LinkedHashMap<Integer, Ice> types;
         }
     }
 }

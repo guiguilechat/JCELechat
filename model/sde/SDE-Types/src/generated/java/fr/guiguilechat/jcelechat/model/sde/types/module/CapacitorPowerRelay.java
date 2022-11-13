@@ -145,7 +145,7 @@ public class CapacitorPowerRelay
         implements IMetaGroup<CapacitorPowerRelay>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CapacitorPowerRelay.yaml";
-        private Map<String, CapacitorPowerRelay> cache = (null);
+        private Map<Integer, CapacitorPowerRelay> cache = (null);
 
         @Override
         public IMetaCategory<? super CapacitorPowerRelay> category() {
@@ -163,7 +163,7 @@ public class CapacitorPowerRelay
         }
 
         @Override
-        public synchronized Map<String, CapacitorPowerRelay> load() {
+        public synchronized Map<Integer, CapacitorPowerRelay> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapacitorPowerRelay.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class CapacitorPowerRelay
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapacitorPowerRelay> types;
+            public LinkedHashMap<Integer, CapacitorPowerRelay> types;
         }
     }
 }

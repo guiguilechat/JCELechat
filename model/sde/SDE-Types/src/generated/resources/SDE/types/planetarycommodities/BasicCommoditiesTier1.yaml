@@ -1,101 +1,5 @@
 types:
-  Bacteria:
-    exporttaxmultiplier: 400
-    id: 2393
-    importtaxmultiplier: 400
-    marketGroup: 1334
-    name: Bacteria
-    packagedVolume: 0.3799999952316284
-    portionSize: 1
-    price: 1.0
-    published: true
-    radius: 1.0
-    volume: 0.3799999952316284
-  Biofuels:
-    exporttaxmultiplier: 400
-    id: 2396
-    importtaxmultiplier: 400
-    marketGroup: 1334
-    name: Biofuels
-    packagedVolume: 0.3799999952316284
-    portionSize: 1
-    price: 1.0
-    published: true
-    radius: 1.0
-    volume: 0.3799999952316284
-  Biomass:
-    exporttaxmultiplier: 400
-    id: 3779
-    importtaxmultiplier: 400
-    marketGroup: 1334
-    name: Biomass
-    packagedVolume: 0.3799999952316284
-    portionSize: 1
-    price: 1.0
-    published: true
-    radius: 1.0
-    volume: 0.3799999952316284
-  Chiral Structures:
-    exporttaxmultiplier: 400
-    id: 2401
-    importtaxmultiplier: 400
-    marketGroup: 1334
-    name: Chiral Structures
-    packagedVolume: 0.3799999952316284
-    portionSize: 1
-    price: 1.0
-    published: true
-    radius: 1.0
-    volume: 0.3799999952316284
-  Electrolytes:
-    exporttaxmultiplier: 400
-    id: 2390
-    importtaxmultiplier: 400
-    marketGroup: 1334
-    name: Electrolytes
-    packagedVolume: 0.3799999952316284
-    portionSize: 1
-    price: 1.0
-    published: true
-    radius: 1.0
-    volume: 0.3799999952316284
-  Industrial Fibers:
-    exporttaxmultiplier: 400
-    id: 2397
-    importtaxmultiplier: 400
-    marketGroup: 1334
-    name: Industrial Fibers
-    packagedVolume: 0.3799999952316284
-    portionSize: 1
-    price: 1.0
-    published: true
-    radius: 1.0
-    volume: 0.3799999952316284
-  Oxidizing Compound:
-    exporttaxmultiplier: 400
-    id: 2392
-    importtaxmultiplier: 400
-    marketGroup: 1334
-    name: Oxidizing Compound
-    packagedVolume: 0.3799999952316284
-    portionSize: 1
-    price: 1.0
-    published: true
-    radius: 1.0
-    volume: 0.3799999952316284
-  Oxygen:
-    exporttaxmultiplier: 400
-    id: 3683
-    importtaxmultiplier: 400
-    marketGroup: 1334
-    name: Oxygen
-    packagedVolume: 0.3799999952316284
-    portionSize: 1
-    price: 95.0
-    published: true
-    radius: 1.0
-    volume: 0.3799999952316284
-  Plasmoids:
+  2389:
     exporttaxmultiplier: 400
     id: 2389
     importtaxmultiplier: 400
@@ -107,19 +11,43 @@ types:
     published: true
     radius: 1.0
     volume: 0.3799999952316284
-  Precious Metals:
+  2390:
     exporttaxmultiplier: 400
-    id: 2399
+    id: 2390
     importtaxmultiplier: 400
     marketGroup: 1334
-    name: Precious Metals
+    name: Electrolytes
     packagedVolume: 0.3799999952316284
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
-  Proteins:
+  2392:
+    exporttaxmultiplier: 400
+    id: 2392
+    importtaxmultiplier: 400
+    marketGroup: 1334
+    name: Oxidizing Compound
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 0.3799999952316284
+  2393:
+    exporttaxmultiplier: 400
+    id: 2393
+    importtaxmultiplier: 400
+    marketGroup: 1334
+    name: Bacteria
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 0.3799999952316284
+  2395:
     exporttaxmultiplier: 400
     id: 2395
     importtaxmultiplier: 400
@@ -131,7 +59,31 @@ types:
     published: true
     radius: 1.0
     volume: 0.3799999952316284
-  Reactive Metals:
+  2396:
+    exporttaxmultiplier: 400
+    id: 2396
+    importtaxmultiplier: 400
+    marketGroup: 1334
+    name: Biofuels
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 0.3799999952316284
+  2397:
+    exporttaxmultiplier: 400
+    id: 2397
+    importtaxmultiplier: 400
+    marketGroup: 1334
+    name: Industrial Fibers
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 0.3799999952316284
+  2398:
     exporttaxmultiplier: 400
     id: 2398
     importtaxmultiplier: 400
@@ -143,19 +95,19 @@ types:
     published: true
     radius: 1.0
     volume: 0.3799999952316284
-  Silicon:
+  2399:
     exporttaxmultiplier: 400
-    id: 9828
+    id: 2399
     importtaxmultiplier: 400
     marketGroup: 1334
-    name: Silicon
+    name: Precious Metals
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 266.0
+    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
-  Toxic Metals:
+  2400:
     exporttaxmultiplier: 400
     id: 2400
     importtaxmultiplier: 400
@@ -167,7 +119,19 @@ types:
     published: true
     radius: 1.0
     volume: 0.3799999952316284
-  Water:
+  2401:
+    exporttaxmultiplier: 400
+    id: 2401
+    importtaxmultiplier: 400
+    marketGroup: 1334
+    name: Chiral Structures
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 0.3799999952316284
+  3645:
     exporttaxmultiplier: 400
     id: 3645
     importtaxmultiplier: 400
@@ -176,6 +140,42 @@ types:
     packagedVolume: 0.3799999952316284
     portionSize: 1
     price: 35.0
+    published: true
+    radius: 1.0
+    volume: 0.3799999952316284
+  3683:
+    exporttaxmultiplier: 400
+    id: 3683
+    importtaxmultiplier: 400
+    marketGroup: 1334
+    name: Oxygen
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
+    price: 95.0
+    published: true
+    radius: 1.0
+    volume: 0.3799999952316284
+  3779:
+    exporttaxmultiplier: 400
+    id: 3779
+    importtaxmultiplier: 400
+    marketGroup: 1334
+    name: Biomass
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
+    price: 1.0
+    published: true
+    radius: 1.0
+    volume: 0.3799999952316284
+  9828:
+    exporttaxmultiplier: 400
+    id: 9828
+    importtaxmultiplier: 400
+    marketGroup: 1334
+    name: Silicon
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
+    price: 266.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284

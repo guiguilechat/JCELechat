@@ -1,5 +1,5 @@
 types:
-  Caldari Navy Scourge Auto-Targeting Heavy Missile I:
+  1818:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -9,15 +9,14 @@ types:
     detonationrange: 35
     explosiondelay: 6500
     hp: 70.0
-    id: 27489
-    kineticdamage: 122.0
+    id: 1818
+    kineticdamage: 107.0
     launchergroup: 510
-    marketGroup: 1192
+    marketGroup: 914
     mass: 1000.0
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
-    metagroupid: 4
-    name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
+    name: Scourge Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2500.0
@@ -32,7 +31,71 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.029999999329447746
-  Federation Navy Inferno Auto-Targeting Heavy Missile I:
+  1820:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81
+    detonationrange: 35
+    emdamage: 107.0
+    explosiondelay: 6500
+    hp: 70.0
+    id: 1820
+    launchergroup: 510
+    marketGroup: 914
+    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
+    name: Mjolnir Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 3500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.029999999329447746
+  1822:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81
+    detonationrange: 35
+    explosiondelay: 6500
+    explosivedamage: 107.0
+    hp: 70.0
+    id: 1822
+    launchergroup: 510
+    marketGroup: 914
+    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
+    name: Nova Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 2000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.029999999329447746
+  1824:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -42,14 +105,13 @@ types:
     detonationrange: 35
     explosiondelay: 6500
     hp: 70.0
-    id: 27495
+    id: 1824
     launchergroup: 510
-    marketGroup: 1192
+    marketGroup: 914
     mass: 1000.0
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
-    metagroupid: 4
-    name: Federation Navy Inferno Auto-Targeting Heavy Missile I
+    name: Inferno Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3000.0
@@ -63,9 +125,9 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 122.0
+    thermaldamage: 107.0
     volume: 0.029999999329447746
-  Imperial Navy Mjolnir Auto-Targeting Heavy Missile I:
+  27483:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -98,7 +160,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.029999999329447746
-  Inferno Auto-Targeting Heavy Missile I:
+  27489:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -108,13 +170,47 @@ types:
     detonationrange: 35
     explosiondelay: 6500
     hp: 70.0
-    id: 1824
+    id: 27489
+    kineticdamage: 122.0
     launchergroup: 510
-    marketGroup: 914
+    marketGroup: 1192
     mass: 1000.0
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
-    name: Inferno Auto-Targeting Heavy Missile I
+    metagroupid: 4
+    name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
+    price: 2500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.029999999329447746
+  27495:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81
+    detonationrange: 35
+    explosiondelay: 6500
+    hp: 70.0
+    id: 27495
+    launchergroup: 510
+    marketGroup: 1192
+    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
+    metagroupid: 4
+    name: Federation Navy Inferno Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3000.0
@@ -128,73 +224,9 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 107.0
+    thermaldamage: 122.0
     volume: 0.029999999329447746
-  Mjolnir Auto-Targeting Heavy Missile I:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 81
-    detonationrange: 35
-    emdamage: 107.0
-    explosiondelay: 6500
-    hp: 70.0
-    id: 1820
-    launchergroup: 510
-    marketGroup: 914
-    mass: 1000.0
-    maxfoftargetrange: 150000
-    maxvelocity: 4300.0
-    name: Mjolnir Auto-Targeting Heavy Missile I
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 3500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3322
-    requiredskill1level: 1
-    requiredskill2: 3324
-    requiredskill2level: 1
-    requiredskill3: 3319
-    requiredskill3level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.029999999329447746
-  Nova Auto-Targeting Heavy Missile I:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 81
-    detonationrange: 35
-    explosiondelay: 6500
-    explosivedamage: 107.0
-    hp: 70.0
-    id: 1822
-    launchergroup: 510
-    marketGroup: 914
-    mass: 1000.0
-    maxfoftargetrange: 150000
-    maxvelocity: 4300.0
-    name: Nova Auto-Targeting Heavy Missile I
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 2000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3322
-    requiredskill1level: 1
-    requiredskill2: 3324
-    requiredskill2level: 1
-    requiredskill3: 3319
-    requiredskill3level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.029999999329447746
-  Republic Fleet Nova Auto-Targeting Heavy Missile I:
+  27501:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 140
@@ -216,38 +248,6 @@ types:
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3322
-    requiredskill1level: 1
-    requiredskill2: 3324
-    requiredskill2level: 1
-    requiredskill3: 3319
-    requiredskill3level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.029999999329447746
-  Scourge Auto-Targeting Heavy Missile I:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
-    aoefalloff: 1500
-    aoevelocity: 81
-    detonationrange: 35
-    explosiondelay: 6500
-    hp: 70.0
-    id: 1818
-    kineticdamage: 107.0
-    launchergroup: 510
-    marketGroup: 914
-    mass: 1000.0
-    maxfoftargetrange: 150000
-    maxvelocity: 4300.0
-    name: Scourge Auto-Targeting Heavy Missile I
-    packagedVolume: 0.029999999329447746
-    portionSize: 100
-    price: 2500.0
     published: true
     radius: 300.0
     requiredskill1: 3322

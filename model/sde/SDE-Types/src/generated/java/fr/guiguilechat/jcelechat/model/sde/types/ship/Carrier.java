@@ -919,7 +919,7 @@ public class Carrier
         implements IMetaGroup<Carrier>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Carrier.yaml";
-        private Map<String, Carrier> cache = (null);
+        private Map<Integer, Carrier> cache = (null);
 
         @Override
         public IMetaCategory<? super Carrier> category() {
@@ -937,7 +937,7 @@ public class Carrier
         }
 
         @Override
-        public synchronized Map<String, Carrier> load() {
+        public synchronized Map<Integer, Carrier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Carrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -951,7 +951,7 @@ public class Carrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, Carrier> types;
+            public LinkedHashMap<Integer, Carrier> types;
         }
     }
 }

@@ -777,7 +777,7 @@ public class StructureBurstProjector
         implements IMetaGroup<StructureBurstProjector>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureBurstProjector.yaml";
-        private Map<String, StructureBurstProjector> cache = (null);
+        private Map<Integer, StructureBurstProjector> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureBurstProjector> category() {
@@ -795,7 +795,7 @@ public class StructureBurstProjector
         }
 
         @Override
-        public synchronized Map<String, StructureBurstProjector> load() {
+        public synchronized Map<Integer, StructureBurstProjector> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureBurstProjector.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -809,7 +809,7 @@ public class StructureBurstProjector
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureBurstProjector> types;
+            public LinkedHashMap<Integer, StructureBurstProjector> types;
         }
     }
 }

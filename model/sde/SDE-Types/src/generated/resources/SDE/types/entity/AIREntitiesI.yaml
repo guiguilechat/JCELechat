@@ -1,5 +1,5 @@
 types:
-  Balin Ferrus:
+  57788:
     agility: 0.10000000149011612
     armordamageamount: 230.0
     armoremdamageresonance: 0.5
@@ -72,7 +72,7 @@ types:
     untargetable: 1
     volume: 107000.0
     warpspeedmultiplier: 10.0
-  Elias Peltonnen:
+  60783:
     agility: 0.10000000149011612
     armordamageamount: 230.0
     armoremdamageresonance: 0.5

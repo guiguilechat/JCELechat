@@ -32,7 +32,7 @@ public class TriglavianDatastreams
         implements IMetaGroup<TriglavianDatastreams>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/TriglavianDatastreams.yaml";
-        private Map<String, TriglavianDatastreams> cache = (null);
+        private Map<Integer, TriglavianDatastreams> cache = (null);
 
         @Override
         public IMetaCategory<? super TriglavianDatastreams> category() {
@@ -50,7 +50,7 @@ public class TriglavianDatastreams
         }
 
         @Override
-        public synchronized Map<String, TriglavianDatastreams> load() {
+        public synchronized Map<Integer, TriglavianDatastreams> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TriglavianDatastreams.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class TriglavianDatastreams
         }
 
         private static class Container {
-            public LinkedHashMap<String, TriglavianDatastreams> types;
+            public LinkedHashMap<Integer, TriglavianDatastreams> types;
         }
     }
 }

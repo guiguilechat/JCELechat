@@ -289,7 +289,7 @@ public class SensorDampener
         implements IMetaGroup<SensorDampener>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/SensorDampener.yaml";
-        private Map<String, SensorDampener> cache = (null);
+        private Map<Integer, SensorDampener> cache = (null);
 
         @Override
         public IMetaCategory<? super SensorDampener> category() {
@@ -307,7 +307,7 @@ public class SensorDampener
         }
 
         @Override
-        public synchronized Map<String, SensorDampener> load() {
+        public synchronized Map<Integer, SensorDampener> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SensorDampener.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class SensorDampener
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorDampener> types;
+            public LinkedHashMap<Integer, SensorDampener> types;
         }
     }
 }

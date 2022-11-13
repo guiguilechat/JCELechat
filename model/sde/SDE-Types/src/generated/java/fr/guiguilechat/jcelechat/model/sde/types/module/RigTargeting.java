@@ -149,7 +149,7 @@ public class RigTargeting
         implements IMetaGroup<RigTargeting>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigTargeting.yaml";
-        private Map<String, RigTargeting> cache = (null);
+        private Map<Integer, RigTargeting> cache = (null);
 
         @Override
         public IMetaCategory<? super RigTargeting> category() {
@@ -167,7 +167,7 @@ public class RigTargeting
         }
 
         @Override
-        public synchronized Map<String, RigTargeting> load() {
+        public synchronized Map<Integer, RigTargeting> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigTargeting.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -181,7 +181,7 @@ public class RigTargeting
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigTargeting> types;
+            public LinkedHashMap<Integer, RigTargeting> types;
         }
     }
 }

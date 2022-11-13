@@ -120,7 +120,7 @@ public class DataInterfaces
         implements IMetaGroup<DataInterfaces>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/DataInterfaces.yaml";
-        private Map<String, DataInterfaces> cache = (null);
+        private Map<Integer, DataInterfaces> cache = (null);
 
         @Override
         public IMetaCategory<? super DataInterfaces> category() {
@@ -138,7 +138,7 @@ public class DataInterfaces
         }
 
         @Override
-        public synchronized Map<String, DataInterfaces> load() {
+        public synchronized Map<Integer, DataInterfaces> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DataInterfaces.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -152,7 +152,7 @@ public class DataInterfaces
         }
 
         private static class Container {
-            public LinkedHashMap<String, DataInterfaces> types;
+            public LinkedHashMap<Integer, DataInterfaces> types;
         }
     }
 }

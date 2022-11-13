@@ -156,7 +156,7 @@ public class TemporaryCloud
         implements IMetaGroup<TemporaryCloud>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/TemporaryCloud.yaml";
-        private Map<String, TemporaryCloud> cache = (null);
+        private Map<Integer, TemporaryCloud> cache = (null);
 
         @Override
         public IMetaCategory<? super TemporaryCloud> category() {
@@ -174,7 +174,7 @@ public class TemporaryCloud
         }
 
         @Override
-        public synchronized Map<String, TemporaryCloud> load() {
+        public synchronized Map<Integer, TemporaryCloud> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TemporaryCloud.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -188,7 +188,7 @@ public class TemporaryCloud
         }
 
         private static class Container {
-            public LinkedHashMap<String, TemporaryCloud> types;
+            public LinkedHashMap<Integer, TemporaryCloud> types;
         }
     }
 }

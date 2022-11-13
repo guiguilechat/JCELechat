@@ -1,5 +1,5 @@
 types:
-  Standup Point Defense Battery I:
+  35926:
     canfitshiptype1: 35833
     canfitshiptype10: 47515
     canfitshiptype11: 47516
@@ -40,7 +40,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 8000.0
-  Standup Point Defense Battery II:
+  47327:
     canfitshiptype1: 35833
     canfitshiptype10: 47515
     canfitshiptype11: 47516

@@ -257,7 +257,7 @@ public class MassEntanglers
         implements IMetaGroup<MassEntanglers>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MassEntanglers.yaml";
-        private Map<String, MassEntanglers> cache = (null);
+        private Map<Integer, MassEntanglers> cache = (null);
 
         @Override
         public IMetaCategory<? super MassEntanglers> category() {
@@ -275,7 +275,7 @@ public class MassEntanglers
         }
 
         @Override
-        public synchronized Map<String, MassEntanglers> load() {
+        public synchronized Map<Integer, MassEntanglers> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MassEntanglers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -289,7 +289,7 @@ public class MassEntanglers
         }
 
         private static class Container {
-            public LinkedHashMap<String, MassEntanglers> types;
+            public LinkedHashMap<Integer, MassEntanglers> types;
         }
     }
 }

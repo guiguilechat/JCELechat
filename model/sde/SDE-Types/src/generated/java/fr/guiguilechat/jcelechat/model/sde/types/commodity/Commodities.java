@@ -144,7 +144,7 @@ public class Commodities
         implements IMetaGroup<Commodities>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Commodities.yaml";
-        private Map<String, Commodities> cache = (null);
+        private Map<Integer, Commodities> cache = (null);
 
         @Override
         public IMetaCategory<? super Commodities> category() {
@@ -162,7 +162,7 @@ public class Commodities
         }
 
         @Override
-        public synchronized Map<String, Commodities> load() {
+        public synchronized Map<Integer, Commodities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Commodities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -176,7 +176,7 @@ public class Commodities
         }
 
         private static class Container {
-            public LinkedHashMap<String, Commodities> types;
+            public LinkedHashMap<Integer, Commodities> types;
         }
     }
 }

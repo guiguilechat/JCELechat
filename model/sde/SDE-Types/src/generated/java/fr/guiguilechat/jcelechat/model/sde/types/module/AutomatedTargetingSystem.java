@@ -149,7 +149,7 @@ public class AutomatedTargetingSystem
         implements IMetaGroup<AutomatedTargetingSystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/AutomatedTargetingSystem.yaml";
-        private Map<String, AutomatedTargetingSystem> cache = (null);
+        private Map<Integer, AutomatedTargetingSystem> cache = (null);
 
         @Override
         public IMetaCategory<? super AutomatedTargetingSystem> category() {
@@ -167,7 +167,7 @@ public class AutomatedTargetingSystem
         }
 
         @Override
-        public synchronized Map<String, AutomatedTargetingSystem> load() {
+        public synchronized Map<Integer, AutomatedTargetingSystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AutomatedTargetingSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -181,7 +181,7 @@ public class AutomatedTargetingSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, AutomatedTargetingSystem> types;
+            public LinkedHashMap<Integer, AutomatedTargetingSystem> types;
         }
     }
 }

@@ -271,7 +271,7 @@ public class MobileWarpDisruptor
         implements IMetaGroup<MobileWarpDisruptor>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileWarpDisruptor.yaml";
-        private Map<String, MobileWarpDisruptor> cache = (null);
+        private Map<Integer, MobileWarpDisruptor> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileWarpDisruptor> category() {
@@ -289,7 +289,7 @@ public class MobileWarpDisruptor
         }
 
         @Override
-        public synchronized Map<String, MobileWarpDisruptor> load() {
+        public synchronized Map<Integer, MobileWarpDisruptor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileWarpDisruptor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -303,7 +303,7 @@ public class MobileWarpDisruptor
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileWarpDisruptor> types;
+            public LinkedHashMap<Integer, MobileWarpDisruptor> types;
         }
     }
 }

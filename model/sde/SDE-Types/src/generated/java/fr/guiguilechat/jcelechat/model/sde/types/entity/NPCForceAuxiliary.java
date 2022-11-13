@@ -108,7 +108,7 @@ public class NPCForceAuxiliary
         implements IMetaGroup<NPCForceAuxiliary>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCForceAuxiliary.yaml";
-        private Map<String, NPCForceAuxiliary> cache = (null);
+        private Map<Integer, NPCForceAuxiliary> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCForceAuxiliary> category() {
@@ -126,7 +126,7 @@ public class NPCForceAuxiliary
         }
 
         @Override
-        public synchronized Map<String, NPCForceAuxiliary> load() {
+        public synchronized Map<Integer, NPCForceAuxiliary> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCForceAuxiliary.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -140,7 +140,7 @@ public class NPCForceAuxiliary
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCForceAuxiliary> types;
+            public LinkedHashMap<Integer, NPCForceAuxiliary> types;
         }
     }
 }

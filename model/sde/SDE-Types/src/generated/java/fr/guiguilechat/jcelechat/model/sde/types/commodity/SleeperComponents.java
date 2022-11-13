@@ -32,7 +32,7 @@ public class SleeperComponents
         implements IMetaGroup<SleeperComponents>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/SleeperComponents.yaml";
-        private Map<String, SleeperComponents> cache = (null);
+        private Map<Integer, SleeperComponents> cache = (null);
 
         @Override
         public IMetaCategory<? super SleeperComponents> category() {
@@ -50,7 +50,7 @@ public class SleeperComponents
         }
 
         @Override
-        public synchronized Map<String, SleeperComponents> load() {
+        public synchronized Map<Integer, SleeperComponents> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SleeperComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class SleeperComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, SleeperComponents> types;
+            public LinkedHashMap<Integer, SleeperComponents> types;
         }
     }
 }

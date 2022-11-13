@@ -245,7 +245,7 @@ public class SignatureSuppressor
         implements IMetaGroup<SignatureSuppressor>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/SignatureSuppressor.yaml";
-        private Map<String, SignatureSuppressor> cache = (null);
+        private Map<Integer, SignatureSuppressor> cache = (null);
 
         @Override
         public IMetaCategory<? super SignatureSuppressor> category() {
@@ -263,7 +263,7 @@ public class SignatureSuppressor
         }
 
         @Override
-        public synchronized Map<String, SignatureSuppressor> load() {
+        public synchronized Map<Integer, SignatureSuppressor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SignatureSuppressor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -277,7 +277,7 @@ public class SignatureSuppressor
         }
 
         private static class Container {
-            public LinkedHashMap<String, SignatureSuppressor> types;
+            public LinkedHashMap<Integer, SignatureSuppressor> types;
         }
     }
 }

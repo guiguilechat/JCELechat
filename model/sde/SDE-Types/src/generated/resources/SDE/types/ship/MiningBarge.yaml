@@ -1,5 +1,5 @@
 types:
-  Covetor:
+  17476:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.6000000238418579
     allowedincapindustrialmaintenancebay: 1
@@ -97,7 +97,100 @@ types:
     warpcapacitorneed: 3.330000026835478E-7
     warpspeedmultiplier: 3.0
     weapondisruptionresistance: 1.0
-  Procurer:
+  17478:
+    affectedbyindustrialinvulnmodule: 1
+    agility: 0.699999988079071
+    allowedincapindustrialmaintenancebay: 1
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 3000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 350.0
+    capacity: 450.0
+    cpuoutput: 260
+    dronebandwidth: 50
+    dronecapacity: 50
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 50
+    generalminingholdcapacity: 27500
+    gfxboosterid: 397
+    heatattenuationhi: 0.25
+    heatattenuationlow: 0.5
+    heatattenuationmed: 1.0
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.75
+    hislots: 2
+    hp: 4000.0
+    id: 17478
+    isindustrialjumpconduitpassenger: 1
+    isindustrialjumpportalpassenger: 1
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 3
+    maincolor: 16777215
+    marketGroup: 494
+    mass: 1.75E7
+    maxdirectionalvelocity: 3000
+    maxlockedtargets: 5
+    maxpassengers: 2
+    maxtargetrange: 40000.0
+    maxvelocity: 125.0
+    medslots: 2
+    miningbargebonusgasharvestingduration: -2
+    miningbargebonusgeneralminingholdcapacity: 5
+    miningbargebonusiceharvestingduration: -2
+    miningbargebonusoreminingyield: 3
+    mintargetveldmgmultiplier: 0.05000000074505806
+    name: Retriever
+    packagedVolume: 3750.0
+    portionSize: 1
+    poweroutput: 83
+    powertospeed: 1
+    price: 2.88E7
+    propulsiongraphicid: 397
+    published: true
+    radius: 202.0
+    rechargerate: 187500.0
+    requiredskill1: 17940
+    requiredskill1level: 1
+    rigsize: 2
+    rigslots: 3
+    scanmagnetometricstrength: 9.0
+    scanresolution: 550.0
+    scanspeed: 1500
+    shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shiprolebonusgasharvesterduration: -12.5
+    shiprolebonusiceharvestingduration: -12.5
+    shiprolebonusoreminingyield: 10
+    signatureradius: 200.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    typecolorscheme: 11346
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 150000.0
+    warpcapacitorneed: 3.330000026835478E-7
+    warpspeedmultiplier: 3.0
+    weapondisruptionresistance: 1.0
+  17480:
     affectedbyindustrialinvulnmodule: 1
     agility: 0.800000011920929
     allowedincapindustrialmaintenancebay: 1
@@ -179,99 +272,6 @@ types:
     shielduniformity: 0.75
     shiprolebonusdronedamage: 50
     shiprolebonusdronehitpoints: 50
-    signatureradius: 200.0
-    stasiswebifierresistance: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
-    typecolorscheme: 11346
-    uniformity: 1.0
-    upgradecapacity: 400
-    upgradeslotsleft: 3
-    volume: 150000.0
-    warpcapacitorneed: 3.330000026835478E-7
-    warpspeedmultiplier: 3.0
-    weapondisruptionresistance: 1.0
-  Retriever:
-    affectedbyindustrialinvulnmodule: 1
-    agility: 0.699999988079071
-    allowedincapindustrialmaintenancebay: 1
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 3000.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    basewarpspeed: 1
-    capacitorcapacity: 350.0
-    capacity: 450.0
-    cpuoutput: 260
-    dronebandwidth: 50
-    dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
-    energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
-    fwlpkill: 50
-    generalminingholdcapacity: 27500
-    gfxboosterid: 397
-    heatattenuationhi: 0.25
-    heatattenuationlow: 0.5
-    heatattenuationmed: 1.0
-    heatcapacityhi: 100
-    heatcapacitylow: 100
-    heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.75
-    hislots: 2
-    hp: 4000.0
-    id: 17478
-    isindustrialjumpconduitpassenger: 1
-    isindustrialjumpportalpassenger: 1
-    kineticdamageresonance: 0.6700000166893005
-    lowslots: 3
-    maincolor: 16777215
-    marketGroup: 494
-    mass: 1.75E7
-    maxdirectionalvelocity: 3000
-    maxlockedtargets: 5
-    maxpassengers: 2
-    maxtargetrange: 40000.0
-    maxvelocity: 125.0
-    medslots: 2
-    miningbargebonusgasharvestingduration: -2
-    miningbargebonusgeneralminingholdcapacity: 5
-    miningbargebonusiceharvestingduration: -2
-    miningbargebonusoreminingyield: 3
-    mintargetveldmgmultiplier: 0.05000000074505806
-    name: Retriever
-    packagedVolume: 3750.0
-    portionSize: 1
-    poweroutput: 83
-    powertospeed: 1
-    price: 2.88E7
-    propulsiongraphicid: 397
-    published: true
-    radius: 202.0
-    rechargerate: 187500.0
-    requiredskill1: 17940
-    requiredskill1level: 1
-    rigsize: 2
-    rigslots: 3
-    scanmagnetometricstrength: 9.0
-    scanresolution: 550.0
-    scanspeed: 1500
-    shieldcapacity: 4000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1500000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    shiprolebonusgasharvesterduration: -12.5
-    shiprolebonusiceharvestingduration: -12.5
-    shiprolebonusoreminingyield: 10
     signatureradius: 200.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0

@@ -277,7 +277,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
         implements IMetaGroup<StructureCombatRigLPointDefenseBatteryApplicationAndProjection>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigLPointDefenseBatteryApplicationAndProjection.yaml";
-        private Map<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> cache = (null);
+        private Map<Integer, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigLPointDefenseBatteryApplicationAndProjection> category() {
@@ -295,7 +295,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> load() {
+        public synchronized Map<Integer, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigLPointDefenseBatteryApplicationAndProjection.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -309,7 +309,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> types;
+            public LinkedHashMap<Integer, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> types;
         }
     }
 }

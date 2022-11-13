@@ -117,7 +117,7 @@ public class ProjectileWeaponBlueprint
         implements IMetaGroup<ProjectileWeaponBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ProjectileWeaponBlueprint.yaml";
-        private Map<String, ProjectileWeaponBlueprint> cache = (null);
+        private Map<Integer, ProjectileWeaponBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ProjectileWeaponBlueprint> category() {
@@ -135,7 +135,7 @@ public class ProjectileWeaponBlueprint
         }
 
         @Override
-        public synchronized Map<String, ProjectileWeaponBlueprint> load() {
+        public synchronized Map<Integer, ProjectileWeaponBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ProjectileWeaponBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -149,7 +149,7 @@ public class ProjectileWeaponBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ProjectileWeaponBlueprint> types;
+            public LinkedHashMap<Integer, ProjectileWeaponBlueprint> types;
         }
     }
 }

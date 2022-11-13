@@ -349,7 +349,7 @@ public class RemoteSensorBooster
         implements IMetaGroup<RemoteSensorBooster>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RemoteSensorBooster.yaml";
-        private Map<String, RemoteSensorBooster> cache = (null);
+        private Map<Integer, RemoteSensorBooster> cache = (null);
 
         @Override
         public IMetaCategory<? super RemoteSensorBooster> category() {
@@ -367,7 +367,7 @@ public class RemoteSensorBooster
         }
 
         @Override
-        public synchronized Map<String, RemoteSensorBooster> load() {
+        public synchronized Map<Integer, RemoteSensorBooster> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteSensorBooster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -381,7 +381,7 @@ public class RemoteSensorBooster
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteSensorBooster> types;
+            public LinkedHashMap<Integer, RemoteSensorBooster> types;
         }
     }
 }

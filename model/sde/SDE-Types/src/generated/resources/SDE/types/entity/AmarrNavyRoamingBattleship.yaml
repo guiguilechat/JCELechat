@@ -1,5 +1,5 @@
 types:
-  Amarr Navy Apocalypse:
+  35812:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -83,7 +83,7 @@ types:
     volume: 495000.0
     warpscramblerange: 12500
     warpscramblestrength: 2
-  Amarr Navy Armageddon:
+  35816:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

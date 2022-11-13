@@ -1,5 +1,5 @@
 types:
-  Dismantler Drone:
+  25647:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -86,7 +86,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.06599999964237213
     volume: 60.0
-  Marauder Drone:
+  25661:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -172,7 +172,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.06599999964237213
     volume: 60.0
-  Predator Drone:
+  25666:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -258,7 +258,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.0820000022649765
     volume: 60.0
-  Ripper Drone:
+  25669:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -344,7 +344,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.3149999976158142
     volume: 60.0
-  Shatter Drone:
+  25671:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -430,7 +430,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.3149999976158142
     volume: 60.0
-  Shredder Drone:
+  25672:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

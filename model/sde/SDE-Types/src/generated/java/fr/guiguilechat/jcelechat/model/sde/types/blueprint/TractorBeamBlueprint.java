@@ -97,7 +97,7 @@ public class TractorBeamBlueprint
         implements IMetaGroup<TractorBeamBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/TractorBeamBlueprint.yaml";
-        private Map<String, TractorBeamBlueprint> cache = (null);
+        private Map<Integer, TractorBeamBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super TractorBeamBlueprint> category() {
@@ -115,7 +115,7 @@ public class TractorBeamBlueprint
         }
 
         @Override
-        public synchronized Map<String, TractorBeamBlueprint> load() {
+        public synchronized Map<Integer, TractorBeamBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TractorBeamBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class TractorBeamBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TractorBeamBlueprint> types;
+            public LinkedHashMap<Integer, TractorBeamBlueprint> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Missile Guidance Enhancer I:
+  35770:
     aoecloudsizebonus: -4.400000095367432
     aoevelocitybonus: 4.400000095367432
     cpu: 10.0
@@ -19,7 +19,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
-  Missile Guidance Enhancer II:
+  35771:
     aoecloudsizebonus: -6.0
     aoevelocitybonus: 6.0
     cpu: 15.0
@@ -40,7 +40,7 @@ types:
     requiredskill1level: 4
     techlevel: 2
     volume: 5.0
-  Pro-Nav Compact Missile Guidance Enhancer:
+  35774:
     aoecloudsizebonus: -5.5
     aoevelocitybonus: 5.5
     cpu: 8.0

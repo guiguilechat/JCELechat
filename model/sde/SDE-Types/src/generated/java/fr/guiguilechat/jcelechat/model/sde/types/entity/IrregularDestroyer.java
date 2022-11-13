@@ -2059,7 +2059,7 @@ public class IrregularDestroyer
         implements IMetaGroup<IrregularDestroyer>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularDestroyer.yaml";
-        private Map<String, IrregularDestroyer> cache = (null);
+        private Map<Integer, IrregularDestroyer> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularDestroyer> category() {
@@ -2077,7 +2077,7 @@ public class IrregularDestroyer
         }
 
         @Override
-        public synchronized Map<String, IrregularDestroyer> load() {
+        public synchronized Map<Integer, IrregularDestroyer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -2091,7 +2091,7 @@ public class IrregularDestroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularDestroyer> types;
+            public LinkedHashMap<Integer, IrregularDestroyer> types;
         }
     }
 }

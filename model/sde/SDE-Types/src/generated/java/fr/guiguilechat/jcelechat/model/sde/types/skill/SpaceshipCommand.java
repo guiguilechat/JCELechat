@@ -224,7 +224,7 @@ public class SpaceshipCommand
         implements IMetaGroup<SpaceshipCommand>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/SpaceshipCommand.yaml";
-        private Map<String, SpaceshipCommand> cache = (null);
+        private Map<Integer, SpaceshipCommand> cache = (null);
 
         @Override
         public IMetaCategory<? super SpaceshipCommand> category() {
@@ -242,7 +242,7 @@ public class SpaceshipCommand
         }
 
         @Override
-        public synchronized Map<String, SpaceshipCommand> load() {
+        public synchronized Map<Integer, SpaceshipCommand> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SpaceshipCommand.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -256,7 +256,7 @@ public class SpaceshipCommand
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpaceshipCommand> types;
+            public LinkedHashMap<Integer, SpaceshipCommand> types;
         }
     }
 }

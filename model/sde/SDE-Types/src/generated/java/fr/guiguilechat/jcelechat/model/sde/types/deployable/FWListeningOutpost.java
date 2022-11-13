@@ -37,7 +37,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Deployable;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class MobileObjective
+public class FWListeningOutpost
     extends Deployable
 {
     /**
@@ -105,7 +105,7 @@ public class MobileObjective
     @DefaultRealValue(1.0)
     public double structureuniformity;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ShieldUniformity.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, ShieldRechargeRate.INSTANCE })));
-    public static final MobileObjective.MetaGroup METAGROUP = new MobileObjective.MetaGroup();
+    public static final FWListeningOutpost.MetaGroup METAGROUP = new FWListeningOutpost.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -159,35 +159,35 @@ public class MobileObjective
     }
 
     @Override
-    public IMetaGroup<MobileObjective> getGroup() {
+    public IMetaGroup<FWListeningOutpost> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<MobileObjective>
+        implements IMetaGroup<FWListeningOutpost>
     {
-        public static final String RESOURCE_PATH = "SDE/types/deployable/MobileObjective.yaml";
-        private Map<String, MobileObjective> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/deployable/FWListeningOutpost.yaml";
+        private Map<Integer, FWListeningOutpost> cache = (null);
 
         @Override
-        public IMetaCategory<? super MobileObjective> category() {
+        public IMetaCategory<? super FWListeningOutpost> category() {
             return Deployable.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  4477;
+            return  4499;
         }
 
         @Override
         public String getName() {
-            return "MobileObjective";
+            return "FWListeningOutpost";
         }
 
         @Override
-        public synchronized Map<String, MobileObjective> load() {
+        public synchronized Map<Integer, FWListeningOutpost> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(MobileObjective.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(FWListeningOutpost.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -199,7 +199,7 @@ public class MobileObjective
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileObjective> types;
+            public LinkedHashMap<Integer, FWListeningOutpost> types;
         }
     }
 }

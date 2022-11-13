@@ -62,10 +62,10 @@ public class TypesTranslater {
 		DynamicClassLoader cl = new DynamicClassLoader(TypesTranslater.class.getClassLoader()).withCode(cm);
 		// filepath->item name -> object
 		// eg mycategory/mygroup.yaml -> item1-> new MyGroup()
-		HashMap<String, LinkedHashMap<String, Object>> exportItems = new HashMap<>();
+		HashMap<String, LinkedHashMap<Integer, Object>> exportItems = new HashMap<>();
 		HashMap<Integer, Object> builtItems = new HashMap<>();
 		// metainf
-		LinkedHashMap<String, String> name2group = new LinkedHashMap<>();
+		LinkedHashMap<Integer, String> id2group = new LinkedHashMap<>();
 		LinkedHashMap<String, String> group2class = new LinkedHashMap<>();
 
 		for (Entry<Integer, TypeDetails> e : hierarchy.typeID2Details.entrySet()) {
@@ -158,7 +158,7 @@ public class TypesTranslater {
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}
-			LinkedHashMap<String, Object> m = exportItems.get(fileName);
+			LinkedHashMap<Integer, Object> m = exportItems.get(fileName);
 			if (m == null) {
 				m = new LinkedHashMap<>();
 				exportItems.put(fileName, m);
@@ -167,18 +167,14 @@ public class TypesTranslater {
 						.get();
 				makeLoadMethod(metagroup, groupclass, cm, resFolder + fileName, true);
 			}
-			m.put(td.name, item);
+			m.put(td.id, item);
 			builtItems.put(e.getKey(), item);
-			// if (td.id == 24692) {
-			// System.err.println("type " + td.name + " mass is " + td.mass + " post
-			// write");
-			// }
 
 			// add metainf
 
 			String packageName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
 					+ item.getClass().getSimpleName();
-			name2group.put(td.name, packageName);
+			id2group.put(td.id, packageName);
 			if (!group2class.containsKey(packageName)) {
 				group2class.put(packageName, item.getClass().getName());
 			}
@@ -187,19 +183,12 @@ public class TypesTranslater {
 		// write the items
 
 		destFolder.mkdirs();
-		for (Entry<String, LinkedHashMap<String, Object>> groupItems : exportItems.entrySet()) {
-			if (groupItems.getKey().endsWith("/Battleship.yaml")) {
-				// var abaddon = groupItems.getValue().get("Abaddon");
-				// if (abaddon != null) {
-				// System.err.println("abaddon is " +
-				// groupItems.getValue().get("Abaddon"));
-				// }
-			}
-			LinkedHashMap<String, Object> map = groupItems.getValue();
-			ArrayList<Entry<String, Object>> sortingList = new ArrayList<>(map.entrySet());
+		for (Entry<String, LinkedHashMap<Integer, Object>> groupItems : exportItems.entrySet()) {
+			LinkedHashMap<Integer, Object> map = groupItems.getValue();
+			ArrayList<Entry<Integer, Object>> sortingList = new ArrayList<>(map.entrySet());
 			Collections.sort(sortingList, Comparator.comparing(Entry::getKey));
 			map.clear();
-			for (Entry<String, Object> e2 : sortingList) {
+			for (Entry<Integer, Object> e2 : sortingList) {
 				map.put(e2.getKey(), e2.getValue());
 			}
 			File out = new File(destFolder, groupItems.getKey());
@@ -209,7 +198,7 @@ public class TypesTranslater {
 				Yaml yaml = new Yaml(new CleanRepresenter(), YAMLTools.blockDumper());
 				yaml.dump(new Object() {
 					@SuppressWarnings("unused")
-					public LinkedHashMap<String, Object> types = map;
+					public LinkedHashMap<Integer, Object> types = map;
 				}, new FileWriter(out));
 			} catch (IOException e1) {
 				throw new UnsupportedOperationException("catch this", e1);
@@ -217,35 +206,25 @@ public class TypesTranslater {
 		}
 
 		// write metadata
-		// meta informations. we need to be able to find an item name, and its
-		// class, from its id.
-		LinkedHashMap<Integer, String> id2Name = new LinkedHashMap<>();
-		hierarchy.typeID2Details.keySet().stream().mapToInt(i -> i).sorted()
-		.forEach(i -> id2Name.put(i, hierarchy.typeID2Details.get(i).name));
+		// meta informations. we need to be able to find an item class, from its id.
+		LinkedHashMap<String, ArrayList<Integer>> sortedName2Ids = new LinkedHashMap<>();
+		hierarchy.typeID2Details.values().stream().sorted(Comparator.comparing(t -> t.name))
+		.forEach(t -> sortedName2Ids.getOrDefault(t.name, new ArrayList<>()).add(t.id));
 
-		ArrayList<String> sortedNames = new ArrayList<>(name2group.keySet());
-		Collections.sort(sortedNames);
-		LinkedHashMap<String, String> sortedName2Group = new LinkedHashMap<>();
-		for (String s : sortedNames) {
-			sortedName2Group.put(s, name2group.get(s));
-		}
-
-		ArrayList<String> sortedGroups = new ArrayList<>(group2class.keySet());
-		Collections.sort(sortedGroups);
-		LinkedHashMap<String, String> sortedGroup2Class = new LinkedHashMap<>();
-		for (String s : sortedGroups) {
-			sortedGroup2Class.put(s, group2class.get(s));
+		ArrayList<Integer> sortedIds = new ArrayList<>(id2group.keySet());
+		Collections.sort(sortedIds);
+		LinkedHashMap<Integer, String> sortedId2Group = new LinkedHashMap<>();
+		for (Integer id : sortedIds) {
+			sortedId2Group.put(id, id2group.get(id));
 		}
 
 		try {
 			Yaml yaml = new Yaml(new CleanRepresenter(), YAMLTools.blockDumper());
 			yaml.dump(new Object() {
 				@SuppressWarnings("unused")
-				public LinkedHashMap<Integer, String> id2name = id2Name;
+				LinkedHashMap<String, ArrayList<Integer>> name2Ids = sortedName2Ids;
 				@SuppressWarnings("unused")
-				public LinkedHashMap<String, String> name2group = sortedName2Group;
-				@SuppressWarnings("unused")
-				public LinkedHashMap<String, String> group2class = sortedGroup2Class;
+				public LinkedHashMap<Integer, String> id2group = sortedId2Group;
 			}, new FileWriter(new File(destFolder, "metainf.yaml")));
 		} catch (IOException e1) {
 			throw new UnsupportedOperationException("catch this", e1);
@@ -279,14 +258,14 @@ public class TypesTranslater {
 			// this allows to have snakeyaml parse a text file into a hahsmap
 			try {
 				metagroup._class(JMod.PRIVATE | JMod.STATIC, "Container").field(JMod.PUBLIC,
-						cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), loadedClass), "types");
+						cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), loadedClass), "types");
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this", e1);
 			}
 		}
 
 		// create the load method
-		AbstractJClass retType = container ? cm.ref(Map.class).narrow(cm.ref(String.class), loadedClass) : loadedClass;
+		AbstractJClass retType = container ? cm.ref(Map.class).narrow(cm.ref(Integer.class), loadedClass) : loadedClass;
 		// the cache of the load
 		JVar cache = metagroup.field(JMod.PRIVATE | (_static ? JMod.STATIC : 0), retType, "cache")
 				.init(JExpr.direct("null"));

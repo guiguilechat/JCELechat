@@ -1,5 +1,36 @@
 types:
-  Dread Guristas Standup Variable Spectrum ECM:
+  35940:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 3000.0
+    capacity: 1.0
+    chargegroup1: 1549
+    chargesize: 1
+    cpu: 4000.0
+    duration: 20000.0
+    falloffeffectiveness: 75000
+    hp: 40.0
+    id: 35940
+    marketGroup: 2211
+    mass: 500.0
+    maxrange: 75000.0
+    name: Standup Variable Spectrum ECM I
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 50000
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2253
+    scangravimetricstrengthbonus: 30.0
+    scanladarstrengthbonus: 30.0
+    scanmagnetometricstrengthbonus: 30.0
+    scanradarstrengthbonus: 30.0
+    structureitemvisualflag: 1
+    techlevel: 1
+    volume: 4000.0
+  46577:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -32,38 +63,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Variable Spectrum ECM I:
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    capacitorneed: 3000.0
-    capacity: 1.0
-    chargegroup1: 1549
-    chargesize: 1
-    cpu: 4000.0
-    duration: 20000.0
-    falloffeffectiveness: 75000
-    hp: 40.0
-    id: 35940
-    marketGroup: 2211
-    mass: 500.0
-    maxrange: 75000.0
-    name: Standup Variable Spectrum ECM I
-    packagedVolume: 4000.0
-    portionSize: 1
-    power: 50000
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    remoteresistanceid: 2253
-    scangravimetricstrengthbonus: 30.0
-    scanladarstrengthbonus: 30.0
-    scanmagnetometricstrengthbonus: 30.0
-    scanradarstrengthbonus: 30.0
-    structureitemvisualflag: 1
-    techlevel: 1
-    volume: 4000.0
-  Standup Variable Spectrum ECM II:
+  47338:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

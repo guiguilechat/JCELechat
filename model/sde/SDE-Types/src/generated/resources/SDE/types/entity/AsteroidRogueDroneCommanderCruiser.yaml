@@ -1,5 +1,5 @@
 types:
-  Sentient Annihilator Alvum:
+  27738:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -86,7 +86,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.14687499403953552
     volume: 60.0
-  Sentient Atomizer Alvum:
+  27739:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -175,7 +175,7 @@ types:
     thermaldamage: 16.0
     trackingspeed: 0.027499999850988388
     volume: 60.0
-  Sentient Bomber Alvum:
+  27740:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -264,7 +264,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.03375000134110451
     volume: 60.0
-  Sentient Destructor Alvum:
+  27741:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -351,7 +351,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.14687499403953552
     volume: 60.0
-  Sentient Devastator Alvum:
+  27742:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -439,7 +439,7 @@ types:
     thermaldamage: 6.0
     trackingspeed: 0.03375000134110451
     volume: 60.0
-  Sentient Disintegrator Alvum:
+  27743:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -528,7 +528,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.13199999928474426
     volume: 60.0
-  Sentient Nuker Alvum:
+  27744:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -618,7 +618,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.027499999850988388
     volume: 60.0
-  Sentient Violator Alvum:
+  27745:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -707,7 +707,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.13199999928474426
     volume: 60.0
-  Sentient Viral Infector Alvum:
+  27746:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -796,7 +796,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.03375000134110451
     volume: 60.0
-  Sentient Wrecker Alvum:
+  27747:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

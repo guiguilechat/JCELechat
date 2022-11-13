@@ -97,7 +97,7 @@ public class ShipScannerBlueprint
         implements IMetaGroup<ShipScannerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ShipScannerBlueprint.yaml";
-        private Map<String, ShipScannerBlueprint> cache = (null);
+        private Map<Integer, ShipScannerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ShipScannerBlueprint> category() {
@@ -115,7 +115,7 @@ public class ShipScannerBlueprint
         }
 
         @Override
-        public synchronized Map<String, ShipScannerBlueprint> load() {
+        public synchronized Map<Integer, ShipScannerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShipScannerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ShipScannerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShipScannerBlueprint> types;
+            public LinkedHashMap<Integer, ShipScannerBlueprint> types;
         }
     }
 }

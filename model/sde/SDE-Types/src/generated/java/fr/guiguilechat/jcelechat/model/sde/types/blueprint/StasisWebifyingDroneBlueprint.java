@@ -83,7 +83,7 @@ public class StasisWebifyingDroneBlueprint
         implements IMetaGroup<StasisWebifyingDroneBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StasisWebifyingDroneBlueprint.yaml";
-        private Map<String, StasisWebifyingDroneBlueprint> cache = (null);
+        private Map<Integer, StasisWebifyingDroneBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super StasisWebifyingDroneBlueprint> category() {
@@ -101,7 +101,7 @@ public class StasisWebifyingDroneBlueprint
         }
 
         @Override
-        public synchronized Map<String, StasisWebifyingDroneBlueprint> load() {
+        public synchronized Map<Integer, StasisWebifyingDroneBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StasisWebifyingDroneBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StasisWebifyingDroneBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisWebifyingDroneBlueprint> types;
+            public LinkedHashMap<Integer, StasisWebifyingDroneBlueprint> types;
         }
     }
 }

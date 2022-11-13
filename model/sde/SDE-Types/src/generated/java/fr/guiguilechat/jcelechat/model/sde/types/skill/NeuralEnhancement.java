@@ -151,7 +151,7 @@ public class NeuralEnhancement
         implements IMetaGroup<NeuralEnhancement>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/NeuralEnhancement.yaml";
-        private Map<String, NeuralEnhancement> cache = (null);
+        private Map<Integer, NeuralEnhancement> cache = (null);
 
         @Override
         public IMetaCategory<? super NeuralEnhancement> category() {
@@ -169,7 +169,7 @@ public class NeuralEnhancement
         }
 
         @Override
-        public synchronized Map<String, NeuralEnhancement> load() {
+        public synchronized Map<Integer, NeuralEnhancement> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NeuralEnhancement.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -183,7 +183,7 @@ public class NeuralEnhancement
         }
 
         private static class Container {
-            public LinkedHashMap<String, NeuralEnhancement> types;
+            public LinkedHashMap<Integer, NeuralEnhancement> types;
         }
     }
 }

@@ -217,7 +217,7 @@ public class FighterSupportUnit
         implements IMetaGroup<FighterSupportUnit>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/FighterSupportUnit.yaml";
-        private Map<String, FighterSupportUnit> cache = (null);
+        private Map<Integer, FighterSupportUnit> cache = (null);
 
         @Override
         public IMetaCategory<? super FighterSupportUnit> category() {
@@ -235,7 +235,7 @@ public class FighterSupportUnit
         }
 
         @Override
-        public synchronized Map<String, FighterSupportUnit> load() {
+        public synchronized Map<Integer, FighterSupportUnit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FighterSupportUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -249,7 +249,7 @@ public class FighterSupportUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, FighterSupportUnit> types;
+            public LinkedHashMap<Integer, FighterSupportUnit> types;
         }
     }
 }

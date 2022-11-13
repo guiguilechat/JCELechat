@@ -611,7 +611,7 @@ public class JumpFreighter
         implements IMetaGroup<JumpFreighter>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/JumpFreighter.yaml";
-        private Map<String, JumpFreighter> cache = (null);
+        private Map<Integer, JumpFreighter> cache = (null);
 
         @Override
         public IMetaCategory<? super JumpFreighter> category() {
@@ -629,7 +629,7 @@ public class JumpFreighter
         }
 
         @Override
-        public synchronized Map<String, JumpFreighter> load() {
+        public synchronized Map<Integer, JumpFreighter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(JumpFreighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -643,7 +643,7 @@ public class JumpFreighter
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpFreighter> types;
+            public LinkedHashMap<Integer, JumpFreighter> types;
         }
     }
 }

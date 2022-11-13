@@ -167,7 +167,7 @@ public class MobileAnalysisBeacon
         implements IMetaGroup<MobileAnalysisBeacon>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileAnalysisBeacon.yaml";
-        private Map<String, MobileAnalysisBeacon> cache = (null);
+        private Map<Integer, MobileAnalysisBeacon> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileAnalysisBeacon> category() {
@@ -185,7 +185,7 @@ public class MobileAnalysisBeacon
         }
 
         @Override
-        public synchronized Map<String, MobileAnalysisBeacon> load() {
+        public synchronized Map<Integer, MobileAnalysisBeacon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileAnalysisBeacon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -199,7 +199,7 @@ public class MobileAnalysisBeacon
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileAnalysisBeacon> types;
+            public LinkedHashMap<Integer, MobileAnalysisBeacon> types;
         }
     }
 }

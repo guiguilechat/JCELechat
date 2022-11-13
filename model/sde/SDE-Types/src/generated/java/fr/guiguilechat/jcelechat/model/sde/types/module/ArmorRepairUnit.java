@@ -241,7 +241,7 @@ public class ArmorRepairUnit
         implements IMetaGroup<ArmorRepairUnit>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ArmorRepairUnit.yaml";
-        private Map<String, ArmorRepairUnit> cache = (null);
+        private Map<Integer, ArmorRepairUnit> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorRepairUnit> category() {
@@ -259,7 +259,7 @@ public class ArmorRepairUnit
         }
 
         @Override
-        public synchronized Map<String, ArmorRepairUnit> load() {
+        public synchronized Map<Integer, ArmorRepairUnit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorRepairUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -273,7 +273,7 @@ public class ArmorRepairUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorRepairUnit> types;
+            public LinkedHashMap<Integer, ArmorRepairUnit> types;
         }
     }
 }

@@ -277,7 +277,7 @@ public class StructureCombatRigMEWProjection
         implements IMetaGroup<StructureCombatRigMEWProjection>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigMEWProjection.yaml";
-        private Map<String, StructureCombatRigMEWProjection> cache = (null);
+        private Map<Integer, StructureCombatRigMEWProjection> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigMEWProjection> category() {
@@ -295,7 +295,7 @@ public class StructureCombatRigMEWProjection
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigMEWProjection> load() {
+        public synchronized Map<Integer, StructureCombatRigMEWProjection> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigMEWProjection.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -309,7 +309,7 @@ public class StructureCombatRigMEWProjection
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigMEWProjection> types;
+            public LinkedHashMap<Integer, StructureCombatRigMEWProjection> types;
         }
     }
 }

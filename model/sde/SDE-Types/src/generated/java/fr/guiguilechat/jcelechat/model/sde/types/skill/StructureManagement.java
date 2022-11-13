@@ -139,7 +139,7 @@ public class StructureManagement
         implements IMetaGroup<StructureManagement>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/StructureManagement.yaml";
-        private Map<String, StructureManagement> cache = (null);
+        private Map<Integer, StructureManagement> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureManagement> category() {
@@ -157,7 +157,7 @@ public class StructureManagement
         }
 
         @Override
-        public synchronized Map<String, StructureManagement> load() {
+        public synchronized Map<Integer, StructureManagement> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureManagement.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -171,7 +171,7 @@ public class StructureManagement
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureManagement> types;
+            public LinkedHashMap<Integer, StructureManagement> types;
         }
     }
 }

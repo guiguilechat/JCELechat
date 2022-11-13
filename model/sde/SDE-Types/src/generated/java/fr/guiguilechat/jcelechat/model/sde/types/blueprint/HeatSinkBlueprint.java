@@ -97,7 +97,7 @@ public class HeatSinkBlueprint
         implements IMetaGroup<HeatSinkBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/HeatSinkBlueprint.yaml";
-        private Map<String, HeatSinkBlueprint> cache = (null);
+        private Map<Integer, HeatSinkBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super HeatSinkBlueprint> category() {
@@ -115,7 +115,7 @@ public class HeatSinkBlueprint
         }
 
         @Override
-        public synchronized Map<String, HeatSinkBlueprint> load() {
+        public synchronized Map<Integer, HeatSinkBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HeatSinkBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class HeatSinkBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, HeatSinkBlueprint> types;
+            public LinkedHashMap<Integer, HeatSinkBlueprint> types;
         }
     }
 }

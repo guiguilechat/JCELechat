@@ -32,7 +32,7 @@ public class PhysicalPortals
         implements IMetaGroup<PhysicalPortals>
     {
         public static final String RESOURCE_PATH = "SDE/types/cells/PhysicalPortals.yaml";
-        private Map<String, PhysicalPortals> cache = (null);
+        private Map<Integer, PhysicalPortals> cache = (null);
 
         @Override
         public IMetaCategory<? super PhysicalPortals> category() {
@@ -50,7 +50,7 @@ public class PhysicalPortals
         }
 
         @Override
-        public synchronized Map<String, PhysicalPortals> load() {
+        public synchronized Map<Integer, PhysicalPortals> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PhysicalPortals.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class PhysicalPortals
         }
 
         private static class Container {
-            public LinkedHashMap<String, PhysicalPortals> types;
+            public LinkedHashMap<Integer, PhysicalPortals> types;
         }
     }
 }

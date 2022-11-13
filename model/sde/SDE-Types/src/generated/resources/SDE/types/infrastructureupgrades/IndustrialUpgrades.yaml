@@ -1,5 +1,5 @@
 types:
-  Ore Prospecting Array 1:
+  2040:
     devindexindustrial: 1
     distributionid01: 364
     id: 2040
@@ -12,7 +12,7 @@ types:
     published: true
     radius: 1.0
     volume: 5000.0
-  Ore Prospecting Array 2:
+  2041:
     devindexindustrial: 2
     distributionid01: 365
     id: 2041
@@ -26,7 +26,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2040
     volume: 10000.0
-  Ore Prospecting Array 3:
+  2042:
     devindexindustrial: 3
     distributionid01: 366
     distributionid02: 676
@@ -42,7 +42,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2041
     volume: 20000.0
-  Ore Prospecting Array 4:
+  2043:
     devindexindustrial: 4
     distributionid01: 367
     distributionid02: 678
@@ -58,7 +58,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2042
     volume: 40000.0
-  Ore Prospecting Array 5:
+  2044:
     devindexindustrial: 5
     distributionid01: 368
     distributionid02: 679
@@ -74,7 +74,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2043
     volume: 60000.0
-  Survey Networks 1:
+  2053:
     devindexindustrial: 1
     distributionidangel01: 369
     distributionidblood01: 374
@@ -92,7 +92,7 @@ types:
     published: true
     radius: 1.0
     volume: 5000.0
-  Survey Networks 2:
+  2054:
     devindexindustrial: 2
     distributionidangel01: 370
     distributionidblood01: 375
@@ -111,7 +111,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2053
     volume: 10000.0
-  Survey Networks 3:
+  2055:
     devindexindustrial: 3
     distributionidangel01: 371
     distributionidblood01: 376
@@ -130,7 +130,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2054
     volume: 20000.0
-  Survey Networks 4:
+  2056:
     devindexindustrial: 4
     distributionidangel01: 372
     distributionidblood01: 377
@@ -149,7 +149,7 @@ types:
     radius: 1.0
     sovupgraderequiredupgradeid: 2055
     volume: 40000.0
-  Survey Networks 5:
+  2057:
     devindexindustrial: 5
     distributionidangel01: 373
     distributionidblood01: 378

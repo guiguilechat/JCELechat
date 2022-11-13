@@ -32,7 +32,7 @@ public class AccelerationGateKeys
         implements IMetaGroup<AccelerationGateKeys>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/AccelerationGateKeys.yaml";
-        private Map<String, AccelerationGateKeys> cache = (null);
+        private Map<Integer, AccelerationGateKeys> cache = (null);
 
         @Override
         public IMetaCategory<? super AccelerationGateKeys> category() {
@@ -50,7 +50,7 @@ public class AccelerationGateKeys
         }
 
         @Override
-        public synchronized Map<String, AccelerationGateKeys> load() {
+        public synchronized Map<Integer, AccelerationGateKeys> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AccelerationGateKeys.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class AccelerationGateKeys
         }
 
         private static class Container {
-            public LinkedHashMap<String, AccelerationGateKeys> types;
+            public LinkedHashMap<Integer, AccelerationGateKeys> types;
         }
     }
 }

@@ -965,7 +965,7 @@ public class AsteroidSerpentisOfficer
         implements IMetaGroup<AsteroidSerpentisOfficer>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidSerpentisOfficer.yaml";
-        private Map<String, AsteroidSerpentisOfficer> cache = (null);
+        private Map<Integer, AsteroidSerpentisOfficer> cache = (null);
 
         @Override
         public IMetaCategory<? super AsteroidSerpentisOfficer> category() {
@@ -983,7 +983,7 @@ public class AsteroidSerpentisOfficer
         }
 
         @Override
-        public synchronized Map<String, AsteroidSerpentisOfficer> load() {
+        public synchronized Map<Integer, AsteroidSerpentisOfficer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AsteroidSerpentisOfficer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -997,7 +997,7 @@ public class AsteroidSerpentisOfficer
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidSerpentisOfficer> types;
+            public LinkedHashMap<Integer, AsteroidSerpentisOfficer> types;
         }
     }
 }

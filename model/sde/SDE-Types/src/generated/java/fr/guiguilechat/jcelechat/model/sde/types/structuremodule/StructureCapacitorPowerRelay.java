@@ -178,7 +178,7 @@ public class StructureCapacitorPowerRelay
         implements IMetaGroup<StructureCapacitorPowerRelay>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCapacitorPowerRelay.yaml";
-        private Map<String, StructureCapacitorPowerRelay> cache = (null);
+        private Map<Integer, StructureCapacitorPowerRelay> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCapacitorPowerRelay> category() {
@@ -196,7 +196,7 @@ public class StructureCapacitorPowerRelay
         }
 
         @Override
-        public synchronized Map<String, StructureCapacitorPowerRelay> load() {
+        public synchronized Map<Integer, StructureCapacitorPowerRelay> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCapacitorPowerRelay.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -210,7 +210,7 @@ public class StructureCapacitorPowerRelay
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCapacitorPowerRelay> types;
+            public LinkedHashMap<Integer, StructureCapacitorPowerRelay> types;
         }
     }
 }

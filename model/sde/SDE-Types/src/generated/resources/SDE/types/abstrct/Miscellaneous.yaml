@@ -1,5 +1,5 @@
 types:
-  Asset Safety Wrap:
+  60:
     id: 60
     mass: 1.0
     name: Asset Safety Wrap
@@ -7,7 +7,7 @@ types:
     portionSize: 1
     published: false
     volume: 1.0
-  SKIN:
+  34870:
     id: 34870
     name: SKIN
     portionSize: 1

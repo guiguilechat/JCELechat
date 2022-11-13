@@ -877,7 +877,7 @@ public class UnidentifiedEntities
         implements IMetaGroup<UnidentifiedEntities>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/UnidentifiedEntities.yaml";
-        private Map<String, UnidentifiedEntities> cache = (null);
+        private Map<Integer, UnidentifiedEntities> cache = (null);
 
         @Override
         public IMetaCategory<? super UnidentifiedEntities> category() {
@@ -895,7 +895,7 @@ public class UnidentifiedEntities
         }
 
         @Override
-        public synchronized Map<String, UnidentifiedEntities> load() {
+        public synchronized Map<Integer, UnidentifiedEntities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(UnidentifiedEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -909,7 +909,7 @@ public class UnidentifiedEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, UnidentifiedEntities> types;
+            public LinkedHashMap<Integer, UnidentifiedEntities> types;
         }
     }
 }

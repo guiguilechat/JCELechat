@@ -83,7 +83,7 @@ public class TitanBlueprint
         implements IMetaGroup<TitanBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/TitanBlueprint.yaml";
-        private Map<String, TitanBlueprint> cache = (null);
+        private Map<Integer, TitanBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super TitanBlueprint> category() {
@@ -101,7 +101,7 @@ public class TitanBlueprint
         }
 
         @Override
-        public synchronized Map<String, TitanBlueprint> load() {
+        public synchronized Map<Integer, TitanBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TitanBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class TitanBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TitanBlueprint> types;
+            public LinkedHashMap<Integer, TitanBlueprint> types;
         }
     }
 }

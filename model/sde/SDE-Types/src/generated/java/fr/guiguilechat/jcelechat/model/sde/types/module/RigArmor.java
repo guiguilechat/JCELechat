@@ -197,7 +197,7 @@ public class RigArmor
         implements IMetaGroup<RigArmor>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigArmor.yaml";
-        private Map<String, RigArmor> cache = (null);
+        private Map<Integer, RigArmor> cache = (null);
 
         @Override
         public IMetaCategory<? super RigArmor> category() {
@@ -215,7 +215,7 @@ public class RigArmor
         }
 
         @Override
-        public synchronized Map<String, RigArmor> load() {
+        public synchronized Map<Integer, RigArmor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigArmor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -229,7 +229,7 @@ public class RigArmor
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigArmor> types;
+            public LinkedHashMap<Integer, RigArmor> types;
         }
     }
 }

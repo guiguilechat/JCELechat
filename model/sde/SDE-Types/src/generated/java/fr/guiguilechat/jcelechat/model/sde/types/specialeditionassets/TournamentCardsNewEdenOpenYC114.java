@@ -32,7 +32,7 @@ public class TournamentCardsNewEdenOpenYC114
         implements IMetaGroup<TournamentCardsNewEdenOpenYC114>
     {
         public static final String RESOURCE_PATH = "SDE/types/specialeditionassets/TournamentCardsNewEdenOpenYC114.yaml";
-        private Map<String, TournamentCardsNewEdenOpenYC114> cache = (null);
+        private Map<Integer, TournamentCardsNewEdenOpenYC114> cache = (null);
 
         @Override
         public IMetaCategory<? super TournamentCardsNewEdenOpenYC114> category() {
@@ -50,7 +50,7 @@ public class TournamentCardsNewEdenOpenYC114
         }
 
         @Override
-        public synchronized Map<String, TournamentCardsNewEdenOpenYC114> load() {
+        public synchronized Map<Integer, TournamentCardsNewEdenOpenYC114> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TournamentCardsNewEdenOpenYC114 .MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class TournamentCardsNewEdenOpenYC114
         }
 
         private static class Container {
-            public LinkedHashMap<String, TournamentCardsNewEdenOpenYC114> types;
+            public LinkedHashMap<Integer, TournamentCardsNewEdenOpenYC114> types;
         }
     }
 }

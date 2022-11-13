@@ -229,7 +229,7 @@ public class CapacitorBooster
         implements IMetaGroup<CapacitorBooster>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CapacitorBooster.yaml";
-        private Map<String, CapacitorBooster> cache = (null);
+        private Map<Integer, CapacitorBooster> cache = (null);
 
         @Override
         public IMetaCategory<? super CapacitorBooster> category() {
@@ -247,7 +247,7 @@ public class CapacitorBooster
         }
 
         @Override
-        public synchronized Map<String, CapacitorBooster> load() {
+        public synchronized Map<Integer, CapacitorBooster> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapacitorBooster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -261,7 +261,7 @@ public class CapacitorBooster
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapacitorBooster> types;
+            public LinkedHashMap<Integer, CapacitorBooster> types;
         }
     }
 }

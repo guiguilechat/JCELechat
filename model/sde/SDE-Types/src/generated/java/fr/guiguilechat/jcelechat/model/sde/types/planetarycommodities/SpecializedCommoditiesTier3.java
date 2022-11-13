@@ -38,7 +38,7 @@ public class SpecializedCommoditiesTier3
         implements IMetaGroup<SpecializedCommoditiesTier3>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetarycommodities/SpecializedCommoditiesTier3.yaml";
-        private Map<String, SpecializedCommoditiesTier3> cache = (null);
+        private Map<Integer, SpecializedCommoditiesTier3> cache = (null);
 
         @Override
         public IMetaCategory<? super SpecializedCommoditiesTier3> category() {
@@ -56,7 +56,7 @@ public class SpecializedCommoditiesTier3
         }
 
         @Override
-        public synchronized Map<String, SpecializedCommoditiesTier3> load() {
+        public synchronized Map<Integer, SpecializedCommoditiesTier3> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SpecializedCommoditiesTier3 .MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -70,7 +70,7 @@ public class SpecializedCommoditiesTier3
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpecializedCommoditiesTier3> types;
+            public LinkedHashMap<Integer, SpecializedCommoditiesTier3> types;
         }
     }
 }

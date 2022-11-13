@@ -97,7 +97,7 @@ public class StrategicCruiserBlueprints
         implements IMetaGroup<StrategicCruiserBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StrategicCruiserBlueprints.yaml";
-        private Map<String, StrategicCruiserBlueprints> cache = (null);
+        private Map<Integer, StrategicCruiserBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StrategicCruiserBlueprints> category() {
@@ -115,7 +115,7 @@ public class StrategicCruiserBlueprints
         }
 
         @Override
-        public synchronized Map<String, StrategicCruiserBlueprints> load() {
+        public synchronized Map<Integer, StrategicCruiserBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StrategicCruiserBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class StrategicCruiserBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StrategicCruiserBlueprints> types;
+            public LinkedHashMap<Integer, StrategicCruiserBlueprints> types;
         }
     }
 }

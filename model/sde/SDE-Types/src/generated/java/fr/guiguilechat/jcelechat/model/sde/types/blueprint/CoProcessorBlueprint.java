@@ -97,7 +97,7 @@ public class CoProcessorBlueprint
         implements IMetaGroup<CoProcessorBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CoProcessorBlueprint.yaml";
-        private Map<String, CoProcessorBlueprint> cache = (null);
+        private Map<Integer, CoProcessorBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super CoProcessorBlueprint> category() {
@@ -115,7 +115,7 @@ public class CoProcessorBlueprint
         }
 
         @Override
-        public synchronized Map<String, CoProcessorBlueprint> load() {
+        public synchronized Map<Integer, CoProcessorBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CoProcessorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class CoProcessorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CoProcessorBlueprint> types;
+            public LinkedHashMap<Integer, CoProcessorBlueprint> types;
         }
     }
 }

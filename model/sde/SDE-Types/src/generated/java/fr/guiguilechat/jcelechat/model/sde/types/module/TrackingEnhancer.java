@@ -157,7 +157,7 @@ public class TrackingEnhancer
         implements IMetaGroup<TrackingEnhancer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/TrackingEnhancer.yaml";
-        private Map<String, TrackingEnhancer> cache = (null);
+        private Map<Integer, TrackingEnhancer> cache = (null);
 
         @Override
         public IMetaCategory<? super TrackingEnhancer> category() {
@@ -175,7 +175,7 @@ public class TrackingEnhancer
         }
 
         @Override
-        public synchronized Map<String, TrackingEnhancer> load() {
+        public synchronized Map<Integer, TrackingEnhancer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TrackingEnhancer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -189,7 +189,7 @@ public class TrackingEnhancer
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingEnhancer> types;
+            public LinkedHashMap<Integer, TrackingEnhancer> types;
         }
     }
 }

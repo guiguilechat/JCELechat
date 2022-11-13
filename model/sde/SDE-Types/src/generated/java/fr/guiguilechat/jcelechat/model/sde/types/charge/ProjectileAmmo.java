@@ -227,7 +227,7 @@ public class ProjectileAmmo
         implements IMetaGroup<ProjectileAmmo>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/ProjectileAmmo.yaml";
-        private Map<String, ProjectileAmmo> cache = (null);
+        private Map<Integer, ProjectileAmmo> cache = (null);
 
         @Override
         public IMetaCategory<? super ProjectileAmmo> category() {
@@ -245,7 +245,7 @@ public class ProjectileAmmo
         }
 
         @Override
-        public synchronized Map<String, ProjectileAmmo> load() {
+        public synchronized Map<Integer, ProjectileAmmo> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ProjectileAmmo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -259,7 +259,7 @@ public class ProjectileAmmo
         }
 
         private static class Container {
-            public LinkedHashMap<String, ProjectileAmmo> types;
+            public LinkedHashMap<Integer, ProjectileAmmo> types;
         }
     }
 }

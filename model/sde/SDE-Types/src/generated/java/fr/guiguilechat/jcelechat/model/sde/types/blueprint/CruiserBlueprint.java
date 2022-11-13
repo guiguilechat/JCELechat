@@ -109,7 +109,7 @@ public class CruiserBlueprint
         implements IMetaGroup<CruiserBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CruiserBlueprint.yaml";
-        private Map<String, CruiserBlueprint> cache = (null);
+        private Map<Integer, CruiserBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super CruiserBlueprint> category() {
@@ -127,7 +127,7 @@ public class CruiserBlueprint
         }
 
         @Override
-        public synchronized Map<String, CruiserBlueprint> load() {
+        public synchronized Map<Integer, CruiserBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CruiserBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -141,7 +141,7 @@ public class CruiserBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CruiserBlueprint> types;
+            public LinkedHashMap<Integer, CruiserBlueprint> types;
         }
     }
 }

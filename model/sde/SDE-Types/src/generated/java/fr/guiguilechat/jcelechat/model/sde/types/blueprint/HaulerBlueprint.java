@@ -96,7 +96,7 @@ public class HaulerBlueprint
         implements IMetaGroup<HaulerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/HaulerBlueprint.yaml";
-        private Map<String, HaulerBlueprint> cache = (null);
+        private Map<Integer, HaulerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super HaulerBlueprint> category() {
@@ -114,7 +114,7 @@ public class HaulerBlueprint
         }
 
         @Override
-        public synchronized Map<String, HaulerBlueprint> load() {
+        public synchronized Map<Integer, HaulerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HaulerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -128,7 +128,7 @@ public class HaulerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, HaulerBlueprint> types;
+            public LinkedHashMap<Integer, HaulerBlueprint> types;
         }
     }
 }

@@ -145,7 +145,7 @@ public class UpwellCynoBeacon
         implements IMetaGroup<UpwellCynoBeacon>
     {
         public static final String RESOURCE_PATH = "SDE/types/structure/UpwellCynoBeacon.yaml";
-        private Map<String, UpwellCynoBeacon> cache = (null);
+        private Map<Integer, UpwellCynoBeacon> cache = (null);
 
         @Override
         public IMetaCategory<? super UpwellCynoBeacon> category() {
@@ -163,7 +163,7 @@ public class UpwellCynoBeacon
         }
 
         @Override
-        public synchronized Map<String, UpwellCynoBeacon> load() {
+        public synchronized Map<Integer, UpwellCynoBeacon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(UpwellCynoBeacon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class UpwellCynoBeacon
         }
 
         private static class Container {
-            public LinkedHashMap<String, UpwellCynoBeacon> types;
+            public LinkedHashMap<Integer, UpwellCynoBeacon> types;
         }
     }
 }

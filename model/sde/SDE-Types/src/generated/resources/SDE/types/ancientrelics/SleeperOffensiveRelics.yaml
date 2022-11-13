@@ -1,5 +1,5 @@
 types:
-  Intact Weapon Subroutines:
+  30628:
     id: 30628
     industryblueprintrank: 2.0
     marketGroup: 1909
@@ -9,7 +9,7 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
-  Malfunctioning Weapon Subroutines:
+  30632:
     id: 30632
     industryblueprintrank: 2.0
     marketGroup: 1909
@@ -19,7 +19,7 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
-  Wrecked Weapon Subroutines:
+  30633:
     id: 30633
     industryblueprintrank: 2.0
     marketGroup: 1909

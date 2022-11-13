@@ -314,7 +314,7 @@ public class LargeCollidableShip
         implements IMetaGroup<LargeCollidableShip>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/LargeCollidableShip.yaml";
-        private Map<String, LargeCollidableShip> cache = (null);
+        private Map<Integer, LargeCollidableShip> cache = (null);
 
         @Override
         public IMetaCategory<? super LargeCollidableShip> category() {
@@ -332,7 +332,7 @@ public class LargeCollidableShip
         }
 
         @Override
-        public synchronized Map<String, LargeCollidableShip> load() {
+        public synchronized Map<Integer, LargeCollidableShip> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LargeCollidableShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -346,7 +346,7 @@ public class LargeCollidableShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, LargeCollidableShip> types;
+            public LinkedHashMap<Integer, LargeCollidableShip> types;
         }
     }
 }

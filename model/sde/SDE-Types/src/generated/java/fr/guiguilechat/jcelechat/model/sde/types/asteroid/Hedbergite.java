@@ -92,7 +92,7 @@ public class Hedbergite
         implements IMetaGroup<Hedbergite>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Hedbergite.yaml";
-        private Map<String, Hedbergite> cache = (null);
+        private Map<Integer, Hedbergite> cache = (null);
 
         @Override
         public IMetaCategory<? super Hedbergite> category() {
@@ -110,7 +110,7 @@ public class Hedbergite
         }
 
         @Override
-        public synchronized Map<String, Hedbergite> load() {
+        public synchronized Map<Integer, Hedbergite> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Hedbergite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class Hedbergite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Hedbergite> types;
+            public LinkedHashMap<Integer, Hedbergite> types;
         }
     }
 }

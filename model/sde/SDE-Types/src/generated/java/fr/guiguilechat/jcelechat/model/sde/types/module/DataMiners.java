@@ -301,7 +301,7 @@ public class DataMiners
         implements IMetaGroup<DataMiners>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/DataMiners.yaml";
-        private Map<String, DataMiners> cache = (null);
+        private Map<Integer, DataMiners> cache = (null);
 
         @Override
         public IMetaCategory<? super DataMiners> category() {
@@ -319,7 +319,7 @@ public class DataMiners
         }
 
         @Override
-        public synchronized Map<String, DataMiners> load() {
+        public synchronized Map<Integer, DataMiners> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DataMiners.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -333,7 +333,7 @@ public class DataMiners
         }
 
         private static class Container {
-            public LinkedHashMap<String, DataMiners> types;
+            public LinkedHashMap<Integer, DataMiners> types;
         }
     }
 }

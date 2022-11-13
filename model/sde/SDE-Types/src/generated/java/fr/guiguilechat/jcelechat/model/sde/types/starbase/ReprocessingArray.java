@@ -198,7 +198,7 @@ public class ReprocessingArray
         implements IMetaGroup<ReprocessingArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/ReprocessingArray.yaml";
-        private Map<String, ReprocessingArray> cache = (null);
+        private Map<Integer, ReprocessingArray> cache = (null);
 
         @Override
         public IMetaCategory<? super ReprocessingArray> category() {
@@ -216,7 +216,7 @@ public class ReprocessingArray
         }
 
         @Override
-        public synchronized Map<String, ReprocessingArray> load() {
+        public synchronized Map<Integer, ReprocessingArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ReprocessingArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -230,7 +230,7 @@ public class ReprocessingArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, ReprocessingArray> types;
+            public LinkedHashMap<Integer, ReprocessingArray> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Hyasyoda Research Lab Technical Data Chip:
+  45584:
     id: 45584
     marketGroup: 2317
     name: Hyasyoda Research Lab Technical Data Chip
@@ -7,7 +7,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Thukker Capital Component Manufacturing Technical Data Chip:
+  45585:
     id: 45585
     marketGroup: 2317
     name: Thukker Capital Component Manufacturing Technical Data Chip

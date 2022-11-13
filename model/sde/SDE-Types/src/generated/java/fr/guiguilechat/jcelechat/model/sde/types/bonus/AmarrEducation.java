@@ -131,7 +131,7 @@ public class AmarrEducation
         implements IMetaGroup<AmarrEducation>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/AmarrEducation.yaml";
-        private Map<String, AmarrEducation> cache = (null);
+        private Map<Integer, AmarrEducation> cache = (null);
 
         @Override
         public IMetaCategory<? super AmarrEducation> category() {
@@ -149,7 +149,7 @@ public class AmarrEducation
         }
 
         @Override
-        public synchronized Map<String, AmarrEducation> load() {
+        public synchronized Map<Integer, AmarrEducation> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AmarrEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -163,7 +163,7 @@ public class AmarrEducation
         }
 
         private static class Container {
-            public LinkedHashMap<String, AmarrEducation> types;
+            public LinkedHashMap<Integer, AmarrEducation> types;
         }
     }
 }

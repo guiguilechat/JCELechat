@@ -117,7 +117,7 @@ public class HybridWeaponBlueprint
         implements IMetaGroup<HybridWeaponBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/HybridWeaponBlueprint.yaml";
-        private Map<String, HybridWeaponBlueprint> cache = (null);
+        private Map<Integer, HybridWeaponBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super HybridWeaponBlueprint> category() {
@@ -135,7 +135,7 @@ public class HybridWeaponBlueprint
         }
 
         @Override
-        public synchronized Map<String, HybridWeaponBlueprint> load() {
+        public synchronized Map<Integer, HybridWeaponBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HybridWeaponBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -149,7 +149,7 @@ public class HybridWeaponBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridWeaponBlueprint> types;
+            public LinkedHashMap<Integer, HybridWeaponBlueprint> types;
         }
     }
 }

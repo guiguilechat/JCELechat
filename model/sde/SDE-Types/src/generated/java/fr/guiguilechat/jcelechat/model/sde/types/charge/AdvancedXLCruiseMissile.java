@@ -364,7 +364,7 @@ public class AdvancedXLCruiseMissile
         implements IMetaGroup<AdvancedXLCruiseMissile>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedXLCruiseMissile.yaml";
-        private Map<String, AdvancedXLCruiseMissile> cache = (null);
+        private Map<Integer, AdvancedXLCruiseMissile> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedXLCruiseMissile> category() {
@@ -382,7 +382,7 @@ public class AdvancedXLCruiseMissile
         }
 
         @Override
-        public synchronized Map<String, AdvancedXLCruiseMissile> load() {
+        public synchronized Map<Integer, AdvancedXLCruiseMissile> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedXLCruiseMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -396,7 +396,7 @@ public class AdvancedXLCruiseMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedXLCruiseMissile> types;
+            public LinkedHashMap<Integer, AdvancedXLCruiseMissile> types;
         }
     }
 }

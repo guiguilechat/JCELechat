@@ -1,73 +1,5 @@
 types:
-  Civilian Amarr Bestower:
-    agility: 0.9300000071525574
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.800000011920929
-    armorhp: 6000.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 625.0
-    capacity: 5100.0
-    damagemultiplier: 1.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitybracketcolour: 2
-    entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 90000
-    entitychasemaxduration: 5000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 65.0
-    entityequipmentmax: 9
-    entityequipmentmin: 7
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 70000.0
-    entitygrouprespawnchance: 1
-    entityoverviewshipgroupid: 28
-    entityreactionfactor: 1.0
-    entityshieldboostduration: 10000
-    falloff: 1.0
-    gfxboosterid: 395
-    hp: 3000.0
-    id: 30974
-    mass: 1.35E7
-    maxdirectionalvelocity: 1
-    maxvelocity: 115.0
-    mintargetveldmgmultiplier: 1.0
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
-    missileentityflighttimemultiplier: 1.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 20000.0
-    name: Civilian Amarr Bestower
-    optimalsigradius: 1000
-    packagedVolume: 260000.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 400.0
-    rechargerate: 346250.0
-    scangravimetricstrength: 13.0
-    scanspeed: 9000
-    shieldcapacity: 1000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 250.0
-    structureuniformity: 1.0
-    uniformity: 1.0
-    volume: 260000.0
-  Jamur Fatimar:
+  25557:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -153,3 +85,71 @@ types:
     thermaldamage: 20.0
     trackingspeed: 0.013920499943196774
     volume: 1150000.0
+  30974:
+    agility: 0.9300000071525574
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 6000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    capacitorcapacity: 625.0
+    capacity: 5100.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitybracketcolour: 2
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 90000
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 65.0
+    entityequipmentmax: 9
+    entityequipmentmin: 7
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 70000.0
+    entitygrouprespawnchance: 1
+    entityoverviewshipgroupid: 28
+    entityreactionfactor: 1.0
+    entityshieldboostduration: 10000
+    falloff: 1.0
+    gfxboosterid: 395
+    hp: 3000.0
+    id: 30974
+    mass: 1.35E7
+    maxdirectionalvelocity: 1
+    maxvelocity: 115.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Civilian Amarr Bestower
+    optimalsigradius: 1000
+    packagedVolume: 260000.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 400.0
+    rechargerate: 346250.0
+    scangravimetricstrength: 13.0
+    scanspeed: 9000
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 250.0
+    structureuniformity: 1.0
+    uniformity: 1.0
+    volume: 260000.0

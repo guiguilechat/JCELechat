@@ -1,5 +1,5 @@
 types:
-  Sensor Dampening Battery:
+  17180:
     anchoringdelay: 5000
     armorhp: 1500000.0
     armoruniformity: 0.75
@@ -54,7 +54,7 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Serpentis Sensor Dampening Battery:
+  27778:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
@@ -110,7 +110,7 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Shadow Sensor Dampening Battery:
+  27779:
     anchoringdelay: 5000
     armorhp: 3000000.0
     armoruniformity: 0.75

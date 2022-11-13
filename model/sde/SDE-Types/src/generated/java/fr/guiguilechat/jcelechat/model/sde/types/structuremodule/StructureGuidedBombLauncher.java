@@ -402,7 +402,7 @@ public class StructureGuidedBombLauncher
         implements IMetaGroup<StructureGuidedBombLauncher>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureGuidedBombLauncher.yaml";
-        private Map<String, StructureGuidedBombLauncher> cache = (null);
+        private Map<Integer, StructureGuidedBombLauncher> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureGuidedBombLauncher> category() {
@@ -420,7 +420,7 @@ public class StructureGuidedBombLauncher
         }
 
         @Override
-        public synchronized Map<String, StructureGuidedBombLauncher> load() {
+        public synchronized Map<Integer, StructureGuidedBombLauncher> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureGuidedBombLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -434,7 +434,7 @@ public class StructureGuidedBombLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureGuidedBombLauncher> types;
+            public LinkedHashMap<Integer, StructureGuidedBombLauncher> types;
         }
     }
 }

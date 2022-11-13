@@ -905,7 +905,7 @@ public class RoamingSerpentisBattleship
         implements IMetaGroup<RoamingSerpentisBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/RoamingSerpentisBattleship.yaml";
-        private Map<String, RoamingSerpentisBattleship> cache = (null);
+        private Map<Integer, RoamingSerpentisBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super RoamingSerpentisBattleship> category() {
@@ -923,7 +923,7 @@ public class RoamingSerpentisBattleship
         }
 
         @Override
-        public synchronized Map<String, RoamingSerpentisBattleship> load() {
+        public synchronized Map<Integer, RoamingSerpentisBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RoamingSerpentisBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -937,7 +937,7 @@ public class RoamingSerpentisBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingSerpentisBattleship> types;
+            public LinkedHashMap<Integer, RoamingSerpentisBattleship> types;
         }
     }
 }

@@ -167,7 +167,7 @@ public class MobileObservatory
         implements IMetaGroup<MobileObservatory>
     {
         public static final String RESOURCE_PATH = "SDE/types/deployable/MobileObservatory.yaml";
-        private Map<String, MobileObservatory> cache = (null);
+        private Map<Integer, MobileObservatory> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileObservatory> category() {
@@ -185,7 +185,7 @@ public class MobileObservatory
         }
 
         @Override
-        public synchronized Map<String, MobileObservatory> load() {
+        public synchronized Map<Integer, MobileObservatory> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileObservatory.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -199,7 +199,7 @@ public class MobileObservatory
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileObservatory> types;
+            public LinkedHashMap<Integer, MobileObservatory> types;
         }
     }
 }

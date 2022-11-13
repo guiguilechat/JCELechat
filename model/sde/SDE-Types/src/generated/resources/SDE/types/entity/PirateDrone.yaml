@@ -1,5 +1,5 @@
 types:
-  Angel Fugitive:
+  12245:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -88,149 +88,232 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.05999999865889549
     volume: 21120.0
-  Apocalypse 125ms 2500m:
+  12246:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5699999928474426
-    armorexplosivedamageresonance: 0.27000001072883606
-    armorhp: 6750.0
-    armorkineticdamageresonance: 0.3700000047683716
-    armorthermaldamageresonance: 0.4699999988079071
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 55.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    capacitorcapacity: 3300.0
-    capacity: 235.0
-    damagemultiplier: 9.0
+    capacitorcapacity: 120.0
+    capacity: 120.0
+    damagemultiplier: 0.625
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
-    emdamage: 16.0
+    emdamage: 2.0
     emdamageresonance: 1.0
-    entityarmorrepairamount: 470.0
-    entityarmorrepairdelaychancelarge: 0.6800000071525574
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 14700
-    entityattackdelaymin: 3675
-    entityattackrange: 95000
+    entityattackdelaymax: 20000
+    entityattackdelaymin: 7500
+    entityattackrange: 3500
     entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.25
-    entitychasemaxdistance: 57000
-    entitychasemaxduration: 10000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 125.0
-    entitydefenderchance: 0.11999999731779099
-    entityequipmentmax: 7
-    entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 2500.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 1
+    entityfactionloss: 0.0010000000474974513
+    entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 950000
-    entitylootcountmin: 1
+    entitykillbounty: 2000
     entitymaxvelocitysignatureradiusmultiplier: 6
-    entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.800000011920929
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.30000001192092896
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.1899999976158142
+    entitysecuritystatuskillbonus: 0.0024999999441206455
     entityshieldboostduration: 10000
+    entitystrength: 1
     explosivedamageresonance: 1.0
-    falloff: 12000.0
+    falloff: 2000.0
     gfxboosterid: 397
-    gfxturretid: 461
-    hp: 5250.0
-    id: 25215
+    gfxturretid: 450
+    hp: 55.0
+    id: 12246
     kineticdamageresonance: 1.0
-    mass: 1.95E7
+    mass: 2810000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
-    maxrange: 35000.0
-    maxvelocity: 1120.0
+    maxrange: 500.0
+    maxvelocity: 250.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
-    missileentityflighttimemultiplier: 1.0
-    missileentityvelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 20000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
-    name: Apocalypse 125ms 2500m
-    optimalsigradius: 400
-    packagedVolume: 1150000.0
+    name: Blood Fugitive
+    optimalsigradius: 100
+    packagedVolume: 28100.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 350.0
-    rechargerate: 1000000.0
-    scanradarstrength: 24.0
-    scanresolution: 110.0
-    shieldcapacity: 4750.0
-    shieldemdamageresonance: 0.5699999928474426
-    shieldexplosivedamageresonance: 0.27000001072883606
-    shieldkineticdamageresonance: 0.3700000047683716
+    radius: 39.0
+    rechargerate: 500000.0
+    scanradarstrength: 4.0
+    scanresolution: 850.0
+    scanspeed: 4000
+    shieldcapacity: 50.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4699999988079071
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 340.0
-    speed: 3000.0
+    signatureradius: 100.0
+    speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 16.0
+    thermaldamage: 2.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.017500000074505806
-    volume: 1150000.0
-  Automated Centii Keyholder:
+    trackingspeed: 0.05999999865889549
+    volume: 28100.0
+  12248:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorhp: 12.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 50.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    capacitorcapacity: 60.0
-    capacity: 60.0
-    damagemultiplier: 0.21250000596046448
+    capacitorcapacity: 235.0
+    capacity: 235.0
+    damagemultiplier: 0.625
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
-    emdamage: 1.0
+    emdamage: 2.0
     emdamageresonance: 1.0
-    entityarmorrepairamount: 5.0
-    entityarmorrepairduration: 25000
-    entityattackdelaymax: 20000
-    entityattackdelaymin: 14500
-    entityattackrange: 5000
+    entityattackdelaymax: 18500
+    entityattackdelaymin: 7000
+    entityattackrange: 3500
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 2500
+    entitychasemaxdistance: 5000
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
     entityequipmentmax: 1
-    entityequipmentmin: 1
+    entityfactionloss: 0.0012499999720603228
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 2000
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.30000001192092896
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.0031250000465661287
+    entityshieldboostduration: 10000
+    entitystrength: 2
+    explosivedamageresonance: 1.0
+    falloff: 2000.0
+    gfxboosterid: 394
+    gfxturretid: 450
+    hp: 55.0
+    id: 12248
+    kineticdamageresonance: 1.0
+    mass: 2000000.0
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 1
+    maxrange: 500.0
+    maxvelocity: 250.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Sansha's Fugitive
+    optimalsigradius: 100
+    packagedVolume: 20000.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 31.0
+    rechargerate: 500000.0
+    scanradarstrength: 4.0
+    scanresolution: 850.0
+    scanspeed: 3500
+    shieldcapacity: 50.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    speed: 2500.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 2.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.05999999865889549
+    volume: 20000.0
+  12249:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 55.0
+    armorkineticdamageresonance: 0.8500000238418579
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    capacitorcapacity: 60.0
+    capacity: 60.0
+    damagemultiplier: 0.9375
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackdelaymax: 20000
+    entityattackdelaymin: 7500
+    entityattackrange: 5000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 1
     entityfactionloss: 0.0010000000474974513
     entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100
+    entitykillbounty: 2000
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.30000001192092896
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.004999999888241291
+    entitysecuritystatuskillbonus: 0.0024999999441206455
     entityshieldboostduration: 10000
+    entitystrength: 1
     explosivedamageresonance: 1.0
     falloff: 4000.0
     gfxboosterid: 394
-    gfxturretid: 450
-    hp: 12.0
-    id: 22053
+    gfxturretid: 562
+    hp: 55.0
+    id: 12249
+    kineticdamage: 2.0
     kineticdamageresonance: 1.0
     mass: 2450000.0
     maxattacktargets: 1
@@ -247,123 +330,33 @@ types:
     missilelaunchduration: 20000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
-    name: Automated Centii Keyholder
-    optimalsigradius: 40
+    name: Serpentis Fugitive
+    optimalsigradius: 100
     packagedVolume: 24500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 50.0
+    radius: 40.0
     rechargerate: 500000.0
-    scanradarstrength: 1.0
+    scanmagnetometricstrength: 4.0
     scanresolution: 850.0
-    shieldcapacity: 12.0
+    scanspeed: 4000
+    shieldcapacity: 50.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 3000000.0
-    shieldthermaldamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 40.0
+    signatureradius: 100.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 1.0
+    thermaldamage: 2.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.05999999865889549
     volume: 24500.0
-  Automated Centii Training Vessel:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorhp: 8.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.75
-    armoruniformity: 0.75
-    capacitorcapacity: 60.0
-    capacity: 60.0
-    damagemultiplier: 0.1875
-    damagemultiplierbonusmax: 0.5
-    disallowassistance: 1
-    emdamage: 1.0
-    emdamageresonance: 1.0
-    entityarmorrepairamount: 5.0
-    entityarmorrepairduration: 25000
-    entityattackdelaymax: 20000
-    entityattackdelaymin: 14500
-    entityattackrange: 5000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 2500
-    entitychasemaxduration: 5000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 1
-    entityequipmentmin: 1
-    entityfactionloss: 0.0010000000474974513
-    entityflyrange: 250.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 100
-    entitylootcountmin: 1
-    entitymaxvelocitysignatureradiusmultiplier: 6
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.30000001192092896
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.004999999888241291
-    entityshieldboostduration: 10000
-    explosivedamageresonance: 1.0
-    falloff: 4000.0
-    gfxboosterid: 394
-    gfxturretid: 450
-    hp: 12.0
-    id: 21849
-    kineticdamageresonance: 1.0
-    mass: 2450000.0
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1
-    maxlockedtargets: 1
-    maxrange: 125.0
-    maxvelocity: 250.0
-    mintargetveldmgmultiplier: 1.0
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 20000.0
-    modifytargetspeedduration: 5000.0
-    modifytargetspeedrange: 20000
-    name: Automated Centii Training Vessel
-    optimalsigradius: 40
-    packagedVolume: 24500.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scanradarstrength: 1.0
-    scanresolution: 850.0
-    shieldcapacity: 8.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 0.75
-    signatureradius: 40.0
-    speed: 2500.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 1.0
-    thermaldamageresonance: 1.0
-    trackingspeed: 0.36500000953674316
-    volume: 24500.0
-  Automated Coreli Training Vessel:
+  21845:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -453,98 +446,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.36500000953674316
     volume: 24500.0
-  Automated Corpii Training Vessel:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorhp: 8.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.75
-    armoruniformity: 0.75
-    capacitorcapacity: 60.0
-    capacity: 60.0
-    damagemultiplier: 0.1875
-    damagemultiplierbonusmax: 0.5
-    disallowassistance: 1
-    emdamage: 1.0
-    emdamageresonance: 1.0
-    entityarmorrepairamount: 5.0
-    entityarmorrepairduration: 25000
-    entityattackdelaymax: 20000
-    entityattackdelaymin: 14500
-    entityattackrange: 5000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 2500
-    entitychasemaxduration: 5000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 1
-    entityequipmentmin: 1
-    entityfactionloss: 0.0010000000474974513
-    entityflyrange: 250.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 100
-    entitylootcountmin: 1
-    entitymaxvelocitysignatureradiusmultiplier: 6
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.30000001192092896
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.004999999888241291
-    entityshieldboostduration: 10000
-    explosivedamageresonance: 1.0
-    falloff: 4000.0
-    gfxboosterid: 394
-    gfxturretid: 450
-    hp: 12.0
-    id: 21847
-    kineticdamageresonance: 1.0
-    mass: 2450000.0
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1
-    maxlockedtargets: 1
-    maxrange: 125.0
-    maxvelocity: 250.0
-    mintargetveldmgmultiplier: 1.0
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
-    missileentityflighttimemultiplier: 1.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 20000.0
-    modifytargetspeedduration: 5000.0
-    modifytargetspeedrange: 20000
-    name: Automated Corpii Training Vessel
-    optimalsigradius: 40
-    packagedVolume: 24500.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scanradarstrength: 1.0
-    scanresolution: 850.0
-    shieldcapacity: 8.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 0.75
-    signatureradius: 40.0
-    speed: 2500.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 1.0
-    thermaldamageresonance: 1.0
-    trackingspeed: 0.36500000953674316
-    volume: 24500.0
-  Automated Gisti Training Vessel:
+  21846:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -638,7 +540,98 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.36500000953674316
     volume: 24500.0
-  Automated Pithi Training Vessel:
+  21847:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 8.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.75
+    armoruniformity: 0.75
+    capacitorcapacity: 60.0
+    capacity: 60.0
+    damagemultiplier: 0.1875
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamage: 1.0
+    emdamageresonance: 1.0
+    entityarmorrepairamount: 5.0
+    entityarmorrepairduration: 25000
+    entityattackdelaymax: 20000
+    entityattackdelaymin: 14500
+    entityattackrange: 5000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityfactionloss: 0.0010000000474974513
+    entityflyrange: 250.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 100
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.30000001192092896
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.004999999888241291
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 1.0
+    falloff: 4000.0
+    gfxboosterid: 394
+    gfxturretid: 450
+    hp: 12.0
+    id: 21847
+    kineticdamageresonance: 1.0
+    mass: 2450000.0
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 1
+    maxrange: 125.0
+    maxvelocity: 250.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Automated Corpii Training Vessel
+    optimalsigradius: 40
+    packagedVolume: 24500.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scanradarstrength: 1.0
+    scanresolution: 850.0
+    shieldcapacity: 8.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 40.0
+    speed: 2500.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.36500000953674316
+    volume: 24500.0
+  21848:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -732,59 +725,62 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.36500000953674316
     volume: 24500.0
-  Blood Fugitive:
+  21849:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 55.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 8.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
-    capacitorcapacity: 120.0
-    capacity: 120.0
-    damagemultiplier: 0.625
+    capacitorcapacity: 60.0
+    capacity: 60.0
+    damagemultiplier: 0.1875
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
-    emdamage: 2.0
+    emdamage: 1.0
     emdamageresonance: 1.0
+    entityarmorrepairamount: 5.0
+    entityarmorrepairduration: 25000
     entityattackdelaymax: 20000
-    entityattackdelaymin: 7500
-    entityattackrange: 3500
+    entityattackdelaymin: 14500
+    entityattackrange: 5000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 5000
+    entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
     entityequipmentmax: 1
+    entityequipmentmin: 1
     entityfactionloss: 0.0010000000474974513
-    entityflyrange: 500.0
+    entityflyrange: 250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 2000
+    entitykillbounty: 100
+    entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.30000001192092896
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.0024999999441206455
+    entitysecuritystatuskillbonus: 0.004999999888241291
     entityshieldboostduration: 10000
-    entitystrength: 1
     explosivedamageresonance: 1.0
-    falloff: 2000.0
-    gfxboosterid: 397
+    falloff: 4000.0
+    gfxboosterid: 394
     gfxturretid: 450
-    hp: 55.0
-    id: 12246
+    hp: 12.0
+    id: 21849
     kineticdamageresonance: 1.0
-    mass: 2810000.0
+    mass: 2450000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
-    maxrange: 500.0
+    maxrange: 125.0
     maxvelocity: 250.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
@@ -795,33 +791,216 @@ types:
     missilelaunchduration: 20000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
-    name: Blood Fugitive
-    optimalsigradius: 100
-    packagedVolume: 28100.0
+    name: Automated Centii Training Vessel
+    optimalsigradius: 40
+    packagedVolume: 24500.0
     portionSize: 1
-    propulsiongraphicid: 397
+    propulsiongraphicid: 394
     published: false
-    radius: 39.0
+    radius: 50.0
     rechargerate: 500000.0
-    scanradarstrength: 4.0
+    scanradarstrength: 1.0
     scanresolution: 850.0
-    scanspeed: 4000
-    shieldcapacity: 50.0
+    shieldcapacity: 8.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 40.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 2.0
+    thermaldamage: 1.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.05999999865889549
-    volume: 28100.0
-  Petty Thief:
+    trackingspeed: 0.36500000953674316
+    volume: 24500.0
+  22053:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 12.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.75
+    armoruniformity: 0.75
+    capacitorcapacity: 60.0
+    capacity: 60.0
+    damagemultiplier: 0.21250000596046448
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamage: 1.0
+    emdamageresonance: 1.0
+    entityarmorrepairamount: 5.0
+    entityarmorrepairduration: 25000
+    entityattackdelaymax: 20000
+    entityattackdelaymin: 14500
+    entityattackrange: 5000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityfactionloss: 0.0010000000474974513
+    entityflyrange: 250.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 100
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.30000001192092896
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.004999999888241291
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 1.0
+    falloff: 4000.0
+    gfxboosterid: 394
+    gfxturretid: 450
+    hp: 12.0
+    id: 22053
+    kineticdamageresonance: 1.0
+    mass: 2450000.0
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 1
+    maxrange: 125.0
+    maxvelocity: 250.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Automated Centii Keyholder
+    optimalsigradius: 40
+    packagedVolume: 24500.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scanradarstrength: 1.0
+    scanresolution: 850.0
+    shieldcapacity: 12.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 3000000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 40.0
+    speed: 2500.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.36500000953674316
+    volume: 24500.0
+  25215:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.5699999928474426
+    armorexplosivedamageresonance: 0.27000001072883606
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.3700000047683716
+    armorthermaldamageresonance: 0.4699999988079071
+    armoruniformity: 0.75
+    capacitorcapacity: 3300.0
+    capacity: 235.0
+    damagemultiplier: 9.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamage: 16.0
+    emdamageresonance: 1.0
+    entityarmorrepairamount: 470.0
+    entityarmorrepairdelaychancelarge: 0.6800000071525574
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 14700
+    entityattackdelaymin: 3675
+    entityattackrange: 95000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.25
+    entitychasemaxdistance: 57000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 125.0
+    entitydefenderchance: 0.11999999731779099
+    entityequipmentmax: 7
+    entityequipmentmin: 4
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 2500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 950000
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityoverviewshipgroupid: 27
+    entityreactionfactor: 0.800000011920929
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.1899999976158142
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 1.0
+    falloff: 12000.0
+    gfxboosterid: 397
+    gfxturretid: 461
+    hp: 5250.0
+    id: 25215
+    kineticdamageresonance: 1.0
+    mass: 1.95E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 1
+    maxrange: 35000.0
+    maxvelocity: 1120.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Apocalypse 125ms 2500m
+    optimalsigradius: 400
+    packagedVolume: 1150000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 350.0
+    rechargerate: 1000000.0
+    scanradarstrength: 24.0
+    scanresolution: 110.0
+    shieldcapacity: 4750.0
+    shieldemdamageresonance: 0.5699999928474426
+    shieldexplosivedamageresonance: 0.27000001072883606
+    shieldkineticdamageresonance: 0.3700000047683716
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.4699999988079071
+    shielduniformity: 0.75
+    signatureradius: 340.0
+    speed: 3000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.017500000074505806
+    volume: 1150000.0
+  27801:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -912,96 +1091,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.25
     volume: 21120.0
-  Sansha's Fugitive:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 50.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 235.0
-    capacity: 235.0
-    damagemultiplier: 0.625
-    damagemultiplierbonusmax: 0.5
-    disallowassistance: 1
-    emdamage: 2.0
-    emdamageresonance: 1.0
-    entityattackdelaymax: 18500
-    entityattackdelaymin: 7000
-    entityattackrange: 3500
-    entitybracketcolour: 1
-    entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 5000
-    entitychasemaxduration: 5000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 1
-    entityfactionloss: 0.0012499999720603228
-    entityflyrange: 500.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 2000
-    entitymaxvelocitysignatureradiusmultiplier: 6
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.30000001192092896
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.0031250000465661287
-    entityshieldboostduration: 10000
-    entitystrength: 2
-    explosivedamageresonance: 1.0
-    falloff: 2000.0
-    gfxboosterid: 394
-    gfxturretid: 450
-    hp: 55.0
-    id: 12248
-    kineticdamageresonance: 1.0
-    mass: 2000000.0
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1
-    maxlockedtargets: 1
-    maxrange: 500.0
-    maxvelocity: 250.0
-    mintargetveldmgmultiplier: 1.0
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 20000.0
-    modifytargetspeedduration: 5000.0
-    modifytargetspeedrange: 20000
-    name: Sansha's Fugitive
-    optimalsigradius: 100
-    packagedVolume: 20000.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 31.0
-    rechargerate: 500000.0
-    scanradarstrength: 4.0
-    scanresolution: 850.0
-    scanspeed: 3500
-    shieldcapacity: 50.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 100.0
-    speed: 2500.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 2.0
-    thermaldamageresonance: 1.0
-    trackingspeed: 0.05999999865889549
-    volume: 20000.0
-  Serenity Only Chinese Spring Festival Event NPC Lv1:
+  57332:
     agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
     armordamageamount: 44.0
@@ -1089,7 +1179,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 100.0
     volume: 28600.0
-  Serenity Only Chinese Spring Festival Event NPC Lv2:
+  57397:
     agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
     armordamageamount: 50.0
@@ -1177,7 +1267,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 100.0
     volume: 43000.0
-  Serenity Only Chinese Spring Festival Event NPC Lv3:
+  57398:
     agility: 0.30000001192092896
     aitankingmodifierdrone: 0.699999988079071
     armordamageamount: 156.0
@@ -1265,7 +1355,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 100.0
     volume: 118000.0
-  Serenity Only Chinese Spring Festival Event NPC Lv4:
+  57399:
     agility: 0.10000000149011612
     aitankingmodifierdrone: 0.699999988079071
     armordamageamount: 375.0
@@ -1354,93 +1444,3 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 100.0
     volume: 495000.0
-  Serpentis Fugitive:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 55.0
-    armorkineticdamageresonance: 0.8500000238418579
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 60.0
-    capacity: 60.0
-    damagemultiplier: 0.9375
-    damagemultiplierbonusmax: 0.5
-    disallowassistance: 1
-    emdamageresonance: 1.0
-    entityattackdelaymax: 20000
-    entityattackdelaymin: 7500
-    entityattackrange: 5000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 5000
-    entitychasemaxduration: 5000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 1
-    entityfactionloss: 0.0010000000474974513
-    entityflyrange: 250.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 2000
-    entitylootcountmin: 1
-    entitymaxvelocitysignatureradiusmultiplier: 6
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.30000001192092896
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.0024999999441206455
-    entityshieldboostduration: 10000
-    entitystrength: 1
-    explosivedamageresonance: 1.0
-    falloff: 4000.0
-    gfxboosterid: 394
-    gfxturretid: 562
-    hp: 55.0
-    id: 12249
-    kineticdamage: 2.0
-    kineticdamageresonance: 1.0
-    mass: 2450000.0
-    maxattacktargets: 1
-    maxdirectionalvelocity: 1
-    maxlockedtargets: 1
-    maxrange: 125.0
-    maxvelocity: 250.0
-    mintargetveldmgmultiplier: 1.0
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 20000.0
-    modifytargetspeedduration: 5000.0
-    modifytargetspeedrange: 20000
-    name: Serpentis Fugitive
-    optimalsigradius: 100
-    packagedVolume: 24500.0
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 40.0
-    rechargerate: 500000.0
-    scanmagnetometricstrength: 4.0
-    scanresolution: 850.0
-    scanspeed: 4000
-    shieldcapacity: 50.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 100.0
-    speed: 2500.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 2.0
-    thermaldamageresonance: 1.0
-    trackingspeed: 0.05999999865889549
-    volume: 24500.0

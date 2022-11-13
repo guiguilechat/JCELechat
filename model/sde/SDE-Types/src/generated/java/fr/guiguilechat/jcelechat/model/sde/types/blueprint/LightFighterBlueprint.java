@@ -97,7 +97,7 @@ public class LightFighterBlueprint
         implements IMetaGroup<LightFighterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/LightFighterBlueprint.yaml";
-        private Map<String, LightFighterBlueprint> cache = (null);
+        private Map<Integer, LightFighterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super LightFighterBlueprint> category() {
@@ -115,7 +115,7 @@ public class LightFighterBlueprint
         }
 
         @Override
-        public synchronized Map<String, LightFighterBlueprint> load() {
+        public synchronized Map<Integer, LightFighterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LightFighterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class LightFighterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, LightFighterBlueprint> types;
+            public LinkedHashMap<Integer, LightFighterBlueprint> types;
         }
     }
 }

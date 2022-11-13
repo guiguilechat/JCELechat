@@ -157,7 +157,7 @@ public class ExtractorControlUnits
         implements IMetaGroup<ExtractorControlUnits>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/ExtractorControlUnits.yaml";
-        private Map<String, ExtractorControlUnits> cache = (null);
+        private Map<Integer, ExtractorControlUnits> cache = (null);
 
         @Override
         public IMetaCategory<? super ExtractorControlUnits> category() {
@@ -175,7 +175,7 @@ public class ExtractorControlUnits
         }
 
         @Override
-        public synchronized Map<String, ExtractorControlUnits> load() {
+        public synchronized Map<Integer, ExtractorControlUnits> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ExtractorControlUnits.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -189,7 +189,7 @@ public class ExtractorControlUnits
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExtractorControlUnits> types;
+            public LinkedHashMap<Integer, ExtractorControlUnits> types;
         }
     }
 }

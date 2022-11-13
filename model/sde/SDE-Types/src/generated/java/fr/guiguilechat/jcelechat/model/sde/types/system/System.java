@@ -31,7 +31,7 @@ public class System
         implements IMetaGroup<System>
     {
         public static final String RESOURCE_PATH = "SDE/types/system/System.yaml";
-        private Map<String, System> cache = (null);
+        private Map<Integer, System> cache = (null);
 
         @Override
         public IMetaCategory<? super System> category() {
@@ -49,7 +49,7 @@ public class System
         }
 
         @Override
-        public synchronized Map<String, System> load() {
+        public synchronized Map<Integer, System> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(System.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -63,7 +63,7 @@ public class System
         }
 
         private static class Container {
-            public LinkedHashMap<String, System> types;
+            public LinkedHashMap<Integer, System> types;
         }
     }
 }

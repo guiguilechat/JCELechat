@@ -255,7 +255,7 @@ public class DefenderMissiles
         implements IMetaGroup<DefenderMissiles>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/DefenderMissiles.yaml";
-        private Map<String, DefenderMissiles> cache = (null);
+        private Map<Integer, DefenderMissiles> cache = (null);
 
         @Override
         public IMetaCategory<? super DefenderMissiles> category() {
@@ -273,7 +273,7 @@ public class DefenderMissiles
         }
 
         @Override
-        public synchronized Map<String, DefenderMissiles> load() {
+        public synchronized Map<Integer, DefenderMissiles> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DefenderMissiles.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -287,7 +287,7 @@ public class DefenderMissiles
         }
 
         private static class Container {
-            public LinkedHashMap<String, DefenderMissiles> types;
+            public LinkedHashMap<Integer, DefenderMissiles> types;
         }
     }
 }

@@ -975,7 +975,7 @@ public class IrregularCorvette
         implements IMetaGroup<IrregularCorvette>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularCorvette.yaml";
-        private Map<String, IrregularCorvette> cache = (null);
+        private Map<Integer, IrregularCorvette> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularCorvette> category() {
@@ -993,7 +993,7 @@ public class IrregularCorvette
         }
 
         @Override
-        public synchronized Map<String, IrregularCorvette> load() {
+        public synchronized Map<Integer, IrregularCorvette> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularCorvette.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1007,7 +1007,7 @@ public class IrregularCorvette
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularCorvette> types;
+            public LinkedHashMap<Integer, IrregularCorvette> types;
         }
     }
 }

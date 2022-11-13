@@ -1423,7 +1423,7 @@ public class IncursionSanshaSNationCruiser
         implements IMetaGroup<IncursionSanshaSNationCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IncursionSanshaSNationCruiser.yaml";
-        private Map<String, IncursionSanshaSNationCruiser> cache = (null);
+        private Map<Integer, IncursionSanshaSNationCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super IncursionSanshaSNationCruiser> category() {
@@ -1441,7 +1441,7 @@ public class IncursionSanshaSNationCruiser
         }
 
         @Override
-        public synchronized Map<String, IncursionSanshaSNationCruiser> load() {
+        public synchronized Map<Integer, IncursionSanshaSNationCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IncursionSanshaSNationCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1455,7 +1455,7 @@ public class IncursionSanshaSNationCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, IncursionSanshaSNationCruiser> types;
+            public LinkedHashMap<Integer, IncursionSanshaSNationCruiser> types;
         }
     }
 }

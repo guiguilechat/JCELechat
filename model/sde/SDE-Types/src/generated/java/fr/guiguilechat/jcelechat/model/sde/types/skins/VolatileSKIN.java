@@ -32,7 +32,7 @@ public class VolatileSKIN
         implements IMetaGroup<VolatileSKIN>
     {
         public static final String RESOURCE_PATH = "SDE/types/skins/VolatileSKIN.yaml";
-        private Map<String, VolatileSKIN> cache = (null);
+        private Map<Integer, VolatileSKIN> cache = (null);
 
         @Override
         public IMetaCategory<? super VolatileSKIN> category() {
@@ -50,7 +50,7 @@ public class VolatileSKIN
         }
 
         @Override
-        public synchronized Map<String, VolatileSKIN> load() {
+        public synchronized Map<Integer, VolatileSKIN> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(VolatileSKIN.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class VolatileSKIN
         }
 
         private static class Container {
-            public LinkedHashMap<String, VolatileSKIN> types;
+            public LinkedHashMap<Integer, VolatileSKIN> types;
         }
     }
 }

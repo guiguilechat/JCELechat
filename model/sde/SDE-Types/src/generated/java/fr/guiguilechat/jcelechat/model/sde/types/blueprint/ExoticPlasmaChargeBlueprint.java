@@ -32,7 +32,7 @@ public class ExoticPlasmaChargeBlueprint
         implements IMetaGroup<ExoticPlasmaChargeBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ExoticPlasmaChargeBlueprint.yaml";
-        private Map<String, ExoticPlasmaChargeBlueprint> cache = (null);
+        private Map<Integer, ExoticPlasmaChargeBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ExoticPlasmaChargeBlueprint> category() {
@@ -50,7 +50,7 @@ public class ExoticPlasmaChargeBlueprint
         }
 
         @Override
-        public synchronized Map<String, ExoticPlasmaChargeBlueprint> load() {
+        public synchronized Map<Integer, ExoticPlasmaChargeBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ExoticPlasmaChargeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class ExoticPlasmaChargeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExoticPlasmaChargeBlueprint> types;
+            public LinkedHashMap<Integer, ExoticPlasmaChargeBlueprint> types;
         }
     }
 }

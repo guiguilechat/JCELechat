@@ -181,7 +181,7 @@ public class IndustrialUpgrades
         implements IMetaGroup<IndustrialUpgrades>
     {
         public static final String RESOURCE_PATH = "SDE/types/infrastructureupgrades/IndustrialUpgrades.yaml";
-        private Map<String, IndustrialUpgrades> cache = (null);
+        private Map<Integer, IndustrialUpgrades> cache = (null);
 
         @Override
         public IMetaCategory<? super IndustrialUpgrades> category() {
@@ -199,7 +199,7 @@ public class IndustrialUpgrades
         }
 
         @Override
-        public synchronized Map<String, IndustrialUpgrades> load() {
+        public synchronized Map<Integer, IndustrialUpgrades> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IndustrialUpgrades.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class IndustrialUpgrades
         }
 
         private static class Container {
-            public LinkedHashMap<String, IndustrialUpgrades> types;
+            public LinkedHashMap<Integer, IndustrialUpgrades> types;
         }
     }
 }

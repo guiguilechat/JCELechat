@@ -146,7 +146,7 @@ public class MissileGuidanceScript
         implements IMetaGroup<MissileGuidanceScript>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/MissileGuidanceScript.yaml";
-        private Map<String, MissileGuidanceScript> cache = (null);
+        private Map<Integer, MissileGuidanceScript> cache = (null);
 
         @Override
         public IMetaCategory<? super MissileGuidanceScript> category() {
@@ -164,7 +164,7 @@ public class MissileGuidanceScript
         }
 
         @Override
-        public synchronized Map<String, MissileGuidanceScript> load() {
+        public synchronized Map<Integer, MissileGuidanceScript> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissileGuidanceScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -178,7 +178,7 @@ public class MissileGuidanceScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileGuidanceScript> types;
+            public LinkedHashMap<Integer, MissileGuidanceScript> types;
         }
     }
 }

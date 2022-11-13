@@ -67,7 +67,7 @@ public class Rigging
         implements IMetaGroup<Rigging>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Rigging.yaml";
-        private Map<String, Rigging> cache = (null);
+        private Map<Integer, Rigging> cache = (null);
 
         @Override
         public IMetaCategory<? super Rigging> category() {
@@ -85,7 +85,7 @@ public class Rigging
         }
 
         @Override
-        public synchronized Map<String, Rigging> load() {
+        public synchronized Map<Integer, Rigging> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Rigging.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -99,7 +99,7 @@ public class Rigging
         }
 
         private static class Container {
-            public LinkedHashMap<String, Rigging> types;
+            public LinkedHashMap<Integer, Rigging> types;
         }
     }
 }

@@ -32,7 +32,7 @@ public class Alliance
         implements IMetaGroup<Alliance>
     {
         public static final String RESOURCE_PATH = "SDE/types/owner/Alliance.yaml";
-        private Map<String, Alliance> cache = (null);
+        private Map<Integer, Alliance> cache = (null);
 
         @Override
         public IMetaCategory<? super Alliance> category() {
@@ -50,7 +50,7 @@ public class Alliance
         }
 
         @Override
-        public synchronized Map<String, Alliance> load() {
+        public synchronized Map<Integer, Alliance> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Alliance.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Alliance
         }
 
         private static class Container {
-            public LinkedHashMap<String, Alliance> types;
+            public LinkedHashMap<Integer, Alliance> types;
         }
     }
 }

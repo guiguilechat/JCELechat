@@ -92,7 +92,7 @@ public class Spodumain
         implements IMetaGroup<Spodumain>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Spodumain.yaml";
-        private Map<String, Spodumain> cache = (null);
+        private Map<Integer, Spodumain> cache = (null);
 
         @Override
         public IMetaCategory<? super Spodumain> category() {
@@ -110,7 +110,7 @@ public class Spodumain
         }
 
         @Override
-        public synchronized Map<String, Spodumain> load() {
+        public synchronized Map<Integer, Spodumain> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Spodumain.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class Spodumain
         }
 
         private static class Container {
-            public LinkedHashMap<String, Spodumain> types;
+            public LinkedHashMap<Integer, Spodumain> types;
         }
     }
 }

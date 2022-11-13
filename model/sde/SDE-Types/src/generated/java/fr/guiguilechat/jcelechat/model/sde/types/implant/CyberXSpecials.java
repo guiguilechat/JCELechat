@@ -149,7 +149,7 @@ public class CyberXSpecials
         implements IMetaGroup<CyberXSpecials>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberXSpecials.yaml";
-        private Map<String, CyberXSpecials> cache = (null);
+        private Map<Integer, CyberXSpecials> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberXSpecials> category() {
@@ -167,7 +167,7 @@ public class CyberXSpecials
         }
 
         @Override
-        public synchronized Map<String, CyberXSpecials> load() {
+        public synchronized Map<Integer, CyberXSpecials> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberXSpecials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -181,7 +181,7 @@ public class CyberXSpecials
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberXSpecials> types;
+            public LinkedHashMap<Integer, CyberXSpecials> types;
         }
     }
 }

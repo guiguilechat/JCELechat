@@ -1,19 +1,5 @@
 types:
-  Takmahl Astral Treatment:
-    id: 23177
-    inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.5
-    inventionpropabilitymultiplier: 5.0
-    inventiontemodifier: 0.5
-    marketGroup: 1905
-    mass: 1.0
-    name: Takmahl Astral Treatment
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Takmahl Binary Texts:
+  23173:
     id: 23173
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 0.8999999761581421
@@ -27,21 +13,7 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Takmahl Centrifugal Primer:
-    id: 23175
-    inventionmaxrunmodifier: 1.5
-    inventionmemodifier: 1.5
-    inventionpropabilitymultiplier: 2.0
-    inventiontemodifier: 1.7999999523162842
-    marketGroup: 1905
-    mass: 1.0
-    name: Takmahl Centrifugal Primer
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0
-  Takmahl Fractal Sheet:
+  23174:
     id: 23174
     inventionmaxrunmodifier: 1.5
     inventionmemodifier: 0.5
@@ -55,7 +27,21 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
-  Takmahl Geometric Design:
+  23175:
+    id: 23175
+    inventionmaxrunmodifier: 1.5
+    inventionmemodifier: 1.5
+    inventionpropabilitymultiplier: 2.0
+    inventiontemodifier: 1.7999999523162842
+    marketGroup: 1905
+    mass: 1.0
+    name: Takmahl Centrifugal Primer
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  23176:
     id: 23176
     inventionmaxrunmodifier: 7.0
     inventionmemodifier: 1.0
@@ -64,6 +50,20 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Geometric Design
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  23177:
+    id: 23177
+    inventionmaxrunmodifier: 1.0
+    inventionmemodifier: 0.5
+    inventionpropabilitymultiplier: 5.0
+    inventiontemodifier: 0.5
+    marketGroup: 1905
+    mass: 1.0
+    name: Takmahl Astral Treatment
     packagedVolume: 1.0
     portionSize: 1
     published: true

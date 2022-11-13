@@ -97,7 +97,7 @@ public class RemoteHullRepairerBlueprint
         implements IMetaGroup<RemoteHullRepairerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/RemoteHullRepairerBlueprint.yaml";
-        private Map<String, RemoteHullRepairerBlueprint> cache = (null);
+        private Map<Integer, RemoteHullRepairerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super RemoteHullRepairerBlueprint> category() {
@@ -115,7 +115,7 @@ public class RemoteHullRepairerBlueprint
         }
 
         @Override
-        public synchronized Map<String, RemoteHullRepairerBlueprint> load() {
+        public synchronized Map<Integer, RemoteHullRepairerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RemoteHullRepairerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class RemoteHullRepairerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteHullRepairerBlueprint> types;
+            public LinkedHashMap<Integer, RemoteHullRepairerBlueprint> types;
         }
     }
 }

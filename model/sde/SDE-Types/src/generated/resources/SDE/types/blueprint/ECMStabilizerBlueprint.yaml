@@ -1,5 +1,5 @@
 types:
-  Signal Distortion Amplifier I Blueprint:
+  25562:
     id: 25562
     industryblueprintrank: 3.0
     marketGroup: 1567
@@ -11,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Signal Distortion Amplifier II Blueprint:
+  25564:
     id: 25564
     industryblueprintrank: 7.800000190734863
     name: Signal Distortion Amplifier II Blueprint

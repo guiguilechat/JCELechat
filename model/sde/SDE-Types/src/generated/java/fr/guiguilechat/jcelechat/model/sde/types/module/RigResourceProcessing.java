@@ -125,7 +125,7 @@ public class RigResourceProcessing
         implements IMetaGroup<RigResourceProcessing>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigResourceProcessing.yaml";
-        private Map<String, RigResourceProcessing> cache = (null);
+        private Map<Integer, RigResourceProcessing> cache = (null);
 
         @Override
         public IMetaCategory<? super RigResourceProcessing> category() {
@@ -143,7 +143,7 @@ public class RigResourceProcessing
         }
 
         @Override
-        public synchronized Map<String, RigResourceProcessing> load() {
+        public synchronized Map<Integer, RigResourceProcessing> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigResourceProcessing.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -157,7 +157,7 @@ public class RigResourceProcessing
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigResourceProcessing> types;
+            public LinkedHashMap<Integer, RigResourceProcessing> types;
         }
     }
 }

@@ -1,45 +1,5 @@
 types:
-  BlastShot Condenser Pack L Blueprint:
-    id: 54871
-    name: BlastShot Condenser Pack L Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
-  BlastShot Condenser Pack M Blueprint:
-    id: 54867
-    name: BlastShot Condenser Pack M Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
-  BlastShot Condenser Pack S Blueprint:
-    id: 54863
-    name: BlastShot Condenser Pack S Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
-  GalvaSurge Condenser Pack L Blueprint:
-    id: 54869
-    name: GalvaSurge Condenser Pack L Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
-  GalvaSurge Condenser Pack M Blueprint:
-    id: 54865
-    name: GalvaSurge Condenser Pack M Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
-  GalvaSurge Condenser Pack S Blueprint:
+  54861:
     id: 54861
     name: GalvaSurge Condenser Pack S Blueprint
     packagedVolume: 0.009999999776482582
@@ -47,23 +7,7 @@ types:
     price: 40000.0
     published: true
     volume: 0.009999999776482582
-  MesmerFlux Condenser Pack L Blueprint:
-    id: 54870
-    name: MesmerFlux Condenser Pack L Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
-  MesmerFlux Condenser Pack M Blueprint:
-    id: 54866
-    name: MesmerFlux Condenser Pack M Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
-  MesmerFlux Condenser Pack S Blueprint:
+  54862:
     id: 54862
     name: MesmerFlux Condenser Pack S Blueprint
     packagedVolume: 0.009999999776482582
@@ -71,23 +15,15 @@ types:
     price: 40000.0
     published: true
     volume: 0.009999999776482582
-  SlamBolt Condenser Pack L Blueprint:
-    id: 54872
-    name: SlamBolt Condenser Pack L Blueprint
+  54863:
+    id: 54863
+    name: BlastShot Condenser Pack S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
     volume: 0.009999999776482582
-  SlamBolt Condenser Pack M Blueprint:
-    id: 54868
-    name: SlamBolt Condenser Pack M Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
-  SlamBolt Condenser Pack S Blueprint:
+  54864:
     id: 54864
     name: SlamBolt Condenser Pack S Blueprint
     packagedVolume: 0.009999999776482582
@@ -95,7 +31,127 @@ types:
     price: 40000.0
     published: true
     volume: 0.009999999776482582
-  unused blueprint type:
+  54865:
+    id: 54865
+    name: GalvaSurge Condenser Pack M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54866:
+    id: 54866
+    name: MesmerFlux Condenser Pack M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54867:
+    id: 54867
+    name: BlastShot Condenser Pack M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54868:
+    id: 54868
+    name: SlamBolt Condenser Pack M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54869:
+    id: 54869
+    name: GalvaSurge Condenser Pack L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54870:
+    id: 54870
+    name: MesmerFlux Condenser Pack L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54871:
+    id: 54871
+    name: BlastShot Condenser Pack L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54872:
+    id: 54872
+    name: SlamBolt Condenser Pack L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54875:
+    id: 54875
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54877:
+    id: 54877
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54878:
+    id: 54878
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54879:
+    id: 54879
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54880:
+    id: 54880
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54881:
+    id: 54881
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54882:
+    id: 54882
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  54883:
     id: 54883
     name: unused blueprint type
     packagedVolume: 0.009999999776482582

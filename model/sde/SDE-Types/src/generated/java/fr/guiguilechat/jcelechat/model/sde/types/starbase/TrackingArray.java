@@ -162,7 +162,7 @@ public class TrackingArray
         implements IMetaGroup<TrackingArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/TrackingArray.yaml";
-        private Map<String, TrackingArray> cache = (null);
+        private Map<Integer, TrackingArray> cache = (null);
 
         @Override
         public IMetaCategory<? super TrackingArray> category() {
@@ -180,7 +180,7 @@ public class TrackingArray
         }
 
         @Override
-        public synchronized Map<String, TrackingArray> load() {
+        public synchronized Map<Integer, TrackingArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TrackingArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -194,7 +194,7 @@ public class TrackingArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingArray> types;
+            public LinkedHashMap<Integer, TrackingArray> types;
         }
     }
 }

@@ -115,7 +115,7 @@ public class AuditLogSecureContainer
         implements IMetaGroup<AuditLogSecureContainer>
     {
         public static final String RESOURCE_PATH = "SDE/types/celestial/AuditLogSecureContainer.yaml";
-        private Map<String, AuditLogSecureContainer> cache = (null);
+        private Map<Integer, AuditLogSecureContainer> cache = (null);
 
         @Override
         public IMetaCategory<? super AuditLogSecureContainer> category() {
@@ -133,7 +133,7 @@ public class AuditLogSecureContainer
         }
 
         @Override
-        public synchronized Map<String, AuditLogSecureContainer> load() {
+        public synchronized Map<Integer, AuditLogSecureContainer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AuditLogSecureContainer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -147,7 +147,7 @@ public class AuditLogSecureContainer
         }
 
         private static class Container {
-            public LinkedHashMap<String, AuditLogSecureContainer> types;
+            public LinkedHashMap<Integer, AuditLogSecureContainer> types;
         }
     }
 }

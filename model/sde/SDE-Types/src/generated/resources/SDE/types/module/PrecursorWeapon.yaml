@@ -1,47 +1,47 @@
 types:
-  Heavy Compact Entropic Disintegrator:
-    canfitshiptype1: 47270
-    canfitshiptype2: 48635
-    canfitshiptype3: 49711
-    canfitshiptype4: 52252
-    capacitorneed: 22.100000381469727
+  47272:
+    canfitshiptype1: 47269
+    canfitshiptype2: 48636
+    canfitshiptype3: 49710
+    canfitshiptype4: 52250
+    canfitshiptype5: 52254
+    capacitorneed: 4.5
     capacity: 5.0
     chargegroup1: 1987
     chargerate: 1
-    chargesize: 2
-    cpu: 120.0
-    damagemultiplier: 1.100000023841858
+    chargesize: 1
+    cpu: 45.0
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.199999809265137
+    heatdamage: 5.0
     hp: 40.0
-    id: 47916
-    marketGroup: 2434
-    mass: 1000.0
-    maxrange: 15500.0
-    metagroupid: 1
-    name: Heavy Compact Entropic Disintegrator
+    id: 47272
+    marketGroup: 2433
+    mass: 500.0
+    maxrange: 6000.0
+    name: Light Entropic Disintegrator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
+    packagedVolume: 5.0
     portionSize: 1
-    power: 760
+    power: 30
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
-    requiredskill1: 47871
+    requiredskill1: 3300
     requiredskill1level: 1
-    requiredskill2: 3300
-    requiredskill2level: 3
+    requiredskill2: 47870
+    requiredskill2level: 1
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5500.0
+    speed: 3500.0
     techlevel: 1
-    trackingspeed: 42.0
+    trackingspeed: 410.0
     typecolorscheme: 11313
-    volume: 10.0
-  Heavy Entropic Disintegrator I:
+    volume: 5.0
+  47273:
     canfitshiptype1: 47270
     canfitshiptype2: 48635
     canfitshiptype3: 49711
@@ -82,95 +82,45 @@ types:
     trackingspeed: 42.0
     typecolorscheme: 11313
     volume: 10.0
-  Heavy Entropic Disintegrator II:
-    canfitshiptype1: 47270
-    canfitshiptype2: 48635
-    canfitshiptype3: 49711
-    canfitshiptype4: 52252
-    capacitorneed: 20.399999618530273
-    capacity: 5.0
-    chargegroup1: 1987
-    chargegroup2: 1989
-    chargerate: 1
-    chargesize: 2
-    cpu: 160.0
-    damagemultiplier: 1.2000000476837158
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 47918
-    marketGroup: 2434
-    mass: 1000.0
-    maxrange: 17400.0
-    metagroupid: 2
-    metalevelold: 5
-    name: Heavy Entropic Disintegrator II
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 880
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 47871
-    requiredskill1level: 5
-    requiredskill2: 3300
-    requiredskill2level: 3
-    requiredskill3: 47874
-    requiredskill3level: 1
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 5500.0
-    techlevel: 2
-    trackingspeed: 42.0
-    typecolorscheme: 11313
-    volume: 10.0
-  Heavy Scoped Entropic Disintegrator:
-    canfitshiptype1: 47270
-    canfitshiptype2: 48635
-    canfitshiptype3: 49711
-    canfitshiptype4: 52252
-    capacitorneed: 22.100000381469727
+  47274:
+    canfitshiptype1: 47271
+    capacitorneed: 57.599998474121094
     capacity: 5.0
     chargegroup1: 1987
     chargerate: 1
-    chargesize: 2
-    cpu: 140.0
-    damagemultiplier: 1.100000023841858
+    chargesize: 3
+    cpu: 300.0
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.199999809265137
+    heatdamage: 5.0
     hp: 40.0
-    id: 47917
-    marketGroup: 2434
-    mass: 1000.0
-    maxrange: 16600.0
-    metagroupid: 1
-    name: Heavy Scoped Entropic Disintegrator
+    id: 47274
+    marketGroup: 2435
+    mass: 2000.0
+    maxrange: 26000.0
+    name: Supratidal Entropic Disintegrator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
+    packagedVolume: 20.0
     portionSize: 1
-    power: 840
+    power: 16500
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
-    requiredskill1: 47871
+    requiredskill1: 47872
     requiredskill1level: 1
     requiredskill2: 3300
-    requiredskill2level: 3
+    requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5500.0
+    speed: 8000.0
     techlevel: 1
-    trackingspeed: 42.0
+    trackingspeed: 5.449999809265137
     typecolorscheme: 11313
-    volume: 10.0
-  Light Compact Entropic Disintegrator:
+    volume: 20.0
+  47912:
     canfitshiptype1: 47269
     canfitshiptype2: 48636
     canfitshiptype3: 49710
@@ -213,29 +163,30 @@ types:
     trackingspeed: 410.0
     typecolorscheme: 11313
     volume: 5.0
-  Light Entropic Disintegrator I:
+  47913:
     canfitshiptype1: 47269
     canfitshiptype2: 48636
     canfitshiptype3: 49710
     canfitshiptype4: 52250
     canfitshiptype5: 52254
-    capacitorneed: 4.5
+    capacitorneed: 5.199999809265137
     capacity: 5.0
     chargegroup1: 1987
     chargerate: 1
     chargesize: 1
     cpu: 45.0
-    damagemultiplier: 1.0
+    damagemultiplier: 1.100000023841858
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.0
+    heatdamage: 4.199999809265137
     hp: 40.0
-    id: 47272
+    id: 47913
     marketGroup: 2433
     mass: 500.0
-    maxrange: 6000.0
-    name: Light Entropic Disintegrator I
+    maxrange: 6500.0
+    metagroupid: 1
+    name: Light Scoped Entropic Disintegrator
     optimalsigradius: 40000
     overloaddamagemodifier: 15
     packagedVolume: 5.0
@@ -255,7 +206,7 @@ types:
     trackingspeed: 410.0
     typecolorscheme: 11313
     volume: 5.0
-  Light Entropic Disintegrator II:
+  47914:
     canfitshiptype1: 47269
     canfitshiptype2: 48636
     canfitshiptype3: 49710
@@ -302,291 +253,7 @@ types:
     trackingspeed: 410.0
     typecolorscheme: 11313
     volume: 5.0
-  Light Scoped Entropic Disintegrator:
-    canfitshiptype1: 47269
-    canfitshiptype2: 48636
-    canfitshiptype3: 49710
-    canfitshiptype4: 52250
-    canfitshiptype5: 52254
-    capacitorneed: 5.199999809265137
-    capacity: 5.0
-    chargegroup1: 1987
-    chargerate: 1
-    chargesize: 1
-    cpu: 45.0
-    damagemultiplier: 1.100000023841858
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.199999809265137
-    hp: 40.0
-    id: 47913
-    marketGroup: 2433
-    mass: 500.0
-    maxrange: 6500.0
-    metagroupid: 1
-    name: Light Scoped Entropic Disintegrator
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 30
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 3300
-    requiredskill1level: 1
-    requiredskill2: 47870
-    requiredskill2level: 1
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 3500.0
-    techlevel: 1
-    trackingspeed: 410.0
-    typecolorscheme: 11313
-    volume: 5.0
-  Supratidal Compact Entropic Disintegrator:
-    canfitshiptype1: 47271
-    capacitorneed: 63.0
-    capacity: 5.0
-    chargegroup1: 1987
-    chargerate: 1
-    chargesize: 3
-    cpu: 270.0
-    damagemultiplier: 1.100000023841858
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.199999809265137
-    hp: 40.0
-    id: 47920
-    marketGroup: 2435
-    mass: 2000.0
-    maxrange: 26000.0
-    metagroupid: 1
-    name: Supratidal Compact Entropic Disintegrator
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 15900
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 47872
-    requiredskill1level: 1
-    requiredskill2: 3300
-    requiredskill2level: 5
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 8000.0
-    techlevel: 1
-    trackingspeed: 5.449999809265137
-    typecolorscheme: 11313
-    volume: 20.0
-  Supratidal Entropic Disintegrator I:
-    canfitshiptype1: 47271
-    capacitorneed: 57.599998474121094
-    capacity: 5.0
-    chargegroup1: 1987
-    chargerate: 1
-    chargesize: 3
-    cpu: 300.0
-    damagemultiplier: 1.0
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.0
-    hp: 40.0
-    id: 47274
-    marketGroup: 2435
-    mass: 2000.0
-    maxrange: 26000.0
-    name: Supratidal Entropic Disintegrator I
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 16500
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 47872
-    requiredskill1level: 1
-    requiredskill2: 3300
-    requiredskill2level: 5
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 8000.0
-    techlevel: 1
-    trackingspeed: 5.449999809265137
-    typecolorscheme: 11313
-    volume: 20.0
-  Supratidal Entropic Disintegrator II:
-    canfitshiptype1: 47271
-    capacitorneed: 57.599998474121094
-    capacity: 5.0
-    chargegroup1: 1987
-    chargegroup2: 1989
-    chargerate: 1
-    chargesize: 3
-    cpu: 342.0
-    damagemultiplier: 1.2000000476837158
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 47922
-    marketGroup: 2435
-    mass: 2000.0
-    maxrange: 28200.0
-    metagroupid: 2
-    metalevelold: 5
-    name: Supratidal Entropic Disintegrator II
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 17400
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 47872
-    requiredskill1level: 5
-    requiredskill2: 3300
-    requiredskill2level: 5
-    requiredskill3: 47875
-    requiredskill3level: 1
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 8000.0
-    techlevel: 2
-    trackingspeed: 5.449999809265137
-    typecolorscheme: 11313
-    volume: 20.0
-  Supratidal Scoped Entropic Disintegrator:
-    canfitshiptype1: 47271
-    capacitorneed: 63.0
-    capacity: 5.0
-    chargegroup1: 1987
-    chargerate: 1
-    chargesize: 3
-    cpu: 300.0
-    damagemultiplier: 1.100000023841858
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.199999809265137
-    hp: 40.0
-    id: 47921
-    marketGroup: 2435
-    mass: 2000.0
-    maxrange: 27100.0
-    metagroupid: 1
-    name: Supratidal Scoped Entropic Disintegrator
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 16500
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 47872
-    requiredskill1level: 1
-    requiredskill2: 3300
-    requiredskill2level: 5
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 8000.0
-    techlevel: 1
-    trackingspeed: 5.449999809265137
-    typecolorscheme: 11313
-    volume: 20.0
-  Ultratidal Entropic Disintegrator I:
-    canfitshiptype1: 52907
-    capacitorneed: 384.0
-    capacity: 5.0
-    chargegroup1: 1987
-    chargerate: 1
-    chargesize: 4
-    cpu: 480.0
-    damagemultiplier: 1.0
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 13.300000190734863
-    hp: 40.0
-    id: 52915
-    marketGroup: 2691
-    mass: 40000.0
-    maxrange: 52000.0
-    name: Ultratidal Entropic Disintegrator I
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 1600.0
-    portionSize: 1
-    power: 825000
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 52998
-    requiredskill1level: 1
-    requiredskill2: 3300
-    requiredskill2level: 5
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 13000.0
-    techlevel: 1
-    trackingspeed: 0.019999999552965164
-    typecolorscheme: 11313
-    volume: 1600.0
-  Veles Heavy Entropic Disintegrator:
-    canfitshiptype1: 47270
-    canfitshiptype2: 48635
-    canfitshiptype3: 49711
-    canfitshiptype4: 52252
-    capacitorneed: 19.200000762939453
-    capacity: 5.0
-    chargegroup1: 1987
-    chargegroup2: 1989
-    chargerate: 1
-    chargesize: 2
-    cpu: 140.0
-    damagemultiplier: 1.2999999523162842
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.5999999046325684
-    hp: 40.0
-    id: 47919
-    marketGroup: 2434
-    mass: 1000.0
-    maxrange: 18000.0
-    metagroupid: 4
-    metalevelold: 8
-    name: Veles Heavy Entropic Disintegrator
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 800
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 47871
-    requiredskill1level: 1
-    requiredskill2: 3300
-    requiredskill2level: 3
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 5500.0
-    techlevel: 1
-    trackingspeed: 42.0
-    typecolorscheme: 11313
-    volume: 10.0
-  Veles Light Entropic Disintegrator:
+  47915:
     canfitshiptype1: 47269
     canfitshiptype2: 48636
     canfitshiptype3: 49710
@@ -631,7 +298,302 @@ types:
     trackingspeed: 410.0
     typecolorscheme: 11313
     volume: 5.0
-  Veles Supratidal Entropic Disintegrator:
+  47916:
+    canfitshiptype1: 47270
+    canfitshiptype2: 48635
+    canfitshiptype3: 49711
+    canfitshiptype4: 52252
+    capacitorneed: 22.100000381469727
+    capacity: 5.0
+    chargegroup1: 1987
+    chargerate: 1
+    chargesize: 2
+    cpu: 120.0
+    damagemultiplier: 1.100000023841858
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.199999809265137
+    hp: 40.0
+    id: 47916
+    marketGroup: 2434
+    mass: 1000.0
+    maxrange: 15500.0
+    metagroupid: 1
+    name: Heavy Compact Entropic Disintegrator
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 760
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 47871
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 3
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5500.0
+    techlevel: 1
+    trackingspeed: 42.0
+    typecolorscheme: 11313
+    volume: 10.0
+  47917:
+    canfitshiptype1: 47270
+    canfitshiptype2: 48635
+    canfitshiptype3: 49711
+    canfitshiptype4: 52252
+    capacitorneed: 22.100000381469727
+    capacity: 5.0
+    chargegroup1: 1987
+    chargerate: 1
+    chargesize: 2
+    cpu: 140.0
+    damagemultiplier: 1.100000023841858
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.199999809265137
+    hp: 40.0
+    id: 47917
+    marketGroup: 2434
+    mass: 1000.0
+    maxrange: 16600.0
+    metagroupid: 1
+    name: Heavy Scoped Entropic Disintegrator
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 840
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 47871
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 3
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5500.0
+    techlevel: 1
+    trackingspeed: 42.0
+    typecolorscheme: 11313
+    volume: 10.0
+  47918:
+    canfitshiptype1: 47270
+    canfitshiptype2: 48635
+    canfitshiptype3: 49711
+    canfitshiptype4: 52252
+    capacitorneed: 20.399999618530273
+    capacity: 5.0
+    chargegroup1: 1987
+    chargegroup2: 1989
+    chargerate: 1
+    chargesize: 2
+    cpu: 160.0
+    damagemultiplier: 1.2000000476837158
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 47918
+    marketGroup: 2434
+    mass: 1000.0
+    maxrange: 17400.0
+    metagroupid: 2
+    metalevelold: 5
+    name: Heavy Entropic Disintegrator II
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 880
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 47871
+    requiredskill1level: 5
+    requiredskill2: 3300
+    requiredskill2level: 3
+    requiredskill3: 47874
+    requiredskill3level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5500.0
+    techlevel: 2
+    trackingspeed: 42.0
+    typecolorscheme: 11313
+    volume: 10.0
+  47919:
+    canfitshiptype1: 47270
+    canfitshiptype2: 48635
+    canfitshiptype3: 49711
+    canfitshiptype4: 52252
+    capacitorneed: 19.200000762939453
+    capacity: 5.0
+    chargegroup1: 1987
+    chargegroup2: 1989
+    chargerate: 1
+    chargesize: 2
+    cpu: 140.0
+    damagemultiplier: 1.2999999523162842
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.5999999046325684
+    hp: 40.0
+    id: 47919
+    marketGroup: 2434
+    mass: 1000.0
+    maxrange: 18000.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Veles Heavy Entropic Disintegrator
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 800
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 47871
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 3
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5500.0
+    techlevel: 1
+    trackingspeed: 42.0
+    typecolorscheme: 11313
+    volume: 10.0
+  47920:
+    canfitshiptype1: 47271
+    capacitorneed: 63.0
+    capacity: 5.0
+    chargegroup1: 1987
+    chargerate: 1
+    chargesize: 3
+    cpu: 270.0
+    damagemultiplier: 1.100000023841858
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.199999809265137
+    hp: 40.0
+    id: 47920
+    marketGroup: 2435
+    mass: 2000.0
+    maxrange: 26000.0
+    metagroupid: 1
+    name: Supratidal Compact Entropic Disintegrator
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 15900
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 47872
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 8000.0
+    techlevel: 1
+    trackingspeed: 5.449999809265137
+    typecolorscheme: 11313
+    volume: 20.0
+  47921:
+    canfitshiptype1: 47271
+    capacitorneed: 63.0
+    capacity: 5.0
+    chargegroup1: 1987
+    chargerate: 1
+    chargesize: 3
+    cpu: 300.0
+    damagemultiplier: 1.100000023841858
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.199999809265137
+    hp: 40.0
+    id: 47921
+    marketGroup: 2435
+    mass: 2000.0
+    maxrange: 27100.0
+    metagroupid: 1
+    name: Supratidal Scoped Entropic Disintegrator
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 16500
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 47872
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 8000.0
+    techlevel: 1
+    trackingspeed: 5.449999809265137
+    typecolorscheme: 11313
+    volume: 20.0
+  47922:
+    canfitshiptype1: 47271
+    capacitorneed: 57.599998474121094
+    capacity: 5.0
+    chargegroup1: 1987
+    chargegroup2: 1989
+    chargerate: 1
+    chargesize: 3
+    cpu: 342.0
+    damagemultiplier: 1.2000000476837158
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 47922
+    marketGroup: 2435
+    mass: 2000.0
+    maxrange: 28200.0
+    metagroupid: 2
+    metalevelold: 5
+    name: Supratidal Entropic Disintegrator II
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 20.0
+    portionSize: 1
+    power: 17400
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 47872
+    requiredskill1level: 5
+    requiredskill2: 3300
+    requiredskill2level: 5
+    requiredskill3: 47875
+    requiredskill3level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 8000.0
+    techlevel: 2
+    trackingspeed: 5.449999809265137
+    typecolorscheme: 11313
+    volume: 20.0
+  47923:
     canfitshiptype1: 47271
     capacitorneed: 54.0
     capacity: 5.0
@@ -672,51 +634,7 @@ types:
     trackingspeed: 5.449999809265137
     typecolorscheme: 11313
     volume: 20.0
-  Zorya's Heavy Entropic Disintegrator:
-    canfitshiptype1: 47270
-    canfitshiptype2: 48635
-    canfitshiptype3: 49711
-    canfitshiptype4: 52252
-    capacitorneed: 18.0
-    capacity: 5.0
-    chargegroup1: 1987
-    chargegroup2: 1989
-    chargerate: 1
-    chargesize: 2
-    cpu: 160.0
-    damagemultiplier: 1.399999976158142
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.5999999046325684
-    hp: 40.0
-    id: 52238
-    marketGroup: 2434
-    mass: 1000.0
-    maxrange: 17000.0
-    metagroupid: 4
-    metalevelold: 12
-    name: Zorya's Heavy Entropic Disintegrator
-    optimalsigradius: 40000
-    overloaddamagemodifier: 15
-    packagedVolume: 10.0
-    portionSize: 1
-    power: 750
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    requiredskill1: 47871
-    requiredskill1level: 1
-    requiredskill2: 3300
-    requiredskill2level: 3
-    requiredthermodynamicsskill: 1
-    slots: 1
-    speed: 5500.0
-    techlevel: 1
-    trackingspeed: 42.0
-    typecolorscheme: 11313
-    volume: 10.0
-  Zorya's Light Entropic Disintegrator:
+  52236:
     canfitshiptype1: 47269
     canfitshiptype2: 48636
     canfitshiptype3: 49710
@@ -761,7 +679,51 @@ types:
     trackingspeed: 410.0
     typecolorscheme: 11313
     volume: 5.0
-  Zorya's Supratidal Entropic Disintegrator:
+  52238:
+    canfitshiptype1: 47270
+    canfitshiptype2: 48635
+    canfitshiptype3: 49711
+    canfitshiptype4: 52252
+    capacitorneed: 18.0
+    capacity: 5.0
+    chargegroup1: 1987
+    chargegroup2: 1989
+    chargerate: 1
+    chargesize: 2
+    cpu: 160.0
+    damagemultiplier: 1.399999976158142
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.5999999046325684
+    hp: 40.0
+    id: 52238
+    marketGroup: 2434
+    mass: 1000.0
+    maxrange: 17000.0
+    metagroupid: 4
+    metalevelold: 12
+    name: Zorya's Heavy Entropic Disintegrator
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 750
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 47871
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 3
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5500.0
+    techlevel: 1
+    trackingspeed: 42.0
+    typecolorscheme: 11313
+    volume: 10.0
+  52240:
     canfitshiptype1: 47271
     capacitorneed: 50.0
     capacity: 5.0
@@ -802,3 +764,41 @@ types:
     trackingspeed: 5.449999809265137
     typecolorscheme: 11313
     volume: 20.0
+  52915:
+    canfitshiptype1: 52907
+    capacitorneed: 384.0
+    capacity: 5.0
+    chargegroup1: 1987
+    chargerate: 1
+    chargesize: 4
+    cpu: 480.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 13.300000190734863
+    hp: 40.0
+    id: 52915
+    marketGroup: 2691
+    mass: 40000.0
+    maxrange: 52000.0
+    name: Ultratidal Entropic Disintegrator I
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 1600.0
+    portionSize: 1
+    power: 825000
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 52998
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 13000.0
+    techlevel: 1
+    trackingspeed: 0.019999999552965164
+    typecolorscheme: 11313
+    volume: 1600.0

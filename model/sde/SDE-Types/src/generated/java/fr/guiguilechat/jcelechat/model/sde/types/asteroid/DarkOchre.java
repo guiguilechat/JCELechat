@@ -101,7 +101,7 @@ public class DarkOchre
         implements IMetaGroup<DarkOchre>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/DarkOchre.yaml";
-        private Map<String, DarkOchre> cache = (null);
+        private Map<Integer, DarkOchre> cache = (null);
 
         @Override
         public IMetaCategory<? super DarkOchre> category() {
@@ -119,7 +119,7 @@ public class DarkOchre
         }
 
         @Override
-        public synchronized Map<String, DarkOchre> load() {
+        public synchronized Map<Integer, DarkOchre> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DarkOchre.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -133,7 +133,7 @@ public class DarkOchre
         }
 
         private static class Container {
-            public LinkedHashMap<String, DarkOchre> types;
+            public LinkedHashMap<Integer, DarkOchre> types;
         }
     }
 }

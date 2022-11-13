@@ -32,7 +32,7 @@ public class Frozen
         implements IMetaGroup<Frozen>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Frozen.yaml";
-        private Map<String, Frozen> cache = (null);
+        private Map<Integer, Frozen> cache = (null);
 
         @Override
         public IMetaCategory<? super Frozen> category() {
@@ -50,7 +50,7 @@ public class Frozen
         }
 
         @Override
-        public synchronized Map<String, Frozen> load() {
+        public synchronized Map<Integer, Frozen> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Frozen.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Frozen
         }
 
         private static class Container {
-            public LinkedHashMap<String, Frozen> types;
+            public LinkedHashMap<Integer, Frozen> types;
         }
     }
 }

@@ -1385,7 +1385,7 @@ public class MissionMinmatarRepublicFrigate
         implements IMetaGroup<MissionMinmatarRepublicFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionMinmatarRepublicFrigate.yaml";
-        private Map<String, MissionMinmatarRepublicFrigate> cache = (null);
+        private Map<Integer, MissionMinmatarRepublicFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionMinmatarRepublicFrigate> category() {
@@ -1403,7 +1403,7 @@ public class MissionMinmatarRepublicFrigate
         }
 
         @Override
-        public synchronized Map<String, MissionMinmatarRepublicFrigate> load() {
+        public synchronized Map<Integer, MissionMinmatarRepublicFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionMinmatarRepublicFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1417,7 +1417,7 @@ public class MissionMinmatarRepublicFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionMinmatarRepublicFrigate> types;
+            public LinkedHashMap<Integer, MissionMinmatarRepublicFrigate> types;
         }
     }
 }

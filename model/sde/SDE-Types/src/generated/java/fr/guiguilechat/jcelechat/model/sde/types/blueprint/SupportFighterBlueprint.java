@@ -85,7 +85,7 @@ public class SupportFighterBlueprint
         implements IMetaGroup<SupportFighterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SupportFighterBlueprint.yaml";
-        private Map<String, SupportFighterBlueprint> cache = (null);
+        private Map<Integer, SupportFighterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SupportFighterBlueprint> category() {
@@ -103,7 +103,7 @@ public class SupportFighterBlueprint
         }
 
         @Override
-        public synchronized Map<String, SupportFighterBlueprint> load() {
+        public synchronized Map<Integer, SupportFighterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SupportFighterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -117,7 +117,7 @@ public class SupportFighterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SupportFighterBlueprint> types;
+            public LinkedHashMap<Integer, SupportFighterBlueprint> types;
         }
     }
 }

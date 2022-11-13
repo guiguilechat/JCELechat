@@ -181,7 +181,7 @@ public class ArmorCoating
         implements IMetaGroup<ArmorCoating>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ArmorCoating.yaml";
-        private Map<String, ArmorCoating> cache = (null);
+        private Map<Integer, ArmorCoating> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorCoating> category() {
@@ -199,7 +199,7 @@ public class ArmorCoating
         }
 
         @Override
-        public synchronized Map<String, ArmorCoating> load() {
+        public synchronized Map<Integer, ArmorCoating> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorCoating.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -213,7 +213,7 @@ public class ArmorCoating
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorCoating> types;
+            public LinkedHashMap<Integer, ArmorCoating> types;
         }
     }
 }

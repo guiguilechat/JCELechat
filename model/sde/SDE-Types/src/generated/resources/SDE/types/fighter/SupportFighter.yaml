@@ -1,5 +1,5 @@
 types:
-  Cenobite I:
+  37599:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
@@ -47,153 +47,7 @@ types:
     techlevel: 1
     volume: 3000.0
     warpspeedmultiplier: 1.5
-  Cenobite II:
-    agility: 500.0
-    fighterabilityafterburnerspeedbonus: 100
-    fighterabilityantifightermissileresistance: 1
-    fighterabilityenergyneutralizeramount: 80
-    fighterabilityenergyneutralizerduration: 6000
-    fighterabilityenergyneutralizerfalloffrange: 5000
-    fighterabilityenergyneutralizeroptimalrange: 10000
-    fighterabilitymicrowarpdriveduration: 20000
-    fighterabilitymicrowarpdrivesignatureradiusbonus: 505
-    fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterrefuelingtime: 2000
-    fightersquadronissupport: 1
-    fightersquadronmaxsize: 3
-    fightersquadronorbitrange: 7500
-    fightersquadronrole: 3
-    hp: 100.0
-    id: 40568
-    marketGroup: 2239
-    mass: 1500.0
-    maxlockedtargets: 6
-    maxtargetrange: 54000.0
-    maxvelocity: 744.0
-    metalevelold: 5
-    name: Cenobite II
-    packagedVolume: 3000.0
-    portionSize: 1
-    published: true
-    radius: 35.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    requiredskill1: 40573
-    requiredskill1level: 4
-    requiredskill2: 23069
-    requiredskill2level: 5
-    scanradarstrength: 8.0
-    scanresolution: 650.0
-    shieldcapacity: 7500.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
-    shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 1.0
-    signatureradius: 120.0
-    structureuniformity: 1.0
-    techlevel: 2
-    volume: 3000.0
-    warpspeedmultiplier: 1.5
-  Dromi I:
-    agility: 500.0
-    fighterabilityafterburnerspeedbonus: 100
-    fighterabilityantifightermissileresistance: 1
-    fighterabilitymicrowarpdriveduration: 20000
-    fighterabilitymicrowarpdrivesignatureradiusbonus: 495
-    fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitystasiswebifierduration: 10000
-    fighterabilitystasiswebifieroptimalrange: 8000
-    fighterabilitystasiswebifierresistanceid: 2115
-    fighterabilitystasiswebifierspeedpenalty: -10
-    fighterrefuelingtime: 2000
-    fightersquadronissupport: 1
-    fightersquadronmaxsize: 3
-    fightersquadronorbitrange: 4000
-    fightersquadronrole: 3
-    hp: 100.0
-    id: 40347
-    marketGroup: 2239
-    mass: 1500.0
-    maxlockedtargets: 6
-    maxtargetrange: 45000.0
-    maxvelocity: 715.0
-    name: Dromi I
-    packagedVolume: 3000.0
-    portionSize: 1
-    published: true
-    radius: 35.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    requiredskill1: 40573
-    requiredskill1level: 1
-    requiredskill2: 23069
-    requiredskill2level: 1
-    scanladarstrength: 7.0
-    scanresolution: 600.0
-    shieldcapacity: 6800.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 1.0
-    signatureradius: 120.0
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 3000.0
-    warpspeedmultiplier: 1.5
-  Dromi II:
-    agility: 500.0
-    fighterabilityafterburnerspeedbonus: 100
-    fighterabilityantifightermissileresistance: 1
-    fighterabilitymicrowarpdriveduration: 20000
-    fighterabilitymicrowarpdrivesignatureradiusbonus: 505
-    fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitystasiswebifierduration: 10000
-    fighterabilitystasiswebifieroptimalrange: 16000
-    fighterabilitystasiswebifierresistanceid: 2115
-    fighterabilitystasiswebifierspeedpenalty: -15
-    fighterrefuelingtime: 2000
-    fightersquadronissupport: 1
-    fightersquadronmaxsize: 3
-    fightersquadronorbitrange: 8000
-    fightersquadronrole: 3
-    hp: 100.0
-    id: 40571
-    marketGroup: 2239
-    mass: 1500.0
-    maxlockedtargets: 6
-    maxtargetrange: 54000.0
-    maxvelocity: 744.0
-    metalevelold: 5
-    name: Dromi II
-    packagedVolume: 3000.0
-    portionSize: 1
-    published: true
-    radius: 35.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    requiredskill1: 40573
-    requiredskill1level: 4
-    requiredskill2: 23069
-    requiredskill2level: 5
-    scanladarstrength: 8.0
-    scanresolution: 650.0
-    shieldcapacity: 7500.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 0.8500000238418579
-    shielduniformity: 1.0
-    signatureradius: 120.0
-    structureuniformity: 1.0
-    techlevel: 2
-    volume: 3000.0
-    warpspeedmultiplier: 1.5
-  Scarab I:
+  40345:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
@@ -244,7 +98,149 @@ types:
     techlevel: 1
     volume: 3000.0
     warpspeedmultiplier: 1.5
-  Scarab II:
+  40346:
+    agility: 500.0
+    fighterabilityafterburnerduration: 20000
+    fighterabilityafterburnerspeedbonus: 200
+    fighterabilityantifightermissileresistance: 1
+    fighterabilitywarpdisruptionduration: 10000
+    fighterabilitywarpdisruptionpointstrength: 1
+    fighterabilitywarpdisruptionrange: 8000
+    fighterrefuelingtime: 2000
+    fightersquadronissupport: 1
+    fightersquadronmaxsize: 3
+    fightersquadronorbitrange: 4000
+    fightersquadronrole: 3
+    hp: 100.0
+    id: 40346
+    marketGroup: 2239
+    mass: 1500.0
+    maxlockedtargets: 6
+    maxtargetrange: 45000.0
+    maxvelocity: 715.0
+    name: Siren I
+    packagedVolume: 3000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40573
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scanmagnetometricstrength: 7.0
+    scanresolution: 600.0
+    shieldcapacity: 6800.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 2200000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 120.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 3000.0
+    warpspeedmultiplier: 1.5
+  40347:
+    agility: 500.0
+    fighterabilityafterburnerspeedbonus: 100
+    fighterabilityantifightermissileresistance: 1
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 495
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterabilitystasiswebifierduration: 10000
+    fighterabilitystasiswebifieroptimalrange: 8000
+    fighterabilitystasiswebifierresistanceid: 2115
+    fighterabilitystasiswebifierspeedpenalty: -10
+    fighterrefuelingtime: 2000
+    fightersquadronissupport: 1
+    fightersquadronmaxsize: 3
+    fightersquadronorbitrange: 4000
+    fightersquadronrole: 3
+    hp: 100.0
+    id: 40347
+    marketGroup: 2239
+    mass: 1500.0
+    maxlockedtargets: 6
+    maxtargetrange: 45000.0
+    maxvelocity: 715.0
+    name: Dromi I
+    packagedVolume: 3000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40573
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scanladarstrength: 7.0
+    scanresolution: 600.0
+    shieldcapacity: 6800.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 2200000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 120.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 3000.0
+    warpspeedmultiplier: 1.5
+  40568:
+    agility: 500.0
+    fighterabilityafterburnerspeedbonus: 100
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityenergyneutralizeramount: 80
+    fighterabilityenergyneutralizerduration: 6000
+    fighterabilityenergyneutralizerfalloffrange: 5000
+    fighterabilityenergyneutralizeroptimalrange: 10000
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 505
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterrefuelingtime: 2000
+    fightersquadronissupport: 1
+    fightersquadronmaxsize: 3
+    fightersquadronorbitrange: 7500
+    fightersquadronrole: 3
+    hp: 100.0
+    id: 40568
+    marketGroup: 2239
+    mass: 1500.0
+    maxlockedtargets: 6
+    maxtargetrange: 54000.0
+    maxvelocity: 744.0
+    metalevelold: 5
+    name: Cenobite II
+    packagedVolume: 3000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40573
+    requiredskill1level: 4
+    requiredskill2: 23069
+    requiredskill2level: 5
+    scanradarstrength: 8.0
+    scanresolution: 650.0
+    shieldcapacity: 7500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.8500000238418579
+    shieldrechargerate: 2200000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 120.0
+    structureuniformity: 1.0
+    techlevel: 2
+    volume: 3000.0
+    warpspeedmultiplier: 1.5
+  40569:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
@@ -296,52 +292,7 @@ types:
     techlevel: 2
     volume: 3000.0
     warpspeedmultiplier: 1.5
-  Siren I:
-    agility: 500.0
-    fighterabilityafterburnerduration: 20000
-    fighterabilityafterburnerspeedbonus: 200
-    fighterabilityantifightermissileresistance: 1
-    fighterabilitywarpdisruptionduration: 10000
-    fighterabilitywarpdisruptionpointstrength: 1
-    fighterabilitywarpdisruptionrange: 8000
-    fighterrefuelingtime: 2000
-    fightersquadronissupport: 1
-    fightersquadronmaxsize: 3
-    fightersquadronorbitrange: 4000
-    fightersquadronrole: 3
-    hp: 100.0
-    id: 40346
-    marketGroup: 2239
-    mass: 1500.0
-    maxlockedtargets: 6
-    maxtargetrange: 45000.0
-    maxvelocity: 715.0
-    name: Siren I
-    packagedVolume: 3000.0
-    portionSize: 1
-    published: true
-    radius: 35.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    requiredskill1: 40573
-    requiredskill1level: 1
-    requiredskill2: 23069
-    requiredskill2level: 1
-    scanmagnetometricstrength: 7.0
-    scanresolution: 600.0
-    shieldcapacity: 6800.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 1.0
-    signatureradius: 120.0
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 3000.0
-    warpspeedmultiplier: 1.5
-  Siren II:
+  40570:
     agility: 500.0
     fighterabilityafterburnerduration: 20000
     fighterabilityafterburnerspeedbonus: 250
@@ -387,7 +338,98 @@ types:
     techlevel: 2
     volume: 3000.0
     warpspeedmultiplier: 1.5
-  Standup Cenobite I:
+  40571:
+    agility: 500.0
+    fighterabilityafterburnerspeedbonus: 100
+    fighterabilityantifightermissileresistance: 1
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 505
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterabilitystasiswebifierduration: 10000
+    fighterabilitystasiswebifieroptimalrange: 16000
+    fighterabilitystasiswebifierresistanceid: 2115
+    fighterabilitystasiswebifierspeedpenalty: -15
+    fighterrefuelingtime: 2000
+    fightersquadronissupport: 1
+    fightersquadronmaxsize: 3
+    fightersquadronorbitrange: 8000
+    fightersquadronrole: 3
+    hp: 100.0
+    id: 40571
+    marketGroup: 2239
+    mass: 1500.0
+    maxlockedtargets: 6
+    maxtargetrange: 54000.0
+    maxvelocity: 744.0
+    metalevelold: 5
+    name: Dromi II
+    packagedVolume: 3000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40573
+    requiredskill1level: 4
+    requiredskill2: 23069
+    requiredskill2level: 5
+    scanladarstrength: 8.0
+    scanresolution: 650.0
+    shieldcapacity: 7500.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 2200000.0
+    shieldthermaldamageresonance: 0.8500000238418579
+    shielduniformity: 1.0
+    signatureradius: 120.0
+    structureuniformity: 1.0
+    techlevel: 2
+    volume: 3000.0
+    warpspeedmultiplier: 1.5
+  47037:
+    agility: 500.0
+    fighterabilityafterburnerduration: 20000
+    fighterabilityafterburnerspeedbonus: 200
+    fighterabilityantifightermissileresistance: 1
+    fighterabilitywarpdisruptionduration: 10000
+    fighterabilitywarpdisruptionpointstrength: 1
+    fighterabilitywarpdisruptionrange: 8000
+    fighterrefuelingtime: 2000
+    fightersquadronisstandupsupport: 1
+    fightersquadronmaxsize: 3
+    fightersquadronorbitrange: 4000
+    fightersquadronrole: 3
+    hp: 100.0
+    id: 47037
+    marketGroup: 2413
+    mass: 1500.0
+    maxlockedtargets: 6
+    maxtargetrange: 45000.0
+    maxvelocity: 1430.0
+    name: Standup Siren I
+    packagedVolume: 6000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    scanmagnetometricstrength: 11.0
+    scanresolution: 600.0
+    shieldcapacity: 13600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 2200000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 120.0
+    structureitemvisualflag: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 6000.0
+    warpspeedmultiplier: 1.5
+  47131:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
@@ -432,144 +474,7 @@ types:
     techlevel: 1
     volume: 6000.0
     warpspeedmultiplier: 1.5
-  Standup Cenobite II:
-    agility: 500.0
-    fighterabilityafterburnerspeedbonus: 100
-    fighterabilityantifightermissileresistance: 1
-    fighterabilityenergyneutralizeramount: 80
-    fighterabilityenergyneutralizerduration: 6000
-    fighterabilityenergyneutralizerfalloffrange: 5000
-    fighterabilityenergyneutralizeroptimalrange: 10000
-    fighterabilitymicrowarpdriveduration: 20000
-    fighterabilitymicrowarpdrivesignatureradiusbonus: 505
-    fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterrefuelingtime: 2000
-    fightersquadronisstandupsupport: 1
-    fightersquadronmaxsize: 3
-    fightersquadronorbitrange: 7500
-    fightersquadronrole: 3
-    hp: 100.0
-    id: 47134
-    marketGroup: 2413
-    mass: 1500.0
-    maxlockedtargets: 6
-    maxtargetrange: 54000.0
-    maxvelocity: 1488.0
-    metalevelold: 5
-    name: Standup Cenobite II
-    packagedVolume: 6000.0
-    portionSize: 1
-    published: true
-    radius: 35.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    scanradarstrength: 12.0
-    scanresolution: 650.0
-    shieldcapacity: 15000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
-    shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 1.0
-    signatureradius: 120.0
-    structureitemvisualflag: 1
-    structureuniformity: 1.0
-    techlevel: 2
-    volume: 6000.0
-    warpspeedmultiplier: 1.5
-  Standup Dromi I:
-    agility: 500.0
-    fighterabilityafterburnerspeedbonus: 100
-    fighterabilityantifightermissileresistance: 1
-    fighterabilitymicrowarpdriveduration: 20000
-    fighterabilitymicrowarpdrivesignatureradiusbonus: 495
-    fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitystasiswebifierduration: 10000
-    fighterabilitystasiswebifieroptimalrange: 8000
-    fighterabilitystasiswebifierresistanceid: 2115
-    fighterabilitystasiswebifierspeedpenalty: -10
-    fighterrefuelingtime: 2000
-    fightersquadronisstandupsupport: 1
-    fightersquadronmaxsize: 3
-    fightersquadronorbitrange: 4000
-    fightersquadronrole: 3
-    hp: 100.0
-    id: 47133
-    marketGroup: 2413
-    mass: 1500.0
-    maxlockedtargets: 6
-    maxtargetrange: 45000.0
-    maxvelocity: 1430.0
-    name: Standup Dromi I
-    packagedVolume: 6000.0
-    portionSize: 1
-    published: true
-    radius: 35.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    scanladarstrength: 11.0
-    scanresolution: 600.0
-    shieldcapacity: 13600.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 1.0
-    signatureradius: 120.0
-    structureitemvisualflag: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 6000.0
-    warpspeedmultiplier: 1.5
-  Standup Dromi II:
-    agility: 500.0
-    fighterabilityafterburnerspeedbonus: 100
-    fighterabilityantifightermissileresistance: 1
-    fighterabilitymicrowarpdriveduration: 20000
-    fighterabilitymicrowarpdrivesignatureradiusbonus: 505
-    fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitystasiswebifierduration: 10000
-    fighterabilitystasiswebifieroptimalrange: 16000
-    fighterabilitystasiswebifierresistanceid: 2115
-    fighterabilitystasiswebifierspeedpenalty: -15
-    fighterrefuelingtime: 2000
-    fightersquadronisstandupsupport: 1
-    fightersquadronmaxsize: 3
-    fightersquadronorbitrange: 8000
-    fightersquadronrole: 3
-    hp: 100.0
-    id: 47137
-    marketGroup: 2413
-    mass: 1500.0
-    maxlockedtargets: 6
-    maxtargetrange: 54000.0
-    maxvelocity: 1488.0
-    metalevelold: 5
-    name: Standup Dromi II
-    packagedVolume: 6000.0
-    portionSize: 1
-    published: true
-    radius: 35.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    scanladarstrength: 12.0
-    scanresolution: 650.0
-    shieldcapacity: 15000.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 0.8500000238418579
-    shielduniformity: 1.0
-    signatureradius: 120.0
-    structureitemvisualflag: 1
-    structureuniformity: 1.0
-    techlevel: 2
-    volume: 6000.0
-    warpspeedmultiplier: 1.5
-  Standup Scarab I:
+  47132:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
@@ -617,7 +522,98 @@ types:
     techlevel: 1
     volume: 6000.0
     warpspeedmultiplier: 1.5
-  Standup Scarab II:
+  47133:
+    agility: 500.0
+    fighterabilityafterburnerspeedbonus: 100
+    fighterabilityantifightermissileresistance: 1
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 495
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterabilitystasiswebifierduration: 10000
+    fighterabilitystasiswebifieroptimalrange: 8000
+    fighterabilitystasiswebifierresistanceid: 2115
+    fighterabilitystasiswebifierspeedpenalty: -10
+    fighterrefuelingtime: 2000
+    fightersquadronisstandupsupport: 1
+    fightersquadronmaxsize: 3
+    fightersquadronorbitrange: 4000
+    fightersquadronrole: 3
+    hp: 100.0
+    id: 47133
+    marketGroup: 2413
+    mass: 1500.0
+    maxlockedtargets: 6
+    maxtargetrange: 45000.0
+    maxvelocity: 1430.0
+    name: Standup Dromi I
+    packagedVolume: 6000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    scanladarstrength: 11.0
+    scanresolution: 600.0
+    shieldcapacity: 13600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 2200000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 120.0
+    structureitemvisualflag: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 6000.0
+    warpspeedmultiplier: 1.5
+  47134:
+    agility: 500.0
+    fighterabilityafterburnerspeedbonus: 100
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityenergyneutralizeramount: 80
+    fighterabilityenergyneutralizerduration: 6000
+    fighterabilityenergyneutralizerfalloffrange: 5000
+    fighterabilityenergyneutralizeroptimalrange: 10000
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 505
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterrefuelingtime: 2000
+    fightersquadronisstandupsupport: 1
+    fightersquadronmaxsize: 3
+    fightersquadronorbitrange: 7500
+    fightersquadronrole: 3
+    hp: 100.0
+    id: 47134
+    marketGroup: 2413
+    mass: 1500.0
+    maxlockedtargets: 6
+    maxtargetrange: 54000.0
+    maxvelocity: 1488.0
+    metalevelold: 5
+    name: Standup Cenobite II
+    packagedVolume: 6000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 12.0
+    scanresolution: 650.0
+    shieldcapacity: 15000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.8500000238418579
+    shieldrechargerate: 2200000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 120.0
+    structureitemvisualflag: 1
+    structureuniformity: 1.0
+    techlevel: 2
+    volume: 6000.0
+    warpspeedmultiplier: 1.5
+  47135:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
@@ -666,49 +662,7 @@ types:
     techlevel: 2
     volume: 6000.0
     warpspeedmultiplier: 1.5
-  Standup Siren I:
-    agility: 500.0
-    fighterabilityafterburnerduration: 20000
-    fighterabilityafterburnerspeedbonus: 200
-    fighterabilityantifightermissileresistance: 1
-    fighterabilitywarpdisruptionduration: 10000
-    fighterabilitywarpdisruptionpointstrength: 1
-    fighterabilitywarpdisruptionrange: 8000
-    fighterrefuelingtime: 2000
-    fightersquadronisstandupsupport: 1
-    fightersquadronmaxsize: 3
-    fightersquadronorbitrange: 4000
-    fightersquadronrole: 3
-    hp: 100.0
-    id: 47037
-    marketGroup: 2413
-    mass: 1500.0
-    maxlockedtargets: 6
-    maxtargetrange: 45000.0
-    maxvelocity: 1430.0
-    name: Standup Siren I
-    packagedVolume: 6000.0
-    portionSize: 1
-    published: true
-    radius: 35.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    scanmagnetometricstrength: 11.0
-    scanresolution: 600.0
-    shieldcapacity: 13600.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 1.0
-    shielduniformity: 1.0
-    signatureradius: 120.0
-    structureitemvisualflag: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 6000.0
-    warpspeedmultiplier: 1.5
-  Standup Siren II:
+  47136:
     agility: 500.0
     fighterabilityafterburnerduration: 20000
     fighterabilityafterburnerspeedbonus: 250
@@ -742,6 +696,52 @@ types:
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.699999988079071
+    shieldrechargerate: 2200000.0
+    shieldthermaldamageresonance: 0.8500000238418579
+    shielduniformity: 1.0
+    signatureradius: 120.0
+    structureitemvisualflag: 1
+    structureuniformity: 1.0
+    techlevel: 2
+    volume: 6000.0
+    warpspeedmultiplier: 1.5
+  47137:
+    agility: 500.0
+    fighterabilityafterburnerspeedbonus: 100
+    fighterabilityantifightermissileresistance: 1
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 505
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterabilitystasiswebifierduration: 10000
+    fighterabilitystasiswebifieroptimalrange: 16000
+    fighterabilitystasiswebifierresistanceid: 2115
+    fighterabilitystasiswebifierspeedpenalty: -15
+    fighterrefuelingtime: 2000
+    fightersquadronisstandupsupport: 1
+    fightersquadronmaxsize: 3
+    fightersquadronorbitrange: 8000
+    fightersquadronrole: 3
+    hp: 100.0
+    id: 47137
+    marketGroup: 2413
+    mass: 1500.0
+    maxlockedtargets: 6
+    maxtargetrange: 54000.0
+    maxvelocity: 1488.0
+    metalevelold: 5
+    name: Standup Dromi II
+    packagedVolume: 6000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    scanladarstrength: 12.0
+    scanresolution: 650.0
+    shieldcapacity: 15000.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 2200000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0

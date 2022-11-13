@@ -457,7 +457,7 @@ public class LCODrone
         implements IMetaGroup<LCODrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/LCODrone.yaml";
-        private Map<String, LCODrone> cache = (null);
+        private Map<Integer, LCODrone> cache = (null);
 
         @Override
         public IMetaCategory<? super LCODrone> category() {
@@ -475,7 +475,7 @@ public class LCODrone
         }
 
         @Override
-        public synchronized Map<String, LCODrone> load() {
+        public synchronized Map<Integer, LCODrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LCODrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -489,7 +489,7 @@ public class LCODrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, LCODrone> types;
+            public LinkedHashMap<Integer, LCODrone> types;
         }
     }
 }

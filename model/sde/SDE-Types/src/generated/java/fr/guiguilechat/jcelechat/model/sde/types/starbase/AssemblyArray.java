@@ -242,7 +242,7 @@ public class AssemblyArray
         implements IMetaGroup<AssemblyArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/AssemblyArray.yaml";
-        private Map<String, AssemblyArray> cache = (null);
+        private Map<Integer, AssemblyArray> cache = (null);
 
         @Override
         public IMetaCategory<? super AssemblyArray> category() {
@@ -260,7 +260,7 @@ public class AssemblyArray
         }
 
         @Override
-        public synchronized Map<String, AssemblyArray> load() {
+        public synchronized Map<Integer, AssemblyArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AssemblyArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -274,7 +274,7 @@ public class AssemblyArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, AssemblyArray> types;
+            public LinkedHashMap<Integer, AssemblyArray> types;
         }
     }
 }

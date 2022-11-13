@@ -1085,7 +1085,7 @@ public class IrregularDrone
         implements IMetaGroup<IrregularDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularDrone.yaml";
-        private Map<String, IrregularDrone> cache = (null);
+        private Map<Integer, IrregularDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularDrone> category() {
@@ -1103,7 +1103,7 @@ public class IrregularDrone
         }
 
         @Override
-        public synchronized Map<String, IrregularDrone> load() {
+        public synchronized Map<Integer, IrregularDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1117,7 +1117,7 @@ public class IrregularDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularDrone> types;
+            public LinkedHashMap<Integer, IrregularDrone> types;
         }
     }
 }

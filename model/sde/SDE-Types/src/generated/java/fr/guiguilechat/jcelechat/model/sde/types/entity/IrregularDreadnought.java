@@ -542,7 +542,7 @@ public class IrregularDreadnought
         implements IMetaGroup<IrregularDreadnought>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularDreadnought.yaml";
-        private Map<String, IrregularDreadnought> cache = (null);
+        private Map<Integer, IrregularDreadnought> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularDreadnought> category() {
@@ -560,7 +560,7 @@ public class IrregularDreadnought
         }
 
         @Override
-        public synchronized Map<String, IrregularDreadnought> load() {
+        public synchronized Map<Integer, IrregularDreadnought> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularDreadnought.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -574,7 +574,7 @@ public class IrregularDreadnought
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularDreadnought> types;
+            public LinkedHashMap<Integer, IrregularDreadnought> types;
         }
     }
 }

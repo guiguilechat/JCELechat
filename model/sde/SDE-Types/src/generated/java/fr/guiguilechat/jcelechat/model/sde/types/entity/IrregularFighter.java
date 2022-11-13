@@ -592,7 +592,7 @@ public class IrregularFighter
         implements IMetaGroup<IrregularFighter>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularFighter.yaml";
-        private Map<String, IrregularFighter> cache = (null);
+        private Map<Integer, IrregularFighter> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularFighter> category() {
@@ -610,7 +610,7 @@ public class IrregularFighter
         }
 
         @Override
-        public synchronized Map<String, IrregularFighter> load() {
+        public synchronized Map<Integer, IrregularFighter> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularFighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -624,7 +624,7 @@ public class IrregularFighter
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularFighter> types;
+            public LinkedHashMap<Integer, IrregularFighter> types;
         }
     }
 }

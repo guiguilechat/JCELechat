@@ -4956,12 +4956,15 @@ locations:
   Aokinen:
     adjacentConstellations:
     - Kurala
+    - Serthoulde
     - Inolari
     - Minnen
     adjacentRegions:
+    - Placid
     - Lonetrek
     adjacentSystems:
     - Ikoskio
+    - Athounon
     - Kinakka
     - Piak
     hasBorder: false
@@ -23241,12 +23244,15 @@ locations:
   Serthoulde:
     adjacentConstellations:
     - S4GH-I
+    - Aokinen
     - Beyt
     - Amevync
     adjacentRegions:
     - Pure Blind
+    - Black Rise
     adjacentSystems:
     - RQH-MY
+    - Samanuni
     - Maut
     - Anchauttes
     hasBorder: true

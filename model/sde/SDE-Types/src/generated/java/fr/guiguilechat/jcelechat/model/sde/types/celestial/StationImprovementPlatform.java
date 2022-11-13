@@ -134,7 +134,7 @@ public class StationImprovementPlatform
         implements IMetaGroup<StationImprovementPlatform>
     {
         public static final String RESOURCE_PATH = "SDE/types/celestial/StationImprovementPlatform.yaml";
-        private Map<String, StationImprovementPlatform> cache = (null);
+        private Map<Integer, StationImprovementPlatform> cache = (null);
 
         @Override
         public IMetaCategory<? super StationImprovementPlatform> category() {
@@ -152,7 +152,7 @@ public class StationImprovementPlatform
         }
 
         @Override
-        public synchronized Map<String, StationImprovementPlatform> load() {
+        public synchronized Map<Integer, StationImprovementPlatform> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StationImprovementPlatform.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -166,7 +166,7 @@ public class StationImprovementPlatform
         }
 
         private static class Container {
-            public LinkedHashMap<String, StationImprovementPlatform> types;
+            public LinkedHashMap<Integer, StationImprovementPlatform> types;
         }
     }
 }

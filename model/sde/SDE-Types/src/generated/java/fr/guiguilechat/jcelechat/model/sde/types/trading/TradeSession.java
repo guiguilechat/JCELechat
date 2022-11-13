@@ -32,7 +32,7 @@ public class TradeSession
         implements IMetaGroup<TradeSession>
     {
         public static final String RESOURCE_PATH = "SDE/types/trading/TradeSession.yaml";
-        private Map<String, TradeSession> cache = (null);
+        private Map<Integer, TradeSession> cache = (null);
 
         @Override
         public IMetaCategory<? super TradeSession> category() {
@@ -50,7 +50,7 @@ public class TradeSession
         }
 
         @Override
-        public synchronized Map<String, TradeSession> load() {
+        public synchronized Map<Integer, TradeSession> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TradeSession.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class TradeSession
         }
 
         private static class Container {
-            public LinkedHashMap<String, TradeSession> types;
+            public LinkedHashMap<Integer, TradeSession> types;
         }
     }
 }

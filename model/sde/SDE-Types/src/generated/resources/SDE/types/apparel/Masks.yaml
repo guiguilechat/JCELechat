@@ -1,36 +1,72 @@
 types:
-  Men's Biosecurity Response Team Mask:
-    id: 54830
-    marketGroup: 1407
-    mass: 0.5
-    name: Men's Biosecurity Response Team Mask
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's SOE Enhanced Biosecurity Mask:
-    id: 54719
-    marketGroup: 1407
-    mass: 0.5
-    name: Men's SOE Enhanced Biosecurity Mask
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Biosecurity Response Team Mask:
+  54714:
     id: 54714
-    marketGroup: 1407
+    marketGroup: 3478
     mass: 0.5
     name: Women's Biosecurity Response Team Mask
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Women's SOE Enhanced Biosecurity Mask:
+  54715:
     id: 54715
-    marketGroup: 1407
+    marketGroup: 3478
     mass: 0.5
     name: Women's SOE Enhanced Biosecurity Mask
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54719:
+    id: 54719
+    marketGroup: 3478
+    mass: 0.5
+    name: Men's SOE Enhanced Biosecurity Mask
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54830:
+    id: 54830
+    marketGroup: 3478
+    mass: 0.5
+    name: Men's Biosecurity Response Team Mask
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  63135:
+    id: 63135
+    marketGroup: 3478
+    mass: 0.5
+    name: Men's Proven Bioadaptive Mask
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  63138:
+    id: 63138
+    marketGroup: 3478
+    mass: 0.5
+    name: Women's Proven Bioadaptive Mask
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  73423:
+    id: 73423
+    marketGroup: 3478
+    mass: 0.5
+    name: Women's Desert Nomad Mask
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  73425:
+    id: 73425
+    marketGroup: 3478
+    mass: 0.5
+    name: Men's Desert Nomad Mask
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

@@ -42,7 +42,7 @@ public class Bezdnacine
         implements IMetaGroup<Bezdnacine>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Bezdnacine.yaml";
-        private Map<String, Bezdnacine> cache = (null);
+        private Map<Integer, Bezdnacine> cache = (null);
 
         @Override
         public IMetaCategory<? super Bezdnacine> category() {
@@ -60,7 +60,7 @@ public class Bezdnacine
         }
 
         @Override
-        public synchronized Map<String, Bezdnacine> load() {
+        public synchronized Map<Integer, Bezdnacine> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Bezdnacine.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -74,7 +74,7 @@ public class Bezdnacine
         }
 
         private static class Container {
-            public LinkedHashMap<String, Bezdnacine> types;
+            public LinkedHashMap<Integer, Bezdnacine> types;
         }
     }
 }

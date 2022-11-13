@@ -32,7 +32,7 @@ public class InfantryColorSkin
         implements IMetaGroup<InfantryColorSkin>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/InfantryColorSkin.yaml";
-        private Map<String, InfantryColorSkin> cache = (null);
+        private Map<Integer, InfantryColorSkin> cache = (null);
 
         @Override
         public IMetaCategory<? super InfantryColorSkin> category() {
@@ -50,7 +50,7 @@ public class InfantryColorSkin
         }
 
         @Override
-        public synchronized Map<String, InfantryColorSkin> load() {
+        public synchronized Map<Integer, InfantryColorSkin> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InfantryColorSkin.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class InfantryColorSkin
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfantryColorSkin> types;
+            public LinkedHashMap<Integer, InfantryColorSkin> types;
         }
     }
 }

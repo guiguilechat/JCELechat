@@ -263,7 +263,7 @@ public class ScannerProbe
         implements IMetaGroup<ScannerProbe>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/ScannerProbe.yaml";
-        private Map<String, ScannerProbe> cache = (null);
+        private Map<Integer, ScannerProbe> cache = (null);
 
         @Override
         public IMetaCategory<? super ScannerProbe> category() {
@@ -281,7 +281,7 @@ public class ScannerProbe
         }
 
         @Override
-        public synchronized Map<String, ScannerProbe> load() {
+        public synchronized Map<Integer, ScannerProbe> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ScannerProbe.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -295,7 +295,7 @@ public class ScannerProbe
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScannerProbe> types;
+            public LinkedHashMap<Integer, ScannerProbe> types;
         }
     }
 }

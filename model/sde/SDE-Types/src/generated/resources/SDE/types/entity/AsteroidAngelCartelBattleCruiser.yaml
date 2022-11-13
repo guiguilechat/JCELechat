@@ -1,90 +1,5 @@
 types:
-  Angel Legatus:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 1200.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 875.0
-    capacity: 120.0
-    damagemultiplier: 8.0
-    disallowassistance: 1
-    emdamage: 10.0
-    entityarmorrepairdelaychancemedium: 0.6000000238418579
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 17700
-    entityattackdelaymin: 4425
-    entityattackrange: 57422
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.15625
-    entitychasemaxdistance: 34453
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entitydefenderchance: 0.05000000074505806
-    entityequipmentmax: 8
-    entityequipmentmin: 5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 22969.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 225000
-    entitylootcountmin: 1
-    entitymissiletypeid: 213
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08749999850988388
-    entityshieldboostamount: 150.0
-    entityshieldboostdelaychancemedium: 0.6000000238418579
-    entityshieldboostduration: 5000
-    explosivedamage: 8.0
-    falloff: 21875.0
-    gfxboosterid: 397
-    gfxturretid: 492
-    hp: 1300.0
-    id: 22827
-    kineticdamage: 4.0
-    mass: 1.09E7
-    maxattacktargets: 1
-    maxlockedtargets: 4
-    maxrange: 17500.0
-    maxvelocity: 1600.0
-    missiledamagemultiplier: 1.6699999570846558
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
-    missilelaunchduration: 5000.0
-    name: Angel Legatus
-    optimalsigradius: 125
-    packagedVolume: 109000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanladarstrength: 19.0
-    scanresolution: 220.0
-    shieldcapacity: 1700.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 240.0
-    speed: 5000.0
-    structureuniformity: 1.0
-    trackingspeed: 0.02199999988079071
-    volume: 109000.0
-  Angel Legionnaire:
+  22822:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -168,91 +83,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.027000000700354576
     volume: 109000.0
-  Angel Praefectus:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 1200.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.5
-    armoruniformity: 0.75
-    capacitorcapacity: 825.0
-    capacity: 120.0
-    damagemultiplier: 7.5
-    disallowassistance: 1
-    entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6000000238418579
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 18300
-    entityattackdelaymin: 4575
-    entityattackrange: 15000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3125
-    entitychasemaxdistance: 10000
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entitydefenderchance: 0.04500000178813934
-    entityequipmentmax: 7
-    entityequipmentmin: 5
-    entityfactionloss: 0.008999999612569809
-    entityflyrange: 5000.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 205000
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6399999856948853
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
-    entityshieldboostamount: 150.0
-    entityshieldboostdelaychancemedium: 0.6000000238418579
-    entityshieldboostduration: 5000
-    explosivedamage: 4.0
-    falloff: 10000.0
-    gfxboosterid: 397
-    gfxturretid: 490
-    hp: 1300.0
-    id: 22825
-    kineticdamage: 14.0
-    mass: 1.09E7
-    maxattacktargets: 1
-    maxlockedtargets: 4
-    maxrange: 2500.0
-    maxvelocity: 1600.0
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8402000069618225
-    missileentityaoevelocitymultiplier: 1.319599986076355
-    missileentityflighttimemultiplier: 1.319599986076355
-    missileentityvelocitymultiplier: 1.319599986076355
-    missilelaunchduration: 1.0
-    name: Angel Praefectus
-    optimalsigradius: 125
-    packagedVolume: 109000.0
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 150.0
-    rechargerate: 1000000.0
-    scanladarstrength: 18.0
-    scanresolution: 220.0
-    shieldcapacity: 1700.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 240.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    trackingspeed: 0.10559999942779541
-    volume: 109000.0
-  Angel Primus:
+  22823:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -336,7 +167,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.027000000700354576
     volume: 109000.0
-  Angel Tribuni:
+  22824:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -420,7 +251,91 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.10559999942779541
     volume: 109000.0
-  Angel Tribunus:
+  22825:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 1200.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 825.0
+    capacity: 120.0
+    damagemultiplier: 7.5
+    disallowassistance: 1
+    entityarmorrepairamount: 300.0
+    entityarmorrepairdelaychancemedium: 0.6000000238418579
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 18300
+    entityattackdelaymin: 4575
+    entityattackrange: 15000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.3125
+    entitychasemaxdistance: 10000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entitydefenderchance: 0.04500000178813934
+    entityequipmentmax: 7
+    entityequipmentmin: 5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 5000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 205000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6399999856948853
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08250000327825546
+    entityshieldboostamount: 150.0
+    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostduration: 5000
+    explosivedamage: 4.0
+    falloff: 10000.0
+    gfxboosterid: 397
+    gfxturretid: 490
+    hp: 1300.0
+    id: 22825
+    kineticdamage: 14.0
+    mass: 1.09E7
+    maxattacktargets: 1
+    maxlockedtargets: 4
+    maxrange: 2500.0
+    maxvelocity: 1600.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 0.8402000069618225
+    missileentityaoevelocitymultiplier: 1.319599986076355
+    missileentityflighttimemultiplier: 1.319599986076355
+    missileentityvelocitymultiplier: 1.319599986076355
+    missilelaunchduration: 1.0
+    name: Angel Praefectus
+    optimalsigradius: 125
+    packagedVolume: 109000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanladarstrength: 18.0
+    scanresolution: 220.0
+    shieldcapacity: 1700.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 240.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    trackingspeed: 0.10559999942779541
+    volume: 109000.0
+  22826:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -502,5 +417,90 @@ types:
     speed: 5000.0
     structureuniformity: 1.0
     thermaldamage: 16.0
+    trackingspeed: 0.02199999988079071
+    volume: 109000.0
+  22827:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 1200.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 875.0
+    capacity: 120.0
+    damagemultiplier: 8.0
+    disallowassistance: 1
+    emdamage: 10.0
+    entityarmorrepairdelaychancemedium: 0.6000000238418579
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 17700
+    entityattackdelaymin: 4425
+    entityattackrange: 57422
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.15625
+    entitychasemaxdistance: 34453
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentmax: 8
+    entityequipmentmin: 5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 22969.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 225000
+    entitylootcountmin: 1
+    entitymissiletypeid: 213
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6600000262260437
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08749999850988388
+    entityshieldboostamount: 150.0
+    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostduration: 5000
+    explosivedamage: 8.0
+    falloff: 21875.0
+    gfxboosterid: 397
+    gfxturretid: 492
+    hp: 1300.0
+    id: 22827
+    kineticdamage: 4.0
+    mass: 1.09E7
+    maxattacktargets: 1
+    maxlockedtargets: 4
+    maxrange: 17500.0
+    maxvelocity: 1600.0
+    missiledamagemultiplier: 1.6699999570846558
+    missileentityaoecloudsizemultiplier: 0.8320000171661377
+    missileentityaoevelocitymultiplier: 1.3359999656677246
+    missileentityflighttimemultiplier: 1.3359999656677246
+    missileentityvelocitymultiplier: 1.3359999656677246
+    missilelaunchduration: 5000.0
+    name: Angel Legatus
+    optimalsigradius: 125
+    packagedVolume: 109000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scanladarstrength: 19.0
+    scanresolution: 220.0
+    shieldcapacity: 1700.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 240.0
+    speed: 5000.0
+    structureuniformity: 1.0
     trackingspeed: 0.02199999988079071
     volume: 109000.0

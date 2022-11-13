@@ -305,7 +305,7 @@ public class CloneVatBay
         implements IMetaGroup<CloneVatBay>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CloneVatBay.yaml";
-        private Map<String, CloneVatBay> cache = (null);
+        private Map<Integer, CloneVatBay> cache = (null);
 
         @Override
         public IMetaCategory<? super CloneVatBay> category() {
@@ -323,7 +323,7 @@ public class CloneVatBay
         }
 
         @Override
-        public synchronized Map<String, CloneVatBay> load() {
+        public synchronized Map<Integer, CloneVatBay> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CloneVatBay.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -337,7 +337,7 @@ public class CloneVatBay
         }
 
         private static class Container {
-            public LinkedHashMap<String, CloneVatBay> types;
+            public LinkedHashMap<Integer, CloneVatBay> types;
         }
     }
 }

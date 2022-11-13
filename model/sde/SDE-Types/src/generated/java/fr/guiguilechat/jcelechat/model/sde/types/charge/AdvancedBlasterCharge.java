@@ -304,7 +304,7 @@ public class AdvancedBlasterCharge
         implements IMetaGroup<AdvancedBlasterCharge>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedBlasterCharge.yaml";
-        private Map<String, AdvancedBlasterCharge> cache = (null);
+        private Map<Integer, AdvancedBlasterCharge> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedBlasterCharge> category() {
@@ -322,7 +322,7 @@ public class AdvancedBlasterCharge
         }
 
         @Override
-        public synchronized Map<String, AdvancedBlasterCharge> load() {
+        public synchronized Map<Integer, AdvancedBlasterCharge> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedBlasterCharge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -336,7 +336,7 @@ public class AdvancedBlasterCharge
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedBlasterCharge> types;
+            public LinkedHashMap<Integer, AdvancedBlasterCharge> types;
         }
     }
 }

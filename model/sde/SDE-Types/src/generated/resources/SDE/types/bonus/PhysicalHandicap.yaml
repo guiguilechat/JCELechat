@@ -1,17 +1,17 @@
 types:
-  Epileptic Bonus:
-    accuracymultiplier: 1.0
-    id: 1643
-    name: Epileptic Bonus
-    portionSize: 1
-    published: false
-  Mechanical Inaptitude Bonus:
+  1636:
     accuracymultiplier: 1.0
     id: 1636
     name: Mechanical Inaptitude Bonus
     portionSize: 1
     published: false
-  Short Attention Span Bonus:
+  1639:
+    accuracymultiplier: 1.0
+    id: 1639
+    name: Weak Double-helix Bond Bonus
+    portionSize: 1
+    published: false
+  1640:
     accuracymultiplier: 1.0
     capacitorneedmultiplier: 1.0499999523162842
     id: 1640
@@ -19,28 +19,28 @@ types:
     portionSize: 1
     published: false
     radius: 1.0
-  Strong Immunity System Bonus:
+  1641:
     accuracymultiplier: 1.0
-    id: 1644
-    name: Strong Immunity System Bonus
+    id: 1641
+    name: Wasteful Bonus
     portionSize: 1
     published: false
-  Trigger-happy Bonus:
+  1642:
     accuracymultiplier: 0.949999988079071
     id: 1642
     name: Trigger-happy Bonus
     portionSize: 1
     published: false
     radius: 1.0
-  Wasteful Bonus:
+  1643:
     accuracymultiplier: 1.0
-    id: 1641
-    name: Wasteful Bonus
+    id: 1643
+    name: Epileptic Bonus
     portionSize: 1
     published: false
-  Weak Double-helix Bond Bonus:
+  1644:
     accuracymultiplier: 1.0
-    id: 1639
-    name: Weak Double-helix Bond Bonus
+    id: 1644
+    name: Strong Immunity System Bonus
     portionSize: 1
     published: false

@@ -1,49 +1,5 @@
 types:
-  Advanced Logistics Network Blueprint:
-    id: 34865
-    industryblueprintrank: 200.0
-    marketGroup: 2017
-    name: Advanced Logistics Network Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Cynosural Navigation Blueprint:
-    id: 34866
-    industryblueprintrank: 200.0
-    marketGroup: 2017
-    name: Cynosural Navigation Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Cynosural Suppression Blueprint:
-    id: 34867
-    industryblueprintrank: 200.0
-    marketGroup: 2017
-    name: Cynosural Suppression Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Entrapment Array 1 Blueprint:
-    id: 34869
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Entrapment Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Entrapment Array 2 Blueprint:
+  34841:
     id: 34841
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -54,7 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Entrapment Array 3 Blueprint:
+  34842:
     id: 34842
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -65,7 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Entrapment Array 4 Blueprint:
+  34843:
     id: 34843
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -76,7 +32,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Entrapment Array 5 Blueprint:
+  34844:
     id: 34844
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -87,62 +43,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Ore Prospecting Array 1 Blueprint:
-    id: 34855
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.5E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Ore Prospecting Array 2 Blueprint:
-    id: 34856
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.75E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Ore Prospecting Array 3 Blueprint:
-    id: 34857
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Ore Prospecting Array 4 Blueprint:
-    id: 34858
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 4 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 6.25E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Ore Prospecting Array 5 Blueprint:
-    id: 34859
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 5 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.25E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Pirate Detection Array 1 Blueprint:
+  34845:
     id: 34845
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -153,7 +54,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Pirate Detection Array 2 Blueprint:
+  34846:
     id: 34846
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -164,7 +65,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Pirate Detection Array 3 Blueprint:
+  34847:
     id: 34847
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -175,7 +76,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Pirate Detection Array 4 Blueprint:
+  34848:
     id: 34848
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -186,7 +87,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Pirate Detection Array 5 Blueprint:
+  34849:
     id: 34849
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -197,7 +98,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Quantum Flux Generator 1 Blueprint:
+  34850:
     id: 34850
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -208,7 +109,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Quantum Flux Generator 2 Blueprint:
+  34851:
     id: 34851
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -219,7 +120,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Quantum Flux Generator 3 Blueprint:
+  34852:
     id: 34852
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -230,7 +131,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Quantum Flux Generator 4 Blueprint:
+  34853:
     id: 34853
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -241,7 +142,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Quantum Flux Generator 5 Blueprint:
+  34854:
     id: 34854
     industryblueprintrank: 200.0
     marketGroup: 2016
@@ -252,18 +153,62 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Supercapital Construction Facilities Blueprint:
-    id: 34868
+  34855:
+    id: 34855
     industryblueprintrank: 200.0
-    marketGroup: 2017
-    name: Supercapital Construction Facilities Blueprint
+    marketGroup: 2014
+    name: Ore Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34856:
+    id: 34856
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Ore Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3.75E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Survey Networks 1 Blueprint:
+  34857:
+    id: 34857
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Ore Prospecting Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34858:
+    id: 34858
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Ore Prospecting Array 4 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6.25E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34859:
+    id: 34859
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Ore Prospecting Array 5 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.25E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34860:
     id: 34860
     industryblueprintrank: 200.0
     marketGroup: 2014
@@ -274,7 +219,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Survey Networks 2 Blueprint:
+  34861:
     id: 34861
     industryblueprintrank: 200.0
     marketGroup: 2014
@@ -285,7 +230,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Survey Networks 3 Blueprint:
+  34862:
     id: 34862
     industryblueprintrank: 200.0
     marketGroup: 2014
@@ -296,7 +241,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Survey Networks 4 Blueprint:
+  34863:
     id: 34863
     industryblueprintrank: 200.0
     marketGroup: 2014
@@ -307,7 +252,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Survey Networks 5 Blueprint:
+  34864:
     id: 34864
     industryblueprintrank: 200.0
     marketGroup: 2014
@@ -315,6 +260,61 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.25E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34865:
+    id: 34865
+    industryblueprintrank: 200.0
+    marketGroup: 2017
+    name: Advanced Logistics Network Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34866:
+    id: 34866
+    industryblueprintrank: 200.0
+    marketGroup: 2017
+    name: Cynosural Navigation Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34867:
+    id: 34867
+    industryblueprintrank: 200.0
+    marketGroup: 2017
+    name: Cynosural Suppression Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34868:
+    id: 34868
+    industryblueprintrank: 200.0
+    marketGroup: 2017
+    name: Supercapital Construction Facilities Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  34869:
+    id: 34869
+    industryblueprintrank: 200.0
+    marketGroup: 2016
+    name: Entrapment Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582

@@ -114,7 +114,7 @@ public class JumpFilaments
         implements IMetaGroup<JumpFilaments>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/JumpFilaments.yaml";
-        private Map<String, JumpFilaments> cache = (null);
+        private Map<Integer, JumpFilaments> cache = (null);
 
         @Override
         public IMetaCategory<? super JumpFilaments> category() {
@@ -132,7 +132,7 @@ public class JumpFilaments
         }
 
         @Override
-        public synchronized Map<String, JumpFilaments> load() {
+        public synchronized Map<Integer, JumpFilaments> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(JumpFilaments.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -146,7 +146,7 @@ public class JumpFilaments
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpFilaments> types;
+            public LinkedHashMap<Integer, JumpFilaments> types;
         }
     }
 }

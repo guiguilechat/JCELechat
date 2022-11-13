@@ -369,7 +369,7 @@ public class DefensiveSubsystem
         implements IMetaGroup<DefensiveSubsystem>
     {
         public static final String RESOURCE_PATH = "SDE/types/subsystem/DefensiveSubsystem.yaml";
-        private Map<String, DefensiveSubsystem> cache = (null);
+        private Map<Integer, DefensiveSubsystem> cache = (null);
 
         @Override
         public IMetaCategory<? super DefensiveSubsystem> category() {
@@ -387,7 +387,7 @@ public class DefensiveSubsystem
         }
 
         @Override
-        public synchronized Map<String, DefensiveSubsystem> load() {
+        public synchronized Map<Integer, DefensiveSubsystem> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DefensiveSubsystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -401,7 +401,7 @@ public class DefensiveSubsystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, DefensiveSubsystem> types;
+            public LinkedHashMap<Integer, DefensiveSubsystem> types;
         }
     }
 }

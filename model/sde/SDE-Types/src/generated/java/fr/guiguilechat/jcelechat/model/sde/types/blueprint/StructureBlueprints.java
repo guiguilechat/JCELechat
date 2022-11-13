@@ -32,7 +32,7 @@ public class StructureBlueprints
         implements IMetaGroup<StructureBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StructureBlueprints.yaml";
-        private Map<String, StructureBlueprints> cache = (null);
+        private Map<Integer, StructureBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureBlueprints> category() {
@@ -50,7 +50,7 @@ public class StructureBlueprints
         }
 
         @Override
-        public synchronized Map<String, StructureBlueprints> load() {
+        public synchronized Map<Integer, StructureBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class StructureBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureBlueprints> types;
+            public LinkedHashMap<Integer, StructureBlueprints> types;
         }
     }
 }

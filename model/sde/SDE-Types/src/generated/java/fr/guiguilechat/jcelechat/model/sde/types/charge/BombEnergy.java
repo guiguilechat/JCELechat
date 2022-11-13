@@ -340,7 +340,7 @@ public class BombEnergy
         implements IMetaGroup<BombEnergy>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/BombEnergy.yaml";
-        private Map<String, BombEnergy> cache = (null);
+        private Map<Integer, BombEnergy> cache = (null);
 
         @Override
         public IMetaCategory<? super BombEnergy> category() {
@@ -358,7 +358,7 @@ public class BombEnergy
         }
 
         @Override
-        public synchronized Map<String, BombEnergy> load() {
+        public synchronized Map<Integer, BombEnergy> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BombEnergy.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -372,7 +372,7 @@ public class BombEnergy
         }
 
         private static class Container {
-            public LinkedHashMap<String, BombEnergy> types;
+            public LinkedHashMap<Integer, BombEnergy> types;
         }
     }
 }

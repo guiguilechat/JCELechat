@@ -289,7 +289,7 @@ public class StructureEngineeringRigMAdvancedComponentTE
         implements IMetaGroup<StructureEngineeringRigMAdvancedComponentTE>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMAdvancedComponentTE.yaml";
-        private Map<String, StructureEngineeringRigMAdvancedComponentTE> cache = (null);
+        private Map<Integer, StructureEngineeringRigMAdvancedComponentTE> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMAdvancedComponentTE> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMAdvancedComponentTE
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMAdvancedComponentTE> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMAdvancedComponentTE> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMAdvancedComponentTE.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMAdvancedComponentTE
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMAdvancedComponentTE> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMAdvancedComponentTE> types;
         }
     }
 }

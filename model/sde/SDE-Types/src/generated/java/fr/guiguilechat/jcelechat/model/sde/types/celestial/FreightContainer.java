@@ -73,7 +73,7 @@ public class FreightContainer
         implements IMetaGroup<FreightContainer>
     {
         public static final String RESOURCE_PATH = "SDE/types/celestial/FreightContainer.yaml";
-        private Map<String, FreightContainer> cache = (null);
+        private Map<Integer, FreightContainer> cache = (null);
 
         @Override
         public IMetaCategory<? super FreightContainer> category() {
@@ -91,7 +91,7 @@ public class FreightContainer
         }
 
         @Override
-        public synchronized Map<String, FreightContainer> load() {
+        public synchronized Map<Integer, FreightContainer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FreightContainer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -105,7 +105,7 @@ public class FreightContainer
         }
 
         private static class Container {
-            public LinkedHashMap<String, FreightContainer> types;
+            public LinkedHashMap<Integer, FreightContainer> types;
         }
     }
 }

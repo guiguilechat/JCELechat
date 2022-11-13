@@ -264,8 +264,8 @@ public class CombatBattlecruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusabc2;
+    @DefaultRealValue(0.0)
+    public double shipbonusabc2;
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
@@ -544,7 +544,7 @@ public class CombatBattlecruiser
         implements IMetaGroup<CombatBattlecruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/CombatBattlecruiser.yaml";
-        private Map<String, CombatBattlecruiser> cache = (null);
+        private Map<Integer, CombatBattlecruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super CombatBattlecruiser> category() {
@@ -562,7 +562,7 @@ public class CombatBattlecruiser
         }
 
         @Override
-        public synchronized Map<String, CombatBattlecruiser> load() {
+        public synchronized Map<Integer, CombatBattlecruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CombatBattlecruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -576,7 +576,7 @@ public class CombatBattlecruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, CombatBattlecruiser> types;
+            public LinkedHashMap<Integer, CombatBattlecruiser> types;
         }
     }
 }

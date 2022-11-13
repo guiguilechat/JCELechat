@@ -32,7 +32,7 @@ public class ResearchData
         implements IMetaGroup<ResearchData>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/ResearchData.yaml";
-        private Map<String, ResearchData> cache = (null);
+        private Map<Integer, ResearchData> cache = (null);
 
         @Override
         public IMetaCategory<? super ResearchData> category() {
@@ -50,7 +50,7 @@ public class ResearchData
         }
 
         @Override
-        public synchronized Map<String, ResearchData> load() {
+        public synchronized Map<Integer, ResearchData> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ResearchData.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class ResearchData
         }
 
         private static class Container {
-            public LinkedHashMap<String, ResearchData> types;
+            public LinkedHashMap<Integer, ResearchData> types;
         }
     }
 }

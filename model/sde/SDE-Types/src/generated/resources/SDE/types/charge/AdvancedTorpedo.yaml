@@ -1,147 +1,5 @@
 types:
-  Inferno Javelin Torpedo:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 405
-    aoedamagereductionfactor: 0.9670000076293945
-    aoefalloff: 1500
-    aoevelocity: 78
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 7200
-    explosivedamageresonance: 1.0
-    hp: 360.0
-    id: 24525
-    kineticdamageresonance: 1.0
-    launchergroup: 508
-    marketGroup: 929
-    mass: 1500.0
-    maxvelocity: 2700.0
-    metalevelold: 5
-    name: Inferno Javelin Torpedo
-    packagedVolume: 0.05000000074505806
-    portionSize: 5000
-    price: 1500245.0
-    published: true
-    radius: 300.0
-    requiredskill1: 20213
-    requiredskill1level: 1
-    requiredskill2: 3325
-    requiredskill2level: 5
-    requiredskill3: 3319
-    requiredskill3level: 5
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamage: 405.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
-  Inferno Rage Torpedo:
-    agility: 5.220125675201416
-    aoecloudsize: 697
-    aoedamagereductionfactor: 0.9670000076293945
-    aoefalloff: 750
-    aoevelocity: 67
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 7200
-    explosivedamageresonance: 1.0
-    hp: 360.0
-    id: 2811
-    kineticdamageresonance: 1.0
-    launchergroup: 508
-    marketGroup: 931
-    mass: 1000.0
-    maxvelocity: 1500.0
-    metalevelold: 5
-    name: Inferno Rage Torpedo
-    packagedVolume: 0.05000000074505806
-    portionSize: 5000
-    price: 1500245.0
-    published: true
-    radius: 5.0
-    requiredskill1: 20213
-    requiredskill1level: 1
-    requiredskill2: 3325
-    requiredskill2level: 5
-    requiredskill3: 3319
-    requiredskill3level: 5
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamage: 699.2000122070312
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
-  Mjolnir Javelin Torpedo:
-    agility: 5.220125675201416
-    aimedlaunch: 1
-    aoecloudsize: 405
-    aoedamagereductionfactor: 0.9670000076293945
-    aoefalloff: 1500
-    aoevelocity: 78
-    detonationrange: 35
-    emdamage: 405.0
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 7200
-    explosivedamageresonance: 1.0
-    hp: 360.0
-    id: 24527
-    kineticdamageresonance: 1.0
-    launchergroup: 508
-    marketGroup: 929
-    mass: 1500.0
-    maxvelocity: 2700.0
-    metalevelold: 5
-    name: Mjolnir Javelin Torpedo
-    packagedVolume: 0.05000000074505806
-    portionSize: 5000
-    price: 1500245.0
-    published: true
-    radius: 300.0
-    requiredskill1: 20213
-    requiredskill1level: 1
-    requiredskill2: 3325
-    requiredskill2level: 5
-    requiredskill3: 3319
-    requiredskill3level: 5
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
-  Mjolnir Rage Torpedo:
-    agility: 5.220125675201416
-    aoecloudsize: 697
-    aoedamagereductionfactor: 0.9670000076293945
-    aoefalloff: 750
-    aoevelocity: 67
-    detonationrange: 35
-    emdamage: 699.2000122070312
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 7200
-    explosivedamageresonance: 1.0
-    hp: 360.0
-    id: 24523
-    kineticdamageresonance: 1.0
-    launchergroup: 508
-    marketGroup: 931
-    mass: 1000.0
-    maxvelocity: 1500.0
-    metalevelold: 5
-    name: Mjolnir Rage Torpedo
-    packagedVolume: 0.05000000074505806
-    portionSize: 5000
-    price: 1500245.0
-    published: true
-    radius: 5.0
-    requiredskill1: 20213
-    requiredskill1level: 1
-    requiredskill2: 3325
-    requiredskill2level: 5
-    requiredskill3: 3319
-    requiredskill3level: 5
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
-  Nova Javelin Torpedo:
+  2801:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 405
@@ -177,7 +35,42 @@ types:
     techlevel: 2
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Nova Rage Torpedo:
+  2811:
+    agility: 5.220125675201416
+    aoecloudsize: 697
+    aoedamagereductionfactor: 0.9670000076293945
+    aoefalloff: 750
+    aoevelocity: 67
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 7200
+    explosivedamageresonance: 1.0
+    hp: 360.0
+    id: 2811
+    kineticdamageresonance: 1.0
+    launchergroup: 508
+    marketGroup: 931
+    mass: 1000.0
+    maxvelocity: 1500.0
+    metalevelold: 5
+    name: Inferno Rage Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
+    price: 1500245.0
+    published: true
+    radius: 5.0
+    requiredskill1: 20213
+    requiredskill1level: 1
+    requiredskill2: 3325
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 699.2000122070312
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.05000000074505806
+  24519:
     agility: 5.220125675201416
     aoecloudsize: 697
     aoedamagereductionfactor: 0.9670000076293945
@@ -212,7 +105,149 @@ types:
     techlevel: 2
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Scourge Javelin Torpedo:
+  24521:
+    agility: 5.220125675201416
+    aoecloudsize: 697
+    aoedamagereductionfactor: 0.9670000076293945
+    aoefalloff: 750
+    aoevelocity: 67
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 7200
+    explosivedamageresonance: 1.0
+    hp: 360.0
+    id: 24521
+    kineticdamage: 699.2000122070312
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 508
+    marketGroup: 931
+    mass: 1000.0
+    maxvelocity: 1500.0
+    metalevelold: 5
+    name: Scourge Rage Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
+    price: 1500245.0
+    published: true
+    radius: 5.0
+    requiredskill1: 20213
+    requiredskill1level: 1
+    requiredskill2: 3325
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    volume: 0.05000000074505806
+  24523:
+    agility: 5.220125675201416
+    aoecloudsize: 697
+    aoedamagereductionfactor: 0.9670000076293945
+    aoefalloff: 750
+    aoevelocity: 67
+    detonationrange: 35
+    emdamage: 699.2000122070312
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 7200
+    explosivedamageresonance: 1.0
+    hp: 360.0
+    id: 24523
+    kineticdamageresonance: 1.0
+    launchergroup: 508
+    marketGroup: 931
+    mass: 1000.0
+    maxvelocity: 1500.0
+    metalevelold: 5
+    name: Mjolnir Rage Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
+    price: 1500245.0
+    published: true
+    radius: 5.0
+    requiredskill1: 20213
+    requiredskill1level: 1
+    requiredskill2: 3325
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    volume: 0.05000000074505806
+  24525:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 405
+    aoedamagereductionfactor: 0.9670000076293945
+    aoefalloff: 1500
+    aoevelocity: 78
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 7200
+    explosivedamageresonance: 1.0
+    hp: 360.0
+    id: 24525
+    kineticdamageresonance: 1.0
+    launchergroup: 508
+    marketGroup: 929
+    mass: 1500.0
+    maxvelocity: 2700.0
+    metalevelold: 5
+    name: Inferno Javelin Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
+    price: 1500245.0
+    published: true
+    radius: 300.0
+    requiredskill1: 20213
+    requiredskill1level: 1
+    requiredskill2: 3325
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 405.0
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.05000000074505806
+  24527:
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 405
+    aoedamagereductionfactor: 0.9670000076293945
+    aoefalloff: 1500
+    aoevelocity: 78
+    detonationrange: 35
+    emdamage: 405.0
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 7200
+    explosivedamageresonance: 1.0
+    hp: 360.0
+    id: 24527
+    kineticdamageresonance: 1.0
+    launchergroup: 508
+    marketGroup: 929
+    mass: 1500.0
+    maxvelocity: 2700.0
+    metalevelold: 5
+    name: Mjolnir Javelin Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
+    price: 1500245.0
+    published: true
+    radius: 300.0
+    requiredskill1: 20213
+    requiredskill1level: 1
+    requiredskill2: 3325
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    volume: 0.05000000074505806
+  24529:
     agility: 5.220125675201416
     aimedlaunch: 1
     aoecloudsize: 405
@@ -238,41 +273,6 @@ types:
     price: 1500245.0
     published: true
     radius: 300.0
-    requiredskill1: 20213
-    requiredskill1level: 1
-    requiredskill2: 3325
-    requiredskill2level: 5
-    requiredskill3: 3319
-    requiredskill3level: 5
-    structureuniformity: 1.0
-    techlevel: 2
-    thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
-  Scourge Rage Torpedo:
-    agility: 5.220125675201416
-    aoecloudsize: 697
-    aoedamagereductionfactor: 0.9670000076293945
-    aoefalloff: 750
-    aoevelocity: 67
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 7200
-    explosivedamageresonance: 1.0
-    hp: 360.0
-    id: 24521
-    kineticdamage: 699.2000122070312
-    kineticdamageresonance: 0.800000011920929
-    launchergroup: 508
-    marketGroup: 931
-    mass: 1000.0
-    maxvelocity: 1500.0
-    metalevelold: 5
-    name: Scourge Rage Torpedo
-    packagedVolume: 0.05000000074505806
-    portionSize: 5000
-    price: 1500245.0
-    published: true
-    radius: 5.0
     requiredskill1: 20213
     requiredskill1level: 1
     requiredskill2: 3325

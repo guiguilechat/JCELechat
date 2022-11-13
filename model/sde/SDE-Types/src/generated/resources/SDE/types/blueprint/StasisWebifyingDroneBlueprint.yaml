@@ -1,5 +1,5 @@
 types:
-  Berserker SW-900 Blueprint:
+  23537:
     id: 23537
     industryblueprintrank: 3.0
     marketGroup: 1029
@@ -10,7 +10,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Valkyrie SW-600 Blueprint:
+  23730:
     id: 23730
     industryblueprintrank: 2.0
     marketGroup: 1029
@@ -21,7 +21,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Warrior SW-300 Blueprint:
+  23732:
     id: 23732
     industryblueprintrank: 1.0
     marketGroup: 1029

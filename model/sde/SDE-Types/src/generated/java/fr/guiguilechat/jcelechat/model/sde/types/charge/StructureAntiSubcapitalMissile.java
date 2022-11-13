@@ -254,7 +254,7 @@ public class StructureAntiSubcapitalMissile
         implements IMetaGroup<StructureAntiSubcapitalMissile>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/StructureAntiSubcapitalMissile.yaml";
-        private Map<String, StructureAntiSubcapitalMissile> cache = (null);
+        private Map<Integer, StructureAntiSubcapitalMissile> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureAntiSubcapitalMissile> category() {
@@ -272,7 +272,7 @@ public class StructureAntiSubcapitalMissile
         }
 
         @Override
-        public synchronized Map<String, StructureAntiSubcapitalMissile> load() {
+        public synchronized Map<Integer, StructureAntiSubcapitalMissile> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureAntiSubcapitalMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -286,7 +286,7 @@ public class StructureAntiSubcapitalMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureAntiSubcapitalMissile> types;
+            public LinkedHashMap<Integer, StructureAntiSubcapitalMissile> types;
         }
     }
 }

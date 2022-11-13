@@ -149,7 +149,7 @@ public class RigAnchor
         implements IMetaGroup<RigAnchor>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/RigAnchor.yaml";
-        private Map<String, RigAnchor> cache = (null);
+        private Map<Integer, RigAnchor> cache = (null);
 
         @Override
         public IMetaCategory<? super RigAnchor> category() {
@@ -167,7 +167,7 @@ public class RigAnchor
         }
 
         @Override
-        public synchronized Map<String, RigAnchor> load() {
+        public synchronized Map<Integer, RigAnchor> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RigAnchor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -181,7 +181,7 @@ public class RigAnchor
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigAnchor> types;
+            public LinkedHashMap<Integer, RigAnchor> types;
         }
     }
 }

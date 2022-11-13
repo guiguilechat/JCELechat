@@ -1,57 +1,18 @@
 types:
-  Barren Launchpad:
+  2256:
     capacity: 10000.0
     cpuload: 3600
     exporttax: 1
-    id: 2544
+    id: 2256
     importtax: 0.5
-    name: Barren Launchpad
-    planetrestriction: 2016
+    name: Temperate Launchpad
+    planetrestriction: 11
     portionSize: 1
     powerload: 700
     price: 900000.0
     published: true
     radius: 1.0
-  Gas Launchpad:
-    capacity: 10000.0
-    cpuload: 3600
-    exporttax: 1
-    id: 2543
-    importtax: 0.5
-    name: Gas Launchpad
-    planetrestriction: 13
-    portionSize: 1
-    powerload: 700
-    price: 900000.0
-    published: true
-    radius: 1.0
-  Ice Launchpad:
-    capacity: 10000.0
-    cpuload: 3600
-    exporttax: 1
-    id: 2552
-    importtax: 0.5
-    name: Ice Launchpad
-    planetrestriction: 12
-    portionSize: 1
-    powerload: 700
-    price: 900000.0
-    published: true
-    radius: 1.0
-  Lava Launchpad:
-    capacity: 10000.0
-    cpuload: 3600
-    exporttax: 1
-    id: 2555
-    importtax: 0.5
-    name: Lava Launchpad
-    planetrestriction: 2015
-    portionSize: 1
-    powerload: 700
-    price: 900000.0
-    published: true
-    radius: 1.0
-  Oceanic Launchpad:
+  2542:
     capacity: 10000.0
     cpuload: 3600
     exporttax: 1
@@ -64,7 +25,59 @@ types:
     price: 900000.0
     published: true
     radius: 1.0
-  Plasma Launchpad:
+  2543:
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
+    id: 2543
+    importtax: 0.5
+    name: Gas Launchpad
+    planetrestriction: 13
+    portionSize: 1
+    powerload: 700
+    price: 900000.0
+    published: true
+    radius: 1.0
+  2544:
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
+    id: 2544
+    importtax: 0.5
+    name: Barren Launchpad
+    planetrestriction: 2016
+    portionSize: 1
+    powerload: 700
+    price: 900000.0
+    published: true
+    radius: 1.0
+  2552:
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
+    id: 2552
+    importtax: 0.5
+    name: Ice Launchpad
+    planetrestriction: 12
+    portionSize: 1
+    powerload: 700
+    price: 900000.0
+    published: true
+    radius: 1.0
+  2555:
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
+    id: 2555
+    importtax: 0.5
+    name: Lava Launchpad
+    planetrestriction: 2015
+    portionSize: 1
+    powerload: 700
+    price: 900000.0
+    published: true
+    radius: 1.0
+  2556:
     capacity: 10000.0
     cpuload: 3600
     exporttax: 1
@@ -77,7 +90,7 @@ types:
     price: 900000.0
     published: true
     radius: 1.0
-  Storm Launchpad:
+  2557:
     capacity: 10000.0
     cpuload: 3600
     exporttax: 1
@@ -85,19 +98,6 @@ types:
     importtax: 0.5
     name: Storm Launchpad
     planetrestriction: 2017
-    portionSize: 1
-    powerload: 700
-    price: 900000.0
-    published: true
-    radius: 1.0
-  Temperate Launchpad:
-    capacity: 10000.0
-    cpuload: 3600
-    exporttax: 1
-    id: 2256
-    importtax: 0.5
-    name: Temperate Launchpad
-    planetrestriction: 11
     portionSize: 1
     powerload: 700
     price: 900000.0

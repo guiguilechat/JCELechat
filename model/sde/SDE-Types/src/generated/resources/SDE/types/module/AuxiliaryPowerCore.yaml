@@ -1,20 +1,5 @@
 types:
-  Micro Auxiliary Power Core I:
-    cpu: 15.0
-    hp: 40.0
-    id: 11563
-    marketGroup: 660
-    name: Micro Auxiliary Power Core I
-    packagedVolume: 20.0
-    portionSize: 1
-    powerincrease: 10
-    published: true
-    radius: 1.0
-    requiredskill1: 3418
-    requiredskill1level: 2
-    techlevel: 1
-    volume: 20.0
-  Micro Auxiliary Power Core II:
+  4254:
     cpu: 18.0
     hp: 40.0
     id: 4254
@@ -30,24 +15,38 @@ types:
     requiredskill1level: 5
     techlevel: 2
     volume: 20.0
-  Navy Micro Auxiliary Power Core:
-    cpu: 18.0
+  11563:
+    cpu: 15.0
     hp: 40.0
-    id: 31936
+    id: 11563
     marketGroup: 660
-    metagroupid: 4
-    metalevelold: 8
-    name: Navy Micro Auxiliary Power Core
+    name: Micro Auxiliary Power Core I
     packagedVolume: 20.0
     portionSize: 1
-    powerincrease: 13
+    powerincrease: 10
     published: true
     radius: 1.0
     requiredskill1: 3418
     requiredskill1level: 2
     techlevel: 1
     volume: 20.0
-  Thukker Micro Auxiliary Power Core:
+  16537:
+    cpu: 12.0
+    hp: 40.0
+    id: 16537
+    marketGroup: 660
+    metalevelold: 1
+    name: Vigor Compact Micro Auxiliary Power Core
+    packagedVolume: 5.0
+    portionSize: 1
+    powerincrease: 11
+    published: true
+    radius: 1.0
+    requiredskill1: 3418
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 5.0
+  28740:
     cpu: 12.0
     hp: 40.0
     id: 28740
@@ -64,19 +63,20 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 5.0
-  Vigor Compact Micro Auxiliary Power Core:
-    cpu: 12.0
+  31936:
+    cpu: 18.0
     hp: 40.0
-    id: 16537
+    id: 31936
     marketGroup: 660
-    metalevelold: 1
-    name: Vigor Compact Micro Auxiliary Power Core
-    packagedVolume: 5.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Navy Micro Auxiliary Power Core
+    packagedVolume: 20.0
     portionSize: 1
-    powerincrease: 11
+    powerincrease: 13
     published: true
     radius: 1.0
     requiredskill1: 3418
     requiredskill1level: 2
     techlevel: 1
-    volume: 5.0
+    volume: 20.0

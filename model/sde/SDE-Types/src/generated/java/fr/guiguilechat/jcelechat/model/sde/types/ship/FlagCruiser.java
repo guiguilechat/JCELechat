@@ -306,8 +306,8 @@ public class FlagCruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5)
-    public int shipbonuscc;
+    @DefaultRealValue(5.0)
+    public double shipbonuscc;
     /**
      * 
      */
@@ -527,7 +527,7 @@ public class FlagCruiser
         implements IMetaGroup<FlagCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/FlagCruiser.yaml";
-        private Map<String, FlagCruiser> cache = (null);
+        private Map<Integer, FlagCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super FlagCruiser> category() {
@@ -545,7 +545,7 @@ public class FlagCruiser
         }
 
         @Override
-        public synchronized Map<String, FlagCruiser> load() {
+        public synchronized Map<Integer, FlagCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FlagCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -559,7 +559,7 @@ public class FlagCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, FlagCruiser> types;
+            public LinkedHashMap<Integer, FlagCruiser> types;
         }
     }
 }

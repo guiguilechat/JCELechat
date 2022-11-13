@@ -83,7 +83,7 @@ public class SalvagedMaterials
         implements IMetaGroup<SalvagedMaterials>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/SalvagedMaterials.yaml";
-        private Map<String, SalvagedMaterials> cache = (null);
+        private Map<Integer, SalvagedMaterials> cache = (null);
 
         @Override
         public IMetaCategory<? super SalvagedMaterials> category() {
@@ -101,7 +101,7 @@ public class SalvagedMaterials
         }
 
         @Override
-        public synchronized Map<String, SalvagedMaterials> load() {
+        public synchronized Map<Integer, SalvagedMaterials> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SalvagedMaterials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class SalvagedMaterials
         }
 
         private static class Container {
-            public LinkedHashMap<String, SalvagedMaterials> types;
+            public LinkedHashMap<Integer, SalvagedMaterials> types;
         }
     }
 }

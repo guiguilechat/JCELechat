@@ -344,7 +344,7 @@ public class Drones
         implements IMetaGroup<Drones>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Drones.yaml";
-        private Map<String, Drones> cache = (null);
+        private Map<Integer, Drones> cache = (null);
 
         @Override
         public IMetaCategory<? super Drones> category() {
@@ -362,7 +362,7 @@ public class Drones
         }
 
         @Override
-        public synchronized Map<String, Drones> load() {
+        public synchronized Map<Integer, Drones> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Drones.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -376,7 +376,7 @@ public class Drones
         }
 
         private static class Container {
-            public LinkedHashMap<String, Drones> types;
+            public LinkedHashMap<Integer, Drones> types;
         }
     }
 }

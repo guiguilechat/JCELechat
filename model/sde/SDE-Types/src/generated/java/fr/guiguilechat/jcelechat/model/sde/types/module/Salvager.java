@@ -173,7 +173,7 @@ public class Salvager
         implements IMetaGroup<Salvager>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/Salvager.yaml";
-        private Map<String, Salvager> cache = (null);
+        private Map<Integer, Salvager> cache = (null);
 
         @Override
         public IMetaCategory<? super Salvager> category() {
@@ -191,7 +191,7 @@ public class Salvager
         }
 
         @Override
-        public synchronized Map<String, Salvager> load() {
+        public synchronized Map<Integer, Salvager> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Salvager.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -205,7 +205,7 @@ public class Salvager
         }
 
         private static class Container {
-            public LinkedHashMap<String, Salvager> types;
+            public LinkedHashMap<Integer, Salvager> types;
         }
     }
 }

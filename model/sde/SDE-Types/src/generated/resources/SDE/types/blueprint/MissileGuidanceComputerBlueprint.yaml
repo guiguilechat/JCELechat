@@ -1,5 +1,5 @@
 types:
-  Missile Guidance Computer I Blueprint:
+  35791:
     id: 35791
     industryblueprintrank: 6.0
     marketGroup: 343
@@ -11,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Missile Guidance Computer II Blueprint:
+  35792:
     id: 35792
     industryblueprintrank: 15.600000381469727
     name: Missile Guidance Computer II Blueprint

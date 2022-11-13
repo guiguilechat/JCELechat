@@ -1,5 +1,5 @@
 types:
-  'Alliance Tournament I: Band of Brothers':
+  33223:
     id: 33223
     marketGroup: 1812
     name: 'Alliance Tournament I: Band of Brothers'
@@ -7,15 +7,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament I: KAOS Empire':
-    id: 33385
-    marketGroup: 1812
-    name: 'Alliance Tournament I: KAOS Empire'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  'Alliance Tournament II: Band of Brothers':
+  33224:
     id: 33224
     marketGroup: 1812
     name: 'Alliance Tournament II: Band of Brothers'
@@ -23,7 +15,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament III: Band of Brothers':
+  33225:
     id: 33225
     marketGroup: 1812
     name: 'Alliance Tournament III: Band of Brothers'
@@ -31,7 +23,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament III: Cult of War':
+  33226:
     id: 33226
     marketGroup: 1812
     name: 'Alliance Tournament III: Cult of War'
@@ -39,15 +31,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament III: Interstellar Alcohol Conglomerate':
-    id: 33386
-    marketGroup: 1812
-    name: 'Alliance Tournament III: Interstellar Alcohol Conglomerate'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  'Alliance Tournament IV: HUN Reloaded':
+  33227:
     id: 33227
     marketGroup: 1812
     name: 'Alliance Tournament IV: HUN Reloaded'
@@ -55,15 +39,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament IV: Pandemic Legion':
-    id: 33387
-    marketGroup: 1812
-    name: 'Alliance Tournament IV: Pandemic Legion'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  'Alliance Tournament IV: Star Fraction':
+  33228:
     id: 33228
     marketGroup: 1812
     name: 'Alliance Tournament IV: Star Fraction'
@@ -71,23 +47,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament IX: Darkside.':
-    id: 33391
-    marketGroup: 1812
-    name: 'Alliance Tournament IX: Darkside.'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  'Alliance Tournament IX: HYDRA RELOADED and 0utbreak':
-    id: 33373
-    marketGroup: 1812
-    name: 'Alliance Tournament IX: HYDRA RELOADED and 0utbreak'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  'Alliance Tournament V: Ev0ke':
+  33229:
     id: 33229
     marketGroup: 1812
     name: 'Alliance Tournament V: Ev0ke'
@@ -95,15 +55,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament V: Triumvirate':
-    id: 33388
-    marketGroup: 1812
-    name: 'Alliance Tournament V: Triumvirate'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  'Alliance Tournament VI: Pandemic Legion':
+  33230:
     id: 33230
     marketGroup: 1812
     name: 'Alliance Tournament VI: Pandemic Legion'
@@ -111,15 +63,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament VI: R.U.R.':
-    id: 33390
-    marketGroup: 1812
-    name: 'Alliance Tournament VI: R.U.R.'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  'Alliance Tournament VII: Pandemic Legion':
+  33231:
     id: 33231
     marketGroup: 1812
     name: 'Alliance Tournament VII: Pandemic Legion'
@@ -127,15 +71,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament VIII: HYDRA RELOADED':
-    id: 33389
-    marketGroup: 1812
-    name: 'Alliance Tournament VIII: HYDRA RELOADED'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  'Alliance Tournament VIII: Pandemic Legion':
+  33232:
     id: 33232
     marketGroup: 1812
     name: 'Alliance Tournament VIII: Pandemic Legion'
@@ -143,18 +79,82 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament X: HUN Reloaded':
-    id: 33392
+  33373:
+    id: 33373
     marketGroup: 1812
-    name: 'Alliance Tournament X: HUN Reloaded'
+    name: 'Alliance Tournament IX: HYDRA RELOADED and 0utbreak'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  'Alliance Tournament X: Verge of Collapse':
+  33374:
     id: 33374
     marketGroup: 1812
     name: 'Alliance Tournament X: Verge of Collapse'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  33385:
+    id: 33385
+    marketGroup: 1812
+    name: 'Alliance Tournament I: KAOS Empire'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  33386:
+    id: 33386
+    marketGroup: 1812
+    name: 'Alliance Tournament III: Interstellar Alcohol Conglomerate'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  33387:
+    id: 33387
+    marketGroup: 1812
+    name: 'Alliance Tournament IV: Pandemic Legion'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  33388:
+    id: 33388
+    marketGroup: 1812
+    name: 'Alliance Tournament V: Triumvirate'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  33389:
+    id: 33389
+    marketGroup: 1812
+    name: 'Alliance Tournament VIII: HYDRA RELOADED'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  33390:
+    id: 33390
+    marketGroup: 1812
+    name: 'Alliance Tournament VI: R.U.R.'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  33391:
+    id: 33391
+    marketGroup: 1812
+    name: 'Alliance Tournament IX: Darkside.'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  33392:
+    id: 33392
+    marketGroup: 1812
+    name: 'Alliance Tournament X: HUN Reloaded'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

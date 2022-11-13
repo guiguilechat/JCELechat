@@ -1,5 +1,5 @@
 types:
-  Angel Dreadnought:
+  37461:
     agility: 0.10000000149011612
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1
@@ -88,7 +88,7 @@ types:
     warpscrambleduration: 5000
     warpscramblerange: 125000
     warpscramblestrength: 1
-  Domination Dreadnought:
+  41396:
     agility: 0.10000000149011612
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1

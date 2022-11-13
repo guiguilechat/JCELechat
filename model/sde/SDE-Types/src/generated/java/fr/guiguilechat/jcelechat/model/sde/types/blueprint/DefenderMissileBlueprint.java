@@ -83,7 +83,7 @@ public class DefenderMissileBlueprint
         implements IMetaGroup<DefenderMissileBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/DefenderMissileBlueprint.yaml";
-        private Map<String, DefenderMissileBlueprint> cache = (null);
+        private Map<Integer, DefenderMissileBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super DefenderMissileBlueprint> category() {
@@ -101,7 +101,7 @@ public class DefenderMissileBlueprint
         }
 
         @Override
-        public synchronized Map<String, DefenderMissileBlueprint> load() {
+        public synchronized Map<Integer, DefenderMissileBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DefenderMissileBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class DefenderMissileBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DefenderMissileBlueprint> types;
+            public LinkedHashMap<Integer, DefenderMissileBlueprint> types;
         }
     }
 }

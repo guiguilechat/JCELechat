@@ -1,5 +1,282 @@
 types:
-  '''Full Duplex'' Ballistic Control System':
+  12274:
+    cpu: 35.0
+    hp: 40.0
+    id: 12274
+    marketGroup: 645
+    mass: 1.0
+    missiledamagemultiplierbonus: 1.0700000524520874
+    name: Ballistic Control System I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.9200000166893005
+    techlevel: 1
+    volume: 5.0
+  13935:
+    cpu: 24.0
+    hp: 40.0
+    id: 13935
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    missiledamagemultiplierbonus: 1.1200000047683716
+    name: Domination Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  13937:
+    cpu: 24.0
+    hp: 40.0
+    id: 13937
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    missiledamagemultiplierbonus: 1.1200000047683716
+    name: Dread Guristas Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  14528:
+    cpu: 29.0
+    hp: 40.0
+    id: 14528
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    missiledamagemultiplierbonus: 1.1349999904632568
+    name: Hakim's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  14530:
+    cpu: 26.0
+    hp: 40.0
+    id: 14530
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    missiledamagemultiplierbonus: 1.1299999952316284
+    name: Mizuro's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  14532:
+    cpu: 31.0
+    hp: 40.0
+    id: 14532
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    missiledamagemultiplierbonus: 1.1399999856948853
+    name: Gotan's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  14534:
+    cpu: 34.0
+    hp: 40.0
+    id: 14534
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    missiledamagemultiplierbonus: 1.1449999809265137
+    name: Tobias' Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  14684:
+    cpu: 26.0
+    hp: 40.0
+    id: 14684
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 11
+    missiledamagemultiplierbonus: 1.1299999952316284
+    name: Kaikka's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  14686:
+    cpu: 29.0
+    hp: 40.0
+    id: 14686
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 13
+    missiledamagemultiplierbonus: 1.1349999904632568
+    name: Thon's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  14688:
+    cpu: 31.0
+    hp: 40.0
+    id: 14688
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    missiledamagemultiplierbonus: 1.1399999856948853
+    name: Vepas' Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  14690:
+    cpu: 34.0
+    hp: 40.0
+    id: 14690
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 17
+    missiledamagemultiplierbonus: 1.1449999809265137
+    name: Estamel's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  15681:
+    cpu: 24.0
+    hp: 40.0
+    id: 15681
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    missiledamagemultiplierbonus: 1.1200000047683716
+    name: Caldari Navy Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  15683:
+    cpu: 24.0
+    hp: 40.0
+    id: 15683
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    missiledamagemultiplierbonus: 1.1200000047683716
+    name: Republic Fleet Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  16457:
+    cpu: 31.0
+    hp: 40.0
+    id: 16457
+    marketGroup: 645
+    mass: 1.0
+    metalevelold: 1
+    missiledamagemultiplierbonus: 1.0800000429153442
+    name: Crosslink Compact Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.9049999713897705
+    techlevel: 1
+    volume: 5.0
+  21484:
     cpu: 22.0
     hp: 40.0
     id: 21484
@@ -19,39 +296,7 @@ types:
     speedmultiplier: 0.8949999809265137
     techlevel: 1
     volume: 5.0
-  Abyssal Ballistic Control System:
-    id: 49738
-    mass: 1.0
-    name: Abyssal Ballistic Control System
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 1000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    volume: 1.0
-  Ballistic Control System I:
-    cpu: 35.0
-    hp: 40.0
-    id: 12274
-    marketGroup: 645
-    mass: 1.0
-    missiledamagemultiplierbonus: 1.0700000524520874
-    name: Ballistic Control System I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.9200000166893005
-    techlevel: 1
-    volume: 5.0
-  Ballistic Control System II:
+  22291:
     cpu: 40.0
     hp: 40.0
     id: 22291
@@ -70,7 +315,47 @@ types:
     speedmultiplier: 0.8949999809265137
     techlevel: 2
     volume: 5.0
-  C3-A 'Hivaa Saitsuo' Ballistic Control System:
+  28563:
+    cpu: 24.0
+    hp: 40.0
+    id: 28563
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 4
+    metalevelold: 8
+    missiledamagemultiplierbonus: 1.1200000047683716
+    name: Khanid Navy Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0
+  46270:
+    cpu: 38.0
+    hp: 40.0
+    id: 46270
+    marketGroup: 645
+    mass: 1.0
+    metagroupid: 3
+    metalevelold: 6
+    missiledamagemultiplierbonus: 1.100000023841858
+    name: Kaatara's Custom Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    volume: 5.0
+  47447:
     cpu: 37.0
     dronedamagebonus: 10.0
     hp: 40.0
@@ -93,7 +378,7 @@ types:
     speedmultiplier: 0.9300000071525574
     techlevel: 1
     volume: 5.0
-  C3-X 'Hivaa Saitsuo' Ballistic Control System:
+  47448:
     cpu: 42.0
     dronedamagebonus: 15.0
     hp: 40.0
@@ -116,206 +401,21 @@ types:
     speedmultiplier: 0.8999999761581421
     techlevel: 1
     volume: 5.0
-  Caldari Navy Ballistic Control System:
-    cpu: 24.0
-    hp: 40.0
-    id: 15681
-    marketGroup: 645
+  49738:
+    id: 49738
     mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    missiledamagemultiplierbonus: 1.1200000047683716
-    name: Caldari Navy Ballistic Control System
-    packagedVolume: 5.0
+    name: Abyssal Ballistic Control System
+    packagedVolume: 1.0
     portionSize: 1
-    power: 1
+    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    requiredskill1level: 4
+    speedmultiplier: 1.0
     techlevel: 1
-    volume: 5.0
-  Crosslink Compact Ballistic Control System:
-    cpu: 31.0
-    hp: 40.0
-    id: 16457
-    marketGroup: 645
-    mass: 1.0
-    metalevelold: 1
-    missiledamagemultiplierbonus: 1.0800000429153442
-    name: Crosslink Compact Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.9049999713897705
-    techlevel: 1
-    volume: 5.0
-  Domination Ballistic Control System:
-    cpu: 24.0
-    hp: 40.0
-    id: 13935
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    missiledamagemultiplierbonus: 1.1200000047683716
-    name: Domination Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Dread Guristas Ballistic Control System:
-    cpu: 24.0
-    hp: 40.0
-    id: 13937
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    missiledamagemultiplierbonus: 1.1200000047683716
-    name: Dread Guristas Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Estamel's Modified Ballistic Control System:
-    cpu: 34.0
-    hp: 40.0
-    id: 14690
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    missiledamagemultiplierbonus: 1.1449999809265137
-    name: Estamel's Modified Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Gotan's Modified Ballistic Control System:
-    cpu: 31.0
-    hp: 40.0
-    id: 14532
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    missiledamagemultiplierbonus: 1.1399999856948853
-    name: Gotan's Modified Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Hakim's Modified Ballistic Control System:
-    cpu: 29.0
-    hp: 40.0
-    id: 14528
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    missiledamagemultiplierbonus: 1.1349999904632568
-    name: Hakim's Modified Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Kaatara's Custom Ballistic Control System:
-    cpu: 38.0
-    hp: 40.0
-    id: 46270
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 3
-    metalevelold: 6
-    missiledamagemultiplierbonus: 1.100000023841858
-    name: Kaatara's Custom Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    volume: 5.0
-  Kaikka's Modified Ballistic Control System:
-    cpu: 26.0
-    hp: 40.0
-    id: 14684
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    missiledamagemultiplierbonus: 1.1299999952316284
-    name: Kaikka's Modified Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Khanid Navy Ballistic Control System:
-    cpu: 24.0
-    hp: 40.0
-    id: 28563
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    missiledamagemultiplierbonus: 1.1200000047683716
-    name: Khanid Navy Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  ML-EKP 'Polybolos' Ballistic Control System:
+    volume: 1.0
+  49790:
     aoevelocitybonus: 8.0
     cpu: 35.0
     hp: 40.0
@@ -333,105 +433,5 @@ types:
     requiredskill1: 3318
     requiredskill1level: 1
     speedmultiplier: 0.9200000166893005
-    techlevel: 1
-    volume: 5.0
-  Mizuro's Modified Ballistic Control System:
-    cpu: 26.0
-    hp: 40.0
-    id: 14530
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 11
-    missiledamagemultiplierbonus: 1.1299999952316284
-    name: Mizuro's Modified Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Republic Fleet Ballistic Control System:
-    cpu: 24.0
-    hp: 40.0
-    id: 15683
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 4
-    metalevelold: 8
-    missiledamagemultiplierbonus: 1.1200000047683716
-    name: Republic Fleet Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Thon's Modified Ballistic Control System:
-    cpu: 29.0
-    hp: 40.0
-    id: 14686
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 13
-    missiledamagemultiplierbonus: 1.1349999904632568
-    name: Thon's Modified Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Tobias' Modified Ballistic Control System:
-    cpu: 34.0
-    hp: 40.0
-    id: 14534
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 17
-    missiledamagemultiplierbonus: 1.1449999809265137
-    name: Tobias' Modified Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
-    techlevel: 1
-    volume: 5.0
-  Vepas' Modified Ballistic Control System:
-    cpu: 31.0
-    hp: 40.0
-    id: 14688
-    marketGroup: 645
-    mass: 1.0
-    metagroupid: 5
-    metalevelold: 15
-    missiledamagemultiplierbonus: 1.1399999856948853
-    name: Vepas' Modified Ballistic Control System
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3318
-    requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
     techlevel: 1
     volume: 5.0

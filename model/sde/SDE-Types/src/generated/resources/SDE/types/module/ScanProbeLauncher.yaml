@@ -1,19 +1,19 @@
 types:
-  Core Probe Launcher I:
+  2083:
+    canfitshipgroup01: 1022
     capacity: 0.800000011920929
     chargegroup1: 479
-    cpu: 15.0
     disallowrepeatingactivation: 1
     duration: 10000.0
     hp: 40.0
-    id: 17938
-    marketGroup: 712
+    id: 2083
+    mass: 5.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    name: Core Probe Launcher I
+    metalevelold: 4
+    name: Prototype Iris Probe Launcher
     packagedVolume: 5.0
     portionSize: 1
-    power: 1
     price: 6000.0
     published: true
     radius: 1.0
@@ -24,7 +24,7 @@ types:
     speed: 2000.0
     techlevel: 1
     volume: 5.0
-  Core Probe Launcher II:
+  4258:
     capacity: 0.800000011920929
     chargegroup1: 479
     cpu: 20.0
@@ -51,32 +51,7 @@ types:
     speed: 1500.0
     techlevel: 2
     volume: 5.0
-  Expanded Probe Launcher I:
-    capacity: 8.0
-    chargegroup1: 479
-    cpu: 220.0
-    disallowrepeatingactivation: 1
-    duration: 10000.0
-    hp: 40.0
-    id: 18639
-    marketGroup: 712
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    name: Expanded Probe Launcher I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    price: 6000.0
-    published: true
-    radius: 1.0
-    reloadtime: 10000.0
-    requiredskill1: 3412
-    requiredskill1level: 2
-    slots: 1
-    speed: 2000.0
-    techlevel: 1
-    volume: 5.0
-  Expanded Probe Launcher II:
+  4260:
     capacity: 8.0
     chargegroup1: 479
     cpu: 242.0
@@ -103,21 +78,21 @@ types:
     speed: 2000.0
     techlevel: 2
     volume: 5.0
-  Prototype Iris Probe Launcher:
-    canfitshipgroup01: 1022
+  17938:
     capacity: 0.800000011920929
     chargegroup1: 479
+    cpu: 15.0
     disallowrepeatingactivation: 1
     duration: 10000.0
     hp: 40.0
-    id: 2083
-    mass: 5.0
+    id: 17938
+    marketGroup: 712
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 4
-    name: Prototype Iris Probe Launcher
+    name: Core Probe Launcher I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     price: 6000.0
     published: true
     radius: 1.0
@@ -128,20 +103,18 @@ types:
     speed: 2000.0
     techlevel: 1
     volume: 5.0
-  Sisters Core Probe Launcher:
-    capacity: 0.800000011920929
+  18639:
+    capacity: 8.0
     chargegroup1: 479
-    cpu: 10.0
+    cpu: 220.0
     disallowrepeatingactivation: 1
     duration: 10000.0
     hp: 40.0
-    id: 28758
+    id: 18639
     marketGroup: 712
     maxgroupactive: 1
     maxgroupfitted: 1
-    metagroupid: 4
-    metalevelold: 6
-    name: Sisters Core Probe Launcher
+    name: Expanded Probe Launcher I
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -150,13 +123,12 @@ types:
     radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
-    requiredskill1level: 1
-    scanstrengthbonus: 10
+    requiredskill1level: 2
     slots: 1
-    speed: 1500.0
+    speed: 2000.0
     techlevel: 1
     volume: 5.0
-  Sisters Expanded Probe Launcher:
+  28756:
     capacity: 8.0
     chargegroup1: 479
     cpu: 210.0
@@ -179,6 +151,34 @@ types:
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 2
+    scanstrengthbonus: 10
+    slots: 1
+    speed: 1500.0
+    techlevel: 1
+    volume: 5.0
+  28758:
+    capacity: 0.800000011920929
+    chargegroup1: 479
+    cpu: 10.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
+    id: 28758
+    marketGroup: 712
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metagroupid: 4
+    metalevelold: 6
+    name: Sisters Core Probe Launcher
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 6000.0
+    published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3412
+    requiredskill1level: 1
     scanstrengthbonus: 10
     slots: 1
     speed: 1500.0

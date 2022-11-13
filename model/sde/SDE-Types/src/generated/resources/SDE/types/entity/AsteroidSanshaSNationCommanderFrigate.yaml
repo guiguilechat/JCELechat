@@ -1,5 +1,5 @@
 types:
-  True Sansha's Butcher:
+  13610:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -82,7 +82,7 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.125
     volume: 21120.0
-  True Sansha's Enslaver:
+  13612:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -166,7 +166,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.2462500035762787
     volume: 21120.0
-  True Sansha's Manslayer:
+  13616:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -250,7 +250,7 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.2462500035762787
     volume: 21120.0
-  True Sansha's Minion:
+  13617:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -332,7 +332,7 @@ types:
     thermaldamage: 1.0
     trackingspeed: 0.30812498927116394
     volume: 21120.0
-  True Sansha's Plague:
+  13623:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -415,7 +415,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.125
     volume: 21120.0
-  True Sansha's Ravener:
+  13625:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -498,7 +498,7 @@ types:
     thermaldamage: 3.0
     trackingspeed: 0.2737500071525574
     volume: 20000.0
-  True Sansha's Savage:
+  13627:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -586,7 +586,7 @@ types:
     thermaldamage: 3.0
     trackingspeed: 0.16249999403953552
     volume: 20000.0
-  True Sansha's Scavenger:
+  13628:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -669,7 +669,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.2737500071525574
     volume: 20000.0
-  True Sansha's Servant:
+  13629:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -750,7 +750,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.30812498927116394
     volume: 20000.0
-  True Sansha's Slavehunter:
+  13632:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

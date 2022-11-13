@@ -1,5 +1,5 @@
 types:
-  Standup Layered Armor Plating I:
+  47360:
     armorhpbonus: 10
     cpu: 2000.0
     hp: 40.0
@@ -15,7 +15,7 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
-  Standup Layered Armor Plating II:
+  47362:
     armorhpbonus: 15
     cpu: 2400.0
     hp: 40.0

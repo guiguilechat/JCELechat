@@ -96,7 +96,7 @@ public class Datacores
         implements IMetaGroup<Datacores>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/Datacores.yaml";
-        private Map<String, Datacores> cache = (null);
+        private Map<Integer, Datacores> cache = (null);
 
         @Override
         public IMetaCategory<? super Datacores> category() {
@@ -114,7 +114,7 @@ public class Datacores
         }
 
         @Override
-        public synchronized Map<String, Datacores> load() {
+        public synchronized Map<Integer, Datacores> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Datacores.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -128,7 +128,7 @@ public class Datacores
         }
 
         private static class Container {
-            public LinkedHashMap<String, Datacores> types;
+            public LinkedHashMap<Integer, Datacores> types;
         }
     }
 }

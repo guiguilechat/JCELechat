@@ -406,8 +406,8 @@ public class ForceReconShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5)
-    public int shipbonuscc;
+    @DefaultRealValue(5.0)
+    public double shipbonuscc;
     /**
      * 
      */
@@ -715,7 +715,7 @@ public class ForceReconShip
         implements IMetaGroup<ForceReconShip>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/ForceReconShip.yaml";
-        private Map<String, ForceReconShip> cache = (null);
+        private Map<Integer, ForceReconShip> cache = (null);
 
         @Override
         public IMetaCategory<? super ForceReconShip> category() {
@@ -733,7 +733,7 @@ public class ForceReconShip
         }
 
         @Override
-        public synchronized Map<String, ForceReconShip> load() {
+        public synchronized Map<Integer, ForceReconShip> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ForceReconShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -747,7 +747,7 @@ public class ForceReconShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, ForceReconShip> types;
+            public LinkedHashMap<Integer, ForceReconShip> types;
         }
     }
 }

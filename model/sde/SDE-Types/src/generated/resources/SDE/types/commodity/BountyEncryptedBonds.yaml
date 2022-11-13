@@ -1,5 +1,5 @@
 types:
-  100K Bounty SCC Encrypted Bond:
+  55930:
     id: 55930
     marketGroup: 1846
     mass: 0.10000000149011612
@@ -9,7 +9,7 @@ types:
     price: 100000.0
     published: true
     volume: 0.009999999776482582
-  10K Bounty SCC Encrypted Bond:
+  55931:
     id: 55931
     marketGroup: 1846
     mass: 0.10000000149011612
@@ -19,7 +19,7 @@ types:
     price: 10000.0
     published: true
     volume: 0.009999999776482582
-  10M Bounty SCC Encrypted Bond:
+  55932:
     id: 55932
     marketGroup: 1846
     mass: 0.10000000149011612
@@ -29,7 +29,7 @@ types:
     price: 1.0E7
     published: true
     volume: 0.009999999776482582
-  1M Bounty SCC Encrypted Bond:
+  55933:
     id: 55933
     marketGroup: 1846
     mass: 0.10000000149011612

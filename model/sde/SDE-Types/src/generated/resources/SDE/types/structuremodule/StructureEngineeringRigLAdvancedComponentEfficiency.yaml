@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Advanced Component Manufacturing Efficiency I:
+  37174:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20
@@ -29,7 +29,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Advanced Component Manufacturing Efficiency II:
+  37175:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: -24
@@ -59,7 +59,7 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 20.0
-  Standup L-Set Thukker Advanced Component Manufacturing Efficiency:
+  45641:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20

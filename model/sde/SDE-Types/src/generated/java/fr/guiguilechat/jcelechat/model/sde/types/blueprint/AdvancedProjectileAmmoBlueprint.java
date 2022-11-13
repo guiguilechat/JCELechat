@@ -97,7 +97,7 @@ public class AdvancedProjectileAmmoBlueprint
         implements IMetaGroup<AdvancedProjectileAmmoBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/AdvancedProjectileAmmoBlueprint.yaml";
-        private Map<String, AdvancedProjectileAmmoBlueprint> cache = (null);
+        private Map<Integer, AdvancedProjectileAmmoBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedProjectileAmmoBlueprint> category() {
@@ -115,7 +115,7 @@ public class AdvancedProjectileAmmoBlueprint
         }
 
         @Override
-        public synchronized Map<String, AdvancedProjectileAmmoBlueprint> load() {
+        public synchronized Map<Integer, AdvancedProjectileAmmoBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedProjectileAmmoBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class AdvancedProjectileAmmoBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedProjectileAmmoBlueprint> types;
+            public LinkedHashMap<Integer, AdvancedProjectileAmmoBlueprint> types;
         }
     }
 }

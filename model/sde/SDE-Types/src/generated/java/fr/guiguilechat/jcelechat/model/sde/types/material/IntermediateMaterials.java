@@ -84,7 +84,7 @@ public class IntermediateMaterials
         implements IMetaGroup<IntermediateMaterials>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/IntermediateMaterials.yaml";
-        private Map<String, IntermediateMaterials> cache = (null);
+        private Map<Integer, IntermediateMaterials> cache = (null);
 
         @Override
         public IMetaCategory<? super IntermediateMaterials> category() {
@@ -102,7 +102,7 @@ public class IntermediateMaterials
         }
 
         @Override
-        public synchronized Map<String, IntermediateMaterials> load() {
+        public synchronized Map<Integer, IntermediateMaterials> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IntermediateMaterials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -116,7 +116,7 @@ public class IntermediateMaterials
         }
 
         private static class Container {
-            public LinkedHashMap<String, IntermediateMaterials> types;
+            public LinkedHashMap<Integer, IntermediateMaterials> types;
         }
     }
 }

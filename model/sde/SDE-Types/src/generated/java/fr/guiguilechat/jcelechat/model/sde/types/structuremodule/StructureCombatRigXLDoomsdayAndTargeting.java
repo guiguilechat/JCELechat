@@ -325,7 +325,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
         implements IMetaGroup<StructureCombatRigXLDoomsdayAndTargeting>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigXLDoomsdayAndTargeting.yaml";
-        private Map<String, StructureCombatRigXLDoomsdayAndTargeting> cache = (null);
+        private Map<Integer, StructureCombatRigXLDoomsdayAndTargeting> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigXLDoomsdayAndTargeting> category() {
@@ -343,7 +343,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigXLDoomsdayAndTargeting> load() {
+        public synchronized Map<Integer, StructureCombatRigXLDoomsdayAndTargeting> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigXLDoomsdayAndTargeting.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -357,7 +357,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigXLDoomsdayAndTargeting> types;
+            public LinkedHashMap<Integer, StructureCombatRigXLDoomsdayAndTargeting> types;
         }
     }
 }

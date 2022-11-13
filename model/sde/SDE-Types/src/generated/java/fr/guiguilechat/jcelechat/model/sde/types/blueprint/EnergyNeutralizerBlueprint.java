@@ -97,7 +97,7 @@ public class EnergyNeutralizerBlueprint
         implements IMetaGroup<EnergyNeutralizerBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/EnergyNeutralizerBlueprint.yaml";
-        private Map<String, EnergyNeutralizerBlueprint> cache = (null);
+        private Map<Integer, EnergyNeutralizerBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super EnergyNeutralizerBlueprint> category() {
@@ -115,7 +115,7 @@ public class EnergyNeutralizerBlueprint
         }
 
         @Override
-        public synchronized Map<String, EnergyNeutralizerBlueprint> load() {
+        public synchronized Map<Integer, EnergyNeutralizerBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EnergyNeutralizerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class EnergyNeutralizerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyNeutralizerBlueprint> types;
+            public LinkedHashMap<Integer, EnergyNeutralizerBlueprint> types;
         }
     }
 }

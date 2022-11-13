@@ -236,7 +236,7 @@ public class ElectronicSystems
         implements IMetaGroup<ElectronicSystems>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/ElectronicSystems.yaml";
-        private Map<String, ElectronicSystems> cache = (null);
+        private Map<Integer, ElectronicSystems> cache = (null);
 
         @Override
         public IMetaCategory<? super ElectronicSystems> category() {
@@ -254,7 +254,7 @@ public class ElectronicSystems
         }
 
         @Override
-        public synchronized Map<String, ElectronicSystems> load() {
+        public synchronized Map<Integer, ElectronicSystems> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ElectronicSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -268,7 +268,7 @@ public class ElectronicSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, ElectronicSystems> types;
+            public LinkedHashMap<Integer, ElectronicSystems> types;
         }
     }
 }

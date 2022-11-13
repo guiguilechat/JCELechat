@@ -313,7 +313,7 @@ public class EngineeringComplex
         implements IMetaGroup<EngineeringComplex>
     {
         public static final String RESOURCE_PATH = "SDE/types/structure/EngineeringComplex.yaml";
-        private Map<String, EngineeringComplex> cache = (null);
+        private Map<Integer, EngineeringComplex> cache = (null);
 
         @Override
         public IMetaCategory<? super EngineeringComplex> category() {
@@ -331,7 +331,7 @@ public class EngineeringComplex
         }
 
         @Override
-        public synchronized Map<String, EngineeringComplex> load() {
+        public synchronized Map<Integer, EngineeringComplex> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EngineeringComplex.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -345,7 +345,7 @@ public class EngineeringComplex
         }
 
         private static class Container {
-            public LinkedHashMap<String, EngineeringComplex> types;
+            public LinkedHashMap<Integer, EngineeringComplex> types;
         }
     }
 }

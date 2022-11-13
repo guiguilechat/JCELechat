@@ -32,7 +32,7 @@ public class RogueDroneAnalysisData
         implements IMetaGroup<RogueDroneAnalysisData>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/RogueDroneAnalysisData.yaml";
-        private Map<String, RogueDroneAnalysisData> cache = (null);
+        private Map<Integer, RogueDroneAnalysisData> cache = (null);
 
         @Override
         public IMetaCategory<? super RogueDroneAnalysisData> category() {
@@ -50,7 +50,7 @@ public class RogueDroneAnalysisData
         }
 
         @Override
-        public synchronized Map<String, RogueDroneAnalysisData> load() {
+        public synchronized Map<Integer, RogueDroneAnalysisData> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RogueDroneAnalysisData.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class RogueDroneAnalysisData
         }
 
         private static class Container {
-            public LinkedHashMap<String, RogueDroneAnalysisData> types;
+            public LinkedHashMap<Integer, RogueDroneAnalysisData> types;
         }
     }
 }

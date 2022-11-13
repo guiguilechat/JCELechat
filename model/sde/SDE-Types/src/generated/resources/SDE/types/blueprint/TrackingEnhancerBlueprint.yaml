@@ -1,15 +1,5 @@
 types:
-  Republic Fleet Tracking Enhancer Blueprint:
-    id: 15966
-    industryblueprintrank: 3.0
-    name: Republic Fleet Tracking Enhancer Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Tracking Enhancer I Blueprint:
+  11616:
     id: 11616
     industryblueprintrank: 3.0
     marketGroup: 343
@@ -21,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Tracking Enhancer II Blueprint:
+  11848:
     id: 11848
     industryblueprintrank: 7.800000190734863
     name: Tracking Enhancer II Blueprint
@@ -31,4 +21,14 @@ types:
     published: true
     radius: 1.0
     techlevel: 2
+    volume: 0.009999999776482582
+  15966:
+    id: 15966
+    industryblueprintrank: 3.0
+    name: Republic Fleet Tracking Enhancer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582

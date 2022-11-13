@@ -234,7 +234,7 @@ public class ScannerArray
         implements IMetaGroup<ScannerArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/ScannerArray.yaml";
-        private Map<String, ScannerArray> cache = (null);
+        private Map<Integer, ScannerArray> cache = (null);
 
         @Override
         public IMetaCategory<? super ScannerArray> category() {
@@ -252,7 +252,7 @@ public class ScannerArray
         }
 
         @Override
-        public synchronized Map<String, ScannerArray> load() {
+        public synchronized Map<Integer, ScannerArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ScannerArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -266,7 +266,7 @@ public class ScannerArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScannerArray> types;
+            public LinkedHashMap<Integer, ScannerArray> types;
         }
     }
 }

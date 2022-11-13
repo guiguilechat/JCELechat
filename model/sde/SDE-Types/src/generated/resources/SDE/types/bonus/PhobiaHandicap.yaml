@@ -1,40 +1,40 @@
 types:
-  Algiophobia Bonus:
+  1628:
     id: 1628
     name: Algiophobia Bonus
     portionSize: 1
     published: false
-  Barophobia Bonus:
+  1629:
     id: 1629
     name: Barophobia Bonus
     portionSize: 1
     published: false
-  Cenophobia Bonus:
+  1630:
     id: 1630
     name: Cenophobia Bonus
     portionSize: 1
     published: false
-  Claustrophobia Bonus:
+  1631:
     id: 1631
     name: Claustrophobia Bonus
     portionSize: 1
     published: false
-  Monophobia Bonus:
+  1632:
     id: 1632
     name: Monophobia Bonus
     portionSize: 1
     published: false
-  Mysophobia Bonus:
+  1633:
     id: 1633
     name: Mysophobia Bonus
     portionSize: 1
     published: false
-  Taphephobia Bonus:
+  1634:
     id: 1634
     name: Taphephobia Bonus
     portionSize: 1
     published: false
-  Xenophobia Bonus:
+  1635:
     id: 1635
     name: Xenophobia Bonus
     portionSize: 1

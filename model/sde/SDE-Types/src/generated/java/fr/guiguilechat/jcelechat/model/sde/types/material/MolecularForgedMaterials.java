@@ -32,7 +32,7 @@ public class MolecularForgedMaterials
         implements IMetaGroup<MolecularForgedMaterials>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/MolecularForgedMaterials.yaml";
-        private Map<String, MolecularForgedMaterials> cache = (null);
+        private Map<Integer, MolecularForgedMaterials> cache = (null);
 
         @Override
         public IMetaCategory<? super MolecularForgedMaterials> category() {
@@ -50,7 +50,7 @@ public class MolecularForgedMaterials
         }
 
         @Override
-        public synchronized Map<String, MolecularForgedMaterials> load() {
+        public synchronized Map<Integer, MolecularForgedMaterials> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MolecularForgedMaterials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class MolecularForgedMaterials
         }
 
         private static class Container {
-            public LinkedHashMap<String, MolecularForgedMaterials> types;
+            public LinkedHashMap<Integer, MolecularForgedMaterials> types;
         }
     }
 }

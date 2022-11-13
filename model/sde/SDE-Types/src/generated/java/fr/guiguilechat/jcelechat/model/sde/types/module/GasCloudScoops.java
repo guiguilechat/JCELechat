@@ -241,7 +241,7 @@ public class GasCloudScoops
         implements IMetaGroup<GasCloudScoops>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/GasCloudScoops.yaml";
-        private Map<String, GasCloudScoops> cache = (null);
+        private Map<Integer, GasCloudScoops> cache = (null);
 
         @Override
         public IMetaCategory<? super GasCloudScoops> category() {
@@ -259,7 +259,7 @@ public class GasCloudScoops
         }
 
         @Override
-        public synchronized Map<String, GasCloudScoops> load() {
+        public synchronized Map<Integer, GasCloudScoops> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GasCloudScoops.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -273,7 +273,7 @@ public class GasCloudScoops
         }
 
         private static class Container {
-            public LinkedHashMap<String, GasCloudScoops> types;
+            public LinkedHashMap<Integer, GasCloudScoops> types;
         }
     }
 }

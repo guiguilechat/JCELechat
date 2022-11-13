@@ -421,7 +421,7 @@ public class DamageControl
         implements IMetaGroup<DamageControl>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/DamageControl.yaml";
-        private Map<String, DamageControl> cache = (null);
+        private Map<Integer, DamageControl> cache = (null);
 
         @Override
         public IMetaCategory<? super DamageControl> category() {
@@ -439,7 +439,7 @@ public class DamageControl
         }
 
         @Override
-        public synchronized Map<String, DamageControl> load() {
+        public synchronized Map<Integer, DamageControl> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DamageControl.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -453,7 +453,7 @@ public class DamageControl
         }
 
         private static class Container {
-            public LinkedHashMap<String, DamageControl> types;
+            public LinkedHashMap<Integer, DamageControl> types;
         }
     }
 }

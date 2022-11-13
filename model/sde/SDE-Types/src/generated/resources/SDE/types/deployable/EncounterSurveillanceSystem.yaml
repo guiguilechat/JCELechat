@@ -1,5 +1,5 @@
 types:
-  Defunct Amarr Encounter Surveillance System:
+  33585:
     armorhp: 30000.0
     armoruniformity: 0.75
     hp: 190000.0
@@ -29,7 +29,7 @@ types:
     uniformity: 1.0
     volume: 200.0
     warpscramblestrength: 100
-  Defunct Caldari Encounter Surveillance System:
+  33595:
     armorhp: 30000.0
     armoruniformity: 0.75
     hp: 190000.0
@@ -59,7 +59,7 @@ types:
     uniformity: 1.0
     volume: 200.0
     warpscramblestrength: 100
-  Defunct Gallente Encounter Surveillance System:
+  33608:
     armorhp: 30000.0
     armoruniformity: 0.75
     hp: 190000.0
@@ -89,7 +89,7 @@ types:
     uniformity: 1.0
     volume: 200.0
     warpscramblestrength: 100
-  Defunct Minmatar Encounter Surveillance System:
+  33610:
     armorhp: 30000.0
     armoruniformity: 0.75
     hp: 190000.0

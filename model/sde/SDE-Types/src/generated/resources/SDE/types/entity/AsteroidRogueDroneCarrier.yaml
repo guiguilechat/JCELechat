@@ -1,5 +1,5 @@
 types:
-  Infested Carrier:
+  37470:
     agility: 0.05000000074505806
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1
@@ -86,7 +86,7 @@ types:
     warpscrambleduration: 5000
     warpscramblerange: 100000
     warpscramblestrength: 1
-  Sentient Infested Carrier:
+  41401:
     agility: 0.05000000074505806
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1

@@ -92,7 +92,7 @@ public class Scordite
         implements IMetaGroup<Scordite>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Scordite.yaml";
-        private Map<String, Scordite> cache = (null);
+        private Map<Integer, Scordite> cache = (null);
 
         @Override
         public IMetaCategory<? super Scordite> category() {
@@ -110,7 +110,7 @@ public class Scordite
         }
 
         @Override
-        public synchronized Map<String, Scordite> load() {
+        public synchronized Map<Integer, Scordite> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Scordite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class Scordite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Scordite> types;
+            public LinkedHashMap<Integer, Scordite> types;
         }
     }
 }

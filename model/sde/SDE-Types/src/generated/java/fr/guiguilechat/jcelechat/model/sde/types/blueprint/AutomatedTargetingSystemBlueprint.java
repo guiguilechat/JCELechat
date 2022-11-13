@@ -97,7 +97,7 @@ public class AutomatedTargetingSystemBlueprint
         implements IMetaGroup<AutomatedTargetingSystemBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/AutomatedTargetingSystemBlueprint.yaml";
-        private Map<String, AutomatedTargetingSystemBlueprint> cache = (null);
+        private Map<Integer, AutomatedTargetingSystemBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super AutomatedTargetingSystemBlueprint> category() {
@@ -115,7 +115,7 @@ public class AutomatedTargetingSystemBlueprint
         }
 
         @Override
-        public synchronized Map<String, AutomatedTargetingSystemBlueprint> load() {
+        public synchronized Map<Integer, AutomatedTargetingSystemBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AutomatedTargetingSystemBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class AutomatedTargetingSystemBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AutomatedTargetingSystemBlueprint> types;
+            public LinkedHashMap<Integer, AutomatedTargetingSystemBlueprint> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Basic Capital Component Manufacturing Efficiency I:
+  43718:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20
@@ -27,7 +27,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Basic Capital Component Manufacturing Efficiency II:
+  43719:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: -24
@@ -55,7 +55,7 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 20.0
-  Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency:
+  45546:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -20
     attributethukkerengrigmatbonus: -3.700000047683716

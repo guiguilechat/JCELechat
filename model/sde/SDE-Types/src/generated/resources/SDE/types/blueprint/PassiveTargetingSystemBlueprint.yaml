@@ -1,5 +1,5 @@
 types:
-  Passive Targeter I Blueprint:
+  1212:
     id: 1212
     industryblueprintrank: 6.0
     marketGroup: 1582
@@ -11,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Passive Targeter II Blueprint:
+  2342:
     id: 2342
     industryblueprintrank: 15.600000381469727
     name: Passive Targeter II Blueprint

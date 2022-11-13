@@ -96,7 +96,7 @@ public class ScriptBlueprint
         implements IMetaGroup<ScriptBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ScriptBlueprint.yaml";
-        private Map<String, ScriptBlueprint> cache = (null);
+        private Map<Integer, ScriptBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ScriptBlueprint> category() {
@@ -114,7 +114,7 @@ public class ScriptBlueprint
         }
 
         @Override
-        public synchronized Map<String, ScriptBlueprint> load() {
+        public synchronized Map<Integer, ScriptBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ScriptBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -128,7 +128,7 @@ public class ScriptBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScriptBlueprint> types;
+            public LinkedHashMap<Integer, ScriptBlueprint> types;
         }
     }
 }

@@ -161,7 +161,7 @@ public class CyberEngineering
         implements IMetaGroup<CyberEngineering>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberEngineering.yaml";
-        private Map<String, CyberEngineering> cache = (null);
+        private Map<Integer, CyberEngineering> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberEngineering> category() {
@@ -179,7 +179,7 @@ public class CyberEngineering
         }
 
         @Override
-        public synchronized Map<String, CyberEngineering> load() {
+        public synchronized Map<Integer, CyberEngineering> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberEngineering.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -193,7 +193,7 @@ public class CyberEngineering
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberEngineering> types;
+            public LinkedHashMap<Integer, CyberEngineering> types;
         }
     }
 }

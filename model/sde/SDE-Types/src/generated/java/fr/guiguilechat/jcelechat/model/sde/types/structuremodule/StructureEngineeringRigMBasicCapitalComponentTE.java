@@ -289,7 +289,7 @@ public class StructureEngineeringRigMBasicCapitalComponentTE
         implements IMetaGroup<StructureEngineeringRigMBasicCapitalComponentTE>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMBasicCapitalComponentTE.yaml";
-        private Map<String, StructureEngineeringRigMBasicCapitalComponentTE> cache = (null);
+        private Map<Integer, StructureEngineeringRigMBasicCapitalComponentTE> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMBasicCapitalComponentTE> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMBasicCapitalComponentTE
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMBasicCapitalComponentTE> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMBasicCapitalComponentTE> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMBasicCapitalComponentTE.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMBasicCapitalComponentTE
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMBasicCapitalComponentTE> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMBasicCapitalComponentTE> types;
         }
     }
 }

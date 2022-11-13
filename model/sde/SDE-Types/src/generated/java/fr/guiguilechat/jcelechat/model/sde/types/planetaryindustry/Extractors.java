@@ -145,7 +145,7 @@ public class Extractors
         implements IMetaGroup<Extractors>
     {
         public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/Extractors.yaml";
-        private Map<String, Extractors> cache = (null);
+        private Map<Integer, Extractors> cache = (null);
 
         @Override
         public IMetaCategory<? super Extractors> category() {
@@ -163,7 +163,7 @@ public class Extractors
         }
 
         @Override
-        public synchronized Map<String, Extractors> load() {
+        public synchronized Map<Integer, Extractors> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Extractors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -177,7 +177,7 @@ public class Extractors
         }
 
         private static class Container {
-            public LinkedHashMap<String, Extractors> types;
+            public LinkedHashMap<Integer, Extractors> types;
         }
     }
 }

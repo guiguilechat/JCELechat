@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Basic Large Ship Manufacturing Time Efficiency I:
+  43733:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -20
     canfitshipgroup01: 1657
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Basic Large Ship Manufacturing Time Efficiency II:
+  43734:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657

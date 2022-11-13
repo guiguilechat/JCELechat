@@ -541,7 +541,7 @@ public class EnergyWeapon
         implements IMetaGroup<EnergyWeapon>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/EnergyWeapon.yaml";
-        private Map<String, EnergyWeapon> cache = (null);
+        private Map<Integer, EnergyWeapon> cache = (null);
 
         @Override
         public IMetaCategory<? super EnergyWeapon> category() {
@@ -559,7 +559,7 @@ public class EnergyWeapon
         }
 
         @Override
-        public synchronized Map<String, EnergyWeapon> load() {
+        public synchronized Map<Integer, EnergyWeapon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(EnergyWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -573,7 +573,7 @@ public class EnergyWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyWeapon> types;
+            public LinkedHashMap<Integer, EnergyWeapon> types;
         }
     }
 }

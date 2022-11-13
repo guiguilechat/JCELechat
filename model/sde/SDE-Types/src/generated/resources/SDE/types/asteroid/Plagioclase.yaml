@@ -1,185 +1,5 @@
 types:
-  Azure Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.5
-    asteroidradiusunitsize: 90
-    id: 17455
-    marketGroup: 516
-    mass: 1.0000000409184788E35
-    name: Azure Plagioclase
-    orebasictype: 18
-    packagedVolume: 0.3499999940395355
-    portionSize: 100
-    price: 13450.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.3499999940395355
-  Batch Compressed Azure Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28421
-    marketGroup: 516
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Azure Plagioclase
-    orebasictype: 18
-    packagedVolume: 0.15000000596046448
-    portionSize: 1
-    price: 336250.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.15000000596046448
-  Batch Compressed Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28422
-    marketGroup: 516
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Plagioclase
-    orebasictype: 18
-    packagedVolume: 0.15000000596046448
-    portionSize: 1
-    price: 320000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.15000000596046448
-  Batch Compressed Rich Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28423
-    marketGroup: 516
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Rich Plagioclase
-    orebasictype: 18
-    packagedVolume: 0.15000000596046448
-    portionSize: 1
-    price: 352300.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.15000000596046448
-  Batch Compressed Sparkling Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 46701
-    marketGroup: 516
-    mass: 1.0
-    name: Batch Compressed Sparkling Plagioclase
-    orebasictype: 46685
-    packagedVolume: 0.15000000596046448
-    portionSize: 1
-    price: 7750.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.15000000596046448
-  Compressed Azure Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62529
-    marketGroup: 516
-    mass: 1.0000000409184788E35
-    name: Compressed Azure Plagioclase
-    orebasictype: 18
-    packagedVolume: 0.0035000001080334187
-    portionSize: 100
-    price: 336250.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.0035000001080334187
-  Compressed Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62528
-    marketGroup: 516
-    mass: 1.0000000409184788E35
-    name: Compressed Plagioclase
-    orebasictype: 18
-    packagedVolume: 0.0035000001080334187
-    portionSize: 100
-    price: 320000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.0035000001080334187
-  Compressed Rich Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62530
-    marketGroup: 516
-    mass: 1.0000000409184788E35
-    name: Compressed Rich Plagioclase
-    orebasictype: 18
-    packagedVolume: 0.0035000001080334187
-    portionSize: 100
-    price: 352300.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.0035000001080334187
-  Compressed Sparkling Plagioclase:
-    asteroidmaxradius: 16255
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 62531
-    marketGroup: 516
-    mass: 1.0
-    name: Compressed Sparkling Plagioclase
-    orebasictype: 46685
-    packagedVolume: 0.0035000001080334187
-    portionSize: 100
-    price: 7750.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 60377
-    requiredskill1: 3386
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 0.0035000001080334187
-  Plagioclase:
+  18:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -199,7 +19,27 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.3499999940395355
-  Rich Plagioclase:
+  17455:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 17455
+    marketGroup: 516
+    mass: 1.0000000409184788E35
+    name: Azure Plagioclase
+    orebasictype: 18
+    packagedVolume: 0.3499999940395355
+    portionSize: 100
+    price: 13450.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.3499999940395355
+  17456:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
@@ -219,7 +59,67 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.3499999940395355
-  Sparkling Plagioclase:
+  28421:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28421
+    marketGroup: 516
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Azure Plagioclase
+    orebasictype: 18
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
+    price: 336250.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.15000000596046448
+  28422:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28422
+    marketGroup: 516
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Plagioclase
+    orebasictype: 18
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
+    price: 320000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.15000000596046448
+  28423:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28423
+    marketGroup: 516
+    mass: 1.0000000409184788E35
+    name: Batch Compressed Rich Plagioclase
+    orebasictype: 18
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
+    price: 352300.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.15000000596046448
+  46685:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.026000000536441803
@@ -239,3 +139,103 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.3499999940395355
+  46701:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 46701
+    marketGroup: 516
+    mass: 1.0
+    name: Batch Compressed Sparkling Plagioclase
+    orebasictype: 46685
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
+    price: 7750.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.15000000596046448
+  62528:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62528
+    marketGroup: 516
+    mass: 1.0000000409184788E35
+    name: Compressed Plagioclase
+    orebasictype: 18
+    packagedVolume: 0.0035000001080334187
+    portionSize: 100
+    price: 320000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0035000001080334187
+  62529:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62529
+    marketGroup: 516
+    mass: 1.0000000409184788E35
+    name: Compressed Azure Plagioclase
+    orebasictype: 18
+    packagedVolume: 0.0035000001080334187
+    portionSize: 100
+    price: 336250.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0035000001080334187
+  62530:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62530
+    marketGroup: 516
+    mass: 1.0000000409184788E35
+    name: Compressed Rich Plagioclase
+    orebasictype: 18
+    packagedVolume: 0.0035000001080334187
+    portionSize: 100
+    price: 352300.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0035000001080334187
+  62531:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 62531
+    marketGroup: 516
+    mass: 1.0
+    name: Compressed Sparkling Plagioclase
+    orebasictype: 46685
+    packagedVolume: 0.0035000001080334187
+    portionSize: 100
+    price: 7750.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0035000001080334187

@@ -1,81 +1,5 @@
 types:
-  Ancient Radar Decorrelator:
-    id: 45662
-    marketGroup: 1862
-    name: Ancient Radar Decorrelator
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Cartesian Temporal Coordinator:
-    hp: 20.0
-    id: 30024
-    marketGroup: 1862
-    name: Cartesian Temporal Coordinator
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Central System Controller:
-    hp: 20.0
-    id: 30270
-    marketGroup: 1862
-    name: Central System Controller
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Defensive Control Node:
-    hp: 20.0
-    id: 30269
-    marketGroup: 1862
-    name: Defensive Control Node
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Electromechanical Hull Sheeting:
-    hp: 20.0
-    id: 30254
-    marketGroup: 1862
-    name: Electromechanical Hull Sheeting
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Emergent Combat Analyzer:
-    hp: 20.0
-    id: 30248
-    marketGroup: 1862
-    name: Emergent Combat Analyzer
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Emergent Combat Intelligence:
-    hp: 20.0
-    id: 30271
-    marketGroup: 1862
-    name: Emergent Combat Intelligence
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Faraday Force Magnetometer:
-    id: 45661
-    marketGroup: 1862
-    name: Faraday Force Magnetometer
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Fused Nanomechanical Engines:
+  30018:
     hp: 20.0
     id: 30018
     marketGroup: 1862
@@ -85,57 +9,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Heuristic Selfassemblers:
-    hp: 20.0
-    id: 30022
-    marketGroup: 1862
-    name: Heuristic Selfassemblers
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Jump Drive Control Nexus:
-    hp: 20.0
-    id: 30268
-    marketGroup: 1862
-    name: Jump Drive Control Nexus
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Melted Nanoribbons:
-    hp: 20.0
-    id: 30259
-    marketGroup: 1862
-    name: Melted Nanoribbons
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Modified Fluid Router:
-    hp: 20.0
-    id: 30021
-    marketGroup: 1862
-    name: Modified Fluid Router
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Neurovisual Input Matrix:
-    hp: 20.0
-    id: 30251
-    marketGroup: 1862
-    name: Neurovisual Input Matrix
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  Powdered C-540 Graphite:
+  30019:
     hp: 20.0
     id: 30019
     marketGroup: 1862
@@ -145,7 +19,77 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Resonance Calibration Matrix:
+  30021:
+    hp: 20.0
+    id: 30021
+    marketGroup: 1862
+    name: Modified Fluid Router
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30022:
+    hp: 20.0
+    id: 30022
+    marketGroup: 1862
+    name: Heuristic Selfassemblers
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30024:
+    hp: 20.0
+    id: 30024
+    marketGroup: 1862
+    name: Cartesian Temporal Coordinator
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30248:
+    hp: 20.0
+    id: 30248
+    marketGroup: 1862
+    name: Emergent Combat Analyzer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30251:
+    hp: 20.0
+    id: 30251
+    marketGroup: 1862
+    name: Neurovisual Input Matrix
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30252:
+    hp: 20.0
+    id: 30252
+    marketGroup: 1862
+    name: Thermoelectric Catalysts
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30254:
+    hp: 20.0
+    id: 30254
+    marketGroup: 1862
+    name: Electromechanical Hull Sheeting
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30258:
     hp: 20.0
     id: 30258
     marketGroup: 1862
@@ -155,7 +99,57 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Scorched Microgravimeter:
+  30259:
+    hp: 20.0
+    id: 30259
+    marketGroup: 1862
+    name: Melted Nanoribbons
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30268:
+    hp: 20.0
+    id: 30268
+    marketGroup: 1862
+    name: Jump Drive Control Nexus
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30269:
+    hp: 20.0
+    id: 30269
+    marketGroup: 1862
+    name: Defensive Control Node
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30270:
+    hp: 20.0
+    id: 30270
+    marketGroup: 1862
+    name: Central System Controller
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  30271:
+    hp: 20.0
+    id: 30271
+    marketGroup: 1862
+    name: Emergent Combat Intelligence
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  45660:
     id: 45660
     marketGroup: 1862
     name: Scorched Microgravimeter
@@ -163,21 +157,27 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Synthetic Aperture Ladar Receiver:
+  45661:
+    id: 45661
+    marketGroup: 1862
+    name: Faraday Force Magnetometer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  45662:
+    id: 45662
+    marketGroup: 1862
+    name: Ancient Radar Decorrelator
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  45663:
     id: 45663
     marketGroup: 1862
     name: Synthetic Aperture Ladar Receiver
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
-  Thermoelectric Catalysts:
-    hp: 20.0
-    id: 30252
-    marketGroup: 1862
-    name: Thermoelectric Catalysts
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
     volume: 0.009999999776482582

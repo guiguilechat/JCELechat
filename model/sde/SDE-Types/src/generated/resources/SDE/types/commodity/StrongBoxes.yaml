@@ -1,95 +1,5 @@
 types:
-  Agency Support Drop:
-    id: 46381
-    marketGroup: 1661
-    name: Agency Support Drop
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Allotek Industries Strong Box:
-    id: 43690
-    marketGroup: 2317
-    name: Allotek Industries Strong Box
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Arms Race Battlecruiser Assembler:
-    id: 46771
-    marketGroup: 1661
-    name: Arms Race Battlecruiser Assembler
-    packagedVolume: 15000.0
-    portionSize: 1
-    published: true
-    volume: 15000.0
-  Arms Race Battleship Assembler:
-    id: 46772
-    marketGroup: 1661
-    name: Arms Race Battleship Assembler
-    packagedVolume: 50000.0
-    portionSize: 1
-    published: true
-    volume: 50000.0
-  Astral Mining Inc. Strong Box:
-    id: 43688
-    marketGroup: 2317
-    name: Astral Mining Inc. Strong Box
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Blood Raider Chemosh Blueprint Armored Cache:
-    id: 45678
-    marketGroup: 2317
-    name: Blood Raider Chemosh Blueprint Armored Cache
-    packagedVolume: 400000.0
-    portionSize: 1
-    published: true
-    volume: 400000.0
-  Blood Raider Dagon Blueprint Armored Cache:
-    id: 45679
-    marketGroup: 2317
-    name: Blood Raider Dagon Blueprint Armored Cache
-    packagedVolume: 400000.0
-    portionSize: 1
-    published: true
-    volume: 400000.0
-  Blood Raider Molok Blueprint Armored Cache:
-    id: 45677
-    marketGroup: 2317
-    name: Blood Raider Molok Blueprint Armored Cache
-    packagedVolume: 400000.0
-    portionSize: 1
-    published: true
-    volume: 400000.0
-  Blood Raider Standup Module Blueprint Armored Cache:
-    id: 46579
-    marketGroup: 2317
-    name: Blood Raider Standup Module Blueprint Armored Cache
-    packagedVolume: 400000.0
-    portionSize: 1
-    published: true
-    volume: 400000.0
-  Blood Raider Strong Box:
-    id: 43696
-    marketGroup: 2317
-    metagroupid: 4
-    name: Blood Raider Strong Box
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Deep Core Mining Inc. Strong Box:
-    id: 43685
-    marketGroup: 2317
-    name: Deep Core Mining Inc. Strong Box
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Ducia Foundry Strong Box:
+  43682:
     id: 43682
     marketGroup: 2317
     name: Ducia Foundry Strong Box
@@ -97,183 +7,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Enforcer - Calm Abyssal Filaments Crate:
-    id: 63787
-    marketGroup: 2317
-    mass: 1.0
-    name: Enforcer - Calm Abyssal Filaments Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Enforcer - Defense System Skill Crate:
-    id: 63781
-    marketGroup: 2317
-    mass: 1.0
-    name: Enforcer - Defense System Skill Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Enforcer - Destroyer Skill Crate:
-    id: 63778
-    marketGroup: 2317
-    mass: 1.0
-    name: Enforcer - Destroyer Skill Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Enforcer - Frigate Crate:
-    id: 63782
-    marketGroup: 2317
-    mass: 1.0
-    name: Enforcer - Frigate Crate
-    packagedVolume: 2500.0
-    portionSize: 1
-    published: true
-    volume: 2500.0
-  Enforcer - Frigate Skill Crate:
-    id: 63779
-    marketGroup: 2317
-    mass: 1.0
-    name: Enforcer - Frigate Skill Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Enforcer - Tranquil Abyssal Filaments Crate:
-    id: 63786
-    marketGroup: 2317
-    mass: 1.0
-    name: Enforcer - Tranquil Abyssal Filaments Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Explorer - Frigate Crate:
-    id: 63771
-    marketGroup: 2317
-    mass: 1.0
-    name: Explorer - Frigate Crate
-    packagedVolume: 2500.0
-    portionSize: 1
-    published: true
-    volume: 2500.0
-  Explorer - Frigate Skill Crate:
-    id: 63770
-    marketGroup: 2317
-    mass: 1.0
-    name: Explorer - Frigate Skill Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Guristas Caiman Blueprint Armored Cache:
-    id: 46602
-    marketGroup: 2317
-    name: Guristas Caiman Blueprint Armored Cache
-    packagedVolume: 400000.0
-    portionSize: 1
-    published: true
-    volume: 400000.0
-  Guristas Komodo Blueprint Armored Cache:
-    id: 46603
-    marketGroup: 2317
-    name: Guristas Komodo Blueprint Armored Cache
-    packagedVolume: 400000.0
-    portionSize: 1
-    published: true
-    volume: 400000.0
-  Guristas Loggerhead Blueprint Armored Cache:
-    id: 46601
-    marketGroup: 2317
-    name: Guristas Loggerhead Blueprint Armored Cache
-    packagedVolume: 400000.0
-    portionSize: 1
-    published: true
-    volume: 400000.0
-  Guristas Production Strong Box:
-    id: 43697
-    marketGroup: 2317
-    metagroupid: 4
-    name: Guristas Production Strong Box
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Guristas Standup Module Blueprint Armored Cache:
-    id: 46580
-    marketGroup: 2317
-    name: Guristas Standup Module Blueprint Armored Cache
-    packagedVolume: 400000.0
-    portionSize: 1
-    published: true
-    volume: 400000.0
-  HZO Refinery Strong Box:
-    id: 43684
-    marketGroup: 2317
-    name: HZO Refinery Strong Box
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Industrialist -  Hauler Skill Crate:
-    id: 63776
-    marketGroup: 2317
-    mass: 1.0
-    name: Industrialist -  Hauler Skill Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Industrialist - Cruiser Blueprint Crate:
-    id: 63774
-    marketGroup: 2317
-    mass: 1.0
-    name: Industrialist - Cruiser Blueprint Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Industrialist - Destroyer Blueprint Crate:
-    id: 63773
-    marketGroup: 2317
-    mass: 1.0
-    name: Industrialist - Destroyer Blueprint Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Industrialist - Frigate Blueprint Crate:
-    id: 63772
-    marketGroup: 2317
-    mass: 1.0
-    name: Industrialist - Frigate Blueprint Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Industrialist - Hauler Blueprint Crate:
-    id: 63775
-    marketGroup: 2317
-    mass: 1.0
-    name: Industrialist - Hauler Blueprint Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  Industrialist - Light Combat Drones Crate:
-    id: 63777
-    marketGroup: 2317
-    mass: 1.0
-    name: Industrialist - Light Combat Drones Crate
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    volume: 10.0
-  Joint Harvesting Strong Box:
+  43683:
     id: 43683
     marketGroup: 2317
     name: Joint Harvesting Strong Box
@@ -281,31 +15,23 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Material Acquisition Strong Box:
-    id: 43689
+  43684:
+    id: 43684
     marketGroup: 2317
-    name: Material Acquisition Strong Box
+    name: HZO Refinery Strong Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Minedrill Strong Box:
-    id: 43687
+  43685:
+    id: 43685
     marketGroup: 2317
-    name: Minedrill Strong Box
+    name: Deep Core Mining Inc. Strong Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Minmatar Mining Corporation Strong Box:
-    id: 43691
-    marketGroup: 2317
-    name: Minmatar Mining Corporation Strong Box
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Poksu Mineral Group Strong Box:
+  43686:
     id: 43686
     marketGroup: 2317
     name: Poksu Mineral Group Strong Box
@@ -313,44 +39,55 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Salvation Angels Strong Box:
-    id: 43698
+  43687:
+    id: 43687
     marketGroup: 2317
-    metagroupid: 4
-    name: Salvation Angels Strong Box
+    name: Minedrill Strong Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 0.10000000149011612
-  Soldier of Fortune - Combat Frigate Crate:
-    id: 63784
+  43688:
+    id: 43688
     marketGroup: 2317
-    mass: 1.0
-    name: Soldier of Fortune - Combat Frigate Crate
-    packagedVolume: 2500.0
+    name: Astral Mining Inc. Strong Box
+    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 2500.0
-  Soldier of Fortune - Frigate Skill Crate:
-    id: 63783
+    volume: 0.10000000149011612
+  43689:
+    id: 43689
     marketGroup: 2317
-    mass: 1.0
-    name: Soldier of Fortune - Frigate Skill Crate
-    packagedVolume: 1.0
+    name: Material Acquisition Strong Box
+    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 1.0
-  Soldier of Fortune - Support Frigate Crate:
-    id: 63785
+    volume: 0.10000000149011612
+  43690:
+    id: 43690
     marketGroup: 2317
-    mass: 1.0
-    name: Soldier of Fortune - Support Frigate Crate
-    packagedVolume: 2500.0
+    name: Allotek Industries Strong Box
+    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 2500.0
-  Thukker Mix Strong Box:
+    volume: 0.10000000149011612
+  43691:
+    id: 43691
+    marketGroup: 2317
+    name: Minmatar Mining Corporation Strong Box
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  43692:
+    id: 43692
+    marketGroup: 2317
+    name: Vherokior Tribe Strong Box
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  43693:
     id: 43693
     marketGroup: 2317
     name: Thukker Mix Strong Box
@@ -358,7 +95,7 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  True Creations Strong Box:
+  43695:
     id: 43695
     marketGroup: 2317
     metagroupid: 4
@@ -368,11 +105,283 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Vherokior Tribe Strong Box:
-    id: 43692
+  43696:
+    id: 43696
     marketGroup: 2317
-    name: Vherokior Tribe Strong Box
+    metagroupid: 4
+    name: Blood Raider Strong Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
+  43697:
+    id: 43697
+    marketGroup: 2317
+    metagroupid: 4
+    name: Guristas Production Strong Box
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  43698:
+    id: 43698
+    marketGroup: 2317
+    metagroupid: 4
+    name: Salvation Angels Strong Box
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  45677:
+    id: 45677
+    marketGroup: 2317
+    name: Blood Raider Molok Blueprint Armored Cache
+    packagedVolume: 400000.0
+    portionSize: 1
+    published: true
+    volume: 400000.0
+  45678:
+    id: 45678
+    marketGroup: 2317
+    name: Blood Raider Chemosh Blueprint Armored Cache
+    packagedVolume: 400000.0
+    portionSize: 1
+    published: true
+    volume: 400000.0
+  45679:
+    id: 45679
+    marketGroup: 2317
+    name: Blood Raider Dagon Blueprint Armored Cache
+    packagedVolume: 400000.0
+    portionSize: 1
+    published: true
+    volume: 400000.0
+  46381:
+    id: 46381
+    marketGroup: 1661
+    name: Agency Support Drop
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  46579:
+    id: 46579
+    marketGroup: 2317
+    name: Blood Raider Standup Module Blueprint Armored Cache
+    packagedVolume: 400000.0
+    portionSize: 1
+    published: true
+    volume: 400000.0
+  46580:
+    id: 46580
+    marketGroup: 2317
+    name: Guristas Standup Module Blueprint Armored Cache
+    packagedVolume: 400000.0
+    portionSize: 1
+    published: true
+    volume: 400000.0
+  46601:
+    id: 46601
+    marketGroup: 2317
+    name: Guristas Loggerhead Blueprint Armored Cache
+    packagedVolume: 400000.0
+    portionSize: 1
+    published: true
+    volume: 400000.0
+  46602:
+    id: 46602
+    marketGroup: 2317
+    name: Guristas Caiman Blueprint Armored Cache
+    packagedVolume: 400000.0
+    portionSize: 1
+    published: true
+    volume: 400000.0
+  46603:
+    id: 46603
+    marketGroup: 2317
+    name: Guristas Komodo Blueprint Armored Cache
+    packagedVolume: 400000.0
+    portionSize: 1
+    published: true
+    volume: 400000.0
+  46771:
+    id: 46771
+    marketGroup: 1661
+    name: Arms Race Battlecruiser Assembler
+    packagedVolume: 15000.0
+    portionSize: 1
+    published: true
+    volume: 15000.0
+  46772:
+    id: 46772
+    marketGroup: 1661
+    name: Arms Race Battleship Assembler
+    packagedVolume: 50000.0
+    portionSize: 1
+    published: true
+    volume: 50000.0
+  63770:
+    id: 63770
+    marketGroup: 2317
+    mass: 1.0
+    name: Explorer - Frigate Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63771:
+    id: 63771
+    marketGroup: 2317
+    mass: 1.0
+    name: Explorer - Frigate Crate
+    packagedVolume: 2500.0
+    portionSize: 1
+    published: true
+    volume: 2500.0
+  63772:
+    id: 63772
+    marketGroup: 2317
+    mass: 1.0
+    name: Industrialist - Frigate Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63773:
+    id: 63773
+    marketGroup: 2317
+    mass: 1.0
+    name: Industrialist - Destroyer Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63774:
+    id: 63774
+    marketGroup: 2317
+    mass: 1.0
+    name: Industrialist - Cruiser Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63775:
+    id: 63775
+    marketGroup: 2317
+    mass: 1.0
+    name: Industrialist - Hauler Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63776:
+    id: 63776
+    marketGroup: 2317
+    mass: 1.0
+    name: Industrialist -  Hauler Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63777:
+    id: 63777
+    marketGroup: 2317
+    mass: 1.0
+    name: Industrialist - Light Combat Drones Crate
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    volume: 10.0
+  63778:
+    id: 63778
+    marketGroup: 2317
+    mass: 1.0
+    name: Enforcer - Destroyer Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63779:
+    id: 63779
+    marketGroup: 2317
+    mass: 1.0
+    name: Enforcer - Frigate Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63780:
+    id: 63780
+    marketGroup: 2317
+    mass: 1.0
+    name: Enforcer - Frigate Crate
+    packagedVolume: 2500.0
+    portionSize: 1
+    published: true
+    volume: 2500.0
+  63781:
+    id: 63781
+    marketGroup: 2317
+    mass: 1.0
+    name: Enforcer - Defense System Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63782:
+    id: 63782
+    marketGroup: 2317
+    mass: 1.0
+    name: Enforcer - Frigate Crate
+    packagedVolume: 2500.0
+    portionSize: 1
+    published: true
+    volume: 2500.0
+  63783:
+    id: 63783
+    marketGroup: 2317
+    mass: 1.0
+    name: Soldier of Fortune - Frigate Skill Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63784:
+    id: 63784
+    marketGroup: 2317
+    mass: 1.0
+    name: Soldier of Fortune - Combat Frigate Crate
+    packagedVolume: 2500.0
+    portionSize: 1
+    published: true
+    volume: 2500.0
+  63785:
+    id: 63785
+    marketGroup: 2317
+    mass: 1.0
+    name: Soldier of Fortune - Support Frigate Crate
+    packagedVolume: 2500.0
+    portionSize: 1
+    published: true
+    volume: 2500.0
+  63786:
+    id: 63786
+    marketGroup: 2317
+    mass: 1.0
+    name: Enforcer - Tranquil Abyssal Filaments Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  63787:
+    id: 63787
+    marketGroup: 2317
+    mass: 1.0
+    name: Enforcer - Calm Abyssal Filaments Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

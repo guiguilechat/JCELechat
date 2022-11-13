@@ -97,7 +97,7 @@ public class ShieldResistanceAmplifierBlueprint
         implements IMetaGroup<ShieldResistanceAmplifierBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ShieldResistanceAmplifierBlueprint.yaml";
-        private Map<String, ShieldResistanceAmplifierBlueprint> cache = (null);
+        private Map<Integer, ShieldResistanceAmplifierBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldResistanceAmplifierBlueprint> category() {
@@ -115,7 +115,7 @@ public class ShieldResistanceAmplifierBlueprint
         }
 
         @Override
-        public synchronized Map<String, ShieldResistanceAmplifierBlueprint> load() {
+        public synchronized Map<Integer, ShieldResistanceAmplifierBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldResistanceAmplifierBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ShieldResistanceAmplifierBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldResistanceAmplifierBlueprint> types;
+            public LinkedHashMap<Integer, ShieldResistanceAmplifierBlueprint> types;
         }
     }
 }

@@ -1,23 +1,5 @@
 types:
-  Mining Equipment Preservation Charge:
-    id: 42831
-    launchergroup: 1770
-    marketGroup: 2300
-    mass: 0.009999999776482582
-    name: Mining Equipment Preservation Charge
-    packagedVolume: 0.009999999776482582
-    portionSize: 500
-    price: 1000.0
-    published: true
-    radius: 1.0
-    requiredskill1: 22536
-    requiredskill1level: 1
-    requiredskill2: 3348
-    requiredskill2level: 1
-    volume: 0.009999999776482582
-    warfarebuff1id: 25
-    warfarebuff1multiplier: -15
-  Mining Laser Field Enhancement Charge:
+  42829:
     id: 42829
     launchergroup: 1770
     marketGroup: 2300
@@ -35,7 +17,7 @@ types:
     volume: 0.009999999776482582
     warfarebuff1id: 23
     warfarebuff1multiplier: 40
-  Mining Laser Optimization Charge:
+  42830:
     id: 42830
     launchergroup: 1770
     marketGroup: 2300
@@ -52,4 +34,22 @@ types:
     requiredskill2level: 1
     volume: 0.009999999776482582
     warfarebuff1id: 24
+    warfarebuff1multiplier: -15
+  42831:
+    id: 42831
+    launchergroup: 1770
+    marketGroup: 2300
+    mass: 0.009999999776482582
+    name: Mining Equipment Preservation Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
+    price: 1000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 22536
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
+    volume: 0.009999999776482582
+    warfarebuff1id: 25
     warfarebuff1multiplier: -15

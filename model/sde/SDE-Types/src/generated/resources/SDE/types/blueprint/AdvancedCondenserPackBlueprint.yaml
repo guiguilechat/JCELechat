@@ -1,21 +1,5 @@
 types:
-  ElectroPunch Ultra L Blueprint:
-    id: 54888
-    name: ElectroPunch Ultra L Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E10
-    published: true
-    volume: 0.009999999776482582
-  ElectroPunch Ultra M Blueprint:
-    id: 54886
-    name: ElectroPunch Ultra M Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E10
-    published: true
-    volume: 0.009999999776482582
-  ElectroPunch Ultra S Blueprint:
+  54884:
     id: 54884
     name: ElectroPunch Ultra S Blueprint
     packagedVolume: 0.009999999776482582
@@ -23,23 +7,7 @@ types:
     price: 1.0E10
     published: true
     volume: 0.009999999776482582
-  StrikeSnipe Ultra L Blueprint:
-    id: 54889
-    name: StrikeSnipe Ultra L Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E10
-    published: true
-    volume: 0.009999999776482582
-  StrikeSnipe Ultra M Blueprint:
-    id: 54887
-    name: StrikeSnipe Ultra M Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E10
-    published: true
-    volume: 0.009999999776482582
-  StrikeSnipe Ultra S Blueprint:
+  54885:
     id: 54885
     name: StrikeSnipe Ultra S Blueprint
     packagedVolume: 0.009999999776482582
@@ -47,7 +15,111 @@ types:
     price: 1.0E10
     published: true
     volume: 0.009999999776482582
-  unused blueprint type:
+  54886:
+    id: 54886
+    name: ElectroPunch Ultra M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54887:
+    id: 54887
+    name: StrikeSnipe Ultra M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54888:
+    id: 54888
+    name: ElectroPunch Ultra L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54889:
+    id: 54889
+    name: StrikeSnipe Ultra L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54890:
+    id: 54890
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54891:
+    id: 54891
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54892:
+    id: 54892
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54893:
+    id: 54893
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54894:
+    id: 54894
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54895:
+    id: 54895
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54896:
+    id: 54896
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54897:
+    id: 54897
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54898:
+    id: 54898
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    volume: 0.009999999776482582
+  54899:
     id: 54899
     name: unused blueprint type
     packagedVolume: 0.009999999776482582

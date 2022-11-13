@@ -1,203 +1,5 @@
 types:
-  '''Aurora Ominae'' Thermal Doomsday':
-    cancloak: 1
-    canfitshiptype1: 671
-    canfitshiptype2: 42126
-    canfitshiptype3: 45649
-    capacitorneed: 33750.0
-    consumptionquantity: 50000
-    consumptiontype: 17887
-    cpu: 100.0
-    damagedelayduration: 8000
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowrepeatingactivation: 1
-    disallowtethering: 1
-    doomsdayimmobilityduration: 30000
-    doomsdaynojumporcloakduration: 300000
-    duration: 300000.0
-    effectdeactivationdelay: 30000
-    hp: 99999.0
-    id: 24554
-    marketGroup: 2269
-    mass: 100.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    name: '''Aurora Ominae'' Thermal Doomsday'
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 100000
-    price: 2.40950752E8
-    published: true
-    radius: 1000.0
-    requiredskill1: 24563
-    requiredskill1level: 1
-    requiredskill2: 3344
-    requiredskill2level: 1
-    siegemodewarpstatus: 100
-    signatureradius: 100.0
-    speedfactor: -100.0
-    techlevel: 1
-    thermaldamage: 1000000.0
-    volume: 8000.0
-  '''Cold Wind'' Kinetic Reaper':
-    cancloak: 1
-    canfitshiptype1: 3764
-    canfitshiptype2: 45649
-    capacitorneed: 32500.0
-    consumptionquantity: 50000
-    consumptiontype: 17888
-    cpu: 100.0
-    damagedelayduration: 10000
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowinempirespace: 1
-    disallowrepeatingactivation: 1
-    disallowtethering: 1
-    doomsdayaoeshape: 2
-    doomsdaydamagecycletime: 1000
-    doomsdaydamageduration: 10000
-    doomsdaydamageradius: 5000
-    doomsdayenergyneutamount: 32500
-    doomsdayenergyneutradius: 10000
-    doomsdayenergyneutresistanceid: 2045
-    doomsdayenergyneutsignatureradius: 20000
-    doomsdayimmobilityduration: 30000
-    doomsdaynojumporcloakduration: 300000
-    doomsdayrangeisfixed: 1
-    doomsdaywarningduration: 10000
-    duration: 300000.0
-    hp: 99999.0
-    id: 41442
-    ispointtargeted: 2
-    kineticdamage: 100000.0
-    marketGroup: 2268
-    mass: 100.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    maxrange: 150000.0
-    name: '''Cold Wind'' Kinetic Reaper'
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 100000
-    price: 2.40947792E8
-    published: true
-    radius: 1000.0
-    requiredskill1: 24563
-    requiredskill1level: 1
-    requiredskill2: 3346
-    requiredskill2level: 1
-    siegemodewarpstatus: 100
-    signatureradius: 3500.0
-    speedfactor: -100.0
-    techlevel: 1
-    volume: 8000.0
-  '''Divine Harvest'' Electromagnetic Reaper':
-    cancloak: 1
-    canfitshiptype1: 11567
-    canfitshiptype2: 42241
-    capacitorneed: 35000.0
-    consumptionquantity: 50000
-    consumptiontype: 16274
-    cpu: 100.0
-    damagedelayduration: 10000
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowinempirespace: 1
-    disallowrepeatingactivation: 1
-    disallowtethering: 1
-    doomsdayaoeshape: 2
-    doomsdaydamagecycletime: 1000
-    doomsdaydamageduration: 10000
-    doomsdaydamageradius: 5000
-    doomsdayenergyneutamount: 35000
-    doomsdayenergyneutradius: 10000
-    doomsdayenergyneutresistanceid: 2045
-    doomsdayenergyneutsignatureradius: 20000
-    doomsdayimmobilityduration: 30000
-    doomsdaynojumporcloakduration: 300000
-    doomsdayrangeisfixed: 1
-    doomsdaywarningduration: 10000
-    duration: 300000.0
-    emdamage: 100000.0
-    hp: 99999.0
-    id: 40632
-    ispointtargeted: 2
-    marketGroup: 2267
-    mass: 100.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    maxrange: 150000.0
-    name: '''Divine Harvest'' Electromagnetic Reaper'
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 100000
-    price: 2.40947792E8
-    published: true
-    radius: 1000.0
-    requiredskill1: 24563
-    requiredskill1level: 1
-    requiredskill2: 3347
-    requiredskill2level: 1
-    siegemodewarpstatus: 100
-    signatureradius: 3500.0
-    speedfactor: -100.0
-    techlevel: 1
-    volume: 8000.0
-  '''Geiravor'' Explosive Lance':
-    cancloak: 1
-    canfitshiptype1: 23773
-    canfitshiptype2: 42126
-    canfitshiptype3: 42241
-    capacitorneed: 31000.0
-    consumptionquantity: 50000
-    consumptiontype: 17889
-    cpu: 100.0
-    damagedelayduration: 10000
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowinempirespace: 1
-    disallowrepeatingactivation: 1
-    disallowtethering: 1
-    doomsdayaoeshape: 1
-    doomsdaydamagecycletime: 1000
-    doomsdaydamageduration: 15000
-    doomsdaydamageradius: 2500
-    doomsdayenergyneutamount: 31000
-    doomsdayenergyneutradius: 10000
-    doomsdayenergyneutresistanceid: 2045
-    doomsdayenergyneutsignatureradius: 20000
-    doomsdayimmobilityduration: 30000
-    doomsdaynojumporcloakduration: 300000
-    doomsdayrangeisfixed: 1
-    doomsdaywarningduration: 15000
-    duration: 300000.0
-    explosivedamage: 50000.0
-    hp: 99999.0
-    id: 41441
-    ispointtargeted: 1
-    marketGroup: 2270
-    mass: 100.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    maxrange: 200000.0
-    name: '''Geiravor'' Explosive Lance'
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 100000
-    price: 2.40947792E8
-    published: true
-    radius: 1000.0
-    requiredskill1: 24563
-    requiredskill1level: 1
-    requiredskill2: 3345
-    requiredskill2level: 1
-    siegemodewarpstatus: 100
-    signatureradius: 5000.0
-    speedfactor: -100.0
-    techlevel: 1
-    volume: 8000.0
-  '''Gjallarhorn'' Explosive Doomsday':
+  23674:
     cancloak: 1
     canfitshiptype1: 23773
     canfitshiptype2: 42126
@@ -238,43 +40,71 @@ types:
     speedfactor: -100.0
     techlevel: 1
     volume: 8000.0
-  '''Guillotine'' Thermal Reaper':
+  24550:
     cancloak: 1
-    canfitshiptype1: 671
-    canfitshiptype2: 42126
-    canfitshiptype3: 45649
-    capacitorneed: 33750.0
+    canfitshiptype1: 11567
+    canfitshiptype2: 42241
+    capacitorneed: 35000.0
     consumptionquantity: 50000
-    consumptiontype: 17887
+    consumptiontype: 16274
     cpu: 100.0
-    damagedelayduration: 10000
+    damagedelayduration: 9000
     disallowdocking: 1
     disallowearlydeactivation: 1
-    disallowinempirespace: 1
     disallowrepeatingactivation: 1
     disallowtethering: 1
-    doomsdayaoeshape: 2
-    doomsdaydamagecycletime: 1000
-    doomsdaydamageduration: 10000
-    doomsdaydamageradius: 5000
-    doomsdayenergyneutamount: 33750
-    doomsdayenergyneutradius: 10000
-    doomsdayenergyneutresistanceid: 2045
-    doomsdayenergyneutsignatureradius: 20000
     doomsdayimmobilityduration: 30000
     doomsdaynojumporcloakduration: 300000
-    doomsdayrangeisfixed: 1
-    doomsdaywarningduration: 10000
     duration: 300000.0
+    effectdeactivationdelay: 30000
+    emdamage: 1000000.0
     hp: 99999.0
-    id: 41443
-    ispointtargeted: 2
-    marketGroup: 2269
+    id: 24550
+    marketGroup: 2267
     mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    maxrange: 150000.0
-    name: '''Guillotine'' Thermal Reaper'
+    name: '''Judgment'' Electromagnetic Doomsday'
+    packagedVolume: 2000.0
+    portionSize: 1
+    power: 100000
+    price: 2.40727872E8
+    published: true
+    radius: 1000.0
+    requiredskill1: 24563
+    requiredskill1level: 1
+    requiredskill2: 3347
+    requiredskill2level: 1
+    siegemodewarpstatus: 100
+    signatureradius: 100.0
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 8000.0
+  24552:
+    cancloak: 1
+    canfitshiptype1: 3764
+    canfitshiptype2: 45649
+    capacitorneed: 32500.0
+    consumptionquantity: 50000
+    consumptiontype: 17888
+    cpu: 100.0
+    damagedelayduration: 12000
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowrepeatingactivation: 1
+    disallowtethering: 1
+    doomsdayimmobilityduration: 30000
+    doomsdaynojumporcloakduration: 300000
+    duration: 300000.0
+    effectdeactivationdelay: 30000
+    hp: 99999.0
+    id: 24552
+    kineticdamage: 1000000.0
+    marketGroup: 2268
+    mass: 100.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: '''Oblivion'' Kinetic Doomsday'
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
@@ -283,15 +113,55 @@ types:
     radius: 1000.0
     requiredskill1: 24563
     requiredskill1level: 1
+    requiredskill2: 3346
+    requiredskill2level: 1
+    siegemodewarpstatus: 100
+    signatureradius: 100.0
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 8000.0
+  24554:
+    cancloak: 1
+    canfitshiptype1: 671
+    canfitshiptype2: 42126
+    canfitshiptype3: 45649
+    capacitorneed: 33750.0
+    consumptionquantity: 50000
+    consumptiontype: 17887
+    cpu: 100.0
+    damagedelayduration: 8000
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowrepeatingactivation: 1
+    disallowtethering: 1
+    doomsdayimmobilityduration: 30000
+    doomsdaynojumporcloakduration: 300000
+    duration: 300000.0
+    effectdeactivationdelay: 30000
+    hp: 99999.0
+    id: 24554
+    marketGroup: 2269
+    mass: 100.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    name: '''Aurora Ominae'' Thermal Doomsday'
+    packagedVolume: 2000.0
+    portionSize: 1
+    power: 100000
+    price: 2.40950752E8
+    published: true
+    radius: 1000.0
+    requiredskill1: 24563
+    requiredskill1level: 1
     requiredskill2: 3344
     requiredskill2level: 1
     siegemodewarpstatus: 100
-    signatureradius: 3500.0
+    signatureradius: 100.0
     speedfactor: -100.0
     techlevel: 1
-    thermaldamage: 100000.0
+    thermaldamage: 1000000.0
     volume: 8000.0
-  '''Holy Destiny'' Electromagnetic Lance':
+  40631:
     cancloak: 1
     canfitshiptype1: 11567
     canfitshiptype2: 42241
@@ -343,66 +213,13 @@ types:
     speedfactor: -100.0
     techlevel: 1
     volume: 8000.0
-  '''Iron Pike'' Kinetic Lance':
+  40632:
     cancloak: 1
-    canfitshiptype1: 3764
-    canfitshiptype2: 45649
-    capacitorneed: 32500.0
+    canfitshiptype1: 11567
+    canfitshiptype2: 42241
+    capacitorneed: 35000.0
     consumptionquantity: 50000
-    consumptiontype: 17888
-    cpu: 100.0
-    damagedelayduration: 10000
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowinempirespace: 1
-    disallowrepeatingactivation: 1
-    disallowtethering: 1
-    doomsdayaoeshape: 1
-    doomsdaydamagecycletime: 1000
-    doomsdaydamageduration: 15000
-    doomsdaydamageradius: 2500
-    doomsdayenergyneutamount: 32500
-    doomsdayenergyneutradius: 10000
-    doomsdayenergyneutresistanceid: 2045
-    doomsdayenergyneutsignatureradius: 20000
-    doomsdayimmobilityduration: 30000
-    doomsdaynojumporcloakduration: 300000
-    doomsdayrangeisfixed: 1
-    doomsdaywarningduration: 15000
-    duration: 300000.0
-    hp: 99999.0
-    id: 41439
-    ispointtargeted: 1
-    kineticdamage: 50000.0
-    marketGroup: 2268
-    mass: 100.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    maxrange: 200000.0
-    name: '''Iron Pike'' Kinetic Lance'
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 100000
-    price: 2.40947792E8
-    published: true
-    radius: 1000.0
-    requiredskill1: 24563
-    requiredskill1level: 1
-    requiredskill2: 3346
-    requiredskill2level: 1
-    siegemodewarpstatus: 100
-    signatureradius: 5000.0
-    speedfactor: -100.0
-    techlevel: 1
-    volume: 8000.0
-  '''Jormungandr'' Explosive Reaper':
-    cancloak: 1
-    canfitshiptype1: 23773
-    canfitshiptype2: 42126
-    canfitshiptype3: 42241
-    capacitorneed: 31000.0
-    consumptionquantity: 50000
-    consumptiontype: 17889
+    consumptiontype: 16274
     cpu: 100.0
     damagedelayduration: 10000
     disallowdocking: 1
@@ -414,7 +231,7 @@ types:
     doomsdaydamagecycletime: 1000
     doomsdaydamageduration: 10000
     doomsdaydamageradius: 5000
-    doomsdayenergyneutamount: 31000
+    doomsdayenergyneutamount: 35000
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
@@ -423,60 +240,20 @@ types:
     doomsdayrangeisfixed: 1
     doomsdaywarningduration: 10000
     duration: 300000.0
-    explosivedamage: 100000.0
+    emdamage: 100000.0
     hp: 99999.0
-    id: 41444
+    id: 40632
     ispointtargeted: 2
-    marketGroup: 2270
-    mass: 100.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    maxrange: 150000.0
-    name: '''Jormungandr'' Explosive Reaper'
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 100000
-    price: 2.40947792E8
-    published: true
-    radius: 1000.0
-    requiredskill1: 24563
-    requiredskill1level: 1
-    requiredskill2: 3345
-    requiredskill2level: 1
-    siegemodewarpstatus: 100
-    signatureradius: 3500.0
-    speedfactor: -100.0
-    techlevel: 1
-    volume: 8000.0
-  '''Judgment'' Electromagnetic Doomsday':
-    cancloak: 1
-    canfitshiptype1: 11567
-    canfitshiptype2: 42241
-    capacitorneed: 35000.0
-    consumptionquantity: 50000
-    consumptiontype: 16274
-    cpu: 100.0
-    damagedelayduration: 9000
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowrepeatingactivation: 1
-    disallowtethering: 1
-    doomsdayimmobilityduration: 30000
-    doomsdaynojumporcloakduration: 300000
-    duration: 300000.0
-    effectdeactivationdelay: 30000
-    emdamage: 1000000.0
-    hp: 99999.0
-    id: 24550
     marketGroup: 2267
     mass: 100.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    name: '''Judgment'' Electromagnetic Doomsday'
+    maxrange: 150000.0
+    name: '''Divine Harvest'' Electromagnetic Reaper'
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40727872E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -484,104 +261,11 @@ types:
     requiredskill2: 3347
     requiredskill2level: 1
     siegemodewarpstatus: 100
-    signatureradius: 100.0
+    signatureradius: 3500.0
     speedfactor: -100.0
     techlevel: 1
     volume: 8000.0
-  '''Oblivion'' Kinetic Doomsday':
-    cancloak: 1
-    canfitshiptype1: 3764
-    canfitshiptype2: 45649
-    capacitorneed: 32500.0
-    consumptionquantity: 50000
-    consumptiontype: 17888
-    cpu: 100.0
-    damagedelayduration: 12000
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowrepeatingactivation: 1
-    disallowtethering: 1
-    doomsdayimmobilityduration: 30000
-    doomsdaynojumporcloakduration: 300000
-    duration: 300000.0
-    effectdeactivationdelay: 30000
-    hp: 99999.0
-    id: 24552
-    kineticdamage: 1000000.0
-    marketGroup: 2268
-    mass: 100.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    name: '''Oblivion'' Kinetic Doomsday'
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 100000
-    price: 2.40947792E8
-    published: true
-    radius: 1000.0
-    requiredskill1: 24563
-    requiredskill1level: 1
-    requiredskill2: 3346
-    requiredskill2level: 1
-    siegemodewarpstatus: 100
-    signatureradius: 100.0
-    speedfactor: -100.0
-    techlevel: 1
-    volume: 8000.0
-  '''Phalarica'' Thermal Lance':
-    cancloak: 1
-    canfitshiptype1: 671
-    canfitshiptype2: 42126
-    canfitshiptype3: 45649
-    capacitorneed: 33750.0
-    consumptionquantity: 50000
-    consumptiontype: 17887
-    cpu: 100.0
-    damagedelayduration: 10000
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowinempirespace: 1
-    disallowrepeatingactivation: 1
-    disallowtethering: 1
-    doomsdayaoeshape: 1
-    doomsdaydamagecycletime: 1000
-    doomsdaydamageduration: 15000
-    doomsdaydamageradius: 2500
-    doomsdayenergyneutamount: 33750
-    doomsdayenergyneutradius: 10000
-    doomsdayenergyneutresistanceid: 2045
-    doomsdayenergyneutsignatureradius: 20000
-    doomsdayimmobilityduration: 30000
-    doomsdaynojumporcloakduration: 300000
-    doomsdayrangeisfixed: 1
-    doomsdaywarningduration: 15000
-    duration: 300000.0
-    hp: 99999.0
-    id: 41440
-    ispointtargeted: 1
-    marketGroup: 2269
-    mass: 100.0
-    maxgroupactive: 1
-    maxgroupfitted: 1
-    maxrange: 200000.0
-    name: '''Phalarica'' Thermal Lance'
-    packagedVolume: 2000.0
-    portionSize: 1
-    power: 100000
-    price: 2.40947792E8
-    published: true
-    radius: 1000.0
-    requiredskill1: 24563
-    requiredskill1level: 1
-    requiredskill2: 3344
-    requiredskill2level: 1
-    siegemodewarpstatus: 100
-    signatureradius: 5000.0
-    speedfactor: -100.0
-    techlevel: 1
-    thermaldamage: 50000.0
-    volume: 8000.0
-  Bosonic Field Generator:
+  40633:
     cancloak: 1
     canfitshipgroup01: 30
     capacitorneed: 30000.0
@@ -634,7 +318,7 @@ types:
     techlevel: 1
     thermaldamage: 10000.0
     volume: 8000.0
-  Gravitational Transportation Field Oscillator:
+  40634:
     cancloak: 1
     canfitshipgroup01: 30
     capacitorneed: 30000.0
@@ -680,7 +364,323 @@ types:
     speedfactor: -100.0
     techlevel: 1
     volume: 8000.0
-  Pulse Activated Nexus Invulnerability Core:
+  41439:
+    cancloak: 1
+    canfitshiptype1: 3764
+    canfitshiptype2: 45649
+    capacitorneed: 32500.0
+    consumptionquantity: 50000
+    consumptiontype: 17888
+    cpu: 100.0
+    damagedelayduration: 10000
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowinempirespace: 1
+    disallowrepeatingactivation: 1
+    disallowtethering: 1
+    doomsdayaoeshape: 1
+    doomsdaydamagecycletime: 1000
+    doomsdaydamageduration: 15000
+    doomsdaydamageradius: 2500
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    doomsdayimmobilityduration: 30000
+    doomsdaynojumporcloakduration: 300000
+    doomsdayrangeisfixed: 1
+    doomsdaywarningduration: 15000
+    duration: 300000.0
+    hp: 99999.0
+    id: 41439
+    ispointtargeted: 1
+    kineticdamage: 50000.0
+    marketGroup: 2268
+    mass: 100.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrange: 200000.0
+    name: '''Iron Pike'' Kinetic Lance'
+    packagedVolume: 2000.0
+    portionSize: 1
+    power: 100000
+    price: 2.40947792E8
+    published: true
+    radius: 1000.0
+    requiredskill1: 24563
+    requiredskill1level: 1
+    requiredskill2: 3346
+    requiredskill2level: 1
+    siegemodewarpstatus: 100
+    signatureradius: 5000.0
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 8000.0
+  41440:
+    cancloak: 1
+    canfitshiptype1: 671
+    canfitshiptype2: 42126
+    canfitshiptype3: 45649
+    capacitorneed: 33750.0
+    consumptionquantity: 50000
+    consumptiontype: 17887
+    cpu: 100.0
+    damagedelayduration: 10000
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowinempirespace: 1
+    disallowrepeatingactivation: 1
+    disallowtethering: 1
+    doomsdayaoeshape: 1
+    doomsdaydamagecycletime: 1000
+    doomsdaydamageduration: 15000
+    doomsdaydamageradius: 2500
+    doomsdayenergyneutamount: 33750
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    doomsdayimmobilityduration: 30000
+    doomsdaynojumporcloakduration: 300000
+    doomsdayrangeisfixed: 1
+    doomsdaywarningduration: 15000
+    duration: 300000.0
+    hp: 99999.0
+    id: 41440
+    ispointtargeted: 1
+    marketGroup: 2269
+    mass: 100.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrange: 200000.0
+    name: '''Phalarica'' Thermal Lance'
+    packagedVolume: 2000.0
+    portionSize: 1
+    power: 100000
+    price: 2.40947792E8
+    published: true
+    radius: 1000.0
+    requiredskill1: 24563
+    requiredskill1level: 1
+    requiredskill2: 3344
+    requiredskill2level: 1
+    siegemodewarpstatus: 100
+    signatureradius: 5000.0
+    speedfactor: -100.0
+    techlevel: 1
+    thermaldamage: 50000.0
+    volume: 8000.0
+  41441:
+    cancloak: 1
+    canfitshiptype1: 23773
+    canfitshiptype2: 42126
+    canfitshiptype3: 42241
+    capacitorneed: 31000.0
+    consumptionquantity: 50000
+    consumptiontype: 17889
+    cpu: 100.0
+    damagedelayduration: 10000
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowinempirespace: 1
+    disallowrepeatingactivation: 1
+    disallowtethering: 1
+    doomsdayaoeshape: 1
+    doomsdaydamagecycletime: 1000
+    doomsdaydamageduration: 15000
+    doomsdaydamageradius: 2500
+    doomsdayenergyneutamount: 31000
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    doomsdayimmobilityduration: 30000
+    doomsdaynojumporcloakduration: 300000
+    doomsdayrangeisfixed: 1
+    doomsdaywarningduration: 15000
+    duration: 300000.0
+    explosivedamage: 50000.0
+    hp: 99999.0
+    id: 41441
+    ispointtargeted: 1
+    marketGroup: 2270
+    mass: 100.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrange: 200000.0
+    name: '''Geiravor'' Explosive Lance'
+    packagedVolume: 2000.0
+    portionSize: 1
+    power: 100000
+    price: 2.40947792E8
+    published: true
+    radius: 1000.0
+    requiredskill1: 24563
+    requiredskill1level: 1
+    requiredskill2: 3345
+    requiredskill2level: 1
+    siegemodewarpstatus: 100
+    signatureradius: 5000.0
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 8000.0
+  41442:
+    cancloak: 1
+    canfitshiptype1: 3764
+    canfitshiptype2: 45649
+    capacitorneed: 32500.0
+    consumptionquantity: 50000
+    consumptiontype: 17888
+    cpu: 100.0
+    damagedelayduration: 10000
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowinempirespace: 1
+    disallowrepeatingactivation: 1
+    disallowtethering: 1
+    doomsdayaoeshape: 2
+    doomsdaydamagecycletime: 1000
+    doomsdaydamageduration: 10000
+    doomsdaydamageradius: 5000
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    doomsdayimmobilityduration: 30000
+    doomsdaynojumporcloakduration: 300000
+    doomsdayrangeisfixed: 1
+    doomsdaywarningduration: 10000
+    duration: 300000.0
+    hp: 99999.0
+    id: 41442
+    ispointtargeted: 2
+    kineticdamage: 100000.0
+    marketGroup: 2268
+    mass: 100.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrange: 150000.0
+    name: '''Cold Wind'' Kinetic Reaper'
+    packagedVolume: 2000.0
+    portionSize: 1
+    power: 100000
+    price: 2.40947792E8
+    published: true
+    radius: 1000.0
+    requiredskill1: 24563
+    requiredskill1level: 1
+    requiredskill2: 3346
+    requiredskill2level: 1
+    siegemodewarpstatus: 100
+    signatureradius: 3500.0
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 8000.0
+  41443:
+    cancloak: 1
+    canfitshiptype1: 671
+    canfitshiptype2: 42126
+    canfitshiptype3: 45649
+    capacitorneed: 33750.0
+    consumptionquantity: 50000
+    consumptiontype: 17887
+    cpu: 100.0
+    damagedelayduration: 10000
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowinempirespace: 1
+    disallowrepeatingactivation: 1
+    disallowtethering: 1
+    doomsdayaoeshape: 2
+    doomsdaydamagecycletime: 1000
+    doomsdaydamageduration: 10000
+    doomsdaydamageradius: 5000
+    doomsdayenergyneutamount: 33750
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    doomsdayimmobilityduration: 30000
+    doomsdaynojumporcloakduration: 300000
+    doomsdayrangeisfixed: 1
+    doomsdaywarningduration: 10000
+    duration: 300000.0
+    hp: 99999.0
+    id: 41443
+    ispointtargeted: 2
+    marketGroup: 2269
+    mass: 100.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrange: 150000.0
+    name: '''Guillotine'' Thermal Reaper'
+    packagedVolume: 2000.0
+    portionSize: 1
+    power: 100000
+    price: 2.40947792E8
+    published: true
+    radius: 1000.0
+    requiredskill1: 24563
+    requiredskill1level: 1
+    requiredskill2: 3344
+    requiredskill2level: 1
+    siegemodewarpstatus: 100
+    signatureradius: 3500.0
+    speedfactor: -100.0
+    techlevel: 1
+    thermaldamage: 100000.0
+    volume: 8000.0
+  41444:
+    cancloak: 1
+    canfitshiptype1: 23773
+    canfitshiptype2: 42126
+    canfitshiptype3: 42241
+    capacitorneed: 31000.0
+    consumptionquantity: 50000
+    consumptiontype: 17889
+    cpu: 100.0
+    damagedelayduration: 10000
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowinempirespace: 1
+    disallowrepeatingactivation: 1
+    disallowtethering: 1
+    doomsdayaoeshape: 2
+    doomsdaydamagecycletime: 1000
+    doomsdaydamageduration: 10000
+    doomsdaydamageradius: 5000
+    doomsdayenergyneutamount: 31000
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    doomsdayimmobilityduration: 30000
+    doomsdaynojumporcloakduration: 300000
+    doomsdayrangeisfixed: 1
+    doomsdaywarningduration: 10000
+    duration: 300000.0
+    explosivedamage: 100000.0
+    hp: 99999.0
+    id: 41444
+    ispointtargeted: 2
+    marketGroup: 2270
+    mass: 100.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrange: 150000.0
+    name: '''Jormungandr'' Explosive Reaper'
+    packagedVolume: 2000.0
+    portionSize: 1
+    power: 100000
+    price: 2.40947792E8
+    published: true
+    radius: 1000.0
+    requiredskill1: 24563
+    requiredskill1level: 1
+    requiredskill2: 3345
+    requiredskill2level: 1
+    siegemodewarpstatus: 100
+    signatureradius: 3500.0
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 8000.0
+  42522:
     buffduration: 240000
     cancloak: 1
     canfitshipgroup01: 883

@@ -1,5 +1,82 @@
 types:
-  Azbel:
+  35825:
+    armordamagelimit: 5000
+    armoremdamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 1200000.0
+    armorkineticdamageresonance: 0.800000011920929
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 1.0
+    capacitorcapacity: 100000.0
+    cargodeliveryrange: 10000
+    cpuoutput: 12000
+    ecmresistance: 9.999999747378752E-6
+    emdamageresonance: 0.800000011920929
+    energywarfareresistance: 9.999999747378752E-6
+    explosivedamageresonance: 0.800000011920929
+    fighterabilityanticapitalmissileresistance: 1
+    hackable: 1
+    hiddenarmorhpmultiplier: 1
+    hiddenmissiledamagemultiplier: 1
+    hislots: 3
+    hp: 1200000.0
+    id: 35825
+    kineticdamageresonance: 0.800000011920929
+    launcherslotsleft: 1
+    lowslots: 1
+    marketGroup: 2324
+    mass: 3.0E9
+    maximumrangecap: 490000
+    maxlockedtargets: 8
+    maxtargetrange: 350000.0
+    medslots: 2
+    name: Raitaru
+    packagedVolume: 8000.0
+    pausearmorrepairdpsthreshold: 500
+    pausehullrepairdpsthreshold: 500
+    pauseshieldrepairdpsthreshold: 500
+    portionSize: 1
+    poweroutput: 800000
+    published: true
+    radius: 45000.0
+    rechargerate: 3600000.0
+    remoteassistanceimpedance: 9.999999747378752E-6
+    remoterepairimpedance: 9.999999747378752E-6
+    rigsize: 2
+    rigslots: 3
+    scangravimetricstrength: 500.0
+    scanladarstrength: 500.0
+    scanmagnetometricstrength: 500.0
+    scanradarstrength: 500.0
+    scanresolution: 65.0
+    sensordampenerresistance: 9.999999747378752E-6
+    serviceslots: 3
+    shieldcapacity: 2400000.0
+    shielddamagelimit: 9600000
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.800000011920929
+    shieldrechargerate: 9.99999995904E11
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 1.0
+    signatureradius: 50000.0
+    stasiswebifierresistance: 9.999999747378752E-6
+    strengcostbonus: 0.9700000286102295
+    strengmatbonus: 0.9900000095367432
+    strengtimebonus: 0.8500000238418579
+    structuredamagelimit: 5000
+    structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56203
+    structureservicerolebonus: -25
+    tetheringrange: 10000
+    thermaldamageresonance: 0.800000011920929
+    tierdifficulty: 3
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 8000.0
+    weapondisruptionresistance: 9.999999747378752E-6
+  35826:
     armordamagelimit: 15000
     armoremdamageresonance: 0.800000011920929
     armorexplosivedamageresonance: 0.800000011920929
@@ -81,84 +158,7 @@ types:
     upgradeslotsleft: 3
     volume: 80000.0
     weapondisruptionresistance: 9.999999747378752E-6
-  Raitaru:
-    armordamagelimit: 5000
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.800000011920929
-    armorhp: 1200000.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 1.0
-    capacitorcapacity: 100000.0
-    cargodeliveryrange: 10000
-    cpuoutput: 12000
-    ecmresistance: 9.999999747378752E-6
-    emdamageresonance: 0.800000011920929
-    energywarfareresistance: 9.999999747378752E-6
-    explosivedamageresonance: 0.800000011920929
-    fighterabilityanticapitalmissileresistance: 1
-    hackable: 1
-    hiddenarmorhpmultiplier: 1
-    hiddenmissiledamagemultiplier: 1
-    hislots: 3
-    hp: 1200000.0
-    id: 35825
-    kineticdamageresonance: 0.800000011920929
-    launcherslotsleft: 1
-    lowslots: 1
-    marketGroup: 2324
-    mass: 3.0E9
-    maximumrangecap: 490000
-    maxlockedtargets: 8
-    maxtargetrange: 350000.0
-    medslots: 2
-    name: Raitaru
-    packagedVolume: 8000.0
-    pausearmorrepairdpsthreshold: 500
-    pausehullrepairdpsthreshold: 500
-    pauseshieldrepairdpsthreshold: 500
-    portionSize: 1
-    poweroutput: 800000
-    published: true
-    radius: 45000.0
-    rechargerate: 3600000.0
-    remoteassistanceimpedance: 9.999999747378752E-6
-    remoterepairimpedance: 9.999999747378752E-6
-    rigsize: 2
-    rigslots: 3
-    scangravimetricstrength: 500.0
-    scanladarstrength: 500.0
-    scanmagnetometricstrength: 500.0
-    scanradarstrength: 500.0
-    scanresolution: 65.0
-    sensordampenerresistance: 9.999999747378752E-6
-    serviceslots: 3
-    shieldcapacity: 2400000.0
-    shielddamagelimit: 9600000
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.800000011920929
-    shieldrechargerate: 9.99999995904E11
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 1.0
-    signatureradius: 50000.0
-    stasiswebifierresistance: 9.999999747378752E-6
-    strengcostbonus: 0.9700000286102295
-    strengmatbonus: 0.9900000095367432
-    strengtimebonus: 0.8500000238418579
-    structuredamagelimit: 5000
-    structurefullpowerstatehitpointmultiplier: 1
-    structurerequiresdeedtype: 56203
-    structureservicerolebonus: -25
-    tetheringrange: 10000
-    thermaldamageresonance: 0.800000011920929
-    tierdifficulty: 3
-    uniformity: 1.0
-    upgradecapacity: 400
-    upgradeslotsleft: 3
-    volume: 8000.0
-    weapondisruptionresistance: 9.999999747378752E-6
-  Sotiyo:
+  35827:
     armordamagelimit: 75000
     armoremdamageresonance: 0.800000011920929
     armorexplosivedamageresonance: 0.800000011920929

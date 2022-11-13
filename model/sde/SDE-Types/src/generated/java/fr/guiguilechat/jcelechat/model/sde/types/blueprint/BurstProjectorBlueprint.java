@@ -83,7 +83,7 @@ public class BurstProjectorBlueprint
         implements IMetaGroup<BurstProjectorBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/BurstProjectorBlueprint.yaml";
-        private Map<String, BurstProjectorBlueprint> cache = (null);
+        private Map<Integer, BurstProjectorBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super BurstProjectorBlueprint> category() {
@@ -101,7 +101,7 @@ public class BurstProjectorBlueprint
         }
 
         @Override
-        public synchronized Map<String, BurstProjectorBlueprint> load() {
+        public synchronized Map<Integer, BurstProjectorBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(BurstProjectorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class BurstProjectorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, BurstProjectorBlueprint> types;
+            public LinkedHashMap<Integer, BurstProjectorBlueprint> types;
         }
     }
 }

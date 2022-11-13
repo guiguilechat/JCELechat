@@ -257,7 +257,7 @@ public class MicroJumpDrive
         implements IMetaGroup<MicroJumpDrive>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MicroJumpDrive.yaml";
-        private Map<String, MicroJumpDrive> cache = (null);
+        private Map<Integer, MicroJumpDrive> cache = (null);
 
         @Override
         public IMetaCategory<? super MicroJumpDrive> category() {
@@ -275,7 +275,7 @@ public class MicroJumpDrive
         }
 
         @Override
-        public synchronized Map<String, MicroJumpDrive> load() {
+        public synchronized Map<Integer, MicroJumpDrive> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MicroJumpDrive.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -289,7 +289,7 @@ public class MicroJumpDrive
         }
 
         private static class Container {
-            public LinkedHashMap<String, MicroJumpDrive> types;
+            public LinkedHashMap<Integer, MicroJumpDrive> types;
         }
     }
 }

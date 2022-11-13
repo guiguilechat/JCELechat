@@ -1,5 +1,5 @@
 types:
-  Heavy Water:
+  16272:
     id: 16272
     marketGroup: 1033
     name: Heavy Water
@@ -8,24 +8,7 @@ types:
     price: 1000.0
     published: true
     volume: 0.4000000059604645
-  Helium Isotopes:
-    id: 16274
-    marketGroup: 1033
-    name: Helium Isotopes
-    packagedVolume: 0.029999999329447746
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.029999999329447746
-  Hydrogen Isotopes:
-    id: 17889
-    marketGroup: 1033
-    name: Hydrogen Isotopes
-    packagedVolume: 0.029999999329447746
-    portionSize: 1
-    published: true
-    volume: 0.029999999329447746
-  Liquid Ozone:
+  16273:
     id: 16273
     marketGroup: 1033
     name: Liquid Ozone
@@ -34,23 +17,16 @@ types:
     price: 1000.0
     published: true
     volume: 0.4000000059604645
-  Nitrogen Isotopes:
-    id: 17888
+  16274:
+    id: 16274
     marketGroup: 1033
-    name: Nitrogen Isotopes
+    name: Helium Isotopes
     packagedVolume: 0.029999999329447746
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 0.029999999329447746
-  Oxygen Isotopes:
-    id: 17887
-    marketGroup: 1033
-    name: Oxygen Isotopes
-    packagedVolume: 0.029999999329447746
-    portionSize: 1
-    published: true
-    volume: 0.029999999329447746
-  Strontium Clathrates:
+  16275:
     id: 16275
     marketGroup: 1033
     name: Strontium Clathrates
@@ -59,3 +35,27 @@ types:
     price: 1000.0
     published: true
     volume: 3.0
+  17887:
+    id: 17887
+    marketGroup: 1033
+    name: Oxygen Isotopes
+    packagedVolume: 0.029999999329447746
+    portionSize: 1
+    published: true
+    volume: 0.029999999329447746
+  17888:
+    id: 17888
+    marketGroup: 1033
+    name: Nitrogen Isotopes
+    packagedVolume: 0.029999999329447746
+    portionSize: 1
+    published: true
+    volume: 0.029999999329447746
+  17889:
+    id: 17889
+    marketGroup: 1033
+    name: Hydrogen Isotopes
+    packagedVolume: 0.029999999329447746
+    portionSize: 1
+    published: true
+    volume: 0.029999999329447746

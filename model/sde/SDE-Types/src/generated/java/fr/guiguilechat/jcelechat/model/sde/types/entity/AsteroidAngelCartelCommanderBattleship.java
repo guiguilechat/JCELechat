@@ -1085,7 +1085,7 @@ public class AsteroidAngelCartelCommanderBattleship
         implements IMetaGroup<AsteroidAngelCartelCommanderBattleship>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidAngelCartelCommanderBattleship.yaml";
-        private Map<String, AsteroidAngelCartelCommanderBattleship> cache = (null);
+        private Map<Integer, AsteroidAngelCartelCommanderBattleship> cache = (null);
 
         @Override
         public IMetaCategory<? super AsteroidAngelCartelCommanderBattleship> category() {
@@ -1103,7 +1103,7 @@ public class AsteroidAngelCartelCommanderBattleship
         }
 
         @Override
-        public synchronized Map<String, AsteroidAngelCartelCommanderBattleship> load() {
+        public synchronized Map<Integer, AsteroidAngelCartelCommanderBattleship> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AsteroidAngelCartelCommanderBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1117,7 +1117,7 @@ public class AsteroidAngelCartelCommanderBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidAngelCartelCommanderBattleship> types;
+            public LinkedHashMap<Integer, AsteroidAngelCartelCommanderBattleship> types;
         }
     }
 }

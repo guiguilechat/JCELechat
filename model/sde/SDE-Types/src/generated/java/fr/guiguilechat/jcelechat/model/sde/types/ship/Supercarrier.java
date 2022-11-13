@@ -1051,7 +1051,7 @@ public class Supercarrier
         implements IMetaGroup<Supercarrier>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Supercarrier.yaml";
-        private Map<String, Supercarrier> cache = (null);
+        private Map<Integer, Supercarrier> cache = (null);
 
         @Override
         public IMetaCategory<? super Supercarrier> category() {
@@ -1069,7 +1069,7 @@ public class Supercarrier
         }
 
         @Override
-        public synchronized Map<String, Supercarrier> load() {
+        public synchronized Map<Integer, Supercarrier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Supercarrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1083,7 +1083,7 @@ public class Supercarrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, Supercarrier> types;
+            public LinkedHashMap<Integer, Supercarrier> types;
         }
     }
 }

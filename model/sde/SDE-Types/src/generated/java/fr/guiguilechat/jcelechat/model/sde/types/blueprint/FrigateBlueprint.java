@@ -109,7 +109,7 @@ public class FrigateBlueprint
         implements IMetaGroup<FrigateBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/FrigateBlueprint.yaml";
-        private Map<String, FrigateBlueprint> cache = (null);
+        private Map<Integer, FrigateBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super FrigateBlueprint> category() {
@@ -127,7 +127,7 @@ public class FrigateBlueprint
         }
 
         @Override
-        public synchronized Map<String, FrigateBlueprint> load() {
+        public synchronized Map<Integer, FrigateBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FrigateBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -141,7 +141,7 @@ public class FrigateBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, FrigateBlueprint> types;
+            public LinkedHashMap<Integer, FrigateBlueprint> types;
         }
     }
 }

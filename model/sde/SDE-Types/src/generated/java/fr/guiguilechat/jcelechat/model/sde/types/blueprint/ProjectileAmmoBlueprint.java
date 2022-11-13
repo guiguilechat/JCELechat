@@ -83,7 +83,7 @@ public class ProjectileAmmoBlueprint
         implements IMetaGroup<ProjectileAmmoBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ProjectileAmmoBlueprint.yaml";
-        private Map<String, ProjectileAmmoBlueprint> cache = (null);
+        private Map<Integer, ProjectileAmmoBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ProjectileAmmoBlueprint> category() {
@@ -101,7 +101,7 @@ public class ProjectileAmmoBlueprint
         }
 
         @Override
-        public synchronized Map<String, ProjectileAmmoBlueprint> load() {
+        public synchronized Map<Integer, ProjectileAmmoBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ProjectileAmmoBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class ProjectileAmmoBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ProjectileAmmoBlueprint> types;
+            public LinkedHashMap<Integer, ProjectileAmmoBlueprint> types;
         }
     }
 }

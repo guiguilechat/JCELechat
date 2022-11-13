@@ -32,7 +32,7 @@ public class UnknownComponents
         implements IMetaGroup<UnknownComponents>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/UnknownComponents.yaml";
-        private Map<String, UnknownComponents> cache = (null);
+        private Map<Integer, UnknownComponents> cache = (null);
 
         @Override
         public IMetaCategory<? super UnknownComponents> category() {
@@ -50,7 +50,7 @@ public class UnknownComponents
         }
 
         @Override
-        public synchronized Map<String, UnknownComponents> load() {
+        public synchronized Map<Integer, UnknownComponents> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(UnknownComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class UnknownComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, UnknownComponents> types;
+            public LinkedHashMap<Integer, UnknownComponents> types;
         }
     }
 }

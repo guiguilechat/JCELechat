@@ -37,7 +37,7 @@ public class SleeperHullRelics
         implements IMetaGroup<SleeperHullRelics>
     {
         public static final String RESOURCE_PATH = "SDE/types/ancientrelics/SleeperHullRelics.yaml";
-        private Map<String, SleeperHullRelics> cache = (null);
+        private Map<Integer, SleeperHullRelics> cache = (null);
 
         @Override
         public IMetaCategory<? super SleeperHullRelics> category() {
@@ -55,7 +55,7 @@ public class SleeperHullRelics
         }
 
         @Override
-        public synchronized Map<String, SleeperHullRelics> load() {
+        public synchronized Map<Integer, SleeperHullRelics> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SleeperHullRelics.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -69,7 +69,7 @@ public class SleeperHullRelics
         }
 
         private static class Container {
-            public LinkedHashMap<String, SleeperHullRelics> types;
+            public LinkedHashMap<Integer, SleeperHullRelics> types;
         }
     }
 }

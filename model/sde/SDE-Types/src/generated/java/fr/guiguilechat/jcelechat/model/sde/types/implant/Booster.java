@@ -1274,7 +1274,7 @@ public class Booster
         implements IMetaGroup<Booster>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/Booster.yaml";
-        private Map<String, Booster> cache = (null);
+        private Map<Integer, Booster> cache = (null);
 
         @Override
         public IMetaCategory<? super Booster> category() {
@@ -1292,7 +1292,7 @@ public class Booster
         }
 
         @Override
-        public synchronized Map<String, Booster> load() {
+        public synchronized Map<Integer, Booster> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Booster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1306,7 +1306,7 @@ public class Booster
         }
 
         private static class Container {
-            public LinkedHashMap<String, Booster> types;
+            public LinkedHashMap<Integer, Booster> types;
         }
     }
 }

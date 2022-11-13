@@ -41,7 +41,7 @@ public class TerritorialClaimUnit
         implements IMetaGroup<TerritorialClaimUnit>
     {
         public static final String RESOURCE_PATH = "SDE/types/sovereigntystructures/TerritorialClaimUnit.yaml";
-        private Map<String, TerritorialClaimUnit> cache = (null);
+        private Map<Integer, TerritorialClaimUnit> cache = (null);
 
         @Override
         public IMetaCategory<? super TerritorialClaimUnit> category() {
@@ -59,7 +59,7 @@ public class TerritorialClaimUnit
         }
 
         @Override
-        public synchronized Map<String, TerritorialClaimUnit> load() {
+        public synchronized Map<Integer, TerritorialClaimUnit> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TerritorialClaimUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -73,7 +73,7 @@ public class TerritorialClaimUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, TerritorialClaimUnit> types;
+            public LinkedHashMap<Integer, TerritorialClaimUnit> types;
         }
     }
 }

@@ -572,7 +572,7 @@ public class ExpeditionFrigate
         implements IMetaGroup<ExpeditionFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/ExpeditionFrigate.yaml";
-        private Map<String, ExpeditionFrigate> cache = (null);
+        private Map<Integer, ExpeditionFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super ExpeditionFrigate> category() {
@@ -590,7 +590,7 @@ public class ExpeditionFrigate
         }
 
         @Override
-        public synchronized Map<String, ExpeditionFrigate> load() {
+        public synchronized Map<Integer, ExpeditionFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ExpeditionFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -604,7 +604,7 @@ public class ExpeditionFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExpeditionFrigate> types;
+            public LinkedHashMap<Integer, ExpeditionFrigate> types;
         }
     }
 }

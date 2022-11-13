@@ -1,117 +1,5 @@
 types:
-  Border-15 'Pochven' Filament:
-    filamentdescriptionmessageid: 569135
-    id: 56077
-    lightyeardistancemax: 1.0
-    locationlistid: 4513
-    marketGroup: 2757
-    mjdshipjumpcap: 15
-    mjfgradius: 6000
-    name: Border-15 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Border-5 'Pochven' Filament:
-    filamentdescriptionmessageid: 569135
-    id: 56076
-    lightyeardistancemax: 1.0
-    locationlistid: 4513
-    marketGroup: 2757
-    mjdshipjumpcap: 5
-    mjfgradius: 6000
-    name: Border-5 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Cladistic-15 'Krai Perun' Filament:
-    filamentdescriptionmessageid: 569132
-    id: 56071
-    lightyeardistancemax: 1.0
-    locationlistid: 4510
-    marketGroup: 2757
-    mjdshipjumpcap: 15
-    mjfgradius: 6000
-    name: Cladistic-15 'Krai Perun' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Cladistic-15 'Krai Svarog' Filament:
-    filamentdescriptionmessageid: 569133
-    id: 56075
-    lightyeardistancemax: 1.0
-    locationlistid: 4511
-    marketGroup: 2757
-    mjdshipjumpcap: 15
-    mjfgradius: 6000
-    name: Cladistic-15 'Krai Svarog' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Cladistic-15 'Krai Veles' Filament:
-    filamentdescriptionmessageid: 569134
-    id: 56073
-    lightyeardistancemax: 1.0
-    locationlistid: 4512
-    marketGroup: 2757
-    mjdshipjumpcap: 15
-    mjfgradius: 6000
-    name: Cladistic-15 'Krai Veles' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Cladistic-5 'Krai Perun' Filament:
-    filamentdescriptionmessageid: 569132
-    id: 56070
-    lightyeardistancemax: 1.0
-    locationlistid: 4510
-    marketGroup: 2757
-    mjdshipjumpcap: 5
-    mjfgradius: 6000
-    name: Cladistic-5 'Krai Perun' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Cladistic-5 'Krai Svarog' Filament:
-    filamentdescriptionmessageid: 569133
-    id: 56074
-    lightyeardistancemax: 1.0
-    locationlistid: 4511
-    marketGroup: 2757
-    mjdshipjumpcap: 5
-    mjfgradius: 6000
-    name: Cladistic-5 'Krai Svarog' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Cladistic-5 'Krai Veles' Filament:
-    filamentdescriptionmessageid: 569134
-    id: 56072
-    lightyeardistancemax: 1.0
-    locationlistid: 4512
-    marketGroup: 2757
-    mjdshipjumpcap: 5
-    mjfgradius: 6000
-    name: Cladistic-5 'Krai Veles' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Glorification-1 'Devana' Filament:
+  56065:
     filamentdescriptionmessageid: 569130
     id: 56065
     lightyeardistancemax: 1.0
@@ -126,21 +14,7 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Glorification-15 'Devana' Filament:
-    filamentdescriptionmessageid: 569130
-    id: 56067
-    lightyeardistancemax: 1.0
-    locationlistid: 4516
-    marketGroup: 2756
-    mjdshipjumpcap: 15
-    mjfgradius: 6000
-    name: Glorification-15 'Devana' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Glorification-5 'Devana' Filament:
+  56066:
     filamentdescriptionmessageid: 569130
     id: 56066
     lightyeardistancemax: 1.0
@@ -154,63 +28,35 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Home-15 'Pochven' Filament:
-    filamentdescriptionmessageid: 569137
-    id: 56081
+  56067:
+    filamentdescriptionmessageid: 569130
+    id: 56067
     lightyeardistancemax: 1.0
-    locationlistid: 4515
-    marketGroup: 2757
+    locationlistid: 4516
+    marketGroup: 2756
     mjdshipjumpcap: 15
     mjfgradius: 6000
-    name: Home-15 'Pochven' Filament
+    name: Glorification-15 'Devana' Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Home-5 'Pochven' Filament:
-    filamentdescriptionmessageid: 569137
-    id: 56080
-    lightyeardistancemax: 1.0
-    locationlistid: 4515
-    marketGroup: 2757
+  56068:
+    filamentdescriptionmessageid: 569131
+    id: 56068
+    lightyeardistancemax: 2.5
+    locationlistid: 4569
+    marketGroup: 2756
     mjdshipjumpcap: 5
     mjfgradius: 6000
-    name: Home-5 'Pochven' Filament
+    name: Proximity-5 'Extraction' Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Internal-15 'Pochven' Filament:
-    filamentdescriptionmessageid: 569136
-    id: 56079
-    lightyeardistancemax: 1.0
-    locationlistid: 4514
-    marketGroup: 2757
-    mjdshipjumpcap: 15
-    mjfgradius: 6000
-    name: Internal-15 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Internal-5 'Pochven' Filament:
-    filamentdescriptionmessageid: 569136
-    id: 56078
-    lightyeardistancemax: 1.0
-    locationlistid: 4514
-    marketGroup: 2757
-    mjdshipjumpcap: 5
-    mjfgradius: 6000
-    name: Internal-5 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 0.10000000149011612
-  Proximity-15 'Extraction' Filament:
+  56069:
     filamentdescriptionmessageid: 569131
     id: 56069
     lightyeardistancemax: 2.5
@@ -224,15 +70,169 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
-  Proximity-5 'Extraction' Filament:
-    filamentdescriptionmessageid: 569131
-    id: 56068
-    lightyeardistancemax: 2.5
-    locationlistid: 4569
-    marketGroup: 2756
+  56070:
+    filamentdescriptionmessageid: 569132
+    id: 56070
+    lightyeardistancemax: 1.0
+    locationlistid: 4510
+    marketGroup: 2757
     mjdshipjumpcap: 5
     mjfgradius: 6000
-    name: Proximity-5 'Extraction' Filament
+    name: Cladistic-5 'Krai Perun' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56071:
+    filamentdescriptionmessageid: 569132
+    id: 56071
+    lightyeardistancemax: 1.0
+    locationlistid: 4510
+    marketGroup: 2757
+    mjdshipjumpcap: 15
+    mjfgradius: 6000
+    name: Cladistic-15 'Krai Perun' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56072:
+    filamentdescriptionmessageid: 569134
+    id: 56072
+    lightyeardistancemax: 1.0
+    locationlistid: 4512
+    marketGroup: 2757
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: Cladistic-5 'Krai Veles' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56073:
+    filamentdescriptionmessageid: 569134
+    id: 56073
+    lightyeardistancemax: 1.0
+    locationlistid: 4512
+    marketGroup: 2757
+    mjdshipjumpcap: 15
+    mjfgradius: 6000
+    name: Cladistic-15 'Krai Veles' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56074:
+    filamentdescriptionmessageid: 569133
+    id: 56074
+    lightyeardistancemax: 1.0
+    locationlistid: 4511
+    marketGroup: 2757
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: Cladistic-5 'Krai Svarog' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56075:
+    filamentdescriptionmessageid: 569133
+    id: 56075
+    lightyeardistancemax: 1.0
+    locationlistid: 4511
+    marketGroup: 2757
+    mjdshipjumpcap: 15
+    mjfgradius: 6000
+    name: Cladistic-15 'Krai Svarog' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56076:
+    filamentdescriptionmessageid: 569135
+    id: 56076
+    lightyeardistancemax: 1.0
+    locationlistid: 4513
+    marketGroup: 2757
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: Border-5 'Pochven' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56077:
+    filamentdescriptionmessageid: 569135
+    id: 56077
+    lightyeardistancemax: 1.0
+    locationlistid: 4513
+    marketGroup: 2757
+    mjdshipjumpcap: 15
+    mjfgradius: 6000
+    name: Border-15 'Pochven' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56078:
+    filamentdescriptionmessageid: 569136
+    id: 56078
+    lightyeardistancemax: 1.0
+    locationlistid: 4514
+    marketGroup: 2757
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: Internal-5 'Pochven' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56079:
+    filamentdescriptionmessageid: 569136
+    id: 56079
+    lightyeardistancemax: 1.0
+    locationlistid: 4514
+    marketGroup: 2757
+    mjdshipjumpcap: 15
+    mjfgradius: 6000
+    name: Internal-15 'Pochven' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56080:
+    filamentdescriptionmessageid: 569137
+    id: 56080
+    lightyeardistancemax: 1.0
+    locationlistid: 4515
+    marketGroup: 2757
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: Home-5 'Pochven' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  56081:
+    filamentdescriptionmessageid: 569137
+    id: 56081
+    lightyeardistancemax: 1.0
+    locationlistid: 4515
+    marketGroup: 2757
+    mjdshipjumpcap: 15
+    mjfgradius: 6000
+    name: Home-15 'Pochven' Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

@@ -205,7 +205,7 @@ public class ShieldCommandBurstCharges
         implements IMetaGroup<ShieldCommandBurstCharges>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/ShieldCommandBurstCharges.yaml";
-        private Map<String, ShieldCommandBurstCharges> cache = (null);
+        private Map<Integer, ShieldCommandBurstCharges> cache = (null);
 
         @Override
         public IMetaCategory<? super ShieldCommandBurstCharges> category() {
@@ -223,7 +223,7 @@ public class ShieldCommandBurstCharges
         }
 
         @Override
-        public synchronized Map<String, ShieldCommandBurstCharges> load() {
+        public synchronized Map<Integer, ShieldCommandBurstCharges> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ShieldCommandBurstCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -237,7 +237,7 @@ public class ShieldCommandBurstCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldCommandBurstCharges> types;
+            public LinkedHashMap<Integer, ShieldCommandBurstCharges> types;
         }
     }
 }

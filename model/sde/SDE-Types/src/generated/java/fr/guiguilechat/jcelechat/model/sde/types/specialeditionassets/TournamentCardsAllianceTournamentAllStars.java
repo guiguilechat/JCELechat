@@ -32,7 +32,7 @@ public class TournamentCardsAllianceTournamentAllStars
         implements IMetaGroup<TournamentCardsAllianceTournamentAllStars>
     {
         public static final String RESOURCE_PATH = "SDE/types/specialeditionassets/TournamentCardsAllianceTournamentAllStars.yaml";
-        private Map<String, TournamentCardsAllianceTournamentAllStars> cache = (null);
+        private Map<Integer, TournamentCardsAllianceTournamentAllStars> cache = (null);
 
         @Override
         public IMetaCategory<? super TournamentCardsAllianceTournamentAllStars> category() {
@@ -50,7 +50,7 @@ public class TournamentCardsAllianceTournamentAllStars
         }
 
         @Override
-        public synchronized Map<String, TournamentCardsAllianceTournamentAllStars> load() {
+        public synchronized Map<Integer, TournamentCardsAllianceTournamentAllStars> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TournamentCardsAllianceTournamentAllStars.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class TournamentCardsAllianceTournamentAllStars
         }
 
         private static class Container {
-            public LinkedHashMap<String, TournamentCardsAllianceTournamentAllStars> types;
+            public LinkedHashMap<Integer, TournamentCardsAllianceTournamentAllStars> types;
         }
     }
 }

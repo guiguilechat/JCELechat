@@ -131,7 +131,7 @@ public class CareerBonus
         implements IMetaGroup<CareerBonus>
     {
         public static final String RESOURCE_PATH = "SDE/types/bonus/CareerBonus.yaml";
-        private Map<String, CareerBonus> cache = (null);
+        private Map<Integer, CareerBonus> cache = (null);
 
         @Override
         public IMetaCategory<? super CareerBonus> category() {
@@ -149,7 +149,7 @@ public class CareerBonus
         }
 
         @Override
-        public synchronized Map<String, CareerBonus> load() {
+        public synchronized Map<Integer, CareerBonus> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CareerBonus.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -163,7 +163,7 @@ public class CareerBonus
         }
 
         private static class Container {
-            public LinkedHashMap<String, CareerBonus> types;
+            public LinkedHashMap<Integer, CareerBonus> types;
         }
     }
 }

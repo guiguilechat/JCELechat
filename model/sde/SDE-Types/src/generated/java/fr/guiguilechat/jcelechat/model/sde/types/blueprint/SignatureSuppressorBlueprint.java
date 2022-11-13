@@ -83,7 +83,7 @@ public class SignatureSuppressorBlueprint
         implements IMetaGroup<SignatureSuppressorBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SignatureSuppressorBlueprint.yaml";
-        private Map<String, SignatureSuppressorBlueprint> cache = (null);
+        private Map<Integer, SignatureSuppressorBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SignatureSuppressorBlueprint> category() {
@@ -101,7 +101,7 @@ public class SignatureSuppressorBlueprint
         }
 
         @Override
-        public synchronized Map<String, SignatureSuppressorBlueprint> load() {
+        public synchronized Map<Integer, SignatureSuppressorBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SignatureSuppressorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class SignatureSuppressorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SignatureSuppressorBlueprint> types;
+            public LinkedHashMap<Integer, SignatureSuppressorBlueprint> types;
         }
     }
 }

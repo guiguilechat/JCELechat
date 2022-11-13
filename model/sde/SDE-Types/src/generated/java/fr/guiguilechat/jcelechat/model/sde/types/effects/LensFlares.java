@@ -32,7 +32,7 @@ public class LensFlares
         implements IMetaGroup<LensFlares>
     {
         public static final String RESOURCE_PATH = "SDE/types/effects/LensFlares.yaml";
-        private Map<String, LensFlares> cache = (null);
+        private Map<Integer, LensFlares> cache = (null);
 
         @Override
         public IMetaCategory<? super LensFlares> category() {
@@ -50,7 +50,7 @@ public class LensFlares
         }
 
         @Override
-        public synchronized Map<String, LensFlares> load() {
+        public synchronized Map<Integer, LensFlares> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(LensFlares.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class LensFlares
         }
 
         private static class Container {
-            public LinkedHashMap<String, LensFlares> types;
+            public LinkedHashMap<Integer, LensFlares> types;
         }
     }
 }

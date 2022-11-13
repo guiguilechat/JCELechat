@@ -1,5 +1,5 @@
 types:
-  Caldari Navy Inferno Cruise Missile:
+  202:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -7,56 +7,18 @@ types:
     aoefalloff: 1500
     aoevelocity: 69
     detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 14000
-    explosivedamageresonance: 1.0
-    hp: 240.0
-    id: 27423
-    kineticdamageresonance: 1.0
-    launchergroup: 506
-    marketGroup: 1001
-    mass: 1250.0
-    maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Inferno Cruise Missile
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 12500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3326
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 431.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
-  Caldari Navy Mjolnir Cruise Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    emdamage: 431.0
+    emdamage: 375.0
     emdamageresonance: 0.800000011920929
     explosiondelay: 14000
     explosivedamageresonance: 1.0
     hp: 240.0
-    id: 27377
+    id: 202
     kineticdamageresonance: 1.0
     launchergroup: 506
-    marketGroup: 1001
+    marketGroup: 921
     mass: 1250.0
     maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Mjolnir Cruise Missile
+    name: Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 15000.0
@@ -71,43 +33,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Caldari Navy Nova Cruise Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 14000
-    explosivedamage: 431.0
-    explosivedamageresonance: 0.800000011920929
-    hp: 240.0
-    id: 27429
-    kineticdamageresonance: 1.0
-    launchergroup: 506
-    marketGroup: 1001
-    mass: 1250.0
-    maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Nova Cruise Missile
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 7500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3326
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
-  Caldari Navy Scourge Cruise Missile:
+  203:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -119,16 +45,14 @@ types:
     explosiondelay: 14000
     explosivedamageresonance: 1.0
     hp: 240.0
-    id: 27395
-    kineticdamage: 431.0
+    id: 203
+    kineticdamage: 375.0
     kineticdamageresonance: 0.800000011920929
     launchergroup: 506
-    marketGroup: 1001
+    marketGroup: 921
     mass: 1250.0
     maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 2
-    name: Caldari Navy Scourge Cruise Missile
+    name: Scourge Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 10000.0
@@ -143,7 +67,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Dread Guristas Inferno Cruise Missile:
+  204:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -155,15 +79,13 @@ types:
     explosiondelay: 14000
     explosivedamageresonance: 1.0
     hp: 240.0
-    id: 27425
+    id: 204
     kineticdamageresonance: 1.0
     launchergroup: 506
-    marketGroup: 1001
+    marketGroup: 921
     mass: 1250.0
     maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Inferno Cruise Missile
+    name: Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 12500.0
@@ -176,46 +98,10 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 450.0
+    thermaldamage: 375.0
     thermaldamageresonance: 0.800000011920929
     volume: 0.05000000074505806
-  Dread Guristas Mjolnir Cruise Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    emdamage: 450.0
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 14000
-    explosivedamageresonance: 1.0
-    hp: 240.0
-    id: 27389
-    kineticdamageresonance: 1.0
-    launchergroup: 506
-    marketGroup: 1001
-    mass: 1250.0
-    maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Mjolnir Cruise Missile
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 15000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3326
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
-  Dread Guristas Nova Cruise Missile:
+  205:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -225,18 +111,16 @@ types:
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 14000
-    explosivedamage: 450.0
+    explosivedamage: 375.0
     explosivedamageresonance: 0.800000011920929
     hp: 240.0
-    id: 27431
+    id: 205
     kineticdamageresonance: 1.0
     launchergroup: 506
-    marketGroup: 1001
+    marketGroup: 921
     mass: 1250.0
     maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Nova Cruise Missile
+    name: Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 7500.0
@@ -251,79 +135,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Dread Guristas Scourge Cruise Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 14000
-    explosivedamageresonance: 1.0
-    hp: 240.0
-    id: 27399
-    kineticdamage: 450.0
-    kineticdamageresonance: 0.800000011920929
-    launchergroup: 506
-    marketGroup: 1001
-    mass: 1250.0
-    maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 3
-    name: Dread Guristas Scourge Cruise Missile
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 10000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3326
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
-  Guristas Inferno Cruise Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    emdamageresonance: 1.0
-    explosiondelay: 14000
-    explosivedamageresonance: 1.0
-    hp: 320.0
-    id: 27409
-    kineticdamageresonance: 1.0
-    launchergroup: 506
-    marketGroup: 1001
-    mass: 1250.0
-    maxvelocity: 4700.0
-    metagroupid: 4
-    metalevelold: 1
-    name: Guristas Inferno Cruise Missile
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 12500.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3326
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamage: 413.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
-  Guristas Mjolnir Cruise Missile:
+  27373:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -359,7 +171,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Guristas Nova Cruise Missile:
+  27377:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -367,23 +179,23 @@ types:
     aoefalloff: 1500
     aoevelocity: 69
     detonationrange: 35
-    emdamageresonance: 1.0
+    emdamage: 431.0
+    emdamageresonance: 0.800000011920929
     explosiondelay: 14000
-    explosivedamage: 413.0
-    explosivedamageresonance: 0.800000011920929
-    hp: 320.0
-    id: 27427
+    explosivedamageresonance: 1.0
+    hp: 240.0
+    id: 27377
     kineticdamageresonance: 1.0
     launchergroup: 506
     marketGroup: 1001
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 1
-    name: Guristas Nova Cruise Missile
+    metalevelold: 2
+    name: Caldari Navy Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 7500.0
+    price: 15000.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -395,7 +207,43 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Guristas Scourge Cruise Missile:
+  27389:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    emdamage: 450.0
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 14000
+    explosivedamageresonance: 1.0
+    hp: 240.0
+    id: 27389
+    kineticdamageresonance: 1.0
+    launchergroup: 506
+    marketGroup: 1001
+    mass: 1250.0
+    maxvelocity: 4700.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Mjolnir Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 15000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3326
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.05000000074505806
+  27391:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -431,7 +279,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Inferno Cruise Missile:
+  27395:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -443,13 +291,87 @@ types:
     explosiondelay: 14000
     explosivedamageresonance: 1.0
     hp: 240.0
-    id: 204
-    kineticdamageresonance: 1.0
+    id: 27395
+    kineticdamage: 431.0
+    kineticdamageresonance: 0.800000011920929
     launchergroup: 506
-    marketGroup: 921
+    marketGroup: 1001
     mass: 1250.0
     maxvelocity: 4700.0
-    name: Inferno Cruise Missile
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Scourge Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 10000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3326
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.05000000074505806
+  27399:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 14000
+    explosivedamageresonance: 1.0
+    hp: 240.0
+    id: 27399
+    kineticdamage: 450.0
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 506
+    marketGroup: 1001
+    mass: 1250.0
+    maxvelocity: 4700.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Scourge Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 10000.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3326
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.05000000074505806
+  27409:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 14000
+    explosivedamageresonance: 1.0
+    hp: 320.0
+    id: 27409
+    kineticdamageresonance: 1.0
+    launchergroup: 506
+    marketGroup: 1001
+    mass: 1250.0
+    maxvelocity: 4700.0
+    metagroupid: 4
+    metalevelold: 1
+    name: Guristas Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 12500.0
@@ -462,44 +384,10 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 375.0
+    thermaldamage: 413.0
     thermaldamageresonance: 0.800000011920929
     volume: 0.05000000074505806
-  Mjolnir Cruise Missile:
-    agility: 1.4449800073634833E-4
-    aimedlaunch: 1
-    aoecloudsize: 330
-    aoedamagereductionfactor: 0.8820000290870667
-    aoefalloff: 1500
-    aoevelocity: 69
-    detonationrange: 35
-    emdamage: 375.0
-    emdamageresonance: 0.800000011920929
-    explosiondelay: 14000
-    explosivedamageresonance: 1.0
-    hp: 240.0
-    id: 202
-    kineticdamageresonance: 1.0
-    launchergroup: 506
-    marketGroup: 921
-    mass: 1250.0
-    maxvelocity: 4700.0
-    name: Mjolnir Cruise Missile
-    packagedVolume: 0.05000000074505806
-    portionSize: 100
-    price: 15000.0
-    published: true
-    radius: 300.0
-    requiredskill1: 3326
-    requiredskill1level: 1
-    requiredskill2: 3319
-    requiredskill2level: 1
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
-  Nova Cruise Missile:
+  27423:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -509,16 +397,90 @@ types:
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 14000
-    explosivedamage: 375.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 1.0
     hp: 240.0
-    id: 205
+    id: 27423
     kineticdamageresonance: 1.0
     launchergroup: 506
-    marketGroup: 921
+    marketGroup: 1001
     mass: 1250.0
     maxvelocity: 4700.0
-    name: Nova Cruise Missile
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Inferno Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 12500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3326
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 431.0
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.05000000074505806
+  27425:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 14000
+    explosivedamageresonance: 1.0
+    hp: 240.0
+    id: 27425
+    kineticdamageresonance: 1.0
+    launchergroup: 506
+    marketGroup: 1001
+    mass: 1250.0
+    maxvelocity: 4700.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Inferno Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 12500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3326
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 450.0
+    thermaldamageresonance: 0.800000011920929
+    volume: 0.05000000074505806
+  27427:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 14000
+    explosivedamage: 413.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 320.0
+    id: 27427
+    kineticdamageresonance: 1.0
+    launchergroup: 506
+    marketGroup: 1001
+    mass: 1250.0
+    maxvelocity: 4700.0
+    metagroupid: 4
+    metalevelold: 1
+    name: Guristas Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 7500.0
@@ -533,7 +495,7 @@ types:
     techlevel: 1
     thermaldamageresonance: 1.0
     volume: 0.05000000074505806
-  Scourge Cruise Missile:
+  27429:
     agility: 1.4449800073634833E-4
     aimedlaunch: 1
     aoecloudsize: 330
@@ -543,19 +505,57 @@ types:
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 14000
-    explosivedamageresonance: 1.0
+    explosivedamage: 431.0
+    explosivedamageresonance: 0.800000011920929
     hp: 240.0
-    id: 203
-    kineticdamage: 375.0
-    kineticdamageresonance: 0.800000011920929
+    id: 27429
+    kineticdamageresonance: 1.0
     launchergroup: 506
-    marketGroup: 921
+    marketGroup: 1001
     mass: 1250.0
     maxvelocity: 4700.0
-    name: Scourge Cruise Missile
+    metagroupid: 4
+    metalevelold: 2
+    name: Caldari Navy Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 10000.0
+    price: 7500.0
+    published: true
+    radius: 300.0
+    requiredskill1: 3326
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.05000000074505806
+  27431:
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 330
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 69
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 14000
+    explosivedamage: 450.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 240.0
+    id: 27431
+    kineticdamageresonance: 1.0
+    launchergroup: 506
+    marketGroup: 1001
+    mass: 1250.0
+    maxvelocity: 4700.0
+    metagroupid: 4
+    metalevelold: 3
+    name: Dread Guristas Nova Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
+    price: 7500.0
     published: true
     radius: 300.0
     requiredskill1: 3326

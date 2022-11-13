@@ -32,7 +32,7 @@ public class General
         implements IMetaGroup<General>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/General.yaml";
-        private Map<String, General> cache = (null);
+        private Map<Integer, General> cache = (null);
 
         @Override
         public IMetaCategory<? super General> category() {
@@ -50,7 +50,7 @@ public class General
         }
 
         @Override
-        public synchronized Map<String, General> load() {
+        public synchronized Map<Integer, General> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(General.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class General
         }
 
         private static class Container {
-            public LinkedHashMap<String, General> types;
+            public LinkedHashMap<Integer, General> types;
         }
     }
 }

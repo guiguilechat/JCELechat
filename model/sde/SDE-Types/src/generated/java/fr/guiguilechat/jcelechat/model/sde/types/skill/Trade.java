@@ -152,7 +152,7 @@ public class Trade
         implements IMetaGroup<Trade>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Trade.yaml";
-        private Map<String, Trade> cache = (null);
+        private Map<Integer, Trade> cache = (null);
 
         @Override
         public IMetaCategory<? super Trade> category() {
@@ -170,7 +170,7 @@ public class Trade
         }
 
         @Override
-        public synchronized Map<String, Trade> load() {
+        public synchronized Map<Integer, Trade> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Trade.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -184,7 +184,7 @@ public class Trade
         }
 
         private static class Container {
-            public LinkedHashMap<String, Trade> types;
+            public LinkedHashMap<Integer, Trade> types;
         }
     }
 }

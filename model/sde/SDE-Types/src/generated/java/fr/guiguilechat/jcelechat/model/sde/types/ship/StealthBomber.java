@@ -667,7 +667,7 @@ public class StealthBomber
         implements IMetaGroup<StealthBomber>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/StealthBomber.yaml";
-        private Map<String, StealthBomber> cache = (null);
+        private Map<Integer, StealthBomber> cache = (null);
 
         @Override
         public IMetaCategory<? super StealthBomber> category() {
@@ -685,7 +685,7 @@ public class StealthBomber
         }
 
         @Override
-        public synchronized Map<String, StealthBomber> load() {
+        public synchronized Map<Integer, StealthBomber> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StealthBomber.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -699,7 +699,7 @@ public class StealthBomber
         }
 
         private static class Container {
-            public LinkedHashMap<String, StealthBomber> types;
+            public LinkedHashMap<Integer, StealthBomber> types;
         }
     }
 }

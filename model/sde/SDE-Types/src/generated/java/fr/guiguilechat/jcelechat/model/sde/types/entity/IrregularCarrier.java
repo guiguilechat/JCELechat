@@ -652,7 +652,7 @@ public class IrregularCarrier
         implements IMetaGroup<IrregularCarrier>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularCarrier.yaml";
-        private Map<String, IrregularCarrier> cache = (null);
+        private Map<Integer, IrregularCarrier> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularCarrier> category() {
@@ -670,7 +670,7 @@ public class IrregularCarrier
         }
 
         @Override
-        public synchronized Map<String, IrregularCarrier> load() {
+        public synchronized Map<Integer, IrregularCarrier> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularCarrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -684,7 +684,7 @@ public class IrregularCarrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularCarrier> types;
+            public LinkedHashMap<Integer, IrregularCarrier> types;
         }
     }
 }

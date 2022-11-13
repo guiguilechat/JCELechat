@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Drone and Fighter Manufacturing Efficiency I:
+  43712:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20
@@ -27,7 +27,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Drone and Fighter Manufacturing Efficiency II:
+  43713:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.4000000953674316
     attributeengrigtimebonus: -24

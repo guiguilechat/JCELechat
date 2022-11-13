@@ -257,7 +257,7 @@ public class ArmorResistanceShiftHardener
         implements IMetaGroup<ArmorResistanceShiftHardener>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/ArmorResistanceShiftHardener.yaml";
-        private Map<String, ArmorResistanceShiftHardener> cache = (null);
+        private Map<Integer, ArmorResistanceShiftHardener> cache = (null);
 
         @Override
         public IMetaCategory<? super ArmorResistanceShiftHardener> category() {
@@ -275,7 +275,7 @@ public class ArmorResistanceShiftHardener
         }
 
         @Override
-        public synchronized Map<String, ArmorResistanceShiftHardener> load() {
+        public synchronized Map<Integer, ArmorResistanceShiftHardener> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArmorResistanceShiftHardener.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -289,7 +289,7 @@ public class ArmorResistanceShiftHardener
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorResistanceShiftHardener> types;
+            public LinkedHashMap<Integer, ArmorResistanceShiftHardener> types;
         }
     }
 }

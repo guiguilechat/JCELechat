@@ -1,5 +1,5 @@
 types:
-  Ice Harvester I Blueprint:
+  16279:
     id: 16279
     industryblueprintrank: 7.0
     marketGroup: 338
@@ -11,40 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Ice Harvester II Blueprint:
-    id: 22230
-    industryblueprintrank: 18.200000762939453
-    name: Ice Harvester II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E10
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Modulated Deep Core Strip Miner II Blueprint:
-    id: 24306
-    industryblueprintrank: 18.200000762939453
-    name: Modulated Deep Core Strip Miner II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E10
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Modulated Strip Miner II Blueprint:
-    id: 17913
-    industryblueprintrank: 18.200000762939453
-    name: Modulated Strip Miner II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E10
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Strip Miner I Blueprint:
+  17483:
     id: 17483
     industryblueprintrank: 7.0
     marketGroup: 338
@@ -55,4 +22,37 @@ types:
     published: true
     radius: 1.0
     techlevel: 1
+    volume: 0.009999999776482582
+  17913:
+    id: 17913
+    industryblueprintrank: 18.200000762939453
+    name: Modulated Strip Miner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  22230:
+    id: 22230
+    industryblueprintrank: 18.200000762939453
+    name: Ice Harvester II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  24306:
+    id: 24306
+    industryblueprintrank: 18.200000762939453
+    name: Modulated Deep Core Strip Miner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E10
+    published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

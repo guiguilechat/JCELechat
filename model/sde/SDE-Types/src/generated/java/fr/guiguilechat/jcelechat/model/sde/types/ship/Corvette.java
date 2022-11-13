@@ -643,7 +643,7 @@ public class Corvette
         implements IMetaGroup<Corvette>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Corvette.yaml";
-        private Map<String, Corvette> cache = (null);
+        private Map<Integer, Corvette> cache = (null);
 
         @Override
         public IMetaCategory<? super Corvette> category() {
@@ -661,7 +661,7 @@ public class Corvette
         }
 
         @Override
-        public synchronized Map<String, Corvette> load() {
+        public synchronized Map<Integer, Corvette> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Corvette.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -675,7 +675,7 @@ public class Corvette
         }
 
         private static class Container {
-            public LinkedHashMap<String, Corvette> types;
+            public LinkedHashMap<Integer, Corvette> types;
         }
     }
 }

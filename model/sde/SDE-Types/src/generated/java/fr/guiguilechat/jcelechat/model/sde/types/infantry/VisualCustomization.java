@@ -32,7 +32,7 @@ public class VisualCustomization
         implements IMetaGroup<VisualCustomization>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/VisualCustomization.yaml";
-        private Map<String, VisualCustomization> cache = (null);
+        private Map<Integer, VisualCustomization> cache = (null);
 
         @Override
         public IMetaCategory<? super VisualCustomization> category() {
@@ -50,7 +50,7 @@ public class VisualCustomization
         }
 
         @Override
-        public synchronized Map<String, VisualCustomization> load() {
+        public synchronized Map<Integer, VisualCustomization> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(VisualCustomization.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class VisualCustomization
         }
 
         private static class Container {
-            public LinkedHashMap<String, VisualCustomization> types;
+            public LinkedHashMap<Integer, VisualCustomization> types;
         }
     }
 }

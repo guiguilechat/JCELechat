@@ -83,7 +83,7 @@ public class ContainerBlueprints
         implements IMetaGroup<ContainerBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ContainerBlueprints.yaml";
-        private Map<String, ContainerBlueprints> cache = (null);
+        private Map<Integer, ContainerBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super ContainerBlueprints> category() {
@@ -101,7 +101,7 @@ public class ContainerBlueprints
         }
 
         @Override
-        public synchronized Map<String, ContainerBlueprints> load() {
+        public synchronized Map<Integer, ContainerBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ContainerBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class ContainerBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, ContainerBlueprints> types;
+            public LinkedHashMap<Integer, ContainerBlueprints> types;
         }
     }
 }

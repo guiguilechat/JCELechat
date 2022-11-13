@@ -1,5 +1,5 @@
 types:
-  Berserker SW-900:
+  23536:
     agility: 100.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
@@ -62,7 +62,7 @@ types:
     thermaldamageresonance: 1.0
     uniformity: 0.75
     volume: 25.0
-  Valkyrie SW-600:
+  23729:
     agility: 100.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
@@ -125,7 +125,7 @@ types:
     thermaldamageresonance: 1.0
     uniformity: 0.75
     volume: 10.0
-  Warrior SW-300:
+  23731:
     agility: 100.0
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421

@@ -148,7 +148,7 @@ public class Outer
         implements IMetaGroup<Outer>
     {
         public static final String RESOURCE_PATH = "SDE/types/apparel/Outer.yaml";
-        private Map<String, Outer> cache = (null);
+        private Map<Integer, Outer> cache = (null);
 
         @Override
         public IMetaCategory<? super Outer> category() {
@@ -166,7 +166,7 @@ public class Outer
         }
 
         @Override
-        public synchronized Map<String, Outer> load() {
+        public synchronized Map<Integer, Outer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Outer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -180,7 +180,7 @@ public class Outer
         }
 
         private static class Container {
-            public LinkedHashMap<String, Outer> types;
+            public LinkedHashMap<Integer, Outer> types;
         }
     }
 }

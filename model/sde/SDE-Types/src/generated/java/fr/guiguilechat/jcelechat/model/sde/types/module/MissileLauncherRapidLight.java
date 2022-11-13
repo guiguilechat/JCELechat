@@ -289,7 +289,7 @@ public class MissileLauncherRapidLight
         implements IMetaGroup<MissileLauncherRapidLight>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/MissileLauncherRapidLight.yaml";
-        private Map<String, MissileLauncherRapidLight> cache = (null);
+        private Map<Integer, MissileLauncherRapidLight> cache = (null);
 
         @Override
         public IMetaCategory<? super MissileLauncherRapidLight> category() {
@@ -307,7 +307,7 @@ public class MissileLauncherRapidLight
         }
 
         @Override
-        public synchronized Map<String, MissileLauncherRapidLight> load() {
+        public synchronized Map<Integer, MissileLauncherRapidLight> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissileLauncherRapidLight.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class MissileLauncherRapidLight
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileLauncherRapidLight> types;
+            public LinkedHashMap<Integer, MissileLauncherRapidLight> types;
         }
     }
 }

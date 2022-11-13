@@ -7442,6 +7442,21 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Amamake
+  Amamake III - Paragon Fulfilment Center:
+    id: 60015175
+    name: Amamake III - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
+    solarSystem: Amamake
   Amamake IV - Republic Fleet Assembly Plant:
     id: 60004819
     name: Amamake IV - Republic Fleet Assembly Plant
@@ -7722,6 +7737,21 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
+    solarSystem: Amarr
+  Amarr VII (Nemantizor) - Paragon Fulfilment Center:
+    id: 60015168
+    name: Amarr VII (Nemantizor) - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
     solarSystem: Amarr
   Amarr VIII (Oris) - Emperor Family Academy:
     id: 60008494
@@ -8241,6 +8271,25 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Amsen
+  Amygnon III - Federation Navy Anchorage:
+    id: 60015174
+    name: Amygnon III - Federation Navy Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Amygnon
   Amygnon VI - Moon 1 - Garoun Investment Bank Vault:
     id: 60011533
     name: Amygnon VI - Moon 1 - Garoun Investment Bank Vault
@@ -12597,6 +12646,21 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Assah
+  Assah VI - Paragon Fulfilment Center:
+    id: 60015176
+    name: Assah VI - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
+    solarSystem: Assah
   Assah VII - Moon 7 - Ammatar Fleet Assembly Plant:
     id: 60012166
     name: Assah VII - Moon 7 - Ammatar Fleet Assembly Plant
@@ -13258,6 +13322,21 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Attyn
+  Aubenall II - Paragon Fulfilment Center:
+    id: 60015177
+    name: Aubenall II - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
+    solarSystem: Aubenall
   Aubenall V - Moon 9 - Combined Harvest Warehouse:
     id: 60009748
     name: Aubenall V - Moon 9 - Combined Harvest Warehouse
@@ -22485,6 +22564,21 @@ locations:
     - Office Rental
     - Reprocessing Plant
     - Stock Exchange
+    solarSystem: Dodixie
+  Dodixie V - Paragon Fulfilment Center:
+    id: 60015170
+    name: Dodixie V - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
     solarSystem: Dodixie
   Dodixie VIII - Moon 3 - Nugoeihuvi Corporation Development Studio:
     id: 60001867
@@ -35370,6 +35464,21 @@ locations:
     - Storage
     - Surgery
     solarSystem: Hakonen
+  Hakonen VII - Paragon Fulfilment Center:
+    id: 60015179
+    name: Hakonen VII - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
+    solarSystem: Hakonen
   Hakshma VIII - Moon 13 - Caldari Business Tribunal:
     id: 60003643
     name: Hakshma VIII - Moon 13 - Caldari Business Tribunal
@@ -36907,6 +37016,21 @@ locations:
     - Reprocessing Plant
     - Security Office
     - Stock Exchange
+    solarSystem: Hek
+  Hek IX - Paragon Fulfilment Center:
+    id: 60015171
+    name: Hek IX - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
     solarSystem: Hek
   Hek VII - Tribal Liberation Force Logistic Support:
     id: 60015140
@@ -47094,6 +47218,21 @@ locations:
     - Refinery
     - Repair Facilities
     - Reprocessing Plant
+    solarSystem: Jita
+  Jita VI - Paragon Fulfilment Center:
+    id: 60015169
+    name: Jita VI - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
     solarSystem: Jita
   Jita VII - Moon 2 - Caldari Business Tribunal Law School:
     id: 60003463
@@ -69721,6 +69860,21 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Ouranienen
+  Ourapheh V - Paragon Fulfilment Center:
+    id: 60015167
+    name: Ourapheh V - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
+    solarSystem: Ourapheh
   Oursulaert I - Modern Finances Vault:
     id: 60003265
     name: Oursulaert I - Modern Finances Vault
@@ -76046,6 +76200,21 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Renarelle
+  Rens V - Paragon Fulfilment Center:
+    id: 60015172
+    name: Rens V - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
+    solarSystem: Rens
   Rens VI - Moon 8 - Brutor Tribe Treasury:
     id: 60004588
     name: Rens VI - Moon 8 - Brutor Tribe Treasury
@@ -78536,6 +78705,25 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
+    solarSystem: Samanuni
+  Samanuni VI - Caldari Navy Anchorage:
+    id: 60015173
+    name: Samanuni VI - Caldari Navy Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
     solarSystem: Samanuni
   Samanuni VIII - Caldari Constructions Logistic Support:
     id: 60015116
@@ -89019,22 +89207,8 @@ locations:
     id: 60004723
     name: Turnur I - Republic Parliament Bureau
     services:
-    - Bounty Missions
-    - Cloning
-    - Courier Missions
     - Docking
-    - Fitting
-    - Insurance
-    - Interbus
-    - Loyalty Point Store
     - Market
-    - Navy Offices
-    - News
-    - Office Rental
-    - Repair Facilities
-    - Reprocessing Plant
-    - Security Office
-    - Stock Exchange
     solarSystem: Turnur
   Turnur II - Moon 5 - Republic Security Services Assembly Plant:
     id: 60005119
@@ -96432,6 +96606,21 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Yeeramoun
+  Yehaba VI - Paragon Fulfilment Center:
+    id: 60015178
+    name: Yehaba VI - Paragon Fulfilment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
+    solarSystem: Yehaba
   Yehaba VII - Amarr Constructions Warehouse:
     id: 60006121
     name: Yehaba VII - Amarr Constructions Warehouse

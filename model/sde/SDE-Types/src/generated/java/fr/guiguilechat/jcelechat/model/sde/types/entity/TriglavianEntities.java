@@ -1780,7 +1780,7 @@ public class TriglavianEntities
         implements IMetaGroup<TriglavianEntities>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/TriglavianEntities.yaml";
-        private Map<String, TriglavianEntities> cache = (null);
+        private Map<Integer, TriglavianEntities> cache = (null);
 
         @Override
         public IMetaCategory<? super TriglavianEntities> category() {
@@ -1798,7 +1798,7 @@ public class TriglavianEntities
         }
 
         @Override
-        public synchronized Map<String, TriglavianEntities> load() {
+        public synchronized Map<Integer, TriglavianEntities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TriglavianEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1812,7 +1812,7 @@ public class TriglavianEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, TriglavianEntities> types;
+            public LinkedHashMap<Integer, TriglavianEntities> types;
         }
     }
 }

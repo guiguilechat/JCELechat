@@ -289,7 +289,7 @@ public class StructureEngineeringRigMBlueprintCopyAccelerator
         implements IMetaGroup<StructureEngineeringRigMBlueprintCopyAccelerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMBlueprintCopyAccelerator.yaml";
-        private Map<String, StructureEngineeringRigMBlueprintCopyAccelerator> cache = (null);
+        private Map<Integer, StructureEngineeringRigMBlueprintCopyAccelerator> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMBlueprintCopyAccelerator> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMBlueprintCopyAccelerator
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMBlueprintCopyAccelerator> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMBlueprintCopyAccelerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMBlueprintCopyAccelerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMBlueprintCopyAccelerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMBlueprintCopyAccelerator> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMBlueprintCopyAccelerator> types;
         }
     }
 }

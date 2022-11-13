@@ -361,7 +361,7 @@ public class PropulsionModule
         implements IMetaGroup<PropulsionModule>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/PropulsionModule.yaml";
-        private Map<String, PropulsionModule> cache = (null);
+        private Map<Integer, PropulsionModule> cache = (null);
 
         @Override
         public IMetaCategory<? super PropulsionModule> category() {
@@ -379,7 +379,7 @@ public class PropulsionModule
         }
 
         @Override
-        public synchronized Map<String, PropulsionModule> load() {
+        public synchronized Map<Integer, PropulsionModule> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(PropulsionModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -393,7 +393,7 @@ public class PropulsionModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, PropulsionModule> types;
+            public LinkedHashMap<Integer, PropulsionModule> types;
         }
     }
 }

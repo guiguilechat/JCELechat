@@ -32,7 +32,7 @@ public class SalvageDecryptors
         implements IMetaGroup<SalvageDecryptors>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/SalvageDecryptors.yaml";
-        private Map<String, SalvageDecryptors> cache = (null);
+        private Map<Integer, SalvageDecryptors> cache = (null);
 
         @Override
         public IMetaCategory<? super SalvageDecryptors> category() {
@@ -50,7 +50,7 @@ public class SalvageDecryptors
         }
 
         @Override
-        public synchronized Map<String, SalvageDecryptors> load() {
+        public synchronized Map<Integer, SalvageDecryptors> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SalvageDecryptors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class SalvageDecryptors
         }
 
         private static class Container {
-            public LinkedHashMap<String, SalvageDecryptors> types;
+            public LinkedHashMap<Integer, SalvageDecryptors> types;
         }
     }
 }

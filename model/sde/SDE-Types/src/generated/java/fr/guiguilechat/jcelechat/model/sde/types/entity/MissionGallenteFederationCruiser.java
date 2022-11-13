@@ -1253,7 +1253,7 @@ public class MissionGallenteFederationCruiser
         implements IMetaGroup<MissionGallenteFederationCruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionGallenteFederationCruiser.yaml";
-        private Map<String, MissionGallenteFederationCruiser> cache = (null);
+        private Map<Integer, MissionGallenteFederationCruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionGallenteFederationCruiser> category() {
@@ -1271,7 +1271,7 @@ public class MissionGallenteFederationCruiser
         }
 
         @Override
-        public synchronized Map<String, MissionGallenteFederationCruiser> load() {
+        public synchronized Map<Integer, MissionGallenteFederationCruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionGallenteFederationCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1285,7 +1285,7 @@ public class MissionGallenteFederationCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionGallenteFederationCruiser> types;
+            public LinkedHashMap<Integer, MissionGallenteFederationCruiser> types;
         }
     }
 }

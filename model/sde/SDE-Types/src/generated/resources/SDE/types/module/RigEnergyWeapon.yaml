@@ -1,426 +1,5 @@
 types:
-  Capital Algid Energy Administrations Unit I:
-    cpuneedbonus: -10
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31422
-    marketGroup: 1735
-    mass: 200.0
-    name: Capital Algid Energy Administrations Unit I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 40.0
-  Capital Algid Energy Administrations Unit II:
-    cpuneedbonus: -15
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31428
-    marketGroup: 1735
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Algid Energy Administrations Unit II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 40.0
-  Capital Energy Ambit Extension I:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 15.0
-    hp: 40.0
-    id: 31434
-    marketGroup: 1735
-    mass: 200.0
-    name: Capital Energy Ambit Extension I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 40.0
-  Capital Energy Ambit Extension II:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 31440
-    marketGroup: 1735
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Energy Ambit Extension II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 40.0
-  Capital Energy Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31446
-    marketGroup: 1735
-    mass: 200.0
-    name: Capital Energy Burst Aerator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 40.0
-  Capital Energy Burst Aerator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31452
-    marketGroup: 1735
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Energy Burst Aerator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 0.8500000238418579
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 40.0
-  Capital Energy Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 31458
-    marketGroup: 1735
-    mass: 200.0
-    name: Capital Energy Collision Accelerator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 40.0
-  Capital Energy Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 31464
-    marketGroup: 1735
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Energy Collision Accelerator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 40.0
-  Capital Energy Discharge Elutriation I:
-    capneedbonus: -20
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31470
-    marketGroup: 1735
-    mass: 200.0
-    name: Capital Energy Discharge Elutriation I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Energy Discharge Elutriation II:
-    capneedbonus: -25
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31476
-    marketGroup: 1735
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Energy Discharge Elutriation II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Capital Energy Locus Coordinator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31482
-    marketGroup: 1735
-    mass: 200.0
-    maxrangebonus: 15.0
-    name: Capital Energy Locus Coordinator I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Energy Locus Coordinator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31488
-    marketGroup: 1735
-    mass: 200.0
-    maxrangebonus: 20.0
-    metalevelold: 5
-    name: Capital Energy Locus Coordinator II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Capital Energy Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31494
-    marketGroup: 1735
-    mass: 200.0
-    name: Capital Energy Metastasis Adjuster I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 40.0
-  Capital Energy Metastasis Adjuster II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31500
-    marketGroup: 1735
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Energy Metastasis Adjuster II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedbonus: 20.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 40.0
-  Large Algid Energy Administrations Unit I:
-    cpuneedbonus: -10
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 25976
-    marketGroup: 1227
-    mass: 200.0
-    name: Large Algid Energy Administrations Unit I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 20.0
-  Large Algid Energy Administrations Unit II:
-    cpuneedbonus: -15
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26384
-    marketGroup: 1227
-    mass: 200.0
-    metalevelold: 5
-    name: Large Algid Energy Administrations Unit II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 20.0
-  Large Energy Ambit Extension I:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 15.0
-    hp: 40.0
-    id: 25970
-    marketGroup: 1227
-    mass: 200.0
-    name: Large Energy Ambit Extension I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 20.0
-  Large Energy Ambit Extension II:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 26386
-    marketGroup: 1227
-    mass: 200.0
-    metalevelold: 5
-    name: Large Energy Ambit Extension II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 20.0
-  Large Energy Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 25978
-    marketGroup: 1227
-    mass: 200.0
-    name: Large Energy Burst Aerator I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 20.0
-  Large Energy Burst Aerator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 26380
-    marketGroup: 1227
-    mass: 200.0
-    metalevelold: 5
-    name: Large Energy Burst Aerator II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 0.8500000238418579
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 20.0
-  Large Energy Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 25980
-    marketGroup: 1227
-    mass: 200.0
-    name: Large Energy Collision Accelerator I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 20.0
-  Large Energy Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 26382
-    marketGroup: 1227
-    mass: 200.0
-    metalevelold: 5
-    name: Large Energy Collision Accelerator II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 20.0
-  Large Energy Discharge Elutriation I:
+  25968:
     capneedbonus: -20
     damagemultiplier: 1.0
     drawback: 10
@@ -439,7 +18,119 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 20.0
-  Large Energy Discharge Elutriation II:
+  25970:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 15.0
+    hp: 40.0
+    id: 25970
+    marketGroup: 1227
+    mass: 200.0
+    name: Large Energy Ambit Extension I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 20.0
+  25972:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 25972
+    marketGroup: 1227
+    mass: 200.0
+    maxrangebonus: 15.0
+    name: Large Energy Locus Coordinator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 20.0
+  25974:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 25974
+    marketGroup: 1227
+    mass: 200.0
+    name: Large Energy Metastasis Adjuster I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 20.0
+  25976:
+    cpuneedbonus: -10
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 25976
+    marketGroup: 1227
+    mass: 200.0
+    name: Large Algid Energy Administrations Unit I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 20.0
+  25978:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 25978
+    marketGroup: 1227
+    mass: 200.0
+    name: Large Energy Burst Aerator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 20.0
+  25980:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 25980
+    marketGroup: 1227
+    mass: 200.0
+    name: Large Energy Collision Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 20.0
+  26378:
     capneedbonus: -25
     damagemultiplier: 1.0
     drawback: 10
@@ -459,26 +150,85 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Large Energy Locus Coordinator I:
+  26380:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
-    id: 25972
+    id: 26380
     marketGroup: 1227
     mass: 200.0
-    maxrangebonus: 15.0
-    name: Large Energy Locus Coordinator I
+    metalevelold: 5
+    name: Large Energy Burst Aerator II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 0.8500000238418579
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 20.0
+  26382:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 26382
+    marketGroup: 1227
+    mass: 200.0
+    metalevelold: 5
+    name: Large Energy Collision Accelerator II
     packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
     speedmultiplier: 1.0
-    techlevel: 1
+    techlevel: 2
     trackingspeedmultiplier: 1.0
-    upgradecost: 100
+    upgradecost: 300
     volume: 20.0
-  Large Energy Locus Coordinator II:
+  26384:
+    cpuneedbonus: -15
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 26384
+    marketGroup: 1227
+    mass: 200.0
+    metalevelold: 5
+    name: Large Algid Energy Administrations Unit II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 20.0
+  26386:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 26386
+    marketGroup: 1227
+    mass: 200.0
+    metalevelold: 5
+    name: Large Energy Ambit Extension II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 20.0
+  26388:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -498,26 +248,7 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Large Energy Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 25974
-    marketGroup: 1227
-    mass: 200.0
-    name: Large Energy Metastasis Adjuster I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 20.0
-  Large Energy Metastasis Adjuster II:
+  26390:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -537,276 +268,7 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 20.0
-  Medium Algid Energy Administrations Unit I:
-    cpuneedbonus: -10
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31420
-    marketGroup: 1226
-    mass: 200.0
-    name: Medium Algid Energy Administrations Unit I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 10.0
-  Medium Algid Energy Administrations Unit II:
-    cpuneedbonus: -15
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31426
-    marketGroup: 1226
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Algid Energy Administrations Unit II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 10.0
-  Medium Energy Ambit Extension I:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 15.0
-    hp: 40.0
-    id: 31432
-    marketGroup: 1226
-    mass: 200.0
-    name: Medium Energy Ambit Extension I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 50
-    volume: 10.0
-  Medium Energy Ambit Extension II:
-    damagemultiplier: 1.0
-    drawback: 10
-    falloffbonus: 20.0
-    hp: 40.0
-    id: 31438
-    marketGroup: 1226
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Energy Ambit Extension II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 75
-    volume: 10.0
-  Medium Energy Burst Aerator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31444
-    marketGroup: 1226
-    mass: 200.0
-    name: Medium Energy Burst Aerator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 0.8999999761581421
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 10.0
-  Medium Energy Burst Aerator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31450
-    marketGroup: 1226
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Energy Burst Aerator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 0.8500000238418579
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 10.0
-  Medium Energy Collision Accelerator I:
-    damagemultiplier: 1.100000023841858
-    drawback: 10
-    hp: 40.0
-    id: 31456
-    marketGroup: 1226
-    mass: 200.0
-    name: Medium Energy Collision Accelerator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 200
-    volume: 10.0
-  Medium Energy Collision Accelerator II:
-    damagemultiplier: 1.149999976158142
-    drawback: 10
-    hp: 40.0
-    id: 31462
-    marketGroup: 1226
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Energy Collision Accelerator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 300
-    volume: 10.0
-  Medium Energy Discharge Elutriation I:
-    capneedbonus: -20
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31468
-    marketGroup: 1226
-    mass: 200.0
-    name: Medium Energy Discharge Elutriation I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Energy Discharge Elutriation II:
-    capneedbonus: -25
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31474
-    marketGroup: 1226
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Energy Discharge Elutriation II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Medium Energy Locus Coordinator I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31480
-    marketGroup: 1226
-    mass: 200.0
-    maxrangebonus: 15.0
-    name: Medium Energy Locus Coordinator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Energy Locus Coordinator II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31486
-    marketGroup: 1226
-    mass: 200.0
-    maxrangebonus: 20.0
-    metalevelold: 5
-    name: Medium Energy Locus Coordinator II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Medium Energy Metastasis Adjuster I:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31492
-    marketGroup: 1226
-    mass: 200.0
-    name: Medium Energy Metastasis Adjuster I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 1
-    trackingspeedbonus: 15.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 100
-    volume: 10.0
-  Medium Energy Metastasis Adjuster II:
-    damagemultiplier: 1.0
-    drawback: 10
-    hp: 40.0
-    id: 31498
-    marketGroup: 1226
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Energy Metastasis Adjuster II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    speedmultiplier: 1.0
-    techlevel: 2
-    trackingspeedbonus: 20.0
-    trackingspeedmultiplier: 1.0
-    upgradecost: 150
-    volume: 10.0
-  Small Algid Energy Administrations Unit I:
+  31418:
     cpuneedbonus: -10
     damagemultiplier: 1.0
     drawback: 10
@@ -825,7 +287,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 50
     volume: 5.0
-  Small Algid Energy Administrations Unit II:
+  31420:
+    cpuneedbonus: -10
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31420
+    marketGroup: 1226
+    mass: 200.0
+    name: Medium Algid Energy Administrations Unit I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 10.0
+  31422:
+    cpuneedbonus: -10
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31422
+    marketGroup: 1735
+    mass: 200.0
+    name: Capital Algid Energy Administrations Unit I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 40.0
+  31424:
     cpuneedbonus: -15
     damagemultiplier: 1.0
     drawback: 10
@@ -845,7 +345,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 75
     volume: 5.0
-  Small Energy Ambit Extension I:
+  31426:
+    cpuneedbonus: -15
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31426
+    marketGroup: 1226
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Algid Energy Administrations Unit II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 10.0
+  31428:
+    cpuneedbonus: -15
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31428
+    marketGroup: 1735
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Algid Energy Administrations Unit II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 40.0
+  31430:
     damagemultiplier: 1.0
     drawback: 10
     falloffbonus: 15.0
@@ -864,7 +404,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 50
     volume: 5.0
-  Small Energy Ambit Extension II:
+  31432:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 15.0
+    hp: 40.0
+    id: 31432
+    marketGroup: 1226
+    mass: 200.0
+    name: Medium Energy Ambit Extension I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 10.0
+  31434:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 15.0
+    hp: 40.0
+    id: 31434
+    marketGroup: 1735
+    mass: 200.0
+    name: Capital Energy Ambit Extension I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 50
+    volume: 40.0
+  31436:
     damagemultiplier: 1.0
     drawback: 10
     falloffbonus: 20.0
@@ -884,7 +462,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 75
     volume: 5.0
-  Small Energy Burst Aerator I:
+  31438:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 31438
+    marketGroup: 1226
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Energy Ambit Extension II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 10.0
+  31440:
+    damagemultiplier: 1.0
+    drawback: 10
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 31440
+    marketGroup: 1735
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Energy Ambit Extension II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 75
+    volume: 40.0
+  31442:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -902,7 +520,43 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 200
     volume: 5.0
-  Small Energy Burst Aerator II:
+  31444:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31444
+    marketGroup: 1226
+    mass: 200.0
+    name: Medium Energy Burst Aerator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 10.0
+  31446:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31446
+    marketGroup: 1735
+    mass: 200.0
+    name: Capital Energy Burst Aerator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 40.0
+  31448:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -921,7 +575,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 5.0
-  Small Energy Collision Accelerator I:
+  31450:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31450
+    marketGroup: 1226
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Energy Burst Aerator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 0.8500000238418579
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 10.0
+  31452:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31452
+    marketGroup: 1735
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Energy Burst Aerator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 0.8500000238418579
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 40.0
+  31454:
     damagemultiplier: 1.100000023841858
     drawback: 10
     hp: 40.0
@@ -939,7 +631,43 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 200
     volume: 5.0
-  Small Energy Collision Accelerator II:
+  31456:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 31456
+    marketGroup: 1226
+    mass: 200.0
+    name: Medium Energy Collision Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 10.0
+  31458:
+    damagemultiplier: 1.100000023841858
+    drawback: 10
+    hp: 40.0
+    id: 31458
+    marketGroup: 1735
+    mass: 200.0
+    name: Capital Energy Collision Accelerator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 200
+    volume: 40.0
+  31460:
     damagemultiplier: 1.149999976158142
     drawback: 10
     hp: 40.0
@@ -958,7 +686,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 5.0
-  Small Energy Discharge Elutriation I:
+  31462:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 31462
+    marketGroup: 1226
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Energy Collision Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 10.0
+  31464:
+    damagemultiplier: 1.149999976158142
+    drawback: 10
+    hp: 40.0
+    id: 31464
+    marketGroup: 1735
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Energy Collision Accelerator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 300
+    volume: 40.0
+  31466:
     capneedbonus: -20
     damagemultiplier: 1.0
     drawback: 10
@@ -977,7 +743,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Energy Discharge Elutriation II:
+  31468:
+    capneedbonus: -20
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31468
+    marketGroup: 1226
+    mass: 200.0
+    name: Medium Energy Discharge Elutriation I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31470:
+    capneedbonus: -20
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31470
+    marketGroup: 1735
+    mass: 200.0
+    name: Capital Energy Discharge Elutriation I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31472:
     capneedbonus: -25
     damagemultiplier: 1.0
     drawback: 10
@@ -997,7 +801,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
-  Small Energy Locus Coordinator I:
+  31474:
+    capneedbonus: -25
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31474
+    marketGroup: 1226
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Energy Discharge Elutriation II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31476:
+    capneedbonus: -25
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31476
+    marketGroup: 1735
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Energy Discharge Elutriation II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0
+  31478:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -1016,7 +860,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Energy Locus Coordinator II:
+  31480:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31480
+    marketGroup: 1226
+    mass: 200.0
+    maxrangebonus: 15.0
+    name: Medium Energy Locus Coordinator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31482:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31482
+    marketGroup: 1735
+    mass: 200.0
+    maxrangebonus: 15.0
+    name: Capital Energy Locus Coordinator I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31484:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -1036,7 +918,47 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
-  Small Energy Metastasis Adjuster I:
+  31486:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31486
+    marketGroup: 1226
+    mass: 200.0
+    maxrangebonus: 20.0
+    metalevelold: 5
+    name: Medium Energy Locus Coordinator II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31488:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31488
+    marketGroup: 1735
+    mass: 200.0
+    maxrangebonus: 20.0
+    metalevelold: 5
+    name: Capital Energy Locus Coordinator II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0
+  31490:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -1055,7 +977,45 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 100
     volume: 5.0
-  Small Energy Metastasis Adjuster II:
+  31492:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31492
+    marketGroup: 1226
+    mass: 200.0
+    name: Medium Energy Metastasis Adjuster I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 10.0
+  31494:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31494
+    marketGroup: 1735
+    mass: 200.0
+    name: Capital Energy Metastasis Adjuster I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 1
+    trackingspeedbonus: 15.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 100
+    volume: 40.0
+  31496:
     damagemultiplier: 1.0
     drawback: 10
     hp: 40.0
@@ -1075,3 +1035,43 @@ types:
     trackingspeedmultiplier: 1.0
     upgradecost: 150
     volume: 5.0
+  31498:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31498
+    marketGroup: 1226
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Energy Metastasis Adjuster II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedbonus: 20.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 10.0
+  31500:
+    damagemultiplier: 1.0
+    drawback: 10
+    hp: 40.0
+    id: 31500
+    marketGroup: 1735
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Energy Metastasis Adjuster II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedbonus: 20.0
+    trackingspeedmultiplier: 1.0
+    upgradecost: 150
+    volume: 40.0

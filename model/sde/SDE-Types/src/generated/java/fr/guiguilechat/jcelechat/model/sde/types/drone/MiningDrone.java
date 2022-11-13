@@ -320,7 +320,7 @@ public class MiningDrone
         implements IMetaGroup<MiningDrone>
     {
         public static final String RESOURCE_PATH = "SDE/types/drone/MiningDrone.yaml";
-        private Map<String, MiningDrone> cache = (null);
+        private Map<Integer, MiningDrone> cache = (null);
 
         @Override
         public IMetaCategory<? super MiningDrone> category() {
@@ -338,7 +338,7 @@ public class MiningDrone
         }
 
         @Override
-        public synchronized Map<String, MiningDrone> load() {
+        public synchronized Map<Integer, MiningDrone> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MiningDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -352,7 +352,7 @@ public class MiningDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningDrone> types;
+            public LinkedHashMap<Integer, MiningDrone> types;
         }
     }
 }

@@ -290,7 +290,7 @@ public class GuidedBomb
         implements IMetaGroup<GuidedBomb>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/GuidedBomb.yaml";
-        private Map<String, GuidedBomb> cache = (null);
+        private Map<Integer, GuidedBomb> cache = (null);
 
         @Override
         public IMetaCategory<? super GuidedBomb> category() {
@@ -308,7 +308,7 @@ public class GuidedBomb
         }
 
         @Override
-        public synchronized Map<String, GuidedBomb> load() {
+        public synchronized Map<Integer, GuidedBomb> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(GuidedBomb.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -322,7 +322,7 @@ public class GuidedBomb
         }
 
         private static class Container {
-            public LinkedHashMap<String, GuidedBomb> types;
+            public LinkedHashMap<Integer, GuidedBomb> types;
         }
     }
 }

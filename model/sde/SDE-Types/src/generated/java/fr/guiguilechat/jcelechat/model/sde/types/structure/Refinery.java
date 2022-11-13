@@ -346,7 +346,7 @@ public class Refinery
         implements IMetaGroup<Refinery>
     {
         public static final String RESOURCE_PATH = "SDE/types/structure/Refinery.yaml";
-        private Map<String, Refinery> cache = (null);
+        private Map<Integer, Refinery> cache = (null);
 
         @Override
         public IMetaCategory<? super Refinery> category() {
@@ -364,7 +364,7 @@ public class Refinery
         }
 
         @Override
-        public synchronized Map<String, Refinery> load() {
+        public synchronized Map<Integer, Refinery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Refinery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -378,7 +378,7 @@ public class Refinery
         }
 
         private static class Container {
-            public LinkedHashMap<String, Refinery> types;
+            public LinkedHashMap<Integer, Refinery> types;
         }
     }
 }

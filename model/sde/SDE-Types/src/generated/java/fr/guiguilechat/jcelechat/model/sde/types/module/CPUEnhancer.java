@@ -133,7 +133,7 @@ public class CPUEnhancer
         implements IMetaGroup<CPUEnhancer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CPUEnhancer.yaml";
-        private Map<String, CPUEnhancer> cache = (null);
+        private Map<Integer, CPUEnhancer> cache = (null);
 
         @Override
         public IMetaCategory<? super CPUEnhancer> category() {
@@ -151,7 +151,7 @@ public class CPUEnhancer
         }
 
         @Override
-        public synchronized Map<String, CPUEnhancer> load() {
+        public synchronized Map<Integer, CPUEnhancer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CPUEnhancer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -165,7 +165,7 @@ public class CPUEnhancer
         }
 
         private static class Container {
-            public LinkedHashMap<String, CPUEnhancer> types;
+            public LinkedHashMap<Integer, CPUEnhancer> types;
         }
     }
 }

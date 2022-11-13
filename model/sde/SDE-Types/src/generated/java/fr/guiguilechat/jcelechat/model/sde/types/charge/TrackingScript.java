@@ -182,7 +182,7 @@ public class TrackingScript
         implements IMetaGroup<TrackingScript>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/TrackingScript.yaml";
-        private Map<String, TrackingScript> cache = (null);
+        private Map<Integer, TrackingScript> cache = (null);
 
         @Override
         public IMetaCategory<? super TrackingScript> category() {
@@ -200,7 +200,7 @@ public class TrackingScript
         }
 
         @Override
-        public synchronized Map<String, TrackingScript> load() {
+        public synchronized Map<Integer, TrackingScript> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TrackingScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -214,7 +214,7 @@ public class TrackingScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingScript> types;
+            public LinkedHashMap<Integer, TrackingScript> types;
         }
     }
 }

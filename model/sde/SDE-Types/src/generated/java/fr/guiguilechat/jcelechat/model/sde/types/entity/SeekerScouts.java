@@ -856,7 +856,7 @@ public class SeekerScouts
         implements IMetaGroup<SeekerScouts>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/SeekerScouts.yaml";
-        private Map<String, SeekerScouts> cache = (null);
+        private Map<Integer, SeekerScouts> cache = (null);
 
         @Override
         public IMetaCategory<? super SeekerScouts> category() {
@@ -874,7 +874,7 @@ public class SeekerScouts
         }
 
         @Override
-        public synchronized Map<String, SeekerScouts> load() {
+        public synchronized Map<Integer, SeekerScouts> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SeekerScouts.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -888,7 +888,7 @@ public class SeekerScouts
         }
 
         private static class Container {
-            public LinkedHashMap<String, SeekerScouts> types;
+            public LinkedHashMap<Integer, SeekerScouts> types;
         }
     }
 }

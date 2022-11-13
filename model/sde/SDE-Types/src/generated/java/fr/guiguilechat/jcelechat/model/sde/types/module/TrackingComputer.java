@@ -265,7 +265,7 @@ public class TrackingComputer
         implements IMetaGroup<TrackingComputer>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/TrackingComputer.yaml";
-        private Map<String, TrackingComputer> cache = (null);
+        private Map<Integer, TrackingComputer> cache = (null);
 
         @Override
         public IMetaCategory<? super TrackingComputer> category() {
@@ -283,7 +283,7 @@ public class TrackingComputer
         }
 
         @Override
-        public synchronized Map<String, TrackingComputer> load() {
+        public synchronized Map<Integer, TrackingComputer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TrackingComputer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -297,7 +297,7 @@ public class TrackingComputer
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingComputer> types;
+            public LinkedHashMap<Integer, TrackingComputer> types;
         }
     }
 }

@@ -1,24 +1,179 @@
 types:
-  Capital Shield Emission Systems:
+  3416:
     cannotbetrainedontrial: 1
-    capneedbonus: -5
-    id: 24571
+    id: 3416
     marketGroup: 1747
-    name: Capital Shield Emission Systems
+    name: Shield Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 55000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    rechargeratebonus: -5
+    requiredskill1: 3413
+    requiredskill1level: 1
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  3419:
+    cannotbetrainedontrial: 1
+    id: 3419
+    marketGroup: 1747
+    name: Shield Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 170000.0
     primaryattribute: 165
     published: true
     radius: 1.0
     requiredskill1: 3413
-    requiredskill1level: 5
-    requiredskill2: 3422
-    requiredskill2level: 5
+    requiredskill1level: 3
     secondaryattribute: 166
-    skilltimeconstant: 10.0
+    shieldcapacitybonus: 5.0
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Capital Shield Operation:
+  3420:
+    cannotbetrainedontrial: 1
+    id: 3420
+    marketGroup: 1747
+    name: Tactical Shield Manipulation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 210000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 4.0
+    uniformitybonus: 0.05000000074505806
+    volume: 0.009999999776482582
+  3422:
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
+    id: 3422
+    marketGroup: 1747
+    name: Shield Emission Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 3
+    requiredskill2: 3402
+    requiredskill2level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  3425:
+    cannotbetrainedontrial: 1
+    id: 3425
+    marketGroup: 1747
+    name: Shield Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    powerneedbonus: -5
+    price: 100000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 2
+    requiredskill2: 3402
+    requiredskill2level: 1
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  11566:
+    cannotbetrainedontrial: 1
+    hardeningbonus: 5.0
+    id: 11566
+    marketGroup: 1747
+    name: Thermal Shield Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 150000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3416
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  12365:
+    cannotbetrainedontrial: 1
+    hardeningbonus: 5.0
+    id: 12365
+    marketGroup: 1747
+    name: EM Shield Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 150000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3416
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  12366:
+    cannotbetrainedontrial: 1
+    hardeningbonus: 5.0
+    id: 12366
+    marketGroup: 1747
+    name: Kinetic Shield Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 150000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3416
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  12367:
+    cannotbetrainedontrial: 1
+    hardeningbonus: 5.0
+    id: 12367
+    marketGroup: 1747
+    name: Explosive Shield Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 150000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3416
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  21059:
+    cannotbetrainedontrial: 1
+    id: 21059
+    marketGroup: 1747
+    name: Shield Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 150000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3416
+    requiredskill1level: 3
+    secondaryattribute: 166
+    shieldboostcapacitorbonus: -2
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  21802:
     cannotbetrainedontrial: 1
     id: 21802
     marketGroup: 1747
@@ -39,41 +194,26 @@ types:
     shieldboostcapacitorbonus: -2
     skilltimeconstant: 8.0
     volume: 0.009999999776482582
-  EM Shield Compensation:
+  24571:
     cannotbetrainedontrial: 1
-    hardeningbonus: 5.0
-    id: 12365
+    capneedbonus: -5
+    id: 24571
     marketGroup: 1747
-    name: EM Shield Compensation
+    name: Capital Shield Emission Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
+    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
-    requiredskill1: 3416
-    requiredskill1level: 4
+    requiredskill1: 3413
+    requiredskill1level: 5
+    requiredskill2: 3422
+    requiredskill2level: 5
     secondaryattribute: 166
-    skilltimeconstant: 2.0
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
-  Explosive Shield Compensation:
-    cannotbetrainedontrial: 1
-    hardeningbonus: 5.0
-    id: 12367
-    marketGroup: 1747
-    name: Explosive Shield Compensation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 150000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3416
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Invulnerability Core Operation:
+  44067:
     cannotbetrainedontrial: 1
     durationbonus: 10
     id: 44067
@@ -91,144 +231,4 @@ types:
     requiredskill2level: 3
     secondaryattribute: 166
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
-  Kinetic Shield Compensation:
-    cannotbetrainedontrial: 1
-    hardeningbonus: 5.0
-    id: 12366
-    marketGroup: 1747
-    name: Kinetic Shield Compensation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 150000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3416
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Shield Compensation:
-    cannotbetrainedontrial: 1
-    id: 21059
-    marketGroup: 1747
-    name: Shield Compensation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 150000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3416
-    requiredskill1level: 3
-    secondaryattribute: 166
-    shieldboostcapacitorbonus: -2
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Shield Emission Systems:
-    cannotbetrainedontrial: 1
-    capneedbonus: -5
-    id: 3422
-    marketGroup: 1747
-    name: Shield Emission Systems
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 100000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 3
-    requiredskill2: 3402
-    requiredskill2level: 2
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Shield Management:
-    cannotbetrainedontrial: 1
-    id: 3419
-    marketGroup: 1747
-    name: Shield Management
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 170000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 3
-    secondaryattribute: 166
-    shieldcapacitybonus: 5.0
-    skilltimeconstant: 3.0
-    volume: 0.009999999776482582
-  Shield Operation:
-    cannotbetrainedontrial: 1
-    id: 3416
-    marketGroup: 1747
-    name: Shield Operation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 55000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    rechargeratebonus: -5
-    requiredskill1: 3413
-    requiredskill1level: 1
-    secondaryattribute: 166
-    skilltimeconstant: 1.0
-    volume: 0.009999999776482582
-  Shield Upgrades:
-    cannotbetrainedontrial: 1
-    id: 3425
-    marketGroup: 1747
-    name: Shield Upgrades
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    powerneedbonus: -5
-    price: 100000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 2
-    requiredskill2: 3402
-    requiredskill2level: 1
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
-    volume: 0.009999999776482582
-  Tactical Shield Manipulation:
-    cannotbetrainedontrial: 1
-    id: 3420
-    marketGroup: 1747
-    name: Tactical Shield Manipulation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 210000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3413
-    requiredskill1level: 3
-    secondaryattribute: 166
-    skilltimeconstant: 4.0
-    uniformitybonus: 0.05000000074505806
-    volume: 0.009999999776482582
-  Thermal Shield Compensation:
-    cannotbetrainedontrial: 1
-    hardeningbonus: 5.0
-    id: 11566
-    marketGroup: 1747
-    name: Thermal Shield Compensation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 150000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3416
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 2.0
     volume: 0.009999999776482582

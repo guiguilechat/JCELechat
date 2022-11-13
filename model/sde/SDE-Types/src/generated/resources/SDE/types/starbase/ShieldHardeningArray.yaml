@@ -1,5 +1,5 @@
 types:
-  Ballistic Deflection Array:
+  17184:
     anchoringdelay: 5000
     armorhp: 20000.0
     armoruniformity: 0.75
@@ -36,7 +36,7 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Explosion Dampening Array:
+  17185:
     anchoringdelay: 5000
     armorhp: 20000.0
     armoruniformity: 0.75
@@ -73,7 +73,7 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Heat Dissipation Array:
+  17186:
     anchoringdelay: 5000
     armorhp: 20000.0
     armoruniformity: 0.75
@@ -110,7 +110,7 @@ types:
     unanchoringdelay: 5000
     uniformity: 1.0
     volume: 4000.0
-  Photon Scattering Array:
+  17187:
     anchoringdelay: 5000
     armorhp: 20000.0
     armoruniformity: 0.75

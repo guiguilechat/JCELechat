@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency I:
+  43860:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -20
     canfitshipgroup01: 1657
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency II:
+  43861:
     attributeengrigcostbonus: 1
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657

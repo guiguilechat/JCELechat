@@ -21953,7 +21953,7 @@ agents:
     isLocator: true
     level: 4
     name: Bengedik Tokel
-    station: Turnur I - Republic Parliament Bureau
+    station: Turnur I - Republic Parliament Bureau (Damaged)
     stationId: 60004723
     system: Turnur
     type: Basic
@@ -119586,3 +119586,124 @@ agents:
     stationId: 60008368
     system: Safizon
     type: Event
+  unknown_3020032:
+    corporation: Paragon
+    division: Interbus
+    id: 3020032
+    isLocator: false
+    level: 1
+    name: unknown_3020032
+    station: Amarr VII (Nemantizor) - Paragon Fulfilment Center
+    stationId: 60015168
+    system: Amarr
+    type: Paragon
+  unknown_3020034:
+    corporation: Paragon
+    division: Interbus
+    id: 3020034
+    isLocator: false
+    level: 1
+    name: unknown_3020034
+    station: Jita VI - Paragon Fulfilment Center
+    stationId: 60015169
+    system: Jita
+    type: Paragon
+  unknown_3020035:
+    corporation: Paragon
+    division: Interbus
+    id: 3020035
+    isLocator: false
+    level: 1
+    name: unknown_3020035
+    station: Hek IX - Paragon Fulfilment Center
+    stationId: 60015171
+    system: Hek
+    type: Paragon
+  unknown_3020036:
+    corporation: Paragon
+    division: Interbus
+    id: 3020036
+    isLocator: false
+    level: 1
+    name: unknown_3020036
+    station: Dodixie V - Paragon Fulfilment Center
+    stationId: 60015170
+    system: Dodixie
+    type: Paragon
+  unknown_3020037:
+    corporation: Paragon
+    division: Interbus
+    id: 3020037
+    isLocator: false
+    level: 1
+    name: unknown_3020037
+    station: Rens V - Paragon Fulfilment Center
+    stationId: 60015172
+    system: Rens
+    type: Paragon
+  unknown_3020039:
+    corporation: Paragon
+    division: Interbus
+    id: 3020039
+    isLocator: false
+    level: 1
+    name: unknown_3020039
+    station: Ourapheh V - Paragon Fulfilment Center
+    stationId: 60015167
+    system: Ourapheh
+    type: Paragon
+  unknown_3020047:
+    corporation: Paragon
+    division: Interbus
+    id: 3020047
+    isLocator: false
+    level: 1
+    name: unknown_3020047
+    station: Amamake III - Paragon Fulfilment Center
+    stationId: 60015175
+    system: Amamake
+    type: Paragon
+  unknown_3020048:
+    corporation: Paragon
+    division: Interbus
+    id: 3020048
+    isLocator: false
+    level: 1
+    name: unknown_3020048
+    station: Assah VI - Paragon Fulfilment Center
+    stationId: 60015176
+    system: Assah
+    type: Paragon
+  unknown_3020049:
+    corporation: Paragon
+    division: Interbus
+    id: 3020049
+    isLocator: false
+    level: 1
+    name: unknown_3020049
+    station: Aubenall II - Paragon Fulfilment Center
+    stationId: 60015177
+    system: Aubenall
+    type: Paragon
+  unknown_3020050:
+    corporation: Paragon
+    division: Interbus
+    id: 3020050
+    isLocator: false
+    level: 1
+    name: unknown_3020050
+    station: Yehaba VI - Paragon Fulfilment Center
+    stationId: 60015178
+    system: Yehaba
+    type: Paragon
+  unknown_3020051:
+    corporation: Paragon
+    division: Interbus
+    id: 3020051
+    isLocator: false
+    level: 1
+    name: unknown_3020051
+    station: Hakonen VII - Paragon Fulfilment Center
+    stationId: 60015179
+    system: Hakonen
+    type: Paragon

@@ -88,7 +88,7 @@ public class Tattoos
         implements IMetaGroup<Tattoos>
     {
         public static final String RESOURCE_PATH = "SDE/types/apparel/Tattoos.yaml";
-        private Map<String, Tattoos> cache = (null);
+        private Map<Integer, Tattoos> cache = (null);
 
         @Override
         public IMetaCategory<? super Tattoos> category() {
@@ -106,7 +106,7 @@ public class Tattoos
         }
 
         @Override
-        public synchronized Map<String, Tattoos> load() {
+        public synchronized Map<Integer, Tattoos> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Tattoos.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -120,7 +120,7 @@ public class Tattoos
         }
 
         private static class Container {
-            public LinkedHashMap<String, Tattoos> types;
+            public LinkedHashMap<Integer, Tattoos> types;
         }
     }
 }

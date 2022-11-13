@@ -1,5 +1,5 @@
 types:
-  Sentient Barracuda Alvi:
+  27754:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -88,7 +88,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.08250000327825546
     volume: 60.0
-  Sentient Decimator Alvi:
+  27755:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -175,7 +175,7 @@ types:
     thermaldamage: 3.0
     trackingspeed: 0.4375
     volume: 60.0
-  Sentient Devilfish Alvi:
+  27756:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -261,7 +261,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.39375001192092896
     volume: 60.0
-  Sentient Hunter Alvi:
+  27757:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -349,7 +349,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.10249999910593033
     volume: 60.0
-  Sentient Infester Alvi:
+  27758:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -436,7 +436,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.4937500059604645
     volume: 60.0
-  Sentient Raider Alvi:
+  27759:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -523,7 +523,7 @@ types:
     thermaldamage: 4.0
     trackingspeed: 0.10249999910593033
     volume: 60.0
-  Sentient Render Alvi:
+  27760:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -610,7 +610,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.4375
     volume: 60.0
-  Sentient Silverfish Alvi:
+  27761:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -696,7 +696,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.39375001192092896
     volume: 60.0
-  Sentient Splinter Alvi:
+  27762:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -783,7 +783,7 @@ types:
     thermaldamage: 1.0
     trackingspeed: 0.4937500059604645
     volume: 60.0
-  Sentient Sunder Alvi:
+  27763:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

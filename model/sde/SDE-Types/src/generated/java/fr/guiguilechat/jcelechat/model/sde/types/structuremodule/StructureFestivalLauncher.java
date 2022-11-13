@@ -216,7 +216,7 @@ public class StructureFestivalLauncher
         implements IMetaGroup<StructureFestivalLauncher>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureFestivalLauncher.yaml";
-        private Map<String, StructureFestivalLauncher> cache = (null);
+        private Map<Integer, StructureFestivalLauncher> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureFestivalLauncher> category() {
@@ -234,7 +234,7 @@ public class StructureFestivalLauncher
         }
 
         @Override
-        public synchronized Map<String, StructureFestivalLauncher> load() {
+        public synchronized Map<Integer, StructureFestivalLauncher> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureFestivalLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -248,7 +248,7 @@ public class StructureFestivalLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureFestivalLauncher> types;
+            public LinkedHashMap<Integer, StructureFestivalLauncher> types;
         }
     }
 }

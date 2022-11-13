@@ -1,5 +1,5 @@
 types:
-  Standup Cruise Missile:
+  37846:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 500
@@ -27,7 +27,7 @@ types:
     structureuniformity: 0.75
     thermaldamage: 600.0
     volume: 0.5
-  Standup Heavy Missile:
+  37847:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 200
@@ -55,7 +55,7 @@ types:
     structureuniformity: 0.75
     thermaldamage: 300.0
     volume: 0.5
-  Standup Light Missile:
+  37848:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 100

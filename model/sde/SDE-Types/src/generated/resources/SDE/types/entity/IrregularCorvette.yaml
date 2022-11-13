@@ -1,5 +1,5 @@
 types:
-  Biomechanoid Combat Unit:
+  61657:
     agility: 2.0
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

@@ -204,7 +204,7 @@ public class StructureMoonDrillingServiceModule
         implements IMetaGroup<StructureMoonDrillingServiceModule>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureMoonDrillingServiceModule.yaml";
-        private Map<String, StructureMoonDrillingServiceModule> cache = (null);
+        private Map<Integer, StructureMoonDrillingServiceModule> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureMoonDrillingServiceModule> category() {
@@ -222,7 +222,7 @@ public class StructureMoonDrillingServiceModule
         }
 
         @Override
-        public synchronized Map<String, StructureMoonDrillingServiceModule> load() {
+        public synchronized Map<Integer, StructureMoonDrillingServiceModule> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureMoonDrillingServiceModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -236,7 +236,7 @@ public class StructureMoonDrillingServiceModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureMoonDrillingServiceModule> types;
+            public LinkedHashMap<Integer, StructureMoonDrillingServiceModule> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Amarr Frigate Vessel:
+  29234:
     armoremdamageresonance: 0.9900000095367432
     armorexplosivedamageresonance: 0.6899999976158142
     armorhp: 75.0
@@ -76,7 +76,7 @@ types:
     thermaldamage: 1.0
     trackingspeed: 0.24650000035762787
     volume: 24398.0
-  Caldari Frigate Vessel:
+  29239:
     armoremdamageresonance: 0.699999988079071
     armorexplosivedamageresonance: 0.800000011920929
     armorhp: 15.0
@@ -157,7 +157,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.12999999523162842
     volume: 15001.0
-  Gallente Frigate Vessel:
+  29242:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
@@ -238,7 +238,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.36500000953674316
     volume: 24500.0
-  Minmatar Frigate Vessel:
+  29245:
     armoremdamageresonance: 0.699999988079071
     armorexplosivedamageresonance: 1.0
     armorhp: 25.0
@@ -318,7 +318,7 @@ types:
     thermaldamage: 2.0
     trackingspeed: 0.39500001072883606
     volume: 21120.0
-  Patrikia Noirild's Reaper:
+  32786:
     armoremdamageresonance: 0.699999988079071
     armorexplosivedamageresonance: 1.0
     armorhp: 25.0

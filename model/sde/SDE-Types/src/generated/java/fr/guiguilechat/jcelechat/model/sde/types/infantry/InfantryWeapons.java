@@ -32,7 +32,7 @@ public class InfantryWeapons
         implements IMetaGroup<InfantryWeapons>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/InfantryWeapons.yaml";
-        private Map<String, InfantryWeapons> cache = (null);
+        private Map<Integer, InfantryWeapons> cache = (null);
 
         @Override
         public IMetaCategory<? super InfantryWeapons> category() {
@@ -50,7 +50,7 @@ public class InfantryWeapons
         }
 
         @Override
-        public synchronized Map<String, InfantryWeapons> load() {
+        public synchronized Map<Integer, InfantryWeapons> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InfantryWeapons.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class InfantryWeapons
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfantryWeapons> types;
+            public LinkedHashMap<Integer, InfantryWeapons> types;
         }
     }
 }

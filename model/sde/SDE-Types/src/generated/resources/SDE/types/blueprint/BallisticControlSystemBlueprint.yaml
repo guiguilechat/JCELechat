@@ -1,15 +1,5 @@
 types:
-  '''Full Duplex'' Ballistic Control System Blueprint':
-    id: 21485
-    industryblueprintrank: 3.0
-    name: '''Full Duplex'' Ballistic Control System Blueprint'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Ballistic Control System I Blueprint:
+  12275:
     id: 12275
     industryblueprintrank: 3.0
     marketGroup: 343
@@ -21,7 +11,37 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Ballistic Control System II Blueprint:
+  15682:
+    id: 15682
+    industryblueprintrank: 3.0
+    name: Caldari Navy Ballistic Control System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  15684:
+    id: 15684
+    industryblueprintrank: 3.0
+    name: Republic Fleet Ballistic Control System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  21485:
+    id: 21485
+    industryblueprintrank: 3.0
+    name: '''Full Duplex'' Ballistic Control System Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  22292:
     id: 22292
     industryblueprintrank: 7.800000190734863
     name: Ballistic Control System II Blueprint
@@ -32,17 +52,7 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Caldari Navy Ballistic Control System Blueprint:
-    id: 15682
-    industryblueprintrank: 3.0
-    name: Caldari Navy Ballistic Control System Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Khanid Navy Ballistic Control System Blueprint:
+  28564:
     id: 28564
     industryblueprintrank: 3.0
     name: Khanid Navy Ballistic Control System Blueprint
@@ -52,7 +62,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  ML-EKP 'Polybolos' Ballistic Control System Blueprint:
+  49971:
     id: 49971
     marketGroup: 343
     name: ML-EKP 'Polybolos' Ballistic Control System Blueprint
@@ -60,15 +70,5 @@ types:
     portionSize: 1
     price: 499200.0
     published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Republic Fleet Ballistic Control System Blueprint:
-    id: 15684
-    industryblueprintrank: 3.0
-    name: Republic Fleet Ballistic Control System Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582

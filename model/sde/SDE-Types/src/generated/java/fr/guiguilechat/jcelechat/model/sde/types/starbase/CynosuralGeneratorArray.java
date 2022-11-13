@@ -270,7 +270,7 @@ public class CynosuralGeneratorArray
         implements IMetaGroup<CynosuralGeneratorArray>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/CynosuralGeneratorArray.yaml";
-        private Map<String, CynosuralGeneratorArray> cache = (null);
+        private Map<Integer, CynosuralGeneratorArray> cache = (null);
 
         @Override
         public IMetaCategory<? super CynosuralGeneratorArray> category() {
@@ -288,7 +288,7 @@ public class CynosuralGeneratorArray
         }
 
         @Override
-        public synchronized Map<String, CynosuralGeneratorArray> load() {
+        public synchronized Map<Integer, CynosuralGeneratorArray> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CynosuralGeneratorArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -302,7 +302,7 @@ public class CynosuralGeneratorArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, CynosuralGeneratorArray> types;
+            public LinkedHashMap<Integer, CynosuralGeneratorArray> types;
         }
     }
 }

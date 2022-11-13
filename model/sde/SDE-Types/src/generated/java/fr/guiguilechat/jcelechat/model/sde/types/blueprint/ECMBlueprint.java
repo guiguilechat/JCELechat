@@ -97,7 +97,7 @@ public class ECMBlueprint
         implements IMetaGroup<ECMBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/ECMBlueprint.yaml";
-        private Map<String, ECMBlueprint> cache = (null);
+        private Map<Integer, ECMBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super ECMBlueprint> category() {
@@ -115,7 +115,7 @@ public class ECMBlueprint
         }
 
         @Override
-        public synchronized Map<String, ECMBlueprint> load() {
+        public synchronized Map<Integer, ECMBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ECMBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class ECMBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ECMBlueprint> types;
+            public LinkedHashMap<Integer, ECMBlueprint> types;
         }
     }
 }

@@ -388,7 +388,7 @@ public class AdvancedLightMissile
         implements IMetaGroup<AdvancedLightMissile>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedLightMissile.yaml";
-        private Map<String, AdvancedLightMissile> cache = (null);
+        private Map<Integer, AdvancedLightMissile> cache = (null);
 
         @Override
         public IMetaCategory<? super AdvancedLightMissile> category() {
@@ -406,7 +406,7 @@ public class AdvancedLightMissile
         }
 
         @Override
-        public synchronized Map<String, AdvancedLightMissile> load() {
+        public synchronized Map<Integer, AdvancedLightMissile> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AdvancedLightMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -420,7 +420,7 @@ public class AdvancedLightMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedLightMissile> types;
+            public LinkedHashMap<Integer, AdvancedLightMissile> types;
         }
     }
 }

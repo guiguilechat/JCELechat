@@ -96,7 +96,7 @@ public class DreadnoughtBlueprint
         implements IMetaGroup<DreadnoughtBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/DreadnoughtBlueprint.yaml";
-        private Map<String, DreadnoughtBlueprint> cache = (null);
+        private Map<Integer, DreadnoughtBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super DreadnoughtBlueprint> category() {
@@ -114,7 +114,7 @@ public class DreadnoughtBlueprint
         }
 
         @Override
-        public synchronized Map<String, DreadnoughtBlueprint> load() {
+        public synchronized Map<Integer, DreadnoughtBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DreadnoughtBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -128,7 +128,7 @@ public class DreadnoughtBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DreadnoughtBlueprint> types;
+            public LinkedHashMap<Integer, DreadnoughtBlueprint> types;
         }
     }
 }

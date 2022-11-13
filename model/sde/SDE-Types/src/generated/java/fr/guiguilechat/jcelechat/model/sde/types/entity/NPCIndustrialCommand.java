@@ -640,7 +640,7 @@ public class NPCIndustrialCommand
         implements IMetaGroup<NPCIndustrialCommand>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCIndustrialCommand.yaml";
-        private Map<String, NPCIndustrialCommand> cache = (null);
+        private Map<Integer, NPCIndustrialCommand> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCIndustrialCommand> category() {
@@ -658,7 +658,7 @@ public class NPCIndustrialCommand
         }
 
         @Override
-        public synchronized Map<String, NPCIndustrialCommand> load() {
+        public synchronized Map<Integer, NPCIndustrialCommand> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCIndustrialCommand.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -672,7 +672,7 @@ public class NPCIndustrialCommand
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCIndustrialCommand> types;
+            public LinkedHashMap<Integer, NPCIndustrialCommand> types;
         }
     }
 }

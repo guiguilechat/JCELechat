@@ -40,7 +40,7 @@ public class DecryptorsAmarr
         implements IMetaGroup<DecryptorsAmarr>
     {
         public static final String RESOURCE_PATH = "SDE/types/decryptors/DecryptorsAmarr.yaml";
-        private Map<String, DecryptorsAmarr> cache = (null);
+        private Map<Integer, DecryptorsAmarr> cache = (null);
 
         @Override
         public IMetaCategory<? super DecryptorsAmarr> category() {
@@ -58,7 +58,7 @@ public class DecryptorsAmarr
         }
 
         @Override
-        public synchronized Map<String, DecryptorsAmarr> load() {
+        public synchronized Map<Integer, DecryptorsAmarr> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DecryptorsAmarr.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -72,7 +72,7 @@ public class DecryptorsAmarr
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsAmarr> types;
+            public LinkedHashMap<Integer, DecryptorsAmarr> types;
         }
     }
 }

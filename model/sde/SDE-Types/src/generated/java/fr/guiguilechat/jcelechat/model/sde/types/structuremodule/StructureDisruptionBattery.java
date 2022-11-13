@@ -362,7 +362,7 @@ public class StructureDisruptionBattery
         implements IMetaGroup<StructureDisruptionBattery>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureDisruptionBattery.yaml";
-        private Map<String, StructureDisruptionBattery> cache = (null);
+        private Map<Integer, StructureDisruptionBattery> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureDisruptionBattery> category() {
@@ -380,7 +380,7 @@ public class StructureDisruptionBattery
         }
 
         @Override
-        public synchronized Map<String, StructureDisruptionBattery> load() {
+        public synchronized Map<Integer, StructureDisruptionBattery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureDisruptionBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -394,7 +394,7 @@ public class StructureDisruptionBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureDisruptionBattery> types;
+            public LinkedHashMap<Integer, StructureDisruptionBattery> types;
         }
     }
 }

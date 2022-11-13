@@ -1,5 +1,5 @@
 types:
-  Standup M-Set Biochemical Reactor Material Efficiency I:
+  46494:
     canfitshipgroup03: 1406
     disallowinhighsec: 1
     hp: 40.0
@@ -23,7 +23,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 10.0
-  Standup M-Set Biochemical Reactor Material Efficiency II:
+  46495:
     canfitshipgroup03: 1406
     disallowinhighsec: 1
     hp: 40.0

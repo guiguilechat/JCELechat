@@ -917,7 +917,7 @@ public class DeadspaceOverseerSSentry
         implements IMetaGroup<DeadspaceOverseerSSentry>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceOverseerSSentry.yaml";
-        private Map<String, DeadspaceOverseerSSentry> cache = (null);
+        private Map<Integer, DeadspaceOverseerSSentry> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceOverseerSSentry> category() {
@@ -935,7 +935,7 @@ public class DeadspaceOverseerSSentry
         }
 
         @Override
-        public synchronized Map<String, DeadspaceOverseerSSentry> load() {
+        public synchronized Map<Integer, DeadspaceOverseerSSentry> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceOverseerSSentry.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -949,7 +949,7 @@ public class DeadspaceOverseerSSentry
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceOverseerSSentry> types;
+            public LinkedHashMap<Integer, DeadspaceOverseerSSentry> types;
         }
     }
 }

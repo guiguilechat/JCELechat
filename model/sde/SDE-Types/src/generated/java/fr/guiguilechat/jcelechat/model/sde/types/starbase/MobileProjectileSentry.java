@@ -506,7 +506,7 @@ public class MobileProjectileSentry
         implements IMetaGroup<MobileProjectileSentry>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/MobileProjectileSentry.yaml";
-        private Map<String, MobileProjectileSentry> cache = (null);
+        private Map<Integer, MobileProjectileSentry> cache = (null);
 
         @Override
         public IMetaCategory<? super MobileProjectileSentry> category() {
@@ -524,7 +524,7 @@ public class MobileProjectileSentry
         }
 
         @Override
-        public synchronized Map<String, MobileProjectileSentry> load() {
+        public synchronized Map<Integer, MobileProjectileSentry> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MobileProjectileSentry.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -538,7 +538,7 @@ public class MobileProjectileSentry
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileProjectileSentry> types;
+            public LinkedHashMap<Integer, MobileProjectileSentry> types;
         }
     }
 }

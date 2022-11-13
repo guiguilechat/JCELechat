@@ -1,85 +1,5 @@
 types:
-  Barren Advanced Industry Facility:
-    cpuload: 500
-    id: 2474
-    name: Barren Advanced Industry Facility
-    planetrestriction: 2016
-    portionSize: 1
-    powerload: 700
-    price: 250000.0
-    published: true
-    radius: 1.0
-  Barren Basic Industry Facility:
-    cpuload: 200
-    id: 2473
-    name: Barren Basic Industry Facility
-    planetrestriction: 2016
-    portionSize: 1
-    powerload: 800
-    price: 75000.0
-    published: true
-    radius: 1.0
-  Barren High-Tech Production Plant:
-    cpuload: 1100
-    id: 2475
-    name: Barren High-Tech Production Plant
-    planetrestriction: 2016
-    portionSize: 1
-    powerload: 400
-    price: 525000.0
-    published: true
-    radius: 1.0
-  Gas Advanced Industry Facility:
-    cpuload: 500
-    id: 2494
-    name: Gas Advanced Industry Facility
-    planetrestriction: 13
-    portionSize: 1
-    powerload: 700
-    price: 250000.0
-    published: true
-    radius: 1.0
-  Gas Basic Industry Facility:
-    cpuload: 200
-    id: 2492
-    name: Gas Basic Industry Facility
-    planetrestriction: 13
-    portionSize: 1
-    powerload: 800
-    price: 75000.0
-    published: true
-    radius: 1.0
-  Ice Advanced Industry Facility:
-    cpuload: 500
-    id: 2491
-    name: Ice Advanced Industry Facility
-    planetrestriction: 12
-    portionSize: 1
-    powerload: 700
-    price: 250000.0
-    published: true
-    radius: 1.0
-  Ice Basic Industry Facility:
-    cpuload: 200
-    id: 2493
-    name: Ice Basic Industry Facility
-    planetrestriction: 12
-    portionSize: 1
-    powerload: 800
-    price: 75000.0
-    published: true
-    radius: 1.0
-  Lava Advanced Industry Facility:
-    cpuload: 500
-    id: 2470
-    name: Lava Advanced Industry Facility
-    planetrestriction: 2015
-    portionSize: 1
-    powerload: 700
-    price: 250000.0
-    published: true
-    radius: 1.0
-  Lava Basic Industry Facility:
+  2469:
     cpuload: 200
     id: 2469
     name: Lava Basic Industry Facility
@@ -89,37 +9,17 @@ types:
     price: 75000.0
     published: true
     radius: 1.0
-  Oceanic Advanced Industry Facility:
+  2470:
     cpuload: 500
-    id: 2485
-    name: Oceanic Advanced Industry Facility
-    planetrestriction: 2014
+    id: 2470
+    name: Lava Advanced Industry Facility
+    planetrestriction: 2015
     portionSize: 1
     powerload: 700
     price: 250000.0
     published: true
     radius: 1.0
-  Oceanic Basic Industry Facility:
-    cpuload: 200
-    id: 2490
-    name: Oceanic Basic Industry Facility
-    planetrestriction: 2014
-    portionSize: 1
-    powerload: 800
-    price: 75000.0
-    published: true
-    radius: 1.0
-  Plasma Advanced Industry Facility:
-    cpuload: 500
-    id: 2472
-    name: Plasma Advanced Industry Facility
-    planetrestriction: 2063
-    portionSize: 1
-    powerload: 700
-    price: 250000.0
-    published: true
-    radius: 1.0
-  Plasma Basic Industry Facility:
+  2471:
     cpuload: 200
     id: 2471
     name: Plasma Basic Industry Facility
@@ -129,27 +29,47 @@ types:
     price: 75000.0
     published: true
     radius: 1.0
-  Storm Advanced Industry Facility:
+  2472:
     cpuload: 500
-    id: 2484
-    name: Storm Advanced Industry Facility
-    planetrestriction: 2017
+    id: 2472
+    name: Plasma Advanced Industry Facility
+    planetrestriction: 2063
     portionSize: 1
     powerload: 700
     price: 250000.0
     published: true
     radius: 1.0
-  Storm Basic Industry Facility:
+  2473:
     cpuload: 200
-    id: 2483
-    name: Storm Basic Industry Facility
-    planetrestriction: 2017
+    id: 2473
+    name: Barren Basic Industry Facility
+    planetrestriction: 2016
     portionSize: 1
     powerload: 800
     price: 75000.0
     published: true
     radius: 1.0
-  Temperate Advanced Industry Facility:
+  2474:
+    cpuload: 500
+    id: 2474
+    name: Barren Advanced Industry Facility
+    planetrestriction: 2016
+    portionSize: 1
+    powerload: 700
+    price: 250000.0
+    published: true
+    radius: 1.0
+  2475:
+    cpuload: 1100
+    id: 2475
+    name: Barren High-Tech Production Plant
+    planetrestriction: 2016
+    portionSize: 1
+    powerload: 400
+    price: 525000.0
+    published: true
+    radius: 1.0
+  2480:
     cpuload: 500
     id: 2480
     name: Temperate Advanced Industry Facility
@@ -159,7 +79,7 @@ types:
     price: 250000.0
     published: true
     radius: 1.0
-  Temperate Basic Industry Facility:
+  2481:
     cpuload: 200
     id: 2481
     name: Temperate Basic Industry Facility
@@ -169,7 +89,7 @@ types:
     price: 75000.0
     published: true
     radius: 1.0
-  Temperate High-Tech Production Plant:
+  2482:
     cpuload: 1100
     id: 2482
     name: Temperate High-Tech Production Plant
@@ -177,5 +97,85 @@ types:
     portionSize: 1
     powerload: 400
     price: 525000.0
+    published: true
+    radius: 1.0
+  2483:
+    cpuload: 200
+    id: 2483
+    name: Storm Basic Industry Facility
+    planetrestriction: 2017
+    portionSize: 1
+    powerload: 800
+    price: 75000.0
+    published: true
+    radius: 1.0
+  2484:
+    cpuload: 500
+    id: 2484
+    name: Storm Advanced Industry Facility
+    planetrestriction: 2017
+    portionSize: 1
+    powerload: 700
+    price: 250000.0
+    published: true
+    radius: 1.0
+  2485:
+    cpuload: 500
+    id: 2485
+    name: Oceanic Advanced Industry Facility
+    planetrestriction: 2014
+    portionSize: 1
+    powerload: 700
+    price: 250000.0
+    published: true
+    radius: 1.0
+  2490:
+    cpuload: 200
+    id: 2490
+    name: Oceanic Basic Industry Facility
+    planetrestriction: 2014
+    portionSize: 1
+    powerload: 800
+    price: 75000.0
+    published: true
+    radius: 1.0
+  2491:
+    cpuload: 500
+    id: 2491
+    name: Ice Advanced Industry Facility
+    planetrestriction: 12
+    portionSize: 1
+    powerload: 700
+    price: 250000.0
+    published: true
+    radius: 1.0
+  2492:
+    cpuload: 200
+    id: 2492
+    name: Gas Basic Industry Facility
+    planetrestriction: 13
+    portionSize: 1
+    powerload: 800
+    price: 75000.0
+    published: true
+    radius: 1.0
+  2493:
+    cpuload: 200
+    id: 2493
+    name: Ice Basic Industry Facility
+    planetrestriction: 12
+    portionSize: 1
+    powerload: 800
+    price: 75000.0
+    published: true
+    radius: 1.0
+  2494:
+    cpuload: 500
+    id: 2494
+    name: Gas Advanced Industry Facility
+    planetrestriction: 13
+    portionSize: 1
+    powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0

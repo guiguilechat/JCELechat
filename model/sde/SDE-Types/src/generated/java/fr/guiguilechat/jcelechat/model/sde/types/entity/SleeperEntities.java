@@ -1421,7 +1421,7 @@ public class SleeperEntities
         implements IMetaGroup<SleeperEntities>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/SleeperEntities.yaml";
-        private Map<String, SleeperEntities> cache = (null);
+        private Map<Integer, SleeperEntities> cache = (null);
 
         @Override
         public IMetaCategory<? super SleeperEntities> category() {
@@ -1439,7 +1439,7 @@ public class SleeperEntities
         }
 
         @Override
-        public synchronized Map<String, SleeperEntities> load() {
+        public synchronized Map<Integer, SleeperEntities> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SleeperEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1453,7 +1453,7 @@ public class SleeperEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, SleeperEntities> types;
+            public LinkedHashMap<Integer, SleeperEntities> types;
         }
     }
 }

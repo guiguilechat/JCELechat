@@ -313,7 +313,7 @@ public class StructureEngineeringRigMBasicMediumShipTE
         implements IMetaGroup<StructureEngineeringRigMBasicMediumShipTE>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMBasicMediumShipTE.yaml";
-        private Map<String, StructureEngineeringRigMBasicMediumShipTE> cache = (null);
+        private Map<Integer, StructureEngineeringRigMBasicMediumShipTE> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMBasicMediumShipTE> category() {
@@ -331,7 +331,7 @@ public class StructureEngineeringRigMBasicMediumShipTE
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMBasicMediumShipTE> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMBasicMediumShipTE> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMBasicMediumShipTE.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -345,7 +345,7 @@ public class StructureEngineeringRigMBasicMediumShipTE
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMBasicMediumShipTE> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMBasicMediumShipTE> types;
         }
     }
 }

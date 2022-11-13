@@ -161,7 +161,7 @@ public class CyberGunnery
         implements IMetaGroup<CyberGunnery>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberGunnery.yaml";
-        private Map<String, CyberGunnery> cache = (null);
+        private Map<Integer, CyberGunnery> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberGunnery> category() {
@@ -179,7 +179,7 @@ public class CyberGunnery
         }
 
         @Override
-        public synchronized Map<String, CyberGunnery> load() {
+        public synchronized Map<Integer, CyberGunnery> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberGunnery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -193,7 +193,7 @@ public class CyberGunnery
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberGunnery> types;
+            public LinkedHashMap<Integer, CyberGunnery> types;
         }
     }
 }

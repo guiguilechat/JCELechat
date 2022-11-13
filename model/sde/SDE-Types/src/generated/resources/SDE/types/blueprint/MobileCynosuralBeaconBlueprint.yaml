@@ -1,20 +1,20 @@
 types:
-  Covert Mobile Cynosural Beacon Blueprint:
-    id: 59632
+  57429:
+    id: 57429
     industryblueprintrank: 40.0
     marketGroup: 2764
-    name: Covert Mobile Cynosural Beacon Blueprint
+    name: Mobile Cynosural Beacon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  Mobile Cynosural Beacon Blueprint:
-    id: 57429
+  59632:
+    id: 59632
     industryblueprintrank: 40.0
     marketGroup: 2764
-    name: Mobile Cynosural Beacon Blueprint
+    name: Covert Mobile Cynosural Beacon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.0E8

@@ -385,7 +385,7 @@ public class CloakingDevice
         implements IMetaGroup<CloakingDevice>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/CloakingDevice.yaml";
-        private Map<String, CloakingDevice> cache = (null);
+        private Map<Integer, CloakingDevice> cache = (null);
 
         @Override
         public IMetaCategory<? super CloakingDevice> category() {
@@ -403,7 +403,7 @@ public class CloakingDevice
         }
 
         @Override
-        public synchronized Map<String, CloakingDevice> load() {
+        public synchronized Map<Integer, CloakingDevice> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CloakingDevice.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -417,7 +417,7 @@ public class CloakingDevice
         }
 
         private static class Container {
-            public LinkedHashMap<String, CloakingDevice> types;
+            public LinkedHashMap<Integer, CloakingDevice> types;
         }
     }
 }

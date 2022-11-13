@@ -73,7 +73,7 @@ public class Biomass
         implements IMetaGroup<Biomass>
     {
         public static final String RESOURCE_PATH = "SDE/types/celestial/Biomass.yaml";
-        private Map<String, Biomass> cache = (null);
+        private Map<Integer, Biomass> cache = (null);
 
         @Override
         public IMetaCategory<? super Biomass> category() {
@@ -91,7 +91,7 @@ public class Biomass
         }
 
         @Override
-        public synchronized Map<String, Biomass> load() {
+        public synchronized Map<Integer, Biomass> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Biomass.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -105,7 +105,7 @@ public class Biomass
         }
 
         private static class Container {
-            public LinkedHashMap<String, Biomass> types;
+            public LinkedHashMap<Integer, Biomass> types;
         }
     }
 }

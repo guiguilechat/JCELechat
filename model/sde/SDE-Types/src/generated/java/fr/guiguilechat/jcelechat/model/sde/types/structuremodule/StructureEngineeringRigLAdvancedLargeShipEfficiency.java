@@ -313,7 +313,7 @@ public class StructureEngineeringRigLAdvancedLargeShipEfficiency
         implements IMetaGroup<StructureEngineeringRigLAdvancedLargeShipEfficiency>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigLAdvancedLargeShipEfficiency.yaml";
-        private Map<String, StructureEngineeringRigLAdvancedLargeShipEfficiency> cache = (null);
+        private Map<Integer, StructureEngineeringRigLAdvancedLargeShipEfficiency> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigLAdvancedLargeShipEfficiency> category() {
@@ -331,7 +331,7 @@ public class StructureEngineeringRigLAdvancedLargeShipEfficiency
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigLAdvancedLargeShipEfficiency> load() {
+        public synchronized Map<Integer, StructureEngineeringRigLAdvancedLargeShipEfficiency> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigLAdvancedLargeShipEfficiency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -345,7 +345,7 @@ public class StructureEngineeringRigLAdvancedLargeShipEfficiency
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigLAdvancedLargeShipEfficiency> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigLAdvancedLargeShipEfficiency> types;
         }
     }
 }

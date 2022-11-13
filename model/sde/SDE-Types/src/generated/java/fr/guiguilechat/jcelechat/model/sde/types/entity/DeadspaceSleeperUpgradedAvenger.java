@@ -1084,7 +1084,7 @@ public class DeadspaceSleeperUpgradedAvenger
         implements IMetaGroup<DeadspaceSleeperUpgradedAvenger>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceSleeperUpgradedAvenger.yaml";
-        private Map<String, DeadspaceSleeperUpgradedAvenger> cache = (null);
+        private Map<Integer, DeadspaceSleeperUpgradedAvenger> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceSleeperUpgradedAvenger> category() {
@@ -1102,7 +1102,7 @@ public class DeadspaceSleeperUpgradedAvenger
         }
 
         @Override
-        public synchronized Map<String, DeadspaceSleeperUpgradedAvenger> load() {
+        public synchronized Map<Integer, DeadspaceSleeperUpgradedAvenger> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceSleeperUpgradedAvenger.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1116,7 +1116,7 @@ public class DeadspaceSleeperUpgradedAvenger
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceSleeperUpgradedAvenger> types;
+            public LinkedHashMap<Integer, DeadspaceSleeperUpgradedAvenger> types;
         }
     }
 }

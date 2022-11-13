@@ -162,7 +162,7 @@ public class MoonMining
         implements IMetaGroup<MoonMining>
     {
         public static final String RESOURCE_PATH = "SDE/types/starbase/MoonMining.yaml";
-        private Map<String, MoonMining> cache = (null);
+        private Map<Integer, MoonMining> cache = (null);
 
         @Override
         public IMetaCategory<? super MoonMining> category() {
@@ -180,7 +180,7 @@ public class MoonMining
         }
 
         @Override
-        public synchronized Map<String, MoonMining> load() {
+        public synchronized Map<Integer, MoonMining> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MoonMining.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -194,7 +194,7 @@ public class MoonMining
         }
 
         private static class Container {
-            public LinkedHashMap<String, MoonMining> types;
+            public LinkedHashMap<Integer, MoonMining> types;
         }
     }
 }

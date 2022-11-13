@@ -1,15 +1,5 @@
 types:
-  Ancient Coordinates Database:
-    id: 30746
-    marketGroup: 1109
-    mass: 1.0
-    name: Ancient Coordinates Database
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 1500000.0
-    published: true
-    volume: 0.10000000149011612
-  Neural Network Analyzer:
+  30744:
     id: 30744
     marketGroup: 1109
     mass: 1.0
@@ -19,7 +9,7 @@ types:
     price: 200000.0
     published: true
     volume: 0.10000000149011612
-  Sleeper Data Library:
+  30745:
     id: 30745
     marketGroup: 1109
     mass: 1.0
@@ -29,7 +19,17 @@ types:
     price: 500000.0
     published: true
     volume: 0.10000000149011612
-  Sleeper Drone AI Nexus:
+  30746:
+    id: 30746
+    marketGroup: 1109
+    mass: 1.0
+    name: Ancient Coordinates Database
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1500000.0
+    published: true
+    volume: 0.10000000149011612
+  30747:
     id: 30747
     marketGroup: 1109
     mass: 1.0

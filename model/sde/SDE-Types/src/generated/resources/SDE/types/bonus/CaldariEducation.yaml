@@ -1,27 +1,5 @@
 types:
-  Caldari Business School Commerce Bonus:
-    charismaskilltrainingtimemultiplierbonus: -0.05000000074505806
-    cpumultiplier: 1.0
-    id: 1661
-    name: Caldari Business School Commerce Bonus
-    portionSize: 1
-    published: false
-    radius: 1.0
-  Caldari Business School Industry Bonus:
-    cpumultiplier: 1.0
-    id: 1662
-    name: Caldari Business School Industry Bonus
-    portionSize: 1
-    published: false
-  Caldari Military Academy Gunner Bonus:
-    capacitorneedmultiplier: 0.949999988079071
-    cpumultiplier: 1.0
-    id: 1658
-    name: Caldari Military Academy Gunner Bonus
-    portionSize: 1
-    published: false
-    radius: 1.0
-  Caldari Military Academy Pilot Bonus:
+  1657:
     cpumultiplier: 1.0
     id: 1657
     name: Caldari Military Academy Pilot Bonus
@@ -29,14 +7,15 @@ types:
     portionSize: 1
     published: false
     radius: 1.0
-  Caldari Technical School Electronics Bonus:
-    cpumultiplier: 0.949999988079071
-    id: 1660
-    name: Caldari Technical School Electronics Bonus
+  1658:
+    capacitorneedmultiplier: 0.949999988079071
+    cpumultiplier: 1.0
+    id: 1658
+    name: Caldari Military Academy Gunner Bonus
     portionSize: 1
     published: false
     radius: 1.0
-  Caldari Technical School Engineering Bonus:
+  1659:
     cpumultiplier: 1.0
     id: 1659
     memoryskilltrainingtimemultiplierbonus: -0.05000000074505806
@@ -44,3 +23,24 @@ types:
     portionSize: 1
     published: false
     radius: 1.0
+  1660:
+    cpumultiplier: 0.949999988079071
+    id: 1660
+    name: Caldari Technical School Electronics Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  1661:
+    charismaskilltrainingtimemultiplierbonus: -0.05000000074505806
+    cpumultiplier: 1.0
+    id: 1661
+    name: Caldari Business School Commerce Bonus
+    portionSize: 1
+    published: false
+    radius: 1.0
+  1662:
+    cpumultiplier: 1.0
+    id: 1662
+    name: Caldari Business School Industry Bonus
+    portionSize: 1
+    published: false

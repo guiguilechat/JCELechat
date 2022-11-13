@@ -289,7 +289,7 @@ public class StructureEngineeringRigMMEResearchAccelerator
         implements IMetaGroup<StructureEngineeringRigMMEResearchAccelerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMMEResearchAccelerator.yaml";
-        private Map<String, StructureEngineeringRigMMEResearchAccelerator> cache = (null);
+        private Map<Integer, StructureEngineeringRigMMEResearchAccelerator> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMMEResearchAccelerator> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMMEResearchAccelerator
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMMEResearchAccelerator> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMMEResearchAccelerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMMEResearchAccelerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMMEResearchAccelerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMMEResearchAccelerator> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMMEResearchAccelerator> types;
         }
     }
 }

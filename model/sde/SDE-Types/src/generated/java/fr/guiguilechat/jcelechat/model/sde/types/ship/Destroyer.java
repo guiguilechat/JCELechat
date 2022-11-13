@@ -87,6 +87,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonan
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusABC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAC2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAD1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAD2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCD1;
@@ -95,6 +97,28 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGD1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGD2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMD1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMD2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr6;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusPD1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusPD2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole1;
@@ -242,6 +266,20 @@ public class Destroyer
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusabc2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusac2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultIntValue(0)
     public int shipbonusad1;
     /**
@@ -293,6 +331,160 @@ public class Destroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int shipbonusmd2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusnavydestroyeramarr1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusnavydestroyeramarr2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyeramarr3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyeramarr4;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyeramarr5;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyeramarr6;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyeramarr7;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyercaldari1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyercaldari2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyercaldari3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyercaldari4;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyercaldari5;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyergallente1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shipbonusnavydestroyergallente2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyergallente3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyergallente4;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyergallente5;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyerminmatar1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyerminmatar2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyerminmatar3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyerminmatar4;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusnavydestroyerminmatar5;
     /**
      * Precursor Destroyer Skill Attribute
      */
@@ -356,7 +548,7 @@ public class Destroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, RookieDroneBonus.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, MaxRangeBonus.INSTANCE, ShipBonusAD1 .INSTANCE, ShipBonusAD2 .INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShipBonusMD1 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusCD1 .INSTANCE, ShipBonusCD2 .INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusGD1 .INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusGD2 .INSTANCE, ShipBonusMD2 .INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusPD1 .INSTANCE, ShipBonusPD2 .INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE, TrackingSpeedBonus.INSTANCE, ShipScanResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, RookieDroneBonus.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, MaxRangeBonus.INSTANCE, ShipBonusAD1 .INSTANCE, ShipBonusAD2 .INSTANCE, ShipBonusABC2 .INSTANCE, ShipBonusNavyDestroyerAmarr1 .INSTANCE, ShipBonusNavyDestroyerAmarr2 .INSTANCE, ShipBonusNavyDestroyerAmarr3 .INSTANCE, ShipBonusNavyDestroyerAmarr4 .INSTANCE, LauncherSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr5 .INSTANCE, TurretSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr6 .INSTANCE, ShipBonusNavyDestroyerAmarr7 .INSTANCE, ShipBonusNavyDestroyerCaldari1 .INSTANCE, ShipBonusNavyDestroyerCaldari5 .INSTANCE, ShipBonusNavyDestroyerCaldari4 .INSTANCE, ShipBonusNavyDestroyerCaldari2 .INSTANCE, UpgradeCapacity.INSTANCE, ShipBonusNavyDestroyerCaldari3 .INSTANCE, KineticDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente1 .INSTANCE, ThermalDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente5 .INSTANCE, ExplosiveDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente2 .INSTANCE, RigSlots.INSTANCE, ShipBonusNavyDestroyerGallente3 .INSTANCE, EmDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente4 .INSTANCE, ShipBonusNavyDestroyerMinmatar1 .INSTANCE, ShipBonusNavyDestroyerMinmatar2 .INSTANCE, ShipBonusNavyDestroyerMinmatar3 .INSTANCE, ShipBonusNavyDestroyerMinmatar4 .INSTANCE, ShipBonusNavyDestroyerMinmatar5 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShipBonusMD1 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusCD1 .INSTANCE, ShipBonusCD2 .INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusGD1 .INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusGD2 .INSTANCE, ShipBonusMD2 .INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusPD1 .INSTANCE, ShipBonusPD2 .INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE, TrackingSpeedBonus.INSTANCE, ShipScanResistance.INSTANCE })));
     public static final Destroyer.MetaGroup METAGROUP = new Destroyer.MetaGroup();
 
     @Override
@@ -422,6 +614,14 @@ public class Destroyer
             {
                 return scanspeed;
             }
+            case  1889 :
+            {
+                return shipbonusabc2;
+            }
+            case  656 :
+            {
+                return shipbonusac2;
+            }
             case  1887 :
             {
                 return shipbonusad1;
@@ -453,6 +653,94 @@ public class Destroyer
             case  740 :
             {
                 return shipbonusmd2;
+            }
+            case  5218 :
+            {
+                return shipbonusnavydestroyeramarr1;
+            }
+            case  5219 :
+            {
+                return shipbonusnavydestroyeramarr2;
+            }
+            case  5220 :
+            {
+                return shipbonusnavydestroyeramarr3;
+            }
+            case  5221 :
+            {
+                return shipbonusnavydestroyeramarr4;
+            }
+            case  5222 :
+            {
+                return shipbonusnavydestroyeramarr5;
+            }
+            case  5223 :
+            {
+                return shipbonusnavydestroyeramarr6;
+            }
+            case  5224 :
+            {
+                return shipbonusnavydestroyeramarr7;
+            }
+            case  5225 :
+            {
+                return shipbonusnavydestroyercaldari1;
+            }
+            case  5228 :
+            {
+                return shipbonusnavydestroyercaldari2;
+            }
+            case  5229 :
+            {
+                return shipbonusnavydestroyercaldari3;
+            }
+            case  5227 :
+            {
+                return shipbonusnavydestroyercaldari4;
+            }
+            case  5226 :
+            {
+                return shipbonusnavydestroyercaldari5;
+            }
+            case  5230 :
+            {
+                return shipbonusnavydestroyergallente1;
+            }
+            case  5232 :
+            {
+                return shipbonusnavydestroyergallente2;
+            }
+            case  5233 :
+            {
+                return shipbonusnavydestroyergallente3;
+            }
+            case  5234 :
+            {
+                return shipbonusnavydestroyergallente4;
+            }
+            case  5231 :
+            {
+                return shipbonusnavydestroyergallente5;
+            }
+            case  5235 :
+            {
+                return shipbonusnavydestroyerminmatar1;
+            }
+            case  5236 :
+            {
+                return shipbonusnavydestroyerminmatar2;
+            }
+            case  5237 :
+            {
+                return shipbonusnavydestroyerminmatar3;
+            }
+            case  5238 :
+            {
+                return shipbonusnavydestroyerminmatar4;
+            }
+            case  5239 :
+            {
+                return shipbonusnavydestroyerminmatar5;
             }
             case  2799 :
             {
@@ -511,7 +799,7 @@ public class Destroyer
         implements IMetaGroup<Destroyer>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Destroyer.yaml";
-        private Map<String, Destroyer> cache = (null);
+        private Map<Integer, Destroyer> cache = (null);
 
         @Override
         public IMetaCategory<? super Destroyer> category() {
@@ -529,7 +817,7 @@ public class Destroyer
         }
 
         @Override
-        public synchronized Map<String, Destroyer> load() {
+        public synchronized Map<Integer, Destroyer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Destroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -543,7 +831,7 @@ public class Destroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, Destroyer> types;
+            public LinkedHashMap<Integer, Destroyer> types;
         }
     }
 }

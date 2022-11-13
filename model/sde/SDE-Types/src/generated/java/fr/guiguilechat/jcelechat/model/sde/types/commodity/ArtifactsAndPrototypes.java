@@ -32,7 +32,7 @@ public class ArtifactsAndPrototypes
         implements IMetaGroup<ArtifactsAndPrototypes>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/ArtifactsAndPrototypes.yaml";
-        private Map<String, ArtifactsAndPrototypes> cache = (null);
+        private Map<Integer, ArtifactsAndPrototypes> cache = (null);
 
         @Override
         public IMetaCategory<? super ArtifactsAndPrototypes> category() {
@@ -50,7 +50,7 @@ public class ArtifactsAndPrototypes
         }
 
         @Override
-        public synchronized Map<String, ArtifactsAndPrototypes> load() {
+        public synchronized Map<Integer, ArtifactsAndPrototypes> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ArtifactsAndPrototypes.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class ArtifactsAndPrototypes
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArtifactsAndPrototypes> types;
+            public LinkedHashMap<Integer, ArtifactsAndPrototypes> types;
         }
     }
 }

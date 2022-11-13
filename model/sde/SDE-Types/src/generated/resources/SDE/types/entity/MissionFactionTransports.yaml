@@ -1,11 +1,152 @@
 types:
-  Civilian Orca:
+  2877:
+    agility: 0.07999999821186066
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 22500.0
+    armorkineticdamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 750000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitybracketcolour: 2
+    entitychasemaxdistance: 90000
+    entitycruisespeed: 65.0
+    entityequipmentmax: 9
+    entityequipmentmin: 7
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 70000.0
+    entityoverviewshipgroupid: 513
+    gfxboosterid: 394
+    hp: 120000.0
+    id: 2877
+    iscapitalsize: 1
+    mass: 1.175000064E9
+    maxattacktargets: 1
+    maxvelocity: 75.0
+    name: Federation Freighter Vessel
+    packagedVolume: 1.755E7
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 600.0
+    rechargerate: 200000.0
+    scanmagnetometricstrength: 100.0
+    scanspeed: 6750
+    shieldcapacity: 5300.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1700000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 985.0
+    structureuniformity: 1.0
+    uniformity: 1.0
+    volume: 1.755E7
+  2879:
+    agility: 0.07999999821186066
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 24000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 735000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitybracketcolour: 2
+    entitychasemaxdistance: 90000
+    entitycruisespeed: 65.0
+    entityequipmentmax: 9
+    entityequipmentmin: 7
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 70000.0
+    entityoverviewshipgroupid: 513
+    gfxboosterid: 394
+    hp: 112500.0
+    id: 2879
+    iscapitalsize: 1
+    mass: 1.124999936E9
+    maxattacktargets: 1
+    maxvelocity: 75.0
+    name: Imperial Freighter Vessel
+    packagedVolume: 1.85E7
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 900.0
+    rechargerate: 200000.0
+    scanradarstrength: 100.0
+    scanspeed: 6750
+    shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1700000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 985.0
+    structureuniformity: 1.0
+    uniformity: 1.0
+    volume: 1.85E7
+  2882:
+    agility: 0.07999999821186066
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 20000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.550000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 785000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitybracketcolour: 2
+    entitychasemaxdistance: 90000
+    entitycruisespeed: 65.0
+    entityequipmentmax: 9
+    entityequipmentmin: 7
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 70000.0
+    entityoverviewshipgroupid: 513
+    gfxboosterid: 395
+    hp: 106250.0
+    id: 2882
+    iscapitalsize: 1
+    mass: 1.2E9
+    maxattacktargets: 1
+    maxvelocity: 75.0
+    name: State Freighter Vessel
+    packagedVolume: 1.625E7
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 800.0
+    rechargerate: 200000.0
+    scangravimetricstrength: 100.0
+    scanspeed: 6750
+    shieldcapacity: 6000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1700000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 985.0
+    structureuniformity: 1.0
+    uniformity: 1.0
+    volume: 1.625E7
+  3070:
     agility: 0.07999999821186066
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.6499999761581421
-    armorhp: 8800.0
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 6900.0
     armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     capacitorcapacity: 4200.0
     capacity: 30000.0
@@ -20,11 +161,11 @@ types:
     entityflyrange: 50000.0
     entityoverviewshipgroupid: 883
     gfxboosterid: 394
-    hp: 57500.0
-    id: 32449
+    hp: 46000.0
+    id: 3070
     mass: 2.5E8
     maxvelocity: 75.0
-    name: Civilian Orca
+    name: Orca Civilian
     packagedVolume: 1.025E7
     portionSize: 1
     propulsiongraphicid: 394
@@ -33,18 +174,18 @@ types:
     rechargerate: 600000.0
     scanmagnetometricstrength: 15.0
     scanspeed: 6750
-    shieldcapacity: 14000.0
+    shieldcapacity: 10750.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1700000.0
-    shieldthermaldamageresonance: 0.5
+    shieldrechargerate: 2100000.0
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     signatureradius: 550.0
     structureuniformity: 1.0
     uniformity: 1.0
     volume: 1.025E7
-  Federation Freighter:
+  28160:
     agility: 0.07999999821186066
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
@@ -92,336 +233,7 @@ types:
     structureuniformity: 1.0
     uniformity: 1.0
     volume: 1.755E7
-  Federation Freighter Vessel:
-    agility: 0.07999999821186066
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 22500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 750000.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitybracketcolour: 2
-    entitychasemaxdistance: 90000
-    entitycruisespeed: 65.0
-    entityequipmentmax: 9
-    entityequipmentmin: 7
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 70000.0
-    entityoverviewshipgroupid: 513
-    gfxboosterid: 394
-    hp: 120000.0
-    id: 2877
-    iscapitalsize: 1
-    mass: 1.175000064E9
-    maxattacktargets: 1
-    maxvelocity: 75.0
-    name: Federation Freighter Vessel
-    packagedVolume: 1.755E7
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 600.0
-    rechargerate: 200000.0
-    scanmagnetometricstrength: 100.0
-    scanspeed: 6750
-    shieldcapacity: 5300.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1700000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 985.0
-    structureuniformity: 1.0
-    uniformity: 1.0
-    volume: 1.755E7
-  Hostile Orca:
-    agility: 0.07999999821186066
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.6499999761581421
-    armorhp: 8800.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.8999999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 4200.0
-    capacity: 30000.0
-    disallowassistance: 1
-    entityattackrange: 75000
-    entitybracketcolour: 1
-    entitychasemaxdistance: 90000
-    entitycruisespeed: 75.0
-    entityequipmentmax: 5
-    entityequipmentmin: 2
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 50000.0
-    entityoverviewshipgroupid: 883
-    gfxboosterid: 394
-    hp: 57500.0
-    id: 32448
-    mass: 2.5E8
-    maxattacktargets: 1
-    maxlockedtargets: 5
-    maxvelocity: 75.0
-    name: Hostile Orca
-    packagedVolume: 1.025E7
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 550.0
-    rechargerate: 600000.0
-    scanmagnetometricstrength: 15.0
-    scanspeed: 6750
-    shieldcapacity: 14000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1700000.0
-    shieldthermaldamageresonance: 0.5
-    shielduniformity: 0.75
-    signatureradius: 550.0
-    structureuniformity: 1.0
-    uniformity: 1.0
-    volume: 1.025E7
-  Imperial Freighter:
-    agility: 0.07999999821186066
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.800000011920929
-    armorhp: 24000.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 735000.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitybracketcolour: 1
-    entitychasemaxdistance: 90000
-    entitycruisespeed: 65.0
-    entityequipmentmax: 9
-    entityequipmentmin: 7
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 70000.0
-    entityoverviewshipgroupid: 513
-    gfxboosterid: 394
-    hp: 112500.0
-    id: 28163
-    iscapitalsize: 1
-    mass: 1.124999936E9
-    maxattacktargets: 1
-    maxlockedtargets: 8
-    maxvelocity: 75.0
-    name: Imperial Freighter
-    packagedVolume: 1.85E7
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 900.0
-    rechargerate: 200000.0
-    scanradarstrength: 100.0
-    scanspeed: 6750
-    shieldcapacity: 5000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1700000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 985.0
-    structureuniformity: 1.0
-    uniformity: 1.0
-    volume: 1.85E7
-  Imperial Freighter Vessel:
-    agility: 0.07999999821186066
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.800000011920929
-    armorhp: 24000.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 735000.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitybracketcolour: 2
-    entitychasemaxdistance: 90000
-    entitycruisespeed: 65.0
-    entityequipmentmax: 9
-    entityequipmentmin: 7
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 70000.0
-    entityoverviewshipgroupid: 513
-    gfxboosterid: 394
-    hp: 112500.0
-    id: 2879
-    iscapitalsize: 1
-    mass: 1.124999936E9
-    maxattacktargets: 1
-    maxvelocity: 75.0
-    name: Imperial Freighter Vessel
-    packagedVolume: 1.85E7
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 900.0
-    rechargerate: 200000.0
-    scanradarstrength: 100.0
-    scanspeed: 6750
-    shieldcapacity: 5000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1700000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 985.0
-    structureuniformity: 1.0
-    uniformity: 1.0
-    volume: 1.85E7
-  Orca Civilian:
-    agility: 0.07999999821186066
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 6900.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 4200.0
-    capacity: 30000.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitybracketcolour: 2
-    entitychasemaxdistance: 90000
-    entitycruisespeed: 75.0
-    entityequipmentmax: 5
-    entityequipmentmin: 2
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 50000.0
-    entityoverviewshipgroupid: 883
-    gfxboosterid: 394
-    hp: 46000.0
-    id: 3070
-    mass: 2.5E8
-    maxvelocity: 75.0
-    name: Orca Civilian
-    packagedVolume: 1.025E7
-    portionSize: 1
-    propulsiongraphicid: 394
-    published: false
-    radius: 550.0
-    rechargerate: 600000.0
-    scanmagnetometricstrength: 15.0
-    scanspeed: 6750
-    shieldcapacity: 10750.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 2100000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 550.0
-    structureuniformity: 1.0
-    uniformity: 1.0
-    volume: 1.025E7
-  Republic Freighter:
-    agility: 0.07999999821186066
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 21250.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 720000.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitybracketcolour: 1
-    entitychasemaxdistance: 90000
-    entitycruisespeed: 65.0
-    entityequipmentmax: 9
-    entityequipmentmin: 7
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 70000.0
-    entityoverviewshipgroupid: 513
-    gfxboosterid: 397
-    hp: 100000.0
-    id: 28162
-    iscapitalsize: 1
-    mass: 1.025E9
-    maxattacktargets: 1
-    maxlockedtargets: 8
-    maxvelocity: 75.0
-    name: Republic Freighter
-    packagedVolume: 1.55E7
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 700.0
-    rechargerate: 200000.0
-    scanladarstrength: 100.0
-    scanspeed: 6750
-    shieldcapacity: 5625.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1700000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 985.0
-    structureuniformity: 1.0
-    uniformity: 1.0
-    volume: 1.55E7
-  Republic Freighter Vessels:
-    agility: 0.07999999821186066
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 21250.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    capacitorcapacity: 3000.0
-    capacity: 720000.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitybracketcolour: 2
-    entitychasemaxdistance: 90000
-    entitycruisespeed: 65.0
-    entityequipmentmax: 9
-    entityequipmentmin: 7
-    entityfactionloss: 0.009999999776482582
-    entityflyrange: 70000.0
-    entityoverviewshipgroupid: 513
-    gfxboosterid: 397
-    hp: 100000.0
-    id: 32230
-    iscapitalsize: 1
-    mass: 1.025E9
-    maxattacktargets: 1
-    maxvelocity: 75.0
-    name: Republic Freighter Vessels
-    packagedVolume: 1.55E7
-    portionSize: 1
-    propulsiongraphicid: 397
-    published: false
-    radius: 700.0
-    rechargerate: 200000.0
-    scanladarstrength: 100.0
-    scanspeed: 6750
-    shieldcapacity: 5625.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1700000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 985.0
-    structureuniformity: 1.0
-    uniformity: 1.0
-    volume: 1.55E7
-  State Freighter:
+  28161:
     agility: 0.07999999821186066
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
@@ -469,19 +281,19 @@ types:
     structureuniformity: 1.0
     uniformity: 1.0
     volume: 1.625E7
-  State Freighter Vessel:
+  28162:
     agility: 0.07999999821186066
-    armoremdamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.30000001192092896
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 20000.0
+    armorhp: 21250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     capacitorcapacity: 3000.0
-    capacity: 785000.0
+    capacity: 720000.0
     disallowassistance: 1
     entityattackrange: 15000
-    entitybracketcolour: 2
+    entitybracketcolour: 1
     entitychasemaxdistance: 90000
     entitycruisespeed: 65.0
     entityequipmentmax: 9
@@ -489,23 +301,24 @@ types:
     entityfactionloss: 0.009999999776482582
     entityflyrange: 70000.0
     entityoverviewshipgroupid: 513
-    gfxboosterid: 395
-    hp: 106250.0
-    id: 2882
+    gfxboosterid: 397
+    hp: 100000.0
+    id: 28162
     iscapitalsize: 1
-    mass: 1.2E9
+    mass: 1.025E9
     maxattacktargets: 1
+    maxlockedtargets: 8
     maxvelocity: 75.0
-    name: State Freighter Vessel
-    packagedVolume: 1.625E7
+    name: Republic Freighter
+    packagedVolume: 1.55E7
     portionSize: 1
-    propulsiongraphicid: 395
+    propulsiongraphicid: 397
     published: false
-    radius: 800.0
+    radius: 700.0
     rechargerate: 200000.0
-    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
     scanspeed: 6750
-    shieldcapacity: 6000.0
+    shieldcapacity: 5625.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
     shieldkineticdamageresonance: 0.6000000238418579
@@ -515,8 +328,56 @@ types:
     signatureradius: 985.0
     structureuniformity: 1.0
     uniformity: 1.0
-    volume: 1.625E7
-  State Transport Freighter:
+    volume: 1.55E7
+  28163:
+    agility: 0.07999999821186066
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 24000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 735000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitybracketcolour: 1
+    entitychasemaxdistance: 90000
+    entitycruisespeed: 65.0
+    entityequipmentmax: 9
+    entityequipmentmin: 7
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 70000.0
+    entityoverviewshipgroupid: 513
+    gfxboosterid: 394
+    hp: 112500.0
+    id: 28163
+    iscapitalsize: 1
+    mass: 1.124999936E9
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxvelocity: 75.0
+    name: Imperial Freighter
+    packagedVolume: 1.85E7
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 900.0
+    rechargerate: 200000.0
+    scanradarstrength: 100.0
+    scanspeed: 6750
+    shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1700000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 985.0
+    structureuniformity: 1.0
+    uniformity: 1.0
+    volume: 1.85E7
+  30970:
     agility: 0.07999999821186066
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
@@ -563,3 +424,142 @@ types:
     structureuniformity: 1.0
     uniformity: 1.0
     volume: 1.625E7
+  32230:
+    agility: 0.07999999821186066
+    armoremdamageresonance: 0.30000001192092896
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 21250.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    capacitorcapacity: 3000.0
+    capacity: 720000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitybracketcolour: 2
+    entitychasemaxdistance: 90000
+    entitycruisespeed: 65.0
+    entityequipmentmax: 9
+    entityequipmentmin: 7
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 70000.0
+    entityoverviewshipgroupid: 513
+    gfxboosterid: 397
+    hp: 100000.0
+    id: 32230
+    iscapitalsize: 1
+    mass: 1.025E9
+    maxattacktargets: 1
+    maxvelocity: 75.0
+    name: Republic Freighter Vessels
+    packagedVolume: 1.55E7
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 700.0
+    rechargerate: 200000.0
+    scanladarstrength: 100.0
+    scanspeed: 6750
+    shieldcapacity: 5625.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1700000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 985.0
+    structureuniformity: 1.0
+    uniformity: 1.0
+    volume: 1.55E7
+  32448:
+    agility: 0.07999999821186066
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.6499999761581421
+    armorhp: 8800.0
+    armorkineticdamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.8999999761581421
+    armoruniformity: 0.75
+    capacitorcapacity: 4200.0
+    capacity: 30000.0
+    disallowassistance: 1
+    entityattackrange: 75000
+    entitybracketcolour: 1
+    entitychasemaxdistance: 90000
+    entitycruisespeed: 75.0
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 50000.0
+    entityoverviewshipgroupid: 883
+    gfxboosterid: 394
+    hp: 57500.0
+    id: 32448
+    mass: 2.5E8
+    maxattacktargets: 1
+    maxlockedtargets: 5
+    maxvelocity: 75.0
+    name: Hostile Orca
+    packagedVolume: 1.025E7
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 550.0
+    rechargerate: 600000.0
+    scanmagnetometricstrength: 15.0
+    scanspeed: 6750
+    shieldcapacity: 14000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1700000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 550.0
+    structureuniformity: 1.0
+    uniformity: 1.0
+    volume: 1.025E7
+  32449:
+    agility: 0.07999999821186066
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.6499999761581421
+    armorhp: 8800.0
+    armorkineticdamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.8999999761581421
+    armoruniformity: 0.75
+    capacitorcapacity: 4200.0
+    capacity: 30000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitybracketcolour: 2
+    entitychasemaxdistance: 90000
+    entitycruisespeed: 75.0
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityfactionloss: 0.009999999776482582
+    entityflyrange: 50000.0
+    entityoverviewshipgroupid: 883
+    gfxboosterid: 394
+    hp: 57500.0
+    id: 32449
+    mass: 2.5E8
+    maxvelocity: 75.0
+    name: Civilian Orca
+    packagedVolume: 1.025E7
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 550.0
+    rechargerate: 600000.0
+    scanmagnetometricstrength: 15.0
+    scanspeed: 6750
+    shieldcapacity: 14000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1700000.0
+    shieldthermaldamageresonance: 0.5
+    shielduniformity: 0.75
+    signatureradius: 550.0
+    structureuniformity: 1.0
+    uniformity: 1.0
+    volume: 1.025E7

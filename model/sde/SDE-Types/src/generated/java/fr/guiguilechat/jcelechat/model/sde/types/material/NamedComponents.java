@@ -32,7 +32,7 @@ public class NamedComponents
         implements IMetaGroup<NamedComponents>
     {
         public static final String RESOURCE_PATH = "SDE/types/material/NamedComponents.yaml";
-        private Map<String, NamedComponents> cache = (null);
+        private Map<Integer, NamedComponents> cache = (null);
 
         @Override
         public IMetaCategory<? super NamedComponents> category() {
@@ -50,7 +50,7 @@ public class NamedComponents
         }
 
         @Override
-        public synchronized Map<String, NamedComponents> load() {
+        public synchronized Map<Integer, NamedComponents> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NamedComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class NamedComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, NamedComponents> types;
+            public LinkedHashMap<Integer, NamedComponents> types;
         }
     }
 }

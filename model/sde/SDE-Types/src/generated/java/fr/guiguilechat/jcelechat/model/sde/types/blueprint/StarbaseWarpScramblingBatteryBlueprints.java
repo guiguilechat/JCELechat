@@ -83,7 +83,7 @@ public class StarbaseWarpScramblingBatteryBlueprints
         implements IMetaGroup<StarbaseWarpScramblingBatteryBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseWarpScramblingBatteryBlueprints.yaml";
-        private Map<String, StarbaseWarpScramblingBatteryBlueprints> cache = (null);
+        private Map<Integer, StarbaseWarpScramblingBatteryBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super StarbaseWarpScramblingBatteryBlueprints> category() {
@@ -101,7 +101,7 @@ public class StarbaseWarpScramblingBatteryBlueprints
         }
 
         @Override
-        public synchronized Map<String, StarbaseWarpScramblingBatteryBlueprints> load() {
+        public synchronized Map<Integer, StarbaseWarpScramblingBatteryBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StarbaseWarpScramblingBatteryBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StarbaseWarpScramblingBatteryBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseWarpScramblingBatteryBlueprints> types;
+            public LinkedHashMap<Integer, StarbaseWarpScramblingBatteryBlueprints> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Standup Heavy Guided Bomb:
+  37849:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 500
@@ -28,7 +28,7 @@ types:
     structureuniformity: 0.75
     thermaldamage: 2400.0
     volume: 100.0
-  Standup Light Guided Bomb:
+  37850:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 100

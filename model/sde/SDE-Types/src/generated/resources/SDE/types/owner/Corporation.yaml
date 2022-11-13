@@ -1,5 +1,5 @@
 types:
-  Corporation:
+  2:
     id: 2
     name: Corporation
     portionSize: 1

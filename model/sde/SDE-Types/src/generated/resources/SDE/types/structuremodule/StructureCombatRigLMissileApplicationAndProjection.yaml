@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Missile Flight Processor I:
+  37248:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Missile Flight Processor II:
+  37249:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

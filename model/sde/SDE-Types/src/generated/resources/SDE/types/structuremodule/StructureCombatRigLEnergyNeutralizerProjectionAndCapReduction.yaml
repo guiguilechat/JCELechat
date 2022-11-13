@@ -1,5 +1,5 @@
 types:
-  Standup L-Set Energy Neutralizer Feedback Control I:
+  37250:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -27,7 +27,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set Energy Neutralizer Feedback Control II:
+  37251:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406

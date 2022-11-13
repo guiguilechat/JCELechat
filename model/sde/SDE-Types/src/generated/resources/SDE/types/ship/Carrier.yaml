@@ -1,5 +1,5 @@
 types:
-  Archon:
+  23757:
     advancedagility: 1
     advancedcapitalagility: 1
     agility: 0.04100000113248825
@@ -117,7 +117,126 @@ types:
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
-  Chimera:
+  23911:
+    advancedagility: 1
+    advancedcapitalagility: 1
+    agility: 0.039000000804662704
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 69500.0
+    armorkineticdamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    canjump: 1
+    capacitorcapacity: 55000.0
+    capacity: 875.0
+    cpuoutput: 725
+    disallowinhighsec: 1
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisdurationmultiplier: 5
+    explosivedamageresonance: 0.6700000166893005
+    fighterabilityanticapitalmissileresistance: 1
+    fighterabilitykamikazeresistance: 1
+    fightercapacity: 70000
+    fighterlightslots: 3
+    fightersupportslots: 1
+    fightertubes: 3
+    fleethangarcapacity: 10000
+    fwlpkill: 4000
+    gatescramblestatus: -1000
+    gfxboosterid: 394
+    hasfleethangars: 1
+    hasshipmaintenancebay: 1
+    heatattenuationhi: 0.7099999785423279
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.7099999785423279
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.4000000059604645
+    hislots: 5
+    hp: 83500.0
+    id: 23911
+    iscapitalsize: 1
+    istitanjumpportalpassenger: 1
+    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdriveconsumptionamount: 3000
+    jumpdriveconsumptiontype: 17887
+    jumpdriveduration: 300000
+    jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
+    jumpharmonics: -5
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 6
+    maincolor: 16777215
+    marketGroup: 820
+    mass: 1.22E9
+    maximumrangecap: 1000000000
+    maxlockedtargets: 14
+    maxoperationaldistance: 5000
+    maxoperationalusers: 10
+    maxpassengers: 150
+    maxtargetrange: 3670000.0
+    maxvelocity: 80.0
+    medslots: 5
+    name: Thanatos
+    packagedVolume: 1300000.0
+    portionSize: 1
+    poweroutput: 700000
+    powertospeed: 1
+    price: 2.934700032E9
+    propulsiongraphicid: 394
+    published: true
+    radius: 1134.0
+    rechargerate: 4200000.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 1
+    requiredskill2: 24313
+    requiredskill2level: 1
+    rigsize: 4
+    rigslots: 3
+    rolebonuscommandburstaoerange: 200
+    scanmagnetometricstrength: 76.0
+    scanresolution: 65.0
+    scanspeed: 6750
+    sensordampenerresistance: 1.0
+    shieldcapacity: 55500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1.5E7
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonuscarrierg1: 5
+    shipbonuscarrierg2: 5
+    shipbonuscarrierg3: 2.5
+    shipbonuscarrierg4: 1
+    shipbonusrole1: 1.0
+    shipmaintenancebaycapacity: 1000000
+    signatureradius: 9960.0
+    specialfuelbaycapacity: 3000
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    targetpainterresistance: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    typecolorscheme: 11331
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 1.3095E7
+    warpcapacitorneed: 1.38000002536387E-8
+    warpspeedmultiplier: 1.5
+    weapondisruptionresistance: 1.0
+  23915:
     advancedagility: 1
     advancedcapitalagility: 1
     agility: 0.041999999433755875
@@ -235,7 +354,7 @@ types:
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
-  Nidhoggur:
+  24483:
     advancedagility: 1
     advancedcapitalagility: 1
     agility: 0.039000000804662704
@@ -351,125 +470,6 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 1.125E7
-    warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.5
-    weapondisruptionresistance: 1.0
-  Thanatos:
-    advancedagility: 1
-    advancedcapitalagility: 1
-    agility: 0.039000000804662704
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 69500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
-    armoruniformity: 0.75
-    basewarpspeed: 1
-    canjump: 1
-    capacitorcapacity: 55000.0
-    capacity: 875.0
-    cpuoutput: 725
-    disallowinhighsec: 1
-    emdamageresonance: 0.6700000166893005
-    energywarfareresistance: 1.0
-    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
-    entosisdurationmultiplier: 5
-    explosivedamageresonance: 0.6700000166893005
-    fighterabilityanticapitalmissileresistance: 1
-    fighterabilitykamikazeresistance: 1
-    fightercapacity: 70000
-    fighterlightslots: 3
-    fightersupportslots: 1
-    fightertubes: 3
-    fleethangarcapacity: 10000
-    fwlpkill: 4000
-    gatescramblestatus: -1000
-    gfxboosterid: 394
-    hasfleethangars: 1
-    hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.7099999785423279
-    heatcapacityhi: 100
-    heatcapacitylow: 100
-    heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.4000000059604645
-    hislots: 5
-    hp: 83500.0
-    id: 23911
-    iscapitalsize: 1
-    istitanjumpportalpassenger: 1
-    jumpdrivecapacitorneed: 0.949999988079071
-    jumpdriveconsumptionamount: 3000
-    jumpdriveconsumptiontype: 17887
-    jumpdriveduration: 300000
-    jumpdriverange: 3.5
-    jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
-    kineticdamageresonance: 0.6700000166893005
-    lowslots: 6
-    maincolor: 16777215
-    marketGroup: 820
-    mass: 1.22E9
-    maximumrangecap: 1000000000
-    maxlockedtargets: 14
-    maxoperationaldistance: 5000
-    maxoperationalusers: 10
-    maxpassengers: 150
-    maxtargetrange: 3670000.0
-    maxvelocity: 80.0
-    medslots: 5
-    name: Thanatos
-    packagedVolume: 1300000.0
-    portionSize: 1
-    poweroutput: 700000
-    powertospeed: 1
-    price: 2.934700032E9
-    propulsiongraphicid: 394
-    published: true
-    radius: 1134.0
-    rechargerate: 4200000.0
-    remoteassistanceimpedance: 1.0
-    remoterepairimpedance: 1.0
-    requiredskill1: 20533
-    requiredskill1level: 1
-    requiredskill2: 24313
-    requiredskill2level: 1
-    rigsize: 4
-    rigslots: 3
-    rolebonuscommandburstaoerange: 200
-    scanmagnetometricstrength: 76.0
-    scanresolution: 65.0
-    scanspeed: 6750
-    sensordampenerresistance: 1.0
-    shieldcapacity: 55500.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    shipbonuscarrierg1: 5
-    shipbonuscarrierg2: 5
-    shipbonuscarrierg3: 2.5
-    shipbonuscarrierg4: 1
-    shipbonusrole1: 1.0
-    shipmaintenancebaycapacity: 1000000
-    signatureradius: 9960.0
-    specialfuelbaycapacity: 3000
-    stasiswebifierresistance: 1.0
-    structureuniformity: 1.0
-    targetpainterresistance: 1.0
-    techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
-    typecolorscheme: 11331
-    uniformity: 1.0
-    upgradecapacity: 400
-    upgradeslotsleft: 3
-    volume: 1.3095E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0

@@ -149,7 +149,7 @@ public class SurveyScanner
         implements IMetaGroup<SurveyScanner>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/SurveyScanner.yaml";
-        private Map<String, SurveyScanner> cache = (null);
+        private Map<Integer, SurveyScanner> cache = (null);
 
         @Override
         public IMetaCategory<? super SurveyScanner> category() {
@@ -167,7 +167,7 @@ public class SurveyScanner
         }
 
         @Override
-        public synchronized Map<String, SurveyScanner> load() {
+        public synchronized Map<Integer, SurveyScanner> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SurveyScanner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -181,7 +181,7 @@ public class SurveyScanner
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyScanner> types;
+            public LinkedHashMap<Integer, SurveyScanner> types;
         }
     }
 }

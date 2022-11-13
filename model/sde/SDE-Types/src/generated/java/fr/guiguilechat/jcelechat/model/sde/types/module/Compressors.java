@@ -197,7 +197,7 @@ public class Compressors
         implements IMetaGroup<Compressors>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/Compressors.yaml";
-        private Map<String, Compressors> cache = (null);
+        private Map<Integer, Compressors> cache = (null);
 
         @Override
         public IMetaCategory<? super Compressors> category() {
@@ -215,7 +215,7 @@ public class Compressors
         }
 
         @Override
-        public synchronized Map<String, Compressors> load() {
+        public synchronized Map<Integer, Compressors> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Compressors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -229,7 +229,7 @@ public class Compressors
         }
 
         private static class Container {
-            public LinkedHashMap<String, Compressors> types;
+            public LinkedHashMap<Integer, Compressors> types;
         }
     }
 }

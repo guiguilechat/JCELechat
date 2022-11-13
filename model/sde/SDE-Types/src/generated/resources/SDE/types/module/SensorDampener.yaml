@@ -1,22 +1,20 @@
 types:
-  '''Executive'' Remote Sensor Dampener':
-    capacitorneed: 20.0
+  1968:
+    capacitorneed: 30.0
     capacity: 1.0
     chargegroup1: 911
     chargesize: 1
-    cpu: 28.0
+    cpu: 35.0
     duration: 10000.0
-    falloffeffectiveness: 60000
+    falloffeffectiveness: 50000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.4000000953674316
     hp: 40.0
-    id: 22945
+    id: 1968
     marketGroup: 679
-    maxrange: 30000.0
-    maxtargetrangebonus: -15.569999694824219
-    metagroupid: 3
-    metalevelold: 6
-    name: '''Executive'' Remote Sensor Dampener'
+    maxrange: 25000.0
+    maxtargetrangebonus: -13.699999809265137
+    name: Remote Sensor Dampener I
     overloadsensormodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -29,42 +27,42 @@ types:
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scanresolutionbonus: -15.569999694824219
+    scanresolutionbonus: -13.699999809265137
     techlevel: 1
     volume: 5.0
-  Kapteyn Compact Sensor Dampener:
-    capacitorneed: 30.0
+  1969:
+    capacitorneed: 36.0
     capacity: 1.0
     chargegroup1: 911
     chargesize: 1
-    cpu: 28.0
+    cpu: 42.0
     duration: 10000.0
-    falloffeffectiveness: 50000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    falloffeffectiveness: 60000
+    heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 3.4000000953674316
     hp: 40.0
-    id: 5301
+    id: 1969
     marketGroup: 679
-    maxrange: 25000.0
-    maxtargetrangebonus: -14.5
-    metalevelold: 1
-    name: Kapteyn Compact Sensor Dampener
+    maxrange: 30000.0
+    maxtargetrangebonus: -15.300000190734863
+    metalevelold: 5
+    name: Remote Sensor Dampener II
     overloadsensormodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 13948.0
+    price: 223452.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
     remoteresistanceid: 2112
     requiredskill1: 3433
-    requiredskill1level: 1
+    requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    scanresolutionbonus: -14.5
-    techlevel: 1
+    scanresolutionbonus: -15.300000190734863
+    techlevel: 2
     volume: 5.0
-  LFT Enduring Sensor Dampener:
+  5299:
     capacitorneed: 20.0
     capacity: 1.0
     chargegroup1: 911
@@ -96,7 +94,39 @@ types:
     scanresolutionbonus: -14.5
     techlevel: 1
     volume: 5.0
-  Phased Muon Scoped Sensor Dampener:
+  5301:
+    capacitorneed: 30.0
+    capacity: 1.0
+    chargegroup1: 911
+    chargesize: 1
+    cpu: 28.0
+    duration: 10000.0
+    falloffeffectiveness: 50000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 5301
+    marketGroup: 679
+    maxrange: 25000.0
+    maxtargetrangebonus: -14.5
+    metalevelold: 1
+    name: Kapteyn Compact Sensor Dampener
+    overloadsensormodulestrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 13948.0
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2112
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scanresolutionbonus: -14.5
+    techlevel: 1
+    volume: 5.0
+  5302:
     capacitorneed: 30.0
     capacity: 1.0
     chargegroup1: 911
@@ -128,22 +158,24 @@ types:
     scanresolutionbonus: -14.5
     techlevel: 1
     volume: 5.0
-  Remote Sensor Dampener I:
-    capacitorneed: 30.0
+  22945:
+    capacitorneed: 20.0
     capacity: 1.0
     chargegroup1: 911
     chargesize: 1
-    cpu: 35.0
+    cpu: 28.0
     duration: 10000.0
-    falloffeffectiveness: 50000
+    falloffeffectiveness: 60000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.4000000953674316
     hp: 40.0
-    id: 1968
+    id: 22945
     marketGroup: 679
-    maxrange: 25000.0
-    maxtargetrangebonus: -13.699999809265137
-    name: Remote Sensor Dampener I
+    maxrange: 30000.0
+    maxtargetrangebonus: -15.569999694824219
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Executive'' Remote Sensor Dampener'
     overloadsensormodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -156,38 +188,6 @@ types:
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scanresolutionbonus: -13.699999809265137
+    scanresolutionbonus: -15.569999694824219
     techlevel: 1
-    volume: 5.0
-  Remote Sensor Dampener II:
-    capacitorneed: 36.0
-    capacity: 1.0
-    chargegroup1: 911
-    chargesize: 1
-    cpu: 42.0
-    duration: 10000.0
-    falloffeffectiveness: 60000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 1969
-    marketGroup: 679
-    maxrange: 30000.0
-    maxtargetrangebonus: -15.300000190734863
-    metalevelold: 5
-    name: Remote Sensor Dampener II
-    overloadsensormodulestrengthbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    price: 223452.0
-    published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
-    remoteresistanceid: 2112
-    requiredskill1: 3433
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    scanresolutionbonus: -15.300000190734863
-    techlevel: 2
     volume: 5.0

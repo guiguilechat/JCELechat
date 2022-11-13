@@ -1,5 +1,41 @@
 types:
-  Covert Cynosural Field Generator I:
+  21096:
+    cancloak: 1
+    canfitshipgroup01: 833
+    canfitshipgroup02: 898
+    canfitshiptype1: 11019
+    consumptionquantity: 500
+    consumptiontype: 16273
+    cpu: 50.0
+    cynosuralfieldspawnradius: 5000
+    deadspaceunsafe: 2
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 600000.0
+    hp: 999999.0
+    id: 21096
+    jumpharmonics: -5
+    marketGroup: 1641
+    maxgroupactive: 1
+    maxvelocityactivationlimit: 500
+    maxvelocitylimited: 1
+    modulereactivationdelay: 30000
+    name: Cynosural Field Generator I
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 20
+    price: 3137264.0
+    published: true
+    radius: 1.0
+    requiredskill1: 21603
+    requiredskill1level: 1
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    techlevel: 1
+    volume: 50.0
+  28646:
     cancloak: 1
     canfitshipgroup01: 898
     canfitshipgroup02: 830
@@ -42,43 +78,7 @@ types:
     speedfactor: -100.0
     techlevel: 1
     volume: 25.0
-  Cynosural Field Generator I:
-    cancloak: 1
-    canfitshipgroup01: 833
-    canfitshipgroup02: 898
-    canfitshiptype1: 11019
-    consumptionquantity: 500
-    consumptiontype: 16273
-    cpu: 50.0
-    cynosuralfieldspawnradius: 5000
-    deadspaceunsafe: 2
-    disallowactivateonwarp: 1
-    disallowdocking: 1
-    disallowearlydeactivation: 1
-    disallowtethering: 1
-    duration: 600000.0
-    hp: 999999.0
-    id: 21096
-    jumpharmonics: -5
-    marketGroup: 1641
-    maxgroupactive: 1
-    maxvelocityactivationlimit: 500
-    maxvelocitylimited: 1
-    modulereactivationdelay: 30000
-    name: Cynosural Field Generator I
-    packagedVolume: 50.0
-    portionSize: 1
-    power: 20
-    price: 3137264.0
-    published: true
-    radius: 1.0
-    requiredskill1: 21603
-    requiredskill1level: 1
-    siegemodewarpstatus: 100
-    speedfactor: -100.0
-    techlevel: 1
-    volume: 50.0
-  Industrial Cynosural Field Generator:
+  52694:
     cancloak: 1
     canfitshipgroup01: 28
     canfitshipgroup02: 1202

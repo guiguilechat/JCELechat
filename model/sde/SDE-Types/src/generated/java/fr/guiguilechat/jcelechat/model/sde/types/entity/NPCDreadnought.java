@@ -1178,7 +1178,7 @@ public class NPCDreadnought
         implements IMetaGroup<NPCDreadnought>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/NPCDreadnought.yaml";
-        private Map<String, NPCDreadnought> cache = (null);
+        private Map<Integer, NPCDreadnought> cache = (null);
 
         @Override
         public IMetaCategory<? super NPCDreadnought> category() {
@@ -1196,7 +1196,7 @@ public class NPCDreadnought
         }
 
         @Override
-        public synchronized Map<String, NPCDreadnought> load() {
+        public synchronized Map<Integer, NPCDreadnought> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NPCDreadnought.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1210,7 +1210,7 @@ public class NPCDreadnought
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCDreadnought> types;
+            public LinkedHashMap<Integer, NPCDreadnought> types;
         }
     }
 }

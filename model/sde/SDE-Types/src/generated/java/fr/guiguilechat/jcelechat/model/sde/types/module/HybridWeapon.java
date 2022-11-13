@@ -505,7 +505,7 @@ public class HybridWeapon
         implements IMetaGroup<HybridWeapon>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/HybridWeapon.yaml";
-        private Map<String, HybridWeapon> cache = (null);
+        private Map<Integer, HybridWeapon> cache = (null);
 
         @Override
         public IMetaCategory<? super HybridWeapon> category() {
@@ -523,7 +523,7 @@ public class HybridWeapon
         }
 
         @Override
-        public synchronized Map<String, HybridWeapon> load() {
+        public synchronized Map<Integer, HybridWeapon> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HybridWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -537,7 +537,7 @@ public class HybridWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridWeapon> types;
+            public LinkedHashMap<Integer, HybridWeapon> types;
         }
     }
 }

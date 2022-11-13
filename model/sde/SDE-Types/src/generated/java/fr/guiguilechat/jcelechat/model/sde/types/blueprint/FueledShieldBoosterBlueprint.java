@@ -83,7 +83,7 @@ public class FueledShieldBoosterBlueprint
         implements IMetaGroup<FueledShieldBoosterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/FueledShieldBoosterBlueprint.yaml";
-        private Map<String, FueledShieldBoosterBlueprint> cache = (null);
+        private Map<Integer, FueledShieldBoosterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super FueledShieldBoosterBlueprint> category() {
@@ -101,7 +101,7 @@ public class FueledShieldBoosterBlueprint
         }
 
         @Override
-        public synchronized Map<String, FueledShieldBoosterBlueprint> load() {
+        public synchronized Map<Integer, FueledShieldBoosterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FueledShieldBoosterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class FueledShieldBoosterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, FueledShieldBoosterBlueprint> types;
+            public LinkedHashMap<Integer, FueledShieldBoosterBlueprint> types;
         }
     }
 }

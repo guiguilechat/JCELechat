@@ -1,19 +1,5 @@
 types:
-  Enormous Freight Container:
-    capacity: 250000.0
-    hp: 10.0
-    id: 33003
-    marketGroup: 1653
-    mass: 1000000.0
-    name: Enormous Freight Container
-    packagedVolume: 2500.0
-    portionSize: 1
-    price: 110000.0
-    published: true
-    radius: 150.0
-    structureuniformity: 1.0
-    volume: 250000.0
-  Giant Freight Container:
+  24445:
     capacity: 120000.0
     hp: 10.0
     id: 24445
@@ -27,7 +13,21 @@ types:
     radius: 150.0
     structureuniformity: 1.0
     volume: 120000.0
-  Huge Freight Container:
+  33003:
+    capacity: 250000.0
+    hp: 10.0
+    id: 33003
+    marketGroup: 1653
+    mass: 1000000.0
+    name: Enormous Freight Container
+    packagedVolume: 2500.0
+    portionSize: 1
+    price: 110000.0
+    published: true
+    radius: 150.0
+    structureuniformity: 1.0
+    volume: 250000.0
+  33005:
     capacity: 50000.0
     hp: 10.0
     id: 33005
@@ -41,7 +41,7 @@ types:
     radius: 150.0
     structureuniformity: 1.0
     volume: 50000.0
-  Large Freight Container:
+  33007:
     capacity: 10000.0
     hp: 10.0
     id: 33007
@@ -55,7 +55,7 @@ types:
     radius: 150.0
     structureuniformity: 1.0
     volume: 10000.0
-  Medium Freight Container:
+  33009:
     capacity: 5000.0
     hp: 10.0
     id: 33009
@@ -69,7 +69,7 @@ types:
     radius: 150.0
     structureuniformity: 1.0
     volume: 5000.0
-  Small Freight Container:
+  33011:
     capacity: 1000.0
     hp: 10.0
     id: 33011

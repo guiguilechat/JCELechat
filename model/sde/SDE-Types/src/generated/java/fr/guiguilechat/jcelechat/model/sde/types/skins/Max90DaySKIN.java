@@ -32,7 +32,7 @@ public class Max90DaySKIN
         implements IMetaGroup<Max90DaySKIN>
     {
         public static final String RESOURCE_PATH = "SDE/types/skins/Max90DaySKIN.yaml";
-        private Map<String, Max90DaySKIN> cache = (null);
+        private Map<Integer, Max90DaySKIN> cache = (null);
 
         @Override
         public IMetaCategory<? super Max90DaySKIN> category() {
@@ -50,7 +50,7 @@ public class Max90DaySKIN
         }
 
         @Override
-        public synchronized Map<String, Max90DaySKIN> load() {
+        public synchronized Map<Integer, Max90DaySKIN> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Max90DaySKIN.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class Max90DaySKIN
         }
 
         private static class Container {
-            public LinkedHashMap<String, Max90DaySKIN> types;
+            public LinkedHashMap<Integer, Max90DaySKIN> types;
         }
     }
 }

@@ -83,7 +83,7 @@ public class StructureAreaDenialAmmoBlueprint
         implements IMetaGroup<StructureAreaDenialAmmoBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/StructureAreaDenialAmmoBlueprint.yaml";
-        private Map<String, StructureAreaDenialAmmoBlueprint> cache = (null);
+        private Map<Integer, StructureAreaDenialAmmoBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureAreaDenialAmmoBlueprint> category() {
@@ -101,7 +101,7 @@ public class StructureAreaDenialAmmoBlueprint
         }
 
         @Override
-        public synchronized Map<String, StructureAreaDenialAmmoBlueprint> load() {
+        public synchronized Map<Integer, StructureAreaDenialAmmoBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureAreaDenialAmmoBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class StructureAreaDenialAmmoBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureAreaDenialAmmoBlueprint> types;
+            public LinkedHashMap<Integer, StructureAreaDenialAmmoBlueprint> types;
         }
     }
 }

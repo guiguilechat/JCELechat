@@ -1,5 +1,5 @@
 types:
-  Barren Extractor Control Unit:
+  2848:
     cpuload: 400
     ecuextractorheadcpu: 110
     ecuextractorheadpower: 550
@@ -15,7 +15,7 @@ types:
     price: 45000.0
     published: true
     radius: 1.0
-  Gas Extractor Control Unit:
+  3060:
     cpuload: 400
     ecuextractorheadcpu: 110
     ecuextractorheadpower: 550
@@ -31,7 +31,7 @@ types:
     price: 45000.0
     published: true
     radius: 1.0
-  Ice Extractor Control Unit:
+  3061:
     cpuload: 400
     ecuextractorheadcpu: 110
     ecuextractorheadpower: 550
@@ -47,7 +47,7 @@ types:
     price: 45000.0
     published: true
     radius: 1.0
-  Lava Extractor Control Unit:
+  3062:
     cpuload: 400
     ecuextractorheadcpu: 110
     ecuextractorheadpower: 550
@@ -63,7 +63,7 @@ types:
     price: 45000.0
     published: true
     radius: 1.0
-  Oceanic Extractor Control Unit:
+  3063:
     cpuload: 400
     ecuextractorheadcpu: 110
     ecuextractorheadpower: 550
@@ -79,7 +79,7 @@ types:
     price: 45000.0
     published: true
     radius: 1.0
-  Plasma Extractor Control Unit:
+  3064:
     cpuload: 400
     ecuextractorheadcpu: 110
     ecuextractorheadpower: 550
@@ -95,7 +95,7 @@ types:
     price: 45000.0
     published: true
     radius: 1.0
-  Storm Extractor Control Unit:
+  3067:
     cpuload: 400
     ecuextractorheadcpu: 110
     ecuextractorheadpower: 550
@@ -111,7 +111,7 @@ types:
     price: 45000.0
     published: true
     radius: 1.0
-  Temperate Extractor Control Unit:
+  3068:
     cpuload: 400
     ecuextractorheadcpu: 110
     ecuextractorheadpower: 550

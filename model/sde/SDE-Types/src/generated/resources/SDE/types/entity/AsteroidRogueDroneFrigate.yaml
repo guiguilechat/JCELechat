@@ -1,5 +1,5 @@
 types:
-  Barracuda Drone:
+  25636:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -91,7 +91,7 @@ types:
     trackingspeed: 0.06599999964237213
     volume: 60.0
     warpscrambleduration: 8000
-  Decimator Drone:
+  25641:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -181,7 +181,7 @@ types:
     trackingspeed: 0.3499999940395355
     volume: 60.0
     warpscrambleduration: 8000
-  Devilfish Drone:
+  25645:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -270,7 +270,7 @@ types:
     trackingspeed: 0.3149999976158142
     volume: 60.0
     warpscrambleduration: 8000
-  Hunter Drone:
+  25656:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -361,7 +361,7 @@ types:
     trackingspeed: 0.0820000022649765
     volume: 60.0
     warpscrambleduration: 8000
-  Infester Drone:
+  25658:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -451,7 +451,7 @@ types:
     trackingspeed: 0.39500001072883606
     volume: 60.0
     warpscrambleduration: 8000
-  Raider Drone:
+  25667:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -541,7 +541,7 @@ types:
     trackingspeed: 0.0820000022649765
     volume: 60.0
     warpscrambleduration: 8000
-  Render Drone:
+  25668:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -631,7 +631,7 @@ types:
     trackingspeed: 0.3499999940395355
     volume: 60.0
     warpscrambleduration: 8000
-  Silverfish Drone:
+  25674:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -720,7 +720,7 @@ types:
     trackingspeed: 0.3149999976158142
     volume: 60.0
     warpscrambleduration: 8000
-  Splinter Drone:
+  25676:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -810,7 +810,7 @@ types:
     trackingspeed: 0.39500001072883606
     volume: 60.0
     warpscrambleduration: 8000
-  Strain Barracuda Drone:
+  25679:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -903,7 +903,7 @@ types:
     trackingspeed: 0.06599999964237213
     volume: 60.0
     warpscrambleduration: 8000
-  Strain Decimator Drone:
+  25681:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -998,7 +998,7 @@ types:
     warpscrambleduration: 10000
     warpscramblerange: 20000
     warpscramblestrength: 1
-  Strain Devilfish Drone:
+  25684:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1089,7 +1089,7 @@ types:
     trackingspeed: 0.3149999976158142
     volume: 60.0
     warpscrambleduration: 8000
-  Strain Hunter Drone:
+  25686:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1180,7 +1180,7 @@ types:
     trackingspeed: 0.0820000022649765
     volume: 60.0
     warpscrambleduration: 8000
-  Strain Infester Drone:
+  25687:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1275,7 +1275,7 @@ types:
     warpscrambleduration: 10000
     warpscramblerange: 7500
     warpscramblestrength: 2
-  Strain Raider Drone:
+  25689:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1367,7 +1367,7 @@ types:
     trackingspeed: 0.0820000022649765
     volume: 60.0
     warpscrambleduration: 8000
-  Strain Render Drone:
+  25690:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1461,7 +1461,7 @@ types:
     warpscrambleduration: 10000
     warpscramblerange: 20000
     warpscramblestrength: 1
-  Strain Silverfish Drone:
+  25691:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1551,7 +1551,7 @@ types:
     trackingspeed: 0.3149999976158142
     volume: 60.0
     warpscrambleduration: 8000
-  Strain Splinter Drone:
+  25692:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1645,7 +1645,7 @@ types:
     warpscrambleduration: 10000
     warpscramblerange: 7500
     warpscramblestrength: 2
-  Strain Sunder Drone:
+  25693:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -1736,7 +1736,7 @@ types:
     trackingspeed: 0.3499999940395355
     volume: 60.0
     warpscrambleduration: 8000
-  Sunder Drone:
+  25698:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

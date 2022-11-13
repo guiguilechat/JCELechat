@@ -233,8 +233,8 @@ public class AttackBattlecruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusabc2;
+    @DefaultRealValue(0.0)
+    public double shipbonusabc2;
     /**
      * 
      */
@@ -407,7 +407,7 @@ public class AttackBattlecruiser
         implements IMetaGroup<AttackBattlecruiser>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/AttackBattlecruiser.yaml";
-        private Map<String, AttackBattlecruiser> cache = (null);
+        private Map<Integer, AttackBattlecruiser> cache = (null);
 
         @Override
         public IMetaCategory<? super AttackBattlecruiser> category() {
@@ -425,7 +425,7 @@ public class AttackBattlecruiser
         }
 
         @Override
-        public synchronized Map<String, AttackBattlecruiser> load() {
+        public synchronized Map<Integer, AttackBattlecruiser> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AttackBattlecruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -439,7 +439,7 @@ public class AttackBattlecruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, AttackBattlecruiser> types;
+            public LinkedHashMap<Integer, AttackBattlecruiser> types;
         }
     }
 }

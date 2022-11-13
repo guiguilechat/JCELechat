@@ -83,7 +83,7 @@ public class SpecialEditionCommodityBlueprints
         implements IMetaGroup<SpecialEditionCommodityBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SpecialEditionCommodityBlueprints.yaml";
-        private Map<String, SpecialEditionCommodityBlueprints> cache = (null);
+        private Map<Integer, SpecialEditionCommodityBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super SpecialEditionCommodityBlueprints> category() {
@@ -101,7 +101,7 @@ public class SpecialEditionCommodityBlueprints
         }
 
         @Override
-        public synchronized Map<String, SpecialEditionCommodityBlueprints> load() {
+        public synchronized Map<Integer, SpecialEditionCommodityBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SpecialEditionCommodityBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class SpecialEditionCommodityBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpecialEditionCommodityBlueprints> types;
+            public LinkedHashMap<Integer, SpecialEditionCommodityBlueprints> types;
         }
     }
 }

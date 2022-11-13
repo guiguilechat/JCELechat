@@ -1,5 +1,5 @@
 types:
-  Athanor:
+  35835:
     armordamagelimit: 5000
     armoremdamageresonance: 0.800000011920929
     armorexplosivedamageresonance: 0.800000011920929
@@ -79,7 +79,7 @@ types:
     upgradeslotsleft: 3
     volume: 8000.0
     weapondisruptionresistance: 9.999999747378752E-6
-  Tatara:
+  35836:
     armordamagelimit: 15000
     armoremdamageresonance: 0.800000011920929
     armorexplosivedamageresonance: 0.800000011920929

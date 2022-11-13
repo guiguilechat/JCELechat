@@ -1,39 +1,5 @@
 types:
-  Large Audit Log Secure Container:
-    canbejettisoned: 1
-    capacity: 780.0
-    hp: 1.0E7
-    id: 17365
-    marketGroup: 1652
-    mass: 1000000.0
-    name: Large Audit Log Secure Container
-    packagedVolume: 65.0
-    portionSize: 1
-    price: 310000.0
-    published: true
-    radius: 50.0
-    requiredskill1: 11584
-    requiredskill1level: 1
-    structureuniformity: 1.0
-    volume: 650.0
-  Medium Audit Log Secure Container:
-    canbejettisoned: 1
-    capacity: 390.0
-    hp: 1000000.0
-    id: 17364
-    marketGroup: 1652
-    mass: 100000.0
-    name: Medium Audit Log Secure Container
-    packagedVolume: 33.0
-    portionSize: 1
-    price: 145000.0
-    published: true
-    radius: 20.0
-    requiredskill1: 11584
-    requiredskill1level: 1
-    structureuniformity: 1.0
-    volume: 325.0
-  Small Audit Log Secure Container:
+  17363:
     canbejettisoned: 1
     capacity: 120.0
     hp: 100000.0
@@ -50,7 +16,41 @@ types:
     requiredskill1level: 1
     structureuniformity: 1.0
     volume: 100.0
-  Station Container:
+  17364:
+    canbejettisoned: 1
+    capacity: 390.0
+    hp: 1000000.0
+    id: 17364
+    marketGroup: 1652
+    mass: 100000.0
+    name: Medium Audit Log Secure Container
+    packagedVolume: 33.0
+    portionSize: 1
+    price: 145000.0
+    published: true
+    radius: 20.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    structureuniformity: 1.0
+    volume: 325.0
+  17365:
+    canbejettisoned: 1
+    capacity: 780.0
+    hp: 1.0E7
+    id: 17365
+    marketGroup: 1652
+    mass: 1000000.0
+    name: Large Audit Log Secure Container
+    packagedVolume: 65.0
+    portionSize: 1
+    price: 310000.0
+    published: true
+    radius: 50.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    structureuniformity: 1.0
+    volume: 650.0
+  17366:
     canbejettisoned: 1
     capacity: 1000000.0
     hp: 1.0E7
@@ -65,7 +65,7 @@ types:
     radius: 111.0
     structureuniformity: 1.0
     volume: 2000000.0
-  Station Vault Container:
+  17367:
     canbejettisoned: 1
     capacity: 1.0E7
     hp: 1.0E7
@@ -80,7 +80,7 @@ types:
     radius: 220.0
     structureuniformity: 1.0
     volume: 5000000.0
-  Station Warehouse Container:
+  17368:
     canbejettisoned: 1
     capacity: 1.0E8
     hp: 1.0E8

@@ -313,7 +313,7 @@ public class FlexArmorHardener
         implements IMetaGroup<FlexArmorHardener>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/FlexArmorHardener.yaml";
-        private Map<String, FlexArmorHardener> cache = (null);
+        private Map<Integer, FlexArmorHardener> cache = (null);
 
         @Override
         public IMetaCategory<? super FlexArmorHardener> category() {
@@ -331,7 +331,7 @@ public class FlexArmorHardener
         }
 
         @Override
-        public synchronized Map<String, FlexArmorHardener> load() {
+        public synchronized Map<Integer, FlexArmorHardener> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(FlexArmorHardener.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -345,7 +345,7 @@ public class FlexArmorHardener
         }
 
         private static class Container {
-            public LinkedHashMap<String, FlexArmorHardener> types;
+            public LinkedHashMap<Integer, FlexArmorHardener> types;
         }
     }
 }

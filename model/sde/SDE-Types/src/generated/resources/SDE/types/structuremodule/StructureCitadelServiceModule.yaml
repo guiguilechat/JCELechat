@@ -1,27 +1,5 @@
 types:
-  Standup Cloning Center I:
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    cpu: 600.0
-    id: 35894
-    marketGroup: 2232
-    mass: 500.0
-    maxtypefitted: 1
-    name: Standup Cloning Center I
-    packagedVolume: 4000.0
-    portionSize: 1
-    power: 70000
-    published: true
-    radius: 1.0
-    servicemodulefuelamount: 10
-    servicemodulefuelconsumptiongroup: 1136
-    servicemodulefuelonlineamount: 720
-    servicemodulefullpowerstatearmorplatingmultiplier: 1
-    servicemodulefullpowerstatehitpointmultiplier: 4
-    structureitemvisualflag: 1
-    volume: 4000.0
-  Standup Market Hub I:
+  35892:
     canfitshiptype1: 35833
     canfitshiptype10: 47515
     canfitshiptype11: 47516
@@ -51,3 +29,25 @@ types:
     servicemodulefullpowerstatehitpointmultiplier: 4
     structureitemvisualflag: 1
     volume: 32000.0
+  35894:
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    cpu: 600.0
+    id: 35894
+    marketGroup: 2232
+    mass: 500.0
+    maxtypefitted: 1
+    name: Standup Cloning Center I
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 70000
+    published: true
+    radius: 1.0
+    servicemodulefuelamount: 10
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 720
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
+    volume: 4000.0

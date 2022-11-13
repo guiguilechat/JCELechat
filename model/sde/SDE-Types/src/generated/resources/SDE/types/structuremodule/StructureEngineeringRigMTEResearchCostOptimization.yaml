@@ -1,32 +1,5 @@
 types:
-  Standup M-Set TE Research Cost Optimization I:
-    attributeengrigcostbonus: -10
-    attributeengrigtimebonus: 1
-    canfitshipgroup01: 1657
-    canfitshipgroup02: 1404
-    canfitshipgroup03: 1406
-    hisecmodifier: 1.0
-    hp: 40.0
-    id: 43887
-    lowsecmodifier: 1.899999976158142
-    marketGroup: 2347
-    mass: 200.0
-    maxgroupfitted: 1
-    name: Standup M-Set TE Research Cost Optimization I
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    requiredskill1: 26252
-    requiredskill1level: 1
-    rigsize: 2
-    securitymodifier: 1
-    structureitemvisualflag: 1
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Standup M-Set TE Research Cost Optimization II:
+  43886:
     attributeengrigcostbonus: -12
     attributeengrigtimebonus: 1
     canfitshipgroup01: 1657
@@ -52,4 +25,31 @@ types:
     structureitemvisualflag: 1
     techlevel: 2
     upgradecost: 150
+    volume: 10.0
+  43887:
+    attributeengrigcostbonus: -10
+    attributeengrigtimebonus: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
+    id: 43887
+    lowsecmodifier: 1.899999976158142
+    marketGroup: 2347
+    mass: 200.0
+    maxgroupfitted: 1
+    name: Standup M-Set TE Research Cost Optimization I
+    nullsecmodifier: 2.0999999046325684
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
     volume: 10.0

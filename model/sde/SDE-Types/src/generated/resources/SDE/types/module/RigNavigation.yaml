@@ -1,337 +1,5 @@
 types:
-  Capital Auxiliary Thrusters I:
-    drawback: -10
-    hp: 40.0
-    id: 31109
-    marketGroup: 1740
-    mass: 200.0
-    name: Capital Auxiliary Thrusters I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 100
-    velocitybonus: 7.25
-    volume: 40.0
-  Capital Auxiliary Thrusters II:
-    drawback: -10
-    hp: 40.0
-    id: 31115
-    marketGroup: 1740
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Auxiliary Thrusters II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 150
-    velocitybonus: 8.75
-    volume: 40.0
-  Capital Cargohold Optimization I:
-    cargocapacitybonus: 15
-    drawback: -10
-    hp: 40.0
-    id: 31121
-    marketGroup: 1740
-    mass: 200.0
-    name: Capital Cargohold Optimization I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Cargohold Optimization II:
-    cargocapacitybonus: 20
-    drawback: -10
-    hp: 40.0
-    id: 31127
-    marketGroup: 1740
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Cargohold Optimization II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Dynamic Fuel Valve I:
-    capneedbonus: -15
-    drawback: -10
-    hp: 40.0
-    id: 31133
-    marketGroup: 1740
-    mass: 200.0
-    name: Capital Dynamic Fuel Valve I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Dynamic Fuel Valve II:
-    capneedbonus: -20
-    drawback: -10
-    hp: 40.0
-    id: 31139
-    marketGroup: 1740
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Dynamic Fuel Valve II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Engine Thermal Shielding I:
-    drawback: -10
-    durationbonus: 20
-    hp: 40.0
-    id: 31145
-    marketGroup: 1740
-    mass: 200.0
-    name: Capital Engine Thermal Shielding I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Engine Thermal Shielding II:
-    drawback: -10
-    durationbonus: 25
-    hp: 40.0
-    id: 31151
-    marketGroup: 1740
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Engine Thermal Shielding II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Hyperspatial Velocity Optimizer I:
-    drawback: 10
-    hp: 40.0
-    id: 31163
-    marketGroup: 1740
-    mass: 200.0
-    name: Capital Hyperspatial Velocity Optimizer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-    warpsbonus: 20
-  Capital Hyperspatial Velocity Optimizer II:
-    drawback: 10
-    hp: 40.0
-    id: 31169
-    marketGroup: 1740
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Hyperspatial Velocity Optimizer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-    warpsbonus: 25
-  Capital Low Friction Nozzle Joints I:
-    agilitybonus: -11.699999809265137
-    drawback: -10
-    hp: 40.0
-    id: 31157
-    marketGroup: 1740
-    mass: 200.0
-    name: Capital Low Friction Nozzle Joints I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Low Friction Nozzle Joints II:
-    agilitybonus: -14.0
-    drawback: -10
-    hp: 40.0
-    id: 31175
-    marketGroup: 1740
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Low Friction Nozzle Joints II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Polycarbon Engine Housing I:
-    agilitybonus: -9.100000381469727
-    drawback: -10
-    hp: 40.0
-    id: 31181
-    implantbonusvelocity: 5.5
-    marketGroup: 1740
-    mass: 200.0
-    name: Capital Polycarbon Engine Housing I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 100
-    volume: 40.0
-  Capital Polycarbon Engine Housing II:
-    agilitybonus: -11.0
-    drawback: -10
-    hp: 40.0
-    id: 31187
-    implantbonusvelocity: 6.599999904632568
-    marketGroup: 1740
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Polycarbon Engine Housing II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 150
-    volume: 40.0
-  Capital Warp Core Optimizer I:
-    drawback: 10
-    hp: 40.0
-    id: 31193
-    marketGroup: 1740
-    mass: 200.0
-    name: Capital Warp Core Optimizer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-    warpcapacitorneedbonus: -40
-  Capital Warp Core Optimizer II:
-    drawback: 10
-    hp: 40.0
-    id: 31199
-    marketGroup: 1740
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Warp Core Optimizer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-    warpcapacitorneedbonus: -50
-  Large Auxiliary Thrusters I:
-    drawback: -10
-    hp: 40.0
-    id: 26060
-    marketGroup: 1212
-    mass: 200.0
-    name: Large Auxiliary Thrusters I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 100
-    velocitybonus: 7.25
-    volume: 20.0
-  Large Auxiliary Thrusters II:
-    drawback: -10
-    hp: 40.0
-    id: 26318
-    marketGroup: 1212
-    mass: 200.0
-    metalevelold: 5
-    name: Large Auxiliary Thrusters II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 150
-    velocitybonus: 8.75
-    volume: 20.0
-  Large Cargohold Optimization I:
-    cargocapacitybonus: 15
-    drawback: -10
-    hp: 40.0
-    id: 26072
-    marketGroup: 1212
-    mass: 200.0
-    name: Large Cargohold Optimization I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 100
-    volume: 20.0
-  Large Cargohold Optimization II:
-    cargocapacitybonus: 20
-    drawback: -10
-    hp: 40.0
-    id: 26304
-    marketGroup: 1212
-    mass: 200.0
-    metalevelold: 5
-    name: Large Cargohold Optimization II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 150
-    volume: 20.0
-  Large Dynamic Fuel Valve I:
+  26056:
     capneedbonus: -15
     drawback: -10
     hp: 40.0
@@ -347,90 +15,7 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 20.0
-  Large Dynamic Fuel Valve II:
-    capneedbonus: -20
-    drawback: -10
-    hp: 40.0
-    id: 26306
-    marketGroup: 1212
-    mass: 200.0
-    metalevelold: 5
-    name: Large Dynamic Fuel Valve II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 75
-    volume: 20.0
-  Large Engine Thermal Shielding I:
-    drawback: -10
-    durationbonus: 20
-    hp: 40.0
-    id: 26062
-    marketGroup: 1212
-    mass: 200.0
-    name: Large Engine Thermal Shielding I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Engine Thermal Shielding II:
-    drawback: -10
-    durationbonus: 25
-    hp: 40.0
-    id: 26308
-    marketGroup: 1212
-    mass: 200.0
-    metalevelold: 5
-    name: Large Engine Thermal Shielding II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 75
-    volume: 20.0
-  Large Hyperspatial Velocity Optimizer I:
-    drawback: 10
-    hp: 40.0
-    id: 26068
-    marketGroup: 1212
-    mass: 200.0
-    name: Large Hyperspatial Velocity Optimizer I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-    warpsbonus: 20
-  Large Hyperspatial Velocity Optimizer II:
-    drawback: 10
-    hp: 40.0
-    id: 26322
-    marketGroup: 1212
-    mass: 200.0
-    metalevelold: 5
-    name: Large Hyperspatial Velocity Optimizer II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 75
-    volume: 20.0
-    warpsbonus: 25
-  Large Low Friction Nozzle Joints I:
+  26058:
     agilitybonus: -11.699999809265137
     drawback: -10
     hp: 40.0
@@ -446,24 +31,71 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 20.0
-  Large Low Friction Nozzle Joints II:
-    agilitybonus: -14.0
+  26060:
     drawback: -10
     hp: 40.0
-    id: 26310
+    id: 26060
     marketGroup: 1212
     mass: 200.0
-    metalevelold: 5
-    name: Large Low Friction Nozzle Joints II
+    name: Large Auxiliary Thrusters I
     packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    techlevel: 2
-    upgradecost: 75
+    techlevel: 1
+    upgradecost: 100
+    velocitybonus: 7.25
     volume: 20.0
-  Large Polycarbon Engine Housing I:
+  26062:
+    drawback: -10
+    durationbonus: 20
+    hp: 40.0
+    id: 26062
+    marketGroup: 1212
+    mass: 200.0
+    name: Large Engine Thermal Shielding I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  26066:
+    drawback: 10
+    hp: 40.0
+    id: 26066
+    marketGroup: 1212
+    mass: 200.0
+    name: Large Warp Core Optimizer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+    warpcapacitorneedbonus: -40
+  26068:
+    drawback: 10
+    hp: 40.0
+    id: 26068
+    marketGroup: 1212
+    mass: 200.0
+    name: Large Hyperspatial Velocity Optimizer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+    warpsbonus: 20
+  26070:
     agilitybonus: -9.100000381469727
     drawback: -10
     hp: 40.0
@@ -480,7 +112,91 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Large Polycarbon Engine Housing II:
+  26072:
+    cargocapacitybonus: 15
+    drawback: -10
+    hp: 40.0
+    id: 26072
+    marketGroup: 1212
+    mass: 200.0
+    name: Large Cargohold Optimization I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 100
+    volume: 20.0
+  26304:
+    cargocapacitybonus: 20
+    drawback: -10
+    hp: 40.0
+    id: 26304
+    marketGroup: 1212
+    mass: 200.0
+    metalevelold: 5
+    name: Large Cargohold Optimization II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 150
+    volume: 20.0
+  26306:
+    capneedbonus: -20
+    drawback: -10
+    hp: 40.0
+    id: 26306
+    marketGroup: 1212
+    mass: 200.0
+    metalevelold: 5
+    name: Large Dynamic Fuel Valve II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 75
+    volume: 20.0
+  26308:
+    drawback: -10
+    durationbonus: 25
+    hp: 40.0
+    id: 26308
+    marketGroup: 1212
+    mass: 200.0
+    metalevelold: 5
+    name: Large Engine Thermal Shielding II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 75
+    volume: 20.0
+  26310:
+    agilitybonus: -14.0
+    drawback: -10
+    hp: 40.0
+    id: 26310
+    marketGroup: 1212
+    mass: 200.0
+    metalevelold: 5
+    name: Large Low Friction Nozzle Joints II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 75
+    volume: 20.0
+  26312:
     agilitybonus: -11.0
     drawback: -10
     hp: 40.0
@@ -498,23 +214,24 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 20.0
-  Large Warp Core Optimizer I:
-    drawback: 10
+  26318:
+    drawback: -10
     hp: 40.0
-    id: 26066
+    id: 26318
     marketGroup: 1212
     mass: 200.0
-    name: Large Warp Core Optimizer I
+    metalevelold: 5
+    name: Large Auxiliary Thrusters II
     packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    techlevel: 1
-    upgradecost: 50
+    techlevel: 2
+    upgradecost: 150
+    velocitybonus: 8.75
     volume: 20.0
-    warpcapacitorneedbonus: -40
-  Large Warp Core Optimizer II:
+  26320:
     drawback: 10
     hp: 40.0
     id: 26320
@@ -531,273 +248,24 @@ types:
     upgradecost: 75
     volume: 20.0
     warpcapacitorneedbonus: -50
-  Medium Auxiliary Thrusters I:
-    drawback: -10
-    hp: 40.0
-    id: 31107
-    marketGroup: 1211
-    mass: 200.0
-    name: Medium Auxiliary Thrusters I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 100
-    velocitybonus: 7.25
-    volume: 10.0
-  Medium Auxiliary Thrusters II:
-    drawback: -10
-    hp: 40.0
-    id: 31113
-    marketGroup: 1211
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Auxiliary Thrusters II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 150
-    velocitybonus: 8.75
-    volume: 10.0
-  Medium Cargohold Optimization I:
-    cargocapacitybonus: 15
-    drawback: -10
-    hp: 40.0
-    id: 31119
-    marketGroup: 1211
-    mass: 200.0
-    name: Medium Cargohold Optimization I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Cargohold Optimization II:
-    cargocapacitybonus: 20
-    drawback: -10
-    hp: 40.0
-    id: 31125
-    marketGroup: 1211
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Cargohold Optimization II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Dynamic Fuel Valve I:
-    capneedbonus: -15
-    drawback: -10
-    hp: 40.0
-    id: 31131
-    marketGroup: 1211
-    mass: 200.0
-    name: Medium Dynamic Fuel Valve I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Dynamic Fuel Valve II:
-    capneedbonus: -20
-    drawback: -10
-    hp: 40.0
-    id: 31137
-    marketGroup: 1211
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Dynamic Fuel Valve II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Engine Thermal Shielding I:
-    drawback: -10
-    durationbonus: 20
-    hp: 40.0
-    id: 31143
-    marketGroup: 1211
-    mass: 200.0
-    name: Medium Engine Thermal Shielding I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Engine Thermal Shielding II:
-    drawback: -10
-    durationbonus: 25
-    hp: 40.0
-    id: 31149
-    marketGroup: 1211
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Engine Thermal Shielding II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Hyperspatial Velocity Optimizer I:
+  26322:
     drawback: 10
     hp: 40.0
-    id: 31161
-    marketGroup: 1211
-    mass: 200.0
-    name: Medium Hyperspatial Velocity Optimizer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-    warpsbonus: 20
-  Medium Hyperspatial Velocity Optimizer II:
-    drawback: 10
-    hp: 40.0
-    id: 31167
-    marketGroup: 1211
+    id: 26322
+    marketGroup: 1212
     mass: 200.0
     metalevelold: 5
-    name: Medium Hyperspatial Velocity Optimizer II
-    packagedVolume: 10.0
+    name: Large Hyperspatial Velocity Optimizer II
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 2
     upgradecost: 75
-    volume: 10.0
+    volume: 20.0
     warpsbonus: 25
-  Medium Low Friction Nozzle Joints I:
-    agilitybonus: -11.699999809265137
-    drawback: -10
-    hp: 40.0
-    id: 31155
-    marketGroup: 1211
-    mass: 200.0
-    name: Medium Low Friction Nozzle Joints I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Low Friction Nozzle Joints II:
-    agilitybonus: -14.0
-    drawback: -10
-    hp: 40.0
-    id: 31173
-    marketGroup: 1211
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Low Friction Nozzle Joints II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Polycarbon Engine Housing I:
-    agilitybonus: -9.100000381469727
-    drawback: -10
-    hp: 40.0
-    id: 31179
-    implantbonusvelocity: 5.5
-    marketGroup: 1211
-    mass: 200.0
-    name: Medium Polycarbon Engine Housing I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 100
-    volume: 10.0
-  Medium Polycarbon Engine Housing II:
-    agilitybonus: -11.0
-    drawback: -10
-    hp: 40.0
-    id: 31185
-    implantbonusvelocity: 6.599999904632568
-    marketGroup: 1211
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Polycarbon Engine Housing II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 150
-    volume: 10.0
-  Medium Warp Core Optimizer I:
-    drawback: 10
-    hp: 40.0
-    id: 31191
-    marketGroup: 1211
-    mass: 200.0
-    name: Medium Warp Core Optimizer I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-    warpcapacitorneedbonus: -40
-  Medium Warp Core Optimizer II:
-    drawback: 10
-    hp: 40.0
-    id: 31197
-    marketGroup: 1211
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Warp Core Optimizer II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-    warpcapacitorneedbonus: -50
-  Small Auxiliary Thrusters I:
+  31105:
     drawback: -10
     hp: 40.0
     id: 31105
@@ -813,7 +281,39 @@ types:
     upgradecost: 100
     velocitybonus: 7.25
     volume: 5.0
-  Small Auxiliary Thrusters II:
+  31107:
+    drawback: -10
+    hp: 40.0
+    id: 31107
+    marketGroup: 1211
+    mass: 200.0
+    name: Medium Auxiliary Thrusters I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 100
+    velocitybonus: 7.25
+    volume: 10.0
+  31109:
+    drawback: -10
+    hp: 40.0
+    id: 31109
+    marketGroup: 1740
+    mass: 200.0
+    name: Capital Auxiliary Thrusters I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 100
+    velocitybonus: 7.25
+    volume: 40.0
+  31111:
     drawback: -10
     hp: 40.0
     id: 31111
@@ -830,7 +330,41 @@ types:
     upgradecost: 150
     velocitybonus: 8.75
     volume: 5.0
-  Small Cargohold Optimization I:
+  31113:
+    drawback: -10
+    hp: 40.0
+    id: 31113
+    marketGroup: 1211
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Auxiliary Thrusters II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 150
+    velocitybonus: 8.75
+    volume: 10.0
+  31115:
+    drawback: -10
+    hp: 40.0
+    id: 31115
+    marketGroup: 1740
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Auxiliary Thrusters II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 150
+    velocitybonus: 8.75
+    volume: 40.0
+  31117:
     cargocapacitybonus: 15
     drawback: -10
     hp: 40.0
@@ -846,7 +380,39 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 5.0
-  Small Cargohold Optimization II:
+  31119:
+    cargocapacitybonus: 15
+    drawback: -10
+    hp: 40.0
+    id: 31119
+    marketGroup: 1211
+    mass: 200.0
+    name: Medium Cargohold Optimization I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31121:
+    cargocapacitybonus: 15
+    drawback: -10
+    hp: 40.0
+    id: 31121
+    marketGroup: 1740
+    mass: 200.0
+    name: Capital Cargohold Optimization I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31123:
     cargocapacitybonus: 20
     drawback: -10
     hp: 40.0
@@ -863,7 +429,41 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 5.0
-  Small Dynamic Fuel Valve I:
+  31125:
+    cargocapacitybonus: 20
+    drawback: -10
+    hp: 40.0
+    id: 31125
+    marketGroup: 1211
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Cargohold Optimization II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31127:
+    cargocapacitybonus: 20
+    drawback: -10
+    hp: 40.0
+    id: 31127
+    marketGroup: 1740
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Cargohold Optimization II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  31129:
     capneedbonus: -15
     drawback: -10
     hp: 40.0
@@ -879,7 +479,39 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Dynamic Fuel Valve II:
+  31131:
+    capneedbonus: -15
+    drawback: -10
+    hp: 40.0
+    id: 31131
+    marketGroup: 1211
+    mass: 200.0
+    name: Medium Dynamic Fuel Valve I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31133:
+    capneedbonus: -15
+    drawback: -10
+    hp: 40.0
+    id: 31133
+    marketGroup: 1740
+    mass: 200.0
+    name: Capital Dynamic Fuel Valve I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31135:
     capneedbonus: -20
     drawback: -10
     hp: 40.0
@@ -896,7 +528,41 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Engine Thermal Shielding I:
+  31137:
+    capneedbonus: -20
+    drawback: -10
+    hp: 40.0
+    id: 31137
+    marketGroup: 1211
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Dynamic Fuel Valve II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31139:
+    capneedbonus: -20
+    drawback: -10
+    hp: 40.0
+    id: 31139
+    marketGroup: 1740
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Dynamic Fuel Valve II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31141:
     drawback: -10
     durationbonus: 20
     hp: 40.0
@@ -912,7 +578,39 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Engine Thermal Shielding II:
+  31143:
+    drawback: -10
+    durationbonus: 20
+    hp: 40.0
+    id: 31143
+    marketGroup: 1211
+    mass: 200.0
+    name: Medium Engine Thermal Shielding I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31145:
+    drawback: -10
+    durationbonus: 20
+    hp: 40.0
+    id: 31145
+    marketGroup: 1740
+    mass: 200.0
+    name: Capital Engine Thermal Shielding I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31147:
     drawback: -10
     durationbonus: 25
     hp: 40.0
@@ -929,7 +627,89 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Hyperspatial Velocity Optimizer I:
+  31149:
+    drawback: -10
+    durationbonus: 25
+    hp: 40.0
+    id: 31149
+    marketGroup: 1211
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Engine Thermal Shielding II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31151:
+    drawback: -10
+    durationbonus: 25
+    hp: 40.0
+    id: 31151
+    marketGroup: 1740
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Engine Thermal Shielding II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31153:
+    agilitybonus: -11.699999809265137
+    drawback: -10
+    hp: 40.0
+    id: 31153
+    marketGroup: 1210
+    mass: 200.0
+    name: Small Low Friction Nozzle Joints I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  31155:
+    agilitybonus: -11.699999809265137
+    drawback: -10
+    hp: 40.0
+    id: 31155
+    marketGroup: 1211
+    mass: 200.0
+    name: Medium Low Friction Nozzle Joints I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31157:
+    agilitybonus: -11.699999809265137
+    drawback: -10
+    hp: 40.0
+    id: 31157
+    marketGroup: 1740
+    mass: 200.0
+    name: Capital Low Friction Nozzle Joints I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31159:
     drawback: 10
     hp: 40.0
     id: 31159
@@ -945,7 +725,39 @@ types:
     upgradecost: 50
     volume: 5.0
     warpsbonus: 20
-  Small Hyperspatial Velocity Optimizer II:
+  31161:
+    drawback: 10
+    hp: 40.0
+    id: 31161
+    marketGroup: 1211
+    mass: 200.0
+    name: Medium Hyperspatial Velocity Optimizer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+    warpsbonus: 20
+  31163:
+    drawback: 10
+    hp: 40.0
+    id: 31163
+    marketGroup: 1740
+    mass: 200.0
+    name: Capital Hyperspatial Velocity Optimizer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+    warpsbonus: 20
+  31165:
     drawback: 10
     hp: 40.0
     id: 31165
@@ -962,23 +774,41 @@ types:
     upgradecost: 75
     volume: 5.0
     warpsbonus: 25
-  Small Low Friction Nozzle Joints I:
-    agilitybonus: -11.699999809265137
-    drawback: -10
+  31167:
+    drawback: 10
     hp: 40.0
-    id: 31153
-    marketGroup: 1210
+    id: 31167
+    marketGroup: 1211
     mass: 200.0
-    name: Small Low Friction Nozzle Joints I
-    packagedVolume: 5.0
+    metalevelold: 5
+    name: Medium Hyperspatial Velocity Optimizer II
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
-    techlevel: 1
-    upgradecost: 50
-    volume: 5.0
-  Small Low Friction Nozzle Joints II:
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+    warpsbonus: 25
+  31169:
+    drawback: 10
+    hp: 40.0
+    id: 31169
+    marketGroup: 1740
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Hyperspatial Velocity Optimizer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+    warpsbonus: 25
+  31171:
     agilitybonus: -14.0
     drawback: -10
     hp: 40.0
@@ -995,7 +825,41 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
-  Small Polycarbon Engine Housing I:
+  31173:
+    agilitybonus: -14.0
+    drawback: -10
+    hp: 40.0
+    id: 31173
+    marketGroup: 1211
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Low Friction Nozzle Joints II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31175:
+    agilitybonus: -14.0
+    drawback: -10
+    hp: 40.0
+    id: 31175
+    marketGroup: 1740
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Low Friction Nozzle Joints II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  31177:
     agilitybonus: -9.100000381469727
     drawback: -10
     hp: 40.0
@@ -1012,7 +876,41 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 5.0
-  Small Polycarbon Engine Housing II:
+  31179:
+    agilitybonus: -9.100000381469727
+    drawback: -10
+    hp: 40.0
+    id: 31179
+    implantbonusvelocity: 5.5
+    marketGroup: 1211
+    mass: 200.0
+    name: Medium Polycarbon Engine Housing I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 100
+    volume: 10.0
+  31181:
+    agilitybonus: -9.100000381469727
+    drawback: -10
+    hp: 40.0
+    id: 31181
+    implantbonusvelocity: 5.5
+    marketGroup: 1740
+    mass: 200.0
+    name: Capital Polycarbon Engine Housing I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 100
+    volume: 40.0
+  31183:
     agilitybonus: -11.0
     drawback: -10
     hp: 40.0
@@ -1030,7 +928,43 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 5.0
-  Small Warp Core Optimizer I:
+  31185:
+    agilitybonus: -11.0
+    drawback: -10
+    hp: 40.0
+    id: 31185
+    implantbonusvelocity: 6.599999904632568
+    marketGroup: 1211
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Polycarbon Engine Housing II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 150
+    volume: 10.0
+  31187:
+    agilitybonus: -11.0
+    drawback: -10
+    hp: 40.0
+    id: 31187
+    implantbonusvelocity: 6.599999904632568
+    marketGroup: 1740
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Polycarbon Engine Housing II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 150
+    volume: 40.0
+  31189:
     drawback: 10
     hp: 40.0
     id: 31189
@@ -1046,7 +980,39 @@ types:
     upgradecost: 50
     volume: 5.0
     warpcapacitorneedbonus: -40
-  Small Warp Core Optimizer II:
+  31191:
+    drawback: 10
+    hp: 40.0
+    id: 31191
+    marketGroup: 1211
+    mass: 200.0
+    name: Medium Warp Core Optimizer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+    warpcapacitorneedbonus: -40
+  31193:
+    drawback: 10
+    hp: 40.0
+    id: 31193
+    marketGroup: 1740
+    mass: 200.0
+    name: Capital Warp Core Optimizer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+    warpcapacitorneedbonus: -40
+  31195:
     drawback: 10
     hp: 40.0
     id: 31195
@@ -1062,4 +1028,38 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
+    warpcapacitorneedbonus: -50
+  31197:
+    drawback: 10
+    hp: 40.0
+    id: 31197
+    marketGroup: 1211
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Warp Core Optimizer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+    warpcapacitorneedbonus: -50
+  31199:
+    drawback: 10
+    hp: 40.0
+    id: 31199
+    marketGroup: 1740
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Warp Core Optimizer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
     warpcapacitorneedbonus: -50

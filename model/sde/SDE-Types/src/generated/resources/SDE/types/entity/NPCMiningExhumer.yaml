@@ -1,5 +1,47 @@
 types:
-  Frostline Gatherer:
+  42535:
+    armoremdamageresonance: 0.3499999940395355
+    armorexplosivedamageresonance: 0.7875000238418579
+    armorhp: 6875.0
+    armorkineticdamageresonance: 0.65625
+    armorthermaldamageresonance: 0.5687500238418579
+    behaviorminingamount: 16.0
+    behaviorminingdischarge: 180
+    behaviorminingduration: 760000
+    behaviorminingmaxrange: 15000
+    capacitorcapacity: 781.0
+    capacity: 15000.0
+    disallowassistance: 1
+    entityfactionloss: 0.009999999776482582
+    entitykillbounty: 300000
+    entityoverviewshipgroupid: 25
+    gfxboosterid: 397
+    gfxturretid: 17482
+    hp: 7500.0
+    id: 42535
+    mass: 1.0E7
+    maxlockedtargets: 7
+    maxtargetrange: 43750.0
+    maxvelocity: 175.0
+    name: ♦ Skiff
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 137.0
+    rechargerate: 140625.0
+    scanmagnetometricstrength: 14.399999618530273
+    scanspeed: 1500
+    shieldcapacity: 17151.0
+    shieldemdamageresonance: 0.3346000015735626
+    shieldexplosivedamageresonance: 0.27000001072883606
+    shieldkineticdamageresonance: 0.3240000009536743
+    shieldrechargerate: 1875000.0
+    shieldthermaldamageresonance: 0.22768999636173248
+    shielduniformity: 0.75
+    signatureradius: 217.0
+    structureuniformity: 1.0
+    volume: 100000.0
+  49964:
     armoremdamageresonance: 0.3499999940395355
     armorexplosivedamageresonance: 0.7875000238418579
     armorhp: 6875.0
@@ -24,48 +66,6 @@ types:
     maxtargetrange: 43750.0
     maxvelocity: 175.0
     name: Frostline Gatherer
-    packagedVolume: 100000.0
-    portionSize: 1
-    published: false
-    radius: 137.0
-    rechargerate: 140625.0
-    scanmagnetometricstrength: 14.399999618530273
-    scanspeed: 1500
-    shieldcapacity: 17151.0
-    shieldemdamageresonance: 0.3346000015735626
-    shieldexplosivedamageresonance: 0.27000001072883606
-    shieldkineticdamageresonance: 0.3240000009536743
-    shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.22768999636173248
-    shielduniformity: 0.75
-    signatureradius: 217.0
-    structureuniformity: 1.0
-    volume: 100000.0
-  ♦ Skiff:
-    armoremdamageresonance: 0.3499999940395355
-    armorexplosivedamageresonance: 0.7875000238418579
-    armorhp: 6875.0
-    armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.5687500238418579
-    behaviorminingamount: 307.0
-    behaviorminingdischarge: 180
-    behaviorminingduration: 146000
-    behaviorminingmaxrange: 15000
-    capacitorcapacity: 781.0
-    capacity: 15000.0
-    disallowassistance: 1
-    entityfactionloss: 0.009999999776482582
-    entitykillbounty: 300000
-    entityoverviewshipgroupid: 25
-    gfxboosterid: 397
-    gfxturretid: 17482
-    hp: 7500.0
-    id: 42535
-    mass: 1.0E7
-    maxlockedtargets: 7
-    maxtargetrange: 43750.0
-    maxvelocity: 175.0
-    name: ♦ Skiff
     packagedVolume: 100000.0
     portionSize: 1
     published: false

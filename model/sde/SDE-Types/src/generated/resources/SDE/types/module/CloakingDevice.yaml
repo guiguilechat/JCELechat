@@ -1,5 +1,291 @@
 types:
-  '''Smokescreen'' Covert Ops Cloaking Device II':
+  11370:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 30000
+    cpu: 30.0
+    hp: 40.0
+    id: 11370
+    marketGroup: 675
+    maxvelocitymodifier: 0.10000000149011612
+    modulereactivationdelay: 30000
+    name: Prototype Cloaking Device I
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    price: 802680.0
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.5
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  11577:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 20000
+    cpu: 60.0
+    hp: 40.0
+    id: 11577
+    marketGroup: 675
+    maxvelocitymodifier: 0.25
+    metalevelold: 5
+    modulereactivationdelay: 30000
+    name: Improved Cloaking Device II
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    price: 1130360.0
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 3
+    scanresolutionmultiplier: 0.6000000238418579
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 2
+    volume: 100.0
+  11578:
+    canfitshipgroup01: 963
+    canfitshipgroup02: 830
+    canfitshipgroup03: 833
+    canfitshipgroup04: 834
+    canfitshipgroup05: 1202
+    canfitshiptype1: 32790
+    canfitshiptype2: 33468
+    canfitshiptype3: 33470
+    canfitshiptype4: 33553
+    canfitshiptype5: 34590
+    canfitshiptype6: 33697
+    canfitshiptype7: 42245
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 10000
+    cpu: 100.0
+    hp: 40.0
+    id: 11578
+    marketGroup: 675
+    maxvelocitymodifier: 1.0
+    metalevelold: 5
+    modulereactivationdelay: 30000
+    name: Covert Ops Cloaking Device II
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    price: 1785720.0
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 4
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 2
+    volume: 100.0
+  14234:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 25000
+    cpu: 60.0
+    hp: 40.0
+    id: 14234
+    marketGroup: 675
+    maxvelocitymodifier: 0.2750000059604645
+    metagroupid: 4
+    metalevelold: 8
+    modulereactivationdelay: 30000
+    name: Dread Guristas Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.6499999761581421
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  14776:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 23750
+    cpu: 72.0
+    hp: 40.0
+    id: 14776
+    marketGroup: 675
+    maxvelocitymodifier: 0.2887499928474426
+    metagroupid: 5
+    metalevelold: 11
+    modulereactivationdelay: 30000
+    name: Kaikka's Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.6825000047683716
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  14778:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 22500
+    cpu: 84.0
+    hp: 40.0
+    id: 14778
+    marketGroup: 675
+    maxvelocitymodifier: 0.30250000953674316
+    metagroupid: 5
+    metalevelold: 12
+    modulereactivationdelay: 30000
+    name: Thon's Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.7149999737739563
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  14780:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 21250
+    cpu: 96.0
+    hp: 40.0
+    id: 14780
+    marketGroup: 675
+    maxvelocitymodifier: 0.3162499964237213
+    metagroupid: 5
+    metalevelold: 13
+    modulereactivationdelay: 30000
+    name: Vepas' Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.7475000023841858
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  14782:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 20000
+    cpu: 108.0
+    hp: 40.0
+    id: 14782
+    marketGroup: 675
+    maxvelocitymodifier: 0.33000001311302185
+    metagroupid: 5
+    metalevelold: 14
+    modulereactivationdelay: 30000
+    name: Estamel's Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.7799999713897705
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  15790:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 25000
+    cpu: 60.0
+    hp: 40.0
+    id: 15790
+    marketGroup: 675
+    maxvelocitymodifier: 0.2750000059604645
+    metagroupid: 4
+    metalevelold: 8
+    modulereactivationdelay: 30000
+    name: Caldari Navy Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.6499999761581421
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  16126:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 22500
+    cpu: 84.0
+    hp: 40.0
+    id: 16126
+    marketGroup: 675
+    maxvelocitymodifier: 0.30250000953674316
+    metagroupid: 4
+    metalevelold: 12
+    modulereactivationdelay: 30000
+    name: CONCORD Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 5
+    scanresolutionmultiplier: 0.7149999737739563
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  20561:
+    capacitorcapacitymultiplier: 1.0
+    cloakingtargetingdelay: 29000
+    cpu: 26.0
+    hp: 40.0
+    id: 20561
+    marketGroup: 675
+    maxvelocitymodifier: 0.10000000149011612
+    metagroupid: 3
+    metalevelold: 6
+    modulereactivationdelay: 30000
+    name: Prototype 'Poncho' Cloaking Device I
+    packagedVolume: 100.0
+    portionSize: 1
+    power: 1
+    price: 802680.0
+    published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.550000011920929
+    shieldcapacitymultiplier: 1.0
+    speedfactor: 1.0
+    stabilizecloakduration: 900
+    techlevel: 1
+    volume: 100.0
+  20563:
     canfitshipgroup01: 963
     canfitshipgroup02: 830
     canfitshipgroup03: 833
@@ -36,143 +322,7 @@ types:
     stabilizecloakduration: 900
     techlevel: 2
     volume: 100.0
-  CONCORD Modified Cloaking Device:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 22500
-    cpu: 84.0
-    hp: 40.0
-    id: 16126
-    marketGroup: 675
-    maxvelocitymodifier: 0.30250000953674316
-    metagroupid: 4
-    metalevelold: 12
-    modulereactivationdelay: 30000
-    name: CONCORD Modified Cloaking Device
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 5
-    scanresolutionmultiplier: 0.7149999737739563
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Caldari Navy Cloaking Device:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 25000
-    cpu: 60.0
-    hp: 40.0
-    id: 15790
-    marketGroup: 675
-    maxvelocitymodifier: 0.2750000059604645
-    metagroupid: 4
-    metalevelold: 8
-    modulereactivationdelay: 30000
-    name: Caldari Navy Cloaking Device
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 1
-    scanresolutionmultiplier: 0.6499999761581421
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Covert Ops Cloaking Device II:
-    canfitshipgroup01: 963
-    canfitshipgroup02: 830
-    canfitshipgroup03: 833
-    canfitshipgroup04: 834
-    canfitshipgroup05: 1202
-    canfitshiptype1: 32790
-    canfitshiptype2: 33468
-    canfitshiptype3: 33470
-    canfitshiptype4: 33553
-    canfitshiptype5: 34590
-    canfitshiptype6: 33697
-    canfitshiptype7: 42245
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 10000
-    cpu: 100.0
-    hp: 40.0
-    id: 11578
-    marketGroup: 675
-    maxvelocitymodifier: 1.0
-    metalevelold: 5
-    modulereactivationdelay: 30000
-    name: Covert Ops Cloaking Device II
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    price: 1785720.0
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 4
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 2
-    volume: 100.0
-  Dread Guristas Cloaking Device:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 25000
-    cpu: 60.0
-    hp: 40.0
-    id: 14234
-    marketGroup: 675
-    maxvelocitymodifier: 0.2750000059604645
-    metagroupid: 4
-    metalevelold: 8
-    modulereactivationdelay: 30000
-    name: Dread Guristas Cloaking Device
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 1
-    scanresolutionmultiplier: 0.6499999761581421
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Estamel's Modified Cloaking Device:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 20000
-    cpu: 108.0
-    hp: 40.0
-    id: 14782
-    marketGroup: 675
-    maxvelocitymodifier: 0.33000001311302185
-    metagroupid: 5
-    metalevelold: 14
-    modulereactivationdelay: 30000
-    name: Estamel's Modified Cloaking Device
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 1
-    scanresolutionmultiplier: 0.7799999713897705
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Improved 'Guise' Cloaking Device II:
+  20565:
     capacitorcapacitymultiplier: 1.0
     cloakingtargetingdelay: 19000
     cpu: 51.0
@@ -198,107 +348,7 @@ types:
     stabilizecloakduration: 900
     techlevel: 2
     volume: 100.0
-  Improved Cloaking Device II:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 20000
-    cpu: 60.0
-    hp: 40.0
-    id: 11577
-    marketGroup: 675
-    maxvelocitymodifier: 0.25
-    metalevelold: 5
-    modulereactivationdelay: 30000
-    name: Improved Cloaking Device II
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    price: 1130360.0
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 3
-    scanresolutionmultiplier: 0.6000000238418579
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 2
-    volume: 100.0
-  Kaikka's Modified Cloaking Device:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 23750
-    cpu: 72.0
-    hp: 40.0
-    id: 14776
-    marketGroup: 675
-    maxvelocitymodifier: 0.2887499928474426
-    metagroupid: 5
-    metalevelold: 11
-    modulereactivationdelay: 30000
-    name: Kaikka's Modified Cloaking Device
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 1
-    scanresolutionmultiplier: 0.6825000047683716
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Prototype 'Poncho' Cloaking Device I:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 29000
-    cpu: 26.0
-    hp: 40.0
-    id: 20561
-    marketGroup: 675
-    maxvelocitymodifier: 0.10000000149011612
-    metagroupid: 3
-    metalevelold: 6
-    modulereactivationdelay: 30000
-    name: Prototype 'Poncho' Cloaking Device I
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    price: 802680.0
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 1
-    scanresolutionmultiplier: 0.550000011920929
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Prototype Cloaking Device I:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 30000
-    cpu: 30.0
-    hp: 40.0
-    id: 11370
-    marketGroup: 675
-    maxvelocitymodifier: 0.10000000149011612
-    modulereactivationdelay: 30000
-    name: Prototype Cloaking Device I
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    price: 802680.0
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 1
-    scanresolutionmultiplier: 0.5
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Syndicate Cloaking Device:
+  32260:
     capacitorcapacitymultiplier: 1.0
     cloakingtargetingdelay: 18000
     cpu: 75.0
@@ -319,56 +369,6 @@ types:
     requiredskill1: 11579
     requiredskill1level: 1
     scanresolutionmultiplier: 0.699999988079071
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Thon's Modified Cloaking Device:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 22500
-    cpu: 84.0
-    hp: 40.0
-    id: 14778
-    marketGroup: 675
-    maxvelocitymodifier: 0.30250000953674316
-    metagroupid: 5
-    metalevelold: 12
-    modulereactivationdelay: 30000
-    name: Thon's Modified Cloaking Device
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 1
-    scanresolutionmultiplier: 0.7149999737739563
-    shieldcapacitymultiplier: 1.0
-    speedfactor: 1.0
-    stabilizecloakduration: 900
-    techlevel: 1
-    volume: 100.0
-  Vepas' Modified Cloaking Device:
-    capacitorcapacitymultiplier: 1.0
-    cloakingtargetingdelay: 21250
-    cpu: 96.0
-    hp: 40.0
-    id: 14780
-    marketGroup: 675
-    maxvelocitymodifier: 0.3162499964237213
-    metagroupid: 5
-    metalevelold: 13
-    modulereactivationdelay: 30000
-    name: Vepas' Modified Cloaking Device
-    packagedVolume: 100.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 11579
-    requiredskill1level: 1
-    scanresolutionmultiplier: 0.7475000023841858
     shieldcapacitymultiplier: 1.0
     speedfactor: 1.0
     stabilizecloakduration: 900

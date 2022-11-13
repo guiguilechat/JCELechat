@@ -289,7 +289,7 @@ public class StructureCombatRigLMaxTargetsAndSensorBoosting
         implements IMetaGroup<StructureCombatRigLMaxTargetsAndSensorBoosting>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigLMaxTargetsAndSensorBoosting.yaml";
-        private Map<String, StructureCombatRigLMaxTargetsAndSensorBoosting> cache = (null);
+        private Map<Integer, StructureCombatRigLMaxTargetsAndSensorBoosting> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureCombatRigLMaxTargetsAndSensorBoosting> category() {
@@ -307,7 +307,7 @@ public class StructureCombatRigLMaxTargetsAndSensorBoosting
         }
 
         @Override
-        public synchronized Map<String, StructureCombatRigLMaxTargetsAndSensorBoosting> load() {
+        public synchronized Map<Integer, StructureCombatRigLMaxTargetsAndSensorBoosting> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigLMaxTargetsAndSensorBoosting.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureCombatRigLMaxTargetsAndSensorBoosting
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigLMaxTargetsAndSensorBoosting> types;
+            public LinkedHashMap<Integer, StructureCombatRigLMaxTargetsAndSensorBoosting> types;
         }
     }
 }

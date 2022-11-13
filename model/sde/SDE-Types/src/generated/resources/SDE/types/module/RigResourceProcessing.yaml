@@ -1,38 +1,5 @@
 types:
-  Capital Salvage Tackle I:
-    accessdifficultybonus: 10.0
-    drawback: -10
-    hp: 40.0
-    id: 31087
-    marketGroup: 1785
-    mass: 200.0
-    name: Capital Salvage Tackle I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Salvage Tackle II:
-    accessdifficultybonus: 15.0
-    drawback: -10
-    hp: 40.0
-    id: 31093
-    marketGroup: 1785
-    mass: 200.0
-    metalevelold: 5
-    name: Capital Salvage Tackle II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Large Salvage Tackle I:
+  25902:
     accessdifficultybonus: 10.0
     drawback: -10
     hp: 40.0
@@ -48,7 +15,7 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 20.0
-  Large Salvage Tackle II:
+  26300:
     accessdifficultybonus: 15.0
     drawback: -10
     hp: 40.0
@@ -65,72 +32,7 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Medium Ice Harvester Accelerator I:
-    drawback: 10
-    hp: 40.0
-    iceharvestcyclebonus: -12.0
-    id: 32819
-    marketGroup: 1783
-    mass: 200.0
-    name: Medium Ice Harvester Accelerator I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 250
-    volume: 10.0
-  Medium Mercoxit Mining Crystal Optimization I:
-    drawback: 10
-    hp: 40.0
-    id: 32817
-    marketGroup: 1783
-    mass: 200.0
-    miningamountbonus: 16
-    name: Medium Mercoxit Mining Crystal Optimization I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 250
-    volume: 10.0
-  Medium Salvage Tackle I:
-    accessdifficultybonus: 10.0
-    drawback: -10
-    hp: 40.0
-    id: 31085
-    marketGroup: 1783
-    mass: 200.0
-    name: Medium Salvage Tackle I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Salvage Tackle II:
-    accessdifficultybonus: 15.0
-    drawback: -10
-    hp: 40.0
-    id: 31091
-    marketGroup: 1783
-    mass: 200.0
-    metalevelold: 5
-    name: Medium Salvage Tackle II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Small Salvage Tackle I:
+  31083:
     accessdifficultybonus: 10.0
     drawback: -10
     hp: 40.0
@@ -146,7 +48,39 @@ types:
     techlevel: 1
     upgradecost: 50
     volume: 5.0
-  Small Salvage Tackle II:
+  31085:
+    accessdifficultybonus: 10.0
+    drawback: -10
+    hp: 40.0
+    id: 31085
+    marketGroup: 1783
+    mass: 200.0
+    name: Medium Salvage Tackle I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  31087:
+    accessdifficultybonus: 10.0
+    drawback: -10
+    hp: 40.0
+    id: 31087
+    marketGroup: 1785
+    mass: 200.0
+    name: Capital Salvage Tackle I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  31089:
     accessdifficultybonus: 15.0
     drawback: -10
     hp: 40.0
@@ -163,3 +97,69 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 5.0
+  31091:
+    accessdifficultybonus: 15.0
+    drawback: -10
+    hp: 40.0
+    id: 31091
+    marketGroup: 1783
+    mass: 200.0
+    metalevelold: 5
+    name: Medium Salvage Tackle II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  31093:
+    accessdifficultybonus: 15.0
+    drawback: -10
+    hp: 40.0
+    id: 31093
+    marketGroup: 1785
+    mass: 200.0
+    metalevelold: 5
+    name: Capital Salvage Tackle II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  32817:
+    drawback: 10
+    hp: 40.0
+    id: 32817
+    marketGroup: 1783
+    mass: 200.0
+    miningamountbonus: 16
+    name: Medium Mercoxit Mining Crystal Optimization I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 250
+    volume: 10.0
+  32819:
+    drawback: 10
+    hp: 40.0
+    iceharvestcyclebonus: -12.0
+    id: 32819
+    marketGroup: 1783
+    mass: 200.0
+    name: Medium Ice Harvester Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 250
+    volume: 10.0

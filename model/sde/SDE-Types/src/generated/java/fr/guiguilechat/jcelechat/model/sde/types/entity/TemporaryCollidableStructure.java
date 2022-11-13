@@ -1036,7 +1036,7 @@ public class TemporaryCollidableStructure
         implements IMetaGroup<TemporaryCollidableStructure>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/TemporaryCollidableStructure.yaml";
-        private Map<String, TemporaryCollidableStructure> cache = (null);
+        private Map<Integer, TemporaryCollidableStructure> cache = (null);
 
         @Override
         public IMetaCategory<? super TemporaryCollidableStructure> category() {
@@ -1054,7 +1054,7 @@ public class TemporaryCollidableStructure
         }
 
         @Override
-        public synchronized Map<String, TemporaryCollidableStructure> load() {
+        public synchronized Map<Integer, TemporaryCollidableStructure> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TemporaryCollidableStructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1068,7 +1068,7 @@ public class TemporaryCollidableStructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, TemporaryCollidableStructure> types;
+            public LinkedHashMap<Integer, TemporaryCollidableStructure> types;
         }
     }
 }

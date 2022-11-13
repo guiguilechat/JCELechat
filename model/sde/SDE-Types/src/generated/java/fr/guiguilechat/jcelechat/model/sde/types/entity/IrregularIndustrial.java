@@ -988,7 +988,7 @@ public class IrregularIndustrial
         implements IMetaGroup<IrregularIndustrial>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/IrregularIndustrial.yaml";
-        private Map<String, IrregularIndustrial> cache = (null);
+        private Map<Integer, IrregularIndustrial> cache = (null);
 
         @Override
         public IMetaCategory<? super IrregularIndustrial> category() {
@@ -1006,7 +1006,7 @@ public class IrregularIndustrial
         }
 
         @Override
-        public synchronized Map<String, IrregularIndustrial> load() {
+        public synchronized Map<Integer, IrregularIndustrial> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IrregularIndustrial.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1020,7 +1020,7 @@ public class IrregularIndustrial
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularIndustrial> types;
+            public LinkedHashMap<Integer, IrregularIndustrial> types;
         }
     }
 }

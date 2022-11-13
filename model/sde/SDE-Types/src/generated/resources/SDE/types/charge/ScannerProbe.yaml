@@ -1,5 +1,30 @@
 types:
-  Combat Scanner Probe I:
+  30013:
+    agility: 1000.0
+    basemaxscandeviation: 0.125
+    basescanrange: 0.25
+    basesensorstrength: 40
+    explosiondelay: 4000000
+    hp: 240.0
+    id: 30013
+    launchergroup: 481
+    marketGroup: 1199
+    mass: 1.0
+    maxvelocity: 3000.0
+    name: Core Scanner Probe I
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 23442.0
+    published: true
+    radius: 1.0
+    rangefactor: 2
+    requiredskill1: 3412
+    requiredskill1level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.10000000149011612
+    warpspeedmultiplier: 15.0
+  30028:
     agility: 1000.0
     basemaxscandeviation: 0.25
     basescanrange: 0.5
@@ -25,58 +50,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpspeedmultiplier: 22.5
-  Core Scanner Probe I:
-    agility: 1000.0
-    basemaxscandeviation: 0.125
-    basescanrange: 0.25
-    basesensorstrength: 40
-    explosiondelay: 4000000
-    hp: 240.0
-    id: 30013
-    launchergroup: 481
-    marketGroup: 1199
-    mass: 1.0
-    maxvelocity: 3000.0
-    name: Core Scanner Probe I
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 23442.0
-    published: true
-    radius: 1.0
-    rangefactor: 2
-    requiredskill1: 3412
-    requiredskill1level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.10000000149011612
-    warpspeedmultiplier: 15.0
-  RSS Core Scanner Probe:
-    agility: 1000.0
-    basemaxscandeviation: 0.125
-    basescanrange: 0.25
-    basesensorstrength: 45
-    explosiondelay: 1000000
-    hp: 500.0
-    id: 32246
-    launchergroup: 481
-    marketGroup: 1199
-    mass: 1.0
-    maxvelocity: 3000.0
-    metagroupid: 3
-    name: RSS Core Scanner Probe
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 23442.0
-    published: true
-    radius: 1.0
-    rangefactor: 2
-    requiredskill1: 3412
-    requiredskill1level: 1
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.10000000149011612
-    warpspeedmultiplier: 15.0
-  Sisters Combat Scanner Probe:
+  30486:
     agility: 1000.0
     basemaxscandeviation: 0.25
     basescanrange: 0.5
@@ -103,7 +77,7 @@ types:
     techlevel: 1
     volume: 1.0
     warpspeedmultiplier: 22.5
-  Sisters Core Scanner Probe:
+  30488:
     agility: 1000.0
     basemaxscandeviation: 0.125
     basescanrange: 0.25
@@ -117,6 +91,32 @@ types:
     maxvelocity: 3000.0
     metagroupid: 4
     name: Sisters Core Scanner Probe
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 23442.0
+    published: true
+    radius: 1.0
+    rangefactor: 2
+    requiredskill1: 3412
+    requiredskill1level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.10000000149011612
+    warpspeedmultiplier: 15.0
+  32246:
+    agility: 1000.0
+    basemaxscandeviation: 0.125
+    basescanrange: 0.25
+    basesensorstrength: 45
+    explosiondelay: 1000000
+    hp: 500.0
+    id: 32246
+    launchergroup: 481
+    marketGroup: 1199
+    mass: 1.0
+    maxvelocity: 3000.0
+    metagroupid: 3
+    name: RSS Core Scanner Probe
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 23442.0

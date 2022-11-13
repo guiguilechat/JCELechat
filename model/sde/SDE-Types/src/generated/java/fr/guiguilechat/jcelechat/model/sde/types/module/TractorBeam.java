@@ -221,7 +221,7 @@ public class TractorBeam
         implements IMetaGroup<TractorBeam>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/TractorBeam.yaml";
-        private Map<String, TractorBeam> cache = (null);
+        private Map<Integer, TractorBeam> cache = (null);
 
         @Override
         public IMetaCategory<? super TractorBeam> category() {
@@ -239,7 +239,7 @@ public class TractorBeam
         }
 
         @Override
-        public synchronized Map<String, TractorBeam> load() {
+        public synchronized Map<Integer, TractorBeam> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TractorBeam.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -253,7 +253,7 @@ public class TractorBeam
         }
 
         private static class Container {
-            public LinkedHashMap<String, TractorBeam> types;
+            public LinkedHashMap<Integer, TractorBeam> types;
         }
     }
 }

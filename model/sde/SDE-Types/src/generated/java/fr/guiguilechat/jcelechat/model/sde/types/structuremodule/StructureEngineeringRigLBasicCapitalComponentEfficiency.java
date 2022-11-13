@@ -321,7 +321,7 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
         implements IMetaGroup<StructureEngineeringRigLBasicCapitalComponentEfficiency>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigLBasicCapitalComponentEfficiency.yaml";
-        private Map<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> cache = (null);
+        private Map<Integer, StructureEngineeringRigLBasicCapitalComponentEfficiency> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigLBasicCapitalComponentEfficiency> category() {
@@ -339,7 +339,7 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> load() {
+        public synchronized Map<Integer, StructureEngineeringRigLBasicCapitalComponentEfficiency> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigLBasicCapitalComponentEfficiency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -353,7 +353,7 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigLBasicCapitalComponentEfficiency> types;
         }
     }
 }

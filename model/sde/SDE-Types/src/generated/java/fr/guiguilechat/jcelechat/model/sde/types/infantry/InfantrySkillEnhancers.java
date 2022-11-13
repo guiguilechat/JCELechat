@@ -32,7 +32,7 @@ public class InfantrySkillEnhancers
         implements IMetaGroup<InfantrySkillEnhancers>
     {
         public static final String RESOURCE_PATH = "SDE/types/infantry/InfantrySkillEnhancers.yaml";
-        private Map<String, InfantrySkillEnhancers> cache = (null);
+        private Map<Integer, InfantrySkillEnhancers> cache = (null);
 
         @Override
         public IMetaCategory<? super InfantrySkillEnhancers> category() {
@@ -50,7 +50,7 @@ public class InfantrySkillEnhancers
         }
 
         @Override
-        public synchronized Map<String, InfantrySkillEnhancers> load() {
+        public synchronized Map<Integer, InfantrySkillEnhancers> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(InfantrySkillEnhancers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class InfantrySkillEnhancers
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfantrySkillEnhancers> types;
+            public LinkedHashMap<Integer, InfantrySkillEnhancers> types;
         }
     }
 }

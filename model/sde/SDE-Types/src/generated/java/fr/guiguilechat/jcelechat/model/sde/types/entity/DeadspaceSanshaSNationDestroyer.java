@@ -1061,7 +1061,7 @@ public class DeadspaceSanshaSNationDestroyer
         implements IMetaGroup<DeadspaceSanshaSNationDestroyer>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceSanshaSNationDestroyer.yaml";
-        private Map<String, DeadspaceSanshaSNationDestroyer> cache = (null);
+        private Map<Integer, DeadspaceSanshaSNationDestroyer> cache = (null);
 
         @Override
         public IMetaCategory<? super DeadspaceSanshaSNationDestroyer> category() {
@@ -1079,7 +1079,7 @@ public class DeadspaceSanshaSNationDestroyer
         }
 
         @Override
-        public synchronized Map<String, DeadspaceSanshaSNationDestroyer> load() {
+        public synchronized Map<Integer, DeadspaceSanshaSNationDestroyer> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DeadspaceSanshaSNationDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1093,7 +1093,7 @@ public class DeadspaceSanshaSNationDestroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceSanshaSNationDestroyer> types;
+            public LinkedHashMap<Integer, DeadspaceSanshaSNationDestroyer> types;
         }
     }
 }

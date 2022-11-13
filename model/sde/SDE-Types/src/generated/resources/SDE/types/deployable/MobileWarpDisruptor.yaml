@@ -1,5 +1,67 @@
 types:
-  Mobile Large Warp Disruptor I:
+  12198:
+    anchoringdelay: 120000
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 2500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    disallowinempirespace: 1
+    hp: 7000.0
+    id: 12198
+    marketGroup: 405
+    name: Mobile Small Warp Disruptor I
+    packagedVolume: 65.0
+    portionSize: 1
+    published: true
+    radius: 70.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    requiredskill2: 3435
+    requiredskill2level: 3
+    scanladarstrength: 12.0
+    shieldcapacity: 2500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 50.0
+    techlevel: 1
+    volume: 65.0
+    warpscramblerange: 5000
+  12199:
+    anchoringdelay: 240000
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    disallowinempirespace: 1
+    hp: 30000.0
+    id: 12199
+    marketGroup: 405
+    name: Mobile Medium Warp Disruptor I
+    packagedVolume: 195.0
+    portionSize: 1
+    published: true
+    radius: 70.0
+    requiredskill1: 11584
+    requiredskill1level: 3
+    requiredskill2: 3435
+    requiredskill2level: 4
+    scanladarstrength: 14.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 150.0
+    techlevel: 1
+    volume: 195.0
+    warpscramblerange: 11500
+  12200:
     anchoringdelay: 480000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -30,7 +92,7 @@ types:
     techlevel: 1
     volume: 585.0
     warpscramblerange: 26500
-  Mobile Large Warp Disruptor II:
+  26888:
     anchoringdelay: 240000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -62,38 +124,7 @@ types:
     techlevel: 2
     volume: 585.0
     warpscramblerange: 40000
-  Mobile Medium Warp Disruptor I:
-    anchoringdelay: 240000
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorhp: 10000.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    disallowinempirespace: 1
-    hp: 30000.0
-    id: 12199
-    marketGroup: 405
-    name: Mobile Medium Warp Disruptor I
-    packagedVolume: 195.0
-    portionSize: 1
-    published: true
-    radius: 70.0
-    requiredskill1: 11584
-    requiredskill1level: 3
-    requiredskill2: 3435
-    requiredskill2level: 4
-    scanladarstrength: 14.0
-    shieldcapacity: 10000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 1.0
-    signatureradius: 150.0
-    techlevel: 1
-    volume: 195.0
-    warpscramblerange: 11500
-  Mobile Medium Warp Disruptor II:
+  26890:
     anchoringdelay: 120000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -125,38 +156,7 @@ types:
     techlevel: 2
     volume: 195.0
     warpscramblerange: 17500
-  Mobile Small Warp Disruptor I:
-    anchoringdelay: 120000
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorhp: 2500.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    disallowinempirespace: 1
-    hp: 7000.0
-    id: 12198
-    marketGroup: 405
-    name: Mobile Small Warp Disruptor I
-    packagedVolume: 65.0
-    portionSize: 1
-    published: true
-    radius: 70.0
-    requiredskill1: 11584
-    requiredskill1level: 2
-    requiredskill2: 3435
-    requiredskill2level: 3
-    scanladarstrength: 12.0
-    shieldcapacity: 2500.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 1.0
-    signatureradius: 50.0
-    techlevel: 1
-    volume: 65.0
-    warpscramblerange: 5000
-  Mobile Small Warp Disruptor II:
+  26892:
     anchoringdelay: 60000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -188,7 +188,7 @@ types:
     techlevel: 2
     volume: 65.0
     warpscramblerange: 7500
-  Syndicate Mobile Large Warp Disruptor:
+  28770:
     anchoringdelay: 240000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -221,7 +221,7 @@ types:
     techlevel: 1
     volume: 585.0
     warpscramblerange: 40000
-  Syndicate Mobile Medium Warp Disruptor:
+  28772:
     anchoringdelay: 120000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -254,7 +254,7 @@ types:
     techlevel: 1
     volume: 195.0
     warpscramblerange: 17500
-  Syndicate Mobile Small Warp Disruptor:
+  28774:
     anchoringdelay: 60000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0

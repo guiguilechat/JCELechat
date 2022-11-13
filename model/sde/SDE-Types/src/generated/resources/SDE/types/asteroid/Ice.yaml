@@ -1,42 +1,5 @@
 types:
-  Azure Ice:
-    asteroidradiusgrowthfactor: 80.0
-    asteroidradiusunitsize: 1000
-    id: 28627
-    ignoreminingwaste: 1
-    mass: 1000.0
-    name: Azure Ice
-    orebasictype: 16264
-    packagedVolume: 1000.0
-    portionSize: 1
-    price: 2000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 1000.0
-  Blue Ice:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 80.0
-    asteroidradiusunitsize: 1000
-    id: 16264
-    marketGroup: 1855
-    mass: 1000.0
-    name: Blue Ice
-    orebasictype: 16264
-    packagedVolume: 1000.0
-    portionSize: 1
-    price: 76000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 1000.0
-  Clear Icicle:
+  16262:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
@@ -55,309 +18,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 1000.0
-  Compressed Blue Ice:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28433
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Blue Ice
-    orebasictype: 16264
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 760000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Clear Icicle:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28434
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Clear Icicle
-    orebasictype: 16262
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 3760000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Dark Glitter:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28435
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Dark Glitter
-    orebasictype: 16267
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 1.55E7
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Enriched Clear Icicle:
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28436
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Enriched Clear Icicle
-    orebasictype: 16262
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 4660000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Gelidus:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28437
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Gelidus
-    orebasictype: 16268
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 8250000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Glacial Mass:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28438
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Glacial Mass
-    orebasictype: 16263
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 760000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Glare Crust:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28439
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Glare Crust
-    orebasictype: 16266
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 1.525E7
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Krystallos:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28440
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Krystallos
-    orebasictype: 16269
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 4500000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Pristine White Glaze:
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28441
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Pristine White Glaze
-    orebasictype: 16265
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 1160000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Smooth Glacial Mass:
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28442
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Smooth Glacial Mass
-    orebasictype: 16263
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 1160000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed Thick Blue Ice:
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28443
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed Thick Blue Ice
-    orebasictype: 16264
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 1160000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Compressed White Glaze:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
-    id: 28444
-    marketGroup: 1855
-    mass: 1000.0
-    name: Compressed White Glaze
-    orebasictype: 16265
-    packagedVolume: 100.0
-    portionSize: 1
-    price: 760000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 100.0
-  Crystalline Icicle:
-    asteroidradiusgrowthfactor: 80.0
-    asteroidradiusunitsize: 1000
-    id: 28628
-    ignoreminingwaste: 1
-    mass: 1000.0
-    name: Crystalline Icicle
-    orebasictype: 16262
-    packagedVolume: 1000.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 1000.0
-  Dark Glitter:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 80.0
-    asteroidradiusunitsize: 1000
-    id: 16267
-    marketGroup: 1855
-    mass: 1000.0
-    name: Dark Glitter
-    orebasictype: 16267
-    packagedVolume: 1000.0
-    portionSize: 1
-    price: 1550000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 1000.0
-  Enriched Clear Icicle:
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 80.0
-    asteroidradiusunitsize: 1000
-    id: 17978
-    marketGroup: 1855
-    mass: 1000.0
-    name: Enriched Clear Icicle
-    orebasictype: 16262
-    packagedVolume: 1000.0
-    portionSize: 1
-    price: 466000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 1000.0
-  Gelidus:
-    asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 80.0
-    asteroidradiusunitsize: 1000
-    id: 16268
-    marketGroup: 1855
-    mass: 1000.0
-    name: Gelidus
-    orebasictype: 16268
-    packagedVolume: 1000.0
-    portionSize: 1
-    price: 825000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 1000.0
-  Glacial Mass:
+  16263:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
@@ -376,7 +37,45 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 1000.0
-  Glare Crust:
+  16264:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 80.0
+    asteroidradiusunitsize: 1000
+    id: 16264
+    marketGroup: 1855
+    mass: 1000.0
+    name: Blue Ice
+    orebasictype: 16264
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 76000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1000.0
+  16265:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 80.0
+    asteroidradiusunitsize: 1000
+    id: 16265
+    marketGroup: 1855
+    mass: 1000.0
+    name: White Glaze
+    orebasictype: 16265
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 76000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1000.0
+  16266:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
@@ -395,7 +94,45 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 1000.0
-  Krystallos:
+  16267:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 80.0
+    asteroidradiusunitsize: 1000
+    id: 16267
+    marketGroup: 1855
+    mass: 1000.0
+    name: Dark Glitter
+    orebasictype: 16267
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 1550000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1000.0
+  16268:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 80.0
+    asteroidradiusunitsize: 1000
+    id: 16268
+    marketGroup: 1855
+    mass: 1000.0
+    name: Gelidus
+    orebasictype: 16268
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 825000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1000.0
+  16269:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
@@ -414,45 +151,7 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 1000.0
-  Pristine White Glaze:
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 80.0
-    asteroidradiusunitsize: 1000
-    id: 17976
-    marketGroup: 1855
-    mass: 1000.0
-    name: Pristine White Glaze
-    orebasictype: 16265
-    packagedVolume: 1000.0
-    portionSize: 1
-    price: 116000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 1000.0
-  Smooth Glacial Mass:
-    asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 80.0
-    asteroidradiusunitsize: 1000
-    id: 17977
-    marketGroup: 1855
-    mass: 1000.0
-    name: Smooth Glacial Mass
-    orebasictype: 16263
-    packagedVolume: 1000.0
-    portionSize: 1
-    price: 116000.0
-    published: true
-    radius: 1.0
-    reprocessingskilltype: 18025
-    requiredskill1: 16281
-    requiredskill1level: 1
-    stasiswebifierresistance: 1.0
-    volume: 1000.0
-  Thick Blue Ice:
+  17975:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
@@ -471,18 +170,319 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 1000.0
-  White Glaze:
-    asteroidmetalevel: 1
+  17976:
+    asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
-    id: 16265
+    id: 17976
     marketGroup: 1855
     mass: 1000.0
-    name: White Glaze
+    name: Pristine White Glaze
     orebasictype: 16265
     packagedVolume: 1000.0
     portionSize: 1
-    price: 76000.0
+    price: 116000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1000.0
+  17977:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 80.0
+    asteroidradiusunitsize: 1000
+    id: 17977
+    marketGroup: 1855
+    mass: 1000.0
+    name: Smooth Glacial Mass
+    orebasictype: 16263
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 116000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1000.0
+  17978:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 80.0
+    asteroidradiusunitsize: 1000
+    id: 17978
+    marketGroup: 1855
+    mass: 1000.0
+    name: Enriched Clear Icicle
+    orebasictype: 16262
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 466000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1000.0
+  28433:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28433
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Blue Ice
+    orebasictype: 16264
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 760000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28434:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28434
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Clear Icicle
+    orebasictype: 16262
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 3760000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28435:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28435
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Dark Glitter
+    orebasictype: 16267
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.55E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28436:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28436
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Enriched Clear Icicle
+    orebasictype: 16262
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 4660000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28437:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28437
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Gelidus
+    orebasictype: 16268
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 8250000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28438:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28438
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Glacial Mass
+    orebasictype: 16263
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 760000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28439:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28439
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Glare Crust
+    orebasictype: 16266
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.525E7
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28440:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28440
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Krystallos
+    orebasictype: 16269
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 4500000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28441:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28441
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Pristine White Glaze
+    orebasictype: 16265
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1160000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28442:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28442
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Smooth Glacial Mass
+    orebasictype: 16263
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1160000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28443:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28443
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed Thick Blue Ice
+    orebasictype: 16264
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1160000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28444:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 28444
+    marketGroup: 1855
+    mass: 1000.0
+    name: Compressed White Glaze
+    orebasictype: 16265
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 760000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 100.0
+  28627:
+    asteroidradiusgrowthfactor: 80.0
+    asteroidradiusunitsize: 1000
+    id: 28627
+    ignoreminingwaste: 1
+    mass: 1000.0
+    name: Azure Ice
+    orebasictype: 16264
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 2000.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 18025
+    requiredskill1: 16281
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1000.0
+  28628:
+    asteroidradiusgrowthfactor: 80.0
+    asteroidradiusunitsize: 1000
+    id: 28628
+    ignoreminingwaste: 1
+    mass: 1000.0
+    name: Crystalline Icicle
+    orebasictype: 16262
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     radius: 1.0
     reprocessingskilltype: 18025

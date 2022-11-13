@@ -1665,7 +1665,7 @@ public class MissionGenericFrigates
         implements IMetaGroup<MissionGenericFrigates>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/MissionGenericFrigates.yaml";
-        private Map<String, MissionGenericFrigates> cache = (null);
+        private Map<Integer, MissionGenericFrigates> cache = (null);
 
         @Override
         public IMetaCategory<? super MissionGenericFrigates> category() {
@@ -1683,7 +1683,7 @@ public class MissionGenericFrigates
         }
 
         @Override
-        public synchronized Map<String, MissionGenericFrigates> load() {
+        public synchronized Map<Integer, MissionGenericFrigates> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MissionGenericFrigates.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1697,7 +1697,7 @@ public class MissionGenericFrigates
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionGenericFrigates> types;
+            public LinkedHashMap<Integer, MissionGenericFrigates> types;
         }
     }
 }

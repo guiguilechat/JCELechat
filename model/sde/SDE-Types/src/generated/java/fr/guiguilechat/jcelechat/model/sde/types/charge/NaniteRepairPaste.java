@@ -61,7 +61,7 @@ public class NaniteRepairPaste
         implements IMetaGroup<NaniteRepairPaste>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/NaniteRepairPaste.yaml";
-        private Map<String, NaniteRepairPaste> cache = (null);
+        private Map<Integer, NaniteRepairPaste> cache = (null);
 
         @Override
         public IMetaCategory<? super NaniteRepairPaste> category() {
@@ -79,7 +79,7 @@ public class NaniteRepairPaste
         }
 
         @Override
-        public synchronized Map<String, NaniteRepairPaste> load() {
+        public synchronized Map<Integer, NaniteRepairPaste> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NaniteRepairPaste.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -93,7 +93,7 @@ public class NaniteRepairPaste
         }
 
         private static class Container {
-            public LinkedHashMap<String, NaniteRepairPaste> types;
+            public LinkedHashMap<Integer, NaniteRepairPaste> types;
         }
     }
 }

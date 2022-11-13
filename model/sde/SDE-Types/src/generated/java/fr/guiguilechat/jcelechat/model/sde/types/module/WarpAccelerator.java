@@ -113,7 +113,7 @@ public class WarpAccelerator
         implements IMetaGroup<WarpAccelerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/WarpAccelerator.yaml";
-        private Map<String, WarpAccelerator> cache = (null);
+        private Map<Integer, WarpAccelerator> cache = (null);
 
         @Override
         public IMetaCategory<? super WarpAccelerator> category() {
@@ -131,7 +131,7 @@ public class WarpAccelerator
         }
 
         @Override
-        public synchronized Map<String, WarpAccelerator> load() {
+        public synchronized Map<Integer, WarpAccelerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(WarpAccelerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -145,7 +145,7 @@ public class WarpAccelerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpAccelerator> types;
+            public LinkedHashMap<Integer, WarpAccelerator> types;
         }
     }
 }

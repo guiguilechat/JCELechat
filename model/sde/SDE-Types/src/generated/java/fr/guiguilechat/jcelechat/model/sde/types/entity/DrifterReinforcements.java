@@ -1145,7 +1145,7 @@ public class DrifterReinforcements
         implements IMetaGroup<DrifterReinforcements>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/DrifterReinforcements.yaml";
-        private Map<String, DrifterReinforcements> cache = (null);
+        private Map<Integer, DrifterReinforcements> cache = (null);
 
         @Override
         public IMetaCategory<? super DrifterReinforcements> category() {
@@ -1163,7 +1163,7 @@ public class DrifterReinforcements
         }
 
         @Override
-        public synchronized Map<String, DrifterReinforcements> load() {
+        public synchronized Map<Integer, DrifterReinforcements> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DrifterReinforcements.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1177,7 +1177,7 @@ public class DrifterReinforcements
         }
 
         private static class Container {
-            public LinkedHashMap<String, DrifterReinforcements> types;
+            public LinkedHashMap<Integer, DrifterReinforcements> types;
         }
     }
 }

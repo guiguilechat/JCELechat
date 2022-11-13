@@ -112,7 +112,7 @@ public class CyberElectronicSystems
         implements IMetaGroup<CyberElectronicSystems>
     {
         public static final String RESOURCE_PATH = "SDE/types/implant/CyberElectronicSystems.yaml";
-        private Map<String, CyberElectronicSystems> cache = (null);
+        private Map<Integer, CyberElectronicSystems> cache = (null);
 
         @Override
         public IMetaCategory<? super CyberElectronicSystems> category() {
@@ -130,7 +130,7 @@ public class CyberElectronicSystems
         }
 
         @Override
-        public synchronized Map<String, CyberElectronicSystems> load() {
+        public synchronized Map<Integer, CyberElectronicSystems> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CyberElectronicSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -144,7 +144,7 @@ public class CyberElectronicSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberElectronicSystems> types;
+            public LinkedHashMap<Integer, CyberElectronicSystems> types;
         }
     }
 }

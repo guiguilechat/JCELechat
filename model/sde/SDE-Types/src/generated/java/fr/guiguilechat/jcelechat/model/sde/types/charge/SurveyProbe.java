@@ -231,7 +231,7 @@ public class SurveyProbe
         implements IMetaGroup<SurveyProbe>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/SurveyProbe.yaml";
-        private Map<String, SurveyProbe> cache = (null);
+        private Map<Integer, SurveyProbe> cache = (null);
 
         @Override
         public IMetaCategory<? super SurveyProbe> category() {
@@ -249,7 +249,7 @@ public class SurveyProbe
         }
 
         @Override
-        public synchronized Map<String, SurveyProbe> load() {
+        public synchronized Map<Integer, SurveyProbe> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SurveyProbe.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -263,7 +263,7 @@ public class SurveyProbe
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyProbe> types;
+            public LinkedHashMap<Integer, SurveyProbe> types;
         }
     }
 }

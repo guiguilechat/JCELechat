@@ -92,7 +92,7 @@ public class Bistot
         implements IMetaGroup<Bistot>
     {
         public static final String RESOURCE_PATH = "SDE/types/asteroid/Bistot.yaml";
-        private Map<String, Bistot> cache = (null);
+        private Map<Integer, Bistot> cache = (null);
 
         @Override
         public IMetaCategory<? super Bistot> category() {
@@ -110,7 +110,7 @@ public class Bistot
         }
 
         @Override
-        public synchronized Map<String, Bistot> load() {
+        public synchronized Map<Integer, Bistot> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Bistot.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -124,7 +124,7 @@ public class Bistot
         }
 
         private static class Container {
-            public LinkedHashMap<String, Bistot> types;
+            public LinkedHashMap<Integer, Bistot> types;
         }
     }
 }

@@ -1,5 +1,5 @@
 types:
-  Cargo Scanner I Blueprint:
+  1074:
     id: 1074
     industryblueprintrank: 6.0
     marketGroup: 325
@@ -11,7 +11,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Cargo Scanner II Blueprint:
+  2039:
     id: 2039
     industryblueprintrank: 15.600000381469727
     name: Cargo Scanner II Blueprint

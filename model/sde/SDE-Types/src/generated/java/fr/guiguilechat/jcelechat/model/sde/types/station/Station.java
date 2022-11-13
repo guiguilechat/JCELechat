@@ -180,7 +180,7 @@ public class Station
         implements IMetaGroup<Station>
     {
         public static final String RESOURCE_PATH = "SDE/types/station/Station.yaml";
-        private Map<String, Station> cache = (null);
+        private Map<Integer, Station> cache = (null);
 
         @Override
         public IMetaCategory<? super Station> category() {
@@ -198,7 +198,7 @@ public class Station
         }
 
         @Override
-        public synchronized Map<String, Station> load() {
+        public synchronized Map<Integer, Station> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Station.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -212,7 +212,7 @@ public class Station
         }
 
         private static class Container {
-            public LinkedHashMap<String, Station> types;
+            public LinkedHashMap<Integer, Station> types;
         }
     }
 }

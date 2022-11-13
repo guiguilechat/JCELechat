@@ -1,31 +1,5 @@
 types:
-  Algos Blueprint:
-    id: 32873
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    marketGroup: 585
-    name: Algos Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 8242751.0
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Catalyst Blueprint:
-    id: 16241
-    industryblueprintrank: 30.0
-    industryjobcostmultiplier: 1
-    marketGroup: 585
-    name: Catalyst Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 7887800.0
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Coercer Blueprint:
+  16237:
     id: 16237
     industryblueprintrank: 30.0
     industryjobcostmultiplier: 1
@@ -38,20 +12,7 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Corax Blueprint:
-    id: 32877
-    industryblueprintrank: 30.0
-    industryjobcostmultiplier: 1
-    marketGroup: 584
-    name: Corax Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 8795138.0
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Cormorant Blueprint:
+  16239:
     id: 16239
     industryblueprintrank: 30.0
     industryjobcostmultiplier: 1
@@ -64,46 +25,33 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Dragoon Blueprint:
-    id: 32875
+  16241:
+    id: 16241
     industryblueprintrank: 30.0
     industryjobcostmultiplier: 1
-    marketGroup: 583
-    name: Dragoon Blueprint
+    marketGroup: 585
+    name: Catalyst Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9023825.0
+    price: 7887800.0
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Eris Blueprint:
-    id: 22461
-    industryblueprintrank: 600.0
+  16243:
+    id: 16243
+    industryblueprintrank: 30.0
     industryjobcostmultiplier: 1
-    marketGroup: 894
-    name: Eris Blueprint
+    marketGroup: 586
+    name: Thrasher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 7500000.0
     published: true
     radius: 1.0
-    techlevel: 2
+    techlevel: 1
     volume: 0.009999999776482582
-  Flycatcher Blueprint:
-    id: 22465
-    industryblueprintrank: 600.0
-    industryjobcostmultiplier: 1
-    marketGroup: 893
-    name: Flycatcher Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 4.9999998976E10
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Heretic Blueprint:
+  22453:
     id: 22453
     industryblueprintrank: 600.0
     industryjobcostmultiplier: 1
@@ -116,16 +64,7 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Kikimora Blueprint:
-    id: 49714
-    industryjobcostmultiplier: 1
-    name: Kikimora Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Sabre Blueprint:
+  22457:
     id: 22457
     industryblueprintrank: 600.0
     industryjobcostmultiplier: 1
@@ -138,16 +77,72 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Sunesis Blueprint:
-    id: 44106
+  22461:
+    id: 22461
+    industryblueprintrank: 600.0
     industryjobcostmultiplier: 1
-    name: Sunesis Blueprint
+    marketGroup: 894
+    name: Eris Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.9999998976E10
     published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  22465:
+    id: 22465
+    industryblueprintrank: 600.0
+    industryjobcostmultiplier: 1
+    marketGroup: 893
+    name: Flycatcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  32873:
+    id: 32873
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 585
+    name: Algos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 8242751.0
+    published: true
+    radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Talwar Blueprint:
+  32875:
+    id: 32875
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    marketGroup: 583
+    name: Dragoon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9023825.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  32877:
+    id: 32877
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    marketGroup: 584
+    name: Corax Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 8795138.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  32879:
     id: 32879
     industryblueprintrank: 30.0
     industryjobcostmultiplier: 1
@@ -160,15 +155,64 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Thrasher Blueprint:
-    id: 16243
-    industryblueprintrank: 30.0
+  44106:
+    id: 44106
     industryjobcostmultiplier: 1
-    marketGroup: 586
-    name: Thrasher Blueprint
+    name: Sunesis Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7500000.0
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  49714:
+    id: 49714
+    industryjobcostmultiplier: 1
+    name: Kikimora Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  73972:
+    id: 73972
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Catalyst Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  73973:
+    id: 73973
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Coercer Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  73978:
+    id: 73978
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Cormorant Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  73979:
+    id: 73979
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Thrasher Fleet Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1

@@ -32,7 +32,7 @@ public class MaterialsAndCompounds
         implements IMetaGroup<MaterialsAndCompounds>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/MaterialsAndCompounds.yaml";
-        private Map<String, MaterialsAndCompounds> cache = (null);
+        private Map<Integer, MaterialsAndCompounds> cache = (null);
 
         @Override
         public IMetaCategory<? super MaterialsAndCompounds> category() {
@@ -50,7 +50,7 @@ public class MaterialsAndCompounds
         }
 
         @Override
-        public synchronized Map<String, MaterialsAndCompounds> load() {
+        public synchronized Map<Integer, MaterialsAndCompounds> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(MaterialsAndCompounds.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -64,7 +64,7 @@ public class MaterialsAndCompounds
         }
 
         private static class Container {
-            public LinkedHashMap<String, MaterialsAndCompounds> types;
+            public LinkedHashMap<Integer, MaterialsAndCompounds> types;
         }
     }
 }

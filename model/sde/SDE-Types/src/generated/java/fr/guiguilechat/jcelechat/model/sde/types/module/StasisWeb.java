@@ -253,7 +253,7 @@ public class StasisWeb
         implements IMetaGroup<StasisWeb>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/StasisWeb.yaml";
-        private Map<String, StasisWeb> cache = (null);
+        private Map<Integer, StasisWeb> cache = (null);
 
         @Override
         public IMetaCategory<? super StasisWeb> category() {
@@ -271,7 +271,7 @@ public class StasisWeb
         }
 
         @Override
-        public synchronized Map<String, StasisWeb> load() {
+        public synchronized Map<Integer, StasisWeb> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StasisWeb.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -285,7 +285,7 @@ public class StasisWeb
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisWeb> types;
+            public LinkedHashMap<Integer, StasisWeb> types;
         }
     }
 }

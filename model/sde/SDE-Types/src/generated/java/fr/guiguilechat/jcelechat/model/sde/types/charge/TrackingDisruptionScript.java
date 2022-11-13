@@ -134,7 +134,7 @@ public class TrackingDisruptionScript
         implements IMetaGroup<TrackingDisruptionScript>
     {
         public static final String RESOURCE_PATH = "SDE/types/charge/TrackingDisruptionScript.yaml";
-        private Map<String, TrackingDisruptionScript> cache = (null);
+        private Map<Integer, TrackingDisruptionScript> cache = (null);
 
         @Override
         public IMetaCategory<? super TrackingDisruptionScript> category() {
@@ -152,7 +152,7 @@ public class TrackingDisruptionScript
         }
 
         @Override
-        public synchronized Map<String, TrackingDisruptionScript> load() {
+        public synchronized Map<Integer, TrackingDisruptionScript> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(TrackingDisruptionScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -166,7 +166,7 @@ public class TrackingDisruptionScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingDisruptionScript> types;
+            public LinkedHashMap<Integer, TrackingDisruptionScript> types;
         }
     }
 }

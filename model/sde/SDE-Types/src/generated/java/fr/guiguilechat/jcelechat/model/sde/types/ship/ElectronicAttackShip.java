@@ -511,7 +511,7 @@ public class ElectronicAttackShip
         implements IMetaGroup<ElectronicAttackShip>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/ElectronicAttackShip.yaml";
-        private Map<String, ElectronicAttackShip> cache = (null);
+        private Map<Integer, ElectronicAttackShip> cache = (null);
 
         @Override
         public IMetaCategory<? super ElectronicAttackShip> category() {
@@ -529,7 +529,7 @@ public class ElectronicAttackShip
         }
 
         @Override
-        public synchronized Map<String, ElectronicAttackShip> load() {
+        public synchronized Map<Integer, ElectronicAttackShip> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ElectronicAttackShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -543,7 +543,7 @@ public class ElectronicAttackShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, ElectronicAttackShip> types;
+            public LinkedHashMap<Integer, ElectronicAttackShip> types;
         }
     }
 }

@@ -133,7 +133,7 @@ public class NanofiberInternalStructure
         implements IMetaGroup<NanofiberInternalStructure>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/NanofiberInternalStructure.yaml";
-        private Map<String, NanofiberInternalStructure> cache = (null);
+        private Map<Integer, NanofiberInternalStructure> cache = (null);
 
         @Override
         public IMetaCategory<? super NanofiberInternalStructure> category() {
@@ -151,7 +151,7 @@ public class NanofiberInternalStructure
         }
 
         @Override
-        public synchronized Map<String, NanofiberInternalStructure> load() {
+        public synchronized Map<Integer, NanofiberInternalStructure> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(NanofiberInternalStructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -165,7 +165,7 @@ public class NanofiberInternalStructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, NanofiberInternalStructure> types;
+            public LinkedHashMap<Integer, NanofiberInternalStructure> types;
         }
     }
 }

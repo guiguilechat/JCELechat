@@ -133,7 +133,7 @@ public class AuxiliaryPowerCore
         implements IMetaGroup<AuxiliaryPowerCore>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/AuxiliaryPowerCore.yaml";
-        private Map<String, AuxiliaryPowerCore> cache = (null);
+        private Map<Integer, AuxiliaryPowerCore> cache = (null);
 
         @Override
         public IMetaCategory<? super AuxiliaryPowerCore> category() {
@@ -151,7 +151,7 @@ public class AuxiliaryPowerCore
         }
 
         @Override
-        public synchronized Map<String, AuxiliaryPowerCore> load() {
+        public synchronized Map<Integer, AuxiliaryPowerCore> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(AuxiliaryPowerCore.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -165,7 +165,7 @@ public class AuxiliaryPowerCore
         }
 
         private static class Container {
-            public LinkedHashMap<String, AuxiliaryPowerCore> types;
+            public LinkedHashMap<Integer, AuxiliaryPowerCore> types;
         }
     }
 }

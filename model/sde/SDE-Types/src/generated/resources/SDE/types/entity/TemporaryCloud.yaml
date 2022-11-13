@@ -1,15 +1,5 @@
 types:
-  Argon Gas Environment_Damage:
-    cloudduration: 86400000
-    cloudeffectdelay: 10000
-    disallowassistance: 1
-    emdamage: 5000.0
-    id: 25860
-    name: Argon Gas Environment_Damage
-    portionSize: 1
-    published: false
-    radius: 250000.0
-  Mining Pollution Cloud:
+  11546:
     cloudduration: 300000
     cloudeffectdelay: 30000
     disallowassistance: 1
@@ -22,7 +12,7 @@ types:
     published: false
     radius: 5000.0
     thermaldamage: 50.0
-  TEST Triggered Damage Cloud:
+  25816:
     cloudduration: 600000
     cloudeffectdelay: 10000
     disallowassistance: 1
@@ -35,3 +25,13 @@ types:
     published: false
     radius: 10000.0
     thermaldamage: 100.0
+  25860:
+    cloudduration: 86400000
+    cloudeffectdelay: 10000
+    disallowassistance: 1
+    emdamage: 5000.0
+    id: 25860
+    name: Argon Gas Environment_Damage
+    portionSize: 1
+    published: false
+    radius: 250000.0

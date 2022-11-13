@@ -1,5 +1,5 @@
 types:
-  Sentient Dismantler Alvior:
+  27748:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -87,7 +87,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.08250000327825546
     volume: 60.0
-  Sentient Marauder Alvior:
+  27749:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -174,7 +174,7 @@ types:
     thermaldamage: 8.0
     trackingspeed: 0.08250000327825546
     volume: 60.0
-  Sentient Predator Alvior:
+  27750:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -261,7 +261,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.10249999910593033
     volume: 60.0
-  Sentient Ripper Alvior:
+  27751:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -348,7 +348,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.39375001192092896
     volume: 60.0
-  Sentient Shatter Alvior:
+  27752:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -435,7 +435,7 @@ types:
     structureuniformity: 1.0
     trackingspeed: 0.39375001192092896
     volume: 60.0
-  Sentient Shredder Alvior:
+  27753:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1

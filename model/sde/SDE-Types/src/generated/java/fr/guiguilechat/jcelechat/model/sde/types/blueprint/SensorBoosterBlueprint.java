@@ -97,7 +97,7 @@ public class SensorBoosterBlueprint
         implements IMetaGroup<SensorBoosterBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/SensorBoosterBlueprint.yaml";
-        private Map<String, SensorBoosterBlueprint> cache = (null);
+        private Map<Integer, SensorBoosterBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super SensorBoosterBlueprint> category() {
@@ -115,7 +115,7 @@ public class SensorBoosterBlueprint
         }
 
         @Override
-        public synchronized Map<String, SensorBoosterBlueprint> load() {
+        public synchronized Map<Integer, SensorBoosterBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(SensorBoosterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class SensorBoosterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorBoosterBlueprint> types;
+            public LinkedHashMap<Integer, SensorBoosterBlueprint> types;
         }
     }
 }

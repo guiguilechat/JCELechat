@@ -114,7 +114,7 @@ public class ExpiredJumpFilaments
         implements IMetaGroup<ExpiredJumpFilaments>
     {
         public static final String RESOURCE_PATH = "SDE/types/commodity/ExpiredJumpFilaments.yaml";
-        private Map<String, ExpiredJumpFilaments> cache = (null);
+        private Map<Integer, ExpiredJumpFilaments> cache = (null);
 
         @Override
         public IMetaCategory<? super ExpiredJumpFilaments> category() {
@@ -132,7 +132,7 @@ public class ExpiredJumpFilaments
         }
 
         @Override
-        public synchronized Map<String, ExpiredJumpFilaments> load() {
+        public synchronized Map<Integer, ExpiredJumpFilaments> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(ExpiredJumpFilaments.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -146,7 +146,7 @@ public class ExpiredJumpFilaments
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExpiredJumpFilaments> types;
+            public LinkedHashMap<Integer, ExpiredJumpFilaments> types;
         }
     }
 }

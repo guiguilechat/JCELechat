@@ -83,7 +83,7 @@ public class CapitalConstructionBlueprints
         implements IMetaGroup<CapitalConstructionBlueprints>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/CapitalConstructionBlueprints.yaml";
-        private Map<String, CapitalConstructionBlueprints> cache = (null);
+        private Map<Integer, CapitalConstructionBlueprints> cache = (null);
 
         @Override
         public IMetaCategory<? super CapitalConstructionBlueprints> category() {
@@ -101,7 +101,7 @@ public class CapitalConstructionBlueprints
         }
 
         @Override
-        public synchronized Map<String, CapitalConstructionBlueprints> load() {
+        public synchronized Map<Integer, CapitalConstructionBlueprints> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(CapitalConstructionBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -115,7 +115,7 @@ public class CapitalConstructionBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapitalConstructionBlueprints> types;
+            public LinkedHashMap<Integer, CapitalConstructionBlueprints> types;
         }
     }
 }

@@ -1001,7 +1001,7 @@ public class RoamingAngelCartelFrigate
         implements IMetaGroup<RoamingAngelCartelFrigate>
     {
         public static final String RESOURCE_PATH = "SDE/types/entity/RoamingAngelCartelFrigate.yaml";
-        private Map<String, RoamingAngelCartelFrigate> cache = (null);
+        private Map<Integer, RoamingAngelCartelFrigate> cache = (null);
 
         @Override
         public IMetaCategory<? super RoamingAngelCartelFrigate> category() {
@@ -1019,7 +1019,7 @@ public class RoamingAngelCartelFrigate
         }
 
         @Override
-        public synchronized Map<String, RoamingAngelCartelFrigate> load() {
+        public synchronized Map<Integer, RoamingAngelCartelFrigate> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(RoamingAngelCartelFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -1033,7 +1033,7 @@ public class RoamingAngelCartelFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingAngelCartelFrigate> types;
+            public LinkedHashMap<Integer, RoamingAngelCartelFrigate> types;
         }
     }
 }

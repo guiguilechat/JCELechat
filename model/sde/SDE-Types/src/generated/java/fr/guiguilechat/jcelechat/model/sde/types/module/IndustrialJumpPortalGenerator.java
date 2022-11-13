@@ -317,7 +317,7 @@ public class IndustrialJumpPortalGenerator
         implements IMetaGroup<IndustrialJumpPortalGenerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/module/IndustrialJumpPortalGenerator.yaml";
-        private Map<String, IndustrialJumpPortalGenerator> cache = (null);
+        private Map<Integer, IndustrialJumpPortalGenerator> cache = (null);
 
         @Override
         public IMetaCategory<? super IndustrialJumpPortalGenerator> category() {
@@ -335,7 +335,7 @@ public class IndustrialJumpPortalGenerator
         }
 
         @Override
-        public synchronized Map<String, IndustrialJumpPortalGenerator> load() {
+        public synchronized Map<Integer, IndustrialJumpPortalGenerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(IndustrialJumpPortalGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -349,7 +349,7 @@ public class IndustrialJumpPortalGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, IndustrialJumpPortalGenerator> types;
+            public LinkedHashMap<Integer, IndustrialJumpPortalGenerator> types;
         }
     }
 }

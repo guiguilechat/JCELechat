@@ -58,7 +58,7 @@ public class HarvestableCloud
         implements IMetaGroup<HarvestableCloud>
     {
         public static final String RESOURCE_PATH = "SDE/types/celestial/HarvestableCloud.yaml";
-        private Map<String, HarvestableCloud> cache = (null);
+        private Map<Integer, HarvestableCloud> cache = (null);
 
         @Override
         public IMetaCategory<? super HarvestableCloud> category() {
@@ -76,7 +76,7 @@ public class HarvestableCloud
         }
 
         @Override
-        public synchronized Map<String, HarvestableCloud> load() {
+        public synchronized Map<Integer, HarvestableCloud> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(HarvestableCloud.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -90,7 +90,7 @@ public class HarvestableCloud
         }
 
         private static class Container {
-            public LinkedHashMap<String, HarvestableCloud> types;
+            public LinkedHashMap<Integer, HarvestableCloud> types;
         }
     }
 }

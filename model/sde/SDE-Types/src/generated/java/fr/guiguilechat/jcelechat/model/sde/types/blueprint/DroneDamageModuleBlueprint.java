@@ -97,7 +97,7 @@ public class DroneDamageModuleBlueprint
         implements IMetaGroup<DroneDamageModuleBlueprint>
     {
         public static final String RESOURCE_PATH = "SDE/types/blueprint/DroneDamageModuleBlueprint.yaml";
-        private Map<String, DroneDamageModuleBlueprint> cache = (null);
+        private Map<Integer, DroneDamageModuleBlueprint> cache = (null);
 
         @Override
         public IMetaCategory<? super DroneDamageModuleBlueprint> category() {
@@ -115,7 +115,7 @@ public class DroneDamageModuleBlueprint
         }
 
         @Override
-        public synchronized Map<String, DroneDamageModuleBlueprint> load() {
+        public synchronized Map<Integer, DroneDamageModuleBlueprint> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(DroneDamageModuleBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -129,7 +129,7 @@ public class DroneDamageModuleBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DroneDamageModuleBlueprint> types;
+            public LinkedHashMap<Integer, DroneDamageModuleBlueprint> types;
         }
     }
 }

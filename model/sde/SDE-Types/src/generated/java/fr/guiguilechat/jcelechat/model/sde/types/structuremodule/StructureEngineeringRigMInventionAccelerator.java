@@ -289,7 +289,7 @@ public class StructureEngineeringRigMInventionAccelerator
         implements IMetaGroup<StructureEngineeringRigMInventionAccelerator>
     {
         public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMInventionAccelerator.yaml";
-        private Map<String, StructureEngineeringRigMInventionAccelerator> cache = (null);
+        private Map<Integer, StructureEngineeringRigMInventionAccelerator> cache = (null);
 
         @Override
         public IMetaCategory<? super StructureEngineeringRigMInventionAccelerator> category() {
@@ -307,7 +307,7 @@ public class StructureEngineeringRigMInventionAccelerator
         }
 
         @Override
-        public synchronized Map<String, StructureEngineeringRigMInventionAccelerator> load() {
+        public synchronized Map<Integer, StructureEngineeringRigMInventionAccelerator> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMInventionAccelerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -321,7 +321,7 @@ public class StructureEngineeringRigMInventionAccelerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMInventionAccelerator> types;
+            public LinkedHashMap<Integer, StructureEngineeringRigMInventionAccelerator> types;
         }
     }
 }

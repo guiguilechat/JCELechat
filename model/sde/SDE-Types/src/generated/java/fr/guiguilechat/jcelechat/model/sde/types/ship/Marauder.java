@@ -515,7 +515,7 @@ public class Marauder
         implements IMetaGroup<Marauder>
     {
         public static final String RESOURCE_PATH = "SDE/types/ship/Marauder.yaml";
-        private Map<String, Marauder> cache = (null);
+        private Map<Integer, Marauder> cache = (null);
 
         @Override
         public IMetaCategory<? super Marauder> category() {
@@ -533,7 +533,7 @@ public class Marauder
         }
 
         @Override
-        public synchronized Map<String, Marauder> load() {
+        public synchronized Map<Integer, Marauder> load() {
             if (cache == null) {
                 try(final InputStreamReader reader = new InputStreamReader(Marauder.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
@@ -547,7 +547,7 @@ public class Marauder
         }
 
         private static class Container {
-            public LinkedHashMap<String, Marauder> types;
+            public LinkedHashMap<Integer, Marauder> types;
         }
     }
 }

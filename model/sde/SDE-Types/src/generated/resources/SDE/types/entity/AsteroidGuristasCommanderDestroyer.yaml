@@ -1,5 +1,5 @@
 types:
-  Desperado Anarchist:
+  23343:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -11,14 +11,12 @@ types:
     armorkineticdamageresonance: 0.8999999761581421
     armorthermaldamageresonance: 0.800000011920929
     armoruniformity: 0.75
-    capacitorcapacity: 180.0
+    capacitorcapacity: 170.0
     capacity: 235.0
-    damagemultiplier: 5.625
+    damagemultiplier: 5.020833492279053
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.25
-    entityarmorrepairduration: 10000
-    entityattackdelaymax: 26700
-    entityattackdelaymin: 6675
+    entityattackdelaymax: 27000
+    entityattackdelaymin: 6750
     entityattackrange: 31250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
@@ -32,20 +30,21 @@ types:
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 12500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 123750
+    entitykillbounty: 112500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.36000001430511475
+    entityreactionfactor: 0.3499999940395355
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03750000149011612
+    entitysecuritystatuskillbonus: 0.03500000014901161
     entityshieldboostamount: 41.0
-    entityshieldboostdelaychance: 0.25
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostdelaychancesmall: 0.25
     entityshieldboostduration: 5000
     falloff: 6250.0
     gfxboosterid: 395
     gfxturretid: 565
     hp: 225.0
-    id: 23943
+    id: 23343
     kineticdamage: 5.0
     mass: 1650000.0
     maxattacktargets: 1
@@ -53,11 +52,11 @@ types:
     maxrange: 14063.0
     maxvelocity: 1600.0
     missileentityaoecloudsizemultiplier: 0.7200000286102295
-    missileentityaoevelocitymultiplier: 1.3600000143051147
-    missileentityflighttimemultiplier: 1.225000023841858
-    missileentityvelocitymultiplier: 1.225000023841858
+    missileentityaoevelocitymultiplier: 1.350000023841858
+    missileentityflighttimemultiplier: 1.2044999599456787
+    missileentityvelocitymultiplier: 1.2044999599456787
     missilelaunchduration: 1.0
-    name: Desperado Anarchist
+    name: Dread Guristas Nihilist
     optimalsigradius: 40
     packagedVolume: 16500.0
     portionSize: 1
@@ -81,7 +80,412 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.10625000298023224
     volume: 16500.0
-  Desperado Nihilist:
+  23344:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 250.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 180.0
+    capacity: 235.0
+    damagemultiplier: 5.625
+    disallowassistance: 1
+    entityattackdelaymax: 26700
+    entityattackdelaymin: 6675
+    entityattackrange: 31250
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 18750
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 12500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 123750
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.36000001430511475
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.03750000149011612
+    entityshieldboostamount: 41.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostdelaychancesmall: 0.25
+    entityshieldboostduration: 5000
+    falloff: 6250.0
+    gfxboosterid: 395
+    gfxturretid: 565
+    hp: 225.0
+    id: 23344
+    kineticdamage: 5.0
+    mass: 1650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 2
+    maxrange: 14063.0
+    maxvelocity: 1600.0
+    missileentityaoecloudsizemultiplier: 0.7200000286102295
+    missileentityaoevelocitymultiplier: 1.3600000143051147
+    missileentityflighttimemultiplier: 1.225000023841858
+    missileentityvelocitymultiplier: 1.225000023841858
+    missilelaunchduration: 1.0
+    name: Dread Guristas Anarchist
+    optimalsigradius: 40
+    packagedVolume: 16500.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 13.0
+    scanresolution: 475.0
+    scanspeed: 2000
+    shieldcapacity: 300.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 89.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 5.0
+    trackingspeed: 0.10625000298023224
+    volume: 16500.0
+  23345:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 250.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 190.0
+    capacity: 235.0
+    damagemultiplier: 6.00694465637207
+    disallowassistance: 1
+    entityattackdelaymax: 26400
+    entityattackdelaymin: 6600
+    entityattackrange: 31250
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 18750
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 4
+    entityequipmentmin: 2
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 12500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 135000
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.3700000047683716
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.03999999910593033
+    entityshieldboostamount: 41.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostdelaychancesmall: 0.25
+    entityshieldboostduration: 5000
+    falloff: 6250.0
+    gfxboosterid: 395
+    gfxturretid: 565
+    hp: 225.0
+    id: 23345
+    kineticdamage: 5.0
+    mass: 1650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 2
+    maxrange: 14063.0
+    maxvelocity: 1600.0
+    missileentityaoecloudsizemultiplier: 0.7099999785423279
+    missileentityaoevelocitymultiplier: 1.3700000047683716
+    missileentityflighttimemultiplier: 1.2454999685287476
+    missileentityvelocitymultiplier: 1.2454999685287476
+    missilelaunchduration: 1.0
+    name: Dread Guristas Renegade
+    optimalsigradius: 40
+    packagedVolume: 16500.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 14.0
+    scanresolution: 475.0
+    scanspeed: 2000
+    shieldcapacity: 300.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 89.0
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 5.0
+    trackingspeed: 0.10625000298023224
+    volume: 16500.0
+  23346:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 250.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 200.0
+    capacity: 235.0
+    damagemultiplier: 6.8125
+    disallowassistance: 1
+    entityattackdelaymax: 26100
+    entityattackdelaymin: 6525
+    entityattackrange: 41250
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 24750
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 4
+    entityequipmentmin: 2
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 16500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 146250
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.3799999952316284
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.042500000447034836
+    entityshieldboostamount: 41.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostdelaychancesmall: 0.25
+    entityshieldboostduration: 5000
+    falloff: 7500.0
+    gfxboosterid: 395
+    gfxturretid: 565
+    hp: 225.0
+    id: 23346
+    kineticdamage: 6.0
+    mass: 1650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 2
+    maxrange: 18750.0
+    maxvelocity: 1600.0
+    missileentityaoecloudsizemultiplier: 0.7099999785423279
+    missileentityaoevelocitymultiplier: 1.3799999952316284
+    missileentityflighttimemultiplier: 1.2660000324249268
+    missileentityvelocitymultiplier: 1.2660000324249268
+    missilelaunchduration: 1.0
+    name: Dread Guristas Guerilla
+    optimalsigradius: 40
+    packagedVolume: 16500.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 14.0
+    scanresolution: 475.0
+    scanspeed: 2000
+    shieldcapacity: 300.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 89.0
+    speed: 2750.0
+    structureuniformity: 1.0
+    thermaldamage: 5.0
+    trackingspeed: 0.08749999850988388
+    volume: 16500.0
+  23347:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 250.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 210.0
+    capacity: 235.0
+    damagemultiplier: 7.5
+    disallowassistance: 1
+    entityattackdelaymax: 25800
+    entityattackdelaymin: 6450
+    entityattackrange: 41250
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 24750
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 16500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 157500
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.38999998569488525
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.04500000178813934
+    entityshieldboostamount: 41.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostdelaychancesmall: 0.25
+    entityshieldboostduration: 5000
+    falloff: 7500.0
+    gfxboosterid: 395
+    gfxturretid: 565
+    hp: 225.0
+    id: 23347
+    kineticdamage: 6.0
+    mass: 1650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 2
+    maxrange: 18750.0
+    maxvelocity: 1600.0
+    missileentityaoecloudsizemultiplier: 0.7099999785423279
+    missileentityaoevelocitymultiplier: 1.3899999856948853
+    missileentityflighttimemultiplier: 1.2864999771118164
+    missileentityvelocitymultiplier: 1.2864999771118164
+    missilelaunchduration: 1.0
+    name: Dread Guristas Terrorist
+    optimalsigradius: 40
+    packagedVolume: 16500.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 15.0
+    scanresolution: 475.0
+    scanspeed: 2000
+    shieldcapacity: 300.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 89.0
+    speed: 2750.0
+    structureuniformity: 1.0
+    thermaldamage: 5.0
+    trackingspeed: 0.08749999850988388
+    volume: 16500.0
+  23348:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.699999988079071
+    armorhp: 250.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    capacitorcapacity: 220.0
+    capacity: 235.0
+    damagemultiplier: 8.3125
+    disallowassistance: 1
+    entityattackdelaymax: 25500
+    entityattackdelaymin: 6375
+    entityattackrange: 41250
+    entitybracketcolour: 1
+    entitychasemaxdelay: 10000.0
+    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdistance: 24750
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 200.0
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 16500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 168750
+    entitylootcountmin: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.4000000059604645
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.04749999940395355
+    entityshieldboostamount: 41.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostdelaychancesmall: 0.25
+    entityshieldboostduration: 5000
+    falloff: 7500.0
+    gfxboosterid: 395
+    gfxturretid: 565
+    hp: 225.0
+    id: 23348
+    kineticdamage: 6.0
+    mass: 1650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 2
+    maxrange: 18750.0
+    maxvelocity: 1600.0
+    missileentityaoecloudsizemultiplier: 0.699999988079071
+    missileentityaoevelocitymultiplier: 1.399999976158142
+    missileentityflighttimemultiplier: 1.3070000410079956
+    missileentityvelocitymultiplier: 1.3070000410079956
+    missilelaunchduration: 1.0
+    name: Dread Guristas Supremacist
+    optimalsigradius: 40
+    packagedVolume: 16500.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 50.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 15.0
+    scanresolution: 475.0
+    scanspeed: 2000
+    shieldcapacity: 300.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 89.0
+    speed: 2750.0
+    structureuniformity: 1.0
+    thermaldamage: 5.0
+    trackingspeed: 0.08749999850988388
+    volume: 16500.0
+  23942:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -163,7 +567,7 @@ types:
     thermaldamage: 5.0
     trackingspeed: 0.10625000298023224
     volume: 16500.0
-  Dread Guristas Anarchist:
+  23943:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -179,6 +583,8 @@ types:
     capacity: 235.0
     damagemultiplier: 5.625
     disallowassistance: 1
+    entityarmorrepairdelaychance: 0.25
+    entityarmorrepairduration: 10000
     entityattackdelaymax: 26700
     entityattackdelaymin: 6675
     entityattackrange: 31250
@@ -201,14 +607,13 @@ types:
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.03750000149011612
     entityshieldboostamount: 41.0
-    entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancesmall: 0.25
+    entityshieldboostdelaychance: 0.25
     entityshieldboostduration: 5000
     falloff: 6250.0
     gfxboosterid: 395
     gfxturretid: 565
     hp: 225.0
-    id: 23344
+    id: 23943
     kineticdamage: 5.0
     mass: 1650000.0
     maxattacktargets: 1
@@ -220,7 +625,7 @@ types:
     missileentityflighttimemultiplier: 1.225000023841858
     missileentityvelocitymultiplier: 1.225000023841858
     missilelaunchduration: 1.0
-    name: Dread Guristas Anarchist
+    name: Desperado Anarchist
     optimalsigradius: 40
     packagedVolume: 16500.0
     portionSize: 1
@@ -243,409 +648,4 @@ types:
     structureuniformity: 1.0
     thermaldamage: 5.0
     trackingspeed: 0.10625000298023224
-    volume: 16500.0
-  Dread Guristas Guerilla:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 250.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 200.0
-    capacity: 235.0
-    damagemultiplier: 6.8125
-    disallowassistance: 1
-    entityattackdelaymax: 26100
-    entityattackdelaymin: 6525
-    entityattackrange: 41250
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 24750
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 4
-    entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 16500.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 146250
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3799999952316284
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.042500000447034836
-    entityshieldboostamount: 41.0
-    entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancesmall: 0.25
-    entityshieldboostduration: 5000
-    falloff: 7500.0
-    gfxboosterid: 395
-    gfxturretid: 565
-    hp: 225.0
-    id: 23346
-    kineticdamage: 6.0
-    mass: 1650000.0
-    maxattacktargets: 1
-    maxlockedtargets: 2
-    maxrange: 18750.0
-    maxvelocity: 1600.0
-    missileentityaoecloudsizemultiplier: 0.7099999785423279
-    missileentityaoevelocitymultiplier: 1.3799999952316284
-    missileentityflighttimemultiplier: 1.2660000324249268
-    missileentityvelocitymultiplier: 1.2660000324249268
-    missilelaunchduration: 1.0
-    name: Dread Guristas Guerilla
-    optimalsigradius: 40
-    packagedVolume: 16500.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scangravimetricstrength: 14.0
-    scanresolution: 475.0
-    scanspeed: 2000
-    shieldcapacity: 300.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 89.0
-    speed: 2750.0
-    structureuniformity: 1.0
-    thermaldamage: 5.0
-    trackingspeed: 0.08749999850988388
-    volume: 16500.0
-  Dread Guristas Nihilist:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 250.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 170.0
-    capacity: 235.0
-    damagemultiplier: 5.020833492279053
-    disallowassistance: 1
-    entityattackdelaymax: 27000
-    entityattackdelaymin: 6750
-    entityattackrange: 31250
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 18750
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 3
-    entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 12500.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 112500
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3499999940395355
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03500000014901161
-    entityshieldboostamount: 41.0
-    entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancesmall: 0.25
-    entityshieldboostduration: 5000
-    falloff: 6250.0
-    gfxboosterid: 395
-    gfxturretid: 565
-    hp: 225.0
-    id: 23343
-    kineticdamage: 5.0
-    mass: 1650000.0
-    maxattacktargets: 1
-    maxlockedtargets: 2
-    maxrange: 14063.0
-    maxvelocity: 1600.0
-    missileentityaoecloudsizemultiplier: 0.7200000286102295
-    missileentityaoevelocitymultiplier: 1.350000023841858
-    missileentityflighttimemultiplier: 1.2044999599456787
-    missileentityvelocitymultiplier: 1.2044999599456787
-    missilelaunchduration: 1.0
-    name: Dread Guristas Nihilist
-    optimalsigradius: 40
-    packagedVolume: 16500.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scangravimetricstrength: 13.0
-    scanresolution: 475.0
-    scanspeed: 2000
-    shieldcapacity: 300.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 89.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 5.0
-    trackingspeed: 0.10625000298023224
-    volume: 16500.0
-  Dread Guristas Renegade:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 250.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 190.0
-    capacity: 235.0
-    damagemultiplier: 6.00694465637207
-    disallowassistance: 1
-    entityattackdelaymax: 26400
-    entityattackdelaymin: 6600
-    entityattackrange: 31250
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 18750
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 4
-    entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 12500.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 135000
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3700000047683716
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03999999910593033
-    entityshieldboostamount: 41.0
-    entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancesmall: 0.25
-    entityshieldboostduration: 5000
-    falloff: 6250.0
-    gfxboosterid: 395
-    gfxturretid: 565
-    hp: 225.0
-    id: 23345
-    kineticdamage: 5.0
-    mass: 1650000.0
-    maxattacktargets: 1
-    maxlockedtargets: 2
-    maxrange: 14063.0
-    maxvelocity: 1600.0
-    missileentityaoecloudsizemultiplier: 0.7099999785423279
-    missileentityaoevelocitymultiplier: 1.3700000047683716
-    missileentityflighttimemultiplier: 1.2454999685287476
-    missileentityvelocitymultiplier: 1.2454999685287476
-    missilelaunchduration: 1.0
-    name: Dread Guristas Renegade
-    optimalsigradius: 40
-    packagedVolume: 16500.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scangravimetricstrength: 14.0
-    scanresolution: 475.0
-    scanspeed: 2000
-    shieldcapacity: 300.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 89.0
-    speed: 2500.0
-    structureuniformity: 1.0
-    thermaldamage: 5.0
-    trackingspeed: 0.10625000298023224
-    volume: 16500.0
-  Dread Guristas Supremacist:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 250.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 220.0
-    capacity: 235.0
-    damagemultiplier: 8.3125
-    disallowassistance: 1
-    entityattackdelaymax: 25500
-    entityattackdelaymin: 6375
-    entityattackrange: 41250
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 24750
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 3
-    entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 16500.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 168750
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04749999940395355
-    entityshieldboostamount: 41.0
-    entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancesmall: 0.25
-    entityshieldboostduration: 5000
-    falloff: 7500.0
-    gfxboosterid: 395
-    gfxturretid: 565
-    hp: 225.0
-    id: 23348
-    kineticdamage: 6.0
-    mass: 1650000.0
-    maxattacktargets: 1
-    maxlockedtargets: 2
-    maxrange: 18750.0
-    maxvelocity: 1600.0
-    missileentityaoecloudsizemultiplier: 0.699999988079071
-    missileentityaoevelocitymultiplier: 1.399999976158142
-    missileentityflighttimemultiplier: 1.3070000410079956
-    missileentityvelocitymultiplier: 1.3070000410079956
-    missilelaunchduration: 1.0
-    name: Dread Guristas Supremacist
-    optimalsigradius: 40
-    packagedVolume: 16500.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scangravimetricstrength: 15.0
-    scanresolution: 475.0
-    scanspeed: 2000
-    shieldcapacity: 300.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 89.0
-    speed: 2750.0
-    structureuniformity: 1.0
-    thermaldamage: 5.0
-    trackingspeed: 0.08749999850988388
-    volume: 16500.0
-  Dread Guristas Terrorist:
-    aiignoredronesbelowsignatureradius: 50
-    aishoulduseeffectmultiplier: 1
-    aishouldusesignatureradius: 1
-    aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
-    armorhp: 250.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.75
-    capacitorcapacity: 210.0
-    capacity: 235.0
-    damagemultiplier: 7.5
-    disallowassistance: 1
-    entityattackdelaymax: 25800
-    entityattackdelaymin: 6450
-    entityattackrange: 41250
-    entitybracketcolour: 1
-    entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
-    entitychasemaxdistance: 24750
-    entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 200.0
-    entityequipmentmax: 3
-    entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
-    entityflyrange: 16500.0
-    entitygrouprespawnchance: 1
-    entitykillbounty: 157500
-    entitylootcountmin: 1
-    entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.38999998569488525
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04500000178813934
-    entityshieldboostamount: 41.0
-    entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancesmall: 0.25
-    entityshieldboostduration: 5000
-    falloff: 7500.0
-    gfxboosterid: 395
-    gfxturretid: 565
-    hp: 225.0
-    id: 23347
-    kineticdamage: 6.0
-    mass: 1650000.0
-    maxattacktargets: 1
-    maxlockedtargets: 2
-    maxrange: 18750.0
-    maxvelocity: 1600.0
-    missileentityaoecloudsizemultiplier: 0.7099999785423279
-    missileentityaoevelocitymultiplier: 1.3899999856948853
-    missileentityflighttimemultiplier: 1.2864999771118164
-    missileentityvelocitymultiplier: 1.2864999771118164
-    missilelaunchduration: 1.0
-    name: Dread Guristas Terrorist
-    optimalsigradius: 40
-    packagedVolume: 16500.0
-    portionSize: 1
-    propulsiongraphicid: 395
-    published: false
-    radius: 50.0
-    rechargerate: 500000.0
-    scangravimetricstrength: 15.0
-    scanresolution: 475.0
-    scanspeed: 2000
-    shieldcapacity: 300.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8999999761581421
-    shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 0.75
-    signatureradius: 89.0
-    speed: 2750.0
-    structureuniformity: 1.0
-    thermaldamage: 5.0
-    trackingspeed: 0.08749999850988388
     volume: 16500.0

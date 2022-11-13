@@ -1,5 +1,5 @@
 types:
-  Advanced Planetology:
+  2403:
     cannotbetrainedontrial: 1
     id: 2403
     marketGroup: 1823
@@ -15,35 +15,7 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
-  Command Center Upgrades:
-    cannotbetrainedontrial: 1
-    id: 2505
-    marketGroup: 1823
-    name: Command Center Upgrades
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 500000.0
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    secondaryattribute: 165
-    skilltimeconstant: 4.0
-    volume: 0.009999999776482582
-  Interplanetary Consolidation:
-    cannotbetrainedontrial: 1
-    id: 2495
-    marketGroup: 1823
-    name: Interplanetary Consolidation
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 500000.0
-    primaryattribute: 164
-    published: true
-    radius: 1.0
-    secondaryattribute: 165
-    skilltimeconstant: 4.0
-    volume: 0.009999999776482582
-  Planetology:
+  2406:
     cannotbetrainedontrial: 1
     id: 2406
     marketGroup: 1823
@@ -61,7 +33,35 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
-  Remote Sensing:
+  2495:
+    cannotbetrainedontrial: 1
+    id: 2495
+    marketGroup: 1823
+    name: Interplanetary Consolidation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    secondaryattribute: 165
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
+  2505:
+    cannotbetrainedontrial: 1
+    id: 2505
+    marketGroup: 1823
+    name: Command Center Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 500000.0
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    secondaryattribute: 165
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
+  13279:
     cannotbetrainedontrial: 1
     id: 13279
     marketGroup: 1823
