@@ -34,4 +34,12 @@ public class ESITools {
 	public static String formatDate(OffsetDateTime date) {
 		return DateTimeFormatter.ISO_DATE_TIME.format(date);
 	}
+
+	public static OffsetDateTime convertHeaderDate(String date) {
+		return DateTimeFormatter.RFC_1123_DATE_TIME.parse(date, LocalDateTime::from).atOffset(ZoneOffset.UTC);
+	}
+
+	public static String formatHeaderDate(OffsetDateTime date) {
+		return DateTimeFormatter.RFC_1123_DATE_TIME.format(date);
+	}
 }

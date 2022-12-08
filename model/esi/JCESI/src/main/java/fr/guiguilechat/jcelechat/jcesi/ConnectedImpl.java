@@ -136,13 +136,11 @@ public abstract class ConnectedImpl implements ITransfer {
 							+ con.getHeaderFields());
 					String date = headers.getOrDefault("Date", List.of("")).get(0);
 					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
-					boolean invalidExpiry = date.equals(expires);
-					if (invalidExpiry) {
+					if (date.equals(expires)) {
 						// if expires=Date we add 20s of avoid CCP bug
-						String newExpiry = ESITools.formatDate(ESITools.convertDate(date).plusSeconds(20));
-						headers.put("Expires", List.of(newExpiry));
-						System.out.println("got 304 invalid expiry URL=" + url + " Date=" + date + " Expires=" + expires
-								+ " newExpiry=" + newExpiry);
+							headers = new HashMap<>(headers);
+							String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
+							headers.put("Expires", List.of(newExpiry));
 					}
 					return new RequestedImpl<>(url, responseCode, null, null, headers);
 					// 4xx client error
