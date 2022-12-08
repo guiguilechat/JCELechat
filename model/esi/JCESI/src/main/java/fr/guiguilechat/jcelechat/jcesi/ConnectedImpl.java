@@ -73,7 +73,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	protected <T> Requested<T> request(String url, String method, Map<String, String> properties,
 			Map<String, Object> transmit, Class<T> expectedClass, int... retries) {
-		int maxRetry = 4;
+		int maxRetry = 1;
 		if (retries != null && retries.length != 0) {
 			maxRetry = Math.max(0, retries[0]);
 		}
@@ -81,6 +81,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			properties = new HashMap<>();
 		}
 		addConnection(properties);
+		logger.debug(method + "\t" + url + "\t" + properties + "\t" + transmit);
 		boolean isServerError = false;
 		try {
 			URL target = new URL(url);
@@ -108,8 +109,8 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 				isServerError = con.getResponseCode() / 100 == 5;
 				if (isServerError) {
-					logger.debug("request for method=" + method + " url=" + url + " returned server error="
-							+ con.getResponseCode() + " retries=" + maxRetry);
+					logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+							+ con.getHeaderFields());
 					maxRetry--;
 				}
 			} while (isServerError && maxRetry >= 0);
@@ -125,9 +126,24 @@ public abstract class ConnectedImpl implements ITransfer {
 				case HttpsURLConnection.HTTP_RESET:
 				case HttpsURLConnection.HTTP_PARTIAL:
 					String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+					logger.info(
+							method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+									+ con.getHeaderFields());
 					return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
 					// 304 not modified
 				case HttpsURLConnection.HTTP_NOT_MODIFIED:
+					logger.info(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+							+ con.getHeaderFields());
+					String date = headers.getOrDefault("Date", List.of("")).get(0);
+					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
+					boolean invalidExpiry = date.equals(expires);
+					if (invalidExpiry) {
+						// if expires=Date we add 20s of avoid CCP bug
+						String newExpiry = ESITools.formatDate(ESITools.convertDate(date).plusSeconds(20));
+						headers.put("Expires", List.of(newExpiry));
+						System.out.println("got 304 invalid expiry URL=" + url + " Date=" + date + " Expires=" + expires
+								+ " newExpiry=" + newExpiry);
+					}
 					return new RequestedImpl<>(url, responseCode, null, null, headers);
 					// 4xx client error
 				case HttpsURLConnection.HTTP_BAD_REQUEST:
@@ -147,9 +163,12 @@ public abstract class ConnectedImpl implements ITransfer {
 					if (con.getErrorStream() != null) {
 						new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 					}
+					logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+							+ con.getHeaderFields());
 					return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 			}
 		} catch (Exception e) {
+			logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t\t" + e.getMessage());
 			return new RequestedImpl<>(url, HttpsURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
 	}
@@ -182,8 +201,10 @@ public abstract class ConnectedImpl implements ITransfer {
 	@Override
 	public <T> Requested<List<T>> requestGetPages(BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters) {
+
 		Requested<T[]> applied = null;
 		for (int retry = 3; retry > 0; retry--) {
+			logger.debug("calling pages, retry=" + retry + " params=" + parameters);
 			applied = resourceAccess.apply(1, parameters);
 			RequestedImpl<List<T>> page1 = convertToList(applied);
 			if (page1 == null) {
@@ -203,7 +224,6 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 				return page1;
 			}
-			logger.debug("mismatch, fetching again " + page1.getURL() + " retry=" + retry);
 		}
 		if (applied == null) {
 			logger.debug("returned null for first page");
@@ -217,9 +237,9 @@ public abstract class ConnectedImpl implements ITransfer {
 			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess, Map<String, String> parameters,
 			RequestedImpl<List<T>> res, boolean[] mismatch) {
 		List<T> listret = IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
-			var ret = resourceAccess.apply(page, parameters);
+			Requested<T[]> ret = resourceAccess.apply(page, parameters);
 			if (ret.isServerError()) {
-				for (int pageretry = 0; ret.isServerError() && pageretry < 3; pageretry++) {
+				for (int pageretry = 0; ret.isServerError() && pageretry < 2; pageretry++) {
 					logger.debug(
 							"fetching " + ret.getURL() + " again because error " + ret.getResponseCode() + " : " + ret.getError());
 					ret = resourceAccess.apply(page, parameters);

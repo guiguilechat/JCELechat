@@ -24,10 +24,14 @@ public class ESITools {
 	}
 
 	/**
-	 * parse an ESI date to a local date time (that is, converted from UTC offset
-	 * to local offset)
+	 * parse an ESI date to a local date (that is, converted from UTC offset to
+	 * local offset)
 	 */
 	public static LocalDate convertLocalDate(String date) {
 		return convertDate(date).atZoneSameInstant(ZoneId.systemDefault()).toLocalDate();
+	}
+
+	public static String formatDate(OffsetDateTime date) {
+		return DateTimeFormatter.ISO_DATE_TIME.format(date);
 	}
 }
