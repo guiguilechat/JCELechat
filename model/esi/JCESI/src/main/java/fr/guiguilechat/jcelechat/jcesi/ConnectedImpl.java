@@ -138,9 +138,9 @@ public abstract class ConnectedImpl implements ITransfer {
 					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
 					if (date.equals(expires)) {
 						// if expires=Date we add 20s of avoid CCP bug
-							headers = new HashMap<>(headers);
-							String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
-							headers.put("Expires", List.of(newExpiry));
+						headers = new HashMap<>(headers);
+						String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
+						headers.put("Expires", List.of(newExpiry));
 					}
 					return new RequestedImpl<>(url, responseCode, null, null, headers);
 					// 4xx client error
@@ -255,8 +255,10 @@ public abstract class ConnectedImpl implements ITransfer {
 				// if expiry are different but only differ from up to 20 second, we
 				// don't care
 				if (Math.abs(res.getExpiresS() - page.getExpiresS()) > 20 && !mismatch[0]) {
-					logger.warn("mismatching page cache data [url=" + page.getURL() + " Expires=" + page.getExpires()
-					+ "] with first page [url=" + res.getURL() + " Expires=" + res.getExpires() + "]");
+					String message = "mismatching page cache data [url=" + page.getURL() + " Expires=" + page.getExpires()
+					+ "] with first page [url=" + res.getURL() + " Expires=" + res.getExpires() + "]";
+					logger.warn(message);
+					System.err.println(message);
 					mismatch[0] = true;
 				}
 			}
