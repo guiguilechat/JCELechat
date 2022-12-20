@@ -67,7 +67,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param expectedClass
 	 *          the class to convert the OK result to
 	 * @param retries
-	 *          optional number of retries on server error. Default is 3
+	 *          optional number of retries on server error.
 	 * @return a new response holding the result of the request, or null if
 	 *         connection issue
 	 */
@@ -233,7 +233,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	protected <T> List<T> fetchPagesFrom2(int nbPages,
 			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess, Map<String, String> parameters,
-			RequestedImpl<List<T>> res, boolean[] mismatch) {
+			RequestedImpl<List<T>> firstPage, boolean[] mismatch) {
 		List<T> listret = IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
 			Requested<T[]> ret = resourceAccess.apply(page, parameters);
 			if (ret.isServerError()) {
@@ -246,21 +246,17 @@ public abstract class ConnectedImpl implements ITransfer {
 			return ret;
 		}).peek(page -> {
 			if (!page.isOk()) {
-				res.setResponseCode(page.getResponseCode());
-				res.setError(page.getError());
+				firstPage.setResponseCode(page.getResponseCode());
+				firstPage.setError(page.getError());
 			}
-			String resExpire = res.getExpires();
-			String pageExpire = page.getExpires();
-			if (!(resExpire == pageExpire || resExpire != null && resExpire.equals(pageExpire))) {
-				// if expiry are different but only differ from up to 20 second, we
-				// don't care
-				if (Math.abs(res.getExpiresS() - page.getExpiresS()) > 20 && !mismatch[0]) {
-					String message = "mismatching page cache data [url=" + page.getURL() + " Expires=" + page.getExpires()
-					+ "] with first page [url=" + res.getURL() + " Expires=" + res.getExpires() + "]";
-					logger.warn(message);
-					System.err.println(message);
-					mismatch[0] = true;
-				}
+			String firstLastModified = firstPage.getLastModified();
+			String pageLastModified = page.getLastModified();
+			if (!(firstLastModified == pageLastModified || firstLastModified != null && firstLastModified.equals(pageLastModified))) {
+				String message = "mismatching page cache data [url=" + page.getURL() + " lastmodified=" + pageLastModified
+						+ "] with first page [url=" + firstPage.getURL() + " lastmodified=" + firstLastModified + "]";
+				logger.warn(message);
+				System.err.println(message);
+				mismatch[0] = true;
 			}
 		}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr)).collect(Collectors.toList());
 		return listret;

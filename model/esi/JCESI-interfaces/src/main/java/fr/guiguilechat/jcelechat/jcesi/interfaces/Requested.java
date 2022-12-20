@@ -90,6 +90,17 @@ public interface Requested<T> {
 	}
 
 	/**
+	 * * @return Last-Modified header, or null if absent
+	 */
+	public default String getLastModified() {
+		List<String> list = getHeaders().getOrDefault("Last-Modified", null);
+		if (list == null || list.isEmpty()) {
+			return null;
+		}
+		return list.get(0);
+	}
+
+	/**
 	 * get the number of errors remaining until prevented access. If this is 0 or
 	 * lower we must wait {@link #getErrorsReset()} seconds
 	 */
