@@ -132,15 +132,18 @@ public abstract class ConnectedImpl implements ITransfer {
 					return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
 					// 304 not modified
 				case HttpsURLConnection.HTTP_NOT_MODIFIED:
-					logger.info(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-							+ con.getHeaderFields());
 					String date = headers.getOrDefault("Date", List.of("")).get(0);
 					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
 					if (date.equals(expires)) {
+						logger.warn(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+								+ con.getHeaderFields());
 						// if expires=Date we add 20s of avoid CCP bug
 						headers = new HashMap<>(headers);
 						String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
 						headers.put("Expires", List.of(newExpiry));
+					} else {
+						logger.info(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+								+ con.getHeaderFields());
 					}
 					return new RequestedImpl<>(url, responseCode, null, null, headers);
 					// 4xx client error
