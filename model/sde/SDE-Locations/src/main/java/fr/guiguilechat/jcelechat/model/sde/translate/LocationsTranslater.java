@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde.translate;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -160,7 +161,12 @@ public class LocationsTranslater {
 			}
 
 		});
-
+		Stream.concat(regions.values().stream(), Stream.concat(constellations.values().stream(), systems.values().stream()))
+		.forEach(l -> {
+			l.adjacentSystems.sort(Comparator.naturalOrder());
+			l.adjacentConstellations.sort(Comparator.naturalOrder());
+			l.adjacentRegions.sort(Comparator.naturalOrder());
+		});
 	}
 
 	public static void addRegion(String regionName, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region region,

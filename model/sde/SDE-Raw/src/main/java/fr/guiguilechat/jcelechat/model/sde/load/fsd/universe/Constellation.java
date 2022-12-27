@@ -44,7 +44,7 @@ public class Constellation {
 						+ Thread.currentThread().getContextClassLoader());
 			}
 			Constellation cst = (Constellation) ret;
-			File[] sysFiles = Stream.of(contellationDir.listFiles()).parallel().filter(File::isDirectory)
+			File[] sysFiles = Stream.of(contellationDir.listFiles()).parallel().filter(File::isDirectory).sorted()
 					.toArray(File[]::new);
 			for (File sysFile : sysFiles) {
 				cst.systems.put(sysFile.getName(), SolarSystem.load(sysFile));

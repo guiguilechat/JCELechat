@@ -32,7 +32,8 @@ public class Region {
 		try {
 			Region ret = new Yaml().loadAs(SDECache.fileReader(data[0]),
 					Region.class);
-			File[] constelFiles = Stream.of(regionDir.listFiles()).parallel().filter(File::isDirectory).toArray(File[]::new);
+			File[] constelFiles = Stream.of(regionDir.listFiles()).parallel().filter(File::isDirectory).sorted()
+					.toArray(File[]::new);
 			for (File constelFile : constelFiles) {
 				ret.constellations.put(constelFile.getName(), Constellation.load(constelFile));
 			}
