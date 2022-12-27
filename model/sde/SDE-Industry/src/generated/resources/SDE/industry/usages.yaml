@@ -34810,7 +34810,7 @@ usages:
     productOfInvention: !!set
       1204: null
   1223:
-    compressFrom: 62566
+    compressFrom: 46676
     reprocessInto:
       35: 32.0
       36: 12.0
@@ -34832,7 +34832,7 @@ usages:
       36: 1.5
       38: 0.5
   1227:
-    compressFrom: 17868
+    compressFrom: 28619
     reprocessInto:
       35: 0.9
       37: 0.75
@@ -135228,6 +135228,70 @@ usages:
       40: 10.0
       57478: 10.0
       57486: 5.0
+  75275:
+    compressTo: 74521
+  74521:
+    compressFrom: 74524
+  75277:
+    compressTo: 74521
+  75276:
+    compressTo: 74521
+  75279:
+    compressTo: 74525
+  74525:
+    compressFrom: 74528
+  75278:
+    compressTo: 74521
+  75281:
+    compressTo: 74525
+  75280:
+    compressTo: 74525
+  75283:
+    compressTo: 74529
+  74529:
+    compressFrom: 74532
+  75282:
+    compressTo: 74525
+  75285:
+    compressTo: 74529
+  75284:
+    compressTo: 74529
+  75287:
+    compressTo: 74533
+  74533:
+    compressFrom: 74536
+  75286:
+    compressTo: 74529
+  75289:
+    compressTo: 74533
+  75288:
+    compressTo: 74533
+  75290:
+    compressTo: 74533
+  74523:
+    compressTo: 74521
+  74522:
+    compressTo: 74521
+  74524:
+    compressTo: 74521
+  74527:
+    compressTo: 74525
+  74526:
+    compressTo: 74525
+  74528:
+    compressTo: 74525
+  74531:
+    compressTo: 74529
+  74530:
+    compressTo: 74529
+  74532:
+    compressTo: 74529
+  74535:
+    compressTo: 74533
+  74534:
+    compressTo: 74533
+  74536:
+    compressTo: 74533
   28617:
     compressTo: 1230
   28618:

@@ -3,6 +3,9 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
+/**
+ * If set to true, this results in no mining waste.
+ */
 public class IgnoreMiningWaste
     extends IntAttribute
 {

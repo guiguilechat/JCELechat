@@ -3909,33 +3909,6 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 1150.0
-  27275:
-    accessdifficulty: 20.0
-    capacitorcapacity: 2700.0
-    capacity: 2700.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityequipmentmax: 5
-    entityequipmentmin: 2
-    entityflyrange: 500.0
-    falloff: 1.0
-    hp: 1000000.0
-    id: 27275
-    isarcheology: 1
-    lootrespawntime: 1.2E9
-    mass: 10000.0
-    name: Civilian Transport Ship Wreck
-    packagedVolume: 27500.0
-    portionSize: 1
-    published: false
-    radius: 14.0
-    signatureradius: 500.0
-    spawnwithoutguardstoo: 1
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    volume: 27500.0
   27278:
     accessdifficulty: 20.0
     capacitorcapacity: 2700.0

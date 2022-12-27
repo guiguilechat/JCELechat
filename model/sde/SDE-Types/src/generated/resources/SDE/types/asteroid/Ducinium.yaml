@@ -1,0 +1,153 @@
+types:
+  74533:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 74533
+    marketGroup: 3490
+    mass: 1.0000000409184788E35
+    name: Ducinium
+    orebasictype: 74533
+    packagedVolume: 16.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  74534:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 74534
+    marketGroup: 3490
+    mass: 1.0000000409184788E35
+    name: Noble Ducinium
+    orebasictype: 74533
+    packagedVolume: 16.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  74535:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 74535
+    marketGroup: 3490
+    mass: 1.0000000409184788E35
+    name: Royal Ducinium
+    orebasictype: 74533
+    packagedVolume: 16.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  74536:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 600
+    id: 74536
+    marketGroup: 3490
+    mass: 1.0000000409184788E35
+    name: Imperial Ducinium
+    orebasictype: 74533
+    packagedVolume: 16.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  75287:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 75287
+    marketGroup: 3490
+    mass: 1.0000000409184788E35
+    name: Compressed Ducinium
+    orebasictype: 74533
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  75288:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 75288
+    marketGroup: 3490
+    mass: 1.0000000409184788E35
+    name: Compressed Noble Ducinium
+    orebasictype: 74533
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  75289:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 75289
+    marketGroup: 3490
+    mass: 1.0000000409184788E35
+    name: Compressed Royal Ducinium
+    orebasictype: 74533
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  75290:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 600
+    id: 75290
+    marketGroup: 3490
+    mass: 1.0000000409184788E35
+    name: Compressed Imperial Ducinium
+    orebasictype: 74533
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213

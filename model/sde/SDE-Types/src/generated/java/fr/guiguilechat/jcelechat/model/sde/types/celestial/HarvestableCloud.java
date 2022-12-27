@@ -23,6 +23,9 @@ import org.yaml.snakeyaml.Yaml;
 public class HarvestableCloud
     extends Celestial
 {
+    /**
+     * If set to true, this results in no mining waste.
+     */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)

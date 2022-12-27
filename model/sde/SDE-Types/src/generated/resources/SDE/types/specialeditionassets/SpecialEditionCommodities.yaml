@@ -3461,14 +3461,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  61129:
-    cpumultiplier: 1.0
-    id: 61129
-    name: Ice Storm Filaments Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
   62028:
     cpumultiplier: 1.0
     id: 62028
@@ -3735,3 +3727,20 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  74387:
+    cpumultiplier: 1.0
+    id: 74387
+    marketGroup: 1663
+    name: Yoiul's Ascent Firework Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  74449:
+    cpumultiplier: 1.0
+    id: 74449
+    name: Ice Storm Filaments Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

@@ -9655,3 +9655,548 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 6
+  74161:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 10
+    charismabonus: 6
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 74161
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended 'Brainfreeze' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 6
+  74162:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 10
+    charismabonus: 8
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 74162
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Potent 'Brainfreeze' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 8
+  74163:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 10
+    charismabonus: 4
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 74163
+    intelligencebonus: 4
+    marketGroup: 2487
+    memorybonus: 4
+    name: Basic 'Brainfreeze' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 4
+  74199:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 74199
+    marketGroup: 2531
+    name: Wightstorm Sunyata Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    thermodynamicsheatdamage: -8
+    volume: 1.0
+  74200:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 74200
+    marketGroup: 2531
+    metalevelold: 3
+    name: Wightstorm Sunyata Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    thermodynamicsheatdamage: -12
+    volume: 1.0
+  74201:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 74201
+    marketGroup: 2531
+    metalevelold: 5
+    name: Wightstorm Sunyata Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    thermodynamicsheatdamage: -16
+    volume: 1.0
+  74202:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 74202
+    marketGroup: 2790
+    name: Wightstorm Nirvana Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 4.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74203:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 74203
+    marketGroup: 2790
+    metalevelold: 3
+    name: Wightstorm Nirvana Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 6.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74204:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 74204
+    marketGroup: 2790
+    metalevelold: 5
+    name: Wightstorm Nirvana Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 8.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74205:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 15
+    caprechargebonus: -4.0
+    damagemultiplier: 1.0
+    id: 74205
+    marketGroup: 2790
+    name: Wightstorm Rapture Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74206:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 15
+    caprechargebonus: -6.0
+    damagemultiplier: 1.0
+    id: 74206
+    marketGroup: 2790
+    metalevelold: 3
+    name: Wightstorm Rapture Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74207:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 15
+    caprechargebonus: -8.0
+    damagemultiplier: 1.0
+    id: 74207
+    marketGroup: 2790
+    metalevelold: 5
+    name: Wightstorm Rapture Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74208:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 74208
+    marketGroup: 2791
+    name: Wightstorm Cetana Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 8
+    volume: 1.0
+  74209:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 74209
+    marketGroup: 2791
+    metalevelold: 3
+    name: Wightstorm Cetana Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 12
+    volume: 1.0
+  74210:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 74210
+    marketGroup: 2791
+    metalevelold: 5
+    name: Wightstorm Cetana Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 16
+    volume: 1.0
+  74211:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 17
+    damagemultiplier: 1.0399999618530273
+    id: 74211
+    marketGroup: 2792
+    name: Wightstorm Vitarka Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74212:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 17
+    damagemultiplier: 1.059999942779541
+    id: 74212
+    marketGroup: 2792
+    metalevelold: 3
+    name: Wightstorm Vitarka Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74213:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 17
+    damagemultiplier: 1.0800000429153442
+    id: 74213
+    marketGroup: 2792
+    metalevelold: 5
+    name: Wightstorm Vitarka Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74214:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 74214
+    marketGroup: 2792
+    name: Wightstorm Manasikara Booster I
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 8.0
+    volume: 1.0
+  74215:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 74215
+    marketGroup: 2792
+    metalevelold: 3
+    name: Wightstorm Manasikara Booster II
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 12.0
+    volume: 1.0
+  74216:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 74216
+    marketGroup: 2792
+    metalevelold: 5
+    name: Wightstorm Manasikara Booster III
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 16.0
+    volume: 1.0
+  74257:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 74257
+    marketGroup: 2531
+    metalevelold: 6
+    name: Wightstorm Sunyata Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    thermodynamicsheatdamage: -20
+    volume: 1.0
+  74258:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 74258
+    marketGroup: 2790
+    metalevelold: 6
+    name: Wightstorm Nirvana Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 10.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74259:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 15
+    caprechargebonus: -10.0
+    damagemultiplier: 1.0
+    id: 74259
+    marketGroup: 2790
+    metalevelold: 6
+    name: Wightstorm Rapture Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74260:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 74260
+    marketGroup: 2791
+    metalevelold: 6
+    name: Wightstorm Cetana Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    speedfbonus: 20
+    volume: 1.0
+  74261:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 17
+    damagemultiplier: 1.100000023841858
+    id: 74261
+    marketGroup: 2792
+    metalevelold: 6
+    name: Wightstorm Vitarka Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  74262:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 19397.45703125
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 74262
+    marketGroup: 2792
+    metalevelold: 6
+    name: Wightstorm Manasikara Booster IV
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 20.0
+    volume: 1.0

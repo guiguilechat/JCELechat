@@ -33892,3 +33892,2979 @@ offers:
       quantity: 1
     requirements:
       lp: 8000
+  17509:
+    id: 17509
+    name: Adrestia Alliance Emblem
+    product:
+      id: 74884
+      quantity: 1
+    requirements:
+      lp: 11000
+  17510:
+    id: 17510
+    name: Anathema Alliance Emblem
+    product:
+      id: 74885
+      quantity: 1
+    requirements:
+      lp: 6500
+  17511:
+    id: 17511
+    name: Arazu Alliance Emblem
+    product:
+      id: 74886
+      quantity: 1
+    requirements:
+      lp: 11500
+  17512:
+    id: 17512
+    name: Arbitrator Alliance Emblem
+    product:
+      id: 74887
+      quantity: 1
+    requirements:
+      lp: 10000
+  17513:
+    id: 17513
+    name: Ares Alliance Emblem
+    product:
+      id: 74888
+      quantity: 1
+    requirements:
+      lp: 6500
+  17514:
+    id: 17514
+    name: Armageddon Alliance Emblem
+    product:
+      id: 74889
+      quantity: 1
+    requirements:
+      lp: 15000
+  17515:
+    id: 17515
+    name: Ashimmu Alliance Emblem
+    product:
+      id: 74890
+      quantity: 1
+    requirements:
+      lp: 11000
+  17516:
+    id: 17516
+    name: Augoror Alliance Emblem
+    product:
+      id: 74891
+      quantity: 1
+    requirements:
+      lp: 10000
+  17517:
+    id: 17517
+    name: Augoror Navy Issue Alliance Emblem
+    product:
+      id: 74892
+      quantity: 1
+    requirements:
+      lp: 10500
+  17518:
+    id: 17518
+    name: Basilisk Alliance Emblem
+    product:
+      id: 74893
+      quantity: 1
+    requirements:
+      lp: 11500
+  17519:
+    id: 17519
+    name: Bellicose Alliance Emblem
+    product:
+      id: 74894
+      quantity: 1
+    requirements:
+      lp: 10000
+  17520:
+    id: 17520
+    name: Bestla Alliance Emblem
+    product:
+      id: 74895
+      quantity: 1
+    requirements:
+      lp: 11500
+  17521:
+    id: 17521
+    name: Bifrost Alliance Emblem
+    product:
+      id: 74896
+      quantity: 1
+    requirements:
+      lp: 9000
+  17522:
+    id: 17522
+    name: Blackbird Alliance Emblem
+    product:
+      id: 74897
+      quantity: 1
+    requirements:
+      lp: 10000
+  17523:
+    id: 17523
+    name: Broadsword Alliance Emblem
+    product:
+      id: 74898
+      quantity: 1
+    requirements:
+      lp: 11500
+  17524:
+    id: 17524
+    name: Buzzard Alliance Emblem
+    product:
+      id: 74899
+      quantity: 1
+    requirements:
+      lp: 6500
+  17525:
+    id: 17525
+    name: Caedes Alliance Emblem
+    product:
+      id: 74900
+      quantity: 1
+    requirements:
+      lp: 6000
+  17526:
+    id: 17526
+    name: Caldari Navy Hookbill Alliance Emblem
+    product:
+      id: 74901
+      quantity: 1
+    requirements:
+      lp: 5500
+  17527:
+    id: 17527
+    name: Cambion Alliance Emblem
+    product:
+      id: 74902
+      quantity: 1
+    requirements:
+      lp: 6500
+  17528:
+    id: 17528
+    name: Caracal Alliance Emblem
+    product:
+      id: 74903
+      quantity: 1
+    requirements:
+      lp: 10000
+  17529:
+    id: 17529
+    name: Caracal Navy Issue Alliance Emblem
+    product:
+      id: 74904
+      quantity: 1
+    requirements:
+      lp: 10500
+  17530:
+    id: 17530
+    name: Celestis Alliance Emblem
+    product:
+      id: 74905
+      quantity: 1
+    requirements:
+      lp: 10000
+  17531:
+    id: 17531
+    name: Cerberus Alliance Emblem
+    product:
+      id: 74906
+      quantity: 1
+    requirements:
+      lp: 11500
+  17532:
+    id: 17532
+    name: Chameleon Alliance Emblem
+    product:
+      id: 74907
+      quantity: 1
+    requirements:
+      lp: 11000
+  17533:
+    id: 17533
+    name: Cheetah Alliance Emblem
+    product:
+      id: 74908
+      quantity: 1
+    requirements:
+      lp: 6500
+  17534:
+    id: 17534
+    name: Chremoas Alliance Emblem
+    product:
+      id: 74909
+      quantity: 1
+    requirements:
+      lp: 6000
+  17535:
+    id: 17535
+    name: Claw Alliance Emblem
+    product:
+      id: 74910
+      quantity: 1
+    requirements:
+      lp: 6500
+  17536:
+    id: 17536
+    name: Confessor Alliance Emblem
+    product:
+      id: 74911
+      quantity: 1
+    requirements:
+      lp: 9500
+  17537:
+    id: 17537
+    name: Covetor Alliance Emblem
+    product:
+      id: 74912
+      quantity: 1
+    requirements:
+      lp: 11000
+  17538:
+    id: 17538
+    name: Crane Alliance Emblem
+    product:
+      id: 74913
+      quantity: 1
+    requirements:
+      lp: 9000
+  17539:
+    id: 17539
+    name: Crow Alliance Emblem
+    product:
+      id: 74914
+      quantity: 1
+    requirements:
+      lp: 6500
+  17540:
+    id: 17540
+    name: Crucifier Navy Issue Alliance Emblem
+    product:
+      id: 74915
+      quantity: 1
+    requirements:
+      lp: 5500
+  17541:
+    id: 17541
+    name: Cruor Alliance Emblem
+    product:
+      id: 74916
+      quantity: 1
+    requirements:
+      lp: 6000
+  17542:
+    id: 17542
+    name: Crusader Alliance Emblem
+    product:
+      id: 74917
+      quantity: 1
+    requirements:
+      lp: 6500
+  17543:
+    id: 17543
+    name: Curse Alliance Emblem
+    product:
+      id: 74918
+      quantity: 1
+    requirements:
+      lp: 11500
+  17544:
+    id: 17544
+    name: Cynabal Alliance Emblem
+    product:
+      id: 74919
+      quantity: 1
+    requirements:
+      lp: 11000
+  17545:
+    id: 17545
+    name: Damavik Alliance Emblem
+    product:
+      id: 74920
+      quantity: 1
+    requirements:
+      lp: 6000
+  17546:
+    id: 17546
+    name: Daredevil Alliance Emblem
+    product:
+      id: 74921
+      quantity: 1
+    requirements:
+      lp: 6000
+  17547:
+    id: 17547
+    name: Deacon Alliance Emblem
+    product:
+      id: 74922
+      quantity: 1
+    requirements:
+      lp: 6500
+  17548:
+    id: 17548
+    name: Deimos Alliance Emblem
+    product:
+      id: 74923
+      quantity: 1
+    requirements:
+      lp: 11500
+  17549:
+    id: 17549
+    name: Devoter Alliance Emblem
+    product:
+      id: 74924
+      quantity: 1
+    requirements:
+      lp: 11500
+  17550:
+    id: 17550
+    name: Dominix Alliance Emblem
+    product:
+      id: 74925
+      quantity: 1
+    requirements:
+      lp: 15000
+  17551:
+    id: 17551
+    name: Dramiel Alliance Emblem
+    product:
+      id: 74926
+      quantity: 1
+    requirements:
+      lp: 6000
+  17552:
+    id: 17552
+    name: Draugur Alliance Emblem
+    product:
+      id: 74927
+      quantity: 1
+    requirements:
+      lp: 8500
+  17553:
+    id: 17553
+    name: Eagle Alliance Emblem
+    product:
+      id: 74928
+      quantity: 1
+    requirements:
+      lp: 11500
+  17554:
+    id: 17554
+    name: Echelon Alliance Emblem
+    product:
+      id: 74929
+      quantity: 1
+    requirements:
+      lp: 6000
+  17555:
+    id: 17555
+    name: Endurance Alliance Emblem
+    product:
+      id: 74930
+      quantity: 1
+    requirements:
+      lp: 4000
+  17556:
+    id: 17556
+    name: Enforcer Alliance Emblem
+    product:
+      id: 74931
+      quantity: 1
+    requirements:
+      lp: 11000
+  17557:
+    id: 17557
+    name: Enyo Alliance Emblem
+    product:
+      id: 74932
+      quantity: 1
+    requirements:
+      lp: 6500
+  17558:
+    id: 17558
+    name: Eris Alliance Emblem
+    product:
+      id: 74933
+      quantity: 1
+    requirements:
+      lp: 9000
+  17559:
+    id: 17559
+    name: Etana Alliance Emblem
+    product:
+      id: 74934
+      quantity: 1
+    requirements:
+      lp: 11500
+  17560:
+    id: 17560
+    name: Exequror Alliance Emblem
+    product:
+      id: 74935
+      quantity: 1
+    requirements:
+      lp: 10000
+  17561:
+    id: 17561
+    name: Exequror Navy Issue Alliance Emblem
+    product:
+      id: 74936
+      quantity: 1
+    requirements:
+      lp: 10500
+  17562:
+    id: 17562
+    name: Falcon Alliance Emblem
+    product:
+      id: 74937
+      quantity: 1
+    requirements:
+      lp: 11500
+  17563:
+    id: 17563
+    name: Federation Navy Comet Alliance Emblem
+    product:
+      id: 74938
+      quantity: 1
+    requirements:
+      lp: 5500
+  17564:
+    id: 17564
+    name: Fiend Alliance Emblem
+    product:
+      id: 74939
+      quantity: 1
+    requirements:
+      lp: 11000
+  17565:
+    id: 17565
+    name: Flycatcher Alliance Emblem
+    product:
+      id: 74940
+      quantity: 1
+    requirements:
+      lp: 9000
+  17566:
+    id: 17566
+    name: Freki Alliance Emblem
+    product:
+      id: 74941
+      quantity: 1
+    requirements:
+      lp: 6500
+  17567:
+    id: 17567
+    name: Garmur Alliance Emblem
+    product:
+      id: 74942
+      quantity: 1
+    requirements:
+      lp: 6000
+  17568:
+    id: 17568
+    name: Geri Alliance Emblem
+    product:
+      id: 74943
+      quantity: 1
+    requirements:
+      lp: 6500
+  17569:
+    id: 17569
+    name: Gila Alliance Emblem
+    product:
+      id: 74944
+      quantity: 1
+    requirements:
+      lp: 11000
+  17570:
+    id: 17570
+    name: Griffin Navy Issue Alliance Emblem
+    product:
+      id: 74945
+      quantity: 1
+    requirements:
+      lp: 5500
+  17571:
+    id: 17571
+    name: Guardian Alliance Emblem
+    product:
+      id: 74946
+      quantity: 1
+    requirements:
+      lp: 11500
+  17572:
+    id: 17572
+    name: Guardian-Vexor Alliance Emblem
+    product:
+      id: 74947
+      quantity: 1
+    requirements:
+      lp: 11000
+  17573:
+    id: 17573
+    name: Harpy Alliance Emblem
+    product:
+      id: 74948
+      quantity: 1
+    requirements:
+      lp: 6500
+  17574:
+    id: 17574
+    name: Hawk Alliance Emblem
+    product:
+      id: 74949
+      quantity: 1
+    requirements:
+      lp: 6500
+  17575:
+    id: 17575
+    name: Hecate Alliance Emblem
+    product:
+      id: 74950
+      quantity: 1
+    requirements:
+      lp: 9500
+  17576:
+    id: 17576
+    name: Helios Alliance Emblem
+    product:
+      id: 74951
+      quantity: 1
+    requirements:
+      lp: 6500
+  17577:
+    id: 17577
+    name: Heretic Alliance Emblem
+    product:
+      id: 74952
+      quantity: 1
+    requirements:
+      lp: 9000
+  17578:
+    id: 17578
+    name: Hound Alliance Emblem
+    product:
+      id: 74953
+      quantity: 1
+    requirements:
+      lp: 6500
+  17579:
+    id: 17579
+    name: Huginn Alliance Emblem
+    product:
+      id: 74954
+      quantity: 1
+    requirements:
+      lp: 11500
+  17580:
+    id: 17580
+    name: Hulk Alliance Emblem
+    product:
+      id: 74955
+      quantity: 1
+    requirements:
+      lp: 11500
+  17581:
+    id: 17581
+    name: Hydra Alliance Emblem
+    product:
+      id: 74956
+      quantity: 1
+    requirements:
+      lp: 6000
+  17582:
+    id: 17582
+    name: Hyena Alliance Emblem
+    product:
+      id: 74957
+      quantity: 1
+    requirements:
+      lp: 6500
+  17583:
+    id: 17583
+    name: Ikitursa Alliance Emblem
+    product:
+      id: 74958
+      quantity: 1
+    requirements:
+      lp: 11000
+  17584:
+    id: 17584
+    name: Imp Alliance Emblem
+    product:
+      id: 74959
+      quantity: 1
+    requirements:
+      lp: 6000
+  17585:
+    id: 17585
+    name: Impel Alliance Emblem
+    product:
+      id: 74960
+      quantity: 1
+    requirements:
+      lp: 9000
+  17586:
+    id: 17586
+    name: Imperial Navy Slicer Alliance Emblem
+    product:
+      id: 74961
+      quantity: 1
+    requirements:
+      lp: 5500
+  17587:
+    id: 17587
+    name: Ishkur Alliance Emblem
+    product:
+      id: 74962
+      quantity: 1
+    requirements:
+      lp: 6500
+  17588:
+    id: 17588
+    name: Ishtar Alliance Emblem
+    product:
+      id: 74963
+      quantity: 1
+    requirements:
+      lp: 11500
+  17589:
+    id: 17589
+    name: Jackdaw Alliance Emblem
+    product:
+      id: 74964
+      quantity: 1
+    requirements:
+      lp: 9500
+  17590:
+    id: 17590
+    name: Jaguar Alliance Emblem
+    product:
+      id: 74965
+      quantity: 1
+    requirements:
+      lp: 6500
+  17591:
+    id: 17591
+    name: Keres Alliance Emblem
+    product:
+      id: 74966
+      quantity: 1
+    requirements:
+      lp: 6500
+  17592:
+    id: 17592
+    name: Kikimora Alliance Emblem
+    product:
+      id: 74967
+      quantity: 1
+    requirements:
+      lp: 8500
+  17593:
+    id: 17593
+    name: Kirin Alliance Emblem
+    product:
+      id: 74968
+      quantity: 1
+    requirements:
+      lp: 6500
+  17594:
+    id: 17594
+    name: Kitsune Alliance Emblem
+    product:
+      id: 74969
+      quantity: 1
+    requirements:
+      lp: 6500
+  17595:
+    id: 17595
+    name: Lachesis Alliance Emblem
+    product:
+      id: 74970
+      quantity: 1
+    requirements:
+      lp: 11500
+  17596:
+    id: 17596
+    name: Laelaps Alliance Emblem
+    product:
+      id: 74971
+      quantity: 1
+    requirements:
+      lp: 11000
+  17597:
+    id: 17597
+    name: Legion Alliance Emblem
+    product:
+      id: 74972
+      quantity: 1
+    requirements:
+      lp: 12000
+  17598:
+    id: 17598
+    name: Loki Alliance Emblem
+    product:
+      id: 74973
+      quantity: 1
+    requirements:
+      lp: 12000
+  17599:
+    id: 17599
+    name: Mackinaw Alliance Emblem
+    product:
+      id: 74974
+      quantity: 1
+    requirements:
+      lp: 11500
+  17600:
+    id: 17600
+    name: Magus Alliance Emblem
+    product:
+      id: 74975
+      quantity: 1
+    requirements:
+      lp: 9000
+  17601:
+    id: 17601
+    name: Malediction Alliance Emblem
+    product:
+      id: 74976
+      quantity: 1
+    requirements:
+      lp: 6500
+  17602:
+    id: 17602
+    name: Malice Alliance Emblem
+    product:
+      id: 74977
+      quantity: 1
+    requirements:
+      lp: 6500
+  17603:
+    id: 17603
+    name: Maller Alliance Emblem
+    product:
+      id: 74978
+      quantity: 1
+    requirements:
+      lp: 10000
+  17604:
+    id: 17604
+    name: Manticore Alliance Emblem
+    product:
+      id: 74979
+      quantity: 1
+    requirements:
+      lp: 6500
+  17605:
+    id: 17605
+    name: Mastodon Alliance Emblem
+    product:
+      id: 74980
+      quantity: 1
+    requirements:
+      lp: 9000
+  17606:
+    id: 17606
+    name: Maulus Navy Issue Alliance Emblem
+    product:
+      id: 74981
+      quantity: 1
+    requirements:
+      lp: 5500
+  17607:
+    id: 17607
+    name: Miasmos Amastris Edition Alliance Emblem
+    product:
+      id: 74982
+      quantity: 1
+    requirements:
+      lp: 8500
+  17608:
+    id: 17608
+    name: Miasmos Quafe Ultra Edition Alliance Emblem
+    product:
+      id: 74983
+      quantity: 1
+    requirements:
+      lp: 8500
+  17609:
+    id: 17609
+    name: Miasmos Quafe Ultramarine Edition Alliance Emblem
+    product:
+      id: 74984
+      quantity: 1
+    requirements:
+      lp: 8500
+  17610:
+    id: 17610
+    name: Mimir Alliance Emblem
+    product:
+      id: 74985
+      quantity: 1
+    requirements:
+      lp: 11000
+  17611:
+    id: 17611
+    name: Moa Alliance Emblem
+    product:
+      id: 74986
+      quantity: 1
+    requirements:
+      lp: 10000
+  17612:
+    id: 17612
+    name: Monitor Alliance Emblem
+    product:
+      id: 74987
+      quantity: 1
+    requirements:
+      lp: 11000
+  17613:
+    id: 17613
+    name: Moracha Alliance Emblem
+    product:
+      id: 74988
+      quantity: 1
+    requirements:
+      lp: 11000
+  17614:
+    id: 17614
+    name: Muninn Alliance Emblem
+    product:
+      id: 74989
+      quantity: 1
+    requirements:
+      lp: 11500
+  17615:
+    id: 17615
+    name: Nemesis Alliance Emblem
+    product:
+      id: 74990
+      quantity: 1
+    requirements:
+      lp: 6500
+  17616:
+    id: 17616
+    name: Nergal Alliance Emblem
+    product:
+      id: 74991
+      quantity: 1
+    requirements:
+      lp: 6000
+  17617:
+    id: 17617
+    name: Noctis Alliance Emblem
+    product:
+      id: 74992
+      quantity: 1
+    requirements:
+      lp: 8500
+  17618:
+    id: 17618
+    name: Occator Alliance Emblem
+    product:
+      id: 74993
+      quantity: 1
+    requirements:
+      lp: 9000
+  17619:
+    id: 17619
+    name: Omen Alliance Emblem
+    product:
+      id: 74994
+      quantity: 1
+    requirements:
+      lp: 10000
+  17620:
+    id: 17620
+    name: Omen Navy Issue Alliance Emblem
+    product:
+      id: 74995
+      quantity: 1
+    requirements:
+      lp: 10500
+  17621:
+    id: 17621
+    name: Oneiros Alliance Emblem
+    product:
+      id: 74996
+      quantity: 1
+    requirements:
+      lp: 11500
+  17622:
+    id: 17622
+    name: Onyx Alliance Emblem
+    product:
+      id: 74997
+      quantity: 1
+    requirements:
+      lp: 11500
+  17623:
+    id: 17623
+    name: Opux Luxury Yacht Alliance Emblem
+    product:
+      id: 74998
+      quantity: 1
+    requirements:
+      lp: 11000
+  17624:
+    id: 17624
+    name: Orca Alliance Emblem
+    product:
+      id: 74999
+      quantity: 1
+    requirements:
+      lp: 18500
+  17625:
+    id: 17625
+    name: Orthrus Alliance Emblem
+    product:
+      id: 75000
+      quantity: 1
+    requirements:
+      lp: 11000
+  17626:
+    id: 17626
+    name: Osprey Alliance Emblem
+    product:
+      id: 75001
+      quantity: 1
+    requirements:
+      lp: 10000
+  17627:
+    id: 17627
+    name: Osprey Navy Issue Alliance Emblem
+    product:
+      id: 75002
+      quantity: 1
+    requirements:
+      lp: 10500
+  17628:
+    id: 17628
+    name: Pacifier Alliance Emblem
+    product:
+      id: 75003
+      quantity: 1
+    requirements:
+      lp: 6000
+  17629:
+    id: 17629
+    name: Phantasm Alliance Emblem
+    product:
+      id: 75004
+      quantity: 1
+    requirements:
+      lp: 11000
+  17630:
+    id: 17630
+    name: Phobos Alliance Emblem
+    product:
+      id: 75005
+      quantity: 1
+    requirements:
+      lp: 11500
+  17631:
+    id: 17631
+    name: Pilgrim Alliance Emblem
+    product:
+      id: 75006
+      quantity: 1
+    requirements:
+      lp: 11500
+  17632:
+    id: 17632
+    name: Pontifex Alliance Emblem
+    product:
+      id: 75007
+      quantity: 1
+    requirements:
+      lp: 9000
+  17633:
+    id: 17633
+    name: Porpoise Alliance Emblem
+    product:
+      id: 75008
+      quantity: 1
+    requirements:
+      lp: 16000
+  17634:
+    id: 17634
+    name: Primae Alliance Emblem
+    product:
+      id: 75009
+      quantity: 1
+    requirements:
+      lp: 8500
+  17635:
+    id: 17635
+    name: Procurer Alliance Emblem
+    product:
+      id: 75010
+      quantity: 1
+    requirements:
+      lp: 11000
+  17636:
+    id: 17636
+    name: Prorator Alliance Emblem
+    product:
+      id: 75011
+      quantity: 1
+    requirements:
+      lp: 9000
+  17637:
+    id: 17637
+    name: Prospect Alliance Emblem
+    product:
+      id: 75012
+      quantity: 1
+    requirements:
+      lp: 4000
+  17638:
+    id: 17638
+    name: Proteus Alliance Emblem
+    product:
+      id: 75013
+      quantity: 1
+    requirements:
+      lp: 12000
+  17639:
+    id: 17639
+    name: Prowler Alliance Emblem
+    product:
+      id: 75014
+      quantity: 1
+    requirements:
+      lp: 9000
+  17640:
+    id: 17640
+    name: Purifier Alliance Emblem
+    product:
+      id: 75015
+      quantity: 1
+    requirements:
+      lp: 6500
+  17641:
+    id: 17641
+    name: Rabisu Alliance Emblem
+    product:
+      id: 75016
+      quantity: 1
+    requirements:
+      lp: 11000
+  17642:
+    id: 17642
+    name: Raiju Alliance Emblem
+    product:
+      id: 75017
+      quantity: 1
+    requirements:
+      lp: 6000
+  17643:
+    id: 17643
+    name: Rapier Alliance Emblem
+    product:
+      id: 75018
+      quantity: 1
+    requirements:
+      lp: 11500
+  17644:
+    id: 17644
+    name: Raptor Alliance Emblem
+    product:
+      id: 75019
+      quantity: 1
+    requirements:
+      lp: 6500
+  17645:
+    id: 17645
+    name: Republic Fleet Firetail Alliance Emblem
+    product:
+      id: 75020
+      quantity: 1
+    requirements:
+      lp: 5500
+  17646:
+    id: 17646
+    name: Retribution Alliance Emblem
+    product:
+      id: 75021
+      quantity: 1
+    requirements:
+      lp: 6500
+  17647:
+    id: 17647
+    name: Retriever Alliance Emblem
+    product:
+      id: 75022
+      quantity: 1
+    requirements:
+      lp: 11000
+  17648:
+    id: 17648
+    name: Rodiva Alliance Emblem
+    product:
+      id: 75023
+      quantity: 1
+    requirements:
+      lp: 11000
+  17649:
+    id: 17649
+    name: Rook Alliance Emblem
+    product:
+      id: 75024
+      quantity: 1
+    requirements:
+      lp: 11500
+  17650:
+    id: 17650
+    name: Rupture Alliance Emblem
+    product:
+      id: 75025
+      quantity: 1
+    requirements:
+      lp: 10000
+  17651:
+    id: 17651
+    name: Sabre Alliance Emblem
+    product:
+      id: 75026
+      quantity: 1
+    requirements:
+      lp: 9000
+  17652:
+    id: 17652
+    name: Sacrilege Alliance Emblem
+    product:
+      id: 75027
+      quantity: 1
+    requirements:
+      lp: 11500
+  17653:
+    id: 17653
+    name: Scalpel Alliance Emblem
+    product:
+      id: 75028
+      quantity: 1
+    requirements:
+      lp: 6500
+  17654:
+    id: 17654
+    name: Scimitar Alliance Emblem
+    product:
+      id: 75029
+      quantity: 1
+    requirements:
+      lp: 11500
+  17655:
+    id: 17655
+    name: Scorpion Alliance Emblem
+    product:
+      id: 75030
+      quantity: 1
+    requirements:
+      lp: 15000
+  17656:
+    id: 17656
+    name: Scythe Alliance Emblem
+    product:
+      id: 75031
+      quantity: 1
+    requirements:
+      lp: 10000
+  17657:
+    id: 17657
+    name: Scythe Fleet Issue Alliance Emblem
+    product:
+      id: 75032
+      quantity: 1
+    requirements:
+      lp: 10500
+  17658:
+    id: 17658
+    name: Sentinel Alliance Emblem
+    product:
+      id: 75033
+      quantity: 1
+    requirements:
+      lp: 6500
+  17659:
+    id: 17659
+    name: Skiff Alliance Emblem
+    product:
+      id: 75034
+      quantity: 1
+    requirements:
+      lp: 11500
+  17660:
+    id: 17660
+    name: Skybreaker Alliance Emblem
+    product:
+      id: 75035
+      quantity: 1
+    requirements:
+      lp: 6000
+  17661:
+    id: 17661
+    name: Stabber Alliance Emblem
+    product:
+      id: 75036
+      quantity: 1
+    requirements:
+      lp: 10000
+  17662:
+    id: 17662
+    name: Stabber Fleet Issue Alliance Emblem
+    product:
+      id: 75037
+      quantity: 1
+    requirements:
+      lp: 10500
+  17663:
+    id: 17663
+    name: Stiletto Alliance Emblem
+    product:
+      id: 75038
+      quantity: 1
+    requirements:
+      lp: 6500
+  17664:
+    id: 17664
+    name: Stork Alliance Emblem
+    product:
+      id: 75039
+      quantity: 1
+    requirements:
+      lp: 9000
+  17665:
+    id: 17665
+    name: Stormbringer Alliance Emblem
+    product:
+      id: 75040
+      quantity: 1
+    requirements:
+      lp: 11000
+  17666:
+    id: 17666
+    name: Stratios Alliance Emblem
+    product:
+      id: 75041
+      quantity: 1
+    requirements:
+      lp: 11000
+  17667:
+    id: 17667
+    name: Stratios Emergency Responder Alliance Emblem
+    product:
+      id: 75042
+      quantity: 1
+    requirements:
+      lp: 11000
+  17668:
+    id: 17668
+    name: Succubus Alliance Emblem
+    product:
+      id: 75043
+      quantity: 1
+    requirements:
+      lp: 6000
+  17669:
+    id: 17669
+    name: Svipul Alliance Emblem
+    product:
+      id: 75044
+      quantity: 1
+    requirements:
+      lp: 9500
+  17670:
+    id: 17670
+    name: Taranis Alliance Emblem
+    product:
+      id: 75045
+      quantity: 1
+    requirements:
+      lp: 6500
+  17671:
+    id: 17671
+    name: Tengu Alliance Emblem
+    product:
+      id: 75046
+      quantity: 1
+    requirements:
+      lp: 12000
+  17672:
+    id: 17672
+    name: Thalia Alliance Emblem
+    product:
+      id: 75047
+      quantity: 1
+    requirements:
+      lp: 6500
+  17673:
+    id: 17673
+    name: Thorax Alliance Emblem
+    product:
+      id: 75048
+      quantity: 1
+    requirements:
+      lp: 10000
+  17674:
+    id: 17674
+    name: Tiamat Alliance Emblem
+    product:
+      id: 75049
+      quantity: 1
+    requirements:
+      lp: 11000
+  17675:
+    id: 17675
+    name: Typhoon Alliance Emblem
+    product:
+      id: 75050
+      quantity: 1
+    requirements:
+      lp: 15000
+  17676:
+    id: 17676
+    name: Utu Alliance Emblem
+    product:
+      id: 75051
+      quantity: 1
+    requirements:
+      lp: 6500
+  17677:
+    id: 17677
+    name: Vagabond Alliance Emblem
+    product:
+      id: 75052
+      quantity: 1
+    requirements:
+      lp: 11500
+  17678:
+    id: 17678
+    name: Vangel Alliance Emblem
+    product:
+      id: 75053
+      quantity: 1
+    requirements:
+      lp: 11500
+  17679:
+    id: 17679
+    name: Vedmak Alliance Emblem
+    product:
+      id: 75054
+      quantity: 1
+    requirements:
+      lp: 11000
+  17680:
+    id: 17680
+    name: Vengeance Alliance Emblem
+    product:
+      id: 75055
+      quantity: 1
+    requirements:
+      lp: 6500
+  17681:
+    id: 17681
+    name: Vexor Alliance Emblem
+    product:
+      id: 75056
+      quantity: 1
+    requirements:
+      lp: 10000
+  17682:
+    id: 17682
+    name: Vexor Navy Issue Alliance Emblem
+    product:
+      id: 75057
+      quantity: 1
+    requirements:
+      lp: 10500
+  17683:
+    id: 17683
+    name: Viator Alliance Emblem
+    product:
+      id: 75058
+      quantity: 1
+    requirements:
+      lp: 9000
+  17684:
+    id: 17684
+    name: Victor Alliance Emblem
+    product:
+      id: 75059
+      quantity: 1
+    requirements:
+      lp: 11000
+  17685:
+    id: 17685
+    name: Victorieux Luxury Yacht Alliance Emblem
+    product:
+      id: 75060
+      quantity: 1
+    requirements:
+      lp: 11000
+  17686:
+    id: 17686
+    name: Vigil Fleet Issue Alliance Emblem
+    product:
+      id: 75061
+      quantity: 1
+    requirements:
+      lp: 5500
+  17687:
+    id: 17687
+    name: Vigilant Alliance Emblem
+    product:
+      id: 75062
+      quantity: 1
+    requirements:
+      lp: 11000
+  17688:
+    id: 17688
+    name: Virtuoso Alliance Emblem
+    product:
+      id: 75063
+      quantity: 1
+    requirements:
+      lp: 6000
+  17689:
+    id: 17689
+    name: Whiptail Alliance Emblem
+    product:
+      id: 75064
+      quantity: 1
+    requirements:
+      lp: 6000
+  17690:
+    id: 17690
+    name: Wolf Alliance Emblem
+    product:
+      id: 75065
+      quantity: 1
+    requirements:
+      lp: 6500
+  17691:
+    id: 17691
+    name: Worm Alliance Emblem
+    product:
+      id: 75066
+      quantity: 1
+    requirements:
+      lp: 6000
+  17692:
+    id: 17692
+    name: Zarmazd Alliance Emblem
+    product:
+      id: 75067
+      quantity: 1
+    requirements:
+      lp: 11000
+  17693:
+    id: 17693
+    name: Zealot Alliance Emblem
+    product:
+      id: 75068
+      quantity: 1
+    requirements:
+      lp: 11500
+  17694:
+    id: 17694
+    name: Zephyr Alliance Emblem
+    product:
+      id: 75069
+      quantity: 1
+    requirements:
+      lp: 6000
+  17695:
+    id: 17695
+    name: Adrestia Corporation Emblem
+    product:
+      id: 75070
+      quantity: 1
+    requirements:
+      lp: 11000
+  17696:
+    id: 17696
+    name: Anathema Corporation Emblem
+    product:
+      id: 75071
+      quantity: 1
+    requirements:
+      lp: 6500
+  17697:
+    id: 17697
+    name: Arazu Corporation Emblem
+    product:
+      id: 75072
+      quantity: 1
+    requirements:
+      lp: 11500
+  17698:
+    id: 17698
+    name: Arbitrator Corporation Emblem
+    product:
+      id: 75073
+      quantity: 1
+    requirements:
+      lp: 10000
+  17699:
+    id: 17699
+    name: Ares Corporation Emblem
+    product:
+      id: 75074
+      quantity: 1
+    requirements:
+      lp: 6500
+  17700:
+    id: 17700
+    name: Armageddon Corporation Emblem
+    product:
+      id: 75075
+      quantity: 1
+    requirements:
+      lp: 15000
+  17701:
+    id: 17701
+    name: Ashimmu Corporation Emblem
+    product:
+      id: 75076
+      quantity: 1
+    requirements:
+      lp: 11000
+  17702:
+    id: 17702
+    name: Augoror Corporation Emblem
+    product:
+      id: 75077
+      quantity: 1
+    requirements:
+      lp: 10000
+  17703:
+    id: 17703
+    name: Augoror Navy Issue Corporation Emblem
+    product:
+      id: 75078
+      quantity: 1
+    requirements:
+      lp: 10500
+  17704:
+    id: 17704
+    name: Basilisk Corporation Emblem
+    product:
+      id: 75079
+      quantity: 1
+    requirements:
+      lp: 11500
+  17705:
+    id: 17705
+    name: Bellicose Corporation Emblem
+    product:
+      id: 75080
+      quantity: 1
+    requirements:
+      lp: 10000
+  17706:
+    id: 17706
+    name: Bestla Corporation Emblem
+    product:
+      id: 75081
+      quantity: 1
+    requirements:
+      lp: 11500
+  17707:
+    id: 17707
+    name: Bifrost Corporation Emblem
+    product:
+      id: 75082
+      quantity: 1
+    requirements:
+      lp: 9000
+  17708:
+    id: 17708
+    name: Blackbird Corporation Emblem
+    product:
+      id: 75083
+      quantity: 1
+    requirements:
+      lp: 10000
+  17709:
+    id: 17709
+    name: Broadsword Corporation Emblem
+    product:
+      id: 75084
+      quantity: 1
+    requirements:
+      lp: 11500
+  17710:
+    id: 17710
+    name: Buzzard Corporation Emblem
+    product:
+      id: 75085
+      quantity: 1
+    requirements:
+      lp: 6500
+  17711:
+    id: 17711
+    name: Caedes Corporation Emblem
+    product:
+      id: 75086
+      quantity: 1
+    requirements:
+      lp: 6000
+  17712:
+    id: 17712
+    name: Caldari Navy Hookbill Corporation Emblem
+    product:
+      id: 75087
+      quantity: 1
+    requirements:
+      lp: 5500
+  17713:
+    id: 17713
+    name: Cambion Corporation Emblem
+    product:
+      id: 75088
+      quantity: 1
+    requirements:
+      lp: 6500
+  17714:
+    id: 17714
+    name: Caracal Corporation Emblem
+    product:
+      id: 75089
+      quantity: 1
+    requirements:
+      lp: 10000
+  17715:
+    id: 17715
+    name: Caracal Navy Issue Corporation Emblem
+    product:
+      id: 75090
+      quantity: 1
+    requirements:
+      lp: 10500
+  17716:
+    id: 17716
+    name: Celestis Corporation Emblem
+    product:
+      id: 75091
+      quantity: 1
+    requirements:
+      lp: 10000
+  17717:
+    id: 17717
+    name: Cerberus Corporation Emblem
+    product:
+      id: 75092
+      quantity: 1
+    requirements:
+      lp: 11500
+  17718:
+    id: 17718
+    name: Chameleon Corporation Emblem
+    product:
+      id: 75093
+      quantity: 1
+    requirements:
+      lp: 11000
+  17719:
+    id: 17719
+    name: Cheetah Corporation Emblem
+    product:
+      id: 75094
+      quantity: 1
+    requirements:
+      lp: 6500
+  17720:
+    id: 17720
+    name: Chremoas Corporation Emblem
+    product:
+      id: 75095
+      quantity: 1
+    requirements:
+      lp: 6000
+  17721:
+    id: 17721
+    name: Claw Corporation Emblem
+    product:
+      id: 75096
+      quantity: 1
+    requirements:
+      lp: 6500
+  17722:
+    id: 17722
+    name: Confessor Corporation Emblem
+    product:
+      id: 75097
+      quantity: 1
+    requirements:
+      lp: 9500
+  17723:
+    id: 17723
+    name: Covetor Corporation Emblem
+    product:
+      id: 75098
+      quantity: 1
+    requirements:
+      lp: 11000
+  17724:
+    id: 17724
+    name: Crane Corporation Emblem
+    product:
+      id: 75099
+      quantity: 1
+    requirements:
+      lp: 9000
+  17725:
+    id: 17725
+    name: Crow Corporation Emblem
+    product:
+      id: 75100
+      quantity: 1
+    requirements:
+      lp: 6500
+  17726:
+    id: 17726
+    name: Crucifier Navy Issue Corporation Emblem
+    product:
+      id: 75101
+      quantity: 1
+    requirements:
+      lp: 5500
+  17727:
+    id: 17727
+    name: Cruor Corporation Emblem
+    product:
+      id: 75102
+      quantity: 1
+    requirements:
+      lp: 6000
+  17728:
+    id: 17728
+    name: Crusader Corporation Emblem
+    product:
+      id: 75103
+      quantity: 1
+    requirements:
+      lp: 6500
+  17729:
+    id: 17729
+    name: Curse Corporation Emblem
+    product:
+      id: 75104
+      quantity: 1
+    requirements:
+      lp: 11500
+  17730:
+    id: 17730
+    name: Cynabal Corporation Emblem
+    product:
+      id: 75105
+      quantity: 1
+    requirements:
+      lp: 11000
+  17731:
+    id: 17731
+    name: Damavik Corporation Emblem
+    product:
+      id: 75106
+      quantity: 1
+    requirements:
+      lp: 6000
+  17732:
+    id: 17732
+    name: Daredevil Corporation Emblem
+    product:
+      id: 75107
+      quantity: 1
+    requirements:
+      lp: 6000
+  17733:
+    id: 17733
+    name: Deacon Corporation Emblem
+    product:
+      id: 75108
+      quantity: 1
+    requirements:
+      lp: 6500
+  17734:
+    id: 17734
+    name: Deimos Corporation Emblem
+    product:
+      id: 75109
+      quantity: 1
+    requirements:
+      lp: 11500
+  17735:
+    id: 17735
+    name: Devoter Corporation Emblem
+    product:
+      id: 75110
+      quantity: 1
+    requirements:
+      lp: 11500
+  17736:
+    id: 17736
+    name: Dominix Corporation Emblem
+    product:
+      id: 75111
+      quantity: 1
+    requirements:
+      lp: 15000
+  17737:
+    id: 17737
+    name: Dramiel Corporation Emblem
+    product:
+      id: 75112
+      quantity: 1
+    requirements:
+      lp: 6000
+  17738:
+    id: 17738
+    name: Draugur Corporation Emblem
+    product:
+      id: 75113
+      quantity: 1
+    requirements:
+      lp: 8500
+  17739:
+    id: 17739
+    name: Eagle Corporation Emblem
+    product:
+      id: 75114
+      quantity: 1
+    requirements:
+      lp: 11500
+  17740:
+    id: 17740
+    name: Echelon Corporation Emblem
+    product:
+      id: 75115
+      quantity: 1
+    requirements:
+      lp: 6000
+  17741:
+    id: 17741
+    name: Endurance Corporation Emblem
+    product:
+      id: 75116
+      quantity: 1
+    requirements:
+      lp: 4000
+  17742:
+    id: 17742
+    name: Enforcer Corporation Emblem
+    product:
+      id: 75117
+      quantity: 1
+    requirements:
+      lp: 11000
+  17743:
+    id: 17743
+    name: Enyo Corporation Emblem
+    product:
+      id: 75118
+      quantity: 1
+    requirements:
+      lp: 6500
+  17744:
+    id: 17744
+    name: Eris Corporation Emblem
+    product:
+      id: 75119
+      quantity: 1
+    requirements:
+      lp: 9000
+  17745:
+    id: 17745
+    name: Etana Corporation Emblem
+    product:
+      id: 75120
+      quantity: 1
+    requirements:
+      lp: 11500
+  17746:
+    id: 17746
+    name: Exequror Corporation Emblem
+    product:
+      id: 75121
+      quantity: 1
+    requirements:
+      lp: 10000
+  17747:
+    id: 17747
+    name: Exequror Navy Issue Corporation Emblem
+    product:
+      id: 75122
+      quantity: 1
+    requirements:
+      lp: 10500
+  17748:
+    id: 17748
+    name: Falcon Corporation Emblem
+    product:
+      id: 75123
+      quantity: 1
+    requirements:
+      lp: 11500
+  17749:
+    id: 17749
+    name: Federation Navy Comet Corporation Emblem
+    product:
+      id: 75124
+      quantity: 1
+    requirements:
+      lp: 5500
+  17750:
+    id: 17750
+    name: Fiend Corporation Emblem
+    product:
+      id: 75125
+      quantity: 1
+    requirements:
+      lp: 11000
+  17751:
+    id: 17751
+    name: Flycatcher Corporation Emblem
+    product:
+      id: 75126
+      quantity: 1
+    requirements:
+      lp: 9000
+  17752:
+    id: 17752
+    name: Freki Corporation Emblem
+    product:
+      id: 75127
+      quantity: 1
+    requirements:
+      lp: 6500
+  17753:
+    id: 17753
+    name: Garmur Corporation Emblem
+    product:
+      id: 75128
+      quantity: 1
+    requirements:
+      lp: 6000
+  17754:
+    id: 17754
+    name: Geri Corporation Emblem
+    product:
+      id: 75129
+      quantity: 1
+    requirements:
+      lp: 6500
+  17755:
+    id: 17755
+    name: Gila Corporation Emblem
+    product:
+      id: 75130
+      quantity: 1
+    requirements:
+      lp: 11000
+  17756:
+    id: 17756
+    name: Griffin Navy Issue Corporation Emblem
+    product:
+      id: 75131
+      quantity: 1
+    requirements:
+      lp: 5500
+  17757:
+    id: 17757
+    name: Guardian Corporation Emblem
+    product:
+      id: 75132
+      quantity: 1
+    requirements:
+      lp: 11500
+  17758:
+    id: 17758
+    name: Guardian-Vexor Corporation Emblem
+    product:
+      id: 75133
+      quantity: 1
+    requirements:
+      lp: 11000
+  17759:
+    id: 17759
+    name: Harpy Corporation Emblem
+    product:
+      id: 75134
+      quantity: 1
+    requirements:
+      lp: 6500
+  17760:
+    id: 17760
+    name: Hawk Corporation Emblem
+    product:
+      id: 75135
+      quantity: 1
+    requirements:
+      lp: 6500
+  17761:
+    id: 17761
+    name: Hecate Corporation Emblem
+    product:
+      id: 75136
+      quantity: 1
+    requirements:
+      lp: 9500
+  17762:
+    id: 17762
+    name: Helios Corporation Emblem
+    product:
+      id: 75137
+      quantity: 1
+    requirements:
+      lp: 6500
+  17763:
+    id: 17763
+    name: Heretic Corporation Emblem
+    product:
+      id: 75138
+      quantity: 1
+    requirements:
+      lp: 9000
+  17764:
+    id: 17764
+    name: Hound Corporation Emblem
+    product:
+      id: 75139
+      quantity: 1
+    requirements:
+      lp: 6500
+  17765:
+    id: 17765
+    name: Huginn Corporation Emblem
+    product:
+      id: 75140
+      quantity: 1
+    requirements:
+      lp: 11500
+  17766:
+    id: 17766
+    name: Hulk Corporation Emblem
+    product:
+      id: 75141
+      quantity: 1
+    requirements:
+      lp: 11500
+  17767:
+    id: 17767
+    name: Hydra Corporation Emblem
+    product:
+      id: 75142
+      quantity: 1
+    requirements:
+      lp: 6000
+  17768:
+    id: 17768
+    name: Hyena Corporation Emblem
+    product:
+      id: 75143
+      quantity: 1
+    requirements:
+      lp: 6500
+  17769:
+    id: 17769
+    name: Ikitursa Corporation Emblem
+    product:
+      id: 75144
+      quantity: 1
+    requirements:
+      lp: 11000
+  17770:
+    id: 17770
+    name: Imp Corporation Emblem
+    product:
+      id: 75145
+      quantity: 1
+    requirements:
+      lp: 6000
+  17771:
+    id: 17771
+    name: Impel Corporation Emblem
+    product:
+      id: 75146
+      quantity: 1
+    requirements:
+      lp: 9000
+  17772:
+    id: 17772
+    name: Imperial Navy Slicer Corporation Emblem
+    product:
+      id: 75147
+      quantity: 1
+    requirements:
+      lp: 5500
+  17773:
+    id: 17773
+    name: Ishkur Corporation Emblem
+    product:
+      id: 75148
+      quantity: 1
+    requirements:
+      lp: 6500
+  17774:
+    id: 17774
+    name: Ishtar Corporation Emblem
+    product:
+      id: 75149
+      quantity: 1
+    requirements:
+      lp: 11500
+  17775:
+    id: 17775
+    name: Jackdaw Corporation Emblem
+    product:
+      id: 75150
+      quantity: 1
+    requirements:
+      lp: 9500
+  17776:
+    id: 17776
+    name: Jaguar Corporation Emblem
+    product:
+      id: 75151
+      quantity: 1
+    requirements:
+      lp: 6500
+  17777:
+    id: 17777
+    name: Keres Corporation Emblem
+    product:
+      id: 75152
+      quantity: 1
+    requirements:
+      lp: 6500
+  17778:
+    id: 17778
+    name: Kikimora Corporation Emblem
+    product:
+      id: 75153
+      quantity: 1
+    requirements:
+      lp: 8500
+  17779:
+    id: 17779
+    name: Kirin Corporation Emblem
+    product:
+      id: 75154
+      quantity: 1
+    requirements:
+      lp: 6500
+  17780:
+    id: 17780
+    name: Kitsune Corporation Emblem
+    product:
+      id: 75155
+      quantity: 1
+    requirements:
+      lp: 6500
+  17781:
+    id: 17781
+    name: Lachesis Corporation Emblem
+    product:
+      id: 75156
+      quantity: 1
+    requirements:
+      lp: 11500
+  17782:
+    id: 17782
+    name: Laelaps Corporation Emblem
+    product:
+      id: 75157
+      quantity: 1
+    requirements:
+      lp: 11000
+  17783:
+    id: 17783
+    name: Legion Corporation Emblem
+    product:
+      id: 75158
+      quantity: 1
+    requirements:
+      lp: 12000
+  17784:
+    id: 17784
+    name: Loki Corporation Emblem
+    product:
+      id: 75159
+      quantity: 1
+    requirements:
+      lp: 12000
+  17785:
+    id: 17785
+    name: Mackinaw Corporation Emblem
+    product:
+      id: 75160
+      quantity: 1
+    requirements:
+      lp: 11500
+  17786:
+    id: 17786
+    name: Magus Corporation Emblem
+    product:
+      id: 75161
+      quantity: 1
+    requirements:
+      lp: 9000
+  17787:
+    id: 17787
+    name: Malediction Corporation Emblem
+    product:
+      id: 75162
+      quantity: 1
+    requirements:
+      lp: 6500
+  17788:
+    id: 17788
+    name: Malice Corporation Emblem
+    product:
+      id: 75163
+      quantity: 1
+    requirements:
+      lp: 6500
+  17789:
+    id: 17789
+    name: Maller Corporation Emblem
+    product:
+      id: 75164
+      quantity: 1
+    requirements:
+      lp: 10000
+  17790:
+    id: 17790
+    name: Manticore Corporation Emblem
+    product:
+      id: 75165
+      quantity: 1
+    requirements:
+      lp: 6500
+  17791:
+    id: 17791
+    name: Mastodon Corporation Emblem
+    product:
+      id: 75166
+      quantity: 1
+    requirements:
+      lp: 9000
+  17792:
+    id: 17792
+    name: Maulus Navy Issue Corporation Emblem
+    product:
+      id: 75167
+      quantity: 1
+    requirements:
+      lp: 5500
+  17793:
+    id: 17793
+    name: Miasmos Amastris Edition Corporation Emblem
+    product:
+      id: 75168
+      quantity: 1
+    requirements:
+      lp: 8500
+  17794:
+    id: 17794
+    name: Miasmos Quafe Ultra Edition Corporation Emblem
+    product:
+      id: 75169
+      quantity: 1
+    requirements:
+      lp: 8500
+  17795:
+    id: 17795
+    name: Miasmos Quafe Ultramarine Edition Corporation Emblem
+    product:
+      id: 75170
+      quantity: 1
+    requirements:
+      lp: 8500
+  17796:
+    id: 17796
+    name: Mimir Corporation Emblem
+    product:
+      id: 75171
+      quantity: 1
+    requirements:
+      lp: 11000
+  17797:
+    id: 17797
+    name: Moa Corporation Emblem
+    product:
+      id: 75172
+      quantity: 1
+    requirements:
+      lp: 10000
+  17798:
+    id: 17798
+    name: Monitor Corporation Emblem
+    product:
+      id: 75173
+      quantity: 1
+    requirements:
+      lp: 11000
+  17799:
+    id: 17799
+    name: Moracha Corporation Emblem
+    product:
+      id: 75174
+      quantity: 1
+    requirements:
+      lp: 11000
+  17800:
+    id: 17800
+    name: Muninn Corporation Emblem
+    product:
+      id: 75175
+      quantity: 1
+    requirements:
+      lp: 11500
+  17801:
+    id: 17801
+    name: Nemesis Corporation Emblem
+    product:
+      id: 75176
+      quantity: 1
+    requirements:
+      lp: 6500
+  17802:
+    id: 17802
+    name: Nergal Corporation Emblem
+    product:
+      id: 75177
+      quantity: 1
+    requirements:
+      lp: 6000
+  17803:
+    id: 17803
+    name: Noctis Corporation Emblem
+    product:
+      id: 75178
+      quantity: 1
+    requirements:
+      lp: 8500
+  17804:
+    id: 17804
+    name: Occator Corporation Emblem
+    product:
+      id: 75179
+      quantity: 1
+    requirements:
+      lp: 9000
+  17805:
+    id: 17805
+    name: Omen Corporation Emblem
+    product:
+      id: 75180
+      quantity: 1
+    requirements:
+      lp: 10000
+  17806:
+    id: 17806
+    name: Omen Navy Issue Corporation Emblem
+    product:
+      id: 75181
+      quantity: 1
+    requirements:
+      lp: 10500
+  17807:
+    id: 17807
+    name: Oneiros Corporation Emblem
+    product:
+      id: 75182
+      quantity: 1
+    requirements:
+      lp: 11500
+  17808:
+    id: 17808
+    name: Onyx Corporation Emblem
+    product:
+      id: 75183
+      quantity: 1
+    requirements:
+      lp: 11500
+  17809:
+    id: 17809
+    name: Opux Luxury Yacht Corporation Emblem
+    product:
+      id: 75184
+      quantity: 1
+    requirements:
+      lp: 11000
+  17810:
+    id: 17810
+    name: Orca Corporation Emblem
+    product:
+      id: 75185
+      quantity: 1
+    requirements:
+      lp: 18500
+  17811:
+    id: 17811
+    name: Orthrus Corporation Emblem
+    product:
+      id: 75186
+      quantity: 1
+    requirements:
+      lp: 11000
+  17812:
+    id: 17812
+    name: Osprey Corporation Emblem
+    product:
+      id: 75187
+      quantity: 1
+    requirements:
+      lp: 10000
+  17813:
+    id: 17813
+    name: Osprey Navy Issue Corporation Emblem
+    product:
+      id: 75188
+      quantity: 1
+    requirements:
+      lp: 10500
+  17814:
+    id: 17814
+    name: Pacifier Corporation Emblem
+    product:
+      id: 75189
+      quantity: 1
+    requirements:
+      lp: 6000
+  17815:
+    id: 17815
+    name: Phantasm Corporation Emblem
+    product:
+      id: 75190
+      quantity: 1
+    requirements:
+      lp: 11000
+  17816:
+    id: 17816
+    name: Phobos Corporation Emblem
+    product:
+      id: 75191
+      quantity: 1
+    requirements:
+      lp: 11500
+  17817:
+    id: 17817
+    name: Pilgrim Corporation Emblem
+    product:
+      id: 75192
+      quantity: 1
+    requirements:
+      lp: 11500
+  17818:
+    id: 17818
+    name: Pontifex Corporation Emblem
+    product:
+      id: 75193
+      quantity: 1
+    requirements:
+      lp: 9000
+  17819:
+    id: 17819
+    name: Porpoise Corporation Emblem
+    product:
+      id: 75194
+      quantity: 1
+    requirements:
+      lp: 16000
+  17820:
+    id: 17820
+    name: Primae Corporation Emblem
+    product:
+      id: 75195
+      quantity: 1
+    requirements:
+      lp: 8500
+  17821:
+    id: 17821
+    name: Procurer Corporation Emblem
+    product:
+      id: 75196
+      quantity: 1
+    requirements:
+      lp: 11000
+  17822:
+    id: 17822
+    name: Prorator Corporation Emblem
+    product:
+      id: 75197
+      quantity: 1
+    requirements:
+      lp: 9000
+  17823:
+    id: 17823
+    name: Prospect Corporation Emblem
+    product:
+      id: 75198
+      quantity: 1
+    requirements:
+      lp: 4000
+  17824:
+    id: 17824
+    name: Proteus Corporation Emblem
+    product:
+      id: 75199
+      quantity: 1
+    requirements:
+      lp: 12000
+  17825:
+    id: 17825
+    name: Prowler Corporation Emblem
+    product:
+      id: 75200
+      quantity: 1
+    requirements:
+      lp: 9000
+  17826:
+    id: 17826
+    name: Purifier Corporation Emblem
+    product:
+      id: 75201
+      quantity: 1
+    requirements:
+      lp: 6500
+  17827:
+    id: 17827
+    name: Rabisu Corporation Emblem
+    product:
+      id: 75202
+      quantity: 1
+    requirements:
+      lp: 11000
+  17828:
+    id: 17828
+    name: Raiju Corporation Emblem
+    product:
+      id: 75203
+      quantity: 1
+    requirements:
+      lp: 6000
+  17829:
+    id: 17829
+    name: Rapier Corporation Emblem
+    product:
+      id: 75204
+      quantity: 1
+    requirements:
+      lp: 11500
+  17830:
+    id: 17830
+    name: Raptor Corporation Emblem
+    product:
+      id: 75205
+      quantity: 1
+    requirements:
+      lp: 6500
+  17831:
+    id: 17831
+    name: Republic Fleet Firetail Corporation Emblem
+    product:
+      id: 75206
+      quantity: 1
+    requirements:
+      lp: 5500
+  17832:
+    id: 17832
+    name: Retribution Corporation Emblem
+    product:
+      id: 75207
+      quantity: 1
+    requirements:
+      lp: 6500
+  17833:
+    id: 17833
+    name: Retriever Corporation Emblem
+    product:
+      id: 75208
+      quantity: 1
+    requirements:
+      lp: 11000
+  17834:
+    id: 17834
+    name: Rodiva Corporation Emblem
+    product:
+      id: 75209
+      quantity: 1
+    requirements:
+      lp: 11000
+  17835:
+    id: 17835
+    name: Rook Corporation Emblem
+    product:
+      id: 75210
+      quantity: 1
+    requirements:
+      lp: 11500
+  17836:
+    id: 17836
+    name: Rupture Corporation Emblem
+    product:
+      id: 75211
+      quantity: 1
+    requirements:
+      lp: 10000
+  17837:
+    id: 17837
+    name: Sabre Corporation Emblem
+    product:
+      id: 75212
+      quantity: 1
+    requirements:
+      lp: 9000
+  17838:
+    id: 17838
+    name: Sacrilege Corporation Emblem
+    product:
+      id: 75213
+      quantity: 1
+    requirements:
+      lp: 11500
+  17839:
+    id: 17839
+    name: Scalpel Corporation Emblem
+    product:
+      id: 75214
+      quantity: 1
+    requirements:
+      lp: 6500
+  17840:
+    id: 17840
+    name: Scimitar Corporation Emblem
+    product:
+      id: 75215
+      quantity: 1
+    requirements:
+      lp: 11500
+  17841:
+    id: 17841
+    name: Scorpion Corporation Emblem
+    product:
+      id: 75216
+      quantity: 1
+    requirements:
+      lp: 15000
+  17842:
+    id: 17842
+    name: Scythe Corporation Emblem
+    product:
+      id: 75217
+      quantity: 1
+    requirements:
+      lp: 10000
+  17843:
+    id: 17843
+    name: Scythe Fleet Issue Corporation Emblem
+    product:
+      id: 75218
+      quantity: 1
+    requirements:
+      lp: 10500
+  17844:
+    id: 17844
+    name: Sentinel Corporation Emblem
+    product:
+      id: 75219
+      quantity: 1
+    requirements:
+      lp: 6500
+  17845:
+    id: 17845
+    name: Skiff Corporation Emblem
+    product:
+      id: 75220
+      quantity: 1
+    requirements:
+      lp: 11500
+  17846:
+    id: 17846
+    name: Skybreaker Corporation Emblem
+    product:
+      id: 75221
+      quantity: 1
+    requirements:
+      lp: 6000
+  17847:
+    id: 17847
+    name: Stabber Corporation Emblem
+    product:
+      id: 75222
+      quantity: 1
+    requirements:
+      lp: 10000
+  17848:
+    id: 17848
+    name: Stabber Fleet Issue Corporation Emblem
+    product:
+      id: 75223
+      quantity: 1
+    requirements:
+      lp: 10500
+  17849:
+    id: 17849
+    name: Stiletto Corporation Emblem
+    product:
+      id: 75224
+      quantity: 1
+    requirements:
+      lp: 6500
+  17850:
+    id: 17850
+    name: Stork Corporation Emblem
+    product:
+      id: 75225
+      quantity: 1
+    requirements:
+      lp: 9000
+  17851:
+    id: 17851
+    name: Stormbringer Corporation Emblem
+    product:
+      id: 75226
+      quantity: 1
+    requirements:
+      lp: 11000
+  17852:
+    id: 17852
+    name: Stratios Corporation Emblem
+    product:
+      id: 75227
+      quantity: 1
+    requirements:
+      lp: 11000
+  17853:
+    id: 17853
+    name: Stratios Emergency Responder Corporation Emblem
+    product:
+      id: 75228
+      quantity: 1
+    requirements:
+      lp: 11000
+  17854:
+    id: 17854
+    name: Succubus Corporation Emblem
+    product:
+      id: 75229
+      quantity: 1
+    requirements:
+      lp: 6000
+  17855:
+    id: 17855
+    name: Svipul Corporation Emblem
+    product:
+      id: 75230
+      quantity: 1
+    requirements:
+      lp: 9500
+  17856:
+    id: 17856
+    name: Taranis Corporation Emblem
+    product:
+      id: 75231
+      quantity: 1
+    requirements:
+      lp: 6500
+  17857:
+    id: 17857
+    name: Tengu Corporation Emblem
+    product:
+      id: 75232
+      quantity: 1
+    requirements:
+      lp: 12000
+  17858:
+    id: 17858
+    name: Thalia Corporation Emblem
+    product:
+      id: 75233
+      quantity: 1
+    requirements:
+      lp: 6500
+  17859:
+    id: 17859
+    name: Thorax Corporation Emblem
+    product:
+      id: 75234
+      quantity: 1
+    requirements:
+      lp: 10000
+  17860:
+    id: 17860
+    name: Tiamat Corporation Emblem
+    product:
+      id: 75235
+      quantity: 1
+    requirements:
+      lp: 11000
+  17861:
+    id: 17861
+    name: Typhoon Corporation Emblem
+    product:
+      id: 75236
+      quantity: 1
+    requirements:
+      lp: 15000
+  17862:
+    id: 17862
+    name: Utu Corporation Emblem
+    product:
+      id: 75237
+      quantity: 1
+    requirements:
+      lp: 6500
+  17863:
+    id: 17863
+    name: Vagabond Corporation Emblem
+    product:
+      id: 75238
+      quantity: 1
+    requirements:
+      lp: 11500
+  17864:
+    id: 17864
+    name: Vangel Corporation Emblem
+    product:
+      id: 75239
+      quantity: 1
+    requirements:
+      lp: 11500
+  17865:
+    id: 17865
+    name: Vedmak Corporation Emblem
+    product:
+      id: 75240
+      quantity: 1
+    requirements:
+      lp: 11000
+  17866:
+    id: 17866
+    name: Vengeance Corporation Emblem
+    product:
+      id: 75241
+      quantity: 1
+    requirements:
+      lp: 6500
+  17867:
+    id: 17867
+    name: Vexor Corporation Emblem
+    product:
+      id: 75242
+      quantity: 1
+    requirements:
+      lp: 10000
+  17868:
+    id: 17868
+    name: Vexor Navy Issue Corporation Emblem
+    product:
+      id: 75243
+      quantity: 1
+    requirements:
+      lp: 10500
+  17869:
+    id: 17869
+    name: Viator Corporation Emblem
+    product:
+      id: 75244
+      quantity: 1
+    requirements:
+      lp: 9000
+  17870:
+    id: 17870
+    name: Victor Corporation Emblem
+    product:
+      id: 75245
+      quantity: 1
+    requirements:
+      lp: 11000
+  17871:
+    id: 17871
+    name: Victorieux Luxury Yacht Corporation Emblem
+    product:
+      id: 75246
+      quantity: 1
+    requirements:
+      lp: 11000
+  17872:
+    id: 17872
+    name: Vigil Fleet Issue Corporation Emblem
+    product:
+      id: 75247
+      quantity: 1
+    requirements:
+      lp: 5500
+  17873:
+    id: 17873
+    name: Vigilant Corporation Emblem
+    product:
+      id: 75248
+      quantity: 1
+    requirements:
+      lp: 11000
+  17874:
+    id: 17874
+    name: Virtuoso Corporation Emblem
+    product:
+      id: 75249
+      quantity: 1
+    requirements:
+      lp: 6000
+  17875:
+    id: 17875
+    name: Whiptail Corporation Emblem
+    product:
+      id: 75250
+      quantity: 1
+    requirements:
+      lp: 6000
+  17876:
+    id: 17876
+    name: Wolf Corporation Emblem
+    product:
+      id: 75251
+      quantity: 1
+    requirements:
+      lp: 6500
+  17877:
+    id: 17877
+    name: Worm Corporation Emblem
+    product:
+      id: 75252
+      quantity: 1
+    requirements:
+      lp: 6000
+  17878:
+    id: 17878
+    name: Zarmazd Corporation Emblem
+    product:
+      id: 75253
+      quantity: 1
+    requirements:
+      lp: 11000
+  17879:
+    id: 17879
+    name: Zealot Corporation Emblem
+    product:
+      id: 75254
+      quantity: 1
+    requirements:
+      lp: 11500
+  17880:
+    id: 17880
+    name: Zephyr Corporation Emblem
+    product:
+      id: 75255
+      quantity: 1
+    requirements:
+      lp: 6000

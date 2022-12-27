@@ -12023,7 +12023,6 @@ id2group:
   27259: implant/CyberMissile
   27260: implant/CyberScanning
   27274: commodity/Commodities
-  27275: entity/SpawnContainer
   27276: commodity/Identification
   27278: entity/SpawnContainer
   27279: entity/DeadspaceOverseerSStructure
@@ -12033,7 +12032,7 @@ id2group:
   27283: entity/DestructibleSentryGun
   27284: entity/DestructibleSentryGun
   27285: entity/DestructibleSentryGun
-  27287: entity/MissionGenericFrigates
+  27287: entity/MissionGenericCapsules
   27288: entity/SpawnContainer
   27290: entity/LargeCollidableStructure
   27292: entity/DeadspaceOverseerSStructure
@@ -14921,7 +14920,7 @@ id2group:
   32344: fighter/HeavyFighter
   32345: blueprint/HeavyFighterBlueprint
   32347: entity/SpawnContainer
-  32348: entity/MissionFactionHaulers
+  32348: entity/MissionFactionCruiser
   32349: entity/LargeCollidableStructure
   32350: commodity/Miscellaneous
   32351: commodity/Miscellaneous
@@ -23968,6 +23967,7 @@ id2group:
   53035: commodity/CapitalConstructionComponents
   53036: commodity/CapitalConstructionComponents
   53037: commodity/CapitalConstructionComponents
+  53038: apparel/Augmentations
   53041: apparel/Augmentations
   53045: entity/LargeCollidableStructure
   53046: entity/LargeCollidableStructure
@@ -24061,6 +24061,7 @@ id2group:
   53208: skins/PermanentSKIN
   53209: skins/PermanentSKIN
   53210: skins/PermanentSKIN
+  53226: apparel/Outer
   53229: apparel/Augmentations
   53244: skins/PermanentSKIN
   53288: commodity/ConstructionComponents
@@ -27177,16 +27178,6 @@ id2group:
   61126: skins/PermanentSKIN
   61127: skins/PermanentSKIN
   61128: skins/PermanentSKIN
-  61129: specialeditionassets/SpecialEditionCommodities
-  61130: commodity/JumpFilaments
-  61131: commodity/JumpFilaments
-  61132: commodity/JumpFilaments
-  61133: commodity/JumpFilaments
-  61134: commodity/JumpFilaments
-  61135: commodity/JumpFilaments
-  61136: commodity/JumpFilaments
-  61137: commodity/JumpFilaments
-  61138: commodity/JumpFilaments
   61182: skins/PermanentSKIN
   61183: skins/PermanentSKIN
   61184: skins/PermanentSKIN
@@ -28419,11 +28410,10 @@ id2group:
   72925: blueprint/BattlecruiserBlueprint
   72926: blueprint/BattlecruiserBlueprint
   72964: personalization/ShipPersonalization
-  72976: commodity/AbyssalProvingFilaments
-  72977: commodity/AbyssalProvingFilaments
-  72978: commodity/AbyssalProvingFilaments
-  72979: commodity/AbyssalProvingFilaments
-  72980: commodity/AbyssalProvingFilaments
+  72982: commodity/AbyssalProvingFilaments
+  72983: commodity/AbyssalProvingFilaments
+  72984: commodity/AbyssalProvingFilaments
+  72985: commodity/AbyssalProvingFilaments
   73012: entity/LargeCollidableStructure
   73013: entity/LargeCollidableStructure
   73014: entity/LargeCollidableStructure
@@ -28494,6 +28484,8 @@ id2group:
   73430: entity/SpawnContainer
   73431: commodity/AccelerationGateKeys
   73432: commodity/AccelerationGateKeys
+  73436: apparel/Augmentations
+  73437: apparel/Augmentations
   73443: entity/ControlPoint
   73444: entity/ControlPoint
   73445: entity/ControlPoint
@@ -28768,6 +28760,489 @@ id2group:
   74048: personalization/ShipPersonalization
   74049: personalization/ShipPersonalization
   74050: personalization/ShipPersonalization
+  74110: skins/PermanentSKIN
+  74111: skins/PermanentSKIN
+  74112: skins/PermanentSKIN
+  74113: skins/PermanentSKIN
+  74114: expertsystems/PromotionalExpertSystems
+  74115: skins/PermanentSKIN
+  74116: skins/PermanentSKIN
+  74117: skins/PermanentSKIN
+  74118: skins/PermanentSKIN
+  74141: ship/AssaultFrigate
+  74143: skins/PermanentSKIN
+  74144: skins/PermanentSKIN
+  74145: skins/PermanentSKIN
+  74146: skins/PermanentSKIN
+  74147: skins/PermanentSKIN
+  74148: skins/PermanentSKIN
+  74149: skins/PermanentSKIN
+  74150: skins/PermanentSKIN
+  74151: skins/PermanentSKIN
+  74152: skins/PermanentSKIN
+  74153: skins/PermanentSKIN
+  74154: skins/PermanentSKIN
+  74155: skins/PermanentSKIN
+  74156: skins/PermanentSKIN
+  74157: skins/PermanentSKIN
+  74158: skins/PermanentSKIN
+  74160: skins/PermanentSKIN
+  74161: implant/Booster
+  74162: implant/Booster
+  74163: implant/Booster
+  74199: implant/Booster
+  74200: implant/Booster
+  74201: implant/Booster
+  74202: implant/Booster
+  74203: implant/Booster
+  74204: implant/Booster
+  74205: implant/Booster
+  74206: implant/Booster
+  74207: implant/Booster
+  74208: implant/Booster
+  74209: implant/Booster
+  74210: implant/Booster
+  74211: implant/Booster
+  74212: implant/Booster
+  74213: implant/Booster
+  74214: implant/Booster
+  74215: implant/Booster
+  74216: implant/Booster
+  74257: implant/Booster
+  74258: implant/Booster
+  74259: implant/Booster
+  74260: implant/Booster
+  74261: implant/Booster
+  74262: implant/Booster
+  74316: ship/HeavyAssaultCruiser
+  74385: charge/FestivalCharges
+  74386: charge/FestivalCharges
+  74387: specialeditionassets/SpecialEditionCommodities
+  74397: station/Station
+  74426: commodity/JumpFilaments
+  74427: commodity/JumpFilaments
+  74428: commodity/JumpFilaments
+  74429: commodity/JumpFilaments
+  74430: commodity/JumpFilaments
+  74431: commodity/JumpFilaments
+  74432: commodity/JumpFilaments
+  74433: commodity/JumpFilaments
+  74434: commodity/JumpFilaments
+  74449: specialeditionassets/SpecialEditionCommodities
+  74500: expertsystems/PromotionalExpertSystems
+  74521: asteroid/Mordunium
+  74522: asteroid/Mordunium
+  74523: asteroid/Mordunium
+  74524: asteroid/Mordunium
+  74525: asteroid/Ytirium
+  74526: asteroid/Ytirium
+  74527: asteroid/Ytirium
+  74528: asteroid/Ytirium
+  74529: asteroid/Eifyrium
+  74530: asteroid/Eifyrium
+  74531: asteroid/Eifyrium
+  74532: asteroid/Eifyrium
+  74533: asteroid/Ducinium
+  74534: asteroid/Ducinium
+  74535: asteroid/Ducinium
+  74536: asteroid/Ducinium
+  74884: personalization/ShipPersonalization
+  74885: personalization/ShipPersonalization
+  74886: personalization/ShipPersonalization
+  74887: personalization/ShipPersonalization
+  74888: personalization/ShipPersonalization
+  74889: personalization/ShipPersonalization
+  74890: personalization/ShipPersonalization
+  74891: personalization/ShipPersonalization
+  74892: personalization/ShipPersonalization
+  74893: personalization/ShipPersonalization
+  74894: personalization/ShipPersonalization
+  74895: personalization/ShipPersonalization
+  74896: personalization/ShipPersonalization
+  74897: personalization/ShipPersonalization
+  74898: personalization/ShipPersonalization
+  74899: personalization/ShipPersonalization
+  74900: personalization/ShipPersonalization
+  74901: personalization/ShipPersonalization
+  74902: personalization/ShipPersonalization
+  74903: personalization/ShipPersonalization
+  74904: personalization/ShipPersonalization
+  74905: personalization/ShipPersonalization
+  74906: personalization/ShipPersonalization
+  74907: personalization/ShipPersonalization
+  74908: personalization/ShipPersonalization
+  74909: personalization/ShipPersonalization
+  74910: personalization/ShipPersonalization
+  74911: personalization/ShipPersonalization
+  74912: personalization/ShipPersonalization
+  74913: personalization/ShipPersonalization
+  74914: personalization/ShipPersonalization
+  74915: personalization/ShipPersonalization
+  74916: personalization/ShipPersonalization
+  74917: personalization/ShipPersonalization
+  74918: personalization/ShipPersonalization
+  74919: personalization/ShipPersonalization
+  74920: personalization/ShipPersonalization
+  74921: personalization/ShipPersonalization
+  74922: personalization/ShipPersonalization
+  74923: personalization/ShipPersonalization
+  74924: personalization/ShipPersonalization
+  74925: personalization/ShipPersonalization
+  74926: personalization/ShipPersonalization
+  74927: personalization/ShipPersonalization
+  74928: personalization/ShipPersonalization
+  74929: personalization/ShipPersonalization
+  74930: personalization/ShipPersonalization
+  74931: personalization/ShipPersonalization
+  74932: personalization/ShipPersonalization
+  74933: personalization/ShipPersonalization
+  74934: personalization/ShipPersonalization
+  74935: personalization/ShipPersonalization
+  74936: personalization/ShipPersonalization
+  74937: personalization/ShipPersonalization
+  74938: personalization/ShipPersonalization
+  74939: personalization/ShipPersonalization
+  74940: personalization/ShipPersonalization
+  74941: personalization/ShipPersonalization
+  74942: personalization/ShipPersonalization
+  74943: personalization/ShipPersonalization
+  74944: personalization/ShipPersonalization
+  74945: personalization/ShipPersonalization
+  74946: personalization/ShipPersonalization
+  74947: personalization/ShipPersonalization
+  74948: personalization/ShipPersonalization
+  74949: personalization/ShipPersonalization
+  74950: personalization/ShipPersonalization
+  74951: personalization/ShipPersonalization
+  74952: personalization/ShipPersonalization
+  74953: personalization/ShipPersonalization
+  74954: personalization/ShipPersonalization
+  74955: personalization/ShipPersonalization
+  74956: personalization/ShipPersonalization
+  74957: personalization/ShipPersonalization
+  74958: personalization/ShipPersonalization
+  74959: personalization/ShipPersonalization
+  74960: personalization/ShipPersonalization
+  74961: personalization/ShipPersonalization
+  74962: personalization/ShipPersonalization
+  74963: personalization/ShipPersonalization
+  74964: personalization/ShipPersonalization
+  74965: personalization/ShipPersonalization
+  74966: personalization/ShipPersonalization
+  74967: personalization/ShipPersonalization
+  74968: personalization/ShipPersonalization
+  74969: personalization/ShipPersonalization
+  74970: personalization/ShipPersonalization
+  74971: personalization/ShipPersonalization
+  74972: personalization/ShipPersonalization
+  74973: personalization/ShipPersonalization
+  74974: personalization/ShipPersonalization
+  74975: personalization/ShipPersonalization
+  74976: personalization/ShipPersonalization
+  74977: personalization/ShipPersonalization
+  74978: personalization/ShipPersonalization
+  74979: personalization/ShipPersonalization
+  74980: personalization/ShipPersonalization
+  74981: personalization/ShipPersonalization
+  74982: personalization/ShipPersonalization
+  74983: personalization/ShipPersonalization
+  74984: personalization/ShipPersonalization
+  74985: personalization/ShipPersonalization
+  74986: personalization/ShipPersonalization
+  74987: personalization/ShipPersonalization
+  74988: personalization/ShipPersonalization
+  74989: personalization/ShipPersonalization
+  74990: personalization/ShipPersonalization
+  74991: personalization/ShipPersonalization
+  74992: personalization/ShipPersonalization
+  74993: personalization/ShipPersonalization
+  74994: personalization/ShipPersonalization
+  74995: personalization/ShipPersonalization
+  74996: personalization/ShipPersonalization
+  74997: personalization/ShipPersonalization
+  74998: personalization/ShipPersonalization
+  74999: personalization/ShipPersonalization
+  75000: personalization/ShipPersonalization
+  75001: personalization/ShipPersonalization
+  75002: personalization/ShipPersonalization
+  75003: personalization/ShipPersonalization
+  75004: personalization/ShipPersonalization
+  75005: personalization/ShipPersonalization
+  75006: personalization/ShipPersonalization
+  75007: personalization/ShipPersonalization
+  75008: personalization/ShipPersonalization
+  75009: personalization/ShipPersonalization
+  75010: personalization/ShipPersonalization
+  75011: personalization/ShipPersonalization
+  75012: personalization/ShipPersonalization
+  75013: personalization/ShipPersonalization
+  75014: personalization/ShipPersonalization
+  75015: personalization/ShipPersonalization
+  75016: personalization/ShipPersonalization
+  75017: personalization/ShipPersonalization
+  75018: personalization/ShipPersonalization
+  75019: personalization/ShipPersonalization
+  75020: personalization/ShipPersonalization
+  75021: personalization/ShipPersonalization
+  75022: personalization/ShipPersonalization
+  75023: personalization/ShipPersonalization
+  75024: personalization/ShipPersonalization
+  75025: personalization/ShipPersonalization
+  75026: personalization/ShipPersonalization
+  75027: personalization/ShipPersonalization
+  75028: personalization/ShipPersonalization
+  75029: personalization/ShipPersonalization
+  75030: personalization/ShipPersonalization
+  75031: personalization/ShipPersonalization
+  75032: personalization/ShipPersonalization
+  75033: personalization/ShipPersonalization
+  75034: personalization/ShipPersonalization
+  75035: personalization/ShipPersonalization
+  75036: personalization/ShipPersonalization
+  75037: personalization/ShipPersonalization
+  75038: personalization/ShipPersonalization
+  75039: personalization/ShipPersonalization
+  75040: personalization/ShipPersonalization
+  75041: personalization/ShipPersonalization
+  75042: personalization/ShipPersonalization
+  75043: personalization/ShipPersonalization
+  75044: personalization/ShipPersonalization
+  75045: personalization/ShipPersonalization
+  75046: personalization/ShipPersonalization
+  75047: personalization/ShipPersonalization
+  75048: personalization/ShipPersonalization
+  75049: personalization/ShipPersonalization
+  75050: personalization/ShipPersonalization
+  75051: personalization/ShipPersonalization
+  75052: personalization/ShipPersonalization
+  75053: personalization/ShipPersonalization
+  75054: personalization/ShipPersonalization
+  75055: personalization/ShipPersonalization
+  75056: personalization/ShipPersonalization
+  75057: personalization/ShipPersonalization
+  75058: personalization/ShipPersonalization
+  75059: personalization/ShipPersonalization
+  75060: personalization/ShipPersonalization
+  75061: personalization/ShipPersonalization
+  75062: personalization/ShipPersonalization
+  75063: personalization/ShipPersonalization
+  75064: personalization/ShipPersonalization
+  75065: personalization/ShipPersonalization
+  75066: personalization/ShipPersonalization
+  75067: personalization/ShipPersonalization
+  75068: personalization/ShipPersonalization
+  75069: personalization/ShipPersonalization
+  75070: personalization/ShipPersonalization
+  75071: personalization/ShipPersonalization
+  75072: personalization/ShipPersonalization
+  75073: personalization/ShipPersonalization
+  75074: personalization/ShipPersonalization
+  75075: personalization/ShipPersonalization
+  75076: personalization/ShipPersonalization
+  75077: personalization/ShipPersonalization
+  75078: personalization/ShipPersonalization
+  75079: personalization/ShipPersonalization
+  75080: personalization/ShipPersonalization
+  75081: personalization/ShipPersonalization
+  75082: personalization/ShipPersonalization
+  75083: personalization/ShipPersonalization
+  75084: personalization/ShipPersonalization
+  75085: personalization/ShipPersonalization
+  75086: personalization/ShipPersonalization
+  75087: personalization/ShipPersonalization
+  75088: personalization/ShipPersonalization
+  75089: personalization/ShipPersonalization
+  75090: personalization/ShipPersonalization
+  75091: personalization/ShipPersonalization
+  75092: personalization/ShipPersonalization
+  75093: personalization/ShipPersonalization
+  75094: personalization/ShipPersonalization
+  75095: personalization/ShipPersonalization
+  75096: personalization/ShipPersonalization
+  75097: personalization/ShipPersonalization
+  75098: personalization/ShipPersonalization
+  75099: personalization/ShipPersonalization
+  75100: personalization/ShipPersonalization
+  75101: personalization/ShipPersonalization
+  75102: personalization/ShipPersonalization
+  75103: personalization/ShipPersonalization
+  75104: personalization/ShipPersonalization
+  75105: personalization/ShipPersonalization
+  75106: personalization/ShipPersonalization
+  75107: personalization/ShipPersonalization
+  75108: personalization/ShipPersonalization
+  75109: personalization/ShipPersonalization
+  75110: personalization/ShipPersonalization
+  75111: personalization/ShipPersonalization
+  75112: personalization/ShipPersonalization
+  75113: personalization/ShipPersonalization
+  75114: personalization/ShipPersonalization
+  75115: personalization/ShipPersonalization
+  75116: personalization/ShipPersonalization
+  75117: personalization/ShipPersonalization
+  75118: personalization/ShipPersonalization
+  75119: personalization/ShipPersonalization
+  75120: personalization/ShipPersonalization
+  75121: personalization/ShipPersonalization
+  75122: personalization/ShipPersonalization
+  75123: personalization/ShipPersonalization
+  75124: personalization/ShipPersonalization
+  75125: personalization/ShipPersonalization
+  75126: personalization/ShipPersonalization
+  75127: personalization/ShipPersonalization
+  75128: personalization/ShipPersonalization
+  75129: personalization/ShipPersonalization
+  75130: personalization/ShipPersonalization
+  75131: personalization/ShipPersonalization
+  75132: personalization/ShipPersonalization
+  75133: personalization/ShipPersonalization
+  75134: personalization/ShipPersonalization
+  75135: personalization/ShipPersonalization
+  75136: personalization/ShipPersonalization
+  75137: personalization/ShipPersonalization
+  75138: personalization/ShipPersonalization
+  75139: personalization/ShipPersonalization
+  75140: personalization/ShipPersonalization
+  75141: personalization/ShipPersonalization
+  75142: personalization/ShipPersonalization
+  75143: personalization/ShipPersonalization
+  75144: personalization/ShipPersonalization
+  75145: personalization/ShipPersonalization
+  75146: personalization/ShipPersonalization
+  75147: personalization/ShipPersonalization
+  75148: personalization/ShipPersonalization
+  75149: personalization/ShipPersonalization
+  75150: personalization/ShipPersonalization
+  75151: personalization/ShipPersonalization
+  75152: personalization/ShipPersonalization
+  75153: personalization/ShipPersonalization
+  75154: personalization/ShipPersonalization
+  75155: personalization/ShipPersonalization
+  75156: personalization/ShipPersonalization
+  75157: personalization/ShipPersonalization
+  75158: personalization/ShipPersonalization
+  75159: personalization/ShipPersonalization
+  75160: personalization/ShipPersonalization
+  75161: personalization/ShipPersonalization
+  75162: personalization/ShipPersonalization
+  75163: personalization/ShipPersonalization
+  75164: personalization/ShipPersonalization
+  75165: personalization/ShipPersonalization
+  75166: personalization/ShipPersonalization
+  75167: personalization/ShipPersonalization
+  75168: personalization/ShipPersonalization
+  75169: personalization/ShipPersonalization
+  75170: personalization/ShipPersonalization
+  75171: personalization/ShipPersonalization
+  75172: personalization/ShipPersonalization
+  75173: personalization/ShipPersonalization
+  75174: personalization/ShipPersonalization
+  75175: personalization/ShipPersonalization
+  75176: personalization/ShipPersonalization
+  75177: personalization/ShipPersonalization
+  75178: personalization/ShipPersonalization
+  75179: personalization/ShipPersonalization
+  75180: personalization/ShipPersonalization
+  75181: personalization/ShipPersonalization
+  75182: personalization/ShipPersonalization
+  75183: personalization/ShipPersonalization
+  75184: personalization/ShipPersonalization
+  75185: personalization/ShipPersonalization
+  75186: personalization/ShipPersonalization
+  75187: personalization/ShipPersonalization
+  75188: personalization/ShipPersonalization
+  75189: personalization/ShipPersonalization
+  75190: personalization/ShipPersonalization
+  75191: personalization/ShipPersonalization
+  75192: personalization/ShipPersonalization
+  75193: personalization/ShipPersonalization
+  75194: personalization/ShipPersonalization
+  75195: personalization/ShipPersonalization
+  75196: personalization/ShipPersonalization
+  75197: personalization/ShipPersonalization
+  75198: personalization/ShipPersonalization
+  75199: personalization/ShipPersonalization
+  75200: personalization/ShipPersonalization
+  75201: personalization/ShipPersonalization
+  75202: personalization/ShipPersonalization
+  75203: personalization/ShipPersonalization
+  75204: personalization/ShipPersonalization
+  75205: personalization/ShipPersonalization
+  75206: personalization/ShipPersonalization
+  75207: personalization/ShipPersonalization
+  75208: personalization/ShipPersonalization
+  75209: personalization/ShipPersonalization
+  75210: personalization/ShipPersonalization
+  75211: personalization/ShipPersonalization
+  75212: personalization/ShipPersonalization
+  75213: personalization/ShipPersonalization
+  75214: personalization/ShipPersonalization
+  75215: personalization/ShipPersonalization
+  75216: personalization/ShipPersonalization
+  75217: personalization/ShipPersonalization
+  75218: personalization/ShipPersonalization
+  75219: personalization/ShipPersonalization
+  75220: personalization/ShipPersonalization
+  75221: personalization/ShipPersonalization
+  75222: personalization/ShipPersonalization
+  75223: personalization/ShipPersonalization
+  75224: personalization/ShipPersonalization
+  75225: personalization/ShipPersonalization
+  75226: personalization/ShipPersonalization
+  75227: personalization/ShipPersonalization
+  75228: personalization/ShipPersonalization
+  75229: personalization/ShipPersonalization
+  75230: personalization/ShipPersonalization
+  75231: personalization/ShipPersonalization
+  75232: personalization/ShipPersonalization
+  75233: personalization/ShipPersonalization
+  75234: personalization/ShipPersonalization
+  75235: personalization/ShipPersonalization
+  75236: personalization/ShipPersonalization
+  75237: personalization/ShipPersonalization
+  75238: personalization/ShipPersonalization
+  75239: personalization/ShipPersonalization
+  75240: personalization/ShipPersonalization
+  75241: personalization/ShipPersonalization
+  75242: personalization/ShipPersonalization
+  75243: personalization/ShipPersonalization
+  75244: personalization/ShipPersonalization
+  75245: personalization/ShipPersonalization
+  75246: personalization/ShipPersonalization
+  75247: personalization/ShipPersonalization
+  75248: personalization/ShipPersonalization
+  75249: personalization/ShipPersonalization
+  75250: personalization/ShipPersonalization
+  75251: personalization/ShipPersonalization
+  75252: personalization/ShipPersonalization
+  75253: personalization/ShipPersonalization
+  75254: personalization/ShipPersonalization
+  75255: personalization/ShipPersonalization
+  75265: skins/PermanentSKIN
+  75266: skins/PermanentSKIN
+  75267: skins/PermanentSKIN
+  75268: skins/PermanentSKIN
+  75269: skins/PermanentSKIN
+  75270: skins/PermanentSKIN
+  75271: skins/PermanentSKIN
+  75272: skins/PermanentSKIN
+  75273: skins/PermanentSKIN
+  75275: asteroid/Mordunium
+  75276: asteroid/Mordunium
+  75277: asteroid/Mordunium
+  75278: asteroid/Mordunium
+  75279: asteroid/Ytirium
+  75280: asteroid/Ytirium
+  75281: asteroid/Ytirium
+  75282: asteroid/Ytirium
+  75283: asteroid/Eifyrium
+  75284: asteroid/Eifyrium
+  75285: asteroid/Eifyrium
+  75286: asteroid/Eifyrium
+  75287: asteroid/Ducinium
+  75288: asteroid/Ducinium
+  75289: asteroid/Ducinium
+  75290: asteroid/Ducinium
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

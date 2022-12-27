@@ -1,0 +1,32 @@
+types:
+  27287:
+    aiignoredronesbelowsignatureradius: 50
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armorhp: 156.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitybracketcolour: 1
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    entityoverviewshipgroupid: 31
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.10000000149011612
+    hp: 150.0
+    id: 27287
+    mass: 32000.0
+    name: Pirate Capsule
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 2.0
+    scangravimetricstrength: 6.0
+    scanladarstrength: 6.0
+    scanmagnetometricstrength: 6.0
+    scanradarstrength: 6.0
+    shieldcapacity: 63.0
+    shieldrechargerate: 625000.0
+    signatureradius: 25.0
+    volume: 1000.0

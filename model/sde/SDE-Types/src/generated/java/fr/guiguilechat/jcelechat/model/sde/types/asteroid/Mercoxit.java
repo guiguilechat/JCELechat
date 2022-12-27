@@ -48,6 +48,9 @@ public class Mercoxit
     @Stackable(true)
     @DefaultIntValue(0)
     public int damagecloudtype;
+    /**
+     * If set to true, this results in no mining waste.
+     */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)

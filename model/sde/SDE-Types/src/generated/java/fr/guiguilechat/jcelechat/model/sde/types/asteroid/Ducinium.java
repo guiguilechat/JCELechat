@@ -30,7 +30,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class Jaspet
+public class Ducinium
     extends Asteroid
 {
     /**
@@ -62,7 +62,7 @@ public class Jaspet
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, ReprocessingSkillType.INSTANCE, OreBasicType.INSTANCE, AsteroidMaxRadius.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
-    public static final Jaspet.MetaGroup METAGROUP = new Jaspet.MetaGroup();
+    public static final Ducinium.MetaGroup METAGROUP = new Ducinium.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -96,35 +96,35 @@ public class Jaspet
     }
 
     @Override
-    public IMetaGroup<Jaspet> getGroup() {
+    public IMetaGroup<Ducinium> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<Jaspet>
+        implements IMetaGroup<Ducinium>
     {
-        public static final String RESOURCE_PATH = "SDE/types/asteroid/Jaspet.yaml";
-        private Map<Integer, Jaspet> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Ducinium.yaml";
+        private Map<Integer, Ducinium> cache = (null);
 
         @Override
-        public IMetaCategory<? super Jaspet> category() {
+        public IMetaCategory<? super Ducinium> category() {
             return Asteroid.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  456;
+            return  4516;
         }
 
         @Override
         public String getName() {
-            return "Jaspet";
+            return "Ducinium";
         }
 
         @Override
-        public synchronized Map<Integer, Jaspet> load() {
+        public synchronized Map<Integer, Ducinium> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(Jaspet.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(Ducinium.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -136,7 +136,7 @@ public class Jaspet
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, Jaspet> types;
+            public LinkedHashMap<Integer, Ducinium> types;
         }
     }
 }

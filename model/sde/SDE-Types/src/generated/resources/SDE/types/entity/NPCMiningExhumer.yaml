@@ -10,7 +10,7 @@ types:
     behaviorminingduration: 760000
     behaviorminingmaxrange: 15000
     capacitorcapacity: 781.0
-    capacity: 15000.0
+    capacity: 150.0
     disallowassistance: 1
     entityfactionloss: 0.009999999776482582
     entitykillbounty: 300000

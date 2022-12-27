@@ -1,0 +1,153 @@
+types:
+  74525:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 74525
+    marketGroup: 3488
+    mass: 1.0000000409184788E35
+    name: Ytirium
+    orebasictype: 74525
+    packagedVolume: 0.6000000238418579
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.6000000238418579
+  74526:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 74526
+    marketGroup: 3488
+    mass: 1.0000000409184788E35
+    name: Bootleg Ytirium
+    orebasictype: 74525
+    packagedVolume: 0.6000000238418579
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.6000000238418579
+  74527:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 74527
+    marketGroup: 3488
+    mass: 1.0000000409184788E35
+    name: Firewater Ytirium
+    orebasictype: 74525
+    packagedVolume: 0.6000000238418579
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.6000000238418579
+  74528:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.04500000178813934
+    asteroidradiusunitsize: 600
+    id: 74528
+    marketGroup: 3488
+    mass: 1.0000000409184788E35
+    name: Moonshine Ytirium
+    orebasictype: 74525
+    packagedVolume: 0.6000000238418579
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.6000000238418579
+  75279:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 75279
+    marketGroup: 3488
+    mass: 1.0000000409184788E35
+    name: Compressed Ytirium
+    orebasictype: 74525
+    packagedVolume: 0.006000000052154064
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.006000000052154064
+  75280:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 75280
+    marketGroup: 3488
+    mass: 1.0000000409184788E35
+    name: Compressed Bootleg Ytirium
+    orebasictype: 74525
+    packagedVolume: 0.006000000052154064
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.006000000052154064
+  75281:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 75281
+    marketGroup: 3488
+    mass: 1.0000000409184788E35
+    name: Compressed Firewater Ytirium
+    orebasictype: 74525
+    packagedVolume: 0.006000000052154064
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.006000000052154064
+  75282:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.04500000178813934
+    asteroidradiusunitsize: 600
+    id: 75282
+    marketGroup: 3488
+    mass: 1.0000000409184788E35
+    name: Compressed Moonshine Ytirium
+    orebasictype: 74525
+    packagedVolume: 0.006000000052154064
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60378
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.006000000052154064

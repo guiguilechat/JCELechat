@@ -40,6 +40,9 @@ public class Veldspar
     @Stackable(true)
     @DefaultIntValue(16255)
     public int asteroidmaxradius;
+    /**
+     * If set to true, this results in no mining waste.
+     */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)

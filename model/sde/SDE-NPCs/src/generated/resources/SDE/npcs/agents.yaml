@@ -32899,7 +32899,7 @@ agents:
     isLocator: false
     level: 1
     name: Elarie Dette
-    station: Intaki V - Moon 5 - Astral Mining Inc. Refinery
+    station: Intaki V (Intaki Prime) - Moon 5 - Astral Mining Inc. Refinery
     stationId: 60009667
     system: Intaki
     type: Event
@@ -38972,7 +38972,7 @@ agents:
     isLocator: false
     level: 1
     name: Freye Strodmont
-    station: Intaki V - Moon 5 - Astral Mining Inc. Refinery
+    station: Intaki V (Intaki Prime) - Moon 5 - Astral Mining Inc. Refinery
     stationId: 60009667
     system: Intaki
     type: Basic
@@ -41139,7 +41139,7 @@ agents:
     isLocator: false
     level: 2
     name: Ghyselare Elemone
-    station: Intaki V - Moon 5 - Astral Mining Inc. Refinery
+    station: Intaki V (Intaki Prime) - Moon 5 - Astral Mining Inc. Refinery
     stationId: 60009667
     system: Intaki
     type: Basic
@@ -42393,7 +42393,7 @@ agents:
     isLocator: false
     level: 1
     name: Grinarel Toubaison
-    station: Intaki V - Moon 5 - Astral Mining Inc. Refinery
+    station: Intaki V (Intaki Prime) - Moon 5 - Astral Mining Inc. Refinery
     stationId: 60009667
     system: Intaki
     type: Basic
@@ -119593,7 +119593,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020032
-    station: Amarr VII (Nemantizor) - Paragon Fulfilment Center
+    station: Amarr VII (Nemantizor) - Paragon Fulfillment Center
     stationId: 60015168
     system: Amarr
     type: Paragon
@@ -119604,7 +119604,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020034
-    station: Jita VI - Paragon Fulfilment Center
+    station: Jita VI - Paragon Fulfillment Center
     stationId: 60015169
     system: Jita
     type: Paragon
@@ -119615,7 +119615,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020035
-    station: Hek IX - Paragon Fulfilment Center
+    station: Hek IX - Paragon Fulfillment Center
     stationId: 60015171
     system: Hek
     type: Paragon
@@ -119626,7 +119626,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020036
-    station: Dodixie V - Paragon Fulfilment Center
+    station: Dodixie V - Paragon Fulfillment Center
     stationId: 60015170
     system: Dodixie
     type: Paragon
@@ -119637,7 +119637,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020037
-    station: Rens V - Paragon Fulfilment Center
+    station: Rens V - Paragon Fulfillment Center
     stationId: 60015172
     system: Rens
     type: Paragon
@@ -119648,7 +119648,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020039
-    station: Ourapheh V - Paragon Fulfilment Center
+    station: Ourapheh V - Paragon Fulfillment Center
     stationId: 60015167
     system: Ourapheh
     type: Paragon
@@ -119659,7 +119659,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020047
-    station: Amamake III - Paragon Fulfilment Center
+    station: Amamake III - Paragon Fulfillment Center
     stationId: 60015175
     system: Amamake
     type: Paragon
@@ -119670,7 +119670,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020048
-    station: Assah VI - Paragon Fulfilment Center
+    station: Assah VI - Paragon Fulfillment Center
     stationId: 60015176
     system: Assah
     type: Paragon
@@ -119681,7 +119681,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020049
-    station: Aubenall II - Paragon Fulfilment Center
+    station: Aubenall II - Paragon Fulfillment Center
     stationId: 60015177
     system: Aubenall
     type: Paragon
@@ -119692,7 +119692,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020050
-    station: Yehaba VI - Paragon Fulfilment Center
+    station: Yehaba VI - Paragon Fulfillment Center
     stationId: 60015178
     system: Yehaba
     type: Paragon
@@ -119703,7 +119703,7 @@ agents:
     isLocator: false
     level: 1
     name: unknown_3020051
-    station: Hakonen VII - Paragon Fulfilment Center
+    station: Hakonen VII - Paragon Fulfillment Center
     stationId: 60015179
     system: Hakonen
     type: Paragon

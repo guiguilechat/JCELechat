@@ -79,3 +79,19 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  74114:
+    id: 74114
+    mass: 1.0
+    name: Navy Destroyers Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  74500:
+    id: 74500
+    mass: 1.0
+    name: Winter Nexus Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

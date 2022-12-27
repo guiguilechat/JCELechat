@@ -32,6 +32,9 @@ import org.yaml.snakeyaml.Yaml;
 public class Ice
     extends Asteroid
 {
+    /**
+     * If set to true, this results in no mining waste.
+     */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)

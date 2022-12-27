@@ -1,0 +1,153 @@
+types:
+  74529:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 74529
+    marketGroup: 3489
+    mass: 1.0000000409184788E35
+    name: Eifyrium
+    orebasictype: 74529
+    packagedVolume: 16.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  74530:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 74530
+    marketGroup: 3489
+    mass: 1.0000000409184788E35
+    name: Doped Eifyrium
+    orebasictype: 74529
+    packagedVolume: 16.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  74531:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 74531
+    marketGroup: 3489
+    mass: 1.0000000409184788E35
+    name: Boosted Eifyrium
+    orebasictype: 74529
+    packagedVolume: 16.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  74532:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 600
+    id: 74532
+    marketGroup: 3489
+    mass: 1.0000000409184788E35
+    name: Augmented Eifyrium
+    orebasictype: 74529
+    packagedVolume: 16.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 16.0
+  75283:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 75283
+    marketGroup: 3489
+    mass: 1.0000000409184788E35
+    name: Compressed Eifyrium
+    orebasictype: 74529
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  75284:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 75284
+    marketGroup: 3489
+    mass: 1.0000000409184788E35
+    name: Compressed Doped Eifyrium
+    orebasictype: 74529
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  75285:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 75285
+    marketGroup: 3489
+    mass: 1.0000000409184788E35
+    name: Compressed Boosted Eifyrium
+    orebasictype: 74529
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213
+  75286:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 600
+    id: 75286
+    marketGroup: 3489
+    mass: 1.0000000409184788E35
+    name: Compressed Augmented Eifyrium
+    orebasictype: 74529
+    packagedVolume: 0.1599999964237213
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.1599999964237213

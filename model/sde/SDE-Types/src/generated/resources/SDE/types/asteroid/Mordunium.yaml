@@ -1,0 +1,153 @@
+types:
+  74521:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 74521
+    marketGroup: 3487
+    mass: 1.0000000409184788E35
+    name: Mordunium
+    orebasictype: 74521
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  74522:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 74522
+    marketGroup: 3487
+    mass: 1.0000000409184788E35
+    name: Plum Mordunium
+    orebasictype: 74521
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  74523:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 74523
+    marketGroup: 3487
+    mass: 1.0000000409184788E35
+    name: Prize Mordunium
+    orebasictype: 74521
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  74524:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.007499999832361937
+    asteroidradiusunitsize: 600
+    id: 74524
+    marketGroup: 3487
+    mass: 1.0000000409184788E35
+    name: Plunder Mordunium
+    orebasictype: 74521
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  75275:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 75275
+    marketGroup: 3487
+    mass: 1.0000000409184788E35
+    name: Compressed Mordunium
+    orebasictype: 74521
+    packagedVolume: 0.0010000000474974513
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513
+  75276:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 75276
+    marketGroup: 3487
+    mass: 1.0000000409184788E35
+    name: Compressed Plum Mordunium
+    orebasictype: 74521
+    packagedVolume: 0.0010000000474974513
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513
+  75277:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 600
+    id: 75277
+    marketGroup: 3487
+    mass: 1.0000000409184788E35
+    name: Compressed Prize Mordunium
+    orebasictype: 74521
+    packagedVolume: 0.0010000000474974513
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513
+  75278:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.007499999832361937
+    asteroidradiusunitsize: 600
+    id: 75278
+    marketGroup: 3487
+    mass: 1.0000000409184788E35
+    name: Compressed Plunder Mordunium
+    orebasictype: 74521
+    packagedVolume: 0.0010000000474974513
+    portionSize: 100
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513

@@ -411,6 +411,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  53038:
+    gender: 2
+    id: 53038
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'SteelKnight TorsoRig' Body Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   53041:
     gender: 2
     id: 53041
@@ -567,6 +577,26 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Semiotique TorsoRig' Body Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  73436:
+    gender: 2
+    id: 73436
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'Barbatus Rojo' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  73437:
+    gender: 2
+    id: 73437
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Domino Rojo' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
