@@ -26,6 +26,7 @@ import com.helger.jcodemodel.JBlock;
 import com.helger.jcodemodel.JCatchBlock;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
+import com.helger.jcodemodel.JCodeModelException;
 import com.helger.jcodemodel.JConditional;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JExpr;
@@ -92,7 +93,7 @@ public class SDECompiler {
 	JDefinedClass realAttribute, intAttribute;
 	JMethod typeGetAttributes;
 
-	public CompilationData compile(TypeHierarchy hierarchy) {
+	public CompilationData compile(TypeHierarchy hierarchy) throws JCodeModelException {
 		CompilationData ret = new CompilationData();
 		cm = ret.model;
 		AbstractJClass strRef = cm.ref(String.class);
@@ -401,8 +402,10 @@ public class SDECompiler {
 	 * the attribute, intattribute and adoubleattribute classes<br />
 	 * the metaclass, metagroup with their load() method.<br />
 	 * and the EveType class to design a type.
+	 *
+	 * @throws JCodeModelException
 	 */
-	protected void makeRootClasses(CompilationData ret) {
+	protected void makeRootClasses(CompilationData ret) throws JCodeModelException {
 		// Attribute, IntAttribute, DoubleAttribute
 		try {
 			attributeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Attribute");
@@ -620,9 +623,10 @@ public class SDECompiler {
 	 *          all the attribute ids used by types in the hierarchy.
 	 * @param attID2Class
 	 *          the map to store the class of an attribute.
+	 * @throws JCodeModelException
 	 */
 	protected void createAttributes(TypeHierarchy hierarchy, CompilationData compilation,
-			HashSet<Integer> allAttributesIds, Map<Integer, JDefinedClass> attID2Class) {
+			HashSet<Integer> allAttributesIds, Map<Integer, JDefinedClass> attID2Class) throws JCodeModelException {
 		for (int attId : allAttributesIds) {
 			AttributeDetails eattr = hierarchy.attID2Details.get(attId);
 			String name = formatName(eattr.name);
@@ -664,7 +668,7 @@ public class SDECompiler {
 
 	protected JDefinedClass highIsGoodAnnotation;
 
-	protected JDefinedClass getHighIsGoodAnnotation() {
+	protected JDefinedClass getHighIsGoodAnnotation() throws JCodeModelException {
 		if (highIsGoodAnnotation == null) {
 			try {
 				highIsGoodAnnotation = annotationsPackage()._annotationTypeDeclaration("HighIsGood");
@@ -680,7 +684,7 @@ public class SDECompiler {
 
 	protected JDefinedClass stackableAnnotation;
 
-	protected JDefinedClass getStackableAnnotation() {
+	protected JDefinedClass getStackableAnnotation() throws JCodeModelException {
 		if (stackableAnnotation == null) {
 			try {
 				stackableAnnotation = annotationsPackage()._annotationTypeDeclaration("Stackable");
@@ -696,7 +700,7 @@ public class SDECompiler {
 
 	protected JDefinedClass defaultRealValueAnnotation;
 
-	protected JDefinedClass getDefaultDoubleValueAnnotation() {
+	protected JDefinedClass getDefaultDoubleValueAnnotation() throws JCodeModelException {
 		if (defaultRealValueAnnotation == null) {
 			try {
 				defaultRealValueAnnotation = annotationsPackage()._annotationTypeDeclaration("DefaultRealValue");
@@ -712,7 +716,7 @@ public class SDECompiler {
 
 	protected JDefinedClass defaulIntValueAnnotation;
 
-	protected JDefinedClass getDefaultIntValueAnnotation() {
+	protected JDefinedClass getDefaultIntValueAnnotation() throws JCodeModelException {
 		if (defaulIntValueAnnotation == null) {
 			try {
 				defaulIntValueAnnotation = annotationsPackage()._annotationTypeDeclaration("DefaultIntValue");
@@ -733,8 +737,10 @@ public class SDECompiler {
 	 * @param cl
 	 * @param attributeIDs
 	 * @param hierarchy
+	 * @throws JCodeModelException
 	 */
-	protected void addAttributes(JDefinedClass cl, HashSet<Integer> attributeIDs, TypeHierarchy hierarchy) {
+	protected void addAttributes(JDefinedClass cl, HashSet<Integer> attributeIDs, TypeHierarchy hierarchy)
+			throws JCodeModelException {
 		if (attributeIDs == null) {
 			return;
 		}

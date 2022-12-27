@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde;
 
 import java.io.IOException;
 
+import com.helger.jcodemodel.JCodeModelException;
+
 import fr.guiguilechat.jcelechat.model.sde.compile.MainCompile;
 
 /**
@@ -11,7 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.compile.MainCompile;
  */
 public class CompileTypes {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, JCodeModelException {
 		MainCompile.main("src/generated/java",
 				"src/generated/resources/SDE/types/", "SDE/types/");
 		// UnitTranslater.main(args);

@@ -27,6 +27,7 @@ import com.helger.jcodemodel.JBlock;
 import com.helger.jcodemodel.JCatchBlock;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
+import com.helger.jcodemodel.JCodeModelException;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JExpr;
 import com.helger.jcodemodel.JMethod;
@@ -54,7 +55,8 @@ public class TypesTranslater {
 
 	private static final Logger logger = LoggerFactory.getLogger(TypesTranslater.class);
 
-	public void translate(TypeHierarchy hierarchy, CompilationData classes, File destFolder, String resFolder) {
+	public void translate(TypeHierarchy hierarchy, CompilationData classes, File destFolder, String resFolder)
+			throws JCodeModelException {
 		// System.err.println("abaddon mass in translate is " +
 		// hierarchy.typeID2Details.get(24692).mass);
 		JCodeModel cm = classes.model;
@@ -244,7 +246,7 @@ public class TypesTranslater {
 	}
 
 	protected void makeLoadMethod(JDefinedClass metagroup, JDefinedClass loadedClass, JCodeModel cm, String resPath,
-			boolean container) {
+			boolean container) throws JCodeModelException {
 		boolean _static = metagroup == null;
 		if (metagroup == null) {
 			metagroup = loadedClass;
