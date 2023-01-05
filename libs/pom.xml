@@ -17,6 +17,7 @@
 		<module>LogParser</module>
 <!--		<module>spring</module>-->
 		<module>DBMaker</module>
+		<module>MER</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
