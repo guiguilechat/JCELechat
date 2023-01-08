@@ -9,6 +9,8 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
 import java.time.temporal.TemporalAdjusters;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -20,17 +22,45 @@ import fr.lelouet.tools.application.xdg.XDGApp;
  */
 public class MerLoader {
 
-	public static final LocalDate DATE_DEFAULTSTART = LocalDate.of(2018, 8, 1);
+	public static final LocalDate DATE_DEFAULTSTART = LocalDate.of(2015, 8, 1);
 
-	public static final DateTimeFormatter URL_DATE_FORMATTER_1 = DateTimeFormatter
-			.ofPattern("'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_'MMMyyyy'.zip'");
-	public static final DateTimeFormatter URL_DATE_FORMATTER_2 = DateTimeFormatter
-			.ofPattern("'https://web.ccpgamescdn.com/aws/community/'MMMM_yyyy'_MER.zip'");
-	public static final DateTimeFormatter URL_DATE_FORMATTER_3 = new DateTimeFormatterBuilder()
+	//
+	// There are several formats for a MER URL. We check each of them and return
+	// the first one that matches, or return null.
+	//
+	//
+	List<DateTimeFormatter> URL_DATE_FORMATTERS = List.of(
+			//
+			// https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_Nov2022.zip
+			DateTimeFormatter.ofPattern("'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			//
+			DateTimeFormatter.ofPattern("'https://web.ccpgamescdn.com/aws/community/'MMMM_yyyy'_MER.zip'"),
+			//
+			//
+			new DateTimeFormatterBuilder()
 			.appendLiteral("https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_")
 			.appendText(ChronoField.MONTH_OF_YEAR, Map.of(9l, "Sept"))
 			.appendText(ChronoField.YEAR)
-			.appendLiteral(".zip").toFormatter();
+			.appendLiteral(".zip")
+			.toFormatter(),
+			//
+			// http://web.ccpgamescdn.com/newssystem/media/73619/1/EVEOnline_MER_Jul2018.zip
+			DateTimeFormatter
+					.ofPattern("'https://web.ccpgamescdn.com/newssystem/media/73619/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// http://content.eveonline.com/www/newssystem/media/73592/1/EVEOnline_MER_Apr2018.zip
+			DateTimeFormatter
+					.ofPattern("'https://content.eveonline.com/www/newssystem/media/73592/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// http://content.eveonline.com/www/newssystem/media/73589/1/EVEOnline_MER_Dec2017.zip
+			DateTimeFormatter
+					.ofPattern("'https://content.eveonline.com/www/newssystem/media/73589/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// http://content.eveonline.com/www/newssystem/media/73542/1/EVEOnline_MER_Nov2017.zip
+			DateTimeFormatter
+					.ofPattern("'https://content.eveonline.com/www/newssystem/media/73542/1/EVEOnline_MER_'MMMyyyy'.zip'")
+			);
 
 	public static final DateTimeFormatter FILE_DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM");
 
@@ -66,29 +96,35 @@ public class MerLoader {
 		boolean foundOne = false;
 		boolean lastOK = false;
 		for (LocalDate date = end; !date.isBefore(start) && (lastOK || !foundOne); date = date.minusMonths(1)) {
+			Map<String, String> errorsFromURL = new HashMap<>();
 			File outDir = APP.cacheFile(date.format(FILE_DATE_FORMATTER));
-			boolean success;
+			boolean success = false;
 			if (outDir.isDirectory()) {
 				success = true;
 			} else {
 				outDir.mkdirs();
-				success = unpackUrl(date.format(URL_DATE_FORMATTER_1), outDir);
-				if (!success) {
-					success = unpackUrl(date.format(URL_DATE_FORMATTER_2), outDir);
+				for (DateTimeFormatter urlFormatter : URL_DATE_FORMATTERS) {
+					String url = date.format(urlFormatter);
+					String error = unpackUrl(url, outDir);
+					success = error == null;
+					if (success) {
+						break;
+					} else {
+						errorsFromURL.put(url, error);
+					}
 				}
-				if (!success) {
-					success = unpackUrl(date.format(URL_DATE_FORMATTER_3), outDir);
-				}
-				foundOne |= success;
-				lastOK = success;
 			}
+			foundOne |= success;
+			lastOK = success;
 			if (!success) {
+				System.err.println(errorsFromURL);
 				outDir.delete();
 			}
+			System.err.println("after" + date + " success=" + success + " foundOne=" + foundOne + " lastOk=" + lastOK);
 		}
 	}
 
-	public static boolean unpackUrl(String url, File outDir) {
+	public static String unpackUrl(String url, File outDir) {
 		System.out.println("unpack " + url + " in " + outDir.getAbsolutePath());
 		try {
 			InputStream is = new URL(url).openStream();
@@ -111,10 +147,9 @@ public class MerLoader {
 					fw.close();
 				}
 			}
-			return true;
+			return null;
 		} catch (Exception e) {
-			System.err.println(e);
-			return false;
+			return e.toString();
 		}
 	}
 
