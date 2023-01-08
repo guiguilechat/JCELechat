@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
@@ -25,11 +26,16 @@ public class SolarSystem extends ALocation {
 
 	public static final String RESOURCE_PATH = "SDE/locations/solarsystems.yaml";
 
+	protected static final LoaderOptions LOADEROPTIONS = new LoaderOptions();
+	static {
+		LOADEROPTIONS.setCodePointLimit(Integer.MAX_VALUE);
+	}
+
 	public static synchronized LinkedHashMap<String, SolarSystem> load() {
 		if (cache == null) {
 			try (InputStreamReader reader = new InputStreamReader(
 					SolarSystem.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
-				cache = new Yaml().loadAs(reader, Container.class).locations;
+				cache = new Yaml(LOADEROPTIONS).loadAs(reader, Container.class).locations;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);
 			}
