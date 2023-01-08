@@ -175,7 +175,8 @@ public class KDParser {
 	}
 
 	public Stream<KDEntry> stream() {
-		return Stream.of(APP.cacheFile().listFiles()).parallel().map(this::parse).flatMap(List::stream);
+		File[] files = APP.cacheFile().listFiles();
+		return files == null ? Stream.empty() : Stream.of(files).parallel().map(this::parse).flatMap(List::stream);
 	}
 
 	private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM");

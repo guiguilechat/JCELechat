@@ -34,10 +34,10 @@ public class MerLoader {
 			// https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_Nov2022.zip
 			DateTimeFormatter.ofPattern("'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_'MMMyyyy'.zip'"),
 			//
-			//
+			// https://web.ccpgamescdn.com/aws/community/January_2022_MER.zip
 			DateTimeFormatter.ofPattern("'https://web.ccpgamescdn.com/aws/community/'MMMM_yyyy'_MER.zip'"),
 			//
-			//
+			// https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_Sept2021.zip
 			new DateTimeFormatterBuilder()
 			.appendLiteral("https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_")
 			.appendText(ChronoField.MONTH_OF_YEAR, Map.of(9l, "Sept"))
@@ -45,21 +45,46 @@ public class MerLoader {
 			.appendLiteral(".zip")
 			.toFormatter(),
 			//
+			// http://cdn1.eveonline.com/community/MER/EVEOnline_MER_Sep2017.zip
+			DateTimeFormatter.ofPattern("'https://cdn1.eveonline.com/community/MER/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// http://cdn1.eveonline.com/community/MER/EVEOnline_MER_Aug17.zip
+			DateTimeFormatter.ofPattern("'https://cdn1.eveonline.com/community/MER/EVEOnline_MER_'MMMyy'.zip'"),
+			//
 			// http://web.ccpgamescdn.com/newssystem/media/73619/1/EVEOnline_MER_Jul2018.zip
-			DateTimeFormatter
-					.ofPattern("'https://web.ccpgamescdn.com/newssystem/media/73619/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			DateTimeFormatter.ofPattern("'https://web.ccpgamescdn.com/newssystem/media/73619/1/EVEOnline_MER_'MMMyyyy'.zip'"),
 			//
 			// http://content.eveonline.com/www/newssystem/media/73592/1/EVEOnline_MER_Apr2018.zip
 			DateTimeFormatter
-					.ofPattern("'https://content.eveonline.com/www/newssystem/media/73592/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			.ofPattern("'https://content.eveonline.com/www/newssystem/media/73592/1/EVEOnline_MER_'MMMyyyy'.zip'"),
 			//
 			// http://content.eveonline.com/www/newssystem/media/73589/1/EVEOnline_MER_Dec2017.zip
 			DateTimeFormatter
-					.ofPattern("'https://content.eveonline.com/www/newssystem/media/73589/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			.ofPattern("'https://content.eveonline.com/www/newssystem/media/73589/1/EVEOnline_MER_'MMMyyyy'.zip'"),
 			//
 			// http://content.eveonline.com/www/newssystem/media/73542/1/EVEOnline_MER_Nov2017.zip
 			DateTimeFormatter
-					.ofPattern("'https://content.eveonline.com/www/newssystem/media/73542/1/EVEOnline_MER_'MMMyyyy'.zip'")
+			.ofPattern("'https://content.eveonline.com/www/newssystem/media/73542/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// http://content.eveonline.com/www/newssystem/media/73479/1/EVEOnline_MER_Oct2017.zip
+			DateTimeFormatter
+			.ofPattern("'https://content.eveonline.com/www/newssystem/media/73479/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// https://content.eveonline.com/www/newssystem/media/71808/1/EVEOnline_MER_Dec2016_v1.1.zip
+			DateTimeFormatter
+			.ofPattern("'https://content.eveonline.com/www/newssystem/media/71808/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// https://content.eveonline.com/www/newssystem/media/70766/1/EVEOnline_MER_Nov2016.zip
+			DateTimeFormatter
+			.ofPattern("'https://content.eveonline.com/www/newssystem/media/70766/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// https://content.eveonline.com/www/newssystem/media/70687/1/EVEOnline_MER_Oct2016.zip
+			DateTimeFormatter
+			.ofPattern("'https://content.eveonline.com/www/newssystem/media/70687/1/EVEOnline_MER_'MMMyyyy'.zip'"),
+			//
+			// https://content.eveonline.com/www/newssystem/media/70577/1/EVEOnline_MER_Sep2016.zip
+			DateTimeFormatter
+					.ofPattern("'https://content.eveonline.com/www/newssystem/media/70577/1/EVEOnline_MER_'MMMyyyy'.zip'")
 			);
 
 	public static final DateTimeFormatter FILE_DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM");

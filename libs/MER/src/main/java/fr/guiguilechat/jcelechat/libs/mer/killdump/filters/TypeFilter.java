@@ -23,4 +23,7 @@ public class TypeFilter implements Predicate<KDEntry> {
 		return TypeIndex.getType(typeId).name;
 	}
 
+	public static final TypeFilter ORCA = new TypeFilter(28606);
+	public static final TypeFilter VENTURE = new TypeFilter(32880);
+
 }

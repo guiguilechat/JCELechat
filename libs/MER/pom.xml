@@ -27,5 +27,9 @@
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Locations</artifactId>
 		</dependency>
+      <dependency>
+        <groupId>org.jfree</groupId>
+        <artifactId>jfreechart</artifactId>
+      </dependency>
 	</dependencies>
 </project>

@@ -35,4 +35,10 @@ public class GroupFilter implements Predicate<KDEntry> {
 		return groupToName.getOrDefault(groupId, "g_" + groupId);
 	}
 
+	public static final GroupFilter EXHUMER = new GroupFilter(543);
+	public static final GroupFilter FREIGHTER = new GroupFilter(513);
+	public static final GroupFilter JUMP_FREIGHTER = new GroupFilter(902);
+	public static final GroupFilter MINING_BARGE = new GroupFilter(463);
+	public static final GroupFilter SHUTTLE = new GroupFilter(31);
+
 }

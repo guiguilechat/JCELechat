@@ -59,6 +59,32 @@ public class SystemFilters {
 		}
 	};
 
+	public static final Predicate<KDEntry> JS = new Predicate<>() {
+
+		@Override
+		public boolean test(KDEntry kde) {
+			return kde.getSolarSystem() != null && kde.getSolarSystem().isJovian;
+		}
+
+		@Override
+		public String toString() {
+			return "JS";
+		}
+	};
+
+	public static final Predicate<KDEntry> JS_TYPED = new Predicate<>() {
+
+		@Override
+		public boolean test(KDEntry kde) {
+			return kde.getSolarSystem() != null && kde.getSolarSystem().isJovian && kde.getType() != null;
+		}
+
+		@Override
+		public String toString() {
+			return "JST";
+		}
+	};
+
 	public static final Predicate<KDEntry> LS = new Predicate<>() {
 
 		@Override
@@ -109,6 +135,32 @@ public class SystemFilters {
 		@Override
 		public String toString() {
 			return "NST";
+		}
+	};
+
+	public static final Predicate<KDEntry> PS = new Predicate<>() {
+
+		@Override
+		public boolean test(KDEntry kde) {
+			return kde.getSolarSystem() != null && kde.getSolarSystem().isPochven;
+		}
+
+		@Override
+		public String toString() {
+			return "PS";
+		}
+	};
+
+	public static final Predicate<KDEntry> PS_TYPED = new Predicate<>() {
+
+		@Override
+		public boolean test(KDEntry kde) {
+			return kde.getSolarSystem() != null && kde.getSolarSystem().isPochven && kde.getType() != null;
+		}
+
+		@Override
+		public String toString() {
+			return "PST";
 		}
 	};
 
