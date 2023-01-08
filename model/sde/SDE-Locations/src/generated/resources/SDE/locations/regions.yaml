@@ -1,4 +1,74 @@
 locations:
+  '12000001':
+    constellations:
+    - '22000001'
+    - '22000002'
+    - '22000003'
+    - '22000004'
+    - '22000005'
+    id: 12000001
+    isAbyssal: true
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: '12000001'
+  '12000002':
+    constellations:
+    - '22000006'
+    - '22000007'
+    - '22000008'
+    - '22000009'
+    - '22000010'
+    id: 12000002
+    isAbyssal: true
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: '12000002'
+  '12000003':
+    constellations:
+    - '22000011'
+    - '22000012'
+    - '22000013'
+    - '22000014'
+    - '22000015'
+    id: 12000003
+    isAbyssal: true
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: '12000003'
+  '12000004':
+    constellations:
+    - '22000016'
+    - '22000017'
+    - '22000018'
+    - '22000019'
+    - '22000020'
+    id: 12000004
+    isAbyssal: true
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: '12000004'
+  '12000005':
+    constellations:
+    - '22000021'
+    - '22000022'
+    - '22000023'
+    - '22000024'
+    - '22000025'
+    id: 12000005
+    isAbyssal: true
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: '12000005'
   A-R00001:
     constellations:
     - A-C00311
@@ -16,7 +86,10 @@ locations:
     - A-C00323
     - A-C00325
     id: 11000001
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: A-R00001
   A-R00002:
@@ -36,7 +109,10 @@ locations:
     - A-C00013
     - A-C00014
     id: 11000002
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: A-R00002
   A-R00003:
@@ -48,7 +124,10 @@ locations:
     - A-C00019
     - A-C00020
     id: 11000003
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: A-R00003
   A821-A:
@@ -61,7 +140,10 @@ locations:
     - UN2H-D
     - W1-F3U
     id: 10000019
+    isAbyssal: false
+    isJovian: true
     isKS: false
+    isPochven: false
     isWormhole: false
     name: A821-A
   Aridia:
@@ -99,7 +181,10 @@ locations:
     - Selonat
     - Tid
     id: 10000054
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Aridia
   B-R00004:
@@ -116,7 +201,10 @@ locations:
     - B-C00030
     - B-C00326
     id: 11000004
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: B-R00004
   B-R00005:
@@ -132,7 +220,10 @@ locations:
     - B-C00039
     - B-C00040
     id: 11000005
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: B-R00005
   B-R00006:
@@ -152,7 +243,10 @@ locations:
     - B-C00053
     - B-C00054
     id: 11000006
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: B-R00006
   B-R00007:
@@ -163,7 +257,10 @@ locations:
     - B-C00058
     - B-C00059
     id: 11000007
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: B-R00007
   B-R00008:
@@ -185,7 +282,10 @@ locations:
     - B-C00074
     - B-C00075
     id: 11000008
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: B-R00008
   Black Rise:
@@ -224,7 +324,10 @@ locations:
     - Okakuola
     - Urpiken
     id: 10000069
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Black Rise
   Branch:
@@ -263,7 +366,10 @@ locations:
     - T-RQ7S
     - XPBM-F
     id: 10000055
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Branch
   C-R00009:
@@ -279,7 +385,10 @@ locations:
     - C-C00084
     - C-C00327
     id: 11000009
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: C-R00009
   C-R00010:
@@ -293,7 +402,10 @@ locations:
     - C-C00091
     - C-C00092
     id: 11000010
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: C-R00010
   C-R00011:
@@ -312,7 +424,10 @@ locations:
     - C-C00104
     - C-C00105
     id: 11000011
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: C-R00011
   C-R00012:
@@ -334,7 +449,10 @@ locations:
     - C-C00120
     - C-C00121
     id: 11000012
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: C-R00012
   C-R00013:
@@ -347,7 +465,10 @@ locations:
     - C-C00127
     - C-C00128
     id: 11000013
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: C-R00013
   C-R00014:
@@ -368,7 +489,10 @@ locations:
     - C-C00142
     - C-C00143
     id: 11000014
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: C-R00014
   C-R00015:
@@ -383,7 +507,10 @@ locations:
     - C-C00151
     - C-C00152
     id: 11000015
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: C-R00015
   Cache:
@@ -420,7 +547,10 @@ locations:
     - VSC-W9
     - Y-JSM8
     id: 10000007
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Cache
   Catch:
@@ -478,7 +608,10 @@ locations:
     - XR9-LP
     - ZW-BY5
     id: 10000014
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Catch
   Cloud Ring:
@@ -514,7 +647,10 @@ locations:
     - Tinnimerci
     - Yrton
     id: 10000051
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Cloud Ring
   Cobalt Edge:
@@ -547,7 +683,10 @@ locations:
     - SI1-CF
     - XHL-TZ
     id: 10000053
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Cobalt Edge
   Curse:
@@ -580,7 +719,10 @@ locations:
     - Sound
     - Tranquillity
     id: 10000012
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Curse
   D-R00016:
@@ -596,7 +738,10 @@ locations:
     - D-C00161
     - D-C00328
     id: 11000016
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: D-R00016
   D-R00017:
@@ -606,7 +751,10 @@ locations:
     - D-C00164
     - D-C00165
     id: 11000017
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: D-R00017
   D-R00018:
@@ -619,7 +767,10 @@ locations:
     - D-C00171
     - D-C00172
     id: 11000018
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: D-R00018
   D-R00019:
@@ -639,7 +790,10 @@ locations:
     - D-C00185
     - D-C00186
     id: 11000019
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: D-R00019
   D-R00020:
@@ -653,7 +807,10 @@ locations:
     - D-C00193
     - D-C00194
     id: 11000020
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: D-R00020
   D-R00021:
@@ -677,7 +834,10 @@ locations:
     - D-C00211
     - D-C00212
     id: 11000021
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: D-R00021
   D-R00022:
@@ -697,7 +857,10 @@ locations:
     - D-C00225
     - D-C00226
     id: 11000022
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: D-R00022
   D-R00023:
@@ -708,7 +871,10 @@ locations:
     - D-C00230
     - D-C00231
     id: 11000023
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: D-R00023
   Deklein:
@@ -739,7 +905,10 @@ locations:
     - VW7-YN
     - Z-D6K5
     id: 10000035
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Deklein
   Delve:
@@ -784,7 +953,10 @@ locations:
     - XPJ1-6
     - YX-LYK
     id: 10000060
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Delve
   Derelik:
@@ -830,7 +1002,10 @@ locations:
     - Sazdih
     - Subi
     id: 10000001
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Derelik
   Detorid:
@@ -875,7 +1050,10 @@ locations:
     - T875-C
     - ZPI-2E
     id: 10000005
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Detorid
   Devoid:
@@ -915,7 +1093,10 @@ locations:
     - Ryra
     - Semou
     id: 10000036
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Devoid
   Domain:
@@ -995,7 +1176,10 @@ locations:
     - Yestadan
     - Zemont
     id: 10000043
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Domain
   E-R00024:
@@ -1013,7 +1197,10 @@ locations:
     - E-C00242
     - E-C00329
     id: 11000024
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: E-R00024
   E-R00025:
@@ -1032,7 +1219,10 @@ locations:
     - E-C00254
     - E-C00255
     id: 11000025
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: E-R00025
   E-R00026:
@@ -1047,7 +1237,10 @@ locations:
     - E-C00263
     - E-C00264
     id: 11000026
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: E-R00026
   E-R00027:
@@ -1062,7 +1255,10 @@ locations:
     - E-C00272
     - E-C00273
     id: 11000027
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: E-R00027
   E-R00028:
@@ -1080,7 +1276,10 @@ locations:
     - E-C00284
     - E-C00285
     id: 11000028
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: E-R00028
   E-R00029:
@@ -1097,7 +1296,10 @@ locations:
     - E-C00295
     - E-C00296
     id: 11000029
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: E-R00029
   Esoteria:
@@ -1132,7 +1334,10 @@ locations:
     - Q-2BI6
     - R2-BT6
     id: 10000039
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Esoteria
   Essence:
@@ -1191,7 +1396,10 @@ locations:
     - Thoulde
     - Vieres
     id: 10000064
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Essence
   Etherium Reach:
@@ -1246,7 +1454,10 @@ locations:
     - RDD-E6
     - SLYP-5
     id: 10000027
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Etherium Reach
   Everyshore:
@@ -1292,7 +1503,10 @@ locations:
     - Osnins
     - Ysiette
     id: 10000037
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Everyshore
   F-R00030:
@@ -1313,7 +1527,10 @@ locations:
     - F-C00310
     - F-C00330
     id: 11000030
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: F-R00030
   Fade:
@@ -1341,7 +1558,10 @@ locations:
     - VNX-P0
     - XFLN-F
     id: 10000046
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Fade
   Feythabolis:
@@ -1378,7 +1598,10 @@ locations:
     - RHG-4O
     - YZKE-Q
     id: 10000056
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Feythabolis
   Fountain:
@@ -1416,14 +1639,20 @@ locations:
     - Unicorn
     - Wyvern
     id: 10000058
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Fountain
   G-R00031:
     constellations:
     - G-C00311
     id: 11000031
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: G-R00031
   Geminate:
@@ -1464,7 +1693,10 @@ locations:
     - V1G-63
     - ZYL-FT
     id: 10000029
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Geminate
   Genesis:
@@ -1541,7 +1773,10 @@ locations:
     - Sanctum
     - Ubar
     id: 10000067
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Genesis
   Great Wildlands:
@@ -1591,7 +1826,10 @@ locations:
     - V-LQBF
     - W-3Y6D
     id: 10000011
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Great Wildlands
   H-R00032:
@@ -1600,7 +1838,10 @@ locations:
     - H-C00332
     - H-C00333
     id: 11000032
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: H-R00032
   Heimatar:
@@ -1660,7 +1901,10 @@ locations:
     - Urtfer
     - Wiedadur
     id: 10000030
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Heimatar
   Immensea:
@@ -1696,7 +1940,10 @@ locations:
     - Y46-EN
     - YENX-U
     id: 10000025
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Immensea
   Impass:
@@ -1721,7 +1968,10 @@ locations:
     - QZJ-FL
     - ZYR-NF
     id: 10000031
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Impass
   Insmother:
@@ -1783,7 +2033,10 @@ locations:
     - V2S-RH
     - Z-ONUI
     id: 10000009
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Insmother
   J7HZ-F:
@@ -1801,14 +2054,20 @@ locations:
     - OG-DJD
     - WSC-AL
     id: 10000017
+    isAbyssal: false
+    isJovian: true
     isKS: false
+    isPochven: false
     isWormhole: false
     name: J7HZ-F
   K-R00033:
     constellations:
     - K-C00334
     id: 11000033
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: false
     isWormhole: true
     name: K-R00033
   Kador:
@@ -1866,7 +2125,10 @@ locations:
     - Qermi
     - Trigentia
     id: 10000052
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Kador
   Khanid:
@@ -1909,7 +2171,10 @@ locations:
     - Sib
     - Youledian
     id: 10000049
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Khanid
   Kor-Azor:
@@ -1954,7 +2219,10 @@ locations:
     - Ravin
     - Tendrara
     id: 10000065
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Kor-Azor
   Lonetrek:
@@ -2012,7 +2280,10 @@ locations:
     - Sela
     - Umamon
     id: 10000016
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Lonetrek
   Malpais:
@@ -2063,7 +2334,10 @@ locations:
     - WS5L-X
     - XI0-X2
     id: 10000013
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Malpais
   Metropolis:
@@ -2139,7 +2413,10 @@ locations:
     - Stadakorn
     - Tiat
     id: 10000042
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Metropolis
   Molden Heath:
@@ -2168,7 +2445,10 @@ locations:
     - Fittakan
     - Tartatven
     id: 10000028
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Molden Heath
   Oasa:
@@ -2218,7 +2498,10 @@ locations:
     - T-4ACL
     - WE-WLQ
     id: 10000040
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Oasa
   Omist:
@@ -2241,7 +2524,10 @@ locations:
     - U7-GIV
     - Y-LRWI
     id: 10000062
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Omist
   Outer Passage:
@@ -2282,7 +2568,10 @@ locations:
     - U-IOR1
     - X5O9-E
     id: 10000021
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Outer Passage
   Outer Ring:
@@ -2315,7 +2604,10 @@ locations:
     - Velvet
     - Wield
     id: 10000057
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Outer Ring
   Paragon Soul:
@@ -2339,7 +2631,10 @@ locations:
     - IZ-FBT
     - TCC-ZV
     id: 10000059
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Paragon Soul
   Period Basis:
@@ -2364,7 +2659,10 @@ locations:
     - OY3-DM
     - XOV7-5
     id: 10000063
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Period Basis
   Perrigen Falls:
@@ -2422,7 +2720,10 @@ locations:
     - WXB-RY
     - X7-FTR
     id: 10000066
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Perrigen Falls
   Placid:
@@ -2472,7 +2773,10 @@ locations:
     - Unour
     - Viriette
     id: 10000048
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Placid
   Pochven:
@@ -2481,7 +2785,10 @@ locations:
     - Krai Svarog
     - Krai Veles
     id: 10000070
+    isAbyssal: false
+    isJovian: false
     isKS: false
+    isPochven: true
     isWormhole: false
     name: Pochven
   Providence:
@@ -2524,7 +2831,10 @@ locations:
     - XV7L-S
     - ZQ2-CF
     id: 10000047
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Providence
   Pure Blind:
@@ -2566,7 +2876,10 @@ locations:
     - WMP-OF
     - YS-GOP
     id: 10000023
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Pure Blind
   Querious:
@@ -2607,7 +2920,10 @@ locations:
     - XLL-Z7
     - YB7B-8
     id: 10000050
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Querious
   Scalding Pass:
@@ -2663,7 +2979,10 @@ locations:
     - Y-M7ML
     - YCM-AI
     id: 10000008
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Scalding Pass
   Sinq Laison:
@@ -2738,7 +3057,10 @@ locations:
     - Stion
     - Wyllequet
     id: 10000032
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Sinq Laison
   Solitude:
@@ -2764,7 +3086,10 @@ locations:
     - Mobrault
     - Orvanne
     id: 10000044
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Solitude
   Stain:
@@ -2803,7 +3128,10 @@ locations:
     - Y-2D6Q
     - Z01V-Z
     id: 10000022
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Stain
   Syndicate:
@@ -2852,7 +3180,10 @@ locations:
     - YFN-UN
     - Z-6NQ6
     id: 10000041
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Syndicate
   Tash-Murkon:
@@ -2908,7 +3239,10 @@ locations:
     - Sukanan
     - Tsemshatel
     id: 10000020
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Tash-Murkon
   Tenal:
@@ -2943,7 +3277,10 @@ locations:
     - TJ10-O
     - X-FHU3
     id: 10000045
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Tenal
   Tenerifis:
@@ -2986,7 +3323,10 @@ locations:
     - W-3E44
     - ZQ7-QS
     id: 10000061
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Tenerifis
   The Bleak Lands:
@@ -3024,7 +3364,10 @@ locations:
     - Tandoiras
     - Vaarma
     id: 10000038
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: The Bleak Lands
   The Citadel:
@@ -3087,7 +3430,10 @@ locations:
     - Tasen
     - Uusasai
     id: 10000033
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: The Citadel
   The Forge:
@@ -3150,7 +3496,10 @@ locations:
     - Otsabaira
     - Ruomo
     id: 10000002
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: The Forge
   The Kalevala Expanse:
@@ -3191,7 +3540,10 @@ locations:
     - U-HSM3
     - XPG-HE
     id: 10000034
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: The Kalevala Expanse
   The Spire:
@@ -3243,7 +3595,10 @@ locations:
     - P-FL48
     - Z6T6-B
     id: 10000018
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: The Spire
   Tribute:
@@ -3282,7 +3637,10 @@ locations:
     - W-XBGF
     - X-VN63
     id: 10000010
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Tribute
   UUA-F4:
@@ -3304,9 +3662,82 @@ locations:
     - VL-OGL
     - VW-JMB
     id: 10000004
+    isAbyssal: false
+    isJovian: true
     isKS: false
+    isPochven: false
     isWormhole: false
     name: UUA-F4
+  VR-01:
+    constellations:
+    - VC-001
+    - VC-002
+    - VC-003
+    - VC-004
+    - VC-005
+    id: 14000001
+    isAbyssal: false
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: VR-01
+  VR-02:
+    constellations:
+    - VC-006
+    - VC-007
+    - VC-008
+    - VC-009
+    - VC-010
+    id: 14000002
+    isAbyssal: false
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: VR-02
+  VR-03:
+    constellations:
+    - VC-011
+    - VC-012
+    - VC-013
+    - VC-014
+    - VC-015
+    id: 14000003
+    isAbyssal: false
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: VR-03
+  VR-04:
+    constellations:
+    - VC-016
+    - VC-017
+    - VC-018
+    - VC-019
+    - VC-020
+    id: 14000004
+    isAbyssal: false
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: VR-04
+  VR-05:
+    constellations:
+    - VC-021
+    - VC-022
+    - VC-023
+    - VC-024
+    - VC-025
+    id: 14000005
+    isAbyssal: false
+    isJovian: false
+    isKS: false
+    isPochven: false
+    isWormhole: false
+    name: VR-05
   Vale of the Silent:
     adjacentConstellations:
     - 52-JKU
@@ -3351,7 +3782,10 @@ locations:
     - YUT3-U
     - Z-DO53
     id: 10000003
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Vale of the Silent
   Venal:
@@ -3399,7 +3833,10 @@ locations:
     - Y8-HHZ
     - Y8HB-U
     id: 10000015
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Venal
   Verge Vendor:
@@ -3445,7 +3882,10 @@ locations:
     - Obray
     - Woenckee
     id: 10000068
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Verge Vendor
   Wicked Creek:
@@ -3491,6 +3931,9 @@ locations:
     - R-M719
     - RF9-ZU
     id: 10000006
+    isAbyssal: false
+    isJovian: false
     isKS: true
+    isPochven: false
     isWormhole: false
     name: Wicked Creek
