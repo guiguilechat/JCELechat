@@ -2,72 +2,24 @@ package fr.guiguilechat.jcelechat.libs.mer.killdump;
 
 import java.io.StringWriter;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
 import java.util.function.Predicate;
+import java.util.function.ToDoubleBiFunction;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import com.opencsv.CSVWriter;
 import com.opencsv.ICSVWriter;
 
 import fr.guiguilechat.jcelechat.libs.mer.killdump.KDParser.KDEntry;
-import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.libs.mer.killdump.aaxis.Count;
+import fr.guiguilechat.jcelechat.libs.mer.killdump.aaxis.Value;
 
 /**
  * generates a report from the parsed killdumps
  */
 public class KDReport {
-
-	public static class GroupFilter implements Predicate<KDEntry> {
-
-		protected static Map<Integer, String> groupToName = makeGroupToName();
-
-		protected static Map<Integer, String> makeGroupToName() {
-			Stream<IMetaGroup<?>> imgs = Stream.of(IMetaCategory.INSTANCES).flatMap(imc -> imc.groups().stream());
-			return imgs.collect(Collectors.toMap(img -> img.getGroupId(), img -> img.getName()));
-		}
-
-		protected final int groupId;
-
-		public GroupFilter(int groupId) {
-			this.groupId = groupId;
-		}
-
-		@Override
-		public boolean test(KDEntry t) {
-			return t.getType() != null && t.getType().getGroupId() == groupId;
-		}
-
-		@Override
-		public String toString() {
-			return groupToName.getOrDefault(groupId, "g_" + groupId);
-		}
-
-	}
-
-	public static class TypeFilter implements Predicate<KDEntry> {
-
-		protected final int typeId;
-
-		public TypeFilter(int typeId) {
-			this.typeId = typeId;
-		}
-
-		@Override
-		public boolean test(KDEntry t) {
-			return t.getType() != null && t.getType().id == typeId;
-		}
-
-		@Override
-		public String toString() {
-			return TypeIndex.getType(typeId).name;
-		}
-
-	}
 
 	/**
 	 * parses the killdumps, filter them, aggregates per month, then apply
@@ -80,8 +32,10 @@ public class KDReport {
 	 * @return the csv of the report
 	 */
 	@SuppressWarnings("unchecked")
-	public static String generate(Predicate<KDEntry> filter, Predicate<KDEntry>... predicates) {
+	public static String generate(Predicate<KDEntry> filter,
+			List<ToDoubleBiFunction<Collection<KDEntry>, Collection<KDEntry>>> aaxis, Predicate<KDEntry>... predicates) {
 		StringWriter sw = new StringWriter();
+		@SuppressWarnings("resource")
 		CSVWriter writer = new CSVWriter(sw, '\t', ICSVWriter.DEFAULT_QUOTE_CHARACTER, ICSVWriter.DEFAULT_ESCAPE_CHARACTER,
 				ICSVWriter.DEFAULT_LINE_END);
 
@@ -90,11 +44,9 @@ public class KDReport {
 		header.add("total");
 		if(predicates!=null) {
 			for(Predicate<KDEntry> pr : predicates) {
-				header.add(pr.toString()+"_qty");
-				header.add(pr.toString() + "_totPrice");
-				header.add(pr.toString() + "_avgPrice");
-				header.add(pr.toString() + "_minPrice");
-				header.add(pr.toString() + "_maxPrice");
+				for (ToDoubleBiFunction<Collection<KDEntry>, Collection<KDEntry>> axis : aaxis) {
+					header.add(pr.toString() + "_" + axis.toString());
+				}
 			}
 		}
 		writer.writeNext(header.toArray(String[]::new), false);
@@ -108,15 +60,14 @@ public class KDReport {
 			if (predicates != null) {
 				for (Predicate<KDEntry> pr : predicates) {
 					List<KDEntry> filtered = values.stream().filter(pr).collect(Collectors.toList());
-					row.add("" + filtered.size());
-					row.add(String.format("%,.2f",
-							filtered.stream().mapToDouble(kde -> kde.iskLost()).sum() / 1000000));
-					row.add(String.format("%,.2f",
-							filtered.stream().mapToDouble(kde -> kde.iskLost()).average().orElse(0.0) / 1000000));
-					row.add(
-							String.format("%,.2f", filtered.stream().mapToDouble(kde -> kde.iskLost()).min().orElse(0.0) / 1000000));
-					row.add(
-							String.format("%,.2f", filtered.stream().mapToDouble(kde -> kde.iskLost()).max().orElse(0.0) / 1000000));
+					for (ToDoubleBiFunction<Collection<KDEntry>, Collection<KDEntry>> axis : aaxis) {
+						double val = axis.applyAsDouble(filtered, values);
+						if (val == (int) val) {
+							row.add("" + (int) val);
+						} else {
+							row.add(String.format("%,.2f", val));
+						}
+					}
 				}
 			}
 			writer.writeNext(row.toArray(String[]::new), false);
@@ -125,11 +76,8 @@ public class KDReport {
 	}
 
 	@SuppressWarnings("unchecked")
-	public static void main(String[] args) {
-		System.out.println(generate(
-				kde -> kde.getSolarSystem() != null && kde.getSolarSystem().isHS() && kde.getType() != null,
-				new TypeFilter(32880), new GroupFilter(463), new GroupFilter(543), new TypeFilter(28606), new GroupFilter(513),
-				new GroupFilter(902), new GroupFilter(31)));
+	public static String generate(Predicate<KDEntry> filter, Predicate<KDEntry>... predicates) {
+		return generate(filter, List.of(Count.AGG, Count.PCT, Value.SUM, Value.PCT), predicates);
 	}
 
 }

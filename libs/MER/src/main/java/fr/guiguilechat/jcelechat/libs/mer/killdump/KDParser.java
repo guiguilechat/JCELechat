@@ -180,7 +180,7 @@ public class KDParser {
 
 	private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM");
 	public Map<String, List<KDEntry>> byMonth(Predicate<KDEntry> filter){
-		Map<String, List<KDEntry>> grouped = stream().filter(filter)
+		Map<String, List<KDEntry>> grouped = (filter == null ? stream() : stream().filter(filter))
 				.collect(Collectors.groupingBy(e -> e.getDate().format(dtf)));
 		return grouped;
 	}

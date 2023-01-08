@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
 import java.io.File;
 import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
@@ -9,7 +11,11 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region;
 
 public class Universe {
 
+	public final LinkedHashMap<String, Region> abyssal = new LinkedHashMap<>();
+
 	public final LinkedHashMap<String, Region> eve = new LinkedHashMap<>();
+
+	public final LinkedHashMap<String, Region> starter = new LinkedHashMap<>();
 
 	public final LinkedHashMap<String, Region> wormhole = new LinkedHashMap<>();
 
@@ -19,19 +25,21 @@ public class Universe {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
 			cache = new Universe();
-			Stream.of(new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/universe/eve/").listFiles()).parallel().forEach(f -> {
-				Region reg = Region.load(f);
-				synchronized (cache) {
-					cache.eve.put(f.getName(), reg);
-				}
-			});
-			Stream.of(new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/universe/wormhole/").listFiles()).parallel()
-					.forEach(f -> {
-						Region reg = Region.load(f);
-						synchronized (cache) {
-							cache.wormhole.put(f.getName(), reg);
-						}
-					});
+			for(Entry<String, LinkedHashMap<String, Region>> e : Map.of(
+					"sde/fsd/universe/abyssal/",cache.abyssal,
+					"sde/fsd/universe/eve/",cache.eve,
+					"sde/fsd/universe/void/",cache.starter,
+					"sde/fsd/universe/wormhole/",cache.wormhole
+					).entrySet()) {
+				String fileName = e.getKey();
+				LinkedHashMap<String, Region> regions = e.getValue();
+				Stream.of(new File(SDECache.INSTANCE.cacheDir(), fileName).listFiles()).parallel().forEach(f -> {
+					Region reg = Region.load(f);
+					synchronized (cache) {
+						regions.put(f.getName(), reg);
+					}
+				});
+			}
 		}
 		return cache;
 	}

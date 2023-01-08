@@ -6,10 +6,14 @@ public class ALocation {
 
 	public int id;
 
-	public boolean isWormhole = false;
 
+	public boolean isAbyssal = false;
+	public boolean isJovian = false;
 	/** set to true when this system is reachable from Jita via gates. */
 	public boolean isKS = false;
+
+	public boolean isPochven = false;
+	public boolean isWormhole = false;
 
 	public ArrayList<String> adjacentSystems = new ArrayList<>();
 

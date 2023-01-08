@@ -138,7 +138,7 @@ public class SolarSystem extends ALocation {
 	}
 
 	public boolean isHS() {
-		return truesec > 0.45;
+		return isKS && truesec > 0.45;
 	}
 
 	public boolean isLS() {

@@ -42,7 +42,7 @@ public class LocationsTranslater {
 	public static final Logger logger = LoggerFactory.getLogger(LocationsTranslater.class);
 
 	public static enum REGION_TYPE {
-		ABYSSAL, KS, JOVIAN, PENALTY, POCHVEN, WORMHOLE,
+		ABYSSAL, KS, JOVIAN, PENALTY, POCHVEN, STARTER, WORMHOLE,
 	}
 
 	/**
@@ -96,8 +96,12 @@ public class LocationsTranslater {
 			LinkedHashMap<String, Station> stations) {
 		Universe uni = Universe.load();
 
+		uni.abyssal.entrySet().stream().forEach(
+				e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, REGION_TYPE.ABYSSAL));
 		uni.eve.entrySet().stream()
 		.forEach(e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, REGION_TYPE.KS));
+		uni.starter.entrySet().stream().forEach(
+				e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, REGION_TYPE.STARTER));
 		uni.wormhole.entrySet().stream().forEach(
 				e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, REGION_TYPE.WORMHOLE));
 
@@ -196,10 +200,13 @@ public class LocationsTranslater {
 					rtype);
 			r.constellations.add(constel.name);
 		}
+		r.isAbyssal = rtype == REGION_TYPE.ABYSSAL;
+		r.isJovian = rtype == REGION_TYPE.JOVIAN;
 		r.isKS = rtype == REGION_TYPE.KS;
+		r.isPochven = rtype == REGION_TYPE.POCHVEN;
+		r.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 		r.name = regionName;
 		r.id = region.regionID;
-		r.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 	}
 
 	public static Constellation addConstellation(String constelName,
@@ -221,8 +228,11 @@ public class LocationsTranslater {
 		c.name = constelName;
 		c.id = constellation.constellationID;
 		c.region = regionName;
-		c.isWormhole = rtype == REGION_TYPE.WORMHOLE;
+		c.isAbyssal = rtype == REGION_TYPE.ABYSSAL;
+		c.isJovian = rtype == REGION_TYPE.JOVIAN;
 		c.isKS = rtype == REGION_TYPE.KS;
+		c.isPochven = rtype == REGION_TYPE.POCHVEN;
+		c.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 		return c;
 	}
 
@@ -238,12 +248,15 @@ public class LocationsTranslater {
 		s.constellation = ConstellationName;
 		s.region = regionName;
 		s.truesec = system.security;
+		s.isAbyssal = rtype == REGION_TYPE.ABYSSAL;
+		s.isJovian = rtype == REGION_TYPE.JOVIAN;
+		s.isKS = rtype == REGION_TYPE.KS;
+		s.isPochven = rtype == REGION_TYPE.POCHVEN;
 		s.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 		s.isBorder = system.border;
 		s.isCorridor = system.corridor;
 		s.isFringe = system.fringe;
 		s.isHub = system.hub;
-		s.isKS = rtype == REGION_TYPE.KS;
 		s.anchorStructures = system.disallowedAnchorCategories == null || system.disallowedAnchorCategories.isEmpty()
 				|| !system.disallowedAnchorCategories.contains(65);
 
