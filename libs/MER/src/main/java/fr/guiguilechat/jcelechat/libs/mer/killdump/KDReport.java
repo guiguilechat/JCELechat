@@ -65,7 +65,7 @@ public class KDReport {
 						if (val == (int) val) {
 							row.add("" + (int) val);
 						} else {
-							row.add(String.format("%,.2f", val));
+							row.add(String.format("%.2f", val));
 						}
 					}
 				}

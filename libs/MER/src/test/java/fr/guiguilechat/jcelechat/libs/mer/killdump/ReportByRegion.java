@@ -11,7 +11,7 @@ public class ReportByRegion {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		System.out
-				.println(KDReport.generate(null, List.of(Count.AGG, Count.PCT, Value.SUM, Value.PCT), SystemFilters.HS,
-						SystemFilters.LS, SystemFilters.NS, SystemFilters.WS));
+		.println(KDReport.generate(null, List.of(Count.AGG, Count.PCT, Value.SUM, Value.PCT), SystemFilters.HS,
+				SystemFilters.LS, SystemFilters.NS, SystemFilters.WS, SystemFilters.AS));
 	}
 }
