@@ -1,9 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.mer.killdump;
 
-import java.io.StringWriter;
 import java.util.List;
-
-import org.jfree.data.time.TimeTableXYDataset;
 
 import fr.guiguilechat.jcelechat.libs.mer.killdump.aaxis.Count;
 import fr.guiguilechat.jcelechat.libs.mer.killdump.filters.GroupFilter;
@@ -14,15 +11,9 @@ public class ReportValueIndusHS {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
-		StringWriter sw = new StringWriter();
-		TimeTableXYDataset dataset = new TimeTableXYDataset();
-		KDReport.generate(sw, dataset, SystemFilters.HS_TYPED,
-				List.of(Count.AGG),
-				TypeFilter.VENTURE, GroupFilter.MINING_BARGE, GroupFilter.EXHUMER, TypeFilter.ORCA, GroupFilter.FREIGHTER,
+		KDReport.makeReport("countIndusHS", SystemFilters.HS_TYPED, List.of(Count.AGG), TypeFilter.VENTURE,
+				GroupFilter.MINING_BARGE, GroupFilter.EXHUMER, TypeFilter.ORCA, GroupFilter.FREIGHTER,
 				GroupFilter.JUMP_FREIGHTER);
-		KDReport.writeCSV("reports/countIndusHS.csv", sw);
-		KDReport.writeAreaGraph("reports/countIndusHSStacked.png", dataset);
-		KDReport.writeLineGraph("reports/countIndusHSLine.png", dataset);
 	}
 
 }

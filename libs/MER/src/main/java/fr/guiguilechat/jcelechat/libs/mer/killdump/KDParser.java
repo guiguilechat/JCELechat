@@ -5,6 +5,8 @@ import java.io.FileReader;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -136,6 +138,8 @@ public class KDParser {
 
 	}
 
+	public static final KDParser INSTANCE = new KDParser();
+
 	public List<KDEntry> parse(File MERRooot) {
 		return parseDump(findKD(MERRooot));
 	}
@@ -174,9 +178,19 @@ public class KDParser {
 		return ret;
 	}
 
+	private Collection<KDEntry> loaded = null;
+
 	public Stream<KDEntry> stream() {
-		File[] files = APP.cacheFile().listFiles();
-		return files == null ? Stream.empty() : Stream.of(files).parallel().map(this::parse).flatMap(List::stream);
+		if (loaded == null) {
+			synchronized (parser) {
+				if (loaded == null) {
+					File[] files = APP.cacheFile().listFiles();
+					loaded = files == null ? Collections.emptyList()
+							: Stream.of(files).parallel().map(this::parse).flatMap(List::stream).collect(Collectors.toList());
+				}
+			}
+		}
+		return loaded.stream();
 	}
 
 	private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM");

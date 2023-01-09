@@ -1,10 +1,18 @@
 package fr.guiguilechat.jcelechat.libs.mer.killdump.filters;
 
+import java.time.LocalDateTime;
 import java.util.function.Predicate;
 
 import fr.guiguilechat.jcelechat.libs.mer.killdump.KDParser.KDEntry;
 
 public class SystemFilters {
+
+	public static boolean typed(KDEntry kde) {
+		return kde.getType() != null;
+	}
+
+	public static final LocalDateTime POCHVEN_CREATTION = LocalDateTime.of(2020, 10, 13, 12, 00);
+
 
 	public static final Predicate<KDEntry> AS = new Predicate<>() {
 
@@ -23,7 +31,7 @@ public class SystemFilters {
 
 		@Override
 		public boolean test(KDEntry kde) {
-			return kde.getSolarSystem() != null && kde.getSolarSystem().isAbyssal && kde.getType() != null;
+			return AS.test(kde) && typed(kde);
 		}
 
 		@Override
@@ -49,8 +57,7 @@ public class SystemFilters {
 
 		@Override
 		public boolean test(KDEntry kde) {
-			return kde.getSolarSystem() != null && kde.getSolarSystem().isKS && kde.getSolarSystem().isHS()
-					&& kde.getType() != null;
+			return HS.test(kde) && typed(kde);
 		}
 
 		@Override
@@ -76,7 +83,7 @@ public class SystemFilters {
 
 		@Override
 		public boolean test(KDEntry kde) {
-			return kde.getSolarSystem() != null && kde.getSolarSystem().isJovian && kde.getType() != null;
+			return JS.test(kde) && typed(kde);
 		}
 
 		@Override
@@ -101,8 +108,7 @@ public class SystemFilters {
 
 		@Override
 		public boolean test(KDEntry kde) {
-			return kde.getSolarSystem() != null && kde.getSolarSystem().isKS && kde.getSolarSystem().isLS()
-					&& kde.getType() != null;
+			return LS.test(kde) && typed(kde);
 		}
 
 		@Override
@@ -128,8 +134,7 @@ public class SystemFilters {
 
 		@Override
 		public boolean test(KDEntry kde) {
-			return kde.getSolarSystem() != null && kde.getSolarSystem().isKS && kde.getSolarSystem().isNS()
-					&& kde.getType() != null;
+			return NS.test(kde) && typed(kde);
 		}
 
 		@Override
@@ -142,7 +147,7 @@ public class SystemFilters {
 
 		@Override
 		public boolean test(KDEntry kde) {
-			return kde.getSolarSystem() != null && kde.getSolarSystem().isPochven;
+			return kde.getSolarSystem() != null && kde.getSolarSystem().isPochven && kde.getDate().isAfter(POCHVEN_CREATTION);
 		}
 
 		@Override
@@ -155,7 +160,7 @@ public class SystemFilters {
 
 		@Override
 		public boolean test(KDEntry kde) {
-			return kde.getSolarSystem() != null && kde.getSolarSystem().isPochven && kde.getType() != null;
+			return PS.test(kde) && typed(kde);
 		}
 
 		@Override
@@ -181,7 +186,7 @@ public class SystemFilters {
 
 		@Override
 		public boolean test(KDEntry kde) {
-			return kde.getSolarSystem() != null && kde.getSolarSystem().isWormhole && kde.getType() != null;
+			return WS.test(kde) && typed(kde);
 		}
 
 		@Override

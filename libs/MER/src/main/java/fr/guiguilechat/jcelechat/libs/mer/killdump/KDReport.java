@@ -164,4 +164,15 @@ public class KDReport {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
+	public static void makeReport(String reportName, Predicate<KDEntry> filter,
+			List<ToDoubleBiFunction<Collection<KDEntry>, Collection<KDEntry>>> eval, Predicate<KDEntry>... columns) {
+		StringWriter sw = new StringWriter();
+		TimeTableXYDataset dataset = new TimeTableXYDataset();
+		generate(sw, dataset, filter, eval, columns);
+		writeCSV("reports/" + reportName + ".csv", sw);
+		writeAreaGraph("reports/" + reportName + "Stacked.png", dataset);
+		writeLineGraph("reports/" + reportName + "Line.png", dataset);
+	}
+
 }
