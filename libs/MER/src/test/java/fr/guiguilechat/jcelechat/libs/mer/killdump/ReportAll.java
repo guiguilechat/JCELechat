@@ -7,6 +7,7 @@ public class ReportAll {
 		ReportCountIndusHS.main(args);
 		ReportValueByRegion.main(args);
 		ReportValueIndusHS.main(args);
+		ReportNPCPct.main(args);
 	}
 
 }

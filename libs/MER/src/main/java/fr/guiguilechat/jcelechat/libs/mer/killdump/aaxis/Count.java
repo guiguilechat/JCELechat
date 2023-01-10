@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.mer.killdump.aaxis;
 import java.util.Collection;
 import java.util.function.ToDoubleBiFunction;
 
-import fr.guiguilechat.jcelechat.libs.mer.killdump.KDParser.KDEntry;
+import fr.guiguilechat.jcelechat.libs.mer.killdump.KDEntry;
 
 public class Count {
 

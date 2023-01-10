@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.mer.killdump.filters;
 
 import java.util.function.Predicate;
 
-import fr.guiguilechat.jcelechat.libs.mer.killdump.KDParser.KDEntry;
+import fr.guiguilechat.jcelechat.libs.mer.killdump.KDEntry;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 
 public class TypeFilter implements Predicate<KDEntry> {

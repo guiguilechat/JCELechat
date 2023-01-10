@@ -1,9 +1,11 @@
 package fr.guiguilechat.jcelechat.libs.mer.killdump.filters;
 
 import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
+import java.time.ZoneOffset;
 import java.util.function.Predicate;
 
-import fr.guiguilechat.jcelechat.libs.mer.killdump.KDParser.KDEntry;
+import fr.guiguilechat.jcelechat.libs.mer.killdump.KDEntry;
 
 public class SystemFilters {
 
@@ -11,7 +13,8 @@ public class SystemFilters {
 		return kde.getType() != null;
 	}
 
-	public static final LocalDateTime POCHVEN_CREATTION = LocalDateTime.of(2020, 10, 13, 12, 00);
+	public static final OffsetDateTime POCHVEN_CREATTION = LocalDateTime.of(2020, 10, 13, 12, 00)
+			.atOffset(ZoneOffset.UTC);
 
 
 	public static final Predicate<KDEntry> AS = new Predicate<>() {

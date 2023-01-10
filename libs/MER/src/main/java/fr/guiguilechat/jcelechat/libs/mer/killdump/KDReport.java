@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.mer.killdump;
 
+import java.awt.BasicStroke;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -16,14 +17,15 @@ import java.util.function.ToDoubleBiFunction;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.time.DateUtils;
-import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.axis.ValueAxis;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.StackedXYAreaRenderer2;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.time.SimpleTimePeriod;
 import org.jfree.data.time.TimePeriod;
 import org.jfree.data.time.TimeTableXYDataset;
@@ -31,7 +33,6 @@ import org.jfree.data.time.TimeTableXYDataset;
 import com.opencsv.CSVWriter;
 import com.opencsv.ICSVWriter;
 
-import fr.guiguilechat.jcelechat.libs.mer.killdump.KDParser.KDEntry;
 import fr.guiguilechat.jcelechat.libs.mer.killdump.aaxis.Count;
 import fr.guiguilechat.jcelechat.libs.mer.killdump.aaxis.Value;
 
@@ -120,7 +121,9 @@ public class KDReport {
 	}
 
 	public static void writeCSV(String fileName, StringWriter csv) {
-		try (FileWriter writer = new FileWriter(fileName)) {
+		File out = new File(fileName);
+		out.getParentFile().mkdirs();
+		try (FileWriter writer = new FileWriter(out)) {
 			writer.write(csv.toString());
 		} catch (IOException e) {
 			throw new UnsupportedOperationException(e);
@@ -149,16 +152,37 @@ public class KDReport {
 
 		JFreeChart chart = new JFreeChart(null, JFreeChart.DEFAULT_TITLE_FONT, plot, true);
 		try {
-			ChartUtils.saveChartAsPNG(new File(fileName), chart, 1600, 900);
+			File out = new File(fileName);
+			out.getParentFile().mkdirs();
+			ChartUtils.saveChartAsPNG(out, chart, 1600, 900);
 		} catch (IOException e) {
 			throw new UnsupportedOperationException(e);
 		}
 	}
 
 	public static void writeLineGraph(String fileName, TimeTableXYDataset dataset) {
-		JFreeChart chart = ChartFactory.createTimeSeriesChart(null, null, null, dataset);
+		ValueAxis timeAxis = new DateAxis();
+		timeAxis.setLowerMargin(0.0); // reduce the default margins
+		timeAxis.setUpperMargin(0.0);
+
+		NumberAxis yAxis = new NumberAxis();
+		yAxis.setAutoRangeIncludesZero(true);
+		yAxis.setAutoRange(true);
+		yAxis.setLowerMargin(0.0);
+		yAxis.setUpperMargin(0.0);
+
+		XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer(true, false);
+		renderer.setAutoPopulateSeriesStroke(false);
+		renderer.setDefaultStroke(new BasicStroke(3.0f));
+
+		XYPlot plot = new XYPlot(dataset, timeAxis, yAxis, null);
+		plot.setRenderer(renderer);
+
+		JFreeChart chart = new JFreeChart(null, JFreeChart.DEFAULT_TITLE_FONT, plot, true);
 		try {
-			ChartUtils.saveChartAsPNG(new File(fileName), chart, 1600, 900);
+			File out = new File(fileName);
+			out.getParentFile().mkdirs();
+			ChartUtils.saveChartAsPNG(out, chart, 1600, 900);
 		} catch (IOException e) {
 			throw new UnsupportedOperationException(e);
 		}
@@ -174,5 +198,6 @@ public class KDReport {
 		writeAreaGraph("reports/" + reportName + "Stacked.png", dataset);
 		writeLineGraph("reports/" + reportName + "Line.png", dataset);
 	}
+
 
 }
