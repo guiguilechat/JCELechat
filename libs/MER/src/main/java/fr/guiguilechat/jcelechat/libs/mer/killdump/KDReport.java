@@ -197,6 +197,7 @@ public class KDReport {
 		writeCSV("reports/" + reportName + ".csv", sw);
 		writeAreaGraph("reports/" + reportName + "Stacked.png", dataset);
 		writeLineGraph("reports/" + reportName + "Line.png", dataset);
+		System.out.println(reportName);
 	}
 
 

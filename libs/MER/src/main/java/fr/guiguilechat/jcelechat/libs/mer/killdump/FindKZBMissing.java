@@ -10,6 +10,8 @@ import java.util.Map.Entry;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import fr.guiguilechat.jcelechat.libs.mer.killdump.filters.NPCFilter;
+import fr.guiguilechat.jcelechat.libs.mer.killdump.filters.SystemFilters;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 
 public class FindKZBMissing {
@@ -25,8 +27,8 @@ public class FindKZBMissing {
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
 		Map<Integer, Map<Integer, Map<Integer, List<KDEntry>>>> grouped = KDParser.INSTANCE
 				.groupMonthBySysTypeDay(
-						kde -> kde.getSolarSystem() != null && kde.getSolarSystem().isHS()
-						&& kde.getSolarSystem().constellation().region.equals("Domain"),
+						SystemFilters.HS.and(NPCFilter.NONPC)
+								.and(kde -> kde.getSolarSystem().constellation().region.equals("Domain")),
 						year, month);
 		Map<Integer, Diff> diffByType = new HashMap<>();
 		for (Entry<Integer, Map<Integer, Map<Integer, List<KDEntry>>>> e : grouped.entrySet()) {
@@ -42,8 +44,8 @@ public class FindKZBMissing {
 				if (nbkills != zkills.length) {
 					int excess = (int) (zkills.length - nbkills);
 					System.out
-							.println("" + year + "-" + month + "/" + ss.name + "/" + (etype == null ? "t_" + type_id : etype.enName())
-									+ "\tmer=" + nbkills + "\tzk=" + zkills.length + "\turl="
+					.println("" + year + "-" + month + "/" + ss.name + "/" + (etype == null ? "t_" + type_id : etype.enName())
+							+ "\tmer=" + nbkills + "\tzk=" + zkills.length + "\turl="
 							+ makeZKURL(year, month, sys, type_id));
 					Diff diff = diffByType.computeIfAbsent(type_id, i -> new Diff());
 					if (excess > 0) {
