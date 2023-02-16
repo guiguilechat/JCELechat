@@ -983,7 +983,7 @@ locations:
     isWormhole: false
     name: 0EK-NJ
     region: Syndicate
-    truesec: -0.05809776120608234
+    truesec: -0.0580977612061
   0FG-KS:
     adjacentSystems:
     - F-5WYK
@@ -2125,7 +2125,7 @@ locations:
     isWormhole: false
     name: 1-NKVT
     region: Syndicate
-    truesec: -0.1600343465134045
+    truesec: -0.160034346513
   1-NW2G:
     adjacentSystems:
     - O-IVNH
@@ -20811,7 +20811,7 @@ locations:
     isWormhole: false
     name: AAS-8R
     region: Syndicate
-    truesec: -0.0907935870785801
+    truesec: -0.0907935870786
   AB-FZE:
     adjacentSystems:
     - 504Z-V
@@ -24661,7 +24661,12 @@ locations:
     region: Lonetrek
     truesec: 1.0
   Amygnon:
+    adjacentConstellations:
+    - Viriette
+    adjacentRegions:
+    - Placid
     adjacentSystems:
+    - Intaki
     - Jufvitte
     anchorStructures: true
     constellation: Kiartanne
@@ -24677,7 +24682,7 @@ locations:
     isWormhole: false
     name: Amygnon
     region: Verge Vendor
-    truesec: 0.6375686379748986
+    truesec: 0.637568637975
   Ana:
     adjacentSystems:
     - Jaswelu
@@ -56392,8 +56397,13 @@ locations:
     region: The Citadel
     truesec: 0.5708567338947792
   Intaki:
+    adjacentConstellations:
+    - Kiartanne
+    adjacentRegions:
+    - Verge Vendor
     adjacentSystems:
     - Agoze
+    - Amygnon
     - Brarel
     - Vey
     anchorStructures: true
@@ -56410,7 +56420,7 @@ locations:
     isWormhole: false
     name: Intaki
     region: Placid
-    truesec: 0.1498434299200135
+    truesec: 0.2
   Iosantin:
     adjacentSystems:
     - Akhrad
@@ -104045,7 +104055,7 @@ locations:
     isWormhole: false
     name: KTHT-O
     region: Syndicate
-    truesec: -0.04666636459038254
+    truesec: -0.0466663645904
   KU3-BB:
     adjacentSystems:
     - GQ2S-8
@@ -123835,7 +123845,7 @@ locations:
     isWormhole: false
     name: PFP-GU
     region: Syndicate
-    truesec: -0.05418240813765174
+    truesec: -0.0541824081377
   PFU-LH:
     adjacentSystems:
     - JE-D5U
@@ -128202,7 +128212,7 @@ locations:
     isWormhole: false
     name: QWF-6P
     region: Syndicate
-    truesec: -0.132963654826781
+    truesec: -0.132963654827
   QX-4HO:
     adjacentSystems:
     - BVRQ-O
@@ -137675,7 +137685,7 @@ locations:
     isWormhole: false
     name: T-LIWS
     region: Syndicate
-    truesec: -0.06624959647625872
+    truesec: -0.0662495964763
   T-M0FA:
     adjacentSystems:
     - 4O-239
@@ -142595,7 +142605,7 @@ locations:
     isWormhole: false
     name: UM-Q7F
     region: Syndicate
-    truesec: -0.04918648981713858
+    truesec: -0.0491864898171
   UM-SCG:
     adjacentConstellations:
     - 5Y1E-3
@@ -148000,7 +148010,7 @@ locations:
     isWormhole: false
     name: V4-L0X
     region: Syndicate
-    truesec: -0.07053053935948583
+    truesec: -0.0705305393595
   V6-NY1:
     adjacentSystems:
     - 57-KJB

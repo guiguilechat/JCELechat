@@ -19843,8 +19843,12 @@ locations:
     adjacentConstellations:
     - Ancbeu
     - Obray
+    - Viriette
     - Woenckee
+    adjacentRegions:
+    - Placid
     adjacentSystems:
+    - Intaki
     - Ouelletta
     - Scolluzer
     - Vay
@@ -29890,6 +29894,7 @@ locations:
     - Alselbosier
     - Fislipesnes
     - Josmaert
+    - Kiartanne
     - Pegeler
     - Woenckee
     - Z-6NQ6
@@ -29898,6 +29903,7 @@ locations:
     - Verge Vendor
     adjacentSystems:
     - Alperaute
+    - Amygnon
     - Dastryns
     - Frarie
     - Loes

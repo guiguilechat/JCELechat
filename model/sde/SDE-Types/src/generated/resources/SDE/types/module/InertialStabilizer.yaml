@@ -75,7 +75,7 @@ types:
     mass: 200.0
     metagroupid: 3
     metalevelold: 6
-    name: Synthetic Hull Conversion Inertia Stabilizers
+    name: Synthetic Hull Conversion Inertial Stabilizers
     packagedVolume: 5.0
     portionSize: 1
     published: true

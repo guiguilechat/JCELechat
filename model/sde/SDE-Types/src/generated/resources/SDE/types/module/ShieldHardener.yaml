@@ -916,7 +916,7 @@ types:
     mass: 10000.0
     metagroupid: 5
     metalevelold: 15
-    name: Vepas's Modified Kinetic Shield Hardener
+    name: Vepas' Modified Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1024,7 +1024,7 @@ types:
     mass: 10000.0
     metagroupid: 5
     metalevelold: 15
-    name: Vepas's Modified EM Shield Hardener
+    name: Vepas' Modified EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1132,7 +1132,7 @@ types:
     mass: 10000.0
     metagroupid: 5
     metalevelold: 15
-    name: Vepas's Modified Explosive Shield Hardener
+    name: Vepas' Modified Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1239,7 +1239,7 @@ types:
     mass: 10000.0
     metagroupid: 5
     metalevelold: 15
-    name: Vepas's Modified Thermal Shield Hardener
+    name: Vepas' Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1356,7 +1356,7 @@ types:
     mass: 10000.0
     metagroupid: 5
     metalevelold: 15
-    name: Vepas's Modified Multispectrum Shield Hardener
+    name: Vepas' Modified Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1

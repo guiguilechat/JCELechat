@@ -6023,3 +6023,79 @@ types:
     price: 100000.0
     published: true
     volume: 0.009999999776482582
+  76203:
+    exporttaxmultiplier: 1
+    id: 76203
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.75
+    name: Stellar Transmuter Datacore
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  76204:
+    exporttaxmultiplier: 1
+    id: 76204
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.75
+    name: Transport Relay Datacore
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  76207:
+    exporttaxmultiplier: 1
+    id: 76207
+    importtaxmultiplier: 1
+    name: Stellar Transmuter Research Index File
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76208:
+    exporttaxmultiplier: 1
+    id: 76208
+    importtaxmultiplier: 1
+    name: Stellar Transmuter Research Data Fragment
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76209:
+    exporttaxmultiplier: 1
+    id: 76209
+    importtaxmultiplier: 1
+    name: Stellar Transmuter Research Encryption Key
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76210:
+    exporttaxmultiplier: 1
+    id: 76210
+    importtaxmultiplier: 1
+    name: Transport Relay Research Index File
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76211:
+    exporttaxmultiplier: 1
+    id: 76211
+    importtaxmultiplier: 1
+    name: Transport Relay Research Data Fragment
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76212:
+    exporttaxmultiplier: 1
+    id: 76212
+    importtaxmultiplier: 1
+    name: Transport Relay Research Encryption Key
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

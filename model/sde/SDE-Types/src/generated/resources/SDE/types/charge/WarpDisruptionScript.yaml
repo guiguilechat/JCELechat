@@ -6,7 +6,6 @@ types:
     launchergroup: 899
     marketGroup: 1094
     mass: 1.0
-    massbonuspercentagebonus: -100
     maxrangehidden: 24000
     name: Focused Warp Disruption Script
     packagedVolume: 1.0
@@ -14,8 +13,6 @@ types:
     published: true
     radius: 1.0
     signatureradiusbonusbonus: -100
-    speedboostfactorbonusbonus: -100
-    speedfactorbonusbonus: -100
     techlevel: 1
     volume: 1.0
     warpscramblerangebonus: 50
@@ -26,7 +23,6 @@ types:
     launchergroup: 899
     marketGroup: 1094
     mass: 1.0
-    massbonuspercentagebonus: -100
     maxrangehidden: 24000
     name: Focused Warp Scrambling Script
     packagedVolume: 1.0
@@ -34,8 +30,6 @@ types:
     published: true
     radius: 1.0
     signatureradiusbonusbonus: -100
-    speedboostfactorbonusbonus: -100
-    speedfactorbonusbonus: -100
     techlevel: 1
     volume: 1.0
     warpscramblerangebonus: -20

@@ -25,6 +25,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -91,6 +93,20 @@ public class Salvager
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int requiredskill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill1level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int requiredskill2;
     /**
      * Required skill level for skill 2
@@ -106,7 +122,7 @@ public class Salvager
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, AccessDifficultyBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsArcheology.INSTANCE, RequiredSkill2Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, AccessDifficultyBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsArcheology.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE })));
     public static final Salvager.MetaGroup METAGROUP = new Salvager.MetaGroup();
 
     @Override
@@ -139,6 +155,14 @@ public class Salvager
             case  30 :
             {
                 return power;
+            }
+            case  182 :
+            {
+                return requiredskill1;
+            }
+            case  277 :
+            {
+                return requiredskill1level;
             }
             case  183 :
             {

@@ -3502,7 +3502,7 @@ types:
     id: 62048
     marketGroup: 1661
     mass: 1.0
-    name: Bag of Gelatinized Confectionary 
+    name: Bag of Gelatinized Confectionary
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -3740,6 +3740,38 @@ types:
     cpumultiplier: 1.0
     id: 74449
     name: Ice Storm Filaments Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  76214:
+    cpumultiplier: 1.0
+    id: 76214
+    name: Imperial Shadow War Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  76215:
+    cpumultiplier: 1.0
+    id: 76215
+    name: State Shadow War Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  76216:
+    cpumultiplier: 1.0
+    id: 76216
+    name: Federation Shadow War Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  76217:
+    cpumultiplier: 1.0
+    id: 76217
+    name: Republic Shadow War Reward Crate
     packagedVolume: 1.0
     portionSize: 1
     published: true

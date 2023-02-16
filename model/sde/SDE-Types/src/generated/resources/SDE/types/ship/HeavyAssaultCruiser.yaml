@@ -1149,6 +1149,7 @@ types:
     portionSize: 1
     poweroutput: 1300
     powertospeed: 1
+    price: 1.419E8
     propulsiongraphicid: 397
     published: true
     radius: 88.0

@@ -137,7 +137,7 @@ types:
     requiredskill2: 3435
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
-    signatureradiusbonus: 50.0
+    signatureradiusbonus: 40.0
     techlevel: 1
     volume: 50.0
     warpscramblerange: 18000

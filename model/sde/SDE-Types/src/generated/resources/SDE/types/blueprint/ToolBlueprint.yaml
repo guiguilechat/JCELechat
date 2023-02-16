@@ -412,3 +412,25 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  76205:
+    hp: 1.0
+    id: 76205
+    industryblueprintrank: 20.0
+    name: Stellar Transmuter Datacore Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  76206:
+    hp: 1.0
+    id: 76206
+    industryblueprintrank: 20.0
+    name: Transport Relay Datacore Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

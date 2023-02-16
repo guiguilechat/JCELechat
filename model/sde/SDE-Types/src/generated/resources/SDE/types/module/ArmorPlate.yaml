@@ -58,7 +58,7 @@ types:
     marketGroup: 1674
     massaddition: 350000
     name: 400mm Steel Plates I
-    packagedVolume: 25.0
+    packagedVolume: 10.0
     portionSize: 1
     power: 30
     published: true
@@ -66,7 +66,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
-    volume: 25.0
+    volume: 10.0
   11299:
     armorhpbonusadd: 1750
     cpu: 25.0
@@ -75,7 +75,7 @@ types:
     marketGroup: 1675
     massaddition: 1350000
     name: 800mm Steel Plates I
-    packagedVolume: 50.0
+    packagedVolume: 20.0
     portionSize: 1
     power: 200
     published: true
@@ -83,7 +83,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    volume: 50.0
+    volume: 20.0
   11309:
     armorhpbonusadd: 1100
     cpu: 17.0
@@ -687,7 +687,7 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy 400mm Steel Plates
-    packagedVolume: 25.0
+    packagedVolume: 10.0
     portionSize: 1
     power: 40
     published: true
@@ -695,7 +695,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
-    volume: 25.0
+    volume: 10.0
   31910:
     armorhpbonusadd: 1300
     cpu: 20.0
@@ -706,7 +706,7 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 400mm Steel Plates
-    packagedVolume: 25.0
+    packagedVolume: 10.0
     portionSize: 1
     power: 35
     published: true
@@ -714,7 +714,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
-    volume: 25.0
+    volume: 10.0
   31916:
     armorhpbonusadd: 2625
     cpu: 23.0
@@ -725,7 +725,7 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy 800mm Steel Plates
-    packagedVolume: 50.0
+    packagedVolume: 20.0
     portionSize: 1
     power: 245
     published: true
@@ -733,7 +733,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    volume: 50.0
+    volume: 20.0
   31918:
     armorhpbonusadd: 2500
     cpu: 25.0
@@ -744,7 +744,7 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 800mm Steel Plates
-    packagedVolume: 50.0
+    packagedVolume: 20.0
     portionSize: 1
     power: 230
     published: true
@@ -752,7 +752,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    volume: 50.0
+    volume: 20.0
   40348:
     armorhpbonusadd: 60000
     cpu: 50.0

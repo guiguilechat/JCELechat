@@ -83,6 +83,7 @@ types:
     name: DNCR-05H Highsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -95,6 +96,7 @@ types:
     name: DNNR-01L Lowsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -107,6 +109,7 @@ types:
     name: DSHR-01H Highsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -119,6 +122,7 @@ types:
     name: PRNCR-10H Highsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -131,6 +135,7 @@ types:
     name: RDLF-10L Lowsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -143,6 +148,7 @@ types:
     name: VXN-01N Nullsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -155,6 +161,7 @@ types:
     name: BLTZN-05L Lowsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -167,6 +174,7 @@ types:
     name: CMT-05N Nullsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -179,6 +187,7 @@ types:
     name: CPD-10N Nullsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

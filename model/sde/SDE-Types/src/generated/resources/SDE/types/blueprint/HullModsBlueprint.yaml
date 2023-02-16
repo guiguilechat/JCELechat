@@ -152,7 +152,7 @@ types:
   21499:
     id: 21499
     industryblueprintrank: 3.0
-    name: Synthetic Hull Conversion Inertia Stabilizers Blueprint
+    name: Synthetic Hull Conversion Inertial Stabilizers Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

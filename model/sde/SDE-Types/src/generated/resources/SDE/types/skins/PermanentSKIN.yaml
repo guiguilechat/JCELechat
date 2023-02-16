@@ -37535,7 +37535,7 @@ types:
     volume: 0.009999999776482582
   64571:
     id: 64571
-    marketGroup: 1958
+    marketGroup: 1966
     name: Dominix Luminaire Rising SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39148,6 +39148,546 @@ types:
     id: 75273
     marketGroup: 2031
     name: Cruor Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75870:
+    id: 75870
+    name: Tormentor Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75871:
+    id: 75871
+    name: Armageddon Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75872:
+    id: 75872
+    name: Kestrel Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75873:
+    id: 75873
+    name: Scorpion Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75874:
+    id: 75874
+    name: Incursus Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75875:
+    id: 75875
+    name: Dominix Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75876:
+    id: 75876
+    name: Breacher Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75877:
+    id: 75877
+    name: Tempest Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75898:
+    id: 75898
+    marketGroup: 1963
+    name: Vindicator Red Stargazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75899:
+    id: 75899
+    marketGroup: 1963
+    name: Bhaalgorn Red Stargazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75906:
+    id: 75906
+    marketGroup: 1963
+    name: Rattlesnake Red Stargazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75907:
+    id: 75907
+    marketGroup: 1963
+    name: Machariel Red Stargazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75908:
+    id: 75908
+    marketGroup: 1963
+    name: Barghest Red Stargazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75909:
+    id: 75909
+    marketGroup: 2406
+    name: Marshal Red Stargazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75910:
+    id: 75910
+    marketGroup: 1963
+    name: Nightmare Red Stargazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  75911:
+    id: 75911
+    marketGroup: 2120
+    name: Minmatar Victory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76150:
+    id: 76150
+    name: Magnate Navy Issue Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76151:
+    id: 76151
+    name: Coercer Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76152:
+    id: 76152
+    name: Oracle Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76153:
+    id: 76153
+    name: Abaddon Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76154:
+    id: 76154
+    name: Punisher Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76155:
+    id: 76155
+    name: Augoror Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76156:
+    id: 76156
+    name: Harbinger Navy Issue Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76157:
+    id: 76157
+    name: Heron Navy Issue Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76158:
+    id: 76158
+    name: Cormorant Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76159:
+    id: 76159
+    name: Naga Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76160:
+    id: 76160
+    name: Rokh Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76162:
+    id: 76162
+    name: Kestrel Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76163:
+    id: 76163
+    name: Osprey Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76164:
+    id: 76164
+    name: Drake Navy Issue Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76165:
+    id: 76165
+    name: Imicus Navy Issue Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76166:
+    id: 76166
+    name: Catalyst Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76167:
+    id: 76167
+    name: Talos Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76168:
+    id: 76168
+    name: Hyperion Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76169:
+    id: 76169
+    name: Tristan Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76170:
+    id: 76170
+    name: Exequror Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76171:
+    id: 76171
+    name: Brutix Navy Issue Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76172:
+    id: 76172
+    name: Probe Fleet Issue Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76173:
+    id: 76173
+    name: Thrasher Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76174:
+    id: 76174
+    name: Tornado Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76175:
+    id: 76175
+    name: Maelstrom Versus Redforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76176:
+    id: 76176
+    name: Rifter Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76177:
+    id: 76177
+    name: Scythe Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76178:
+    id: 76178
+    name: Hurricane Fleet Issue Versus Blueforce SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76235:
+    id: 76235
+    name: Omen Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76236:
+    id: 76236
+    name: Omen Navy Issue Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76237:
+    id: 76237
+    name: Apocalypse Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76238:
+    id: 76238
+    name: Apocalypse Navy Issue Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76239:
+    id: 76239
+    name: Caracal Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76240:
+    id: 76240
+    name: Caracal Navy Issue Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76241:
+    id: 76241
+    name: Raven Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76242:
+    id: 76242
+    name: Raven Navy Issue Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76243:
+    id: 76243
+    name: Vexor Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76244:
+    id: 76244
+    name: Vexor Navy Issue Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76245:
+    id: 76245
+    name: Megathron Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76246:
+    id: 76246
+    name: Megathron Navy Issue Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76247:
+    id: 76247
+    name: Stabber Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76248:
+    id: 76248
+    name: Stabber Fleet Issue Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76249:
+    id: 76249
+    name: Tempest Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76250:
+    id: 76250
+    name: Tempest Fleet Issue Penumbral Shadows SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76281:
+    id: 76281
+    marketGroup: 2027
+    name: Vargur Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76282:
+    id: 76282
+    marketGroup: 2076
+    name: Broadsword Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76283:
+    id: 76283
+    marketGroup: 2058
+    name: Hyena Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76284:
+    id: 76284
+    marketGroup: 3497
+    name: Thrasher Fleet Issue Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76285:
+    id: 76285
+    marketGroup: 3495
+    name: Naglfar Fleet Issue Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76286:
+    id: 76286
+    marketGroup: 2026
+    name: Kronos Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76287:
+    id: 76287
+    marketGroup: 2057
+    name: Keres Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76288:
+    id: 76288
+    marketGroup: 2075
+    name: Phobos Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76289:
+    id: 76289
+    marketGroup: 3497
+    name: Catalyst Navy Issue Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76290:
+    id: 76290
+    marketGroup: 3495
+    name: Moros Navy Issue Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76291:
+    id: 76291
+    marketGroup: 3497
+    name: Cormorant Navy Issue Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76292:
+    id: 76292
+    marketGroup: 3495
+    name: Phoenix Navy Issue Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76293:
+    id: 76293
+    marketGroup: 3497
+    name: Coercer Navy Issue Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76294:
+    id: 76294
+    marketGroup: 3495
+    name: Revelation Navy Issue Heartsurge SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

@@ -19,12 +19,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MassBonusPercentageBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeHidden;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedBoostFactorBonusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactorBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
@@ -70,13 +67,6 @@ public class WarpDisruptionScript
     @DefaultIntValue(0)
     public int launchergroup;
     /**
-     * Bonus to massBonusPercentage
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int massbonuspercentagebonus;
-    /**
      * maxRangeHidden
      */
     @HighIsGood(true)
@@ -90,20 +80,6 @@ public class WarpDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int signatureradiusbonusbonus;
-    /**
-     * Modification of Afterburner and Microwarpdrive Thrust Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int speedboostfactorbonusbonus;
-    /**
-     * Modification of Afterburner and Microwarpdrive Max Velocity Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int speedfactorbonusbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -119,7 +95,7 @@ public class WarpDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerangebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, MassBonusPercentageBonus.INSTANCE, SpeedBoostFactorBonusBonus.INSTANCE, SpeedFactorBonusBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, Radius.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, CapNeedBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE })));
     public static final WarpDisruptionScript.MetaGroup METAGROUP = new WarpDisruptionScript.MetaGroup();
 
     @Override
@@ -145,10 +121,6 @@ public class WarpDisruptionScript
             {
                 return launchergroup;
             }
-            case  1324 :
-            {
-                return massbonuspercentagebonus;
-            }
             case  1317 :
             {
                 return maxrangehidden;
@@ -156,14 +128,6 @@ public class WarpDisruptionScript
             case  1227 :
             {
                 return signatureradiusbonusbonus;
-            }
-            case  1325 :
-            {
-                return speedboostfactorbonusbonus;
-            }
-            case  1326 :
-            {
-                return speedfactorbonusbonus;
             }
             case  422 :
             {

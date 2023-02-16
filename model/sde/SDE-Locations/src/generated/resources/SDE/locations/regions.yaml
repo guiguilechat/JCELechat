@@ -2733,6 +2733,7 @@ locations:
     - Balenne
     - Inolari
     - Ishaga
+    - Kiartanne
     - Mobrault
     - Patrie
     - S4GH-I
@@ -2749,6 +2750,7 @@ locations:
     - Verge Vendor
     adjacentSystems:
     - Aidart
+    - Amygnon
     - Eggheron
     - Eha
     - F7C-H0
@@ -3867,6 +3869,7 @@ locations:
     - Derririntel
     - Diaderi
     - Indregulle
+    - Intaki
     - Mesybier
     - Ourapheh
     - Pemene

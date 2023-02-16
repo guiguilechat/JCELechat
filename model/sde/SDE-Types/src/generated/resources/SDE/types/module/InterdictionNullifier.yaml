@@ -86,7 +86,7 @@ types:
     maxgroupfitted: 1
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 130000
-    name: Restrained Interdiction Nullifier
+    name: Enduring Interdiction Nullifier
     packagedVolume: 5.0
     portionSize: 1
     power: 1

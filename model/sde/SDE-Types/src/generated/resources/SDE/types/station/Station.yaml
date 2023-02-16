@@ -668,6 +668,7 @@ types:
     name: Minmatar Trade Post (Damaged)
     packagedVolume: 1.0
     portionSize: 1
+    price: 600000.0
     published: false
     signatureradius: 100.0
     volume: 1.0

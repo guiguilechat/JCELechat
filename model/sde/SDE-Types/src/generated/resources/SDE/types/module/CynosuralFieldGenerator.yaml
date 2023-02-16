@@ -3,7 +3,6 @@ types:
     cancloak: 1
     canfitshipgroup01: 833
     canfitshipgroup02: 898
-    canfitshiptype1: 11019
     consumptionquantity: 500
     consumptiontype: 16273
     cpu: 50.0

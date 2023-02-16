@@ -123,31 +123,31 @@ types:
     techlevel: 2
     volume: 10.0
   49774:
-    armordamageamount: 496.0
+    armordamageamount: 512.0
     canfitshiptype1: 49712
     canfitshiptype2: 49713
-    capacitorneed: 564.0
+    capacitorneed: 513.0
     cpu: 72.0
     duration: 6000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0999999046325684
+    heatdamage: 2.0
     hp: 40.0
     id: 49774
     marketGroup: 2529
     mass: 20.0
     maxgroupfitted: 1
     maxrange: 12500.0
-    metalevelold: 3
+    metalevelold: 8
     name: Perun Heavy Mutadaptive Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
-    power: 561
+    power: 396
     price: 12470.0
     published: true
     radius: 1.0
-    repairmultiplierbonusmax: 1.5
-    repairmultiplierbonuspercycle: 0.10000000149011612
+    repairmultiplierbonusmax: 1.7999999523162842
+    repairmultiplierbonuspercycle: 0.11999999731779099
     requiredskill1: 16069
     requiredskill1level: 2
     requiredthermodynamicsskill: 1

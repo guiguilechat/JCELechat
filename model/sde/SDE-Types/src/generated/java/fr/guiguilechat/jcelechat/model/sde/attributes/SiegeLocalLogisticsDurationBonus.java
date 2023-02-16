@@ -18,7 +18,7 @@ public class SiegeLocalLogisticsDurationBonus
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override

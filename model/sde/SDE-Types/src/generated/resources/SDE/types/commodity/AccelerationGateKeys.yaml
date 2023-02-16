@@ -754,7 +754,7 @@ types:
   73431:
     id: 73431
     mass: 1.0
-    name: 'Crimson Gauntlet Shortcut Keypass '
+    name: Crimson Gauntlet Shortcut Keypass
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -762,7 +762,7 @@ types:
   73432:
     id: 73432
     mass: 1.0
-    name: 'Tetrimon Base Shortcut Keypass '
+    name: Tetrimon Base Shortcut Keypass
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

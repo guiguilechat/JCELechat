@@ -1,4 +1,23 @@
 locations:
+  0EK-NJ V - Caldari Navy Anchorage:
+    id: 60015181
+    name: 0EK-NJ V - Caldari Navy Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: 0EK-NJ
   0G-A25 VI - Moon 20 - True Power Mining Outpost:
     id: 60014338
     name: 0G-A25 VI - Moon 20 - True Power Mining Outpost
@@ -7442,9 +7461,9 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Amamake
-  Amamake III - Paragon Fulfilment Center:
+  Amamake III - Paragon Fulfillment Center:
     id: 60015175
-    name: Amamake III - Paragon Fulfilment Center
+    name: Amamake III - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -7738,9 +7757,9 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Amarr
-  Amarr VII (Nemantizor) - Paragon Fulfilment Center:
+  Amarr VII (Nemantizor) - Paragon Fulfillment Center:
     id: 60015168
-    name: Amarr VII (Nemantizor) - Paragon Fulfilment Center
+    name: Amarr VII (Nemantizor) - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -12646,9 +12665,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Assah
-  Assah VI - Paragon Fulfilment Center:
+  Assah VI - Paragon Fulfillment Center:
     id: 60015176
-    name: Assah VI - Paragon Fulfilment Center
+    name: Assah VI - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -13322,9 +13341,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Attyn
-  Aubenall II - Paragon Fulfilment Center:
+  Aubenall II - Paragon Fulfillment Center:
     id: 60015177
-    name: Aubenall II - Paragon Fulfilment Center
+    name: Aubenall II - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -22565,9 +22584,9 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Dodixie
-  Dodixie V - Paragon Fulfilment Center:
+  Dodixie V - Paragon Fulfillment Center:
     id: 60015170
-    name: Dodixie V - Paragon Fulfilment Center
+    name: Dodixie V - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -35464,9 +35483,9 @@ locations:
     - Storage
     - Surgery
     solarSystem: Hakonen
-  Hakonen VII - Paragon Fulfilment Center:
+  Hakonen VII - Paragon Fulfillment Center:
     id: 60015179
-    name: Hakonen VII - Paragon Fulfilment Center
+    name: Hakonen VII - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -37017,9 +37036,9 @@ locations:
     - Security Office
     - Stock Exchange
     solarSystem: Hek
-  Hek IX - Paragon Fulfilment Center:
+  Hek IX - Paragon Fulfillment Center:
     id: 60015171
-    name: Hek IX - Paragon Fulfilment Center
+    name: Hek IX - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -42676,9 +42695,28 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Intaki
-  Intaki V - Moon 5 - Astral Mining Inc. Refinery:
+  Intaki V (Intaki Prime) - Federation Navy Anchorage:
+    id: 60015180
+    name: Intaki V (Intaki Prime) - Federation Navy Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Intaki
+  Intaki V (Intaki Prime) - Moon 5 - Astral Mining Inc. Refinery:
     id: 60009667
-    name: Intaki V - Moon 5 - Astral Mining Inc. Refinery
+    name: Intaki V (Intaki Prime) - Moon 5 - Astral Mining Inc. Refinery
     services:
     - Bounty Missions
     - Courier Missions
@@ -47219,9 +47257,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Jita
-  Jita VI - Paragon Fulfilment Center:
+  Jita VI - Paragon Fulfillment Center:
     id: 60015169
-    name: Jita VI - Paragon Fulfilment Center
+    name: Jita VI - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -69860,9 +69898,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Ouranienen
-  Ourapheh V - Paragon Fulfilment Center:
+  Ourapheh V - Paragon Fulfillment Center:
     id: 60015167
-    name: Ourapheh V - Paragon Fulfilment Center
+    name: Ourapheh V - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -76200,9 +76238,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Renarelle
-  Rens V - Paragon Fulfilment Center:
+  Rens V - Paragon Fulfillment Center:
     id: 60015172
-    name: Rens V - Paragon Fulfilment Center
+    name: Rens V - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking
@@ -84879,6 +84917,25 @@ locations:
     - Security Office
     - Stock Exchange
     solarSystem: T-C5A0
+  T-LIWS II - Caldari Navy Anchorage:
+    id: 60015182
+    name: T-LIWS II - Caldari Navy Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: T-LIWS
   T-LIWS IV - Moon 6 - Modern Finances Depository:
     id: 60003316
     name: T-LIWS IV - Moon 6 - Modern Finances Depository
@@ -89203,9 +89260,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Turba
-  Turnur I - Republic Parliament Bureau:
+  Turnur I - Republic Parliament Bureau (Damaged):
     id: 60004723
-    name: Turnur I - Republic Parliament Bureau
+    name: Turnur I - Republic Parliament Bureau (Damaged)
     services:
     - Docking
     - Market
@@ -89502,6 +89559,25 @@ locations:
     - Reprocessing Plant
     - Security Office
     solarSystem: UHKL-N
+  UM-Q7F IX - Caldari Navy Anchorage:
+    id: 60015183
+    name: UM-Q7F IX - Caldari Navy Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: UM-Q7F
   UM-Q7F X - Modern Finances Depository:
     id: 60003319
     name: UM-Q7F X - Modern Finances Depository
@@ -96606,9 +96682,9 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Yeeramoun
-  Yehaba VI - Paragon Fulfilment Center:
+  Yehaba VI - Paragon Fulfillment Center:
     id: 60015178
-    name: Yehaba VI - Paragon Fulfilment Center
+    name: Yehaba VI - Paragon Fulfillment Center
     services:
     - Cloning
     - Docking

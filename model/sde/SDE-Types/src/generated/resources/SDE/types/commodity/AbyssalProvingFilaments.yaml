@@ -1,35 +1,26 @@
 types:
-  72982:
-    id: 72982
+  72986:
+    id: 72986
     marketGroup: 2747
-    name: Yoiul 1v1 T1 Cruisers Proving Filament
+    name: Event 82 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  72983:
-    id: 72983
+  72987:
+    id: 72987
     marketGroup: 2747
-    name: Yoiul T1 Destroyer FFA Proving Filament
+    name: Event 83 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  72984:
-    id: 72984
+  72988:
+    id: 72988
     marketGroup: 2747
-    name: 2v2 Battleships Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  72985:
-    id: 72985
-    marketGroup: 2747
-    name: 1v1 Navy Battlecruisers Proving Filament
+    name: Event 84 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
