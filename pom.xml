@@ -51,7 +51,7 @@
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<openjfx-version>19</openjfx-version>
 		<tools.version>1.7.4</tools.version>
-		<jackson.version>2.14.1</jackson.version>
+		<jackson.version>2.14.2</jackson.version>
 	</properties>
 	<build>
 		<pluginManagement>
@@ -248,7 +248,7 @@
 			<dependency>
 				<groupId>org.choco-solver</groupId>
 				<artifactId>choco-solver</artifactId>
-				<version>4.10.10</version>
+				<version>4.10.11</version>
 			</dependency>
 			<dependency>
 				<groupId>org.javassist</groupId>
@@ -258,7 +258,7 @@
 			<dependency>
 				<groupId>org.jfree</groupId>
 				<artifactId>jfreechart</artifactId>
-				<version>1.5.3</version>
+				<version>1.5.4</version>
 			</dependency>
 			<dependency>
 				<groupId>org.jsoup</groupId>
@@ -288,7 +288,7 @@
 			<dependency>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok</artifactId>
-				<version>1.18.24</version>
+				<version>1.18.26</version>
 				<optional>true</optional>
 			</dependency>
 			<dependency>
@@ -299,7 +299,7 @@
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
-				<version>7.7.0</version>
+				<version>7.7.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.yaml</groupId>
