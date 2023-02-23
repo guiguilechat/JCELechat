@@ -1,19 +1,19 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * 
+ * Ship Bonus used for Alliance Tournament Ships
  */
-public class EliteBonusGunship1
-    extends RealAttribute
+public class ShipBonusAT2
+    extends IntAttribute
 {
-    public static final EliteBonusGunship1 INSTANCE = new EliteBonusGunship1();
+    public static final ShipBonusAT2 INSTANCE = new ShipBonusAT2();
 
     @Override
     public int getId() {
-        return  673;
+        return  5318;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class EliteBonusGunship1
 
     @Override
     public String toString() {
-        return "EliteBonusGunship1";
+        return "ShipBonusAT2";
     }
 }

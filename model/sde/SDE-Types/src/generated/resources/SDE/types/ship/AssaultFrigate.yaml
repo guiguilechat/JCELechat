@@ -192,7 +192,7 @@ types:
     cpuoutput: 170
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: -4
+    elitebonusgunship1: -4.0
     elitebonusgunship2: -5.0
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -283,7 +283,7 @@ types:
     cpuoutput: 135
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 5
+    elitebonusgunship1: 5.0
     elitebonusgunship2: 10.0
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -375,7 +375,7 @@ types:
     cpuoutput: 190
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 10
+    elitebonusgunship1: 10.0
     elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -467,7 +467,7 @@ types:
     cpuoutput: 185
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 10
+    elitebonusgunship1: 10.0
     elitebonusgunship2: 5.0
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -559,7 +559,7 @@ types:
     cpuoutput: 140
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 10
+    elitebonusgunship1: 10.0
     elitebonusgunship2: 5.0
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -651,7 +651,7 @@ types:
     dronecapacity: 20
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 5
+    elitebonusgunship1: 5.0
     elitebonusgunship2: 5.0
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -745,7 +745,7 @@ types:
     dronecapacity: 50
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 10
+    elitebonusgunship1: 10.0
     elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -838,7 +838,7 @@ types:
     dronecapacity: 5
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 10
+    elitebonusgunship1: 10.0
     elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -1019,7 +1019,7 @@ types:
     capacity: 150.0
     cpuoutput: 225
     elitebonusescorts: 10
-    elitebonusgunship1: -5
+    elitebonusgunship1: -5.0
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -1114,7 +1114,7 @@ types:
     dronebandwidth: 25
     dronecapacity: 25
     elitebonusescorts: 10
-    elitebonusgunship1: 20
+    elitebonusgunship1: 20.0
     elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -1208,8 +1208,8 @@ types:
     dronecapacity: 50
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 5
-    elitebonusgunship2: 5.0
+    elitebonusgunship1: -7.5
+    elitebonusgunship2: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -1270,8 +1270,11 @@ types:
     shieldthermaldamageresonance: 0.4000000059604645
     shielduniformity: 0.75
     shipbonus2af: 5.0
+    shipbonusat: 250
+    shipbonusat2: 50
+    shipbonusat3: 500
     shipbonusmf: 7.5
-    shipbonusmf2: -5.0
+    shipbonusmf2: 7.5
     signatureradius: 33.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
