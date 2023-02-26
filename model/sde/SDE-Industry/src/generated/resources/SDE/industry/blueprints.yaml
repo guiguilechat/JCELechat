@@ -144591,15 +144591,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 9842
-        quantity: 170
+        quantity: 1250
       - id: 11399
         quantity: 186
       - id: 11483
-        quantity: 1
+        quantity: 2500
       - id: 11540
-        quantity: 170
+        quantity: 1250
+      - id: 2328
+        quantity: 2500
       - id: 28583
         quantity: 1
+      - id: 57457
+        quantity: 2500
       products:
       - id: 42890
         probability: 1.0
