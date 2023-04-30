@@ -49,10 +49,10 @@
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.javadoc.skip>true</maven.javadoc.skip>
-		<openjfx-version>19</openjfx-version>
+		<openjfx-version>21-ea+5</openjfx-version>
 		<tools.version>1.7.4</tools.version>
-		<jackson.version>2.14.2</jackson.version>
-		<slf4j.version>2.0.6</slf4j.version>
+		<jackson.version>2.15.0</jackson.version>
+		<slf4j.version>2.0.7</slf4j.version>
 	</properties>
 	<build>
 		<pluginManagement>
@@ -188,7 +188,7 @@
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-classic</artifactId>
-				<version>1.4.5</version>
+				<version>1.4.7</version>
 			</dependency>
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
@@ -248,7 +248,7 @@
 			<dependency>
 				<groupId>org.choco-solver</groupId>
 				<artifactId>choco-solver</artifactId>
-				<version>4.10.11</version>
+				<version>4.10.12</version>
 			</dependency>
 			<dependency>
 				<groupId>org.javassist</groupId>
@@ -263,7 +263,7 @@
 			<dependency>
 				<groupId>org.jsoup</groupId>
 				<artifactId>jsoup</artifactId>
-				<version>1.15.3</version>
+				<version>1.16.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.mdkt.compiler</groupId>
@@ -304,12 +304,12 @@
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
-				<version>7.7.0</version>
+				<version>7.7.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
-				<version>1.33</version>
+				<version>2.0</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
