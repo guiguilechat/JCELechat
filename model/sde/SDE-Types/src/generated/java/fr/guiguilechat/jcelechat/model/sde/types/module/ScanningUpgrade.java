@@ -23,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanStrengthBonusModule;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
@@ -72,17 +71,10 @@ public class ScanningUpgrade
      * 
      */
     @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int scanstrengthbonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int scanstrengthbonusmodule;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxScanDeviationModifierModule.INSTANCE, Cpu.INSTANCE, Radius.INSTANCE, ScanStrengthBonusModule.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, ScanStrengthBonus.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxScanDeviationModifierModule.INSTANCE, Cpu.INSTANCE, Radius.INSTANCE, ScanStrengthBonusModule.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE })));
     public static final ScanningUpgrade.MetaGroup METAGROUP = new ScanningUpgrade.MetaGroup();
 
     @Override
@@ -107,10 +99,6 @@ public class ScanningUpgrade
             case  277 :
             {
                 return requiredskill1level;
-            }
-            case  846 :
-            {
-                return scanstrengthbonus;
             }
             case  1907 :
             {

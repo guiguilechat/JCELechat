@@ -61,6 +61,7 @@ types:
     canfitshiptype5: 34590
     canfitshiptype6: 33697
     canfitshiptype7: 42245
+    canfitshiptype8: 77114
     capacitorcapacitymultiplier: 1.0
     cloakingtargetingdelay: 10000
     cpu: 100.0
@@ -298,6 +299,7 @@ types:
     canfitshiptype5: 34590
     canfitshiptype6: 33697
     canfitshiptype7: 42245
+    canfitshiptype8: 77114
     capacitorcapacitymultiplier: 1.0
     cloakingtargetingdelay: 9000
     cpu: 50.0

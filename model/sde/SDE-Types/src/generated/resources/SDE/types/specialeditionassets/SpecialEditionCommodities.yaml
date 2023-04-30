@@ -3776,3 +3776,29 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  76964:
+    cpumultiplier: 1.0
+    id: 76964
+    marketGroup: 1663
+    name: Capsuleer Day XX Fireworks Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  76986:
+    cpumultiplier: 1.0
+    id: 76986
+    name: Scorched Container
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  77055:
+    cpumultiplier: 1.0
+    id: 77055
+    marketGroup: 1663
+    name: Capsuleer Day Glamourex Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

@@ -21,7 +21,7 @@ public class MainCompile {
 
 	private static final Logger logger = LoggerFactory.getLogger(MainCompile.class);
 
-	public static enum LOADER {
+	public enum LOADER {
 		ESI {
 			@Override
 			public TypeHierarchy load() {

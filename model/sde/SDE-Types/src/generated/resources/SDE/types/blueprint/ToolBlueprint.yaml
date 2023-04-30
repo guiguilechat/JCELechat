@@ -419,6 +419,7 @@ types:
     name: Stellar Transmuter Datacore Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 282640.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -430,6 +431,7 @@ types:
     name: Transport Relay Datacore Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 282640.0
     published: true
     radius: 1.0
     techlevel: 1

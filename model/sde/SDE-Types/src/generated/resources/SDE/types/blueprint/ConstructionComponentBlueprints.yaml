@@ -690,3 +690,13 @@ types:
     price: 1.5E8
     published: true
     volume: 0.009999999776482582
+  76376:
+    id: 76376
+    industryblueprintrank: 1.0
+    name: Mutadaptive Construction Component Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

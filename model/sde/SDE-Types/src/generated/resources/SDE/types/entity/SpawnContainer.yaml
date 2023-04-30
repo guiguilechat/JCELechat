@@ -11554,7 +11554,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 3
     volume: 27500.0
   76184:
     capacitorcapacity: 2700.0
@@ -11583,7 +11583,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 4
     volume: 27500.0
   76185:
     capacitorcapacity: 2700.0
@@ -11641,7 +11641,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 3
     volume: 27500.0
   76187:
     capacitorcapacity: 2700.0
@@ -11670,7 +11670,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 4
     volume: 27500.0
   76188:
     capacitorcapacity: 2700.0
@@ -11728,7 +11728,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 3
     volume: 27500.0
   76190:
     capacitorcapacity: 2700.0
@@ -11757,7 +11757,7 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
-    tierdifficulty: 2
+    tierdifficulty: 4
     volume: 27500.0
   76191:
     accessdifficulty: -10.0
@@ -11870,4 +11870,147 @@ types:
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
+    volume: 27500.0
+  76941:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 76941
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Vila Allopoiesis Node
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  77097:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 77097
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Guri Malakim Survey Data Vault
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 60.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  77098:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 77098
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Guri Malakim Recovered Data Vault
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 60.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  77099:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 77099
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: SoCT Survey Data Relay Tower
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  77100:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 77100
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: SoCT Research Data Relay Tower
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
     volume: 27500.0

@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -24,7 +25,7 @@ public class EgroupIDs {
 	public static synchronized LinkedHashMap<Integer, EgroupIDs> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(LinkedHashMap.class) {
+			Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
 
 				@Override
 				protected Construct getConstructor(Node node) {

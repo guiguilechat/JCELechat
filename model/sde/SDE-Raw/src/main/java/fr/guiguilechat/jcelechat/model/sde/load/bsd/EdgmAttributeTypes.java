@@ -9,6 +9,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -35,7 +36,7 @@ public class EdgmAttributeTypes {
 	public static synchronized List<EdgmAttributeTypes> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(ArrayList.class) {
+			Constructor cons = new Constructor(ArrayList.class, new LoaderOptions()) {
 
 				@Override
 				protected Construct getConstructor(Node node) {
@@ -48,7 +49,8 @@ public class EdgmAttributeTypes {
 			};
 			Yaml yaml = new Yaml(cons);
 			try {
-				cache = Collections.unmodifiableList(yaml.loadAs(new FileReader(FILE), ArrayList.class));
+				cache = Collections
+						.unmodifiableList((List<EdgmAttributeTypes>) yaml.loadAs(new FileReader(FILE), ArrayList.class));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}

@@ -4,12 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.model</groupId>
-		<version>7.0.5</version>
+		<version>7.0.6</version>
 		<artifactId>sde</artifactId>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 	<artifactId>SDE-Types</artifactId>
 	<dependencies>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Types-compiler</artifactId>
@@ -22,9 +27,8 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<optional>true</optional>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
 		</dependency>
 	</dependencies>
 	<build>
@@ -41,12 +45,14 @@
 						</goals>
 						<configuration>
 							<cleanupDaemonThreads>false</cleanupDaemonThreads>
-							<mainClass>fr.guiguilechat.jcelechat.model.sde.compile.MainCompile</mainClass>
+							<mainClass>
+								fr.guiguilechat.jcelechat.model.sde.compile.MainCompile</mainClass>
 							<arguments>
 								<!-- source folder to put classes in -->
 								<argument>${project.basedir}/src/generated/java</argument>
 								<!-- resource folder to put database in -->
-								<argument>${project.basedir}/src/generated/resources/SDE/types/</argument>
+								<argument>
+									${project.basedir}/src/generated/resources/SDE/types/</argument>
 								<!-- classpath path to load database from -->
 								<argument>SDE/types/</argument>
 							</arguments>

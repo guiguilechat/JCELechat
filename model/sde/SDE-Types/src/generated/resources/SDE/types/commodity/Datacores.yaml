@@ -260,3 +260,21 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  76203:
+    id: 76203
+    marketGroup: 1661
+    mass: 0.75
+    name: Stellar Transmuter Datacore
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  76204:
+    id: 76204
+    marketGroup: 1661
+    mass: 0.75
+    name: Transport Relay Datacore
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

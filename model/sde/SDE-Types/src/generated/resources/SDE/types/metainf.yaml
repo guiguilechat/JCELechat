@@ -28375,9 +28375,6 @@ id2group:
   72925: blueprint/BattlecruiserBlueprint
   72926: blueprint/BattlecruiserBlueprint
   72964: personalization/ShipPersonalization
-  72986: commodity/AbyssalProvingFilaments
-  72987: commodity/AbyssalProvingFilaments
-  72988: commodity/AbyssalProvingFilaments
   73012: entity/LargeCollidableStructure
   73013: entity/LargeCollidableStructure
   73014: entity/LargeCollidableStructure
@@ -29197,17 +29194,25 @@ id2group:
   75909: skins/PermanentSKIN
   75910: skins/PermanentSKIN
   75911: skins/PermanentSKIN
+  75928: entity/InterstellarShipcasterBeacon
+  75929: entity/InterstellarShipcasterBeacon
+  75930: entity/InterstellarShipcasterBeacon
+  75931: entity/InterstellarShipcasterBeacon
+  75932: entity/InterstellarShipcasterBeaconConstructionStructure
+  75933: entity/InterstellarShipcasterBeaconConstructionStructure
+  75934: entity/InterstellarShipcasterBeaconConstructionStructure
+  75935: entity/InterstellarShipcasterBeaconConstructionStructure
   76016: entity/IrregularFrigate
   76017: entity/IrregularFrigate
   76018: entity/IrregularFrigate
   76019: entity/IrregularFrigate
   76020: entity/IrregularFrigate
   76021: entity/IrregularFrigate
-  76022: entity/IrregularFrigate
-  76023: entity/IrregularFrigate
-  76024: entity/IrregularFrigate
-  76025: entity/IrregularFrigate
-  76026: entity/IrregularFrigate
+  76022: entity/IrregularDestroyer
+  76023: entity/IrregularCruiser
+  76024: entity/IrregularCruiser
+  76025: entity/IrregularBattlecruiser
+  76026: entity/IrregularBattleship
   76027: entity/IrregularFrigate
   76028: entity/IrregularFrigate
   76029: entity/IrregularFrigate
@@ -29378,16 +29383,16 @@ id2group:
   76200: entity/DeadspaceOverseerSStructure
   76201: entity/DeadspaceOverseerSStructure
   76202: entity/DeadspaceOverseerSStructure
-  76203: commodity/Miscellaneous
-  76204: commodity/Miscellaneous
+  76203: commodity/Datacores
+  76204: commodity/Datacores
   76205: blueprint/ToolBlueprint
   76206: blueprint/ToolBlueprint
-  76207: commodity/Miscellaneous
-  76208: commodity/Miscellaneous
-  76209: commodity/Miscellaneous
-  76210: commodity/Miscellaneous
-  76211: commodity/Miscellaneous
-  76212: commodity/Miscellaneous
+  76207: commodity/ResearchData
+  76208: commodity/ResearchData
+  76209: commodity/ResearchData
+  76210: commodity/ResearchData
+  76211: commodity/ResearchData
+  76212: commodity/ResearchData
   76214: specialeditionassets/SpecialEditionCommodities
   76215: specialeditionassets/SpecialEditionCommodities
   76216: specialeditionassets/SpecialEditionCommodities
@@ -29425,6 +29430,298 @@ id2group:
   76292: skins/PermanentSKIN
   76293: skins/PermanentSKIN
   76294: skins/PermanentSKIN
+  76373: asteroid/Rakovene
+  76374: material/Mineral
+  76375: commodity/ConstructionComponents
+  76376: blueprint/ConstructionComponentBlueprints
+  76484: skins/PermanentSKIN
+  76485: skins/PermanentSKIN
+  76486: skins/PermanentSKIN
+  76487: skins/PermanentSKIN
+  76488: skins/PermanentSKIN
+  76489: skins/PermanentSKIN
+  76490: skins/PermanentSKIN
+  76491: skins/PermanentSKIN
+  76492: skins/PermanentSKIN
+  76493: skins/PermanentSKIN
+  76494: skins/PermanentSKIN
+  76495: skins/PermanentSKIN
+  76496: skins/PermanentSKIN
+  76506: implant/Booster
+  76507: implant/Booster
+  76508: implant/Booster
+  76509: implant/Booster
+  76510: implant/Booster
+  76511: implant/Booster
+  76512: implant/Booster
+  76513: implant/Booster
+  76514: implant/Booster
+  76515: implant/Booster
+  76516: implant/Booster
+  76517: implant/Booster
+  76518: implant/Booster
+  76519: implant/Booster
+  76520: implant/Booster
+  76521: implant/Booster
+  76522: implant/Booster
+  76523: implant/Booster
+  76524: implant/Booster
+  76525: implant/Booster
+  76526: implant/Booster
+  76527: implant/Booster
+  76528: implant/Booster
+  76529: implant/Booster
+  76530: implant/Booster
+  76531: implant/Booster
+  76532: implant/Booster
+  76533: implant/Booster
+  76534: implant/Booster
+  76535: implant/Booster
+  76717: personalization/ShipPersonalization
+  76718: personalization/ShipPersonalization
+  76719: personalization/ShipPersonalization
+  76720: personalization/ShipPersonalization
+  76721: personalization/ShipPersonalization
+  76722: personalization/ShipPersonalization
+  76723: personalization/ShipPersonalization
+  76724: personalization/ShipPersonalization
+  76725: personalization/ShipPersonalization
+  76726: personalization/ShipPersonalization
+  76727: personalization/ShipPersonalization
+  76728: personalization/ShipPersonalization
+  76729: personalization/ShipPersonalization
+  76730: personalization/ShipPersonalization
+  76731: personalization/ShipPersonalization
+  76732: personalization/ShipPersonalization
+  76733: personalization/ShipPersonalization
+  76734: personalization/ShipPersonalization
+  76735: personalization/ShipPersonalization
+  76736: personalization/ShipPersonalization
+  76737: personalization/ShipPersonalization
+  76738: personalization/ShipPersonalization
+  76739: personalization/ShipPersonalization
+  76740: personalization/ShipPersonalization
+  76741: personalization/ShipPersonalization
+  76742: personalization/ShipPersonalization
+  76743: personalization/ShipPersonalization
+  76744: personalization/ShipPersonalization
+  76745: personalization/ShipPersonalization
+  76746: personalization/ShipPersonalization
+  76747: personalization/ShipPersonalization
+  76748: personalization/ShipPersonalization
+  76749: personalization/ShipPersonalization
+  76750: personalization/ShipPersonalization
+  76751: personalization/ShipPersonalization
+  76752: personalization/ShipPersonalization
+  76753: personalization/ShipPersonalization
+  76754: personalization/ShipPersonalization
+  76755: personalization/ShipPersonalization
+  76756: personalization/ShipPersonalization
+  76757: personalization/ShipPersonalization
+  76758: personalization/ShipPersonalization
+  76759: personalization/ShipPersonalization
+  76760: personalization/ShipPersonalization
+  76761: personalization/ShipPersonalization
+  76762: personalization/ShipPersonalization
+  76763: personalization/ShipPersonalization
+  76764: personalization/ShipPersonalization
+  76765: personalization/ShipPersonalization
+  76766: personalization/ShipPersonalization
+  76767: personalization/ShipPersonalization
+  76768: personalization/ShipPersonalization
+  76769: personalization/ShipPersonalization
+  76770: personalization/ShipPersonalization
+  76771: personalization/ShipPersonalization
+  76772: personalization/ShipPersonalization
+  76773: personalization/ShipPersonalization
+  76774: personalization/ShipPersonalization
+  76775: personalization/ShipPersonalization
+  76776: personalization/ShipPersonalization
+  76777: personalization/ShipPersonalization
+  76778: personalization/ShipPersonalization
+  76779: personalization/ShipPersonalization
+  76780: personalization/ShipPersonalization
+  76781: personalization/ShipPersonalization
+  76782: personalization/ShipPersonalization
+  76783: personalization/ShipPersonalization
+  76784: personalization/ShipPersonalization
+  76785: personalization/ShipPersonalization
+  76786: personalization/ShipPersonalization
+  76787: personalization/ShipPersonalization
+  76788: personalization/ShipPersonalization
+  76789: personalization/ShipPersonalization
+  76790: personalization/ShipPersonalization
+  76791: personalization/ShipPersonalization
+  76792: personalization/ShipPersonalization
+  76793: personalization/ShipPersonalization
+  76794: personalization/ShipPersonalization
+  76795: personalization/ShipPersonalization
+  76796: personalization/ShipPersonalization
+  76797: personalization/ShipPersonalization
+  76798: personalization/ShipPersonalization
+  76799: personalization/ShipPersonalization
+  76800: personalization/ShipPersonalization
+  76801: personalization/ShipPersonalization
+  76802: personalization/ShipPersonalization
+  76803: personalization/ShipPersonalization
+  76804: personalization/ShipPersonalization
+  76805: personalization/ShipPersonalization
+  76806: personalization/ShipPersonalization
+  76807: personalization/ShipPersonalization
+  76808: personalization/ShipPersonalization
+  76809: personalization/ShipPersonalization
+  76810: personalization/ShipPersonalization
+  76811: personalization/ShipPersonalization
+  76812: personalization/ShipPersonalization
+  76813: personalization/ShipPersonalization
+  76814: personalization/ShipPersonalization
+  76815: personalization/ShipPersonalization
+  76816: personalization/ShipPersonalization
+  76817: personalization/ShipPersonalization
+  76818: personalization/ShipPersonalization
+  76819: personalization/ShipPersonalization
+  76820: personalization/ShipPersonalization
+  76821: personalization/ShipPersonalization
+  76822: personalization/ShipPersonalization
+  76823: personalization/ShipPersonalization
+  76824: personalization/ShipPersonalization
+  76825: personalization/ShipPersonalization
+  76826: personalization/ShipPersonalization
+  76827: personalization/ShipPersonalization
+  76828: personalization/ShipPersonalization
+  76829: personalization/ShipPersonalization
+  76830: personalization/ShipPersonalization
+  76831: personalization/ShipPersonalization
+  76832: personalization/ShipPersonalization
+  76833: personalization/ShipPersonalization
+  76834: personalization/ShipPersonalization
+  76835: personalization/ShipPersonalization
+  76836: personalization/ShipPersonalization
+  76837: personalization/ShipPersonalization
+  76838: personalization/ShipPersonalization
+  76839: personalization/ShipPersonalization
+  76840: personalization/ShipPersonalization
+  76841: personalization/ShipPersonalization
+  76842: personalization/ShipPersonalization
+  76843: personalization/ShipPersonalization
+  76844: personalization/ShipPersonalization
+  76845: personalization/ShipPersonalization
+  76846: personalization/ShipPersonalization
+  76847: personalization/ShipPersonalization
+  76848: personalization/ShipPersonalization
+  76849: personalization/ShipPersonalization
+  76850: personalization/ShipPersonalization
+  76851: personalization/ShipPersonalization
+  76852: personalization/ShipPersonalization
+  76853: personalization/ShipPersonalization
+  76854: personalization/ShipPersonalization
+  76855: personalization/ShipPersonalization
+  76856: personalization/ShipPersonalization
+  76857: personalization/ShipPersonalization
+  76858: personalization/ShipPersonalization
+  76859: personalization/ShipPersonalization
+  76860: personalization/ShipPersonalization
+  76861: personalization/ShipPersonalization
+  76862: personalization/ShipPersonalization
+  76863: personalization/ShipPersonalization
+  76864: personalization/ShipPersonalization
+  76865: personalization/ShipPersonalization
+  76866: personalization/ShipPersonalization
+  76867: personalization/ShipPersonalization
+  76868: personalization/ShipPersonalization
+  76869: personalization/ShipPersonalization
+  76870: personalization/ShipPersonalization
+  76871: personalization/ShipPersonalization
+  76872: personalization/ShipPersonalization
+  76873: personalization/ShipPersonalization
+  76874: personalization/ShipPersonalization
+  76875: personalization/ShipPersonalization
+  76876: personalization/ShipPersonalization
+  76877: personalization/ShipPersonalization
+  76878: personalization/ShipPersonalization
+  76879: personalization/ShipPersonalization
+  76880: personalization/ShipPersonalization
+  76881: personalization/ShipPersonalization
+  76882: personalization/ShipPersonalization
+  76883: personalization/ShipPersonalization
+  76884: personalization/ShipPersonalization
+  76941: entity/SpawnContainer
+  76942: entity/IrregularFrigate
+  76943: entity/IrregularFrigate
+  76944: entity/IrregularFrigate
+  76947: personalization/ShipPersonalization
+  76948: personalization/ShipPersonalization
+  76949: personalization/ShipPersonalization
+  76950: personalization/ShipPersonalization
+  76951: skins/PermanentSKIN
+  76952: skins/PermanentSKIN
+  76953: skins/PermanentSKIN
+  76954: skins/PermanentSKIN
+  76955: skins/PermanentSKIN
+  76956: skins/PermanentSKIN
+  76957: skins/PermanentSKIN
+  76958: skins/PermanentSKIN
+  76963: charge/FestivalCharges
+  76964: specialeditionassets/SpecialEditionCommodities
+  76986: specialeditionassets/SpecialEditionCommodities
+  77005: personalization/ShipPersonalization
+  77006: personalization/ShipPersonalization
+  77041: skins/PermanentSKIN
+  77043: skins/PermanentSKIN
+  77044: skins/PermanentSKIN
+  77045: skins/PermanentSKIN
+  77046: skins/PermanentSKIN
+  77047: skins/PermanentSKIN
+  77048: skins/PermanentSKIN
+  77049: skins/PermanentSKIN
+  77050: skins/PermanentSKIN
+  77051: skins/PermanentSKIN
+  77052: skins/PermanentSKIN
+  77053: skins/PermanentSKIN
+  77054: skins/PermanentSKIN
+  77055: specialeditionassets/SpecialEditionCommodities
+  77097: entity/SpawnContainer
+  77098: entity/SpawnContainer
+  77099: entity/SpawnContainer
+  77100: entity/SpawnContainer
+  77114: ship/Frigate
+  77115: skins/PermanentSKIN
+  77127: entity/IrregularFrigate
+  77128: entity/IrregularFrigate
+  77129: entity/IrregularFrigate
+  77130: entity/IrregularCruiser
+  77131: entity/IrregularCruiser
+  77132: entity/IrregularBattlecruiser
+  77133: entity/IrregularBattleship
+  77134: entity/IrregularBattleship
+  77135: entity/IrregularBattleship
+  77136: entity/IrregularBattleship
+  77151: entity/IrregularFrigate
+  77152: entity/IrregularFrigate
+  77153: entity/IrregularFrigate
+  77154: entity/IrregularDestroyer
+  77155: entity/IrregularCruiser
+  77156: entity/IrregularCruiser
+  77157: entity/IrregularBattlecruiser
+  77158: entity/IrregularBattleship
+  77159: entity/IrregularBattleship
+  77160: entity/IrregularBattleship
+  77161: entity/IrregularBattleship
+  77164: skins/PermanentSKIN
+  77165: skins/PermanentSKIN
+  77166: skins/PermanentSKIN
+  77167: skins/PermanentSKIN
+  77168: skins/PermanentSKIN
+  77169: skins/PermanentSKIN
+  77170: skins/PermanentSKIN
+  77171: skins/PermanentSKIN
+  77172: skins/PermanentSKIN
+  77173: skins/PermanentSKIN
+  77174: skins/PermanentSKIN
+  77175: skins/PermanentSKIN
+  77176: skins/PermanentSKIN
+  77177: skins/PermanentSKIN
+  77178: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

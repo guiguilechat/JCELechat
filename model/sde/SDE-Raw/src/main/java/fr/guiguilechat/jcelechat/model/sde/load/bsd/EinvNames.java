@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -24,7 +25,7 @@ public class EinvNames {
 	public static synchronized ArrayList<EinvNames> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(ArrayList.class) {
+			Constructor cons = new Constructor(ArrayList.class, new LoaderOptions()) {
 
 				@Override
 				protected Construct getConstructor(Node node) {

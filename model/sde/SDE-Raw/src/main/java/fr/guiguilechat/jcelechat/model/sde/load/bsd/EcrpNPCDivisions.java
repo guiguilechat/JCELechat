@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -24,7 +25,7 @@ public class EcrpNPCDivisions {
 	public static ArrayList<EcrpNPCDivisions> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(ArrayList.class) {
+			Constructor cons = new Constructor(ArrayList.class, new LoaderOptions()) {
 
 				@Override
 				protected Construct getConstructor(Node node) {

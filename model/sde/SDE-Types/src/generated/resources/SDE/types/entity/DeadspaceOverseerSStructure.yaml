@@ -6630,7 +6630,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2636.0
+    radius: 24000.0
     shieldcapacity: 50000.0
     shieldemdamageresonance: 9.999999747378752E-5
     shieldexplosivedamageresonance: 9.999999747378752E-5
@@ -6671,7 +6671,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2636.0
+    radius: 24000.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -6712,7 +6712,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2636.0
+    radius: 24000.0
     shieldcapacity: 50000.0
     shieldemdamageresonance: 9.999999747378752E-5
     shieldexplosivedamageresonance: 9.999999747378752E-5
@@ -6753,7 +6753,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2636.0
+    radius: 24000.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -6794,7 +6794,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2636.0
+    radius: 24000.0
     shieldcapacity: 50000.0
     shieldemdamageresonance: 9.999999747378752E-5
     shieldexplosivedamageresonance: 9.999999747378752E-5
@@ -6835,7 +6835,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2636.0
+    radius: 24000.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -6876,7 +6876,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2636.0
+    radius: 24000.0
     shieldcapacity: 50000.0
     shieldemdamageresonance: 9.999999747378752E-5
     shieldexplosivedamageresonance: 9.999999747378752E-5
@@ -6917,7 +6917,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2636.0
+    radius: 24000.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0

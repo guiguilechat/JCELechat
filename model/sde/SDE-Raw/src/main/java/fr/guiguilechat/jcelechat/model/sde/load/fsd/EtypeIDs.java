@@ -9,6 +9,7 @@ import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -50,7 +51,7 @@ public class EtypeIDs {
 	public static synchronized LinkedHashMap<Integer, EtypeIDs> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(LinkedHashMap.class) {
+			Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
 
 				@Override
 				protected Construct getConstructor(Node node) {

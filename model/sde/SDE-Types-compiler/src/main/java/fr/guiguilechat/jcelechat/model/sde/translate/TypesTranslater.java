@@ -241,7 +241,7 @@ public class TypesTranslater {
 			return ret;
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException | NoSuchMethodException
 				| SecurityException | IllegalArgumentException | InvocationTargetException e) {
-			throw new UnsupportedOperationException("catch this", e);
+			throw new UnsupportedOperationException(e);
 		}
 	}
 

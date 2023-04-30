@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -27,7 +28,7 @@ public class EdgmTypeEffects {
 	public static synchronized ArrayList<EdgmTypeEffects> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(ArrayList.class) {
+			Constructor cons = new Constructor(ArrayList.class, new LoaderOptions()) {
 
 				@Override
 				protected Construct getConstructor(Node node) {

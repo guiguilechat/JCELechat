@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -30,7 +31,7 @@ public class EdogmaAttributes {
 	public static synchronized Map<Integer, EdogmaAttributes> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(LinkedHashMap.class) {
+			Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
 
 				@Override
 				protected Construct getConstructor(Node node) {
@@ -49,7 +50,8 @@ public class EdogmaAttributes {
 			};
 			Yaml yaml = new Yaml(cons);
 			try {
-				cache = Collections.unmodifiableMap(yaml.loadAs(new FileReader(FILE), LinkedHashMap.class));
+				cache = Collections
+						.unmodifiableMap((Map<Integer, EdogmaAttributes>) yaml.loadAs(new FileReader(FILE), LinkedHashMap.class));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}

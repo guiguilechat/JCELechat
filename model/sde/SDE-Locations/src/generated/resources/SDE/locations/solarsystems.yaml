@@ -56420,7 +56420,7 @@ locations:
     isWormhole: false
     name: Intaki
     region: Placid
-    truesec: 0.2
+    truesec: 0.6
   Iosantin:
     adjacentSystems:
     - Akhrad

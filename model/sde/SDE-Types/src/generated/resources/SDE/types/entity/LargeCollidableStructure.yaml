@@ -20650,10 +20650,10 @@ types:
     warpscrambleduration: 8000
   72852:
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.13750000298023224
+    armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 10000.0
     armorkineticdamageresonance: 0.375
-    armorthermaldamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.13750000298023224
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
@@ -20685,10 +20685,10 @@ types:
     rechargerate: 8.64E7
     shieldcapacity: 30000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.30000001192092896
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.5
+    shieldthermaldamageresonance: 0.20000000298023224
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
@@ -20696,10 +20696,10 @@ types:
     warpscrambleduration: 8000
   72853:
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.32499998807907104
+    armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 30000.0
     armorkineticdamageresonance: 0.16249999403953552
-    armorthermaldamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.32499998807907104
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
@@ -20731,10 +20731,10 @@ types:
     rechargerate: 8.64E7
     shieldcapacity: 10000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.15000000596046448
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.5
+    shieldthermaldamageresonance: 0.4000000059604645
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
@@ -20835,10 +20835,10 @@ types:
     warpscrambleduration: 8000
   73014:
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.13750000298023224
+    armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 10000.0
     armorkineticdamageresonance: 0.375
-    armorthermaldamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.13750000298023224
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
@@ -20870,10 +20870,10 @@ types:
     rechargerate: 8.64E7
     shieldcapacity: 30000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.30000001192092896
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.5
+    shieldthermaldamageresonance: 0.20000000298023224
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
@@ -20881,10 +20881,10 @@ types:
     warpscrambleduration: 8000
   73015:
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.32499998807907104
+    armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 30000.0
     armorkineticdamageresonance: 0.16249999403953552
-    armorthermaldamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.32499998807907104
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
@@ -20916,10 +20916,10 @@ types:
     rechargerate: 8.64E7
     shieldcapacity: 10000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.15000000596046448
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.5
+    shieldthermaldamageresonance: 0.4000000059604645
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0

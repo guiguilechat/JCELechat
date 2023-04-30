@@ -36880,23 +36880,23 @@ offers:
       isk: 2000000
       items:
       - id: 57486
-        quantity: 4
+        quantity: 5
       - id: 40
-        quantity: 8
+        quantity: 10
       - id: 57478
-        quantity: 8
+        quantity: 10
       - id: 39
-        quantity: 15
+        quantity: 20
       - id: 38
-        quantity: 23
+        quantity: 30
       - id: 37
-        quantity: 375
+        quantity: 500
       - id: 36
-        quantity: 1875
+        quantity: 2500
       - id: 35
-        quantity: 4500
+        quantity: 6000
       - id: 34
-        quantity: 24000
+        quantity: 32000
       lp: 4000
   17895:
     bpid: 40315
@@ -36969,24 +36969,1414 @@ offers:
     requirements:
       isk: 2000000
       items:
-      - id: 34
-        quantity: 32000
-      - id: 35
-        quantity: 6000
-      - id: 36
-        quantity: 2500
-      - id: 37
-        quantity: 500
-      - id: 38
-        quantity: 30
-      - id: 39
-        quantity: 20
-      - id: 40
-        quantity: 10
-      - id: 57473
-        quantity: 1
-      - id: 57478
-        quantity: 10
       - id: 57486
         quantity: 5
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 30
+      - id: 37
+        quantity: 500
+      - id: 36
+        quantity: 2500
+      - id: 35
+        quantity: 6000
+      - id: 34
+        quantity: 32000
       lp: 4000
+  17898:
+    id: 17898
+    name: Abaddon Alliance Emblem
+    product:
+      id: 76717
+      quantity: 1
+    requirements:
+      lp: 15000
+  17899:
+    id: 17899
+    name: Absolution Alliance Emblem
+    product:
+      id: 76718
+      quantity: 1
+    requirements:
+      lp: 14000
+  17900:
+    id: 17900
+    name: Aeon Alliance Emblem
+    product:
+      id: 76719
+      quantity: 1
+    requirements:
+      lp: 22500
+  17901:
+    id: 17901
+    name: Anshar Alliance Emblem
+    product:
+      id: 76720
+      quantity: 1
+    requirements:
+      lp: 19000
+  17902:
+    id: 17902
+    name: Apocalypse Alliance Emblem
+    product:
+      id: 76721
+      quantity: 1
+    requirements:
+      lp: 15000
+  17903:
+    id: 17903
+    name: Apocalypse Imperial Issue Alliance Emblem
+    product:
+      id: 76722
+      quantity: 1
+    requirements:
+      lp: 15000
+  17904:
+    id: 17904
+    name: Apocalypse Navy Issue Alliance Emblem
+    product:
+      id: 76723
+      quantity: 1
+    requirements:
+      lp: 15500
+  17905:
+    id: 17905
+    name: Apostle Alliance Emblem
+    product:
+      id: 76724
+      quantity: 1
+    requirements:
+      lp: 20000
+  17906:
+    id: 17906
+    name: Archon Alliance Emblem
+    product:
+      id: 76725
+      quantity: 1
+    requirements:
+      lp: 20000
+  17907:
+    id: 17907
+    name: Ark Alliance Emblem
+    product:
+      id: 76726
+      quantity: 1
+    requirements:
+      lp: 19000
+  17908:
+    id: 17908
+    name: Armageddon Imperial Issue Alliance Emblem
+    product:
+      id: 76727
+      quantity: 1
+    requirements:
+      lp: 15000
+  17909:
+    id: 17909
+    name: Armageddon Navy Issue Alliance Emblem
+    product:
+      id: 76728
+      quantity: 1
+    requirements:
+      lp: 15500
+  17910:
+    id: 17910
+    name: Astarte Alliance Emblem
+    product:
+      id: 76729
+      quantity: 1
+    requirements:
+      lp: 14000
+  17911:
+    id: 17911
+    name: Avatar Alliance Emblem
+    product:
+      id: 76730
+      quantity: 1
+    requirements:
+      lp: 25000
+  17912:
+    id: 17912
+    name: Barghest Alliance Emblem
+    product:
+      id: 76731
+      quantity: 1
+    requirements:
+      lp: 16000
+  17913:
+    id: 17913
+    name: Bhaalgorn Alliance Emblem
+    product:
+      id: 76732
+      quantity: 1
+    requirements:
+      lp: 16000
+  17914:
+    id: 17914
+    name: Bowhead Alliance Emblem
+    product:
+      id: 76733
+      quantity: 1
+    requirements:
+      lp: 18500
+  17915:
+    id: 17915
+    name: Brutix Navy Issue Alliance Emblem
+    product:
+      id: 76734
+      quantity: 1
+    requirements:
+      lp: 13000
+  17916:
+    id: 17916
+    name: Caiman Alliance Emblem
+    product:
+      id: 76735
+      quantity: 1
+    requirements:
+      lp: 18500
+  17917:
+    id: 17917
+    name: Chemosh Alliance Emblem
+    product:
+      id: 76736
+      quantity: 1
+    requirements:
+      lp: 18500
+  17918:
+    id: 17918
+    name: Chimera Alliance Emblem
+    product:
+      id: 76737
+      quantity: 1
+    requirements:
+      lp: 20000
+  17919:
+    id: 17919
+    name: Claymore Alliance Emblem
+    product:
+      id: 76738
+      quantity: 1
+    requirements:
+      lp: 14000
+  17920:
+    id: 17920
+    name: Dagon Alliance Emblem
+    product:
+      id: 76739
+      quantity: 1
+    requirements:
+      lp: 21000
+  17921:
+    id: 17921
+    name: Damnation Alliance Emblem
+    product:
+      id: 76740
+      quantity: 1
+    requirements:
+      lp: 14000
+  17922:
+    id: 17922
+    name: Dominix Navy Issue Alliance Emblem
+    product:
+      id: 76741
+      quantity: 1
+    requirements:
+      lp: 15500
+  17923:
+    id: 17923
+    name: Drake Navy Issue Alliance Emblem
+    product:
+      id: 76742
+      quantity: 1
+    requirements:
+      lp: 13000
+  17924:
+    id: 17924
+    name: Drekavac Alliance Emblem
+    product:
+      id: 76743
+      quantity: 1
+    requirements:
+      lp: 13500
+  17925:
+    id: 17925
+    name: Eos Alliance Emblem
+    product:
+      id: 76744
+      quantity: 1
+    requirements:
+      lp: 14000
+  17926:
+    id: 17926
+    name: Erebus Alliance Emblem
+    product:
+      id: 76745
+      quantity: 1
+    requirements:
+      lp: 25000
+  17927:
+    id: 17927
+    name: Golem Alliance Emblem
+    product:
+      id: 76746
+      quantity: 1
+    requirements:
+      lp: 16500
+  17928:
+    id: 17928
+    name: Harbinger Navy Issue Alliance Emblem
+    product:
+      id: 76747
+      quantity: 1
+    requirements:
+      lp: 13000
+  17929:
+    id: 17929
+    name: Hel Alliance Emblem
+    product:
+      id: 76748
+      quantity: 1
+    requirements:
+      lp: 22500
+  17930:
+    id: 17930
+    name: Hurricane Fleet Issue Alliance Emblem
+    product:
+      id: 76749
+      quantity: 1
+    requirements:
+      lp: 13000
+  17931:
+    id: 17931
+    name: Hyperion Alliance Emblem
+    product:
+      id: 76750
+      quantity: 1
+    requirements:
+      lp: 15000
+  17932:
+    id: 17932
+    name: Komodo Alliance Emblem
+    product:
+      id: 76751
+      quantity: 1
+    requirements:
+      lp: 26000
+  17933:
+    id: 17933
+    name: Kronos Alliance Emblem
+    product:
+      id: 76752
+      quantity: 1
+    requirements:
+      lp: 16500
+  17934:
+    id: 17934
+    name: Leshak Alliance Emblem
+    product:
+      id: 76753
+      quantity: 1
+    requirements:
+      lp: 16000
+  17935:
+    id: 17935
+    name: Leviathan Alliance Emblem
+    product:
+      id: 76754
+      quantity: 1
+    requirements:
+      lp: 25000
+  17936:
+    id: 17936
+    name: Lif Alliance Emblem
+    product:
+      id: 76755
+      quantity: 1
+    requirements:
+      lp: 20000
+  17937:
+    id: 17937
+    name: Loggerhead Alliance Emblem
+    product:
+      id: 76756
+      quantity: 1
+    requirements:
+      lp: 21000
+  17938:
+    id: 17938
+    name: Machariel Alliance Emblem
+    product:
+      id: 76757
+      quantity: 1
+    requirements:
+      lp: 16000
+  17939:
+    id: 17939
+    name: Maelstrom Alliance Emblem
+    product:
+      id: 76758
+      quantity: 1
+    requirements:
+      lp: 15000
+  17940:
+    id: 17940
+    name: Marshal Alliance Emblem
+    product:
+      id: 76759
+      quantity: 1
+    requirements:
+      lp: 16000
+  17941:
+    id: 17941
+    name: Megathron Alliance Emblem
+    product:
+      id: 76760
+      quantity: 1
+    requirements:
+      lp: 15000
+  17942:
+    id: 17942
+    name: Megathron Federate Issue Alliance Emblem
+    product:
+      id: 76761
+      quantity: 1
+    requirements:
+      lp: 16000
+  17943:
+    id: 17943
+    name: Megathron Navy Issue Alliance Emblem
+    product:
+      id: 76762
+      quantity: 1
+    requirements:
+      lp: 15500
+  17944:
+    id: 17944
+    name: Minokawa Alliance Emblem
+    product:
+      id: 76763
+      quantity: 1
+    requirements:
+      lp: 20000
+  17945:
+    id: 17945
+    name: Molok Alliance Emblem
+    product:
+      id: 76764
+      quantity: 1
+    requirements:
+      lp: 26000
+  17946:
+    id: 17946
+    name: Nestor Alliance Emblem
+    product:
+      id: 76765
+      quantity: 1
+    requirements:
+      lp: 16000
+  17947:
+    id: 17947
+    name: Nidhoggur Alliance Emblem
+    product:
+      id: 76766
+      quantity: 1
+    requirements:
+      lp: 20000
+  17948:
+    id: 17948
+    name: Nighthawk Alliance Emblem
+    product:
+      id: 76767
+      quantity: 1
+    requirements:
+      lp: 14000
+  17949:
+    id: 17949
+    name: Nightmare Alliance Emblem
+    product:
+      id: 76768
+      quantity: 1
+    requirements:
+      lp: 16000
+  17950:
+    id: 17950
+    name: Ninazu Alliance Emblem
+    product:
+      id: 76769
+      quantity: 1
+    requirements:
+      lp: 20000
+  17951:
+    id: 17951
+    name: Nomad Alliance Emblem
+    product:
+      id: 76770
+      quantity: 1
+    requirements:
+      lp: 19000
+  17952:
+    id: 17952
+    name: Nyx Alliance Emblem
+    product:
+      id: 76771
+      quantity: 1
+    requirements:
+      lp: 22500
+  17953:
+    id: 17953
+    name: Paladin Alliance Emblem
+    product:
+      id: 76772
+      quantity: 1
+    requirements:
+      lp: 16500
+  17954:
+    id: 17954
+    name: Panther Alliance Emblem
+    product:
+      id: 76773
+      quantity: 1
+    requirements:
+      lp: 16500
+  17955:
+    id: 17955
+    name: Praxis Alliance Emblem
+    product:
+      id: 76774
+      quantity: 1
+    requirements:
+      lp: 16000
+  17956:
+    id: 17956
+    name: Ragnarok Alliance Emblem
+    product:
+      id: 76775
+      quantity: 1
+    requirements:
+      lp: 25000
+  17957:
+    id: 17957
+    name: Rattlesnake Alliance Emblem
+    product:
+      id: 76776
+      quantity: 1
+    requirements:
+      lp: 16000
+  17958:
+    id: 17958
+    name: Raven Alliance Emblem
+    product:
+      id: 76777
+      quantity: 1
+    requirements:
+      lp: 15000
+  17959:
+    id: 17959
+    name: Raven Navy Issue Alliance Emblem
+    product:
+      id: 76778
+      quantity: 1
+    requirements:
+      lp: 15500
+  17960:
+    id: 17960
+    name: Raven State Issue Alliance Emblem
+    product:
+      id: 76779
+      quantity: 1
+    requirements:
+      lp: 15000
+  17961:
+    id: 17961
+    name: Redeemer Alliance Emblem
+    product:
+      id: 76780
+      quantity: 1
+    requirements:
+      lp: 16500
+  17962:
+    id: 17962
+    name: Revenant Alliance Emblem
+    product:
+      id: 76781
+      quantity: 1
+    requirements:
+      lp: 23500
+  17963:
+    id: 17963
+    name: Rhea Alliance Emblem
+    product:
+      id: 76782
+      quantity: 1
+    requirements:
+      lp: 19000
+  17964:
+    id: 17964
+    name: Rokh Alliance Emblem
+    product:
+      id: 76783
+      quantity: 1
+    requirements:
+      lp: 15000
+  17965:
+    id: 17965
+    name: Rorqual Alliance Emblem
+    product:
+      id: 76784
+      quantity: 1
+    requirements:
+      lp: 21000
+  17966:
+    id: 17966
+    name: Scorpion Navy Issue Alliance Emblem
+    product:
+      id: 76785
+      quantity: 1
+    requirements:
+      lp: 15500
+  17967:
+    id: 17967
+    name: Sin Alliance Emblem
+    product:
+      id: 76786
+      quantity: 1
+    requirements:
+      lp: 16500
+  17968:
+    id: 17968
+    name: Sleipnir Alliance Emblem
+    product:
+      id: 76787
+      quantity: 1
+    requirements:
+      lp: 14000
+  17969:
+    id: 17969
+    name: Tempest Alliance Emblem
+    product:
+      id: 76788
+      quantity: 1
+    requirements:
+      lp: 15000
+  17970:
+    id: 17970
+    name: Tempest Fleet Issue Alliance Emblem
+    product:
+      id: 76789
+      quantity: 1
+    requirements:
+      lp: 15500
+  17971:
+    id: 17971
+    name: Tempest Tribal Issue Alliance Emblem
+    product:
+      id: 76790
+      quantity: 1
+    requirements:
+      lp: 16000
+  17972:
+    id: 17972
+    name: Thanatos Alliance Emblem
+    product:
+      id: 76791
+      quantity: 1
+    requirements:
+      lp: 20000
+  17973:
+    id: 17973
+    name: Thunderchild Alliance Emblem
+    product:
+      id: 76792
+      quantity: 1
+    requirements:
+      lp: 16000
+  17974:
+    id: 17974
+    name: Typhoon Fleet Issue Alliance Emblem
+    product:
+      id: 76793
+      quantity: 1
+    requirements:
+      lp: 15500
+  17975:
+    id: 17975
+    name: Vanquisher Alliance Emblem
+    product:
+      id: 76794
+      quantity: 1
+    requirements:
+      lp: 26000
+  17976:
+    id: 17976
+    name: Vargur Alliance Emblem
+    product:
+      id: 76795
+      quantity: 1
+    requirements:
+      lp: 16500
+  17977:
+    id: 17977
+    name: Vendetta Alliance Emblem
+    product:
+      id: 76796
+      quantity: 1
+    requirements:
+      lp: 23500
+  17978:
+    id: 17978
+    name: Vindicator Alliance Emblem
+    product:
+      id: 76797
+      quantity: 1
+    requirements:
+      lp: 16000
+  17979:
+    id: 17979
+    name: Vulture Alliance Emblem
+    product:
+      id: 76798
+      quantity: 1
+    requirements:
+      lp: 14000
+  17980:
+    id: 17980
+    name: Widow Alliance Emblem
+    product:
+      id: 76799
+      quantity: 1
+    requirements:
+      lp: 16500
+  17981:
+    id: 17981
+    name: Wyvern Alliance Emblem
+    product:
+      id: 76800
+      quantity: 1
+    requirements:
+      lp: 22500
+  17982:
+    id: 17982
+    name: Abaddon Corporation Emblem
+    product:
+      id: 76801
+      quantity: 1
+    requirements:
+      lp: 15000
+  17983:
+    id: 17983
+    name: Absolution Corporation Emblem
+    product:
+      id: 76802
+      quantity: 1
+    requirements:
+      lp: 14000
+  17984:
+    id: 17984
+    name: Aeon Corporation Emblem
+    product:
+      id: 76803
+      quantity: 1
+    requirements:
+      lp: 22500
+  17985:
+    id: 17985
+    name: Anshar Corporation Emblem
+    product:
+      id: 76804
+      quantity: 1
+    requirements:
+      lp: 19000
+  17986:
+    id: 17986
+    name: Apocalypse Corporation Emblem
+    product:
+      id: 76805
+      quantity: 1
+    requirements:
+      lp: 15000
+  17987:
+    id: 17987
+    name: Apocalypse Imperial Issue Corporation Emblem
+    product:
+      id: 76806
+      quantity: 1
+    requirements:
+      lp: 15000
+  17988:
+    id: 17988
+    name: Apocalypse Navy Issue Corporation Emblem
+    product:
+      id: 76807
+      quantity: 1
+    requirements:
+      lp: 15500
+  17989:
+    id: 17989
+    name: Apostle Corporation Emblem
+    product:
+      id: 76808
+      quantity: 1
+    requirements:
+      lp: 20000
+  17990:
+    id: 17990
+    name: Archon Corporation Emblem
+    product:
+      id: 76809
+      quantity: 1
+    requirements:
+      lp: 20000
+  17991:
+    id: 17991
+    name: Ark Corporation Emblem
+    product:
+      id: 76810
+      quantity: 1
+    requirements:
+      lp: 19000
+  17992:
+    id: 17992
+    name: Armageddon Imperial Issue Corporation Emblem
+    product:
+      id: 76811
+      quantity: 1
+    requirements:
+      lp: 15000
+  17993:
+    id: 17993
+    name: Armageddon Navy Issue Corporation Emblem
+    product:
+      id: 76812
+      quantity: 1
+    requirements:
+      lp: 15500
+  17994:
+    id: 17994
+    name: Astarte Corporation Emblem
+    product:
+      id: 76813
+      quantity: 1
+    requirements:
+      lp: 14000
+  17995:
+    id: 17995
+    name: Avatar Corporation Emblem
+    product:
+      id: 76814
+      quantity: 1
+    requirements:
+      lp: 25000
+  17996:
+    id: 17996
+    name: Barghest Corporation Emblem
+    product:
+      id: 76815
+      quantity: 1
+    requirements:
+      lp: 16000
+  17997:
+    id: 17997
+    name: Bhaalgorn Corporation Emblem
+    product:
+      id: 76816
+      quantity: 1
+    requirements:
+      lp: 16000
+  17998:
+    id: 17998
+    name: Bowhead Corporation Emblem
+    product:
+      id: 76817
+      quantity: 1
+    requirements:
+      lp: 18500
+  17999:
+    id: 17999
+    name: Brutix Navy Issue Corporation Emblem
+    product:
+      id: 76818
+      quantity: 1
+    requirements:
+      lp: 13000
+  18000:
+    id: 18000
+    name: Caiman Corporation Emblem
+    product:
+      id: 76819
+      quantity: 1
+    requirements:
+      lp: 18500
+  18001:
+    id: 18001
+    name: Chemosh Corporation Emblem
+    product:
+      id: 76820
+      quantity: 1
+    requirements:
+      lp: 18500
+  18002:
+    id: 18002
+    name: Chimera Corporation Emblem
+    product:
+      id: 76821
+      quantity: 1
+    requirements:
+      lp: 20000
+  18003:
+    id: 18003
+    name: Claymore Corporation Emblem
+    product:
+      id: 76822
+      quantity: 1
+    requirements:
+      lp: 14000
+  18004:
+    id: 18004
+    name: Dagon Corporation Emblem
+    product:
+      id: 76823
+      quantity: 1
+    requirements:
+      lp: 21000
+  18005:
+    id: 18005
+    name: Damnation Corporation Emblem
+    product:
+      id: 76824
+      quantity: 1
+    requirements:
+      lp: 14000
+  18006:
+    id: 18006
+    name: Dominix Navy Issue Corporation Emblem
+    product:
+      id: 76825
+      quantity: 1
+    requirements:
+      lp: 15500
+  18007:
+    id: 18007
+    name: Drake Navy Issue Corporation Emblem
+    product:
+      id: 76826
+      quantity: 1
+    requirements:
+      lp: 13000
+  18008:
+    id: 18008
+    name: Drekavac Corporation Emblem
+    product:
+      id: 76827
+      quantity: 1
+    requirements:
+      lp: 13500
+  18009:
+    id: 18009
+    name: Eos Corporation Emblem
+    product:
+      id: 76828
+      quantity: 1
+    requirements:
+      lp: 14000
+  18010:
+    id: 18010
+    name: Erebus Corporation Emblem
+    product:
+      id: 76829
+      quantity: 1
+    requirements:
+      lp: 25000
+  18011:
+    id: 18011
+    name: Golem Corporation Emblem
+    product:
+      id: 76830
+      quantity: 1
+    requirements:
+      lp: 16500
+  18012:
+    id: 18012
+    name: Harbinger Navy Issue Corporation Emblem
+    product:
+      id: 76831
+      quantity: 1
+    requirements:
+      lp: 13000
+  18013:
+    id: 18013
+    name: Hel Corporation Emblem
+    product:
+      id: 76832
+      quantity: 1
+    requirements:
+      lp: 22500
+  18014:
+    id: 18014
+    name: Hurricane Fleet Issue Corporation Emblem
+    product:
+      id: 76833
+      quantity: 1
+    requirements:
+      lp: 13000
+  18015:
+    id: 18015
+    name: Hyperion Corporation Emblem
+    product:
+      id: 76834
+      quantity: 1
+    requirements:
+      lp: 15000
+  18016:
+    id: 18016
+    name: Komodo Corporation Emblem
+    product:
+      id: 76835
+      quantity: 1
+    requirements:
+      lp: 26000
+  18017:
+    id: 18017
+    name: Kronos Corporation Emblem
+    product:
+      id: 76836
+      quantity: 1
+    requirements:
+      lp: 16500
+  18018:
+    id: 18018
+    name: Leshak Corporation Emblem
+    product:
+      id: 76837
+      quantity: 1
+    requirements:
+      lp: 16000
+  18019:
+    id: 18019
+    name: Leviathan Corporation Emblem
+    product:
+      id: 76838
+      quantity: 1
+    requirements:
+      lp: 25000
+  18020:
+    id: 18020
+    name: Lif Corporation Emblem
+    product:
+      id: 76839
+      quantity: 1
+    requirements:
+      lp: 20000
+  18021:
+    id: 18021
+    name: Loggerhead Corporation Emblem
+    product:
+      id: 76840
+      quantity: 1
+    requirements:
+      lp: 21000
+  18022:
+    id: 18022
+    name: Machariel Corporation Emblem
+    product:
+      id: 76841
+      quantity: 1
+    requirements:
+      lp: 16000
+  18023:
+    id: 18023
+    name: Maelstrom Corporation Emblem
+    product:
+      id: 76842
+      quantity: 1
+    requirements:
+      lp: 15000
+  18024:
+    id: 18024
+    name: Marshal Corporation Emblem
+    product:
+      id: 76843
+      quantity: 1
+    requirements:
+      lp: 16000
+  18025:
+    id: 18025
+    name: Megathron Corporation Emblem
+    product:
+      id: 76844
+      quantity: 1
+    requirements:
+      lp: 15000
+  18026:
+    id: 18026
+    name: Megathron Federate Issue Corporation Emblem
+    product:
+      id: 76845
+      quantity: 1
+    requirements:
+      lp: 16000
+  18027:
+    id: 18027
+    name: Megathron Navy Issue Corporation Emblem
+    product:
+      id: 76846
+      quantity: 1
+    requirements:
+      lp: 15500
+  18028:
+    id: 18028
+    name: Minokawa Corporation Emblem
+    product:
+      id: 76847
+      quantity: 1
+    requirements:
+      lp: 20000
+  18029:
+    id: 18029
+    name: Molok Corporation Emblem
+    product:
+      id: 76848
+      quantity: 1
+    requirements:
+      lp: 26000
+  18030:
+    id: 18030
+    name: Nestor Corporation Emblem
+    product:
+      id: 76849
+      quantity: 1
+    requirements:
+      lp: 16000
+  18031:
+    id: 18031
+    name: Nidhoggur Corporation Emblem
+    product:
+      id: 76850
+      quantity: 1
+    requirements:
+      lp: 20000
+  18032:
+    id: 18032
+    name: Nighthawk Corporation Emblem
+    product:
+      id: 76851
+      quantity: 1
+    requirements:
+      lp: 14000
+  18033:
+    id: 18033
+    name: Nightmare Corporation Emblem
+    product:
+      id: 76852
+      quantity: 1
+    requirements:
+      lp: 16000
+  18034:
+    id: 18034
+    name: Ninazu Corporation Emblem
+    product:
+      id: 76853
+      quantity: 1
+    requirements:
+      lp: 20000
+  18035:
+    id: 18035
+    name: Nomad Corporation Emblem
+    product:
+      id: 76854
+      quantity: 1
+    requirements:
+      lp: 19000
+  18036:
+    id: 18036
+    name: Nyx Corporation Emblem
+    product:
+      id: 76855
+      quantity: 1
+    requirements:
+      lp: 22500
+  18037:
+    id: 18037
+    name: Paladin Corporation Emblem
+    product:
+      id: 76856
+      quantity: 1
+    requirements:
+      lp: 16500
+  18038:
+    id: 18038
+    name: Panther Corporation Emblem
+    product:
+      id: 76857
+      quantity: 1
+    requirements:
+      lp: 16500
+  18039:
+    id: 18039
+    name: Praxis Corporation Emblem
+    product:
+      id: 76858
+      quantity: 1
+    requirements:
+      lp: 16000
+  18040:
+    id: 18040
+    name: Ragnarok Corporation Emblem
+    product:
+      id: 76859
+      quantity: 1
+    requirements:
+      lp: 25000
+  18041:
+    id: 18041
+    name: Rattlesnake Corporation Emblem
+    product:
+      id: 76860
+      quantity: 1
+    requirements:
+      lp: 16000
+  18042:
+    id: 18042
+    name: Raven Corporation Emblem
+    product:
+      id: 76861
+      quantity: 1
+    requirements:
+      lp: 15000
+  18043:
+    id: 18043
+    name: Raven Navy Issue Corporation Emblem
+    product:
+      id: 76862
+      quantity: 1
+    requirements:
+      lp: 15500
+  18044:
+    id: 18044
+    name: Raven State Issue Corporation Emblem
+    product:
+      id: 76863
+      quantity: 1
+    requirements:
+      lp: 15000
+  18045:
+    id: 18045
+    name: Redeemer Corporation Emblem
+    product:
+      id: 76864
+      quantity: 1
+    requirements:
+      lp: 16500
+  18046:
+    id: 18046
+    name: Revenant Corporation Emblem
+    product:
+      id: 76865
+      quantity: 1
+    requirements:
+      lp: 23500
+  18047:
+    id: 18047
+    name: Rhea Corporation Emblem
+    product:
+      id: 76866
+      quantity: 1
+    requirements:
+      lp: 19000
+  18048:
+    id: 18048
+    name: Rokh Corporation Emblem
+    product:
+      id: 76867
+      quantity: 1
+    requirements:
+      lp: 15000
+  18049:
+    id: 18049
+    name: Rorqual Corporation Emblem
+    product:
+      id: 76868
+      quantity: 1
+    requirements:
+      lp: 21000
+  18050:
+    id: 18050
+    name: Scorpion Navy Issue Corporation Emblem
+    product:
+      id: 76869
+      quantity: 1
+    requirements:
+      lp: 15500
+  18051:
+    id: 18051
+    name: Sin Corporation Emblem
+    product:
+      id: 76870
+      quantity: 1
+    requirements:
+      lp: 16500
+  18052:
+    id: 18052
+    name: Sleipnir Corporation Emblem
+    product:
+      id: 76871
+      quantity: 1
+    requirements:
+      lp: 14000
+  18053:
+    id: 18053
+    name: Tempest Corporation Emblem
+    product:
+      id: 76872
+      quantity: 1
+    requirements:
+      lp: 15000
+  18054:
+    id: 18054
+    name: Tempest Fleet Issue Corporation Emblem
+    product:
+      id: 76873
+      quantity: 1
+    requirements:
+      lp: 15500
+  18055:
+    id: 18055
+    name: Tempest Tribal Issue Corporation Emblem
+    product:
+      id: 76874
+      quantity: 1
+    requirements:
+      lp: 16000
+  18056:
+    id: 18056
+    name: Thanatos Corporation Emblem
+    product:
+      id: 76875
+      quantity: 1
+    requirements:
+      lp: 20000
+  18057:
+    id: 18057
+    name: Thunderchild Corporation Emblem
+    product:
+      id: 76876
+      quantity: 1
+    requirements:
+      lp: 16000
+  18058:
+    id: 18058
+    name: Typhoon Fleet Issue Corporation Emblem
+    product:
+      id: 76877
+      quantity: 1
+    requirements:
+      lp: 15500
+  18059:
+    id: 18059
+    name: Vanquisher Corporation Emblem
+    product:
+      id: 76878
+      quantity: 1
+    requirements:
+      lp: 26000
+  18060:
+    id: 18060
+    name: Vargur Corporation Emblem
+    product:
+      id: 76879
+      quantity: 1
+    requirements:
+      lp: 16500
+  18061:
+    id: 18061
+    name: Vendetta Corporation Emblem
+    product:
+      id: 76880
+      quantity: 1
+    requirements:
+      lp: 23500
+  18062:
+    id: 18062
+    name: Vindicator Corporation Emblem
+    product:
+      id: 76881
+      quantity: 1
+    requirements:
+      lp: 16000
+  18063:
+    id: 18063
+    name: Vulture Corporation Emblem
+    product:
+      id: 76882
+      quantity: 1
+    requirements:
+      lp: 14000
+  18064:
+    id: 18064
+    name: Widow Corporation Emblem
+    product:
+      id: 76883
+      quantity: 1
+    requirements:
+      lp: 16500
+  18065:
+    id: 18065
+    name: Wyvern Corporation Emblem
+    product:
+      id: 76884
+      quantity: 1
+    requirements:
+      lp: 22500
+  18066:
+    id: 18066
+    name: Vehement Alliance Emblem
+    product:
+      id: 76947
+      quantity: 1
+    requirements:
+      lp: 18500
+  18067:
+    id: 18067
+    name: Vehement Corporation Emblem
+    product:
+      id: 76948
+      quantity: 1
+    requirements:
+      lp: 18500
+  18068:
+    id: 18068
+    name: Zirnitra Alliance Emblem
+    product:
+      id: 76949
+      quantity: 1
+    requirements:
+      lp: 18500
+  18069:
+    id: 18069
+    name: Zirnitra Corporation Emblem
+    product:
+      id: 76950
+      quantity: 1
+    requirements:
+      lp: 18500
+  18075:
+    id: 18075
+    name: Bustard Alliance Emblem
+    product:
+      id: 77005
+      quantity: 1
+    requirements:
+      lp: 9000
+  18076:
+    id: 18076
+    name: Bustard Corporation Emblem
+    product:
+      id: 77006
+      quantity: 1
+    requirements:
+      lp: 9000

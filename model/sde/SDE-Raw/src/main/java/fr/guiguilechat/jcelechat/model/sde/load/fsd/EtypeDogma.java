@@ -9,6 +9,7 @@ import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -51,7 +52,7 @@ public class EtypeDogma {
 	public static synchronized Map<Integer, EtypeDogma> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(LinkedHashMap.class) {
+			Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
 
 				@Override
 				protected Construct getConstructor(Node node) {
@@ -70,7 +71,8 @@ public class EtypeDogma {
 			};
 			Yaml yaml = SDECache.yaml(cons);
 			try {
-				cache = Collections.unmodifiableMap(yaml.loadAs(new FileReader(FILE), LinkedHashMap.class));
+				cache = Collections
+						.unmodifiableMap((Map<Integer, EtypeDogma>) yaml.loadAs(new FileReader(FILE), LinkedHashMap.class));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}

@@ -2919,3 +2919,873 @@ types:
     name: Zephyr Corporation Emblem
     portionSize: 1
     published: true
+  76717:
+    id: 76717
+    name: Abaddon Alliance Emblem
+    portionSize: 1
+    published: true
+  76718:
+    id: 76718
+    name: Absolution Alliance Emblem
+    portionSize: 1
+    published: true
+  76719:
+    id: 76719
+    name: Aeon Alliance Emblem
+    portionSize: 1
+    published: true
+  76720:
+    id: 76720
+    name: Anshar Alliance Emblem
+    portionSize: 1
+    published: true
+  76721:
+    id: 76721
+    name: Apocalypse Alliance Emblem
+    portionSize: 1
+    published: true
+  76722:
+    id: 76722
+    name: Apocalypse Imperial Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76723:
+    id: 76723
+    name: Apocalypse Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76724:
+    id: 76724
+    name: Apostle Alliance Emblem
+    portionSize: 1
+    published: true
+  76725:
+    id: 76725
+    name: Archon Alliance Emblem
+    portionSize: 1
+    published: true
+  76726:
+    id: 76726
+    name: Ark Alliance Emblem
+    portionSize: 1
+    published: true
+  76727:
+    id: 76727
+    name: Armageddon Imperial Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76728:
+    id: 76728
+    name: Armageddon Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76729:
+    id: 76729
+    name: Astarte Alliance Emblem
+    portionSize: 1
+    published: true
+  76730:
+    id: 76730
+    name: Avatar Alliance Emblem
+    portionSize: 1
+    published: true
+  76731:
+    id: 76731
+    name: Barghest Alliance Emblem
+    portionSize: 1
+    published: true
+  76732:
+    id: 76732
+    name: Bhaalgorn Alliance Emblem
+    portionSize: 1
+    published: true
+  76733:
+    id: 76733
+    name: Bowhead Alliance Emblem
+    portionSize: 1
+    published: true
+  76734:
+    id: 76734
+    name: Brutix Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76735:
+    id: 76735
+    name: Caiman Alliance Emblem
+    portionSize: 1
+    published: true
+  76736:
+    id: 76736
+    name: Chemosh Alliance Emblem
+    portionSize: 1
+    published: true
+  76737:
+    id: 76737
+    name: Chimera Alliance Emblem
+    portionSize: 1
+    published: true
+  76738:
+    id: 76738
+    name: Claymore Alliance Emblem
+    portionSize: 1
+    published: true
+  76739:
+    id: 76739
+    name: Dagon Alliance Emblem
+    portionSize: 1
+    published: true
+  76740:
+    id: 76740
+    name: Damnation Alliance Emblem
+    portionSize: 1
+    published: true
+  76741:
+    id: 76741
+    name: Dominix Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76742:
+    id: 76742
+    name: Drake Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76743:
+    id: 76743
+    name: Drekavac Alliance Emblem
+    portionSize: 1
+    published: true
+  76744:
+    id: 76744
+    name: Eos Alliance Emblem
+    portionSize: 1
+    published: true
+  76745:
+    id: 76745
+    name: Erebus Alliance Emblem
+    portionSize: 1
+    published: true
+  76746:
+    id: 76746
+    name: Golem Alliance Emblem
+    portionSize: 1
+    published: true
+  76747:
+    id: 76747
+    name: Harbinger Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76748:
+    id: 76748
+    name: Hel Alliance Emblem
+    portionSize: 1
+    published: true
+  76749:
+    id: 76749
+    name: Hurricane Fleet Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76750:
+    id: 76750
+    name: Hyperion Alliance Emblem
+    portionSize: 1
+    published: true
+  76751:
+    id: 76751
+    name: Komodo Alliance Emblem
+    portionSize: 1
+    published: true
+  76752:
+    id: 76752
+    name: Kronos Alliance Emblem
+    portionSize: 1
+    published: true
+  76753:
+    id: 76753
+    name: Leshak Alliance Emblem
+    portionSize: 1
+    published: true
+  76754:
+    id: 76754
+    name: Leviathan Alliance Emblem
+    portionSize: 1
+    published: true
+  76755:
+    id: 76755
+    name: Lif Alliance Emblem
+    portionSize: 1
+    published: true
+  76756:
+    id: 76756
+    name: Loggerhead Alliance Emblem
+    portionSize: 1
+    published: true
+  76757:
+    id: 76757
+    name: Machariel Alliance Emblem
+    portionSize: 1
+    published: true
+  76758:
+    id: 76758
+    name: Maelstrom Alliance Emblem
+    portionSize: 1
+    published: true
+  76759:
+    id: 76759
+    name: Marshal Alliance Emblem
+    portionSize: 1
+    published: true
+  76760:
+    id: 76760
+    name: Megathron Alliance Emblem
+    portionSize: 1
+    published: true
+  76761:
+    id: 76761
+    name: Megathron Federate Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76762:
+    id: 76762
+    name: Megathron Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76763:
+    id: 76763
+    name: Minokawa Alliance Emblem
+    portionSize: 1
+    published: true
+  76764:
+    id: 76764
+    name: Molok Alliance Emblem
+    portionSize: 1
+    published: true
+  76765:
+    id: 76765
+    name: Nestor Alliance Emblem
+    portionSize: 1
+    published: true
+  76766:
+    id: 76766
+    name: Nidhoggur Alliance Emblem
+    portionSize: 1
+    published: true
+  76767:
+    id: 76767
+    name: Nighthawk Alliance Emblem
+    portionSize: 1
+    published: true
+  76768:
+    id: 76768
+    name: Nightmare Alliance Emblem
+    portionSize: 1
+    published: true
+  76769:
+    id: 76769
+    name: Ninazu Alliance Emblem
+    portionSize: 1
+    published: true
+  76770:
+    id: 76770
+    name: Nomad Alliance Emblem
+    portionSize: 1
+    published: true
+  76771:
+    id: 76771
+    name: Nyx Alliance Emblem
+    portionSize: 1
+    published: true
+  76772:
+    id: 76772
+    name: Paladin Alliance Emblem
+    portionSize: 1
+    published: true
+  76773:
+    id: 76773
+    name: Panther Alliance Emblem
+    portionSize: 1
+    published: true
+  76774:
+    id: 76774
+    name: Praxis Alliance Emblem
+    portionSize: 1
+    published: true
+  76775:
+    id: 76775
+    name: Ragnarok Alliance Emblem
+    portionSize: 1
+    published: true
+  76776:
+    id: 76776
+    name: Rattlesnake Alliance Emblem
+    portionSize: 1
+    published: true
+  76777:
+    id: 76777
+    name: Raven Alliance Emblem
+    portionSize: 1
+    published: true
+  76778:
+    id: 76778
+    name: Raven Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76779:
+    id: 76779
+    name: Raven State Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76780:
+    id: 76780
+    name: Redeemer Alliance Emblem
+    portionSize: 1
+    published: true
+  76781:
+    id: 76781
+    name: Revenant Alliance Emblem
+    portionSize: 1
+    published: true
+  76782:
+    id: 76782
+    name: Rhea Alliance Emblem
+    portionSize: 1
+    published: true
+  76783:
+    id: 76783
+    name: Rokh Alliance Emblem
+    portionSize: 1
+    published: true
+  76784:
+    id: 76784
+    name: Rorqual Alliance Emblem
+    portionSize: 1
+    published: true
+  76785:
+    id: 76785
+    name: Scorpion Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76786:
+    id: 76786
+    name: Sin Alliance Emblem
+    portionSize: 1
+    published: true
+  76787:
+    id: 76787
+    name: Sleipnir Alliance Emblem
+    portionSize: 1
+    published: true
+  76788:
+    id: 76788
+    name: Tempest Alliance Emblem
+    portionSize: 1
+    published: true
+  76789:
+    id: 76789
+    name: Tempest Fleet Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76790:
+    id: 76790
+    name: Tempest Tribal Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76791:
+    id: 76791
+    name: Thanatos Alliance Emblem
+    portionSize: 1
+    published: true
+  76792:
+    id: 76792
+    name: Thunderchild Alliance Emblem
+    portionSize: 1
+    published: true
+  76793:
+    id: 76793
+    name: Typhoon Fleet Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  76794:
+    id: 76794
+    name: Vanquisher Alliance Emblem
+    portionSize: 1
+    published: true
+  76795:
+    id: 76795
+    name: Vargur Alliance Emblem
+    portionSize: 1
+    published: true
+  76796:
+    id: 76796
+    name: Vendetta Alliance Emblem
+    portionSize: 1
+    published: true
+  76797:
+    id: 76797
+    name: Vindicator Alliance Emblem
+    portionSize: 1
+    published: true
+  76798:
+    id: 76798
+    name: Vulture Alliance Emblem
+    portionSize: 1
+    published: true
+  76799:
+    id: 76799
+    name: Widow Alliance Emblem
+    portionSize: 1
+    published: true
+  76800:
+    id: 76800
+    name: Wyvern Alliance Emblem
+    portionSize: 1
+    published: true
+  76801:
+    id: 76801
+    name: Abaddon Corporation Emblem
+    portionSize: 1
+    published: true
+  76802:
+    id: 76802
+    name: Absolution Corporation Emblem
+    portionSize: 1
+    published: true
+  76803:
+    id: 76803
+    name: Aeon Corporation Emblem
+    portionSize: 1
+    published: true
+  76804:
+    id: 76804
+    name: Anshar Corporation Emblem
+    portionSize: 1
+    published: true
+  76805:
+    id: 76805
+    name: Apocalypse Corporation Emblem
+    portionSize: 1
+    published: true
+  76806:
+    id: 76806
+    name: Apocalypse Imperial Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76807:
+    id: 76807
+    name: Apocalypse Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76808:
+    id: 76808
+    name: Apostle Corporation Emblem
+    portionSize: 1
+    published: true
+  76809:
+    id: 76809
+    name: Archon Corporation Emblem
+    portionSize: 1
+    published: true
+  76810:
+    id: 76810
+    name: Ark Corporation Emblem
+    portionSize: 1
+    published: true
+  76811:
+    id: 76811
+    name: Armageddon Imperial Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76812:
+    id: 76812
+    name: Armageddon Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76813:
+    id: 76813
+    name: Astarte Corporation Emblem
+    portionSize: 1
+    published: true
+  76814:
+    id: 76814
+    name: Avatar Corporation Emblem
+    portionSize: 1
+    published: true
+  76815:
+    id: 76815
+    name: Barghest Corporation Emblem
+    portionSize: 1
+    published: true
+  76816:
+    id: 76816
+    name: Bhaalgorn Corporation Emblem
+    portionSize: 1
+    published: true
+  76817:
+    id: 76817
+    name: Bowhead Corporation Emblem
+    portionSize: 1
+    published: true
+  76818:
+    id: 76818
+    name: Brutix Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76819:
+    id: 76819
+    name: Caiman Corporation Emblem
+    portionSize: 1
+    published: true
+  76820:
+    id: 76820
+    name: Chemosh Corporation Emblem
+    portionSize: 1
+    published: true
+  76821:
+    id: 76821
+    name: Chimera Corporation Emblem
+    portionSize: 1
+    published: true
+  76822:
+    id: 76822
+    name: Claymore Corporation Emblem
+    portionSize: 1
+    published: true
+  76823:
+    id: 76823
+    name: Dagon Corporation Emblem
+    portionSize: 1
+    published: true
+  76824:
+    id: 76824
+    name: Damnation Corporation Emblem
+    portionSize: 1
+    published: true
+  76825:
+    id: 76825
+    name: Dominix Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76826:
+    id: 76826
+    name: Drake Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76827:
+    id: 76827
+    name: Drekavac Corporation Emblem
+    portionSize: 1
+    published: true
+  76828:
+    id: 76828
+    name: Eos Corporation Emblem
+    portionSize: 1
+    published: true
+  76829:
+    id: 76829
+    name: Erebus Corporation Emblem
+    portionSize: 1
+    published: true
+  76830:
+    id: 76830
+    name: Golem Corporation Emblem
+    portionSize: 1
+    published: true
+  76831:
+    id: 76831
+    name: Harbinger Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76832:
+    id: 76832
+    name: Hel Corporation Emblem
+    portionSize: 1
+    published: true
+  76833:
+    id: 76833
+    name: Hurricane Fleet Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76834:
+    id: 76834
+    name: Hyperion Corporation Emblem
+    portionSize: 1
+    published: true
+  76835:
+    id: 76835
+    name: Komodo Corporation Emblem
+    portionSize: 1
+    published: true
+  76836:
+    id: 76836
+    name: Kronos Corporation Emblem
+    portionSize: 1
+    published: true
+  76837:
+    id: 76837
+    name: Leshak Corporation Emblem
+    portionSize: 1
+    published: true
+  76838:
+    id: 76838
+    name: Leviathan Corporation Emblem
+    portionSize: 1
+    published: true
+  76839:
+    id: 76839
+    name: Lif Corporation Emblem
+    portionSize: 1
+    published: true
+  76840:
+    id: 76840
+    name: Loggerhead Corporation Emblem
+    portionSize: 1
+    published: true
+  76841:
+    id: 76841
+    name: Machariel Corporation Emblem
+    portionSize: 1
+    published: true
+  76842:
+    id: 76842
+    name: Maelstrom Corporation Emblem
+    portionSize: 1
+    published: true
+  76843:
+    id: 76843
+    name: Marshal Corporation Emblem
+    portionSize: 1
+    published: true
+  76844:
+    id: 76844
+    name: Megathron Corporation Emblem
+    portionSize: 1
+    published: true
+  76845:
+    id: 76845
+    name: Megathron Federate Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76846:
+    id: 76846
+    name: Megathron Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76847:
+    id: 76847
+    name: Minokawa Corporation Emblem
+    portionSize: 1
+    published: true
+  76848:
+    id: 76848
+    name: Molok Corporation Emblem
+    portionSize: 1
+    published: true
+  76849:
+    id: 76849
+    name: Nestor Corporation Emblem
+    portionSize: 1
+    published: true
+  76850:
+    id: 76850
+    name: Nidhoggur Corporation Emblem
+    portionSize: 1
+    published: true
+  76851:
+    id: 76851
+    name: Nighthawk Corporation Emblem
+    portionSize: 1
+    published: true
+  76852:
+    id: 76852
+    name: Nightmare Corporation Emblem
+    portionSize: 1
+    published: true
+  76853:
+    id: 76853
+    name: Ninazu Corporation Emblem
+    portionSize: 1
+    published: true
+  76854:
+    id: 76854
+    name: Nomad Corporation Emblem
+    portionSize: 1
+    published: true
+  76855:
+    id: 76855
+    name: Nyx Corporation Emblem
+    portionSize: 1
+    published: true
+  76856:
+    id: 76856
+    name: Paladin Corporation Emblem
+    portionSize: 1
+    published: true
+  76857:
+    id: 76857
+    name: Panther Corporation Emblem
+    portionSize: 1
+    published: true
+  76858:
+    id: 76858
+    name: Praxis Corporation Emblem
+    portionSize: 1
+    published: true
+  76859:
+    id: 76859
+    name: Ragnarok Corporation Emblem
+    portionSize: 1
+    published: true
+  76860:
+    id: 76860
+    name: Rattlesnake Corporation Emblem
+    portionSize: 1
+    published: true
+  76861:
+    id: 76861
+    name: Raven Corporation Emblem
+    portionSize: 1
+    published: true
+  76862:
+    id: 76862
+    name: Raven Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76863:
+    id: 76863
+    name: Raven State Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76864:
+    id: 76864
+    name: Redeemer Corporation Emblem
+    portionSize: 1
+    published: true
+  76865:
+    id: 76865
+    name: Revenant Corporation Emblem
+    portionSize: 1
+    published: true
+  76866:
+    id: 76866
+    name: Rhea Corporation Emblem
+    portionSize: 1
+    published: true
+  76867:
+    id: 76867
+    name: Rokh Corporation Emblem
+    portionSize: 1
+    published: true
+  76868:
+    id: 76868
+    name: Rorqual Corporation Emblem
+    portionSize: 1
+    published: true
+  76869:
+    id: 76869
+    name: Scorpion Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76870:
+    id: 76870
+    name: Sin Corporation Emblem
+    portionSize: 1
+    published: true
+  76871:
+    id: 76871
+    name: Sleipnir Corporation Emblem
+    portionSize: 1
+    published: true
+  76872:
+    id: 76872
+    name: Tempest Corporation Emblem
+    portionSize: 1
+    published: true
+  76873:
+    id: 76873
+    name: Tempest Fleet Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76874:
+    id: 76874
+    name: Tempest Tribal Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76875:
+    id: 76875
+    name: Thanatos Corporation Emblem
+    portionSize: 1
+    published: true
+  76876:
+    id: 76876
+    name: Thunderchild Corporation Emblem
+    portionSize: 1
+    published: true
+  76877:
+    id: 76877
+    name: Typhoon Fleet Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  76878:
+    id: 76878
+    name: Vanquisher Corporation Emblem
+    portionSize: 1
+    published: true
+  76879:
+    id: 76879
+    name: Vargur Corporation Emblem
+    portionSize: 1
+    published: true
+  76880:
+    id: 76880
+    name: Vendetta Corporation Emblem
+    portionSize: 1
+    published: true
+  76881:
+    id: 76881
+    name: Vindicator Corporation Emblem
+    portionSize: 1
+    published: true
+  76882:
+    id: 76882
+    name: Vulture Corporation Emblem
+    portionSize: 1
+    published: true
+  76883:
+    id: 76883
+    name: Widow Corporation Emblem
+    portionSize: 1
+    published: true
+  76884:
+    id: 76884
+    name: Wyvern Corporation Emblem
+    portionSize: 1
+    published: true
+  76947:
+    id: 76947
+    name: Vehement Alliance Emblem
+    portionSize: 1
+    published: true
+  76948:
+    id: 76948
+    name: Vehement Corporation Emblem
+    portionSize: 1
+    published: true
+  76949:
+    id: 76949
+    name: Zirnitra Alliance Emblem
+    portionSize: 1
+    published: true
+  76950:
+    id: 76950
+    name: Zirnitra Corporation Emblem
+    portionSize: 1
+    published: true
+  77005:
+    id: 77005
+    name: Bustard Alliance Emblem
+    portionSize: 1
+    published: true
+  77006:
+    id: 77006
+    name: Bustard Corporation Emblem
+    portionSize: 1
+    published: true

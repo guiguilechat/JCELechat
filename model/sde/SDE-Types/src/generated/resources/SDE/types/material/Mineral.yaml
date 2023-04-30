@@ -80,3 +80,12 @@ types:
     price: 2.0
     published: true
     volume: 1.0
+  76374:
+    id: 76374
+    marketGroup: 1857
+    name: Neo-Jadarite
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0
+    published: true
+    volume: 0.009999999776482582

@@ -20,6 +20,8 @@ types:
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 1
+    requiredskill2: 3402
+    requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.10000000149011612
@@ -99,6 +101,8 @@ types:
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 1
+    requiredskill2: 3402
+    requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.10000000149011612
@@ -125,6 +129,8 @@ types:
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 1
+    requiredskill2: 3402
+    requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.10000000149011612

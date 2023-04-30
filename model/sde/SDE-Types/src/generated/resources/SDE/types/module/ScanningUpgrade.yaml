@@ -70,7 +70,6 @@ types:
     radius: 1.0
     requiredskill1: 25739
     requiredskill1level: 5
-    scanstrengthbonus: 10
     scanstrengthbonusmodule: 10
     techlevel: 2
     volume: 5.0

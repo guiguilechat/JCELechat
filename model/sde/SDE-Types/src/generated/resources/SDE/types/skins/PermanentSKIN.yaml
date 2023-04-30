@@ -37176,6 +37176,7 @@ types:
     volume: 0.009999999776482582
   63855:
     id: 63855
+    marketGroup: 2055
     name: Sentinel Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37183,6 +37184,7 @@ types:
     volume: 0.009999999776482582
   63856:
     id: 63856
+    marketGroup: 2088
     name: Impel Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37190,6 +37192,7 @@ types:
     volume: 0.009999999776482582
   63857:
     id: 63857
+    marketGroup: 2073
     name: Devoter Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37197,6 +37200,7 @@ types:
     volume: 0.009999999776482582
   63858:
     id: 63858
+    marketGroup: 2110
     name: Redeemer Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37204,6 +37208,7 @@ types:
     volume: 0.009999999776482582
   63859:
     id: 63859
+    marketGroup: 2057
     name: Keres Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37211,6 +37216,7 @@ types:
     volume: 0.009999999776482582
   63860:
     id: 63860
+    marketGroup: 2090
     name: Occator Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37218,6 +37224,7 @@ types:
     volume: 0.009999999776482582
   63861:
     id: 63861
+    marketGroup: 2075
     name: Phobos Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37225,6 +37232,7 @@ types:
     volume: 0.009999999776482582
   63862:
     id: 63862
+    marketGroup: 2112
     name: Sin Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37232,6 +37240,7 @@ types:
     volume: 0.009999999776482582
   63863:
     id: 63863
+    marketGroup: 2052
     name: Buzzard Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37239,6 +37248,7 @@ types:
     volume: 0.009999999776482582
   63864:
     id: 63864
+    marketGroup: 2089
     name: Crane Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37246,6 +37256,7 @@ types:
     volume: 0.009999999776482582
   63865:
     id: 63865
+    marketGroup: 2082
     name: Falcon Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37253,6 +37264,7 @@ types:
     volume: 0.009999999776482582
   63866:
     id: 63866
+    marketGroup: 2111
     name: Widow Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37260,6 +37272,7 @@ types:
     volume: 0.009999999776482582
   63867:
     id: 63867
+    marketGroup: 2054
     name: Cheetah Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37267,6 +37280,7 @@ types:
     volume: 0.009999999776482582
   63868:
     id: 63868
+    marketGroup: 2091
     name: Prowler Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37274,6 +37288,7 @@ types:
     volume: 0.009999999776482582
   63869:
     id: 63869
+    marketGroup: 2084
     name: Rapier Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -37281,6 +37296,7 @@ types:
     volume: 0.009999999776482582
   63870:
     id: 63870
+    marketGroup: 2113
     name: Panther Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38848,6 +38864,7 @@ types:
     volume: 0.009999999776482582
   73873:
     id: 73873
+    marketGroup: 2000
     name: Caldari Navy Hookbill Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38855,6 +38872,7 @@ types:
     volume: 0.009999999776482582
   73874:
     id: 73874
+    marketGroup: 2103
     name: Ferox Navy Issue Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38862,6 +38880,7 @@ types:
     volume: 0.009999999776482582
   73875:
     id: 73875
+    marketGroup: 2000
     name: Imperial Navy Slicer Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38869,6 +38888,7 @@ types:
     volume: 0.009999999776482582
   73876:
     id: 73876
+    marketGroup: 2103
     name: Prophecy Navy Issue Versus Blueforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38876,6 +38896,7 @@ types:
     volume: 0.009999999776482582
   73877:
     id: 73877
+    marketGroup: 2000
     name: Federation Navy Comet Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38883,6 +38904,7 @@ types:
     volume: 0.009999999776482582
   73878:
     id: 73878
+    marketGroup: 2103
     name: Myrmidon Navy Issue Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38890,6 +38912,7 @@ types:
     volume: 0.009999999776482582
   73879:
     id: 73879
+    marketGroup: 2000
     name: Republic Fleet Firetail Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38897,6 +38920,7 @@ types:
     volume: 0.009999999776482582
   73880:
     id: 73880
+    marketGroup: 2103
     name: Cyclone Fleet Issue Versus Redforce SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39688,6 +39712,392 @@ types:
     id: 76294
     marketGroup: 3495
     name: Revelation Navy Issue Heartsurge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76484:
+    id: 76484
+    marketGroup: 1991
+    name: Caracal GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76485:
+    id: 76485
+    marketGroup: 2391
+    name: Jackdaw GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76486:
+    id: 76486
+    marketGroup: 1963
+    name: Rattlesnake GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76487:
+    id: 76487
+    marketGroup: 2038
+    name: Heretic GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76488:
+    id: 76488
+    marketGroup: 2027
+    name: Vargur GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76489:
+    id: 76489
+    marketGroup: 2062
+    name: Stiletto GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76490:
+    id: 76490
+    marketGroup: 1958
+    name: Myrmidon GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76491:
+    id: 76491
+    marketGroup: 1992
+    name: Exequror GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76492:
+    id: 76492
+    marketGroup: 2012
+    name: Hulk GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76493:
+    id: 76493
+    marketGroup: 2321
+    name: Venture GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76494:
+    id: 76494
+    marketGroup: 2312
+    name: Gnosis GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76495:
+    id: 76495
+    marketGroup: 2030
+    name: Stratios GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76496:
+    id: 76496
+    marketGroup: 2072
+    name: Muninn GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76951:
+    id: 76951
+    marketGroup: 2071
+    name: Ishtar Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76952:
+    id: 76952
+    marketGroup: 2112
+    name: Sin Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76953:
+    id: 76953
+    marketGroup: 2106
+    name: Eos Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76954:
+    id: 76954
+    marketGroup: 2049
+    name: Ishkur Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76955:
+    id: 76955
+    marketGroup: 2070
+    name: Eagle Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76956:
+    id: 76956
+    marketGroup: 2025
+    name: Golem Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76957:
+    id: 76957
+    marketGroup: 2048
+    name: Hawk Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  76958:
+    id: 76958
+    marketGroup: 2105
+    name: Vulture Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77041:
+    id: 77041
+    name: Capsule Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77043:
+    id: 77043
+    name: Apotheosis Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77044:
+    id: 77044
+    name: Sunesis Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77045:
+    id: 77045
+    name: Gnosis Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77046:
+    id: 77046
+    name: Praxis Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77047:
+    id: 77047
+    name: Dramiel Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77048:
+    id: 77048
+    name: Cynabal Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77049:
+    id: 77049
+    name: Worm Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77050:
+    id: 77050
+    name: Gila Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77051:
+    id: 77051
+    name: Caldari Shuttle Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77052:
+    id: 77052
+    name: Amarr Shuttle Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77053:
+    id: 77053
+    name: Gallente Shuttle Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77054:
+    id: 77054
+    name: Minmatar Shuttle Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77115:
+    id: 77115
+    name: Metamorphosis Capsuleer Day XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77164:
+    id: 77164
+    marketGroup: 2279
+    name: Minokawa Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77165:
+    id: 77165
+    marketGroup: 2108
+    name: Scorpion Navy Issue Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77166:
+    id: 77166
+    marketGroup: 2103
+    name: Drake Navy Issue Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77167:
+    id: 77167
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77168:
+    id: 77168
+    marketGroup: 1978
+    name: Avatar Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77169:
+    id: 77169
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77170:
+    id: 77170
+    marketGroup: 1983
+    name: Naglfar Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77171:
+    id: 77171
+    marketGroup: 2108
+    name: Megathron Navy Issue Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77172:
+    id: 77172
+    marketGroup: 2285
+    name: Capsule Capsuleer Elite XX SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77173:
+    id: 77173
+    marketGroup: 1957
+    name: Drake Gilded Predator SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77174:
+    id: 77174
+    marketGroup: 1965
+    name: Raven Gilded Predator SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77175:
+    id: 77175
+    marketGroup: 2071
+    name: Ishtar Gilded Predator SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77176:
+    id: 77176
+    marketGroup: 2030
+    name: Gila Gilded Predator SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77177:
+    id: 77177
+    marketGroup: 1966
+    name: Megathron Gilded Predator SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77178:
+    id: 77178
+    marketGroup: 2070
+    name: Eagle Gilded Predator SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

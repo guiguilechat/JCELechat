@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.model</groupId>
 		<artifactId>sde</artifactId>
-		<version>7.0.5</version>
+		<version>7.0.6</version>
 	</parent>
 	<artifactId>SDE-Types-compiler</artifactId>
 	<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
@@ -14,9 +14,22 @@ At the moment it creates classes for items in the SDE, considering their attribu
 	<name>SDE-Types-compiler</name>
 	<dependencies>
 		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>JCESI</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Raw</artifactId>
 			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.lelouet.tools</groupId>
+			<artifactId>Compilation</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -24,17 +37,8 @@ At the moment it creates classes for items in the SDE, considering their attribu
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>fr.lelouet.tools</groupId>
-			<artifactId>Compilation</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>JCESI</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<optional>true</optional>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
 		</dependency>
 	</dependencies>
 </project>
