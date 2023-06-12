@@ -1,7 +1,8 @@
-package fr.guiguilechat.jcelechat.model.sde.industry;
+package fr.guiguilechat.jcelechat.model.sde.industry.activities;
 
 import java.util.Map;
-import java.util.function.Function;
+
+import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
 
 public class Copying {
 
@@ -20,7 +21,11 @@ public class Copying {
 		return ret;
 	}
 
-	public static double baseCost(Blueprint bpo, Function<Integer, Double> getAdjusted) {
-		return 0.02 * bpo.makeEIV(getAdjusted);
+	public static double installationCost(double bpEIV, int nbRuns, int runsPerCopy, double costIndexMult,
+			double locationManufCostMult,
+			double taxMult, boolean alphaclone) {
+		return Activity.installationCost(bpEIV, nbRuns * runsPerCopy, costIndexMult, locationManufCostMult, taxMult,
+				alphaclone,
+				2.0 / 100);
 	}
 }
