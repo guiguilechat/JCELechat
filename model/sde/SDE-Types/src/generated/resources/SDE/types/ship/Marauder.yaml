@@ -1,6 +1,6 @@
 types:
   28659:
-    agility: 0.11900000274181366
+    agility: 0.06859999895095825
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.6000000238418579
     armorhp: 8800.0
@@ -44,7 +44,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1081
-    mass: 9.2245E7
+    mass: 1.6E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
     maxpassengers: 999
@@ -80,7 +80,7 @@ types:
     shieldrechargerate: 2272000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonusab: 7.5
+    shipbonusab: 5.0
     shipbonusab2: -10.0
     shipbonuscb: 5
     shipbonusmb: 5.0
@@ -99,10 +99,10 @@ types:
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   28661:
-    agility: 0.11699999868869781
+    agility: 0.07400000095367432
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 7900.0
+    armorhp: 8500.0
     armorkineticdamageresonance: 0.48750001192092896
     armorthermaldamageresonance: 0.5687500238418579
     armoruniformity: 0.75
@@ -136,20 +136,20 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.5
-    hislots: 8
-    hp: 9500.0
+    hislots: 7
+    hp: 8900.0
     id: 28661
     kineticdamageresonance: 0.6700000166893005
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1083
-    mass: 9.348E7
+    mass: 1.48E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
     maxpassengers: 1000
     maxtargetrange: 117000.0
     maxvelocity: 105.0
-    medslots: 4
+    medslots: 5
     metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Kronos
@@ -199,10 +199,10 @@ types:
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   28665:
-    agility: 0.10999999940395355
+    agility: 0.07100000232458115
     armoremdamageresonance: 0.30000001192092896
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 7300.0
+    armorhp: 7800.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.5687500238418579
     armoruniformity: 0.75
@@ -216,7 +216,7 @@ types:
     dronebandwidth: 50
     dronecapacity: 75
     elitebonusviolators1: 7.5
-    elitebonusviolators2: 7.5
+    elitebonusviolators2: 5.0
     elitebonusviolatorsrole1: 100
     elitebonusviolatorsrole2: 100
     elitebonusviolatorsrole3: 100
@@ -236,14 +236,14 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.5
-    hislots: 8
+    hislots: 7
     hp: 6900.0
     id: 28665
     kineticdamageresonance: 0.6700000166893005
-    lowslots: 5
+    lowslots: 6
     maincolor: 16777215
     marketGroup: 1084
-    mass: 9.652E7
+    mass: 1.5E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
     maxpassengers: 1000
@@ -272,7 +272,7 @@ types:
     scanladarstrength: 20.0
     scanresolution: 180.0
     scanspeed: 6750
-    shieldcapacity: 8300.0
+    shieldcapacity: 7800.0
     shieldemdamageresonance: 0.75
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6000000238418579
@@ -298,7 +298,7 @@ types:
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   28710:
-    agility: 0.11999999731779099
+    agility: 0.07699999958276749
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 6700.0
@@ -343,7 +343,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1082
-    mass: 9.4335E7
+    mass: 1.57E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
     maxpassengers: 1000

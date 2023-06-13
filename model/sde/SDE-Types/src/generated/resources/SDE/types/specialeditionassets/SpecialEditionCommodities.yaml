@@ -3802,3 +3802,13 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  77427:
+    cpumultiplier: 1.0
+    id: 77427
+    marketGroup: 1663
+    mass: 0.10000000149011612
+    name: Historic Capsuleer Day Clothing Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

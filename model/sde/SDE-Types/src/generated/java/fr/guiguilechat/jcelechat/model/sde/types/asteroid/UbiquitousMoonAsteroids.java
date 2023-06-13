@@ -47,13 +47,20 @@ public class UbiquitousMoonAsteroids
     @DefaultIntValue(0)
     public int orebasictype;
     /**
+     * The skill required to reprocess this ore type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int reprocessingskilltype;
+    /**
      * Resistance against Stasis Webifiers
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, ReprocessingSkillType.INSTANCE, AsteroidMaxRadius.INSTANCE, OreBasicType.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AsteroidMaxRadius.INSTANCE, OreBasicType.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final UbiquitousMoonAsteroids.MetaGroup METAGROUP = new UbiquitousMoonAsteroids.MetaGroup();
 
     @Override
@@ -66,6 +73,10 @@ public class UbiquitousMoonAsteroids
             case  2711 :
             {
                 return orebasictype;
+            }
+            case  790 :
+            {
+                return reprocessingskilltype;
             }
             case  2115 :
             {

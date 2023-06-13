@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Arkonor;
@@ -38,6 +37,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Jaspet;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Kernite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mercoxit;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mordunium;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mutanite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Omber;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Plagioclase;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Pyroxeres;
@@ -95,13 +95,6 @@ public abstract class Asteroid
     @DefaultRealValue(0.0)
     public double radius;
     /**
-     * The skill required to reprocess this ore type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int reprocessingskilltype;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -115,7 +108,7 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, ReprocessingSkillType.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
@@ -140,10 +133,6 @@ public abstract class Asteroid
             case  162 :
             {
                 return radius;
-            }
-            case  790 :
-            {
-                return reprocessingskilltype;
             }
             case  182 :
             {
@@ -186,7 +175,7 @@ public abstract class Asteroid
 
         @Override
         public Collection<IMetaGroup<? extends Asteroid>> groups() {
-            return Arrays.asList(Mordunium.METAGROUP, Ytirium.METAGROUP, Eifyrium.METAGROUP, Ducinium.METAGROUP, Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP, Talassonite.METAGROUP, Rakovene.METAGROUP, Bezdnacine.METAGROUP);
+            return Arrays.asList(Mordunium.METAGROUP, Ytirium.METAGROUP, Eifyrium.METAGROUP, Ducinium.METAGROUP, Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, Mutanite.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP, Talassonite.METAGROUP, Rakovene.METAGROUP, Bezdnacine.METAGROUP);
         }
     }
 }

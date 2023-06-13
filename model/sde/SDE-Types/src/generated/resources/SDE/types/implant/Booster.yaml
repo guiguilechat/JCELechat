@@ -8935,7 +8935,7 @@ types:
     willpowerbonus: 10
   76050:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0199999809265137
     damagemultiplierbonus: 2
@@ -8954,7 +8954,7 @@ types:
     volume: 1.0
   76051:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0399999618530273
     damagemultiplierbonus: 4
@@ -8974,7 +8974,7 @@ types:
     volume: 1.0
   76052:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.059999942779541
     damagemultiplierbonus: 6
@@ -8994,7 +8994,7 @@ types:
     volume: 1.0
   76053:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0800000429153442
     damagemultiplierbonus: 8
@@ -9015,7 +9015,7 @@ types:
   76054:
     armorhpbonus: 3
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 3.0
@@ -9039,7 +9039,7 @@ types:
   76055:
     armorhpbonus: 6
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 6.0
@@ -9064,7 +9064,7 @@ types:
   76056:
     armorhpbonus: 9
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 9.0
@@ -9089,7 +9089,7 @@ types:
   76057:
     armorhpbonus: 12
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 12.0
@@ -9113,7 +9113,7 @@ types:
     volume: 1.0
   76058:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     dronetrackingbonus: 3
@@ -9134,7 +9134,7 @@ types:
     volume: 1.0
   76059:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     dronetrackingbonus: 6
@@ -9156,7 +9156,7 @@ types:
     volume: 1.0
   76060:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     dronetrackingbonus: 9
@@ -9178,7 +9178,7 @@ types:
     volume: 1.0
   76061:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     dronetrackingbonus: 12
@@ -9200,7 +9200,7 @@ types:
     volume: 1.0
   76062:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76062
@@ -9222,7 +9222,7 @@ types:
     volume: 1.0
   76063:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76063
@@ -9245,7 +9245,7 @@ types:
     volume: 1.0
   76064:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76064
@@ -9268,7 +9268,7 @@ types:
     volume: 1.0
   76065:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76065
@@ -9291,7 +9291,7 @@ types:
     volume: 1.0
   76066:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -4
@@ -9313,7 +9313,7 @@ types:
     volume: 1.0
   76067:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -8
@@ -9336,7 +9336,7 @@ types:
     volume: 1.0
   76068:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -12
@@ -9359,7 +9359,7 @@ types:
     volume: 1.0
   76069:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -16
@@ -9382,7 +9382,7 @@ types:
     volume: 1.0
   76070:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -3
     damagemultiplier: 1.0
@@ -9403,7 +9403,7 @@ types:
     warpsbonus: 3
   76071:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -6
     damagemultiplier: 1.0
@@ -9425,7 +9425,7 @@ types:
     warpsbonus: 6
   76072:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -9
     damagemultiplier: 1.0
@@ -9447,7 +9447,7 @@ types:
     warpsbonus: 9
   76073:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -12
     damagemultiplier: 1.0
@@ -9469,7 +9469,7 @@ types:
     warpsbonus: 12
   76074:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0199999809265137
     id: 76074
@@ -9488,7 +9488,7 @@ types:
     volume: 1.0
   76075:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0399999618530273
     id: 76075
@@ -9508,7 +9508,7 @@ types:
     volume: 1.0
   76076:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.059999942779541
     id: 76076
@@ -9528,7 +9528,7 @@ types:
     volume: 1.0
   76077:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0800000429153442
     id: 76077
@@ -9548,7 +9548,7 @@ types:
     volume: 1.0
   76078:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 3.0
@@ -9569,7 +9569,7 @@ types:
     volume: 1.0
   76079:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 6.0
@@ -9591,7 +9591,7 @@ types:
     volume: 1.0
   76080:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 9.0
@@ -9613,7 +9613,7 @@ types:
     volume: 1.0
   76081:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 12.0
@@ -9636,7 +9636,7 @@ types:
   76082:
     aoevelocitybonus: 4.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     id: 76082
@@ -9656,7 +9656,7 @@ types:
   76083:
     aoevelocitybonus: 8.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     id: 76083
@@ -9677,7 +9677,7 @@ types:
   76084:
     aoevelocitybonus: 12.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     id: 76084
@@ -9698,7 +9698,7 @@ types:
   76085:
     aoevelocitybonus: 16.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     id: 76085
@@ -9719,7 +9719,7 @@ types:
   76086:
     armorrepairbonus: 3
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76086
@@ -9739,7 +9739,7 @@ types:
   76087:
     armorrepairbonus: 6
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76087
@@ -9760,7 +9760,7 @@ types:
   76088:
     armorrepairbonus: 9
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76088
@@ -9781,7 +9781,7 @@ types:
   76089:
     armorrepairbonus: 12
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76089
@@ -9801,7 +9801,7 @@ types:
     volume: 1.0
   76090:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -4
@@ -9823,7 +9823,7 @@ types:
     volume: 1.0
   76091:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -8
@@ -9846,7 +9846,7 @@ types:
     volume: 1.0
   76092:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -12
@@ -9869,7 +9869,7 @@ types:
     volume: 1.0
   76093:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -16
@@ -9892,7 +9892,7 @@ types:
     volume: 1.0
   76094:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -3
     damagemultiplier: 1.0
@@ -9913,7 +9913,7 @@ types:
     warpsbonus: 3
   76095:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -6
     damagemultiplier: 1.0
@@ -9935,7 +9935,7 @@ types:
     warpsbonus: 6
   76096:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -9
     damagemultiplier: 1.0
@@ -9957,7 +9957,7 @@ types:
     warpsbonus: 9
   76097:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -12
     damagemultiplier: 1.0
@@ -9979,7 +9979,7 @@ types:
     warpsbonus: 12
   76098:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0199999809265137
     id: 76098
@@ -9998,7 +9998,7 @@ types:
     volume: 1.0
   76099:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0399999618530273
     id: 76099
@@ -10018,7 +10018,7 @@ types:
     volume: 1.0
   76100:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.059999942779541
     id: 76100
@@ -10038,7 +10038,7 @@ types:
     volume: 1.0
   76101:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0800000429153442
     id: 76101
@@ -10058,7 +10058,7 @@ types:
     volume: 1.0
   76102:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 3.0
@@ -10078,7 +10078,7 @@ types:
     volume: 1.0
   76103:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 6.0
@@ -10099,7 +10099,7 @@ types:
     volume: 1.0
   76104:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 9.0
@@ -10120,7 +10120,7 @@ types:
     volume: 1.0
   76105:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 12.0
@@ -10142,7 +10142,7 @@ types:
   76106:
     aoecloudsizebonus: -3.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     id: 76106
@@ -10162,7 +10162,7 @@ types:
   76107:
     aoecloudsizebonus: -6.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     id: 76107
@@ -10183,7 +10183,7 @@ types:
   76108:
     aoecloudsizebonus: -9.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     id: 76108
@@ -10204,7 +10204,7 @@ types:
   76109:
     aoecloudsizebonus: -12.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     id: 76109
@@ -10224,7 +10224,7 @@ types:
     volume: 1.0
   76110:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76110
@@ -10246,7 +10246,7 @@ types:
     volume: 1.0
   76111:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76111
@@ -10269,7 +10269,7 @@ types:
     volume: 1.0
   76112:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76112
@@ -10292,7 +10292,7 @@ types:
     volume: 1.0
   76113:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     id: 76113
@@ -10315,7 +10315,7 @@ types:
     volume: 1.0
   76114:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -4
@@ -10337,7 +10337,7 @@ types:
     volume: 1.0
   76115:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -8
@@ -10360,7 +10360,7 @@ types:
     volume: 1.0
   76116:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -12
@@ -10383,7 +10383,7 @@ types:
     volume: 1.0
   76117:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -16
@@ -10407,7 +10407,7 @@ types:
   76118:
     agilitybonus: -2.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -3
     damagemultiplier: 1.0
@@ -10428,7 +10428,7 @@ types:
   76119:
     agilitybonus: -4.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -6
     damagemultiplier: 1.0
@@ -10450,7 +10450,7 @@ types:
   76120:
     agilitybonus: -6.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -9
     damagemultiplier: 1.0
@@ -10472,7 +10472,7 @@ types:
   76121:
     agilitybonus: -8.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -12
     damagemultiplier: 1.0
@@ -10493,7 +10493,7 @@ types:
     warpsbonus: 12
   76122:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0199999809265137
     damagemultiplierbonus: 2
@@ -10512,7 +10512,7 @@ types:
     volume: 1.0
   76123:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0399999618530273
     damagemultiplierbonus: 4
@@ -10532,7 +10532,7 @@ types:
     volume: 1.0
   76124:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.059999942779541
     damagemultiplierbonus: 6
@@ -10552,7 +10552,7 @@ types:
     volume: 1.0
   76125:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0800000429153442
     damagemultiplierbonus: 8
@@ -10573,7 +10573,7 @@ types:
   76126:
     armorhpbonus: 3
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 3.0
@@ -10597,7 +10597,7 @@ types:
   76127:
     armorhpbonus: 6
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 6.0
@@ -10622,7 +10622,7 @@ types:
   76128:
     armorhpbonus: 9
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 9.0
@@ -10647,7 +10647,7 @@ types:
   76129:
     armorhpbonus: 12
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     falloffbonus: 12.0
@@ -10671,7 +10671,7 @@ types:
     volume: 1.0
   76130:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     dronetrackingbonus: 3
@@ -10692,7 +10692,7 @@ types:
     volume: 1.0
   76131:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     dronetrackingbonus: 6
@@ -10714,7 +10714,7 @@ types:
     volume: 1.0
   76132:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     dronetrackingbonus: 9
@@ -10736,7 +10736,7 @@ types:
     volume: 1.0
   76133:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 17
     damagemultiplier: 1.0
     dronetrackingbonus: 12
@@ -10759,7 +10759,7 @@ types:
   76134:
     armorrepairbonus: 3
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     hulldamageresistancebonus: -2
@@ -10779,7 +10779,7 @@ types:
   76135:
     armorrepairbonus: 6
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     hulldamageresistancebonus: -4
@@ -10800,7 +10800,7 @@ types:
   76136:
     armorrepairbonus: 9
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     hulldamageresistancebonus: -6
@@ -10821,7 +10821,7 @@ types:
   76137:
     armorrepairbonus: 12
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 15
     damagemultiplier: 1.0
     hulldamageresistancebonus: -8
@@ -10841,7 +10841,7 @@ types:
     volume: 1.0
   76138:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -4
@@ -10863,7 +10863,7 @@ types:
     volume: 1.0
   76139:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -8
@@ -10886,7 +10886,7 @@ types:
     volume: 1.0
   76140:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -12
@@ -10909,7 +10909,7 @@ types:
     volume: 1.0
   76141:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 14
     damagemultiplier: 1.0
     durationbonus: -16
@@ -10933,7 +10933,7 @@ types:
   76142:
     agilitybonus: -2.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -3
     damagemultiplier: 1.0
@@ -10954,7 +10954,7 @@ types:
   76143:
     agilitybonus: -4.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -6
     damagemultiplier: 1.0
@@ -10976,7 +10976,7 @@ types:
   76144:
     agilitybonus: -6.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -9
     damagemultiplier: 1.0
@@ -10998,7 +10998,7 @@ types:
   76145:
     agilitybonus: -8.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 19521.45703125
+    boosterlastinjectiondatetime: 19605.458984375
     boosterness: 16
     capneedbonus: -12
     damagemultiplier: 1.0
@@ -11026,7 +11026,7 @@ types:
     followsjumpclones: 1
     id: 76506
     intelligencebonus: 8
-    marketGroup: 1497
+    marketGroup: 2487
     memorybonus: 8
     name: Potent Capsuleer Day XX Cerebral Accelerator
     nondestructible: 1
@@ -11051,7 +11051,7 @@ types:
     followsjumpclones: 1
     id: 76507
     intelligencebonus: 6
-    marketGroup: 1497
+    marketGroup: 2487
     memorybonus: 6
     name: Extended Capsuleer Day XX Cerebral Accelerator
     nondestructible: 1
@@ -11076,7 +11076,7 @@ types:
     followsjumpclones: 1
     id: 76508
     intelligencebonus: 4
-    marketGroup: 1497
+    marketGroup: 2487
     memorybonus: 4
     name: Basic Capsuleer Day XX Cerebral Accelerator
     nondestructible: 1

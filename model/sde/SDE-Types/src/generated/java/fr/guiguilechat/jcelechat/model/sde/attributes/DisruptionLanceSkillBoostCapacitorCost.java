@@ -3,17 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class TargetPainterResistanceBonus
+public class DisruptionLanceSkillBoostCapacitorCost
     extends IntAttribute
 {
-    public static final TargetPainterResistanceBonus INSTANCE = new TargetPainterResistanceBonus();
+    public static final DisruptionLanceSkillBoostCapacitorCost INSTANCE = new DisruptionLanceSkillBoostCapacitorCost();
 
     @Override
     public int getId() {
-        return  2424;
+        return  5419;
     }
 
     @Override
@@ -28,7 +25,7 @@ public class TargetPainterResistanceBonus
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class TargetPainterResistanceBonus
 
     @Override
     public String toString() {
-        return "TargetPainterResistanceBonus";
+        return "DisruptionLanceSkillBoostCapacitorCost";
     }
 }

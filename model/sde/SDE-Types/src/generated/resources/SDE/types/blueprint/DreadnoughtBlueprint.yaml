@@ -120,3 +120,43 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  77414:
+    id: 77414
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    name: Hubris Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  77415:
+    id: 77415
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    name: Karura Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  77416:
+    id: 77416
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    name: Valravn Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  77417:
+    id: 77417
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
+    name: Bane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

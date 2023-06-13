@@ -1159,3 +1159,23 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
+  77739:
+    cannotbetrainedontrial: 1
+    disruptionlanceskillboostcapacitorcost: -5
+    id: 77739
+    marketGroup: 364
+    name: Disruptive Lance Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 11433
+    requiredskill1level: 4
+    requiredskill2: 3421
+    requiredskill2level: 4
+    requiredskill3: 11207
+    requiredskill3level: 5
+    secondaryattribute: 165
+    skilltimeconstant: 14.0
+    volume: 0.009999999776482582

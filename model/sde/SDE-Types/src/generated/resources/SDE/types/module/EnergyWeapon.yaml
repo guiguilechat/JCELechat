@@ -7122,6 +7122,7 @@ types:
   37290:
     aitankingmodifierdrone: 0.699999988079071
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 180.0
     capacity: 1.0
     chargegroup1: 86
@@ -7161,6 +7162,7 @@ types:
   37296:
     aitankingmodifierdrone: 0.699999988079071
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 180.0
     capacity: 1.0
     chargegroup1: 86
@@ -7204,6 +7206,7 @@ types:
   37297:
     aitankingmodifierdrone: 0.699999988079071
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 180.0
     capacity: 1.0
     chargegroup1: 86
@@ -7324,6 +7327,7 @@ types:
   41063:
     aitankingmodifierdrone: 0.699999988079071
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 162.0
     capacity: 1.0
     chargegroup1: 86
@@ -7364,6 +7368,7 @@ types:
   41064:
     aitankingmodifierdrone: 0.699999988079071
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 180.0
     capacity: 1.0
     chargegroup1: 86
@@ -7404,6 +7409,7 @@ types:
   41065:
     aitankingmodifierdrone: 0.699999988079071
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 180.0
     capacity: 1.0
     chargegroup1: 86
@@ -7444,6 +7450,7 @@ types:
   41066:
     aitankingmodifierdrone: 0.699999988079071
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 180.0
     capacity: 1.0
     chargegroup1: 86
@@ -7486,6 +7493,7 @@ types:
   41067:
     aitankingmodifierdrone: 0.699999988079071
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 180.0
     capacity: 1.0
     chargegroup1: 86

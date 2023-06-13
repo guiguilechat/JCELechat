@@ -38364,6 +38364,42 @@ offers:
       quantity: 1
     requirements:
       lp: 18500
+  18071:
+    id: 18071
+    name: LM-Composite Molecular Condenser
+    product:
+      id: 57445
+      quantity: 1
+    requirements:
+      isk: 500000
+      lp: 600
+  18072:
+    id: 18072
+    name: AG-Composite Molecular Condenser
+    product:
+      id: 57446
+      quantity: 1
+    requirements:
+      isk: 500000
+      lp: 600
+  18073:
+    id: 18073
+    name: CV-Composite Molecular Condenser
+    product:
+      id: 57447
+      quantity: 1
+    requirements:
+      isk: 500000
+      lp: 600
+  18074:
+    id: 18074
+    name: AV-Composite Molecular Condenser
+    product:
+      id: 57448
+      quantity: 1
+    requirements:
+      isk: 500000
+      lp: 600
   18075:
     id: 18075
     name: Bustard Alliance Emblem

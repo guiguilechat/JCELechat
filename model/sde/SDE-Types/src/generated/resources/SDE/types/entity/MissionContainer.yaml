@@ -1,68 +1,111 @@
 types:
   2077:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 500.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 2077
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     name: Amarr Frigate Container
     portionSize: 1
     published: false
     radius: 39.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
   2163:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 100.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 2163
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     name: CONCORD Collection Vessel
     portionSize: 1
     published: false
     radius: 39.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
   2187:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 500.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 2187
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     name: Orca Container
     portionSize: 1
     published: false
     radius: 550.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
   2189:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 600.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 2189
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 1.05E8
     name: Drone Infested Dominix
@@ -70,23 +113,35 @@ types:
     portionSize: 1
     published: false
     radius: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1010000.0
   2214:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 2214
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 100000.0
     name: Guard Post
@@ -94,23 +149,35 @@ types:
     portionSize: 1
     published: false
     radius: 4007.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   2903:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 2903
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Manager's Station
@@ -118,15 +185,25 @@ types:
     portionSize: 1
     published: false
     radius: 918.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   3054:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 10
@@ -134,9 +211,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 5000.0
     id: 3054
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     mass: 100000.0
     name: Sansha Territorial Reclamation Outpost
@@ -145,18 +224,30 @@ types:
     published: false
     radius: 1239.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   3495:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 1.0E7
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 3495
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     mass: 100000.0
     name: Shield Transfer Control Tower
@@ -164,17 +255,29 @@ types:
     portionSize: 1
     published: true
     radius: 3275.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   3502:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 3502
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     mass: 10000.0
     name: Nation Ore Refinery
@@ -182,17 +285,29 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   3503:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 3503
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     mass: 10000.0
     name: Emergency Evacuation Freighter
@@ -200,17 +315,29 @@ types:
     portionSize: 1
     published: false
     radius: 727.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   3508:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 5000000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 3508
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     mass: 100000.0
     name: Sansha Control Relay
@@ -218,22 +345,34 @@ types:
     portionSize: 1
     published: false
     radius: 1239.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   30654:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30654
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Luxury Spaceliner
@@ -241,23 +380,35 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30762:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30762
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Dead Drop
@@ -265,23 +416,35 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30777:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30777
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Mizara Family Hovel
@@ -289,23 +452,35 @@ types:
     portionSize: 1
     published: false
     radius: 379.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30783:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30783
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Colonial Supply Depot
@@ -313,23 +488,35 @@ types:
     portionSize: 1
     published: false
     radius: 379.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30793:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30793
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Storage Warehouse Container
@@ -337,23 +524,35 @@ types:
     portionSize: 1
     published: false
     radius: 727.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30805:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30805
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Wolf Burgan's Hideout
@@ -361,23 +560,35 @@ types:
     portionSize: 1
     published: false
     radius: 918.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30820:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30820
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Generic Cargo Container
@@ -385,38 +596,62 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30899:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 500.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 30899
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     name: Cargo Wreathe
     portionSize: 1
     published: false
     radius: 207.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
   30949:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30949
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Josameto Verification Center
@@ -424,23 +659,35 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30953:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30953
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E8
     mass: 100000.0
     name: Cargo Facility 7A-21
@@ -448,23 +695,35 @@ types:
     portionSize: 1
     published: false
     radius: 1255.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   30965:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 30965
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E8
     mass: 100000.0
     name: Communications Array
@@ -472,23 +731,35 @@ types:
     portionSize: 1
     published: false
     radius: 2636.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32127:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 32127
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E8
     mass: 100.0
     name: Linked Broadcast Array Hub
@@ -496,23 +767,35 @@ types:
     portionSize: 1
     published: false
     radius: 459.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32206:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 32206
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E8
     mass: 100000.0
     name: Defiants Storage Facility
@@ -520,23 +803,35 @@ types:
     portionSize: 1
     published: false
     radius: 1255.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32224:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 32224
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Conference Center
@@ -544,23 +839,35 @@ types:
     portionSize: 1
     published: false
     radius: 379.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32271:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 1
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 32271
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 1.35E7
     name: Business Associate
@@ -568,23 +875,35 @@ types:
     portionSize: 1
     published: false
     radius: 400.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32273:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 1
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1.0E8
     id: 32273
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E8
     mass: 10000.0
     name: Safe House Ruins
@@ -592,23 +911,35 @@ types:
     portionSize: 1
     published: false
     radius: 22578.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32291:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 32291
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Chapel Container
@@ -616,23 +947,35 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32299:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 1
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 32299
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 1.35E7
     name: Senator Pillius Ardanne
@@ -640,23 +983,35 @@ types:
     portionSize: 1
     published: false
     radius: 400.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32394:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 32394
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 10000.0
     name: Serpentis Transport Hub
@@ -664,23 +1019,35 @@ types:
     portionSize: 1
     published: false
     radius: 727.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   32404:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 32404
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 1.2E9
     mass: 100000.0
     name: Cilis Leglise's Headquarters
@@ -688,23 +1055,35 @@ types:
     portionSize: 1
     published: false
     radius: 4007.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   34373:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34373
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 60000.0
     mass: 10000.0
     name: Remote Calibration Device - Low Power
@@ -712,23 +1091,35 @@ types:
     portionSize: 1
     published: false
     radius: 4738.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   34374:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34374
     ishacking: 1
+    kineticdamageresonance: 1.0
     lootrespawntime: 60000.0
     mass: 10000.0
     name: Remote Calibration Device - High Power
@@ -736,22 +1127,34 @@ types:
     portionSize: 1
     published: false
     radius: 4738.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   34391:
     accessdifficulty: -10.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 1
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34391
+    kineticdamageresonance: 1.0
     lootrespawntime: 5000.0
     mass: 10000.0
     name: Solray Gamma Alignment Unit
@@ -759,23 +1162,35 @@ types:
     portionSize: 1
     published: false
     radius: 120.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     tierdifficulty: 4
     volume: 27500.0
   34398:
     accessdifficulty: -10.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 1
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34398
+    kineticdamageresonance: 1.0
     lootrespawntime: 5000.0
     mass: 10000.0
     name: Solray Infrared Alignment Unit
@@ -783,23 +1198,35 @@ types:
     portionSize: 1
     published: false
     radius: 120.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     tierdifficulty: 4
     volume: 27500.0
   34399:
     accessdifficulty: -10.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 1
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34399
+    kineticdamageresonance: 1.0
     lootrespawntime: 5000.0
     mass: 10000.0
     name: Solray Radio Alignment Unit
@@ -807,23 +1234,35 @@ types:
     portionSize: 1
     published: false
     radius: 120.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     tierdifficulty: 4
     volume: 27500.0
   34449:
     accessdifficulty: -10.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 1
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34449
+    kineticdamageresonance: 1.0
     lootrespawntime: 5000.0
     mass: 10000.0
     name: Central Archive Cerebrum
@@ -831,23 +1270,35 @@ types:
     portionSize: 1
     published: false
     radius: 4738.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     tierdifficulty: 4
     volume: 27500.0
   34498:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34498
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Sentinel Vault
@@ -855,22 +1306,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   34499:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34499
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Barbican Vault
@@ -878,22 +1341,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   34500:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34500
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Vidette Vault
@@ -901,22 +1376,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   34501:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34501
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Conflux Vault
@@ -924,22 +1411,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   34502:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 34502
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Redoubt Vault
@@ -947,22 +1446,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   36903:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 36903
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Sentinel Repository
@@ -970,22 +1481,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   36904:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 36904
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Barbican Repository
@@ -993,22 +1516,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   36905:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 36905
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Vidette Repository
@@ -1016,22 +1551,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   36906:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 36906
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Conflux Repository
@@ -1039,22 +1586,34 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   36907:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 2700.0
     capacity: 2700.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000000.0
     id: 36907
+    kineticdamageresonance: 1.0
     lootrespawntime: 3600000.0
     mass: 10000.0
     name: Redoubt Repository
@@ -1062,34 +1621,215 @@ types:
     portionSize: 1
     published: false
     radius: 320.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   40542:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 40542
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     mass: 10000.0
     name: Sisters of EVE Cold Storage Unit
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 27500.0
   46279:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     id: 46279
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     name: The Quartermaster
     portionSize: 1
     published: false
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+  77180:
+    agility: 0.017085937783122063
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 500000.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 394
+    hp: 10000.0
+    id: 77180
+    ishacking: 1
+    kineticdamageresonance: 1.0
+    lootrespawntime: 1.2E9
+    mass: 100000.0
+    maxvelocity: 50.0
+    name: Holder Providence
+    portionSize: 1
+    published: false
+    radius: 550.0
+    rechargerate: 10.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 120.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+  77303:
+    agility: 0.017085937783122063
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 500000.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 397
+    hp: 10000.0
+    id: 77303
+    ishacking: 1
+    kineticdamageresonance: 1.0
+    lootrespawntime: 1.2E9
+    mass: 100000.0
+    maxvelocity: 50.0
+    name: Fenrir Quartermaster
+    portionSize: 1
+    published: false
+    radius: 550.0
+    rechargerate: 10.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 120.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+  77304:
+    agility: 0.017085937783122063
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 500000.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 395
+    hp: 10000.0
+    id: 77304
+    ishacking: 1
+    kineticdamageresonance: 1.0
+    lootrespawntime: 1.2E9
+    mass: 100000.0
+    maxvelocity: 50.0
+    name: Charon Requisition
+    portionSize: 1
+    published: false
+    radius: 550.0
+    rechargerate: 10.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 120.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+  77305:
+    agility: 0.017085937783122063
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 500000.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 394
+    hp: 10000.0
+    id: 77305
+    ishacking: 1
+    kineticdamageresonance: 1.0
+    lootrespawntime: 1.2E9
+    mass: 100000.0
+    maxvelocity: 50.0
+    name: Obelisk Impound
+    portionSize: 1
+    published: false
+    radius: 550.0
+    rechargerate: 10.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 120.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0

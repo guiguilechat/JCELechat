@@ -836,28 +836,6 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 0.10000000149011612
-  74385:
-    agility: 3000.0
-    aimedlaunch: 1
-    armorpiercingchance: 1
-    detonationrange: 35
-    explosiondelay: 100000
-    hp: 10.0
-    id: 74385
-    launchergroup: 56
-    marketGroup: 1663
-    mass: 100.0
-    maxvelocity: 1000.0
-    missileneverdoesdamage: 1
-    name: Scarlet Embrace Firework ( copy )
-    packagedVolume: 0.10000000149011612
-    portionSize: 100
-    published: true
-    radius: 1.0
-    speedmultiplier: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.10000000149011612
   74386:
     agility: 3000.0
     aimedlaunch: 1

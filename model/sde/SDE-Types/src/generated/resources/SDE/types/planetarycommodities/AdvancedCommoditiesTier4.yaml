@@ -5,85 +5,85 @@ types:
     importtaxmultiplier: 1200000
     marketGroup: 1337
     name: Broadcast Node
-    packagedVolume: 100.0
+    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 100.0
+    volume: 50.0
   2868:
     exporttaxmultiplier: 1200000
     id: 2868
     importtaxmultiplier: 1200000
     marketGroup: 1337
     name: Integrity Response Drones
-    packagedVolume: 100.0
+    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 100.0
+    volume: 50.0
   2869:
     exporttaxmultiplier: 1200000
     id: 2869
     importtaxmultiplier: 1200000
     marketGroup: 1337
     name: Nano-Factory
-    packagedVolume: 100.0
+    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 100.0
+    volume: 50.0
   2870:
     exporttaxmultiplier: 1200000
     id: 2870
     importtaxmultiplier: 1200000
     marketGroup: 1337
     name: Organic Mortar Applicators
-    packagedVolume: 100.0
+    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 100.0
+    volume: 50.0
   2871:
     exporttaxmultiplier: 1200000
     id: 2871
     importtaxmultiplier: 1200000
     marketGroup: 1337
     name: Recursive Computing Module
-    packagedVolume: 100.0
+    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 100.0
+    volume: 50.0
   2872:
     exporttaxmultiplier: 1200000
     id: 2872
     importtaxmultiplier: 1200000
     marketGroup: 1337
     name: Self-Harmonizing Power Core
-    packagedVolume: 100.0
+    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 100.0
+    volume: 50.0
   2875:
     exporttaxmultiplier: 1200000
     id: 2875
     importtaxmultiplier: 1200000
     marketGroup: 1337
     name: Sterile Conduits
-    packagedVolume: 100.0
+    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 100.0
+    volume: 50.0
   2876:
     exporttaxmultiplier: 1200000
     id: 2876
     importtaxmultiplier: 1200000
     marketGroup: 1337
     name: Wetware Mainframe
-    packagedVolume: 100.0
+    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 100.0
+    volume: 50.0

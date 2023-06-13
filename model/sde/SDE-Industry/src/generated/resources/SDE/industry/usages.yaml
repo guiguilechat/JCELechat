@@ -130287,6 +130287,7 @@ usages:
       52921: null
       52922: null
   52315:
+    compressFrom: 77524
     reprocessInto:
       34: 400.0
       37: 32.0
@@ -135472,6 +135473,18 @@ usages:
     reprocessInto:
       16670: 44.0
       16678: 11.0
+  77118:
+    compressTo: 1230
+  77419:
+    compressTo: 1230
+  77418:
+    compressTo: 1230
+  77421:
+    compressTo: 1230
+  77420:
+    compressTo: 1230
+  77524:
+    compressTo: 52315
   28617:
     compressTo: 1230
   28618:

@@ -142,3 +142,35 @@ types:
     price: 2.0E8
     published: true
     volume: 0.009999999776482582
+  77402:
+    id: 77402
+    marketGroup: 913
+    name: ‘Atgeir’ Explosive Disruptive Lance Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77403:
+    id: 77403
+    marketGroup: 913
+    name: '''Azmaru'' Electromagnetic Disruptive Lance Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77404:
+    id: 77404
+    marketGroup: 913
+    name: ‘Steel Yari’ Kinetic Disruptive Lance Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77405:
+    id: 77405
+    marketGroup: 913
+    name: ‘Sarissa’ Thermal Disruptive Lance Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

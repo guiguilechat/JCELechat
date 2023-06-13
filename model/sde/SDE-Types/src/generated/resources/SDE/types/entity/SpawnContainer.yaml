@@ -12014,3 +12014,137 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 4
     volume: 27500.0
+  77121:
+    allowrefills: 1
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 77121
+    lootrespawntime: 120000.0
+    mass: 10000.0
+    name: Remote Armor Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
+  77196:
+    allowrefills: 1
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 77196
+    lootrespawntime: 120000.0
+    mass: 10000.0
+    name: Remote Jamming Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
+  77197:
+    allowrefills: 1
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 77197
+    lootrespawntime: 120000.0
+    mass: 10000.0
+    name: Remote Shield Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
+  77198:
+    allowrefills: 1
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 77198
+    lootrespawntime: 120000.0
+    mass: 10000.0
+    name: Remote Cloaking Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+    volume: 27500.0
+  77727:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 6
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 77727
+    lootrespawntime: 2400000.0
+    mass: 10000.0
+    name: Faulty Triglavian Cache
+    packagedVolume: 2750.0
+    portionSize: 1
+    published: false
+    radius: 14.0
+    rechargerate: 1.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 2750.0

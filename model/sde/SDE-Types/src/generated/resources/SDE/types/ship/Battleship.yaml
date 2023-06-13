@@ -1907,9 +1907,9 @@ types:
     battleshipplatehpbonus: 50
     capacitorcapacity: 6000.0
     capacity: 820.0
-    cpuoutput: 780
-    dronebandwidth: 50
-    dronecapacity: 50
+    cpuoutput: 810
+    dronebandwidth: 75
+    dronecapacity: 125
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -1931,7 +1931,7 @@ types:
     id: 24688
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 4
-    lowslots: 5
+    lowslots: 4
     maincolor: 16777215
     marketGroup: 80
     mass: 1.053E8
@@ -1940,7 +1940,7 @@ types:
     maxpassengers: 1000
     maxtargetrange: 108000.0
     maxvelocity: 89.0
-    medslots: 6
+    medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Rokh
     packagedVolume: 50000.0
@@ -2218,7 +2218,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 1000
     maxtargetrange: 90000.0
-    maxvelocity: 94.0
+    maxvelocity: 115.0
     medslots: 6
     mintargetveldmgmultiplier: 0.5
     name: Maelstrom
@@ -2236,7 +2236,7 @@ types:
     rigsize: 3
     rigslots: 3
     scanladarstrength: 21.0
-    scanresolution: 117.0
+    scanresolution: 125.0
     scanspeed: 6750
     shieldcapacity: 8800.0
     shieldemdamageresonance: 1.0
@@ -2247,7 +2247,7 @@ types:
     shielduniformity: 0.75
     shipbonusab: 5.0
     shipbonuscb: 5
-    shipbonusmb: 7.5
+    shipbonusmb: 10.0
     shipbonusmb2: -5.0
     shipbonusub1: 1
     shipbonusub2: 1

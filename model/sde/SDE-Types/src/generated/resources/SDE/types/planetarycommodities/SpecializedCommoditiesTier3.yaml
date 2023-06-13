@@ -5,216 +5,216 @@ types:
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Condensates
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2345:
     exporttaxmultiplier: 60000
     id: 2345
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Camera Drones
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2346:
     exporttaxmultiplier: 60000
     id: 2346
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Synthetic Synapses
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2348:
     exporttaxmultiplier: 60000
     id: 2348
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Gel-Matrix Biopaste
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2349:
     exporttaxmultiplier: 60000
     id: 2349
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Supercomputers
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2351:
     exporttaxmultiplier: 60000
     id: 2351
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Smartfab Units
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2352:
     exporttaxmultiplier: 60000
     id: 2352
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Nuclear Reactors
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2354:
     exporttaxmultiplier: 60000
     id: 2354
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Neocoms
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2358:
     exporttaxmultiplier: 60000
     id: 2358
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Biotech Research Reports
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2360:
     exporttaxmultiplier: 60000
     id: 2360
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Industrial Explosives
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2361:
     exporttaxmultiplier: 60000
     id: 2361
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Hermetic Membranes
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2366:
     exporttaxmultiplier: 60000
     id: 2366
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Hazmat Detection Systems
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   2367:
     exporttaxmultiplier: 60000
     id: 2367
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Cryoprotectant Solution
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   9834:
     exporttaxmultiplier: 60000
     id: 9834
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Guidance Systems
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 380.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   9846:
     exporttaxmultiplier: 60000
     id: 9846
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Planetary Vehicles
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 3730.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   9848:
     exporttaxmultiplier: 60000
     id: 9848
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Robotics
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 6500.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   12836:
     exporttaxmultiplier: 60000
     id: 12836
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Transcranial Microcontrollers
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 5800.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   17136:
     exporttaxmultiplier: 60000
     id: 17136
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Ukomi Superconductors
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 5000.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   17392:
     exporttaxmultiplier: 60000
     id: 17392
@@ -222,33 +222,33 @@ types:
     marketGroup: 1336
     mass: 1.0
     name: Data Chips
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   17898:
     exporttaxmultiplier: 60000
     id: 17898
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: High-Tech Transmitters
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 10000.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0
   28974:
     exporttaxmultiplier: 60000
     id: 28974
     importtaxmultiplier: 60000
     marketGroup: 1336
     name: Vaccines
-    packagedVolume: 6.0
+    packagedVolume: 3.0
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 6.0
+    volume: 3.0

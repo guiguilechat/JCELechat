@@ -5,6 +5,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     consumptionquantity: 250
     consumptiontype: 16275
     cpu: 110.0
@@ -118,6 +119,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     consumptionquantity: 250
     consumptiontype: 16275
     cpu: 100.0
@@ -297,7 +299,7 @@ types:
     disallowdocking: 1
     disallowearlydeactivation: 1
     disallowtethering: 1
-    duration: 30000.0
+    duration: 60000.0
     ecmresistance: 1.0
     falloffbonus: 25.0
     hp: 999999.0
@@ -329,7 +331,6 @@ types:
     scanladarstrengthpercent: 100
     scanmagnetometricstrengthpercent: 100
     scanradarstrengthpercent: 100
-    sensordampenerresistancebonus: -50
     shieldboostmultiplier: 100.0
     shieldemdamageresonance: 0.699999988079071
     shieldexplosivedamageresonance: 0.699999988079071
@@ -337,10 +338,8 @@ types:
     shieldthermaldamageresonance: 0.699999988079071
     siegemodewarpstatus: 100
     speedfactor: -100.0
-    targetpainterresistancebonus: -50
     techlevel: 1
     volume: 200.0
-    weapondisruptionresistancebonus: -50
   42890:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -407,6 +406,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     deactivateifoffensive: 1
     ecmresistance: 1.0
     hullemdamageresonance: 1.0

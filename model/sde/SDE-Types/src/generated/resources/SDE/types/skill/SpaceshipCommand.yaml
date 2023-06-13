@@ -1567,3 +1567,24 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
+  77738:
+    cannotbetrainedontrial: 1
+    id: 77738
+    marketGroup: 377
+    name: Lancer Dreadnoughts
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 4
+    requiredskill2: 22043
+    requiredskill2level: 4
+    requiredskill3: 11433
+    requiredskill3level: 4
+    requiredskill4: 21611
+    requiredskill4level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 16.0
+    volume: 0.009999999776482582

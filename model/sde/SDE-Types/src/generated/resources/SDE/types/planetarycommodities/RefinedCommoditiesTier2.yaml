@@ -5,144 +5,144 @@ types:
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Enriched Uranium
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 5000.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   2312:
     exporttaxmultiplier: 7200
     id: 2312
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Supertensile Plastics
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   2317:
     exporttaxmultiplier: 7200
     id: 2317
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Oxides
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   2319:
     exporttaxmultiplier: 7200
     id: 2319
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Test Cultures
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   2321:
     exporttaxmultiplier: 7200
     id: 2321
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Polyaramids
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   2327:
     exporttaxmultiplier: 7200
     id: 2327
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Microfiber Shielding
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   2328:
     exporttaxmultiplier: 7200
     id: 2328
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Water-Cooled CPU
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   2329:
     exporttaxmultiplier: 7200
     id: 2329
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Biocells
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   2463:
     exporttaxmultiplier: 7200
     id: 2463
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Nanites
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   3689:
     exporttaxmultiplier: 7200
     id: 3689
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Mechanical Parts
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 600.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   3691:
     exporttaxmultiplier: 7200
     id: 3691
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Synthetic Oil
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 320.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   3693:
     exporttaxmultiplier: 7200
     id: 3693
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Fertilizer
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 200.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   3695:
     exporttaxmultiplier: 7200
     id: 3695
@@ -150,24 +150,24 @@ types:
     marketGroup: 1335
     mass: 200.0
     name: Polytextiles
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 400.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   3697:
     exporttaxmultiplier: 7200
     id: 3697
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Silicate Glass
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 185.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   3725:
     exporttaxmultiplier: 7200
     id: 3725
@@ -175,117 +175,117 @@ types:
     marketGroup: 1335
     mass: 900.0
     name: Livestock
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 850.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   3775:
     exporttaxmultiplier: 7200
     id: 3775
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Viral Agent
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 850.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   3828:
     exporttaxmultiplier: 7200
     id: 3828
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Construction Blocks
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 500.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   9830:
     exporttaxmultiplier: 7200
     id: 9830
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Rocket Fuel
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 505.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   9832:
     exporttaxmultiplier: 7200
     id: 9832
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Coolant
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 1000.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   9836:
     exporttaxmultiplier: 7200
     id: 9836
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Consumer Electronics
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 230.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   9838:
     exporttaxmultiplier: 7200
     id: 9838
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Superconductors
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 850.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   9840:
     exporttaxmultiplier: 7200
     id: 9840
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Transmitter
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 313.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   9842:
     exporttaxmultiplier: 7200
     id: 9842
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Miniature Electronics
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 400.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75
   15317:
     exporttaxmultiplier: 7200
     id: 15317
     importtaxmultiplier: 7200
     marketGroup: 1335
     name: Genetically Enhanced Livestock
-    packagedVolume: 1.5
+    packagedVolume: 0.75
     portionSize: 1
     price: 100.0
     published: true
     radius: 1.0
-    volume: 1.5
+    volume: 0.75

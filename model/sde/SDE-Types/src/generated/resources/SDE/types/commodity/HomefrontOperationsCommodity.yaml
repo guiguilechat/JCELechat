@@ -1,0 +1,51 @@
+types:
+  77473:
+    id: 77473
+    mass: 20000.0
+    name: Warclone Blanks Vat
+    packagedVolume: 3500.0
+    portionSize: 1
+    published: true
+    volume: 3500.0
+  77474:
+    id: 77474
+    mass: 20000.0
+    name: Contraband Freight
+    packagedVolume: 3500.0
+    portionSize: 1
+    published: true
+    volume: 3500.0
+  77475:
+    id: 77475
+    mass: 20000.0
+    name: Narcotics Package
+    packagedVolume: 3500.0
+    portionSize: 1
+    published: true
+    volume: 3500.0
+  77476:
+    id: 77476
+    mass: 20000.0
+    name: M.R.F. Supplies
+    packagedVolume: 3500.0
+    portionSize: 1
+    published: true
+    volume: 3500.0
+  77707:
+    id: 77707
+    marketGroup: 2479
+    mass: 1.0
+    name: Unaligned Dekaisogen
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77708:
+    id: 77708
+    marketGroup: 2479
+    mass: 1.0
+    name: Fluctuating Entropic Regulator
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

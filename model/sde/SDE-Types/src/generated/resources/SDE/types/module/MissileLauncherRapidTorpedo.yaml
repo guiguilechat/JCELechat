@@ -1,6 +1,7 @@
 types:
   37288:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacity: 1.5
     chargegroup1: 89
     chargerate: 1
@@ -32,6 +33,7 @@ types:
     volume: 4000.0
   37292:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacity: 1.5
     chargegroup1: 89
     chargegroup2: 657
@@ -67,6 +69,7 @@ types:
     volume: 4000.0
   37293:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacity: 1.725000023841858
     chargegroup1: 89
     chargegroup2: 657
@@ -101,6 +104,7 @@ types:
     volume: 4000.0
   41223:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacity: 1.5
     chargegroup1: 89
     chargerate: 1
@@ -133,6 +137,7 @@ types:
     volume: 4000.0
   41224:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacity: 1.725000023841858
     chargegroup1: 89
     chargerate: 1

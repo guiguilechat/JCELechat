@@ -23,6 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup06;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup07;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup08;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup09;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup10;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -115,6 +116,13 @@ public class StasisGrappler
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup09;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup10;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -242,7 +250,7 @@ public class StasisGrappler
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double speedfactor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, OverloadRangeBonus.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup09 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup04 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipGroup07 .INSTANCE, CanFitShipGroup08 .INSTANCE, RemoteResistanceID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, Falloff.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, OverloadRangeBonus.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup09 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup04 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipGroup07 .INSTANCE, CanFitShipGroup08 .INSTANCE, RemoteResistanceID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, CanFitShipGroup10 .INSTANCE, MetaGroupID.INSTANCE, Falloff.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE })));
     public static final StasisGrappler.MetaGroup METAGROUP = new StasisGrappler.MetaGroup();
 
     @Override
@@ -283,6 +291,10 @@ public class StasisGrappler
             case  2065 :
             {
                 return canfitshipgroup09;
+            }
+            case  2396 :
+            {
+                return canfitshipgroup10;
             }
             case  6 :
             {

@@ -5,52 +5,52 @@ types:
     importtaxmultiplier: 5
     marketGroup: 1333
     name: Microorganisms
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.004999999888241291
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.004999999888241291
   2286:
     exporttaxmultiplier: 5
     id: 2286
     importtaxmultiplier: 5
     marketGroup: 1333
     name: Planktic Colonies
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.004999999888241291
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.004999999888241291
   2287:
     exporttaxmultiplier: 5
     id: 2287
     importtaxmultiplier: 5
     marketGroup: 1333
     name: Complex Organisms
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.004999999888241291
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.004999999888241291
   2288:
     exporttaxmultiplier: 5
     id: 2288
     importtaxmultiplier: 5
     marketGroup: 1333
     name: Carbon Compounds
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.004999999888241291
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.004999999888241291
   2305:
     exporttaxmultiplier: 5
     id: 2305
     importtaxmultiplier: 5
     marketGroup: 1333
     name: Autotrophs
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.004999999888241291
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.004999999888241291

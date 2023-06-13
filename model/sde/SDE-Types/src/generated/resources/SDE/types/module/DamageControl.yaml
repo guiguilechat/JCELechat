@@ -190,6 +190,7 @@ types:
     canfitshipgroup04: 30
     canfitshipgroup05: 659
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorneed: 10000.0
     cpu: 80.0
     disallowrepeatingactivation: 1
@@ -229,6 +230,7 @@ types:
     canfitshipgroup04: 30
     canfitshipgroup05: 659
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorneed: 10000.0
     cpu: 60.0
     disallowrepeatingactivation: 1
@@ -269,6 +271,7 @@ types:
     canfitshipgroup04: 30
     canfitshipgroup05: 659
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorneed: 8000.0
     cpu: 80.0
     disallowrepeatingactivation: 1
@@ -309,6 +312,7 @@ types:
     canfitshipgroup04: 30
     canfitshipgroup05: 659
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorneed: 12000.0
     cpu: 80.0
     disallowrepeatingactivation: 1
@@ -349,6 +353,7 @@ types:
     canfitshipgroup04: 30
     canfitshipgroup05: 659
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorneed: 8000.0
     cpu: 80.0
     disallowrepeatingactivation: 1

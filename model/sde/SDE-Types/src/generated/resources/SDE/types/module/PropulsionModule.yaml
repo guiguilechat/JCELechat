@@ -3390,6 +3390,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 75.0
@@ -3424,6 +3425,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 43.0
@@ -3459,6 +3461,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 7200.0
     cpu: 43.0
@@ -3494,6 +3497,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 75.0
@@ -3529,6 +3533,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 75.0
@@ -3565,6 +3570,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 83.0
@@ -3601,6 +3607,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 0.75
     capacitorneed: 10000.0
     cpu: 100.0
@@ -3637,6 +3644,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 0.75
     capacitorneed: 10000.0
     cpu: 85.0
@@ -3674,6 +3682,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 0.800000011920929
     capacitorneed: 10000.0
     cpu: 100.0
@@ -3711,6 +3720,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 0.75
     capacitorneed: 9000.0
     cpu: 100.0
@@ -3748,6 +3758,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 0.800000011920929
     capacitorneed: 11000.0
     cpu: 100.0
@@ -3784,6 +3795,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 0.8999999761581421
     capacitorneed: 10000.0
     cpu: 100.0
@@ -3822,6 +3834,7 @@ types:
     canfitshipgroup04: 659
     canfitshipgroup05: 30
     canfitshipgroup06: 883
+    canfitshipgroup07: 4594
     capacitorcapacitymultiplier: 0.8999999761581421
     capacitorneed: 10000.0
     cpu: 110.0

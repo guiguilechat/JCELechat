@@ -3544,11 +3544,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Cargo Manifest
-    packagedVolume: 0.5
+    packagedVolume: 3.0
     portionSize: 1
     price: 100.0
     published: true
-    volume: 0.5
+    volume: 3.0
   28996:
     exporttaxmultiplier: 1
     id: 28996

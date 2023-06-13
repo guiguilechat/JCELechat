@@ -28749,7 +28749,6 @@ id2group:
   74158: skins/PermanentSKIN
   74160: skins/PermanentSKIN
   74316: ship/HeavyAssaultCruiser
-  74385: charge/FestivalCharges
   74386: charge/FestivalCharges
   74387: specialeditionassets/SpecialEditionCommodities
   74397: station/Station
@@ -29194,14 +29193,6 @@ id2group:
   75909: skins/PermanentSKIN
   75910: skins/PermanentSKIN
   75911: skins/PermanentSKIN
-  75928: entity/InterstellarShipcasterBeacon
-  75929: entity/InterstellarShipcasterBeacon
-  75930: entity/InterstellarShipcasterBeacon
-  75931: entity/InterstellarShipcasterBeacon
-  75932: entity/InterstellarShipcasterBeaconConstructionStructure
-  75933: entity/InterstellarShipcasterBeaconConstructionStructure
-  75934: entity/InterstellarShipcasterBeaconConstructionStructure
-  75935: entity/InterstellarShipcasterBeaconConstructionStructure
   76016: entity/IrregularFrigate
   76017: entity/IrregularFrigate
   76018: entity/IrregularFrigate
@@ -29666,6 +29657,7 @@ id2group:
   76986: specialeditionassets/SpecialEditionCommodities
   77005: personalization/ShipPersonalization
   77006: personalization/ShipPersonalization
+  77019: entity/HomefrontOperationsAlliedDreadnought
   77041: skins/PermanentSKIN
   77043: skins/PermanentSKIN
   77044: skins/PermanentSKIN
@@ -29680,12 +29672,18 @@ id2group:
   77053: skins/PermanentSKIN
   77054: skins/PermanentSKIN
   77055: specialeditionassets/SpecialEditionCommodities
+  77065: entity/HomefrontOperationsStructure
+  77066: entity/HomefrontOperationsEnemyHauler
   77097: entity/SpawnContainer
   77098: entity/SpawnContainer
   77099: entity/SpawnContainer
   77100: entity/SpawnContainer
   77114: ship/Frigate
   77115: skins/PermanentSKIN
+  77118: asteroid/Mutanite
+  77120: entity/HomefrontOperationsStructure
+  77121: entity/SpawnContainer
+  77126: entity/HomefrontOperationsStructure
   77127: entity/IrregularFrigate
   77128: entity/IrregularFrigate
   77129: entity/IrregularFrigate
@@ -29722,6 +29720,251 @@ id2group:
   77176: skins/PermanentSKIN
   77177: skins/PermanentSKIN
   77178: skins/PermanentSKIN
+  77180: entity/MissionContainer
+  77183: entity/HomefrontOperationsAlliedDreadnought
+  77184: entity/HomefrontOperationsAlliedDreadnought
+  77185: entity/HomefrontOperationsAlliedDreadnought
+  77195: entity/HomefrontOperationsStructure
+  77196: entity/SpawnContainer
+  77197: entity/SpawnContainer
+  77198: entity/SpawnContainer
+  77199: entity/HomefrontOperationsStructure
+  77200: entity/HomefrontOperationsStructure
+  77251: entity/HomefrontOperationsStructure
+  77252: entity/HomefrontOperationsStructure
+  77253: entity/HomefrontOperationsStructure
+  77254: entity/HomefrontOperationsEnemyFrigate
+  77255: entity/HomefrontOperationsEnemyFrigate
+  77256: entity/HomefrontOperationsEnemyFrigate
+  77257: entity/HomefrontOperationsEnemyDestroyer
+  77258: entity/HomefrontOperationsEnemyFrigate
+  77259: entity/HomefrontOperationsEnemyDestroyer
+  77260: entity/HomefrontOperationsEnemyCruiser
+  77261: entity/HomefrontOperationsEnemyBattlecruiser
+  77281: ship/LancerDreadnought
+  77283: ship/LancerDreadnought
+  77284: ship/LancerDreadnought
+  77287: entity/HomefrontOperationsStructure
+  77288: ship/LancerDreadnought
+  77290: entity/HomefrontOperationsStructure
+  77292: entity/HomefrontOperationsStructure
+  77303: entity/MissionContainer
+  77304: entity/MissionContainer
+  77305: entity/MissionContainer
+  77398: module/SuperWeapon
+  77399: module/SuperWeapon
+  77400: module/SuperWeapon
+  77401: module/SuperWeapon
+  77402: blueprint/SuperWeaponBlueprint
+  77403: blueprint/SuperWeaponBlueprint
+  77404: blueprint/SuperWeaponBlueprint
+  77405: blueprint/SuperWeaponBlueprint
+  77414: blueprint/DreadnoughtBlueprint
+  77415: blueprint/DreadnoughtBlueprint
+  77416: blueprint/DreadnoughtBlueprint
+  77417: blueprint/DreadnoughtBlueprint
+  77418: asteroid/Mutanite
+  77419: asteroid/Mutanite
+  77420: asteroid/Mutanite
+  77421: asteroid/Mutanite
+  77427: specialeditionassets/SpecialEditionCommodities
+  77473: commodity/HomefrontOperationsCommodity
+  77474: commodity/HomefrontOperationsCommodity
+  77475: commodity/HomefrontOperationsCommodity
+  77476: commodity/HomefrontOperationsCommodity
+  77487: entity/HomefrontOperationsEnemyFrigate
+  77488: entity/HomefrontOperationsEnemyDestroyer
+  77489: entity/HomefrontOperationsEnemyCruiser
+  77490: entity/HomefrontOperationsEnemyCruiser
+  77491: entity/HomefrontOperationsEnemyCruiser
+  77505: entity/HomefrontOperationsEnemyHauler
+  77506: entity/HomefrontOperationsEnemyHauler
+  77507: entity/HomefrontOperationsEnemyHauler
+  77524: asteroid/Mutanite
+  77525: entity/HomefrontOperationsEnemyCruiser
+  77526: entity/HomefrontOperationsEnemyDestroyer
+  77527: entity/HomefrontOperationsEnemyFrigate
+  77528: entity/HomefrontOperationsEnemyCruiser
+  77529: entity/HomefrontOperationsEnemyCruiser
+  77530: entity/HomefrontOperationsEnemyDestroyer
+  77531: entity/HomefrontOperationsEnemyDestroyer
+  77532: entity/HomefrontOperationsEnemyCruiser
+  77533: entity/HomefrontOperationsEnemyDestroyer
+  77534: entity/HomefrontOperationsEnemyFrigate
+  77535: entity/HomefrontOperationsEnemyFrigate
+  77536: entity/HomefrontOperationsEnemyFrigate
+  77537: entity/HomefrontOperationsEnemyFrigate
+  77538: entity/HomefrontOperationsEnemyFrigate
+  77539: entity/HomefrontOperationsEnemyFrigate
+  77540: entity/HomefrontOperationsEnemyDestroyer
+  77541: entity/HomefrontOperationsEnemyDestroyer
+  77542: entity/HomefrontOperationsEnemyDestroyer
+  77543: entity/HomefrontOperationsEnemyBattlecruiser
+  77544: entity/HomefrontOperationsEnemyBattlecruiser
+  77545: entity/HomefrontOperationsEnemyBattlecruiser
+  77546: entity/HomefrontOperationsEnemyBattlecruiser
+  77547: entity/HomefrontOperationsEnemyBattlecruiser
+  77548: entity/HomefrontOperationsEnemyBattlecruiser
+  77549: entity/HomefrontOperationsEnemyBattlecruiser
+  77550: entity/HomefrontOperationsEnemyBattlecruiser
+  77551: entity/HomefrontOperationsEnemyBattlecruiser
+  77552: entity/HomefrontOperationsEnemyBattlecruiser
+  77553: entity/HomefrontOperationsEnemyBattlecruiser
+  77554: entity/HomefrontOperationsEnemyBattlecruiser
+  77555: entity/HomefrontOperationsEnemyBattlecruiser
+  77556: entity/HomefrontOperationsEnemyFrigate
+  77557: entity/HomefrontOperationsEnemyFrigate
+  77558: entity/HomefrontOperationsEnemyFrigate
+  77559: entity/HomefrontOperationsEnemyFrigate
+  77560: entity/HomefrontOperationsEnemyFrigate
+  77561: entity/HomefrontOperationsEnemyFrigate
+  77562: entity/HomefrontOperationsEnemyFrigate
+  77563: entity/HomefrontOperationsEnemyFrigate
+  77564: entity/HomefrontOperationsEnemyFrigate
+  77565: entity/HomefrontOperationsEnemyFrigate
+  77566: entity/HomefrontOperationsEnemyFrigate
+  77567: entity/HomefrontOperationsEnemyFrigate
+  77568: entity/HomefrontOperationsEnemyFrigate
+  77569: entity/HomefrontOperationsEnemyFrigate
+  77570: entity/HomefrontOperationsEnemyFrigate
+  77571: entity/HomefrontOperationsEnemyFrigate
+  77572: entity/HomefrontOperationsEnemyFrigate
+  77573: entity/HomefrontOperationsEnemyFrigate
+  77574: entity/HomefrontOperationsEnemyFrigate
+  77575: entity/HomefrontOperationsEnemyFrigate
+  77576: entity/HomefrontOperationsEnemyFrigate
+  77577: entity/HomefrontOperationsEnemyFrigate
+  77578: entity/HomefrontOperationsEnemyFrigate
+  77579: entity/HomefrontOperationsEnemyFrigate
+  77580: entity/HomefrontOperationsEnemyFrigate
+  77581: entity/HomefrontOperationsEnemyFrigate
+  77582: entity/HomefrontOperationsEnemyFrigate
+  77583: entity/HomefrontOperationsEnemyFrigate
+  77584: entity/HomefrontOperationsEnemyFrigate
+  77585: entity/HomefrontOperationsEnemyFrigate
+  77586: entity/HomefrontOperationsEnemyFrigate
+  77587: entity/HomefrontOperationsEnemyFrigate
+  77588: entity/HomefrontOperationsEnemyFrigate
+  77589: entity/HomefrontOperationsEnemyFrigate
+  77590: entity/HomefrontOperationsEnemyFrigate
+  77591: entity/HomefrontOperationsEnemyFrigate
+  77592: entity/HomefrontOperationsEnemyFrigate
+  77593: entity/HomefrontOperationsEnemyFrigate
+  77594: entity/HomefrontOperationsEnemyFrigate
+  77595: entity/HomefrontOperationsEnemyFrigate
+  77596: entity/HomefrontOperationsEnemyFrigate
+  77597: entity/HomefrontOperationsEnemyFrigate
+  77598: entity/HomefrontOperationsEnemyFrigate
+  77599: entity/HomefrontOperationsEnemyFrigate
+  77600: entity/HomefrontOperationsEnemyFrigate
+  77601: entity/HomefrontOperationsEnemyFrigate
+  77602: entity/HomefrontOperationsEnemyFrigate
+  77603: entity/HomefrontOperationsEnemyFrigate
+  77604: entity/HomefrontOperationsEnemyFrigate
+  77605: entity/HomefrontOperationsEnemyFrigate
+  77606: entity/HomefrontOperationsEnemyFrigate
+  77607: entity/HomefrontOperationsEnemyFrigate
+  77608: entity/HomefrontOperationsEnemyFrigate
+  77609: entity/HomefrontOperationsEnemyFrigate
+  77610: entity/HomefrontOperationsEnemyFrigate
+  77611: entity/HomefrontOperationsEnemyFrigate
+  77612: entity/HomefrontOperationsEnemyDestroyer
+  77613: entity/HomefrontOperationsEnemyDestroyer
+  77614: entity/HomefrontOperationsEnemyDestroyer
+  77615: entity/HomefrontOperationsEnemyDestroyer
+  77616: entity/HomefrontOperationsEnemyDestroyer
+  77617: entity/HomefrontOperationsEnemyDestroyer
+  77618: entity/HomefrontOperationsEnemyDestroyer
+  77619: entity/HomefrontOperationsEnemyDestroyer
+  77620: entity/HomefrontOperationsEnemyDestroyer
+  77621: entity/HomefrontOperationsEnemyDestroyer
+  77622: entity/HomefrontOperationsEnemyDestroyer
+  77623: entity/HomefrontOperationsEnemyDestroyer
+  77624: entity/HomefrontOperationsEnemyDestroyer
+  77625: entity/HomefrontOperationsEnemyDestroyer
+  77626: entity/HomefrontOperationsEnemyDestroyer
+  77627: entity/HomefrontOperationsEnemyDestroyer
+  77628: entity/HomefrontOperationsEnemyDestroyer
+  77629: entity/HomefrontOperationsEnemyDestroyer
+  77630: entity/HomefrontOperationsEnemyDestroyer
+  77631: entity/HomefrontOperationsEnemyDestroyer
+  77632: entity/HomefrontOperationsEnemyDestroyer
+  77633: entity/HomefrontOperationsEnemyDestroyer
+  77634: entity/HomefrontOperationsEnemyDestroyer
+  77635: entity/HomefrontOperationsEnemyDestroyer
+  77636: entity/HomefrontOperationsEnemyDestroyer
+  77637: entity/HomefrontOperationsEnemyDestroyer
+  77638: entity/HomefrontOperationsEnemyDestroyer
+  77639: entity/HomefrontOperationsEnemyDestroyer
+  77640: entity/HomefrontOperationsEnemyCruiser
+  77641: entity/HomefrontOperationsEnemyCruiser
+  77642: entity/HomefrontOperationsEnemyCruiser
+  77643: entity/HomefrontOperationsEnemyCruiser
+  77644: entity/HomefrontOperationsEnemyCruiser
+  77645: entity/HomefrontOperationsEnemyCruiser
+  77646: entity/HomefrontOperationsEnemyCruiser
+  77647: entity/HomefrontOperationsEnemyCruiser
+  77648: entity/HomefrontOperationsEnemyCruiser
+  77649: entity/HomefrontOperationsEnemyCruiser
+  77650: entity/HomefrontOperationsEnemyCruiser
+  77651: entity/HomefrontOperationsEnemyCruiser
+  77652: entity/HomefrontOperationsEnemyCruiser
+  77653: entity/HomefrontOperationsEnemyCruiser
+  77654: entity/HomefrontOperationsEnemyCruiser
+  77655: entity/HomefrontOperationsEnemyCruiser
+  77656: entity/HomefrontOperationsEnemyCruiser
+  77657: entity/HomefrontOperationsEnemyCruiser
+  77658: entity/HomefrontOperationsEnemyCruiser
+  77659: entity/HomefrontOperationsEnemyCruiser
+  77660: entity/HomefrontOperationsEnemyCruiser
+  77661: entity/HomefrontOperationsEnemyCruiser
+  77662: entity/HomefrontOperationsEnemyCruiser
+  77663: entity/HomefrontOperationsEnemyCruiser
+  77664: entity/HomefrontOperationsEnemyCruiser
+  77665: entity/HomefrontOperationsEnemyCruiser
+  77666: entity/HomefrontOperationsEnemyCruiser
+  77667: entity/HomefrontOperationsEnemyCruiser
+  77668: entity/HomefrontOperationsEnemyCruiser
+  77669: entity/HomefrontOperationsEnemyCruiser
+  77670: entity/HomefrontOperationsEnemyCruiser
+  77671: entity/HomefrontOperationsEnemyCruiser
+  77672: entity/HomefrontOperationsEnemyCruiser
+  77673: entity/HomefrontOperationsEnemyCruiser
+  77674: entity/HomefrontOperationsEnemyCruiser
+  77675: entity/HomefrontOperationsEnemyCruiser
+  77676: entity/HomefrontOperationsEnemyCruiser
+  77677: entity/HomefrontOperationsEnemyCruiser
+  77678: entity/HomefrontOperationsEnemyCruiser
+  77679: entity/HomefrontOperationsEnemyCruiser
+  77680: entity/HomefrontOperationsEnemyCruiser
+  77681: entity/HomefrontOperationsEnemyCruiser
+  77682: entity/HomefrontOperationsEnemyCruiser
+  77683: entity/HomefrontOperationsEnemyCruiser
+  77684: entity/HomefrontOperationsEnemyCruiser
+  77685: entity/HomefrontOperationsEnemyCruiser
+  77686: entity/HomefrontOperationsEnemyCruiser
+  77687: entity/HomefrontOperationsEnemyCruiser
+  77688: entity/HomefrontOperationsEnemyCruiser
+  77689: entity/HomefrontOperationsEnemyCruiser
+  77690: entity/HomefrontOperationsEnemyCruiser
+  77691: entity/HomefrontOperationsEnemyCruiser
+  77692: entity/HomefrontOperationsEnemyCruiser
+  77693: entity/HomefrontOperationsEnemyCruiser
+  77694: entity/HomefrontOperationsEnemyCruiser
+  77695: entity/HomefrontOperationsEnemyCruiser
+  77696: entity/HomefrontOperationsEnemyBattleship
+  77697: entity/HomefrontOperationsEnemyBattleship
+  77698: entity/HomefrontOperationsEnemyBattleship
+  77699: entity/HomefrontOperationsEnemyBattleship
+  77700: entity/HomefrontOperationsEnemyBattleship
+  77701: entity/HomefrontOperationsEnemyBattleship
+  77702: entity/HomefrontOperationsEnemyBattleship
+  77707: commodity/HomefrontOperationsCommodity
+  77708: commodity/HomefrontOperationsCommodity
+  77725: skill/Production
+  77727: entity/SpawnContainer
+  77738: skill/SpaceshipCommand
+  77739: skill/Gunnery
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

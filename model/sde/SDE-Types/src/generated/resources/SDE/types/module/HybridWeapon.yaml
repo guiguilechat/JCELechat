@@ -450,9 +450,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11324
     volume: 20.0
   573:
@@ -526,9 +526,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11324
     volume: 50.0
   575:
@@ -690,9 +690,9 @@ types:
     requiredskill3level: 1
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 2
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11325
     volume: 20.0
   3098:
@@ -816,9 +816,9 @@ types:
     requiredskill3level: 1
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 2
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11325
     volume: 20.0
   3122:
@@ -1939,9 +1939,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11324
     volume: 20.0
   7409:
@@ -1978,9 +1978,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11324
     volume: 20.0
   7411:
@@ -2017,9 +2017,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11324
     volume: 20.0
   7413:
@@ -2056,9 +2056,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11324
     volume: 20.0
   7447:
@@ -2095,9 +2095,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11324
     volume: 20.0
   7449:
@@ -2134,9 +2134,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11324
     volume: 20.0
   7451:
@@ -2173,9 +2173,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11324
     volume: 20.0
   7453:
@@ -2212,9 +2212,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11324
     volume: 20.0
   7487:
@@ -3970,9 +3970,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11324
     volume: 50.0
   12356:
@@ -4012,9 +4012,9 @@ types:
     requiredskill3level: 1
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 2
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11325
     volume: 20.0
   13864:
@@ -4381,9 +4381,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11351
     volume: 20.0
   13876:
@@ -4422,9 +4422,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11335
     volume: 20.0
   13878:
@@ -4463,9 +4463,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11351
     volume: 20.0
   13879:
@@ -4504,9 +4504,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11335
     volume: 20.0
   13880:
@@ -4627,9 +4627,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11351
     volume: 20.0
   13883:
@@ -4668,9 +4668,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11335
     volume: 20.0
   13884:
@@ -5314,9 +5314,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11324
     volume: 20.0
   14282:
@@ -5353,9 +5353,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11324
     volume: 20.0
   14284:
@@ -5392,9 +5392,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11324
     volume: 20.0
   14286:
@@ -5431,9 +5431,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11324
     volume: 20.0
   14375:
@@ -5718,9 +5718,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11322
     volume: 20.0
   14389:
@@ -5759,9 +5759,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11322
     volume: 20.0
   14391:
@@ -5800,9 +5800,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11322
     volume: 20.0
   14393:
@@ -5841,9 +5841,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11322
     volume: 20.0
   14395:
@@ -5882,9 +5882,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11322
     volume: 20.0
   14397:
@@ -5923,9 +5923,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11322
     volume: 20.0
   14399:
@@ -5964,9 +5964,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11322
     volume: 20.0
   14401:
@@ -6005,9 +6005,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11322
     volume: 20.0
   14403:
@@ -6046,9 +6046,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11322
     volume: 20.0
   14405:
@@ -6087,9 +6087,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11322
     volume: 20.0
   14407:
@@ -6128,9 +6128,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11322
     volume: 20.0
   14409:
@@ -6169,9 +6169,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11322
     volume: 20.0
   14411:
@@ -6210,9 +6210,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11322
     volume: 20.0
   14413:
@@ -6251,9 +6251,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11322
     volume: 20.0
   14415:
@@ -6292,9 +6292,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11322
     volume: 20.0
   15814:
@@ -6333,9 +6333,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11321
     volume: 20.0
   15815:
@@ -6456,9 +6456,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11321
     volume: 20.0
   15818:
@@ -6497,9 +6497,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11321
     volume: 20.0
   15820:
@@ -7071,9 +7071,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 5850.0
+    speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.837499976158142
+    trackingspeed: 2.113100051879883
     typecolorscheme: 11328
     volume: 20.0
   15835:
@@ -7194,9 +7194,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11328
     volume: 20.0
   15838:
@@ -7235,9 +7235,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 7313.0
+    speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.225350022315979
+    trackingspeed: 1.4091999530792236
     typecolorscheme: 11328
     volume: 20.0
   15840:
@@ -7598,9 +7598,9 @@ types:
     requiredskill2level: 5
     requiredthermodynamicsskill: 1
     slots: 1
-    speed: 9563.0
+    speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0106250047683716
+    trackingspeed: 1.1621999740600586
     typecolorscheme: 11323
     volume: 20.0
   22899:
@@ -8106,6 +8106,7 @@ types:
     volume: 20.0
   37291:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 75.0
     capacity: 10.0
     chargegroup1: 85
@@ -8147,6 +8148,7 @@ types:
     volume: 4000.0
   37300:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 75.0
     capacity: 11.0
     chargegroup1: 85
@@ -8192,6 +8194,7 @@ types:
     volume: 4000.0
   37301:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 75.0
     capacity: 10.0
     chargegroup1: 85
@@ -8318,6 +8321,7 @@ types:
     volume: 4000.0
   41076:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 67.5
     capacity: 10.0
     chargegroup1: 85
@@ -8360,6 +8364,7 @@ types:
     volume: 4000.0
   41077:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 75.0
     capacity: 10.0
     chargegroup1: 85
@@ -8402,6 +8407,7 @@ types:
     volume: 4000.0
   41078:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 75.0
     capacity: 10.0
     chargegroup1: 85
@@ -8444,6 +8450,7 @@ types:
     volume: 4000.0
   41079:
     canfitshipgroup01: 485
+    canfitshipgroup02: 4594
     capacitorneed: 75.0
     capacity: 11.5
     chargegroup1: 85

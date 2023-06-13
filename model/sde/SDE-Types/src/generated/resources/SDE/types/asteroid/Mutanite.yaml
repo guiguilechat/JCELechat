@@ -1,0 +1,97 @@
+types:
+  77118:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 2400
+    id: 77118
+    marketGroup: 2479
+    mass: 4000.0
+    name: Amperum Mutanite
+    orebasictype: 1230
+    packagedVolume: 4.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 4.0
+  77418:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 2400
+    id: 77418
+    marketGroup: 2479
+    mass: 4000.0
+    name: Peregrinus Mutanite
+    orebasictype: 1230
+    packagedVolume: 4.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 4.0
+  77419:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 2400
+    id: 77419
+    marketGroup: 2479
+    mass: 4000.0
+    name: Conflagrati Mutanite
+    orebasictype: 1230
+    packagedVolume: 4.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 4.0
+  77420:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 2400
+    id: 77420
+    marketGroup: 2479
+    mass: 4000.0
+    name: Solis Mutanite
+    orebasictype: 1230
+    packagedVolume: 4.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 4.0
+  77421:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 2400
+    id: 77421
+    marketGroup: 2479
+    mass: 4000.0
+    name: Tenebraet Mutanite
+    orebasictype: 1230
+    packagedVolume: 4.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 4.0
+  77524:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 2400
+    id: 77524
+    marketGroup: 2479
+    mass: 4000.0
+    name: Admixti Mutanite
+    orebasictype: 52315
+    packagedVolume: 4.0
+    portionSize: 100
+    published: true
+    radius: 1.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    volume: 4.0

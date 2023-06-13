@@ -210,3 +210,23 @@ types:
     secondaryattribute: 165
     skilltimeconstant: 2.0
     volume: 0.009999999776482582
+  77725:
+    cannotbetrainedontrial: 1
+    id: 77725
+    manufacturetimeperlevel: -1
+    marketGroup: 369
+    name: Advanced Capital Ship Constuction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 22242
+    requiredskill1level: 4
+    requiredskill2: 3398
+    requiredskill2level: 4
+    requiredskill3: 3392
+    requiredskill3level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 16.0
+    volume: 0.009999999776482582

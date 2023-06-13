@@ -14,32 +14,29 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMax;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMin;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
@@ -47,17 +44,23 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageReson
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class InterstellarShipcasterBeacon
+public class HomefrontOperationsEnemyHauler
     extends Entity
 {
+    /**
+     * The agility of the object.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
@@ -94,13 +97,6 @@ public class InterstellarShipcasterBeacon
     @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
     /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double armoruniformity;
-    /**
      * Capacitor capacity
      */
     @HighIsGood(true)
@@ -122,47 +118,12 @@ public class InterstellarShipcasterBeacon
     @DefaultIntValue(0)
     public int charge;
     /**
-     * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int disallowassistance;
-    /**
-     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double emdamageresonance;
-    /**
-     * The distance from a target an entity starts using its weapons.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(15000)
-    public int entityattackrange;
-    /**
-     * The distance outside of which the entity activates their MWD equivalent.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(2500)
-    public int entitychasemaxdistance;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double entityfactionloss;
-    /**
-     * The distance at which the entity orbits, follows.. and more.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(500.0)
-    public double entityflyrange;
     /**
      * Reward for destroying this entity.
      */
@@ -171,41 +132,12 @@ public class InterstellarShipcasterBeacon
     @DefaultIntValue(0)
     public int entitykillbounty;
     /**
-     * The maximum number of pieces of loot dropped by this entity.
+     * Graphic ID of the boosters for drone type ships.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int entitylootcountmax;
-    /**
-     * Deprecated. The minimum number of pieces of loot dropped by this entity.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int entitylootcountmin;
-    /**
-     * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
-     * Value is a % movement of the character's current security towards the upper/lower limit.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double entitysecuritystatuskillbonus;
-    /**
-     * damage multiplier vs. explosive damagers.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double explosivedamageresonance;
-    /**
-     * distance from maximum range at which accuracy has fallen by half
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double falloff;
+    public int gfxboosterid;
     /**
      * The maximum hitpoints of an object.
      */
@@ -214,19 +146,26 @@ public class InterstellarShipcasterBeacon
     @DefaultRealValue(0.0)
     public double hp;
     /**
-     * damage multiplier vs. kinetic damagers.
+     * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double kineticdamageresonance;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int maxlockedtargets;
     /**
-     * Distance below which range does not affect the to-hit equation.
+     * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(0.0)
-    public double maxrange;
+    public double maxtargetrange;
+    /**
+     * Maximum velocity of ship
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double maxvelocity;
     /**
      * Radius of an object in meters
      */
@@ -241,6 +180,41 @@ public class InterstellarShipcasterBeacon
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double rechargerate;
+    /**
+     * Gravimetric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scangravimetricstrength;
+    /**
+     * Ladar strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanladarstrength;
+    /**
+     * Magnetometric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanmagnetometricstrength;
+    /**
+     * Radar strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanradarstrength;
+    /**
+     * The resolution that the vessel can target other objects at.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanresolution;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -292,6 +266,13 @@ public class InterstellarShipcasterBeacon
     @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
+     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shielduniformity;
+    /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
@@ -305,26 +286,16 @@ public class InterstellarShipcasterBeacon
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    /**
-     * damage multiplier vs. thermal.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double thermaldamageresonance;
-    /**
-     * Weapon accuracy
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, ArmorHP.INSTANCE, Hp.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, DisallowAssistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
-    public static final InterstellarShipcasterBeacon.MetaGroup METAGROUP = new InterstellarShipcasterBeacon.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, Charge.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE })));
+    public static final HomefrontOperationsEnemyHauler.MetaGroup METAGROUP = new HomefrontOperationsEnemyHauler.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  70 :
+            {
+                return agility;
+            }
             case  267 :
             {
                 return armoremdamageresonance;
@@ -345,10 +316,6 @@ public class InterstellarShipcasterBeacon
             {
                 return armorthermaldamageresonance;
             }
-            case  524 :
-            {
-                return armoruniformity;
-            }
             case  482 :
             {
                 return capacitorcapacity;
@@ -361,65 +328,33 @@ public class InterstellarShipcasterBeacon
             {
                 return charge;
             }
-            case  854 :
-            {
-                return disallowassistance;
-            }
-            case  113 :
-            {
-                return emdamageresonance;
-            }
-            case  247 :
-            {
-                return entityattackrange;
-            }
-            case  665 :
-            {
-                return entitychasemaxdistance;
-            }
             case  562 :
             {
                 return entityfactionloss;
-            }
-            case  416 :
-            {
-                return entityflyrange;
             }
             case  481 :
             {
                 return entitykillbounty;
             }
-            case  251 :
+            case  246 :
             {
-                return entitylootcountmax;
-            }
-            case  250 :
-            {
-                return entitylootcountmin;
-            }
-            case  252 :
-            {
-                return entitysecuritystatuskillbonus;
-            }
-            case  111 :
-            {
-                return explosivedamageresonance;
-            }
-            case  158 :
-            {
-                return falloff;
+                return gfxboosterid;
             }
             case  9 :
             {
                 return hp;
             }
-            case  109 :
+            case  192 :
             {
-                return kineticdamageresonance;
+                return maxlockedtargets;
             }
-            case  54 :
+            case  76 :
             {
-                return maxrange;
+                return maxtargetrange;
+            }
+            case  37 :
+            {
+                return maxvelocity;
             }
             case  162 :
             {
@@ -428,6 +363,26 @@ public class InterstellarShipcasterBeacon
             case  55 :
             {
                 return rechargerate;
+            }
+            case  211 :
+            {
+                return scangravimetricstrength;
+            }
+            case  209 :
+            {
+                return scanladarstrength;
+            }
+            case  210 :
+            {
+                return scanmagnetometricstrength;
+            }
+            case  208 :
+            {
+                return scanradarstrength;
+            }
+            case  564 :
+            {
+                return scanresolution;
             }
             case  263 :
             {
@@ -457,6 +412,10 @@ public class InterstellarShipcasterBeacon
             {
                 return shieldthermaldamageresonance;
             }
+            case  484 :
+            {
+                return shielduniformity;
+            }
             case  552 :
             {
                 return signatureradius;
@@ -464,14 +423,6 @@ public class InterstellarShipcasterBeacon
             case  525 :
             {
                 return structureuniformity;
-            }
-            case  110 :
-            {
-                return thermaldamageresonance;
-            }
-            case  160 :
-            {
-                return trackingspeed;
             }
             default:
             {
@@ -486,35 +437,35 @@ public class InterstellarShipcasterBeacon
     }
 
     @Override
-    public IMetaGroup<InterstellarShipcasterBeacon> getGroup() {
+    public IMetaGroup<HomefrontOperationsEnemyHauler> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<InterstellarShipcasterBeacon>
+        implements IMetaGroup<HomefrontOperationsEnemyHauler>
     {
-        public static final String RESOURCE_PATH = "SDE/types/entity/InterstellarShipcasterBeacon.yaml";
-        private Map<Integer, InterstellarShipcasterBeacon> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/entity/HomefrontOperationsEnemyHauler.yaml";
+        private Map<Integer, HomefrontOperationsEnemyHauler> cache = (null);
 
         @Override
-        public IMetaCategory<? super InterstellarShipcasterBeacon> category() {
+        public IMetaCategory<? super HomefrontOperationsEnemyHauler> category() {
             return Entity.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  4547;
+            return  4577;
         }
 
         @Override
         public String getName() {
-            return "InterstellarShipcasterBeacon";
+            return "HomefrontOperationsEnemyHauler";
         }
 
         @Override
-        public synchronized Map<Integer, InterstellarShipcasterBeacon> load() {
+        public synchronized Map<Integer, HomefrontOperationsEnemyHauler> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(InterstellarShipcasterBeacon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(HomefrontOperationsEnemyHauler.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -526,7 +477,7 @@ public class InterstellarShipcasterBeacon
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, InterstellarShipcasterBeacon> types;
+            public LinkedHashMap<Integer, HomefrontOperationsEnemyHauler> types;
         }
     }
 }

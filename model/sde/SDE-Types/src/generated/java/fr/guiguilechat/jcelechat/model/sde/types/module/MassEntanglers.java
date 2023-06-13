@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
@@ -71,13 +70,6 @@ public class MassEntanglers
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double cpu;
-    /**
-     * If set on a charge or module type, will prevent it from being activated in empire space.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int disallowinempirespace;
     /**
      * Length of activation time.
      */
@@ -162,7 +154,7 @@ public class MassEntanglers
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, WarpScrambleStrength.INSTANCE, Hp.INSTANCE, MaxVelocityBonus.INSTANCE, MassBonusPercentage.INSTANCE, SpeedFactorBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, RequiredSkill2Level.INSTANCE, SpeedBoostFactorBonus.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, WarpScrambleStrength.INSTANCE, Hp.INSTANCE, MaxVelocityBonus.INSTANCE, MassBonusPercentage.INSTANCE, SpeedFactorBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, RequiredSkill2Level.INSTANCE, SpeedBoostFactorBonus.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
     public static final MassEntanglers.MetaGroup METAGROUP = new MassEntanglers.MetaGroup();
 
     @Override
@@ -183,10 +175,6 @@ public class MassEntanglers
             case  50 :
             {
                 return cpu;
-            }
-            case  1074 :
-            {
-                return disallowinempirespace;
             }
             case  73 :
             {
