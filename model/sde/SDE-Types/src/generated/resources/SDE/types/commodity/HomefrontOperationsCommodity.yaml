@@ -38,6 +38,7 @@ types:
     name: Unaligned Dekaisogen
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200000.0
     published: true
     volume: 0.009999999776482582
   77708:
@@ -47,5 +48,6 @@ types:
     name: Fluctuating Entropic Regulator
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.009999999776482582

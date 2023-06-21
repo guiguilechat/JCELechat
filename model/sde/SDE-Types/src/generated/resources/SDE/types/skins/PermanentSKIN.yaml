@@ -40102,3 +40102,67 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  77867:
+    id: 77867
+    marketGroup: 1996
+    name: Catalyst Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77868:
+    id: 77868
+    marketGroup: 2053
+    name: Nemesis Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77869:
+    id: 77869
+    marketGroup: 2004
+    name: Maulus Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77872:
+    id: 77872
+    marketGroup: 2108
+    name: Megathron Navy Issue Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77873:
+    id: 77873
+    marketGroup: 2000
+    name: Maulus Navy Issue Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77874:
+    id: 77874
+    marketGroup: 2103
+    name: Brutix Navy Issue Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77886:
+    id: 77886
+    marketGroup: 3497
+    name: Catalyst Navy Issue Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77887:
+    id: 77887
+    marketGroup: 3521
+    name: Hubris Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

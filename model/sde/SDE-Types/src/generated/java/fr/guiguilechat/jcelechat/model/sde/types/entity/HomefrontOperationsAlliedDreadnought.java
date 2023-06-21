@@ -39,6 +39,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutResistanceID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutSignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponDuration;
@@ -256,6 +260,34 @@ public class HomefrontOperationsAlliedDreadnought
     @Stackable(true)
     @DefaultIntValue(0)
     public int charge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int doomsdayenergyneutamount;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int doomsdayenergyneutradius;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int doomsdayenergyneutresistanceid;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int doomsdayenergyneutsignatureradius;
     /**
      * 
      */
@@ -502,7 +534,7 @@ public class HomefrontOperationsAlliedDreadnought
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntitySuperWeaponTrackingSpeed.INSTANCE, EntitySuperWeaponOptimalSignatureRadius.INSTANCE, CapacitorNeed.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, ArmorHP.INSTANCE, Hp.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, BehaviorSiegeMissileDamageModifier.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, Agility.INSTANCE, BehaviorSiegeDuration.INSTANCE, MaxTargetRange.INSTANCE, BehaviorSiegeDischarge.INSTANCE, BehaviorSiegeRemoteRepairImpedanceModifier.INSTANCE, BehaviorSiegeRemoteAssistanceImpedanceModifier.INSTANCE, BehaviorSiegeSensorDampenerResistanceModifier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, BehaviorSiegeWeaponDisruptionResistanceModifier.INSTANCE, ScanMagnetometricStrength.INSTANCE, BehaviorSiegeECMResistanceModifier.INSTANCE, ScanGravimetricStrength.INSTANCE, BehaviorSiegeMaxVelocityModifier.INSTANCE, BehaviorSiegeWarpScrambleStatusModifier.INSTANCE, BehaviorSiegeDisallowTetheringModifier.INSTANCE, BehaviorSiegeMassModifier.INSTANCE, BehaviorSiegeLocalLogisticsAmountModifier.INSTANCE, BehaviorSiegeLocalLogisticsDurationModifier.INSTANCE, BehaviorSiegeTurretDamageModifier.INSTANCE, EntitySuperWeaponDuration.INSTANCE, EntitySuperWeaponEmDamage.INSTANCE, EntitySuperWeaponKineticDamage.INSTANCE, EntitySuperWeaponThermalDamage.INSTANCE, EntitySuperWeaponExplosiveDamage.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, CapacitorCapacity.INSTANCE, OptimalSigRadius.INSTANCE, GfxBoosterID.INSTANCE, EntitySuperWeaponMaxRange.INSTANCE, EntitySuperWeaponFallOff.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntitySuperWeaponTrackingSpeed.INSTANCE, EntitySuperWeaponOptimalSignatureRadius.INSTANCE, CapacitorNeed.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, ArmorHP.INSTANCE, Hp.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, BehaviorSiegeMissileDamageModifier.INSTANCE, DoomsdayEnergyNeutResistanceID.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, Agility.INSTANCE, BehaviorSiegeDuration.INSTANCE, MaxTargetRange.INSTANCE, BehaviorSiegeDischarge.INSTANCE, BehaviorSiegeRemoteRepairImpedanceModifier.INSTANCE, BehaviorSiegeRemoteAssistanceImpedanceModifier.INSTANCE, BehaviorSiegeSensorDampenerResistanceModifier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, BehaviorSiegeWeaponDisruptionResistanceModifier.INSTANCE, ScanMagnetometricStrength.INSTANCE, BehaviorSiegeECMResistanceModifier.INSTANCE, BehaviorSiegeMaxVelocityModifier.INSTANCE, ScanGravimetricStrength.INSTANCE, DoomsdayEnergyNeutRadius.INSTANCE, DoomsdayEnergyNeutAmount.INSTANCE, BehaviorSiegeWarpScrambleStatusModifier.INSTANCE, BehaviorSiegeDisallowTetheringModifier.INSTANCE, DoomsdayEnergyNeutSignatureRadius.INSTANCE, BehaviorSiegeMassModifier.INSTANCE, BehaviorSiegeLocalLogisticsAmountModifier.INSTANCE, BehaviorSiegeLocalLogisticsDurationModifier.INSTANCE, BehaviorSiegeTurretDamageModifier.INSTANCE, EntitySuperWeaponDuration.INSTANCE, EntitySuperWeaponEmDamage.INSTANCE, EntitySuperWeaponKineticDamage.INSTANCE, EntitySuperWeaponThermalDamage.INSTANCE, EntitySuperWeaponExplosiveDamage.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, CapacitorCapacity.INSTANCE, OptimalSigRadius.INSTANCE, GfxBoosterID.INSTANCE, EntitySuperWeaponMaxRange.INSTANCE, EntitySuperWeaponFallOff.INSTANCE })));
     public static final HomefrontOperationsAlliedDreadnought.MetaGroup METAGROUP = new HomefrontOperationsAlliedDreadnought.MetaGroup();
 
     @Override
@@ -607,6 +639,22 @@ public class HomefrontOperationsAlliedDreadnought
             case  18 :
             {
                 return charge;
+            }
+            case  2260 :
+            {
+                return doomsdayenergyneutamount;
+            }
+            case  2259 :
+            {
+                return doomsdayenergyneutradius;
+            }
+            case  2609 :
+            {
+                return doomsdayenergyneutresistanceid;
+            }
+            case  2261 :
+            {
+                return doomsdayenergyneutsignatureradius;
             }
             case  562 :
             {

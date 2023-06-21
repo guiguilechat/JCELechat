@@ -1362,6 +1362,10 @@ usages:
       73978: null
       73979: null
       76376: null
+      77402: null
+      77403: null
+      77404: null
+      77405: null
     materialInReaction: !!set
       46158: null
       57500: null
@@ -5874,6 +5878,11 @@ usages:
       73795: null
       73796: null
       76373: null
+      77114: null
+      77398: null
+      77399: null
+      77400: null
+      77401: null
   35:
     materialInCopy: !!set
       33082: null
@@ -7149,6 +7158,10 @@ usages:
       73979: null
       76205: null
       76206: null
+      77402: null
+      77403: null
+      77404: null
+      77405: null
     materialInReaction: !!set
       46159: null
     reprocessedFrom: !!set
@@ -11577,6 +11590,10 @@ usages:
       75276: null
       75277: null
       75278: null
+      77398: null
+      77399: null
+      77400: null
+      77401: null
   36:
     materialInCopy: !!set
       33082: null
@@ -12644,6 +12661,10 @@ usages:
       73973: null
       73978: null
       73979: null
+      77402: null
+      77403: null
+      77404: null
+      77405: null
     materialInReaction: !!set
       46160: null
     reprocessedFrom: !!set
@@ -16419,6 +16440,10 @@ usages:
       73794: null
       73795: null
       73796: null
+      77398: null
+      77399: null
+      77400: null
+      77401: null
   37:
     materialInCopy: !!set
       33082: null
@@ -17419,6 +17444,10 @@ usages:
       73978: null
       73979: null
       76376: null
+      77402: null
+      77403: null
+      77404: null
+      77405: null
     materialInReaction: !!set
       46157: null
     reprocessedFrom: !!set
@@ -20631,6 +20660,10 @@ usages:
       75281: null
       75282: null
       76373: null
+      77398: null
+      77399: null
+      77400: null
+      77401: null
   38:
     materialInCopy: !!set
       33082: null
@@ -21519,6 +21552,10 @@ usages:
       73979: null
       76205: null
       76206: null
+      77402: null
+      77403: null
+      77404: null
+      77405: null
     materialInReaction: !!set
       46161: null
       46163: null
@@ -25055,6 +25092,10 @@ usages:
       73794: null
       73795: null
       73796: null
+      77398: null
+      77399: null
+      77400: null
+      77401: null
   39:
     materialInCopy: !!set
       33082: null
@@ -25797,6 +25838,10 @@ usages:
       73978: null
       73979: null
       76376: null
+      77402: null
+      77403: null
+      77404: null
+      77405: null
     materialInReaction: !!set
       46162: null
       46164: null
@@ -28525,6 +28570,10 @@ usages:
       75285: null
       75286: null
       76373: null
+      77398: null
+      77399: null
+      77400: null
+      77401: null
   40:
     materialInCopy: !!set
       33082: null
@@ -29356,6 +29405,10 @@ usages:
       73973: null
       73978: null
       73979: null
+      77402: null
+      77403: null
+      77404: null
+      77405: null
     materialInReaction: !!set
       46165: null
     reprocessedFrom: !!set
@@ -32413,6 +32466,10 @@ usages:
       75288: null
       75289: null
       75290: null
+      77398: null
+      77399: null
+      77400: null
+      77401: null
   41:
     materialInReaction: !!set
       46219: null
@@ -36613,9 +36670,13 @@ usages:
   2304:
     productOfInvention: !!set
       2296: null
+  2312:
+    materialInManuf: !!set
+      57515: null
   2319:
     materialInManuf: !!set
       57522: null
+      57523: null
     reprocessedFrom: !!set
       57485: null
   2328:
@@ -36922,6 +36983,7 @@ usages:
       33523: null
       33590: null
       33592: null
+      76376: null
     reprocessedFrom: !!set
       33474: null
       33520: null
@@ -37166,16 +37228,6 @@ usages:
   2377:
     reprocessInto:
       34: 10000.0
-  2393:
-    materialInManuf: !!set
-      57515: null
-    reprocessedFrom: !!set
-      57478: null
-  2395:
-    materialInManuf: !!set
-      57515: null
-    reprocessedFrom: !!set
-      57478: null
   2401:
     materialInManuf: !!set
       57516: null
@@ -37301,6 +37353,7 @@ usages:
     materialInManuf: !!set
       2739: null
       56832: null
+      57515: null
       57521: null
     reprocessedFrom: !!set
       28668: null
@@ -42179,7 +42232,6 @@ usages:
   3645:
     materialInManuf: !!set
       57516: null
-      57523: null
     materialInReaction: !!set
       46222: null
       46223: null
@@ -42191,7 +42243,6 @@ usages:
       46231: null
     reprocessedFrom: !!set
       57479: null
-      57486: null
   3647:
     materialInManuf: !!set
       40521: null
@@ -42253,7 +42304,6 @@ usages:
       4314: null
       4315: null
       4316: null
-      57523: null
     materialInReaction: !!set
       46237: null
       46240: null
@@ -42331,7 +42381,6 @@ usages:
       28183: null
       28184: null
       28185: null
-      57486: null
   3685:
     materialInManuf: !!set
       1013: null
@@ -42922,6 +42971,9 @@ usages:
       46248: null
       46249: null
       46250: null
+  3775:
+    materialInManuf: !!set
+      57523: null
   3779:
     materialInManuf: !!set
       56734: null
@@ -45357,6 +45409,10 @@ usages:
       45533: null
       45535: null
       47260: null
+      77414: null
+      77415: null
+      77416: null
+      77417: null
     reprocessedFrom: !!set
       1319: null
       1335: null
@@ -45548,6 +45604,10 @@ usages:
       47257: null
       74141: null
       74316: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   3829:
     materialInManuf: !!set
       3832: null
@@ -53506,6 +53566,10 @@ usages:
       59172: null
       60339: null
       62593: null
+      77414: null
+      77415: null
+      77416: null
+      77417: null
     reprocessedFrom: !!set
       380: null
       394: null
@@ -54284,6 +54348,10 @@ usages:
       62588: null
       74141: null
       74316: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   11400:
     productOfManuf: !!set
       11401: null
@@ -56926,6 +56994,10 @@ usages:
       52251: null
       52253: null
       52255: null
+      77414: null
+      77415: null
+      77416: null
+      77417: null
     productOfManuf: !!set
       11890: null
     reprocessInto:
@@ -59178,6 +59250,7 @@ usages:
       47260: null
       47363: null
       52255: null
+      76376: null
     productOfManuf: !!set
       17355: null
     reprocessInto:
@@ -59282,6 +59355,7 @@ usages:
       47242: null
       47363: null
       49717: null
+      76376: null
     productOfManuf: !!set
       17350: null
     reprocessInto:
@@ -59388,6 +59462,7 @@ usages:
       47239: null
       47363: null
       52253: null
+      76376: null
     productOfManuf: !!set
       17328: null
     reprocessInto:
@@ -59483,6 +59558,7 @@ usages:
       47246: null
       47363: null
       52251: null
+      76376: null
     productOfManuf: !!set
       17323: null
     reprocessInto:
@@ -71561,7 +71637,6 @@ usages:
       41323: null
       41325: null
       57513: null
-      76376: null
     productOfReaction: !!set
       46205: null
     reprocessedFrom: !!set
@@ -71594,7 +71669,6 @@ usages:
       41322: null
       41324: null
       57476: null
-      76375: null
   16671:
     materialInManuf: !!set
       12619: null
@@ -71626,7 +71700,6 @@ usages:
       41327: null
       41329: null
       57512: null
-      76376: null
     productOfReaction: !!set
       46204: null
     reprocessedFrom: !!set
@@ -71698,7 +71771,6 @@ usages:
       41335: null
       41337: null
       57511: null
-      76376: null
     productOfReaction: !!set
       46207: null
     reprocessedFrom: !!set
@@ -71779,7 +71851,6 @@ usages:
       41319: null
       41321: null
       57514: null
-      76376: null
     productOfReaction: !!set
       46206: null
     reprocessedFrom: !!set
@@ -71860,7 +71931,6 @@ usages:
       29107: null
       29109: null
       33195: null
-      76375: null
   16679:
     materialInManuf: !!set
       12558: null
@@ -71943,6 +72013,7 @@ usages:
       57512: null
       57513: null
       57514: null
+      76376: null
     productOfReaction: !!set
       46209: null
     reprocessedFrom: !!set
@@ -72128,6 +72199,7 @@ usages:
       57512: null
       57513: null
       57514: null
+      76376: null
     productOfReaction: !!set
       46210: null
     reprocessedFrom: !!set
@@ -72255,6 +72327,7 @@ usages:
       43609: null
       43610: null
       43611: null
+      76376: null
     productOfReaction: !!set
       46211: null
     reprocessedFrom: !!set
@@ -72353,6 +72426,7 @@ usages:
       61232: null
       61235: null
       61236: null
+      76376: null
     productOfReaction: !!set
       46212: null
     reprocessedFrom: !!set
@@ -72430,6 +72504,7 @@ usages:
       29090: null
       29092: null
       29102: null
+      76376: null
     productOfReaction: !!set
       46213: null
     reprocessedFrom: !!set
@@ -77273,6 +77348,8 @@ usages:
       39: 2.0
       40: 2.0
   19720:
+    materialInManuf: !!set
+      77417: null
     productOfManuf: !!set
       19721: null
     reprocessInto:
@@ -77290,6 +77367,8 @@ usages:
       24558: 5.0
       24560: 2.0
   19722:
+    materialInManuf: !!set
+      77416: null
     productOfManuf: !!set
       19723: null
     reprocessInto:
@@ -77307,6 +77386,8 @@ usages:
       24558: 5.0
       24560: 2.0
   19724:
+    materialInManuf: !!set
+      77414: null
     productOfManuf: !!set
       19725: null
     reprocessInto:
@@ -77324,6 +77405,8 @@ usages:
       24558: 5.0
       24560: 2.0
   19726:
+    materialInManuf: !!set
+      77415: null
     productOfManuf: !!set
       19727: null
     reprocessInto:
@@ -78137,6 +78220,7 @@ usages:
       3767: null
       16232: null
       16243: null
+      19723: null
       20190: null
       24703: null
       32879: null
@@ -78350,6 +78434,7 @@ usages:
       17477: null
       17479: null
       17481: null
+      19725: null
       20188: null
       24701: null
       32873: null
@@ -78430,6 +78515,10 @@ usages:
       17693: null
       17695: null
       18055: null
+      19721: null
+      19723: null
+      19725: null
+      19727: null
       20445: null
       20447: null
       25949: null
@@ -79865,6 +79954,7 @@ usages:
       2162: null
       16234: null
       16237: null
+      19721: null
       19745: null
       20184: null
       24697: null
@@ -81794,6 +81884,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21011:
     materialInManuf: !!set
       1002: null
@@ -81833,6 +81927,9 @@ usages:
       73787: null
       73790: null
       73792: null
+      77281: null
+      77283: null
+      77288: null
   21013:
     materialInManuf: !!set
       1002: null
@@ -81920,6 +82017,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21017:
     materialInManuf: !!set
       1002: null
@@ -82019,6 +82120,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21019:
     materialInManuf: !!set
       1002: null
@@ -82106,6 +82211,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21021:
     materialInManuf: !!set
       1002: null
@@ -82190,6 +82299,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21023:
     materialInManuf: !!set
       1002: null
@@ -82277,6 +82390,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21025:
     materialInManuf: !!set
       1002: null
@@ -82380,6 +82497,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21027:
     materialInManuf: !!set
       20184: null
@@ -82549,6 +82670,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21037:
     materialInManuf: !!set
       1002: null
@@ -82794,6 +82919,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21039:
     materialInManuf: !!set
       19721: null
@@ -82843,6 +82972,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   21041:
     materialInManuf: !!set
       3765: null
@@ -82866,6 +82999,7 @@ usages:
       45647: null
       45649: null
       73793: null
+      77284: null
   21054:
     reprocessInto:
       36: 11111.0
@@ -89908,6 +90042,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   24560:
     materialInManuf: !!set
       1002: null
@@ -89995,6 +90133,10 @@ usages:
       73790: null
       73792: null
       73793: null
+      77281: null
+      77283: null
+      77284: null
+      77288: null
   24567:
     reprocessInto:
       2867: 11.0
@@ -98280,6 +98422,7 @@ usages:
       994: null
       16228: null
       16239: null
+      19727: null
       20186: null
       24699: null
       32877: null
@@ -106453,6 +106596,7 @@ usages:
   29039:
     materialInManuf: !!set
       28851: null
+      77417: null
     productOfManuf: !!set
       29040: null
     reprocessInto:
@@ -106460,9 +106604,11 @@ usages:
       17317: 22.0
     reprocessedFrom: !!set
       28850: null
+      77283: null
   29041:
     materialInManuf: !!set
       28849: null
+      77414: null
     productOfManuf: !!set
       29042: null
     reprocessInto:
@@ -106470,9 +106616,11 @@ usages:
       16678: 1667.0
     reprocessedFrom: !!set
       28848: null
+      77281: null
   29043:
     materialInManuf: !!set
       28847: null
+      77416: null
     productOfManuf: !!set
       29044: null
     reprocessInto:
@@ -106481,9 +106629,11 @@ usages:
       16683: 11.0
     reprocessedFrom: !!set
       28846: null
+      77288: null
   29045:
     materialInManuf: !!set
       28847: null
+      77416: null
     productOfManuf: !!set
       29046: null
     reprocessInto:
@@ -106493,6 +106643,7 @@ usages:
       33361: 22.0
     reprocessedFrom: !!set
       28846: null
+      77288: null
   29047:
     productOfManuf: !!set
       29048: null
@@ -106503,6 +106654,7 @@ usages:
   29049:
     materialInManuf: !!set
       28847: null
+      77416: null
     productOfManuf: !!set
       29050: null
     reprocessInto:
@@ -106510,9 +106662,11 @@ usages:
       16678: 1667.0
     reprocessedFrom: !!set
       28846: null
+      77288: null
   29051:
     materialInManuf: !!set
       28849: null
+      77414: null
     productOfManuf: !!set
       29052: null
     reprocessInto:
@@ -106520,9 +106674,11 @@ usages:
       17317: 22.0
     reprocessedFrom: !!set
       28848: null
+      77281: null
   29053:
     materialInManuf: !!set
       28851: null
+      77417: null
     productOfManuf: !!set
       29054: null
     reprocessInto:
@@ -106531,9 +106687,11 @@ usages:
       16683: 11.0
     reprocessedFrom: !!set
       28850: null
+      77283: null
   29055:
     materialInManuf: !!set
       28845: null
+      77415: null
     productOfManuf: !!set
       29056: null
     reprocessInto:
@@ -106542,6 +106700,7 @@ usages:
       16682: 22.0
     reprocessedFrom: !!set
       28844: null
+      77284: null
   29057:
     productOfManuf: !!set
       29058: null
@@ -106552,6 +106711,7 @@ usages:
   29059:
     materialInManuf: !!set
       28845: null
+      77415: null
     productOfManuf: !!set
       29060: null
     reprocessInto:
@@ -106559,9 +106719,11 @@ usages:
       17317: 22.0
     reprocessedFrom: !!set
       28844: null
+      77284: null
   29061:
     materialInManuf: !!set
       28849: null
+      77414: null
     productOfManuf: !!set
       29062: null
     reprocessInto:
@@ -106570,6 +106732,7 @@ usages:
       16683: 11.0
     reprocessedFrom: !!set
       28848: null
+      77281: null
   29063:
     productOfManuf: !!set
       29064: null
@@ -106580,6 +106743,7 @@ usages:
   29065:
     materialInManuf: !!set
       28847: null
+      77416: null
     productOfManuf: !!set
       29066: null
     reprocessInto:
@@ -106588,9 +106752,11 @@ usages:
       16682: 22.0
     reprocessedFrom: !!set
       28846: null
+      77288: null
   29067:
     materialInManuf: !!set
       28851: null
+      77417: null
     productOfManuf: !!set
       29068: null
     reprocessInto:
@@ -106599,9 +106765,11 @@ usages:
       16683: 11.0
     reprocessedFrom: !!set
       28850: null
+      77283: null
   29069:
     materialInManuf: !!set
       28849: null
+      77414: null
     productOfManuf: !!set
       29070: null
     reprocessInto:
@@ -106610,9 +106778,11 @@ usages:
       16682: 22.0
     reprocessedFrom: !!set
       28848: null
+      77281: null
   29071:
     materialInManuf: !!set
       28845: null
+      77415: null
     productOfManuf: !!set
       29072: null
     reprocessInto:
@@ -106621,9 +106791,11 @@ usages:
       16683: 11.0
     reprocessedFrom: !!set
       28844: null
+      77284: null
   29073:
     materialInManuf: !!set
       28851: null
+      77417: null
     productOfManuf: !!set
       29074: null
     reprocessInto:
@@ -106633,9 +106805,11 @@ usages:
       33360: 22.0
     reprocessedFrom: !!set
       28850: null
+      77283: null
   29075:
     materialInManuf: !!set
       28847: null
+      77416: null
     productOfManuf: !!set
       29076: null
     reprocessInto:
@@ -106645,6 +106819,7 @@ usages:
       33361: 22.0
     reprocessedFrom: !!set
       28846: null
+      77288: null
   29077:
     productOfManuf: !!set
       29078: null
@@ -106655,6 +106830,7 @@ usages:
   29079:
     materialInManuf: !!set
       28847: null
+      77416: null
     productOfManuf: !!set
       29080: null
     reprocessInto:
@@ -106662,9 +106838,11 @@ usages:
       17317: 22.0
     reprocessedFrom: !!set
       28846: null
+      77288: null
   29081:
     materialInManuf: !!set
       28849: null
+      77414: null
     productOfManuf: !!set
       29082: null
     reprocessInto:
@@ -106674,6 +106852,7 @@ usages:
       33359: 22.0
     reprocessedFrom: !!set
       28848: null
+      77281: null
   29083:
     productOfManuf: !!set
       29084: null
@@ -106684,6 +106863,7 @@ usages:
   29085:
     materialInManuf: !!set
       28849: null
+      77414: null
     productOfManuf: !!set
       29086: null
     reprocessInto:
@@ -106693,6 +106873,7 @@ usages:
       33359: 22.0
     reprocessedFrom: !!set
       28848: null
+      77281: null
   29087:
     productOfManuf: !!set
       29088: null
@@ -106703,6 +106884,7 @@ usages:
   29089:
     materialInManuf: !!set
       28847: null
+      77416: null
     productOfManuf: !!set
       29090: null
     reprocessInto:
@@ -106711,9 +106893,11 @@ usages:
       16683: 11.0
     reprocessedFrom: !!set
       28846: null
+      77288: null
   29091:
     materialInManuf: !!set
       28849: null
+      77414: null
     productOfManuf: !!set
       29092: null
     reprocessInto:
@@ -106722,9 +106906,11 @@ usages:
       16683: 11.0
     reprocessedFrom: !!set
       28848: null
+      77281: null
   29093:
     materialInManuf: !!set
       28845: null
+      77415: null
     productOfManuf: !!set
       29094: null
     reprocessInto:
@@ -106734,9 +106920,11 @@ usages:
       33362: 22.0
     reprocessedFrom: !!set
       28844: null
+      77284: null
   29095:
     materialInManuf: !!set
       28851: null
+      77417: null
     productOfManuf: !!set
       29096: null
     reprocessInto:
@@ -106745,9 +106933,11 @@ usages:
       16682: 22.0
     reprocessedFrom: !!set
       28850: null
+      77283: null
   29097:
     materialInManuf: !!set
       28845: null
+      77415: null
     productOfManuf: !!set
       29098: null
     reprocessInto:
@@ -106757,6 +106947,7 @@ usages:
       33362: 22.0
     reprocessedFrom: !!set
       28844: null
+      77284: null
   29099:
     productOfManuf: !!set
       29100: null
@@ -106767,6 +106958,7 @@ usages:
   29101:
     materialInManuf: !!set
       28845: null
+      77415: null
     productOfManuf: !!set
       29102: null
     reprocessInto:
@@ -106775,9 +106967,11 @@ usages:
       16683: 11.0
     reprocessedFrom: !!set
       28844: null
+      77284: null
   29103:
     materialInManuf: !!set
       28851: null
+      77417: null
     productOfManuf: !!set
       29104: null
     reprocessInto:
@@ -106787,6 +106981,7 @@ usages:
       33360: 22.0
     reprocessedFrom: !!set
       28850: null
+      77283: null
   29105:
     productOfManuf: !!set
       29106: null
@@ -106797,6 +106992,7 @@ usages:
   29107:
     materialInManuf: !!set
       28845: null
+      77415: null
     productOfManuf: !!set
       29108: null
     reprocessInto:
@@ -106804,9 +107000,11 @@ usages:
       16678: 1667.0
     reprocessedFrom: !!set
       28844: null
+      77284: null
   29109:
     materialInManuf: !!set
       28851: null
+      77417: null
     productOfManuf: !!set
       29110: null
     reprocessInto:
@@ -106814,6 +107012,7 @@ usages:
       16678: 1667.0
     reprocessedFrom: !!set
       28850: null
+      77283: null
   29202:
     productOfManuf: !!set
       29204: null
@@ -114089,6 +114288,7 @@ usages:
       29082: null
       29086: null
       57513: null
+      76376: null
     productOfReaction: !!set
       46217: null
     reprocessedFrom: !!set
@@ -114104,6 +114304,7 @@ usages:
       29074: null
       29104: null
       57511: null
+      76376: null
     productOfReaction: !!set
       46216: null
     reprocessedFrom: !!set
@@ -114119,6 +114320,7 @@ usages:
       29046: null
       29076: null
       57514: null
+      76376: null
     productOfReaction: !!set
       46215: null
     reprocessedFrom: !!set
@@ -114134,6 +114336,7 @@ usages:
       29094: null
       29098: null
       57512: null
+      76376: null
     productOfReaction: !!set
       46218: null
     reprocessedFrom: !!set
@@ -129803,6 +130006,9 @@ usages:
       59301: null
       59302: null
       59303: null
+      76506: null
+      76507: null
+      76508: null
   49099:
     productOfManuf: !!set
       49100: null
@@ -132454,7 +132660,6 @@ usages:
       57523: null
       59172: null
       62593: null
-      76376: null
     productOfReaction: !!set
       57493: null
     reprocessedFrom: !!set
@@ -132578,7 +132783,6 @@ usages:
       20184: null
       23758: null
       23920: null
-      28851: null
       33469: null
       33471: null
       33473: null
@@ -132608,7 +132812,6 @@ usages:
       20186: null
       23916: null
       23918: null
-      28845: null
       33817: null
       33819: null
       33821: null
@@ -132640,7 +132843,6 @@ usages:
       20188: null
       23912: null
       23914: null
-      28849: null
       33469: null
       33471: null
       33473: null
@@ -132678,7 +132880,6 @@ usages:
       22853: null
       23774: null
       24484: null
-      28847: null
       41585: null
       42136: null
       42137: null
@@ -132702,7 +132903,6 @@ usages:
       20184: null
       23758: null
       23920: null
-      28851: null
       41582: null
       45043: null
       45044: null
@@ -132744,7 +132944,6 @@ usages:
       20186: null
       23916: null
       23918: null
-      28845: null
       41583: null
       45644: null
       45646: null
@@ -132785,7 +132984,6 @@ usages:
       20188: null
       23912: null
       23914: null
-      28849: null
       41584: null
       42136: null
       42137: null
@@ -132829,7 +133027,6 @@ usages:
       22853: null
       23774: null
       24484: null
-      28847: null
       41585: null
       42136: null
       42137: null
@@ -132932,10 +133129,6 @@ usages:
       24695: null
       28353: null
       28607: null
-      28845: null
-      28847: null
-      28849: null
-      28851: null
       29338: null
       29339: null
       29341: null
@@ -133002,8 +133195,6 @@ usages:
     productOfManuf: !!set
       57515: null
     reprocessInto:
-      2393: 25.0
-      2395: 10.0
       57457: 3.0
     reprocessedFrom: !!set
       73789: null
@@ -133184,10 +133375,6 @@ usages:
       24695: null
       28353: null
       28607: null
-      28845: null
-      28847: null
-      28849: null
-      28851: null
       29338: null
       29339: null
       29341: null
@@ -133254,8 +133441,6 @@ usages:
     productOfManuf: !!set
       57523: null
     reprocessInto:
-      3645: 50.0
-      3683: 65.0
       57457: 3.0
     reprocessedFrom: !!set
       73789: null
@@ -133286,10 +133471,6 @@ usages:
       23920: null
       24484: null
       28353: null
-      28845: null
-      28847: null
-      28849: null
-      28851: null
       34329: null
       41582: null
       41583: null
@@ -133312,9 +133493,9 @@ usages:
     productOfManuf: !!set
       57524: null
     reprocessInto:
-      2868: 100.0
-      2872: 100.0
-      57479: 70.0
+      2868: 25.0
+      2872: 25.0
+      57479: 50.0
   57488:
     materialInManuf: !!set
       19721: null
@@ -135461,18 +135642,201 @@ usages:
       76206: null
   76373:
     reprocessInto:
-      34: 400.0
-      37: 32.0
-      39: 2.0
+      34: 15.0
+      37: 1.2
+      39: 0.07
+      76374: 0.65
   76374:
     materialInManuf: !!set
       76376: null
+    reprocessedFrom: !!set
+      76373: null
   76375:
     productOfManuf: !!set
       76376: null
+  76506:
     reprocessInto:
-      16670: 44.0
-      16678: 11.0
+      48927: 1.0
+  76507:
+    reprocessInto:
+      48927: 1.0
+  76508:
+    reprocessInto:
+      48927: 1.0
+  77066: {}
+  77114:
+    reprocessInto:
+      34: 1.0
+  77281:
+    productOfManuf: !!set
+      77414: null
+    reprocessInto:
+      3828: 2000.0
+      11399: 4000.0
+      21009: 5.0
+      21011: 20.0
+      21013: 4.0
+      21017: 4.0
+      21019: 2.0
+      21021: 2.0
+      21023: 3.0
+      21025: 2.0
+      21035: 2.0
+      21037: 2.0
+      21039: 20.0
+      24558: 5.0
+      24560: 2.0
+      29041: 400.0
+      29051: 1700.0
+      29061: 900.0
+      29069: 900.0
+      29081: 1500.0
+      29085: 1500.0
+      29091: 400.0
+  77283:
+    productOfManuf: !!set
+      77417: null
+    reprocessInto:
+      3828: 2000.0
+      11399: 4000.0
+      21009: 5.0
+      21011: 20.0
+      21013: 4.0
+      21017: 5.0
+      21019: 2.0
+      21021: 2.0
+      21023: 2.0
+      21025: 2.0
+      21035: 2.0
+      21037: 2.0
+      21039: 20.0
+      24558: 5.0
+      24560: 2.0
+      29039: 1700.0
+      29053: 900.0
+      29067: 400.0
+      29073: 1500.0
+      29095: 900.0
+      29103: 1500.0
+      29109: 400.0
+  77284:
+    productOfManuf: !!set
+      77415: null
+    reprocessInto:
+      3828: 2000.0
+      11399: 4000.0
+      21009: 5.0
+      21013: 2.0
+      21017: 2.0
+      21019: 2.0
+      21021: 2.0
+      21023: 5.0
+      21025: 2.0
+      21035: 4.0
+      21037: 2.0
+      21039: 20.0
+      21041: 20.0
+      24558: 5.0
+      24560: 2.0
+      29055: 900.0
+      29059: 1700.0
+      29071: 900.0
+      29093: 1500.0
+      29097: 1500.0
+      29101: 400.0
+      29107: 400.0
+  77288:
+    productOfManuf: !!set
+      77416: null
+    reprocessInto:
+      3828: 2000.0
+      11399: 4000.0
+      21009: 5.0
+      21011: 20.0
+      21013: 2.0
+      21017: 3.0
+      21019: 2.0
+      21021: 2.0
+      21023: 4.0
+      21025: 2.0
+      21035: 4.0
+      21037: 2.0
+      21039: 20.0
+      24558: 5.0
+      24560: 2.0
+      29043: 400.0
+      29045: 1500.0
+      29049: 400.0
+      29065: 900.0
+      29075: 1500.0
+      29079: 1700.0
+      29089: 900.0
+  77398:
+    productOfManuf: !!set
+      77402: null
+    reprocessInto:
+      34: 1500000.0
+      35: 1000000.0
+      36: 40000.0
+      37: 20000.0
+      38: 25000.0
+      39: 20000.0
+      40: 25000.0
+  77399:
+    productOfManuf: !!set
+      77403: null
+    reprocessInto:
+      34: 1500000.0
+      35: 1000000.0
+      36: 40000.0
+      37: 20000.0
+      38: 25000.0
+      39: 20000.0
+      40: 25000.0
+  77400:
+    productOfManuf: !!set
+      77404: null
+    reprocessInto:
+      34: 1500000.0
+      35: 1000000.0
+      36: 40000.0
+      37: 20000.0
+      38: 25000.0
+      39: 20000.0
+      40: 25000.0
+  77401:
+    productOfManuf: !!set
+      77405: null
+    reprocessInto:
+      34: 1500000.0
+      35: 1000000.0
+      36: 40000.0
+      37: 20000.0
+      38: 25000.0
+      39: 20000.0
+      40: 25000.0
+  77414:
+    productOfInvention: !!set
+      19725: null
+  77415:
+    productOfInvention: !!set
+      19727: null
+  77416:
+    productOfInvention: !!set
+      19723: null
+  77417:
+    productOfInvention: !!set
+      19721: null
+  77505: {}
+  77506: {}
+  77507: {}
+  77696: {}
+  77697: {}
+  77698: {}
+  77699: {}
+  77700: {}
+  77701: {}
+  77702: {}
   77118:
     compressTo: 1230
   77419:

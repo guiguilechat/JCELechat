@@ -8141,6 +8141,25 @@ locations:
     - Security Office
     - Surgery
     solarSystem: Amo
+  Amo III - Republic Fleet Anchorage:
+    id: 60015186
+    name: Amo III - Republic Fleet Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Amo
   Amo V - Moon 20 - Boundless Creation Factory:
     id: 60005701
     name: Amo V - Moon 20 - Boundless Creation Factory
@@ -58349,6 +58368,25 @@ locations:
     - Security Office
     - Surgery
     solarSystem: Mehatoor
+  Mehatoor III - Amarr Navy Anchorage:
+    id: 60015185
+    name: Mehatoor III - Amarr Navy Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Mehatoor
   Mehatoor IV - Amarr Trade Registry Archives:
     id: 60008305
     name: Mehatoor IV - Amarr Trade Registry Archives
@@ -67447,6 +67485,25 @@ locations:
     - Reprocessing Plant
     - Security Office
     - Surgery
+    solarSystem: Onnamon
+  Onnamon VII - Caldari Navy Anchorage:
+    id: 60015184
+    name: Onnamon VII - Caldari Navy Anchorage
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
     solarSystem: Onnamon
   Ono V - Moon 15 - Sukuuvestaa Corporation Production Plant:
     id: 60002755

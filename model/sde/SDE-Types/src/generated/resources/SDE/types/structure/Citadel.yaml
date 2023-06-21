@@ -180,6 +180,7 @@ types:
     capacitorcapacity: 600000.0
     cargodeliveryrange: 10000
     cpuoutput: 55000
+    disallowinhighsec: 1
     ecmresistance: 9.999999747378752E-6
     emdamageresonance: 0.800000011920929
     energywarfareresistance: 9.999999747378752E-6
@@ -266,6 +267,7 @@ types:
     capacitorcapacity: 800000.0
     cargodeliveryrange: 10000
     cpuoutput: 65000
+    disallowinhighsec: 1
     ecmresistance: 9.999999747378752E-6
     emdamageresonance: 0.800000011920929
     energywarfareresistance: 9.999999747378752E-6

@@ -277,7 +277,7 @@ types:
     name: Stellar Transmuter Research Index File
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
+    price: 1000000.0
     published: true
     volume: 0.009999999776482582
   76208:
@@ -295,7 +295,7 @@ types:
     name: Stellar Transmuter Research Encryption Key
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
+    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   76210:
@@ -304,7 +304,7 @@ types:
     name: Transport Relay Research Index File
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
+    price: 1000000.0
     published: true
     volume: 0.009999999776482582
   76211:
@@ -313,7 +313,7 @@ types:
     name: Transport Relay Research Data Fragment
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
+    price: 60000.0
     published: true
     volume: 0.009999999776482582
   76212:
@@ -322,6 +322,6 @@ types:
     name: Transport Relay Research Encryption Key
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
+    price: 2000000.0
     published: true
     volume: 0.009999999776482582

@@ -2514,6 +2514,10 @@ corporations:
     faction: Unknown
     id: 1000193
     name: Arkombine
+  Ashes of Turnur:
+    faction: Unknown
+    id: 1000434
+    name: Ashes of Turnur
   Astral Mining Inc.:
     concordRate: 0.8
     faction: Gallente Federation
@@ -7361,6 +7365,10 @@ corporations:
     faction: CONCORD Assembly
     id: 1000282
     name: Directive Intelligence Agency
+  Disciples of Purity:
+    faction: Unknown
+    id: 1000431
+    name: Disciples of Purity
   Dominations:
     faction: Angel Cartel
     id: 1000138
@@ -11490,6 +11498,10 @@ corporations:
     - 16076
     - 16172
     name: Further Foodstuffs
+  Gallentia Primacy:
+    faction: Unknown
+    id: 1000433
+    name: Gallentia Primacy
   Garoun Investment Bank:
     concordRate: 0.8
     faction: Gallente Federation
@@ -31230,6 +31242,10 @@ corporations:
     - 16201
     - 16203
     name: Trust Partners
+  United Champions of Freedom:
+    faction: Unknown
+    id: 1000432
+    name: United Champions of Freedom
   University of Caille:
     concordRate: 0.8
     faction: Gallente Federation

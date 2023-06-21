@@ -148,6 +148,7 @@ types:
     name: ‘Atgeir’ Explosive Disruptive Lance Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   77403:
@@ -156,6 +157,7 @@ types:
     name: '''Azmaru'' Electromagnetic Disruptive Lance Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   77404:
@@ -164,6 +166,7 @@ types:
     name: ‘Steel Yari’ Kinetic Disruptive Lance Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   77405:
@@ -172,5 +175,6 @@ types:
     name: ‘Sarissa’ Thermal Disruptive Lance Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582

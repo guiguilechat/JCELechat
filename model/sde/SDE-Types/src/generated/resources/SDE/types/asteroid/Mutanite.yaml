@@ -10,6 +10,7 @@ types:
     orebasictype: 1230
     packagedVolume: 4.0
     portionSize: 100
+    price: 5000.0
     published: true
     radius: 1.0
     requiredskill1: 3386
@@ -26,6 +27,7 @@ types:
     orebasictype: 1230
     packagedVolume: 4.0
     portionSize: 100
+    price: 5000.0
     published: true
     radius: 1.0
     requiredskill1: 3386
@@ -42,6 +44,7 @@ types:
     orebasictype: 1230
     packagedVolume: 4.0
     portionSize: 100
+    price: 5000.0
     published: true
     radius: 1.0
     requiredskill1: 3386
@@ -58,6 +61,7 @@ types:
     orebasictype: 1230
     packagedVolume: 4.0
     portionSize: 100
+    price: 5000.0
     published: true
     radius: 1.0
     requiredskill1: 3386
@@ -74,6 +78,7 @@ types:
     orebasictype: 1230
     packagedVolume: 4.0
     portionSize: 100
+    price: 5000.0
     published: true
     radius: 1.0
     requiredskill1: 3386
@@ -90,6 +95,7 @@ types:
     orebasictype: 52315
     packagedVolume: 4.0
     portionSize: 100
+    price: 5000.0
     published: true
     radius: 1.0
     requiredskill1: 3386

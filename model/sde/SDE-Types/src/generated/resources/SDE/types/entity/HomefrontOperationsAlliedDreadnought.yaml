@@ -22,6 +22,10 @@ types:
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 100000.0
     capacitorneed: 90000.0
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
     entitysuperweaponduration: 10000
     entitysuperweaponemdamage: 700000
     entitysuperweaponexplosivedamage: 700000
@@ -83,6 +87,10 @@ types:
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 100000.0
     capacitorneed: 90000.0
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
     entitysuperweaponduration: 10000
     entitysuperweaponemdamage: 700000
     entitysuperweaponexplosivedamage: 700000
@@ -144,6 +152,10 @@ types:
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 100000.0
     capacitorneed: 90000.0
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
     entitysuperweaponduration: 10000
     entitysuperweaponemdamage: 700000
     entitysuperweaponexplosivedamage: 700000
@@ -205,6 +217,10 @@ types:
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 100000.0
     capacitorneed: 90000.0
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
     entitysuperweaponduration: 10000
     entitysuperweaponemdamage: 700000
     entitysuperweaponexplosivedamage: 700000

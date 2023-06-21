@@ -1167,6 +1167,7 @@ types:
     name: Disruptive Lance Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     primaryattribute: 168
     published: true
     radius: 1.0

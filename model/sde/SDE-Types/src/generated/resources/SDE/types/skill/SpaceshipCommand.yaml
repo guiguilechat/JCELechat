@@ -1574,6 +1574,7 @@ types:
     name: Lancer Dreadnoughts
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E9
     primaryattribute: 167
     published: true
     radius: 1.0

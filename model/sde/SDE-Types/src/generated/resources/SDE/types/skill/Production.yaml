@@ -215,9 +215,10 @@ types:
     id: 77725
     manufacturetimeperlevel: -1
     marketGroup: 369
-    name: Advanced Capital Ship Constuction
+    name: Advanced Capital Ship Construction
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     primaryattribute: 165
     published: true
     radius: 1.0

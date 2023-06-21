@@ -24546,7 +24546,7 @@ locations:
     isWormhole: false
     name: Amo
     region: Metropolis
-    truesec: 0.4744107013405727
+    truesec: 0.474410701341
   Amod:
     adjacentConstellations:
     - Pezarba
@@ -113226,7 +113226,7 @@ locations:
     isWormhole: false
     name: Mehatoor
     region: Devoid
-    truesec: 0.6594727951007319
+    truesec: 0.659472795101
   Meildolf:
     adjacentConstellations:
     - Eoldulf
@@ -121692,7 +121692,7 @@ locations:
     isWormhole: false
     name: Onnamon
     region: Black Rise
-    truesec: 0.5555345088627884
+    truesec: 0.555534508863
   Onne:
     adjacentConstellations:
     - Peccanouette
