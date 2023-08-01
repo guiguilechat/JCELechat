@@ -69,11 +69,14 @@ public class RegionalMarket implements IPricing {
 	// history
 	//
 
+
+	private static final boolean NO_HISTORY = true;
+
 	private final HashMap<Integer, RegionTypeHistory> historiesByTypeID = new HashMap<>();
 
 	@Override
 	public RegionTypeHistory getHistory(int typeID) {
-		if (true) {
+		if (NO_HISTORY) {
 			return null;
 		}
 		RegionTypeHistory ret = historiesByTypeID.get(typeID);
