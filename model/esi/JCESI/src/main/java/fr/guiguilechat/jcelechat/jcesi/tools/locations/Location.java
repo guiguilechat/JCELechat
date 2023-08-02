@@ -12,12 +12,15 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
+@Accessors(fluent = true)
 public class Location {
 
 	private static Logger logger = LoggerFactory.getLogger(Location.class);
 
-	public static enum LOCTYPE {
+	public enum LOCTYPE {
 		REGION, CONSTEL, SYSTEM, STATION, STRUCTURE, OFFICE, CONQSTATION;
 	}
 
@@ -35,100 +38,77 @@ public class Location {
 	}
 
 	/**
-	 * return the system thi
-	 *
-	 * @return
+	 * return the station
 	 */
-	public R_get_universe_stations_station_id station() {
+	@Getter(lazy = true)
+	private final R_get_universe_stations_station_id station = makeStation();
+
+	private final R_get_universe_stations_station_id makeStation() {
 		if (ref == null) {
 			return null;
 		}
-
-		switch (type) {
-		case REGION:
-		case CONSTEL:
-		case SYSTEM:
-		case CONQSTATION:
-		case OFFICE:
-		case STRUCTURE:
-			return null;
-		case STATION:
-			return (R_get_universe_stations_station_id) ref;
-		default:
-			throw new IllegalArgumentException("Unexpected value: " + type);
-		}
+		return switch (type) {
+		case REGION, CONSTEL, SYSTEM, CONQSTATION, OFFICE, STRUCTURE -> null;
+		case STATION -> (R_get_universe_stations_station_id) ref;
+		default -> throw new IllegalArgumentException("Unexpected value: " + type);
+		};
 	}
 
 	/**
 	 *
 	 * @return the system of the ref if possible, or null.
 	 */
-	public R_get_universe_systems_system_id system() {
+	@Getter(lazy = true)
+	private final R_get_universe_systems_system_id system = makeSystem();
+
+	private final R_get_universe_systems_system_id makeSystem() {
 		if (ref == null) {
 			return null;
 		}
-		switch (type) {
-		case REGION:
-		case CONSTEL:
-			return null;
-		case SYSTEM:
-			return (R_get_universe_systems_system_id) ref;
-		case CONQSTATION:
-		case OFFICE:
-		case STATION:
-			return ESIStatic.INSTANCE.cache().universe.systems(((R_get_universe_stations_station_id) ref).system_id).get();
-		case STRUCTURE:
-			return ESIStatic.INSTANCE.cache().universe.systems(((R_get_universe_structures_structure_id) ref).solar_system_id)
-					.get();
-		default:
-			throw new IllegalArgumentException("Unexpected value: " + type);
-		}
+		return switch (type) {
+		case REGION, CONSTEL -> null;
+		case SYSTEM -> (R_get_universe_systems_system_id) ref;
+		case CONQSTATION, OFFICE, STATION -> ESIStatic.INSTANCE.cache().universe.systems(((R_get_universe_stations_station_id) ref).system_id).get();
+		case STRUCTURE -> ESIStatic.INSTANCE.cache().universe.systems(((R_get_universe_structures_structure_id) ref).solar_system_id)
+		.get();
+		default -> throw new IllegalArgumentException("Unexpected value: " + type);
+		};
 	}
 
 	/**
 	 *
 	 * @return the constellation of the ref if possible, or null.
 	 */
-	public R_get_universe_constellations_constellation_id constel() {
+	@Getter(lazy = true)
+	private final R_get_universe_constellations_constellation_id constel = makeConstel();
+
+	private final R_get_universe_constellations_constellation_id makeConstel() {
 		if (ref == null) {
 			return null;
 		}
-		switch (type) {
-		case REGION:
-			return null;
-		case CONSTEL:
-			return (R_get_universe_constellations_constellation_id) ref;
-		case SYSTEM:
-		case CONQSTATION:
-		case OFFICE:
-		case STATION:
-		case STRUCTURE:
-			return ESIStatic.INSTANCE.cache().universe.constellations(system().constellation_id).get();
-		default:
-			throw new IllegalArgumentException("Unexpected value: " + type);
-		}
+		return switch (type) {
+		case REGION -> null;
+		case CONSTEL -> (R_get_universe_constellations_constellation_id) ref;
+		case SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIStatic.INSTANCE.cache().universe.constellations(system().constellation_id).get();
+		default -> throw new IllegalArgumentException("Unexpected value: " + type);
+		};
 	}
 
 	/**
 	 * @return the region of the ref if possible, or null
 	 */
-	public R_get_universe_regions_region_id region() {
+	@Getter(lazy = true)
+	private final R_get_universe_regions_region_id region = makeRegion();
+
+	private final R_get_universe_regions_region_id makeRegion() {
 		if (ref == null) {
 			return null;
 		}
-		switch (type) {
-		case REGION:
-			return (R_get_universe_regions_region_id) ref;
-		case CONSTEL:
-		case SYSTEM:
-		case CONQSTATION:
-		case OFFICE:
-		case STATION:
-		case STRUCTURE:
-			return ESIStatic.INSTANCE.cache().universe.regions(constel().region_id).get();
-		default:
-			throw new IllegalArgumentException("Unexpected value: " + type);
-		}
+		return switch (type) {
+		case REGION -> (R_get_universe_regions_region_id) ref;
+		case CONSTEL, SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIStatic.INSTANCE.cache().universe.regions(constel().region_id).get();
+		default -> throw new IllegalArgumentException("Unexpected value: " + type);
+		};
 	}
 
 	@Override
@@ -153,39 +133,52 @@ public class Location {
 		if (locationid < Integer.MAX_VALUE) {
 			R_get_universe_stations_station_id station;
 			int prefix = (int) locationid / 1000000;
-			switch (prefix) {
+			return switch (prefix) {
 			case 10:// region
+			{
 				R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache().universe.regions((int) locationid).get();
-				return new Location(region, locationid, region.name, LOCTYPE.REGION);
+				yield new Location(region, locationid, region.name, LOCTYPE.REGION);
+			}
 			case 20:// constellation
+			{
 				R_get_universe_constellations_constellation_id constel = ESIStatic.INSTANCE.cache().universe
-				.constellations((int) locationid).get();
-				return new Location(constel, locationid, constel.name, LOCTYPE.CONSTEL);
+						.constellations((int) locationid).get();
+				yield new Location(constel, locationid, constel.name, LOCTYPE.CONSTEL);
+			}
 			case 30:
 			case 31:
 			case 32:// system
+			{
 				R_get_universe_systems_system_id system = ESIStatic.INSTANCE.cache().universe.systems((int) locationid).get();
-				return new Location(system, locationid, system.name, LOCTYPE.SYSTEM);
+				yield new Location(system, locationid, system.name, LOCTYPE.SYSTEM);
+			}
 			case 60:
 			case 61:
 			case 62:
 			case 63:
 			case 64:// station
+			{
 				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid).get();
-				return new Location(station, locationid, station == null ? "missing" + locationid : station.name,
+				yield new Location(station, locationid, station == null ? "missing" + locationid : station.name,
 						LOCTYPE.STATION);
-			case 66:// office id
-				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000001).get();
-				return new Location(station, locationid, station == null ? "missing" + locationid : station.name,
-						LOCTYPE.OFFICE);
-			case 67:// conquerable office
-				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000000).get();
-				return new Location(station, locationid, station == null ? "missing" + locationid : station.name,
-						LOCTYPE.CONQSTATION);
-			default:
-				logger.warn("locationid not handled " + locationid + " prefix " + prefix);
-				return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
 			}
+			case 66:// office id
+			{
+				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000001).get();
+				yield new Location(station, locationid, station == null ? "missing" + locationid : station.name,
+						LOCTYPE.OFFICE);
+			}
+			case 67:// conquerable office
+			{
+				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000000).get();
+				yield new Location(station, locationid, station == null ? "missing" + locationid : station.name,
+						LOCTYPE.CONQSTATION);
+			}
+			default: {
+				logger.warn("locationid not handled " + locationid + " prefix " + prefix);
+				yield new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
+			}
+			};
 		} else {
 			// TODO check into esiaccess if the structure id is in the public
 			// structures.
