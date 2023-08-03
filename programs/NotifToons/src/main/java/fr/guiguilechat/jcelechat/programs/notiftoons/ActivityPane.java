@@ -7,13 +7,21 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Attributes;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
+import fr.guiguilechat.tools.JFXTools;
 import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.collections.CollectionHolder;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import javafx.application.Platform;
 import javafx.scene.control.TableCell;
@@ -28,6 +36,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ActivityPane extends TableView<ActivityData> {
 
+	private static final Logger logger = LoggerFactory.getLogger(ActivityPane.class);
 	private static final DateTimeFormatter CELLDATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-DD HH:mm");
 
 	private final List<ESIAccount> accounts;
@@ -112,7 +121,7 @@ public class ActivityPane extends TableView<ActivityData> {
 
 	protected ListHolder<ActivityData> convertChar(ESIAccount account) {
 		return ListHolderImpl
-				.of(convertCharSkills(account)).flatten(l -> l);
+				.of(convertCharSkills(account), convertCharMarket(account)).flatten(l -> l);
 	}
 
 	@SuppressWarnings("unchecked")
@@ -156,6 +165,42 @@ public class ActivityPane extends TableView<ActivityData> {
 					Attributes.of(primaryAttId) + "/" + Attributes.of(secondaryAttId), "", access.name(), 320, 2, skill);
 		} else {
 			return null;
+		}
+	}
+
+	protected CollectionHolder<ActivityData, ?> convertCharMarket(ESIAccount account) {
+		return account.character.market.getOrders().values()
+				// pre cache esi fetch
+				.follow(orders -> {
+					for (R_get_characters_character_id_orders o : orders) {
+						ESIStatic.INSTANCE.cache().universe.types(o.type_id);
+					}
+				})
+				// then convert
+				.mapItems(o -> convertOrder(o, account)).filter(o -> {
+					if (o == null) {
+						System.err.println("null market");
+						return false;
+					} else {
+						return true;
+					}
+				});
+	}
+
+	protected ActivityData convertOrder(R_get_characters_character_id_orders order, ESIAccount access) {
+		try {
+			LocalDateTime expiry = ESITools.convertLocalDateTime(order.issued).plusDays(order.duration - 7);
+			R_get_universe_types_type_id t = ESIStatic.INSTANCE.cache().universe.types(order.type_id).get();
+			ActivityData ret = new ActivityData(expiry, "MK",
+					(t == null ? "unknown_" + order.type_id : t.name)
+					+ " *" + order.volume_remain + " " + JFXTools.formatPrice(order.price),
+					access.universe.locationName(order.location_id)
+					, access.name(), 0, 0, order);
+			return ret;
+		} catch (Exception e) {
+			logger.warn("while converting order from " + access.name() + " remain " + order.volume_remain + " type "
+					+ order.type_id + " issued is " + order.issued);
+			throw e;
 		}
 	}
 
