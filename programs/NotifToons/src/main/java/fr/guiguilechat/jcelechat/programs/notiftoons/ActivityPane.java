@@ -41,6 +41,8 @@ public class ActivityPane extends TableView<ActivityData> {
 
 	private final List<ESIAccount> accounts;
 
+	private final NotifToonsSettings settings;
+
 	public ActivityPane build() {
 		TableColumn<ActivityData, LocalDateTime> dateCol = new TableColumn<>("date");
 		dateCol.setCellValueFactory(ed -> ed.getValue().time);
@@ -61,7 +63,7 @@ public class ActivityPane extends TableView<ActivityData> {
 		dateCol.setSortType(SortType.ASCENDING);
 		getColumns().add(dateCol);
 
-		TableColumn<ActivityData, String> typeCol = new TableColumn<>("type");
+		TableColumn<ActivityData, ActivityData.TYPE> typeCol = new TableColumn<>("type");
 		typeCol.setCellValueFactory(ed -> ed.getValue().type);
 		typeCol.setMinWidth(40);
 		typeCol.setMaxWidth(40);
@@ -86,15 +88,21 @@ public class ActivityPane extends TableView<ActivityData> {
 
 		setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY_FLEX_LAST_COLUMN);
 
-		getCharsActivities().follow(l -> {
-			Platform.runLater(() -> {
-				getItems().clear();
-				getItems().addAll(l);
-				sort();
-			});
-		});
+		getCharsActivities().follow(l -> refreshList());
 
 		return this;
+	}
+
+	public void refreshList() {
+		Platform.runLater(() -> {
+			getItems().clear();
+			List<ActivityData> l = getCharsActivities().get()
+					.stream()
+					.filter(a -> a.accepted(settings.getNotifications()))
+					.toList();
+			getItems().addAll(l);
+			sort();
+		});
 	}
 
 	protected TableRow<ActivityData> createTableRow(TableView<ActivityData> tv) {
@@ -140,7 +148,7 @@ public class ActivityPane extends TableView<ActivityData> {
 		if (skill.finish_date == null) {
 			return null;
 		}
-		return new ActivityData(ESITools.convertLocalDateTime(skill.finish_date), "skill",
+		return new ActivityData(ESITools.convertLocalDateTime(skill.finish_date), ActivityData.TYPE.Skill,
 				TypeIndex.getType(skill.skill_id).name + " " + skill.finished_level, "", access.name(), 300, 0, skill);
 	}
 
@@ -148,7 +156,7 @@ public class ActivityPane extends TableView<ActivityData> {
 		if (skill == null || skill.finish_date == null) {
 			return null;
 		}
-		return new ActivityData(ESITools.convertLocalDateTime(skill.finish_date).minusDays(1), "SQ", "", "",
+		return new ActivityData(ESITools.convertLocalDateTime(skill.finish_date).minusDays(1), ActivityData.TYPE.SQ, "", "",
 				access.name(), 320, 3, skill);
 	}
 
@@ -161,7 +169,7 @@ public class ActivityPane extends TableView<ActivityData> {
 		int secondaryAttId = sk.secondaryattribute;
 
 		if (!access.character.attributes.isAttributeHighest(primaryAttId).get()) {
-			return new ActivityData(ESITools.convertLocalDateTime(skill.start_date).minusDays(1), "ReM",
+			return new ActivityData(ESITools.convertLocalDateTime(skill.start_date).minusDays(1), ActivityData.TYPE.ReM,
 					Attributes.of(primaryAttId) + "/" + Attributes.of(secondaryAttId), "", access.name(), 320, 2, skill);
 		} else {
 			return null;
@@ -191,7 +199,7 @@ public class ActivityPane extends TableView<ActivityData> {
 		try {
 			LocalDateTime expiry = ESITools.convertLocalDateTime(order.issued).plusDays(order.duration - 7);
 			R_get_universe_types_type_id t = ESIStatic.INSTANCE.cache().universe.types(order.type_id).get();
-			ActivityData ret = new ActivityData(expiry, "MK",
+			ActivityData ret = new ActivityData(expiry, ActivityData.TYPE.Mk,
 					(t == null ? "unknown_" + order.type_id : t.name)
 					+ " *" + order.volume_remain + " " + JFXTools.formatPrice(order.price),
 					access.universe.locationName(order.location_id)

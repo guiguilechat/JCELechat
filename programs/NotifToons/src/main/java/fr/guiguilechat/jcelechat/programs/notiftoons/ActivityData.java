@@ -2,11 +2,70 @@ package fr.guiguilechat.jcelechat.programs.notiftoons;
 
 import java.time.LocalDateTime;
 
+import fr.guiguilechat.jcelechat.programs.notiftoons.NotifToonsSettings.Notification;
 import javafx.beans.property.Property;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.scene.paint.Color;
 
 public class ActivityData {
+
+	public enum TYPE {
+		Mk {
+			@Override
+			public boolean isActivate(Notification settings) {
+				return settings.isShowMarketOrders();
+			}
+
+			@Override
+			public void activate(Notification settings, boolean activation) {
+				settings.setShowMarketOrders(activation);
+			}
+
+		},
+		ReM {
+			@Override
+			public boolean isActivate(Notification settings) {
+				return settings.isShowRemaps();
+			}
+
+			@Override
+			public void activate(Notification settings, boolean activation) {
+				settings.setShowRemaps(activation);
+			}
+		},
+		Skill {
+			@Override
+			public boolean isActivate(Notification settings) {
+				return settings.isShowSkillsChange();
+			}
+
+			@Override
+			public void activate(Notification settings, boolean activation) {
+				settings.setShowSkillsChange(activation);
+			}
+		},
+		SQ {
+			@Override
+			public boolean isActivate(Notification settings) {
+				return settings.isShowSkillsQueueEnd();
+			}
+
+			@Override
+			public void activate(Notification settings, boolean activation) {
+				settings.setShowSkillsQueueEnd(activation);
+			}
+		}
+		;
+
+		public boolean isActivate(NotifToonsSettings.Notification settings) {
+			return true;
+		}
+
+		public void activate(NotifToonsSettings.Notification settings, boolean activation) {
+
+		}
+
+	}
 
 	/**
 	 *
@@ -31,7 +90,7 @@ public class ActivityData {
 	}
 
 	public Property<LocalDateTime> time = new SimpleObjectProperty<>();
-	public Property<String> type = new SimpleObjectProperty<>("none");
+	public Property<TYPE> type = new SimpleObjectProperty<>(null);
 	public Property<String> description = new SimpleObjectProperty<>("");
 	public Property<String> where = new SimpleObjectProperty<>("");
 	public Property<String> who = new SimpleObjectProperty<>("");
@@ -39,7 +98,7 @@ public class ActivityData {
 	public Property<String> colorNotPassed = new SimpleObjectProperty<>("white");
 	public Object origin = null;
 
-	public ActivityData(LocalDateTime time, String type, String description, String where, String who,
+	public ActivityData(LocalDateTime time, TYPE type, String description, String where, String who,
 			String colorPassed, String colorNotPassed, Object origin) {
 		this.time.setValue(time);
 		this.type.setValue(type);
@@ -55,7 +114,7 @@ public class ActivityData {
 		this.origin = origin;
 	}
 
-	public ActivityData(LocalDateTime time, String type, String description, String where, String who, int hue,
+	public ActivityData(LocalDateTime time, TYPE type, String description, String where, String who, int hue,
 			int warninglevel, Object origin) {
 		this(time, type, description, where, who, colorEvent(hue, warninglevel, true),
 				colorEvent(hue, warninglevel, false), origin);
@@ -85,6 +144,10 @@ public class ActivityData {
 	@Override
 	public String toString() {
 		return "" + type.getValue() + ":" + description;
+	}
+
+	public boolean accepted(NotifToonsSettings.Notification settings) {
+		return type.getValue().isActivate(settings);
 	}
 
 }

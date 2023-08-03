@@ -7,7 +7,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.programs.notiftoons.NotifToonsSettings.Ssokey;
 import fr.lelouet.tools.application.yaml.YamlSettings;
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -30,18 +29,7 @@ public class NotifToons extends Application {
 
 	public NotifToons() {
 		settings = YamlSettings.load(NotifToonsSettings.class);
-		accounts = new ArrayList<>();
-		for (Ssokey devkey : settings.getSsokeys()) {
-			for (String refreshtoken : devkey.getRefreshTokens()) {
-				ESIAccount acc = new ESIAccount(refreshtoken, devkey.getBase64());
-				try {
-					logger.info("added connection for " + acc.name());
-					accounts.add(acc);
-				} catch (Exception e) {
-					logger.error("while checking access b64=" + devkey.getBase64() + " refreshtoken=" + refreshtoken, e);
-				}
-			}
-		}
+		accounts = settings.accounts();
 	}
 
 	protected BorderPane mainLayout = new BorderPane();
@@ -50,7 +38,9 @@ public class NotifToons extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		logger.info("start notiftoons");
 		primaryStage.setTitle("guigui lechat toons notifications");
-		mainLayout.setCenter(new ActivityPane(accounts).build());
+		ActivityPane ap = new ActivityPane(accounts, settings).build();
+		mainLayout.setCenter(ap);
+		mainLayout.setTop(new NotifOptionsPane(settings, ap::refreshList).build());
 		Scene scene = new Scene(mainLayout, 800, 900);
 		primaryStage.setScene(scene);
 		primaryStage.show();
