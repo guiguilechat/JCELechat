@@ -23,6 +23,7 @@
 		<module>ShowAttributes</module>
 		<module>CheckESISDE</module>
 		<module>GankHistory</module>
+		<module>NotifToons</module>
 	</modules>
 	<dependencies>
 		<dependency>

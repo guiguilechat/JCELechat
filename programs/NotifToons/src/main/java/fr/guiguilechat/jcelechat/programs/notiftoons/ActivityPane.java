@@ -1,0 +1,162 @@
+package fr.guiguilechat.jcelechat.programs.notiftoons;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Attributes;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.model.sde.types.Skill;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import javafx.application.Platform;
+import javafx.scene.control.TableCell;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumn.SortType;
+import javafx.scene.control.TableRow;
+import javafx.scene.control.TableView;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
+public class ActivityPane extends TableView<ActivityData> {
+
+	private static final DateTimeFormatter CELLDATE_FORMAT = DateTimeFormatter.ofPattern("dd/MM HH:mm:ss");
+
+	private final List<ESIAccount> accounts;
+
+	public ActivityPane build() {
+		TableColumn<ActivityData, LocalDateTime> dateCol = new TableColumn<>("date");
+		dateCol.setCellValueFactory(ed -> ed.getValue().time);
+		dateCol.setCellFactory(param -> new TableCell<>() {
+			@Override
+			protected void updateItem(LocalDateTime item, boolean empty) {
+				super.updateItem(item, empty);
+				if (item != null) {
+					setText(item.format(CELLDATE_FORMAT));
+				} else {
+					setText("");
+				}
+			}
+		});
+		dateCol.setMinWidth(110);
+		dateCol.setMaxWidth(110);
+		dateCol.setSortable(true);
+		dateCol.setSortType(SortType.ASCENDING);
+		getColumns().add(dateCol);
+
+		TableColumn<ActivityData, String> typeCol = new TableColumn<>("type");
+		typeCol.setCellValueFactory(ed -> ed.getValue().type);
+		typeCol.setMinWidth(40);
+		typeCol.setMaxWidth(40);
+		getColumns().add(typeCol);
+
+		TableColumn<ActivityData, String> desCol = new TableColumn<>("description");
+		desCol.setCellValueFactory(ed -> ed.getValue().description);
+		desCol.setMinWidth(400);
+		getColumns().add(desCol);
+
+		TableColumn<ActivityData, String> whereCol = new TableColumn<>("where");
+		whereCol.setCellValueFactory(ed -> ed.getValue().where);
+		getColumns().add(whereCol);
+
+		TableColumn<ActivityData, String> whoCol = new TableColumn<>("who");
+		whoCol.setCellValueFactory(ed -> ed.getValue().who);
+		getColumns().add(whoCol);
+
+		getSortOrder().add(dateCol);
+
+		setRowFactory(this::createTableRow);
+
+		setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY_FLEX_LAST_COLUMN);
+
+		getCharsActivities().follow(l -> {
+			Platform.runLater(() -> {
+				getItems().clear();
+				getItems().addAll(l);
+				sort();
+			});
+		});
+
+		return this;
+	}
+
+	protected TableRow<ActivityData> createTableRow(TableView<ActivityData> tv) {
+		return new TableRow<>() {
+			@Override
+			public void updateItem(ActivityData item, boolean empty) {
+				super.updateItem(item, empty);
+				if (item != null && item.time != null) {
+					if (item.time.getValue().isBefore(LocalDateTime.now())) {
+						setStyle("-fx-background-color: " + item.colorPassed.getValue() + ";");
+					} else {
+						setStyle("-fx-background-color: " + item.colorNotPassed.getValue() + ";");
+					}
+				} else {
+					setStyle("");
+				}
+			}
+		};
+	}
+
+	@Getter(lazy = true)
+	private final ListHolder<ActivityData> charsActivities = new ListHolderImpl<>(getAccounts())
+	.flatten(this::convertChar);
+
+	protected ListHolder<ActivityData> convertChar(ESIAccount account) {
+		return ListHolderImpl
+				.of(convertCharSkills(account)).flatten(l -> l);
+	}
+
+	@SuppressWarnings("unchecked")
+	protected ListHolder<ActivityData> convertCharSkills(ESIAccount account) {
+		ListHolder<R_get_characters_character_id_skillqueue> sq = account.character.skills.getQueue();
+		ListHolder<ActivityData> last = sq.map(l -> l.size() > 0 ? l.get(l.size() - 1) : null)
+				.map(ls -> ls == null ? null : convertLastSkill(ls, account)).mapList(l -> Arrays.asList(l));
+		ListHolder<ActivityData> skillStart = sq.mapItems(j -> convertSkillChange(j, account));
+		ListHolder<ActivityData> remaps = sq.mapItems(j -> convertSkillRemap(j, account))
+				.mapList(l -> l.isEmpty() ? Collections.emptyList()
+						: l.stream().filter(o -> o != null).limit(1).collect(Collectors.toList()));
+		return skillStart.concat(last, remaps).filter(o -> o != null);
+	}
+
+	protected ActivityData convertSkillChange(R_get_characters_character_id_skillqueue skill, ESIAccount access) {
+		if (skill.finish_date == null) {
+			return null;
+		}
+		return new ActivityData(ESITools.convertLocalDateTime(skill.finish_date), "skill",
+				TypeIndex.getType(skill.skill_id).name + " " + skill.finished_level, "", access.name(), 300, 0, skill);
+	}
+
+	protected ActivityData convertLastSkill(R_get_characters_character_id_skillqueue skill, ESIAccount access) {
+		if (skill == null || skill.finish_date == null) {
+			return null;
+		}
+		return new ActivityData(ESITools.convertLocalDateTime(skill.finish_date).minusDays(1), "SQ", "", "",
+				access.name(), 320, 3, skill);
+	}
+
+	protected ActivityData convertSkillRemap(R_get_characters_character_id_skillqueue skill, ESIAccount access) {
+		if (skill == null || skill.start_date == null) {
+			return null;
+		}
+		Skill sk = (Skill) TypeIndex.getType(skill.skill_id);
+		int primaryAttId = sk.primaryattribute;
+		int secondaryAttId = sk.secondaryattribute;
+
+		if (!access.character.attributes.isAttributeHighest(primaryAttId).get()) {
+			return new ActivityData(ESITools.convertLocalDateTime(skill.start_date).minusDays(1), "ReM",
+					Attributes.of(primaryAttId) + "/" + Attributes.of(secondaryAttId), "", access.name(), 320, 2, skill);
+		} else {
+			return null;
+		}
+	}
+
+}
