@@ -28,7 +28,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ActivityPane extends TableView<ActivityData> {
 
-	private static final DateTimeFormatter CELLDATE_FORMAT = DateTimeFormatter.ofPattern("dd/MM HH:mm:ss");
+	private static final DateTimeFormatter CELLDATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-DD HH:mm");
 
 	private final List<ESIAccount> accounts;
 
@@ -46,8 +46,8 @@ public class ActivityPane extends TableView<ActivityData> {
 				}
 			}
 		});
-		dateCol.setMinWidth(110);
-		dateCol.setMaxWidth(110);
+		dateCol.setMinWidth(140);
+		dateCol.setMaxWidth(140);
 		dateCol.setSortable(true);
 		dateCol.setSortType(SortType.ASCENDING);
 		getColumns().add(dateCol);
@@ -63,9 +63,9 @@ public class ActivityPane extends TableView<ActivityData> {
 		desCol.setMinWidth(400);
 		getColumns().add(desCol);
 
-		TableColumn<ActivityData, String> whereCol = new TableColumn<>("where");
-		whereCol.setCellValueFactory(ed -> ed.getValue().where);
-		getColumns().add(whereCol);
+		// TableColumn<ActivityData, String> whereCol = new TableColumn<>("where");
+		// whereCol.setCellValueFactory(ed -> ed.getValue().where);
+		// getColumns().add(whereCol);
 
 		TableColumn<ActivityData, String> whoCol = new TableColumn<>("who");
 		whoCol.setCellValueFactory(ed -> ed.getValue().who);
