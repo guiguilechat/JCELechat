@@ -14,6 +14,7 @@ import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 
@@ -123,7 +124,7 @@ public class LootAnalysis {
 	}
 
 	public static Yaml makeYaml() {
-		Yaml ret = new Yaml(new SafeConstructor(), new CleanRepresenter(), YAMLTools.blockDumper());
+		Yaml ret = new Yaml(new SafeConstructor(new LoaderOptions()), new CleanRepresenter(), YAMLTools.blockDumper());
 		return ret;
 	}
 
