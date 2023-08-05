@@ -22,9 +22,9 @@ public class NotifOptionsPane extends HBox{
 		for (TYPE t : ActivityData.TYPE.values()) {
 			CheckBox chk = new CheckBox(t.name());
 			chk.setAllowIndeterminate(false);
-			chk.setSelected(t.isActivate(settings.getNotifications()));
+			chk.setSelected(t.isActive(settings.getNotifications()));
 			chk.selectedProperty().addListener((o, ov, nv) -> {
-				t.activate(settings.getNotifications(), nv);
+				t.active(settings.getNotifications(), nv);
 				onChange.run();
 				settings.storeLater();
 			});

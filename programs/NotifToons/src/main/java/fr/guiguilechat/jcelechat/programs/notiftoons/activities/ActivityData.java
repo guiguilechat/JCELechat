@@ -7,65 +7,89 @@ import fr.guiguilechat.jcelechat.programs.notiftoons.settings.NotifToonsSettings
 import javafx.beans.property.Property;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.scene.paint.Color;
+import lombok.RequiredArgsConstructor;
 
+/**
+ * activity that happen at a given time. Since some activities must be known
+ * before they happen, the time may be changed from the actual date of
+ * happening. Correspondingly, an event like a war may have several activities :
+ * one in advance to warn about it, and one for the exact moment it starts.
+ */
 public class ActivityData {
 
+	/**
+	 * type of the activity. Needed to filter and present.
+	 *
+	 */
+	@RequiredArgsConstructor
 	public enum TYPE {
-		Mk {
+		Mk("market order expiration") {
 			@Override
-			public boolean isActivate(Notification settings) {
+			public boolean isActive(Notification settings) {
 				return settings.isShowMarketOrders();
 			}
 
 			@Override
-			public void activate(Notification settings, boolean activation) {
+			public void active(Notification settings, boolean activation) {
 				settings.setShowMarketOrders(activation);
 			}
 
 		},
-		ReM {
+		ReM("attributes remaping") {
 			@Override
-			public boolean isActivate(Notification settings) {
+			public boolean isActive(Notification settings) {
 				return settings.isShowRemaps();
 			}
 
 			@Override
-			public void activate(Notification settings, boolean activation) {
+			public void active(Notification settings, boolean activation) {
 				settings.setShowRemaps(activation);
 			}
 		},
-		Skill {
+		Skill("skill completed") {
 			@Override
-			public boolean isActivate(Notification settings) {
+			public boolean isActive(Notification settings) {
 				return settings.isShowSkillsChange();
 			}
 
 			@Override
-			public void activate(Notification settings, boolean activation) {
+			public void active(Notification settings, boolean activation) {
 				settings.setShowSkillsChange(activation);
 			}
 		},
-		SQ {
+		SQ("skill queue ended") {
 			@Override
-			public boolean isActivate(Notification settings) {
+			public boolean isActive(Notification settings) {
 				return settings.isShowSkillsQueueEnd();
 			}
 
 			@Override
-			public void activate(Notification settings, boolean activation) {
+			public void active(Notification settings, boolean activation) {
 				settings.setShowSkillsQueueEnd(activation);
 			}
 		}
 		;
 
-		public boolean isActivate(NotifToonsSettings.Notification settings) {
-			return true;
-		}
+		public final String longName;
 
-		public void activate(NotifToonsSettings.Notification settings, boolean activation) {
+		/**
+		 * check if that type is active in a settings
+		 *
+		 * @param settings
+		 *          the notification part of the settings
+		 * @return true iff this type is written as active in the settings
+		 */
+		public abstract boolean isActive(NotifToonsSettings.Notification settings);
 
-		}
-
+		/**
+		 * update the active state of this type in a settings
+		 *
+		 * @param settings
+		 *          the settings to change
+		 * @param activation
+		 *          the new activation state of this type in the settings
+		 */
+		public abstract void active(NotifToonsSettings.Notification settings, boolean activation);
 	}
 
 	/**
@@ -148,7 +172,7 @@ public class ActivityData {
 	}
 
 	public boolean accepted(NotifToonsSettings.Notification settings) {
-		return type.getValue().isActivate(settings);
+		return type.getValue().isActive(settings);
 	}
 
 }
