@@ -7,6 +7,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
+import fr.guiguilechat.jcelechat.programs.notiftoons.activities.ActivityPane;
+import fr.guiguilechat.jcelechat.programs.notiftoons.activities.NotifOptionsPane;
+import fr.guiguilechat.jcelechat.programs.notiftoons.settings.NotifToonsSettings;
 import fr.lelouet.tools.application.yaml.YamlSettings;
 import javafx.application.Application;
 import javafx.scene.Scene;

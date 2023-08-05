@@ -1,8 +1,9 @@
-package fr.guiguilechat.jcelechat.programs.notiftoons;
+package fr.guiguilechat.jcelechat.programs.notiftoons.activities;
 
 import java.time.LocalDateTime;
 
-import fr.guiguilechat.jcelechat.programs.notiftoons.NotifToonsSettings.Notification;
+import fr.guiguilechat.jcelechat.programs.notiftoons.settings.NotifToonsSettings;
+import fr.guiguilechat.jcelechat.programs.notiftoons.settings.NotifToonsSettings.Notification;
 import javafx.beans.property.Property;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.scene.paint.Color;

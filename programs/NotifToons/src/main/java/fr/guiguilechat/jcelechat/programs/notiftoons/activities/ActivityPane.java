@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.notiftoons;
+package fr.guiguilechat.jcelechat.programs.notiftoons.activities;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -19,6 +19,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
+import fr.guiguilechat.jcelechat.programs.notiftoons.settings.NotifToonsSettings;
 import fr.guiguilechat.tools.JFXTools;
 import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
 import fr.lelouet.tools.holders.interfaces.collections.CollectionHolder;

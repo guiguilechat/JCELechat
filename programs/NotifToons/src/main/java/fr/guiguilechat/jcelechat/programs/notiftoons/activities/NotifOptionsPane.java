@@ -1,6 +1,7 @@
-package fr.guiguilechat.jcelechat.programs.notiftoons;
+package fr.guiguilechat.jcelechat.programs.notiftoons.activities;
 
-import fr.guiguilechat.jcelechat.programs.notiftoons.ActivityData.TYPE;
+import fr.guiguilechat.jcelechat.programs.notiftoons.activities.ActivityData.TYPE;
+import fr.guiguilechat.jcelechat.programs.notiftoons.settings.NotifToonsSettings;
 import javafx.scene.control.CheckBox;
 import javafx.scene.layout.HBox;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.notiftoons;
+package fr.guiguilechat.jcelechat.programs.notiftoons.settings;
 
 import java.util.ArrayList;
 import java.util.List;
