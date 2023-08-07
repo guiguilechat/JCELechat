@@ -36,9 +36,9 @@ done
 if [ ! -z "$increase" ]
 then
 	present_version=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
-	present_major=$(echo "$present_version"|sed "s/\..*//g")
-	present_minor=$(echo "$present_version"|sed "s/.*\.\(.*\)\..*/\1/g")
-	present_patch=$(echo "$present_version"|sed "s/.*\.//g")
+	present_major=$(echo "$present_version" | sed "s/\..*//g" | sed 's/^.\{3\}[^.0-9]//g')
+	present_minor=$(echo "$present_version" | sed "s/.*\.\(.*\)\..*/\1/g")
+	present_patch=$(echo "$present_version" | sed "s/.*\.//g" | sed 's/[^.0-9].\{3\}$//g')
 #	echo present= $present_major . $present_minor . $present_patch
 	case "$increase" in
 		p)
