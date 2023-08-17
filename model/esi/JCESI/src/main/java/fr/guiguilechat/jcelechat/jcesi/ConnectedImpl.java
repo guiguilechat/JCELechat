@@ -32,6 +32,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
@@ -117,56 +118,56 @@ public abstract class ConnectedImpl implements ITransfer {
 			Map<String, List<String>> headers = con.getHeaderFields();
 			int responseCode = con.getResponseCode();
 			switch (responseCode) {
-				// 2xx ok
-				case HttpsURLConnection.HTTP_OK:
-				case HttpsURLConnection.HTTP_CREATED:
-				case HttpsURLConnection.HTTP_ACCEPTED:
-				case HttpsURLConnection.HTTP_NOT_AUTHORITATIVE:
-				case HttpsURLConnection.HTTP_NO_CONTENT:
-				case HttpsURLConnection.HTTP_RESET:
-				case HttpsURLConnection.HTTP_PARTIAL:
-					String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-					logger.info(
-							method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-									+ con.getHeaderFields());
-					return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
-					// 304 not modified
-				case HttpsURLConnection.HTTP_NOT_MODIFIED:
-					String date = headers.getOrDefault("Date", List.of("")).get(0);
-					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
-					if (date.equals(expires)) {
-						logger.warn(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+			// 2xx ok
+			case HttpsURLConnection.HTTP_OK:
+			case HttpsURLConnection.HTTP_CREATED:
+			case HttpsURLConnection.HTTP_ACCEPTED:
+			case HttpsURLConnection.HTTP_NOT_AUTHORITATIVE:
+			case HttpsURLConnection.HTTP_NO_CONTENT:
+			case HttpsURLConnection.HTTP_RESET:
+			case HttpsURLConnection.HTTP_PARTIAL:
+				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+				logger.info(
+						method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
 								+ con.getHeaderFields());
-						// if expires=Date we add 20s of avoid CCP bug
-						headers = new HashMap<>(headers);
-						String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
-						headers.put("Expires", List.of(newExpiry));
-					} else {
-						logger.info(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-								+ con.getHeaderFields());
-					}
-					return new RequestedImpl<>(url, responseCode, null, null, headers);
-					// 4xx client error
-				case HttpsURLConnection.HTTP_BAD_REQUEST:
-				case HttpsURLConnection.HTTP_UNAUTHORIZED:
-				case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
-				case HttpsURLConnection.HTTP_FORBIDDEN:
-				case HttpsURLConnection.HTTP_NOT_FOUND:
-				case HttpsURLConnection.HTTP_BAD_METHOD:
-					// 5xx server error
-				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
-				case HttpsURLConnection.HTTP_BAD_GATEWAY:
-				case HttpsURLConnection.HTTP_UNAVAILABLE:
-				case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
-				default:
-					StringBuilder sb = new StringBuilder(
-							"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
-					if (con.getErrorStream() != null) {
-						new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
-					}
-					logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+				return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
+				// 304 not modified
+			case HttpsURLConnection.HTTP_NOT_MODIFIED:
+				String date = headers.getOrDefault("Date", List.of("")).get(0);
+				String expires = headers.getOrDefault("Expires", List.of("")).get(0);
+				if (date.equals(expires)) {
+					logger.warn(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
 							+ con.getHeaderFields());
-					return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
+					// if expires=Date we add 20s of avoid CCP bug
+					headers = new HashMap<>(headers);
+					String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
+					headers.put("Expires", List.of(newExpiry));
+				} else {
+					logger.info(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+							+ con.getHeaderFields());
+				}
+				return new RequestedImpl<>(url, responseCode, null, null, headers);
+				// 4xx client error
+			case HttpsURLConnection.HTTP_BAD_REQUEST:
+			case HttpsURLConnection.HTTP_UNAUTHORIZED:
+			case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
+			case HttpsURLConnection.HTTP_FORBIDDEN:
+			case HttpsURLConnection.HTTP_NOT_FOUND:
+			case HttpsURLConnection.HTTP_BAD_METHOD:
+				// 5xx server error
+			case HttpsURLConnection.HTTP_INTERNAL_ERROR:
+			case HttpsURLConnection.HTTP_BAD_GATEWAY:
+			case HttpsURLConnection.HTTP_UNAVAILABLE:
+			case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
+			default:
+				StringBuilder sb = new StringBuilder(
+						"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
+				if (con.getErrorStream() != null) {
+					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+				}
+				logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+						+ con.getHeaderFields());
+				return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 			}
 		} catch (Exception e) {
 			logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t\t" + e.getMessage());
@@ -254,7 +255,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			String firstLastModified = firstPage.getLastModified();
 			String pageLastModified = page.getLastModified();
-			if (!(firstLastModified == pageLastModified || firstLastModified != null && firstLastModified.equals(pageLastModified))) {
+			if (firstLastModified != pageLastModified && (firstLastModified == null || !firstLastModified.equals(pageLastModified))) {
 				String message = "mismatching page cache data [url=" + page.getURL() + " lastmodified=" + pageLastModified
 						+ "] with first page [url=" + firstPage.getURL() + " lastmodified=" + firstLastModified + "]";
 				logger.warn(message);
@@ -279,6 +280,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	////
 
 	private final ObjectMapper mapper = new ObjectMapper();
+	{
+		mapper.configure(DeserializationFeature.READ_UNKNOWN_ENUM_VALUES_AS_NULL, true);
+	}
 
 	@SuppressWarnings("unchecked")
 	@Override
@@ -296,7 +300,10 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			return mapper.readerFor(clazz).readValue(line);
 		} catch (Exception e) {
-			throw new UnsupportedOperationException("while converting line " + line + "to class" + clazz.getName(), e);
+			logger.error("while converting line " + line + "to class" + clazz.getName(), e);
+			System.err.println(
+					"exception caught while converting line " + line + "to class" + clazz.getName() + " : " + e.getMessage());
+			return null;
 		}
 	}
 
