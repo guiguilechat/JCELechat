@@ -56,24 +56,27 @@ public class Contracts {
 			// then fetch and cache all missing contracts
 			l.parallelStream().forEach(c -> {
 				if (!cachedContractsData.containsKey(c.contract_id)) {
-					ContractDesc data = new ContractDesc(c,
-							ESIStatic.INSTANCE
-							.requestGetPages(
-											(page, props) -> ESIStatic.INSTANCE.get_contracts_public_items(c.contract_id, page, props),
-									null)
-							.getOK(),
-							ESIStatic.INSTANCE
-							.requestGetPages(
-											(page, props) -> ESIStatic.INSTANCE.get_contracts_public_bids(c.contract_id, page, props),
-									null)
-							.getOK());
 					synchronized (cachedContractsData) {
-						cachedContractsData.put(c.contract_id, data);
+						cachedContractsData.put(c.contract_id, contractOf(c));
 					}
 				}
 			});
 			return l.stream().map(c -> cachedContractsData.get(c.contract_id)).toList();
 		});
+
+		protected static ContractDesc contractOf(R_get_contracts_public_region_id c) {
+			return new ContractDesc(c,
+					ESIStatic.INSTANCE
+					.requestGetPages(
+							(page, props) -> ESIStatic.INSTANCE.get_contracts_public_items(c.contract_id, page, props),
+							null)
+					.getOK(),
+					ESIStatic.INSTANCE
+					.requestGetPages(
+							(page, props) -> ESIStatic.INSTANCE.get_contracts_public_bids(c.contract_id, page, props),
+							null)
+					.getOK());
+		}
 
 		@Getter(lazy = true)
 		private final ListHolder<ContractDesc> itemOffers = getFullContracts()
