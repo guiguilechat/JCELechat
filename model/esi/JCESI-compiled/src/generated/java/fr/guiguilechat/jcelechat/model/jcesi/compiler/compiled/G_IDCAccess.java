@@ -134,7 +134,7 @@ public interface G_IDCAccess
      * Get character's public information
      * <p>
      * Public information about a character<br />
-     * This route is cached for up to 86400 seconds
+     * This route is cached for up to 604800 seconds
      * </p>
      * 
      * @param character_id

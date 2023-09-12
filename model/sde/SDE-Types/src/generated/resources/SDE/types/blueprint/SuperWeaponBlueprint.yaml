@@ -145,7 +145,7 @@ types:
   77402:
     id: 77402
     marketGroup: 913
-    name: ‘Atgeir’ Explosive Disruptive Lance Blueprint
+    name: '''Atgeir'' Explosive Disruptive Lance Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.0E8
@@ -163,7 +163,7 @@ types:
   77404:
     id: 77404
     marketGroup: 913
-    name: ‘Steel Yari’ Kinetic Disruptive Lance Blueprint
+    name: '''Steel Yari'' Kinetic Disruptive Lance Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.0E8
@@ -172,7 +172,7 @@ types:
   77405:
     id: 77405
     marketGroup: 913
-    name: ‘Sarissa’ Thermal Disruptive Lance Blueprint
+    name: '''Sarissa'' Thermal Disruptive Lance Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.0E8

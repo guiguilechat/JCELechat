@@ -21,7 +21,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
   77120:
-    armorhp: 105000.0
+    armorhp: 127500.0
     armoruniformity: 1.0
     capacity: 10000.0
     disallowassistance: 1
@@ -33,7 +33,7 @@ types:
     entitylootcountmax: 10
     entitylootcountmin: 5
     falloff: 1.0
-    hp: 60000.0
+    hp: 82500.0
     id: 77120
     mass: 100000.0
     name: Longshot Relay
@@ -41,7 +41,7 @@ types:
     portionSize: 1
     published: false
     radius: 3346.0
-    shieldcapacity: 105000.0
+    shieldcapacity: 127500.0
     shieldrechargerate: 8.64E7
     signatureradius: 1000.0
     structureuniformity: 1.0
@@ -68,7 +68,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
   77195:
-    armorhp: 105000.0
+    armorhp: 127500.0
     armoruniformity: 1.0
     capacity: 10000.0
     disallowassistance: 1
@@ -80,7 +80,7 @@ types:
     entitylootcountmax: 10
     entitylootcountmin: 5
     falloff: 1.0
-    hp: 60000.0
+    hp: 82500.0
     id: 77195
     mass: 100000.0
     name: Quantum-Override Broadcaster
@@ -88,13 +88,13 @@ types:
     portionSize: 1
     published: false
     radius: 3346.0
-    shieldcapacity: 105000.0
+    shieldcapacity: 127500.0
     shieldrechargerate: 8.64E7
     signatureradius: 1000.0
     structureuniformity: 1.0
     volume: 1.0E8
   77199:
-    armorhp: 105000.0
+    armorhp: 127500.0
     armoruniformity: 1.0
     capacity: 10000.0
     disallowassistance: 1
@@ -106,7 +106,7 @@ types:
     entitylootcountmax: 10
     entitylootcountmin: 5
     falloff: 1.0
-    hp: 60000.0
+    hp: 82500.0
     id: 77199
     mass: 100000.0
     name: Sacred Exploiter
@@ -114,13 +114,13 @@ types:
     portionSize: 1
     published: false
     radius: 3346.0
-    shieldcapacity: 105000.0
+    shieldcapacity: 127500.0
     shieldrechargerate: 8.64E7
     signatureradius: 1000.0
     structureuniformity: 1.0
     volume: 1.0E8
   77200:
-    armorhp: 105000.0
+    armorhp: 127500.0
     armoruniformity: 1.0
     capacity: 10000.0
     disallowassistance: 1
@@ -132,7 +132,7 @@ types:
     entitylootcountmax: 10
     entitylootcountmin: 5
     falloff: 1.0
-    hp: 60000.0
+    hp: 82500.0
     id: 77200
     mass: 100000.0
     name: Megafinance Siphoner
@@ -140,7 +140,7 @@ types:
     portionSize: 1
     published: false
     radius: 3346.0
-    shieldcapacity: 105000.0
+    shieldcapacity: 127500.0
     shieldrechargerate: 8.64E7
     signatureradius: 1000.0
     structureuniformity: 1.0

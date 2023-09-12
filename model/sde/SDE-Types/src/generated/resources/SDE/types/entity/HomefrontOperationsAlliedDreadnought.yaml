@@ -7,7 +7,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeduration: 300000
+    behaviorsiegeduration: 90000
     behaviorsiegeecmresistancemodifier: 100.0
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
@@ -20,20 +20,20 @@ types:
     behaviorsiegeturretdamagemodifier: 425
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
-    capacitorcapacity: 100000.0
-    capacitorneed: 90000.0
+    capacitorcapacity: 40000.0
+    capacitorneed: 30000.0
     doomsdayenergyneutamount: 32500
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
     entitysuperweaponduration: 10000
-    entitysuperweaponemdamage: 700000
-    entitysuperweaponexplosivedamage: 700000
+    entitysuperweaponemdamage: 250000
+    entitysuperweaponexplosivedamage: 250000
     entitysuperweaponfalloff: 250000
-    entitysuperweaponkineticdamage: 700000
+    entitysuperweaponkineticdamage: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
-    entitysuperweaponthermaldamage: 700000
+    entitysuperweaponthermaldamage: 250000
     entitysuperweapontrackingspeed: 0.0949999988079071
     gfxboosterid: 394
     hp: 187500.0
@@ -72,7 +72,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeduration: 300000
+    behaviorsiegeduration: 90000
     behaviorsiegeecmresistancemodifier: 100.0
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
@@ -85,20 +85,20 @@ types:
     behaviorsiegeturretdamagemodifier: 425
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
-    capacitorcapacity: 100000.0
-    capacitorneed: 90000.0
+    capacitorcapacity: 40000.0
+    capacitorneed: 30000.0
     doomsdayenergyneutamount: 32500
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
     entitysuperweaponduration: 10000
-    entitysuperweaponemdamage: 700000
-    entitysuperweaponexplosivedamage: 700000
+    entitysuperweaponemdamage: 250000
+    entitysuperweaponexplosivedamage: 250000
     entitysuperweaponfalloff: 250000
-    entitysuperweaponkineticdamage: 700000
+    entitysuperweaponkineticdamage: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
-    entitysuperweaponthermaldamage: 700000
+    entitysuperweaponthermaldamage: 250000
     entitysuperweapontrackingspeed: 0.0949999988079071
     gfxboosterid: 397
     hp: 187500.0
@@ -137,7 +137,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeduration: 300000
+    behaviorsiegeduration: 90000
     behaviorsiegeecmresistancemodifier: 100.0
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
@@ -150,20 +150,20 @@ types:
     behaviorsiegeturretdamagemodifier: 425
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
-    capacitorcapacity: 100000.0
-    capacitorneed: 90000.0
+    capacitorcapacity: 40000.0
+    capacitorneed: 30000.0
     doomsdayenergyneutamount: 32500
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
     entitysuperweaponduration: 10000
-    entitysuperweaponemdamage: 700000
-    entitysuperweaponexplosivedamage: 700000
+    entitysuperweaponemdamage: 250000
+    entitysuperweaponexplosivedamage: 250000
     entitysuperweaponfalloff: 250000
-    entitysuperweaponkineticdamage: 700000
+    entitysuperweaponkineticdamage: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
-    entitysuperweaponthermaldamage: 700000
+    entitysuperweaponthermaldamage: 250000
     entitysuperweapontrackingspeed: 0.0949999988079071
     gfxboosterid: 395
     hp: 187500.0
@@ -202,7 +202,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeduration: 300000
+    behaviorsiegeduration: 90000
     behaviorsiegeecmresistancemodifier: 100.0
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
@@ -215,20 +215,20 @@ types:
     behaviorsiegeturretdamagemodifier: 425
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
-    capacitorcapacity: 100000.0
-    capacitorneed: 90000.0
+    capacitorcapacity: 40000.0
+    capacitorneed: 30000.0
     doomsdayenergyneutamount: 32500
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
     entitysuperweaponduration: 10000
-    entitysuperweaponemdamage: 700000
-    entitysuperweaponexplosivedamage: 700000
+    entitysuperweaponemdamage: 250000
+    entitysuperweaponexplosivedamage: 250000
     entitysuperweaponfalloff: 250000
-    entitysuperweaponkineticdamage: 700000
+    entitysuperweaponkineticdamage: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
-    entitysuperweaponthermaldamage: 700000
+    entitysuperweaponthermaldamage: 250000
     entitysuperweapontrackingspeed: 0.0949999988079071
     gfxboosterid: 394
     hp: 187500.0

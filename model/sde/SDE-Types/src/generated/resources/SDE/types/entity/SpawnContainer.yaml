@@ -12026,7 +12026,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 77121
-    lootrespawntime: 120000.0
+    lootrespawntime: 90000.0
     mass: 10000.0
     name: Remote Armor Array
     packagedVolume: 27500.0
@@ -12053,7 +12053,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 77196
-    lootrespawntime: 120000.0
+    lootrespawntime: 90000.0
     mass: 10000.0
     name: Remote Jamming Array
     packagedVolume: 27500.0
@@ -12080,7 +12080,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 77197
-    lootrespawntime: 120000.0
+    lootrespawntime: 90000.0
     mass: 10000.0
     name: Remote Shield Array
     packagedVolume: 27500.0
@@ -12107,7 +12107,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 77198
-    lootrespawntime: 120000.0
+    lootrespawntime: 90000.0
     mass: 10000.0
     name: Remote Cloaking Array
     packagedVolume: 27500.0

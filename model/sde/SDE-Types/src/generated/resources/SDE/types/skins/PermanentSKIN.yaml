@@ -26751,6 +26751,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  54993:
+    id: 54993
+    marketGroup: 2316
+    name: Council Diplomatic Shuttle SARO 'Black Troop' SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   55294:
     id: 55294
     marketGroup: 2406
@@ -40162,6 +40170,230 @@ types:
     id: 77887
     marketGroup: 3521
     name: Hubris Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77957:
+    id: 77957
+    marketGroup: 2103
+    name: Cyclone Fleet Issue Chainbreaker Khumaak SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77958:
+    id: 77958
+    marketGroup: 1959
+    name: Cyclone Chainbreaker Khumaak SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77959:
+    id: 77959
+    marketGroup: 2107
+    name: Sleipnir Chainbreaker Khumaak SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77960:
+    id: 77960
+    marketGroup: 2392
+    name: Svipul Chainbreaker Khumaak SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77961:
+    id: 77961
+    marketGroup: 2050
+    name: Wolf Chainbreaker Khumaak SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77962:
+    id: 77962
+    marketGroup: 2050
+    name: Jaguar Chainbreaker Khumaak SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77963:
+    id: 77963
+    marketGroup: 2063
+    name: Stabber Fleet Issue Chainbreaker Khumaak SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77964:
+    id: 77964
+    marketGroup: 3523
+    name: Valravn Chainbreaker Khumaak SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78267:
+    id: 78267
+    marketGroup: 2120
+    name: Gallente Victory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78405:
+    id: 78405
+    marketGroup: 3535
+    name: Bane Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78406:
+    id: 78406
+    marketGroup: 2024
+    name: Paladin Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78407:
+    id: 78407
+    marketGroup: 1956
+    name: Oracle Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78408:
+    id: 78408
+    marketGroup: 2063
+    name: Omen Navy Issue Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78409:
+    id: 78409
+    marketGroup: 2038
+    name: Heretic Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78410:
+    id: 78410
+    marketGroup: 3497
+    name: Coercer Navy Issue Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78411:
+    id: 78411
+    marketGroup: 1994
+    name: Coercer Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78412:
+    id: 78412
+    marketGroup: 2047
+    name: Retribution Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78688:
+    id: 78688
+    marketGroup: 1966
+    name: Megathron Immortal Eden SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78689:
+    id: 78689
+    marketGroup: 2072
+    name: Vagabond Solar Brilliance SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78690:
+    id: 78690
+    marketGroup: 1959
+    name: Tornado Solar Brilliance SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78816:
+    id: 78816
+    marketGroup: 3495
+    name: Phoenix Navy Issue Union Day Executive SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78817:
+    id: 78817
+    marketGroup: 2108
+    name: Scorpion Navy Issue Union Day Executive SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78818:
+    id: 78818
+    marketGroup: 2063
+    name: Caracal Navy Issue Union Day Executive SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78819:
+    id: 78819
+    marketGroup: 3546
+    name: Karura Union Day Executive SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78820:
+    id: 78820
+    marketGroup: 2048
+    name: Hawk Union Day Executive SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78821:
+    id: 78821
+    marketGroup: 2370
+    name: Tengu Union Day Executive SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78822:
+    id: 78822
+    marketGroup: 2103
+    name: Drake Navy Issue Union Day Executive SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78823:
+    id: 78823
+    marketGroup: 2003
+    name: Kestrel Union Day Executive SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

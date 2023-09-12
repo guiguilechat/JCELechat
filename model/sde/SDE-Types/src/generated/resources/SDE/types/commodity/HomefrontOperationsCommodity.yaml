@@ -51,3 +51,39 @@ types:
     price: 500000.0
     published: true
     volume: 0.009999999776482582
+  77946:
+    id: 77946
+    marketGroup: 1863
+    mass: 1.0
+    name: Insurgent Trojan Fragments
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77947:
+    id: 77947
+    marketGroup: 1863
+    mass: 1.0
+    name: Federal Encryption Key
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77948:
+    id: 77948
+    marketGroup: 1863
+    mass: 1.0
+    name: Megacorp Transaction Thread
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  77949:
+    id: 77949
+    marketGroup: 1863
+    mass: 1.0
+    name: Imperial Exploit Log
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

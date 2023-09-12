@@ -91,6 +91,8 @@ public enum get_corporations_corporation_id_roles_history_new_roles {
     Rent_Research_Facility("Rent_Research_Facility"),
     @JsonProperty("Security_Officer")
     Security_Officer("Security_Officer"),
+    @JsonProperty("Skill_Plan_Manager")
+    Skill_Plan_Manager("Skill_Plan_Manager"),
     @JsonProperty("Starbase_Defense_Operator")
     Starbase_Defense_Operator("Starbase_Defense_Operator"),
     @JsonProperty("Starbase_Fuel_Technician")

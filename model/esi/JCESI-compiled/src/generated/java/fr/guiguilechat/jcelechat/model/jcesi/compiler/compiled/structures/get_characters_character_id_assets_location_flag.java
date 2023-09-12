@@ -11,6 +11,8 @@ public enum get_characters_character_id_assets_location_flag {
     BoosterBay("BoosterBay"),
     @JsonProperty("Cargo")
     Cargo("Cargo"),
+    @JsonProperty("CorporationGoalDeliveries")
+    CorporationGoalDeliveries("CorporationGoalDeliveries"),
     @JsonProperty("CorpseBay")
     CorpseBay("CorpseBay"),
     @JsonProperty("Deliveries")
@@ -91,6 +93,8 @@ public enum get_characters_character_id_assets_location_flag {
     MedSlot6("MedSlot6"),
     @JsonProperty("MedSlot7")
     MedSlot7("MedSlot7"),
+    @JsonProperty("MobileDepotHold")
+    MobileDepotHold("MobileDepotHold"),
     @JsonProperty("QuafeBay")
     QuafeBay("QuafeBay"),
     @JsonProperty("RigSlot0")

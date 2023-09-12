@@ -33,6 +33,8 @@ public enum get_corporations_corporation_id_assets_location_flag {
     CorpSAG6("CorpSAG6"),
     @JsonProperty("CorpSAG7")
     CorpSAG7("CorpSAG7"),
+    @JsonProperty("CorporationGoalDeliveries")
+    CorporationGoalDeliveries("CorporationGoalDeliveries"),
     @JsonProperty("CrateLoot")
     CrateLoot("CrateLoot"),
     @JsonProperty("Deliveries")
@@ -123,6 +125,8 @@ public enum get_corporations_corporation_id_assets_location_flag {
     MedSlot6("MedSlot6"),
     @JsonProperty("MedSlot7")
     MedSlot7("MedSlot7"),
+    @JsonProperty("MobileDepotHold")
+    MobileDepotHold("MobileDepotHold"),
     @JsonProperty("OfficeFolder")
     OfficeFolder("OfficeFolder"),
     @JsonProperty("Pilot")

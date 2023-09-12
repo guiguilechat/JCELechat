@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.model.sde;
 
 public abstract class IntAttribute
-extends Attribute {
+    extends Attribute
+{
 
-	@Override
-	public Integer value(EveType Type) {
-		Number num = super.value(Type);
-		return num == null ? null : num.intValue();
-	}
+    @Override
+    public Integer value(EveType Type) {
+        return super.value(Type).intValue();
+    }
 }

@@ -628,14 +628,3 @@ types:
     price: 10000.0
     published: true
     volume: 45.0
-  76375:
-    id: 76375
-    marketGroup: 1865
-    mass: 1.0
-    moonminingamount: 1
-    name: Mutadaptive Construction Component
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    volume: 1.0

@@ -149,6 +149,12 @@ public enum get_characters_character_id_notifications_type {
     CorpWarRetractedMsg("CorpWarRetractedMsg"),
     @JsonProperty("CorpWarSurrenderMsg")
     CorpWarSurrenderMsg("CorpWarSurrenderMsg"),
+    @JsonProperty("CorporationGoalClosed")
+    CorporationGoalClosed("CorporationGoalClosed"),
+    @JsonProperty("CorporationGoalCompleted")
+    CorporationGoalCompleted("CorporationGoalCompleted"),
+    @JsonProperty("CorporationGoalCreated")
+    CorporationGoalCreated("CorporationGoalCreated"),
     @JsonProperty("CustomsMsg")
     CustomsMsg("CustomsMsg"),
     @JsonProperty("DeclareWar")
@@ -389,6 +395,8 @@ public enum get_characters_character_id_notifications_type {
     StructureLostShields("StructureLostShields"),
     @JsonProperty("StructureOnline")
     StructureOnline("StructureOnline"),
+    @JsonProperty("StructurePaintPurchased")
+    StructurePaintPurchased("StructurePaintPurchased"),
     @JsonProperty("StructureServicesOffline")
     StructureServicesOffline("StructureServicesOffline"),
     @JsonProperty("StructureUnanchoring")

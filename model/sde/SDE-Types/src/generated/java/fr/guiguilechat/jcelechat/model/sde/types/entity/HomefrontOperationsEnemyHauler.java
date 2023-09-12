@@ -23,6 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonanc
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
@@ -117,6 +118,13 @@ public class HomefrontOperationsEnemyHauler
     @Stackable(true)
     @DefaultIntValue(0)
     public int charge;
+    /**
+     * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowassistance;
     /**
      * 
      */
@@ -286,7 +294,7 @@ public class HomefrontOperationsEnemyHauler
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, Charge.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, Charge.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE })));
     public static final HomefrontOperationsEnemyHauler.MetaGroup METAGROUP = new HomefrontOperationsEnemyHauler.MetaGroup();
 
     @Override
@@ -327,6 +335,10 @@ public class HomefrontOperationsEnemyHauler
             case  18 :
             {
                 return charge;
+            }
+            case  854 :
+            {
+                return disallowassistance;
             }
             case  562 :
             {

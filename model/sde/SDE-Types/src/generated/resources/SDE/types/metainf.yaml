@@ -24971,6 +24971,7 @@ id2group:
   54973: module/VortonProjectorUpgrade
   54974: module/VortonProjectorUpgrade
   54975: module/VortonProjectorUpgrade
+  54993: skins/PermanentSKIN
   54998: entity/DeadspaceOverseerSStructure
   54999: entity/DeadspaceOverseerSStructure
   55016: entity/IrregularFrigate
@@ -29226,102 +29227,6 @@ id2group:
   76046: entity/IrregularFrigate
   76047: entity/IrregularFrigate
   76048: entity/IrregularFrigate
-  76050: implant/Booster
-  76051: implant/Booster
-  76052: implant/Booster
-  76053: implant/Booster
-  76054: implant/Booster
-  76055: implant/Booster
-  76056: implant/Booster
-  76057: implant/Booster
-  76058: implant/Booster
-  76059: implant/Booster
-  76060: implant/Booster
-  76061: implant/Booster
-  76062: implant/Booster
-  76063: implant/Booster
-  76064: implant/Booster
-  76065: implant/Booster
-  76066: implant/Booster
-  76067: implant/Booster
-  76068: implant/Booster
-  76069: implant/Booster
-  76070: implant/Booster
-  76071: implant/Booster
-  76072: implant/Booster
-  76073: implant/Booster
-  76074: implant/Booster
-  76075: implant/Booster
-  76076: implant/Booster
-  76077: implant/Booster
-  76078: implant/Booster
-  76079: implant/Booster
-  76080: implant/Booster
-  76081: implant/Booster
-  76082: implant/Booster
-  76083: implant/Booster
-  76084: implant/Booster
-  76085: implant/Booster
-  76086: implant/Booster
-  76087: implant/Booster
-  76088: implant/Booster
-  76089: implant/Booster
-  76090: implant/Booster
-  76091: implant/Booster
-  76092: implant/Booster
-  76093: implant/Booster
-  76094: implant/Booster
-  76095: implant/Booster
-  76096: implant/Booster
-  76097: implant/Booster
-  76098: implant/Booster
-  76099: implant/Booster
-  76100: implant/Booster
-  76101: implant/Booster
-  76102: implant/Booster
-  76103: implant/Booster
-  76104: implant/Booster
-  76105: implant/Booster
-  76106: implant/Booster
-  76107: implant/Booster
-  76108: implant/Booster
-  76109: implant/Booster
-  76110: implant/Booster
-  76111: implant/Booster
-  76112: implant/Booster
-  76113: implant/Booster
-  76114: implant/Booster
-  76115: implant/Booster
-  76116: implant/Booster
-  76117: implant/Booster
-  76118: implant/Booster
-  76119: implant/Booster
-  76120: implant/Booster
-  76121: implant/Booster
-  76122: implant/Booster
-  76123: implant/Booster
-  76124: implant/Booster
-  76125: implant/Booster
-  76126: implant/Booster
-  76127: implant/Booster
-  76128: implant/Booster
-  76129: implant/Booster
-  76130: implant/Booster
-  76131: implant/Booster
-  76132: implant/Booster
-  76133: implant/Booster
-  76134: implant/Booster
-  76135: implant/Booster
-  76136: implant/Booster
-  76137: implant/Booster
-  76138: implant/Booster
-  76139: implant/Booster
-  76140: implant/Booster
-  76141: implant/Booster
-  76142: implant/Booster
-  76143: implant/Booster
-  76144: implant/Booster
-  76145: implant/Booster
   76150: skins/PermanentSKIN
   76151: skins/PermanentSKIN
   76152: skins/PermanentSKIN
@@ -29374,16 +29279,16 @@ id2group:
   76200: entity/DeadspaceOverseerSStructure
   76201: entity/DeadspaceOverseerSStructure
   76202: entity/DeadspaceOverseerSStructure
-  76203: commodity/Datacores
-  76204: commodity/Datacores
+  76203: commodity/Miscellaneous
+  76204: commodity/Miscellaneous
   76205: blueprint/ToolBlueprint
   76206: blueprint/ToolBlueprint
-  76207: commodity/ResearchData
-  76208: commodity/ResearchData
-  76209: commodity/ResearchData
-  76210: commodity/ResearchData
-  76211: commodity/ResearchData
-  76212: commodity/ResearchData
+  76207: commodity/Miscellaneous
+  76208: commodity/Miscellaneous
+  76209: commodity/Miscellaneous
+  76210: commodity/Miscellaneous
+  76211: commodity/Miscellaneous
+  76212: commodity/Miscellaneous
   76214: specialeditionassets/SpecialEditionCommodities
   76215: specialeditionassets/SpecialEditionCommodities
   76216: specialeditionassets/SpecialEditionCommodities
@@ -29423,7 +29328,7 @@ id2group:
   76294: skins/PermanentSKIN
   76373: asteroid/Rakovene
   76374: material/Mineral
-  76375: commodity/ConstructionComponents
+  76375: commodity/Miscellaneous
   76376: blueprint/ConstructionComponentBlueprints
   76484: skins/PermanentSKIN
   76485: skins/PermanentSKIN
@@ -29438,36 +29343,6 @@ id2group:
   76494: skins/PermanentSKIN
   76495: skins/PermanentSKIN
   76496: skins/PermanentSKIN
-  76506: implant/Booster
-  76507: implant/Booster
-  76508: implant/Booster
-  76509: implant/Booster
-  76510: implant/Booster
-  76511: implant/Booster
-  76512: implant/Booster
-  76513: implant/Booster
-  76514: implant/Booster
-  76515: implant/Booster
-  76516: implant/Booster
-  76517: implant/Booster
-  76518: implant/Booster
-  76519: implant/Booster
-  76520: implant/Booster
-  76521: implant/Booster
-  76522: implant/Booster
-  76523: implant/Booster
-  76524: implant/Booster
-  76525: implant/Booster
-  76526: implant/Booster
-  76527: implant/Booster
-  76528: implant/Booster
-  76529: implant/Booster
-  76530: implant/Booster
-  76531: implant/Booster
-  76532: implant/Booster
-  76533: implant/Booster
-  76534: implant/Booster
-  76535: implant/Booster
   76717: personalization/ShipPersonalization
   76718: personalization/ShipPersonalization
   76719: personalization/ShipPersonalization
@@ -29971,8 +29846,59 @@ id2group:
   77872: skins/PermanentSKIN
   77873: skins/PermanentSKIN
   77874: skins/PermanentSKIN
+  77877: entity/HomefrontOperationsEnemyFrigate
+  77878: entity/HomefrontOperationsEnemyDestroyer
+  77879: entity/HomefrontOperationsEnemyFrigate
+  77880: entity/HomefrontOperationsEnemyDestroyer
+  77881: entity/HomefrontOperationsEnemyFrigate
+  77882: entity/HomefrontOperationsEnemyDestroyer
+  77883: entity/HomefrontOperationsEnemyFrigate
+  77884: entity/HomefrontOperationsEnemyDestroyer
   77886: skins/PermanentSKIN
   77887: skins/PermanentSKIN
+  77919: implant/Booster
+  77934: implant/Booster
+  77946: commodity/HomefrontOperationsCommodity
+  77947: commodity/HomefrontOperationsCommodity
+  77948: commodity/HomefrontOperationsCommodity
+  77949: commodity/HomefrontOperationsCommodity
+  77957: skins/PermanentSKIN
+  77958: skins/PermanentSKIN
+  77959: skins/PermanentSKIN
+  77960: skins/PermanentSKIN
+  77961: skins/PermanentSKIN
+  77962: skins/PermanentSKIN
+  77963: skins/PermanentSKIN
+  77964: skins/PermanentSKIN
+  78267: skins/PermanentSKIN
+  78296: entity/HomefrontOperationsEnemyCruiser
+  78297: entity/HomefrontOperationsEnemyCruiser
+  78298: entity/HomefrontOperationsEnemyCruiser
+  78299: entity/HomefrontOperationsEnemyCruiser
+  78304: entity/HomefrontOperationsEnemyBattleship
+  78308: entity/HomefrontOperationsEnemyBattleship
+  78309: entity/HomefrontOperationsEnemyBattleship
+  78310: entity/HomefrontOperationsEnemyBattleship
+  78358: implant/Booster
+  78405: skins/PermanentSKIN
+  78406: skins/PermanentSKIN
+  78407: skins/PermanentSKIN
+  78408: skins/PermanentSKIN
+  78409: skins/PermanentSKIN
+  78410: skins/PermanentSKIN
+  78411: skins/PermanentSKIN
+  78412: skins/PermanentSKIN
+  78688: skins/PermanentSKIN
+  78689: skins/PermanentSKIN
+  78690: skins/PermanentSKIN
+  78816: skins/PermanentSKIN
+  78817: skins/PermanentSKIN
+  78818: skins/PermanentSKIN
+  78819: skins/PermanentSKIN
+  78820: skins/PermanentSKIN
+  78821: skins/PermanentSKIN
+  78822: skins/PermanentSKIN
+  78823: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

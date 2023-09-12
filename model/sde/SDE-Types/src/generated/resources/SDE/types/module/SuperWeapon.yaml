@@ -747,7 +747,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 50000.0
-    name: '‘Atgeir’ Explosive Disruptive Lance '
+    name: '''Atgeir'' Explosive Disruptive Lance'
     packagedVolume: 4000.0
     portionSize: 1
     power: 100000
@@ -853,7 +853,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 50000.0
-    name: ‘Steel Yari’ Kinetic Disruptive Lance
+    name: '''Steel Yari'' Kinetic Disruptive Lance'
     packagedVolume: 4000.0
     portionSize: 1
     power: 100000
@@ -905,7 +905,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     maxrange: 50000.0
-    name: ‘Sarissa’ Thermal Disruptive Lance
+    name: '''Sarissa'' Thermal Disruptive Lance'
     packagedVolume: 4000.0
     portionSize: 1
     power: 100000
