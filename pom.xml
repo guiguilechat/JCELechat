@@ -311,7 +311,7 @@
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
-				<version>2.1</version>
+				<version>1.33</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
