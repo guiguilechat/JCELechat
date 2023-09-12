@@ -24,6 +24,7 @@
 		<module>CheckESISDE</module>
 		<module>GankHistory</module>
 		<module>NotifToons</module>
+		<module>CheckEIV</module>
 	</modules>
 	<dependencies>
 		<dependency>
