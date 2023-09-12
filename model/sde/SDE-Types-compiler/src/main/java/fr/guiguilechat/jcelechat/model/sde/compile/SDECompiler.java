@@ -57,6 +57,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 /** stateful compiler */
 public class SDECompiler {
 
+	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(SDECompiler.class);
 
 	protected SDECache sde;

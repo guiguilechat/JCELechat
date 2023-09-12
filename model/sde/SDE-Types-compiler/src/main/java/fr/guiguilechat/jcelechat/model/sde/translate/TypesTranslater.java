@@ -53,6 +53,7 @@ import fr.lelouet.tools.compilation.inmemory.DynamicClassLoader;
  */
 public class TypesTranslater {
 
+	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(TypesTranslater.class);
 
 	public void translate(TypeHierarchy hierarchy, CompilationData classes, File destFolder, String resFolder)
