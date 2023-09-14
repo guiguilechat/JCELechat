@@ -35,7 +35,7 @@ public class ShowMaterialsErrors {
 
 	public static void main(String[] args) {
 		List<R_get_markets_prices> prices = ESIAccess.INSTANCE.markets.marketPrices().get();
-		System.out.println("type\tJita SO\tadjusted\taverage\tlog10 diff mkt\tlog10 diff avg");
+		System.out.println("type\tadjusted\tJita SO\taverage\tlog10 diff mkt\tlog10 diff avg");
 		prices.stream().map(Evaluated::new)
 		.filter(e -> e.getType() != null
 		// only material category
@@ -49,11 +49,10 @@ public class ShowMaterialsErrors {
 				)
 		.sorted(Comparator.comparing(e -> -Math.abs(e.getLogDiffMarket())))
 		.forEach(e -> {
-
-					System.out.printf("%s\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\n",
+			System.out.printf("%s\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\n",
 					e.getType().name,
+							e.getPrices().adjusted_price,
 					e.getJitaSO(),
-					e.getPrices().adjusted_price,
 					e.getPrices().average_price,
 					e.getLogDiffMarket(),
 					e.getLogDiffAverage());

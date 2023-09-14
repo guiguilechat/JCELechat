@@ -206,15 +206,16 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 				double eivPart = adjustedPrice * mat.quantity;
 				ret += eivPart;
 				sb.append(mat.name()).append(":").append((long) adjustedPrice).append("[×").append(mat.quantity).append("=")
-						.append((long) eivPart).append("]");
+				.append((long) eivPart).append("]");
 			}
 		}
 		if (ret == Double.POSITIVE_INFINITY) {
-			System.err.println("infinitie eiv for " + name());
+			System.err.println("infinite estimation for " + id + "(" + name() + ") because :");
 			for (MaterialReq<?> mat : manufacturing.materials) {
 				double adj = adjustedPrices.apply(mat.id);
 				if (adj == Double.POSITIVE_INFINITY) {
-					System.out.println("adjusted for id " + mat.id + " = " + adj);
+					System.out
+					.println("  value for id=" + mat.id + "(" + mat.name() + ") = " + adj);
 				}
 			}
 		}
