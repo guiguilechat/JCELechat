@@ -50,7 +50,7 @@ public class ShowBPError {
 		.filter(e -> !e.getType().name.startsWith("Expired ")
 				&& e.getEiv() != 0.0
 				&& e.getEivSO() != Double.POSITIVE_INFINITY)
-		.sorted(Comparator.comparing(e -> -Math.abs(e.getLogDiffSO())))
+				.sorted(Comparator.comparing(e -> -Math.min(Math.abs(e.getLogDiffSO()), Math.abs(e.getLogDiffAvg()))))
 		.forEach(e -> {
 			sb.append(String.format("%s\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\n",
 					e.getType().name,
