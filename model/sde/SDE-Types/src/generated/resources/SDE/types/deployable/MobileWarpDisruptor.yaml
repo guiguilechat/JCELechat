@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 7000.0
     id: 12198
     marketGroup: 405
@@ -38,6 +39,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 30000.0
     id: 12199
     marketGroup: 405
@@ -69,6 +71,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 120000.0
     id: 12200
     marketGroup: 405
@@ -100,6 +103,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 144000.0
     id: 26888
     marketGroup: 405
@@ -132,6 +136,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 36000.0
     id: 26890
     marketGroup: 405
@@ -164,6 +169,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 8400.0
     id: 26892
     marketGroup: 405
@@ -196,6 +202,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 300000.0
     id: 28770
     marketGroup: 405
@@ -229,6 +236,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 75000.0
     id: 28772
     marketGroup: 405
@@ -262,6 +270,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     hp: 17500.0
     id: 28774
     marketGroup: 405

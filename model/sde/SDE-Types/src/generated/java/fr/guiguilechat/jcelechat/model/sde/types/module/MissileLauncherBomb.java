@@ -23,6 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DeadspaceUnsafe;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
@@ -103,6 +104,13 @@ public class MissileLauncherBomb
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinempirespace;
+    /**
+     * If set on a charge or module type, will prevent it from being activated in hazard system
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowinhazardsystem;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
@@ -194,7 +202,7 @@ public class MissileLauncherBomb
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, SignatureRadiusAdd.INSTANCE, ChargeGroup1 .INSTANCE, ModuleReactivationDelay.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, ChargeGroup3 .INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, MinVelocityActivationLimit.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, Speed.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, SignatureRadiusAdd.INSTANCE, ChargeGroup1 .INSTANCE, ModuleReactivationDelay.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, ChargeGroup3 .INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, MinVelocityActivationLimit.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, Speed.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, ChargeRate.INSTANCE, DisallowInHazardSystem.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final MissileLauncherBomb.MetaGroup METAGROUP = new MissileLauncherBomb.MetaGroup();
 
     @Override
@@ -231,6 +239,10 @@ public class MissileLauncherBomb
             case  1074 :
             {
                 return disallowinempirespace;
+            }
+            case  5561 :
+            {
+                return disallowinhazardsystem;
             }
             case  1014 :
             {

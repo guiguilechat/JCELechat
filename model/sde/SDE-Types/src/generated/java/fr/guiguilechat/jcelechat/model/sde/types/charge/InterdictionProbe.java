@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
@@ -50,6 +51,13 @@ public class InterdictionProbe
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinempirespace;
+    /**
+     * If set on a charge or module type, will prevent it from being activated in hazard system
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowinhazardsystem;
     /**
      * The amount of milliseconds before the object explodes.
      */
@@ -128,7 +136,7 @@ public class InterdictionProbe
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerange;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Agility.INSTANCE, Capacity.INSTANCE, WarpScrambleRange.INSTANCE, SignatureRadius.INSTANCE, LauncherGroup.INSTANCE, Hp.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, DisallowInEmpireSpace.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ExplosionDelay.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Agility.INSTANCE, Capacity.INSTANCE, WarpScrambleRange.INSTANCE, SignatureRadius.INSTANCE, LauncherGroup.INSTANCE, Hp.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, DisallowInEmpireSpace.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowInHazardSystem.INSTANCE, ExplosionDelay.INSTANCE })));
     public static final InterdictionProbe.MetaGroup METAGROUP = new InterdictionProbe.MetaGroup();
 
     @Override
@@ -141,6 +149,10 @@ public class InterdictionProbe
             case  1074 :
             {
                 return disallowinempirespace;
+            }
+            case  5561 :
+            {
+                return disallowinhazardsystem;
             }
             case  281 :
             {

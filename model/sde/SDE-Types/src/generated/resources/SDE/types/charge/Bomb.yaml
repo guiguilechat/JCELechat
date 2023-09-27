@@ -12,6 +12,7 @@ types:
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     empfieldrange: 15000
     explosiondelay: 12000
     explosionrange: 15000
@@ -47,6 +48,7 @@ types:
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     empfieldrange: 15000
     explosiondelay: 12000
     explosionrange: 15000
@@ -82,6 +84,7 @@ types:
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     empfieldrange: 15000
     explosiondelay: 12000
     explosionrange: 15000
@@ -117,6 +120,7 @@ types:
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     emdamage: 5800.0
     empfieldrange: 15000
     explosiondelay: 12000

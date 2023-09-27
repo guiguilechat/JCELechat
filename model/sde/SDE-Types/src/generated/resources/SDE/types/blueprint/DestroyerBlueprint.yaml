@@ -217,3 +217,25 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  78360:
+    id: 78360
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Mekubal Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  78393:
+    id: 78393
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Mamba Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

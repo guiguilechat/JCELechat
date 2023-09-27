@@ -2,6 +2,7 @@ types:
   22778:
     agility: 1000.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     explosiondelay: 120000
     hp: 1000.0
     id: 22778
@@ -24,6 +25,7 @@ types:
   34260:
     agility: 1000.0
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     explosiondelay: 180000
     hp: 1000.0
     id: 34260

@@ -51,6 +51,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Trading;
 import fr.guiguilechat.jcelechat.model.sde.types.WorldSpace;
 
 public interface IMetaCategory<T extends EveType> {
+    @SuppressWarnings("rawtypes")
     public static final IMetaCategory[] INSTANCES = new IMetaCategory[] {System.METACAT, Structure.METACAT, Owner.METACAT, StructureModule.METACAT, Celestial.METACAT, Station.METACAT, Material.METACAT, Accessories.METACAT, Ship.METACAT, Personalization.METACAT, Module.METACAT, Charge.METACAT, Blueprint.METACAT, Trading.METACAT, Entity.METACAT, Bonus.METACAT, Skill.METACAT, Commodity.METACAT, Drone.METACAT, Implant.METACAT, Deployable.METACAT, Fighter.METACAT, Starbase.METACAT, Reaction.METACAT, Asteroid.METACAT, WorldSpace.METACAT, SKINs.METACAT, Abstrct.METACAT, Apparel.METACAT, Subsystem.METACAT, AncientRelics.METACAT, Decryptors.METACAT, InfrastructureUpgrades.METACAT, SovereigntyStructures.METACAT, PlanetaryIndustry.METACAT, PlanetaryResources.METACAT, PlanetaryCommodities.METACAT, Orbitals.METACAT, Placeables.METACAT, Infantry.METACAT, ExpertSystems.METACAT, Effects.METACAT, Lights.METACAT, Mining.METACAT, Cells.METACAT, SpecialEditionAssets.METACAT };
 
     public int getCategoryId();

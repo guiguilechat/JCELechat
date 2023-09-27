@@ -672,3 +672,11 @@ types:
     published: false
     signatureradius: 100.0
     volume: 1.0
+  78334:
+    id: 78334
+    name: Ancient Jovian Outpost
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    signatureradius: 100.0
+    volume: 1.0

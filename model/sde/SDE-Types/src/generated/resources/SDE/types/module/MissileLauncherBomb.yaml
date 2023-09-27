@@ -9,6 +9,7 @@ types:
     cpu: 55.0
     deadspaceunsafe: 2
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     disallowrepeatingactivation: 1
     hp: 40.0
     id: 4256
@@ -44,6 +45,7 @@ types:
     cpu: 50.0
     deadspaceunsafe: 2
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     disallowrepeatingactivation: 1
     hp: 40.0
     id: 27914

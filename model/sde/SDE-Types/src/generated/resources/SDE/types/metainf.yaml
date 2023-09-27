@@ -29879,7 +29879,12 @@ id2group:
   78308: entity/HomefrontOperationsEnemyBattleship
   78309: entity/HomefrontOperationsEnemyBattleship
   78310: entity/HomefrontOperationsEnemyBattleship
+  78333: ship/Destroyer
+  78334: station/Station
   78358: implant/Booster
+  78360: blueprint/DestroyerBlueprint
+  78367: ship/Destroyer
+  78393: blueprint/DestroyerBlueprint
   78405: skins/PermanentSKIN
   78406: skins/PermanentSKIN
   78407: skins/PermanentSKIN
@@ -29899,6 +29904,32 @@ id2group:
   78821: skins/PermanentSKIN
   78822: skins/PermanentSKIN
   78823: skins/PermanentSKIN
+  78889: specialeditionassets/SpecialEditionCommodities
+  78890: entity/DestructibleSentryGun
+  78891: entity/PirateEntities
+  78892: entity/PirateEntities
+  78893: entity/PirateEntities
+  78894: entity/PirateEntities
+  78895: entity/PirateEntities
+  78896: entity/PirateEntities
+  78897: entity/PirateEntities
+  78898: entity/PirateEntities
+  78910: skins/PermanentSKIN
+  78911: skins/PermanentSKIN
+  78912: skins/PermanentSKIN
+  78913: skins/PermanentSKIN
+  78914: skins/PermanentSKIN
+  78915: skins/PermanentSKIN
+  78916: skins/PermanentSKIN
+  78917: skins/PermanentSKIN
+  78918: skins/PermanentSKIN
+  78919: skins/PermanentSKIN
+  78920: skins/PermanentSKIN
+  78921: skins/PermanentSKIN
+  78923: skins/PermanentSKIN
+  79006: skins/PermanentSKIN
+  79007: skins/PermanentSKIN
+  79008: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

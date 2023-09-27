@@ -8,6 +8,7 @@ types:
     cpu: 55.0
     disallowassistance: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 3.0
@@ -44,6 +45,7 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -79,6 +81,7 @@ types:
     cpu: 45.0
     disallowassistance: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -115,6 +118,7 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -151,6 +155,7 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -187,6 +192,7 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -224,6 +230,7 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0

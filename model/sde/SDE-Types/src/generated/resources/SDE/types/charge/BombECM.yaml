@@ -6,6 +6,7 @@ types:
     armorhp: 240.0
     detonationrange: 35
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     emdamage: 7.0
     empfieldrange: 15000
     explosiondelay: 7500
