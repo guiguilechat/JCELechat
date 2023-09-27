@@ -91,6 +91,12 @@
 				<artifactId>FondHamilton</artifactId>
 				<version>${tools.version}</version>
 			</dependency>
+		
+			<dependency>
+				<groupId>org.yaml</groupId>
+				<artifactId>snakeyaml</artifactId>
+				<version>1.33</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<scm>
