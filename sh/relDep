@@ -1,0 +1,81 @@
+#!/bin/bash
+
+
+while test $# -gt 0
+do
+	case "$1" in
+		dry|d)
+			dry=yes
+			;;
+		M|m|p)
+			increase=$1
+			;;
+		minor)
+			increase=m
+			;;
+		major)
+			increase=M
+			;;
+		patch)
+			increase=p
+			;;
+		--dry=*) 
+			dry=$(echo "$1" | sed s/--dry=//g | tr '[:upper:]' '[:lower:]')
+			;;
+		--help)
+			echo "usage: [VERSION=(VERSION)] [NOM_RELEASE=(NOM_RELEASE)] $0 [M|m|p] [dry] [--dry=yes|no] [--help]"
+			echo "  M|m|p           : increase the Major, minor or patch version"
+			echo "  dry | --dry=yes : no modification are performed"
+			echo " requires either VERSION to be set, or M or m or p parameter to be used as version increment"
+			exit 0
+			;;
+		esac
+	shift
+done
+
+if [ ! -z "$increase" ]
+then
+	present_version=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
+	present_major=$(echo "$present_version" | sed "s/\..*//g" | sed 's/^.\{3\}[^.0-9]//g')
+	present_minor=$(echo "$present_version" | sed "s/.*\.\(.*\)\..*/\1/g")
+	present_patch=$(echo "$present_version" | sed "s/.*\.//g" | sed 's/[^.0-9].\{3\}$//g')
+#	echo present= $present_major . $present_minor . $present_patch
+	case "$increase" in
+		p)
+			new_patch=$(expr $present_patch + 1)
+			new_minor=$present_minor
+			new_major=$present_major
+			;;
+		m)
+			new_patch=0
+			new_minor=$(expr $present_minor + 1)
+			new_major=$present_major
+			;;
+		M)
+			new_patch=0
+			new_minor=0
+			new_major=$(expr $present_major + 1)
+			;;
+		*)
+			echo "invalid increase:$increase"
+			exit 1
+		;;
+	esac
+	VERSION="$new_major.$new_minor.$new_patch"
+fi
+
+if [ -z ${VERSION+x} ]; then echo "VERSION is unset"; exit 1 ; fi
+
+echo "tag for VERSION=$VERSION"
+
+if [[ $dry == "yes" ]]; then exit 0; fi
+
+git pull && git add .
+
+mvn versions:set -DnewVersion=$VERSION && mvn deploy -T2C || exit 1
+
+git add .\
+ && git commit -m "v$VERSION"\
+ && git tag "$VERSION"\
+ && git push\
+ && git push origin "$VERSION" 

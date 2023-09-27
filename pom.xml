@@ -30,187 +30,14 @@
 		</repository>
 	</repositories>
 	-->
-	<!--
-	<distributionManagement>
-		<repository>
-			<id>kimsufi-repository</id>
-			<url>ftps://91.121.120.36:12345/stable</url>
-		</repository>
-		<snapshotRepository>
-			<id>kimsufi-snapshots</id>
-			<url>ftps://91.121.120.36:12345/snapshot</url>
-		</snapshotRepository>
-	</distributionManagement>
-	-->
-	<properties>
-		<java.version>17</java.version>
-		<!-- this is used by the java compiler plugin -->
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.javadoc.skip>true</maven.javadoc.skip>
-		<openjfx-version>21-ea+24</openjfx-version>
-		<tools.version>1.7.4</tools.version>
-		<jackson.version>2.15.2</jackson.version>
-		<slf4j.version>2.0.7</slf4j.version>
-	</properties>
-	<build>
-		<pluginManagement>
-			<plugins>
-				<!-- org.apache.maven.plugins -->
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-clean-plugin</artifactId>
-					<version>3.3.1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.11.0</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-deploy-plugin</artifactId>
-					<version>3.1.1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-install-plugin</artifactId>
-					<version>3.1.1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-jar-plugin</artifactId>
-					<version>3.3.0</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-release-plugin</artifactId>
-					<configuration>
-						<autoVersionSubmodules>true</autoVersionSubmodules>
-					</configuration>
-					<version>3.0.1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-resources-plugin</artifactId>
-					<version>3.3.1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-site-plugin</artifactId>
-					<version>4.0.0-M8</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-shade-plugin</artifactId>
-					<version>3.5.0</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-source-plugin</artifactId>
-					<version>3.3.0</version>
-					<executions>
-						<execution>
-							<id>attach-sources</id>
-							<goals>
-								<goal>jar-no-fork</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.1.2</version>
-				</plugin>
-				<!-- org.codehaus.mojo -->
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>build-helper-maven-plugin</artifactId>
-					<version>3.4.0</version>
-				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>exec-maven-plugin</artifactId>
-					<version>3.1.0</version>
-					<configuration>
-						<addResourcesToClasspath>true</addResourcesToClasspath>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>versions-maven-plugin</artifactId>
-					<version>2.16.0</version>
-					<configuration>
-						<generateBackupPoms>false</generateBackupPoms>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-enforcer-plugin</artifactId>
-				<version>3.3.0</version>
-				<executions>
-					<execution>
-						<id>enforce-versions</id>
-						<goals>
-							<goal>enforce</goal>
-						</goals>
-						<configuration>
-							<rules>
-								<requireMavenVersion>
-									<version>3.8.0</version>
-								</requireMavenVersion>
-							</rules>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-		<extensions>
-			<!-- Enabling the use of FTP -->
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ftp</artifactId>
-				<version>1.0-beta-6</version>
-			</extension>
-		</extensions>
-	</build>
-	<dependencies>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-		</dependency>
-	</dependencies>
+
 	<dependencyManagement>
 		<dependencies>
+			<!-- sub modules -->
 			<dependency>
-				<groupId>ch.qos.logback</groupId>
-				<artifactId>logback-classic</artifactId>
-				<version>1.4.9</version>
-			</dependency>
-			<dependency>
-				<groupId>com.fasterxml.jackson.core</groupId>
-				<artifactId>jackson-annotations</artifactId>
-				<version>${jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.fasterxml.jackson.core</groupId>
-				<artifactId>jackson-databind</artifactId>
-				<version>${jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.fasterxml.jackson.dataformat</groupId>
-				<artifactId>jackson-dataformat-yaml</artifactId>
-				<version>${jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.helger</groupId>
-				<artifactId>jcodemodel</artifactId>
-				<version>3.4.1</version>
+				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+				<artifactId>RouteSolver</artifactId>
+				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
@@ -227,6 +54,8 @@
 				<artifactId>SDE-Industry</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- /submodules -->
+			
 			<dependency>
 				<groupId>fr.lelouet.tools</groupId>
 				<artifactId>Compilation</artifactId>
@@ -247,83 +76,16 @@
 				<artifactId>FondHamilton</artifactId>
 				<version>${tools.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
-				<artifactId>RouteSolver</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.choco-solver</groupId>
-				<artifactId>choco-solver</artifactId>
-				<version>4.10.13</version>
-			</dependency>
+			
 			<dependency>
 				<groupId>org.javassist</groupId>
 				<artifactId>javassist</artifactId>
 				<version>3.29.2-GA</version>
 			</dependency>
 			<dependency>
-				<groupId>org.jfree</groupId>
-				<artifactId>jfreechart</artifactId>
-				<version>1.5.4</version>
-			</dependency>
-			<dependency>
-				<groupId>org.jsoup</groupId>
-				<artifactId>jsoup</artifactId>
-				<version>1.16.1</version>
-			</dependency>
-			<dependency>
 				<groupId>org.mdkt.compiler</groupId>
 				<artifactId>InMemoryJavaCompiler</artifactId>
 				<version>1.3.0</version>
-			</dependency>
-			<dependency>
-				<groupId>org.openjfx</groupId>
-				<artifactId>javafx-controls</artifactId>
-				<version>${openjfx-version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.openjfx</groupId>
-				<artifactId>javafx-fxml</artifactId>
-				<version>${openjfx-version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.openjfx</groupId>
-				<artifactId>javafx-graphics</artifactId>
-				<version>${openjfx-version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok</artifactId>
-				<version>1.18.28</version>
-				<optional>true</optional>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-api</artifactId>
-				<version>${slf4j.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-nop</artifactId>
-				<optional>true</optional>
-				<version>${slf4j.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-simple</artifactId>
-				<optional>true</optional>
-				<version>${slf4j.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.testng</groupId>
-				<artifactId>testng</artifactId>
-				<version>7.8.0</version>
-			</dependency>
-			<dependency>
-				<groupId>org.yaml</groupId>
-				<artifactId>snakeyaml</artifactId>
-				<version>1.33</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -340,4 +102,12 @@
 		<module>programs</module>
 		<module>libs</module>
 	</modules>
+	<parent>
+		<groupId>fr.lelouet</groupId>
+		<artifactId>common-maven</artifactId>
+		<version>0.0.15</version>
+	</parent>
+	<properties>
+		<tools.version>1.7.7</tools.version>
+	</properties>
 </project>
