@@ -21,6 +21,7 @@ public class EagtAgentTypes {
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/agtAgentTypes.yaml");
 	private static ArrayList<EagtAgentTypes> cache;
 
+	@SuppressWarnings("unchecked")
 	public static synchronized ArrayList<EagtAgentTypes> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
