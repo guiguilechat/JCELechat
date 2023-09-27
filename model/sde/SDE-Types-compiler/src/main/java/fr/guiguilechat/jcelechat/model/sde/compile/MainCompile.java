@@ -77,6 +77,7 @@ public class MainCompile {
 			// translated
 			new JCMWriter(compiled.model).build(srcTarget, (IProgressTracker) null);
 			logger.info("made test export in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
+			return;
 		}
 		startTime = System.currentTimeMillis();
 		new TypesTranslater().translate(hierarchy, compiled, resTarget, args[2]);
