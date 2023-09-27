@@ -12,23 +12,19 @@
   <dependencies>
   	<dependency>
   		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-  		<artifactId>SDE-Types</artifactId>
-  		<version>${project.version}</version>
+  		<artifactId>SDE-Industry</artifactId>
   	</dependency>
   	<dependency>
   		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
   		<artifactId>SDE-Locations</artifactId>
-  		<version>${project.version}</version>
   	</dependency>
   	<dependency>
   		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
   		<artifactId>SDE-NPCs</artifactId>
-  		<version>${project.version}</version>
   	</dependency>
   	<dependency>
   		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-  		<artifactId>SDE-Industry</artifactId>
-  		<version>${project.version}</version>
+  		<artifactId>SDE-Types</artifactId>
   	</dependency>
   </dependencies>
 </project>

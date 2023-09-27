@@ -53,7 +53,22 @@
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 				<artifactId>SDE-Industry</artifactId>
 				<version>${project.version}</version>
-			</dependency>
+			</dependency> 
+		  	<dependency>
+		  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+		  		<artifactId>SDE-Locations</artifactId>
+		  		<version>${project.version}</version>
+		  	</dependency>
+		  	<dependency>
+		  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+		  		<artifactId>SDE-NPCs</artifactId>
+		  		<version>${project.version}</version>
+		  	</dependency>
+		  	<dependency>
+		  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+		  		<artifactId>SDE-Types</artifactId>
+		  		<version>${project.version}</version>
+		  	</dependency>
 			<!-- /submodules -->
 			
 			<dependency>
@@ -75,17 +90,6 @@
 				<groupId>fr.lelouet.tools.solver</groupId>
 				<artifactId>FondHamilton</artifactId>
 				<version>${tools.version}</version>
-			</dependency>
-			
-			<dependency>
-				<groupId>org.javassist</groupId>
-				<artifactId>javassist</artifactId>
-				<version>3.29.2-GA</version>
-			</dependency>
-			<dependency>
-				<groupId>org.mdkt.compiler</groupId>
-				<artifactId>InMemoryJavaCompiler</artifactId>
-				<version>1.3.0</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
