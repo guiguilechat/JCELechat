@@ -183,6 +183,7 @@ public class SDECompiler {
 			arr.add(jvar);
 		}
 		metaclassesField.init(arr);
+		metaclassesField.annotate(SuppressWarnings.class).param("rawtypes");
 
 		// then create all typeid groups
 
