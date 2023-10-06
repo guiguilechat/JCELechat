@@ -55,7 +55,8 @@ public class Manufacture {
 	 * @param materials
 	 *          the manufacturing materials list
 	 * @param typeQttyPrice
-	 *          function to get the price of acquiring a type with a quantity.
+	 *          (type id, qtty)-&gt; price : function to get the price of
+	 *          acquiring a type with a quantity.
 	 * @return the sum of installation cost and
 	 */
 	@SuppressWarnings("rawtypes")
