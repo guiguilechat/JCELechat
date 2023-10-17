@@ -12,6 +12,7 @@
 	<name>Programs</name>
 	<description>pom for all main programs</description>
 	<modules>
+		<module>EveHistory</module>
 		<module>StatsBurnerDest</module>
 		<module>LootStats</module>
 		<module>GUIMutaplasmids</module>
@@ -19,7 +20,6 @@
 		<module>Praisal</module>
 		<module>MoonWorth</module>
 		<module>InsuranceFraud</module>
-
 		<module>ShowAttributes</module>
 		<module>CheckESISDE</module>
 		<module>GankHistory</module>
@@ -55,7 +55,8 @@
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
 		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>
-		<developerConnection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</developerConnection>
+		<developerConnection>
+			scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 	<groupId>fr.guiguilechat.jcelechat</groupId>

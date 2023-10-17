@@ -53,24 +53,24 @@
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 				<artifactId>SDE-Industry</artifactId>
 				<version>${project.version}</version>
-			</dependency> 
-		  	<dependency>
-		  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-		  		<artifactId>SDE-Locations</artifactId>
-		  		<version>${project.version}</version>
-		  	</dependency>
-		  	<dependency>
-		  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-		  		<artifactId>SDE-NPCs</artifactId>
-		  		<version>${project.version}</version>
-		  	</dependency>
-		  	<dependency>
-		  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-		  		<artifactId>SDE-Types</artifactId>
-		  		<version>${project.version}</version>
-		  	</dependency>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+				<artifactId>SDE-Locations</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+				<artifactId>SDE-NPCs</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+				<artifactId>SDE-Types</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 			<!-- /submodules -->
-			
+
 			<dependency>
 				<groupId>fr.lelouet.tools</groupId>
 				<artifactId>Compilation</artifactId>
@@ -91,7 +91,14 @@
 				<artifactId>FondHamilton</artifactId>
 				<version>${tools.version}</version>
 			</dependency>
-		
+
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>${javax.servlet-api.version}</version>
+				<scope>provided</scope>
+			</dependency>
+
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
@@ -118,7 +125,10 @@
 		<version>0.0.15</version>
 	</parent>
 	<properties>
-		<tools.version>1.7.8</tools.version>
 		<java.version>21</java.version>
+		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+		<spring.version>5.3.6</spring.version>
+		<springboot.version>3.1.4</springboot.version>
+		<tools.version>1.7.8</tools.version>
 	</properties>
 </project>
