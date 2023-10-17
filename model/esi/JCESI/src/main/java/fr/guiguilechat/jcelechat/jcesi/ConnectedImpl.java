@@ -50,6 +50,7 @@ import javafx.collections.ObservableSet;
 public abstract class ConnectedImpl implements ITransfer {
 
 	private static final Logger logger = LoggerFactory.getLogger(ConnectedImpl.class);
+	private static final Logger csvLogger = LoggerFactory.getLogger(ConnectedImpl.class.getCanonicalName() + ".csv");
 
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
@@ -127,7 +128,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			case HttpsURLConnection.HTTP_RESET:
 			case HttpsURLConnection.HTTP_PARTIAL:
 				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				logger.info(
+				csvLogger.trace(
 						method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
 								+ con.getHeaderFields());
 				return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
@@ -143,7 +144,8 @@ public abstract class ConnectedImpl implements ITransfer {
 					String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
 					headers.put("Expires", List.of(newExpiry));
 				} else {
-					logger.info(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+					csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t"
+							+ con.getResponseCode() + "\t"
 							+ con.getHeaderFields());
 				}
 				return new RequestedImpl<>(url, responseCode, null, null, headers);
