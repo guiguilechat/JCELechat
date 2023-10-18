@@ -2350,6 +2350,7 @@ corporations:
     - 16440
     - 16441
     - 16442
+    - 19243
     name: Archangels
   Ardishapur Family:
     concordRate: 0.8
@@ -7656,6 +7657,7 @@ corporations:
     - 16440
     - 16441
     - 16442
+    - 19243
     name: Dominations
   Doomheim:
     id: 1000001
@@ -11940,6 +11942,7 @@ corporations:
     - 16440
     - 16441
     - 16442
+    - 19243
     name: Guardian Angels
   Guristas:
     faction: Guristas Pirates
@@ -12266,6 +12269,7 @@ corporations:
     - 16458
     - 16459
     - 16460
+    - 19244
     name: Guristas
   Guristas Production:
     faction: Guristas Pirates
@@ -12423,6 +12427,7 @@ corporations:
     - 16458
     - 16459
     - 16460
+    - 19244
     name: Guristas Production
   HZO Refinery:
     concordRate: 0.8
@@ -25715,6 +25720,7 @@ corporations:
     - 16440
     - 16441
     - 16442
+    - 19243
     name: Salvation Angels
   Sanmatar Kelkoons:
     faction: Minmatar Republic

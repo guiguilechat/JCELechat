@@ -24731,7 +24731,7 @@ offers:
       id: 42124
       quantity: 1
     requirements:
-      isk: 125000000
+      isk: -769803776
       items:
       - id: 57487
         quantity: 1
@@ -24777,7 +24777,7 @@ offers:
         quantity: 2000
       - id: 57478
         quantity: 400
-      lp: 500000
+      lp: 25000000
   16246:
     bpid: 42137
     bpruns: 1
@@ -24787,7 +24787,7 @@ offers:
       id: 42125
       quantity: 1
     requirements:
-      isk: 500000000
+      isk: 1215752192
       items:
       - id: 21009
         quantity: 200
@@ -24831,7 +24831,7 @@ offers:
         quantity: 10
       - id: 57489
         quantity: 1
-      lp: 2000000
+      lp: 100000000
   16247:
     bpid: 42138
     bpruns: 1
@@ -24841,7 +24841,7 @@ offers:
       id: 42126
       quantity: 1
     requirements:
-      isk: 1000000000
+      isk: -323855360
       items:
       - id: 21009
         quantity: 1200
@@ -24891,7 +24891,7 @@ offers:
         quantity: 20
       - id: 57489
         quantity: 1
-      lp: 8000000
+      lp: 150000000
   16248:
     id: 16248
     name: Low-grade Snake Alpha
@@ -38416,3 +38416,23 @@ offers:
       quantity: 1
     requirements:
       lp: 9000
+  19243:
+    id: 19243
+    name: Mekubal Blueprint
+    product:
+      id: 78360
+      quantity: 1
+    requirements:
+      items:
+      - id: 78906
+        quantity: 1
+  19244:
+    id: 19244
+    name: Mamba Blueprint
+    product:
+      id: 78393
+      quantity: 1
+    requirements:
+      items:
+      - id: 78906
+        quantity: 1
