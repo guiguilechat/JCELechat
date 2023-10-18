@@ -5,6 +5,9 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchResult;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.MarketFetchResultRepository;
@@ -40,7 +43,7 @@ public class MarketFetchResultService {
 			return false;
 		}
 		if (!repo.existsByRegionId(regionId)) {
-			repo.save(MarketFetchResult.builder().fail(true).regionId(regionId).build());
+			repo.save(MarketFetchResult.builder().failed(true).regionId(regionId).build());
 		}
 		return true;
 	}
@@ -68,8 +71,8 @@ public class MarketFetchResultService {
 	 * the orders which are none of those, and update the result to have the number
 	 * of retained orders.
 	 *
-	 * @param result
 	 */
+	@Transactional(propagation = Propagation.NESTED, isolation = Isolation.SERIALIZABLE)
 	public void analyze(MarketFetchResult result) {
 		lineService.analyzeLines(result);
 		result.setLineUpdated(lineService.countOrders(result));

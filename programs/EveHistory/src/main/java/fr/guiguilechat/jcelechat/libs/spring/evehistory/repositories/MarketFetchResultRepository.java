@@ -15,8 +15,9 @@ public interface MarketFetchResultRepository extends JpaRepository<MarketFetchRe
 	@Query("""
 select mfr
 from MarketFetchResult mfr
-where mfr.id = (select max(id) from MarketFetchResult mfr2 where mfr.regionId= mfr2.regionId)
-order by mfr.id""")
+where mfr.id = (select max(id) from MarketFetchResult mfr2 where mfr.regionId= mfr2.regionId and mfr2.failed or mfr2.responseCode=200)
+order by mfr.id
+""")
 	List<MarketFetchResult> findLastResults();
 
 	boolean existsByRegionId(int region_id);
@@ -24,6 +25,11 @@ order by mfr.id""")
 	@Query("select distinct(mfr.regionId) from MarketFetchResult mfr")
 	List<Integer> listRegionIds();
 
+	/**
+	 * list the fetch results that can be analyzed : are successful, not analyzed,
+	 * and there exists
+	 * a later successful fetch for the same region
+	 */
 	@Query("""
 select mfr
 from MarketFetchResult mfr

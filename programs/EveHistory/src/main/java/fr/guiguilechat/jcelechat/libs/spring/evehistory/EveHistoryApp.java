@@ -21,8 +21,8 @@ public class EveHistoryApp extends SpringBootServletInitializer {
 	}
 
 	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(EveHistoryApp.class);
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder applicationBuilder) {
+		return applicationBuilder.sources(EveHistoryApp.class);
 	}
 
 	boolean addData = true;

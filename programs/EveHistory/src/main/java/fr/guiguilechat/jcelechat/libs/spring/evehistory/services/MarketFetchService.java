@@ -40,7 +40,7 @@ public class MarketFetchService {
 	public void fetchMarkets() {
 		List<MarketFetchResult> last_fetch = resultService.findLastResults();
 		for (MarketFetchResult mft : last_fetch) {
-			String lastEtag = mft.isFail() ? null : mft.getEtag();
+			String lastEtag = mft.isFailed() ? null : mft.getEtag();
 			int regionId = mft.getRegionId();
 			fetchMarket(regionId, lastEtag);
 		}
@@ -115,7 +115,7 @@ public class MarketFetchService {
 		MarketFetchResult fetchResult = resultService.save(MarketFetchResult.builder()
 				.errors(errors.isEmpty() ? null : errors.toString())
 				.etag(failed || noChange ? null : newEtag)
-				.fail(failed)
+				.failed(failed)
 				.lineFetched(failed || noChange ? null : fetchedLines.size())
 				.pages(pages)
 				.regionId(regionId)

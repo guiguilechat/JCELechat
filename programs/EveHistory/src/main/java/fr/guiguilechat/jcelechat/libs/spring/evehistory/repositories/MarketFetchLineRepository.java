@@ -22,4 +22,24 @@ where line1.fetchResult= :fetchresult
 
 	int countByFetchResult(MarketFetchResult fetchResult);
 
+	@Query(nativeQuery = true, value="""
+select
+distinct result.region_id region,
+date_trunc('hour', line.issued_date) issued_date,
+count(case when line.price_chg then 1 else null end) price_chg,
+count(case when line.volume_chg then 1 else null end) vol_chg,
+count(case when line.created then 1 else null end) created,
+count(case when line.last then 1 else null end) last
+from
+market_fetch_result result
+join market_fetch_line line on result.id=line.fetch_result_id
+group by
+result.region_id,
+date_trunc('hour', line.issued_date)
+order by
+result.region_id,
+date_trunc('hour', line.issued_date)
+""")
+	List<Object[]> analyzeChanges();
+
 }

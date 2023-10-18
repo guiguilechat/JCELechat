@@ -22,7 +22,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Table(indexes = {
-		@Index(columnList = "fail"),
+		@Index(columnList = "failed"),
 		@Index(columnList = "analyzed")
 })
 public class MarketFetchResult {
@@ -42,7 +42,7 @@ public class MarketFetchResult {
 	 * instead etag will not be set.
 	 */
 	@Builder.Default
-	private boolean fail = false;
+	private boolean failed = false;
 
 	/** etag of the resource after the fetch if any */
 	private String etag;
