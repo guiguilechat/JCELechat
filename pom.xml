@@ -31,6 +31,16 @@
 	</repositories>
 	-->
 
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>3.4.0</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 	<dependencyManagement>
 		<dependencies>
 			<!-- sub modules -->
