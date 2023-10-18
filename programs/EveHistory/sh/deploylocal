@@ -1,2 +1,3 @@
 #!/bin/bash
 
+curl -X PUT --upload-file target/EveHistory.war --basic -u admin:admin 'http://127.0.0.1:8080/manager/text/deploy?path=/EveHistory&update=true'

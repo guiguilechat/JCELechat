@@ -4,9 +4,9 @@ services:
       container_name: EveHistory-postgres
       image: 'postgres:16.0-alpine'
    tomcat:
+      build: ./tomcat
       container_name: EveHistory-tomcat
       depends_on:
          - postgres
       ports:
          - "8080:8080"
-      image: 'tomcat:11.0'
