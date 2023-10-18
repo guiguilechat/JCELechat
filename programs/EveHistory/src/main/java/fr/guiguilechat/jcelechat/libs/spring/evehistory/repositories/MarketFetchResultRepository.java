@@ -9,9 +9,26 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchResult;
 
 public interface MarketFetchResultRepository extends JpaRepository<MarketFetchResult, Long> {
 
-	@Query("select mfr from MarketFetchResult mfr where mfr.id = (select max(id) from MarketFetchResult mfr2 group by mfr2.regionId) order by mfr.id")
+	/**
+	 * @return the list of last fetch result for each region already fetched
+	 */
+	@Query("""
+select mfr
+from MarketFetchResult mfr
+where mfr.id = (select max(id) from MarketFetchResult mfr2 where mfr.regionId= mfr2.regionId)
+order by mfr.id""")
 	List<MarketFetchResult> findLastResults();
 
 	boolean existsByRegionId(int region_id);
 
+	@Query("select distinct(mfr.regionId) from MarketFetchResult mfr")
+	List<Integer> listRegionIds();
+
+	@Query("""
+select mfr
+from MarketFetchResult mfr
+where mfr.analyzed = false and mfr.responseCode=200
+and exists (select mfr2.id from MarketFetchResult mfr2 where mfr2.responseCode=200 and mfr2.id>mfr.id and mfr2.regionId=mfr.regionId)
+""")
+	List<MarketFetchResult> findAnalyzable();
 }

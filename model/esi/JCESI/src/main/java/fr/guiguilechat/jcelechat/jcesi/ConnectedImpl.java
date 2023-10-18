@@ -58,20 +58,14 @@ public abstract class ConnectedImpl implements ITransfer {
 	/**
 	 * request an url
 	 *
-	 * @param url
-	 *          the url to request
-	 * @param method
-	 *          the type of method
-	 * @param properties
-	 *          the properties to send in the header
-	 * @param transmit
-	 *          the data to send through the connection
-	 * @param expectedClass
-	 *          the class to convert the OK result to
-	 * @param retries
-	 *          optional number of retries on server error.
+	 * @param url           the url to request
+	 * @param method        the type of method
+	 * @param properties    the properties to send in the header
+	 * @param transmit      the data to send through the connection
+	 * @param expectedClass the class to convert the OK result to
+	 * @param retries       optional number of retries on server error.
 	 * @return a new response holding the result of the request, or null if
-	 *         connection issue
+	 *           connection issue
 	 */
 	protected <T> Requested<T> request(String url, String method, Map<String, String> properties,
 			Map<String, Object> transmit, Class<T> expectedClass, int... retries) {
@@ -83,7 +77,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			properties = new HashMap<>();
 		}
 		addConnection(properties);
-		logger.debug(method + "\t" + url + "\t" + properties + "\t" + transmit);
+		csvLogger.debug(method + "\t" + url + "\t" + properties + "\t" + transmit);
 		boolean isServerError = false;
 		try {
 			URL target = new URL(url);
@@ -111,8 +105,8 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 				isServerError = con.getResponseCode() / 100 == 5;
 				if (isServerError) {
-					logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-							+ con.getHeaderFields());
+					csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode()
+					+ "\t" + con.getHeaderFields());
 					maxRetry--;
 				}
 			} while (isServerError && maxRetry >= 0);
@@ -128,25 +122,23 @@ public abstract class ConnectedImpl implements ITransfer {
 			case HttpsURLConnection.HTTP_RESET:
 			case HttpsURLConnection.HTTP_PARTIAL:
 				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				csvLogger.trace(
-						method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-								+ con.getHeaderFields());
+				csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+						+ con.getHeaderFields());
 				return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
 				// 304 not modified
 			case HttpsURLConnection.HTTP_NOT_MODIFIED:
 				String date = headers.getOrDefault("Date", List.of("")).get(0);
 				String expires = headers.getOrDefault("Expires", List.of("")).get(0);
 				if (date.equals(expires)) {
-					logger.warn(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+					csvLogger.warn(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
 							+ con.getHeaderFields());
 					// if expires=Date we add 20s of avoid CCP bug
 					headers = new HashMap<>(headers);
 					String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
 					headers.put("Expires", List.of(newExpiry));
 				} else {
-					csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t"
-							+ con.getResponseCode() + "\t"
-							+ con.getHeaderFields());
+					csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode()
+					+ "\t" + con.getHeaderFields());
 				}
 				return new RequestedImpl<>(url, responseCode, null, null, headers);
 				// 4xx client error
@@ -167,12 +159,12 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (con.getErrorStream() != null) {
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 				}
-				logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+				csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
 						+ con.getHeaderFields());
 				return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 			}
 		} catch (Exception e) {
-			logger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t\t" + e.getMessage());
+			csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t\t" + e.getMessage());
 			return new RequestedImpl<>(url, HttpsURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
 	}
@@ -222,9 +214,8 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			if (!mismatch[0]) {
 				if (page1.getResponseCode() != 200 && page1.getResponseCode() != 304) {
-					logger.debug(
-							page1.getURL() + " request pages received responsecode=" + page1.getResponseCode() + " error="
-									+ page1.getError());
+					logger.debug(page1.getURL() + " request pages received responsecode=" + page1.getResponseCode() + " error="
+							+ page1.getError());
 				}
 				return page1;
 			}
@@ -257,14 +248,15 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			String firstLastModified = firstPage.getLastModified();
 			String pageLastModified = page.getLastModified();
-			if (firstLastModified != pageLastModified && (firstLastModified == null || !firstLastModified.equals(pageLastModified))) {
+			if (firstLastModified != pageLastModified
+					&& (firstLastModified == null || !firstLastModified.equals(pageLastModified))) {
 				String message = "mismatching page cache data [url=" + page.getURL() + " lastmodified=" + pageLastModified
 						+ "] with first page [url=" + firstPage.getURL() + " lastmodified=" + firstLastModified + "]";
 				logger.warn(message);
 				System.err.println(message);
 				mismatch[0] = true;
 			}
-		}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr)).collect(Collectors.toList());
+		}).filter(Requested::isOk).map(Requested::getOK).flatMap(Stream::of).collect(Collectors.toList());
 		return listret;
 	}
 
@@ -404,12 +396,12 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * execution
 	 * </p>
 	 * <p>
-	 * It can also be paused. Pausing it prevents execution until resume is
-	 * called. Paused and started are two different states,
+	 * It can also be paused. Pausing it prevents execution until resume is called.
+	 * Paused and started are two different states,
 	 * </p>
 	 * <p>
-	 * this abstract class role is to fetch data on a repeated pattern. The
-	 * handler can receive null data in several occasions :
+	 * this abstract class role is to fetch data on a repeated pattern. The handler
+	 * can receive null data in several occasions :
 	 * <ul>
 	 * <li>the data is not accessible (404)</li>
 	 * <li>there are too many errors in the network(repeated 50x)</li>
@@ -417,7 +409,6 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * <li>
 	 * </ul>
 	 * </p>
-	 *
 	 */
 	public abstract class SelfExecutableFetcher<T> implements Runnable, Pausable, Consumer<Object> {
 
@@ -610,12 +601,11 @@ public abstract class ConnectedImpl implements ITransfer {
 		protected abstract Requested<T> fetch(Map<String, String> parameters);
 
 		/**
-		 * bind this retrieval state to the roles that are required by this
-		 * character
+		 * bind this retrieval state to the roles that are required by this character
 		 *
-		 * @param requiredRoles
-		 *          the roles, if not null or empty at least one of them must be
-		 *          acquired by the character to allow retrieval of data.
+		 * @param requiredRoles the roles, if not null or empty at least one of them
+		 *                      must be acquired by the character to allow retrieval of
+		 *                      data.
 		 */
 		protected void bindToRoles(String[] requiredRoles) {
 			if (requiredRoles == null || requiredRoles.length == 0) {
@@ -634,7 +624,6 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 	}
 
-
 	public abstract SetHolder<String> getRoles();
 
 	@SuppressWarnings("unchecked")
@@ -649,8 +638,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	/**
 	 * task to fetch an array.
 	 *
-	 * @param <T>
-	 *          the inner type of the array.
+	 * @param <T> the inner type of the array.
 	 */
 	public class ArrayCacheUpdaterTask<T> extends SelfExecutableFetcher<List<T>> {
 
@@ -676,21 +664,18 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * repeatedly fetch a cache and put the value in the handler. The cache expire
 	 * is retrieved when fetching data, and used to schedule next retrieve.
 	 *
-	 *
-	 * @param fetcher
-	 *          the function that actually fetch a page, as an array of T. This
-	 *          function uses a handler as second parameter to store the headers
-	 *          of the resource.
-	 * @param cacheHandler
-	 *          the data that consumes the new cache obtained from the fetcher.
-	 *          This should handle a null value in case the data can not be
-	 *          updated anymore (eg because the task is paused, the required roles
-	 *          are no more present, the server is down)
-	 * @return a runnable stopper function. Once this function is called, the
-	 *         cache will not be fetched anymore, unless of course it was already
-	 *         in the fetch function.
-	 * @param <T>
-	 *          the type of object the fetched array contains.
+	 * @param fetcher      the function that actually fetch a page, as an array of
+	 *                     T. This function uses a handler as second parameter to
+	 *                     store the headers of the resource.
+	 * @param cacheHandler the data that consumes the new cache obtained from the
+	 *                     fetcher. This should handle a null value in case the data
+	 *                     can not be updated anymore (eg because the task is
+	 *                     paused, the required roles are no more present, the
+	 *                     server is down)
+	 * @return a runnable stopper function. Once this function is called, the cache
+	 *           will not be fetched anymore, unless of course it was already in the
+	 *           fetch function.
+	 * @param <T> the type of object the fetched array contains.
 	 */
 	public <T> SelfExecutableFetcher<List<T>> addFetchCacheArray(String name,
 			BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher, Consumer<List<T>> cacheHandler,
@@ -708,8 +693,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	/**
 	 * class to fetch an object.
 	 *
-	 * @param <T>
-	 *          the type of the object to fetch
+	 * @param <T> the type of the object to fetch
 	 */
 	public class ObjectCacheUpdaterTask<T> extends SelfExecutableFetcher<T> {
 
@@ -733,20 +717,17 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * repeatedly fetch a cache and put the value in the handler. The cache expire
 	 * is retrieved when fetching data, and used to schedule next retrieve.
 	 *
-	 *
-	 * @param fetcher
-	 *          the function that actually fetch the T. This function uses a
-	 *          handler to store the headers of the resource.
-	 * @param cacheHandler
-	 *          the data that consumes the new cache obtained from the fetcher.
-	 *          This should handle a null value in case the data can not be
-	 *          updated anymore (eg because the task is paused, the required roles
-	 *          are no more present, the server is down)
-	 * @return a runnable stopper function. Once this function is called, the
-	 *         cache will not be fetched anymore, unless of course it was already
-	 *         in the fetch function.
-	 * @param <T>
-	 *          the type of object that represents the cache.
+	 * @param fetcher      the function that actually fetch the T. This function
+	 *                     uses a handler to store the headers of the resource.
+	 * @param cacheHandler the data that consumes the new cache obtained from the
+	 *                     fetcher. This should handle a null value in case the data
+	 *                     can not be updated anymore (eg because the task is
+	 *                     paused, the required roles are no more present, the
+	 *                     server is down)
+	 * @return a runnable stopper function. Once this function is called, the cache
+	 *           will not be fetched anymore, unless of course it was already in the
+	 *           fetch function.
+	 * @param <T> the type of object that represents the cache.
 	 */
 	public <T> SelfExecutableFetcher<T> addFetchCacheObject(String name,
 			Function<Map<String, String>, Requested<T>> fetcher, Consumer<T> cacheHandler, String... requiredRoles) {

@@ -1,12 +1,15 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services;
 
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Set;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ForkJoinPool;
 import java.util.stream.IntStream;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,10 +19,9 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchResult;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.MarketFetchResultRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -27,18 +29,16 @@ import lombok.extern.slf4j.Slf4j;
 public class MarketFetchService {
 
 	@Autowired
-	private MarketFetchResultRepository repo;
+	private MarketFetchResultService resultService;
 
-	public MarketFetchResult save(MarketFetchResult entity) {
-		if (entity.getCreatedDate() == null)
-			entity.setCreatedDate(Instant.now());
-		return repo.save(entity);
-	}
+	@Autowired
+	private MarketFetchLineService lineService;
 
-	@Scheduled(fixedRate = 4 * 60 * 1000, initialDelay = 5000)
+	private ForkJoinPool highParrallelPool = new ForkJoinPool(Runtime.getRuntime().availableProcessors() * 10);
+
+	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 5000)
 	public void fetchMarkets() {
-		List<MarketFetchResult> last_fetch = repo.findLastResults();
-		log.info("call generates " + last_fetch);
+		List<MarketFetchResult> last_fetch = resultService.findLastResults();
 		for (MarketFetchResult mft : last_fetch) {
 			String lastEtag = mft.isFail() ? null : mft.getEtag();
 			int regionId = mft.getRegionId();
@@ -47,73 +47,102 @@ public class MarketFetchService {
 	}
 
 	public void fetchMarket(int regionId, String lastEtag) {
+		long start = System.currentTimeMillis();
+		boolean failed = false;
+		boolean noChange = false;
+		Set<String> errors = new HashSet<>();
+		Integer pages = null;
+		List<R_get_markets_region_id_orders> fetchedLines = new ArrayList<>();
+
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
 		Requested<R_get_markets_region_id_orders[]> firstResult = ESIStatic.INSTANCE.get_markets_orders(null, null,
 				regionId, null, properties);
+		long firstPageTime = System.currentTimeMillis();
 		String newEtag = firstResult.getETag();
-		boolean failed = false;
-		String error = null;
-		Integer pages = null;
 		int responseCode = firstResult.getResponseCode();
 		switch (responseCode) {
 		case 200:
 			pages = firstResult.getNbPages();
 			break;
 		case 304:
-			repo.save(MarketFetchResult.builder().regionId(regionId).etag(newEtag).build());
-			return;
+			noChange = true;
+			break;
 		default:
 			failed = true;
-			error = firstResult.getError();
+			errors.add(firstResult.getError());
 		}
-		List<R_get_markets_region_id_orders> result = new ArrayList<>();
-		if (!failed) {
-			result.addAll(Arrays.asList(firstResult.getOK()));
+		Long allPagesTime = null;
+		if (!failed && !noChange) {
+			fetchedLines.addAll(Arrays.asList(firstResult.getOK()));
 			boolean expireMismatch = false;
 			if (pages != null && pages > 1) {
-				List<Requested<R_get_markets_region_id_orders[]>> nextPages = IntStream.rangeClosed(2, pages - 1)
-						.parallel()
-						.mapToObj(p -> ESIStatic.INSTANCE.get_markets_orders(null, p, regionId, null, properties))
-						.toList();
-				for (Requested<R_get_markets_region_id_orders[]> pageResult : nextPages) {
-					if (pageResult.getResponseCode() != 200) {
-						failed = true;
-						responseCode = pageResult.getResponseCode();
-						error = (error == null ? "" : error) + pageResult.getError();
-					} else if (!Objects.equals(firstResult.getExpires(), pageResult.getExpires())) {
-						failed = true;
-						log.error("mismatching expire for " + pageResult.getURL());
-						expireMismatch = true;
-					} else {
-						result.addAll(Arrays.asList(pageResult.getOK()));
-					}
+				IntStream is = IntStream.rangeClosed(2, pages);
+				List<Requested<R_get_markets_region_id_orders[]>> nextPages = null;
+				try {
+					nextPages = highParrallelPool.submit(() -> is.parallel()
+							.mapToObj(p -> ESIStatic.INSTANCE.get_markets_orders(null, p, regionId, null, null))
+							.toList())
+							.get();
+				} catch (InterruptedException | ExecutionException e) {
+					failed = true;
+					log.error("while fetching next page for region " + regionId, e);
+					errors.add(e.getMessage());
 				}
-				if (expireMismatch) {
-					error = (error == null ? "" : error) + "Expires mismatch";
+				allPagesTime = System.currentTimeMillis();
+				if (!failed) {
+					for (Requested<R_get_markets_region_id_orders[]> pageResult : nextPages) {
+						if (!pageResult.isOk()) {
+							failed = true;
+							responseCode = pageResult.getResponseCode();
+							errors.add(pageResult.getError());
+						} else if (!Objects.equals(firstResult.getExpires(), pageResult.getExpires())) {
+							log.error("mismatching expire for " + pageResult.getURL());
+							expireMismatch = true;
+						} else {
+							fetchedLines.addAll(Arrays.asList(pageResult.getOK()));
+						}
+					}
+					if (expireMismatch) {
+						failed = true;
+						errors.add("Expires mismatch");
+					}
 				}
 			}
 		}
-		if (failed) {
-			newEtag = null;
+		MarketFetchResult fetchResult = resultService.save(MarketFetchResult.builder()
+				.errors(errors.isEmpty() ? null : errors.toString())
+				.etag(failed || noChange ? null : newEtag)
+				.fail(failed)
+				.lineFetched(failed || noChange ? null : fetchedLines.size())
+				.pages(pages)
+				.regionId(regionId)
+				.responseCode(responseCode)
+				.build());
 
+		if (!failed && !noChange) {
+			lineService.saveAll(fetchedLines.stream()
+					.map(order -> MarketFetchLine.builder()
+							.order(order)
+							.fetchResult(fetchResult)
+							.build())
+					.toList());
 		}
-		repo.save(MarketFetchResult.builder().errors(error).etag(newEtag).fail(failed).pages(pages).regionId(regionId)
-				.responseCode(responseCode).build());
+		long endSave = System.currentTimeMillis();
+		log.info("region id=" + regionId + " result="
+				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " times(ms)= total:"
+				+ (endSave - start) + " firstPage:" + (firstPageTime - start) + (allPagesTime == null ? ""
+						: " nextPages:" + (allPagesTime - firstPageTime) + " save:" + (endSave - allPagesTime)));
 	}
 
-	public boolean addRegion(int regionId) {
-		Region region = Region.loadById().get(regionId);
-		if (region == null)
-			return false;
-		if (!repo.existsByRegionId(regionId)) {
-			repo.save(MarketFetchResult.builder()
-					.fail(true)
-					.regionId(regionId).build());
+	@Scheduled(fixedRate = 6 * 60 * 1000)
+	public void analyzeResults() {
+		List<MarketFetchResult> toAnalyze = resultService.findAnalyzable();
+		for (MarketFetchResult r : toAnalyze) {
+			resultService.analyze(r);
 		}
-		return true;
 	}
 
 }
