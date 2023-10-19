@@ -64,10 +64,20 @@ public class MarketFetchResultService {
 				.findByCreatedDateLessThanAndCachedTrue(Instant.now().minus(Duration.ofHours(1)));
 		repo.deleteAllInBatch(cachedExpired);
 		log.info("purged " + cachedExpired.size() + " cached results");
+
 		List<MarketFetchResult> failedExpired = repo
 				.findByCreatedDateLessThanAndFailedTrue(Instant.now().minus(Duration.ofDays(1)));
 		repo.deleteAllInBatch(failedExpired);
 		log.info("purged " + failedExpired.size() + " failed results");
+		List<MarketFetchResult> removeEtag = repo
+				.findByCreatedDateLessThanAndEtagNotNull(Instant.now().minus(Duration.ofHours(1)));
+
+		// keep etags at least one hour
+		for (MarketFetchResult r : removeEtag) {
+			r.setEtag(null);
+		}
+		repo.saveAllAndFlush(removeEtag);
+		log.info("removed " + removeEtag.size() + " etags");
 	}
 
 }

@@ -38,4 +38,6 @@ order by id asc
 	List<MarketFetchResult> findByCreatedDateLessThanAndFailedTrue(Instant maxDate);
 
 	List<MarketFetchResult> findByCreatedDateLessThanAndCachedTrue(Instant maxDate);
+
+	List<MarketFetchResult> findByCreatedDateLessThanAndEtagNotNull(Instant maxDate);
 }

@@ -11,6 +11,6 @@ public interface MarketObservedRegionRepository extends JpaRepository<MarketObse
 
 	boolean existsByRegionId(int region_id);
 
-	@Query("select distinct(mor.regionId) from MarketObservedRegion mor")
+	@Query("select mor.regionId from MarketObservedRegion mor order by mor.regionId")
 	List<Integer> listRegionIds();
 }

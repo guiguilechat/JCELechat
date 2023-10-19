@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
+import java.time.Instant;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -28,6 +31,13 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class MarketFetchService {
+
+	/**
+	 * convert a date in {@link DateTimeFormatter#RFC_1123_DATE_TIME} format
+	 */
+	public static Instant convertDate1123(String formated) {
+		return ZonedDateTime.parse(formated, DateTimeFormatter.RFC_1123_DATE_TIME).toInstant();
+	}
 
 	@Autowired
 	private MarketFetchResultService resultService;
@@ -123,6 +133,7 @@ public class MarketFetchService {
 				.etag(failed || noChange ? null : newEtag)
 				.failed(failed)
 				.cached(noChange)
+				.lastModified(failed || noChange ? null : convertDate1123(firstResult.getLastModified()))
 				.linesFetched(failed || noChange ? null : fetchedLines.size())
 				.pagesFetched(failed || noChange ? null : pages)
 				.regionId(regionId)

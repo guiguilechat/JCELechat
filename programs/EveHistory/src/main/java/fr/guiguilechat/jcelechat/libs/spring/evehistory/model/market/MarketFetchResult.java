@@ -82,4 +82,9 @@ public class MarketFetchResult {
 	 */
 	private Integer linesUpdated;
 
+	/**
+	 * instant retrieved from the first page, if any
+	 */
+	private Instant lastModified;
+
 }

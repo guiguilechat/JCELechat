@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market;
 
+import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -41,5 +42,16 @@ result.region_id,
 date_trunc('hour', line.issued_date)
 """)
 	List<Object[]> analyzeChanges();
+
+	@Query("""
+select line
+from MarketFetchLine line
+where line.issuedDate>:fromDate
+and line.issuedDate<:toDate
+and line.order.type_id=:typeId
+and line.fetchResult.regionId=:regionId
+and line.priceChg=true
+""")
+	List<MarketFetchLine> listPriceChanges(int regionId, int typeId, Instant fromDate, Instant toDate);
 
 }

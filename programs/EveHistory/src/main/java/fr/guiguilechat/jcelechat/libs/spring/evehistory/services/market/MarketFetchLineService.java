@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -92,6 +93,10 @@ public class MarketFetchLineService {
 	 */
 	public int countOrders(MarketFetchResult result) {
 		return repo.countByFetchResult(result);
+	}
+
+	public List<MarketFetchLine> listUpdates(int regionId, int typeId, Instant from, Instant to) {
+		return repo.listPriceChanges(regionId, typeId, from, to);
 	}
 
 }
