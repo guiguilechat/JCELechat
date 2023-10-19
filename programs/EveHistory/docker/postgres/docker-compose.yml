@@ -19,6 +19,7 @@ services:
          - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/EveHistory
          - SPRING_DATASOURCE_USERNAME=EveHistory
          - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      image: evehistory/tomcat
       ports:
          - "48080:8080"
       restart: unless-stopped
