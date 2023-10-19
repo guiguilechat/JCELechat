@@ -34,6 +34,7 @@ public class MarketFetchService {
 
 	@Autowired
 	private MarketFetchLineService lineService;
+
 	@Autowired
 	private MarketObservedRegionService observedService;
 
@@ -142,7 +143,7 @@ public class MarketFetchService {
 						: " nextPages:" + (allPagesTime - firstPageTime) + " save:" + (endSave - allPagesTime)));
 	}
 
-	@Scheduled(fixedRate = 6 * 60 * 1000)
+	@Scheduled(fixedRate = 6 * 60 * 1000, initialDelay = 60 * 1000)
 	public void analyzeResults() {
 		log.info("analyzing results");
 		List<MarketFetchResult> toAnalyze = resultService.findAnalyzable();
