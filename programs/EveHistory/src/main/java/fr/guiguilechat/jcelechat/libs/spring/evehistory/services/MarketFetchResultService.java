@@ -30,7 +30,8 @@ public class MarketFetchResultService {
 	}
 
 	public List<MarketFetchResult> findLastResults() {
-		return repo.findLastResults();
+		List<MarketFetchResult> ret = repo.findLastResults();
+		return ret;
 	}
 
 	public boolean existsByRegionId(int regionId) {
@@ -75,7 +76,7 @@ public class MarketFetchResultService {
 	@Transactional(propagation = Propagation.NESTED, isolation = Isolation.SERIALIZABLE)
 	public void analyze(MarketFetchResult result) {
 		lineService.analyzeLines(result);
-		result.setLineUpdated(lineService.countOrders(result));
+		result.setLinesUpdated(lineService.countOrders(result));
 		result.setAnalyzed(true);
 		repo.save(result);
 	}

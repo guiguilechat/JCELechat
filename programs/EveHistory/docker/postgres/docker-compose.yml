@@ -3,10 +3,22 @@ services:
    postgres:
       container_name: EveHistory-postgres
       image: 'postgres:16.0-alpine'
+      environment:
+         - POSTGRES_USER=EveHistory
+         - POSTGRES_PASSWORD=EveHistory
+      ports:
+         - "45432:5432"
+      restart: unless-stopped
    tomcat:
       build: ./tomcat
       container_name: EveHistory-tomcat
       depends_on:
          - postgres
+      environment:
+         - SPRING_DATASOURCE_PASSWORD=EveHistory
+         - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/EveHistory
+         - SPRING_DATASOURCE_USERNAME=EveHistory
+         - SPRING_JPA_HIBERNATE_DDL_AUTO=update
       ports:
-         - "8080:8080"
+         - "48080:8080"
+      restart: unless-stopped

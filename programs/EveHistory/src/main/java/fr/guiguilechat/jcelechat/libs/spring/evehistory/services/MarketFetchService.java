@@ -47,6 +47,7 @@ public class MarketFetchService {
 	}
 
 	public void fetchMarket(int regionId, String lastEtag) {
+		log.info("fetching market region=" + regionId + " etag=" + lastEtag);
 		long start = System.currentTimeMillis();
 		boolean failed = false;
 		boolean noChange = false;
@@ -116,8 +117,9 @@ public class MarketFetchService {
 				.errors(errors.isEmpty() ? null : errors.toString())
 				.etag(failed || noChange ? null : newEtag)
 				.failed(failed)
-				.lineFetched(failed || noChange ? null : fetchedLines.size())
-				.pages(pages)
+				.cached(noChange)
+				.linesFetched(failed || noChange ? null : fetchedLines.size())
+				.pagesFetched(failed || noChange ? null : pages)
 				.regionId(regionId)
 				.responseCode(responseCode)
 				.build());
@@ -139,6 +141,7 @@ public class MarketFetchService {
 
 	@Scheduled(fixedRate = 6 * 60 * 1000)
 	public void analyzeResults() {
+		log.info("analyzing results");
 		List<MarketFetchResult> toAnalyze = resultService.findAnalyzable();
 		for (MarketFetchResult r : toAnalyze) {
 			resultService.analyze(r);

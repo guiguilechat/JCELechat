@@ -39,10 +39,16 @@ public class MarketFetchResult {
 
 	/**
 	 * true iff the result was an error. no change (304) will not produce an error :
-	 * instead etag will not be set.
+	 * instead etag will not be set and {@link #cached}.
 	 */
 	@Builder.Default
 	private boolean failed = false;
+
+	/**
+	 * true iff the result was a cache keep.
+	 */
+	@Builder.Default
+	private boolean cached = false;
 
 	/** etag of the resource after the fetch if any */
 	private String etag;
@@ -51,16 +57,19 @@ public class MarketFetchResult {
 	/** description of the error if any */
 	private String errors;
 
-	/** response code retrieved if any */
+	/**
+	 * response code retrieved if any. In case of error, the last error's response
+	 * code is used
+	 */
 	private Integer responseCode;
 
 	/** pages received, if any */
-	private Integer pages;
+	private Integer pagesFetched;
 
 	/**
 	 * number of orders fetched
 	 */
-	private Integer lineFetched;
+	private Integer linesFetched;
 
 	/**
 	 * set to true when the data fetched have been analyzed.
@@ -71,6 +80,6 @@ public class MarketFetchResult {
 	/**
 	 * number of lines associated with that result after analyzis
 	 */
-	private Integer lineUpdated;
+	private Integer linesUpdated;
 
 }

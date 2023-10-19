@@ -15,7 +15,7 @@ public interface MarketFetchResultRepository extends JpaRepository<MarketFetchRe
 	@Query("""
 select mfr
 from MarketFetchResult mfr
-where mfr.id = (select max(id) from MarketFetchResult mfr2 where mfr.regionId= mfr2.regionId and mfr2.failed or mfr2.responseCode=200)
+where mfr.id = (select max(id) from MarketFetchResult mfr2 where mfr.regionId= mfr2.regionId and not mfr2.cached)
 order by mfr.id
 """)
 	List<MarketFetchResult> findLastResults();
@@ -33,8 +33,8 @@ order by mfr.id
 	@Query("""
 select mfr
 from MarketFetchResult mfr
-where mfr.analyzed = false and mfr.responseCode=200
-and exists (select mfr2.id from MarketFetchResult mfr2 where mfr2.responseCode=200 and mfr2.id>mfr.id and mfr2.regionId=mfr.regionId)
+where mfr.analyzed = false and mfr.linesFetched>0
+and exists (select mfr2.id from MarketFetchResult mfr2 where mfr2.linesFetched>0 and mfr2.id>mfr.id and mfr2.regionId=mfr.regionId)
 """)
 	List<MarketFetchResult> findAnalyzable();
 }
