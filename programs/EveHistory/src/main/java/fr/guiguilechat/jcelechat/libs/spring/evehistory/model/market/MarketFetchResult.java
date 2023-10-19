@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evehistory.model;
+package fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market;
 
 import java.time.Instant;
 

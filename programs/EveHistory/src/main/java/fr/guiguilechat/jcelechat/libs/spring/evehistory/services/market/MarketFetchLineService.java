@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evehistory.services;
+package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchLine;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchResult;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.MarketFetchLineRepository;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchLine;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market.MarketFetchLineRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -72,7 +72,8 @@ public class MarketFetchLineService {
 		saveAll(updated);
 		repo.deleteAll(deleted);
 		log.info(
-				"analyze of market fetch " + result.getId() + " orders : keep:" + updated.size() + " delete:" + deleted.size());
+				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " orders : keep:"
+						+ updated.size() + " delete:" + deleted.size());
 	}
 
 	/**

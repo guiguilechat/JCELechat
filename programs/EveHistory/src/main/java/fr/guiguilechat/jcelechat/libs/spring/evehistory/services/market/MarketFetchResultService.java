@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evehistory.services;
+package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
 import java.time.Instant;
 import java.util.List;
@@ -9,9 +9,8 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchResult;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.MarketFetchResultRepository;
-import fr.guiguilechat.jcelechat.model.sde.locations.Region;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market.MarketFetchResultRepository;
 
 @Service
 public class MarketFetchResultService {
@@ -32,33 +31,6 @@ public class MarketFetchResultService {
 	public List<MarketFetchResult> findLastResults() {
 		List<MarketFetchResult> ret = repo.findLastResults();
 		return ret;
-	}
-
-	public boolean existsByRegionId(int regionId) {
-		return repo.existsByRegionId(regionId);
-	}
-
-	public boolean observeRegion(int regionId) {
-		Region region = Region.loadById().get(regionId);
-		if (region == null) {
-			return false;
-		}
-		if (!repo.existsByRegionId(regionId)) {
-			repo.save(MarketFetchResult.builder().failed(true).regionId(regionId).build());
-		}
-		return true;
-	}
-
-	public void observeRegions(int... regionIds) {
-		if (regionIds != null) {
-			for (int regionId : regionIds) {
-				observeRegion(regionId);
-			}
-		}
-	}
-
-	public List<Integer> observedRegions() {
-		return repo.listRegionIds();
 	}
 
 	public List<MarketFetchResult> findAnalyzable() {

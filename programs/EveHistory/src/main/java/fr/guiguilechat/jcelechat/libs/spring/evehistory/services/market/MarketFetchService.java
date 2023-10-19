@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evehistory.services;
+package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,6 +10,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +20,8 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchLine;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchResult;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchLine;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import lombok.extern.slf4j.Slf4j;
 
@@ -33,21 +34,23 @@ public class MarketFetchService {
 
 	@Autowired
 	private MarketFetchLineService lineService;
+	@Autowired
+	private MarketObservedRegionService observedService;
 
 	private ForkJoinPool highParrallelPool = new ForkJoinPool(Runtime.getRuntime().availableProcessors() * 10);
 
 	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 5000)
 	public void fetchMarkets() {
 		List<MarketFetchResult> last_fetch = resultService.findLastResults();
-		for (MarketFetchResult mft : last_fetch) {
-			String lastEtag = mft.isFailed() ? null : mft.getEtag();
-			int regionId = mft.getRegionId();
-			fetchMarket(regionId, lastEtag);
+		Map<Integer, String> existingEtags = last_fetch.stream()
+				.collect(Collectors.toMap(MarketFetchResult::getRegionId, MarketFetchResult::getEtag));
+		List<Integer> requiredRegionIds = observedService.observedRegions();
+		for (int regionId : requiredRegionIds) {
+			fetchMarket(regionId, existingEtags.get(regionId));
 		}
 	}
 
 	public void fetchMarket(int regionId, String lastEtag) {
-		log.info("fetching market region=" + regionId + " etag=" + lastEtag);
 		long start = System.currentTimeMillis();
 		boolean failed = false;
 		boolean noChange = false;

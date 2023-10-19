@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories;
+package fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchLine;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchResult;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchLine;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
 
 public interface MarketFetchLineRepository extends JpaRepository<MarketFetchLine, Long> {
 

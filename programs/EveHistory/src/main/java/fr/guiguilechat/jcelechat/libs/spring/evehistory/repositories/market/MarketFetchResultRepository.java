@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories;
+package fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.MarketFetchResult;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
 
 public interface MarketFetchResultRepository extends JpaRepository<MarketFetchResult, Long> {
 
@@ -19,11 +19,6 @@ where mfr.id = (select max(id) from MarketFetchResult mfr2 where mfr.regionId= m
 order by mfr.id
 """)
 	List<MarketFetchResult> findLastResults();
-
-	boolean existsByRegionId(int region_id);
-
-	@Query("select distinct(mfr.regionId) from MarketFetchResult mfr")
-	List<Integer> listRegionIds();
 
 	/**
 	 * list the fetch results that can be analyzed : are successful, not analyzed,
