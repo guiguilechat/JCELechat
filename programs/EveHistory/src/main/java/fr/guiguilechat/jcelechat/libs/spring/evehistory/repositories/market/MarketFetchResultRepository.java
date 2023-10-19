@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market;
 
+import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -16,7 +17,7 @@ public interface MarketFetchResultRepository extends JpaRepository<MarketFetchRe
 select mfr
 from MarketFetchResult mfr
 where mfr.id = (select max(id) from MarketFetchResult mfr2 where mfr.regionId= mfr2.regionId and not mfr2.cached)
-order by mfr.id
+order by mfr.id asc
 """)
 	List<MarketFetchResult> findLastResults();
 
@@ -30,6 +31,11 @@ select mfr
 from MarketFetchResult mfr
 where mfr.analyzed = false and mfr.linesFetched>0
 and exists (select mfr2.id from MarketFetchResult mfr2 where mfr2.linesFetched>0 and mfr2.id>mfr.id and mfr2.regionId=mfr.regionId)
+order by id asc
 """)
 	List<MarketFetchResult> findAnalyzable();
+
+	List<MarketFetchResult> findByCreatedDateLessThanAndFailedTrue(Instant maxDate);
+
+	List<MarketFetchResult> findByCreatedDateLessThanAndCachedTrue(Instant maxDate);
 }

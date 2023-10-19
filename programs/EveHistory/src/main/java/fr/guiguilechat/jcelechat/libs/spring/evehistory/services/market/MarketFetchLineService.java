@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -51,6 +53,7 @@ public class MarketFetchLineService {
 	public void analyzeLines(MarketFetchResult result) {
 		List<MarketFetchLine> updated = new ArrayList<>();
 		List<MarketFetchLine> deleted = new ArrayList<>();
+		Map<MarketFetchLine, MarketFetchLine> result2Previous = new HashMap<>();
 		List<Object[]> changes = repo.listOrderChanges(result);
 		for (Object[] o : changes) {
 			MarketFetchLine before = (MarketFetchLine) o[0],
@@ -58,7 +61,7 @@ public class MarketFetchLineService {
 					after = (MarketFetchLine) o[2];
 			line.setCreated(before == null);
 			if (before != null) {
-				line.setPrevious(before);
+				result2Previous.put(line, before);
 				line.setPriceChg(before.getOrder().price != line.getOrder().price);
 				line.setVolumeChg(before.getOrder().volume_remain != line.getOrder().volume_remain);
 			}
@@ -68,6 +71,14 @@ public class MarketFetchLineService {
 			} else {
 				deleted.add(line);
 			}
+		}
+		// set the previous to a non-deleted one
+		for (MarketFetchLine line : updated) {
+			MarketFetchLine previous = result2Previous.get(line);
+			while (previous != null && deleted.contains(previous)) {
+				previous = result2Previous.get(previous);
+			}
+			line.setPrevious(previous);
 		}
 		saveAll(updated);
 		repo.deleteAll(deleted);

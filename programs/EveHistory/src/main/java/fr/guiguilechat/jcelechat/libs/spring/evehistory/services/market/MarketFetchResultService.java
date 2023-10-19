@@ -1,9 +1,11 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
+import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
@@ -11,7 +13,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market.MarketFetchResultRepository;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 public class MarketFetchResultService {
 
@@ -51,6 +55,19 @@ public class MarketFetchResultService {
 		result.setLinesUpdated(lineService.countOrders(result));
 		result.setAnalyzed(true);
 		repo.save(result);
+	}
+
+	@Scheduled(fixedRate = 10 * 60 * 1000, initialDelay = 1 * 60 * 1000)
+	public void purgeOldEntries() {
+		// keep failed at least one day, cached at least one hour
+		List<MarketFetchResult> cachedExpired = repo
+				.findByCreatedDateLessThanAndCachedTrue(Instant.now().minus(Duration.ofHours(1)));
+		repo.deleteAllInBatch(cachedExpired);
+		log.info("purged " + cachedExpired.size() + " cached results");
+		List<MarketFetchResult> failedExpired = repo
+				.findByCreatedDateLessThanAndFailedTrue(Instant.now().minus(Duration.ofDays(1)));
+		repo.deleteAllInBatch(failedExpired);
+		log.info("purged " + failedExpired.size() + " failed results");
 	}
 
 }

@@ -40,10 +40,11 @@ public class MarketFetchService {
 
 	private ForkJoinPool highParrallelPool = new ForkJoinPool(Runtime.getRuntime().availableProcessors() * 10);
 
-	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 5000)
+	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 5 * 1000)
 	public void fetchMarkets() {
 		List<MarketFetchResult> last_fetch = resultService.findLastResults();
 		Map<Integer, String> existingEtags = last_fetch.stream()
+				.filter(mfr -> mfr.getEtag() != null)
 				.collect(Collectors.toMap(MarketFetchResult::getRegionId, MarketFetchResult::getEtag));
 		List<Integer> requiredRegionIds = observedService.observedRegions();
 		for (int regionId : requiredRegionIds) {
@@ -143,10 +144,10 @@ public class MarketFetchService {
 						: " nextPages:" + (allPagesTime - firstPageTime) + " save:" + (endSave - allPagesTime)));
 	}
 
-	@Scheduled(fixedRate = 6 * 60 * 1000, initialDelay = 60 * 1000)
+	@Scheduled(fixedRate = 6 * 60 * 1000, initialDelay = 30 * 1000)
 	public void analyzeResults() {
-		log.info("analyzing results");
 		List<MarketFetchResult> toAnalyze = resultService.findAnalyzable();
+		log.info("analyzing " + toAnalyze.size() + " results");
 		for (MarketFetchResult r : toAnalyze) {
 			resultService.analyze(r);
 		}
