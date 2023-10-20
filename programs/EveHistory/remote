@@ -1,0 +1,8 @@
+# save connection to remote tomcat
+# default is docker local connexion.
+# this file should not be commited to git , as it is supposed to hold personal data.
+
+export RMT_TOMCAT_PORT=48080
+export RMT_TOMCAT_URL=localhost
+export RMT_TOMCAT_USR=admin
+export RMT_TOMCAT_PWD=admin

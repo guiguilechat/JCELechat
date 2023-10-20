@@ -1,0 +1,7 @@
+#!/bin/bash
+# deploy to the tomcat specified in the remote fold.
+
+source remote
+
+mvn clean install\
+&& curl -X PUT --upload-file target/EveHistory.war --basic -u $RMT_TOMCAT_USR:$RMT_TOMCAT_PWD "http://$RMT_TOMCAT_URL:$RMT_TOMCAT_PORT/manager/text/deploy?path=/EveHistory&update=true"
