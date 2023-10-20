@@ -28,21 +28,32 @@ public class MarketObservedRegionService {
 		return repo.existsByRegionId(regionId);
 	}
 
-	public boolean observeRegion(int regionId) {
-		Region region = Region.loadById().get(regionId);
+	public boolean observeRegion(Region region) {
 		if (region == null) {
 			return false;
 		}
-		if (!existsByRegionId(regionId)) {
-			save(MarketObservedRegion.builder().regionId(regionId).build());
+		if (!existsByRegionId(region.id)) {
+			save(MarketObservedRegion.builder().regionId(region.id).build());
 		}
 		return true;
+	}
+
+	public boolean observeRegion(int regionId) {
+		return observeRegion(Region.loadById().get(regionId));
 	}
 
 	public void observeRegions(int... regionIds) {
 		if (regionIds != null) {
 			for (int regionId : regionIds) {
 				observeRegion(regionId);
+			}
+		}
+	}
+
+	public void observeRegions(Iterable<Region> regions) {
+		if (regions != null) {
+			for (Region region : regions) {
+				observeRegion(region);
 			}
 		}
 	}

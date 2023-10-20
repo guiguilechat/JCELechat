@@ -24,8 +24,7 @@ order by mfr.id asc
 
 	/**
 	 * list the fetch results that can be analyzed : are successful, not analyzed,
-	 * and there exists
-	 * a later successful fetch for the same region
+	 * and there exists a later successful fetch for the same region
 	 */
 	@Query("""
 select mfr, mfr2

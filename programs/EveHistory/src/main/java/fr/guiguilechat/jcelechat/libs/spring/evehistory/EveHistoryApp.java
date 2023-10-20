@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.MarketObservedRegionService;
+import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import lombok.extern.slf4j.Slf4j;
 
 @SpringBootApplication
@@ -31,16 +32,21 @@ public class EveHistoryApp extends SpringBootServletInitializer {
 	public CommandLineRunner initDB(MarketObservedRegionService mors) {
 		return args -> {
 			if (addData) {
-				mors.observeRegions(
-						10000002, // The Forge
-						10000030, // Heimatar
-						10000032, // Sinq Laison
-						10000042, // Metropolis
-						10000043, // Domain
-						10000060// Delve
-						);
-				log.info("startup added regions : " + mors.observedRegions());
+				if (mors.observedRegions().isEmpty()) {
+					for (Region r : Region.load().values().stream().filter(r -> r.isKS).toList()) {
+						mors.observeRegion(r);
+					}
+// mors.observeRegions(
+// 10000002, // The Forge
+// 10000030, // Heimatar
+// 10000032, // Sinq Laison
+// 10000042, // Metropolis
+// 10000043, // Domain
+// 10000060// Delve
+// );
+				}
 			}
+			log.info("after startup, observed regions : " + mors.observedRegions());
 		};
 	}
 }

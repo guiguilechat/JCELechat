@@ -12,6 +12,10 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetch
 
 public interface MarketFetchLineRepository extends JpaRepository<MarketFetchLine, Long> {
 
+	/**
+	 * list the lines belonging to a fetchresult as well as their previous and next
+	 * line, for same order, by id.
+	 */
 	@Query("""
 select line0, line1, line2
 from MarketFetchLine line1

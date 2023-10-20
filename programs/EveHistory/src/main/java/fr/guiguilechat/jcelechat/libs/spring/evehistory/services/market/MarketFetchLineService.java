@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
+import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -57,6 +58,7 @@ public class MarketFetchLineService {
 		List<MarketFetchLine> deleted = new ArrayList<>();
 		Map<MarketFetchLine, MarketFetchLine> result2Previous = new HashMap<>();
 		List<Object[]> changes = repo.listOrderChanges(result);
+		long fetched = System.currentTimeMillis();
 		int created = 0;
 		int last = 0;
 		int changed = 0;
@@ -87,6 +89,16 @@ public class MarketFetchLineService {
 				line.setRemoval(true);
 				line.setRemovalTo(follow.getLastModified());
 				line.setRemovalFrom(result.getLastModified());
+				Instant eol = line.getIssuedDate().plus(Duration.ofDays(line.getOrder().duration));
+				// use !isBefore to accept equality . Same for !isAfter
+				if (!eol.isBefore(line.getRemovalFrom()) && !eol.isAfter(line.getRemovalTo())) {
+					line.setEol(true);
+					line.setRemovalDate(eol);
+				} else {
+					line.setEol(false);
+					line.setRemovalDate(
+							Instant.ofEpochMilli((line.getRemovalFrom().toEpochMilli() + line.getRemovalTo().toEpochMilli()) / 2));
+				}
 				last++;
 			}
 			if (line.isRemoval() || line.isCreation() || line.isPriceChg() || line.getSold() > 0) {
@@ -103,12 +115,14 @@ public class MarketFetchLineService {
 			}
 			line.setPreviousLine(previous);
 		}
+		long analyzed = System.currentTimeMillis();
 		saveAll(updated);
 		repo.deleteAll(deleted);
 		long end = System.currentTimeMillis();
 		log.info(
 				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " in " + (end - start)
-				+ "ms : created:" + created + " changed:" + changed + " last:" + last + " delete:" + deleted.size());
+				+ "ms (fetch=" + (fetched - start) + " analyze=" + (analyzed - fetched) + " save=" + (end - analyzed)
+				+ ") : created:" + created + " changed:" + changed + " last:" + last + " delete:" + deleted.size());
 	}
 
 	/**

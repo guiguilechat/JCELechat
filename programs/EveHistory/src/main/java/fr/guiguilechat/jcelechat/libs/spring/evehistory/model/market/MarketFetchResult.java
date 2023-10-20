@@ -22,8 +22,10 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Table(indexes = {
+		@Index(columnList = "analyzed"),
 		@Index(columnList = "failed"),
-		@Index(columnList = "analyzed")
+		@Index(columnList = "lastModified"),
+		@Index(columnList = "regionId")
 })
 public class MarketFetchResult {
 
@@ -72,6 +74,14 @@ public class MarketFetchResult {
 	private Integer linesFetched;
 
 	/**
+	 * instant retrieved from the first page, if any
+	 */
+	private Instant lastModified;
+
+	//
+	// analized fields
+
+	/**
 	 * set to true when the data fetched have been analyzed.
 	 */
 	@Builder.Default
@@ -81,10 +91,5 @@ public class MarketFetchResult {
 	 * number of lines associated with that result after analyzis
 	 */
 	private Integer linesUpdated;
-
-	/**
-	 * instant retrieved from the first page, if any
-	 */
-	private Instant lastModified;
 
 }

@@ -5,6 +5,7 @@ import java.time.Instant;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -24,7 +25,12 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 @Table(indexes = {
 		@Index(columnList = "fetch_Result_Id"),
-		@Index(columnList = "order_id")
+		@Index(columnList = "order_id"),
+		@Index(columnList = "previous_line_id"),
+		@Index(columnList = "removalFrom"),
+		@Index(columnList = "removalTo"),
+		@Index(columnList = "soldFrom"),
+		@Index(columnList = "soldTo")
 })
 public class MarketFetchLine {
 
@@ -52,14 +58,15 @@ public class MarketFetchLine {
 	/**
 	 * set to the previous market line for the same order, if not created
 	 */
-	@OneToOne
+	@OneToOne(fetch = FetchType.LAZY)
 	private MarketFetchLine previousLine;
 
-	/**
-	 * set to the next market line for the same order, if not last
-	 */
-	@OneToOne(mappedBy = "previousLine")
-	private MarketFetchLine nextLine;
+//	/**
+//	 * dual of {@link #previousLine}
+//	 */
+//	@Setter(AccessLevel.NONE)
+//	@OneToOne(mappedBy = "previousLine", fetch = FetchType.LAZY)
+//	private MarketFetchLine nextLine;
 
 	/**
 	 * set to true when there is no previous record for that order id
@@ -93,9 +100,22 @@ public class MarketFetchLine {
 	private Instant removalFrom;
 
 	/**
-	 * quantity exchanged from this order. if this order is created on the fetch, it
+	 * true if the order's EOL was within removalFrom and removalTo
+	 */
+	@Builder.Default
+	private boolean eol = false;
+
+	/**
+	 * estimate of the removal of this order. If {@link #eol} then we use the
+	 * order's EOL. Otherwise avg({@link #removalFrom}, {@link #removalTo})
+	 */
+	private Instant removalDate;
+
+	/**
+	 * quantity exchanged from this order. if this order is created on the fetch,
+	 * this quantity
 	 * is equal to the difference between the order volume remain and total.
-	 * Otherwise it is equal to the reduction in order volume compared to
+	 * Otherwise it is equal to the reduction in order volume compared to this'
 	 * {@link #previousLine}.
 	 */
 	@Builder.Default
