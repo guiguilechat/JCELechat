@@ -39,24 +39,33 @@ public class MarketFetchLine {
 	private MarketFetchResult fetchResult;
 
 	/**
-	 * set to true when there is no previous record for that order id (analyzed
-	 * value)
+	 * conversion of the order's issued string to an instant.
 	 */
-	@Builder.Default
-	private boolean created = false;
+	private Instant issuedDate;
+
+	//
+	// analyzed values
+	//
+
+
 
 	/**
-	 * set to true when the order does not appear in the next market fetch (analyzed
-	 * value)
+	 * set to the previous market line for the same order, if not created
 	 */
-	@Builder.Default
-	private boolean last = false;
+	@OneToOne
+	private MarketFetchLine previousLine;
 
 	/**
-	 * set to true when the remaining volume has been updated since last update
+	 * set to the next market line for the same order, if not last
+	 */
+	@OneToOne(mappedBy = "previousLine")
+	private MarketFetchLine nextLine;
+
+	/**
+	 * set to true when there is no previous record for that order id
 	 */
 	@Builder.Default
-	private boolean volumeChg = false;
+	private boolean creation = false;
 
 	/**
 	 * set to true when the price has been updated since last update
@@ -65,14 +74,41 @@ public class MarketFetchLine {
 	private boolean priceChg = false;
 
 	/**
-	 * set to the previous market line (analyzed value)
+	 * set to true when the order does not appear in the next market fetch
 	 */
-	@OneToOne
-	private MarketFetchLine previous;
+	@Builder.Default
+	private boolean removal = false;
 
 	/**
-	 * conversion of the order's issued string to an instant.
+	 * date before which the order was removed, if removed. It is the last-modified
+	 * of the first
+	 * fetch result that did not contain that order.
 	 */
-	private Instant issuedDate;
+	private Instant removalTo;
+
+	/**
+	 * date after which the order was removed, if removed. It is the last-modified
+	 * of that order's fetch result.
+	 */
+	private Instant removalFrom;
+
+	/**
+	 * quantity exchanged from this order. if this order is created on the fetch, it
+	 * is equal to the difference between the order volume remain and total.
+	 * Otherwise it is equal to the reduction in order volume compared to
+	 * {@link #previousLine}.
+	 */
+	@Builder.Default
+	private int sold = 0;
+
+	/**
+	 * date after which the sales associated to that order were performed.
+	 */
+	private Instant soldFrom;
+
+	/**
+	 * date before which the sales associated to that order were performed.
+	 */
+	private Instant soldTo;
 
 }

@@ -37,8 +37,12 @@ public class MarketFetchResultService {
 		return ret;
 	}
 
-	public List<MarketFetchResult> findAnalyzable() {
-		return repo.findAnalyzable();
+	record TwoFetchResults(MarketFetchResult first, MarketFetchResult second) {
+	};
+
+	public List<TwoFetchResults> findAnalyzable() {
+		return repo.findAnalyzable().stream()
+				.map(arr -> new TwoFetchResults((MarketFetchResult) arr[0], (MarketFetchResult) arr[1])).toList();
 	}
 
 	/**
@@ -50,8 +54,8 @@ public class MarketFetchResultService {
 	 *
 	 */
 	@Transactional(propagation = Propagation.NESTED, isolation = Isolation.SERIALIZABLE)
-	public void analyze(MarketFetchResult result) {
-		lineService.analyzeLines(result);
+	public void analyze(MarketFetchResult result, MarketFetchResult follow) {
+		lineService.analyzeLines(result, follow);
 		result.setLinesUpdated(lineService.countOrders(result));
 		result.setAnalyzed(true);
 		repo.save(result);

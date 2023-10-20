@@ -25,6 +25,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.MarketFetchResultService.TwoFetchResults;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import lombok.extern.slf4j.Slf4j;
 
@@ -157,10 +158,10 @@ public class MarketFetchService {
 
 	@Scheduled(fixedRate = 6 * 60 * 1000, initialDelay = 30 * 1000)
 	public void analyzeResults() {
-		List<MarketFetchResult> toAnalyze = resultService.findAnalyzable();
+		List<TwoFetchResults> toAnalyze = resultService.findAnalyzable();
 		log.info("analyzing " + toAnalyze.size() + " results");
-		for (MarketFetchResult r : toAnalyze) {
-			resultService.analyze(r);
+		for (TwoFetchResults r : toAnalyze) {
+			resultService.analyze(r.first(), r.second());
 		}
 	}
 

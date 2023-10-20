@@ -51,23 +51,45 @@ public class MarketFetchLineService {
 	 * Then the lines that meet none of those criterias are deleted, while those
 	 * which do are udpated.
 	 */
-	public void analyzeLines(MarketFetchResult result) {
+	public void analyzeLines(MarketFetchResult result, MarketFetchResult follow) {
+		long start = System.currentTimeMillis();
 		List<MarketFetchLine> updated = new ArrayList<>();
 		List<MarketFetchLine> deleted = new ArrayList<>();
 		Map<MarketFetchLine, MarketFetchLine> result2Previous = new HashMap<>();
 		List<Object[]> changes = repo.listOrderChanges(result);
+		int created = 0;
+		int last = 0;
+		int changed = 0;
 		for (Object[] o : changes) {
 			MarketFetchLine before = (MarketFetchLine) o[0],
 					line = (MarketFetchLine) o[1],
 					after = (MarketFetchLine) o[2];
-			line.setCreated(before == null);
+
+			line.setSoldTo(result.getLastModified());
 			if (before != null) {
 				result2Previous.put(line, before);
 				line.setPriceChg(before.getOrder().price != line.getOrder().price);
-				line.setVolumeChg(before.getOrder().volume_remain != line.getOrder().volume_remain);
+				int sold = before.getOrder().volume_remain - line.getOrder().volume_remain;
+				line.setSold(sold);
+				line.setSoldFrom(before.getSoldTo().isAfter(line.getIssuedDate())
+						? before.getSoldTo()
+								: line.getIssuedDate());
+				if (sold > 0 || line.isPriceChg()) {
+					changed++;
+				}
+			} else {
+				line.setCreation(true);
+				line.setSold(line.getOrder().volume_total - line.getOrder().volume_remain);
+				line.setSoldFrom(line.getIssuedDate());
+				created++;
 			}
-			line.setLast(after == null);
-			if (line.isLast() || line.isCreated() || line.isPriceChg() || line.isVolumeChg()) {
+			if (after == null) {
+				line.setRemoval(true);
+				line.setRemovalTo(follow.getLastModified());
+				line.setRemovalFrom(result.getLastModified());
+				last++;
+			}
+			if (line.isRemoval() || line.isCreation() || line.isPriceChg() || line.getSold() > 0) {
 				updated.add(line);
 			} else {
 				deleted.add(line);
@@ -79,13 +101,14 @@ public class MarketFetchLineService {
 			while (previous != null && deleted.contains(previous)) {
 				previous = result2Previous.get(previous);
 			}
-			line.setPrevious(previous);
+			line.setPreviousLine(previous);
 		}
 		saveAll(updated);
 		repo.deleteAll(deleted);
+		long end = System.currentTimeMillis();
 		log.info(
-				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " orders : keep:"
-						+ updated.size() + " delete:" + deleted.size());
+				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " in " + (end - start)
+				+ "ms : created:" + created + " changed:" + changed + " last:" + last + " delete:" + deleted.size());
 	}
 
 	/**
