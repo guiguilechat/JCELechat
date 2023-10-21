@@ -77,7 +77,10 @@ sudo adduser $USER adm
 
 #### deploy the war
 
-first set your ssh connexion , replace its name in the *remote* file.
+first set your ssh connexion, replace its name in the *remote* file. If you have already set a host in your ~/.ssh/config then use that host name ; otherwise enter your user@url (like admin@127.0.0.1 )
+
+I strongly advice to export your public key with eg `source remote; ssh-copy-id $RMT_SSH` . This will prevent to enter your password everytime.
+
 Then run `sh/deployrmt`
 
 #### monitor the remote logs

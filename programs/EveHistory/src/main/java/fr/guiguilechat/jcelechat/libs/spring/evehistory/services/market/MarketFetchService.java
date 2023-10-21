@@ -13,11 +13,10 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
@@ -25,7 +24,6 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.MarketFetchResultService.TwoFetchResults;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import lombok.extern.slf4j.Slf4j;
 
@@ -46,23 +44,9 @@ public class MarketFetchService {
 	@Autowired
 	private MarketFetchLineService lineService;
 
-	@Autowired
-	private MarketObservedRegionService observedService;
-
 	private ForkJoinPool highParrallelPool = new ForkJoinPool(Runtime.getRuntime().availableProcessors() * 10);
 
-	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 5 * 1000)
-	public void fetchMarkets() {
-		List<MarketFetchResult> last_fetch = resultService.findLastResults();
-		Map<Integer, String> existingEtags = last_fetch.stream()
-				.filter(mfr -> mfr.getEtag() != null)
-				.collect(Collectors.toMap(MarketFetchResult::getRegionId, MarketFetchResult::getEtag));
-		List<Integer> requiredRegionIds = observedService.observedRegions();
-		for (int regionId : requiredRegionIds) {
-			fetchMarket(regionId, existingEtags.get(regionId));
-		}
-	}
-
+	@Async
 	public void fetchMarket(int regionId, String lastEtag) {
 		long start = System.currentTimeMillis();
 		boolean failed = false;
@@ -154,15 +138,6 @@ public class MarketFetchService {
 				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " times(ms)= total:"
 				+ (endSave - start) + " firstPage:" + (firstPageTime - start) + (allPagesTime == null ? ""
 						: " nextPages:" + (allPagesTime - firstPageTime) + " save:" + (endSave - allPagesTime)));
-	}
-
-	@Scheduled(fixedRate = 6 * 60 * 1000, initialDelay = 30 * 1000)
-	public void analyzeResults() {
-		List<TwoFetchResults> toAnalyze = resultService.findAnalyzable();
-		log.info("analyzing " + toAnalyze.size() + " results");
-		for (TwoFetchResults r : toAnalyze) {
-			resultService.analyze(r.first(), r.second());
-		}
 	}
 
 }

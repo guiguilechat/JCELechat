@@ -2,3 +2,5 @@
 # the ssh name should exist in your ~/.ssh/config, and that server should already have your ssh public key.
 
 export RMT_SSH=myremotessh
+# or if you did not setup a host in ~/.ssh/config :
+# export RMT_SSH=user@server
