@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.IntStream;
@@ -47,7 +48,7 @@ public class MarketFetchService {
 	private ForkJoinPool highParrallelPool = new ForkJoinPool(Runtime.getRuntime().availableProcessors() * 10);
 
 	@Async
-	public void fetchMarket(int regionId, String lastEtag) {
+	public CompletableFuture<Void> fetchMarket(int regionId, String lastEtag) {
 		long start = System.currentTimeMillis();
 		boolean failed = false;
 		boolean noChange = false;
@@ -138,6 +139,7 @@ public class MarketFetchService {
 				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " times(ms)= total:"
 				+ (endSave - start) + " firstPage:" + (firstPageTime - start) + (allPagesTime == null ? ""
 						: " nextPages:" + (allPagesTime - firstPageTime) + " save:" + (endSave - allPagesTime)));
+		return CompletableFuture.completedFuture(null);
 	}
 
 }

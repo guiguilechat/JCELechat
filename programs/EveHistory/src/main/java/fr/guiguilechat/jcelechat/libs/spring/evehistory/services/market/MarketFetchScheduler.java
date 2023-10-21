@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,9 +37,10 @@ public class MarketFetchScheduler {
 				.filter(mfr -> mfr.getEtag() != null)
 				.collect(Collectors.toMap(MarketFetchResult::getRegionId, MarketFetchResult::getEtag));
 		List<Integer> requiredRegionIds = observedService.observedRegions();
-		for (int regionId : requiredRegionIds) {
-			fetchService.fetchMarket(regionId, existingEtags.get(regionId));
-		}
+
+		List<CompletableFuture<Void>> futures = requiredRegionIds.stream()
+				.map(regionId -> fetchService.fetchMarket(regionId, existingEtags.get(regionId))).toList();
+		futures.stream().forEach(CompletableFuture::join);
 	}
 
 	@Scheduled(fixedRate = 6 * 60 * 1000, initialDelay = 30 * 1000)
