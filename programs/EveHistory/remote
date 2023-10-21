@@ -1,8 +1,4 @@
 # save connection to remote tomcat
-# default is docker local connexion.
-# this file should not be commited to git , as it is supposed to hold personal data.
+# the ssh name should exist in your ~/.ssh/config, and that server should already have your ssh public key.
 
-export RMT_TOMCAT_PORT=48080
-export RMT_TOMCAT_URL=localhost
-export RMT_TOMCAT_USR=admin
-export RMT_TOMCAT_PWD=admin
+export RMT_SSH=myremotessh
