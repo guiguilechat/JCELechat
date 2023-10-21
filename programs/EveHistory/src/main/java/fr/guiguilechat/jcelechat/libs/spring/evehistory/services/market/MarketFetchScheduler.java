@@ -45,8 +45,30 @@ public class MarketFetchScheduler {
 	public void analyzeResults() {
 		List<TwoFetchResults> toAnalyze = resultService.findAnalyzable();
 		log.info("analyzing " + toAnalyze.size() + " results");
+		// we can't analyze several fetch of same region at the same time. So we make
+		// several pass, with each pass having at most one result to analyze per region
+// List<Map<Integer, TwoFetchResults>> analysePasses = new ArrayList<>();
+// for (TwoFetchResults toAdd : toAnalyze) {
+// for (Map<Integer, TwoFetchResults> m : analysePasses) {
+// if (m.putIfAbsent(toAdd.first().getRegionId(), toAdd) == null) {
+// toAdd = null;
+// break;
+// }
+// }
+// if (toAdd != null) {
+// HashMap<Integer, TwoFetchResults> m = new HashMap<>();
+// m.put(toAdd.first().getRegionId(), toAdd);
+// analysePasses.add(m);
+// }
+// }
+// for (Map<Integer, TwoFetchResults> pass : analysePasses) {
+// List<CompletableFuture<Void>> awaiting = pass.values().stream()
+// .map(tfr -> resultService.analyze(tfr.first(), tfr.second())).toList();
+// awaiting.stream().forEach(CompletableFuture::join);
+// }
+
 		for (TwoFetchResults r : toAnalyze) {
-			resultService.analyze(r.first(), r.second());
+			resultService.analyze(r.first(), r.second()).join();
 		}
 	}
 }

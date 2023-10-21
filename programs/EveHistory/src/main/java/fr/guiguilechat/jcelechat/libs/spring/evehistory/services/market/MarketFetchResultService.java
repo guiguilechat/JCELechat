@@ -3,8 +3,10 @@ package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
@@ -53,30 +55,33 @@ public class MarketFetchResultService {
 	 * of retained orders.
 	 *
 	 */
+	@Async
 	@Transactional(propagation = Propagation.NESTED, isolation = Isolation.SERIALIZABLE)
-	public void analyze(MarketFetchResult result, MarketFetchResult follow) {
+	public CompletableFuture<Void> analyze(MarketFetchResult result, MarketFetchResult follow) {
 		lineService.analyzeLines(result, follow);
 		result.setLinesUpdated(lineService.countOrders(result));
 		result.setAnalyzed(true);
 		repo.save(result);
+		return CompletableFuture.completedFuture(null);
 	}
 
 	@Scheduled(fixedRate = 10 * 60 * 1000, initialDelay = 1 * 60 * 1000)
 	public void purgeOldEntries() {
-		// keep failed at least one day, cached at least one hour
+		// keep cached at least 1d
 		List<MarketFetchResult> cachedExpired = repo
-				.findByCreatedDateLessThanAndCachedTrue(Instant.now().minus(Duration.ofHours(1)));
+				.findByCreatedDateLessThanAndCachedTrue(Instant.now().minus(Duration.ofDays(1)));
 		repo.deleteAllInBatch(cachedExpired);
 		log.info("purged " + cachedExpired.size() + " cached results");
 
+		// keep failed at least 7d
 		List<MarketFetchResult> failedExpired = repo
-				.findByCreatedDateLessThanAndFailedTrue(Instant.now().minus(Duration.ofDays(1)));
+				.findByCreatedDateLessThanAndFailedTrue(Instant.now().minus(Duration.ofDays(7)));
 		repo.deleteAllInBatch(failedExpired);
 		log.info("purged " + failedExpired.size() + " failed results");
-		List<MarketFetchResult> removeEtag = repo
-				.findByCreatedDateLessThanAndEtagNotNull(Instant.now().minus(Duration.ofHours(1)));
 
-		// keep etags at least one hour
+		// keep etags at least 6 hour
+		List<MarketFetchResult> removeEtag = repo
+				.findByCreatedDateLessThanAndEtagNotNull(Instant.now().minus(Duration.ofHours(6)));
 		for (MarketFetchResult r : removeEtag) {
 			r.setEtag(null);
 		}
