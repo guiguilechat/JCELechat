@@ -55,6 +55,10 @@ public class MarketFetchLine {
 	// analyzed values
 	//
 
+	@Builder.Default
+	/** set to true when the line has either duration = 0 or volume_remain=0 */
+	private boolean invalid = false;
+
 	/**
 	 * set to the previous market line for the same order, if not created
 	 */

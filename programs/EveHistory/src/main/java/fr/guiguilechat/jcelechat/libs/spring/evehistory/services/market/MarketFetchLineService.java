@@ -23,24 +23,27 @@ public class MarketFetchLineService {
 	@Autowired
 	private MarketFetchLineRepository repo;
 
-	public void updateIssueDate(MarketFetchLine line) {
+	public void updatevalues(MarketFetchLine line) {
 		if (line.getIssuedDate() == null) {
 			if (line.getOrder().issued != null) {
 				line.setIssuedDate(ESITools.convertDate(line.getOrder().issued).toInstant());
 			}
-// line.getOrder().issued = null;
+			line.getOrder().issued = null;
+		}
+		if (line.getOrder().volume_remain == 0 || line.getOrder().duration == 0) {
+			line.setInvalid(true);
 		}
 	}
 
 	public void saveAll(List<MarketFetchLine> list) {
 		for (MarketFetchLine mfl : list) {
-			updateIssueDate(mfl);
+			updatevalues(mfl);
 		}
 		repo.saveAll(list);
 	}
 
 	public void save(MarketFetchLine line) {
-		updateIssueDate(line);
+		updatevalues(line);
 		repo.save(line);
 	}
 
@@ -140,11 +143,18 @@ public class MarketFetchLineService {
 		return ret;
 	}
 
-	record AggregatedPrice(Instant sale_day, Number bo_qtty, double bo_totvalue, Double bo_avgprice, Number so_qtty,
-			double so_totvalue, Double so_avgprice) {
+	record AggregatedPrice(Instant sale_day,
+			Number bo_saleVol, double bo_saleTotValue, Double bo_saleAvgPrice,
+			Number so_saleVol, double so_saleTotValue, Double so_saleAvgPrice,
+			Number bo_createdNb, Number bo_createdVol, Number so_createdNb, Number so_createdVol,
+			Number bo_endedVol, Number bo_endedAvgPrice, Number so_endedVol, Number so_endedAvgPrice) {
 		public AggregatedPrice(Object[] line) {
-			this((Instant) line[0], (Number) line[1], (double) line[2], (Double) line[3], (Number) line[4], (double) line[5],
-					(Double) line[6]);
+			this((Instant) line[0],
+					(Number) line[1], (double) line[2], (Double) line[3],
+					(Number) line[4], (double) line[5], (Double) line[6],
+					(Number) line[7], (Number) line[8], (Number) line[9], (Number) line[10],
+					(Number) line[11], (Number) line[12], (Number) line[13], (Number) line[14]
+			);
 		}
 	}
 

@@ -26,6 +26,13 @@ maybe you need to reconnect ssh to get granted the groups.
 
 #### postgres
 
+optional : open access from outside (may not work)
+
+```bash
+sed -i "s/#listen_addresses = 'localhost'/listen_addresses = '*'/" /etc/postgresql/15/main/postgresql.conf
+sed -i 's$host    all             all             127.0.0.1/32$host    all             all             0.0.0.0/0$' /etc/postgresql/15/main/pg_hba.conf
+```
+
 allow write from group postgres on /etc/postgresql and add a connexion rule, then restart postgresql
 
 ```bash
