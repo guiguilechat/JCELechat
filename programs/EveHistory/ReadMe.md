@@ -14,8 +14,25 @@ This will install java with a recent enough version, postgresql and tomcat
 
 ### Configure
 
+add yourself to groups.
+
+```bash
+sudo adduser $USER postgres # modification of postgres config
+sudo adduser $USER tomcat # modification of postgres config
+sudo adduser $USER adm # visualize logs
+```
+
+maybe you need to reconnect ssh to get granted the groups.
 
 #### postgres
+
+allow write from group postgres on /etc/postgresql and add a connexion rule, then restart postgresql
+
+```bash
+sudo chmod -R g+w /etc/postgresql/
+sed -i '/local.*all.*postgres.*peer/a local   evehistory      evehistory                              scram-sha-256' /etc/postgresql/15/main/pg_hba.conf
+sudo service postgresql restart
+```
 
 create a new random password, user & db
 
@@ -26,27 +43,29 @@ sudo -u postgres psql -c "create database evehistory with owner 'evehistory' enc
 sudo -u postgres psql -c "grant all privileges on database evehistory to evehistory;"
 ```
 
-add a connexion rule 
+
+Try to connect
 
 ```bash
-sed -i '/local.*all.*postgres.*peer/a local   evehistory      evehistory                              scram-sha-256' /etc/postgresql/15/main/pg_hba.conf
-```
-
-restart postgres and try to connect
-
-```bash
-sudo service postgresql restart
 PGPASSWORD=$PGPASSWORD  psql -U evehistory -d evehistory
 ```
 
-This should give you a psql command as evehistory
+This should give you a psql command as evehistory.
+
+If you failed or have to reconnect, you can delete the user and start again from its creation with
+
+```bash
+sudo -u postgres psql -c "drop database evehistory"
+sudo -u postgres psql -c "drop user evehistory"
+```
 
 #### Add a config in tomcat
+
 
 This will make tomcat load a specific properties for the app
 
 ``` bash
-sudo cat > /etc/tomcat10/Catalina/localhost/EveHistory.xml <<- EOF
+sudo tee /etc/tomcat10/Catalina/localhost/EveHistory.xml <<- EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
     <Environment name="spring.config.location" value="file:/var/EveHistory/" type="java.lang.String"/>
@@ -54,9 +73,9 @@ sudo cat > /etc/tomcat10/Catalina/localhost/EveHistory.xml <<- EOF
 EOF
 
 sudo chgrp tomcat /etc/tomcat10/Catalina/localhost/EveHistory.xml
-sudo mkdir /var/EveHistory
+sudo mkdir -p /var/EveHistory
 
-sudo cat > /var/EveHistory/application.properties << EOF
+sudo tee /var/EveHistory/application.properties << EOF
 spring.datasource.password=$PGPASSWORD
 spring.datasource.url=jdbc:postgresql://localhost:5432/evehistory
 spring.datasource.username=evehistory
@@ -66,12 +85,6 @@ EOF
 sudo chgrp -R tomcat /var/EveHistory
 ```
 
-Add yourself to group tomcat (to allow scp ) and adm (to allow logs vizualisation)
-
-```
-sudo adduser $USER tomcat
-sudo adduser $USER adm
-```
 
 ### deploying, monitoring, access
 

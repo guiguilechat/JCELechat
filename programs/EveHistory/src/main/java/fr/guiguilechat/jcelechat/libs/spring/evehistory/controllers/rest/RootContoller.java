@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evehistory.controllers.rest.market;
+package fr.guiguilechat.jcelechat.libs.spring.evehistory.controllers.rest;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
