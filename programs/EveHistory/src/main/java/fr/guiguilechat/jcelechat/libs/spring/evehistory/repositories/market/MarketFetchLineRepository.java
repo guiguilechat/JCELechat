@@ -51,11 +51,66 @@ date_trunc('hour', line.issued_date)
 select line
 from MarketFetchLine line
 where line.issuedDate>:fromDate
-and line.issuedDate<:toDate
-and line.order.type_id=:typeId
-and line.fetchResult.regionId=:regionId
-and line.priceChg=true
+	and line.issuedDate<:toDate
+	and line.order.type_id=:typeId
+	and line.fetchResult.regionId=:regionId
+	and line.priceChg=true
+order by
+	line.issuedDate asc
 """)
 	List<MarketFetchLine> listPriceChanges(int regionId, int typeId, Instant fromDate, Instant toDate);
+
+	@Query(nativeQuery = true, value = """
+select
+	coalesce(sales.sale_day,created.created_day ) date_day,
+	sales.bo_qtty,
+	sales.bo_totvalue,
+	case when sales.bo_qtty>0 then sales.bo_totvalue/sales.bo_qtty else null end bo_avgprice,
+	sales.so_qtty,
+	sales.so_totvalue,
+	case when sales.so_qtty>0 then sales.so_totvalue/sales.so_qtty else null end so_avgprice,
+	created.created_bo,
+	created.created_volbo,
+	created.created_so,
+	created.created_volso
+from
+	( 	select
+	 		date_trunc('day',l.sold_to) sale_day,
+			sum(case when l.is_buy_order then l.sold else 0 end) bo_qtty,
+			sum(case when l.is_buy_order then l.price else 0 end * l.sold) bo_totvalue,
+			sum(case when l.is_buy_order then 0 else l.sold end) so_qtty,
+			sum(case when l.is_buy_order then 0 else l.price end * l.sold) so_totvalue
+		from
+			market_fetch_line l join market_fetch_result r on l.fetch_result_id=r.id
+		where
+			l.type_id=:typeId
+			and r.region_id=:regionId
+			and l.sold_to<:toDate
+			and l.sold_to>=:fromDate
+			and l.price_chg=true
+		group by
+			date_trunc('day',l.sold_to)
+	) sales
+	full join ( select
+			date_trunc('day',l.issued_date) created_day,
+			sum(case when l.is_buy_order then 1 else 0 end) created_bo,
+			sum(case when l.is_buy_order then 0 else 1 end) created_so,
+			sum(case when l.is_buy_order then l.volume_total else 0 end) created_volbo,
+			sum(case when l.is_buy_order then 0 else l.volume_total end) created_volso
+		from
+			market_fetch_line l join market_fetch_result r on l.fetch_result_id=r.id
+		where
+			l.type_id=:typeId
+			and r.region_id=:regionId
+			and l.sold_to<:toDate
+			and l.sold_to>=:fromDate
+			and l.creation=true
+		group by
+			date_trunc('day',l.issued_date)
+	) created on sales.sale_day=created.created_day
+order by
+	coalesce(sales.sale_day,created.created_day ) asc
+""")
+	List<Object[]> listDailyOnTypeRegionFromTo(int regionId, int typeId, Instant fromDate, Instant toDate);
 
 }

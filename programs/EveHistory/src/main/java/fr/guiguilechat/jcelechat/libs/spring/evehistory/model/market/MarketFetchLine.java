@@ -49,11 +49,10 @@ public class MarketFetchLine {
 	 */
 	private Instant issuedDate;
 
+
 	//
 	// analyzed values
 	//
-
-
 
 	/**
 	 * set to the previous market line for the same order, if not created

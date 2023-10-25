@@ -15,10 +15,13 @@ import javafx.beans.property.Property;
  */
 public class MarketHelpers {
 
-	public static final DecimalFormat formatPriceToEve = new DecimalFormat("#.##",
+	public static final DecimalFormat PRICEFORMAT_TOEVE = new DecimalFormat("#.##",
 			DecimalFormatSymbols.getInstance(Locale.ENGLISH));
 
 	public static String formatPriceAbove(double price) {
+		if (Double.isInfinite(price)) {
+			return price<0?"-inf":"+inf";
+		}
 		// log base 10 of the max step
 		double stepDec = -2;
 		for (double price2 = price; price2 >= 100; price2 /= 10) {
@@ -29,7 +32,7 @@ public class MarketHelpers {
 		double res=significant * step;
 		// System.err.println("from=" + price + " stepdec=" + stepDec + " step=" +
 		// step + " significant=" + significant+" res="+res);
-		return formatPriceToEve.format(res);
+		return PRICEFORMAT_TOEVE.format(res);
 	}
 
 	/**

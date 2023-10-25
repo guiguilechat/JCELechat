@@ -133,7 +133,24 @@ public class MarketFetchLineService {
 	}
 
 	public List<MarketFetchLine> listUpdates(int regionId, int typeId, Instant from, Instant to) {
-		return repo.listPriceChanges(regionId, typeId, from, to);
+		List<MarketFetchLine> ret = repo.listPriceChanges(regionId, typeId, from, to);
+// log.info("fetching changes for type " + typeId + " region " + regionId + "
+// from " + from + " to " + to
+// + " : retrieved " + ret.size() + " items");
+		return ret;
+	}
+
+	record AggregatedPrice(Instant sale_day, Number bo_qtty, double bo_totvalue, Double bo_avgprice, Number so_qtty,
+			double so_totvalue, Double so_avgprice) {
+		public AggregatedPrice(Object[] line) {
+			this((Instant) line[0], (Number) line[1], (double) line[2], (Double) line[3], (Number) line[4], (double) line[5],
+					(Double) line[6]);
+		}
+	}
+
+	public List<AggregatedPrice> listDailyOnTypeRegionFromTo(int regionId, int typeId, Instant fromDate, Instant toDate) {
+		return repo.listDailyOnTypeRegionFromTo(regionId, typeId, fromDate, toDate).stream().map(AggregatedPrice::new)
+				.toList();
 	}
 
 }
