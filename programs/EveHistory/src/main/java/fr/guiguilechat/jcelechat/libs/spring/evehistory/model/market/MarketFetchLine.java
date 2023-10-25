@@ -35,7 +35,8 @@ import lombok.RequiredArgsConstructor;
 public class MarketFetchLine {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	// using sequence is supposed to be faster for insert batch
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 
 	@Embedded

@@ -80,9 +80,15 @@ spring.datasource.password=$PGPASSWORD
 spring.datasource.url=jdbc:postgresql://localhost:5432/evehistory
 spring.datasource.username=evehistory
 spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.properties.hibernate.generate_statistics=true
+spring.jpa.properties.hibernate.jdbc.batch_size=50
+spring.jpa.properties.hibernate.jdbc.fetch_size=50
+spring.jpa.properties.hibernate.order_inserts=true
 EOF
 
 sudo chgrp -R tomcat /var/EveHistory
+
+sudo service tomcat10 restart
 ```
 
 
