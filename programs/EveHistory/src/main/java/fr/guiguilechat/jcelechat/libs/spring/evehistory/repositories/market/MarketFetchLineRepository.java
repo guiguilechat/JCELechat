@@ -78,9 +78,9 @@ select
 	created.created_so,
 	created.created_volso,
 
-	ended.ended_volbo,
+	coalesce(ended.ended_volbo,0),
 	case when ended.ended_volbo>0 then ended.ended_bototvalue/ended.ended_volbo else null end ended_boavg,
-	ended.ended_volso,
+	coalesce(ended.ended_volso,0),
 	case when ended.ended_volso>0 then ended.ended_sototvalue/ended.ended_volso else null end ended_soavg
 from
 	( 	select
