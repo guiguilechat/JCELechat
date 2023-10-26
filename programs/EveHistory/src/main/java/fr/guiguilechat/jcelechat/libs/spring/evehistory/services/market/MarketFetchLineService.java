@@ -163,4 +163,14 @@ public class MarketFetchLineService {
 				.toList();
 	}
 
+	record RegionErrors(Number regionId, Number vol0, Number dur0, Number total) {
+		public RegionErrors(Object[] line) {
+			this((Number) line[0], (Number) line[1], (Number) line[2], (Number) line[3]);
+		}
+	}
+
+	public List<RegionErrors> lidstDailyLineErrorsGroupeByRegion() {
+		return repo.lidstDailyLineErrorsGroupeByRegion().stream().map(RegionErrors::new).toList();
+	}
+
 }

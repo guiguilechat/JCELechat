@@ -145,4 +145,21 @@ order by
 """)
 	List<Object[]> listDailyOnTypeRegionFromTo(int regionId, int typeId, Instant fromDate, Instant toDate);
 
+	@Query(nativeQuery = true, value = """
+select
+	res.region_id,
+	sum(case when line.volume_remain=0 then 1 else 0 end) nbVol0,
+	sum(case when line.duration=0 then 1 else 0 end) nbDur0,
+	count(line.id) total
+from
+	market_fetch_line line
+	join market_fetch_result res on line.fetch_result_id=res.id and res.last_modified>date_trunc('day', now())
+group by
+	res.region_id
+--having
+--	count(line.id) >100
+order by res.region_id
+""")
+	List<Object[]> lidstDailyLineErrorsGroupeByRegion();
+
 }

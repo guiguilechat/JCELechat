@@ -77,4 +77,12 @@ public class RestMarketFetchLine {
 		return ResponseEntity
 				.ok(service.listDailyOnTypeRegionFromTo(regionId, typeId, fromDate, toDate));
 	}
+
+	/**
+	 */
+	@GetMapping("/errors/daily")
+	public ResponseEntity<?> dailyErrors() {
+		return ResponseEntity
+				.ok(service.lidstDailyLineErrorsGroupeByRegion());
+	}
 }
