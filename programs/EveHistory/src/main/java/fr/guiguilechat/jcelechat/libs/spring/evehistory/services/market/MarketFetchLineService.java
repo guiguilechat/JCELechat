@@ -23,7 +23,16 @@ public class MarketFetchLineService {
 	@Autowired
 	private MarketFetchLineRepository repo;
 
-	public void updatevalues(MarketFetchLine line) {
+	@Autowired
+	private MarketOrderService orderService;
+
+	/**
+	 * update the values of a line that are computed from existing values, and clean
+	 * useless ones.
+	 *
+	 * @param line
+	 */
+	protected void updatevalues(MarketFetchLine line) {
 		if (line.getIssuedDate() == null) {
 			if (line.getOrder().issued != null) {
 				line.setIssuedDate(ESITools.convertDate(line.getOrder().issued).toInstant());
@@ -35,11 +44,11 @@ public class MarketFetchLineService {
 		}
 	}
 
-	public void saveAll(List<MarketFetchLine> list) {
+	public List<MarketFetchLine> saveAll(List<MarketFetchLine> list) {
 		for (MarketFetchLine mfl : list) {
 			updatevalues(mfl);
 		}
-		repo.saveAll(list);
+		return repo.saveAll(list);
 	}
 
 	public void save(MarketFetchLine line) {
@@ -59,19 +68,18 @@ public class MarketFetchLineService {
 		long start = System.currentTimeMillis();
 		int nbUpdated = repo.analyzePreviousLines(result.getId(), result.getLastModified());
 		long postUpdated = System.currentTimeMillis();
-		int nbCreated = repo.analyzeCreatedLines(result.getId(), result.getLastModified());
-		long postCreated = System.currentTimeMillis();
 		int nbRemoval = repo.analyzeRemovalLines(result.getId(), result.getLastModified(), follow.getId(),
 				follow.getLastModified());
 		long postRemoval = System.currentTimeMillis();
 		int nbDeleted = repo.removeNoEffectLines(result);
+		orderService.updateLastLine(result);
 		long end = System.currentTimeMillis();
 		log.info(
 				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " with orders= " + nbUpdated
-						+ "updated, " + nbCreated + "created, " + nbRemoval + "removal, " + nbDeleted + "deleted ; time= "
+						+ "updated, " + nbRemoval + "removal, " + nbDeleted + "deleted ; time= "
 						+ (end - start)
-						+ "ms : updated=" + (postUpdated - start) + " created=" + (postCreated - postUpdated) + " removal="
-						+ (postRemoval - postCreated) + " delete=" + (end - postRemoval));
+						+ "ms : updated=" + (postUpdated - start) + " removal="
+						+ (postRemoval - postUpdated) + " delete=" + (end - postRemoval));
 	}
 
 	public void analyzeLines_old(MarketFetchResult result, MarketFetchResult follow) {

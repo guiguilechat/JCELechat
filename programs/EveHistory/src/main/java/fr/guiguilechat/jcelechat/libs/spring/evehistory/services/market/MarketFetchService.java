@@ -39,11 +39,15 @@ public class MarketFetchService {
 		return ZonedDateTime.parse(formated, DateTimeFormatter.RFC_1123_DATE_TIME).toInstant();
 	}
 
-	@Autowired
-	private MarketFetchResultService resultService;
 
 	@Autowired
 	private MarketFetchLineService lineService;
+
+	@Autowired
+	private MarketOrderService orderService;
+
+	@Autowired
+	private MarketFetchResultService resultService;
 
 	private ForkJoinPool highParrallelPool = new ForkJoinPool(Runtime.getRuntime().availableProcessors() * 10);
 
@@ -133,6 +137,7 @@ public class MarketFetchService {
 							.fetchResult(fetchResult)
 							.build())
 					.toList());
+			orderService.createMissingOrders(fetchResult);
 		}
 		long endSave = System.currentTimeMillis();
 		log.info("region id=" + regionId + " result="

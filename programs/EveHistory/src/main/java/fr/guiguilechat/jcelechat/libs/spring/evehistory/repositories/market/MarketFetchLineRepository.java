@@ -201,39 +201,26 @@ order by
 update
 	market_fetch_line line
 set
+	creation=prev.id is null,
 	previous_line_id=prev.id,
-	price_chg=line.price<>prev.price,
-	sold=prev.volume_remain-line.volume_remain,
+	price_chg=prev.id is not null and line.price<>prev.price,
+	sold=case when prev.id is null then line.volume_total-line.volume_remain else prev.volume_remain-line.volume_remain end,
 	sold_to=:fetchResultLastModified,
-	sold_from=case when line.issued_date>prev.sold_to then line.issued_date else prev.sold_to end
+	sold_from=case
+		when prev.id is null then line.issued_date
+		when line.issued_date>prev.sold_to then line.issued_date
+		else prev.sold_to
+		end
 from
-	market_fetch_line prev
+	market_order ord
+	left join market_fetch_line prev on ord.last_line_id=prev.order_id
 where
 	line.fetch_result_id=:fetchResultId
 	and not line.invalid
-	and prev.id=(select max(a.id)
-		from market_fetch_line a
-		where a.order_id = line.order_id and a.id<line.id and not a.invalid
-	)
+	and line.order_id=ord.order_id
 """)
 	@Modifying
 	int analyzePreviousLines(Number fetchResultId, Instant fetchResultLastModified);
-
-	@Query(nativeQuery = true, value = """
-update
-	market_fetch_line line
-set
-	creation=true,
-	sold=volume_total-volume_remain,
-	sold_from=issued_date,
-	sold_to=:fetchResultLastModified
-where
-	not exists (select id from market_fetch_line where order_id = line.order_id and id<line.id and not invalid)
-	and fetch_result_id=:fetchResultId
-	and not invalid
-""")
-	@Modifying
-	int analyzeCreatedLines(Number fetchResultId, Instant fetchResultLastModified);
 
 	@Query(nativeQuery = true, value = """
 update
@@ -268,7 +255,7 @@ where
 	@Query("""
 delete from MarketFetchLine
 where fetchResult=:result
-	and removal
+	and not removal
 	and not creation
 	and not priceChg
 	and sold<1
