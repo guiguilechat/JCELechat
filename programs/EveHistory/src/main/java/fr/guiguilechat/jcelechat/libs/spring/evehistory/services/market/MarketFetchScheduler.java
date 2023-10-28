@@ -30,7 +30,7 @@ public class MarketFetchScheduler {
 	@Autowired
 	private MarketObservedRegionService observedService;
 
-	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 5 * 1000)
+	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 30 * 1000)
 	public void fetchMarkets() {
 		List<MarketFetchResult> last_fetch = resultService.findLastResults();
 		Map<Integer, String> existingEtags = last_fetch.stream()
@@ -43,7 +43,7 @@ public class MarketFetchScheduler {
 		futures.stream().forEach(CompletableFuture::join);
 	}
 
-	@Scheduled(fixedRate = 6 * 60 * 1000, initialDelay = 30 * 1000)
+	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 90 * 1000)
 	public void analyzeResults() {
 		List<TwoFetchResults> toAnalyze = resultService.findAnalyzable();
 		log.info("analyzing " + toAnalyze.size() + " results");

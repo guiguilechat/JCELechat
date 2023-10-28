@@ -57,6 +57,25 @@ public class MarketFetchLineService {
 	 */
 	public void analyzeLines(MarketFetchResult result, MarketFetchResult follow) {
 		long start = System.currentTimeMillis();
+		int nbUpdated = repo.analyzePreviousLines(result.getId(), result.getLastModified());
+		long postUpdated = System.currentTimeMillis();
+		int nbCreated = repo.analyzeCreatedLines(result.getId(), result.getLastModified());
+		long postCreated = System.currentTimeMillis();
+		int nbRemoval = repo.analyzeRemovalLines(result.getId(), result.getLastModified(), follow.getId(),
+				follow.getLastModified());
+		long postRemoval = System.currentTimeMillis();
+		int nbDeleted = repo.removeNoEffectLines(result);
+		long end = System.currentTimeMillis();
+		log.info(
+				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " with orders= " + nbUpdated
+						+ "updated, " + nbCreated + "created, " + nbRemoval + "removal, " + nbDeleted + "deleted ; time= "
+						+ (end - start)
+						+ "ms : updated=" + (postUpdated - start) + " created=" + (postCreated - postUpdated) + " removal="
+						+ (postRemoval - postCreated) + " delete=" + (end - postRemoval));
+	}
+
+	public void analyzeLines_old(MarketFetchResult result, MarketFetchResult follow) {
+		long start = System.currentTimeMillis();
 		List<MarketFetchLine> updated = new ArrayList<>();
 		List<MarketFetchLine> deleted = new ArrayList<>();
 		Map<MarketFetchLine, MarketFetchLine> result2Previous = new HashMap<>();
@@ -169,8 +188,19 @@ public class MarketFetchLineService {
 		}
 	}
 
-	public List<RegionErrors> lidstDailyLineErrorsGroupeByRegion() {
-		return repo.lidstDailyLineErrorsGroupeByRegion().stream().map(RegionErrors::new).toList();
+	public List<RegionErrors> listDailyLineErrorsGroupeByRegion() {
+		return repo.listDailyLineErrorsGroupeByRegion().stream().map(RegionErrors::new).toList();
+	}
+
+	record LineHourStats(Instant modifiedHour, Number createdNb, Number priceChgNb, Number soldNb, Number removalNb,
+			Number total) {
+		public LineHourStats(Object[] line) {
+			this((Instant) line[0], (Number) line[1], (Number) line[2], (Number) line[3], (Number) line[4], (Number) line[5]);
+		}
+	}
+
+	public List<LineHourStats> getLinesHourStatsForRegion(Number regionId, Instant dateFrom, Instant dateTo) {
+		return repo.getLinesHourStatsForRegion(regionId, dateFrom, dateTo).stream().map(LineHourStats::new).toList();
 	}
 
 }

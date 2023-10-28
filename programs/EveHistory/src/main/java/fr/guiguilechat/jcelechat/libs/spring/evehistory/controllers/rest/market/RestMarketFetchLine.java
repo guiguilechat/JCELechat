@@ -83,6 +83,29 @@ public class RestMarketFetchLine {
 	@GetMapping("/errors/daily")
 	public ResponseEntity<?> dailyErrors() {
 		return ResponseEntity
-				.ok(service.lidstDailyLineErrorsGroupeByRegion());
+				.ok(service.listDailyLineErrorsGroupeByRegion());
+	}
+
+	/**
+	 */
+	@GetMapping("/region/{regionId}/stats")
+	public ResponseEntity<?> hourlyStats(@PathVariable int regionId,
+			@RequestParam Optional<String> from, @RequestParam Optional<String> to) {
+		if (Region.getRegion(regionId) == null) {
+			return ResponseEntity.status(404).body("region " + regionId + " not found");
+		}
+		Instant toDate = Instant.now();
+		if (to.isPresent()) {
+			toDate = ESITools.convertDate(to.get()).toInstant();
+		}
+		Instant fromDate = toDate.minus(Duration.ofDays(30));
+		if (from.isPresent()) {
+			Instant requestFromDate = ESITools.convertDate(from.get()).toInstant();
+			if (requestFromDate.isAfter(fromDate)) {
+				fromDate = requestFromDate;
+			}
+		}
+		return ResponseEntity
+				.ok(service.getLinesHourStatsForRegion(regionId, fromDate, toDate));
 	}
 }

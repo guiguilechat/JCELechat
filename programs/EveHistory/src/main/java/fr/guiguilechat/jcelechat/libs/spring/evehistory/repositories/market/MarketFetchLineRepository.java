@@ -4,6 +4,7 @@ import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
@@ -17,11 +18,16 @@ public interface MarketFetchLineRepository extends JpaRepository<MarketFetchLine
 	 * line, for same order, by id.
 	 */
 	@Query("""
-select line0, line1, line2
+select
+	line0, line1, line2
 from MarketFetchLine line1
-left join MarketFetchLine line0 on line0.id=(select max(a.id) from MarketFetchLine a where a.order.order_id=line1.order.order_id and a.id<line1.id and a.invalid=false)
-left join MarketFetchLine line2 on line2.id=(select min(b.id) from MarketFetchLine b where b.order.order_id=line1.order.order_id and b.id>line1.id and b.invalid=false)
-where line1.fetchResult= :fetchresult
+	left join MarketFetchLine line0 on line0.id=
+		(select max(a.id) from MarketFetchLine a where a.order.order_id=line1.order.order_id and a.id<line1.id and a.invalid=false)
+	left join MarketFetchLine line2 on line2.id=
+		(select min(b.id) from MarketFetchLine b where b.order.order_id=line1.order.order_id and b.id>line1.id and b.invalid=false)
+where
+	line1.fetchResult= :fetchresult
+	and line1.invalid=false
 """)
 	List<Object[]> listOrderChanges(@Param("fetchresult") MarketFetchResult fetchResult);
 
@@ -160,6 +166,114 @@ group by
 --	count(line.id) >100
 order by res.region_id
 """)
-	List<Object[]> lidstDailyLineErrorsGroupeByRegion();
+	List<Object[]> listDailyLineErrorsGroupeByRegion();
+
+	@Query(nativeQuery = true, value = """
+select
+	date_trunc('hour',res.last_modified) modified_hour,
+	sum(case when line.creation and not line.invalid then 1 else 0 end) created_nb,
+	sum(case when line.price_chg and not line.invalid then 1 else 0 end) price_chg_nb,
+	sum(case when line.sold>0 and not line.invalid then 1 else 0 end) sold_nb,
+	sum(case when line.removal and not line.invalid then 1 else 0 end) removal_nb,
+	count(*) total
+from
+	market_fetch_line line
+	join market_fetch_result res ON res.id = line.fetch_result_id
+where
+	res.region_id=:regionId
+	and res.last_modified>=:dateFrom
+	and res.last_modified<:dateTo
+group by
+	date_trunc('hour',res.last_modified)
+order by
+	date_trunc('hour',res.last_modified)
+""")
+	List<Object[]> getLinesHourStatsForRegion(Number regionId, Instant dateFrom, Instant dateTo);
+
+	/**
+	 * analyze the lines of a fetch result that have a previous presence, updating
+	 * the values linked to that previous line
+	 *
+	 * @param fetchResultId
+	 * @param fetchResultLastModified
+	 */
+	@Query(nativeQuery = true, value = """
+update
+	market_fetch_line line
+set
+	previous_line_id=prev.id,
+	price_chg=line.price<>prev.price,
+	sold=prev.volume_remain-line.volume_remain,
+	sold_to=:fetchResultLastModified,
+	sold_from=case when line.issued_date>prev.sold_to then line.issued_date else prev.sold_to end
+from
+	market_fetch_line prev
+where
+	line.fetch_result_id=:fetchResultId
+	and not line.invalid
+	and prev.id=(select max(a.id)
+		from market_fetch_line a
+		where a.order_id = line.order_id and a.id<line.id and not a.invalid
+	)
+""")
+	@Modifying
+	int analyzePreviousLines(Number fetchResultId, Instant fetchResultLastModified);
+
+	@Query(nativeQuery = true, value = """
+update
+	market_fetch_line line
+set
+	creation=true,
+	sold=volume_total-volume_remain,
+	sold_from=issued_date,
+	sold_to=:fetchResultLastModified
+where
+	not exists (select id from market_fetch_line where order_id = line.order_id and id<line.id and not invalid)
+	and fetch_result_id=:fetchResultId
+	and not invalid
+""")
+	@Modifying
+	int analyzeCreatedLines(Number fetchResultId, Instant fetchResultLastModified);
+
+	@Query(nativeQuery = true, value = """
+update
+	market_fetch_line line
+set
+	removal=true,
+	removal_from=:fetchResultLastModified,
+	removal_to=:nextResultLastModified,
+	eol=:fetchResultLastModified<issued_date+make_interval(days => duration)
+		and :nextResultLastModified>issued_date+make_interval(days => duration),
+	removal_date=case
+		when :fetchResultLastModified<issued_date+make_interval(days => duration)
+				and :nextResultLastModified>issued_date+make_interval(days => duration)
+			then issued_date+make_interval(days => duration)
+		else :nextResultLastModified
+		end
+where
+	not exists (select id
+		from market_fetch_line
+		where
+			order_id = line.order_id
+			and fetch_result_id=:nextResultId
+			and not invalid
+		)
+	and fetch_result_id=:fetchResultId
+	and not invalid
+""")
+	@Modifying
+	int analyzeRemovalLines(Number fetchResultId, Instant fetchResultLastModified, Number nextResultId,
+			Instant nextResultLastModified);
+
+	@Query("""
+delete from MarketFetchLine
+where fetchResult=:result
+	and removal
+	and not creation
+	and not priceChg
+	and sold<1
+ """)
+	@Modifying
+	int removeNoEffectLines(MarketFetchResult result);
 
 }

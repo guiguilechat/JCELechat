@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -13,9 +14,10 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.MarketOb
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import lombok.extern.slf4j.Slf4j;
 
-@SpringBootApplication
 @EnableAsync
+@EnableCaching
 @EnableScheduling
+@SpringBootApplication
 @Slf4j
 public class EveHistoryApp extends SpringBootServletInitializer {
 
