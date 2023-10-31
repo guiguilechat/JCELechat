@@ -13,6 +13,7 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetch
 
 public interface MarketFetchLineRepository extends JpaRepository<MarketFetchLine, Long> {
 
+	@Deprecated
 	/**
 	 * list the lines belonging to a fetchresult as well as their previous and next
 	 * line, for same order, by id.
@@ -33,6 +34,9 @@ where
 
 	int countByFetchResult(MarketFetchResult fetchResult);
 
+	/**
+	 * stats of changes per regionId and hour.
+	 */
 	@Query(nativeQuery = true, value="""
 select
 	distinct result.region_id region,
@@ -55,6 +59,9 @@ order by
 """)
 	List<Object[]> analyzeChanges();
 
+	/**
+	 * list all the retained price changes for given region and type
+	 */
 	@Query("""
 select line
 from MarketFetchLine line

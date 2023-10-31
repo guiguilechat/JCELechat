@@ -24,13 +24,9 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Table(indexes = {
-		@Index(columnList = "fetch_Result_Id"),
+		@Index(columnList = "fetch_result_id,invalid"),
 		@Index(columnList = "order_id"),
-		@Index(columnList = "previous_line_id"),
-		@Index(columnList = "removalFrom"),
-		@Index(columnList = "removalTo"),
-		@Index(columnList = "soldFrom"),
-		@Index(columnList = "soldTo")
+		@Index(columnList = "previous_line_id")
 })
 public class MarketFetchLine {
 

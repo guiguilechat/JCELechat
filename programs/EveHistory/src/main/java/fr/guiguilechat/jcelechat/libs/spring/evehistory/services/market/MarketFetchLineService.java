@@ -23,9 +23,6 @@ public class MarketFetchLineService {
 	@Autowired
 	private MarketFetchLineRepository repo;
 
-	@Autowired
-	private MarketOrderService orderService;
-
 	/**
 	 * update the values of a line that are computed from existing values, and clean
 	 * useless ones.
@@ -72,16 +69,16 @@ public class MarketFetchLineService {
 				follow.getLastModified());
 		long postRemoval = System.currentTimeMillis();
 		int nbDeleted = repo.removeNoEffectLines(result);
-		orderService.updateLastLine(result);
 		long end = System.currentTimeMillis();
 		log.info(
 				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " with orders= " + nbUpdated
-						+ "updated, " + nbRemoval + "removal, " + nbDeleted + "deleted ; time= "
+						+ "total, " + nbRemoval + "removal, " + nbDeleted + "deleted ; time= "
 						+ (end - start)
 						+ "ms : updated=" + (postUpdated - start) + " removal="
 						+ (postRemoval - postUpdated) + " delete=" + (end - postRemoval));
 	}
 
+	@Deprecated
 	public void analyzeLines_old(MarketFetchResult result, MarketFetchResult follow) {
 		long start = System.currentTimeMillis();
 		List<MarketFetchLine> updated = new ArrayList<>();
@@ -164,9 +161,6 @@ public class MarketFetchLineService {
 
 	public List<MarketFetchLine> listUpdates(int regionId, int typeId, Instant from, Instant to) {
 		List<MarketFetchLine> ret = repo.listPriceChanges(regionId, typeId, from, to);
-// log.info("fetching changes for type " + typeId + " region " + regionId + "
-// from " + from + " to " + to
-// + " : retrieved " + ret.size() + " items");
 		return ret;
 	}
 

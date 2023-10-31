@@ -27,6 +27,9 @@ public class MarketFetchResultService {
 	@Autowired
 	private MarketFetchLineService lineService;
 
+	@Autowired
+	private MarketOrderService marketOrderService;
+
 	public MarketFetchResult save(MarketFetchResult entity) {
 		if (entity.getCreatedDate() == null) {
 			entity.setCreatedDate(Instant.now());
@@ -58,10 +61,19 @@ public class MarketFetchResultService {
 	@Async
 	@Transactional(propagation = Propagation.NESTED, isolation = Isolation.SERIALIZABLE)
 	public CompletableFuture<Void> analyze(MarketFetchResult result, MarketFetchResult follow) {
+		long start = System.currentTimeMillis();
 		lineService.analyzeLines(result, follow);
+		long postLinesUpdate = System.currentTimeMillis();
+		marketOrderService.updateLastLine(result);
+		long postOrderUpdate = System.currentTimeMillis();
 		result.setLinesUpdated(lineService.countOrders(result));
 		result.setAnalyzed(true);
 		repo.save(result);
+		long postSave = System.currentTimeMillis();
+		log.info("analyzed result " + result.getId() + " followed by " + (follow == null ? "null" : follow.getId())
+				+ " in " + (postSave - start) + "ms : lines=" + (postLinesUpdate - start) + " orders="
+				+ (postOrderUpdate - postLinesUpdate)
+				+ " save=" + (postSave - postOrderUpdate));
 		return CompletableFuture.completedFuture(null);
 	}
 
