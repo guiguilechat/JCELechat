@@ -70,12 +70,12 @@ public class MarketFetchLineService {
 		long postRemoval = System.currentTimeMillis();
 		int nbDeleted = repo.removeNoEffectLines(result);
 		long end = System.currentTimeMillis();
-		log.info(
-				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " with orders= " + nbUpdated
-						+ "total, " + nbRemoval + "removal, " + nbDeleted + "deleted ; time= "
-						+ (end - start)
-						+ "ms : updated=" + (postUpdated - start) + " removal="
-						+ (postRemoval - postUpdated) + " delete=" + (end - postRemoval));
+		log.info(" analysed lines of marketfetch=" + result.getId() + " regionid=" + result.getRegionId()
+				+ " in " + (end - start) + "ms :"
+				+ " updated " + nbUpdated + " in " + (postUpdated - start)
+				+ ", removal " + nbRemoval + " in " + (postRemoval - postUpdated)
+				+ ", deleted" + nbDeleted + " in " + (end - postRemoval)
+				);
 	}
 
 	@Deprecated

@@ -220,7 +220,7 @@ set
 		end
 from
 	market_order ord
-	left join market_fetch_line prev on ord.last_line_id=prev.order_id
+	left join market_fetch_line prev on ord.last_line_id=prev.id
 where
 	line.fetch_result_id=:fetchResultId
 	and not line.invalid

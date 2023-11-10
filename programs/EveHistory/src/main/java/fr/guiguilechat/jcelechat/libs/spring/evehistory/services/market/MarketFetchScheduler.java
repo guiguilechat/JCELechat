@@ -58,6 +58,7 @@ public class MarketFetchScheduler {
 
 	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 30 * 1000)
 	public void fetchMarkets() {
+		log.info("fetching markets");
 		List<MarketFetchResult> last_fetch = resultService.findLastResults();
 		Map<Integer, String> existingEtags = last_fetch.stream()
 				.filter(mfr -> mfr.getEtag() != null)
@@ -67,6 +68,7 @@ public class MarketFetchScheduler {
 		List<CompletableFuture<Void>> futures = requiredRegionIds.stream()
 				.map(regionId -> fetchService.fetchMarket(regionId, existingEtags.get(regionId))).toList();
 		futures.stream().forEach(CompletableFuture::join);
+		log.info(" fetched " + futures.size() + " markets");
 	}
 
 	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 90 * 1000)
@@ -98,5 +100,6 @@ public class MarketFetchScheduler {
 		for (TwoFetchResults r : toAnalyze) {
 			resultService.analyze(r.first(), r.second()).join();
 		}
+		log.info(" analyzed " + toAnalyze.size() + " results");
 	}
 }

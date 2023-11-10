@@ -22,6 +22,7 @@ services:
          - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
          - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
          - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
+ #        - SPRING_TASK_SCHEDULING_POOL_SIZE=10 # allow 10 parrallel @scheduled execution
       image: evehistory/tomcat
       ports:
          - "48080:8080"

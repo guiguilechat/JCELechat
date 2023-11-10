@@ -10,7 +10,6 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
@@ -59,8 +58,9 @@ public class MarketFetchResultService {
 	 *
 	 */
 	@Async
-	@Transactional(propagation = Propagation.NESTED, isolation = Isolation.SERIALIZABLE)
+	@Transactional(isolation = Isolation.SERIALIZABLE)
 	public CompletableFuture<Void> analyze(MarketFetchResult result, MarketFetchResult follow) {
+		log.info("analyzing result " + result.getId() + " followed by " + (follow == null ? "null" : follow.getId()));
 		long start = System.currentTimeMillis();
 		lineService.analyzeLines(result, follow);
 		long postLinesUpdate = System.currentTimeMillis();
@@ -70,8 +70,8 @@ public class MarketFetchResultService {
 		result.setAnalyzed(true);
 		repo.save(result);
 		long postSave = System.currentTimeMillis();
-		log.info("analyzed result " + result.getId() + " followed by " + (follow == null ? "null" : follow.getId())
-				+ " in " + (postSave - start) + "ms : lines=" + (postLinesUpdate - start) + " orders="
+		log.info(" analyzed result " + result.getId() + " in " + (postSave - start) + "ms : lines="
+				+ (postLinesUpdate - start) + " orders="
 				+ (postOrderUpdate - postLinesUpdate)
 				+ " save=" + (postSave - postOrderUpdate));
 		return CompletableFuture.completedFuture(null);
