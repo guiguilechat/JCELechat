@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
+import java.util.stream.Stream;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -11,9 +12,9 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class SolarSystem {
 
-	public ArrayList<Double> center = new ArrayList<>();
-	public ArrayList<Double> max = new ArrayList<>();
-	public ArrayList<Double> min = new ArrayList<>();
+	public Position center ;
+	public Position max ;
+	public Position min;
 	public double radius;
 	public double luminosity;
 	public double security;
@@ -40,7 +41,8 @@ public class SolarSystem {
 
 	public static class Planet {
 		public int typeID, celestialIndex, radius;
-		public Object planetAttributes, position, statistics;
+		public Object planetAttributes, statistics;
+		public Position position;
 
 		public int planetNameID;
 
@@ -54,7 +56,8 @@ public class SolarSystem {
 	public static class Moon {
 		public int typeID, celestialIndex;
 		public double radius;
-		public Object planetAttributes, position, statistics;
+		public Object planetAttributes, statistics;
+		public Position position;
 
 		public int moonNameID;
 
@@ -66,7 +69,8 @@ public class SolarSystem {
 
 	public static class AsteroidBelt {
 		public int typeID;
-		public Object position, statistics;
+		public Position position;
+		public Object statistics;
 
 		public int asteroidBeltNameID;
 	}
@@ -92,7 +96,8 @@ public class SolarSystem {
 
 		public boolean isConquerable;
 
-		public Object position, statistics;
+		public Position position;
+		public Object statistics;
 	}
 
 	public LinkedHashMap<Long, Planet> planets = new LinkedHashMap<>();
@@ -100,16 +105,22 @@ public class SolarSystem {
 	public int sunTypeID;
 	public LinkedHashMap<Integer, Stargate> stargates = new LinkedHashMap<>();
 
+	public double furthestCelestialAU() {
+		return planets.values().stream()
+				.flatMap(p -> Stream.concat(Stream.of(p.position), p.moons.values().stream().map(m -> m.position)))
+				.mapToDouble(Position::distanceFromOriginInAU).max().orElse(0.0);
+	}
+
 	public static class Stargate {
 		public int destination;
-		public ArrayList<Double> position;
+		public Position position;
 		public int typeID;
 	}
 
 	public static class SecondarySun {
 		public int effectBeaconTypeID;
 		public int itemID;
-		public double[] position;
+		public Position position;
 		public int typeID;
 	}
 

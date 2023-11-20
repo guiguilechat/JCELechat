@@ -18,7 +18,7 @@ public class Constellation {
 
 	public LinkedHashMap<String, SolarSystem> systems = new LinkedHashMap<>();
 
-	public double[] center, min, max;
+	public Position center, min, max;
 	public int nameID;
 	public int constellationID;
 	public double radius;
