@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
@@ -180,11 +179,6 @@ public class Location {
 			}
 			};
 		} else {
-			// TODO check into esiaccess if the structure id is in the public
-			// structures.
-			if (ESIAccess.INSTANCE.universe.isPublicStructure(locationid)) {
-				// can't do anything. stil need an account.
-			}
 			if (account != null) {
 				Requested<R_get_universe_structures_structure_id> req = account.connection().get_universe_structures(locationid,
 						null);
@@ -192,6 +186,7 @@ public class Location {
 					R_get_universe_structures_structure_id struct = req.getOK();
 					return new Location(struct, locationid, struct.name, LOCTYPE.STRUCTURE);
 				}
+
 			}
 			return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
 		}
