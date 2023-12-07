@@ -212,7 +212,7 @@ public class ESIAccountHelper {
 			callback = LOCAL_CALLBACK;
 		}
 		openBrowserForApp(appID, callback, scopes == null || scopes.length == 0 ? new String[0]
-				: G_ICOAccess.SCOPES);
+				: scopes);
 		return callbackURLToAuthCode(extractStringFromClipboard(), callback);
 	}
 
