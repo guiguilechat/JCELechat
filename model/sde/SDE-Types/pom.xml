@@ -46,10 +46,11 @@
 			<!--					</executions>-->
 			<!--				</plugin>-->
 			<plugin>
+				<!-- remove the generated classes and java to not have them used during sources generation -->
 				<artifactId>maven-antrun-plugin</artifactId>
 				<executions>
 					<execution>
-						<phase>generate-sources</phase>
+						<phase>initialize</phase>
 						<goals>
 							<goal>run</goal>
 						</goals>
