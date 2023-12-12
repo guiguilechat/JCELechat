@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 import java.io.IOException;
 import java.util.List;
 
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
@@ -28,7 +29,7 @@ public class MarketFetchLineServiceTest {
 	@Autowired
 	private MarketFetchScheduler fetchScheduler;
 
-// @Test
+	@Test
 	public void testAnalyzeTheForgeData() throws IOException {
 		log.info("start test");
 		SavedLines savedData = FetchJitaMarket.loadTestLines();

@@ -1,10 +1,15 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map.Entry;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+import java.util.zip.ZipOutputStream;
 
 import com.fasterxml.jackson.core.exc.StreamWriteException;
 import com.fasterxml.jackson.databind.DatabindException;
@@ -26,7 +31,8 @@ public class FetchJitaMarket {
 		}
 	}
 
-	static final String FILE_DATA = "src/test/resources/marketdump/Jita4.json";
+	static final String FILE_DATA = "Jita4.json";
+	static final String FILE_compressed = "src/test/resources/marketdump/Jita4.zip";
 
 	public static void main(String[] args)
 			throws InterruptedException, StreamWriteException, DatabindException, IOException {
@@ -52,19 +58,25 @@ public class FetchJitaMarket {
 				lastEtag = fetchedResult.getEtag();
 			}
 		}
-		File out = new File(FILE_DATA);
-		out.getParentFile().mkdirs();
-		out.delete();
+		File outFile = new File(FILE_compressed);
+		outFile.getParentFile().mkdirs();
+		outFile.delete();
+		ZipOutputStream zipOut = new ZipOutputStream(new FileOutputStream(outFile));
+		ZipEntry zipEntry = new ZipEntry(FILE_DATA);
+		zipOut.putNextEntry(zipEntry);
+
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.findAndRegisterModules();
-		mapper.writerWithDefaultPrettyPrinter().writeValue(out, lines);
-		log.info("file written : " + out.getAbsolutePath());
+		mapper.writerWithDefaultPrettyPrinter().writeValue(zipOut, lines);
+		log.info("file written : " + outFile.getAbsolutePath());
 	}
 
 	public static SavedLines loadTestLines() throws IOException {
+		ZipInputStream zis = new ZipInputStream(new FileInputStream(FILE_compressed));
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.findAndRegisterModules();
-		return mapper.readerFor(SavedLines.class).readValue(new File(FILE_DATA));
+		zis.getNextEntry();
+		return mapper.readerFor(SavedLines.class).readValue(zis);
 	}
 
 }
