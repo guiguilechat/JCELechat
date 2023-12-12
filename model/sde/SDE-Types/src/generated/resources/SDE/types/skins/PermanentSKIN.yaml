@@ -9148,6 +9148,7 @@ types:
     volume: 0.009999999776482582
   43487:
     id: 43487
+    marketGroup: 2002
     name: Tormentor Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9155,6 +9156,7 @@ types:
     volume: 0.009999999776482582
   43488:
     id: 43488
+    marketGroup: 2047
     name: Retribution Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9211,6 +9213,7 @@ types:
     volume: 0.009999999776482582
   43496:
     id: 43496
+    marketGroup: 1994
     name: Coercer Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9226,6 +9229,7 @@ types:
     volume: 0.009999999776482582
   43498:
     id: 43498
+    marketGroup: 2142
     name: Pontifex Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9248,6 +9252,7 @@ types:
     volume: 0.009999999776482582
   43501:
     id: 43501
+    marketGroup: 1990
     name: Augoror Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9299,6 +9304,7 @@ types:
     volume: 0.009999999776482582
   43508:
     id: 43508
+    marketGroup: 2081
     name: Curse Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -9382,6 +9388,7 @@ types:
     volume: 0.009999999776482582
   43519:
     id: 43519
+    marketGroup: 2024
     name: Paladin Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -28901,7 +28908,7 @@ types:
     volume: 0.009999999776482582
   55984:
     id: 55984
-    marketGroup: 2000
+    marketGroup: 3541
     name: Skybreaker Bluestar Defenders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -28909,7 +28916,7 @@ types:
     volume: 0.009999999776482582
   55985:
     id: 55985
-    marketGroup: 2063
+    marketGroup: 3540
     name: Stormbringer Bluestar Defenders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -28917,7 +28924,7 @@ types:
     volume: 0.009999999776482582
   55986:
     id: 55986
-    marketGroup: 2108
+    marketGroup: 3539
     name: Thunderchild Bluestar Defenders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -30754,7 +30761,7 @@ types:
     volume: 0.009999999776482582
   57706:
     id: 57706
-    marketGroup: 2000
+    marketGroup: 3541
     name: Skybreaker EDENCOM Victory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -30762,7 +30769,7 @@ types:
     volume: 0.009999999776482582
   57707:
     id: 57707
-    marketGroup: 2063
+    marketGroup: 3540
     name: Stormbringer EDENCOM Victory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -30770,7 +30777,7 @@ types:
     volume: 0.009999999776482582
   57708:
     id: 57708
-    marketGroup: 2108
+    marketGroup: 3539
     name: Thunderchild EDENCOM Victory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -33999,7 +34006,7 @@ types:
     volume: 0.009999999776482582
   60926:
     id: 60926
-    marketGroup: 2063
+    marketGroup: 3540
     name: Stormbringer Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38619,6 +38626,7 @@ types:
     volume: 0.009999999776482582
   73366:
     id: 73366
+    marketGroup: 1957
     name: Drake Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38626,6 +38634,7 @@ types:
     volume: 0.009999999776482582
   73367:
     id: 73367
+    marketGroup: 1958
     name: Brutix Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38633,6 +38642,7 @@ types:
     volume: 0.009999999776482582
   73368:
     id: 73368
+    marketGroup: 1959
     name: Hurricane Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38640,6 +38650,7 @@ types:
     volume: 0.009999999776482582
   73369:
     id: 73369
+    marketGroup: 1956
     name: Prophecy Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38647,6 +38658,7 @@ types:
     volume: 0.009999999776482582
   73370:
     id: 73370
+    marketGroup: 1995
     name: Corax Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38654,6 +38666,7 @@ types:
     volume: 0.009999999776482582
   73371:
     id: 73371
+    marketGroup: 1996
     name: Algos Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38661,6 +38674,7 @@ types:
     volume: 0.009999999776482582
   73372:
     id: 73372
+    marketGroup: 1997
     name: Talwar Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38668,6 +38682,7 @@ types:
     volume: 0.009999999776482582
   73373:
     id: 73373
+    marketGroup: 1994
     name: Dragoon Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38731,6 +38746,7 @@ types:
     volume: 0.009999999776482582
   73458:
     id: 73458
+    marketGroup: 2002
     name: Tormentor Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38738,6 +38754,7 @@ types:
     volume: 0.009999999776482582
   73459:
     id: 73459
+    marketGroup: 2000
     name: Magnate Navy Issue Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38745,6 +38762,7 @@ types:
     volume: 0.009999999776482582
   73460:
     id: 73460
+    marketGroup: 2047
     name: Retribution Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38752,6 +38770,7 @@ types:
     volume: 0.009999999776482582
   73461:
     id: 73461
+    marketGroup: 1994
     name: Coercer Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38759,6 +38778,7 @@ types:
     volume: 0.009999999776482582
   73462:
     id: 73462
+    marketGroup: 2142
     name: Pontifex Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38766,6 +38786,7 @@ types:
     volume: 0.009999999776482582
   73463:
     id: 73463
+    marketGroup: 1990
     name: Augoror Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38773,6 +38794,7 @@ types:
     volume: 0.009999999776482582
   73464:
     id: 73464
+    marketGroup: 2081
     name: Curse Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38780,6 +38802,7 @@ types:
     volume: 0.009999999776482582
   73465:
     id: 73465
+    marketGroup: 2103
     name: Prophecy Navy Issue Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38787,6 +38810,7 @@ types:
     volume: 0.009999999776482582
   73466:
     id: 73466
+    marketGroup: 2024
     name: Paladin Order of Tetrimon SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38794,6 +38818,7 @@ types:
     volume: 0.009999999776482582
   73468:
     id: 73468
+    marketGroup: 2000
     name: Magnate Navy Issue Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38801,6 +38826,7 @@ types:
     volume: 0.009999999776482582
   73474:
     id: 73474
+    marketGroup: 2103
     name: Prophecy Navy Issue Ironblood SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -38995,6 +39021,7 @@ types:
     volume: 0.009999999776482582
   74143:
     id: 74143
+    marketGroup: 2031
     name: Cruor Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39002,6 +39029,7 @@ types:
     volume: 0.009999999776482582
   74144:
     id: 74144
+    marketGroup: 2031
     name: Worm Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39009,6 +39037,7 @@ types:
     volume: 0.009999999776482582
   74145:
     id: 74145
+    marketGroup: 2031
     name: Succubus Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39016,6 +39045,7 @@ types:
     volume: 0.009999999776482582
   74146:
     id: 74146
+    marketGroup: 2031
     name: Dramiel Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39023,6 +39053,7 @@ types:
     volume: 0.009999999776482582
   74147:
     id: 74147
+    marketGroup: 2031
     name: Daredevil Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39030,6 +39061,7 @@ types:
     volume: 0.009999999776482582
   74148:
     id: 74148
+    marketGroup: 2031
     name: Astero Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39037,6 +39069,7 @@ types:
     volume: 0.009999999776482582
   74149:
     id: 74149
+    marketGroup: 3541
     name: Skybreaker Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39044,6 +39077,7 @@ types:
     volume: 0.009999999776482582
   74150:
     id: 74150
+    marketGroup: 2486
     name: Damavik Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39051,6 +39085,7 @@ types:
     volume: 0.009999999776482582
   74151:
     id: 74151
+    marketGroup: 2031
     name: Garmur Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39058,6 +39093,7 @@ types:
     volume: 0.009999999776482582
   74152:
     id: 74152
+    marketGroup: 2069
     name: Sacrilege Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39065,6 +39101,7 @@ types:
     volume: 0.009999999776482582
   74153:
     id: 74153
+    marketGroup: 2070
     name: Cerberus Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39072,6 +39109,7 @@ types:
     volume: 0.009999999776482582
   74154:
     id: 74154
+    marketGroup: 2072
     name: Muninn Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39079,6 +39117,7 @@ types:
     volume: 0.009999999776482582
   74155:
     id: 74155
+    marketGroup: 1964
     name: Armageddon Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39086,6 +39125,7 @@ types:
     volume: 0.009999999776482582
   74156:
     id: 74156
+    marketGroup: 1965
     name: Scorpion Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39093,6 +39133,7 @@ types:
     volume: 0.009999999776482582
   74157:
     id: 74157
+    marketGroup: 1966
     name: Dominix Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39100,6 +39141,7 @@ types:
     volume: 0.009999999776482582
   74158:
     id: 74158
+    marketGroup: 1967
     name: Typhoon Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -39107,6 +39149,7 @@ types:
     volume: 0.009999999776482582
   74160:
     id: 74160
+    marketGroup: 2071
     name: Ishtar Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40334,6 +40377,233 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  78766:
+    id: 78766
+    name: Imicus Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78767:
+    id: 78767
+    name: Helios Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78768:
+    id: 78768
+    name: Talos Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78769:
+    id: 78769
+    name: Dominix Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78770:
+    id: 78770
+    name: Sin Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78771:
+    id: 78771
+    name: Hubris Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78772:
+    id: 78772
+    name: Moros Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78773:
+    id: 78773
+    name: Magnate Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78774:
+    id: 78774
+    name: Anathema Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78775:
+    id: 78775
+    name: Harbinger Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78776:
+    id: 78776
+    marketGroup: 2104
+    name: Absolution Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78777:
+    id: 78777
+    name: Apocalypse Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78778:
+    id: 78778
+    name: Paladin Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78779:
+    id: 78779
+    name: Bane Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78780:
+    id: 78780
+    name: Revelation Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78781:
+    id: 78781
+    name: Heron Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78782:
+    id: 78782
+    name: Buzzard Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78783:
+    id: 78783
+    name: Ferox Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78784:
+    id: 78784
+    name: Vulture Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78785:
+    id: 78785
+    marketGroup: 1965
+    name: Rokh Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78786:
+    id: 78786
+    name: Karura Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78787:
+    id: 78787
+    marketGroup: 1981
+    name: Phoenix Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78788:
+    id: 78788
+    name: Probe Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78789:
+    id: 78789
+    name: Cheetah Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78790:
+    id: 78790
+    name: Tornado Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78791:
+    id: 78791
+    name: Maelstrom Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78792:
+    id: 78792
+    name: Valravn Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78793:
+    id: 78793
+    name: Naglfar Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78794:
+    id: 78794
+    name: Vedmak Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78795:
+    id: 78795
+    name: Thunderchild Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78796:
+    id: 78796
+    name: Stratios Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  78797:
+    id: 78797
+    name: Garmur Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   78816:
     id: 78816
     marketGroup: 3495
@@ -40522,6 +40792,556 @@ types:
     id: 79008
     marketGroup: 2312
     name: Gnosis Genolution Dazzle SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79609:
+    id: 79609
+    marketGroup: 2000
+    name: Magnate Navy Issue Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79610:
+    id: 79610
+    marketGroup: 3497
+    name: Coercer Navy Issue Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79611:
+    id: 79611
+    marketGroup: 2073
+    name: Devoter Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79612:
+    id: 79612
+    marketGroup: 2103
+    name: Prophecy Navy Issue Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79613:
+    id: 79613
+    marketGroup: 2095
+    name: Ark Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79614:
+    id: 79614
+    marketGroup: 3495
+    name: Revelation Navy Issue Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79615:
+    id: 79615
+    marketGroup: 3535
+    name: Bane Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79616:
+    id: 79616
+    marketGroup: 2376
+    name: Dagon Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79617:
+    id: 79617
+    marketGroup: 2380
+    name: Chemosh Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79618:
+    id: 79618
+    marketGroup: 2383
+    name: Molok Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79713:
+    id: 79713
+    name: Tormentor Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79714:
+    id: 79714
+    name: Dragoon Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79715:
+    id: 79715
+    name: Arbitrator Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79716:
+    id: 79716
+    marketGroup: 1974
+    name: Archon Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79717:
+    id: 79717
+    name: Harpy Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79718:
+    id: 79718
+    marketGroup: 1995
+    name: Corax Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79719:
+    id: 79719
+    name: Stork Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79720:
+    id: 79720
+    name: Blackbird Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79721:
+    id: 79721
+    name: Rook Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79722:
+    id: 79722
+    marketGroup: 2082
+    name: Falcon Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79723:
+    id: 79723
+    name: Chimera Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79724:
+    id: 79724
+    name: Incursus Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79725:
+    id: 79725
+    name: Ishkur Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79726:
+    id: 79726
+    name: Algos Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79727:
+    id: 79727
+    name: Magus Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79728:
+    id: 79728
+    marketGroup: 1992
+    name: Celestis Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79729:
+    id: 79729
+    name: Lachesis Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79730:
+    id: 79730
+    name: Arazu Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79731:
+    id: 79731
+    name: Thanatos Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79732:
+    id: 79732
+    name: Merlin Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79733:
+    id: 79733
+    marketGroup: 2049
+    name: Enyo Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79734:
+    id: 79734
+    name: Talwar Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79735:
+    id: 79735
+    marketGroup: 2145
+    name: Bifrost Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79736:
+    id: 79736
+    name: Bellicose Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79737:
+    id: 79737
+    name: Huginn Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79738:
+    id: 79738
+    name: Rapier Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79739:
+    id: 79739
+    name: Nidhoggur Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79740:
+    id: 79740
+    name: Vigil Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79741:
+    id: 79741
+    name: Kikimora Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79742:
+    id: 79742
+    name: Nestor Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79744:
+    id: 79744
+    name: Barghest Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79745:
+    id: 79745
+    name: Pontifex Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79755:
+    id: 79755
+    marketGroup: 1963
+    name: Rattlesnake Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79756:
+    id: 79756
+    marketGroup: 3567
+    name: Alligator Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79757:
+    id: 79757
+    marketGroup: 2030
+    name: Gila Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79758:
+    id: 79758
+    marketGroup: 3568
+    name: Mamba Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79759:
+    id: 79759
+    marketGroup: 2031
+    name: Worm Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79760:
+    id: 79760
+    marketGroup: 1963
+    name: Machariel Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79761:
+    id: 79761
+    marketGroup: 3567
+    name: Khizriel Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79762:
+    id: 79762
+    marketGroup: 2030
+    name: Cynabal Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79763:
+    id: 79763
+    marketGroup: 3568
+    name: Mekubal Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79764:
+    id: 79764
+    marketGroup: 2031
+    name: Dramiel Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79838:
+    id: 79838
+    marketGroup: 2383
+    name: Azariel Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79840:
+    id: 79840
+    marketGroup: 2316
+    name: Apotheosis Genolution Dazzle SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79841:
+    id: 79841
+    marketGroup: 2421
+    name: Praxis Genolution Dazzle SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79870:
+    id: 79870
+    marketGroup: 3568
+    name: Mamba Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79871:
+    id: 79871
+    marketGroup: 3567
+    name: Alligator Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79872:
+    id: 79872
+    marketGroup: 2380
+    name: Caiman Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79873:
+    id: 79873
+    marketGroup: 3567
+    name: Khizriel Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79874:
+    id: 79874
+    marketGroup: 3568
+    name: Mekubal Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79939:
+    id: 79939
+    marketGroup: 3497
+    name: Cormorant Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79940:
+    id: 79940
+    marketGroup: 2285
+    name: Capsule Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79941:
+    id: 79941
+    marketGroup: 3497
+    name: Thrasher Fleet Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79942:
+    id: 79942
+    marketGroup: 3497
+    name: Catalyst Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79948:
+    id: 79948
+    marketGroup: 2031
+    name: Dramiel Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79949:
+    id: 79949
+    marketGroup: 3568
+    name: Mekubal Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79950:
+    id: 79950
+    marketGroup: 3567
+    name: Khizriel Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79951:
+    id: 79951
+    marketGroup: 1963
+    name: Machariel Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79952:
+    id: 79952
+    marketGroup: 1963
+    name: Rattlesnake Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79953:
+    id: 79953
+    marketGroup: 2031
+    name: Worm Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79954:
+    id: 79954
+    marketGroup: 3568
+    name: Mamba Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  79955:
+    id: 79955
+    marketGroup: 3567
+    name: Alligator Luminae Polaris SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

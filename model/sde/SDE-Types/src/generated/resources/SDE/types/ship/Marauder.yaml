@@ -27,9 +27,9 @@ types:
     frigateescapebaycapacity: 1
     fwlpkill: 1000
     gfxboosterid: 394
-    heatattenuationhi: 0.820335328578949
-    heatattenuationlow: 0.7937005162239075
-    heatattenuationmed: 0.6299605369567871
+    heatattenuationhi: 0.8199999928474426
+    heatattenuationlow: 0.7900000214576721
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -126,9 +126,9 @@ types:
     frigateescapebaycapacity: 1
     fwlpkill: 1000
     gfxboosterid: 395
-    heatattenuationhi: 0.820335328578949
-    heatattenuationlow: 0.7937005162239075
-    heatattenuationmed: 0.6299605369567871
+    heatattenuationhi: 0.7900000214576721
+    heatattenuationlow: 0.7900000214576721
+    heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -226,9 +226,9 @@ types:
     frigateescapebaycapacity: 1
     fwlpkill: 1000
     gfxboosterid: 397
-    heatattenuationhi: 0.820335328578949
-    heatattenuationlow: 0.7071067690849304
-    heatattenuationmed: 0.7578582763671875
+    heatattenuationhi: 0.7900000214576721
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -325,9 +325,9 @@ types:
     frigateescapebaycapacity: 1
     fwlpkill: 1000
     gfxboosterid: 395
-    heatattenuationhi: 0.820335328578949
-    heatattenuationlow: 0.6299605369567871
-    heatattenuationmed: 0.7937005162239075
+    heatattenuationhi: 0.8199999928474426
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 0.7900000214576721
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100

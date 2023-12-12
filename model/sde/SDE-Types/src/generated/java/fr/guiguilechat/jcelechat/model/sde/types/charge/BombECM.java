@@ -16,12 +16,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AimedLaunch;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AllowInFullyCorruptedLowSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmpFieldRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
@@ -66,6 +66,13 @@ public class BombECM
     @DefaultIntValue(0)
     public int aimedlaunch;
     /**
+     * if the module is disallowed in low sec (empire space), if it also have this attribute, it will allow that module to be used in low sec system if the systems is fully corrupted
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int allowinfullycorruptedlowsec;
+    /**
      * Size of the damage cloud caused by impact.
      */
     @HighIsGood(false)
@@ -93,13 +100,6 @@ public class BombECM
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinempirespace;
-    /**
-     * If set on a charge or module type, will prevent it from being activated in hazard system
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int disallowinhazardsystem;
     /**
      * EM damage done.
      */
@@ -249,7 +249,7 @@ public class BombECM
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, LauncherGroup.INSTANCE, StructureUniformity.INSTANCE, AoeCloudSize.INSTANCE, RequiredSkill1Level.INSTANCE, ExplosionDelay.INSTANCE, RemoteResistanceID.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, ExplosionRange.INSTANCE, DetonationRange.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, DisallowInHazardSystem.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, LauncherGroup.INSTANCE, StructureUniformity.INSTANCE, AoeCloudSize.INSTANCE, RequiredSkill1Level.INSTANCE, ExplosionDelay.INSTANCE, RemoteResistanceID.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, ExplosionRange.INSTANCE, DetonationRange.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final BombECM.MetaGroup METAGROUP = new BombECM.MetaGroup();
 
     @Override
@@ -262,6 +262,10 @@ public class BombECM
             case  644 :
             {
                 return aimedlaunch;
+            }
+            case  5599 :
+            {
+                return allowinfullycorruptedlowsec;
             }
             case  654 :
             {
@@ -278,10 +282,6 @@ public class BombECM
             case  1074 :
             {
                 return disallowinempirespace;
-            }
-            case  5561 :
-            {
-                return disallowinhazardsystem;
             }
             case  114 :
             {

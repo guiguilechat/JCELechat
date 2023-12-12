@@ -22,7 +22,7 @@ types:
     gfxboosterid: 395
     heatattenuationhi: 1.0
     heatattenuationlow: 1.0
-    heatattenuationmed: 0.25
+    heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100

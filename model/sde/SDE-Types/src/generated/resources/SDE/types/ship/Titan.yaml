@@ -508,7 +508,7 @@ types:
     hasfleethangars: 1
     hasshipmaintenancebay: 1
     heatattenuationhi: 0.8199999928474426
-    heatattenuationlow: 0.7900000214576721
+    heatattenuationlow: 0.8199999928474426
     heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -632,9 +632,9 @@ types:
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.820335328578949
-    heatattenuationlow: 0.820335328578949
-    heatattenuationmed: 0.7578582763671875
+    heatattenuationhi: 0.8199999928474426
+    heatattenuationlow: 0.8199999928474426
+    heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -857,6 +857,130 @@ types:
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 1.325E8
+    warpcapacitorneed: 1.38000002536387E-8
+    warpspeedmultiplier: 1.3700000047683716
+    weapondisruptionresistance: 0.20000000298023224
+  78576:
+    advancedagility: 1
+    advancedcapitalagility: 1
+    agility: 0.03099999949336052
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 750000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    canjump: 1
+    canreceiveclonejumps: 1
+    capacitorcapacity: 130000.0
+    capacity: 16500.0
+    cpuoutput: 1150
+    disallowinhighsec: 1
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisdurationmultiplier: 5
+    explosivedamageresonance: 0.6700000166893005
+    fighterabilityanticapitalmissileresistance: 1
+    fighterabilitykamikazeresistance: 1
+    fleethangarcapacity: 100000
+    fwlpkill: 14000
+    gatescramblestatus: -1000
+    gfxboosterid: 397
+    hasfleethangars: 1
+    hasshipmaintenancebay: 1
+    heatattenuationhi: 0.8199999928474426
+    heatattenuationlow: 0.7900000214576721
+    heatattenuationmed: 0.7900000214576721
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.25
+    hislots: 8
+    hp: 300000.0
+    id: 78576
+    iscapitalsize: 1
+    istitanjumpportalpassenger: 1
+    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdriveconsumptionamount: 3000
+    jumpdriveconsumptiontype: 17889
+    jumpdriveduration: 300000
+    jumpdriverange: 3.0
+    jumpdrivetargetbeacontypelistid: 341
+    jumpharmonics: -5
+    jumpportalcapacitorneed: 25000
+    jumpportalconsumptionmassfactor: 9.999999717180685E-10
+    jumpportalduration: 300000
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 7
+    marketGroup: 2287
+    mass: 2.2E9
+    maxjumpclones: 75
+    maxlockedtargets: 8
+    maxoperationaldistance: 5000
+    maxoperationalusers: 2
+    maxpassengers: 150
+    maxtargetrange: 250000.0
+    maxvelocity: 95.0
+    medslots: 7
+    name: Azariel
+    packagedVolume: 1.0E7
+    portionSize: 1
+    poweroutput: 1065000
+    powertospeed: 1
+    price: 2.99999985664E11
+    propulsiongraphicid: 397
+    published: true
+    radius: 8900.0
+    rechargerate: 7217600.0
+    remoteassistanceimpedance: 0.20000000298023224
+    remoterepairimpedance: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 5
+    requiredskill2: 3345
+    requiredskill2level: 1
+    requiredskill3: 3344
+    requiredskill3level: 1
+    rigsize: 4
+    rigslots: 3
+    rolebonuscommandburstaoerange: 200
+    scanladarstrength: 285.0
+    scanresolution: 80.0
+    sensordampenerresistance: 0.20000000298023224
+    shieldcapacity: 750000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 2.0E7
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonusrole1: 2.0
+    shipbonusrole2: 300
+    shipbonustitang1: 5
+    shipbonustitang2: 10
+    shipbonustitang3: -6
+    shipbonustitanm1: 200
+    shipbonustitanm2: -5
+    shipbonustitanm3: -6
+    shipmaintenancebaycapacity: 5000000
+    shiprolebonuswarpspeed: 25
+    signatureradius: 23200.0
+    specialfuelbaycapacity: 60000
+    stasiswebifierresistance: 0.20000000298023224
+    structureuniformity: 1.0
+    targetpainterresistance: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    turretslotsleft: 6
+    typecolorscheme: 11342
+    uniformity: 1.0
+    upgradecapacity: 350
+    upgradeslotsleft: 3
+    volume: 1.0E8
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.3700000047683716
     weapondisruptionresistance: 0.20000000298023224

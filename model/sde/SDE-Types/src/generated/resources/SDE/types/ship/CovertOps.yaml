@@ -23,7 +23,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 394
-    heatattenuationhi: 0.25
+    heatattenuationhi: 0.5
     heatattenuationlow: 0.5
     heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
@@ -119,7 +119,7 @@ types:
     fwlpkill: 50
     gfxboosterid: 397
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.5
+    heatattenuationlow: 0.6299999952316284
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -215,7 +215,7 @@ types:
     fwlpkill: 50
     gfxboosterid: 394
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.5
+    heatattenuationlow: 0.6299999952316284
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -310,7 +310,7 @@ types:
     fwlpkill: 50
     gfxboosterid: 395
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.25
+    heatattenuationlow: 0.5
     heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -722,9 +722,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
-    heatattenuationhi: 0.5
+    heatattenuationhi: 0.6299999952316284
     heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.5
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100

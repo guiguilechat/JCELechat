@@ -64,3 +64,12 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  79326:
+    id: 79326
+    industryblueprintrank: 600.0
+    name: Azariel Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

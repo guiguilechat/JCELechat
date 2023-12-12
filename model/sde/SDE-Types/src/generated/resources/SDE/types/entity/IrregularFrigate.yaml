@@ -4576,6 +4576,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
+    entitykillbounty: 200000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
@@ -4665,6 +4666,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
+    entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
@@ -4759,6 +4761,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
+    entitykillbounty: 50000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 210
     entityreactionfactor: 1.0

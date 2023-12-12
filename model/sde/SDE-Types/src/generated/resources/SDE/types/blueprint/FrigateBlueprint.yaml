@@ -1097,3 +1097,12 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  79214:
+    id: 79214
+    industryjobcostmultiplier: 1
+    name: Metamorphosis Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582

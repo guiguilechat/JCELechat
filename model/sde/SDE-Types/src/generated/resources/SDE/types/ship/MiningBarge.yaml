@@ -23,7 +23,7 @@ types:
     gfxboosterid: 397
     heatattenuationhi: 0.25
     heatattenuationlow: 0.5
-    heatattenuationmed: 1.0
+    heatattenuationmed: 0.25
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -121,7 +121,7 @@ types:
     gfxboosterid: 397
     heatattenuationhi: 0.25
     heatattenuationlow: 0.5
-    heatattenuationmed: 1.0
+    heatattenuationmed: 0.25
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -213,8 +213,8 @@ types:
     generalminingholdcapacity: 16000
     gfxboosterid: 397
     heatattenuationhi: 0.25
-    heatattenuationlow: 0.25
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationlow: 0.5
+    heatattenuationmed: 0.25
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100

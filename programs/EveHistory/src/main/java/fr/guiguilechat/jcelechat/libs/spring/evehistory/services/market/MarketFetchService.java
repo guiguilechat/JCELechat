@@ -3,12 +3,14 @@ package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 import java.time.Instant;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
@@ -51,8 +53,15 @@ public class MarketFetchService {
 
 	private ForkJoinPool highParrallelPool = new ForkJoinPool(Runtime.getRuntime().availableProcessors() * 10);
 
-	@Async
-	public CompletableFuture<Void> fetchMarket(int regionId, String lastEtag) {
+	/**
+	 * create the data for a fetch, without any access to the DB. Used for test.
+	 *
+	 * @param regionId id of the region to fetch the data for
+	 * @param lastEtag etag of the last fetch, if any.
+	 * @return fetch result and list of corresponding lines already mapped to that
+	 *           result, if any.
+	 */
+	Map.Entry<MarketFetchResult, List<MarketFetchLine>> fetchMarketNoDB(int regionId, String lastEtag) {
 		long start = System.currentTimeMillis();
 		boolean failed = false;
 		boolean noChange = false;
@@ -70,15 +79,15 @@ public class MarketFetchService {
 		String newEtag = firstResult.getETag();
 		int responseCode = firstResult.getResponseCode();
 		switch (responseCode) {
-		case 200:
-			pages = firstResult.getNbPages();
+			case 200:
+				pages = firstResult.getNbPages();
 			break;
-		case 304:
-			noChange = true;
+			case 304:
+				noChange = true;
 			break;
-		default:
-			failed = true;
-			errors.add(firstResult.getError());
+			default:
+				failed = true;
+				errors.add(firstResult.getError());
 		}
 		Long allPagesTime = null;
 		if (!failed && !noChange) {
@@ -118,7 +127,7 @@ public class MarketFetchService {
 				}
 			}
 		}
-		MarketFetchResult fetchResult = resultService.save(MarketFetchResult.builder()
+		MarketFetchResult fetchResult = MarketFetchResult.builder()
 				.errors(errors.isEmpty() ? null : errors.toString())
 				.etag(failed || noChange ? null : newEtag)
 				.failed(failed)
@@ -128,22 +137,34 @@ public class MarketFetchService {
 				.pagesFetched(failed || noChange ? null : pages)
 				.regionId(regionId)
 				.responseCode(responseCode)
-				.build());
-
-		if (!failed && !noChange) {
-			lineService.saveAll(fetchedLines.stream()
-					.map(order -> MarketFetchLine.builder()
-							.order(order)
-							.fetchResult(fetchResult)
-							.build())
-					.toList());
-			orderService.createMissingOrders(fetchResult);
-		}
+				.build();
+		List<MarketFetchLine> lines = fetchedLines.stream()
+				.map(order -> MarketFetchLine.builder()
+						.order(order)
+						.fetchResult(fetchResult)
+						.build())
+				.toList();
 		long endSave = System.currentTimeMillis();
 		log.info("region id=" + regionId + " result="
 				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " times(ms)= total:"
 				+ (endSave - start) + " firstPage:" + (firstPageTime - start) + (allPagesTime == null ? ""
 						: " nextPages:" + (allPagesTime - firstPageTime) + " save:" + (endSave - allPagesTime)));
+		return new AbstractMap.SimpleImmutableEntry<>(fetchResult, lines);
+	}
+
+	/**
+	 * request the orders for a region and save it.
+	 *
+	 * @see #fetchMarketNoDB(int, String) for implementation
+	 */
+	@Async
+	public CompletableFuture<Void> fetchMarket(int regionId, String lastEtag) {
+		Entry<MarketFetchResult, List<MarketFetchLine>> e = fetchMarketNoDB(regionId, lastEtag);
+		MarketFetchResult fetchResult = resultService.save(e.getKey());
+		if (!fetchResult.isFailed() && !fetchResult.isCached()) {
+			lineService.saveAll(e.getValue());
+			orderService.createMissingOrders(fetchResult);
+		}
 		return CompletableFuture.completedFuture(null);
 	}
 

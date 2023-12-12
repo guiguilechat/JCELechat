@@ -208,9 +208,12 @@ public class Assets {
 		}
 	}
 
-	public static class ItemForest {
-		public Map<Long, ItemNode> itemsByID = new HashMap<>();
-		public Map<Location, Map<get_corporations_corporation_id_assets_location_flag, List<ItemNode>>> roots = new HashMap<>();
+	public static record ItemForest(Map<Long, ItemNode> itemsByID,
+			Map<Location, Map<get_corporations_corporation_id_assets_location_flag, List<ItemNode>>> roots) {
+
+		public ItemForest() {
+			this(new HashMap<>(), new HashMap<>());
+		}
 	}
 
 	protected ItemForest grow(List<R_get_characters_character_id_assets> assets) {
@@ -299,28 +302,21 @@ public class Assets {
 
 	public static get_corporations_corporation_id_assets_location_flag convert(
 			get_characters_character_id_assets_location_flag source) {
-		switch (source) {
-		case CorpseBay:
-			return get_corporations_corporation_id_assets_location_flag.CrateLoot;
-		default:
-			return get_corporations_corporation_id_assets_location_flag.valueOf(source.name());
-		}
+		return switch (source) {
+			case CorpseBay -> get_corporations_corporation_id_assets_location_flag.CrateLoot;
+			default -> get_corporations_corporation_id_assets_location_flag.valueOf(source.name());
+		};
 	}
 
 	public static get_corporations_corporation_id_assets_location_type convert(
 			get_characters_character_id_assets_location_type source) {
-		switch (source) {
-		case item:
-			return get_corporations_corporation_id_assets_location_type.item;
-		case other:
-			return get_corporations_corporation_id_assets_location_type.other;
-		case solar_system:
-			return get_corporations_corporation_id_assets_location_type.solar_system;
-		case station:
-			return get_corporations_corporation_id_assets_location_type.station;
-		default:
-			throw new UnsupportedOperationException("can't handle case " + source);
-		}
+		return switch (source) {
+			case item -> get_corporations_corporation_id_assets_location_type.item;
+			case other -> get_corporations_corporation_id_assets_location_type.other;
+			case solar_system -> get_corporations_corporation_id_assets_location_type.solar_system;
+			case station -> get_corporations_corporation_id_assets_location_type.station;
+			default -> throw new UnsupportedOperationException("can't handle case " + source);
+		};
 	}
 
 }

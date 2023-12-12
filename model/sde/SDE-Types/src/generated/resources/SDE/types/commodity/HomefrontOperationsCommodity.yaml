@@ -58,6 +58,7 @@ types:
     name: Insurgent Trojan Fragments
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 350000.0
     published: true
     volume: 0.009999999776482582
   77947:
@@ -67,6 +68,7 @@ types:
     name: Federal Encryption Key
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 350000.0
     published: true
     volume: 0.009999999776482582
   77948:
@@ -76,6 +78,7 @@ types:
     name: Megacorp Transaction Thread
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 350000.0
     published: true
     volume: 0.009999999776482582
   77949:
@@ -85,5 +88,6 @@ types:
     name: Imperial Exploit Log
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 350000.0
     published: true
     volume: 0.009999999776482582

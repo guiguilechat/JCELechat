@@ -1,5 +1,6 @@
 types:
   4256:
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 834
     capacity: 300.0
     chargegroup1: 90
@@ -9,7 +10,6 @@ types:
     cpu: 55.0
     deadspaceunsafe: 2
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     disallowrepeatingactivation: 1
     hp: 40.0
     id: 4256
@@ -36,6 +36,7 @@ types:
     typecolorscheme: 11325
     volume: 50.0
   27914:
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 834
     capacity: 150.0
     chargegroup1: 90
@@ -45,7 +46,6 @@ types:
     cpu: 50.0
     deadspaceunsafe: 2
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     disallowrepeatingactivation: 1
     hp: 40.0
     id: 27914

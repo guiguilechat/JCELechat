@@ -80,6 +80,7 @@ types:
     canfitshiptype1: 671
     canfitshiptype2: 42126
     canfitshiptype3: 45649
+    canfitshiptype4: 78576
     capacitorneed: 25000.0
     consumptionquantity: 40000
     consumptiontype: 17887
@@ -119,6 +120,7 @@ types:
     canfitshiptype1: 23773
     canfitshiptype2: 42126
     canfitshiptype3: 42241
+    canfitshiptype4: 78576
     capacitorneed: 25000.0
     consumptionquantity: 40000
     consumptiontype: 17889

@@ -5,13 +5,12 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
 		<artifactId>programs</artifactId>
-		<version>7.1.3</version>
+		<version>7.1.4</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 	<artifactId>EveHistory</artifactId>
 	<name>Eve History</name>
 	<description>retain historical values in Eve.</description>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -29,8 +28,11 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 	<dependencies>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
@@ -84,17 +86,17 @@
 	<packaging>war</packaging>
 	<build>
 		<finalName>EveHistory</finalName>
-    <plugins>
-        <plugin>
-<!--	workaround https://github.com/spring-projects/spring-framework/issues/29612-->
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-                <compilerArgs>
-                    <arg>-parameters</arg>
-                </compilerArgs>
-            </configuration>
-        </plugin>
-    </plugins>
+		<plugins>
+			<plugin>
+				<!--	workaround https://github.com/spring-projects/spring-framework/issues/29612-->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<compilerArgs>
+						<arg>-parameters</arg>
+					</compilerArgs>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>

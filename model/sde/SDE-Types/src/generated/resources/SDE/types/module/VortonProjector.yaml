@@ -60,6 +60,7 @@ types:
     marketGroup: 2742
     mass: 500.0
     maxrange: 22464.0
+    metalevelold: 1
     name: Small Compact Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -101,6 +102,7 @@ types:
     marketGroup: 2742
     mass: 500.0
     maxrange: 27456.0
+    metalevelold: 1
     name: Small Scoped Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -143,6 +145,7 @@ types:
     marketGroup: 2742
     mass: 500.0
     maxrange: 24960.0
+    metalevelold: 5
     name: Small Vorton Projector II
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -161,7 +164,7 @@ types:
     requiredthermodynamicsskill: 1
     slots: 1
     speed: 6000.0
-    techlevel: 1
+    techlevel: 2
     typecolorscheme: 11324
     volume: 5.0
     vortonarcrange: 10000
@@ -187,6 +190,7 @@ types:
     marketGroup: 2742
     mass: 500.0
     maxrange: 27456.0
+    metalevelold: 8
     name: Small Consortium Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -269,6 +273,7 @@ types:
     marketGroup: 2743
     mass: 1000.0
     maxrange: 34560.0
+    metalevelold: 1
     name: Medium Compact Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 25.0
@@ -310,6 +315,7 @@ types:
     marketGroup: 2743
     mass: 1000.0
     maxrange: 42240.0
+    metalevelold: 1
     name: Medium Scoped Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 25.0
@@ -352,6 +358,7 @@ types:
     marketGroup: 2743
     mass: 1000.0
     maxrange: 38400.0
+    metalevelold: 5
     name: Medium Vorton Projector II
     overloadrofbonus: -15
     packagedVolume: 25.0
@@ -370,7 +377,7 @@ types:
     requiredthermodynamicsskill: 1
     slots: 1
     speed: 9000.0
-    techlevel: 1
+    techlevel: 2
     typecolorscheme: 11324
     volume: 25.0
     vortonarcrange: 10000
@@ -396,6 +403,7 @@ types:
     marketGroup: 2743
     mass: 1000.0
     maxrange: 42240.0
+    metalevelold: 8
     name: Medium Consortium Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 25.0
@@ -478,6 +486,7 @@ types:
     marketGroup: 2744
     mass: 2000.0
     maxrange: 57600.0
+    metalevelold: 1
     name: Large Compact Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 50.0
@@ -519,6 +528,7 @@ types:
     marketGroup: 2744
     mass: 2000.0
     maxrange: 70400.0
+    metalevelold: 1
     name: Large Scoped Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 50.0
@@ -561,6 +571,7 @@ types:
     marketGroup: 2744
     mass: 2000.0
     maxrange: 64000.0
+    metalevelold: 5
     name: Large Vorton Projector II
     overloadrofbonus: -15
     packagedVolume: 50.0
@@ -579,7 +590,7 @@ types:
     requiredthermodynamicsskill: 1
     slots: 1
     speed: 15000.0
-    techlevel: 1
+    techlevel: 2
     typecolorscheme: 11324
     volume: 50.0
     vortonarcrange: 10000
@@ -605,6 +616,7 @@ types:
     marketGroup: 2744
     mass: 2000.0
     maxrange: 70400.0
+    metalevelold: 8
     name: Large Consortium Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 50.0

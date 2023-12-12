@@ -316,7 +316,7 @@ types:
     capacitorneed: 12000.0
     cpu: 80.0
     disallowrepeatingactivation: 1
-    duration: 16500.0
+    duration: 17500.0
     hp: 40.0
     hullemdamageresonance: 0.05000000074505806
     hullexplosivedamageresonance: 0.05000000074505806

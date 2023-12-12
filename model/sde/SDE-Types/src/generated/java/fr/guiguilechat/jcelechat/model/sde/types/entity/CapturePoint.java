@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CaptureProximityInteractivesOnly;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CaptureProximityRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
@@ -50,6 +51,13 @@ public class CapturePoint
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacity;
+    /**
+     * to allow capture point proximity sensors to also detect non-interactives (like NPCs/entities) 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int captureproximityinteractivesonly;
     /**
      * 
      */
@@ -141,7 +149,7 @@ public class CapturePoint
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Charge.INSTANCE, EntityFactionLoss.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, CaptureProximityRange.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, CaptureProximityInteractivesOnly.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, KineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Charge.INSTANCE, EntityFactionLoss.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, CaptureProximityRange.INSTANCE })));
     public static final CapturePoint.MetaGroup METAGROUP = new CapturePoint.MetaGroup();
 
     @Override
@@ -154,6 +162,10 @@ public class CapturePoint
             case  38 :
             {
                 return capacity;
+            }
+            case  5602 :
+            {
+                return captureproximityinteractivesonly;
             }
             case  1337 :
             {

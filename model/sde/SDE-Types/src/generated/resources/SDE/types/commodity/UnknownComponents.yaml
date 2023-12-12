@@ -198,3 +198,23 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  78886:
+    id: 78886
+    marketGroup: 2013
+    mass: 1.0
+    name: Element Control Data
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.10000000149011612
+  78887:
+    id: 78887
+    marketGroup: 2013
+    mass: 1.0
+    name: Element Containment Vessel
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 0.10000000149011612

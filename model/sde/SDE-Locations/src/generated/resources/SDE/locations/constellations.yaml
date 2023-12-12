@@ -5725,6 +5725,7 @@ locations:
   Amevync:
     adjacentConstellations:
     - Balenne
+    - Duzna Kah
     - Inolari
     - Ishaga
     - Pegeler
@@ -5732,12 +5733,14 @@ locations:
     adjacentRegions:
     - Black Rise
     - Cloud Ring
+    - Yasna Zakh
     adjacentSystems:
     - Eha
     - F7C-H0
     - Nennamaila
     - Odamia
     - Renarelle
+    - Zarzakh
     hasBorder: true
     hasCorridor: true
     hasFringe: true
@@ -13049,6 +13052,36 @@ locations:
     - Metserel
     - Pettinck
     - Sharuveil
+  Duzna Kah:
+    adjacentConstellations:
+    - Amevync
+    - Eugidi
+    - Hale
+    - ST-0EZ
+    adjacentRegions:
+    - Curse
+    - Metropolis
+    - Placid
+    - Venal
+    adjacentSystems:
+    - Alsavoinon
+    - G-0Q86
+    - H-PA29
+    - Turnur
+    hasBorder: false
+    hasCorridor: false
+    hasFringe: false
+    hasHub: false
+    id: 20010000
+    isAbyssal: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isWormhole: false
+    name: Duzna Kah
+    region: Yasna Zakh
+    systems:
+    - Zarzakh
   E-312G:
     adjacentConstellations:
     - 0C-PZ4
@@ -15462,15 +15495,18 @@ locations:
   Eugidi:
     adjacentConstellations:
     - Algintal
+    - Duzna Kah
     - Tandoiras
     - Tiat
     adjacentRegions:
     - Sinq Laison
     - The Bleak Lands
+    - Yasna Zakh
     adjacentSystems:
     - Ardar
     - Audaerne
     - Kurniainen
+    - Zarzakh
     hasBorder: true
     hasCorridor: true
     hasFringe: false
@@ -17594,9 +17630,13 @@ locations:
     - ZT-LPU
   Hale:
     adjacentConstellations:
+    - Duzna Kah
     - Elysium
+    adjacentRegions:
+    - Yasna Zakh
     adjacentSystems:
     - KLMT-W
+    - Zarzakh
     hasBorder: true
     hasCorridor: true
     hasFringe: true
@@ -26242,15 +26282,19 @@ locations:
     adjacentConstellations:
     - 1G-8KY
     - 48R-PS
+    - Duzna Kah
     - E-I1JW
     - N32Z-Z
     - UTZ-7B
+    adjacentRegions:
+    - Yasna Zakh
     adjacentSystems:
     - BV-1JG
     - HBD-CC
     - K3JR-J
     - N-Q5PW
     - N6G-H3
+    - Zarzakh
     hasBorder: true
     hasCorridor: true
     hasFringe: false

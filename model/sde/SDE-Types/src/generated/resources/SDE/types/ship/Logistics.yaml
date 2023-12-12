@@ -608,9 +608,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
-    heatattenuationhi: 0.6299605369567871
-    heatattenuationlow: 0.7071067690849304
-    heatattenuationmed: 0.6299605369567871
+    heatattenuationhi: 0.6299999952316284
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100

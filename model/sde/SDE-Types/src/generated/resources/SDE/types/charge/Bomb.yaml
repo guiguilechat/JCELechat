@@ -2,6 +2,7 @@ types:
   27912:
     agility: 0.02753569185733795
     aimedlaunch: 1
+    allowinfullycorruptedlowsec: 1
     aoecloudsize: 400
     aoefalloff: 1500
     armoremdamageresonance: 1.0
@@ -12,7 +13,6 @@ types:
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     empfieldrange: 15000
     explosiondelay: 12000
     explosionrange: 15000
@@ -38,6 +38,7 @@ types:
   27916:
     agility: 0.02753569185733795
     aimedlaunch: 1
+    allowinfullycorruptedlowsec: 1
     aoecloudsize: 400
     aoefalloff: 1500
     armoremdamageresonance: 1.0
@@ -48,7 +49,6 @@ types:
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     empfieldrange: 15000
     explosiondelay: 12000
     explosionrange: 15000
@@ -74,6 +74,7 @@ types:
   27918:
     agility: 0.02753569185733795
     aimedlaunch: 1
+    allowinfullycorruptedlowsec: 1
     aoecloudsize: 400
     aoefalloff: 1500
     armoremdamageresonance: 1.0
@@ -84,7 +85,6 @@ types:
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     empfieldrange: 15000
     explosiondelay: 12000
     explosionrange: 15000
@@ -110,6 +110,7 @@ types:
   27920:
     agility: 0.02753569185733795
     aimedlaunch: 1
+    allowinfullycorruptedlowsec: 1
     aoecloudsize: 400
     aoefalloff: 1500
     armoremdamageresonance: 0.0020000000949949026
@@ -120,7 +121,6 @@ types:
     armoruniformity: 1.0
     detonationrange: 35
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     emdamage: 5800.0
     empfieldrange: 15000
     explosiondelay: 12000

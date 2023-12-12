@@ -14,11 +14,16 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExportTaxMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ImportTaxMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebifierResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -26,6 +31,25 @@ import org.yaml.snakeyaml.Yaml;
 public class Miscellaneous
     extends Commodity
 {
+    /**
+     *  0: Mission/NPE Ore
+     *  1: Standard Ore/Ice
+     *  2: +5% Ore
+     *  3: +10% Ore
+     *  4: High Quality Ice or Extracted Ore
+     *  5: Jackpot Moon Ore
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int asteroidmetalevel;
+    /**
+     * Controls how quickly an asteroid radius increases as its quantity grows.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double asteroidradiusgrowthfactor;
     /**
      * The cargo space allowed
      */
@@ -48,6 +72,13 @@ public class Miscellaneous
     @DefaultRealValue(0.0)
     public double hp;
     /**
+     * If set to true, this results in no mining waste.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ignoreminingwaste;
+    /**
      * Cost multiplier per m3 volume of this commodity when importing to a planet
      */
     @HighIsGood(false)
@@ -55,18 +86,40 @@ public class Miscellaneous
     @DefaultIntValue(1)
     public int importtaxmultiplier;
     /**
+     * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int orebasictype;
+    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, ImportTaxMultiplier.INSTANCE, Hp.INSTANCE, ExportTaxMultiplier.INSTANCE })));
+    /**
+     * Resistance against Stasis Webifiers
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double stasiswebifierresistance;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, Capacity.INSTANCE, OreBasicType.INSTANCE, ImportTaxMultiplier.INSTANCE, Hp.INSTANCE, ExportTaxMultiplier.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE })));
     public static final Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  2699 :
+            {
+                return asteroidmetalevel;
+            }
+            case  1980 :
+            {
+                return asteroidradiusgrowthfactor;
+            }
             case  38 :
             {
                 return capacity;
@@ -79,13 +132,25 @@ public class Miscellaneous
             {
                 return hp;
             }
+            case  3236 :
+            {
+                return ignoreminingwaste;
+            }
             case  1640 :
             {
                 return importtaxmultiplier;
             }
+            case  2711 :
+            {
+                return orebasictype;
+            }
             case  162 :
             {
                 return radius;
+            }
+            case  2115 :
+            {
+                return stasiswebifierresistance;
             }
             default:
             {

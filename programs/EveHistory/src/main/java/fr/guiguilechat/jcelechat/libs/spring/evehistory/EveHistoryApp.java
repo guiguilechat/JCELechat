@@ -40,14 +40,14 @@ public class EveHistoryApp extends SpringBootServletInitializer {
 					for (Region r : Region.load().values().stream().filter(r -> r.isKS).toList()) {
 						mors.observeRegion(r);
 					}
-// mors.observeRegions(
-// 10000002, // The Forge
-// 10000030, // Heimatar
-// 10000032, // Sinq Laison
-// 10000042, // Metropolis
-// 10000043, // Domain
-// 10000060// Delve
-// );
+					// mors.observeRegions(
+					// 10000002, // The Forge
+					// 10000030, // Heimatar
+					// 10000032, // Sinq Laison
+					// 10000042, // Metropolis
+					// 10000043, // Domain
+					// 10000060// Delve
+					// );
 				}
 			}
 			log.info("after startup, observed regions : " + mors.observedRegions());

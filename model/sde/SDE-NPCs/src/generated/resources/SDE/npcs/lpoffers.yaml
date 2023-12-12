@@ -24843,54 +24843,54 @@ offers:
     requirements:
       isk: -323855360
       items:
-      - id: 21009
-        quantity: 1200
-      - id: 21011
-        quantity: 4500
-      - id: 21013
-        quantity: 945
-      - id: 21017
-        quantity: 3400
-      - id: 21019
-        quantity: 1200
-      - id: 21021
-        quantity: 1800
-      - id: 21023
-        quantity: 1500
-      - id: 21025
-        quantity: 1200
-      - id: 21035
-        quantity: 600
-      - id: 21037
-        quantity: 1800
-      - id: 24545
-        quantity: 3000
-      - id: 24547
-        quantity: 1500
-      - id: 24556
-        quantity: 4700
-      - id: 24558
-        quantity: 2200
-      - id: 24560
-        quantity: 945
-      - id: 42226
-        quantity: 8000
+      - id: 57489
+        quantity: 1
+      - id: 57487
+        quantity: 20
       - id: 57472
         quantity: 64
       - id: 57473
         quantity: 64
+      - id: 21009
+        quantity: 80
+      - id: 21035
+        quantity: 100
+      - id: 42226
+        quantity: 100
       - id: 57476
-        quantity: 250
+        quantity: 125
       - id: 57477
-        quantity: 250
-      - id: 57478
-        quantity: 1600
+        quantity: 125
+      - id: 21023
+        quantity: 150
+      - id: 21013
+        quantity: 200
+      - id: 21037
+        quantity: 200
+      - id: 21017
+        quantity: 300
+      - id: 21021
+        quantity: 300
+      - id: 21025
+        quantity: 300
+      - id: 21011
+        quantity: 400
+      - id: 21019
+        quantity: 400
+      - id: 24545
+        quantity: 500
+      - id: 24547
+        quantity: 500
+      - id: 24556
+        quantity: 500
+      - id: 24558
+        quantity: 500
+      - id: 24560
+        quantity: 500
       - id: 57486
         quantity: 800
-      - id: 57487
-        quantity: 20
-      - id: 57489
-        quantity: 1
+      - id: 57478
+        quantity: 1600
       lp: 150000000
   16248:
     id: 16248
@@ -38416,23 +38416,2268 @@ offers:
       quantity: 1
     requirements:
       lp: 9000
-  19243:
-    id: 19243
-    name: Mekubal Blueprint
+  19105:
+    id: 19105
+    name: Domination 100MN Afterburner
     product:
-      id: 78360
+      id: 14102
       quantity: 1
     requirements:
+      isk: 11414300
       items:
-      - id: 78906
+      - id: 12066
         quantity: 1
-  19244:
-    id: 19244
-    name: Mamba Blueprint
+      lp: 28500
+  19106:
+    id: 19106
+    name: Domination 10MN Afterburner
     product:
-      id: 78393
+      id: 14106
       quantity: 1
     requirements:
+      isk: 9137100
       items:
-      - id: 78906
+      - id: 12056
         quantity: 1
+      lp: 22800
+  19107:
+    id: 19107
+    name: Domination 1MN Afterburner
+    product:
+      id: 14110
+      quantity: 1
+    requirements:
+      isk: 6445700
+      items:
+      - id: 439
+        quantity: 1
+      lp: 16100
+  19108:
+    id: 19108
+    name: Domination 500MN Microwarpdrive
+    product:
+      id: 14114
+      quantity: 1
+    requirements:
+      isk: 52246400
+      items:
+      - id: 12054
+        quantity: 1
+      lp: 85700
+  19109:
+    id: 19109
+    name: Domination 50MN Microwarpdrive
+    product:
+      id: 14118
+      quantity: 1
+    requirements:
+      isk: 27422900
+      items:
+      - id: 12052
+        quantity: 1
+      lp: 68600
+  19110:
+    id: 19110
+    name: Domination 5MN Microwarpdrive
+    product:
+      id: 14122
+      quantity: 1
+    requirements:
+      isk: 19337100
+      items:
+      - id: 434
+        quantity: 1
+      lp: 48300
+  19111:
+    id: 19111
+    name: Domination 1200mm Artillery
+    product:
+      id: 13774
+      quantity: 1
+    requirements:
+      isk: 12857100
+      items:
+      - id: 497
+        quantity: 1
+      lp: 32100
+  19112:
+    id: 19112
+    name: Domination 125mm Autocannon
+    product:
+      id: 13773
+      quantity: 1
+    requirements:
+      isk: 8457100
+      items:
+      - id: 484
+        quantity: 1
+      lp: 21100
+  19113:
+    id: 19113
+    name: Domination 1400mm Howitzer Artillery
+    product:
+      id: 13775
+      quantity: 1
+    requirements:
+      isk: 14985700
+      items:
+      - id: 498
+        quantity: 1
+      lp: 37500
+  19114:
+    id: 19114
+    name: Domination 150mm Autocannon
+    product:
+      id: 13776
+      quantity: 1
+    requirements:
+      isk: 8457100
+      items:
+      - id: 485
+        quantity: 1
+      lp: 21100
+  19115:
+    id: 19115
+    name: Domination 200mm Autocannon
+    product:
+      id: 13777
+      quantity: 1
+    requirements:
+      isk: 8457100
+      items:
+      - id: 486
+        quantity: 1
+      lp: 21100
+  19116:
+    id: 19116
+    name: Domination 220mm Autocannon
+    product:
+      id: 13778
+      quantity: 1
+    requirements:
+      isk: 12000000
+      items:
+      - id: 490
+        quantity: 1
+      lp: 30000
+  19117:
+    id: 19117
+    name: Domination 250mm Artillery
+    product:
+      id: 13779
+      quantity: 1
+    requirements:
+      isk: 8457100
+      items:
+      - id: 487
+        quantity: 1
+      lp: 21100
+  19118:
+    id: 19118
+    name: Domination 280mm Howitzer Artillery
+    product:
+      id: 13781
+      quantity: 1
+    requirements:
+      isk: 8457100
+      items:
+      - id: 488
+        quantity: 1
+      lp: 21100
+  19119:
+    id: 19119
+    name: Domination 425mm Autocannon
+    product:
+      id: 13782
+      quantity: 1
+    requirements:
+      isk: 12000000
+      items:
+      - id: 491
+        quantity: 1
+      lp: 30000
+  19120:
+    id: 19120
+    name: Domination 650mm Artillery
+    product:
+      id: 13783
+      quantity: 1
+    requirements:
+      isk: 12000000
+      items:
+      - id: 492
+        quantity: 1
+      lp: 30000
+  19121:
+    id: 19121
+    name: Domination 720mm Howitzer Artillery
+    product:
+      id: 13784
+      quantity: 1
+    requirements:
+      isk: 12000000
+      items:
+      - id: 493
+        quantity: 1
+      lp: 30000
+  19122:
+    id: 19122
+    name: Domination 800mm Repeating Cannon
+    product:
+      id: 13785
+      quantity: 1
+    requirements:
+      isk: 14985700
+      items:
+      - id: 496
+        quantity: 1
+      lp: 37500
+  19123:
+    id: 19123
+    name: Domination Dual 180mm Autocannon
+    product:
+      id: 13786
+      quantity: 1
+    requirements:
+      isk: 12000000
+      items:
+      - id: 489
+        quantity: 1
+      lp: 30000
+  19124:
+    id: 19124
+    name: Domination Dual 425mm Autocannon
+    product:
+      id: 13787
+      quantity: 1
+    requirements:
+      isk: 14985700
+      items:
+      - id: 494
+        quantity: 1
+      lp: 37500
+  19125:
+    id: 19125
+    name: Domination Dual 650mm Repeating Cannon
+    product:
+      id: 13788
+      quantity: 1
+    requirements:
+      isk: 14985700
+      items:
+      - id: 495
+        quantity: 1
+      lp: 37500
+  19126:
+    id: 19126
+    name: Domination Large Proton Smartbomb
+    product:
+      id: 14208
+      quantity: 1
+    requirements:
+      isk: 32142900
+      items:
+      - id: 3977
+        quantity: 1
+      lp: 80400
+  19127:
+    id: 19127
+    name: Domination Medium Proton Smartbomb
+    product:
+      id: 14222
+      quantity: 1
+    requirements:
+      isk: 25714300
+      items:
+      - id: 3937
+        quantity: 1
+      lp: 64300
+  19128:
+    id: 19128
+    name: Domination Small Proton Smartbomb
+    product:
+      id: 14226
+      quantity: 1
+    requirements:
+      isk: 18128600
+      items:
+      - id: 1547
+        quantity: 1
+      lp: 45300
+  19129:
+    id: 19129
+    name: Domination EM Shield Hardener
+    product:
+      id: 13994
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 2293
+        quantity: 1
+      lp: 16000
+  19130:
+    id: 19130
+    name: Domination Explosive Shield Hardener
+    product:
+      id: 13996
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 2289
+        quantity: 1
+      lp: 16000
+  19131:
+    id: 19131
+    name: Domination Kinetic Shield Hardener
+    product:
+      id: 13997
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 2291
+        quantity: 1
+      lp: 16000
+  19132:
+    id: 19132
+    name: Domination Multispectrum Shield Hardener
+    product:
+      id: 13998
+      quantity: 1
+    requirements:
+      isk: 102857100
+      items:
+      - id: 578
+        quantity: 1
+      lp: 257100
+  19133:
+    id: 19133
+    name: Domination Thermal Shield Hardener
+    product:
+      id: 13995
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 2295
+        quantity: 1
+      lp: 16000
+  19134:
+    id: 19134
+    name: Domination Explosive Shield Amplifier
+    product:
+      id: 14029
+      quantity: 1
+    requirements:
+      isk: 4560000
+      items:
+      - id: 2529
+        quantity: 1
+      lp: 11400
+  19135:
+    id: 19135
+    name: Domination Thermal Shield Amplifier
+    product:
+      id: 14033
+      quantity: 1
+    requirements:
+      isk: 4560000
+      items:
+      - id: 2537
+        quantity: 1
+      lp: 11400
+  19136:
+    id: 19136
+    name: Domination Kinetic Shield Amplifier
+    product:
+      id: 14037
+      quantity: 1
+    requirements:
+      isk: 4560000
+      items:
+      - id: 2545
+        quantity: 1
+      lp: 11400
+  19137:
+    id: 19137
+    name: Domination EM Shield Amplifier
+    product:
+      id: 14041
+      quantity: 1
+    requirements:
+      isk: 4560000
+      items:
+      - id: 1808
+        quantity: 1
+      lp: 11400
+  19138:
+    id: 19138
+    name: Domination Large Shield Booster
+    product:
+      id: 13948
+      quantity: 1
+    requirements:
+      isk: 28907100
+      items:
+      - id: 10838
+        quantity: 1
+      lp: 72300
+  19139:
+    id: 19139
+    name: Domination Medium Shield Booster
+    product:
+      id: 13950
+      quantity: 1
+    requirements:
+      isk: 23137100
+      items:
+      - id: 10836
+        quantity: 1
+      lp: 57800
+  19140:
+    id: 19140
+    name: Domination Small Shield Booster
+    product:
+      id: 13952
+      quantity: 1
+    requirements:
+      isk: 16315700
+      items:
+      - id: 399
+        quantity: 1
+      lp: 40800
+  19141:
+    id: 19141
+    name: Domination X-Large Shield Booster
+    product:
+      id: 13954
+      quantity: 1
+    requirements:
+      isk: 34714300
+      items:
+      - id: 10840
+        quantity: 1
+      lp: 86800
+  19142:
+    id: 19142
+    name: Domination Warp Disruptor
+    product:
+      id: 14244
+      quantity: 1
+    requirements:
+      isk: 34737100
+      items:
+      - id: 3242
+        quantity: 1
+      lp: 86800
+  19143:
+    id: 19143
+    name: Domination Warp Scrambler
+    product:
+      id: 14254
+      quantity: 1
+    requirements:
+      isk: 34737100
+      items:
+      - id: 447
+        quantity: 1
+      lp: 86800
+  19144:
+    id: 19144
+    name: Domination EM Armor Hardener
+    product:
+      id: 13986
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 11301
+        quantity: 1
+      lp: 16000
+  19145:
+    id: 19145
+    name: Domination Explosive Armor Hardener
+    product:
+      id: 13988
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 11303
+        quantity: 1
+      lp: 16000
+  19146:
+    id: 19146
+    name: Domination Kinetic Armor Hardener
+    product:
+      id: 13990
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 11305
+        quantity: 1
+      lp: 16000
+  19147:
+    id: 19147
+    name: Domination Thermal Armor Hardener
+    product:
+      id: 13992
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 11277
+        quantity: 1
+      lp: 16000
+  19148:
+    id: 19148
+    name: Domination Multispectrum Coating
+    product:
+      id: 13999
+      quantity: 1
+    requirements:
+      isk: 3222900
+      items:
+      - id: 1304
+        quantity: 1
+      lp: 8100
+  19149:
+    id: 19149
+    name: Domination Kinetic Coating
+    product:
+      id: 14005
+      quantity: 1
+    requirements:
+      isk: 3222900
+      items:
+      - id: 1284
+        quantity: 1
+      lp: 8100
+  19150:
+    id: 19150
+    name: Domination Explosive Coating
+    product:
+      id: 14011
+      quantity: 1
+    requirements:
+      isk: 3222900
+      items:
+      - id: 1264
+        quantity: 1
+      lp: 8100
+  19151:
+    id: 19151
+    name: Domination EM Coating
+    product:
+      id: 14017
+      quantity: 1
+    requirements:
+      isk: 3222900
+      items:
+      - id: 1197
+        quantity: 1
+      lp: 8100
+  19152:
+    id: 19152
+    name: Domination Thermal Coating
+    product:
+      id: 14023
+      quantity: 1
+    requirements:
+      isk: 3222900
+      items:
+      - id: 1294
+        quantity: 1
+      lp: 8100
+  19153:
+    id: 19153
+    name: Domination Medium Cap Battery
+    product:
+      id: 41216
+      quantity: 1
+    requirements:
+      isk: 7500000
+      items:
+      - id: 2018
+        quantity: 1
+      lp: 15000
+  19154:
+    id: 19154
+    name: Domination Large Cap Battery
+    product:
+      id: 41219
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 2020
+        quantity: 1
+      lp: 20000
+  19155:
+    id: 19155
+    name: Domination Small Cap Battery
+    product:
+      id: 41213
+      quantity: 1
+    requirements:
+      isk: 5000000
+      items:
+      - id: 1185
+        quantity: 1
+      lp: 10000
+  19156:
+    id: 19156
+    name: Domination Stasis Webifier
+    product:
+      id: 14264
+      quantity: 1
+    requirements:
+      isk: 18057100
+      items:
+      - id: 526
+        quantity: 1
+      lp: 87600
+  19157:
+    id: 19157
+    name: Domination Target Painter
+    product:
+      id: 32414
+      quantity: 1
+    requirements:
+      isk: 5142900
+      items:
+      - id: 12709
+        quantity: 1
+      lp: 12900
+  19158:
+    id: 19158
+    name: Domination Heavy Assault Missile Launcher
+    product:
+      id: 28379
+      quantity: 1
+    requirements:
+      isk: 3994300
+      items:
+      - id: 20138
+        quantity: 1
+      lp: 10000
+  19159:
+    id: 19159
+    name: Domination Rapid Heavy Missile Launcher
+    product:
+      id: 33452
+      quantity: 1
+    requirements:
+      isk: 14985700
+      items:
+      - id: 33448
+        quantity: 1
+      lp: 37500
+  19160:
+    id: 19160
+    name: Domination Rapid Light Missile Launcher
+    product:
+      id: 13919
+      quantity: 1
+    requirements:
+      isk: 12000000
+      items:
+      - id: 1875
+        quantity: 1
+      lp: 30000
+  19161:
+    id: 19161
+    name: Domination Ballistic Control System
+    product:
+      id: 13935
+      quantity: 1
+    requirements:
+      isk: 25714300
+      items:
+      - id: 12274
+        quantity: 1
+      lp: 64300
+  19162:
+    id: 19162
+    name: Domination Cruise Missile Launcher
+    product:
+      id: 13927
+      quantity: 1
+    requirements:
+      isk: 14985700
+      items:
+      - id: 13320
+        quantity: 1
+      lp: 37500
+  19163:
+    id: 19163
+    name: Domination Gyrostabilizer
+    product:
+      id: 13939
+      quantity: 1
+    requirements:
+      isk: 17128600
+      items:
+      - id: 520
+        quantity: 1
+      lp: 42800
+  19164:
+    id: 19164
+    name: Domination Nanofiber Structure
+    product:
+      id: 14127
+      quantity: 1
+    requirements:
+      isk: 9137100
+      items:
+      - id: 2603
+        quantity: 1
+      lp: 22800
+  19165:
+    id: 19165
+    name: Domination Overdrive Injector
+    product:
+      id: 14126
+      quantity: 1
+    requirements:
+      isk: 9137100
+      items:
+      - id: 1244
+        quantity: 1
+      lp: 22800
+  19166:
+    id: 19166
+    name: Domination Rocket Launcher
+    product:
+      id: 13931
+      quantity: 1
+    requirements:
+      isk: 8457100
+      items:
+      - id: 10629
+        quantity: 1
+      lp: 21100
+  19167:
+    id: 19167
+    name: Domination Shield Boost Amplifier
+    product:
+      id: 14045
+      quantity: 1
+    requirements:
+      isk: 25714300
+      items:
+      - id: 11561
+        quantity: 1
+      lp: 64300
+  19168:
+    id: 19168
+    name: Domination Torpedo Launcher
+    product:
+      id: 13923
+      quantity: 1
+    requirements:
+      isk: 14985700
+      items:
+      - id: 503
+        quantity: 1
+      lp: 37500
+  19169:
+    id: 19169
+    name: Domination Light Missile Launcher
+    product:
+      id: 13925
+      quantity: 1
+    requirements:
+      isk: 8457100
+      items:
+      - id: 499
+        quantity: 1
+      lp: 21100
+  19170:
+    id: 19170
+    name: Domination Tracking Enhancer
+    product:
+      id: 14100
+      quantity: 1
+    requirements:
+      isk: 9665700
+      items:
+      - id: 1998
+        quantity: 1
+      lp: 24200
+  19171:
+    id: 19171
+    name: Domination Large Armor Repairer
+    product:
+      id: 13955
+      quantity: 1
+    requirements:
+      isk: 22478600
+      items:
+      - id: 3538
+        quantity: 1
+      lp: 56200
+  19172:
+    id: 19172
+    name: Domination Medium Armor Repairer
+    product:
+      id: 13958
+      quantity: 1
+    requirements:
+      isk: 17994300
+      items:
+      - id: 3528
+        quantity: 1
+      lp: 45000
+  19173:
+    id: 19173
+    name: Domination Small Armor Repairer
+    product:
+      id: 13962
+      quantity: 1
+    requirements:
+      isk: 12685700
+      items:
+      - id: 523
+        quantity: 1
+      lp: 31700
+  19174:
+    id: 19174
+    name: 5* Datacore - Mechanical Engineering
+    product:
+      id: 20424
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19175:
+    id: 19175
+    name: 5* Datacore - Laser Physics
+    product:
+      id: 20413
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19176:
+    id: 19176
+    name: 5* Datacore - Nanite Engineering
+    product:
+      id: 20416
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19177:
+    id: 19177
+    name: 5* Datacore - High Energy Physics
+    product:
+      id: 20411
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19178:
+    id: 19178
+    name: 5* Datacore - Hydromagnetic Physics
+    product:
+      id: 20171
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19179:
+    id: 19179
+    name: 5* Datacore - Molecular Engineering
+    product:
+      id: 20415
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19180:
+    id: 19180
+    name: 5* Datacore - Nuclear Physics
+    product:
+      id: 20423
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19181:
+    bpid: 3963
+    bpruns: 1
+    id: 19181
+    name: Customs Office Gantry(BPC)
+    product:
+      id: 3962
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 2875
+        quantity: 16
+      - id: 2868
+        quantity: 6
+      - id: 2869
+        quantity: 11
+      - id: 2870
+        quantity: 11
+      - id: 21037
+        quantity: 1
+      lp: 3000
+  19182:
+    id: 19182
+    name: Dread Guristas Large Graviton Smartbomb
+    product:
+      id: 14204
+      quantity: 1
+    requirements:
+      isk: 32142900
+      items:
+      - id: 3981
+        quantity: 1
+      lp: 80400
+  19183:
+    id: 19183
+    name: Dread Guristas Medium Graviton Smartbomb
+    product:
+      id: 14210
+      quantity: 1
+    requirements:
+      isk: 25714300
+      items:
+      - id: 3941
+        quantity: 1
+      lp: 64300
+  19184:
+    id: 19184
+    name: Dread Guristas Small Graviton Smartbomb
+    product:
+      id: 14214
+      quantity: 1
+    requirements:
+      isk: 18128600
+      items:
+      - id: 1551
+        quantity: 1
+      lp: 45300
+  19185:
+    id: 19185
+    name: Dread Guristas EM Shield Hardener
+    product:
+      id: 13965
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 2293
+        quantity: 1
+      lp: 16000
+  19186:
+    id: 19186
+    name: Dread Guristas Explosive Shield Hardener
+    product:
+      id: 13967
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 2289
+        quantity: 1
+      lp: 16000
+  19187:
+    id: 19187
+    name: Dread Guristas Kinetic Shield Hardener
+    product:
+      id: 13968
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 2291
+        quantity: 1
+      lp: 16000
+  19188:
+    id: 19188
+    name: Dread Guristas Multispectrum Shield Hardener
+    product:
+      id: 13969
+      quantity: 1
+    requirements:
+      isk: 102857100
+      items:
+      - id: 578
+        quantity: 1
+      lp: 257100
+  19189:
+    id: 19189
+    name: Dread Guristas Thermal Shield Hardener
+    product:
+      id: 13966
+      quantity: 1
+    requirements:
+      isk: 6414300
+      items:
+      - id: 2295
+        quantity: 1
+      lp: 16000
+  19190:
+    id: 19190
+    name: Dread Guristas Explosive Shield Amplifier
+    product:
+      id: 14031
+      quantity: 1
+    requirements:
+      isk: 5137100
+      items:
+      - id: 2529
+        quantity: 1
+      lp: 12800
+  19191:
+    id: 19191
+    name: Dread Guristas Thermal Shield Amplifier
+    product:
+      id: 14035
+      quantity: 1
+    requirements:
+      isk: 5137100
+      items:
+      - id: 2537
+        quantity: 1
+      lp: 12800
+  19192:
+    id: 19192
+    name: Dread Guristas Kinetic Shield Amplifier
+    product:
+      id: 14039
+      quantity: 1
+    requirements:
+      isk: 5137100
+      items:
+      - id: 2545
+        quantity: 1
+      lp: 12800
+  19193:
+    id: 19193
+    name: Dread Guristas EM Shield Amplifier
+    product:
+      id: 14043
+      quantity: 1
+    requirements:
+      isk: 5137100
+      items:
+      - id: 1808
+        quantity: 1
+      lp: 12800
+  19194:
+    id: 19194
+    name: Dread Guristas Large Shield Booster
+    product:
+      id: 13947
+      quantity: 1
+    requirements:
+      isk: 28907100
+      items:
+      - id: 10838
+        quantity: 1
+      lp: 72300
+  19195:
+    id: 19195
+    name: Dread Guristas Medium Shield Booster
+    product:
+      id: 13949
+      quantity: 1
+    requirements:
+      isk: 23137100
+      items:
+      - id: 10836
+        quantity: 1
+      lp: 57800
+  19196:
+    id: 19196
+    name: Dread Guristas Small Shield Booster
+    product:
+      id: 13951
+      quantity: 1
+    requirements:
+      isk: 16315700
+      items:
+      - id: 399
+        quantity: 1
+      lp: 40800
+  19197:
+    id: 19197
+    name: Dread Guristas X-Large Shield Booster
+    product:
+      id: 13953
+      quantity: 1
+    requirements:
+      isk: 34714300
+      items:
+      - id: 10840
+        quantity: 1
+      lp: 86800
+  19198:
+    id: 19198
+    name: Dread Guristas Warp Disruptor
+    product:
+      id: 14246
+      quantity: 1
+    requirements:
+      isk: 7994300
+      items:
+      - id: 3242
+        quantity: 1
+      lp: 20000
+  19199:
+    id: 19199
+    name: Dread Guristas Warp Scrambler
+    product:
+      id: 14256
+      quantity: 1
+    requirements:
+      isk: 7994300
+      items:
+      - id: 447
+        quantity: 1
+      lp: 20000
+  19200:
+    id: 19200
+    name: Dread Guristas 125mm Railgun
+    product:
+      id: 13865
+      quantity: 1
+    requirements:
+      isk: 9665700
+      items:
+      - id: 10678
+        quantity: 1
+      lp: 24200
+  19201:
+    id: 19201
+    name: Dread Guristas 150mm Railgun
+    product:
+      id: 13867
+      quantity: 1
+    requirements:
+      isk: 9665700
+      items:
+      - id: 565
+        quantity: 1
+      lp: 24200
+  19202:
+    id: 19202
+    name: Dread Guristas 200mm Railgun
+    product:
+      id: 13870
+      quantity: 1
+    requirements:
+      isk: 13708600
+      items:
+      - id: 12344
+        quantity: 1
+      lp: 34300
+  19203:
+    id: 19203
+    name: Dread Guristas 250mm Railgun
+    product:
+      id: 13873
+      quantity: 1
+    requirements:
+      isk: 13708600
+      items:
+      - id: 570
+        quantity: 1
+      lp: 34300
+  19204:
+    id: 19204
+    name: Dread Guristas 350mm Railgun
+    product:
+      id: 13876
+      quantity: 1
+    requirements:
+      isk: 17128600
+      items:
+      - id: 12354
+        quantity: 1
+      lp: 42800
+  19205:
+    id: 19205
+    name: Dread Guristas 425mm Railgun
+    product:
+      id: 13879
+      quantity: 1
+    requirements:
+      isk: 17128600
+      items:
+      - id: 574
+        quantity: 1
+      lp: 42800
+  19206:
+    id: 19206
+    name: Dread Guristas 75mm Railgun
+    product:
+      id: 13893
+      quantity: 1
+    requirements:
+      isk: 9665700
+      items:
+      - id: 561
+        quantity: 1
+      lp: 24200
+  19207:
+    id: 19207
+    name: Dread Guristas Dual 150mm Railgun
+    product:
+      id: 13881
+      quantity: 1
+    requirements:
+      isk: 13708600
+      items:
+      - id: 567
+        quantity: 1
+      lp: 34300
+  19208:
+    id: 19208
+    name: Dread Guristas Dual 250mm Railgun
+    product:
+      id: 13883
+      quantity: 1
+    requirements:
+      isk: 17128600
+      items:
+      - id: 572
+        quantity: 1
+      lp: 42800
+  19209:
+    id: 19209
+    name: Dread Guristas Co-Processor
+    product:
+      id: 14230
+      quantity: 1
+    requirements:
+      isk: 25714300
+      items:
+      - id: 3887
+        quantity: 1
+      lp: 64300
+  19210:
+    id: 19210
+    name: Dread Guristas Stasis Webifier
+    product:
+      id: 14266
+      quantity: 1
+    requirements:
+      isk: 11414300
+      items:
+      - id: 526
+        quantity: 1
+      lp: 28500
+  19211:
+    id: 19211
+    name: Dread Guristas Heavy Assault Missile Launcher
+    product:
+      id: 28381
+      quantity: 1
+    requirements:
+      isk: 13708600
+      items:
+      - id: 20138
+        quantity: 1
+      lp: 34300
+  19212:
+    id: 19212
+    name: Dread Guristas Rapid Heavy Missile Launcher
+    product:
+      id: 33453
+      quantity: 1
+    requirements:
+      isk: 14985700
+      items:
+      - id: 33448
+        quantity: 1
+      lp: 37500
+  19213:
+    id: 19213
+    name: Dread Guristas Rapid Light Missile Launcher
+    product:
+      id: 13920
+      quantity: 1
+    requirements:
+      isk: 13708600
+      items:
+      - id: 1875
+        quantity: 1
+      lp: 34300
+  19214:
+    id: 19214
+    name: Dread Guristas Ballistic Control System
+    product:
+      id: 13937
+      quantity: 1
+    requirements:
+      isk: 25714300
+      items:
+      - id: 12274
+        quantity: 1
+      lp: 64300
+  19215:
+    id: 19215
+    name: Dread Guristas Cruise Missile Launcher
+    product:
+      id: 13929
+      quantity: 1
+    requirements:
+      isk: 17128600
+      items:
+      - id: 13320
+        quantity: 1
+      lp: 42800
+  19216:
+    id: 19216
+    name: Dread Guristas Rocket Launcher
+    product:
+      id: 13933
+      quantity: 1
+    requirements:
+      isk: 9665700
+      items:
+      - id: 10629
+        quantity: 1
+      lp: 24200
+  19217:
+    id: 19217
+    name: Dread Guristas Shield Boost Amplifier
+    product:
+      id: 14047
+      quantity: 1
+    requirements:
+      isk: 28907100
+      items:
+      - id: 11561
+        quantity: 1
+      lp: 72300
+  19218:
+    id: 19218
+    name: Dread Guristas Omnidirectional Tracking Enhancer
+    product:
+      id: 33830
+      quantity: 1
+    requirements:
+      isk: 17128600
+      items:
+      - id: 33822
+        quantity: 1
+      lp: 42800
+  19219:
+    id: 19219
+    name: Dread Guristas Cloaking Device
+    product:
+      id: 14234
+      quantity: 1
+    requirements:
+      isk: 6445700
+      items:
+      - id: 11370
+        quantity: 1
+      lp: 16100
+  19220:
+    id: 19220
+    name: Dread Guristas Drone Damage Amplifier
+    product:
+      id: 33846
+      quantity: 1
+    requirements:
+      isk: 17128600
+      items:
+      - id: 4393
+        quantity: 1
+      lp: 42800
+  19221:
+    id: 19221
+    name: Dread Guristas Torpedo Launcher
+    product:
+      id: 13924
+      quantity: 1
+    requirements:
+      isk: 17128600
+      items:
+      - id: 503
+        quantity: 1
+      lp: 42800
+  19222:
+    id: 19222
+    name: Dread Guristas Light Missile Launcher
+    product:
+      id: 13926
+      quantity: 1
+    requirements:
+      isk: 9665700
+      items:
+      - id: 499
+        quantity: 1
+      lp: 24200
+  19223:
+    id: 19223
+    name: 5* Datacore - Mechanical Engineering
+    product:
+      id: 20424
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19224:
+    id: 19224
+    name: 5* Datacore - Plasma Physics
+    product:
+      id: 20412
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19225:
+    id: 19225
+    name: 5* Datacore - Electromagnetic Physics
+    product:
+      id: 20417
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19226:
+    id: 19226
+    name: 5* Datacore - Electronic Engineering
+    product:
+      id: 20418
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19227:
+    id: 19227
+    name: 5* Datacore - Graviton Physics
+    product:
+      id: 20419
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19228:
+    id: 19228
+    name: 5* Datacore - Quantum Physics
+    product:
+      id: 20414
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19229:
+    id: 19229
+    name: 5* Datacore - Rocket Science
+    product:
+      id: 20420
+      quantity: 5
+    requirements:
+      isk: 250000
+      lp: 250
+  19233:
+    id: 19233
+    name: Caldari Drone Specialization
+    product:
+      id: 12487
+      quantity: 1
+    requirements:
+      lp: 3000
+  19234:
+    id: 19234
+    name: Rocket Specialization
+    product:
+      id: 20209
+      quantity: 1
+    requirements:
+      lp: 1000
+  19235:
+    id: 19235
+    name: Light Missile Specialization
+    product:
+      id: 20210
+      quantity: 1
+    requirements:
+      lp: 1000
+  19236:
+    id: 19236
+    name: Heavy Missile Specialization
+    product:
+      id: 20211
+      quantity: 1
+    requirements:
+      lp: 3000
+  19237:
+    id: 19237
+    name: Cruise Missile Specialization
+    product:
+      id: 20212
+      quantity: 1
+    requirements:
+      lp: 9000
+  19238:
+    id: 19238
+    name: Heavy Assault Missile Specialization
+    product:
+      id: 25718
+      quantity: 1
+    requirements:
+      lp: 9000
+  19239:
+    id: 19239
+    name: Torpedo Specialization
+    product:
+      id: 20213
+      quantity: 1
+    requirements:
+      lp: 3000
+  19240:
+    id: 19240
+    name: Security Connections
+    product:
+      id: 3895
+      quantity: 1
+    requirements:
+      isk: 10000000
+      lp: 15000
+  19246:
+    id: 19246
+    name: Hubris Corporation Emblem
+    product:
+      id: 79085
+      quantity: 1
+    requirements:
+      lp: 19000
+  19247:
+    id: 19247
+    name: Hubris Alliance Emblem
+    product:
+      id: 79086
+      quantity: 1
+    requirements:
+      lp: 19000
+  19252:
+    id: 19252
+    name: Valravn Corporation Emblem
+    product:
+      id: 79087
+      quantity: 1
+    requirements:
+      lp: 19000
+  19253:
+    id: 19253
+    name: Valravn Alliance Emblem
+    product:
+      id: 79088
+      quantity: 1
+    requirements:
+      lp: 19000
+  19255:
+    id: 19255
+    name: Bane Corporation Emblem
+    product:
+      id: 79089
+      quantity: 1
+    requirements:
+      lp: 19000
+  19256:
+    id: 19256
+    name: Bane Alliance Emblem
+    product:
+      id: 79090
+      quantity: 1
+    requirements:
+      lp: 19000
+  19258:
+    id: 19258
+    name: Karura Corporation Emblem
+    product:
+      id: 79091
+      quantity: 1
+    requirements:
+      lp: 19000
+  19259:
+    id: 19259
+    name: Karura Alliance Emblem
+    product:
+      id: 79092
+      quantity: 1
+    requirements:
+      lp: 19000
+  19260:
+    id: 19260
+    name: Mekubal Corporation Emblem
+    product:
+      id: 79093
+      quantity: 1
+    requirements:
+      lp: 8500
+  19261:
+    id: 19261
+    name: Mekubal Alliance Emblem
+    product:
+      id: 79094
+      quantity: 1
+    requirements:
+      lp: 8500
+  19262:
+    id: 19262
+    name: Mamba Corporation Emblem
+    product:
+      id: 79100
+      quantity: 1
+    requirements:
+      lp: 8500
+  19263:
+    id: 19263
+    name: Mamba Alliance Emblem
+    product:
+      id: 79101
+      quantity: 1
+    requirements:
+      lp: 8500
+  19266:
+    id: 19266
+    name: Khizriel Corporation Emblem
+    product:
+      id: 79102
+      quantity: 1
+    requirements:
+      lp: 13500
+  19267:
+    id: 19267
+    name: Khizriel Alliance Emblem
+    product:
+      id: 79103
+      quantity: 1
+    requirements:
+      lp: 13500
+  19269:
+    id: 19269
+    name: Alligator Corporation Emblem
+    product:
+      id: 79188
+      quantity: 1
+    requirements:
+      lp: 13500
+  19270:
+    id: 19270
+    name: Alligator Alliance Emblem
+    product:
+      id: 79189
+      quantity: 1
+    requirements:
+      lp: 13500
+  19271:
+    id: 19271
+    name: Metamorphosis Corporation Emblem
+    product:
+      id: 79402
+      quantity: 1
+    requirements:
+      lp: 6000
+  19272:
+    id: 19272
+    name: Metamorphosis Alliance Emblem
+    product:
+      id: 79403
+      quantity: 1
+    requirements:
+      lp: 6000
+  19277:
+    bpid: 79326
+    bpruns: 1
+    id: 19277
+    name: Azariel(BPC)
+    product:
+      id: 78576
+      quantity: 1
+    requirements:
+      isk: -323855360
+      items:
+      - id: 57489
+        quantity: 1
+      - id: 57487
+        quantity: 20
+      - id: 57472
+        quantity: 64
+      - id: 57473
+        quantity: 64
+      - id: 21009
+        quantity: 80
+      - id: 21013
+        quantity: 100
+      - id: 57476
+        quantity: 125
+      - id: 57477
+        quantity: 125
+      - id: 21023
+        quantity: 150
+      - id: 21035
+        quantity: 200
+      - id: 21037
+        quantity: 200
+      - id: 21017
+        quantity: 300
+      - id: 21019
+        quantity: 300
+      - id: 21025
+        quantity: 300
+      - id: 21011
+        quantity: 400
+      - id: 21021
+        quantity: 400
+      - id: 24545
+        quantity: 500
+      - id: 24547
+        quantity: 500
+      - id: 24556
+        quantity: 500
+      - id: 24558
+        quantity: 500
+      - id: 24560
+        quantity: 500
+      - id: 57486
+        quantity: 800
+      - id: 57478
+        quantity: 1600
+      lp: 150000000
+  19278:
+    bpid: 45648
+    bpruns: 1
+    id: 19278
+    name: Komodo(BPC)
+    product:
+      id: 45649
+      quantity: 1
+    requirements:
+      isk: -323855360
+      items:
+      - id: 57489
+        quantity: 1
+      - id: 57487
+        quantity: 20
+      - id: 57471
+        quantity: 64
+      - id: 57472
+        quantity: 64
+      - id: 21009
+        quantity: 80
+      - id: 21035
+        quantity: 100
+      - id: 57475
+        quantity: 125
+      - id: 57476
+        quantity: 125
+      - id: 21017
+        quantity: 150
+      - id: 21013
+        quantity: 200
+      - id: 21029
+        quantity: 200
+      - id: 21037
+        quantity: 200
+      - id: 21041
+        quantity: 200
+      - id: 21019
+        quantity: 300
+      - id: 21023
+        quantity: 300
+      - id: 21025
+        quantity: 300
+      - id: 21021
+        quantity: 400
+      - id: 24545
+        quantity: 500
+      - id: 24547
+        quantity: 500
+      - id: 24556
+        quantity: 500
+      - id: 24558
+        quantity: 500
+      - id: 24560
+        quantity: 500
+      - id: 57486
+        quantity: 800
+      - id: 57478
+        quantity: 1600
+      lp: 150000000
+  19279:
+    bpid: 45644
+    bpruns: 1
+    id: 19279
+    name: Loggerhead(BPC)
+    product:
+      id: 45645
+      quantity: 1
+    requirements:
+      isk: -769803776
+      items:
+      - id: 21009
+        quantity: 8
+      - id: 21013
+        quantity: 10
+      - id: 21017
+        quantity: 10
+      - id: 21019
+        quantity: 20
+      - id: 21021
+        quantity: 11
+      - id: 21023
+        quantity: 30
+      - id: 21025
+        quantity: 10
+      - id: 21029
+        quantity: 6
+      - id: 21035
+        quantity: 20
+      - id: 21037
+        quantity: 16
+      - id: 21039
+        quantity: 30
+      - id: 24558
+        quantity: 19
+      - id: 24560
+        quantity: 10
+      - id: 57471
+        quantity: 16
+      - id: 57472
+        quantity: 16
+      - id: 57475
+        quantity: 5
+      - id: 57476
+        quantity: 5
+      - id: 57478
+        quantity: 400
+      - id: 57486
+        quantity: 200
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
+      lp: 25000000
+  19280:
+    bpid: 45646
+    bpruns: 1
+    id: 19280
+    name: Caiman(BPC)
+    product:
+      id: 45647
+      quantity: 1
+    requirements:
+      isk: -769803776
+      items:
+      - id: 21009
+        quantity: 5
+      - id: 21013
+        quantity: 4
+      - id: 21017
+        quantity: 5
+      - id: 21019
+        quantity: 2
+      - id: 21021
+        quantity: 2
+      - id: 21023
+        quantity: 5
+      - id: 21025
+        quantity: 2
+      - id: 21029
+        quantity: 20
+      - id: 21035
+        quantity: 4
+      - id: 21037
+        quantity: 4
+      - id: 21039
+        quantity: 20
+      - id: 21041
+        quantity: 20
+      - id: 24558
+        quantity: 5
+      - id: 24560
+        quantity: 2
+      - id: 57471
+        quantity: 8
+      - id: 57472
+        quantity: 8
+      - id: 57475
+        quantity: 2
+      - id: 57476
+        quantity: 2
+      - id: 57478
+        quantity: 400
+      - id: 57486
+        quantity: 200
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
+      lp: 25000000
+  19281:
+    bpid: 78360
+    bpruns: 1
+    id: 19281
+    name: Mekubal(BPC)
+    product:
+      id: 78333
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 57472
+        quantity: 2
+      - id: 57473
+        quantity: 2
+      - id: 57486
+        quantity: 12
+      - id: 40
+        quantity: 24
+      - id: 57478
+        quantity: 24
+      - id: 39
+        quantity: 48
+      - id: 38
+        quantity: 72
+      - id: 37
+        quantity: 1200
+      - id: 36
+        quantity: 6000
+      - id: 35
+        quantity: 18000
+      - id: 34
+        quantity: 96000
+      lp: 12000
+  19282:
+    bpid: 78393
+    bpruns: 1
+    id: 19282
+    name: Mamba(BPC)
+    product:
+      id: 78367
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 57471
+        quantity: 2
+      - id: 57472
+        quantity: 2
+      - id: 57486
+        quantity: 12
+      - id: 40
+        quantity: 24
+      - id: 57478
+        quantity: 24
+      - id: 39
+        quantity: 48
+      - id: 38
+        quantity: 72
+      - id: 37
+        quantity: 1200
+      - id: 36
+        quantity: 6000
+      - id: 35
+        quantity: 18000
+      - id: 34
+        quantity: 96000
+      lp: 12000
+  19283:
+    bpid: 78370
+    bpruns: 1
+    id: 19283
+    name: Khizriel(BPC)
+    product:
+      id: 78369
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 57472
+        quantity: 8
+      - id: 57473
+        quantity: 8
+      - id: 57486
+        quantity: 60
+      - id: 57478
+        quantity: 120
+      - id: 40
+        quantity: 2400
+      - id: 39
+        quantity: 4800
+      - id: 38
+        quantity: 12000
+      - id: 37
+        quantity: 24000
+      - id: 36
+        quantity: 216000
+      - id: 35
+        quantity: 1200000
+      - id: 34
+        quantity: 3360000
+      lp: 40000
+  19284:
+    bpid: 78368
+    bpruns: 1
+    id: 19284
+    name: Alligator(BPC)
+    product:
+      id: 78366
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 57471
+        quantity: 8
+      - id: 57472
+        quantity: 8
+      - id: 57486
+        quantity: 60
+      - id: 57478
+        quantity: 120
+      - id: 40
+        quantity: 2400
+      - id: 39
+        quantity: 4800
+      - id: 38
+        quantity: 12000
+      - id: 37
+        quantity: 24000
+      - id: 36
+        quantity: 216000
+      - id: 35
+        quantity: 1200000
+      - id: 34
+        quantity: 3360000
+      lp: 40000
+  19287:
+    id: 19287
+    name: Azariel Corporation Emblem
+    product:
+      id: 79636
+      quantity: 1
+    requirements:
+      lp: 26000
+  19288:
+    id: 19288
+    name: Azariel Alliance Emblem
+    product:
+      id: 79637
+      quantity: 1
+    requirements:
+      lp: 26000
+  19289:
+    bpid: 17931
+    bpruns: 1
+    id: 19289
+    name: Worm(BPC)
+    product:
+      id: 17930
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
+      - id: 34
+        quantity: 38400
+      - id: 35
+        quantity: 7200
+      - id: 36
+        quantity: 3000
+      - id: 37
+        quantity: 600
+      - id: 38
+        quantity: 36
+      - id: 39
+        quantity: 24
+      - id: 40
+        quantity: 12
+      - id: 57471
+        quantity: 1
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 12
+      - id: 57486
+        quantity: 6
+      lp: 4000
+  19290:
+    bpid: 17716
+    bpruns: 1
+    id: 19290
+    name: Gila(BPC)
+    product:
+      id: 17715
+      quantity: 1
+    requirements:
+      isk: 5000000
+      items:
+      - id: 34
+        quantity: 648000
+      - id: 35
+        quantity: 216000
+      - id: 36
+        quantity: 43200
+      - id: 37
+        quantity: 12000
+      - id: 38
+        quantity: 1800
+      - id: 39
+        quantity: 1200
+      - id: 40
+        quantity: 600
+      - id: 57471
+        quantity: 4
+      - id: 57472
+        quantity: 4
+      - id: 57478
+        quantity: 60
+      - id: 57486
+        quantity: 30
+      lp: 18000
+  19291:
+    bpid: 17919
+    bpruns: 1
+    id: 19291
+    name: Rattlesnake(BPC)
+    product:
+      id: 17918
+      quantity: 1
+    requirements:
+      isk: 20000000
+      items:
+      - id: 34
+        quantity: 9600000
+      - id: 35
+        quantity: 4800000
+      - id: 36
+        quantity: 720000
+      - id: 37
+        quantity: 480000
+      - id: 38
+        quantity: 36000
+      - id: 39
+        quantity: 9600
+      - id: 40
+        quantity: 4800
+      - id: 57471
+        quantity: 16
+      - id: 57472
+        quantity: 16
+      - id: 57478
+        quantity: 240
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 120
+      lp: 100000
+  19292:
+    bpid: 17933
+    bpruns: 1
+    id: 19292
+    name: Dramiel(BPC)
+    product:
+      id: 17932
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
+      - id: 34
+        quantity: 38400
+      - id: 35
+        quantity: 7200
+      - id: 36
+        quantity: 3000
+      - id: 37
+        quantity: 600
+      - id: 38
+        quantity: 36
+      - id: 39
+        quantity: 24
+      - id: 40
+        quantity: 12
+      - id: 57472
+        quantity: 1
+      - id: 57473
+        quantity: 1
+      - id: 57478
+        quantity: 12
+      - id: 57486
+        quantity: 6
+      lp: 4000
+  19293:
+    bpid: 17721
+    bpruns: 1
+    id: 19293
+    name: Cynabal(BPC)
+    product:
+      id: 17720
+      quantity: 1
+    requirements:
+      isk: 5000000
+      items:
+      - id: 34
+        quantity: 648000
+      - id: 35
+        quantity: 216000
+      - id: 36
+        quantity: 43200
+      - id: 37
+        quantity: 12000
+      - id: 38
+        quantity: 1800
+      - id: 39
+        quantity: 1200
+      - id: 40
+        quantity: 600
+      - id: 57472
+        quantity: 4
+      - id: 57473
+        quantity: 4
+      - id: 57478
+        quantity: 60
+      - id: 57486
+        quantity: 30
+      lp: 18000
+  19294:
+    bpid: 17739
+    bpruns: 1
+    id: 19294
+    name: Machariel(BPC)
+    product:
+      id: 17738
+      quantity: 1
+    requirements:
+      isk: 20000000
+      items:
+      - id: 34
+        quantity: 9600000
+      - id: 35
+        quantity: 4800000
+      - id: 36
+        quantity: 720000
+      - id: 37
+        quantity: 480000
+      - id: 38
+        quantity: 36000
+      - id: 39
+        quantity: 9600
+      - id: 40
+        quantity: 4800
+      - id: 57472
+        quantity: 16
+      - id: 57473
+        quantity: 16
+      - id: 57478
+        quantity: 240
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 120
+      lp: 100000

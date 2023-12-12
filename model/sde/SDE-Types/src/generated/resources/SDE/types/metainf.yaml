@@ -25714,7 +25714,6 @@ id2group:
   56904: skins/PermanentSKIN
   56905: skins/PermanentSKIN
   56906: skins/PermanentSKIN
-  56907: specialeditionassets/SpecialEditionCommodities
   56908: skins/PermanentSKIN
   56909: skins/PermanentSKIN
   56910: skins/PermanentSKIN
@@ -25809,14 +25808,9 @@ id2group:
   57035: implant/Booster
   57036: implant/Booster
   57037: implant/Booster
-  57038: specialeditionassets/SpecialEditionCommodities
-  57039: specialeditionassets/SpecialEditionCommodities
-  57040: specialeditionassets/SpecialEditionCommodities
   57042: entity/DeadspaceOverseerSStructure
   57047: entity/DeadspaceOverseerSStructure
   57048: entity/DeadspaceOverseerSStructure
-  57050: specialeditionassets/SpecialEditionCommodities
-  57051: specialeditionassets/SpecialEditionCommodities
   57052: skins/PermanentSKIN
   57053: skins/PermanentSKIN
   57054: skins/PermanentSKIN
@@ -28753,16 +28747,6 @@ id2group:
   74386: charge/FestivalCharges
   74387: specialeditionassets/SpecialEditionCommodities
   74397: station/Station
-  74426: commodity/JumpFilaments
-  74427: commodity/JumpFilaments
-  74428: commodity/JumpFilaments
-  74429: commodity/JumpFilaments
-  74430: commodity/JumpFilaments
-  74431: commodity/JumpFilaments
-  74432: commodity/JumpFilaments
-  74433: commodity/JumpFilaments
-  74434: commodity/JumpFilaments
-  74449: specialeditionassets/SpecialEditionCommodities
   74500: expertsystems/PromotionalExpertSystems
   74521: asteroid/Mordunium
   74522: asteroid/Mordunium
@@ -29837,6 +29821,7 @@ id2group:
   77707: commodity/HomefrontOperationsCommodity
   77708: commodity/HomefrontOperationsCommodity
   77725: skill/Production
+  77726: ship/HeavyAssaultCruiser
   77727: entity/SpawnContainer
   77738: skill/SpaceshipCommand
   77739: skill/Gunnery
@@ -29871,19 +29856,59 @@ id2group:
   77963: skins/PermanentSKIN
   77964: skins/PermanentSKIN
   78267: skins/PermanentSKIN
+  78287: implant/Booster
+  78288: implant/Booster
+  78289: implant/Booster
+  78290: implant/Booster
+  78291: implant/Booster
+  78292: implant/Booster
+  78293: implant/Booster
+  78294: implant/Booster
+  78295: implant/Booster
   78296: entity/HomefrontOperationsEnemyCruiser
   78297: entity/HomefrontOperationsEnemyCruiser
   78298: entity/HomefrontOperationsEnemyCruiser
   78299: entity/HomefrontOperationsEnemyCruiser
+  78300: implant/Booster
+  78301: implant/Booster
+  78302: implant/Booster
+  78303: implant/Booster
   78304: entity/HomefrontOperationsEnemyBattleship
+  78305: implant/Booster
+  78306: implant/Booster
+  78307: implant/Booster
   78308: entity/HomefrontOperationsEnemyBattleship
   78309: entity/HomefrontOperationsEnemyBattleship
   78310: entity/HomefrontOperationsEnemyBattleship
+  78311: implant/Booster
+  78312: implant/Booster
+  78313: implant/Booster
+  78314: implant/Booster
+  78315: implant/Booster
+  78316: implant/Booster
+  78317: implant/Booster
+  78318: implant/Booster
+  78319: implant/Booster
+  78320: implant/Booster
+  78321: implant/Booster
+  78322: implant/Booster
+  78323: implant/Booster
+  78324: implant/Booster
+  78325: implant/Booster
+  78326: implant/Booster
+  78327: implant/Booster
+  78328: implant/Booster
+  78329: implant/Booster
   78333: ship/Destroyer
   78334: station/Station
+  78357: specialeditionassets/SpecialEditionCommodities
   78358: implant/Booster
   78360: blueprint/DestroyerBlueprint
+  78366: ship/CombatBattlecruiser
   78367: ship/Destroyer
+  78368: blueprint/BattlecruiserBlueprint
+  78369: ship/CombatBattlecruiser
+  78370: blueprint/BattlecruiserBlueprint
   78393: blueprint/DestroyerBlueprint
   78405: skins/PermanentSKIN
   78406: skins/PermanentSKIN
@@ -29893,9 +29918,79 @@ id2group:
   78410: skins/PermanentSKIN
   78411: skins/PermanentSKIN
   78412: skins/PermanentSKIN
+  78414: ship/AssaultFrigate
+  78483: entity/SpawnContainer
+  78576: ship/Titan
+  78621: module/VortonProjectorUpgrade
+  78622: commodity/Mutaplasmids
+  78623: commodity/Mutaplasmids
+  78624: commodity/Mutaplasmids
+  78631: implant/Booster
+  78633: implant/Booster
+  78634: implant/Booster
+  78636: implant/Booster
+  78637: implant/Booster
+  78638: implant/Booster
+  78639: implant/Booster
+  78640: implant/Booster
+  78641: implant/Booster
+  78649: implant/Booster
+  78650: implant/Booster
+  78652: implant/Booster
+  78653: implant/Booster
+  78655: implant/Booster
+  78656: implant/Booster
+  78657: implant/Booster
+  78659: implant/Booster
+  78661: implant/Booster
+  78663: implant/Booster
+  78664: implant/Booster
+  78665: implant/Booster
+  78666: implant/Booster
+  78667: implant/Booster
+  78668: implant/Booster
+  78669: implant/Booster
+  78670: implant/Booster
+  78676: implant/Booster
+  78677: module/MiningUpgrade
   78688: skins/PermanentSKIN
   78689: skins/PermanentSKIN
   78690: skins/PermanentSKIN
+  78740: module/VortonProjectorUpgrade
+  78741: module/VortonProjectorUpgrade
+  78766: skins/PermanentSKIN
+  78767: skins/PermanentSKIN
+  78768: skins/PermanentSKIN
+  78769: skins/PermanentSKIN
+  78770: skins/PermanentSKIN
+  78771: skins/PermanentSKIN
+  78772: skins/PermanentSKIN
+  78773: skins/PermanentSKIN
+  78774: skins/PermanentSKIN
+  78775: skins/PermanentSKIN
+  78776: skins/PermanentSKIN
+  78777: skins/PermanentSKIN
+  78778: skins/PermanentSKIN
+  78779: skins/PermanentSKIN
+  78780: skins/PermanentSKIN
+  78781: skins/PermanentSKIN
+  78782: skins/PermanentSKIN
+  78783: skins/PermanentSKIN
+  78784: skins/PermanentSKIN
+  78785: skins/PermanentSKIN
+  78786: skins/PermanentSKIN
+  78787: skins/PermanentSKIN
+  78788: skins/PermanentSKIN
+  78789: skins/PermanentSKIN
+  78790: skins/PermanentSKIN
+  78791: skins/PermanentSKIN
+  78792: skins/PermanentSKIN
+  78793: skins/PermanentSKIN
+  78794: skins/PermanentSKIN
+  78795: skins/PermanentSKIN
+  78796: skins/PermanentSKIN
+  78797: skins/PermanentSKIN
+  78800: entity/CapturePoint
   78816: skins/PermanentSKIN
   78817: skins/PermanentSKIN
   78818: skins/PermanentSKIN
@@ -29904,6 +29999,19 @@ id2group:
   78821: skins/PermanentSKIN
   78822: skins/PermanentSKIN
   78823: skins/PermanentSKIN
+  78848: commodity/Miscellaneous
+  78853: commodity/AccelerationGateKeys
+  78854: commodity/AccelerationGateKeys
+  78855: commodity/AccelerationGateKeys
+  78856: commodity/AccelerationGateKeys
+  78857: commodity/Miscellaneous
+  78862: commodity/Miscellaneous
+  78867: specialeditionassets/SpecialEditionCommodities
+  78872: specialeditionassets/SpecialEditionCommodities
+  78873: specialeditionassets/SpecialEditionCommodities
+  78874: specialeditionassets/SpecialEditionCommodities
+  78886: commodity/UnknownComponents
+  78887: commodity/UnknownComponents
   78889: specialeditionassets/SpecialEditionCommodities
   78890: entity/DestructibleSentryGun
   78891: entity/PirateEntities
@@ -29914,6 +30022,7 @@ id2group:
   78896: entity/PirateEntities
   78897: entity/PirateEntities
   78898: entity/PirateEntities
+  78906: commodity/Miscellaneous
   78910: skins/PermanentSKIN
   78911: skins/PermanentSKIN
   78912: skins/PermanentSKIN
@@ -29930,6 +30039,170 @@ id2group:
   79006: skins/PermanentSKIN
   79007: skins/PermanentSKIN
   79008: skins/PermanentSKIN
+  79085: personalization/ShipPersonalization
+  79086: personalization/ShipPersonalization
+  79087: personalization/ShipPersonalization
+  79088: personalization/ShipPersonalization
+  79089: personalization/ShipPersonalization
+  79090: personalization/ShipPersonalization
+  79091: personalization/ShipPersonalization
+  79092: personalization/ShipPersonalization
+  79093: personalization/ShipPersonalization
+  79094: personalization/ShipPersonalization
+  79100: personalization/ShipPersonalization
+  79101: personalization/ShipPersonalization
+  79102: personalization/ShipPersonalization
+  79103: personalization/ShipPersonalization
+  79117: specialeditionassets/SpecialEditionCommodities
+  79118: specialeditionassets/SpecialEditionCommodities
+  79175: blueprint/VortonProjectorUpgradeBlueprints
+  79176: blueprint/VortonProjectorUpgradeBlueprints
+  79183: entity/DestructibleSentryGun
+  79184: entity/DestructibleSentryGun
+  79185: entity/DestructibleSentryGun
+  79186: specialeditionassets/SpecialEditionCommodities
+  79188: personalization/ShipPersonalization
+  79189: personalization/ShipPersonalization
+  79192: commodity/Miscellaneous
+  79205: commodity/JumpFilaments
+  79206: commodity/JumpFilaments
+  79207: commodity/JumpFilaments
+  79209: commodity/JumpFilaments
+  79210: commodity/JumpFilaments
+  79211: commodity/JumpFilaments
+  79212: commodity/JumpFilaments
+  79213: commodity/JumpFilaments
+  79214: blueprint/FrigateBlueprint
+  79215: commodity/JumpFilaments
+  79320: entity/InsurgencyRoamingPirates
+  79322: entity/InsurgencyRoamingPirates
+  79326: blueprint/TitanBlueprint
+  79327: entity/InsurgencyRoamingPirates
+  79329: entity/InsurgencyRoamingPirates
+  79330: entity/InsurgencyRoamingPirates
+  79331: entity/InsurgencyRoamingPirates
+  79332: entity/InsurgencyRoamingPirates
+  79333: entity/InsurgencyRoamingPirates
+  79334: entity/InsurgencyRoamingPirates
+  79348: entity/InsurgencyRoamingPirates
+  79349: entity/InsurgencyRoamingPirates
+  79350: entity/InsurgencyRoamingPirates
+  79351: entity/InsurgencyRoamingPirates
+  79352: entity/InsurgencyRoamingPirates
+  79353: entity/InsurgencyRoamingPirates
+  79354: entity/InsurgencyRoamingPirates
+  79355: entity/InsurgencyRoamingPirates
+  79356: entity/InsurgencyRoamingPirates
+  79357: entity/InsurgencyRoamingPirates
+  79358: entity/InsurgencyRoamingPirates
+  79359: entity/InsurgencyRoamingPirates
+  79360: entity/InsurgencyRoamingPirates
+  79361: entity/InsurgencyRoamingPirates
+  79362: entity/InsurgencyRoamingPirates
+  79363: entity/InsurgencyRoamingPirates
+  79364: entity/InsurgencyRoamingPirates
+  79365: entity/InsurgencyRoamingPirates
+  79387: entity/InsurgencyRoamingEnforcers
+  79388: entity/InsurgencyRoamingEnforcers
+  79389: entity/InsurgencyRoamingEnforcers
+  79390: entity/InsurgencyRoamingEnforcers
+  79391: entity/InsurgencyRoamingEnforcers
+  79392: entity/InsurgencyRoamingEnforcers
+  79393: entity/InsurgencyRoamingEnforcers
+  79394: entity/InsurgencyRoamingEnforcers
+  79395: entity/InsurgencyRoamingEnforcers
+  79396: entity/InsurgencyRoamingEnforcers
+  79397: entity/InsurgencyRoamingEnforcers
+  79398: entity/InsurgencyRoamingEnforcers
+  79402: personalization/ShipPersonalization
+  79403: personalization/ShipPersonalization
+  79489: entity/CapturePoint
+  79490: entity/CapturePoint
+  79491: entity/CapturePoint
+  79507: entity/DestructibleSentryGun
+  79508: entity/InsurgencyRoamingEnforcers
+  79609: skins/PermanentSKIN
+  79610: skins/PermanentSKIN
+  79611: skins/PermanentSKIN
+  79612: skins/PermanentSKIN
+  79613: skins/PermanentSKIN
+  79614: skins/PermanentSKIN
+  79615: skins/PermanentSKIN
+  79616: skins/PermanentSKIN
+  79617: skins/PermanentSKIN
+  79618: skins/PermanentSKIN
+  79636: personalization/ShipPersonalization
+  79637: personalization/ShipPersonalization
+  79713: skins/PermanentSKIN
+  79714: skins/PermanentSKIN
+  79715: skins/PermanentSKIN
+  79716: skins/PermanentSKIN
+  79717: skins/PermanentSKIN
+  79718: skins/PermanentSKIN
+  79719: skins/PermanentSKIN
+  79720: skins/PermanentSKIN
+  79721: skins/PermanentSKIN
+  79722: skins/PermanentSKIN
+  79723: skins/PermanentSKIN
+  79724: skins/PermanentSKIN
+  79725: skins/PermanentSKIN
+  79726: skins/PermanentSKIN
+  79727: skins/PermanentSKIN
+  79728: skins/PermanentSKIN
+  79729: skins/PermanentSKIN
+  79730: skins/PermanentSKIN
+  79731: skins/PermanentSKIN
+  79732: skins/PermanentSKIN
+  79733: skins/PermanentSKIN
+  79734: skins/PermanentSKIN
+  79735: skins/PermanentSKIN
+  79736: skins/PermanentSKIN
+  79737: skins/PermanentSKIN
+  79738: skins/PermanentSKIN
+  79739: skins/PermanentSKIN
+  79740: skins/PermanentSKIN
+  79741: skins/PermanentSKIN
+  79742: skins/PermanentSKIN
+  79744: skins/PermanentSKIN
+  79745: skins/PermanentSKIN
+  79755: skins/PermanentSKIN
+  79756: skins/PermanentSKIN
+  79757: skins/PermanentSKIN
+  79758: skins/PermanentSKIN
+  79759: skins/PermanentSKIN
+  79760: skins/PermanentSKIN
+  79761: skins/PermanentSKIN
+  79762: skins/PermanentSKIN
+  79763: skins/PermanentSKIN
+  79764: skins/PermanentSKIN
+  79785: commodity/Miscellaneous
+  79819: specialeditionassets/SpecialEditionCommodities
+  79832: specialeditionassets/SpecialEditionCommodities
+  79833: specialeditionassets/SpecialEditionCommodities
+  79834: specialeditionassets/SpecialEditionCommodities
+  79835: specialeditionassets/SpecialEditionCommodities
+  79836: specialeditionassets/SpecialEditionCommodities
+  79837: specialeditionassets/SpecialEditionCommodities
+  79838: skins/PermanentSKIN
+  79840: skins/PermanentSKIN
+  79841: skins/PermanentSKIN
+  79870: skins/PermanentSKIN
+  79871: skins/PermanentSKIN
+  79872: skins/PermanentSKIN
+  79873: skins/PermanentSKIN
+  79874: skins/PermanentSKIN
+  79939: skins/PermanentSKIN
+  79940: skins/PermanentSKIN
+  79941: skins/PermanentSKIN
+  79942: skins/PermanentSKIN
+  79948: skins/PermanentSKIN
+  79949: skins/PermanentSKIN
+  79950: skins/PermanentSKIN
+  79951: skins/PermanentSKIN
+  79952: skins/PermanentSKIN
+  79953: skins/PermanentSKIN
+  79954: skins/PermanentSKIN
+  79955: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

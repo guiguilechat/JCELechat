@@ -203,9 +203,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
-    heatattenuationhi: 0.7580000162124634
+    heatattenuationhi: 0.7599999904632568
     heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7070000171661377
+    heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -293,8 +293,8 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
-    heatattenuationhi: 0.7580000162124634
-    heatattenuationlow: 0.7070000171661377
+    heatattenuationhi: 0.7599999904632568
+    heatattenuationlow: 0.7099999785423279
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -385,8 +385,8 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
-    heatattenuationhi: 0.7070000171661377
-    heatattenuationlow: 0.7940000295639038
+    heatattenuationhi: 0.7099999785423279
+    heatattenuationlow: 0.7900000214576721
     heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -477,8 +477,8 @@ types:
     fwlpkill: 200
     gfxboosterid: 394
     heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.7070000171661377
-    heatattenuationmed: 0.7070000171661377
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -567,9 +567,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 395
-    heatattenuationhi: 0.7070000171661377
+    heatattenuationhi: 0.7099999785423279
     heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7580000162124634
+    heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -658,9 +658,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
-    heatattenuationhi: 0.7580000162124634
-    heatattenuationlow: 0.7580000162124634
-    heatattenuationmed: 0.5
+    heatattenuationhi: 0.7099999785423279
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -750,8 +750,8 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
-    heatattenuationhi: 0.7580000162124634
-    heatattenuationlow: 0.7070000171661377
+    heatattenuationhi: 0.7599999904632568
+    heatattenuationlow: 0.7099999785423279
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -842,8 +842,8 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 396
-    heatattenuationhi: 0.7070000171661377
-    heatattenuationlow: 0.7580000162124634
+    heatattenuationhi: 0.7099999785423279
+    heatattenuationlow: 0.7599999904632568
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -1025,7 +1025,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
+    heatattenuationhi: 0.6299999952316284
     heatattenuationlow: 0.7599999904632568
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
@@ -1188,6 +1188,99 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 96000.0
+    warpcapacitorneed: 8.12999985555507E-7
+    warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
+  77726:
+    agility: 0.45695000886917114
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 1900.0
+    armorkineticdamageresonance: 0.15000000596046448
+    armorthermaldamageresonance: 0.3100000023841858
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 2400.0
+    capacity: 450.0
+    cpuoutput: 400
+    dronebandwidth: 50
+    dronecapacity: 100
+    elitebonusheavygunship1: 7.5
+    elitebonusheavygunship2: 10.0
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 20000
+    gfxboosterid: 394
+    heatattenuationhi: 0.7099999785423279
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.6299999952316284
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.75
+    hislots: 5
+    hp: 2300.0
+    id: 77726
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 6
+    maincolor: 16777215
+    marketGroup: 1621
+    mass: 1.11E7
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 6
+    maxpassengers: 580
+    maxtargetrange: 85000.0
+    maxvelocity: 235.0
+    medslots: 5
+    metagroupid: 4
+    metalevelold: 9
+    mintargetveldmgmultiplier: 0.25
+    name: Cybele
+    packagedVolume: 10000.0
+    portionSize: 1
+    poweroutput: 1350
+    powertospeed: 1
+    propulsiongraphicid: 394
+    published: true
+    radius: 149.0
+    rechargerate: 240000.0
+    requiredskill1: 3332
+    requiredskill1level: 5
+    requiredskill2: 16591
+    requiredskill2level: 1
+    rigsize: 2
+    rigslots: 2
+    scanmagnetometricstrength: 23.0
+    scanresolution: 330.0
+    scanspeed: 4500
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.10000000149011612
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.4000000059604645
+    shielduniformity: 0.75
+    shipbonusatc1: 30
+    shipbonusatc2: 10
+    shipbonusatf3: -100
+    shipbonuscc: 5.0
+    shipbonusgc: 20.0
+    shipbonusgc2: 25.0
+    shipbonusgc3: 10.0
+    signatureradius: 115.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 0.6700000166893005
+    turretslotsleft: 5
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 2
+    volume: 112000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0

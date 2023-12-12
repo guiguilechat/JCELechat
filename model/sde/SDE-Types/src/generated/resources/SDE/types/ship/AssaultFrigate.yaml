@@ -659,8 +659,8 @@ types:
     fwlpkill: 50
     gfxboosterid: 394
     heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationlow: 0.5
+    heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -753,8 +753,8 @@ types:
     fwlpkill: 50
     gfxboosterid: 394
     heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.5
+    heatattenuationlow: 0.5
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -1121,7 +1121,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 25
     gfxboosterid: 394
-    heatattenuationhi: 0.5
+    heatattenuationhi: 0.25
     heatattenuationlow: 0.6299999952316284
     heatattenuationmed: 0.5
     heatcapacityhi: 100
@@ -1287,5 +1287,99 @@ types:
     upgradeslotsleft: 2
     volume: 27289.0
     warpcapacitorneed: 1.3477100537784281E-6
+    warpspeedmultiplier: 5.5
+    weapondisruptionresistance: 1.0
+  78414:
+    agility: 3.4674999713897705
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 1015.0
+    armorkineticdamageresonance: 0.16249999403953552
+    armorthermaldamageresonance: 0.32499998807907104
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 420.0
+    capacity: 165.0
+    cpuoutput: 225
+    dronebandwidth: 25
+    dronecapacity: 75
+    elitebonusescorts: 10
+    elitebonusgunship1: 10.0
+    elitebonusgunship2: 10.0
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 50
+    gfxboosterid: 394
+    heatattenuationhi: 0.5
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 0.6299999952316284
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 1.0
+    hislots: 5
+    hp: 1274.0
+    id: 78414
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 4
+    maincolor: 16777215
+    marketGroup: 1623
+    mass: 1054000.0
+    maxdirectionalvelocity: 3000
+    maxlockedtargets: 6
+    maxpassengers: 2
+    maxtargetrange: 49000.0
+    maxvelocity: 325.0
+    medslots: 4
+    metagroupid: 4
+    metalevelold: 9
+    mintargetveldmgmultiplier: 0.05000000074505806
+    name: Shapash
+    packagedVolume: 2500.0
+    portionSize: 1
+    poweroutput: 50
+    powertospeed: 1
+    propulsiongraphicid: 394
+    published: true
+    radius: 39.0
+    rechargerate: 187500.0
+    requiredskill1: 3328
+    requiredskill1level: 5
+    requiredskill2: 12095
+    requiredskill2level: 1
+    rigsize: 1
+    rigslots: 2
+    rolebonusoverheatdst: 10
+    scanmagnetometricstrength: 11.0
+    scanresolution: 625.0
+    scanspeed: 3500
+    shieldcapacity: 575.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.15000000596046448
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.4000000059604645
+    shielduniformity: 0.75
+    shipbonus2af: 5.0
+    shipbonusatf1: -50
+    shipbonusatf2: 10
+    shipbonusatf3: -100
+    shipbonusgf: 10.0
+    shipbonusgf2: 10.0
+    signatureradius: 39.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 0.6700000166893005
+    turretslotsleft: 5
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 2
+    volume: 29500.0
+    warpcapacitorneed: 1.3500000477506546E-6
     warpspeedmultiplier: 5.5
     weapondisruptionresistance: 1.0

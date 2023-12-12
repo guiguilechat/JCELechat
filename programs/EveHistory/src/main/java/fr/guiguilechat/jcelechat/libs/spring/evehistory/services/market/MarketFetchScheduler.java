@@ -56,7 +56,7 @@ public class MarketFetchScheduler {
 	@Autowired
 	private MarketObservedRegionService observedService;
 
-	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 30 * 1000)
+	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelayString = "${evehistory.market.fetchdelay:30*1000}")
 	public void fetchMarkets() {
 		log.info("fetching markets");
 		List<MarketFetchResult> last_fetch = resultService.findLastResults();
@@ -71,7 +71,7 @@ public class MarketFetchScheduler {
 		log.info(" fetched " + futures.size() + " markets");
 	}
 
-	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelay = 90 * 1000)
+	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelayString = "${evehistory.market.analyzedelay:90*1000}")
 	public void analyzeResults() {
 		List<TwoFetchResults> toAnalyze = resultService.findAnalyzable();
 		log.info("analyzing " + toAnalyze.size() + " results");

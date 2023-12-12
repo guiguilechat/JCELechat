@@ -1709,8 +1709,8 @@ types:
     fwlpkill: 150
     gfxboosterid: 395
     heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationlow: 0.5
+    heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -1994,7 +1994,7 @@ types:
     fwlpkill: 150
     gfxboosterid: 395
     heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.6299999952316284
+    heatattenuationlow: 0.5
     heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -3263,8 +3263,8 @@ types:
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
-    heatattenuationhi: 1.0
-    heatattenuationlow: 0.7599999904632568
+    heatattenuationhi: 0.25
+    heatattenuationlow: 0.6299999952316284
     heatattenuationmed: 1.0
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -3362,7 +3362,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
+    heatattenuationhi: 0.6299999952316284
     heatattenuationlow: 0.7599999904632568
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
@@ -3457,9 +3457,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.7071067690849304
-    heatattenuationlow: 0.7071067690849304
-    heatattenuationmed: 0.5
+    heatattenuationhi: 0.5
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -3551,9 +3551,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 1.0
+    heatattenuationlow: 0.5
+    heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -3571,7 +3571,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
     maincolor: 16777215
-    marketGroup: 1370
+    marketGroup: 3537
     mass: 1.164E7
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7

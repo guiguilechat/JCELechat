@@ -1147,8 +1147,8 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
+    heatattenuationhi: 0.6299999952316284
+    heatattenuationlow: 0.7900000214576721
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -1235,7 +1235,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
-    heatattenuationhi: 0.7900000214576721
+    heatattenuationhi: 0.8199999928474426
     heatattenuationlow: 0.7099999785423279
     heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
@@ -1325,7 +1325,7 @@ types:
     gfxboosterid: 395
     heatattenuationhi: 0.7900000214576721
     heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationmed: 0.7900000214576721
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -1410,7 +1410,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
+    heatattenuationhi: 0.7599999904632568
     heatattenuationlow: 0.7599999904632568
     heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
@@ -1498,7 +1498,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
+    heatattenuationhi: 0.7599999904632568
     heatattenuationlow: 0.7900000214576721
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
@@ -1565,6 +1565,188 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 234000.0
+    warpcapacitorneed: 8.12999985555507E-7
+    warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
+  78366:
+    agility: 0.6499999761581421
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 4875.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.550000011920929
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 2500.0
+    capacity: 450.0
+    cpuoutput: 500
+    dronebandwidth: 20
+    dronecapacity: 100
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 200
+    gfxboosterid: 395
+    heatattenuationhi: 0.7900000214576721
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 0.7599999904632568
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.6499999761581421
+    hislots: 7
+    hp: 5625.0
+    id: 78366
+    kineticdamageresonance: 0.6700000166893005
+    launcherslotsleft: 6
+    lowslots: 4
+    maincolor: 16777215
+    marketGroup: 3534
+    mass: 1.35E7
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 8
+    maxpassengers: 450
+    maxtargetrange: 65000.0
+    maxvelocity: 160.0
+    medslots: 6
+    metalevelold: 8
+    mintargetveldmgmultiplier: 0.25
+    name: Alligator
+    packagedVolume: 15000.0
+    portionSize: 1
+    poweroutput: 830
+    powertospeed: 1
+    price: 4.04E7
+    propulsiongraphicid: 395
+    published: true
+    radius: 263.0
+    rechargerate: 625000.0
+    requiredskill1: 33096
+    requiredskill1level: 2
+    requiredskill2: 33097
+    requiredskill2level: 2
+    rigsize: 2
+    rigslots: 3
+    rolebonuscbc: 12.5
+    rolebonuscommandburstaoerange: 50
+    scangravimetricstrength: 26.0
+    scanresolution: 205.0
+    scanspeed: 7500
+    shieldcapacity: 8250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1400000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonuscbc1: -4.0
+    shipbonusgbc1: 10.0
+    shipbonusrole7: 500.0
+    shipbonusrole8: 250.0
+    signatureradius: 310.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    typecolorscheme: 11324
+    uniformity: 1.0
+    upgradecapacity: 350
+    upgradeslotsleft: 3
+    volume: 252000.0
+    warpcapacitorneed: 8.12999985555507E-7
+    warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
+  78369:
+    agility: 0.5899999737739563
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 2300.0
+    capacity: 425.0
+    cpuoutput: 450
+    dronebandwidth: 75
+    dronecapacity: 100
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 200
+    gfxboosterid: 397
+    heatattenuationhi: 0.7900000214576721
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.7099999785423279
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.6499999761581421
+    hislots: 7
+    hp: 5250.0
+    id: 78369
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 6
+    maincolor: 16777215
+    marketGroup: 3534
+    mass: 1.152E7
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 7
+    maxpassengers: 450
+    maxtargetrange: 65000.0
+    maxvelocity: 200.0
+    medslots: 5
+    metalevelold: 8
+    mintargetveldmgmultiplier: 0.25
+    name: Khizriel
+    packagedVolume: 15000.0
+    portionSize: 1
+    poweroutput: 1200
+    powertospeed: 1
+    price: 4.04E7
+    propulsiongraphicid: 397
+    published: true
+    radius: 246.0
+    rechargerate: 575000.0
+    requiredskill1: 33098
+    requiredskill1level: 2
+    requiredskill2: 33097
+    requiredskill2level: 2
+    rigsize: 2
+    rigslots: 3
+    rolebonuscbc: 25.0
+    rolebonuscommandburstaoerange: 50
+    scanladarstrength: 22.0
+    scanresolution: 240.0
+    scanspeed: 5500
+    shieldcapacity: 6750.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1400000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonusgbc1: 10.0
+    shipbonusmbc1: 5.0
+    shipbonusrole7: -25.0
+    shiprolebonuswarpspeed: 25
+    signatureradius: 225.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    turretslotsleft: 6
+    typecolorscheme: 11342
+    uniformity: 1.0
+    upgradecapacity: 350
+    upgradeslotsleft: 3
+    volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

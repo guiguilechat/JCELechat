@@ -693,6 +693,7 @@ locations:
     adjacentConstellations:
     - 51ZT-6
     - Anares
+    - Duzna Kah
     - EM-L3K
     - UX3-N2
     - V-LQBF
@@ -702,6 +703,7 @@ locations:
     - Derelik
     - Great Wildlands
     - Scalding Pass
+    - Yasna Zakh
     adjacentSystems:
     - 1P-WGB
     - ARG-3R
@@ -710,6 +712,7 @@ locations:
     - U-QVWD
     - UT-UZB
     - ZFJH-T
+    - Zarzakh
     constellations:
     - Elysium
     - Hale
@@ -2345,6 +2348,7 @@ locations:
     - Aeman
     - Akimamur
     - Algintal
+    - Duzna Kah
     - Eoldulf
     - Erada
     - Evannater
@@ -2367,6 +2371,7 @@ locations:
     - Sinq Laison
     - The Bleak Lands
     - The Forge
+    - Yasna Zakh
     adjacentSystems:
     - AD-5B8
     - Akkio
@@ -2388,6 +2393,7 @@ locations:
     - Thelan
     - Vullat
     - Wiskeber
+    - Zarzakh
     constellations:
     - Aldodan
     - Angils
@@ -2731,6 +2737,7 @@ locations:
     - Anwyns
     - Aokinen
     - Balenne
+    - Duzna Kah
     - Inolari
     - Ishaga
     - Kiartanne
@@ -2748,6 +2755,7 @@ locations:
     - Solitude
     - Syndicate
     - Verge Vendor
+    - Yasna Zakh
     adjacentSystems:
     - Aidart
     - Amygnon
@@ -2762,6 +2770,7 @@ locations:
     - RQH-MY
     - Samanuni
     - TXW-EI
+    - Zarzakh
     constellations:
     - Alselbosier
     - Amevync
@@ -3795,6 +3804,7 @@ locations:
     - 2-ZRM0
     - 29V-1R
     - 52-JKU
+    - Duzna Kah
     - JE7-F2
     - M-J57M
     - N-U2LX
@@ -3808,6 +3818,7 @@ locations:
     - Perrigen Falls
     - Tenal
     - Tribute
+    - Yasna Zakh
     adjacentSystems:
     - 4U90-Z
     - DKUK-G
@@ -3819,6 +3830,7 @@ locations:
     - Q-CAB2
     - UMI-KK
     - UQ9-3C
+    - Zarzakh
     constellations:
     - 0HD-6C
     - 0KTC-R
@@ -3940,3 +3952,28 @@ locations:
     isPochven: false
     isWormhole: false
     name: Wicked Creek
+  Yasna Zakh:
+    adjacentConstellations:
+    - Amevync
+    - Eugidi
+    - Hale
+    - ST-0EZ
+    adjacentRegions:
+    - Curse
+    - Metropolis
+    - Placid
+    - Venal
+    adjacentSystems:
+    - Alsavoinon
+    - G-0Q86
+    - H-PA29
+    - Turnur
+    constellations:
+    - Duzna Kah
+    id: 10001000
+    isAbyssal: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isWormhole: false
+    name: Yasna Zakh

@@ -3080,14 +3080,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  56907:
-    cpumultiplier: 1.0
-    id: 56907
-    name: Peculiar Icebound Salvage
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
   56951:
     cpumultiplier: 1.0
     id: 56951
@@ -3226,46 +3218,6 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
-  57038:
-    cpumultiplier: 1.0
-    id: 57038
-    name: Rare Icebound Salvage
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  57039:
-    cpumultiplier: 1.0
-    id: 57039
-    name: Unusual Icebound Salvage
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  57040:
-    cpumultiplier: 1.0
-    id: 57040
-    name: ORE Green Salvage Package
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  57050:
-    cpumultiplier: 1.0
-    id: 57050
-    name: ORE White Salvage Package
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  57051:
-    cpumultiplier: 1.0
-    id: 57051
-    name: ORE Red Salvage Package
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
   57152:
     cpumultiplier: 1.0
     id: 57152
@@ -3736,14 +3688,6 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  74449:
-    cpumultiplier: 1.0
-    id: 74449
-    name: Ice Storm Filaments Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
   76214:
     cpumultiplier: 1.0
     id: 76214
@@ -3812,6 +3756,46 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  78357:
+    cpumultiplier: 1.0
+    id: 78357
+    name: Crimson Harvest Fireworks Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  78867:
+    cpumultiplier: 1.0
+    id: 78867
+    name: Guristas Pirates Laundering Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  78872:
+    cpumultiplier: 1.0
+    id: 78872
+    name: Angel Cartel Laundering Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  78873:
+    cpumultiplier: 1.0
+    id: 78873
+    name: Federation Counter-Insurgency Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  78874:
+    cpumultiplier: 1.0
+    id: 78874
+    name: Imperial Counter-Insurgency Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   78889:
     cpumultiplier: 1.0
     id: 78889
@@ -3821,3 +3805,84 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  79117:
+    cpumultiplier: 1.0
+    id: 79117
+    name: State Counter-Insurgency Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  79118:
+    cpumultiplier: 1.0
+    id: 79118
+    name: Republic Counter-Insurgency Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  79186:
+    cpumultiplier: 1.0
+    id: 79186
+    marketGroup: 1661
+    name: Mysterious GalNet Crate II
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  79819:
+    cpumultiplier: 1.0
+    id: 79819
+    name: Ice Storm Filaments Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  79832:
+    cpumultiplier: 1.0
+    id: 79832
+    name: ORE Green Salvage Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  79833:
+    cpumultiplier: 1.0
+    id: 79833
+    name: ORE White Salvage Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  79834:
+    cpumultiplier: 1.0
+    id: 79834
+    name: ORE Red Salvage Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  79835:
+    cpumultiplier: 1.0
+    id: 79835
+    name: Peculiar Icebound Salvage
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  79836:
+    cpumultiplier: 1.0
+    id: 79836
+    name: Unusual Icebound Salvage
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  79837:
+    cpumultiplier: 1.0
+    id: 79837
+    name: Rare Icebound Salvage
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

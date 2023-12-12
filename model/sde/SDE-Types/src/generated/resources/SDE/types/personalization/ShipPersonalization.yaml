@@ -3789,3 +3789,103 @@ types:
     name: Bustard Corporation Emblem
     portionSize: 1
     published: true
+  79085:
+    id: 79085
+    name: Hubris Corporation Emblem
+    portionSize: 1
+    published: true
+  79086:
+    id: 79086
+    name: Hubris Alliance Emblem
+    portionSize: 1
+    published: true
+  79087:
+    id: 79087
+    name: Valravn Corporation Emblem
+    portionSize: 1
+    published: true
+  79088:
+    id: 79088
+    name: Valravn Alliance Emblem
+    portionSize: 1
+    published: true
+  79089:
+    id: 79089
+    name: Bane Corporation Emblem
+    portionSize: 1
+    published: true
+  79090:
+    id: 79090
+    name: Bane Alliance Emblem
+    portionSize: 1
+    published: true
+  79091:
+    id: 79091
+    name: Karura Corporation Emblem
+    portionSize: 1
+    published: true
+  79092:
+    id: 79092
+    name: Karura Alliance Emblem
+    portionSize: 1
+    published: true
+  79093:
+    id: 79093
+    name: Mekubal Corporation Emblem
+    portionSize: 1
+    published: true
+  79094:
+    id: 79094
+    name: Mekubal Alliance Emblem
+    portionSize: 1
+    published: true
+  79100:
+    id: 79100
+    name: Mamba Corporation Emblem
+    portionSize: 1
+    published: true
+  79101:
+    id: 79101
+    name: Mamba Alliance Emblem
+    portionSize: 1
+    published: true
+  79102:
+    id: 79102
+    name: Khizriel Corporation Emblem
+    portionSize: 1
+    published: true
+  79103:
+    id: 79103
+    name: Khizriel Alliance Emblem
+    portionSize: 1
+    published: true
+  79188:
+    id: 79188
+    name: Alligator Corporation Emblem
+    portionSize: 1
+    published: true
+  79189:
+    id: 79189
+    name: Alligator Alliance Emblem
+    portionSize: 1
+    published: true
+  79402:
+    id: 79402
+    name: Metamorphosis Corporation Emblem
+    portionSize: 1
+    published: true
+  79403:
+    id: 79403
+    name: Metamorphosis Alliance Emblem
+    portionSize: 1
+    published: true
+  79636:
+    id: 79636
+    name: Azariel Corporation Emblem
+    portionSize: 1
+    published: true
+  79637:
+    id: 79637
+    name: Azariel Alliance Emblem
+    portionSize: 1
+    published: true

@@ -15499,15 +15499,20 @@ types:
     armorhp: 250000.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
+    behaviorecmdischarge: 1.0
+    behaviorecmduration: 10000
+    behaviorecmfalloff: 150000.0
+    behaviorecmrange: 75000
     behaviortargetpainterdischarge: 1.0
     behaviortargetpainterduration: 5000.0
-    behaviortargetpainterfalloff: 100000.0
+    behaviortargetpainterfalloff: 250000.0
     behaviortargetpainterrange: 250000.0
     capacitorcapacity: 10000.0
     capacity: 1000.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    ecmjamduration: 5000
     emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 500000
@@ -15519,7 +15524,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitymissiletypeid: 24521
+    entitymissiletypeid: 24529
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 1.0
@@ -15530,14 +15535,14 @@ types:
     mass: 1000.0
     maxattacktargets: 10
     maximumrangecap: 1000000
-    maxlockedtargets: 14
-    maxtargetrange: 500000.0
+    maxlockedtargets: 20
+    maxtargetrange: 1000000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 2.0
     missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 50.0
-    missileentityvelocitymultiplier: 4.0
-    missilelaunchduration: 5000.0
+    missileentityflighttimemultiplier: 100.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 7000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Deathless Retribution Emplacement
@@ -15548,11 +15553,15 @@ types:
     published: false
     radius: 500.0
     rechargerate: 5000.0
-    scangravimetricstrength: 1000.0
-    scanladarstrength: 1000.0
-    scanmagnetometricstrength: 1000.0
-    scanradarstrength: 1000.0
-    scanresolution: 200.0
+    scangravimetricstrength: 2000.0
+    scangravimetricstrengthbonus: 1.0
+    scanladarstrength: 2000.0
+    scanladarstrengthbonus: 1.0
+    scanmagnetometricstrength: 2000.0
+    scanmagnetometricstrengthbonus: 1.0
+    scanradarstrength: 2000.0
+    scanradarstrengthbonus: 1.0
+    scanresolution: 400.0
     shieldcapacity: 1000000.0
     shieldemdamageresonance: 0.009999999776482582
     shieldexplosivedamageresonance: 0.009999999776482582
@@ -15565,5 +15574,363 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  79183:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesecondarytarget: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 250000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    behaviorecmdischarge: 1.0
+    behaviorecmduration: 10000
+    behaviorecmfalloff: 150000.0
+    behaviorecmrange: 75000
+    behaviortargetpainterdischarge: 1.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 250000.0
+    behaviortargetpainterrange: 250000.0
+    capacitorcapacity: 10000.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    ecmjamduration: 5000
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 500000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitymissiletypeid: 24525
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxturretid: 2420
+    hp: 150000.0
+    id: 79183
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    maxattacktargets: 10
+    maximumrangecap: 1000000
+    maxlockedtargets: 20
+    maxtargetrange: 1000000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 2.0
+    missileentityaoevelocitymultiplier: 2.0
+    missileentityflighttimemultiplier: 100.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 7000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Deathless Retribution Emplacement
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 500.0
+    rechargerate: 5000.0
+    scangravimetricstrength: 2000.0
+    scangravimetricstrengthbonus: 1.0
+    scanladarstrength: 2000.0
+    scanladarstrengthbonus: 1.0
+    scanmagnetometricstrength: 2000.0
+    scanmagnetometricstrengthbonus: 1.0
+    scanradarstrength: 2000.0
+    scanradarstrengthbonus: 1.0
+    scanresolution: 400.0
+    shieldcapacity: 1000000.0
+    shieldemdamageresonance: 0.009999999776482582
+    shieldexplosivedamageresonance: 0.009999999776482582
+    shieldkineticdamageresonance: 0.009999999776482582
+    shieldrechargerate: 50000.0
+    shieldthermaldamageresonance: 0.009999999776482582
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    signatureradiusbonus: 50.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  79184:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesecondarytarget: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 250000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    behaviorecmdischarge: 1.0
+    behaviorecmduration: 10000
+    behaviorecmfalloff: 150000.0
+    behaviorecmrange: 75000
+    behaviortargetpainterdischarge: 1.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 250000.0
+    behaviortargetpainterrange: 250000.0
+    capacitorcapacity: 10000.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    ecmjamduration: 5000
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 500000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitymissiletypeid: 2801
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxturretid: 2420
+    hp: 150000.0
+    id: 79184
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    maxattacktargets: 10
+    maximumrangecap: 1000000
+    maxlockedtargets: 20
+    maxtargetrange: 1000000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 2.0
+    missileentityaoevelocitymultiplier: 2.0
+    missileentityflighttimemultiplier: 100.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 7000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Deathless Retribution Emplacement
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 500.0
+    rechargerate: 5000.0
+    scangravimetricstrength: 2000.0
+    scangravimetricstrengthbonus: 1.0
+    scanladarstrength: 2000.0
+    scanladarstrengthbonus: 1.0
+    scanmagnetometricstrength: 2000.0
+    scanmagnetometricstrengthbonus: 1.0
+    scanradarstrength: 2000.0
+    scanradarstrengthbonus: 1.0
+    scanresolution: 400.0
+    shieldcapacity: 1000000.0
+    shieldemdamageresonance: 0.009999999776482582
+    shieldexplosivedamageresonance: 0.009999999776482582
+    shieldkineticdamageresonance: 0.009999999776482582
+    shieldrechargerate: 50000.0
+    shieldthermaldamageresonance: 0.009999999776482582
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    signatureradiusbonus: 50.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  79185:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesecondarytarget: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 250000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    behaviorecmdischarge: 1.0
+    behaviorecmduration: 10000
+    behaviorecmfalloff: 150000.0
+    behaviorecmrange: 75000
+    behaviortargetpainterdischarge: 1.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 250000.0
+    behaviortargetpainterrange: 250000.0
+    capacitorcapacity: 10000.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    ecmjamduration: 5000
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 500000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitymissiletypeid: 24527
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxturretid: 2420
+    hp: 150000.0
+    id: 79185
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    maxattacktargets: 10
+    maximumrangecap: 1000000
+    maxlockedtargets: 20
+    maxtargetrange: 1000000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 2.0
+    missileentityaoevelocitymultiplier: 2.0
+    missileentityflighttimemultiplier: 100.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 7000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Deathless Retribution Emplacement
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 500.0
+    rechargerate: 5000.0
+    scangravimetricstrength: 2000.0
+    scangravimetricstrengthbonus: 1.0
+    scanladarstrength: 2000.0
+    scanladarstrengthbonus: 1.0
+    scanmagnetometricstrength: 2000.0
+    scanmagnetometricstrengthbonus: 1.0
+    scanradarstrength: 2000.0
+    scanradarstrengthbonus: 1.0
+    scanresolution: 400.0
+    shieldcapacity: 1000000.0
+    shieldemdamageresonance: 0.009999999776482582
+    shieldexplosivedamageresonance: 0.009999999776482582
+    shieldkineticdamageresonance: 0.009999999776482582
+    shieldrechargerate: 50000.0
+    shieldthermaldamageresonance: 0.009999999776482582
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    signatureradiusbonus: 50.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  79507:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 37500.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    behaviorecmdischarge: 1.0
+    behaviorecmduration: 10000
+    behaviorecmfalloff: 150000.0
+    behaviorecmrange: 75000
+    behaviortargetpainterdischarge: 1.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 250000.0
+    behaviortargetpainterrange: 250000.0
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 5.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    ecmjamduration: 5000
+    emdamage: 25.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityfactionloss: 0.16899999976158142
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entityreactionfactor: 1.0
+    explosivedamage: 25.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 20454
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 15000.0
+    id: 79507
+    kineticdamage: 25.0
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    maxattacktargets: 2
+    maximumrangecap: 300000
+    maxlockedtargets: 8
+    maxrange: 500000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Counter-Insurgency Sentry Gun
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 2222.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 1000.0
+    scangravimetricstrengthbonus: 1.0
+    scanladarstrength: 1000.0
+    scanladarstrengthbonus: 1.0
+    scanmagnetometricstrength: 1000.0
+    scanmagnetometricstrengthbonus: 1.0
+    scanradarstrength: 1000.0
+    scanradarstrengthbonus: 1.0
+    scanresolution: 105.0
+    shieldcapacity: 18000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    signatureradiusbonus: 50.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 25.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.4000000059604645
     volume: 1000.0
     warpscrambleduration: 8000

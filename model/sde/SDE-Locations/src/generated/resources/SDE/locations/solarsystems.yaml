@@ -24187,11 +24187,14 @@ locations:
   Alsavoinon:
     adjacentConstellations:
     - Balenne
+    - Duzna Kah
     adjacentRegions:
     - Cloud Ring
+    - Yasna Zakh
     adjacentSystems:
     - F7C-H0
     - Vlillirier
+    - Zarzakh
     anchorStructures: true
     constellation: Amevync
     id: 30003841
@@ -24206,7 +24209,7 @@ locations:
     isWormhole: false
     name: Alsavoinon
     region: Placid
-    truesec: 0.2663662861540903
+    truesec: 0.266366286154
   Alsottobier:
     adjacentSystems:
     - Audaerne
@@ -45488,12 +45491,16 @@ locations:
     truesec: 0.1722285597675846
   G-0Q86:
     adjacentConstellations:
+    - Duzna Kah
     - Elysium
+    adjacentRegions:
+    - Yasna Zakh
     adjacentSystems:
     - G-R4W1
     - KLMT-W
     - LJ-YSW
     - Y-K50G
+    - Zarzakh
     anchorStructures: true
     constellation: Hale
     id: 30001041
@@ -45508,7 +45515,7 @@ locations:
     isWormhole: false
     name: G-0Q86
     region: Curse
-    truesec: -0.01734272933831871
+    truesec: -0.0173427293383
   G-3BOG:
     adjacentSystems:
     - 7GCD-P
@@ -49603,10 +49610,15 @@ locations:
     region: Feythabolis
     truesec: -0.1192586599325453
   H-PA29:
+    adjacentConstellations:
+    - Duzna Kah
+    adjacentRegions:
+    - Yasna Zakh
     adjacentSystems:
     - 1-Y6KI
     - 9-266Q
     - P-FSQE
+    - Zarzakh
     anchorStructures: true
     constellation: ST-0EZ
     id: 30001269
@@ -49621,7 +49633,7 @@ locations:
     isWormhole: false
     name: H-PA29
     region: Venal
-    truesec: -0.2410535521133741
+    truesec: -0.241053552113
   H-RXNZ:
     adjacentConstellations:
     - C73-U5
@@ -140693,10 +140705,15 @@ locations:
     region: Kador
     truesec: 0.6991566243431864
   Turnur:
+    adjacentConstellations:
+    - Duzna Kah
+    adjacentRegions:
+    - Yasna Zakh
     adjacentSystems:
     - Aset
     - Isbrabata
     - Uisper
+    - Zarzakh
     anchorStructures: true
     constellation: Eugidi
     id: 30002086
@@ -159357,6 +159374,37 @@ locations:
     name: Zarer
     region: Genesis
     truesec: 0.3684772749580796
+  Zarzakh:
+    adjacentConstellations:
+    - Amevync
+    - Eugidi
+    - Hale
+    - ST-0EZ
+    adjacentRegions:
+    - Curse
+    - Metropolis
+    - Placid
+    - Venal
+    adjacentSystems:
+    - Alsavoinon
+    - G-0Q86
+    - H-PA29
+    - Turnur
+    anchorStructures: false
+    constellation: Duzna Kah
+    id: 30100000
+    isAbyssal: false
+    isBorder: false
+    isCorridor: false
+    isFringe: false
+    isHub: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isWormhole: false
+    name: Zarzakh
+    region: Yasna Zakh
+    truesec: -1.0
   Zatamaka:
     adjacentSystems:
     - Atarli

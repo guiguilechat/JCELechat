@@ -1429,7 +1429,7 @@ types:
     fwlpkill: 750
     gfxboosterid: 395
     heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.7099999785423279
+    heatattenuationlow: 0.7599999904632568
     heatattenuationmed: 0.7900000214576721
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -1527,8 +1527,8 @@ types:
     fwlpkill: 750
     gfxboosterid: 397
     heatattenuationhi: 0.8199999928474426
-    heatattenuationlow: 0.7900000214576721
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -1917,8 +1917,8 @@ types:
     fwlpkill: 500
     gfxboosterid: 395
     heatattenuationhi: 0.8199999928474426
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 0.7900000214576721
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -2479,9 +2479,9 @@ types:
     frigateescapebaycapacity: 1
     fwlpkill: 500
     gfxboosterid: 394
-    heatattenuationhi: 0.8199999928474426
-    heatattenuationlow: 0.8199999928474426
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.7900000214576721
+    heatattenuationlow: 0.7900000214576721
+    heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -3060,9 +3060,9 @@ types:
     frigateescapebaycapacity: 1
     fwlpkill: 500
     gfxboosterid: 394
-    heatattenuationhi: 0.8199999928474426
-    heatattenuationlow: 0.7900000214576721
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.7099999785423279
+    heatattenuationlow: 0.8199999928474426
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -3154,7 +3154,7 @@ types:
     gfxboosterid: 394
     heatattenuationhi: 0.7900000214576721
     heatattenuationlow: 0.7900000214576721
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationmed: 0.7900000214576721
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -3248,9 +3248,9 @@ types:
     frigateescapebaycapacity: 1
     fwlpkill: 500
     gfxboosterid: 395
-    heatattenuationhi: 0.8199999928474426
+    heatattenuationhi: 0.25
     heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationmed: 0.7900000214576721
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -3264,7 +3264,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
     maincolor: 16777215
-    marketGroup: 1379
+    marketGroup: 3538
     mass: 1.02141E8
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7

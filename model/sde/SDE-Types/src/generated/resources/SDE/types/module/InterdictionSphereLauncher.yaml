@@ -1,5 +1,6 @@
 types:
   22782:
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 541
     capacity: 15.0
     chargegroup1: 548
@@ -7,7 +8,6 @@ types:
     chargerate: 1
     cpu: 100.0
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     disallowrepeatingactivation: 1
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.7000000476837158

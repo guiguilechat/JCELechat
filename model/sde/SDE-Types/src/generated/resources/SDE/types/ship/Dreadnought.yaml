@@ -143,7 +143,7 @@ types:
     gfxboosterid: 397
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.6299999952316284
+    heatattenuationhi: 0.7099999785423279
     heatattenuationlow: 0.7599999904632568
     heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
@@ -259,8 +259,8 @@ types:
     hasfleethangars: 1
     hasshipmaintenancebay: 1
     heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7900000214576721
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationlow: 0.8199999928474426
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -490,7 +490,7 @@ types:
     hasshipmaintenancebay: 1
     heatattenuationhi: 0.7099999785423279
     heatattenuationlow: 0.7900000214576721
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -607,9 +607,9 @@ types:
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7578582763671875
-    heatattenuationlow: 0.820335328578949
-    heatattenuationmed: 0.6299605369567871
+    heatattenuationhi: 0.7599999904632568
+    heatattenuationlow: 0.8199999928474426
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -850,9 +850,9 @@ types:
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7200000286102295
-    heatattenuationlow: 0.8100000023841858
-    heatattenuationmed: 0.699999988079071
+    heatattenuationhi: 0.5
+    heatattenuationlow: 0.8199999928474426
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -967,7 +967,7 @@ types:
     gfxboosterid: 397
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.6299999952316284
+    heatattenuationhi: 0.7599999904632568
     heatattenuationlow: 0.7599999904632568
     heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
@@ -1083,7 +1083,7 @@ types:
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7099999785423279
+    heatattenuationhi: 0.7599999904632568
     heatattenuationlow: 0.8199999928474426
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
@@ -1200,7 +1200,7 @@ types:
     hasfleethangars: 1
     hasshipmaintenancebay: 1
     heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7900000214576721
+    heatattenuationlow: 0.8199999928474426
     heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -1318,7 +1318,7 @@ types:
     hasshipmaintenancebay: 1
     heatattenuationhi: 0.7099999785423279
     heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7900000214576721
+    heatattenuationmed: 0.8199999928474426
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100

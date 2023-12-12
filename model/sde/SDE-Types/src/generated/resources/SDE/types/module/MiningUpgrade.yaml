@@ -222,3 +222,20 @@ types:
     requiredskill2level: 3
     techlevel: 1
     volume: 5.0
+  78677:
+    cpu: 30.0
+    cpupenaltypercent: 10.0
+    hp: 40.0
+    id: 78677
+    mass: 1.0
+    miningamountbonus: 3
+    name: Civilian Mining Laser Upgrade
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0

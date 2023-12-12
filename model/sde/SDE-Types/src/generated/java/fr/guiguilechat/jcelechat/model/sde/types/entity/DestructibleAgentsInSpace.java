@@ -215,7 +215,7 @@ public class DestructibleAgentsInSpace
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, AgentID.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, AgentCommRange.INSTANCE, StructureUniformity.INSTANCE, DisallowAssistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, MaxRange.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, SignatureRadius.INSTANCE, AgentID.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, AgentCommRange.INSTANCE, StructureUniformity.INSTANCE, MaxRange.INSTANCE, DisallowAssistance.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final DestructibleAgentsInSpace.MetaGroup METAGROUP = new DestructibleAgentsInSpace.MetaGroup();
 
     @Override

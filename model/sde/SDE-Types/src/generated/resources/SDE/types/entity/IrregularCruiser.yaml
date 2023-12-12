@@ -4269,6 +4269,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
+    entitykillbounty: 150000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
@@ -4357,6 +4358,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
+    entitykillbounty: 150000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
@@ -4454,6 +4456,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
+    entitykillbounty: 200000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 209
     entityreactionfactor: 1.0
@@ -5384,6 +5387,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
+    entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
     entityshieldboostdelaychance: 1.0
@@ -6540,7 +6544,7 @@ types:
     missilelaunchduration: 20000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
-    name: SARO Stormbringer
+    name: Upwell Safeguard Stormbringer
     npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     packagedVolume: 118000.0

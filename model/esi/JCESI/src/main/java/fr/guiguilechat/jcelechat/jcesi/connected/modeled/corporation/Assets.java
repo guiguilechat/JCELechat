@@ -94,17 +94,17 @@ public class Assets {
 	protected ItemForest grow(List<R_get_corporations_corporation_id_assets> assets) {
 		ItemForest ret = new ItemForest();
 		for (R_get_corporations_corporation_id_assets item : assets) {
-			ret.itemsByID.put(item.item_id, new ItemNode(item));
+			ret.itemsByID().put(item.item_id, new ItemNode(item));
 		}
 		// fetch the names
-		name(ret.itemsByID);
+		name(ret.itemsByID());
 
 		// place the items in the roots.
-		for (ItemNode itemNode : ret.itemsByID.values()) {
-			ItemNode parent = ret.itemsByID.get(itemNode.location_id);
+		for (ItemNode itemNode : ret.itemsByID().values()) {
+			ItemNode parent = ret.itemsByID().get(itemNode.location_id);
 			if (parent == null) {
 				Location location = Location.resolve(con, itemNode.location_id);
-				ret.roots.computeIfAbsent(location, loc -> new HashMap<>())
+				ret.roots().computeIfAbsent(location, loc -> new HashMap<>())
 				.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
 			} else {
 				parent.contained.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);

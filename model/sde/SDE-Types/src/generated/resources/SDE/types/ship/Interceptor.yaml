@@ -858,7 +858,7 @@ types:
     fwlpkill: 38
     gfxboosterid: 394
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.5
+    heatattenuationlow: 0.6299999952316284
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100

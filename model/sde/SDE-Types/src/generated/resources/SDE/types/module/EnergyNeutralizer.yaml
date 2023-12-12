@@ -1234,7 +1234,7 @@ types:
     metalevelold: 10
     name: Corpus C-Type Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
+    packagedVolume: 5.0
     portionSize: 1
     power: 2200
     published: true
@@ -1243,7 +1243,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 50.0
+    volume: 5.0
   37629:
     capacitorneed: 500.0
     cpu: 40.0
@@ -1264,7 +1264,7 @@ types:
     metalevelold: 12
     name: Corpus B-Type Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
+    packagedVolume: 5.0
     portionSize: 1
     power: 2400
     published: true
@@ -1273,7 +1273,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 50.0
+    volume: 5.0
   37630:
     capacitorneed: 500.0
     cpu: 40.0
@@ -1294,7 +1294,7 @@ types:
     metalevelold: 14
     name: Corpus A-Type Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
+    packagedVolume: 5.0
     portionSize: 1
     power: 2600
     published: true
@@ -1303,7 +1303,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 50.0
+    volume: 5.0
   37631:
     capacitorneed: 500.0
     cpu: 40.0
@@ -1324,7 +1324,7 @@ types:
     metalevelold: 16
     name: Corpus X-Type Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
+    packagedVolume: 5.0
     portionSize: 1
     power: 2800
     published: true
@@ -1333,7 +1333,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    volume: 50.0
+    volume: 5.0
   40659:
     capacitorneed: 3600.0
     cpu: 90.0

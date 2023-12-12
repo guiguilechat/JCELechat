@@ -371,3 +371,27 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  78368:
+    id: 78368
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
+    name: Alligator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.8E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  78370:
+    id: 78370
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
+    name: Khizriel Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.65E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

@@ -1,5 +1,6 @@
 types:
   29207:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 10000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -17,6 +18,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29310:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 20000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -34,6 +36,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29311:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 30000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -51,6 +54,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29312:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 40000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -68,6 +72,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29313:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 50000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -85,6 +90,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29314:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 60000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -102,6 +108,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29315:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 70000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -119,6 +126,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29316:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 80000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -136,6 +144,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29317:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 90000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -153,6 +162,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29318:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 100000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -170,6 +180,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29414:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 10000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -187,6 +198,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29415:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 10000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -204,6 +216,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29416:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 10000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -221,6 +234,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29418:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 20000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -238,6 +252,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29419:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 20000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -255,6 +270,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29420:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 20000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -272,6 +288,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29421:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 30000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -289,6 +306,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29422:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 30000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -306,6 +324,7 @@ types:
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   29423:
+    captureproximityinteractivesonly: 1
     captureproximityrange: 30000
     disallowassistance: 1
     emdamageresonance: 0.0010000000474974513
@@ -319,6 +338,78 @@ types:
     portionSize: 1
     published: false
     radius: 471.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
+    volume: 1.0
+  78800:
+    captureproximityinteractivesonly: 1
+    captureproximityrange: 30000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 0.0010000000474974513
+    hp: 1.0E10
+    id: 78800
+    kineticdamageresonance: 0.0010000000474974513
+    mass: 1000000.0
+    name: 30km Small Corporate Capture Point
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    radius: 1500.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
+    volume: 1.0
+  79489:
+    captureproximityinteractivesonly: 1
+    captureproximityrange: 30000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 0.0010000000474974513
+    hp: 1.0E10
+    id: 79489
+    kineticdamageresonance: 0.0010000000474974513
+    mass: 1000000.0
+    name: 30km Medium Corporate Capture Point
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    radius: 1500.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
+    volume: 1.0
+  79490:
+    captureproximityinteractivesonly: 1
+    captureproximityrange: 30000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 0.0010000000474974513
+    hp: 1.0E10
+    id: 79490
+    kineticdamageresonance: 0.0010000000474974513
+    mass: 1000000.0
+    name: 30km Large Corporate Capture Point
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    radius: 1500.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
+    volume: 1.0
+  79491:
+    captureproximityinteractivesonly: 1
+    captureproximityrange: 30000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 0.0010000000474974513
+    hp: 1.0E10
+    id: 79491
+    kineticdamageresonance: 0.0010000000474974513
+    mass: 1000000.0
+    name: 30km Open Corporate Capture Point
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    radius: 1500.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.0010000000474974513
     volume: 1.0

@@ -767,3 +767,35 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  78853:
+    id: 78853
+    mass: 1.0
+    name: Guristas Pirates Warehouse Raid Key
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  78854:
+    id: 78854
+    mass: 1.0
+    name: Angel Cartel Warehouse Raid Key
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  78855:
+    id: 78855
+    mass: 1.0
+    name: DED AmaMin Warehouse Raid Key
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  78856:
+    id: 78856
+    mass: 1.0
+    name: DED CalGal Warehouse Raid Key
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

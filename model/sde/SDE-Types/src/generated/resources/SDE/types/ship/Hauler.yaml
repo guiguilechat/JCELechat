@@ -18,9 +18,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
-    heatattenuationhi: 1.0
-    heatattenuationlow: 0.25
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.25
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -106,8 +106,8 @@ types:
     fwlpkill: 50
     gfxboosterid: 395
     heatattenuationhi: 0.25
-    heatattenuationlow: 0.5
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -193,9 +193,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 395
-    heatattenuationhi: 1.0
-    heatattenuationlow: 0.25
-    heatattenuationmed: 0.25
+    heatattenuationhi: 0.25
+    heatattenuationlow: 0.7099999785423279
+    heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -279,9 +279,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
-    heatattenuationhi: 1.0
+    heatattenuationhi: 0.30000001192092896
     heatattenuationlow: 0.5
-    heatattenuationmed: 0.5
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -369,8 +369,8 @@ types:
     fwlpkill: 50
     gfxboosterid: 397
     heatattenuationhi: 0.25
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationlow: 0.7099999785423279
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -453,9 +453,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 50
     gfxboosterid: 397
-    heatattenuationhi: 1.0
-    heatattenuationlow: 0.25
-    heatattenuationmed: 0.25
+    heatattenuationhi: 0.25
+    heatattenuationlow: 0.7099999785423279
+    heatattenuationmed: 0.7099999785423279
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -540,8 +540,8 @@ types:
     fwlpkill: 50
     gallenteindustrialbonusiceholdcapacity: 10
     gfxboosterid: 395
-    heatattenuationhi: 1.0
-    heatattenuationlow: 0.25
+    heatattenuationhi: 0.25
+    heatattenuationlow: 0.6299999952316284
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -629,8 +629,8 @@ types:
     fwlpkill: 50
     gfxboosterid: 395
     heatattenuationhi: 0.25
-    heatattenuationlow: 0.5
-    heatattenuationmed: 0.5
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -718,8 +718,8 @@ types:
     gallenteindustrialbonusminingholdcapacity: 10
     generalminingholdcapacity: 42000
     gfxboosterid: 395
-    heatattenuationhi: 1.0
-    heatattenuationlow: 0.5
+    heatattenuationhi: 0.25
+    heatattenuationlow: 0.6299999952316284
     heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
@@ -805,7 +805,7 @@ types:
     gfxboosterid: 395
     heatattenuationhi: 0.25
     heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -889,8 +889,8 @@ types:
     fwlpkill: 50
     gfxboosterid: 395
     heatattenuationhi: 0.25
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -972,9 +972,9 @@ types:
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
-    heatattenuationhi: 0.25
-    heatattenuationlow: 0.5
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 1.0
+    heatattenuationlow: 0.6299999952316284
+    heatattenuationmed: 1.0
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -1052,9 +1052,9 @@ types:
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
     gfxboosterid: 394
-    heatattenuationhi: 0.25
+    heatattenuationhi: 0.8199999928474426
     heatattenuationlow: 0.5
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationmed: 0.25
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -1315,8 +1315,8 @@ types:
     fwlpkill: 50
     gfxboosterid: 395
     heatattenuationhi: 0.25
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.5
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.6299999952316284
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100

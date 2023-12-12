@@ -1,6 +1,7 @@
 types:
   4248:
     activationblockedstrenght: 1
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
     capacity: 1.0
@@ -8,7 +9,6 @@ types:
     cpu: 55.0
     disallowassistance: 1
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 3.0
@@ -38,6 +38,7 @@ types:
     warpscramblestrength: 100
   28654:
     activationblockedstrenght: 1
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
     capacity: 1.0
@@ -45,7 +46,6 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -74,6 +74,7 @@ types:
     warpscramblestrength: 100
   37608:
     activationblockedstrenght: 1
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
     capacity: 1.0
@@ -81,7 +82,6 @@ types:
     cpu: 45.0
     disallowassistance: 1
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -111,6 +111,7 @@ types:
     warpscramblestrength: 100
   37610:
     activationblockedstrenght: 1
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
     capacity: 1.0
@@ -118,7 +119,6 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -148,6 +148,7 @@ types:
     warpscramblestrength: 100
   37611:
     activationblockedstrenght: 1
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 894
     capacitorneed: 100.0
     capacity: 1.0
@@ -155,7 +156,6 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -185,6 +185,7 @@ types:
     warpscramblestrength: 100
   37612:
     activationblockedstrenght: 1
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
     capacity: 1.0
@@ -192,7 +193,6 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0
@@ -223,6 +223,7 @@ types:
     warpscramblestrength: 100
   37613:
     activationblockedstrenght: 1
+    allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 894
     capacitorneed: 150.0
     capacity: 1.0
@@ -230,7 +231,6 @@ types:
     cpu: 50.0
     disallowassistance: 1
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     duration: 30000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 3.0

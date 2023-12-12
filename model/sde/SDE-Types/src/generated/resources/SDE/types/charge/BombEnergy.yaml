@@ -2,11 +2,11 @@ types:
   27924:
     agility: 2.5109991838689893E-5
     aimedlaunch: 1
+    allowinfullycorruptedlowsec: 1
     aoecloudsize: 400
     armorhp: 240.0
     detonationrange: 35
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     emdamage: 7.0
     empfieldrange: 15000
     energyneutralizeramount: 1800.0
@@ -37,11 +37,11 @@ types:
   34264:
     agility: 2.5109991838689893E-5
     aimedlaunch: 1
+    allowinfullycorruptedlowsec: 1
     aoecloudsize: 5000
     armorhp: 600.0
     detonationrange: 35
     disallowinempirespace: 1
-    disallowinhazardsystem: 1
     emdamage: 7.0
     empfieldrange: 1
     energyneutralizeramount: 15000.0

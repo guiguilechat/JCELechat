@@ -1669,3 +1669,33 @@ types:
     price: 1000.0
     published: true
     volume: 1.0
+  78622:
+    id: 78622
+    marketGroup: 3542
+    mass: 1.0
+    name: Gravid Vorton Tuning System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  78623:
+    id: 78623
+    marketGroup: 3542
+    mass: 1.0
+    name: Decayed Vorton Tuning System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  78624:
+    id: 78624
+    marketGroup: 3542
+    mass: 1.0
+    name: Unstable Vorton Tuning System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
