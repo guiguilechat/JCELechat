@@ -1,0 +1,67 @@
+types:
+  79864:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 5000000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacitorcapacity: 100.0
+    capacity: 10000.0
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 5000000.0
+    id: 79864
+    kineticdamageresonance: 1.0
+    mass: 1.0E7
+    maxvelocity: 300.0
+    name: Test Towed Object (Do Not Translate)
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 1226.0
+    rechargerate: 100000.0
+    shieldcapacity: 5000000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8640000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+  79909:
+    agility: 1.5
+    armoremdamageresonance: 0.10000000149011612
+    armorexplosivedamageresonance: 0.10000000149011612
+    armorhp: 5000000.0
+    armorkineticdamageresonance: 0.10000000149011612
+    armorthermaldamageresonance: 0.10000000149011612
+    armoruniformity: 1.0
+    capacitorcapacity: 100.0
+    capacity: 10000.0
+    emdamageresonance: 0.10000000149011612
+    explosivedamageresonance: 0.10000000149011612
+    hp: 5000000.0
+    id: 79909
+    kineticdamageresonance: 0.10000000149011612
+    mass: 4.0E7
+    maxvelocity: 800.0
+    name: Automated HISC-99 Tanker
+    packagedVolume: 1.0E8
+    panicduration: 10000
+    portionSize: 1
+    published: false
+    radius: 450.0
+    rechargerate: 100000.0
+    shieldcapacity: 5000000.0
+    shieldemdamageresonance: 0.10000000149011612
+    shieldexplosivedamageresonance: 0.10000000149011612
+    shieldkineticdamageresonance: 0.10000000149011612
+    shieldrechargerate: 8640000.0
+    shieldthermaldamageresonance: 0.10000000149011612
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.10000000149011612
+    volume: 1.0E8
