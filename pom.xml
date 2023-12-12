@@ -30,7 +30,6 @@
 		</repository>
 	</repositories>
 	-->
-
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -80,7 +79,11 @@
 				<version>${project.version}</version>
 			</dependency>
 			<!-- /submodules -->
-
+			<dependency>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-core</artifactId>
+				<version>1.4.14</version>
+			</dependency>
 			<dependency>
 				<groupId>fr.lelouet.tools</groupId>
 				<artifactId>Compilation</artifactId>
@@ -101,14 +104,12 @@
 				<artifactId>FondHamilton</artifactId>
 				<version>${tools.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>javax.servlet</groupId>
 				<artifactId>javax.servlet-api</artifactId>
 				<version>${javax.servlet-api.version}</version>
 				<scope>provided</scope>
 			</dependency>
-
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
