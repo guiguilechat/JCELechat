@@ -125,7 +125,7 @@ public class IndustryTranslater {
 					logger.debug("skipping bp for unpublished " + type.name);
 				}
 			} else {
-				logger.debug("skipping unpublished bp id=" + e.getValue().blueprintTypeID);
+				logger.debug("skipping null-item bp id=" + e.getValue().blueprintTypeID);
 			}
 		}
 
