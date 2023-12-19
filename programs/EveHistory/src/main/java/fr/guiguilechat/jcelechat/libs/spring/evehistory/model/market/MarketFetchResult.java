@@ -1,6 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market;
 
 import java.time.Instant;
+import java.util.EnumSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 import org.springframework.data.annotation.CreatedDate;
 
@@ -10,11 +14,17 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
+import lombok.experimental.Accessors;
 
 @Entity
 @Data
@@ -22,12 +32,15 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Table(indexes = {
-		@Index(columnList = "analyzed"),
-		@Index(columnList = "failed"),
+		@Index(columnList = "status"),
 		@Index(columnList = "lastModified"),
-		@Index(columnList = "regionId")
+// @Index(columnList = "region_id")
 })
 public class MarketFetchResult {
+
+	//
+	// DB fields
+	//
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -36,28 +49,113 @@ public class MarketFetchResult {
 	@CreatedDate
 	private Instant createdDate;
 
-	/** id of the region used for the call */
-	private int regionId;
+	public static enum STATUS {
+
+		/**
+		 * error retrieving during process/fetch. See error message for more information
+		 */
+		FAIL,
+		/** the fetch returned a 304 */
+		CACHED,
+		/** initial state, when the result is being fetched */
+		FETCHING,
+		/** market has been fetched and stored into DB. */
+		FETCHED,
+		/** all lines for this order are translated to {@link MarketOrder} */
+		ORDERSEXIST,
+		/** market lines have been analyzed. */
+		LINESANALYZED,
+		/** fetch statistical data is done */
+		FETCHANALYZED
+		;
+
+		/**
+		 * @return the enum set of STATUS that are AFTER the one in argument
+		 */
+		public static EnumSet<STATUS> after(STATUS elem) {
+			int startOrd = elem.ordinal() + 1;
+			if (startOrd >= STATUS.values().length) {
+				return EnumSet.noneOf(STATUS.class);
+			}
+			return EnumSet.range(STATUS.values()[startOrd], STATUS.values()[STATUS.values().length - 1]);
+		}
+
+		@Getter(lazy = true)
+		@Accessors(fluent = true)
+		private final Set<STATUS> after = Set.copyOf(after(this));
+
+		/**
+		 * @return the enum set of STATUS that are BEFORE the one in argument
+		 */
+		public static EnumSet<STATUS> before(STATUS elem) {
+			int endOrd = elem.ordinal() - 1;
+			if (endOrd < 0) {
+				return EnumSet.noneOf(STATUS.class);
+			}
+			return EnumSet.range(STATUS.values()[0], STATUS.values()[endOrd]);
+		}
+
+		@Getter(lazy = true)
+		@Accessors(fluent = true)
+		private final Set<STATUS> before = Set.copyOf(before(this));
+
+	}
+
+	@Builder.Default
+	private STATUS status = STATUS.FETCHING;
+
+
+	/** list of errors description, if any */
+	@Column(length = 5000)
+	private String errors;
+
+	/** must be equals to the length of the {@link #errors} column */
+	static private int ERRORS_MAXLENGTH = 5000;
 
 	/**
-	 * true iff the result was an error. no change (304) will not produce an error :
-	 * instead etag will not be set and {@link #cached}.
+	 * add an error and set the status to {@link STATUS#FAIL}. if the errors
+	 * message becomes too long, it is truncated.
+	 *
+	 * @param error error message to add.
 	 */
-	@Builder.Default
-	private boolean failed = false;
+	public void error(String error) {
+		setStatus(STATUS.FAIL);
+		String newString = (errors == null ? "" : errors + ", ") + error;
+		setErrors(newString.length() > ERRORS_MAXLENGTH ? newString.substring(0, ERRORS_MAXLENGTH) : newString);
+	}
 
 	/**
-	 * true iff the result was a cache keep.
+	 * add a list of errors and set the status to {@link STATUS#FAIL}.
 	 */
-	@Builder.Default
-	private boolean cached = false;
+	public void error(Iterable<String> errors) {
+		error(StreamSupport.stream(errors.spliterator(), false).collect(Collectors.joining(", ")));
+	}
+
+	//
+	// fields post-fetch
+	//
+
+
+	// previous fetchResult that has no error, if any.
+	@OneToOne
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
+	private MarketFetchResult previousResult;
+
+	// next fetchResult that has no error, if any.
+	@OneToOne
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
+	private MarketFetchResult nextResult;
+
+	/** region used for the call */
+	@ManyToOne
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
+	private ObservedRegion region;
 
 	/** etag of the resource after the fetch if any */
 	private String etag;
-
-	@Column(length = 5000)
-	/** description of the error if any */
-	private String errors;
 
 	/**
 	 * response code retrieved if any. In case of error, the last error's response
@@ -65,11 +163,11 @@ public class MarketFetchResult {
 	 */
 	private Integer responseCode;
 
-	/** pages received, if any */
+	/** number of pages received, if any */
 	private Integer pagesFetched;
 
 	/**
-	 * number of orders fetched
+	 * number of lines fetched
 	 */
 	private Integer linesFetched;
 
@@ -79,13 +177,8 @@ public class MarketFetchResult {
 	private Instant lastModified;
 
 	//
-	// analized fields
-
-	/**
-	 * set to true when the data fetched have been analyzed.
-	 */
-	@Builder.Default
-	private boolean analyzed = false;
+	// fields post-analyzis
+	//
 
 	/**
 	 * number of lines associated with that result after analyzis

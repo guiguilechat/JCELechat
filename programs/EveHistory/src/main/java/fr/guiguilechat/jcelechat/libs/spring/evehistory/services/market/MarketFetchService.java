@@ -27,6 +27,8 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult.STATUS;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.ObservedRegion;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import lombok.extern.slf4j.Slf4j;
 
@@ -35,7 +37,7 @@ import lombok.extern.slf4j.Slf4j;
 public class MarketFetchService {
 
 	/**
-	 * convert a date in {@link DateTimeFormatter#RFC_1123_DATE_TIME} format
+	 * convert a date from {@link DateTimeFormatter#RFC_1123_DATE_TIME} format
 	 */
 	public static Instant convertDate1123(String formated) {
 		return ZonedDateTime.parse(formated, DateTimeFormatter.RFC_1123_DATE_TIME).toInstant();
@@ -46,7 +48,7 @@ public class MarketFetchService {
 	private MarketFetchLineService lineService;
 
 	@Autowired
-	private MarketOrderService orderService;
+	private ObservedRegionService regionService;
 
 	@Autowired
 	private MarketFetchResultService resultService;
@@ -61,7 +63,7 @@ public class MarketFetchService {
 	 * @return fetch result and list of corresponding lines already mapped to that
 	 *           result, if any.
 	 */
-	Map.Entry<MarketFetchResult, List<MarketFetchLine>> fetchMarketNoDB(int regionId, String lastEtag) {
+	Map.Entry<MarketFetchResult, List<MarketFetchLine>> fetchMarketNoDB(ObservedRegion region, String lastEtag) {
 		long start = System.currentTimeMillis();
 		boolean failed = false;
 		boolean noChange = false;
@@ -74,7 +76,7 @@ public class MarketFetchService {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
 		Requested<R_get_markets_region_id_orders[]> firstResult = ESIStatic.INSTANCE.get_markets_orders(null, null,
-				regionId, null, properties);
+				region.getRegionId(), null, properties);
 		long firstPageTime = System.currentTimeMillis();
 		String newEtag = firstResult.getETag();
 		int responseCode = firstResult.getResponseCode();
@@ -98,12 +100,12 @@ public class MarketFetchService {
 				List<Requested<R_get_markets_region_id_orders[]>> nextPages = null;
 				try {
 					nextPages = highParrallelPool.submit(() -> is.parallel()
-							.mapToObj(p -> ESIStatic.INSTANCE.get_markets_orders(null, p, regionId, null, null))
+							.mapToObj(p -> ESIStatic.INSTANCE.get_markets_orders(null, p, region.getRegionId(), null, null))
 							.toList())
 							.get();
 				} catch (InterruptedException | ExecutionException e) {
 					failed = true;
-					log.error("while fetching next page for region " + regionId, e);
+					log.error("while fetching next page for region " + region.getRegionId(), e);
 					errors.add(e.getMessage());
 				}
 				allPagesTime = System.currentTimeMillis();
@@ -128,16 +130,17 @@ public class MarketFetchService {
 			}
 		}
 		MarketFetchResult fetchResult = MarketFetchResult.builder()
-				.errors(errors.isEmpty() ? null : errors.toString())
 				.etag(failed || noChange ? null : newEtag)
-				.failed(failed)
-				.cached(noChange)
 				.lastModified(failed || noChange ? null : convertDate1123(firstResult.getLastModified()))
 				.linesFetched(failed || noChange ? null : fetchedLines.size())
 				.pagesFetched(failed || noChange ? null : pages)
-				.regionId(regionId)
+				.region(region)
 				.responseCode(responseCode)
+				.status(failed ? STATUS.FAIL : noChange ? STATUS.CACHED : STATUS.FETCHING)
 				.build();
+		if (failed) {
+			fetchResult.error(errors);
+		}
 		List<MarketFetchLine> lines = fetchedLines.stream()
 				.map(order -> MarketFetchLine.builder()
 						.order(order)
@@ -145,25 +148,32 @@ public class MarketFetchService {
 						.build())
 				.toList();
 		long endSave = System.currentTimeMillis();
-		log.info("region id=" + regionId + " result="
+		log.info("region id=" + region.getRegionId() + " result="
 				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " times(ms)= total:"
 				+ (endSave - start) + " firstPage:" + (firstPageTime - start) + (allPagesTime == null ? ""
-						: " nextPages:" + (allPagesTime - firstPageTime) + " save:" + (endSave - allPagesTime)));
+						: " nextPages:" + (allPagesTime - firstPageTime) + " process:" + (endSave - allPagesTime)));
 		return new AbstractMap.SimpleImmutableEntry<>(fetchResult, lines);
 	}
 
 	/**
 	 * request the orders for a region and save it.
 	 *
-	 * @see #fetchMarketNoDB(int, String) for implementation
+	 * @see #fetchMarketNoDB(ObservedRegion, String) for implementation
 	 */
 	@Async
-	public CompletableFuture<Void> fetchMarket(int regionId, String lastEtag) {
-		Entry<MarketFetchResult, List<MarketFetchLine>> e = fetchMarketNoDB(regionId, lastEtag);
+	public CompletableFuture<Void> fetchMarket(ObservedRegion region, MarketFetchResult previousResult) {
+		Entry<MarketFetchResult, List<MarketFetchLine>> e = fetchMarketNoDB(region,
+				previousResult == null ? null : previousResult.getEtag());
 		MarketFetchResult fetchResult = resultService.save(e.getKey());
-		if (!fetchResult.isFailed() && !fetchResult.isCached()) {
+		if (fetchResult.getStatus() == STATUS.FETCHING) {
 			lineService.saveAll(e.getValue());
-			orderService.createMissingOrders(fetchResult);
+			region.setLastFetchSuccess(fetchResult);
+			regionService.save(region);
+			previousResult.setNextResult(fetchResult);
+			resultService.save(previousResult);
+			fetchResult.setStatus(STATUS.FETCHED);
+			fetchResult.setPreviousResult(previousResult);
+			resultService.save(fetchResult);
 		}
 		return CompletableFuture.completedFuture(null);
 	}

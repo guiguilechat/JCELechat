@@ -16,7 +16,9 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
 @Entity
 @Data
@@ -39,6 +41,8 @@ public class MarketFetchLine {
 	private R_get_markets_region_id_orders order;
 
 	@ManyToOne
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
 	private MarketFetchResult fetchResult;
 
 	/**
@@ -59,6 +63,8 @@ public class MarketFetchLine {
 	 * set to the previous market line for the same order, if not created
 	 */
 	@OneToOne(fetch = FetchType.LAZY)
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
 	private MarketFetchLine previousLine;
 
 //	/**

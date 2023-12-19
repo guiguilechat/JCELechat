@@ -1,53 +1,42 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Index;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
-import jakarta.persistence.UniqueConstraint;
+import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
+/** a market order from CCP */
 @Entity
 @Data
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-@Table(indexes = {
-		@Index(columnList = "orderId, regionId"),
-}, uniqueConstraints = {
-		@UniqueConstraint(columnNames = { "orderId", "regionId" })
-})
 public class MarketOrder {
-
-	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_market_order_id")
-	private Long id;
 
 	/**
 	 * CCP's order_id
 	 */
-	private long orderId;
+	@Id
+	private Long orderId;
 
 	/**
-	 * region id of the order.
+	 * first inserted line that referred to that order
 	 */
-	private long regionId;
-
-	/**
-	 * first inserted line that referd to that order
-	 */
-	@ManyToOne
+	@OneToOne
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
 	private MarketFetchLine firstLine;
 
 	/**
-	 * last analyzed line that refered to that order.
+	 * last analyzed line that referred to that order.
 	 */
-	@ManyToOne
+	@OneToOne
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
 	private MarketFetchLine lastLine;
 }

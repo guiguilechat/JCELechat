@@ -17,6 +17,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult.STATUS;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.ObservedRegion;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -39,6 +41,7 @@ public class FetchJitaMarket {
 		MarketFetchService service = new MarketFetchService();
 		String lastEtag = null;
 		int JitaId = 10000002;
+		ObservedRegion theForge = ObservedRegion.builder().regionId(JitaId).active(true).build();
 
 		SavedLines lines = new SavedLines();
 		while (lines.fetched().size() < 3) {
@@ -47,13 +50,14 @@ public class FetchJitaMarket {
 				Thread.sleep(60000);
 			}
 			log.debug("fetching result with etag=" + lastEtag);
-			Entry<MarketFetchResult, List<MarketFetchLine>> e = service.fetchMarketNoDB(JitaId, lastEtag);
+			Entry<MarketFetchResult, List<MarketFetchLine>> e = service.fetchMarketNoDB(theForge, lastEtag);
 			MarketFetchResult fetchedResult = e.getKey();
 			List<MarketFetchLine> fetchedLines = e.getValue();
 			fetchedLines.forEach(l -> l.setFetchResult(null));
-			if (fetchedResult.isCached() || fetchedResult.isFailed()) {
-				log.debug("invalid or cached result");
+			if (fetchedResult.getStatus() == STATUS.CACHED || fetchedResult.getStatus() == STATUS.FAIL) {
+				log.info(" invalid or cached result " + fetchedResult.getStatus() + " : " + fetchedResult.getErrors());
 			} else {
+				log.info(" valid result with etag " + fetchedResult.getEtag());
 				lines.fetched.add(new Fetch(fetchedResult, fetchedLines));
 				lastEtag = fetchedResult.getEtag();
 			}

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.MarketObservedRegionService;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.ObservedRegionService;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import lombok.extern.slf4j.Slf4j;
 
@@ -33,7 +33,7 @@ public class EveHistoryApp extends SpringBootServletInitializer {
 	boolean addData = true;
 
 	@Bean
-	public CommandLineRunner initDB(MarketObservedRegionService mors) {
+	public CommandLineRunner initDB(ObservedRegionService mors) {
 		return args -> {
 			if (addData) {
 				if (mors.observedRegions().isEmpty()) {

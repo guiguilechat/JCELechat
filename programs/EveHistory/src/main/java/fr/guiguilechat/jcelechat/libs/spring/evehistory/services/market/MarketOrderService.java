@@ -12,12 +12,15 @@ public class MarketOrderService {
 	@Autowired
 	MarketOrderRepository repo;
 
+	@Autowired
+	MarketFetchResultService mfrService;
+
 	public void createMissingOrders(MarketFetchResult result) {
 		repo.createMissingOrders(result.getId());
 	}
 
-	public void updateLastLine(MarketFetchResult result) {
-		repo.updateLastLine(result.getId());
-	}
+// public void updateLastLine(MarketFetchResult result) {
+// repo.updateLastLine(result.getId());
+// }
 
 }

@@ -1,11 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
-import java.time.Duration;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -61,96 +57,109 @@ public class MarketFetchLineService {
 	 * Then the lines that meet none of those criterias are deleted, while those
 	 * which do are udpated.
 	 */
-	public void analyzeLines(MarketFetchResult result, MarketFetchResult follow) {
-		long start = System.currentTimeMillis();
-		int nbUpdated = repo.analyzePreviousLines(result.getId(), result.getLastModified());
-		long postUpdated = System.currentTimeMillis();
-		int nbRemoval = repo.analyzeRemovalLines(result.getId(), result.getLastModified(), follow.getId(),
-				follow.getLastModified());
-		long postRemoval = System.currentTimeMillis();
-		int nbDeleted = repo.removeNoEffectLines(result);
-		long end = System.currentTimeMillis();
-		log.info(" analysed lines of marketfetch=" + result.getId() + " regionid=" + result.getRegionId()
-				+ " in " + (end - start) + "ms :"
-				+ " updated " + nbUpdated + " in " + (postUpdated - start)
-				+ ", removal " + nbRemoval + " in " + (postRemoval - postUpdated)
-				+ ", deleted" + nbDeleted + " in " + (end - postRemoval)
-				);
-	}
+// public void analyzeLines(MarketFetchResult result, MarketFetchResult follow)
+// {
+// long start = System.currentTimeMillis();
+// int nbUpdated = repo.analyzePreviousLines(result.getId(),
+// result.getLastModified());
+// long postUpdated = System.currentTimeMillis();
+// int nbRemoval = repo.analyzeRemovalLines(result.getId(),
+// result.getLastModified(), follow.getId(),
+// follow.getLastModified());
+// long postRemoval = System.currentTimeMillis();
+// int nbDeleted = repo.removeNoEffectLines(result);
+// long end = System.currentTimeMillis();
+// log.info(" analysed lines of marketfetch=" + result.getId() + " regionid=" +
+// result.getRegion().getRegionId()
+// + " in " + (end - start) + "ms :"
+// + " updated " + nbUpdated + " in " + (postUpdated - start)
+// + ", removal " + nbRemoval + " in " + (postRemoval - postUpdated)
+// + ", deleted" + nbDeleted + " in " + (end - postRemoval)
+// );
+// }
 
-	@Deprecated
-	public void analyzeLines_old(MarketFetchResult result, MarketFetchResult follow) {
-		long start = System.currentTimeMillis();
-		List<MarketFetchLine> updated = new ArrayList<>();
-		List<MarketFetchLine> deleted = new ArrayList<>();
-		Map<MarketFetchLine, MarketFetchLine> result2Previous = new HashMap<>();
-		List<Object[]> changes = repo.listOrderChanges(result);
-		long fetched = System.currentTimeMillis();
-		int created = 0;
-		int last = 0;
-		int changed = 0;
-		for (Object[] o : changes) {
-			MarketFetchLine before = (MarketFetchLine) o[0],
-					line = (MarketFetchLine) o[1],
-					after = (MarketFetchLine) o[2];
-
-			line.setSoldTo(result.getLastModified());
-			if (before != null) {
-				result2Previous.put(line, before);
-				line.setPriceChg(before.getOrder().price != line.getOrder().price);
-				int sold = before.getOrder().volume_remain - line.getOrder().volume_remain;
-				line.setSold(sold);
-				line.setSoldFrom(before.getSoldTo().isAfter(line.getIssuedDate())
-						? before.getSoldTo()
-								: line.getIssuedDate());
-				if (sold > 0 || line.isPriceChg()) {
-					changed++;
-				}
-			} else {
-				line.setCreation(true);
-				line.setSold(line.getOrder().volume_total - line.getOrder().volume_remain);
-				line.setSoldFrom(line.getIssuedDate());
-				created++;
-			}
-			if (after == null) {
-				line.setRemoval(true);
-				line.setRemovalTo(follow.getLastModified());
-				line.setRemovalFrom(result.getLastModified());
-				Instant eol = line.getIssuedDate().plus(Duration.ofDays(line.getOrder().duration));
-				// use !isBefore to accept equality . Same for !isAfter
-				if (!eol.isBefore(line.getRemovalFrom()) && !eol.isAfter(line.getRemovalTo())) {
-					line.setEol(true);
-					line.setRemovalDate(eol);
-				} else {
-					line.setEol(false);
-					line.setRemovalDate(
-							Instant.ofEpochMilli((line.getRemovalFrom().toEpochMilli() + line.getRemovalTo().toEpochMilli()) / 2));
-				}
-				last++;
-			}
-			if (line.isRemoval() || line.isCreation() || line.isPriceChg() || line.getSold() > 0) {
-				updated.add(line);
-			} else {
-				deleted.add(line);
-			}
-		}
-		// set the previous to a non-deleted one
-		for (MarketFetchLine line : updated) {
-			MarketFetchLine previous = result2Previous.get(line);
-			while (previous != null && deleted.contains(previous)) {
-				previous = result2Previous.get(previous);
-			}
-			line.setPreviousLine(previous);
-		}
-		long analyzed = System.currentTimeMillis();
-		saveAll(updated);
-		repo.deleteAll(deleted);
-		long end = System.currentTimeMillis();
-		log.info(
-				"analyze of marketfetch=" + result.getId() + " regionid=" + result.getRegionId() + " in " + (end - start)
-				+ "ms (fetch=" + (fetched - start) + " analyze=" + (analyzed - fetched) + " save=" + (end - analyzed)
-				+ ") : created:" + created + " changed:" + changed + " last:" + last + " delete:" + deleted.size());
-	}
+// @Deprecated
+// public void analyzeLines_old(MarketFetchResult result, MarketFetchResult
+// follow) {
+// long start = System.currentTimeMillis();
+// List<MarketFetchLine> updated = new ArrayList<>();
+// List<MarketFetchLine> deleted = new ArrayList<>();
+// Map<MarketFetchLine, MarketFetchLine> result2Previous = new HashMap<>();
+// List<Object[]> changes = repo.listOrderChanges(result);
+// long fetched = System.currentTimeMillis();
+// int created = 0;
+// int last = 0;
+// int changed = 0;
+// for (Object[] o : changes) {
+// MarketFetchLine before = (MarketFetchLine) o[0],
+// line = (MarketFetchLine) o[1],
+// after = (MarketFetchLine) o[2];
+//
+// line.setSoldTo(result.getLastModified());
+// if (before != null) {
+// result2Previous.put(line, before);
+// line.setPriceChg(before.getOrder().price != line.getOrder().price);
+// int sold = before.getOrder().volume_remain - line.getOrder().volume_remain;
+// line.setSold(sold);
+// line.setSoldFrom(before.getSoldTo().isAfter(line.getIssuedDate())
+// ? before.getSoldTo()
+// : line.getIssuedDate());
+// if (sold > 0 || line.isPriceChg()) {
+// changed++;
+// }
+// } else {
+// line.setCreation(true);
+// line.setSold(line.getOrder().volume_total - line.getOrder().volume_remain);
+// line.setSoldFrom(line.getIssuedDate());
+// created++;
+// }
+// if (after == null) {
+// line.setRemoval(true);
+// line.setRemovalTo(follow.getLastModified());
+// line.setRemovalFrom(result.getLastModified());
+// Instant eol =
+// line.getIssuedDate().plus(Duration.ofDays(line.getOrder().duration));
+// // use !isBefore to accept equality . Same for !isAfter
+// if (!eol.isBefore(line.getRemovalFrom()) &&
+// !eol.isAfter(line.getRemovalTo())) {
+// line.setEol(true);
+// line.setRemovalDate(eol);
+// } else {
+// line.setEol(false);
+// line.setRemovalDate(
+// Instant.ofEpochMilli((line.getRemovalFrom().toEpochMilli() +
+// line.getRemovalTo().toEpochMilli()) / 2));
+// }
+// last++;
+// }
+// if (line.isRemoval() || line.isCreation() || line.isPriceChg() ||
+// line.getSold() > 0) {
+// updated.add(line);
+// } else {
+// deleted.add(line);
+// }
+// }
+// // set the previous to a non-deleted one
+// for (MarketFetchLine line : updated) {
+// MarketFetchLine previous = result2Previous.get(line);
+// while (previous != null && deleted.contains(previous)) {
+// previous = result2Previous.get(previous);
+// }
+// line.setPreviousLine(previous);
+// }
+// long analyzed = System.currentTimeMillis();
+// saveAll(updated);
+// repo.deleteAll(deleted);
+// long end = System.currentTimeMillis();
+// log.info(
+// "analyze of marketfetch=" + result.getId() + " regionid=" +
+// result.getRegion().getRegionId() + " in "
+// + (end - start)
+// + "ms (fetch=" + (fetched - start) + " analyze=" + (analyzed - fetched) + "
+// save=" + (end - analyzed)
+// + ") : created:" + created + " changed:" + changed + " last:" + last + "
+// delete:" + deleted.size());
+// }
 
 	/**
 	 * @return the number of orders linked to the result
