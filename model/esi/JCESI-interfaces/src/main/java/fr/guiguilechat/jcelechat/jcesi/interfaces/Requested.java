@@ -105,8 +105,9 @@ public interface Requested<T> {
 	 * lower we must wait {@link #getErrorsReset()} seconds
 	 */
 	public default int getRemainingErrors() {
-		List<String> errorsl = getHeaders().get("X-ESI-Error-Limit-Remain");
+		List<String> errorsl = getHeaders().get("X-Esi-Error-Limit-Remain");
 		if (errorsl == null) {
+			System.err.println("no error limit remain headers, existing are : " + getHeaders().keySet());
 			return 0;
 		} else {
 			return Integer.parseInt(errorsl.get(0));
@@ -117,8 +118,9 @@ public interface Requested<T> {
 	 * get the number of seconds until the error window resets.
 	 */
 	public default int getErrorsReset() {
-		List<String> resetl = getHeaders().get("X-ESI-Error-Limit-Reset");
+		List<String> resetl = getHeaders().get("X-Esi-Error-Limit-Reset");
 		if (resetl == null) {
+			System.err.println("no errors limit reset headers, existing are : " + getHeaders().keySet());
 			return 0;
 		} else {
 			return Integer.parseInt(resetl.get(0));

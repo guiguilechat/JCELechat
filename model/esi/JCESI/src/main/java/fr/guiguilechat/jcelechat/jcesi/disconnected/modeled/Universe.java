@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -177,7 +178,7 @@ public class Universe {
 		R_get_universe_constellations_constellation_id constel = cache.constellations(system.constellation_id).get();
 		List<ObjHolder<R_get_universe_systems_system_id>> systemsholders = adjacentConstels(constel)
 				.flatMapToInt(co -> IntStream.of(co.systems)).mapToObj(cache::systems).collect(Collectors.toList());
-		return systemsholders.parallelStream().map(sh -> sh.get());
+		return systemsholders.parallelStream().map(ObjHolder::get);
 	}
 
 	/**
@@ -198,7 +199,7 @@ public class Universe {
 		int[] constelsIds = othersystems.parallelStream().mapToInt(os -> os.get().constellation_id).distinct().toArray();
 		List<ObjHolder<R_get_universe_constellations_constellation_id>> constelsHolders = IntStream.of(constelsIds)
 				.mapToObj(cache::constellations).collect(Collectors.toList());
-		return constelsHolders.parallelStream().map(ch -> ch.get());
+		return constelsHolders.parallelStream().map(ObjHolder::get);
 	}
 
 	/** number of meter in an AU */
@@ -404,7 +405,7 @@ public class Universe {
 				if (ret == null) {
 					ret = cache.systems(systemId)
 							.toList(sys -> IntStream.of(sys.stargates).mapToObj(i -> cache.stargates(i)).collect(Collectors.toList()))
-							.mapItems(sgh -> cache.systems(sgh.get().destination.system_id)).mapItems(sysh -> sysh.get());
+							.mapItems(sgh -> cache.systems(sgh.get().destination.system_id)).mapItems(ObjHolder::get);
 					cachedAdjacentSystems.put(systemId, ret);
 				}
 			}
@@ -425,5 +426,35 @@ public class Universe {
 
 	@Getter(lazy = true)
 	private final MapHolder<Integer, R_get_universe_factions> factionsByID = cache.factions().toMap(f -> f.faction_id);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final Set<Integer> abstractGroups = Set.copyOf(IntStream
+			.of(cache.categories(29).get().groups).boxed().toList());
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final Set<Integer> blueprintsGroups = Set.copyOf(IntStream
+			.of(cache.categories(9).get().groups).boxed().toList());
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final Set<Integer> modulesGroups = Set.copyOf(IntStream
+			.of(cache.categories(7).get().groups).boxed().toList());
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final Set<Integer> stationsGroups = Set.copyOf(IntStream
+			.of(cache.categories(3).get().groups).boxed().toList());
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final Set<Integer> structuresModulesGroups = Set.copyOf(IntStream
+			.of(cache.categories(66).get().groups).boxed().toList());
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final Set<Integer> subsystemsGroups = Set.copyOf(IntStream
+			.of(cache.categories(32).get().groups).boxed().toList());
 
 }

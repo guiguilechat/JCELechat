@@ -10,7 +10,6 @@ import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG6;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG7;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Deliveries;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.DroneBay;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Hangar;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.HangarAll;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Impounded;
@@ -25,7 +24,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
@@ -33,6 +31,8 @@ import java.util.stream.StreamSupport;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets.ItemForest;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets.ItemNode;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_post_assets_names_2;
@@ -51,23 +51,36 @@ public class Assets {
 		this.con = con;
 	}
 
-	private static final Set<get_corporations_corporation_id_assets_location_flag> allowed_flags_for_name = new HashSet<>(
-			Arrays.asList(DroneBay, ShipHangar));
-
-	protected static boolean canName(R_get_corporations_corporation_id_assets asset) {
-		return asset.is_singleton && allowed_flags_for_name.contains(asset.location_flag);
+	protected boolean canName(ItemNode asset) {
+		if (!asset.is_singleton) {
+			return false;
+		}
+		Universe uni = ESIAccess.INSTANCE.universe;
+		if (uni.abstractGroups().contains(asset.type().group_id)
+				|| uni.blueprintsGroups().contains(asset.type().group_id)
+				|| uni.modulesGroups().contains(asset.type().group_id)
+				|| uni.stationsGroups().contains(asset.type().group_id)
+				|| uni.structuresModulesGroups().contains(asset.type().group_id)
+				|| uni.subsystemsGroups().contains(asset.type().group_id)) {
+			return false;
+		}
+		return true;
 	}
 
-	// get the names of specific assets
+	private static final int NAMINGCALL_MAXIDS = 1000;
+
+	/**
+	 * get the names of specific assets and assign them as optional
+	 */
 	protected void name(Map<Long, ItemNode> items) {
 		if (items == null || items.size() == 0) {
 			return ;
 		}
-		ArrayList<M_post_assets_names_2> ret = new ArrayList<>();
-		long[] ids = items.values().stream().filter(Assets::canName).mapToLong(item -> item.item_id).toArray();
-		int start = 0;
-		while (start < ids.length) {
-			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + 1000, ids.length));
+		ArrayList<M_post_assets_names_2> nameResults = new ArrayList<>();
+		long[] ids = items.values().stream().filter(this::canName).mapToLong(item -> item.item_id).toArray();
+		List<ItemNode> errored = new ArrayList<>();
+		for (int start = 0; start < ids.length; start += NAMINGCALL_MAXIDS) {
+			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + NAMINGCALL_MAXIDS, ids.length));
 			Requested<M_post_assets_names_2[]> names = con.connection().post_corporations_assets_names(
 					con.corporation.getId(), ids2,
 					null);
@@ -75,15 +88,34 @@ public class Assets {
 				names = con.connection().post_corporations_assets_names(con.corporation.getId(), ids2, null);
 			}
 			if (names.isOk()) {
-				ret.addAll(Arrays.asList(names.getOK()));
+				nameResults.addAll(Arrays.asList(names.getOK()));
 			} else {
-				System.err.println(" error " + names.getError() + " response=" + names.getResponseCode());
+				System.err.println(" error\t" + names.getError() + "\tresponse=" + names.getResponseCode());
+				for (long id : ids2) {
+					ItemNode in = items.get(id);
+					errored.add(in);
+					System.err.println("" + in.item_id + "\t" + in.location_flag + "\t" + in.type_id + "\t" + in.type().group_id
+							+ "\t" + in.type().name);
+				}
+				if (names.getRemainingErrors() < 1) {
+					try {
+						System.out.println("sleeping " + names.getErrorsReset() + " seconds");
+						Thread.sleep(1000 * names.getErrorsReset());
+					} catch (InterruptedException e) {
+						throw new RuntimeException(e);
+					}
+				}
 			}
-			start += 1000;
 		}
-
-		for(M_post_assets_names_2 item : ret) {
+		for(M_post_assets_names_2 item : nameResults) {
 			items.get(item.item_id).withOptional(item.name);
+		}
+		if (!errored.isEmpty()) {
+			System.err.println("item\tlocation\ttype_id\tgroup_id\ttype_name");
+			for (ItemNode in : errored) {
+				System.err.println("" + in.item_id + "\t" + in.location_flag + "\t" + in.type_id + "\t" + in.type().group_id
+						+ "\t" + in.type().name);
+			}
 		}
 	}
 

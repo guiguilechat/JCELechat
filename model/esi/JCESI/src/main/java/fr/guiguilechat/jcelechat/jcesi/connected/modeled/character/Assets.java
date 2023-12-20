@@ -21,6 +21,7 @@ import java.util.stream.StreamSupport;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_post_assets_names_2;
@@ -45,35 +46,46 @@ public class Assets {
 	@Accessors(fluent = true)
 	private final ESIAccount con;
 
-	protected static boolean canName(R_get_corporations_corporation_id_assets asset) {
-		return asset.is_singleton && asset.location_flag != get_corporations_corporation_id_assets_location_flag.AutoFit;
+	protected boolean canName(ItemNode asset) {
+		if (!asset.is_singleton) {
+			return false;
+		}
+		Universe uni = ESIAccess.INSTANCE.universe;
+		if (uni.abstractGroups().contains(asset.type().group_id)
+				|| uni.blueprintsGroups().contains(asset.type().group_id)
+				|| uni.modulesGroups().contains(asset.type().group_id)
+				|| uni.stationsGroups().contains(asset.type().group_id)
+				|| uni.structuresModulesGroups().contains(asset.type().group_id)
+				|| uni.subsystemsGroups().contains(asset.type().group_id)) {
+			return false;
+		}
+		return true;
 	}
+
+	private static final int NAMINGCALL_MAXIDS = 1000;
 
 	// get the names of specific assets
 	protected void name(Map<Long, ItemNode> items) {
-		int max_ids_per_search = 1000;
 		if (items == null || items.size() == 0) {
 			return;
 		}
-		ArrayList<M_post_assets_names_2> ret = new ArrayList<>();
-		long[] ids = items.values().stream().filter(Assets::canName).mapToLong(item -> item.item_id).toArray();
-		int start = 0;
-		while (start < ids.length) {
-			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + max_ids_per_search, ids.length));
+		ArrayList<M_post_assets_names_2> nameResults = new ArrayList<>();
+		long[] ids = items.values().stream().filter(this::canName).mapToLong(item -> item.item_id).toArray();
+		for (int start = 0; start < ids.length; start += NAMINGCALL_MAXIDS) {
+			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + NAMINGCALL_MAXIDS, ids.length));
 			Requested<M_post_assets_names_2[]> names = con.connection().post_characters_assets_names(con.characterId(), ids2,
 					null);
 			while (names.isServerError()) {
 				names = con.connection().post_characters_assets_names(con.characterId(), ids2, null);
 			}
 			if (names.isOk()) {
-				ret.addAll(Arrays.asList(names.getOK()));
+				nameResults.addAll(Arrays.asList(names.getOK()));
 			} else {
 				System.err.println(" error " + names.getError() + " response=" + names.getResponseCode());
 			}
-			start += max_ids_per_search;
 		}
 
-		for (M_post_assets_names_2 item : ret) {
+		for (M_post_assets_names_2 item : nameResults) {
 			if (item.name != null) {
 				items.get(item.item_id).withOptional(item.name);
 			}

@@ -37,6 +37,9 @@ public class MarketFetchLine {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 
+	/**
+	 * actual data received from CCP
+	 */
 	@Embedded
 	private R_get_markets_region_id_orders order;
 
