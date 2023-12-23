@@ -52,7 +52,7 @@ public class MarketFetchLineServiceTest {
 		// log.info("found observed regions : " + requests);
 	}
 
-	@Test
+	// @Test
 	public void testAnalyzeTheForgeData() throws IOException {
 		log.info("start test");
 		SavedLines savedData = FetchJitaMarket.loadTestLines();

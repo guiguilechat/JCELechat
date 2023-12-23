@@ -43,7 +43,6 @@ public class MarketFetchService {
 		return ZonedDateTime.parse(formated, DateTimeFormatter.RFC_1123_DATE_TIME).toInstant();
 	}
 
-
 	@Autowired
 	private MarketFetchLineService lineService;
 
@@ -169,8 +168,10 @@ public class MarketFetchService {
 			lineService.saveAll(e.getValue());
 			region.setLastFetchSuccess(fetchResult);
 			regionService.save(region);
-			previousResult.setNextResult(fetchResult);
-			resultService.save(previousResult);
+			if (previousResult != null) {
+				previousResult.setNextResult(fetchResult);
+				resultService.save(previousResult);
+			}
 			fetchResult.setStatus(STATUS.FETCHED);
 			fetchResult.setPreviousResult(previousResult);
 			resultService.save(fetchResult);
