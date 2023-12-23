@@ -51,9 +51,7 @@ public class MarketFetchResult {
 
 	public static enum STATUS {
 
-		/**
-		 * error retrieving during process/fetch. See error message for more information
-		 */
+		/** error during process/fetch. See error message for more information */
 		FAIL,
 		/** the fetch returned a 304 */
 		CACHED,
@@ -64,9 +62,7 @@ public class MarketFetchResult {
 		/** all lines for this order are translated to {@link MarketOrder} */
 		ORDERSEXIST,
 		/** market lines have been analyzed. */
-		LINESANALYZED,
-		/** fetch statistical data is done */
-		FETCHANALYZED
+		LINESANALYZED
 		;
 
 		/**

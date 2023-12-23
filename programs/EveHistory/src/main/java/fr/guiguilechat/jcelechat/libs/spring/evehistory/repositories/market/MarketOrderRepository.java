@@ -26,32 +26,9 @@ from
 where
 	line.fetch_result_id=:fetchResultId
 	and not line.invalid
-	and not exists (select id from market_order where order_id=line.order_id)
+	and not exists (select order_id from market_order where order_id=line.order_id)
 """)
 	@Modifying
 	@Transactional
 	void createMissingOrders(Number fetchResultId);
-
-// /**
-// * set the
-// *
-// * @param fetchResultId
-// */
-// @Query(nativeQuery = true, value = """
-// update
-// market_order ord
-// set
-// last_line_id=line.id
-// from
-// market_fetch_result res
-// join market_fetch_line line on res.id=line.fetch_result_id
-// where
-// res.id=:fetchResultId
-// and not line.invalid
-// and ord.order_id=line.order_id
-// and ord.region_id=res.region_id
-// """)
-// @Modifying
-// void updateLastLine(Number fetchResultId);
-
 }

@@ -427,34 +427,41 @@ public class Universe {
 	@Getter(lazy = true)
 	private final MapHolder<Integer, R_get_universe_factions> factionsByID = cache.factions().toMap(f -> f.faction_id);
 
+	// tools for using groups
+
+	public class GroupCache {
+
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final Set<Integer> abstractGroups = Set.copyOf(IntStream
+		private final Set<Integer> ofAbstract = Set.copyOf(IntStream
 			.of(cache.categories(29).get().groups).boxed().toList());
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final Set<Integer> blueprintsGroups = Set.copyOf(IntStream
+	private final Set<Integer> ofBlueprints = Set.copyOf(IntStream
 			.of(cache.categories(9).get().groups).boxed().toList());
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final Set<Integer> modulesGroups = Set.copyOf(IntStream
+	private final Set<Integer> ofModules = Set.copyOf(IntStream
 			.of(cache.categories(7).get().groups).boxed().toList());
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final Set<Integer> stationsGroups = Set.copyOf(IntStream
+	private final Set<Integer> ofStations = Set.copyOf(IntStream
 			.of(cache.categories(3).get().groups).boxed().toList());
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final Set<Integer> structuresModulesGroups = Set.copyOf(IntStream
+	private final Set<Integer> ofStructuresModules = Set.copyOf(IntStream
 			.of(cache.categories(66).get().groups).boxed().toList());
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final Set<Integer> subsystemsGroups = Set.copyOf(IntStream
+	private final Set<Integer> ofSubsystems = Set.copyOf(IntStream
 			.of(cache.categories(32).get().groups).boxed().toList());
+}
+
+public final GroupCache groupIds = new GroupCache();
 
 }

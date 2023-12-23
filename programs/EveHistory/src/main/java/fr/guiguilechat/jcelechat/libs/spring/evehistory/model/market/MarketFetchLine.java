@@ -136,6 +136,11 @@ public class MarketFetchLine {
 	private Instant soldFrom;
 
 	/**
+	 * estimate of the date at which the was a sale, if any
+	 */
+	private Instant soldDate;
+
+	/**
 	 * date before which the sales associated to that order were performed.
 	 */
 	private Instant soldTo;

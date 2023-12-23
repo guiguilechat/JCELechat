@@ -32,7 +32,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets.ItemForest;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets.ItemNode;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe.GroupCache;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_post_assets_names_2;
@@ -55,13 +55,13 @@ public class Assets {
 		if (!asset.is_singleton) {
 			return false;
 		}
-		Universe uni = ESIAccess.INSTANCE.universe;
-		if (uni.abstractGroups().contains(asset.type().group_id)
-				|| uni.blueprintsGroups().contains(asset.type().group_id)
-				|| uni.modulesGroups().contains(asset.type().group_id)
-				|| uni.stationsGroups().contains(asset.type().group_id)
-				|| uni.structuresModulesGroups().contains(asset.type().group_id)
-				|| uni.subsystemsGroups().contains(asset.type().group_id)) {
+		GroupCache groupIds = ESIAccess.INSTANCE.universe.groupIds;
+		if (groupIds.ofAbstract().contains(asset.type().group_id)
+				|| groupIds.ofBlueprints().contains(asset.type().group_id)
+				|| groupIds.ofModules().contains(asset.type().group_id)
+				|| groupIds.ofStations().contains(asset.type().group_id)
+				|| groupIds.ofStructuresModules().contains(asset.type().group_id)
+				|| groupIds.ofSubsystems().contains(asset.type().group_id)) {
 			return false;
 		}
 		return true;

@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market.MarketOrderRepository;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market.ObservedRegionRepository;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.FetchJitaMarket.Fetch;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.FetchJitaMarket.SavedLines;
@@ -30,6 +31,9 @@ public class MarketFetchLineServiceTest {
 
 	@Autowired
 	private MarketFetchResultService resultService;
+
+	@Autowired
+	private MarketOrderRepository moRepo;
 
 	@Autowired
 	private MarketSchedulerService fetchScheduler;
@@ -59,6 +63,10 @@ public class MarketFetchLineServiceTest {
 			mfr.setStatus(STATUS.FETCHED);
 			mfr.setPreviousResult(lastResult);
 			mfr = resultService.save(mfr);
+			if (lastResult != null) {
+				lastResult.setNextResult(mfr);
+				resultService.save(lastResult);
+			}
 			lastResult = mfr;
 			Assert.state(resultService.listOnStatusWithPreviousAfter(STATUS.FETCHED).size() > 0, "contains 0 results");
 			for (MarketFetchLine mfl : f.lines()) {
@@ -69,17 +77,31 @@ public class MarketFetchLineServiceTest {
 			regionService.save(mfr.getRegion());
 			log.info("saved one result");
 		}
-// for (MarketFetchResult mfr : resultService.list()) {
-// log.info(
-// "result " + mfr + " previous=" + (mfr.getPreviousResult() == null ? null :
-// mfr.getPreviousResult().getId()));
-// }
+
+		long ordersBefore = moRepo.count();
 		for (int replay = 0; replay < 3; replay++) {
 			fetchScheduler.createOrders();
 		}
+		long ordersAfter = moRepo.count();
+		Assert.state(ordersAfter - ordersBefore >= lastResult.getLinesFetched(),
+				"had " + ordersBefore + " orders before, have " + ordersAfter + " orders after");
+		log.info("had " + ordersBefore + " orders before, have " + ordersAfter + " orders after");
 		List<MarketFetchResult> withOrdersExists = resultService.listByStatus(STATUS.ORDERSEXIST);
 		Assert.state(withOrdersExists.size() > 2,
 				"found with orders exists = " + withOrdersExists + " all=" + resultService.list());
+
+
+		for (MarketFetchResult mfr : resultService.list()) {
+			log.info(
+					"result " + mfr
+							+ " previous.status=" + (mfr.getPreviousResult() == null ? "void" : mfr.getPreviousResult().getStatus())
+							+ " next.status=" + (mfr.getNextResult() == null ? "void" : mfr.getNextResult().getStatus())
+
+			);
+		}
+		for (int replay = 0; replay < 3; replay++) {
+			fetchScheduler.analyzeLines();
+		}
 		log.info("done test");
 	}
 

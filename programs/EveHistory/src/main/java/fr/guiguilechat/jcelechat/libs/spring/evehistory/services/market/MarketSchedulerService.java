@@ -13,6 +13,7 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market.MarketFetchResultService.TwoFetchResults;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -48,6 +49,9 @@ import lombok.extern.slf4j.Slf4j;
 public class MarketSchedulerService {
 
 	@Autowired
+	MarketAnalyzeService analyzeService;
+
+	@Autowired
 	private MarketFetchResultService mfrService;
 
 	@Autowired
@@ -65,7 +69,7 @@ public class MarketSchedulerService {
 		log.info("fetching markets for " + requests.size() + " regions");
 		List<CompletableFuture<Void>> futures = requests.entrySet().stream()
 				.map(e -> fetchService.fetchMarket(e.getKey(), e.getValue())).toList();
-		futures.stream().forEach(CompletableFuture::join);
+		futures.forEach(CompletableFuture::join);
 		log.info(" fetched " + futures.size() + " markets");
 	}
 
@@ -85,6 +89,11 @@ public class MarketSchedulerService {
 
 	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelayString = "${evehistory.market.analyzedelay:90000}")
 	public void analyzeLines() {
+		List<TwoFetchResults> mfrs = mfrService.listToAnalyze();
+		log.info("analyzing the lines of " + mfrs.size() + " fetch results");
+		List<CompletableFuture<Void>> futures = mfrs.stream().map(m -> analyzeService.analyzeLines(m.first(), m.second()))
+				.toList();
+		futures.forEach(CompletableFuture::join);
 	}
 
 

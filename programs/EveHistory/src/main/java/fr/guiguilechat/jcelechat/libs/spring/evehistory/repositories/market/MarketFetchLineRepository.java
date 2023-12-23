@@ -4,36 +4,32 @@ import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
 
 public interface MarketFetchLineRepository extends JpaRepository<MarketFetchLine, Long> {
 
-	@Deprecated
 	/**
-	 * list the lines belonging to a fetchresult as well as their previous and
-	 * next
-	 * line, for same order, by id.
+	 * @return the line, order, line_before, line_after upplets for each line in the
+	 *           fetchresult, corresponding order and associated last line,
+	 *           corresponding line in follow
+	 *           fetchresult
 	 */
 	@Query("""
- select
- line0, line1, line2
- from MarketFetchLine line1
- left join MarketFetchLine line0 on line0.id=
- (select max(a.id) from MarketFetchLine a where
- a.order.order_id=line1.order.order_id and a.id<line1.id and a.invalid=false)
- left join MarketFetchLine line2 on line2.id=
- (select min(b.id) from MarketFetchLine b where
- b.order.order_id=line1.order.order_id and b.id>line1.id and b.invalid=false)
- where
- line1.fetchResult= :fetchresult
- and line1.invalid=false
- """)
-	List<Object[]> listOrderChanges(@Param("fetchresult") MarketFetchResult fetchResult);
+select
+	line, ordr, bfr, aft
+from
+	MarketFetchLine line
+	left join MarketOrder ordr on line.order.order_id=ordr.orderId
+	left join ordr.lastLine bfr
+	left join MarketFetchLine aft on line.order.order_id=aft.order.order_id and aft.fetchResult=:follow
+where
+	line.fetchResult=:fetchResult
+	and not line.invalid
+""")
+	List<Object[]> listOrderChanges(MarketFetchResult fetchResult, MarketFetchResult follow);
 
 	int countByFetchResult(MarketFetchResult fetchResult);
 
@@ -213,78 +209,5 @@ public interface MarketFetchLineRepository extends JpaRepository<MarketFetchLine
 	List<Object[]> getLinesHourStatsForRegion(Number regionId, Instant dateFrom,
 			Instant dateTo);
 
-	/**
-	 * analyze the lines of a fetch result that have a previous presence, updating
-	 * the values linked to that previous line
-	 *
-	 * @param fetchResultId
-	 * @param fetchResultLastModified
-	 */
-	@Query(nativeQuery = true, value = """
- update
- market_fetch_line line
- set
- creation=prev.id is null,
- previous_line_id=prev.id,
- price_chg=prev.id is not null and line.price<>prev.price,
- sold=case when prev.id is null then line.volume_total-line.volume_remain else
- prev.volume_remain-line.volume_remain end,
- sold_to=:fetchResultLastModified,
- sold_from=case
- when prev.id is null then line.issued_date
- when line.issued_date>prev.sold_to then line.issued_date
- else prev.sold_to
- end
- from
- market_order ord
- left join market_fetch_line prev on ord.last_line_id=prev.id
- where
- line.fetch_result_id=:fetchResultId
- and not line.invalid
- and line.order_id=ord.order_id
- """)
-	@Modifying
-	int analyzePreviousLines(Number fetchResultId, Instant fetchResultLastModified);
-
-	@Query(nativeQuery = true, value = """
- update
- market_fetch_line line
- set
- removal=true,
- removal_from=:fetchResultLastModified,
- removal_to=:nextResultLastModified,
- eol=:fetchResultLastModified<issued_date+make_interval(days => duration)
- and :nextResultLastModified>issued_date+make_interval(days => duration),
- removal_date=case
- when :fetchResultLastModified<issued_date+make_interval(days => duration)
- and :nextResultLastModified>issued_date+make_interval(days => duration)
- then issued_date+make_interval(days => duration)
- else :nextResultLastModified
- end
- where
- not exists (select id
- from market_fetch_line
- where
- order_id = line.order_id
- and fetch_result_id=:nextResultId
- and not invalid
- )
- and fetch_result_id=:fetchResultId
- and not invalid
- """)
-	@Modifying
-	int analyzeRemovalLines(Number fetchResultId, Instant fetchResultLastModified, Number nextResultId,
-			Instant nextResultLastModified);
-
-	@Query("""
- delete from MarketFetchLine
- where fetchResult=:result
- and not removal
- and not creation
- and not priceChg
- and sold<1
- """)
-	@Modifying
-	int removeNoEffectLines(MarketFetchResult result);
 
 }
