@@ -38,15 +38,16 @@ public class MarketAnalyzeService {
 	@Async
 	@Transactional
 	public CompletableFuture<Void> analyzeLines(MarketFetchResult result, MarketFetchResult follow) {
-		long start = System.currentTimeMillis();
+		long startTime = System.currentTimeMillis();
 		List<MarketFetchLine> updatedLines = new ArrayList<>();
 		List<MarketFetchLine> deletedLines = new ArrayList<>();
 		List<MarketOrder> updatedOrders = new ArrayList<>();
-		long fetched = System.currentTimeMillis();
 		int created = 0;
-		int last = 0;
+		int lastOccurence = 0;
 		int changed = 0;
-		for (Object[] arr : mflService.listOrderChanges(result, follow)) {
+		List<Object[]> linesFetched = mflService.listOrderChanges(result, follow);
+		long fetchedTime = System.currentTimeMillis();
+		for (Object[] arr : linesFetched) {
 			MarketFetchLine line = (MarketFetchLine) arr[0];
 			MarketOrder ord = (MarketOrder) arr[1];
 			MarketFetchLine before = (MarketFetchLine) arr[2];
@@ -93,7 +94,7 @@ public class MarketAnalyzeService {
 							Instant.ofEpochMilli((line.getRemovalFrom().toEpochMilli() +
 									line.getRemovalTo().toEpochMilli()) / 2));
 				}
-				last++;
+				lastOccurence++;
 			}
 			if (line.isRemoval() || line.isCreation() || line.isPriceChg() ||
 					line.getSold() > 0) {
@@ -104,19 +105,20 @@ public class MarketAnalyzeService {
 				deletedLines.add(line);
 			}
 		}
-		long analyzed = System.currentTimeMillis();
+		long analyzedTime = System.currentTimeMillis();
 		mflService.saveAll(updatedLines);
 		orderService.saveAll(updatedOrders);
 		mflService.deleteAll(deletedLines);
+		result.setLinesUpdated(changed);
 		result.setStatus(STATUS.LINESANALYZED);
 		mfrService.save(result);
-		long end = System.currentTimeMillis();
+		long endTime = System.currentTimeMillis();
 		log.info(
 				"analyze of marketfetch=" + result.getId() + " regionid=" +
 						result.getRegion().getRegionId() + " in "
-						+ (end - start)
-						+ "ms (fetch=" + (fetched - start) + " analyze=" + (analyzed - fetched) + " save=" + (end - analyzed)
-						+ ") : created:" + created + " changed:" + changed + " last:" + last + " delete:" + deletedLines.size());
+						+ (endTime - startTime)
+						+ "ms (fetch=" + (fetchedTime - startTime) + " analyze=" + (analyzedTime - fetchedTime) + " save=" + (endTime - analyzedTime)
+						+ ") : created:" + created + " changed:" + changed + " last:" + lastOccurence + " delete:" + deletedLines.size());
 		return CompletableFuture.completedFuture(null);
 	}
 
