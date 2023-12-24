@@ -16,10 +16,9 @@ public interface MarketOrderRepository extends JpaRepository<MarketOrder, Long> 
 	 * @param fetchResultId id of the fetch result
 	 */
 	@Query(nativeQuery = true, value = """
-insert into market_order(order_id, first_line_id, last_line_id)
+insert into market_order(order_id, first_line_id)
 select
 	line.order_id,
-	line.id,
 	line.id
 from
 	market_fetch_line line

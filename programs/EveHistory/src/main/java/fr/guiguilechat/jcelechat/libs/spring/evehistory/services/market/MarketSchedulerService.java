@@ -78,12 +78,12 @@ public class MarketSchedulerService {
 		List<MarketFetchResult> results = mfrService.listOnStatusWithPreviousAfter(STATUS.FETCHED);
 		log.info("creating orders for " + results.size() + " results");
 		for (MarketFetchResult result : results) {
-			log.info(" creating missing orders for " + result);
+			log.info(" creating missing orders for result.id=" + result.getId());
 			orderService.createMissingOrders(result);
 			result.setStatus(STATUS.ORDERSEXIST);
 			mfrService.save(result);
 		}
-
+		log.info("created orders");
 	}
 
 
@@ -94,6 +94,7 @@ public class MarketSchedulerService {
 		List<CompletableFuture<Void>> futures = mfrs.stream().map(m -> analyzeService.analyzeLines(m.first(), m.second()))
 				.toList();
 		futures.forEach(CompletableFuture::join);
+		log.info("analyzed lines");
 	}
 
 
