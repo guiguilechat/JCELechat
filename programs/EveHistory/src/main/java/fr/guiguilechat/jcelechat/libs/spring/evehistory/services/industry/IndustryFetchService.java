@@ -41,6 +41,7 @@ public class IndustryFetchService {
 		switch (response.getResponseCode()) {
 			case 200:
 				builder.status(STATUS.FETCHING);
+				builder.etag(response.getETag());
 			break;
 			case 304:
 				builder.status(STATUS.CACHED);
