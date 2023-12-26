@@ -35,8 +35,7 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @Table(indexes = {
 		@Index(columnList = "status"),
-		@Index(columnList = "lastModified"),
-// @Index(columnList = "region_id")
+		@Index(columnList = "lastModified")
 })
 public class MarketFetchResult {
 
