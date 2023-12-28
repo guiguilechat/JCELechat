@@ -12,7 +12,9 @@ import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
 @Entity
 @Data
@@ -45,6 +47,8 @@ public class IndustrySystemCostIndex {
 	private int solar_system_id;
 
 	@ManyToOne
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
 	private IndustryFetchResult fetchResult;
 
 }

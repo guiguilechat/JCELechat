@@ -101,6 +101,19 @@ sudo service tomcat10 restart
 
 ### deploying, monitoring, access
 
+Deployment is done on a remote server, so you need an SSH access to it.
+
+#### set up remote access
+
+You need to create a $HOME/.cfg/EveHistory/remote.cfg to store your ssh remote name . Typically copy the existing one 
+
+``` bash
+mkdir -p $HOME/.cfg/EveHistory/
+cp remote.cfg $HOME/.cfg/EveHistory/remote.cfg
+```
+
+and set the values inside.
+
 #### deploy the war
 
 first set your ssh connexion, replace its name in the *remote* file. If you have already set a host in your ~/.ssh/config then use that host name ; otherwise enter your user@url (like admin@127.0.0.1 )
@@ -117,3 +130,14 @@ run the command `sh/logrmt`
 
 go on <yourserveraddress>:8080/EveHistory/index
 you should see "working"
+
+#### reset remote DB
+
+```bash
+sudo service tomcat10 stop
+sudo -u postgres psql -c "drop database evehistory"
+sudo -u postgres psql -c "create database evehistory with owner 'evehistory' encoding 'utf8';"
+sudo -u postgres psql -c "grant all privileges on database evehistory to evehistory;"
+sudo service tomcat10 start
+```
+
