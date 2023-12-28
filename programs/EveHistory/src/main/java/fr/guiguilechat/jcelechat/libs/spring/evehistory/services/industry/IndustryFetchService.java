@@ -30,6 +30,7 @@ public class IndustryFetchService {
 
 	@Scheduled(fixedRate = 30 * 60 * 1000, initialDelayString = "${evehistory.industry.fetchdelay:120000}")
 	public void fetchIndexes() {
+		long start = System.currentTimeMillis();
 		String lastEtag = ifrService.getLastEtag();
 		log.info("fetching indexes, last etag is " + lastEtag);
 		Map<String, String> properties = new HashMap<>();
@@ -61,7 +62,8 @@ public class IndustryFetchService {
 		result.setStatus(STATUS.FETCHED);
 		ifrService.save(result);
 
-		log.info(" fetch indexes returned " + list.size() + " indexes");
+		long end = System.currentTimeMillis();
+		log.info("fetch indexes returned " + list.size() + " indexes in " + (int) Math.ceil(0.001 * (end - start)) + "s");
 	}
 
 }

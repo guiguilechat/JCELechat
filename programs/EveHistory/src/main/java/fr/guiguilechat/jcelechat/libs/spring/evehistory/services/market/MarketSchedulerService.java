@@ -65,16 +65,19 @@ public class MarketSchedulerService {
 
 	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelayString = "${evehistory.market.fetchdelay:30000}")
 	public void fetchMarkets() {
+		long start = System.currentTimeMillis();
 		Map<ObservedRegion, MarketFetchResult> requests = regionsService.listRequests();
 		log.info("fetching markets for " + requests.size() + " regions");
 		List<CompletableFuture<Void>> futures = requests.entrySet().stream()
 				.map(e -> fetchService.fetchMarket(e.getKey(), e.getValue())).toList();
 		futures.forEach(CompletableFuture::join);
-		log.info(" fetched " + futures.size() + " markets");
+		long end = System.currentTimeMillis();
+		log.info("fetched " + futures.size() + " markets in " + (int) Math.ceil(0.001 * (end - start)) + "s");
 	}
 
 	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelayString = "${evehistory.market.ordersdelay:60000}")
 	public void createOrders() {
+		long start = System.currentTimeMillis();
 		List<MarketFetchResult> results = mfrService.listOnStatusWithPreviousAfter(STATUS.FETCHED);
 		log.info("creating orders for " + results.size() + " results");
 		for (MarketFetchResult result : results) {
@@ -83,18 +86,24 @@ public class MarketSchedulerService {
 			result.setStatus(STATUS.ORDERSEXIST);
 			mfrService.save(result);
 		}
-		log.info("created orders");
+		long end = System.currentTimeMillis();
+		log.info("created orders for " + results.size() + " results in " + (int) Math.ceil(0.001 * (end - start)) + "s");
 	}
 
 
 	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelayString = "${evehistory.market.analyzedelay:90000}")
 	public void analyzeLines() {
+		long start = System.currentTimeMillis();
 		List<TwoFetchResults> mfrs = mfrService.listToAnalyze();
+		long listed = System.currentTimeMillis();
 		log.info("analyzing the lines of " + mfrs.size() + " fetch results");
 		List<CompletableFuture<Void>> futures = mfrs.stream().map(m -> analyzeService.analyzeLines(m.first(), m.second()))
 				.toList();
+		long dispatched = System.currentTimeMillis();
 		futures.forEach(CompletableFuture::join);
-		log.info("analyzed lines");
+		long end = System.currentTimeMillis();
+		log.info("analyzed " + mfrs.size() + " lines in " + (int) Math.ceil(0.001 * (end - start)) + "s (list="
+				+ (listed - start) + "ms dispatch=" + (dispatched - listed) + "ms join=" + (end - dispatched) + "ms)");
 	}
 
 

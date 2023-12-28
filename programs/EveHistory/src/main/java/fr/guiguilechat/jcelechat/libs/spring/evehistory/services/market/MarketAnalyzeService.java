@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market.MarketOrderRepository;
-import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -36,7 +35,6 @@ public class MarketAnalyzeService {
 	private MarketOrderRepository orderRepo;
 
 	@Async
-	@Transactional
 	public CompletableFuture<Void> analyzeLines(MarketFetchResult result, MarketFetchResult follow) {
 		long startTime = System.currentTimeMillis();
 		List<MarketFetchLine> updatedLines = new ArrayList<>();
