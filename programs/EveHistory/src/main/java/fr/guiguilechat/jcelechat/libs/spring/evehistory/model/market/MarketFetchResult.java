@@ -183,4 +183,19 @@ public class MarketFetchResult {
 	 */
 	private Integer linesUpdated;
 
+	/**
+	 * duration in MS to fetch the http resource
+	 */
+	private long durationFetchMS;
+
+	/**
+	 * duration in MS to create the orders
+	 */
+	private long durationCreateOrderMS;
+
+	/**
+	 * duration in MS to analyze the lines
+	 */
+	private long durationAnalyzeMS;
+
 }

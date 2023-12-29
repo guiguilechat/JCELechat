@@ -3,4 +3,6 @@
 
 source $HOME/.cfg/EveHistory/remote.cfg\
 && mvn clean install\
-&& scp target/EveHistory.war $RMT_SSH:/var/lib/tomcat10/webapps/
+&& scp target/EveHistory.war $RMT_SSH:\
+&& ssh $RMT_SSH mv EveHistory.war /var/lib/tomcat10/webapps/
+

@@ -111,8 +111,9 @@ public class MarketAnalyzeService {
 		mflService.deleteAll(deletedLines);
 		result.setLinesUpdated(changed);
 		result.setStatus(STATUS.LINESANALYZED);
-		mfrService.save(result);
 		long endTime = System.currentTimeMillis();
+		result.setDurationAnalyzeMS(endTime - startTime);
+		mfrService.save(result);
 		log.info(
 				"analyze of marketfetch=" + result.getId() + " regionid=" +
 						result.getRegion().getRegionId() + " in "

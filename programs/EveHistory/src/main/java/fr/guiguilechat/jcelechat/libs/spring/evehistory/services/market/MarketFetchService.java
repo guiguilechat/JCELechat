@@ -30,6 +30,7 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.ObservedRegion;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
+import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -63,7 +64,7 @@ public class MarketFetchService {
 	 *           result, if any.
 	 */
 	Map.Entry<MarketFetchResult, List<MarketFetchLine>> fetchMarketNoDB(ObservedRegion region, String lastEtag) {
-		long start = System.currentTimeMillis();
+		long startTime = System.currentTimeMillis();
 		boolean failed = false;
 		boolean noChange = false;
 		Set<String> errors = new HashSet<>();
@@ -146,11 +147,13 @@ public class MarketFetchService {
 						.fetchResult(fetchResult)
 						.build())
 				.toList();
-		long endSave = System.currentTimeMillis();
-		log.info("region id=" + region.getRegionId() + " result="
-				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " times(ms)= total:"
-				+ (endSave - start) + " firstPage:" + (firstPageTime - start) + (allPagesTime == null ? ""
-						: " nextPages:" + (allPagesTime - firstPageTime) + " process:" + (endSave - allPagesTime)));
+		long endTime = System.currentTimeMillis();
+		fetchResult.setDurationFetchMS(endTime - startTime);
+		log.info(" fetched for region(" + region.getRegionId() + ") result="
+				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " in "
+				+ (endTime - startTime) + " ms(firstPage=" + (firstPageTime - startTime) + (allPagesTime == null ? ""
+						: " nextPages=" + (allPagesTime - firstPageTime) + " process=" + (endTime - allPagesTime))
+				+ ")");
 		return new AbstractMap.SimpleImmutableEntry<>(fetchResult, lines);
 	}
 
@@ -160,7 +163,9 @@ public class MarketFetchService {
 	 * @see #fetchMarketNoDB(ObservedRegion, String) for implementation
 	 */
 	@Async
+	@Transactional
 	public CompletableFuture<Void> fetchMarket(ObservedRegion region, MarketFetchResult previousResult) {
+		try {
 		Entry<MarketFetchResult, List<MarketFetchLine>> e = fetchMarketNoDB(region,
 				previousResult == null ? null : previousResult.getEtag());
 		MarketFetchResult fetchResult = resultService.save(e.getKey());
@@ -176,6 +181,9 @@ public class MarketFetchService {
 			fetchResult.setPreviousResult(previousResult);
 			resultService.save(fetchResult);
 		}
+	} catch (Exception e) {
+		log.error("while fetching market for region " + region.getRegionId(), e);
+	}
 		return CompletableFuture.completedFuture(null);
 	}
 

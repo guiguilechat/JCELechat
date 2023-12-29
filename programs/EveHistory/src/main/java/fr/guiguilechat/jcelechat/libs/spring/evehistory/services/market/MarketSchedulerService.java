@@ -2,7 +2,11 @@ package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CompletionException;
+import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -68,26 +72,38 @@ public class MarketSchedulerService {
 		long start = System.currentTimeMillis();
 		Map<ObservedRegion, MarketFetchResult> requests = regionsService.listRequests();
 		log.info("fetching markets for " + requests.size() + " regions");
-		List<CompletableFuture<Void>> futures = requests.entrySet().stream()
-				.map(e -> fetchService.fetchMarket(e.getKey(), e.getValue())).toList();
-		futures.forEach(CompletableFuture::join);
+		Map<ObservedRegion, CompletableFuture<Void>> futures = requests.entrySet().stream()
+				.collect(Collectors.toMap(
+						Entry::getKey,
+						e -> fetchService.fetchMarket(e.getKey(), e.getValue()).orTimeout(2, TimeUnit.MINUTES)));
+		futures.entrySet().forEach(f -> {
+			try {
+				f.getValue().join();
+			} catch (CompletionException e) {
+				log.error("fetch timeout for region " + f.getKey().getRegionId());
+			}
+		});
 		long end = System.currentTimeMillis();
 		log.info("fetched " + futures.size() + " markets in " + (int) Math.ceil(0.001 * (end - start)) + "s");
 	}
 
 	@Scheduled(fixedRate = 2 * 60 * 1000, initialDelayString = "${evehistory.market.ordersdelay:60000}")
 	public void createOrders() {
-		long start = System.currentTimeMillis();
+		long startTime = System.currentTimeMillis();
 		List<MarketFetchResult> results = mfrService.listOnStatusWithPreviousAfter(STATUS.FETCHED);
 		log.info("creating orders for " + results.size() + " results");
 		for (MarketFetchResult result : results) {
-			log.info(" creating missing orders for result.id=" + result.getId());
+			long startResult = System.currentTimeMillis();
+			log.info(" creating orders result=" + result.getId());
 			orderService.createMissingOrders(result);
+			long endResult = System.currentTimeMillis();
+			result.setDurationCreateOrderMS(endResult - startResult);
 			result.setStatus(STATUS.ORDERSEXIST);
 			mfrService.save(result);
 		}
-		long end = System.currentTimeMillis();
-		log.info("created orders for " + results.size() + " results in " + (int) Math.ceil(0.001 * (end - start)) + "s");
+		long endTime = System.currentTimeMillis();
+		log.info(
+				"created orders for " + results.size() + " results in " + (int) Math.ceil(0.001 * (endTime - startTime)) + "s");
 	}
 
 
@@ -97,13 +113,23 @@ public class MarketSchedulerService {
 		List<TwoFetchResults> mfrs = mfrService.listToAnalyze();
 		long listed = System.currentTimeMillis();
 		log.info("analyzing the lines of " + mfrs.size() + " fetch results");
-		List<CompletableFuture<Void>> futures = mfrs.stream().map(m -> analyzeService.analyzeLines(m.first(), m.second()))
-				.toList();
+		Map<MarketFetchResult, CompletableFuture<Void>> futures = mfrs.stream()
+				.collect(Collectors.toMap(
+						TwoFetchResults::first,
+						m -> analyzeService.analyzeLines(m.first(), m.second()).orTimeout(4, TimeUnit.MINUTES)));
 		long dispatched = System.currentTimeMillis();
-		futures.forEach(CompletableFuture::join);
+		futures.entrySet().forEach(f -> {
+			try {
+				f.getValue().join();
+			} catch (CompletionException e) {
+				log.error("analyze timeout for marketfetchresult " + f.getKey().getId());
+			}
+		});
 		long end = System.currentTimeMillis();
-		log.info("analyzed " + mfrs.size() + " lines in " + (int) Math.ceil(0.001 * (end - start)) + "s (list="
-				+ (listed - start) + "ms dispatch=" + (dispatched - listed) + "ms join=" + (end - dispatched) + "ms)");
+		if (!mfrs.isEmpty()) {
+			log.info("analyzed " + mfrs.size() + " lines in " + (int) Math.ceil(0.001 * (end - start)) + "s (list="
+					+ (listed - start) + "ms dispatch=" + (dispatched - listed) + "ms join=" + (end - dispatched) + "ms)");
+		}
 	}
 
 

@@ -3,4 +3,4 @@
 
 source $HOME/.cfg/EveHistory/remote.cfg\
 && reset\
-&& ssh $RMT_SSH "tail -n +1 -f /var/log/tomcat10/catalina.out"
+&& ssh $RMT_SSH tail -n +1 -f /var/log/tomcat10/catalina.out
