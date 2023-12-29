@@ -38,6 +38,10 @@ public class ObservedRegionService {
 		return repo.existsByRegionId(regionId);
 	}
 
+	public ObservedRegion byRegionId(int regionId) {
+		return repo.findByRegionId(regionId);
+	}
+
 	public boolean observeRegion(Region region) {
 		if (region == null) {
 			return false;

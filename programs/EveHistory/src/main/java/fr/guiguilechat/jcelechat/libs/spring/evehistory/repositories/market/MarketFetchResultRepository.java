@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market;
 
+import java.time.Instant;
 import java.util.Collection;
 import java.util.List;
 
@@ -8,24 +9,9 @@ import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult.STATUS;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.ObservedRegion;
 
 public interface MarketFetchResultRepository extends JpaRepository<MarketFetchResult, Long> {
-
-// /**
-// * list the fetch results that can be analyzed : are successful, not analyzed,
-// * and there exists a later successful fetch for the same region
-// */
-// @Query("""
-// select mfr, mfr2
-// from MarketFetchResult mfr
-// join MarketFetchResult mfr2 on mfr2.id=
-// (select min(mfr3.id)
-// from MarketFetchResult mfr3
-// where mfr3.regionId=mfr.regionId and mfr3.id>mfr.id and mfr3.linesFetched>0)
-// where mfr.analyzed = false and mfr.linesFetched>0
-// order by mfr.id asc
-// """)
-// List<Object[]> findToCreateOrders();
 
 	List<MarketFetchResult> findByStatus(STATUS status);
 
@@ -72,5 +58,9 @@ public interface MarketFetchResultRepository extends JpaRepository<MarketFetchRe
 		line.fetchResult = :result
 """)
 	List<Object[]> listLinesOrders(MarketFetchResult result);
+
+	List<MarketFetchResult> findByRegionAndStatusOrderByCreatedDate(ObservedRegion region, STATUS status);
+
+	List<MarketFetchResult> findByCreatedDateLessThanAndStatus(Instant maxDate, STATUS status);
 
 }

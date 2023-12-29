@@ -127,7 +127,7 @@ public class MarketSchedulerService {
 		});
 		long end = System.currentTimeMillis();
 		if (!mfrs.isEmpty()) {
-			log.info("analyzed " + mfrs.size() + " lines in " + (int) Math.ceil(0.001 * (end - start)) + "s (list="
+			log.info("analyzed " + mfrs.size() + " results in " + (int) Math.ceil(0.001 * (end - start)) + "s (list="
 					+ (listed - start) + "ms dispatch=" + (dispatched - listed) + "ms join=" + (end - dispatched) + "ms)");
 		}
 	}

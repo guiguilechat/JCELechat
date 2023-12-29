@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.services.market;
 
+import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
 
@@ -10,8 +11,11 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketFetchResult.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.MarketOrder;
+import fr.guiguilechat.jcelechat.libs.spring.evehistory.model.market.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.repositories.market.MarketFetchResultRepository;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 public class MarketFetchResultService {
 
@@ -62,26 +66,21 @@ public class MarketFetchResultService {
 	}
 
 	public void purgeOldEntries() {
-// // keep cached at least 1d
-// List<MarketFetchResult> cachedExpired = repo
-// .findByCreatedDateLessThanAndCachedTrue(Instant.now().minus(Duration.ofDays(1)));
-// repo.deleteAllInBatch(cachedExpired);
-// log.info("purged " + cachedExpired.size() + " cached results");
-//
-// // keep failed at least 7d
-// List<MarketFetchResult> failedExpired = repo
-// .findByCreatedDateLessThanAndFailedTrue(Instant.now().minus(Duration.ofDays(7)));
-// repo.deleteAllInBatch(failedExpired);
-// log.info("purged " + failedExpired.size() + " failed results");
-//
-// // keep etags at least 6 hour
-// List<MarketFetchResult> removeEtag = repo
-// .findByCreatedDateLessThanAndEtagNotNull(Instant.now().minus(Duration.ofHours(6)));
-// for (MarketFetchResult r : removeEtag) {
-// r.setEtag(null);
-// }
-// repo.saveAllAndFlush(removeEtag);
-// log.info("removed " + removeEtag.size() + " etags");
+		// keep cached at least 1d
+		List<MarketFetchResult> cachedExpired = repo
+				.findByCreatedDateLessThanAndStatus(Instant.now().minus(Duration.ofDays(1)), STATUS.CACHED);
+		repo.deleteAllInBatch(cachedExpired);
+		log.info("purged " + cachedExpired.size() + " cached results");
+
+		// keep failed at least 7d
+		List<MarketFetchResult> failedExpired = repo
+				.findByCreatedDateLessThanAndStatus(Instant.now().minus(Duration.ofDays(7)), STATUS.FAIL);
+		repo.deleteAllInBatch(failedExpired);
+		log.info("purged " + failedExpired.size() + " failed results");
+	}
+
+	public List<MarketFetchResult> listInRegionAndStatus(ObservedRegion region, STATUS status) {
+		return repo.findByRegionAndStatusOrderByCreatedDate(region, status);
 	}
 
 }
