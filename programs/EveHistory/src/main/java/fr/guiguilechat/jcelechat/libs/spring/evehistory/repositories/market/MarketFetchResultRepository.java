@@ -59,7 +59,7 @@ public interface MarketFetchResultRepository extends JpaRepository<MarketFetchRe
 """)
 	List<Object[]> listLinesOrders(MarketFetchResult result);
 
-	List<MarketFetchResult> findByRegionAndStatusOrderByCreatedDate(ObservedRegion region, STATUS status);
+	List<MarketFetchResult> findByRegionAndStatusOrderByCreatedDateDesc(ObservedRegion region, STATUS status);
 
 	List<MarketFetchResult> findByCreatedDateLessThanAndStatus(Instant maxDate, STATUS status);
 

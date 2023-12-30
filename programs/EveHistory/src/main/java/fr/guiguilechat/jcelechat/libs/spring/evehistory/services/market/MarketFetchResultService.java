@@ -80,7 +80,7 @@ public class MarketFetchResultService {
 	}
 
 	public List<MarketFetchResult> listInRegionAndStatus(ObservedRegion region, STATUS status) {
-		return repo.findByRegionAndStatusOrderByCreatedDate(region, status);
+		return repo.findByRegionAndStatusOrderByCreatedDateDesc(region, status);
 	}
 
 }
