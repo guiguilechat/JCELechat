@@ -17,7 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 @Deprecated(forRemoval = true)
 public class EcrpNPCCorporationTrades {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/crpNPCCorporationTrades.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/crpNPCCorporationTrades.yaml");
 	private static ArrayList<EcrpNPCCorporationTrades> cache;
 
 	@SuppressWarnings("unchecked")

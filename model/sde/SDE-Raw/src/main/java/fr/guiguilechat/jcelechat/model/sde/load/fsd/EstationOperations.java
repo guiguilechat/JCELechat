@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EstationOperations {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/stationOperations.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/stationOperations.yaml");
 	private static LinkedHashMap<Integer, EstationOperations> cache;
 
 	@SuppressWarnings("unchecked")

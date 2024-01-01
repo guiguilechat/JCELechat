@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EtypeMaterials {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/typeMaterials.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/typeMaterials.yaml");
 	private static LinkedHashMap<Integer, EtypeMaterials> cache;
 
 	public static class Material {

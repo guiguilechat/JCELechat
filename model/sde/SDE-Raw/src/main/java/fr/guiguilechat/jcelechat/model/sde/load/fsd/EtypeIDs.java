@@ -43,7 +43,7 @@ public class EtypeIDs {
 		public HashMap<Integer, ArrayList<Bonus>> types;
 	}
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/typeIDs.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/typeIDs.yaml");
 
 	private static LinkedHashMap<Integer, EtypeIDs> cache = null;
 

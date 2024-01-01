@@ -33,7 +33,7 @@ public class Universe {
 					).entrySet()) {
 				String fileName = e.getKey();
 				LinkedHashMap<String, Region> regions = e.getValue();
-				Stream.of(new File(SDECache.INSTANCE.cacheDir(), fileName).listFiles()).parallel().forEach(f -> {
+				Stream.of(new File(SDECache.INSTANCE.extractCacheDir(), fileName).listFiles()).parallel().forEach(f -> {
 					Region reg = Region.load(f);
 					synchronized (cache) {
 						regions.put(f.getName(), reg);

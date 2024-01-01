@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EgroupIDs {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/groupIDs.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/groupIDs.yaml");
 	private static LinkedHashMap<Integer, EgroupIDs> cache;
 
 	@SuppressWarnings("unchecked")

@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 @Deprecated(forRemoval = true)
 public class EcrpNPCDivisions {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/crpNPCDivisions.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/crpNPCDivisions.yaml");
 	private static ArrayList<EcrpNPCDivisions> cache;
 
 	@SuppressWarnings("unchecked")

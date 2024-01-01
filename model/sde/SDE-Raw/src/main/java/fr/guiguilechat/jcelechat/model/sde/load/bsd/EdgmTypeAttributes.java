@@ -25,7 +25,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma;
 @Deprecated
 public class EdgmTypeAttributes {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmTypeAttributes.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/dgmTypeAttributes.yaml");
 	private static ArrayList<EdgmTypeAttributes> cache;
 	public int attributeID;
 	public int typeID;

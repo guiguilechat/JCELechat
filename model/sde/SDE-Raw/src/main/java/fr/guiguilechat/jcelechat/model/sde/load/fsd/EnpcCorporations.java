@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EnpcCorporations {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/npcCorporations.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/npcCorporations.yaml");
 	private static LinkedHashMap<Integer, EnpcCorporations> cache;
 
 	@SuppressWarnings("unchecked")

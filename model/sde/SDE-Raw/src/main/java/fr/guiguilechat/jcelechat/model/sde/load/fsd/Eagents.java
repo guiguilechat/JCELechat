@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
  */
 public class Eagents {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/agents.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/agents.yaml");
 
 	private static LinkedHashMap<Integer, Eagents> cache = null;
 

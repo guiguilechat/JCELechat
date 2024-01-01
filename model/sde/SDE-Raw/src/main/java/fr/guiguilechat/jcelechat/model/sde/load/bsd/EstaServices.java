@@ -23,7 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 @Deprecated(forRemoval = true)
 public class EstaServices {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/staServices.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/staServices.yaml");
 	private static ArrayList<EstaServices> cache;
 
 	@SuppressWarnings("unchecked")

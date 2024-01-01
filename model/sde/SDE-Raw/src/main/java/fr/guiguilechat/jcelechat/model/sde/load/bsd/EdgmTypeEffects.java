@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
  */
 public class EdgmTypeEffects {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmTypeEffects.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/dgmTypeEffects.yaml");
 	private static ArrayList<EdgmTypeEffects> cache;
 
 	@SuppressWarnings("unchecked")
