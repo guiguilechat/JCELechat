@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 		<artifactId>spring</artifactId>
-		<version>6.3.11</version>
+		<version>7.1.6</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 	<artifactId>EveSpringVolumicOre</artifactId>
@@ -58,7 +58,6 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>3.3.1</version>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
