@@ -78,18 +78,13 @@ public class MutaEvals extends Application {
 		if (strength == null) {
 			return new SimpleDoubleProperty(00);
 		}
-		switch (strength) {
-		case DECAYED:
-			return decayedPriceVal;
-		case GRAVID:
-			return gravidPriceVal;
-		case ABNORMAL:
-			return abnormalPriceVal;
-		case UNSTABLE:
-			return unstablePriceVal;
-		default:
-			throw new UnsupportedOperationException("doesnt handle " + strength);
-		}
+		return switch (strength) {
+			case DECAYED -> decayedPriceVal;
+			case GRAVID -> gravidPriceVal;
+			case ABNORMAL -> abnormalPriceVal;
+			case UNSTABLE -> unstablePriceVal;
+			default -> throw new UnsupportedOperationException("doesnt handle muta strength" + strength);
+		};
 	}
 
 	@SuppressWarnings("unchecked")

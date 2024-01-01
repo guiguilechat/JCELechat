@@ -190,7 +190,7 @@ public abstract class MutaplasmidFamily {
 		return ret;
 	}
 
-	public static final MutaplasmidFamily[] INSTANCES = new MutaplasmidFamily[] { Muta1MN.INSTANCE, MutaWeb.INSTANCE,
+	public static final MutaplasmidFamily[] INSTANCES = { Muta1MN.INSTANCE, MutaWeb.INSTANCE,
 			MutaScram.INSTANCE, MutaDisrupt.INSTANCE };
 
 	public static void searchESI() {

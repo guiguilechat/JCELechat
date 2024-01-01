@@ -15,7 +15,7 @@
 		<module>EveSpringMarket</module>
 		<module>EveSpringVolumicOre</module>
 		<module>EveSpringTypeAttributes</module>
-		<module>SpringBase</module>
+		<module>SpringSDE</module>
 	</modules>
 	<repositories>
 		<repository>
