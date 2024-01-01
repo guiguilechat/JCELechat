@@ -26195,7 +26195,7 @@ locations:
     isWormhole: false
     name: Arnon
     region: Essence
-    truesec: 0.5930926592289999
+    truesec: 0.8
   Arnstur:
     adjacentConstellations:
     - Evannater
@@ -30953,7 +30953,7 @@ locations:
     isWormhole: false
     name: Bereye
     region: Everyshore
-    truesec: 0.691886495212
+    truesec: 0.9
   Bersyrim:
     adjacentSystems:
     - Mod
@@ -52501,7 +52501,7 @@ locations:
     isWormhole: false
     name: Hek
     region: Metropolis
-    truesec: 0.549668267075
+    truesec: 0.8
   Helgatild:
     adjacentSystems:
     - Arnstur
@@ -124999,7 +124999,7 @@ locations:
     isWormhole: false
     name: Parchanier
     region: Sinq Laison
-    truesec: 0.6352463815
+    truesec: 0.9
   Parouz:
     adjacentSystems:
     - Fihrneh
@@ -149885,7 +149885,7 @@ locations:
     isWormhole: false
     name: Villore
     region: Essence
-    truesec: 0.5065094238596283
+    truesec: 0.9
   Vilur:
     adjacentConstellations:
     - Frar

@@ -93591,6 +93591,8 @@ blueprints:
       skills:
         ? id: 3380
         : 5
+        ? id: 11442
+        : 1
         ? id: 11443
         : 1
         ? id: 26253
@@ -177055,6 +177057,22 @@ blueprints:
       time: 315
     research_time:
       time: 315
+    seeded: false
+  79214:
+    id: 79214
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 1
+      products:
+      - id: 77114
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 9000
+    maxCopyRuns: 10
     seeded: false
   79326:
     id: 79326

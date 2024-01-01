@@ -3886,3 +3886,11 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  80240:
+    cpumultiplier: 1.0
+    id: 80240
+    name: Yoiul Festival Celebration Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0

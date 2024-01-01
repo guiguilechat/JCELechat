@@ -1372,6 +1372,7 @@ usages:
       78393: null
       79175: null
       79176: null
+      79214: null
     materialInReaction: !!set
       46158: null
       57500: null
@@ -5889,10 +5890,12 @@ usages:
       77399: null
       77400: null
       77401: null
+      77726: null
       78333: null
       78366: null
       78367: null
       78369: null
+      78414: null
       78621: null
   35:
     materialInCopy: !!set
@@ -11611,10 +11614,12 @@ usages:
       77399: null
       77400: null
       77401: null
+      77726: null
       78333: null
       78366: null
       78367: null
       78369: null
+      78414: null
       78621: null
   36:
     materialInCopy: !!set
@@ -16472,10 +16477,12 @@ usages:
       77399: null
       77400: null
       77401: null
+      77726: null
       78333: null
       78366: null
       78367: null
       78369: null
+      78414: null
       78621: null
   37:
     materialInCopy: !!set
@@ -20703,6 +20710,8 @@ usages:
       77399: null
       77400: null
       77401: null
+      77726: null
+      78414: null
       78621: null
   38:
     materialInCopy: !!set
@@ -25140,6 +25149,7 @@ usages:
       77399: null
       77400: null
       77401: null
+      77726: null
   39:
     materialInCopy: !!set
       33082: null
@@ -28624,6 +28634,7 @@ usages:
       77399: null
       77400: null
       77401: null
+      77726: null
       78621: null
   40:
     materialInCopy: !!set
@@ -32525,6 +32536,7 @@ usages:
       77399: null
       77400: null
       77401: null
+      77726: null
   41:
     materialInReaction: !!set
       46219: null
@@ -130094,6 +130106,9 @@ usages:
       78287: null
       78288: null
       78289: null
+      78668: null
+      78669: null
+      78670: null
   49099:
     productOfManuf: !!set
       49100: null
@@ -135768,6 +135783,8 @@ usages:
       76376: null
   77066: {}
   77114:
+    productOfManuf: !!set
+      79214: null
     reprocessInto:
       34: 1.0
   77281:
@@ -135940,6 +135957,15 @@ usages:
   77700: {}
   77701: {}
   77702: {}
+  77726:
+    reprocessInto:
+      34: 582462.0
+      35: 145789.0
+      36: 37916.0
+      37: 9189.0
+      38: 2261.0
+      39: 1134.0
+      40: 288.0
   78287:
     reprocessInto:
       48927: 1.0
@@ -135981,6 +136007,12 @@ usages:
       34: 2555556.0
       35: 666667.0
       36: 180000.0
+  78414:
+    reprocessInto:
+      34: 12809.0
+      35: 10980.0
+      36: 4062.0
+      37: 8.0
   78576:
     productOfManuf: !!set
       79326: null
@@ -136007,6 +136039,15 @@ usages:
       36: 518.0
       37: 3.0
       39: 4.0
+  78668:
+    reprocessInto:
+      48927: 1.0
+  78669:
+    reprocessInto:
+      48927: 1.0
+  78670:
+    reprocessInto:
+      48927: 1.0
   78740:
     productOfManuf: !!set
       79175: null

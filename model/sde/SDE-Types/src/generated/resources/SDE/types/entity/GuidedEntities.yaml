@@ -50,7 +50,7 @@ types:
     maxvelocity: 800.0
     name: Automated HISC-99 Tanker
     packagedVolume: 1.0E8
-    panicduration: 10000
+    panicduration: 420000
     portionSize: 1
     published: false
     radius: 450.0
