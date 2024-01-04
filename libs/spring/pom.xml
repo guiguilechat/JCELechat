@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
 		<artifactId>libs</artifactId>
-		<version>7.2.1</version>
+		<version>7.2.2</version>
 	</parent>
 	<packaging>pom</packaging>
 	<modules>
