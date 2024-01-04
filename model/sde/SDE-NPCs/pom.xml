@@ -46,29 +46,6 @@
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>generate-NPCs</id>
-						<phase>process-classes</phase>
-						<goals>
-							<goal>java</goal>
-						</goals>
-						<configuration>
-							<includePluginDependencies>true</includePluginDependencies>
-							<cleanupDaemonThreads>false</cleanupDaemonThreads>
-							<mainClass>fr.guiguilechat.jcelechat.model.sde.translate.NPCsTranslater</mainClass>
-							<arguments>
-								<!-- resource folder to put database in -->
-								<argument>${project.basedir}/src/generated/resources/</argument>
-							</arguments>
-							<cleanupDaemonThreads>false</cleanupDaemonThreads>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
 				<executions>
 					<execution>
@@ -89,4 +66,36 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profiles>
+		<profile>
+			<id>buildccp</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>exec-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>generate-NPCs</id>
+								<phase>process-classes</phase>
+								<goals>
+									<goal>java</goal>
+								</goals>
+								<configuration>
+									<includePluginDependencies>true</includePluginDependencies>
+									<cleanupDaemonThreads>false</cleanupDaemonThreads>
+									<mainClass>fr.guiguilechat.jcelechat.model.sde.translate.NPCsTranslater</mainClass>
+									<arguments>
+										<!-- resource folder to put database in -->
+										<argument>${project.basedir}/src/generated/resources/</argument>
+									</arguments>
+									<cleanupDaemonThreads>false</cleanupDaemonThreads>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 </project>

@@ -14,7 +14,6 @@
 		<module>JCESI</module>
 		<module>JCESI-compiler</module>
 		<module>JCESI-interfaces</module>
-
 		<module>JCESI-compiled</module>
 	</modules>
 	<dependencyManagement>
