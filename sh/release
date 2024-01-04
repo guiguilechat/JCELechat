@@ -79,4 +79,4 @@ git add .\
  && git tag "$VERSION"\
  && git push\
  && git push origin "$VERSION"\
- && gh gh release create --generate-notes --latest "$VERSION"
+ && gh release create --generate-notes --latest "$VERSION"
