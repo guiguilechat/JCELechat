@@ -12,13 +12,6 @@
 		<module>programs</module>
 		<module>libs</module>
 	</modules>
-	<distributionManagement>
-		<repository>
-			<id>github-glechat</id>
-			<name>GitHub Packages Glechat</name>
-			<url>https://maven.pkg.github.com/glechat/JCELechat</url>
-		</repository>
-	</distributionManagement>
 	<licenses>
 		<license>
 			<name>GNU Lesser General Public License v3</name>
