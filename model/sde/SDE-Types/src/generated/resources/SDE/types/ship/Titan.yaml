@@ -51,7 +51,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.0
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     jumpportalcapacitorneed: 25000
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 300000
@@ -170,7 +169,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.0
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     jumpportalcapacitorneed: 25000
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 300000
@@ -291,7 +289,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.0
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     jumpportalcapacitorneed: 25000
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 300000
@@ -409,7 +406,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.0
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     jumpportalcapacitorneed: 25000
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 300000
@@ -528,7 +524,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.0
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     jumpportalcapacitorneed: 25000
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 300000
@@ -653,7 +648,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.0
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     jumpportalcapacitorneed: 25000
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 300000
@@ -784,7 +778,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.0
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     jumpportalcapacitorneed: 25000
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 300000
@@ -911,7 +904,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.0
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     jumpportalcapacitorneed: 25000
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 300000

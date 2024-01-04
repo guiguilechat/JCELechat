@@ -3508,7 +3508,6 @@ types:
     id: 33468
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
     maincolor: 16777215
@@ -4659,7 +4658,6 @@ types:
     id: 77114
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
     lowslots: 3

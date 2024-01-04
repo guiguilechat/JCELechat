@@ -4,7 +4,6 @@ types:
     armoruniformity: 0.75
     hp: 20000.0
     id: 57319
-    jumpharmonics: -5
     marketGroup: 2763
     mass: 10000.0
     metalevelold: 1
@@ -32,7 +31,6 @@ types:
     hp: 10000.0
     id: 59630
     iscovert: 1
-    jumpharmonics: 5
     marketGroup: 2763
     mass: 10000.0
     metalevelold: 1

@@ -53,7 +53,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 7
     maincolor: 16777215
@@ -171,7 +170,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 6
     maincolor: 16777215
@@ -290,7 +288,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
     maincolor: 16777215
@@ -408,7 +405,6 @@ types:
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
     maincolor: 16777215

@@ -27,7 +27,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivatio
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnableOpenJumpPortal;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonics;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalConsumptionMassFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalPassengerRequiredAttributeID;
@@ -126,13 +125,6 @@ public class JumpPortalGenerator
     @DefaultIntValue(0)
     public int enableopenjumpportal;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int jumpharmonics;
-    /**
      * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
      */
     @HighIsGood(true)
@@ -202,7 +194,7 @@ public class JumpPortalGenerator
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double speedfactor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, Power.INSTANCE, Radius.INSTANCE, JumpHarmonics.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, JumpPortalPassengerRequiredAttributeID.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, JumpPortalPassengerRequiredAttributeID.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final JumpPortalGenerator.MetaGroup METAGROUP = new JumpPortalGenerator.MetaGroup();
 
     @Override
@@ -251,10 +243,6 @@ public class JumpPortalGenerator
             case  3125 :
             {
                 return enableopenjumpportal;
-            }
-            case  1253 :
-            {
-                return jumpharmonics;
             }
             case  1001 :
             {

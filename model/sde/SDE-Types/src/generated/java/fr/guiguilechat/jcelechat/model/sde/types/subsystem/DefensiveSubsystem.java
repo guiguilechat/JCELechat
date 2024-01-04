@@ -26,7 +26,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpConduitPassenger;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpPortalPassenger;
-import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonicsModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
@@ -115,13 +114,6 @@ public class DefensiveSubsystem
     @Stackable(false)
     @DefaultIntValue(0)
     public int isblackopsjumpportalpassenger;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int jumpharmonicsmodifier;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -238,7 +230,7 @@ public class DefensiveSubsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int virusstrengthbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {StructureHPBonusAdd.INSTANCE, SubsystemBonusMassAddition.INSTANCE, CargoCapacityAdd.INSTANCE, JumpHarmonicsModifier.INSTANCE, ShieldCapacity.INSTANCE, ArmorHPBonusAdd.INSTANCE, CloakingCpuNeedBonus.INSTANCE, Hp.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, CovertCloakCPUPenalty.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrDefensive.INSTANCE, SubsystemBonusGallenteDefensive.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, SubsystemBonusAmarrDefensive2 .INSTANCE, SubsystemBonusCaldariDefensive.INSTANCE, FitsToShipType.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusMinmatarDefensive.INSTANCE, SubsystemBonusCaldariDefensive2 .INSTANCE, SubsystemBonusGallenteDefensive2 .INSTANCE, SubsystemBonusMinmatarDefensive2 .INSTANCE, RequiredSkill1 .INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, SubsystemBonusAmarrDefensive3 .INSTANCE, MetaLevelOld.INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, SubsystemBonusCaldariDefensive3 .INSTANCE, SubsystemBonusGallenteDefensive3 .INSTANCE, VirusStrengthBonus.INSTANCE, SubsystemBonusMinmatarDefensive3 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {StructureHPBonusAdd.INSTANCE, SubsystemBonusMassAddition.INSTANCE, CargoCapacityAdd.INSTANCE, ShieldCapacity.INSTANCE, ArmorHPBonusAdd.INSTANCE, CloakingCpuNeedBonus.INSTANCE, Hp.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, CovertCloakCPUPenalty.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrDefensive.INSTANCE, SubsystemBonusGallenteDefensive.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, SubsystemBonusAmarrDefensive2 .INSTANCE, SubsystemBonusCaldariDefensive.INSTANCE, FitsToShipType.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusMinmatarDefensive.INSTANCE, SubsystemBonusCaldariDefensive2 .INSTANCE, SubsystemBonusGallenteDefensive2 .INSTANCE, SubsystemBonusMinmatarDefensive2 .INSTANCE, RequiredSkill1 .INSTANCE, SubsystemBonusAmarrDefensive3 .INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, MetaLevelOld.INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, SubsystemBonusCaldariDefensive3 .INSTANCE, SubsystemBonusGallenteDefensive3 .INSTANCE, VirusStrengthBonus.INSTANCE, SubsystemBonusMinmatarDefensive3 .INSTANCE })));
     public static final DefensiveSubsystem.MetaGroup METAGROUP = new DefensiveSubsystem.MetaGroup();
 
     @Override
@@ -275,10 +267,6 @@ public class DefensiveSubsystem
             case  3320 :
             {
                 return isblackopsjumpportalpassenger;
-            }
-            case  1541 :
-            {
-                return jumpharmonicsmodifier;
             }
             case  263 :
             {

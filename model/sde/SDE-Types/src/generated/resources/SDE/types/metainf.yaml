@@ -30064,16 +30064,7 @@ id2group:
   79188: personalization/ShipPersonalization
   79189: personalization/ShipPersonalization
   79192: commodity/Miscellaneous
-  79205: commodity/JumpFilaments
-  79206: commodity/JumpFilaments
-  79207: commodity/JumpFilaments
-  79209: commodity/JumpFilaments
-  79210: commodity/JumpFilaments
-  79211: commodity/JumpFilaments
-  79212: commodity/JumpFilaments
-  79213: commodity/JumpFilaments
   79214: blueprint/FrigateBlueprint
-  79215: commodity/JumpFilaments
   79320: entity/InsurgencyRoamingPirates
   79322: entity/InsurgencyRoamingPirates
   79326: blueprint/TitanBlueprint

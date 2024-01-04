@@ -38,7 +38,6 @@ types:
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
     lowslots: 2
@@ -134,7 +133,6 @@ types:
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
     maincolor: 16777215
@@ -230,7 +228,6 @@ types:
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
     lowslots: 3
@@ -327,7 +324,6 @@ types:
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
     maincolor: 16777215

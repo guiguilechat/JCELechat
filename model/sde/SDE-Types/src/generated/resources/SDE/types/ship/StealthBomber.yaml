@@ -36,7 +36,6 @@ types:
     id: 11377
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
     lowslots: 2
@@ -133,7 +132,6 @@ types:
     id: 12032
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
     lowslots: 2
@@ -230,7 +228,6 @@ types:
     id: 12034
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
     lowslots: 3
@@ -327,7 +324,6 @@ types:
     id: 12038
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
     lowslots: 3
@@ -424,7 +420,6 @@ types:
     id: 45530
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 2
     lowslots: 4

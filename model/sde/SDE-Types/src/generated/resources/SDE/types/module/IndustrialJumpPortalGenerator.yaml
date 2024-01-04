@@ -13,7 +13,6 @@ types:
     hp: 99999.0
     id: 63140
     jumpconduitpassengerrequiredattributeid: 3324
-    jumpharmonics: 5
     jumpportalconsumptionmassfactor: 9.999999717180685E-10
     jumpportalduration: 20000
     jumpportalpassengerrequiredattributeid: 3325

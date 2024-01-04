@@ -10,7 +10,6 @@ types:
     id: 45586
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonicsmodifier: 5
     lowslotmodifier: 2
     marketGroup: 1126
     mass: 1400000.0
@@ -99,7 +98,6 @@ types:
     id: 45589
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonicsmodifier: 5
     marketGroup: 1127
     mass: 1400000.0
     medslotmodifier: 3
@@ -185,7 +183,6 @@ types:
     id: 45592
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonicsmodifier: 5
     lowslotmodifier: 2
     marketGroup: 1129
     mass: 1400000.0
@@ -274,7 +271,6 @@ types:
     id: 45595
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonicsmodifier: 5
     lowslotmodifier: 1
     marketGroup: 1128
     mass: 1400000.0

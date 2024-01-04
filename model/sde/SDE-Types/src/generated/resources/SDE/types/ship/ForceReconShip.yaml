@@ -38,7 +38,6 @@ types:
     id: 11957
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
     lowslots: 3
@@ -135,7 +134,6 @@ types:
     id: 11963
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
     lowslots: 4
@@ -234,7 +232,6 @@ types:
     id: 11965
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
     maincolor: 16777215
@@ -331,7 +328,6 @@ types:
     id: 11969
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
     lowslots: 4
@@ -426,7 +422,6 @@ types:
     id: 33395
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
     lowslots: 5
@@ -527,7 +522,6 @@ types:
     id: 33675
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
     lowslots: 4
@@ -630,7 +624,6 @@ types:
     inversecappedsecstatus: -1
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 5
     lowslots: 5
@@ -740,7 +733,6 @@ types:
     id: 45531
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 2
     lowslots: 5
@@ -845,7 +837,6 @@ types:
     id: 48635
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    jumpharmonics: 5
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
     maincolor: 16777215

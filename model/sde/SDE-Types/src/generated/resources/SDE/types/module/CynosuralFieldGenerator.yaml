@@ -15,7 +15,6 @@ types:
     duration: 600000.0
     hp: 999999.0
     id: 21096
-    jumpharmonics: -5
     marketGroup: 1641
     maxgroupactive: 1
     maxvelocityactivationlimit: 500
@@ -58,7 +57,6 @@ types:
     hp: 999999.0
     id: 28646
     iscovert: 1
-    jumpharmonics: 5
     marketGroup: 1641
     maxgroupactive: 1
     maxvelocityactivationlimit: 500
@@ -96,7 +94,6 @@ types:
     hp: 999999.0
     id: 52694
     isindustrialcyno: 1
-    jumpharmonics: 1
     marketGroup: 1641
     maxgroupactive: 1
     maxvelocityactivationlimit: 500

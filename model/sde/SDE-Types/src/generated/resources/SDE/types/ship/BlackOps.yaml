@@ -53,7 +53,6 @@ types:
     jumpdriverange: 4.0
     jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
-    jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
     jumpthroughfatiguemultiplier: 0.25
     kineticdamageresonance: 0.6700000166893005
@@ -169,7 +168,6 @@ types:
     jumpdriverange: 4.0
     jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
-    jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
     jumpthroughfatiguemultiplier: 0.25
     kineticdamageresonance: 0.6700000166893005
@@ -286,7 +284,6 @@ types:
     jumpdriverange: 4.0
     jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
-    jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
     jumpthroughfatiguemultiplier: 0.25
     kineticdamageresonance: 0.6700000166893005
@@ -403,7 +400,6 @@ types:
     jumpdriverange: 4.0
     jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
-    jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
     jumpthroughfatiguemultiplier: 0.25
     kineticdamageresonance: 0.6700000166893005
@@ -522,7 +518,6 @@ types:
     jumpdriverange: 4.0
     jumpdrivetargetbeacontypelistid: 342
     jumpfatiguemultiplier: 0.25
-    jumpharmonics: 5
     jumpportalconsumptionmassfactor: 1.349999934063817E-7
     jumpthroughfatiguemultiplier: 0.25
     kineticdamageresonance: 0.6700000166893005
