@@ -12,6 +12,13 @@
 		<module>programs</module>
 		<module>libs</module>
 	</modules>
+	<distributionManagement>
+		<repository>
+			<id>github-glechat</id>
+			<name>GitHub Packages Glechat</name>
+			<url>https://maven.pkg.github.com/glechat/JCELechat</url>
+		</repository>
+	</distributionManagement>
 	<licenses>
 		<license>
 			<name>GNU Lesser General Public License v3</name>
@@ -163,7 +170,7 @@
 				<artifactId>maven-core</artifactId>
 				<version>3.9.4</version>
 			</dependency>
-			 <dependency>
+			<dependency>
 				<groupId>org.apache.maven.plugin-tools</groupId>
 				<artifactId>maven-plugin-annotations</artifactId>
 				<version>3.7.0</version>
