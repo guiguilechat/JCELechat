@@ -118,13 +118,14 @@ and set the values inside.
 
 first set your ssh connexion, replace its name in the *remote* file. If you have already set a host in your ~/.ssh/config then use that host name ; otherwise enter your user@url (like admin@127.0.0.1 )
 
-I strongly advice to export your public key with eg `source remote; ssh-copy-id $RMT_SSH` . This will prevent to enter your password everytime.
+I strongly advice to export your public key with eg `source $HOME/.cfg/EveHistory/remote.cfg; ssh-copy-id $RMT_SSH` . This will prevent to enter your password everytime.
 
-Then run `sh/deployrmt`
+Then run `sh/rmt/dpl`
 
 #### monitor the remote logs
 
-run the command `sh/logrmt`
+run the command `sh/rmt/log` for last 1000 , or `sh/rmt/logFl` for all the logs in the last day.
+
 
 #### check http access
 

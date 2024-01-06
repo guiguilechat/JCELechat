@@ -72,11 +72,10 @@ if [[ $dry == "yes" ]]; then exit 0; fi
 
 git pull && git add .
 
-mvn versions:set -DnewVersion=$VERSION && mvn install -T2C || exit 1
+mvn versions:set -DnewVersion=$VERSION && mvn clean install -T2C || exit 1
 
 git add .\
  && git commit -m "v$VERSION"\
  && git tag "$VERSION"\
  && git push\
- && git push origin "$VERSION"\
- && gh release create --generate-notes --latest "$VERSION"
+ && git push origin "$VERSION"

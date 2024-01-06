@@ -39,7 +39,7 @@
 		<slf4j.version>2.0.7</slf4j.version>
 		<spring.version>5.3.6</spring.version>
 		<springboot.version>3.1.4</springboot.version>
-		<tools.version>1.7.8</tools.version>
+		<tools.version>1.7.10</tools.version>
 	</properties>
 	<repositories>
 		<repository>
@@ -47,7 +47,31 @@
 			<name>Spring Milestones</name>
 			<url>https://repo.spring.io/milestone</url>
 		</repository>
+		<repository>
+			<id>kimsufi-web-release</id>
+			<url>http://176.31.182.197/~maven/release/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>kimsufi-web-snapshot</id>
+			<url>http://176.31.182.197/~maven/snapshot/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>github-guiguilechat-jcelechat</id>
+			<name>Releases</name>
+			<url>https://maven.pkg.github.com/guiguilechat/JCELechat</url>
+		</repository>
+	</distributionManagement>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-milestones</id>
