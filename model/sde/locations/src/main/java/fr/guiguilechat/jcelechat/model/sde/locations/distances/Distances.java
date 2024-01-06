@@ -100,7 +100,7 @@ public class Distances {
 	 */
 	public static int[][] of(SysIndex idx, IRouter router) {
 		if (router == null) {
-			router = PredicateRouter.HSNOINVASION;
+			router = PredicateRouter.HS;
 		}
 		int[][] jumps = new int[idx.size()][idx.size()];
 		for (int i = 0; i < idx.size(); i++) {

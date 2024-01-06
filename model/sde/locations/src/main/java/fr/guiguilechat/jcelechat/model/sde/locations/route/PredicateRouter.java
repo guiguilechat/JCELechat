@@ -29,18 +29,19 @@ public class PredicateRouter implements IRouter {
 		this.predicate = predicate;
 	}
 
-	//
-	// only HS, no invasion. Good for negative to both
-	//
-
-	private static final Set<SolarSystem> INVADED = Invasions.INSTANCE.getPointSystems(false, false);
-
-	/**
-	 * only accept intermediate systems between source and dest that in HS, and
-	 * not invaded
-	 */
-	public static final PredicateRouter HSNOINVASION = new PredicateRouter(
-			s -> s.secStatus() == SECSTATUS.HS && !INVADED.contains(s));
+// //
+// // only HS, no invasion. Good for negative to both
+// //
+//
+// private static final Set<SolarSystem> INVADED =
+// Invasions.INSTANCE.getPointSystems(false, false);
+//
+// /**
+// * only accept intermediate systems between source and dest that in HS, and
+// * not invaded
+// */
+// public static final PredicateRouter HSNOINVASION = new PredicateRouter(
+// s -> s.secStatus() == SECSTATUS.HS && !INVADED.contains(s));
 
 	//
 	// only HS, no sec reduced. good for neutral to both.

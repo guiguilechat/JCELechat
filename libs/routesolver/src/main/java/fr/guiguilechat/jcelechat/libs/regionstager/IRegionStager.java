@@ -133,7 +133,7 @@ public interface IRegionStager {
 	public default Collection<SolarSystem> expandHS(SolarSystem source, Set<String> addRegions) {
 		Set<String> allowedRegions = new HashSet<>(addRegions);
 		allowedRegions.add(source.region);
-		Predicate<SolarSystem> accept = PredicateRouter.HSNOINVASION.predicate.and(s -> allowedRegions.contains(s.region));
+		Predicate<SolarSystem> accept = PredicateRouter.HS.predicate.and(s -> allowedRegions.contains(s.region));
 		return Reach.from(source, accept);
 	}
 

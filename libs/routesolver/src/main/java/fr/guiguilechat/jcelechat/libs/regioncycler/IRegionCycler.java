@@ -30,8 +30,8 @@ public interface IRegionCycler extends IFondHamilton {
 			return this;
 		}
 
-		public static Params hsNoInvasion() {
-			return new Params().withAllowed(PredicateRouter.HSNOINVASION.predicate);
+		public static Params hs() {
+			return new Params().withAllowed(PredicateRouter.HS.predicate);
 		}
 
 		public static Params regions(String... regions) {
@@ -41,7 +41,7 @@ public interface IRegionCycler extends IFondHamilton {
 		/**
 		 * predicate on a system to check if we are allowed to jump in it.
 		 */
-		public Predicate<SolarSystem> allowedSystems = PredicateRouter.HSNOINVASION.predicate;
+		public Predicate<SolarSystem> allowedSystems = PredicateRouter.HS.predicate;
 
 		public Params withAllowed(Predicate<SolarSystem> allowed) {
 			allowedSystems = allowed;

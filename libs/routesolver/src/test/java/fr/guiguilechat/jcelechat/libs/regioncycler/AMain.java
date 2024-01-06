@@ -18,7 +18,7 @@ public abstract class AMain {
 	protected abstract Predicate<SolarSystem> important();
 
 	protected Params params() {
-		return Params.hsNoInvasion().withImportant(important());
+		return Params.hs().withImportant(important());
 	}
 
 	public void run(String source) {
