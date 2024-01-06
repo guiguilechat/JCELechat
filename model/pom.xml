@@ -13,7 +13,7 @@
 	<artifactId>model</artifactId>
 	<parent>
 		<groupId>fr.guiguilechat</groupId>
-		<artifactId>JCELechat</artifactId>
+		<artifactId>jcelechat</artifactId>
 		<version>7.2.4</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat</groupId>
