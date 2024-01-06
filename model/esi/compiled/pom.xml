@@ -8,8 +8,8 @@
 		<version>7.2.9</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-	<artifactId>JCESI-compiled</artifactId>
-	<name>JCESI-compiled</name>
+	<artifactId>compiled</artifactId>
+	<name>ESI-compiled</name>
 	<description>compiling of esi access</description>
 	<build>
 		<plugins>
@@ -36,7 +36,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>JCESI-compiler</artifactId>
+			<artifactId>compiler</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>

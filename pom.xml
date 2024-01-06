@@ -215,37 +215,37 @@
 			-->
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
-				<artifactId>RouteSolver</artifactId>
+				<artifactId>routesolver</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-				<artifactId>JCESI</artifactId>
+				<artifactId>jcesi</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-Full</artifactId>
+				<artifactId>full</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-Industry</artifactId>
+				<artifactId>industry</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-Locations</artifactId>
+				<artifactId>locations</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-NPCs</artifactId>
+				<artifactId>npcs</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-Types</artifactId>
+				<artifactId>types</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<!-- 

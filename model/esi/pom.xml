@@ -8,29 +8,29 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model</groupId>
 	<artifactId>esi</artifactId>
-	<name>sde</name>
+	<name>Model-ESI</name>
 	<packaging>pom</packaging>
 	<modules>
-		<module>JCESI</module>
-		<module>JCESI-compiler</module>
-		<module>JCESI-interfaces</module>
-		<module>JCESI-compiled</module>
+		<module>jcesi</module>
+		<module>compiler</module>
+		<module>interfaces</module>
+		<module>compiled</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-				<artifactId>JCESI-interfaces</artifactId>
+				<artifactId>interfaces</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-				<artifactId>JCESI-compiler</artifactId>
+				<artifactId>compiler</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-				<artifactId>JCESI-compiled</artifactId>
+				<artifactId>compiled</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>

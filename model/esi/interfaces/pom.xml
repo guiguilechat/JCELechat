@@ -6,7 +6,7 @@
     <version>7.2.9</version>
   </parent>
   <groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-  <artifactId>JCESI-interfaces</artifactId>
+  <artifactId>interfaces</artifactId>
   <name>JCESI-interfaces</name>
   <dependencies>
   	<dependency>
