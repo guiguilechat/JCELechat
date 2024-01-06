@@ -49,14 +49,14 @@
 		</repository>
 		<repository>
 			<id>kimsufi-web-release</id>
-			<url>http://176.31.182.197/~maven/release/</url>
+			<url>https://176.31.182.197/~maven/release/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
 		<repository>
 			<id>kimsufi-web-snapshot</id>
-			<url>http://176.31.182.197/~maven/snapshot/</url>
+			<url>https://176.31.182.197/~maven/snapshot/</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
