@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.model</groupId>
 		<artifactId>sde</artifactId>
-		<version>7.2.5</version>
+		<version>7.2.6</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 	<artifactId>SDE-NPCs</artifactId>
