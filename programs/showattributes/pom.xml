@@ -3,8 +3,9 @@
   <parent>
     <groupId>fr.guiguilechat.jcelechat</groupId>
     <artifactId>programs</artifactId>
-    <version>7.2.12</version>
+    <version>7.2.13</version>
   </parent>
+	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
   <artifactId>showattributes</artifactId>
   <dependencies>
   	<dependency>
