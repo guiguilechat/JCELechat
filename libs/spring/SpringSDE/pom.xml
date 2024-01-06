@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 		<artifactId>spring</artifactId>
-		<version>7.2.3</version>
+		<version>7.2.4</version>
 	</parent>
 	<artifactId>SpringSDE</artifactId>
 	<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
