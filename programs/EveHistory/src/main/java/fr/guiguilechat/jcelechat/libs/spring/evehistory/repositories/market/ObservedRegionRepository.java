@@ -20,6 +20,6 @@ public interface ObservedRegionRepository extends JpaRepository<ObservedRegion, 
 	 * @return the couple observedregion, marketfetchresult for each region to
 	 *           observe
 	 */
-	@Query("select reg, lfs from ObservedRegion reg left join reg.lastFetchSuccess lfs")
+	@Query("select reg, lfs from ObservedRegion reg left join reg.lastFetchSuccess lfs order by lfs.linesFetched desc")
 	List<Object[]> listRequests();
 }

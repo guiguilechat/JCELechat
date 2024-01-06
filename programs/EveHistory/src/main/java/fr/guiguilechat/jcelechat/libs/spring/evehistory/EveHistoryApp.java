@@ -28,19 +28,15 @@ public class EveHistoryApp extends SpringBootServletInitializer {
 		return applicationBuilder.sources(EveHistoryApp.class);
 	}
 
-	boolean addData = true;
-
 	@Bean
 	public CommandLineRunner initDB(ObservedRegionService mors) {
 		return args -> {
-			if (addData) {
-				if (mors.observedRegions().isEmpty()) {
-					for (Region r : Region.load().values().stream().filter(r -> r.isKS).toList()) {
-						mors.observeRegion(r);
-					}
+			if (mors.observedRegions().isEmpty()) {
+				for (Region r : Region.load().values().stream().filter(r -> r.isKS).toList()) {
+					mors.observeRegion(r);
 				}
+				log.info("inserted regions to observe : " + mors.observedRegions());
 			}
-			log.info("after startup, observed regions : " + mors.observedRegions());
 		};
 	}
 }

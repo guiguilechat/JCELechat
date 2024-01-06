@@ -152,7 +152,7 @@ public class MarketFetchService {
 		log.info(" fetched for region(" + region.getRegionId() + ") result="
 				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " in "
 				+ (endTime - startTime) + " ms(firstPage=" + (firstPageTime - startTime) + (allPagesTime == null ? ""
-						: " nextPages=" + (allPagesTime - firstPageTime) + " process=" + (endTime - allPagesTime))
+						: " next" + pages + "Pages=" + (allPagesTime - firstPageTime) + " process=" + (endTime - allPagesTime))
 				+ ")");
 		return new AbstractMap.SimpleImmutableEntry<>(fetchResult, lines);
 	}
@@ -166,24 +166,26 @@ public class MarketFetchService {
 	@Transactional
 	public CompletableFuture<Void> fetchMarket(ObservedRegion region, MarketFetchResult previousResult) {
 		try {
-		Entry<MarketFetchResult, List<MarketFetchLine>> e = fetchMarketNoDB(region,
-				previousResult == null ? null : previousResult.getEtag());
-		MarketFetchResult fetchResult = resultService.save(e.getKey());
-		if (fetchResult.getStatus() == STATUS.FETCHING) {
-			lineService.saveAll(e.getValue());
-			region.setLastFetchSuccess(fetchResult);
-			regionService.save(region);
-			if (previousResult != null) {
-				previousResult.setNextResult(fetchResult);
-				resultService.save(previousResult);
+			log.trace(" + start fetch market regionId=" + region.getRegionId());
+			Entry<MarketFetchResult, List<MarketFetchLine>> e = fetchMarketNoDB(region,
+					previousResult == null ? null : previousResult.getEtag());
+			MarketFetchResult fetchResult = resultService.save(e.getKey());
+			if (fetchResult.getStatus() == STATUS.FETCHING) {
+				lineService.saveAll(e.getValue());
+				region.setLastFetchSuccess(fetchResult);
+				regionService.save(region);
+				if (previousResult != null) {
+					previousResult.setNextResult(fetchResult);
+					resultService.save(previousResult);
+				}
+				fetchResult.setStatus(STATUS.FETCHED);
+				fetchResult.setPreviousResult(previousResult);
+				resultService.save(fetchResult);
 			}
-			fetchResult.setStatus(STATUS.FETCHED);
-			fetchResult.setPreviousResult(previousResult);
-			resultService.save(fetchResult);
+			log.trace(" - finished fetch market regionId=" + region.getRegionId());
+		} catch (Exception e) {
+			log.error("while fetching market for region " + region.getRegionId(), e);
 		}
-	} catch (Exception e) {
-		log.error("while fetching market for region " + region.getRegionId(), e);
-	}
 		return CompletableFuture.completedFuture(null);
 	}
 
