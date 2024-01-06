@@ -9,17 +9,26 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model</groupId>
 	<artifactId>sde</artifactId>
-	<name>sde</name>
 	<packaging>pom</packaging>
+	<name>sde</name>
 	<modules>
-		<module>SDE-Full</module>
-		<module>SDE-Industry</module>
-		<module>SDE-Locations</module>
-		<module>SDE-NPCs</module>
-		<module>SDE-Raw</module>
-		<module>SDE-Types</module>
-		<module>SDE-Types-compiler</module>
+		<module>full</module>
+		<module>industry</module>
+		<module>locations</module>
+		<module>npcs</module>
+		<module>raw</module>
+		<module>types</module>
+		<module>types-compiler</module>
 	</modules>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+				<artifactId>types-compiler</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<build>
 		<plugins>
 			<plugin>

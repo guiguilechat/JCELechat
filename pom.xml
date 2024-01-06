@@ -7,6 +7,8 @@
 	<artifactId>jcelechat</artifactId>
 	<version>7.2.9</version>
 	<packaging>pom</packaging>
+	<name>JCE Lechat</name>
+	<description>Java Compile Eve by Lechat</description>
 	<modules>
 		<module>model</module>
 		<module>programs</module>
@@ -39,7 +41,7 @@
 		<slf4j.version>2.0.7</slf4j.version>
 		<spring.version>5.3.6</spring.version>
 		<springboot.version>3.1.4</springboot.version>
-		<tools.version>1.7.10</tools.version>
+		<tools.version>1.7.11</tools.version>
 	</properties>
 	<repositories>
 		<repository>
@@ -241,6 +243,11 @@
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 				<artifactId>npcs</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+				<artifactId>raw</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

@@ -12,9 +12,6 @@
 	</parent>
 	<packaging>pom</packaging>
 	<modules>
-		<module>EveSpringMarket</module>
-		<module>EveSpringVolumicOre</module>
-		<module>EveSpringTypeAttributes</module>
-		<module>SpringSDE</module>
+		<module>sde</module>
 	</modules>
 </project>

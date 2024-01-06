@@ -1,8 +1,0 @@
-services:
-
-  oracle:
-    build: ./oracle
-    container_name: oracle-jcelechat
-    restart: unless-stopped
-    ports:
-      - "127.0.0.1:1521:1521"

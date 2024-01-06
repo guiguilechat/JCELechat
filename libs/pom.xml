@@ -9,38 +9,13 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat</groupId>
 	<artifactId>libs</artifactId>
-	<name>JCELECHAT LIBS</name>
+	<name>JceLechat Libs</name>
 	<description>libraries for JCE-LECHAT. Those libraries provide tools to manage, optimize the data from the game.</description>
 	<packaging>pom</packaging>
 	<modules>
-		<module>RouteSolver</module>
-		<module>LogParser</module>
+		<module>logparser</module>
+		<module>mer</module>
+		<module>routesolver</module>
 		<module>spring</module>
-		<module>DBMaker</module>
-		<module>MER</module>
 	</modules>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-Industry</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-				<artifactId>JCESI</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-Locations</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-Types</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 </project>

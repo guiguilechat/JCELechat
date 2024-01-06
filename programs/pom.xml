@@ -7,33 +7,34 @@
 		<artifactId>jcelechat</artifactId>
 		<version>7.2.9</version>
 	</parent>
+	<groupId>fr.guiguilechat.jcelechat</groupId>
 	<artifactId>programs</artifactId>
 	<packaging>pom</packaging>
 	<name>Programs</name>
 	<description>pom for all main programs</description>
 	<modules>
-		<module>EveHistory</module>
-		<module>StatsBurnerDest</module>
-		<module>LootStats</module>
-		<module>GUIMutaplasmids</module>
-		<module>OreWorth</module>
-		<module>Praisal</module>
-		<module>MoonWorth</module>
-		<module>InsuranceFraud</module>
-		<module>ShowAttributes</module>
-		<module>CheckESISDE</module>
-		<module>GankHistory</module>
-		<module>NotifToons</module>
-		<module>CheckEIV</module>
+		<module>checkeiv</module>
+		<module>checkesisde</module>
+		<module>evehistory</module>
+		<module>gankhistory</module>
+		<module>guimutaplasmids</module>
+		<module>insurancefraud</module>
+		<module>lootstats</module>
+		<module>moonworth</module>
+		<module>notiftoons</module>
+		<module>oreworth</module>
+		<module>praisal</module>
+		<module>showattributes</module>
+		<module>statsburnerdest</module>
 	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>SDE-Full</artifactId>
+			<artifactId>full</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>JCESI</artifactId>
+			<artifactId>jcesi</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
@@ -52,12 +53,4 @@
 			<artifactId>YamlSettings</artifactId>
 		</dependency>
 	</dependencies>
-	<scm>
-		<url>https://github.com/guiguilechat/EveOnline</url>
-		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>
-		<developerConnection>
-			scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
-	<groupId>fr.guiguilechat.jcelechat</groupId>
 </project>
