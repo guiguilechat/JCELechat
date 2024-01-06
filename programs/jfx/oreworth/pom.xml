@@ -1,21 +1,33 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>fr.guiguilechat.jcelechat</groupId>
-    <artifactId>programs</artifactId>
-    <version>7.2.14</version>
-  </parent>
-  <groupId>fr.guiguilechat.jcelechat.programs</groupId>
-  <artifactId>oreworth</artifactId>
-  <name>OreWorth</name>
-  <description>show the price  of ore in chosen region.
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
+		<artifactId>jfx</artifactId>
+		<version>7.2.14</version>
+	</parent>
+	<groupId>fr.guiguilechat.jcelechat.programs.jfx</groupId>
+	<artifactId>oreworth</artifactId>
+	<name>OreWorth</name>
+	<description>show the price  of ore in chosen region.
 Also is a training for javafx ui</description>
-  <dependencies>
-  	<dependency>
-  		<groupId>org.slf4j</groupId>
-  		<artifactId>slf4j-simple</artifactId>
-  	</dependency>
-  </dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>jcesi</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>locations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>types</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>

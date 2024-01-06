@@ -8,17 +8,16 @@
 		<version>7.2.14</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
-	<artifactId>insurancefraud</artifactId>
-	<name>Insurance Fraud</name>
-	<description>compute insurance gain by killing ships, then match it with ore price</description>
-	<dependencies>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.choco-solver</groupId>
-			<artifactId>choco-solver</artifactId>
-		</dependency>
-	</dependencies>
+	<artifactId>cli</artifactId>
+	<packaging>pom</packaging>
+	<name>programs cli</name>
+	<description>programs that generate cli jar</description>
+	<modules>
+		<module>checkeiv</module>
+		<module>checkesisde</module>
+		<module>gankhistory</module>
+		<module>lootstats</module>
+		<module>showattributes</module>
+		<module>statsburnerdest</module>
+	</modules>
 </project>

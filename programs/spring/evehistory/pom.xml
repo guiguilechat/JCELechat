@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>fr.guiguilechat.jcelechat</groupId>
-		<artifactId>programs</artifactId>
+		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
+		<artifactId>spring</artifactId>
 		<version>7.2.14</version>
 	</parent>
-	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
+	<groupId>fr.guiguilechat.jcelechat.programs.spring</groupId>
 	<artifactId>evehistory</artifactId>
 	<name>Eve History</name>
 	<description>retain historical values in Eve.</description>
@@ -37,6 +37,14 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>jcesi</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>locations</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>

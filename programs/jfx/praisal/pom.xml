@@ -3,15 +3,31 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>fr.guiguilechat.jcelechat</groupId>
-		<artifactId>programs</artifactId>
+		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
+		<artifactId>jfx</artifactId>
 		<version>7.2.14</version>
 	</parent>
-	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
+	<groupId>fr.guiguilechat.jcelechat.programs.jfx</groupId>
 	<artifactId>praisal</artifactId>
 	<name>Praisal</name>
 	<description>give price information on items</description>
 	<dependencies>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>jcesi</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>industry</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>locations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>types</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>

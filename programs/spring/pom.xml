@@ -3,18 +3,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>fr.guiguilechat</groupId>
-		<artifactId>jcelechat</artifactId>
+		<groupId>fr.guiguilechat.jcelechat</groupId>
+		<artifactId>programs</artifactId>
 		<version>7.2.14</version>
 	</parent>
-	<groupId>fr.guiguilechat.jcelechat</groupId>
-	<artifactId>programs</artifactId>
+	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
+	<artifactId>spring</artifactId>
 	<packaging>pom</packaging>
-	<name>jcelechat programs</name>
-	<description>pom for all main programs</description>
+	<name>programs spring</name>
+	<description>programs that generate cli jar</description>
 	<modules>
-		<module>cli</module>
-		<module>jfx</module>
-		<module>spring</module>
+		<module>evehistory</module>
 	</modules>
 </project>
