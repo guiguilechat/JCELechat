@@ -10,7 +10,7 @@
 	<groupId>fr.guiguilechat.jcelechat.model</groupId>
 	<artifactId>sde</artifactId>
 	<packaging>pom</packaging>
-	<name>sde</name>
+	<name>SDE Model</name>
 	<modules>
 		<module>full</module>
 		<module>industry</module>

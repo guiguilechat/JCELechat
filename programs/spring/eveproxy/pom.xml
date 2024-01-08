@@ -8,9 +8,9 @@
 		<version>7.2.15</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs.spring</groupId>
-	<artifactId>evehistory</artifactId>
-	<name>Eve History</name>
-	<description>retain historical values in Eve.</description>
+	<artifactId>eveproxy</artifactId>
+	<name>Eve Proxy</name>
+	<description>Spring proxy on Eve data</description>
 	<dependencies>
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
@@ -26,6 +26,10 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+				<artifactId>sde</artifactId>
+			</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>jcesi</artifactId>
@@ -76,7 +80,7 @@
 	</dependencies>
 	<packaging>war</packaging>
 	<build>
-		<finalName>EveHistory</finalName>
+		<finalName>EveProxy</finalName>
 		<plugins>
 			<plugin>
 				<!--	workaround https://github.com/spring-projects/spring-framework/issues/29612-->

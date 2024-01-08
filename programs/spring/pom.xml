@@ -10,9 +10,22 @@
 	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 	<artifactId>spring</artifactId>
 	<packaging>pom</packaging>
-	<name>programs spring</name>
-	<description>programs that generate cli jar</description>
+	<name>Spring programs</name>
+	<description>programs that generate spring war</description>
 	<modules>
 		<module>evehistory</module>
+		<module>eveproxy</module>
 	</modules>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<!-- Import dependency management from Spring Boot -->
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<type>pom</type>
+				<scope>import</scope>
+				<version>${springboot.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>

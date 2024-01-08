@@ -10,7 +10,7 @@
 	<groupId>fr.guiguilechat.jcelechat</groupId>
 	<artifactId>programs</artifactId>
 	<packaging>pom</packaging>
-	<name>jcelechat programs</name>
+	<name>JCELechat programs</name>
 	<description>pom for all main programs</description>
 	<modules>
 		<module>cli</module>
