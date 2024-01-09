@@ -15,7 +15,7 @@ import lombok.RequiredArgsConstructor;
 public class Region {
 
 	@Id
-	private int regionID;
+	private int regionId;
 
 	private String name;
 
@@ -29,7 +29,7 @@ public class Region {
 		builder
 				.factionID(source.factionID)
 				.name(RegionName)
-				.regionID(source.regionID)
+				.regionId(source.regionID)
 				.universe(uniName)
 		;
 		return builder.build();

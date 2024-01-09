@@ -27,10 +27,6 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STATUS;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.ConstelData;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.RegionData;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SolarSystemData;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.UpdateContext;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;

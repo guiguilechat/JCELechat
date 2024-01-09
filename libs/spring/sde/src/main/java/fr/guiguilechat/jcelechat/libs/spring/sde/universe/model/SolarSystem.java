@@ -16,7 +16,7 @@ import lombok.RequiredArgsConstructor;
 public class SolarSystem {
 
 	@Id
-	private int solarSystemID;
+	private int solarSystemId;
 
 	private String name;
 
@@ -29,7 +29,7 @@ public class SolarSystem {
 		builder
 				.constellation(constel)
 				.name(name)
-				.solarSystemID(source.solarSystemID);
+				.solarSystemId(source.solarSystemID);
 		return builder.build();
 	}
 

@@ -16,7 +16,7 @@ import lombok.RequiredArgsConstructor;
 public class Constellation {
 
 	@Id
-	private int constellationID;
+	private int constellationId;
 
 	private String name;
 
@@ -29,7 +29,7 @@ public class Constellation {
 			String name, Region region) {
 		ConstellationBuilder builder = Constellation.builder();
 		builder
-				.constellationID(source.constellationID)
+				.constellationId(source.constellationID)
 				.factionID(source.factionID)
 				.name(name)
 				.region(region)

@@ -20,4 +20,8 @@ public class SolarSystemService {
 		repo.saveAll(entities);
 	}
 
+	public SolarSystem findById(int solarSystemId) {
+		return repo.findById(solarSystemId).orElse(null);
+	}
+
 }
