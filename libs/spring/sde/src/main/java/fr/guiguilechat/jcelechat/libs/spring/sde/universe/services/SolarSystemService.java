@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,6 +24,10 @@ public class SolarSystemService {
 
 	public SolarSystem findById(int solarSystemId) {
 		return repo.findById(solarSystemId).orElse(null);
+	}
+
+	public List<SolarSystem> adjacent(SolarSystem source) {
+		return repo.adjacent(source);
 	}
 
 }

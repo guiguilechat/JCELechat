@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,13 +19,15 @@ public class SolarSystemRestController {
 	@Autowired
 	private SolarSystemService ssService;
 
-	record SolarSystemDTO(int solarSystemId, String name, int constellationId, int regionId, String universe) {
-		static SolarSystemDTO of(SolarSystem ss) {
+	record SolarSystemDTO(int solarSystemId, String name, int constellationId, int regionId, String universe,
+			List<Integer> adajcent) {
+		static SolarSystemDTO of(SolarSystem ss, List<SolarSystem> adajcent) {
 			return new SolarSystemDTO(ss.getSolarSystemId(),
 					ss.getName(),
 					ss.getConstellation().getConstellationId(),
 					ss.getConstellation().getRegion().getRegionId(),
-					ss.getConstellation().getRegion().getUniverse());
+					ss.getConstellation().getRegion().getUniverse(),
+					adajcent.stream().map(SolarSystem::getSolarSystemId).toList());
 		}
 	};
 
@@ -34,7 +38,17 @@ public class SolarSystemRestController {
 			return ResponseEntity.status(404).body("system " + solarSystemId + " unknown");
 		}
 		return ResponseEntity
-				.ok(SolarSystemDTO.of(ss));
+				.ok(SolarSystemDTO.of(ss, ssService.adjacent(ss)));
+	}
+
+	@GetMapping("/byid/{solarSystemId}/adjacent")
+	public ResponseEntity<?> adjacent(@PathVariable int solarSystemId) {
+		SolarSystem ss = ssService.findById(solarSystemId);
+		if (ss == null) {
+			return ResponseEntity.status(404).body("system " + solarSystemId + " unknown");
+		}
+		List<SolarSystem> adjacents = ssService.adjacent(ss);
+		return ResponseEntity.ok(adjacents.stream().map(adj -> SolarSystemDTO.of(adj, ssService.adjacent(adj))).toList());
 	}
 
 }
