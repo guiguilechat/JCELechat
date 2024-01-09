@@ -10,7 +10,7 @@ public class Scheduler {
 	@Autowired
 	private SDEUpdateService sdeService;
 
-	@Scheduled(fixedRate = 3600 * 1000, initialDelayString = "${springsde.updater.fetchdelay:5000}")
+	@Scheduled(fixedRateString = "${sde.updater.fetchperiod:3600000}", initialDelayString = "${sde.updater.fetchdelay:5000}")
 	public void checkSDE() {
 		sdeService.updateSDE();
 	}

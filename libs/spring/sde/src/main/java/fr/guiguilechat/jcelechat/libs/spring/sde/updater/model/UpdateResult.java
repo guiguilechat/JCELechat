@@ -10,12 +10,14 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity
+@Table(name = "sde_updater_updateresult")
 @Data
 @Builder
 @RequiredArgsConstructor
@@ -29,9 +31,11 @@ public class UpdateResult {
 	@CreatedDate
 	private Instant createdDate;
 
-	private Instant started;
+	private Instant startedDate;
 
-	private Instant fetchedDate;
+	private Long fetchedDurationMs;
+
+	private Long processDurationMs;
 
 	private String error;
 
