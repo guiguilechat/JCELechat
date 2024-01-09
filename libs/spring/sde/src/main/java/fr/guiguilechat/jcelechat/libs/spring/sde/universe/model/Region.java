@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.universe.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +10,10 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity
-@Table(name = "sde_universe_region")
+@Table(name = "sde_universe_region", indexes = {
+		@Index(columnList = "universe")
+// , @Index(columnList = "faction_id")
+})
 @Data
 @Builder
 @RequiredArgsConstructor
@@ -23,13 +27,13 @@ public class Region {
 
 	private String universe;
 
-	private int factionID;
+	private int factionId;
 
 	public static Region from(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region source, String RegionName,
 			String uniName) {
 		RegionBuilder builder = Region.builder();
 		builder
-				.factionID(source.factionID)
+				.factionId(source.factionID)
 				.name(RegionName)
 				.regionId(source.regionID)
 				.universe(uniName)

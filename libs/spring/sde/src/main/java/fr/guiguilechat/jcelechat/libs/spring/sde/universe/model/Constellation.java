@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.universe.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -10,7 +11,8 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity
-@Table(name = "sde_universe_constellation")
+@Table(name = "sde_universe_constellation", indexes = {
+		@Index(columnList = "region_region_id") })
 @Data
 @Builder
 @RequiredArgsConstructor

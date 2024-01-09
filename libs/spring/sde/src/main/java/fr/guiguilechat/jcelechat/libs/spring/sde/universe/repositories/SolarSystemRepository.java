@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
 
 public interface SolarSystemRepository extends JpaRepository<SolarSystem, Integer> {
@@ -19,5 +20,7 @@ where
 	sg.solarSystem=:source
 """)
 	public List<SolarSystem> adjacent(@Param("source") SolarSystem source);
+
+	public List<SolarSystem> findByConstellation(Constellation constellation);
 
 }

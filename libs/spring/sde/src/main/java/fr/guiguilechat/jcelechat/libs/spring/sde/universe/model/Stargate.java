@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.universe.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
@@ -11,7 +12,8 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity
-@Table(name = "sde_universe_stargate")
+@Table(name = "sde_universe_stargate", indexes = {
+		@Index(columnList = "solar_system_solar_system_id") })
 @Data
 @Builder
 @RequiredArgsConstructor
@@ -36,13 +38,12 @@ public class Stargate {
 			int stargateId, SolarSystem solarSystem) {
 		StargateBuilder builder = Stargate.builder();
 		builder
-			.posX(stargate.position.x())
-			.posY(stargate.position.y())
-			.posZ(stargate.position.z())
-			.solarSystem(solarSystem)
-			.stargateId(stargateId)
-			.typeId(stargate.typeID)
-		;
+				.posX(stargate.position.x())
+				.posY(stargate.position.y())
+				.posZ(stargate.position.z())
+				.solarSystem(solarSystem)
+				.stargateId(stargateId)
+				.typeId(stargate.typeID);
 		return builder.build();
 	}
 
