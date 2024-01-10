@@ -10,7 +10,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-@Entity
+@Entity(name = "SdeUniverseConstellation")
 @Table(name = "sde_universe_constellation", indexes = {
 		@Index(columnList = "region_region_id") })
 @Data

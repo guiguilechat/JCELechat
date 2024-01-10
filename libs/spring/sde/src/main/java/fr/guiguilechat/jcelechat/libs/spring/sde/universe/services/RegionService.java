@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +20,10 @@ public class RegionService {
 
 	public void saveAll(Iterable<Region> entities) {
 		repo.saveAll(entities);
+	}
+
+	public List<Region> byUniverse(String universe) {
+		return repo.findByUniverse(universe);
 	}
 
 }

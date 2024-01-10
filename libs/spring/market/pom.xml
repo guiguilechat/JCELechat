@@ -7,8 +7,8 @@
 		<version>7.2.15</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-	<artifactId>sde</artifactId>
-	<name>Spring lib SDE</name>
+	<artifactId>market</artifactId>
+	<name>Spring lib Market</name>
 	<dependencies>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -22,8 +22,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>raw</artifactId>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>jcesi</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>

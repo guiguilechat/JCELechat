@@ -11,7 +11,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-@Entity
+@Entity(name = "SdeUniverseStargate")
 @Table(name = "sde_universe_stargate", indexes = {
 		@Index(columnList = "solar_system_solar_system_id") })
 @Data

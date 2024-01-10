@@ -15,7 +15,7 @@ public interface SolarSystemRepository extends JpaRepository<SolarSystem, Intege
 select
 	sg.destination.solarSystem
 from
-	Stargate sg
+	SdeUniverseStargate sg
 where
 	sg.solarSystem=:source
 """)

@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.mer;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.InputStream;
-import java.net.URL;
+import java.net.URI;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
@@ -22,7 +22,9 @@ import fr.lelouet.tools.application.xdg.XDGApp;
  */
 public class MerLoader {
 
-	public static final LocalDate DATE_DEFAULTSTART = LocalDate.of(2015, 8, 1);
+	static final LocalDate DATE_DEFAULTSTART = LocalDate.of(2015, 8, 1);
+
+	public static final MerLoader INSTANCE = new MerLoader();
 
 	//
 	// There are several formats for a MER URL. We check each of them and return
@@ -150,9 +152,9 @@ public class MerLoader {
 	}
 
 	public static String unpackUrl(String url, File outDir) {
-		System.out.println("unpack " + url + " in " + outDir.getAbsolutePath());
+// System.out.println("unpack " + url + " in " + outDir.getAbsolutePath());
 		try {
-			InputStream is = new URL(url).openStream();
+			InputStream is = new URI(url).toURL().openStream();
 			ZipEntry e;
 			try (ZipInputStream zis = new ZipInputStream(is)) {
 				while ((e = zis.getNextEntry()) != null) {

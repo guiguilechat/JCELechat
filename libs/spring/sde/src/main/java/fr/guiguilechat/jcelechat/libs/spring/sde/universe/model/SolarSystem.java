@@ -10,7 +10,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-@Entity
+@Entity(name = "SdeUniverseSolarSystem")
 @Table(name = "sde_universe_solarsystem", indexes = {
 		@Index(columnList = "constellation_constellation_id") })
 @Data
@@ -24,7 +24,9 @@ public class SolarSystem {
 
 	private String name;
 
-	private double security;
+	private double security, radius;
+
+	private double centerX, centerY, centerZ, minX, minY, minZ, maxX, maxY, maxZ;
 
 	@ManyToOne
 	private Constellation constellation;
@@ -33,8 +35,18 @@ public class SolarSystem {
 			String name, Constellation constel) {
 		SolarSystemBuilder builder = SolarSystem.builder();
 		builder
+				.centerX(source.center.x())
+				.centerY(source.center.y())
+				.centerZ(source.center.z())
 				.constellation(constel)
+				.minX(source.min.x())
+				.minY(source.min.y())
+				.minZ(source.min.z())
+				.maxX(source.max.x())
+				.maxY(source.max.y())
+				.maxZ(source.max.z())
 				.name(name)
+				.radius(source.radius)
 				.security(source.security)
 				.solarSystemId(source.solarSystemID);
 		return builder.build();

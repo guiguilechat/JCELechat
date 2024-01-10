@@ -9,7 +9,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-@Entity
+@Entity(name = "SdeUniverseRegion")
 @Table(name = "sde_universe_region", indexes = {
 		@Index(columnList = "universe")
 // , @Index(columnList = "faction_id")
