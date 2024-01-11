@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mvn clean install\
+mvn clean package\
 && curl -X PUT --upload-file target/EveHistory.war --basic -u admin:admin 'http://127.0.0.1:48080/manager/text/deploy?path=/EveHistory&update=true'

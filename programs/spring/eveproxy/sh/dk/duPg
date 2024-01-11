@@ -1,0 +1,4 @@
+#!/bin/bash
+# get the disk usage of the postgres docker
+
+docker exec -ti eveproxy-postgres du -sh /var

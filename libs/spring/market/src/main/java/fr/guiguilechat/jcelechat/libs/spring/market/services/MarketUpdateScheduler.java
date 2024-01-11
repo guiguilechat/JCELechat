@@ -30,7 +30,7 @@ public class MarketUpdateScheduler {
 		log.info("updating markets");
 		List<ObservedRegion> active = orService.listActive();
 		Map<ObservedRegion, CompletableFuture<Void>> futures = active.stream()
-				.collect(Collectors.toMap(r -> r, r -> mService.updateLines(r).orTimeout(2, TimeUnit.MINUTES)));
+				.collect(Collectors.toMap(r -> r, r -> mService.updateLines(r).orTimeout(3, TimeUnit.MINUTES)));
 		futures.entrySet().forEach(f -> {
 			try {
 				f.getValue().join();

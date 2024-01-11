@@ -44,12 +44,17 @@ public class MarketUpdateService {
 		long retrievedMs = System.currentTimeMillis();
 		if (newLines != null) {
 			lService.clearRegion(region);
+			long postClearMs = System.currentTimeMillis();
 			lService.saveAll(newLines);
+			long postSaveMs = System.currentTimeMillis();
 			orService.save(region);
 			long endMs = System.currentTimeMillis();
-			log.info(" updated market for region " + region.getRegionId() + " for " + newLines.size() + " lines fetch="
-					+ Math.ceil(0.001 * (retrievedMs - startMs)) + "s save="
-					+ Math.ceil(0.001 * (endMs - retrievedMs)) + "s");
+			log.info(" updated market for region " + region.getRegionId()
+					+ " for " + newLines.size() + " lines"
+					+ " fetch=" + (int) Math.ceil(0.001 * (retrievedMs - startMs)) + "s"
+					+ " clearlines=" + (int) Math.ceil(0.001 * (postClearMs - retrievedMs)) + "s"
+					+ " savelines=" + (int) Math.ceil(0.001 * (postSaveMs - postClearMs)) + "s"
+					+ " save=" + (int) Math.ceil(0.001 * (endMs - postSaveMs)) + "s");
 		}
 		return CompletableFuture.completedFuture(null);
 	}

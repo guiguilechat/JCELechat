@@ -1,0 +1,6 @@
+#!/bin/bash
+# deploy to the tomcat specified in the remote fold.
+
+source $HOME/.cfg/EveProxy/remote.cfg\
+&& reset\
+&& ssh $RMT_SSH tail -n +1 -f /var/log/tomcat10/catalina.out

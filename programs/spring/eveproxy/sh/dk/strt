@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker compose -f docker/postgres/docker-compose.yml up -d --build --pull always --remove-orphans

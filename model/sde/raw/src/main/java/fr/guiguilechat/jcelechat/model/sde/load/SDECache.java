@@ -36,11 +36,13 @@ import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.lelouet.tools.application.xdg.XDGApp;
 import lombok.Getter;
 import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * store the SDE locally
  *
  */
+@Slf4j
 public class SDECache {
 
 	private static final Logger logger = LoggerFactory.getLogger(SDECache.class);
@@ -278,6 +280,10 @@ public class SDECache {
 		}
 		try {
 			zipCacheDir().mkdirs();
+			if (!zipCacheDir().isDirectory()) {
+				log.error("can't create dir " + zipCacheDir().getAbsolutePath());
+				return null;
+			}
 			zipTemp().delete();
 			downloadSDE(url, zipTemp());
 			zipTemp().renameTo(zipTarget());

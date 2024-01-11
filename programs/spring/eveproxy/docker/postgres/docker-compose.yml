@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+   postgres:
+      container_name: eveproxy-postgres
+      image: 'postgres:16.0-alpine'
+      environment:
+         - POSTGRES_USER=eveproxy
+         - POSTGRES_PASSWORD=eveproxy
+      ports:
+         - "45432:5432"
+      restart: unless-stopped
+   tomcat:
+      build: ./tomcat
+      container_name: eveproxy-tomcat
+      depends_on:
+         - postgres
+      environment:
+         - SPRING_DATASOURCE_PASSWORD=eveproxy
+         - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/eveproxy
+         - SPRING_DATASOURCE_USERNAME=eveproxy
+         - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+         - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
+         - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
+         - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
+ #        - SPRING_TASK_SCHEDULING_POOL_SIZE=10 # allow 10 parrallel @scheduled execution
+      image: eveproxy/tomcat
+      ports:
+         - "58080:8080"
+      restart: unless-stopped

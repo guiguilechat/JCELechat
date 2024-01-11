@@ -31,7 +31,7 @@ public class LineService {
 		repo.deleteByRegion(region);
 	}
 
-	static final long JITAIV_ID = 60003760;
+	public static final long JITAIV_ID = 60003760;
 
 	/**
 	 * @return existing lines for those parameters, ordered by price asc
