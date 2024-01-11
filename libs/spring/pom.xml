@@ -16,4 +16,20 @@
 	<modules>
 		<module>sde</module>
 	</modules>
+	<profiles>
+		<profile>
+			<id>skipDeployPom</id>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-deploy-plugin</artifactId>
+						<configuration>
+							<skip>true</skip>
+						</configuration>
+						<inherited>false</inherited>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 </project>
