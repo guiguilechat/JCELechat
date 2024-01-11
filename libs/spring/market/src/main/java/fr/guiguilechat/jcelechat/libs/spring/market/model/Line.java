@@ -6,6 +6,8 @@ import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
@@ -24,6 +26,7 @@ import lombok.RequiredArgsConstructor;
 public class Line {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 
 	/**
@@ -41,7 +44,6 @@ public class Line {
 	private Instant issuedDate;
 
 	public void affectFields() {
-		setId(getOrder().order_id);
 		if (getIssuedDate() == null) {
 			if (getOrder().issued != null) {
 				setIssuedDate(ESITools.convertDate(getOrder().issued).toInstant());

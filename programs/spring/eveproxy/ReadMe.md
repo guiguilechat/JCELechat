@@ -88,7 +88,7 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/eveproxy
 spring.datasource.username=eveproxy
 spring.jpa.hibernate.ddl-auto=update
 #spring.jpa.properties.hibernate.generate_statistics=true
-spring.jpa.properties.hibernate.jdbc.batch_size=500
+spring.jpa.properties.hibernate.jdbc.batch_size=50
 spring.jpa.properties.hibernate.jdbc.fetch_size=50
 spring.jpa.properties.hibernate.order_inserts=true
 EOF
