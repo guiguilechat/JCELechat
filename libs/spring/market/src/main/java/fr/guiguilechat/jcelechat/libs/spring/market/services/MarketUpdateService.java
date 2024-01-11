@@ -39,11 +39,17 @@ public class MarketUpdateService {
 	@Async
 	@Transactional
 	public CompletableFuture<Void> updateLines(ObservedRegion region) {
+		long startMs = System.currentTimeMillis();
 		List<Line> newLines = fetchMarketNoDB(region);
+		long retrievedMs = System.currentTimeMillis();
 		if (newLines != null) {
 			lService.clearRegion(region);
 			lService.saveAll(newLines);
 			orService.save(region);
+			long endMs = System.currentTimeMillis();
+			log.info(" updated market for region " + region.getRegionId() + " for " + newLines.size() + " lines fetch="
+					+ Math.ceil(0.001 * (retrievedMs - startMs)) + "s save="
+					+ Math.ceil(0.001 * (endMs - retrievedMs)) + "s");
 		}
 		return CompletableFuture.completedFuture(null);
 	}

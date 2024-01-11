@@ -31,7 +31,7 @@ public class MarketSyncService {
 		List<Region> toObserve = rService.byUniverse("eve").stream().filter(r -> !observed.contains(r.getRegionId()))
 				.toList();
 		if (!toObserve.isEmpty()) {
-			log.info("adding " + toObserve.size() + " new regions to observe");
+			log.info("adding " + toObserve.size() + " new market regions to observe");
 		}
 		for (Region r : toObserve) {
 				orService.activate(r.getRegionId());
