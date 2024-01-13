@@ -24,9 +24,24 @@ public class MarketRestController {
 	@Autowired
 	private LineService lService;
 
-	record TypeMarketDTO(double minSO, long volSO, long volSO1pct, long volSO5pct, double maxBO, long volBO,
+	<T> ResponseEntity<T> makeResponse(T data, Optional<String> accept) {
+		HttpHeaders responseHeaders = new HttpHeaders();
+		switch (accept.orElse("json")) {
+			case "xml":
+				responseHeaders.setContentType(MediaType.APPLICATION_XML);
+			break;
+			case "json":
+			default:
+				responseHeaders.setContentType(MediaType.APPLICATION_JSON);
+			break;
+		}
+		return new ResponseEntity<>(data, responseHeaders, HttpStatus.OK);
+	}
+
+	record TypeMarketStats(double minSO, long volSO, long volSO1pct, long volSO5pct, double maxBO, long volBO,
 			long volBO1pct, long volBO5pct) {
-		static TypeMarketDTO of(List<Line> bos, List<Line> sos) {
+
+		static TypeMarketStats of(List<Line> bos, List<Line> sos) {
 			double so = Double.NaN;
 			long volSO = 0l;
 			long volSO1pct = 0l;
@@ -59,7 +74,7 @@ public class MarketRestController {
 					}
 				}
 			}
-			return new TypeMarketDTO(so, volSO, volSO1pct, volSO5pct, bo, volBO, volBO1pct, volBO5pct);
+			return new TypeMarketStats(so, volSO, volSO1pct, volSO5pct, bo, volBO, volBO1pct, volBO5pct);
 		}
 	}
 
@@ -73,7 +88,7 @@ public class MarketRestController {
 			@RequestParam Optional<String> accept) {
 		List<Line> bos = lService.forRegion(regionId, typeId, true);
 		List<Line> sos = lService.forRegion(regionId, typeId, false);
-		return makeResponse(bos, sos, accept);
+		return makeMarketStatsResponse(bos, sos, accept);
 	}
 
 	@GetMapping("/byLocationId/{locationId}/byTypeId/{typeId}")
@@ -81,23 +96,21 @@ public class MarketRestController {
 			@RequestParam Optional<String> accept) {
 		List<Line> bos = lService.forLocation(locationId, typeId, true);
 		List<Line> sos = lService.forLocation(locationId, typeId, false);
-		return makeResponse(bos, sos, accept);
+		return makeMarketStatsResponse(bos, sos, accept);
 	}
 
-	ResponseEntity<?> makeResponse(List<Line> bos, List<Line> sos, Optional<String> accept) {
-		HttpHeaders responseHeaders = new HttpHeaders();
-		switch (accept.orElse("json")) {
-			case "xml":
-				responseHeaders.setContentType(MediaType.APPLICATION_XML);
-			break;
-			case "json":
-			default:
-				responseHeaders.setContentType(MediaType.APPLICATION_JSON);
-			break;
-		}
-		ResponseEntity<TypeMarketDTO> ret = new ResponseEntity<>(TypeMarketDTO.of(bos, sos), responseHeaders,
-				HttpStatus.OK);
-		return ret;
+	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(List<Line> bos, List<Line> sos, Optional<String> accept) {
+		return makeResponse(TypeMarketStats.of(bos, sos), accept);
+	}
+
+	@GetMapping("/byTypeId/{typeId}/so")
+	public ResponseEntity<?> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+		return makeResponse(lService.sellLocations(typeId), accept);
+	}
+
+	@GetMapping("/byTypeId/{typeId}/bo")
+	public ResponseEntity<?> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+		return makeResponse(lService.buyLocations(typeId), accept);
 	}
 
 }

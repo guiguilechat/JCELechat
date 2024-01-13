@@ -47,4 +47,46 @@ order by
 			@Param("typeId") int typeId,
 			@Param("isBuyOrder") boolean isBuyOrder);
 
+	/**
+	 * @return lines grouped in format (regionId, location_id, min price)
+	 */
+	@Query("""
+select
+	line.region.regionId,
+	line.order.location_id,
+	min(line.order.price)
+from
+	EsiMarketLine line
+where
+	line.order.type_id=:typeId
+	and not line.order.is_buy_order
+group by
+	line.region.regionId,
+	line.order.location_id
+order by
+	min(line.order.price) asc
+""")
+	public List<Object[]> findSellOfferLocations(@Param("typeId") int typeId);
+
+	/**
+	 * @return lines grouped in format (regionId, location_id, max price)
+	 */
+	@Query("""
+select
+	line.region.regionId,
+	line.order.location_id,
+	max(line.order.price)
+from
+	EsiMarketLine line
+where
+	line.order.type_id=:typeId
+	and line.order.is_buy_order
+group by
+	line.region.regionId,
+	line.order.location_id
+order by
+	max(line.order.price) asc
+""")
+	public List<Object[]> findBuyOfferLocations(@Param("typeId") int typeId);
+
 }

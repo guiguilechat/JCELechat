@@ -83,7 +83,9 @@ public class HistoryUpdateService {
 			case 304:
 				req.setNextFetch(Instant.now().plus(5, ChronoUnit.HOURS));
 			break;
-			// happens when the type became unpublished.
+			// 400 happens when the game lists invalid types on the market
+			// 404 happens when the type became unpublished.
+			case 400:
 			case 404:
 				req.setLastError(response.getError());
 				req.setNextFetch(Instant.now().plus(1, ChronoUnit.DAYS));

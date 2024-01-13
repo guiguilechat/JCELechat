@@ -60,4 +60,18 @@ public class LineService {
 		return repo.findByRegionIdAndTypeIdAndIsBuyOrder(regionId, type_id, isBuyOrder);
 	}
 
+	record OfferLocation(int regionId, long locationID, int typeId, double bestPrice) {
+
+	}
+
+	public List<OfferLocation> sellLocations(int typeId) {
+		return repo.findSellOfferLocations(typeId).stream()
+				.map(arr -> new OfferLocation((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
+	}
+
+	public List<OfferLocation> buyLocations(int typeId) {
+		return repo.findBuyOfferLocations(typeId).stream()
+				.map(arr -> new OfferLocation((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
+	}
+
 }
