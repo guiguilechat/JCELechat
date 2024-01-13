@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.market.services;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -20,6 +21,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.Line;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -29,6 +31,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class MarketUpdateService {
+
+	@Autowired
+	private HistoryReqService htService;
 
 	@Autowired
 	private LineService lService;
@@ -48,13 +53,26 @@ public class MarketUpdateService {
 			lService.saveAll(newLines);
 			long postSaveMs = System.currentTimeMillis();
 			orService.save(region);
-			long endMs = System.currentTimeMillis();
-			log.info(" updated market for region " + region.getRegionId()
+			long saveMs = System.currentTimeMillis();
+			List<Integer> missingHistoryTypeIds = htService.findMissingTypeIds(region);
+			long fetchHistoryTypes = System.currentTimeMillis();
+			List<HistoryReq> hts = missingHistoryTypeIds.stream()
+					.map(typeId -> HistoryReq.builder().typeId(typeId).regionId(region.getRegionId()).nextFetch(Instant.now())
+							.build())
+					.toList();
+			if (!hts.isEmpty()) {
+				log.debug("  adding " + hts.size() + " types to monitor history for region " + region.getRegionId());
+			}
+			htService.saveAll(hts);
+			long insertedHistoryTypes = System.currentTimeMillis();
+			log.debug(" updated market for region " + region.getRegionId()
 					+ " for " + newLines.size() + " lines"
 					+ " fetch=" + (int) Math.ceil(0.001 * (retrievedMs - startMs)) + "s"
 					+ " clearlines=" + (int) Math.ceil(0.001 * (postClearMs - retrievedMs)) + "s"
 					+ " savelines=" + (int) Math.ceil(0.001 * (postSaveMs - postClearMs)) + "s"
-					+ " save=" + (int) Math.ceil(0.001 * (endMs - postSaveMs)) + "s");
+					+ " save=" + (int) Math.ceil(0.001 * (saveMs - postSaveMs)) + "s"
+					+ " fetchHT=" + (int) Math.ceil(0.001 * (fetchHistoryTypes - saveMs)) + "s"
+					+ " saveHT=" + (int) Math.ceil(0.001 * (insertedHistoryTypes - fetchHistoryTypes)) + "s");
 		}
 		return CompletableFuture.completedFuture(null);
 	}
@@ -142,7 +160,7 @@ public class MarketUpdateService {
 				.filter(Line::isValid)
 				.toList();
 		long endTime = System.currentTimeMillis();
-		log.info(" fetched for region(" + region.getRegionId() + ") result="
+		log.debug(" fetched for region(" + region.getRegionId() + ") result="
 				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " in "
 				+ (endTime - startTime) + " ms(firstPage=" + (firstPageTime - startTime) + (allPagesTime == null ? ""
 						: " next" + pages + "Pages=" + (allPagesTime - firstPageTime) + " process=" + (endTime - allPagesTime))

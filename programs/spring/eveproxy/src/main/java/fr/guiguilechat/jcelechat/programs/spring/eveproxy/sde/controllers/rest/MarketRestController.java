@@ -65,9 +65,7 @@ public class MarketRestController {
 
 	@GetMapping("/jita/byTypeId/{typeId}")
 	public ResponseEntity<?> jitaByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		List<Line> bos = lService.forJita(typeId, true);
-		List<Line> sos = lService.forJita(typeId, false);
-		return makeResponse(bos, sos, accept);
+		return byLocationByType(LineService.JITAIV_ID, typeId, accept);
 	}
 
 	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}")

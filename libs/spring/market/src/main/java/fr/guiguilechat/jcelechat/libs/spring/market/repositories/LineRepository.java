@@ -13,6 +13,7 @@ public interface LineRepository extends JpaRepository<Line, Long> {
 
 	public int deleteByRegion(ObservedRegion region);
 
+	// need to query since fields with _ that can't be used in jpa
 	@Query("""
 select line
 from
@@ -29,6 +30,7 @@ order by
 			@Param("typeId") int typeId,
 			@Param("isBuyOrder") boolean isBuyOrder);
 
+	// need to query since fields with _ that can't be used in jpa
 	@Query("""
 select line
 from

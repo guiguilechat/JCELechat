@@ -66,7 +66,7 @@ public class SDEUpdateService {
 		Instant fetchedDate = Instant.now();
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
 		if(newFile!=null) {
-			log.info("updating DB from SDE file : " + newFile.getAbsolutePath());
+			log.debug("updating DB from SDE file : " + newFile.getAbsolutePath());
 			try {
 				updateFromFile(newFile);
 				ur.setStatus(STATUS.SUCCESS);

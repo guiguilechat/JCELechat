@@ -4,6 +4,9 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.Line;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
@@ -31,25 +34,28 @@ public class LineService {
 		repo.deleteByRegion(region);
 	}
 
+	/** common value to get to get Jita specific orders */
 	public static final long JITAIV_ID = 60003760;
 
-	/**
-	 * @return existing lines for those parameters, ordered by price asc
-	 */
-	public List<Line> forJita(int type_id, boolean isBuyOrder) {
-		return forLocation(JITAIV_ID, type_id, isBuyOrder);
-	}
 
 	/**
-	 * @return existing lines for those parameters, ordered by price asc
+	 * {@link Transactional} to avoid an update altering the lines
+	 * returned mid-query
+	 *
+	 * @return existing lines with given order.locationId , order.type_id , and order.isbuyorder , ordered by price asc
 	 */
+	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<Line> forLocation(long locationId, int type_id, boolean isBuyOrder) {
 		return repo.findByLocationIdAndTypeIdAndIsBuyOrder(locationId, type_id, isBuyOrder);
 	}
 
 	/**
-	 * @return existing lines for those parameters, ordered by price asc
+	 * {@link Transactional} to avoid an update altering the lines
+	 * returned mid-query
+	 *
+	 * @return existing lines with given region.regionId and order.type_id , and order.isbuyorder , ordered by price asc
 	 */
+	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<Line> forRegion(int regionId, int type_id, boolean isBuyOrder) {
 		return repo.findByRegionIdAndTypeIdAndIsBuyOrder(regionId, type_id, isBuyOrder);
 	}
