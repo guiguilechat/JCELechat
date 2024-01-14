@@ -1,6 +1,6 @@
-# Eve History
+# Eve PRoxy
 
-This program fetch Eve data and store the result, allowing historical analysis
+This program uses various Eve libs that fetch and store data into a DB to present them as an API
 
 ## Installation on remote ubuntu server
 
