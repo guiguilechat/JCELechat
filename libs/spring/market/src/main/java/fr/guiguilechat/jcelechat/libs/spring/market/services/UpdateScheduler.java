@@ -72,7 +72,7 @@ public class UpdateScheduler {
 		});
 		long endMs = System.currentTimeMillis();
 		log.info(" updated " + requests.size() + " histories"
-				+ " list=" + (int) Math.ceil(0.001 * (listMs - startMs)) + "s"
-				+ " update=" + (int) Math.ceil(0.001 * (endMs - listMs)) + "s");
+				+ " list=" + (listMs - startMs) + "ms"
+				+ " update=" + (endMs - listMs) + "ms");
 	}
 }

@@ -42,6 +42,8 @@ public class HistoryReq {
 	 */
 	private Instant nextFetch;
 
+	private Instant lastFetch;
+
 	/**
 	 * message of the last error retrieved (so response not in (200, 304)
 	 */

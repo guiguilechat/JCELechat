@@ -65,8 +65,12 @@ public class HistoryUpdateService {
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
+		req.setLastFetch(Instant.now());
 		Requested<R_get_markets_region_id_history[]> response = ESIStatic.INSTANCE.get_markets_history(req.getRegionId(),
 				req.getTypeId(), properties);
+
+		// add a random 0-2 hours (granularity minute) to the next fetch
+		Instant nextFetchRan = Instant.now().plus((int) (Math.random() * 2 * 60), ChronoUnit.MINUTES);
 		R_get_markets_region_id_history[] ret = null;
 		switch (response.getResponseCode()) {
 			case 200:
@@ -74,28 +78,35 @@ public class HistoryUpdateService {
 				if (ret == null) {
 					ret=new R_get_markets_region_id_history[] {};
 				}
+				Instant.ofEpochMilli(response.getExpiresS());
 				log.debug(
 						" retrieved " + ret.length + " history data for region=" + req.getRegionId() + " type=" + req.getTypeId());
 				req.setLastEtag(response.getETag());
-				req.setNextFetch(Instant.now().plus(5, ChronoUnit.HOURS));
+				Instant expires = response.getExpiresInstant();
+				if (expires == null) {
+					expires = nextFetchRan.plus(12, ChronoUnit.HOURS);
+				}
+				req.setNextFetch(expires);
 			break;
 			// got a cache hit
 			case 304:
-				req.setNextFetch(Instant.now().plus(5, ChronoUnit.HOURS));
+				req.setNextFetch(nextFetchRan.plus(10, ChronoUnit.HOURS));
 			break;
 			// 400 happens when the game lists invalid types on the market
 			// 404 happens when the type became unpublished.
 			case 400:
 			case 404:
 				req.setLastError(response.getError());
-				req.setNextFetch(Instant.now().plus(1, ChronoUnit.DAYS));
+				req.setNextFetch(nextFetchRan.plus(1, ChronoUnit.DAYS));
 				ret = new R_get_markets_region_id_history[] {};
 			break;
+			// 503 happens at DT
+			// 504 randomly
 			default:
 				req.setLastError(response.getError());
 				log.error("when fetching history region=" + req.getRegionId() + " type=" + req.getTypeId() + " : "
 						+ response.getError());
-				req.setNextFetch(Instant.now().plus(5, ChronoUnit.MINUTES));
+				req.setNextFetch(nextFetchRan.plus(1, ChronoUnit.HOURS));
 		}
 		if (ret == null) {
 			log.debug("return null for region" + req.getRegionId() + " type=" + req.getTypeId() + " response code"

@@ -1,9 +1,11 @@
 package fr.guiguilechat.jcelechat.jcesi.interfaces;
 
+import java.time.Instant;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 /** holds a response from a request */
 public interface Requested<T> {
@@ -38,7 +40,7 @@ public interface Requested<T> {
 	public Map<String, List<String>> getHeaders();
 
 	/**
-	 * formatter for data provided. all calls must be synchronized !
+	 * formatter for data provided. Thread safe using ZonedDateTime.
 	 */
 	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
 
@@ -53,18 +55,24 @@ public interface Requested<T> {
 
 	/**
 	 * @return the value of expires, converted using
-	 *         {@link ZonedDateTime#toEpochSecond()} ; or 0 if not found
+	 *           {@link Instant#getEpochSecond()}.
 	 */
 	public default long getExpiresS() {
-		String expire = getExpires();
-		if (expire == null) {
-			return 0;
-		}
-		return ZonedDateTime.parse(expire, formatter).toEpochSecond();
+		return getExpiresInstant().getEpochSecond();
 	}
 
 	/**
-	 *
+	 * @return the value of expires, converted to instant;
+	 */
+	public default Instant getExpiresInstant() {
+		String expire = getExpires();
+		if (expire == null) {
+			return Instant.ofEpochSecond(0);
+		}
+		return ZonedDateTime.parse(expire, formatter).toInstant();
+	}
+
+	/**
 	 * @return the Date header, if exists, else null.
 	 */
 	public default String getDate() {
@@ -73,11 +81,29 @@ public interface Requested<T> {
 	}
 
 	/**
+	 * @return the Date header converted to Instant, if exists.
+	 */
+	public default Instant getDateInstant() {
+		String date = getDate();
+		if (date == null) {
+			return null;
+		}
+		return ZonedDateTime.parse(date, formatter).toInstant();
+	}
+
+	/**
+	 * @return The date header converted to instant, if exists, or now.
+	 */
+	public default Instant getDateOrNow() {
+		return Objects.requireNonNullElseGet(getDateInstant(), Instant::now);
+	}
+
+	/**
 	 * extract the cache expire delay from the headers returned by a connection.
 	 * If the headers are missing the data, return 0
 	 *
 	 * @return the long value in milliseconds after which the cache will expire,
-	 *         or 0 if missing any header entries
+	 *           or 0 if missing any header entries
 	 */
 	public default long getCacheExpire() {
 		String expire = getExpires();
