@@ -16,7 +16,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-@Entity
+@Entity(name = "SdeUpdaterResult")
 @Table(name = "sde_updater_updateresult")
 @Data
 @Builder
@@ -42,7 +42,8 @@ public class UpdateResult {
 	public static enum STATUS {
 		FAIL,
 		CACHED,
-		SUCCESS
+		SUCCESS,
+		SUCCESS_NEED_REFETCH
 	}
 
 	@Builder.Default

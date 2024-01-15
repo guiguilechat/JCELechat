@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.repositories.UpdateResultRepository;
+import jakarta.transaction.Transactional;
 
 
 @Service
@@ -15,6 +16,14 @@ public class UpdateResultService {
 
 	@Autowired
 	private UpdateResultRepository repo;
+
+	/**
+	 * consider no previous fetch was performed
+	 */
+	@Transactional
+	public void requireFetch() {
+		repo.changeStatusFromTo(STATUS.SUCCESS, STATUS.SUCCESS_NEED_REFETCH);
+	}
 
 	public boolean alreadyInserted() {
 		return repo.existsByStatus(STATUS.SUCCESS);
