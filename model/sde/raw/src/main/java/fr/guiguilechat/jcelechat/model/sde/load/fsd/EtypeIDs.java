@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -47,37 +49,39 @@ public class EtypeIDs {
 
 	private static LinkedHashMap<Integer, EtypeIDs> cache = null;
 
-	@SuppressWarnings("unchecked")
 	public static synchronized LinkedHashMap<Integer, EtypeIDs> load() {
 		if (cache == null) {
-			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
-
-				@Override
-				protected Construct getConstructor(Node node) {
-					if (node.getNodeId() == NodeId.mapping) {
-						MappingNode mn = (MappingNode) node;
-						if (mn.getValue().size() > 0) {
-							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "groupID".equals(s)).findAny().isPresent()) {
-								node.setType(EtypeIDs.class);
-							}
-						}
-					}
-					Construct ret = super.getConstructor(node);
-					return ret;
-				}
-			};
-			Yaml yaml = SDECache.yaml(cons);
 			try {
-				cache = yaml.loadAs(SDECache.fileReader(FILE),
-						LinkedHashMap.class);
-				// cache = yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
+				cache = from(new FileInputStream(FILE));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
 		return cache;
+	}
+
+	@SuppressWarnings("unchecked")
+	public static LinkedHashMap<Integer, EtypeIDs> from(InputStream is) {
+
+		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
+
+			@Override
+			protected Construct getConstructor(Node node) {
+				if (node.getNodeId() == NodeId.mapping) {
+					MappingNode mn = (MappingNode) node;
+					if (mn.getValue().size() > 0) {
+						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+								.filter("groupID"::equals).findAny().isPresent()) {
+							node.setType(EtypeIDs.class);
+						}
+					}
+				}
+				Construct ret = super.getConstructor(node);
+				return ret;
+			}
+		};
+		Yaml yaml = SDECache.yaml(cons);
+		return yaml.loadAs(is, LinkedHashMap.class);
 	}
 
 	private static final HashMap<Integer, String> ERROR_NAMES = new HashMap<>();
@@ -97,6 +101,7 @@ public class EtypeIDs {
 
 	public float basePrice;
 	public float capacity;
+	/** key is language short, like "en" */
 	public HashMap<String, String> description = new HashMap<>();
 	public int factionID;
 	public int graphicID;
@@ -104,8 +109,10 @@ public class EtypeIDs {
 	public int iconID;
 	public int marketGroupID;
 	public float mass;
+	/** key is mastery level, value is the list of ?? id */
 	public HashMap<Integer, List<Integer>> masteries = new HashMap<>();
 	public int metaGroupID;
+	/** key is language short, like "en" */
 	public HashMap<String, String> name = new HashMap<>();
 	public int portionSize;
 	public boolean published;
@@ -130,6 +137,10 @@ public class EtypeIDs {
 			ret = "unnamed_g" + groupID + "_ic" + iconID;
 		}
 		return ret;
+	}
+
+	public static void main(String[] args) {
+		System.out.println("loaded " + load().size() + " types");
 	}
 
 }

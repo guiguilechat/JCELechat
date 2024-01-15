@@ -1,9 +1,10 @@
 package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.Collections;
+import java.io.InputStream;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -27,36 +28,39 @@ public class EdogmaAttributes {
 
 	private static Map<Integer, EdogmaAttributes> cache;
 
-	@SuppressWarnings("unchecked")
 	public static synchronized Map<Integer, EdogmaAttributes> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
-			Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
-
-				@Override
-				protected Construct getConstructor(Node node) {
-					if (node.getNodeId() == NodeId.mapping) {
-						MappingNode mn = (MappingNode) node;
-						if (mn.getValue().size() > 0) {
-							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "attributeID".equals(s)).findAny().isPresent()) {
-								node.setType(EdogmaAttributes.class);
-							}
-						}
-					}
-					Construct ret = super.getConstructor(node);
-					return ret;
-				}
-			};
-			Yaml yaml = new Yaml(cons);
 			try {
-				cache = Collections
-						.unmodifiableMap((Map<Integer, EdogmaAttributes>) yaml.loadAs(new FileReader(FILE), LinkedHashMap.class));
+				cache = from(new FileInputStream(FILE));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
 		return cache;
+	}
+
+	@SuppressWarnings("unchecked")
+	public static LinkedHashMap<Integer, EdogmaAttributes> from(InputStream is) {
+		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
+
+			@Override
+			protected Construct getConstructor(Node node) {
+				if (node.getNodeId() == NodeId.mapping) {
+					MappingNode mn = (MappingNode) node;
+					if (mn.getValue().size() > 0) {
+						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+								.filter("attributeID"::equals).findAny().isPresent()) {
+							node.setType(EdogmaAttributes.class);
+						}
+					}
+				}
+				Construct ret = super.getConstructor(node);
+				return ret;
+			}
+		};
+		Yaml yaml = SDECache.yaml(cons);
+		return yaml.loadAs(is, LinkedHashMap.class);
 	}
 
 	public int attributeID;
@@ -65,7 +69,7 @@ public class EdogmaAttributes {
 	public int dataType;
 	public float defaultValue;
 	public String description;
-	public Object displayNameID;
+	public Map<String, String> displayNameID = new HashMap<>();
 	public boolean displayWhenZero;
 	public boolean highIsGood;
 	public int iconID;
@@ -73,12 +77,12 @@ public class EdogmaAttributes {
 	public String name;
 	public boolean published;
 	public boolean stackable;
-	public Object tooltipDescriptionID;
-	public Object tooltipTitleID;
-	public int unitID;
+	public Map<String, String> tooltipDescriptionID = new HashMap<>();
+	public Map<String, String> tooltipTitleID = new HashMap<>();
+	public Integer unitID;
 
 	public static void main(String[] args) {
-		load();
+		System.out.println("loaded " + load().size() + " attributes");
 	}
 
 }
