@@ -18,8 +18,8 @@ public class RegionService {
 		repo.deleteAll();
 	}
 
-	public void saveAll(Iterable<Region> entities) {
-		repo.saveAll(entities);
+	public List<Region> saveAll(Iterable<Region> entities) {
+		return repo.saveAll(entities);
 	}
 
 	public List<Region> byUniverse(String universe) {

@@ -18,8 +18,8 @@ public class SolarSystemService {
 		repo.deleteAll();
 	}
 
-	public void saveAll(Iterable<SolarSystem> entities) {
-		repo.saveAll(entities);
+	public List<SolarSystem> saveAll(Iterable<SolarSystem> entities) {
+		return repo.saveAll(entities);
 	}
 
 	public SolarSystem findById(int solarSystemId) {

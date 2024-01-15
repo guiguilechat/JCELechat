@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,8 +18,8 @@ public class ConstellationService {
 		repo.deleteAll();
 	}
 
-	public void saveAll(Iterable<Constellation> entities) {
-		repo.saveAll(entities);
+	public List<Constellation> saveAll(Iterable<Constellation> entities) {
+		return repo.saveAll(entities);
 	}
 
 }

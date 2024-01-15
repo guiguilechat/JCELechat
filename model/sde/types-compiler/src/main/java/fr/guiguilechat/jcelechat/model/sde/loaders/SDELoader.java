@@ -80,7 +80,7 @@ public class SDELoader {
 			if (etd.dogmaAttributes != null) {
 				for(EAttributes tatt : etd.dogmaAttributes) {
 					int attId = tatt.attributeID;
-					float value = tatt.value;
+					float value = tatt.value.floatValue();
 					td.definition.put(attId, value);
 					// add the attribute to the list of those with a float value
 					if ((int) value != value) {
