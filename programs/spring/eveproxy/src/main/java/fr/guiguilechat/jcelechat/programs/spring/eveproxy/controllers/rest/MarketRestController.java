@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.sde.controllers.rest;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.util.List;
 import java.util.Optional;

@@ -13,7 +13,8 @@ import lombok.RequiredArgsConstructor;
 
 @Entity(name = "SdeDogmaGroup")
 @Table(name = "sde_dogma_group", indexes = {
-		@Index(columnList = "name") })
+		@Index(columnList = "name"),
+		@Index(columnList = "category_category_id") })
 @Data
 @Builder
 @RequiredArgsConstructor

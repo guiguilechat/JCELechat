@@ -4,6 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +12,8 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity(name = "SdeDogmaAttribute")
-@Table(name = "sde_dogma_attribute")
+@Table(name = "sde_dogma_attribute", indexes = {
+		@Index(columnList = "name") })
 @Data
 @Builder
 @RequiredArgsConstructor

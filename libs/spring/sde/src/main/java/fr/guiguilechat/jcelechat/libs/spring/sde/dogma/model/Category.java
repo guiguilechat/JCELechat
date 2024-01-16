@@ -13,10 +13,8 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity(name = "SdeDogmaCategory")
-@Table(name = "sde_dogma_category"
-		, indexes = {
-				@Index(columnList = "name") }
-)
+@Table(name = "sde_dogma_category", indexes = {
+		@Index(columnList = "name") })
 @Data
 @Builder
 @RequiredArgsConstructor
@@ -30,7 +28,6 @@ public class Category {
 	// only save the english name. Maybe should make another table ? not sure.
 	private String name;
 	private boolean published;
-
 
 	public static Category from(int id, EcategoryIDs from) {
 		return Category.builder()
