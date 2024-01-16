@@ -24,7 +24,13 @@ public class MarketRestController {
 	@Autowired
 	private RegionLineService rlService;
 
-	<T> ResponseEntity<T> makeResponse(T data, Optional<String> accept) {
+	/**
+	 * presents data as a response depending on the accept value.
+	 *
+	 * @return a new responsentity with data provided, and content Type matching the
+	 *           accept if provided. Default is json.
+	 */
+	static <T> ResponseEntity<T> makeResponse(T data, Optional<String> accept) {
 		HttpHeaders responseHeaders = new HttpHeaders();
 		switch (accept.orElse("json")) {
 			case "xml":
@@ -38,8 +44,19 @@ public class MarketRestController {
 		return new ResponseEntity<>(data, responseHeaders, HttpStatus.OK);
 	}
 
-	record TypeMarketStats(double minSO, long volSO, long volSO1pct, long volSO5pct, double maxBO, long volBO,
-			long volBO1pct, long volBO5pct) {
+	record OffersStat(
+			/** best price offered for the type */
+			double best,
+			/** total volume or orders available */
+			long volume,
+			/** volume of orders with price around 1% of the best */
+			long vol1pc,
+			/** volume of orders with price around 5% of best */
+			long vol5pc) {
+
+	}
+
+	record TypeMarketStats(OffersStat sell, OffersStat buy) {
 
 		static TypeMarketStats of(List<RegionLine> bos, List<RegionLine> sos) {
 			double so = Double.NaN;
@@ -58,6 +75,7 @@ public class MarketRestController {
 					}
 				}
 			}
+			OffersStat soStats = new OffersStat(so, volSO, volSO1pct, volSO5pct);
 			double bo = Double.NaN;
 			long volBO = 0l;
 			long volBO1pct = 0l;
@@ -74,7 +92,8 @@ public class MarketRestController {
 					}
 				}
 			}
-			return new TypeMarketStats(so, volSO, volSO1pct, volSO5pct, bo, volBO, volBO1pct, volBO5pct);
+			OffersStat boStats = new OffersStat(bo, volBO, volBO1pct, volBO5pct);
+			return new TypeMarketStats(soStats, boStats);
 		}
 	}
 
