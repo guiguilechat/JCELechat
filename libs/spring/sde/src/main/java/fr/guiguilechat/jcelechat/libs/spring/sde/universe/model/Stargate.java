@@ -20,31 +20,29 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 public class Stargate {
 
+	@OneToOne
+	private Stargate destination;
+	@ManyToOne
+	private SolarSystem solarSystem;
 	@Id
 	private int stargateId;
 
-	@OneToOne
-	private Stargate destination;
-
-	@ManyToOne
-	private SolarSystem solarSystem;
-
-	private double posX, posY, posZ;
-
+	private double position_x;
+	private double position_y;
+	private double position_z;
 	// TODO use types later
 	private int typeId;
 
 	public static Stargate from(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Stargate stargate,
 			int stargateId, SolarSystem solarSystem) {
-		StargateBuilder builder = Stargate.builder();
-		builder
-				.posX(stargate.position.x())
-				.posY(stargate.position.y())
-				.posZ(stargate.position.z())
+		return Stargate.builder()
 				.solarSystem(solarSystem)
+				.position_x(stargate.position.x())
+				.position_y(stargate.position.y())
+				.position_z(stargate.position.z())
 				.stargateId(stargateId)
-				.typeId(stargate.typeID);
-		return builder.build();
+				.typeId(stargate.typeID)
+		.build();
 	}
 
 }

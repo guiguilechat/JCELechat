@@ -22,8 +22,8 @@ import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
-import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
@@ -36,7 +36,7 @@ public class MarketUpdateService {
 	private HistoryReqService htService;
 
 	@Autowired
-	private LineService lService;
+	private RegionLineService rlService;
 
 	@Autowired
 	private ObservedRegionService orService;
@@ -48,9 +48,9 @@ public class MarketUpdateService {
 		List<RegionLine> newLines = fetchMarketNoDB(region);
 		long retrievedMs = System.currentTimeMillis();
 		if (newLines != null) {
-			lService.clearRegion(region);
+			rlService.clearRegion(region);
 			long postClearMs = System.currentTimeMillis();
-			lService.saveAll(newLines);
+			rlService.saveAll(newLines);
 			long postSaveMs = System.currentTimeMillis();
 			orService.save(region);
 			long saveMs = System.currentTimeMillis();

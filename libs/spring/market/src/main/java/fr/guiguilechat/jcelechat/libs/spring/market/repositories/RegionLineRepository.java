@@ -6,10 +6,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 
-public interface LineRepository extends JpaRepository<RegionLine, Long> {
+public interface RegionLineRepository extends JpaRepository<RegionLine, Long> {
 
 	public int deleteByRegion(ObservedRegion region);
 
@@ -17,7 +17,7 @@ public interface LineRepository extends JpaRepository<RegionLine, Long> {
 	@Query("""
 select line
 from
-	EsiMarketLine line
+	EsiMarketRegionLine line
 where
 	line.order.location_id=:locationId
 	and line.order.type_id=:typeId
@@ -34,7 +34,7 @@ order by
 	@Query("""
 select line
 from
-	EsiMarketLine line
+	EsiMarketRegionLine line
 where
 	line.region.regionId=:regionId
 	and line.order.type_id=:typeId
@@ -56,7 +56,7 @@ select
 	line.order.location_id,
 	min(line.order.price)
 from
-	EsiMarketLine line
+	EsiMarketRegionLine line
 where
 	line.order.type_id=:typeId
 	and not line.order.is_buy_order
@@ -77,7 +77,7 @@ select
 	line.order.location_id,
 	max(line.order.price)
 from
-	EsiMarketLine line
+	EsiMarketRegionLine line
 where
 	line.order.type_id=:typeId
 	and line.order.is_buy_order

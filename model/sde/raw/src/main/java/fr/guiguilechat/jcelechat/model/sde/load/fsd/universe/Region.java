@@ -12,9 +12,11 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 public class Region {
 	public LinkedHashMap<String, Constellation> constellations = new LinkedHashMap<>();
 
-	public Position center, min, max;
+	public Position center;
 	public int descriptionID;
 	public int factionID;
+	public Position min;
+	public Position max;
 	public int nameID;
 	public int nebula;
 	public int regionID;

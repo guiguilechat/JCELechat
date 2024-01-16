@@ -15,14 +15,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.LineService;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 
 @RestController
 @RequestMapping("/api/market")
 public class MarketRestController {
 
 	@Autowired
-	private LineService lService;
+	private RegionLineService rlService;
 
 	<T> ResponseEntity<T> makeResponse(T data, Optional<String> accept) {
 		HttpHeaders responseHeaders = new HttpHeaders();
@@ -80,22 +80,22 @@ public class MarketRestController {
 
 	@GetMapping("/jita/byTypeId/{typeId}")
 	public ResponseEntity<?> jitaByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		return byLocationByType(LineService.JITAIV_ID, typeId, accept);
+		return byLocationByType(RegionLineService.JITAIV_ID, typeId, accept);
 	}
 
 	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}")
 	public ResponseEntity<?> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
-		List<RegionLine> bos = lService.forRegion(regionId, typeId, true);
-		List<RegionLine> sos = lService.forRegion(regionId, typeId, false);
+		List<RegionLine> bos = rlService.forRegion(regionId, typeId, true);
+		List<RegionLine> sos = rlService.forRegion(regionId, typeId, false);
 		return makeMarketStatsResponse(bos, sos, accept);
 	}
 
 	@GetMapping("/byLocationId/{locationId}/byTypeId/{typeId}")
 	public ResponseEntity<?> byLocationByType(@PathVariable long locationId, @PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
-		List<RegionLine> bos = lService.forLocation(locationId, typeId, true);
-		List<RegionLine> sos = lService.forLocation(locationId, typeId, false);
+		List<RegionLine> bos = rlService.forLocation(locationId, typeId, true);
+		List<RegionLine> sos = rlService.forLocation(locationId, typeId, false);
 		return makeMarketStatsResponse(bos, sos, accept);
 	}
 
@@ -105,12 +105,12 @@ public class MarketRestController {
 
 	@GetMapping("/byTypeId/{typeId}/so")
 	public ResponseEntity<?> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		return makeResponse(lService.sellLocations(typeId), accept);
+		return makeResponse(rlService.sellLocations(typeId), accept);
 	}
 
 	@GetMapping("/byTypeId/{typeId}/bo")
 	public ResponseEntity<?> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		return makeResponse(lService.buyLocations(typeId), accept);
+		return makeResponse(rlService.buyLocations(typeId), accept);
 	}
 
 }

@@ -10,13 +10,13 @@ import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
-import fr.guiguilechat.jcelechat.libs.spring.market.repositories.LineRepository;
+import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionLineRepository;
 
 @Service
-public class LineService {
+public class RegionLineService {
 
 	@Autowired
-	private LineRepository repo;
+	private RegionLineRepository repo;
 
 	public RegionLine save(RegionLine entity) {
 		entity.affectFields();

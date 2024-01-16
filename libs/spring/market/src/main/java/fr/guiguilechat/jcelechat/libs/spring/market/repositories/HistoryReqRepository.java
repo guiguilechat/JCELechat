@@ -14,7 +14,7 @@ public interface HistoryReqRepository extends JpaRepository<HistoryReq, Long> {
 select
 	distinct(line.order.type_id)
 from
-	EsiMarketLine line
+	EsiMarketRegionLine line
 where
 	line.region.regionId=:regionId
 	and line.order.type_id not in (select typeId from EsiMarketHistoryReq where regionId=:regionId)

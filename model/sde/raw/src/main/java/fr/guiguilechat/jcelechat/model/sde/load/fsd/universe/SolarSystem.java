@@ -12,32 +12,33 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class SolarSystem {
 
+	public boolean border = false;
 	public Position center ;
-	public Position max ;
+	public boolean corridor = false;
+	public int descriptionID;
+	public ArrayList<Integer> disallowedAnchorCategories = new ArrayList<>();
+	public ArrayList<Integer> disallowedAnchorGroups = new ArrayList<>();
+	public int factionID;
+	public boolean fringe = false;
+	public boolean hub = false;
+	public boolean international = false;
+	public Position max;
 	public Position min;
-	public double radius;
 	public double luminosity;
+	public LinkedHashMap<Long, Planet> planets = new LinkedHashMap<>();
+	public double radius;
+	public boolean regional = false;
+	// for wormhole only ?
+	public SecondarySun secondarySun;
 	public double security;
 	public String securityClass;
 	public int solarSystemID;
 	public int solarSystemNameID;
-	public int descriptionID;
-	public int wormholeClassID;
-	public int factionID;
-
-	public boolean border = false;
-	public boolean corridor = false;
-	public boolean fringe = false;
-	public boolean hub = false;
-	public boolean international = false;
-	public boolean regional = false;
-
-	public ArrayList<Integer> disallowedAnchorCategories = new ArrayList<>();
-	public ArrayList<Integer> disallowedAnchorGroups = new ArrayList<>();
-
-	// for wormhole only ?
-	public SecondarySun secondarySun;
+	public Object star;
+	public LinkedHashMap<Integer, Stargate> stargates = new LinkedHashMap<>();
+	public int sunTypeID;
 	public String visualEffect;
+	public int wormholeClassID;
 
 	public static class Planet {
 		public int typeID, celestialIndex, radius;
@@ -100,17 +101,6 @@ public class SolarSystem {
 		public Object statistics;
 	}
 
-	public LinkedHashMap<Long, Planet> planets = new LinkedHashMap<>();
-	public Object star;
-	public int sunTypeID;
-	public LinkedHashMap<Integer, Stargate> stargates = new LinkedHashMap<>();
-
-	public double furthestCelestialAU() {
-		return planets.values().stream()
-				.flatMap(p -> Stream.concat(Stream.of(p.position), p.moons.values().stream().map(m -> m.position)))
-				.mapToDouble(Position::distanceFromOriginInAU).max().orElse(0.0);
-	}
-
 	public static class Stargate {
 		public int destination;
 		public Position position;
@@ -122,6 +112,12 @@ public class SolarSystem {
 		public int itemID;
 		public Position position;
 		public int typeID;
+	}
+
+	public double furthestCelestialAU() {
+		return planets.values().stream()
+				.flatMap(p -> Stream.concat(Stream.of(p.position), p.moons.values().stream().map(m -> m.position)))
+				.mapToDouble(Position::distanceFromOriginInAU).max().orElse(0.0);
 	}
 
 	public static SolarSystem load(File systemDir) {

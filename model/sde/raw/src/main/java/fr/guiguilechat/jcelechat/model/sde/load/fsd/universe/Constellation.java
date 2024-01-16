@@ -18,11 +18,13 @@ public class Constellation {
 
 	public LinkedHashMap<String, SolarSystem> systems = new LinkedHashMap<>();
 
-	public Position center, min, max;
-	public int nameID;
+	public Position center;
 	public int constellationID;
-	public double radius;
 	public int factionID;
+	public Position max;
+	public Position min;
+	public int nameID;
+	public double radius;
 	public int wormholeClassID;
 
 	public static Constellation load(File contellationDir) {
