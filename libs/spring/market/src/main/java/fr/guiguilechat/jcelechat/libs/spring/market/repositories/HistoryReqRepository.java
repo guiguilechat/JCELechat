@@ -21,11 +21,11 @@ where
 """)
 	public List<Integer> findMissingTypesForRegion(int regionId);
 
-	public List<HistoryReq> findTop100ByNextFetchLessThanOrderByNextFetch(Instant maxNextFetch);
+	public List<HistoryReq> findTop100ByNextFetchLessThanOrderByNextFetchAscRegionIdAscTypeIdAsc(Instant maxNextFetch);
 
-	public List<HistoryReq> findTop310ByNextFetchLessThanOrderByNextFetch(Instant maxNextFetch);
+	public List<HistoryReq> findTop310ByNextFetchLessThanOrderByNextFetchAscRegionIdAscTypeIdAsc(Instant maxNextFetch);
 
-	public List<HistoryReq> findTop1000ByNextFetchLessThanOrderByNextFetch(Instant maxNextFetch);
+	public List<HistoryReq> findTop1000ByNextFetchLessThanOrderByNextFetchAscRegionIdAscTypeIdAsc(Instant maxNextFetch);
 
 	public long countByNextFetchLessThan(Instant maxNextFetch);
 

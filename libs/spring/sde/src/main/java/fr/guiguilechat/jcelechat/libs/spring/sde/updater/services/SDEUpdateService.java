@@ -36,10 +36,12 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Stargate;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.ConstellationService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STATUS;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
@@ -48,6 +50,9 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Moon;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.NPCStation;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Planet;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 
@@ -56,34 +61,37 @@ import lombok.extern.slf4j.Slf4j;
 public class SDEUpdateService {
 
 	@Autowired
-	private AttributeService atService;
+	private AttributeService attributeService;
 
 	@Autowired
-	private CategoryService caService;
+	private CategoryService categoryService;
 
 	@Autowired
-	private ConstellationService coService;
+	private ConstellationService constellationService;
 
 	@Autowired
-	private GroupService gService;
+	private GroupService groupService;
 
 	@Autowired
-	private RegionService rService;
+	private RegionService regionService;
 
 	@Autowired
-	private SolarSystemService ssService;
+	private SolarSystemService solarsystemService;
 
 	@Autowired
 	private StargateService stargateService;
 
 	@Autowired
-	private TypeAttributeService taService;
+	private StationService stationService;
 
 	@Autowired
-	private TypeService tService;
+	private TypeAttributeService typeattributeService;
 
 	@Autowired
-	private UpdateResultService urService;
+	private TypeService typeService;
+
+	@Autowired
+	private UpdateResultService updateresultService;
 
 	@Value("${sde.updater.forcereinsert:false}")
 	private boolean forceReinsert;
@@ -92,7 +100,7 @@ public class SDEUpdateService {
 	public void updateSDE() {
 		Instant startDate = Instant.now();
 		UpdateResult ur = UpdateResult.builder().startedDate(startDate).build();
-		boolean alreadyInserted = urService.alreadyInserted();
+		boolean alreadyInserted = updateresultService.alreadyInserted();
 		File newFile = SDECache.INSTANCE.updateZip(alreadyInserted && !forceReinsert);
 		Instant fetchedDate = Instant.now();
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
@@ -109,7 +117,7 @@ public class SDEUpdateService {
 		}
 		Instant processedDate = Instant.now();
 		ur.setProcessDurationMs(processedDate.toEpochMilli() - fetchedDate.toEpochMilli());
-		urService.save(ur);
+		updateresultService.save(ur);
 	}
 
 	record GroupData(EgroupIDs group, int id) {
@@ -148,6 +156,10 @@ public class SDEUpdateService {
 			int solsysId) {
 	}
 
+	record StationData(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.NPCStation data, int stationId,
+			int solsysId) {
+	}
+
 	static class UpdateContext {
 		public final List<Category> categories = new ArrayList<>();
 		public final List<GroupData> groups = new ArrayList<>();
@@ -158,6 +170,7 @@ public class SDEUpdateService {
 		public final List<ConstelData> constels = new ArrayList<>();
 		public final List<SolarSystemData> systems = new ArrayList<>();
 		public final List<StargateData> stargates = new ArrayList<>();
+		public final List<StationData> stations = new ArrayList<>();
 	}
 
 	protected void updateFromFile(File newFile) throws ZipException, IOException {
@@ -179,26 +192,28 @@ public class SDEUpdateService {
 				+ context.groups.size() + " groups, "
 				+ context.types.size() + " types, "
 				+ context.attributes.size() + " attributes, "
-				+ context.typeAttributes.size() + " typeAttributes, ");
+				+ context.typeAttributes.size() + " typeAttributes");
 		log.info("loaded universe : "
 				+ context.regions.size() + " regions, "
 				+ context.constels.size() + " constellations, "
 				+ context.systems.size() + " solar systems, "
-				+ context.stargates.size() + " stargates");
+				+ context.stargates.size() + " stargates, "
+				+ context.stations.size() + " stations");
 
 		//
 		// clear all
 		//
+		stationService.clear();
 		stargateService.clear();
-		ssService.clear();
-		coService.clear();
-		rService.clear();
+		solarsystemService.clear();
+		constellationService.clear();
+		regionService.clear();
 
-		taService.clear();
-		atService.clear();
-		tService.clear();
-		gService.clear();
-		caService.clear();
+		typeattributeService.clear();
+		attributeService.clear();
+		typeService.clear();
+		groupService.clear();
+		categoryService.clear();
 
 		//
 		// insert
@@ -207,35 +222,35 @@ public class SDEUpdateService {
 
 		// dogma
 
-		Map<Integer, Category> categoriesById = caService.saveAll(context.categories)
+		Map<Integer, Category> categoriesById = categoryService.saveAll(context.categories)
 				.stream().collect(Collectors.toMap(Category::getCategoryId, c -> c));
 
-		Map<Integer, Group> groupsById = gService.saveAll(context.groups.stream()
+		Map<Integer, Group> groupsById = groupService.saveAll(context.groups.stream()
 				.map(gd -> Group.from(gd.id(), gd.group(), categoriesById.get(gd.group().categoryID))).toList())
 				.stream().collect(Collectors.toMap(Group::getGroupId, g -> g));
 
-		Map<Integer, Type> typesById = tService.saveAll(context.types.stream()
+		Map<Integer, Type> typesById = typeService.saveAll(context.types.stream()
 				.map(td -> Type.from(td.id(), td.type(), groupsById.get(td.type().groupID))).toList())
 				.stream().collect(Collectors.toMap(Type::getTypeId, t -> t));
 
-		Map<Integer, Attribute> attributesById = atService.saveAll(context.attributes)
+		Map<Integer, Attribute> attributesById = attributeService.saveAll(context.attributes)
 				.stream().collect(Collectors.toMap(Attribute::getAttributeId, c -> c));
 
-		taService.saveAll(context.typeAttributes.stream()
+		typeattributeService.saveAll(context.typeAttributes.stream()
 				.map(tad -> TypeAttribute.from(typesById.get(tad.typeId()), attributesById.get(tad.attributeId()), tad.value()))
 				.toList());
 
 		// universe
 
-		Map<String, Region> regionByName = rService.saveAll(context.regions.stream()
+		Map<String, Region> regionByName = regionService.saveAll(context.regions.stream()
 				.map(rd -> Region.from(rd.data(), rd.name(), rd.universeName())).toList())
 				.stream().collect(Collectors.toMap(Region::getName, r -> r));
 
-		Map<String, Constellation> constelByName = coService.saveAll(context.constels.stream()
+		Map<String, Constellation> constelByName = constellationService.saveAll(context.constels.stream()
 				.map(cd -> Constellation.from(cd.data(), cd.name(), regionByName.get(cd.regionName()))).toList())
 				.stream().collect(Collectors.toMap(Constellation::getName, c -> c));
 
-		Map<Integer, SolarSystem> sysById = ssService.saveAll(context.systems.stream()
+		Map<Integer, SolarSystem> sysById = solarsystemService.saveAll(context.systems.stream()
 				.map(sd -> SolarSystem.from(sd.data(), sd.name(), constelByName.get(sd.constellationName()))).toList())
 				.stream().collect(Collectors.toMap(SolarSystem::getSolarSystemId, s -> s));
 
@@ -253,6 +268,10 @@ public class SDEUpdateService {
 			}
 		}
 		stargateService.saveAll(sgById.values());
+
+		stationService.saveAll(context.stations.stream()
+				.map(sd -> Station.from(sd.data(), sd.stationId(), sysById.get(sd.solsysId()))).toList());
+
 	}
 
 	static final Pattern ENTRYNAME_SOLARSYSTEM_PATTERN = Pattern.compile(
@@ -369,6 +388,16 @@ public class SDEUpdateService {
 		for (Entry<Integer, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Stargate> sge : ssd
 				.data().stargates.entrySet()) {
 			context.stargates.add(new StargateData(sge.getValue(), sge.getKey(), ssd.data().solarSystemID));
+		}
+		for (Planet p : ssd.data().planets.values()) {
+			for (Entry<Integer, NPCStation> e : p.npcStations.entrySet()) {
+				context.stations.add(new StationData(e.getValue(), e.getKey(), ssd.data.solarSystemID));
+			}
+			for (Moon m : p.moons.values()) {
+				for (Entry<Integer, NPCStation> e : m.npcStations.entrySet()) {
+					context.stations.add(new StationData(e.getValue(), e.getKey(), ssd.data.solarSystemID));
+				}
+			}
 		}
 	}
 

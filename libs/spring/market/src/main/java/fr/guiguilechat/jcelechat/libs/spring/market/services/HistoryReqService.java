@@ -32,14 +32,19 @@ public class HistoryReqService {
 	@Value("${market.history.fetchsize:200}")
 	private int queriesPerFetch;
 
+	/**
+	 * @return the next batch of request we should submit. This is limited by
+	 *           {@link #queriesPerFetch}. The requests are sorted by next fetch,
+	 *           regionId, typeId ascending.
+	 */
 	public List<HistoryReq> listNextRequests() {
 		List<HistoryReq> ret = null;
 		if (queriesPerFetch < 100) {
-			ret = repo.findTop100ByNextFetchLessThanOrderByNextFetch(Instant.now());
+			ret = repo.findTop100ByNextFetchLessThanOrderByNextFetchAscRegionIdAscTypeIdAsc(Instant.now());
 		} else if (queriesPerFetch < 310) {
-			ret = repo.findTop310ByNextFetchLessThanOrderByNextFetch(Instant.now());
+			ret = repo.findTop310ByNextFetchLessThanOrderByNextFetchAscRegionIdAscTypeIdAsc(Instant.now());
 		} else {
-			ret = repo.findTop1000ByNextFetchLessThanOrderByNextFetch(Instant.now());
+			ret = repo.findTop1000ByNextFetchLessThanOrderByNextFetchAscRegionIdAscTypeIdAsc(Instant.now());
 		}
 		if (ret.size() > queriesPerFetch) {
 			ret=ret.subList(0, queriesPerFetch);

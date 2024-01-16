@@ -37,10 +37,11 @@ public class Stargate {
 			int stargateId, SolarSystem solarSystem) {
 		return Stargate.builder()
 				.solarSystem(solarSystem)
+				.stargateId(stargateId)
+
 				.position_x(stargate.position.x())
 				.position_y(stargate.position.y())
 				.position_z(stargate.position.z())
-				.stargateId(stargateId)
 				.typeId(stargate.typeID)
 		.build();
 	}
