@@ -44,21 +44,26 @@ public class MarketRestController {
 		return new ResponseEntity<>(data, responseHeaders, HttpStatus.OK);
 	}
 
-	record OffersStat(
-			/** best price offered for the type */
-			double best,
-			/** total volume or orders available */
-			long volume,
-			/** volume of orders with price around 1% of the best */
-			long vol1pc,
-			/** volume of orders with price around 5% of best */
-			long vol5pc) {
+	record PriceFilter(int typeId, Integer regionId, Long locationId) {
 
 	}
 
-	record TypeMarketStats(OffersStat sell, OffersStat buy) {
+	record OffersStat(
+			/** best price offered for the type */
+			double best,
+			/** volume of orders with price around 1% of the best */
+			long vol1pc,
+			/** volume of orders with price around 5% of best */
+			long vol5pc,
+			/** total volume or orders available */
+			long volume) {
+	}
 
-		static TypeMarketStats of(List<RegionLine> bos, List<RegionLine> sos) {
+	record TypeMarketStats(PriceFilter filter, OffersStat sell, OffersStat buy) {
+
+		static TypeMarketStats of(int typeId, Integer regionId, Long locationId, List<RegionLine> bos,
+				List<RegionLine> sos) {
+			PriceFilter filter = new PriceFilter(typeId, regionId, locationId);
 			double so = Double.NaN;
 			long volSO = 0l;
 			long volSO1pct = 0l;
@@ -75,7 +80,7 @@ public class MarketRestController {
 					}
 				}
 			}
-			OffersStat soStats = new OffersStat(so, volSO, volSO1pct, volSO5pct);
+			OffersStat soStats = new OffersStat(so, volSO1pct, volSO5pct, volSO);
 			double bo = Double.NaN;
 			long volBO = 0l;
 			long volBO1pct = 0l;
@@ -92,8 +97,8 @@ public class MarketRestController {
 					}
 				}
 			}
-			OffersStat boStats = new OffersStat(bo, volBO, volBO1pct, volBO5pct);
-			return new TypeMarketStats(soStats, boStats);
+			OffersStat boStats = new OffersStat(bo, volBO1pct, volBO5pct, volBO);
+			return new TypeMarketStats(filter, soStats, boStats);
 		}
 	}
 
@@ -107,7 +112,7 @@ public class MarketRestController {
 			@RequestParam Optional<String> accept) {
 		List<RegionLine> bos = rlService.forRegion(regionId, typeId, true);
 		List<RegionLine> sos = rlService.forRegion(regionId, typeId, false);
-		return makeMarketStatsResponse(bos, sos, accept);
+		return makeMarketStatsResponse(typeId, regionId, null, bos, sos, accept);
 	}
 
 	@GetMapping("/byLocationId/{locationId}/byTypeId/{typeId}")
@@ -115,11 +120,12 @@ public class MarketRestController {
 			@RequestParam Optional<String> accept) {
 		List<RegionLine> bos = rlService.forLocation(locationId, typeId, true);
 		List<RegionLine> sos = rlService.forLocation(locationId, typeId, false);
-		return makeMarketStatsResponse(bos, sos, accept);
+		return makeMarketStatsResponse(typeId, null, locationId, bos, sos, accept);
 	}
 
-	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(List<RegionLine> bos, List<RegionLine> sos, Optional<String> accept) {
-		return makeResponse(TypeMarketStats.of(bos, sos), accept);
+	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
+			List<RegionLine> bos, List<RegionLine> sos, Optional<String> accept) {
+		return makeResponse(TypeMarketStats.of(typeId, regionId, locationId, bos, sos), accept);
 	}
 
 	@GetMapping("/byTypeId/{typeId}/so")
