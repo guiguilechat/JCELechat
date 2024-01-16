@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.Line;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.LineService;
 
 @RestController
@@ -41,14 +41,14 @@ public class MarketRestController {
 	record TypeMarketStats(double minSO, long volSO, long volSO1pct, long volSO5pct, double maxBO, long volBO,
 			long volBO1pct, long volBO5pct) {
 
-		static TypeMarketStats of(List<Line> bos, List<Line> sos) {
+		static TypeMarketStats of(List<RegionLine> bos, List<RegionLine> sos) {
 			double so = Double.NaN;
 			long volSO = 0l;
 			long volSO1pct = 0l;
 			long volSO5pct = 0l;
 			if (!sos.isEmpty()) {
 				so = sos.get(0).getOrder().price;
-				for (Line l : sos) {
+				for (RegionLine l : sos) {
 					volSO += l.getOrder().volume_remain;
 					if (l.getOrder().price <= 1.01 * so) {
 						volSO1pct += l.getOrder().volume_remain;
@@ -64,7 +64,7 @@ public class MarketRestController {
 			long volBO5pct = 0l;
 			if (!bos.isEmpty()) {
 				bo = bos.get(bos.size() - 1).getOrder().price;
-				for (Line l : bos) {
+				for (RegionLine l : bos) {
 					volBO += l.getOrder().volume_remain;
 					if (l.getOrder().price >= 0.99 * bo) {
 						volBO1pct += l.getOrder().volume_remain;
@@ -86,20 +86,20 @@ public class MarketRestController {
 	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}")
 	public ResponseEntity<?> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
-		List<Line> bos = lService.forRegion(regionId, typeId, true);
-		List<Line> sos = lService.forRegion(regionId, typeId, false);
+		List<RegionLine> bos = lService.forRegion(regionId, typeId, true);
+		List<RegionLine> sos = lService.forRegion(regionId, typeId, false);
 		return makeMarketStatsResponse(bos, sos, accept);
 	}
 
 	@GetMapping("/byLocationId/{locationId}/byTypeId/{typeId}")
 	public ResponseEntity<?> byLocationByType(@PathVariable long locationId, @PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
-		List<Line> bos = lService.forLocation(locationId, typeId, true);
-		List<Line> sos = lService.forLocation(locationId, typeId, false);
+		List<RegionLine> bos = lService.forLocation(locationId, typeId, true);
+		List<RegionLine> sos = lService.forLocation(locationId, typeId, false);
 		return makeMarketStatsResponse(bos, sos, accept);
 	}
 
-	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(List<Line> bos, List<Line> sos, Optional<String> accept) {
+	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(List<RegionLine> bos, List<RegionLine> sos, Optional<String> accept) {
 		return makeResponse(TypeMarketStats.of(bos, sos), accept);
 	}
 

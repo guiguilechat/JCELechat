@@ -17,13 +17,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-@Entity(name = "EsiMarketLine")
-@Table(name = "esi_market_line", indexes = { @Index(columnList = "region_region_id") })
+@Entity(name = "EsiMarketRegionLine")
+@Table(name = "esi_market_regionline", indexes = { @Index(columnList = "region_region_id") })
 @Data
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class Line {
+public class RegionLine {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)

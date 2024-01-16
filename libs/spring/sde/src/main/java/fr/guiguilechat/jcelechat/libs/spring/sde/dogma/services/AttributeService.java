@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,10 @@ public class AttributeService {
 
 	public Attribute save(Attribute entity) {
 		return repo.save(entity);
+	}
+
+	public Optional<Attribute> byId(int id) {
+		return repo.findById(id);
 	}
 
 }

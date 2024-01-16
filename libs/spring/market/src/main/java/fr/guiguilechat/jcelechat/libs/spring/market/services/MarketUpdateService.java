@@ -22,7 +22,7 @@ import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
-import fr.guiguilechat.jcelechat.libs.spring.market.model.Line;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.transaction.Transactional;
@@ -45,7 +45,7 @@ public class MarketUpdateService {
 	@Transactional
 	public CompletableFuture<Void> updateLines(ObservedRegion region) {
 		long startMs = System.currentTimeMillis();
-		List<Line> newLines = fetchMarketNoDB(region);
+		List<RegionLine> newLines = fetchMarketNoDB(region);
 		long retrievedMs = System.currentTimeMillis();
 		if (newLines != null) {
 			lService.clearRegion(region);
@@ -82,7 +82,7 @@ public class MarketUpdateService {
 	/**
 	 * create the data for a fetch, without any access to the DB. Used for test.
 	 */
-	List<Line> fetchMarketNoDB(ObservedRegion region) {
+	List<RegionLine> fetchMarketNoDB(ObservedRegion region) {
 		long startTime = System.currentTimeMillis();
 		boolean failed = false;
 		boolean noChange = false;
@@ -152,12 +152,12 @@ public class MarketUpdateService {
 		if (failed || noChange) {
 			return null;
 		}
-		List<Line> lines = fetchedLines.stream()
-				.map(order -> Line.builder()
+		List<RegionLine> lines = fetchedLines.stream()
+				.map(order -> RegionLine.builder()
 						.order(order)
 						.region(region)
 						.build())
-				.filter(Line::isValid)
+				.filter(RegionLine::isValid)
 				.toList();
 		long endTime = System.currentTimeMillis();
 		log.debug(" fetched for region(" + region.getRegionId() + ") result="

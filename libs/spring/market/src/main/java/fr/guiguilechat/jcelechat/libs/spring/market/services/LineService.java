@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.Line;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.LineRepository;
 
@@ -18,13 +18,13 @@ public class LineService {
 	@Autowired
 	private LineRepository repo;
 
-	public Line save(Line entity) {
+	public RegionLine save(RegionLine entity) {
 		entity.affectFields();
 		return repo.save(entity);
 	}
 
-	public List<Line> saveAll(Iterable<Line> entities) {
-		for (Line entity : entities) {
+	public List<RegionLine> saveAll(Iterable<RegionLine> entities) {
+		for (RegionLine entity : entities) {
 			entity.affectFields();
 		}
 		return repo.saveAll(entities);
@@ -45,7 +45,7 @@ public class LineService {
 	 * @return existing lines with given order.locationId , order.type_id , and order.isbuyorder , ordered by price asc
 	 */
 	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
-	public List<Line> forLocation(long locationId, int type_id, boolean isBuyOrder) {
+	public List<RegionLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
 		return repo.findByLocationIdAndTypeIdAndIsBuyOrder(locationId, type_id, isBuyOrder);
 	}
 
@@ -56,7 +56,7 @@ public class LineService {
 	 * @return existing lines with given region.regionId and order.type_id , and order.isbuyorder , ordered by price asc
 	 */
 	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
-	public List<Line> forRegion(int regionId, int type_id, boolean isBuyOrder) {
+	public List<RegionLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
 		return repo.findByRegionIdAndTypeIdAndIsBuyOrder(regionId, type_id, isBuyOrder);
 	}
 

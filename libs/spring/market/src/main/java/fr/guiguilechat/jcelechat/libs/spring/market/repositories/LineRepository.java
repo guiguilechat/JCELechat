@@ -6,10 +6,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.Line;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 
-public interface LineRepository extends JpaRepository<Line, Long> {
+public interface LineRepository extends JpaRepository<RegionLine, Long> {
 
 	public int deleteByRegion(ObservedRegion region);
 
@@ -25,7 +25,7 @@ where
 order by
 	line.order.price
 """)
-	public List<Line> findByLocationIdAndTypeIdAndIsBuyOrder(
+	public List<RegionLine> findByLocationIdAndTypeIdAndIsBuyOrder(
 			@Param("locationId") long locationId,
 			@Param("typeId") int typeId,
 			@Param("isBuyOrder") boolean isBuyOrder);
@@ -42,7 +42,7 @@ where
 order by
 	line.order.price
 """)
-	public List<Line> findByRegionIdAndTypeIdAndIsBuyOrder(
+	public List<RegionLine> findByRegionIdAndTypeIdAndIsBuyOrder(
 			@Param("regionId") long regionId,
 			@Param("typeId") int typeId,
 			@Param("isBuyOrder") boolean isBuyOrder);
