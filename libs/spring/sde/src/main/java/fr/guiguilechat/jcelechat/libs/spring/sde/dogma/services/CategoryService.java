@@ -16,6 +16,7 @@ public class CategoryService {
 
 	public void clear() {
 		repo.deleteAll();
+		repo.flush();
 	}
 
 	public List<Category> saveAll(Iterable<Category> entities) {

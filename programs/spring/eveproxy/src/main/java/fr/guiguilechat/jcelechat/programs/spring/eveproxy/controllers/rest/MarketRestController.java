@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import lombok.RequiredArgsConstructor;
@@ -52,26 +50,29 @@ public class MarketRestController {
 	record PriceFilter(int typeId, Integer regionId, Long locationId) {
 	}
 
+	record PriceLimitData(
+			long volume,
+			Double massPrice,
+			Double avgPrice) {
+	}
+
 	@RequiredArgsConstructor
-	static class PriceLimitData {
+	static class PriceAccumulator {
 
-		@JsonIgnore
-		private final transient double priceLimit;
+		private final double priceLimit;
 
-		@JsonIgnore
-		private final transient boolean requireInf;
+		private final boolean requireInf;
 
 		public long volume = 0l;
 		public Double massPrice = null;
-		@JsonIgnore
-		private transient double totValue = 0.0;
+		private double totValue = 0.0;
 		public Double avgPrice = null;
 
 		protected boolean accept(double orderPrice, double limit) {
 			return requireInf ? orderPrice <= limit : orderPrice >= limit;
 		}
 
-		public void accept(Iterable<RegionLine> lines) {
+		public PriceAccumulator accumulate(Iterable<RegionLine> lines) {
 			for (RegionLine l : lines) {
 				if (accept(l.getOrder().price, priceLimit)) {
 					volume += l.getOrder().volume_remain;
@@ -84,6 +85,11 @@ public class MarketRestController {
 			if (volume > 0l) {
 				avgPrice = totValue / volume;
 			}
+			return this;
+		}
+
+		public PriceLimitData toData() {
+			return new PriceLimitData(volume, massPrice, avgPrice);
 		}
 	}
 
@@ -97,8 +103,7 @@ public class MarketRestController {
 			if (!sos.isEmpty()) {
 				double bestSo = sos.get(0).getOrder().price;
 				sosData = DoubleStream.of(bestSo, bestSo * 1.01, bestSo * 1.05, bestSo * 1.1, Double.POSITIVE_INFINITY)
-						.mapToObj(limit -> new PriceLimitData(limit, true))
-						.peek(d -> d.accept(sos))
+						.mapToObj(limit -> new PriceAccumulator(limit, true).accumulate(sos).toData())
 						.toList();
 			}
 
@@ -106,8 +111,7 @@ public class MarketRestController {
 			if (!bos.isEmpty()) {
 				double bestBo = bos.get(bos.size() - 1).getOrder().price;
 				bosData = DoubleStream.of(bestBo, bestBo * 0.99, bestBo * 0.95, bestBo * 0.90, 0)
-						.mapToObj(limit -> new PriceLimitData(limit, false))
-						.peek(d -> d.accept(bos))
+						.mapToObj(limit -> new PriceAccumulator(limit, false).accumulate(bos).toData())
 						.toList();
 			}
 

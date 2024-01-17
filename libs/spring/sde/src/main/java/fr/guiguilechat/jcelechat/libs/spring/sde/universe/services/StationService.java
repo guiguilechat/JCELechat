@@ -16,6 +16,7 @@ public class StationService {
 
 	public void clear() {
 		repo.deleteAll();
+		repo.flush();
 	}
 
 	public List<Station> saveAll(Iterable<Station> entities) {

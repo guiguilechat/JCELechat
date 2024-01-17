@@ -16,6 +16,7 @@ public class TypeService {
 
 	public void clear() {
 		repo.deleteAll();
+		repo.flush();
 	}
 
 	public List<Type> saveAll(Iterable<Type> entities) {

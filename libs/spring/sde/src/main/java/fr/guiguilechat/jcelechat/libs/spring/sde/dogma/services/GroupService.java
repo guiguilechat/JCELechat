@@ -16,6 +16,7 @@ public class GroupService {
 
 	public void clear() {
 		repo.deleteAll();
+		repo.flush();
 	}
 
 	public List<Group> saveAll(Iterable<Group> entities) {

@@ -16,6 +16,7 @@ public class ConstellationService {
 
 	public void clear() {
 		repo.deleteAll();
+		repo.flush();
 	}
 
 	public List<Constellation> saveAll(Iterable<Constellation> entities) {

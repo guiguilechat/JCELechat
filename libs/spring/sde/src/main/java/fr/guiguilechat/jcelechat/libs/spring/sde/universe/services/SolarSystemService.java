@@ -16,6 +16,7 @@ public class SolarSystemService {
 
 	public void clear() {
 		repo.deleteAll();
+		repo.flush();
 	}
 
 	public List<SolarSystem> saveAll(Iterable<SolarSystem> entities) {
