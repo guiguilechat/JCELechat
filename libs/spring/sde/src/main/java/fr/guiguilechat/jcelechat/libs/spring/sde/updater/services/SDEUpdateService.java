@@ -173,27 +173,32 @@ public class SDEUpdateService {
 		public final List<StationData> stations = new ArrayList<>();
 	}
 
-	protected void updateFromFile(File newFile) throws ZipException, IOException {
+	/**
+	 * update the DB from a new zip SDE to apply.
+	 */
+	protected void updateFromFile(File newZipFile) throws ZipException, IOException {
+
+		log.info("start update SDE DB from " + newZipFile.getAbsolutePath());
 
 		//
 		// load
 		//
 
 		UpdateContext context = new UpdateContext();
-		try (ZipFile zipFile = new ZipFile(newFile)) {
+		try (ZipFile zipFile = new ZipFile(newZipFile)) {
 			for (ZipEntry zipentry : Collections.list(zipFile.entries())) {
 				if (!zipentry.isDirectory()) {
 					applyZipEntry(context, zipFile, zipentry);
 				}
 			}
 		}
-		log.info("loaded dogma : "
+		log.info(" loaded dogma : "
 				+ context.categories.size() + " categories, "
 				+ context.groups.size() + " groups, "
 				+ context.types.size() + " types, "
 				+ context.attributes.size() + " attributes, "
 				+ context.typeAttributes.size() + " typeAttributes");
-		log.info("loaded universe : "
+		log.info(" loaded universe : "
 				+ context.regions.size() + " regions, "
 				+ context.constels.size() + " constellations, "
 				+ context.systems.size() + " solar systems, "
@@ -216,7 +221,7 @@ public class SDEUpdateService {
 		groupService.clear();
 		categoryService.clear();
 
-		log.info("cleared SDE DB");
+		log.info(" cleared SDE DB");
 
 		//
 		// insert
@@ -274,6 +279,8 @@ public class SDEUpdateService {
 
 		stationService.saveAll(context.stations.stream()
 				.map(sd -> Station.from(sd.data(), sd.stationId(), sysById.get(sd.solsysId()))).toList());
+
+		log.info(" finished updating SDE DB.");
 
 	}
 

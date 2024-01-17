@@ -100,6 +100,7 @@ public class HistoryUpdateService {
 				req.setNextFetch(nextFetchRan.plus(1, ChronoUnit.DAYS));
 				ret = new R_get_markets_region_id_history[] {};
 			break;
+			// 420 when too many errors
 			// 503 happens at DT
 			// 504 randomly
 			default:

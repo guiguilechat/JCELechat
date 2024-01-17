@@ -16,7 +16,6 @@ public class TypeAttributeService {
 
 	public void clear() {
 		repo.deleteAllInBatch();
-		repo.flush();
 	}
 
 	public List<TypeAttribute> saveAll(Iterable<TypeAttribute> entities) {

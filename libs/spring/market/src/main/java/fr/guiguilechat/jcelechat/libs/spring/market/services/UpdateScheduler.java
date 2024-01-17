@@ -61,7 +61,7 @@ public class UpdateScheduler {
 		long listMs = System.currentTimeMillis();
 		log.info("updating " + requests.size() + " region histories, out of total " + remain + " remaining");
 		Map<HistoryReq, CompletableFuture<Void>> futures = requests.stream()
-				.collect(Collectors.toMap(hr -> hr, hr -> huService.update(hr).orTimeout(2, TimeUnit.MINUTES)));
+				.collect(Collectors.toMap(hr -> hr, hr -> huService.update(hr).orTimeout(30, TimeUnit.SECONDS)));
 		futures.entrySet().forEach(f -> {
 			try {
 				f.getValue().join();

@@ -16,7 +16,6 @@ public class RegionService {
 
 	public void clear() {
 		repo.deleteAllInBatch();
-		repo.flush();
 	}
 
 	public List<Region> saveAll(Iterable<Region> entities) {

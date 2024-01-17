@@ -16,7 +16,6 @@ public class StargateService {
 
 	public void clear() {
 		repo.deleteAllInBatch();
-		repo.flush();
 	}
 
 	public List<Stargate> saveAll(Iterable<Stargate> entities) {

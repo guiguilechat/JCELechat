@@ -17,7 +17,6 @@ public class AttributeService {
 
 	public void clear() {
 		repo.deleteAllInBatch();
-		repo.flush();
 	}
 
 	public List<Attribute> saveAll(Iterable<Attribute> entities) {
