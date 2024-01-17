@@ -15,7 +15,7 @@ public class RegionService {
 	private RegionRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

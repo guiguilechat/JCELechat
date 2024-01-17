@@ -15,7 +15,7 @@ public class SolarSystemService {
 	private SolarSystemRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

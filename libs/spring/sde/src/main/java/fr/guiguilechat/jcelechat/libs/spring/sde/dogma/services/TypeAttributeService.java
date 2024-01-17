@@ -15,7 +15,7 @@ public class TypeAttributeService {
 	private TypeAttributeRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

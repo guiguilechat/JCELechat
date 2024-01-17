@@ -15,7 +15,7 @@ public class StationService {
 	private StationRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

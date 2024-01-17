@@ -15,7 +15,7 @@ public class GroupService {
 	private GroupRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

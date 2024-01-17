@@ -15,7 +15,7 @@ public class ConstellationService {
 	private ConstellationRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

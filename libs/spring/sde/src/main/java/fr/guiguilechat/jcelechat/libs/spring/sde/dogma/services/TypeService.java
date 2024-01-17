@@ -15,7 +15,7 @@ public class TypeService {
 	private TypeRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

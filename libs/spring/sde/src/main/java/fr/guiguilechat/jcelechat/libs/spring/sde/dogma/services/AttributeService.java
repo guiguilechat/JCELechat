@@ -16,7 +16,7 @@ public class AttributeService {
 	private AttributeRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

@@ -15,7 +15,7 @@ public class CategoryService {
 	private CategoryRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

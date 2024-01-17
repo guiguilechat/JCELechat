@@ -15,7 +15,7 @@ public class StargateService {
 	private StargateRepository repo;
 
 	public void clear() {
-		repo.deleteAll();
+		repo.deleteAllInBatch();
 		repo.flush();
 	}
 

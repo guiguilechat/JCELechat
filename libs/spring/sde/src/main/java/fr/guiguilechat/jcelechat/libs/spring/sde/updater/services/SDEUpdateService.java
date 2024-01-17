@@ -176,22 +176,6 @@ public class SDEUpdateService {
 	protected void updateFromFile(File newFile) throws ZipException, IOException {
 
 		//
-		// clear all
-		//
-
-		stationService.clear();
-		stargateService.clear();
-		solarsystemService.clear();
-		constellationService.clear();
-		regionService.clear();
-
-		typeattributeService.clear();
-		attributeService.clear();
-		typeService.clear();
-		groupService.clear();
-		categoryService.clear();
-
-		//
 		// load
 		//
 
@@ -215,6 +199,24 @@ public class SDEUpdateService {
 				+ context.systems.size() + " solar systems, "
 				+ context.stargates.size() + " stargates, "
 				+ context.stations.size() + " stations");
+
+		//
+		// clear all
+		//
+
+		stationService.clear();
+		stargateService.clear();
+		solarsystemService.clear();
+		constellationService.clear();
+		regionService.clear();
+
+		typeattributeService.clear();
+		attributeService.clear();
+		typeService.clear();
+		groupService.clear();
+		categoryService.clear();
+
+		log.info("cleared SDE DB");
 
 		//
 		// insert
