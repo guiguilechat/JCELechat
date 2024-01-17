@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.HistoryReqRepository;
+import lombok.Getter;
 
 @Service
 public class HistoryReqService {
@@ -29,6 +30,7 @@ public class HistoryReqService {
 		return repo.save(entity);
 	}
 
+	@Getter
 	@Value("${market.history.fetchsize:200}")
 	private int queriesPerFetch;
 

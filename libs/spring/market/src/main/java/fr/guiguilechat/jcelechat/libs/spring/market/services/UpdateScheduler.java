@@ -11,8 +11,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
@@ -59,20 +62,42 @@ public class UpdateScheduler {
 			return;
 		}
 		long listMs = System.currentTimeMillis();
-		log.info("updating " + requests.size() + " region histories, out of total " + remain + " remaining");
-		Map<HistoryReq, CompletableFuture<Void>> futures = requests.stream()
-				.collect(Collectors.toMap(hr -> hr, hr -> huService.update(hr).orTimeout(30, TimeUnit.SECONDS)));
-		futures.entrySet().forEach(f -> {
-			try {
-				f.getValue().join();
-			} catch (CompletionException e) {
-				log.error("while fetching history for region=" + f.getKey().getRegionId() + " type=" + f.getKey().getTypeId(),
-						e);
+		int availErrors = availErrors();
+		if (availErrors > 0) {
+			int maxRequests = Math.min(Math.max((int) (0.01 * availErrors * hrService.getQueriesPerFetch()), availErrors),
+					requests.size());
+			log.info("updating " + Math.min(requests.size(), maxRequests)
+					+ (maxRequests < requests.size() ? "(limited by errors)" : "") + " region histories, out of total " + remain
+					+ " remaining");
+			Map<HistoryReq, CompletableFuture<Void>> futures = requests.stream().limit(maxRequests)
+					.collect(Collectors.toMap(hr -> hr, hr -> huService.update(hr).orTimeout(30, TimeUnit.SECONDS)));
+			futures.entrySet().forEach(f -> {
+				try {
+					f.getValue().join();
+				} catch (CompletionException e) {
+					log.error(
+							"while fetching history for region=" + f.getKey().getRegionId() + " type=" + f.getKey().getTypeId(), e);
+				}
+			});
+			long endMs = System.currentTimeMillis();
+			log.info(" updated " + requests.size() + " histories"
+					+ " list=" + (listMs - startMs) + "ms"
+					+ " update=" + (endMs - listMs) + "ms");
+
+		}
+	}
+
+	public static int availErrors() {
+		Requested<R_get_status> esiAccessReq = ESIStatic.INSTANCE.get_status(null);
+		if (esiAccessReq.isOk()) {
+			R_get_status esiAccess = esiAccessReq.getOK();
+			if (!esiAccess.vip) {
+				return esiAccessReq.getRemainingErrors();
 			}
-		});
-		long endMs = System.currentTimeMillis();
-		log.info(" updated " + requests.size() + " histories"
-				+ " list=" + (listMs - startMs) + "ms"
-				+ " update=" + (endMs - listMs) + "ms");
+			log.info(" ESI is in VIP mode, skipping");
+			return 0;
+		}
+		log.info(" could not get ESI status, skipping");
+		return 0;
 	}
 }
