@@ -23968,6 +23968,7 @@ id2group:
   53036: commodity/CapitalConstructionComponents
   53037: commodity/CapitalConstructionComponents
   53038: apparel/Augmentations
+  53040: apparel/Augmentations
   53041: apparel/Augmentations
   53045: entity/LargeCollidableStructure
   53046: entity/LargeCollidableStructure
@@ -24061,7 +24062,8 @@ id2group:
   53208: skins/PermanentSKIN
   53209: skins/PermanentSKIN
   53210: skins/PermanentSKIN
-  53226: apparel/Outer
+  53226: apparel/Augmentations
+  53228: apparel/Augmentations
   53229: apparel/Augmentations
   53244: skins/PermanentSKIN
   53288: commodity/ConstructionComponents
@@ -30197,6 +30199,21 @@ id2group:
   79954: skins/PermanentSKIN
   79955: skins/PermanentSKIN
   80240: specialeditionassets/SpecialEditionCommodities
+  80441: skins/PermanentSKIN
+  80448: entity/PirateEntities
+  80449: entity/PirateEntities
+  80450: entity/PirateEntities
+  80451: entity/PirateEntities
+  80452: entity/PirateEntities
+  80806: entity/PirateEntities
+  80807: entity/PirateEntities
+  80808: entity/PirateEntities
+  80809: entity/PirateEntities
+  80811: skins/PermanentSKIN
+  80812: skins/PermanentSKIN
+  80813: skins/PermanentSKIN
+  80814: skins/PermanentSKIN
+  80815: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

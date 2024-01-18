@@ -41345,3 +41345,51 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  80441:
+    id: 80441
+    marketGroup: 1990
+    name: Arbitrator Crown and Swords SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80811:
+    id: 80811
+    marketGroup: 1990
+    name: Omen Imperial Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80812:
+    id: 80812
+    marketGroup: 2000
+    name: Imperial Navy Slicer Imperial Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80813:
+    id: 80813
+    marketGroup: 2005
+    name: Rifter Republic Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80814:
+    id: 80814
+    marketGroup: 1993
+    name: Stabber Republic Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80815:
+    id: 80815
+    marketGroup: 3540
+    name: Stormbringer AEGIS Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

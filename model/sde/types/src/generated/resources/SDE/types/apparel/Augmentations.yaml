@@ -421,12 +421,42 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  53040:
+    gender: 2
+    id: 53040
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'Olympian TorsoRig' Body Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   53041:
     gender: 2
     id: 53041
     marketGroup: 1836
     mass: 0.5
     name: Men's 'RubySet TorsoRig' Body Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  53226:
+    gender: 2
+    id: 53226
+    marketGroup: 1870
+    mass: 0.5
+    name: Women's 'SteelKnight TorsoRig' Body Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  53228:
+    gender: 2
+    id: 53228
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Olympian TorsoRig' Body Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
