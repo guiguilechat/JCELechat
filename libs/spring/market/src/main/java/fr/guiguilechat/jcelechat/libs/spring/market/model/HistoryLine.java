@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.market.model;
 
+import java.time.Instant;
+
+import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
@@ -31,5 +34,16 @@ public class HistoryLine {
 
 	@Embedded
 	private R_get_markets_region_id_history daily;
+
+	private Instant dateDate;
+
+	public void affectFields() {
+		if (dateDate == null) {
+			if (getDaily().date != null) {
+				setDateDate(ESITools.parseUTCDay(getDaily().date));
+			}
+			getDaily().date = null;
+		}
+	}
 
 }

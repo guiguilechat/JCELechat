@@ -6,9 +6,6 @@ import java.util.Optional;
 import java.util.stream.DoubleStream;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,26 +23,6 @@ public class MarketRestController {
 
 	@Autowired
 	private RegionLineService rlService;
-
-	/**
-	 * presents data as a response depending on the accept value.
-	 *
-	 * @return a new responsentity with data provided, and content Type matching the
-	 *           accept if provided. Default is json.
-	 */
-	static <T> ResponseEntity<T> makeResponse(T data, Optional<String> accept) {
-		HttpHeaders responseHeaders = new HttpHeaders();
-		switch (accept.orElse("json")) {
-			case "xml":
-				responseHeaders.setContentType(MediaType.APPLICATION_XML);
-			break;
-			case "json":
-			default:
-				responseHeaders.setContentType(MediaType.APPLICATION_JSON);
-			break;
-		}
-		return new ResponseEntity<>(data, responseHeaders, HttpStatus.OK);
-	}
 
 	record PriceFilter(int typeId, Integer regionId, Long locationId) {
 	}
@@ -142,17 +119,17 @@ public class MarketRestController {
 
 	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
 			List<RegionLine> bos, List<RegionLine> sos, Optional<String> accept) {
-		return makeResponse(TypeMarketStats.of(typeId, regionId, locationId, bos, sos), accept);
+		return RestControllerHelper.makeResponse(TypeMarketStats.of(typeId, regionId, locationId, bos, sos), accept);
 	}
 
 	@GetMapping("/byTypeId/{typeId}/so")
 	public ResponseEntity<?> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		return makeResponse(rlService.sellLocations(typeId), accept);
+		return RestControllerHelper.makeResponse(rlService.sellLocations(typeId), accept);
 	}
 
 	@GetMapping("/byTypeId/{typeId}/bo")
 	public ResponseEntity<?> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		return makeResponse(rlService.buyLocations(typeId), accept);
+		return RestControllerHelper.makeResponse(rlService.buyLocations(typeId), accept);
 	}
 
 }

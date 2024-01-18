@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi;
 
+import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
@@ -41,5 +42,15 @@ public class ESITools {
 
 	public static String formatHeaderDate(OffsetDateTime date) {
 		return DateTimeFormatter.RFC_1123_DATE_TIME.format(date);
+	}
+
+	/**
+	 * parse date-only UTC string as an instant
+	 *
+	 * @param date format yyyy-mm-dd
+	 * @return instant corresponding to the start day of given date in UTC
+	 */
+	public static Instant parseUTCDay(String date) {
+		return LocalDate.parse(date).atStartOfDay(ZoneOffset.UTC).toInstant();
 	}
 }
