@@ -118,9 +118,10 @@ public class HistoryLineService {
 	}
 
 	/**
-	 * geometric weight with weight(n)=(9/10)^n, therefore sumweight=10 for infinite
-	 * history (more precisely 10-0.9^364 for 365 data). Then we remove today so
-	 * actually 9.
+	 * geometric weight with weight(n)=(1-1/totalWeight)^n,
+	 * therefore sumweight=totalWeight for infinite history (more precisely
+	 * totalWeight×( 1-(1-1/totalWeight)^364 ) for 365 data). <br />
+	 * Then we remove today so actually totalWeight -1.
 	 */
 	public static WeightStrategy geo(int totalWeight) {
 		return geo(totalWeight, Instant.now().truncatedTo(ChronoUnit.DAYS));
@@ -142,7 +143,7 @@ public class HistoryLineService {
 
 			@Override
 			public String toString() {
-				return "geo" + 10;
+				return "geo" + totalWeight;
 			}
 		};
 	}
