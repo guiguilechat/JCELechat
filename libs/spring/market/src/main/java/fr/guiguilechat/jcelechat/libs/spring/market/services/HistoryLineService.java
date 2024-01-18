@@ -70,10 +70,11 @@ public class HistoryLineService {
 
 		public static WeightStrategy of(String name) {
 			return switch (name == null ? "" : name.toLowerCase()) {
-				case "uni" -> HistoryLineService.uni();
-				case "uni30" -> HistoryLineService.uni30();
-				case "geo10" -> HistoryLineService.geo10();
-				default -> HistoryLineService.geo10();
+				case "uni" -> HistoryLineService.uni(400);
+				case "uni30" -> HistoryLineService.uni(30);
+				case "uni365" -> HistoryLineService.uni(365);
+				case "geo10" -> HistoryLineService.geo(10);
+				default -> HistoryLineService.geo(10);
 			};
 		}
 
@@ -91,52 +92,27 @@ public class HistoryLineService {
 	 * weight 1 for each daily entry. So total of weights of 365 days is 365, minus
 	 * one as we don't consider today
 	 */
-	public static WeightStrategy uni() {
-		return new WeightStrategy() {
-
-			Instant refDate = Instant.now().truncatedTo(ChronoUnit.DAYS);
-
-			@Override
-			public double weight(HistoryLine line) {
-				long days = days(line.getDateDate(), refDate);
-				return days > 0 ? 1 : 0;
-			}
-
-			@Override
-			public double totalWeight() {
-				return 365.0 - 1;
-			}
-
-			@Override
-			public String toString() {
-				return "uni";
-			}
-		};
+	public static WeightStrategy uni(int maxDays) {
+		return uni(maxDays, Instant.now().truncatedTo(ChronoUnit.DAYS));
 	}
 
-	/**
-	 * weight 1 for each daily entry, limited to last 30 days. So total of weights
-	 * is 30 -1 for today
-	 */
-	public static WeightStrategy uni30() {
+	static WeightStrategy uni(int maxDays, Instant refDate) {
 		return new WeightStrategy() {
-
-			Instant refDate = Instant.now().truncatedTo(ChronoUnit.DAYS);
 
 			@Override
 			public double weight(HistoryLine line) {
 				long days = days(line.getDateDate(), refDate);
-				return days > 0 && days < 30 ? 1 : 0;
+				return days > 0 && days < maxDays ? 1 : 0;
 			}
 
 			@Override
 			public double totalWeight() {
-				return 29.0;
+				return maxDays - 1;
 			}
 
 			@Override
 			public String toString() {
-				return "uni30";
+				return "uni" + maxDays;
 			}
 		};
 	}
@@ -146,25 +122,27 @@ public class HistoryLineService {
 	 * history (more precisely 10-0.9^364 for 365 data). Then we remove today so
 	 * actually 9.
 	 */
-	public static WeightStrategy geo10() {
-		return new WeightStrategy() {
+	public static WeightStrategy geo(int totalWeight) {
+		return geo(totalWeight, Instant.now().truncatedTo(ChronoUnit.DAYS));
+	}
 
-			Instant refDate = Instant.now().truncatedTo(ChronoUnit.DAYS);
+	static WeightStrategy geo(int totalWeight, Instant refDate) {
+		return new WeightStrategy() {
 
 			@Override
 			public double weight(HistoryLine line) {
 				long days = days(line.getDateDate(), refDate);
-				return days > 0 ? Math.pow(0.9, days) : 0;
+				return days > 0 ? Math.pow(1.0 - 1.0 / totalWeight, days) : 0;
 			}
 
 			@Override
 			public double totalWeight() {
-				return 10.0 - 1;
+				return totalWeight - 1;
 			}
 
 			@Override
 			public String toString() {
-				return "geo10";
+				return "geo" + 10;
 			}
 		};
 	}
