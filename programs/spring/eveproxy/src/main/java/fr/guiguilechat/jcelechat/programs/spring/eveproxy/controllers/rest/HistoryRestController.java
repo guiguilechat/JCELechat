@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -23,31 +25,29 @@ public class HistoryRestController {
 	@Autowired
 	private HistoryLineService hlService;
 
-	private final int NB_STEPS = 5;
+	private final int NB_STEPS = 10;
 
 
-	record HistoryAggreg(int typeId, Integer regionId, String weightName) {
+	record HistoryAggreg(int typeId, Integer regionId, String weightName, int steps) {
 	}
 
-	record PriceVolume(double price, double volume) {
+	record PriceVolume(BigDecimal price, BigDecimal volumeAbove, BigDecimal volumeBelow) {
 	}
 
-	record DailyExchanges(HistoryAggreg filter, List<PriceVolume> below, List<PriceVolume> above) {
+	record DailyExchanges(HistoryAggreg filter, List<PriceVolume> volumes) {
 
-		static List<PriceVolume> convertBelow(List<PriceVolumeAcc> groups) {
+		static List<PriceVolume> convertVolumes(List<PriceVolumeAcc> groups) {
 			ArrayList<PriceVolume> ret = new ArrayList<>();
-			groups.forEach(pv -> ret.add(new PriceVolume(pv.price, pv.below)));
+			groups.forEach(pv -> ret.add(new PriceVolume(
+					new BigDecimal(pv.price).setScale(2, RoundingMode.HALF_EVEN),
+					new BigDecimal(pv.above).setScale(2, RoundingMode.HALF_EVEN),
+					new BigDecimal(pv.below).setScale(2, RoundingMode.HALF_EVEN))));
 			return ret;
 		}
 
-		static List<PriceVolume> convertAbove(List<PriceVolumeAcc> groups) {
-			ArrayList<PriceVolume> ret = new ArrayList<>();
-			groups.forEach(pv -> ret.add(new PriceVolume(pv.price, pv.above)));
-			return ret;
-		}
 
-		public DailyExchanges(HistoryAggreg filter, List<PriceVolumeAcc> groups) {
-			this(filter, convertBelow(groups), convertAbove(groups));
+		public static DailyExchanges of(HistoryAggreg filter, List<PriceVolumeAcc> groups) {
+			return new DailyExchanges(filter, convertVolumes(groups));
 		}
 	}
 
@@ -58,7 +58,8 @@ public class HistoryRestController {
 		WeightStrategy weighter = WeightStrategy.of(weightname);
 		List<PriceVolumeAcc> priceVolumes = hlService.groupPrices(regionId, typeId, weighter, NB_STEPS);
 		return RestControllerHelper.makeResponse(
-				new DailyExchanges(new HistoryAggreg(typeId, regionId, weighter.toString()), priceVolumes), accept);
+				DailyExchanges.of(new HistoryAggreg(typeId, regionId, weighter.toString(), NB_STEPS), priceVolumes),
+				accept);
 	}
 
 }
