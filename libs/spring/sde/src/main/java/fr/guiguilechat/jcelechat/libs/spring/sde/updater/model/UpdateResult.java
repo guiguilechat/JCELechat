@@ -39,6 +39,8 @@ public class UpdateResult {
 
 	private String error;
 
+	private String etag;
+
 	public static enum STATUS {
 		FAIL,
 		CACHED,

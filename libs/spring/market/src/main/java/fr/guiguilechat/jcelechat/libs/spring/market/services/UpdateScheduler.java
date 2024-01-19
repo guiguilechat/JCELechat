@@ -34,7 +34,7 @@ public class UpdateScheduler {
 	@Autowired
 	private ObservedRegionService orService;
 
-	@Scheduled(fixedRateString = "${market.updater.fetchperiod:120000}", initialDelayString = "${market.updater.fetchdelay:60000}")
+	@Scheduled(fixedRateString = "${market.updater.fetchperiod:120000}", initialDelayString = "${market.updater.fetchdelay:10000}")
 	public void updateMarket() {
 		long startMs = System.currentTimeMillis();
 		log.info("updating markets");
@@ -52,7 +52,7 @@ public class UpdateScheduler {
 		log.info(" updated " + active.size() + " markets in " + (int) Math.ceil(0.001 * (endMs - startMs)) + "s");
 	}
 
-	@Scheduled(fixedRateString = "${market.history.fetchperiod:60000}", initialDelayString = "${market.history.fetchdelay:6000}")
+	@Scheduled(fixedRateString = "${market.history.fetchperiod:60000}", initialDelayString = "${market.history.fetchdelay:20000}")
 	public void updateHistory() {
 		long startMs = System.currentTimeMillis();
 		List<HistoryReq> requests = hrService.listNextRequests();

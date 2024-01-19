@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STAT
 
 public interface UpdateResultRepository extends JpaRepository<UpdateResult, Long> {
 
-	public boolean existsByStatus(STATUS status);
+	public UpdateResult findTop1ByStatusOrderByStartedDateDesc(STATUS status);
 
 	@Query("""
 update SdeUpdaterResult set status=:newStatus where status=:status

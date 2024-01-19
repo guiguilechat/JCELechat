@@ -86,7 +86,7 @@ public class SDECache {
 		return URL_STATIC;
 	}
 
-	protected String getEtag(String url) {
+	protected static String getEtag(String url) {
 		HttpRequest request = HttpRequest.newBuilder(URI.create(
 				url))
 				.method("HEAD", HttpRequest.BodyPublishers.noBody())
@@ -262,15 +262,10 @@ public class SDECache {
 	 *           specified, existing file if no update, new file if update.
 	 */
 	public synchronized File updateZip(boolean returnOnlyNew) {
-		String url = findURL();
-		String etag = getEtag(url);
+		String lastEtag = null;
 		if (zipTarget().isFile() && zipEtagFile().isFile()) {
 			try (BufferedReader br = new BufferedReader(new FileReader(zipEtagFile()))) {
-				if (etag.equals(br.readLine())) {
-					logger.info("already last version of sde in  " + zipCacheDir().getAbsolutePath());
-					return returnOnlyNew ? null : zipTarget();
-				}
-				logger.info("new version of sde to download with etag " + etag + " into " + zipCacheDir().getAbsolutePath());
+				lastEtag = br.readLine();
 			} catch (IOException ioe) {
 				throw new RuntimeException(ioe);
 			}
@@ -278,6 +273,16 @@ public class SDECache {
 			logger.info("no existing download information in file " + zipEtagFile().getAbsolutePath()
 					+ ", downloading sde into " + zipCacheDir().getAbsolutePath());
 		}
+		SDEDownload res = getSDE(lastEtag);
+		if (res.cached()) {
+			logger.info("already last version of sde in  " + zipCacheDir().getAbsolutePath());
+			return returnOnlyNew ? null : zipTarget();
+		}
+		if (res.error() != null) {
+			return null;
+		}
+		logger.info("new version of sde to download with etag " + res.etag() + " into " + zipCacheDir().getAbsolutePath());
+
 		try {
 			zipCacheDir().mkdirs();
 			if (!zipCacheDir().isDirectory()) {
@@ -285,20 +290,54 @@ public class SDECache {
 				return null;
 			}
 			zipTemp().delete();
-			downloadSDE(url, zipTemp());
+			copySDE(res.channel(), zipTemp());
 			zipTemp().renameTo(zipTarget());
 			FileWriter fw = new FileWriter(zipEtagFile());
-			fw.write(etag);
+			fw.write(res.etag());
 			fw.close();
-		} catch (IOException | URISyntaxException ioe) {
+		} catch (IOException ioe) {
 			throw new RuntimeException(ioe);
 		}
 		return zipTarget();
 	}
 
-	protected static void downloadSDE(String url, File targetDir)
-			throws MalformedURLException, IOException, URISyntaxException {
-		ReadableByteChannel readableByteChannel = Channels.newChannel(new URI(url).toURL().openStream());
+	public static record SDEDownload(String url, String etag, ReadableByteChannel channel, Exception error,
+			boolean cached) {
+		static SDEDownload ok(String url, String etag, ReadableByteChannel channel) {
+			return new SDEDownload(url, etag, channel, null, false);
+		}
+
+		static SDEDownload error(String url, Exception error) {
+			return new SDEDownload(url, null, null, error, false);
+		}
+
+		static SDEDownload cached(String url, String etag) {
+			return new SDEDownload(url, etag, null, null, true);
+		}
+
+		public File toTempFile() throws IOException {
+			File created = File.createTempFile("SDE", null);
+			copySDE(channel, created);
+			return created;
+		}
+	}
+
+	public static SDEDownload getSDE(String lastEtag) {
+		String url = findURL();
+		String etag = getEtag(url);
+		if (lastEtag != null && lastEtag.equals(etag)) {
+			return SDEDownload.cached(url, etag);
+		}
+		try {
+			return SDEDownload.ok(url, etag, Channels.newChannel(new URI(url).toURL().openStream()));
+		} catch (IOException | URISyntaxException e) {
+			logger.error("while downloading " + url, e);
+			return SDEDownload.error(url, e);
+		}
+	}
+
+	static void copySDE(ReadableByteChannel readableByteChannel, File targetDir)
+			throws FileNotFoundException, IOException {
 		try (FileOutputStream fileOutputStream = new FileOutputStream(targetDir)) {
 			fileOutputStream.getChannel().transferFrom(readableByteChannel, 0, Long.MAX_VALUE);
 		}

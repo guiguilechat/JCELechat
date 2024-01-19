@@ -25,8 +25,8 @@ public class UpdateResultService {
 		repo.changeStatusFromTo(STATUS.SUCCESS, STATUS.SUCCESS_NEED_REFETCH);
 	}
 
-	public boolean alreadyInserted() {
-		return repo.existsByStatus(STATUS.SUCCESS);
+	public UpdateResult lastSuccess() {
+		return repo.findTop1ByStatusOrderByStartedDateDesc(STATUS.SUCCESS);
 	}
 
 	public UpdateResult save(UpdateResult entity) {

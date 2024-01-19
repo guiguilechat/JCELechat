@@ -45,6 +45,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationServic
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STATUS;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
+import fr.guiguilechat.jcelechat.model.sde.load.SDECache.SDEDownload;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
@@ -97,23 +98,27 @@ public class SDEUpdateService {
 	private boolean forceReinsert;
 
 	@Transactional
-	public void updateSDE() {
+	public void updateSDE() throws IOException {
 		Instant startDate = Instant.now();
 		UpdateResult ur = UpdateResult.builder().startedDate(startDate).build();
-		boolean alreadyInserted = updateresultService.alreadyInserted();
-		File newFile = SDECache.INSTANCE.updateZip(alreadyInserted && !forceReinsert);
+		UpdateResult lastSuccess = updateresultService.lastSuccess();
+		SDEDownload fetch = SDECache.getSDE(lastSuccess != null ? lastSuccess.getEtag() : null);
 		Instant fetchedDate = Instant.now();
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
-		if (newFile != null) {
-			log.debug("updating DB from SDE file : " + newFile.getAbsolutePath());
+		if (fetch.channel() != null) {
+			File newFile = fetch.toTempFile();
 			try {
 				updateFromFile(newFile);
 				ur.setStatus(STATUS.SUCCESS);
+				ur.setEtag(fetch.etag());
 			} catch (Exception e) {
 				ur.setStatus(STATUS.FAIL);
 				ur.setError(e.getMessage());
 				log.error("while updating from SDE file " + newFile.getAbsolutePath(), e);
 			}
+		} else if (fetch.error() != null) {
+			ur.setStatus(STATUS.FAIL);
+			ur.setError(fetch.error().getMessage());
 		}
 		Instant processedDate = Instant.now();
 		ur.setProcessDurationMs(processedDate.toEpochMilli() - fetchedDate.toEpochMilli());

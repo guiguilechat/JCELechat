@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.updater.services;
 
+import java.io.IOException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -11,7 +13,7 @@ public class SDEUpdateScheduler {
 	private SDEUpdateService sdeService;
 
 	@Scheduled(fixedRateString = "${sde.updater.fetchperiod:3600000}", initialDelayString = "${sde.updater.fetchdelay:5000}")
-	public void checkSDE() {
+	public void checkSDE() throws IOException {
 		sdeService.updateSDE();
 	}
 

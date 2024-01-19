@@ -91,24 +91,29 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.jdbc.batch_size=50
 spring.jpa.properties.hibernate.jdbc.fetch_size=50
 spring.jpa.properties.hibernate.order_inserts=true
+
+# market features
+# fetch market every 2 min 
+#market.updater.fetchperiod:120000
+# fetch 100 histories at once
+market.history.fetchsize=100
+# fetch history every 22s
+market.history.fetchperiod=22000
+
+# SDE features
+# force SDE update every cycle, used for debug
+#sde.updater.forcereinsert=true
+# check for new SDE once per minute.
+#sde.updater.fetchperiod=60000
+
 EOF
 
 sudo chgrp -R tomcat /var/EveProxy
 ```
 
-Create a temp dir for tomcat. This will allow the app to download cache in that dir.
+Then you need to reload tomcat
 
 ```
-sudo mkdir -p /var/lib/tomcat/.cache/sde.ccp.is/zipped
-sudo chown tomcat:tomcat -R /var/lib/tomcat/
-```
-
-You then need to disable sandbox protection by editing `/etc/systemd/system/multi-user.target.wants/tomcat10.service` and replacing `ProtectSystem=strict` by `ProtectSystem=false`
-
-Then you need to reload units and tomcat
-
-```
-sudo systemctl daemon-reload
 sudo service tomcat10 restart
 ```
 
