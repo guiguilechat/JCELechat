@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.mer.killdump;
+package fr.guiguilechat.jcelechat.programs.cli.merstats.killdump;
 
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
@@ -7,6 +7,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 import com.opencsv.bean.CsvBindByName;
+
+import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 
 public class KDEntry {
 
@@ -24,6 +29,24 @@ public class KDEntry {
 		return victim_ship_type_id;
 	}
 
+	public EveType getType() {
+		EveType ret = TypeIndex.getType(destroyedShipTypeID());
+		if (ret == null) {
+			// System.err.println("null type for id " + destroyedShipTypeID());
+		}
+		return ret;
+	}
+
+	public EtypeIDs getEType() {
+		EtypeIDs ret = EtypeIDs.load().get(destroyedShipTypeID());
+		if (ret == null) {
+			ret = new EtypeIDs();
+			ret.name.put("en", "t_" + destroyedShipTypeID());
+			ret.groupID = ret.graphicID = ret.factionID = ret.marketGroupID = 0;
+		}
+		return ret;
+	}
+
 	// solar system
 
 	@CsvBindByName
@@ -36,6 +59,14 @@ public class KDEntry {
 			return solarSystemID;
 		}
 		return solarsystem_id;
+	}
+
+	public SolarSystem getSolarSystem() {
+		SolarSystem ret = SolarSystem.getSystem(solarSystemId());
+		if (ret == null) {
+			// System.err.println("no system for id " + solarSystemId());
+		}
+		return ret;
 	}
 
 	// kill date time

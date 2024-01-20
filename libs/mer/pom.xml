@@ -7,7 +7,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>mer</artifactId>
-	<name>MER</name>
+	<name>MER Lib</name>
 	<description>EvE MER lib</description>
 	<dependencies>
 		<dependency>
@@ -21,24 +21,9 @@
 			<version>5.7.1</version>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>locations</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>raw</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>types</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.lelouet.tools.application</groupId>
-			<artifactId>YamlSettings</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.jfree</groupId>
-			<artifactId>jfreechart</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 </project>

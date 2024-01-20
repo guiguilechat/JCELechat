@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.mer.killdump;
+package fr.guiguilechat.jcelechat.programs.cli.merstats.killdump;
 
 import java.io.File;
 import java.io.FileReader;
@@ -19,8 +19,12 @@ import com.opencsv.CSVReaderBuilder;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 
+import fr.lelouet.tools.application.xdg.XDGApp;
+
 /** parses the killdumps in the MER files */
 public class KDParser {
+
+	private static final XDGApp APP = new XDGApp("mer.ccp.is");
 
 	public static final KDParser INSTANCE = new KDParser();
 
@@ -68,7 +72,7 @@ public class KDParser {
 		if (loaded == null) {
 			synchronized (parser) {
 				if (loaded == null) {
-					File[] files = null;
+					File[] files = APP.cacheFile().listFiles();
 					loaded = files == null ? Collections.emptyList()
 							: Stream.of(files).parallel().map(this::parse).flatMap(List::stream).collect(Collectors.toList());
 				}
@@ -86,7 +90,7 @@ public class KDParser {
 	}
 
 	public Map<Integer, Map<Integer, Map<Integer, List<KDEntry>>>> groupMonthBySysTypeDay(Predicate<KDEntry> filter, int year, int month) {
-		File root = new File((File) null, String.format("%04d-%02d", year, month));
+		File root = new File(APP.cacheFile(), String.format("%04d-%02d", year, month));
 		if (!root.isDirectory()) {
 			System.err.println("missing MER root " + root);
 			return Collections.emptyMap();

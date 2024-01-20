@@ -217,6 +217,11 @@
 			-->
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+				<artifactId>mer</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 				<artifactId>routesolver</artifactId>
 				<version>${project.version}</version>
 			</dependency>
