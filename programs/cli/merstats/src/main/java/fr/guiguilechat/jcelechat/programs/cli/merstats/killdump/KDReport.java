@@ -12,6 +12,7 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
+import java.util.Map.Entry;
 import java.util.function.Predicate;
 import java.util.function.ToDoubleBiFunction;
 import java.util.stream.Collectors;
@@ -75,7 +76,7 @@ public class KDReport {
 		}
 
 		KDParser parser = new KDParser();
-		parser.byMonth(filter).entrySet().stream().sorted(Comparator.comparing(e->e.getKey())).forEach(e->{
+		parser.byMonth(filter).entrySet().stream().sorted(Comparator.comparing(Entry::getKey)).forEach(e->{
 			List<String> row = sw == null ? null : new ArrayList<>();
 			List<KDEntry> values = e.getValue();
 			if (row != null) {
@@ -194,9 +195,9 @@ public class KDReport {
 		StringWriter sw = new StringWriter();
 		TimeTableXYDataset dataset = new TimeTableXYDataset();
 		generate(sw, dataset, filter, eval, columns);
-		writeCSV("reports/" + reportName + ".csv", sw);
-		writeAreaGraph("reports/" + reportName + "Stacked.png", dataset);
-		writeLineGraph("reports/" + reportName + "Line.png", dataset);
+		writeCSV("reports/kills/" + reportName + ".csv", sw);
+		writeAreaGraph("reports/kills/" + reportName + "Stacked.png", dataset);
+		writeLineGraph("reports/kills/" + reportName + "Line.png", dataset);
 		System.out.println(reportName);
 	}
 
