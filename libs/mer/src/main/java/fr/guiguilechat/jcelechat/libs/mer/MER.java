@@ -11,6 +11,8 @@ import java.util.zip.ZipInputStream;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher.MERFetch;
 import fr.guiguilechat.jcelechat.libs.mer.files.EconomyIndicesDetailsEntry;
 import fr.guiguilechat.jcelechat.libs.mer.files.IndexBasketsEntry;
+import fr.guiguilechat.jcelechat.libs.mer.files.IskVolumeEntry;
+import fr.guiguilechat.jcelechat.libs.mer.files.KillDumpEntry;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
@@ -20,14 +22,20 @@ public class MER {
 
 	private final List<EconomyIndicesDetailsEntry> economyIndicesDetailsEntries = new ArrayList<>();
 	private final List<IndexBasketsEntry> indexBasketsEntries = new ArrayList<>();
+	private final List<KillDumpEntry> killDumpEntries = new ArrayList<>();
+	private final List<IskVolumeEntry> iskVolumeEntries = new ArrayList<>();
 
 	private final List<String> images = new ArrayList<>();
 	private final List<String> htmls = new ArrayList<>();
 	private final List<String> skipped = new ArrayList<>();
 
-	static final Pattern EconomyIndicesDetails = Pattern.compile(".*EconomyIndicesDetails\\.csv$");
+	static final Pattern EconomyIndicesDetails = Pattern.compile(".*[eE]conomy_?[iI]ndices_?[dD]etails\\.csv$");
 
-	static final Pattern IndexBaskets = Pattern.compile(".*IndexBaskets\\.csv$");
+	static final Pattern IndexBaskets = Pattern.compile(".*[iI]ndex_?[bB]askets\\.csv$");
+
+	static final Pattern KillDump = Pattern.compile(".*[kK]ill_?dump\\.csv$");
+
+	static final Pattern IskVolume = Pattern.compile(".*IskVolume\\.csv$");
 
 	static final Pattern Image = Pattern.compile(".*\\.png");
 
@@ -42,16 +50,6 @@ public class MER {
 				}
 				String name = ze.getName();
 				Matcher m;
-				m = EconomyIndicesDetails.matcher(name);
-				if (m.matches()) {
-					processEconomyIndicesDetails(zis);
-					continue;
-				}
-				m = IndexBaskets.matcher(name);
-				if (m.matches()) {
-					processIndexBaskets(zis);
-					continue;
-				}
 				m = Image.matcher(name);
 				if (m.matches()) {
 					processImage(name, zis);
@@ -62,24 +60,49 @@ public class MER {
 					processHtml(name, zis);
 					continue;
 				}
+				m = EconomyIndicesDetails.matcher(name);
+				if (m.matches()) {
+					processEconomyIndicesDetails(zis);
+					continue;
+				}
+				m = IndexBaskets.matcher(name);
+				if (m.matches()) {
+					processIndexBaskets(zis);
+					continue;
+				}
+				m = KillDump.matcher(name);
+				if (m.matches()) {
+					processKillDump(zis);
+					continue;
+				}
+				m = IskVolume.matcher(name);
+				if (m.matches()) {
+					processIskVolume(zis);
+					continue;
+				}
 				processUknown(name, zis);
 
 			}
 		} catch (IOException e1) {
 			throw new RuntimeException("while reading entries for " + source.url(), e1);
 		}
-		System.out.println(source.url() + " loaded : " + economyIndicesDetailsEntries.size() + "EconomyIndicesDetails, "
-				+ indexBasketsEntries.size() + "IndexBaskets, "
-				+ images.size() + " images, " + htmls.size() + " htmls" + ", " + skipped + " unknown");
 		return this;
 	}
 
+	private void processIskVolume(ZipInputStream zis) {
+		iskVolumeEntries.addAll(IskVolumeEntry.parse(zis));
+	}
+
+	private void processKillDump(ZipInputStream zis) {
+		killDumpEntries.addAll(KillDumpEntry.parse(zis));
+	}
+
 	void processEconomyIndicesDetails(ZipInputStream zis) {
-		economyIndicesDetailsEntries.addAll(EconomyIndicesDetailsEntry.parseDump(zis));
+		economyIndicesDetailsEntries.addAll(EconomyIndicesDetailsEntry.parse(zis));
 	}
 
 	private void processIndexBaskets(ZipInputStream zis) {
-		indexBasketsEntries.addAll(IndexBasketsEntry.parseDump(zis));
+		indexBasketsEntries.addAll(IndexBasketsEntry.parse(zis));
 	}
 
 	private void processImage(String name, ZipInputStream zis) {
@@ -92,6 +115,15 @@ public class MER {
 
 	private void processUknown(String name, ZipInputStream zis) {
 		skipped.add(name);
+	}
+
+	public String printStats() {
+		return "loaded : "
+				+ economyIndicesDetailsEntries.size() + "EconomyIndicesDetails, "
+				+ indexBasketsEntries.size() + "IndexBaskets, "
+				+ killDumpEntries.size() + "KillDump, "
+				+ iskVolumeEntries.size() + "IskVolume, "
+				+ images.size() + " images, " + htmls.size() + " htmls" + ", " + skipped + " unknown";
 	}
 
 }

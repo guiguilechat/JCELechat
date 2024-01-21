@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.List;
 import java.util.stream.Stream;
 import java.util.zip.ZipInputStream;
 
@@ -36,7 +34,11 @@ public class MERFetcher {
 						"'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_'MMMyyyy'.zip'"))
 				.with(DateRangeFormatter.ofMonth(2021, 9,
 						"'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_Sept2021.zip'"))
-				.with(DateRangeFormatter.ofMonthsRange(2018, 8, 2021, 9,
+				.with(DateRangeFormatter.ofMonthsRange(2020, 1, 2021, 9,
+						"'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_'MMMyyyy'.zip'"))
+				.with(DateRangeFormatter.ofMonth(2019, 12,
+						"'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_Dec2019b.zip'"))
+				.with(DateRangeFormatter.ofMonthsRange(2018, 8, 2019, 12,
 						"'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_'MMMyyyy'.zip'"))
 				.with(DateRangeFormatter.ofMonthsRange(2018, 5, 2018, 8,
 						"'https://web.ccpgamescdn.com/newssystem/media/73619/1/EVEOnline_MER_'MMMyyyy'.zip'"))
@@ -56,6 +58,27 @@ public class MERFetcher {
 						"'https://cdn1.eveonline.com/community/MER/EVEOnline_MER_'MMMyy'.zip'"))
 				.with(DateRangeFormatter.ofMonthsRange(2017, 1, 2017, 8,
 						"'https://cdn1.eveonline.com/community/MER/EVEOnline_MER_'MMMyyyy'.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 12,
+						"'https://content.eveonline.com/www/newssystem/media/71808/1/EVEOnline_MER_Dec2016_v1.1.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 11,
+						"'https://content.eveonline.com/www/newssystem/media/70766/1/EVEOnline_MER_Nov2016.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 10,
+						"'https://content.eveonline.com/www/newssystem/media/70687/1/EVEOnline_MER_Oct2016.zip'"))
+				// ignored : this one has invalid CRC
+// .with(DateRangeFormatter.ofMonth(2016, 9,
+// "'https://content.eveonline.com/www/newssystem/media/70577/1/EVEOnline_MER_Sep2016.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 8,
+						"'https://content.eveonline.com/www/newssystem/media/70511/1/EVEOnline_MER_Aug2016.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 7,
+						"'https://content.eveonline.com/www/newssystem/media/70454/1/EVEOnline_MER_July2016.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 6,
+						"'https://content.eveonline.com/www/newssystem/media/70401/1/EVEOnline_MER_June2016.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 5,
+						"'https://content.eveonline.com/www/newssystem/media/70343/1/EVEOnline_MER_May2016.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 4,
+						"'https://content.eveonline.com/www/newssystem/media/70258/1/EVEOnline_MER_Apr2016.zip'"))
+				.with(DateRangeFormatter.ofMonth(2016, 3,
+						"'https://content.eveonline.com/www/newssystem/media/70162/1/EVEOnline_MER_Mar2016.zip'"))
 		//
 		;
 	}
@@ -65,29 +88,6 @@ public class MERFetcher {
 	}
 
 	private final DateURL dateURLs;
-
-	//
-	// There are several formats for a MER URL. We check each of them and return
-	// the first one that matches, or return null.
-	//
-	//
-	List<DateTimeFormatter> URL_DATE_FORMATTERS = List.of(
-			//
-			// https://content.eveonline.com/www/newssystem/media/71808/1/EVEOnline_MER_Dec2016_v1.1.zip
-			DateTimeFormatter
-					.ofPattern("'https://content.eveonline.com/www/newssystem/media/71808/1/EVEOnline_MER_'MMMyyyy'.zip'"),
-			//
-			// https://content.eveonline.com/www/newssystem/media/70766/1/EVEOnline_MER_Nov2016.zip
-			DateTimeFormatter
-					.ofPattern("'https://content.eveonline.com/www/newssystem/media/70766/1/EVEOnline_MER_'MMMyyyy'.zip'"),
-			//
-			// https://content.eveonline.com/www/newssystem/media/70687/1/EVEOnline_MER_Oct2016.zip
-			DateTimeFormatter
-					.ofPattern("'https://content.eveonline.com/www/newssystem/media/70687/1/EVEOnline_MER_'MMMyyyy'.zip'"),
-			//
-			// https://content.eveonline.com/www/newssystem/media/70577/1/EVEOnline_MER_Sep2016.zip
-			DateTimeFormatter
-					.ofPattern("'https://content.eveonline.com/www/newssystem/media/70577/1/EVEOnline_MER_'MMMyyyy'.zip'"));
 
 	record MERFetch(ZipInputStream data, Exception error, String url, LocalDate date) {
 
@@ -118,15 +118,21 @@ public class MERFetcher {
 	}
 
 	public static void main(String[] args) {
-		streamPossibleMERs().parallel().map(INSTANCE::forDate).forEachOrdered(mf -> {
-			if (mf.data() == null) {
-				System.out.println(
-						mf.date() + "\t" + mf.url() + "\t"
-								+ (mf.error != null ? mf.error() : ""));
-			} else {
-				new MER(mf).load();
-			}
-		});
+		streamPossibleMERs()
+		//
+		// .parallel()
+		//
+			.map(INSTANCE::forDate).forEachOrdered(mf -> {
+				if (mf.data() == null) {
+					System.out.println(
+							mf.date() + "\t" + mf.url() + "\t"
+									+ (mf.error != null ? mf.error() : ""));
+				} else {
+						System.out.println(
+								mf.date() + "\t" + mf.url() + "\t"
+										+ new MER(mf).load().printStats());
+				}
+			});
 	}
 
 }
