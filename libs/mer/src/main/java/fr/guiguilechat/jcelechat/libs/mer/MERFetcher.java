@@ -89,7 +89,7 @@ public class MERFetcher {
 
 	private final DateURL dateURLs;
 
-	record MERFetch(ZipInputStream data, Exception error, String url, LocalDate date) {
+	public record MERFetch(ZipInputStream data, Exception error, String url, LocalDate date) {
 
 		public static MERFetch error(LocalDate date, String url, Exception error) {
 			return new MERFetch(null, error, url, date);

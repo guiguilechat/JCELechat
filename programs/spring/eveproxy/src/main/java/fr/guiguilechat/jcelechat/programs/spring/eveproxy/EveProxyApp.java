@@ -13,18 +13,21 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableAsync
 @EnableScheduling
 @SpringBootApplication(scanBasePackages = {
-		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.libs.spring.market",
+		"fr.guiguilechat.jcelechat.libs.spring.mer",
+		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.programs.spring.eveproxy"
 })
 @EnableJpaRepositories(basePackages = {
-		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.libs.spring.market",
+		"fr.guiguilechat.jcelechat.libs.spring.mer",
+		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.programs.spring.eveproxy"
 })
 @EntityScan(basePackages = {
-		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.libs.spring.market",
+		"fr.guiguilechat.jcelechat.libs.spring.mer",
+		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.programs.spring.eveproxy"
 })
 public class EveProxyApp extends SpringBootServletInitializer {

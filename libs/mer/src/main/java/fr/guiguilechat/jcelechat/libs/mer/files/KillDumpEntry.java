@@ -51,7 +51,7 @@ public class KillDumpEntry {
 	@CsvBindByName
 	public Integer solarsystem_id;
 
-	public Integer solarSystemId() {
+	public Integer solarSystemID() {
 		return solarSystemID != null ? solarSystemID : solarsystem_id;
 	}
 

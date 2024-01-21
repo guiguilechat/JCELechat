@@ -13,8 +13,10 @@ import fr.guiguilechat.jcelechat.libs.mer.files.EconomyIndicesDetailsEntry;
 import fr.guiguilechat.jcelechat.libs.mer.files.IndexBasketsEntry;
 import fr.guiguilechat.jcelechat.libs.mer.files.IskVolumeEntry;
 import fr.guiguilechat.jcelechat.libs.mer.files.KillDumpEntry;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
+@Getter
 @RequiredArgsConstructor
 public class MER {
 

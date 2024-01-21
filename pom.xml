@@ -227,12 +227,17 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>sde</artifactId>
+				<artifactId>market</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>market</artifactId>
+				<artifactId>mer</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+				<artifactId>sde</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
