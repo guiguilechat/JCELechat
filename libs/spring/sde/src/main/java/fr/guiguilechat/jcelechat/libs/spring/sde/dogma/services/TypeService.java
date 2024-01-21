@@ -25,4 +25,8 @@ public class TypeService {
 	public Type save(Type entity) {
 		return repo.save(entity);
 	}
+
+	public List<Type> byGroupId(int groupId) {
+		return repo.findByGroupGroupId(groupId);
+	}
 }
