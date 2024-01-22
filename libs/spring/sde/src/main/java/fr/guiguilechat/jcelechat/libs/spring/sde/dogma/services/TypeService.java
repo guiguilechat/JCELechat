@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,5 +29,9 @@ public class TypeService {
 
 	public List<Type> byGroupId(int groupId) {
 		return repo.findByGroupGroupId(groupId);
+	}
+
+	public Optional<Type> byId(int typeId) {
+		return repo.findById(typeId);
 	}
 }
