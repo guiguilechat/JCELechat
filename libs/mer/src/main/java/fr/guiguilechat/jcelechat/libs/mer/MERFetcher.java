@@ -16,7 +16,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class MERFetcher {
 
-	static final LocalDate DATE_DEFAULTSTART = LocalDate.of(2015, 8, 1);
+	static final LocalDate DATE_DEFAULTSTART = LocalDate.of(2016, 6, 1);
 
 	public static Stream<LocalDate> streamPossibleMERs() {
 		return Stream.iterate(DATE_DEFAULTSTART, ld -> ld.isBefore(LocalDate.now()), ld -> ld.plusMonths(1));

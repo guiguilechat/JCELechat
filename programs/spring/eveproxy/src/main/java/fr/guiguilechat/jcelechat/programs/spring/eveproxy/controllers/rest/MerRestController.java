@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
+import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
@@ -27,11 +28,27 @@ public class MerRestController {
 	@Autowired
 	private TypeService typeService;
 
-	record MonthlyKillsFilters(
-			List<Integer> types, String timeSort) {
-	}
+	static record TypeMonthlyKills(MonthlyKillsSelection filters, List<MonthKillStats> stats) {
 
-	record TypeMonthlyKills(MonthlyKillsFilters filters, List<MonthlyStats> stats) {
+		static record MonthlyKillsSelection(
+				List<Integer> types, String timeSort) {
+		}
+
+		static record MonthKillStats(String month, long numberKills, double totalMIskLost, double averageMIskLost,
+				double medianMIskLost) {
+
+			static final DateTimeFormatter format = DateTimeFormatter.ofPattern("YYYY-MM");
+
+			public MonthKillStats(MonthlyStats source) {
+				this(format.format(source.month()), source.nbKills(), source.totalIskLost() / 1000000,
+						source.totalIskLost() / 1000000 / source.nbKills(), source.medianIskLost() / 1000000);
+			}
+
+		}
+
+		TypeMonthlyKills(List<Integer> types, String timeSort, List<MonthlyStats> monthlyStats) {
+			this(new MonthlyKillsSelection(types, timeSort), monthlyStats.stream().map(MonthKillStats::new).toList());
+		}
 
 	}
 
@@ -45,7 +62,7 @@ public class MerRestController {
 			Collections.reverse(stats);
 		}
 		return RestControllerHelper.makeResponse(
-				new TypeMonthlyKills(new MonthlyKillsFilters(types, timeOrder), killService.monthlyStats(types)),
+				new TypeMonthlyKills(types, timeOrder, stats),
 				accept);
 	}
 
@@ -59,7 +76,7 @@ public class MerRestController {
 			Collections.reverse(stats);
 		}
 		return RestControllerHelper.makeResponse(
-				new TypeMonthlyKills(new MonthlyKillsFilters(types, timeOrder), killService.monthlyStats(types)),
+				new TypeMonthlyKills(types, timeOrder, stats),
 				accept);
 	}
 

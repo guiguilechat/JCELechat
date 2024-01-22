@@ -1,8 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.mer.services;
 
 import java.time.Instant;
-import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 import java.util.List;
 
@@ -26,17 +24,13 @@ public class KillService {
 		return repo.save(entity);
 	}
 
-	public static record MonthlyStats(String month, long nbKills, double totalMIskLost, double medianMIskLost,
-			double averageMIskLost) {
-
-		static final DateTimeFormatter format = DateTimeFormatter.ofPattern("YYYY-MM");
+	public static record MonthlyStats(Instant month, long nbKills, double totalIskLost, double medianIskLost) {
 
 		public MonthlyStats(Object[] line) {
-			this(format.format(((Instant) line[0]).atOffset(ZoneOffset.UTC)),
+			this((Instant) line[0],
 					(long) line[1],
-					(double) line[2] / 1000000,
-					(double) line[3] / 1000000,
-					(double) line[2] / 1000000 / (long) line[1]);
+					(double) line[2],
+					(double) line[3]);
 		}
 
 	}
