@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.mer.services;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -15,6 +14,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.mer.MERFetcher;
+import fr.guiguilechat.jcelechat.libs.mer.MERFetcher.MERFetch;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -30,14 +31,16 @@ public class MerUpdateScheduler {
 	@Scheduled(fixedRateString = "${mer.updater.fetchperiod:600000}", initialDelayString = "${mer.updater.fetchdelay:20000}")
 	public void updateMers() {
 		long startMs = System.currentTimeMillis();
-		List<LocalDate> localdates = new ArrayList<>(merUpdateService.nextFetches());
+		List<MERFetch> merFetches = new ArrayList<>(
+				merUpdateService.nextFetches().stream().map(ld -> MERFetcher.INSTANCE.forDate(ld))
+						.filter(mf -> mf.url() != null).toList());
 		Random rand = new Random();
-		while (localdates.size() > maxFetches) {
-			localdates.remove(rand.nextInt(localdates.size()));
+		while (merFetches.size() > maxFetches) {
+			merFetches.remove(rand.nextInt(merFetches.size()));
 		}
-		log.info("updating " + localdates.size() + " mers out of " + merUpdateService.nextFetches().size());
-		Map<LocalDate, CompletableFuture<Void>> futures = localdates.stream()
-				.collect(Collectors.toMap(ld -> ld, ld -> merUpdateService.loadMer(ld).orTimeout(5, TimeUnit.MINUTES)));
+		log.info("updating " + merFetches.size() + " mers out of " + merUpdateService.nextFetches().size());
+		Map<MERFetch, CompletableFuture<Void>> futures = merFetches.stream()
+				.collect(Collectors.toMap(mf -> mf, mf -> merUpdateService.loadMer(mf).orTimeout(5, TimeUnit.MINUTES)));
 		futures.entrySet().forEach(f -> {
 			try {
 				f.getValue().join();
@@ -46,7 +49,7 @@ public class MerUpdateScheduler {
 			}
 		});
 		long endMs = System.currentTimeMillis();
-		log.info(" updated " + localdates.size() + " mers in " + (int) Math.ceil(0.001 * (endMs - startMs))
+		log.info(" updated " + merFetches.size() + " mers in " + (int) Math.ceil(0.001 * (endMs - startMs))
 				+ "s , remaining " + merUpdateService.nextFetches().size());
 	}
 

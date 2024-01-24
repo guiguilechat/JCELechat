@@ -29,19 +29,19 @@ public class MerUpdateService {
 
 	@Async
 	@Transactional
-	public CompletableFuture<Void> loadMer(LocalDate localdate) {
+	public CompletableFuture<Void> loadMer(MERFetch merfetch) {
 		Instant start = Instant.now();
-		MERFetch merfetch = MERFetcher.INSTANCE.forDate(localdate);
+		LocalDate localdate = merfetch.date();
 		if (merfetch.data() != null) {
-			LoadedMer loadedmer = loadedMerService.save(
+			LoadedMer loadedMer = loadedMerService.save(
 					LoadedMer.builder()
 							.periodMonth(localdate)
 							.startLoad(start)
 							.build());
 			MER mer = new MER(merfetch).load();
-			killService.saveAll(mer.getKillDumpEntries().stream().map(kde -> Kill.from(kde, loadedmer)).toList());
-			loadedmer.setEndLoad(Instant.now());
-			loadedMerService.save(loadedmer);
+			killService.saveAll(mer.getKillDumpEntries().stream().map(kde -> Kill.from(kde, loadedMer)).toList());
+			loadedMer.setEndLoad(Instant.now());
+			loadedMerService.save(loadedMer);
 			log.info(" loaded MER for date " + localdate);
 		} else {
 			if (merfetch.error() == null) {
