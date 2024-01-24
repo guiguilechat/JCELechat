@@ -24,6 +24,9 @@ public class MarketSyncService {
 	@Autowired
 	private ObservedRegionService orService;
 
+	@Autowired
+	private KillDataService killDataService;
+
 	@Scheduled(fixedRateString = "${proxy.sync.fetchperiod:3600000}", initialDelayString = "${proxy.sync.fetchdelay:30000}")
 	public void observeAllEveUni() {
 		Set<Integer> observed = orService.listActive().stream().map(ObservedRegion::getRegionId)
@@ -34,8 +37,13 @@ public class MarketSyncService {
 			log.info("adding " + toObserve.size() + " new market regions to observe");
 		}
 		for (Region r : toObserve) {
-				orService.activate(r.getRegionId());
+			orService.activate(r.getRegionId());
 		}
+	}
+
+	@Scheduled(fixedRateString = "${proxy.sync.killperiod:60000}", initialDelayString = "${proxy.sync.killdelay:30000}")
+	public void updateKillData() {
+		killDataService.createMissing();
 	}
 
 }
