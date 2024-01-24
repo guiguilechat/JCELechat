@@ -19,6 +19,7 @@ public class SolarSystemService {
 	}
 
 	public List<SolarSystem> saveAll(Iterable<SolarSystem> entities) {
+		entities.forEach(SolarSystem::updateValues);
 		return repo.saveAll(entities);
 	}
 

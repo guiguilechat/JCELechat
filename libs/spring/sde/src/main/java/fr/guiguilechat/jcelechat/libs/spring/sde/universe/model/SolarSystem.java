@@ -1,6 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.model;
 
+import java.util.Objects;
+
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
@@ -52,6 +56,57 @@ public class SolarSystem {
 	private int sunTypeID;
 	private String visualEffect;
 	private int wormholeClassId;
+
+	public static enum SysSpace {
+
+		AbyssalSpace(false),
+		HighsecuritySpace(true),
+		LowsecuritySpace(true),
+		NullsecuritySpace(true),
+		TutorialSpace(false),
+		WormholeSpace(false),
+		UNKNOWN(false);
+
+		private SysSpace(boolean isKS) {
+			this.isKS = isKS;
+		}
+
+		/**
+		 * true when the system can be reached using star gates (known system)
+		 */
+		public final boolean isKS;
+	}
+
+	@Enumerated(EnumType.STRING)
+	private SysSpace space;
+
+	private boolean isKs;
+
+	public void updateValues() {
+		switch (Objects.requireNonNullElse(getConstellation().getRegion().getUniverse(), "")) {
+			case "abyssal":
+				space = SysSpace.AbyssalSpace;
+			break;
+			case "eve":
+				if (getSecurity() > 0.45) {
+					space = SysSpace.HighsecuritySpace;
+				} else if (getSecurity() <= 0.0) {
+					space = SysSpace.NullsecuritySpace;
+				} else {
+					space = SysSpace.LowsecuritySpace;
+				}
+			break;
+			case "void":
+				space = SysSpace.TutorialSpace;
+			break;
+			case "wormhole":
+				space = SysSpace.WormholeSpace;
+			break;
+			default:
+				space = SysSpace.UNKNOWN;
+		}
+		isKs = space.isKS;
+	}
 
 
 	public static SolarSystem from(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem source,
